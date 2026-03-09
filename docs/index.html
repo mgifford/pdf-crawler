@@ -101,11 +101,13 @@
     <a href="report.html" class="btn-secondary">📊 View Scan Results</a>
   </div>
 
-  <h2 id="submit-via-github-issues">Submit a Crawl Request</h2>
+  <span id="submit-via-github-issues" aria-hidden="true"></span>
+  <h2 id="quick-start">Quick Start</h2>
   <p>
-    Fill in the URL below and click <strong>Open GitHub Issue</strong>.
-    You will be taken to GitHub with a pre-filled issue title and body —
-    just click <em>Submit new issue</em> to start the crawl.
+    Enter a site URL below and click <strong>Submit Crawl Request</strong>.
+    You will be taken to GitHub with a pre-filled issue titled
+    <code>SCAN: https://…</code> — just click <em>Submit new issue</em> to
+    start the crawl.
   </p>
 
   <form id="crawl-form" novalidate>
@@ -126,7 +128,7 @@
 
     <div id="validation-preview" aria-live="polite"></div>
 
-    <button type="submit">Open GitHub Issue →</button>
+    <button type="submit">Submit Crawl Request →</button>
   </form>
 
   <p class="hint">
@@ -137,7 +139,7 @@
 
   <h2>How it works</h2>
   <ol class="steps">
-    <li>Fill in the form above and click <strong>Open GitHub Issue</strong>.</li>
+    <li>Fill in the form above and click <strong>Submit Crawl Request</strong>.</li>
     <li>
       You are redirected to GitHub to create a
       <code>SCAN:</code> issue, which triggers the
@@ -194,7 +196,7 @@
           message = `<span class="invalid-url">❌ Private / localhost URLs are not allowed.</span>`;
         } else {
           valid = true;
-          message = `<span class="valid-url">✅ Valid URL: <strong>${url.href}</strong></span>`;
+          message = `<span class="valid-url">✅ Valid URL — issue will be titled: <strong>SCAN: ${url.href}</strong></span>`;
         }
       } catch {
         message = `<span class="invalid-url">❌ Not a valid URL.</span>`;
