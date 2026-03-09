@@ -81,7 +81,7 @@
     <li>Fill in the form below and click <strong>Submit Crawl Request</strong>.</li>
     <li>
       You are redirected to GitHub to create a
-      <code>PDF-CRAWL:</code> issue, which triggers the
+      <code>SCAN:</code> issue, which triggers the
       <em>Crawl Site for PDFs</em> workflow (runs up to 1 hour).
     </li>
     <li>
@@ -188,11 +188,11 @@
         if (isPrivateOrLocalhost(url)) return;
       } catch { return; }
 
-      const issueTitle = encodeURIComponent(`PDF-CRAWL: ${url}`);
+      const issueTitle = encodeURIComponent(`SCAN: ${url}`);
       const issueBody  = encodeURIComponent(
-        `## Crawl Request\n\n**URL:** ${url}\n\n${notes ? `**Notes:** ${notes}\n\n` : ''}` +
+        `## Scan Request\n\n**URL:** ${url}\n\n${notes ? `**Notes:** ${notes}\n\n` : ''}` +
         `This issue was submitted via the [PDF Crawler form](https://${REPO_OWNER}.github.io/${REPO_NAME}/).\n\n` +
-        `The \`PDF-CRAWL:\` prefix will automatically trigger the crawl workflow.`
+        `The \`SCAN:\` prefix will automatically trigger the crawl workflow.`
       );
 
       const githubUrl =

@@ -37,10 +37,27 @@ and deployable entirely on GitHub Pages + GitHub Actions – no server needed.
 
 Open the [PDF Crawler form](https://mgifford.github.io/pdf-crawler/), enter a
 URL, and click **Submit Crawl Request**.  This opens a pre-filled GitHub issue
-with the `PDF-CRAWL:` prefix, which automatically triggers the
+with the `SCAN:` prefix, which automatically triggers the
 *1 – Crawl Site for PDFs* workflow.
 
-### 2 – Trigger manually
+### 2 – Submit a crawl via GitHub Issues
+
+Open a new issue in this repository and set the title to:
+
+```
+SCAN: https://example.com
+```
+
+The `SCAN:` prefix triggers the *Crawl Site for PDFs* workflow automatically.
+The workflow will post a comment when the crawl starts and another comment with
+the full accessibility report links when analysis is complete.
+
+> **Note:** Issues are only processed once when **opened**.  Editing the issue
+> body will not re-trigger a scan, so there is no risk of accidental recurring
+> scans.  The legacy `PDF-CRAWL:` prefix is still accepted for backward
+> compatibility.
+
+### 3 – Trigger manually
 
 Go to **Actions → 1 – Crawl Site for PDFs → Run workflow** and enter the URL
 you want to crawl.
@@ -54,7 +71,7 @@ starts automatically.  You can also trigger it manually.
 
 | Workflow | File | Trigger |
 |----------|------|---------|
-| Crawl Site for PDFs | `.github/workflows/crawl.yml` | Manual dispatch or issue with `PDF-CRAWL:` title |
+| Crawl Site for PDFs | `.github/workflows/crawl.yml` | Manual dispatch or issue opened with `SCAN:` title (legacy: `PDF-CRAWL:`) |
 | Analyse PDFs for Accessibility | `.github/workflows/analyse.yml` | After crawl succeeds, or manual dispatch |
 
 ---
