@@ -1,0 +1,93 @@
+name: "2 - Analyse PDFs for Accessibility"
+
+on:
+  workflow_dispatch:
+    inputs:
+      keep_files:
+        description: "Keep downloaded PDF files after analysis (default: false)"
+        required: false
+        default: "false"
+        type: string
+  workflow_run:
+    workflows: ["1 - Crawl Site for PDFs"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  analyse:
+    # When triggered by workflow_run, only run if the crawl succeeded
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'workflow_run' &&
+       github.event.workflow_run.conclusion == 'success')
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download crawled PDFs artifact
+        if: github.event_name == 'workflow_run'
+        uses: actions/download-artifact@v4
+        with:
+          name: crawled-pdfs
+          path: crawled_files/
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Pull latest manifest
+        run: |
+          git pull --rebase origin "${{ github.ref_name }}" || true
+
+      - name: Analyse PDFs for accessibility issues
+        run: |
+          KEEP_FLAG=""
+          if [ "${{ github.event.inputs.keep_files }}" = "true" ]; then
+            KEEP_FLAG="--keep-files"
+          fi
+          python scripts/pdf_analyser.py \
+            --manifest reports/manifest.yaml \
+            --crawled-dir crawled_files \
+            $KEEP_FLAG
+
+      - name: Generate accessibility reports
+        run: |
+          python scripts/generate_report.py \
+            --manifest reports/manifest.yaml \
+            --report-dir reports
+
+      - name: Commit updated manifest and reports
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          if git diff --cached --quiet; then
+            echo "No report changes to commit."
+          else
+            git commit -m "chore: update accessibility reports"
+            git push
+          fi
+
+      - name: Upload accessibility report as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: accessibility-report
+          path: |
+            reports/report.md
+            reports/report.json
+            reports/manifest.yaml
+          retention-days: 30

@@ -1,0 +1,103 @@
+name: "1 - Crawl Site for PDFs"
+
+on:
+  workflow_dispatch:
+    inputs:
+      site_url:
+        description: "Full URL of the site to crawl (e.g. https://example.com)"
+        required: true
+        type: string
+      timeout:
+        description: "Maximum crawl time in seconds (default: 3600)"
+        required: false
+        default: "3600"
+        type: string
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  crawl:
+    # Only run on issue events when the title starts with "PDF-CRAWL:"
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event_name == 'issues' &&
+       startsWith(github.event.issue.title, 'PDF-CRAWL:'))
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Resolve crawl URL and timeout
+        id: params
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "url=${{ github.event.inputs.site_url }}" >> "$GITHUB_OUTPUT"
+            echo "timeout=${{ github.event.inputs.timeout }}" >> "$GITHUB_OUTPUT"
+          else
+            # Extract URL from issue body (first http/https line)
+            ISSUE_BODY="${{ github.event.issue.body }}"
+            URL=$(echo "$ISSUE_BODY" | grep -Eo 'https?://[^ ]+' | head -1)
+            echo "url=$URL" >> "$GITHUB_OUTPUT"
+            echo "timeout=3600" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Pull latest manifest
+        run: |
+          git pull --rebase origin "${{ github.ref_name }}" || true
+
+      - name: Run PDF crawler
+        run: |
+          python scripts/crawl.py \
+            --url "${{ steps.params.outputs.url }}" \
+            --manifest reports/manifest.yaml \
+            --output-dir crawled_files \
+            --timeout "${{ steps.params.outputs.timeout }}"
+
+      - name: Commit updated manifest
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/manifest.yaml
+          if git diff --cached --quiet; then
+            echo "No manifest changes to commit."
+          else
+            git commit -m "chore: update manifest after crawl of ${{ steps.params.outputs.url }}"
+            git push
+          fi
+
+      - name: Upload crawled files as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: crawled-pdfs
+          path: crawled_files/
+          retention-days: 1
+          if-no-files-found: warn
+
+      - name: Comment on issue (if triggered by issue)
+        if: github.event_name == 'issues'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: `✅ **Crawl complete** for \`${{ steps.params.outputs.url }}\`.\n\nThe manifest has been updated. Run the **"2 - Analyse PDFs for Accessibility"** workflow to assess the downloaded files.`
+            })

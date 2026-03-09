@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Crawler</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: #1a1a2e;
+      background: #f8f9fa;
+    }
+
+    h1 { color: #0d6efd; }
+    h2 { margin-top: 2rem; }
+
+    label { display: block; margin-bottom: 0.4rem; font-weight: 600; }
+
+    input[type="url"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 0.5rem 0.75rem;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    textarea { resize: vertical; }
+
+    button {
+      background: #0d6efd;
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1.4rem;
+      border-radius: 0.375rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover { background: #0b5ed7; }
+
+    .hint { font-size: 0.85rem; color: #6c757d; margin-top: -0.75rem; margin-bottom: 1rem; }
+
+    #validation-preview {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      display: none;
+    }
+
+    .valid-url   { color: #198754; }
+    .invalid-url { color: #dc3545; }
+
+    .steps { counter-reset: step; }
+    .steps li { counter-increment: step; margin-bottom: 0.5rem; }
+    .steps li::marker { content: counter(step) ". "; font-weight: 700; }
+
+    footer { margin-top: 3rem; font-size: 0.8rem; color: #6c757d; border-top: 1px solid #dee2e6; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+
+  <h1>🔍 PDF Accessibility Crawler</h1>
+  <p>
+    Submit a website URL to discover all PDF files it contains and assess their
+    accessibility using the checks from
+    <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+       target="_blank" rel="noopener">simplA11yPDFCrawler</a>.
+  </p>
+
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li>Fill in the form below and click <strong>Submit Crawl Request</strong>.</li>
+    <li>
+      You are redirected to GitHub to create a
+      <code>PDF-CRAWL:</code> issue, which triggers the
+      <em>Crawl Site for PDFs</em> workflow (runs up to 1 hour).
+    </li>
+    <li>
+      Once the crawl is complete, the
+      <em>Analyse PDFs for Accessibility</em> workflow starts automatically and
+      updates <a href="reports/report.md">reports/report.md</a>.
+    </li>
+    <li>
+      PDFs are deleted after analysis; only the
+      <a href="reports/manifest.yaml">YAML manifest</a> is kept (with MD5
+      hashes, so unchanged files are not rescanned).
+    </li>
+  </ol>
+
+  <h2>Submit a Crawl Request</h2>
+
+  <form id="crawl-form" novalidate>
+    <label for="site-url">Site URL <span aria-hidden="true">*</span></label>
+    <input
+      type="url"
+      id="site-url"
+      name="site_url"
+      placeholder="https://example.com"
+      required
+      aria-describedby="url-hint"
+    />
+    <p class="hint" id="url-hint">Enter the full URL including <code>https://</code>.</p>
+
+    <label for="scan-notes">Notes (optional)</label>
+    <textarea id="scan-notes" name="notes" rows="3"
+      placeholder="Any context about this scan (organisation name, reason for scan, etc.)"></textarea>
+
+    <div id="validation-preview" aria-live="polite"></div>
+
+    <button type="submit">Submit Crawl Request →</button>
+  </form>
+
+  <h2>View Reports</h2>
+  <ul>
+    <li><a href="reports/report.md">Markdown report</a> – human-readable summary of all analysed PDFs</li>
+    <li><a href="reports/report.json">JSON report</a> – machine-readable full results</li>
+    <li><a href="reports/manifest.yaml">YAML manifest</a> – complete tracking file with MD5 hashes</li>
+  </ul>
+
+  <script>
+    const REPO_OWNER = 'mgifford';
+    const REPO_NAME  = 'pdf-crawler';
+
+    const form     = document.getElementById('crawl-form');
+    const urlInput = document.getElementById('site-url');
+    const preview  = document.getElementById('validation-preview');
+
+    function isPrivateOrLocalhost(url) {
+      try {
+        const { hostname } = new URL(url);
+        if (hostname === 'localhost' || hostname === '127.0.0.1' || hostname === '::1') return true;
+        const privateRanges = [
+          /^10\./,
+          /^172\.(1[6-9]|2\d|3[01])\./,
+          /^192\.168\./,
+          /^169\.254\./,
+        ];
+        return privateRanges.some(r => r.test(hostname));
+      } catch {
+        return false;
+      }
+    }
+
+    urlInput.addEventListener('input', () => {
+      const raw = urlInput.value.trim();
+      if (!raw) { preview.style.display = 'none'; return; }
+
+      let valid = false;
+      let message = '';
+
+      try {
+        const url = new URL(raw);
+        if (!['http:', 'https:'].includes(url.protocol)) {
+          message = `<span class="invalid-url">❌ Only http:// and https:// URLs are accepted.</span>`;
+        } else if (isPrivateOrLocalhost(raw)) {
+          message = `<span class="invalid-url">❌ Private / localhost URLs are not allowed.</span>`;
+        } else {
+          valid = true;
+          message = `<span class="valid-url">✅ Valid URL: <strong>${url.href}</strong></span>`;
+        }
+      } catch {
+        message = `<span class="invalid-url">❌ Not a valid URL.</span>`;
+      }
+
+      preview.innerHTML = message;
+      preview.style.display = 'block';
+    });
+
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const url   = urlInput.value.trim();
+      const notes = document.getElementById('scan-notes').value.trim();
+
+      if (!url) { urlInput.focus(); return; }
+
+      try {
+        const parsed = new URL(url);
+        if (!['http:', 'https:'].includes(parsed.protocol)) return;
+        if (isPrivateOrLocalhost(url)) return;
+      } catch { return; }
+
+      const issueTitle = encodeURIComponent(`PDF-CRAWL: ${url}`);
+      const issueBody  = encodeURIComponent(
+        `## Crawl Request\n\n**URL:** ${url}\n\n${notes ? `**Notes:** ${notes}\n\n` : ''}` +
+        `This issue was submitted via the [PDF Crawler form](https://${REPO_OWNER}.github.io/${REPO_NAME}/).\n\n` +
+        `The \`PDF-CRAWL:\` prefix will automatically trigger the crawl workflow.`
+      );
+
+      const githubUrl =
+        `https://github.com/${REPO_OWNER}/${REPO_NAME}/issues/new` +
+        `?title=${issueTitle}&body=${issueBody}&labels=pdf-crawl`;
+
+      window.open(githubUrl, '_blank', 'noopener,noreferrer');
+    });
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+</body>
+</html>
