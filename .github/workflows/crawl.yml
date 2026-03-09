@@ -23,6 +23,26 @@ permissions:
   issues: write
 
 jobs:
+  # ---------------------------------------------------------------------------
+  # Job 0: inform the issue author when their issue is not a scan request
+  # ---------------------------------------------------------------------------
+  note_not_scan_request:
+    # Only fire for issues whose title does NOT match either recognised prefix.
+    # workflow_dispatch runs skip this job entirely.
+    if: >-
+      github.event_name == 'issues' &&
+      !startsWith(github.event.issue.title, 'SCAN:') &&
+      !startsWith(github.event.issue.title, 'PDF-CRAWL:')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log – not a scan request
+        run: |
+          echo "Issue #${{ github.event.issue.number }} (\"${{ github.event.issue.title }}\") does not start with 'SCAN:' or 'PDF-CRAWL:'."
+          echo "No crawl will be started. To request a scan, open an issue whose title begins with 'SCAN: https://example.com'."
+
+  # ---------------------------------------------------------------------------
+  # Job 1: crawl the site for PDFs
+  # ---------------------------------------------------------------------------
   crawl:
     # Run on manual dispatch, or when an issue title starts with "SCAN:" or
     # the legacy "PDF-CRAWL:" prefix.
