@@ -1,4 +1,4 @@
-"""Tests for scripts/crawl.py – focused on normalize_url()."""
+"""Tests for scripts/crawl.py – focused on normalize_url() and _site_folder()."""
 
 import sys
 from pathlib import Path
@@ -8,7 +8,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from crawl import normalize_url, _URL_PREFIXES
+from crawl import normalize_url, _URL_PREFIXES, _site_folder
 
 
 # ---------------------------------------------------------------------------
@@ -184,3 +184,60 @@ def test_leading_slashes_stripped():
         mock_open.return_value = _make_response(200)
         result = normalize_url("//example.com")
     assert result == "https://example.com"
+
+
+# ---------------------------------------------------------------------------
+# normalize_url – hostname case normalisation
+# ---------------------------------------------------------------------------
+
+def test_mixed_case_hostname_lowercased():
+    """https:// URL with a mixed-case hostname is returned with the hostname lowercased."""
+    result = normalize_url("https://www.Ontario.ca/page")
+    assert result == "https://www.ontario.ca/page"
+
+
+def test_uppercase_hostname_lowercased():
+    """All-uppercase hostname is lowercased."""
+    result = normalize_url("https://WWW.EXAMPLE.COM/path")
+    assert result == "https://www.example.com/path"
+
+
+def test_already_lowercase_https_unchanged():
+    """A fully-lowercase https:// URL is returned as-is (no unnecessary rebuild)."""
+    url = "https://www.example.com/path"
+    assert normalize_url(url) == url
+
+
+def test_http_mixed_case_hostname_lowercased():
+    """http:// URL with mixed-case hostname is also normalised."""
+    result = normalize_url("http://Example.COM/index.html")
+    assert result == "http://example.com/index.html"
+
+
+# ---------------------------------------------------------------------------
+# _site_folder
+# ---------------------------------------------------------------------------
+
+def test_site_folder_strips_www_prefix():
+    """www. prefix should be removed to produce a clean folder name."""
+    assert _site_folder("www.ontario.ca") == "ontario.ca"
+
+
+def test_site_folder_strips_www_from_mixed_case():
+    """Mixed-case netloc is lowercased and www. is stripped."""
+    assert _site_folder("www.Ontario.ca") == "ontario.ca"
+
+
+def test_site_folder_no_www_prefix():
+    """A netloc without www. is just lowercased."""
+    assert _site_folder("docs.example.com") == "docs.example.com"
+
+
+def test_site_folder_already_lowercase_no_www():
+    """Already-clean netloc is returned unchanged."""
+    assert _site_folder("example.com") == "example.com"
+
+
+def test_site_folder_uppercase_no_www():
+    """Uppercase netloc without www. is still lowercased."""
+    assert _site_folder("EXAMPLE.COM") == "example.com"

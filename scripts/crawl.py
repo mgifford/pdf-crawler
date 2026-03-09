@@ -18,7 +18,7 @@ import re
 import subprocess
 import sys
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlunparse
 from urllib.request import urlopen
 from urllib.error import URLError
 
@@ -36,11 +36,29 @@ _URL_PREFIXES = [
 ]
 
 
+def _site_folder(netloc: str) -> str:
+    """Return a clean, normalized folder name derived from a URL hostname.
+
+    Lowercases *netloc* and strips a leading ``www.`` prefix so that crawled
+    files for ``www.Ontario.ca`` end up in ``crawled_files/ontario.ca/`` rather
+    than ``crawled_files/www.Ontario.ca/``.
+
+    Args:
+        netloc: The network location component of a URL (e.g. ``www.ontario.ca``).
+
+    Returns:
+        A lowercase domain string without a leading ``www.`` prefix.
+    """
+    netloc = netloc.lower()
+    return netloc.removeprefix("www.")
+
+
 def normalize_url(url: str, timeout: int = 15) -> str:
     """Return a fully-qualified URL for *url*, probing protocol variants if needed.
 
     If *url* already starts with ``http://`` or ``https://`` it is returned
-    unchanged.  Otherwise the function tries each entry in ``_URL_PREFIXES``
+    with the hostname lowercased (HTTP hostnames are case-insensitive).
+    Otherwise the function tries each entry in ``_URL_PREFIXES``
     (in order) and returns the first one that responds with an HTTP 2xx or 3xx
     status.  If none of the variants respond successfully, ``https://<url>`` is
     returned as a safe fallback so that the caller can still attempt the crawl.
@@ -53,6 +71,11 @@ def normalize_url(url: str, timeout: int = 15) -> str:
         A URL string that begins with ``https://`` or ``http://``.
     """
     if url.startswith("http://") or url.startswith("https://"):
+        # Normalize the hostname to lowercase so that mixed-case URLs such as
+        # "https://www.Ontario.ca" are treated consistently everywhere.
+        parsed = urlparse(url)
+        if parsed.netloc and parsed.netloc != parsed.netloc.lower():
+            url = urlunparse(parsed._replace(netloc=parsed.netloc.lower()))
         return url
 
     # Strip any leading slashes that might have been included accidentally.
@@ -107,7 +130,7 @@ def update_manifest(
 ) -> None:
     """Walk the crawled output directory and update the manifest."""
     parsed = urlparse(url)
-    site = parsed.netloc
+    site = _site_folder(parsed.netloc)
     site_dir = Path(output_dir) / site
 
     entries = load_manifest(manifest_path)

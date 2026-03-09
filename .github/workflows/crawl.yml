@@ -280,13 +280,15 @@ jobs:
           echo "$ISSUE_NUMBER" > scan-meta/issue_number.txt
           echo "$CRAWL_URL"    > scan-meta/crawl_url.txt
           echo "$CRAWL_NOTES"  > scan-meta/notes.txt
-          # Extract and save the site/domain for per-site scoping in the analysis step
+          # Extract and save the site/domain for per-site scoping in the analysis step.
+          # This mirrors the _site_folder() helper in scripts/crawl.py: lowercase the
+          # netloc and strip a leading www. prefix (e.g. www.Ontario.ca → ontario.ca).
           python3 -c "
           from urllib.parse import urlparse
-          import os, sys
+          import os
           url = os.environ.get('CRAWL_URL', '')
-          site = urlparse(url).netloc
-          print(site)
+          netloc = urlparse(url).netloc.lower()
+          print(netloc.removeprefix('www.'))
           " > scan-meta/crawl_site.txt
 
       - name: Upload crawled files as artifact
