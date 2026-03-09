@@ -18,6 +18,21 @@ permissions:
 
 jobs:
   # ---------------------------------------------------------------------------
+  # Job 0: explain why the crawl was skipped (non-scan issue or title mismatch)
+  # ---------------------------------------------------------------------------
+  note_crawl_skipped:
+    if: >-
+      github.event_name == 'workflow_run' &&
+      github.event.workflow_run.conclusion == 'skipped'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log – crawl workflow was skipped
+        run: |
+          echo "The crawl workflow run ${{ github.event.workflow_run.id }} concluded with 'skipped'."
+          echo "This typically means the triggering issue title did not start with 'SCAN:' or 'PDF-CRAWL:'."
+          echo "No analysis is needed. This is expected behaviour for non-scan issues."
+
+  # ---------------------------------------------------------------------------
   # Job 1: report a failed upstream crawl back to the originating issue
   # ---------------------------------------------------------------------------
   report_crawl_failure:
