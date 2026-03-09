@@ -1,5 +1,6 @@
 """Tests for scripts/crawl.py – focused on normalize_url(), _site_folder(), and run_scrapy()."""
 
+import json
 import sys
 from pathlib import Path
 from unittest.mock import MagicMock, patch
@@ -281,3 +282,97 @@ def test_run_scrapy_passes_max_pages_one():
     assert "-s" in cmd
     idx = cmd.index("-s")
     assert cmd[idx + 1] == "CLOSESPIDER_PAGECOUNT=1"
+
+
+# ---------------------------------------------------------------------------
+# update_manifest – URL map (_url_map.json) tests
+# ---------------------------------------------------------------------------
+
+def test_update_manifest_uses_url_map_when_present(tmp_path):
+    """update_manifest should use the real URL from _url_map.json."""
+    from crawl import update_manifest
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    (site_dir / "doc.pdf").write_bytes(b"%PDF fake")
+    real_url = "https://www.example.com/en/docs/deep/path/doc.pdf"
+    url_map = {"doc.pdf": real_url}
+    (site_dir / "_url_map.json").write_text(json.dumps(url_map), encoding="utf-8")
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(f"https://{site}", str(output_dir), str(manifest_path))
+
+    from manifest import load_manifest
+    entries = load_manifest(str(manifest_path))
+    urls = [e["url"] for e in entries]
+    assert real_url in urls
+
+
+def test_update_manifest_falls_back_without_url_map(tmp_path):
+    """update_manifest should fall back to best-guess URL when no _url_map.json exists."""
+    from crawl import update_manifest
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    (site_dir / "report.pdf").write_bytes(b"%PDF fake")
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(f"https://{site}", str(output_dir), str(manifest_path))
+
+    from manifest import load_manifest
+    entries = load_manifest(str(manifest_path))
+    urls = [e["url"] for e in entries]
+    assert f"https://{site}/report.pdf" in urls
+
+
+def test_update_manifest_partial_url_map_uses_fallback(tmp_path):
+    """When a file is missing from _url_map.json, the fallback URL is used."""
+    from crawl import update_manifest
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    (site_dir / "mapped.pdf").write_bytes(b"%PDF fake1")
+    (site_dir / "unmapped.pdf").write_bytes(b"%PDF fake2")
+    real_url = "https://www.example.com/deep/mapped.pdf"
+    url_map = {"mapped.pdf": real_url}
+    (site_dir / "_url_map.json").write_text(json.dumps(url_map), encoding="utf-8")
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(f"https://{site}", str(output_dir), str(manifest_path))
+
+    from manifest import load_manifest
+    entries = load_manifest(str(manifest_path))
+    urls = [e["url"] for e in entries]
+    assert real_url in urls
+    assert f"https://{site}/unmapped.pdf" in urls
+
+
+def test_update_manifest_skips_url_map_json(tmp_path):
+    """_url_map.json itself should NOT appear as a manifest entry."""
+    from crawl import update_manifest
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    (site_dir / "doc.pdf").write_bytes(b"%PDF fake")
+    url_map = {"doc.pdf": "https://www.example.com/doc.pdf"}
+    (site_dir / "_url_map.json").write_text(json.dumps(url_map), encoding="utf-8")
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(f"https://{site}", str(output_dir), str(manifest_path))
+
+    from manifest import load_manifest
+    entries = load_manifest(str(manifest_path))
+    urls = [e["url"] for e in entries]
+    assert not any("_url_map.json" in u for u in urls)
