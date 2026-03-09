@@ -296,8 +296,230 @@ def generate_issue_comment(
 
 
 # ---------------------------------------------------------------------------
-# CLI entry point
+# HTML report
 # ---------------------------------------------------------------------------
+
+_HTML_TEMPLATE = """\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <style>
+    *, *::before, *::after {{ box-sizing: border-box; }}
+
+    body {{
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: #1a1a2e;
+      background: #f8f9fa;
+    }}
+
+    nav {{ margin-bottom: 1.5rem; }}
+    nav a {{ color: #0d6efd; text-decoration: none; }}
+    nav a:hover {{ text-decoration: underline; }}
+
+    h1 {{ color: #0d6efd; }}
+    h2 {{ margin-top: 2rem; }}
+
+    #generated-at {{ font-size: 0.85rem; color: #6c757d; margin-top: -0.5rem; }}
+
+    .stats-grid {{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }}
+    .stat-card {{
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }}
+    .stat-card .value {{
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0d6efd;
+      line-height: 1.1;
+    }}
+    .stat-card .label {{ font-size: 0.8rem; color: #6c757d; margin-top: 0.25rem; }}
+
+    table {{ width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }}
+    th {{
+      background: #e9ecef;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid #dee2e6;
+    }}
+    td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: top; }}
+    tr:last-child td {{ border-bottom: none; }}
+    tr:nth-child(even) td {{ background: #f8f9fa; }}
+
+    .pass {{ color: #198754; }}
+    .fail {{ color: #dc3545; }}
+    .na   {{ color: #6c757d; }}
+
+    a {{ color: #0d6efd; }}
+
+    .empty-state {{
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: #6c757d;
+    }}
+
+    footer {{
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+      padding-top: 1rem;
+    }}
+  </style>
+</head>
+<body>
+
+  <nav><a href="./">&#8592; Back to submission form</a></nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{json_data}
+  </script>
+
+  <script>
+    (function () {{
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {{}};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {{
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }}
+
+      // Generated-at timestamp
+      if (summary.generated_at) {{
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }}
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        {{ value: summary.total_files,         label: 'Total PDFs' }},
+        {{ value: summary.analysed,            label: 'Analysed' }},
+        {{ value: summary.accessible,          label: '&#x2705; Accessible' }},
+        {{ value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' }},
+        {{ value: summary.pending,             label: '&#x23F3; Pending' }},
+        {{ value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' }},
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {{
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      }});
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {{}};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {{
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {{
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        }});
+        html += '</tbody></table>';
+      }}
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) {{ return f.status === 'analysed'; }});
+      if (analysed.length) {{
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table><thead><tr>' +
+          '<th>File</th><th>Site</th><th>Notes</th><th>Accessible</th>' +
+          '<th>Tagged</th><th>Title</th><th>Language</th><th>Bookmarks</th><th>Pages</th>' +
+          '</tr></thead><tbody>';
+        analysed.forEach(function (f) {{
+          var r = f.report || {{}};
+          html += '<tr>' +
+            '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' +
+              esc(f.filename || f.url) + '</a></td>' +
+            '<td>' + esc(f.site || '') + '</td>' +
+            '<td>' + esc(f.notes || '') + '</td>' +
+            '<td>' + icon(r.Accessible)     + '</td>' +
+            '<td>' + icon(r.TaggedTest)     + '</td>' +
+            '<td>' + icon(r.TitleTest)      + '</td>' +
+            '<td>' + icon(r.LanguageTest)   + '</td>' +
+            '<td>' + icon(r.BookmarksTest)  + '</td>' +
+            '<td>' + (r.Pages != null ? r.Pages : '&#x2014;') + '</td>' +
+            '</tr>';
+        }});
+        html += '</tbody></table>';
+      }}
+
+      root.innerHTML = html;
+
+      function icon(v) {{
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }}
+
+      function esc(s) {{
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }}
+    }})();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+</body>
+</html>
+"""
+
+
+def generate_html(entries: List[Dict[str, Any]], stats: Dict[str, Any]) -> str:
+    """Return a standalone HTML page with scan results embedded as JSON."""
+    json_data = json.dumps({"summary": stats, "files": entries}, indent=2, default=str)
+    return _HTML_TEMPLATE.format(json_data=json_data)
+
+
+
 
 def main(
     manifest_path: str = "reports/manifest.yaml",
@@ -307,6 +529,7 @@ def main(
     pages_base: str = "",
     run_url: str = "",
     crawl_url: str = "",
+    html_dir: Optional[str] = None,
 ) -> None:
     entries = load_manifest(manifest_path)
     stats = _summary_stats(entries)
@@ -327,6 +550,14 @@ def main(
         json.dumps(json_data, indent=2, default=str), encoding="utf-8"
     )
     print(f"Written: {json_path}")
+
+    # HTML report for GitHub Pages
+    if html_dir is not None:
+        html_out_dir = Path(html_dir)
+        html_out_dir.mkdir(parents=True, exist_ok=True)
+        html_path = html_out_dir / "report.html"
+        html_path.write_text(generate_html(entries, stats), encoding="utf-8")
+        print(f"Written: {html_path}")
 
     # Optional per-site issue comment
     if issue_comment_file:
@@ -380,6 +611,11 @@ if __name__ == "__main__":
         default="",
         help="The URL that was crawled (shown in the comment header)",
     )
+    parser.add_argument(
+        "--html-dir",
+        default=None,
+        help="Directory to write the HTML report page into (e.g. docs)",
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -389,4 +625,5 @@ if __name__ == "__main__":
         pages_base=args.pages_base,
         run_url=args.run_url,
         crawl_url=args.crawl_url,
+        html_dir=args.html_dir,
     )

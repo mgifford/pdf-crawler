@@ -103,6 +103,7 @@ def update_manifest(
     url: str,
     output_dir: str,
     manifest_path: str,
+    notes: str = "",
 ) -> None:
     """Walk the crawled output directory and update the manifest."""
     parsed = urlparse(url)
@@ -123,7 +124,7 @@ def update_manifest(
         # We record the URL as best-guess; the spider already saved the file
         file_url = f"https://{site}/{file_path.name}"
         print(f"  Processing: {file_url}")
-        entries, needs_scan = upsert_entry(entries, file_url, file_path, site)
+        entries, needs_scan = upsert_entry(entries, file_url, file_path, site, notes=notes)
         if needs_scan:
             new_count += 1
         else:
@@ -160,6 +161,11 @@ def main() -> None:
         default=str(Path(__file__).parent / "pdf_spider.py"),
         help="Path to the Scrapy spider file",
     )
+    parser.add_argument(
+        "--notes",
+        default="",
+        help="Optional notes about this scan (e.g. organisation name, reason for scan)",
+    )
     args = parser.parse_args()
 
     # Ensure output and reports directories exist
@@ -173,7 +179,7 @@ def main() -> None:
     run_scrapy(url, args.output_dir, args.timeout, args.spider)
 
     print("Updating manifest…")
-    update_manifest(url, args.output_dir, args.manifest)
+    update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
 
 
 if __name__ == "__main__":
