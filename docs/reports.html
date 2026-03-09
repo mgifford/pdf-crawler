@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Reports</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: #1a1a2e;
+      background: #f8f9fa;
+    }
+
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: #0d6efd; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    h1 { color: #0d6efd; }
+    h2 { margin-top: 2rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: #e9ecef;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid #dee2e6;
+    }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: #f8f9fa; }
+
+    a { color: #0d6efd; }
+
+    .empty-state {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: #6c757d;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav><a href="./">&#8592; Back to submission form</a></nav>
+
+  <h1>&#128202; PDF Accessibility Scan Reports</h1>
+  <p>Historical record of all PDF accessibility scans.</p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="reports-index">
+[]
+  </script>
+
+  <script>
+    (function () {
+      var raw     = document.getElementById('reports-index').textContent;
+      var reports = JSON.parse(raw);
+      var root    = document.getElementById('root');
+
+      if (!reports.length) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan reports yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      var html = '<table><thead><tr>' +
+        '<th>Date</th><th>Site</th><th>Total PDFs</th>' +
+        '<th>&#x2705; Accessible</th><th>&#x274C; Issues</th><th>Report</th>' +
+        '</tr></thead><tbody>';
+
+      reports.forEach(function (r) {
+        var issues  = Math.max(0, (r.analysed || 0) - (r.accessible || 0));
+        var dateStr = r.date ? new Date(r.date).toLocaleString() : '';
+        var siteCell = r.crawl_url
+          ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
+          : esc(r.site || '');
+        var reportLink = '<a href="reports/' + esc(r.archive_file) + '">View report</a>';
+        var workflowLink = r.run_url
+          ? ' &nbsp; <a href="' + esc(r.run_url) + '" target="_blank" rel="noopener">Workflow</a>'
+          : '';
+        html += '<tr>' +
+          '<td>' + esc(dateStr) + '</td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (r.total || 0) + '</td>' +
+          '<td>' + (r.accessible || 0) + '</td>' +
+          '<td>' + issues + '</td>' +
+          '<td>' + reportLink + workflowLink + '</td>' +
+          '</tr>';
+      });
+
+      html += '</tbody></table>';
+      root.innerHTML = html;
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+</body>
+</html>

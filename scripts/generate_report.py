@@ -13,6 +13,7 @@ Usage:
 from __future__ import annotations
 
 import json
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -286,6 +287,8 @@ def generate_issue_comment(
     lines += [
         "## Full Reports",
         "",
+        f"- [HTML report]({pages_base}/report.html)",
+        f"- [Reports history]({pages_base}/reports.html)",
         f"- [Markdown report]({pages_base}/reports/report.md)",
         f"- [JSON report]({pages_base}/reports/report.json)",
         f"- [YAML manifest]({pages_base}/reports/manifest.yaml)",
@@ -385,7 +388,7 @@ _HTML_TEMPLATE = """\
 </head>
 <body>
 
-  <nav><a href="./">&#8592; Back to submission form</a></nav>
+  <nav><a href="{back_url}">&#8592; {back_label}</a></nav>
 
   <h1>&#128202; PDF Accessibility Scan Results</h1>
   <p id="generated-at"></p>
@@ -513,12 +516,167 @@ _HTML_TEMPLATE = """\
 """
 
 
-def generate_html(entries: List[Dict[str, Any]], stats: Dict[str, Any]) -> str:
+def generate_html(
+    entries: List[Dict[str, Any]],
+    stats: Dict[str, Any],
+    back_url: str = "./",
+    back_label: str = "Back to submission form",
+) -> str:
     """Return a standalone HTML page with scan results embedded as JSON."""
     json_data = json.dumps({"summary": stats, "files": entries}, indent=2, default=str)
-    return _HTML_TEMPLATE.format(json_data=json_data)
+    return _HTML_TEMPLATE.format(json_data=json_data, back_url=back_url, back_label=back_label)
 
 
+# ---------------------------------------------------------------------------
+# Reports index HTML (historical scans)
+# ---------------------------------------------------------------------------
+
+_REPORTS_INDEX_TEMPLATE = """\
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Reports</title>
+  <style>
+    *, *::before, *::after {{ box-sizing: border-box; }}
+
+    body {{
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: #1a1a2e;
+      background: #f8f9fa;
+    }}
+
+    nav {{ margin-bottom: 1.5rem; }}
+    nav a {{ color: #0d6efd; text-decoration: none; }}
+    nav a:hover {{ text-decoration: underline; }}
+
+    h1 {{ color: #0d6efd; }}
+    h2 {{ margin-top: 2rem; }}
+
+    table {{ width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }}
+    th {{
+      background: #e9ecef;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid #dee2e6;
+    }}
+    td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: top; }}
+    tr:last-child td {{ border-bottom: none; }}
+    tr:nth-child(even) td {{ background: #f8f9fa; }}
+
+    a {{ color: #0d6efd; }}
+
+    .empty-state {{
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: #6c757d;
+    }}
+
+    footer {{
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+      padding-top: 1rem;
+    }}
+  </style>
+</head>
+<body>
+
+  <nav><a href="./">&#8592; Back to submission form</a></nav>
+
+  <h1>&#128202; PDF Accessibility Scan Reports</h1>
+  <p>Historical record of all PDF accessibility scans.</p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="reports-index">
+{json_data}
+  </script>
+
+  <script>
+    (function () {{
+      var raw     = document.getElementById('reports-index').textContent;
+      var reports = JSON.parse(raw);
+      var root    = document.getElementById('root');
+
+      if (!reports.length) {{
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan reports yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }}
+
+      var html = '<table><thead><tr>' +
+        '<th>Date</th><th>Site</th><th>Total PDFs</th>' +
+        '<th>&#x2705; Accessible</th><th>&#x274C; Issues</th><th>Report</th>' +
+        '</tr></thead><tbody>';
+
+      reports.forEach(function (r) {{
+        var issues  = Math.max(0, (r.analysed || 0) - (r.accessible || 0));
+        var dateStr = r.date ? new Date(r.date).toLocaleString() : '';
+        var siteCell = r.crawl_url
+          ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
+          : esc(r.site || '');
+        var reportLink = '<a href="reports/' + esc(r.archive_file) + '">View report</a>';
+        var workflowLink = r.run_url
+          ? ' &nbsp; <a href="' + esc(r.run_url) + '" target="_blank" rel="noopener">Workflow</a>'
+          : '';
+        html += '<tr>' +
+          '<td>' + esc(dateStr) + '</td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (r.total || 0) + '</td>' +
+          '<td>' + (r.accessible || 0) + '</td>' +
+          '<td>' + issues + '</td>' +
+          '<td>' + reportLink + workflowLink + '</td>' +
+          '</tr>';
+      }});
+
+      html += '</tbody></table>';
+      root.innerHTML = html;
+
+      function esc(s) {{
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }}
+    }})();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+</body>
+</html>
+"""
+
+
+def generate_reports_index_html(reports_index: List[Dict[str, Any]]) -> str:
+    """Return a standalone HTML page listing all historical scan reports."""
+    json_data = json.dumps(reports_index, indent=2, default=str)
+    return _REPORTS_INDEX_TEMPLATE.format(json_data=json_data)
 
 
 def main(
@@ -530,6 +688,7 @@ def main(
     run_url: str = "",
     crawl_url: str = "",
     html_dir: Optional[str] = None,
+    archive_dir: Optional[str] = None,
 ) -> None:
     entries = load_manifest(manifest_path)
     stats = _summary_stats(entries)
@@ -558,6 +717,70 @@ def main(
         html_path = html_out_dir / "report.html"
         html_path.write_text(generate_html(entries, stats), encoding="utf-8")
         print(f"Written: {html_path}")
+
+    # Per-scan archive and historical reports index
+    if archive_dir is not None and html_dir is not None:
+        archive_out = Path(archive_dir)
+        archive_out.mkdir(parents=True, exist_ok=True)
+
+        # Build a unique filename from the scan timestamp + site
+        try:
+            scan_dt = datetime.fromisoformat(stats["generated_at"])
+        except Exception:
+            scan_dt = datetime.now(timezone.utc)
+        date_str = scan_dt.strftime("%Y-%m-%d_%H-%M-%S") + f"-{scan_dt.microsecond // 1000:03d}"
+        safe_site = re.sub(r"[^a-zA-Z0-9._-]", "_", site_filter or "all")
+        # Prevent directory traversal sequences in the site component
+        safe_site = safe_site.replace("..", "_").strip(".")
+        archive_name = f"{date_str}_{safe_site}.html"
+
+        # Write archived scan report (links back to the reports index)
+        archive_path = archive_out / archive_name
+        archive_path.write_text(
+            generate_html(
+                entries,
+                stats,
+                back_url="../reports.html",
+                back_label="Back to reports index",
+            ),
+            encoding="utf-8",
+        )
+        print(f"Written: {archive_path}")
+
+        # Update the persistent index JSON (newest first, no duplicates)
+        index_path = archive_out / "index.json"
+        report_index: List[Dict[str, Any]] = []
+        if index_path.exists():
+            try:
+                report_index = json.loads(index_path.read_text(encoding="utf-8"))
+            except Exception:
+                report_index = []
+
+        if not any(e.get("archive_file") == archive_name for e in report_index):
+            report_index.insert(
+                0,
+                {
+                    "date": stats["generated_at"],
+                    "site": site_filter or "all",
+                    "crawl_url": crawl_url,
+                    "run_url": run_url,
+                    "archive_file": archive_name,
+                    "total": stats["total_files"],
+                    "analysed": stats["analysed"],
+                    "accessible": stats["accessible"],
+                },
+            )
+            index_path.write_text(
+                json.dumps(report_index, indent=2, default=str), encoding="utf-8"
+            )
+            print(f"Written: {index_path}")
+
+        # Regenerate the reports index HTML page
+        reports_html_path = Path(html_dir) / "reports.html"
+        reports_html_path.write_text(
+            generate_reports_index_html(report_index), encoding="utf-8"
+        )
+        print(f"Written: {reports_html_path}")
 
     # Optional per-site issue comment
     if issue_comment_file:
@@ -616,6 +839,14 @@ if __name__ == "__main__":
         default=None,
         help="Directory to write the HTML report page into (e.g. docs)",
     )
+    parser.add_argument(
+        "--archive-dir",
+        default=None,
+        help=(
+            "Directory to write per-scan archived HTML reports and index.json "
+            "(e.g. docs/reports). Also regenerates docs/reports.html when set."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -626,4 +857,5 @@ if __name__ == "__main__":
         run_url=args.run_url,
         crawl_url=args.crawl_url,
         html_dir=args.html_dir,
+        archive_dir=args.archive_dir,
     )
