@@ -422,7 +422,8 @@ def main(
             save_manifest(entries, manifest_path)
             continue
 
-        print(f"  Checking: {local_path}")
+        print(f"  Checking: {url}")
+        print(f"    File: {local_path}")
         try:
             report = check_file(str(local_path), site=site)
             log_msg = report.pop("_log", "")
