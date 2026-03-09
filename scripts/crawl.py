@@ -109,11 +109,13 @@ def update_manifest(
     site = parsed.netloc
     site_dir = Path(output_dir) / site
 
+    entries = load_manifest(manifest_path)
+
     if not site_dir.exists():
         print(f"No files found in {site_dir}")
+        save_manifest(entries, manifest_path)
         return
 
-    entries = load_manifest(manifest_path)
     new_count = 0
     updated_count = 0
 
