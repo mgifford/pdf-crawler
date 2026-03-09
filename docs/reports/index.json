@@ -1,0 +1,12 @@
+[
+  {
+    "date": "2026-03-09T21:06:32.722650+00:00",
+    "site": "all",
+    "crawl_url": "www.canada.ca",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22874733118",
+    "archive_file": "2026-03-09_21-06-32-722_all.html",
+    "total": 231,
+    "analysed": 219,
+    "accessible": 17
+  }
+]
