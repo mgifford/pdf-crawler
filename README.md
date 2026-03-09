@@ -33,25 +33,12 @@ and deployable entirely on GitHub Pages + GitHub Actions – no server needed.
 
 ## Quick start
 
-### 1 – Submit a crawl via GitHub Pages
+### 1 – Submit a crawl via the web form
 
-Open the [PDF Crawler form](https://mgifford.github.io/pdf-crawler/), enter a
-URL, and click **Submit Crawl Request**.  This opens a pre-filled GitHub issue
-with the `SCAN:` prefix, which automatically triggers the
-*1 – Crawl Site for PDFs* workflow.
-
-### 2 – Submit a crawl via GitHub Issues
-
-Use the **[PDF Crawler form](https://mgifford.github.io/pdf-crawler/#submit-via-github-issues)**
-to fill in a URL and be taken directly to a pre-filled GitHub issue – just click
+Open the [PDF Crawler form](https://mgifford.github.io/pdf-crawler/#quick-start),
+enter a URL, and click **Submit Crawl Request**.  You will be taken to GitHub
+with the issue title pre-filled as `SCAN: https://…` — just click
 *Submit new issue* to start the crawl.
-
-Alternatively, [open a new issue](https://github.com/mgifford/pdf-crawler/issues/new)
-manually and set the title to:
-
-```
-SCAN: https://example.com
-```
 
 The `SCAN:` prefix triggers the *Crawl Site for PDFs* workflow automatically.
 The workflow will post a comment when the crawl starts and another comment with
@@ -61,6 +48,15 @@ the full accessibility report links when analysis is complete.
 > body will not re-trigger a scan, so there is no risk of accidental recurring
 > scans.  The legacy `PDF-CRAWL:` prefix is still accepted for backward
 > compatibility.
+
+### 2 – Submit a crawl manually
+
+[Open a new issue](https://github.com/mgifford/pdf-crawler/issues/new)
+and set the title to:
+
+```
+SCAN: https://example.com
+```
 
 ### 3 – Trigger manually
 
