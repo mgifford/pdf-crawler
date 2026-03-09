@@ -1,25 +1,26 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-09T22:37:35.576294+00:00
+Generated: 2026-03-09T22:54:38.103014+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 681 |
-| Analysed | 555 |
+| Total files tracked | 1098 |
+| Analysed | 950 |
 | Pending analysis | 0 |
-| Errors during analysis | 126 |
-| Accessible | 120 |
-| Totally inaccessible | 3 |
+| Errors during analysis | 148 |
+| Accessible | 264 |
+| Totally inaccessible | 15 |
 | Broken / unreadable | 0 |
-| Exempt (pre-2018) | 112 |
+| Exempt (pre-2018) | 352 |
 
 ## Files per Site
 
 | Site | Files |
 |------|-------|
 | canada.ca | 231 |
+| energy.gov | 417 |
 | gsa.gov | 450 |
 ## File Details
 
@@ -580,6 +581,401 @@ Generated: 2026-03-09T22:37:35.576294+00:00
 | [travel-account-helpful-hints.pdf](https://smartpay.gsa.gov/files/travel-account-helpful-hints.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
 | [unexpected-results-2-pager.pdf](https://oes.gsa.gov/assets/files/unexpected-results-2-pager.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
 | [what-products-bic-solutions.pdf](https://itvmo.gsa.gov/assets/files/tlr/what-products-bic-solutions.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [10%20Easy%20Resource%20Conservation%20Measures.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/10%20Easy%20Resource%20Conservation%20Measures.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 |
+| [133_webinar.pdf](https://epact.energy.gov/pdfs/133_webinar.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 22 |
+| [2006_annual_report.pdf](https://epact.energy.gov/pdfs/2006_annual_report.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [2007_annual_report.pdf](https://epact.energy.gov/pdfs/2007_annual_report.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [2008_hftac_annual_report.pdf?sfvrsn=8c0e756b_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2008_hftac_annual_report.pdf?sfvrsn=8c0e756b_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 |
+| [2009_htac_annual_report.pdf?sfvrsn=150c9192_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2009_htac_annual_report.pdf?sfvrsn=150c9192_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 |
+| [2009_htac_biennial_report_to_congress.pdf?sfvrsn=a9e54a6f_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2009_htac_biennial_report_to_congress.pdf?sfvrsn=a9e54a6f_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 28 |
+| [2010_htac_annual_report.pdf?sfvrsn=abeacea4_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2010_htac_annual_report.pdf?sfvrsn=abeacea4_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 |
+| [2011_htac_annual_report.pdf?sfvrsn=29bcef8a_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2011_htac_annual_report.pdf?sfvrsn=29bcef8a_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 |
+| [2011_htac_biennial_report_to_congress.pdf?sfvrsn=87c5bfe4_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2011_htac_biennial_report_to_congress.pdf?sfvrsn=87c5bfe4_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 35 |
+| [2012_doe_response_htac_secretary_letter.pdf?sfvrsn=8188eec6_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2012_doe_response_htac_secretary_letter.pdf?sfvrsn=8188eec6_1) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [2012_htac_annual_report.pdf?sfvrsn=f313b4eb_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2012_htac_annual_report.pdf?sfvrsn=f313b4eb_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 15 |
+| [2013_doe_response_htac_secretary_letter.pdf?sfvrsn=cb9bee5f_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2013_doe_response_htac_secretary_letter.pdf?sfvrsn=cb9bee5f_1) | energy.gov | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [2013_htac_annual_report.pdf?sfvrsn=8c6a9688_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2013_htac_annual_report.pdf?sfvrsn=8c6a9688_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 14 |
+| [2014_doe_response_htac_secretary_letter.pdf?sfvrsn=89733a2c_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2014_doe_response_htac_secretary_letter.pdf?sfvrsn=89733a2c_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [2014_htac_annual_report.pdf?sfvrsn=26633e81_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2014_htac_annual_report.pdf?sfvrsn=26633e81_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 11 |
+| [2015_doe_response_htac_secretary_letter.pdf?sfvrsn=9018595e_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2015_doe_response_htac_secretary_letter.pdf?sfvrsn=9018595e_1) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [2015_htac_annual_report.pdf?sfvrsn=13f7a969_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2015_htac_annual_report.pdf?sfvrsn=13f7a969_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 16 |
+| [2016_doe_response_htac_secretary_letter.pdf?sfvrsn=a1e73a06_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2016_doe_response_htac_secretary_letter.pdf?sfvrsn=a1e73a06_1) | energy.gov | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [2016_htac_annual_report.pdf?sfvrsn=c5ec1dc7_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2016_htac_annual_report.pdf?sfvrsn=c5ec1dc7_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 19 |
+| [2017_doe_response_htac_secretary_letter.pdf?sfvrsn=9d041acf_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2017_doe_response_htac_secretary_letter.pdf?sfvrsn=9d041acf_1) | energy.gov | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [2017_htac_annual_report.pdf?sfvrsn=c350dee6_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2017_htac_annual_report.pdf?sfvrsn=c350dee6_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [2018DOECDC_Rules-and-Scoring-Documentation.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/02/2018DOECDC_Rules-and-Scoring-Documentation.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 17 |
+| [2018_doe_response_htac_secretary_letter.pdf?sfvrsn=6146cbbe_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2018_doe_response_htac_secretary_letter.pdf?sfvrsn=6146cbbe_1) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [2018_htac_annual_report.pdf?sfvrsn=da12ac22_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2018_htac_annual_report.pdf?sfvrsn=da12ac22_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [2019-htac-annual-report.pdf?sfvrsn=10a2094f_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2019-htac-annual-report.pdf?sfvrsn=10a2094f_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [2021Summit-Local_Government_Meet_Up-Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/2021Summit-Local_Government_Meet_Up-Slides.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 88 |
+| [2024-amr-01-front-matter.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-01-front-matter.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [2024-amr-02-prologue.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-02-prologue.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [2024-amr-03-toc.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-03-toc.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [2024-amr-04-introduction.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-04-introduction.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 |
+| [2024-amr-05-hydrogen-production-technologies.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-05-hydrogen-production-technologies.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 101 |
+| [2024-amr-06-hydrogen-infrastructure-technologies.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-06-hydrogen-infrastructure-technologies.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 103 |
+| [2024-amr-07-fuel-cell-technologies.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-07-fuel-cell-technologies.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 118 |
+| [2024-amr-08-systems-development-integration.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-08-systems-development-integration.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 115 |
+| [2024-amr-09-analysis-codes-standards.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-09-analysis-codes-standards.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 91 |
+| [2024-amr-10-appendix-a.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-10-appendix-a.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [2024-amr-11-appendix-b.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-11-appendix-b.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 34 |
+| [2024-amr-12-appendix-c.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-12-appendix-c.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [2024-amr-13-appendix-d.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-13-appendix-d.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [2024-amr-14-appendix-e.pdf](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-14-appendix-e.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [2024-amr-plenary-agenda.pdf?sfvrsn=f271a307_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-plenary-agenda.pdf?sfvrsn=f271a307_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2024-amr-schedule.pdf?sfvrsn=dd26ff20_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/2024-amr-schedule.pdf?sfvrsn=dd26ff20_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [2024-reporting-webinar.pdf](https://epact.energy.gov/pdfs/2024-reporting-webinar.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2024-04/2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 29 |
+| [2025-reporting-webinar.pdf](https://epact.energy.gov/pdfs/2025-reporting-webinar.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 29 |
+| [2025Summit-Long_Term_Planning_Savings_Multifamily-Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2025-05/2025Summit-Long_Term_Planning_Savings_Multifamily-Slides.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 |
+| [233%20-%20PI%20Order%20and%20Mem.%20Op..pdf](https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 53 |
+| [2527.pdf](https://afdc.energy.gov/files/pdfs/2527.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 357 |
+| [3-3-15-Dealerships-to-Donuts-slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/3-3-15-Dealerships-to-Donuts-slides.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 40 |
+| [3-3-15-Dealerships-to-Donuts-transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/3-3-15-Dealerships-to-Donuts-transcript.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 22 |
+| [3a_Scout.pdf](https://www.energy.gov/sites/prod/files/2018/01/f47/3a_Scout.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | 24 |
+| [47792.pdf](https://epact.energy.gov/pdfs/47792.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [49212.pdf](https://epact.energy.gov/pdfs/49212.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [53876.pdf](https://epact.energy.gov/pdfs/53876.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [56576.pdf](https://epact.energy.gov/pdfs/56576.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [61969.pdf](https://epact.energy.gov/pdfs/61969.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [64162.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/64162.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [65015.pdf](https://epact.energy.gov/pdfs/65015.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [65359.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/65359.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [66202.pdf](https://epact.energy.gov/pdfs/66202.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [67572.pdf](https://epact.energy.gov/pdfs/67572.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [704_report_final.pdf](https://epact.energy.gov/pdfs/704_report_final.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 40 |
+| [73311.pdf](https://epact.energy.gov/pdfs/73311.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [73312.pdf](https://epact.energy.gov/pdfs/73312.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [76270.pdf](https://epact.energy.gov/pdfs/76270.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [78344.pdf](https://epact.energy.gov/pdfs/78344.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [82099.pdf](https://epact.energy.gov/pdfs/82099.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [85247.pdf](https://epact.energy.gov/pdfs/85247.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [88452.pdf](https://epact.energy.gov/pdfs/88452.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [95964.pdf](https://epact.energy.gov/pdfs/95964.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [AFLEET%20Tool%202023%20Update.pdf?57434aebc2](https://cleancities.energy.gov/files/u/news_events/document/828/file/AFLEET%20Tool%202023%20Update.pdf?57434aebc2) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 32 |
+| [A_Common_Purpose_Aligning_Community_Stakeholders_to_Address_Gaps_in_Underserved_Markets.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/A_Common_Purpose_Aligning_Community_Stakeholders_to_Address_Gaps_in_Underserved_Markets.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 58 |
+| [Alternative%20and%20Renewable%20Fuel%20and%20Vehicle%20Technology%20Program.pdf?6e40ff4106](https://cleancities.energy.gov/files/u/news_events/document/662/file/Alternative%20and%20Renewable%20Fuel%20and%20Vehicle%20Technology%20Program.pdf?6e40ff4106) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [Appalachia%20Industrial%20Decarbonization%20Deploy%20Dialogue%20Summary.pdf](https://www.energy.gov/sites/default/files/2024-10/Appalachia%20Industrial%20Decarbonization%20Deploy%20Dialogue%20Summary.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [April%2028%20-%20Part%202%20-%20Finance%20and%20Resilience%20-%20Slide%20Deck%20final%20%281%29.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/April%2028%20-%20Part%202%20-%20Finance%20and%20Resilience%20-%20Slide%20Deck%20final%20%281%29.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 73 |
+| [April-2017-Rule-Set.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/02/April-2017-Rule-Set.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [BlackPak_ANG_NGV_Tech_Forum_2015-10.pdf?efaf63a7d3](https://cleancities.energy.gov/files/u/news_events/document/document_url/121/BlackPak_ANG_NGV_Tech_Forum_2015-10.pdf?efaf63a7d3) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 35 |
+| [Brad_Douville___Westport_NGVTF_.pdf?dbb5535f7f](https://cleancities.energy.gov/files/u/news_events/document/document_url/128/Brad_Douville___Westport_NGVTF_.pdf?dbb5535f7f) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 40 |
+| [CALSLA.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/CALSLA.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [CHECT%20Webinar%20Slides.pdf?532cc1b00e](https://cleancities.energy.gov/files/u/news_events/document/737/file/CHECT%20Webinar%20Slides.pdf?532cc1b00e) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [CNG%20Full%20Fill%20with%20a%20Complete%20Smart%20Fueling%20System.pdf?06c91eaf8a](https://cleancities.energy.gov/files/u/news_events/document/761/file/CNG%20Full%20Fill%20with%20a%20Complete%20Smart%20Fueling%20System.pdf?06c91eaf8a) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 29 |
+| [COL_DEMO_LL_Consolidated%20REPORT.pdf](https://www.energy.gov/sites/prod/files/2013/10/f3/COL_DEMO_LL_Consolidated%20REPORT.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 285 |
+| [CREH_Sector_Meeting_Wed_LEnfant_4PM.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/CREH_Sector_Meeting_Wed_LEnfant_4PM.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 |
+| [CSA%20Codes%20and%20Standards%20Update.pdf?b7433039ae](https://cleancities.energy.gov/files/u/news_events/document/672/file/CSA%20Codes%20and%20Standards%20Update.pdf?b7433039ae) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 44 |
+| [CSA%20NGV4.3-2018%20Temperature%20Compensation%20Guidelines%20for%20Compressed%20Natural%20Gas%20Fueling.pdf?07210c8f10](https://cleancities.energy.gov/files/u/news_events/document/671/file/CSA%20NGV4.3-2018%20Temperature%20Compensation%20Guidelines%20for%20Compressed%20Natural%20Gas%20Fueling.pdf?07210c8f10) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 44 |
+| [California%20Energy%20Commission%20(CEC)%20-%20Technology%20Program%20Overview.pdf?05cde893ac](https://cleancities.energy.gov/files/u/news_events/document/734/file/California%20Energy%20Commission%20(CEC)%20-%20Technology%20Program%20Overview.pdf?05cde893ac) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [Charter%20Steel%20pre-INPLT%20Fan%20Systems%20Webinar_0.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/Charter%20Steel%20pre-INPLT%20Fan%20Systems%20Webinar_0.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 34 |
+| [Corcoran%20Training.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Corcoran%20Training.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 148 |
+| [Cummins%20Heavy%20Duty%20Hydrogen%20Engine%20Update.pdf?c25ee9cae5](https://cleancities.energy.gov/files/u/news_events/document/749/file/Cummins%20Heavy%20Duty%20Hydrogen%20Engine%20Update.pdf?c25ee9cae5) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 21 |
+| [Cummins%20High%20Efficiency,%20Ultra%20Low%20Emissions%20Heavy-Duty%20Natural%20Gas%20Engine%20R&D.pdf?f982ea47f8](https://cleancities.energy.gov/files/u/news_events/document/762/file/Cummins%20High%20Efficiency,%20Ultra%20Low%20Emissions%20Heavy-Duty%20Natural%20Gas%20Engine%20R&D.pdf?f982ea47f8) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 |
+| [CyberForce-Program-Impact.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/01/CyberForce-Program-Impact.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [CyberForce-Sponsorship-Guide.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/06/CyberForce-Sponsorship-Guide.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [DOE%20Natural%20Gas%20Listening%20Sessions%20Review.pdf?40bac8a59c](https://cleancities.energy.gov/files/u/news_events/document/751/file/DOE%20Natural%20Gas%20Listening%20Sessions%20Review.pdf?40bac8a59c) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [DSmith-DualFuel-NGVTF-2015.pdf?62c87733b7](https://cleancities.energy.gov/files/u/news_events/document/document_url/129/DSmith-DualFuel-NGVTF-2015.pdf?62c87733b7) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 |
+| [DWT_NREL_LA_study.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/DWT_NREL_LA_study.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 40 |
+| [Dedicated%20Exhaust%20Gas%20Recirculation%2012L%20Natural%20Gas.pdf?f2360ef0fb](https://cleancities.energy.gov/files/u/news_events/document/655/file/Dedicated%20Exhaust%20Gas%20Recirculation%2012L%20Natural%20Gas.pdf?f2360ef0fb) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 22 |
+| [Development%20of%20a%20Pent-Roof%20MD%20Spark-Ignited%20Natural%20Gas%20Engine%20in%20an%20Optimized%20Hybrid%20Vehicle%20System.pdf?4e151dd5a2](https://cleancities.energy.gov/files/u/news_events/document/764/file/Development%20of%20a%20Pent-Roof%20MD%20Spark-Ignited%20Natural%20Gas%20Engine%20in%20an%20Optimized%20Hybrid%20Vehicle%20System.pdf?4e151dd5a2) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 30 |
+| [Domestic_Manufacturing_Conversion_Grants_3106_Applicant_Webinar_January_2024_010524_1.pdf](https://www.energy.gov/sites/default/files/2024-01/Domestic_Manufacturing_Conversion_Grants_3106_Applicant_Webinar_January_2024_010524_1.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 31 |
+| [Drive%20Action%20Through%20Energy%20Data%20Visualization.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Drive%20Action%20Through%20Energy%20Data%20Visualization.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | 62 |
+| [Driving-Energy-Efficiency-Through-Behavior-Change-Organizational-Strategies-TUES.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Driving-Energy-Efficiency-Through-Behavior-Change-Organizational-Strategies-TUES.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 42 |
+| [Example%20CMAR%20RFP%20Documents.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Example%20CMAR%20RFP%20Documents.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 74 |
+| [FOA%203106%20Applicant%20Webinar_100523_KBC_jwm-FINAL_jwm.pdf](https://www.energy.gov/sites/default/files/2023-10/FOA%203106%20Applicant%20Webinar_100523_KBC_jwm-FINAL_jwm.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [FY2018BudgetVolume1_1.pdf](https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume1_1.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 658 |
+| [FY2018BudgetVolume2_2.pdf](https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume2_2.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 260 |
+| [FY2018BudgetVolume3_0.pdf](https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume3_0.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 750 |
+| [FY2018BudgetVolume4_5.pdf](https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume4_5.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 372 |
+| [FY2018BudgetVolume5.pdf](https://www.energy.gov/sites/default/files/2017/06/f34/FY2018BudgetVolume5.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 596 |
+| [FY2018BudgetVolume6_0.pdf](https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume6_0.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 232 |
+| [Family%20Dollar%20IM%20-%20Duct%20Sealing.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Family%20Dollar%20IM%20-%20Duct%20Sealing.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [FedRegBioFinal.pdf](https://afdc.energy.gov/files/pdfs/FedRegBioFinal.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [Field%20Demonstration%20of%20Liquefied%20Natural%20Gas%20Yard%20Hostlers.pdf?60b715c20d](https://cleancities.energy.gov/files/u/news_events/document/653/file/Field%20Demonstration%20of%20Liquefied%20Natural%20Gas%20Yard%20Hostlers.pdf?60b715c20d) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | 22 |
+| [Finance%20_%20Resilience%20Initiative_%20Taking%20Action%20to%20Improve%20Resilience%20and%20Disclose%20Performance%20Transcript_QA.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Finance%20_%20Resilience%20Initiative_%20Taking%20Action%20to%20Improve%20Resilience%20and%20Disclose%20Performance%20Transcript_QA.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 30 |
+| [Finance_Sub-Committee_Charter.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Finance_Sub-Committee_Charter.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [Finding%20and%20Funding%20an%20Energy%20Management%20Information%20System%20%281%29.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Finding%20and%20Funding%20an%20Energy%20Management%20Information%20System%20%281%29.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | 53 |
+| [GREEN-VOLUNTEER.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/05/GREEN-VOLUNTEER.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Generalized-Command-Benefit-Flyer-1.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/01/Generalized-Command-Benefit-Flyer-1.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [Generalized-Reign-Benefit-Flyer.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/05/Generalized-Reign-Benefit-Flyer.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [Green%20Ideas%20Challenge%20Internal%20Newsletter_0.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Green%20Ideas%20Challenge%20Internal%20Newsletter_0.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [HEVISAM%20Port%20Equipment%20Charging%20Case%20Study%20Final%20Updated_optimized.pdf?9afe27548c](https://cleancities.energy.gov/files/u/news_events/document/866/file/HEVISAM%20Port%20Equipment%20Charging%20Case%20Study%20Final%20Updated_optimized.pdf?9afe27548c) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 29 |
+| [Heavy%20Duty%20Engine%20Development%20and%20Updates.pdf?5586101a49](https://cleancities.energy.gov/files/u/news_events/document/656/file/Heavy%20Duty%20Engine%20Development%20and%20Updates.pdf?5586101a49) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [High%20Horsepower%20Update.pdf?c10c346b1b](https://cleancities.energy.gov/files/u/news_events/document/651/file/High%20Horsepower%20Update.pdf?c10c346b1b) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 14 |
+| [High-School.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/05/High-School.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Hydrogen%20Compression%20and%20Fueling%20Advancements.pdf?190d35ad15](https://cleancities.energy.gov/files/u/news_events/document/750/file/Hydrogen%20Compression%20and%20Fueling%20Advancements.pdf?190d35ad15) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 |
+| [Hydrogen%20HPDI%20-%20Hydrogen%20IC%20Engine%20Development.pdf?db95fe5145](https://cleancities.energy.gov/files/u/news_events/document/748/file/Hydrogen%20HPDI%20-%20Hydrogen%20IC%20Engine%20Development.pdf?db95fe5145) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 21 |
+| [Implementing_Solar_In_Leased_Buildings_.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Implementing_Solar_In_Leased_Buildings_.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [Innovative%20Energy%20Efficiency%20Financing%20in%20Public%20Housing-%20Slide%20Deck.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/Innovative%20Energy%20Efficiency%20Financing%20in%20Public%20Housing-%20Slide%20Deck.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 49 |
+| [JOBS%20EV%20webinar%2002282024.pdf?058f715794](https://cleancities.energy.gov/files/u/news_events/document/860/file/JOBS%20EV%20webinar%2002282024.pdf?058f715794) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [James_Burns_Clean_Cities_Natural_Gas_Plug-In_Hybrid_Class_8_Trucks__NGPH-8_PIR-13-012.pdf?5ee81ffe22](https://cleancities.energy.gov/files/u/news_events/document/document_url/130/James_Burns_Clean_Cities_Natural_Gas_Plug-In_Hybrid_Class_8_Trucks__NGPH-8_PIR-13-012.pdf?5ee81ffe22) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 32 |
+| [Keeping-the-Lights-On-Stories-From-Housing-Providers-on-Disaster-Preparedness-and-Recovery.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Keeping-the-Lights-On-Stories-From-Housing-Providers-on-Disaster-Preparedness-and-Recovery.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 70 |
+| [LPO%20Clean%20CitiesOverview%203.13.24F3_optimized.pdf?8988d04392](https://cleancities.energy.gov/files/u/news_events/document/858/file/LPO%20Clean%20CitiesOverview%203.13.24F3_optimized.pdf?8988d04392) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [Local%20Government%20Sector%20Meet-Up-Transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Local%20Government%20Sector%20Meet-Up-Transcript.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 35 |
+| [Logistics.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/05/Logistics.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Make%20the%20Case%20-%20Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/Make%20the%20Case%20-%20Slides.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 63 |
+| [Make%20the%20Case%20-%20Transcript%20and%20Additional%20Resources.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Make%20the%20Case%20-%20Transcript%20and%20Additional%20Resources.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 21 |
+| [Mark_Sandia_NGVTF-Musculus-151020.pdf?cff23dd64f](https://cleancities.energy.gov/files/u/news_events/document/document_url/131/Mark_Sandia_NGVTF-Musculus-151020.pdf?cff23dd64f) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 18 |
+| [Maximizing%20Performance%20in%20Affordable%20New%20Construction%20-%20Slide%20Deck.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/Maximizing%20Performance%20in%20Affordable%20New%20Construction%20-%20Slide%20Deck.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 85 |
+| [Multifamily_Meet-Up.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Multifamily_Meet-Up.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 139 |
+| [Multifamily_Meet-up_Part_1.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Multifamily_Meet-up_Part_1.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 65 |
+| [Myworksite_User_Guide.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Myworksite_User_Guide.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 11 |
+| [NGVTF%20%E2%80%93%20U.S.%20Department%20of%20Energy%20(DOE)%20Update.pdf?0ad3807d27](https://cleancities.energy.gov/files/u/news_events/document/645/file/NGVTF%20%E2%80%93%20U.S.%20Department%20of%20Energy%20(DOE)%20Update.pdf?0ad3807d27) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [NGVTF_Agenda.pdf?5a202b4e84](https://cleancities.energy.gov/files/u/news_events/event/28515/agenda/NGVTF_Agenda.pdf?5a202b4e84) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NGVTF_Bowerson_10.21.15.pdf?9706430bbb](https://cleancities.energy.gov/files/u/news_events/document/document_url/133/NGVTF_Bowerson_10.21.15.pdf?9706430bbb) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 17 |
+| [Natural%20Gas%20Codes%20and%20Standards%20Updates.pdf?bc275f7e90](https://cleancities.energy.gov/files/u/news_events/document/757/file/Natural%20Gas%20Codes%20and%20Standards%20Updates.pdf?bc275f7e90) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [Natural%20Gas%20Plug-In%20Hybrid%20Class%208%20Truck.pdf?627836f878](https://cleancities.energy.gov/files/u/news_events/document/665/file/Natural%20Gas%20Plug-In%20Hybrid%20Class%208%20Truck.pdf?627836f878) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 24 |
+| [Ned_Biehl_PG_E_The_Alternative_Fuel_Experience.pdf?f6639e7505](https://cleancities.energy.gov/files/u/news_events/document/document_url/126/Ned_Biehl_PG_E_The_Alternative_Fuel_Experience.pdf?f6639e7505) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 22 |
+| [Nonprofit%20Office%20Hours%20Presentation.pdf](https://www.energy.gov/sites/default/files/2023-06/Nonprofit%20Office%20Hours%20Presentation.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 39 |
+| [On%20Board%20Methane%20Sensing.pdf?1f09fc6b76](https://cleancities.energy.gov/files/u/news_events/document/654/file/On%20Board%20Methane%20Sensing.pdf?1f09fc6b76) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [One%20Size%20Does%20Not%20Fit%20All%20-%20slide%20deck.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/One%20Size%20Does%20Not%20Fit%20All%20-%20slide%20deck.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [One%20Size%20Does%20Not%20Fit%20All%20Transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/One%20Size%20Does%20Not%20Fit%20All%20Transcript.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 24 |
+| [Perspectives%20on%20Resilience%20-%20transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Perspectives%20on%20Resilience%20-%20transcript.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 25 |
+| [Power%20Solutions%20Inc.%20(PSI)%20Updates%20on%20Natural%20Gas%20Engine.pdf?c76488aa44](https://cleancities.energy.gov/files/u/news_events/document/658/file/Power%20Solutions%20Inc.%20(PSI)%20Updates%20on%20Natural%20Gas%20Engine.pdf?c76488aa44) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [Preserving%20the%20Past%20-%20Slide%20Deck_0.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2025-02/Preserving%20the%20Past%20-%20Slide%20Deck_0.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 59 |
+| [Preserving%20the%20Past%20-%20Transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2025-03/Preserving%20the%20Past%20-%20Transcript.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [QECB-FAQ_final.pdf](https://www.energy.gov/sites/prod/files/2017/08/f36/QECB-FAQ_final.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [QuantumWkshpRpt20FINAL_Nav_0.pdf](https://www.energy.gov/sites/prod/files/2020/07/f76/QuantumWkshpRpt20FINAL_Nav_0.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 36 |
+| [Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f](https://cleancities.energy.gov/files/u/news_events/document/document_url/132/Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 26 |
+| [RI_TRO_Notice.pdf](https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 15 |
+| [Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 81 |
+| [Red-Volunteer.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/05/Red-Volunteer.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Renew_America%27s_Nonrprofits_Office_Hours_2_Presentation.pdf](https://www.energy.gov/sites/default/files/2023-07/Renew_America%27s_Nonrprofits_Office_Hours_2_Presentation.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 |
+| [Renewable%20Natural%20Gas%20Production%20Update.pdf?c8877d0e98](https://cleancities.energy.gov/files/u/news_events/document/667/file/Renewable%20Natural%20Gas%20Production%20Update.pdf?c8877d0e98) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 12 |
+| [Resilience_Applications_for_Low_Income_Communities.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Resilience_Applications_for_Low_Income_Communities.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 115 |
+| [SCORING-ASST.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/05/SCORING-ASST.pdf) | energy.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Sample_Workplace_Charging_Policy.pdf](https://afdc.energy.gov/files/u/publication/Sample_Workplace_Charging_Policy.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [Scarpino-_CNG_Fuel_Tank_Safety_Initiative__NGVTF__vFINAL.pdf?1351019b1b](https://cleancities.energy.gov/files/u/news_events/document/document_url/122/Scarpino-_CNG_Fuel_Tank_Safety_Initiative__NGVTF__vFINAL.pdf?1351019b1b) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 19 |
+| [Session1B_Brown.pdf](https://afdc.energy.gov/files/u/publication/Session1B_Brown.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 14 |
+| [Shari%27s%2010%20Easy%20Actions%20Poster.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Shari%27s%2010%20Easy%20Actions%20Poster.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [Shari%27s%20Cafe%20and%20Pies%20Energy%20Management.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Shari%27s%20Cafe%20and%20Pies%20Energy%20Management.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 |
+| [Shari%27s%20Easy%20Actions%20poster_ALL%20TEAM.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Shari%27s%20Easy%20Actions%20poster_ALL%20TEAM.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [Shari%27s%20Easy%20Actions%20poster_COOKS%20V2.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Shari%27s%20Easy%20Actions%20poster_COOKS%20V2.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [Shari%27s%20Easy%20Actions%20poster_DMOs%20V2.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Shari%27s%20Easy%20Actions%20poster_DMOs%20V2.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [South%20Coast%20Air%20Quality%20Management%20District%20(SCAQMD)%20Technology%20Program%20Overview.pdf?0ecfbeeaec](https://cleancities.energy.gov/files/u/news_events/document/649/file/South%20Coast%20Air%20Quality%20Management%20District%20(SCAQMD)%20Technology%20Program%20Overview.pdf?0ecfbeeaec) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [Southern%20California%20Gas%20Company%20Updates%20and%20Natural%20Gas.pdf?149a4c4c89](https://cleancities.energy.gov/files/u/news_events/document/647/file/Southern%20California%20Gas%20Company%20Updates%20and%20Natural%20Gas.pdf?149a4c4c89) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [Southern%20California%20Gas%20Program%20Overview.pdf?481781539c](https://cleancities.energy.gov/files/u/news_events/document/732/file/Southern%20California%20Gas%20Program%20Overview.pdf?481781539c) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [Stephen_P_CWI_ISB_and_ISX_Update_for_NGVTF_21Oct15.pdf?8a8816af94](https://cleancities.energy.gov/files/u/news_events/document/document_url/127/Stephen_P_CWI_ISB_and_ISX_Update_for_NGVTF_21Oct15.pdf?8a8816af94) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 34 |
+| [Ted_Barnes_GTI_CNG_Dispensing_v1.pdf?33d3b4fe5c](https://cleancities.energy.gov/files/u/news_events/document/document_url/123/Ted_Barnes_GTI_CNG_Dispensing_v1.pdf?33d3b4fe5c) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 30 |
+| [The%20Next%20Big%20Thing%20-%20Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/The%20Next%20Big%20Thing%20-%20Slides.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 37 |
+| [The%20Next%20Big%20Thing%20-%20Transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/The%20Next%20Big%20Thing%20-%20Transcript.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 22 |
+| [The%20Next%20Frontier%20in%20Lighting%20Getting%20Connected%20with%20the%20Integrated%20Lighting%20Campaign%20-%20Transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/The%20Next%20Frontier%20in%20Lighting%20Getting%20Connected%20with%20the%20Integrated%20Lighting%20Campaign%20-%20Transcript.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 38 |
+| [The-Amazing-Race_1-Year-into-the-5-Million-Georgetown-University-Energy-Prize-Financing-TUES.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/The-Amazing-Race_1-Year-into-the-5-Million-Georgetown-University-Energy-Prize-Financing-TUES.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 28 |
+| [Transcript_3.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Transcript_3.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 22 |
+| [Transient%20Plasma%20Ignition%20System%20for%20Natural%20Gas%20Engines.pdf?3a68501719](https://cleancities.energy.gov/files/u/news_events/document/758/file/Transient%20Plasma%20Ignition%20System%20for%20Natural%20Gas%20Engines.pdf?3a68501719) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 39 |
+| [Transient%20Plasma%20Ignition%20System%20for%20Natural%20Gas%20Engines.pdf?5b4a54aecb](https://cleancities.energy.gov/files/u/news_events/document/666/file/Transient%20Plasma%20Ignition%20System%20for%20Natural%20Gas%20Engines.pdf?5b4a54aecb) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 30 |
+| [Update%20on%20Vehicle%20Technologies%20Office%20(VTO)%20Natural%20Gas.pdf?b93a98d43d](https://cleancities.energy.gov/files/u/news_events/document/646/file/Update%20on%20Vehicle%20Technologies%20Office%20(VTO)%20Natural%20Gas.pdf?b93a98d43d) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [Vehicle%20Incidents%20and%20Lessons%20Learned.pdf?b62041e006](https://cleancities.energy.gov/files/u/news_events/document/670/file/Vehicle%20Incidents%20and%20Lessons%20Learned.pdf?b62041e006) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [WPCC_L1ChargingAtTheWorkplace_0716.pdf](https://afdc.energy.gov/files/u/publication/WPCC_L1ChargingAtTheWorkplace_0716.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 20 |
+| [WPCC_employertoolkit_1114.pdf](https://afdc.energy.gov/files/u/publication/WPCC_employertoolkit_1114.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [WPCC_sample_employee_survey_0816.pdf](https://afdc.energy.gov/files/u/publication/WPCC_sample_employee_survey_0816.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [Wednesday%20-%20Achieving%20Financial%20Independence%20Lessons%20on%20how%20to%20Create%20Sustainable%20Financing%20for%20your%20programs%20and%20projects.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Wednesday%20-%20Achieving%20Financial%20Independence%20Lessons%20on%20how%20to%20Create%20Sustainable%20Financing%20for%20your%20programs%20and%20projects.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 55 |
+| [Welcome.pdf?eeeac15ca8](https://cleancities.energy.gov/files/u/news_events/document/643/file/Welcome.pdf?eeeac15ca8) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [Workshop_Roadmap-to-20%25-and-Beyond_Sustainability-Planning-Mini-Workshop-for-Multifamily-Partners.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Workshop_Roadmap-to-20%25-and-Beyond_Sustainability-Planning-Mini-Workshop-for-Multifamily-Partners.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 20 |
+| [alt_comp_rpt_example.pdf](https://epact.energy.gov/pdfs/alt_comp_rpt_example.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [alt_compliance_guide.pdf](https://epact.energy.gov/pdfs/alt_compliance_guide.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 48 |
+| [alt_compliance_rule.pdf](https://epact.energy.gov/pdfs/alt_compliance_rule.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 |
+| [alt_fuel_final_rule_3-14-08.pdf](https://epact.energy.gov/pdfs/alt_fuel_final_rule_3-14-08.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 |
+| [alt_fuel_nopr_jun23.pdf](https://epact.energy.gov/pdfs/alt_fuel_nopr_jun23.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 |
+| [alternative_compliance_annual_reporting.pdf](https://epact.energy.gov/pdfs/alternative_compliance_annual_reporting.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [annual-reporting-webinar.pdf](https://epact.energy.gov/pdfs/annual-reporting-webinar.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 |
+| [ba_innovations_1-1-2_advanced_framing.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_1-1-2_advanced_framing.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ba_innovations_1-1-3_high_performance_ducts.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_1-1-3_high_performance_ducts.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ba_innovations_1-2-4_high_performance_furnace_blower.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_1-2-4_high_performance_furnace_blower.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ba_innovations_1-2-5_window_ac.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_1-2-5_window_ac.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ba_innovations_2-1-6_zero_energy_homes.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_2-1-6_zero_energy_homes.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ba_innovations_3-1-10_basc.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_3-1-10_basc.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ba_innovations_3-1-7_exterior_rigid_insulation.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_3-1-7_exterior_rigid_insulation.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ba_innovations_3-1-8_window_rehab.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_3-1-8_window_rehab.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ba_innovations_3-1-9_quality_management_systems.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_3-1-9_quality_management_systems.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ba_innovations_4-3-11_nrel_hpxml.pdf](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_4-3-11_nrel_hpxml.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [beopt_automated_sim_test.pdf](http://www1.eere.energy.gov/buildings/publications/pdfs/building_america/beopt_automated_sim_test.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 10 |
+| [biennial_report_to_congress_2014.pdf?sfvrsn=af11eee8_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/biennial_report_to_congress_2014.pdf?sfvrsn=af11eee8_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 17 |
+| [biennial_report_to_congress_2016.pdf?sfvrsn=4c3fa579_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/biennial_report_to_congress_2016.pdf?sfvrsn=4c3fa579_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 124 |
+| [biodiesel_fuel_use_credit.pdf](https://epact.energy.gov/pdfs/biodiesel_fuel_use_credit.pdf) | energy.gov | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 |
+| [biodiesel_guidance.pdf](https://epact.energy.gov/pdfs/biodiesel_guidance.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [biodieselinterim.pdf](https://epact.energy.gov/pdfs/biodieselinterim.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 |
+| [bk28423.pdf?sfvrsn=705e04e2_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/bk28423.pdf?sfvrsn=705e04e2_1) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 42 |
+| [brochure.pdf?sfvrsn=fd9d95e0_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/brochure.pdf?sfvrsn=fd9d95e0_1) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 |
+| [bto-ghg-metrics-011525.pdf](https://www.energy.gov/sites/default/files/2025-01/bto-ghg-metrics-011525.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 23 |
+| [business-card.pdf](https://epact.energy.gov/pdfs/business-card.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [clean_cities_and_communities_partnership_2023_activity_report.pdf](https://afdc.energy.gov/files/u/publication/clean_cities_and_communities_partnership_2023_activity_report.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 44 |
+| [clean_cities_coalitions_overview.pdf](https://afdc.energy.gov/files/u/publication/clean_cities_coalitions_overview.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [codes_stds.pdf?sfvrsn=9bc0552f_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/codes_stds.pdf?sfvrsn=9bc0552f_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 28 |
+| [compliance_tool_user_guide.pdf](https://epact.energy.gov/pdfs/compliance_tool_user_guide.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [contacts.pdf](https://cleancities.energy.gov/contacts.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [dot_regulatory_process.pdf?sfvrsn=b3a39df7_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/dot_regulatory_process.pdf?sfvrsn=b3a39df7_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 21 |
+| [electric-school-bus-education-part-8.pdf](https://afdc.energy.gov/files/pdfs/electric-school-bus-education-part-8.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [engaging_commercial_customers_wpc.pdf](https://afdc.energy.gov/files/u/publication/engaging_commercial_customers_wpc.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 10 |
+| [epact1820_employment_study.pdf?sfvrsn=3f0dcd9f_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/epact1820_employment_study.pdf?sfvrsn=3f0dcd9f_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 173 |
+| [epact_05.pdf?sfvrsn=a2f1179f_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/epact_05.pdf?sfvrsn=a2f1179f_1) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 550 |
+| [epact_clean_cities.pdf](https://epact.energy.gov/pdfs/epact_clean_cities.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [epact_titles_3-4-5-6-19.pdf](https://epact.energy.gov/pdfs/epact_titles_3-4-5-6-19.pdf) | energy.gov | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 85 |
+| [evse_cost_report_2015.pdf](https://afdc.energy.gov/files/u/publication/evse_cost_report_2015.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 43 |
+| [exemption_guide.pdf](https://epact.energy.gov/pdfs/exemption_guide.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [fc000_papageorgopoulos_2024_o71005383-817b-448f-ad7b-5d93cfe035f8.pdf?sfvrsn=f6081a9_5](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/fc000_papageorgopoulos_2024_o71005383-817b-448f-ad7b-5d93cfe035f8.pdf?sfvrsn=f6081a9_5) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 |
+| [fc_report_congress_feb2003.pdf?sfvrsn=f0fdc809_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/fc_report_congress_feb2003.pdf?sfvrsn=f0fdc809_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 64 |
+| [fcto-h2-storage-fact-sheet.pdf](https://www.energy.gov/sites/prod/files/2017/03/f34/fcto-h2-storage-fact-sheet.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [fe000_rodezno-frye_2024_o.pdf?sfvrsn=e8eb8a1c_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/fe000_rodezno-frye_2024_o.pdf?sfvrsn=e8eb8a1c_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 31 |
+| [fed_reg.pdf](https://epact.energy.gov/pdfs/fed_reg.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 41 |
+| [fleet_compliance.pdf](https://epact.energy.gov/pdfs/fleet_compliance.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [folder-sticker.pdf](https://epact.energy.gov/pdfs/folder-sticker.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [fr_rfgm_jan-07.pdf](https://epact.energy.gov/pdfs/fr_rfgm_jan-07.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [fr_rin_1904-ab69.pdf](https://epact.energy.gov/pdfs/fr_rin_1904-ab69.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 11 |
+| [ghg_guidance.pdf](https://epact.energy.gov/pdfs/ghg_guidance.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [goal_setting_report_congress.pdf?sfvrsn=b5369710_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/goal_setting_report_congress.pdf?sfvrsn=b5369710_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 15 |
+| [h2_letter_report_final.pdf?sfvrsn=c6b4087e_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/h2_letter_report_final.pdf?sfvrsn=c6b4087e_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 |
+| [hdv_idling_2015.pdf](https://afdc.energy.gov/files/u/publication/hdv_idling_2015.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [herwg_report_2013.pdf?sfvrsn=8efcf778_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/herwg_report_2013.pdf?sfvrsn=8efcf778_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 68 |
+| [herwg_report_2013_doe_response.pdf?sfvrsn=13fb4c6c_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/herwg_report_2013_doe_response.pdf?sfvrsn=13fb4c6c_1) | energy.gov | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [hpep_report_2013.pdf?sfvrsn=96b23cc9_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/hpep_report_2013.pdf?sfvrsn=96b23cc9_1) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 139 |
+| [hpep_report_2013_doe_response.pdf?sfvrsn=c50d1192_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/hpep_report_2013_doe_response.pdf?sfvrsn=c50d1192_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [htac-outreach-modules.pdf?sfvrsn=552ccc38_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac-outreach-modules.pdf?sfvrsn=552ccc38_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 |
+| [htac-roadmap-subcommittee-report-2020.pdf?sfvrsn=f627b0f_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac-roadmap-subcommittee-report-2020.pdf?sfvrsn=f627b0f_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [htac_agenda_0507.pdf?sfvrsn=e04346fd_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_agenda_0507.pdf?sfvrsn=e04346fd_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [htac_agenda_06.pdf?sfvrsn=221406bf_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_agenda_06.pdf?sfvrsn=221406bf_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [htac_agenda_december.pdf?sfvrsn=22bdf379_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_agenda_december.pdf?sfvrsn=22bdf379_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [htac_air_products.pdf?sfvrsn=ff0b7c08_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_air_products.pdf?sfvrsn=ff0b7c08_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 10 |
+| [htac_attendees_jan06.pdf?sfvrsn=765ba69a_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_attendees_jan06.pdf?sfvrsn=765ba69a_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [htac_bodman_letter_pp_0107.pdf?sfvrsn=a16db40a_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_bodman_letter_pp_0107.pdf?sfvrsn=a16db40a_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [htac_bodman_letter_pp_1106.pdf?sfvrsn=86aa639e_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_bodman_letter_pp_1106.pdf?sfvrsn=86aa639e_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [htac_chernoby_0107.pdf?sfvrsn=50df744d_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_chernoby_0107.pdf?sfvrsn=50df744d_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [htac_competitiveness_subcommittee_report_2019.pdf?sfvrsn=56a08e86_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_competitiveness_subcommittee_report_2019.pdf?sfvrsn=56a08e86_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [htac_entergy-keuter.pdf?sfvrsn=cad20e97_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_entergy-keuter.pdf?sfvrsn=cad20e97_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 37 |
+| [htac_exec_summary.pdf?sfvrsn=ca2e8bed_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_exec_summary.pdf?sfvrsn=ca2e8bed_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [htac_fc_products.pdf?sfvrsn=ba920812_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_fc_products.pdf?sfvrsn=ba920812_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [htac_federal_register_0507.pdf?sfvrsn=a7368999_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_federal_register_0507.pdf?sfvrsn=a7368999_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [htac_federal_register_122006.pdf?sfvrsn=f960fe77_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_federal_register_122006.pdf?sfvrsn=f960fe77_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [htac_gm_mccormick.pdf?sfvrsn=f2e875e1_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_gm_mccormick.pdf?sfvrsn=f2e875e1_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 14 |
+| [htac_hinkle_0107.pdf?sfvrsn=cf9f3ca4_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_hinkle_0107.pdf?sfvrsn=cf9f3ca4_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [htac_hinkle_1.pdf?sfvrsn=ea83210e_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_hinkle_1.pdf?sfvrsn=ea83210e_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [htac_hinkle_2.pdf?sfvrsn=7a66125c_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_hinkle_2.pdf?sfvrsn=7a66125c_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [htac_hinkle_3.pdf?sfvrsn=4bdaa7bc_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_hinkle_3.pdf?sfvrsn=4bdaa7bc_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [htac_hser_report_6-17.pdf?sfvrsn=ea0582ed_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_hser_report_6-17.pdf?sfvrsn=ea0582ed_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 26 |
+| [htac_jadoo_bawden.pdf?sfvrsn=c51c21d4_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_jadoo_bawden.pdf?sfvrsn=c51c21d4_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 |
+| [htac_james_epri.pdf?sfvrsn=d9882a06_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_james_epri.pdf?sfvrsn=d9882a06_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 32 |
+| [htac_jan07_mtg_agenda.pdf?sfvrsn=6bb0ae6f_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_jan07_mtg_agenda.pdf?sfvrsn=6bb0ae6f_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [htac_july08_ramage.pdf?sfvrsn=6981e158_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_july08_ramage.pdf?sfvrsn=6981e158_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 26 |
+| [htac_july08_satyapal.pdf?sfvrsn=b619ecfd_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_july08_satyapal.pdf?sfvrsn=b619ecfd_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 19 |
+| [htac_letter_report_attach.pdf?sfvrsn=7fc31d06_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_letter_report_attach.pdf?sfvrsn=7fc31d06_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 52 |
+| [htac_letter_report_attachf181e02f65aa42c1af7a8563c4c935f3.pdf?sfvrsn=4503e59e_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_letter_report_attachf181e02f65aa42c1af7a8563c4c935f3.pdf?sfvrsn=4503e59e_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 52 |
+| [htac_marlay.pdf?sfvrsn=92606bd_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_marlay.pdf?sfvrsn=92606bd_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 56 |
+| [htac_may_attendees.pdf?sfvrsn=9f2acc20_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_may_attendees.pdf?sfvrsn=9f2acc20_1) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [htac_may_minutes.pdf?sfvrsn=1ea36142_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_may_minutes.pdf?sfvrsn=1ea36142_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 37 |
+| [htac_miller.pdf?sfvrsn=fd4212dc_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_miller.pdf?sfvrsn=fd4212dc_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 50 |
+| [htac_minutes_december_2007.pdf?sfvrsn=d5ef191_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_minutes_december_2007.pdf?sfvrsn=d5ef191_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 45 |
+| [htac_minutes_jan07.pdf?sfvrsn=2458156e_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_minutes_jan07.pdf?sfvrsn=2458156e_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 42 |
+| [htac_msc_report_12-14.pdf?sfvrsn=14a5d3fa_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_msc_report_12-14.pdf?sfvrsn=14a5d3fa_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 28 |
+| [htac_mtg08_10_joseck_doe.pdf?sfvrsn=fb41ebaf_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_mtg08_10_joseck_doe.pdf?sfvrsn=fb41ebaf_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 22 |
+| [htac_nas_freedomcar_ramage.pdf?sfvrsn=3c135a8d_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nas_freedomcar_ramage.pdf?sfvrsn=3c135a8d_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [htac_nas_ramage.pdf?sfvrsn=340e07bd_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nas_ramage.pdf?sfvrsn=340e07bd_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [htac_nov06_agenda.pdf?sfvrsn=35dd2733_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nov06/htac_nov06_agenda.pdf?sfvrsn=35dd2733_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [htac_nov06_frn.pdf?sfvrsn=d50608a3_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nov06/htac_nov06_frn.pdf?sfvrsn=d50608a3_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [htac_nov06_minutes_attendees.pdf?sfvrsn=63e6847e_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nov06/htac_nov06_minutes_attendees.pdf?sfvrsn=63e6847e_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 |
+| [htac_oct06_minutes.pdf?sfvrsn=df2169a2_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_oct06_minutes.pdf?sfvrsn=df2169a2_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 21 |
+| [htac_oct06_mtg_attend.pdf?sfvrsn=e9b4f9ba_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_oct06_mtg_attend.pdf?sfvrsn=e9b4f9ba_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [htac_posture_plan_milliken.pdf?sfvrsn=fae48b48_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_posture_plan_milliken.pdf?sfvrsn=fae48b48_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 42 |
+| [htac_pres_alan_lloyd.pdf?sfvrsn=ce8d27a1_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_pres_alan_lloyd.pdf?sfvrsn=ce8d27a1_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 19 |
+| [htac_pres_joann_milliken.pdf?sfvrsn=bf57ec9d_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_pres_joann_milliken.pdf?sfvrsn=bf57ec9d_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 45 |
+| [htac_pres_kathi_epping.pdf?sfvrsn=209bb369_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_pres_kathi_epping.pdf?sfvrsn=209bb369_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 20 |
+| [htac_rose_usfcc.pdf?sfvrsn=4e18ae0b_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_rose_usfcc.pdf?sfvrsn=4e18ae0b_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 21 |
+| [htac_scenario_analysis_gronich.pdf?sfvrsn=b02141d_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_scenario_analysis_gronich.pdf?sfvrsn=b02141d_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 22 |
+| [htac_sect_807.pdf?sfvrsn=40890d77_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_sect_807.pdf?sfvrsn=40890d77_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [htac_table1_walker.pdf?sfvrsn=6b696f7e_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_table1_walker.pdf?sfvrsn=6b696f7e_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [htac_table2_mccormick.pdf?sfvrsn=1030d25d_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_table2_mccormick.pdf?sfvrsn=1030d25d_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [htac_table3_taylor.pdf?sfvrsn=d9df03e9_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_table3_taylor.pdf?sfvrsn=d9df03e9_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [htac_table4_bawden.pdf?sfvrsn=27d25531_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_table4_bawden.pdf?sfvrsn=27d25531_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [htac_talking_points.pdf?sfvrsn=bc5ff953_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_talking_points.pdf?sfvrsn=bc5ff953_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [htac_v3a1.pdf?sfvrsn=a2151e95_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_v3a1.pdf?sfvrsn=a2151e95_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 18 |
+| [htacjuly07_agenda.pdf?sfvrsn=ff1468bd_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_agenda.pdf?sfvrsn=ff1468bd_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [htacjuly07_attendees.pdf?sfvrsn=7bc68ea2_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_attendees.pdf?sfvrsn=7bc68ea2_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [htacjuly07_budget.pdf?sfvrsn=d911d6dc_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_budget.pdf?sfvrsn=d911d6dc_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [htacjuly07_collaboration.pdf?sfvrsn=3159f843_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_collaboration.pdf?sfvrsn=3159f843_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 |
+| [htacjuly07_minutes.pdf?sfvrsn=9c63002d_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_minutes.pdf?sfvrsn=9c63002d_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 30 |
+| [htacjuly07_prizes.pdf?sfvrsn=2c4e1a08_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_prizes.pdf?sfvrsn=2c4e1a08_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [htacjuly07_status_codes.pdf?sfvrsn=7df91e4_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_status_codes.pdf?sfvrsn=7df91e4_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 11 |
+| [htacjuly07_well_to_wheels.pdf?sfvrsn=f08e7327_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_well_to_wheels.pdf?sfvrsn=f08e7327_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 45 |
+| [htap_report_to_congress_1998.pdf?sfvrsn=a5451b23_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htap_report_to_congress_1998.pdf?sfvrsn=a5451b23_1) | energy.gov | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 45 |
+| [hvac_design_hothumid.pdf](http://www1.eere.energy.gov/buildings/publications/pdfs/building_america/hvac_design_hothumid.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 66 |
+| [hybrid_electric_and_low-speed_vehicles.pdf](https://epact.energy.gov/pdfs/hybrid_electric_and_low-speed_vehicles.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [hydrogen_biennial_report_to_congress.pdf?sfvrsn=30e34a65_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/hydrogen_biennial_report_to_congress.pdf?sfvrsn=30e34a65_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 18 |
+| [hydrogen_biennial_report_to_congressec4cea3b-1b8e-44d4-9827-324c9c94edba.pdf?sfvrsn=7e5916b0_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/hydrogen_biennial_report_to_congressec4cea3b-1b8e-44d4-9827-324c9c94edba.pdf?sfvrsn=7e5916b0_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 18 |
+| [idlebox_work_truck_idling_reduction.pdf](https://cleancities.energy.gov/files/pdfs/idlebox_work_truck_idling_reduction.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [idling_emergency-service_vehicles.pdf](https://afdc.energy.gov/files/u/publication/idling_emergency-service_vehicles.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [idling_personal_vehicles.pdf](https://afdc.energy.gov/files/u/publication/idling_personal_vehicles.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [idling_reduction_emergency_vehicles_case_study.pdf](https://afdc.energy.gov/files/u/publication/idling_reduction_emergency_vehicles_case_study.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [in000_stetson_2024_o0e018332-9871-45a3-9c2c-67686e3fadab.pdf?sfvrsn=9885dda4_5](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/in000_stetson_2024_o0e018332-9871-45a3-9c2c-67686e3fadab.pdf?sfvrsn=9885dda4_5) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 32 |
+| [investments.pdf](https://epact.energy.gov/pdfs/investments.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [kelly_letter.pdf?sfvrsn=786e217b_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/kelly_letter.pdf?sfvrsn=786e217b_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [law_105-388.pdf](https://epact.energy.gov/pdfs/law_105-388.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [msslc_enews_jul2016.pdf](https://www.energy.gov/sites/prod/files/2016/07/f33/msslc_enews_jul2016.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 5 |
+| [my2007_annual_report.pdf](https://epact.energy.gov/pdfs/my2007_annual_report.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [navigating_compliance_tool.pdf](https://epact.energy.gov/pdfs/navigating_compliance_tool.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [ngv_pres.pdf](https://cleancities.energy.gov/files/pdfs/ngv_pres.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 57 |
+| [oced001_galiteva_2024_o.pdf?sfvrsn=f835161f_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/oced001_galiteva_2024_o.pdf?sfvrsn=f835161f_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [oced002_green_2024_o.pdf?sfvrsn=25758f6d_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/oced002_green_2024_o.pdf?sfvrsn=25758f6d_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 29 |
+| [oced003_banwart_2024_o.pdf?sfvrsn=1597b64a_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/oced003_banwart_2024_o.pdf?sfvrsn=1597b64a_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [oced004_wocken_2024_o.pdf?sfvrsn=5e0e6a66_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/oced004_wocken_2024_o.pdf?sfvrsn=5e0e6a66_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [oced005_bennett_2024_o.pdf?sfvrsn=ee46f9c8_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/oced005_bennett_2024_o.pdf?sfvrsn=ee46f9c8_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [oced006_colella_2024_o.pdf?sfvrsn=fc6f63f_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/oced006_colella_2024_o.pdf?sfvrsn=fc6f63f_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [oced007_barnes_2024_o.pdf?sfvrsn=21975745_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/oced007_barnes_2024_o.pdf?sfvrsn=21975745_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [p000_peterson_2024_obf4cdd3d-5f59-4fe7-88f9-bca9b4de74c6.pdf?sfvrsn=aab8e82_4](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/p000_peterson_2024_obf4cdd3d-5f59-4fe7-88f9-bca9b4de74c6.pdf?sfvrsn=aab8e82_4) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 42 |
+| [partnership-structure.pdf](https://cleancities.energy.gov/files/pdfs/partnership-structure.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 34 |
+| [pev_charging_healthcare.pdf](https://afdc.energy.gov/files/u/publication/pev_charging_healthcare.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 7 |
+| [plenary1_satyapal_2024_ob073b81a-5737-4165-bbeb-aeaeeaa871fc.pdf?sfvrsn=2d784142_4](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/plenary1_satyapal_2024_ob073b81a-5737-4165-bbeb-aeaeeaa871fc.pdf?sfvrsn=2d784142_4) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 86 |
+| [plenary2_hydrogen_program_panel_2024_o.pdf?sfvrsn=a0c265c4_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/plenary2_hydrogen_program_panel_2024_o.pdf?sfvrsn=a0c265c4_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 46 |
+| [plenary3_hfto_subprogram_panel_2024_o.pdf?sfvrsn=eb473364_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/plenary3_hfto_subprogram_panel_2024_o.pdf?sfvrsn=eb473364_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 |
+| [plenary4_amr_awards_2024_o.pdf?sfvrsn=a37c9e6d_3](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/plenary4_amr_awards_2024_o.pdf?sfvrsn=a37c9e6d_3) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [plug-in_hybrid_electric_vehicles.pdf](https://epact.energy.gov/pdfs/plug-in_hybrid_electric_vehicles.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [postings_06-21-16.pdf](https://www.energy.gov/sites/prod/files/2016/06/f32/postings_06-21-16.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [presentation_Andre_Freeman_2_-_California_Sustainable_Freight_Action_Plan_Presentation_10-10-16_Final.pdf?fbddaa529f](https://cleancities.energy.gov/files/u/news_events/document/document_url/195/presentation_Andre_Freeman_2_-_California_Sustainable_Freight_Action_Plan_Presentation_10-10-16_Final.pdf?fbddaa529f) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 15 |
+| [presentation_Andre_Freeman_ARFVTP_Presentation_1__10-18-2016.pdf?7112de5d2d](https://cleancities.energy.gov/files/u/news_events/document/document_url/192/presentation_Andre_Freeman_ARFVTP_Presentation_1__10-18-2016.pdf?7112de5d2d) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 30 |
+| [presentation_Andre_Freeman_NGVTF_Day_2.pdf?28b3760505](https://cleancities.energy.gov/files/u/news_events/document/document_url/220/presentation_Andre_Freeman_NGVTF_Day_2.pdf?28b3760505) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 9 |
+| [presentation_Blaylock_NGVTF2016.pdf?07d63919bb](https://cleancities.energy.gov/files/u/news_events/document/document_url/208/presentation_Blaylock_NGVTF2016.pdf?07d63919bb) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 31 |
+| [presentation_Dean_Saito_2__2016_NGVTF_-_101816.pdf?0907f643a8](https://cleancities.energy.gov/files/u/news_events/document/document_url/193/presentation_Dean_Saito_2__2016_NGVTF_-_101816.pdf?0907f643a8) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [presentation_GTI-US_Hybrid_-_Ted_Barnes_-_NGVTF_2016.pdf?6a356d580c](https://cleancities.energy.gov/files/u/news_events/document/document_url/202/presentation_GTI-US_Hybrid_-_Ted_Barnes_-_NGVTF_2016.pdf?6a356d580c) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 17 |
+| [presentation_John_Reed_Natural_Gas_Vehicle_technology_Forum_2016.pdf?c41981c8cb](https://cleancities.energy.gov/files/u/news_events/document/document_url/203/presentation_John_Reed_Natural_Gas_Vehicle_technology_Forum_2016.pdf?c41981c8cb) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 20 |
+| [presentation_Monica_White_Nat_Gas_Update_BLT.v2.pdf?ca6cdd5482](https://cleancities.energy.gov/files/u/news_events/document/document_url/213/presentation_Monica_White_Nat_Gas_Update_BLT.v2.pdf?ca6cdd5482) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 15 |
+| [presentation_NEANDROSS_GNA_DOE_Clean_Cities_NGV_Tech_Forum_-_Oct_19_2016_p.pdf?f1cd8f3035](https://cleancities.energy.gov/files/u/news_events/document/document_url/216/presentation_NEANDROSS_GNA_DOE_Clean_Cities_NGV_Tech_Forum_-_Oct_19_2016_p.pdf?f1cd8f3035) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 71 |
+| [presentation_Peter_and_Rey_Gonzalez_2016_NGVTF_Final.pdf?4a529579b1](https://cleancities.energy.gov/files/u/news_events/document/document_url/188/presentation_Peter_and_Rey_Gonzalez_2016_NGVTF_Final.pdf?4a529579b1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 |
+| [presentation_Quon_Kwan_Day_1_NGVTF_Presentation_2016_rev.pdf?52310f870a](https://cleancities.energy.gov/files/u/news_events/document/document_url/199/presentation_Quon_Kwan_Day_1_NGVTF_Presentation_2016_rev.pdf?52310f870a) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 24 |
+| [presentation_Rob_Adams_CC_Alt_Fuels_Incidents-2016_Day_2.pdf?b6ce2c4447](https://cleancities.energy.gov/files/u/news_events/document/document_url/210/presentation_Rob_Adams_CC_Alt_Fuels_Incidents-2016_Day_2.pdf?b6ce2c4447) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 23 |
+| [presentation_Sean_Turner_NGVTF_-_FACILITY_MODS.pdf?55fccc036b](https://cleancities.energy.gov/files/u/news_events/document/document_url/198/presentation_Sean_Turner_NGVTF_-_FACILITY_MODS.pdf?55fccc036b) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 33 |
+| [presentation_Stephen_CWI_Near_Zero_Update_for_NGVTF_19Oct16.pdf?26eea48aa1](https://cleancities.energy.gov/files/u/news_events/document/document_url/200/presentation_Stephen_CWI_Near_Zero_Update_for_NGVTF_19Oct16.pdf?26eea48aa1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 31 |
+| [presentation_Westport_Douville_NGVTF_Oct_2016a.pdf?7461f8327b](https://cleancities.energy.gov/files/u/news_events/document/document_url/223/presentation_Westport_Douville_NGVTF_Oct_2016a.pdf?7461f8327b) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 27 |
+| [program-overview.pdf](https://epact.energy.gov/pdfs/program-overview.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [program_nopr_2-28-95.pdf](https://epact.energy.gov/pdfs/program_nopr_2-28-95.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 27 |
+| [pseries_final_rule.pdf](https://epact.energy.gov/pdfs/pseries_final_rule.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 |
+| [randolph-community-college-energy-plan.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/randolph-community-college-energy-plan.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 11 |
+| [report_to_congress_ethanol_pipeline.pdf](https://www1.eere.energy.gov/bioenergy/pdfs/report_to_congress_ethanol_pipeline.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 26 |
+| [rfg_final_rule_fr_notice.pdf](https://epact.energy.gov/pdfs/rfg_final_rule_fr_notice.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 20 |
+| [sa-scs000_rustagi_2024_o1e5fe353-0916-4795-be64-bbea3a630762.pdf?sfvrsn=cc1f7085_5](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/sa-scs000_rustagi_2024_o1e5fe353-0916-4795-be64-bbea3a630762.pdf?sfvrsn=cc1f7085_5) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 |
+| [sce-im-WO033_Interim_Report_Final-01-16-13.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/sce-im-WO033_Interim_Report_Final-01-16-13.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 159 |
+| [sdi000_adams_2024_o4d7f0816-afb6-4ae6-9378-f9582fb24ee5.pdf?sfvrsn=52093b11_5](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/review24/sdi000_adams_2024_o4d7f0816-afb6-4ae6-9378-f9582fb24ee5.pdf?sfvrsn=52093b11_5) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 35 |
+| [section_133_fact_sheet.pdf](https://epact.energy.gov/pdfs/section_133_fact_sheet.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [section_707_guidance.pdf](https://epact.energy.gov/pdfs/section_707_guidance.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [selfaudit_procedures.pdf](https://epact.energy.gov/pdfs/selfaudit_procedures.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [seventh-biennial-report-to-congress-htac.pdf?sfvrsn=63e449fb_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/seventh-biennial-report-to-congress-htac.pdf?sfvrsn=63e449fb_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 30 |
+| [sixth-biennial-report-to-congress-htac.pdf?sfvrsn=9722960a_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/sixth-biennial-report-to-congress-htac.pdf?sfvrsn=9722960a_1) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 89 |
+| [solar_wind_for_hydrogen_dec2005.pdf?sfvrsn=a826b717_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/solar_wind_for_hydrogen_dec2005.pdf?sfvrsn=a826b717_1) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 50 |
+| [standard_compliance.pdf](https://epact.energy.gov/pdfs/standard_compliance.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 46 |
+| [state_fire_marshals.pdf?sfvrsn=220e3e3c_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/state_fire_marshals.pdf?sfvrsn=220e3e3c_1) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 10 |
+| [summary_2010.pdf](https://cleancities.energy.gov/files/pdfs/summary_2010.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 |
+| [taxi_fleet_electrification.pdf](https://afdc.energy.gov/files/u/publication/taxi_fleet_electrification.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [ti123_stein_2021_o_5-14_634pm_KS_ML.pdf](https://www.energy.gov/sites/default/files/2021-06/ti123_stein_2021_o_5-14_634pm_KS_ML.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [transferform.pdf](https://epact.energy.gov/pdfs/transferform.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [trec-foa-webinar_040424.pdf](https://www.energy.gov/sites/default/files/2024-04/trec-foa-webinar_040424.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 39 |
+| [tut_mod_1.pdf](https://epact.energy.gov/pdfs/tut_mod_1.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 11 |
+| [tut_mod_2.pdf](https://epact.energy.gov/pdfs/tut_mod_2.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 |
+| [tut_mod_3.pdf](https://epact.energy.gov/pdfs/tut_mod_3.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 15 |
+| [tut_mod_4.pdf](https://epact.energy.gov/pdfs/tut_mod_4.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 15 |
+| [tut_mod_5.pdf](https://epact.energy.gov/pdfs/tut_mod_5.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [us-national-clean-hydrogen-strategy-roadmap.pdf?sfvrsn=c425b44f_5](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/us-national-clean-hydrogen-strategy-roadmap.pdf?sfvrsn=c425b44f_5) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 99 |
+| [waiver_app_example.pdf](https://epact.energy.gov/pdfs/waiver_app_example.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [welcome-letter.pdf](https://epact.energy.gov/pdfs/welcome-letter.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [which_is_greener.pdf](https://afdc.energy.gov/files/u/publication/which_is_greener.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [wpc_charging_university_campuses.pdf](https://afdc.energy.gov/files/u/publication/wpc_charging_university_campuses.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 7 |
 
 ## Files with Errors or Notes
 
@@ -3960,3 +4356,1641 @@ Generated: 2026-03-09T22:37:35.576294+00:00
 - **URL**: https://www.gsa.gov/system/files/updated-te-list-11012023-approved-508.xlsx
 - **Status**: error
 - module 'pikepdf' has no attribute 'qpdf'
+
+### 10%20Easy%20Resource%20Conservation%20Measures.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/10%20Easy%20Resource%20Conservation%20Measures.pdf
+- **Status**: analysed
+- title, 
+
+### 10356_epact_exemptions_2-4-26.xlsx?fafb6734ef
+
+- **URL**: https://afdc.energy.gov/files/u/data/data_source/10356/10356_epact_exemptions_2-4-26.xlsx?fafb6734ef
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### 10358_epact_trade_history_2-5-26.xlsx?49416a85b5
+
+- **URL**: https://afdc.energy.gov/files/u/data/data_source/10358/10358_epact_trade_history_2-5-26.xlsx?49416a85b5
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### 10360_il_tech_type_history_2-2-26.xlsx?bc66b68dcd
+
+- **URL**: https://afdc.energy.gov/files/u/data/data_source/10360/10360_il_tech_type_history_2-2-26.xlsx?bc66b68dcd
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### 10361_incentive_type_history_2-2-26.xlsx?642642fd03
+
+- **URL**: https://afdc.energy.gov/files/u/data/data_source/10361/10361_incentive_type_history_2-2-26.xlsx?642642fd03
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### 10565_ldv_energy_losses_1-26-24.xlsx?2f6c02d25b
+
+- **URL**: https://afdc.energy.gov/files/u/data/data_source/10565/10565_ldv_energy_losses_1-26-24.xlsx?2f6c02d25b
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### 133_webinar.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/133_webinar.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 2006_annual_report.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/2006_annual_report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 2007_annual_report.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/2007_annual_report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 2008_hftac_annual_report.pdf?sfvrsn=8c0e756b_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2008_hftac_annual_report.pdf?sfvrsn=8c0e756b_1
+- **Status**: analysed
+- title, lang, 
+
+### 2009_htac_annual_report.pdf?sfvrsn=150c9192_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2009_htac_annual_report.pdf?sfvrsn=150c9192_1
+- **Status**: analysed
+- title, lang, 
+
+### 2009_htac_biennial_report_to_congress.pdf?sfvrsn=a9e54a6f_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2009_htac_biennial_report_to_congress.pdf?sfvrsn=a9e54a6f_1
+- **Status**: analysed
+- title, lang, 
+
+### 2010_htac_annual_report.pdf?sfvrsn=abeacea4_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2010_htac_annual_report.pdf?sfvrsn=abeacea4_1
+- **Status**: analysed
+- title, lang, 
+
+### 2011_htac_annual_report.pdf?sfvrsn=29bcef8a_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2011_htac_annual_report.pdf?sfvrsn=29bcef8a_1
+- **Status**: analysed
+- title, lang, 
+
+### 2011_htac_biennial_report_to_congress.pdf?sfvrsn=87c5bfe4_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2011_htac_biennial_report_to_congress.pdf?sfvrsn=87c5bfe4_1
+- **Status**: analysed
+- title, lang, 
+
+### 2012_doe_response_htac_secretary_letter.pdf?sfvrsn=8188eec6_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2012_doe_response_htac_secretary_letter.pdf?sfvrsn=8188eec6_1
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2012_htac_annual_report.pdf?sfvrsn=f313b4eb_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2012_htac_annual_report.pdf?sfvrsn=f313b4eb_1
+- **Status**: analysed
+- title, lang, 
+
+### 2013_doe_response_htac_secretary_letter.pdf?sfvrsn=cb9bee5f_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2013_doe_response_htac_secretary_letter.pdf?sfvrsn=cb9bee5f_1
+- **Status**: analysed
+- title, 
+
+### 2014_htac_annual_report.pdf?sfvrsn=26633e81_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2014_htac_annual_report.pdf?sfvrsn=26633e81_1
+- **Status**: analysed
+- title, 
+
+### 2015_doe_response_htac_secretary_letter.pdf?sfvrsn=9018595e_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2015_doe_response_htac_secretary_letter.pdf?sfvrsn=9018595e_1
+- **Status**: analysed
+- tagged, 
+
+### 2018-03-29%2012.01%20Charter%20Steel%20Pre-InPLT%20Training%20Webinar%20on%20Fan%20Systems.doc
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/2018-03-29%2012.01%20Charter%20Steel%20Pre-InPLT%20Training%20Webinar%20on%20Fan%20Systems.doc
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### 2018DOECDC_Rules-and-Scoring-Documentation.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/02/2018DOECDC_Rules-and-Scoring-Documentation.pdf
+- **Status**: analysed
+- title, 
+
+### 2018_doe_response_htac_secretary_letter.pdf?sfvrsn=6146cbbe_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/2018_doe_response_htac_secretary_letter.pdf?sfvrsn=6146cbbe_1
+- **Status**: analysed
+- tagged, lang, 
+
+### 2021Summit-Local_Government_Meet_Up-Slides.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/2021Summit-Local_Government_Meet_Up-Slides.pdf
+- **Status**: analysed
+- title, 
+
+### 2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2024-04/2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### 2025-reporting-webinar.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/2025-reporting-webinar.pdf
+- **Status**: analysed
+- title, 
+
+### 233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### 2527.pdf
+
+- **URL**: https://afdc.energy.gov/files/pdfs/2527.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 25968.pdf?sfvrsn=2d1b7207_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/25968.pdf?sfvrsn=2d1b7207_1
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### 2896.pdf
+
+- **URL**: https://afdc.energy.gov/files/pdfs/2896.pdf
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### 3a_Scout.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2018/01/f47/3a_Scout.pdf
+- **Status**: analysed
+- tagged, no bookmarks and more than 20 pages, 
+
+### 47792.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/47792.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 49212.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/49212.pdf
+- **Status**: analysed
+- title, 
+
+### 53876.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/53876.pdf
+- **Status**: analysed
+- title, 
+
+### 56576.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/56576.pdf
+- **Status**: analysed
+- title, 
+
+### 66202.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/66202.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 67572.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/67572.pdf
+- **Status**: analysed
+- tagged, 
+
+### 704_report_final.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/704_report_final.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Appalachia%20Industrial%20Decarbonization%20Deploy%20Dialogue%20Summary.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-10/Appalachia%20Industrial%20Decarbonization%20Deploy%20Dialogue%20Summary.pdf
+- **Status**: analysed
+- title, 
+
+### April%2028%20-%20Part%202%20-%20Finance%20and%20Resilience%20-%20Slide%20Deck%20final%20%281%29.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/April%2028%20-%20Part%202%20-%20Finance%20and%20Resilience%20-%20Slide%20Deck%20final%20%281%29.pdf
+- **Status**: analysed
+- title, 
+
+### April-2017-Rule-Set.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/02/April-2017-Rule-Set.pdf
+- **Status**: analysed
+- title, 
+
+### BlackPak_ANG_NGV_Tech_Forum_2015-10.pdf?efaf63a7d3
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/121/BlackPak_ANG_NGV_Tech_Forum_2015-10.pdf?efaf63a7d3
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Brad_Douville___Westport_NGVTF_.pdf?dbb5535f7f
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/128/Brad_Douville___Westport_NGVTF_.pdf?dbb5535f7f
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### CALSLA.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/CALSLA.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### COL_DEMO_LL_Consolidated%20REPORT.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2013/10/f3/COL_DEMO_LL_Consolidated%20REPORT.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CREH_Sector_Meeting_Wed_LEnfant_4PM.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/CREH_Sector_Meeting_Wed_LEnfant_4PM.pdf
+- **Status**: analysed
+- title, 
+
+### CSA%20Codes%20and%20Standards%20Update.pdf?b7433039ae
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/672/file/CSA%20Codes%20and%20Standards%20Update.pdf?b7433039ae
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Camas%20Communication%20to%20Building%20Occupants%20PowerPoint.6.18.15.ppt
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Camas%20Communication%20to%20Building%20Occupants%20PowerPoint.6.18.15.ppt
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Charter%20Steel%20pre-INPLT%20Fan%20Systems%20Webinar_0.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/Charter%20Steel%20pre-INPLT%20Fan%20Systems%20Webinar_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Corcoran%20Training.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Corcoran%20Training.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### CyberForce-Program-Impact.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/01/CyberForce-Program-Impact.pdf
+- **Status**: analysed
+- tagged, 
+
+### CyberForce-Sponsorship-Guide.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/06/CyberForce-Sponsorship-Guide.pdf
+- **Status**: analysed
+- tagged, 
+
+### DSmith-DualFuel-NGVTF-2015.pdf?62c87733b7
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/129/DSmith-DualFuel-NGVTF-2015.pdf?62c87733b7
+- **Status**: analysed
+- title, 
+
+### Dedicated%20Exhaust%20Gas%20Recirculation%2012L%20Natural%20Gas.pdf?f2360ef0fb
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/655/file/Dedicated%20Exhaust%20Gas%20Recirculation%2012L%20Natural%20Gas.pdf?f2360ef0fb
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Drive%20Action%20Through%20Energy%20Data%20Visualization.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Drive%20Action%20Through%20Energy%20Data%20Visualization.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Example%20CMAR%20RFP%20Documents.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Example%20CMAR%20RFP%20Documents.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### FY2018BudgetVolume1_1.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume1_1.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### FY2018BudgetVolume2_2.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume2_2.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### FY2018BudgetVolume3_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume3_0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FY2018BudgetVolume4_5.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume4_5.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FY2018BudgetVolume5.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2017/06/f34/FY2018BudgetVolume5.pdf
+- **Status**: analysed
+- title, lang, 
+
+### FY2018BudgetVolume6_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2017/05/f34/FY2018BudgetVolume6_0.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Family%20Dollar%20IM%20-%20Duct%20Sealing.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Family%20Dollar%20IM%20-%20Duct%20Sealing.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FedRegBioFinal.pdf
+
+- **URL**: https://afdc.energy.gov/files/pdfs/FedRegBioFinal.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Field%20Demonstration%20of%20Liquefied%20Natural%20Gas%20Yard%20Hostlers.pdf?60b715c20d
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/653/file/Field%20Demonstration%20of%20Liquefied%20Natural%20Gas%20Yard%20Hostlers.pdf?60b715c20d
+- **Status**: analysed
+- tagged, lang, no bookmarks and more than 20 pages, 
+
+### Finance%20_%20Resilience%20Initiative_%20Taking%20Action%20to%20Improve%20Resilience%20and%20Disclose%20Performance%20Transcript_QA.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Finance%20_%20Resilience%20Initiative_%20Taking%20Action%20to%20Improve%20Resilience%20and%20Disclose%20Performance%20Transcript_QA.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Finance_Sub-Committee_Charter.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Finance_Sub-Committee_Charter.pdf
+- **Status**: analysed
+- title, 
+
+### Finding%20and%20Funding%20an%20Energy%20Management%20Information%20System%20%281%29.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Finding%20and%20Funding%20an%20Energy%20Management%20Information%20System%20%281%29.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### GREEN-VOLUNTEER.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/05/GREEN-VOLUNTEER.pdf
+- **Status**: analysed
+- tagged, 
+
+### Generalized-Command-Benefit-Flyer-1.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/01/Generalized-Command-Benefit-Flyer-1.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Generalized-Reign-Benefit-Flyer.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/05/Generalized-Reign-Benefit-Flyer.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Green%20Ideas%20Challenge%20Internal%20Newsletter_0.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Green%20Ideas%20Challenge%20Internal%20Newsletter_0.pdf
+- **Status**: analysed
+- title, 
+
+### High%20Horsepower%20Update.pdf?c10c346b1b
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/651/file/High%20Horsepower%20Update.pdf?c10c346b1b
+- **Status**: analysed
+- tagged, lang, 
+
+### High-School.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/05/High-School.pdf
+- **Status**: analysed
+- tagged, 
+
+### Hydrogen%20Compression%20and%20Fueling%20Advancements.pdf?190d35ad15
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/750/file/Hydrogen%20Compression%20and%20Fueling%20Advancements.pdf?190d35ad15
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Innovative%20Energy%20Efficiency%20Financing%20in%20Public%20Housing-%20Slide%20Deck.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/Innovative%20Energy%20Efficiency%20Financing%20in%20Public%20Housing-%20Slide%20Deck.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### James_Burns_Clean_Cities_Natural_Gas_Plug-In_Hybrid_Class_8_Trucks__NGPH-8_PIR-13-012.pdf?5ee81ffe22
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/130/James_Burns_Clean_Cities_Natural_Gas_Plug-In_Hybrid_Class_8_Trucks__NGPH-8_PIR-13-012.pdf?5ee81ffe22
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Local%20Government%20Sector%20Meet-Up-Transcript.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Local%20Government%20Sector%20Meet-Up-Transcript.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Logistics.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/05/Logistics.pdf
+- **Status**: analysed
+- tagged, 
+
+### Make%20the%20Case%20-%20Slides.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/Make%20the%20Case%20-%20Slides.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Make%20the%20Case%20-%20Transcript%20and%20Additional%20Resources.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Make%20the%20Case%20-%20Transcript%20and%20Additional%20Resources.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Mark_Sandia_NGVTF-Musculus-151020.pdf?cff23dd64f
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/131/Mark_Sandia_NGVTF-Musculus-151020.pdf?cff23dd64f
+- **Status**: analysed
+- title, 
+
+### Maximizing%20Performance%20in%20Affordable%20New%20Construction%20-%20Slide%20Deck.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/Maximizing%20Performance%20in%20Affordable%20New%20Construction%20-%20Slide%20Deck.pdf
+- **Status**: analysed
+- title, 
+
+### Myworksite_User_Guide.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/Myworksite_User_Guide.pdf
+- **Status**: analysed
+- title, 
+
+### NGVTF_Bowerson_10.21.15.pdf?9706430bbb
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/133/NGVTF_Bowerson_10.21.15.pdf?9706430bbb
+- **Status**: analysed
+- title, 
+
+### Natural%20Gas%20Plug-In%20Hybrid%20Class%208%20Truck.pdf?627836f878
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/665/file/Natural%20Gas%20Plug-In%20Hybrid%20Class%208%20Truck.pdf?627836f878
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Ned_Biehl_PG_E_The_Alternative_Fuel_Experience.pdf?f6639e7505
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/126/Ned_Biehl_PG_E_The_Alternative_Fuel_Experience.pdf?f6639e7505
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### One%20Size%20Does%20Not%20Fit%20All%20-%20slide%20deck.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/One%20Size%20Does%20Not%20Fit%20All%20-%20slide%20deck.pdf
+- **Status**: analysed
+- title, 
+
+### One%20Size%20Does%20Not%20Fit%20All%20Transcript.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/One%20Size%20Does%20Not%20Fit%20All%20Transcript.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Perspectives%20on%20Resilience%20-%20transcript.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Perspectives%20on%20Resilience%20-%20transcript.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Preserving%20the%20Past%20-%20Slide%20Deck_0.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2025-02/Preserving%20the%20Past%20-%20Slide%20Deck_0.pdf
+- **Status**: analysed
+- title, 
+
+### QECB-FAQ_final.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2017/08/f36/QECB-FAQ_final.pdf
+- **Status**: analysed
+- title, 
+
+### QuantumWkshpRpt20FINAL_Nav_0.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/07/f76/QuantumWkshpRpt20FINAL_Nav_0.pdf
+- **Status**: analysed
+- title, 
+
+### Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/132/Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### RI_TRO_Notice.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf
+- **Status**: analysed
+- title, 
+
+### Red-Volunteer.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/05/Red-Volunteer.pdf
+- **Status**: analysed
+- tagged, 
+
+### Renewable%20Natural%20Gas%20Production%20Update.pdf?c8877d0e98
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/667/file/Renewable%20Natural%20Gas%20Production%20Update.pdf?c8877d0e98
+- **Status**: analysed
+- tagged, lang, 
+
+### Resilience_Applications_for_Low_Income_Communities.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Resilience_Applications_for_Low_Income_Communities.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### SCORING-ASST.pdf
+
+- **URL**: https://cyberforce.energy.gov/wp-content/uploads/2025/05/SCORING-ASST.pdf
+- **Status**: analysed
+- tagged, 
+
+### Sample_Workplace_Charging_Policy.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/Sample_Workplace_Charging_Policy.pdf
+- **Status**: analysed
+- title, 
+
+### Scarpino-_CNG_Fuel_Tank_Safety_Initiative__NGVTF__vFINAL.pdf?1351019b1b
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/122/Scarpino-_CNG_Fuel_Tank_Safety_Initiative__NGVTF__vFINAL.pdf?1351019b1b
+- **Status**: analysed
+- title, 
+
+### Shari%27s%2010%20Easy%20Actions%20Poster.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Shari%27s%2010%20Easy%20Actions%20Poster.pdf
+- **Status**: analysed
+- title, 
+
+### Shari%27s%20Cafe%20and%20Pies%20Energy%20Management.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Shari%27s%20Cafe%20and%20Pies%20Energy%20Management.pdf
+- **Status**: analysed
+- title, 
+
+### Shari%27s%20Easy%20Actions%20poster_ALL%20TEAM.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Shari%27s%20Easy%20Actions%20poster_ALL%20TEAM.pdf
+- **Status**: analysed
+- title, 
+
+### Shari%27s%20Easy%20Actions%20poster_COOKS%20V2.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Shari%27s%20Easy%20Actions%20poster_COOKS%20V2.pdf
+- **Status**: analysed
+- title, 
+
+### Shari%27s%20Easy%20Actions%20poster_DMOs%20V2.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/Shari%27s%20Easy%20Actions%20poster_DMOs%20V2.pdf
+- **Status**: analysed
+- title, 
+
+### Stephen_P_CWI_ISB_and_ISX_Update_for_NGVTF_21Oct15.pdf?8a8816af94
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/127/Stephen_P_CWI_ISB_and_ISX_Update_for_NGVTF_21Oct15.pdf?8a8816af94
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Ted_Barnes_GTI_CNG_Dispensing_v1.pdf?33d3b4fe5c
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/123/Ted_Barnes_GTI_CNG_Dispensing_v1.pdf?33d3b4fe5c
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### The%20Next%20Big%20Thing%20-%20Slides.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/The%20Next%20Big%20Thing%20-%20Slides.pdf
+- **Status**: analysed
+- title, 
+
+### The%20Next%20Big%20Thing%20-%20Transcript.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/The%20Next%20Big%20Thing%20-%20Transcript.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### The%20Next%20Frontier%20in%20Lighting%20Getting%20Connected%20with%20the%20Integrated%20Lighting%20Campaign%20-%20Transcript.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/The%20Next%20Frontier%20in%20Lighting%20Getting%20Connected%20with%20the%20Integrated%20Lighting%20Campaign%20-%20Transcript.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Transcript_3.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/Transcript_3.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Transient%20Plasma%20Ignition%20System%20for%20Natural%20Gas%20Engines.pdf?5b4a54aecb
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/666/file/Transient%20Plasma%20Ignition%20System%20for%20Natural%20Gas%20Engines.pdf?5b4a54aecb
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### WPCC_L1ChargingAtTheWorkplace_0716.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/WPCC_L1ChargingAtTheWorkplace_0716.pdf
+- **Status**: analysed
+- title, 
+
+### WPCC_agendatemplate_0517.docx
+
+- **URL**: https://cleancities.energy.gov/files/docs/WPCC_agendatemplate_0517.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### WPCC_employertoolkit_1114.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/WPCC_employertoolkit_1114.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### WPCC_sample_employee_survey_0816.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/WPCC_sample_employee_survey_0816.pdf
+- **Status**: analysed
+- title, 
+
+### WPCC_speakeroutreachletter_0517_branded.docx
+
+- **URL**: https://cleancities.energy.gov/files/docs/WPCC_speakeroutreachletter_0517_branded.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### WPCC_speakeroutreachletter_0517_general.docx
+
+- **URL**: https://cleancities.energy.gov/files/docs/WPCC_speakeroutreachletter_0517_general.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### ac-spreadsheet-report.xlsx
+
+- **URL**: https://epact.energy.gov/docs/ac-spreadsheet-report.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### ac-spreadsheet-sample.xlsx
+
+- **URL**: https://epact.energy.gov/docs/ac-spreadsheet-sample.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### ac-spreadsheet-waiver.xlsx
+
+- **URL**: https://epact.energy.gov/docs/ac-spreadsheet-waiver.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### ac-waiver-sample.xlsx
+
+- **URL**: https://epact.energy.gov/docs/ac-waiver-sample.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### alt_compliance_rule.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/alt_compliance_rule.pdf
+- **Status**: analysed
+- title, lang, 
+
+### alt_fuel_final_rule_3-14-08.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/alt_fuel_final_rule_3-14-08.pdf
+- **Status**: analysed
+- title, lang, 
+
+### alt_fuel_nopr_jun23.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/alt_fuel_nopr_jun23.pdf
+- **Status**: analysed
+- title, lang, 
+
+### annual-reporting-webinar.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/annual-reporting-webinar.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ba_innovations_1-1-2_advanced_framing.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_1-1-2_advanced_framing.pdf
+- **Status**: analysed
+- lang, 
+
+### ba_innovations_1-1-3_high_performance_ducts.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_1-1-3_high_performance_ducts.pdf
+- **Status**: analysed
+- lang, 
+
+### ba_innovations_1-2-4_high_performance_furnace_blower.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_1-2-4_high_performance_furnace_blower.pdf
+- **Status**: analysed
+- lang, 
+
+### ba_innovations_1-2-5_window_ac.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_1-2-5_window_ac.pdf
+- **Status**: analysed
+- lang, 
+
+### ba_innovations_2-1-6_zero_energy_homes.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_2-1-6_zero_energy_homes.pdf
+- **Status**: analysed
+- lang, 
+
+### ba_innovations_3-1-10_basc.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_3-1-10_basc.pdf
+- **Status**: analysed
+- lang, 
+
+### ba_innovations_3-1-7_exterior_rigid_insulation.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_3-1-7_exterior_rigid_insulation.pdf
+- **Status**: analysed
+- lang, 
+
+### ba_innovations_3-1-8_window_rehab.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_3-1-8_window_rehab.pdf
+- **Status**: analysed
+- lang, 
+
+### ba_innovations_3-1-9_quality_management_systems.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_3-1-9_quality_management_systems.pdf
+- **Status**: analysed
+- lang, 
+
+### ba_innovations_4-3-11_nrel_hpxml.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/ba_innovations_4-3-11_nrel_hpxml.pdf
+- **Status**: analysed
+- lang, 
+
+### biennial_report_to_congress_2014.pdf?sfvrsn=af11eee8_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/biennial_report_to_congress_2014.pdf?sfvrsn=af11eee8_1
+- **Status**: analysed
+- title, 
+
+### biodiesel_fuel_use_credit.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/biodiesel_fuel_use_credit.pdf
+- **Status**: analysed
+- title, lang, 
+
+### biodieselinterim.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/biodieselinterim.pdf
+- **Status**: analysed
+- title, lang, 
+
+### bk28423.pdf?sfvrsn=705e04e2_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/bk28423.pdf?sfvrsn=705e04e2_1
+- **Status**: analysed
+- title, tagged, lang, 
+
+### brochure.pdf?sfvrsn=fd9d95e0_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/brochure.pdf?sfvrsn=fd9d95e0_1
+- **Status**: analysed
+- title, tagged, lang, 
+
+### business-card.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/business-card.pdf
+- **Status**: analysed
+- title, lang, 
+
+### codes_stds.pdf?sfvrsn=9bc0552f_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/codes_stds.pdf?sfvrsn=9bc0552f_1
+- **Status**: analysed
+- title, lang, 
+
+### contacts.pdf
+
+- **URL**: https://cleancities.energy.gov/contacts.pdf
+- **Status**: analysed
+- title, lang, 
+
+### dot_regulatory_process.pdf?sfvrsn=b3a39df7_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/dot_regulatory_process.pdf?sfvrsn=b3a39df7_1
+- **Status**: analysed
+- title, lang, 
+
+### epact1820_employment_study.pdf?sfvrsn=3f0dcd9f_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/epact1820_employment_study.pdf?sfvrsn=3f0dcd9f_1
+- **Status**: analysed
+- title, lang, 
+
+### epact_05.pdf?sfvrsn=a2f1179f_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/epact_05.pdf?sfvrsn=a2f1179f_1
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### epact_titles_3-4-5-6-19.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/epact_titles_3-4-5-6-19.pdf
+- **Status**: analysed
+- title, lang, 
+
+### evse_cost_report_2015.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/evse_cost_report_2015.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fc_report_congress_feb2003.pdf?sfvrsn=f0fdc809_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/fc_report_congress_feb2003.pdf?sfvrsn=f0fdc809_1
+- **Status**: analysed
+- title, lang, 
+
+### fed_reg.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/fed_reg.pdf
+- **Status**: analysed
+- title, lang, 
+
+### folder-sticker.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/folder-sticker.pdf
+- **Status**: analysed
+- title, lang, 
+
+### fr_rfgm_jan-07.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/fr_rfgm_jan-07.pdf
+- **Status**: analysed
+- title, lang, 
+
+### fr_rin_1904-ab69.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/fr_rin_1904-ab69.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ghg_guidance.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/ghg_guidance.pdf
+- **Status**: analysed
+- title, lang, 
+
+### goal_setting_report_congress.pdf?sfvrsn=b5369710_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/goal_setting_report_congress.pdf?sfvrsn=b5369710_1
+- **Status**: analysed
+- title, 
+
+### greenhyd.pdf?sfvrsn=1ee3eb4e_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/greenhyd.pdf?sfvrsn=1ee3eb4e_1
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### h2_letter_report_final.pdf?sfvrsn=c6b4087e_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/h2_letter_report_final.pdf?sfvrsn=c6b4087e_1
+- **Status**: analysed
+- title, lang, 
+
+### hdv_idling_2015.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/hdv_idling_2015.pdf
+- **Status**: analysed
+- title, lang, 
+
+### hpep_report_2013.pdf?sfvrsn=96b23cc9_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/hpep_report_2013.pdf?sfvrsn=96b23cc9_1
+- **Status**: analysed
+- title, tagged, lang, 
+
+### hpep_report_2013_doe_response.pdf?sfvrsn=c50d1192_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/hpep_report_2013_doe_response.pdf?sfvrsn=c50d1192_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_agenda_0507.pdf?sfvrsn=e04346fd_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_agenda_0507.pdf?sfvrsn=e04346fd_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_agenda_06.pdf?sfvrsn=221406bf_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_agenda_06.pdf?sfvrsn=221406bf_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_agenda_december.pdf?sfvrsn=22bdf379_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_agenda_december.pdf?sfvrsn=22bdf379_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_air_products.pdf?sfvrsn=ff0b7c08_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_air_products.pdf?sfvrsn=ff0b7c08_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_attendees_jan06.pdf?sfvrsn=765ba69a_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_attendees_jan06.pdf?sfvrsn=765ba69a_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_bodman_letter_pp_0107.pdf?sfvrsn=a16db40a_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_bodman_letter_pp_0107.pdf?sfvrsn=a16db40a_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_bodman_letter_pp_1106.pdf?sfvrsn=86aa639e_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_bodman_letter_pp_1106.pdf?sfvrsn=86aa639e_1
+- **Status**: analysed
+- title, 
+
+### htac_chernoby_0107.pdf?sfvrsn=50df744d_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_chernoby_0107.pdf?sfvrsn=50df744d_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_entergy-keuter.pdf?sfvrsn=cad20e97_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_entergy-keuter.pdf?sfvrsn=cad20e97_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_exec_summary.pdf?sfvrsn=ca2e8bed_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_exec_summary.pdf?sfvrsn=ca2e8bed_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_fc_products.pdf?sfvrsn=ba920812_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_fc_products.pdf?sfvrsn=ba920812_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_federal_register_0507.pdf?sfvrsn=a7368999_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_federal_register_0507.pdf?sfvrsn=a7368999_1
+- **Status**: analysed
+- title, 
+
+### htac_federal_register_122006.pdf?sfvrsn=f960fe77_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_federal_register_122006.pdf?sfvrsn=f960fe77_1
+- **Status**: analysed
+- title, 
+
+### htac_gm_mccormick.pdf?sfvrsn=f2e875e1_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_gm_mccormick.pdf?sfvrsn=f2e875e1_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_hinkle_0107.pdf?sfvrsn=cf9f3ca4_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_hinkle_0107.pdf?sfvrsn=cf9f3ca4_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_hinkle_1.pdf?sfvrsn=ea83210e_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_hinkle_1.pdf?sfvrsn=ea83210e_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_hinkle_2.pdf?sfvrsn=7a66125c_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_hinkle_2.pdf?sfvrsn=7a66125c_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_hinkle_3.pdf?sfvrsn=4bdaa7bc_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_hinkle_3.pdf?sfvrsn=4bdaa7bc_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_jadoo_bawden.pdf?sfvrsn=c51c21d4_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_jadoo_bawden.pdf?sfvrsn=c51c21d4_1
+- **Status**: analysed
+- title, 
+
+### htac_james_epri.pdf?sfvrsn=d9882a06_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_james_epri.pdf?sfvrsn=d9882a06_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_jan07_mtg_agenda.pdf?sfvrsn=6bb0ae6f_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_jan07_mtg_agenda.pdf?sfvrsn=6bb0ae6f_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_july08_ramage.pdf?sfvrsn=6981e158_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_july08_ramage.pdf?sfvrsn=6981e158_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_july08_satyapal.pdf?sfvrsn=b619ecfd_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_july08_satyapal.pdf?sfvrsn=b619ecfd_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_letter_report_attach.pdf?sfvrsn=7fc31d06_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_letter_report_attach.pdf?sfvrsn=7fc31d06_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_letter_report_attachf181e02f65aa42c1af7a8563c4c935f3.pdf?sfvrsn=4503e59e_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_letter_report_attachf181e02f65aa42c1af7a8563c4c935f3.pdf?sfvrsn=4503e59e_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_marlay.pdf?sfvrsn=92606bd_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_marlay.pdf?sfvrsn=92606bd_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_may_attendees.pdf?sfvrsn=9f2acc20_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_may_attendees.pdf?sfvrsn=9f2acc20_1
+- **Status**: analysed
+- title, tagged, lang, 
+
+### htac_may_minutes.pdf?sfvrsn=1ea36142_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_may_minutes.pdf?sfvrsn=1ea36142_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_miller.pdf?sfvrsn=fd4212dc_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_miller.pdf?sfvrsn=fd4212dc_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_minutes_december_2007.pdf?sfvrsn=d5ef191_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_minutes_december_2007.pdf?sfvrsn=d5ef191_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_minutes_jan07.pdf?sfvrsn=2458156e_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_minutes_jan07.pdf?sfvrsn=2458156e_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_mtg08_10_joseck_doe.pdf?sfvrsn=fb41ebaf_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_mtg08_10_joseck_doe.pdf?sfvrsn=fb41ebaf_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_nas_freedomcar_ramage.pdf?sfvrsn=3c135a8d_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nas_freedomcar_ramage.pdf?sfvrsn=3c135a8d_1
+- **Status**: analysed
+- title, 
+
+### htac_nas_ramage.pdf?sfvrsn=340e07bd_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nas_ramage.pdf?sfvrsn=340e07bd_1
+- **Status**: analysed
+- title, 
+
+### htac_nov06_agenda.pdf?sfvrsn=35dd2733_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nov06/htac_nov06_agenda.pdf?sfvrsn=35dd2733_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_nov06_frn.pdf?sfvrsn=d50608a3_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nov06/htac_nov06_frn.pdf?sfvrsn=d50608a3_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_nov06_minutes_attendees.pdf?sfvrsn=63e6847e_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_nov06/htac_nov06_minutes_attendees.pdf?sfvrsn=63e6847e_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_oct06_minutes.pdf?sfvrsn=df2169a2_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_oct06_minutes.pdf?sfvrsn=df2169a2_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_oct06_mtg_attend.pdf?sfvrsn=e9b4f9ba_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_oct06_mtg_attend.pdf?sfvrsn=e9b4f9ba_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_posture_plan_milliken.pdf?sfvrsn=fae48b48_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_posture_plan_milliken.pdf?sfvrsn=fae48b48_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_pres_alan_lloyd.pdf?sfvrsn=ce8d27a1_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_pres_alan_lloyd.pdf?sfvrsn=ce8d27a1_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_pres_joann_milliken.pdf?sfvrsn=bf57ec9d_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_pres_joann_milliken.pdf?sfvrsn=bf57ec9d_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_pres_kathi_epping.pdf?sfvrsn=209bb369_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_pres_kathi_epping.pdf?sfvrsn=209bb369_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_rose_usfcc.pdf?sfvrsn=4e18ae0b_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_rose_usfcc.pdf?sfvrsn=4e18ae0b_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_scenario_analysis_gronich.pdf?sfvrsn=b02141d_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_scenario_analysis_gronich.pdf?sfvrsn=b02141d_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_sect_807.pdf?sfvrsn=40890d77_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_sect_807.pdf?sfvrsn=40890d77_1
+- **Status**: analysed
+- title, 
+
+### htac_table1_walker.pdf?sfvrsn=6b696f7e_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_table1_walker.pdf?sfvrsn=6b696f7e_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_table2_mccormick.pdf?sfvrsn=1030d25d_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_table2_mccormick.pdf?sfvrsn=1030d25d_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_table3_taylor.pdf?sfvrsn=d9df03e9_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_table3_taylor.pdf?sfvrsn=d9df03e9_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_table4_bawden.pdf?sfvrsn=27d25531_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_table4_bawden.pdf?sfvrsn=27d25531_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_talking_points.pdf?sfvrsn=bc5ff953_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_talking_points.pdf?sfvrsn=bc5ff953_1
+- **Status**: analysed
+- title, lang, 
+
+### htac_v3a1.pdf?sfvrsn=a2151e95_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htac_v3a1.pdf?sfvrsn=a2151e95_1
+- **Status**: analysed
+- title, lang, 
+
+### htacjuly07_agenda.pdf?sfvrsn=ff1468bd_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_agenda.pdf?sfvrsn=ff1468bd_1
+- **Status**: analysed
+- title, lang, 
+
+### htacjuly07_attendees.pdf?sfvrsn=7bc68ea2_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_attendees.pdf?sfvrsn=7bc68ea2_1
+- **Status**: analysed
+- title, lang, 
+
+### htacjuly07_budget.pdf?sfvrsn=d911d6dc_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_budget.pdf?sfvrsn=d911d6dc_1
+- **Status**: analysed
+- title, lang, 
+
+### htacjuly07_collaboration.pdf?sfvrsn=3159f843_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_collaboration.pdf?sfvrsn=3159f843_1
+- **Status**: analysed
+- title, lang, 
+
+### htacjuly07_minutes.pdf?sfvrsn=9c63002d_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_minutes.pdf?sfvrsn=9c63002d_1
+- **Status**: analysed
+- title, lang, 
+
+### htacjuly07_prizes.pdf?sfvrsn=2c4e1a08_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_prizes.pdf?sfvrsn=2c4e1a08_1
+- **Status**: analysed
+- title, lang, 
+
+### htacjuly07_status_codes.pdf?sfvrsn=7df91e4_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_status_codes.pdf?sfvrsn=7df91e4_1
+- **Status**: analysed
+- title, lang, 
+
+### htacjuly07_well_to_wheels.pdf?sfvrsn=f08e7327_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htacjuly07_well_to_wheels.pdf?sfvrsn=f08e7327_1
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### htap.pdf?sfvrsn=8a3c32e1_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htap.pdf?sfvrsn=8a3c32e1_1
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### htap_report_to_congress_1998.pdf?sfvrsn=a5451b23_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/htap_report_to_congress_1998.pdf?sfvrsn=a5451b23_1
+- **Status**: analysed
+- title, lang, 
+
+### hydrogen_biennial_report_to_congress.pdf?sfvrsn=30e34a65_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/hydrogen_biennial_report_to_congress.pdf?sfvrsn=30e34a65_1
+- **Status**: analysed
+- title, lang, 
+
+### hydrogen_biennial_report_to_congressec4cea3b-1b8e-44d4-9827-324c9c94edba.pdf?sfvrsn=7e5916b0_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/hydrogen_biennial_report_to_congressec4cea3b-1b8e-44d4-9827-324c9c94edba.pdf?sfvrsn=7e5916b0_1
+- **Status**: analysed
+- title, lang, 
+
+### idlebox_work_truck_idling_reduction.pdf
+
+- **URL**: https://cleancities.energy.gov/files/pdfs/idlebox_work_truck_idling_reduction.pdf
+- **Status**: analysed
+- title, 
+
+### idling_emergency-service_vehicles.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/idling_emergency-service_vehicles.pdf
+- **Status**: analysed
+- title, lang, 
+
+### idling_personal_vehicles.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/idling_personal_vehicles.pdf
+- **Status**: analysed
+- title, lang, 
+
+### kelly_letter.pdf?sfvrsn=786e217b_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/kelly_letter.pdf?sfvrsn=786e217b_1
+- **Status**: analysed
+- title, lang, 
+
+### law_105-388.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/law_105-388.pdf
+- **Status**: analysed
+- title, lang, 
+
+### matsunaga_act_1990.doc?sfvrsn=f7e5569a_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/matsunaga_act_1990.doc?sfvrsn=f7e5569a_1
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### my2007_annual_report.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/my2007_annual_report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ngv_pres.pdf
+
+- **URL**: https://cleancities.energy.gov/files/pdfs/ngv_pres.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ngvtf_agenda_0805.doc
+
+- **URL**: https://cleancities.energy.gov/files/docs/ngvtf_agenda_0805.doc
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### presentation_Andre_Freeman_2_-_California_Sustainable_Freight_Action_Plan_Presentation_10-10-16_Final.pdf?fbddaa529f
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/195/presentation_Andre_Freeman_2_-_California_Sustainable_Freight_Action_Plan_Presentation_10-10-16_Final.pdf?fbddaa529f
+- **Status**: analysed
+- title, 
+
+### presentation_Andre_Freeman_ARFVTP_Presentation_1__10-18-2016.pdf?7112de5d2d
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/192/presentation_Andre_Freeman_ARFVTP_Presentation_1__10-18-2016.pdf?7112de5d2d
+- **Status**: analysed
+- title, lang, 
+
+### presentation_Andre_Freeman_NGVTF_Day_2.pdf?28b3760505
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/220/presentation_Andre_Freeman_NGVTF_Day_2.pdf?28b3760505
+- **Status**: analysed
+- title, 
+
+### presentation_Blaylock_NGVTF2016.pdf?07d63919bb
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/208/presentation_Blaylock_NGVTF2016.pdf?07d63919bb
+- **Status**: analysed
+- title, 
+
+### presentation_Dean_Saito_2__2016_NGVTF_-_101816.pdf?0907f643a8
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/193/presentation_Dean_Saito_2__2016_NGVTF_-_101816.pdf?0907f643a8
+- **Status**: analysed
+- title, tagged, lang, 
+
+### presentation_GTI-US_Hybrid_-_Ted_Barnes_-_NGVTF_2016.pdf?6a356d580c
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/202/presentation_GTI-US_Hybrid_-_Ted_Barnes_-_NGVTF_2016.pdf?6a356d580c
+- **Status**: analysed
+- title, tagged, 
+
+### presentation_John_Reed_Natural_Gas_Vehicle_technology_Forum_2016.pdf?c41981c8cb
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/203/presentation_John_Reed_Natural_Gas_Vehicle_technology_Forum_2016.pdf?c41981c8cb
+- **Status**: analysed
+- title, 
+
+### presentation_Monica_White_Nat_Gas_Update_BLT.v2.pdf?ca6cdd5482
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/213/presentation_Monica_White_Nat_Gas_Update_BLT.v2.pdf?ca6cdd5482
+- **Status**: analysed
+- title, 
+
+### presentation_NEANDROSS_GNA_DOE_Clean_Cities_NGV_Tech_Forum_-_Oct_19_2016_p.pdf?f1cd8f3035
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/216/presentation_NEANDROSS_GNA_DOE_Clean_Cities_NGV_Tech_Forum_-_Oct_19_2016_p.pdf?f1cd8f3035
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### presentation_Peter_and_Rey_Gonzalez_2016_NGVTF_Final.pdf?4a529579b1
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/188/presentation_Peter_and_Rey_Gonzalez_2016_NGVTF_Final.pdf?4a529579b1
+- **Status**: analysed
+- title, 
+
+### presentation_Quon_Kwan_Day_1_NGVTF_Presentation_2016_rev.pdf?52310f870a
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/199/presentation_Quon_Kwan_Day_1_NGVTF_Presentation_2016_rev.pdf?52310f870a
+- **Status**: analysed
+- title, lang, 
+
+### presentation_Rob_Adams_CC_Alt_Fuels_Incidents-2016_Day_2.pdf?b6ce2c4447
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/210/presentation_Rob_Adams_CC_Alt_Fuels_Incidents-2016_Day_2.pdf?b6ce2c4447
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### presentation_Sean_Turner_NGVTF_-_FACILITY_MODS.pdf?55fccc036b
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/198/presentation_Sean_Turner_NGVTF_-_FACILITY_MODS.pdf?55fccc036b
+- **Status**: analysed
+- title, lang, 
+
+### presentation_Stephen_CWI_Near_Zero_Update_for_NGVTF_19Oct16.pdf?26eea48aa1
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/200/presentation_Stephen_CWI_Near_Zero_Update_for_NGVTF_19Oct16.pdf?26eea48aa1
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### presentation_Westport_Douville_NGVTF_Oct_2016a.pdf?7461f8327b
+
+- **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/223/presentation_Westport_Douville_NGVTF_Oct_2016a.pdf?7461f8327b
+- **Status**: analysed
+- title, lang, 
+
+### program-overview.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/program-overview.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### program_nopr_2-28-95.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/program_nopr_2-28-95.pdf
+- **Status**: analysed
+- title, lang, 
+
+### pseries_final_rule.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/pseries_final_rule.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### randolph-community-college-energy-plan.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/randolph-community-college-energy-plan.pdf
+- **Status**: analysed
+- title, 
+
+### report_to_congress_ethanol_pipeline.pdf
+
+- **URL**: https://www1.eere.energy.gov/bioenergy/pdfs/report_to_congress_ethanol_pipeline.pdf
+- **Status**: analysed
+- title, lang, 
+
+### reporting-spreadsheet.xls
+
+- **URL**: https://epact.energy.gov/docs/reporting-spreadsheet.xls
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### rfg_final_rule_fr_notice.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/rfg_final_rule_fr_notice.pdf
+- **Status**: analysed
+- title, lang, 
+
+### sce-im-WO033_Interim_Report_Final-01-16-13.pdf
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/sce-im-WO033_Interim_Report_Final-01-16-13.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### solar_wind_for_hydrogen_dec2005.pdf?sfvrsn=a826b717_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/solar_wind_for_hydrogen_dec2005.pdf?sfvrsn=a826b717_1
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### state_fire_marshals.pdf?sfvrsn=220e3e3c_1
+
+- **URL**: https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/state_fire_marshals.pdf?sfvrsn=220e3e3c_1
+- **Status**: analysed
+- title, lang, 
+
+### street%20lighting%20tool%20v1.0%20CM.xlsx
+
+- **URL**: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/tools/street%20lighting%20tool%20v1.0%20CM.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### summary_2010.pdf
+
+- **URL**: https://cleancities.energy.gov/files/pdfs/summary_2010.pdf
+- **Status**: analysed
+- title, lang, 
+
+### taxi_fleet_electrification.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/taxi_fleet_electrification.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### transferform.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/transferform.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### trec-foa-webinar_040424.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-04/trec-foa-webinar_040424.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### tut_mod_1.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/tut_mod_1.pdf
+- **Status**: analysed
+- title, lang, 
+
+### tut_mod_2.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/tut_mod_2.pdf
+- **Status**: analysed
+- title, lang, 
+
+### tut_mod_3.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/tut_mod_3.pdf
+- **Status**: analysed
+- title, lang, 
+
+### tut_mod_4.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/tut_mod_4.pdf
+- **Status**: analysed
+- title, lang, 
+
+### tut_mod_5.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/tut_mod_5.pdf
+- **Status**: analysed
+- title, lang, 
+
+### welcome-letter.pdf
+
+- **URL**: https://epact.energy.gov/pdfs/welcome-letter.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### which_is_greener.pdf
+
+- **URL**: https://afdc.energy.gov/files/u/publication/which_is_greener.pdf
+- **Status**: analysed
+- title, lang, 

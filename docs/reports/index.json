@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-03-09T22:54:38.103014+00:00",
+    "site": "energy.gov",
+    "crawl_url": "https://energy.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22877551709",
+    "archive_file": "2026-03-09_22-54-38-103_energy.gov.html",
+    "total": 1098,
+    "analysed": 950,
+    "accessible": 264
+  },
+  {
     "date": "2026-03-09T22:37:35.576294+00:00",
     "site": "gsa.gov",
     "crawl_url": "https://GSA.gov",
