@@ -7,7 +7,13 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from generate_report import _summary_stats, generate_html, generate_markdown, generate_issue_comment
+from generate_report import (
+    _summary_stats,
+    generate_html,
+    generate_markdown,
+    generate_issue_comment,
+    generate_reports_index_html,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -176,6 +182,8 @@ def test_issue_comment_contains_report_links():
     )
     assert "report.md" in comment
     assert "report.json" in comment
+    assert "report.html" in comment
+    assert "reports.html" in comment
     assert "actions/runs/99" in comment
 
 
@@ -248,3 +256,87 @@ def test_generate_html_includes_notes_column():
     stats = _summary_stats([entry])
     html = generate_html([entry], stats)
     assert "Notes" in html
+
+
+def test_generate_html_custom_back_url():
+    stats = _summary_stats([])
+    html = generate_html([], stats, back_url="../reports.html", back_label="Back to reports index")
+    assert 'href="../reports.html"' in html
+    assert "Back to reports index" in html
+
+
+def test_generate_html_default_back_link_unchanged():
+    """Existing default back-link behaviour must not be broken."""
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert 'href="./"' in html
+    assert "Back to submission form" in html
+
+
+# ---------------------------------------------------------------------------
+# generate_reports_index_html
+# ---------------------------------------------------------------------------
+
+def test_generate_reports_index_html_is_valid_html():
+    html = generate_reports_index_html([])
+    assert html.startswith("<!DOCTYPE html>")
+    assert "<html" in html
+    assert "</html>" in html
+
+
+def test_generate_reports_index_html_empty_state():
+    html = generate_reports_index_html([])
+    assert "No scan reports yet" in html
+
+
+def test_generate_reports_index_html_embeds_json():
+    reports = [
+        {
+            "date": "2024-01-15T10:30:00+00:00",
+            "site": "example.com",
+            "crawl_url": "https://example.com",
+            "run_url": "https://github.com/owner/repo/actions/runs/1",
+            "archive_file": "2024-01-15_10-30-00_example.com.html",
+            "total": 10,
+            "analysed": 10,
+            "accessible": 7,
+        }
+    ]
+    html = generate_reports_index_html(reports)
+    assert 'id="reports-index"' in html
+    assert "example.com" in html
+    assert "2024-01-15_10-30-00_example.com.html" in html
+
+
+def test_generate_reports_index_html_contains_back_link():
+    html = generate_reports_index_html([])
+    assert 'href="./"' in html
+
+
+def test_generate_reports_index_html_multiple_entries():
+    reports = [
+        {
+            "date": "2024-02-01T00:00:00+00:00",
+            "site": "beta.com",
+            "crawl_url": "https://beta.com",
+            "run_url": "",
+            "archive_file": "2024-02-01_00-00-00_beta.com.html",
+            "total": 5,
+            "analysed": 5,
+            "accessible": 2,
+        },
+        {
+            "date": "2024-01-01T00:00:00+00:00",
+            "site": "alpha.com",
+            "crawl_url": "https://alpha.com",
+            "run_url": "",
+            "archive_file": "2024-01-01_00-00-00_alpha.com.html",
+            "total": 3,
+            "analysed": 3,
+            "accessible": 3,
+        },
+    ]
+    html = generate_reports_index_html(reports)
+    assert "beta.com" in html
+    assert "alpha.com" in html
+    assert "2024-02-01_00-00-00_beta.com.html" in html

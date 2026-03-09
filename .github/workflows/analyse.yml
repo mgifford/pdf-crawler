@@ -260,6 +260,7 @@ jobs:
             $SITE_FLAG \
             $COMMENT_FLAG \
             --html-dir docs \
+            --archive-dir docs/reports \
             --pages-base "$PAGES_BASE" \
             --run-url "$RUN_URL" \
             --crawl-url "$CRAWL_URL"
@@ -268,7 +269,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add reports/ docs/report.html
+          git add reports/ docs/report.html docs/reports.html docs/reports/
           if git diff --cached --quiet; then
             echo "No report changes to commit."
           else
@@ -328,6 +329,8 @@ jobs:
                 `📊 **Accessibility analysis complete** for \`${crawlUrl}\`.`,
                 ``,
                 `**Reports:**`,
+                `- [HTML report](${reportsBase}/report.html)`,
+                `- [Reports history](${reportsBase}/reports.html)`,
                 `- [Markdown report](${reportsBase}/reports/report.md)`,
                 `- [JSON report](${reportsBase}/reports/report.json)`,
                 `- [YAML manifest](${reportsBase}/reports/manifest.yaml)`,
