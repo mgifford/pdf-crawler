@@ -7,6 +7,7 @@ Reads the YAML manifest and produces:
 
 Usage:
     python generate_report.py [--manifest reports/manifest.yaml]
+    python generate_report.py --site energy.gov --issue-comment-file /tmp/comment.md
 """
 
 from __future__ import annotations
@@ -15,7 +16,7 @@ import json
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 import yaml
 
@@ -191,12 +192,121 @@ def generate_markdown(entries: List[Dict[str, Any]], stats: Dict[str, Any]) -> s
 
 
 # ---------------------------------------------------------------------------
+# Issue comment generator
+# ---------------------------------------------------------------------------
+
+_MAX_FILES_IN_COMMENT = 30
+
+
+def _icon(value) -> str:
+    if value is True:
+        return "✅"
+    if value is False:
+        return "❌"
+    if value == "Pass":
+        return "✅"
+    if value == "Fail":
+        return "❌"
+    return "—"
+
+
+def generate_issue_comment(
+    entries: List[Dict[str, Any]],
+    crawl_url: str,
+    pages_base: str,
+    run_url: str,
+    site_filter: Optional[str] = None,
+    max_files: int = _MAX_FILES_IN_COMMENT,
+) -> str:
+    """Return a Markdown string suitable for posting as a GitHub issue comment.
+
+    If *site_filter* is provided, only entries for that site are included in
+    the per-file table (the summary counts use those same filtered entries).
+    """
+    scoped = (
+        [e for e in entries if e.get("site") == site_filter]
+        if site_filter
+        else entries
+    )
+
+    analysed = [e for e in scoped if e.get("status") == "analysed"]
+    pending = [e for e in scoped if e.get("status") == "pending"]
+    errored = [e for e in scoped if e.get("status") == "error"]
+    accessible = sum(
+        1 for e in analysed if e.get("report", {}).get("Accessible") is True
+    )
+    issues_found = len(analysed) - accessible
+
+    lines: List[str] = [
+        f"📊 **Accessibility analysis complete** for `{crawl_url}`.",
+        "",
+        "## Summary",
+        "",
+        "| Metric | Count |",
+        "|--------|-------|",
+        f"| Total PDFs found | {len(scoped)} |",
+        f"| Analysed | {len(analysed)} |",
+        f"| ✅ Accessible | {accessible} |",
+        f"| ❌ Issues found | {issues_found} |",
+    ]
+    if pending:
+        lines.append(f"| ⏳ Pending analysis | {len(pending)} |")
+    if errored:
+        lines.append(f"| ⚠️ Errors | {len(errored)} |")
+    lines.append("")
+
+    if analysed:
+        lines += [
+            "## PDFs Scanned",
+            "",
+            "| PDF | Accessible | Tagged | Title | Language | Bookmarks | Pages |",
+            "|-----|-----------|--------|-------|----------|-----------|-------|",
+        ]
+        for e in analysed[:max_files]:
+            r = e.get("report") or {}
+            url = e.get("url", "")
+            filename = e.get("filename", url.split("/")[-1])
+            lines.append(
+                f"| [{filename}]({url})"
+                f" | {_icon(r.get('Accessible'))}"
+                f" | {_icon(r.get('TaggedTest'))}"
+                f" | {_icon(r.get('TitleTest'))}"
+                f" | {_icon(r.get('LanguageTest'))}"
+                f" | {_icon(r.get('BookmarksTest'))}"
+                f" | {r.get('Pages', '—')} |"
+            )
+        if len(analysed) > max_files:
+            lines += [
+                "",
+                f"_… and {len(analysed) - max_files} more PDFs."
+                " See the full report for details._",
+            ]
+        lines.append("")
+
+    lines += [
+        "## Full Reports",
+        "",
+        f"- [Markdown report]({pages_base}/reports/report.md)",
+        f"- [JSON report]({pages_base}/reports/report.json)",
+        f"- [YAML manifest]({pages_base}/reports/manifest.yaml)",
+        f"- [View workflow run]({run_url})",
+    ]
+
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
 # CLI entry point
 # ---------------------------------------------------------------------------
 
 def main(
     manifest_path: str = "reports/manifest.yaml",
     report_dir: str = "reports",
+    site_filter: Optional[str] = None,
+    issue_comment_file: Optional[str] = None,
+    pages_base: str = "",
+    run_url: str = "",
+    crawl_url: str = "",
 ) -> None:
     entries = load_manifest(manifest_path)
     stats = _summary_stats(entries)
@@ -204,19 +314,31 @@ def main(
     out_dir = Path(report_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
 
-    # Markdown report
+    # Markdown report (full, all sites)
     md_path = out_dir / "report.md"
     md_content = generate_markdown(entries, stats)
     md_path.write_text(md_content, encoding="utf-8")
     print(f"Written: {md_path}")
 
-    # JSON report
+    # JSON report (full, all sites)
     json_data = {"summary": stats, "files": entries}
     json_path = out_dir / "report.json"
     json_path.write_text(
         json.dumps(json_data, indent=2, default=str), encoding="utf-8"
     )
     print(f"Written: {json_path}")
+
+    # Optional per-site issue comment
+    if issue_comment_file:
+        comment = generate_issue_comment(
+            entries,
+            crawl_url=crawl_url,
+            pages_base=pages_base,
+            run_url=run_url,
+            site_filter=site_filter,
+        )
+        Path(issue_comment_file).write_text(comment, encoding="utf-8")
+        print(f"Written issue comment: {issue_comment_file}")
 
 
 if __name__ == "__main__":
@@ -233,5 +355,38 @@ if __name__ == "__main__":
         default="reports",
         help="Directory to write reports into (default: reports)",
     )
+    parser.add_argument(
+        "--site",
+        default=None,
+        help="Site/domain to scope the issue-comment output to (e.g. energy.gov)",
+    )
+    parser.add_argument(
+        "--issue-comment-file",
+        default=None,
+        help="Write a per-site GitHub issue comment body to this file path",
+    )
+    parser.add_argument(
+        "--pages-base",
+        default="",
+        help="Base URL of the GitHub Pages site (for report links in the comment)",
+    )
+    parser.add_argument(
+        "--run-url",
+        default="",
+        help="URL of the GitHub Actions run (for the 'View workflow run' link)",
+    )
+    parser.add_argument(
+        "--crawl-url",
+        default="",
+        help="The URL that was crawled (shown in the comment header)",
+    )
     args = parser.parse_args()
-    main(manifest_path=args.manifest, report_dir=args.report_dir)
+    main(
+        manifest_path=args.manifest,
+        report_dir=args.report_dir,
+        site_filter=args.site,
+        issue_comment_file=args.issue_comment_file,
+        pages_base=args.pages_base,
+        run_url=args.run_url,
+        crawl_url=args.crawl_url,
+    )
