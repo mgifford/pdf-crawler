@@ -13,9 +13,10 @@ on:
         default: "3600"
         type: string
   issues:
-    # Only 'opened' – no 'edited' – to prevent the same issue from
-    # triggering a second (recurring) scan if the body is later updated.
-    types: [opened]
+    # 'opened'  – initial scan request
+    # 'reopened'– allows restarting a failed scan by closing and reopening
+    #             the issue (no 'edited' to avoid re-triggering on body updates)
+    types: [opened, reopened]
 
 permissions:
   contents: write
@@ -198,20 +199,45 @@ jobs:
         uses: actions/github-script@v7
         env:
           CRAWL_URL: ${{ steps.params.outputs.url }}
+          IS_RESTART: ${{ github.event.action == 'reopened' }}
         with:
           script: |
             const url = process.env.CRAWL_URL;
+            const isRestart = process.env.IS_RESTART === 'true';
+
+            // Remove scan-failed label if present (e.g. when restarting after a failure)
+            try {
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                name: 'scan-failed'
+              });
+            } catch (err) {
+              if (err.status !== 404) throw err;
+            }
+
+            const commentLines = isRestart
+              ? [
+                  `🔄 **Scan restarted** for \`${url}\`.`,
+                  ``,
+                  `The previous scan failed and this issue was reopened to retry. The site will be re-crawled for PDF files.`,
+                  ``,
+                  `_No further edits to this issue will trigger additional scans._`
+                ]
+              : [
+                  `🔍 **Crawl started** for \`${url}\`.`,
+                  ``,
+                  `This workflow will crawl the site for PDF files. Once complete, accessibility analysis will begin automatically.`,
+                  ``,
+                  `_No further edits to this issue will trigger additional scans._`
+                ];
+
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: [
-                `🔍 **Crawl started** for \`${url}\`.`,
-                ``,
-                `This workflow will crawl the site for PDF files. Once complete, accessibility analysis will begin automatically.`,
-                ``,
-                `_No further edits to this issue will trigger additional scans._`
-              ].join('\n')
+              body: commentLines.join('\n')
             });
             await github.rest.issues.addLabels({
               owner: context.repo.owner,
@@ -256,7 +282,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add --ignore-missing reports/manifest.yaml || true
+          [ -f reports/manifest.yaml ] && git add reports/manifest.yaml || true
           if git diff --cached --quiet; then
             echo "No manifest changes to commit."
           else
