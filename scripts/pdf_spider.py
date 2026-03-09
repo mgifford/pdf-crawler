@@ -8,6 +8,7 @@ The spider respects a DOWNLOAD_DELAY of 1 second between requests and only
 follows links within the same domain as the seed URL.
 """
 
+import json
 import scrapy
 import urllib.parse
 import re
@@ -41,6 +42,9 @@ class PdfA11ySpider(scrapy.Spider):
         # would cause all follow-up links to be rejected.
         self.allowed_domains = [self.parsed_url.netloc.lower()]
         self.start_urls = [url]
+        # Accumulate filename→URL mappings in memory; written to disk on close.
+        # Keyed by save_dir so each site subdirectory gets its own map file.
+        self._url_maps: dict = {}
 
     def _has_download_extension(self, path):
         _, ext = os.path.splitext(path.lower())
@@ -88,6 +92,9 @@ class PdfA11ySpider(scrapy.Spider):
         print(f"  Saving: {full_path}", flush=True)
         with open(full_path, "wb") as fh:
             fh.write(response.body)
+        # Record the original download URL in memory; the map is persisted to
+        # _url_map.json when the spider closes (see `closed()`).
+        self._url_maps.setdefault(save_dir, {})[filename] = response.url
 
     @staticmethod
     def _unique_filename(directory, basename, ext):
@@ -96,3 +103,15 @@ class PdfA11ySpider(scrapy.Spider):
         while os.path.exists(os.path.join(directory, candidate)):
             candidate = f"{basename}-{next(counter)}{ext}"
         return candidate
+
+    def closed(self, reason):
+        """Write accumulated filename→URL maps to disk when the spider finishes.
+
+        Persisting the maps in a single write per directory avoids any
+        partial-write issues that could arise from writing after every
+        individual PDF download.
+        """
+        for save_dir, url_map in self._url_maps.items():
+            url_map_path = os.path.join(save_dir, "_url_map.json")
+            with open(url_map_path, "w", encoding="utf-8") as fh:
+                json.dump(url_map, fh, indent=2, ensure_ascii=False)

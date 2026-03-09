@@ -13,6 +13,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import subprocess
@@ -143,11 +144,25 @@ def update_manifest(
     new_count = 0
     updated_count = 0
 
+    # Load the URL map written by the spider so we can use the real download
+    # URL (including the full path) instead of a best-guess reconstruction.
+    url_map: dict = {}
+    url_map_path = site_dir / "_url_map.json"
+    if url_map_path.exists():
+        try:
+            with open(url_map_path, "r", encoding="utf-8") as fh:
+                url_map = json.load(fh)
+        except (json.JSONDecodeError, OSError):
+            url_map = {}
+
     for file_path in sorted(site_dir.iterdir()):
         if not file_path.is_file():
             continue
-        # We record the URL as best-guess; the spider already saved the file
-        file_url = f"https://{site}/{file_path.name}"
+        if file_path.name == "_url_map.json":
+            continue
+        # Prefer the actual URL recorded by the spider; fall back to the
+        # best-guess "https://{site}/{filename}" only when the map is absent.
+        file_url = url_map.get(file_path.name) or f"https://{site}/{file_path.name}"
         print(f"  Processing: {file_url}")
         entries, needs_scan = upsert_entry(entries, file_url, file_path, site, notes=notes)
         if needs_scan:

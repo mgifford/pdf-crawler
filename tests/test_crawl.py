@@ -1,5 +1,6 @@
-"""Tests for scripts/crawl.py – focused on normalize_url() and _site_folder()."""
+"""Tests for scripts/crawl.py – focused on normalize_url(), _site_folder() and update_manifest()."""
 
+import json
 import sys
 from pathlib import Path
 from unittest.mock import MagicMock, patch
@@ -8,7 +9,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from crawl import normalize_url, _URL_PREFIXES, _site_folder
+from crawl import normalize_url, _URL_PREFIXES, _site_folder, update_manifest
 
 
 # ---------------------------------------------------------------------------
@@ -241,3 +242,122 @@ def test_site_folder_already_lowercase_no_www():
 def test_site_folder_uppercase_no_www():
     """Uppercase netloc without www. is still lowercased."""
     assert _site_folder("EXAMPLE.COM") == "example.com"
+
+
+# ---------------------------------------------------------------------------
+# update_manifest – URL map integration
+# ---------------------------------------------------------------------------
+
+def make_test_pdf(path: Path) -> None:
+    """Write a minimal fake PDF to *path*."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(b"%PDF-1.4 fake content")
+
+
+def test_update_manifest_uses_url_map(tmp_path):
+    """update_manifest should use the actual URL from _url_map.json."""
+    site = "example.com"
+    site_dir = tmp_path / site
+    site_dir.mkdir(parents=True)
+
+    # Create a fake PDF file
+    pdf_name = "annual-report.pdf"
+    make_test_pdf(site_dir / pdf_name)
+
+    # Write a _url_map.json with the real download URL
+    actual_url = "https://www.example.com/en/publications/annual-report.pdf"
+    url_map = {pdf_name: actual_url}
+    (site_dir / "_url_map.json").write_text(
+        json.dumps(url_map), encoding="utf-8"
+    )
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(
+        "https://www.example.com",
+        str(tmp_path),
+        str(manifest_path),
+    )
+
+    from manifest import load_manifest
+    entries = load_manifest(manifest_path)
+    assert len(entries) == 1
+    assert entries[0]["url"] == actual_url
+
+
+def test_update_manifest_fallback_without_url_map(tmp_path):
+    """When _url_map.json is absent, update_manifest falls back to best-guess URLs."""
+    site = "example.com"
+    site_dir = tmp_path / site
+    site_dir.mkdir(parents=True)
+
+    pdf_name = "report.pdf"
+    make_test_pdf(site_dir / pdf_name)
+    # No _url_map.json written
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(
+        "https://example.com",
+        str(tmp_path),
+        str(manifest_path),
+    )
+
+    from manifest import load_manifest
+    entries = load_manifest(manifest_path)
+    assert len(entries) == 1
+    assert entries[0]["url"] == f"https://{site}/{pdf_name}"
+
+
+def test_update_manifest_partial_url_map(tmp_path):
+    """Only the file present in _url_map.json gets the real URL; the rest fall back."""
+    site = "example.com"
+    site_dir = tmp_path / site
+    site_dir.mkdir(parents=True)
+
+    mapped_name = "mapped.pdf"
+    unmapped_name = "unmapped.pdf"
+    make_test_pdf(site_dir / mapped_name)
+    make_test_pdf(site_dir / unmapped_name)
+
+    actual_url = "https://www.example.com/path/to/mapped.pdf"
+    (site_dir / "_url_map.json").write_text(
+        json.dumps({mapped_name: actual_url}), encoding="utf-8"
+    )
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(
+        "https://example.com",
+        str(tmp_path),
+        str(manifest_path),
+    )
+
+    from manifest import load_manifest
+    entries = load_manifest(manifest_path)
+    by_filename = {e["filename"]: e for e in entries}
+
+    assert by_filename[mapped_name]["url"] == actual_url
+    assert by_filename[unmapped_name]["url"] == f"https://{site}/{unmapped_name}"
+
+
+def test_update_manifest_skips_url_map_file(tmp_path):
+    """The _url_map.json file itself must NOT be added as a manifest entry."""
+    site = "example.com"
+    site_dir = tmp_path / site
+    site_dir.mkdir(parents=True)
+
+    make_test_pdf(site_dir / "doc.pdf")
+    (site_dir / "_url_map.json").write_text(
+        json.dumps({"doc.pdf": "https://example.com/doc.pdf"}), encoding="utf-8"
+    )
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(
+        "https://example.com",
+        str(tmp_path),
+        str(manifest_path),
+    )
+
+    from manifest import load_manifest
+    entries = load_manifest(manifest_path)
+    filenames = [e["filename"] for e in entries]
+    assert "_url_map.json" not in filenames
+    assert len(entries) == 1
