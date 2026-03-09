@@ -46,6 +46,8 @@ class PdfA11ySpider(scrapy.Spider):
         if not isinstance(response, scrapy.http.response.html.HtmlResponse):
             return
 
+        print(f"Crawling: {response.url}", flush=True)
+
         for href in response.xpath("//a[@href]/@href"):
             link = href.extract().strip()
             parsed_link = urllib.parse.urlparse(link)
@@ -58,6 +60,7 @@ class PdfA11ySpider(scrapy.Spider):
 
             if self._has_download_extension(path):
                 self.logger.info("Downloading: %s", full_link)
+                print(f"  Found for download: {full_link}", flush=True)
                 yield Request(full_link, callback=self.save_pdf)
             else:
                 path_lower = path.lower()
@@ -75,6 +78,7 @@ class PdfA11ySpider(scrapy.Spider):
         filename = self._unique_filename(save_dir, basename, ext)
         full_path = os.path.join(save_dir, filename)
         self.logger.info("Saving file: %s", full_path)
+        print(f"  Saving: {full_path}", flush=True)
         with open(full_path, "wb") as fh:
             fh.write(response.body)
 

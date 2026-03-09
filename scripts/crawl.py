@@ -122,6 +122,7 @@ def update_manifest(
             continue
         # We record the URL as best-guess; the spider already saved the file
         file_url = f"https://{site}/{file_path.name}"
+        print(f"  Processing: {file_url}")
         entries, needs_scan = upsert_entry(entries, file_url, file_path, site)
         if needs_scan:
             new_count += 1
