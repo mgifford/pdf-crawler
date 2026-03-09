@@ -1,0 +1,21 @@
+# Downloaded PDF / document files – never commit these
+crawled_files/
+
+# Python virtual environments
+env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Scrapy logs
+scrapy.log
+
+# Node
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db

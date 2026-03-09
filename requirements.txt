@@ -1,0 +1,9 @@
+scrapy>=2.11.0
+pikepdf==9.5.2
+langcodes
+pdfminer.six
+bitstring
+dateparser
+typer
+PyYAML>=6.0
+pytz
