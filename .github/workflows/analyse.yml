@@ -112,6 +112,23 @@ jobs:
     timeout-minutes: 60
 
     steps:
+      - name: Debug – log triggering workflow context
+        run: |
+          echo "=== Triggering event ==="
+          echo "Event name:            ${{ github.event_name }}"
+          echo "Workflow run ID:       ${{ github.event.workflow_run.id }}"
+          echo "Workflow run name:     ${{ github.event.workflow_run.name }}"
+          echo "Workflow run status:   ${{ github.event.workflow_run.status }}"
+          echo "Workflow run conclusion: ${{ github.event.workflow_run.conclusion }}"
+          echo "Workflow run HTML URL: ${{ github.event.workflow_run.html_url }}"
+          echo "Head branch:           ${{ github.event.workflow_run.head_branch }}"
+          echo "Head SHA:              ${{ github.event.workflow_run.head_sha }}"
+          echo "This run ID:           ${{ github.run_id }}"
+          echo "Ref:                   ${{ github.ref_name }}"
+          echo "Artifact names expected:"
+          echo "  crawled-pdfs-${{ github.event.workflow_run.id }}"
+          echo "  scan-meta-${{ github.event.workflow_run.id }}"
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -127,7 +144,9 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Download crawled PDFs artifact
+        id: download_pdfs
         if: github.event_name == 'workflow_run'
+        continue-on-error: true
         uses: actions/download-artifact@v4
         with:
           name: crawled-pdfs-${{ github.event.workflow_run.id }}
@@ -136,13 +155,46 @@ jobs:
           run-id: ${{ github.event.workflow_run.id }}
 
       - name: Download scan metadata artifact
+        id: download_meta
         if: github.event_name == 'workflow_run'
+        continue-on-error: true
         uses: actions/download-artifact@v4
         with:
           name: scan-meta-${{ github.event.workflow_run.id }}
           path: scan-meta/
           github-token: ${{ secrets.GITHUB_TOKEN }}
           run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Debug – check downloaded artifacts
+        if: github.event_name == 'workflow_run'
+        run: |
+          echo "=== PDF artifact download outcome: ${{ steps.download_pdfs.outcome }} ==="
+          echo "=== Metadata artifact download outcome: ${{ steps.download_meta.outcome }} ==="
+          echo ""
+          echo "--- crawled_files/ ---"
+          if [ -d crawled_files ]; then
+            find crawled_files -type f | sort || echo "(directory is empty)"
+          else
+            echo "(directory does not exist)"
+          fi
+          echo ""
+          echo "--- scan-meta/ ---"
+          if [ -d scan-meta ]; then
+            ls -la scan-meta/ || echo "(directory is empty)"
+            for f in scan-meta/*.txt; do
+              [ -f "$f" ] && echo "  $f: $(cat "$f")"
+            done
+          else
+            echo "(directory does not exist)"
+          fi
+          echo ""
+          if [ "${{ steps.download_pdfs.outcome }}" = "failure" ]; then
+            echo "::warning::PDF artifact 'crawled-pdfs-${{ github.event.workflow_run.id }}' was not found."
+            echo "::warning::This may mean the crawl produced no PDF files, the artifact expired, or the crawl run ID is mismatched."
+          fi
+          if [ "${{ steps.download_meta.outcome }}" = "failure" ]; then
+            echo "::warning::Scan metadata artifact 'scan-meta-${{ github.event.workflow_run.id }}' was not found."
+          fi
 
       - name: Read scan metadata
         id: meta
