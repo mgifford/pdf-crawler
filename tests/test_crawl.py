@@ -1,5 +1,6 @@
 """Tests for scripts/crawl.py – focused on normalize_url(), _site_folder(), and run_scrapy()."""
 
+import json
 import sys
 from pathlib import Path
 from unittest.mock import MagicMock, patch

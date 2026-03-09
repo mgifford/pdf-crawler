@@ -415,6 +415,11 @@ def main(
 
     print(f"Analysing {len(pending)} pending file(s)…")
 
+    accessible_count = 0
+    issues_count = 0
+    broken_count = 0
+    error_count = 0
+
     for entry in pending:
         url = entry["url"]
         site = entry.get("site", "")
@@ -425,6 +430,7 @@ def main(
             print(f"  SKIP (file not found): {local_path}")
             entries = mark_error(entries, url, [f"File not found: {local_path}"])
             save_manifest(entries, manifest_path)
+            error_count += 1
             continue
 
         print(f"  Checking: {url}")
@@ -434,11 +440,39 @@ def main(
             log_msg = report.pop("_log", "")
             errors = [log_msg] if log_msg else []
             entries = mark_analysed(entries, url, report, errors)
-            status = "accessible" if report.get("Accessible") else "issues found"
+
+            # Print per-check results for transparency
+            checks = {
+                "Tagged":    report.get("TaggedTest"),
+                "EmptyText": report.get("EmptyTextTest"),
+                "Protected": report.get("ProtectedTest"),
+                "Title":     report.get("TitleTest"),
+                "Language":  report.get("LanguageTest"),
+                "Bookmarks": report.get("BookmarksTest"),
+            }
+            check_str = " | ".join(
+                f"{name}: {val if val is not None else '—'}"
+                for name, val in checks.items()
+            )
+            print(f"    Checks: {check_str}")
+
+            if report.get("BrokenFile"):
+                status = "broken file"
+                broken_count += 1
+            elif report.get("Accessible"):
+                status = "accessible"
+                accessible_count += 1
+            else:
+                status = "issues found"
+                if log_msg:
+                    # log_msg entries are comma-separated (e.g. "title, tagged, ")
+                    status += f" ({log_msg.strip().rstrip(',')})"
+                issues_count += 1
             print(f"    → {status}")
         except Exception as exc:  # pragma: no cover
             entries = mark_error(entries, url, [str(exc)])
             print(f"    → ERROR: {exc}")
+            error_count += 1
 
         save_manifest(entries, manifest_path)
 
@@ -449,7 +483,13 @@ def main(
             except OSError as exc:
                 print(f"    → Could not delete {local_path}: {exc}")
 
-    print("Analysis complete.")
+    print(
+        f"Analysis complete. "
+        f"Accessible: {accessible_count}, "
+        f"Issues found: {issues_count}, "
+        f"Broken: {broken_count}, "
+        f"Errors/skipped: {error_count}."
+    )
 
 
 if __name__ == "__main__":
