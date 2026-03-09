@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import json
 import re
+import shutil
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -781,6 +782,16 @@ def main(
             generate_reports_index_html(report_index), encoding="utf-8"
         )
         print(f"Written: {reports_html_path}")
+
+        # Copy the JSON report and manifest into the archive dir so they are
+        # accessible via GitHub Pages (which serves from docs/ via _config.yml).
+        pages_json = archive_out / "report.json"
+        shutil.copy2(json_path, pages_json)
+        print(f"Copied:  {pages_json}")
+
+        pages_manifest = archive_out / "manifest.yaml"
+        shutil.copy2(Path(manifest_path), pages_manifest)
+        print(f"Copied:  {pages_manifest}")
 
     # Optional per-site issue comment
     if issue_comment_file:

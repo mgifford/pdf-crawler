@@ -1,0 +1,6 @@
+# Jekyll configuration for GitHub Pages.
+# Instructs Jekyll to use the docs/ directory as the site source so that
+# docs/report.html   → https://<owner>.github.io/<repo>/report.html
+# docs/reports.html  → https://<owner>.github.io/<repo>/reports.html
+# etc.
+source: docs
