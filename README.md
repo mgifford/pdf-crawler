@@ -44,10 +44,26 @@ The `SCAN:` prefix triggers the *Crawl Site for PDFs* workflow automatically.
 The workflow will post a comment when the crawl starts and another comment with
 the full accessibility report links when analysis is complete.
 
-> **Note:** Issues are only processed once when **opened**.  Editing the issue
-> body will not re-trigger a scan, so there is no risk of accidental recurring
-> scans.  The legacy `PDF-CRAWL:` prefix is still accepted for backward
-> compatibility.
+> **Note:** Issues are processed when **opened** or **reopened**.  Editing the
+> issue body will not re-trigger a scan, so there is no risk of accidental
+> recurring scans.  The legacy `PDF-CRAWL:` prefix is still accepted for
+> backward compatibility.
+
+#### Restarting a failed scan
+
+If a crawl fails (the issue is labelled `scan-failed`), you can restart it by
+**closing and then reopening** the issue.  The crawler will pick up the
+`reopened` event and start a fresh crawl.
+
+#### Issue lifecycle
+
+| Label | Meaning |
+|-------|---------|
+| `scan-in-progress` | Crawl or analysis is currently running |
+| `scan-failed` | The crawl workflow failed; reopen the issue to retry |
+| `scan-complete` | Analysis finished and reports have been generated |
+
+Issues are **automatically closed** once the accessibility report is posted.
 
 ### 2 – Submit a crawl manually
 
@@ -72,7 +88,7 @@ starts automatically.  You can also trigger it manually.
 
 | Workflow | File | Trigger |
 |----------|------|---------|
-| Crawl Site for PDFs | `.github/workflows/crawl.yml` | Manual dispatch or issue opened with `SCAN:` title (legacy: `PDF-CRAWL:`) |
+| Crawl Site for PDFs | `.github/workflows/crawl.yml` | Manual dispatch or issue opened/reopened with `SCAN:` title (legacy: `PDF-CRAWL:`) |
 | Analyse PDFs for Accessibility | `.github/workflows/analyse.yml` | After crawl succeeds, or manual dispatch |
 
 ---
