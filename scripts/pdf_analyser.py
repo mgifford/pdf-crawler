@@ -399,10 +399,15 @@ def main(
     manifest_path: str = "reports/manifest.yaml",
     crawled_dir: str = "crawled_files",
     keep_files: bool = False,
+    site_filter: Optional[str] = None,
 ) -> None:
     """Analyse pending PDFs and update the manifest."""
     entries = load_manifest(manifest_path)
     pending = pending_entries(entries)
+
+    if site_filter:
+        pending = [e for e in pending if e.get("site") == site_filter]
+        print(f"Filtering to site '{site_filter}': {len(pending)} pending entry/entries.")
 
     if not pending:
         print("No pending entries in manifest – nothing to do.")
@@ -465,9 +470,15 @@ if __name__ == "__main__":
         action="store_true",
         help="Do not delete local PDF files after analysis",
     )
+    parser.add_argument(
+        "--site",
+        default=None,
+        help="Only analyse entries for this site/domain (e.g. energy.gov)",
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
         crawled_dir=args.crawled_dir,
         keep_files=args.keep_files,
+        site_filter=args.site,
     )

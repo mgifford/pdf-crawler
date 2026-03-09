@@ -7,7 +7,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from generate_report import _summary_stats, generate_markdown
+from generate_report import _summary_stats, generate_markdown, generate_issue_comment
 
 
 # ---------------------------------------------------------------------------
@@ -116,3 +116,91 @@ def test_generate_markdown_summary_table():
     md = generate_markdown(entries, stats)
     assert "Total files tracked" in md
     assert "| 1 |" in md
+
+
+# ---------------------------------------------------------------------------
+# generate_issue_comment
+# ---------------------------------------------------------------------------
+
+def test_issue_comment_contains_crawl_url():
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://owner.github.io/repo",
+        run_url="https://github.com/owner/repo/actions/runs/1",
+    )
+    # The crawl URL should appear in the comment header (wrapped in backticks)
+    assert "`https://example.com`" in comment
+
+
+def test_issue_comment_summary_counts():
+    entries = [
+        _make_entry("https://a.com/1.pdf", accessible=True),
+        _make_entry("https://a.com/2.pdf", accessible=False),
+    ]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://a.com",
+        pages_base="",
+        run_url="",
+    )
+    assert "| 2 |" in comment  # total PDFs
+    assert "| 1 |" in comment  # accessible count
+
+
+def test_issue_comment_site_filter():
+    entries = [
+        _make_entry("https://a.com/1.pdf", site="a.com"),
+        _make_entry("https://b.com/1.pdf", site="b.com"),
+    ]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://a.com",
+        pages_base="",
+        run_url="",
+        site_filter="a.com",
+    )
+    # Only a.com's PDF appears in the table
+    assert "a.com/1.pdf" in comment
+    assert "b.com/1.pdf" not in comment
+
+
+def test_issue_comment_contains_report_links():
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://owner.github.io/repo",
+        run_url="https://github.com/owner/repo/actions/runs/99",
+    )
+    assert "report.md" in comment
+    assert "report.json" in comment
+    assert "actions/runs/99" in comment
+
+
+def test_issue_comment_pdf_table_rows():
+    entries = [_make_entry("https://example.com/my.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+    )
+    assert "my.pdf" in comment
+    assert "✅" in comment  # accessible pass icon
+
+
+def test_issue_comment_truncates_large_lists():
+    entries = [
+        _make_entry(f"https://example.com/{i}.pdf")
+        for i in range(50)
+    ]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+        max_files=10,
+    )
+    assert "more PDFs" in comment

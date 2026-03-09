@@ -51,9 +51,22 @@ jobs:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: |
-          # Helper: extract the first https?:// URL from a string.
+          # Helper: extract the first URL from a string.
+          # Accepts full URLs (https://...) and bare domain names (example.com).
           extract_url() {
-            echo "$1" | grep -Eo 'https?://[^[:space:]]+' | head -1
+            local text="$1"
+            # First try to find a full URL with protocol
+            local url
+            url=$(echo "$text" | grep -Eo 'https?://[^[:space:]]+' | head -1)
+            if [ -n "$url" ]; then
+              echo "$url"
+              return
+            fi
+            # Fall back to a bare domain / path without protocol
+            url=$(echo "$text" | grep -Eo '([[:alnum:]_-]+\.)+[[:alnum:]]{2,}(/[^[:space:]]*)?' | head -1)
+            if [ -n "$url" ]; then
+              echo "https://$url"
+            fi
           }
 
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
@@ -80,6 +93,41 @@ jobs:
             echo "timeout=3600"               >> "$GITHUB_OUTPUT"
             echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Comment on issue when crawl setup fails
+        if: failure() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        with:
+          script: |
+            const title = process.env.ISSUE_TITLE;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                `❌ **Scan failed** for issue: \`${title}\`.`,
+                ``,
+                `Could not extract a valid URL from the issue title or body.`,
+                `Please use the format:`,
+                `\`\`\``,
+                `SCAN: https://example.com`,
+                `\`\`\``,
+                `If you provided a bare domain (e.g. \`SCAN: example.com\`), the`,
+                `crawler will try to prepend \`https://\` automatically — but it`,
+                `must be a recognizable hostname (e.g. \`example.com\`, not just`,
+                `a word without a dot).`,
+              ].join('\n')
+            });
+            try {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['scan-failed']
+              });
+            } catch (_) {}
 
       - name: Acknowledge scan request on issue
         if: github.event_name == 'issues'
@@ -143,7 +191,12 @@ jobs:
             echo "No manifest changes to commit."
           else
             git commit -m "chore: update manifest after crawl of $CRAWL_URL"
-            git push
+            # Retry push up to 3 times to handle concurrent manifest updates
+            for attempt in 1 2 3; do
+              git push && break
+              echo "Push attempt $attempt failed – pulling and retrying…"
+              git pull --rebase origin "${{ github.ref_name }}"
+            done
           fi
 
       - name: Save scan metadata for the analysis workflow
@@ -154,11 +207,19 @@ jobs:
           mkdir -p scan-meta
           echo "$ISSUE_NUMBER" > scan-meta/issue_number.txt
           echo "$CRAWL_URL"    > scan-meta/crawl_url.txt
+          # Extract and save the site/domain for per-site scoping in the analysis step
+          python3 -c "
+          from urllib.parse import urlparse
+          import os, sys
+          url = os.environ.get('CRAWL_URL', '')
+          site = urlparse(url).netloc
+          print(site)
+          " > scan-meta/crawl_site.txt
 
       - name: Upload crawled files as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: crawled-pdfs
+          name: crawled-pdfs-${{ github.run_id }}
           path: crawled_files/
           retention-days: 1
           if-no-files-found: warn
@@ -166,7 +227,7 @@ jobs:
       - name: Upload scan metadata as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: scan-meta
+          name: scan-meta-${{ github.run_id }}
           path: scan-meta/
           retention-days: 1
 
