@@ -237,7 +237,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add --ignore-missing reports/manifest.yaml
+          git add --ignore-missing reports/manifest.yaml || true
           if git diff --cached --quiet; then
             echo "No manifest changes to commit."
           else
@@ -251,6 +251,7 @@ jobs:
           fi
 
       - name: Save scan metadata for the analysis workflow
+        if: always()
         env:
           ISSUE_NUMBER: ${{ steps.params.outputs.issue_number }}
           CRAWL_URL: ${{ steps.params.outputs.url }}
@@ -276,6 +277,7 @@ jobs:
           if-no-files-found: warn
 
       - name: Upload scan metadata as artifact
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: scan-meta-${{ github.run_id }}
