@@ -56,6 +56,38 @@ jobs:
             echo "$1" | grep -Eo 'https?://[^[:space:]]+' | head -1
           }
 
+          # Helper: extract a bare domain/path (no protocol) from a string.
+          # Note: matches ASCII hostnames and common TLDs; IDNs are not supported.
+          extract_bare_domain() {
+            echo "$1" | grep -Eo '[a-zA-Z0-9][a-zA-Z0-9._-]*\.[a-zA-Z]{2,}[^[:space:]]*' | head -1
+          }
+
+          # Helper: check if a URL responds with an HTTP 2xx or 3xx status.
+          # The 15-second per-probe timeout is intentionally conservative so that
+          # all four variants can be tried within a reasonable wall-clock budget.
+          url_ok() {
+            local code
+            code=$(curl -s --max-time 15 -L -o /dev/null -w "%{http_code}" "$1" 2>/dev/null || echo "000")
+            [ "$code" -ge 200 ] && [ "$code" -lt 400 ]
+          }
+
+          # Helper: given a bare domain/path, probe protocol variants and return
+          # the first working URL.  Falls back to https:// if none respond.
+          resolve_bare_domain() {
+            local domain="$1"
+            local prefix
+            for prefix in "https://" "https://www." "http://" "http://www."; do
+              local candidate="${prefix}${domain}"
+              echo "::debug::Probing $candidate" >&2
+              if url_ok "$candidate"; then
+                echo "$candidate"
+                return 0
+              fi
+            done
+            # No variant responded – return https:// and let the crawler handle it.
+            echo "https://${domain}"
+          }
+
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             echo "url=$DISPATCH_URL"            >> "$GITHUB_OUTPUT"
             echo "timeout=$DISPATCH_TIMEOUT"    >> "$GITHUB_OUTPUT"
@@ -66,13 +98,32 @@ jobs:
               | sed -E 's/^(SCAN:|PDF-CRAWL:)[[:space:]]*//')
             URL=$(extract_url "$STRIPPED")
 
-            # 2. Fall back to the first URL found anywhere in the issue body.
+            # 2. If no protocol-prefixed URL found, check if the stripped title
+            #    looks like a bare domain and probe protocol variants.
+            if [ -z "$URL" ] && [ -n "$STRIPPED" ]; then
+              BARE=$(extract_bare_domain "$STRIPPED")
+              if [ -n "$BARE" ]; then
+                echo "No protocol in title; probing variants for: $BARE"
+                URL=$(resolve_bare_domain "$BARE")
+              fi
+            fi
+
+            # 3. Fall back to the first URL found anywhere in the issue body.
             if [ -z "$URL" ]; then
               URL=$(extract_url "$ISSUE_BODY")
             fi
 
+            # 4. If still no URL, try the issue body as a bare domain too.
+            if [ -z "$URL" ] && [ -n "$ISSUE_BODY" ]; then
+              BARE=$(extract_bare_domain "$ISSUE_BODY")
+              if [ -n "$BARE" ]; then
+                echo "No protocol in body; probing variants for: $BARE"
+                URL=$(resolve_bare_domain "$BARE")
+              fi
+            fi
+
             if [ -z "$URL" ]; then
-              echo "::error::No URL found in issue title or body. Please use 'SCAN: https://...' as the issue title."
+              echo "::error::No URL found in issue title or body. Please use 'SCAN: https://...' or 'SCAN: example.com' as the issue title."
               exit 1
             fi
 
