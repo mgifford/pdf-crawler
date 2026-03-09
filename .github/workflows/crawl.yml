@@ -12,6 +12,11 @@ on:
         required: false
         default: "3600"
         type: string
+      max_pages:
+        description: "Maximum number of pages (URLs) to crawl (default: 2500)"
+        required: false
+        default: "2500"
+        type: string
   issues:
     # 'opened'  – initial scan request
     # 'reopened'– allows restarting a failed scan by closing and reopening
@@ -68,6 +73,7 @@ jobs:
           EVENT_NAME: ${{ github.event_name }}
           DISPATCH_URL: ${{ github.event.inputs.site_url }}
           DISPATCH_TIMEOUT: ${{ github.event.inputs.timeout }}
+          DISPATCH_MAX_PAGES: ${{ github.event.inputs.max_pages }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_NUMBER: ${{ github.event.issue.number }}
@@ -125,6 +131,7 @@ jobs:
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
             echo "url=$DISPATCH_URL"            >> "$GITHUB_OUTPUT"
             echo "timeout=$DISPATCH_TIMEOUT"    >> "$GITHUB_OUTPUT"
+            echo "max_pages=${DISPATCH_MAX_PAGES:-2500}" >> "$GITHUB_OUTPUT"
             echo "issue_number="                >> "$GITHUB_OUTPUT"
             echo "notes="                       >> "$GITHUB_OUTPUT"
           else
@@ -173,8 +180,22 @@ jobs:
                 | cut -c1-500)
             fi
 
+            # 6. Extract optional page limit from the "Number: XXXX" line in the body.
+            MAX_PAGES="2500"
+            if [ -n "$ISSUE_BODY" ]; then
+              PARSED_MAX=$(echo "$ISSUE_BODY" \
+                | grep -Ei '^Number:[[:space:]]*[0-9]+' \
+                | sed -E 's/^[Nn]umber:[[:space:]]*//' \
+                | head -1 \
+                | tr -d '\r[:space:]')
+              if [ -n "$PARSED_MAX" ]; then
+                MAX_PAGES="$PARSED_MAX"
+              fi
+            fi
+
             echo "url=$URL"                   >> "$GITHUB_OUTPUT"
             echo "timeout=3600"               >> "$GITHUB_OUTPUT"
+            echo "max_pages=$MAX_PAGES"       >> "$GITHUB_OUTPUT"
             echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
             echo "notes=$NOTES"               >> "$GITHUB_OUTPUT"
           fi
@@ -283,6 +304,7 @@ jobs:
         env:
           CRAWL_URL: ${{ steps.params.outputs.url }}
           CRAWL_TIMEOUT: ${{ steps.params.outputs.timeout }}
+          CRAWL_MAX_PAGES: ${{ steps.params.outputs.max_pages }}
           CRAWL_NOTES: ${{ steps.params.outputs.notes }}
         run: |
           NOTES_ARGS=()
@@ -294,6 +316,7 @@ jobs:
             --manifest reports/manifest.yaml \
             --output-dir crawled_files \
             --timeout "$CRAWL_TIMEOUT" \
+            --max-pages "$CRAWL_MAX_PAGES" \
             "${NOTES_ARGS[@]}"
 
       - name: Commit updated manifest

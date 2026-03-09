@@ -1,4 +1,4 @@
-"""Tests for scripts/crawl.py – focused on normalize_url() and _site_folder()."""
+"""Tests for scripts/crawl.py – focused on normalize_url(), _site_folder(), and run_scrapy()."""
 
 import sys
 from pathlib import Path
@@ -8,7 +8,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from crawl import normalize_url, _URL_PREFIXES, _site_folder
+from crawl import normalize_url, _URL_PREFIXES, _site_folder, run_scrapy
 
 
 # ---------------------------------------------------------------------------
@@ -241,3 +241,43 @@ def test_site_folder_already_lowercase_no_www():
 def test_site_folder_uppercase_no_www():
     """Uppercase netloc without www. is still lowercased."""
     assert _site_folder("EXAMPLE.COM") == "example.com"
+
+
+# ---------------------------------------------------------------------------
+# run_scrapy – max_pages / CLOSESPIDER_PAGECOUNT
+# ---------------------------------------------------------------------------
+
+def test_run_scrapy_passes_closespider_pagecount_default():
+    """run_scrapy should pass CLOSESPIDER_PAGECOUNT=2500 by default."""
+    with patch("crawl.subprocess.run") as mock_run:
+        mock_run.return_value = MagicMock(returncode=0)
+        run_scrapy("https://example.com", "out", 3600, "spider.py")
+    mock_run.assert_called_once()
+    cmd = mock_run.call_args[0][0]
+    assert "-s" in cmd
+    idx = cmd.index("-s")
+    assert cmd[idx + 1] == "CLOSESPIDER_PAGECOUNT=2500"
+
+
+def test_run_scrapy_passes_custom_max_pages():
+    """run_scrapy should pass the caller-supplied max_pages as CLOSESPIDER_PAGECOUNT."""
+    with patch("crawl.subprocess.run") as mock_run:
+        mock_run.return_value = MagicMock(returncode=0)
+        run_scrapy("https://example.com", "out", 3600, "spider.py", max_pages=4000)
+    mock_run.assert_called_once()
+    cmd = mock_run.call_args[0][0]
+    assert "-s" in cmd
+    idx = cmd.index("-s")
+    assert cmd[idx + 1] == "CLOSESPIDER_PAGECOUNT=4000"
+
+
+def test_run_scrapy_passes_max_pages_one():
+    """run_scrapy should pass max_pages=1 correctly (boundary check)."""
+    with patch("crawl.subprocess.run") as mock_run:
+        mock_run.return_value = MagicMock(returncode=0)
+        run_scrapy("https://example.com", "out", 3600, "spider.py", max_pages=1)
+    mock_run.assert_called_once()
+    cmd = mock_run.call_args[0][0]
+    assert "-s" in cmd
+    idx = cmd.index("-s")
+    assert cmd[idx + 1] == "CLOSESPIDER_PAGECOUNT=1"
