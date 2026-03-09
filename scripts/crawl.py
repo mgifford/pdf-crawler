@@ -104,13 +104,30 @@ def normalize_url(url: str, timeout: int = 15) -> str:
     return fallback
 
 
-def run_scrapy(url: str, output_dir: str, timeout: int, spider_path: str) -> None:
-    """Invoke Scrapy as a subprocess with an optional wall-clock timeout."""
+def run_scrapy(
+    url: str,
+    output_dir: str,
+    timeout: int,
+    spider_path: str,
+    max_pages: int = 2500,
+) -> None:
+    """Invoke Scrapy as a subprocess with an optional wall-clock timeout.
+
+    Args:
+        url: Seed URL to crawl.
+        output_dir: Directory where downloaded files are saved.
+        timeout: Maximum wall-clock seconds before the subprocess is killed.
+        spider_path: Path to the Scrapy spider file.
+        max_pages: Maximum number of pages (URLs) to crawl before stopping.
+            Passed to Scrapy via the ``CLOSESPIDER_PAGECOUNT`` setting.
+            Defaults to 2500.
+    """
     cmd = [
         sys.executable, "-m", "scrapy", "runspider",
         spider_path,
         "-a", f"url={url}",
         "-a", f"output_dir={output_dir}",
+        "-s", f"CLOSESPIDER_PAGECOUNT={max_pages}",
         "--logfile", "scrapy.log",
     ]
     print(f"Running: {' '.join(cmd)}")
@@ -191,6 +208,12 @@ def main() -> None:
         default="",
         help="Optional notes about this scan (e.g. organisation name, reason for scan)",
     )
+    parser.add_argument(
+        "--max-pages",
+        type=int,
+        default=2500,
+        help="Maximum number of pages (URLs) to crawl (default: 2500)",
+    )
     args = parser.parse_args()
 
     # Ensure output and reports directories exist
@@ -200,8 +223,8 @@ def main() -> None:
     # Normalise the URL – prepend a protocol and probe variants when needed.
     url = normalize_url(args.url)
 
-    print(f"Crawling {url} (timeout: {args.timeout}s)…")
-    run_scrapy(url, args.output_dir, args.timeout, args.spider)
+    print(f"Crawling {url} (timeout: {args.timeout}s, max pages: {args.max_pages})…")
+    run_scrapy(url, args.output_dir, args.timeout, args.spider, args.max_pages)
 
     print("Updating manifest…")
     update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
