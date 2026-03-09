@@ -7,7 +7,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from generate_report import _summary_stats, generate_markdown, generate_issue_comment
+from generate_report import _summary_stats, generate_html, generate_markdown, generate_issue_comment
 
 
 # ---------------------------------------------------------------------------
@@ -204,3 +204,47 @@ def test_issue_comment_truncates_large_lists():
         max_files=10,
     )
     assert "more PDFs" in comment
+
+
+# ---------------------------------------------------------------------------
+# generate_html
+# ---------------------------------------------------------------------------
+
+def test_generate_html_is_valid_html():
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    stats = _summary_stats(entries)
+    html = generate_html(entries, stats)
+    assert html.startswith("<!DOCTYPE html>")
+    assert "<html" in html
+    assert "</html>" in html
+
+
+def test_generate_html_embeds_json_data():
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    stats = _summary_stats(entries)
+    html = generate_html(entries, stats)
+    # The JSON data block should be present
+    assert 'id="report-data"' in html
+    assert "https://example.com/doc.pdf" in html
+
+
+def test_generate_html_empty_manifest():
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert "<!DOCTYPE html>" in html
+    # Empty state message should be present in the JS
+    assert "No scan data available yet" in html
+
+
+def test_generate_html_contains_back_link():
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert 'href="./"' in html
+
+
+def test_generate_html_includes_notes_column():
+    entry = _make_entry("https://example.com/doc.pdf")
+    entry["notes"] = "Test notes for this scan"
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    assert "Notes" in html

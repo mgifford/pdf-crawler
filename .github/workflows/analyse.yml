@@ -207,6 +207,7 @@ jobs:
             --report-dir reports \
             $SITE_FLAG \
             $COMMENT_FLAG \
+            --html-dir docs \
             --pages-base "$PAGES_BASE" \
             --run-url "$RUN_URL" \
             --crawl-url "$CRAWL_URL"
@@ -215,7 +216,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add reports/
+          git add reports/ docs/report.html
           if git diff --cached --quiet; then
             echo "No report changes to commit."
           else

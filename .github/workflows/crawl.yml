@@ -105,6 +105,7 @@ jobs:
             echo "url=$DISPATCH_URL"            >> "$GITHUB_OUTPUT"
             echo "timeout=$DISPATCH_TIMEOUT"    >> "$GITHUB_OUTPUT"
             echo "issue_number="                >> "$GITHUB_OUTPUT"
+            echo "notes="                       >> "$GITHUB_OUTPUT"
           else
             # 1. Try to extract the URL from the issue title (after the prefix).
             STRIPPED=$(echo "$ISSUE_TITLE" \
@@ -140,9 +141,21 @@ jobs:
               exit 1
             fi
 
+            # 5. Extract optional notes from the **Notes:** line in the issue body.
+            NOTES=""
+            if [ -n "$ISSUE_BODY" ]; then
+              NOTES=$(echo "$ISSUE_BODY" \
+                | grep '^\*\*Notes:\*\* ' \
+                | sed 's/^\*\*Notes:\*\* //' \
+                | head -1 \
+                | tr -d '\r' \
+                | cut -c1-500)
+            fi
+
             echo "url=$URL"                   >> "$GITHUB_OUTPUT"
             echo "timeout=3600"               >> "$GITHUB_OUTPUT"
             echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
+            echo "notes=$NOTES"               >> "$GITHUB_OUTPUT"
           fi
 
       - name: Comment on issue when crawl setup fails
@@ -224,12 +237,18 @@ jobs:
         env:
           CRAWL_URL: ${{ steps.params.outputs.url }}
           CRAWL_TIMEOUT: ${{ steps.params.outputs.timeout }}
+          CRAWL_NOTES: ${{ steps.params.outputs.notes }}
         run: |
+          NOTES_ARGS=()
+          if [ -n "$CRAWL_NOTES" ]; then
+            NOTES_ARGS=(--notes "$CRAWL_NOTES")
+          fi
           python scripts/crawl.py \
             --url "$CRAWL_URL" \
             --manifest reports/manifest.yaml \
             --output-dir crawled_files \
-            --timeout "$CRAWL_TIMEOUT"
+            --timeout "$CRAWL_TIMEOUT" \
+            "${NOTES_ARGS[@]}"
 
       - name: Commit updated manifest
         env:
@@ -255,10 +274,12 @@ jobs:
         env:
           ISSUE_NUMBER: ${{ steps.params.outputs.issue_number }}
           CRAWL_URL: ${{ steps.params.outputs.url }}
+          CRAWL_NOTES: ${{ steps.params.outputs.notes }}
         run: |
           mkdir -p scan-meta
           echo "$ISSUE_NUMBER" > scan-meta/issue_number.txt
           echo "$CRAWL_URL"    > scan-meta/crawl_url.txt
+          echo "$CRAWL_NOTES"  > scan-meta/notes.txt
           # Extract and save the site/domain for per-site scoping in the analysis step
           python3 -c "
           from urllib.parse import urlparse

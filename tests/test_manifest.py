@@ -83,6 +83,16 @@ def test_build_entry_structure(tmp_pdf):
     assert len(entry["md5"]) == 32
 
 
+def test_build_entry_with_notes(tmp_pdf):
+    entry = build_entry("https://example.com/test.pdf", tmp_pdf, "example.com", notes="Test org scan")
+    assert entry["notes"] == "Test org scan"
+
+
+def test_build_entry_without_notes_has_no_notes_key(tmp_pdf):
+    entry = build_entry("https://example.com/test.pdf", tmp_pdf, "example.com")
+    assert "notes" not in entry
+
+
 # ---------------------------------------------------------------------------
 # save_manifest / load_manifest
 # ---------------------------------------------------------------------------
@@ -140,6 +150,27 @@ def test_upsert_rescan_on_changed_content(tmp_path):
     entries, needs_scan = upsert_entry(entries, url, p, "example.com")
     assert needs_scan is True
     assert entries[0]["status"] == "pending"
+
+
+def test_upsert_stores_notes_on_new_entry(tmp_pdf):
+    entries = []
+    entries, _ = upsert_entry(
+        entries, "https://example.com/doc.pdf", tmp_pdf, "example.com",
+        notes="Govt accessibility audit"
+    )
+    assert entries[0]["notes"] == "Govt accessibility audit"
+
+
+def test_upsert_updates_notes_on_existing_unchanged_entry(tmp_pdf):
+    entries = []
+    entries, _ = upsert_entry(entries, "https://example.com/doc.pdf", tmp_pdf, "example.com")
+    entries = mark_analysed(entries, "https://example.com/doc.pdf", {"Accessible": True})
+    # Re-upsert with same content but new notes
+    entries, _ = upsert_entry(
+        entries, "https://example.com/doc.pdf", tmp_pdf, "example.com",
+        notes="Updated notes"
+    )
+    assert entries[0]["notes"] == "Updated notes"
 
 
 # ---------------------------------------------------------------------------

@@ -67,9 +67,14 @@ def save_manifest(
 # Public API
 # ---------------------------------------------------------------------------
 
-def build_entry(url: str, local_path: str | Path, site: str) -> Dict[str, Any]:
+def build_entry(
+    url: str,
+    local_path: str | Path,
+    site: str,
+    notes: str = "",
+) -> Dict[str, Any]:
     """Create a new manifest entry for *local_path*."""
-    return {
+    entry: Dict[str, Any] = {
         "url": url,
         "md5": _md5(local_path),
         "filename": Path(local_path).name,
@@ -79,6 +84,9 @@ def build_entry(url: str, local_path: str | Path, site: str) -> Dict[str, Any]:
         "report": None,
         "errors": [],
     }
+    if notes:
+        entry["notes"] = notes
+    return entry
 
 
 def needs_analysis(entry: Dict[str, Any], local_path: str | Path) -> bool:
@@ -113,6 +121,7 @@ def upsert_entry(
     url: str,
     local_path: str | Path,
     site: str,
+    notes: str = "",
 ) -> tuple[List[Dict[str, Any]], bool]:
     """Add or update the manifest entry for *url*.
 
@@ -125,14 +134,18 @@ def upsert_entry(
             if new_md5 != entry.get("md5"):
                 # File has changed – reset for re-analysis
                 update_entry_from_file(entry, local_path)
+                if notes:
+                    entry["notes"] = notes
                 return entries, True
             # File unchanged – only skip if it has already been successfully
             # analysed.  If the status is 'pending' or 'error', we still need
             # to (re-)analyse it even though the content has not changed.
+            if notes:
+                entry["notes"] = notes
             return entries, entry.get("status") != "analysed"
 
     # Brand-new entry
-    entries.append(build_entry(url, local_path, site))
+    entries.append(build_entry(url, local_path, site, notes=notes))
     return entries, True
 
 
