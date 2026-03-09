@@ -96,7 +96,12 @@
     </li>
   </ol>
 
-  <h2>Submit a Crawl Request</h2>
+  <h2 id="submit-via-github-issues">Submit a Crawl via GitHub Issues</h2>
+  <p>
+    Fill in the URL below and click <strong>Open GitHub Issue</strong>.
+    You will be taken to GitHub with a pre-filled issue title and body —
+    just click <em>Submit new issue</em> to start the crawl.
+  </p>
 
   <form id="crawl-form" novalidate>
     <label for="site-url">Site URL <span aria-hidden="true">*</span></label>
@@ -116,8 +121,14 @@
 
     <div id="validation-preview" aria-live="polite"></div>
 
-    <button type="submit">Submit Crawl Request →</button>
+    <button type="submit">Open GitHub Issue →</button>
   </form>
+
+  <p class="hint">
+    Prefer to create the issue yourself?
+    Open a <a href="https://github.com/mgifford/pdf-crawler/issues/new" target="_blank" rel="noopener">new GitHub issue</a>
+    and set the title to <code>SCAN: https://example.com</code>.
+  </p>
 
   <h2>View Reports</h2>
   <ul>

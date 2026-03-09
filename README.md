@@ -42,7 +42,12 @@ with the `SCAN:` prefix, which automatically triggers the
 
 ### 2 – Submit a crawl via GitHub Issues
 
-Open a new issue in this repository and set the title to:
+Use the **[PDF Crawler form](https://mgifford.github.io/pdf-crawler/#submit-via-github-issues)**
+to fill in a URL and be taken directly to a pre-filled GitHub issue – just click
+*Submit new issue* to start the crawl.
+
+Alternatively, [open a new issue](https://github.com/mgifford/pdf-crawler/issues/new)
+manually and set the title to:
 
 ```
 SCAN: https://example.com
