@@ -1,25 +1,26 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-09T22:14:50.984587+00:00
+Generated: 2026-03-09T22:37:35.576294+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 231 |
-| Analysed | 219 |
+| Total files tracked | 681 |
+| Analysed | 555 |
 | Pending analysis | 0 |
-| Errors during analysis | 12 |
-| Accessible | 17 |
+| Errors during analysis | 126 |
+| Accessible | 120 |
 | Totally inaccessible | 3 |
 | Broken / unreadable | 0 |
-| Exempt (pre-2018) | 86 |
+| Exempt (pre-2018) | 112 |
 
 ## Files per Site
 
 | Site | Files |
 |------|-------|
 | canada.ca | 231 |
+| gsa.gov | 450 |
 ## File Details
 
 | File | Site | Accessible | Tagged | EmptyText | Protected | Title | Language | Bookmarks | Exempt | Pages |
@@ -243,6 +244,342 @@ Generated: 2026-03-09T22:14:50.984587+00:00
 | [welcome-to-canada_indigenous-peoples_f.pdf](https://canada.ca/welcome-to-canada_indigenous-peoples_f.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 | [zika-virus-sex.pdf](https://canada.ca/zika-virus-sex.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
 | [zika-virus-what-men-need-know.pdf](https://canada.ca/zika-virus-what-men-need-know.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [10x_FY17_Year_in_Review_Report.pdf](https://10x.gsa.gov/impact/10x_FY17_Year_in_Review_Report.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [10x_FY18_Year_in_Review_Report.pdf](https://10x.gsa.gov/impact/10x_FY18_Year_in_Review_Report.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [10x_FY19_Year_in_Review_Report.pdf](https://10x.gsa.gov/impact/10x_FY19_Year_in_Review_Report.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [10x_FY20_Impact_Report.pdf](https://10x.gsa.gov/impact/10x_FY20_Impact_Report.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [1502-Servicemember-Roth-TSP-Re-Enrollment.pdf](https://oes.gsa.gov/assets/abstracts/1502-Servicemember-Roth-TSP-Re-Enrollment.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [1506-On-Base-Servicemember-TSP-Enrollment.pdf](https://oes.gsa.gov/assets/abstracts/1506-On-Base-Servicemember-TSP-Enrollment.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [1507-Servicemember-TSP-Enrollment.pdf](https://oes.gsa.gov/assets/abstracts/1507-Servicemember-TSP-Enrollment.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [1508-Microloans-for-Farmers.pdf](https://oes.gsa.gov/assets/abstracts/1508-Microloans-for-Farmers.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [1508-publication-bowers-higgins-replication-2017.pdf](https://oes.gsa.gov/assets/publications/1508-publication-bowers-higgins-replication-2017.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [1510-Prescriber-Letters.pdf](https://oes.gsa.gov/assets/abstracts/1510-Prescriber-Letters.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [1510-medicare-letters-to-curb-overprescribing.pdf](https://oes.gsa.gov/assets/publications/1510-medicare-letters-to-curb-overprescribing.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 |
+| [1514-Industrial-Funding-Fee-Reports-update-dec2021.pdf](https://oes.gsa.gov/assets/abstracts/1514-Industrial-Funding-Fee-Reports-update-dec2021.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [15xx%20-%20Yokum%20et%20al%20(2018)%20-%20Letters%20designed%20with%20behavioural%20science%20increase%20influenza%20vaccination%20in%20Medicare%20beneficiaries.pdf](https://oes.gsa.gov/assets/publications/15xx%20-%20Yokum%20et%20al%20(2018)%20-%20Letters%20designed%20with%20behavioural%20science%20increase%20influenza%20vaccination%20in%20Medicare%20beneficiaries.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [15xx-Medicare-Flu-Vaccine-Intervention-Pack.pdf](https://oes.gsa.gov/assets/interventions/15xx-Medicare-Flu-Vaccine-Intervention-Pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [15xx-medicare-flu-vaccine-uptake-abstract.pdf](https://oes.gsa.gov/assets/abstracts/15xx-medicare-flu-vaccine-uptake-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1601-Military-Retiree-myPay-Reactivation.pdf](https://oes.gsa.gov/assets/abstracts/1601-Military-Retiree-myPay-Reactivation.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [1605-Defaulted-Student-Loan-Borrowers.pdf](https://oes.gsa.gov/assets/abstracts/1605-Defaulted-Student-Loan-Borrowers.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [1606-1-Community-Action-Deck.pdf](https://oes.gsa.gov/assets/abstracts/1606-1-Community-Action-Deck.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 74 |
+| [1614-SBA-Learning-Center.pdf](https://oes.gsa.gov/assets/abstracts/1614-SBA-Learning-Center.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [1615-Financial-Aid-for-HUD-Assisted-Youth.pdf](https://oes.gsa.gov/assets/abstracts/1615-Financial-Aid-for-HUD-Assisted-Youth.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [1618-On-Base-Active-Choice-for-TSP.pdf](https://oes.gsa.gov/assets/abstracts/1618-On-Base-Active-Choice-for-TSP.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [1619-reentry-handbook.pdf](https://oes.gsa.gov/assets/abstracts/1619-reentry-handbook.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 22 |
+| [1620-1_DHA%20Secure-messaging.pdf](https://oes.gsa.gov/assets/abstracts/1620-1_DHA%20Secure-messaging.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [16xx-anchoring-tsp-enrollment.pdf](https://oes.gsa.gov/assets/abstracts/16xx-anchoring-tsp-enrollment.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [1701-microloans-women-owned-farms.pdf](https://oes.gsa.gov/assets/abstracts/1701-microloans-women-owned-farms.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [1703-prompting-tsp.pdf](https://oes.gsa.gov/assets/abstracts/1703-prompting-tsp.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [1709%20-%20jamapsychiatry_sacarny_2018_oi_180047.pdf](https://oes.gsa.gov/assets/publications/1709%20-%20jamapsychiatry_sacarny_2018_oi_180047.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 |
+| [1709-Quetiapine-Prescribing.pdf](https://oes.gsa.gov/assets/abstracts/1709-Quetiapine-Prescribing.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1722%20-%20USAID%20Ethiopia%20Anteneh%20et%20al%20AEL%202020.pdf](https://oes.gsa.gov/assets/publications/1722%20-%20USAID%20Ethiopia%20Anteneh%20et%20al%20AEL%202020.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 |
+| [1723%20-%20Hemmeter%20et%20al%20(2021)%20-%20Communicating%20Program%20Eligibility%20A%20Supplemental%20Security%20Income%20(SSI)%20Field%20Experiment.pdf](https://oes.gsa.gov/assets/publications/1723%20-%20Hemmeter%20et%20al%20(2021)%20-%20Communicating%20Program%20Eligibility%20A%20Supplemental%20Security%20Income%20(SSI)%20Field%20Experiment.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 61 |
+| [1723-Increasing-SSI-Uptake-0.pdf](https://oes.gsa.gov/assets/analysis/1723-Increasing-SSI-Uptake.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [1723-Increasing-SSI-Uptake.pdf](https://oes.gsa.gov/assets/abstracts/1723-Increasing-SSI-Uptake.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1723-intervention-pack-ssi-65plus.pdf](https://oes.gsa.gov/assets/interventions/1723-intervention-pack-ssi-65plus.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1723.pdf](https://oes.gsa.gov/assets/publications/1723.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 47 |
+| [1724-increasing-tsp-enrollment-usps.pdf](https://oes.gsa.gov/assets/analysis/1724-increasing-tsp-enrollment-usps.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1724-project-abstract-TSP-enrollment-USPS.pdf](https://oes.gsa.gov/assets/abstracts/1724-project-abstract-TSP-enrollment-USPS.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [1725-concurrent-prescriptions.pdf](https://oes.gsa.gov/assets/analysis/1725-concurrent-prescriptions.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 |
+| [1725-concurrent-rx-abstract.pdf](https://oes.gsa.gov/assets/abstracts/1725-concurrent-rx-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1729-1-intervention-pack-provider-encouragement.pdf](https://oes.gsa.gov/assets/interventions/1729-1-intervention-pack-provider-encouragement.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [1729-1-patient-generated-health-data-provider-encouragement.pdf](https://oes.gsa.gov/assets/abstracts/1729-1-patient-generated-health-data-provider-encouragement.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1729-2-intervention-pack-patient-reminder.pdf](https://oes.gsa.gov/assets/interventions/1729-2-intervention-pack-patient-reminder.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [1729-2-patient-generated-health-data-patient-reminders.pdf](https://oes.gsa.gov/assets/abstracts/1729-2-patient-generated-health-data-patient-reminders.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1729-increasing-patient-use-of-electronic-health-records.pdf](https://oes.gsa.gov/assets/analysis/1729-increasing-patient-use-of-electronic-health-records.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [1729-publication-electronic-blood-glucose-monitoring-impacts-on-provider-and-patient-behavior.pdf](https://oes.gsa.gov/assets/publications/1729-publication-electronic-blood-glucose-monitoring-impacts-on-provider-and-patient-behavior.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 |
+| [1735-Duke-Maternal-Flu-Immunizations-Intervention-Pack.pdf](https://oes.gsa.gov/assets/interventions/1735-Duke-Maternal-Flu-Immunizations-Intervention-Pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1735-duke-maternal-flu-shots.pdf](https://oes.gsa.gov/assets/analysis/1735-duke-maternal-flu-shots.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [1735-flu-shot-abstract.pdf](https://oes.gsa.gov/assets/abstracts/1735-flu-shot-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1736-NVPO-ads-Intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/1736-NVPO-ads-Intervention-pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [1736-pregnancy-vaccines-ads-abstract.pdf](https://oes.gsa.gov/assets/abstracts/1736-pregnancy-vaccines-ads-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1736-testing-maternal-immunization-messages-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/1736-testing-maternal-immunization-messages-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [1737-Immunization-compliance-in-schools-Intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/1737-Immunization-compliance-in-schools-Intervention-pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [1737-academic-publication-immunization-report-cards-2019.pdf](https://oes.gsa.gov/assets/publications/1737-academic-publication-immunization-report-cards-2019.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [1737-vaccine-report-cards-plan.pdf](https://oes.gsa.gov/assets/analysis/1737-vaccine-report-cards-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [1737-vaccine-report-cards.pdf](https://oes.gsa.gov/assets/abstracts/1737-vaccine-report-cards.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1738-Louisiana-DoH-postcards-intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/1738-Louisiana-DoH-postcards-intervention-pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1738-encouraging-vaccine-uptake-for-seniors.pdf](https://oes.gsa.gov/assets/analysis/1738-encouraging-vaccine-uptake-for-seniors.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [1738-increasing-vaccine-uptake.pdf](https://oes.gsa.gov/assets/abstracts/1738-increasing-vaccine-uptake.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1738-publication-postcards-increasing-vaccination-rates-among-elderly.pdf](https://oes.gsa.gov/assets/publications/1738-publication-postcards-increasing-vaccination-rates-among-elderly.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [1740-St-Cloud-VA-Intervention-Pack.pdf](https://oes.gsa.gov/assets/interventions/1740-St-Cloud-VA-Intervention-Pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [1740-flu-shots-va-st-cloud-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/1740-flu-shots-va-st-cloud-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [1740-flu-shots-va-st-cloud.pdf](https://oes.gsa.gov/assets/abstracts/1740-flu-shots-va-st-cloud.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1743-VA-NY-Harbor-Intervention-Pack.pdf](https://oes.gsa.gov/assets/interventions/1743-VA-NY-Harbor-Intervention-Pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1743-flu-shots-va-new-york-harbor-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/1743-flu-shots-va-new-york-harbor-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [1743-flu-shots-va-new-york-harbor.pdf](https://oes.gsa.gov/assets/abstracts/1743-flu-shots-va-new-york-harbor.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1801-USAGov-survey-analysis-plan-updated.pdf](https://oes.gsa.gov/assets/analysis/1801-USAGov-survey-analysis-plan-updated.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [1801_USAGov_survey_abstract.pdf](https://oes.gsa.gov/assets/abstracts/1801_USAGov_survey_abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1803-Atlanta-VA-Intervention-Pack.pdf](https://oes.gsa.gov/assets/interventions/1803-Atlanta-VA-Intervention-Pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [1803-increasing-adult-vaccines-atlanta-va-analysis-plan-041719.pdf](https://oes.gsa.gov/assets/analysis/1803-increasing-adult-vaccines-atlanta-va-analysis-plan-041719.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [1803-vaccine-uptake-atlanta-va-abstract.pdf](https://oes.gsa.gov/assets/abstracts/1803-vaccine-uptake-atlanta-va-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1804-VA-opioid-buyback-abstract.pdf](https://oes.gsa.gov/assets/abstracts/1804-VA-opioid-buyback-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1804-VA-opioid-buyback-intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/1804-VA-opioid-buyback-intervention-pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [1804-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/1804-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [1804_technical-appendix.pdf](https://oes.gsa.gov/assets/files/1804_technical-appendix.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [1810-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/1810-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [1810-gi-bill-proactive-communication.pdf](https://oes.gsa.gov/assets/abstracts/1810-gi-bill-proactive-communication.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1812%20-%20DORN%20VA%20postcard%20reminder%20-%20Intervention%20Pack.pdf](https://oes.gsa.gov/assets/interventions/1812%20-%20DORN%20VA%20postcard%20reminder%20-%20Intervention%20Pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1903-MT-wildfire-abstract.pdf](https://oes.gsa.gov/assets/abstracts/1903-MT-wildfire-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [1903-analysis-plan-MT-wildfire.pdf](https://oes.gsa.gov/assets/analysis/1903-analysis-plan-MT-wildfire.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [1903-intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/1903-intervention-pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [1904-increasing-vaccines-through-performance-feedback.pdf](https://oes.gsa.gov/assets/analysis/1904-increasing-vaccines-through-performance-feedback.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [1904-project-abstract.pdf](https://oes.gsa.gov/assets/abstracts/1904-project-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [2002-3-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2002-3-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 |
+| [2002-CMS-intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/2002-CMS-intervention-pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [2002-CMS-reducing-nappropriate-co-prescribing-behaviors-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2002-CMS-reducing-nappropriate-co-prescribing-behaviors-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [2003-abstract-san-diego.pdf](https://oes.gsa.gov/assets/abstracts/2003-abstract-san-diego.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2003_San_Diego_SBRF_Analysis_Plan.pdf](https://oes.gsa.gov/assets/analysis/2003_San_Diego_SBRF_Analysis_Plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 25 |
+| [2008-abstract-sba-dallas.pdf](https://oes.gsa.gov/assets/abstracts/2008-abstract-sba-dallas.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2019-09-Web-Lydia-Journey.pdf](https://coe.gsa.gov/docs/2019-09-Web-Lydia-Journey.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2019-09-Web-OneUSDA%20Ecosystem.pdf](https://coe.gsa.gov/docs/2019-09-Web-OneUSDA%20Ecosystem.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2024%20Catalog%20of%20Market%20Research%20Higlights_GrantsQSMO.pdf](https://ussm.gsa.gov/assets/files/Marketplace%20Files/2024%20Catalog%20of%20Market%20Research%20Higlights_GrantsQSMO.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2025%20Grants%20QSMO%20API%20Library_0.pdf](https://ussm.gsa.gov/assets/files/Marketplace%20Files/2025%20Grants%20QSMO%20API%20Library_0.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2103-HEERF-eval-design-report.pdf](https://oes.gsa.gov/assets/abstracts/2103-HEERF-eval-design-report.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 |
+| [2106%20-%20Equity%20Documentation%20-%203%20-%20Analysis%20Plan.pdf](https://oes.gsa.gov/assets/analysis/2106%20-%20Equity%20Documentation%20-%203%20-%20Analysis%20Plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 22 |
+| [2106-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2106-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [2112D-3-Analysis-Plan-SLFRF.pdf](https://oes.gsa.gov/assets/analysis/2112D-3-Analysis-Plan-SLFRF.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [2112D-SLFRF-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2112D-SLFRF-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [2112DEF-intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/2112DEF-intervention-pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 31 |
+| [2112E-3-Analysis-Plan-SLFRF.pdf](https://oes.gsa.gov/assets/analysis/2112E-3-Analysis-Plan-SLFRF.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [2112E-SLFRF-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2112E-SLFRF-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [2112F-SLFRF-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2112F-SLFRF-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [2112G-3-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2112G-3-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 |
+| [2112G-SLFRF-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2112G-SLFRF-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 |
+| [2113B-era-descriptive-study-of-equity-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2113B-era-descriptive-study-of-equity-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 |
+| [2113B-technical-appendix.pdf](https://oes.gsa.gov/assets/abstracts/2113B-technical-appendix.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | 28 |
+| [2120-health-misinformation-toolkit.pdf](https://oes.gsa.gov/assets/publications/2120-health-misinformation-toolkit.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 22 |
+| [2205-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2205-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 21 |
+| [2205_evaluation-summary.pdf](https://oes.gsa.gov/assets/abstracts/2205_evaluation-summary.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2206-HAF-Pilot.pdf](https://oes.gsa.gov/assets/analysis/2206-HAF-Pilot.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 |
+| [2206-increasing-applications-to-the-homeowner-assistance-fund-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2206-increasing-applications-to-the-homeowner-assistance-fund-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [2209B-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2209B-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 |
+| [2209a-decreasing-opt-out-mn-intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/2209a-decreasing-opt-out-mn-intervention-pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [2209b-increasing-access-to-mn-ccsbg-intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/2209b-increasing-access-to-mn-ccsbg-intervention-pack.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [2209b-mn-ccsbg-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2209b-mn-ccsbg-abstract.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [2301-era-grantee-flexibilities-va-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2301-era-grantee-flexibilities-va-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 33 |
+| [2301-technical-appendix.pdf](https://oes.gsa.gov/assets/abstracts/2301-technical-appendix.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [2301_era-va-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2301_era-va-abstract.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [2302-ARP-ACA-analysis.pdf](https://oes.gsa.gov/assets/analysis/2302-ARP-ACA-analysis.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 |
+| [2302-aca-meta-analysis-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2302-aca-meta-analysis-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [2302.pdf](https://oes.gsa.gov/assets/publications/2302.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 |
+| [2305-era-grantee-flexibilities-ky-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2305-era-grantee-flexibilities-ky-analysis-plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 |
+| [2305-streamlining-income-verification-to-broaden-access-to-rental-assistance.pdf](https://oes.gsa.gov/assets/abstracts/2305-streamlining-income-verification-to-broaden-access-to-rental-assistance.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [2305-streamlining-income-verification_technical-appendix.pdf](https://oes.gsa.gov/assets/abstracts/2305-streamlining-income-verification_technical-appendix.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [2306-decreasing-homelessness-with-cash-transfers-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2306-decreasing-homelessness-with-cash-transfers-analysis-plan.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 23 |
+| [2349_GPSSIT_CloudAcquisitions.pdf](https://itvmo.gsa.gov/assets/files/2349_GPSSIT_CloudAcquisitions.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [2349_GPSSIT_CloudAcquisitions_b.pdf](https://itvmo.gsa.gov/assets/files/2349_GPSSIT_CloudAcquisitions_b.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [2403-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2403-analysis-plan.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [2403-increasing-application-submissions-8a-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2403-increasing-application-submissions-8a-abstract.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [2501-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2501-abstract.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2501-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2501-analysis-plan.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [2502-abstract.pdf](https://oes.gsa.gov/assets/abstracts/2502-abstract.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2502-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2502-analysis-plan.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [2503-analysis-plan.pdf](https://oes.gsa.gov/assets/analysis/2503-analysis-plan.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 23 |
+| [508-final-governance.pdf](https://ussm.gsa.gov/assets/files/508-final-governance.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [508-final-version-mission-support.pdf](https://ussm.gsa.gov/assets/files/508-final-version-mission-support.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [A-Guide-to-Finding-NAICS-codes-508dk.pdf](https://itvmo.gsa.gov/assets/files/A-Guide-to-Finding-NAICS-codes-508dk.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [A-Guide-to-Finding-New-Entrants-in-the-Federal-Marketplace.pdf](https://itvmo.gsa.gov/assets/files/A-Guide-to-Finding-New-Entrants-in-the-Federal-Marketplace.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [A-Guide-to-Finding-PSC-codes-508dk.pdf](https://itvmo.gsa.gov/assets/files/A-Guide-to-Finding-PSC-codes-508dk.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [A-Guide-to-Finding-SDB-Vendors.pdf](https://itvmo.gsa.gov/assets/files/tlr/A-Guide-to-Finding-SDB-Vendors.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [A-Guide-to-Finding-Security-Related-Obligations.pdf](https://itvmo.gsa.gov/assets/files/tlr/A-Guide-to-Finding-Security-Related-Obligations.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [A-Guide-to-Finding-Vendors-Specializing-in-an-IT-Subcategory.pdf](https://itvmo.gsa.gov/assets/files/tlr/A-Guide-to-Finding-Vendors-Specializing-in-an-IT-Subcategory.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [AIServiceCatalog.pdf](https://coe.gsa.gov/docs/2020/AIServiceCatalog.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [A_Guide_to_Developing_Your_Agency's_Annual_Evaluation_Plan_updated.pdf](https://oes.gsa.gov/assets/toolkits/A_Guide_to_Developing_Your_Agency's_Annual_Evaluation_Plan_updated.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [A_Guide_to_Developing_Your_Agency's_Learning_Agenda_updated.pdf](https://oes.gsa.gov/assets/toolkits/A_Guide_to_Developing_Your_Agency's_Learning_Agenda_updated.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 38 |
+| [Abstract.pdf](https://oes.gsa.gov/assets/files/Abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [Advanced_Concepts_in_Purchase_Card_Management.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/Advanced_Concepts_in_Purchase_Card_Management.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 57 |
+| [Affordable_Housing_Journey_Presentation_Deck.pdf](https://coe.gsa.gov/docs/Affordable_Housing_Journey_Presentation_Deck.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 25 |
+| [AnalysisPlan.pdf](https://oes.gsa.gov/assets/files/AnalysisPlan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [Annual_Evaluation_Plan_Overview_updated.pdf](https://oes.gsa.gov/assets/toolkits/Annual_Evaluation_Plan_Overview_updated.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Buy.GSA.Gov.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/Buy.GSA.Gov.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [Buying%20Insights%20_GrantsQSMO_0.pdf](https://ussm.gsa.gov/assets/files/Marketplace%20Files/Buying%20Insights%20_GrantsQSMO_0.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [CAServiceCatalog.pdf](https://coe.gsa.gov/docs/2020/CAServiceCatalog.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [CCServiceCatalog.pdf](https://coe.gsa.gov/docs/2020/CCServiceCatalog.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [CXServiceCatalog.pdf](https://coe.gsa.gov/docs/2020/CXServiceCatalog.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [Capacity_Assessment_Overview.pdf](https://oes.gsa.gov/assets/toolkits/Capacity_Assessment_Overview.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Capacity_Assessment_Tips_updated2.pdf](https://oes.gsa.gov/assets/toolkits/Capacity_Assessment_Tips_updated2.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [Cloud%20Adoption%20Playbook-Sept2020.pdf](https://coe.gsa.gov/docs/2020/Cloud%20Adoption%20Playbook-Sept2020.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [CoE%20Agency%202%20Release%20FINAL.pdf](https://coe.gsa.gov/docs/CoE%20Agency%202%20Release%20FINAL.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [CoE%20Innovation%20Adoption%20Service%20Catalog%202021.pdf](https://coe.gsa.gov/docs/2020/CoE%20Innovation%20Adoption%20Service%20Catalog%202021.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [CoE%20Innovation%20Adoption%20Services%20Pitch.pdf](https://coe.gsa.gov/docs/CoE%20Innovation%20Adoption%20Services%20Pitch.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 |
+| [Coast-Guard-FinOps-Case-Study.pdf](https://itvmo.gsa.gov/assets/files/Coast-Guard-FinOps-Case-Study.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [Contact%20Center%20Playbook%20October%202020.pdf](https://coe.gsa.gov/docs/2020/Contact%20Center%20Playbook%20October%202020.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 23 |
+| [CulturePreAssessmentGuide.pdf](https://coe.gsa.gov/docs/CulturePreAssessmentGuide.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 59 |
+| [Customer%20Experience%20Playbook-Nov%202020.pdf](https://coe.gsa.gov/docs/2020/Customer%20Experience%20Playbook-Nov%202020.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 33 |
+| [Cybersecurity_1.pdf](https://digitalcorps.gsa.gov/pdfs/Cybersecurity_1.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [DAServiceCatalog.pdf](https://coe.gsa.gov/docs/2020/DAServiceCatalog.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [DAServiceCatalogNovember19.pdf](https://coe.gsa.gov/docs/2019/DAServiceCatalogNovember19.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [DAStrategy.pdf](https://coe.gsa.gov/docs/2020/DAStrategy.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [Dallas%20SBCF%20Analysis%20Plan.pdf](https://oes.gsa.gov/assets/analysis/Dallas%20SBCF%20Analysis%20Plan.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 |
+| [Data%20Playbook-August2020.pdf](https://coe.gsa.gov/docs/2020/Data%20Playbook-August2020.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 16 |
+| [Data%20Playbook-October2020.pdf](https://coe.gsa.gov/docs/2020/Data%20Playbook-October2020.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [Data_Science_and_Analytics_1.pdf](https://digitalcorps.gsa.gov/pdfs/Data_Science_and_Analytics_1.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Design_1.pdf](https://digitalcorps.gsa.gov/pdfs/Design_1.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [Direct-Farm-Loans-Journey-Map.pdf](https://coe.gsa.gov/docs/Direct-Farm-Loans-Journey-Map.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [ETSNext_GSA%20Bulletin%2024-01%20Final%201.pdf](https://buy.gsa.gov/interact/system/files/ETSNext_GSA%20Bulletin%2024-01%20Final%201.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [Easy_Ordering_With_Global_Supply.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/Easy_Ordering_With_Global_Supply.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 47 |
+| [Emerging-Tech-Contact-Center-White-Paper.pdf](https://coe.gsa.gov/docs/Emerging-Tech-Contact-Center-White-Paper.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 |
+| [Enabling_the_Journey_to_Affordable_Housing.pdf](https://coe.gsa.gov/docs/Enabling_the_Journey_to_Affordable_Housing.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [Engaging_SubAgencies_Bureaus.pdf](https://oes.gsa.gov/assets/toolkits/Engaging_SubAgencies_Bureaus.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Evaluation_Planning_Tips_updated.pdf](https://oes.gsa.gov/assets/toolkits/Evaluation_Planning_Tips_updated.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [FAQ-Contractors-SBactions.pdf](https://itvmo.gsa.gov/assets/files/FAQ-Contractors-SBactions.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [FAQ-ITBICs-SBactions.pdf](https://itvmo.gsa.gov/assets/files/FAQ-ITBICs-SBactions.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [FY25-fellowship-solicitation.pdf](https://oes.gsa.gov/assets/files/FY25-fellowship-solicitation.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Farm-Loans-Final-Report-Briefing.pdf](https://coe.gsa.gov/docs/Farm-Loans-Final-Report-Briefing.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 41 |
+| [FedMall_Overview.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/FedMall_Overview.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [Federal_Travel_and_Ethics.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/Federal_Travel_and_Ethics.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 43 |
+| [FinOps-Case-Study-Army-Camo.pdf](https://itvmo.gsa.gov/assets/files/FinOps-Case-Study-Army-Camo.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [FinOps-Optimization-Through-Discounts.pdf](https://itvmo.gsa.gov/assets/files/FinOps-Optimization-Through-Discounts.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 22 |
+| [Findings-Volume-1-Farm-Loans-Final-Report.pdf](https://coe.gsa.gov/docs/Findings-Volume-1-Farm-Loans-Final-Report.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 53 |
+| [GSA%20Acquisition%20Guidance%20for%20Procuring%205G%20Technology%20508_0.pdf](https://buy.gsa.gov/api/system/files/documents/GSA%20Acquisition%20Guidance%20for%20Procuring%205G%20Technology%20508_0.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [GSA%20OneGov%20Slipsheet%20July%202025.pdf](https://itvmo.gsa.gov/assets/files/GSA%20OneGov%20Slipsheet%20July%202025.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [GSA3676-24.pdf](https://www.gsa.gov/system/files/2024-08/GSA3676-24.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [GSA5046-20_0.pdf](https://www.gsa.gov/system/files/GSA5046-20_0.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [GSA_Advantage_The_Basics.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_Advantage_The_Basics.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 78 |
+| [GSA_Fleet_Card_Program.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_Fleet_Card_Program.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 |
+| [GSA_Fleet_Offerings.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_Fleet_Offerings.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 21 |
+| [GSA_SP3_Master_Contract.pdf](https://smartpay.gsa.gov/files/GSA_SP3_Master_Contract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 233 |
+| [GSA_SmartPay_3_Master_Contract_Basics.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_SmartPay_3_Master_Contract_Basics.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 |
+| [GSA_SmartPay_Fleet_Management_Essentials.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_SmartPay_Fleet_Management_Essentials.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 62 |
+| [GSA_SmartPay_Online_Tools.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_SmartPay_Online_Tools.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [GSA_SmartPay_Program_Update.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_SmartPay_Program_Update.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 31 |
+| [GSA_SmartPay_Purchase_Management_Essentials.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_SmartPay_Purchase_Management_Essentials.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 65 |
+| [GSA_SmartPay_Travel_Management_Essentials.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_SmartPay_Travel_Management_Essentials.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 41 |
+| [GSA_SmartPays_Strategic_Payment_Solutions.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_SmartPays_Strategic_Payment_Solutions.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 25 |
+| [GSA_SmartTax_Lessons_Learned_for_State_Sales_Tax.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/GSA_SmartTax_Lessons_Learned_for_State_Sales_Tax.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 |
+| [GSA_TCC_SANAT_EIS_Transition_Plan_v5-1.pdf](https://www.gsa.gov/system/files/GSA_TCC_SANAT_EIS_Transition_Plan_v5-1.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 23 |
+| [Getting_the_Most_Out_of_GSA_eBuy_and_eBuy_Open.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/Getting_the_Most_Out_of_GSA_eBuy_and_eBuy_Open.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 57 |
+| [GovwideITCM_ITVMO_Small%20Business%20Addressable%20Market%20Assessments_Cyber.pdf](https://itvmo.gsa.gov/assets/files/GovwideITCM_ITVMO_Small%20Business%20Addressable%20Market%20Assessments_Cyber.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [GovwideITCM_ITVMO_Small%20Business%20Addressable%20Market%20Assessments_Low%20Code.pdf](https://itvmo.gsa.gov/assets/files/GovwideITCM_ITVMO_Small%20Business%20Addressable%20Market%20Assessments_Low%20Code.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [Grants%20QSMO%20Industry%20Day%20Slides%202024%20vFinal.pdf](https://ussm.gsa.gov/assets/files/Marketplace%20Files/Grants%20QSMO%20Industry%20Day%20Slides%202024%20vFinal.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 41 |
+| [Grants%20QSMO%20Overview_1.pdf](https://ussm.gsa.gov/assets/files/Marketplace%20Files/Grants%20QSMO%20Overview_1.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Grants_QSMO%20Investment%20Insights.pdf](https://ussm.gsa.gov/assets/files/Marketplace%20Files/Grants_QSMO%20Investment%20Insights.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Guidance-on-Using-Multinomial-Tests-for-Differences-in-Distribution.pdf](https://oes.gsa.gov/assets/files/Guidance-on-Using-Multinomial-Tests-for-Differences-in-Distribution.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 14 |
+| [HUD-Layers.pdf](https://coe.gsa.gov/docs/HUD-Layers.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [How%20might%20HUD%20w.%20solutions_10.30.pdf](https://coe.gsa.gov/docs/How%20might%20HUD%20w.%20solutions_10.30.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 |
+| [How-do-BICs-support-small-business-508.pdf](https://itvmo.gsa.gov/assets/files/tlr/How-do-BICs-support-small-business-508.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [IOServiceCatalog.pdf](https://coe.gsa.gov/docs/2020/IOServiceCatalog.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [IT-Modernization-Centers-of-Excellence-Case-Study.pdf](https://coe.gsa.gov/docs/IT-Modernization-Centers-of-Excellence-Case-Study.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 21 |
+| [Infrastructure%20Optimization%20Playbook%20Sept%202020.pdf](https://coe.gsa.gov/docs/2020/Infrastructure%20Optimization%20Playbook%20Sept%202020.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [Initial-Draft-QSMO-Funding-Playbook-Deliverable_Draft.pdf](https://ussm.gsa.gov/assets/files/Initial-Draft-QSMO-Funding-Playbook-Deliverable_Draft.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 35 |
+| [Insights%20and%20Recommendation%20Report_Final_10.30.19.pdf](https://coe.gsa.gov/docs/Insights%20and%20Recommendation%20Report_Final_10.30.19.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 33 |
+| [Investment-Planning-Guidance-March%202021.pdf](https://ussm.gsa.gov/assets/files/Investment-Planning-Guidance-March%202021.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [JourneyMap.pdf](https://coe.gsa.gov/docs/CloudMigration/JourneyMap.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Journey_to_Affordable_Housing_for_Seniors.pdf](https://coe.gsa.gov/docs/Journey_to_Affordable_Housing_for_Seniors.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [Learning-what-works-to-reduce-administrative-burden.pdf](https://oes.gsa.gov/assets/files/Learning-what-works-to-reduce-administrative-burden.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Learning_Agenda_Overview_updated.pdf](https://oes.gsa.gov/assets/toolkits/Learning_Agenda_Overview_updated.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [M-19-23.pdf](https://oes.gsa.gov/assets/toolkits/M-19-23.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 37 |
+| [M-20-12.pdf](https://oes.gsa.gov/assets/toolkits/M-20-12.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 30 |
+| [M3-Playbook.pdf](https://ussm.gsa.gov/assets/files/M3-Playbook.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 98 |
+| [M3-QuickStartGuide.pdf](https://ussm.gsa.gov/assets/files/M3-QuickStartGuide.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [MFA-User-Guide.pdf](https://mcm.fas.gsa.gov/cmservlet/PDF/MFA/MFA-User-Guide.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [Making_Informed_Cost_Saving_Travel_Decisions_and_SmartPay_Essentials_v2.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/Making_Informed_Cost_Saving_Travel_Decisions_and_SmartPay_Essentials_v2.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [Marketplace%20Capabilities%20Framework_Deliverable.pdf](https://ussm.gsa.gov/assets/files/Marketplace%20Capabilities%20Framework_Deliverable.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 29 |
+| [Methodology-Volume-2-Farm-Loans-Final-Report.pdf](https://coe.gsa.gov/docs/Methodology-Volume-2-Farm-Loans-Final-Report.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 81 |
+| [OES%20Learnings%20on%20Writing%20Better%20Communications%202018.pdf](https://oes.gsa.gov/assets/abstracts/OES%20Learnings%20on%20Writing%20Better%20Communications%202018.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [OES-Using-Behavioral-Science-to-Increase-COVID-19-Vaccination-Uptake.pdf](https://oes.gsa.gov/assets/files/OES-Using-Behavioral-Science-to-Increase-COVID-19-Vaccination-Uptake.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [OES-Vaccination-Portfolio-Intervention-Packs.pdf](https://oes.gsa.gov/assets/files/OES-Vaccination-Portfolio-Intervention-Packs.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 31 |
+| [OES-vaccine-paper-2-page-summary.pdf](https://oes.gsa.gov/assets/publications/OES-vaccine-paper-2-page-summary.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [OEScovidinsightssummaryNov2020.pdf](https://oes.gsa.gov/assets/abstracts/OEScovidinsightssummaryNov2020.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [OPM-FinOps-Case-Study.pdf](https://itvmo.gsa.gov/assets/files/OPM-FinOps-Case-Study.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [OS4_Purchasing_Channel.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/OS4_Purchasing_Channel.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 74 |
+| [OneGov%20OEM%20Engagement%20Package.pdf](https://itvmo.gsa.gov/assets/files/OneGov%20OEM%20Engagement%20Package.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [OneGov%20OEM%20Engagement%20Package.pdf?utm_source=chatgpt.com](https://itvmo.gsa.gov/assets/files/OneGov%20OEM%20Engagement%20Package.pdf?utm_source=chatgpt.com) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [PLAW-115publ435.pdf](https://oes.gsa.gov/assets/toolkits/PLAW-115publ435.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 29 |
+| [PMA%20Placemat.pdf](https://ussm.gsa.gov/assets/files/PMA%20Placemat.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [Personas.pdf](https://coe.gsa.gov/docs/Personas.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 |
+| [Predictive%20Analysis%20%28021420%29_508%20Approved.pdf](https://www.gsa.gov/system/files/General/Predictive%20Analysis%20%28021420%29_508%20Approved.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [Product_Management_1.pdf](https://digitalcorps.gsa.gov/pdfs/Product_Management_1.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [ProjectDesign.pdf](https://oes.gsa.gov/assets/files/ProjectDesign.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [ProjectInitiation.pdf](https://oes.gsa.gov/assets/files/ProjectInitiation.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [Published_SEWP_VI_Draft_QA.pdf](https://itvmo.gsa.gov/assets/files/Published_SEWP_VI_Draft_QA.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 485 |
+| [QSMO-Long-term-Designation-Criteria.pdf](https://ussm.gsa.gov/assets/files/QSMO-Long-term-Designation-Criteria.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [QSMO-Performance-Management-Guidebook.pdf](https://ussm.gsa.gov/assets/files/QSMO-Performance-Management-Guidebook.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [Quick_Reference_Sheet_updated.pdf](https://oes.gsa.gov/assets/toolkits/Quick_Reference_Sheet_updated.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [RecordAnalysis.pdf](https://oes.gsa.gov/assets/files/RecordAnalysis.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [RecordReanalysis.pdf](https://oes.gsa.gov/assets/files/RecordReanalysis.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [Resources-for-Quasi-Experimental-Designs.pdf](https://oes.gsa.gov/assets/files/Resources-for-Quasi-Experimental-Designs.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [SQS-Public-FAQs-April-2020.pdf](https://ussm.gsa.gov/assets/files/SQS-Public-FAQs-April-2020.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [SSRN-id3967610%20(1).pdf](https://oes.gsa.gov/assets/publications/SSRN-id3967610%20(1).pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 26 |
+| [Sample_Evaluation_Description_updated.pdf](https://oes.gsa.gov/assets/toolkits/Sample_Evaluation_Description_updated.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Sample_Learning_Agenda_Section_updated.pdf](https://oes.gsa.gov/assets/toolkits/Sample_Learning_Agenda_Section_updated.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Sample_USDC_7600A.pdf](https://digitalcorps.gsa.gov/pdfs/Sample_USDC_7600A.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [Sample_USDC_7600B.pdf](https://digitalcorps.gsa.gov/pdfs/Sample_USDC_7600B.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [Smart_Pay_Forum_Commercial_Platforms_Program.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/Smart_Pay_Forum_Commercial_Platforms_Program.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [Software_Engineering_2.pdf](https://digitalcorps.gsa.gov/pdfs/Software_Engineering_2.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [Sprint-2-FinOps-Cloud-Acquisition-Quick-Reference-Guide.pdf](https://itvmo.gsa.gov/assets/files/Sprint-2-FinOps-Cloud-Acquisition-Quick-Reference-Guide.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 |
+| [Stories-Volume-3-Farm-Loans-Final-Report.pdf](https://coe.gsa.gov/docs/Stories-Volume-3-Farm-Loans-Final-Report.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 16 |
+| [Sustainable_Purchasing_with_Biobased_Products.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/Sustainable_Purchasing_with_Biobased_Products.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 34 |
+| [The_AbilityOne_Program_Overview.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/The_AbilityOne_Program_Overview.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [Use_of_Data_Analytics_for_Effective_Program_Oversight.pdf](https://smartpay.gsa.gov/files/smartpay-training-forum/2024/Use_of_Data_Analytics_for_Effective_Program_Oversight.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 |
+| [User%20Guide%20-%20Business%20Travel%20and%20Relocation%20Dashboard.pdf](https://d2d.gsa.gov/system/files/User%20Guide%20-%20Business%20Travel%20and%20Relocation%20Dashboard.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 16 |
+| [User%20Guide%20-%20Federal%20Fleet%20Report%20Dashboard%20%28FFR%29%20FY2024_0.pdf](https://d2d.gsa.gov/system/files/document/document/User%20Guide%20-%20Federal%20Fleet%20Report%20Dashboard%20%28FFR%29%20FY2024_0.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [User%20Guide%20-%20Personal%20Property%20Dashboard_FY25.pdf](https://d2d.gsa.gov/system/files/document/document/User%20Guide%20-%20Personal%20Property%20Dashboard_FY25.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 |
+| [UserGuide.pdf](https://vltp.gsa.gov/pdf/UserGuide.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 23 |
+| [Value%20Insights.pdf](https://ussm.gsa.gov/assets/files/Marketplace%20Files/Value%20Insights.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [What-have-other-agencies-paid-for-a-similar-product-or-service-508.pdf](https://itvmo.gsa.gov/assets/files/tlr/What-have-other-agencies-paid-for-a-similar-product-or-service-508.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [What-is-the-OEM-and-vendor-spend-by-agency-508.pdf](https://itvmo.gsa.gov/assets/files/tlr/What-is-the-OEM-and-vendor-spend-by-agency-508.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [What-vendors-provide-cloud-based-services-that-are-FedRamp-certified-508.pdf](https://itvmo.gsa.gov/assets/files/tlr/What-vendors-provide-cloud-based-services-that-are-FedRamp-certified-508.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [XXXX-ssi-wage-reporting-abstract.pdf](https://oes.gsa.gov/assets/abstracts/XXXX-ssi-wage-reporting-abstract.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [agency-duplicate-contracts.pdf](https://itvmo.gsa.gov/assets/files/tlr/agency-duplicate-contracts.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [block-randomization.pdf](https://oes.gsa.gov/assets/files/block-randomization.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [calculating-standard-errors-guidance.pdf](https://oes.gsa.gov/assets/files/calculating-standard-errors-guidance.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [census-community-outreach-toolkit.pdf](https://oes.gsa.gov/assets/publications/census-community-outreach-toolkit.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 |
+| [dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products-0.pdf](https://cic.gsa.gov:443/static/documents/dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf](https://cic.gsa.gov/static/documents/dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [dod-cloud-soo-template-2016-0.pdf](https://cic.gsa.gov:443/static/documents/dod-cloud-soo-template-2016.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 |
+| [dod-cloud-soo-template-2016.pdf](https://cic.gsa.gov/static/documents/dod-cloud-soo-template-2016.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 |
+| [dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services-0.pdf](https://cic.gsa.gov:443/static/documents/dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf](https://cic.gsa.gov/static/documents/dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [doj-cloud-success-story-0.pdf](https://cic.gsa.gov/static/documents/doj-cloud-success-story.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [doj-cloud-success-story.pdf](https://cic.gsa.gov:443/static/documents/doj-cloud-success-story.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [eOffer_eMod-Multi-Factor-Authentication-User-Guide.pdf](https://eoffer.gsa.gov/eoffer_docs/eOffer_eMod-Multi-Factor-Authentication-User-Guide.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 34 |
+| [effect-size-evaluation-basics.pdf](https://oes.gsa.gov/assets/files/effect-size-evaluation-basics.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [evaluationpolicy.pdf](https://oes.gsa.gov/assets/files/evaluationpolicy.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [evidence-reviews-to-support-evidence-based-policymaking.pdf](https://oes.gsa.gov/assets/files/evidence-reviews-to-support-evidence-based-policymaking.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [evidence_act_overview.pdf](https://oes.gsa.gov/assets/toolkits/evidence_act_overview.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ewg-case-study.pdf](https://oes.gsa.gov/assets/files/ewg-case-study.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [ewg-planning-materials.pdf](https://oes.gsa.gov/assets/files/ewg-planning-materials.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 |
+| [fleet-account-helpful-hints.pdf](https://smartpay.gsa.gov/files/fleet-account-helpful-hints.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [fy-2023-itvmo-annual-assessment.pdf](https://itvmo.gsa.gov/assets/files/fy-2023-itvmo-annual-assessment.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 26 |
+| [fy-2024-itvmo-annual-assessment.pdf](https://itvmo.gsa.gov/assets/files/fy-2024-itvmo-annual-assessment.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 27 |
+| [gsa-cio-cloud-success-story-0.pdf](https://cic.gsa.gov/static/documents/gsa-cio-cloud-success-story.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [gsa-cio-cloud-success-story.pdf](https://cic.gsa.gov:443/static/documents/gsa-cio-cloud-success-story.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles-0.pdf](https://cic.gsa.gov:443/static/documents/gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 |
+| [gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf](https://cic.gsa.gov/static/documents/gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 |
+| [how-much-agency-bic-contracts.pdf](https://itvmo.gsa.gov/assets/files/tlr/how-much-agency-bic-contracts.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ipa-toolkit-oes.pdf](https://oes.gsa.gov/assets/files/ipa-toolkit-oes.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [key-cost-considerations-agencies-planning-cloud-migrations-0.pdf](https://cic.gsa.gov:443/static/documents/key-cost-considerations-agencies-planning-cloud-migrations.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 20 |
+| [key-cost-considerations-agencies-planning-cloud-migrations.pdf](https://cic.gsa.gov/static/documents/key-cost-considerations-agencies-planning-cloud-migrations.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 20 |
+| [leading-edge-tech-report-2022.pdf](https://itvmo.gsa.gov/assets/files/tlr/leading-edge-tech-report-2022.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 40 |
+| [leading-edge-tech-report-2023.pdf](https://itvmo.gsa.gov/assets/files/tlr/leading-edge-tech-report-2023.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 41 |
+| [lmi-boc-customer-presentation-gsa-0.pdf](https://cic.gsa.gov:443/static/documents/lmi-boc-customer-presentation-gsa.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [lmi-boc-customer-presentation-gsa.pdf](https://cic.gsa.gov/static/documents/lmi-boc-customer-presentation-gsa.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [managing-gsa-smartpay-purchase.pdf](https://smartpay.gsa.gov/files/managing-gsa-smartpay-purchase.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 52 |
+| [multiple-comparison-adjustment.pdf](https://oes.gsa.gov/assets/files/multiple-comparison-adjustment.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [my-form.pdf](https://handbook.tts.gsa.gov/assets/downloads/my-form.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [oes-health-communications.pdf](https://oes.gsa.gov/assets/files/oes-health-communications.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [percent-product-services-small-business.pdf](https://itvmo.gsa.gov/assets/files/tlr/percent-product-services-small-business.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [preregistration-as-a-tool-in-federal-evaluation.pdf](https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [publications-fighting-fraud-with-knowledge.pdf](https://smartpay.gsa.gov/files/publications/publications-fighting-fraud-with-knowledge.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [publications-gsa-fedrooms-card-sleeve.pdf](https://smartpay.gsa.gov/files/publications/publications-gsa-fedrooms-card-sleeve.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [publications-guidance-for-emergency-situation.pdf](https://smartpay.gsa.gov/files/publications/publications-guidance-for-emergency-situation.pdf) | gsa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [publications-helpful-hints-for-fleet.pdf](https://smartpay.gsa.gov/files/publications/publications-helpful-hints-for-fleet.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [publications-helpful-hints-for-travel.pdf](https://smartpay.gsa.gov/files/publications/publications-helpful-hints-for-travel.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [publications-manage-your-smartpay-travel-program.pdf](https://smartpay.gsa.gov/files/publications/publications-manage-your-smartpay-travel-program.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [publications-purchase-account-helpful-hints.pdf](https://smartpay.gsa.gov/files/publications/publications-purchase-account-helpful-hints.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [publications-smartpay-strategic-payment-solution.pdf](https://smartpay.gsa.gov/files/publications/publications-smartpay-strategic-payment-solution.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [publications-smarttax-customer-guide.pdf](https://smartpay.gsa.gov/files/publications/publications-smarttax-customer-guide.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [publications-travel-card-troubleshooting-guide.pdf](https://smartpay.gsa.gov/files/publications/publications-travel-card-troubleshooting-guide.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [purchase-account-helpful-hints.pdf](https://smartpay.gsa.gov/files/purchase-account-helpful-hints.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [reporting-statistical-results.pdf](https://oes.gsa.gov/assets/files/reporting-statistical-results.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [shared-services-performance-management-framework-for-website-download.pdf](https://ussm.gsa.gov/assets/files/shared-services-performance-management-framework-for-website-download.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [shared-services-update-june-2024.pdf](https://ussm.gsa.gov/assets/files/shared-services-update-june-2024.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 30 |
+| [spouse-to-own-intervention-pack.pdf](https://oes.gsa.gov/assets/interventions/spouse-to-own-intervention-pack.pdf) | gsa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [travel-account-helpful-hints.pdf](https://smartpay.gsa.gov/files/travel-account-helpful-hints.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [unexpected-results-2-pager.pdf](https://oes.gsa.gov/assets/files/unexpected-results-2-pager.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [what-products-bic-solutions.pdf](https://itvmo.gsa.gov/assets/files/tlr/what-products-bic-solutions.pdf) | gsa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
 
 ## Files with Errors or Notes
 
@@ -1529,3 +1866,2097 @@ Generated: 2026-03-09T22:14:50.984587+00:00
 - **URL**: https://canada.ca/zika-virus-what-men-need-know.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### 1502-Servicemember-Roth-TSP-Re-Enrollment.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1502-Servicemember-Roth-TSP-Re-Enrollment.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1506-On-Base-Servicemember-TSP-Enrollment.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1506-On-Base-Servicemember-TSP-Enrollment.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1507-Servicemember-TSP-Enrollment.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1507-Servicemember-TSP-Enrollment.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1508-Microloans-for-Farmers.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1508-Microloans-for-Farmers.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1508-publication-bowers-higgins-replication-2017.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/1508-publication-bowers-higgins-replication-2017.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1510-Prescriber-Letters.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1510-Prescriber-Letters.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1510-medicare-letters-to-curb-overprescribing.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/1510-medicare-letters-to-curb-overprescribing.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1514-Industrial-Funding-Fee-Reports-update-dec2021.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1514-Industrial-Funding-Fee-Reports-update-dec2021.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 15xx%20-%20Yokum%20et%20al%20(2018)%20-%20Letters%20designed%20with%20behavioural%20science%20increase%20influenza%20vaccination%20in%20Medicare%20beneficiaries.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/15xx%20-%20Yokum%20et%20al%20(2018)%20-%20Letters%20designed%20with%20behavioural%20science%20increase%20influenza%20vaccination%20in%20Medicare%20beneficiaries.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### 15xx-Medicare-Flu-Vaccine-Intervention-Pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/15xx-Medicare-Flu-Vaccine-Intervention-Pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 15xx-medicare-flu-vaccine-uptake-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/15xx-medicare-flu-vaccine-uptake-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1601-Military-Retiree-myPay-Reactivation.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1601-Military-Retiree-myPay-Reactivation.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1605-Defaulted-Student-Loan-Borrowers.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1605-Defaulted-Student-Loan-Borrowers.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1606-1-Community-Action-Deck.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1606-1-Community-Action-Deck.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 1606-2-Community-Action-Deck-Card-Template.pptx
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1606-2-Community-Action-Deck-Card-Template.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### 1614-SBA-Learning-Center.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1614-SBA-Learning-Center.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1615-Financial-Aid-for-HUD-Assisted-Youth.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1615-Financial-Aid-for-HUD-Assisted-Youth.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1618-On-Base-Active-Choice-for-TSP.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1618-On-Base-Active-Choice-for-TSP.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1619-reentry-handbook.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1619-reentry-handbook.pdf
+- **Status**: analysed
+- lang, 
+
+### 1620-1_DHA%20Secure-messaging.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1620-1_DHA%20Secure-messaging.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 16xx-anchoring-tsp-enrollment.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/16xx-anchoring-tsp-enrollment.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1701-microloans-women-owned-farms.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1701-microloans-women-owned-farms.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1703-prompting-tsp.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1703-prompting-tsp.pdf
+- **Status**: analysed
+- title, 
+
+### 1709%20-%20jamapsychiatry_sacarny_2018_oi_180047.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/1709%20-%20jamapsychiatry_sacarny_2018_oi_180047.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1709-Quetiapine-Prescribing.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1709-Quetiapine-Prescribing.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1722%20-%20USAID%20Ethiopia%20Anteneh%20et%20al%20AEL%202020.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/1722%20-%20USAID%20Ethiopia%20Anteneh%20et%20al%20AEL%202020.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1723%20-%20Hemmeter%20et%20al%20(2021)%20-%20Communicating%20Program%20Eligibility%20A%20Supplemental%20Security%20Income%20(SSI)%20Field%20Experiment.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/1723%20-%20Hemmeter%20et%20al%20(2021)%20-%20Communicating%20Program%20Eligibility%20A%20Supplemental%20Security%20Income%20(SSI)%20Field%20Experiment.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 1723-Increasing-SSI-Uptake-0.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1723-Increasing-SSI-Uptake.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1723-Increasing-SSI-Uptake.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1723-Increasing-SSI-Uptake.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1723-intervention-pack-ssi-65plus.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1723-intervention-pack-ssi-65plus.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1723.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/1723.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### 1724-increasing-tsp-enrollment-usps.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1724-increasing-tsp-enrollment-usps.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1724-project-abstract-TSP-enrollment-USPS.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1724-project-abstract-TSP-enrollment-USPS.pdf
+- **Status**: analysed
+- title, 
+
+### 1725-concurrent-prescriptions.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1725-concurrent-prescriptions.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1725-concurrent-rx-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1725-concurrent-rx-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1729-1-intervention-pack-provider-encouragement.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1729-1-intervention-pack-provider-encouragement.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1729-1-patient-generated-health-data-provider-encouragement.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1729-1-patient-generated-health-data-provider-encouragement.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1729-2-intervention-pack-patient-reminder.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1729-2-intervention-pack-patient-reminder.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1729-2-patient-generated-health-data-patient-reminders.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1729-2-patient-generated-health-data-patient-reminders.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1729-increasing-patient-use-of-electronic-health-records.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1729-increasing-patient-use-of-electronic-health-records.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1729-publication-electronic-blood-glucose-monitoring-impacts-on-provider-and-patient-behavior.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/1729-publication-electronic-blood-glucose-monitoring-impacts-on-provider-and-patient-behavior.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1735-Duke-Maternal-Flu-Immunizations-Intervention-Pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1735-Duke-Maternal-Flu-Immunizations-Intervention-Pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1735-duke-maternal-flu-shots.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1735-duke-maternal-flu-shots.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1735-flu-shot-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1735-flu-shot-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1736-NVPO-ads-Intervention-pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1736-NVPO-ads-Intervention-pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1736-pregnancy-vaccines-ads-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1736-pregnancy-vaccines-ads-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1736-testing-maternal-immunization-messages-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1736-testing-maternal-immunization-messages-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1737-Immunization-compliance-in-schools-Intervention-pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1737-Immunization-compliance-in-schools-Intervention-pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1737-academic-publication-immunization-report-cards-2019.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/1737-academic-publication-immunization-report-cards-2019.pdf
+- **Status**: analysed
+- title, 
+
+### 1737-vaccine-report-cards-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1737-vaccine-report-cards-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1737-vaccine-report-cards.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1737-vaccine-report-cards.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1738-Louisiana-DoH-postcards-intervention-pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1738-Louisiana-DoH-postcards-intervention-pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1738-encouraging-vaccine-uptake-for-seniors.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1738-encouraging-vaccine-uptake-for-seniors.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1738-increasing-vaccine-uptake.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1738-increasing-vaccine-uptake.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1738-publication-postcards-increasing-vaccination-rates-among-elderly.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/1738-publication-postcards-increasing-vaccination-rates-among-elderly.pdf
+- **Status**: analysed
+- title, 
+
+### 1740-St-Cloud-VA-Intervention-Pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1740-St-Cloud-VA-Intervention-Pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1740-flu-shots-va-st-cloud-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1740-flu-shots-va-st-cloud-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1740-flu-shots-va-st-cloud.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1740-flu-shots-va-st-cloud.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1743-VA-NY-Harbor-Intervention-Pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1743-VA-NY-Harbor-Intervention-Pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1743-flu-shots-va-new-york-harbor-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1743-flu-shots-va-new-york-harbor-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1743-flu-shots-va-new-york-harbor.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1743-flu-shots-va-new-york-harbor.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1801-USAGov-survey-analysis-plan-updated.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1801-USAGov-survey-analysis-plan-updated.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1801_USAGov_survey_abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1801_USAGov_survey_abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1803-Atlanta-VA-Intervention-Pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1803-Atlanta-VA-Intervention-Pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1803-increasing-adult-vaccines-atlanta-va-analysis-plan-041719.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1803-increasing-adult-vaccines-atlanta-va-analysis-plan-041719.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1803-vaccine-uptake-atlanta-va-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1803-vaccine-uptake-atlanta-va-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1804-VA-opioid-buyback-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1804-VA-opioid-buyback-abstract.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### 1804-VA-opioid-buyback-intervention-pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1804-VA-opioid-buyback-intervention-pack.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1804-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1804-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1810-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1810-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1810-gi-bill-proactive-communication.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1810-gi-bill-proactive-communication.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1812%20-%20DORN%20VA%20postcard%20reminder%20-%20Intervention%20Pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1812%20-%20DORN%20VA%20postcard%20reminder%20-%20Intervention%20Pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1903-MT-wildfire-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1903-MT-wildfire-abstract.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1903-analysis-plan-MT-wildfire.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1903-analysis-plan-MT-wildfire.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1903-intervention-pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/1903-intervention-pack.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1904-increasing-vaccines-through-performance-feedback.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/1904-increasing-vaccines-through-performance-feedback.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 1904-project-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/1904-project-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2002-3-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2002-3-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2002-CMS-intervention-pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/2002-CMS-intervention-pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2002-CMS-reducing-nappropriate-co-prescribing-behaviors-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2002-CMS-reducing-nappropriate-co-prescribing-behaviors-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2003_San_Diego_SBRF_Analysis_Plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2003_San_Diego_SBRF_Analysis_Plan.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2103-HEERF-eval-design-report.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2103-HEERF-eval-design-report.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2106%20-%20Equity%20Documentation%20-%203%20-%20Analysis%20Plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2106%20-%20Equity%20Documentation%20-%203%20-%20Analysis%20Plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2106-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2106-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2112D-SLFRF-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2112D-SLFRF-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2112DEF-intervention-pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/2112DEF-intervention-pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2112E-3-Analysis-Plan-SLFRF.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2112E-3-Analysis-Plan-SLFRF.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2112E-SLFRF-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2112E-SLFRF-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2112F-SLFRF-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2112F-SLFRF-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2112G-3-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2112G-3-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2112G-SLFRF-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2112G-SLFRF-abstract.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2113B-era-descriptive-study-of-equity-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2113B-era-descriptive-study-of-equity-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2113B-technical-appendix.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2113B-technical-appendix.pdf
+- **Status**: analysed
+- no date found, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2120-health-misinformation-toolkit.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/2120-health-misinformation-toolkit.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### 2205-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2205-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2206-HAF-Pilot.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2206-HAF-Pilot.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2206-increasing-applications-to-the-homeowner-assistance-fund-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2206-increasing-applications-to-the-homeowner-assistance-fund-abstract.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2209B-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2209B-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2209a-decreasing-opt-out-mn-intervention-pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/2209a-decreasing-opt-out-mn-intervention-pack.pdf
+- **Status**: analysed
+- tagged, 
+
+### 2301-era-grantee-flexibilities-va-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2301-era-grantee-flexibilities-va-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2302-ARP-ACA-analysis.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2302-ARP-ACA-analysis.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2302-aca-meta-analysis-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2302-aca-meta-analysis-abstract.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2302.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/2302.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2305-era-grantee-flexibilities-ky-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2305-era-grantee-flexibilities-ky-analysis-plan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2305-streamlining-income-verification-to-broaden-access-to-rental-assistance.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2305-streamlining-income-verification-to-broaden-access-to-rental-assistance.pdf
+- **Status**: analysed
+- tagged, 
+
+### 2305-streamlining-income-verification_technical-appendix.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/2305-streamlining-income-verification_technical-appendix.pdf
+- **Status**: analysed
+- tagged, 
+
+### 2306-decreasing-homelessness-with-cash-transfers-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2306-decreasing-homelessness-with-cash-transfers-analysis-plan.pdf
+- **Status**: analysed
+- no date found, 
+
+### 2349_GPSSIT_CloudAcquisitions.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/2349_GPSSIT_CloudAcquisitions.pdf
+- **Status**: analysed
+- title, 
+
+### 2349_GPSSIT_CloudAcquisitions_b.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/2349_GPSSIT_CloudAcquisitions_b.pdf
+- **Status**: analysed
+- title, 
+
+### 2502-analysis-plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/2502-analysis-plan.pdf
+- **Status**: analysed
+- no date found, 
+
+### 508-final-governance.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/508-final-governance.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 508-final-version-mission-support.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/508-final-version-mission-support.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### A-Guide-to-Finding-New-Entrants-in-the-Federal-Marketplace.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/A-Guide-to-Finding-New-Entrants-in-the-Federal-Marketplace.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### A-Guide-to-Finding-Security-Related-Obligations.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/tlr/A-Guide-to-Finding-Security-Related-Obligations.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### AIServiceCatalog.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/AIServiceCatalog.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### A_Guide_to_Developing_Your_Agency's_Annual_Evaluation_Plan_updated.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/A_Guide_to_Developing_Your_Agency's_Annual_Evaluation_Plan_updated.pdf
+- **Status**: analysed
+- title, 
+
+### A_Guide_to_Developing_Your_Agency's_Learning_Agenda_updated.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/A_Guide_to_Developing_Your_Agency's_Learning_Agenda_updated.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/Abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Activity_2_Supplemental_Download_updated.xlsx
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Activity_2_Supplemental_Download_updated.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Activity_3_Supplemental_Download_updated.pptx
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Activity_3_Supplemental_Download_updated.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Affordable_Housing_Journey_Presentation_Deck.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Affordable_Housing_Journey_Presentation_Deck.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### AgencyName_ReportingTemplate_OMB_A123_Year.xlsx
+
+- **URL**: https://smartpay.gsa.gov/files/AgencyName_ReportingTemplate_OMB_A123_Year.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### AnalysisPlan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/AnalysisPlan.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Annual_Evaluation_Plan_Overview_updated.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Annual_Evaluation_Plan_Overview_updated.pdf
+- **Status**: analysed
+- title, 
+
+### Annual_Evaluation_Plan_Workbook_updated.docx
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Annual_Evaluation_Plan_Workbook_updated.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### AttachmentA_PWS.docx
+
+- **URL**: https://coe.gsa.gov/docs/CloudMigration/AttachmentA_PWS.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### AttachmentC_QASP.docx
+
+- **URL**: https://coe.gsa.gov/docs/CloudMigration/AttachmentC_QASP.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Azure-billing-data-6-month-reporting-template.xlsx
+
+- **URL**: https://itvmo.gsa.gov/assets/files/Azure-billing-data-6-month-reporting-template.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### CAServiceCatalog.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/CAServiceCatalog.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CCServiceCatalog.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/CCServiceCatalog.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CXServiceCatalog.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/CXServiceCatalog.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Capacity_Assessment_Overview.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Capacity_Assessment_Overview.pdf
+- **Status**: analysed
+- title, 
+
+### Capacity_Assessment_Tips_updated2.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Capacity_Assessment_Tips_updated2.pdf
+- **Status**: analysed
+- title, 
+
+### Cloud%20Adoption%20Playbook-Sept2020.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/Cloud%20Adoption%20Playbook-Sept2020.pdf
+- **Status**: analysed
+- title, 
+
+### CoE%20Agency%202%20Release%20FINAL.pdf
+
+- **URL**: https://coe.gsa.gov/docs/CoE%20Agency%202%20Release%20FINAL.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### CoE%20Innovation%20Adoption%20Service%20Catalog%202021.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/CoE%20Innovation%20Adoption%20Service%20Catalog%202021.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### CoE%20Innovation%20Adoption%20Services%20Pitch.pdf
+
+- **URL**: https://coe.gsa.gov/docs/CoE%20Innovation%20Adoption%20Services%20Pitch.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Coast-Guard-FinOps-Case-Study.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/Coast-Guard-FinOps-Case-Study.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Contact%20Center%20Playbook%20October%202020.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/Contact%20Center%20Playbook%20October%202020.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### CulturePreAssessmentGuide.pdf
+
+- **URL**: https://coe.gsa.gov/docs/CulturePreAssessmentGuide.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Customer%20Experience%20Playbook-Nov%202020.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/Customer%20Experience%20Playbook-Nov%202020.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### Cybersecurity%20Operational%20Capabilities.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/its/its_2025/Cybersecurity%20Operational%20Capabilities.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Cybersecurity_1.pdf
+
+- **URL**: https://digitalcorps.gsa.gov/pdfs/Cybersecurity_1.pdf
+- **Status**: analysed
+- no date found, title, tagged, 
+
+### DA-CoE-Data-Governance-Advisory-Group-(DGAG)-Charter-Template.docx
+
+- **URL**: https://coe.gsa.gov/docs/DA-CoE-Data-Governance-Advisory-Group-(DGAG)-Charter-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### DA-CoE-Data-Governance-Steering-Committee-(DGSC)-Charter-Template.docx
+
+- **URL**: https://coe.gsa.gov/docs/DA-CoE-Data-Governance-Steering-Committee-(DGSC)-Charter-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### DA-CoE-Office-of-the-Chief-Data-Officer-(OCDO)-Charter-Template.docx
+
+- **URL**: https://coe.gsa.gov/docs/DA-CoE-Office-of-the-Chief-Data-Officer-(OCDO)-Charter-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### DAServiceCatalog.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/DAServiceCatalog.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### DAServiceCatalogNovember19.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2019/DAServiceCatalogNovember19.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### DAStrategy.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/DAStrategy.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Dallas%20SBCF%20Analysis%20Plan.pdf
+
+- **URL**: https://oes.gsa.gov/assets/analysis/Dallas%20SBCF%20Analysis%20Plan.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Data%20Playbook-August2020.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/Data%20Playbook-August2020.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Data%20Playbook-October2020.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/Data%20Playbook-October2020.pdf
+- **Status**: analysed
+- title, 
+
+### Direct-Farm-Loans-Journey-Map.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Direct-Farm-Loans-Journey-Map.pdf
+- **Status**: analysed
+- title, 
+
+### EEO%20FIBF%20Service%20Measures%20v1.1_2024.09.24.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/eeo/EEO%20FIBF%20Service%20Measures%20v1.1_2024.09.24.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### ETSNext_GSA%20Bulletin%2024-01%20Final%201.pdf
+
+- **URL**: https://buy.gsa.gov/interact/system/files/ETSNext_GSA%20Bulletin%2024-01%20Final%201.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Emerging-Tech-Contact-Center-White-Paper.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Emerging-Tech-Contact-Center-White-Paper.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Enabling_the_Journey_to_Affordable_Housing.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Enabling_the_Journey_to_Affordable_Housing.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Engaging_SubAgencies_Bureaus.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Engaging_SubAgencies_Bureaus.pdf
+- **Status**: analysed
+- title, 
+
+### Evaluation_Planning_Tips_updated.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Evaluation_Planning_Tips_updated.pdf
+- **Status**: analysed
+- title, 
+
+### FAQ-Contractors-SBactions.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/FAQ-Contractors-SBactions.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### FAQ-ITBICs-SBactions.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/FAQ-ITBICs-SBactions.pdf
+- **Status**: analysed
+- title, 
+
+### FY25%20PPRT%20NFRD%20Report%20-%202.25.26%20-%20Public.xlsx
+
+- **URL**: https://d2d.gsa.gov/system/files/dataset/document/FY25%20PPRT%20NFRD%20Report%20-%202.25.26%20-%20Public.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Farm-Loans-Final-Report-Briefing.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Farm-Loans-Final-Report-Briefing.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### FinOps-Assessment.xlsx
+
+- **URL**: https://itvmo.gsa.gov/assets/files/FinOps-Assessment.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### FinOps-Case-Study-Army-Camo.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/FinOps-Case-Study-Army-Camo.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FinOps-Forecast-Planner.xlsx
+
+- **URL**: https://itvmo.gsa.gov/assets/files/FinOps-Forecast-Planner.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### FinOps-Optimization-Through-Discounts.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/FinOps-Optimization-Through-Discounts.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Findings-Volume-1-Farm-Loans-Final-Report.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Findings-Volume-1-Farm-Loans-Final-Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### GSA001_Advanced_Concepts_in_Purchase_Card_Management.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA001_Advanced_Concepts_in_Purchase_Card_Management.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA002_GSA_SmartPay_3_Master_Contract_Basics.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA002_GSA_SmartPay_3_Master_Contract_Basics.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA003_GSA_SmartPay_Fleet_Management_Essentials.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA003_GSA_SmartPay_Fleet_Management_Essentials.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA004_GSA_SmartPay_Online_Tools.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA004_GSA_SmartPay_Online_Tools.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA005_GSA_SmartPay_Program_Update.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA005_GSA_SmartPay_Program_Update.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA006_GSA_SmartPay_Purchase_Management_Essentials.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA006_GSA_SmartPay_Purchase_Management_Essentials.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA007_GSA_SmartPay_Travel_Management_Essentials.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA007_GSA_SmartPay_Travel_Management_Essentials.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA008_GSA_SmartTax_Lessons_Learned_for_State_Sales_Tax.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA008_GSA_SmartTax_Lessons_Learned_for_State_Sales_Tax.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA009_Innovation_in_Payments.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA009_Innovation_in_Payments.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA010_Use_of_Data_Analytics_for_Effective_Program_Oversight.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA010_Use_of_Data_Analytics_for_Effective_Program_Oversight.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA011_The_AbilityOne_Program_Overview.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA011_The_AbilityOne_Program_Overview.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA012_Sustainable_Purchasing_with_Biobased_Products.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA012_Sustainable_Purchasing_with_Biobased_Products.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA014_OS4_Purchasing_Channel.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA014_OS4_Purchasing_Channel.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA016_FedMall_Overview.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA016_FedMall_Overview.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA017_GSA_Advantage_The_Basics.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA017_GSA_Advantage_The_Basics.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA019_Federal_Travel_and_Ethics.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA019_Federal_Travel_and_Ethics.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA020_Making_Informed_Cost_Saving_Travel_Decisions_and_SmartPay_Essentials.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA020_Making_Informed_Cost_Saving_Travel_Decisions_and_SmartPay_Essentials.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA021_GSA_Fleet_Card_Program.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA021_GSA_Fleet_Card_Program.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA022_GSA_Fleet_Offerings.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA022_GSA_Fleet_Offerings.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA023_Buy.gsa.gov.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA023_Buy.gsa.gov.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA024_DoD_Travel_Card_Program_Update.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA024_DoD_Travel_Card_Program_Update.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA025_DoD_GPC_Electronic_Systems_Update.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA025_DoD_GPC_Electronic_Systems_Update.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA027_Governmentwide_Commercial_Purchase_Card_Policies_and_Directives.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA027_Governmentwide_Commercial_Purchase_Card_Policies_and_Directives.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA028_Getting_the_Most_Out_of_GSA_eBuy_and_eBuy_Open.pptx
+
+- **URL**: https://smartpay.gsa.gov/files/GSA028_Getting_the_Most_Out_of_GSA_eBuy_and_eBuy_Open.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### GSA_SP3_Master_Contract.pdf
+
+- **URL**: https://smartpay.gsa.gov/files/GSA_SP3_Master_Contract.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### GSA_TCC_SANAT_EIS_Transition_Plan_v5-1.pdf
+
+- **URL**: https://www.gsa.gov/system/files/GSA_TCC_SANAT_EIS_Transition_Plan_v5-1.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### GovwideITCM_ITVMO_Small%20Business%20Addressable%20Market%20Assessments_Cyber.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/GovwideITCM_ITVMO_Small%20Business%20Addressable%20Market%20Assessments_Cyber.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### GovwideITCM_ITVMO_Small%20Business%20Addressable%20Market%20Assessments_Low%20Code.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/GovwideITCM_ITVMO_Small%20Business%20Addressable%20Market%20Assessments_Low%20Code.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Grants%20QSMO%20Agency%20Acquisition%20Guide%204.14.2025.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/Marketplace%20Files/Grants%20QSMO%20Agency%20Acquisition%20Guide%204.14.2025.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Grants%20QSMO%20Industry%20Day%20Slides%202024%20vFinal.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/Marketplace%20Files/Grants%20QSMO%20Industry%20Day%20Slides%202024%20vFinal.pdf
+- **Status**: analysed
+- title, 
+
+### Guidance-on-Using-Multinomial-Tests-for-Differences-in-Distribution.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/Guidance-on-Using-Multinomial-Tests-for-Differences-in-Distribution.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### HUD-Layers.pdf
+
+- **URL**: https://coe.gsa.gov/docs/HUD-Layers.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### How%20might%20HUD%20w.%20solutions_10.30.pdf
+
+- **URL**: https://coe.gsa.gov/docs/How%20might%20HUD%20w.%20solutions_10.30.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### IOServiceCatalog.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/IOServiceCatalog.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### IT-Modernization-Centers-of-Excellence-Case-Study.pdf
+
+- **URL**: https://coe.gsa.gov/docs/IT-Modernization-Centers-of-Excellence-Case-Study.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### ITS%20Operational%20Capabilities.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/its/its_2025/ITS%20Operational%20Capabilities.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Infrastructure%20Optimization%20Playbook%20Sept%202020.pdf
+
+- **URL**: https://coe.gsa.gov/docs/2020/Infrastructure%20Optimization%20Playbook%20Sept%202020.pdf
+- **Status**: analysed
+- title, 
+
+### Initial-Draft-QSMO-Funding-Playbook-Deliverable_Draft.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/Initial-Draft-QSMO-Funding-Playbook-Deliverable_Draft.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Insights%20and%20Recommendation%20Report_Final_10.30.19.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Insights%20and%20Recommendation%20Report_Final_10.30.19.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Investment-Planning-Guidance-March%202021.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/Investment-Planning-Guidance-March%202021.pdf
+- **Status**: analysed
+- title, 
+
+### Investment_Intake%20Form_GrantsQSMO.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/Marketplace%20Files/Investment_Intake%20Form_GrantsQSMO.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Journey_to_Affordable_Housing_for_Seniors.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Journey_to_Affordable_Housing_for_Seniors.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Learning_Agenda_Overview_updated.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Learning_Agenda_Overview_updated.pdf
+- **Status**: analysed
+- title, 
+
+### Learning_Agenda_Workbook_updated.docx
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Learning_Agenda_Workbook_updated.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M-19-23.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/M-19-23.pdf
+- **Status**: analysed
+- tagged, no bookmarks and more than 20 pages, 
+
+### M-20-12.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/M-20-12.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### M3%20Playbook%20Orientation%20(Self%20Guided)%203.24.23.pptx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3%20Playbook%20Orientation%20(Self%20Guided)%203.24.23.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Document-and-Example-Tracker.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Document-and-Example-Tracker.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-As-Is-System-Environment-Template.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-As-Is-System-Environment-Template.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Baseline-and-Target-Performance-Success-Metrics.pptx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Baseline-and-Target-Performance-Success-Metrics.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Business-Needs-Workbook-2021.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Business-Needs-Workbook-2021.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Business-Readiness-Assessment-Template.pptx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Business-Readiness-Assessment-Template.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Change-Management-Plan-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Change-Management-Plan-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Change-Request-Form-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Change-Request-Form-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Communications-Plan-Template.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Communications-Plan-Template.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Configuration-Management-Plan-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Configuration-Management-Plan-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Data-Conversion-Plan-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Data-Conversion-Plan-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Governance-Plan-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Governance-Plan-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Investment-Readiness-Checklist.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Investment-Readiness-Checklist.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Lessons-Learned-Report-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Lessons-Learned-Report-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Master-Schedule-Template.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Master-Schedule-Template.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Provider-Assessment-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Provider-Assessment-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-RAID-Log-Template.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-RAID-Log-Template.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Requirements-Management-Plan-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Requirements-Management-Plan-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Requirements-Traceability-Matrix-Template.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Requirements-Traceability-Matrix-Template.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Resource-Management-Plan-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Resource-Management-Plan-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Risk-Management-Plan-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Risk-Management-Plan-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Stakeholder-Analysis-Template.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Stakeholder-Analysis-Template.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Status-Report-Dashboard-Template.pptx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Status-Report-Dashboard-Template.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Target-State-CONOPS-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Target-State-CONOPS-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Test-Plan-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Test-Plan-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook-Training-Plan-Template.docx
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook-Training-Plan-Template.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### M3-Playbook.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-Playbook.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### M3-QuickStartGuide.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/M3-QuickStartGuide.pdf
+- **Status**: analysed
+- title, 
+
+### MFA-User-Guide.pdf
+
+- **URL**: https://mcm.fas.gsa.gov/cmservlet/PDF/MFA/MFA-User-Guide.pdf
+- **Status**: analysed
+- title, 
+
+### Mail%20Operations%20Management%20Business%20Capabilities.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/mom/Mail%20Operations%20Management%20Business%20Capabilities.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Mail%20Operations%20Management%20Business%20Lifecycle.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/mom/Mail%20Operations%20Management%20Business%20Lifecycle.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Marketplace%20Capabilities%20Framework_Deliverable.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/Marketplace%20Capabilities%20Framework_Deliverable.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Methodology-Volume-2-Farm-Loans-Final-Report.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Methodology-Volume-2-Farm-Loans-Final-Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### OES%20Learnings%20on%20Writing%20Better%20Communications%202018.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/OES%20Learnings%20on%20Writing%20Better%20Communications%202018.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### OES-Using-Behavioral-Science-to-Increase-COVID-19-Vaccination-Uptake.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/OES-Using-Behavioral-Science-to-Increase-COVID-19-Vaccination-Uptake.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### OES-Vaccination-Portfolio-Intervention-Packs.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/OES-Vaccination-Portfolio-Intervention-Packs.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### OPM-FinOps-Case-Study.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/OPM-FinOps-Case-Study.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### OneGov%20IT%20Limited-Time%20Offer%20Products%20and%20Sku%20Information.xlsx
+
+- **URL**: https://itvmo.gsa.gov/assets/files/OneGov%20IT%20Limited-Time%20Offer%20Products%20and%20Sku%20Information.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### PLAW-115publ435.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/PLAW-115publ435.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### PMA%20Placemat.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/PMA%20Placemat.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Personas.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Personas.pdf
+- **Status**: analysed
+- title, 
+
+### Phase%201%20Progress%20Review.pptx
+
+- **URL**: https://ussm.gsa.gov/assets/files/Phase%201%20Progress%20Review.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Phase%202%20Progress%20Review.pptx
+
+- **URL**: https://ussm.gsa.gov/assets/files/Phase%202%20Progress%20Review.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Phase%203%20Progress%20Review.pptx
+
+- **URL**: https://ussm.gsa.gov/assets/files/Phase%203%20Progress%20Review.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Phase%204%20Progress%20Review.pptx
+
+- **URL**: https://ussm.gsa.gov/assets/files/Phase%204%20Progress%20Review.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### ProjectDesign.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/ProjectDesign.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### ProjectInitiation.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/ProjectInitiation.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Published_SEWP_VI_Draft_QA.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/Published_SEWP_VI_Draft_QA.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Published_SEWP_VI_Draft_QA.xlsx
+
+- **URL**: https://itvmo.gsa.gov/assets/files/Published_SEWP_VI_Draft_QA.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### QSMO-Long-term-Designation-Criteria.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/QSMO-Long-term-Designation-Criteria.pdf
+- **Status**: analysed
+- title, 
+
+### Quick_Reference_Sheet_updated.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Quick_Reference_Sheet_updated.pdf
+- **Status**: analysed
+- title, 
+
+### RecordAnalysis.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/RecordAnalysis.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### RecordReanalysis.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/RecordReanalysis.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Resources-for-Quasi-Experimental-Designs.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/Resources-for-Quasi-Experimental-Designs.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### SQS-Public-FAQs-April-2020.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/SQS-Public-FAQs-April-2020.pdf
+- **Status**: analysed
+- title, lang, 
+
+### SSRN-id3967610%20(1).pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/SSRN-id3967610%20(1).pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### SampleIGCE.xlsx
+
+- **URL**: https://coe.gsa.gov/docs/CloudMigration/SampleIGCE.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### SampleRFQ.docx
+
+- **URL**: https://coe.gsa.gov/docs/CloudMigration/SampleRFQ.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Sample_Evaluation_Description_updated.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Sample_Evaluation_Description_updated.pdf
+- **Status**: analysed
+- title, 
+
+### Sample_Learning_Agenda_Section_updated.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/Sample_Learning_Agenda_Section_updated.pdf
+- **Status**: analysed
+- title, 
+
+### Sample_USDC_7600A.pdf
+
+- **URL**: https://digitalcorps.gsa.gov/pdfs/Sample_USDC_7600A.pdf
+- **Status**: analysed
+- title, lang, xfa, 
+
+### Sample_USDC_7600B.pdf
+
+- **URL**: https://digitalcorps.gsa.gov/pdfs/Sample_USDC_7600B.pdf
+- **Status**: analysed
+- title, lang, xfa, 
+
+### Sample_USDC_Statement_of_Work_(SOW).doc
+
+- **URL**: https://digitalcorps.gsa.gov/pdfs/Sample_USDC_Statement_of_Work_(SOW).doc
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Services-Tailoring-Guide.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/Services-Tailoring-Guide.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Slides-for-November-6-2024-Low-Earth-Orbit-with-Enterprise-Infrastructure-Solutions-CLP-Class-508-Reviewed-1.pptx
+
+- **URL**: https://gsablogs.gsa.gov/technology/files/2024/11/Slides-for-November-6-2024-Low-Earth-Orbit-with-Enterprise-Infrastructure-Solutions-CLP-Class-508-Reviewed-1.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Sprint-2-FinOps-Cloud-Acquisition-Quick-Reference-Guide.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/Sprint-2-FinOps-Cloud-Acquisition-Quick-Reference-Guide.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Stories-Volume-3-Farm-Loans-Final-Report.pdf
+
+- **URL**: https://coe.gsa.gov/docs/Stories-Volume-3-Farm-Loans-Final-Report.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Travel%20and%20Expense%20Management%20Business%20Capabilities.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/Travel_2024/Excel/Travel%20and%20Expense%20Management%20Business%20Capabilities.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Travel%20and%20Expense%20Management%20Business%20Information%20Exchange%20(BIE).xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/Travel_2024/Excel/Travel%20and%20Expense%20Management%20Business%20Information%20Exchange%20(BIE).xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Travel%20and%20Expense%20Management%20Business%20Lifecycle.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/Travel_2024/Excel/Travel%20and%20Expense%20Management%20Business%20Lifecycle.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### Travel%20and%20Expense%20Management%20Service%20Measures.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/Travel_2024/Excel/Travel%20and%20Expense%20Management%20Service%20Measures.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### User%20Guide%20-%20Business%20Travel%20and%20Relocation%20Dashboard.pdf
+
+- **URL**: https://d2d.gsa.gov/system/files/User%20Guide%20-%20Business%20Travel%20and%20Relocation%20Dashboard.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### User%20Guide%20-%20Federal%20Fleet%20Report%20Dashboard%20%28FFR%29%20FY2024_0.pdf
+
+- **URL**: https://d2d.gsa.gov/system/files/document/document/User%20Guide%20-%20Federal%20Fleet%20Report%20Dashboard%20%28FFR%29%20FY2024_0.pdf
+- **Status**: analysed
+- title, 
+
+### User%20Guide%20-%20Personal%20Property%20Dashboard_FY25.pdf
+
+- **URL**: https://d2d.gsa.gov/system/files/document/document/User%20Guide%20-%20Personal%20Property%20Dashboard_FY25.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### UserGuide.pdf
+
+- **URL**: https://vltp.gsa.gov/pdf/UserGuide.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### XXXX-ssi-wage-reporting-abstract.pdf
+
+- **URL**: https://oes.gsa.gov/assets/abstracts/XXXX-ssi-wage-reporting-abstract.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### acquiring-cloud-contracting-officers-and-attorneys-perspective-2019-07-22-0.pptx
+
+- **URL**: https://cic.gsa.gov:443/static/documents/acquiring-cloud-contracting-officers-and-attorneys-perspective-2019-07-22.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### acquiring-cloud-contracting-officers-and-attorneys-perspective-2019-07-22.pptx
+
+- **URL**: https://cic.gsa.gov/static/documents/acquiring-cloud-contracting-officers-and-attorneys-perspective-2019-07-22.pptx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### ao-approval-tracking-log.xlsx
+
+- **URL**: https://smartpay.gsa.gov/files/ao-approval-tracking-log.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### approval-response.docx
+
+- **URL**: https://smartpay.gsa.gov/files/approval-response.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### blanket-approval-authority.docx
+
+- **URL**: https://smartpay.gsa.gov/files/blanket-approval-authority.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### census-community-outreach-toolkit.pdf
+
+- **URL**: https://oes.gsa.gov/assets/publications/census-community-outreach-toolkit.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### cloud-migration-services-soo-template-1-3-0.docx
+
+- **URL**: https://cic.gsa.gov:443/static/documents/cloud-migration-services-soo-template-1-3.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### cloud-migration-services-soo-template-1-3.docx
+
+- **URL**: https://cic.gsa.gov/static/documents/cloud-migration-services-soo-template-1-3.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### cloud-migration-services-soo-template-phase-4-0.docx
+
+- **URL**: https://cic.gsa.gov:443/static/documents/cloud-migration-services-soo-template-phase-4.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### cloud-migration-services-soo-template-phase-4.docx
+
+- **URL**: https://cic.gsa.gov/static/documents/cloud-migration-services-soo-template-phase-4.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### cloud-migration-services-soo-template-phase-5-0.docx
+
+- **URL**: https://cic.gsa.gov/static/documents/cloud-migration-services-soo-template-phase-5.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### cloud-migration-services-soo-template-phase-5.docx
+
+- **URL**: https://cic.gsa.gov:443/static/documents/cloud-migration-services-soo-template-phase-5.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### commercial-cloud-service-contract-language-0.pdf
+
+- **URL**: https://cic.gsa.gov:443/static/documents/commercial-cloud-service-contract-language.pdf
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### commercial-cloud-service-contract-language.pdf
+
+- **URL**: https://cic.gsa.gov/static/documents/commercial-cloud-service-contract-language.pdf
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products-0.pdf
+
+- **URL**: https://cic.gsa.gov:443/static/documents/dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf
+
+- **URL**: https://cic.gsa.gov/static/documents/dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### dod-cloud-soo-template-2016-0.pdf
+
+- **URL**: https://cic.gsa.gov:443/static/documents/dod-cloud-soo-template-2016.pdf
+- **Status**: analysed
+- title, 
+
+### dod-cloud-soo-template-2016.pdf
+
+- **URL**: https://cic.gsa.gov/static/documents/dod-cloud-soo-template-2016.pdf
+- **Status**: analysed
+- title, 
+
+### dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services-0.pdf
+
+- **URL**: https://cic.gsa.gov:443/static/documents/dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf
+- **Status**: analysed
+- title, 
+
+### dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf
+
+- **URL**: https://cic.gsa.gov/static/documents/dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf
+- **Status**: analysed
+- title, 
+
+### doj-cloud-success-story-0.pdf
+
+- **URL**: https://cic.gsa.gov/static/documents/doj-cloud-success-story.pdf
+- **Status**: analysed
+- title, 
+
+### doj-cloud-success-story.pdf
+
+- **URL**: https://cic.gsa.gov:443/static/documents/doj-cloud-success-story.pdf
+- **Status**: analysed
+- title, 
+
+### eOffer_eMod-Multi-Factor-Authentication-User-Guide.pdf
+
+- **URL**: https://eoffer.gsa.gov/eoffer_docs/eOffer_eMod-Multi-Factor-Authentication-User-Guide.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### effect-size-evaluation-basics.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/effect-size-evaluation-basics.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### evaluationpolicy.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/evaluationpolicy.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### evidence_act_overview.pdf
+
+- **URL**: https://oes.gsa.gov/assets/toolkits/evidence_act_overview.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ewg-case-study.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/ewg-case-study.pdf
+- **Status**: analysed
+- title, 
+
+### ewg-planning-materials.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/ewg-planning-materials.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### fy-2023-itvmo-annual-assessment.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/fy-2023-itvmo-annual-assessment.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### fy-2024-itvmo-annual-assessment.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/fy-2024-itvmo-annual-assessment.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### gsa-cio-cloud-success-story-0.pdf
+
+- **URL**: https://cic.gsa.gov/static/documents/gsa-cio-cloud-success-story.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### gsa-cio-cloud-success-story.pdf
+
+- **URL**: https://cic.gsa.gov:443/static/documents/gsa-cio-cloud-success-story.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles-0.pdf
+
+- **URL**: https://cic.gsa.gov:443/static/documents/gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf
+
+- **URL**: https://cic.gsa.gov/static/documents/gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### leading-edge-tech-report-2022.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/tlr/leading-edge-tech-report-2022.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### leading-edge-tech-report-2023.pdf
+
+- **URL**: https://itvmo.gsa.gov/assets/files/tlr/leading-edge-tech-report-2023.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### lmi-boc-customer-presentation-gsa-0.pdf
+
+- **URL**: https://cic.gsa.gov:443/static/documents/lmi-boc-customer-presentation-gsa.pdf
+- **Status**: analysed
+- title, 
+
+### lmi-boc-customer-presentation-gsa.pdf
+
+- **URL**: https://cic.gsa.gov/static/documents/lmi-boc-customer-presentation-gsa.pdf
+- **Status**: analysed
+- title, 
+
+### multiple-comparison-adjustment.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/multiple-comparison-adjustment.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### my-form.pdf
+
+- **URL**: https://handbook.tts.gsa.gov/assets/downloads/my-form.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### okta&state=-ii9k_U5NTRjvdDh_caC09nBAtqRgohff2nOaL6Donw&code_challenge_method=S256&code_challenge=Cs7vI5iKCsWOgRtBeehCd3-Ju5gSOHRO7QnfpWFlRs8
+
+- **URL**: https://auth.gsa.gov/oauth2/v1/authorize?client_id=0oabren9fzQyIdP7A4h7&response_type=code&scope=openid%20email%20profile&redirect_uri=https%3A//insite.gsa.gov/openid-connect/okta&state=-ii9k_U5NTRjvdDh_caC09nBAtqRgohff2nOaL6Donw&code_challenge_method=S256&code_challenge=Cs7vI5iKCsWOgRtBeehCd3-Ju5gSOHRO7QnfpWFlRs8
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### okta&state=6ynKKJMWR0FawVnogPQsateIuh3bA2QP2awI6fdgvvo&code_challenge_method=S256&code_challenge=x5SrGAMI2x_5hr6-zaLgGVNvbADV6YAdJIpMLd2sOJo
+
+- **URL**: https://auth.gsa.gov/oauth2/v1/authorize?client_id=0oabren9fzQyIdP7A4h7&response_type=code&scope=openid%20email%20profile&redirect_uri=https%3A//insite.gsa.gov/openid-connect/okta&state=6ynKKJMWR0FawVnogPQsateIuh3bA2QP2awI6fdgvvo&code_challenge_method=S256&code_challenge=x5SrGAMI2x_5hr6-zaLgGVNvbADV6YAdJIpMLd2sOJo
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### okta&state=BaWu1MBaA4z9j1h8sw1oEikCW65plgqkcMeXMCyMMGo&code_challenge_method=S256&code_challenge=eD540q0UZBMMZiNH5Yydj516_wTtCwFpSHG2e9c_7Iw
+
+- **URL**: https://auth.gsa.gov/oauth2/v1/authorize?client_id=0oabren9fzQyIdP7A4h7&response_type=code&scope=openid%20email%20profile&redirect_uri=https%3A//insite.gsa.gov/openid-connect/okta&state=BaWu1MBaA4z9j1h8sw1oEikCW65plgqkcMeXMCyMMGo&code_challenge_method=S256&code_challenge=eD540q0UZBMMZiNH5Yydj516_wTtCwFpSHG2e9c_7Iw
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### okta&state=Jagqi1htZOPFrQMCvDi9V3IFS6wYdxBqTx99K9nRPoE&code_challenge_method=S256&code_challenge=nIJBSU4l6w6sEMY9udPTz3n4lcz3i61qvi5b_2-lvgk
+
+- **URL**: https://auth.gsa.gov/oauth2/v1/authorize?client_id=0oabren9fzQyIdP7A4h7&response_type=code&scope=openid%20email%20profile&redirect_uri=https%3A//insite.gsa.gov/openid-connect/okta&state=Jagqi1htZOPFrQMCvDi9V3IFS6wYdxBqTx99K9nRPoE&code_challenge_method=S256&code_challenge=nIJBSU4l6w6sEMY9udPTz3n4lcz3i61qvi5b_2-lvgk
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### okta&state=NgBn48SCJk7WjgaZtTHD5qy3m-iN32YARl8sG80lpfo&code_challenge_method=S256&code_challenge=_VJsR0Y82KDHT3MJYYuUaTgza9j975ovohTulwi4NzI
+
+- **URL**: https://auth.gsa.gov/oauth2/v1/authorize?client_id=0oabren9fzQyIdP7A4h7&response_type=code&scope=openid%20email%20profile&redirect_uri=https%3A//insite.gsa.gov/openid-connect/okta&state=NgBn48SCJk7WjgaZtTHD5qy3m-iN32YARl8sG80lpfo&code_challenge_method=S256&code_challenge=_VJsR0Y82KDHT3MJYYuUaTgza9j975ovohTulwi4NzI
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### okta&state=UgpKjxGAhQiINm2wSgrRDDI5c2deaV9KfKcyUdJZugk&code_challenge_method=S256&code_challenge=c60c1DuP7gu_4yXmR_hFqF038TvrqW4RQOCkhdGTrIg
+
+- **URL**: https://auth.gsa.gov/oauth2/v1/authorize?client_id=0oabren9fzQyIdP7A4h7&response_type=code&scope=openid%20email%20profile&redirect_uri=https%3A//insite.gsa.gov/openid-connect/okta&state=UgpKjxGAhQiINm2wSgrRDDI5c2deaV9KfKcyUdJZugk&code_challenge_method=S256&code_challenge=c60c1DuP7gu_4yXmR_hFqF038TvrqW4RQOCkhdGTrIg
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### okta&state=eXKxtYEDzO3kJvMswcO5hsFEAfB_BsU7y8XiHSjLP6c&code_challenge_method=S256&code_challenge=inCLPxhIM4S6qUy7EndwwzPYstWjtNO2IEKX9pSaImw
+
+- **URL**: https://auth.gsa.gov/oauth2/v1/authorize?client_id=0oabren9fzQyIdP7A4h7&response_type=code&scope=openid%20email%20profile&redirect_uri=https%3A//insite.gsa.gov/openid-connect/okta&state=eXKxtYEDzO3kJvMswcO5hsFEAfB_BsU7y8XiHSjLP6c&code_challenge_method=S256&code_challenge=inCLPxhIM4S6qUy7EndwwzPYstWjtNO2IEKX9pSaImw
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### okta&state=gFBtENcbAkipWxTMixHnwO8Pkp3Vbog845VBgKka6aA&code_challenge_method=S256&code_challenge=pL97EBnD9cy8V6TYGmScStb19qr29Jdq5GWuTVi4Lug
+
+- **URL**: https://auth.gsa.gov/oauth2/v1/authorize?client_id=0oabren9fzQyIdP7A4h7&response_type=code&scope=openid%20email%20profile&redirect_uri=https%3A//insite.gsa.gov/openid-connect/okta&state=gFBtENcbAkipWxTMixHnwO8Pkp3Vbog845VBgKka6aA&code_challenge_method=S256&code_challenge=pL97EBnD9cy8V6TYGmScStb19qr29Jdq5GWuTVi4Lug
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### pre-approval-request.docx
+
+- **URL**: https://smartpay.gsa.gov/files/pre-approval-request.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### pre-approval-response.docx
+
+- **URL**: https://smartpay.gsa.gov/files/pre-approval-response.docx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### preregistration-as-a-tool-in-federal-evaluation.pdf
+
+- **URL**: https://oes.gsa.gov/assets/files/preregistration-as-a-tool-in-federal-evaluation.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### publications-guidance-for-emergency-situation.pdf
+
+- **URL**: https://smartpay.gsa.gov/files/publications/publications-guidance-for-emergency-situation.pdf
+- **Status**: analysed
+- title, 
+
+### real-property-management-service-measures.xlsx
+
+- **URL**: https://ussm.gsa.gov/assets/files/downloads/RPM_2024/Excel/real-property-management-service-measures.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### schedule_65_VII.xlsx
+
+- **URL**: https://gsaelibrary.gsa.gov/elib_contracts/schedule_65_VII.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### schedule_66_III.xlsx
+
+- **URL**: https://gsaelibrary.gsa.gov/elib_contracts/schedule_66_III.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
+
+### shared-services-performance-management-framework-for-website-download.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/shared-services-performance-management-framework-for-website-download.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### shared-services-update-june-2024.pdf
+
+- **URL**: https://ussm.gsa.gov/assets/files/shared-services-update-june-2024.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### spouse-to-own-intervention-pack.pdf
+
+- **URL**: https://oes.gsa.gov/assets/interventions/spouse-to-own-intervention-pack.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### updated-te-list-11012023-approved-508.xlsx
+
+- **URL**: https://www.gsa.gov/system/files/updated-te-list-11012023-approved-508.xlsx
+- **Status**: error
+- module 'pikepdf' has no attribute 'qpdf'
