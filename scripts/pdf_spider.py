@@ -35,7 +35,11 @@ class PdfA11ySpider(scrapy.Spider):
         self.url = url
         self.output_dir = output_dir
         self.parsed_url = urllib.parse.urlparse(url)
-        self.allowed_domains = [self.parsed_url.netloc]
+        # Normalize to lowercase: HTTP hostnames are case-insensitive, but
+        # Scrapy's OffsiteMiddleware compares the lowercase hostname of each
+        # request against this list.  A mixed-case entry (e.g. "www.Ontario.ca")
+        # would cause all follow-up links to be rejected.
+        self.allowed_domains = [self.parsed_url.netloc.lower()]
         self.start_urls = [url]
 
     def _has_download_extension(self, path):
@@ -72,7 +76,10 @@ class PdfA11ySpider(scrapy.Spider):
     def save_pdf(self, response):
         raw_path = response.url.split("/")[-1]
         basename, ext = os.path.splitext(os.path.basename(raw_path))
-        subfolder = self.parsed_url.netloc
+        # Use lowercase netloc with www. stripped for a clean, consistent folder
+        # name (e.g. "ontario.ca" instead of "www.Ontario.ca").
+        netloc = self.parsed_url.netloc.lower()
+        subfolder = netloc.removeprefix("www.")
         save_dir = os.path.join(self.output_dir, subfolder)
         os.makedirs(save_dir, exist_ok=True)
         filename = self._unique_filename(save_dir, basename, ext)
