@@ -99,3 +99,75 @@ def test_save_pdf_file_content_preserved(tmp_path):
     saved_files = [f for f in site_dir.iterdir() if f.name != "_url_map.json"]
     assert len(saved_files) == 1
     assert saved_files[0].read_bytes() == body
+
+
+# ---------------------------------------------------------------------------
+# Crawl tracking – _crawled_pages, _referer_maps, and closed() output files
+# ---------------------------------------------------------------------------
+
+
+def test_save_pdf_records_referer(tmp_path):
+    """The _referer_maps entry must store the page that linked to the PDF."""
+    spider = _make_spider(tmp_path)
+    url = "https://example.com/report.pdf"
+    referer = "https://example.com/reports/"
+    spider.save_pdf(_make_response(url), referer=referer)
+
+    save_dir = str(tmp_path / "example.com")
+    referer_map = spider._referer_maps.get(save_dir, {})
+    assert "report.pdf" in referer_map
+    assert referer_map["report.pdf"] == referer
+
+
+def test_save_pdf_empty_referer_by_default(tmp_path):
+    """save_pdf called without a referer must store an empty string."""
+    spider = _make_spider(tmp_path)
+    spider.save_pdf(_make_response("https://example.com/doc.pdf"))
+
+    save_dir = str(tmp_path / "example.com")
+    referer_map = spider._referer_maps.get(save_dir, {})
+    assert referer_map.get("doc.pdf", "") == ""
+
+
+def test_closed_writes_referer_map(tmp_path):
+    """closed() must write _referer_map.json alongside _url_map.json."""
+    spider = _make_spider(tmp_path)
+    referer = "https://example.com/index"
+    spider.save_pdf(_make_response("https://example.com/a.pdf"), referer=referer)
+    spider.closed("finished")
+
+    import json
+    referer_map_path = tmp_path / "example.com" / "_referer_map.json"
+    assert referer_map_path.exists()
+    data = json.loads(referer_map_path.read_text(encoding="utf-8"))
+    assert data.get("a.pdf") == referer
+
+
+def test_closed_writes_crawled_pages(tmp_path):
+    """closed() must write _crawled_pages.json with all visited page URLs."""
+    spider = _make_spider(tmp_path)
+    spider.save_pdf(_make_response("https://example.com/b.pdf"))
+    spider._crawled_pages = [
+        "https://example.com/",
+        "https://example.com/about",
+    ]
+    spider.closed("finished")
+
+    import json
+    pages_path = tmp_path / "example.com" / "_crawled_pages.json"
+    assert pages_path.exists()
+    data = json.loads(pages_path.read_text(encoding="utf-8"))
+    assert data == ["https://example.com/", "https://example.com/about"]
+
+
+def test_closed_writes_crawled_pages_no_pdfs(tmp_path):
+    """closed() must write _crawled_pages.json even when no PDFs were found."""
+    spider = _make_spider(tmp_path)
+    spider._crawled_pages = ["https://example.com/"]
+    spider.closed("finished")
+
+    import json
+    pages_path = tmp_path / "example.com" / "_crawled_pages.json"
+    assert pages_path.exists()
+    data = json.loads(pages_path.read_text(encoding="utf-8"))
+    assert data == ["https://example.com/"]

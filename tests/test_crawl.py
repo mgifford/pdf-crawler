@@ -376,3 +376,99 @@ def test_update_manifest_skips_url_map_json(tmp_path):
     entries = load_manifest(str(manifest_path))
     urls = [e["url"] for e in entries]
     assert not any("_url_map.json" in u for u in urls)
+
+
+# ---------------------------------------------------------------------------
+# generate_crawled_urls_csv
+# ---------------------------------------------------------------------------
+
+
+def test_generate_crawled_urls_csv_creates_file(tmp_path):
+    """generate_crawled_urls_csv must create crawled_urls.csv in report_dir."""
+    from crawl import generate_crawled_urls_csv
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    pages = ["https://example.com/", "https://example.com/about"]
+    (site_dir / "_crawled_pages.json").write_text(json.dumps(pages), encoding="utf-8")
+
+    url_map = {"doc.pdf": "https://example.com/doc.pdf"}
+    (site_dir / "_url_map.json").write_text(json.dumps(url_map), encoding="utf-8")
+
+    referer_map = {"doc.pdf": "https://example.com/about"}
+    (site_dir / "_referer_map.json").write_text(json.dumps(referer_map), encoding="utf-8")
+
+    report_dir = tmp_path / "reports"
+    count = generate_crawled_urls_csv("https://example.com", str(output_dir), str(report_dir))
+
+    assert count == 2
+    csv_path = report_dir / "crawled_urls.csv"
+    assert csv_path.exists()
+
+
+def test_generate_crawled_urls_csv_content(tmp_path):
+    """The CSV must contain page rows and pdf rows with correct types and referers."""
+    from crawl import generate_crawled_urls_csv
+    import csv
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    pages = ["https://example.com/", "https://example.com/reports"]
+    (site_dir / "_crawled_pages.json").write_text(json.dumps(pages), encoding="utf-8")
+
+    url_map = {"report.pdf": "https://example.com/files/report.pdf"}
+    (site_dir / "_url_map.json").write_text(json.dumps(url_map), encoding="utf-8")
+
+    referer_map = {"report.pdf": "https://example.com/reports"}
+    (site_dir / "_referer_map.json").write_text(json.dumps(referer_map), encoding="utf-8")
+
+    report_dir = tmp_path / "reports"
+    generate_crawled_urls_csv("https://example.com", str(output_dir), str(report_dir))
+
+    rows = list(csv.DictReader((report_dir / "crawled_urls.csv").open(encoding="utf-8")))
+    page_rows = [r for r in rows if r["type"] == "page"]
+    pdf_rows  = [r for r in rows if r["type"] == "pdf"]
+
+    assert len(page_rows) == 2
+    assert len(pdf_rows) == 1
+    assert pdf_rows[0]["url"] == "https://example.com/files/report.pdf"
+    assert pdf_rows[0]["referer"] == "https://example.com/reports"
+    assert pdf_rows[0]["type"] == "pdf"
+    assert page_rows[0]["referer"] == ""
+
+
+def test_generate_crawled_urls_csv_returns_page_count(tmp_path):
+    """Return value must equal the number of HTML pages crawled."""
+    from crawl import generate_crawled_urls_csv
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    pages = [f"https://example.com/page{i}" for i in range(7)]
+    (site_dir / "_crawled_pages.json").write_text(json.dumps(pages), encoding="utf-8")
+
+    report_dir = tmp_path / "reports"
+    count = generate_crawled_urls_csv("https://example.com", str(output_dir), str(report_dir))
+    assert count == 7
+
+
+def test_generate_crawled_urls_csv_missing_files(tmp_path):
+    """When spider output files are absent, an empty CSV must still be written."""
+    from crawl import generate_crawled_urls_csv
+
+    output_dir = tmp_path / "crawled_files"
+    output_dir.mkdir()
+
+    report_dir = tmp_path / "reports"
+    count = generate_crawled_urls_csv("https://example.com", str(output_dir), str(report_dir))
+
+    assert count == 0
+    assert (report_dir / "crawled_urls.csv").exists()

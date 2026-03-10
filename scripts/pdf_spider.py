@@ -45,6 +45,11 @@ class PdfA11ySpider(scrapy.Spider):
         # Accumulate filename→URL mappings in memory; written to disk on close.
         # Keyed by save_dir so each site subdirectory gets its own map file.
         self._url_maps: dict = {}
+        # Track every HTML page URL visited during the crawl.
+        self._crawled_pages: list = []
+        # Accumulate filename→referer mappings (the page that linked to each
+        # downloadable file).  Keyed by save_dir like _url_maps.
+        self._referer_maps: dict = {}
 
     def _has_download_extension(self, path):
         _, ext = os.path.splitext(path.lower())
@@ -55,6 +60,7 @@ class PdfA11ySpider(scrapy.Spider):
             return
 
         print(f"Crawling: {response.url}", flush=True)
+        self._crawled_pages.append(response.url)
 
         for href in response.xpath("//a[@href]/@href"):
             link = href.extract().strip()
@@ -69,7 +75,11 @@ class PdfA11ySpider(scrapy.Spider):
             if self._has_download_extension(path):
                 self.logger.info("Downloading: %s", full_link)
                 print(f"  Found for download: {full_link}", flush=True)
-                yield Request(full_link, callback=self.save_pdf)
+                yield Request(
+                    full_link,
+                    callback=self.save_pdf,
+                    cb_kwargs={"referer": response.url},
+                )
             else:
                 path_lower = path.lower()
                 if "recherche" in path_lower or "search" in path_lower:
@@ -77,7 +87,7 @@ class PdfA11ySpider(scrapy.Spider):
                 else:
                     yield response.follow(link, self.parse)
 
-    def save_pdf(self, response):
+    def save_pdf(self, response, referer=""):
         # Use only the URL path component so that query-string parameters
         # (e.g. ?VersionId=abc123) do not end up embedded in the filename.
         # Characters such as '?' are rejected by GitHub Actions artifact upload
@@ -100,6 +110,7 @@ class PdfA11ySpider(scrapy.Spider):
         # Record the original download URL in memory; the map is persisted to
         # _url_map.json when the spider closes (see `closed()`).
         self._url_maps.setdefault(save_dir, {})[filename] = response.url
+        self._referer_maps.setdefault(save_dir, {})[filename] = referer
 
     @staticmethod
     def _unique_filename(directory, basename, ext):
@@ -120,3 +131,23 @@ class PdfA11ySpider(scrapy.Spider):
             url_map_path = os.path.join(save_dir, "_url_map.json")
             with open(url_map_path, "w", encoding="utf-8") as fh:
                 json.dump(url_map, fh, indent=2, ensure_ascii=False)
+            referer_map = self._referer_maps.get(save_dir, {})
+            referer_map_path = os.path.join(save_dir, "_referer_map.json")
+            with open(referer_map_path, "w", encoding="utf-8") as fh:
+                json.dump(referer_map, fh, indent=2, ensure_ascii=False)
+
+        # Write the list of all HTML pages crawled to the site directory.
+        # Use the first save_dir with downloaded files, or derive the directory
+        # from the seed URL when no files were downloaded.
+        site_save_dirs = list(self._url_maps.keys())
+        if site_save_dirs:
+            pages_save_dir = site_save_dirs[0]
+        else:
+            # No PDFs found: determine site dir from the seed URL and write there.
+            netloc = self.parsed_url.netloc.lower()
+            subfolder = netloc.removeprefix("www.")
+            pages_save_dir = os.path.join(self.output_dir, subfolder)
+            os.makedirs(pages_save_dir, exist_ok=True)
+        pages_path = os.path.join(pages_save_dir, "_crawled_pages.json")
+        with open(pages_path, "w", encoding="utf-8") as fh:
+            json.dump(self._crawled_pages, fh, indent=2, ensure_ascii=False)

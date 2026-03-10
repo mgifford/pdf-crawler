@@ -13,6 +13,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import os
 import re
@@ -194,6 +195,86 @@ def update_manifest(
     )
 
 
+def generate_crawled_urls_csv(
+    url: str,
+    output_dir: str,
+    report_dir: str,
+) -> int:
+    """Generate a CSV listing every URL encountered during the crawl.
+
+    Reads the ``_crawled_pages.json``, ``_url_map.json``, and
+    ``_referer_map.json`` files written by the spider and produces a CSV at
+    ``<report_dir>/crawled_urls.csv`` with three columns:
+
+    * ``url``     – the full URL
+    * ``type``    – ``page`` for HTML pages, ``pdf`` (or other document type)
+                    for downloaded files
+    * ``referer`` – the page that linked to this file (empty for HTML pages)
+
+    Returns the number of HTML pages crawled.
+    """
+    parsed = urlparse(url)
+    site = _site_folder(parsed.netloc)
+    site_dir = Path(output_dir) / site
+
+    crawled_pages: list = []
+    pages_path = site_dir / "_crawled_pages.json"
+    if pages_path.exists():
+        try:
+            with open(pages_path, encoding="utf-8") as fh:
+                crawled_pages = json.load(fh)
+        except (json.JSONDecodeError, OSError):
+            crawled_pages = []
+
+    url_map: dict = {}
+    url_map_path = site_dir / "_url_map.json"
+    if url_map_path.exists():
+        try:
+            with open(url_map_path, encoding="utf-8") as fh:
+                url_map = json.load(fh)
+        except (json.JSONDecodeError, OSError):
+            url_map = {}
+
+    referer_map: dict = {}
+    referer_map_path = site_dir / "_referer_map.json"
+    if referer_map_path.exists():
+        try:
+            with open(referer_map_path, encoding="utf-8") as fh:
+                referer_map = json.load(fh)
+        except (json.JSONDecodeError, OSError):
+            referer_map = {}
+
+    rows = []
+    for page_url in crawled_pages:
+        rows.append({"url": page_url, "type": "page", "referer": ""})
+    for filename, file_url in sorted(url_map.items()):
+        _, ext = os.path.splitext(filename.lower())
+        file_type = ext.lstrip(".") if ext else "file"
+        rows.append({
+            "url": file_url,
+            "type": file_type,
+            "referer": referer_map.get(filename, ""),
+        })
+
+    def _write_csv(dest: Path) -> None:
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        with open(dest, "w", newline="", encoding="utf-8") as csvfile:
+            writer = csv.DictWriter(csvfile, fieldnames=["url", "type", "referer"])
+            writer.writeheader()
+            writer.writerows(rows)
+        print(f"Written: {dest}")
+
+    # Write into the site directory so the file is included in the
+    # crawled-files artifact and available to the analysis workflow.
+    if site_dir.exists():
+        _write_csv(site_dir / "crawled_urls.csv")
+
+    # Also write into the report directory for immediate local access.
+    _write_csv(Path(report_dir) / "crawled_urls.csv")
+
+    return len(crawled_pages)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Crawl a website for PDFs")
     parser.add_argument("--url", required=True, help="Seed URL to crawl")
@@ -229,6 +310,11 @@ def main() -> None:
         default=2500,
         help="Maximum number of pages (URLs) to crawl (default: 2500)",
     )
+    parser.add_argument(
+        "--report-dir",
+        default="reports",
+        help="Directory to write the crawled_urls.csv report into (default: reports)",
+    )
     args = parser.parse_args()
 
     # Ensure output and reports directories exist
@@ -243,6 +329,10 @@ def main() -> None:
 
     print("Updating manifest…")
     update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
+
+    print("Generating crawled URLs CSV…")
+    pages_crawled = generate_crawled_urls_csv(url, args.output_dir, args.report_dir)
+    print(f"Pages crawled: {pages_crawled}")
 
 
 if __name__ == "__main__":
