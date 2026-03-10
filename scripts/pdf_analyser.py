@@ -30,7 +30,7 @@ import re
 import signal
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -397,6 +397,19 @@ def check_file(filename: str, site: str = None) -> Dict[str, Any]:
 # CLI entry point
 # ---------------------------------------------------------------------------
 
+def _parse_crawled_at(crawled_at: Optional[str]) -> Optional[datetime]:
+    """Parse a crawled_at ISO-8601 string into an aware datetime, or return None."""
+    if not crawled_at:
+        return None
+    try:
+        dt = datetime.fromisoformat(crawled_at)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return dt
+    except (ValueError, TypeError):
+        return None
+
+
 def main(
     manifest_path: str = "reports/manifest.yaml",
     crawled_dir: str = "crawled_files",
@@ -404,6 +417,7 @@ def main(
     site_filter: Optional[str] = None,
     max_file_size_mb: float = 200.0,
     per_file_timeout: int = 120,
+    max_age_days: Optional[int] = None,
 ) -> None:
     """Analyse pending PDFs and update the manifest.
 
@@ -415,6 +429,10 @@ def main(
         max_file_size_mb: Skip files larger than this threshold (MB).
         per_file_timeout: Maximum seconds to spend analysing a single file.
             Uses SIGALRM on POSIX systems; ignored on Windows.
+        max_age_days: If set, pending entries older than this many days whose
+            local file is not found are marked as stale errors and skipped.
+            This prevents stale manifest entries from previous runs from
+            generating spurious "file not found" noise.
     """
     print(f"pikepdf version: {pikepdf.__version__}")
 
@@ -430,12 +448,20 @@ def main(
         return
 
     print(f"Analysing {len(pending)} pending file(s)…")
+    if max_age_days is not None:
+        print(
+            f"  Stale-entry threshold: entries older than {max_age_days} day(s) "
+            "without a local file will be marked as stale errors and skipped."
+        )
 
     accessible_count = 0
     issues_count = 0
     broken_count = 0
     error_count = 0
+    file_not_found_count = 0
     skipped_count = 0
+
+    now_utc = datetime.now(timezone.utc)
 
     # SIGALRM is only available on POSIX (Linux/macOS).
     _sigalrm_available = hasattr(signal, "SIGALRM")
@@ -447,13 +473,60 @@ def main(
         url = entry["url"]
         site = entry.get("site", "")
         filename = entry.get("filename", "")
+        crawled_at = entry.get("crawled_at", "")
         local_path = Path(crawled_dir) / site / filename
 
         if not local_path.exists():
-            print(f"  SKIP (file not found): {local_path}")
-            entries = mark_error(entries, url, [f"File not found: {local_path}"])
+            crawled_dt = _parse_crawled_at(crawled_at)
+            age_str = ""
+            if crawled_dt:
+                age = now_utc - crawled_dt
+                age_days = age.total_seconds() / 86400
+                if age_days < 1:
+                    age_str = f" (crawled {age_days:.1f} day(s) ago at {crawled_at})"
+                else:
+                    age_str = f" (crawled {int(age_days)} day(s) ago at {crawled_at})"
+            else:
+                age_str = f" (crawled_at: {crawled_at!r})" if crawled_at else ""
+
+            # Decide whether this is a stale entry (older than max_age_days).
+            is_stale = (
+                max_age_days is not None
+                and crawled_dt is not None
+                and (now_utc - crawled_dt).total_seconds() / 86400 > max_age_days
+            )
+
+            if is_stale:
+                print(
+                    f"  SKIP (stale – file not found): {local_path}{age_str}\n"
+                    f"    → This pending entry is older than {max_age_days} day(s) and "
+                    "its file is no longer on disk.\n"
+                    f"    → It is likely a leftover from a previous crawl run. "
+                    "Marking as stale error."
+                )
+                error_msg = (
+                    f"Stale manifest entry: file not found after {max_age_days}+ days "
+                    f"(crawled_at: {crawled_at}). "
+                    "The file was probably downloaded in a previous run whose "
+                    "crawled_files directory is no longer available."
+                )
+            else:
+                print(
+                    f"  SKIP (file not found): {local_path}{age_str}\n"
+                    f"    → The file is listed as pending in the manifest but is not "
+                    "present on disk.\n"
+                    f"    → This may indicate a failed download, an incomplete artifact "
+                    "transfer, or a stale manifest entry from a prior crawl run."
+                )
+                error_msg = (
+                    f"File not found: {local_path}{age_str}. "
+                    "Possible causes: failed download, incomplete artifact transfer, "
+                    "or stale manifest entry from a previous run."
+                )
+
+            entries = mark_error(entries, url, [error_msg])
             save_manifest(entries, manifest_path)
-            error_count += 1
+            file_not_found_count += 1
             continue
 
         # Skip non-PDF files – pikepdf can only analyse PDF documents.
@@ -567,8 +640,22 @@ def main(
         f"Issues found: {issues_count}, "
         f"Broken: {broken_count}, "
         f"Errors: {error_count}, "
+        f"File not found: {file_not_found_count}, "
         f"Skipped (non-PDF or too large): {skipped_count}."
     )
+    if file_not_found_count > 0:
+        entry_word = "entry" if file_not_found_count == 1 else "entries"
+        print(
+            f"\n  ⚠ {file_not_found_count} pending manifest {entry_word} had no "
+            "corresponding file on disk.\n"
+            "  This typically means those PDFs were recorded in the manifest during "
+            "a previous crawl run\n"
+            "  but their files are no longer available (e.g. the GitHub Actions "
+            "artifact has expired,\n"
+            "  the crawl was interrupted, or the download failed).\n"
+            "  To suppress these warnings for old entries, re-run with "
+            "--max-age-days N."
+        )
 
 
 if __name__ == "__main__":
@@ -607,6 +694,17 @@ if __name__ == "__main__":
         default=120,
         help="Maximum seconds to spend analysing a single file (default: 120; POSIX only)",
     )
+    parser.add_argument(
+        "--max-age-days",
+        type=int,
+        default=None,
+        help=(
+            "Mark pending entries whose local file is not found and whose "
+            "crawled_at date is older than this many days as stale errors "
+            "(default: disabled). Useful for clearing out stale manifest "
+            "entries from previous crawl runs."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -615,4 +713,5 @@ if __name__ == "__main__":
         site_filter=args.site,
         max_file_size_mb=args.max_file_size,
         per_file_timeout=args.per_file_timeout,
+        max_age_days=args.max_age_days,
     )

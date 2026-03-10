@@ -250,6 +250,7 @@ jobs:
           python scripts/pdf_analyser.py \
             --manifest reports/manifest.yaml \
             --crawled-dir crawled_files \
+            --max-age-days 2 \
             $SITE_FLAG \
             $KEEP_FLAG
 
