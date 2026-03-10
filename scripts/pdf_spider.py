@@ -9,6 +9,7 @@ follows links within the same domain as the seed URL.
 """
 
 import json
+import random
 import scrapy
 import urllib.parse
 import re
@@ -16,20 +17,64 @@ import os
 import itertools
 from scrapy.http import Request
 
+# Pool of modern browser User-Agent strings to rotate across requests.
+# Rotating across different browsers (Chrome, Firefox, Edge, Safari) and
+# platforms (Windows, macOS) reduces the chance of being fingerprinted or
+# rate-limited by WAF/CDN systems that track repeated identical User-Agent
+# strings.  All entries look like a real browser (contain "Mozilla/") and
+# contain no Scrapy identifiers.
+USER_AGENTS = [
+    # Chrome on Windows
+    (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/131.0.0.0 Safari/537.36"
+    ),
+    # Firefox on Windows
+    (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) "
+        "Gecko/20100101 Firefox/132.0"
+    ),
+    # Edge on Windows
+    (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"
+    ),
+    # Chrome on macOS
+    (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/131.0.0.0 Safari/537.36"
+    ),
+    # Safari on macOS
+    (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_1) "
+        "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+        "Version/17.1 Safari/605.1.15"
+    ),
+    # Firefox on macOS
+    (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:132.0) "
+        "Gecko/20100101 Firefox/132.0"
+    ),
+]
+
 
 class PdfA11ySpider(scrapy.Spider):
     name = "pdf_a11y_crawler"
     custom_settings = {
         "DOWNLOAD_DELAY": 1,
+        # Randomize the actual delay to between 0.5× and 1.5× the base
+        # DOWNLOAD_DELAY so consecutive requests do not arrive at a perfectly
+        # uniform cadence.  This reduces the likelihood of triggering
+        # rate-limiting on government servers while still being polite.
+        "RANDOMIZE_DOWNLOAD_DELAY": True,
         "COOKIES_ENABLED": True,
-        # Use a browser-like User-Agent to avoid being blocked by WAF/CDN
-        # systems (e.g. Akamai, Cloudflare) that reject known bot signatures
-        # such as the default "Scrapy/x.y.z (+https://scrapy.org)" string.
-        "USER_AGENT": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/131.0.0.0 Safari/537.36"
-        ),
+        # Provide a sensible default UA; individual requests override this
+        # with a randomly selected entry from the module-level USER_AGENTS
+        # pool via _random_ua().
+        "USER_AGENT": USER_AGENTS[0],
         # Set Accept/Accept-Language headers to match what a real browser
         # sends; some servers reject requests that omit these headers.
         "DEFAULT_REQUEST_HEADERS": {
@@ -71,6 +116,10 @@ class PdfA11ySpider(scrapy.Spider):
         _, ext = os.path.splitext(path.lower())
         return ext in self.DOWNLOAD_EXTENSIONS
 
+    def _random_ua(self):
+        """Return a randomly selected User-Agent string from USER_AGENTS."""
+        return random.choice(USER_AGENTS)
+
     def start_requests(self):
         """Yield the initial request(s) with an errback for connection errors."""
         for url in self.start_urls:
@@ -78,6 +127,7 @@ class PdfA11ySpider(scrapy.Spider):
                 url,
                 callback=self.parse,
                 errback=self.handle_error,
+                headers={"User-Agent": self._random_ua()},
             )
 
     def handle_error(self, failure):
@@ -111,6 +161,7 @@ class PdfA11ySpider(scrapy.Spider):
                     callback=self.save_pdf,
                     errback=self.handle_error,
                     cb_kwargs={"referer": response.url},
+                    headers={"User-Agent": self._random_ua()},
                 )
             else:
                 path_lower = path.lower()
@@ -118,7 +169,8 @@ class PdfA11ySpider(scrapy.Spider):
                     self.logger.info("Skipping search page: %s", full_link)
                 else:
                     yield response.follow(
-                        link, self.parse, errback=self.handle_error
+                        link, self.parse, errback=self.handle_error,
+                        headers={"User-Agent": self._random_ua()},
                     )
 
     def save_pdf(self, response, referer=""):
