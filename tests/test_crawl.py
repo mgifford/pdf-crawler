@@ -9,7 +9,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from crawl import normalize_url, _URL_PREFIXES, _site_folder, run_scrapy
+from crawl import normalize_url, _URL_PREFIXES, _site_folder, run_scrapy, _print_scrapy_log_tail
 
 
 # ---------------------------------------------------------------------------
@@ -521,3 +521,69 @@ def test_generate_crawled_urls_csv_missing_files(tmp_path):
 
     assert count == 0
     assert (report_dir / "crawled_urls.csv").exists()
+
+
+# ---------------------------------------------------------------------------
+# _print_scrapy_log_tail – diagnostic log helper
+# ---------------------------------------------------------------------------
+
+
+def test_print_scrapy_log_tail_shows_error_lines(tmp_path, capsys):
+    """Error lines from the Scrapy log must be printed to stdout."""
+    log = tmp_path / "scrapy.log"
+    log.write_text(
+        "2024-01-01 INFO Spider opened\n"
+        "2024-01-01 ERROR Some problem occurred\n"
+        "2024-01-01 INFO Spider closed\n",
+        encoding="utf-8",
+    )
+    _print_scrapy_log_tail(str(log))
+    captured = capsys.readouterr()
+    assert "ERROR Some problem occurred" in captured.out
+
+
+def test_print_scrapy_log_tail_falls_back_to_tail_when_no_errors(tmp_path, capsys):
+    """When no ERROR lines exist, the last N lines must be printed instead."""
+    log = tmp_path / "scrapy.log"
+    lines = [f"INFO line {i}\n" for i in range(100)]
+    log.write_text("".join(lines), encoding="utf-8")
+    _print_scrapy_log_tail(str(log), tail_lines=10)
+    captured = capsys.readouterr()
+    assert "INFO line 99" in captured.out
+    # Lines well before the tail should not appear.
+    assert "INFO line 0" not in captured.out
+
+
+def test_print_scrapy_log_tail_missing_file_is_silent(tmp_path, capsys):
+    """A missing log file must not raise an exception or produce output."""
+    _print_scrapy_log_tail(str(tmp_path / "nonexistent.log"))
+    captured = capsys.readouterr()
+    assert captured.out == ""
+
+
+def test_print_scrapy_log_tail_empty_file_is_silent(tmp_path, capsys):
+    """An empty log file must not produce output."""
+    log = tmp_path / "scrapy.log"
+    log.write_text("", encoding="utf-8")
+    _print_scrapy_log_tail(str(log))
+    captured = capsys.readouterr()
+    assert captured.out == ""
+
+
+def test_run_scrapy_prints_log_on_error(tmp_path, capsys):
+    """run_scrapy must print the Scrapy log tail when Scrapy exits with a non-zero code."""
+    import subprocess
+
+    log_path = str(tmp_path / "test_scrapy.log")
+    Path(log_path).write_text(
+        "INFO started\nERROR Connection refused\n", encoding="utf-8"
+    )
+
+    with patch("crawl.subprocess.run") as mock_run:
+        mock_run.side_effect = subprocess.CalledProcessError(1, "scrapy")
+        run_scrapy(
+            "https://example.com", "out", 3600, "spider.py", log_path=log_path
+        )
+
+    captured = capsys.readouterr()
+    assert "Connection refused" in captured.out

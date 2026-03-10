@@ -208,3 +208,63 @@ def test_has_download_extension_rejects_non_pdf():
         assert not spider._has_download_extension(filename), (
             f"Expected {filename} to be rejected but it was accepted"
         )
+
+
+# ---------------------------------------------------------------------------
+# User-Agent – spider must use a browser-like UA, not Scrapy's default
+# ---------------------------------------------------------------------------
+
+
+def test_user_agent_is_set():
+    """custom_settings must include a USER_AGENT entry."""
+    from pdf_spider import PdfA11ySpider
+
+    assert "USER_AGENT" in PdfA11ySpider.custom_settings
+
+
+def test_user_agent_is_browser_like():
+    """USER_AGENT must look like a browser, not the default Scrapy bot string."""
+    from pdf_spider import PdfA11ySpider
+
+    ua = PdfA11ySpider.custom_settings["USER_AGENT"]
+    # Must contain Mozilla/ to resemble a real browser User-Agent header.
+    assert "Mozilla/" in ua, f"USER_AGENT does not look browser-like: {ua!r}"
+    # Must not expose the Scrapy identity which is commonly blocked by WAFs.
+    assert "Scrapy" not in ua, f"USER_AGENT still contains 'Scrapy': {ua!r}"
+
+
+def test_default_request_headers_accept():
+    """DEFAULT_REQUEST_HEADERS must include an Accept header."""
+    from pdf_spider import PdfA11ySpider
+
+    headers = PdfA11ySpider.custom_settings.get("DEFAULT_REQUEST_HEADERS", {})
+    assert "Accept" in headers, "DEFAULT_REQUEST_HEADERS is missing the Accept key"
+
+
+# ---------------------------------------------------------------------------
+# start_requests / handle_error – errback wiring
+# ---------------------------------------------------------------------------
+
+
+def test_start_requests_yields_request_with_errback():
+    """start_requests() must produce a Scrapy Request that has an errback set."""
+    spider = _make_spider("/tmp")
+    requests = list(spider.start_requests())
+    assert len(requests) == 1
+    req = requests[0]
+    assert req.errback is not None, "start_requests() request must have an errback"
+    assert req.errback == spider.handle_error
+
+
+def test_handle_error_logs_url(capsys):
+    """handle_error() must print the failing URL to stdout."""
+    spider = _make_spider("/tmp")
+
+    failure = MagicMock()
+    failure.request.url = "https://example.com/blocked.pdf"
+    failure.value = ConnectionError("Connection refused")
+
+    spider.handle_error(failure)
+
+    captured = capsys.readouterr()
+    assert "https://example.com/blocked.pdf" in captured.out
