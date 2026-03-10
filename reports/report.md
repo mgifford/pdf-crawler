@@ -1,14 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-09T22:54:38.103014+00:00
+Generated: 2026-03-10T00:17:06.570616+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 1098 |
+| Total files tracked | 2991 |
 | Analysed | 950 |
-| Pending analysis | 0 |
+| Pending analysis | 1893 |
 | Errors during analysis | 148 |
 | Accessible | 264 |
 | Totally inaccessible | 15 |
@@ -20,6 +20,7 @@ Generated: 2026-03-09T22:54:38.103014+00:00
 | Site | Files |
 |------|-------|
 | canada.ca | 231 |
+| ed.gov | 1893 |
 | energy.gov | 417 |
 | gsa.gov | 450 |
 ## File Details

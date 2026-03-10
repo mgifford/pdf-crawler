@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-03-10T00:17:06.570616+00:00",
+    "site": "cms.gov",
+    "crawl_url": "https://www.cms.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22880967776",
+    "archive_file": "2026-03-10_00-17-06-570_cms.gov.html",
+    "total": 2991,
+    "analysed": 950,
+    "accessible": 264
+  },
+  {
     "date": "2026-03-09T22:54:38.103014+00:00",
     "site": "energy.gov",
     "crawl_url": "https://energy.gov",
