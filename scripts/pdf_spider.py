@@ -78,7 +78,12 @@ class PdfA11ySpider(scrapy.Spider):
                     yield response.follow(link, self.parse)
 
     def save_pdf(self, response):
-        raw_path = response.url.split("/")[-1]
+        # Use only the URL path component so that query-string parameters
+        # (e.g. ?VersionId=abc123) do not end up embedded in the filename.
+        # Characters such as '?' are rejected by GitHub Actions artifact upload
+        # and are invalid on several file systems (Windows, NTFS).
+        url_path = urllib.parse.urlparse(response.url).path
+        raw_path = url_path.split("/")[-1]
         basename, ext = os.path.splitext(os.path.basename(raw_path))
         # Use lowercase netloc with www. stripped for a clean, consistent folder
         # name (e.g. "ontario.ca" instead of "www.Ontario.ca").
