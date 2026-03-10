@@ -391,3 +391,71 @@ jobs:
               issue_number: context.issue.number,
               body: `✅ **Crawl complete** for \`${url}\`.\n\nThe manifest has been updated. Accessibility analysis is now running automatically and results will be posted here when ready.`
             });
+
+      - name: Comment on issue when scan is cancelled or times out
+        if: cancelled() && github.event_name == 'issues'
+        uses: actions/github-script@v7
+        env:
+          CRAWL_URL:        ${{ steps.params.outputs.url }}
+          CRAWL_MAX_PAGES:  ${{ steps.params.outputs.max_pages }}
+          RUN_URL:          https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const crawlUrl        = process.env.CRAWL_URL || '(unknown)';
+            const runUrl          = process.env.RUN_URL;
+            const currentMaxPages = parseInt(process.env.CRAWL_MAX_PAGES, 10) || 2500;
+            const newMaxPages     = Math.max(100, Math.floor(currentMaxPages / 2));
+
+            // Update the issue body to reduce the Number: capture limit so that
+            // a retry is more likely to complete within the time budget.
+            const { data: issue } = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            let body = issue.body || '';
+            if (/^Number:\s*\d+/mi.test(body)) {
+              body = body.replace(/^Number:\s*\d+/mi, `Number: ${newMaxPages}`);
+            } else {
+              body = body.trim() + `\nNumber: ${newMaxPages}`;
+            }
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body,
+            });
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: [
+                `❌ **Scan timed out** for \`${crawlUrl}\`.`,
+                ``,
+                `The workflow exceeded the time limit and was cancelled.`,
+                `Please check the [workflow run](${runUrl}) for details.`,
+                ``,
+                `To help the next attempt succeed, the capture limit has been automatically`,
+                `reduced to **${newMaxPages} pages** (was ${currentMaxPages}).`,
+                `Close and reopen this issue to retry with the smaller batch size.`,
+              ].join('\n'),
+            });
+            try {
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                name: 'scan-in-progress',
+              });
+            } catch (err) {
+              if (err.status !== 404) throw err;
+            }
+            try {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: ['scan-failed'],
+              });
+            } catch (_) {}

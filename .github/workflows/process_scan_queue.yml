@@ -265,10 +265,23 @@ jobs:
                 | tr -d '\r' \
                 | cut -c1-500)
             fi
-            echo "url=$URL"          >> "$GITHUB_OUTPUT"
-            echo "site=$SITE"        >> "$GITHUB_OUTPUT"
-            echo "notes=$NOTES"      >> "$GITHUB_OUTPUT"
-            echo "skip=false"        >> "$GITHUB_OUTPUT"
+            # Extract optional page limit from the "Number: XXXX" line in the body.
+            MAX_PAGES="2500"
+            if [ -n "$ISSUE_BODY" ]; then
+              PARSED_MAX=$(echo "$ISSUE_BODY" \
+                | grep -Ei '^Number:[[:space:]]*[0-9]+' \
+                | sed -E 's/^[Nn]umber:[[:space:]]*//' \
+                | head -1 \
+                | tr -d '\r[:space:]')
+              if [ -n "$PARSED_MAX" ]; then
+                MAX_PAGES="$PARSED_MAX"
+              fi
+            fi
+            echo "url=$URL"              >> "$GITHUB_OUTPUT"
+            echo "site=$SITE"            >> "$GITHUB_OUTPUT"
+            echo "notes=$NOTES"          >> "$GITHUB_OUTPUT"
+            echo "max_pages=$MAX_PAGES"  >> "$GITHUB_OUTPUT"
+            echo "skip=false"            >> "$GITHUB_OUTPUT"
           fi
 
       # -----------------------------------------------------------------------
@@ -387,8 +400,9 @@ jobs:
           steps.issue.outputs.state == 'open' &&
           steps.params.outputs.skip == 'false'
         env:
-          CRAWL_URL:   ${{ steps.params.outputs.url }}
-          CRAWL_NOTES: ${{ steps.params.outputs.notes }}
+          CRAWL_URL:       ${{ steps.params.outputs.url }}
+          CRAWL_NOTES:     ${{ steps.params.outputs.notes }}
+          CRAWL_MAX_PAGES: ${{ steps.params.outputs.max_pages }}
         run: |
           NOTES_ARGS=()
           if [ -n "$CRAWL_NOTES" ]; then
@@ -399,6 +413,7 @@ jobs:
             --manifest reports/manifest.yaml \
             --output-dir crawled_files \
             --timeout 3600 \
+            --max-pages "$CRAWL_MAX_PAGES" \
             "${NOTES_ARGS[@]}"
 
       # -----------------------------------------------------------------------
@@ -611,21 +626,45 @@ jobs:
             });
 
       # -----------------------------------------------------------------------
-      # 16. Handle unexpected failures for this issue
+      # 16. Handle unexpected failures and timeouts for this issue
       # -----------------------------------------------------------------------
       - name: Comment – scan failed unexpectedly
         if: >-
-          failure() &&
+          (failure() || cancelled()) &&
           steps.issue.outputs.state == 'open' &&
           steps.params.outputs.skip != 'true'
         uses: actions/github-script@v7
         env:
-          CRAWL_URL: ${{ steps.params.outputs.url }}
-          RUN_URL:   https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          CRAWL_URL:        ${{ steps.params.outputs.url }}
+          RUN_URL:          https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          CURRENT_MAX_PAGES: ${{ steps.params.outputs.max_pages }}
         with:
           script: |
-            const crawlUrl = process.env.CRAWL_URL || '(unknown)';
-            const runUrl   = process.env.RUN_URL;
+            const crawlUrl        = process.env.CRAWL_URL || '(unknown)';
+            const runUrl          = process.env.RUN_URL;
+            const currentMaxPages = parseInt(process.env.CURRENT_MAX_PAGES, 10) || 2500;
+            const newMaxPages     = Math.max(100, Math.floor(currentMaxPages / 2));
+
+            // Update the issue body to reduce the Number: capture limit so that
+            // a retry is more likely to complete within the time budget.
+            const { data: issue } = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              issue_number: ${{ matrix.issue_number }},
+            });
+            let body = issue.body || '';
+            if (/^Number:\s*\d+/mi.test(body)) {
+              body = body.replace(/^Number:\s*\d+/mi, `Number: ${newMaxPages}`);
+            } else {
+              body = body.trim() + `\nNumber: ${newMaxPages}`;
+            }
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              issue_number: ${{ matrix.issue_number }},
+              body,
+            });
+
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo:  context.repo.repo,
@@ -633,9 +672,11 @@ jobs:
               body: [
                 `❌ **Scan failed** for \`${crawlUrl}\`.`,
                 ``,
-                `An unexpected error occurred. Please check the [workflow run](${runUrl}) for details.`,
+                `An unexpected error occurred (possibly a timeout). Please check the [workflow run](${runUrl}) for details.`,
                 ``,
-                `You can reopen this issue to retry the scan.`,
+                `To help the next attempt succeed, the capture limit has been automatically`,
+                `reduced to **${newMaxPages} pages** (was ${currentMaxPages}).`,
+                `Close and reopen this issue to retry with the smaller batch size.`,
               ].join('\n'),
             });
             try {

@@ -38,7 +38,8 @@ jobs:
   report_crawl_failure:
     if: >-
       github.event_name == 'workflow_run' &&
-      github.event.workflow_run.conclusion == 'failure'
+      (github.event.workflow_run.conclusion == 'failure' ||
+       github.event.workflow_run.conclusion == 'cancelled')
     runs-on: ubuntu-latest
 
     steps:
