@@ -304,6 +304,7 @@ jobs:
           path: |
             reports/report.md
             reports/report.json
+            reports/report.csv
             reports/manifest.yaml
           retention-days: 30
 

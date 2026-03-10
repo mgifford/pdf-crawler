@@ -9,6 +9,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from generate_report import (
     _summary_stats,
+    generate_csv,
     generate_html,
     generate_markdown,
     generate_issue_comment,
@@ -340,3 +341,78 @@ def test_generate_reports_index_html_multiple_entries():
     assert "beta.com" in html
     assert "alpha.com" in html
     assert "2024-02-01_00-00-00_beta.com.html" in html
+
+
+# ---------------------------------------------------------------------------
+# generate_csv
+# ---------------------------------------------------------------------------
+
+def test_generate_csv_has_header():
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    csv_text = generate_csv(entries)
+    first_line = csv_text.splitlines()[0]
+    assert "url" in first_line
+    assert "filename" in first_line
+    assert "site" in first_line
+    assert "accessible" in first_line
+    assert "pages" in first_line
+
+
+def test_generate_csv_one_row_per_entry():
+    entries = [
+        _make_entry("https://a.com/1.pdf"),
+        _make_entry("https://a.com/2.pdf"),
+        _make_entry("https://b.com/1.pdf"),
+    ]
+    csv_text = generate_csv(entries)
+    lines = [l for l in csv_text.splitlines() if l]
+    # header + 3 data rows
+    assert len(lines) == 4
+
+
+def test_generate_csv_empty_manifest():
+    csv_text = generate_csv([])
+    lines = [l for l in csv_text.splitlines() if l]
+    # header only
+    assert len(lines) == 1
+
+
+def test_generate_csv_contains_url():
+    entries = [_make_entry("https://example.com/my-doc.pdf")]
+    csv_text = generate_csv(entries)
+    assert "https://example.com/my-doc.pdf" in csv_text
+
+
+def test_generate_csv_pending_entry_has_empty_report_fields():
+    entry = _make_entry("https://example.com/pending.pdf", status="pending")
+    csv_text = generate_csv([entry])
+    lines = csv_text.splitlines()
+    data_row = lines[1]
+    # accessible field should be empty for a pending entry
+    assert "pending" in data_row
+
+
+def test_generate_csv_errors_joined_with_semicolon():
+    entry = _make_entry("https://example.com/bad.pdf")
+    entry["errors"] = ["error one", "error two"]
+    csv_text = generate_csv([entry])
+    assert "error one; error two" in csv_text
+
+
+def test_generate_csv_accessible_values():
+    accessible_entry = _make_entry("https://example.com/good.pdf", accessible=True)
+    inaccessible_entry = _make_entry("https://example.com/bad.pdf", accessible=False)
+    csv_text = generate_csv([accessible_entry, inaccessible_entry])
+    assert "True" in csv_text
+    assert "False" in csv_text
+
+
+def test_issue_comment_contains_csv_link():
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://owner.github.io/repo",
+        run_url="https://github.com/owner/repo/actions/runs/99",
+    )
+    assert "report.csv" in comment

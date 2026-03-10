@@ -4,6 +4,7 @@ Report generator.
 Reads the YAML manifest and produces:
   - reports/report.md   – human-readable Markdown summary
   - reports/report.json – machine-readable JSON summary
+  - reports/report.csv  – CSV for spreadsheet consumption
 
 Usage:
     python generate_report.py [--manifest reports/manifest.yaml]
@@ -12,6 +13,8 @@ Usage:
 
 from __future__ import annotations
 
+import csv
+import io
 import json
 import re
 import shutil
@@ -194,6 +197,70 @@ def generate_markdown(entries: List[Dict[str, Any]], stats: Dict[str, Any]) -> s
 
 
 # ---------------------------------------------------------------------------
+# CSV report
+# ---------------------------------------------------------------------------
+
+_CSV_COLUMNS = [
+    "url",
+    "filename",
+    "site",
+    "status",
+    "crawled_at",
+    "accessible",
+    "totally_inaccessible",
+    "broken",
+    "tagged",
+    "empty_text",
+    "protected",
+    "title",
+    "language",
+    "bookmarks",
+    "exempt",
+    "pages",
+    "errors",
+]
+
+
+def generate_csv(entries: List[Dict[str, Any]]) -> str:
+    """Return a CSV string with one row per manifest entry.
+
+    Columns mirror the fields shown in the Markdown file table, using plain
+    true/false/Pass/Fail values so the CSV is easy to import into a
+    spreadsheet or process with standard tools.
+    """
+    output = io.StringIO()
+    writer = csv.DictWriter(output, fieldnames=_CSV_COLUMNS, lineterminator="\n")
+    writer.writeheader()
+
+    for e in entries:
+        r = e.get("report") or {}
+        errors = e.get("errors") or []
+        writer.writerow(
+            {
+                "url": e.get("url", ""),
+                "filename": e.get("filename", ""),
+                "site": e.get("site", ""),
+                "status": e.get("status", ""),
+                "crawled_at": e.get("crawled_at", ""),
+                "accessible": r.get("Accessible", ""),
+                "totally_inaccessible": r.get("TotallyInaccessible", ""),
+                "broken": r.get("BrokenFile", ""),
+                "tagged": r.get("TaggedTest", ""),
+                "empty_text": r.get("EmptyTextTest", ""),
+                "protected": r.get("ProtectedTest", ""),
+                "title": r.get("TitleTest", ""),
+                "language": r.get("LanguageTest", ""),
+                "bookmarks": r.get("BookmarksTest", ""),
+                "exempt": r.get("Exempt", ""),
+                "pages": r.get("Pages", ""),
+                "errors": "; ".join(str(err) for err in errors if err),
+            }
+        )
+
+    return output.getvalue()
+
+
+# ---------------------------------------------------------------------------
 # Issue comment generator
 # ---------------------------------------------------------------------------
 
@@ -292,6 +359,7 @@ def generate_issue_comment(
         f"- [Reports history]({pages_base}/reports.html)",
         f"- [Markdown report]({pages_base}/reports/report.md)",
         f"- [JSON report]({pages_base}/reports/report.json)",
+        f"- [CSV report]({pages_base}/reports/report.csv)",
         f"- [YAML manifest]({pages_base}/reports/manifest.yaml)",
         f"- [View workflow run]({run_url})",
     ]
@@ -711,6 +779,11 @@ def main(
     )
     print(f"Written: {json_path}")
 
+    # CSV report (full, all sites)
+    csv_path = out_dir / "report.csv"
+    csv_path.write_text(generate_csv(entries), encoding="utf-8")
+    print(f"Written: {csv_path}")
+
     # HTML report for GitHub Pages
     if html_dir is not None:
         html_out_dir = Path(html_dir)
@@ -783,11 +856,15 @@ def main(
         )
         print(f"Written: {reports_html_path}")
 
-        # Copy the JSON report and manifest into the archive dir so they are
+        # Copy the JSON, CSV, and manifest into the archive dir so they are
         # accessible via GitHub Pages (which serves from docs/ via _config.yml).
         pages_json = archive_out / "report.json"
         shutil.copy2(json_path, pages_json)
         print(f"Copied:  {pages_json}")
+
+        pages_csv = archive_out / "report.csv"
+        shutil.copy2(csv_path, pages_csv)
+        print(f"Copied:  {pages_csv}")
 
         pages_manifest = archive_out / "manifest.yaml"
         shutil.copy2(Path(manifest_path), pages_manifest)
