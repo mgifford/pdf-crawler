@@ -339,3 +339,121 @@ def test_max_age_days_recent_entry_keeps_normal_message(tmp_path, capsys):
     # Should NOT use the stale label for a recent entry
     assert "SKIP (file not found)" in out
     assert "SKIP (stale" not in out
+
+
+# ---------------------------------------------------------------------------
+# max_files limit
+# ---------------------------------------------------------------------------
+
+def test_max_files_limits_analysis_count(tmp_path, capsys):
+    """With max_files=1, only one PDF should be analysed; the rest remain pending."""
+    from manifest import save_manifest, load_manifest
+
+    entries = [
+        _pending_entry("https://a.com/doc1.pdf", "a.com", tmp_path),
+        _pending_entry("https://a.com/doc2.pdf", "a.com", tmp_path),
+        _pending_entry("https://a.com/doc3.pdf", "a.com", tmp_path),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_files=1,
+    )
+
+    result = load_manifest(manifest_path)
+    processed = [e for e in result if e["status"] != "pending"]
+    still_pending = [e for e in result if e["status"] == "pending"]
+
+    # Exactly one file should have been analysed
+    assert len(processed) == 1, f"Expected 1 processed, got {len(processed)}"
+    # The remaining two should still be pending
+    assert len(still_pending) == 2, f"Expected 2 pending, got {len(still_pending)}"
+
+    out = capsys.readouterr().out
+    assert "STOP" in out
+    assert "max-files" in out.lower() or "--max-files" in out
+
+
+def test_max_files_zero_analyses_nothing(tmp_path, capsys):
+    """With max_files=0, no PDFs should be analysed even if files are present."""
+    from manifest import save_manifest, load_manifest
+
+    entries = [
+        _pending_entry("https://a.com/doc1.pdf", "a.com", tmp_path),
+        _pending_entry("https://a.com/doc2.pdf", "a.com", tmp_path),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_files=0,
+    )
+
+    result = load_manifest(manifest_path)
+    # All entries should remain pending
+    for e in result:
+        assert e["status"] == "pending", f"{e['url']} should remain pending with max_files=0"
+
+    out = capsys.readouterr().out
+    assert "STOP" in out
+
+
+def test_max_files_file_not_found_does_not_count(tmp_path):
+    """File-not-found entries must NOT count against the max_files limit."""
+    from manifest import save_manifest, load_manifest
+
+    # One real file + two missing entries
+    real_entry = _pending_entry("https://a.com/real.pdf", "a.com", tmp_path)
+    missing1 = _pending_entry_no_file("https://a.com/gone1.pdf", "a.com", "2024-01-01T00:00:00+00:00")
+    missing2 = _pending_entry_no_file("https://a.com/gone2.pdf", "a.com", "2024-01-01T00:00:00+00:00")
+
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest([missing1, missing2, real_entry], manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_files=1,
+    )
+
+    result = load_manifest(manifest_path)
+    by_url = {e["url"]: e for e in result}
+
+    # The real file should be analysed (limit is 1, file-not-found don't count)
+    assert by_url["https://a.com/real.pdf"]["status"] != "pending", \
+        "Real file should have been analysed despite max_files=1 and two preceding misses"
+
+    # Both missing entries should be marked as error
+    assert by_url["https://a.com/gone1.pdf"]["status"] == "error"
+    assert by_url["https://a.com/gone2.pdf"]["status"] == "error"
+
+
+def test_max_files_none_is_unlimited(tmp_path):
+    """When max_files is None (default), all files should be analysed."""
+    from manifest import save_manifest, load_manifest
+
+    entries = [
+        _pending_entry(f"https://a.com/doc{i}.pdf", "a.com", tmp_path)
+        for i in range(5)
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_files=None,
+    )
+
+    result = load_manifest(manifest_path)
+    for e in result:
+        assert e["status"] != "pending", f"{e['url']} should have been analysed"

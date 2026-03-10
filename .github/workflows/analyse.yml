@@ -219,6 +219,7 @@ jobs:
           ISSUE_NUMBER=""
           CRAWL_URL=""
           CRAWL_SITE=""
+          MAX_PAGES="2500"
           if [ -f scan-meta/issue_number.txt ]; then
             ISSUE_NUMBER=$(cat scan-meta/issue_number.txt | tr -d '[:space:]')
           fi
@@ -228,9 +229,16 @@ jobs:
           if [ -f scan-meta/crawl_site.txt ]; then
             CRAWL_SITE=$(cat scan-meta/crawl_site.txt | tr -d '[:space:]')
           fi
+          if [ -f scan-meta/max_pages.txt ]; then
+            PARSED=$(cat scan-meta/max_pages.txt | tr -d '[:space:]')
+            if echo "$PARSED" | grep -Eq '^[0-9]+$'; then
+              MAX_PAGES="$PARSED"
+            fi
+          fi
           echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
           echo "crawl_url=$CRAWL_URL"       >> "$GITHUB_OUTPUT"
           echo "crawl_site=$CRAWL_SITE"     >> "$GITHUB_OUTPUT"
+          echo "max_pages=$MAX_PAGES"       >> "$GITHUB_OUTPUT"
 
       - name: Pull latest manifest
         run: |
@@ -238,7 +246,8 @@ jobs:
 
       - name: Analyse PDFs for accessibility issues
         env:
-          CRAWL_SITE: ${{ steps.meta.outputs.crawl_site }}
+          CRAWL_SITE:      ${{ steps.meta.outputs.crawl_site }}
+          CRAWL_MAX_PAGES: ${{ steps.meta.outputs.max_pages }}
         run: |
           KEEP_FLAG=""
           if [ "${{ github.event.inputs.keep_files }}" = "true" ]; then
@@ -248,11 +257,16 @@ jobs:
           if [ -n "$CRAWL_SITE" ]; then
             SITE_FLAG="--site $CRAWL_SITE"
           fi
+          MAX_FILES_FLAG=""
+          if [ -n "$CRAWL_MAX_PAGES" ] && [ "$CRAWL_MAX_PAGES" != "2500" ]; then
+            MAX_FILES_FLAG="--max-files $CRAWL_MAX_PAGES"
+          fi
           python scripts/pdf_analyser.py \
             --manifest reports/manifest.yaml \
             --crawled-dir crawled_files \
             --max-age-days 2 \
             $SITE_FLAG \
+            $MAX_FILES_FLAG \
             $KEEP_FLAG
 
       - name: Generate accessibility reports

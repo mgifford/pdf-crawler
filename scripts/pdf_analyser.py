@@ -418,6 +418,7 @@ def main(
     max_file_size_mb: float = 200.0,
     per_file_timeout: int = 120,
     max_age_days: Optional[int] = None,
+    max_files: Optional[int] = None,
 ) -> None:
     """Analyse pending PDFs and update the manifest.
 
@@ -433,6 +434,10 @@ def main(
             local file is not found are marked as stale errors and skipped.
             This prevents stale manifest entries from previous runs from
             generating spurious "file not found" noise.
+        max_files: If set, stop after analysing this many PDF files (entries
+            that are skipped as file-not-found, non-PDF, or oversized do not
+            count toward this limit).  Useful for bounding the run time when
+            a site has a very large number of pending entries.
     """
     print(f"pikepdf version: {pikepdf.__version__}")
 
@@ -448,6 +453,8 @@ def main(
         return
 
     print(f"Analysing {len(pending)} pending file(s)…")
+    if max_files is not None:
+        print(f"  File analysis limit: at most {max_files} PDF file(s) will be analysed this run.")
     if max_age_days is not None:
         print(
             f"  Stale-entry threshold: entries older than {max_age_days} day(s) "
@@ -460,6 +467,7 @@ def main(
     error_count = 0
     file_not_found_count = 0
     skipped_count = 0
+    files_analysed_count = 0
 
     now_utc = datetime.now(timezone.utc)
 
@@ -566,6 +574,15 @@ def main(
             skipped_count += 1
             continue
 
+        # Enforce the per-run file analysis limit.
+        if max_files is not None and files_analysed_count >= max_files:
+            print(
+                f"  STOP: reached the --max-files limit of {max_files} "
+                f"analysed file(s). Remaining pending entries will be "
+                "processed in the next run."
+            )
+            break
+
         print(f"  Checking: {url}")
         print(f"    File: {local_path}  [{file_size_mb:.2f} MB]")
         t_start = time.monotonic()
@@ -626,6 +643,7 @@ def main(
             error_count += 1
 
         save_manifest(entries, manifest_path)
+        files_analysed_count += 1
 
         if not keep_files:
             try:
@@ -705,6 +723,17 @@ if __name__ == "__main__":
             "entries from previous crawl runs."
         ),
     )
+    parser.add_argument(
+        "--max-files",
+        type=int,
+        default=None,
+        help=(
+            "Stop after analysing this many PDF files (default: unlimited). "
+            "Entries skipped as file-not-found, non-PDF, or oversized do not "
+            "count toward this limit. Useful for bounding run time on sites "
+            "with a large number of pending entries."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -714,4 +743,5 @@ if __name__ == "__main__":
         max_file_size_mb=args.max_file_size,
         per_file_timeout=args.per_file_timeout,
         max_age_days=args.max_age_days,
+        max_files=args.max_files,
     )
