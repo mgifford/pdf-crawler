@@ -220,3 +220,122 @@ def test_file_within_size_limit_is_processed(tmp_path):
     # The file is not a valid PDF, so it will be an error – but it should NOT
     # be skipped due to size.  The status must be something other than "pending".
     assert entries[0]["status"] != "pending", "Small file should have been processed"
+
+
+# ---------------------------------------------------------------------------
+# File-not-found diagnostics
+# ---------------------------------------------------------------------------
+
+def _pending_entry_no_file(url: str, site: str, crawled_at: str) -> dict:
+    """Return a pending manifest entry with no backing file on disk."""
+    return {
+        "url": url,
+        "md5": "abc123",
+        "filename": url.split("/")[-1],
+        "site": site,
+        "crawled_at": crawled_at,
+        "status": "pending",
+        "report": None,
+        "errors": [],
+    }
+
+
+def test_file_not_found_produces_error_status(tmp_path, capsys):
+    """A pending entry whose file is missing must be marked as error with diagnostics."""
+    from manifest import save_manifest, load_manifest
+
+    url = "https://a.com/missing.pdf"
+    entry = _pending_entry_no_file(url, "a.com", "2024-01-01T00:00:00+00:00")
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest([entry], manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+    )
+
+    entries = load_manifest(manifest_path)
+    assert entries[0]["status"] == "error"
+    # Error message should include the local path
+    assert any("missing.pdf" in str(e) for e in entries[0]["errors"])
+
+    out = capsys.readouterr().out
+    assert "SKIP (file not found)" in out
+    # crawled_at date should appear in the output
+    assert "2024-01-01" in out
+
+
+def test_file_not_found_summary_shows_count(tmp_path, capsys):
+    """The final summary must report a non-zero 'File not found' count."""
+    from manifest import save_manifest
+
+    entries = [
+        _pending_entry_no_file("https://a.com/doc1.pdf", "a.com", "2024-01-01T00:00:00+00:00"),
+        _pending_entry_no_file("https://a.com/doc2.pdf", "a.com", "2024-01-02T00:00:00+00:00"),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+    )
+
+    out = capsys.readouterr().out
+    assert "File not found: 2" in out
+
+
+def test_max_age_days_marks_old_entry_as_stale(tmp_path, capsys):
+    """Entries older than max_age_days whose file is missing should be marked stale."""
+    from manifest import save_manifest, load_manifest
+    from datetime import datetime, timezone, timedelta
+
+    old_date = (datetime.now(timezone.utc) - timedelta(days=10)).isoformat()
+    url = "https://a.com/old.pdf"
+    entry = _pending_entry_no_file(url, "a.com", old_date)
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest([entry], manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_age_days=7,
+    )
+
+    entries = load_manifest(manifest_path)
+    assert entries[0]["status"] == "error"
+    # Error message should mention "stale"
+    assert any("stale" in str(e).lower() for e in entries[0]["errors"])
+
+    out = capsys.readouterr().out
+    assert "stale" in out.lower()
+
+
+def test_max_age_days_recent_entry_keeps_normal_message(tmp_path, capsys):
+    """Recent missing entries (within max_age_days) should use the normal message."""
+    from manifest import save_manifest, load_manifest
+    from datetime import datetime, timezone, timedelta
+
+    recent_date = (datetime.now(timezone.utc) - timedelta(days=1)).isoformat()
+    url = "https://a.com/recent.pdf"
+    entry = _pending_entry_no_file(url, "a.com", recent_date)
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest([entry], manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_age_days=7,
+    )
+
+    entries = load_manifest(manifest_path)
+    assert entries[0]["status"] == "error"
+
+    out = capsys.readouterr().out
+    # Should NOT use the stale label for a recent entry
+    assert "SKIP (file not found)" in out
+    assert "SKIP (stale" not in out
