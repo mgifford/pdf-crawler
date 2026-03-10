@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-03-10T19:49:32.690791+00:00",
+    "site": "adem.lu",
+    "crawl_url": "https://adem.lu",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22921331634",
+    "archive_file": "2026-03-10_19-49-32-690_adem.lu.html",
+    "total": 5233,
+    "analysed": 1254,
+    "accessible": 316
+  },
+  {
     "date": "2026-03-10T15:30:08.683962+00:00",
     "site": "barcelona.cat",
     "crawl_url": "https://www.barcelona.cat",
