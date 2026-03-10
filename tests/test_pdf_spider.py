@@ -171,3 +171,40 @@ def test_closed_writes_crawled_pages_no_pdfs(tmp_path):
     assert pages_path.exists()
     data = json.loads(pages_path.read_text(encoding="utf-8"))
     assert data == ["https://example.com/"]
+
+
+# ---------------------------------------------------------------------------
+# DOWNLOAD_EXTENSIONS – only PDF files should be downloaded
+# ---------------------------------------------------------------------------
+
+
+def test_download_extensions_only_pdf():
+    """DOWNLOAD_EXTENSIONS must contain only .pdf so that non-PDF files are never downloaded."""
+    from pdf_spider import PdfA11ySpider
+
+    assert PdfA11ySpider.DOWNLOAD_EXTENSIONS == {".pdf"}
+
+
+def test_has_download_extension_accepts_pdf():
+    """_has_download_extension must return True for .pdf URLs."""
+    spider = _make_spider("/tmp")
+    assert spider._has_download_extension("file.pdf")
+    assert spider._has_download_extension("FILE.PDF")
+    assert spider._has_download_extension("report.Pdf")
+
+
+def test_has_download_extension_rejects_non_pdf():
+    """_has_download_extension must return False for non-PDF extensions."""
+    spider = _make_spider("/tmp")
+    for filename in [
+        "table.xlsx",
+        "report.docx",
+        "slides.pptx",
+        "data.xls",
+        "doc.doc",
+        "book.epub",
+        "sheet.ods",
+    ]:
+        assert not spider._has_download_extension(filename), (
+            f"Expected {filename} to be rejected but it was accepted"
+        )

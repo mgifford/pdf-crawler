@@ -378,6 +378,55 @@ def test_update_manifest_skips_url_map_json(tmp_path):
     assert not any("_url_map.json" in u for u in urls)
 
 
+def test_update_manifest_skips_non_pdf_files(tmp_path):
+    """update_manifest must skip non-PDF files and only add .pdf files to the manifest."""
+    from crawl import update_manifest
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    (site_dir / "report.pdf").write_bytes(b"%PDF fake")
+    (site_dir / "table.xlsx").write_bytes(b"fake xlsx content")
+    (site_dir / "document.docx").write_bytes(b"fake docx content")
+    (site_dir / "slides.pptx").write_bytes(b"fake pptx content")
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(f"https://{site}", str(output_dir), str(manifest_path))
+
+    from manifest import load_manifest
+    entries = load_manifest(str(manifest_path))
+    urls = [e["url"] for e in entries]
+
+    # Only the PDF must be recorded in the manifest
+    assert len(entries) == 1
+    assert f"https://{site}/report.pdf" in urls
+    assert not any(".xlsx" in u for u in urls)
+    assert not any(".docx" in u for u in urls)
+    assert not any(".pptx" in u for u in urls)
+
+
+def test_update_manifest_skips_non_pdf_prints_message(tmp_path, capsys):
+    """update_manifest must print a message when skipping non-PDF files."""
+    from crawl import update_manifest
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    (site_dir / "report.pdf").write_bytes(b"%PDF fake")
+    (site_dir / "data.xlsx").write_bytes(b"fake xlsx")
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(f"https://{site}", str(output_dir), str(manifest_path))
+
+    captured = capsys.readouterr()
+    assert "data.xlsx" in captured.out
+    assert "Skipping non-PDF file" in captured.out
+
+
 # ---------------------------------------------------------------------------
 # generate_crawled_urls_csv
 # ---------------------------------------------------------------------------
