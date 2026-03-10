@@ -24,11 +24,10 @@ class PdfA11ySpider(scrapy.Spider):
         "COOKIES_ENABLED": True,
     }
 
-    # File extensions that should be downloaded rather than followed
+    # Only PDF files are downloaded; all other document types are skipped since
+    # the analyser can only process PDF documents.
     DOWNLOAD_EXTENSIONS = {
-        ".pdf", ".docx", ".pptx", ".xlsx",
-        ".doc", ".ppt", ".xls",
-        ".epub", ".odt", ".ods", ".odp",
+        ".pdf",
     }
 
     def __init__(self, url=None, output_dir="crawled_files", *args, **kwargs):

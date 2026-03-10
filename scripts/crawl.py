@@ -178,6 +178,10 @@ def update_manifest(
             continue
         if file_path.name == "_url_map.json":
             continue
+        # Skip non-PDF files – the analyser only processes PDF documents.
+        if file_path.suffix.lower() != ".pdf":
+            print(f"  Skipping non-PDF file: {file_path.name}")
+            continue
         # Prefer the actual URL recorded by the spider; fall back to the
         # best-guess "https://{site}/{filename}" only when the map is absent.
         file_url = url_map.get(file_path.name) or f"https://{site}/{file_path.name}"
