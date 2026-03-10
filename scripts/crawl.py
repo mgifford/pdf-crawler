@@ -106,12 +106,48 @@ def normalize_url(url: str, timeout: int = 15) -> str:
     return fallback
 
 
+def _print_scrapy_log_tail(log_path: str, tail_lines: int = 50) -> None:
+    """Print the last *tail_lines* lines of the Scrapy log file.
+
+    Filters to ERROR/CRITICAL lines first; falls back to the raw tail when no
+    errors are present.  This helps diagnose crawl failures (e.g. HTTP 403,
+    DNS errors) that would otherwise be invisible in the GitHub Actions log.
+
+    Args:
+        log_path: Path to the Scrapy log file.
+        tail_lines: Number of lines to print when no errors are found.
+    """
+    try:
+        with open(log_path, "r", encoding="utf-8", errors="replace") as fh:
+            lines = fh.readlines()
+    except OSError:
+        return
+
+    if not lines:
+        return
+
+    error_lines = [
+        line for line in lines if " ERROR " in line or " CRITICAL " in line
+    ]
+    if error_lines:
+        print(f"\n--- Scrapy errors from {log_path} ---")
+        for line in error_lines[-tail_lines:]:
+            print(line, end="")
+        print("--- end of Scrapy errors ---\n")
+    else:
+        print(f"\n--- Last {tail_lines} lines of {log_path} ---")
+        for line in lines[-tail_lines:]:
+            print(line, end="")
+        print(f"--- end of {log_path} ---\n")
+
+
 def run_scrapy(
     url: str,
     output_dir: str,
     timeout: int,
     spider_path: str,
     max_pages: int = 2500,
+    log_path: str = "scrapy.log",
 ) -> None:
     """Invoke Scrapy as a subprocess with an optional wall-clock timeout.
 
@@ -123,6 +159,8 @@ def run_scrapy(
         max_pages: Maximum number of pages (URLs) to crawl before stopping.
             Passed to Scrapy via the ``CLOSESPIDER_PAGECOUNT`` setting.
             Defaults to 2500.
+        log_path: Path to write the Scrapy log file.  Defaults to
+            ``scrapy.log`` in the current working directory.
     """
     cmd = [
         sys.executable, "-m", "scrapy", "runspider",
@@ -130,15 +168,21 @@ def run_scrapy(
         "-a", f"url={url}",
         "-a", f"output_dir={output_dir}",
         "-s", f"CLOSESPIDER_PAGECOUNT={max_pages}",
-        "--logfile", "scrapy.log",
+        "--logfile", log_path,
     ]
     print(f"Running: {' '.join(cmd)}")
+    failed = False
     try:
         subprocess.run(cmd, timeout=timeout, check=True)
     except subprocess.TimeoutExpired:
         print(f"Scrapy timed out after {timeout}s – proceeding with partial results.")
+        failed = True
     except subprocess.CalledProcessError as exc:
         print(f"Scrapy exited with code {exc.returncode} – proceeding with partial results.")
+        failed = True
+
+    if failed:
+        _print_scrapy_log_tail(log_path)
 
 
 def update_manifest(
@@ -329,7 +373,8 @@ def main() -> None:
     url = normalize_url(args.url)
 
     print(f"Crawling {url} (timeout: {args.timeout}s, max pages: {args.max_pages})…")
-    run_scrapy(url, args.output_dir, args.timeout, args.spider, args.max_pages)
+    log_path = "scrapy.log"
+    run_scrapy(url, args.output_dir, args.timeout, args.spider, args.max_pages, log_path)
 
     print("Updating manifest…")
     update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
@@ -337,6 +382,13 @@ def main() -> None:
     print("Generating crawled URLs CSV…")
     pages_crawled = generate_crawled_urls_csv(url, args.output_dir, args.report_dir)
     print(f"Pages crawled: {pages_crawled}")
+
+    if pages_crawled == 0:
+        print(
+            "WARNING: No pages were crawled. The site may be blocking automated "
+            "requests. Check the Scrapy log below for details."
+        )
+        _print_scrapy_log_tail(log_path)
 
 
 if __name__ == "__main__":

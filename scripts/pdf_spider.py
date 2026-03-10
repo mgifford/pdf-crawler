@@ -22,6 +22,23 @@ class PdfA11ySpider(scrapy.Spider):
     custom_settings = {
         "DOWNLOAD_DELAY": 1,
         "COOKIES_ENABLED": True,
+        # Use a browser-like User-Agent to avoid being blocked by WAF/CDN
+        # systems (e.g. Akamai, Cloudflare) that reject known bot signatures
+        # such as the default "Scrapy/x.y.z (+https://scrapy.org)" string.
+        "USER_AGENT": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/131.0.0.0 Safari/537.36"
+        ),
+        # Set Accept/Accept-Language headers to match what a real browser
+        # sends; some servers reject requests that omit these headers.
+        "DEFAULT_REQUEST_HEADERS": {
+            "Accept": (
+                "text/html,application/xhtml+xml,application/xml;"
+                "q=0.9,*/*;q=0.8"
+            ),
+            "Accept-Language": "en-US,en;q=0.5",
+        },
     }
 
     # Only PDF files are downloaded; all other document types are skipped since
@@ -54,6 +71,21 @@ class PdfA11ySpider(scrapy.Spider):
         _, ext = os.path.splitext(path.lower())
         return ext in self.DOWNLOAD_EXTENSIONS
 
+    def start_requests(self):
+        """Yield the initial request(s) with an errback for connection errors."""
+        for url in self.start_urls:
+            yield scrapy.Request(
+                url,
+                callback=self.parse,
+                errback=self.handle_error,
+            )
+
+    def handle_error(self, failure):
+        """Log request failures (connection errors, DNS failures, etc.)."""
+        url = failure.request.url
+        self.logger.error("Request failed for %s: %s", url, failure.value)
+        print(f"  ERROR: {url}: {failure.value}", flush=True)
+
     def parse(self, response):
         if not isinstance(response, scrapy.http.response.html.HtmlResponse):
             return
@@ -77,6 +109,7 @@ class PdfA11ySpider(scrapy.Spider):
                 yield Request(
                     full_link,
                     callback=self.save_pdf,
+                    errback=self.handle_error,
                     cb_kwargs={"referer": response.url},
                 )
             else:
@@ -84,7 +117,9 @@ class PdfA11ySpider(scrapy.Spider):
                 if "recherche" in path_lower or "search" in path_lower:
                     self.logger.info("Skipping search page: %s", full_link)
                 else:
-                    yield response.follow(link, self.parse)
+                    yield response.follow(
+                        link, self.parse, errback=self.handle_error
+                    )
 
     def save_pdf(self, response, referer=""):
         # Use only the URL path component so that query-string parameters
