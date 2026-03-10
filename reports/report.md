@@ -1,19 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-10T19:49:32.690791+00:00
+Generated: 2026-03-10T19:53:20.338851+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 5233 |
-| Analysed | 1254 |
+| URLs crawled | 98 |
+| Total files tracked | 5249 |
+| Analysed | 1270 |
 | Pending analysis | 3819 |
 | Errors during analysis | 160 |
-| Accessible | 316 |
-| Totally inaccessible | 19 |
+| Accessible | 317 |
+| Totally inaccessible | 20 |
 | Broken / unreadable | 0 |
-| Exempt (pre-2018) | 447 |
+| Exempt (pre-2018) | 458 |
 
 ## Files per Site
 
@@ -25,6 +26,7 @@ Generated: 2026-03-10T19:49:32.690791+00:00
 | gsa.gov | 450 |
 | nsf.gov | 1024 |
 | ontario.ca | 51 |
+| vdl.lu | 16 |
 ## File Details
 
 | File | Site | Accessible | Tagged | EmptyText | Protected | Title | Language | Bookmarks | Exempt | Pages |
@@ -1283,6 +1285,22 @@ Generated: 2026-03-10T19:49:32.690791+00:00
 | [zika-virus-pregnancy-virus-zika-grossesse-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-pregnant-planning-pregnancy/zika-virus-pregnancy-virus-zika-grossesse-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
 | [zika-virus-sex.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-sex/zika-virus-sex.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
 | [zika-virus-what-men-need-know.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-what-men-need-know/zika-virus-what-men-need-know.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [FormulaireDeDemandeAcces.pdf](https://web.vdl.lu/forms/pdfs/FormulaireDeDemandeAcces.pdf) | vdl.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Formulaire_Signaletique_RENLA_Digi.pdf](https://web.vdl.lu/forms/pdfs/Formulaire_Signaletique_RENLA_Digi.pdf) | vdl.lu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [Pages_from_ons-stad__132___2025_-_66_-_67_.pdf](https://onsstad.vdl.lu/fileadmin/ausgaben/132/Pages_from_ons-stad__132___2025_-_66_-_67_.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [biergercenter_chiendangereux.pdf](https://web.vdl.lu/forms/pdfs/biergercenter_chiendangereux.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [conditions_fr.pdf](https://form-server.vdl.lu/PORTAIL/conditions_fr.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [domiciliation_chaleur_urbaine.pdf](https://web.vdl.lu/forms/pdfs/domiciliation_chaleur_urbaine.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [domiciliation_eau_eau_usee.pdf](https://web.vdl.lu/forms/pdfs/domiciliation_eau_eau_usee.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [domiciliation_impot_foncier.pdf](https://web.vdl.lu/forms/pdfs/domiciliation_impot_foncier.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [domiciliation_loyer.pdf](https://web.vdl.lu/forms/pdfs/domiciliation_loyer.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [domiciliation_nuit_blanche.pdf](https://web.vdl.lu/forms/pdfs/domiciliation_nuit_blanche.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [domiciliation_ordures_menageres_et_matieres_recyclables.pdf](https://web.vdl.lu/forms/pdfs/domiciliation_ordures_menageres_et_matieres_recyclables.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [domiciliation_redevance_de_scellement_des_sols.pdf](https://web.vdl.lu/forms/pdfs/domiciliation_redevance_de_scellement_des_sols.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [domiciliation_telealarme.pdf](https://web.vdl.lu/forms/pdfs/domiciliation_telealarme.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [ons_stad_23-1986_18-19.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_23-1986_18-19.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [ons_stad_49-1995_12-14.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_49-1995_12-14.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [ons_stad_93-2010_58-61.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_93-2010_58-61.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
 
 ## Files with Errors or Notes
 
@@ -7883,5 +7901,95 @@ Generated: 2026-03-10T19:49:32.690791+00:00
 ### zika-virus-what-men-need-know.pdf
 
 - **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-what-men-need-know/zika-virus-what-men-need-know.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FormulaireDeDemandeAcces.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/FormulaireDeDemandeAcces.pdf
+- **Status**: analysed
+- title, 
+
+### Pages_from_ons-stad__132___2025_-_66_-_67_.pdf
+
+- **URL**: https://onsstad.vdl.lu/fileadmin/ausgaben/132/Pages_from_ons-stad__132___2025_-_66_-_67_.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### biergercenter_chiendangereux.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/biergercenter_chiendangereux.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### conditions_fr.pdf
+
+- **URL**: https://form-server.vdl.lu/PORTAIL/conditions_fr.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### domiciliation_chaleur_urbaine.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/domiciliation_chaleur_urbaine.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### domiciliation_eau_eau_usee.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/domiciliation_eau_eau_usee.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### domiciliation_impot_foncier.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/domiciliation_impot_foncier.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### domiciliation_loyer.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/domiciliation_loyer.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### domiciliation_nuit_blanche.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/domiciliation_nuit_blanche.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### domiciliation_ordures_menageres_et_matieres_recyclables.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/domiciliation_ordures_menageres_et_matieres_recyclables.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### domiciliation_redevance_de_scellement_des_sols.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/domiciliation_redevance_de_scellement_des_sols.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### domiciliation_telealarme.pdf
+
+- **URL**: https://web.vdl.lu/forms/pdfs/domiciliation_telealarme.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ons_stad_23-1986_18-19.pdf
+
+- **URL**: https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_23-1986_18-19.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ons_stad_49-1995_12-14.pdf
+
+- **URL**: https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_49-1995_12-14.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ons_stad_93-2010_58-61.pdf
+
+- **URL**: https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_93-2010_58-61.pdf
 - **Status**: analysed
 - title, tagged, lang, 
