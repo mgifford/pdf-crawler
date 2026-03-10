@@ -242,6 +242,88 @@ def test_default_request_headers_accept():
 
 
 # ---------------------------------------------------------------------------
+# USER_AGENTS pool – diverse set of modern browser strings
+# ---------------------------------------------------------------------------
+
+
+def test_user_agents_pool_defined():
+    """Module-level USER_AGENTS constant must be importable and non-empty."""
+    from pdf_spider import USER_AGENTS
+
+    assert isinstance(USER_AGENTS, list)
+    assert len(USER_AGENTS) > 1, "USER_AGENTS pool must contain more than one entry"
+
+
+def test_user_agents_pool_all_browser_like():
+    """Every entry in USER_AGENTS must look like a real browser UA."""
+    from pdf_spider import USER_AGENTS
+
+    for ua in USER_AGENTS:
+        assert "Mozilla/" in ua, f"UA does not look browser-like: {ua!r}"
+        assert "Scrapy" not in ua, f"UA still contains 'Scrapy': {ua!r}"
+
+
+def test_user_agents_pool_includes_firefox():
+    """USER_AGENTS must include at least one Firefox UA for browser diversity."""
+    from pdf_spider import USER_AGENTS
+
+    assert any("Firefox" in ua for ua in USER_AGENTS), (
+        "USER_AGENTS pool contains no Firefox entry"
+    )
+
+
+def test_user_agents_pool_includes_chrome():
+    """USER_AGENTS must include at least one Chrome UA."""
+    from pdf_spider import USER_AGENTS
+
+    assert any("Chrome" in ua for ua in USER_AGENTS), (
+        "USER_AGENTS pool contains no Chrome entry"
+    )
+
+
+def test_random_ua_returns_from_pool():
+    """_random_ua() must return a value drawn from USER_AGENTS."""
+    from pdf_spider import USER_AGENTS
+
+    spider = _make_spider("/tmp")
+    for _ in range(20):
+        ua = spider._random_ua()
+        assert ua in USER_AGENTS, f"_random_ua() returned a value not in pool: {ua!r}"
+
+
+# ---------------------------------------------------------------------------
+# RANDOMIZE_DOWNLOAD_DELAY – polite, varied crawl cadence
+# ---------------------------------------------------------------------------
+
+
+def test_randomize_download_delay_enabled():
+    """custom_settings must enable RANDOMIZE_DOWNLOAD_DELAY."""
+    from pdf_spider import PdfA11ySpider
+
+    assert PdfA11ySpider.custom_settings.get("RANDOMIZE_DOWNLOAD_DELAY") is True
+
+
+# ---------------------------------------------------------------------------
+# start_requests – per-request User-Agent header
+# ---------------------------------------------------------------------------
+
+
+def test_start_requests_sets_user_agent_header():
+    """start_requests() must set a User-Agent header on the initial request."""
+    from pdf_spider import USER_AGENTS
+
+    spider = _make_spider("/tmp")
+    requests = list(spider.start_requests())
+    assert len(requests) == 1
+    req = requests[0]
+    # Scrapy stores headers case-insensitively; retrieve as bytes and decode.
+    ua_bytes = req.headers.get(b"User-Agent")
+    assert ua_bytes is not None, "start_requests() request has no User-Agent header"
+    ua = ua_bytes.decode()
+    assert ua in USER_AGENTS, f"Request User-Agent not from pool: {ua!r}"
+
+
+# ---------------------------------------------------------------------------
 # start_requests / handle_error – errback wiring
 # ---------------------------------------------------------------------------
 
