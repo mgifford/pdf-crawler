@@ -1,4 +1,4 @@
-"""Tests for the site-filter feature in scripts/pdf_analyser.py"""
+"""Tests for the PDF analyser: site-filter, non-PDF skip, and size-limit features."""
 
 import sys
 from pathlib import Path
@@ -96,3 +96,127 @@ def test_site_filter_no_matching_entries(tmp_path, capsys):
     # Original entry must remain untouched
     entries = load_manifest(manifest_path)
     assert entries[0]["status"] == "pending"
+
+
+# ---------------------------------------------------------------------------
+# Non-PDF file skip
+# ---------------------------------------------------------------------------
+
+def _pending_entry_ext(url: str, site: str, ext: str, tmp_path: Path) -> dict:
+    """Return a pending manifest entry backed by a tiny file with the given extension."""
+    filename = url.split("/")[-1]
+    p = tmp_path / site / filename
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_bytes(b"not a pdf")
+    return build_entry(url, p, site)
+
+
+def test_non_pdf_file_is_skipped(tmp_path, capsys):
+    """Non-PDF files (xlsx, docx, etc.) must be marked as error with a clear message."""
+    from manifest import save_manifest, load_manifest
+
+    for ext, url in [
+        (".xlsx", "https://a.com/table.xlsx"),
+        (".docx", "https://a.com/report.docx"),
+        (".pptx", "https://a.com/slides.pptx"),
+    ]:
+        entry = _pending_entry_ext(url, "a.com", ext, tmp_path)
+        manifest_path = tmp_path / f"manifest_{ext.lstrip('.')}.yaml"
+        save_manifest([entry], manifest_path)
+
+        analyser_main(
+            manifest_path=str(manifest_path),
+            crawled_dir=str(tmp_path),
+            keep_files=True,
+        )
+
+        entries = load_manifest(manifest_path)
+        assert entries[0]["status"] == "error", (
+            f"{ext} entry should be marked as error, got {entries[0]['status']!r}"
+        )
+        assert any("not a pdf" in str(e).lower() for e in entries[0]["errors"]), (
+            f"Error message for {ext} should mention 'not a PDF', got {entries[0]['errors']!r}"
+        )
+
+    out = capsys.readouterr().out
+    assert "SKIP" in out, "Output should contain SKIP for non-PDF files"
+
+
+def test_non_pdf_file_is_deleted(tmp_path):
+    """Non-PDF files should be deleted from disk (unless --keep-files is set)."""
+    from manifest import save_manifest, load_manifest
+
+    url = "https://a.com/data.xlsx"
+    entry = _pending_entry_ext(url, "a.com", ".xlsx", tmp_path)
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest([entry], manifest_path)
+
+    file_path = tmp_path / "a.com" / "data.xlsx"
+    assert file_path.exists()
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=False,
+    )
+
+    assert not file_path.exists(), "Non-PDF file should be deleted after processing"
+
+
+# ---------------------------------------------------------------------------
+# File-size limit
+# ---------------------------------------------------------------------------
+
+def test_oversized_file_is_skipped(tmp_path, capsys):
+    """Files exceeding max_file_size_mb must be skipped with an error status."""
+    from manifest import save_manifest, load_manifest
+
+    url = "https://a.com/huge.pdf"
+    p = tmp_path / "a.com" / "huge.pdf"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    # Write 2 MB of data so we can test a 1 MB limit.
+    p.write_bytes(b"x" * (2 * 1024 * 1024))
+
+    entry = build_entry(url, p, "a.com")
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest([entry], manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_file_size_mb=1.0,  # 1 MB limit – the 2 MB file should be skipped.
+    )
+
+    entries = load_manifest(manifest_path)
+    assert entries[0]["status"] == "error"
+    assert any("too large" in str(e).lower() for e in entries[0]["errors"])
+
+    out = capsys.readouterr().out
+    assert "SKIP" in out
+
+
+def test_file_within_size_limit_is_processed(tmp_path):
+    """Files smaller than max_file_size_mb must still be processed normally."""
+    from manifest import save_manifest, load_manifest
+
+    url = "https://a.com/small.pdf"
+    p = tmp_path / "a.com" / "small.pdf"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_bytes(b"%PDF-1.4 tiny fake pdf")
+
+    entry = build_entry(url, p, "a.com")
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest([entry], manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_file_size_mb=200.0,  # 200 MB limit – tiny file should pass through.
+    )
+
+    entries = load_manifest(manifest_path)
+    # The file is not a valid PDF, so it will be an error – but it should NOT
+    # be skipped due to size.  The status must be something other than "pending".
+    assert entries[0]["status"] != "pending", "Small file should have been processed"
