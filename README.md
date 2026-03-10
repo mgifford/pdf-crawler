@@ -84,6 +84,66 @@ starts automatically.  You can also trigger it manually.
 
 ---
 
+## Limiting crawl scope
+
+Large sites or sites that serve large PDFs can cause the crawl job to time out
+(the hard limit is **75 minutes**).  Use the options below to keep jobs within
+that budget.
+
+### Setting a page cap via the issue body
+
+Add a `Number:` line to the body of your `SCAN:` issue to cap the maximum
+number of pages (URLs) the spider will visit:
+
+```
+SCAN: https://example.com
+
+Number: 200
+```
+
+The default is **2,500 pages**.  For sites that are large or slow, start with
+a lower value such as 200–500 and increase it on subsequent scans once you have
+a feel for the site's size.
+
+> **Tip:** The web form on the [PDF Crawler page](https://mgifford.github.io/pdf-crawler/#quick-start)
+> has a *Max pages* field that inserts the `Number:` line for you.
+
+### Setting a page cap via workflow dispatch
+
+When triggering the workflow manually (**Actions → 1 – Crawl Site for PDFs →
+Run workflow**) you can set:
+
+| Input | Default | Description |
+|-------|---------|-------------|
+| `max_pages` | `2500` | Maximum number of URLs/pages to visit |
+| `timeout` | `3600` | Maximum crawl time in seconds (1 hour) |
+
+### What happens when a crawl times out
+
+If the job is cancelled because it exceeded the 75-minute limit:
+
+1. The workflow automatically **halves the page cap** (minimum: 100 pages) and
+   writes the new `Number:` value back into the issue body.
+2. A comment is posted on the issue explaining what happened and showing the
+   new cap.
+3. **Close and reopen** the issue to retry the crawl with the smaller batch.
+
+Repeat this process until the crawl completes within the time limit.
+
+### Tips for large or slow sites
+
+* **Start small** – use `Number: 100` for an initial probe, then increase.
+* **Check the workflow logs** – the *Run PDF crawler* step shows how many pages
+  were visited and how many PDFs were found before the timeout.
+* **Large PDFs slow analysis** – even a crawl of 50 pages can time out during
+  the *Analyse PDFs* step if the individual files are very large.  The
+  `scan-failed` label signals an analysis failure; reopen the issue to retry.
+* **Sequential queue** – if multiple scans are queued, use
+  **Actions → 3 – Process Scan Queue** to run them one-at-a-time instead of
+  triggering them all simultaneously.
+
+---
+
 ## Workflows
 
 | Workflow | File | Trigger |
