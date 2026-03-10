@@ -93,6 +93,7 @@ def _summary_stats(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
         "broken": broken,
         "exempt": exempt,
         "sites": sites,
+        "pages_crawled": 0,
     }
 
 
@@ -120,6 +121,9 @@ def _md_summary(stats: Dict[str, Any]) -> str:
         f"| Exempt (pre-2018) | {stats['exempt']} |",
         "",
     ]
+    if stats.get("pages_crawled"):
+        # Insert after the table header rows (header + separator = index 6 and 7)
+        lines.insert(8, f"| URLs crawled | {stats['pages_crawled']} |")
 
     if stats["sites"]:
         lines += [
@@ -286,6 +290,7 @@ def generate_issue_comment(
     run_url: str,
     site_filter: Optional[str] = None,
     max_files: int = _MAX_FILES_IN_COMMENT,
+    pages_crawled: int = 0,
 ) -> str:
     """Return a Markdown string suitable for posting as a GitHub issue comment.
 
@@ -313,6 +318,10 @@ def generate_issue_comment(
         "",
         "| Metric | Count |",
         "|--------|-------|",
+    ]
+    if pages_crawled:
+        lines.append(f"| 🌐 URLs crawled | {pages_crawled} |")
+    lines += [
         f"| Total PDFs found | {len(scoped)} |",
         f"| Analysed | {len(analysed)} |",
         f"| ✅ Accessible | {accessible} |",
@@ -360,6 +369,7 @@ def generate_issue_comment(
         f"- [Markdown report]({pages_base}/reports/report.md)",
         f"- [JSON report]({pages_base}/reports/report.json)",
         f"- [CSV report]({pages_base}/reports/report.csv)",
+        f"- [Crawled URLs CSV]({pages_base}/reports/crawled_urls.csv)",
         f"- [YAML manifest]({pages_base}/reports/manifest.yaml)",
         f"- [View workflow run]({run_url})",
     ]
@@ -758,9 +768,28 @@ def main(
     crawl_url: str = "",
     html_dir: Optional[str] = None,
     archive_dir: Optional[str] = None,
+    crawled_dir: Optional[str] = None,
 ) -> None:
     entries = load_manifest(manifest_path)
     stats = _summary_stats(entries)
+
+    # If a crawled-files directory is provided, read the crawl statistics from
+    # the per-site JSON files written by the spider and copy crawled_urls.csv
+    # to the report directory so it can be published via GitHub Pages.
+    if crawled_dir is not None and site_filter:
+        site_dir = Path(crawled_dir) / site_filter
+        pages_path = site_dir / "_crawled_pages.json"
+        if pages_path.exists():
+            try:
+                import json as _json
+                pages = _json.loads(pages_path.read_text(encoding="utf-8"))
+                stats["pages_crawled"] = len(pages)
+            except Exception:
+                pass
+        crawled_csv_src = site_dir / "crawled_urls.csv"
+        if crawled_csv_src.exists():
+            shutil.copy2(crawled_csv_src, Path(report_dir) / "crawled_urls.csv")
+            print(f"Copied: {Path(report_dir) / 'crawled_urls.csv'}")
 
     out_dir = Path(report_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -878,6 +907,7 @@ def main(
             pages_base=pages_base,
             run_url=run_url,
             site_filter=site_filter,
+            pages_crawled=stats.get("pages_crawled", 0),
         )
         Path(issue_comment_file).write_text(comment, encoding="utf-8")
         print(f"Written issue comment: {issue_comment_file}")
@@ -935,6 +965,15 @@ if __name__ == "__main__":
             "(e.g. docs/reports). Also regenerates docs/reports.html when set."
         ),
     )
+    parser.add_argument(
+        "--crawled-dir",
+        default=None,
+        help=(
+            "Directory containing crawled files (e.g. crawled_files). "
+            "When provided with --site, reads crawl statistics and copies "
+            "crawled_urls.csv to the report directory."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -946,4 +985,5 @@ if __name__ == "__main__":
         crawl_url=args.crawl_url,
         html_dir=args.html_dir,
         archive_dir=args.archive_dir,
+        crawled_dir=args.crawled_dir,
     )

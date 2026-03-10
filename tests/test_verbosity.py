@@ -215,6 +215,9 @@ def test_spider_parse_prints_crawled_url(capsys):
     spider.parsed_url = urllib.parse.urlparse("https://example.com")
     spider.allowed_domains = ["example.com"]
     spider.start_urls = ["https://example.com"]
+    spider._crawled_pages = []
+    spider._url_maps = {}
+    spider._referer_maps = {}
 
     from scrapy.http import HtmlResponse
     response = HtmlResponse(
@@ -240,6 +243,9 @@ def test_spider_parse_prints_found_pdf(capsys):
     spider.parsed_url = urllib.parse.urlparse("https://example.com")
     spider.allowed_domains = ["example.com"]
     spider.start_urls = ["https://example.com"]
+    spider._crawled_pages = []
+    spider._url_maps = {}
+    spider._referer_maps = {}
 
     from scrapy.http import HtmlResponse
     response = HtmlResponse(

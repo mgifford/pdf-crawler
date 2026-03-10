@@ -416,3 +416,47 @@ def test_issue_comment_contains_csv_link():
         run_url="https://github.com/owner/repo/actions/runs/99",
     )
     assert "report.csv" in comment
+
+
+# ---------------------------------------------------------------------------
+# generate_issue_comment – pages_crawled
+# ---------------------------------------------------------------------------
+
+
+def test_issue_comment_shows_pages_crawled_when_provided():
+    """Issue comment must include a 'URLs crawled' row when pages_crawled > 0."""
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://org.github.io/repo",
+        run_url="https://github.com/org/repo/actions/runs/1",
+        pages_crawled=42,
+    )
+    assert "URLs crawled" in comment
+    assert "42" in comment
+
+
+def test_issue_comment_omits_pages_crawled_when_zero():
+    """Issue comment must NOT include a 'URLs crawled' row when pages_crawled is 0."""
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://org.github.io/repo",
+        run_url="https://github.com/org/repo/actions/runs/1",
+        pages_crawled=0,
+    )
+    assert "URLs crawled" not in comment
+
+
+def test_issue_comment_includes_crawled_urls_csv_link():
+    """Issue comment must always include a link to the crawled_urls.csv."""
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://org.github.io/repo",
+        run_url="https://github.com/org/repo/actions/runs/1",
+    )
+    assert "crawled_urls.csv" in comment

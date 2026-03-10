@@ -269,11 +269,16 @@ jobs:
             SITE_FLAG="--site $CRAWL_SITE"
             COMMENT_FLAG="--issue-comment-file /tmp/issue_comment.md"
           fi
+          CRAWLED_DIR_FLAG=""
+          if [ -d crawled_files ]; then
+            CRAWLED_DIR_FLAG="--crawled-dir crawled_files"
+          fi
           python scripts/generate_report.py \
             --manifest reports/manifest.yaml \
             --report-dir reports \
             $SITE_FLAG \
             $COMMENT_FLAG \
+            $CRAWLED_DIR_FLAG \
             --html-dir docs \
             --archive-dir docs/reports \
             --pages-base "$PAGES_BASE" \
@@ -284,6 +289,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Copy crawled_urls.csv to docs/reports for GitHub Pages access
+          if [ -f reports/crawled_urls.csv ]; then
+            cp reports/crawled_urls.csv docs/reports/crawled_urls.csv
+          fi
           git add reports/ docs/report.html docs/reports.html docs/reports/
           if git diff --cached --quiet; then
             echo "No report changes to commit."
@@ -305,6 +314,7 @@ jobs:
             reports/report.md
             reports/report.json
             reports/report.csv
+            reports/crawled_urls.csv
             reports/manifest.yaml
           retention-days: 30
 

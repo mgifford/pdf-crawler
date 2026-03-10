@@ -315,6 +315,7 @@ jobs:
             --url "$CRAWL_URL" \
             --manifest reports/manifest.yaml \
             --output-dir crawled_files \
+            --report-dir reports \
             --timeout "$CRAWL_TIMEOUT" \
             --max-pages "$CRAWL_MAX_PAGES" \
             "${NOTES_ARGS[@]}"
