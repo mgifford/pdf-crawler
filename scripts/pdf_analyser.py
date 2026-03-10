@@ -27,6 +27,8 @@ from __future__ import annotations
 
 import os
 import re
+import signal
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from pathlib import Path
@@ -369,14 +371,14 @@ def check_file(filename: str, site: str = None) -> Dict[str, Any]:
             else "Pass"
         )
 
-    except pikepdf.qpdf.PdfError as err:
-        result["BrokenFile"] = True
-        result["Accessible"] = None
-        result["_log"] += f"PdfError: {err}"
-    except pikepdf.qpdf.PasswordError as err:
+    except pikepdf.PasswordError as err:
         result["BrokenFile"] = True
         result["Accessible"] = None
         result["_log"] += f"Password protected: {err}"
+    except pikepdf.PdfError as err:
+        result["BrokenFile"] = True
+        result["Accessible"] = None
+        result["_log"] += f"PdfError: {err}"
     except ValueError as err:
         result["BrokenFile"] = True
         result["Accessible"] = None
@@ -400,8 +402,22 @@ def main(
     crawled_dir: str = "crawled_files",
     keep_files: bool = False,
     site_filter: Optional[str] = None,
+    max_file_size_mb: float = 200.0,
+    per_file_timeout: int = 120,
 ) -> None:
-    """Analyse pending PDFs and update the manifest."""
+    """Analyse pending PDFs and update the manifest.
+
+    Args:
+        manifest_path: Path to the YAML manifest.
+        crawled_dir: Root directory where crawled files are stored.
+        keep_files: When True, local files are not deleted after analysis.
+        site_filter: Only analyse entries for this site/domain.
+        max_file_size_mb: Skip files larger than this threshold (MB).
+        per_file_timeout: Maximum seconds to spend analysing a single file.
+            Uses SIGALRM on POSIX systems; ignored on Windows.
+    """
+    print(f"pikepdf version: {pikepdf.__version__}")
+
     entries = load_manifest(manifest_path)
     pending = pending_entries(entries)
 
@@ -419,6 +435,13 @@ def main(
     issues_count = 0
     broken_count = 0
     error_count = 0
+    skipped_count = 0
+
+    # SIGALRM is only available on POSIX (Linux/macOS).
+    _sigalrm_available = hasattr(signal, "SIGALRM")
+
+    def _timeout_handler(signum, frame):  # pragma: no cover
+        raise TimeoutError(f"Analysis exceeded {per_file_timeout}s per-file limit")
 
     for entry in pending:
         url = entry["url"]
@@ -433,10 +456,58 @@ def main(
             error_count += 1
             continue
 
+        # Skip non-PDF files – pikepdf can only analyse PDF documents.
+        if local_path.suffix.lower() != ".pdf":
+            ext = local_path.suffix or "(no extension)"
+            print(f"  SKIP (not a PDF – {ext}): {url}")
+            entries = mark_error(entries, url, [f"Not a PDF file: {ext}"])
+            save_manifest(entries, manifest_path)
+            if not keep_files:
+                try:
+                    local_path.unlink()
+                    print(f"    → Deleted local file: {local_path}")
+                except OSError as exc:
+                    print(f"    → Could not delete {local_path}: {exc}")
+            skipped_count += 1
+            continue
+
+        # Skip files that exceed the size limit.
+        file_size_bytes = local_path.stat().st_size
+        file_size_mb = file_size_bytes / (1024 * 1024)
+        if file_size_mb > max_file_size_mb:
+            print(
+                f"  SKIP (file too large – {file_size_mb:.1f} MB > {max_file_size_mb:.0f} MB limit): {url}"
+            )
+            entries = mark_error(
+                entries,
+                url,
+                [f"File too large to analyse: {file_size_mb:.1f} MB (limit: {max_file_size_mb:.0f} MB)"],
+            )
+            save_manifest(entries, manifest_path)
+            if not keep_files:
+                try:
+                    local_path.unlink()
+                    print(f"    → Deleted local file: {local_path}")
+                except OSError as exc:
+                    print(f"    → Could not delete {local_path}: {exc}")
+            skipped_count += 1
+            continue
+
         print(f"  Checking: {url}")
-        print(f"    File: {local_path}")
+        print(f"    File: {local_path}  [{file_size_mb:.2f} MB]")
+        t_start = time.monotonic()
+
         try:
-            report = check_file(str(local_path), site=site)
+            if _sigalrm_available:
+                signal.signal(signal.SIGALRM, _timeout_handler)
+                signal.alarm(per_file_timeout)
+            try:
+                report = check_file(str(local_path), site=site)
+            finally:
+                if _sigalrm_available:
+                    signal.alarm(0)  # Cancel the alarm regardless of outcome.
+
+            elapsed = time.monotonic() - t_start
             log_msg = report.pop("_log", "")
             errors = [log_msg] if log_msg else []
             entries = mark_analysed(entries, url, report, errors)
@@ -455,6 +526,7 @@ def main(
                 for name, val in checks.items()
             )
             print(f"    Checks: {check_str}")
+            print(f"    Elapsed: {elapsed:.1f}s")
 
             if report.get("BrokenFile"):
                 status = "broken file"
@@ -469,9 +541,15 @@ def main(
                     status += f" ({log_msg.strip().rstrip(',')})"
                 issues_count += 1
             print(f"    → {status}")
-        except Exception as exc:  # pragma: no cover
+        except TimeoutError as exc:  # pragma: no cover
+            elapsed = time.monotonic() - t_start
             entries = mark_error(entries, url, [str(exc)])
-            print(f"    → ERROR: {exc}")
+            print(f"    → TIMEOUT after {elapsed:.1f}s: {exc}")
+            error_count += 1
+        except Exception as exc:  # pragma: no cover
+            elapsed = time.monotonic() - t_start
+            entries = mark_error(entries, url, [str(exc)])
+            print(f"    → ERROR after {elapsed:.1f}s: {exc}")
             error_count += 1
 
         save_manifest(entries, manifest_path)
@@ -488,7 +566,8 @@ def main(
         f"Accessible: {accessible_count}, "
         f"Issues found: {issues_count}, "
         f"Broken: {broken_count}, "
-        f"Errors/skipped: {error_count}."
+        f"Errors: {error_count}, "
+        f"Skipped (non-PDF or too large): {skipped_count}."
     )
 
 
@@ -516,10 +595,24 @@ if __name__ == "__main__":
         default=None,
         help="Only analyse entries for this site/domain (e.g. energy.gov)",
     )
+    parser.add_argument(
+        "--max-file-size",
+        type=float,
+        default=200.0,
+        help="Skip files larger than this size in MB (default: 200)",
+    )
+    parser.add_argument(
+        "--per-file-timeout",
+        type=int,
+        default=120,
+        help="Maximum seconds to spend analysing a single file (default: 120; POSIX only)",
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
         crawled_dir=args.crawled_dir,
         keep_files=args.keep_files,
         site_filter=args.site,
+        max_file_size_mb=args.max_file_size,
+        per_file_timeout=args.per_file_timeout,
     )
