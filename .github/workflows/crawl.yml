@@ -326,7 +326,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          [ -f reports/manifest.yaml ] && git add reports/manifest.yaml || true
+          [ -f reports/manifest.yaml ]    && git add reports/manifest.yaml    || true
+          [ -f reports/crawled_urls.csv ] && git add reports/crawled_urls.csv || true
           if git diff --cached --quiet; then
             echo "No manifest changes to commit."
           else
@@ -335,7 +336,11 @@ jobs:
             for attempt in 1 2 3; do
               git push && break
               echo "Push attempt $attempt failed – pulling and retrying…"
+              # Stash any remaining unstaged changes so rebase can proceed cleanly
+              STASHED=false
+              if ! git diff --quiet; then git stash && STASHED=true; fi
               git pull --rebase origin "${{ github.ref_name }}"
+              $STASHED && git stash pop || true
             done
           fi
 
