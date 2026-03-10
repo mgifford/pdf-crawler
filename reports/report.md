@@ -1,26 +1,26 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-10T02:20:36.659038+00:00
+Generated: 2026-03-10T15:15:03.294997+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 4066 |
-| Analysed | 1001 |
-| Pending analysis | 2917 |
-| Errors during analysis | 148 |
-| Accessible | 300 |
-| Totally inaccessible | 15 |
+| Total files tracked | 5233 |
+| Analysed | 1254 |
+| Pending analysis | 3819 |
+| Errors during analysis | 160 |
+| Accessible | 316 |
+| Totally inaccessible | 19 |
 | Broken / unreadable | 0 |
-| Exempt (pre-2018) | 365 |
+| Exempt (pre-2018) | 447 |
 
 ## Files per Site
 
 | Site | Files |
 |------|-------|
-| canada.ca | 231 |
-| ed.gov | 1893 |
+| canada.ca | 496 |
+| ed.gov | 2795 |
 | energy.gov | 417 |
 | gsa.gov | 450 |
 | nsf.gov | 1024 |
@@ -1030,6 +1030,259 @@ Generated: 2026-03-10T02:20:36.659038+00:00
 | [stdprod-109232.pdf](https://www.ontario.ca/files/2025-07/stdprod-109232.pdf) | ontario.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
 | [tbs-pemsap-2023-annual-report-safe-practiced-prepared-fr-2024-03-11-v2.pdf](https://www.ontario.ca/files/2024-04/tbs-pemsap-2023-annual-report-safe-practiced-prepared-fr-2024-03-11-v2.pdf) | ontario.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 |
 | [wild-chervil.pdf](https://www.ontario.ca/files/2025-07/wild-chervil.pdf) | ontario.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [002-0015-en.pdf](https://www.canada.ca/content/dam/canada/parole-board/migration/002/093/002-0015-en.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [08paap-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/hp-ps/hl-mvs/pa-ap/assets/pdfs/08paap-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [08paap-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/hp-ps/hl-mvs/pa-ap/assets/pdfs/08paap-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [16vol42_1_ar-05-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/publicat/ccdr-rmtc/16vol42/dr-rm42-1/assets/pdf/16vol42_1_ar-05-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [2007_fnim-pnim_food-guide-aliment-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/fnim-pnim/2007_fnim-pnim_food-guide-aliment-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [2009-2020-strategic-funding-model-infographic.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/health-system-services/innovation-strategy/2009-2020-strategic-funding-model-infographic.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [2012-ccpsa_ids-lcspc_idd-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/2012-ccpsa_ids-lcspc_idd/2012-ccpsa_ids-lcspc_idd-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [2022-2023-review-en.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/drug-products/drug-shortages/2022-2023-review/2022-2023-review-en.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [2024-2025-rapport.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/corporate/transparency/corporate-management-reporting/addressing-misconduct-wrongdoing-annual-reports/2024-2025-report/2024-2025-rapport.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 24 |
+| [34-18-2192-Cannabis%20NFT-Directory-FR-FINAL.PDF](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-medication/cannabis/laws-regulations/regulations-support-cannabis-act/directory-nutrition-facts-table-formats-edible/34-18-2192-Cannabis%20NFT-Directory-FR-FINAL.PDF) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [350-58-nf-eng.pdf](https://www.canada.ca/content/dam/tbs-sct/documents/forms/350-58-nf-eng.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [5-1-ECCC-PMRA.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/pdf/compli-conform/info-prod/minor-use-pesticide/5-1-ECCC-PMRA.pdf) | canada.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [5000-g-25e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/5000-g/5000-g-25e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 58 |
+| [5000-g-lp-25e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/5000-g/5000-g-lp-25e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 342 |
+| [Background%20Check%20Consent%20Form_2024_BILINGUAL.pdf](https://www.canada.ca/content/dam/pco-bcp/documents/sps/Background%20Check%20Consent%20Form_2024_BILINGUAL.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [CLCC0037f_Demande_assister_a_une_audience.pdf](https://www.canada.ca/content/dam/pbc-clcc/documents/form-formulaire/CLCC0037f_Demande_assister_a_une_audience.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [ENG_Lyme-Disease-Spring-Brochure-3Fold.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease/lyme-disease-may-2018/ENG_Lyme-Disease-Spring-Brochure-3Fold.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [FlagDay-CrossWord-13-eng.pdf](https://www.canada.ca/content/dam/pch/documents/campaigns/national-flag-canada-day/2022/FlagDay-CrossWord-13-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [FlagDay-CrossWord-5-12-eng.pdf](https://www.canada.ca/content/dam/pch/documents/campaigns/national-flag-canada-day/2021/FlagDay-CrossWord-5-12-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [LD-REPORT2019-ENG-Final.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-report-2019/LD-REPORT2019-ENG-Final.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [LPS2011-04-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-04/LPS2011-04-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 16 |
+| [LPS2011-04-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-04/LPS2011-04-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 16 |
+| [PHAC_CPHO-2017_Report_E.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/chief-public-health-officer-reports-state-public-health-canada/2017-designing-healthy-living/PHAC_CPHO-2017_Report_E.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 74 |
+| [StrokeHighlights_EN.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/cd-mc/cvd-mcv/sh-fs-2011/pdf/StrokeHighlights_EN.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [Victim_checkList_f.pdf](https://www.canada.ca/content/dam/pbc-clcc/documents/publications/Victim_checkList_f.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Victimes-Audiences-avec-laide-dun-Aine.pdf](https://www.canada.ca/content/dam/pbc-clcc/documents/victims/Victimes-Audiences-avec-laide-dun-Aine.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [affiche-mesures-preventives-contre-piqures-moustiques.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/poster-mosquito-bite-prevention-travellers/affiche-mesures-preventives-contre-piqures-moustiques.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [amiante-la-maison-fra.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/asbestos-home-infographic-2018/amiante-la-maison-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [ann-f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/cpip-pclcpi/assets/pdf/ann-f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 120 |
+| [annex_p-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/cpip-pclcpi/assets/pdf/annex_p-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 30 |
+| [annual-edition-2018-infographic.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/diseases/lyme-disease/surveillance-lyme-disease/annual-edition-2018-infographic/annual-edition-2018-infographic.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [annual-edition-2018.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/diseases/lyme-disease/surveillance-lyme-disease/annual-edition-2018/annual-edition-2018.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [annual-edition-infographic.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-surveillance/2019/annual-edition-infographic/annual-edition-infographic.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [annual-national-surveillance-report-en.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-surveillance/2017/annual-national-surveillance-report/annual-national-surveillance-report-en.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [annual-national-surveillance-report-fr.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-surveillance/2017/annual-national-surveillance-report/annual-national-surveillance-report-fr.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 |
+| [ar-ei_indus-form-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/pdf/medeff/report-declaration/ar-ei_indus-form-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [aut-01-lp-25f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/aut-01/aut-01-lp-25f.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 18 |
+| [canadian-consumer-chemical-product-assessment-third-edition-2023.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/consumer-product-safety/reports-publications/industry-professionals/guide-canadian-consumer-chemical-product-assessment/canadian-consumer-chemical-product-assessment-third-edition-2023.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 37 |
+| [cbi_211_%202025_04_01_en.pdf](https://www.canada.ca/content/dam/dnd-mdn/documents/military-pay/cbi_211_%202025_04_01_en.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [cbi_dras_210_2025_06_1_fr.pdf](https://www.canada.ca/content/dam/dnd-mdn/documents/military-pay/cbi_dras_210_2025_06_1_fr.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 31 |
+| [ccdr-rmtc-44-1-ar07-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2018-44/ccdr-volume-44-1-january-4-2018/ccdr-rmtc-44-1-ar07-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 6 |
+| [ccdr-rmtc-44-1-ar08-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2018-44/ccdr-volume-44-1-january-4-2018/ccdr-rmtc-44-1-ar08-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [ccdr-rmtc-44-1-ar09-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2018-44/ccdr-volume-44-1-january-4-2018/ccdr-rmtc-44-1-ar09-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [ccdrv46i01-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 34 |
+| [ccdrv46i01a01-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [ccdrv46i01a01b-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01b-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i01a01c-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01c-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i01a01cf-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01cf-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i01a01d-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01d-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i01a01df-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01df-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i01a01f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [ccdrv46i01a02-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a02-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [ccdrv46i01a02f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a02f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [ccdrv46i01a03-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a03-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [ccdrv46i01a03f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a03f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [ccdrv46i01a04-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a04-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [ccdrv46i01a04f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a04f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [ccdrv46i01a05-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a05-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [ccdrv46i01a05f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a05f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [ccdrv46i01a06-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a06-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i01a06f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a06f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i01a07-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a07-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i01a07f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a07f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i23a05f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-2-3-february-6-2020/ccdrv46i23a05f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [ccdrv46i23a06-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-2-3-february-6-2020/ccdrv46i23a06-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [ccdrv46i23a07-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-2-3-february-6-2020/ccdrv46i23a07-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv46i23a07f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-2-3-february-6-2020/ccdrv46i23a07f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv48i05-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 62 |
+| [ccdrv48i05a01-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a01-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [ccdrv48i05a01f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a01f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [ccdrv48i05a02-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a02-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [ccdrv48i05a02f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a02f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [ccdrv48i05a03-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a03-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [ccdrv48i05a03f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a03f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [ccdrv48i05a04-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a04-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [ccdrv48i05a05-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a05-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [ccdrv48i05a05f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a05f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [ccdrv48i05a06-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a06-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [ccdrv48i05a06f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a06f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [ccdrv48i05a07-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a07-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv48i05a07f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a07f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [ccdrv48i05f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05f-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 66 |
+| [ccdrv48i1112a01-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a01-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [ccdrv48i1112a01f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a01f-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [ccdrv48i1112a02-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a02-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [ccdrv48i1112a05-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a05-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [ccdrv48i1112a07-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a07-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [ccdrv48i1112a07f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a07f-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [ccdrv50i12a03f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a03f-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [ccdrv50i12a04f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a04f-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [ccdrv50i12a05-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a05-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [ccdrv50i12a08f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a08f-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [ccdrv50i12a09-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a09-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [ccdrv50i12a09f-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a09f-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [ccpsa_retail-lcspc_detail-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/hecs-sesc/pdf/pubs/indust/ccpsa_retail-lcspc_detail/ccpsa_retail-lcspc_detail-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [cfia-acia_amr-ram_pol-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/legislation/cfia-acia_amr-ram_pol-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
+| [cfia-acia_amr-ram_table-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/legislation/cfia-acia_amr-ram_table-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [cg_quick_ref-ldc_rapide_ref-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/hpfb-dgpsa/pdf/nutrition/cg_quick_ref-ldc_rapide_ref-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [child-Safe-enfant-securite-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/cons/child-enfant/child-Safe-enfant-securite-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 28 |
+| [child-enfant_play-jeu-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/cons/child-enfant/child-enfant_play-jeu-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 32 |
+| [cit0027e.pdf](https://www.canada.ca/content/dam/ircc/documents/pdf/english/kits/forms/cit0027/01-01-2024/cit0027e.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [citizenship-requirement-changes-2017.pdf](https://www.canada.ca/content/dam/ircc/migration/ircc/english/pdf/citizenship-requirement-changes-2017.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [cjd-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/nois-sinp/pdf/cjd-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 18 |
+| [compendium-of-nutrition-symbols-recueil-des-symboles-nutritionnels.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/technical-documents-labelling-requirements/nutrition-symbol-formats-label-designers/compendium-of-nutrition-symbols-recueil-des-symboles-nutritionnels.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 94 |
+| [complaint-resolution-en.pdf](https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/complaint-resolution/complaint-resolution-en.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [complaint-resolution-fr.pdf](https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/complaint-resolution/complaint-resolution-fr.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [compliance.pdf](https://www.canada.ca/content/dam/esdc-edsc/migration/documents/eng/health_safety/pubs_hs/pdf/compliance.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 |
+| [conseils-nourissons-pour-grands-parents.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/safe-sleep/infant-tips-for-grandparents/conseils-nourissons-pour-grands-parents.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [covid-19-medical-device-interim-order-authorization-amendment-form-eng.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/drug-products/announcements/interim-order-epinephrine-auto-injectors/covid-19-medical-device-interim-order-authorization-amendment-form-eng.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [dir2001-02-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pacrb-dgapcr/pdf/pubs/pest/pol-guide/dir/dir2001-02-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 105 |
+| [dir2001-02-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pacrb-dgapcr/pdf/pubs/pest/pol-guide/dir/dir2001-02-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 115 |
+| [dirnutrss-m-cis-24-01-fra.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/technical-documents-labelling-requirements/nutrition-symbol-specifications/nutrition-labelling/dirnutrss-m-cis-24-01-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [dismissal_hearing.pdf](https://www.canada.ca/content/dam/canada/employment-social-development/migration/documents/assets/portfolio/docs/en/reports/labour_standards/dismissal_hearing/dismissal_hearing.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 20 |
+| [dose_registry_pdhs-fichier_dosimetrique_shdp-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/ewh-semt/alt_formats/pdf/occup-travail/radiation/regist/dose_registry_pdhs-fichier_dosimetrique_shdp-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [drinking-water-lead-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/ewh-semt/alt_formats/pdf/pubs/what-about-lead/drinking-water-lead-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [drinking-water-lead-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/ewh-semt/alt_formats/pdf/pubs/what-about-lead/drinking-water-lead-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [drug-shortages-eng-02.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/drug-products/drug-shortages/information-consumers/supply-notices/drug-shortage-infographic/drug-shortages-eng-02.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [e638a-24f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/e638a/e638a-24f.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [enf04-eng.pdf](https://www.canada.ca/content/dam/ircc/migration/ircc/english/resources/manuals/enf/enf04-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 127 |
+| [engagement-infographique.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/consumer-product-safety/about-canadian-product-safety-pledge/pledge/engagement-infographique.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [enquete-en-ligne-nouvelles-substances-psychoactives-mars-2020-mars-2023.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/online-new-psychoactive-substances-survey-march-2020-march-2023/enquete-en-ligne-nouvelles-substances-psychoactives-mars-2020-mars-2023.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [evaluation-guide-good-manufacturing-practices-compliance-programs.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drug-health-product-review-approval/compliance-enforcement/international/mutual-recognition-agreements/evaluation-guide-good-manufacturing-practices-compliance-programs/evaluation-guide-good-manufacturing-practices-compliance-programs.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [ewba-mbsa-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/nutrition/prenatal/ewba-mbsa-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 21 |
+| [food-market-author-marche-aliment-A-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/legislation/guide-ld/food-market-author-marche-aliment-A-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 |
+| [food-market-author-marche-aliment-A-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/legislation/guide-ld/food-market-author-marche-aliment-A-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 |
+| [formulaire-demande-importation-vente-exceptionnelle-instrument-medical-cadre-covid-19.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/compliance-enforcement/covid19-interim-order-drugs-medical-devices-special-foods/medical-device-exceptional-import/formulaire-demande-importation-vente-exceptionnelle-instrument-medical-cadre-covid-19.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [formulaire-mci.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/immunization/reporting-adverse-events-following-immunization/formulaire-mci.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [glossary-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/cpip-pclcpi/assets/pdf/glossary-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 29 |
+| [gluten-position-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/securit/allerg/cel-coe/gluten-position-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 |
+| [gst31-24e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/gst31/gst31-24e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [gst31-24f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/gst31/gst31-24f.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [gst31-fill-24f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/gst31/gst31-fill-24f.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [guidance-to-market-authorization-holders-on-issuing-health-product-risk%20communications.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/reports-publications/medeffect-canada/guidance-market-authorization-holders-on-issuing-health-product-risk-communications/guidance-to-market-authorization-holders-on-issuing-health-product-risk%20communications.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 23 |
+| [guide-prevention.pdf](https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/hazard-prevention/guide-prevention.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 23 |
+| [guide_gestion.pdf](https://www.canada.ca/content/dam/canada/employment-social-development/migration/documents/assets/portfolio/docs/fr/rapports/sante_securite/guide_gestion.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 23 |
+| [hey-are-you-ok-poster.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/healthy-living/alcohol-alcool/hey-are-you-ok-poster.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [human-veterinary-drug-submissions-promising-evidence-terms-conditions.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/drug-products/applications-submissions/guidance-documents/human-veterinary-drug-submissions-based-promising-evidence-terms-conditions/human-veterinary-drug-submissions-promising-evidence-terms-conditions.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 40 |
+| [ic97-2-20-23e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/ic97-2/ic97-2-20-23e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [il3-eng.pdf](https://www.canada.ca/content/dam/ircc/migration/ircc/english/resources/manuals/il/il3-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 104 |
+| [il3-fra.pdf](https://www.canada.ca/content/dam/ircc/migration/ircc/francais/ressources/guides/il/il3-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 120 |
+| [impact-report-2019-2024-eng.pdf](https://www.canada.ca/content/dam/pch/images/services/funding/sport-support/ssdic/impact-report/impact-report-2019-2024-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 |
+| [infographic-cleaning-faucet-aerators.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/infographic-cleaning-faucet-aerators/infographic-cleaning-faucet-aerators.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [infographie-les-restes.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/publications/food-nutrition/infographic-leftovers/infographie-les-restes.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [infographie-nettoyage-aerateurs-robinets.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/infographic-cleaning-faucet-aerators/infographie-nettoyage-aerateurs-robinets.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [infographie-preparer-une-declaration-de-la-victime-pour-scc.pdf](https://www.canada.ca/content/dam/ps-sp/documents/infographie-preparer-une-declaration-de-la-victime-pour-scc.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [infovigilance-produits-sante-avril-2025.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/medeffect-canada/health-product-infowatch/april-2025/infovigilance-produits-sante-avril-2025.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [irm0005f.pdf](https://www.canada.ca/content/dam/ircc/documents/pdf/francais/trousses/form/irm0005/16-12-2022/irm0005f.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [it397rsr-f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/it397rsr/it397rsr-f.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [lettre-consentement-autorisation-echange-renseignements-avec-organismes-evaluation-technologies-sante.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/drug-products/applications-submissions/forms/lettre-consentement-autorisation-echange-renseignements-avec-organismes-evaluation-technologies-sante.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [lps2011-01-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-01/lps2011-01-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [lps2011-02-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-02/lps2011-02-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 16 |
+| [lps2011-03-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-03/lps2011-03-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 32 |
+| [lyme-disease-brochure-mic.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease/lyme-disease-february-2022/lyme-disease-brochure-mic.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [lyme-disease-brochure-moh.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease/lyme-disease-february-2022/lyme-disease-brochure-moh.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [lyme-disease-brochure-ojg.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease/lyme-disease-february-2022/lyme-disease-brochure-ojg.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [lyme-disease-prevention-toolkit-trousse-outils-pour-prevention-maladie-lyme-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-prevention-toolkit/lyme-disease-prevention-toolkit-trousse-outils-pour-prevention-maladie-lyme-eng.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 9 |
+| [lyme-disease-prevention-toolkit-trousse-outils-pour-prevention-maladie-lyme-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-prevention-toolkit/lyme-disease-prevention-toolkit-trousse-outils-pour-prevention-maladie-lyme-fra.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 9 |
+| [lyme-disease-surveillance-2009-2019-infographic.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-2009-2019-infographic/lyme-disease-surveillance-2009-2019-infographic.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [lyme-disease-surveillance-canada-annual-edition-2021.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2021/lyme-disease-surveillance-canada-annual-edition-2021.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [lyme-disease-surveillance-canada-annual-edition-2022.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2022/lyme-disease-surveillance-canada-annual-edition-2022.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [lyme-disease-surveillance-canada-annual-report-2020.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-report-2020/lyme-disease-surveillance-canada-annual-report-2020.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [lyme-disease-surveillance-canada-infographic-2019.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-infographic-2019/lyme-disease-surveillance-canada-infographic-2019.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [lyme-disease-surveillance-canada-infographic-2021.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-infographic-2021/lyme-disease-surveillance-canada-infographic-2021.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [lyme-disease-surveillance-canada-infographic-2022.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-infographic-2022/lyme-disease-surveillance-canada-infographic-2022.pdf) | canada.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [lyme-disease-surveillance-in-canada-2020-infographic-en.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-in-canada-2020-infographic/lyme-disease-surveillance-in-canada-2020-infographic-en.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [md_licam_im_demmhom_cla3-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/pdf/md-im/applic-demande/form/md_licam_im_demmhom_cla3-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 |
+| [mkat-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/hp-ps/hl-mvs/pa-ap/assets/pdfs/mkat-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 37 |
+| [mosquito-borne-diseases-surveillance-annual-report-2019.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/mosquito-borne-diseases-surveillance-annual-report-2019/mosquito-borne-diseases-surveillance-annual-report-2019.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [naci-sppl-stmt-ammalian-cell-based-influenza-vaccines-en.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/immunization/national-advisory-committee-on-immunization-naci/mammalian-cell-culture-based-influenza-vaccines/naci-sppl-stmt-ammalian-cell-based-influenza-vaccines-en.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 71 |
+| [occupational-radiation-exposures.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/environmental-workplace-health/occupational-health-safety/occupational-radiation/national-dose-registry/occupational-radiation-exposures/occupational-radiation-exposures.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [online-new-psychoactive-substances-survey-march-2020-march-2023.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/online-new-psychoactive-substances-survey-march-2020-march-2023/online-new-psychoactive-substances-survey-march-2020-march-2023.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [pa-lr-15-16-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/about_apropos/atip-aiprp/assets/pdf/pa-lr-15-16-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 22 |
+| [pa-lr-15-16-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/about_apropos/atip-aiprp/assets/pdf/pa-lr-15-16-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 26 |
+| [parl2017-one-for-one-fra.pdf](https://www.canada.ca/content/dam/tbs-sct/documents/reports/one-for-one/parl2017-one-for-one-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 41 |
+| [partez-etranger-insectes.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/poster-travelling-abroad-insects/partez-etranger-insectes.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [payment-certification-2022-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/programs/international-depository-authority-canada/payment-certification-2022-eng.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [pdf-fra.pdf](https://www.canada.ca/content/dam/canada/public-health/migration/publications/department-ministere/state-public-health-family-violence-2016-etat-sante-publique-violence-familiale/alt/pdf-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 64 |
+| [poster-mosquito-bite-prevention-travellers.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/poster-mosquito-bite-prevention-travellers/poster-mosquito-bite-prevention-travellers.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [ppsb-ppsam-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/hp-ps/dca-dea/publications/pdf/ppsb-ppsam-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 57 |
+| [pptc489-eng.pdf](https://www.canada.ca/content/dam/ircc/documents/pdf/english/kits/forms/pptc489-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [pptc586-fra.pdf](https://www.canada.ca/content/dam/ircc/documents/pdf/francais/services/passeport/pptc586-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [pptc644-eng.pdf](https://www.canada.ca/content/dam/ircc/migration/ircc/english/passport/forms/pdf/pptc644-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [pptc659.pdf](https://www.canada.ca/content/dam/ircc/migration/ircc/francais/passeport/formulaires/pdf/pptc659.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [pptc662f.pdf](https://www.canada.ca/content/dam/ircc/migration/ircc/francais/passeport/formulaires/pdf/pptc662f.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [pressure-pression-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/hecs-sesc/pdf/pubs/indust/person/cosmet/pressure-pression-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [prevention-guide.pdf](https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/hazard-prevention/prevention-guide.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 23 |
+| [prfs_tpfd-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/prodpharma/prfs_tpfd-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [prfs_tpfd-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/prodpharma/prfs_tpfd-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [print_eatwell_bienmang-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/hpfb-dgpsa/pdf/print_eatwell_bienmang-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [pub-eng.pdf](https://www.canada.ca/content/dam/canada/health-canada/migration/healthy-canadians/department-ministere/public-health-sante-publique/transparency-transparence/corporate-reporting-rapports-gestion/evaluation/2016-2017/zoonotic-zoonoses/alt/pub-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 59 |
+| [pub-fra-0.pdf](https://www.canada.ca/content/dam/canada/health-canada/migration/healthy-canadians/department-ministere/public-health-sante-publique/transparency-transparence/corporate-reporting-rapports-gestion/evaluation/2016-2017/zoonotic-zoonoses/alt/pub-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 66 |
+| [pub-fra-1.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/publications/substance-use-spectrum-infographic/pub-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [pub-fra.pdf](https://www.canada.ca/content/dam/canada/health-canada/migration/publications/eating-nutrition/healthy-eating-strategy-canada-strategie-saine-alimentation/alt/pub-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 |
+| [pub1-eng-0.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/canadian-biosafety-standards-guidelines/guidance/human-diagnostic-activities/pub1-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 72 |
+| [pub1-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/emergency-preparedness/public-health-response-plan-biological-events/pub1-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 63 |
+| [pub1-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/canadian-biosafety-standards-guidelines/guidance/human-diagnostic-activities/pub1-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 78 |
+| [qualite-eau-residentielle-apres-feu-foret.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/residential-water-use-after-wildfire-event/qualite-eau-residentielle-apres-feu-foret.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [rc378-25f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc378/rc378-25f.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [rc4015-96e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4015/rc4015-96e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 11 |
+| [rc4177-25e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4177/rc4177-25e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 |
+| [rc4649-24e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc4649/rc4649-24e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 |
+| [rc72-25e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc72/rc72-25e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [rc72-fill-25e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc72/rc72-fill-25e.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [rc7259x-24f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc7259x/rc7259x-24f.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [rc7298-22e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc7298/rc7298-22e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 |
+| [rc7321-18e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc7321/rc7321-18e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [rc7345-19e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc7345/rc7345-19e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [regulations-reglements-faqs-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/hpfb-dgpsa/pdf/label-etiquet/regulations-reglements-faqs-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 24 |
+| [regulations-reglements-faqs-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/hpfb-dgpsa/pdf/label-etiquet/regulations-reglements-faqs-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 25 |
+| [renseignements-consommateur.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-medication/cannabis/laws-regulations/regulations-support-cannabis-act/consumer-information/renseignements-consommateur.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [resume-commentaires-consultation-publique-reglementation-cannabis.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/publications/drugs-health-products/summary-comments-public-consultation-regulation-cannabis/resume-commentaires-consultation-publique-reglementation-cannabis.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 44 |
+| [right-to-refuse-fr.pdf](https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/right-to-refuse/right-to-refuse-fr.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 |
+| [risk-risques-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/ahc-asc/alt_formats/hpfb-dgpsa/pdf/pubs/risk-risques-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 80 |
+| [ser-des_form-eng.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/pdf/medeff/report-declaration/ser-des_form-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [sfm-scale-up-experience-innovation-strategy-infographic.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/health-system-services/innovation-strategy/sfm-scale-up-experience-innovation-strategy-infographic.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [sk-class-exemption-for-designated-admins-en.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/hc-ps/alt_formats/hecs-sesc/pdf/substancontrol/pol/pol-docs/sk-class-exemption-for-designated-admins-en.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [sk-class-exemption-for-designated-admins-fr.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/hc-ps/alt_formats/hecs-sesc/pdf/substancontrol/pol/pol-docs/sk-class-exemption-for-designated-admins-fr.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [sleep-coucher-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/cons/child-enfant/sleep-coucher-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 27 |
+| [special-access-program-form-d-pre-positioning-request-en.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/special-access/drugs/special-access-program-form-d-pre-positioning-request-en.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [spn2001-01-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pacrb-dgapcr/pdf/pubs/pest/pol-guide/spn/spn2001-01-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 |
+| [spn2002-01-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pacrb-dgapcr/pdf/pubs/pest/pol-guide/spn/spn2002-01-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 10 |
+| [sponsor-attestation-biosimilar-product-fra.pdf](https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/drug-products/applications-submissions/form/sponsor-attestation-biosimilar-product-fra.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [stroke-vasculaires-canada-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/stroke-vasculaires/stroke-vasculaires-canada-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 |
+| [surveillance-maladie-lyme-canada-rapport-annuelle-2020.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions//lyme-disease-surveillance-canada-annual-report-2020/surveillance-maladie-lyme-canada-rapport-annuelle-2020.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [surveillance-streptococca-eng.pdf](https://www.canada.ca/content/dam/hc-sc/healthy-canadians/migration/publications/drugs-products-medicaments-produits/2013-streptococcus/alt/surveillance-streptococca-eng.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 62 |
+| [t1206-00e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t1206/t1206-00e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [t1261-23e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t1261/t1261-23e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [t2036-89e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t2036/t2036-89e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [t2201-fill-18e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t2201/t2201-fill-18e.pdf) | canada.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [t2205-25e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t2205/t2205-25e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [t2sch49-98f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t2sch49/t2sch49-98f.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [t2sch9-98f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t2sch9/t2sch9-98f.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [t4004-88e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/t4004/t4004-88e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 33 |
+| [t4012-90f.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pub/t4012/t4012-90f.pdf) | canada.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 60 |
+| [t4fhsa-25b.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t4fhsa/t4fhsa-25b.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [tfw-tipline-infographic-spanish-en-REV.pdf](https://www.canada.ca/content/dam/canada/employment-social-development/services/foreign-workers/report-abuse/tfw-tipline-infographic-spanish-en-REV.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [uht-2900-25e.pdf](https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/uht-2900/uht-2900-25e.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 |
+| [ut-2018-2018-fra.pdf](https://www.canada.ca/content/dam/tbs-sct/documents/pay/collective-agreements/ut-2018-2018-fra.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 75 |
+| [vaccination-grossesse-fiche-renseignement.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/vaccines-immunization/vaccination-grossesse-fiche-renseignement.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [vaccine-storage-entreposage-vaccins-eng.pdf](https://www.canada.ca/content/dam/canada/health-canada/migration/healthy-canadians/publications/healthy-living-vie-saine/vaccine-storage-entreposage-vaccins/alt/vaccine-storage-entreposage-vaccins-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 152 |
+| [virus-nil-occidental-et-autre-maladie-transmise-moustiques-rapport-national-surveillance-2016-version-definitive-resume-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-other-mosquito-borne-disease-national-surveillance-report-2016-final-summary/virus-nil-occidental-et-autre-maladie-transmise-moustiques-rapport-national-surveillance-2016-version-definitive-resume-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 |
+| [virus-zika-relations-sexuelles.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-sex/virus-zika-relations-sexuelles.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [visibility-guidelines-2021-12-en.pdf](https://www.canada.ca/content/dam/pedc-decp/documents/visibility-guidelines-2021-12-en.pdf) | canada.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 15 |
+| [voie-avenir.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/programs/consultation-help-modernize-development-preventive-health-care-guidelines/way-forward/voie-avenir.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 112 |
+| [west-nile-virus-other-mosquito-borne-disease-national-surveillance-report-2016-final-summary-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-other-mosquito-borne-disease-national-surveillance-report-2016-final-summary/west-nile-virus-other-mosquito-borne-disease-national-surveillance-report-2016-final-summary-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 |
+| [xeno_fact-fait-fra.pdf](https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/brgtherap/xeno_fact-fait-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [zika-5-facts-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/top-5-facts-zika-virus/zika-5-facts-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [zika-5-facts-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/top-5-facts-zika-virus/zika-5-facts-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [zika-poster-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-pregnant-planning-pregnancy-travel/zika-poster-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [zika-virus-pregnancy-virus-zika-grossesse-eng.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-pregnant-planning-pregnancy/zika-virus-pregnancy-virus-zika-grossesse-eng.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [zika-virus-pregnancy-virus-zika-grossesse-fra.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-pregnant-planning-pregnancy/zika-virus-pregnancy-virus-zika-grossesse-fra.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [zika-virus-sex.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-sex/zika-virus-sex.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [zika-virus-what-men-need-know.pdf](https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-what-men-need-know/zika-virus-what-men-need-know.pdf) | canada.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
 
 ## Files with Errors or Notes
 
@@ -6138,3 +6391,1497 @@ Generated: 2026-03-10T02:20:36.659038+00:00
 - **URL**: https://www.ontario.ca/files/2025-07/wild-chervil.pdf
 - **Status**: analysed
 - title, 
+
+### 08paap-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/hp-ps/hl-mvs/pa-ap/assets/pdfs/08paap-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 08paap-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/hp-ps/hl-mvs/pa-ap/assets/pdfs/08paap-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 16vol42_1_ar-05-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/publicat/ccdr-rmtc/16vol42/dr-rm42-1/assets/pdf/16vol42_1_ar-05-fra.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 2007_fnim-pnim_food-guide-aliment-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/fnim-pnim/2007_fnim-pnim_food-guide-aliment-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2009-2020-strategic-funding-model-infographic.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/health-system-services/innovation-strategy/2009-2020-strategic-funding-model-infographic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2012-ccpsa_ids-lcspc_idd-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/2012-ccpsa_ids-lcspc_idd/2012-ccpsa_ids-lcspc_idd-fra.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 2022-2023-review-en.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/drug-products/drug-shortages/2022-2023-review/2022-2023-review-en.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2024-2025-rapport.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/corporate/transparency/corporate-management-reporting/addressing-misconduct-wrongdoing-annual-reports/2024-2025-report/2024-2025-rapport.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### 34-18-2192-Cannabis%20NFT-Directory-FR-FINAL.PDF
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-medication/cannabis/laws-regulations/regulations-support-cannabis-act/directory-nutrition-facts-table-formats-edible/34-18-2192-Cannabis%20NFT-Directory-FR-FINAL.PDF
+- **Status**: analysed
+- title, 
+
+### 5-1-ECCC-PMRA.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/pdf/compli-conform/info-prod/minor-use-pesticide/5-1-ECCC-PMRA.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 5000-g-25e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pub/5000-g/5000-g-25e.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 5000-g-lp-25e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pub/5000-g/5000-g-lp-25e.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Background%20Check%20Consent%20Form_2024_BILINGUAL.pdf
+
+- **URL**: https://www.canada.ca/content/dam/pco-bcp/documents/sps/Background%20Check%20Consent%20Form_2024_BILINGUAL.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### CLCC0037f_Demande_assister_a_une_audience.pdf
+
+- **URL**: https://www.canada.ca/content/dam/pbc-clcc/documents/form-formulaire/CLCC0037f_Demande_assister_a_une_audience.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ENG_Lyme-Disease-Spring-Brochure-3Fold.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease/lyme-disease-may-2018/ENG_Lyme-Disease-Spring-Brochure-3Fold.pdf
+- **Status**: analysed
+- title, 
+
+### FlagDay-CrossWord-13-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/pch/documents/campaigns/national-flag-canada-day/2022/FlagDay-CrossWord-13-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### FlagDay-CrossWord-5-12-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/pch/documents/campaigns/national-flag-canada-day/2021/FlagDay-CrossWord-5-12-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### LD-REPORT2019-ENG-Final.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-report-2019/LD-REPORT2019-ENG-Final.pdf
+- **Status**: analysed
+- title, 
+
+### LPS2011-04-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-04/LPS2011-04-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### LPS2011-04-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-04/LPS2011-04-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### PHAC_CPHO-2017_Report_E.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/chief-public-health-officer-reports-state-public-health-canada/2017-designing-healthy-living/PHAC_CPHO-2017_Report_E.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### StrokeHighlights_EN.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/cd-mc/cvd-mcv/sh-fs-2011/pdf/StrokeHighlights_EN.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Victim_checkList_f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/pbc-clcc/documents/publications/Victim_checkList_f.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Victimes-Audiences-avec-laide-dun-Aine.pdf
+
+- **URL**: https://www.canada.ca/content/dam/pbc-clcc/documents/victims/Victimes-Audiences-avec-laide-dun-Aine.pdf
+- **Status**: analysed
+- title, 
+
+### _crawled_pages.json
+
+- **URL**: https://canada.ca/_crawled_pages.json
+- **Status**: error
+- Not a PDF file: .json
+
+### _referer_map.json
+
+- **URL**: https://canada.ca/_referer_map.json
+- **Status**: error
+- Not a PDF file: .json
+
+### affiche-mesures-preventives-contre-piqures-moustiques.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/poster-mosquito-bite-prevention-travellers/affiche-mesures-preventives-contre-piqures-moustiques.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### amiante-la-maison-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/asbestos-home-infographic-2018/amiante-la-maison-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ann-f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/cpip-pclcpi/assets/pdf/ann-f-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### annex_p-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/cpip-pclcpi/assets/pdf/annex_p-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### annual-edition-2018-infographic.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/diseases/lyme-disease/surveillance-lyme-disease/annual-edition-2018-infographic/annual-edition-2018-infographic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### annual-edition-2018.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/diseases/lyme-disease/surveillance-lyme-disease/annual-edition-2018/annual-edition-2018.pdf
+- **Status**: analysed
+- title, 
+
+### annual-edition-infographic.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-surveillance/2019/annual-edition-infographic/annual-edition-infographic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### annual-national-surveillance-report-en.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-surveillance/2017/annual-national-surveillance-report/annual-national-surveillance-report-en.pdf
+- **Status**: analysed
+- title, 
+
+### annual-national-surveillance-report-fr.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-surveillance/2017/annual-national-surveillance-report/annual-national-surveillance-report-fr.pdf
+- **Status**: analysed
+- title, 
+
+### appendix-2-post-clinic-evaluation-form-staff-volunteers-eng.docx
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/diseases/2019-novel-coronavirus-infection/guidance-documents/planning-guidance-for-immunization-clinics-for-covid-19-vaccines/appendix-2-post-clinic-evaluation-form-staff-volunteers-eng.docx
+- **Status**: error
+- Not a PDF file: .docx
+
+### appendix-3-client-evaluation-form-eng.docx
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/diseases/2019-novel-coronavirus-infection/guidance-documents/planning-guidance-for-immunization-clinics-for-covid-19-vaccines/appendix-3-client-evaluation-form-eng.docx
+- **Status**: error
+- Not a PDF file: .docx
+
+### ar-ei_indus-form-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/pdf/medeff/report-declaration/ar-ei_indus-form-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### aut-01-lp-25f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/aut-01/aut-01-lp-25f.pdf
+- **Status**: analysed
+- title, lang, 
+
+### canadian-consumer-chemical-product-assessment-third-edition-2023.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/consumer-product-safety/reports-publications/industry-professionals/guide-canadian-consumer-chemical-product-assessment/canadian-consumer-chemical-product-assessment-third-edition-2023.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### cbi_211_%202025_04_01_en.pdf
+
+- **URL**: https://www.canada.ca/content/dam/dnd-mdn/documents/military-pay/cbi_211_%202025_04_01_en.pdf
+- **Status**: analysed
+- title, 
+
+### cbi_dras_210_2025_06_1_fr.pdf
+
+- **URL**: https://www.canada.ca/content/dam/dnd-mdn/documents/military-pay/cbi_dras_210_2025_06_1_fr.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### ccdr-rmtc-44-1-ar07-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2018-44/ccdr-volume-44-1-january-4-2018/ccdr-rmtc-44-1-ar07-fra.pdf
+- **Status**: analysed
+- title, 
+
+### ccdr-rmtc-44-1-ar08-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2018-44/ccdr-volume-44-1-january-4-2018/ccdr-rmtc-44-1-ar08-fra.pdf
+- **Status**: analysed
+- title, 
+
+### ccdr-rmtc-44-1-ar09-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2018-44/ccdr-volume-44-1-january-4-2018/ccdr-rmtc-44-1-ar09-fra.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv46i01-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a01-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a01b-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01b-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a01c-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01c-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a01cf-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01cf-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a01d-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01d-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a01df-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01df-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a01f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a01f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a02-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a02-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a02f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a02f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a03-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a03-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a03f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a03f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a04-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a04-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a04f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a04f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a05-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a05-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a05f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a05f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a06-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a06-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a06f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a06f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a07-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a07-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i01a07f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-1-january-2-2020/ccdrv46i01a07f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i23a05f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-2-3-february-6-2020/ccdrv46i23a05f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i23a06-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-2-3-february-6-2020/ccdrv46i23a06-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i23a07-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-2-3-february-6-2020/ccdrv46i23a07-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv46i23a07f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2020-46/issue-2-3-february-6-2020/ccdrv46i23a07f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a01-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a01-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a01f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a01f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a02-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a02-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a02f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a02f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a03-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a03-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a03f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a03f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a04-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a04-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a05-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a05-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a05f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a05f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a06-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a06-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a06f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a06f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a07-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a07-eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05a07f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05a07f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i05f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-5-may-2022/ccdrv48i05f-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ccdrv48i1112a01-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a01-eng.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv48i1112a01f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a01f-fra.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv48i1112a02-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a02-eng.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv48i1112a05-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a05-eng.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv48i1112a07-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a07-eng.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv48i1112a07f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2022-48/issue-11-12-november-december-2022/ccdrv48i1112a07f-fra.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv50i12a03f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a03f-fra.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv50i12a04f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a04f-fra.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv50i12a05-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a05-eng.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv50i12a08f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a08f-fra.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv50i12a09-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a09-eng.pdf
+- **Status**: analysed
+- title, 
+
+### ccdrv50i12a09f-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/reports-publications/canada-communicable-disease-report-ccdr/monthly-issue/2024-50/issue-1-2-january-february-2024/ccdrv50i12a09f-fra.pdf
+- **Status**: analysed
+- title, 
+
+### ccpsa_retail-lcspc_detail-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/hecs-sesc/pdf/pubs/indust/ccpsa_retail-lcspc_detail/ccpsa_retail-lcspc_detail-fra.pdf
+- **Status**: analysed
+- title, lang, 
+
+### cfia-acia_amr-ram_pol-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/legislation/cfia-acia_amr-ram_pol-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cfia-acia_amr-ram_table-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/legislation/cfia-acia_amr-ram_table-fra.pdf
+- **Status**: analysed
+- title, 
+
+### cg_quick_ref-ldc_rapide_ref-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/hpfb-dgpsa/pdf/nutrition/cg_quick_ref-ldc_rapide_ref-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### child-Safe-enfant-securite-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/cons/child-enfant/child-Safe-enfant-securite-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### child-enfant_play-jeu-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/cons/child-enfant/child-enfant_play-jeu-eng.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### cit0027e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/documents/pdf/english/kits/forms/cit0027/01-01-2024/cit0027e.pdf
+- **Status**: analysed
+- title, 
+
+### citizenship-requirement-changes-2017.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/migration/ircc/english/pdf/citizenship-requirement-changes-2017.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cjd-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/nois-sinp/pdf/cjd-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### compendium-of-nutrition-symbols-recueil-des-symboles-nutritionnels.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/technical-documents-labelling-requirements/nutrition-symbol-formats-label-designers/compendium-of-nutrition-symbols-recueil-des-symboles-nutritionnels.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### complaint-resolution-en.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/complaint-resolution/complaint-resolution-en.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### complaint-resolution-fr.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/complaint-resolution/complaint-resolution-fr.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### compliance.pdf
+
+- **URL**: https://www.canada.ca/content/dam/esdc-edsc/migration/documents/eng/health_safety/pubs_hs/pdf/compliance.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### conseils-nourissons-pour-grands-parents.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/safe-sleep/infant-tips-for-grandparents/conseils-nourissons-pour-grands-parents.pdf
+- **Status**: analysed
+- title, 
+
+### dir2001-02-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pacrb-dgapcr/pdf/pubs/pest/pol-guide/dir/dir2001-02-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### dir2001-02-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pacrb-dgapcr/pdf/pubs/pest/pol-guide/dir/dir2001-02-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### dirnutrss-m-cis-24-01-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/technical-documents-labelling-requirements/nutrition-symbol-specifications/nutrition-labelling/dirnutrss-m-cis-24-01-fra.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### dismissal_hearing.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/employment-social-development/migration/documents/assets/portfolio/docs/en/reports/labour_standards/dismissal_hearing/dismissal_hearing.pdf
+- **Status**: analysed
+- title, lang, 
+
+### dose_registry_pdhs-fichier_dosimetrique_shdp-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/ewh-semt/alt_formats/pdf/occup-travail/radiation/regist/dose_registry_pdhs-fichier_dosimetrique_shdp-eng.pdf
+- **Status**: analysed
+- title, 
+
+### drinking-water-lead-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/ewh-semt/alt_formats/pdf/pubs/what-about-lead/drinking-water-lead-eng.pdf
+- **Status**: analysed
+- title, 
+
+### drinking-water-lead-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/ewh-semt/alt_formats/pdf/pubs/what-about-lead/drinking-water-lead-fra.pdf
+- **Status**: analysed
+- title, 
+
+### drug-shortages-eng-02.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/drug-products/drug-shortages/information-consumers/supply-notices/drug-shortage-infographic/drug-shortages-eng-02.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### e638a-24f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/e638a/e638a-24f.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### enf04-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/migration/ircc/english/resources/manuals/enf/enf04-eng.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### engagement-infographique.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/consumer-product-safety/about-canadian-product-safety-pledge/pledge/engagement-infographique.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### enquete-en-ligne-nouvelles-substances-psychoactives-mars-2020-mars-2023.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/online-new-psychoactive-substances-survey-march-2020-march-2023/enquete-en-ligne-nouvelles-substances-psychoactives-mars-2020-mars-2023.pdf
+- **Status**: analysed
+- title, 
+
+### evaluation-guide-good-manufacturing-practices-compliance-programs.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/drug-health-product-review-approval/compliance-enforcement/international/mutual-recognition-agreements/evaluation-guide-good-manufacturing-practices-compliance-programs/evaluation-guide-good-manufacturing-practices-compliance-programs.pdf
+- **Status**: analysed
+- title, 
+
+### ewba-mbsa-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/nutrition/prenatal/ewba-mbsa-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### food-market-author-marche-aliment-A-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/legislation/guide-ld/food-market-author-marche-aliment-A-eng.pdf
+- **Status**: analysed
+- title, 
+
+### food-market-author-marche-aliment-A-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/legislation/guide-ld/food-market-author-marche-aliment-A-fra.pdf
+- **Status**: analysed
+- title, 
+
+### form-1-part-1-and-2.doc
+
+- **URL**: https://www.canada.ca/content/dam/dnd-mdn/images/corporate/form-1-part-1-and-2.doc
+- **Status**: error
+- Not a PDF file: .doc
+
+### glossary-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/cpip-pclcpi/assets/pdf/glossary-eng.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### gluten-position-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/securit/allerg/cel-coe/gluten-position-eng.pdf
+- **Status**: analysed
+- title, 
+
+### gst31-24e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/gst31/gst31-24e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gst31-24f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/gst31/gst31-24f.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### guide-prevention.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/hazard-prevention/guide-prevention.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### guide_gestion.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/employment-social-development/migration/documents/assets/portfolio/docs/fr/rapports/sante_securite/guide_gestion.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### hey-are-you-ok-poster.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/healthy-living/alcohol-alcool/hey-are-you-ok-poster.pdf
+- **Status**: analysed
+- title, 
+
+### ic97-2-20-23e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pub/ic97-2/ic97-2-20-23e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### il3-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/migration/ircc/english/resources/manuals/il/il3-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### il3-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/migration/ircc/francais/ressources/guides/il/il3-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### imm1344.html
+
+- **URL**: https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/imm1344.html
+- **Status**: error
+- Not a PDF file: .html
+
+### imm5964.html
+
+- **URL**: https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/imm5964.html
+- **Status**: error
+- Not a PDF file: .html
+
+### impact-report-2019-2024-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/pch/images/services/funding/sport-support/ssdic/impact-report/impact-report-2019-2024-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### infographic-cleaning-faucet-aerators.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/infographic-cleaning-faucet-aerators/infographic-cleaning-faucet-aerators.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### infographie-les-restes.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/food-nutrition/infographic-leftovers/infographie-les-restes.pdf
+- **Status**: analysed
+- title, 
+
+### infographie-nettoyage-aerateurs-robinets.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/infographic-cleaning-faucet-aerators/infographie-nettoyage-aerateurs-robinets.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### infographie-preparer-une-declaration-de-la-victime-pour-scc.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ps-sp/documents/infographie-preparer-une-declaration-de-la-victime-pour-scc.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### infovigilance-produits-sante-avril-2025.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/medeffect-canada/health-product-infowatch/april-2025/infovigilance-produits-sante-avril-2025.pdf
+- **Status**: analysed
+- title, 
+
+### irm0005f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/documents/pdf/francais/trousses/form/irm0005/16-12-2022/irm0005f.pdf
+- **Status**: analysed
+- title, lang, 
+
+### it397rsr-f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pub/it397rsr/it397rsr-f.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### liste-specialistes-techniques-formulaire-consentement.docx
+
+- **URL**: https://www.canada.ca/content/dam/eccc/documents/docx/climate-change/pollution-pricing/output-based-pricing-system/liste-specialistes-techniques-formulaire-consentement.docx
+- **Status**: error
+- Not a PDF file: .docx
+
+### lps2011-01-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-01/lps2011-01-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### lps2011-02-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-02/lps2011-02-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### lps2011-03-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/pest/pol-guide/lps2011-03/lps2011-03-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### lyme-disease-brochure-mic.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease/lyme-disease-february-2022/lyme-disease-brochure-mic.pdf
+- **Status**: analysed
+- title, lang, 
+
+### lyme-disease-brochure-moh.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease/lyme-disease-february-2022/lyme-disease-brochure-moh.pdf
+- **Status**: analysed
+- title, lang, 
+
+### lyme-disease-brochure-ojg.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease/lyme-disease-february-2022/lyme-disease-brochure-ojg.pdf
+- **Status**: analysed
+- title, lang, 
+
+### lyme-disease-surveillance-2009-2019-infographic.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-2009-2019-infographic/lyme-disease-surveillance-2009-2019-infographic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### lyme-disease-surveillance-canada-annual-edition-2021.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2021/lyme-disease-surveillance-canada-annual-edition-2021.pdf
+- **Status**: analysed
+- title, 
+
+### lyme-disease-surveillance-canada-annual-edition-2022.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-edition-2022/lyme-disease-surveillance-canada-annual-edition-2022.pdf
+- **Status**: analysed
+- title, 
+
+### lyme-disease-surveillance-canada-annual-report-2020.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-annual-report-2020/lyme-disease-surveillance-canada-annual-report-2020.pdf
+- **Status**: analysed
+- title, 
+
+### lyme-disease-surveillance-canada-infographic-2019.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-infographic-2019/lyme-disease-surveillance-canada-infographic-2019.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### lyme-disease-surveillance-canada-infographic-2021.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-infographic-2021/lyme-disease-surveillance-canada-infographic-2021.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### lyme-disease-surveillance-canada-infographic-2022.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-canada-infographic-2022/lyme-disease-surveillance-canada-infographic-2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### lyme-disease-surveillance-in-canada-2020-infographic-en.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/lyme-disease-surveillance-in-canada-2020-infographic/lyme-disease-surveillance-in-canada-2020-infographic-en.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### md_licam_im_demmhom_cla3-fra.doc
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/doc/md-im/applic-demande/form/md_licam_im_demmhom_cla3-fra.doc
+- **Status**: error
+- Not a PDF file: .doc
+
+### md_licam_im_demmhom_cla3-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/pdf/md-im/applic-demande/form/md_licam_im_demmhom_cla3-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### mkat-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/hp-ps/hl-mvs/pa-ap/assets/pdfs/mkat-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### mosquito-borne-diseases-surveillance-annual-report-2019.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/mosquito-borne-diseases-surveillance-annual-report-2019/mosquito-borne-diseases-surveillance-annual-report-2019.pdf
+- **Status**: analysed
+- title, 
+
+### naci-sppl-stmt-ammalian-cell-based-influenza-vaccines-en.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/immunization/national-advisory-committee-on-immunization-naci/mammalian-cell-culture-based-influenza-vaccines/naci-sppl-stmt-ammalian-cell-based-influenza-vaccines-en.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### occupational-radiation-exposures.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/environmental-workplace-health/occupational-health-safety/occupational-radiation/national-dose-registry/occupational-radiation-exposures/occupational-radiation-exposures.pdf
+- **Status**: analysed
+- title, 
+
+### online-new-psychoactive-substances-survey-march-2020-march-2023.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/online-new-psychoactive-substances-survey-march-2020-march-2023/online-new-psychoactive-substances-survey-march-2020-march-2023.pdf
+- **Status**: analysed
+- title, 
+
+### pa-lr-15-16-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/about_apropos/atip-aiprp/assets/pdf/pa-lr-15-16-eng.pdf
+- **Status**: analysed
+- title, 
+
+### pa-lr-15-16-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/about_apropos/atip-aiprp/assets/pdf/pa-lr-15-16-fra.pdf
+- **Status**: analysed
+- title, lang, 
+
+### parl2017-one-for-one-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/tbs-sct/documents/reports/one-for-one/parl2017-one-for-one-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### partez-etranger-insectes.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/poster-travelling-abroad-insects/partez-etranger-insectes.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pdf-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/public-health/migration/publications/department-ministere/state-public-health-family-violence-2016-etat-sante-publique-violence-familiale/alt/pdf-fra.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### poster-mosquito-bite-prevention-travellers.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/poster-mosquito-bite-prevention-travellers/poster-mosquito-bite-prevention-travellers.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ppsb-ppsam-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/hp-ps/dca-dea/publications/pdf/ppsb-ppsam-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### pptc489-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/documents/pdf/english/kits/forms/pptc489-eng.pdf
+- **Status**: analysed
+- title, lang, xfa, 
+
+### pptc586-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/documents/pdf/francais/services/passeport/pptc586-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, xfa, 
+
+### pptc644-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/migration/ircc/english/passport/forms/pdf/pptc644-eng.pdf
+- **Status**: analysed
+- title, lang, 
+
+### pptc659.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/migration/ircc/francais/passeport/formulaires/pdf/pptc659.pdf
+- **Status**: analysed
+- title, lang, xfa, 
+
+### pptc662f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/ircc/migration/ircc/francais/passeport/formulaires/pdf/pptc662f.pdf
+- **Status**: analysed
+- title, lang, 
+
+### pressure-pression-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/hecs-sesc/pdf/pubs/indust/person/cosmet/pressure-pression-fra.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### prevention-guide.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/hazard-prevention/prevention-guide.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### prfs_tpfd-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/prodpharma/prfs_tpfd-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### prfs_tpfd-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/prodpharma/prfs_tpfd-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### print_eatwell_bienmang-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/hpfb-dgpsa/pdf/print_eatwell_bienmang-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pub-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/health-canada/migration/healthy-canadians/department-ministere/public-health-sante-publique/transparency-transparence/corporate-reporting-rapports-gestion/evaluation/2016-2017/zoonotic-zoonoses/alt/pub-eng.pdf
+- **Status**: analysed
+- title, 
+
+### pub-fra-0.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/health-canada/migration/healthy-canadians/department-ministere/public-health-sante-publique/transparency-transparence/corporate-reporting-rapports-gestion/evaluation/2016-2017/zoonotic-zoonoses/alt/pub-fra.pdf
+- **Status**: analysed
+- title, 
+
+### pub-fra-1.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/substance-use-spectrum-infographic/pub-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pub-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/health-canada/migration/publications/eating-nutrition/healthy-eating-strategy-canada-strategie-saine-alimentation/alt/pub-fra.pdf
+- **Status**: analysed
+- title, lang, 
+
+### pub1-eng-0.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/canadian-biosafety-standards-guidelines/guidance/human-diagnostic-activities/pub1-eng.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### pub1-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/emergency-preparedness/public-health-response-plan-biological-events/pub1-eng.pdf
+- **Status**: analysed
+- title, lang, 
+
+### pub1-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/canadian-biosafety-standards-guidelines/guidance/human-diagnostic-activities/pub1-fra.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### qualite-eau-residentielle-apres-feu-foret.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/healthy-living/residential-water-use-after-wildfire-event/qualite-eau-residentielle-apres-feu-foret.pdf
+- **Status**: analysed
+- title, 
+
+### rc378-25f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc378/rc378-25f.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rc4015-96e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4015/rc4015-96e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rc4177-25e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pub/rc4177/rc4177-25e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rc4649-24e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc4649/rc4649-24e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rc72-25e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc72/rc72-25e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rc7259x-24f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc7259x/rc7259x-24f.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rc7298-22e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc7298/rc7298-22e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rc7321-18e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc7321/rc7321-18e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rc7345-19e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/rc7345/rc7345-19e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### regulations-reglements-faqs-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/hpfb-dgpsa/pdf/label-etiquet/regulations-reglements-faqs-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### regulations-reglements-faqs-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/hpfb-dgpsa/pdf/label-etiquet/regulations-reglements-faqs-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### renseignements-consommateur.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-medication/cannabis/laws-regulations/regulations-support-cannabis-act/consumer-information/renseignements-consommateur.pdf
+- **Status**: analysed
+- title, 
+
+### resume-commentaires-consultation-publique-reglementation-cannabis.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/publications/drugs-health-products/summary-comments-public-consultation-regulation-cannabis/resume-commentaires-consultation-publique-reglementation-cannabis.pdf
+- **Status**: analysed
+- title, 
+
+### right-to-refuse-fr.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/employment-social-development/services/health-safety/reports/right-to-refuse/right-to-refuse-fr.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### risk-risques-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/ahc-asc/alt_formats/hpfb-dgpsa/pdf/pubs/risk-risques-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### sample-ATIP-shared-services-agreements-anonymized.docx
+
+- **URL**: https://www.canada.ca/content/dam/tbs-sct/images/access-information-privacy/sample-ATIP-shared-services-agreements-anonymized.docx
+- **Status**: error
+- Not a PDF file: .docx
+
+### ser-des_form-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/pdf/medeff/report-declaration/ser-des_form-eng.pdf
+- **Status**: analysed
+- title, lang, 
+
+### sfm-scale-up-experience-innovation-strategy-infographic.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/health-system-services/innovation-strategy/sfm-scale-up-experience-innovation-strategy-infographic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### sk-class-exemption-for-designated-admins-en.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/hc-ps/alt_formats/hecs-sesc/pdf/substancontrol/pol/pol-docs/sk-class-exemption-for-designated-admins-en.pdf
+- **Status**: analysed
+- title, 
+
+### sk-class-exemption-for-designated-admins-fr.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/hc-ps/alt_formats/hecs-sesc/pdf/substancontrol/pol/pol-docs/sk-class-exemption-for-designated-admins-fr.pdf
+- **Status**: analysed
+- title, 
+
+### sleep-coucher-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pdf/pubs/cons/child-enfant/sleep-coucher-fra.pdf
+- **Status**: analysed
+- title, 
+
+### special-access-program-form-c-follow-up-information-further-c08-010-1bi-en.docx
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/special-access/drugs/special-access-program-form-c-follow-up-information-further-c08-010-1bi-en.docx
+- **Status**: error
+- Not a PDF file: .docx
+
+### special-access-program-form-d-pre-positioning-request-en.docx
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/documents/services/drugs-health-products/special-access/drugs/special-access-program-form-d-pre-positioning-request-en.docx
+- **Status**: error
+- Not a PDF file: .docx
+
+### spn2001-01-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pacrb-dgapcr/pdf/pubs/pest/pol-guide/spn/spn2001-01-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### spn2002-01-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/cps-spc/alt_formats/pacrb-dgapcr/pdf/pubs/pest/pol-guide/spn/spn2002-01-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### stroke-vasculaires-canada-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/stroke-vasculaires/stroke-vasculaires-canada-eng.pdf
+- **Status**: analysed
+- title, 
+
+### surveillance-maladie-lyme-canada-rapport-annuelle-2020.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions//lyme-disease-surveillance-canada-annual-report-2020/surveillance-maladie-lyme-canada-rapport-annuelle-2020.pdf
+- **Status**: analysed
+- title, 
+
+### surveillance-streptococca-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/healthy-canadians/migration/publications/drugs-products-medicaments-produits/2013-streptococcus/alt/surveillance-streptococca-eng.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### t1206-00e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t1206/t1206-00e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### t1261-23e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t1261/t1261-23e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### t2036-89e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t2036/t2036-89e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### t2205-25e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t2205/t2205-25e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### t2sch49-98f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t2sch49/t2sch49-98f.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### t2sch9-98f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t2sch9/t2sch9-98f.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### t4004-88e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pub/t4004/t4004-88e.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### t4012-90f.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pub/t4012/t4012-90f.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### t4fhsa-25b.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/t4fhsa/t4fhsa-25b.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tfw-tipline-infographic-spanish-en-REV.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/employment-social-development/services/foreign-workers/report-abuse/tfw-tipline-infographic-spanish-en-REV.pdf
+- **Status**: analysed
+- title, 
+
+### uht-2900-25e.pdf
+
+- **URL**: https://www.canada.ca/content/dam/cra-arc/formspubs/pbg/uht-2900/uht-2900-25e.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ut-2018-2018-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/tbs-sct/documents/pay/collective-agreements/ut-2018-2018-fra.pdf
+- **Status**: analysed
+- title, lang, 
+
+### vaccination-grossesse-fiche-renseignement.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/vaccines-immunization/vaccination-grossesse-fiche-renseignement.pdf
+- **Status**: analysed
+- title, 
+
+### vaccine-storage-entreposage-vaccins-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/canada/health-canada/migration/healthy-canadians/publications/healthy-living-vie-saine/vaccine-storage-entreposage-vaccins/alt/vaccine-storage-entreposage-vaccins-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### virus-nil-occidental-et-autre-maladie-transmise-moustiques-rapport-national-surveillance-2016-version-definitive-resume-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-other-mosquito-borne-disease-national-surveillance-report-2016-final-summary/virus-nil-occidental-et-autre-maladie-transmise-moustiques-rapport-national-surveillance-2016-version-definitive-resume-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### virus-zika-relations-sexuelles.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-sex/virus-zika-relations-sexuelles.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### visibility-guidelines-2021-12-en.pdf
+
+- **URL**: https://www.canada.ca/content/dam/pedc-decp/documents/visibility-guidelines-2021-12-en.pdf
+- **Status**: analysed
+- title, lang, 
+
+### voie-avenir.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/programs/consultation-help-modernize-development-preventive-health-care-guidelines/way-forward/voie-avenir.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### west-nile-virus-other-mosquito-borne-disease-national-surveillance-report-2016-final-summary-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/west-nile-virus-other-mosquito-borne-disease-national-surveillance-report-2016-final-summary/west-nile-virus-other-mosquito-borne-disease-national-surveillance-report-2016-final-summary-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### xeno_fact-fait-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/dhp-mps/alt_formats/hpfb-dgpsa/pdf/brgtherap/xeno_fact-fait-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### zika-5-facts-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/top-5-facts-zika-virus/zika-5-facts-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### zika-5-facts-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/top-5-facts-zika-virus/zika-5-facts-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### zika-poster-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-pregnant-planning-pregnancy-travel/zika-poster-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### zika-virus-pregnancy-virus-zika-grossesse-eng.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-pregnant-planning-pregnancy/zika-virus-pregnancy-virus-zika-grossesse-eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### zika-virus-pregnancy-virus-zika-grossesse-fra.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-pregnant-planning-pregnancy/zika-virus-pregnancy-virus-zika-grossesse-fra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### zika-virus-sex.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-sex/zika-virus-sex.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### zika-virus-what-men-need-know.pdf
+
+- **URL**: https://www.canada.ca/content/dam/phac-aspc/documents/services/publications/diseases-conditions/zika-virus-what-men-need-know/zika-virus-what-men-need-know.pdf
+- **Status**: analysed
+- title, tagged, lang, 

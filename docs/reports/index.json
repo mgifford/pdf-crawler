@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-03-10T15:15:03.294997+00:00",
+    "site": "canada.ca",
+    "crawl_url": "https://www.canada.ca",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22902803883",
+    "archive_file": "2026-03-10_15-15-03-294_canada.ca.html",
+    "total": 5233,
+    "analysed": 1254,
+    "accessible": 316
+  },
+  {
     "date": "2026-03-10T02:20:36.659038+00:00",
     "site": "ontario.ca",
     "crawl_url": "https://www.Ontario.ca",
