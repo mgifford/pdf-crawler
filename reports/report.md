@@ -1,27 +1,27 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-10T19:53:20.338851+00:00
+Generated: 2026-03-11T00:24:50.588946+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 98 |
-| Total files tracked | 5249 |
-| Analysed | 1270 |
-| Pending analysis | 3819 |
+| Total files tracked | 5699 |
+| Analysed | 1643 |
+| Pending analysis | 3896 |
 | Errors during analysis | 160 |
-| Accessible | 317 |
-| Totally inaccessible | 20 |
-| Broken / unreadable | 0 |
-| Exempt (pre-2018) | 458 |
+| Accessible | 467 |
+| Totally inaccessible | 24 |
+| Broken / unreadable | 2 |
+| Exempt (pre-2018) | 571 |
 
 ## Files per Site
 
 | Site | Files |
 |------|-------|
 | canada.ca | 496 |
-| ed.gov | 2795 |
+| cms.gov | 373 |
+| ed.gov | 2872 |
 | energy.gov | 417 |
 | gsa.gov | 450 |
 | nsf.gov | 1024 |
@@ -1301,6 +1301,379 @@ Generated: 2026-03-10T19:53:20.338851+00:00
 | [ons_stad_23-1986_18-19.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_23-1986_18-19.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
 | [ons_stad_49-1995_12-14.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_49-1995_12-14.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 |
 | [ons_stad_93-2010_58-61.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_93-2010_58-61.pdf) | vdl.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [01302019_non_fed_101_slides.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/01302019_non_fed_101_slides.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 25 |
+| [11082012-teleconference-transcript.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/11082012-teleconference-transcript.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 11 |
+| [1998d001.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d001.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 20 |
+| [1998d002.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d002.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 |
+| [1998d003.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d003.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 10 |
+| [1998d004.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d004.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 19 |
+| [1998d005.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d005.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 |
+| [1998d006.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d006.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 |
+| [1998d007.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d007.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 14 |
+| [2013-navigator-foa-4-9-2013.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/2013-navigator-foa-4-9-2013.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 41 |
+| [2014-risk-corridors-validation-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2014-risk-corridors-validation-instructions.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 37 |
+| [2014_medical_loss_ratio_report.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2014_medical_loss_ratio_report.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [2016-unified-rate-review-instructions-20150222-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2016-unified-rate-review-instructions-20150222-final.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 69 |
+| [2017-ncci-correspondence-manual.pdf](https://www.cms.gov/medicare/coding/nationalcorrectcodinited/downloads/2017-ncci-correspondence-manual.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 |
+| [2019-rrj-instructions.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/2019-rrj-instructions.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 19 |
+| [2019-urr-instructions.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/2019-urr-instructions.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 73 |
+| [2020-draft-urr-instructions-508d.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2020-draft-urr-instructions-508d.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 |
+| [2020-urr-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2020-urr-instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 |
+| [2021-enforcement-safe-harbor-product-discontinuation-notices.pdf](https://www.cms.gov/files/document/2021-enforcement-safe-harbor-product-discontinuation-notices.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2021-urr-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2021-urr-instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 49 |
+| [2022-mhpaea-report-congress.pdf](https://www.cms.gov/files/document/2022-mhpaea-report-congress.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 54 |
+| [2023-mhpaea-report-congress.pdf](https://www.cms.gov/files/document/2023-mhpaea-report-congress.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 119 |
+| [2023-open-enrollment-report-infographic.pdf](https://www.cms.gov/marketplace/outreach-and-education/2023-open-enrollment-report-infographic.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2024-145-ipfema-exception-memo-hurricane-francinefinal508.pdf](https://www.cms.gov/files/document/2024-145-ipfema-exception-memo-hurricane-francinefinal508.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [2024-146-ipfema-exception-memo-hurricanes-helene-miltonfinal508.pdf](https://www.cms.gov/files/document/2024-146-ipfema-exception-memo-hurricanes-helene-miltonfinal508.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [2024-mhpaea-report-congress.pdf](https://www.cms.gov/files/document/2024-mhpaea-report-congress.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 142 |
+| [2025-74-ipfematexasflooding508.pdf](https://www.cms.gov/files/document/2025-74-ipfematexasflooding508.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [2025-ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf](https://www.cms.gov/files/document/2025-ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [303d.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/303d.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 |
+| [5-things-about-svi.pdf](https://www.cms.gov/marketplace/technical-assistance-resources/5-things-about-svi.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 5 |
+| [508_cms-10379-2017-unified-rate-review-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/508_cms-10379-2017-unified-rate-review-instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 78 |
+| [508_cms-10379-rate-review-supporting-statement.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/508_cms-10379-rate-review-supporting-statement.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 9 |
+| [FINAL-2017-Unified-Rate-Review-Instructions.pdf](https://www.cms.gov/CCIIO/Resources/Forms-Reports-and-Other-Resources/Downloads/FINAL-2017-Unified-Rate-Review-Instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 78 |
+| [Grants-to-States-Added-Flexibility-2018.pdf](https://www.cms.gov/CCIIO/Resources/Funding-Opportunities/Downloads/Grants-to-States-Added-Flexibility-2018.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 70 |
+| [Overview.pdf](https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/NursingHomeQualityInits/Downloads/Overview.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [abn-alternative-format-sample-for-labs.pdf](https://www.cms.gov/medicare/medicare-general-information/bni/downloads/abn-alternative-format-sample-for-labs.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [abn-form-instructions.pdf](https://www.cms.gov/medicare/medicare-general-information/bni/downloads/abn-form-instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [add-code-file-enhanced-format-document.pdf](https://www.cms.gov/files/document/add-code-file-enhanced-format-document.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [agent-broker-help-desks.pdf](https://www.cms.gov/marketplace/agents-brokers/files/agent-broker-help-desks.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [amended-spring-2012-establishment-foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/amended-spring-2012-establishment-foa.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 79 |
+| [annrpt03.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt03.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 |
+| [annrpt06.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt06.pdf) | cms.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 19 |
+| [asc_hai_map.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/asc_hai_map.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [august_10_foa_teleconference_transcript0816_final.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/august_10_foa_teleconference_transcript0816_final.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 48 |
+| [authorizationform.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/authorizationform.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [black-and-white.pdf](https://www.cms.gov/files/document/emtala-poster-non-medicaid-participating-spanish/black-and-white.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [bp102c07.pdf](https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/downloads/bp102c07.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 108 |
+| [bp102c13.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/bp102c13.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 70 |
+| [cac-assign-cac-idpdf.pdf](https://www.cms.gov/files/document/cac-assign-cac-idpdf.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [cciio-behavioral-health-report-508.pdf](https://www.cms.gov/files/document/cciio-behavioral-health-report-508.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [cdo-organizational-maintenance-web-form-user-guide.pdf](https://www.cms.gov/marketplace/technical-assistance-resources/cdo-organizational-maintenance-web-form-user-guide.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 57 |
+| [change-table-proposed-hh-qrp-items-effective-january-1-2021.pdf](https://www.cms.gov/files/document/change-table-proposed-hh-qrp-items-effective-january-1-2021.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [clm104c06.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c06.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 97 |
+| [clm104c08.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c08.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 89 |
+| [clm104c10.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c10.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 95 |
+| [clm104c15.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c15.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 56 |
+| [clm104c30.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c30.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 195 |
+| [cms-10459-certification.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/cms-10459-certification.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [cms-10459-enrollee-notice.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/cms-10459-enrollee-notice.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [cms-request-for-review-cobra-premium-assist-denial.pdf](https://www.cms.gov/cciio/resources/files/downloads/cms-request-for-review-cobra-premium-assist-denial.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 |
+| [cms_rtc_hrp_final073109.pdf](https://www.cms.gov/cciio/resources/files/downloads/cms_rtc_hrp_final073109.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 24 |
+| [consumer_assistance_program_grant_foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/consumer_assistance_program_grant_foa.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 24 |
+| [contact_list.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/medicareprovidersupenroll/downloads/contact_list.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 37 |
+| [coop-foa-transcript-20120301.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120301.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 |
+| [coop-foa-transcript-20120516.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 28 |
+| [cycle_i_rate_review_grant-rerelease_territories.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_i_rate_review_grant-rerelease_territories.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 26 |
+| [cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 55 |
+| [detailed-explanation-non-coverage-instructions-eff-jan-2025.pdf](https://www.cms.gov/files/document/detailed-explanation-non-coverage-instructions-eff-jan-2025.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [document-5-csr-reconciliation-attestation-form-a-benefit-year-2019-or-2018.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-5-csr-reconciliation-attestation-form-a-benefit-year-2019-or-2018.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf) | cms.gov | — | — | — | — | — | — | — | ❌ Fail | None |
+| [document-6-csr-reconciliation-attestation-form-b-benefit-year-2019-or-2018.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-6-csr-reconciliation-attestation-form-b-benefit-year-2019-or-2018.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [document-6-csr-reconciliation-attestation-form-b-benefit-year-2020-or-2019.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-6-csr-reconciliation-attestation-form-b-benefit-year-2020-or-2019.pdf) | cms.gov | — | — | — | — | — | — | — | ❌ Fail | None |
+| [early_innovator_grants.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/early_innovator_grants.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 41 |
+| [eaw-grant-fact-sheet.pdf](https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [eaw-grant-pre-application-call-slides.pdf](https://www.cms.gov/files/document/eaw-grant-pre-application-call-slides.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [eaw-grant-program-proposed-state-activities-final.pdf](https://www.cms.gov/files/document/eaw-grant-program-proposed-state-activities-final.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [effective-rate-review-survey-instructions-20150202-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/effective-rate-review-survey-instructions-20150202-final.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 |
+| [ehb-grant-external-faq508.pdf](https://www.cms.gov/files/document/ehb-grant-external-faq508.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [err-determination-and-status-questions-5-20-14.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/err-determination-and-status-questions-5-20-14.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 |
+| [exchange_planning_grant_foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/exchange_planning_grant_foa.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 20 |
+| [expanding-access-womens-health-grant-program-nofo.pdf](https://www.cms.gov/files/document/expanding-access-womens-health-grant-program-nofo.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 66 |
+| [faqs-for-tpa-issuer-user-fee-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/faqs-for-tpa-issuer-user-fee-final.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 5 |
+| [ffe-user-fee-adj-webform-quick-start-guide.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/ffe-user-fee-adj-webform-quick-start-guide.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 19 |
+| [final-navigator-2014-foa-06-10-2014.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final-navigator-2014-foa-06-10-2014.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 58 |
+| [final-oasis-e2-manual-04-01-2026.pdf](https://www.cms.gov/files/document/final-oasis-e2-manual-04-01-2026.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 346 |
+| [final_premium_review_grant_solicitation_with_disclosure_statement.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final_premium_review_grant_solicitation_with_disclosure_statement.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 26 |
+| [fm-1a-risk-adj-overview.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1a-risk-adj-overview.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 9 |
+| [fm-1b-risk-adj-final-rule.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1b-risk-adj-final-rule.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 10 |
+| [fm-1c-risk-adj-model.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1c-risk-adj-model.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 22 |
+| [fm-1d-p-and-c.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1d-p-and-c.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 40 |
+| [fm-1e-state-flex.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1e-state-flex.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 |
+| [fm-2a-fed-ra-ov-dv.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-2a-fed-ra-ov-dv.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 24 |
+| [fm-2b-dist-mdl-tech-prop.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-2b-dist-mdl-tech-prop.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 6 |
+| [fm-2c-state-flex-imp.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-2c-state-flex-imp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 |
+| [foa_exchange_establishment.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_exchange_establishment.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 89 |
+| [foa_territories_establishment.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_territories_establishment.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 44 |
+| [foia-faq-2022.pdf](https://www.cms.gov/files/document/foia-faq-2022.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [foiaappeal.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [foiafaq.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiafaq.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [foiahandbook.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiahandbook.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 28 |
+| [foiarequestletter.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [foiarequestletterdeceasedbene.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterdeceasedbene.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [foiarequestletterlivingbene.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [foiarequestletterownrecords.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterownrecords.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [fraud-abuse-mln4649244.pdf](https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/downloads/fraud-abuse-mln4649244.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 23 |
+| [fy2010aschai.pdf](https://www.cms.gov/regulations-and-guidance/legislation/recovery/downloads/fy2010aschai.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 |
+| [fy2018-mhpaea-enforcement-report.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/fy2018-mhpaea-enforcement-report.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [fy_2012_final_hacscodelist.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitalacqcond/downloads/fy_2012_final_hacscodelist.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [fy_2013_final_hacscodelist.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitalacqcond/downloads/fy_2013_final_hacscodelist.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [grants-to-states-added-flexibility-2020.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2020.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 72 |
+| [guide-home-health-help-desks-updated-january-2024.pdf](https://www.cms.gov/files/document/guide-home-health-help-desks-updated-january-2024.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [hh-qrp-measure-specificationschanges-skin-integrity2023.pdf](https://www.cms.gov/files/document/hh-qrp-measure-specificationschanges-skin-integrity2023.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [hhccn-form-cms10280-instructions-exp-2027.pdf](https://www.cms.gov/files/document/hhccn-form-cms10280-instructions-exp-2027.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [hhs-2008-mhpaea-enforcement-period.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/hhs-2008-mhpaea-enforcement-period.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [hhvbp-exp-tech-exp-panel-rpt-2024.pdf](https://www.cms.gov/files/document/hhvbp-exp-tech-exp-panel-rpt-2024.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [hhvbp-exp-tech-exp-panel-rpt.pdf](https://www.cms.gov/files/document/hhvbp-exp-tech-exp-panel-rpt.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 |
+| [hhvbp-first-annual-rpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/hhvbp-first-annual-rpt.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 60 |
+| [hhvbp-firstannrpt-app-qual.pdf](https://www.cms.gov/priorities/innovation/files/reports/hhvbp-firstannrpt-app-qual.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 8 |
+| [hhvbp-firstannrpt-app-quan.pdf](https://www.cms.gov/priorities/innovation/files/reports/hhvbp-firstannrpt-app-quan.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 65 |
+| [hhvbp-firstannrpt-app-supptablesresults.pdf](https://www.cms.gov/priorities/innovation/files/reports/hhvbp-firstannrpt-app-supptablesresults.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 29 |
+| [hhvbp-odf-homehealthagencies.pdf](https://www.cms.gov/priorities/innovation/files/slides/hhvbp-odf-homehealthagencies.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 30 |
+| [hhvbp-secann-rpt-fg.pdf](https://www.cms.gov/priorities/innovation/hhvbp-secann-rpt-fg.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [hios-non-federal-governmental-health-plan-module-training.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/hios-non-federal-governmental-health-plan-module-training.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 68 |
+| [hios-nonfed-usermanual.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/hios-nonfed-usermanual.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 34 |
+| [hios-rate-review-technical-instructions-for-states-and-health-insurance-issuers.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/hios-rate-review-technical-instructions-for-states-and-health-insurance-issuers.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 47 |
+| [hipaa-exemption-guidance-7212014.pdf](https://www.cms.gov/files/document/hipaa-exemption-guidance-7212014.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [hipaaoptouts-0725.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/hipaaoptouts-0725.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [hipaaoptouts03182021.pdf](https://www.cms.gov/files/document/hipaaoptouts03182021.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [home-health-oasis-all-payer-qa-november-2024.pdf](https://www.cms.gov/files/document/home-health-oasis-all-payer-qa-november-2024.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [hospice-certifying-enrollment-faqs.pdf](https://www.cms.gov/files/document/hospice-certifying-enrollment-faqs.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [hospital-appeals-provider-listing.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/hospital-appeals-provider-listing.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 39 |
+| [ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf](https://www.cms.gov/files/document/ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [ignagni.pdf](https://www.cms.gov/cciio/resources/files/downloads/dwnlds/ignagni.pdf) | cms.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [instructions_for_the_redacted_actuarial_memorandum_20150416.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/instructions_for_the_redacted_actuarial_memorandum_20150416.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [issuer-jobaid-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/issuer-jobaid-final.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 6 |
+| [letter_to_j_cline.pdf](https://www.cms.gov/cciio/resources/files/downloads/letter_to_j_cline.pdf) | cms.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 29 |
+| [market-reforms-aca-and-hipaa-grandfathered-plan-provisions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/market-reforms-aca-and-hipaa-grandfathered-plan-provisions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 11 |
+| [market-reforms-aca-and-hipaa-non-grandfathered-plan-provisions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/market-reforms-aca-and-hipaa-non-grandfathered-plan-provisions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 24 |
+| [marketplace-casework-overview.pdf](https://www.cms.gov/marketplace/technical-assistance-resources/marketplace-casework-overview.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 |
+| [medical_loss_ratio_2016_annual_reportpdf.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/medical_loss_ratio_2016_annual_reportpdf.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 7 |
+| [medical_loss_ratio_annual_report_2016-11-22.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/medical_loss_ratio_annual_report_2016-11-22.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [mhpaea-enforcement-2019-fact-sheet-appendix.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/mhpaea-enforcement-2019-fact-sheet-appendix.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [mhpaea-enforcement-2019.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/mhpaea-enforcement-2019.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [mhpaea-enforcement-2020-fact-sheet-appendix.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/mhpaea-enforcement-2020-fact-sheet-appendix.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [mhpaea-enforcement-2020.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/mhpaea-enforcement-2020.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [mhpaea-enforcement-2022-fact-sheet-appendix.pdf](https://www.cms.gov/files/document/mhpaea-enforcement-2022-fact-sheet-appendix.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [mhpaea-enforcement-2022.pdf](https://www.cms.gov/files/document/mhpaea-enforcement-2022.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [mhpaea-enforcement-2023.pdf](https://www.cms.gov/files/document/mhpaea-enforcement-2023.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [mhpaea-nqtl-presentation-non-federal-governmental-plans.pdf](https://www.cms.gov/files/document/mhpaea-nqtl-presentation-non-federal-governmental-plans.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 |
+| [mhpaea-presentation.pdf](https://www.cms.gov/files/document/mhpaea-presentation.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 50 |
+| [mln006397-federally-qualified-health-center.pdf](https://www.cms.gov/files/document/mln006397-federally-qualified-health-center.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [mln006398-information-rural-health-clinics.pdf](https://www.cms.gov/files/document/mln006398-information-rural-health-clinics.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [mm11808-limitation-recoupment-medicare-overpayments.pdf](https://www.cms.gov/files/document/mm11808-limitation-recoupment-medicare-overpayments.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mm13390-icd-10-other-coding-revisions-national-coverage-determinations-april-2024-update-cr-1-2.pdf](https://www.cms.gov/files/document/mm13390-icd-10-other-coding-revisions-national-coverage-determinations-april-2024-update-cr-1-2.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mm13391-icd-10-other-coding-revisions-national-coverage-determinations-april-2024-update-cr-2-2.pdf](https://www.cms.gov/files/document/mm13391-icd-10-other-coding-revisions-national-coverage-determinations-april-2024-update-cr-2-2.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mm13449-stay-enrollment.pdf](https://www.cms.gov/files/document/mm13449-stay-enrollment.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [mm13480-refillable-dmepos-documentation-requirements.pdf](https://www.cms.gov/files/document/mm13480-refillable-dmepos-documentation-requirements.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mm13481-ambulatory-surgical-center-payment-system-january-2024-update.pdf](https://www.cms.gov/files/document/mm13481-ambulatory-surgical-center-payment-system-january-2024-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [mm13485-appropriate-use-criteria-advanced-diagnostic-imaging-cy-2024-update.pdf](https://www.cms.gov/files/document/mm13485-appropriate-use-criteria-advanced-diagnostic-imaging-cy-2024-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [mm13487-diabetes-screening-definitions-update-cy-2024-physician-fee-schedule-final-rule.pdf](https://www.cms.gov/files/document/mm13487-diabetes-screening-definitions-update-cy-2024-physician-fee-schedule-final-rule.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [mm13501-hcpcs-codes-used-skilled-nursing-facility-consolidated-billing-enforcement-april-2024.pdf](https://www.cms.gov/files/document/mm13501-hcpcs-codes-used-skilled-nursing-facility-consolidated-billing-enforcement-april-2024.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [mm13503-specimen-collection-fees-and-travel-allowance-2024-update.pdf](https://www.cms.gov/files/document/mm13503-specimen-collection-fees-and-travel-allowance-2024-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [mm13507-icd-10-other-coding-revisions-national-coverage-determinations-july-2024-update.pdf](https://www.cms.gov/files/document/mm13507-icd-10-other-coding-revisions-national-coverage-determinations-july-2024-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mm13513-pulmonary-rehabilitation-cardiac-rehabilitation-intensive-cardiac-rehabilitation-expansion.pdf](https://www.cms.gov/files/document/mm13513-pulmonary-rehabilitation-cardiac-rehabilitation-intensive-cardiac-rehabilitation-expansion.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mm13531-hospice-claims-edits-certifying-physicians.pdf](https://www.cms.gov/files/document/mm13531-hospice-claims-edits-certifying-physicians.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [mm13541-clinical-laboratory-fee-schedule-laboratory-services-reasonable-charge-payment-quarterly.pdf](https://www.cms.gov/files/document/mm13541-clinical-laboratory-fee-schedule-laboratory-services-reasonable-charge-payment-quarterly.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mm13546-new-waived-tests.pdf](https://www.cms.gov/files/document/mm13546-new-waived-tests.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [mm13548-medicare-claims-processing-manual-updates-hcpcs-billing-codes-advance-beneficiary-notice-non.pdf](https://www.cms.gov/files/document/mm13548-medicare-claims-processing-manual-updates-hcpcs-billing-codes-advance-beneficiary-notice-non.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mm13554-changes-laboratory-national-coverage-determination-edit-software-july-2024-update.pdf](https://www.cms.gov/files/document/mm13554-changes-laboratory-national-coverage-determination-edit-software-july-2024-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mm13568-hospital-outpatient-prospective-payment-system-april-2024-update.pdf](https://www.cms.gov/files/document/mm13568-hospital-outpatient-prospective-payment-system-april-2024-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [mm13574-dmepos-fee-schedule-april-2024-quarterly-update.pdf](https://www.cms.gov/files/document/mm13574-dmepos-fee-schedule-april-2024-quarterly-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [mm13577-ambulatory-surgical-center-payment-update-april-2024.pdf](https://www.cms.gov/files/document/mm13577-ambulatory-surgical-center-payment-update-april-2024.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [mm13604-national-coverage-determination-11023-allogeneic-hematopoietic-stem-cell-transplantation.pdf](https://www.cms.gov/files/document/mm13604-national-coverage-determination-11023-allogeneic-hematopoietic-stem-cell-transplantation.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [mm13651-medicare-benefit-policy-manual-update-dmepos-benefit-category-determinations.pdf](https://www.cms.gov/files/document/mm13651-medicare-benefit-policy-manual-update-dmepos-benefit-category-determinations.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [mm13656-ambulatory-surgical-center-payment-update-july-2024.pdf](https://www.cms.gov/files/document/mm13656-ambulatory-surgical-center-payment-update-july-2024.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [mm13658-dmepos-fee-schedule-july-2024-quarterly-update.pdf](https://www.cms.gov/files/document/mm13658-dmepos-fee-schedule-july-2024-quarterly-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [mm13707-hospice-payments-fy-2025-update.pdf](https://www.cms.gov/files/document/mm13707-hospice-payments-fy-2025-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [mm13750-revisions-medicare-part-b-coverage-pneumococcal-vaccinations-policy.pdf](https://www.cms.gov/files/document/mm13750-revisions-medicare-part-b-coverage-pneumococcal-vaccinations-policy.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [mm13766-inpatient-psychiatric-facilities-prospective-payment-system-fy-2025-updates.pdf](https://www.cms.gov/files/document/mm13766-inpatient-psychiatric-facilities-prospective-payment-system-fy-2025-updates.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [mm13838-home-health-prospective-payment-system-cy-2025-rate-update.pdf](https://www.cms.gov/files/document/mm13838-home-health-prospective-payment-system-cy-2025-rate-update.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [mm13918-billing-instructions-expedited-determinations-based-medicare-change-status-notifications.pdf](https://www.cms.gov/files/document/mm13918-billing-instructions-expedited-determinations-based-medicare-change-status-notifications.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [navigator-2016-foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/navigator-2016-foa.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 86 |
+| [navigator_2015_foa_final_04_15_2015.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/navigator_2015_foa_final_04_15_2015.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 78 |
+| [non-federal-governmental-plans-mhpaea-presentation-6-4-19.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/non-federal-governmental-plans-mhpaea-presentation-6-4-19.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 45 |
+| [notice-medicare-non-coverage-instructions-eff-jan-2025.pdf](https://www.cms.gov/files/document/notice-medicare-non-coverage-instructions-eff-jan-2025.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [oasis-e2-draft-508-11-14-25.pdf](https://www.cms.gov/files/document/oasis-e2-draft-508-11-14-25.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 344 |
+| [opt_out_memo.pdf](https://www.cms.gov/cciio/resources/files/downloads/opt_out_memo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 |
+| [pac-hha-cy2024-compliant-apu-20240125.pdf](https://www.cms.gov/files/document/pac-hha-cy2024-compliant-apu-20240125.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 203 |
+| [pac-hha-cy2024-excluded-apu-20240125.pdf](https://www.cms.gov/files/document/pac-hha-cy2024-excluded-apu-20240125.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 449 |
+| [pac-hha-cy2024-non-compliant-apu-20240125.pdf](https://www.cms.gov/files/document/pac-hha-cy2024-non-compliant-apu-20240125.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [pac-hha-cy2025-compliant-apu-20250131.pdf](https://www.cms.gov/files/document/pac-hha-cy2025-compliant-apu-20250131.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 190 |
+| [pac-hha-cy2025-excluded-apu-20250131.pdf](https://www.cms.gov/files/document/pac-hha-cy2025-excluded-apu-20250131.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 466 |
+| [pac-hha-cy2025-non-compliant-apu-20250131.pdf](https://www.cms.gov/files/document/pac-hha-cy2025-non-compliant-apu-20250131.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 |
+| [parts-c-and-d-enrollee-grievances-organization-coverage-determinations-and-appeals-guidance.pdf](https://www.cms.gov/medicare/appeals-and-grievances/mmcag/downloads/parts-c-and-d-enrollee-grievances-organization-coverage-determinations-and-appeals-guidance.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 117 |
+| [patients-bill-of-rights09232011a.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/patients-bill-of-rights09232011a.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 |
+| [pre-call-application-ecp-grant-final.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/pre-call-application-ecp-grant-final.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 20 |
+| [provider-demographic-updates-jan-2026.pdf](https://www.cms.gov/files/document/provider-demographic-updates-jan-2026.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [py-26-individual-market-rate-filing-instructions.pdf](https://www.cms.gov/files/document/py-26-individual-market-rate-filing-instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [r12238fm.pdf](https://www.cms.gov/files/document/r12238fm.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12403cp.pdf](https://www.cms.gov/files/document/r12403cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12438msp.pdf](https://www.cms.gov/files/document/r12438msp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 65 |
+| [r12439cp.pdf](https://www.cms.gov/files/document/r12439cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 37 |
+| [r12440otn.pdf](https://www.cms.gov/files/document/r12440otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [r12441otn.pdf](https://www.cms.gov/files/document/r12441otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [r12443cp.pdf](https://www.cms.gov/files/document/r12443cp.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [r12448cp.pdf](https://www.cms.gov/files/document/r12448cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 21 |
+| [r12449cp.pdf](https://www.cms.gov/files/document/r12449cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 233 |
+| [r12468pi.pdf](https://www.cms.gov/files/document/r12468pi.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12472cp.pdf](https://www.cms.gov/files/document/r12472cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12473cp.pdf](https://www.cms.gov/files/document/r12473cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12474cp.pdf](https://www.cms.gov/files/document/r12474cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12477cp.pdf](https://www.cms.gov/files/document/r12477cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [r12487otn.pdf](https://www.cms.gov/files/document/r12487otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [r12492fm.pdf](https://www.cms.gov/files/document/r12492fm.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12493otn.pdf](https://www.cms.gov/files/document/r12493otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [r12496demo.pdf](https://www.cms.gov/files/document/r12496demo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12497bp.pdf](https://www.cms.gov/files/document/r12497bp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [r12497cp.pdf](https://www.cms.gov/files/document/r12497cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [r12499cp.pdf](https://www.cms.gov/files/document/r12499cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12501cp.pdf](https://www.cms.gov/files/document/r12501cp.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [r12503cp.pdf](https://www.cms.gov/files/document/r12503cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12506otn.pdf](https://www.cms.gov/files/document/r12506otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [r12508otn.pdf](https://www.cms.gov/files/document/r12508otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [r12509fm.pdf](https://www.cms.gov/files/document/r12509fm.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 31 |
+| [r12511cp.pdf](https://www.cms.gov/files/document/r12511cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [r12513otn.pdf](https://www.cms.gov/files/document/r12513otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [r12514pi.pdf](https://www.cms.gov/files/document/r12514pi.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 33 |
+| [r12515pi.pdf](https://www.cms.gov/files/document/r12515pi.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 27 |
+| [r12516bp.pdf](https://www.cms.gov/files/document/r12516bp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12517cp.pdf](https://www.cms.gov/files/document/r12517cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [r12518otn.pdf](https://www.cms.gov/files/document/r12518otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12519cp.pdf](https://www.cms.gov/files/document/r12519cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [r12523cp.pdf](https://www.cms.gov/files/document/r12523cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12525otn.pdf](https://www.cms.gov/files/document/r12525otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12533cp.pdf](https://www.cms.gov/files/document/r12533cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [r12534cp.pdf](https://www.cms.gov/files/document/r12534cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12536demo.pdf](https://www.cms.gov/files/document/r12536demo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12538demo.pdf](https://www.cms.gov/files/document/r12538demo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12539otn.pdf](https://www.cms.gov/files/document/r12539otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [r12540cp.pdf](https://www.cms.gov/files/document/r12540cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12546cp.pdf](https://www.cms.gov/files/document/r12546cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [r12547cp.pdf](https://www.cms.gov/files/document/r12547cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12549otn.pdf](https://www.cms.gov/files/document/r12549otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12550pi.pdf](https://www.cms.gov/files/document/r12550pi.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 180 |
+| [r12551cp.pdf](https://www.cms.gov/files/document/r12551cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 119 |
+| [r12557cp.pdf](https://www.cms.gov/files/document/r12557cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12559cp.pdf](https://www.cms.gov/files/document/r12559cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [r12562com.pdf](https://www.cms.gov/files/document/r12562com.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12563demo.pdf](https://www.cms.gov/files/document/r12563demo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12567demo.pdf](https://www.cms.gov/files/document/r12567demo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12585otn.pdf](https://www.cms.gov/files/document/r12585otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [r12594cp.pdf](https://www.cms.gov/files/document/r12594cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 22 |
+| [r12598demo.pdf](https://www.cms.gov/files/document/r12598demo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12612cp.pdf](https://www.cms.gov/files/document/r12612cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 34 |
+| [r12618otn.pdf](https://www.cms.gov/files/document/r12618otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12619otn.pdf](https://www.cms.gov/files/document/r12619otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12620demo.pdf](https://www.cms.gov/files/document/r12620demo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [r12622demo.pdf](https://www.cms.gov/files/document/r12622demo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [r12635cp.pdf](https://www.cms.gov/files/document/r12635cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12636otn.pdf](https://www.cms.gov/files/document/r12636otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [r12652cp.pdf](https://www.cms.gov/files/document/r12652cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12664cp.pdf](https://www.cms.gov/files/document/r12664cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12668otn.pdf](https://www.cms.gov/files/document/r12668otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [r12670cp.pdf](https://www.cms.gov/files/document/r12670cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [r12672otn.pdf](https://www.cms.gov/files/document/r12672otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12673cp.pdf](https://www.cms.gov/files/document/r12673cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12682cp.pdf](https://www.cms.gov/files/document/r12682cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12684bp.pdf](https://www.cms.gov/files/document/r12684bp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [r12685cp.pdf](https://www.cms.gov/files/document/r12685cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [r12686cp.pdf](https://www.cms.gov/files/document/r12686cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12694cp.pdf](https://www.cms.gov/files/document/r12694cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 32 |
+| [r12696bp.pdf](https://www.cms.gov/files/document/r12696bp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [r12697cp.pdf](https://www.cms.gov/files/document/r12697cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [r12699cp.pdf](https://www.cms.gov/files/document/r12699cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [r12705cp.pdf](https://www.cms.gov/files/document/r12705cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12727otn.pdf](https://www.cms.gov/files/document/r12727otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12760otn.pdf](https://www.cms.gov/files/document/r12760otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12776otn.pdf](https://www.cms.gov/files/document/r12776otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [r12781cp.pdf](https://www.cms.gov/files/document/r12781cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12781ncd.pdf](https://www.cms.gov/files/document/r12781ncd.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12788cp.pdf](https://www.cms.gov/files/document/r12788cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12791cp.pdf](https://www.cms.gov/files/document/r12791cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12793cp.pdf](https://www.cms.gov/files/document/r12793cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12794cp.pdf](https://www.cms.gov/files/document/r12794cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [r12795cp.pdf](https://www.cms.gov/files/document/r12795cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12796pi.pdf](https://www.cms.gov/files/document/r12796pi.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 33 |
+| [r12801bp.pdf](https://www.cms.gov/files/document/r12801bp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [r12809cp.pdf](https://www.cms.gov/files/document/r12809cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12815cp.pdf](https://www.cms.gov/files/document/r12815cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 53 |
+| [r12818otn.pdf](https://www.cms.gov/files/document/r12818otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12822cp.pdf](https://www.cms.gov/files/document/r12822cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [r12823cp.pdf](https://www.cms.gov/files/document/r12823cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 |
+| [r12830cp.pdf](https://www.cms.gov/files/document/r12830cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 21 |
+| [r12831cp.pdf](https://www.cms.gov/files/document/r12831cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [r12832bp.pdf](https://www.cms.gov/files/document/r12832bp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 30 |
+| [r12837cp.pdf](https://www.cms.gov/files/document/r12837cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12840cp.pdf](https://www.cms.gov/files/document/r12840cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [r12847cp.pdf](https://www.cms.gov/files/document/r12847cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 50 |
+| [r12848cp.pdf](https://www.cms.gov/files/document/r12848cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12880msp.pdf](https://www.cms.gov/files/document/r12880msp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 290 |
+| [r12881otn.pdf](https://www.cms.gov/files/document/r12881otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [r12884otn.pdf](https://www.cms.gov/files/document/r12884otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [r12892demo.pdf](https://www.cms.gov/files/document/r12892demo.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 26 |
+| [r12893fm.pdf](https://www.cms.gov/files/document/r12893fm.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [r12894msp.pdf](https://www.cms.gov/files/document/r12894msp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 30 |
+| [r12896cp.pdf](https://www.cms.gov/files/document/r12896cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [r12901qri.pdf](https://www.cms.gov/files/document/r12901qri.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [r12911cp.pdf](https://www.cms.gov/files/document/r12911cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [r12917otn.pdf](https://www.cms.gov/files/document/r12917otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [r12939otn.pdf](https://www.cms.gov/files/document/r12939otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12951cp.pdf](https://www.cms.gov/files/document/r12951cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12965otn.pdf](https://www.cms.gov/files/document/r12965otn.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r12976cp.pdf](https://www.cms.gov/files/document/r12976cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [r12988cp.pdf](https://www.cms.gov/files/document/r12988cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r13001fm.pdf](https://www.cms.gov/files/document/r13001fm.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 35 |
+| [r13026cp.pdf](https://www.cms.gov/files/document/r13026cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 |
+| [r217soma.pdf](https://www.cms.gov/files/document/r217soma.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [r218soma.pdf](https://www.cms.gov/files/document/r218soma.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 22 |
+| [r222soma.pdf](https://www.cms.gov/files/document/r222soma.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [r223soma.pdf](https://www.cms.gov/files/document/r223soma.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [r3p248f.pdf](https://www.cms.gov/files/document/r3p248f.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [r3p248i.pdf](https://www.cms.gov/files/document/r3p248i.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 139 |
+| [r499pr1.pdf](https://www.cms.gov/files/document/r499pr1.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 101 |
+| [r4p245f.pdf](https://www.cms.gov/files/document/r4p245f.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [r4p245i.pdf](https://www.cms.gov/files/document/r4p245i.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 88 |
+| [r5p246f.pdf](https://www.cms.gov/files/document/r5p246f.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 14 |
+| [r5p246i.pdf](https://www.cms.gov/files/document/r5p246i.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 84 |
+| [r6p247f.pdf](https://www.cms.gov/files/document/r6p247f.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 34 |
+| [r6p247i.pdf](https://www.cms.gov/files/document/r6p247i.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 133 |
+| [r7p244f.pdf](https://www.cms.gov/files/document/r7p244f.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [r7p244i.pdf](https://www.cms.gov/files/document/r7p244i.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 98 |
+| [ra-march-31-white-paper-032416.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/ra-march-31-white-paper-032416.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 130 |
+| [rate-review-annual-report_508.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/rate-review-annual-report_508.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 8 |
+| [rate_review_report_092011.pdf](https://www.cms.gov/cciio/resources/files/downloads/rate_review_report_092011.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 37 |
+| [report-life-changes-postcard-spanish.pdf](https://www.cms.gov/marketplace/outreach-and-education/report-life-changes-postcard-spanish.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [risk-adjustment-technical-specificationsjanuary2023.pdf](https://www.cms.gov/files/document/risk-adjustment-technical-specificationsjanuary2023.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 62 |
+| [riskadjustment_whitepaper_web.pdf](https://www.cms.gov/cciio/resources/files/downloads/riskadjustment_whitepaper_web.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 94 |
+| [rrj-instructions-manual-20150401-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/rrj-instructions-manual-20150401-final.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 22 |
+| [scletter08-06.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-06.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 167 |
+| [scletter08-08.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-08.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 6 |
+| [scletter08-09.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-09.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 |
+| [scletter08-10.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-10.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 |
+| [scletter08-11.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-11.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 |
+| [scletter08-12.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-12.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 27 |
+| [scletter08-13.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-13.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [scletter08-14.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-14.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 |
+| [scletter08-15.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-15.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 43 |
+| [scletter08-16.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-16.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 |
+| [scletter08-17.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-17.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 |
+| [scletter08-18.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-18.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 356 |
+| [scletter08-19.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-19.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [scletter08-20.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-20.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 |
+| [scletter08-21.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-21.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 |
+| [scletter08-22.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-22.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [scletter08-23.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-23.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 9 |
+| [scletter08-25.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 110 |
+| [september_7_co_op_teleconference_transcript_final.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/september_7_co_op_teleconference_transcript_final.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 26 |
+| [serota.pdf](https://www.cms.gov/cciio/resources/files/downloads/dwnlds/serota.pdf) | cms.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 |
+| [snf-abn-cms-10055-fillable-pdf.pdf](https://www.cms.gov/files/document/snf-abn-cms-10055-fillable-pdf.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [special-enrollment-periods-available-consumers.pdf](https://www.cms.gov/marketplace/agents-brokers/files/special-enrollment-periods-available-consumers.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [state-based-marketplace-modernization-grant-awardee-list-2021.pdf](https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 |
+| [state-flexibility-cycle-ii-grant-fact-sheet.pdf](https://www.cms.gov/files/document/state-flexibility-cycle-ii-grant-fact-sheet.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [state-flexibility-market-grant-cycle-ii-slides.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-cycle-ii-slides.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 21 |
+| [state-flexibility-market-grant-slides.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-slides.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 22 |
+| [the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 81 |
+| [tpa-jobaid-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/tpa-jobaid-final.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 7 |
+| [uf-webguide-5cr-081816.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/uf-webguide-5cr-081816.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 20 |
+| [unified-rate-review-instructions.pdf](https://www.cms.gov/files/document/unified-rate-review-instructions.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 54 |
+| [unified-rate-review-urr-reporting-requirements-for-single-risk-pool-plans-omb-0938-1141-final-2018-urr-instructions-parts-i-ii-and-iii-.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/unified-rate-review-urr-reporting-requirements-for-single-risk-pool-plans-omb-0938-1141-final-2018-urr-instructions-parts-i-ii-and-iii-.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 74 |
+| [urr-py23-instructions.pdf](https://www.cms.gov/files/document/urr-py23-instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 53 |
+| [urr_v5.3-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/urr_v5.3-instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 52 |
+| [user-fee-reduction-obligation-faq-032318.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/user-fee-reduction-obligation-faq-032318.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
 
 ## Files with Errors or Notes
 
@@ -7993,3 +8366,1341 @@ Generated: 2026-03-10T19:53:20.338851+00:00
 - **URL**: https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_93-2010_58-61.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### 11082012-teleconference-transcript.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/11082012-teleconference-transcript.pdf
+- **Status**: analysed
+- title, 
+
+### 1998d001.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d001.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1998d002.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d002.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1998d003.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d003.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1998d004.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d004.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1998d005.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d005.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1998d006.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d006.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1998d007.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d007.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2013-navigator-foa-4-9-2013.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/2013-navigator-foa-4-9-2013.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### 2014-risk-corridors-validation-instructions.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2014-risk-corridors-validation-instructions.pdf
+- **Status**: analysed
+- title, 
+
+### 2016-unified-rate-review-instructions-20150222-final.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2016-unified-rate-review-instructions-20150222-final.pdf
+- **Status**: analysed
+- title, 
+
+### 2019-rrj-instructions.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/2019-rrj-instructions.pdf
+- **Status**: analysed
+- title, 
+
+### 2019-urr-instructions.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/2019-urr-instructions.pdf
+- **Status**: analysed
+- title, 
+
+### 303d.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/303d.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 508_cms-10379-rate-review-supporting-statement.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/508_cms-10379-rate-review-supporting-statement.pdf
+- **Status**: analysed
+- title, 
+
+### Overview.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Quality-Initiatives-Patient-Assessment-Instruments/NursingHomeQualityInits/Downloads/Overview.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### abn-alternative-format-sample-for-labs.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-general-information/bni/downloads/abn-alternative-format-sample-for-labs.pdf
+- **Status**: analysed
+- title, 
+
+### add-code-file-enhanced-format-document.pdf
+
+- **URL**: https://www.cms.gov/files/document/add-code-file-enhanced-format-document.pdf
+- **Status**: analysed
+- title, 
+
+### agent-broker-help-desks.pdf
+
+- **URL**: https://www.cms.gov/marketplace/agents-brokers/files/agent-broker-help-desks.pdf
+- **Status**: analysed
+- title, 
+
+### amended-spring-2012-establishment-foa.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/amended-spring-2012-establishment-foa.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### annrpt03.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt03.pdf
+- **Status**: analysed
+- title, lang, 
+
+### annrpt06.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt06.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### asc_hai_map.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/asc_hai_map.pdf
+- **Status**: analysed
+- title, 
+
+### august_10_foa_teleconference_transcript0816_final.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/august_10_foa_teleconference_transcript0816_final.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### clm104c08.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c08.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### clm104c10.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/clm104c10.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### cms-10459-certification.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/cms-10459-certification.pdf
+- **Status**: analysed
+- title, 
+
+### cms-10459-enrollee-notice.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/cms-10459-enrollee-notice.pdf
+- **Status**: analysed
+- title, 
+
+### cms-request-for-review-cobra-premium-assist-denial.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/cms-request-for-review-cobra-premium-assist-denial.pdf
+- **Status**: analysed
+- title, 
+
+### cms_rtc_hrp_final073109.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/cms_rtc_hrp_final073109.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### consumer_assistance_program_grant_foa.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/consumer_assistance_program_grant_foa.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### coop-foa-transcript-20120301.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120301.pdf
+- **Status**: analysed
+- title, 
+
+### coop-foa-transcript-20120516.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf
+- **Status**: analysed
+- title, 
+
+### cycle_i_rate_review_grant-rerelease_territories.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_i_rate_review_grant-rerelease_territories.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf
+- **Status**: analysed
+- PdfError: crawled_files/cms.gov/document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf: unable to find trailer dictionary while recovering damaged file
+
+### document-6-csr-reconciliation-attestation-form-b-benefit-year-2020-or-2019.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-6-csr-reconciliation-attestation-form-b-benefit-year-2020-or-2019.pdf
+- **Status**: analysed
+- PdfError: crawled_files/cms.gov/document-6-csr-reconciliation-attestation-form-b-benefit-year-2020-or-2019.pdf: unable to find trailer dictionary while recovering damaged file
+
+### early_innovator_grants.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/early_innovator_grants.pdf
+- **Status**: analysed
+- title, 
+
+### eaw-grant-fact-sheet.pdf
+
+- **URL**: https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf
+- **Status**: analysed
+- title, 
+
+### eaw-grant-program-proposed-state-activities-final.pdf
+
+- **URL**: https://www.cms.gov/files/document/eaw-grant-program-proposed-state-activities-final.pdf
+- **Status**: analysed
+- title, 
+
+### effective-rate-review-survey-instructions-20150202-final.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/effective-rate-review-survey-instructions-20150202-final.pdf
+- **Status**: analysed
+- title, 
+
+### err-determination-and-status-questions-5-20-14.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/err-determination-and-status-questions-5-20-14.pdf
+- **Status**: analysed
+- title, 
+
+### exchange_planning_grant_foa.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/exchange_planning_grant_foa.pdf
+- **Status**: analysed
+- title, 
+
+### final-navigator-2014-foa-06-10-2014.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final-navigator-2014-foa-06-10-2014.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### final_premium_review_grant_solicitation_with_disclosure_statement.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final_premium_review_grant_solicitation_with_disclosure_statement.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### fm-1a-risk-adj-overview.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/fm-1a-risk-adj-overview.pdf
+- **Status**: analysed
+- title, 
+
+### fm-1b-risk-adj-final-rule.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/fm-1b-risk-adj-final-rule.pdf
+- **Status**: analysed
+- title, 
+
+### fm-1c-risk-adj-model.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/fm-1c-risk-adj-model.pdf
+- **Status**: analysed
+- title, 
+
+### fm-1d-p-and-c.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/fm-1d-p-and-c.pdf
+- **Status**: analysed
+- title, 
+
+### fm-1e-state-flex.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/fm-1e-state-flex.pdf
+- **Status**: analysed
+- title, 
+
+### fm-2a-fed-ra-ov-dv.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/fm-2a-fed-ra-ov-dv.pdf
+- **Status**: analysed
+- title, 
+
+### fm-2b-dist-mdl-tech-prop.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/fm-2b-dist-mdl-tech-prop.pdf
+- **Status**: analysed
+- title, 
+
+### fm-2c-state-flex-imp.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/fm-2c-state-flex-imp.pdf
+- **Status**: analysed
+- title, 
+
+### foa_exchange_establishment.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_exchange_establishment.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### foa_territories_establishment.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_territories_establishment.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### foia-faq-2022.pdf
+
+- **URL**: https://www.cms.gov/files/document/foia-faq-2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### foiaappeal.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf
+- **Status**: analysed
+- title, 
+
+### foiahandbook.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiahandbook.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### foiarequestletter.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf
+- **Status**: analysed
+- title, 
+
+### foiarequestletterdeceasedbene.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterdeceasedbene.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### foiarequestletterlivingbene.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### foiarequestletterownrecords.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterownrecords.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fy2010aschai.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/recovery/downloads/fy2010aschai.pdf
+- **Status**: analysed
+- title, 
+
+### hhvbp-odf-homehealthagencies.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/slides/hhvbp-odf-homehealthagencies.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### hipaaoptouts-0725.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/hipaaoptouts-0725.pdf
+- **Status**: analysed
+- title, 
+
+### hipaaoptouts03182021.pdf
+
+- **URL**: https://www.cms.gov/files/document/hipaaoptouts03182021.pdf
+- **Status**: analysed
+- title, 
+
+### ignagni.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/dwnlds/ignagni.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### instructions_for_the_redacted_actuarial_memorandum_20150416.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/instructions_for_the_redacted_actuarial_memorandum_20150416.pdf
+- **Status**: analysed
+- title, 
+
+### letter_to_j_cline.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/letter_to_j_cline.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### marketplace-casework-overview.pdf
+
+- **URL**: https://www.cms.gov/marketplace/technical-assistance-resources/marketplace-casework-overview.pdf
+- **Status**: analysed
+- title, 
+
+### navigator_2015_foa_final_04_15_2015.pdf
+
+- **URL**: https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/navigator_2015_foa_final_04_15_2015.pdf
+- **Status**: analysed
+- title, 
+
+### opt_out_memo.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/opt_out_memo.pdf
+- **Status**: analysed
+- title, 
+
+### patients-bill-of-rights09232011a.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/patients-bill-of-rights09232011a.pdf
+- **Status**: analysed
+- title, 
+
+### r12238fm.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12238fm.pdf
+- **Status**: analysed
+- title, 
+
+### r12403cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12403cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12438msp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12438msp.pdf
+- **Status**: analysed
+- title, 
+
+### r12439cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12439cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12440otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12440otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12441otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12441otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12448cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12448cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12449cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12449cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12468pi.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12468pi.pdf
+- **Status**: analysed
+- title, 
+
+### r12472cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12472cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12473cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12473cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12474cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12474cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12477cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12477cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12487otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12487otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12492fm.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12492fm.pdf
+- **Status**: analysed
+- title, 
+
+### r12493otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12493otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12496demo.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12496demo.pdf
+- **Status**: analysed
+- title, 
+
+### r12497bp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12497bp.pdf
+- **Status**: analysed
+- title, 
+
+### r12497cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12497cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12499cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12499cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12503cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12503cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12506otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12506otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12508otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12508otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12509fm.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12509fm.pdf
+- **Status**: analysed
+- title, 
+
+### r12511cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12511cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12513otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12513otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12514pi.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12514pi.pdf
+- **Status**: analysed
+- title, 
+
+### r12515pi.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12515pi.pdf
+- **Status**: analysed
+- title, 
+
+### r12516bp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12516bp.pdf
+- **Status**: analysed
+- title, 
+
+### r12517cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12517cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12518otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12518otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12519cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12519cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12523cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12523cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12525otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12525otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12533cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12533cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12534cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12534cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12536demo.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12536demo.pdf
+- **Status**: analysed
+- title, 
+
+### r12538demo.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12538demo.pdf
+- **Status**: analysed
+- title, 
+
+### r12539otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12539otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12540cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12540cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12546cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12546cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12547cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12547cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12549otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12549otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12550pi.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12550pi.pdf
+- **Status**: analysed
+- title, 
+
+### r12551cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12551cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12557cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12557cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12559cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12559cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12562com.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12562com.pdf
+- **Status**: analysed
+- title, 
+
+### r12563demo.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12563demo.pdf
+- **Status**: analysed
+- title, 
+
+### r12567demo.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12567demo.pdf
+- **Status**: analysed
+- title, 
+
+### r12585otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12585otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12594cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12594cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12598demo.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12598demo.pdf
+- **Status**: analysed
+- title, 
+
+### r12612cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12612cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12618otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12618otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12619otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12619otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12620demo.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12620demo.pdf
+- **Status**: analysed
+- title, 
+
+### r12622demo.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12622demo.pdf
+- **Status**: analysed
+- title, 
+
+### r12635cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12635cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12636otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12636otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12652cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12652cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12664cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12664cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12668otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12668otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12670cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12670cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12672otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12672otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12673cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12673cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12682cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12682cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12684bp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12684bp.pdf
+- **Status**: analysed
+- title, 
+
+### r12685cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12685cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12686cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12686cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12694cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12694cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12696bp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12696bp.pdf
+- **Status**: analysed
+- title, 
+
+### r12697cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12697cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12699cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12699cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12705cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12705cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12727otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12727otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12760otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12760otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12776otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12776otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12781cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12781cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12781ncd.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12781ncd.pdf
+- **Status**: analysed
+- title, 
+
+### r12788cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12788cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12791cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12791cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12793cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12793cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12794cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12794cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12795cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12795cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12796pi.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12796pi.pdf
+- **Status**: analysed
+- title, 
+
+### r12801bp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12801bp.pdf
+- **Status**: analysed
+- title, 
+
+### r12809cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12809cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12815cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12815cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12818otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12818otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12822cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12822cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12823cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12823cp.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### r12830cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12830cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12831cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12831cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12832bp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12832bp.pdf
+- **Status**: analysed
+- title, 
+
+### r12837cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12837cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12840cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12840cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12847cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12847cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12848cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12848cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12880msp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12880msp.pdf
+- **Status**: analysed
+- title, 
+
+### r12881otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12881otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12884otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12884otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12892demo.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12892demo.pdf
+- **Status**: analysed
+- title, 
+
+### r12893fm.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12893fm.pdf
+- **Status**: analysed
+- title, 
+
+### r12894msp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12894msp.pdf
+- **Status**: analysed
+- title, 
+
+### r12896cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12896cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12901qri.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12901qri.pdf
+- **Status**: analysed
+- title, 
+
+### r12911cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12911cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12917otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12917otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12939otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12939otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12951cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12951cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12965otn.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12965otn.pdf
+- **Status**: analysed
+- title, 
+
+### r12976cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12976cp.pdf
+- **Status**: analysed
+- title, 
+
+### r12988cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12988cp.pdf
+- **Status**: analysed
+- title, 
+
+### r13001fm.pdf
+
+- **URL**: https://www.cms.gov/files/document/r13001fm.pdf
+- **Status**: analysed
+- title, 
+
+### r13026cp.pdf
+
+- **URL**: https://www.cms.gov/files/document/r13026cp.pdf
+- **Status**: analysed
+- title, lang, 
+
+### r218soma.pdf
+
+- **URL**: https://www.cms.gov/files/document/r218soma.pdf
+- **Status**: analysed
+- title, 
+
+### r3p248f.pdf
+
+- **URL**: https://www.cms.gov/files/document/r3p248f.pdf
+- **Status**: analysed
+- title, 
+
+### r499pr1.pdf
+
+- **URL**: https://www.cms.gov/files/document/r499pr1.pdf
+- **Status**: analysed
+- title, 
+
+### r4p245f.pdf
+
+- **URL**: https://www.cms.gov/files/document/r4p245f.pdf
+- **Status**: analysed
+- title, 
+
+### r4p245i.pdf
+
+- **URL**: https://www.cms.gov/files/document/r4p245i.pdf
+- **Status**: analysed
+- title, 
+
+### r5p246f.pdf
+
+- **URL**: https://www.cms.gov/files/document/r5p246f.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### r5p246i.pdf
+
+- **URL**: https://www.cms.gov/files/document/r5p246i.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### r7p244i.pdf
+
+- **URL**: https://www.cms.gov/files/document/r7p244i.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### rate_review_report_092011.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/rate_review_report_092011.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### riskadjustment_whitepaper_web.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/riskadjustment_whitepaper_web.pdf
+- **Status**: analysed
+- title, 
+
+### rrj-instructions-manual-20150401-final.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/rrj-instructions-manual-20150401-final.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-06.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-06.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-08.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-08.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-09.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-09.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-10.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-10.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-11.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-11.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-12.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-12.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### scletter08-13.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-13.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-14.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-14.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-15.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-15.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-16.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-16.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-17.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-17.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-18.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-18.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-19.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-19.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-20.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-20.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-21.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-21.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-22.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-22.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-23.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-23.pdf
+- **Status**: analysed
+- title, 
+
+### scletter08-25.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### september_7_co_op_teleconference_transcript_final.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/september_7_co_op_teleconference_transcript_final.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### serota.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/files/downloads/dwnlds/serota.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### state-based-marketplace-modernization-grant-awardee-list-2021.pdf
+
+- **URL**: https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf
+- **Status**: analysed
+- title, lang, 
+
+### unified-rate-review-instructions.pdf
+
+- **URL**: https://www.cms.gov/files/document/unified-rate-review-instructions.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
