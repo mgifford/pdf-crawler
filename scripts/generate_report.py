@@ -622,7 +622,7 @@ _REPORTS_INDEX_TEMPLATE = """\
 
     body {{
       font-family: system-ui, -apple-system, sans-serif;
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
       padding: 2rem 1rem;
       color: #1a1a2e;
@@ -633,23 +633,80 @@ _REPORTS_INDEX_TEMPLATE = """\
     nav a {{ color: #0d6efd; text-decoration: none; }}
     nav a:hover {{ text-decoration: underline; }}
 
-    h1 {{ color: #0d6efd; }}
-    h2 {{ margin-top: 2rem; }}
+    h1 {{ color: #0d6efd; margin-bottom: 0.5rem; }}
 
-    table {{ width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }}
+    .summary-bar {{
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 1rem 0 1.5rem;
+    }}
+    .summary-card {{
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 0.75rem 1.25rem;
+      min-width: 120px;
+      text-align: center;
+    }}
+    .summary-card .value {{ font-size: 1.6rem; font-weight: 700; color: #0d6efd; }}
+    .summary-card .label {{ font-size: 0.8rem; color: #6c757d; margin-top: 0.2rem; }}
+
+    .filter-bar {{
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }}
+    .filter-bar label {{ font-weight: 600; white-space: nowrap; }}
+    .filter-bar input[type="search"] {{
+      padding: 0.4rem 0.75rem;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-size: 0.95rem;
+      width: 260px;
+      max-width: 100%;
+    }}
+    .filter-count {{ font-size: 0.85rem; color: #6c757d; }}
+
+    table {{ width: 100%; border-collapse: collapse; margin: 0.5rem 0; font-size: 0.9rem; }}
     th {{
       background: #e9ecef;
       padding: 0.5rem 0.75rem;
       text-align: left;
       border-bottom: 2px solid #dee2e6;
+      white-space: nowrap;
     }}
-    td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: top; }}
+    td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: middle; }}
     tr:last-child td {{ border-bottom: none; }}
     tr:nth-child(even) td {{ background: #f8f9fa; }}
 
     a {{ color: #0d6efd; }}
 
-    .empty-state {{
+    .pct-bar {{
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      min-width: 130px;
+    }}
+    .pct-bar-track {{
+      flex: 1;
+      height: 8px;
+      background: #dee2e6;
+      border-radius: 4px;
+      overflow: hidden;
+    }}
+    .pct-bar-fill {{
+      height: 100%;
+      border-radius: 4px;
+    }}
+    .pct-bar-fill.high   {{ background: #198754; }}
+    .pct-bar-fill.medium {{ background: #fd7e14; }}
+    .pct-bar-fill.low    {{ background: #dc3545; }}
+    .pct-label {{ font-size: 0.8rem; white-space: nowrap; }}
+
+    .empty-state, .error-state, .loading-state {{
       background: #fff;
       border: 1px solid #dee2e6;
       border-radius: 0.375rem;
@@ -657,6 +714,7 @@ _REPORTS_INDEX_TEMPLATE = """\
       text-align: center;
       color: #6c757d;
     }}
+    .error-state {{ border-color: #f5c2c7; color: #842029; background: #fff5f5; }}
 
     footer {{
       margin-top: 3rem;
@@ -672,56 +730,27 @@ _REPORTS_INDEX_TEMPLATE = """\
   <nav><a href="./">&#8592; Back to submission form</a></nav>
 
   <h1>&#128202; PDF Accessibility Scan Reports</h1>
-  <p>Historical record of all PDF accessibility scans.</p>
+  <p>Historical record of all PDF accessibility scans run by this tool.</p>
 
-  <div id="root"></div>
+  <div id="summary-bar" class="summary-bar" aria-live="polite"></div>
 
-  <script type="application/json" id="reports-index">
-{json_data}
-  </script>
+  <div class="filter-bar">
+    <label for="filter-input">Filter by site:</label>
+    <input type="search" id="filter-input" placeholder="e.g. energy.gov" aria-label="Filter reports by site name" />
+    <span id="filter-count" class="filter-count" aria-live="polite"></span>
+  </div>
+
+  <div id="root" aria-live="polite">
+    <div class="loading-state">Loading reports&hellip;</div>
+  </div>
 
   <script>
     (function () {{
-      var raw     = document.getElementById('reports-index').textContent;
-      var reports = JSON.parse(raw);
-      var root    = document.getElementById('root');
-
-      if (!reports.length) {{
-        root.innerHTML =
-          '<div class="empty-state">' +
-          '<p>No scan reports yet.</p>' +
-          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
-          '</div>';
-        return;
-      }}
-
-      var html = '<table><thead><tr>' +
-        '<th>Date</th><th>Site</th><th>Total PDFs</th>' +
-        '<th>&#x2705; Accessible</th><th>&#x274C; Issues</th><th>Report</th>' +
-        '</tr></thead><tbody>';
-
-      reports.forEach(function (r) {{
-        var issues  = Math.max(0, (r.analysed || 0) - (r.accessible || 0));
-        var dateStr = r.date ? new Date(r.date).toLocaleString() : '';
-        var siteCell = r.crawl_url
-          ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
-          : esc(r.site || '');
-        var reportLink = '<a href="reports/' + esc(r.archive_file) + '">View report</a>';
-        var workflowLink = r.run_url
-          ? ' &nbsp; <a href="' + esc(r.run_url) + '" target="_blank" rel="noopener">Workflow</a>'
-          : '';
-        html += '<tr>' +
-          '<td>' + esc(dateStr) + '</td>' +
-          '<td>' + siteCell + '</td>' +
-          '<td>' + (r.total || 0) + '</td>' +
-          '<td>' + (r.accessible || 0) + '</td>' +
-          '<td>' + issues + '</td>' +
-          '<td>' + reportLink + workflowLink + '</td>' +
-          '</tr>';
-      }});
-
-      html += '</tbody></table>';
-      root.innerHTML = html;
+      var root        = document.getElementById('root');
+      var summaryBar  = document.getElementById('summary-bar');
+      var filterInput = document.getElementById('filter-input');
+      var filterCount = document.getElementById('filter-count');
+      var allReports  = [];
 
       function esc(s) {{
         if (!s) return '';
@@ -732,6 +761,100 @@ _REPORTS_INDEX_TEMPLATE = """\
           .replace(/"/g,  '&quot;')
           .replace(/'/g,  '&#x27;');
       }}
+
+      function pctBar(accessible, analysed) {{
+        if (!analysed) return '<span class="pct-label">&#x2014;</span>';
+        var pct = Math.round((accessible / analysed) * 100);
+        var cls = pct >= 75 ? 'high' : pct >= 40 ? 'medium' : 'low';
+        return '<div class="pct-bar">' +
+          '<div class="pct-bar-track"><div class="pct-bar-fill ' + cls + '" style="width:' + pct + '%"></div></div>' +
+          '<span class="pct-label">' + pct + '%</span>' +
+          '</div>';
+      }}
+
+      function renderSummary(reports) {{
+        var sites = {{}};
+        reports.forEach(function (r) {{ if (r.site) sites[r.site] = true; }});
+        summaryBar.innerHTML =
+          '<div class="summary-card"><div class="value">' + reports.length + '</div><div class="label">Total Scans</div></div>' +
+          '<div class="summary-card"><div class="value">' + Object.keys(sites).length + '</div><div class="label">Unique Sites</div></div>';
+      }}
+
+      function renderTable(reports) {{
+        if (!reports.length) {{
+          root.innerHTML =
+            '<div class="empty-state">' +
+            '<p>No scan reports yet.</p>' +
+            '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+            '</div>';
+          return;
+        }}
+
+        var html = '<table><thead><tr>' +
+          '<th>Date</th><th>Site</th><th>Total PDFs</th>' +
+          '<th>&#x2705; Accessible</th><th>&#x274C; Issues</th>' +
+          '<th>% Accessible</th><th>Report</th>' +
+          '</tr></thead><tbody>';
+
+        reports.forEach(function (r) {{
+          var issues   = Math.max(0, (r.analysed || 0) - (r.accessible || 0));
+          var dateStr  = r.date ? new Date(r.date).toLocaleString() : '';
+          var siteCell = r.crawl_url
+            ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
+            : esc(r.site || '');
+          var reportLink   = '<a href="reports/' + esc(r.archive_file) + '">View report</a>';
+          var workflowLink = r.run_url
+            ? ' &nbsp;<a href="' + esc(r.run_url) + '" target="_blank" rel="noopener">Workflow</a>'
+            : '';
+          html += '<tr>' +
+            '<td>' + esc(dateStr) + '</td>' +
+            '<td>' + siteCell + '</td>' +
+            '<td>' + (r.total || 0) + '</td>' +
+            '<td>' + (r.accessible || 0) + '</td>' +
+            '<td>' + issues + '</td>' +
+            '<td>' + pctBar(r.accessible || 0, r.analysed || 0) + '</td>' +
+            '<td>' + reportLink + workflowLink + '</td>' +
+            '</tr>';
+        }});
+
+        html += '</tbody></table>';
+        root.innerHTML = html;
+      }}
+
+      function applyFilter() {{
+        var q = filterInput.value.trim().toLowerCase();
+        var filtered = q
+          ? allReports.filter(function (r) {{
+              return (r.site || '').toLowerCase().indexOf(q) !== -1 ||
+                     (r.crawl_url || '').toLowerCase().indexOf(q) !== -1;
+            }})
+          : allReports;
+        filterCount.textContent = q
+          ? 'Showing ' + filtered.length + ' of ' + allReports.length + ' scans'
+          : '';
+        renderTable(filtered);
+      }}
+
+      filterInput.addEventListener('input', applyFilter);
+
+      fetch('reports/index.json')
+        .then(function (res) {{
+          if (!res.ok) throw new Error('HTTP ' + res.status);
+          return res.json();
+        }})
+        .then(function (data) {{
+          allReports = Array.isArray(data) ? data : [];
+          renderSummary(allReports);
+          renderTable(allReports);
+        }})
+        .catch(function (err) {{
+          root.innerHTML =
+            '<div class="error-state">' +
+            '<p><strong>Could not load reports.</strong></p>' +
+            '<p>Error: ' + esc(String(err)) + '</p>' +
+            '<p>If you are viewing this file locally, please serve it from a web server.</p>' +
+            '</div>';
+        }});
     }})();
   </script>
 
@@ -753,9 +876,14 @@ _REPORTS_INDEX_TEMPLATE = """\
 
 
 def generate_reports_index_html(reports_index: List[Dict[str, Any]]) -> str:
-    """Return a standalone HTML page listing all historical scan reports."""
-    json_data = json.dumps(reports_index, indent=2, default=str)
-    return _REPORTS_INDEX_TEMPLATE.format(json_data=json_data)
+    """Return a standalone HTML page that dynamically loads scan reports from reports/index.json.
+
+    The ``reports_index`` argument is accepted for API compatibility but the data
+    is not embedded in the page; instead, the page fetches ``reports/index.json``
+    at runtime so it always reflects the latest entries without needing to be
+    regenerated on every workflow run.
+    """
+    return _REPORTS_INDEX_TEMPLATE.format()
 
 
 def main(
