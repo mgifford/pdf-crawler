@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-11T16:35:00.408806+00:00
+Generated: 2026-03-11T18:00:32.637950+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 567 |
-| Total files tracked | 6050 |
-| Analysed | 2075 |
+| URLs crawled | 694 |
+| Total files tracked | 6148 |
+| Analysed | 2173 |
 | Pending analysis | 2886 |
 | Errors during analysis | 1089 |
-| Accessible | 683 |
-| Totally inaccessible | 29 |
+| Accessible | 713 |
+| Totally inaccessible | 31 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 612 |
+| Exempt (pre-2018) | 613 |
 
 ## Files per Site
 
@@ -25,6 +25,7 @@ Generated: 2026-03-11T16:35:00.408806+00:00
 | canada.ca | 496 |
 | cms.gov | 373 |
 | ed.gov | 2886 |
+| edf-feph.org | 98 |
 | energy.gov | 417 |
 | gsa.gov | 450 |
 | nsf.gov | 1179 |
@@ -2109,6 +2110,104 @@ Generated: 2026-03-11T16:35:00.408806+00:00
 | [yec-youth-services-map.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/children-and-youth-programs/youth-employment/yec-youth-services-map.pdf) | calgary.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 | [youth-employment-centre-poster-2026.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/children-and-youth-programs/youth-employment/youth-employment-centre-poster-2026.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
 | [youth-empolyment-centre-handbill-poster-2026.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/children-and-youth-programs/youth-employment/youth-empolyment-centre-handbill-poster-2026.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [1.2-Toolkit-Accessible-Word-Document.pdf](https://www.edf-feph.org/content/uploads/2021/06/1.2-Toolkit-Accessible-Word-Document.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [2.2-Toolkit-Accessible-PowerPoint.pdf](https://www.edf-feph.org/content/uploads/2021/07/2.2-Toolkit-Accessible-PowerPoint.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [2020-12-16-REPLY-kyriakedes-dalli-on-vaccination.pdf](https://www.edf-feph.org/content/uploads/2021/02/2020-12-16-REPLY-kyriakedes-dalli-on-vaccination.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2021-EDF-position-paper-EU-electoral-law-Final.pdf](https://www.edf-feph.org/content/uploads/2021/10/2021-EDF-position-paper-EU-electoral-law-Final.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 23 |
+| [2021.03.25-Concept-note-and-agenda-Launch-on-the-advocacy-toolkit-1.pdf](https://www.edf-feph.org/content/uploads/2021/03/2021.03.25-Concept-note-and-agenda-Launch-on-the-advocacy-toolkit-1.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [2022-02-28-HRR_Political_Participation_draft_for_EASY-TO-READ.pdf](https://www.edf-feph.org/content/uploads/2022/05/2022-02-28-HRR_Political_Participation_draft_for_EASY-TO-READ.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [2022-EDF-position-paper-Mobile-EU-citizens-Directives.pdf](https://www.edf-feph.org/content/uploads/2022/09/2022-EDF-position-paper-Mobile-EU-citizens-Directives.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 24 |
+| [2024-FEMM-EDF-Welcome-Toolkit.pdf](https://www.edf-feph.org/content/uploads/2024/09/2024-FEMM-EDF-Welcome-Toolkit.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [3.2-Toolkit-Accessible-Social-Media.pdf](https://www.edf-feph.org/content/uploads/2021/07/3.2-Toolkit-Accessible-Social-Media.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [4.2-Toolkit-Accessible-online-and-face-to-face-Meetings.pdf](https://www.edf-feph.org/content/uploads/2021/09/4.2-Toolkit-Accessible-online-and-face-to-face-Meetings.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [5.2-Toolkit-Accessible-Accessible-video.pdf](https://www.edf-feph.org/content/uploads/2021/12/5.2-Toolkit-Accessible-Accessible-video.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [7.-Toolkit-Accessible-website.pdf](https://www.edf-feph.org/content/uploads/2022/02/7.-Toolkit-Accessible-website.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [AI-Act-implementation-toolkit-Final.pdf](https://www.edf-feph.org/content/uploads/2024/10/AI-Act-implementation-toolkit-Final.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 |
+| [Access-Denied-inacessibility-of-political-parties-full-report.pdf](https://www.edf-feph.org/content/uploads/2020/04/Access-Denied-inacessibility-of-political-parties-full-report.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 96 |
+| [Access-Denied-inacessibility-of-political-parties-short-version.pdf](https://www.edf-feph.org/content/uploads/2020/04/Access-Denied-inacessibility-of-political-parties-short-version.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 28 |
+| [An-introduction-to-Inclusive-Humanitarian-Action_VIVID-Recap-document-Jan-202252.pdf](https://www.edf-feph.org/content/uploads/2022/08/An-introduction-to-Inclusive-Humanitarian-Action_VIVID-Recap-document-Jan-202252.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 92 |
+| [Annex-l-Testimonial-by-Dr-Martin-Zinkler.pdf](https://www.edf-feph.org/content/uploads/2025/01/Annex-l-Testimonial-by-Dr-Martin-Zinkler.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Article-29-CRPD-review-EU-Member-States.pdf](https://www.edf-feph.org/content/uploads/2022/01/Article-29-CRPD-review-EU-Member-States.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [Commissioner-Lahbib-keep-up-the-momentum-on-disability-rights.pdf](https://www.edf-feph.org/content/uploads/2024/12/Commissioner-Lahbib-keep-up-the-momentum-on-disability-rights.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [Dec-2020-Reply-to-joint-letter-education-Commissioner-Urpilainen.pdf](https://www.edf-feph.org/content/uploads/2021/06/Dec-2020-Reply-to-joint-letter-education-Commissioner-Urpilainen.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [Disability-inclusive-Accession-Process-to-the-European-Union-full-report.pdf](https://www.edf-feph.org/content/uploads/2024/11/Disability-inclusive-Accession-Process-to-the-European-Union-full-report.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 56 |
+| [Disability-rights-and-inclusion-in-the-new-EU-Global-Health-Strategy-IDDC-EDF-position-paper_September-2022.pdf](https://www.edf-feph.org/content/uploads/2022/09/Disability-rights-and-inclusion-in-the-new-EU-Global-Health-Strategy-IDDC-EDF-position-paper_September-2022.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [EDF-20-100-Open-letter-to-the-Presidents-of-the-Commission-Council-and-the-European-Parliament-on-the-EUs-vaccination-strategy.pdf](https://www.edf-feph.org/content/uploads/2021/02/EDF-20-100-Open-letter-to-the-Presidents-of-the-Commission-Council-and-the-European-Parliament-on-the-EUs-vaccination-strategy.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [EDF-25-25-YV-Letter-to-Italian-Authorities-about-URC.pdf](https://www.edf-feph.org/content/uploads/2025/03/EDF-25-25-YV-Letter-to-Italian-Authorities-about-URC.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [EDF-25-46U-YV-and-partners-Open-letter-CM-Ukraine.pdf](https://www.edf-feph.org/content/uploads/2025/08/EDF-25-46U-YV-and-partners-Open-letter-CM-Ukraine.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [EDF-Board-Resolution-on-the-EU-Artificial-intelligence-Act-for-the-inclusion-of-persons-with-disabilities.pdf](https://www.edf-feph.org/content/uploads/2023/04/EDF-Board-Resolution-on-the-EU-Artificial-intelligence-Act-for-the-inclusion-of-persons-with-disabilities.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [EDF-Feedback-to-Call-for-Evidence-for-an-Impact-Assessment-of-EU-Passenger-Rights-Regulations.pdf](https://www.edf-feph.org/content/uploads/2022/01/EDF-Feedback-to-Call-for-Evidence-for-an-Impact-Assessment-of-EU-Passenger-Rights-Regulations.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 34 |
+| [EDF-Guidelines-on-Gender-Action-Plan.pdf](https://www.edf-feph.org/content/uploads/2025/10/EDF-Guidelines-on-Gender-Action-Plan.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 33 |
+| [EDF-IRAP-Policy-brief-and-recommendations-on-the-EU-Asylum-and-Migration-Pact.pdf](https://www.edf-feph.org/content/uploads/2026/02/EDF-IRAP-Policy-brief-and-recommendations-on-the-EU-Asylum-and-Migration-Pact.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [EDF-Position-Amendments-Revision-of-the-Victims-Rights-Directive.pdf](https://www.edf-feph.org/content/uploads/2023/11/EDF-Position-Amendments-Revision-of-the-Victims-Rights-Directive.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 |
+| [EDF-Position-Paper-on-EU-Artificial-Intelligence-AI-Regulation-1.pdf](https://www.edf-feph.org/content/uploads/2021/11/EDF-Position-Paper-on-EU-Artificial-Intelligence-AI-Regulation-1.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 22 |
+| [EDF-Presidency-Scorecard-Belgium-tagged.pdf](https://www.edf-feph.org/content/uploads/2024/10/EDF-Presidency-Scorecard-Belgium-tagged.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [EDF-Resolution-on-Ukraine.pdf](https://www.edf-feph.org/content/uploads/2022/03/EDF-Resolution-on-Ukraine.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [EDF-Response-to-Passenger-Rights-Open-Public-Consultation_Final.pdf](https://www.edf-feph.org/content/uploads/2022/12/EDF-Response-to-Passenger-Rights-Open-Public-Consultation_Final.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 30 |
+| [EDF-Scorecard-Hungary-Presidency.pdf](https://www.edf-feph.org/content/uploads/2025/04/EDF-Scorecard-Hungary-Presidency.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [EDF-Toolkit-EU-Accession.pdf](https://www.edf-feph.org/content/uploads/2024/10/EDF-Toolkit-EU-Accession.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [EDF-analysis-of-the-adopted-Rail-Passengers-Righs-Regulation-2021.pdf](https://www.edf-feph.org/content/uploads/2021/06/EDF-analysis-of-the-adopted-Rail-Passengers-Righs-Regulation-2021.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [EDF-and-CERMI-Womens-Foundation-report-on-ending-forced-sterilisation-of-women-and-girls-with-disabilities.pdf](https://www.edf-feph.org/content/uploads/2021/06/EDF-and-CERMI-Womens-Foundation-report-on-ending-forced-sterilisation-of-women-and-girls-with-disabilities.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 56 |
+| [EDF-draft-response-to-Consumer-Agenda-consultation-2025.pdf](https://www.edf-feph.org/content/uploads/2025/09/EDF-draft-response-to-Consumer-Agenda-consultation-2025.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 15 |
+| [EDF-human-rights-report-on-the-right-to-work-ETR-Final.pdf](https://www.edf-feph.org/content/uploads/2023/05/EDF-human-rights-report-on-the-right-to-work-ETR-Final.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [EDF-input-modernising-judicial-cooperation.pdf](https://www.edf-feph.org/content/uploads/2021/02/EDF-input-modernising-judicial-cooperation.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [EDF-position-on-combatting-human-trafficking-%E2%80%93-review-of-EU-rules-1.pdf](https://www.edf-feph.org/content/uploads/2022/03/EDF-position-on-combatting-human-trafficking-%E2%80%93-review-of-EU-rules-1.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [EDF-position-paper_EU-global-role-in-COVID-19-response-and-impact-on-lives-of-persons-with-disabilities.pdf](https://www.edf-feph.org/content/uploads/2021/04/EDF-position-paper_EU-global-role-in-COVID-19-response-and-impact-on-lives-of-persons-with-disabilities.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 |
+| [EDF-recommendations-on-EU-Strategy-for-victims-rights-2020-2024_final.pdf](https://www.edf-feph.org/content/uploads/2021/02/EDF-recommendations-on-EU-Strategy-for-victims-rights-2020-2024_final.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [EDF-recommendations-on-disability-rights-and-detention.pdf](https://www.edf-feph.org/content/uploads/2022/04/EDF-recommendations-on-disability-rights-and-detention.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [EDF-recommendations-on-the-European-Health-Union-Package.pdf](https://www.edf-feph.org/content/uploads/2021/02/EDF-recommendations-on-the-European-Health-Union-Package.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [EDF-report_on_health_revised-accessible.pdf](https://www.edf-feph.org/content/uploads/2019/08/EDF-report_on_health_revised-accessible.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [EDF-response-to-Citizens-Energy-Package-consultation-2025.pdf](https://www.edf-feph.org/content/uploads/2025/09/EDF-response-to-Citizens-Energy-Package-consultation-2025.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [EDF_Analysis-Enforcement-Passenger-Righs_Final.pdf](https://www.edf-feph.org/content/uploads/2024/02/EDF_Analysis-Enforcement-Passenger-Righs_Final.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [EDF_Analysis-Multimodal-Passenger-Rights_Final.pdf](https://www.edf-feph.org/content/uploads/2024/02/EDF_Analysis-Multimodal-Passenger-Rights_Final.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [EDFs-recommendations-for-the-European-Commissions-evaluation-of-patient-rights-in-cross-border-healthcare.pdf](https://www.edf-feph.org/content/uploads/2021/07/EDFs-recommendations-for-the-European-Commissions-evaluation-of-patient-rights-in-cross-border-healthcare.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [EPHA-joint-letter-on-Vaccine-Equity-in-Europe.pdf](https://www.edf-feph.org/content/uploads/2021/05/EPHA-joint-letter-on-Vaccine-Equity-in-Europe.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [EU-review-CRPD-ETR.pdf](https://www.edf-feph.org/content/uploads/2025/03/EU-review-CRPD-ETR.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [End-the-nightmare-passengers-with-disabilities-deserve-to-travel-by-air.pdf](https://www.edf-feph.org/content/uploads/2023/04/End-the-nightmare-passengers-with-disabilities-deserve-to-travel-by-air.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [Ensuring-the-address-on-the-State-of-the-European-Union-is-accessible-to-persons-with-disabilities.pdf](https://www.edf-feph.org/content/uploads/2022/09/Ensuring-the-address-on-the-State-of-the-European-Union-is-accessible-to-persons-with-disabilities.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [EuintheWorld_2024.pdf](https://www.edf-feph.org/content/uploads/2025/03/EuintheWorld_2024.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 38 |
+| [European-Accessibility-Summit-2023-Speakers.pdf](https://www.edf-feph.org/content/uploads/2023/06/European-Accessibility-Summit-2023-Speakers.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [European-Disability-Forum-Submission-to-the-European-Union-Ahead-of-the-EU-Brasil-Human-Rights-Dialogue.pdf](https://www.edf-feph.org/content/uploads/2025/11/European-Disability-Forum-Submission-to-the-European-Union-Ahead-of-the-EU-Brasil-Human-Rights-Dialogue.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [Final-EDF-input-consultation-EU-rules-on-victims-rights-update.pdf](https://www.edf-feph.org/content/uploads/2022/01/Final-EDF-input-consultation-EU-rules-on-victims-rights-update.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [Final-final-Human-Rights-Published.pdf](https://www.edf-feph.org/content/uploads/2021/01/Final-final-Human-Rights-Published.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 24 |
+| [Human-Rights-Report-Impact-of-coronavirus-on-pwd-ETR.pdf](https://www.edf-feph.org/content/uploads/2021/01/Human-Rights-Report-Impact-of-coronavirus-on-pwd-ETR.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [Inclusive-vaccination-ETR.pdf](https://www.edf-feph.org/content/uploads/2021/06/Inclusive-vaccination-ETR.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [JN_1093_RisingVoices_Summary_V19_SPREADS.pdf](https://www.edf-feph.org/content/uploads/2019/06/JN_1093_RisingVoices_Summary_V19_SPREADS.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [Joint-Call-to-the-European-Commission-on-stronger-protection-for-the-rights-of-persons-with-disabilities-when-travelling-by-air.pdf](https://www.edf-feph.org/content/uploads/2023/06/Joint-Call-to-the-European-Commission-on-stronger-protection-for-the-rights-of-persons-with-disabilities-when-travelling-by-air.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [Learning-from-experience-Examples-from-the-Optional-Protocol-of-the-CRPD-by-IDA.pdf](https://www.edf-feph.org/content/uploads/2021/05/Learning-from-experience-Examples-from-the-Optional-Protocol-of-the-CRPD-by-IDA.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 14 |
+| [Lettre-ouverte-a-la-commissaire-europeenne-Lahbib3-Decembre-2024.pdf](https://www.edf-feph.org/content/uploads/2024/12/Lettre-ouverte-a-la-commissaire-europeenne-Lahbib3-Decembre-2024.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [Open-letter-to-the-Committee-of-Minister_-Draft-Additional-Protocol-to-the-Oviedo-Convention.pdf](https://www.edf-feph.org/content/uploads/2025/01/Open-letter-to-the-Committee-of-Minister_-Draft-Additional-Protocol-to-the-Oviedo-Convention.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [Police-Brutality-ETR.pdf](https://www.edf-feph.org/content/uploads/2021/07/Police-Brutality-ETR.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [RL-Guidelines-Volunteers-with-disabilities-within-the-new-European-Solidarity-Corps-ESC.pdf](https://www.edf-feph.org/content/uploads/2022/02/RL-Guidelines-Volunteers-with-disabilities-within-the-new-European-Solidarity-Corps-ESC.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 25 |
+| [Rail-Passenger-Rights_Commission.pdf](https://www.edf-feph.org/content/uploads/2023/11/Rail-Passenger-Rights_Commission.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [Rail-Passenger-Rights_SNCB.pdf](https://www.edf-feph.org/content/uploads/2023/11/Rail-Passenger-Rights_SNCB.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 18 |
+| [Recommendations_UkraineCareReform.pdf](https://www.edf-feph.org/content/uploads/2025/08/Recommendations_UkraineCareReform.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 |
+| [Reply-ECDC-on-COVID-19.pdf](https://www.edf-feph.org/content/uploads/2020/05/Reply-ECDC-on-COVID-19.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Reply-to-Open-letter-by-108-disability-organisations.pdf](https://www.edf-feph.org/content/uploads/2025/01/Reply-to-Open-letter-by-108-disability-organisations.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [Riga-declaration-ENG-1.pdf](https://www.edf-feph.org/content/uploads/2022/08/Riga-declaration-ENG-1.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [The-smart-money-goes-where-it._compressed.pdf](https://www.edf-feph.org/content/uploads/2023/09/The-smart-money-goes-where-it._compressed.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [Towards-a-disability-inclusive-recovery-and-reconstruction-of-Ukraine.pdf](https://www.edf-feph.org/content/uploads/2024/02/Towards-a-disability-inclusive-recovery-and-reconstruction-of-Ukraine.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [Training-on-Rail-Passenger-Rights_October-10.pdf](https://www.edf-feph.org/content/uploads/2023/11/Training-on-Rail-Passenger-Rights_October-10.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [UNSR-Report-on-visit-to-Europe.pdf](https://www.edf-feph.org/content/uploads/2023/02/UNSR-Report-on-visit-to-Europe.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [Ukraine-Final-Evaluation-Report-Executive-summary61.pdf](https://www.edf-feph.org/content/uploads/2025/04/Ukraine-Final-Evaluation-Report-Executive-summary61.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 |
+| [Ukraine-Recovery-Conference-2025-Rome.pdf](https://www.edf-feph.org/content/uploads/2025/09/Ukraine-Recovery-Conference-2025-Rome.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [Ukraine-disability-inclusive-response-and-recovery-Learning-Report.pdf](https://www.edf-feph.org/content/uploads/2025/04/Ukraine-disability-inclusive-response-and-recovery-Learning-Report.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 29 |
+| [VC-Research-Report-FINAL-Nov-5th-2020.pdf](https://www.edf-feph.org/content/uploads/2020/09/VC-Research-Report-FINAL-Nov-5th-2020.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 49 |
+| [WHO-2019-nCoV-Vaccination-and-disability-Policy-brief-2021.1-eng.pdf](https://www.edf-feph.org/content/uploads/2021/04/WHO-2019-nCoV-Vaccination-and-disability-Policy-brief-2021.1-eng.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [edf_forced-sterilisation_8-accessible_6.pdf](https://www.edf-feph.org/content/uploads/2020/12/edf_forced-sterilisation_8-accessible_6.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 56 |
+| [edf_hr_report_issue_6_2022_accessible.pdf](https://www.edf-feph.org/content/uploads/2022/10/edf_hr_report_issue_6_2022_accessible.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 116 |
+| [edf_position_it_paper_on_srhr.pdf](https://www.edf-feph.org/content/uploads/2021/02/edf_position_it_paper_on_srhr.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [edf_position_paper_on_air_passengers_rights_for_persons_with_disabilities_2020.pdf](https://www.edf-feph.org/content/uploads/2021/02/edf_position_paper_on_air_passengers_rights_for_persons_with_disabilities_2020.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [edf_position_paper_on_srhr_english_0.pdf](https://www.edf-feph.org/content/uploads/2021/02/edf_position_paper_on_srhr_english_0.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [edf_recommendations_on_pay_transparency.pdf](https://www.edf-feph.org/content/uploads/2020/12/edf_recommendations_on_pay_transparency.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [fd4ec674-82d3-4328-9b6d-367fca5b3e03.pdf](https://www.edf-feph.org/content/uploads/2025/09/fd4ec674-82d3-4328-9b6d-367fca5b3e03.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | 30 |
+| [final-EDF-position-paper-on-Violence-against-women-and-girls-with-disabilities-in-the-European-Union.pdf](https://www.edf-feph.org/content/uploads/2021/05/final-EDF-position-paper-on-Violence-against-women-and-girls-with-disabilities-in-the-European-Union.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [final_edf_transposition_toolkit_accessibility_act.pdf](https://www.edf-feph.org/content/uploads/2020/12/final_edf_transposition_toolkit_accessibility_act.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 36 |
+| [hr7_2023_press-accessible.pdf](https://www.edf-feph.org/content/uploads/2023/05/hr7_2023_press-accessible.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 140 |
+| [i2i-disability_and_covid-19-influencer_pack-accessible.pdf](https://www.edf-feph.org/content/uploads/2020/11/i2i-disability_and_covid-19-influencer_pack-accessible.pdf) | edf-feph.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 |
+| [life_after_violence_report.pdf](https://www.edf-feph.org/content/uploads/2021/01/life_after_violence_report.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 89 |
+| [master_thesis_marine_uldry.pdf](https://www.edf-feph.org/content/uploads/2020/12/master_thesis_marine_uldry.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 45 |
+| [signed-letter-Commissioners-Valean-and-Dalli-.pdf](https://www.edf-feph.org/content/uploads/2023/06/signed-letter-Commissioners-Valean-and-Dalli-.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 
 ## Files with Errors or Notes
 
@@ -17009,3 +17108,411 @@ Generated: 2026-03-11T16:35:00.408806+00:00
 - **URL**: https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/children-and-youth-programs/youth-employment/youth-empolyment-centre-handbill-poster-2026.pdf
 - **Status**: analysed
 - title, tagged, 
+
+### 2020-12-16-REPLY-kyriakedes-dalli-on-vaccination.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/02/2020-12-16-REPLY-kyriakedes-dalli-on-vaccination.pdf
+- **Status**: analysed
+- title, 
+
+### 2021-EDF-position-paper-EU-electoral-law-Final.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/10/2021-EDF-position-paper-EU-electoral-law-Final.pdf
+- **Status**: analysed
+- title, 
+
+### 2022-EDF-position-paper-Mobile-EU-citizens-Directives.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/09/2022-EDF-position-paper-Mobile-EU-citizens-Directives.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### 2024-FEMM-EDF-Welcome-Toolkit.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2024/09/2024-FEMM-EDF-Welcome-Toolkit.pdf
+- **Status**: analysed
+- title, 
+
+### Access-Denied-inacessibility-of-political-parties-full-report.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2020/04/Access-Denied-inacessibility-of-political-parties-full-report.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Access-Denied-inacessibility-of-political-parties-short-version.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2020/04/Access-Denied-inacessibility-of-political-parties-short-version.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Annex-l-Testimonial-by-Dr-Martin-Zinkler.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/01/Annex-l-Testimonial-by-Dr-Martin-Zinkler.pdf
+- **Status**: analysed
+- title, 
+
+### Article-29-CRPD-review-EU-Member-States.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/01/Article-29-CRPD-review-EU-Member-States.pdf
+- **Status**: analysed
+- title, 
+
+### Commissioner-Lahbib-keep-up-the-momentum-on-disability-rights.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2024/12/Commissioner-Lahbib-keep-up-the-momentum-on-disability-rights.pdf
+- **Status**: analysed
+- title, 
+
+### Dec-2020-Reply-to-joint-letter-education-Commissioner-Urpilainen.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/06/Dec-2020-Reply-to-joint-letter-education-Commissioner-Urpilainen.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Disability-inclusive-Accession-Process-to-the-European-Union-full-report.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2024/11/Disability-inclusive-Accession-Process-to-the-European-Union-full-report.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### EDF-20-100-Open-letter-to-the-Presidents-of-the-Commission-Council-and-the-European-Parliament-on-the-EUs-vaccination-strategy.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/02/EDF-20-100-Open-letter-to-the-Presidents-of-the-Commission-Council-and-the-European-Parliament-on-the-EUs-vaccination-strategy.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-25-25-YV-Letter-to-Italian-Authorities-about-URC.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/03/EDF-25-25-YV-Letter-to-Italian-Authorities-about-URC.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-25-46U-YV-and-partners-Open-letter-CM-Ukraine.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/08/EDF-25-46U-YV-and-partners-Open-letter-CM-Ukraine.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### EDF-Feedback-to-Call-for-Evidence-for-an-Impact-Assessment-of-EU-Passenger-Rights-Regulations.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/01/EDF-Feedback-to-Call-for-Evidence-for-an-Impact-Assessment-of-EU-Passenger-Rights-Regulations.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### EDF-Guidelines-on-Gender-Action-Plan.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/10/EDF-Guidelines-on-Gender-Action-Plan.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-IRAP-Policy-brief-and-recommendations-on-the-EU-Asylum-and-Migration-Pact.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2026/02/EDF-IRAP-Policy-brief-and-recommendations-on-the-EU-Asylum-and-Migration-Pact.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-Position-Amendments-Revision-of-the-Victims-Rights-Directive.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2023/11/EDF-Position-Amendments-Revision-of-the-Victims-Rights-Directive.pdf
+- **Status**: analysed
+- title, lang, 
+
+### EDF-Position-Paper-on-EU-Artificial-Intelligence-AI-Regulation-1.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/11/EDF-Position-Paper-on-EU-Artificial-Intelligence-AI-Regulation-1.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### EDF-Resolution-on-Ukraine.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/03/EDF-Resolution-on-Ukraine.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-Response-to-Passenger-Rights-Open-Public-Consultation_Final.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/12/EDF-Response-to-Passenger-Rights-Open-Public-Consultation_Final.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### EDF-Toolkit-EU-Accession.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2024/10/EDF-Toolkit-EU-Accession.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-analysis-of-the-adopted-Rail-Passengers-Righs-Regulation-2021.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/06/EDF-analysis-of-the-adopted-Rail-Passengers-Righs-Regulation-2021.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-draft-response-to-Consumer-Agenda-consultation-2025.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/09/EDF-draft-response-to-Consumer-Agenda-consultation-2025.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### EDF-input-modernising-judicial-cooperation.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/02/EDF-input-modernising-judicial-cooperation.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-position-on-combatting-human-trafficking-%E2%80%93-review-of-EU-rules-1.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/03/EDF-position-on-combatting-human-trafficking-%E2%80%93-review-of-EU-rules-1.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-position-paper_EU-global-role-in-COVID-19-response-and-impact-on-lives-of-persons-with-disabilities.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/04/EDF-position-paper_EU-global-role-in-COVID-19-response-and-impact-on-lives-of-persons-with-disabilities.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### EDF-recommendations-on-disability-rights-and-detention.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/04/EDF-recommendations-on-disability-rights-and-detention.pdf
+- **Status**: analysed
+- title, 
+
+### EDF-recommendations-on-the-European-Health-Union-Package.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/02/EDF-recommendations-on-the-European-Health-Union-Package.pdf
+- **Status**: analysed
+- title, 
+
+### EDF_Analysis-Enforcement-Passenger-Righs_Final.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2024/02/EDF_Analysis-Enforcement-Passenger-Righs_Final.pdf
+- **Status**: analysed
+- title, 
+
+### EDF_Analysis-Multimodal-Passenger-Rights_Final.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2024/02/EDF_Analysis-Multimodal-Passenger-Rights_Final.pdf
+- **Status**: analysed
+- title, 
+
+### EDFs-recommendations-for-the-European-Commissions-evaluation-of-patient-rights-in-cross-border-healthcare.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/07/EDFs-recommendations-for-the-European-Commissions-evaluation-of-patient-rights-in-cross-border-healthcare.pdf
+- **Status**: analysed
+- title, 
+
+### EPHA-joint-letter-on-Vaccine-Equity-in-Europe.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/05/EPHA-joint-letter-on-Vaccine-Equity-in-Europe.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### End-the-nightmare-passengers-with-disabilities-deserve-to-travel-by-air.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2023/04/End-the-nightmare-passengers-with-disabilities-deserve-to-travel-by-air.pdf
+- **Status**: analysed
+- title, 
+
+### Ensuring-the-address-on-the-State-of-the-European-Union-is-accessible-to-persons-with-disabilities.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/09/Ensuring-the-address-on-the-State-of-the-European-Union-is-accessible-to-persons-with-disabilities.pdf
+- **Status**: analysed
+- title, 
+
+### European-Accessibility-Summit-2023-Speakers.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2023/06/European-Accessibility-Summit-2023-Speakers.pdf
+- **Status**: analysed
+- title, 
+
+### European-Disability-Forum-Submission-to-the-European-Union-Ahead-of-the-EU-Brasil-Human-Rights-Dialogue.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/11/European-Disability-Forum-Submission-to-the-European-Union-Ahead-of-the-EU-Brasil-Human-Rights-Dialogue.pdf
+- **Status**: analysed
+- title, 
+
+### Final-EDF-input-consultation-EU-rules-on-victims-rights-update.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/01/Final-EDF-input-consultation-EU-rules-on-victims-rights-update.pdf
+- **Status**: analysed
+- title, 
+
+### Final-final-Human-Rights-Published.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/01/Final-final-Human-Rights-Published.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Human-Rights-Report-Impact-of-coronavirus-on-pwd-ETR.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/01/Human-Rights-Report-Impact-of-coronavirus-on-pwd-ETR.pdf
+- **Status**: analysed
+- title, 
+
+### Inclusive-vaccination-ETR.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/06/Inclusive-vaccination-ETR.pdf
+- **Status**: analysed
+- title, 
+
+### JN_1093_RisingVoices_Summary_V19_SPREADS.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2019/06/JN_1093_RisingVoices_Summary_V19_SPREADS.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Joint-Call-to-the-European-Commission-on-stronger-protection-for-the-rights-of-persons-with-disabilities-when-travelling-by-air.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2023/06/Joint-Call-to-the-European-Commission-on-stronger-protection-for-the-rights-of-persons-with-disabilities-when-travelling-by-air.pdf
+- **Status**: analysed
+- title, 
+
+### Learning-from-experience-Examples-from-the-Optional-Protocol-of-the-CRPD-by-IDA.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/05/Learning-from-experience-Examples-from-the-Optional-Protocol-of-the-CRPD-by-IDA.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Lettre-ouverte-a-la-commissaire-europeenne-Lahbib3-Decembre-2024.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2024/12/Lettre-ouverte-a-la-commissaire-europeenne-Lahbib3-Decembre-2024.pdf
+- **Status**: analysed
+- title, 
+
+### Open-letter-to-the-Committee-of-Minister_-Draft-Additional-Protocol-to-the-Oviedo-Convention.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/01/Open-letter-to-the-Committee-of-Minister_-Draft-Additional-Protocol-to-the-Oviedo-Convention.pdf
+- **Status**: analysed
+- title, 
+
+### Police-Brutality-ETR.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/07/Police-Brutality-ETR.pdf
+- **Status**: analysed
+- title, 
+
+### RL-Guidelines-Volunteers-with-disabilities-within-the-new-European-Solidarity-Corps-ESC.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/02/RL-Guidelines-Volunteers-with-disabilities-within-the-new-European-Solidarity-Corps-ESC.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Rail-Passenger-Rights_Commission.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2023/11/Rail-Passenger-Rights_Commission.pdf
+- **Status**: analysed
+- title, 
+
+### Rail-Passenger-Rights_SNCB.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2023/11/Rail-Passenger-Rights_SNCB.pdf
+- **Status**: analysed
+- lang, 
+
+### Recommendations_UkraineCareReform.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/08/Recommendations_UkraineCareReform.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Reply-ECDC-on-COVID-19.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2020/05/Reply-ECDC-on-COVID-19.pdf
+- **Status**: analysed
+- title, 
+
+### Reply-to-Open-letter-by-108-disability-organisations.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/01/Reply-to-Open-letter-by-108-disability-organisations.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Riga-declaration-ENG-1.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2022/08/Riga-declaration-ENG-1.pdf
+- **Status**: analysed
+- title, 
+
+### The-smart-money-goes-where-it._compressed.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2023/09/The-smart-money-goes-where-it._compressed.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Towards-a-disability-inclusive-recovery-and-reconstruction-of-Ukraine.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2024/02/Towards-a-disability-inclusive-recovery-and-reconstruction-of-Ukraine.pdf
+- **Status**: analysed
+- title, 
+
+### UNSR-Report-on-visit-to-Europe.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2023/02/UNSR-Report-on-visit-to-Europe.pdf
+- **Status**: analysed
+- title, 
+
+### Ukraine-Recovery-Conference-2025-Rome.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/09/Ukraine-Recovery-Conference-2025-Rome.pdf
+- **Status**: analysed
+- title, 
+
+### Ukraine-disability-inclusive-response-and-recovery-Learning-Report.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/04/Ukraine-disability-inclusive-response-and-recovery-Learning-Report.pdf
+- **Status**: analysed
+- title, 
+
+### VC-Research-Report-FINAL-Nov-5th-2020.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2020/09/VC-Research-Report-FINAL-Nov-5th-2020.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### edf_forced-sterilisation_8-accessible_6.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2020/12/edf_forced-sterilisation_8-accessible_6.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### edf_position_paper_on_air_passengers_rights_for_persons_with_disabilities_2020.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/02/edf_position_paper_on_air_passengers_rights_for_persons_with_disabilities_2020.pdf
+- **Status**: analysed
+- title, 
+
+### fd4ec674-82d3-4328-9b6d-367fca5b3e03.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2025/09/fd4ec674-82d3-4328-9b6d-367fca5b3e03.pdf
+- **Status**: analysed
+- tagged, lang, no bookmarks and more than 20 pages, 
+
+### final-EDF-position-paper-on-Violence-against-women-and-girls-with-disabilities-in-the-European-Union.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/05/final-EDF-position-paper-on-Violence-against-women-and-girls-with-disabilities-in-the-European-Union.pdf
+- **Status**: analysed
+- title, 
+
+### final_edf_transposition_toolkit_accessibility_act.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2020/12/final_edf_transposition_toolkit_accessibility_act.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### life_after_violence_report.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2021/01/life_after_violence_report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### master_thesis_marine_uldry.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2020/12/master_thesis_marine_uldry.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### signed-letter-Commissioners-Valean-and-Dalli-.pdf
+
+- **URL**: https://www.edf-feph.org/content/uploads/2023/06/signed-letter-Commissioners-Valean-and-Dalli-.pdf
+- **Status**: analysed
+- title, 

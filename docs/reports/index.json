@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-11T18:00:32.637950+00:00",
+    "site": "edf-feph.org",
+    "crawl_url": "https://edf-feph.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22966758792",
+    "issue_url": "",
+    "archive_file": "2026-03-11_18-00-32-637_edf-feph.org.html",
+    "total": 6148,
+    "analysed": 2173,
+    "accessible": 713
+  },
+  {
     "date": "2026-03-11T16:35:00.408806+00:00",
     "site": "calgary.ca",
     "crawl_url": "https://www.calgary.ca/",
