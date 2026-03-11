@@ -542,7 +542,7 @@ def test_count_words_returns_none_on_broken_file(tmp_path):
 
 
 def test_count_words_returns_int_for_empty_pdf(tmp_path):
-    """_count_words() must return 0 (or None) for a PDF with no text, not raise."""
+    """_count_words() must return 0 for a valid PDF with no text content."""
     import pikepdf
     from pdf_analyser import _count_words
 
@@ -556,4 +556,5 @@ def test_count_words_returns_int_for_empty_pdf(tmp_path):
     pdf.save(str(p))
 
     result = _count_words(str(p))
-    assert result is None or isinstance(result, int)
+    # pdfminer returns whitespace/form-feed for empty pages; no non-whitespace tokens → 0
+    assert result == 0

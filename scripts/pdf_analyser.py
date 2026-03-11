@@ -185,12 +185,15 @@ def _count_images(pdf: Pdf) -> int:
 
 
 def _count_words(filename: str) -> Optional[int]:
-    """Extract text from *filename* using pdfminer.six and return the word count."""
+    """Extract text from *filename* using pdfminer.six and return the word count.
+
+    Uses ``re.findall(r'\\S+', text)`` so that any whitespace variant (spaces,
+    tabs, newlines, form-feed characters) acts as a word delimiter, and
+    consecutive whitespace sequences are not double-counted.
+    """
     try:
         text = _pdfminer_extract_text(filename)
-        if text:
-            return len(text.split())
-        return 0
+        return len(re.findall(r"\S+", text)) if text else 0
     except Exception:
         return None
 

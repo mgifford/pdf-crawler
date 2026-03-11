@@ -170,8 +170,8 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
             f"| {_fmt(r.get('BookmarksTest'))} "
             f"| {_fmt(r.get('Exempt'))} "
             f"| {r.get('Pages', _NA)} "
-            f"| {r.get('Words', _NA) if r.get('Words') is not None else _NA} "
-            f"| {r.get('Images', _NA) if r.get('Images') is not None else _NA} |"
+            f"| {r.get('Words') if r.get('Words') is not None else _NA} "
+            f"| {r.get('Images') if r.get('Images') is not None else _NA} |"
         )
     return header + "\n".join(rows) + "\n"
 
