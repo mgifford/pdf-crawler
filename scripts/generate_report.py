@@ -388,6 +388,16 @@ _HTML_TEMPLATE = """\
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
   <style>
     *, *::before, *::after {{ box-sizing: border-box; }}
 
@@ -617,6 +627,17 @@ _REPORTS_INDEX_TEMPLATE = """\
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PDF Accessibility Scan Reports</title>
+  <meta name="description" content="Historical record of all PDF accessibility scans run by the PDF Accessibility Crawler." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Reports" />
+  <meta property="og:description" content="Historical record of all PDF accessibility scans run by the PDF Accessibility Crawler." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mgifford.github.io/pdf-crawler/reports.html" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Reports" />
+  <meta name="twitter:description" content="Historical record of all PDF accessibility scans run by the PDF Accessibility Crawler." />
   <style>
     *, *::before, *::after {{ box-sizing: border-box; }}
 
