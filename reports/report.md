@@ -1,26 +1,27 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-11T19:18:16.089910+00:00
+Generated: 2026-03-11T20:24:44.642665+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 306 |
-| Total files tracked | 6148 |
-| Analysed | 2173 |
-| Pending analysis | 2886 |
+| URLs crawled | 100 |
+| Total files tracked | 6880 |
+| Analysed | 2176 |
+| Pending analysis | 3615 |
 | Errors during analysis | 1089 |
-| Accessible | 713 |
+| Accessible | 714 |
 | Totally inaccessible | 31 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 613 |
+| Exempt (pre-2018) | 614 |
 
 ## Files per Site
 
 | Site | Files |
 |------|-------|
 | adem.public.lu | 17 |
+| akzent.lu | 3 |
 | calgary.ca | 165 |
 | canada.ca | 496 |
 | cms.gov | 373 |
@@ -28,6 +29,7 @@ Generated: 2026-03-11T19:18:16.089910+00:00
 | edf-feph.org | 98 |
 | energy.gov | 417 |
 | gsa.gov | 450 |
+| mn.gov | 729 |
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
 | vdl.lu | 16 |
@@ -2208,6 +2210,9 @@ Generated: 2026-03-11T19:18:16.089910+00:00
 | [life_after_violence_report.pdf](https://www.edf-feph.org/content/uploads/2021/01/life_after_violence_report.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 89 | — | — |
 | [master_thesis_marine_uldry.pdf](https://www.edf-feph.org/content/uploads/2020/12/master_thesis_marine_uldry.pdf) | edf-feph.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 45 | — | — |
 | [signed-letter-Commissioners-Valean-and-Dalli-.pdf](https://www.edf-feph.org/content/uploads/2023/06/signed-letter-Commissioners-Valean-and-Dalli-.pdf) | edf-feph.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | — | — |
+| [Aktionsplan-PAN-2019-2024-DE.pdf](https://www.akzent.lu/wp-content/uploads/2025/11/Aktionsplan-PAN-2019-2024-DE.pdf) | akzent.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 77 | 30326 | 1169 |
+| [Aktionsplan-PAN-2019-2024-LS-DE.pdf](https://www.akzent.lu/wp-content/uploads/2025/11/Aktionsplan-PAN-2019-2024-LS-DE.pdf) | akzent.lu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 96 | 8207 | 1 |
+| [UN-BRK-in-Leichter-Sprache-DE.pdf](https://www.akzent.lu/wp-content/uploads/2025/11/UN-BRK-in-Leichter-Sprache-DE.pdf) | akzent.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 40 | 3150 | 0 |
 
 ## Files with Errors or Notes
 
@@ -17516,3 +17521,15 @@ Generated: 2026-03-11T19:18:16.089910+00:00
 - **URL**: https://www.edf-feph.org/content/uploads/2023/06/signed-letter-Commissioners-Valean-and-Dalli-.pdf
 - **Status**: analysed
 - title, 
+
+### Aktionsplan-PAN-2019-2024-DE.pdf
+
+- **URL**: https://www.akzent.lu/wp-content/uploads/2025/11/Aktionsplan-PAN-2019-2024-DE.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### UN-BRK-in-Leichter-Sprache-DE.pdf
+
+- **URL**: https://www.akzent.lu/wp-content/uploads/2025/11/UN-BRK-in-Leichter-Sprache-DE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 

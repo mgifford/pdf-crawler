@@ -109836,22 +109836,99 @@
   filename: Aktionsplan-PAN-2019-2024-DE.pdf
   site: akzent.lu
   crawled_at: '2026-03-11T20:23:29.553577+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Fail
+    Exempt: false
+    Date: '2020-05-29 15:09:29+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.3'
+    Creator: Adobe InDesign 15.0 (Macintosh)
+    Producer: Adobe PDF Library 15.0
+    Pages: 77
+    Words: 30326
+    Images: 1169
+  errors:
+  - 'title, tagged, no bookmarks and more than 20 pages, '
 - url: https://www.akzent.lu/wp-content/uploads/2025/11/Aktionsplan-PAN-2019-2024-LS-DE.pdf
   md5: 7303b0e7337ff91ab34706ffada9cc53
   filename: Aktionsplan-PAN-2019-2024-LS-DE.pdf
   site: akzent.lu
   crawled_at: '2026-03-11T20:23:29.558891+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2021-06-01 10:23:18+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 16.2 (Windows)
+    Producer: Adobe PDF Library 15.0
+    Pages: 96
+    Words: 8207
+    Images: 1
   errors: []
 - url: https://www.akzent.lu/wp-content/uploads/2025/11/UN-BRK-in-Leichter-Sprache-DE.pdf
   md5: d05e04a167803b1a7afbcc97aefa5cc5
   filename: UN-BRK-in-Leichter-Sprache-DE.pdf
   site: akzent.lu
   crawled_at: '2026-03-11T20:23:29.560757+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Fail
+    Exempt: true
+    Date: '2010-05-11 10:56:42+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Adobe InDesign CS3 (5.0.4)
+    Producer: Adobe PDF Library 8.0
+    Pages: 40
+    Words: 3150
+    Images: 0
+  errors:
+  - 'title, tagged, lang, no bookmarks and more than 20 pages, '

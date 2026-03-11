@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-11T20:24:44.642665+00:00",
+    "site": "akzent.lu",
+    "crawl_url": "https://akzent.lu",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22972780730",
+    "issue_url": "",
+    "archive_file": "2026-03-11_20-24-44-642_akzent.lu.html",
+    "total": 3,
+    "analysed": 3,
+    "accessible": 1
+  },
+  {
     "date": "2026-03-11T19:18:16.089910+00:00",
     "site": "texas.gov",
     "crawl_url": "https://www.texas.gov",
