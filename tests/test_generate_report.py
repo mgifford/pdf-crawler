@@ -780,3 +780,117 @@ def test_cli_accepts_issue_url_argument(tmp_path):
     )
     assert result.returncode == 0
     assert "--issue-url" in result.stdout
+
+
+# ---------------------------------------------------------------------------
+# Words and Images columns
+# ---------------------------------------------------------------------------
+
+def _make_entry_with_words_images(url, words=None, images=None):
+    """Return an analysed manifest entry with optional Words and Images fields."""
+    entry = _make_entry(url)
+    entry["report"]["Words"] = words
+    entry["report"]["Images"] = images
+    return entry
+
+
+def test_generate_csv_has_words_and_images_columns():
+    """CSV output must include 'words' and 'images' column headers."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf", words=500, images=3)]
+    csv_text = generate_csv(entries)
+    first_line = csv_text.splitlines()[0]
+    assert "words" in first_line
+    assert "images" in first_line
+
+
+def test_generate_csv_words_and_images_values():
+    """CSV output must include the correct words and images values per entry."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf", words=1234, images=7)]
+    csv_text = generate_csv(entries)
+    assert "1234" in csv_text
+    assert "7" in csv_text
+
+
+def test_generate_csv_words_and_images_empty_when_none():
+    """CSV must produce empty strings for Words/Images when they are None."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf", words=None, images=None)]
+    csv_text = generate_csv(entries)
+    lines = csv_text.splitlines()
+    data_row = lines[1]
+    # Both words and images are empty – verify they're not non-empty values
+    assert "1234" not in data_row
+    assert "7" not in data_row
+
+
+def test_generate_markdown_shows_words_and_images_columns():
+    """Markdown file table must include 'Words' and 'Images' column headers."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf", words=200, images=4)]
+    stats = _summary_stats(entries)
+    md = generate_markdown(entries, stats)
+    assert "Words" in md
+    assert "Images" in md
+
+
+def test_generate_markdown_shows_words_and_images_values():
+    """Markdown file table must include the word and image count values."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf", words=999, images=2)]
+    stats = _summary_stats(entries)
+    md = generate_markdown(entries, stats)
+    assert "999" in md
+    assert "| 2 |" in md
+
+
+def test_generate_html_shows_words_and_images_columns():
+    """HTML report must include Words and Images column headers."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf", words=300, images=5)]
+    stats = _summary_stats(entries)
+    html = generate_html(entries, stats)
+    assert "Words" in html
+    assert "Images" in html
+
+
+def test_generate_html_shows_words_and_images_js_fields():
+    """HTML report JavaScript must reference r.Words and r.Images."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf")]
+    stats = _summary_stats(entries)
+    html = generate_html(entries, stats)
+    assert "r.Words" in html
+    assert "r.Images" in html
+
+
+def test_issue_comment_shows_words_and_images_columns():
+    """Issue comment PDF table must include Words and Images columns."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf", words=150, images=1)]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+    )
+    assert "Words" in comment
+    assert "Images" in comment
+
+
+def test_issue_comment_shows_words_and_images_values():
+    """Issue comment must include the word and image count values."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf", words=42, images=3)]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+    )
+    assert "42" in comment
+    assert "3" in comment
+
+
+def test_issue_comment_words_images_none_shows_dash():
+    """Issue comment must show '—' when Words/Images are None."""
+    entries = [_make_entry_with_words_images("https://example.com/doc.pdf", words=None, images=None)]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+    )
+    assert "—" in comment
