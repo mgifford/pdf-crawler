@@ -946,6 +946,15 @@ def main(
     entries = load_manifest(manifest_path)
     stats = _summary_stats(entries)
 
+    # Compute per-site stats for the archive index entry so that values in
+    # index.json (Total PDFs, Analysed, Accessible) reflect only the current
+    # site's entries rather than the cumulative totals of all sites.
+    if site_filter:
+        site_entries = [e for e in entries if e.get("site") == site_filter]
+        site_stats = _summary_stats(site_entries)
+    else:
+        site_stats = stats
+
     # If a crawled-files directory is provided, read the crawl statistics from
     # the per-site JSON files written by the spider and copy crawled_urls.csv
     # to the report directory so it can be published via GitHub Pages.
@@ -1014,8 +1023,8 @@ def main(
         archive_path = archive_out / archive_name
         archive_path.write_text(
             generate_html(
-                entries,
-                stats,
+                site_entries if site_filter else entries,
+                site_stats,
                 back_url="../reports.html",
                 back_label="Back to reports index",
             ),
@@ -1042,9 +1051,9 @@ def main(
                     "run_url": run_url,
                     "issue_url": issue_url,
                     "archive_file": archive_name,
-                    "total": stats["total_files"],
-                    "analysed": stats["analysed"],
-                    "accessible": stats["accessible"],
+                    "total": site_stats["total_files"],
+                    "analysed": site_stats["analysed"],
+                    "accessible": site_stats["accessible"],
                 },
             )
             index_path.write_text(

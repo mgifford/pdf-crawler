@@ -6,9 +6,9 @@
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22966758792",
     "issue_url": "https://github.com/mgifford/pdf-crawler/issues/58#issuecomment-4041072898",
     "archive_file": "2026-03-11_18-00-32-637_edf-feph.org.html",
-    "total": 6148,
-    "analysed": 2173,
-    "accessible": 713
+    "total": 98,
+    "analysed": 98,
+    "accessible": 30
   },
   {
     "date": "2026-03-11T16:35:00.408806+00:00",
@@ -16,9 +16,9 @@
     "crawl_url": "https://www.calgary.ca/",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22962888767",
     "archive_file": "2026-03-11_16-35-00-408_calgary.ca.html",
-    "total": 6050,
-    "analysed": 2075,
-    "accessible": 683
+    "total": 165,
+    "analysed": 165,
+    "accessible": 6
   },
   {
     "date": "2026-03-11T14:39:37.400525+00:00",
@@ -49,9 +49,9 @@
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22956935594",
     "issue_url": "https://github.com/mgifford/pdf-crawler/issues/45#issuecomment-4035930752",
     "archive_file": "2026-03-11_14-13-58-852_adem.public.lu.html",
-    "total": 5885,
-    "analysed": 1910,
-    "accessible": 677
+    "total": 17,
+    "analysed": 17,
+    "accessible": 1
   },
   {
     "date": "2026-03-11T12:52:34.012777+00:00",
@@ -70,9 +70,9 @@
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22930636449",
     "issue_url": "https://github.com/mgifford/pdf-crawler/issues/45#issuecomment-4035930752",
     "archive_file": "2026-03-11_03-19-19-491_adem.public.lu.html",
-    "total": 5884,
-    "analysed": 1909,
-    "accessible": 677
+    "total": 17,
+    "analysed": 17,
+    "accessible": 1
   },
   {
     "date": "2026-03-11T03:14:57.143340+00:00",
@@ -80,9 +80,9 @@
     "crawl_url": "https://nsf.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22930636449",
     "archive_file": "2026-03-11_03-14-57-143_nsf.gov.html",
-    "total": 5868,
-    "analysed": 1893,
-    "accessible": 676
+    "total": 1179,
+    "analysed": 250,
+    "accessible": 209
   },
   {
     "date": "2026-03-11T00:24:50.588946+00:00",
@@ -90,9 +90,9 @@
     "crawl_url": "https://www.cms.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22926686760",
     "archive_file": "2026-03-11_00-24-50-588_cms.gov.html",
-    "total": 5699,
-    "analysed": 1643,
-    "accessible": 467
+    "total": 373,
+    "analysed": 373,
+    "accessible": 150
   },
   {
     "date": "2026-03-10T19:53:20.338851+00:00",
@@ -100,9 +100,9 @@
     "crawl_url": "https://vdl.lu",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22921449722",
     "archive_file": "2026-03-10_19-53-20-338_vdl.lu.html",
-    "total": 5249,
-    "analysed": 1270,
-    "accessible": 317
+    "total": 16,
+    "analysed": 16,
+    "accessible": 1
   },
   {
     "date": "2026-03-10T19:49:32.690791+00:00",
@@ -130,9 +130,9 @@
     "crawl_url": "https://www.cms.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22910268921",
     "archive_file": "2026-03-10_15-29-25-079_cms.gov.html",
-    "total": 5233,
-    "analysed": 1254,
-    "accessible": 316
+    "total": 373,
+    "analysed": 373,
+    "accessible": 150
   },
   {
     "date": "2026-03-10T15:15:03.294997+00:00",
@@ -140,9 +140,9 @@
     "crawl_url": "https://www.canada.ca",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22902803883",
     "archive_file": "2026-03-10_15-15-03-294_canada.ca.html",
-    "total": 5233,
-    "analysed": 1254,
-    "accessible": 316
+    "total": 496,
+    "analysed": 472,
+    "accessible": 33
   },
   {
     "date": "2026-03-10T02:20:36.659038+00:00",
@@ -150,9 +150,9 @@
     "crawl_url": "https://www.Ontario.ca",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22877551709",
     "archive_file": "2026-03-10_02-20-36-659_ontario.ca.html",
-    "total": 4066,
-    "analysed": 1001,
-    "accessible": 300
+    "total": 51,
+    "analysed": 51,
+    "accessible": 36
   },
   {
     "date": "2026-03-10T00:25:32.014496+00:00",
@@ -170,9 +170,9 @@
     "crawl_url": "https://www.cms.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22880967776",
     "archive_file": "2026-03-10_00-17-06-570_cms.gov.html",
-    "total": 2991,
-    "analysed": 950,
-    "accessible": 264
+    "total": 373,
+    "analysed": 373,
+    "accessible": 150
   },
   {
     "date": "2026-03-09T22:54:38.103014+00:00",
@@ -180,9 +180,9 @@
     "crawl_url": "https://energy.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22877551709",
     "archive_file": "2026-03-09_22-54-38-103_energy.gov.html",
-    "total": 1098,
-    "analysed": 950,
-    "accessible": 264
+    "total": 417,
+    "analysed": 395,
+    "accessible": 144
   },
   {
     "date": "2026-03-09T22:37:35.576294+00:00",
@@ -190,9 +190,9 @@
     "crawl_url": "https://GSA.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22877551709",
     "archive_file": "2026-03-09_22-37-35-576_gsa.gov.html",
-    "total": 681,
-    "analysed": 555,
-    "accessible": 120
+    "total": 450,
+    "analysed": 336,
+    "accessible": 103
   },
   {
     "date": "2026-03-09T22:14:50.984587+00:00",

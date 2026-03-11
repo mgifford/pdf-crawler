@@ -643,6 +643,131 @@ def test_main_stores_empty_issue_url_when_not_provided(tmp_path):
     assert data[0].get("issue_url") == ""
 
 
+
+def test_main_index_uses_per_site_stats(tmp_path):
+    """index.json must store per-site counts, not cumulative totals across all sites."""
+    import yaml
+
+    # Manifest with two sites: 2 entries for site-a.com and 3 for site-b.com.
+    # When running with --site site-a.com the index entry must reflect only
+    # the 2 site-a.com entries, not the combined total of 5.
+    entries = [
+        {
+            "url": "https://site-a.com/1.pdf",
+            "filename": "1.pdf",
+            "site": "site-a.com",
+            "status": "analysed",
+            "report": {
+                "Accessible": True,
+                "TotallyInaccessible": False,
+                "BrokenFile": False,
+                "Exempt": False,
+                "TaggedTest": "Pass",
+                "EmptyTextTest": "Pass",
+                "ProtectedTest": "Pass",
+                "TitleTest": "Pass",
+                "LanguageTest": "Pass",
+                "BookmarksTest": "Pass",
+                "Pages": 1,
+            },
+            "errors": [],
+        },
+        {
+            "url": "https://site-a.com/2.pdf",
+            "filename": "2.pdf",
+            "site": "site-a.com",
+            "status": "analysed",
+            "report": {
+                "Accessible": False,
+                "TotallyInaccessible": True,
+                "BrokenFile": False,
+                "Exempt": False,
+                "TaggedTest": "Fail",
+                "EmptyTextTest": "Pass",
+                "ProtectedTest": "Pass",
+                "TitleTest": "Fail",
+                "LanguageTest": "Fail",
+                "BookmarksTest": "Pass",
+                "Pages": 2,
+            },
+            "errors": [],
+        },
+        {
+            "url": "https://site-b.com/1.pdf",
+            "filename": "b1.pdf",
+            "site": "site-b.com",
+            "status": "analysed",
+            "report": {
+                "Accessible": True,
+                "TotallyInaccessible": False,
+                "BrokenFile": False,
+                "Exempt": False,
+                "TaggedTest": "Pass",
+                "EmptyTextTest": "Pass",
+                "ProtectedTest": "Pass",
+                "TitleTest": "Pass",
+                "LanguageTest": "Pass",
+                "BookmarksTest": "Pass",
+                "Pages": 3,
+            },
+            "errors": [],
+        },
+        {
+            "url": "https://site-b.com/2.pdf",
+            "filename": "b2.pdf",
+            "site": "site-b.com",
+            "status": "analysed",
+            "report": {"Accessible": True, "TotallyInaccessible": False, "BrokenFile": False,
+                        "Exempt": False, "TaggedTest": "Pass", "EmptyTextTest": "Pass",
+                        "ProtectedTest": "Pass", "TitleTest": "Pass", "LanguageTest": "Pass",
+                        "BookmarksTest": "Pass", "Pages": 1},
+            "errors": [],
+        },
+        {
+            "url": "https://site-b.com/3.pdf",
+            "filename": "b3.pdf",
+            "site": "site-b.com",
+            "status": "analysed",
+            "report": {"Accessible": True, "TotallyInaccessible": False, "BrokenFile": False,
+                        "Exempt": False, "TaggedTest": "Pass", "EmptyTextTest": "Pass",
+                        "ProtectedTest": "Pass", "TitleTest": "Pass", "LanguageTest": "Pass",
+                        "BookmarksTest": "Pass", "Pages": 2},
+            "errors": [],
+        },
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    manifest_path.write_text(yaml.dump(entries), encoding="utf-8")
+
+    archive_dir = tmp_path / "archive"
+    html_dir = tmp_path / "html"
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(tmp_path / "reports"),
+        site_filter="site-a.com",
+        html_dir=str(html_dir),
+        archive_dir=str(archive_dir),
+        run_url="https://github.com/owner/repo/actions/runs/1",
+        crawl_url="https://site-a.com",
+    )
+
+    index_path = archive_dir / "index.json"
+    data = json.loads(index_path.read_text(encoding="utf-8"))
+    assert len(data) == 1
+    entry = data[0]
+
+    # Must reflect only site-a.com (2 entries), not all 5 entries
+    assert entry["total"] == 2, (
+        f"Expected total=2 (site-a.com only), got {entry['total']}"
+    )
+    assert entry["analysed"] == 2, (
+        f"Expected analysed=2, got {entry['analysed']}"
+    )
+    assert entry["accessible"] == 1, (
+        f"Expected accessible=1 (only first PDF is accessible), got {entry['accessible']}"
+    )
+
+
 def test_cli_accepts_issue_url_argument(tmp_path):
     """The --issue-url CLI argument must be accepted without error."""
     import subprocess
