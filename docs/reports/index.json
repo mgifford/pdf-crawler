@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-03-11T16:35:00.408806+00:00",
+    "site": "calgary.ca",
+    "crawl_url": "https://www.calgary.ca/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22962888767",
+    "archive_file": "2026-03-11_16-35-00-408_calgary.ca.html",
+    "total": 6050,
+    "analysed": 2075,
+    "accessible": 683
+  },
+  {
     "date": "2026-03-11T14:39:37.400525+00:00",
     "site": "vancouver.ca",
     "crawl_url": "https://vancouver.ca/",

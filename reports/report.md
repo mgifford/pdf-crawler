@@ -1,25 +1,27 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-11T14:39:37.400525+00:00
+Generated: 2026-03-11T16:35:00.408806+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 5885 |
-| Analysed | 1910 |
+| URLs crawled | 567 |
+| Total files tracked | 6050 |
+| Analysed | 2075 |
 | Pending analysis | 2886 |
 | Errors during analysis | 1089 |
-| Accessible | 677 |
-| Totally inaccessible | 24 |
-| Broken / unreadable | 2 |
-| Exempt (pre-2018) | 578 |
+| Accessible | 683 |
+| Totally inaccessible | 29 |
+| Broken / unreadable | 3 |
+| Exempt (pre-2018) | 612 |
 
 ## Files per Site
 
 | Site | Files |
 |------|-------|
 | adem.public.lu | 17 |
+| calgary.ca | 165 |
 | canada.ca | 496 |
 | cms.gov | 373 |
 | ed.gov | 2886 |
@@ -1942,6 +1944,171 @@ Generated: 2026-03-11T14:39:37.400525+00:00
 | [rapport-final-prestations-assistance.pdf](https://adem.public.lu/dam-assets/fr/formulaires/salaries/rapport-final-prestations-assistance.pdf) | adem.public.lu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
 | [skills4job2025-fr.pdf](https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/formations/skills4job2025-fr.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 | [demande-octroi-indemnite-compensatoire-de.pdf](https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/Recl_pro/demande-octroi-indemnite-compensatoire-de.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2019-annual-investment-report.pdf](https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/annual-reports/2019-annual-investment-report.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [2020-annual-investment-report.pdf](https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/annual-reports/2020-annual-investment-report.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 17 |
+| [2021-annual-investment-report.pdf](https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/annual-reports/2021-annual-investment-report.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 35 |
+| [2022-annual-investment-report.pdf](https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/annual-reports/2022-annual-investment-report.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 35 |
+| [2026-budget-as-approved-dec-3-2025.pdf](https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/2023-2026-service-plans-budgets/2026-budget-as-approved-dec-3-2025.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 158 |
+| [9.36-project-summary-form.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/green/9.36-project-summary-form.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Anastomose%20.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/Anastomose%20.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [BSFM-Water-Conservation-Handout.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/2026-bearpsaw-feedermain-h20c/BSFM-Water-Conservation-Handout.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [City-of-Calgary-Water-Main-L4-Report-SIGNED.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-main-break/City-of-Calgary-Water-Main-L4-Report-SIGNED.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 31 |
+| [Euphoria.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/Euphoria.pdf) | calgary.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 |
+| [Prairie-Sky-Cemetery-map.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/Prairie-Sky-Cemetery-map.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Sample-AC_Heat-Design.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/pdf/sample-permit-drawings/Sample-AC_Heat-Design.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [Urban%20Acupuncture.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/Urban%20Acupuncture.pdf) | calgary.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [YardSmart_Perennials_Brochure_Traditional_Chinese.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_Perennials_Brochure_Traditional_Chinese.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [YardSmart_RainGardens_Brochure_Arabic.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Arabic.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [YardSmart_RainGardens_Brochure_Hindi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Hindi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [YardSmart_RainGardens_Brochure_Punjabi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Punjabi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [YardSmart_RainGardens_Brochure_Simplified_Chinese.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Simplified_Chinese.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [YardSmart_RainGardens_Brochure_Traditional_Chinese.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Traditional_Chinese.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [YardSmart_TreesShrubs_Brochure_Arabic.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Arabic.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [YardSmart_TreesShrubs_Brochure_Hindi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Hindi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [YardSmart_TreesShrubs_Brochure_Punjabi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Punjabi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [YardSmart_TreesShrubs_Brochure_Simplified_Chinese.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Simplified_Chinese.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [YardSmart_TreesShrubs_Brochure_Traditional_Chinese.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Traditional_Chinese.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [abandoned-well-declaration.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/development/abandoned-well-declaration.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [advisory-zero-lot-line-variance.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/variances/advisory-zero-lot-line-variance.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [application-for-online-permitting-pl1323-2025.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/application-for-online-permitting-pl1323-2025.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [better-every-day-city-manager-quarterly-report-2021-Q1.pdf](https://www.calgary.ca/content/dam/www/ca/city-manager/documents/cmo-quarterly-report/better-every-day-city-manager-quarterly-report-2021-Q1.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [better-every-day-city-manager-quarterly-report-2021-Q2.pdf](https://www.calgary.ca/content/dam/www/ca/city-manager/documents/cmo-quarterly-report/better-every-day-city-manager-quarterly-report-2021-Q2.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [better-every-day-city-manager-quarterly-report-2021-Q3.pdf](https://www.calgary.ca/content/dam/www/ca/city-manager/documents/cmo-quarterly-report/better-every-day-city-manager-quarterly-report-2021-Q3.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [blue-cart-yes-no.pdf](https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/cart-guides/blue-cart-yes-no.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [building-and-trade-permit-fee-schedule.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/fees/building-and-trade-permit-fee-schedule.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [building-exterior-visual-assessment-guideline.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/current-studies-and-ongoing-activities/building-maintenance-bylaw/building-exterior-visual-assessment-guideline.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 |
+| [building-maintenance-bylaw-infographic.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/current-studies-and-ongoing-activities/building-maintenance-bylaw/building-maintenance-bylaw-infographic.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [busking-id-application.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/arts-and-culture-in-calgary/busking/busking-id-application.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [calgary-plant-lists.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/natural-parks-and-wetlands/calgary-plant-lists.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 242 |
+| [calgary-seed-mixes.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/natural-parks-and-wetlands/calgary-seed-mixes.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 85 |
+| [cema-ready-calgary-building-community-resilience-section-one-emcs-2020-a.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/ready-calgary/cema-ready-calgary-building-community-resilience-section-one-emcs-2020-a.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 116 |
+| [cfd-home-escape-plan.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/preparing-in-case-of-fire/cfd-home-escape-plan.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [chinese-cemetery-map.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/chinese-cemetery-map.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [city-of-calgary-site-tours-industry-guide.pdf](https://www.calgary.ca/content/dam/www/major-projects/published-images/city-of-calgary-site-tours-industry-guide.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [climate-environment---rain-barrel---brochure-update_translation_info_web.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/climate-environment---rain-barrel---brochure-update_translation_info_web.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [climate-environment---rain-barrel---brochure-update_translation_instructions_web.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/climate-environment---rain-barrel---brochure-update_translation_instructions_web.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [comprehensive-cycle-strategy.pdf](https://www.calgary.ca/content/dam/www/transportation/tp/documents/transportation-solutions/cycling/comprehensive-cycle-strategy.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 |
+| [contractors-hydronic-plumbing-permit-checklist-pl1220.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/contractors-hydronic-plumbing-permit-checklist-pl1220.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [contractors-plumbing-permit-application-pl1212-2025.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/contractors-plumbing-permit-application-pl1212-2025.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [contractors-plumbing-permit-application-pl1212.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/contractors-plumbing-permit-application-pl1212.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [contractors-psts-plumbing-permit-checklist-pl1221.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/contractors-psts-plumbing-permit-checklist-pl1221.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [cp2017-02-indigenous-policy.pdf](https://www.calgary.ca/content/dam/www/ca/city-clerks/documents/council-policy-library/cp2017-02-indigenous-policy.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 |
+| [cqt-vista-registration-form.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/cqt-vista-registration-form.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [cross-connections-brochures-industrial.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/cross-connections-brochures-industrial.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [cross-connections-brochures-residential.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/cross-connections-brochures-residential.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [cycling-strategy-engagement-process.pdf](https://www.calgary.ca/content/dam/www/transportation/tp/documents/transportation-solutions/cycling/cycling-strategy-engagement-process.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [december-2009-offleash-dog-report-bylaw.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/public-behaviour-and-spaces/december-2009-offleash-dog-report-bylaw.pdf) | calgary.ca | — | — | — | — | — | — | — | ❌ Fail | None |
+| [dp-extension.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/dp-extension.pdf) | calgary.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [dutch-elm-disease-trees.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/common-pests/dutch-elm-disease-trees.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [e1982-industrial-permit-application.pdf](https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/e1982-industrial-permit-application.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [emerald-ash-borer-fact-sheet.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/common-pests/emerald-ash-borer-fact-sheet.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [established-area-growth-and-change-strategy-property-tax-uplift-handout.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/current-studies-and-ongoing-activities/established-area-growth-and-change-strategy-property-tax-uplift-handout.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [etrades-external-user-quick-reference-quide.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/etrades-external-user-quick-reference-quide.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 |
+| [fair-entry-fee-reduction-application-large-print-fillable.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/programs-and-services-for-low-income/fair-entry-subsidy/fair-entry-fee-reduction-application-large-print-fillable.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [feedermain-review-final-report.pdf](https://www.calgary.ca/content/dam/www/emergencies/files/feedermain-review-final-report.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 86 |
+| [film-theater-firearm-discharge-permit-2020.pdf](https://www.calgary.ca/content/dam/www/major-projects/documents/film-theater-firearm-discharge-permit-2020.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [fog-handout-hindi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-hindi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [fog-handout-keep-fog-out.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fog-handout-keep-fog-out.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [fog-handout-punjabi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-punjabi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [fog-handout-simplified-chinese.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-simplified-chinese.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [fog-handout-traditional-chinese.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-traditional-chinese.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [fog-handout-vietnamese.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-vietnamese.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [funding-process-map-infographic.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/funding-for-social-programs/prevention/funding-process-map-infographic.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [golf-ambassador-application.pdf](https://www.calgary.ca/content/dam/www/get-involved/volunteer-opportunities/golf-course-ambassador/golf-ambassador-application.pdf) | calgary.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [high-water-consumption-checklist.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/high-water-consumption-checklist.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [home-services-seniors-faq.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/older-adult-and-age-friendly-resources/home-services-seniors-faq.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [homeowner-water-guides-faucets-urdu.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/homeowner-water-guides-faucets-urdu.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 |
+| [homeowner-water-guides-read-your-bill-urdu.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/homeowner-water-guides-read-your-bill-urdu.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [homeowner-water-guides-spring-and-fall-checklist-hindi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/hindi/homeowner-water-guides-spring-and-fall-checklist-hindi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [homeowner-water-guides-spring-and-fall-checklist-punjabi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/punjabi/homeowner-water-guides-spring-and-fall-checklist-punjabi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [homeowner-water-guides-spring-and-fall-checklist-urdu.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/homeowner-water-guides-spring-and-fall-checklist-urdu.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [homeowner-water-guides-toilets-urdu.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/homeowner-water-guides-toilets-urdu.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 |
+| [how-to-book-an-inspection-user-guide.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/inspections/how-to-book-an-inspection-user-guide.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [junior-weather-forecaster-challenge-sheet-emcs-2022-a.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/ready-squad-calgary/junior-weather-forecaster-challenge-sheet-emcs-2022-a.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [junior-weather-resources-emcs-2022-a.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/ready-squad-calgary/junior-weather-resources-emcs-2022-a.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [land-use-bylaw-1p2007-pre-aug-6.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007-pre-aug-6.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1044 |
+| [landfill-process-infographic.pdf](https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/landfill-process-infographic.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [long-range-urban-sustainability-plan.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/development/long-range-urban-sustainability-plan.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 211 |
+| [mason-bee-house-pollinators.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/wildlife/mason-bee-house-pollinators.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [mental-health-calgarians-final-report-2025.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/mental-health-and-addiction-strategy/mental-health-calgarians-final-report-2025.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 89 |
+| [metis-artists-in-residency-ibs-nov-dec-2024.pdf](https://www.calgary.ca/content/dam/www/metis-artists-in-residency-ibs-nov-dec-2024.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [multicultural-activity-guide.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/arts-and-culture-in-calgary/cross-cultural-resources/multicultural-activity-guide.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 127 |
+| [native-wildflower-plants-guide.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/native-wildflower-plants-guide.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [no-fog-signage-punjabi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/no-fog-signage-punjabi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [no-fog-signage-vietnamese.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/no-fog-signage-vietnamese.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [odours-infrastructure-map.pdf](https://www.calgary.ca/content/dam/www/uep/esm/documents/odours-infrastructure-map.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [off-leash-dog-area-framework-bylaw.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/public-behaviour-and-spaces/off-leash-dog-area-framework-bylaw.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [off-leash-implementation-guide-bylaw.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/public-behaviour-and-spaces/off-leash-implementation-guide-bylaw.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [offleash-dog-public-bylaws.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/public-behaviour-and-spaces/offleash-dog-public-bylaws.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [owr-business-summary-guide.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/outdoor-water-restrictions/owr-business-summary-guide.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [owr-residential-summary-guide.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/outdoor-water-restrictions/owr-residential-summary-guide.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [pathway-and-bikeway-plan-network-principles-report.pdf](https://www.calgary.ca/content/dam/www/pathway-and-bikeway-plan-network-principles-report.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [pl1218-homeowners-gas-fireplace-installation-permit-application.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/pl1218-homeowners-gas-fireplace-installation-permit-application.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [plan-it-sustainability-principles.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/municipal-development-plan/plan-it-sustainability-principles.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [private-yard-naturalization.pdf](https://www.calgary.ca/content/dam/www/csps/parks/documents/planning-and-operations/private-yard-naturalization.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [public-tree-disclosure-statement.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/development/public-tree-disclosure-statement.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [queens-park-cemetery-map.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/queens-park-cemetery-map.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [ready-squad-evacuation-postcard-emcs-2020-a.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/ready-squad-calgary/ready-squad-evacuation-postcard-emcs-2020-a.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [right-call-table.pdf](https://www.calgary.ca/content/dam/www/csps/cns/documents/right-call-table.pdf) | calgary.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [river-monitoring-infographic-fullsize.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/flood-info-documents/river-monitoring-infographic-fullsize.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [sds-example.pdf](https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/sds-example.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [se-odour-Investigation-final-report.pdf](https://www.calgary.ca/content/dam/www/uep/esm/documents/se-odour-Investigation-final-report.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 113 |
+| [se-odour-investigation-public-info-session.pdf](https://www.calgary.ca/content/dam/www/uep/esm/documents/se-odour-investigation-public-info-session.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 26 |
+| [secondary-suite-specifications.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-installation/secondary-suite-specifications.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [shared-e-Bike-and-eScooter-final-pilot-report.pdf](https://www.calgary.ca/content/dam/www/transportation/tp/documents/cycling/cycling-strategy/shared-e-Bike-and-eScooter-final-pilot-report.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 28 |
+| [shared-e-scooter-and-e-bike-mid-pilot-council-report.pdf](https://www.calgary.ca/content/dam/www/transportation/tp/documents/cycling/cycling_strategy/shared-e-scooter-and-e-bike-mid-pilot-council-report.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 24 |
+| [sign-canopy-projecting.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-canopy-projecting.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [sign-digital-message.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-digital-message.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [sign-digital-third-party-advertising.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-digital-third-party-advertising.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [sign-fascia.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-fascia.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [sign-freestanding.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-freestanding.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [sign-third-party.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-third-party.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 |
+| [snow-angels-certificate.pdf](https://www.calgary.ca/content/dam/www/get-involved/volunteer-opportunities/snow-angels/snow-angels-certificate.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [solar-thermal-hot-water.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/building-permit/solar-thermal-hot-water.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [speed-cushion-community-improvements.pdf](https://www.calgary.ca/content/dam/www/transportation/roads/documents/traffic/traffic-safety-programs/speed-cushion-community-improvements.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [st-marys-cemetery-map.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/st-marys-cemetery-map.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [standard-authorization-letter.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/standard-authorization-letter.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [supporting-growth-and-change-in-established-communities.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/current-studies-and-ongoing-activities/supporting-growth-and-change-in-established-communities.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [sustainable-development-inventory.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/building/green/sustainable-development-inventory.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [tips-for-calling-911-ukrainian.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/safety-contacts/tips-for-calling-911-ukrainian.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [transportation-bylaw-cycling-hand-signals-postcard.pdf](https://www.calgary.ca/content/dam/www/transportation/tp/documents/cycling/cycling-education/transportation-bylaw-cycling-hand-signals-postcard.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [tree-protection-plan-guide.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/household-and-private-property/tree-protection-plan-guide.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [tree-protection-weblink-portal-findings.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/trees-and-urban-forest/tree-protection-weblink-portal-findings.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 9 |
+| [tree-stump-removal-application.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/household-and-private-property/tree-stump-removal-application.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [typical-roadway-configuration-tree-protection.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/household-and-private-property/typical-roadway-configuration-tree-protection.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 |
+| [underpass-guidelines.pdf](https://www.calgary.ca/content/dam/www/pda/pd/documents/centre-city/centre-city-policies/underpass-guidelines.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 137 |
+| [union-cemetery-map.pdf](https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/union-cemetery-map.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [using-your-cart-quick-reference-guide.pdf](https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/cart-guides/using-your-cart-quick-reference-guide.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [water-meter-replacement-french-translation.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-french-translation.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [water-meter-replacement-hindi-translation.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-hindi-translation.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [water-meter-replacement-punjabi-translation.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-punjabi-translation.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [water-meter-replacement-spanish-translation.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-spanish-translation.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [water-meter-replacement-urdu-translation.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-urdu-translation.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [water-meter-replacement-vietnamese-translation.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-vietnamese-translation.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [watering-mature-guide.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/watering-mature-guide.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [watershed-guide-punjabi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/punjabi/watershed-guide-punjabi.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [watershed-guide-urdu.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/watershed-guide-urdu.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [what-goes-where-asbestos-disposal-provincial-guidelines.pdf](https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/what-goes-where-asbestos-disposal-provincial-guidelines.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 10 |
+| [what-not-to-flush-urdu.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/what-not-to-flush-multi-lingual/what-not-to-flush-urdu.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [white-goose-flying-calls-to-action-report.pdf](https://www.calgary.ca/content/dam/www/programs-services/property-housing-and-neighbourhoods/neighbourhood-and-community-relationships/indigenous/truth-reconciliation/white-goose-flying-calls-to-action-report.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 45 |
+| [yard-perimeter-maintenance.pdf](https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/household-and-private-property/yard-perimeter-maintenance.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
+| [yardsmart-guide-design-for-full-sun.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-guide-design-for-full-sun.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-guide-design-for-native-wildflowers.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart-guide-design-for-native-wildflowers.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-guide-design-for-partial-sun.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-guide-design-for-partial-sun.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-guide-design-for-shade.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-guide-design-for-shade.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-guide-design-for-wet-area.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-guide-design-for-wet-area.pdf) | calgary.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-lawn-alternatives%20guide-hindi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives%20guide-hindi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-lawn-alternatives-and-groundcovers-new.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-and-groundcovers-new.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [yardsmart-lawn-alternatives-guide-arabic.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-guide-arabic.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-lawn-alternatives-guide-chinese-simplified.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-guide-chinese-simplified.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-lawn-alternatives-guide-chinese-traditional.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-guide-chinese-traditional.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-lawn-alternatives-guide-punjabi.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-guide-punjabi.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [yardsmart-rain-barrel-brochure.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart-rain-barrel-brochure.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [yardsmart-rain-garden.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart-rain-garden.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [yardsmart-trees-and-shrubs.pdf](https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart-trees-and-shrubs.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 |
+| [yec-youth-services-map.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/children-and-youth-programs/youth-employment/yec-youth-services-map.pdf) | calgary.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [youth-employment-centre-poster-2026.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/children-and-youth-programs/youth-employment/youth-employment-centre-poster-2026.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [youth-empolyment-centre-handbill-poster-2026.pdf](https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/children-and-youth-programs/youth-employment/youth-empolyment-centre-handbill-poster-2026.pdf) | calgary.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 
 ## Files with Errors or Notes
 
@@ -15888,3 +16055,957 @@ Generated: 2026-03-11T14:39:37.400525+00:00
 - **URL**: https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/Recl_pro/demande-octroi-indemnite-compensatoire-de.pdf
 - **Status**: analysed
 - title, 
+
+### 2019-annual-investment-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/annual-reports/2019-annual-investment-report.pdf
+- **Status**: analysed
+- title, 
+
+### 2020-annual-investment-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/annual-reports/2020-annual-investment-report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 2021-annual-investment-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/annual-reports/2021-annual-investment-report.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### 2022-annual-investment-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/annual-reports/2022-annual-investment-report.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### 2026-budget-as-approved-dec-3-2025.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/cfod/finance/documents/plans-budgets-and-financial-reports/2023-2026-service-plans-budgets/2026-budget-as-approved-dec-3-2025.pdf
+- **Status**: analysed
+- title, 
+
+### 9.36-project-summary-form.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/green/9.36-project-summary-form.pdf
+- **Status**: analysed
+- title, 
+
+### Anastomose%20.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/Anastomose%20.pdf
+- **Status**: analysed
+- title, 
+
+### BSFM-Water-Conservation-Handout.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/2026-bearpsaw-feedermain-h20c/BSFM-Water-Conservation-Handout.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### City-of-Calgary-Water-Main-L4-Report-SIGNED.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-main-break/City-of-Calgary-Water-Main-L4-Report-SIGNED.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Prairie-Sky-Cemetery-map.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/Prairie-Sky-Cemetery-map.pdf
+- **Status**: analysed
+- title, 
+
+### Sample-AC_Heat-Design.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/pdf/sample-permit-drawings/Sample-AC_Heat-Design.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### YardSmart_Perennials_Brochure_Traditional_Chinese.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_Perennials_Brochure_Traditional_Chinese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_RainGardens_Brochure_Arabic.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Arabic.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_RainGardens_Brochure_Hindi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Hindi.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_RainGardens_Brochure_Punjabi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Punjabi.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_RainGardens_Brochure_Simplified_Chinese.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Simplified_Chinese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_RainGardens_Brochure_Traditional_Chinese.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_RainGardens_Brochure_Traditional_Chinese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_TreesShrubs_Brochure_Arabic.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Arabic.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_TreesShrubs_Brochure_Hindi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Hindi.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_TreesShrubs_Brochure_Punjabi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Punjabi.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_TreesShrubs_Brochure_Simplified_Chinese.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Simplified_Chinese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### YardSmart_TreesShrubs_Brochure_Traditional_Chinese.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart/YardSmart_TreesShrubs_Brochure_Traditional_Chinese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### abandoned-well-declaration.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/development/abandoned-well-declaration.pdf
+- **Status**: analysed
+- title, 
+
+### advisory-zero-lot-line-variance.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/variances/advisory-zero-lot-line-variance.pdf
+- **Status**: analysed
+- title, 
+
+### application-for-online-permitting-pl1323-2025.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/application-for-online-permitting-pl1323-2025.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### better-every-day-city-manager-quarterly-report-2021-Q1.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/ca/city-manager/documents/cmo-quarterly-report/better-every-day-city-manager-quarterly-report-2021-Q1.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### better-every-day-city-manager-quarterly-report-2021-Q2.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/ca/city-manager/documents/cmo-quarterly-report/better-every-day-city-manager-quarterly-report-2021-Q2.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### better-every-day-city-manager-quarterly-report-2021-Q3.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/ca/city-manager/documents/cmo-quarterly-report/better-every-day-city-manager-quarterly-report-2021-Q3.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### blue-cart-yes-no.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/cart-guides/blue-cart-yes-no.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### building-and-trade-permit-fee-schedule.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/fees/building-and-trade-permit-fee-schedule.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### building-exterior-visual-assessment-guideline.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/current-studies-and-ongoing-activities/building-maintenance-bylaw/building-exterior-visual-assessment-guideline.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### building-maintenance-bylaw-infographic.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/current-studies-and-ongoing-activities/building-maintenance-bylaw/building-maintenance-bylaw-infographic.pdf
+- **Status**: analysed
+- title, 
+
+### busking-id-application.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/arts-and-culture-in-calgary/busking/busking-id-application.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### calgary-plant-lists.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/natural-parks-and-wetlands/calgary-plant-lists.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### calgary-seed-mixes.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/natural-parks-and-wetlands/calgary-seed-mixes.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### cema-ready-calgary-building-community-resilience-section-one-emcs-2020-a.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/ready-calgary/cema-ready-calgary-building-community-resilience-section-one-emcs-2020-a.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### cfd-home-escape-plan.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/preparing-in-case-of-fire/cfd-home-escape-plan.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### chinese-cemetery-map.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/chinese-cemetery-map.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### city-of-calgary-site-tours-industry-guide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/major-projects/published-images/city-of-calgary-site-tours-industry-guide.pdf
+- **Status**: analysed
+- title, 
+
+### climate-environment---rain-barrel---brochure-update_translation_info_web.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/climate-environment---rain-barrel---brochure-update_translation_info_web.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### climate-environment---rain-barrel---brochure-update_translation_instructions_web.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/climate-environment---rain-barrel---brochure-update_translation_instructions_web.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### comprehensive-cycle-strategy.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/transportation/tp/documents/transportation-solutions/cycling/comprehensive-cycle-strategy.pdf
+- **Status**: analysed
+- title, lang, 
+
+### contractors-hydronic-plumbing-permit-checklist-pl1220.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/contractors-hydronic-plumbing-permit-checklist-pl1220.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### contractors-plumbing-permit-application-pl1212-2025.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/contractors-plumbing-permit-application-pl1212-2025.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### contractors-plumbing-permit-application-pl1212.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/contractors-plumbing-permit-application-pl1212.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### contractors-psts-plumbing-permit-checklist-pl1221.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/contractors-psts-plumbing-permit-checklist-pl1221.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cp2017-02-indigenous-policy.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/ca/city-clerks/documents/council-policy-library/cp2017-02-indigenous-policy.pdf
+- **Status**: analysed
+- title, 
+
+### cqt-vista-registration-form.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/cqt-vista-registration-form.pdf
+- **Status**: analysed
+- title, 
+
+### cross-connections-brochures-industrial.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/cross-connections-brochures-industrial.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cross-connections-brochures-residential.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/cross-connections-brochures-residential.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cycling-strategy-engagement-process.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/transportation/tp/documents/transportation-solutions/cycling/cycling-strategy-engagement-process.pdf
+- **Status**: analysed
+- title, lang, 
+
+### december-2009-offleash-dog-report-bylaw.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/public-behaviour-and-spaces/december-2009-offleash-dog-report-bylaw.pdf
+- **Status**: analysed
+- PdfError: crawled_files/calgary.ca/december-2009-offleash-dog-report-bylaw.pdf: unable to find trailer dictionary while recovering damaged file
+
+### dutch-elm-disease-trees.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/common-pests/dutch-elm-disease-trees.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### e1982-industrial-permit-application.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/e1982-industrial-permit-application.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### emerald-ash-borer-fact-sheet.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/common-pests/emerald-ash-borer-fact-sheet.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### established-area-growth-and-change-strategy-property-tax-uplift-handout.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/current-studies-and-ongoing-activities/established-area-growth-and-change-strategy-property-tax-uplift-handout.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### etrades-external-user-quick-reference-quide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/etrades-external-user-quick-reference-quide.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fair-entry-fee-reduction-application-large-print-fillable.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/programs-and-services-for-low-income/fair-entry-subsidy/fair-entry-fee-reduction-application-large-print-fillable.pdf
+- **Status**: analysed
+- title, 
+
+### feedermain-review-final-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/emergencies/files/feedermain-review-final-report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### film-theater-firearm-discharge-permit-2020.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/major-projects/documents/film-theater-firearm-discharge-permit-2020.pdf
+- **Status**: analysed
+- title, 
+
+### fog-handout-hindi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-hindi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fog-handout-keep-fog-out.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fog-handout-keep-fog-out.pdf
+- **Status**: analysed
+- title, 
+
+### fog-handout-punjabi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-punjabi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fog-handout-simplified-chinese.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-simplified-chinese.pdf
+- **Status**: analysed
+- title, lang, 
+
+### fog-handout-traditional-chinese.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-traditional-chinese.pdf
+- **Status**: analysed
+- title, lang, 
+
+### fog-handout-vietnamese.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/fog-handout-vietnamese.pdf
+- **Status**: analysed
+- title, lang, 
+
+### funding-process-map-infographic.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/funding-for-social-programs/prevention/funding-process-map-infographic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### high-water-consumption-checklist.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/high-water-consumption-checklist.pdf
+- **Status**: analysed
+- title, 
+
+### home-services-seniors-faq.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/older-adult-and-age-friendly-resources/home-services-seniors-faq.pdf
+- **Status**: analysed
+- title, 
+
+### homeowner-water-guides-faucets-urdu.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/homeowner-water-guides-faucets-urdu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### homeowner-water-guides-read-your-bill-urdu.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/homeowner-water-guides-read-your-bill-urdu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### homeowner-water-guides-spring-and-fall-checklist-hindi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/hindi/homeowner-water-guides-spring-and-fall-checklist-hindi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### homeowner-water-guides-spring-and-fall-checklist-punjabi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/punjabi/homeowner-water-guides-spring-and-fall-checklist-punjabi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### homeowner-water-guides-spring-and-fall-checklist-urdu.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/homeowner-water-guides-spring-and-fall-checklist-urdu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### homeowner-water-guides-toilets-urdu.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/homeowner-water-guides-toilets-urdu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### how-to-book-an-inspection-user-guide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/inspections/how-to-book-an-inspection-user-guide.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### junior-weather-forecaster-challenge-sheet-emcs-2022-a.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/ready-squad-calgary/junior-weather-forecaster-challenge-sheet-emcs-2022-a.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### junior-weather-resources-emcs-2022-a.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/ready-squad-calgary/junior-weather-resources-emcs-2022-a.pdf
+- **Status**: analysed
+- title, 
+
+### land-use-bylaw-1p2007-pre-aug-6.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007-pre-aug-6.pdf
+- **Status**: analysed
+- tagged, 
+
+### landfill-process-infographic.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/landfill-process-infographic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### long-range-urban-sustainability-plan.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/development/long-range-urban-sustainability-plan.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### mason-bee-house-pollinators.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/wildlife/mason-bee-house-pollinators.pdf
+- **Status**: analysed
+- title, 
+
+### mental-health-calgarians-final-report-2025.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/mental-health-and-addiction-strategy/mental-health-calgarians-final-report-2025.pdf
+- **Status**: analysed
+- title, 
+
+### metis-artists-in-residency-ibs-nov-dec-2024.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/metis-artists-in-residency-ibs-nov-dec-2024.pdf
+- **Status**: analysed
+- title, 
+
+### multicultural-activity-guide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/arts-and-culture-in-calgary/cross-cultural-resources/multicultural-activity-guide.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### native-wildflower-plants-guide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/native-wildflower-plants-guide.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### no-fog-signage-punjabi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/no-fog-signage-punjabi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### no-fog-signage-vietnamese.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/fats-oil-grease-multi-lingual/no-fog-signage-vietnamese.pdf
+- **Status**: analysed
+- title, lang, 
+
+### odours-infrastructure-map.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/esm/documents/odours-infrastructure-map.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### off-leash-dog-area-framework-bylaw.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/public-behaviour-and-spaces/off-leash-dog-area-framework-bylaw.pdf
+- **Status**: analysed
+- title, lang, 
+
+### off-leash-implementation-guide-bylaw.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/public-behaviour-and-spaces/off-leash-implementation-guide-bylaw.pdf
+- **Status**: analysed
+- title, lang, 
+
+### offleash-dog-public-bylaws.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/public-behaviour-and-spaces/offleash-dog-public-bylaws.pdf
+- **Status**: analysed
+- title, lang, 
+
+### owr-business-summary-guide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/outdoor-water-restrictions/owr-business-summary-guide.pdf
+- **Status**: analysed
+- title, 
+
+### owr-residential-summary-guide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/outdoor-water-restrictions/owr-residential-summary-guide.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### pathway-and-bikeway-plan-network-principles-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pathway-and-bikeway-plan-network-principles-report.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### pl1218-homeowners-gas-fireplace-installation-permit-application.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/pl1218-homeowners-gas-fireplace-installation-permit-application.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### plan-it-sustainability-principles.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/municipal-development-plan/plan-it-sustainability-principles.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### private-yard-naturalization.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/csps/parks/documents/planning-and-operations/private-yard-naturalization.pdf
+- **Status**: analysed
+- title, 
+
+### public-tree-disclosure-statement.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/development/public-tree-disclosure-statement.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### queens-park-cemetery-map.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/queens-park-cemetery-map.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ready-squad-evacuation-postcard-emcs-2020-a.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/emergencies-and-natural-disasters/ready-squad-calgary/ready-squad-evacuation-postcard-emcs-2020-a.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### river-monitoring-infographic-fullsize.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/flood-info-documents/river-monitoring-infographic-fullsize.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### sds-example.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/sds-example.pdf
+- **Status**: analysed
+- title, 
+
+### se-odour-Investigation-final-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/esm/documents/se-odour-Investigation-final-report.pdf
+- **Status**: analysed
+- title, 
+
+### se-odour-investigation-public-info-session.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/esm/documents/se-odour-investigation-public-info-session.pdf
+- **Status**: analysed
+- title, 
+
+### secondary-suite-specifications.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-installation/secondary-suite-specifications.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### shared-e-Bike-and-eScooter-final-pilot-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/transportation/tp/documents/cycling/cycling-strategy/shared-e-Bike-and-eScooter-final-pilot-report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### shared-e-scooter-and-e-bike-mid-pilot-council-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/transportation/tp/documents/cycling/cycling_strategy/shared-e-scooter-and-e-bike-mid-pilot-council-report.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### sign-canopy-projecting.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-canopy-projecting.pdf
+- **Status**: analysed
+- title, lang, 
+
+### sign-digital-message.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-digital-message.pdf
+- **Status**: analysed
+- title, lang, 
+
+### sign-digital-third-party-advertising.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-digital-third-party-advertising.pdf
+- **Status**: analysed
+- title, lang, 
+
+### sign-fascia.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-fascia.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### sign-freestanding.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-freestanding.pdf
+- **Status**: analysed
+- title, 
+
+### sign-third-party.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/sign-third-party.pdf
+- **Status**: analysed
+- title, lang, 
+
+### snow-angels-certificate.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/get-involved/volunteer-opportunities/snow-angels/snow-angels-certificate.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### solar-thermal-hot-water.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/building-permit/solar-thermal-hot-water.pdf
+- **Status**: analysed
+- title, 
+
+### speed-cushion-community-improvements.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/transportation/roads/documents/traffic/traffic-safety-programs/speed-cushion-community-improvements.pdf
+- **Status**: analysed
+- title, 
+
+### st-marys-cemetery-map.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/st-marys-cemetery-map.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### standard-authorization-letter.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/carls/development-permit/standard-authorization-letter.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### supporting-growth-and-change-in-established-communities.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/current-studies-and-ongoing-activities/supporting-growth-and-change-in-established-communities.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### sustainable-development-inventory.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/building/green/sustainable-development-inventory.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tips-for-calling-911-ukrainian.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/safety-contacts/tips-for-calling-911-ukrainian.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### transportation-bylaw-cycling-hand-signals-postcard.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/transportation/tp/documents/cycling/cycling-education/transportation-bylaw-cycling-hand-signals-postcard.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### tree-protection-plan-guide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/household-and-private-property/tree-protection-plan-guide.pdf
+- **Status**: analysed
+- title, 
+
+### tree-protection-weblink-portal-findings.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/trees-and-urban-forest/tree-protection-weblink-portal-findings.pdf
+- **Status**: analysed
+- title, 
+
+### tree-stump-removal-application.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/household-and-private-property/tree-stump-removal-application.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### typical-roadway-configuration-tree-protection.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/household-and-private-property/typical-roadway-configuration-tree-protection.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### underpass-guidelines.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/pda/pd/documents/centre-city/centre-city-policies/underpass-guidelines.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### union-cemetery-map.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/parks-recreation/parks/cemeteries/union-cemetery-map.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### using-your-cart-quick-reference-guide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/cart-guides/using-your-cart-quick-reference-guide.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### water-meter-replacement-french-translation.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-french-translation.pdf
+- **Status**: analysed
+- title, 
+
+### water-meter-replacement-hindi-translation.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-hindi-translation.pdf
+- **Status**: analysed
+- title, 
+
+### water-meter-replacement-punjabi-translation.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-punjabi-translation.pdf
+- **Status**: analysed
+- title, 
+
+### water-meter-replacement-spanish-translation.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-spanish-translation.pdf
+- **Status**: analysed
+- title, 
+
+### water-meter-replacement-urdu-translation.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-urdu-translation.pdf
+- **Status**: analysed
+- title, 
+
+### water-meter-replacement-vietnamese-translation.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/water-meter-replacement-vietnamese-translation.pdf
+- **Status**: analysed
+- title, 
+
+### watering-mature-guide.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/watering-mature-guide.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### watershed-guide-punjabi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/punjabi/watershed-guide-punjabi.pdf
+- **Status**: analysed
+- title, lang, 
+
+### watershed-guide-urdu.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/homeowner-water-guides/urdu/watershed-guide-urdu.pdf
+- **Status**: analysed
+- title, lang, 
+
+### what-goes-where-asbestos-disposal-provincial-guidelines.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/wrs/documents/wrs-documents/what-goes-where-asbestos-disposal-provincial-guidelines.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### what-not-to-flush-urdu.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/what-not-to-flush-multi-lingual/what-not-to-flush-urdu.pdf
+- **Status**: analysed
+- title, 
+
+### white-goose-flying-calls-to-action-report.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/property-housing-and-neighbourhoods/neighbourhood-and-community-relationships/indigenous/truth-reconciliation/white-goose-flying-calls-to-action-report.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### yard-perimeter-maintenance.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/public-and-personal-safety/bylaws/bylaw-by-topics/household-and-private-property/yard-perimeter-maintenance.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### yardsmart-guide-design-for-full-sun.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-guide-design-for-full-sun.pdf
+- **Status**: analysed
+- title, lang, 
+
+### yardsmart-guide-design-for-native-wildflowers.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart-guide-design-for-native-wildflowers.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yardsmart-guide-design-for-partial-sun.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-guide-design-for-partial-sun.pdf
+- **Status**: analysed
+- title, 
+
+### yardsmart-guide-design-for-shade.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-guide-design-for-shade.pdf
+- **Status**: analysed
+- title, 
+
+### yardsmart-guide-design-for-wet-area.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-guide-design-for-wet-area.pdf
+- **Status**: analysed
+- title, lang, 
+
+### yardsmart-lawn-alternatives%20guide-hindi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives%20guide-hindi.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yardsmart-lawn-alternatives-and-groundcovers-new.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-and-groundcovers-new.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yardsmart-lawn-alternatives-guide-arabic.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-guide-arabic.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yardsmart-lawn-alternatives-guide-chinese-simplified.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-guide-chinese-simplified.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yardsmart-lawn-alternatives-guide-chinese-traditional.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-guide-chinese-traditional.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yardsmart-lawn-alternatives-guide-punjabi.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yard-smart/yardsmart-lawn-alternatives-guide-punjabi.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yardsmart-rain-barrel-brochure.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart-rain-barrel-brochure.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yardsmart-rain-garden.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart-rain-garden.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### yardsmart-trees-and-shrubs.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/uep/water/documents/water-documents/yardsmart-trees-and-shrubs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### youth-employment-centre-poster-2026.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/children-and-youth-programs/youth-employment/youth-employment-centre-poster-2026.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### youth-empolyment-centre-handbill-poster-2026.pdf
+
+- **URL**: https://www.calgary.ca/content/dam/www/programs-services/social-programs-and-services/children-and-youth-programs/youth-employment/youth-empolyment-centre-handbill-poster-2026.pdf
+- **Status**: analysed
+- title, tagged, 
