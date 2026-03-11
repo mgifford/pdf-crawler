@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-03-11T03:19:19.491350+00:00",
+    "site": "adem.public.lu",
+    "crawl_url": "https://adem.public.lu",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22930636449",
+    "archive_file": "2026-03-11_03-19-19-491_adem.public.lu.html",
+    "total": 5884,
+    "analysed": 1909,
+    "accessible": 677
+  },
+  {
     "date": "2026-03-11T03:14:57.143340+00:00",
     "site": "nsf.gov",
     "crawl_url": "https://nsf.gov",

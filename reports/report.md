@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-11T03:14:57.143340+00:00
+Generated: 2026-03-11T03:19:19.491350+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 5868 |
-| Analysed | 1893 |
+| Total files tracked | 5884 |
+| Analysed | 1909 |
 | Pending analysis | 2886 |
 | Errors during analysis | 1089 |
-| Accessible | 676 |
+| Accessible | 677 |
 | Totally inaccessible | 24 |
 | Broken / unreadable | 2 |
 | Exempt (pre-2018) | 578 |
@@ -19,6 +19,7 @@ Generated: 2026-03-11T03:14:57.143340+00:00
 
 | Site | Files |
 |------|-------|
+| adem.public.lu | 16 |
 | canada.ca | 496 |
 | cms.gov | 373 |
 | ed.gov | 2886 |
@@ -1924,6 +1925,22 @@ Generated: 2026-03-11T03:14:57.143340+00:00
 | [west_virginia_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/west_virginia_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 | [wisconsin_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/wisconsin_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 | [wyoming_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/wyoming_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2025-communiqu-apprentissage-adultes-secteur-social-ccp-sf-dap-eda-dap-ica-dap-asa-dap-asaf.pdf](https://adem.public.lu/dam-assets/fr/actualites/jeunes/2025/2025-communiqu-apprentissage-adultes-secteur-social-ccp-sf-dap-eda-dap-ica-dap-asa-dap-asaf.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [2025-communiqu-apprentissage-adultes.pdf](https://adem.public.lu/dam-assets/fr/actualites/jeunes/2025/2025-communiqu-apprentissage-adultes.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [Apprentissage-Employeur.pdf](https://adem.public.lu/dam-assets/fr/formulaires/Apprentissage/Apprentissage-Employeur.pdf) | adem.public.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Beruffslescht.pdf](https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/Beruffslescht.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [DE-profil-demandeur-emploi-handicap.pdf](https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/SH/DE-profil-demandeur-emploi-handicap.pdf) | adem.public.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [Demande-participation-aux-frais-de-salaire-Reclassement.pdf](https://adem.public.lu/dam-assets/fr/formulaires/employeurs/mesure-reclassement/Demande-participation-aux-frais-de-salaire-Reclassement.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [FR-profil-demandeur-emploi-handicap.pdf](https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/SH/FR-profil-demandeur-emploi-handicap.pdf) | adem.public.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [Information-concernant-les-salaries-en-reclassement-vises-par-une-demande-de-participation-aux-frais-de-salaire.pdf](https://adem.public.lu/dam-assets/fr/support/aspects-legaux/Information-concernant-les-salaries-en-reclassement-vises-par-une-demande-de-participation-aux-frais-de-salaire.pdf) | adem.public.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
+| [JobBoardFlyer.pdf](https://adem.public.lu/dam-assets/fr/publications/adem/JobBoardFlyer.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [apprent-adultes-de.pdf](https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/apprent-adultes-de.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [apprent-adultes-fr.pdf](https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/apprent-adultes-fr.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [carte-communes.pdf](https://adem.public.lu/dam-assets/fr/op/carte-communes.pdf) | adem.public.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 |
+| [demande-octroi-indemnite-compensatoire-fr.pdf](https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/Recl_pro/demande-octroi-indemnite-compensatoire-fr.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [eures-30-years-cookbook-web.pdf](https://adem.public.lu/dam-assets/fr/mobilite-europeene/eures-30-years-cookbook-web.pdf) | adem.public.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 35 |
+| [rapport-final-prestations-assistance.pdf](https://adem.public.lu/dam-assets/fr/formulaires/salaries/rapport-final-prestations-assistance.pdf) | adem.public.lu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [skills4job2025-fr.pdf](https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/formations/skills4job2025-fr.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 
 ## Files with Errors or Notes
 
@@ -15774,3 +15791,93 @@ Generated: 2026-03-11T03:14:57.143340+00:00
 - **URL**: https://nsf-gov-resources.nsf.gov/files/nsf24_1.pdf?VersionId=W0GJTUpYwRP3FRBju7EMAKAtt86QOcMZ
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf24_1.pdf (crawled 0.0 day(s) ago at 2026-03-11T02:02:31.490397+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2025-communiqu-apprentissage-adultes-secteur-social-ccp-sf-dap-eda-dap-ica-dap-asa-dap-asaf.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/actualites/jeunes/2025/2025-communiqu-apprentissage-adultes-secteur-social-ccp-sf-dap-eda-dap-ica-dap-asa-dap-asaf.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-communiqu-apprentissage-adultes.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/actualites/jeunes/2025/2025-communiqu-apprentissage-adultes.pdf
+- **Status**: analysed
+- title, 
+
+### Apprentissage-Employeur.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/formulaires/Apprentissage/Apprentissage-Employeur.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Beruffslescht.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/Beruffslescht.pdf
+- **Status**: analysed
+- title, 
+
+### DE-profil-demandeur-emploi-handicap.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/SH/DE-profil-demandeur-emploi-handicap.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Demande-participation-aux-frais-de-salaire-Reclassement.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/formulaires/employeurs/mesure-reclassement/Demande-participation-aux-frais-de-salaire-Reclassement.pdf
+- **Status**: analysed
+- title, 
+
+### FR-profil-demandeur-emploi-handicap.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/SH/FR-profil-demandeur-emploi-handicap.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Information-concernant-les-salaries-en-reclassement-vises-par-une-demande-de-participation-aux-frais-de-salaire.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/support/aspects-legaux/Information-concernant-les-salaries-en-reclassement-vises-par-une-demande-de-participation-aux-frais-de-salaire.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### JobBoardFlyer.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/publications/adem/JobBoardFlyer.pdf
+- **Status**: analysed
+- title, 
+
+### apprent-adultes-de.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/apprent-adultes-de.pdf
+- **Status**: analysed
+- title, 
+
+### apprent-adultes-fr.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/apprent-adultes-fr.pdf
+- **Status**: analysed
+- title, 
+
+### carte-communes.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/op/carte-communes.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### demande-octroi-indemnite-compensatoire-fr.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/Recl_pro/demande-octroi-indemnite-compensatoire-fr.pdf
+- **Status**: analysed
+- title, 
+
+### eures-30-years-cookbook-web.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/mobilite-europeene/eures-30-years-cookbook-web.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### skills4job2025-fr.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/formations/skills4job2025-fr.pdf
+- **Status**: analysed
+- title, 

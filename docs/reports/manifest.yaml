@@ -95073,3 +95073,514 @@
     Producer: Adobe PDF Library 17.0
     Pages: 2
   errors: []
+- url: https://adem.public.lu/dam-assets/fr/actualites/jeunes/2025/2025-communiqu-apprentissage-adultes-secteur-social-ccp-sf-dap-eda-dap-ica-dap-asa-dap-asaf.pdf
+  md5: 4acc17fa4e2c4f49552e2388ba2f2052
+  filename: 2025-communiqu-apprentissage-adultes-secteur-social-ccp-sf-dap-eda-dap-ica-dap-asa-dap-asaf.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.778651+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-04-18 14:15:16+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft® Word for Microsoft 365
+    Producer: Microsoft® Word for Microsoft 365
+    Pages: 4
+  errors:
+  - 'title, '
+- url: https://adem.public.lu/dam-assets/fr/actualites/jeunes/2025/2025-communiqu-apprentissage-adultes.pdf
+  md5: c8321b8b581eec3f1beb84488123d525
+  filename: 2025-communiqu-apprentissage-adultes.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.779497+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-04-18 14:30:47+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft® Word for Microsoft 365
+    Producer: Microsoft® Word for Microsoft 365
+    Pages: 4
+  errors:
+  - 'title, '
+- url: https://adem.public.lu/dam-assets/fr/formulaires/Apprentissage/Apprentissage-Employeur.pdf
+  md5: a55fc63bb50628588d3c0b347f1d0e2d
+  filename: Apprentissage-Employeur.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.781393+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-07-29 07:59:50+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: true
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 19.0 (Windows)
+    Producer: Adobe PDF Library 17.0
+    Pages: 2
+  errors:
+  - 'title, tagged, '
+- url: https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/Beruffslescht.pdf
+  md5: ad30cf84ef3de57f01e21499b9e2f92e
+  filename: Beruffslescht.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.793597+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2026-02-18 14:43:28+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Adobe InDesign 21.1 (Windows)
+    Producer: Adobe PDF Library 18.0
+    Pages: 16
+  errors:
+  - 'title, '
+- url: https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/SH/DE-profil-demandeur-emploi-handicap.pdf
+  md5: 7967e9cdef064167a213f3ec52ff720f
+  filename: DE-profil-demandeur-emploi-handicap.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.795525+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-08-21 08:45:46+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: true
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign CC 2015 (Windows)
+    Producer: Adobe PDF Library 15.0
+    Pages: 10
+  errors:
+  - 'title, tagged, '
+- url: https://adem.public.lu/dam-assets/fr/formulaires/employeurs/mesure-reclassement/Demande-participation-aux-frais-de-salaire-Reclassement.pdf
+  md5: 3e70a68f70ceb0d8c19aeacbedcd1f9f
+  filename: Demande-participation-aux-frais-de-salaire-Reclassement.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.796404+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-08-21 08:45:59+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: true
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 17.3 (Windows)
+    Producer: Adobe PDF Library 16.0.7
+    Pages: 2
+  errors:
+  - 'title, '
+- url: https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/SH/FR-profil-demandeur-emploi-handicap.pdf
+  md5: 2da3cf5182e35b68aab6f9e17d37c963
+  filename: FR-profil-demandeur-emploi-handicap.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.798269+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-08-21 08:45:46+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: true
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign CC 2015 (Windows)
+    Producer: Adobe PDF Library 15.0
+    Pages: 10
+  errors:
+  - 'title, tagged, '
+- url: https://adem.public.lu/dam-assets/fr/support/aspects-legaux/Information-concernant-les-salaries-en-reclassement-vises-par-une-demande-de-participation-aux-frais-de-salaire.pdf
+  md5: 80ce44f7cbf9c6c1f66bc2467e6b9c94
+  filename: Information-concernant-les-salaries-en-reclassement-vises-par-une-demande-de-participation-aux-frais-de-salaire.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.799117+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-08-21 08:46:14+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: PScript5.dll Version 5.2.2
+    Producer: Acrobat Distiller 21.0 (Windows)
+    Pages: 2
+  errors:
+  - 'title, tagged, lang, '
+- url: https://adem.public.lu/dam-assets/fr/publications/adem/JobBoardFlyer.pdf
+  md5: 277ce47ea8e889fdc17fabfd1966bf34
+  filename: JobBoardFlyer.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.801129+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-06-27 08:38:37+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Adobe InDesign 20.2 (Windows)
+    Producer: Adobe PDF Library 17.0
+    Pages: 2
+  errors:
+  - 'title, '
+- url: https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/apprent-adultes-de.pdf
+  md5: 85317afabbc7e8c3acbda8a1af8502c8
+  filename: apprent-adultes-de.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.805312+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-02-25 12:48:16+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Adobe InDesign 20.1 (Windows)
+    Producer: Adobe PDF Library 17.0
+    Pages: 4
+  errors:
+  - 'title, '
+- url: https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/apprent-adultes-fr.pdf
+  md5: c190dbee58fe506239ce87bac564d3e5
+  filename: apprent-adultes-fr.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.809371+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-02-25 12:49:56+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Adobe InDesign 20.1 (Windows)
+    Producer: Adobe PDF Library 17.0
+    Pages: 4
+  errors:
+  - 'title, '
+- url: https://adem.public.lu/dam-assets/fr/op/carte-communes.pdf
+  md5: b23ccfe7c759302bf6f40c67d0b30d42
+  filename: carte-communes.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.810260+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-08-21 08:45:46+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Adobe Illustrator CC 2015 (Windows)
+    Producer: Adobe PDF library 15.00
+    Pages: 1
+  errors:
+  - 'title, tagged, lang, '
+- url: https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/Recl_pro/demande-octroi-indemnite-compensatoire-fr.pdf
+  md5: 13a18100388ab7e0ceece9c898fd7dd0
+  filename: demande-octroi-indemnite-compensatoire-fr.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.811120+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-08-21 08:45:52+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: true
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 19.3 (Windows)
+    Producer: Adobe PDF Library 17.0
+    Pages: 2
+  errors:
+  - 'title, '
+- url: https://adem.public.lu/dam-assets/fr/mobilite-europeene/eures-30-years-cookbook-web.pdf
+  md5: 2cd5d69bba2b30c5a129a54031688a7a
+  filename: eures-30-years-cookbook-web.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.822204+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Fail
+    Exempt: false
+    Date: '2024-10-18 10:44:45+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Adobe Illustrator 28.5 (Macintosh)
+    Producer: Adobe PDF library 17.00
+    Pages: 35
+  errors:
+  - 'title, tagged, lang, no bookmarks and more than 20 pages, '
+- url: https://adem.public.lu/dam-assets/fr/formulaires/salaries/rapport-final-prestations-assistance.pdf
+  md5: fe910a38b5d355a89e77d420342c4f96
+  filename: rapport-final-prestations-assistance.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.823136+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-08-21 08:45:57+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft Word
+    Producer: null
+    Pages: 1
+  errors: []
+- url: https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/formations/skills4job2025-fr.pdf
+  md5: 57f595dcb9440ded4c85f4d0ef68080f
+  filename: skills4job2025-fr.pdf
+  site: adem.public.lu
+  crawled_at: '2026-03-11T03:18:00.824511+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2026-02-13 11:25:16+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Adobe InDesign 21.2 (Windows)
+    Producer: Adobe PDF Library 18.0
+    Pages: 2
+  errors:
+  - 'title, '
