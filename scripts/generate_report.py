@@ -780,6 +780,26 @@ _REPORTS_INDEX_TEMPLATE = """\
           '<div class="summary-card"><div class="value">' + Object.keys(sites).length + '</div><div class="label">Unique Sites</div></div>';
       }}
 
+      function deduplicateReports(reports) {{
+        // Keep only the latest entry per (site, issue-number) pair.
+        // index.json is sorted newest-first so the first occurrence is the
+        // most-recent scan.  Entries with no issue_url are grouped by site
+        // alone; entries tied to different issues on the same site each get
+        // their own row.
+        var seen = {{}};
+        var result = [];
+        reports.forEach(function (r) {{
+          var m = r.issue_url ? r.issue_url.match(/\\/issues\\/(\\d+)/) : null;
+          var issueKey = m ? m[1] : '';
+          var key = (r.site || '') + '\x00' + issueKey;
+          if (!seen[key]) {{
+            seen[key] = true;
+            result.push(r);
+          }}
+        }});
+        return result;
+      }}
+
       function renderTable(reports) {{
         if (!reports.length) {{
           root.innerHTML =
@@ -802,9 +822,11 @@ _REPORTS_INDEX_TEMPLATE = """\
           var siteCell = r.crawl_url
             ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
             : esc(r.site || '');
-          var reportLink   = '<a href="reports/' + esc(r.archive_file) + '">View report</a>';
-          var workflowLink = r.run_url
-            ? ' &nbsp;<a href="' + esc(r.run_url) + '" target="_blank" rel="noopener">Workflow</a>'
+          var reportLink = '<a href="reports/' + esc(r.archive_file) + '">View report</a>';
+          var issueNum  = r.issue_url ? (r.issue_url.match(/\\/issues\\/(\\d+)/) || [])[1] : null;
+          var issueLink = r.issue_url
+            ? ' &nbsp;<a href="' + esc(r.issue_url) + '" target="_blank" rel="noopener">' +
+              (issueNum ? '#' + issueNum : 'Issue') + '</a>'
             : '';
           html += '<tr>' +
             '<td>' + esc(dateStr) + '</td>' +
@@ -813,7 +835,7 @@ _REPORTS_INDEX_TEMPLATE = """\
             '<td>' + (r.accessible || 0) + '</td>' +
             '<td>' + issues + '</td>' +
             '<td>' + pctBar(r.accessible || 0, r.analysed || 0) + '</td>' +
-            '<td>' + reportLink + workflowLink + '</td>' +
+            '<td>' + reportLink + issueLink + '</td>' +
             '</tr>';
         }});
 
@@ -844,6 +866,7 @@ _REPORTS_INDEX_TEMPLATE = """\
         }})
         .then(function (data) {{
           allReports = Array.isArray(data) ? data : [];
+          allReports = deduplicateReports(allReports);
           renderSummary(allReports);
           renderTable(allReports);
         }})
@@ -897,6 +920,7 @@ def main(
     html_dir: Optional[str] = None,
     archive_dir: Optional[str] = None,
     crawled_dir: Optional[str] = None,
+    issue_url: str = "",
 ) -> None:
     entries = load_manifest(manifest_path)
     stats = _summary_stats(entries)
@@ -995,6 +1019,7 @@ def main(
                     "site": site_filter or "all",
                     "crawl_url": crawl_url,
                     "run_url": run_url,
+                    "issue_url": issue_url,
                     "archive_file": archive_name,
                     "total": stats["total_files"],
                     "analysed": stats["analysed"],
@@ -1102,6 +1127,15 @@ if __name__ == "__main__":
             "crawled_urls.csv to the report directory."
         ),
     )
+    parser.add_argument(
+        "--issue-url",
+        default="",
+        help=(
+            "URL of the GitHub issue comment for this scan "
+            "(shown as a link in the reports index, e.g. "
+            "https://github.com/owner/repo/issues/42#issuecomment-12345)"
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -1114,4 +1148,5 @@ if __name__ == "__main__":
         html_dir=args.html_dir,
         archive_dir=args.archive_dir,
         crawled_dir=args.crawled_dir,
+        issue_url=args.issue_url,
     )

@@ -1,5 +1,6 @@
 """Tests for scripts/generate_report.py"""
 
+import json
 import sys
 from pathlib import Path
 
@@ -14,6 +15,7 @@ from generate_report import (
     generate_markdown,
     generate_issue_comment,
     generate_reports_index_html,
+    main as generate_main,
 )
 
 
@@ -322,6 +324,38 @@ def test_generate_reports_index_html_accepts_reports_argument():
     assert "fetch('reports/index.json')" in html
 
 
+def test_generate_reports_index_html_no_workflow_link():
+    """The 'Workflow' link must have been removed from the reports index template."""
+    html = generate_reports_index_html([])
+    # The old "Workflow" link text and its run_url binding must be gone
+    assert "Workflow</a>" not in html
+    assert "run_url" not in html
+
+
+def test_generate_reports_index_html_has_issue_link():
+    """The reports index template must render an issue link from the issue_url field."""
+    html = generate_reports_index_html([])
+    # JS that references issue_url to build the link
+    assert "issue_url" in html
+    assert "issueLink" in html
+
+
+def test_generate_reports_index_html_has_deduplicate_function():
+    """The reports index template must include the deduplicateReports JS function."""
+    html = generate_reports_index_html([])
+    assert "deduplicateReports" in html
+    # Dedup must be applied after loading the JSON data
+    assert "deduplicateReports(allReports)" in html
+
+
+def test_generate_reports_index_html_issue_number_in_link():
+    """The issue link text must include the issue number extracted from the URL."""
+    html = generate_reports_index_html([])
+    # JS that extracts the issue number to display as '#NNN'
+    assert "issueNum" in html
+    assert "'#' + issueNum" in html
+
+
 # ---------------------------------------------------------------------------
 # generate_csv
 # ---------------------------------------------------------------------------
@@ -439,3 +473,98 @@ def test_issue_comment_includes_crawled_urls_csv_link():
         run_url="https://github.com/org/repo/actions/runs/1",
     )
     assert "crawled_urls.csv" in comment
+
+
+# ---------------------------------------------------------------------------
+# main() – issue_url stored in index.json
+# ---------------------------------------------------------------------------
+
+def _make_manifest(tmp_path, entries=None):
+    """Write a minimal YAML manifest and return its path."""
+    import yaml
+    if entries is None:
+        entries = [
+            {
+                "url": "https://example.com/doc.pdf",
+                "filename": "doc.pdf",
+                "site": "example.com",
+                "status": "analysed",
+                "report": {
+                    "Accessible": True,
+                    "TotallyInaccessible": False,
+                    "BrokenFile": False,
+                    "Exempt": False,
+                    "TaggedTest": "Pass",
+                    "EmptyTextTest": "Pass",
+                    "ProtectedTest": "Pass",
+                    "TitleTest": "Pass",
+                    "LanguageTest": "Pass",
+                    "BookmarksTest": "Pass",
+                    "Pages": 3,
+                },
+                "errors": [],
+            }
+        ]
+    manifest_path = tmp_path / "manifest.yaml"
+    manifest_path.write_text(yaml.dump(entries), encoding="utf-8")
+    return str(manifest_path)
+
+
+def test_main_stores_issue_url_in_index(tmp_path):
+    """main() must store the issue_url in the index.json entry."""
+    manifest = _make_manifest(tmp_path)
+    archive_dir = tmp_path / "archive"
+    html_dir = tmp_path / "html"
+    issue_url = "https://github.com/owner/repo/issues/42#issuecomment-99999"
+
+    generate_main(
+        manifest_path=manifest,
+        report_dir=str(tmp_path / "reports"),
+        site_filter="example.com",
+        html_dir=str(html_dir),
+        archive_dir=str(archive_dir),
+        run_url="https://github.com/owner/repo/actions/runs/1",
+        crawl_url="https://example.com",
+        issue_url=issue_url,
+    )
+
+    index_path = archive_dir / "index.json"
+    assert index_path.exists(), "index.json should be created"
+    data = json.loads(index_path.read_text(encoding="utf-8"))
+    assert len(data) == 1
+    assert data[0]["issue_url"] == issue_url
+
+
+def test_main_stores_empty_issue_url_when_not_provided(tmp_path):
+    """main() must store an empty issue_url when none is given."""
+    manifest = _make_manifest(tmp_path)
+    archive_dir = tmp_path / "archive"
+    html_dir = tmp_path / "html"
+
+    generate_main(
+        manifest_path=manifest,
+        report_dir=str(tmp_path / "reports"),
+        site_filter="example.com",
+        html_dir=str(html_dir),
+        archive_dir=str(archive_dir),
+        run_url="https://github.com/owner/repo/actions/runs/1",
+        crawl_url="https://example.com",
+    )
+
+    index_path = archive_dir / "index.json"
+    data = json.loads(index_path.read_text(encoding="utf-8"))
+    assert data[0].get("issue_url") == ""
+
+
+def test_cli_accepts_issue_url_argument(tmp_path):
+    """The --issue-url CLI argument must be accepted without error."""
+    import subprocess
+    script = Path(__file__).parent.parent / "scripts" / "generate_report.py"
+    # Run with --help and verify --issue-url appears in the output
+    result = subprocess.run(
+        ["python3", str(script), "--help"],
+        capture_output=True,
+        text=True,
+    )
+    assert result.returncode == 0
+    assert "--issue-url" in result.stdout
