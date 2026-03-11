@@ -109831,3 +109831,27 @@
   status: pending
   report: null
   errors: []
+- url: https://www.akzent.lu/wp-content/uploads/2025/11/Aktionsplan-PAN-2019-2024-DE.pdf
+  md5: 1357cc6135383c733f6dd4d420c074ef
+  filename: Aktionsplan-PAN-2019-2024-DE.pdf
+  site: akzent.lu
+  crawled_at: '2026-03-11T20:23:29.553577+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.akzent.lu/wp-content/uploads/2025/11/Aktionsplan-PAN-2019-2024-LS-DE.pdf
+  md5: 7303b0e7337ff91ab34706ffada9cc53
+  filename: Aktionsplan-PAN-2019-2024-LS-DE.pdf
+  site: akzent.lu
+  crawled_at: '2026-03-11T20:23:29.558891+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.akzent.lu/wp-content/uploads/2025/11/UN-BRK-in-Leichter-Sprache-DE.pdf
+  md5: d05e04a167803b1a7afbcc97aefa5cc5
+  filename: UN-BRK-in-Leichter-Sprache-DE.pdf
+  site: akzent.lu
+  crawled_at: '2026-03-11T20:23:29.560757+00:00'
+  status: pending
+  report: null
+  errors: []
