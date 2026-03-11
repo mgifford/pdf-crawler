@@ -1,19 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-11T00:24:50.588946+00:00
+Generated: 2026-03-11T03:14:57.143340+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 5699 |
-| Analysed | 1643 |
-| Pending analysis | 3896 |
-| Errors during analysis | 160 |
-| Accessible | 467 |
+| Total files tracked | 5868 |
+| Analysed | 1893 |
+| Pending analysis | 2886 |
+| Errors during analysis | 1089 |
+| Accessible | 676 |
 | Totally inaccessible | 24 |
 | Broken / unreadable | 2 |
-| Exempt (pre-2018) | 571 |
+| Exempt (pre-2018) | 578 |
 
 ## Files per Site
 
@@ -21,10 +21,10 @@ Generated: 2026-03-11T00:24:50.588946+00:00
 |------|-------|
 | canada.ca | 496 |
 | cms.gov | 373 |
-| ed.gov | 2872 |
+| ed.gov | 2886 |
 | energy.gov | 417 |
 | gsa.gov | 450 |
-| nsf.gov | 1024 |
+| nsf.gov | 1179 |
 | ontario.ca | 51 |
 | vdl.lu | 16 |
 ## File Details
@@ -981,6 +981,103 @@ Generated: 2026-03-11T00:24:50.588946+00:00
 | [welcome-letter.pdf](https://epact.energy.gov/pdfs/welcome-letter.pdf) | energy.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 |
 | [which_is_greener.pdf](https://afdc.energy.gov/files/u/publication/which_is_greener.pdf) | energy.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 |
 | [wpc_charging_university_campuses.pdf](https://afdc.energy.gov/files/u/publication/wpc_charging_university_campuses.pdf) | energy.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 7 |
+| [51-fy2026.pdf](https://nsf-gov-resources.nsf.gov/files/51-fy2026.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [BABA_Implementation_2022_508_1.pdf](https://nsf-gov-resources.nsf.gov/2022-06/BABA_Implementation_2022_508_1.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [BABA_PublicCommentSubmission_508.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BABA_PublicCommentSubmission_508.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [BABA_WaiverRequestSubmission_2022_508.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BABA_WaiverRequestSubmission_2022_508.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf](https://nsf-gov-resources.nsf.gov/2022-08/Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [Dr.SchragTestimony508_0.pdf](https://nsf-gov-resources.nsf.gov/2022-04/Dr.SchragTestimony508_0.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf](https://nsf-gov-resources.nsf.gov/2022-06/How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf](https://nsf-gov-resources.nsf.gov/2021-11/NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [NSF-scientific-integrity-policy.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-scientific-integrity-policy.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 |
+| [NSF_Response_to_Festivus_Report_2020.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2020.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [NSF_Response_to_Festivus_Report_2021.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2021.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [NSF_Response_to_Festivus_Report_2022.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2022.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [NSF_Response_to_Senator_Coburns_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Coburns_Waste_Report.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF_Response_to_Senator_Ernsts_December_2022_Squeal_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Ernsts_December_2022_Squeal_Report.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [NSF_Response_to_Senator_Ernsts_March_2023_Squeal%20_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Ernsts_March_2023_Squeal%20_Report.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [NSF_Response_to_Senator_Ernsts_May_2021_Make_em_Squeal_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Ernsts_May_2021_Make_em_Squeal_Report.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [NSF_Response_to_Senator_Ernsts_November_2021_Squeal_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Ernsts_November_2021_Squeal_Report.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF_Response_to_Senator_Flakes_Twenty_Questions_Government_Studies.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Flakes_Twenty_Questions_Government_Studies.pdf) | nsf.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 15 |
+| [NSF_Response_to_Senator_Flakes_Wastebooke_The_Farce_Awakens.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Flakes_Wastebooke_The_Farce_Awakens.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 18 |
+| [NSF_Response_to_Senator_Lankfords_Federal_Fumbles.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Lankfords_Federal_Fumbles.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 |
+| [NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol2.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol2.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 |
+| [NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol3.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol3.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 9 |
+| [NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol5.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol5.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF_Response_to_Senator_McCains_Americas_Most_Wasted_Runaway_Spending.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_McCains_Americas_Most_Wasted_Runaway_Spending.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 6 |
+| [NSF_Response_to_Senator_Pauls_2018_Festivus_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_2018_Festivus_Report.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [NSF_Response_to_Senator_Pauls_February_2016_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_February_2016_Waste_Report.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF_Response_to_Senator_Pauls_March_2017_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_March_2017_Waste_Report.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF_Response_to_Senator_Pauls_November_2015_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_November_2015_Waste_Report.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [NSF_Response_to_Senator_Pauls_October_2016_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_October_2016_Waste_Report.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [NSF_Response_to_Senator_Pauls_September_2017_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_September_2017_Waste_Report.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF_Response_to_Senator_Pauls_Spring_2019_Waste_in_Full_Bloom.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_Spring_2019_Waste_in_Full_Bloom.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [NSF_Response_to_Senator_Pauls_Summer_2019_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_Summer_2019_Waste_Report.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [SciENcvFAQs.pdf](https://nsf-gov-resources.nsf.gov/files/SciENcvFAQs.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 |
+| [TIP%20Impact%20Infographic%20508%20v2.pdf](https://nsf-gov-resources.nsf.gov/files/TIP%20Impact%20Infographic%20508%20v2.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [appendix-a-r.pdf](https://nsf-gov-resources.nsf.gov/files/appendix-a-r.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [nsb20198-fig03-021.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-021.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-fig03-022.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-022.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-fig03-023.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-023.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-fig03-024.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-024.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-fig03-025.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-025.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-fig03-026.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-026.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-fig03-027.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-027.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-fig03-b.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-b.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-global-s-e-labor-force.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/sidebars/nsb20198-global-s-e-labor-force.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [nsb20198-tab03-015.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/the-skilled-technical-workforce/tables/nsb20198-tab03-015.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-tab03-019.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/tables/nsb20198-tab03-019.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-tab03-020.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/tables/nsb20198-tab03-020.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-tab03-021.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-021.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-tab03-022.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-022.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsb20198-tab03-023.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-023.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [nsf23104.pdf](https://nsf-gov-resources.nsf.gov/pubs/2023/nsf23104/nsf23104.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 |
+| [nsf23_1.pdf](https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 203 |
+| [nsf24_1.pdf](https://nsf-gov-resources.nsf.gov/files/nsf24_1.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 216 |
+| [nsf25003.pdf](https://nsf-gov-resources.nsf.gov/files/nsf25003.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 34 |
+| [nsf26313-tab009.pdf](https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab009.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [nsf26313-tab010.pdf](https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab010.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [overview.pdf](https://seedfund.nsf.gov/assets/files/press/overview.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wmpd19-sr-tab09-003.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-003.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-004.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-004.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-005.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-005.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wmpd19-sr-tab09-006.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-006.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 |
+| [wmpd19-sr-tab09-007.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-007.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-008.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-008.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-009.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-009.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wmpd19-sr-tab09-010.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-010.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-011.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-011.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-012.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-012.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-013.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-013.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-014.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-014.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-015.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-015.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-016.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-016.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wmpd19-sr-tab09-017.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-017.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [wmpd19-sr-tab09-018.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-018.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wmpd19-sr-tab09-019.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-019.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [wmpd19-sr-tab09-020.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-020.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-021.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-021.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-022.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-022.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-023.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-023.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-024.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-024.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-025.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-025.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [wmpd19-sr-tab09-026.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-026.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [wmpd19-sr-tab09-027.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-027.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-028.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-028.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wmpd19-sr-tab09-029.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-029.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-030.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-030.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-031.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-031.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-032.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-032.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wmpd19-sr-tab09-033.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-033.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [wmpd19-sr-tab09-034.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-034.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [wmpd19-sr-tab09-035.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-035.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wmpd19-sr-tab09-036.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-036.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wmpd19-sr-tab09-037.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-037.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-038.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-038.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [wmpd19-sr-tab09-039.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-039.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [wmpd19-sr-tab09-040.pdf](https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-040.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 | [mfa-infographie-complete-la-francophonie-ontarienne%20fr-2021-2024-10-31.pdf](https://www.ontario.ca/files/2024-10/mfa-infographie-complete-la-francophonie-ontarienne%20fr-2021-2024-10-31.pdf) | ontario.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
 | [mfa-map-designated-regions-2026-fr-2025-12-08.pdf](https://www.ontario.ca/files/2025-12/mfa-map-designated-regions-2026-fr-2025-12-08.pdf) | ontario.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
 | [mfa-map-designated-regions-2029-fr-2025-12-08.pdf](https://www.ontario.ca/files/2025-12/mfa-map-designated-regions-2029-fr-2025-12-08.pdf) | ontario.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
@@ -1674,6 +1771,159 @@ Generated: 2026-03-11T00:24:50.588946+00:00
 | [urr-py23-instructions.pdf](https://www.cms.gov/files/document/urr-py23-instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 53 |
 | [urr_v5.3-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/urr_v5.3-instructions.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 52 |
 | [user-fee-reduction-obligation-faq-032318.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/user-fee-reduction-obligation-faq-032318.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 1 |
+| [2022%20Cohort-Track%20G-Phase%201-BAA-AT%26T%20Corporation_508.pdf](https://nsf-gov-resources.nsf.gov/2022-09/2022%20Cohort-Track%20G-Phase%201-BAA-AT%26T%20Corporation_508.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2022%20Cohort-Track%20G-Phase%201-BAA-Blackberry%20Corporation_508.pdf](https://nsf-gov-resources.nsf.gov/2022-09/2022%20Cohort-Track%20G-Phase%201-BAA-Blackberry%20Corporation_508.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2022%20Cohort-Track%20G-Phase%201-BAA-IBM_508.pdf](https://nsf-gov-resources.nsf.gov/2022-09/2022%20Cohort-Track%20G-Phase%201-BAA-IBM_508.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2022%20Cohort-Track%20G-Phase%201-BAA-Novowi_508.pdf](https://nsf-gov-resources.nsf.gov/2022-09/2022%20Cohort-Track%20G-Phase%201-BAA-Novowi_508.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2022%20Cohort-Track%20G-Phase%201-BAA-Peraton%20Labs_508.pdf](https://nsf-gov-resources.nsf.gov/2022-09/2022%20Cohort-Track%20G-Phase%201-BAA-Peraton%20Labs_508.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [2022_NSF_Major_Research_Infrastructure_Static_508c.pdf](https://nsf-gov-resources.nsf.gov/files/2022_NSF_Major_Research_Infrastructure_Static_508c.pdf?VersionId=n9MWWoQ33iRzK9NeecjnwlmpEn.cgd4o) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [2023ITYCProgramWebinarSlides-r.pdf](https://nsf-gov-resources.nsf.gov/files/2023ITYCProgramWebinarSlides-r.pdf?VersionId=RR9lZHA1JZI2DaiDGTU3To5YN.Mj6cdI) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [4-10_to_4-16_CRFU_v2rcm.pdf](https://nsf-gov-resources.nsf.gov/2024-01/4-10_to_4-16_CRFU_v2rcm.pdf?VersionId=RIdPLAe5m8Un.QD.OzAlRS2LrrQhFUkJ) | nsf.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [4-17_to_4-23_CRFU_final.pdf](https://nsf-gov-resources.nsf.gov/2024-01/4-17_to_4-23_CRFU_final.pdf?VersionId=rCR2eRCkWWa1uaekp8QJl7bx0CP7PPEb) | nsf.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [4-24_to_4-30_CRFU.pdf](https://nsf-gov-resources.nsf.gov/2024-01/4-24_to_4-30_CRFU.pdf?VersionId=Er3qh4yv8nkoNFYygq.CoWfeU4JdW1PQ) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [5-8_to_5-14_CARES_Act_Update.pdf](https://nsf-gov-resources.nsf.gov/2024-01/5-8_to_5-14_CARES_Act_Update.pdf?VersionId=MhcxPatshWetqI2CGZgnEPGAC1cAgRRr) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [AI-Impacts%20from%20Investments-Factsheet_FINAL.pdf](https://nsf-gov-resources.nsf.gov/files/AI-Impacts%20from%20Investments-Factsheet_FINAL.pdf?VersionId=KKQRUjOwk61XSG6kb4cmH2WK73shPitg) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [ARP_CRU_Aug9_2021.pdf](https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_Aug9_2021.pdf?VersionId=OFdE4AAFaf2KLdf0q9RPuQBXgEXGEmk.) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [ARP_CRU_Dec6_2021.pdf](https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_Dec6_2021.pdf?VersionId=FWZHePRTH.tZSn2Ryqej0yTXNJ4y4P0X) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [ARP_CRU_June21_2022.pdf](https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_June21_2022.pdf?VersionId=XZrPvDrf07S34flVClr3aS7BswNcBvAP) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [ARP_CRU_March21_2022.pdf](https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_March21_2022.pdf?VersionId=W6QcjF06Y305mXr7lk132OM5yVVdvLKj) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 |
+| [ARP_CRU_May9_2022.pdf](https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_May9_2022.pdf?VersionId=Paqt6YexVmLwpwnWL7lsjwAPrVtB4D_A) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [ARP_CRU_Sept8_2021.pdf](https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_Sept8_2021.pdf?VersionId=HCLYK0bDapx0bMJmtvEoaIzNqMuzMEqz) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [ARP_CRU_update_Jan28_2022.pdf](https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_update_Jan28_2022.pdf?VersionId=1Ysq9GahAaqhhWijo9d7ybcG62QH2TIO) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [ARP_Summary_Report_FINAL.pdf](https://nsf-gov-resources.nsf.gov/2024-01/ARP_Summary_Report_FINAL.pdf?VersionId=nbUvrBLe9C4yeGY2uagohD5y3zePLt31) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [Artificial_Intelligence_Factsheet_508c.pdf](https://nsf-gov-resources.nsf.gov/2023-08/Artificial_Intelligence_Factsheet_508c.pdf?VersionId=.amjftlJH9fuLFfUb1VMiKsMnVmRmPq.) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [CFRU_5-15_to_5-21.pdf](https://nsf-gov-resources.nsf.gov/2024-01/CFRU_5-15_to_5-21.pdf?VersionId=2Ig0QSSuiD0y4dgzbYU6apGZrKdMU3aN) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [CFRU_5-1_to_5-7.pdf](https://nsf-gov-resources.nsf.gov/2024-01/CFRU_5-1_to_5-7.pdf?VersionId=XQ6aEzrVV8JTeXCAYpDVl3gszfknCaaD) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [CFRU_5-22_to_5-28.pdf](https://nsf-gov-resources.nsf.gov/2024-01/CFRU_5-22_to_5-28.pdf?VersionId=ah62IncQYnkrDPzfq6TSkh_pmC1DX93u) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [CFRU_5-29_to_6-4.pdf](https://nsf-gov-resources.nsf.gov/2024-01/CFRU_5-29_to_6-4.pdf?VersionId=V3NUWiWkKWFpjeE8b9Jzgm5LcB9sSssa) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [CFRU_6-12_to_6-18.pdf](https://nsf-gov-resources.nsf.gov/2024-01/CFRU_6-12_to_6-18.pdf?VersionId=3MFSgylbDGVi6KF2WI59r4i43ud_5IKz) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [CFRU_6-19_to_6-25.pdf](https://nsf-gov-resources.nsf.gov/2024-01/CFRU_6-19_to_6-25.pdf?VersionId=Hf0CwaawYkqxeItNZqQRNnoh9HiJ3kuB) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [CFRU_6-5_to_6-11.pdf](https://nsf-gov-resources.nsf.gov/2024-01/CFRU_6-5_to_6-11.pdf?VersionId=TFW7T5WW7Etg0QypcVYP6N0Hequ0MALs) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [CFRU_Aug11.pdf](https://nsf-gov-resources.nsf.gov/2024-01/CFRU_Aug11.pdf?VersionId=0L5PjHjw7OvMkye3fdKsBqvrL.9aA22H) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [CFRU_Jan19_update.pdf](https://nsf-gov-resources.nsf.gov/2024-01/CFRU_Jan19_update.pdf?VersionId=llad__VH8BYNleorQfN8q6_iH9WQ7tvN) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [CHIPS_and_Science_2_year_fact_sheet-0.pdf](https://nsf-gov-resources.nsf.gov/files/CHIPS_and_Science_2_year_fact_sheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [CHIPS_and_Science_2_year_fact_sheet.pdf](https://nsf-gov-resources.nsf.gov/files/CHIPS_and_Science_2_year_fact_sheet.pdf?VersionId=5xBOdwtAPnUeVLBSbzWAtuORXUgcj9Et) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [Commerce-research-terms-conditions-20201112-r.pdf](https://nsf-gov-resources.nsf.gov/files/Commerce-research-terms-conditions-20201112-r.pdf?VersionId=miNCLIVF4CAMI6WR1CRJNY_iXlvWaJf2) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [EPSCoR_Factsheet_final.pdf](https://nsf-gov-resources.nsf.gov/files/EPSCoR_Factsheet_final.pdf?VersionId=lnT9QxHvZ6Q0dL_5cG7K1R8NMbgYM0kd) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Energy-research-terms-conditions-2020-11-r.pdf](https://nsf-gov-resources.nsf.gov/files/Energy-research-terms-conditions-2020-11-r.pdf?VersionId=KIvkHHXmpkbTh.m06fxAEvnbh7ASsgDg) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [Expanding_the_Frontiers_of_Quantum_Science_508.pdf](https://nsf-gov-resources.nsf.gov/files/Expanding_the_Frontiers_of_Quantum_Science_508.pdf?VersionId=bciPDJcA3cqmH2m_l2mQkOF7fBEbQW4e) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Factsheet_BioTech_v04.pdf](https://nsf-gov-resources.nsf.gov/files/Factsheet_BioTech_v04.pdf?VersionId=uvZervSl6Gt2lYcdGUza1i7YQxCIj61K) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [JSR-19-2IFundamentalResearchSecurity-12062019FINAL.pdf](https://nsf-gov-resources.nsf.gov/files/JSR-19-2IFundamentalResearchSecurity-12062019FINAL.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 59 |
+| [JSR-23-12-Safeguarding-the-Research-Enterprise-Final.pdf](https://nsf-gov-resources.nsf.gov/files/JSR-23-12-Safeguarding-the-Research-Enterprise-Final.pdf?VersionId=ZVhvRaTIrxMsdZql6E_yz5pN6Ssw0fSl) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 92 |
+| [Join_Zoom_Meeting_Panelist.pdf](https://nsf-gov-resources.nsf.gov/files/Join_Zoom_Meeting_Panelist.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [Medical-Review-Panel-Charter-2023-r.pdf](https://nsf-gov-resources.nsf.gov/files/Medical-Review-Panel-Charter-2023-r.pdf?VersionId=do5yYWAm2EQQQhEIs27aJ4nWI1n7Nwy6) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [NIH-research-terms-conditions-2020-r.pdf](https://nsf-gov-resources.nsf.gov/files/NIH-research-terms-conditions-2020-r.pdf?VersionId=n9sFgwQZqHSHSdweAtYwbvlXHY8r3m80) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 |
+| [NIH-research-terms-conditions-20210408-r.pdf](https://nsf-gov-resources.nsf.gov/files/NIH-research-terms-conditions-20210408-r.pdf?VersionId=mU6QrWZhasHMz7_PXyHHoXLr9OsVbfuX) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 |
+| [NSF%20At%20A%20Glance%202025_0.pdf](https://nsf-gov-resources.nsf.gov/files/NSF%20At%20A%20Glance%202025_0.pdf?VersionId=46DJLrRSy9UO5kJzDWhQMwWR3lFPnQh9) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF-75-Factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-75-Factsheet.pdf?VersionId=izIGR5pO4E593728ipN27mnpinycHmev) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [NSF-CA-2021-Award-Announcement-Hacks-Hackers-508.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-CA-2021-Award-Announcement-Hacks-Hackers-508.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [NSF-CA-2021-Award-Announcement-University-of-Washington-508.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-CA-2021-Award-Announcement-University-of-Washington-508.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [NSF-Funded_Research_COVID-19_Fact_Sheet.pdf](https://nsf-gov-resources.nsf.gov/2023-11/NSF-Funded_Research_COVID-19_Fact_Sheet.pdf?VersionId=YC8lOjuz8Un8A37lQ93Kt1Cpm7CD9tHK) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF-Response-to-Festivus-Report-2023-508c.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-Response-to-Festivus-Report-2023-508c.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF-Response-to-Senator-Lankfords-Federal-Fumbles-V7.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-Response-to-Senator-Lankfords-Federal-Fumbles-V7.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 |
+| [NSF-research-terms-conditions-20201005-r.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-research-terms-conditions-20201005-r.pdf?VersionId=Le4KSRzQw_pv.uA81ISCLrP_hxxh9uxX) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 38 |
+| [NSF-research-terms-conditions-20201112-r.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-research-terms-conditions-20201112-r.pdf?VersionId=qnxSzqCjl6FEdOLDlCQlSOQc2hE35KZ0) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 37 |
+| [NSF-research-terms-conditions-20211004-r.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-research-terms-conditions-20211004-r.pdf?VersionId=ullBV786Mc87P8mEw2sjhB4PcaxQKbeh) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 37 |
+| [NSF-research-terms-conditions-changes-20190225-r_0.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-research-terms-conditions-changes-20190225-r_0.pdf?VersionId=0zV0H15xzheMI9yMQrZiAvmNIky4I5Lf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [NSF-research-terms-conditions-changes-20201005-r.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-research-terms-conditions-changes-20201005-r.pdf?VersionId=oeMWgApPrr3f5KEvEKokQzKC32d_T2e1) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF-research-terms-conditions-changes-20201112-r.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-research-terms-conditions-changes-20201112-r.pdf?VersionId=exnMrnTVk6MzN3htFur.JYBTc7kciC0x) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF-research-terms-conditions-changes-20211004-r.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-research-terms-conditions-changes-20211004-r.pdf?VersionId=.6fkczRejt_nLapZ8Ae0oCMjYDasNLAH) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [NSF-research-terms-conditions-changes-20220513-r.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-research-terms-conditions-changes-20220513-r.pdf?VersionId=tWkMc4XKBhekLrDco6429RyOulusGKw3) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [NSF-research-terms-conditions-changes-20230130-r.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-research-terms-conditions-changes-20230130-r.pdf?VersionId=OyBP6NkSoVi4C384du.8Zk0NZKyTAnBP) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF_Computing_Power_COVID-19_4-10-2020.pdf](https://nsf-gov-resources.nsf.gov/2023-11/NSF_Computing_Power_COVID-19_4-10-2020.pdf?VersionId=Vydwm0OyTAB7HHdHaEE7TgpUgtp9rmtm) | nsf.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [NSF_Major_Multi_User_Facilities_Fact_Sheet_FI.pdf](https://nsf-gov-resources.nsf.gov/files/NSF_Major_Multi_User_Facilities_Fact_Sheet_FI.pdf?VersionId=Z24KTQq6JL0R6pkBHvV81llGRoYfMZS_) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 |
+| [No-FEAR-Act-Data-FY2020-Q1.pdf](https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q1.pdf?VersionId=TT57vG.xEtES6DVWn2bjs2ov8WnhDBHx) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [No-FEAR-Act-Data-FY2020-Q2.pdf](https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q2.pdf?VersionId=ZBDvoDkw9sBs9hJTTTJJSRl767h9Bbpt) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 |
+| [PQ-Guidelines-Current-13-March-2025.pdf](https://nsf-gov-resources.nsf.gov/files/PQ-Guidelines-Current-13-March-2025.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 71 |
+| [SOH_POL_2000.10_VOL1_Mar_2025-0.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL1_Mar_2025.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 114 |
+| [SOH_POL_2000.10_VOL1_Mar_2025.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL1_Mar_2025.pdf?VersionId=g9q07U8qCjaATlNsnWP9RBZcLdrYQzox) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 114 |
+| [SOH_POL_2000.10_VOL2.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL2.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 |
+| [System_Requirements.pdf](https://nsf-gov-resources.nsf.gov/files/System_Requirements.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [TIPRoadmap_WEB.pdf](https://nsf-gov-resources.nsf.gov/files/TIPRoadmap_WEB.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 40 |
+| [TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf](https://nsf-gov-resources.nsf.gov/2023-06/TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf?VersionId=7hktpt_12oxeM2sHpOrTR6uG3mm6_DMk) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 51 |
+| [Zoom_Test_Meeting.pdf](https://nsf-gov-resources.nsf.gov/files/Zoom_Test_Meeting.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [agencyimpstatements-20201112-r.pdf](https://nsf-gov-resources.nsf.gov/files/agencyimpstatements-20201112-r.pdf?VersionId=VByFXrlRqf4TsZmBOX9UyBKj5oGmQIJf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [alabama_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/alabama_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [alaska_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/alaska_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [appendix-b-r.pdf](https://nsf-gov-resources.nsf.gov/files/appendix-b-r.pdf?VersionId=.MKYG2kgHoOaSwsl_e_THfLYPEHA5mtf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [appendix-c-r.pdf](https://nsf-gov-resources.nsf.gov/files/appendix-c-r.pdf?VersionId=4HLmsCrN4n9_0ckzqhmHaVF172jMXBkn) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [arizona_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/arizona_factsheet.pdf) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [arkansas_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/arkansas_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [california_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/california_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [colorado_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/colorado_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [connecticut_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/connecticut_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [delaware_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/delaware_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [district_of_columbia_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/district_of_columbia_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [florida_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/florida_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [future-manufacturing-2022-webinar-slides-508.pdf](https://nsf-gov-resources.nsf.gov/attachments/304116/public/future-manufacturing-2022-webinar-slides-508.pdf?VersionId=1pOrwFJ6anPU3_hAH0kVMbUoD6GTqvHS) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 18 |
+| [georgia_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/georgia_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [guam_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/guam_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [hawaii_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/hawaii_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [idaho_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/idaho_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [illinois_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/illinois_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [indiana_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/indiana_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [iowa_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/iowa_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [kansas_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/kansas_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [kentucky_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/kentucky_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [louisiana_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/louisiana_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [maine_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/maine_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [maryland_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/maryland_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [massachusetts_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/massachusetts_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [michigan_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/michigan_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [minnesota_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/minnesota_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [mississippi_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/mississippi_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [missouri_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/missouri_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [montana_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/montana_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [nasa-research-terms-conditions-20190901-r.pdf](https://nsf-gov-resources.nsf.gov/files/nasa-research-terms-conditions-20190901-r.pdf?VersionId=vO9GoS2ibH5toORxA2l.e1gojJZZONX6) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [nasa-terms-conditions-20201112-r.pdf](https://nsf-gov-resources.nsf.gov/files/nasa-terms-conditions-20201112-r.pdf?VersionId=ussRUudAOvJGr3LZaSd19iR9izvvDjcy) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [nebraska_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/nebraska_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [nevada_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/nevada_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [new_hampshire_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/new_hampshire_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [new_jersey_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/new_jersey_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [new_mexico_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/new_mexico_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [new_york_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/new_york_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [nifa-rtc-20201112-r.pdf](https://nsf-gov-resources.nsf.gov/files/nifa-rtc-20201112-r.pdf?VersionId=2vQ8p_Kiz1hHV1e0Xlk2iN9_zQaUNrKm) | nsf.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 23 |
+| [north_carolina_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/north_carolina_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [north_dakota_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/north_dakota_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [nsb201923.pdf](https://nsf-gov-resources.nsf.gov/nsb/publications/2019/nsb201923.pdf?VersionId=FKzfy6SamakWel6Ot_ankRo06RN1wP5p) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 58 |
+| [nsb20198-tabsa03-005.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/technical-appendix/tables/nsb20198-tabsa03-005.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 |
+| [nsb20225-tabrd-014.pdf](https://ncses.nsf.gov/pubs/nsb20225/assets/u-s-business-r-d/tables/nsb20225-tabrd-014.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [nsf-0123-r.pdf](https://nsf-gov-resources.nsf.gov/files/nsf-0123-r.pdf?VersionId=TduAHRwo0NmnyThR_XanUmL1butNHo7Z) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 39 |
+| [nsf-0522-r.pdf](https://nsf-gov-resources.nsf.gov/files/nsf-0522-r.pdf?VersionId=.RGyQ1BAdyNYneyHP3ParuaX0DnHfIVR) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 37 |
+| [nsf-research-terms-conditions-20240520-r.pdf](https://nsf-gov-resources.nsf.gov/files/nsf-research-terms-conditions-20240520-r.pdf?VersionId=kV_IRBLc1qo.iW8.RtSWHRjh8lLjTyus) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 43 |
+| [nsf-research-terms-conditions-changes-20240520-r.pdf](https://nsf-gov-resources.nsf.gov/files/nsf-research-terms-conditions-changes-20240520-r.pdf?VersionId=9yfQQjfnBVWr.kBMhlSEyXqNO1Yy_FqP) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [nsf17537.pdf](https://nsf-gov-resources.nsf.gov/solicitations/pubs/2017/nsf17537/nsf17537.pdf?VersionId=OCuvmJtE8EToC.BgPK19q7IzcDjuBaVL) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 |
+| [nsf19_1.pdf](https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappg19_1/nsf19_1.pdf?VersionId=VP2O7QrluFaSYgFJzE82cUCY_kNDb7jM) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 192 |
+| [nsf21598.pdf](https://nsf-gov-resources.nsf.gov/solicitations/pubs/2021/nsf21598/nsf21598.pdf?VersionId=9xqwrpX1ChYhJsKdlRX3L1g.qCBp6TY6) | nsf.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 |
+| [nsf22527.pdf](https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22527/nsf22527.pdf?VersionId=Q0JGcoHH7oC6Nw.2KdYVu4yM2v6m9TIW) | nsf.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 22 |
+| [nsf22531.pdf](https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22531/nsf22531.pdf?VersionId=4jGSTMwuBG5I2AbJBj2S00Srz_gfCPeW) | nsf.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 |
+| [nsf22636.pdf](https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22636/nsf22636.pdf?VersionId=YQiAA0IN8YOJWFTbcUbGwch9O4EkEQNr) | nsf.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [nsf22_1.pdf](https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappg22_1/nsf22_1.pdf?VersionId=uQ3beiVsvM3EyGEmmSMKpOCwLzMx_27e) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 193 |
+| [nsf23528.pdf](https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23528/nsf23528.pdf?VersionId=UDp9dtKFLtFHuahY4WUtFzjCG11DdvBI) | nsf.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [nsf23544.pdf](https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23544/nsf23544.pdf?VersionId=La_52VrRYoHW1SnW2kXBpNBkNunu2qgV) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 |
+| [nsf23552.pdf](https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23552/nsf23552.pdf?VersionId=zGIlMxh1OtSBXLlrLWHgGH8wTBwMPGhE) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 |
+| [nsf24550.pdf](https://nsf-gov-resources.nsf.gov/files/nsf24550.pdf?VersionId=pX.ZB22_hRAQR6Irp3OwIbcR3XsKlYDG) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 22 |
+| [ohio_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/ohio_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [oklahoma_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/oklahoma_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [oregon_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/oregon_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [pennsylvania_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/pennsylvania_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [puerto_rico_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/puerto_rico_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [research-terms-conditions-agencyimpstatements-20210421-r.pdf](https://nsf-gov-resources.nsf.gov/files/research-terms-conditions-agencyimpstatements-20210421-r.pdf?VersionId=mdnsPdAj6HL5GMByddmWeoDNdH1gQg0n) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 |
+| [rhode_island_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/rhode_island_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [rtcoverlay-nov20-r.pdf](https://nsf-gov-resources.nsf.gov/files/rtcoverlay-nov20-r.pdf?VersionId=wYsBc0e34TZnYUG7TK0PSH0L0oZkog7G) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 32 |
+| [south_carolina_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/south_carolina_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [south_dakota_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/south_dakota_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [techcorrections-rtcoverlay-nov20-r.pdf](https://nsf-gov-resources.nsf.gov/files/techcorrections-rtcoverlay-nov20-r.pdf?VersionId=k6x9mWB7wFjza36YN7_BeCCOguaLu_H3) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
+| [tennessee_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/tennessee_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [texas_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/texas_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [utah_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/utah_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [vermont_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/vermont_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [virgin_islands_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/virgin_islands_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [virginia_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/virginia_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [washington_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/washington_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [west_virginia_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/west_virginia_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wisconsin_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/wisconsin_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [wyoming_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/wyoming_factsheet.pdf) | nsf.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 
 ## Files with Errors or Notes
 
@@ -6693,6 +6943,5640 @@ Generated: 2026-03-11T00:24:50.588946+00:00
 - **Status**: analysed
 - title, lang, 
 
+### 15_fy2023_0.pdf?VersionId=LV1fEl0ZGY1fu6I4LU2fFmTv1WMLTVex
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-11/15_fy2023_0.pdf?VersionId=LV1fEl0ZGY1fu6I4LU2fFmTv1WMLTVex
+- **Status**: error
+- File not found: crawled_files/nsf.gov/15_fy2023_0.pdf?VersionId=LV1fEl0ZGY1fu6I4LU2fFmTv1WMLTVex (crawled 1 day(s) ago at 2026-03-10T01:18:24.367353+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 16_fy2024.pdf?VersionId=JHTH1BfbREdO1yEeU._5ZFUlbTfGcHEM
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-11/16_fy2024.pdf?VersionId=JHTH1BfbREdO1yEeU._5ZFUlbTfGcHEM
+- **Status**: error
+- File not found: crawled_files/nsf.gov/16_fy2024.pdf?VersionId=JHTH1BfbREdO1yEeU._5ZFUlbTfGcHEM (crawled 1 day(s) ago at 2026-03-10T01:18:24.367964+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 16_fy2025.pdf?VersionId=m.PtB8LZaZ3Sk3XgZVo_177Un3eBgvIN
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/16_fy2025.pdf?VersionId=m.PtB8LZaZ3Sk3XgZVo_177Un3eBgvIN
+- **Status**: error
+- File not found: crawled_files/nsf.gov/16_fy2025.pdf?VersionId=m.PtB8LZaZ3Sk3XgZVo_177Un3eBgvIN (crawled 1 day(s) ago at 2026-03-10T01:18:24.368592+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 19_fy2022.pdf?VersionId=Pvr2IemSyQKv3ytydFeKBG_ugunZWHkM
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-11/19_fy2022.pdf?VersionId=Pvr2IemSyQKv3ytydFeKBG_ugunZWHkM
+- **Status**: error
+- File not found: crawled_files/nsf.gov/19_fy2022.pdf?VersionId=Pvr2IemSyQKv3ytydFeKBG_ugunZWHkM (crawled 1 day(s) ago at 2026-03-10T01:18:24.369355+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2015-2016-ceose-biennial-report-508_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2015-2016-ceose-biennial-report-508_0.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/2015-2016-ceose-biennial-report-508_0.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.379467+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-10/2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
+- **Status**: error
+- File not found: crawled_files/nsf.gov/2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn (crawled 1 day(s) ago at 2026-03-10T01:18:24.386907+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2026-ECORE-ERISE-RII-guidelines.pdf?VersionId=PuwTR8P0wsS5QppKn8SN8a_GiGRjUDyd
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2026-ECORE-ERISE-RII-guidelines.pdf?VersionId=PuwTR8P0wsS5QppKn8SN8a_GiGRjUDyd
+- **Status**: error
+- File not found: crawled_files/nsf.gov/2026-ECORE-ERISE-RII-guidelines.pdf?VersionId=PuwTR8P0wsS5QppKn8SN8a_GiGRjUDyd (crawled 1 day(s) ago at 2026-03-10T01:18:24.387711+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2026-RII-ERF-guidelines.pdf?VersionId=4BB19YIh50FED.bmopeuUIfmFzoq_NBr
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2026-RII-ERF-guidelines.pdf?VersionId=4BB19YIh50FED.bmopeuUIfmFzoq_NBr
+- **Status**: error
+- File not found: crawled_files/nsf.gov/2026-RII-ERF-guidelines.pdf?VersionId=4BB19YIh50FED.bmopeuUIfmFzoq_NBr (crawled 1 day(s) ago at 2026-03-10T01:18:24.388533+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2026-RII-FEC-annual-guidelines.pdf?VersionId=a5Ul2aO3UTqAX.AUgBfvpKhs6LW013xH
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2026-RII-FEC-annual-guidelines.pdf?VersionId=a5Ul2aO3UTqAX.AUgBfvpKhs6LW013xH
+- **Status**: error
+- File not found: crawled_files/nsf.gov/2026-RII-FEC-annual-guidelines.pdf?VersionId=a5Ul2aO3UTqAX.AUgBfvpKhs6LW013xH (crawled 1 day(s) ago at 2026-03-10T01:18:24.389172+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2026-RII-Track-1-Guidelines.pdf?VersionId=OdAz79H.1U4WjgHj6daTZl.nnyWkkbpJ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2026-RII-Track-1-Guidelines.pdf?VersionId=OdAz79H.1U4WjgHj6daTZl.nnyWkkbpJ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/2026-RII-Track-1-Guidelines.pdf?VersionId=OdAz79H.1U4WjgHj6daTZl.nnyWkkbpJ (crawled 1 day(s) ago at 2026-03-10T01:18:24.390029+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 58b_fy2022.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/about/budget/fy2022/pdf/58b_fy2022.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/58b_fy2022.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.391250+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### AF-CIF-FET-SHF%20office%20hours.pdf?VersionId=74wP8sPzcJuNsmHS1If2YRN9oaeMqKXU
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/AF-CIF-FET-SHF%20office%20hours.pdf?VersionId=74wP8sPzcJuNsmHS1If2YRN9oaeMqKXU
+- **Status**: error
+- File not found: crawled_files/nsf.gov/AF-CIF-FET-SHF%20office%20hours.pdf?VersionId=74wP8sPzcJuNsmHS1If2YRN9oaeMqKXU (crawled 1 day(s) ago at 2026-03-10T01:18:24.393363+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### BABA%20FAQs%2011302022.pdf?VersionId=K6RKan.Ojaf9AKwgfq4H2dE6.A6k1eUF
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-12/BABA%20FAQs%2011302022.pdf?VersionId=K6RKan.Ojaf9AKwgfq4H2dE6.A6k1eUF
+- **Status**: error
+- File not found: crawled_files/nsf.gov/BABA%20FAQs%2011302022.pdf?VersionId=K6RKan.Ojaf9AKwgfq4H2dE6.A6k1eUF (crawled 1 day(s) ago at 2026-03-10T01:18:24.394296+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### BABA%20Waiver%2020230001%20ARF%20Public%20Interest%20Waiver%20for%20Posting.pdf?VersionId=Kbm2FC_auGyivk0eNYLUuLtZydMsoPEO
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-05/BABA%20Waiver%2020230001%20ARF%20Public%20Interest%20Waiver%20for%20Posting.pdf?VersionId=Kbm2FC_auGyivk0eNYLUuLtZydMsoPEO
+- **Status**: error
+- File not found: crawled_files/nsf.gov/BABA%20Waiver%2020230001%20ARF%20Public%20Interest%20Waiver%20for%20Posting.pdf?VersionId=Kbm2FC_auGyivk0eNYLUuLtZydMsoPEO (crawled 1 day(s) ago at 2026-03-10T01:18:24.394873+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### BABA%20Waiver%20Request%2020220001%20Cornell%20University%2C%2009302022_1.pdf?VersionId=AMTXNnPtxstSFYbzIVC7Io9eNV2q7tOW
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-10/BABA%20Waiver%20Request%2020220001%20Cornell%20University%2C%2009302022_1.pdf?VersionId=AMTXNnPtxstSFYbzIVC7Io9eNV2q7tOW
+- **Status**: error
+- File not found: crawled_files/nsf.gov/BABA%20Waiver%20Request%2020220001%20Cornell%20University%2C%2009302022_1.pdf?VersionId=AMTXNnPtxstSFYbzIVC7Io9eNV2q7tOW (crawled 1 day(s) ago at 2026-03-10T01:18:24.396654+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### BABA%20Waiver%20Request%2020220002%20NRAO%20VLA%20with%20Public%20Comments%2001172023.pdf?VersionId=PL_aAWKNBfdyQ9LdB5kZGT6fvdRt61re
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-01/BABA%20Waiver%20Request%2020220002%20NRAO%20VLA%20with%20Public%20Comments%2001172023.pdf?VersionId=PL_aAWKNBfdyQ9LdB5kZGT6fvdRt61re
+- **Status**: error
+- File not found: crawled_files/nsf.gov/BABA%20Waiver%20Request%2020220002%20NRAO%20VLA%20with%20Public%20Comments%2001172023.pdf?VersionId=PL_aAWKNBfdyQ9LdB5kZGT6fvdRt61re (crawled 1 day(s) ago at 2026-03-10T01:18:24.398425+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### BABA_WaiverRequestSubmission_2022_Nov30_1.pdf?VersionId=nMi1CmpgPOMowx.yHJbVRGQs3zjjQBrG
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-12/BABA_WaiverRequestSubmission_2022_Nov30_1.pdf?VersionId=nMi1CmpgPOMowx.yHJbVRGQs3zjjQBrG
+- **Status**: error
+- File not found: crawled_files/nsf.gov/BABA_WaiverRequestSubmission_2022_Nov30_1.pdf?VersionId=nMi1CmpgPOMowx.yHJbVRGQs3zjjQBrG (crawled 1 day(s) ago at 2026-03-10T01:18:24.404490+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### BETA%20SITE%20IPA%20Rotator%20Study_508c_0.pdf?VersionId=.5fC_mtdOIRigBZCTlSVeDst8vk0RY15
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/BETA%20SITE%20IPA%20Rotator%20Study_508c_0.pdf?VersionId=.5fC_mtdOIRigBZCTlSVeDst8vk0RY15
+- **Status**: error
+- File not found: crawled_files/nsf.gov/BETA%20SITE%20IPA%20Rotator%20Study_508c_0.pdf?VersionId=.5fC_mtdOIRigBZCTlSVeDst8vk0RY15 (crawled 1 day(s) ago at 2026-03-10T01:18:24.406129+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### BETA%20SITE%20IRES%20Portfolio%20Analysis%202019.pdf?VersionId=_nLX77wgWqviemxHDNGhyGhEMfMXFiha
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/BETA%20SITE%20IRES%20Portfolio%20Analysis%202019.pdf?VersionId=_nLX77wgWqviemxHDNGhyGhEMfMXFiha
+- **Status**: error
+- File not found: crawled_files/nsf.gov/BETA%20SITE%20IRES%20Portfolio%20Analysis%202019.pdf?VersionId=_nLX77wgWqviemxHDNGhyGhEMfMXFiha (crawled 1 day(s) ago at 2026-03-10T01:18:24.407991+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### BETA%20SITE%20NSF%20Anti-harassment%20Findings_Slidedoc_508c_0.pdf?VersionId=unr7RcdzgrfMAKFxhtMKznuc7yslv3nu
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/BETA%20SITE%20NSF%20Anti-harassment%20Findings_Slidedoc_508c_0.pdf?VersionId=unr7RcdzgrfMAKFxhtMKznuc7yslv3nu
+- **Status**: error
+- File not found: crawled_files/nsf.gov/BETA%20SITE%20NSF%20Anti-harassment%20Findings_Slidedoc_508c_0.pdf?VersionId=unr7RcdzgrfMAKFxhtMKznuc7yslv3nu (crawled 1 day(s) ago at 2026-03-10T01:18:24.410186+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Blank_Milestone_Chart.xlsx
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/Blank_Milestone_Chart.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Blank_Milestone_Chart.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:24.410465+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Broader-Impacts-Literature-Review.pdf?VersionId=pEEdnFPn5aISEsH5NMaA4JqhFlCKqDMG
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Broader-Impacts-Literature-Review.pdf?VersionId=pEEdnFPn5aISEsH5NMaA4JqhFlCKqDMG
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Broader-Impacts-Literature-Review.pdf?VersionId=pEEdnFPn5aISEsH5NMaA4JqhFlCKqDMG (crawled 1 day(s) ago at 2026-03-10T01:18:24.413045+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Brown-University-OIG-Report-24-1-013.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Brown-University-OIG-Report-24-1-013.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Brown-University-OIG-Report-24-1-013.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.413551+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CASR-DC-2019-2021-508c.pdf?VersionId=ZTHNJB96.0ywoZxz2QKQkjwdWhtHZsPi
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/CASR-DC-2019-2021-508c.pdf?VersionId=ZTHNJB96.0ywoZxz2QKQkjwdWhtHZsPi
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CASR-DC-2019-2021-508c.pdf?VersionId=ZTHNJB96.0ywoZxz2QKQkjwdWhtHZsPi (crawled 1 day(s) ago at 2026-03-10T01:18:24.417119+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CCI_Final_Executive%20Summary_508%20Compliant_0.pdf?VersionId=96yEUZkR4Z7Z5jh36uJI3cAbkorZK4df
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/CCI_Final_Executive%20Summary_508%20Compliant_0.pdf?VersionId=96yEUZkR4Z7Z5jh36uJI3cAbkorZK4df
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CCI_Final_Executive%20Summary_508%20Compliant_0.pdf?VersionId=96yEUZkR4Z7Z5jh36uJI3cAbkorZK4df (crawled 1 day(s) ago at 2026-03-10T01:18:24.420448+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CCI_Final_Full%20Report_508%20Compliant.pdf?VersionId=7F2xtFtENlAJ9Maj3EWLVH6kVPKgLYK8
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/CCI_Final_Full%20Report_508%20Compliant.pdf?VersionId=7F2xtFtENlAJ9Maj3EWLVH6kVPKgLYK8
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CCI_Final_Full%20Report_508%20Compliant.pdf?VersionId=7F2xtFtENlAJ9Maj3EWLVH6kVPKgLYK8 (crawled 1 day(s) ago at 2026-03-10T01:18:24.434636+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CCStarArea3_Complaint.pptx?VersionId=vEoWU3g4x5AuBgbrK6y7n2LdT6NcPEEk
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/307874/public/CCStarArea3_Complaint.pptx?VersionId=vEoWU3g4x5AuBgbrK6y7n2LdT6NcPEEk
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CCStarArea3_Complaint.pptx?VersionId=vEoWU3g4x5AuBgbrK6y7n2LdT6NcPEEk (crawled 1 day(s) ago at 2026-03-10T01:18:24.437360+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CICI-NSF22-581_webinar.pptx?VersionId=_iRnGJyDbU0ok2sgM.xr5p041T3mRJ1b
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/304910/public/CICI-NSF22-581_webinar.pptx?VersionId=_iRnGJyDbU0ok2sgM.xr5p041T3mRJ1b
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CICI-NSF22-581_webinar.pptx?VersionId=_iRnGJyDbU0ok2sgM.xr5p041T3mRJ1b (crawled 1 day(s) ago at 2026-03-10T01:18:24.440937+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CIRC-transcript.pdf?VersionId=Avay6li4o.aOnqO42quCrkVWPmhNcOeX
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/307790/public/CIRC-transcript.pdf?VersionId=Avay6li4o.aOnqO42quCrkVWPmhNcOeX
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CIRC-transcript.pdf?VersionId=Avay6li4o.aOnqO42quCrkVWPmhNcOeX (crawled 1 day(s) ago at 2026-03-10T01:18:24.441695+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CIRC_Webinar.pptx?VersionId=dOhMfSuBJ6XP2hnJZHSytI4oJVSCFC8Q
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/307790/public/CIRC_Webinar.pptx?VersionId=dOhMfSuBJ6XP2hnJZHSytI4oJVSCFC8Q
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CIRC_Webinar.pptx?VersionId=dOhMfSuBJ6XP2hnJZHSytI4oJVSCFC8Q (crawled 1 day(s) ago at 2026-03-10T01:18:24.444386+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### COI-Confidentiality-Panelists-NSF_Form_1230P.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/COI-Confidentiality-Panelists-NSF_Form_1230P.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/COI-Confidentiality-Panelists-NSF_Form_1230P.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.444990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CUE-Transcript.pdf?VersionId=qnMzcJFysWBo3raLsji1EoE_SXrC9AyY
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/305552/public/CUE-Transcript.pdf?VersionId=qnMzcJFysWBo3raLsji1EoE_SXrC9AyY
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CUE-Transcript.pdf?VersionId=qnMzcJFysWBo3raLsji1EoE_SXrC9AyY (crawled 1 day(s) ago at 2026-03-10T01:18:24.445397+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CUEWebinarPresentation.pptx?VersionId=_ij6jCW55eyk3XN6dMyOFeVNtHXcli75
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/305552/public/CUEWebinarPresentation.pptx?VersionId=_ij6jCW55eyk3XN6dMyOFeVNtHXcli75
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CUEWebinarPresentation.pptx?VersionId=_ij6jCW55eyk3XN6dMyOFeVNtHXcli75 (crawled 1 day(s) ago at 2026-03-10T01:18:24.447694+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Certificate_of_Current_Cost.docx
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/Certificate_of_Current_Cost.docx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Certificate_of_Current_Cost.docx (crawled 1 day(s) ago at 2026-03-10T01:18:24.447938+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Closure-Vote-Notice-NSB-Feb25.pdf?VersionId=_vXnvk6JvIQZkw_v7ecpFhCMDqXe.O3U
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Closure-Vote-Notice-NSB-Feb25.pdf?VersionId=_vXnvk6JvIQZkw_v7ecpFhCMDqXe.O3U
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Closure-Vote-Notice-NSB-Feb25.pdf?VersionId=_vXnvk6JvIQZkw_v7ecpFhCMDqXe.O3U (crawled 1 day(s) ago at 2026-03-10T01:18:24.448419+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CommercialHistoryTemplate.xls
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/CommercialHistoryTemplate.xls
+- **Status**: error
+- File not found: crawled_files/nsf.gov/CommercialHistoryTemplate.xls (crawled 1 day(s) ago at 2026-03-10T01:18:24.448700+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Computing-Research-Association-OIG-Report-23-1-002.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Computing-Research-Association-OIG-Report-23-1-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Computing-Research-Association-OIG-Report-23-1-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.449256+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Daniel-Reed-April-2023-NSB-testimony.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Daniel-Reed-April-2023-NSB-testimony.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Daniel-Reed-April-2023-NSB-testimony.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.450473+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Daniel-Reed-May-2024-NSB-testimony.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Daniel-Reed-May-2024-NSB-testimony.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Daniel-Reed-May-2024-NSB-testimony.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.451566+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### EAC-Data-Snapshot-Fairness-by-Experience-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EAC-Data-Snapshot-Fairness-by-Experience-508.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/EAC-Data-Snapshot-Fairness-by-Experience-508.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.452965+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### EAC-Data-Snapshot-Satisfaction-by-Disability-Status-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EAC-Data-Snapshot-Satisfaction-by-Disability-Status-508.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/EAC-Data-Snapshot-Satisfaction-by-Disability-Status-508.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.453667+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### EAC-Data-Snapshot-Satisfaction-by-Experience-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EAC-Data-Snapshot-Satisfaction-by-Experience-508.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/EAC-Data-Snapshot-Satisfaction-by-Experience-508.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.454401+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### EAC-Data-Snapshot-Written-Review-Quality-by-Experience-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/EAC-Data-Snapshot-Written-Review-Quality-by-Experience-508.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/EAC-Data-Snapshot-Written-Review-Quality-by-Experience-508.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.455117+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ED-Supp-Template.docx
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/ED-Supp-Template.docx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/ED-Supp-Template.docx (crawled 1 day(s) ago at 2026-03-10T01:18:24.455496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.489677+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
+- **Status**: error
+- File not found: crawled_files/nsf.gov/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX (crawled 1 day(s) ago at 2026-03-10T01:18:24.523852+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### EPSCoR_Abstract_2M_1.pdf?VersionId=eA4eIRurgVCheHEZo3HKZ21LK7pC5ZyE
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/EPSCoR_Abstract_2M_1.pdf?VersionId=eA4eIRurgVCheHEZo3HKZ21LK7pC5ZyE
+- **Status**: error
+- File not found: crawled_files/nsf.gov/EPSCoR_Abstract_2M_1.pdf?VersionId=eA4eIRurgVCheHEZo3HKZ21LK7pC5ZyE (crawled 1 day(s) ago at 2026-03-10T01:18:24.524280+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ETAP-REU-Infographic-508.pdf?VersionId=hNsk6_USss3ALCtT.No1Wsb9IEHijlQ8
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-10/ETAP-REU-Infographic-508.pdf?VersionId=hNsk6_USss3ALCtT.No1Wsb9IEHijlQ8
+- **Status**: error
+- File not found: crawled_files/nsf.gov/ETAP-REU-Infographic-508.pdf?VersionId=hNsk6_USss3ALCtT.No1Wsb9IEHijlQ8 (crawled 1 day(s) ago at 2026-03-10T01:18:24.526373+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Educational-Development-Center-OIG-Report-22-1-008.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Educational-Development-Center-OIG-Report-22-1-008.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Educational-Development-Center-OIG-Report-22-1-008.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.526974+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Ellen-Ochoa-April-2021-NSB-testimony.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Ellen-Ochoa-April-2021-NSB-testimony.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Ellen-Ochoa-April-2021-NSB-testimony.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.527868+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Envisioning-The-Future-of-EPSCoR-Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Envisioning-The-Future-of-EPSCoR-Report.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Envisioning-The-Future-of-EPSCoR-Report.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.531443+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Evaluation%20of%20the%20National%20Sciece%20Foundation%27s%20International%20Research%20Experiences%20for%20Students%20%28IRES%29%20Program.pdf?VersionId=vuL.tNYzsDFY9SfTn9vSrW_GkIZ9CkUS
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/Evaluation%20of%20the%20National%20Sciece%20Foundation%27s%20International%20Research%20Experiences%20for%20Students%20%28IRES%29%20Program.pdf?VersionId=vuL.tNYzsDFY9SfTn9vSrW_GkIZ9CkUS
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Evaluation%20of%20the%20National%20Sciece%20Foundation%27s%20International%20Research%20Experiences%20for%20Students%20%28IRES%29%20Program.pdf?VersionId=vuL.tNYzsDFY9SfTn9vSrW_GkIZ9CkUS (crawled 1 day(s) ago at 2026-03-10T01:18:24.533099+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Evaluation-Policy-Update-Feb-2025-Final-508c.pdf?VersionId=qQTKI2C3MDmrLkCP63z4gBrz1MBcs8yW
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Evaluation-Policy-Update-Feb-2025-Final-508c.pdf?VersionId=qQTKI2C3MDmrLkCP63z4gBrz1MBcs8yW
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Evaluation-Policy-Update-Feb-2025-Final-508c.pdf?VersionId=qQTKI2C3MDmrLkCP63z4gBrz1MBcs8yW (crawled 1 day(s) ago at 2026-03-10T01:18:24.536433+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Example_Budget.xlsx
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/Example_Budget.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Example_Budget.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:24.536718+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FY-2022-MeritReviewDigest.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FY-2022-MeritReviewDigest.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/FY-2022-MeritReviewDigest.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.538778+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FY-2022-MeritReviewDigest.pdf?VersionId=TJ_XQB1CEOol64zsBiUyFEId02TQK4wg
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FY-2022-MeritReviewDigest.pdf?VersionId=TJ_XQB1CEOol64zsBiUyFEId02TQK4wg
+- **Status**: error
+- File not found: crawled_files/nsf.gov/FY-2022-MeritReviewDigest.pdf?VersionId=TJ_XQB1CEOol64zsBiUyFEId02TQK4wg (crawled 1 day(s) ago at 2026-03-10T01:18:24.540793+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FY-2023-MeritReviewDigest.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FY-2023-MeritReviewDigest.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/FY-2023-MeritReviewDigest.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.542759+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FY-2023-MeritReviewDigest.pdf?VersionId=3sAgeSb0hEErbqkmbPj3gBu5I7QSzCSO
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FY-2023-MeritReviewDigest.pdf?VersionId=3sAgeSb0hEErbqkmbPj3gBu5I7QSzCSO
+- **Status**: error
+- File not found: crawled_files/nsf.gov/FY-2023-MeritReviewDigest.pdf?VersionId=3sAgeSb0hEErbqkmbPj3gBu5I7QSzCSO (crawled 1 day(s) ago at 2026-03-10T01:18:24.544815+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FY2021_MeritReviewDigest_data_v1.xlsx?VersionId=PMD_R_ZADz5qXpmNR9mGtyybKXi9dLKR
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-06/FY2021_MeritReviewDigest_data_v1.xlsx?VersionId=PMD_R_ZADz5qXpmNR9mGtyybKXi9dLKR
+- **Status**: error
+- File not found: crawled_files/nsf.gov/FY2021_MeritReviewDigest_data_v1.xlsx?VersionId=PMD_R_ZADz5qXpmNR9mGtyybKXi9dLKR (crawled 1 day(s) ago at 2026-03-10T01:18:24.545288+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FY2022-MeritReviewDigestData.xlsx?VersionId=bRMNXycZ4UWPXlcaDXZaqLS1X_ueDaqx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FY2022-MeritReviewDigestData.xlsx?VersionId=bRMNXycZ4UWPXlcaDXZaqLS1X_ueDaqx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/FY2022-MeritReviewDigestData.xlsx?VersionId=bRMNXycZ4UWPXlcaDXZaqLS1X_ueDaqx (crawled 1 day(s) ago at 2026-03-10T01:18:24.550379+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FY2023-MeritReviewDigestData.xlsx?VersionId=EXgw_HXWJQeLuQ_7oIsQgOHWMX8r9yo8
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FY2023-MeritReviewDigestData.xlsx?VersionId=EXgw_HXWJQeLuQ_7oIsQgOHWMX8r9yo8
+- **Status**: error
+- File not found: crawled_files/nsf.gov/FY2023-MeritReviewDigestData.xlsx?VersionId=EXgw_HXWJQeLuQ_7oIsQgOHWMX8r9yo8 (crawled 1 day(s) ago at 2026-03-10T01:18:24.550871+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FY24_Final_Report_from_Budget_Request.pdf?VersionId=uJo.GaRk0Lsykc6LfEMO1tMU4LpmeEA5
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FY24_Final_Report_from_Budget_Request.pdf?VersionId=uJo.GaRk0Lsykc6LfEMO1tMU4LpmeEA5
+- **Status**: error
+- File not found: crawled_files/nsf.gov/FY24_Final_Report_from_Budget_Request.pdf?VersionId=uJo.GaRk0Lsykc6LfEMO1tMU4LpmeEA5 (crawled 1 day(s) ago at 2026-03-10T01:18:24.551451+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FY_2021_Merit_Review_Digest_0.pdf?VersionId=HDLLbZ41I2agTnZ6QnIFaeNA2XY1YHEv
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-06/FY_2021_Merit_Review_Digest_0.pdf?VersionId=HDLLbZ41I2agTnZ6QnIFaeNA2XY1YHEv
+- **Status**: error
+- File not found: crawled_files/nsf.gov/FY_2021_Merit_Review_Digest_0.pdf?VersionId=HDLLbZ41I2agTnZ6QnIFaeNA2XY1YHEv (crawled 1 day(s) ago at 2026-03-10T01:18:24.562014+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Fast_Track.pdf
+
+- **URL**: https://seedfund.nsf.gov/assets/files/applicants/Fast_Track.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Fast_Track.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.565125+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### GC-1-20181022-r.pdf?VersionId=3uN55DGv87RCqMgNgXmXMf5L.xdl3Ipl
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/GC-1-20181022-r.pdf?VersionId=3uN55DGv87RCqMgNgXmXMf5L.xdl3Ipl
+- **Status**: error
+- File not found: crawled_files/nsf.gov/GC-1-20181022-r.pdf?VersionId=3uN55DGv87RCqMgNgXmXMf5L.xdl3Ipl (crawled 1 day(s) ago at 2026-03-10T01:18:24.565956+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### GC-1-20190225-r.pdf?VersionId=ZhP3OxOZ3vWiHAaEj488w9EaO8h.BATQ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/GC-1-20190225-r.pdf?VersionId=ZhP3OxOZ3vWiHAaEj488w9EaO8h.BATQ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/GC-1-20190225-r.pdf?VersionId=ZhP3OxOZ3vWiHAaEj488w9EaO8h.BATQ (crawled 1 day(s) ago at 2026-03-10T01:18:24.567057+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### GC-1-20201112-r.pdf?VersionId=BDo8O60OIfSnS4FfqXALOMWuKP39H_A0
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/GC-1-20201112-r.pdf?VersionId=BDo8O60OIfSnS4FfqXALOMWuKP39H_A0
+- **Status**: error
+- File not found: crawled_files/nsf.gov/GC-1-20201112-r.pdf?VersionId=BDo8O60OIfSnS4FfqXALOMWuKP39H_A0 (crawled 1 day(s) ago at 2026-03-10T01:18:24.568161+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### GC-1-20220522-r.pdf?VersionId=CcddIoQWPIIoXFf8_ThsDkINpkBp6tvd
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/GC-1-20220522-r.pdf?VersionId=CcddIoQWPIIoXFf8_ThsDkINpkBp6tvd
+- **Status**: error
+- File not found: crawled_files/nsf.gov/GC-1-20220522-r.pdf?VersionId=CcddIoQWPIIoXFf8_ThsDkINpkBp6tvd (crawled 1 day(s) ago at 2026-03-10T01:18:24.569245+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### GC-1-changes-20230130-r.pdf?VersionId=wbZzz.PxUnCmCtZHQ1AVbW7P9I3fLhCv
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/GC-1-changes-20230130-r.pdf?VersionId=wbZzz.PxUnCmCtZHQ1AVbW7P9I3fLhCv
+- **Status**: error
+- File not found: crawled_files/nsf.gov/GC-1-changes-20230130-r.pdf?VersionId=wbZzz.PxUnCmCtZHQ1AVbW7P9I3fLhCv (crawled 1 day(s) ago at 2026-03-10T01:18:24.569883+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### GEO_OSE_program_webinar_NSF_23-534_public.pdf?VersionId=Kyg.KiAv3Pd5y8SeoVr7OFzHj6zXfZPx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/306509/public/GEO_OSE_program_webinar_NSF_23-534_public.pdf?VersionId=Kyg.KiAv3Pd5y8SeoVr7OFzHj6zXfZPx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/GEO_OSE_program_webinar_NSF_23-534_public.pdf?VersionId=Kyg.KiAv3Pd5y8SeoVr7OFzHj6zXfZPx (crawled 1 day(s) ago at 2026-03-10T01:18:24.571745+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Generating%20Evidence%20for%20Decision%20Making%20with%20US%20National%20Science%20Foundation%20Education%20and%20Training%20Application.pdf?VersionId=LdvFmuSi0MJQYr5nLwErP3QPZFVHlRao
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Generating%20Evidence%20for%20Decision%20Making%20with%20US%20National%20Science%20Foundation%20Education%20and%20Training%20Application.pdf?VersionId=LdvFmuSi0MJQYr5nLwErP3QPZFVHlRao
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Generating%20Evidence%20for%20Decision%20Making%20with%20US%20National%20Science%20Foundation%20Education%20and%20Training%20Application.pdf?VersionId=LdvFmuSi0MJQYr5nLwErP3QPZFVHlRao (crawled 1 day(s) ago at 2026-03-10T01:18:24.578302+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Generating%20Evidence%20for%20Decision%20Making%20with%20US%20National%20Science%20Foundation%20Education%20and%20Training%20Application_0.pdf?VersionId=AswL.dWKoKFd1hhhpxZaw0tLCzktLAj0
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Generating%20Evidence%20for%20Decision%20Making%20with%20US%20National%20Science%20Foundation%20Education%20and%20Training%20Application_0.pdf?VersionId=AswL.dWKoKFd1hhhpxZaw0tLCzktLAj0
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Generating%20Evidence%20for%20Decision%20Making%20with%20US%20National%20Science%20Foundation%20Education%20and%20Training%20Application_0.pdf?VersionId=AswL.dWKoKFd1hhhpxZaw0tLCzktLAj0 (crawled 1 day(s) ago at 2026-03-10T01:18:24.584862+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%204%202021-r.pdf?VersionId=fyOpabNoIAyvryWzpGLCVTZ3F6L_QAfa
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%204%202021-r.pdf?VersionId=fyOpabNoIAyvryWzpGLCVTZ3F6L_QAfa
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%204%202021-r.pdf?VersionId=fyOpabNoIAyvryWzpGLCVTZ3F6L_QAfa (crawled 1 day(s) ago at 2026-03-10T01:18:24.585932+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi (crawled 1 day(s) ago at 2026-03-10T01:18:24.587007+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### HAC-CJS-Panchanathan-FY23testimony_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/HAC-CJS-Panchanathan-FY23testimony_0.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/HAC-CJS-Panchanathan-FY23testimony_0.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.587572+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
+- **Status**: error
+- File not found: crawled_files/nsf.gov/HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY (crawled 1 day(s) ago at 2026-03-10T01:18:24.588116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### IISOfficehours-for-phds-postdocs_Complaint.pptx?VersionId=18cBBnY_z9wHGwULoNFPnzD7d2lfFyTL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/307780/public/IISOfficehours-for-phds-postdocs_Complaint.pptx?VersionId=18cBBnY_z9wHGwULoNFPnzD7d2lfFyTL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/IISOfficehours-for-phds-postdocs_Complaint.pptx?VersionId=18cBBnY_z9wHGwULoNFPnzD7d2lfFyTL (crawled 1 day(s) ago at 2026-03-10T01:18:24.598908+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### IRES-REU-full%20report.pdf?VersionId=G0nbO49GnRhZThwPmy021Vvs3ZIn5cdh
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/IRES-REU-full%20report.pdf?VersionId=G0nbO49GnRhZThwPmy021Vvs3ZIn5cdh
+- **Status**: error
+- File not found: crawled_files/nsf.gov/IRES-REU-full%20report.pdf?VersionId=G0nbO49GnRhZThwPmy021Vvs3ZIn5cdh (crawled 1 day(s) ago at 2026-03-10T01:18:24.602433+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### IRIS-OIG-Report-23-1-005.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/IRIS-OIG-Report-23-1-005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/IRIS-OIG-Report-23-1-005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.603077+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-ALASKA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-ALASKA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-ALASKA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.603769+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-ARIZONA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-ARIZONA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-ARIZONA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.604505+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-ARKANSAS.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-ARKANSAS.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-ARKANSAS.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.605241+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-CALIFORNIA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-CALIFORNIA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-CALIFORNIA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.605995+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-COLORADO.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-COLORADO.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-COLORADO.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.606759+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-CONNECTICUT.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-CONNECTICUT.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-CONNECTICUT.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.607510+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-DC.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-DC.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-DC.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.608233+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-DELAWARE.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-DELAWARE.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-DELAWARE.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.608980+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-FLORIDA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-FLORIDA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-FLORIDA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.609725+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-GEORGIA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-GEORGIA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-GEORGIA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.610457+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-HAWAII.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-HAWAII.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-HAWAII.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.611168+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-IDAHO.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-IDAHO.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-IDAHO.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.611871+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-ILLINOIS.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-ILLINOIS.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-ILLINOIS.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.612589+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-INDIANA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-INDIANA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-INDIANA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.613313+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-IOWA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-IOWA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-IOWA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.614024+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-KANSAS.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-KANSAS.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-KANSAS.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.614729+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-KENTUCKY.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-KENTUCKY.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-KENTUCKY.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.615449+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-LOUISIANA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-LOUISIANA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-LOUISIANA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.616186+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-MAINE.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-MAINE.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-MAINE.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.617039+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-MARYLAND.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-MARYLAND.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-MARYLAND.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.617750+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-MASSACHUSETTS.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-MASSACHUSETTS.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-MASSACHUSETTS.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.618564+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-MICHIGAN.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-MICHIGAN.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-MICHIGAN.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.619274+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-MINNESOTA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-MINNESOTA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-MINNESOTA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.619985+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-MISSISSIPPI.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-MISSISSIPPI.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-MISSISSIPPI.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.620686+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-MISSOURI.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-MISSOURI.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-MISSOURI.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.621392+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-MONTANA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-MONTANA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-MONTANA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.622095+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-NEBRASKA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-NEBRASKA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-NEBRASKA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.622786+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-NEVADA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-NEVADA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-NEVADA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.623487+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-NEW-HAMPSHIRE.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-NEW-HAMPSHIRE.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-NEW-HAMPSHIRE.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.624211+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-NEW-JERSEY.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-NEW-JERSEY.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-NEW-JERSEY.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.624911+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-NEW-MEXICO.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-NEW-MEXICO.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-NEW-MEXICO.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.625613+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-NEW-YORK.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-NEW-YORK.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-NEW-YORK.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.626319+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-NORTH-CAROLINA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-NORTH-CAROLINA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-NORTH-CAROLINA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.627024+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-NORTH-DAKOTA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-NORTH-DAKOTA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-NORTH-DAKOTA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.627795+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-OHIO.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-OHIO.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-OHIO.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.628583+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-OKLAHOMA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-OKLAHOMA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-OKLAHOMA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.629369+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-OREGON.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-OREGON.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-OREGON.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.630154+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-PENNSYLVANIA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-PENNSYLVANIA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-PENNSYLVANIA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.630968+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-RHODE-ISLAND.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-RHODE-ISLAND.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-RHODE-ISLAND.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.631748+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-SOUTH-CAROLINA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-SOUTH-CAROLINA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-SOUTH-CAROLINA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.632544+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-SOUTH-DAKOTA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-SOUTH-DAKOTA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-SOUTH-DAKOTA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.633381+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-TENNESSEE.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-TENNESSEE.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-TENNESSEE.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.634178+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-TEXAS.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-TEXAS.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-TEXAS.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.634988+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-UTAH.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-UTAH.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-UTAH.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.635770+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-VERMONT.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-VERMONT.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-VERMONT.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.636566+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-VIRGINIA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-VIRGINIA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-VIRGINIA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.637383+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-WASHINGTON.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-WASHINGTON.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-WASHINGTON.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.638143+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-WEST-VIRGINIA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-WEST-VIRGINIA.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-WEST-VIRGINIA.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.638982+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-WISCONSIN.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-WISCONSIN.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-WISCONSIN.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.639775+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Indicators-WYOMING.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-WYOMING.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Indicators-WYOMING.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.640558+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Iowa-State-University-OIG-Report-24-1-012.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Iowa-State-University-OIG-Report-24-1-012.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Iowa-State-University-OIG-Report-24-1-012.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.641199+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Merit-Review-Changing-Landscape-2025.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Merit-Review-Changing-Landscape-2025.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Merit-Review-Changing-Landscape-2025.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.656498+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Merit-Review-Changing-Landscape-2025.pdf?VersionId=YYGYSNvNKnW0JQTiji_iPHFXYDLPa0Xk
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Merit-Review-Changing-Landscape-2025.pdf?VersionId=YYGYSNvNKnW0JQTiji_iPHFXYDLPa0Xk
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Merit-Review-Changing-Landscape-2025.pdf?VersionId=YYGYSNvNKnW0JQTiji_iPHFXYDLPa0Xk (crawled 1 day(s) ago at 2026-03-10T01:18:24.671618+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Montana-State-University-OIG-Report-24-1-006.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Montana-State-University-OIG-Report-24-1-006.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Montana-State-University-OIG-Report-24-1-006.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.672154+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-2-Year-Progress-Update.pdf?VersionId=rPBRmrQGywlcbucdkNLSHgOWcYlUV1ZT
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-2-Year-Progress-Update.pdf?VersionId=rPBRmrQGywlcbucdkNLSHgOWcYlUV1ZT
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-2-Year-Progress-Update.pdf?VersionId=rPBRmrQGywlcbucdkNLSHgOWcYlUV1ZT (crawled 1 day(s) ago at 2026-03-10T01:18:24.685437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse (crawled 1 day(s) ago at 2026-03-10T01:18:24.685902+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS (crawled 1 day(s) ago at 2026-03-10T01:18:24.686447+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b (crawled 1 day(s) ago at 2026-03-10T01:18:24.686973+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa (crawled 1 day(s) ago at 2026-03-10T01:18:24.687427+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo (crawled 1 day(s) ago at 2026-03-10T01:18:24.687906+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I (crawled 1 day(s) ago at 2026-03-10T01:18:24.688520+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw (crawled 1 day(s) ago at 2026-03-10T01:18:24.689060+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP (crawled 1 day(s) ago at 2026-03-10T01:18:24.689547+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF (crawled 1 day(s) ago at 2026-03-10T01:18:24.689998+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw (crawled 1 day(s) ago at 2026-03-10T01:18:24.690550+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv (crawled 1 day(s) ago at 2026-03-10T01:18:24.691078+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe (crawled 1 day(s) ago at 2026-03-10T01:18:24.694506+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ (crawled 1 day(s) ago at 2026-03-10T01:18:24.695022+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD (crawled 1 day(s) ago at 2026-03-10T01:18:24.695571+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89 (crawled 1 day(s) ago at 2026-03-10T01:18:24.696111+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh (crawled 1 day(s) ago at 2026-03-10T01:18:24.696616+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI (crawled 1 day(s) ago at 2026-03-10T01:18:24.697144+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx (crawled 1 day(s) ago at 2026-03-10T01:18:24.697636+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS (crawled 1 day(s) ago at 2026-03-10T01:18:24.698146+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q (crawled 1 day(s) ago at 2026-03-10T01:18:24.698685+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O (crawled 1 day(s) ago at 2026-03-10T01:18:24.699178+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s (crawled 1 day(s) ago at 2026-03-10T01:18:24.699675+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ (crawled 1 day(s) ago at 2026-03-10T01:18:24.700253+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl (crawled 1 day(s) ago at 2026-03-10T01:18:24.701672+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY (crawled 1 day(s) ago at 2026-03-10T01:18:24.704256+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu (crawled 1 day(s) ago at 2026-03-10T01:18:24.706506+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK (crawled 1 day(s) ago at 2026-03-10T01:18:24.708253+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx (crawled 1 day(s) ago at 2026-03-10T01:18:24.714772+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ (crawled 1 day(s) ago at 2026-03-10T01:18:24.736040+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe (crawled 1 day(s) ago at 2026-03-10T01:18:24.737963+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL (crawled 1 day(s) ago at 2026-03-10T01:18:24.743927+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35 (crawled 1 day(s) ago at 2026-03-10T01:18:24.747102+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs (crawled 1 day(s) ago at 2026-03-10T01:18:24.789592+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO (crawled 1 day(s) ago at 2026-03-10T01:18:24.793431+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-09/NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c (crawled 1 day(s) ago at 2026-03-10T01:18:24.797850+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NDL%20Exploratory%20Analysis%20Memo_508c_0.pdf?VersionId=y0wqzEgYNyLfb5l.NOa6ji5iCJ3QO1g3
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/NDL%20Exploratory%20Analysis%20Memo_508c_0.pdf?VersionId=y0wqzEgYNyLfb5l.NOa6ji5iCJ3QO1g3
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NDL%20Exploratory%20Analysis%20Memo_508c_0.pdf?VersionId=y0wqzEgYNyLfb5l.NOa6ji5iCJ3QO1g3 (crawled 1 day(s) ago at 2026-03-10T01:18:24.801105+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NDL%20Literature%20Review%20Final%20508c_0.pdf?VersionId=Nj5cSUmHmRCfh5FnxJV_lFHRn_ZwGNbg
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/NDL%20Literature%20Review%20Final%20508c_0.pdf?VersionId=Nj5cSUmHmRCfh5FnxJV_lFHRn_ZwGNbg
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NDL%20Literature%20Review%20Final%20508c_0.pdf?VersionId=Nj5cSUmHmRCfh5FnxJV_lFHRn_ZwGNbg (crawled 1 day(s) ago at 2026-03-10T01:18:24.805907+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSB-China-2018.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSB-China-2018.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSB-China-2018.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.806838+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSB-Feb25-schedule.pdf?VersionId=iVwB6Oe1NmH2TSNOdJk632j7qgNXsJLr
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSB-Feb25-schedule.pdf?VersionId=iVwB6Oe1NmH2TSNOdJk632j7qgNXsJLr
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSB-Feb25-schedule.pdf?VersionId=iVwB6Oe1NmH2TSNOdJk632j7qgNXsJLr (crawled 1 day(s) ago at 2026-03-10T01:18:24.807343+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSB-Higher-Ed-Public-Good-One-Pager.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSB-Higher-Ed-Public-Good-One-Pager.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSB-Higher-Ed-Public-Good-One-Pager.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.808695+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSB-SEI-Foreign-Born.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSB-SEI-Foreign-Born.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSB-SEI-Foreign-Born.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.809171+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSB-STEM-workforce-1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSB-STEM-workforce-1.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSB-STEM-workforce-1.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.810529+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSB-STEM-workforce-2.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSB-STEM-workforce-2.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSB-STEM-workforce-2.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.811319+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSB-STW-One-Pager.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSB-STW-One-Pager.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSB-STW-One-Pager.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.812836+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSB-Vision-2030-One-Pager.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSB-Vision-2030-One-Pager.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSB-Vision-2030-One-Pager.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.816690+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF%20Annual%20Evaluation%20Plan%20FY2023%20Final.pdf?VersionId=KKWVtXsq_VLEUk6k7HHP8hcLbsLzHXpj
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/NSF%20Annual%20Evaluation%20Plan%20FY2023%20Final.pdf?VersionId=KKWVtXsq_VLEUk6k7HHP8hcLbsLzHXpj
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF%20Annual%20Evaluation%20Plan%20FY2023%20Final.pdf?VersionId=KKWVtXsq_VLEUk6k7HHP8hcLbsLzHXpj (crawled 1 day(s) ago at 2026-03-10T01:18:24.832110+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF%20Anti-harassment%20Findings_TechnicalAppendix_508compliant_0.pdf?VersionId=3S5ciGgmZHu3svIR09lIBmYmPoVgRs75
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/NSF%20Anti-harassment%20Findings_TechnicalAppendix_508compliant_0.pdf?VersionId=3S5ciGgmZHu3svIR09lIBmYmPoVgRs75
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF%20Anti-harassment%20Findings_TechnicalAppendix_508compliant_0.pdf?VersionId=3S5ciGgmZHu3svIR09lIBmYmPoVgRs75 (crawled 1 day(s) ago at 2026-03-10T01:18:24.833677+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF%20Capacity%20Assessment%20Report%20Final%20March%202022.pdf?VersionId=4Blzi8gxBmxs3E7FTs9TYBTSA6HCHnXh
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/NSF%20Capacity%20Assessment%20Report%20Final%20March%202022.pdf?VersionId=4Blzi8gxBmxs3E7FTs9TYBTSA6HCHnXh
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF%20Capacity%20Assessment%20Report%20Final%20March%202022.pdf?VersionId=4Blzi8gxBmxs3E7FTs9TYBTSA6HCHnXh (crawled 1 day(s) ago at 2026-03-10T01:18:24.845515+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF%20Evaluation%20Plan%20FY%202024%20FINAL.pdf?VersionId=Iu6pR7KVwlGcNWiEUFlTbHyHpVT_ZEKf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-03/NSF%20Evaluation%20Plan%20FY%202024%20FINAL.pdf?VersionId=Iu6pR7KVwlGcNWiEUFlTbHyHpVT_ZEKf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF%20Evaluation%20Plan%20FY%202024%20FINAL.pdf?VersionId=Iu6pR7KVwlGcNWiEUFlTbHyHpVT_ZEKf (crawled 1 day(s) ago at 2026-03-10T01:18:24.877820+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2021-11/NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf
+- **Status**: analysed
+- title, 
+
+### NSF%20IDSS.pdf?VersionId=KSLD0pffarWPie1UYUL9VpSh8EDuYyRd
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20IDSS.pdf?VersionId=KSLD0pffarWPie1UYUL9VpSh8EDuYyRd
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF%20IDSS.pdf?VersionId=KSLD0pffarWPie1UYUL9VpSh8EDuYyRd (crawled 1 day(s) ago at 2026-03-10T01:18:24.880136+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF%20Proposed%20Nonavailability%20Waiver%20MiniSplit.pdf?VersionId=AZl4ZP3GrTcaolhhXK9iBjZBS566jN_8
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20Proposed%20Nonavailability%20Waiver%20MiniSplit.pdf?VersionId=AZl4ZP3GrTcaolhhXK9iBjZBS566jN_8
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF%20Proposed%20Nonavailability%20Waiver%20MiniSplit.pdf?VersionId=AZl4ZP3GrTcaolhhXK9iBjZBS566jN_8 (crawled 1 day(s) ago at 2026-03-10T01:18:24.880820+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-AICA-Report.pdf?VersionId=fMKedEWHRFXwH9bucczW7x7WKAUEam5Z
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-AICA-Report.pdf?VersionId=fMKedEWHRFXwH9bucczW7x7WKAUEam5Z
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-AICA-Report.pdf?VersionId=fMKedEWHRFXwH9bucczW7x7WKAUEam5Z (crawled 1 day(s) ago at 2026-03-10T01:18:24.884300+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-Acquisition-Forecast.pdf?VersionId=NySGCdRfvnaFBH3IojSeqFFLmgMS0DEv
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-10/NSF-Acquisition-Forecast.pdf?VersionId=NySGCdRfvnaFBH3IojSeqFFLmgMS0DEv
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-Acquisition-Forecast.pdf?VersionId=NySGCdRfvnaFBH3IojSeqFFLmgMS0DEv (crawled 1 day(s) ago at 2026-03-10T01:18:24.885262+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-FY2026-Annual-Evaluation-Plan.pdf?VersionId=PqHpqu3Hf71IC_zH5Es3urdfbv_EwRpA
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-FY2026-Annual-Evaluation-Plan.pdf?VersionId=PqHpqu3Hf71IC_zH5Es3urdfbv_EwRpA
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-FY2026-Annual-Evaluation-Plan.pdf?VersionId=PqHpqu3Hf71IC_zH5Es3urdfbv_EwRpA (crawled 1 day(s) ago at 2026-03-10T01:18:24.885735+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-FY25-Annual-%20Evaluation-and-Evidence-Plan%20FINAL.pdf?VersionId=6IhhufEYoT2waJZQYxZNCWb1zCN.8D_o
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-FY25-Annual-%20Evaluation-and-Evidence-Plan%20FINAL.pdf?VersionId=6IhhufEYoT2waJZQYxZNCWb1zCN.8D_o
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-FY25-Annual-%20Evaluation-and-Evidence-Plan%20FINAL.pdf?VersionId=6IhhufEYoT2waJZQYxZNCWb1zCN.8D_o (crawled 1 day(s) ago at 2026-03-10T01:18:24.903495+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-OIG-Response-Fall-2021.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-OIG-Response-Fall-2021.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-OIG-Response-Fall-2021.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.905593+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-OIG-Response-Fall-2022.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-OIG-Response-Fall-2022.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-OIG-Response-Fall-2022.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.910334+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-OIG-Response-Fall-2023.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-OIG-Response-Fall-2023.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-OIG-Response-Fall-2023.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.911989+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-OIG-Response-Fall-2024.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-OIG-Response-Fall-2024.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-OIG-Response-Fall-2024.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.913029+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-OIG-Response-Spring-2021.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-OIG-Response-Spring-2021.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-OIG-Response-Spring-2021.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.916521+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-OIG-Response-Spring-2022.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-OIG-Response-Spring-2022.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-OIG-Response-Spring-2022.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.917821+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-OIG-Response-Spring-2023.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-OIG-Response-Spring-2023.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-OIG-Response-Spring-2023.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.919437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-OIG-Response-Spring-2024.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-OIG-Response-Spring-2024.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-OIG-Response-Spring-2024.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.923615+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-Organizational-Chart.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-Organizational-Chart.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-Organizational-Chart.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.923974+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF-international-research-terms-conditions-20210104-r.pdf?VersionId=kl4eWweyPgPYp16Vn7W4CMwPBTCWq3b2
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-international-research-terms-conditions-20210104-r.pdf?VersionId=kl4eWweyPgPYp16Vn7W4CMwPBTCWq3b2
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF-international-research-terms-conditions-20210104-r.pdf?VersionId=kl4eWweyPgPYp16Vn7W4CMwPBTCWq3b2 (crawled 1 day(s) ago at 2026-03-10T01:18:24.924992+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSFAnti-HarassmentES_0.pdf?VersionId=OW7tYGjLTAzzm0GKDUxFMbBC5_Rr9PLQ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/NSFAnti-HarassmentES_0.pdf?VersionId=OW7tYGjLTAzzm0GKDUxFMbBC5_Rr9PLQ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSFAnti-HarassmentES_0.pdf?VersionId=OW7tYGjLTAzzm0GKDUxFMbBC5_Rr9PLQ (crawled 1 day(s) ago at 2026-03-10T01:18:24.925915+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSFPlainLanguageReport_508c.pdf?VersionId=brknYsxCuYi5CpL12keP6W2Z6ZETg58G
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSFPlainLanguageReport_508c.pdf?VersionId=brknYsxCuYi5CpL12keP6W2Z6ZETg58G
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSFPlainLanguageReport_508c.pdf?VersionId=brknYsxCuYi5CpL12keP6W2Z6ZETg58G (crawled 1 day(s) ago at 2026-03-10T01:18:24.932310+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF_Annual_Evaluation_Plan_FY22_0.pdf?VersionId=wJ1gDGfUCu6NGvc2T2wW5_LGwjjGuKL2
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/NSF_Annual_Evaluation_Plan_FY22_0.pdf?VersionId=wJ1gDGfUCu6NGvc2T2wW5_LGwjjGuKL2
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF_Annual_Evaluation_Plan_FY22_0.pdf?VersionId=wJ1gDGfUCu6NGvc2T2wW5_LGwjjGuKL2 (crawled 1 day(s) ago at 2026-03-10T01:18:24.934902+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF_FOIA_Reading_Room_Certification.pdf?VersionId=aaxeul47Hz8x7lUm3lr4ieu3uNTTfJ.u
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF_FOIA_Reading_Room_Certification.pdf?VersionId=aaxeul47Hz8x7lUm3lr4ieu3uNTTfJ.u
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF_FOIA_Reading_Room_Certification.pdf?VersionId=aaxeul47Hz8x7lUm3lr4ieu3uNTTfJ.u (crawled 1 day(s) ago at 2026-03-10T01:18:24.935183+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF_FY22-FY26%20Learning%20Agenda%20Final.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-04/NSF_FY22-FY26%20Learning%20Agenda%20Final.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF_FY22-FY26%20Learning%20Agenda%20Final.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.948497+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF_Interim_Report_Fillable.pdf
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/NSF_Interim_Report_Fillable.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF_Interim_Report_Fillable.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.950299+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF_Management_Response_for_OIG_Fall_2025Sem.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF_Management_Response_for_OIG_Fall_2025Sem.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF_Management_Response_for_OIG_Fall_2025Sem.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.950969+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF_Management_Response_to_the_OIG_Semiannual.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF_Management_Response_to_the_OIG_Semiannual.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF_Management_Response_to_the_OIG_Semiannual.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.951721+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Response_to_Festivus_Report_2020.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2020.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Response_to_Senator_Ernsts_December_2022_Squeal_Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Ernsts_December_2022_Squeal_Report.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Response_to_Senator_Ernsts_May_2021_Make_em_Squeal_Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Ernsts_May_2021_Make_em_Squeal_Report.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Response_to_Senator_Flakes_Twenty_Questions_Government_Studies.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Flakes_Twenty_Questions_Government_Studies.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NSF_Response_to_Senator_Flakes_Wastebooke_The_Farce_Awakens.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Flakes_Wastebooke_The_Farce_Awakens.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Response_to_Senator_Lankfords_Federal_Fumbles.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Lankfords_Federal_Fumbles.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol2.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol2.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol5.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Lankfords_Federal_Fumbles_Vol5.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Response_to_Senator_McCains_Americas_Most_Wasted_Runaway_Spending.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_McCains_Americas_Most_Wasted_Runaway_Spending.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Response_to_Senator_Pauls_February_2016_Waste_Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_February_2016_Waste_Report.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_SBIR_Ambassador_Toolkit.pdf
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/NSF_SBIR_Ambassador_Toolkit.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF_SBIR_Ambassador_Toolkit.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.966534+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### NSF_act_1950_legislation.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/NSF_act_1950_legislation.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/NSF_act_1950_legislation.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.966818+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### National-AI-Research-Resource-Task-Force-Charter-2021.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/National-AI-Research-Resource-Task-Force-Charter-2021.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/National-AI-Research-Resource-Task-Force-Charter-2021.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.967307+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Northeastern-University-OIG-Report-25-1-005.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Northeastern-University-OIG-Report-25-1-005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Northeastern-University-OIG-Report-25-1-005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.967836+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Oregon-University-OIG-Report-19-1-017.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Oregon-University-OIG-Report-19-1-017.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Oregon-University-OIG-Report-19-1-017.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.968652+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PIA-2023-and-2025-Survey-of-Doctorate-Recipients.pdf?VersionId=sbNCZ_Y01VT4XBcFKQQuzOwNZtFppdVZ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/PIA-2023-and-2025-Survey-of-Doctorate-Recipients.pdf?VersionId=sbNCZ_Y01VT4XBcFKQQuzOwNZtFppdVZ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/PIA-2023-and-2025-Survey-of-Doctorate-Recipients.pdf?VersionId=sbNCZ_Y01VT4XBcFKQQuzOwNZtFppdVZ (crawled 1 day(s) ago at 2026-03-10T01:18:24.969591+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PIA-MyNSF.pdf?VersionId=bcC3hunPx6rz2YxRzMOIE18IWf64hiuH
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/PIA-MyNSF.pdf?VersionId=bcC3hunPx6rz2YxRzMOIE18IWf64hiuH
+- **Status**: error
+- File not found: crawled_files/nsf.gov/PIA-MyNSF.pdf?VersionId=bcC3hunPx6rz2YxRzMOIE18IWf64hiuH (crawled 1 day(s) ago at 2026-03-10T01:18:24.970247+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PIA-Rgov.pdf?VersionId=JA6EU5ePH74dUTkSnOFmIKNHSgdU9pMF
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/PIA-Rgov.pdf?VersionId=JA6EU5ePH74dUTkSnOFmIKNHSgdU9pMF
+- **Status**: error
+- File not found: crawled_files/nsf.gov/PIA-Rgov.pdf?VersionId=JA6EU5ePH74dUTkSnOFmIKNHSgdU9pMF (crawled 1 day(s) ago at 2026-03-10T01:18:24.971056+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PIA-SESTAT.pdf?VersionId=f574OhiVqtq1NU8vidD0gkPn2fnlExoJ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/PIA-SESTAT.pdf?VersionId=f574OhiVqtq1NU8vidD0gkPn2fnlExoJ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/PIA-SESTAT.pdf?VersionId=f574OhiVqtq1NU8vidD0gkPn2fnlExoJ (crawled 1 day(s) ago at 2026-03-10T01:18:24.971682+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PIA-iTRAK.pdf?VersionId=MS1MreMOO1ndpegyFIu4b8by.NsEljjw
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/PIA-iTRAK.pdf?VersionId=MS1MreMOO1ndpegyFIu4b8by.NsEljjw
+- **Status**: error
+- File not found: crawled_files/nsf.gov/PIA-iTRAK.pdf?VersionId=MS1MreMOO1ndpegyFIu4b8by.NsEljjw (crawled 1 day(s) ago at 2026-03-10T01:18:24.972207+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Phase.II.SBIR-STTR.Project.Schedule.xlsx
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/Phase.II.SBIR-STTR.Project.Schedule.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Phase.II.SBIR-STTR.Project.Schedule.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:24.972469+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Renewal-Site-Visit-Guidelines.pdf?VersionId=MuDQFu0OZeBq.1r7erUTJH8b3LX3Oi3W
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Renewal-Site-Visit-Guidelines.pdf?VersionId=MuDQFu0OZeBq.1r7erUTJH8b3LX3Oi3W
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Renewal-Site-Visit-Guidelines.pdf?VersionId=MuDQFu0OZeBq.1r7erUTJH8b3LX3Oi3W (crawled 1 day(s) ago at 2026-03-10T01:18:24.973183+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Rough-Transcript-CICI.pdf?VersionId=pYmFvazQsyajPitFMB.gkJZCHZ_FZ4lj
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/304910/public/Rough-Transcript-CICI.pdf?VersionId=pYmFvazQsyajPitFMB.gkJZCHZ_FZ4lj
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Rough-Transcript-CICI.pdf?VersionId=pYmFvazQsyajPitFMB.gkJZCHZ_FZ4lj (crawled 1 day(s) ago at 2026-03-10T01:18:24.973630+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.974288+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SBIR-STTR_Revised_Report_Cover.pdf
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/SBIR-STTR_Revised_Report_Cover.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/SBIR-STTR_Revised_Report_Cover.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.975469+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SBIRSTTR%20Sample%20Budget%20Justification%20Jan2024.pdf
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/SBIRSTTR%20Sample%20Budget%20Justification%20Jan2024.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/SBIRSTTR%20Sample%20Budget%20Justification%20Jan2024.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.975891+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SBIR_STTR_Funding_Agreement.pdf
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/SBIR_STTR_Funding_Agreement.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/SBIR_STTR_Funding_Agreement.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.976586+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### STC-Webinar-October-2024-508c.pdf?VersionId=Y2RMEZ2_okk_uyz1MK4XrRCCeODCOGgB
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/310446/public/STC-Webinar-October-2024-508c.pdf?VersionId=Y2RMEZ2_okk_uyz1MK4XrRCCeODCOGgB
+- **Status**: error
+- File not found: crawled_files/nsf.gov/STC-Webinar-October-2024-508c.pdf?VersionId=Y2RMEZ2_okk_uyz1MK4XrRCCeODCOGgB (crawled 1 day(s) ago at 2026-03-10T01:18:24.977629+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### STC-Webinar-Sept-2024-508c.pdf?VersionId=3QbpV7e2Vt7Q4S8R_dmSRW7Ok1VXhiEi
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/310245/public/STC-Webinar-Sept-2024-508c.pdf?VersionId=3QbpV7e2Vt7Q4S8R_dmSRW7Ok1VXhiEi
+- **Status**: error
+- File not found: crawled_files/nsf.gov/STC-Webinar-Sept-2024-508c.pdf?VersionId=3QbpV7e2Vt7Q4S8R_dmSRW7Ok1VXhiEi (crawled 1 day(s) ago at 2026-03-10T01:18:24.978660+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### STC-webinar-Sep2024-508c.pdf?VersionId=GMLEa_tauW5YrOVWwmKpq_Lf0yzoKNPW
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/STC-webinar-Sep2024-508c.pdf?VersionId=GMLEa_tauW5YrOVWwmKpq_Lf0yzoKNPW
+- **Status**: error
+- File not found: crawled_files/nsf.gov/STC-webinar-Sep2024-508c.pdf?VersionId=GMLEa_tauW5YrOVWwmKpq_Lf0yzoKNPW (crawled 1 day(s) ago at 2026-03-10T01:18:25.012035+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### STCwebinarOct24-508c.pdf?VersionId=y7OXu3HHWr6F1xLUn7onIEAhV6FgLg_V
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/STCwebinarOct24-508c.pdf?VersionId=y7OXu3HHWr6F1xLUn7onIEAhV6FgLg_V
+- **Status**: error
+- File not found: crawled_files/nsf.gov/STCwebinarOct24-508c.pdf?VersionId=y7OXu3HHWr6F1xLUn7onIEAhV6FgLg_V (crawled 1 day(s) ago at 2026-03-10T01:18:25.041628+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Semiannual_Report_to_Congress-Fall2025.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Semiannual_Report_to_Congress-Fall2025.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/Semiannual_Report_to_Congress-Fall2025.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.046574+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### USAP-SAHPR-Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/USAP-SAHPR-Report.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/USAP-SAHPR-Report.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.104126+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### University-Alabama-OIG-Audit-24-1-011.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/University-Alabama-OIG-Audit-24-1-011.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/University-Alabama-OIG-Audit-24-1-011.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.105115+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### University-Connecticut-Health-Center-OIG-Report-23-1-010.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/University-Connecticut-Health-Center-OIG-Report-23-1-010.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/University-Connecticut-Health-Center-OIG-Report-23-1-010.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.106527+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### University-Florida-OIG-Report-21-1-004.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/University-Florida-OIG-Report-21-1-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/University-Florida-OIG-Report-21-1-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.107233+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### University-Georgia-OIG-Report-25-1-001.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/University-Georgia-OIG-Report-25-1-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/University-Georgia-OIG-Report-25-1-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.107803+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### University-Maine-OIG-Report-25-1-002.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/University-Maine-OIG-Report-25-1-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/University-Maine-OIG-Report-25-1-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.108473+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### University-New-Hampshire-OIG-Report-24-1-004.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/University-New-Hampshire-OIG-Report-24-1-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/University-New-Hampshire-OIG-Report-24-1-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.109203+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### University-Oklahoma-OIG-Report-24-1-008.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/University-Oklahoma-OIG-Report-24-1-008.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/University-Oklahoma-OIG-Report-24-1-008.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.109766+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### WebinarNSF25-506.pdf?VersionId=ul2SImdau8jVceNB9ldHZAuReHgzsviL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/310618/public/WebinarNSF25-506.pdf?VersionId=ul2SImdau8jVceNB9ldHZAuReHgzsviL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/WebinarNSF25-506.pdf?VersionId=ul2SImdau8jVceNB9ldHZAuReHgzsviL (crawled 1 day(s) ago at 2026-03-10T01:18:25.111874+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### alertmemo_bfaresponse213.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/alertmemo_bfaresponse213.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/alertmemo_bfaresponse213.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.114182+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-201004-unc-chapelhill.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-201004-unc-chapelhill.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-201004-unc-chapelhill.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.115593+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-221002-utdallas.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-221002-utdallas.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-221002-utdallas.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.116299+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-221009-bscs.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-221009-bscs.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-221009-bscs.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.116983+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-221013-mines.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-221013-mines.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-221013-mines.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.117606+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-231003-olemiss.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-231003-olemiss.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-231003-olemiss.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.118289+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-231006-rpi.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-231006-rpi.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-231006-rpi.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.119025+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-231007-osu.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-231007-osu.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-231007-osu.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.119722+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-231009-mbari.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-231009-mbari.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-231009-mbari.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.120459+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-241001-vermont.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-241001-vermont.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-241001-vermont.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.121138+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-241009-vatech.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-241009-vatech.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-241009-vatech.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.121966+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-241010-pitt.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-241010-pitt.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-241010-pitt.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.122694+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-rep-241014-ncstate.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-rep-241014-ncstate.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-rep-241014-ncstate.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.123386+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-report-201005-houston.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-report-201005-houston.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-report-201005-houston.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.123968+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-report-211007-clemson.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-report-211007-clemson.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-report-211007-clemson.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.124702+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### audit-report-231008-sao.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/audit-report-231008-sao.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/audit-report-231008-sao.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.125372+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditr-ep-231004-unc-charlotte.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditr-ep-231004-unc-charlotte.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditr-ep-231004-unc-charlotte.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.126060+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep121005-ucsb-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep121005-ucsb-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep121005-ucsb-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.127111+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep131001and003-uwmad-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep131001and003-uwmad-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep131001and003-uwmad-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.127657+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep131004-cornell-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep131004-cornell-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep131004-cornell-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.128256+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep131005-safod.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep131005-safod.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep131005-safod.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.129374+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep14001-nyu-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep14001-nyu-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep14001-nyu-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.129993+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep141002-vpi-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep141002-vpi-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep141002-vpi-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.130490+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep141004-ucla.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep141004-ucla.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep141004-ucla.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.131719+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep141006-uiuc.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep141006-uiuc.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep141006-uiuc.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.132323+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151002-uafairbanks.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151002-uafairbanks.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151002-uafairbanks.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.132594+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151003-msu.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151003-msu.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151003-msu.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.133075+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151004-uflorida.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151004-uflorida.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151004-uflorida.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.133627+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151012-ucberkeley.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151012-ucberkeley.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151012-ucberkeley.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.134157+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151014-uwmadison.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151014-uwmadison.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151014-uwmadison.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.134622+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151017-gmason.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151017-gmason.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151017-gmason.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.135176+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151019-indianau.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151019-indianau.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151019-indianau.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.135637+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151020-stanford.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151020-stanford.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151020-stanford.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.136142+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151021-fsu.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151021-fsu.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151021-fsu.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.136529+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151022-cmu.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151022-cmu.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151022-cmu.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.136996+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep151023-michtech.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep151023-michtech.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep151023-michtech.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.137428+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep161021-columbia.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep161021-columbia.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep161021-columbia.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.137895+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep161022-georgetown.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep161022-georgetown.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep161022-georgetown.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.138387+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep161023-michigan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep161023-michigan.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep161023-michigan.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.138876+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171001-pennstate.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171001-pennstate.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171001-pennstate.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.139365+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171002-ucdavis.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171002-ucdavis.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171002-ucdavis.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.139877+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171003-purdue.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171003-purdue.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171003-purdue.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.140417+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171004-oregonst.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171004-oregonst.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171004-oregonst.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.140923+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171005-ucsd_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171005-ucsd_0.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171005-ucsd_0.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.141446+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171006-ucsd.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171006-ucsd.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171006-ucsd.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.141965+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171007-raytheon.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171007-raytheon.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171007-raytheon.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.142462+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171008-gtrc.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171008-gtrc.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171008-gtrc.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.143000+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171009-usc.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171009-usc.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171009-usc.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.143517+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep171010-arizona.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep171010-arizona.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep171010-arizona.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.144054+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep181002-texasamees.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep181002-texasamees.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep181002-texasamees.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.144575+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep181003-ncstate.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep181003-ncstate.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep181003-ncstate.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.145098+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep181005-nas.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep181005-nas.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep181005-nas.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.145593+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep181006-mit.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep181006-mit.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep181006-mit.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.146129+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep181007-montana.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep181007-montana.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep181007-montana.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.146642+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep181008-tufts.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep181008-tufts.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep181008-tufts.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.147164+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191001-northwestern.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191001-northwestern.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191001-northwestern.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.147679+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191002-uwyoming.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191002-uwyoming.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191002-uwyoming.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.148271+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191003-csu.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191003-csu.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191003-csu.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.148791+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191004-princeton.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191004-princeton.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191004-princeton.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.149331+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191005-utknox.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191005-utknox.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191005-utknox.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.149842+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191006-minnesota.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191006-minnesota.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191006-minnesota.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.150366+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191007-asu.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191007-asu.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191007-asu.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.150917+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191008-utah.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191008-utah.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191008-utah.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.151524+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191009-ucar.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191009-ucar.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191009-ucar.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.152047+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191011-delaware.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191011-delaware.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191011-delaware.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.152732+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191012-utaustin.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191012-utaustin.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191012-utaustin.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.153257+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191013-upenn.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191013-upenn.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191013-upenn.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.153910+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191014-cincy.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191014-cincy.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191014-cincy.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.154476+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191015-woodshole.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191015-woodshole.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191015-woodshole.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.154961+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep191016-ohiost.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep191016-ohiost.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep191016-ohiost.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.155546+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep196001-uscarolina.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep196001-uscarolina.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep196001-uscarolina.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.156050+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep196002-delaware.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep196002-delaware.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep196002-delaware.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.156551+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep201002-uconn-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep201002-uconn-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep201002-uconn-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.157159+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep201003-jhu-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep201003-jhu-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep201003-jhu-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.157724+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep201006-temple-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep201006-temple-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep201006-temple-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.158403+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep201007-yale-r-1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep201007-yale-r-1.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep201007-yale-r-1.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.159124+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep201008-duke-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep201008-duke-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep201008-duke-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.159958+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep20221213-ucboulder-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep20221213-ucboulder-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep20221213-ucboulder-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.160817+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep206002-wyoming-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep206002-wyoming-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep206002-wyoming-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.161327+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211001-kuresearch-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211001-kuresearch-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211001-kuresearch-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.161954+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211002_tamu.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211002_tamu.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211002_tamu.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.162678+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211003-wyoming-2-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211003-wyoming-2-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211003-wyoming-2-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.163404+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211005-uafairbanks-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211005-uafairbanks-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211005-uafairbanks-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.163989+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211006-uky-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211006-uky-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211006-uky-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.164492+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211010-sunysb-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211010-sunysb-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211010-sunysb-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.165063+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211012-fsu-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211012-fsu-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211012-fsu-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.165609+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211013-uwmadison-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211013-uwmadison-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211013-uwmadison-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.166192+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211015-ucf-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211015-ucf-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211015-ucf-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.166722+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211018-michigan-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211018-michigan-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211018-michigan-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.167240+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep211019_pitt.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep211019_pitt.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep211019_pitt.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.167915+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep221003_ucmerced.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep221003_ucmerced.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep221003_ucmerced.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.168744+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep221004-idaho-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep221004-idaho-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep221004-idaho-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.169372+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep221005-maine-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep221005-maine-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep221005-maine-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.169867+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep221006_calpoly.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep221006_calpoly.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep221006_calpoly.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.170573+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep221010-wvu-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep221010-wvu-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep221010-wvu-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.171223+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep226006-mit-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep226006-mit-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep226006-mit-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.171824+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep241002_arkansas.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep241002_arkansas.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep241002_arkansas.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.172527+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep241003_ndsu.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep241003_ndsu.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep241003_ndsu.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.173181+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep241005_msstate.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep241005_msstate.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep241005_msstate.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.173834+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### auditrep241007_dartmouth.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/auditrep241007_dartmouth.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/auditrep241007_dartmouth.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.174507+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba007.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba007.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba007.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.174822+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba007.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba007.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba007.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.175084+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba008.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba008.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba008.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.175391+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba008.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba008.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba008.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.175639+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba009.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba009.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba009.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.175967+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba009.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba009.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba009.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.176231+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba010.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba010.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba010.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.176666+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba010.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba010.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba010.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.176935+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba011.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba011.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba011.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.177256+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### brdis15-dst-taba011.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf18313/assets/technical-tables/tables/brdis15-dst-taba011.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/brdis15-dst-taba011.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.177505+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-0123-r.pdf?VersionId=1K.qSF90lTpKbcxuWgSunTb3X91SqI_G
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-0123-r.pdf?VersionId=1K.qSF90lTpKbcxuWgSunTb3X91SqI_G
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-0123-r.pdf?VersionId=1K.qSF90lTpKbcxuWgSunTb3X91SqI_G (crawled 1 day(s) ago at 2026-03-10T01:18:25.179071+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-0522-r.pdf?VersionId=vf39f1SR04kRUir60up_Iz3yDy7RVflL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-0522-r.pdf?VersionId=vf39f1SR04kRUir60up_Iz3yDy7RVflL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-0522-r.pdf?VersionId=vf39f1SR04kRUir60up_Iz3yDy7RVflL (crawled 1 day(s) ago at 2026-03-10T01:18:25.180344+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-0523-r.pdf?VersionId=pqmbfmqhuVRRYLXHs2lwwRCHK14H4UEd
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-0523-r.pdf?VersionId=pqmbfmqhuVRRYLXHs2lwwRCHK14H4UEd
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-0523-r.pdf?VersionId=pqmbfmqhuVRRYLXHs2lwwRCHK14H4UEd (crawled 1 day(s) ago at 2026-03-10T01:18:25.181591+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-0524-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-0524-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-0524-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.183293+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-1018-r.pdf?VersionId=hclqwi0UZLHYl0XMbJO8t3B95Xn1bKJD
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-1018-r.pdf?VersionId=hclqwi0UZLHYl0XMbJO8t3B95Xn1bKJD
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-1018-r.pdf?VersionId=hclqwi0UZLHYl0XMbJO8t3B95Xn1bKJD (crawled 1 day(s) ago at 2026-03-10T01:18:25.184337+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-1020-r.pdf?VersionId=i.BL3OG3lO.qtLnMCwS.Vo6Cgiy8Cdqd
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-1020-r.pdf?VersionId=i.BL3OG3lO.qtLnMCwS.Vo6Cgiy8Cdqd
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-1020-r.pdf?VersionId=i.BL3OG3lO.qtLnMCwS.Vo6Cgiy8Cdqd (crawled 1 day(s) ago at 2026-03-10T01:18:25.185473+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-1021-r.pdf?VersionId=7kY9zmwobtgu1NHMloGgT6j_SvTEuSoy
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-1021-r.pdf?VersionId=7kY9zmwobtgu1NHMloGgT6j_SvTEuSoy
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-1021-r.pdf?VersionId=7kY9zmwobtgu1NHMloGgT6j_SvTEuSoy (crawled 1 day(s) ago at 2026-03-10T01:18:25.186615+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-1024-r.pdf?VersionId=saknl32SH8YowbOlrwNXFwPSz4Bn1u1P
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-1024-r.pdf?VersionId=saknl32SH8YowbOlrwNXFwPSz4Bn1u1P
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-1024-r.pdf?VersionId=saknl32SH8YowbOlrwNXFwPSz4Bn1u1P (crawled 1 day(s) ago at 2026-03-10T01:18:25.188090+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-1120-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-1120-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-1120-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.189281+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-121321-r.pdf?VersionId=aj0zCxWja4rN5XjNF0UVuI1dCdmaRcXM
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-121321-r.pdf?VersionId=aj0zCxWja4rN5XjNF0UVuI1dCdmaRcXM
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-121321-r.pdf?VersionId=aj0zCxWja4rN5XjNF0UVuI1dCdmaRcXM (crawled 1 day(s) ago at 2026-03-10T01:18:25.190554+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-20211025-r.pdf?VersionId=42_lPVvBtdDtNmg0p.t_qW8vpIyYyRbH
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-20211025-r.pdf?VersionId=42_lPVvBtdDtNmg0p.t_qW8vpIyYyRbH
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-20211025-r.pdf?VersionId=42_lPVvBtdDtNmg0p.t_qW8vpIyYyRbH (crawled 1 day(s) ago at 2026-03-10T01:18:25.192016+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-219-r.pdf?VersionId=6Sgo0U1huFaRVkj9gr001G7mgTxiNh3y
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-219-r.pdf?VersionId=6Sgo0U1huFaRVkj9gr001G7mgTxiNh3y
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-219-r.pdf?VersionId=6Sgo0U1huFaRVkj9gr001G7mgTxiNh3y (crawled 1 day(s) ago at 2026-03-10T01:18:25.192919+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-525.pdf?VersionId=00hXvbwk6n.WAIe_vaNKtZxpQx9whC4q
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-525.pdf?VersionId=00hXvbwk6n.WAIe_vaNKtZxpQx9whC4q
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-525.pdf?VersionId=00hXvbwk6n.WAIe_vaNKtZxpQx9whC4q (crawled 1 day(s) ago at 2026-03-10T01:18:25.194192+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-changes0123-r.pdf?VersionId=F813JLTNOZt_GkZccrAl4DOePrkYHe9G
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-changes0123-r.pdf?VersionId=F813JLTNOZt_GkZccrAl4DOePrkYHe9G
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-changes0123-r.pdf?VersionId=F813JLTNOZt_GkZccrAl4DOePrkYHe9G (crawled 1 day(s) ago at 2026-03-10T01:18:25.194919+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-changes0523-r.pdf?VersionId=IYzP_u_rSn0qo6cme.Ej4EgEY7.oDJv_
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-changes0523-r.pdf?VersionId=IYzP_u_rSn0qo6cme.Ej4EgEY7.oDJv_
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-changes0523-r.pdf?VersionId=IYzP_u_rSn0qo6cme.Ej4EgEY7.oDJv_ (crawled 1 day(s) ago at 2026-03-10T01:18:25.195421+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-changes0524-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-changes0524-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-changes0524-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.195968+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-mfandffrdc-changes0123-r.pdf?VersionId=Z0iOsvBZX6TcAqyqOg_5fcEh2pt7fX8q
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-mfandffrdc-changes0123-r.pdf?VersionId=Z0iOsvBZX6TcAqyqOg_5fcEh2pt7fX8q
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-mfandffrdc-changes0123-r.pdf?VersionId=Z0iOsvBZX6TcAqyqOg_5fcEh2pt7fX8q (crawled 1 day(s) ago at 2026-03-10T01:18:25.196539+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-mfandffrdc-changes0523-r.pdf?VersionId=vX9ssRVsp_rw3_tLz3rhKsHRilcJv6hU
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-mfandffrdc-changes0523-r.pdf?VersionId=vX9ssRVsp_rw3_tLz3rhKsHRilcJv6hU
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-mfandffrdc-changes0523-r.pdf?VersionId=vX9ssRVsp_rw3_tLz3rhKsHRilcJv6hU (crawled 1 day(s) ago at 2026-03-10T01:18:25.197132+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-mfandffrdc-changes0524-r.pdf?VersionId=jRlLYUGSr5UzqK.kTlUc_7zS7oVyfZTp
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-mfandffrdc-changes0524-r.pdf?VersionId=jRlLYUGSr5UzqK.kTlUc_7zS7oVyfZTp
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-mfandffrdc-changes0524-r.pdf?VersionId=jRlLYUGSr5UzqK.kTlUc_7zS7oVyfZTp (crawled 1 day(s) ago at 2026-03-10T01:18:25.197726+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-mfandffrdc-sigchg0522-r.pdf?VersionId=JfD62zG0eMdMj5Jn_NBG7XtaAUammAgP
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-mfandffrdc-sigchg0522-r.pdf?VersionId=JfD62zG0eMdMj5Jn_NBG7XtaAUammAgP
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-mfandffrdc-sigchg0522-r.pdf?VersionId=JfD62zG0eMdMj5Jn_NBG7XtaAUammAgP (crawled 1 day(s) ago at 2026-03-10T01:18:25.198436+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-mfandffrdc0522-r.pdf?VersionId=yIPONCHV_piMBzGLl46_bfla4CBXj8Wk
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-mfandffrdc0522-r.pdf?VersionId=yIPONCHV_piMBzGLl46_bfla4CBXj8Wk
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-mfandffrdc0522-r.pdf?VersionId=yIPONCHV_piMBzGLl46_bfla4CBXj8Wk (crawled 1 day(s) ago at 2026-03-10T01:18:25.199527+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-mfandffrdc0523-r.pdf?VersionId=IdOjYRW6q.VG8F4k8E3waL8thg_Gs4Yk
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-mfandffrdc0523-r.pdf?VersionId=IdOjYRW6q.VG8F4k8E3waL8thg_Gs4Yk
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-mfandffrdc0523-r.pdf?VersionId=IdOjYRW6q.VG8F4k8E3waL8thg_Gs4Yk (crawled 1 day(s) ago at 2026-03-10T01:18:25.200589+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-mfandffrdc0524-r.pdf?VersionId=YbA9emc7Gmo5e3VeKnMUd2w44_clL0RS
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-mfandffrdc0524-r.pdf?VersionId=YbA9emc7Gmo5e3VeKnMUd2w44_clL0RS
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-mfandffrdc0524-r.pdf?VersionId=YbA9emc7Gmo5e3VeKnMUd2w44_clL0RS (crawled 1 day(s) ago at 2026-03-10T01:18:25.201568+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-mfandffrdc0525.pdf?VersionId=kicnZ2hfX_vOOKALVSLhhsBBMHU_7I.f
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-mfandffrdc0525.pdf?VersionId=kicnZ2hfX_vOOKALVSLhhsBBMHU_7I.f
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-mfandffrdc0525.pdf?VersionId=kicnZ2hfX_vOOKALVSLhhsBBMHU_7I.f (crawled 1 day(s) ago at 2026-03-10T01:18:25.202366+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-mfandffrdc1024-r.pdf?VersionId=rVkWqze410L_dyKGzuc4ewOS0L22yIFe
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-mfandffrdc1024-r.pdf?VersionId=rVkWqze410L_dyKGzuc4ewOS0L22yIFe
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-mfandffrdc1024-r.pdf?VersionId=rVkWqze410L_dyKGzuc4ewOS0L22yIFe (crawled 1 day(s) ago at 2026-03-10T01:18:25.203188+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-midscale-changes-20240520-r.pdf?VersionId=7bLDOGVl6rwvRCJVBtLsnaxlqYFCGCx1
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-midscale-changes-20240520-r.pdf?VersionId=7bLDOGVl6rwvRCJVBtLsnaxlqYFCGCx1
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-midscale-changes-20240520-r.pdf?VersionId=7bLDOGVl6rwvRCJVBtLsnaxlqYFCGCx1 (crawled 1 day(s) ago at 2026-03-10T01:18:25.203665+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-midscale-changes0123-r.pdf?VersionId=hFmNI84QwTIEF5ilsyFji2LhIoCDIIwd
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-midscale-changes0123-r.pdf?VersionId=hFmNI84QwTIEF5ilsyFji2LhIoCDIIwd
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-midscale-changes0123-r.pdf?VersionId=hFmNI84QwTIEF5ilsyFji2LhIoCDIIwd (crawled 1 day(s) ago at 2026-03-10T01:18:25.204292+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-midscale-changes0123-r_0.pdf?VersionId=z_JivIpXe1aDYxhLqy8xfNHx6NTMqGOx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-midscale-changes0123-r_0.pdf?VersionId=z_JivIpXe1aDYxhLqy8xfNHx6NTMqGOx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-midscale-changes0123-r_0.pdf?VersionId=z_JivIpXe1aDYxhLqy8xfNHx6NTMqGOx (crawled 1 day(s) ago at 2026-03-10T01:18:25.204912+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-midscale0522-r.pdf?VersionId=5JAIjyCmwdOs.zpQIt_Mah0NpG9JzthC
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-midscale0522-r.pdf?VersionId=5JAIjyCmwdOs.zpQIt_Mah0NpG9JzthC
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-midscale0522-r.pdf?VersionId=5JAIjyCmwdOs.zpQIt_Mah0NpG9JzthC (crawled 1 day(s) ago at 2026-03-10T01:18:25.205554+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-midscale0523-r.pdf?VersionId=shbgsmybPM3JAb_Zpcj6BS.uW_HTaepe
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-midscale0523-r.pdf?VersionId=shbgsmybPM3JAb_Zpcj6BS.uW_HTaepe
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-midscale0523-r.pdf?VersionId=shbgsmybPM3JAb_Zpcj6BS.uW_HTaepe (crawled 1 day(s) ago at 2026-03-10T01:18:25.206242+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-midscale0524-r.pdf?VersionId=QbXYjSup2GpH9vUbH8A.mMPI9QtwMD4K
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-midscale0524-r.pdf?VersionId=QbXYjSup2GpH9vUbH8A.mMPI9QtwMD4K
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-midscale0524-r.pdf?VersionId=QbXYjSup2GpH9vUbH8A.mMPI9QtwMD4K (crawled 1 day(s) ago at 2026-03-10T01:18:25.206909+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-midscale0525.pdf?VersionId=7rVBi8.yTZzZpQkHAFeP5VsI1ZyJo.Uu
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-midscale0525.pdf?VersionId=7rVBi8.yTZzZpQkHAFeP5VsI1ZyJo.Uu
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-midscale0525.pdf?VersionId=7rVBi8.yTZzZpQkHAFeP5VsI1ZyJo.Uu (crawled 1 day(s) ago at 2026-03-10T01:18:25.207517+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup-midscale1024-r.pdf?VersionId=hRMHkw0aR_Pztd6H0JyAkkTs6OQQKxy7
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup-midscale1024-r.pdf?VersionId=hRMHkw0aR_Pztd6H0JyAkkTs6OQQKxy7
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup-midscale1024-r.pdf?VersionId=hRMHkw0aR_Pztd6H0JyAkkTs6OQQKxy7 (crawled 1 day(s) ago at 2026-03-10T01:18:25.208188+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup1020revised-r.pdf?VersionId=tKq.McccBTvI0LqcENEmTmrX0ommG2Ir
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup1020revised-r.pdf?VersionId=tKq.McccBTvI0LqcENEmTmrX0ommG2Ir
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup1020revised-r.pdf?VersionId=tKq.McccBTvI0LqcENEmTmrX0ommG2Ir (crawled 1 day(s) ago at 2026-03-10T01:18:25.208982+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup1021-r.pdf?VersionId=8BxxveqrsH8VD1Pv5Xjcw39ogIGKreSg
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup1021-r.pdf?VersionId=8BxxveqrsH8VD1Pv5Xjcw39ogIGKreSg
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup1021-r.pdf?VersionId=8BxxveqrsH8VD1Pv5Xjcw39ogIGKreSg (crawled 1 day(s) ago at 2026-03-10T01:18:25.209772+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup102521-r.pdf?VersionId=3tAZgc9RgOG7wO6TdvwZRu4fWK3Spx5f
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup102521-r.pdf?VersionId=3tAZgc9RgOG7wO6TdvwZRu4fWK3Spx5f
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup102521-r.pdf?VersionId=3tAZgc9RgOG7wO6TdvwZRu4fWK3Spx5f (crawled 1 day(s) ago at 2026-03-10T01:18:25.210547+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup121321-r.pdf?VersionId=TmtupY02vcDoaN92ecbhDVNv8cEDfzt1
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup121321-r.pdf?VersionId=TmtupY02vcDoaN92ecbhDVNv8cEDfzt1
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup121321-r.pdf?VersionId=TmtupY02vcDoaN92ecbhDVNv8cEDfzt1 (crawled 1 day(s) ago at 2026-03-10T01:18:25.211314+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup20201112-r.pdf?VersionId=AAd1Io8k1RA5HXGT7RAl4Nx9_aSVU9VH
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup20201112-r.pdf?VersionId=AAd1Io8k1RA5HXGT7RAl4Nx9_aSVU9VH
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup20201112-r.pdf?VersionId=AAd1Io8k1RA5HXGT7RAl4Nx9_aSVU9VH (crawled 1 day(s) ago at 2026-03-10T01:18:25.212084+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-modsandsup321-r.pdf?VersionId=fpvaZNaPZoZ0eT7uOcslsbZbHupwtF0m
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-modsandsup321-r.pdf?VersionId=fpvaZNaPZoZ0eT7uOcslsbZbHupwtF0m
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-modsandsup321-r.pdf?VersionId=fpvaZNaPZoZ0eT7uOcslsbZbHupwtF0m (crawled 1 day(s) ago at 2026-03-10T01:18:25.212795+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-sigchg0522-r.pdf?VersionId=vjtk2pP6uGOu0h51WNNJ4OvfGZr8VtmF
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-sigchg0522-r.pdf?VersionId=vjtk2pP6uGOu0h51WNNJ4OvfGZr8VtmF
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-sigchg0522-r.pdf?VersionId=vjtk2pP6uGOu0h51WNNJ4OvfGZr8VtmF (crawled 1 day(s) ago at 2026-03-10T01:18:25.213299+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-sigchg1018-r.pdf?VersionId=GXE0ALf.R8Q1SmMcTE6tJoD3esQx4jHE
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-sigchg1018-r.pdf?VersionId=GXE0ALf.R8Q1SmMcTE6tJoD3esQx4jHE
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-sigchg1018-r.pdf?VersionId=GXE0ALf.R8Q1SmMcTE6tJoD3esQx4jHE (crawled 1 day(s) ago at 2026-03-10T01:18:25.213685+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-sigchg1020-r.pdf?VersionId=8xSjV5.HEL50gUEfSrqSlPnK3aFHbliL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-sigchg1020-r.pdf?VersionId=8xSjV5.HEL50gUEfSrqSlPnK3aFHbliL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-sigchg1020-r.pdf?VersionId=8xSjV5.HEL50gUEfSrqSlPnK3aFHbliL (crawled 1 day(s) ago at 2026-03-10T01:18:25.214200+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-sigchg1021-r.pdf?VersionId=Nf67X8MMTKyFlbesfUw0KeVdcg5vPhJf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-sigchg1021-r.pdf?VersionId=Nf67X8MMTKyFlbesfUw0KeVdcg5vPhJf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-sigchg1021-r.pdf?VersionId=Nf67X8MMTKyFlbesfUw0KeVdcg5vPhJf (crawled 1 day(s) ago at 2026-03-10T01:18:25.214704+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-sigchg102521.pdf?VersionId=Rf99trguljfh8SK8zm3rBiK8hZz0JuGG
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-sigchg102521.pdf?VersionId=Rf99trguljfh8SK8zm3rBiK8hZz0JuGG
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-sigchg102521.pdf?VersionId=Rf99trguljfh8SK8zm3rBiK8hZz0JuGG (crawled 1 day(s) ago at 2026-03-10T01:18:25.215147+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-sigchg1120-r.pdf?VersionId=tJd8vmItMTli.Mg3zE9a2cZjzGP_xof_
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-sigchg1120-r.pdf?VersionId=tJd8vmItMTli.Mg3zE9a2cZjzGP_xof_
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-sigchg1120-r.pdf?VersionId=tJd8vmItMTli.Mg3zE9a2cZjzGP_xof_ (crawled 1 day(s) ago at 2026-03-10T01:18:25.215688+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-sigchg121321-r_0.pdf?VersionId=llIXoE6grs2qdbbbdUwuqqo6Tfata4su
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-sigchg121321-r_0.pdf?VersionId=llIXoE6grs2qdbbbdUwuqqo6Tfata4su
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-sigchg121321-r_0.pdf?VersionId=llIXoE6grs2qdbbbdUwuqqo6Tfata4su (crawled 1 day(s) ago at 2026-03-10T01:18:25.216176+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc-sigchg219-r.pdf?VersionId=2R3sGpJLQKUVsur2bARatWWK2IuAP05N
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc-sigchg219-r.pdf?VersionId=2R3sGpJLQKUVsur2bARatWWK2IuAP05N
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc-sigchg219-r.pdf?VersionId=2R3sGpJLQKUVsur2bARatWWK2IuAP05N (crawled 1 day(s) ago at 2026-03-10T01:18:25.216653+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatc_modsandsup_mfandffrdc-20230130-r.pdf?VersionId=mMdG0uwNKNqxEfel9YQvYj9sIgMpAjIs
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatc_modsandsup_mfandffrdc-20230130-r.pdf?VersionId=mMdG0uwNKNqxEfel9YQvYj9sIgMpAjIs
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatc_modsandsup_mfandffrdc-20230130-r.pdf?VersionId=mMdG0uwNKNqxEfel9YQvYj9sIgMpAjIs (crawled 1 day(s) ago at 2026-03-10T01:18:25.217450+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatcmodsandsup-219.pdf?VersionId=4VzWBeioPVDSl3CGPNn4A5dv3AedgDyI
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatcmodsandsup-219.pdf?VersionId=4VzWBeioPVDSl3CGPNn4A5dv3AedgDyI
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatcmodsandsup-219.pdf?VersionId=4VzWBeioPVDSl3CGPNn4A5dv3AedgDyI (crawled 1 day(s) ago at 2026-03-10T01:18:25.218011+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatcmodsandsup-sigchg1020.pdf?VersionId=JxQ7LzP80scPDSv.2w2NmFJvXtfQFg7y
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatcmodsandsup-sigchg1020.pdf?VersionId=JxQ7LzP80scPDSv.2w2NmFJvXtfQFg7y
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatcmodsandsup-sigchg1020.pdf?VersionId=JxQ7LzP80scPDSv.2w2NmFJvXtfQFg7y (crawled 1 day(s) ago at 2026-03-10T01:18:25.218500+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatcmodsandsup-sigchg1021.pdf?VersionId=oXo.IQWon6rveuVLE9vUguTHLtwSuATt
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatcmodsandsup-sigchg1021.pdf?VersionId=oXo.IQWon6rveuVLE9vUguTHLtwSuATt
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatcmodsandsup-sigchg1021.pdf?VersionId=oXo.IQWon6rveuVLE9vUguTHLtwSuATt (crawled 1 day(s) ago at 2026-03-10T01:18:25.218981+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatcmodsandsup-sigchg102521.pdf?VersionId=Vixyl26aGHMPsD04EylT2GK0A5DyQ3T3
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatcmodsandsup-sigchg102521.pdf?VersionId=Vixyl26aGHMPsD04EylT2GK0A5DyQ3T3
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatcmodsandsup-sigchg102521.pdf?VersionId=Vixyl26aGHMPsD04EylT2GK0A5DyQ3T3 (crawled 1 day(s) ago at 2026-03-10T01:18:25.219436+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatcmodsandsup-sigchg1120.pdf?VersionId=seZ.pOqtWBjE61csZE9rrVilu9.dUSh7
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatcmodsandsup-sigchg1120.pdf?VersionId=seZ.pOqtWBjE61csZE9rrVilu9.dUSh7
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatcmodsandsup-sigchg1120.pdf?VersionId=seZ.pOqtWBjE61csZE9rrVilu9.dUSh7 (crawled 1 day(s) ago at 2026-03-10T01:18:25.219918+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatcmodsandsup-sigchg121321.pdf?VersionId=omW3Ht7bEQ.S_eAMHM6jcZdP9_czTIVm
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatcmodsandsup-sigchg121321.pdf?VersionId=omW3Ht7bEQ.S_eAMHM6jcZdP9_czTIVm
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatcmodsandsup-sigchg121321.pdf?VersionId=omW3Ht7bEQ.S_eAMHM6jcZdP9_czTIVm (crawled 1 day(s) ago at 2026-03-10T01:18:25.220391+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatcmodsandsup_sigchg219.pdf?VersionId=5RPYCap_xk3FQO9J0RXjKNbNHcK6vdmf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatcmodsandsup_sigchg219.pdf?VersionId=5RPYCap_xk3FQO9J0RXjKNbNHcK6vdmf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatcmodsandsup_sigchg219.pdf?VersionId=5RPYCap_xk3FQO9J0RXjKNbNHcK6vdmf (crawled 1 day(s) ago at 2026-03-10T01:18:25.220759+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatcmodsandsup_sigchg321_0.pdf?VersionId=PS_3tjlK5_ZyLvaQPLFWstIlUMZI9t9t
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatcmodsandsup_sigchg321_0.pdf?VersionId=PS_3tjlK5_ZyLvaQPLFWstIlUMZI9t9t
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatcmodsandsup_sigchg321_0.pdf?VersionId=PS_3tjlK5_ZyLvaQPLFWstIlUMZI9t9t (crawled 1 day(s) ago at 2026-03-10T01:18:25.221261+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cafatcmodsandsup_techcorrect_jan22.pdf?VersionId=SG6XLw_Bpc0_2AgSNynHQw5KQv8edPw.
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cafatcmodsandsup_techcorrect_jan22.pdf?VersionId=SG6XLw_Bpc0_2AgSNynHQw5KQv8edPw.
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cafatcmodsandsup_techcorrect_jan22.pdf?VersionId=SG6XLw_Bpc0_2AgSNynHQw5KQv8edPw. (crawled 1 day(s) ago at 2026-03-10T01:18:25.221829+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### changes-may24-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/changes-may24-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/changes-may24-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.222378+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### coa_template.xlsx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/coa_template.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/coa_template.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.222663+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### coa_template.xlsx?VersionId=uaz022di3.2KKDC7uauIadw7yeI3Xf.1
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/coa_template.xlsx?VersionId=uaz022di3.2KKDC7uauIadw7yeI3Xf.1
+- **Status**: error
+- File not found: crawled_files/nsf.gov/coa_template.xlsx?VersionId=uaz022di3.2KKDC7uauIadw7yeI3Xf.1 (crawled 1 day(s) ago at 2026-03-10T01:18:25.222962+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### combined-topics.pdf
+
+- **URL**: https://seedfund.nsf.gov/assets/files/applicants/combined-topics.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/combined-topics.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.224068+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### completion_146001.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/completion_146001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/completion_146001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.225083+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### comrpt.doc
+
+- **URL**: https://seedfund.nsf.gov/assets/files/awardees/comrpt.doc
+- **Status**: error
+- File not found: crawled_files/nsf.gov/comrpt.doc (crawled 1 day(s) ago at 2026-03-10T01:18:25.225364+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### cost-sharing-statement.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/cost-sharing-statement.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/cost-sharing-statement.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.226034+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### definitions
+
+- **URL**: https://www.nsf.gov/policies/nspm-33/definitions
+- **Status**: error
+- File not found: crawled_files/nsf.gov/definitions (crawled 1 day(s) ago at 2026-03-10T01:18:25.226410+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### disclosures
+
+- **URL**: https://www.nsf.gov/policies/nspm-33/disclosures
+- **Status**: error
+- Not a PDF file: (no extension)
+
+### draft-addl-reporting-template-cci-quantifiable-data-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/draft-addl-reporting-template-cci-quantifiable-data-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/draft-addl-reporting-template-cci-quantifiable-data-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.227259+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### draft-cci-ptcs-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/draft-cci-ptcs-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/draft-cci-ptcs-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.227786+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### environmental-impacts-checklist.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/environmental-impacts-checklist.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/environmental-impacts-checklist.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.228627+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### errata.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/errata/errata.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/errata.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.228919+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fig08-09.pdf
+
+- **URL**: https://www.nsf.gov/statistics/2018/nsb20181/assets/1178/figures/fig08-09.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fig08-09.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.229336+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### financial-admin-terms-conditions-sbirii-20200706-r.pdf?VersionId=2zlthVsAmMWJDaGFremMKHqrbrml.FUn
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/financial-admin-terms-conditions-sbirii-20200706-r.pdf?VersionId=2zlthVsAmMWJDaGFremMKHqrbrml.FUn
+- **Status**: error
+- File not found: crawled_files/nsf.gov/financial-admin-terms-conditions-sbirii-20200706-r.pdf?VersionId=2zlthVsAmMWJDaGFremMKHqrbrml.FUn (crawled 1 day(s) ago at 2026-03-10T01:18:25.230315+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-0123-r.pdf?VersionId=B7S7szJwPqTpRyN4tIY7YA.w75Mq0ZpM
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-0123-r.pdf?VersionId=B7S7szJwPqTpRyN4tIY7YA.w75Mq0ZpM
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-0123-r.pdf?VersionId=B7S7szJwPqTpRyN4tIY7YA.w75Mq0ZpM (crawled 1 day(s) ago at 2026-03-10T01:18:25.230885+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-0524-r.pdf?VersionId=KnYJZr7OS5n8WBcAYJsDnZQ2oekR8ulZ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-0524-r.pdf?VersionId=KnYJZr7OS5n8WBcAYJsDnZQ2oekR8ulZ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-0524-r.pdf?VersionId=KnYJZr7OS5n8WBcAYJsDnZQ2oekR8ulZ (crawled 1 day(s) ago at 2026-03-10T01:18:25.231422+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-0525.pdf?VersionId=JRZ.acf9_LN2_t27ZHKBG.YC.pdIA0.F
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-0525.pdf?VersionId=JRZ.acf9_LN2_t27ZHKBG.YC.pdIA0.F
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-0525.pdf?VersionId=JRZ.acf9_LN2_t27ZHKBG.YC.pdIA0.F (crawled 1 day(s) ago at 2026-03-10T01:18:25.232080+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-1024-r.pdf?VersionId=XwqiQWTATg2Eg4nWxFDDulXvUONZJ5GQ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-1024-r.pdf?VersionId=XwqiQWTATg2Eg4nWxFDDulXvUONZJ5GQ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-1024-r.pdf?VersionId=XwqiQWTATg2Eg4nWxFDDulXvUONZJ5GQ (crawled 1 day(s) ago at 2026-03-10T01:18:25.232690+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-changes0524-r.pdf?VersionId=aCV0PTW4wX25aO52ZlVQ11GTemzTXEHK
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-changes0524-r.pdf?VersionId=aCV0PTW4wX25aO52ZlVQ11GTemzTXEHK
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-changes0524-r.pdf?VersionId=aCV0PTW4wX25aO52ZlVQ11GTemzTXEHK (crawled 1 day(s) ago at 2026-03-10T01:18:25.233190+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-irtc-changes-20230130-r.pdf?VersionId=CWWiwjODS351X.FljMsbRe2ChNrh2T1E
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-irtc-changes-20230130-r.pdf?VersionId=CWWiwjODS351X.FljMsbRe2ChNrh2T1E
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-irtc-changes-20230130-r.pdf?VersionId=CWWiwjODS351X.FljMsbRe2ChNrh2T1E (crawled 1 day(s) ago at 2026-03-10T01:18:25.233753+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-irtc-sig-chg-20220513-r.pdf?VersionId=zOL99q137NTJ7M.IDDm19Se43W61MTLI
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-irtc-sig-chg-20220513-r.pdf?VersionId=zOL99q137NTJ7M.IDDm19Se43W61MTLI
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-irtc-sig-chg-20220513-r.pdf?VersionId=zOL99q137NTJ7M.IDDm19Se43W61MTLI (crawled 1 day(s) ago at 2026-03-10T01:18:25.234249+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-irtc0524.pdf?VersionId=.GkFQL4MEjs0thVs3U8xqL5WDJlqdXI.
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-irtc0524.pdf?VersionId=.GkFQL4MEjs0thVs3U8xqL5WDJlqdXI.
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-irtc0524.pdf?VersionId=.GkFQL4MEjs0thVs3U8xqL5WDJlqdXI. (crawled 1 day(s) ago at 2026-03-10T01:18:25.234773+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-irtc1024.pdf?VersionId=9m8.hmN8Ib__Hyl1RVXyzW6q_sXfWuL8
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-irtc1024.pdf?VersionId=9m8.hmN8Ib__Hyl1RVXyzW6q_sXfWuL8
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-irtc1024.pdf?VersionId=9m8.hmN8Ib__Hyl1RVXyzW6q_sXfWuL8 (crawled 1 day(s) ago at 2026-03-10T01:18:25.235319+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-irtc525.pdf?VersionId=biZYLFweIMSBmS_vdAx5uDPc3zx.M2jB
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-irtc525.pdf?VersionId=biZYLFweIMSBmS_vdAx5uDPc3zx.M2jB
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-irtc525.pdf?VersionId=biZYLFweIMSBmS_vdAx5uDPc3zx.M2jB (crawled 1 day(s) ago at 2026-03-10T01:18:25.235897+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-irtcchanges0524.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-irtcchanges0524.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-irtcchanges0524.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.236369+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-sigchg-20201005-r.pdf?VersionId=dLYaDNqPp.3xJKSrD9yS2jxXHnrNyAwo
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-sigchg-20201005-r.pdf?VersionId=dLYaDNqPp.3xJKSrD9yS2jxXHnrNyAwo
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-sigchg-20201005-r.pdf?VersionId=dLYaDNqPp.3xJKSrD9yS2jxXHnrNyAwo (crawled 1 day(s) ago at 2026-03-10T01:18:25.236829+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-sigchg-20201120-r.pdf?VersionId=7TBW8VJsSSbql6N8N37kKiU79_0cdh9D
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-sigchg-20201120-r.pdf?VersionId=7TBW8VJsSSbql6N8N37kKiU79_0cdh9D
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-sigchg-20201120-r.pdf?VersionId=7TBW8VJsSSbql6N8N37kKiU79_0cdh9D (crawled 1 day(s) ago at 2026-03-10T01:18:25.237342+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fl26-sigchg-20211004-r.pdf?VersionId=jqHhZkA273VjgG3L..izB7ReAHt4ubCL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/fl26-sigchg-20211004-r.pdf?VersionId=jqHhZkA273VjgG3L..izB7ReAHt4ubCL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/fl26-sigchg-20211004-r.pdf?VersionId=jqHhZkA273VjgG3L..izB7ReAHt4ubCL (crawled 1 day(s) ago at 2026-03-10T01:18:25.237819+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### gc1-may25.pdf?VersionId=Q2l66Hxw3DQqonkzV9qqkrcnO910C1cU
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/gc1-may25.pdf?VersionId=Q2l66Hxw3DQqonkzV9qqkrcnO910C1cU
+- **Status**: error
+- File not found: crawled_files/nsf.gov/gc1-may25.pdf?VersionId=Q2l66Hxw3DQqonkzV9qqkrcnO910C1cU (crawled 1 day(s) ago at 2026-03-10T01:18:25.238911+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grant-general-cond-sbirii-20230130-r.pdf?VersionId=22jGjFJtAdo.b2iXzLsqKSPe_NwO1Dee
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/grant-general-cond-sbirii-20230130-r.pdf?VersionId=22jGjFJtAdo.b2iXzLsqKSPe_NwO1Dee
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grant-general-cond-sbirii-20230130-r.pdf?VersionId=22jGjFJtAdo.b2iXzLsqKSPe_NwO1Dee (crawled 1 day(s) ago at 2026-03-10T01:18:25.240627+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grant-general-cond-sbirii-20240520-r.pdf?VersionId=6zQ2vB5XHIqNxmDy1pLkqwHU6mxEuMmm
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/grant-general-cond-sbirii-20240520-r.pdf?VersionId=6zQ2vB5XHIqNxmDy1pLkqwHU6mxEuMmm
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grant-general-cond-sbirii-20240520-r.pdf?VersionId=6zQ2vB5XHIqNxmDy1pLkqwHU6mxEuMmm (crawled 1 day(s) ago at 2026-03-10T01:18:25.241897+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grant-general-cond-sbirii-20241001-r.pdf?VersionId=BF8Qc7amy3DM2oKa0mElQjI96W5fK2tT
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/grant-general-cond-sbirii-20241001-r.pdf?VersionId=BF8Qc7amy3DM2oKa0mElQjI96W5fK2tT
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grant-general-cond-sbirii-20241001-r.pdf?VersionId=BF8Qc7amy3DM2oKa0mElQjI96W5fK2tT (crawled 1 day(s) ago at 2026-03-10T01:18:25.243032+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovcompliancechecks-jan2023-r.pdf?VersionId=PsHNy0QjmfKawDmoFSOrHq2uulSLOEdv
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/grantsgovcompliancechecks-jan2023-r.pdf?VersionId=PsHNy0QjmfKawDmoFSOrHq2uulSLOEdv
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovcompliancechecks-jan2023-r.pdf?VersionId=PsHNy0QjmfKawDmoFSOrHq2uulSLOEdv (crawled 1 day(s) ago at 2026-03-10T01:18:25.243475+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide0116.pdf?VersionId=l_8.mK1sd0KMnocPYkZ7pWc3qdMCw_7V
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide0116.pdf?VersionId=l_8.mK1sd0KMnocPYkZ7pWc3qdMCw_7V
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide0116.pdf?VersionId=l_8.mK1sd0KMnocPYkZ7pWc3qdMCw_7V (crawled 1 day(s) ago at 2026-03-10T01:18:25.251007+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide0117.pdf?VersionId=rqrF.nYaQG7Vrvm1F8BYD31hZmfKCFJk
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide0117.pdf?VersionId=rqrF.nYaQG7Vrvm1F8BYD31hZmfKCFJk
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide0117.pdf?VersionId=rqrF.nYaQG7Vrvm1F8BYD31hZmfKCFJk (crawled 1 day(s) ago at 2026-03-10T01:18:25.256221+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide0118.pdf?VersionId=f4TcCXeWJhXOy4ZQ7lxXcsPQ0bE6JZIH
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide0118.pdf?VersionId=f4TcCXeWJhXOy4ZQ7lxXcsPQ0bE6JZIH
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide0118.pdf?VersionId=f4TcCXeWJhXOy4ZQ7lxXcsPQ0bE6JZIH (crawled 1 day(s) ago at 2026-03-10T01:18:25.262828+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide0123.pdf?VersionId=0r1O3_jPORlWcP.qgWZA1lOiTNAAbwrF
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide0123.pdf?VersionId=0r1O3_jPORlWcP.qgWZA1lOiTNAAbwrF
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide0123.pdf?VersionId=0r1O3_jPORlWcP.qgWZA1lOiTNAAbwrF (crawled 1 day(s) ago at 2026-03-10T01:18:25.264309+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide0219.pdf?VersionId=9OsEqHjnq_afQOlQt4N4vWoVvpylSSZC
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide0219.pdf?VersionId=9OsEqHjnq_afQOlQt4N4vWoVvpylSSZC
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide0219.pdf?VersionId=9OsEqHjnq_afQOlQt4N4vWoVvpylSSZC (crawled 1 day(s) ago at 2026-03-10T01:18:25.271063+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide0524.pdf?VersionId=VMJbfxzbaKl4tjIS4EzeuDjEkYOHjPQX
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide0524.pdf?VersionId=VMJbfxzbaKl4tjIS4EzeuDjEkYOHjPQX
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide0524.pdf?VersionId=VMJbfxzbaKl4tjIS4EzeuDjEkYOHjPQX (crawled 1 day(s) ago at 2026-03-10T01:18:25.272515+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide0620.pdf?VersionId=VVcSM0gLxZcbvg.aFj1377Dipc0J0_WX
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide0620.pdf?VersionId=VVcSM0gLxZcbvg.aFj1377Dipc0J0_WX
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide0620.pdf?VersionId=VVcSM0gLxZcbvg.aFj1377Dipc0J0_WX (crawled 1 day(s) ago at 2026-03-10T01:18:25.274702+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide1020.pdf?VersionId=tsAZjQPP9s7tka2biYcWv68wYQAUWEp.
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide1020.pdf?VersionId=tsAZjQPP9s7tka2biYcWv68wYQAUWEp.
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide1020.pdf?VersionId=tsAZjQPP9s7tka2biYcWv68wYQAUWEp. (crawled 1 day(s) ago at 2026-03-10T01:18:25.276526+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide1021.pdf?VersionId=zE4VYGaIa8r7HUi2T3_XEsg564FzRffm
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide1021.pdf?VersionId=zE4VYGaIa8r7HUi2T3_XEsg564FzRffm
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide1021.pdf?VersionId=zE4VYGaIa8r7HUi2T3_XEsg564FzRffm (crawled 1 day(s) ago at 2026-03-10T01:18:25.278300+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide1209.pdf?VersionId=yj1aB7TK1rrk_PZ7.iyGRCtApcw6LaWS
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide1209.pdf?VersionId=yj1aB7TK1rrk_PZ7.iyGRCtApcw6LaWS
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide1209.pdf?VersionId=yj1aB7TK1rrk_PZ7.iyGRCtApcw6LaWS (crawled 1 day(s) ago at 2026-03-10T01:18:25.283254+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide1214.pdf?VersionId=jMLQB7MLjJqSQ.0meqCR_zLTGDUBK_Wn
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide1214.pdf?VersionId=jMLQB7MLjJqSQ.0meqCR_zLTGDUBK_Wn
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide1214.pdf?VersionId=jMLQB7MLjJqSQ.0meqCR_zLTGDUBK_Wn (crawled 1 day(s) ago at 2026-03-10T01:18:25.288891+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide309.pdf?VersionId=X.D.BbnzhGHUVJU7blOjdkrYyi8OTglB
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide309.pdf?VersionId=X.D.BbnzhGHUVJU7blOjdkrYyi8OTglB
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide309.pdf?VersionId=X.D.BbnzhGHUVJU7blOjdkrYyi8OTglB (crawled 1 day(s) ago at 2026-03-10T01:18:25.292474+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### grantsgovguide607.pdf?VersionId=DoqBPFn6OVhp6ApOGBjmjWjgH3uNJ5ub
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide607.pdf?VersionId=DoqBPFn6OVhp6ApOGBjmjWjgH3uNJ5ub
+- **Status**: error
+- File not found: crawled_files/nsf.gov/grantsgovguide607.pdf?VersionId=DoqBPFn6OVhp6ApOGBjmjWjgH3uNJ5ub (crawled 1 day(s) ago at 2026-03-10T01:18:25.297008+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### indirect-cost-proposals
+
+- **URL**: https://www.nsf.gov/awards/indirect-cost-proposals
+- **Status**: error
+- File not found: crawled_files/nsf.gov/indirect-cost-proposals (crawled 1 day(s) ago at 2026-03-10T01:18:25.297414+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### indirect-cost-rate-adjustments.pdf
+
+- **URL**: https://seedfund.nsf.gov/assets/files/applicants/indirect-cost-rate-adjustments.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/indirect-cost-rate-adjustments.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.298047+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-0522.pdf?VersionId=ZmKquT_3LewGSVKO.Q_pwat1vjfJhXQr
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-0522.pdf?VersionId=ZmKquT_3LewGSVKO.Q_pwat1vjfJhXQr
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-0522.pdf?VersionId=ZmKquT_3LewGSVKO.Q_pwat1vjfJhXQr (crawled 1 day(s) ago at 2026-03-10T01:18:25.298960+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-0525.pdf?VersionId=6f4y6JYOollwwt2W.8CG8z8AxGI7iusY
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-0525.pdf?VersionId=6f4y6JYOollwwt2W.8CG8z8AxGI7iusY
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-0525.pdf?VersionId=6f4y6JYOollwwt2W.8CG8z8AxGI7iusY (crawled 1 day(s) ago at 2026-03-10T01:18:25.300008+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-20210901-r.pdf?VersionId=aq9jzo2CyqQzkPs56rR1HbA4JnD.f151
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-20210901-r.pdf?VersionId=aq9jzo2CyqQzkPs56rR1HbA4JnD.f151
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-20210901-r.pdf?VersionId=aq9jzo2CyqQzkPs56rR1HbA4JnD.f151 (crawled 1 day(s) ago at 2026-03-10T01:18:25.301009+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-20230130-r_0.pdf?VersionId=f76nJO6ob85g07H5t9D8irYZnANWlO1F
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-20230130-r_0.pdf?VersionId=f76nJO6ob85g07H5t9D8irYZnANWlO1F
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-20230130-r_0.pdf?VersionId=f76nJO6ob85g07H5t9D8irYZnANWlO1F (crawled 1 day(s) ago at 2026-03-10T01:18:25.302172+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-20240520-r.pdf?VersionId=OhRM2O9MCuGZQJpn95ZnMiSL3JeFybmd
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-20240520-r.pdf?VersionId=OhRM2O9MCuGZQJpn95ZnMiSL3JeFybmd
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-20240520-r.pdf?VersionId=OhRM2O9MCuGZQJpn95ZnMiSL3JeFybmd (crawled 1 day(s) ago at 2026-03-10T01:18:25.303203+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-20241001-r.pdf?VersionId=QhjrmyeFt40cyNPANzwDgqkI6FsODQ2x
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-20241001-r.pdf?VersionId=QhjrmyeFt40cyNPANzwDgqkI6FsODQ2x
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-20241001-r.pdf?VersionId=QhjrmyeFt40cyNPANzwDgqkI6FsODQ2x (crawled 1 day(s) ago at 2026-03-10T01:18:25.304286+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-changes-20230130-r.pdf?VersionId=SIquchOaE8K_z1NeO.EXcWSGeafH0yyy
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-changes-20230130-r.pdf?VersionId=SIquchOaE8K_z1NeO.EXcWSGeafH0yyy
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-changes-20230130-r.pdf?VersionId=SIquchOaE8K_z1NeO.EXcWSGeafH0yyy (crawled 1 day(s) ago at 2026-03-10T01:18:25.304866+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-changes0524.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-changes0524.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-changes0524.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.305370+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-sig-chg-fl26-20211004-r.pdf?VersionId=2kR4Ao6JvKdleMrB0DsskGnG6mDF4wTI
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-sig-chg-fl26-20211004-r.pdf?VersionId=2kR4Ao6JvKdleMrB0DsskGnG6mDF4wTI
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-sig-chg-fl26-20211004-r.pdf?VersionId=2kR4Ao6JvKdleMrB0DsskGnG6mDF4wTI (crawled 1 day(s) ago at 2026-03-10T01:18:25.305898+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-spec-terms-conditions-fl26-20181022-r.pdf?VersionId=JMseRlrAMi7DIwwoEA8jwp5VeXvba0l1
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-spec-terms-conditions-fl26-20181022-r.pdf?VersionId=JMseRlrAMi7DIwwoEA8jwp5VeXvba0l1
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-spec-terms-conditions-fl26-20181022-r.pdf?VersionId=JMseRlrAMi7DIwwoEA8jwp5VeXvba0l1 (crawled 1 day(s) ago at 2026-03-10T01:18:25.306601+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-spec-terms-conditions-fl26-20210901-r.pdf?VersionId=3M.gdw_UYg4F5T.5lJ7Yh1YnJJ9DpfYg
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-spec-terms-conditions-fl26-20210901-r.pdf?VersionId=3M.gdw_UYg4F5T.5lJ7Yh1YnJJ9DpfYg
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-spec-terms-conditions-fl26-20210901-r.pdf?VersionId=3M.gdw_UYg4F5T.5lJ7Yh1YnJJ9DpfYg (crawled 1 day(s) ago at 2026-03-10T01:18:25.307285+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-spec-terms-conditions-fl26-20211004-r.pdf?VersionId=npXNirLCwSkIkWBZv2TfjcUiBKn4T7_o
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-spec-terms-conditions-fl26-20211004-r.pdf?VersionId=npXNirLCwSkIkWBZv2TfjcUiBKn4T7_o
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-spec-terms-conditions-fl26-20211004-r.pdf?VersionId=npXNirLCwSkIkWBZv2TfjcUiBKn4T7_o (crawled 1 day(s) ago at 2026-03-10T01:18:25.307870+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-spec-terms-conditions-fl26-20230130-r.pdf?VersionId=zpQ..BC8K6rVNeIxx8UKdjfN0X07.Ocz
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-spec-terms-conditions-fl26-20230130-r.pdf?VersionId=zpQ..BC8K6rVNeIxx8UKdjfN0X07.Ocz
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-spec-terms-conditions-fl26-20230130-r.pdf?VersionId=zpQ..BC8K6rVNeIxx8UKdjfN0X07.Ocz (crawled 1 day(s) ago at 2026-03-10T01:18:25.308477+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtc-special-terms-conditions-fl26-20220513-r.pdf?VersionId=cwsgbV2pxWWfqsiddnw2L7YjrEqiF4_C
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtc-special-terms-conditions-fl26-20220513-r.pdf?VersionId=cwsgbV2pxWWfqsiddnw2L7YjrEqiF4_C
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtc-special-terms-conditions-fl26-20220513-r.pdf?VersionId=cwsgbV2pxWWfqsiddnw2L7YjrEqiF4_C (crawled 1 day(s) ago at 2026-03-10T01:18:25.309072+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtcsigchg-0522.pdf?VersionId=c.gTMKp7bJbnFKOEBYbxMDR_TM0O9H7Y
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtcsigchg-0522.pdf?VersionId=c.gTMKp7bJbnFKOEBYbxMDR_TM0O9H7Y
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtcsigchg-0522.pdf?VersionId=c.gTMKp7bJbnFKOEBYbxMDR_TM0O9H7Y (crawled 1 day(s) ago at 2026-03-10T01:18:25.309530+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### irtcsigchg-1021.pdf?VersionId=X2JY_JNz_VFC0xS_xqS0Hq03A9HNAWgi
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/irtcsigchg-1021.pdf?VersionId=X2JY_JNz_VFC0xS_xqS0Hq03A9HNAWgi
+- **Status**: error
+- File not found: crawled_files/nsf.gov/irtcsigchg-1021.pdf?VersionId=X2JY_JNz_VFC0xS_xqS0Hq03A9HNAWgi (crawled 1 day(s) ago at 2026-03-10T01:18:25.310001+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### jan23-r.pdf?VersionId=JCmOwjuQcynhuO82.aS21uywQtf0avNX
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/jan23-r.pdf?VersionId=JCmOwjuQcynhuO82.aS21uywQtf0avNX
+- **Status**: error
+- File not found: crawled_files/nsf.gov/jan23-r.pdf?VersionId=JCmOwjuQcynhuO82.aS21uywQtf0avNX (crawled 1 day(s) ago at 2026-03-10T01:18:25.311460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### k-12-indicator-2022.pdf?VersionId=mBf.TPxnpxF4ZuNy.bNc1fYp9jaA25xF
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/k-12-indicator-2022.pdf?VersionId=mBf.TPxnpxF4ZuNy.bNc1fYp9jaA25xF
+- **Status**: error
+- File not found: crawled_files/nsf.gov/k-12-indicator-2022.pdf?VersionId=mBf.TPxnpxF4ZuNy.bNc1fYp9jaA25xF (crawled 1 day(s) ago at 2026-03-10T01:18:25.312078+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### may24-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/may24-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/may24-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.313137+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ncses23200-tabc-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/ncses23200/assets/appendix-c-field-of-study-coding/tables/ncses23200-tabc-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/ncses23200-tabc-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.313461+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ncses_stategovrd.pdf
+
+- **URL**: https://ncses.nsf.gov/1599/assets/0/file/ncses_stategovrd.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/ncses_stategovrd.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.316367+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-International-stem-talent-2022.pdf?VersionId=0dRA.a6VI.cGstBHSvCyXz_3KNIEVghb
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-International-stem-talent-2022.pdf?VersionId=0dRA.a6VI.cGstBHSvCyXz_3KNIEVghb
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-International-stem-talent-2022.pdf?VersionId=0dRA.a6VI.cGstBHSvCyXz_3KNIEVghb (crawled 1 day(s) ago at 2026-03-10T01:18:25.317048+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-changed-landscape.pdf?VersionId=7Rj.5eDpkrkU9lWJ2Cm1NImLHEsiwwhm
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-changed-landscape.pdf?VersionId=7Rj.5eDpkrkU9lWJ2Cm1NImLHEsiwwhm
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-changed-landscape.pdf?VersionId=7Rj.5eDpkrkU9lWJ2Cm1NImLHEsiwwhm (crawled 1 day(s) ago at 2026-03-10T01:18:25.321136+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-connected-horizons-2024.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-connected-horizons-2024.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-connected-horizons-2024.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.323202+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-connected-horizons-2024.pdf?VersionId=cWjJ4Z8sG7iGYcN4Yk2fQOyfH3zC.1jQ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-connected-horizons-2024.pdf?VersionId=cWjJ4Z8sG7iGYcN4Yk2fQOyfH3zC.1jQ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-connected-horizons-2024.pdf?VersionId=cWjJ4Z8sG7iGYcN4Yk2fQOyfH3zC.1jQ (crawled 1 day(s) ago at 2026-03-10T01:18:25.325254+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-nsf-investments-ai-quantum.pdf?VersionId=qzKkZuEH9WFob0OGHO29lL.dNvanWPb_
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-nsf-investments-ai-quantum.pdf?VersionId=qzKkZuEH9WFob0OGHO29lL.dNvanWPb_
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-nsf-investments-ai-quantum.pdf?VersionId=qzKkZuEH9WFob0OGHO29lL.dNvanWPb_ (crawled 1 day(s) ago at 2026-03-10T01:18:25.328408+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-phd-hurdles-2022.pdf?VersionId=knG7GOzukGa.ZX3la1Csigc_CPsD1Qxh
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-phd-hurdles-2022.pdf?VersionId=knG7GOzukGa.ZX3la1Csigc_CPsD1Qxh
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-phd-hurdles-2022.pdf?VersionId=knG7GOzukGa.ZX3la1Csigc_CPsD1Qxh (crawled 1 day(s) ago at 2026-03-10T01:18:25.329123+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-skilled-technical-workforce-factsheet.pdf?VersionId=xd9jM94RXayhxijjkfHB8VDnbfowPghR
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-skilled-technical-workforce-factsheet.pdf?VersionId=xd9jM94RXayhxijjkfHB8VDnbfowPghR
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-skilled-technical-workforce-factsheet.pdf?VersionId=xd9jM94RXayhxijjkfHB8VDnbfowPghR (crawled 1 day(s) ago at 2026-03-10T01:18:25.332269+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-skilled-technical-workforce-factsheet_0.pdf?VersionId=KFR2AUX09R1gY1.zZWM5BSllqQWooHP.
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-skilled-technical-workforce-factsheet_0.pdf?VersionId=KFR2AUX09R1gY1.zZWM5BSllqQWooHP.
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-skilled-technical-workforce-factsheet_0.pdf?VersionId=KFR2AUX09R1gY1.zZWM5BSllqQWooHP. (crawled 1 day(s) ago at 2026-03-10T01:18:25.335467+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-talent-treasure-2024.pdf?VersionId=jYFS36vua1ZDaWUtQaGl6r4tarOpLMzH
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-talent-treasure-2024.pdf?VersionId=jYFS36vua1ZDaWUtQaGl6r4tarOpLMzH
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-talent-treasure-2024.pdf?VersionId=jYFS36vua1ZDaWUtQaGl6r4tarOpLMzH (crawled 1 day(s) ago at 2026-03-10T01:18:25.339644+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb-winning-race-for-future.pdf?VersionId=0jKZvVFir1XK.N0JtJZoIJpGDSAkFyAo
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb-winning-race-for-future.pdf?VersionId=0jKZvVFir1XK.N0JtJZoIJpGDSAkFyAo
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb-winning-race-for-future.pdf?VersionId=0jKZvVFir1XK.N0JtJZoIJpGDSAkFyAo (crawled 1 day(s) ago at 2026-03-10T01:18:25.340811+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb0920.pdf?VersionId=un9CjelwvPrSn747hpbdzN1srHXw.mfB
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2009/nsb0920/nsb0920.pdf?VersionId=un9CjelwvPrSn747hpbdzN1srHXw.mfB
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb0920.pdf?VersionId=un9CjelwvPrSn747hpbdzN1srHXw.mfB (crawled 1 day(s) ago at 2026-03-10T01:18:25.342905+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb201510.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2015/nsb201510/nsb201510.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb201510.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.350124+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20163.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/nsb/publications/2020/nsb20163.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20163.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.351459+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb201641.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/nsb/publications/2016/nsb201641.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb201641.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.357152+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb201726.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/nsb/publications/2017/nsb201726.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb201726.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.360989+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb201817.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb201817.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb201817.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.362145+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb201840.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2018/nsb201840/nsb201840.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb201840.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.363244+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20187.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2018/nsb20187/nsb20187.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20187.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.365684+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb201915.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/nsb/publications/2018/nsb201915.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb201915.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.368458+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.368828+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.369184+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.369614+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.369872+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.370262+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.370518+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.370907+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.371219+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-021.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-021.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-021.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.371935+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-022.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-022.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-022.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.372612+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-023.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-023.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-023.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.373314+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-024.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-024.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-024.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.373965+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-025.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-025.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-025.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.374681+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-026.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-026.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-026.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.375366+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-027.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-027.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-027.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.376022+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-a.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-a.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.376433+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-a.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/figures/nsb20198-fig03-a.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-a.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.376688+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-fig03-b.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/figures/nsb20198-fig03-b.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-fig03-b.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.377338+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-projected-growth-of-employment-in-s-e-occupations.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/sidebars/nsb20198-projected-growth-of-employment-in-s-e-occupations.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-projected-growth-of-employment-in-s-e-occupations.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.378242+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/tables/nsb20198-tab03-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.378623+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/tables/nsb20198-tab03-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.378878+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-012.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/s-e-labor-market-conditions/tables/nsb20198-tab03-012.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-012.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.379283+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-013.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/s-e-labor-market-conditions/tables/nsb20198-tab03-013.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-013.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.379654+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-013.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/s-e-labor-market-conditions/tables/nsb20198-tab03-013.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-013.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.379910+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-015.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/the-skilled-technical-workforce/tables/nsb20198-tab03-015.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-015.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.380568+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-017.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/tables/nsb20198-tab03-017.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-017.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.380937+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-018.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/tables/nsb20198-tab03-018.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-018.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.381325+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-018.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/tables/nsb20198-tab03-018.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-018.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.381581+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-019.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/tables/nsb20198-tab03-019.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-019.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.382226+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-020.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/tables/nsb20198-tab03-020.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-020.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.382857+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-021.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-021.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-021.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.383495+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-022.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-022.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-022.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.384141+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-023.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-023.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-023.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.384775+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/tables/nsb20198-tab03-a.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-a.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.385174+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20198-tab03-a.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20198/assets/u-s-s-e-workforce-definition-size-and-growth/tables/nsb20198-tab03-a.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20198-tab03-a.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.385433+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb202013.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/nsb/publications/2020/nsb202013.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb202013.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.389767+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb202015.pdf?VersionId=TySo_d0KJ7zHCGTsauweSjp9b_Ngel6.
+
+- **URL**: https://nsf-gov-resources.nsf.gov/nsb/publications/2020/nsb202015.pdf?VersionId=TySo_d0KJ7zHCGTsauweSjp9b_Ngel6.
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb202015.pdf?VersionId=TySo_d0KJ7zHCGTsauweSjp9b_Ngel6. (crawled 1 day(s) ago at 2026-03-10T01:18:25.416067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb202038.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb202038.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb202038.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.426265+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-017.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/beyond-patents-trademarks-and-plant-varieties/figures/nsb20204-fig08-017.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-017.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.426866+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-017.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/beyond-patents-trademarks-and-plant-varieties/figures/nsb20204-fig08-017.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-017.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.427166+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-019.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/knowledge-transfer/figures/nsb20204-fig08-019.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-019.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.427570+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-019.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/knowledge-transfer/figures/nsb20204-fig08-019.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-019.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.427857+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-029.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/figures/nsb20204-fig08-029.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-029.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.428314+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-029.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/figures/nsb20204-fig08-029.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-029.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.428575+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-030.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/figures/nsb20204-fig08-030.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-030.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.428978+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-030.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/figures/nsb20204-fig08-030.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-030.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.429241+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-031.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/figures/nsb20204-fig08-031.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-031.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.429625+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-031.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/figures/nsb20204-fig08-031.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-031.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.429882+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-032.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/figures/nsb20204-fig08-032.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-032.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.430296+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-fig08-032.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/figures/nsb20204-fig08-032.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-fig08-032.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.430554+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-tab08-005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/knowledge-transfer/tables/nsb20204-tab08-005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-tab08-005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.430958+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-tab08-009.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/tables/nsb20204-tab08-009.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-tab08-009.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.431450+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20204-tab08-009.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20204/assets/innovation-indicators-united-states-and-other-major-economies/tables/nsb20204-tab08-009.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20204-tab08-009.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.431747+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb202145.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsb202145.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb202145.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.439134+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20222.pdf?VersionId=r4iaTnb5JandvCjB6sLO4OwsvoNQ_cAA
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2020/nsb20222/nsb20222.pdf?VersionId=r4iaTnb5JandvCjB6sLO4OwsvoNQ_cAA
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20222.pdf?VersionId=r4iaTnb5JandvCjB6sLO4OwsvoNQ_cAA (crawled 1 day(s) ago at 2026-03-10T01:18:25.441959+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20224-sidebar-citizen-science-in-federal-agencies-and-departments.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20224/assets/knowledge-transfer-indicators-making-information-available/sidebars/nsb20224-sidebar-citizen-science-in-federal-agencies-and-departments.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20224-sidebar-citizen-science-in-federal-agencies-and-departments.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.442360+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20224-sidebar-u-s-international-collaborations-in-open-source-software.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20224/assets/knowledge-transfer-indicators-making-information-available/sidebars/nsb20224-sidebar-u-s-international-collaborations-in-open-source-software.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20224-sidebar-u-s-international-collaborations-in-open-source-software.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.442812+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb20224-technical-appendix.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20224/assets/technical-appendix/nsb20224-technical-appendix.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb20224-technical-appendix.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.443533+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsb202314.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/nsb/publications/2022/merit_review/nsb202314.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsb202314.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.454298+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf-final-de-minimis-small-grant-minor-comp.pdf?VersionId=EZlZNICbnobKPrdzjpJjGexl09vUFYmz
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-12/nsf-final-de-minimis-small-grant-minor-comp.pdf?VersionId=EZlZNICbnobKPrdzjpJjGexl09vUFYmz
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf-final-de-minimis-small-grant-minor-comp.pdf?VersionId=EZlZNICbnobKPrdzjpJjGexl09vUFYmz (crawled 1 day(s) ago at 2026-03-10T01:18:25.454957+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf02057.pdf?VersionId=KKxPW.jSZGI02I2gDJyFWomUT6Vg_3H.
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2002/nsf02057/nsf02057.pdf?VersionId=KKxPW.jSZGI02I2gDJyFWomUT6Vg_3H.
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf02057.pdf?VersionId=KKxPW.jSZGI02I2gDJyFWomUT6Vg_3H. (crawled 1 day(s) ago at 2026-03-10T01:18:25.455818+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf0738.pdf?VersionId=mYwkVOpaxsj0NM_0o9mRDlUnuDfG8zv3
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2007/nsf0738/nsf0738.pdf?VersionId=mYwkVOpaxsj0NM_0o9mRDlUnuDfG8zv3
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf0738.pdf?VersionId=mYwkVOpaxsj0NM_0o9mRDlUnuDfG8zv3 (crawled 1 day(s) ago at 2026-03-10T01:18:25.457716+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf10012.pdf?VersionId=e7NCtUZWkK5R_gjYtVo1Gbqi_MjAagWo
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2010/nsf10012/nsf10012.pdf?VersionId=e7NCtUZWkK5R_gjYtVo1Gbqi_MjAagWo
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf10012.pdf?VersionId=e7NCtUZWkK5R_gjYtVo1Gbqi_MjAagWo (crawled 1 day(s) ago at 2026-03-10T01:18:25.459596+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf104.pdf?VersionId=1zNUCvupLvFVVbQ6j34qI3894CIcQZ_P
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2010/nsf104/nsf104.pdf?VersionId=1zNUCvupLvFVVbQ6j34qI3894CIcQZ_P
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf104.pdf?VersionId=1zNUCvupLvFVVbQ6j34qI3894CIcQZ_P (crawled 1 day(s) ago at 2026-03-10T01:18:25.461655+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf13038new.pdf?VersionId=K.W4POc9FOBA8GBYpkOFcMdiUORajipk
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2013/nsf13038/nsf13038new.pdf?VersionId=K.W4POc9FOBA8GBYpkOFcMdiUORajipk
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf13038new.pdf?VersionId=K.W4POc9FOBA8GBYpkOFcMdiUORajipk (crawled 1 day(s) ago at 2026-03-10T01:18:25.462667+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf15089.pdf?VersionId=G4eS8JPUx1gf.Q8jytI16KO5juyTIv7i
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2015/nsf15089/nsf15089.pdf?VersionId=G4eS8JPUx1gf.Q8jytI16KO5juyTIv7i
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf15089.pdf?VersionId=G4eS8JPUx1gf.Q8jytI16KO5juyTIv7i (crawled 1 day(s) ago at 2026-03-10T01:18:25.471785+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf16001/nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre (crawled 1 day(s) ago at 2026-03-10T01:18:25.483548+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2017/nsf17066/nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo (crawled 1 day(s) ago at 2026-03-10T01:18:25.491637+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf17602.pdf?VersionId=XPCFYHazCAgiLPbvPfcaKO6Rz__cB.KN
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2017/nsf17602/nsf17602.pdf?VersionId=XPCFYHazCAgiLPbvPfcaKO6Rz__cB.KN
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf17602.pdf?VersionId=XPCFYHazCAgiLPbvPfcaKO6Rz__cB.KN (crawled 1 day(s) ago at 2026-03-10T01:18:25.494127+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf17_1.pdf?VersionId=vOy1_.EB7Qg2MdAl8S2UskV8hJEs0ELL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappg17_1/nsf17_1.pdf?VersionId=vOy1_.EB7Qg2MdAl8S2UskV8hJEs0ELL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf17_1.pdf?VersionId=vOy1_.EB7Qg2MdAl8S2UskV8hJEs0ELL (crawled 1 day(s) ago at 2026-03-10T01:18:25.500619+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf18033.pdf?VersionId=At0Bh_C9BtNaL3_GptkG0mSPw.hbLSgF
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2018/nsf18033/nsf18033.pdf?VersionId=At0Bh_C9BtNaL3_GptkG0mSPw.hbLSgF
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf18033.pdf?VersionId=At0Bh_C9BtNaL3_GptkG0mSPw.hbLSgF (crawled 1 day(s) ago at 2026-03-10T01:18:25.502529+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf18_1.pdf?VersionId=JO2B4cgq4egrzM0VklgMEuVx1w8InRkA
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappg18_1/nsf18_1.pdf?VersionId=JO2B4cgq4egrzM0VklgMEuVx1w8InRkA
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf18_1.pdf?VersionId=JO2B4cgq4egrzM0VklgMEuVx1w8InRkA (crawled 1 day(s) ago at 2026-03-10T01:18:25.507096+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf19068.pdf?VersionId=ihjhgPVBqVph4LizQCYCzZrpvsgsxacQ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2019/nsf19068/nsf19068.pdf?VersionId=ihjhgPVBqVph4LizQCYCzZrpvsgsxacQ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf19068.pdf?VersionId=ihjhgPVBqVph4LizQCYCzZrpvsgsxacQ (crawled 1 day(s) ago at 2026-03-10T01:18:25.516026+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf19551.pdf?VersionId=29UQf_6hVKMO6f0frWvjWPyzT._ViCC2
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2019/nsf19551/nsf19551.pdf?VersionId=29UQf_6hVKMO6f0frWvjWPyzT._ViCC2
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf19551.pdf?VersionId=29UQf_6hVKMO6f0frWvjWPyzT._ViCC2 (crawled 1 day(s) ago at 2026-03-10T01:18:25.518546+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf19552.pdf?VersionId=N2BDTPXy58DbxZA2GCl4o5Txhn4DD1zJ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf19552.pdf?VersionId=N2BDTPXy58DbxZA2GCl4o5Txhn4DD1zJ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf19552.pdf?VersionId=N2BDTPXy58DbxZA2GCl4o5Txhn4DD1zJ (crawled 1 day(s) ago at 2026-03-10T01:18:25.519925+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf20032.pdf?VersionId=Y97Gg2LwBle6dLPkGvh1Yh_FgS68qLwL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2020/nsf20032/nsf20032.pdf?VersionId=Y97Gg2LwBle6dLPkGvh1Yh_FgS68qLwL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf20032.pdf?VersionId=Y97Gg2LwBle6dLPkGvh1Yh_FgS68qLwL (crawled 1 day(s) ago at 2026-03-10T01:18:25.522492+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf20_1.pdf?VersionId=Fka..PA5IeL11Cd0agSrPFYyt36sgBux
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappg20_1/nsf20_1.pdf?VersionId=Fka..PA5IeL11Cd0agSrPFYyt36sgBux
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf20_1.pdf?VersionId=Fka..PA5IeL11Cd0agSrPFYyt36sgBux (crawled 1 day(s) ago at 2026-03-10T01:18:25.526701+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf21107.pdf?VersionId=6SuSjanXp7.2tfYdvEtD5WI9LDmuu2qc
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2021/nsf21107/nsf21107.pdf?VersionId=6SuSjanXp7.2tfYdvEtD5WI9LDmuu2qc
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf21107.pdf?VersionId=6SuSjanXp7.2tfYdvEtD5WI9LDmuu2qc (crawled 1 day(s) ago at 2026-03-10T01:18:25.539696+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf21555.pdf?VersionId=wxUtybPFk8fe1q769DOBj5ULnm0eF6Kn
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2021/nsf21555/nsf21555.pdf?VersionId=wxUtybPFk8fe1q769DOBj5ULnm0eF6Kn
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf21555.pdf?VersionId=wxUtybPFk8fe1q769DOBj5ULnm0eF6Kn (crawled 1 day(s) ago at 2026-03-10T01:18:25.542508+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2022/nsf22068/nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG (crawled 1 day(s) ago at 2026-03-10T01:18:25.572460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf22528.pdf?VersionId=TlMYEXeRibcdxKcml92eKMIJ_0JHvJhn
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22528/nsf22528.pdf?VersionId=TlMYEXeRibcdxKcml92eKMIJ_0JHvJhn
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf22528.pdf?VersionId=TlMYEXeRibcdxKcml92eKMIJ_0JHvJhn (crawled 1 day(s) ago at 2026-03-10T01:18:25.574273+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf22529.pdf?VersionId=kDfiaXqzubLX2trSPD91kxcD45I4STfn
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22529/nsf22529.pdf?VersionId=kDfiaXqzubLX2trSPD91kxcD45I4STfn
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf22529.pdf?VersionId=kDfiaXqzubLX2trSPD91kxcD45I4STfn (crawled 1 day(s) ago at 2026-03-10T01:18:25.575759+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf23534.pdf?VersionId=Irmgt52vhpKDNO.Cn1GcYVamTdzCUxED
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23534/nsf23534.pdf?VersionId=Irmgt52vhpKDNO.Cn1GcYVamTdzCUxED
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf23534.pdf?VersionId=Irmgt52vhpKDNO.Cn1GcYVamTdzCUxED (crawled 1 day(s) ago at 2026-03-10T01:18:25.582008+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf23545.pdf?VersionId=zcW1UPfJqr5.yhCpB99.7FlbmcQ.D.2B
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23545/nsf23545.pdf?VersionId=zcW1UPfJqr5.yhCpB99.7FlbmcQ.D.2B
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf23545.pdf?VersionId=zcW1UPfJqr5.yhCpB99.7FlbmcQ.D.2B (crawled 1 day(s) ago at 2026-03-10T01:18:25.584608+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf23629.pdf?VersionId=eAPkrNKjQpa91G3P74Dh.1xgzXhydvze
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23629/nsf23629.pdf?VersionId=eAPkrNKjQpa91G3P74Dh.1xgzXhydvze
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf23629.pdf?VersionId=eAPkrNKjQpa91G3P74Dh.1xgzXhydvze (crawled 1 day(s) ago at 2026-03-10T01:18:25.587039+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf23_1.pdf?VersionId=VQHMy1XFClNhULRMabdaeCqYvbgykldV
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf?VersionId=VQHMy1XFClNhULRMabdaeCqYvbgykldV
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf23_1.pdf?VersionId=VQHMy1XFClNhULRMabdaeCqYvbgykldV (crawled 1 day(s) ago at 2026-03-10T01:18:25.598242+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf24571.pdf?VersionId=G91eL6rGq7lLlCvYYXZ2zsWRy_U5vEI_
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf24571.pdf?VersionId=G91eL6rGq7lLlCvYYXZ2zsWRy_U5vEI_
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf24571.pdf?VersionId=G91eL6rGq7lLlCvYYXZ2zsWRy_U5vEI_ (crawled 1 day(s) ago at 2026-03-10T01:18:25.599862+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf24588.pdf?VersionId=gcaK8aTD1T0Gg7WVrIRRez1GDQlf70lg
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf24588.pdf?VersionId=gcaK8aTD1T0Gg7WVrIRRez1GDQlf70lg
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf24588.pdf?VersionId=gcaK8aTD1T0Gg7WVrIRRez1GDQlf70lg (crawled 1 day(s) ago at 2026-03-10T01:18:25.601620+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.613292+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.613873+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.614385+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.614965+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.615636+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.616124+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.616652+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.617398+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.618085+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab005.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab005.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab005.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.618511+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab006.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab006.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab006.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.619180+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab006.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab006.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab006.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.619625+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab007.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab007.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab007.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.620216+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab007.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab007.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab007.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.620692+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab008.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab008.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab008.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.621348+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab008.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab008.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab008.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.621794+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab009.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab009.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab009.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.622562+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab009.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab009.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab009.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.623222+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab010.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab010.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab010.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.623866+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab010.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab010.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab010.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.624363+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab011.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab011.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab011.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.625127+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab011.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab011.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab011.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.625683+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab012.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab012.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab012.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.626415+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab012.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab012.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab012.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.626985+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab013.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab013.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab013.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.627680+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab013.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab013.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab013.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.628363+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab014.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab014.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab014.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.629112+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab014.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab014.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab014.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.629587+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab015.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab015.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab015.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.630657+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab015.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab015.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab015.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.631227+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab016.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab016.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab016.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.631900+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab016.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab016.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab016.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.632315+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab017.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab017.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab017.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.632907+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab017.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab017.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab017.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.633310+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab018.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab018.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab018.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.634062+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab018.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab018.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab018.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.634679+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab019.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab019.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab019.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.635335+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab019.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab019.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab019.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.635647+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab020.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab020.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab020.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.636355+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab020.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab020.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab020.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.636690+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab021.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab021.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab021.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.637332+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab021.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab021.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab021.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.637648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab022.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab022.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab022.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.638044+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab022.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab022.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab022.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.638319+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab023.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab023.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab023.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.638839+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-tab023.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/data-tables/tables/nsf26302-tab023.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-tab023.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.639154+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-taba-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/technical-tables/tables/nsf26302-taba-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-taba-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.639486+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26302-taba-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26302/assets/technical-tables/tables/nsf26302-taba-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26302-taba-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.639749+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26303-data-sources.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26303/assets/nsf26303-data-sources.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26303-data-sources.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.640040+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26303.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26303/assets/nsf26303.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26303.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.640697+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26304-tab026.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26304/assets/data-tables/tables/nsf26304-tab026.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26304-tab026.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.641074+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26304-tab027.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26304/assets/data-tables/tables/nsf26304-tab027.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26304-tab027.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.642339+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26304-tab027.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26304/assets/data-tables/tables/nsf26304-tab027.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26304-tab027.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.642777+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26305-data-sources.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26305/assets/nsf26305-data-sources.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26305-data-sources.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.643062+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26306-data-sources.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26306/assets/nsf26306-data-sources.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26306-data-sources.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.643327+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26310-data-sources.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26310/assets/nsf26310-data-sources.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26310-data-sources.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.643592+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26313-tab006.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab006.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26313-tab006.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.644256+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26313-tab007.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab007.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26313-tab007.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.644916+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26313-tab007.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab007.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26313-tab007.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.645251+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26313-tab008.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab008.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26313-tab008.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.645913+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26313-tab008.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab008.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26313-tab008.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.646249+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26313-tab009.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab009.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26313-tab009.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.647237+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsf26313-tab010.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab010.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf26313-tab010.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.648026+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### nsfreviewofmanagementfeepoliciesandcontrolsNov2014.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsfreviewofmanagementfeepoliciesandcontrolsNov2014.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsfreviewofmanagementfeepoliciesandcontrolsNov2014.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.648752+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### oct24-r.pdf?VersionId=ez9o0fnwdyyR3JS1nO__Alc30Adw0eCX
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/oct24-r.pdf?VersionId=ez9o0fnwdyyR3JS1nO__Alc30Adw0eCX
+- **Status**: error
+- File not found: crawled_files/nsf.gov/oct24-r.pdf?VersionId=ez9o0fnwdyyR3JS1nO__Alc30Adw0eCX (crawled 1 day(s) ago at 2026-03-10T01:18:25.650082+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pia-nsf-staff-and-visitor-medical-information.pdf?VersionId=uGv_oUXMm1rUqKSF8x8LpcoVH_fRAZOf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/pia-nsf-staff-and-visitor-medical-information.pdf?VersionId=uGv_oUXMm1rUqKSF8x8LpcoVH_fRAZOf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/pia-nsf-staff-and-visitor-medical-information.pdf?VersionId=uGv_oUXMm1rUqKSF8x8LpcoVH_fRAZOf (crawled 1 day(s) ago at 2026-03-10T01:18:25.655436+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pia-social-media-sites.pdf?VersionId=OH3h5V91ZkSrNyRZbc6baqplKg9TGnZd
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/pia-social-media-sites.pdf?VersionId=OH3h5V91ZkSrNyRZbc6baqplKg9TGnZd
+- **Status**: error
+- File not found: crawled_files/nsf.gov/pia-social-media-sites.pdf?VersionId=OH3h5V91ZkSrNyRZbc6baqplKg9TGnZd (crawled 1 day(s) ago at 2026-03-10T01:18:25.656146+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pnag141.pdf?VersionId=8BgXtRGdH.Sv1oqa3RL.IAGtIzL_24yu
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pnag/pnag141.pdf?VersionId=8BgXtRGdH.Sv1oqa3RL.IAGtIzL_24yu
+- **Status**: error
+- File not found: crawled_files/nsf.gov/pnag141.pdf?VersionId=8BgXtRGdH.Sv1oqa3RL.IAGtIzL_24yu (crawled 1 day(s) ago at 2026-03-10T01:18:25.657710+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pnag151.pdf?VersionId=z5Cq2oW40aroaSW7XpxCxjsnVhL_WvuD
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pnag/pnag151.pdf?VersionId=z5Cq2oW40aroaSW7XpxCxjsnVhL_WvuD
+- **Status**: error
+- File not found: crawled_files/nsf.gov/pnag151.pdf?VersionId=z5Cq2oW40aroaSW7XpxCxjsnVhL_WvuD (crawled 1 day(s) ago at 2026-03-10T01:18:25.658664+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pnag161.pdf?VersionId=2Z9mzyd9iyO_IaBD6T8m2Krih8BdjnkO
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pnag/pnag161.pdf?VersionId=2Z9mzyd9iyO_IaBD6T8m2Krih8BdjnkO
+- **Status**: error
+- File not found: crawled_files/nsf.gov/pnag161.pdf?VersionId=2Z9mzyd9iyO_IaBD6T8m2Krih8BdjnkO (crawled 1 day(s) ago at 2026-03-10T01:18:25.659962+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pnag/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_
+- **Status**: error
+- File not found: crawled_files/nsf.gov/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_ (crawled 1 day(s) ago at 2026-03-10T01:18:25.660999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### polar-coc-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/polar-coc-r.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/polar-coc-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.661920+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### reportingrequirements.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/reportingrequirements.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/reportingrequirements.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.662579+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### research
+
+- **URL**: https://www.nsf.gov/awards/terms-conditions/research
+- **Status**: error
+- File not found: crawled_files/nsf.gov/research (crawled 1 day(s) ago at 2026-03-10T01:18:25.663010+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### research_101_for_engineers.pdf
+
+- **URL**: https://seedfund.nsf.gov/assets/files/applicants/research_101_for_engineers.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/research_101_for_engineers.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.663451+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rgovcompliancechecks-jan2023-r_0.pdf?VersionId=jTiNu.YAIBUjzJq7J.06cFPkdQcQMR4J
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/rgovcompliancechecks-jan2023-r_0.pdf?VersionId=jTiNu.YAIBUjzJq7J.06cFPkdQcQMR4J
+- **Status**: error
+- File not found: crawled_files/nsf.gov/rgovcompliancechecks-jan2023-r_0.pdf?VersionId=jTiNu.YAIBUjzJq7J.06cFPkdQcQMR4J (crawled 1 day(s) ago at 2026-03-10T01:18:25.665028+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-0123-r.pdf?VersionId=SCWXzFKP5zrQP3fY9VsEDfuEQqZilZTb
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-0123-r.pdf?VersionId=SCWXzFKP5zrQP3fY9VsEDfuEQqZilZTb
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-0123-r.pdf?VersionId=SCWXzFKP5zrQP3fY9VsEDfuEQqZilZTb (crawled 1 day(s) ago at 2026-03-10T01:18:25.666468+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-0522-r.pdf?VersionId=.iqVnYHo98HMaqllrrYUpPu6o7C4c8tj
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-0522-r.pdf?VersionId=.iqVnYHo98HMaqllrrYUpPu6o7C4c8tj
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-0522-r.pdf?VersionId=.iqVnYHo98HMaqllrrYUpPu6o7C4c8tj (crawled 1 day(s) ago at 2026-03-10T01:18:25.667600+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-0524-r.pdf?VersionId=iRn3Cj.I8ed9R7WKdENkW8C4Ef1vMVp1
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-0524-r.pdf?VersionId=iRn3Cj.I8ed9R7WKdENkW8C4Ef1vMVp1
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-0524-r.pdf?VersionId=iRn3Cj.I8ed9R7WKdENkW8C4Ef1vMVp1 (crawled 1 day(s) ago at 2026-03-10T01:18:25.668663+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-0525.pdf?VersionId=hlcxPayQxqLakkm8w2Cl__xJVFOmV8uJ
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-0525.pdf?VersionId=hlcxPayQxqLakkm8w2Cl__xJVFOmV8uJ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-0525.pdf?VersionId=hlcxPayQxqLakkm8w2Cl__xJVFOmV8uJ (crawled 1 day(s) ago at 2026-03-10T01:18:25.669607+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-1024-r.pdf?VersionId=Djs10c8yuUmrXXMo3IGif4OrJnxAwtLC
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-1024-r.pdf?VersionId=Djs10c8yuUmrXXMo3IGif4OrJnxAwtLC
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-1024-r.pdf?VersionId=Djs10c8yuUmrXXMo3IGif4OrJnxAwtLC (crawled 1 day(s) ago at 2026-03-10T01:18:25.670699+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-122.pdf?VersionId=80osCSACjP.Tmgfn8T0pf4y0Iz8P.XQW
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-122.pdf?VersionId=80osCSACjP.Tmgfn8T0pf4y0Iz8P.XQW
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-122.pdf?VersionId=80osCSACjP.Tmgfn8T0pf4y0Iz8P.XQW (crawled 1 day(s) ago at 2026-03-10T01:18:25.671787+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-720-r.pdf?VersionId=femNVTgcB51ZmexMcE48tnsyflP2L44c
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-720-r.pdf?VersionId=femNVTgcB51ZmexMcE48tnsyflP2L44c
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-720-r.pdf?VersionId=femNVTgcB51ZmexMcE48tnsyflP2L44c (crawled 1 day(s) ago at 2026-03-10T01:18:25.673133+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-general-cond-changes20240520-r.pdf?VersionId=nvI_Yu6iXAXtJHbXQvc8TuCdoNDYE5iL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-general-cond-changes20240520-r.pdf?VersionId=nvI_Yu6iXAXtJHbXQvc8TuCdoNDYE5iL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-general-cond-changes20240520-r.pdf?VersionId=nvI_Yu6iXAXtJHbXQvc8TuCdoNDYE5iL (crawled 1 day(s) ago at 2026-03-10T01:18:25.673717+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-grants-conditions-changes-20230130-r.pdf?VersionId=IkUfDgh5LYevEmwf4vUe_uoVQ_3nKj16
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-grants-conditions-changes-20230130-r.pdf?VersionId=IkUfDgh5LYevEmwf4vUe_uoVQ_3nKj16
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-grants-conditions-changes-20230130-r.pdf?VersionId=IkUfDgh5LYevEmwf4vUe_uoVQ_3nKj16 (crawled 1 day(s) ago at 2026-03-10T01:18:25.674308+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-sigchg0522-r.pdf?VersionId=dKOATReA2x8YYu11Rp7VOahmJIk2C9xc
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-sigchg0522-r.pdf?VersionId=dKOATReA2x8YYu11Rp7VOahmJIk2C9xc
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-sigchg0522-r.pdf?VersionId=dKOATReA2x8YYu11Rp7VOahmJIk2C9xc (crawled 1 day(s) ago at 2026-03-10T01:18:25.674859+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-sigchg122-r.pdf?VersionId=7JQJUmevEvPtpJ_WYgRHDmii9bdz2r1x
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-sigchg122-r.pdf?VersionId=7JQJUmevEvPtpJ_WYgRHDmii9bdz2r1x
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-sigchg122-r.pdf?VersionId=7JQJUmevEvPtpJ_WYgRHDmii9bdz2r1x (crawled 1 day(s) ago at 2026-03-10T01:18:25.675464+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri-sigchg720-r.pdf?VersionId=kKLe.6FMOqMACwYWWhhcOT.fno_5kl2.
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbiri-sigchg720-r.pdf?VersionId=kKLe.6FMOqMACwYWWhhcOT.fno_5kl2.
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri-sigchg720-r.pdf?VersionId=kKLe.6FMOqMACwYWWhhcOT.fno_5kl2. (crawled 1 day(s) ago at 2026-03-10T01:18:25.676002+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbiri_212.pdf?VersionId=LQ5gF701_UZpySQl9aD0_m.7o26OaZnE
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/sbir/sbiri_212.pdf?VersionId=LQ5gF701_UZpySQl9aD0_m.7o26OaZnE
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbiri_212.pdf?VersionId=LQ5gF701_UZpySQl9aD0_m.7o26OaZnE (crawled 1 day(s) ago at 2026-03-10T01:18:25.676471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-0525.pdf?VersionId=lw45FZBoM6zzCdALZGIX1RyrBEkRXCm1
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-0525.pdf?VersionId=lw45FZBoM6zzCdALZGIX1RyrBEkRXCm1
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-0525.pdf?VersionId=lw45FZBoM6zzCdALZGIX1RyrBEkRXCm1 (crawled 1 day(s) ago at 2026-03-10T01:18:25.677531+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-0524.pdf?VersionId=kiElt0n9CrlbnIfDh19SSX7US_UJscqI
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-0524.pdf?VersionId=kiElt0n9CrlbnIfDh19SSX7US_UJscqI
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-0524.pdf?VersionId=kiElt0n9CrlbnIfDh19SSX7US_UJscqI (crawled 1 day(s) ago at 2026-03-10T01:18:25.678601+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-0525.pdf?VersionId=eI36BcM4wtL4TeR3ymJ61OJKBeVISJJ0
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-0525.pdf?VersionId=eI36BcM4wtL4TeR3ymJ61OJKBeVISJJ0
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-0525.pdf?VersionId=eI36BcM4wtL4TeR3ymJ61OJKBeVISJJ0 (crawled 1 day(s) ago at 2026-03-10T01:18:25.679725+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-1024.pdf?VersionId=jRJl7geXEclIoKnj44fqNSr7sAy7tKSK
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-1024.pdf?VersionId=jRJl7geXEclIoKnj44fqNSr7sAy7tKSK
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-1024.pdf?VersionId=jRJl7geXEclIoKnj44fqNSr7sAy7tKSK (crawled 1 day(s) ago at 2026-03-10T01:18:25.680846+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-20211025-r.pdf?VersionId=7k6xELjitST0HqtccH4MDGDliPh5NG6g
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-20211025-r.pdf?VersionId=7k6xELjitST0HqtccH4MDGDliPh5NG6g
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-20211025-r.pdf?VersionId=7k6xELjitST0HqtccH4MDGDliPh5NG6g (crawled 1 day(s) ago at 2026-03-10T01:18:25.682022+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-20211213-r.pdf?VersionId=Tf19s7NW0O3mFylFVd.6fqV3ApKoQd.H
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-20211213-r.pdf?VersionId=Tf19s7NW0O3mFylFVd.6fqV3ApKoQd.H
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-20211213-r.pdf?VersionId=Tf19s7NW0O3mFylFVd.6fqV3ApKoQd.H (crawled 1 day(s) ago at 2026-03-10T01:18:25.683110+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-20220114-r.pdf?VersionId=DZnPxh1lJJppNpwuGLNn65wyCo6.xZxm
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-20220114-r.pdf?VersionId=DZnPxh1lJJppNpwuGLNn65wyCo6.xZxm
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-20220114-r.pdf?VersionId=DZnPxh1lJJppNpwuGLNn65wyCo6.xZxm (crawled 1 day(s) ago at 2026-03-10T01:18:25.684248+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-20220513-r.pdf?VersionId=p6yxCngDqkJoEcqckhxPIv5hz_KVK0ak
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-20220513-r.pdf?VersionId=p6yxCngDqkJoEcqckhxPIv5hz_KVK0ak
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-20220513-r.pdf?VersionId=p6yxCngDqkJoEcqckhxPIv5hz_KVK0ak (crawled 1 day(s) ago at 2026-03-10T01:18:25.685367+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-20230130-r.pdf?VersionId=.5p6vZOX39Kzc04ILsNW74JTp6v6Vsov
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-20230130-r.pdf?VersionId=.5p6vZOX39Kzc04ILsNW74JTp6v6Vsov
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-20230130-r.pdf?VersionId=.5p6vZOX39Kzc04ILsNW74JTp6v6Vsov (crawled 1 day(s) ago at 2026-03-10T01:18:25.686717+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-changes-20230130-r.pdf?VersionId=vDWKiqGd78_cwINBj0QDdzkLGfTA.pjs
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-changes-20230130-r.pdf?VersionId=vDWKiqGd78_cwINBj0QDdzkLGfTA.pjs
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-changes-20230130-r.pdf?VersionId=vDWKiqGd78_cwINBj0QDdzkLGfTA.pjs (crawled 1 day(s) ago at 2026-03-10T01:18:25.687305+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatc-changes0524.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatc-changes0524.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatc-changes0524.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.687814+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatcsigchg-20211025-r.pdf?VersionId=X8vlGtN0_9.dsPoJMzzhyvi0CmYarM01
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatcsigchg-20211025-r.pdf?VersionId=X8vlGtN0_9.dsPoJMzzhyvi0CmYarM01
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatcsigchg-20211025-r.pdf?VersionId=X8vlGtN0_9.dsPoJMzzhyvi0CmYarM01 (crawled 1 day(s) ago at 2026-03-10T01:18:25.688373+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatcsigchg-20211213-r.pdf?VersionId=68CjQHad.cKCnKlkYYAuVFZoPY3Cu6T2
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatcsigchg-20211213-r.pdf?VersionId=68CjQHad.cKCnKlkYYAuVFZoPY3Cu6T2
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatcsigchg-20211213-r.pdf?VersionId=68CjQHad.cKCnKlkYYAuVFZoPY3Cu6T2 (crawled 1 day(s) ago at 2026-03-10T01:18:25.688968+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatcsigchg-20220114-r.pdf?VersionId=flDn8Ll2mSsy0KLBxoc5i2c8fWx59IGj
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatcsigchg-20220114-r.pdf?VersionId=flDn8Ll2mSsy0KLBxoc5i2c8fWx59IGj
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatcsigchg-20220114-r.pdf?VersionId=flDn8Ll2mSsy0KLBxoc5i2c8fWx59IGj (crawled 1 day(s) ago at 2026-03-10T01:18:25.689631+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-cafatcsigchg-20220513-r.pdf?VersionId=tKKFLCMPF6D5WB1agWp5WtZkeLruc00b
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-cafatcsigchg-20220513-r.pdf?VersionId=tKKFLCMPF6D5WB1agWp5WtZkeLruc00b
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-cafatcsigchg-20220513-r.pdf?VersionId=tKKFLCMPF6D5WB1agWp5WtZkeLruc00b (crawled 1 day(s) ago at 2026-03-10T01:18:25.690173+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-changes-20230130-r.pdf?VersionId=NELWjH5HYOEu_n6Av_922mtSQXNQgvJN
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-changes-20230130-r.pdf?VersionId=NELWjH5HYOEu_n6Av_922mtSQXNQgvJN
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-changes-20230130-r.pdf?VersionId=NELWjH5HYOEu_n6Av_922mtSQXNQgvJN (crawled 1 day(s) ago at 2026-03-10T01:18:25.690756+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-changes-20240520-r.pdf?VersionId=sd3W3rMnMJcN4dnD51R8fNxg8ztWTjX6
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-changes-20240520-r.pdf?VersionId=sd3W3rMnMJcN4dnD51R8fNxg8ztWTjX6
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-changes-20240520-r.pdf?VersionId=sd3W3rMnMJcN4dnD51R8fNxg8ztWTjX6 (crawled 1 day(s) ago at 2026-03-10T01:18:25.691316+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-grant-general-terms-cond-20220114-r.pdf?VersionId=R3vOxsCSBr9coAsh9OBQwO4V6tOqm.Kb
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-grant-general-terms-cond-20220114-r.pdf?VersionId=R3vOxsCSBr9coAsh9OBQwO4V6tOqm.Kb
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-grant-general-terms-cond-20220114-r.pdf?VersionId=R3vOxsCSBr9coAsh9OBQwO4V6tOqm.Kb (crawled 1 day(s) ago at 2026-03-10T01:18:25.692584+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-sigchg-20200706-r.pdf?VersionId=wtjNOP_5e0TB01hUcpH2xQyxoqbKxBct
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-sigchg-20200706-r.pdf?VersionId=wtjNOP_5e0TB01hUcpH2xQyxoqbKxBct
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-sigchg-20200706-r.pdf?VersionId=wtjNOP_5e0TB01hUcpH2xQyxoqbKxBct (crawled 1 day(s) ago at 2026-03-10T01:18:25.693216+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-sigchg-20220114-r.pdf?VersionId=ilSrPC3wC0vptApDlq0Ddw.rg8feK.Lx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-sigchg-20220114-r.pdf?VersionId=ilSrPC3wC0vptApDlq0Ddw.rg8feK.Lx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-sigchg-20220114-r.pdf?VersionId=ilSrPC3wC0vptApDlq0Ddw.rg8feK.Lx (crawled 1 day(s) ago at 2026-03-10T01:18:25.693795+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii-sigchg-20220513-r_0.pdf?VersionId=M5tx9lHmglDsC8wQj2bWsLAUDHP0SQC2
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sbirii-sigchg-20220513-r_0.pdf?VersionId=M5tx9lHmglDsC8wQj2bWsLAUDHP0SQC2
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii-sigchg-20220513-r_0.pdf?VersionId=M5tx9lHmglDsC8wQj2bWsLAUDHP0SQC2 (crawled 1 day(s) ago at 2026-03-10T01:18:25.694329+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sbirii_212.pdf?VersionId=xKkN0ab191fCTCvI10dChLojNIBU5evj
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/sbir/sbirii_212.pdf?VersionId=xKkN0ab191fCTCvI10dChLojNIBU5evj
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sbirii_212.pdf?VersionId=xKkN0ab191fCTCvI10dChLojNIBU5evj (crawled 1 day(s) ago at 2026-03-10T01:18:25.694808+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sigchg-20210901-r_0.pdf?VersionId=iE4Sk3_IqWhRc8PUnSzXHvutZlTD7HDe
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sigchg-20210901-r_0.pdf?VersionId=iE4Sk3_IqWhRc8PUnSzXHvutZlTD7HDe
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sigchg-20210901-r_0.pdf?VersionId=iE4Sk3_IqWhRc8PUnSzXHvutZlTD7HDe (crawled 1 day(s) ago at 2026-03-10T01:18:25.695431+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sigchg-feb19.pdf?VersionId=b5RppYRjkItY4_RjXVMQe1o.M2CEeCVW
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sigchg-feb19.pdf?VersionId=b5RppYRjkItY4_RjXVMQe1o.M2CEeCVW
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sigchg-feb19.pdf?VersionId=b5RppYRjkItY4_RjXVMQe1o.M2CEeCVW (crawled 1 day(s) ago at 2026-03-10T01:18:25.695893+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sigchg-may22.pdf?VersionId=2MDxki9yLrQ5PRwN9kvqiOH5KVGeUB6q
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sigchg-may22.pdf?VersionId=2MDxki9yLrQ5PRwN9kvqiOH5KVGeUB6q
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sigchg-may22.pdf?VersionId=2MDxki9yLrQ5PRwN9kvqiOH5KVGeUB6q (crawled 1 day(s) ago at 2026-03-10T01:18:25.696389+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sigchg-nov20.pdf?VersionId=dlB38Ayc1XdPL34yTXMFjOeas21TbcQk
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sigchg-nov20.pdf?VersionId=dlB38Ayc1XdPL34yTXMFjOeas21TbcQk
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sigchg-nov20.pdf?VersionId=dlB38Ayc1XdPL34yTXMFjOeas21TbcQk (crawled 1 day(s) ago at 2026-03-10T01:18:25.697009+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sigchg-oct18.pdf?VersionId=BmL0CD24BBNKNaOipbjZTCjTNie_9HYn
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sigchg-oct18.pdf?VersionId=BmL0CD24BBNKNaOipbjZTCjTNie_9HYn
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sigchg-oct18.pdf?VersionId=BmL0CD24BBNKNaOipbjZTCjTNie_9HYn (crawled 1 day(s) ago at 2026-03-10T01:18:25.697332+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sigchg-oct20.pdf?VersionId=iVgzZ6QRs0PhQFjegecBy1f1fDK5foiX
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sigchg-oct20.pdf?VersionId=iVgzZ6QRs0PhQFjegecBy1f1fDK5foiX
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sigchg-oct20.pdf?VersionId=iVgzZ6QRs0PhQFjegecBy1f1fDK5foiX (crawled 1 day(s) ago at 2026-03-10T01:18:25.697851+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### sigchg-oct21.pdf?VersionId=ch1x_a3LiVWFoNigPIDzZ9XjG7b2J5Tx
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/sigchg-oct21.pdf?VersionId=ch1x_a3LiVWFoNigPIDzZ9XjG7b2J5Tx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/sigchg-oct21.pdf?VersionId=ch1x_a3LiVWFoNigPIDzZ9XjG7b2J5Tx (crawled 1 day(s) ago at 2026-03-10T01:18:25.698339+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### spec-terms-conditions-conf-grants-20211004-r.pdf?VersionId=C360LBQN0wqfbYMplh7qfmmeTOEE99Uy
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/spec-terms-conditions-conf-grants-20211004-r.pdf?VersionId=C360LBQN0wqfbYMplh7qfmmeTOEE99Uy
+- **Status**: error
+- File not found: crawled_files/nsf.gov/spec-terms-conditions-conf-grants-20211004-r.pdf?VersionId=C360LBQN0wqfbYMplh7qfmmeTOEE99Uy (crawled 1 day(s) ago at 2026-03-10T01:18:25.699017+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### spec-terms-conditions-conf-travel-grants-20201005-r.pdf?VersionId=QC4_M1bUsfAQwZM6GEKc7K3_EO_jlO3H
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/spec-terms-conditions-conf-travel-grants-20201005-r.pdf?VersionId=QC4_M1bUsfAQwZM6GEKc7K3_EO_jlO3H
+- **Status**: error
+- File not found: crawled_files/nsf.gov/spec-terms-conditions-conf-travel-grants-20201005-r.pdf?VersionId=QC4_M1bUsfAQwZM6GEKc7K3_EO_jlO3H (crawled 1 day(s) ago at 2026-03-10T01:18:25.699582+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### spec-terms-conditions-conf-travel-grants-20201112-r.pdf?VersionId=g6cuHI8rU7me5fkXjTBaSRn3xnMG3WKc
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/spec-terms-conditions-conf-travel-grants-20201112-r.pdf?VersionId=g6cuHI8rU7me5fkXjTBaSRn3xnMG3WKc
+- **Status**: error
+- File not found: crawled_files/nsf.gov/spec-terms-conditions-conf-travel-grants-20201112-r.pdf?VersionId=g6cuHI8rU7me5fkXjTBaSRn3xnMG3WKc (crawled 1 day(s) ago at 2026-03-10T01:18:25.700195+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### spec-terms-conditions-conf-travel-grants-20220513-r.pdf?VersionId=VdmDCxp5ViDAs4uiZKRs5aXqNbqFKcUL
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/spec-terms-conditions-conf-travel-grants-20220513-r.pdf?VersionId=VdmDCxp5ViDAs4uiZKRs5aXqNbqFKcUL
+- **Status**: error
+- File not found: crawled_files/nsf.gov/spec-terms-conditions-conf-travel-grants-20220513-r.pdf?VersionId=VdmDCxp5ViDAs4uiZKRs5aXqNbqFKcUL (crawled 1 day(s) ago at 2026-03-10T01:18:25.700799+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### spec-terms-conditions-conf-travel-grants-changes-20230130-r.pdf?VersionId=APpRLITOPQe8wkv7M.6t_v.kbHk1_VrN
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/spec-terms-conditions-conf-travel-grants-changes-20230130-r.pdf?VersionId=APpRLITOPQe8wkv7M.6t_v.kbHk1_VrN
+- **Status**: error
+- File not found: crawled_files/nsf.gov/spec-terms-conditions-conf-travel-grants-changes-20230130-r.pdf?VersionId=APpRLITOPQe8wkv7M.6t_v.kbHk1_VrN (crawled 1 day(s) ago at 2026-03-10T01:18:25.701989+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### spec-terms-conditions-conf-travel-grants-fl26-20190225-r.pdf?VersionId=m6lhL_QgVOV.tBmF20xyKWI_LaRUpAua
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/spec-terms-conditions-conf-travel-grants-fl26-20190225-r.pdf?VersionId=m6lhL_QgVOV.tBmF20xyKWI_LaRUpAua
+- **Status**: error
+- File not found: crawled_files/nsf.gov/spec-terms-conditions-conf-travel-grants-fl26-20190225-r.pdf?VersionId=m6lhL_QgVOV.tBmF20xyKWI_LaRUpAua (crawled 1 day(s) ago at 2026-03-10T01:18:25.703806+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### spec-terms-conditions-fl26-conf-travel-grants-20220513-r.pdf?VersionId=aX1m9puSfy4.RZfa92H6j96NgPzqJW7.
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/spec-terms-conditions-fl26-conf-travel-grants-20220513-r.pdf?VersionId=aX1m9puSfy4.RZfa92H6j96NgPzqJW7.
+- **Status**: error
+- File not found: crawled_files/nsf.gov/spec-terms-conditions-fl26-conf-travel-grants-20220513-r.pdf?VersionId=aX1m9puSfy4.RZfa92H6j96NgPzqJW7. (crawled 1 day(s) ago at 2026-03-10T01:18:25.705753+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### srvystaterd-2024.pdf
+
+- **URL**: https://ncses.nsf.gov/1599/assets/0/files/srvystaterd-2024.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/srvystaterd-2024.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.714329+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### srvystaterd-2025.pdf
+
+- **URL**: https://ncses.nsf.gov/1599/assets/0/files/srvystaterd-2025.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/srvystaterd-2025.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.720047+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04a.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04a.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.720834+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04a.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04a.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04a.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.721520+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04b.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04b.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.722167+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04b.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04b.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04b.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.722793+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04c.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04c.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04c.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.723664+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04c.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04c.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04c.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.724255+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04d.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04d.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04d.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.725107+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04d.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04d.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04d.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.725637+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04e.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04e.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04e.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.726497+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04e.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04e.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04e.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.727096+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04f.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04f.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.727809+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig04f.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig04f.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig04f.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.728391+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05a.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05a.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.729061+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05a.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05a.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05a.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.729570+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05b.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05b.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.730337+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05b.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05b.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05b.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.730848+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05c.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05c.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05c.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.731446+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05c.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05c.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05c.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.732054+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05d.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05d.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05d.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.732555+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05d.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05d.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05d.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.732828+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05e.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05e.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05e.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.733226+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05e.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05e.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05e.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.733496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05f.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05f.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.733878+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig05f.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig05f.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig05f.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.734165+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-fig06f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig06f.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-fig06f.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.734570+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab01-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab01-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab01-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.734955+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab01-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab01-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab01-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.735231+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab01-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab01-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab01-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.735614+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab01-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab01-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab01-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.735888+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab01-003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab01-003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab01-003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.736307+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab01-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab01-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab01-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.736580+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.737059+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.737346+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.737824+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.738124+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.738597+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.738881+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.739357+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.739642+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.740051+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-005.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-005.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-005.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.740330+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-006.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-006.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-006.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.740706+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-006.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-006.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-006.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.740993+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-007.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-007.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-007.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.741363+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-007.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-007.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-007.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.741631+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-008.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-008.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-008.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.741990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-008.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-008.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-008.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.742258+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-009.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-009.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-009.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.742698+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-009.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-009.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-009.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.742996+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-010.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-010.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-010.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.743370+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab02-010.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab02-010.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab02-010.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.743668+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.744275+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.744581+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.745008+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.745289+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.745711+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.746005+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.746435+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.746723+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.747322+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-005.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-005.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-005.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.747697+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-006.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-006.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-006.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.748421+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab03-006.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab03-006.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab03-006.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.748739+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.749188+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.749469+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.750160+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.750471+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.750895+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.751188+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.751569+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.751842+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.752255+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab04-005.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab04-005.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab04-005.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.752532+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.752981+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.753265+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.753746+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.754053+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.755058+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.755408+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.756362+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.756706+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.757647+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-005.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-005.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-005.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.758008+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-006.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-006.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-006.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.758823+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-006.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-006.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-006.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.759160+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-007.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-007.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-007.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.759581+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-007.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-007.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-007.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.759861+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-008.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-008.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-008.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.760271+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-008.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-008.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-008.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.760549+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-009.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-009.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-009.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.760973+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-009.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-009.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-009.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.761252+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-010.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-010.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-010.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.761648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-010.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-010.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-010.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.761923+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-011.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-011.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-011.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.762327+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-011.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-011.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-011.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.762601+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-012.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-012.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-012.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.763029+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-012.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-012.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-012.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.763310+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-013.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-013.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-013.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.763703+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-013.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-013.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-013.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.763995+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-014.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-014.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-014.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.764553+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab05-014.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab05-014.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab05-014.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.764850+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.765256+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.765536+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.765938+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.766231+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.767166+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.767509+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.768442+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.768784+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.769723+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-005.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-005.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-005.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.770076+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-006.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-006.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-006.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.770890+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab06-006.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab06-006.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab06-006.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.771227+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.771635+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.771913+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.772343+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.772624+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.773057+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.773338+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.774269+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.774614+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-005.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-005.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.775043+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-005.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-005.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-005.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.775324+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-006.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-006.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-006.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.775700+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-006.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-006.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-006.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.775990+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-007.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-007.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-007.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.776773+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-007.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-007.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-007.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.777110+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-008.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-008.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-008.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.777521+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-008.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-008.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-008.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.777799+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-009.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-009.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-009.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.778197+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-009.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-009.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-009.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.778480+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-010.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-010.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-010.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.778850+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-010.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-010.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-010.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.779136+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-011.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-011.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-011.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.779527+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-011.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-011.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-011.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.779813+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-012.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-012.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-012.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.780234+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-012.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-012.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-012.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.780510+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-013.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-013.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-013.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.780877+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-013.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-013.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-013.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.781164+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-014.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-014.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-014.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.781532+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-014.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-014.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-014.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.781804+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-015.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-015.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-015.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.782208+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-015.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-015.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-015.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.782485+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-016.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-016.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-016.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.782871+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-016.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-016.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-016.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.783159+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-017.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-017.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-017.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.783533+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-017.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-017.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-017.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.783806+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-018.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-018.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-018.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.784176+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-018.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-018.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-018.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.784563+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-019.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-019.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-019.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.785067+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-019.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-019.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-019.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.785441+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-020.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-020.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-020.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.785938+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-020.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-020.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-020.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.786332+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-021.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-021.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-021.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.786832+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-021.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-021.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-021.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.787230+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-022.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-022.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-022.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.787746+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-022.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-022.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-022.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.788144+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-023.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-023.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-023.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.788637+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-023.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-023.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-023.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.789037+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-024.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-024.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-024.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.789538+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-024.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-024.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-024.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.789911+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-025.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-025.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-025.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.790445+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-025.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-025.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-025.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.790822+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-026.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-026.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-026.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.791548+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-026.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-026.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-026.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.791970+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-027.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-027.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-027.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.792443+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab07-027.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab07-027.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab07-027.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.792815+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab08-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab08-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab08-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.793364+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab08-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab08-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab08-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.793742+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab08-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab08-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab08-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.794270+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab08-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab08-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab08-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.794574+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab08-003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab08-003.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab08-003.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.794976+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab08-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab08-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab08-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.795256+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab08-004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab08-004.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab08-004.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.795639+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab08-004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab08-004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab08-004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.795913+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-001.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-001.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.796329+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-001.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-001.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-001.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.796611+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.797032+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-002.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-002.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-002.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.797313+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-003.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-003.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-003.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.798007+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-004.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-004.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-004.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.798788+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-005.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-005.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-005.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.799519+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-006.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-006.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-006.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.800392+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-007.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-007.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-007.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.801147+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-008.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-008.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-008.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.801863+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-009.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-009.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-009.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.802574+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-010.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-010.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-010.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.803237+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-011.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-011.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-011.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.803899+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-012.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-012.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-012.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.804579+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-013.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-013.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-013.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.805308+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-014.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-014.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-014.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.806032+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-015.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-015.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-015.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.806757+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-016.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-016.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-016.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.807496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-017.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-017.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-017.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.808339+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-018.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-018.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-018.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.809029+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-019.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-019.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-019.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.809815+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-020.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-020.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-020.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.810482+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-021.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-021.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-021.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.811151+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-022.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-022.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-022.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.811806+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-023.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-023.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-023.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.812567+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-024.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-024.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-024.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.813314+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-025.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-025.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-025.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.814145+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-026.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-026.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-026.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.814960+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-027.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-027.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-027.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.815691+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-028.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-028.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-028.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.816383+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-029.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-029.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-029.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.817063+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-030.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-030.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-030.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.817734+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-031.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-031.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-031.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.818488+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-032.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-032.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-032.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.819374+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-033.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-033.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-033.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.820436+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-034.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-034.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-034.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.822007+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-035.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-035.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-035.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.822757+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-036.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-036.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-036.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.823516+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-037.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-037.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-037.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.824233+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-038.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-038.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-038.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.824918+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-039.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-039.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-039.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.825727+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-tab09-040.xlsx
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/data/tables/wmpd19-sr-tab09-040.xlsx
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-tab09-040.xlsx (crawled 1 day(s) ago at 2026-03-10T01:18:25.826466+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wmpd19-sr-taba-002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/tables/wmpd19-sr-taba-002.pdf
+- **Status**: error
+- File not found: crawled_files/nsf.gov/wmpd19-sr-taba-002.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.826826+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
 ### mnrf-fisheries-management-zone-05-fr-2023-12-07.pdf
 
 - **URL**: https://www.ontario.ca/files/2023-12/mnrf-fisheries-management-zone-05-fr-2023-12-07.pdf
@@ -9704,3 +15588,189 @@ Generated: 2026-03-11T00:24:50.588946+00:00
 - **URL**: https://www.cms.gov/files/document/unified-rate-review-instructions.pdf
 - **Status**: analysed
 - title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 4-10_to_4-16_CRFU_v2rcm.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/4-10_to_4-16_CRFU_v2rcm.pdf?VersionId=RIdPLAe5m8Un.QD.OzAlRS2LrrQhFUkJ
+- **Status**: analysed
+- title, tagged, 
+
+### 4-17_to_4-23_CRFU_final.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/4-17_to_4-23_CRFU_final.pdf?VersionId=rCR2eRCkWWa1uaekp8QJl7bx0CP7PPEb
+- **Status**: analysed
+- title, tagged, 
+
+### 4-24_to_4-30_CRFU.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/4-24_to_4-30_CRFU.pdf?VersionId=Er3qh4yv8nkoNFYygq.CoWfeU4JdW1PQ
+- **Status**: analysed
+- title, 
+
+### 5-8_to_5-14_CARES_Act_Update.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/5-8_to_5-14_CARES_Act_Update.pdf?VersionId=MhcxPatshWetqI2CGZgnEPGAC1cAgRRr
+- **Status**: analysed
+- title, 
+
+### ARP_CRU_Dec6_2021.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_Dec6_2021.pdf?VersionId=FWZHePRTH.tZSn2Ryqej0yTXNJ4y4P0X
+- **Status**: analysed
+- title, 
+
+### ARP_CRU_June21_2022.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_June21_2022.pdf?VersionId=XZrPvDrf07S34flVClr3aS7BswNcBvAP
+- **Status**: analysed
+- title, 
+
+### ARP_CRU_March21_2022.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_March21_2022.pdf?VersionId=W6QcjF06Y305mXr7lk132OM5yVVdvLKj
+- **Status**: analysed
+- title, 
+
+### ARP_CRU_May9_2022.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_May9_2022.pdf?VersionId=Paqt6YexVmLwpwnWL7lsjwAPrVtB4D_A
+- **Status**: analysed
+- title, 
+
+### ARP_CRU_Sept8_2021.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/ARP_CRU_Sept8_2021.pdf?VersionId=HCLYK0bDapx0bMJmtvEoaIzNqMuzMEqz
+- **Status**: analysed
+- title, 
+
+### ARP_Summary_Report_FINAL.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/ARP_Summary_Report_FINAL.pdf?VersionId=nbUvrBLe9C4yeGY2uagohD5y3zePLt31
+- **Status**: analysed
+- title, 
+
+### CFRU_5-15_to_5-21.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/CFRU_5-15_to_5-21.pdf?VersionId=2Ig0QSSuiD0y4dgzbYU6apGZrKdMU3aN
+- **Status**: analysed
+- title, 
+
+### CFRU_5-1_to_5-7.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/CFRU_5-1_to_5-7.pdf?VersionId=XQ6aEzrVV8JTeXCAYpDVl3gszfknCaaD
+- **Status**: analysed
+- title, 
+
+### CFRU_5-22_to_5-28.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/CFRU_5-22_to_5-28.pdf?VersionId=ah62IncQYnkrDPzfq6TSkh_pmC1DX93u
+- **Status**: analysed
+- title, 
+
+### CFRU_5-29_to_6-4.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/CFRU_5-29_to_6-4.pdf?VersionId=V3NUWiWkKWFpjeE8b9Jzgm5LcB9sSssa
+- **Status**: analysed
+- title, 
+
+### CFRU_6-12_to_6-18.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/CFRU_6-12_to_6-18.pdf?VersionId=3MFSgylbDGVi6KF2WI59r4i43ud_5IKz
+- **Status**: analysed
+- title, 
+
+### CFRU_6-19_to_6-25.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/CFRU_6-19_to_6-25.pdf?VersionId=Hf0CwaawYkqxeItNZqQRNnoh9HiJ3kuB
+- **Status**: analysed
+- title, 
+
+### CFRU_6-5_to_6-11.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/CFRU_6-5_to_6-11.pdf?VersionId=TFW7T5WW7Etg0QypcVYP6N0Hequ0MALs
+- **Status**: analysed
+- title, 
+
+### CFRU_Aug11.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2024-01/CFRU_Aug11.pdf?VersionId=0L5PjHjw7OvMkye3fdKsBqvrL.9aA22H
+- **Status**: analysed
+- title, 
+
+### JSR-19-2IFundamentalResearchSecurity-12062019FINAL.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/JSR-19-2IFundamentalResearchSecurity-12062019FINAL.pdf
+- **Status**: analysed
+- title, 
+
+### NSF_Computing_Power_COVID-19_4-10-2020.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-11/NSF_Computing_Power_COVID-19_4-10-2020.pdf?VersionId=Vydwm0OyTAB7HHdHaEE7TgpUgtp9rmtm
+- **Status**: analysed
+- title, tagged, 
+
+### No-FEAR-Act-Data-FY2020-Q1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q1.pdf?VersionId=TT57vG.xEtES6DVWn2bjs2ov8WnhDBHx
+- **Status**: analysed
+- title, 
+
+### No-FEAR-Act-Data-FY2020-Q2.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q2.pdf?VersionId=ZBDvoDkw9sBs9hJTTTJJSRl767h9Bbpt
+- **Status**: analysed
+- title, 
+
+### appendix-a-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/appendix-a-r.pdf?VersionId=3knnVzK81NyO6QJWAPSvcTC4u2DOgz.8
+- **Status**: error
+- File not found: crawled_files/nsf.gov/appendix-a-r.pdf (crawled 0.0 day(s) ago at 2026-03-11T02:02:30.497301+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### arizona_factsheet.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/arizona_factsheet.pdf
+- **Status**: analysed
+- title, 
+
+### nifa-rtc-20201112-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nifa-rtc-20201112-r.pdf?VersionId=2vQ8p_Kiz1hHV1e0Xlk2iN9_zQaUNrKm
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### nsf21598.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2021/nsf21598/nsf21598.pdf?VersionId=9xqwrpX1ChYhJsKdlRX3L1g.qCBp6TY6
+- **Status**: analysed
+- tagged, 
+
+### nsf22527.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22527/nsf22527.pdf?VersionId=Q0JGcoHH7oC6Nw.2KdYVu4yM2v6m9TIW
+- **Status**: analysed
+- tagged, 
+
+### nsf22531.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22531/nsf22531.pdf?VersionId=4jGSTMwuBG5I2AbJBj2S00Srz_gfCPeW
+- **Status**: analysed
+- tagged, 
+
+### nsf22636.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22636/nsf22636.pdf?VersionId=YQiAA0IN8YOJWFTbcUbGwch9O4EkEQNr
+- **Status**: analysed
+- title, tagged, 
+
+### nsf23528.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23528/nsf23528.pdf?VersionId=UDp9dtKFLtFHuahY4WUtFzjCG11DdvBI
+- **Status**: analysed
+- tagged, 
+
+### nsf24_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf24_1.pdf?VersionId=W0GJTUpYwRP3FRBju7EMAKAtt86QOcMZ
+- **Status**: error
+- File not found: crawled_files/nsf.gov/nsf24_1.pdf (crawled 0.0 day(s) ago at 2026-03-11T02:02:31.490397+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
