@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-03-11T14:13:58.852487+00:00",
+    "site": "adem.public.lu",
+    "crawl_url": "https://adem.public.lu",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22956935594",
+    "archive_file": "2026-03-11_14-13-58-852_adem.public.lu.html",
+    "total": 5885,
+    "analysed": 1910,
+    "accessible": 677
+  },
+  {
     "date": "2026-03-11T12:52:34.012777+00:00",
     "site": "hhs.gov",
     "crawl_url": "https://HHS.gov",

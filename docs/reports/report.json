@@ -1,8 +1,8 @@
 {
   "summary": {
-    "generated_at": "2026-03-11T12:52:34.012777+00:00",
-    "total_files": 5884,
-    "analysed": 1909,
+    "generated_at": "2026-03-11T14:13:58.852487+00:00",
+    "total_files": 5885,
+    "analysed": 1910,
     "pending": 2886,
     "errored": 1089,
     "accessible": 677,
@@ -18,9 +18,9 @@
       "ontario.ca": 51,
       "vdl.lu": 16,
       "cms.gov": 373,
-      "adem.public.lu": 16
+      "adem.public.lu": 17
     },
-    "pages_crawled": 0
+    "pages_crawled": 99
   },
   "files": [
     {
@@ -109319,6 +109319,42 @@
         "PDFVersion": "1.4",
         "Creator": "Adobe InDesign 21.2 (Windows)",
         "Producer": "Adobe PDF Library 18.0",
+        "Pages": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/Recl_pro/demande-octroi-indemnite-compensatoire-de.pdf",
+      "md5": "5afe67464f6ee0cfbdce9f49dc12083e",
+      "filename": "demande-octroi-indemnite-compensatoire-de.pdf",
+      "site": "adem.public.lu",
+      "crawled_at": "2026-03-11T14:13:00.272077+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-08-21 08:45:58+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 19.3 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
         "Pages": 2
       },
       "errors": [

@@ -1,13 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-11T12:52:34.012777+00:00
+Generated: 2026-03-11T14:13:58.852487+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 5884 |
-| Analysed | 1909 |
+| URLs crawled | 99 |
+| Total files tracked | 5885 |
+| Analysed | 1910 |
 | Pending analysis | 2886 |
 | Errors during analysis | 1089 |
 | Accessible | 677 |
@@ -19,7 +20,7 @@ Generated: 2026-03-11T12:52:34.012777+00:00
 
 | Site | Files |
 |------|-------|
-| adem.public.lu | 16 |
+| adem.public.lu | 17 |
 | canada.ca | 496 |
 | cms.gov | 373 |
 | ed.gov | 2886 |
@@ -1941,6 +1942,7 @@ Generated: 2026-03-11T12:52:34.012777+00:00
 | [eures-30-years-cookbook-web.pdf](https://adem.public.lu/dam-assets/fr/mobilite-europeene/eures-30-years-cookbook-web.pdf) | adem.public.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 35 |
 | [rapport-final-prestations-assistance.pdf](https://adem.public.lu/dam-assets/fr/formulaires/salaries/rapport-final-prestations-assistance.pdf) | adem.public.lu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 |
 | [skills4job2025-fr.pdf](https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/formations/skills4job2025-fr.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
+| [demande-octroi-indemnite-compensatoire-de.pdf](https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/Recl_pro/demande-octroi-indemnite-compensatoire-de.pdf) | adem.public.lu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 |
 
 ## Files with Errors or Notes
 
@@ -15879,5 +15881,11 @@ Generated: 2026-03-11T12:52:34.012777+00:00
 ### skills4job2025-fr.pdf
 
 - **URL**: https://adem.public.lu/dam-assets/fr/publications/demandeurs-emploi/formations/skills4job2025-fr.pdf
+- **Status**: analysed
+- title, 
+
+### demande-octroi-indemnite-compensatoire-de.pdf
+
+- **URL**: https://adem.public.lu/dam-assets/fr/formulaires/demandeurs-emploi/Recl_pro/demande-octroi-indemnite-compensatoire-de.pdf
 - **Status**: analysed
 - title, 

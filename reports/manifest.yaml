@@ -95589,6 +95589,30 @@
   filename: demande-octroi-indemnite-compensatoire-de.pdf
   site: adem.public.lu
   crawled_at: '2026-03-11T14:13:00.272077+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-08-21 08:45:58+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: true
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 19.3 (Windows)
+    Producer: Adobe PDF Library 17.0
+    Pages: 2
+  errors:
+  - 'title, '
