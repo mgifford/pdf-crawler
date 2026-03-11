@@ -335,6 +335,7 @@ jobs:
           retention-days: 30
 
       - name: Comment analysis results on issue
+        id: comment
         if: >-
           github.event_name == 'workflow_run' &&
           steps.meta.outputs.issue_number != ''
@@ -381,12 +382,14 @@ jobs:
               ].join('\n');
             }
 
-            await github.rest.issues.createComment({
+            const { data: commentData } = await github.rest.issues.createComment({
               owner: repoOwner,
               repo:  repoName,
               issue_number: issueNumber,
               body,
             });
+
+            core.setOutput('comment_url', commentData.html_url);
 
             // Replace the in-progress label with a completed label.
             try {
@@ -406,6 +409,62 @@ jobs:
               issue_number: issueNumber,
               labels: ['scan-complete']
             });
+
+      - name: Link issue comment URL to reports index
+        if: >-
+          github.event_name == 'workflow_run' &&
+          steps.meta.outputs.issue_number != '' &&
+          steps.comment.outputs.comment_url != ''
+        env:
+          COMMENT_URL: ${{ steps.comment.outputs.comment_url }}
+          CRAWL_SITE:  ${{ steps.meta.outputs.crawl_site }}
+        run: |
+          python3 - << 'PYEOF'
+          import json, os, sys
+          from pathlib import Path
+
+          archive_dir = 'docs/reports'
+          site        = os.environ.get('CRAWL_SITE', '').strip()
+          comment_url = os.environ.get('COMMENT_URL', '').strip()
+
+          if not site or not comment_url:
+              print('Skipping: CRAWL_SITE or COMMENT_URL is empty.')
+              sys.exit(0)
+
+          index_path = Path(archive_dir) / 'index.json'
+          if not index_path.exists():
+              print(f'Skipping: {index_path} does not exist.')
+              sys.exit(0)
+
+          data = json.loads(index_path.read_text(encoding='utf-8'))
+          updated = False
+          for entry in data:
+              if entry.get('site') == site and not entry.get('issue_url'):
+                  entry['issue_url'] = comment_url
+                  updated = True
+                  break
+
+          if updated:
+              index_path.write_text(
+                  json.dumps(data, indent=2, default=str), encoding='utf-8'
+              )
+              print(f'Updated index.json: issue_url={comment_url!r} for site={site!r}')
+          else:
+              print(f'No matching entry without issue_url found for site={site!r}')
+          PYEOF
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/reports/index.json
+          if git diff --cached --quiet; then
+            echo "No index changes to commit."
+          else
+            git commit -m "chore: link issue comment to reports index"
+            for attempt in 1 2 3; do
+              git push && break
+              echo "Push attempt $attempt failed – pulling and retrying…"
+              git pull --rebase origin "${{ github.ref_name }}"
+            done
+          fi
 
       - name: Close issue after scan and report
         if: >-
