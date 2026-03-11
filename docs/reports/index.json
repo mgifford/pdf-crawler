@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-11T19:18:16.089910+00:00",
+    "site": "texas.gov",
+    "crawl_url": "https://www.texas.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22970192812",
+    "issue_url": "",
+    "archive_file": "2026-03-11_19-18-16-089_texas.gov.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-11T18:00:32.637950+00:00",
     "site": "edf-feph.org",
     "crawl_url": "https://edf-feph.org",
