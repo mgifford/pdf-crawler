@@ -147,9 +147,9 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
     header = (
         "## File Details\n\n"
         "| File | Site | Accessible | Tagged | EmptyText | Protected"
-        " | Title | Language | Bookmarks | Exempt | Pages |\n"
+        " | Title | Language | Bookmarks | Exempt | Pages | Words | Images |\n"
         "|------|------|------------|--------|-----------|---------|"
-        "-------|----------|-----------|--------|-------|\n"
+        "-------|----------|-----------|--------|-------|-------|--------|\n"
     )
 
     rows = []
@@ -169,7 +169,9 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
             f"| {_fmt(r.get('LanguageTest'))} "
             f"| {_fmt(r.get('BookmarksTest'))} "
             f"| {_fmt(r.get('Exempt'))} "
-            f"| {r.get('Pages', _NA)} |"
+            f"| {r.get('Pages', _NA)} "
+            f"| {r.get('Words', _NA) if r.get('Words') is not None else _NA} "
+            f"| {r.get('Images', _NA) if r.get('Images') is not None else _NA} |"
         )
     return header + "\n".join(rows) + "\n"
 
@@ -221,6 +223,8 @@ _CSV_COLUMNS = [
     "bookmarks",
     "exempt",
     "pages",
+    "words",
+    "images",
     "errors",
 ]
 
@@ -257,6 +261,8 @@ def generate_csv(entries: List[Dict[str, Any]]) -> str:
                 "bookmarks": r.get("BookmarksTest", ""),
                 "exempt": r.get("Exempt", ""),
                 "pages": r.get("Pages", ""),
+                "words": r.get("Words", ""),
+                "images": r.get("Images", ""),
                 "errors": "; ".join(str(err) for err in errors if err),
             }
         )
@@ -337,13 +343,15 @@ def generate_issue_comment(
         lines += [
             "## PDFs Scanned",
             "",
-            "| PDF | Accessible | Tagged | Title | Language | Bookmarks | Pages |",
-            "|-----|-----------|--------|-------|----------|-----------|-------|",
+            "| PDF | Accessible | Tagged | Title | Language | Bookmarks | Pages | Words | Images |",
+            "|-----|-----------|--------|-------|----------|-----------|-------|-------|--------|",
         ]
         for e in analysed[:max_files]:
             r = e.get("report") or {}
             url = e.get("url", "")
             filename = e.get("filename", url.split("/")[-1])
+            words = r.get("Words")
+            images = r.get("Images")
             lines.append(
                 f"| [{filename}]({url})"
                 f" | {_icon(r.get('Accessible'))}"
@@ -351,7 +359,9 @@ def generate_issue_comment(
                 f" | {_icon(r.get('TitleTest'))}"
                 f" | {_icon(r.get('LanguageTest'))}"
                 f" | {_icon(r.get('BookmarksTest'))}"
-                f" | {r.get('Pages', '—')} |"
+                f" | {r.get('Pages', '—')}"
+                f" | {words if words is not None else '—'}"
+                f" | {images if images is not None else '—'} |"
             )
         if len(analysed) > max_files:
             lines += [
@@ -548,7 +558,7 @@ _HTML_TEMPLATE = """\
         html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
         html += '<table><thead><tr>' +
           '<th>File</th><th>Site</th><th>Notes</th><th>Accessible</th>' +
-          '<th>Tagged</th><th>Title</th><th>Language</th><th>Bookmarks</th><th>Pages</th>' +
+          '<th>Tagged</th><th>Title</th><th>Language</th><th>Bookmarks</th><th>Pages</th><th>Words</th><th>Images</th>' +
           '</tr></thead><tbody>';
         analysed.forEach(function (f) {{
           var r = f.report || {{}};
@@ -562,7 +572,9 @@ _HTML_TEMPLATE = """\
             '<td>' + icon(r.TitleTest)      + '</td>' +
             '<td>' + icon(r.LanguageTest)   + '</td>' +
             '<td>' + icon(r.BookmarksTest)  + '</td>' +
-            '<td>' + (r.Pages != null ? r.Pages : '&#x2014;') + '</td>' +
+            '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' +
             '</tr>';
         }});
         html += '</tbody></table>';

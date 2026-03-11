@@ -41,6 +41,7 @@ from pikepdf.models.metadata import decode_pdf_date
 import dateparser
 from bitstring import BitArray
 from langcodes import Language, tag_parser
+from pdfminer.high_level import extract_text as _pdfminer_extract_text
 
 import sys
 
@@ -155,6 +156,45 @@ def _analyse_content(content, is_xobject: bool = False) -> Dict[str, Any]:
     return res
 
 
+def _count_images(pdf: Pdf) -> int:
+    """Count image XObjects referenced across all pages (including nested Form XObjects)."""
+
+    def _count_in_resources(resources) -> int:
+        count = 0
+        if resources is None:
+            return count
+        xobject = resources.get("/XObject")
+        if xobject is None:
+            return count
+        for key in xobject:
+            try:
+                obj = xobject[key]
+                subtype = str(obj.get("/Subtype", ""))
+                if subtype == "/Image":
+                    count += 1
+                elif subtype == "/Form" and obj.get("/Ref") is None:
+                    count += _count_in_resources(obj.get("/Resources"))
+            except Exception:
+                pass
+        return count
+
+    total = 0
+    for page in pdf.pages:
+        total += _count_in_resources(page.get("/Resources"))
+    return total
+
+
+def _count_words(filename: str) -> Optional[int]:
+    """Extract text from *filename* using pdfminer.six and return the word count."""
+    try:
+        text = _pdfminer_extract_text(filename)
+        if text:
+            return len(text.split())
+        return 0
+    except Exception:
+        return None
+
+
 # ---------------------------------------------------------------------------
 # Core check function
 # ---------------------------------------------------------------------------
@@ -185,6 +225,8 @@ def check_file(filename: str, site: str = None) -> Dict[str, Any]:
         "Creator": None,
         "Producer": None,
         "Pages": None,
+        "Words": None,
+        "Images": None,
         "_log": "",
     }
 
@@ -192,6 +234,7 @@ def check_file(filename: str, site: str = None) -> Dict[str, Any]:
         pdf = Pdf.open(filename)
         result["PDFVersion"] = pdf.pdf_version
         result["Pages"] = len(pdf.pages)
+        result["Images"] = _count_images(pdf)
 
         meta = pdf.open_metadata()
         if meta is None:
@@ -370,6 +413,8 @@ def check_file(filename: str, site: str = None) -> Dict[str, Any]:
             if (len(combined["fontNames"]) == 0 or combined["numTxt"] == 0)
             else "Pass"
         )
+
+        result["Words"] = _count_words(filename)
 
     except pikepdf.PasswordError as err:
         result["BrokenFile"] = True

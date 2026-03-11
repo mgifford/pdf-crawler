@@ -457,3 +457,103 @@ def test_max_files_none_is_unlimited(tmp_path):
     result = load_manifest(manifest_path)
     for e in result:
         assert e["status"] != "pending", f"{e['url']} should have been analysed"
+
+
+# ---------------------------------------------------------------------------
+# Words and Images fields
+# ---------------------------------------------------------------------------
+
+def test_check_file_words_and_images_present_in_result(tmp_path):
+    """check_file() result dict must always contain 'Words' and 'Images' keys."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    # Create a minimal valid PDF using pikepdf
+    p = tmp_path / "minimal.pdf"
+    pdf = pikepdf.Pdf.new()
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert "Words" in result, "'Words' key must be present in check_file() result"
+    assert "Images" in result, "'Images' key must be present in check_file() result"
+
+
+def test_check_file_images_zero_for_text_only_pdf(tmp_path):
+    """check_file() must return Images=0 for a PDF with no image XObjects."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "no_images.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result["Images"] == 0
+
+
+def test_count_images_counts_image_xobjects(tmp_path):
+    """_count_images() must count /Image XObjects on a page."""
+    import pikepdf
+    from pdf_analyser import _count_images
+
+    p = tmp_path / "with_image.pdf"
+    pdf = pikepdf.Pdf.new()
+
+    # Create a tiny 1x1 white JPEG-like image stream (raw bytes sufficient for structure)
+    image_stream = pikepdf.Stream(
+        pdf,
+        b"\xff\xd8\xff\xd9",  # minimal JPEG-like bytes
+        Width=1,
+        Height=1,
+        ColorSpace=pikepdf.Name("/DeviceGray"),
+        BitsPerComponent=8,
+        Filter=pikepdf.Name("/DCTDecode"),
+        Subtype=pikepdf.Name("/Image"),
+        Type=pikepdf.Name("/XObject"),
+    )
+    xobjects = pikepdf.Dictionary(Im0=image_stream)
+    resources = pikepdf.Dictionary(XObject=xobjects)
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+        Resources=resources,
+    ))
+    pdf.pages.append(page)
+    pdf.save(str(p))
+
+    opened = pikepdf.Pdf.open(str(p))
+    assert _count_images(opened) == 1
+
+
+def test_count_words_returns_none_on_broken_file(tmp_path):
+    """_count_words() must return None (not raise) for unreadable files."""
+    from pdf_analyser import _count_words
+
+    p = tmp_path / "broken.pdf"
+    p.write_bytes(b"not a pdf at all")
+
+    result = _count_words(str(p))
+    assert result is None
+
+
+def test_count_words_returns_int_for_empty_pdf(tmp_path):
+    """_count_words() must return 0 (or None) for a PDF with no text, not raise."""
+    import pikepdf
+    from pdf_analyser import _count_words
+
+    p = tmp_path / "empty.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.save(str(p))
+
+    result = _count_words(str(p))
+    assert result is None or isinstance(result, int)

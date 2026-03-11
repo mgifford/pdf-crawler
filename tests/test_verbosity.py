@@ -111,6 +111,8 @@ def _fake_report():
         "Creator": None,
         "Producer": None,
         "Pages": 1,
+        "Words": 100,
+        "Images": 0,
         "_log": "",
     }
 
