@@ -357,7 +357,94 @@ def test_generate_reports_index_html_issue_number_in_link():
 
 
 # ---------------------------------------------------------------------------
-# generate_csv
+# Social media metatags
+# ---------------------------------------------------------------------------
+
+def test_generate_html_has_og_title():
+    """generate_html must include an Open Graph title metatag."""
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert 'property="og:title"' in html
+    assert 'PDF Accessibility Scan Results' in html
+
+
+def test_generate_html_has_og_description():
+    """generate_html must include an Open Graph description metatag."""
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert 'property="og:description"' in html
+
+
+def test_generate_html_has_og_type():
+    """generate_html must include an Open Graph type metatag."""
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert 'property="og:type"' in html
+
+
+def test_generate_html_has_og_site_name():
+    """generate_html must include an Open Graph site_name metatag."""
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert 'property="og:site_name"' in html
+    assert 'PDF Accessibility Crawler' in html
+
+
+def test_generate_html_has_twitter_card():
+    """generate_html must include a Twitter Card metatag (used by many platforms)."""
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert 'name="twitter:card"' in html
+    assert 'name="twitter:title"' in html
+    assert 'name="twitter:description"' in html
+
+
+def test_generate_html_has_description_meta():
+    """generate_html must include a standard description metatag."""
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert 'name="description"' in html
+
+
+def test_generate_reports_index_html_has_og_title():
+    """generate_reports_index_html must include an Open Graph title metatag."""
+    html = generate_reports_index_html([])
+    assert 'property="og:title"' in html
+    assert 'PDF Accessibility Scan Reports' in html
+
+
+def test_generate_reports_index_html_has_og_description():
+    """generate_reports_index_html must include an Open Graph description metatag."""
+    html = generate_reports_index_html([])
+    assert 'property="og:description"' in html
+
+
+def test_generate_reports_index_html_has_og_url():
+    """generate_reports_index_html must include an Open Graph URL metatag."""
+    html = generate_reports_index_html([])
+    assert 'property="og:url"' in html
+    assert 'mgifford.github.io/pdf-crawler' in html
+
+
+def test_generate_reports_index_html_has_og_site_name():
+    """generate_reports_index_html must include an Open Graph site_name metatag."""
+    html = generate_reports_index_html([])
+    assert 'property="og:site_name"' in html
+    assert 'PDF Accessibility Crawler' in html
+
+
+def test_generate_reports_index_html_has_twitter_card():
+    """generate_reports_index_html must include a Twitter Card metatag (used by many platforms)."""
+    html = generate_reports_index_html([])
+    assert 'name="twitter:card"' in html
+    assert 'name="twitter:title"' in html
+    assert 'name="twitter:description"' in html
+
+
+def test_generate_reports_index_html_has_description_meta():
+    """generate_reports_index_html must include a standard description metatag."""
+    html = generate_reports_index_html([])
+    assert 'name="description"' in html
 # ---------------------------------------------------------------------------
 
 def test_generate_csv_has_header():
