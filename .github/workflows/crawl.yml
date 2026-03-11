@@ -61,7 +61,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -202,7 +202,7 @@ jobs:
 
       - name: Comment on issue when crawl setup fails
         if: failure() && github.event_name == 'issues'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
         with:
@@ -237,7 +237,7 @@ jobs:
 
       - name: Acknowledge scan request on issue
         if: github.event_name == 'issues'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           CRAWL_URL: ${{ steps.params.outputs.url }}
           IS_RESTART: ${{ github.event.action == 'reopened' }}
@@ -288,7 +288,7 @@ jobs:
             });
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
@@ -369,7 +369,7 @@ jobs:
           " > scan-meta/crawl_site.txt
 
       - name: Upload crawled files as artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: crawled-pdfs-${{ github.run_id }}
           path: crawled_files/
@@ -378,7 +378,7 @@ jobs:
 
       - name: Upload scan metadata as artifact
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: scan-meta-${{ github.run_id }}
           path: scan-meta/
@@ -386,7 +386,7 @@ jobs:
 
       - name: Comment crawl complete on issue
         if: github.event_name == 'issues'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           CRAWL_URL: ${{ steps.params.outputs.url }}
         with:
@@ -401,7 +401,7 @@ jobs:
 
       - name: Comment on issue when scan is cancelled or times out
         if: cancelled() && github.event_name == 'issues'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           CRAWL_URL:        ${{ steps.params.outputs.url }}
           CRAWL_MAX_PAGES:  ${{ steps.params.outputs.max_pages }}

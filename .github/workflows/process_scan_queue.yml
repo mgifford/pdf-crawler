@@ -37,7 +37,7 @@ jobs:
     steps:
       - name: Find open scan issues and mark them as queued
         id: list
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             // Fetch all open issues (paginated).
@@ -136,7 +136,7 @@ jobs:
       # -----------------------------------------------------------------------
       - name: Fetch issue details
         id: issue
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           ISSUE_NUMBER: ${{ matrix.issue_number }}
         with:
@@ -163,7 +163,7 @@ jobs:
       # -----------------------------------------------------------------------
       - name: Checkout repository
         if: steps.issue.outputs.state == 'open'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
@@ -291,7 +291,7 @@ jobs:
         if: >-
           steps.issue.outputs.state == 'open' &&
           steps.params.outputs.skip == 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           ISSUE_TITLE: ${{ steps.issue.outputs.title }}
         with:
@@ -331,7 +331,7 @@ jobs:
         if: >-
           steps.issue.outputs.state == 'open' &&
           steps.params.outputs.skip == 'false'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           CRAWL_URL: ${{ steps.params.outputs.url }}
         with:
@@ -371,7 +371,7 @@ jobs:
         if: >-
           steps.issue.outputs.state == 'open' &&
           steps.params.outputs.skip == 'false'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
@@ -447,7 +447,7 @@ jobs:
         if: >-
           steps.issue.outputs.state == 'open' &&
           steps.params.outputs.skip == 'false'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           CRAWL_URL: ${{ steps.params.outputs.url }}
         with:
@@ -549,7 +549,7 @@ jobs:
         if: >-
           steps.issue.outputs.state == 'open' &&
           steps.params.outputs.skip == 'false'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           CRAWL_URL:    ${{ steps.params.outputs.url }}
           REPO_OWNER:   ${{ github.repository_owner }}
@@ -636,7 +636,7 @@ jobs:
           (failure() || cancelled()) &&
           steps.issue.outputs.state == 'open' &&
           steps.params.outputs.skip != 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         env:
           CRAWL_URL:        ${{ steps.params.outputs.url }}
           RUN_URL:          https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
