@@ -467,7 +467,8 @@ jobs:
           steps.issue.outputs.state == 'open' &&
           steps.params.outputs.skip == 'false'
         env:
-          CRAWL_SITE: ${{ steps.params.outputs.site }}
+          CRAWL_SITE:      ${{ steps.params.outputs.site }}
+          CRAWL_MAX_PAGES: ${{ steps.params.outputs.max_pages }}
         run: |
           SITE_FLAG=""
           if [ -n "$CRAWL_SITE" ]; then
@@ -477,6 +478,7 @@ jobs:
             --manifest reports/manifest.yaml \
             --crawled-dir crawled_files \
             --max-age-days 2 \
+            --max-files "$CRAWL_MAX_PAGES" \
             $SITE_FLAG
 
       # -----------------------------------------------------------------------
