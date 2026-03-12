@@ -1,15 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T16:15:15.045501+00:00
+Generated: 2026-03-12T19:15:48.190576+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 1 |
-| Total files tracked | 8208 |
+| Total files tracked | 9439 |
 | Analysed | 2669 |
-| Pending analysis | 4450 |
+| Pending analysis | 5681 |
 | Errors during analysis | 1089 |
 | Accessible | 982 |
 | Totally inaccessible | 34 |
@@ -33,6 +32,7 @@ Generated: 2026-03-12T16:15:15.045501+00:00
 | edf-feph.org | 98 |
 | energy.gov | 417 |
 | gsa.gov | 450 |
+| hud.gov | 1231 |
 | lasv.brandenburg.de | 260 |
 | mn.gov | 1080 |
 | nsf.gov | 1179 |
