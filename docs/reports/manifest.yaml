@@ -127988,3 +127988,300 @@
     Words: 416
     Images: 0
   errors: []
+- url: https://www.web-4-all.de/wp-content/uploads/2019/06/2019_WfA_Barrierefreie_PDF_QuarkXPress2018.pdf
+  md5: 610bc002b4566fb4c17872e81d69426e
+  filename: 2019_WfA_Barrierefreie_PDF_QuarkXPress2018.pdf
+  site: web-4-all.de
+  crawled_at: '2026-03-12T13:23:13.077909+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2019-06-28 09:26:29+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Microsoft Word
+    Producer: null
+    Pages: 10
+    Words: 672
+    Images: 9
+  errors: []
+- url: https://www.web-4-all.de/wp-content/uploads/2023/09/20230911_Auswahl_bf_CMS.pdf
+  md5: 4dfbcac9928b24de5c1340912e725c73
+  filename: 20230911_Auswahl_bf_CMS.pdf
+  site: web-4-all.de
+  crawled_at: '2026-03-12T13:23:13.078736+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2023-09-11 10:38:00+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Microsoft® Word 2016-2019 (16.0.16731)
+    Producer: axesWord
+    Pages: 2
+    Words: 394
+    Images: 2
+  errors: []
+- url: https://www.web-4-all.de/wp-content/uploads/2023/09/20230911_Checkliste_Redakteure.pdf
+  md5: d78686dd2a16d4ff4487617247b9458e
+  filename: 20230911_Checkliste_Redakteure.pdf
+  site: web-4-all.de
+  crawled_at: '2026-03-12T13:23:13.079498+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2023-09-11 10:20:00+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Microsoft® Word 2016-2019 (16.0.16731)
+    Producer: axesWord
+    Pages: 2
+    Words: 507
+    Images: 2
+  errors: []
+- url: https://www.web-4-all.de/wp-content/uploads/2023/09/20230913_Tipps_PDF.pdf
+  md5: a1dd661cd57b8a275c548addbfacb37b
+  filename: 20230913_Tipps_PDF.pdf
+  site: web-4-all.de
+  crawled_at: '2026-03-12T13:23:13.080270+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2023-09-13 09:05:00+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Microsoft® Word 2016-2019 (16.0.16731)
+    Producer: axesWord
+    Pages: 2
+    Words: 410
+    Images: 4
+  errors: []
+- url: https://www.web-4-all.de/wp-content/uploads/2012/12/Auswahl_bf_CMS.pdf
+  md5: da057f725dea81ff91e18b2d87a09245
+  filename: Auswahl_bf_CMS.pdf
+  site: web-4-all.de
+  crawled_at: '2026-03-12T13:23:13.081017+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2013-03-06 11:58:33+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Writer
+    Producer: OpenOffice.org 3.4.1
+    Pages: 2
+    Words: 403
+    Images: 2
+  errors: []
+- url: https://www.web-4-all.de/wp-content/uploads/2015/08/Infoblatt_bf_PDF.pdf
+  md5: afb05257974f64ac4c667672fb93f926
+  filename: Infoblatt_bf_PDF.pdf
+  site: web-4-all.de
+  crawled_at: '2026-03-12T13:23:13.081987+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2015-08-13 10:21:13+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Writer
+    Producer: OpenOffice 4.0.1
+    Pages: 2
+    Words: 518
+    Images: 3
+  errors: []
+- url: https://www.web-4-all.de/wp-content/uploads/2012/12/Leitfaden_zur_Gestaltung_barrierefreier_Jobboersen_bf.pdf
+  md5: e3e175a7a7121dbf9545969d830feb16
+  filename: Leitfaden_zur_Gestaltung_barrierefreier_Jobboersen_bf.pdf
+  site: web-4-all.de
+  crawled_at: '2026-03-12T13:23:13.083174+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2008-10-22 11:45:49+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 8.1 für Word
+    Producer: Acrobat Distiller 8.1.0 (Windows)
+    Pages: 19
+    Words: 3778
+    Images: 33
+  errors: []
+- url: https://www.web-4-all.de/wp-content/uploads/2012/12/Unterschiede_BITV_1_und_2_01.pdf
+  md5: 24967e8676e6312dfb7c4c0969532d7a
+  filename: Unterschiede_BITV_1_und_2_01.pdf
+  site: web-4-all.de
+  crawled_at: '2026-03-12T13:23:13.083887+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-01-16 09:40:53+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Writer
+    Producer: OpenOffice.org 3.3
+    Pages: 2
+    Words: 650
+    Images: 1
+  errors: []
+- url: https://www.web-4-all.de/wp-content/uploads/2012/12/test_zhaw-plug-ins_de.pdf
+  md5: ffe9b480e93ff59dda0b182510e718e8
+  filename: test_zhaw-plug-ins_de.pdf
+  site: web-4-all.de
+  crawled_at: '2026-03-12T13:23:13.084888+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-07-13 08:14:12+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Writer
+    Producer: OpenOffice.org 3.3
+    Pages: 12
+    Words: 2510
+    Images: 10
+  errors: []

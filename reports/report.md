@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T10:59:17.699706+00:00
+Generated: 2026-03-12T13:24:58.782933+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 466 |
-| Total files tracked | 7622 |
-| Analysed | 2652 |
+| URLs crawled | 636 |
+| Total files tracked | 7631 |
+| Analysed | 2661 |
 | Pending analysis | 3881 |
 | Errors during analysis | 1089 |
-| Accessible | 973 |
+| Accessible | 982 |
 | Totally inaccessible | 34 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 626 |
+| Exempt (pre-2018) | 631 |
 
 ## Files per Site
 
@@ -38,6 +38,7 @@ Generated: 2026-03-12T10:59:17.699706+00:00
 | ontario.ca | 51 |
 | tollwerk.de | 8 |
 | vdl.lu | 16 |
+| web-4-all.de | 9 |
 ## File Details
 
 | File | Site | Accessible | Tagged | EmptyText | Protected | Title | Language | Bookmarks | Exempt | Pages | Words | Images |
@@ -2694,6 +2695,15 @@ Generated: 2026-03-12T10:59:17.699706+00:00
 | [Zuwendungsantrag_LASV_mehrj%C3%A4hrig.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zuwendungsantrag_LASV_mehrj%C3%A4hrig.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1058 | 1 |
 | [Zwischenverwendungsnachweis-Verwendungsnachweis%20Version%201.0%20-%2027.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zwischenverwendungsnachweis-Verwendungsnachweis%20Version%201.0%20-%2027.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 369 | 0 |
 | [Zwischenverwendungsnachweis-Verwendungsnachweis%20Version%201.2%20-%2009.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zwischenverwendungsnachweis-Verwendungsnachweis%20Version%201.2%20-%2009.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 416 | 0 |
+| [2019_WfA_Barrierefreie_PDF_QuarkXPress2018.pdf](https://www.web-4-all.de/wp-content/uploads/2019/06/2019_WfA_Barrierefreie_PDF_QuarkXPress2018.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 672 | 9 |
+| [20230911_Auswahl_bf_CMS.pdf](https://www.web-4-all.de/wp-content/uploads/2023/09/20230911_Auswahl_bf_CMS.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 394 | 2 |
+| [20230911_Checkliste_Redakteure.pdf](https://www.web-4-all.de/wp-content/uploads/2023/09/20230911_Checkliste_Redakteure.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 507 | 2 |
+| [20230913_Tipps_PDF.pdf](https://www.web-4-all.de/wp-content/uploads/2023/09/20230913_Tipps_PDF.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 410 | 4 |
+| [Auswahl_bf_CMS.pdf](https://www.web-4-all.de/wp-content/uploads/2012/12/Auswahl_bf_CMS.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 403 | 2 |
+| [Infoblatt_bf_PDF.pdf](https://www.web-4-all.de/wp-content/uploads/2015/08/Infoblatt_bf_PDF.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 518 | 3 |
+| [Leitfaden_zur_Gestaltung_barrierefreier_Jobboersen_bf.pdf](https://www.web-4-all.de/wp-content/uploads/2012/12/Leitfaden_zur_Gestaltung_barrierefreier_Jobboersen_bf.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 19 | 3778 | 33 |
+| [Unterschiede_BITV_1_und_2_01.pdf](https://www.web-4-all.de/wp-content/uploads/2012/12/Unterschiede_BITV_1_und_2_01.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 650 | 1 |
+| [test_zhaw-plug-ins_de.pdf](https://www.web-4-all.de/wp-content/uploads/2012/12/test_zhaw-plug-ins_de.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 12 | 2510 | 10 |
 
 ## Files with Errors or Notes
 

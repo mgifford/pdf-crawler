@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T13:24:58.782933+00:00",
+    "site": "web-4-all.de",
+    "crawl_url": "https://www.web-4-all.de",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23004117757",
+    "issue_url": "",
+    "archive_file": "2026-03-12_13-24-58-782_web-4-all.de.html",
+    "total": 9,
+    "analysed": 9,
+    "accessible": 9
+  },
+  {
     "date": "2026-03-12T10:59:17.699706+00:00",
     "site": "lasv.brandenburg.de",
     "crawl_url": "https://lasv.brandenburg.de/lasv/de/",
