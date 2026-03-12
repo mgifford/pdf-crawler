@@ -150,16 +150,28 @@ jobs:
               fi
             fi
 
-            # 3. Fall back to the first URL found anywhere in the issue body.
-            if [ -z "$URL" ]; then
-              URL=$(extract_url "$ISSUE_BODY")
+            # 3. Fall back to the "URL: " field in the issue body.
+            #    Strip HTML comments (e.g. "<!-- e.g. https://... -->") and
+            #    whitespace so a blank or template-only field is treated as empty.
+            BODY_URL_FIELD=""
+            if [ -n "$ISSUE_BODY" ]; then
+              BODY_URL_FIELD=$(echo "$ISSUE_BODY" \
+                | grep -Ei '^URL:[[:space:]]*' \
+                | head -1 \
+                | tr -d '\r' \
+                | sed -E 's/^URL:[[:space:]]*//' \
+                | sed 's/<!--.*-->//g' \
+                | tr -d '[:space:]')
+            fi
+            if [ -z "$URL" ] && [ -n "$BODY_URL_FIELD" ]; then
+              URL=$(extract_url "$BODY_URL_FIELD")
             fi
 
-            # 4. If still no URL, try the issue body as a bare domain too.
-            if [ -z "$URL" ] && [ -n "$ISSUE_BODY" ]; then
-              BARE=$(extract_bare_domain "$ISSUE_BODY")
+            # 4. If still no URL, try the URL field value as a bare domain.
+            if [ -z "$URL" ] && [ -n "$BODY_URL_FIELD" ]; then
+              BARE=$(extract_bare_domain "$BODY_URL_FIELD")
               if [ -n "$BARE" ]; then
-                echo "No protocol in body; probing variants for: $BARE"
+                echo "No protocol in body URL field; probing variants for: $BARE"
                 URL=$(resolve_bare_domain "$BARE")
               fi
             fi
