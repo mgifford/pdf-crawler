@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T23:29:40.401776+00:00",
+    "site": "njfamilycare.dhs.state.nj.us",
+    "crawl_url": "https://njfamilycare.dhs.state.nj.us/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23028278169",
+    "issue_url": "",
+    "archive_file": "2026-03-12_23-29-40-401_njfamilycare.dhs.state.nj.us.html",
+    "total": 180,
+    "analysed": 180,
+    "accessible": 16
+  },
+  {
     "date": "2026-03-12T22:40:01.225445+00:00",
     "site": "louvre.fr",
     "crawl_url": "https://www.louvre.fr/",

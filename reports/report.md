@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T22:40:01.225445+00:00
+Generated: 2026-03-12T23:29:40.401776+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 2480 |
-| Total files tracked | 10582 |
-| Analysed | 2727 |
+| URLs crawled | 26 |
+| Total files tracked | 10762 |
+| Analysed | 2907 |
 | Pending analysis | 6766 |
 | Errors during analysis | 1089 |
-| Accessible | 1037 |
+| Accessible | 1053 |
 | Totally inaccessible | 35 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 632 |
+| Exempt (pre-2018) | 635 |
 
 ## Files per Site
 
@@ -36,6 +36,7 @@ Generated: 2026-03-12T22:40:01.225445+00:00
 | hud.gov | 1231 |
 | lasv.brandenburg.de | 260 |
 | mn.gov | 1397 |
+| njfamilycare.dhs.state.nj.us | 180 |
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
 | projects.accesscomputing.uw.edu | 3 |
@@ -2778,6 +2779,186 @@ Generated: 2026-03-12T22:40:01.225445+00:00
 | [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1411 | 1 |
 | [visa-benefits-guide.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/visa-benefits-guide.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 7466 | 0 |
 | [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 9451 | 1 |
+| [Applicant_NJFC_Application_Check_List_en.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_en.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 458 | 2 |
+| [Applicant_NJFC_Application_Check_List_sp.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_sp.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 581 | 2 |
+| [FAQs_UM_Appeal_Changes.pdf](https://njfamilycare.dhs.state.nj.us/docs/FAQs_UM_Appeal_Changes.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 950 | 0 |
+| [MAGI_Online_Rights&Responsibilities.pdf](https://njfamilycare.dhs.state.nj.us/docs/MAGI_Online_Rights&Responsibilities.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1336 | 0 |
+| [NJFC-ANTIF-ARABIC-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-ARABIC-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 203 | 6 |
+| [NJFC-ANTIF-BENGALI-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-BENGALI-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 198 | 6 |
+| [NJFC-ANTIF-CHINESE-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-CHINESE-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 48 | 6 |
+| [NJFC-ANTIF-CREOLE-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-CREOLE-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 201 | 1 |
+| [NJFC-ANTIF-DARI-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-DARI-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 237 | 6 |
+| [NJFC-ANTIF-E-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-E-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 169 | 1 |
+| [NJFC-ANTIF-FRENCH-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-FRENCH-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 217 | 6 |
+| [NJFC-ANTIF-GUJARATI-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-GUJARATI-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 200 | 6 |
+| [NJFC-ANTIF-HINDI-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-HINDI-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 271 | 8 |
+| [NJFC-ANTIF-ITALIAN-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-ITALIAN-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 201 | 1 |
+| [NJFC-ANTIF-JAPANESE-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-JAPANESE-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 61 | 6 |
+| [NJFC-ANTIF-KOREAN-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-KOREAN-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 154 | 1 |
+| [NJFC-ANTIF-PASHTO-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-PASHTO-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 297 | 8 |
+| [NJFC-ANTIF-POLISH-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-POLISH-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 196 | 1 |
+| [NJFC-ANTIF-PORTUGUESE-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-PORTUGUESE-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 199 | 1 |
+| [NJFC-ANTIF-RUSSIAN-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-RUSSIAN-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 203 | 1 |
+| [NJFC-ANTIF-S-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-S-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 212 | 1 |
+| [NJFC-ANTIF-TAGALOG-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-TAGALOG-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 213 | 6 |
+| [NJFC-ANTIF-TURKISH-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-TURKISH-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 186 | 6 |
+| [NJFC-ANTIF-URDU-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-URDU-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 330 | 6 |
+| [NJFC-ANTIF-VIETNAMESE-1223.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-VIETNAMESE-1223.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 283 | 6 |
+| [NJFC-APP-Eng.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-APP-Eng.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 12421 | 5 |
+| [NJFC-APP-Sp.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-APP-Sp.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 14657 | 1 |
+| [NJFC-BHSF-Arabic.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Arabic.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 199 | 5 |
+| [NJFC-BHSF-Bengali.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Bengali.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 182 | 5 |
+| [NJFC-BHSF-Chinese.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Chinese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 48 | 5 |
+| [NJFC-BHSF-Creole.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Creole.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 188 | 5 |
+| [NJFC-BHSF-Dari.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Dari.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 218 | 5 |
+| [NJFC-BHSF-English.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-English.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 127 | 5 |
+| [NJFC-BHSF-French.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-French.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 232 | 5 |
+| [NJFC-BHSF-Gujarati.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Gujarati.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 191 | 5 |
+| [NJFC-BHSF-Hindi.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Hindi.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 235 | 5 |
+| [NJFC-BHSF-Italian.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Italian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 224 | 5 |
+| [NJFC-BHSF-Japanese.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Japanese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 50 | 5 |
+| [NJFC-BHSF-Korean.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Korean.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 152 | 4 |
+| [NJFC-BHSF-Pashto.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Pashto.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 248 | 5 |
+| [NJFC-BHSF-Polish.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Polish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 205 | 5 |
+| [NJFC-BHSF-Portuguese.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Portuguese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 198 | 5 |
+| [NJFC-BHSF-Russian.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Russian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 185 | 5 |
+| [NJFC-BHSF-Spanish.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Spanish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 218 | 5 |
+| [NJFC-BHSF-Tagalog.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Tagalog.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 239 | 5 |
+| [NJFC-BHSF-Turkish.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Turkish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 162 | 5 |
+| [NJFC-BHSF-Urdu.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Urdu.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 231 | 5 |
+| [NJFC-BHSF-Vietnamese.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Vietnamese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 285 | 5 |
+| [NJFC-HIPAA-SP.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-HIPAA-SP.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 2585 | 1 |
+| [NJFC-HIPAA.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC-HIPAA.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 2358 | 1 |
+| [NJFC_MEDINFO_Arabic.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Arabic.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 137 | 5 |
+| [NJFC_MEDINFO_Bengali.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Bengali.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 126 | 4 |
+| [NJFC_MEDINFO_Chinese.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Chinese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 92 | 4 |
+| [NJFC_MEDINFO_Creole.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Creole.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 142 | 4 |
+| [NJFC_MEDINFO_Dari.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Dari.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 154 | 4 |
+| [NJFC_MEDINFO_Eng.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Eng.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 62 | 2 |
+| [NJFC_MEDINFO_French.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_French.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 144 | 4 |
+| [NJFC_MEDINFO_Gujarati.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Gujarati.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 132 | 4 |
+| [NJFC_MEDINFO_Hindi.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Hindi.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 149 | 4 |
+| [NJFC_MEDINFO_Italian.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Italian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 141 | 4 |
+| [NJFC_MEDINFO_Japanese.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Japanese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 91 | 4 |
+| [NJFC_MEDINFO_Korean.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Korean.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 122 | 4 |
+| [NJFC_MEDINFO_Pashto.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Pashto.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 141 | 4 |
+| [NJFC_MEDINFO_Polish.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Polish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 129 | 4 |
+| [NJFC_MEDINFO_Portuguese.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Portuguese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 138 | 4 |
+| [NJFC_MEDINFO_Russian.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Russian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 139 | 4 |
+| [NJFC_MEDINFO_Spanish.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Spanish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 129 | 4 |
+| [NJFC_MEDINFO_Tagalog.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Tagalog.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 141 | 4 |
+| [NJFC_MEDINFO_Turkish.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Turkish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 126 | 4 |
+| [NJFC_MEDINFO_Urdu.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Urdu.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 149 | 5 |
+| [NJFC_MEDINFO_Vietnamese.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Vietnamese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 175 | 4 |
+| [NJHBC-HMO-ARAB.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-ARAB.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 2650 | 20 |
+| [NJHBC-HMO-BEN.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-BEN.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1898 | 7 |
+| [NJHBC-HMO-CREO.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-CREO.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2007 | 19 |
+| [NJHBC-HMO-DAR.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-DAR.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2028 | 7 |
+| [NJHBC-HMO-EN.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-EN.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1715 | 10 |
+| [NJHBC-HMO-FRE.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-FRE.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2055 | 16 |
+| [NJHBC-HMO-GUJ.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-GUJ.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 1834 | 7 |
+| [NJHBC-HMO-HIN.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-HIN.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2041 | 7 |
+| [NJHBC-HMO-ITA.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-ITA.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 1798 | 19 |
+| [NJHBC-HMO-JPN.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-JPN.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 570 | 19 |
+| [NJHBC-HMO-KOR.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-KOR.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1395 | 19 |
+| [NJHBC-HMO-PASH.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-PASH.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 2171 | 7 |
+| [NJHBC-HMO-POL.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-POL.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 1726 | 7 |
+| [NJHBC-HMO-PTG.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-PTG.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 1925 | 8 |
+| [NJHBC-HMO-RUS.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-RUS.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1907 | 5 |
+| [NJHBC-HMO-SCH.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-SCH.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 660 | 10 |
+| [NJHBC-HMO-SP.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-SP.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 2079 | 10 |
+| [NJHBC-HMO-TAG.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-TAG.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 1993 | 19 |
+| [NJHBC-HMO-TRK.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-TRK.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 1610 | 7 |
+| [NJHBC-HMO-URD.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-URD.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 2202 | 7 |
+| [NJHBC-HMO-VIET.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-VIET.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2230 | 18 |
+| [NJSPCP_FAQs.pdf](https://njfamilycare.dhs.state.nj.us/docs/NJSPCP_FAQs.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 385 | 1 |
+| [Plan_First_Program_FAQs.pdf](https://njfamilycare.dhs.state.nj.us/docs/Plan_First_Program_FAQs.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1077 | 1 |
+| [Privacy_Officers_HIPPA_en.pdf](https://njfamilycare.dhs.state.nj.us/docs/Privacy_Officers_HIPPA_en.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 481 | 0 |
+| [Privacy_Officers_HIPPA_sp.pdf](https://njfamilycare.dhs.state.nj.us/docs/Privacy_Officers_HIPPA_sp.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 496 | 0 |
+| [RnR_en.pdf](https://njfamilycare.dhs.state.nj.us/docs/RnR_en.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1375 | 3 |
+| [RnR_sp.pdf](https://njfamilycare.dhs.state.nj.us/docs/RnR_sp.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1573 | 3 |
+| [facts_arabic.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_arabic.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 561 | 0 |
+| [facts_bengali.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_bengali.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 3418 | 10 |
+| [facts_chinese.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_chinese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 143 | 0 |
+| [facts_creole.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_creole.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 616 | 0 |
+| [facts_dari.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_dari.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 635 | 0 |
+| [facts_english.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_english.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 545 | 0 |
+| [facts_french.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_french.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 677 | 0 |
+| [facts_gujarati.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_gujarati.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 648 | 0 |
+| [facts_hindi.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_hindi.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 827 | 0 |
+| [facts_italian.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_italian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 648 | 0 |
+| [facts_japanese.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_japanese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 187 | 0 |
+| [facts_korean.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_korean.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 469 | 0 |
+| [facts_pashto.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_pashto.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 4466 | 7 |
+| [facts_polish.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_polish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 604 | 0 |
+| [facts_portuguese.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_portuguese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 613 | 0 |
+| [facts_russian.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_russian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 634 | 0 |
+| [facts_spanish.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_spanish.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 574 | 0 |
+| [facts_tagalog.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_tagalog.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 638 | 0 |
+| [facts_turkish.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_turkish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 530 | 0 |
+| [facts_urdu.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_urdu.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 880 | 0 |
+| [facts_vietnamese.pdf](https://njfamilycare.dhs.state.nj.us/docs/facts_vietnamese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 980 | 0 |
+| [flyer_arabic.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_arabic.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 15 | 1 |
+| [flyer_bengali.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_bengali.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 476 | 0 |
+| [flyer_chinese.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_chinese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 79 | 0 |
+| [flyer_creole.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_creole.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 561 | 0 |
+| [flyer_dari.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_dari.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 663 | 3 |
+| [flyer_english.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_english.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 549 | 0 |
+| [flyer_french.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_french.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 251 | 0 |
+| [flyer_gujarati.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_gujarati.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 3 | 2 |
+| [flyer_hindi.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_hindi.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 280 | 1 |
+| [flyer_italian.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_italian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 494 | 0 |
+| [flyer_japanese.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_japanese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 87 | 7 |
+| [flyer_korean.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_korean.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 7 | 0 |
+| [flyer_pashto.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_pashto.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 712 | 7 |
+| [flyer_polish.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_polish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 4 | 5 |
+| [flyer_portuguese.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_portuguese.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 218 | 0 |
+| [flyer_russian.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_russian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 109 | 2 |
+| [flyer_spanish.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_spanish.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1014 | 0 |
+| [flyer_tagalog.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_tagalog.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 198 | 0 |
+| [flyer_turkish.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_turkish.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 11 | 3 |
+| [flyer_urdu.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_urdu.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 3 | 5 |
+| [flyer_vietnamese.pdf](https://njfamilycare.dhs.state.nj.us/docs/flyer_vietnamese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 4 | 2 |
+| [healthy_facts_arabic.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_arabic.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 247 | 3 |
+| [healthy_facts_bengali.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_bengali.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 204 | 3 |
+| [healthy_facts_chinese.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_chinese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 155 | 3 |
+| [healthy_facts_creole.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_creole.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 716 | 3 |
+| [healthy_facts_english.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_english.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 756 | 3 |
+| [healthy_facts_french.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_french.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 765 | 3 |
+| [healthy_facts_gujarati.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_gujarati.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 724 | 3 |
+| [healthy_facts_hindi.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_hindi.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 313 | 3 |
+| [healthy_facts_italian.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_italian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 874 | 3 |
+| [healthy_facts_japanese.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_japanese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 1393 | 209 |
+| [healthy_facts_korean.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_korean.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 168 | 3 |
+| [healthy_facts_polish.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_polish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 441 | 3 |
+| [healthy_facts_portuguese.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_portuguese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 708 | 3 |
+| [healthy_facts_russian.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_russian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 219 | 3 |
+| [healthy_facts_spanish.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_spanish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 824 | 3 |
+| [healthy_facts_tagalog.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_tagalog.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 792 | 3 |
+| [healthy_facts_turkish.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_turkish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 228 | 3 |
+| [healthy_facts_urdu.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_urdu.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 291 | 3 |
+| [healthy_facts_vietnamese.pdf](https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_vietnamese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 229 | 3 |
+| [income_e.pdf](https://njfamilycare.dhs.state.nj.us/docs/income_e.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 242 | 1 |
+| [income_s.pdf](https://njfamilycare.dhs.state.nj.us/docs/income_s.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 274 | 1 |
+| [ndc_arabic.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_arabic.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 315 | 1 |
+| [ndc_bengali.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_bengali.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 331 | 1 |
+| [ndc_chinese.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_chinese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 79 | 1 |
+| [ndc_creole.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_creole.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 368 | 1 |
+| [ndc_english.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_english.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 4764 | 0 |
+| [ndc_french.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_french.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 417 | 1 |
+| [ndc_gujarati.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_gujarati.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 317 | 1 |
+| [ndc_hindi.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_hindi.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 392 | 1 |
+| [ndc_italian.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_italian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 334 | 1 |
+| [ndc_japanese.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_japanese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 84 | 1 |
+| [ndc_korean.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_korean.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 240 | 1 |
+| [ndc_polish.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_polish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 302 | 1 |
+| [ndc_portuguese.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_portuguese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 320 | 1 |
+| [ndc_russian.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_russian.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 329 | 1 |
+| [ndc_spanish.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_spanish.pdf) | njfamilycare.dhs.state.nj.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 367 | 0 |
+| [ndc_tagalog.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_tagalog.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 355 | 1 |
+| [ndc_turkish.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_turkish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 281 | 1 |
+| [ndc_urdu.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_urdu.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 388 | 1 |
+| [ndc_vietnamese.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_vietnamese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 426 | 1 |
 
 ## Files with Errors or Notes
 
@@ -19466,3 +19647,987 @@ Generated: 2026-03-12T22:40:01.225445+00:00
 - **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
 - **Status**: analysed
 - lang, 
+
+### Applicant_NJFC_Application_Check_List_en.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_en.pdf
+- **Status**: analysed
+- title, 
+
+### Applicant_NJFC_Application_Check_List_sp.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_sp.pdf
+- **Status**: analysed
+- title, 
+
+### FAQs_UM_Appeal_Changes.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/FAQs_UM_Appeal_Changes.pdf
+- **Status**: analysed
+- title, 
+
+### MAGI_Online_Rights&Responsibilities.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/MAGI_Online_Rights&Responsibilities.pdf
+- **Status**: analysed
+- title, 
+
+### NJFC-ANTIF-ARABIC-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-ARABIC-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-BENGALI-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-BENGALI-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-CHINESE-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-CHINESE-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-CREOLE-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-CREOLE-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-DARI-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-DARI-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-E-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-E-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-FRENCH-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-FRENCH-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-GUJARATI-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-GUJARATI-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-HINDI-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-HINDI-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-ITALIAN-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-ITALIAN-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-JAPANESE-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-JAPANESE-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-KOREAN-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-KOREAN-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-PASHTO-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-PASHTO-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-POLISH-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-POLISH-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-PORTUGUESE-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-PORTUGUESE-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-RUSSIAN-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-RUSSIAN-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-S-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-S-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-TAGALOG-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-TAGALOG-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-TURKISH-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-TURKISH-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-URDU-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-URDU-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-ANTIF-VIETNAMESE-1223.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-ANTIF-VIETNAMESE-1223.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-APP-Eng.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-APP-Eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-APP-Sp.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-APP-Sp.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC-BHSF-Arabic.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Arabic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Bengali.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Bengali.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Chinese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Chinese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Creole.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Creole.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Dari.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Dari.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-English.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-English.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-French.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-French.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Gujarati.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Gujarati.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Hindi.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Hindi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Italian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Italian.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Japanese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Japanese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Korean.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Korean.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Pashto.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Pashto.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Polish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Polish.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Portuguese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Portuguese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Russian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Russian.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Spanish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Spanish.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Tagalog.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Tagalog.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Turkish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Turkish.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Urdu.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Urdu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-BHSF-Vietnamese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-BHSF-Vietnamese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-HIPAA-SP.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-HIPAA-SP.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC-HIPAA.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC-HIPAA.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NJFC_MEDINFO_Arabic.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Arabic.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Bengali.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Bengali.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Chinese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Chinese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Creole.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Creole.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Dari.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Dari.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Eng.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Eng.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_French.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_French.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Gujarati.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Gujarati.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Hindi.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Hindi.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Italian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Italian.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Japanese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Japanese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Korean.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Korean.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Pashto.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Pashto.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Polish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Polish.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Portuguese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Portuguese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Russian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Russian.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Spanish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Spanish.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Tagalog.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Tagalog.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Turkish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Turkish.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Urdu.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Urdu.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJFC_MEDINFO_Vietnamese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJFC_MEDINFO_Vietnamese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NJHBC-HMO-ARAB.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-ARAB.pdf
+- **Status**: analysed
+- title, 
+
+### NJHBC-HMO-BEN.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-BEN.pdf
+- **Status**: analysed
+- title, 
+
+### NJHBC-HMO-CREO.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-CREO.pdf
+- **Status**: analysed
+- lang, 
+
+### NJHBC-HMO-DAR.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-DAR.pdf
+- **Status**: analysed
+- title, lang, 
+
+### NJHBC-HMO-FRE.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-FRE.pdf
+- **Status**: analysed
+- lang, 
+
+### NJHBC-HMO-GUJ.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-GUJ.pdf
+- **Status**: analysed
+- title, lang, 
+
+### NJHBC-HMO-HIN.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-HIN.pdf
+- **Status**: analysed
+- title, lang, 
+
+### NJHBC-HMO-ITA.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-ITA.pdf
+- **Status**: analysed
+- title, lang, 
+
+### NJHBC-HMO-KOR.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-KOR.pdf
+- **Status**: analysed
+- title, 
+
+### NJHBC-HMO-PASH.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-PASH.pdf
+- **Status**: analysed
+- title, 
+
+### NJHBC-HMO-POL.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-POL.pdf
+- **Status**: analysed
+- title, lang, 
+
+### NJHBC-HMO-PTG.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-PTG.pdf
+- **Status**: analysed
+- title, lang, 
+
+### NJHBC-HMO-RUS.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-RUS.pdf
+- **Status**: analysed
+- title, 
+
+### NJHBC-HMO-SCH.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-SCH.pdf
+- **Status**: analysed
+- title, 
+
+### NJHBC-HMO-TAG.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-TAG.pdf
+- **Status**: analysed
+- lang, 
+
+### NJHBC-HMO-TRK.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-TRK.pdf
+- **Status**: analysed
+- title, lang, 
+
+### NJHBC-HMO-URD.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-URD.pdf
+- **Status**: analysed
+- title, 
+
+### NJHBC-HMO-VIET.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJHBC-HMO-VIET.pdf
+- **Status**: analysed
+- title, lang, 
+
+### NJSPCP_FAQs.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/NJSPCP_FAQs.pdf
+- **Status**: analysed
+- title, 
+
+### Plan_First_Program_FAQs.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/Plan_First_Program_FAQs.pdf
+- **Status**: analysed
+- title, 
+
+### Privacy_Officers_HIPPA_en.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/Privacy_Officers_HIPPA_en.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Privacy_Officers_HIPPA_sp.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/Privacy_Officers_HIPPA_sp.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### RnR_en.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/RnR_en.pdf
+- **Status**: analysed
+- title, 
+
+### RnR_sp.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/RnR_sp.pdf
+- **Status**: analysed
+- title, 
+
+### facts_arabic.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_arabic.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_bengali.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_bengali.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_chinese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_chinese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_creole.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_creole.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_dari.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_dari.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_french.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_french.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_gujarati.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_gujarati.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_hindi.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_hindi.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_italian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_italian.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_japanese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_japanese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_korean.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_korean.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_pashto.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_pashto.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_polish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_polish.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_portuguese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_portuguese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_russian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_russian.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_tagalog.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_tagalog.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_turkish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_turkish.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_urdu.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_urdu.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### facts_vietnamese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/facts_vietnamese.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### flyer_arabic.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_arabic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### flyer_bengali.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_bengali.pdf
+- **Status**: analysed
+- title, lang, 
+
+### flyer_chinese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_chinese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### flyer_creole.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_creole.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### flyer_dari.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_dari.pdf
+- **Status**: analysed
+- title, 
+
+### flyer_french.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_french.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### flyer_italian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_italian.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### flyer_japanese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_japanese.pdf
+- **Status**: analysed
+- title, lang, 
+
+### flyer_korean.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_korean.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### flyer_pashto.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_pashto.pdf
+- **Status**: analysed
+- title, 
+
+### flyer_polish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_polish.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### flyer_russian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_russian.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### flyer_urdu.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_urdu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### flyer_vietnamese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/flyer_vietnamese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_arabic.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_arabic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_bengali.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_bengali.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_chinese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_chinese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_creole.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_creole.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_english.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_english.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_french.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_french.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_gujarati.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_gujarati.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_hindi.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_hindi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_italian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_italian.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_japanese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_japanese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_korean.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_korean.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_polish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_polish.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_portuguese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_portuguese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_russian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_russian.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_spanish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_spanish.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_tagalog.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_tagalog.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_turkish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_turkish.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_urdu.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_urdu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### healthy_facts_vietnamese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/healthy_facts_vietnamese.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ndc_arabic.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_arabic.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ndc_bengali.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_bengali.pdf
+- **Status**: analysed
+- title, 
+
+### ndc_chinese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_chinese.pdf
+- **Status**: analysed
+- title, 
+
+### ndc_creole.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_creole.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ndc_french.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_french.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ndc_gujarati.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_gujarati.pdf
+- **Status**: analysed
+- title, 
+
+### ndc_hindi.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_hindi.pdf
+- **Status**: analysed
+- title, 
+
+### ndc_italian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_italian.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ndc_japanese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_japanese.pdf
+- **Status**: analysed
+- title, 
+
+### ndc_korean.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_korean.pdf
+- **Status**: analysed
+- title, 
+
+### ndc_polish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_polish.pdf
+- **Status**: analysed
+- title, 
+
+### ndc_portuguese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_portuguese.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ndc_russian.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_russian.pdf
+- **Status**: analysed
+- title, 
+
+### ndc_tagalog.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_tagalog.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ndc_turkish.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_turkish.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ndc_urdu.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_urdu.pdf
+- **Status**: analysed
+- title, 
+
+### ndc_vietnamese.pdf
+
+- **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_vietnamese.pdf
+- **Status**: analysed
+- title, 
