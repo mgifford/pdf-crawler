@@ -460,8 +460,84 @@ def test_max_files_none_is_unlimited(tmp_path):
 
 
 # ---------------------------------------------------------------------------
+# total_timeout limit
+# ---------------------------------------------------------------------------
+
+def test_total_timeout_zero_analyses_nothing(tmp_path, capsys):
+    """With total_timeout=0, no PDFs should be analysed (budget exhausted immediately)."""
+    from manifest import save_manifest, load_manifest
+
+    entries = [
+        _pending_entry("https://a.com/doc1.pdf", "a.com", tmp_path),
+        _pending_entry("https://a.com/doc2.pdf", "a.com", tmp_path),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        total_timeout=0,
+    )
+
+    result = load_manifest(manifest_path)
+    for e in result:
+        assert e["status"] == "pending", (
+            f"{e['url']} should remain pending with total_timeout=0"
+        )
+
+    out = capsys.readouterr().out
+    assert "STOP" in out
+    assert "time budget" in out.lower()
+
+
+def test_total_timeout_none_is_unlimited(tmp_path):
+    """When total_timeout is None (default), all files should be analysed."""
+    from manifest import save_manifest, load_manifest
+
+    entries = [
+        _pending_entry(f"https://a.com/t{i}.pdf", "a.com", tmp_path)
+        for i in range(3)
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        total_timeout=None,
+    )
+
+    result = load_manifest(manifest_path)
+    for e in result:
+        assert e["status"] != "pending", f"{e['url']} should have been analysed"
+
+
+def test_total_timeout_message_printed(tmp_path, capsys):
+    """total_timeout budget message must appear in the output at the start of analysis."""
+    from manifest import save_manifest
+
+    entries = [_pending_entry("https://a.com/x.pdf", "a.com", tmp_path)]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        total_timeout=9999,
+    )
+
+    out = capsys.readouterr().out
+    assert "9999s" in out
+
+
+# ---------------------------------------------------------------------------
 # Words and Images fields
 # ---------------------------------------------------------------------------
+
 
 def test_check_file_words_and_images_present_in_result(tmp_path):
     """check_file() result dict must always contain 'Words' and 'Images' keys."""

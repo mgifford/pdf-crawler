@@ -467,6 +467,7 @@ def main(
     per_file_timeout: int = 120,
     max_age_days: Optional[int] = None,
     max_files: Optional[int] = None,
+    total_timeout: Optional[int] = None,
 ) -> None:
     """Analyse pending PDFs and update the manifest.
 
@@ -486,6 +487,11 @@ def main(
             that are skipped as file-not-found, non-PDF, or oversized do not
             count toward this limit).  Useful for bounding the run time when
             a site has a very large number of pending entries.
+        total_timeout: If set, stop analysis after this many seconds of total
+            wall-clock time. Remaining entries stay pending and will be
+            processed on the next run. Useful for staying within CI time
+            limits so that report generation can still complete in the same
+            job.
     """
     print(f"pikepdf version: {pikepdf.__version__}")
 
@@ -503,6 +509,8 @@ def main(
     print(f"Analysing {len(pending)} pending file(s)…")
     if max_files is not None:
         print(f"  File analysis limit: at most {max_files} PDF file(s) will be analysed this run.")
+    if total_timeout is not None:
+        print(f"  Total time budget: at most {total_timeout}s of wall-clock time will be used this run.")
     if max_age_days is not None:
         print(
             f"  Stale-entry threshold: entries older than {max_age_days} day(s) "
@@ -518,6 +526,7 @@ def main(
     files_analysed_count = 0
 
     now_utc = datetime.now(timezone.utc)
+    t_run_start = time.monotonic()
 
     # SIGALRM is only available on POSIX (Linux/macOS).
     _sigalrm_available = hasattr(signal, "SIGALRM")
@@ -526,6 +535,17 @@ def main(
         raise TimeoutError(f"Analysis exceeded {per_file_timeout}s per-file limit")
 
     for entry in pending:
+        # Check the total wall-clock budget before starting each new file.
+        if total_timeout is not None:
+            elapsed_total = time.monotonic() - t_run_start
+            if elapsed_total >= total_timeout:
+                print(
+                    f"  STOP: total time budget of {total_timeout}s exceeded "
+                    f"({elapsed_total:.0f}s elapsed). "
+                    "Remaining pending entries will be processed in the next run."
+                )
+                break
+
         url = entry["url"]
         site = entry.get("site", "")
         filename = entry.get("filename", "")
@@ -782,6 +802,17 @@ if __name__ == "__main__":
             "with a large number of pending entries."
         ),
     )
+    parser.add_argument(
+        "--total-timeout",
+        type=int,
+        default=None,
+        help=(
+            "Stop analysis after this many seconds of total wall-clock time "
+            "(default: unlimited). Remaining entries stay pending and will be "
+            "processed on the next run. Useful for staying within CI time "
+            "limits so that report generation can still complete in the same job."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -792,4 +823,5 @@ if __name__ == "__main__":
         per_file_timeout=args.per_file_timeout,
         max_age_days=args.max_age_days,
         max_files=args.max_files,
+        total_timeout=args.total_timeout,
     )
