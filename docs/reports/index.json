@@ -4,7 +4,7 @@
     "site": "wellsfargo.com",
     "crawl_url": "https://www.wellsfargo.com/assets/pdf/commercial/insights/business-viewpoints/the-psychological-frontline-the-human-element-in-cyber-defense.pdf",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23019504508",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/90#issuecomment-4049369761",
     "archive_file": "2026-03-12_19-15-48-190_wellsfargo.com.html",
     "total": 0,
     "analysed": 0,
