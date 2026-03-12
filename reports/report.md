@@ -1,15 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T14:36:27.333142+00:00
+Generated: 2026-03-12T15:14:27.717735+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 2077 |
-| Total files tracked | 8140 |
+| Total files tracked | 8208 |
 | Analysed | 2669 |
-| Pending analysis | 4382 |
+| Pending analysis | 4450 |
 | Errors during analysis | 1089 |
 | Accessible | 982 |
 | Totally inaccessible | 34 |
@@ -41,6 +40,7 @@ Generated: 2026-03-12T14:36:27.333142+00:00
 | towson.edu | 148 |
 | ul.ie | 7 |
 | vdl.lu | 16 |
+| vivaqua.be | 68 |
 | web-4-all.de | 9 |
 ## File Details
 

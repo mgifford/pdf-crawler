@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T15:14:27.717735+00:00",
+    "site": "pl.mn.gov",
+    "crawl_url": "https://pl.mn.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23009120885",
+    "issue_url": "",
+    "archive_file": "2026-03-12_15-14-27-717_pl.mn.gov.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-12T14:36:27.333142+00:00",
     "site": "ul.ie",
     "crawl_url": "https://www.ul.ie",
