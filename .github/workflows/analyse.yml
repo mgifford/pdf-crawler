@@ -265,6 +265,7 @@ jobs:
             --manifest reports/manifest.yaml \
             --crawled-dir crawled_files \
             --max-age-days 2 \
+            --total-timeout 2700 \
             $SITE_FLAG \
             $MAX_FILES_FLAG \
             $KEEP_FLAG
