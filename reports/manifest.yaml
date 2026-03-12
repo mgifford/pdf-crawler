@@ -112065,70 +112065,303 @@
   filename: Award-Letter-PCA-OD-412-24-archSCAN-LLC-1.pdf
   site: archscan.com
   crawled_at: '2026-03-12T03:31:23.169389+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: true
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Fail
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-10-03 16:22:08-08:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: null
+    Producer: null
+    Pages: 6
+    Words: 0
+    Images: 6
+  errors:
+  - 'title, tagged, lang, '
 - url: https://archscan.com/wp-content/uploads/2025/10/Become-a-PCA-Member.pdf
   md5: 0d7aa478c8bed3bf770dc0679616f66f
   filename: Become-a-PCA-Member.pdf
   site: archscan.com
   crawled_at: '2026-03-12T03:31:23.170232+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-05-13 21:26:29+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft® Word 2019
+    Producer: Microsoft® Word 2019
+    Pages: 1
+    Words: 352
+    Images: 1
+  errors:
+  - 'title, '
 - url: https://archscan.com/wp-content/uploads/2025/11/Benefits-and-ROI-of-Cloud-DMS.pdf
   md5: 165c344299d9e4348b738fb036969d06
   filename: Benefits-and-ROI-of-Cloud-DMS.pdf
   site: archscan.com
   crawled_at: '2026-03-12T03:31:23.176882+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-11-13 03:09:46+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: null
+    Producer: null
+    Pages: 30
+    Words: 1193
+    Images: 82
+  errors:
+  - 'title, '
 - url: https://archscan.com/wp-content/uploads/2019/09/Calculating-Document-Management-ROI.pdf
   md5: 3231d13370721532d699af319fa7e486
   filename: Calculating-Document-Management-ROI.pdf
   site: archscan.com
   crawled_at: '2026-03-12T03:31:23.177852+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2018-09-27 14:01:14+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.3'
+    Creator: null
+    Producer: null
+    Pages: 3
+    Words: 767
+    Images: 6
+  errors:
+  - 'title, tagged, lang, '
 - url: https://archscan.com/wp-content/uploads/2026/01/Capabilities-Statement-12-2025_AOD.pdf
   md5: 55949cc4e671d29acbb9228d6226f124
   filename: Capabilities-Statement-12-2025_AOD.pdf
   site: archscan.com
   crawled_at: '2026-03-12T03:31:23.181374+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-12-30 18:37:17+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: null
+    Producer: macOS Version 15.5 (Build 24F74) Quartz PDFContext
+    Pages: 2
+    Words: 697
+    Images: 6
   errors: []
 - url: https://archscan.com/wp-content/uploads/2019/09/How-do-I-choose-the-right-Document-Management-Solution-for-my-business.pdf
   md5: 0449eae295f0597f0c0814e50b4b331b
   filename: How-do-I-choose-the-right-Document-Management-Solution-for-my-business.pdf
   site: archscan.com
   crawled_at: '2026-03-12T03:31:23.182307+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2018-10-12 13:21:54+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.3'
+    Creator: null
+    Producer: null
+    Pages: 2
+    Words: 614
+    Images: 4
+  errors:
+  - 'title, tagged, lang, '
 - url: https://archscan.com/wp-content/uploads/2019/09/How-much-to-scan-my-files.pdf
   md5: 1a8824637bb478a98a22046979a6ffef
   filename: How-much-to-scan-my-files.pdf
   site: archscan.com
   crawled_at: '2026-03-12T03:31:23.183223+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2018-09-27 14:09:44+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.3'
+    Creator: null
+    Producer: null
+    Pages: 1
+    Words: 385
+    Images: 2
+  errors:
+  - 'title, tagged, lang, '
 - url: https://archscan.com/wp-content/uploads/2024/11/NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf
   md5: 2fcfb87a0f1d2c25afb015150374d563
   filename: NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf
   site: archscan.com
   crawled_at: '2026-03-12T03:31:23.190081+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Fail
+    Exempt: false
+    Date: '2024-11-22 15:06:06+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.3'
+    Creator: null
+    Producer: null
+    Pages: 100
+    Words: 32356
+    Images: 102
+  errors:
+  - 'title, tagged, lang, no bookmarks and more than 20 pages, '
 - url: https://archscan.com/wp-content/uploads/2019/09/White-Paper-Document-Management-for-Facility-Managers.pdf
   md5: 3fe05b9e2e00932a56f6af436510a77e
   filename: White-Paper-Document-Management-for-Facility-Managers.pdf
   site: archscan.com
   crawled_at: '2026-03-12T03:31:23.194314+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2018-10-12 13:19:07+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Adobe InDesign CC 13.0 (Macintosh)
+    Producer: Adobe PDF Library 15.0
+    Pages: 8
+    Words: 2391
+    Images: 11
+  errors:
+  - 'title, '

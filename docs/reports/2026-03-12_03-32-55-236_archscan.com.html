@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: #1a1a2e;
+      background: #f8f9fa;
+    }
+
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: #0d6efd; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    h1 { color: #0d6efd; }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: #6c757d; margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0d6efd;
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: #6c757d; margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: #e9ecef;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid #dee2e6;
+    }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: #f8f9fa; }
+
+    .pass { color: #198754; }
+    .fail { color: #dc3545; }
+    .na   { color: #6c757d; }
+
+    a { color: #0d6efd; }
+
+    .empty-state {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: #6c757d;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav><a href="../reports.html">&#8592; Back to reports index</a></nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-12T03:32:55.237427+00:00",
+    "total_files": 9,
+    "analysed": 9,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 1,
+    "totally_inaccessible": 1,
+    "broken": 0,
+    "exempt": 0,
+    "sites": {
+      "archscan.com": 9
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://archscan.com/wp-content/uploads/2025/10/Award-Letter-PCA-OD-412-24-archSCAN-LLC-1.pdf",
+      "md5": "36cbf020a4b1afc402eaf3225885b3ce",
+      "filename": "Award-Letter-PCA-OD-412-24-archSCAN-LLC-1.pdf",
+      "site": "archscan.com",
+      "crawled_at": "2026-03-12T03:31:23.169389+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-03 16:22:08-08:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 6,
+        "Words": 0,
+        "Images": 6
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://archscan.com/wp-content/uploads/2025/10/Become-a-PCA-Member.pdf",
+      "md5": "0d7aa478c8bed3bf770dc0679616f66f",
+      "filename": "Become-a-PCA-Member.pdf",
+      "site": "archscan.com",
+      "crawled_at": "2026-03-12T03:31:23.170232+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-05-13 21:26:29+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word 2019",
+        "Producer": "Microsoft\u00ae Word 2019",
+        "Pages": 1,
+        "Words": 352,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://archscan.com/wp-content/uploads/2025/11/Benefits-and-ROI-of-Cloud-DMS.pdf",
+      "md5": "165c344299d9e4348b738fb036969d06",
+      "filename": "Benefits-and-ROI-of-Cloud-DMS.pdf",
+      "site": "archscan.com",
+      "crawled_at": "2026-03-12T03:31:23.176882+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-13 03:09:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 30,
+        "Words": 1193,
+        "Images": 82
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://archscan.com/wp-content/uploads/2019/09/Calculating-Document-Management-ROI.pdf",
+      "md5": "3231d13370721532d699af319fa7e486",
+      "filename": "Calculating-Document-Management-ROI.pdf",
+      "site": "archscan.com",
+      "crawled_at": "2026-03-12T03:31:23.177852+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2018-09-27 14:01:14+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 767,
+        "Images": 6
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://archscan.com/wp-content/uploads/2026/01/Capabilities-Statement-12-2025_AOD.pdf",
+      "md5": "55949cc4e671d29acbb9228d6226f124",
+      "filename": "Capabilities-Statement-12-2025_AOD.pdf",
+      "site": "archscan.com",
+      "crawled_at": "2026-03-12T03:31:23.181374+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-30 18:37:17+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "macOS Version 15.5 (Build 24F74) Quartz PDFContext",
+        "Pages": 2,
+        "Words": 697,
+        "Images": 6
+      },
+      "errors": []
+    },
+    {
+      "url": "https://archscan.com/wp-content/uploads/2019/09/How-do-I-choose-the-right-Document-Management-Solution-for-my-business.pdf",
+      "md5": "0449eae295f0597f0c0814e50b4b331b",
+      "filename": "How-do-I-choose-the-right-Document-Management-Solution-for-my-business.pdf",
+      "site": "archscan.com",
+      "crawled_at": "2026-03-12T03:31:23.182307+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2018-10-12 13:21:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 614,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://archscan.com/wp-content/uploads/2019/09/How-much-to-scan-my-files.pdf",
+      "md5": "1a8824637bb478a98a22046979a6ffef",
+      "filename": "How-much-to-scan-my-files.pdf",
+      "site": "archscan.com",
+      "crawled_at": "2026-03-12T03:31:23.183223+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2018-09-27 14:09:44+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 385,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://archscan.com/wp-content/uploads/2024/11/NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf",
+      "md5": "2fcfb87a0f1d2c25afb015150374d563",
+      "filename": "NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf",
+      "site": "archscan.com",
+      "crawled_at": "2026-03-12T03:31:23.190081+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2024-11-22 15:06:06+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 100,
+        "Words": 32356,
+        "Images": 102
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://archscan.com/wp-content/uploads/2019/09/White-Paper-Document-Management-for-Facility-Managers.pdf",
+      "md5": "3fe05b9e2e00932a56f6af436510a77e",
+      "filename": "White-Paper-Document-Management-for-Facility-Managers.pdf",
+      "site": "archscan.com",
+      "crawled_at": "2026-03-12T03:31:23.194314+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2018-10-12 13:19:07+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 13.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 8,
+        "Words": 2391,
+        "Images": 11
+      },
+      "errors": [
+        "title, "
+      ]
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+      if (analysed.length) {
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table><thead><tr>' +
+          '<th>File</th><th>Site</th><th>Notes</th><th>Accessible</th>' +
+          '<th>Tagged</th><th>Title</th><th>Language</th><th>Bookmarks</th><th>Pages</th><th>Words</th><th>Images</th>' +
+          '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          var r = f.report || {};
+          html += '<tr>' +
+            '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' +
+              esc(f.filename || f.url) + '</a></td>' +
+            '<td>' + esc(f.site || '') + '</td>' +
+            '<td>' + esc(f.notes || '') + '</td>' +
+            '<td>' + icon(r.Accessible)     + '</td>' +
+            '<td>' + icon(r.TaggedTest)     + '</td>' +
+            '<td>' + icon(r.TitleTest)      + '</td>' +
+            '<td>' + icon(r.LanguageTest)   + '</td>' +
+            '<td>' + icon(r.BookmarksTest)  + '</td>' +
+            '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' +
+            '</tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+</body>
+</html>

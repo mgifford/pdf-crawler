@@ -1,18 +1,18 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-11T20:24:44.642665+00:00
+Generated: 2026-03-12T03:32:55.236266+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 100 |
-| Total files tracked | 6880 |
-| Analysed | 2176 |
-| Pending analysis | 3615 |
+| URLs crawled | 114 |
+| Total files tracked | 7155 |
+| Analysed | 2185 |
+| Pending analysis | 3881 |
 | Errors during analysis | 1089 |
-| Accessible | 714 |
-| Totally inaccessible | 31 |
+| Accessible | 715 |
+| Totally inaccessible | 32 |
 | Broken / unreadable | 3 |
 | Exempt (pre-2018) | 614 |
 
@@ -22,6 +22,8 @@ Generated: 2026-03-11T20:24:44.642665+00:00
 |------|-------|
 | adem.public.lu | 17 |
 | akzent.lu | 3 |
+| archscan.com | 9 |
+| ble.de | 266 |
 | calgary.ca | 165 |
 | canada.ca | 496 |
 | cms.gov | 373 |
@@ -2213,6 +2215,15 @@ Generated: 2026-03-11T20:24:44.642665+00:00
 | [Aktionsplan-PAN-2019-2024-DE.pdf](https://www.akzent.lu/wp-content/uploads/2025/11/Aktionsplan-PAN-2019-2024-DE.pdf) | akzent.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 77 | 30326 | 1169 |
 | [Aktionsplan-PAN-2019-2024-LS-DE.pdf](https://www.akzent.lu/wp-content/uploads/2025/11/Aktionsplan-PAN-2019-2024-LS-DE.pdf) | akzent.lu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 96 | 8207 | 1 |
 | [UN-BRK-in-Leichter-Sprache-DE.pdf](https://www.akzent.lu/wp-content/uploads/2025/11/UN-BRK-in-Leichter-Sprache-DE.pdf) | akzent.lu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 40 | 3150 | 0 |
+| [Award-Letter-PCA-OD-412-24-archSCAN-LLC-1.pdf](https://archscan.com/wp-content/uploads/2025/10/Award-Letter-PCA-OD-412-24-archSCAN-LLC-1.pdf) | archscan.com | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 6 |
+| [Become-a-PCA-Member.pdf](https://archscan.com/wp-content/uploads/2025/10/Become-a-PCA-Member.pdf) | archscan.com | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 352 | 1 |
+| [Benefits-and-ROI-of-Cloud-DMS.pdf](https://archscan.com/wp-content/uploads/2025/11/Benefits-and-ROI-of-Cloud-DMS.pdf) | archscan.com | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 30 | 1193 | 82 |
+| [Calculating-Document-Management-ROI.pdf](https://archscan.com/wp-content/uploads/2019/09/Calculating-Document-Management-ROI.pdf) | archscan.com | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 767 | 6 |
+| [Capabilities-Statement-12-2025_AOD.pdf](https://archscan.com/wp-content/uploads/2026/01/Capabilities-Statement-12-2025_AOD.pdf) | archscan.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 697 | 6 |
+| [How-do-I-choose-the-right-Document-Management-Solution-for-my-business.pdf](https://archscan.com/wp-content/uploads/2019/09/How-do-I-choose-the-right-Document-Management-Solution-for-my-business.pdf) | archscan.com | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 614 | 4 |
+| [How-much-to-scan-my-files.pdf](https://archscan.com/wp-content/uploads/2019/09/How-much-to-scan-my-files.pdf) | archscan.com | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 385 | 2 |
+| [NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf](https://archscan.com/wp-content/uploads/2024/11/NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf) | archscan.com | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 100 | 32356 | 102 |
+| [White-Paper-Document-Management-for-Facility-Managers.pdf](https://archscan.com/wp-content/uploads/2019/09/White-Paper-Document-Management-for-Facility-Managers.pdf) | archscan.com | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2391 | 11 |
 
 ## Files with Errors or Notes
 
@@ -17533,3 +17544,51 @@ Generated: 2026-03-11T20:24:44.642665+00:00
 - **URL**: https://www.akzent.lu/wp-content/uploads/2025/11/UN-BRK-in-Leichter-Sprache-DE.pdf
 - **Status**: analysed
 - title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Award-Letter-PCA-OD-412-24-archSCAN-LLC-1.pdf
+
+- **URL**: https://archscan.com/wp-content/uploads/2025/10/Award-Letter-PCA-OD-412-24-archSCAN-LLC-1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Become-a-PCA-Member.pdf
+
+- **URL**: https://archscan.com/wp-content/uploads/2025/10/Become-a-PCA-Member.pdf
+- **Status**: analysed
+- title, 
+
+### Benefits-and-ROI-of-Cloud-DMS.pdf
+
+- **URL**: https://archscan.com/wp-content/uploads/2025/11/Benefits-and-ROI-of-Cloud-DMS.pdf
+- **Status**: analysed
+- title, 
+
+### Calculating-Document-Management-ROI.pdf
+
+- **URL**: https://archscan.com/wp-content/uploads/2019/09/Calculating-Document-Management-ROI.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### How-do-I-choose-the-right-Document-Management-Solution-for-my-business.pdf
+
+- **URL**: https://archscan.com/wp-content/uploads/2019/09/How-do-I-choose-the-right-Document-Management-Solution-for-my-business.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### How-much-to-scan-my-files.pdf
+
+- **URL**: https://archscan.com/wp-content/uploads/2019/09/How-much-to-scan-my-files.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf
+
+- **URL**: https://archscan.com/wp-content/uploads/2024/11/NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### White-Paper-Document-Management-for-Facility-Managers.pdf
+
+- **URL**: https://archscan.com/wp-content/uploads/2019/09/White-Paper-Document-Management-for-Facility-Managers.pdf
+- **Status**: analysed
+- title, 

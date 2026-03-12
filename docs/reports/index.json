@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T03:32:55.236266+00:00",
+    "site": "archscan.com",
+    "crawl_url": "https://archscan.com/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22985322144",
+    "issue_url": "",
+    "archive_file": "2026-03-12_03-32-55-236_archscan.com.html",
+    "total": 9,
+    "analysed": 9,
+    "accessible": 1
+  },
+  {
     "date": "2026-03-11T20:24:44.642665+00:00",
     "site": "akzent.lu",
     "crawl_url": "https://akzent.lu",
