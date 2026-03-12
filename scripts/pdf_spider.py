@@ -14,6 +14,7 @@ disabled so that these cross-domain download requests are not dropped; instead
 the spider enforces same-domain page crawling explicitly.
 """
 
+import hashlib
 import json
 import random
 import scrapy
@@ -243,7 +244,6 @@ class PdfA11ySpider(scrapy.Spider):
         else:
             # Root path ("/") or empty path: derive a stable name from the URL
             # to avoid all such PDFs colliding under the same filename.
-            import hashlib
             raw_path = "doc-" + hashlib.md5(response.url.encode()).hexdigest()[:8]
         basename, ext = os.path.splitext(os.path.basename(raw_path))
         # When the URL has no file extension (common on CMS-generated PDF
