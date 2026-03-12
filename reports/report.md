@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T03:32:55.236266+00:00
+Generated: 2026-03-12T06:29:19.152659+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 114 |
-| Total files tracked | 7155 |
-| Analysed | 2185 |
+| URLs crawled | 2476 |
+| Total files tracked | 7163 |
+| Analysed | 2193 |
 | Pending analysis | 3881 |
 | Errors during analysis | 1089 |
-| Accessible | 715 |
+| Accessible | 721 |
 | Totally inaccessible | 32 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 614 |
+| Exempt (pre-2018) | 615 |
 
 ## Files per Site
 
@@ -34,6 +34,7 @@ Generated: 2026-03-12T03:32:55.236266+00:00
 | mn.gov | 729 |
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
+| tollwerk.de | 8 |
 | vdl.lu | 16 |
 ## File Details
 
@@ -2224,6 +2225,14 @@ Generated: 2026-03-12T03:32:55.236266+00:00
 | [How-much-to-scan-my-files.pdf](https://archscan.com/wp-content/uploads/2019/09/How-much-to-scan-my-files.pdf) | archscan.com | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 385 | 2 |
 | [NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf](https://archscan.com/wp-content/uploads/2024/11/NIST-800-171-archSCAN-Security-Procedures-11-11-24.pdf) | archscan.com | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 100 | 32356 | 102 |
 | [White-Paper-Document-Management-for-Facility-Managers.pdf](https://archscan.com/wp-content/uploads/2019/09/White-Paper-Document-Management-for-Facility-Managers.pdf) | archscan.com | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2391 | 11 |
+| [Strassenkreuzer-2025-06-Gemeinwohloekonomie.pdf](https://tollwerk.de/fileadmin/download/Strassenkreuzer-2025-06-Gemeinwohloekonomie.pdf) | tollwerk.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 2173 | 6 |
+| [Tollwerk_Corona-Regeln_Aufenthalt_20200518.pdf](https://tollwerk.de/fileadmin/download/Tollwerk_Corona-Regeln_Aufenthalt_20200518.pdf) | tollwerk.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 425 | 0 |
+| [Tollwerk_Corona-Regeln_Besuch_20200518.pdf](https://tollwerk.de/fileadmin/download/Tollwerk_Corona-Regeln_Besuch_20200518.pdf) | tollwerk.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 173 | 0 |
+| [Veranstaltungskonzept_border-none_2014_Volksbad_Nuernberg_CC-BY-NC-ND-4.0.pdf](https://tollwerk.de/fileadmin/user_upload/blog/Veranstaltungskonzept_border-none_2014_Volksbad_Nuernberg_CC-BY-NC-ND-4.0.pdf) | tollwerk.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 39 | 6540 | 274 |
+| [Zertikfikat_261130_PG-Nuernberg-2024_tollwerk_mmzu_BH.pdf](https://tollwerk.de/fileadmin/download/Zertikfikat_261130_PG-Nuernberg-2024_tollwerk_mmzu_BH.pdf) | tollwerk.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 293 | 0 |
+| [tollwerk_BIK_BITV-WCAG-Test_Barrierefreiheit_Audit_2.0.pdf](https://tollwerk.de/fileadmin/download/tollwerk_BIK_BITV-WCAG-Test_Barrierefreiheit_Audit_2.0.pdf) | tollwerk.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2991 | 0 |
+| [tollwerk_Demodokument_Lesereihenfolge.pdf](https://tollwerk.de/fileadmin/download/tollwerk_Demodokument_Lesereihenfolge.pdf) | tollwerk.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 726 | 0 |
+| [tollwerk_Rotkaeppchen_Fussnoten.pdf](https://tollwerk.de/fileadmin/user_upload/blog/barrierefreie-mehrfach-fussnote-pdf-indesign/tollwerk_Rotkaeppchen_Fussnoten.pdf) | tollwerk.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 178 | 0 |
 
 ## Files with Errors or Notes
 
@@ -17590,5 +17599,17 @@ Generated: 2026-03-12T03:32:55.236266+00:00
 ### White-Paper-Document-Management-for-Facility-Managers.pdf
 
 - **URL**: https://archscan.com/wp-content/uploads/2019/09/White-Paper-Document-Management-for-Facility-Managers.pdf
+- **Status**: analysed
+- title, 
+
+### Veranstaltungskonzept_border-none_2014_Volksbad_Nuernberg_CC-BY-NC-ND-4.0.pdf
+
+- **URL**: https://tollwerk.de/fileadmin/user_upload/blog/Veranstaltungskonzept_border-none_2014_Volksbad_Nuernberg_CC-BY-NC-ND-4.0.pdf
+- **Status**: analysed
+- tagged, 
+
+### tollwerk_Rotkaeppchen_Fussnoten.pdf
+
+- **URL**: https://tollwerk.de/fileadmin/user_upload/blog/barrierefreie-mehrfach-fussnote-pdf-indesign/tollwerk_Rotkaeppchen_Fussnoten.pdf
 - **Status**: analysed
 - title, 

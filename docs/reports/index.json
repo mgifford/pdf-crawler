@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T06:29:19.152659+00:00",
+    "site": "tollwerk.de",
+    "crawl_url": "https://tollwerk.de",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22989492523",
+    "issue_url": "",
+    "archive_file": "2026-03-12_06-29-19-152_tollwerk.de.html",
+    "total": 8,
+    "analysed": 8,
+    "accessible": 6
+  },
+  {
     "date": "2026-03-12T03:32:55.236266+00:00",
     "site": "archscan.com",
     "crawl_url": "https://archscan.com/",

@@ -112370,62 +112370,264 @@
   filename: Strassenkreuzer-2025-06-Gemeinwohloekonomie.pdf
   site: tollwerk.de
   crawled_at: '2026-03-12T06:26:57.478877+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-07-04 16:18:33+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 19.5 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Pages: 3
+    Words: 2173
+    Images: 6
   errors: []
 - url: https://tollwerk.de/fileadmin/download/Tollwerk_Corona-Regeln_Aufenthalt_20200518.pdf
   md5: 50caaef56c4a105b2ef7dbaa0bff0a35
   filename: Tollwerk_Corona-Regeln_Aufenthalt_20200518.pdf
   site: tollwerk.de
   crawled_at: '2026-03-12T06:26:57.479931+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2020-05-18 16:57:30+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 15.0 (Windows)
+    Producer: Adobe PDF Library 15.0
+    Pages: 4
+    Words: 425
+    Images: 0
   errors: []
 - url: https://tollwerk.de/fileadmin/download/Tollwerk_Corona-Regeln_Besuch_20200518.pdf
   md5: c60d8ad1ab54d121aa50b25eb95f7466
   filename: Tollwerk_Corona-Regeln_Besuch_20200518.pdf
   site: tollwerk.de
   crawled_at: '2026-03-12T06:26:57.480665+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2020-05-18 15:25:35+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 15.0 (Windows)
+    Producer: Adobe PDF Library 15.0
+    Pages: 1
+    Words: 173
+    Images: 0
   errors: []
 - url: https://tollwerk.de/fileadmin/user_upload/blog/Veranstaltungskonzept_border-none_2014_Volksbad_Nuernberg_CC-BY-NC-ND-4.0.pdf
   md5: 00ffd2af0fcf1539c3cd5f3a3aed02a0
   filename: Veranstaltungskonzept_border-none_2014_Volksbad_Nuernberg_CC-BY-NC-ND-4.0.pdf
   site: tollwerk.de
   crawled_at: '2026-03-12T06:26:57.487368+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2014-07-12 14:38:53+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Writer
+    Producer: OpenOffice 4.1.0
+    Pages: 39
+    Words: 6540
+    Images: 274
+  errors:
+  - 'tagged, '
 - url: https://tollwerk.de/fileadmin/download/Zertikfikat_261130_PG-Nuernberg-2024_tollwerk_mmzu_BH.pdf
   md5: 371912aff74a3308a8a1c5d3e9e4ac27
   filename: Zertikfikat_261130_PG-Nuernberg-2024_tollwerk_mmzu_BH.pdf
   site: tollwerk.de
   crawled_at: '2026-03-12T06:26:57.488290+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2024-12-02 16:56:37+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: null
+    Producer: null
+    Pages: 1
+    Words: 293
+    Images: 0
   errors: []
 - url: https://tollwerk.de/fileadmin/download/tollwerk_BIK_BITV-WCAG-Test_Barrierefreiheit_Audit_2.0.pdf
   md5: a8776d534dafc55279b2a849af03ce55
   filename: tollwerk_BIK_BITV-WCAG-Test_Barrierefreiheit_Audit_2.0.pdf
   site: tollwerk.de
   crawled_at: '2026-03-12T06:26:57.489736+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2021-04-12 15:24:37+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: DocBook XSL Stylesheets with Apache FOP
+    Producer: Apache FOP Version 2.5
+    Pages: 11
+    Words: 2991
+    Images: 0
   errors: []
 - url: https://tollwerk.de/fileadmin/download/tollwerk_Demodokument_Lesereihenfolge.pdf
   md5: a2482609917a78f3d237262bace75b5e
   filename: tollwerk_Demodokument_Lesereihenfolge.pdf
   site: tollwerk.de
   crawled_at: '2026-03-12T06:26:57.490406+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2026-01-11 08:04:51+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 21.1 (Windows)
+    Producer: Adobe PDF Library 18.0
+    Pages: 2
+    Words: 726
+    Images: 0
   errors: []
 - url: https://tollwerk.de/fileadmin/user_upload/blog/barrierefreie-mehrfach-fussnote-pdf-indesign/tollwerk_Rotkaeppchen_Fussnoten.pdf
   md5: f139963aa9828af24c2434e8b2f0451e
   filename: tollwerk_Rotkaeppchen_Fussnoten.pdf
   site: tollwerk.de
   crawled_at: '2026-03-12T06:26:57.490968+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2021-08-27 10:08:44+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Adobe InDesign 16.3 (Windows)
+    Producer: Adobe PDF Library 15.0
+    Pages: 1
+    Words: 178
+    Images: 0
+  errors:
+  - 'title, '
