@@ -350,3 +350,124 @@ def test_handle_error_logs_url(capsys):
 
     captured = capsys.readouterr()
     assert "https://example.com/blocked.pdf" in captured.out
+
+
+# ---------------------------------------------------------------------------
+# _is_allowed_domain – same-domain page crawling enforcement
+# ---------------------------------------------------------------------------
+
+
+def test_is_allowed_domain_same_domain():
+    """Exact seed domain must be allowed."""
+    spider = _make_spider("/tmp")
+    assert spider._is_allowed_domain("https://example.com/page")
+
+
+def test_is_allowed_domain_subdomain():
+    """Subdomains of the seed domain must be allowed for page following."""
+    spider = _make_spider("/tmp")
+    # Spider seeded at example.com; sub.example.com is a subdomain.
+    assert spider._is_allowed_domain("https://sub.example.com/page")
+
+
+def test_is_allowed_domain_different_domain():
+    """A completely different domain must NOT be allowed for page following."""
+    spider = _make_spider("/tmp")
+    assert not spider._is_allowed_domain("https://other.com/page")
+
+
+def test_is_allowed_domain_cdn_different_domain():
+    """A CDN / asset host on a different domain must NOT be followed as a page."""
+    spider = _make_spider("/tmp")
+    # assets.publishing.service.gov.uk is NOT a subdomain of example.com
+    assert not spider._is_allowed_domain(
+        "https://assets.publishing.service.gov.uk/media/doc.html"
+    )
+
+
+def test_is_allowed_domain_empty_netloc():
+    """A relative URL (empty netloc after urljoin) must be considered allowed."""
+    spider = _make_spider("/tmp")
+    # Relative URLs resolve to the current page domain; empty netloc = allowed.
+    assert spider._is_allowed_domain("/relative/path")
+
+
+def test_is_allowed_domain_case_insensitive():
+    """Hostname comparison must be case-insensitive."""
+    spider = _make_spider("/tmp")
+    assert spider._is_allowed_domain("https://EXAMPLE.COM/page")
+    assert spider._is_allowed_domain("https://Example.Com/page")
+
+
+def test_offsite_middleware_disabled():
+    """OffsiteMiddleware must be disabled so cross-domain PDF downloads are not dropped."""
+    from pdf_spider import PdfA11ySpider
+
+    middlewares = PdfA11ySpider.custom_settings.get("SPIDER_MIDDLEWARES", {})
+    assert middlewares.get("scrapy.spidermiddlewares.offsite.OffsiteMiddleware") is None, (
+        "OffsiteMiddleware must be set to None (disabled) in custom_settings"
+    )
+
+
+# ---------------------------------------------------------------------------
+# parse() – cross-domain PDF download and same-domain HTML following
+# ---------------------------------------------------------------------------
+
+
+def _make_html_response(page_url, html_body):
+    """Return a real Scrapy HtmlResponse for use in parse() tests."""
+    from scrapy.http import HtmlResponse
+
+    return HtmlResponse(
+        url=page_url,
+        body=html_body.encode("utf-8"),
+        encoding="utf-8",
+    )
+
+
+def test_parse_cross_domain_pdf_is_downloaded():
+    """parse() must yield a download Request for a PDF on a different domain."""
+    from scrapy.http import Request as ScrapyRequest
+
+    spider = _make_spider("/tmp")
+    page_url = "https://example.com/publications"
+    pdf_url = "https://assets.cdn.example.org/report.pdf"
+    html = f'<html><body><a href="{pdf_url}">Download PDF</a></body></html>'
+
+    response = _make_html_response(page_url, html)
+    requests = list(spider.parse(response))
+
+    assert len(requests) == 1, f"Expected 1 download request, got {len(requests)}"
+    req = requests[0]
+    assert isinstance(req, ScrapyRequest)
+    assert req.url == pdf_url
+    assert req.callback == spider.save_pdf
+
+
+def test_parse_cross_domain_html_not_followed():
+    """parse() must NOT yield a follow Request for an HTML page on a different domain."""
+    spider = _make_spider("/tmp")
+    page_url = "https://example.com/page"
+    offsite_url = "https://other.com/another-page"
+    html = f'<html><body><a href="{offsite_url}">Other site</a></body></html>'
+
+    response = _make_html_response(page_url, html)
+    requests = list(spider.parse(response))
+
+    assert requests == [], (
+        f"Expected no requests for off-site HTML link, got {requests}"
+    )
+
+
+def test_parse_same_domain_html_is_followed():
+    """parse() must yield a follow Request for an HTML page on the seed domain."""
+    spider = _make_spider("/tmp")
+    page_url = "https://example.com/page"
+    same_domain_url = "https://example.com/other-page"
+    html = f'<html><body><a href="{same_domain_url}">Other page</a></body></html>'
+
+    response = _make_html_response(page_url, html)
+    requests = list(spider.parse(response))
+
+    assert len(requests) == 1, f"Expected 1 follow request, got {len(requests)}"
+    assert requests[0].callback == spider.parse
