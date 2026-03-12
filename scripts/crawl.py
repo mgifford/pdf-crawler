@@ -55,6 +55,23 @@ def _site_folder(netloc: str) -> str:
     return netloc.removeprefix("www.")
 
 
+def is_pdf_url(url: str) -> bool:
+    """Return True if *url* appears to be a direct link to a PDF file.
+
+    Checks the path component of the URL (ignoring query strings and fragments)
+    for a ``.pdf`` extension so that ``https://example.com/doc.pdf?id=1`` is
+    still recognised as a PDF link.
+
+    Args:
+        url: A fully-qualified URL string.
+
+    Returns:
+        ``True`` when the URL path ends with ``.pdf`` (case-insensitive).
+    """
+    path = urlparse(url).path.lower()
+    return path.endswith(".pdf")
+
+
 def normalize_url(url: str, timeout: int = 15) -> str:
     """Return a fully-qualified URL for *url*, probing protocol variants if needed.
 
@@ -380,6 +397,19 @@ def main() -> None:
 
     # Normalise the URL – prepend a protocol and probe variants when needed.
     url = normalize_url(args.url)
+
+    # Reject direct PDF links early – the spider crawls *websites* to discover
+    # PDFs, so starting from a PDF file itself makes no sense and would result
+    # in zero pages crawled and a confusing empty report.
+    if is_pdf_url(url):
+        print(
+            f"ERROR: '{url}' is a direct link to a PDF file.\n"
+            "This tool is designed to crawl websites and discover PDF files "
+            "linked from HTML pages.\n"
+            "Please provide the URL of a website (e.g. https://example.com) "
+            "rather than a direct PDF link."
+        )
+        sys.exit(1)
 
     log_path = "scrapy.log"
     if args.skip_crawl:

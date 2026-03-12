@@ -225,6 +225,8 @@
           message = `<span class="invalid-url">❌ Only http:// and https:// URLs are accepted.</span>`;
         } else if (isPrivateOrLocalhost(raw)) {
           message = `<span class="invalid-url">❌ Private / localhost URLs are not allowed.</span>`;
+        } else if (url.pathname.toLowerCase().endsWith('.pdf')) {
+          message = `<span class="invalid-url">❌ That looks like a direct link to a PDF file. This tool crawls <em>websites</em> to discover PDFs — please enter a website URL (e.g. <code>https://example.com</code>) instead.</span>`;
         } else {
           valid = true;
           message = `<span class="valid-url">✅ Valid URL — issue will be titled: <strong>SCAN: ${url.href}</strong></span>`;
@@ -249,6 +251,7 @@
         const parsed = new URL(url);
         if (!['http:', 'https:'].includes(parsed.protocol)) return;
         if (isPrivateOrLocalhost(url)) return;
+        if (parsed.pathname.toLowerCase().endsWith('.pdf')) return;
       } catch { return; }
 
       const maxPagesLine = (!isNaN(maxPages) && maxPages > 0)

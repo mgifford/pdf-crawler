@@ -181,6 +181,20 @@ jobs:
               exit 1
             fi
 
+            # Check if the extracted URL is a direct link to a PDF file.
+            # This tool crawls websites to discover PDFs; it cannot start from
+            # a PDF file itself.  The regex anchors to the path portion so that
+            # a PDF filename appearing only in a query string is not a false positive.
+            is_pdf=false
+            if echo "$URL" | grep -Eqi '^https?://[^?#]*\.pdf([?#]|$)'; then
+              echo "::error::The URL '$URL' is a direct link to a PDF file. Please provide a website URL (e.g. https://example.com) instead."
+              is_pdf=true
+            fi
+            echo "is_pdf_url=$is_pdf" >> "$GITHUB_OUTPUT"
+            if [ "$is_pdf" = "true" ]; then
+              exit 1
+            fi
+
             # 5. Extract optional notes from the **Notes:** line in the issue body.
             NOTES=""
             if [ -n "$ISSUE_BODY" ]; then
@@ -217,14 +231,30 @@ jobs:
         uses: actions/github-script@v8
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
+          IS_PDF_URL: ${{ steps.params.outputs.is_pdf_url }}
         with:
           script: |
             const title = process.env.ISSUE_TITLE;
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: context.issue.number,
-              body: [
+            const isPdfUrl = process.env.IS_PDF_URL === 'true';
+
+            let bodyLines;
+            if (isPdfUrl) {
+              bodyLines = [
+                `❌ **Scan not started** for issue: \`${title}\`.`,
+                ``,
+                `The URL you provided appears to be a **direct link to a PDF file**.`,
+                `This tool is designed to crawl *websites* and discover PDF files linked`,
+                `from HTML pages — it cannot start from a PDF file itself.`,
+                ``,
+                `Please reopen a new issue with the URL of a **website** instead, for example:`,
+                `\`\`\``,
+                `SCAN: https://example.com`,
+                `\`\`\``,
+                `If the PDF is hosted on a government or organisation website, try submitting`,
+                `the homepage or a section index page of that site.`,
+              ];
+            } else {
+              bodyLines = [
                 `❌ **Scan failed** for issue: \`${title}\`.`,
                 ``,
                 `Could not extract a valid URL from the issue title or body.`,
@@ -236,7 +266,14 @@ jobs:
                 `crawler will try to prepend \`https://\` automatically — but it`,
                 `must be a recognizable hostname (e.g. \`example.com\`, not just`,
                 `a word without a dot).`,
-              ].join('\n')
+              ];
+            }
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: bodyLines.join('\n')
             });
             try {
               await github.rest.issues.addLabels({
