@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T10:59:17.699706+00:00",
+    "site": "lasv.brandenburg.de",
+    "crawl_url": "https://lasv.brandenburg.de/lasv/de/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22997898770",
+    "issue_url": "",
+    "archive_file": "2026-03-12_10-59-17-699_lasv.brandenburg.de.html",
+    "total": 260,
+    "analysed": 260,
+    "accessible": 240
+  },
+  {
     "date": "2026-03-12T10:04:00.121497+00:00",
     "site": "ec.europa.eu",
     "crawl_url": "https://ec.europa.eu/eurostat/web/main/home",

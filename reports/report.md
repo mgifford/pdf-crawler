@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T10:04:00.121497+00:00
+Generated: 2026-03-12T10:59:17.699706+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 1961 |
-| Total files tracked | 7362 |
-| Analysed | 2392 |
+| URLs crawled | 466 |
+| Total files tracked | 7622 |
+| Analysed | 2652 |
 | Pending analysis | 3881 |
 | Errors during analysis | 1089 |
-| Accessible | 733 |
-| Totally inaccessible | 32 |
+| Accessible | 973 |
+| Totally inaccessible | 34 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 625 |
+| Exempt (pre-2018) | 626 |
 
 ## Files per Site
 
@@ -32,6 +32,7 @@ Generated: 2026-03-12T10:04:00.121497+00:00
 | edf-feph.org | 98 |
 | energy.gov | 417 |
 | gsa.gov | 450 |
+| lasv.brandenburg.de | 260 |
 | mn.gov | 729 |
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
@@ -2433,6 +2434,266 @@ Generated: 2026-03-12T10:04:00.121497+00:00
 | [winterschool2020-23_14.00_studying_ai_in_social_context_gina_neff_0.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-23_14.00_studying_ai_in_social_context_gina_neff_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 37 | 1123 | 27 |
 | [winterschool2020-24_09.00_conisdering_the_fat_implications_marion_oswald_0.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-24_09.00_conisdering_the_fat_implications_marion_oswald_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 31 | 1722 | 35 |
 | [winterschool2020-24_14.00_assesing_the_impact_of_ai_in_human_behaviour_emilia_gomez.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-24_14.00_assesing_the_impact_of_ai_in_human_behaviour_emilia_gomez.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 99 | 5404 | 252 |
+| [%C2%A7%2060%20IfSG%20Kurzantrag_2024_barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/%C2%A7%2060%20IfSG%20Kurzantrag_2024_barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 107 | 1 |
+| [%C2%A710%20Antrag%20EEEL_SEEL%20final_2024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/%C2%A710%20Antrag%20EEEL_SEEL%20final_2024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1378 | 2 |
+| [%C3%84nderungsantrag%20Altenpflegehilfe%2004-2026.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/%C3%84nderungsantrag%20Altenpflegehilfe%2004-2026.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 74 | 0 |
+| [%C3%84rztliche%20Bescheinigung-soziale%20Berufe.4607051.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/%C3%84rztliche%20Bescheinigung-soziale%20Berufe.4607051.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 97 | 1 |
+| [%C3%9Cbersicht%20anerkannte%20Verbraucherinsolvenzberatungsstellen%20nach%20Landkreisen.pdf.4398443.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/%C3%9Cbersicht%20anerkannte%20Verbraucherinsolvenzberatungsstellen%20nach%20Landkreisen.pdf.4398443.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1527 | 0 |
+| [01_2026%20Handout_Aktualisierungsmeldungen%20PS.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/01_2026%20Handout_Aktualisierungsmeldungen%20PS.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1453 | 1 |
+| [01_2026%20Handout_Aktualisierungsmeldungen%20TpA.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/01_2026%20Handout_Aktualisierungsmeldungen%20TpA.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1825 | 1 |
+| [06.10.23%20-%20Schwakos%20Antrag_LASV%20KTB.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/06.10.23%20-%20Schwakos%20Antrag_LASV%20KTB.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 929 | 1 |
+| [06.10.23_barrierefrei%20Schwakos%20Zuwendungsantrag_LASV%20FTB.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/06.10.23_barrierefrei%20Schwakos%20Zuwendungsantrag_LASV%20FTB.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 936 | 1 |
+| [11_09%20Antrag_SchwbR_barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/11_09%20Antrag_SchwbR_barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2641 | 7 |
+| [2020__Anlage_zur_F%C3%B6Ri_Standards_BBS.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2020__Anlage_zur_F%C3%B6Ri_Standards_BBS.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2035 | 0 |
+| [20231211_Brandenburger%20F%C3%B6rdergrunds%C3%A4tze%20ab%2001.01.2024_final.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/20231211_Brandenburger%20F%C3%B6rdergrunds%C3%A4tze%20ab%2001.01.2024_final.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1821 | 0 |
+| [2023_07_04_Handout_Jahressch%C3%A4tzmeldung-Final.4398420.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2023_07_04_Handout_Jahressch%C3%A4tzmeldung-Final.4398420.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1124 | 2 |
+| [20240625_Anlage%20PiA%202.0_final.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/20240625_Anlage%20PiA%202.0_final.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 784 | 0 |
+| [20240701_Landesf%C3%B6rderprogramm%20PiA_2.0_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/20240701_Landesf%C3%B6rderprogramm%20PiA_2.0_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 3821 | 0 |
+| [2024_02_20_Infoschreiben_LASV_AM%20Stud.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2024_02_20_Infoschreiben_LASV_AM%20Stud.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 445 | 2 |
+| [20250121_Muster%20Erkl%C3%A4rung%20zur%20Barrierefreiheit.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/20250121_Muster%20Erkl%C3%A4rung%20zur%20Barrierefreiheit.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 979 | 0 |
+| [20250225_Antragsformular_Projektf%C3%B6rderung_PiA2.0_UA_final.4559008.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/20250225_Antragsformular_Projektf%C3%B6rderung_PiA2.0_UA_final.4559008.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 1088 | 2 |
+| [20250521_Pflegefonds_Hinweise%20zum%20Datenschutz.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/20250521_Pflegefonds_Hinweise%20zum%20Datenschutz.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 502 | 1 |
+| [20250919_Leitfaden_zur_Projektf%C3%B6rderung_PiA2.0_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/20250919_Leitfaden_zur_Projektf%C3%B6rderung_PiA2.0_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 931 | 1 |
+| [2025_04_01%20Handout%20Jahresumlagemeldung%20Pflegefonds.net.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_04_01%20Handout%20Jahresumlagemeldung%20Pflegefonds.net.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1473 | 1 |
+| [2025_06_05_Handout_Jahressch%C3%A4tzmeldung%202025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_06_05_Handout_Jahressch%C3%A4tzmeldung%202025.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1164 | 2 |
+| [2025_10_28%20GFB%202026%20Volltext.4631869.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_10_28%20GFB%202026%20Volltext.4631869.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 730 | 6 |
+| [2025_10_30_Antragsformular_Projektf%C3%B6rderung_Map%203.0%20_04-03_UA.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_10_30_Antragsformular_Projektf%C3%B6rderung_Map%203.0%20_04-03_UA.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 1171 | 2 |
+| [2025_11_05_L15_1UA.668721.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_11_05_L15_1UA.668721.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1075 | 2 |
+| [2025_11_05_L15_1UA.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_11_05_L15_1UA.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1075 | 2 |
+| [2025_11_06_L26UA.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_11_06_L26UA.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1103 | 2 |
+| [2025_11_06_L27UA.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_11_06_L27UA.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1084 | 2 |
+| [2025_11_06a_Leitfaden.Hinweise%20Antragsformular_Projektf%C3%B6rderung_Map%203.0_04-03UA.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_11_06a_Leitfaden.Hinweise%20Antragsformular_Projektf%C3%B6rderung_Map%203.0_04-03UA.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1338 | 1 |
+| [2025_11_13_Antragsformular%C2%A717-1a-SchwbAV_2_UA.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_11_13_Antragsformular%C2%A717-1a-SchwbAV_2_UA.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 975 | 2 |
+| [2025_11_13_L19_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_11_13_L19_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 882 | 2 |
+| [2025_12_08_L20_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_08_L20_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 882 | 2 |
+| [2025_12_08_L21_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_08_L21_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 926 | 2 |
+| [2025_12_08_L22_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_08_L22_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 955 | 2 |
+| [2025_12_10_L25ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_10_L25ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 882 | 2 |
+| [2025_12_10_L55ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_10_L55ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 894 | 2 |
+| [2025_12_11_L24_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_11_L24_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 900 | 2 |
+| [2025_12_12_L26a_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_12_L26a_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 956 | 2 |
+| [2025_12_15_L26b_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_15_L26b_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 934 | 2 |
+| [2025_12_15_L_28_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_15_L_28_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 1290 | 2 |
+| [2025_12_16_Artikel_1_Schaffung_von_Ausbildungspl%C3%A4tzen_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_16_Artikel_1_Schaffung_von_Ausbildungspl%C3%A4tzen_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1200 | 2 |
+| [2025_12_17_Artikel_2_Schaffung%20eines%20neuen%20Arbeitsplatzes_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_17_Artikel_2_Schaffung%20eines%20neuen%20Arbeitsplatzes_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1032 | 2 |
+| [2025_12_17_Perspektive_inklusiver_Arbeitsmarkt_2_Teil_B_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2025_12_17_Perspektive_inklusiver_Arbeitsmarkt_2_Teil_B_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 887 | 2 |
+| [2026_01_26_K%C3%BCndigungC.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2026_01_26_K%C3%BCndigungC.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 899 | 2 |
+| [2026_01_27_K%C3%BCndigungF_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2026_01_27_K%C3%BCndigungF_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 896 | 2 |
+| [2026_01_28_2_K%C3%BCndigungPua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2026_01_28_2_K%C3%BCndigungPua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 894 | 2 |
+| [2026_Reservierungsformular%20Radisson%20ab%2001042025_a.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/2026_Reservierungsformular%20Radisson%20ab%2001042025_a.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 119 | 1 |
+| [24_01_18_Hinweise%20zur%20Antragstellung_GCHP.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/24_01_18_Hinweise%20zur%20Antragstellung_GCHP.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2204 | 0 |
+| [ANBest-G_g%C3%BCltig%20ab%2001.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/ANBest-G_g%C3%BCltig%20ab%2001.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2204 | 0 |
+| [ANBest-P_g%C3%BCltig%20ab%2031.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/ANBest-P_g%C3%BCltig%20ab%2031.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2148 | 0 |
+| [Allgemeine%20Nebenbestimmung%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Allgemeine%20Nebenbestimmung%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2148 | 0 |
+| [Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20-%20ANBest-P%20g%C3%BCltig%20ab%2017.12.2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20-%20ANBest-P%20g%C3%BCltig%20ab%2017.12.2025.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2462 | 0 |
+| [Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20an%20Gemeinden%20-%20ANBest-G%20g%C3%BCltig%20ab%2017.12.2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20an%20Gemeinden%20-%20ANBest-G%20g%C3%BCltig%20ab%2017.12.2025.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2473 | 0 |
+| [Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20an%20Gemeinden.4408631.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20an%20Gemeinden.4408631.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2204 | 0 |
+| [Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2148 | 0 |
+| [Amtsblatt%201_23_Verl%C3%A4ngerung%202024-1_barrierefrei.4420291.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Amtsblatt%201_23_Verl%C3%A4ngerung%202024-1_barrierefrei.4420291.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 9416 | 1 |
+| [Anlage%201%20%20Hebammenf%C3%B6rderrichtlinie_2025_2026_Reinschrift_Stand%2004.07.2025_barrierefrei_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Anlage%201%20%20Hebammenf%C3%B6rderrichtlinie_2025_2026_Reinschrift_Stand%2004.07.2025_barrierefrei_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2638 | 0 |
+| [Anlage%201.4606995.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Anlage%201.4606995.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 443 | 0 |
+| [Anlage%202.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Anlage%202.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 764 | 0 |
+| [Anlage_Pflichten%20des%20Leistungserbringers_Barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Anlage_Pflichten%20des%20Leistungserbringers_Barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 247 | 0 |
+| [Anlage_zum_Anschreiben_an_die_Arbeitgebenden_des_Landes_Brandenburg_barrierefrei_ua.4397810.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Anlage_zum_Anschreiben_an_die_Arbeitgebenden_des_Landes_Brandenburg_barrierefrei_ua.4397810.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 321 | 0 |
+| [Anmeldung%20zu%20Schulungsveranstaltungen%202024%20barrierefrei%202_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Anmeldung%20zu%20Schulungsveranstaltungen%202024%20barrierefrei%202_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 348 | 1 |
+| [Ansprache_geh%C3%B6rlose_Menschen_im%20Arbeitsleben_ukrainisch_barrierefrei_ua.4397816.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Ansprache_geh%C3%B6rlose_Menschen_im%20Arbeitsleben_ukrainisch_barrierefrei_ua.4397816.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 350 | 0 |
+| [Antrag%20Anerkennung%20Nachbarschaftshelfer.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag%20Anerkennung%20Nachbarschaftshelfer.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 633 | 1 |
+| [Antrag%20Externat_Endfassung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag%20Externat_Endfassung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1007 | 1 |
+| [Antrag%20Fortbildung_Endfassung%2011.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag%20Fortbildung_Endfassung%2011.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1226 | 1 |
+| [Antrag%20KBS_BBS%2011-24.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag%20KBS_BBS%2011-24.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 556 | 0 |
+| [Antrag%20Praxisgr%C3%BCndung_16.4605855.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag%20Praxisgr%C3%BCndung_16.4605855.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1198 | 1 |
+| [Antrag%20Tierschutz-Soforthilfe-Billigkeitsrichtlinie.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag%20Tierschutz-Soforthilfe-Billigkeitsrichtlinie.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 831 | 0 |
+| [Antrag%20gFAB_2024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag%20gFAB_2024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 771 | 2 |
+| [Antrag%20neu%202025.4555139.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag%20neu%202025.4555139.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 696 | 1 |
+| [Antrag_Fallmanagement_%202024_Barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag_Fallmanagement_%202024_Barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 353 | 1 |
+| [Antrag_Reha-2024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antrag_Reha-2024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1411 | 1 |
+| [Antragsformular%202026.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antragsformular%202026.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1071 | 1 |
+| [Antragsformular2024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Antragsformular2024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 552 | 0 |
+| [Ausf%C3%BChrungsrichtlinien%20zur%20Umsetzung%20des%20Bundesprogrammes%20Inklusionsinitiative%20II%20-%20AlleImBetrieb.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Ausf%C3%BChrungsrichtlinien%20zur%20Umsetzung%20des%20Bundesprogrammes%20Inklusionsinitiative%20II%20-%20AlleImBetrieb.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 359 | 0 |
+| [Aushang%20Arbeitshilfen.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Aushang%20Arbeitshilfen.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 95 | 3 |
+| [Auszug%20Amtsblatt%20f%C3%BCr%20Brandenburg%20Nr.%2027%20vom%2010.%20Juli%202024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Auszug%20Amtsblatt%20f%C3%BCr%20Brandenburg%20Nr.%2027%20vom%2010.%20Juli%202024.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 635 | 0 |
+| [BBurg_BuA2022_PDF-UA.4423579.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BBurg_BuA2022_PDF-UA.4423579.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 154 | 54152 | 29 |
+| [BK%2005-2022%20-%20Anlage%201%20-%20Pauschale%20Entgeltfortschreibung%20EGH%20ab%202023.4436929.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%2005-2022%20-%20Anlage%201%20-%20Pauschale%20Entgeltfortschreibung%20EGH%20ab%202023.4436929.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 204 | 0 |
+| [BK%2005-2022%20-%20Anlage%202%20-%20Pauschale%20Entgeltfortschreibung%20EGH%20ab%202023.4436936.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%2005-2022%20-%20Anlage%202%20-%20Pauschale%20Entgeltfortschreibung%20EGH%20ab%202023.4436936.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 262 | 0 |
+| [BK%2008-2022%20-%20Anlage%201%20-%20%C3%84nderung%20Anlage%202.1%20zum%20Beschluss%20BK%2005-2022%20%28003%29.4437013.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%2008-2022%20-%20Anlage%201%20-%20%C3%84nderung%20Anlage%202.1%20zum%20Beschluss%20BK%2005-2022%20%28003%29.4437013.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 187 | 0 |
+| [BK%20Beschluss%2001%202022.4436801.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2001%202022.4436801.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2020 | 0 |
+| [BK%20Beschluss%2001%202023.4437245.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2001%202023.4437245.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 298 | 0 |
+| [BK%20Beschluss%2001%202024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2001%202024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1802 | 0 |
+| [BK%20Beschluss%2002%202022.4436815.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2002%202022.4436815.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 268 | 0 |
+| [BK%20Beschluss%2002%202024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2002%202024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 538 | 0 |
+| [BK%20Beschluss%2003%202023.%20Anlage%201%20docx.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2003%202023.%20Anlage%201%20docx.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1184 | 0 |
+| [BK%20Beschluss%2003%202023.4437252.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2003%202023.4437252.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1119 | 0 |
+| [BK%20Beschluss%2003%202024.4453885.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2003%202024.4453885.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 89 | 0 |
+| [BK%20Beschluss%2004%202022.4436964.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2004%202022.4436964.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 80 | 0 |
+| [BK%20Beschluss%2004%202024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2004%202024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1336 | 0 |
+| [BK%20Beschluss%2005%202022.4436901.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2005%202022.4436901.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 943 | 0 |
+| [BK%20Beschluss%2005%202023.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2005%202023.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 894 | 0 |
+| [BK%20Beschluss%2005%202024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2005%202024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 359 | 0 |
+| [BK%20Beschluss%2006%202022.4436971.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2006%202022.4436971.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 91 | 0 |
+| [BK%20Beschluss%2006%202023.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2006%202023.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 96 | 0 |
+| [BK%20Beschluss%2007%202022.4436999.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2007%202022.4436999.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 523 | 0 |
+| [BK%20Beschluss%2007%202022.4440048.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2007%202022.4440048.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 523 | 0 |
+| [BK%20Beschluss%2007%202023.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2007%202023.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 695 | 0 |
+| [BK%20Beschluss%2008%202022.4437006.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/BK%20Beschluss%2008%202022.4437006.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 124 | 0 |
+| [Barrierefrei_Traumaambulanzantrag_2024.4582588.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Barrierefrei_Traumaambulanzantrag_2024.4582588.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 361 | 1 |
+| [Barrierefrei_Traumaambulanzantrag_2024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Barrierefrei_Traumaambulanzantrag_2024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 361 | 1 |
+| [Baufachliche%20Nebenbestimmungen.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Baufachliche%20Nebenbestimmungen.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 711 | 0 |
+| [Behinderung%20und%20Ausweis.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Behinderung%20und%20Ausweis.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 154 | 54152 | 29 |
+| [Beschluss%20BK-04-2023.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Beschluss%20BK-04-2023.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 90 | 0 |
+| [Beschluss%20BK_01_2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Beschluss%20BK_01_2025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 980 | 0 |
+| [Beschluss%20BK_06_2024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Beschluss%20BK_06_2024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 976 | 0 |
+| [Beschluss%20BK_07_2024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Beschluss%20BK_07_2024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 100 | 0 |
+| [Brosch%C3%BCre_LASV-T%C3%A4tigkeitsbericht-Aufsicht-unterst%C3%BCtzende-Wohnformen-bf-ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Brosch%C3%BCre_LASV-T%C3%A4tigkeitsbericht-Aufsicht-unterst%C3%BCtzende-Wohnformen-bf-ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 9717 | 27 |
+| [Checkliste.4555147.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Checkliste.4555147.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 199 | 0 |
+| [Datenschutz%20Internet.4555155.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Datenschutz%20Internet.4555155.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 478 | 1 |
+| [Datenschutz%20SGB%20XIV_2024_barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Datenschutz%20SGB%20XIV_2024_barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 515 | 1 |
+| [Datenschutz%20SGB%20XIV_Barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Datenschutz%20SGB%20XIV_Barrierefrei.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 515 | 1 |
+| [Eingangsbest%C3%A4tigung%20Version%201.0%20-%2027.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Eingangsbest%C3%A4tigung%20Version%201.0%20-%2027.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 43 | 0 |
+| [Eingangsbest%C3%A4tigung.4524364.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Eingangsbest%C3%A4tigung.4524364.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 47 | 0 |
+| [Eingangsbest%C3%A4tigung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Eingangsbest%C3%A4tigung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 43 | 0 |
+| [Einsch%C3%A4tzung%20des%20Landkreises%20BBS.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Einsch%C3%A4tzung%20des%20Landkreises%20BBS.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 38 | 0 |
+| [Einsch%C3%A4tzung%20des%20Landkreises%20KBS.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Einsch%C3%A4tzung%20des%20Landkreises%20KBS.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 39 | 0 |
+| [Empfehlungen%20Budget%20f%C3%BCr%20Arbeit%2023.10.2023_RS05_2023.4445738.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Empfehlungen%20Budget%20f%C3%BCr%20Arbeit%2023.10.2023_RS05_2023.4445738.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3803 | 0 |
+| [Empfehlungen%20f%C3%BCr%20den%20%C3%9Cbergang%20von%20Menschen%20aus%20dem%20Arbeitsbereich%20einer%20Werkstatt%20f%C3%BCr%20behinderte%20Menschen.4499918.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Empfehlungen%20f%C3%BCr%20den%20%C3%9Cbergang%20von%20Menschen%20aus%20dem%20Arbeitsbereich%20einer%20Werkstatt%20f%C3%BCr%20behinderte%20Menschen.4499918.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1536 | 0 |
+| [Entlastung%20im%20Alltag%20bei%20der%20Haushaltsf%C3%BChrung%20-%20Information%20f%C3%BCr%20potentielle%20Anbieter%20von%20Angeboten%20zur%20Unterst%C3%BCtzung%20im%20Alltag.4479254.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Entlastung%20im%20Alltag%20bei%20der%20Haushaltsf%C3%BChrung%20-%20Information%20f%C3%BCr%20potentielle%20Anbieter%20von%20Angeboten%20zur%20Unterst%C3%BCtzung%20im%20Alltag.4479254.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 568 | 1 |
+| [Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%203%20SGB%20XI.4445709.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%203%20SGB%20XI.4445709.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 142 | 1 |
+| [Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%203%20SGB%20XI.4546495.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%203%20SGB%20XI.4546495.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 142 | 1 |
+| [Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%204%20SGB%20XI-Anwesenheitstag%20oder%20pro%20Tag.4445716.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%204%20SGB%20XI-Anwesenheitstag%20oder%20pro%20Tag.4445716.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 108 | 1 |
+| [Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%204%20SGB%20XI-Anwesenheitstag%20oder%20pro%20Tag.4546509.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%204%20SGB%20XI-Anwesenheitstag%20oder%20pro%20Tag.4546509.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 108 | 1 |
+| [Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%204%20SGB%20XI-Tagespflege.4445723.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%204%20SGB%20XI-Tagespflege.4445723.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 98 | 1 |
+| [Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%204%20SGB%20XI-Tagespflege.4546502.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Erkl%C3%A4rung%20%C2%A7%2082%20Abs.%204%20SGB%20XI-Tagespflege.4546502.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 98 | 1 |
+| [F%C3%B6rdermittel_Antrag_Pflege-vor-Ort%202025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/F%C3%B6rdermittel_Antrag_Pflege-vor-Ort%202025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1028 | 2 |
+| [F%C3%B6rdermittel_Antrag_Pflege-vor-Ort%202027.669476.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/F%C3%B6rdermittel_Antrag_Pflege-vor-Ort%202027.669476.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1057 | 2 |
+| [F%C3%B6rdermittel_Antrag_Pflege-vor-Ort%202027.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/F%C3%B6rdermittel_Antrag_Pflege-vor-Ort%202027.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1057 | 2 |
+| [F%C3%B6rdermittel_Antrag_Pflege-vor-Ort_PSP_2025-2026.669468.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/F%C3%B6rdermittel_Antrag_Pflege-vor-Ort_PSP_2025-2026.669468.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1063 | 2 |
+| [F%C3%B6rdermittel_Antrag_Pflege-vor-Ort_PSP_2025-2026.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/F%C3%B6rdermittel_Antrag_Pflege-vor-Ort_PSP_2025-2026.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1063 | 2 |
+| [Flyer%20-%20Umgang%20mit%20Erbe%20und%20Spende%20in%20unterst%C3%BCtzenden%20Wohnformen.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Flyer%20-%20Umgang%20mit%20Erbe%20und%20Spende%20in%20unterst%C3%BCtzenden%20Wohnformen.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 505 | 5 |
+| [Foerderrichtlinie_vom_15.02.2022.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Foerderrichtlinie_vom_15.02.2022.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 3000 | 0 |
+| [Foerderrichtlinie_vom_16.07.2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Foerderrichtlinie_vom_16.07.2025.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 0 |
+| [Foerderrichtlinie_vom_29.10.2020.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Foerderrichtlinie_vom_29.10.2020.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 1664 | 0 |
+| [Foerderrichtlinie_vom_31.07.2023.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Foerderrichtlinie_vom_31.07.2023.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 6 |
+| [Formblatt%20%C3%84nderung%20d.%20Verl%C3%A4ngerung%20Stand%2002.2024%20LASV.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Formblatt%20%C3%84nderung%20d.%20Verl%C3%A4ngerung%20Stand%2002.2024%20LASV.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 143 | 1 |
+| [Formblatt%20Kommunale%20Stellungnahme%202026d.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Formblatt%20Kommunale%20Stellungnahme%202026d.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 201 | 1 |
+| [Formblatt%20Meldung%20Studenten%20Stand%2004.2024%20LASV.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Formblatt%20Meldung%20Studenten%20Stand%2004.2024%20LASV.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 200 | 1 |
+| [Formblatt%20R%C3%BCckstufung%20Stand%2006.2023%20LASV.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Formblatt%20R%C3%BCckstufung%20Stand%2006.2023%20LASV.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 129 | 1 |
+| [Formblatt%20Verl%C3%A4ngerung%20Stand%2006.2023%20LASV.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Formblatt%20Verl%C3%A4ngerung%20Stand%2006.2023%20LASV.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 119 | 1 |
+| [Formblatt%20zur%20Nachbesetzung.4459359.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Formblatt%20zur%20Nachbesetzung.4459359.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 141 | 0 |
+| [Fragen%20neu%202025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Fragen%20neu%202025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1084 | 0 |
+| [Gew%C3%A4hrung%20v.%20Zuwendungen%20%C2%A7%C2%A7%2023%20u.%2044-%20Hinweise%20zum%20Datenschutz_LASV_01.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Gew%C3%A4hrung%20v.%20Zuwendungen%20%C2%A7%C2%A7%2023%20u.%2044-%20Hinweise%20zum%20Datenschutz_LASV_01.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 499 | 1 |
+| [Haftungserkl%C3%A4rung_private_Antragsteller.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Haftungserkl%C3%A4rung_private_Antragsteller.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 33 | 0 |
+| [Handout%20Jahresumlagemeldung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Handout%20Jahresumlagemeldung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1280 | 1 |
+| [Handout%20f%C3%BCr%20Aktualisierungsmeldungen%20von%20Pflegeschulen.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Handout%20f%C3%BCr%20Aktualisierungsmeldungen%20von%20Pflegeschulen.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1101 | 1 |
+| [Handout%20f%C3%BCr%20Aktualisierungsmeldungen%20von%20Tr%C3%A4gern%20der%20praktischen%20Ausbildung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Handout%20f%C3%BCr%20Aktualisierungsmeldungen%20von%20Tr%C3%A4gern%20der%20praktischen%20Ausbildung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1460 | 1 |
+| [Handreichung%20-%20Hinweise%20und%20Anregungen%20zur%20Umsetzung%20barrierefreier%20Web-%20und%20Anwendungstechnologien%20in%20%C3%B6ffentlichen%20Einrichtungen.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Handreichung%20-%20Hinweise%20und%20Anregungen%20zur%20Umsetzung%20barrierefreier%20Web-%20und%20Anwendungstechnologien%20in%20%C3%B6ffentlichen%20Einrichtungen.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2011 | 14 |
+| [Hinterbliebenenversorgung%20nach%20Schutzimpfungen%20SGB%20XIV_Barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Hinterbliebenenversorgung%20nach%20Schutzimpfungen%20SGB%20XIV_Barrierefrei.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 796 | 1 |
+| [Hinweise%20Antragstellung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Hinweise%20Antragstellung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1920 | 0 |
+| [Hinweise%20zum%20Datenschutz_LASV_10_2023.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Hinweise%20zum%20Datenschutz_LASV_10_2023.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 512 | 1 |
+| [Hinweise%20zur%20Antragstellung%20-%20Integrationsbudget%20f%C3%BCr%20die%20Landkreise%20und%20kreisfreien%20St%C3%A4dte%20des%20Landes%20Brandenburg.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Hinweise%20zur%20Antragstellung%20-%20Integrationsbudget%20f%C3%BCr%20die%20Landkreise%20und%20kreisfreien%20St%C3%A4dte%20des%20Landes%20Brandenburg.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1856 | 0 |
+| [Hinweise%20zur%20Antragstellung%202025-2026.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Hinweise%20zur%20Antragstellung%202025-2026.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 947 | 0 |
+| [Hinweise%20zur%20Antragstellung%20Tierschutz-Soforthilfe-Billigkeitsrichtlinie%202024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Hinweise%20zur%20Antragstellung%20Tierschutz-Soforthilfe-Billigkeitsrichtlinie%202024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 530 | 2 |
+| [Infoblatt%20Stundens%C3%A4tze%20GSD%20und%20KH%20Brandenburg_UA.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Infoblatt%20Stundens%C3%A4tze%20GSD%20und%20KH%20Brandenburg_UA.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 463 | 0 |
+| [Informationen%20zu%20den%20f%C3%B6rderf%C3%A4higen%20und%20nicht%20f%C3%B6rderf%C3%A4higen%20Ausgaben%20der%20Altenpflegehilfeausbildung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Informationen%20zu%20den%20f%C3%B6rderf%C3%A4higen%20und%20nicht%20f%C3%B6rderf%C3%A4higen%20Ausgaben%20der%20Altenpflegehilfeausbildung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1151 | 0 |
+| [KBS%20Anlage_Sachbericht_2019.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/KBS%20Anlage_Sachbericht_2019.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1504 | 0 |
+| [Katzenkastrationsrichtlinie%202025%20Anlage%20zum%20Zuwendungsantrag.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Katzenkastrationsrichtlinie%202025%20Anlage%20zum%20Zuwendungsantrag.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 285 | 0 |
+| [Kurzantrag_SGB%20XIV_2024_barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Kurzantrag_SGB%20XIV_2024_barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 100 | 1 |
+| [LASV-Agenda-2025-2029_barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-Agenda-2025-2029_barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 406 | 1 |
+| [LASV-DIN-Lang-Falzflyer-%C2%A7%2017%20a_StrRehaG_barrierefrei_ua.4597275.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-%C2%A7%2017%20a_StrRehaG_barrierefrei_ua.4597275.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 480 | 3 |
+| [LASV-DIN-Lang-Falzflyer-AuW-web-07-2025-barrierefrei-ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-AuW-web-07-2025-barrierefrei-ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 369 | 5 |
+| [LASV-DIN-Lang-Falzflyer-Flyer-Fallmanagement-SGB%20XIV-web-barrierefrei-ua-07-2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Flyer-Fallmanagement-SGB%20XIV-web-barrierefrei-ua-07-2025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 326 | 5 |
+| [LASV-DIN-Lang-Falzflyer-Flyer-OEG-SGB%20XIV-web-barrierefrei-ua-07-2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Flyer-OEG-SGB%20XIV-web-barrierefrei-ua-07-2025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 641 | 3 |
+| [LASV-DIN-Lang-Falzflyer-Hilfe%20f%C3%BCr%20Opfer%20SED%20Unrecht-web-barrierefrei-ua-07-2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Hilfe%20f%C3%BCr%20Opfer%20SED%20Unrecht-web-barrierefrei-ua-07-2025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 494 | 3 |
+| [LASV-DIN-Lang-Falzflyer-Leistungen%20f%C3%BCr%20Opfer%20SED%20Unrecht-web-barrierefrei_ua-06-2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Leistungen%20f%C3%BCr%20Opfer%20SED%20Unrecht-web-barrierefrei_ua-06-2025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 482 | 3 |
+| [LASV-DIN-Lang-Falzflyer-Merkzeichen-Leichte%20Sprache-web-07-2025-barrierefrei-ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Merkzeichen-Leichte%20Sprache-web-07-2025-barrierefrei-ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 403 | 12 |
+| [LASV-DIN-Lang-Falzflyer-Merkzeichen-web-barrierefrei_ua_01_2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Merkzeichen-web-barrierefrei_ua_01_2025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1136 | 3 |
+| [LASV-DIN-Lang-Falzflyer-Online-Abfrage%20Bearbeitungsstand-web-barrierefrei_ua_07_2023.4398863.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Online-Abfrage%20Bearbeitungsstand-web-barrierefrei_ua_07_2023.4398863.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 434 | 9 |
+| [LASV-DIN-Lang-Falzflyer-Online-Antrag-web-barrierefrei_ua_07_2023.4398852.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Online-Antrag-web-barrierefrei_ua_07_2023.4398852.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 479 | 9 |
+| [LASV-DIN-Lang-Falzflyer-Parkerleichterungen-web-barrierefrei_ua_07_2023.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Parkerleichterungen-web-barrierefrei_ua_07_2023.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 842 | 5 |
+| [LASV-DIN-Lang-Falzflyer-Rundfunk-web-barrierefrei_ua_07_2023.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Rundfunk-web-barrierefrei_ua_07_2023.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 577 | 5 |
+| [LASV-DIN-Lang-Falzflyer-Schwerbehindert-Was-tun-web-barrierefrei_ua_07_2023.4398814.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Schwerbehindert-Was-tun-web-barrierefrei_ua_07_2023.4398814.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 948 | 3 |
+| [LASV-DIN-Lang-Falzflyer-Traumaambulanzen_web_barrierefrei-ua-07-2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Traumaambulanzen_web_barrierefrei-ua-07-2025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 604 | 4 |
+| [LASV-DIN-Lang-Falzflyer-Verbraucherinsolvenzberatungsstellen_barrierefrei-ua_07-2025.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-DIN-Lang-Falzflyer-Verbraucherinsolvenzberatungsstellen_barrierefrei-ua_07-2025.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 536 | 5 |
+| [LASV-Kodex_.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV-Kodex_.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 379 | 2 |
+| [LASV_Merkblatt_Leistungen_und_Hilfen_f%C3%BCr_behinderte_und_schwerbehinderte_Menschen_barrierefrei.4542737.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LASV_Merkblatt_Leistungen_und_Hilfen_f%C3%BCr_behinderte_und_schwerbehinderte_Menschen_barrierefrei.4542737.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1736 | 2 |
+| [LR-BB_DINlang_Flyer_AuW_Leichte%20Sprache_web_07_2025_barrierefrei_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LR-BB_DINlang_Flyer_AuW_Leichte%20Sprache_web_07_2025_barrierefrei_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 341 | 11 |
+| [LR-BB_DINlang_Flyer_SchwebR_Schwerbehindert%20-%20Was%20tun_Leichte%20Sprache-web-barrierefrei-ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/LR-BB_DINlang_Flyer_SchwebR_Schwerbehindert%20-%20Was%20tun_Leichte%20Sprache-web-barrierefrei-ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 378 | 10 |
+| [Landkreis%C3%BCbersicht_Kontaktdaten.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Landkreis%C3%BCbersicht_Kontaktdaten.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 299 | 0 |
+| [Leistungsbeschreibung_KBS.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Leistungsbeschreibung_KBS.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1185 | 0 |
+| [Ma%C3%9Fnahmenbeschreibung_Finanzplan_GCHP.4401860.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Ma%C3%9Fnahmenbeschreibung_Finanzplan_GCHP.4401860.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 132 | 0 |
+| [Ma%C3%9Fnahmenkatalog_GCHP_Mai.4401856.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Ma%C3%9Fnahmenkatalog_GCHP_Mai.4401856.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 82 | 0 |
+| [Ma%C3%9Fnahmenkatalog_Reha.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Ma%C3%9Fnahmenkatalog_Reha.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 70 | 0 |
+| [Merkblatt%20-%20Aktionsplan%20Queeres%20Brandenburg%20in%20den%20Jahren%202023%20bis%202024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20-%20Aktionsplan%20Queeres%20Brandenburg%20in%20den%20Jahren%202023%20bis%202024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1115 | 0 |
+| [Merkblatt%20-%20F%C3%B6rderung%20Aktionsplan%20Queeres%20Brandenburg%202025%20bis%202028.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20-%20F%C3%B6rderung%20Aktionsplan%20Queeres%20Brandenburg%202025%20bis%202028.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1374 | 0 |
+| [Merkblatt%20-%20Information%20%C3%BCber%20die%20Gew%C3%A4hrung%20von%20Zuwendungen%20f%C3%BCr%20Projekte%20im%20Bereich%20der%20Gewaltpr%C3%A4vention%20gegen%20Frauen%20und%20ihre%20Kinder.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20-%20Information%20%C3%BCber%20die%20Gew%C3%A4hrung%20von%20Zuwendungen%20f%C3%BCr%20Projekte%20im%20Bereich%20der%20Gewaltpr%C3%A4vention%20gegen%20Frauen%20und%20ihre%20Kinder.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 909 | 0 |
+| [Merkblatt%20-%20Informationen%20f%C3%BCr%20%C3%84rzte%20zur%20Rechnungslegung%20f%C3%BCr%20Befundberichte%20im%20Rahmen%20der%20Sachverhaltsaufkl%C3%A4rung%20im%20Schwerbehindertenrecht.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20-%20Informationen%20f%C3%BCr%20%C3%84rzte%20zur%20Rechnungslegung%20f%C3%BCr%20Befundberichte%20im%20Rahmen%20der%20Sachverhaltsaufkl%C3%A4rung%20im%20Schwerbehindertenrecht.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 231 | 2 |
+| [Merkblatt%20-%20Nutzung%20des%20%C3%96PNV.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20-%20Nutzung%20des%20%C3%96PNV.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 443 | 4 |
+| [Merkblatt%202026_36.%20BFW.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%202026_36.%20BFW.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1324 | 0 |
+| [Merkblatt%20Armutsbek%C3%A4mpfung%20F%C3%B6rderung%202024.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20Armutsbek%C3%A4mpfung%20F%C3%B6rderung%202024.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1366 | 0 |
+| [Merkblatt%20Armutsbek%C3%A4mpfung%20F%C3%B6rderung%202026docx.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20Armutsbek%C3%A4mpfung%20F%C3%B6rderung%202026docx.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1395 | 0 |
+| [Merkblatt%20Externatsf%C3%B6rderung_Endfassung%2002.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20Externatsf%C3%B6rderung_Endfassung%2002.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 595 | 0 |
+| [Merkblatt%20Fortbildungsf%C3%B6rderung_Endfassung%2002.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20Fortbildungsf%C3%B6rderung_Endfassung%2002.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 727 | 0 |
+| [Merkblatt%20Gewaltpr%C3%A4vention%202025-2028%20.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20Gewaltpr%C3%A4vention%202025-2028%20.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1142 | 0 |
+| [Merkblatt%20Internet.4555171.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20Internet.4555171.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 773 | 0 |
+| [Merkblatt%20Praxisgr%C3%BCndung%20Endfassung%2802.07.25%29.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20Praxisgr%C3%BCndung%20Endfassung%2802.07.25%29.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 834 | 0 |
+| [Merkblatt%20Vereine_Gleichstellungs-%20Frauen-%20M%C3%A4dchenpolitik%202026-2028.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20Vereine_Gleichstellungs-%20Frauen-%20M%C3%A4dchenpolitik%202026-2028.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1318 | 0 |
+| [Merkblatt%20_Hilfe%20f%C3%BCr%20Opfer%20von%20Gewalttaten_LASV_Endfassung_07_2024_Barrierefreie%20Version.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20_Hilfe%20f%C3%BCr%20Opfer%20von%20Gewalttaten_LASV_Endfassung_07_2024_Barrierefreie%20Version.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 595 | 6 |
+| [Merkblatt%20zur%20F%C3%B6rderung%20von%20Projekten%20GPR%20M%C3%A4dchenarbeit%20Frauenzentren%202025%20-%202027.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20zur%20F%C3%B6rderung%20von%20Projekten%20GPR%20M%C3%A4dchenarbeit%20Frauenzentren%202025%20-%202027.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1349 | 0 |
+| [Merkblatt%20zur%20F%C3%B6rderung%20von%20Projekten%20GPR%2C%20M%C3%A4dchenarbeit%2C%20Frauenzentren.4398597.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Merkblatt%20zur%20F%C3%B6rderung%20von%20Projekten%20GPR%2C%20M%C3%A4dchenarbeit%2C%20Frauenzentren.4398597.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1338 | 0 |
+| [Mittelanforderung%20BAPFA-APH.4398376.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Mittelanforderung%20BAPFA-APH.4398376.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 199 | 0 |
+| [Mittelanforderung%20Fortbildung_final.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Mittelanforderung%20Fortbildung_final.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 114 | 0 |
+| [Mittelanforderung%20Green%20Care%20and%20Rehab.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Mittelanforderung%20Green%20Care%20and%20Rehab.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 144 | 1 |
+| [Mittelanforderung%20Version%201.0%20-%2027.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Mittelanforderung%20Version%201.0%20-%2027.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 162 | 0 |
+| [Mittelanforderung.4408640.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Mittelanforderung.4408640.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 162 | 0 |
+| [Muster%20-%20Erkl%C3%A4rung%20zur%20Barrierefreiheit.4398356.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Muster%20-%20Erkl%C3%A4rung%20zur%20Barrierefreiheit.4398356.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 983 | 0 |
+| [PSP-Richtlinie%20vom%2023.%20Juli%202025_final.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/PSP-Richtlinie%20vom%2023.%20Juli%202025_final.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1471 | 0 |
+| [Perpektive_inklusiver_Arbeitsmarkt_2_Artikel_3_Stabilisierung_eines_Arbeitsplatzes_ua.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Perpektive_inklusiver_Arbeitsmarkt_2_Artikel_3_Stabilisierung_eines_Arbeitsplatzes_ua.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1069 | 2 |
+| [Psychische%20Gesundheit%20im%20Arbeitsleben.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Psychische%20Gesundheit%20im%20Arbeitsleben.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 85 | 30672 | 4 |
+| [RS%2001-2024%20Information%20zur%20Reform%20des%20SGB%20VIII.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2001-2024%20Information%20zur%20Reform%20des%20SGB%20VIII.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 533 | 2 |
+| [RS%2001_2022%20Finanzierung%20von%20Werkstattr%C3%A4te%20Deutschland%20e.V.4437056.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2001_2022%20Finanzierung%20von%20Werkstattr%C3%A4te%20Deutschland%20e.V.4437056.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 256 | 2 |
+| [RS%2002-2024%20Besondere%20Wohnformen_gew%C3%B6hnlicher%20Aufenthalt.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2002-2024%20Besondere%20Wohnformen_gew%C3%B6hnlicher%20Aufenthalt.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 512 | 2 |
+| [RS%2002_2023%20Telefon-%20und%20Videodolmetschen.4437084.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2002_2023%20Telefon-%20und%20Videodolmetschen.4437084.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 387 | 2 |
+| [RS%2002_2023%20Telefon-%20und%20Videodolmetschen.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2002_2023%20Telefon-%20und%20Videodolmetschen.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 387 | 2 |
+| [RS%2003-2024%20%C3%9Cberg%C3%A4nge%20aus%20der%20WfbM%20auf%20den%20allgemeinen%20Arebitsmarkt.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2003-2024%20%C3%9Cberg%C3%A4nge%20aus%20der%20WfbM%20auf%20den%20allgemeinen%20Arebitsmarkt.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 373 | 2 |
+| [RS%2003_2022%20Urteil%20des%20Bundessozialgerichtes.4437098.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2003_2022%20Urteil%20des%20Bundessozialgerichtes.4437098.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 680 | 2 |
+| [RS%2003_2023%20Besondere%20Wohnformen_%20gew%C3%B6hnlicher%20Aufenthalt.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2003_2023%20Besondere%20Wohnformen_%20gew%C3%B6hnlicher%20Aufenthalt.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 931 | 2 |
+| [RS%2004_2023%20Zuverdienst%20im%20Rahmen%20der%20EGH.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2004_2023%20Zuverdienst%20im%20Rahmen%20der%20EGH.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 913 | 2 |
+| [RS%2005_2022%20BAG%C3%BCS%20Positionspapier.4437119.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2005_2022%20BAG%C3%BCS%20Positionspapier.4437119.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 199 | 2 |
+| [RS%2005_2023%20Budget%20f%C3%BCr%20Arbeit%20-%20Vorblatt%20.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2005_2023%20Budget%20f%C3%BCr%20Arbeit%20-%20Vorblatt%20.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 367 | 2 |
+| [RS%2006_%202022%20Anlage%201.1.%20Stand%2013.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2006_%202022%20Anlage%201.1.%20Stand%2013.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 225 | 0 |
+| [RS%2006_2022%20Erg%C3%A4nzung%20RS%20BfA.4437140.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2006_2022%20Erg%C3%A4nzung%20RS%20BfA.4437140.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 632 | 2 |
+| [RS%2008_2022%20Feststellung%20einer%20Leistung%20nach%20%C2%A7%20113%20Abs.%206%20SGB%20IX.4437154.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2008_2022%20Feststellung%20einer%20Leistung%20nach%20%C2%A7%20113%20Abs.%206%20SGB%20IX.4437154.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 980 | 2 |
+| [RS%2008_2022%20Feststellung%20einer%20Leistung%20nach%20%C2%A7%20113%20Abs.%206%20SGB%20IX.4437168.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2008_2022%20Feststellung%20einer%20Leistung%20nach%20%C2%A7%20113%20Abs.%206%20SGB%20IX.4437168.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 980 | 2 |
+| [RS%2010_2022%20Finanzierung%20Bundesvereinigung%20Frauenbeauftragte.4437175.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS%2010_2022%20Finanzierung%20Bundesvereinigung%20Frauenbeauftragte.4437175.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 344 | 2 |
+| [RS_01_2025%20Budget%20f%C3%BCr%20Arbeit%20in%20WfbM.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS_01_2025%20Budget%20f%C3%BCr%20Arbeit%20in%20WfbM.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 201 | 2 |
+| [RS_05_2024_Elternbeitr%C3%A4ge%20in%20I-Kita.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS_05_2024_Elternbeitr%C3%A4ge%20in%20I-Kita.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 276 | 2 |
+| [RS_06_2023%20-%20Einzugsgebiete%20WfbM.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS_06_2023%20-%20Einzugsgebiete%20WfbM.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 504 | 2 |
+| [RS_06_2024_Erg%C3%A4nzung%20zum%20RS_05_2024_Elternbeitr%C3%A4ge%20in%20I-Kita.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS_06_2024_Erg%C3%A4nzung%20zum%20RS_05_2024_Elternbeitr%C3%A4ge%20in%20I-Kita.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 338 | 2 |
+| [RS_07_2024%20Finanzierung%20Bundesvereinigung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS_07_2024%20Finanzierung%20Bundesvereinigung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 262 | 2 |
+| [RS_08_2024_Verwaltungsvereinbarung%20Amtshilfe.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/RS_08_2024_Verwaltungsvereinbarung%20Amtshilfe.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 425 | 2 |
+| [Rechtsbehelfsverzicht%20Version%201.0%20-%2027.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Rechtsbehelfsverzicht%20Version%201.0%20-%2027.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 77 | 0 |
+| [Rechtsbehelfsverzicht.4524385.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Rechtsbehelfsverzicht.4524385.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 82 | 0 |
+| [Rechtsbehelfsverzicht.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Rechtsbehelfsverzicht.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 77 | 0 |
+| [Richtlinie%20%20Pflege%20vor%20Ort%20%20vom%2023.%20Juli%202025_final.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Richtlinie%20%20Pflege%20vor%20Ort%20%20vom%2023.%20Juli%202025_final.pdf) | lasv.brandenburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 2158 | 0 |
+| [Richtlinie%20des%20Ministeriums%20f%C3%BCr%20Wirtschaft%2C%20Arbeit%20und%20Energie%20des%20Landes%20Brandenburg%20zur%20F%C3%B6rderung%20des%20Landesprogramms%20AsA%20Brandenburg.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Richtlinie%20des%20Ministeriums%20f%C3%BCr%20Wirtschaft%2C%20Arbeit%20und%20Energie%20des%20Landes%20Brandenburg%20zur%20F%C3%B6rderung%20des%20Landesprogramms%20AsA%20Brandenburg.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2580 | 0 |
+| [Schulungsangebote_der_Franchisepartner_ITP_2026.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Schulungsangebote_der_Franchisepartner_ITP_2026.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 364 | 1 |
+| [Schwako%20zahlenm%20Nachweis.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Schwako%20zahlenm%20Nachweis.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 50 | 0 |
+| [Schweigepflichtentbindungserkl%C3%A4rung_2024_barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Schweigepflichtentbindungserkl%C3%A4rung_2024_barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 659 | 0 |
+| [StrRehaG%20Kurzantrag_2024_barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/StrRehaG%20Kurzantrag_2024_barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 93 | 1 |
+| [T%C3%A4tigkeitsbericht_2021_AuW_LASV.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/T%C3%A4tigkeitsbericht_2021_AuW_LASV.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 16006 | 7 |
+| [Ver%C3%B6ffentlichung%20Pauschalbudgets%202025%20%20%202026.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Ver%C3%B6ffentlichung%20Pauschalbudgets%202025%20%20%202026.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181 | 2 |
+| [Ver%C3%B6ffentlichung%20des%20vorl%C3%A4ufigen%20Finanzierungsbedarfs%20und%20der%20Finanzierungsanteile%20der%20Krankenh%C3%A4user%20und%20Pflegeeinrichtungen%20f%C3%BCr%20das%20Jahr%202023.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Ver%C3%B6ffentlichung%20des%20vorl%C3%A4ufigen%20Finanzierungsbedarfs%20und%20der%20Finanzierungsanteile%20der%20Krankenh%C3%A4user%20und%20Pflegeeinrichtungen%20f%C3%BCr%20das%20Jahr%202023.pdf) | lasv.brandenburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 366 | 0 |
+| [Verfahren%20zur%20Feststellung%20von%20Leistungen%20der%20Eingliederungshilfe.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Verfahren%20zur%20Feststellung%20von%20Leistungen%20der%20Eingliederungshilfe.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 548 | 0 |
+| [Verwendungsbest%C3%A4tigung%20Pflege_barrierefrei.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Verwendungsbest%C3%A4tigung%20Pflege_barrierefrei.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 434 | 0 |
+| [Verwendungsbest%C3%A4tigung.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Verwendungsbest%C3%A4tigung.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 388 | 0 |
+| [Verwendungsnachweis%20Schwako.4411690.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Verwendungsnachweis%20Schwako.4411690.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 357 | 0 |
+| [Verwendungsnachweis.4565802.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Verwendungsnachweis.4565802.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 306 | 0 |
+| [Vorab-Information%20zur%20F%C3%B6rderrichtlinie%20%C3%BCber%20die%20Gew%C3%A4hrung%20von%20Zusch%C3%BCssen%20f%C3%BCr%20Familienzentren%20im%20Land%20Brandenburg.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Vorab-Information%20zur%20F%C3%B6rderrichtlinie%20%C3%BCber%20die%20Gew%C3%A4hrung%20von%20Zusch%C3%BCssen%20f%C3%BCr%20Familienzentren%20im%20Land%20Brandenburg.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 455 | 0 |
+| [Zuwendungsantrag%20Altenpflegehilfe%2004-2026.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zuwendungsantrag%20Altenpflegehilfe%2004-2026.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1095 | 1 |
+| [Zuwendungsantrag_LASV_inkl-Datenschutz%20neu%202024.docx.4477958.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zuwendungsantrag_LASV_inkl-Datenschutz%20neu%202024.docx.4477958.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1031 | 1 |
+| [Zuwendungsantrag_LASV_inkl-Datenschutz%20neu%202024.docx.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zuwendungsantrag_LASV_inkl-Datenschutz%20neu%202024.docx.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1031 | 1 |
+| [Zuwendungsantrag_LASV_mehrj%C3%A4hrig.658891.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zuwendungsantrag_LASV_mehrj%C3%A4hrig.658891.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1058 | 1 |
+| [Zuwendungsantrag_LASV_mehrj%C3%A4hrig.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zuwendungsantrag_LASV_mehrj%C3%A4hrig.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1058 | 1 |
+| [Zwischenverwendungsnachweis-Verwendungsnachweis%20Version%201.0%20-%2027.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zwischenverwendungsnachweis-Verwendungsnachweis%20Version%201.0%20-%2027.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 369 | 0 |
+| [Zwischenverwendungsnachweis-Verwendungsnachweis%20Version%201.2%20-%2009.pdf](https://lasv.brandenburg.de/sixcms/media.php/9/Zwischenverwendungsnachweis-Verwendungsnachweis%20Version%201.2%20-%2009.pdf) | lasv.brandenburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 416 | 0 |
 
 ## Files with Errors or Notes
 
@@ -18935,3 +19196,123 @@ Generated: 2026-03-12T10:04:00.121497+00:00
 - **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-24_14.00_assesing_the_impact_of_ai_in_human_behaviour_emilia_gomez.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### %C3%84rztliche%20Bescheinigung-soziale%20Berufe.4607051.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/%C3%84rztliche%20Bescheinigung-soziale%20Berufe.4607051.pdf
+- **Status**: analysed
+- title, 
+
+### 01_2026%20Handout_Aktualisierungsmeldungen%20PS.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/01_2026%20Handout_Aktualisierungsmeldungen%20PS.pdf
+- **Status**: analysed
+- title, 
+
+### 01_2026%20Handout_Aktualisierungsmeldungen%20TpA.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/01_2026%20Handout_Aktualisierungsmeldungen%20TpA.pdf
+- **Status**: analysed
+- title, 
+
+### 2025_06_05_Handout_Jahressch%C3%A4tzmeldung%202025.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/2025_06_05_Handout_Jahressch%C3%A4tzmeldung%202025.pdf
+- **Status**: analysed
+- title, 
+
+### Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20-%20ANBest-P%20g%C3%BCltig%20ab%2017.12.2025.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20-%20ANBest-P%20g%C3%BCltig%20ab%2017.12.2025.pdf
+- **Status**: analysed
+- title, 
+
+### Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20an%20Gemeinden%20-%20ANBest-G%20g%C3%BCltig%20ab%2017.12.2025.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Allgemeine%20Nebenbestimmungen%20f%C3%BCr%20Zuwendungen%20zur%20Projektf%C3%B6rderung%20an%20Gemeinden%20-%20ANBest-G%20g%C3%BCltig%20ab%2017.12.2025.pdf
+- **Status**: analysed
+- title, 
+
+### Anlage%201.4606995.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Anlage%201.4606995.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Anlage%202.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Anlage%202.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Aushang%20Arbeitshilfen.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Aushang%20Arbeitshilfen.pdf
+- **Status**: analysed
+- title, 
+
+### Auszug%20Amtsblatt%20f%C3%BCr%20Brandenburg%20Nr.%2027%20vom%2010.%20Juli%202024.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Auszug%20Amtsblatt%20f%C3%BCr%20Brandenburg%20Nr.%2027%20vom%2010.%20Juli%202024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Datenschutz%20SGB%20XIV_Barrierefrei.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Datenschutz%20SGB%20XIV_Barrierefrei.pdf
+- **Status**: analysed
+- title, 
+
+### Foerderrichtlinie_vom_15.02.2022.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Foerderrichtlinie_vom_15.02.2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Foerderrichtlinie_vom_16.07.2025.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Foerderrichtlinie_vom_16.07.2025.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Foerderrichtlinie_vom_29.10.2020.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Foerderrichtlinie_vom_29.10.2020.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Foerderrichtlinie_vom_31.07.2023.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Foerderrichtlinie_vom_31.07.2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Hinterbliebenenversorgung%20nach%20Schutzimpfungen%20SGB%20XIV_Barrierefrei.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Hinterbliebenenversorgung%20nach%20Schutzimpfungen%20SGB%20XIV_Barrierefrei.pdf
+- **Status**: analysed
+- title, 
+
+### LASV-Kodex_.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/LASV-Kodex_.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### PSP-Richtlinie%20vom%2023.%20Juli%202025_final.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/PSP-Richtlinie%20vom%2023.%20Juli%202025_final.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Richtlinie%20%20Pflege%20vor%20Ort%20%20vom%2023.%20Juli%202025_final.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Richtlinie%20%20Pflege%20vor%20Ort%20%20vom%2023.%20Juli%202025_final.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Ver%C3%B6ffentlichung%20des%20vorl%C3%A4ufigen%20Finanzierungsbedarfs%20und%20der%20Finanzierungsanteile%20der%20Krankenh%C3%A4user%20und%20Pflegeeinrichtungen%20f%C3%BCr%20das%20Jahr%202023.pdf
+
+- **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Ver%C3%B6ffentlichung%20des%20vorl%C3%A4ufigen%20Finanzierungsbedarfs%20und%20der%20Finanzierungsanteile%20der%20Krankenh%C3%A4user%20und%20Pflegeeinrichtungen%20f%C3%BCr%20das%20Jahr%202023.pdf
+- **Status**: analysed
+- title, 
