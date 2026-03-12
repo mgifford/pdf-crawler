@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T15:45:03.599152+00:00",
+    "site": "northamptonma.gov",
+    "crawl_url": "https://www.northamptonma.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23010566343",
+    "issue_url": "",
+    "archive_file": "2026-03-12_15-45-03-599_northamptonma.gov.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-12T15:21:50.823101+00:00",
     "site": "redtag.ca",
     "crawl_url": "https://www.redtag.ca/",
