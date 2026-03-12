@@ -338,9 +338,13 @@ jobs:
             # Retry push up to 5 times to handle concurrent manifest updates.
             # On conflict, reset to the remote HEAD and re-merge our crawl entries
             # on top using --skip-crawl (crawled_files/ is still on disk).
+            # PUSH_DONE tracks success so the commit after the final reset+recommit
+            # is also pushed (not silently dropped by the loop).
+            PUSH_DONE=false
             for attempt in 1 2 3 4 5; do
               if git push; then
                 echo "Push succeeded on attempt $attempt."
+                PUSH_DONE=true
                 break
               fi
               echo "Push attempt $attempt failed – rebasing on latest remote…"
@@ -370,10 +374,16 @@ jobs:
               [ -f reports/crawled_urls.csv ] && git add reports/crawled_urls.csv || true
               if git diff --cached --quiet; then
                 echo "No manifest changes after merge – nothing to push."
+                PUSH_DONE=true
                 break
               fi
               git commit -m "chore: update manifest after crawl of $CRAWL_URL"
             done
+            # If every push attempt failed, make one final attempt for the commit
+            # created during the last reset+recommit iteration.
+            if [ "$PUSH_DONE" = "false" ]; then
+              git push || echo "::warning::All push attempts exhausted; manifest saved as workflow artifact."
+            fi
           fi
 
       - name: Save scan metadata for the analysis workflow

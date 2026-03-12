@@ -314,12 +314,20 @@ jobs:
             echo "No report changes to commit."
           else
             git commit -m "chore: update accessibility reports"
-            # Retry push up to 3 times to handle concurrent report commits
+            # Retry push up to 3 times to handle concurrent report commits.
+            # Track success so the commit from the final rebase is also pushed.
+            PUSH_DONE=false
             for attempt in 1 2 3; do
-              git push && break
+              if git push; then
+                PUSH_DONE=true
+                break
+              fi
               echo "Push attempt $attempt failed – pulling and retrying…"
-              git pull --rebase origin "${{ github.ref_name }}"
+              git pull --rebase origin "${{ github.ref_name }}" || { echo "::warning::Rebase failed on attempt $attempt; aborting."; git rebase --abort 2>/dev/null || true; }
             done
+            if [ "$PUSH_DONE" = "false" ]; then
+              git push || echo "::warning::All push attempts exhausted; reports saved as workflow artifact."
+            fi
           fi
 
       - name: Upload accessibility report as artifact
@@ -459,11 +467,18 @@ jobs:
             echo "No index changes to commit."
           else
             git commit -m "chore: link issue comment to reports index"
+            PUSH_DONE=false
             for attempt in 1 2 3; do
-              git push && break
+              if git push; then
+                PUSH_DONE=true
+                break
+              fi
               echo "Push attempt $attempt failed – pulling and retrying…"
-              git pull --rebase origin "${{ github.ref_name }}"
+              git pull --rebase origin "${{ github.ref_name }}" || { echo "::warning::Rebase failed on attempt $attempt; aborting."; git rebase --abort 2>/dev/null || true; }
             done
+            if [ "$PUSH_DONE" = "false" ]; then
+              git push || echo "::warning::All push attempts exhausted."
+            fi
           fi
 
       - name: Close issue after scan and report
@@ -486,3 +501,56 @@ jobs:
               state: 'closed',
               state_reason: 'completed',
             });
+
+      # -----------------------------------------------------------------------
+      # Runs only when the job is cancelled (e.g. 60-minute job timeout).
+      # Clears the scan-in-progress label and marks the issue scan-failed so
+      # the issue does not remain permanently stuck with no visible status.
+      # -----------------------------------------------------------------------
+      - name: Handle analysis cancellation or timeout
+        if: >-
+          cancelled() &&
+          github.event_name == 'workflow_run' &&
+          steps.meta.outputs.issue_number != ''
+        uses: actions/github-script@v8
+        env:
+          ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
+          CRAWL_URL:    ${{ steps.meta.outputs.crawl_url }}
+          RUN_URL:      https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const issueNumber = parseInt(process.env.ISSUE_NUMBER, 10);
+            if (!Number.isInteger(issueNumber) || issueNumber <= 0) return;
+            const crawlUrl = process.env.CRAWL_URL || '(unknown)';
+            const runUrl   = process.env.RUN_URL;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              issue_number: issueNumber,
+              body: [
+                `⏱️ **Analysis timed out** for \`${crawlUrl}\`.`,
+                ``,
+                `The accessibility analysis job exceeded its time limit and was cancelled.`,
+                `Please check the [workflow run](${runUrl}) for details.`,
+                ``,
+                `Close and reopen this issue to retry the analysis.`,
+              ].join('\n'),
+            });
+            try {
+              await github.rest.issues.removeLabel({
+                owner: context.repo.owner,
+                repo:  context.repo.repo,
+                issue_number: issueNumber,
+                name: 'scan-in-progress',
+              });
+            } catch (err) {
+              if (err.status !== 404) throw err;
+            }
+            try {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo:  context.repo.repo,
+                issue_number: issueNumber,
+                labels: ['scan-failed'],
+              });
+            } catch (_) {}
