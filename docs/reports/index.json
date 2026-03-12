@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T21:52:46.091693+00:00",
+    "site": "va.gov",
+    "crawl_url": "https://va.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23025643534",
+    "issue_url": "",
+    "archive_file": "2026-03-12_21-52-46-091_va.gov.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-12T21:46:19.680717+00:00",
     "site": "va.gov",
     "crawl_url": "https://www.va.gov/",

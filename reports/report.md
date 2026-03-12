@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T21:46:19.680717+00:00
+Generated: 2026-03-12T21:52:46.091693+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
 | URLs crawled | 1 |
-| Total files tracked | 9497 |
+| Total files tracked | 9814 |
 | Analysed | 2727 |
-| Pending analysis | 5681 |
+| Pending analysis | 5998 |
 | Errors during analysis | 1089 |
 | Accessible | 1037 |
 | Totally inaccessible | 35 |
@@ -35,7 +35,7 @@ Generated: 2026-03-12T21:46:19.680717+00:00
 | gsa.gov | 450 |
 | hud.gov | 1231 |
 | lasv.brandenburg.de | 260 |
-| mn.gov | 1080 |
+| mn.gov | 1397 |
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
 | projects.accesscomputing.uw.edu | 3 |
