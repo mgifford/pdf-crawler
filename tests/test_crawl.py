@@ -9,7 +9,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from crawl import normalize_url, _URL_PREFIXES, _site_folder, run_scrapy, _print_scrapy_log_tail
+from crawl import normalize_url, _URL_PREFIXES, _site_folder, run_scrapy, _print_scrapy_log_tail, is_pdf_url
 
 
 # ---------------------------------------------------------------------------
@@ -242,6 +242,55 @@ def test_site_folder_already_lowercase_no_www():
 def test_site_folder_uppercase_no_www():
     """Uppercase netloc without www. is still lowercased."""
     assert _site_folder("EXAMPLE.COM") == "example.com"
+
+
+# ---------------------------------------------------------------------------
+# is_pdf_url
+# ---------------------------------------------------------------------------
+
+def test_is_pdf_url_direct_pdf():
+    """A URL whose path ends with .pdf should be identified as a PDF URL."""
+    assert is_pdf_url("https://example.com/document.pdf") is True
+
+
+def test_is_pdf_url_pdf_with_query_string():
+    """Query string after .pdf should not hide the PDF extension."""
+    assert is_pdf_url("https://example.com/report.pdf?version=2") is True
+
+
+def test_is_pdf_url_pdf_with_fragment():
+    """Fragment after .pdf should not hide the PDF extension."""
+    assert is_pdf_url("https://example.com/file.pdf#page=3") is True
+
+
+def test_is_pdf_url_pdf_uppercase_extension():
+    """PDF extension check should be case-insensitive."""
+    assert is_pdf_url("https://example.com/REPORT.PDF") is True
+
+
+def test_is_pdf_url_mixed_case_extension():
+    """Mixed-case .Pdf extension should still be detected."""
+    assert is_pdf_url("https://example.com/doc.Pdf") is True
+
+
+def test_is_pdf_url_html_page():
+    """A normal HTML page URL should not be identified as a PDF URL."""
+    assert is_pdf_url("https://example.com/index.html") is False
+
+
+def test_is_pdf_url_homepage():
+    """A bare homepage URL should not be identified as a PDF URL."""
+    assert is_pdf_url("https://example.com") is False
+
+
+def test_is_pdf_url_homepage_with_path():
+    """A deep page URL (non-PDF) should not be identified as a PDF URL."""
+    assert is_pdf_url("https://example.com/reports/2024/index.aspx") is False
+
+
+def test_is_pdf_url_pdf_in_path_segment():
+    """A URL with 'pdf' in a path segment (not extension) is not a PDF URL."""
+    assert is_pdf_url("https://example.com/pdf-reports/index.html") is False
 
 
 # ---------------------------------------------------------------------------
