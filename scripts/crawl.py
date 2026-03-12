@@ -363,6 +363,15 @@ def main() -> None:
         default="reports",
         help="Directory to write the crawled_urls.csv report into (default: reports)",
     )
+    parser.add_argument(
+        "--skip-crawl",
+        action="store_true",
+        help=(
+            "Skip the Scrapy crawl and only update the manifest from already-downloaded "
+            "files in --output-dir.  Useful when retrying a push after a merge conflict: "
+            "the crawled files are still on disk, so only the manifest re-merge is needed."
+        ),
+    )
     args = parser.parse_args()
 
     # Ensure output and reports directories exist
@@ -372,9 +381,12 @@ def main() -> None:
     # Normalise the URL – prepend a protocol and probe variants when needed.
     url = normalize_url(args.url)
 
-    print(f"Crawling {url} (timeout: {args.timeout}s, max pages: {args.max_pages})…")
     log_path = "scrapy.log"
-    run_scrapy(url, args.output_dir, args.timeout, args.spider, args.max_pages, log_path)
+    if args.skip_crawl:
+        print(f"Skipping crawl for {url} – updating manifest from existing files only.")
+    else:
+        print(f"Crawling {url} (timeout: {args.timeout}s, max pages: {args.max_pages})…")
+        run_scrapy(url, args.output_dir, args.timeout, args.spider, args.max_pages, log_path)
 
     print("Updating manifest…")
     update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
@@ -383,7 +395,7 @@ def main() -> None:
     pages_crawled = generate_crawled_urls_csv(url, args.output_dir, args.report_dir)
     print(f"Pages crawled: {pages_crawled}")
 
-    if pages_crawled == 0:
+    if not args.skip_crawl and pages_crawled == 0:
         print(
             "WARNING: No pages were crawled. The site may be blocking automated "
             "requests. Check the Scrapy log below for details."

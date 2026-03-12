@@ -587,3 +587,108 @@ def test_run_scrapy_prints_log_on_error(tmp_path, capsys):
 
     captured = capsys.readouterr()
     assert "Connection refused" in captured.out
+
+
+# ---------------------------------------------------------------------------
+# --skip-crawl flag in main()
+# ---------------------------------------------------------------------------
+
+
+def test_skip_crawl_does_not_invoke_scrapy(tmp_path):
+    """When --skip-crawl is set, run_scrapy() must not be called."""
+    from crawl import main
+
+    output_dir = tmp_path / "crawled_files" / "example.com"
+    output_dir.mkdir(parents=True)
+    manifest_path = tmp_path / "manifest.yaml"
+    report_dir = tmp_path / "reports"
+
+    with patch("crawl.run_scrapy") as mock_scrapy, \
+         patch("crawl.normalize_url", return_value="https://example.com"), \
+         patch("crawl.update_manifest"), \
+         patch("crawl.generate_crawled_urls_csv", return_value=0):
+        with patch("sys.argv", [
+            "crawl.py",
+            "--url", "https://example.com",
+            "--manifest", str(manifest_path),
+            "--output-dir", str(tmp_path / "crawled_files"),
+            "--report-dir", str(report_dir),
+            "--skip-crawl",
+        ]):
+            main()
+
+    mock_scrapy.assert_not_called()
+
+
+def test_no_skip_crawl_does_invoke_scrapy(tmp_path):
+    """Without --skip-crawl, run_scrapy() must be called exactly once."""
+    from crawl import main
+
+    output_dir = tmp_path / "crawled_files" / "example.com"
+    output_dir.mkdir(parents=True)
+    manifest_path = tmp_path / "manifest.yaml"
+    report_dir = tmp_path / "reports"
+
+    with patch("crawl.run_scrapy") as mock_scrapy, \
+         patch("crawl.normalize_url", return_value="https://example.com"), \
+         patch("crawl.update_manifest"), \
+         patch("crawl.generate_crawled_urls_csv", return_value=5):
+        with patch("sys.argv", [
+            "crawl.py",
+            "--url", "https://example.com",
+            "--manifest", str(manifest_path),
+            "--output-dir", str(tmp_path / "crawled_files"),
+            "--report-dir", str(report_dir),
+        ]):
+            main()
+
+    mock_scrapy.assert_called_once()
+
+
+def test_skip_crawl_still_runs_update_manifest(tmp_path):
+    """When --skip-crawl is set, update_manifest() must still be called."""
+    from crawl import main
+
+    manifest_path = tmp_path / "manifest.yaml"
+    report_dir = tmp_path / "reports"
+
+    with patch("crawl.run_scrapy"), \
+         patch("crawl.normalize_url", return_value="https://example.com"), \
+         patch("crawl.update_manifest") as mock_update, \
+         patch("crawl.generate_crawled_urls_csv", return_value=0):
+        with patch("sys.argv", [
+            "crawl.py",
+            "--url", "https://example.com",
+            "--manifest", str(manifest_path),
+            "--output-dir", str(tmp_path / "crawled_files"),
+            "--report-dir", str(report_dir),
+            "--skip-crawl",
+        ]):
+            main()
+
+    mock_update.assert_called_once()
+
+
+def test_skip_crawl_no_zero_pages_warning(tmp_path, capsys):
+    """When --skip-crawl is set and no pages were crawled, no warning is emitted."""
+    from crawl import main
+
+    manifest_path = tmp_path / "manifest.yaml"
+    report_dir = tmp_path / "reports"
+
+    with patch("crawl.run_scrapy"), \
+         patch("crawl.normalize_url", return_value="https://example.com"), \
+         patch("crawl.update_manifest"), \
+         patch("crawl.generate_crawled_urls_csv", return_value=0):
+        with patch("sys.argv", [
+            "crawl.py",
+            "--url", "https://example.com",
+            "--manifest", str(manifest_path),
+            "--output-dir", str(tmp_path / "crawled_files"),
+            "--report-dir", str(report_dir),
+            "--skip-crawl",
+        ]):
+            main()
+
+    captured = capsys.readouterr()
+    assert "WARNING" not in captured.out
