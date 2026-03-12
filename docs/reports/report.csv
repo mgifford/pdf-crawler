@@ -9438,3 +9438,6 @@ https://www.hud.gov/sites/documents/titlevi_fact_sheet_tribes.pdf,titlevi_fact_s
 https://www.hud.gov/sites/documents/titlevi_leveraging_ex.pdf,titlevi_leveraging_ex.pdf,hud.gov,pending,2026-03-12T16:57:40.182231+00:00,,,,,,,,,,,,,,
 https://www.hud.gov/sites/documents/titlevi_payment_ex.pdf,titlevi_payment_ex.pdf,hud.gov,pending,2026-03-12T16:57:40.183215+00:00,,,,,,,,,,,,,,
 https://www.hud.gov/sites/documents/titleviloanguarapp-chklist.pdf,titleviloanguarapp-chklist.pdf,hud.gov,pending,2026-03-12T16:57:40.184265+00:00,,,,,,,,,,,,,,
+https://projects.accesscomputing.uw.edu/au/documents/syllabus_NOTaccessible.pdf,syllabus_NOTaccessible.pdf,projects.accesscomputing.uw.edu,analysed,2026-03-12T21:10:09.013696+00:00,False,False,False,Fail,Pass,Pass,Fail,Fail,Pass,False,1,165,1,"title, tagged, lang, "
+https://projects.accesscomputing.uw.edu/au/documents/syllabus_accessible.pdf,syllabus_accessible.pdf,projects.accesscomputing.uw.edu,analysed,2026-03-12T21:10:09.015263+00:00,True,False,False,Pass,Pass,Pass,Pass,Pass,Pass,False,1,165,1,
+https://projects.accesscomputing.uw.edu/au/documents/syllabus_scanned.pdf,syllabus_scanned.pdf,projects.accesscomputing.uw.edu,analysed,2026-03-12T21:10:09.016822+00:00,False,True,False,Fail,Fail,Pass,Fail,Fail,Pass,False,1,0,1,"title, tagged, lang, "

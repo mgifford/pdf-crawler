@@ -1,17 +1,18 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T20:45:53.441799+00:00
+Generated: 2026-03-12T21:11:22.755784+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 9439 |
-| Analysed | 2669 |
+| URLs crawled | 21 |
+| Total files tracked | 9442 |
+| Analysed | 2672 |
 | Pending analysis | 5681 |
 | Errors during analysis | 1089 |
-| Accessible | 982 |
-| Totally inaccessible | 34 |
+| Accessible | 983 |
+| Totally inaccessible | 35 |
 | Broken / unreadable | 3 |
 | Exempt (pre-2018) | 632 |
 
@@ -37,6 +38,7 @@ Generated: 2026-03-12T20:45:53.441799+00:00
 | mn.gov | 1080 |
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
+| projects.accesscomputing.uw.edu | 3 |
 | tollwerk.de | 8 |
 | towson.edu | 148 |
 | ul.ie | 7 |
@@ -2716,6 +2718,9 @@ Generated: 2026-03-12T20:45:53.441799+00:00
 | [MSS%20Spring%202016%20Institutional%20summary.pdf](https://www.ul.ie/sites/default/files/quality/MSS%20Spring%202016%20Institutional%20summary.pdf) | ul.ie | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 250 | 3 |
 | [NIHS%20VOL%208%20Issue%204%202021%20FNL2.pdf](https://www.ul.ie/sites/default/files/hsa/NIHS%20VOL%208%20Issue%204%202021%20FNL2.pdf) | ul.ie | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 104 | 39831 | 137 |
 | [University%20of%20Limerick%20Acceptable%20Usage%20Policy%20%282%29.pdf](https://www.ul.ie/sites/default/files/policy-hub/University%20of%20Limerick%20Acceptable%20Usage%20Policy%20%282%29.pdf) | ul.ie | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 4616 | 1 |
+| [syllabus_NOTaccessible.pdf](https://projects.accesscomputing.uw.edu/au/documents/syllabus_NOTaccessible.pdf) | projects.accesscomputing.uw.edu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 165 | 1 |
+| [syllabus_accessible.pdf](https://projects.accesscomputing.uw.edu/au/documents/syllabus_accessible.pdf) | projects.accesscomputing.uw.edu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 165 | 1 |
+| [syllabus_scanned.pdf](https://projects.accesscomputing.uw.edu/au/documents/syllabus_scanned.pdf) | projects.accesscomputing.uw.edu | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
 
 ## Files with Errors or Notes
 
@@ -19386,3 +19391,15 @@ Generated: 2026-03-12T20:45:53.441799+00:00
 - **URL**: https://www.ul.ie/sites/default/files/policy-hub/University%20of%20Limerick%20Acceptable%20Usage%20Policy%20%282%29.pdf
 - **Status**: analysed
 - title, 
+
+### syllabus_NOTaccessible.pdf
+
+- **URL**: https://projects.accesscomputing.uw.edu/au/documents/syllabus_NOTaccessible.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### syllabus_scanned.pdf
+
+- **URL**: https://projects.accesscomputing.uw.edu/au/documents/syllabus_scanned.pdf
+- **Status**: analysed
+- title, tagged, lang, 

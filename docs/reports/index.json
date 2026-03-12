@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T21:11:22.755784+00:00",
+    "site": "projects.accesscomputing.uw.edu",
+    "crawl_url": "https://projects.accesscomputing.uw.edu/au/docinfo.html",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23024082856",
+    "issue_url": "",
+    "archive_file": "2026-03-12_21-11-22-755_projects.accesscomputing.uw.edu.html",
+    "total": 3,
+    "analysed": 3,
+    "accessible": 1
+  },
+  {
     "date": "2026-03-12T20:45:53.441799+00:00",
     "site": "pl.mn.gov",
     "crawl_url": "https://pl.mn.gov/",
