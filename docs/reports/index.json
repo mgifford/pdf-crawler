@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T13:30:12.742607+00:00",
+    "site": "apps.deed.state.mn.us",
+    "crawl_url": "https://apps.deed.state.mn.us/mwa/Deed/DistProfileDefault.aspx",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23004378657",
+    "issue_url": "",
+    "archive_file": "2026-03-12_13-30-12-742_apps.deed.state.mn.us.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-12T13:24:58.782933+00:00",
     "site": "web-4-all.de",
     "crawl_url": "https://www.web-4-all.de",
