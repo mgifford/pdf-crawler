@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T13:30:12.742607+00:00
+Generated: 2026-03-12T13:34:12.492298+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 1 |
-| Total files tracked | 7631 |
+| URLs crawled | 53 |
+| Total files tracked | 7779 |
 | Analysed | 2661 |
-| Pending analysis | 3881 |
+| Pending analysis | 4029 |
 | Errors during analysis | 1089 |
 | Accessible | 982 |
 | Totally inaccessible | 34 |
@@ -37,6 +37,7 @@ Generated: 2026-03-12T13:30:12.742607+00:00
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
 | tollwerk.de | 8 |
+| towson.edu | 148 |
 | vdl.lu | 16 |
 | web-4-all.de | 9 |
 ## File Details

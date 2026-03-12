@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T13:34:12.492298+00:00",
+    "site": "ottawa.ca",
+    "crawl_url": "https://ottawa.ca",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23004546131",
+    "issue_url": "",
+    "archive_file": "2026-03-12_13-34-12-492_ottawa.ca.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-12T13:30:12.742607+00:00",
     "site": "apps.deed.state.mn.us",
     "crawl_url": "https://apps.deed.state.mn.us/mwa/Deed/DistProfileDefault.aspx",
