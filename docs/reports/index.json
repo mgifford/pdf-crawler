@@ -4,7 +4,7 @@
     "site": "lasv.brandenburg.de",
     "crawl_url": "https://lasv.brandenburg.de/lasv/de/",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22997898770",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/74#issuecomment-4045813975",
     "archive_file": "2026-03-12_10-59-17-699_lasv.brandenburg.de.html",
     "total": 260,
     "analysed": 260,
