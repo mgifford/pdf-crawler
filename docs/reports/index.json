@@ -4,7 +4,7 @@
     "site": "apps.deed.state.mn.us",
     "crawl_url": "https://apps.deed.state.mn.us/mwa/Deed/DistProfileDefault.aspx",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23004378657",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/80#issuecomment-4046791406",
     "archive_file": "2026-03-12_13-30-12-742_apps.deed.state.mn.us.html",
     "total": 0,
     "analysed": 0,
