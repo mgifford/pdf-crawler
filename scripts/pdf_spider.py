@@ -14,6 +14,7 @@ disabled so that these cross-domain download requests are not dropped; instead
 the spider enforces same-domain page crawling explicitly.
 """
 
+import hashlib
 import json
 import random
 import scrapy
@@ -168,6 +169,28 @@ class PdfA11ySpider(scrapy.Spider):
 
     def parse(self, response):
         if not isinstance(response, scrapy.http.response.html.HtmlResponse):
+            # A link followed as a potential HTML page returned non-HTML content.
+            # This happens on CMS sites (e.g. CivicPlus/CivicEngage) where PDF
+            # documents are served through paths that lack a .pdf extension, such
+            # as /DocumentCenter/View/1234/ or /ArchiveCenter/ViewFile/Item/5678.
+            # Check the Content-Type header; if the server declares the response
+            # as a PDF, save it just like any other discovered PDF.
+            content_type = (
+                response.headers.get(b"Content-Type", b"")
+                .decode("utf-8", errors="replace")
+                .lower()
+            )
+            if "application/pdf" in content_type:
+                referer = response.meta.get("referer", "")
+                self.logger.info(
+                    "Detected PDF by Content-Type (no .pdf extension): %s",
+                    response.url,
+                )
+                print(
+                    f"  Found PDF by Content-Type: {response.url}",
+                    flush=True,
+                )
+                self.save_pdf(response, referer=referer)
             return
 
         print(f"Crawling: {response.url}", flush=True)
@@ -203,6 +226,7 @@ class PdfA11ySpider(scrapy.Spider):
                     yield response.follow(
                         link, self.parse, errback=self.handle_error,
                         headers={"User-Agent": self._random_ua()},
+                        meta={"referer": response.url},
                     )
 
     def save_pdf(self, response, referer=""):
@@ -211,8 +235,22 @@ class PdfA11ySpider(scrapy.Spider):
         # Characters such as '?' are rejected by GitHub Actions artifact upload
         # and are invalid on several file systems (Windows, NTFS).
         url_path = urllib.parse.urlparse(response.url).path
-        raw_path = url_path.split("/")[-1]
+        # Strip trailing slashes before extracting the last path segment so
+        # that URLs like /DocumentCenter/View/1234/ use "1234" as the base
+        # rather than an empty string.
+        segments = [s for s in url_path.split("/") if s]
+        if segments:
+            raw_path = segments[-1]
+        else:
+            # Root path ("/") or empty path: derive a stable name from the URL
+            # to avoid all such PDFs colliding under the same filename.
+            raw_path = "doc-" + hashlib.md5(response.url.encode()).hexdigest()[:8]
         basename, ext = os.path.splitext(os.path.basename(raw_path))
+        # When the URL has no file extension (common on CMS-generated PDF
+        # links such as /DocumentCenter/View/1234/), default to .pdf so the
+        # saved file is recognised by the manifest update step.
+        if not ext:
+            ext = ".pdf"
         # Use lowercase netloc with www. stripped for a clean, consistent folder
         # name (e.g. "ontario.ca" instead of "www.Ontario.ca").
         netloc = self.parsed_url.netloc.lower()

@@ -6,6 +6,8 @@ from pathlib import Path
 from unittest.mock import MagicMock
 
 import pytest
+from scrapy.http import Request as ScrapyRequest
+from scrapy.http import Response as ScrapyResponse
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
@@ -427,8 +429,6 @@ def _make_html_response(page_url, html_body):
 
 def test_parse_cross_domain_pdf_is_downloaded():
     """parse() must yield a download Request for a PDF on a different domain."""
-    from scrapy.http import Request as ScrapyRequest
-
     spider = _make_spider("/tmp")
     page_url = "https://example.com/publications"
     pdf_url = "https://assets.cdn.example.org/report.pdf"
@@ -471,3 +471,151 @@ def test_parse_same_domain_html_is_followed():
 
     assert len(requests) == 1, f"Expected 1 follow request, got {len(requests)}"
     assert requests[0].callback == spider.parse
+
+
+def test_parse_same_domain_follow_carries_referer_in_meta():
+    """parse() must pass the current page URL as 'referer' in the request meta."""
+    spider = _make_spider("/tmp")
+    page_url = "https://example.com/page"
+    child_url = "https://example.com/child-page"
+    html = f'<html><body><a href="{child_url}">Child</a></body></html>'
+
+    response = _make_html_response(page_url, html)
+    requests = list(spider.parse(response))
+
+    assert len(requests) == 1
+    req = requests[0]
+    assert req.meta.get("referer") == page_url, (
+        f"Expected referer={page_url!r} in meta, got {req.meta!r}"
+    )
+
+
+# ---------------------------------------------------------------------------
+# parse() – Content-Type PDF detection (no .pdf extension in URL)
+# ---------------------------------------------------------------------------
+
+
+def _make_binary_response(url, body=b"%PDF-1.4 fake", content_type=b"application/pdf",
+                          meta=None):
+    """Return a real Scrapy Response (non-HTML) with the given Content-Type.
+
+    Attaches a synthetic Request so that response.meta is accessible, matching
+    what Scrapy does when a response is received for an actual in-flight request.
+
+    Args:
+        url: The response URL.
+        body: Raw response body bytes.
+        content_type: Content-Type header value as bytes (default: b"application/pdf").
+        meta: Optional dict to set as the request meta (e.g. {"referer": "..."}).
+    """
+    request = ScrapyRequest(url, meta=meta or {})
+    return ScrapyResponse(url=url, body=body, headers={b"Content-Type": content_type},
+                          request=request)
+
+
+def test_parse_saves_pdf_detected_by_content_type(tmp_path):
+    """parse() must save a PDF response even when the URL lacks a .pdf extension.
+
+    CMS sites like CivicPlus/CivicEngage serve PDFs through paths such as
+    /DocumentCenter/View/1234/ without a .pdf suffix.  The spider must detect
+    these via the Content-Type response header and save them.
+    """
+    spider = _make_spider(tmp_path)
+    cms_pdf_url = "https://example.com/DocumentCenter/View/1234/"
+    response = _make_binary_response(cms_pdf_url)
+    # parse() is a generator; consuming it executes the function body.
+    list(spider.parse(response))
+
+    site_dir = tmp_path / "example.com"
+    pdf_files = [f for f in site_dir.iterdir() if f.suffix == ".pdf"]
+    assert len(pdf_files) == 1, (
+        f"Expected 1 saved PDF, got {[f.name for f in site_dir.iterdir()]}"
+    )
+
+
+def test_parse_pdf_content_type_uses_path_segment_as_filename(tmp_path):
+    """PDF saved via Content-Type detection must use the last URL path segment."""
+    spider = _make_spider(tmp_path)
+    # URL: last segment is "Annual-Budget-2024", no extension → should become "Annual-Budget-2024.pdf"
+    cms_url = "https://example.com/DocumentCenter/View/Annual-Budget-2024"
+    response = _make_binary_response(cms_url)
+    list(spider.parse(response))
+
+    site_dir = tmp_path / "example.com"
+    saved = [f.name for f in site_dir.iterdir() if f.suffix == ".pdf"]
+    assert "Annual-Budget-2024.pdf" in saved, f"Expected Annual-Budget-2024.pdf, got {saved}"
+
+
+def test_parse_pdf_content_type_records_referer(tmp_path):
+    """PDF saved via Content-Type detection must record the referer from meta."""
+    spider = _make_spider(tmp_path)
+    cms_url = "https://example.com/DocumentCenter/View/1234"
+    referer_page = "https://example.com/documents"
+    response = _make_binary_response(cms_url, meta={"referer": referer_page})
+    list(spider.parse(response))
+
+    save_dir = str(tmp_path / "example.com")
+    referer_map = spider._referer_maps.get(save_dir, {})
+    assert any(v == referer_page for v in referer_map.values()), (
+        f"Expected referer {referer_page!r} in referer_map, got {referer_map}"
+    )
+
+
+def test_parse_non_pdf_non_html_response_is_ignored(tmp_path):
+    """parse() must silently ignore non-HTML, non-PDF responses (e.g. images)."""
+    spider = _make_spider(tmp_path)
+    img_url = "https://example.com/logo.png"
+    response = _make_binary_response(
+        img_url, body=b"\x89PNG\r\n", content_type=b"image/png"
+    )
+    list(spider.parse(response))
+
+    site_dir = tmp_path / "example.com"
+    # No files should have been saved (directory may not even exist).
+    if site_dir.exists():
+        pdf_files = [f for f in site_dir.iterdir() if f.suffix == ".pdf"]
+        assert pdf_files == [], f"Unexpected PDF files saved: {pdf_files}"
+
+
+# ---------------------------------------------------------------------------
+# save_pdf – filename when URL has no extension (CMS URLs)
+# ---------------------------------------------------------------------------
+
+
+def test_save_pdf_adds_pdf_extension_when_url_has_none(tmp_path):
+    """save_pdf must append .pdf when the URL path has no file extension."""
+    spider = _make_spider(tmp_path)
+    url = "https://example.com/DocumentCenter/View/1234"
+    spider.save_pdf(_make_response(url))
+
+    site_dir = tmp_path / "example.com"
+    pdf_files = [f for f in site_dir.iterdir() if f.suffix == ".pdf"]
+    assert len(pdf_files) == 1, f"Expected 1 .pdf file, got {[f.name for f in site_dir.iterdir()]}"
+    assert pdf_files[0].name == "1234.pdf"
+
+
+def test_save_pdf_trailing_slash_url_uses_last_nonempty_segment(tmp_path):
+    """save_pdf must use the last non-empty URL segment for trailing-slash URLs."""
+    spider = _make_spider(tmp_path)
+    # Trailing slash → last segment is "1234", not ""
+    url = "https://example.com/DocumentCenter/View/1234/"
+    spider.save_pdf(_make_response(url))
+
+    site_dir = tmp_path / "example.com"
+    pdf_files = [f for f in site_dir.iterdir() if f.suffix == ".pdf"]
+    assert len(pdf_files) == 1
+    assert pdf_files[0].name == "1234.pdf"
+
+
+def test_save_pdf_preserves_existing_pdf_extension(tmp_path):
+    """save_pdf must NOT double-add .pdf when the URL already ends with .pdf."""
+    spider = _make_spider(tmp_path)
+    url = "https://example.com/reports/annual.pdf"
+    spider.save_pdf(_make_response(url))
+
+    site_dir = tmp_path / "example.com"
+    pdf_files = [f for f in site_dir.iterdir() if f.suffix == ".pdf"]
+    assert len(pdf_files) == 1
+    assert pdf_files[0].name == "annual.pdf", (
+        f"Extension was doubled: {pdf_files[0].name}"
+    )
