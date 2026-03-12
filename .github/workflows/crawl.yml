@@ -322,7 +322,10 @@ jobs:
 
       - name: Commit updated manifest
         env:
-          CRAWL_URL: ${{ steps.params.outputs.url }}
+          CRAWL_URL:       ${{ steps.params.outputs.url }}
+          CRAWL_NOTES:     ${{ steps.params.outputs.notes }}
+          CRAWL_MAX_PAGES: ${{ steps.params.outputs.max_pages }}
+          GIT_BRANCH:      ${{ github.ref_name }}
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -332,15 +335,44 @@ jobs:
             echo "No manifest changes to commit."
           else
             git commit -m "chore: update manifest after crawl of $CRAWL_URL"
-            # Retry push up to 3 times to handle concurrent manifest updates
-            for attempt in 1 2 3; do
-              git push && break
-              echo "Push attempt $attempt failed – pulling and retrying…"
-              # Stash any remaining unstaged changes so rebase can proceed cleanly
-              STASHED=false
-              if ! git diff --quiet; then git stash && STASHED=true; fi
-              git pull --rebase origin "${{ github.ref_name }}"
-              $STASHED && git stash pop || true
+            # Retry push up to 5 times to handle concurrent manifest updates.
+            # On conflict, reset to the remote HEAD and re-merge our crawl entries
+            # on top using --skip-crawl (crawled_files/ is still on disk).
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                echo "Push succeeded on attempt $attempt."
+                break
+              fi
+              echo "Push attempt $attempt failed – rebasing on latest remote…"
+              # Clean up any in-progress rebase before fetching
+              git rebase --abort 2>/dev/null || true
+              # Fetch the latest remote state
+              git fetch origin "$GIT_BRANCH"
+              # Discard our local commit and reset to the remote HEAD.
+              # crawled_files/ is untracked (.gitignore) so it is preserved.
+              git reset --hard "origin/$GIT_BRANCH"
+              # Re-apply our manifest entries on top of the fresh remote state
+              # without re-running the expensive Scrapy crawl.
+              NOTES_ARGS=()
+              if [ -n "$CRAWL_NOTES" ]; then
+                NOTES_ARGS=(--notes "$CRAWL_NOTES")
+              fi
+              python scripts/crawl.py \
+                --url "$CRAWL_URL" \
+                --manifest reports/manifest.yaml \
+                --output-dir crawled_files \
+                --report-dir reports \
+                --max-pages "$CRAWL_MAX_PAGES" \
+                --skip-crawl \
+                "${NOTES_ARGS[@]}"
+              # Stage and re-commit the freshly merged manifest
+              [ -f reports/manifest.yaml ]    && git add reports/manifest.yaml    || true
+              [ -f reports/crawled_urls.csv ] && git add reports/crawled_urls.csv || true
+              if git diff --cached --quiet; then
+                echo "No manifest changes after merge – nothing to push."
+                break
+              fi
+              git commit -m "chore: update manifest after crawl of $CRAWL_URL"
             done
           fi
 
