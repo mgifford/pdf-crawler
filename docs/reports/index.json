@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T16:15:15.045501+00:00",
+    "site": "va.gov",
+    "crawl_url": "https://www.va.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23011908759",
+    "issue_url": "",
+    "archive_file": "2026-03-12_16-15-15-045_va.gov.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-12T15:45:03.599152+00:00",
     "site": "northamptonma.gov",
     "crawl_url": "https://www.northamptonma.gov/",
