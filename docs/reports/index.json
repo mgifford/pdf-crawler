@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T20:45:53.441799+00:00",
+    "site": "pl.mn.gov",
+    "crawl_url": "https://pl.mn.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23023041718",
+    "issue_url": "",
+    "archive_file": "2026-03-12_20-45-53-441_pl.mn.gov.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-12T20:32:10.983976+00:00",
     "site": "va.gov",
     "crawl_url": "https://www.va.gov/",
