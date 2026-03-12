@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: #1a1a2e;
+      background: #f8f9fa;
+    }
+
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: #0d6efd; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    h1 { color: #0d6efd; }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: #6c757d; margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0d6efd;
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: #6c757d; margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: #e9ecef;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid #dee2e6;
+    }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: #f8f9fa; }
+
+    .pass { color: #198754; }
+    .fail { color: #dc3545; }
+    .na   { color: #6c757d; }
+
+    a { color: #0d6efd; }
+
+    .empty-state {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: #6c757d;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav><a href="../reports.html">&#8592; Back to reports index</a></nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-12T14:36:27.333923+00:00",
+    "total_files": 7,
+    "analysed": 7,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 0,
+    "totally_inaccessible": 0,
+    "broken": 0,
+    "exempt": 1,
+    "sites": {
+      "ul.ie": 7
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.ul.ie/sites/default/files/2025-08/%5BAcademic%20Registry%5D%20Orientation%20Booklet%2029.08.2025.pdf",
+      "md5": "77691674dd00ea78f91d070c9d2747d8",
+      "filename": "%5BAcademic%20Registry%5D%20Orientation%20Booklet%2029.08.2025.pdf",
+      "site": "ul.ie",
+      "crawled_at": "2026-03-12T14:34:29.641132+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-29 11:02:41+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 7,
+        "Words": 2788,
+        "Images": 37
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.ul.ie/sites/default/files/gps/BA%20Applied%20Policing%20Brochure%202020_21.pdf",
+      "md5": "991b0448a8904a889e93d5098079ff06",
+      "filename": "BA%20Applied%20Policing%20Brochure%202020_21.pdf",
+      "site": "ul.ie",
+      "crawled_at": "2026-03-12T14:34:29.645406+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-05-12 10:38:28+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Publisher for Office 365",
+        "Producer": "Microsoft\u00ae Publisher for Office 365",
+        "Pages": 4,
+        "Words": 527,
+        "Images": 12
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.ul.ie/sites/default/files/corporatesecretary/Data%20Protection%20Access%20Form.pdf",
+      "md5": "56cd921a8d1ef3cf46a046815ef639c9",
+      "filename": "Data%20Protection%20Access%20Form.pdf",
+      "site": "ul.ie",
+      "crawled_at": "2026-03-12T14:34:29.646724+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-03-31 11:43:08+01:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 174,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.ul.ie/sites/default/files/sustainability/KBS_SIP2020.pdf",
+      "md5": "b3755946b9ac1832942e64466f89757d",
+      "filename": "KBS_SIP2020.pdf",
+      "site": "ul.ie",
+      "crawled_at": "2026-03-12T14:34:29.661695+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-12-23 12:56:30+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 15.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 54,
+        "Words": 16425,
+        "Images": 531
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.ul.ie/sites/default/files/quality/MSS%20Spring%202016%20Institutional%20summary.pdf",
+      "md5": "adea1942dce47abb10a7b65609c214a4",
+      "filename": "MSS%20Spring%202016%20Institutional%20summary.pdf",
+      "site": "ul.ie",
+      "crawled_at": "2026-03-12T14:34:29.662733+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2016-03-30 13:15:20+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "GPL Ghostscript 9.04",
+        "Pages": 1,
+        "Words": 250,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.ul.ie/sites/default/files/hsa/NIHS%20VOL%208%20Issue%204%202021%20FNL2.pdf",
+      "md5": "29ca83971d5190162c921e4c84500c17",
+      "filename": "NIHS%20VOL%208%20Issue%204%202021%20FNL2.pdf",
+      "site": "ul.ie",
+      "crawled_at": "2026-03-12T14:34:29.702695+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2021-06-23 15:19:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "QuarkXPress(R) 11.2r6",
+        "Producer": "QuarkXPress(R) 11.2r6",
+        "Pages": 104,
+        "Words": 39831,
+        "Images": 137
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.ul.ie/sites/default/files/policy-hub/University%20of%20Limerick%20Acceptable%20Usage%20Policy%20%282%29.pdf",
+      "md5": "041a6002034af1b62f49117f3c2bc122",
+      "filename": "University%20of%20Limerick%20Acceptable%20Usage%20Policy%20%282%29.pdf",
+      "site": "ul.ie",
+      "crawled_at": "2026-03-12T14:34:29.705251+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-01-14 14:42:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 14,
+        "Words": 4616,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+      if (analysed.length) {
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table><thead><tr>' +
+          '<th>File</th><th>Site</th><th>Notes</th><th>Accessible</th>' +
+          '<th>Tagged</th><th>Title</th><th>Language</th><th>Bookmarks</th><th>Pages</th><th>Words</th><th>Images</th>' +
+          '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          var r = f.report || {};
+          html += '<tr>' +
+            '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' +
+              esc(f.filename || f.url) + '</a></td>' +
+            '<td>' + esc(f.site || '') + '</td>' +
+            '<td>' + esc(f.notes || '') + '</td>' +
+            '<td>' + icon(r.Accessible)     + '</td>' +
+            '<td>' + icon(r.TaggedTest)     + '</td>' +
+            '<td>' + icon(r.TitleTest)      + '</td>' +
+            '<td>' + icon(r.LanguageTest)   + '</td>' +
+            '<td>' + icon(r.BookmarksTest)  + '</td>' +
+            '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' +
+            '</tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+</body>
+</html>

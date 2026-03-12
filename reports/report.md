@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T13:58:58.262582+00:00
+Generated: 2026-03-12T14:36:27.333142+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 5 |
-| Total files tracked | 8131 |
-| Analysed | 2662 |
-| Pending analysis | 4380 |
+| URLs crawled | 2077 |
+| Total files tracked | 8140 |
+| Analysed | 2669 |
+| Pending analysis | 4382 |
 | Errors during analysis | 1089 |
 | Accessible | 982 |
 | Totally inaccessible | 34 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 631 |
+| Exempt (pre-2018) | 632 |
 
 ## Files per Site
 
@@ -24,7 +24,7 @@ Generated: 2026-03-12T13:58:58.262582+00:00
 | akzent.lu | 3 |
 | apps.deed.state.mn.us | 1 |
 | archscan.com | 9 |
-| ble.de | 266 |
+| ble.de | 268 |
 | calgary.ca | 165 |
 | canada.ca | 496 |
 | cms.gov | 373 |
@@ -39,6 +39,7 @@ Generated: 2026-03-12T13:58:58.262582+00:00
 | ontario.ca | 51 |
 | tollwerk.de | 8 |
 | towson.edu | 148 |
+| ul.ie | 7 |
 | vdl.lu | 16 |
 | web-4-all.de | 9 |
 ## File Details
@@ -2707,6 +2708,13 @@ Generated: 2026-03-12T13:58:58.262582+00:00
 | [Unterschiede_BITV_1_und_2_01.pdf](https://www.web-4-all.de/wp-content/uploads/2012/12/Unterschiede_BITV_1_und_2_01.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 650 | 1 |
 | [test_zhaw-plug-ins_de.pdf](https://www.web-4-all.de/wp-content/uploads/2012/12/test_zhaw-plug-ins_de.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 12 | 2510 | 10 |
 | [provider-portal-user-agreement-text_Approved_22March2021.pdf](https://apps.deed.state.mn.us/lmi/etpl/Reports/provider-portal-user-agreement-text_Approved_22March2021.pdf) | apps.deed.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1379 | 0 |
+| [%5BAcademic%20Registry%5D%20Orientation%20Booklet%2029.08.2025.pdf](https://www.ul.ie/sites/default/files/2025-08/%5BAcademic%20Registry%5D%20Orientation%20Booklet%2029.08.2025.pdf) | ul.ie | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2788 | 37 |
+| [BA%20Applied%20Policing%20Brochure%202020_21.pdf](https://www.ul.ie/sites/default/files/gps/BA%20Applied%20Policing%20Brochure%202020_21.pdf) | ul.ie | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 527 | 12 |
+| [Data%20Protection%20Access%20Form.pdf](https://www.ul.ie/sites/default/files/corporatesecretary/Data%20Protection%20Access%20Form.pdf) | ul.ie | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 174 | 1 |
+| [KBS_SIP2020.pdf](https://www.ul.ie/sites/default/files/sustainability/KBS_SIP2020.pdf) | ul.ie | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 54 | 16425 | 531 |
+| [MSS%20Spring%202016%20Institutional%20summary.pdf](https://www.ul.ie/sites/default/files/quality/MSS%20Spring%202016%20Institutional%20summary.pdf) | ul.ie | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 250 | 3 |
+| [NIHS%20VOL%208%20Issue%204%202021%20FNL2.pdf](https://www.ul.ie/sites/default/files/hsa/NIHS%20VOL%208%20Issue%204%202021%20FNL2.pdf) | ul.ie | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 104 | 39831 | 137 |
+| [University%20of%20Limerick%20Acceptable%20Usage%20Policy%20%282%29.pdf](https://www.ul.ie/sites/default/files/policy-hub/University%20of%20Limerick%20Acceptable%20Usage%20Policy%20%282%29.pdf) | ul.ie | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 4616 | 1 |
 
 ## Files with Errors or Notes
 
@@ -19333,5 +19341,47 @@ Generated: 2026-03-12T13:58:58.262582+00:00
 ### provider-portal-user-agreement-text_Approved_22March2021.pdf
 
 - **URL**: https://apps.deed.state.mn.us/lmi/etpl/Reports/provider-portal-user-agreement-text_Approved_22March2021.pdf
+- **Status**: analysed
+- title, 
+
+### %5BAcademic%20Registry%5D%20Orientation%20Booklet%2029.08.2025.pdf
+
+- **URL**: https://www.ul.ie/sites/default/files/2025-08/%5BAcademic%20Registry%5D%20Orientation%20Booklet%2029.08.2025.pdf
+- **Status**: analysed
+- title, 
+
+### BA%20Applied%20Policing%20Brochure%202020_21.pdf
+
+- **URL**: https://www.ul.ie/sites/default/files/gps/BA%20Applied%20Policing%20Brochure%202020_21.pdf
+- **Status**: analysed
+- title, 
+
+### Data%20Protection%20Access%20Form.pdf
+
+- **URL**: https://www.ul.ie/sites/default/files/corporatesecretary/Data%20Protection%20Access%20Form.pdf
+- **Status**: analysed
+- title, 
+
+### KBS_SIP2020.pdf
+
+- **URL**: https://www.ul.ie/sites/default/files/sustainability/KBS_SIP2020.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### MSS%20Spring%202016%20Institutional%20summary.pdf
+
+- **URL**: https://www.ul.ie/sites/default/files/quality/MSS%20Spring%202016%20Institutional%20summary.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NIHS%20VOL%208%20Issue%204%202021%20FNL2.pdf
+
+- **URL**: https://www.ul.ie/sites/default/files/hsa/NIHS%20VOL%208%20Issue%204%202021%20FNL2.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### University%20of%20Limerick%20Acceptable%20Usage%20Policy%20%282%29.pdf
+
+- **URL**: https://www.ul.ie/sites/default/files/policy-hub/University%20of%20Limerick%20Acceptable%20Usage%20Policy%20%282%29.pdf
 - **Status**: analysed
 - title, 

@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T14:36:27.333142+00:00",
+    "site": "ul.ie",
+    "crawl_url": "https://www.ul.ie",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23007270216",
+    "issue_url": "",
+    "archive_file": "2026-03-12_14-36-27-333_ul.ie.html",
+    "total": 7,
+    "analysed": 7,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-12T13:58:58.262582+00:00",
     "site": "apps.deed.state.mn.us",
     "crawl_url": "https://apps.deed.state.mn.us/lmi/Etpl/",
