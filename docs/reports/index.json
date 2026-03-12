@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T21:19:15.200094+00:00",
+    "site": "wellsfargo.com",
+    "crawl_url": "https://www.wellsfargo.com/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23024191362",
+    "issue_url": "",
+    "archive_file": "2026-03-12_21-19-15-200_wellsfargo.com.html",
+    "total": 55,
+    "analysed": 55,
+    "accessible": 54
+  },
+  {
     "date": "2026-03-12T21:11:22.755784+00:00",
     "site": "projects.accesscomputing.uw.edu",
     "crawl_url": "https://projects.accesscomputing.uw.edu/au/docinfo.html",

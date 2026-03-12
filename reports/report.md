@@ -1,17 +1,17 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T21:11:22.755784+00:00
+Generated: 2026-03-12T21:19:15.200094+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 21 |
-| Total files tracked | 9442 |
-| Analysed | 2672 |
+| URLs crawled | 429 |
+| Total files tracked | 9497 |
+| Analysed | 2727 |
 | Pending analysis | 5681 |
 | Errors during analysis | 1089 |
-| Accessible | 983 |
+| Accessible | 1037 |
 | Totally inaccessible | 35 |
 | Broken / unreadable | 3 |
 | Exempt (pre-2018) | 632 |
@@ -45,6 +45,7 @@ Generated: 2026-03-12T21:11:22.755784+00:00
 | vdl.lu | 16 |
 | vivaqua.be | 68 |
 | web-4-all.de | 9 |
+| wellsfargo.com | 55 |
 ## File Details
 
 | File | Site | Accessible | Tagged | EmptyText | Protected | Title | Language | Bookmarks | Exempt | Pages | Words | Images |
@@ -2721,6 +2722,61 @@ Generated: 2026-03-12T21:11:22.755784+00:00
 | [syllabus_NOTaccessible.pdf](https://projects.accesscomputing.uw.edu/au/documents/syllabus_NOTaccessible.pdf) | projects.accesscomputing.uw.edu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 165 | 1 |
 | [syllabus_accessible.pdf](https://projects.accesscomputing.uw.edu/au/documents/syllabus_accessible.pdf) | projects.accesscomputing.uw.edu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 165 | 1 |
 | [syllabus_scanned.pdf](https://projects.accesscomputing.uw.edu/au/documents/syllabus_scanned.pdf) | projects.accesscomputing.uw.edu | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Account_Close_Request_Form.pdf](https://www.wellsfargo.com/assets/pdf/personal/help/Account_Close_Request_Form.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1161 | 1 |
+| [CDS_Image-Catalog_110424.pdf](https://www.wellsfargo.com/assets/pdf/personal/debit-card/CDS_Image-Catalog_110424.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 413 | 96 |
+| [PLG-authorization-form.pdf](https://www.wellsfargo.com/assets/pdf/personal/personal-credit/PLG-authorization-form.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 287 | 1 |
+| [account-balance-worksheet.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/account-balance-worksheet.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 220 | 0 |
+| [account_close.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/account_close.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 136 | 0 |
+| [account_transfer_letter.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/account_transfer_letter.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 208 | 0 |
+| [advisors-terms-and-conditions.pdf](https://www.wellsfargo.com/assets/pdf/personal/debit-card/advisors-terms-and-conditions.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 7076 | 0 |
+| [ariba-network-transition.pdf](https://www.wellsfargo.com/assets/pdf/about/corporate/ariba-network-transition.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 935 | 0 |
+| [ariba-supplier-information.pdf](https://www.wellsfargo.com/assets/pdf/about/corporate/ariba-supplier-information.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1197 | 2 |
+| [automatic-payments-form.pdf](https://www.wellsfargo.com/assets/pdf/personal/help/automatic-payments-form.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1046 | 1 |
+| [banking-inclusion-branch-locations.pdf](https://www.wellsfargo.com/assets/pdf/about/inclusion/banking-inclusion-branch-locations.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 343 | 0 |
+| [banking-inclusion-initiative-0.pdf](https://www.wellsfargo.com/assets/es/pdf/about/inclusion/banking-inclusion-initiative.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 632 | 4 |
+| [banking-inclusion-initiative.pdf](https://www.wellsfargo.com/assets/pdf/about/inclusion/banking-inclusion-initiative.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 472 | 4 |
+| [brokerage-terms-and-conditions.pdf](https://www.wellsfargo.com/assets/pdf/personal/debit-card/brokerage-terms-and-conditions.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 6341 | 0 |
+| [certification-verification.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/certification-verification.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 578 | 0 |
+| [completing-profit-loss.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/completing-profit-loss.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 703 | 0 |
+| [consent-bankruptcy.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-bankruptcy.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 442 | 1 |
+| [consent-mediation.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-mediation.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 327 | 1 |
+| [contributor-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/contributor-acknowledgment.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 674 | 0 |
+| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1561 | 4 |
+| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 15301 | 0 |
+| [error-resolution-and-cancellation-rights-es.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/error-resolution-and-cancellation-rights-es.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 725 | 0 |
+| [existing-customers-4506c.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-4506c.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 2605 | 0 |
+| [existing-customers-borrower-consent.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-borrower-consent.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 162 | 2 |
+| [expense-debt-worksheet.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/expense-debt-worksheet.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 291 | 0 |
+| [financial-contribution-fha-va.pdf.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-fha-va.pdf.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 276 | 2 |
+| [financial-contribution-gse.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-gse.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 276 | 2 |
+| [financial-contribution-wobp.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-wobp.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 276 | 2 |
+| [frd-overdraft-wellsfargo.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/frd-overdraft-wellsfargo.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 907 | 0 |
+| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 1229 | 0 |
+| [initiate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/initiate.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1953 | 0 |
+| [mortgage-assistance-application.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-application.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1655 | 0 |
+| [mortgage-assistance-debts-expense.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-debts-expense.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1974 | 0 |
+| [navigate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/navigate.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 2009 | 0 |
+| [online-wires-supported-currency-list-0.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1744 | 0 |
+| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2178 | 0 |
+| [optimize.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/optimize.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 2469 | 0 |
+| [payment-assist-mtg-assumption-terms-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/payment-assist-mtg-assumption-terms-acknowledgment.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 564 | 0 |
+| [platinum-visa-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/platinum-visa-guide-to-benefits.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 6592 | 0 |
+| [poa-affidavit.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/poa-affidavit.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1281 | 9 |
+| [power-of-attorney.pdf](https://www.wellsfargo.com/assets/pdf/personal/help/power-of-attorney.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1013 | 3 |
+| [profit-and-loss-statement.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/profit-and-loss-statement.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 329 | 0 |
+| [real-estate-schedule.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/real-estate-schedule.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 359 | 2 |
+| [restriction-request.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/restriction-request.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 144 | 0 |
+| [statement-of-information.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/statement-of-information.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 375 | 1 |
+| [swift-intermediary-bank-details.pdf](https://www.wellsfargo.com/assets/pdf/commercial/international/resources/swift-intermediary-bank-details.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 223 | 0 |
+| [terms-and-conditions-0.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/terms-and-conditions.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 8312 | 0 |
+| [terms-and-conditions-spanish.pdf](https://www.wellsfargo.com/assets/pdf/personal/my-wells-fargo-deals/terms-and-conditions-spanish.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 2290 | 0 |
+| [terms-and-conditions.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/debit-card/terms-and-conditions.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 7304 | 0 |
+| [third-party-release.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/third-party-release.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 308 | 1 |
+| [travel-accident-and-baggage-delay.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/travel-accident-and-baggage-delay.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 4674 | 0 |
+| [us-purchase-order-terms.pdf](https://www.wellsfargo.com/assets/pdf/about/corporate/us-purchase-order-terms.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 25841 | 0 |
+| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1411 | 1 |
+| [visa-benefits-guide.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/visa-benefits-guide.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 7466 | 0 |
+| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 9451 | 1 |
 
 ## Files with Errors or Notes
 
@@ -19403,3 +19459,9 @@ Generated: 2026-03-12T21:11:22.755784+00:00
 - **URL**: https://projects.accesscomputing.uw.edu/au/documents/syllabus_scanned.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### identity-theft-kit.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
+- **Status**: analysed
+- lang, 

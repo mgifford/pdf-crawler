@@ -1,0 +1,2222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: #1a1a2e;
+      background: #f8f9fa;
+    }
+
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: #0d6efd; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    h1 { color: #0d6efd; }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: #6c757d; margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0d6efd;
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: #6c757d; margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: #e9ecef;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid #dee2e6;
+    }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: #f8f9fa; }
+
+    .pass { color: #198754; }
+    .fail { color: #dc3545; }
+    .na   { color: #6c757d; }
+
+    a { color: #0d6efd; }
+
+    .empty-state {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: #6c757d;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav><a href="../reports.html">&#8592; Back to reports index</a></nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-12T21:19:15.200987+00:00",
+    "total_files": 55,
+    "analysed": 55,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 54,
+    "totally_inaccessible": 0,
+    "broken": 0,
+    "exempt": 0,
+    "sites": {
+      "wellsfargo.com": 55
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/help/Account_Close_Request_Form.pdf",
+      "md5": "7caae4780c10b249c6d72e5208b2ced8",
+      "filename": "Account_Close_Request_Form.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.754274+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-11-30 17:26:15+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat PDFMaker 17 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 4,
+        "Words": 1161,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/debit-card/CDS_Image-Catalog_110424.pdf",
+      "md5": "4fa1b0e85a834445acccf1ca01675d9f",
+      "filename": "CDS_Image-Catalog_110424.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.761557+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-29 14:56:10+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 19.5 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 3,
+        "Words": 413,
+        "Images": 96
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/personal-credit/PLG-authorization-form.pdf",
+      "md5": "ac32bfdd19eef5ec35eefc69e4d92564",
+      "filename": "PLG-authorization-form.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.762342+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-09 14:37:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 17 for Word",
+        "Producer": "Adobe PDF Library 17.11.238",
+        "Pages": 1,
+        "Words": 287,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/personal/account-balance-worksheet.pdf",
+      "md5": "138a120a8a794183206ad6f1fd2efdd0",
+      "filename": "account-balance-worksheet.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.763228+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-04-22 12:15:21+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 19.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 1,
+        "Words": 220,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/small-business/account_close.pdf",
+      "md5": "24522d2450129311a61a180e7f0ee281",
+      "filename": "account_close.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.763972+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-05-18 15:13:09+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.0 (Macintosh)",
+        "Producer": "OAT",
+        "Pages": 1,
+        "Words": 136,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/small-business/account_transfer_letter.pdf",
+      "md5": "5ad31ebcc3e06639611fca2ab17ab8f2",
+      "filename": "account_transfer_letter.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.764765+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-05-18 15:59:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.0 (Macintosh)",
+        "Producer": "OAT",
+        "Pages": 1,
+        "Words": 208,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/debit-card/advisors-terms-and-conditions.pdf",
+      "md5": "34f55fbe0ef6ecf5da9708446326699f",
+      "filename": "advisors-terms-and-conditions.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.766737+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-23 08:22:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 8,
+        "Words": 7076,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/about/corporate/ariba-network-transition.pdf",
+      "md5": "4059a38abf34d5a5583a4b9bf43d19d5",
+      "filename": "ariba-network-transition.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.767676+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-02-08 15:51:32+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.6.96",
+        "Pages": 3,
+        "Words": 935,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/about/corporate/ariba-supplier-information.pdf",
+      "md5": "607a811679815972eb897c88e8ebce99",
+      "filename": "ariba-supplier-information.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.768613+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-24 19:28:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "OpenText Output Transformation Engine - 23.2.33                                                     ",
+        "Pages": 4,
+        "Words": 1197,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/help/automatic-payments-form.pdf",
+      "md5": "7d7adb5181b0cc6569c64c185833aadf",
+      "filename": "automatic-payments-form.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.769697+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-11-21 18:26:37+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.2.13",
+        "Pages": 2,
+        "Words": 1046,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/about/inclusion/banking-inclusion-branch-locations.pdf",
+      "md5": "9c9bf13b019d7919bf4c96ac178eb6a7",
+      "filename": "banking-inclusion-branch-locations.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.770477+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-09 09:26:40+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 343,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/about/inclusion/banking-inclusion-initiative.pdf",
+      "md5": "4290b3e5f061060e817606f27b280407",
+      "filename": "banking-inclusion-initiative-0.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.772015+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-08 11:48:43+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 632,
+        "Images": 4
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/about/inclusion/banking-inclusion-initiative.pdf",
+      "md5": "b2339824ac54e0ed0a0cda920f7d8d90",
+      "filename": "banking-inclusion-initiative.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.773312+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-08 11:25:21+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 472,
+        "Images": 4
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/debit-card/brokerage-terms-and-conditions.pdf",
+      "md5": "66ce828b3d28adb07b9806e81c790ffd",
+      "filename": "brokerage-terms-and-conditions.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.774154+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-23 07:39:01+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 20.0 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 7,
+        "Words": 6341,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/certification-verification.pdf",
+      "md5": "4986611796173a424c3b8d59ffbd2025",
+      "filename": "certification-verification.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.775036+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-03-30 18:58:07+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Central Output Server 5.6",
+        "Producer": "Adobe Central Output Server Print Agent 5.6",
+        "Pages": 1,
+        "Words": 578,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/completing-profit-loss.pdf",
+      "md5": "0d8062a6dbf8264d22511b82a455cf72",
+      "filename": "completing-profit-loss.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.776235+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2018-11-27 20:48:05+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 13.1 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 703,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/consent-bankruptcy.pdf",
+      "md5": "c1ea2a1f4186e513aa7a41960f672ae8",
+      "filename": "consent-bankruptcy.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.777015+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-24 12:47:15+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.1.96",
+        "Pages": 1,
+        "Words": 442,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/consent-mediation.pdf",
+      "md5": "70c13f73f99ca74944b86a85415dde65",
+      "filename": "consent-mediation.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.777772+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-24 12:52:09+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.1.96",
+        "Pages": 1,
+        "Words": 327,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/contributor-acknowledgment.pdf",
+      "md5": "d229e05675a13ce6ceb357dcee49dc8a",
+      "filename": "contributor-acknowledgment.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.778618+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-10-26 19:44:23+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "PRO HLCAPI",
+        "Producer": "CrawfordTech PDF/UA Driver Version 5.3 64 Bit Build ID 7673 on January 18, 2023 at 20:00:27",
+        "Pages": 2,
+        "Words": 674,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf",
+      "md5": "a570a58b785be4d2a9b3e84af2131802",
+      "filename": "elder-financial-abuse.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.779649+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-25 04:58:38-06:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "OpenText Output Transformation Engine - 23.2.33                                                     ",
+        "Pages": 7,
+        "Words": 1561,
+        "Images": 4
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf",
+      "md5": "1b03f0212988ef55257e056e66d3b856",
+      "filename": "elite-visa-signature-guide-to-benefits.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.781030+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-08-10 16:02:03+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 16.4 (Macintosh)",
+        "Producer": "Adobe PDF Library 16.0",
+        "Pages": 15,
+        "Words": 15301,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/online-banking/error-resolution-and-cancellation-rights-es.pdf",
+      "md5": "a7d5fa3e4e4a52ce610af51ea2d14005",
+      "filename": "error-resolution-and-cancellation-rights-es.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.781805+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-19 22:49:23+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 725,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-4506c.pdf",
+      "md5": "5bdf24513b46054e72bc691ef3a2bc32",
+      "filename": "existing-customers-4506c.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.782559+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-03 19:22:07+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": null,
+        "Producer": "iLovePDF",
+        "Pages": 2,
+        "Words": 2605,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-borrower-consent.pdf",
+      "md5": "147de8d530aefa20444706a9bd86f077",
+      "filename": "existing-customers-borrower-consent.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.783297+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-02-03 13:47:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "Adobe Acrobat Pro (32-bit) 22 Paper Capture Plug-in with ClearScan",
+        "Pages": 1,
+        "Words": 162,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/expense-debt-worksheet.pdf",
+      "md5": "d90b8f2c0c6f8e53b22d5a1cd64c27ba",
+      "filename": "expense-debt-worksheet.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.784216+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-26 19:56:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Pages": 1,
+        "Words": 291,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-fha-va.pdf.pdf",
+      "md5": "ee4512df6bebcab9851b8c1a821cf0de",
+      "filename": "financial-contribution-fha-va.pdf.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.785262+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-17 19:27:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Pages": 1,
+        "Words": 276,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-gse.pdf",
+      "md5": "fe38f50d949ed33b657870a55ee55c0a",
+      "filename": "financial-contribution-gse.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.786377+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-21 19:44:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Pages": 1,
+        "Words": 276,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-wobp.pdf",
+      "md5": "509121c263aed4a4ce2fe48d012eb1b2",
+      "filename": "financial-contribution-wobp.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.787490+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-24 12:53:12+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Pages": 1,
+        "Words": 276,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/frd-overdraft-wellsfargo.pdf",
+      "md5": "d634c85de57313f9088a89a3cf411a93",
+      "filename": "frd-overdraft-wellsfargo.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.788269+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-14 10:03:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 20.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 1,
+        "Words": 907,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf",
+      "md5": "8103c761f4788ffb29bd29ab1e9973a0",
+      "filename": "identity-theft-kit.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.789168+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-11 18:30:55+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.5",
+        "Pages": 3,
+        "Words": 1229,
+        "Images": 0
+      },
+      "errors": [
+        "lang, "
+      ]
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/small-business/checking/initiate.pdf",
+      "md5": "d537a11ae2e515b1ce828eaeabce75cf",
+      "filename": "initiate.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.790035+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-16 19:34:43+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 3,
+        "Words": 1953,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-application.pdf",
+      "md5": "b8e2f2c0b2f4973d16451b74bf83fdff",
+      "filename": "mortgage-assistance-application.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.791692+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-07-28 17:06:25+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Designer 6.1",
+        "Producer": "Acrobat Distiller 17.0 (Windows)",
+        "Pages": 4,
+        "Words": 1655,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-debts-expense.pdf",
+      "md5": "1c296081bcceac610171d5bbafadbccf",
+      "filename": "mortgage-assistance-debts-expense.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.793361+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-26 20:12:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.0 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.3",
+        "Pages": 6,
+        "Words": 1974,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/small-business/checking/navigate.pdf",
+      "md5": "8597fc30124d402bef47169047cf2337",
+      "filename": "navigate.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.794338+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-17 19:32:04+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 3,
+        "Words": 2009,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/online-banking/online-wires-supported-currency-list.pdf",
+      "md5": "0cbc8230db5024dbea9ff68118af4f01",
+      "filename": "online-wires-supported-currency-list-0.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.795230+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-02 21:23:37+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 8,
+        "Words": 1744,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf",
+      "md5": "339ba734af69cebc1317b9a0abe73f23",
+      "filename": "online-wires-supported-currency-list.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.796172+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-04 22:11:47+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 8,
+        "Words": 2178,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/small-business/checking/optimize.pdf",
+      "md5": "53d564dcd6fdc309dda02a82220bc8fc",
+      "filename": "optimize.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.797068+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-16 12:08:00+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 4,
+        "Words": 2469,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/payment-assist-mtg-assumption-terms-acknowledgment.pdf",
+      "md5": "94fa6e3d7dc63c8c63431ce056204811",
+      "filename": "payment-assist-mtg-assumption-terms-acknowledgment.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.797864+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-10-26 19:45:09+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "PRO HLCAPI",
+        "Producer": "CrawfordTech PDF/UA Driver Version 5.3 64 Bit Build ID 7673 on January 18, 2023 at 20:00:27",
+        "Pages": 2,
+        "Words": 564,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/platinum-visa-guide-to-benefits.pdf",
+      "md5": "94d55d522937f4526b704c16f794b63c",
+      "filename": "platinum-visa-guide-to-benefits.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.799950+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-08-17 13:08:47+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 17.3 (Macintosh)",
+        "Producer": "OAT",
+        "Pages": 12,
+        "Words": 6592,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/poa-affidavit.pdf",
+      "md5": "41a5210918bc2159cdb9f8c5be596998",
+      "filename": "poa-affidavit.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.801021+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-05-19 09:59:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.1.96",
+        "Pages": 4,
+        "Words": 1281,
+        "Images": 9
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/help/power-of-attorney.pdf",
+      "md5": "84ce4b84899e8f874d8acfd7c6c6dc00",
+      "filename": "power-of-attorney.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.802502+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-09 14:37:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 3,
+        "Words": 1013,
+        "Images": 3
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/profit-and-loss-statement.pdf",
+      "md5": "ea97b9a97a57a25abc713916aba309aa",
+      "filename": "profit-and-loss-statement.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.803734+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2018-11-29 17:45:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CS6 (Macintosh)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 2,
+        "Words": 329,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/real-estate-schedule.pdf",
+      "md5": "b64c2f41db4edfbde7730204bef0609c",
+      "filename": "real-estate-schedule.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.804565+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-21 20:41:30+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.1.96",
+        "Pages": 1,
+        "Words": 359,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/restriction-request.pdf",
+      "md5": "2503e50a6c11304bbe1ac2de8f680e4e",
+      "filename": "restriction-request.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.805309+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-21 19:58:36+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.1.96",
+        "Pages": 1,
+        "Words": 144,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/statement-of-information.pdf",
+      "md5": "cd2372da435fd8c03dd6e333efaa3b4c",
+      "filename": "statement-of-information.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.806170+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-05 14:43:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.2 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 375,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/commercial/international/resources/swift-intermediary-bank-details.pdf",
+      "md5": "374888c13d7db2db5f90a85157aba260",
+      "filename": "swift-intermediary-bank-details.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.806915+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-09 19:43:59+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Crawford Technologies",
+        "Pages": 1,
+        "Words": 223,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/terms-and-conditions.pdf",
+      "md5": "191a65eca299e39b410f565da9ac9c5a",
+      "filename": "terms-and-conditions-0.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.809168+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-07 10:57:25+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 8,
+        "Words": 8312,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/my-wells-fargo-deals/terms-and-conditions-spanish.pdf",
+      "md5": "13101a0a79f28517392331a12ca2816a",
+      "filename": "terms-and-conditions-spanish.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.809940+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-08 11:34:23-05:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "OpenText Output Transformation Engine - 23.2.33                                                     ",
+        "Pages": 3,
+        "Words": 2290,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/small-business/debit-card/terms-and-conditions.pdf",
+      "md5": "9b674b202202f1e31b41036f8f737005",
+      "filename": "terms-and-conditions.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.811035+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-07 19:59:10+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 8,
+        "Words": 7304,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/home-lending/third-party-release.pdf",
+      "md5": "c1586b6ebae622dc983ba4dd8aea6e84",
+      "filename": "third-party-release.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.811854+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-11-09 18:30:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "PRO HLCAPI",
+        "Producer": "Crawford Technologies",
+        "Pages": 1,
+        "Words": 308,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/travel-accident-and-baggage-delay.pdf",
+      "md5": "75ecf902dad2a458eff275f12a3279f4",
+      "filename": "travel-accident-and-baggage-delay.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.812755+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-11 15:28:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 19.1 (Macintosh)",
+        "Producer": "OpenText Output Transformation Engine - 23.2.07                                                     ",
+        "Pages": 10,
+        "Words": 4674,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/about/corporate/us-purchase-order-terms.pdf",
+      "md5": "9a37ce0c7b2ea7ab1a490c25d538b2eb",
+      "filename": "us-purchase-order-terms.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.814207+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-03-31 16:37:49+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.5.96",
+        "Pages": 20,
+        "Words": 25841,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf",
+      "md5": "ef8b714ba0984f6fc0647a054a1b0356",
+      "filename": "us_consumer_privacy_notice_english.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.815079+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-04-23 19:06:38+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Crawford Technologies",
+        "Pages": 3,
+        "Words": 1411,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/visa-benefits-guide.pdf",
+      "md5": "b4713ff261ea2055694e721a59e1d8da",
+      "filename": "visa-benefits-guide.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.816192+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-13 22:31:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 19.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 9,
+        "Words": 7466,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf",
+      "md5": "268af54fedd09da6078c9928e1fc6a6c",
+      "filename": "visa-signature-business-benefits.pdf",
+      "site": "wellsfargo.com",
+      "crawled_at": "2026-03-12T21:12:46.818453+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-07-22 16:07:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 16.4 (Macintosh)",
+        "Producer": "OAT",
+        "Pages": 16,
+        "Words": 9451,
+        "Images": 1
+      },
+      "errors": []
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+      if (analysed.length) {
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table><thead><tr>' +
+          '<th>File</th><th>Site</th><th>Notes</th><th>Accessible</th>' +
+          '<th>Tagged</th><th>Title</th><th>Language</th><th>Bookmarks</th><th>Pages</th><th>Words</th><th>Images</th>' +
+          '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          var r = f.report || {};
+          html += '<tr>' +
+            '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' +
+              esc(f.filename || f.url) + '</a></td>' +
+            '<td>' + esc(f.site || '') + '</td>' +
+            '<td>' + esc(f.notes || '') + '</td>' +
+            '<td>' + icon(r.Accessible)     + '</td>' +
+            '<td>' + icon(r.TaggedTest)     + '</td>' +
+            '<td>' + icon(r.TitleTest)      + '</td>' +
+            '<td>' + icon(r.LanguageTest)   + '</td>' +
+            '<td>' + icon(r.BookmarksTest)  + '</td>' +
+            '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' +
+            '</tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+</body>
+</html>
