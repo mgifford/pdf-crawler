@@ -1,12 +1,12 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T06:29:19.152659+00:00
+Generated: 2026-03-12T08:54:36.706924+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 2476 |
+| URLs crawled | 2507 |
 | Total files tracked | 7163 |
 | Analysed | 2193 |
 | Pending analysis | 3881 |
