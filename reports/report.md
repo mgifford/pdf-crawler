@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T08:54:36.706924+00:00
+Generated: 2026-03-12T10:04:00.121497+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 2507 |
-| Total files tracked | 7163 |
-| Analysed | 2193 |
+| URLs crawled | 1961 |
+| Total files tracked | 7362 |
+| Analysed | 2392 |
 | Pending analysis | 3881 |
 | Errors during analysis | 1089 |
-| Accessible | 721 |
+| Accessible | 733 |
 | Totally inaccessible | 32 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 615 |
+| Exempt (pre-2018) | 625 |
 
 ## Files per Site
 
@@ -27,6 +27,7 @@ Generated: 2026-03-12T08:54:36.706924+00:00
 | calgary.ca | 165 |
 | canada.ca | 496 |
 | cms.gov | 373 |
+| ec.europa.eu | 199 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
 | energy.gov | 417 |
@@ -2233,6 +2234,205 @@ Generated: 2026-03-12T08:54:36.706924+00:00
 | [tollwerk_BIK_BITV-WCAG-Test_Barrierefreiheit_Audit_2.0.pdf](https://tollwerk.de/fileadmin/download/tollwerk_BIK_BITV-WCAG-Test_Barrierefreiheit_Audit_2.0.pdf) | tollwerk.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2991 | 0 |
 | [tollwerk_Demodokument_Lesereihenfolge.pdf](https://tollwerk.de/fileadmin/download/tollwerk_Demodokument_Lesereihenfolge.pdf) | tollwerk.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 726 | 0 |
 | [tollwerk_Rotkaeppchen_Fussnoten.pdf](https://tollwerk.de/fileadmin/user_upload/blog/barrierefreie-mehrfach-fussnote-pdf-indesign/tollwerk_Rotkaeppchen_Fussnoten.pdf) | tollwerk.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 178 | 0 |
+| [05-07-2024_BRIDGE-brochure-final%20%281%29.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2024-08/05-07-2024_BRIDGE-brochure-final%20%281%29.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 339 | 113403 | 446 |
+| [08.humaint-flierposter.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/08.humaint-flierposter.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 223 | 1 |
+| [1.%20EPAH%2021st%20Lunch%20Talk_Ulrike%20Feichtinger.pdf](https://energy-poverty.ec.europa.eu/system/files/2025-12/1.%20EPAH%2021st%20Lunch%20Talk_Ulrike%20Feichtinger.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 760 | 32 |
+| [1.%20EPAH%203rd%20Practitioners%20Event_Jenny%20von%20Platten.pdf](https://energy-poverty.ec.europa.eu/system/files/2025-12/1.%20EPAH%203rd%20Practitioners%20Event_Jenny%20von%20Platten.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 753 | 25 |
+| [2.%20EPAH%2021st%20Lunch%20Talk%20Stefan%20Bouzarovski.pdf](https://energy-poverty.ec.europa.eu/system/files/2025-12/2.%20EPAH%2021st%20Lunch%20Talk%20Stefan%20Bouzarovski.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 468 | 23 |
+| [2.%20EPAH%203rd%20Practitioners%20Event_Xander%20van%20Tilburg.pdf](https://energy-poverty.ec.europa.eu/system/files/2025-12/2.%20EPAH%203rd%20Practitioners%20Event_Xander%20van%20Tilburg.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 1899 | 39 |
+| [2019%20Netherlands%20NIR%20%28EN%29_0.pdf](https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2022-12/2019%20Netherlands%20NIR%20%28EN%29_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 34 | 11629 | 39 |
+| [2019%20Netherlands%20NIR_0.pdf](https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/documents/2022-12/2019%20Netherlands%20NIR_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 37 | 10688 | 45 |
+| [20190411-BRIDGE-April-2019-Newsletter_FINAL_LOGOS.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20190411-BRIDGE-April-2019-Newsletter_FINAL_LOGOS.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 2047 | 92 |
+| [20190925_Minutes-TF-EC-meeting_vf.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20190925_Minutes-TF-EC-meeting_vf.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3644 | 11 |
+| [20190925_Minutes-TF-EC-meeting_vf_0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/20190925_Minutes-TF-EC-meeting_vf_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3644 | 11 |
+| [20191023_Minutes-BRIDGE-Topics-Meeting_vf.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191023_Minutes-BRIDGE-Topics-Meeting_vf.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 | 7291 | 21 |
+| [20191112_EUW_Minutes-Session-on-Replication_VF.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191112_EUW_Minutes-Session-on-Replication_VF.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2254 | 7 |
+| [20191112_Minutes-TF-SRA-meeting_VF.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191112_Minutes-TF-SRA-meeting_VF.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1425 | 8 |
+| [20191113_EUW_Minutes-Session-on-Digitalization_VF.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191113_EUW_Minutes-Session-on-Digitalization_VF.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1355 | 7 |
+| [20191113_EUW_Minutes-Session-on-Integration_VF.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191113_EUW_Minutes-Session-on-Integration_VF.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2739 | 9 |
+| [20191211-BRIDGE-December-2019-Newsletter_FINAL.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191211-BRIDGE-December-2019-Newsletter_FINAL.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2990 | 139 |
+| [2024%20Postcard%20Call%206%20Winner_Mark%20Zagers.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2024-12/2024%20Postcard%20Call%206%20Winner_Mark%20Zagers.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 46 | 2 |
+| [24-05-2024-BRIDGE_Charter_corrected.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/24-05-2024-BRIDGE_Charter_corrected.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 15 | 3368 | 26 |
+| [3.%20EPAH%203rd%20Practitioners%20Event_DoppelPlus_Irene%20Milewski.pdf](https://energy-poverty.ec.europa.eu/system/files/2025-12/3.%20EPAH%203rd%20Practitioners%20Event_DoppelPlus_Irene%20Milewski.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 373 | 23 |
+| [4.%20EPAH%203rd%20Practitioners%20Event_Audrey%20Dobbins.pdf](https://energy-poverty.ec.europa.eu/system/files/2025-12/4.%20EPAH%203rd%20Practitioners%20Event_Audrey%20Dobbins.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1070 | 48 |
+| [Additional_indicators_fiches.pdf](https://agridata.ec.europa.eu/Reports/Additional_indicators_fiches.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 354 | 0 |
+| [Agenda_citizen%20engagement%20training%20March%202026.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Agenda_citizen%20engagement%20training%20March%202026.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 0 | 255 |
+| [Agenda_citizen%20engagement%20training_November%202023_0.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Agenda_citizen%20engagement%20training_November%202023_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 0 | 280 |
+| [Agenda_webinar_hydrogen.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2026-02/Agenda_webinar_hydrogen.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 280 | 0 |
+| [Analysis%20of%20Projects%20Major%20Achievements%20and%20R%26I%20Gaps%20%28April%202021%29.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Analysis%20of%20Projects%20Major%20Achievements%20and%20R%26I%20Gaps%20%28April%202021%29.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 46 | 19833 | 111 |
+| [Annex%20III%20for%20MOVE%20-%20EAFO_v2%20250117.pdf](https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2025-03/Annex%20III%20for%20MOVE%20-%20EAFO_v2%20250117.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1754 | 1 |
+| [Athens%20Conference%20Agenda_5.March_v2.pdf](https://energy-poverty.ec.europa.eu/system/files/2026-03/Athens%20Conference%20Agenda_5.March_v2.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1982 | 23 |
+| [Autumn%20School%20Programme.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Autumn%20School%20Programme.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 605 | 9 |
+| [BOOK-Clean%20energy%20for%20EU%20islands-Engagement%20guide.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2023-01/BOOK-Clean%20energy%20for%20EU%20islands-Engagement%20guide.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 22 | 8863 | 21 |
+| [BRIDGE%202022%20GA%20-%20Conclusions.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%202022%20GA%20-%20Conclusions.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 6781 | 36 |
+| [BRIDGE%202022%20WorkPlan%20CCE%20WG.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%202022%20WorkPlan%20CCE%20WG.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1603 | 51 |
+| [BRIDGE%202022%20WorkPlans%20DM%20WG%20v2.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%202022%20WorkPlans%20DM%20WG%20v2.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 3102 | 62 |
+| [BRIDGE%202023%20GA%20-%20Conclusions_FINAL%20VERSION.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%202023%20GA%20-%20Conclusions_FINAL%20VERSION.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 5878 | 42 |
+| [BRIDGE%20GA%20-%20proceedings_v_final2-0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2024-05/BRIDGE%20GA%20-%20proceedings_v_final2.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 6394 | 18 |
+| [BRIDGE%20GA%20-%20proceedings_v_final2.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%20GA%20-%20proceedings_v_final2.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 6394 | 18 |
+| [BRIDGE%20GA%202025_Conclusions%20and%20next%20steps.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%20GA%202025_Conclusions%20and%20next%20steps.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 25 | 8517 | 23 |
+| [BRIDGE-April-2018-newsletter.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/BRIDGE-April-2018-newsletter.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1744 | 91 |
+| [BRIDGE-Business-Models-Findings-and-Reco-July-2019.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-Business-Models-Findings-and-Reco-July-2019.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 4108 | 29 |
+| [BRIDGE-Customer-Engagement-WG-Findings-and-Reco-July-2019.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-Customer-Engagement-WG-Findings-and-Reco-July-2019.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4059 | 35 |
+| [BRIDGE-Data-Management-WG-Findings-and-Reco-July-2019.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-Data-Management-WG-Findings-and-Reco-July-2019.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 27 | 5793 | 54 |
+| [BRIDGE-Driving-ideas-from-panel-discussions-Utility-Week-Vienna.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/BRIDGE-Driving-ideas-from-panel-discussions-Utility-Week-Vienna.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 494 | 16 |
+| [BRIDGE-GA-2021-Final-Conclusions.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-GA-2021-Final-Conclusions.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 | 5697 | 36 |
+| [BRIDGE-GA2020_Conclusions-and-next-steps.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-GA2020_Conclusions-and-next-steps.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 5098 | 12 |
+| [BRIDGE-Regulations-WG-Findings-and-Reco-July-2019.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-Regulations-WG-Findings-and-Reco-July-2019.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 3721 | 31 |
+| [BRIDGE-newsletter-October-2017.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/BRIDGE-newsletter-October-2017.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 2097 | 71 |
+| [BRIDGE_Battery_report_Aug18.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/BRIDGE_Battery_report_Aug18.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 60 | 17358 | 228 |
+| [BRIDGE_Case%20Study%20%2311.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/BRIDGE_Case%20Study%20%2311.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 103 | 25718 | 225 |
+| [BRIDGE_Case%20Study%20%2312.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/BRIDGE_Case%20Study%20%2312.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 72 | 18168 | 158 |
+| [BRIDGE_Draft%20Agenda%20General%20Assembly%202026_v6.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2026-03/BRIDGE_Draft%20Agenda%20General%20Assembly%202026_v6.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 759 | 3 |
+| [BRIDGE_Draft%20Agenda%20General%20Assembly%2025-26March%202025_simplified_2.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE_Draft%20Agenda%20General%20Assembly%2025-26March%202025_simplified_2.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 260 | 12 |
+| [BRIDGE_WG_CCE-2021-WorkPlan.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE_WG_CCE-2021-WorkPlan.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2262 | 49 |
+| [Battery_report_Exe_sum_V1-0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/Battery_report_Exe_sum_V1.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 | 2210 | 65 |
+| [Battery_report_Exe_sum_V1.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Battery_report_Exe_sum_V1.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 | 2210 | 65 |
+| [Bridge-GA-March-2019-Conclusions-Next-Steps.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Bridge-GA-March-2019-Conclusions-Next-Steps.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2916 | 7 |
+| [Bridge-Slide%20deck%202023_rev_4.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Bridge-Slide%20deck%202023_rev_4.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 18 | 635 | 46 |
+| [Bridge-Slide%20deck%202024_updated%20%282%29.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Bridge-Slide%20deck%202024_updated%20%282%29.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 692 | 43 |
+| [Brochure-of-BRIDGE-projects-V16.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/Brochure-of-BRIDGE-projects-V16.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 98 | 31196 | 572 |
+| [Brochure-of-BRIDGE-projects_2020_VF_web3.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Brochure-of-BRIDGE-projects_2020_VF_web3.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 166 | 58173 | 961 |
+| [Brochure-of-BRIDGE-projects_May_2019_VF3.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Brochure-of-BRIDGE-projects_May_2019_VF3.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 118 | 39007 | 676 |
+| [Bulgaria%20workshop%20-%20homeowners_0.pdf](https://futurium.ec.europa.eu/system/files/2023-11/Bulgaria%20workshop%20-%20homeowners_0.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 170 | 2 |
+| [CE4EUI_BES%20Islands_TA_Smart%20Electricity%20Systems_0.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2025-01/CE4EUI_BES%20Islands_TA_Smart%20Electricity%20Systems_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 25 | 9104 | 7 |
+| [CE4EUI_BES_%20Financing%20Position%20Paper.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2026-03/CE4EUI_BES_%20Financing%20Position%20Paper.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 3535 | 3 |
+| [CE4EUI_Saba_Roadmap.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2026-03/CE4EUI_Saba_Roadmap.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 3958 | 2 |
+| [CE4EUI_SanPietro_TA_Wind%20Repowering_0.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2025-04/CE4EUI_SanPietro_TA_Wind%20Repowering_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 49 | 12782 | 14 |
+| [CETA%20VENTOTENE%20ITA.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2022-11/CETA%20VENTOTENE%20ITA.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 42 | 13465 | 482 |
+| [Case%20study%20%2310_Technologies%20for%20consumers.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%2310_Technologies%20for%20consumers.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 100 | 28432 | 218 |
+| [Case%20study%20%231_Unleash%20the%20potential%20and%20value%20of%20power%20system%20flexibilities.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%231_Unleash%20the%20potential%20and%20value%20of%20power%20system%20flexibilities.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 | 5908 | 50 |
+| [Case%20study%20%232_Vehicle-to-Grid%20to%20support%20grid%20stability%20and%20RES%20integration.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%232_Vehicle-to-Grid%20to%20support%20grid%20stability%20and%20RES%20integration.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 23 | 7498 | 51 |
+| [Case%20study%20%233_Battery%20Energy%20Storage%20Systems%20to%20support%20the%20large-scale%20integration%20of%20renewable%20energy.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%233_Battery%20Energy%20Storage%20Systems%20to%20support%20the%20large-scale%20integration%20of%20renewable%20energy.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 37 | 13088 | 107 |
+| [Case%20study%20%234_TSO%20-%20DSO%20Cooperation.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%234_TSO%20-%20DSO%20Cooperation.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 23 | 6532 | 55 |
+| [Case%20study%20%235_Energy%20Communities%2C%20tools%20to%20build%20them%20and%20make%20them%20thrive.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%235_Energy%20Communities%2C%20tools%20to%20build%20them%20and%20make%20them%20thrive.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 27 | 9955 | 83 |
+| [Case%20study%20%236_Improving%20the%20cybersecurity%20and%20resilience%20of%20the%20Electrical%20Power%20and%20Energy%20System.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%236_Improving%20the%20cybersecurity%20and%20resilience%20of%20the%20Electrical%20Power%20and%20Energy%20System.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 4381 | 37 |
+| [Case%20study%20%237_Multi-energy%20grid%20planning%20for%20energy%20islands.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%237_Multi-energy%20grid%20planning%20for%20energy%20islands.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 26 | 9653 | 60 |
+| [Case%20study%20%238_Lessons%20learnt%20on%20citizen%20engagement.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%238_Lessons%20learnt%20on%20citizen%20engagement.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 28 | 8248 | 94 |
+| [Case%20study%20%239_Digital%20tools%20and%20technologies%20for%20smart%20grids.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%239_Digital%20tools%20and%20technologies%20for%20smart%20grids.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 83 | 23432 | 188 |
+| [Charging_ahead_Accelerating_the_roll-out_of_EU_electric_vehicle_charging_infrastructure.pdf](https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/document-files/2024-05/Charging_ahead_Accelerating_the_roll-out_of_EU_electric_vehicle_charging_infrastructure.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 4678 | 0 |
+| [Concept%20Note%20and%20Draft%20Programme-%206th%20December%2C%20%28Digital%29%20Democracy%20is%20a%20human%20right.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/Concept%20Note%20and%20Draft%20Programme-%206th%20December%2C%20%28Digital%29%20Democracy%20is%20a%20human%20right.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 1539 | 1 |
+| [D3.12.a%20BRIDGE_Battery_report_Aug18.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.a%20BRIDGE_Battery_report_Aug18.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 60 | 17358 | 228 |
+| [D3.12.e_BRIDGE_Cybersecurity-report.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.e_BRIDGE_Cybersecurity-report.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 32 | 7427 | 74 |
+| [D3.12.e_BRIDGE_Cybersecurity-report_0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.e_BRIDGE_Cybersecurity-report_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 32 | 7427 | 74 |
+| [D3.12.f_BRIDGE-TSO-DSO-Coordination-report.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.f_BRIDGE-TSO-DSO-Coordination-report.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 82 | 18715 | 203 |
+| [D3.12.f_BRIDGE-TSO-DSO-Coordination-report_0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.f_BRIDGE-TSO-DSO-Coordination-report_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 82 | 18715 | 203 |
+| [D3.12.f_BRIDGE-TSO-DSO-Coordination-report_1.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.f_BRIDGE-TSO-DSO-Coordination-report_1.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 82 | 18715 | 203 |
+| [D3.12.g_BRIDGE_Scalability-Replicability-Analysis.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.g_BRIDGE_Scalability-Replicability-Analysis.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 38 | 10494 | 104 |
+| [DASHBOARD%20USER%20GUIDE.pdf](https://agridata.ec.europa.eu/Qlik_Downloads/DASHBOARD%20USER%20GUIDE.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 436 | 11 |
+| [DATA_PROTECTION_NOTICE-CINEA-Access%20to%20documents.pdf](https://cinea.ec.europa.eu/system/files/2022-02/DATA_PROTECTION_NOTICE-CINEA-Access%20to%20documents.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1636 | 2 |
+| [Draft%20agenda%20for%2020-21%20April%202023_Training-rev.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Draft%20agenda%20for%2020-21%20April%202023_Training-rev.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 334 | 2 |
+| [ENLIT-agenda-FINAL-VERSION-vff.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/ENLIT-agenda-FINAL-VERSION-vff.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 7106 | 38 |
+| [Economies%20of%20Energy%20Communities%20Review%20of%20electricity%20tariffs%20and%20business%20models%20%28April%202021%29.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Economies%20of%20Energy%20Communities%20Review%20of%20electricity%20tariffs%20and%20business%20models%20%28April%202021%29.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 44 | 16641 | 105 |
+| [FINAL%20BiodiverCities%20Policy%20event%20agenda%208%20September%202022.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/FINAL%20BiodiverCities%20Policy%20event%20agenda%208%20September%202022.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 567 | 5 |
+| [Greece%20Factsheet_Final.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2021-11/Greece%20Factsheet_Final.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1236 | 5 |
+| [Interoperability%20of%20%20flexibility%20assets%20Data%20Management%20Working%20Group%20%28April%202021%29.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Interoperability%20of%20%20flexibility%20assets%20Data%20Management%20Working%20Group%20%28April%202021%29.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 110 | 17640 | 310 |
+| [Italy%20Factsheet%20Final_MissingREF.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2021-11/Italy%20Factsheet%20Final_MissingREF.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1181 | 6 |
+| [JRC131883_jrc_conference_report_biodivercities_final_28022023_0.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/JRC131883_jrc_conference_report_biodivercities_final_28022023_0.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 20 | 4677 | 10 |
+| [Le%20Figaro%20page%2024.pdf](https://algorithmic-transparency.ec.europa.eu/system/files/2023-02/Le%20Figaro%20page%2024.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 7 | 12 |
+| [MJ-02-21-828-EN-N.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/MJ-02-21-828-EN-N.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 146 | 55283 | 703 |
+| [Netherlands%20Factsheet.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2022-02/Netherlands%20Factsheet.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1006 | 5 |
+| [Netherlands%20NPF%20%28EN%29_0.pdf](https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2022-12/Netherlands%20NPF%20%28EN%29_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 52 | 18847 | 105 |
+| [Netherlands%20NPF%2026-01-2017_0.pdf](https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/documents/2022-12/Netherlands%20NPF%2026-01-2017_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 54 | 18149 | 3 |
+| [Netherlands_0.pdf](https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2022-12/Netherlands_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 29 | 10247 | 4 |
+| [PANTERA_Enlit_all-1.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/PANTERA_Enlit_all-1.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 34 | 729 | 147 |
+| [PUBLIC_IslandSecretariatII_Study%20barriers%20and%20recommendationsITALY.20221220%20final.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2023-01/PUBLIC_IslandSecretariatII_Study%20barriers%20and%20recommendationsITALY.20221220%20final.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 58 | 22498 | 5 |
+| [PUBLIC_IslandSecretariatII_Study%20on%20barriers%20and%20recommendations%20GREECE_20221214%20clean.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2022-12/PUBLIC_IslandSecretariatII_Study%20on%20barriers%20and%20recommendations%20GREECE_20221214%20clean.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 62 | 25355 | 4 |
+| [Panel%201-Iryna%20Nikolayeva-In%20the%20MOOD%20for%20climate%20action.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%201-Iryna%20Nikolayeva-In%20the%20MOOD%20for%20climate%20action.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 17 | 1045 | 27 |
+| [Panel%201-Mariela%20Buonomo-Climate%20Smart%20Education%20Systems%20Initiative%20%28CSESI%29.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%201-Mariela%20Buonomo-Climate%20Smart%20Education%20Systems%20Initiative%20%28CSESI%29.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 2101 | 36 |
+| [Panel%202-Rozabela%20Singh-Baltfloods.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%202-Rozabela%20Singh-Baltfloods.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 59 | 6 |
+| [Panel%202-Valentina%20Di%20Giuseppe%20Di%20Paolo-Io%20non%20rischio.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%202-Valentina%20Di%20Giuseppe%20Di%20Paolo-Io%20non%20rischio.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 29 | 31 |
+| [Panel%203-Cl%C3%A1udio%20Silva-Bridging%20ways%20of%20knowing.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%203-Cl%C3%A1udio%20Silva-Bridging%20ways%20of%20knowing.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 74 | 13 |
+| [Panel%203-Youth%20Climate%20LAB-Learning%20Scenario-Between%20tradition%20and%20modernity.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%203-Youth%20Climate%20LAB-Learning%20Scenario-Between%20tradition%20and%20modernity.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 | 2048 | 1 |
+| [Panel%203-Youth%20Climate%20LAB-Practical%20Recommendations%20for%20Integrating%20TEK%20into%20learning.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%203-Youth%20Climate%20LAB-Practical%20Recommendations%20for%20Integrating%20TEK%20into%20learning.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1034 | 1 |
+| [Panel%204-Muriel%20N.-Visions2045.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%204-Muriel%20N.-Visions2045.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 55 | 39 |
+| [Panel%204-N.Bulipopa-JTV_Bees.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%204-N.Bulipopa-JTV_Bees.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 45 | 20 |
+| [Panel%204-Rui%20Monteiro-MOFwaste.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%204-Rui%20Monteiro-MOFwaste.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 43 | 6 |
+| [Panel%205-Gimnazija%20Vukovar-Small%20Steps%20to%20Mega%20Results.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%205-Gimnazija%20Vukovar-Small%20Steps%20to%20Mega%20Results.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 398 | 18 |
+| [Panel%205-Mertens%20Anouk-SISSTEM%20program.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%205-Mertens%20Anouk-SISSTEM%20program.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 161 | 38 |
+| [Panel%205-Pepe%20Torres-Weather%20Station%20Project.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%205-Pepe%20Torres-Weather%20Station%20Project.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 201 | 5 |
+| [Panel%206-Andreea%20Pletea-TEHRA%20Slides.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%206-Andreea%20Pletea-TEHRA%20Slides.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 182 | 13 |
+| [Panel%206-Sanna%20Tuokko-Fox%20Model.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%206-Sanna%20Tuokko-Fox%20Model.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 16 | 14 |
+| [Panel%206-Silvia%20Diazzi-SoilTribes.pdf](https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%206-Silvia%20Diazzi-SoilTribes.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 130 | 18 |
+| [Preview_Practice-oriented%20handbook%20-%20Phase%20II.pdf](https://citizen-led-renovation.ec.europa.eu/system/files/2025-11/Preview_Practice-oriented%20handbook%20-%20Phase%20II.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 40 | 12168 | 22 |
+| [Privacy%20Statement%20CoM%20Newsletter%20Subscription.pdf](https://eu-mayors.ec.europa.eu/system/files/2024-06/Privacy%20Statement%20CoM%20Newsletter%20Subscription.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1513 | 1 |
+| [Privacy%20Statement%20EAFO%20newsletter%20subscription%20%28002%29.pdf](https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2024-02/Privacy%20Statement%20EAFO%20newsletter%20subscription%20%28002%29.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1385 | 1 |
+| [Privacy_Statement_JRC_data_catalogue_2023.pdf](https://data.jrc.ec.europa.eu/static/files/Privacy_Statement_JRC_data_catalogue_2023.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1652 | 1 |
+| [Progetto%20Helios%20-%20documento%20di%20sintesi.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Progetto%20Helios%20-%20documento%20di%20sintesi.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1117 | 4 |
+| [Regulatory%20barriers%20in%20Greece%20findings%20and%20recommendations%2020221222.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2023-01/Regulatory%20barriers%20in%20Greece%20findings%20and%20recommendations%2020221222.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 5967 | 12 |
+| [Regulatory%20barriers%20in%20Italy%20findings%20and%20recommendations%2020230117.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2023-01/Regulatory%20barriers%20in%20Italy%20findings%20and%20recommendations%2020230117.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 5984 | 13 |
+| [Session-4_Network-code-on-cyber-security-in-energy_1-December-FV1-1.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/Session-4_Network-code-on-cyber-security-in-energy_1-December-FV1-1.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 21 | 1082 | 139 |
+| [Session-5_-Interoperability-and-data-exchange-to-support-the-digitalisation-of-smart-energy-systems_1-December.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/Session-5_-Interoperability-and-data-exchange-to-support-the-digitalisation-of-smart-energy-systems_1-December.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 47 | 2054 | 281 |
+| [Session-7_-How-to-promote-energy-storage_2-December-FV.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/Session-7_-How-to-promote-energy-storage_2-December-FV.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 1175 | 96 |
+| [Smart%20Cities%20Marketplace%20Charter.pdf](https://smart-cities-marketplace.ec.europa.eu/sites/default/files/2023-06/Smart%20Cities%20Marketplace%20Charter.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3509 | 10 |
+| [WG-BUSINESS-MODELS-WORK-PLAN-final.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/WG-BUSINESS-MODELS-WORK-PLAN-final.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1912 | 48 |
+| [action%231-MJ0323055ENN_0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/action%231-MJ0323055ENN_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 39 | 6689 | 106 |
+| [agenda-apps-jrc.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/2019-10/agenda-apps-jrc.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 321 | 1 |
+| [agenda-di-transizione-isola-di-san-pietro-2023-0.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2023-08/agenda-di-transizione-isola-di-san-pietro-2023.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 76 | 18960 | 99 |
+| [agenda-di-transizione-isola-di-san-pietro-2023.pdf](https://clean-energy-islands.ec.europa.eu/system/files/2025-06/agenda-di-transizione-isola-di-san-pietro-2023.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 76 | 18960 | 99 |
+| [agenda-jrc_makerspace_inauguration.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/2019-10/agenda-jrc_makerspace_inauguration.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 355 | 6 |
+| [agenda_2024.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/2024-06/agenda_2024.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 0 | 186 |
+| [annual%20report%202021-MJ0422316ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/annual%20report%202021-MJ0422316ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 87 | 32890 | 286 |
+| [annual%20report%202022-MJ0923565ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/annual%20report%202022-MJ0923565ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 43 | 14887 | 126 |
+| [artificial%20intelligence-HZ0125155ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/artificial%20intelligence-HZ0125155ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 29 | 5235 | 51 |
+| [bridge%20annual%20report%20of%20the%20regulation%20working%20group-HZ0125146ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20annual%20report%20of%20the%20regulation%20working%20group-HZ0125146ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 53 | 16853 | 162 |
+| [bridge%20business%20model%20working%20group-HZ0125149ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20business%20model%20working%20group-HZ0125149ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 77 | 21648 | 199 |
+| [bridge%20cooperation%20between%20horizon%202020%20and%20horizon-HZ0125038ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/bridge%20cooperation%20between%20horizon%202020%20and%20horizon-HZ0125038ENN.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 395 | 137746 | 526 |
+| [bridge%20cooperation%20between%20horizon%202020%20and%20horizon-HZ0524598ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/bridge%20cooperation%20between%20horizon%202020%20and%20horizon-HZ0524598ENN.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 340 | 113856 | 450 |
+| [bridge%20cooperation%20between%20horizon%202020%20and%20horizon-MJ0423748ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/bridge%20cooperation%20between%20horizon%202020%20and%20horizon-MJ0423748ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 226 | 90515 | 1296 |
+| [bridge%20general%20assembly%202025%20report-HZ0126053ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20general%20assembly%202025%20report-HZ0126053ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 44 | 11976 | 70 |
+| [bridge%20regulation%20working%20group-HZ0124012ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20regulation%20working%20group-HZ0124012ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 61 | 14122 | 104 |
+| [bridge%20standards%20user%20group%20bsug-HZ0124019ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20standards%20user%20group%20bsug-HZ0124019ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 59 | 13079 | 149 |
+| [bridge%20working%20group%20business%20model%20annual%20report-HZ0124010ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20working%20group%20business%20model%20annual%20report-HZ0124010ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 60 | 15813 | 147 |
+| [bridge_wg_consumer_and_citizen_engagement_report_2020-2021-link.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/bridge_wg_consumer_and_citizen_engagement_report_2020-2021-link.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 26 | 1 |
+| [bridge_wg_consumer_and_citizen_engagement_report_2020-2021_0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge_wg_consumer_and_citizen_engagement_report_2020-2021_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 50 | 14994 | 120 |
+| [bridge_wg_data_management_eu_reference_architcture_report_2020-2021_0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge_wg_data_management_eu_reference_architcture_report_2020-2021_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 122 | 34388 | 437 |
+| [consumer%20and%20citizen%20engagement%20working%20group-HZ0124024ENN_0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/consumer%20and%20citizen%20engagement%20working%20group-HZ0124024ENN_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 74 | 26674 | 106 |
+| [contribution%20from%20bridge%20projects%20to%20standardisation-MJ0323058ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/contribution%20from%20bridge%20projects%20to%20standardisation-MJ0323058ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 44 | 8918 | 85 |
+| [data%20exchange%20reference%20architecture%20dera-HZ0125151ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/data%20exchange%20reference%20architecture%20dera-HZ0125151ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 24 | 4425 | 54 |
+| [ecnl_webinar_dec_5-6.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Images/Events/ecnl_webinar_dec_5-6.pdf) | ec.europa.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1686 | 8 |
+| [engage-booklet.pdf](https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/engage-booklet.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 | 1682 | 5 |
+| [european%20energy%20data%20exchange%20reference%20architecture-HZ0124020ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/european%20energy%20data%20exchange%20reference%20architecture-HZ0124020ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 81 | 20953 | 178 |
+| [european%20energy%20data%20exchange%20reference%20architecture-MJ0323056ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/european%20energy%20data%20exchange%20reference%20architecture-MJ0323056ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 84 | 26136 | 178 |
+| [european%20energy%20data%20exchange%20reference%20architecture-MJ0423845ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/european%20energy%20data%20exchange%20reference%20architecture-MJ0423845ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 62 | 19796 | 179 |
+| [exploration%20of%20citizen%20engagement%20methodologies%20in-MJ0322252ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/exploration%20of%20citizen%20engagement%20methodologies%20in-MJ0322252ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 76 | 30339 | 137 |
+| [guidance%20of%20fire%20safety%20for%20electric%20vehicles%20parked-MI0125004ENN.pdf](https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/document-files/2025-02/guidance%20of%20fire%20safety%20for%20electric%20vehicles%20parked-MI0125004ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 86 | 25835 | 24 |
+| [guide-definition_de-1.pdf](https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-12/guide-definition_de-1.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 16 | 5462 | 2 |
+| [guidelines%20for%20implementing%20the%20prescribed%20technology-MJ0322251ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/guidelines%20for%20implementing%20the%20prescribed%20technology-MJ0322251ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 45 | 13439 | 76 |
+| [guidelines%20for%20tender%20procedure%20for%20deployment%20of-MI0125008ENN.pdf](https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/document-files/2025-03/guidelines%20for%20tender%20procedure%20for%20deployment%20of-MI0125008ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 49 | 19258 | 59 |
+| [guidelines_on_prohibited_artificial_intelligence_practices_established_by_regulation_eu_20241689_ai_act_english_ied3r5nwo50xggpcfmwckm3nuc_112367-1.PDF](https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/guidelines_on_prohibited_artificial_intelligence_practices_established_by_regulation_eu_20241689_ai_act_english_ied3r5nwo50xggpcfmwckm3nuc_112367-1.PDF) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 134 | 64079 | 2 |
+| [guidelines_on_the_scope_of_the_obligations_for_generalpurpose_ai_models_established_by_regulation_1cx2atxgq79us4n3x8jfgyy1qlm_118340-3.pdf](https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-07/guidelines_on_the_scope_of_the_obligations_for_generalpurpose_ai_models_established_by_regulation_1cx2atxgq79us4n3x8jfgyy1qlm_118340-3.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 15586 | 1 |
+| [if_pf_2021_co2-framed_en.pdf](https://climate.ec.europa.eu/system/files/2022-07/if_pf_2021_co2-framed_en.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 761 | 2 |
+| [if_pf_2021_eb_uv_en.pdf](https://climate.ec.europa.eu/system/files/2022-07/if_pf_2021_eb_uv_en.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 565 | 3 |
+| [interoperability%20of%20flexibility%20assets%202%200-MJ0323057ENN%20%281%29.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20flexibility%20assets%202%200-MJ0323057ENN%20%281%29.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 137 | 27989 | 157 |
+| [interoperability%20of%20flexibility%20assets%202%200-MJ0323057ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20flexibility%20assets%202%200-MJ0323057ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 137 | 27989 | 157 |
+| [interoperability%20of%20home%20appliances-HZ0124021ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20home%20appliances-HZ0124021ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 37 | 9617 | 118 |
+| [interoperability%20of%20home%20appliances-HZ0125150ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20home%20appliances-HZ0125150ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 61 | 16893 | 222 |
+| [interoperability%20of%20home%20appliances-MJ0423847ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20home%20appliances-MJ0423847ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 25 | 7598 | 69 |
+| [investigation%20of%20relationship%20of%20use%20cases%20and%20cross-domain-MJ0323324ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/investigation%20of%20relationship%20of%20use%20cases%20and%20cross-domain-MJ0323324ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 50 | 14403 | 159 |
+| [m1406_en.pdf](https://ec.europa.eu/competition/mergers/cases/decisions/m1406_en.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 1353 | 0 |
+| [new%20use%20case%20repository-HZ0125152ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/new%20use%20case%20repository-HZ0125152ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 50 | 8844 | 99 |
+| [output-indicator-fiches-pillar-i_en_0.pdf](https://agriculture.ec.europa.eu/system/files/2018-12/output-indicator-fiches-pillar-i_en_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 37 | 5417 | 0 |
+| [output-indicator-fiches-pillar-ii_en_0.pdf](https://agriculture.ec.europa.eu/system/files/2018-11/output-indicator-fiches-pillar-ii_en_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 41 | 9400 | 5 |
+| [recommendations%20for%20public%20authorities%20supporting-MI0125012ENN.pdf](https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/document-files/2025-06/recommendations%20for%20public%20authorities%20supporting-MI0125012ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 108 | 27798 | 22 |
+| [reference%20framework-HZ0124018ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/reference%20framework-HZ0124018ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 107 | 25404 | 163 |
+| [reference%20framework-HZ0125153ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/reference%20framework-HZ0125153ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 124 | 25805 | 168 |
+| [reference%20framework-MJ0423846ENN_0.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/reference%20framework-MJ0423846ENN_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 83 | 16317 | 115 |
+| [report%20on%20energy%20sharing-HZ0125107ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/report%20on%20energy%20sharing-HZ0125107ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 85 | 30086 | 117 |
+| [standards%20user%20group%20bsug-HZ0125154ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/standards%20user%20group%20bsug-HZ0125154ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 71 | 16853 | 173 |
+| [supporting%20potential%20synergies%20from%20increased%20sector-HZ0125106ENN.pdf](https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/supporting%20potential%20synergies%20from%20increased%20sector-HZ0125106ENN.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 39 | 10727 | 103 |
+| [winterschool2020-22_09.00_introduction_emilia_gomez_0.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_09.00_introduction_emilia_gomez_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 368 | 48 |
+| [winterschool2020-22_10.30_how_should_ai_be_regulated_virginia_dignum_0.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_10.30_how_should_ai_be_regulated_virginia_dignum_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 49 | 1903 | 55 |
+| [winterschool2020-22_10.30_responsible_ai_frameworks_andreas_theodorou.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_10.30_responsible_ai_frameworks_andreas_theodorou.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 76 | 3713 | 175 |
+| [winterschool2020-22_10.30_towards_ai_governance_andreas_theodorou.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_10.30_towards_ai_governance_andreas_theodorou.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 69 | 2764 | 115 |
+| [winterschool2020-22_12.15_flash_presentations.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_12.15_flash_presentations.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 2223 | 152 |
+| [winterschool2020-22_12.20_ai_watch_and_intro_paul_desruelle.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_12.20_ai_watch_and_intro_paul_desruelle.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 161 | 17 |
+| [winterschool2020-22_14.00_human_centric_ml_manuel_gomez.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_14.00_human_centric_ml_manuel_gomez.pdf) | ec.europa.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 88 | 3916 | 491 |
+| [winterschool2020-23_09.00_rethink_government_with_ai_cosmina_dorobantu.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-23_09.00_rethink_government_with_ai_cosmina_dorobantu.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 57 | 1865 | 71 |
+| [winterschool2020-23_10.30_child_welfare_slides_cosmina_dorobantu.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-23_10.30_child_welfare_slides_cosmina_dorobantu.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 449 | 2 |
+| [winterschool2020-23_14.00_studying_ai_in_social_context_gina_neff_0.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-23_14.00_studying_ai_in_social_context_gina_neff_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 37 | 1123 | 27 |
+| [winterschool2020-24_09.00_conisdering_the_fat_implications_marion_oswald_0.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-24_09.00_conisdering_the_fat_implications_marion_oswald_0.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 31 | 1722 | 35 |
+| [winterschool2020-24_14.00_assesing_the_impact_of_ai_in_human_behaviour_emilia_gomez.pdf](https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-24_14.00_assesing_the_impact_of_ai_in_human_behaviour_emilia_gomez.pdf) | ec.europa.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 99 | 5404 | 252 |
 
 ## Files with Errors or Notes
 
@@ -17613,3 +17813,1125 @@ Generated: 2026-03-12T08:54:36.706924+00:00
 - **URL**: https://tollwerk.de/fileadmin/user_upload/blog/barrierefreie-mehrfach-fussnote-pdf-indesign/tollwerk_Rotkaeppchen_Fussnoten.pdf
 - **Status**: analysed
 - title, 
+
+### 05-07-2024_BRIDGE-brochure-final%20%281%29.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2024-08/05-07-2024_BRIDGE-brochure-final%20%281%29.pdf
+- **Status**: analysed
+- title, tagged, Default language is not valid: Inglese \(Regno Unito\), no bookmarks and more than 20 pages, 
+
+### 08.humaint-flierposter.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/08.humaint-flierposter.pdf
+- **Status**: analysed
+- title, 
+
+### 1.%20EPAH%2021st%20Lunch%20Talk_Ulrike%20Feichtinger.pdf
+
+- **URL**: https://energy-poverty.ec.europa.eu/system/files/2025-12/1.%20EPAH%2021st%20Lunch%20Talk_Ulrike%20Feichtinger.pdf
+- **Status**: analysed
+- title, 
+
+### 1.%20EPAH%203rd%20Practitioners%20Event_Jenny%20von%20Platten.pdf
+
+- **URL**: https://energy-poverty.ec.europa.eu/system/files/2025-12/1.%20EPAH%203rd%20Practitioners%20Event_Jenny%20von%20Platten.pdf
+- **Status**: analysed
+- title, 
+
+### 2.%20EPAH%2021st%20Lunch%20Talk%20Stefan%20Bouzarovski.pdf
+
+- **URL**: https://energy-poverty.ec.europa.eu/system/files/2025-12/2.%20EPAH%2021st%20Lunch%20Talk%20Stefan%20Bouzarovski.pdf
+- **Status**: analysed
+- title, 
+
+### 2.%20EPAH%203rd%20Practitioners%20Event_Xander%20van%20Tilburg.pdf
+
+- **URL**: https://energy-poverty.ec.europa.eu/system/files/2025-12/2.%20EPAH%203rd%20Practitioners%20Event_Xander%20van%20Tilburg.pdf
+- **Status**: analysed
+- title, 
+
+### 2019%20Netherlands%20NIR%20%28EN%29_0.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2022-12/2019%20Netherlands%20NIR%20%28EN%29_0.pdf
+- **Status**: analysed
+- title, 
+
+### 2019%20Netherlands%20NIR_0.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/documents/2022-12/2019%20Netherlands%20NIR_0.pdf
+- **Status**: analysed
+- title, 
+
+### 20190411-BRIDGE-April-2019-Newsletter_FINAL_LOGOS.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20190411-BRIDGE-April-2019-Newsletter_FINAL_LOGOS.pdf
+- **Status**: analysed
+- title, 
+
+### 20190925_Minutes-TF-EC-meeting_vf.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20190925_Minutes-TF-EC-meeting_vf.pdf
+- **Status**: analysed
+- title, 
+
+### 20190925_Minutes-TF-EC-meeting_vf_0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/20190925_Minutes-TF-EC-meeting_vf_0.pdf
+- **Status**: analysed
+- title, 
+
+### 20191023_Minutes-BRIDGE-Topics-Meeting_vf.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191023_Minutes-BRIDGE-Topics-Meeting_vf.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### 20191112_EUW_Minutes-Session-on-Replication_VF.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191112_EUW_Minutes-Session-on-Replication_VF.pdf
+- **Status**: analysed
+- title, 
+
+### 20191112_Minutes-TF-SRA-meeting_VF.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191112_Minutes-TF-SRA-meeting_VF.pdf
+- **Status**: analysed
+- title, 
+
+### 20191113_EUW_Minutes-Session-on-Digitalization_VF.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191113_EUW_Minutes-Session-on-Digitalization_VF.pdf
+- **Status**: analysed
+- title, 
+
+### 20191113_EUW_Minutes-Session-on-Integration_VF.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/20191113_EUW_Minutes-Session-on-Integration_VF.pdf
+- **Status**: analysed
+- title, 
+
+### 2024%20Postcard%20Call%206%20Winner_Mark%20Zagers.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2024-12/2024%20Postcard%20Call%206%20Winner_Mark%20Zagers.pdf
+- **Status**: analysed
+- title, 
+
+### 24-05-2024-BRIDGE_Charter_corrected.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/24-05-2024-BRIDGE_Charter_corrected.pdf
+- **Status**: analysed
+- title, tagged, Default language is not valid: Inglese \(Regno Unito\), 
+
+### 4.%20EPAH%203rd%20Practitioners%20Event_Audrey%20Dobbins.pdf
+
+- **URL**: https://energy-poverty.ec.europa.eu/system/files/2025-12/4.%20EPAH%203rd%20Practitioners%20Event_Audrey%20Dobbins.pdf
+- **Status**: analysed
+- title, 
+
+### Additional_indicators_fiches.pdf
+
+- **URL**: https://agridata.ec.europa.eu/Reports/Additional_indicators_fiches.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Agenda_citizen%20engagement%20training%20March%202026.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Agenda_citizen%20engagement%20training%20March%202026.pdf
+- **Status**: analysed
+- title, 
+
+### Agenda_citizen%20engagement%20training_November%202023_0.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Agenda_citizen%20engagement%20training_November%202023_0.pdf
+- **Status**: analysed
+- title, 
+
+### Agenda_webinar_hydrogen.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2026-02/Agenda_webinar_hydrogen.pdf
+- **Status**: analysed
+- title, 
+
+### Analysis%20of%20Projects%20Major%20Achievements%20and%20R%26I%20Gaps%20%28April%202021%29.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Analysis%20of%20Projects%20Major%20Achievements%20and%20R%26I%20Gaps%20%28April%202021%29.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Annex%20III%20for%20MOVE%20-%20EAFO_v2%20250117.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2025-03/Annex%20III%20for%20MOVE%20-%20EAFO_v2%20250117.pdf
+- **Status**: analysed
+- title, 
+
+### Autumn%20School%20Programme.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Autumn%20School%20Programme.pdf
+- **Status**: analysed
+- title, 
+
+### BOOK-Clean%20energy%20for%20EU%20islands-Engagement%20guide.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2023-01/BOOK-Clean%20energy%20for%20EU%20islands-Engagement%20guide.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### BRIDGE%202022%20GA%20-%20Conclusions.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%202022%20GA%20-%20Conclusions.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE%202022%20WorkPlan%20CCE%20WG.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%202022%20WorkPlan%20CCE%20WG.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE%202022%20WorkPlans%20DM%20WG%20v2.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%202022%20WorkPlans%20DM%20WG%20v2.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE%202023%20GA%20-%20Conclusions_FINAL%20VERSION.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%202023%20GA%20-%20Conclusions_FINAL%20VERSION.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE%20GA%20-%20proceedings_v_final2-0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2024-05/BRIDGE%20GA%20-%20proceedings_v_final2.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE%20GA%20-%20proceedings_v_final2.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%20GA%20-%20proceedings_v_final2.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE%20GA%202025_Conclusions%20and%20next%20steps.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE%20GA%202025_Conclusions%20and%20next%20steps.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### BRIDGE-April-2018-newsletter.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/BRIDGE-April-2018-newsletter.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE-Business-Models-Findings-and-Reco-July-2019.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-Business-Models-Findings-and-Reco-July-2019.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE-Customer-Engagement-WG-Findings-and-Reco-July-2019.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-Customer-Engagement-WG-Findings-and-Reco-July-2019.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE-Data-Management-WG-Findings-and-Reco-July-2019.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-Data-Management-WG-Findings-and-Reco-July-2019.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### BRIDGE-GA-2021-Final-Conclusions.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-GA-2021-Final-Conclusions.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE-GA2020_Conclusions-and-next-steps.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-GA2020_Conclusions-and-next-steps.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE-Regulations-WG-Findings-and-Reco-July-2019.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE-Regulations-WG-Findings-and-Reco-July-2019.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE_Battery_report_Aug18.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/BRIDGE_Battery_report_Aug18.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### BRIDGE_Case%20Study%20%2311.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/BRIDGE_Case%20Study%20%2311.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### BRIDGE_Case%20Study%20%2312.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/BRIDGE_Case%20Study%20%2312.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### BRIDGE_Draft%20Agenda%20General%20Assembly%202026_v6.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2026-03/BRIDGE_Draft%20Agenda%20General%20Assembly%202026_v6.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE_Draft%20Agenda%20General%20Assembly%2025-26March%202025_simplified_2.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE_Draft%20Agenda%20General%20Assembly%2025-26March%202025_simplified_2.pdf
+- **Status**: analysed
+- title, 
+
+### BRIDGE_WG_CCE-2021-WorkPlan.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/BRIDGE_WG_CCE-2021-WorkPlan.pdf
+- **Status**: analysed
+- title, 
+
+### Battery_report_Exe_sum_V1-0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/Battery_report_Exe_sum_V1.pdf
+- **Status**: analysed
+- title, 
+
+### Battery_report_Exe_sum_V1.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Battery_report_Exe_sum_V1.pdf
+- **Status**: analysed
+- title, 
+
+### Bridge-GA-March-2019-Conclusions-Next-Steps.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Bridge-GA-March-2019-Conclusions-Next-Steps.pdf
+- **Status**: analysed
+- title, 
+
+### Bridge-Slide%20deck%202023_rev_4.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Bridge-Slide%20deck%202023_rev_4.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Brochure-of-BRIDGE-projects-V16.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/news/Brochure-of-BRIDGE-projects-V16.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Brochure-of-BRIDGE-projects_2020_VF_web3.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Brochure-of-BRIDGE-projects_2020_VF_web3.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Brochure-of-BRIDGE-projects_May_2019_VF3.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Brochure-of-BRIDGE-projects_May_2019_VF3.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Bulgaria%20workshop%20-%20homeowners_0.pdf
+
+- **URL**: https://futurium.ec.europa.eu/system/files/2023-11/Bulgaria%20workshop%20-%20homeowners_0.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### CE4EUI_BES%20Islands_TA_Smart%20Electricity%20Systems_0.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2025-01/CE4EUI_BES%20Islands_TA_Smart%20Electricity%20Systems_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### CE4EUI_BES_%20Financing%20Position%20Paper.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2026-03/CE4EUI_BES_%20Financing%20Position%20Paper.pdf
+- **Status**: analysed
+- title, 
+
+### CE4EUI_Saba_Roadmap.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2026-03/CE4EUI_Saba_Roadmap.pdf
+- **Status**: analysed
+- title, 
+
+### CE4EUI_SanPietro_TA_Wind%20Repowering_0.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2025-04/CE4EUI_SanPietro_TA_Wind%20Repowering_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### CETA%20VENTOTENE%20ITA.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2022-11/CETA%20VENTOTENE%20ITA.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### Case%20study%20%2310_Technologies%20for%20consumers.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%2310_Technologies%20for%20consumers.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Case%20study%20%231_Unleash%20the%20potential%20and%20value%20of%20power%20system%20flexibilities.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%231_Unleash%20the%20potential%20and%20value%20of%20power%20system%20flexibilities.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Case%20study%20%232_Vehicle-to-Grid%20to%20support%20grid%20stability%20and%20RES%20integration.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%232_Vehicle-to-Grid%20to%20support%20grid%20stability%20and%20RES%20integration.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Case%20study%20%233_Battery%20Energy%20Storage%20Systems%20to%20support%20the%20large-scale%20integration%20of%20renewable%20energy.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%233_Battery%20Energy%20Storage%20Systems%20to%20support%20the%20large-scale%20integration%20of%20renewable%20energy.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Case%20study%20%234_TSO%20-%20DSO%20Cooperation.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%234_TSO%20-%20DSO%20Cooperation.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Case%20study%20%235_Energy%20Communities%2C%20tools%20to%20build%20them%20and%20make%20them%20thrive.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%235_Energy%20Communities%2C%20tools%20to%20build%20them%20and%20make%20them%20thrive.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Case%20study%20%236_Improving%20the%20cybersecurity%20and%20resilience%20of%20the%20Electrical%20Power%20and%20Energy%20System.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%236_Improving%20the%20cybersecurity%20and%20resilience%20of%20the%20Electrical%20Power%20and%20Energy%20System.pdf
+- **Status**: analysed
+- title, 
+
+### Case%20study%20%237_Multi-energy%20grid%20planning%20for%20energy%20islands.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%237_Multi-energy%20grid%20planning%20for%20energy%20islands.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Case%20study%20%238_Lessons%20learnt%20on%20citizen%20engagement.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%238_Lessons%20learnt%20on%20citizen%20engagement.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Case%20study%20%239_Digital%20tools%20and%20technologies%20for%20smart%20grids.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/case-studies/Case%20study%20%239_Digital%20tools%20and%20technologies%20for%20smart%20grids.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Charging_ahead_Accelerating_the_roll-out_of_EU_electric_vehicle_charging_infrastructure.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/document-files/2024-05/Charging_ahead_Accelerating_the_roll-out_of_EU_electric_vehicle_charging_infrastructure.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Concept%20Note%20and%20Draft%20Programme-%206th%20December%2C%20%28Digital%29%20Democracy%20is%20a%20human%20right.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/Concept%20Note%20and%20Draft%20Programme-%206th%20December%2C%20%28Digital%29%20Democracy%20is%20a%20human%20right.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### D3.12.a%20BRIDGE_Battery_report_Aug18.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.a%20BRIDGE_Battery_report_Aug18.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### D3.12.e_BRIDGE_Cybersecurity-report.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.e_BRIDGE_Cybersecurity-report.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### D3.12.e_BRIDGE_Cybersecurity-report_0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.e_BRIDGE_Cybersecurity-report_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### D3.12.f_BRIDGE-TSO-DSO-Coordination-report.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.f_BRIDGE-TSO-DSO-Coordination-report.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### D3.12.f_BRIDGE-TSO-DSO-Coordination-report_0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.f_BRIDGE-TSO-DSO-Coordination-report_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### D3.12.f_BRIDGE-TSO-DSO-Coordination-report_1.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.f_BRIDGE-TSO-DSO-Coordination-report_1.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### D3.12.g_BRIDGE_Scalability-Replicability-Analysis.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/D3.12.g_BRIDGE_Scalability-Replicability-Analysis.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### DASHBOARD%20USER%20GUIDE.pdf
+
+- **URL**: https://agridata.ec.europa.eu/Qlik_Downloads/DASHBOARD%20USER%20GUIDE.pdf
+- **Status**: analysed
+- title, 
+
+### DATA_PROTECTION_NOTICE-CINEA-Access%20to%20documents.pdf
+
+- **URL**: https://cinea.ec.europa.eu/system/files/2022-02/DATA_PROTECTION_NOTICE-CINEA-Access%20to%20documents.pdf
+- **Status**: analysed
+- title, 
+
+### Draft%20agenda%20for%2020-21%20April%202023_Training-rev.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Draft%20agenda%20for%2020-21%20April%202023_Training-rev.pdf
+- **Status**: analysed
+- title, 
+
+### ENLIT-agenda-FINAL-VERSION-vff.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/ENLIT-agenda-FINAL-VERSION-vff.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Economies%20of%20Energy%20Communities%20Review%20of%20electricity%20tariffs%20and%20business%20models%20%28April%202021%29.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Economies%20of%20Energy%20Communities%20Review%20of%20electricity%20tariffs%20and%20business%20models%20%28April%202021%29.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### FINAL%20BiodiverCities%20Policy%20event%20agenda%208%20September%202022.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/FINAL%20BiodiverCities%20Policy%20event%20agenda%208%20September%202022.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Greece%20Factsheet_Final.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2021-11/Greece%20Factsheet_Final.pdf
+- **Status**: analysed
+- title, 
+
+### Interoperability%20of%20%20flexibility%20assets%20Data%20Management%20Working%20Group%20%28April%202021%29.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/Interoperability%20of%20%20flexibility%20assets%20Data%20Management%20Working%20Group%20%28April%202021%29.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Italy%20Factsheet%20Final_MissingREF.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2021-11/Italy%20Factsheet%20Final_MissingREF.pdf
+- **Status**: analysed
+- title, 
+
+### JRC131883_jrc_conference_report_biodivercities_final_28022023_0.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/JRC131883_jrc_conference_report_biodivercities_final_28022023_0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Le%20Figaro%20page%2024.pdf
+
+- **URL**: https://algorithmic-transparency.ec.europa.eu/system/files/2023-02/Le%20Figaro%20page%2024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### MJ-02-21-828-EN-N.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/MJ-02-21-828-EN-N.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Netherlands%20Factsheet.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2022-02/Netherlands%20Factsheet.pdf
+- **Status**: analysed
+- title, 
+
+### Netherlands%20NPF%20%28EN%29_0.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2022-12/Netherlands%20NPF%20%28EN%29_0.pdf
+- **Status**: analysed
+- title, 
+
+### Netherlands%20NPF%2026-01-2017_0.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/documents/2022-12/Netherlands%20NPF%2026-01-2017_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Netherlands_0.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2022-12/Netherlands_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### PANTERA_Enlit_all-1.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/PANTERA_Enlit_all-1.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### PUBLIC_IslandSecretariatII_Study%20barriers%20and%20recommendationsITALY.20221220%20final.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2023-01/PUBLIC_IslandSecretariatII_Study%20barriers%20and%20recommendationsITALY.20221220%20final.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### PUBLIC_IslandSecretariatII_Study%20on%20barriers%20and%20recommendations%20GREECE_20221214%20clean.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2022-12/PUBLIC_IslandSecretariatII_Study%20on%20barriers%20and%20recommendations%20GREECE_20221214%20clean.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Panel%201-Iryna%20Nikolayeva-In%20the%20MOOD%20for%20climate%20action.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%201-Iryna%20Nikolayeva-In%20the%20MOOD%20for%20climate%20action.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Panel%202-Rozabela%20Singh-Baltfloods.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%202-Rozabela%20Singh-Baltfloods.pdf
+- **Status**: analysed
+- title, 
+
+### Panel%203-Youth%20Climate%20LAB-Learning%20Scenario-Between%20tradition%20and%20modernity.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%203-Youth%20Climate%20LAB-Learning%20Scenario-Between%20tradition%20and%20modernity.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Panel%203-Youth%20Climate%20LAB-Practical%20Recommendations%20for%20Integrating%20TEK%20into%20learning.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%203-Youth%20Climate%20LAB-Practical%20Recommendations%20for%20Integrating%20TEK%20into%20learning.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Panel%204-Rui%20Monteiro-MOFwaste.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%204-Rui%20Monteiro-MOFwaste.pdf
+- **Status**: analysed
+- title, 
+
+### Panel%205-Gimnazija%20Vukovar-Small%20Steps%20to%20Mega%20Results.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%205-Gimnazija%20Vukovar-Small%20Steps%20to%20Mega%20Results.pdf
+- **Status**: analysed
+- title, 
+
+### Panel%205-Mertens%20Anouk-SISSTEM%20program.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%205-Mertens%20Anouk-SISSTEM%20program.pdf
+- **Status**: analysed
+- title, 
+
+### Panel%205-Pepe%20Torres-Weather%20Station%20Project.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%205-Pepe%20Torres-Weather%20Station%20Project.pdf
+- **Status**: analysed
+- title, 
+
+### Panel%206-Andreea%20Pletea-TEHRA%20Slides.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%206-Andreea%20Pletea-TEHRA%20Slides.pdf
+- **Status**: analysed
+- title, 
+
+### Panel%206-Sanna%20Tuokko-Fox%20Model.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%206-Sanna%20Tuokko-Fox%20Model.pdf
+- **Status**: analysed
+- title, 
+
+### Panel%206-Silvia%20Diazzi-SoilTribes.pdf
+
+- **URL**: https://education-for-climate.ec.europa.eu/community/system/files/2025-11/Panel%206-Silvia%20Diazzi-SoilTribes.pdf
+- **Status**: analysed
+- tagged, 
+
+### Preview_Practice-oriented%20handbook%20-%20Phase%20II.pdf
+
+- **URL**: https://citizen-led-renovation.ec.europa.eu/system/files/2025-11/Preview_Practice-oriented%20handbook%20-%20Phase%20II.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Privacy%20Statement%20CoM%20Newsletter%20Subscription.pdf
+
+- **URL**: https://eu-mayors.ec.europa.eu/system/files/2024-06/Privacy%20Statement%20CoM%20Newsletter%20Subscription.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Privacy%20Statement%20EAFO%20newsletter%20subscription%20%28002%29.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/system/files/documents/2024-02/Privacy%20Statement%20EAFO%20newsletter%20subscription%20%28002%29.pdf
+- **Status**: analysed
+- title, 
+
+### Privacy_Statement_JRC_data_catalogue_2023.pdf
+
+- **URL**: https://data.jrc.ec.europa.eu/static/files/Privacy_Statement_JRC_data_catalogue_2023.pdf
+- **Status**: analysed
+- title, 
+
+### Progetto%20Helios%20-%20documento%20di%20sintesi.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/UPLOADS/Files/Events/Progetto%20Helios%20-%20documento%20di%20sintesi.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Regulatory%20barriers%20in%20Greece%20findings%20and%20recommendations%2020221222.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2023-01/Regulatory%20barriers%20in%20Greece%20findings%20and%20recommendations%2020221222.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Regulatory%20barriers%20in%20Italy%20findings%20and%20recommendations%2020230117.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2023-01/Regulatory%20barriers%20in%20Italy%20findings%20and%20recommendations%2020230117.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Session-4_Network-code-on-cyber-security-in-energy_1-December-FV1-1.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/Session-4_Network-code-on-cyber-security-in-energy_1-December-FV1-1.pdf
+- **Status**: analysed
+- title, 
+
+### Session-5_-Interoperability-and-data-exchange-to-support-the-digitalisation-of-smart-energy-systems_1-December.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/Session-5_-Interoperability-and-data-exchange-to-support-the-digitalisation-of-smart-energy-systems_1-December.pdf
+- **Status**: analysed
+- title, 
+
+### Session-7_-How-to-promote-energy-storage_2-December-FV.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/system/files/2022-06/Session-7_-How-to-promote-energy-storage_2-December-FV.pdf
+- **Status**: analysed
+- title, 
+
+### Smart%20Cities%20Marketplace%20Charter.pdf
+
+- **URL**: https://smart-cities-marketplace.ec.europa.eu/sites/default/files/2023-06/Smart%20Cities%20Marketplace%20Charter.pdf
+- **Status**: analysed
+- title, 
+
+### WG-BUSINESS-MODELS-WORK-PLAN-final.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/WG-BUSINESS-MODELS-WORK-PLAN-final.pdf
+- **Status**: analysed
+- title, 
+
+### action%231-MJ0323055ENN_0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/action%231-MJ0323055ENN_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### agenda-apps-jrc.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/2019-10/agenda-apps-jrc.pdf
+- **Status**: analysed
+- title, 
+
+### agenda-di-transizione-isola-di-san-pietro-2023-0.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2023-08/agenda-di-transizione-isola-di-san-pietro-2023.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### agenda-di-transizione-isola-di-san-pietro-2023.pdf
+
+- **URL**: https://clean-energy-islands.ec.europa.eu/system/files/2025-06/agenda-di-transizione-isola-di-san-pietro-2023.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### agenda-jrc_makerspace_inauguration.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/2019-10/agenda-jrc_makerspace_inauguration.pdf
+- **Status**: analysed
+- title, 
+
+### agenda_2024.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/2024-06/agenda_2024.pdf
+- **Status**: analysed
+- title, 
+
+### annual%20report%202021-MJ0422316ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/annual%20report%202021-MJ0422316ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### annual%20report%202022-MJ0923565ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/annual%20report%202022-MJ0923565ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### artificial%20intelligence-HZ0125155ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/artificial%20intelligence-HZ0125155ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### bridge%20annual%20report%20of%20the%20regulation%20working%20group-HZ0125146ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20annual%20report%20of%20the%20regulation%20working%20group-HZ0125146ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### bridge%20business%20model%20working%20group-HZ0125149ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20business%20model%20working%20group-HZ0125149ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### bridge%20cooperation%20between%20horizon%202020%20and%20horizon-HZ0125038ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/bridge%20cooperation%20between%20horizon%202020%20and%20horizon-HZ0125038ENN.pdf
+- **Status**: analysed
+- title, tagged, Default language is not valid: Inglese \(Regno Unito\), no bookmarks and more than 20 pages, 
+
+### bridge%20cooperation%20between%20horizon%202020%20and%20horizon-HZ0524598ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/bridge%20cooperation%20between%20horizon%202020%20and%20horizon-HZ0524598ENN.pdf
+- **Status**: analysed
+- title, tagged, Default language is not valid: Inglese \(Regno Unito\), no bookmarks and more than 20 pages, 
+
+### bridge%20cooperation%20between%20horizon%202020%20and%20horizon-MJ0423748ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/bridge%20cooperation%20between%20horizon%202020%20and%20horizon-MJ0423748ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### bridge%20general%20assembly%202025%20report-HZ0126053ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20general%20assembly%202025%20report-HZ0126053ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### bridge%20regulation%20working%20group-HZ0124012ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20regulation%20working%20group-HZ0124012ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### bridge%20standards%20user%20group%20bsug-HZ0124019ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20standards%20user%20group%20bsug-HZ0124019ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### bridge%20working%20group%20business%20model%20annual%20report-HZ0124010ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge%20working%20group%20business%20model%20annual%20report-HZ0124010ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### bridge_wg_consumer_and_citizen_engagement_report_2020-2021-link.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/download/bridge_wg_consumer_and_citizen_engagement_report_2020-2021-link.pdf
+- **Status**: analysed
+- title, 
+
+### bridge_wg_consumer_and_citizen_engagement_report_2020-2021_0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge_wg_consumer_and_citizen_engagement_report_2020-2021_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### bridge_wg_data_management_eu_reference_architcture_report_2020-2021_0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/bridge_wg_data_management_eu_reference_architcture_report_2020-2021_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### consumer%20and%20citizen%20engagement%20working%20group-HZ0124024ENN_0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/consumer%20and%20citizen%20engagement%20working%20group-HZ0124024ENN_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### contribution%20from%20bridge%20projects%20to%20standardisation-MJ0323058ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/contribution%20from%20bridge%20projects%20to%20standardisation-MJ0323058ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### data%20exchange%20reference%20architecture%20dera-HZ0125151ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/data%20exchange%20reference%20architecture%20dera-HZ0125151ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### engage-booklet.pdf
+
+- **URL**: https://cop-demos.jrc.ec.europa.eu/sites/default/files/public/events/engage-booklet.pdf
+- **Status**: analysed
+- title, 
+
+### european%20energy%20data%20exchange%20reference%20architecture-HZ0124020ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/european%20energy%20data%20exchange%20reference%20architecture-HZ0124020ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### european%20energy%20data%20exchange%20reference%20architecture-MJ0323056ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/european%20energy%20data%20exchange%20reference%20architecture-MJ0323056ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### european%20energy%20data%20exchange%20reference%20architecture-MJ0423845ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/european%20energy%20data%20exchange%20reference%20architecture-MJ0423845ENN.pdf
+- **Status**: analysed
+- title, 
+
+### exploration%20of%20citizen%20engagement%20methodologies%20in-MJ0322252ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/exploration%20of%20citizen%20engagement%20methodologies%20in-MJ0322252ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### guidance%20of%20fire%20safety%20for%20electric%20vehicles%20parked-MI0125004ENN.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/document-files/2025-02/guidance%20of%20fire%20safety%20for%20electric%20vehicles%20parked-MI0125004ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### guide-definition_de-1.pdf
+
+- **URL**: https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-12/guide-definition_de-1.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### guidelines%20for%20implementing%20the%20prescribed%20technology-MJ0322251ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/guidelines%20for%20implementing%20the%20prescribed%20technology-MJ0322251ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### guidelines%20for%20tender%20procedure%20for%20deployment%20of-MI0125008ENN.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/document-files/2025-03/guidelines%20for%20tender%20procedure%20for%20deployment%20of-MI0125008ENN.pdf
+- **Status**: analysed
+- title, 
+
+### guidelines_on_prohibited_artificial_intelligence_practices_established_by_regulation_eu_20241689_ai_act_english_ied3r5nwo50xggpcfmwckm3nuc_112367-1.PDF
+
+- **URL**: https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-08/guidelines_on_prohibited_artificial_intelligence_practices_established_by_regulation_eu_20241689_ai_act_english_ied3r5nwo50xggpcfmwckm3nuc_112367-1.PDF
+- **Status**: analysed
+- title, 
+
+### guidelines_on_the_scope_of_the_obligations_for_generalpurpose_ai_models_established_by_regulation_1cx2atxgq79us4n3x8jfgyy1qlm_118340-3.pdf
+
+- **URL**: https://ai-act-service-desk.ec.europa.eu/sites/default/files/2025-07/guidelines_on_the_scope_of_the_obligations_for_generalpurpose_ai_models_established_by_regulation_1cx2atxgq79us4n3x8jfgyy1qlm_118340-3.pdf
+- **Status**: analysed
+- title, 
+
+### if_pf_2021_co2-framed_en.pdf
+
+- **URL**: https://climate.ec.europa.eu/system/files/2022-07/if_pf_2021_co2-framed_en.pdf
+- **Status**: analysed
+- title, 
+
+### if_pf_2021_eb_uv_en.pdf
+
+- **URL**: https://climate.ec.europa.eu/system/files/2022-07/if_pf_2021_eb_uv_en.pdf
+- **Status**: analysed
+- title, 
+
+### interoperability%20of%20flexibility%20assets%202%200-MJ0323057ENN%20%281%29.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20flexibility%20assets%202%200-MJ0323057ENN%20%281%29.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### interoperability%20of%20flexibility%20assets%202%200-MJ0323057ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20flexibility%20assets%202%200-MJ0323057ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### interoperability%20of%20home%20appliances-HZ0124021ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20home%20appliances-HZ0124021ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### interoperability%20of%20home%20appliances-HZ0125150ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20home%20appliances-HZ0125150ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### interoperability%20of%20home%20appliances-MJ0423847ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/interoperability%20of%20home%20appliances-MJ0423847ENN.pdf
+- **Status**: analysed
+- title, 
+
+### investigation%20of%20relationship%20of%20use%20cases%20and%20cross-domain-MJ0323324ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/investigation%20of%20relationship%20of%20use%20cases%20and%20cross-domain-MJ0323324ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### m1406_en.pdf
+
+- **URL**: https://ec.europa.eu/competition/mergers/cases/decisions/m1406_en.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### new%20use%20case%20repository-HZ0125152ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/new%20use%20case%20repository-HZ0125152ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### output-indicator-fiches-pillar-i_en_0.pdf
+
+- **URL**: https://agriculture.ec.europa.eu/system/files/2018-12/output-indicator-fiches-pillar-i_en_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### output-indicator-fiches-pillar-ii_en_0.pdf
+
+- **URL**: https://agriculture.ec.europa.eu/system/files/2018-11/output-indicator-fiches-pillar-ii_en_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### recommendations%20for%20public%20authorities%20supporting-MI0125012ENN.pdf
+
+- **URL**: https://alternative-fuels-observatory.ec.europa.eu/sites/default/files/document-files/2025-06/recommendations%20for%20public%20authorities%20supporting-MI0125012ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### reference%20framework-HZ0124018ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/reference%20framework-HZ0124018ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### reference%20framework-HZ0125153ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/reference%20framework-HZ0125153ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### reference%20framework-MJ0423846ENN_0.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/reference%20framework-MJ0423846ENN_0.pdf
+- **Status**: analysed
+- title, 
+
+### report%20on%20energy%20sharing-HZ0125107ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/report%20on%20energy%20sharing-HZ0125107ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### standards%20user%20group%20bsug-HZ0125154ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/standards%20user%20group%20bsug-HZ0125154ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### supporting%20potential%20synergies%20from%20increased%20sector-HZ0125106ENN.pdf
+
+- **URL**: https://bridge-smart-grid-storage-systems-digital-projects.ec.europa.eu/sites/default/files/bridge-reports/supporting%20potential%20synergies%20from%20increased%20sector-HZ0125106ENN.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### winterschool2020-22_09.00_introduction_emilia_gomez_0.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_09.00_introduction_emilia_gomez_0.pdf
+- **Status**: analysed
+- title, 
+
+### winterschool2020-22_10.30_how_should_ai_be_regulated_virginia_dignum_0.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_10.30_how_should_ai_be_regulated_virginia_dignum_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### winterschool2020-22_10.30_responsible_ai_frameworks_andreas_theodorou.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_10.30_responsible_ai_frameworks_andreas_theodorou.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### winterschool2020-22_10.30_towards_ai_governance_andreas_theodorou.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_10.30_towards_ai_governance_andreas_theodorou.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### winterschool2020-22_12.15_flash_presentations.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_12.15_flash_presentations.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### winterschool2020-22_12.20_ai_watch_and_intro_paul_desruelle.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_12.20_ai_watch_and_intro_paul_desruelle.pdf
+- **Status**: analysed
+- title, 
+
+### winterschool2020-22_14.00_human_centric_ml_manuel_gomez.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-22_14.00_human_centric_ml_manuel_gomez.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### winterschool2020-23_09.00_rethink_government_with_ai_cosmina_dorobantu.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-23_09.00_rethink_government_with_ai_cosmina_dorobantu.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### winterschool2020-23_10.30_child_welfare_slides_cosmina_dorobantu.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-23_10.30_child_welfare_slides_cosmina_dorobantu.pdf
+- **Status**: analysed
+- title, 
+
+### winterschool2020-23_14.00_studying_ai_in_social_context_gina_neff_0.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-23_14.00_studying_ai_in_social_context_gina_neff_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### winterschool2020-24_09.00_conisdering_the_fat_implications_marion_oswald_0.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-24_09.00_conisdering_the_fat_implications_marion_oswald_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### winterschool2020-24_14.00_assesing_the_impact_of_ai_in_human_behaviour_emilia_gomez.pdf
+
+- **URL**: https://ai-watch.ec.europa.eu/system/files/2022-12/winterschool2020-24_14.00_assesing_the_impact_of_ai_in_human_behaviour_emilia_gomez.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 

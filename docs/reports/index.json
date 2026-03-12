@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T10:04:00.121497+00:00",
+    "site": "ec.europa.eu",
+    "crawl_url": "https://ec.europa.eu/eurostat/web/main/home",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22995526997",
+    "issue_url": "",
+    "archive_file": "2026-03-12_10-04-00-121_ec.europa.eu.html",
+    "total": 199,
+    "analysed": 199,
+    "accessible": 12
+  },
+  {
     "date": "2026-03-12T08:54:36.706924+00:00",
     "site": "gov.uk",
     "crawl_url": "https://www.gov.uk/government/publications/complete-your-self-assessment-tax-return-for-5-april-2024-or-earlier",
