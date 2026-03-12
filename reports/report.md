@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T13:34:12.492298+00:00
+Generated: 2026-03-12T13:58:58.262582+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 53 |
-| Total files tracked | 7779 |
-| Analysed | 2661 |
-| Pending analysis | 4029 |
+| URLs crawled | 5 |
+| Total files tracked | 8131 |
+| Analysed | 2662 |
+| Pending analysis | 4380 |
 | Errors during analysis | 1089 |
 | Accessible | 982 |
 | Totally inaccessible | 34 |
@@ -22,6 +22,7 @@ Generated: 2026-03-12T13:34:12.492298+00:00
 |------|-------|
 | adem.public.lu | 17 |
 | akzent.lu | 3 |
+| apps.deed.state.mn.us | 1 |
 | archscan.com | 9 |
 | ble.de | 266 |
 | calgary.ca | 165 |
@@ -33,7 +34,7 @@ Generated: 2026-03-12T13:34:12.492298+00:00
 | energy.gov | 417 |
 | gsa.gov | 450 |
 | lasv.brandenburg.de | 260 |
-| mn.gov | 729 |
+| mn.gov | 1080 |
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
 | tollwerk.de | 8 |
@@ -2705,6 +2706,7 @@ Generated: 2026-03-12T13:34:12.492298+00:00
 | [Leitfaden_zur_Gestaltung_barrierefreier_Jobboersen_bf.pdf](https://www.web-4-all.de/wp-content/uploads/2012/12/Leitfaden_zur_Gestaltung_barrierefreier_Jobboersen_bf.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 19 | 3778 | 33 |
 | [Unterschiede_BITV_1_und_2_01.pdf](https://www.web-4-all.de/wp-content/uploads/2012/12/Unterschiede_BITV_1_und_2_01.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 650 | 1 |
 | [test_zhaw-plug-ins_de.pdf](https://www.web-4-all.de/wp-content/uploads/2012/12/test_zhaw-plug-ins_de.pdf) | web-4-all.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 12 | 2510 | 10 |
+| [provider-portal-user-agreement-text_Approved_22March2021.pdf](https://apps.deed.state.mn.us/lmi/etpl/Reports/provider-portal-user-agreement-text_Approved_22March2021.pdf) | apps.deed.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1379 | 0 |
 
 ## Files with Errors or Notes
 
@@ -19325,5 +19327,11 @@ Generated: 2026-03-12T13:34:12.492298+00:00
 ### Ver%C3%B6ffentlichung%20des%20vorl%C3%A4ufigen%20Finanzierungsbedarfs%20und%20der%20Finanzierungsanteile%20der%20Krankenh%C3%A4user%20und%20Pflegeeinrichtungen%20f%C3%BCr%20das%20Jahr%202023.pdf
 
 - **URL**: https://lasv.brandenburg.de/sixcms/media.php/9/Ver%C3%B6ffentlichung%20des%20vorl%C3%A4ufigen%20Finanzierungsbedarfs%20und%20der%20Finanzierungsanteile%20der%20Krankenh%C3%A4user%20und%20Pflegeeinrichtungen%20f%C3%BCr%20das%20Jahr%202023.pdf
+- **Status**: analysed
+- title, 
+
+### provider-portal-user-agreement-text_Approved_22March2021.pdf
+
+- **URL**: https://apps.deed.state.mn.us/lmi/etpl/Reports/provider-portal-user-agreement-text_Approved_22March2021.pdf
 - **Status**: analysed
 - title, 

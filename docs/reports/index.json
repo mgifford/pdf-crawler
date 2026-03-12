@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-12T13:58:58.262582+00:00",
+    "site": "apps.deed.state.mn.us",
+    "crawl_url": "https://apps.deed.state.mn.us/lmi/Etpl/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23005620256",
+    "issue_url": "",
+    "archive_file": "2026-03-12_13-58-58-262_apps.deed.state.mn.us.html",
+    "total": 1,
+    "analysed": 1,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-12T13:34:12.492298+00:00",
     "site": "ottawa.ca",
     "crawl_url": "https://ottawa.ca",
