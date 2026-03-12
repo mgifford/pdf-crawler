@@ -4,8 +4,14 @@ PDF Spider – crawls a website and downloads all PDF files found.
 Usage:
     scrapy runspider pdf_spider.py -a url=https://example.com -a output_dir=crawled_files
 
-The spider respects a DOWNLOAD_DELAY of 1 second between requests and only
-follows links within the same domain as the seed URL.
+The spider respects a DOWNLOAD_DELAY of 1 second between requests.  HTML
+pages are only followed within the same domain (including subdomains) as the
+seed URL.  PDF files linked from those pages may be hosted on any domain —
+for example, government sites often serve PDFs from a dedicated asset CDN
+(e.g. assets.publishing.service.gov.uk) while the main pages live on a
+different hostname (www.gov.uk).  Scrapy's built-in OffsiteMiddleware is
+disabled so that these cross-domain download requests are not dropped; instead
+the spider enforces same-domain page crawling explicitly.
 """
 
 import json
@@ -84,6 +90,13 @@ class PdfA11ySpider(scrapy.Spider):
             ),
             "Accept-Language": "en-US,en;q=0.5",
         },
+        # Disable the built-in OffsiteMiddleware so that PDF download requests
+        # pointing to a different domain (e.g. a CDN or asset host) are not
+        # silently dropped.  Same-domain enforcement for HTML page crawling is
+        # handled explicitly in parse() via _is_allowed_domain().
+        "SPIDER_MIDDLEWARES": {
+            "scrapy.spidermiddlewares.offsite.OffsiteMiddleware": None,
+        },
     }
 
     # Only PDF files are downloaded; all other document types are skipped since
@@ -97,10 +110,9 @@ class PdfA11ySpider(scrapy.Spider):
         self.url = url
         self.output_dir = output_dir
         self.parsed_url = urllib.parse.urlparse(url)
-        # Normalize to lowercase: HTTP hostnames are case-insensitive, but
-        # Scrapy's OffsiteMiddleware compares the lowercase hostname of each
-        # request against this list.  A mixed-case entry (e.g. "www.Ontario.ca")
-        # would cause all follow-up links to be rejected.
+        # Normalize to lowercase: HTTP hostnames are case-insensitive.
+        # This list is used by _is_allowed_domain() to decide which HTML pages
+        # should be followed; PDF download requests are not restricted by domain.
         self.allowed_domains = [self.parsed_url.netloc.lower()]
         self.start_urls = [url]
         # Accumulate filename→URL mappings in memory; written to disk on close.
@@ -115,6 +127,24 @@ class PdfA11ySpider(scrapy.Spider):
     def _has_download_extension(self, path):
         _, ext = os.path.splitext(path.lower())
         return ext in self.DOWNLOAD_EXTENSIONS
+
+    def _is_allowed_domain(self, url):
+        """Return True if *url*'s hostname is the seed domain or a subdomain of it.
+
+        In parse(), *url* is always the result of response.urljoin(), so it is
+        an absolute URL with a non-empty netloc for any link encountered on the
+        page.  The empty-netloc guard is retained for safety (e.g. direct calls
+        with a relative path) but is not normally exercised during crawling.
+        This logic is applied only to HTML page links so that cross-domain PDF
+        download requests are not restricted.
+        """
+        hostname = urllib.parse.urlparse(url).netloc.lower()
+        if not hostname:
+            return True
+        return any(
+            hostname == d or hostname.endswith("." + d)
+            for d in self.allowed_domains
+        )
 
     def _random_ua(self):
         """Return a randomly selected User-Agent string from USER_AGENTS."""
@@ -167,6 +197,8 @@ class PdfA11ySpider(scrapy.Spider):
                 path_lower = path.lower()
                 if "recherche" in path_lower or "search" in path_lower:
                     self.logger.info("Skipping search page: %s", full_link)
+                elif not self._is_allowed_domain(full_link):
+                    self.logger.info("Skipping off-site page: %s", full_link)
                 else:
                     yield response.follow(
                         link, self.parse, errback=self.handle_error,
