@@ -4,7 +4,7 @@
     "site": "ec.europa.eu",
     "crawl_url": "https://ec.europa.eu/eurostat/web/main/home",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/22995526997",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/73#issuecomment-4045458073",
     "archive_file": "2026-03-12_10-04-00-121_ec.europa.eu.html",
     "total": 199,
     "analysed": 199,
