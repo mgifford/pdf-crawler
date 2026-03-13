@@ -634,3 +634,137 @@ def test_count_words_returns_int_for_empty_pdf(tmp_path):
     result = _count_words(str(p))
     # pdfminer returns whitespace/form-feed for empty pages; no non-whitespace tokens → 0
     assert result == 0
+
+
+# ---------------------------------------------------------------------------
+# Process-based per-file timeout
+# ---------------------------------------------------------------------------
+
+def test_process_timeout_raises_timeout_error(tmp_path):
+    """_analyse_with_process_timeout must raise TimeoutError when child exceeds limit."""
+    import time
+    import multiprocessing
+    from pdf_analyser import _analyse_with_process_timeout
+
+    # Write a real (but trivial) file so the worker can be started; the worker
+    # will never finish because we patch check_file to sleep forever inside it.
+    p = tmp_path / "sleep.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    # Monkey-patch _run_check_file_worker to sleep indefinitely in the child.
+    import pdf_analyser as _mod
+
+    original = _mod._run_check_file_worker
+
+    def _sleeping_worker(filename, site, queue):
+        time.sleep(3600)  # sleep much longer than the timeout
+
+    _mod._run_check_file_worker = _sleeping_worker
+    try:
+        import pytest
+        with pytest.raises(TimeoutError, match="per-file limit"):
+            _analyse_with_process_timeout(str(p), "a.com", timeout=2)
+    finally:
+        _mod._run_check_file_worker = original
+
+
+def test_process_timeout_returns_result_on_success(tmp_path):
+    """_analyse_with_process_timeout must return the dict on success."""
+    import pdf_analyser as _mod
+    from pdf_analyser import _analyse_with_process_timeout
+
+    p = tmp_path / "ok.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    original = _mod._run_check_file_worker
+
+    def _fast_worker(filename, site, queue):
+        queue.put((True, {"TaggedTest": "Pass", "_log": ""}))
+
+    _mod._run_check_file_worker = _fast_worker
+    try:
+        result = _analyse_with_process_timeout(str(p), "a.com", timeout=10)
+        assert result["TaggedTest"] == "Pass"
+    finally:
+        _mod._run_check_file_worker = original
+
+
+def test_process_timeout_handles_worker_exception(tmp_path):
+    """_analyse_with_process_timeout must raise RuntimeError when worker puts an error."""
+    import pdf_analyser as _mod
+    from pdf_analyser import _analyse_with_process_timeout
+
+    p = tmp_path / "err.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    original = _mod._run_check_file_worker
+
+    def _error_worker(filename, site, queue):
+        queue.put((False, "something went wrong"))
+
+    _mod._run_check_file_worker = _error_worker
+    try:
+        import pytest
+        with pytest.raises(RuntimeError, match="something went wrong"):
+            _analyse_with_process_timeout(str(p), "a.com", timeout=10)
+    finally:
+        _mod._run_check_file_worker = original
+
+
+def test_per_file_timeout_marks_entry_as_error(tmp_path, capsys):
+    """main() must mark a timed-out file as error and continue to the next file."""
+    import time
+    from manifest import save_manifest, load_manifest
+    import pdf_analyser as _mod
+
+    p1 = tmp_path / "a.com" / "slow.pdf"
+    p1.parent.mkdir(parents=True, exist_ok=True)
+    p1.write_bytes(b"%PDF-1.4 fake")
+
+    p2 = tmp_path / "a.com" / "fast.pdf"
+    p2.write_bytes(b"%PDF-1.4 fake")
+
+    from manifest import build_entry
+    entries = [
+        build_entry("https://a.com/slow.pdf", p1, "a.com"),
+        build_entry("https://a.com/fast.pdf", p2, "a.com"),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    original = _mod._run_check_file_worker
+
+    call_count = [0]
+
+    def _selective_worker(filename, site, queue):
+        call_count[0] += 1
+        if "slow" in filename:
+            time.sleep(3600)  # will be killed by timeout
+        else:
+            queue.put((True, {"TaggedTest": "Pass", "_log": ""}))
+
+    _mod._run_check_file_worker = _selective_worker
+    try:
+        analyser_main(
+            manifest_path=str(manifest_path),
+            crawled_dir=str(tmp_path),
+            keep_files=True,
+            per_file_timeout=2,
+        )
+    finally:
+        _mod._run_check_file_worker = original
+
+    result = load_manifest(manifest_path)
+    by_url = {e["url"]: e for e in result}
+
+    # The slow file should be marked as error (timed out)
+    assert by_url["https://a.com/slow.pdf"]["status"] == "error"
+    assert any("exceeded" in str(e).lower() or "timeout" in str(e).lower()
+               for e in by_url["https://a.com/slow.pdf"]["errors"])
+
+    # The fast file should still be processed (analyser must continue after a timeout)
+    assert by_url["https://a.com/fast.pdf"]["status"] != "pending"
+
+    out = capsys.readouterr().out
+    assert "TIMEOUT" in out
+
