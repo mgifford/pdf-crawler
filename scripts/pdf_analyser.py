@@ -25,9 +25,9 @@ References
 
 from __future__ import annotations
 
+import multiprocessing
 import os
 import re
-import signal
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -58,6 +58,74 @@ from manifest import (
 # Public sector PDFs published before this date are considered exempt from
 # the simplified monitoring requirements under Commission Decision 2018/1524.
 DEADLINE_DATE_STR = "2018-09-23T00:00:00+02:00"
+
+
+# ---------------------------------------------------------------------------
+# Per-file analysis with a hard process-level timeout
+# ---------------------------------------------------------------------------
+
+def _run_check_file_worker(filename: str, site: str, queue: "multiprocessing.Queue") -> None:
+    """Worker function run inside a child process.
+
+    Calls check_file() and places ``(True, result)`` on *queue* on success, or
+    ``(False, error_message)`` on failure.  Using a subprocess instead of
+    SIGALRM means the timeout is enforced at the OS level via SIGKILL, which
+    reliably terminates any blocking C-extension call (e.g. pdfminer/pikepdf).
+    """
+    try:
+        result = check_file(filename, site=site)
+        queue.put((True, result))
+    except Exception as exc:  # pragma: no cover
+        queue.put((False, str(exc)))
+
+
+def _analyse_with_process_timeout(filename: str, site: str, timeout: int) -> dict:
+    """Run check_file() in a child process with a hard wall-clock *timeout*.
+
+    Unlike SIGALRM (which cannot interrupt blocking C-extension calls),
+    killing the child process with SIGKILL is guaranteed to terminate it
+    regardless of what native library it is blocked in.
+
+    Args:
+        filename: Path to the PDF file to analyse.
+        site: Site/domain string passed to check_file().
+        timeout: Maximum seconds to wait for the child process.
+
+    Returns:
+        The analysis result dict returned by check_file().
+
+    Raises:
+        TimeoutError: If the child is still alive after *timeout* seconds.
+        RuntimeError: If the child crashes or produces no result.
+    """
+    ctx = multiprocessing.get_context("fork")
+    queue: multiprocessing.Queue = ctx.Queue()
+    proc = ctx.Process(
+        target=_run_check_file_worker,
+        args=(filename, site, queue),
+        daemon=True,
+    )
+    proc.start()
+    proc.join(timeout)
+
+    if proc.is_alive():
+        proc.terminate()
+        proc.join(3)
+        if proc.is_alive():
+            proc.kill()
+            proc.join()
+        raise TimeoutError(f"Analysis exceeded {timeout}s per-file limit")
+
+    try:
+        ok, payload = queue.get_nowait()
+    except Exception:
+        raise RuntimeError(
+            f"Analysis subprocess exited (code {proc.exitcode}) without producing a result"
+        )
+
+    if ok:
+        return payload
+    raise RuntimeError(payload)
 
 
 # ---------------------------------------------------------------------------
@@ -528,12 +596,6 @@ def main(
     now_utc = datetime.now(timezone.utc)
     t_run_start = time.monotonic()
 
-    # SIGALRM is only available on POSIX (Linux/macOS).
-    _sigalrm_available = hasattr(signal, "SIGALRM")
-
-    def _timeout_handler(signum, frame):  # pragma: no cover
-        raise TimeoutError(f"Analysis exceeded {per_file_timeout}s per-file limit")
-
     for entry in pending:
         # Check the total wall-clock budget before starting each new file.
         if total_timeout is not None:
@@ -656,14 +718,7 @@ def main(
         t_start = time.monotonic()
 
         try:
-            if _sigalrm_available:
-                signal.signal(signal.SIGALRM, _timeout_handler)
-                signal.alarm(per_file_timeout)
-            try:
-                report = check_file(str(local_path), site=site)
-            finally:
-                if _sigalrm_available:
-                    signal.alarm(0)  # Cancel the alarm regardless of outcome.
+            report = _analyse_with_process_timeout(str(local_path), site, per_file_timeout)
 
             elapsed = time.monotonic() - t_start
             log_msg = report.pop("_log", "")
@@ -699,12 +754,12 @@ def main(
                     status += f" ({log_msg.strip().rstrip(',')})"
                 issues_count += 1
             print(f"    → {status}")
-        except TimeoutError as exc:  # pragma: no cover
+        except TimeoutError as exc:
             elapsed = time.monotonic() - t_start
             entries = mark_error(entries, url, [str(exc)])
             print(f"    → TIMEOUT after {elapsed:.1f}s: {exc}")
             error_count += 1
-        except Exception as exc:  # pragma: no cover
+        except Exception as exc:
             elapsed = time.monotonic() - t_start
             entries = mark_error(entries, url, [str(exc)])
             print(f"    → ERROR after {elapsed:.1f}s: {exc}")

@@ -132,6 +132,7 @@ jobs:
             echo "url=$DISPATCH_URL"            >> "$GITHUB_OUTPUT"
             echo "timeout=$DISPATCH_TIMEOUT"    >> "$GITHUB_OUTPUT"
             echo "max_pages=${DISPATCH_MAX_PAGES:-2500}" >> "$GITHUB_OUTPUT"
+            echo "max_pdfs="                    >> "$GITHUB_OUTPUT"
             echo "issue_number="                >> "$GITHUB_OUTPUT"
             echo "notes="                       >> "$GITHUB_OUTPUT"
           else
@@ -207,7 +208,7 @@ jobs:
             fi
 
             # 6. Extract optional page limit from the "Number: XXXX" line in the body.
-            MAX_PAGES="2500"
+            MAX_PAGES="500"
             if [ -n "$ISSUE_BODY" ]; then
               PARSED_MAX=$(echo "$ISSUE_BODY" \
                 | grep -Ei '^Number:[[:space:]]*[0-9]+' \
@@ -219,9 +220,23 @@ jobs:
               fi
             fi
 
+            # 7. Extract optional PDF analysis limit from the "PDFs: XXXX" line in the body.
+            MAX_PDFS="200"
+            if [ -n "$ISSUE_BODY" ]; then
+              PARSED_PDFS=$(echo "$ISSUE_BODY" \
+                | grep -Ei '^PDFs:[[:space:]]*[0-9]+' \
+                | sed -E 's/^[Pp][Dd][Ff][Ss]:[[:space:]]*//' \
+                | head -1 \
+                | tr -d '\r[:space:]')
+              if [ -n "$PARSED_PDFS" ]; then
+                MAX_PDFS="$PARSED_PDFS"
+              fi
+            fi
+
             echo "url=$URL"                   >> "$GITHUB_OUTPUT"
             echo "timeout=3600"               >> "$GITHUB_OUTPUT"
             echo "max_pages=$MAX_PAGES"       >> "$GITHUB_OUTPUT"
+            echo "max_pdfs=$MAX_PDFS"         >> "$GITHUB_OUTPUT"
             echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
             echo "notes=$NOTES"               >> "$GITHUB_OUTPUT"
           fi
@@ -442,12 +457,14 @@ jobs:
           CRAWL_URL:       ${{ steps.params.outputs.url }}
           CRAWL_NOTES:     ${{ steps.params.outputs.notes }}
           CRAWL_MAX_PAGES: ${{ steps.params.outputs.max_pages }}
+          CRAWL_MAX_PDFS:  ${{ steps.params.outputs.max_pdfs }}
         run: |
           mkdir -p scan-meta
           echo "$ISSUE_NUMBER"    > scan-meta/issue_number.txt
           echo "$CRAWL_URL"       > scan-meta/crawl_url.txt
           echo "$CRAWL_NOTES"     > scan-meta/notes.txt
           echo "$CRAWL_MAX_PAGES" > scan-meta/max_pages.txt
+          echo "$CRAWL_MAX_PDFS"  > scan-meta/max_pdfs.txt
           # Extract and save the site/domain for per-site scoping in the analysis step.
           # This mirrors the _site_folder() helper in scripts/crawl.py: lowercase the
           # netloc and strip a leading www. prefix (e.g. www.Ontario.ca → ontario.ca).

@@ -219,7 +219,8 @@ jobs:
           ISSUE_NUMBER=""
           CRAWL_URL=""
           CRAWL_SITE=""
-          MAX_PAGES="2500"
+          MAX_PAGES="500"
+          MAX_PDFS="200"
           if [ -f scan-meta/issue_number.txt ]; then
             ISSUE_NUMBER=$(cat scan-meta/issue_number.txt | tr -d '[:space:]')
           fi
@@ -235,10 +236,17 @@ jobs:
               MAX_PAGES="$PARSED"
             fi
           fi
+          if [ -f scan-meta/max_pdfs.txt ]; then
+            PARSED=$(cat scan-meta/max_pdfs.txt | tr -d '[:space:]')
+            if echo "$PARSED" | grep -Eq '^[0-9]+$'; then
+              MAX_PDFS="$PARSED"
+            fi
+          fi
           echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
           echo "crawl_url=$CRAWL_URL"       >> "$GITHUB_OUTPUT"
           echo "crawl_site=$CRAWL_SITE"     >> "$GITHUB_OUTPUT"
           echo "max_pages=$MAX_PAGES"       >> "$GITHUB_OUTPUT"
+          echo "max_pdfs=$MAX_PDFS"         >> "$GITHUB_OUTPUT"
 
       - name: Pull latest manifest
         run: |
@@ -248,6 +256,7 @@ jobs:
         env:
           CRAWL_SITE:      ${{ steps.meta.outputs.crawl_site }}
           CRAWL_MAX_PAGES: ${{ steps.meta.outputs.max_pages }}
+          CRAWL_MAX_PDFS:  ${{ steps.meta.outputs.max_pdfs }}
         run: |
           KEEP_FLAG=""
           if [ "${{ github.event.inputs.keep_files }}" = "true" ]; then
@@ -257,15 +266,19 @@ jobs:
           if [ -n "$CRAWL_SITE" ]; then
             SITE_FLAG="--site $CRAWL_SITE"
           fi
-          MAX_FILES_FLAG=""
-          if [ -n "$CRAWL_MAX_PAGES" ] && [ "$CRAWL_MAX_PAGES" != "2500" ]; then
-            MAX_FILES_FLAG="--max-files $CRAWL_MAX_PAGES"
+          # Always cap the number of PDFs analysed per run to stay within the
+          # job time budget. Use the max_pdfs value from the crawl metadata
+          # (defaults to 200 when not explicitly set by the submitter).
+          MAX_PDFS="${CRAWL_MAX_PDFS:-200}"
+          if [ -z "$MAX_PDFS" ] || ! echo "$MAX_PDFS" | grep -Eq '^[0-9]+$'; then
+            MAX_PDFS="200"
           fi
+          MAX_FILES_FLAG="--max-files $MAX_PDFS"
           python scripts/pdf_analyser.py \
             --manifest reports/manifest.yaml \
             --crawled-dir crawled_files \
             --max-age-days 2 \
-            --total-timeout 2700 \
+            --total-timeout 2400 \
             $SITE_FLAG \
             $MAX_FILES_FLAG \
             $KEEP_FLAG
@@ -507,6 +520,8 @@ jobs:
       # Runs only when the job is cancelled (e.g. 60-minute job timeout).
       # Clears the scan-in-progress label and marks the issue scan-failed so
       # the issue does not remain permanently stuck with no visible status.
+      # Also reduces the PDFs: limit in the issue body so a retry is more
+      # likely to complete within the time budget.
       # -----------------------------------------------------------------------
       - name: Handle analysis cancellation or timeout
         if: >-
@@ -515,15 +530,39 @@ jobs:
           steps.meta.outputs.issue_number != ''
         uses: actions/github-script@v8
         env:
-          ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
-          CRAWL_URL:    ${{ steps.meta.outputs.crawl_url }}
-          RUN_URL:      https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          ISSUE_NUMBER:  ${{ steps.meta.outputs.issue_number }}
+          CRAWL_URL:     ${{ steps.meta.outputs.crawl_url }}
+          CRAWL_MAX_PDFS: ${{ steps.meta.outputs.max_pdfs }}
+          RUN_URL:       https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
         with:
           script: |
             const issueNumber = parseInt(process.env.ISSUE_NUMBER, 10);
             if (!Number.isInteger(issueNumber) || issueNumber <= 0) return;
-            const crawlUrl = process.env.CRAWL_URL || '(unknown)';
-            const runUrl   = process.env.RUN_URL;
+            const crawlUrl   = process.env.CRAWL_URL || '(unknown)';
+            const runUrl     = process.env.RUN_URL;
+            const currentMax = parseInt(process.env.CRAWL_MAX_PDFS, 10) || 200;
+            const newMax     = Math.max(25, Math.floor(currentMax / 2));
+
+            // Update the issue body to reduce the PDFs: limit so that a retry
+            // is more likely to complete within the time budget.
+            const { data: issue } = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              issue_number: issueNumber,
+            });
+            let body = issue.body || '';
+            if (/^PDFs:\s*\d+/mi.test(body)) {
+              body = body.replace(/^PDFs:\s*\d+/mi, `PDFs: ${newMax}`);
+            } else {
+              body = body.trim() + `\nPDFs: ${newMax}`;
+            }
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              issue_number: issueNumber,
+              body,
+            });
+
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo:  context.repo.repo,
@@ -534,7 +573,9 @@ jobs:
                 `The accessibility analysis job exceeded its time limit and was cancelled.`,
                 `Please check the [workflow run](${runUrl}) for details.`,
                 ``,
-                `Close and reopen this issue to retry the analysis.`,
+                `To help the next attempt succeed, the PDF analysis limit has been automatically`,
+                `reduced to **${newMax} PDFs** (was ${currentMax}).`,
+                `Close and reopen this issue to retry with the smaller batch size.`,
               ].join('\n'),
             });
             try {
