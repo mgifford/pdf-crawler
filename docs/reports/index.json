@@ -4,7 +4,7 @@
     "site": "oregon.gov",
     "crawl_url": "https://www.oregon.gov/oha/ei/pages/index.aspx",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23029848695",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/99#issuecomment-4051260170",
     "archive_file": "2026-03-13_00-14-33-776_oregon.gov.html",
     "total": 55,
     "analysed": 55,
