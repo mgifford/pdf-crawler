@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-13T01:40:19.592128+00:00",
+    "site": "pl.mn.gov",
+    "crawl_url": "https://pl.mn.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23032293055",
+    "issue_url": "",
+    "archive_file": "2026-03-13_01-40-19-592_pl.mn.gov.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-13T00:14:33.776627+00:00",
     "site": "oregon.gov",
     "crawl_url": "https://www.oregon.gov/oha/ei/pages/index.aspx",

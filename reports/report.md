@@ -1,15 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-13T00:14:33.776627+00:00
+Generated: 2026-03-13T01:40:19.592128+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 152 |
-| Total files tracked | 12215 |
+| Total files tracked | 14128 |
 | Analysed | 2962 |
-| Pending analysis | 8164 |
+| Pending analysis | 10077 |
 | Errors during analysis | 1089 |
 | Accessible | 1074 |
 | Totally inaccessible | 35 |
@@ -40,7 +39,7 @@ Generated: 2026-03-13T00:14:33.776627+00:00
 | njfamilycare.dhs.state.nj.us | 180 |
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
-| oregon.gov | 55 |
+| oregon.gov | 1968 |
 | projects.accesscomputing.uw.edu | 3 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
