@@ -4,7 +4,7 @@
     "site": "euclinicaltrials.eu",
     "crawl_url": "https://euclinicaltrials.eu/search-for-clinical-trials/trial-map/?lang=el",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23040057289",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/102#issuecomment-4053247312",
     "archive_file": "2026-03-13_07-12-57-919_euclinicaltrials.eu.html",
     "total": 78,
     "analysed": 78,
