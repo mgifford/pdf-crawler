@@ -1,16 +1,17 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-13T01:40:19.592128+00:00
+Generated: 2026-03-13T07:12:57.919358+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 14128 |
-| Analysed | 2962 |
+| URLs crawled | 315 |
+| Total files tracked | 14206 |
+| Analysed | 3040 |
 | Pending analysis | 10077 |
 | Errors during analysis | 1089 |
-| Accessible | 1074 |
+| Accessible | 1119 |
 | Totally inaccessible | 35 |
 | Broken / unreadable | 3 |
 | Exempt (pre-2018) | 643 |
@@ -32,6 +33,7 @@ Generated: 2026-03-13T01:40:19.592128+00:00
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
 | energy.gov | 417 |
+| euclinicaltrials.eu | 78 |
 | gsa.gov | 450 |
 | hud.gov | 1231 |
 | lasv.brandenburg.de | 260 |
@@ -3015,6 +3017,84 @@ Generated: 2026-03-13T01:40:19.592128+00:00
 | [rate-schedule.pdf](https://www.oregon.gov/odhs/providers-partners/seniors-disabilities/Documents/rate-schedule.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 356 | 2 |
 | [unified-equity-framework.pdf](https://www.oregon.gov/odhs/equity/Documents/unified-equity-framework.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 1108 | 11 |
 | [vfcvacmgmtguide.pdf](https://www.oregon.gov/oha/PH/PREVENTIONWELLNESS/VACCINESIMMUNIZATION/IMMUNIZATIONPROVIDERRESOURCES/VFC/documents/vfcvacmgmtguide.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 6891 | 15 |
+| [07f3ea47-6748-7fc9-b16e-6e5a0ebb3aa5.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS+Release+Notes+v1.0.6.0.pdf/07f3ea47-6748-7fc9-b16e-6e5a0ebb3aa5.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 552 | 2 |
+| [105d9629-bdb3-d8c2-34a0-1c19353fc3c9.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Authorities+-+v1.0.2.0-May2022..pdf/105d9629-bdb3-d8c2-34a0-1c19353fc3c9.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3101 | 2 |
+| [15b2be68-d6b7-b5de-d4f4-43bef71494ba.pdf](https://euclinicaltrials.eu/documents/20482/2921143/Known+issues-authorities-v1.0.0.5-Jan-2022/15b2be68-d6b7-b5de-d4f4-43bef71494ba.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2917 | 2 |
+| [1f268c73-78a2-3743-9dad-119e23886222.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Sponsors+-+v1.0.3.2_+Updated-August2022.pdf.pdf/1f268c73-78a2-3743-9dad-119e23886222.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 4188 | 2 |
+| [3fe04561-ed60-49bf-d8dc-fd9a98e37b46.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS+Release+Notes+v1.0.3.2.pdf/3fe04561-ed60-49bf-d8dc-fd9a98e37b46.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 593 | 2 |
+| [4d45be9c-958c-b310-ae99-a518e0cfe7c1.pdf](https://euclinicaltrials.eu/documents/20482/2921143/Known+issues-sponsors-v1.0.0.5-Jan-2022/4d45be9c-958c-b310-ae99-a518e0cfe7c1.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3451 | 2 |
+| [77953e8c-0e71-250a-ef9a-90a864424436.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS+Release+Notes+v1.0.2.0-May2022.pdf/77953e8c-0e71-250a-ef9a-90a864424436.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1998 | 2 |
+| [90b6bd35-33e0-39bf-d117-4ce1a66601a9.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Authorities+-+v1.0.6.0_oct2022.pdf/90b6bd35-33e0-39bf-d117-4ce1a66601a9.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3840 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.12.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.12.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.12.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3975 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.13.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.13.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.13.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 4096 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.14.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.14.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.14.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3899 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.16.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.16.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.16.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 4120 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.18.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.18.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.18.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 4015 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.20.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.20.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.20.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 4078 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.21.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.21.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.21.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 3492 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.22.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.22.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.22.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 3419 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.27.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.27.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.27.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 3862 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.28.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.28.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.28.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 3838 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.38.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.38.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.38.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 3913 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.4.0_Sep2022.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.4.0_Sep2022.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.4.0_Sep2022.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3636 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.44.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.44.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.44.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 4216 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.47.2.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.47.2.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.47.2.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 14 | 4779 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.5.0_Sep2022_ii.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.5.0_Sep2022_ii.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.5.0_Sep2022_ii.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3776 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.58.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.58.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.58.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 2935 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.12.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.12.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.12.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4778 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.13.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.13.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.13.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 4961 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.14.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.14.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.14.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4558 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.16.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.16.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.16.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 4780 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.18.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.18.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.18.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 4867 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.20.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.20.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.20.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 5016 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.21.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.21.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.21.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 4551 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.22.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.22.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.22.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 4534 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.27.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.27.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.27.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 14 | 5451 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.28.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.28.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.28.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 14 | 5480 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.38.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.38.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.38.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 17 | 6603 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.4.0_Sep2022.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.4.0_Sep2022.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.4.0_Sep2022.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 4350 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.42.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.42.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.42.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 17 | 6859 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.44.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.44.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.44.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 17 | 7160 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.47.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.47.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.47.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 19 | 7960 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.48.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.48.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.48.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 20 | 8150 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.49.2.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.49.2.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.49.2.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 22 | 9005 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.5.0_Sep2022_ii.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.5.0_Sep2022_ii.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.5.0_Sep2022_ii.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4644 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.53.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.53.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.53.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 22 | 8801 | 2 |
+| [CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.58.0.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.58.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.58.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 17 | 6574 | 2 |
+| [CTIS%20Release%20Notes%20public%20portal%20v2.1.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20public%20portal%20v2.1.0.pdf/CTIS%20Release%20Notes%20public%20portal%20v2.1.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 147 | 1 |
+| [CTIS%20Release%20Notes%20public%20portal%20v2.1.1.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20public%20portal%20v2.1.1.pdf/CTIS%20Release%20Notes%20public%20portal%20v2.1.1.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 356 | 2 |
+| [CTIS%20Release%20Notes%20public%20portal%20v2.1.2.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20public%20portal%20v2.1.2.pdf/CTIS%20Release%20Notes%20public%20portal%20v2.1.2.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 402 | 2 |
+| [CTIS%20Release%20Notes%20v1.0.4.0_Sep2022.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20v1.0.4.0_Sep2022.pdf/CTIS%20Release%20Notes%20v1.0.4.0_Sep2022.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 335 | 2 |
+| [CTIS%20Release%20Notes%20v1.0.5.0_Sep2022_ii.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20v1.0.5.0_Sep2022_ii.pdf/CTIS%20Release%20Notes%20v1.0.5.0_Sep2022_ii.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 622 | 2 |
+| [CTIS%20Release%20Notes%20v1.0.8.0_PDF.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20v1.0.8.0_PDF.pdf/CTIS%20Release%20Notes%20v1.0.8.0_PDF.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 572 | 2 |
+| [CTIS%20Release%20Notes%20v1.0.9.0_PDF.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20v1.0.9.0_PDF.pdf/CTIS%20Release%20Notes%20v1.0.9.0_PDF.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 611 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.36.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.36.0.pdf/CTIS%20Release%20Notes%20vR.1.0.36.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 541 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.38.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.38.0.pdf/CTIS%20Release%20Notes%20vR.1.0.38.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 639 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.39.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.39.0.pdf/CTIS%20Release%20Notes%20vR.1.0.39.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 600 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.40.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.40.0.pdf/CTIS%20Release%20Notes%20vR.1.0.40.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 848 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.41.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.41.0.pdf/CTIS%20Release%20Notes%20vR.1.0.41.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 933 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.42.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.42.0.pdf/CTIS%20Release%20Notes%20vR.1.0.42.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 729 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.43.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.43.0.pdf/CTIS%20Release%20Notes%20vR.1.0.43.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 660 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.44.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.44.0.pdf/CTIS%20Release%20Notes%20vR.1.0.44.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 883 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.45.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.45.0.pdf/CTIS%20Release%20Notes%20vR.1.0.45.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 912 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.47.0_Update.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.47.0.pdf/CTIS%20Release%20Notes%20vR.1.0.47.0_Update.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 811 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.48.0_Revised%20version.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.48.0.pdf/CTIS%20Release%20Notes%20vR.1.0.48.0_Revised%20version.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 643 | 0 |
+| [CTIS%20Release%20Notes%20vR.1.0.49.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.49.0.pdf/CTIS%20Release%20Notes%20vR.1.0.49.0.pdf) | euclinicaltrials.eu | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 422 | 8 |
+| [CTIS%20Release%20Notes%20vR.1.0.50.0,%20public%20portal%20v2.2.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.50.0,%20public%20portal%20v2.2.0.pdf/CTIS%20Release%20Notes%20vR.1.0.50.0,%20public%20portal%20v2.2.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 190 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.50.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.50.0.pdf/CTIS%20Release%20Notes%20vR.1.0.50.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 385 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.51.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.51.0.pdf/CTIS%20Release%20Notes%20vR.1.0.51.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 486 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.52.0%201.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.52.0.pdf/CTIS%20Release%20Notes%20vR.1.0.52.0%201.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 399 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.52.1.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.52.1.pdf/CTIS%20Release%20Notes%20vR.1.0.52.1.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 209 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.53.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.53.0.pdf/CTIS%20Release%20Notes%20vR.1.0.53.0.pdf) | euclinicaltrials.eu | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 522 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.54.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.54.0.pdf/CTIS%20Release%20Notes%20vR.1.0.54.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 346 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.55.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.55.0.pdf/CTIS%20Release%20Notes%20vR.1.0.55.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 396 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.56.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.56.0.pdf/CTIS%20Release%20Notes%20vR.1.0.56.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 529 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.57.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.57.0.pdf/CTIS%20Release%20Notes%20vR.1.0.57.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 391 | 2 |
+| [CTIS%20Release%20Notes%20vR.1.0.58.0.pdf](https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.58.0.pdf/CTIS%20Release%20Notes%20vR.1.0.58.0.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 398 | 2 |
+| [a177307c-d509-8b05-b635-8cf53bae68c9.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Sponsors+-+v1.0.2.0-May2022...pdf/a177307c-d509-8b05-b635-8cf53bae68c9.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3555 | 2 |
+| [a42b186d-85c7-1849-aece-f69d51696676.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Authorities+-+v1.0.3.2+Jul2022.pdf/a42b186d-85c7-1849-aece-f69d51696676.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3574 | 2 |
+| [aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf](https://euclinicaltrials.eu/documents/20482/2921140/Release+notes-v1.0.0.5-Jan2022/aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2115 | 7 |
+| [bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Sponsors+-+v1.0.6.0_oct2022.pdf/bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4890 | 2 |
 
 ## Files with Errors or Notes
 
@@ -20891,3 +20971,201 @@ Generated: 2026-03-13T01:40:19.592128+00:00
 - **URL**: https://www.oregon.gov/odhs/aging-disability-services/Documents/deaf-hard-of-hearing-community-needs-assessment-2016.pdf
 - **Status**: analysed
 - tagged, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.16.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.16.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.16.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.18.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.18.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.18.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.20.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.20.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.20.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.21.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.21.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.21.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.22.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.22.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.22.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.27.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.27.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.27.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.28.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.28.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.28.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.38.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.38.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.38.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.44.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.44.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.44.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.47.2.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.47.2.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.47.2.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.58.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.58.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.58.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.16.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.16.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.16.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.18.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.18.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.18.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.20.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.20.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.20.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.21.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.21.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.21.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.22.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.22.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.22.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.27.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.27.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.27.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.28.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.28.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.28.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.38.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.38.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.38.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.42.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.42.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.42.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.44.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.44.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.44.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.47.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.47.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.47.0.pdf
+- **Status**: analysed
+- lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.48.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.48.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.48.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.49.2.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.49.2.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.49.2.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.53.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.53.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.53.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.58.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921143/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.58.0.pdf/CTIS%20List%20of%20known%20issues%20for%20Sponsors%20-%20v1.0.58.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20Release%20Notes%20vR.1.0.38.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.38.0.pdf/CTIS%20Release%20Notes%20vR.1.0.38.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20Release%20Notes%20vR.1.0.43.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.43.0.pdf/CTIS%20Release%20Notes%20vR.1.0.43.0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CTIS%20Release%20Notes%20vR.1.0.49.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.49.0.pdf/CTIS%20Release%20Notes%20vR.1.0.49.0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CTIS%20Release%20Notes%20vR.1.0.50.0,%20public%20portal%20v2.2.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.50.0,%20public%20portal%20v2.2.0.pdf/CTIS%20Release%20Notes%20vR.1.0.50.0,%20public%20portal%20v2.2.0.pdf
+- **Status**: analysed
+- title, 
+
+### CTIS%20Release%20Notes%20vR.1.0.50.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.50.0.pdf/CTIS%20Release%20Notes%20vR.1.0.50.0.pdf
+- **Status**: analysed
+- title, 
+
+### CTIS%20Release%20Notes%20vR.1.0.51.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.51.0.pdf/CTIS%20Release%20Notes%20vR.1.0.51.0.pdf
+- **Status**: analysed
+- title, 
+
+### CTIS%20Release%20Notes%20vR.1.0.53.0.pdf
+
+- **URL**: https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.53.0.pdf/CTIS%20Release%20Notes%20vR.1.0.53.0.pdf
+- **Status**: analysed
+- title, 

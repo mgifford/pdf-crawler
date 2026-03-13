@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-13T07:12:57.919358+00:00",
+    "site": "euclinicaltrials.eu",
+    "crawl_url": "https://euclinicaltrials.eu/search-for-clinical-trials/trial-map/?lang=el",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23040057289",
+    "issue_url": "",
+    "archive_file": "2026-03-13_07-12-57-919_euclinicaltrials.eu.html",
+    "total": 78,
+    "analysed": 78,
+    "accessible": 45
+  },
+  {
     "date": "2026-03-13T01:40:19.592128+00:00",
     "site": "pl.mn.gov",
     "crawl_url": "https://pl.mn.gov/",
