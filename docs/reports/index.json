@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-13T00:14:33.776627+00:00",
+    "site": "oregon.gov",
+    "crawl_url": "https://www.oregon.gov/oha/ei/pages/index.aspx",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23029848695",
+    "issue_url": "",
+    "archive_file": "2026-03-13_00-14-33-776_oregon.gov.html",
+    "total": 55,
+    "analysed": 55,
+    "accessible": 21
+  },
+  {
     "date": "2026-03-12T23:29:40.401776+00:00",
     "site": "njfamilycare.dhs.state.nj.us",
     "crawl_url": "https://njfamilycare.dhs.state.nj.us/",

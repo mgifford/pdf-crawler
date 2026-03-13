@@ -1,0 +1,2288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: #1a1a2e;
+      background: #f8f9fa;
+    }
+
+    nav { margin-bottom: 1.5rem; }
+    nav a { color: #0d6efd; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    h1 { color: #0d6efd; }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: #6c757d; margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #0d6efd;
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: #6c757d; margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: #e9ecef;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid #dee2e6;
+    }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: #f8f9fa; }
+
+    .pass { color: #198754; }
+    .fail { color: #dc3545; }
+    .na   { color: #6c757d; }
+
+    a { color: #0d6efd; }
+
+    .empty-state {
+      background: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: #6c757d;
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: #6c757d;
+      border-top: 1px solid #dee2e6;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav><a href="../reports.html">&#8592; Back to reports index</a></nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-13T00:14:33.777699+00:00",
+    "total_files": 55,
+    "analysed": 55,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 21,
+    "totally_inaccessible": 0,
+    "broken": 0,
+    "exempt": 8,
+    "sites": {
+      "oregon.gov": 55
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.oregon.gov/das/Policies/107-004-050.pdf",
+      "md5": "05a1c16e7c42b0d1e58271caa9319efb",
+      "filename": "107-004-050.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.643143+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-08-01 21:20:13+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.3.20",
+        "Pages": 4,
+        "Words": 1316,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PROVIDERPARTNERRESOURCES/EMS/RulesandStatutes/333-200exhibit5.pdf",
+      "md5": "7a6b369d6d21c7e7656bba641886f36d",
+      "filename": "333-200exhibit5.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.645152+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-12-08 17:59:16+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "PDFCreator Version 1.7.1",
+        "Producer": "GPL Ghostscript 9.07",
+        "Pages": 1,
+        "Words": 235,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/REALD%20Documents/Assessment-of-Race-Ethnicity-Language-and-Disability-(REALD)-Data-Quality-in-the-Oregon-Health-Plan-ONE-System-Summary.pdf",
+      "md5": "a4a9df3931663d71bf8569d44760b031",
+      "filename": "Assessment-of-Race-Ethnicity-Language-and-Disability-(REALD)-Data-Quality-in-the-Oregon-Health-Plan-ONE-System-Summary.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.647253+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-05-29 20:25:21+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 18,
+        "Words": 4227,
+        "Images": 9
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/delc/providers/CCLD_Library/CEN-0072-Instructions-and-Application-for-Enrollment-in-CBR-Founded-Child-Abuse-CH.pdf",
+      "md5": "8f29a6b1cc1d45e83a966557ab846a88",
+      "filename": "CEN-0072-Instructions-and-Application-for-Enrollment-in-CBR-Founded-Child-Abuse-CH.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.649798+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-10-30 21:58:52+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.5.60",
+        "Pages": 8,
+        "Words": 733,
+        "Images": 4
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/osp/programs/cjis/Shared%20Documents/Copy%20of%20Own%20Record.pdf",
+      "md5": "a3f3c850d5dc8535f04f77321c052ebe",
+      "filename": "Copy%20of%20Own%20Record.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.651049+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-12-13 22:17:42+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.3.58",
+        "Pages": 2,
+        "Words": 521,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/REALD%20Documents/Data-Justice-Fact-Sheet.pdf",
+      "md5": "14c194d5c90b99cabfa991f5f3802863",
+      "filename": "Data-Justice-Fact-Sheet.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.652078+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-04-05 19:01:37+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.1.117",
+        "Pages": 2,
+        "Words": 653,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/REALD%20Documents/Grant%20Flyer.pdf",
+      "md5": "a82d90ab74818ab32f50a342827d66ee",
+      "filename": "Grant%20Flyer.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.653720+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-11 17:22:51+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.1.135",
+        "Pages": 1,
+        "Words": 40,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/REALD%20Documents/Grant%20Flyer_SP.pdf",
+      "md5": "a849ef6d7b0b6b4875b8f0ba1fbb4623",
+      "filename": "Grant%20Flyer_SP.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.655780+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-11 17:25:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.1.135",
+        "Pages": 1,
+        "Words": 54,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/HEC%20Non%20meeting/HEC%20Associate%20Behavioral%20Health%20Providers%20Letter%201.27.25.pdf",
+      "md5": "ea715c3eaccd2496f5146433047417ba",
+      "filename": "HEC%20Associate%20Behavioral%20Health%20Providers%20Letter%201.27.25.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.656972+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-03-17 21:58:12+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.6.96",
+        "Pages": 3,
+        "Words": 1234,
+        "Images": 3
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/Health%20Share%20THW%20Presentation%20for%20Commission.pdf",
+      "md5": "f5f1d63f649ea2ac0b96cf1c6f6ed709",
+      "filename": "Health%20Share%20THW%20Presentation%20for%20Commission.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.659405+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2017-03-08 00:57:04+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae PowerPoint\u00ae 2013",
+        "Producer": "Microsoft\u00ae PowerPoint\u00ae 2013",
+        "Pages": 23,
+        "Words": 581,
+        "Images": 32
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/covid19/Documents/How-to-Use-the-K12-Reporting-Portal.pdf",
+      "md5": "08425b72e316fc6fe74d2c536968d938",
+      "filename": "How-to-Use-the-K12-Reporting-Portal.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.662124+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-07-13 17:16:51+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 9,
+        "Words": 656,
+        "Images": 37
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/Language-Disability-Access.pdf",
+      "md5": "da559e0a74fd2333c4a23095b61d7a83",
+      "filename": "Language-Disability-Access.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.663357+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-07-20 18:57:59+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 21 for Word",
+        "Producer": "Adobe PDF Library 21.5.90",
+        "Pages": 6,
+        "Words": 2545,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PreventionWellness/VaccinesImmunization/RulesLaws/Documents/Law333-046Final.pdf",
+      "md5": "c7460122acabdda406c517771692f2ef",
+      "filename": "Law333-046Final.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.664478+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2016-12-30 10:16:22-08:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 6,
+        "Words": 2224,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/Limited-English-Proficiency-Requirements-Memo.pdf",
+      "md5": "8bef4ac46b11e914ff3da9b508818f8b",
+      "filename": "Limited-English-Proficiency-Requirements-Memo.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.665345+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-09-10 17:15:16+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft Word - Written Translation Requirements.DOCX",
+        "Producer": "Nuance PDF Create 8",
+        "Pages": 7,
+        "Words": 2662,
+        "Images": 7
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/MAC_Presentation_THWComm_08_17.pdf",
+      "md5": "c4262960f03a3e9fc92d2cee5fa85a37",
+      "filename": "MAC_Presentation_THWComm_08_17.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.667628+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2017-08-22 09:13:59-07:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 26,
+        "Words": 1688,
+        "Images": 32
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/Notice%20of%20HCI%20Rules%20Changes_2019.pdf",
+      "md5": "7e1f499de9ae3dab7973783719cd53d4",
+      "filename": "Notice%20of%20HCI%20Rules%20Changes_2019.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.669561+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-05-08 20:44:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 2,
+        "Words": 632,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PROVIDERPARTNERRESOURCES/EMS/RulesandStatutes/OAR333200Exhibit3.pdf",
+      "md5": "0ea78cfaeb14e78fdddd696664d0fba1",
+      "filename": "OAR333200Exhibit3.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.670751+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-04-08 21:32:49+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.1.174",
+        "Pages": 2,
+        "Words": 438,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PROVIDERPARTNERRESOURCES/EMS/RulesandStatutes/OAR333200and205Exhibit4.pdf",
+      "md5": "f3bf536e1b1592e7f696647b7f9e3f50",
+      "filename": "OAR333200and205Exhibit4.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.672097+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2024-10-22 21:06:33+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.1.174",
+        "Pages": 21,
+        "Words": 7077,
+        "Images": 0
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/SiteAssets/Pages/HCI-Program/Online%20Scheduling%20Portal%20Report_.pdf",
+      "md5": "46fd7a4aaad1f8f781a565cd35fdf06f",
+      "filename": "Online%20Scheduling%20Portal%20Report_.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.676149+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2022-08-03 23:32:23+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Office 365",
+        "Producer": "Microsoft\u00ae Word for Office 365",
+        "Pages": 49,
+        "Words": 11343,
+        "Images": 15
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/covid19/Documents/Oregon-Authorizing-Pharmacists-to-Administer-Vaccines-to-Persons-Three-Years-of-Age-and-Older.pdf",
+      "md5": "f09b49c536e8adcc39edbcfdfdac8a96",
+      "filename": "Oregon-Authorizing-Pharmacists-to-Administer-Vaccines-to-Persons-Three-Years-of-Age-and-Older.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.677653+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-03-29 18:07:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.1.117",
+        "Pages": 2,
+        "Words": 473,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/osp/Docs/Phase%203.2%20Project%20Update.pdf",
+      "md5": "033051b653a219a90ed361075e89f58d",
+      "filename": "Phase%203.2%20Project%20Update.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.678828+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-07-30 21:59:24+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.9.95",
+        "Pages": 1,
+        "Words": 317,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/REALD%20%26%20SOGI%20Greant%20Rules%20Notice%20final%207-30-2024%201.pdf",
+      "md5": "433777a7626effe39528c7dafb7361b9",
+      "filename": "REALD%20%26%20SOGI%20Greant%20Rules%20Notice%20final%207-30-2024%201.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.679896+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-30 15:20:51-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 10,
+        "Words": 2411,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/REALD%20Documents/REALD-Data-Collection-Reporting-FAQ.pdf",
+      "md5": "149799b1ac0b77c5ce20e5195f311d58",
+      "filename": "REALD-Data-Collection-Reporting-FAQ.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.681034+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-10-02 22:27:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Office 365",
+        "Producer": "Microsoft\u00ae Word for Office 365",
+        "Pages": 6,
+        "Words": 2357,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/RFGA%206001%201.pdf",
+      "md5": "85a5d64b69309e42c3e79a0186f64941",
+      "filename": "RFGA%206001%201.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.682421+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-11 16:30:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.3.212",
+        "Pages": 18,
+        "Words": 5904,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/osp/programs/cjis/Shared%20Documents/Records%20Request%20on%20Someone%20Else.pdf",
+      "md5": "59054db3c9f9c76564586d5c538b572d",
+      "filename": "Records%20Request%20on%20Someone%20Else.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.684944+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-09-24 17:49:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2010",
+        "Producer": "Microsoft\u00ae Word 2010",
+        "Pages": 2,
+        "Words": 655,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/Request%20for%20Reconsideration%20Form.pdf",
+      "md5": "98005e793adca30559cbfd88d03dea22",
+      "filename": "Request%20for%20Reconsideration%20Form.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.686128+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-24 21:56:33+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "CommonLook Office-2.1.18.50",
+        "Producer": "iTextSharp 4.0.3 (based on iText 2.0.2)",
+        "Pages": 3,
+        "Words": 367,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/YOUTH/HEALTHSCHOOL/SCHOOLBASEDHEALTHCENTERS/Documents/SBHC%20medical%20sponsor%20list_August%202022.pdf",
+      "md5": "4a1e60e3db25472d66aa732d62762b3e",
+      "filename": "SBHC%20medical%20sponsor%20list_August%202022.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.687339+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-02-02 16:56:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 21 for Word",
+        "Producer": "Adobe PDF Library 21.7.123",
+        "Pages": 2,
+        "Words": 689,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%2022%20final.pdf",
+      "md5": "400486052682ad98e6f677cb22f8eb4c",
+      "filename": "SERV-OR%20Bulletin%2022%20final.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.689271+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-04-07 18:12:16+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 7,
+        "Words": 2455,
+        "Images": 33
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%20Issue%2019.pdf",
+      "md5": "2cc67c7d418036a0ff7c6023543052a5",
+      "filename": "SERV-OR%20Bulletin%20Issue%2019.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.691347+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-01-19 23:11:31+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 6,
+        "Words": 2473,
+        "Images": 22
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%20Issue%2020.pdf",
+      "md5": "b3099328fce038ea9c50b1156ebe4a4f",
+      "filename": "SERV-OR%20Bulletin%20Issue%2020.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.693275+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-03-18 16:32:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 4,
+        "Words": 1542,
+        "Images": 16
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%20Issue%2021.pdf",
+      "md5": "dc8e095ed9ac3b9552e502bd983829c1",
+      "filename": "SERV-OR%20Bulletin%20Issue%2021.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.695226+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-03-18 16:39:50+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 4,
+        "Words": 1633,
+        "Images": 15
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/SiteAssets/Pages/HCI-Program/Sight%20Translation%20Report_.pdf",
+      "md5": "d794bdd540764fe7589a102c88ca77cd",
+      "filename": "Sight%20Translation%20Report_.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.696601+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2022-08-03 23:31:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Office 365",
+        "Producer": "Microsoft\u00ae Word for Office 365",
+        "Pages": 23,
+        "Words": 5985,
+        "Images": 3
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/THW%20Commission_022717.pdf",
+      "md5": "d429386c56a038fea1d961b5d9fb75a1",
+      "filename": "THW%20Commission_022717.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.699178+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-02-27 15:13:47-08:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 13,
+        "Words": 519,
+        "Images": 27
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/oha/EI/Documents/THW%20Complaint%20Form%20le8904.pdf",
+      "md5": "97328d795f12b4e15d7fead5d9017f59",
+      "filename": "THW%20Complaint%20Form%20le8904.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.700410+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2018-02-02 01:43:17+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2013",
+        "Producer": "Microsoft\u00ae Word 2013",
+        "Pages": 3,
+        "Words": 370,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/puc/bmp/Forms/Tariff%201-17-2026.pdf",
+      "md5": "98610f57023d2dc76c58ba0902f7463c",
+      "filename": "Tariff%201-17-2026.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.701649+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-16 23:13:55+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.86",
+        "Pages": 16,
+        "Words": 3820,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/delc/Documents/Title-IV-B2-Report_2024.pdf",
+      "md5": "dc4013b6a7ff7458427d1d7a96fa9aa9",
+      "filename": "Title-IV-B2-Report_2024.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.702844+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-21 19:40:23+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.5.54",
+        "Pages": 5,
+        "Words": 1015,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/oha/HSD/OHP/Tools/Transportation%20Brokerage%20Map.pdf",
+      "md5": "c111c29be1ac0a81be192c49a2fbc13f",
+      "filename": "Transportation%20Brokerage%20Map.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.703853+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-06-30 23:39:42+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.3.247",
+        "Pages": 2,
+        "Words": 296,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PREVENTIONWELLNESS/VACCINESIMMUNIZATION/IMMUNIZATIONPROVIDERRESOURCES/VFC/Documents/VFCsitevisitChklst.pdf",
+      "md5": "59c8c8504197441ce14164e649d9fee6",
+      "filename": "VFCsitevisitChklst.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.704897+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-28 15:45:49+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 3,
+        "Words": 621,
+        "Images": 7
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/aging-disability-services/Documents/application-form-transcript.pdf",
+      "md5": "356f5d38b8b57bbd2f0b6c17fb870a86",
+      "filename": "application-form-transcript.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.705797+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-16 00:57:49+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 21 for Word",
+        "Producer": "Adobe PDF Library 21.7.123",
+        "Pages": 2,
+        "Words": 387,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/data/cwdata/cw-ilp-nytd-snapshot-2011-2015-oregon.pdf",
+      "md5": "e01670e505d1d1607fbdfcc6b1302826",
+      "filename": "cw-ilp-nytd-snapshot-2011-2015-oregon.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.707814+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2016-05-05 19:06:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Microsoft\u00ae Word 2013",
+        "Producer": "Microsoft\u00ae Word 2013",
+        "Pages": 2,
+        "Words": 486,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/data/cwdata/cw-ilp-transition-age-youth-outcomes-2011-2015.pdf",
+      "md5": "6cc2df809d360193243991b6d2c80b59",
+      "filename": "cw-ilp-transition-age-youth-outcomes-2011-2015.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.709418+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-06-20 20:07:03+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 4,
+        "Words": 1981,
+        "Images": 18
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/aging-disability-services/Documents/deaf-hard-of-hearing-community-needs-assessment-2016.pdf",
+      "md5": "819f2fc5f5e13bb5fa3ea298b8725ec6",
+      "filename": "deaf-hard-of-hearing-community-needs-assessment-2016.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.716197+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-16 02:02:38+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Acrobat Pro 11.0.19",
+        "Producer": "Adobe Acrobat Pro 11.0.19",
+        "Pages": 141,
+        "Words": 49340,
+        "Images": 183
+      },
+      "errors": [
+        "tagged, "
+      ]
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/about/gaofco/fco-faq.pdf",
+      "md5": "9077e8548751e101d7599e55c9dc9bb0",
+      "filename": "fco-faq.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.717334+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-23 16:26:52+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 3,
+        "Words": 702,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/about/gaofco/fco-fy16-report.pdf",
+      "md5": "41eceedbde6a04e7189ba5d9d84a8612",
+      "filename": "fco-fy16-report.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.719049+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-23 16:26:23+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Excel\u00ae 2013",
+        "Producer": "Microsoft\u00ae Excel\u00ae 2013",
+        "Pages": 5,
+        "Words": 909,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/about/Documents/odhs-organization-chart.pdf",
+      "md5": "957f23892455c72886f9af80aafd2d4e",
+      "filename": "odhs-organization-chart.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.720126+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-18 17:09:17+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Visio\u00ae Plan 2",
+        "Producer": "Microsoft\u00ae Visio\u00ae Plan 2",
+        "Pages": 1,
+        "Words": 287,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/data/cwdata/oos-facility-map-2024-07.pdf",
+      "md5": "1c7c8c056396f2a9da45e9837ded5f0d",
+      "filename": "oos-facility-map-2024-07.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.721145+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-11 00:13:43+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 11,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/data/cwdata/oos-facility-map-2024-08.pdf",
+      "md5": "28ba3ddf365d98bcff2e8e28975bcd71",
+      "filename": "oos-facility-map-2024-08.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.722164+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-10 22:21:02+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 11,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/data/cwdata/oos-facility-report-2024-07.pdf",
+      "md5": "db708b542ab25f76040915729e5ff9ee",
+      "filename": "oos-facility-report-2024-07.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.723078+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-11 00:19:45+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 95,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/data/cwdata/oos-facility-report-2024-08.pdf",
+      "md5": "37380ec4595c556d1f107bd7defb242d",
+      "filename": "oos-facility-report-2024-08.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.724006+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-10 22:21:28+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 95,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/financial-recovery/Documents/ors-416-530.pdf",
+      "md5": "d5d3020316ff0d26a3563c149a1cfe62",
+      "filename": "ors-416-530.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.724909+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-12 19:16:33+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 205,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/background-checks/Documents/ors-443-crimes-amh.pdf",
+      "md5": "836dbe76803bea5244f368f21388715c",
+      "filename": "ors-443-crimes-amh.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.725837+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-21 21:23:45+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 21 for Word",
+        "Producer": "Adobe PDF Library 21.7.123",
+        "Pages": 1,
+        "Words": 383,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/background-checks/Documents/ors-443-crimes-apd-dd.pdf",
+      "md5": "c9b3f853a53538c1126aad84a40d7009",
+      "filename": "ors-443-crimes-apd-dd.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.726844+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-21 21:43:36+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat PDFMaker 21 for Word",
+        "Producer": "Adobe PDF Library 21.7.123",
+        "Pages": 1,
+        "Words": 792,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/providers-partners/seniors-disabilities/Documents/rate-schedule.pdf",
+      "md5": "599cfc5e78e163e2685e5a0831233a2c",
+      "filename": "rate-schedule.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.727938+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-03 18:44:17+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 356,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/odhs/equity/Documents/unified-equity-framework.pdf",
+      "md5": "a9b7f15fec0bd7e0c3b2a550b7b7d132",
+      "filename": "unified-equity-framework.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.731385+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-05 21:44:58+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for PowerPoint",
+        "Producer": "Adobe PDF Library 23.1.206",
+        "Pages": 12,
+        "Words": 1108,
+        "Images": 11
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.oregon.gov/oha/PH/PREVENTIONWELLNESS/VACCINESIMMUNIZATION/IMMUNIZATIONPROVIDERRESOURCES/VFC/documents/vfcvacmgmtguide.pdf",
+      "md5": "24bb20e476468ab957df77ab3792af16",
+      "filename": "vfcvacmgmtguide.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-03-13T00:06:45.733926+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-06 15:54:27+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.2.223",
+        "Pages": 36,
+        "Words": 6891,
+        "Images": 15
+      },
+      "errors": []
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+      if (analysed.length) {
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table><thead><tr>' +
+          '<th>File</th><th>Site</th><th>Notes</th><th>Accessible</th>' +
+          '<th>Tagged</th><th>Title</th><th>Language</th><th>Bookmarks</th><th>Pages</th><th>Words</th><th>Images</th>' +
+          '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          var r = f.report || {};
+          html += '<tr>' +
+            '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' +
+              esc(f.filename || f.url) + '</a></td>' +
+            '<td>' + esc(f.site || '') + '</td>' +
+            '<td>' + esc(f.notes || '') + '</td>' +
+            '<td>' + icon(r.Accessible)     + '</td>' +
+            '<td>' + icon(r.TaggedTest)     + '</td>' +
+            '<td>' + icon(r.TitleTest)      + '</td>' +
+            '<td>' + icon(r.LanguageTest)   + '</td>' +
+            '<td>' + icon(r.BookmarksTest)  + '</td>' +
+            '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' +
+            '</tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+</body>
+</html>

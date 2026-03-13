@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-12T23:29:40.401776+00:00
+Generated: 2026-03-13T00:14:33.776627+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 26 |
-| Total files tracked | 10762 |
-| Analysed | 2907 |
-| Pending analysis | 6766 |
+| URLs crawled | 152 |
+| Total files tracked | 12215 |
+| Analysed | 2962 |
+| Pending analysis | 8164 |
 | Errors during analysis | 1089 |
-| Accessible | 1053 |
+| Accessible | 1074 |
 | Totally inaccessible | 35 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 635 |
+| Exempt (pre-2018) | 643 |
 
 ## Files per Site
 
@@ -28,6 +28,7 @@ Generated: 2026-03-12T23:29:40.401776+00:00
 | calgary.ca | 165 |
 | canada.ca | 496 |
 | cms.gov | 373 |
+| ctoec.org | 1398 |
 | ec.europa.eu | 199 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
@@ -39,6 +40,7 @@ Generated: 2026-03-12T23:29:40.401776+00:00
 | njfamilycare.dhs.state.nj.us | 180 |
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
+| oregon.gov | 55 |
 | projects.accesscomputing.uw.edu | 3 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
@@ -2959,6 +2961,61 @@ Generated: 2026-03-12T23:29:40.401776+00:00
 | [ndc_turkish.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_turkish.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 281 | 1 |
 | [ndc_urdu.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_urdu.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 388 | 1 |
 | [ndc_vietnamese.pdf](https://njfamilycare.dhs.state.nj.us/docs/ndc_vietnamese.pdf) | njfamilycare.dhs.state.nj.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 426 | 1 |
+| [107-004-050.pdf](https://www.oregon.gov/das/Policies/107-004-050.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1316 | 2 |
+| [333-200exhibit5.pdf](https://www.oregon.gov/oha/PH/PROVIDERPARTNERRESOURCES/EMS/RulesandStatutes/333-200exhibit5.pdf) | oregon.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 235 | 0 |
+| [Assessment-of-Race-Ethnicity-Language-and-Disability-(REALD)-Data-Quality-in-the-Oregon-Health-Plan-ONE-System-Summary.pdf](https://www.oregon.gov/oha/EI/REALD%20Documents/Assessment-of-Race-Ethnicity-Language-and-Disability-(REALD)-Data-Quality-in-the-Oregon-Health-Plan-ONE-System-Summary.pdf) | oregon.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 | 4227 | 9 |
+| [CEN-0072-Instructions-and-Application-for-Enrollment-in-CBR-Founded-Child-Abuse-CH.pdf](https://www.oregon.gov/delc/providers/CCLD_Library/CEN-0072-Instructions-and-Application-for-Enrollment-in-CBR-Founded-Child-Abuse-CH.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 733 | 4 |
+| [Copy%20of%20Own%20Record.pdf](https://www.oregon.gov/osp/programs/cjis/Shared%20Documents/Copy%20of%20Own%20Record.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 521 | 4 |
+| [Data-Justice-Fact-Sheet.pdf](https://www.oregon.gov/oha/EI/REALD%20Documents/Data-Justice-Fact-Sheet.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 653 | 1 |
+| [Grant%20Flyer.pdf](https://www.oregon.gov/oha/EI/REALD%20Documents/Grant%20Flyer.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 40 | 3 |
+| [Grant%20Flyer_SP.pdf](https://www.oregon.gov/oha/EI/REALD%20Documents/Grant%20Flyer_SP.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 54 | 3 |
+| [HEC%20Associate%20Behavioral%20Health%20Providers%20Letter%201.27.25.pdf](https://www.oregon.gov/oha/EI/HEC%20Non%20meeting/HEC%20Associate%20Behavioral%20Health%20Providers%20Letter%201.27.25.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 1234 | 3 |
+| [Health%20Share%20THW%20Presentation%20for%20Commission.pdf](https://www.oregon.gov/oha/EI/Documents/Health%20Share%20THW%20Presentation%20for%20Commission.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 23 | 581 | 32 |
+| [How-to-Use-the-K12-Reporting-Portal.pdf](https://www.oregon.gov/oha/covid19/Documents/How-to-Use-the-K12-Reporting-Portal.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 656 | 37 |
+| [Language-Disability-Access.pdf](https://www.oregon.gov/oha/EI/Documents/Language-Disability-Access.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2545 | 1 |
+| [Law333-046Final.pdf](https://www.oregon.gov/oha/PH/PreventionWellness/VaccinesImmunization/RulesLaws/Documents/Law333-046Final.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 6 | 2224 | 0 |
+| [Limited-English-Proficiency-Requirements-Memo.pdf](https://www.oregon.gov/oha/EI/Documents/Limited-English-Proficiency-Requirements-Memo.pdf) | oregon.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 | 2662 | 7 |
+| [MAC_Presentation_THWComm_08_17.pdf](https://www.oregon.gov/oha/EI/Documents/MAC_Presentation_THWComm_08_17.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 26 | 1688 | 32 |
+| [Notice%20of%20HCI%20Rules%20Changes_2019.pdf](https://www.oregon.gov/oha/EI/Documents/Notice%20of%20HCI%20Rules%20Changes_2019.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 632 | 1 |
+| [OAR333200Exhibit3.pdf](https://www.oregon.gov/oha/PH/PROVIDERPARTNERRESOURCES/EMS/RulesandStatutes/OAR333200Exhibit3.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 438 | 0 |
+| [OAR333200and205Exhibit4.pdf](https://www.oregon.gov/oha/PH/PROVIDERPARTNERRESOURCES/EMS/RulesandStatutes/OAR333200and205Exhibit4.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 | 7077 | 0 |
+| [Online%20Scheduling%20Portal%20Report_.pdf](https://www.oregon.gov/oha/EI/SiteAssets/Pages/HCI-Program/Online%20Scheduling%20Portal%20Report_.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 49 | 11343 | 15 |
+| [Oregon-Authorizing-Pharmacists-to-Administer-Vaccines-to-Persons-Three-Years-of-Age-and-Older.pdf](https://www.oregon.gov/oha/covid19/Documents/Oregon-Authorizing-Pharmacists-to-Administer-Vaccines-to-Persons-Three-Years-of-Age-and-Older.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 473 | 2 |
+| [Phase%203.2%20Project%20Update.pdf](https://www.oregon.gov/osp/Docs/Phase%203.2%20Project%20Update.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 317 | 3 |
+| [REALD%20%26%20SOGI%20Greant%20Rules%20Notice%20final%207-30-2024%201.pdf](https://www.oregon.gov/oha/EI/Documents/REALD%20%26%20SOGI%20Greant%20Rules%20Notice%20final%207-30-2024%201.pdf) | oregon.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 2411 | 1 |
+| [REALD-Data-Collection-Reporting-FAQ.pdf](https://www.oregon.gov/oha/EI/REALD%20Documents/REALD-Data-Collection-Reporting-FAQ.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2357 | 1 |
+| [RFGA%206001%201.pdf](https://www.oregon.gov/oha/EI/Documents/RFGA%206001%201.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 18 | 5904 | 1 |
+| [Records%20Request%20on%20Someone%20Else.pdf](https://www.oregon.gov/osp/programs/cjis/Shared%20Documents/Records%20Request%20on%20Someone%20Else.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 655 | 2 |
+| [Request%20for%20Reconsideration%20Form.pdf](https://www.oregon.gov/oha/EI/Documents/Request%20for%20Reconsideration%20Form.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 367 | 1 |
+| [SBHC%20medical%20sponsor%20list_August%202022.pdf](https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/YOUTH/HEALTHSCHOOL/SCHOOLBASEDHEALTHCENTERS/Documents/SBHC%20medical%20sponsor%20list_August%202022.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 689 | 2 |
+| [SERV-OR%20Bulletin%2022%20final.pdf](https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%2022%20final.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2455 | 33 |
+| [SERV-OR%20Bulletin%20Issue%2019.pdf](https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%20Issue%2019.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2473 | 22 |
+| [SERV-OR%20Bulletin%20Issue%2020.pdf](https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%20Issue%2020.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1542 | 16 |
+| [SERV-OR%20Bulletin%20Issue%2021.pdf](https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%20Issue%2021.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1633 | 15 |
+| [Sight%20Translation%20Report_.pdf](https://www.oregon.gov/oha/EI/SiteAssets/Pages/HCI-Program/Sight%20Translation%20Report_.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 23 | 5985 | 3 |
+| [THW%20Commission_022717.pdf](https://www.oregon.gov/oha/EI/Documents/THW%20Commission_022717.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 | 519 | 27 |
+| [THW%20Complaint%20Form%20le8904.pdf](https://www.oregon.gov/oha/EI/Documents/THW%20Complaint%20Form%20le8904.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 370 | 1 |
+| [Tariff%201-17-2026.pdf](https://www.oregon.gov/puc/bmp/Forms/Tariff%201-17-2026.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3820 | 0 |
+| [Title-IV-B2-Report_2024.pdf](https://www.oregon.gov/delc/Documents/Title-IV-B2-Report_2024.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1015 | 2 |
+| [Transportation%20Brokerage%20Map.pdf](https://www.oregon.gov/oha/HSD/OHP/Tools/Transportation%20Brokerage%20Map.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 296 | 2 |
+| [VFCsitevisitChklst.pdf](https://www.oregon.gov/oha/PH/PREVENTIONWELLNESS/VACCINESIMMUNIZATION/IMMUNIZATIONPROVIDERRESOURCES/VFC/Documents/VFCsitevisitChklst.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 621 | 7 |
+| [application-form-transcript.pdf](https://www.oregon.gov/odhs/aging-disability-services/Documents/application-form-transcript.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 387 | 0 |
+| [cw-ilp-nytd-snapshot-2011-2015-oregon.pdf](https://www.oregon.gov/odhs/data/cwdata/cw-ilp-nytd-snapshot-2011-2015-oregon.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 486 | 3 |
+| [cw-ilp-transition-age-youth-outcomes-2011-2015.pdf](https://www.oregon.gov/odhs/data/cwdata/cw-ilp-transition-age-youth-outcomes-2011-2015.pdf) | oregon.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1981 | 18 |
+| [deaf-hard-of-hearing-community-needs-assessment-2016.pdf](https://www.oregon.gov/odhs/aging-disability-services/Documents/deaf-hard-of-hearing-community-needs-assessment-2016.pdf) | oregon.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 141 | 49340 | 183 |
+| [fco-faq.pdf](https://www.oregon.gov/odhs/about/gaofco/fco-faq.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 702 | 0 |
+| [fco-fy16-report.pdf](https://www.oregon.gov/odhs/about/gaofco/fco-fy16-report.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 909 | 0 |
+| [odhs-organization-chart.pdf](https://www.oregon.gov/odhs/about/Documents/odhs-organization-chart.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 287 | 1 |
+| [oos-facility-map-2024-07.pdf](https://www.oregon.gov/odhs/data/cwdata/oos-facility-map-2024-07.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 11 | 2 |
+| [oos-facility-map-2024-08.pdf](https://www.oregon.gov/odhs/data/cwdata/oos-facility-map-2024-08.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 11 | 2 |
+| [oos-facility-report-2024-07.pdf](https://www.oregon.gov/odhs/data/cwdata/oos-facility-report-2024-07.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 95 | 1 |
+| [oos-facility-report-2024-08.pdf](https://www.oregon.gov/odhs/data/cwdata/oos-facility-report-2024-08.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 95 | 1 |
+| [ors-416-530.pdf](https://www.oregon.gov/odhs/financial-recovery/Documents/ors-416-530.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 205 | 0 |
+| [ors-443-crimes-amh.pdf](https://www.oregon.gov/odhs/background-checks/Documents/ors-443-crimes-amh.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 383 | 0 |
+| [ors-443-crimes-apd-dd.pdf](https://www.oregon.gov/odhs/background-checks/Documents/ors-443-crimes-apd-dd.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 792 | 0 |
+| [rate-schedule.pdf](https://www.oregon.gov/odhs/providers-partners/seniors-disabilities/Documents/rate-schedule.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 356 | 2 |
+| [unified-equity-framework.pdf](https://www.oregon.gov/odhs/equity/Documents/unified-equity-framework.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 1108 | 11 |
+| [vfcvacmgmtguide.pdf](https://www.oregon.gov/oha/PH/PREVENTIONWELLNESS/VACCINESIMMUNIZATION/IMMUNIZATIONPROVIDERRESOURCES/VFC/documents/vfcvacmgmtguide.pdf) | oregon.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 6891 | 15 |
 
 ## Files with Errors or Notes
 
@@ -20631,3 +20688,207 @@ Generated: 2026-03-12T23:29:40.401776+00:00
 - **URL**: https://njfamilycare.dhs.state.nj.us/docs/ndc_vietnamese.pdf
 - **Status**: analysed
 - title, 
+
+### 107-004-050.pdf
+
+- **URL**: https://www.oregon.gov/das/Policies/107-004-050.pdf
+- **Status**: analysed
+- title, 
+
+### 333-200exhibit5.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/PROVIDERPARTNERRESOURCES/EMS/RulesandStatutes/333-200exhibit5.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Assessment-of-Race-Ethnicity-Language-and-Disability-(REALD)-Data-Quality-in-the-Oregon-Health-Plan-ONE-System-Summary.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/REALD%20Documents/Assessment-of-Race-Ethnicity-Language-and-Disability-(REALD)-Data-Quality-in-the-Oregon-Health-Plan-ONE-System-Summary.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### CEN-0072-Instructions-and-Application-for-Enrollment-in-CBR-Founded-Child-Abuse-CH.pdf
+
+- **URL**: https://www.oregon.gov/delc/providers/CCLD_Library/CEN-0072-Instructions-and-Application-for-Enrollment-in-CBR-Founded-Child-Abuse-CH.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Copy%20of%20Own%20Record.pdf
+
+- **URL**: https://www.oregon.gov/osp/programs/cjis/Shared%20Documents/Copy%20of%20Own%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Data-Justice-Fact-Sheet.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/REALD%20Documents/Data-Justice-Fact-Sheet.pdf
+- **Status**: analysed
+- title, 
+
+### Grant%20Flyer.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/REALD%20Documents/Grant%20Flyer.pdf
+- **Status**: analysed
+- title, 
+
+### Grant%20Flyer_SP.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/REALD%20Documents/Grant%20Flyer_SP.pdf
+- **Status**: analysed
+- title, 
+
+### HEC%20Associate%20Behavioral%20Health%20Providers%20Letter%201.27.25.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/HEC%20Non%20meeting/HEC%20Associate%20Behavioral%20Health%20Providers%20Letter%201.27.25.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Health%20Share%20THW%20Presentation%20for%20Commission.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/Documents/Health%20Share%20THW%20Presentation%20for%20Commission.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### How-to-Use-the-K12-Reporting-Portal.pdf
+
+- **URL**: https://www.oregon.gov/oha/covid19/Documents/How-to-Use-the-K12-Reporting-Portal.pdf
+- **Status**: analysed
+- title, 
+
+### Law333-046Final.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/PreventionWellness/VaccinesImmunization/RulesLaws/Documents/Law333-046Final.pdf
+- **Status**: analysed
+- title, 
+
+### Limited-English-Proficiency-Requirements-Memo.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/Documents/Limited-English-Proficiency-Requirements-Memo.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### MAC_Presentation_THWComm_08_17.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/Documents/MAC_Presentation_THWComm_08_17.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Notice%20of%20HCI%20Rules%20Changes_2019.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/Documents/Notice%20of%20HCI%20Rules%20Changes_2019.pdf
+- **Status**: analysed
+- title, 
+
+### OAR333200Exhibit3.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/PROVIDERPARTNERRESOURCES/EMS/RulesandStatutes/OAR333200Exhibit3.pdf
+- **Status**: analysed
+- title, 
+
+### OAR333200and205Exhibit4.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/PROVIDERPARTNERRESOURCES/EMS/RulesandStatutes/OAR333200and205Exhibit4.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Online%20Scheduling%20Portal%20Report_.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/SiteAssets/Pages/HCI-Program/Online%20Scheduling%20Portal%20Report_.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Oregon-Authorizing-Pharmacists-to-Administer-Vaccines-to-Persons-Three-Years-of-Age-and-Older.pdf
+
+- **URL**: https://www.oregon.gov/oha/covid19/Documents/Oregon-Authorizing-Pharmacists-to-Administer-Vaccines-to-Persons-Three-Years-of-Age-and-Older.pdf
+- **Status**: analysed
+- title, 
+
+### Phase%203.2%20Project%20Update.pdf
+
+- **URL**: https://www.oregon.gov/osp/Docs/Phase%203.2%20Project%20Update.pdf
+- **Status**: analysed
+- title, 
+
+### REALD%20%26%20SOGI%20Greant%20Rules%20Notice%20final%207-30-2024%201.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/Documents/REALD%20%26%20SOGI%20Greant%20Rules%20Notice%20final%207-30-2024%201.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Records%20Request%20on%20Someone%20Else.pdf
+
+- **URL**: https://www.oregon.gov/osp/programs/cjis/Shared%20Documents/Records%20Request%20on%20Someone%20Else.pdf
+- **Status**: analysed
+- title, 
+
+### SBHC%20medical%20sponsor%20list_August%202022.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/YOUTH/HEALTHSCHOOL/SCHOOLBASEDHEALTHCENTERS/Documents/SBHC%20medical%20sponsor%20list_August%202022.pdf
+- **Status**: analysed
+- title, 
+
+### SERV-OR%20Bulletin%2022%20final.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%2022%20final.pdf
+- **Status**: analysed
+- title, 
+
+### SERV-OR%20Bulletin%20Issue%2019.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%20Issue%2019.pdf
+- **Status**: analysed
+- title, 
+
+### SERV-OR%20Bulletin%20Issue%2020.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%20Issue%2020.pdf
+- **Status**: analysed
+- title, 
+
+### SERV-OR%20Bulletin%20Issue%2021.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/PREPAREDNESS/SERV-OR/Documents/SERV-OR%20Bulletin%20Issue%2021.pdf
+- **Status**: analysed
+- title, 
+
+### Sight%20Translation%20Report_.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/SiteAssets/Pages/HCI-Program/Sight%20Translation%20Report_.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### THW%20Commission_022717.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/Documents/THW%20Commission_022717.pdf
+- **Status**: analysed
+- title, 
+
+### THW%20Complaint%20Form%20le8904.pdf
+
+- **URL**: https://www.oregon.gov/oha/EI/Documents/THW%20Complaint%20Form%20le8904.pdf
+- **Status**: analysed
+- title, 
+
+### VFCsitevisitChklst.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/PREVENTIONWELLNESS/VACCINESIMMUNIZATION/IMMUNIZATIONPROVIDERRESOURCES/VFC/Documents/VFCsitevisitChklst.pdf
+- **Status**: analysed
+- title, 
+
+### cw-ilp-nytd-snapshot-2011-2015-oregon.pdf
+
+- **URL**: https://www.oregon.gov/odhs/data/cwdata/cw-ilp-nytd-snapshot-2011-2015-oregon.pdf
+- **Status**: analysed
+- title, 
+
+### cw-ilp-transition-age-youth-outcomes-2011-2015.pdf
+
+- **URL**: https://www.oregon.gov/odhs/data/cwdata/cw-ilp-transition-age-youth-outcomes-2011-2015.pdf
+- **Status**: analysed
+- title, 
+
+### deaf-hard-of-hearing-community-needs-assessment-2016.pdf
+
+- **URL**: https://www.oregon.gov/odhs/aging-disability-services/Documents/deaf-hard-of-hearing-community-needs-assessment-2016.pdf
+- **Status**: analysed
+- tagged, 
