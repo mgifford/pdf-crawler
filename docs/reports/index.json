@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-13T12:14:30.196387+00:00",
+    "site": "va.gov",
+    "crawl_url": "https://va.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23050318930",
+    "issue_url": "",
+    "archive_file": "2026-03-13_12-14-30-196_va.gov.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-13T07:12:57.919358+00:00",
     "site": "euclinicaltrials.eu",
     "crawl_url": "https://euclinicaltrials.eu/search-for-clinical-trials/trial-map/?lang=el",
