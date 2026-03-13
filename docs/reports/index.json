@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-13T19:05:04.225118+00:00",
+    "site": "dnr.state.mn.us",
+    "crawl_url": "https://www.dnr.state.mn.us/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23066325488",
+    "issue_url": "",
+    "archive_file": "2026-03-13_19-05-04-225_dnr.state.mn.us.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-13T16:24:00.669909+00:00",
     "site": "library.vanderbilt.edu",
     "crawl_url": "https://www.library.vanderbilt.edu/law/",
