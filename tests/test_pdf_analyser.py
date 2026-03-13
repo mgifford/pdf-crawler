@@ -661,7 +661,6 @@ def test_process_timeout_raises_timeout_error(tmp_path):
 
     _mod._run_check_file_worker = _sleeping_worker
     try:
-        import pytest
         with pytest.raises(TimeoutError, match="per-file limit"):
             _analyse_with_process_timeout(str(p), "a.com", timeout=2)
     finally:
@@ -704,7 +703,6 @@ def test_process_timeout_handles_worker_exception(tmp_path):
 
     _mod._run_check_file_worker = _error_worker
     try:
-        import pytest
         with pytest.raises(RuntimeError, match="something went wrong"):
             _analyse_with_process_timeout(str(p), "a.com", timeout=10)
     finally:
