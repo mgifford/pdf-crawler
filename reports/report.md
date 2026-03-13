@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-13T12:14:30.196387+00:00
+Generated: 2026-03-13T12:26:43.433654+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 1 |
-| Total files tracked | 14206 |
+| URLs crawled | 509 |
+| Total files tracked | 14737 |
 | Analysed | 3040 |
-| Pending analysis | 10077 |
+| Pending analysis | 10608 |
 | Errors during analysis | 1089 |
 | Accessible | 1119 |
 | Totally inaccessible | 35 |
@@ -28,14 +28,14 @@ Generated: 2026-03-13T12:14:30.196387+00:00
 | calgary.ca | 165 |
 | canada.ca | 496 |
 | cms.gov | 373 |
-| ctoec.org | 1398 |
+| ctoec.org | 1742 |
 | ec.europa.eu | 199 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
 | energy.gov | 417 |
 | euclinicaltrials.eu | 78 |
 | gsa.gov | 450 |
-| hud.gov | 1231 |
+| hud.gov | 1418 |
 | lasv.brandenburg.de | 260 |
 | mn.gov | 1397 |
 | njfamilycare.dhs.state.nj.us | 180 |
