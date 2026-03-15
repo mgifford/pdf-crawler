@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-13T19:05:04.225118+00:00
+Generated: 2026-03-15T18:38:46.703724+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 514 |
-| Total files tracked | 14737 |
-| Analysed | 3040 |
+| URLs crawled | 511 |
+| Total files tracked | 14738 |
+| Analysed | 3041 |
 | Pending analysis | 10608 |
 | Errors during analysis | 1089 |
 | Accessible | 1119 |
 | Totally inaccessible | 35 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 643 |
+| Exempt (pre-2018) | 644 |
 
 ## Files per Site
 
@@ -36,6 +36,7 @@ Generated: 2026-03-13T19:05:04.225118+00:00
 | euclinicaltrials.eu | 78 |
 | gsa.gov | 450 |
 | hud.gov | 1418 |
+| ijcaonline.org | 1 |
 | lasv.brandenburg.de | 260 |
 | mn.gov | 1397 |
 | njfamilycare.dhs.state.nj.us | 180 |
@@ -3095,6 +3096,7 @@ Generated: 2026-03-13T19:05:04.225118+00:00
 | [a42b186d-85c7-1849-aece-f69d51696676.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Authorities+-+v1.0.3.2+Jul2022.pdf/a42b186d-85c7-1849-aece-f69d51696676.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3574 | 2 |
 | [aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf](https://euclinicaltrials.eu/documents/20482/2921140/Release+notes-v1.0.0.5-Jan2022/aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2115 | 7 |
 | [bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Sponsors+-+v1.0.6.0_oct2022.pdf/bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4890 | 2 |
+| [IJCACopyrightForm.pdf](https://www.ijcaonline.org/ip/IJCACopyrightForm.pdf) | ijcaonline.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 995 | 5 |
 
 ## Files with Errors or Notes
 
@@ -21167,5 +21169,11 @@ Generated: 2026-03-13T19:05:04.225118+00:00
 ### CTIS%20Release%20Notes%20vR.1.0.53.0.pdf
 
 - **URL**: https://euclinicaltrials.eu/documents/20482/2921140/CTIS%20Release%20Notes%20vR.1.0.53.0.pdf/CTIS%20Release%20Notes%20vR.1.0.53.0.pdf
+- **Status**: analysed
+- title, 
+
+### IJCACopyrightForm.pdf
+
+- **URL**: https://www.ijcaonline.org/ip/IJCACopyrightForm.pdf
 - **Status**: analysed
 - title, 
