@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-16T14:14:18.919019+00:00",
+    "site": "hamilton.ca",
+    "crawl_url": "https://www.hamilton.ca/things-do/recreation",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23146815039",
+    "issue_url": "",
+    "archive_file": "2026-03-16_14-14-18-919_hamilton.ca.html",
+    "total": 262,
+    "analysed": 242,
+    "accessible": 39
+  },
+  {
     "date": "2026-03-16T13:15:29.807832+00:00",
     "site": "hamilton.ca",
     "crawl_url": "https://www.hamilton.ca/",

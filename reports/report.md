@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-16T13:15:29.807832+00:00
+Generated: 2026-03-16T14:14:18.919019+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 288 |
-| Total files tracked | 14944 |
-| Analysed | 3169 |
-| Pending analysis | 10375 |
-| Errors during analysis | 1400 |
-| Accessible | 1145 |
-| Totally inaccessible | 39 |
+| URLs crawled | 259 |
+| Total files tracked | 15000 |
+| Analysed | 3283 |
+| Pending analysis | 10303 |
+| Errors during analysis | 1414 |
+| Accessible | 1158 |
+| Totally inaccessible | 47 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 661 |
+| Exempt (pre-2018) | 665 |
 
 ## Files per Site
 
@@ -35,7 +35,7 @@ Generated: 2026-03-16T13:15:29.807832+00:00
 | energy.gov | 417 |
 | euclinicaltrials.eu | 78 |
 | gsa.gov | 450 |
-| hamilton.ca | 206 |
+| hamilton.ca | 262 |
 | hud.gov | 1418 |
 | ijcaonline.org | 1 |
 | lasv.brandenburg.de | 260 |
@@ -3226,6 +3226,120 @@ Generated: 2026-03-16T13:15:29.807832+00:00
 | [recreation_08.2-Appendix-A-Recreation-Master-Plan-Implementation%20Strategy-%28revised%29-Sep162025.pdf](https://www.hamilton.ca/sites/default/files/2025-09/recreation_08.2-Appendix-A-Recreation-Master-Plan-Implementation%20Strategy-%28revised%29-Sep162025.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 174 | 44280 | 112 |
 | [report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf](https://www.hamilton.ca/sites/default/files/2024-09/report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1904 | 2 |
 | [rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf](https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 703 | 3 |
+| [rymal-road-ea-pic1-panels-accessible.pdf](https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels-accessible.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 0 | 1696 | 0 |
+| [rymal-road-ea-pic1-panels.pdf](https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 0 | 1019 | 0 |
+| [rymalrdEA-pic2-evaluation-alternative-design-concepts.pdf](https://www.hamilton.ca/sites/default/files/2023-09/rymalrdEA-pic2-evaluation-alternative-design-concepts.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 4745 | 1 |
+| [rymalrdEA-pic2-preferred-design-set.pdf](https://www.hamilton.ca/sites/default/files/2023-09/rymalrdEA-pic2-preferred-design-set.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 17 | 3664 | 813 |
+| [strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf](https://www.hamilton.ca/sites/default/files/2025-08/strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 1852 | 7 |
+| [strategies-community-garden-directory-mar2025.pdf](https://www.hamilton.ca/sites/default/files/2025-03/strategies-community-garden-directory-mar2025.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 533 | 3 |
+| [strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4562 | 18 |
+| [strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf](https://www.hamilton.ca/sites/default/files/2024-11/strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 2764 | 11 |
+| [strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 1628 | 11 |
+| [strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf](https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 4179 | 0 |
+| [strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf](https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 1455 | 1 |
+| [strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf](https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1830 | 23 |
+| [strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf](https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 35 | 7786 | 40 |
+| [strategies_CSWB-Plan-2025-2029.pdf](https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 43 | 10458 | 64 |
+| [strategies_Connected-Communities-2-Page-Summary-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-2-Page-Summary-Report.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 480 | 2 |
+| [strategies_Connected-Communities-Full-Report-final.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 71 | 17639 | 64 |
+| [strategies_Connected-Communities-Summary-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 1995 | 14 |
+| [strategies_Summary-of-Assets-Final.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Summary-of-Assets-Final.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 497 | 0 |
+| [strategy-2023-HPS-Asset-Management-Plan.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategy-2023-HPS-Asset-Management-Plan.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 115 | 30723 | 230 |
+| [strategy-asset-management-plan-overview-jun2022.pdf](https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 155 | 25465 | 623 |
+| [strategy-childrens-community-services-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-childrens-community-services-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 101 | 21323 | 210 |
+| [strategy-cityhousing-hamilton-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 123 | 32364 | 353 |
+| [strategy-corp-real-estate-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-corp-real-estate-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 46 | 11823 | 135 |
+| [strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 84 | 22586 | 207 |
+| [strategy-corporate-asset-management-overview-appendix-b.pdf](https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-overview-appendix-b.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 12878 | 82 |
+| [strategy-corporate-asset-management-proposed-levels-service.pdf](https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-proposed-levels-service.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 476 | 91456 | 1342 |
+| [strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 97 | 26162 | 224 |
+| [strategy-fire-dept-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-fire-dept-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 116 | 31569 | 257 |
+| [strategy-forestry-horticulture-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 121 | 31061 | 273 |
+| [strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 129 | 34080 | 182 |
+| [strategy-hpl-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 119 | 30968 | 260 |
+| [strategy-hsr-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-hsr-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 81 | 22488 | 131 |
+| [strategy-information-technology-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 73 | 18815 | 190 |
+| [strategy-licensing-bylaw-services-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-licensing-bylaw-services-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 105 | 29101 | 223 |
+| [strategy-long-term-care-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 108 | 29363 | 266 |
+| [strategy-natural-assets-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-natural-assets-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 28 | 6594 | 34 |
+| [strategy-paramedics-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 122 | 26599 | 249 |
+| [strategy-parking-system-asset-plan-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategy-parking-system-asset-plan-2023.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 128 | 35039 | 271 |
+| [strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 153 | 42706 | 207 |
+| [strategy-public-health-services-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-public-health-services-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 72 | 19245 | 97 |
+| [strategy-recreation-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 123 | 31457 | 273 |
+| [strategy-tourism-and-culture-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-tourism-and-culture-asset-management-plan-2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 108 | 28420 | 247 |
+| [strategy-transportation-asset-management-plan-jun2022.pdf](https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 156 | 38194 | 408 |
+| [strategy-waste-management-asset-plan-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategy-waste-management-asset-plan-2023.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 114 | 30225 | 266 |
+| [strategy-waterworks-asset-management-plan-jun2022.pdf](https://www.hamilton.ca/sites/default/files/2022-12/strategy-waterworks-asset-management-plan-jun2022.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 232 | 58526 | 597 |
+| [tmp-aegd-notice-of-commencement-pic1.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-notice-of-commencement-pic1.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 432 | 4 |
+| [tmp-aegd-pic1-alternative-preferred.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative-preferred.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 215 | 127 |
+| [tmp-aegd-pic1-alternative1.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative1.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 136 | 127 |
+| [tmp-aegd-pic1-alternative2-cycling.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative2-cycling.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 203 | 127 |
+| [tmp-aegd-pic1-alternative2-evaluationtable.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative2-evaluationtable.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 2279 | 0 |
+| [tmp-aegd-pic1-alternative2.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative2.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 208 | 127 |
+| [tmp-aegd-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-presentation.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 24 | 1677 | 131 |
+| [tmp-ancaster-appendices.pdf](https://www.hamilton.ca/sites/default/files/2023-02/tmp-ancaster-appendices.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 210 | — | 107 |
+| [tmp-binbrook-village-appendices.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-binbrook-village-appendices.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 0 | 2603 | 0 |
+| [tmp-centennialneighbourhood-execsummary.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-execsummary.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 | 4231 | 5 |
+| [tmp-centennialneighbourhood-volume1.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-volume1.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 75 | 21626 | 55 |
+| [tmp-centennialneighbourhood-volume2.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-volume2.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 230 | 46893 | 11402 |
+| [truck-route-network-map.pdf](https://www.hamilton.ca/sites/default/files/2023-03/truck-route-network-map.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 0 | 40 |
+| [uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf](https://www.hamilton.ca/sites/default/files/2024-10/uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 509 | 2 |
+| [violence-workplace-prevention-policy.pdf](https://www.hamilton.ca/sites/default/files/2024-09/violence-workplace-prevention-policy.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2383 | 8 |
+| [07-170-consolidated-nov302023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/07-170-consolidated-nov302023.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 382 | 98660 | 8 |
+| [2025-spring-community-compost-giveaway-events-july292025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/2025-spring-community-compost-giveaway-events-july292025.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 784 | 2 |
+| [BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf](https://www.hamilton.ca/sites/default/files/2024-12/BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 18 | 4061 | 49 |
+| [Comms-Update-CityofHamiltonAAACreditRatingCityWide.pdf](https://www.hamilton.ca/sites/default/files/2022-10/Comms-Update-CityofHamiltonAAACreditRatingCityWide.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 262 | 1 |
+| [CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 553 | 2 |
+| [CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf](https://www.hamilton.ca/sites/default/files/2025-05/CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1203 | 2 |
+| [CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 687 | 2 |
+| [CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 644 | 2 |
+| [CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf](https://www.hamilton.ca/sites/default/files/2024-12/CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 821 | 4 |
+| [DetourRoutes_403Closure.pdf](https://www.hamilton.ca/sites/default/files/2022-09/DetourRoutes_403Closure.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 142 | 2 |
+| [Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf](https://www.hamilton.ca/sites/default/files/2025-09/Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf](https://www.hamilton.ca/sites/default/files/2024-12/PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 5307 | 19 |
+| [ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf](https://www.hamilton.ca/sites/default/files/2023-03/ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 395 | 1 |
+| [ainslie-wood-creek-ea-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-02/ainslie-wood-creek-ea-pic1-presentation.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 1858 | 41 |
+| [ainslie-wood-creek-ea-pic2-comment.pdf](https://www.hamilton.ca/sites/default/files/2023-12/ainslie-wood-creek-ea-pic2-comment.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 438 | 1 |
+| [ainslie-wood-creek-ea-pic2-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-12/ainslie-wood-creek-ea-pic2-presentation.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 14 | 3861 | 38 |
+| [better-homes-draft-by-law.pdf](https://www.hamilton.ca/sites/default/files/2023-11/better-homes-draft-by-law.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3608 | 0 |
+| [bicycle-blvds-feasibility-study-Jan2022.pdf](https://www.hamilton.ca/sites/default/files/2022-08/bicycle-blvds-feasibility-study-Jan2022.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 40 | 8847 | 37 |
+| [comm-update-Ancaster-Square-Life-Cycle-Improvements.pdf](https://www.hamilton.ca/sites/default/files/2025-04/comm-update-Ancaster-Square-Life-Cycle-Improvements.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 932 | 2 |
+| [comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1415 | 4 |
+| [comm-update-HSR-150-Celebrations.pdf](https://www.hamilton.ca/sites/default/files/2024-05/comm-update-HSR-150-Celebrations.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 592 | 2 |
+| [comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf](https://www.hamilton.ca/sites/default/files/2022-09/comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 901 | 2 |
+| [comm-update-HW2402-Annual-Drinking-Water-Report.pdf](https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 19 | 4718 | 5 |
+| [comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 894 | 2 |
+| [comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf](https://www.hamilton.ca/sites/default/files/2024-06/comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 509 | 2 |
+| [comm-update-Hamilton-Street-Railway-%28HSR%29-Alert-Dashboard-%28HSR2503%29.pdf](https://www.hamilton.ca/sites/default/files/2025-06/comm-update-Hamilton-Street-Railway-%28HSR%29-Alert-Dashboard-%28HSR2503%29.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 476 | 2 |
+| [comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf](https://www.hamilton.ca/sites/default/files/2025-08/comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1433 | 2 |
+| [comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf](https://www.hamilton.ca/sites/default/files/2024-05/comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 378 | 4 |
+| [comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf](https://www.hamilton.ca/sites/default/files/2024-07/comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 696 | 2 |
+| [comm-update-PW-HSR-150-apr2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-HSR-150-apr2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 260 | 2 |
+| [comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 470 | 3 |
+| [comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf](https://www.hamilton.ca/sites/default/files/2024-08/comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 716 | 3 |
+| [comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 630 | 2 |
+| [comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf](https://www.hamilton.ca/sites/default/files/2024-03/comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 782 | 5 |
+| [comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 647 | 2 |
+| [comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf](https://www.hamilton.ca/sites/default/files/2024-02/comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1595 | 8 |
+| [comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf](https://www.hamilton.ca/sites/default/files/2024-08/comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 781 | 4 |
+| [comm-update-pw-central-composting-facility-feb-2019.pdf](https://www.hamilton.ca/sites/default/files/2023-03/comm-update-pw-central-composting-facility-feb-2019.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 471 | 2 |
+| [comm-update-pw-delays-waste-collections-due-inclement-weather-staff-work-refusal-es-19002.pdf](https://www.hamilton.ca/sites/default/files/2023-03/comm-update-pw-delays-waste-collections-due-inclement-weather-staff-work-refusal-es-19002.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf](https://www.hamilton.ca/sites/default/files/2025-06/comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 1684 | 6 |
+| [comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 897 | 2 |
+| [cycling-accelerated-active-transportation-implementation-plan.pdf](https://www.hamilton.ca/sites/default/files/2024-03/cycling-accelerated-active-transportation-implementation-plan.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 32 | 10359 | 35 |
+| [election-accessibility-plan-2022.pdf](https://www.hamilton.ca/sites/default/files/2022-09/election-accessibility-plan-2022.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 21 | 3940 | 2 |
+| [fraud-waste-policy-protocol-2025.pdf](https://www.hamilton.ca/sites/default/files/2025-06/fraud-waste-policy-protocol-2025.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 3489 | 13 |
+| [masterplan-aegd-archaelogy-stage1report.pdf](https://www.hamilton.ca/sites/default/files/2022-11/masterplan-aegd-archaelogy-stage1report.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 19 | 0 | 19 |
+| [masterplan-aegd-eco-industrial-guidelines.pdf](https://www.hamilton.ca/sites/default/files/2022-11/masterplan-aegd-eco-industrial-guidelines.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 6976 | 52 |
+| [mediarelease-OSC-injunction-order-1802-RR-97-flamborough.pdf](https://www.hamilton.ca/sites/default/files/2023-01/mediarelease-OSC-injunction-order-1802-RR-97-flamborough.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 477 | 1 |
+| [medical-advisory-RSV-memo-long-term-care-retirement-homes-update-abrysvo-arexvy-sep292025.pdf](https://www.hamilton.ca/sites/default/files/2025-09/medical-advisory-RSV-memo-long-term-care-retirement-homes-update-abrysvo-arexvy-sep292025.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 634 | 4 |
+| [medical-advisory-update-abrysvo-arexvy-RSV-prevention-sep292025.pdf](https://www.hamilton.ca/sites/default/files/2025-09/medical-advisory-update-abrysvo-arexvy-RSV-prevention-sep292025.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 709 | 4 |
+| [pedpolicies-aegd-secplan-urban-design-guidelines.pdf](https://www.hamilton.ca/sites/default/files/2022-11/pedpolicies-aegd-secplan-urban-design-guidelines.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 50 | 9116 | 132 |
+| [textile-diversion-event-update-july312025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/textile-diversion-event-update-july312025.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 523 | 2 |
+| [tmp-ancaster.pdf](https://www.hamilton.ca/sites/default/files/2023-02/tmp-ancaster.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 218 | 54394 | 314 |
+| [tmp-binbrook-village.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-binbrook-village.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 0 | — | 0 |
+| [york-valley-road-ea-pic1-comments.pdf](https://www.hamilton.ca/sites/default/files/2022-08/york-valley-road-ea-pic1-comments.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 117 | 1 |
 
 ## Files with Errors or Notes
 
@@ -23784,3 +23898,693 @@ Generated: 2026-03-16T13:15:29.807832+00:00
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### rymal-ea-pic2-panels.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/rymal-ea-pic2-panels.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymal-ea-pic2-panels.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.389453+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymal-road-ea-pic1-panels-accessible.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels-accessible.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### rymal-road-ea-pic1-panels.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### rymalrd-ea-environmental-study-report-appendixE.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixE.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixE.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.429466+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrd-ea-environmental-study-report-appendixF.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixF.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixF.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.435746+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrd-ea-environmental-study-report-appendixG.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixG.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixG.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.497894+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrd-ea-environmental-study-report-appendixH.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixH.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixH.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.574957+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrd-ea-environmental-study-report-appendixI.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixI.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixI.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.582848+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrd-ea-environmental-study-report-appendixJ.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixJ.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixJ.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.589336+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrd-ea-environmental-study-report-appendixK.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixK.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixK.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.592253+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrd-ea-environmental-study-report-appendixL.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixL.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixL.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.623041+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrd-ea-environmental-study-report-appendixM.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixM.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixM.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.648425+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrd-ea-environmental-study-report-appendixN.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/rymalrd-ea-environmental-study-report-appendixN.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/rymalrd-ea-environmental-study-report-appendixN.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.651308+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymalrdEA-pic2-preferred-design-set.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/rymalrdEA-pic2-preferred-design-set.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### standing-water-by-law-03-173.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-01/standing-water-by-law-03-173.pdf
+- **Status**: error
+- File not found: crawled_files/hamilton.ca/standing-water-by-law-03-173.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.684203+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
+- **Status**: analysed
+- title, 
+
+### strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-11/strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
+- **Status**: analysed
+- title, lang, 
+
+### strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
+- **Status**: analysed
+- lang, 
+
+### strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### strategies_CSWB-Plan-2025-2029.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### strategies_Connected-Communities-2-Page-Summary-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-2-Page-Summary-Report.pdf
+- **Status**: analysed
+- title, 
+
+### strategies_Connected-Communities-Full-Report-final.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### strategies_Connected-Communities-Summary-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf
+- **Status**: analysed
+- title, 
+
+### strategy-2023-HPS-Asset-Management-Plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-2023-HPS-Asset-Management-Plan.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### strategy-asset-management-plan-overview-jun2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### strategy-childrens-community-services-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-childrens-community-services-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, 
+
+### strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### strategy-corp-real-estate-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-corp-real-estate-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, 
+
+### strategy-corporate-asset-management-proposed-levels-service.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-proposed-levels-service.pdf
+- **Status**: analysed
+- title, 
+
+### strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### strategy-fire-dept-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-fire-dept-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### strategy-forestry-horticulture-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### strategy-hpl-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### strategy-hsr-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hsr-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### strategy-information-technology-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, 
+
+### strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### strategy-long-term-care-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, 
+
+### strategy-natural-assets-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-natural-assets-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, 
+
+### strategy-paramedics-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, lang, 
+
+### strategy-parking-system-asset-plan-2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-parking-system-asset-plan-2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### strategy-public-health-services-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-public-health-services-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, 
+
+### strategy-recreation-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### strategy-tourism-and-culture-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-tourism-and-culture-asset-management-plan-2024.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### strategy-transportation-asset-management-plan-jun2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf
+- **Status**: analysed
+- title, lang, 
+
+### strategy-waste-management-asset-plan-2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-waste-management-asset-plan-2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### strategy-waterworks-asset-management-plan-jun2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-waterworks-asset-management-plan-jun2022.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### tmp-aegd-notice-of-commencement-pic1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-notice-of-commencement-pic1.pdf
+- **Status**: analysed
+- title, 
+
+### tmp-aegd-pic1-alternative-preferred.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative-preferred.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tmp-aegd-pic1-alternative1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tmp-aegd-pic1-alternative2-cycling.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative2-cycling.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tmp-aegd-pic1-alternative2-evaluationtable.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative2-evaluationtable.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tmp-aegd-pic1-alternative2.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative2.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tmp-aegd-pic1-presentation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-presentation.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### tmp-ancaster-appendices.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-02/tmp-ancaster-appendices.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tmp-binbrook-village-appendices.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-binbrook-village-appendices.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tmp-centennialneighbourhood-execsummary.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-execsummary.pdf
+- **Status**: analysed
+- title, 
+
+### tmp-centennialneighbourhood-volume1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-volume1.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### tmp-centennialneighbourhood-volume2.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-volume2.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### truck-route-network-map.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/truck-route-network-map.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-10/uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### violence-workplace-prevention-policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/violence-workplace-prevention-policy.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-spring-community-compost-giveaway-events-july292025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/2025-spring-community-compost-giveaway-events-july292025.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf
+- **Status**: analysed
+- lang, 
+
+### CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
+- **Status**: analysed
+- lang, 
+
+### CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
+- **Status**: analysed
+- lang, 
+
+### CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf
+- **Status**: analysed
+- lang, 
+
+### CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
+- **Status**: analysed
+- title, lang, 
+
+### DetourRoutes_403Closure.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/DetourRoutes_403Closure.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Final-Phase1-ESA-BarttonTiffany-Feb.8.2018.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/Final-Phase1-ESA-BarttonTiffany-Feb.8.2018.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-09/Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf
+- **Status**: analysed
+- title, 
+
+### ainslie-wood-creek-ea-pic1-presentation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-02/ainslie-wood-creek-ea-pic1-presentation.pdf
+- **Status**: analysed
+- title, 
+
+### ainslie-wood-creek-ea-pic2-comment.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/ainslie-wood-creek-ea-pic2-comment.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ainslie-wood-creek-ea-pic2-presentation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/ainslie-wood-creek-ea-pic2-presentation.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### better-homes-draft-by-law.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-11/better-homes-draft-by-law.pdf
+- **Status**: analysed
+- title, 
+
+### bicycle-blvds-feasibility-study-Jan2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bicycle-blvds-feasibility-study-Jan2022.pdf
+- **Status**: analysed
+- title, lang, 
+
+### comm-update-Ancaster-Square-Life-Cycle-Improvements.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/comm-update-Ancaster-Square-Life-Cycle-Improvements.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### comm-update-HSR-150-Celebrations.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-HSR-150-Celebrations.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
+- **Status**: analysed
+- title, lang, 
+
+### comm-update-HW2402-Annual-Drinking-Water-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-Hamilton-Street-Railway-%28HSR%29-Alert-Dashboard-%28HSR2503%29.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/comm-update-Hamilton-Street-Railway-%28HSR%29-Alert-Dashboard-%28HSR2503%29.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
+- **Status**: analysed
+- title, 
+
+### comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-07/comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-PW-HSR-150-apr2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-HSR-150-apr2024.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-08/comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-02/comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-08/comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf
+- **Status**: analysed
+- lang, 
+
+### comm-update-pw-central-composting-facility-feb-2019.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/comm-update-pw-central-composting-facility-feb-2019.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### comm-update-pw-delays-waste-collections-due-inclement-weather-staff-work-refusal-es-19002.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/comm-update-pw-delays-waste-collections-due-inclement-weather-staff-work-refusal-es-19002.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
+- **Status**: analysed
+- lang, 
+
+### comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cycling-accelerated-active-transportation-implementation-plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-03/cycling-accelerated-active-transportation-implementation-plan.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### election-accessibility-plan-2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/election-accessibility-plan-2022.pdf
+- **Status**: analysed
+- title, 
+
+### fraud-waste-policy-protocol-2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/fraud-waste-policy-protocol-2025.pdf
+- **Status**: analysed
+- lang, 
+
+### masterplan-aegd-archaelogy-stage1report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-11/masterplan-aegd-archaelogy-stage1report.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-aegd-eco-industrial-guidelines.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-11/masterplan-aegd-eco-industrial-guidelines.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### masterplan-cycling-2009.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-cycling-2009.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### mediarelease-OSC-injunction-order-1802-RR-97-flamborough.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-01/mediarelease-OSC-injunction-order-1802-RR-97-flamborough.pdf
+- **Status**: analysed
+- title, 
+
+### pedpolicies-aegd-secplan-urban-design-guidelines.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-11/pedpolicies-aegd-secplan-urban-design-guidelines.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### textile-diversion-event-update-july312025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/textile-diversion-event-update-july312025.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### tmp-ancaster.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-02/tmp-ancaster.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### tmp-binbrook-village.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-binbrook-village.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
