@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-16T20:13:52.026852+00:00",
+    "site": "bixal.com",
+    "crawl_url": "https://bixal.com",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23163778890",
+    "issue_url": "",
+    "archive_file": "2026-03-16_20-13-52-026_bixal.com.html",
+    "total": 2,
+    "analysed": 2,
+    "accessible": 2
+  },
+  {
     "date": "2026-03-16T17:12:25.251691+00:00",
     "site": "pa.gov",
     "crawl_url": "https://www.pa.gov/",

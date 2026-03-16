@@ -1,17 +1,17 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-16T17:12:25.251691+00:00
+Generated: 2026-03-16T20:13:52.026852+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 284 |
-| Total files tracked | 15286 |
-| Analysed | 3557 |
-| Pending analysis | 10315 |
-| Errors during analysis | 1414 |
-| Accessible | 1210 |
+| URLs crawled | 135 |
+| Total files tracked | 15535 |
+| Analysed | 3559 |
+| Pending analysis | 10563 |
+| Errors during analysis | 1413 |
+| Accessible | 1212 |
 | Totally inaccessible | 55 |
 | Broken / unreadable | 3 |
 | Exempt (pre-2018) | 744 |
@@ -24,6 +24,7 @@ Generated: 2026-03-16T17:12:25.251691+00:00
 | akzent.lu | 3 |
 | apps.deed.state.mn.us | 1 |
 | archscan.com | 9 |
+| bixal.com | 2 |
 | ble.de | 268 |
 | calgary.ca | 165 |
 | canada.ca | 496 |
@@ -42,7 +43,7 @@ Generated: 2026-03-16T17:12:25.251691+00:00
 | lasv.brandenburg.de | 260 |
 | mn.gov | 1397 |
 | njfamilycare.dhs.state.nj.us | 180 |
-| nsf.gov | 1179 |
+| nsf.gov | 1426 |
 | ontario.ca | 51 |
 | oregon.gov | 1968 |
 | pa.gov | 212 |
@@ -3616,6 +3617,8 @@ Generated: 2026-03-16T17:12:25.251691+00:00
 | [uc-855.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-855.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 219 | 0 |
 | [uc-employer-quick-guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-employer-quick-guide.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 607 | 16 |
 | [ucms%20-%20how%20to%20register%20online%20tpa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucms%20-%20how%20to%20register%20online%20tpa.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 651 | 23 |
+| [Bixal_Transforming_Govt_CX.pdf](https://www.bixal.com/sites/default/files/2024-06/Bixal_Transforming_Govt_CX.pdf) | bixal.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 5028 | 1 |
+| [data-maturity-checklist.pdf](https://www.bixal.com/sites/default/files/2024-06/data-maturity-checklist.pdf) | bixal.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 425 | 0 |
 
 ## Files with Errors or Notes
 
@@ -13248,12 +13251,6 @@ Generated: 2026-03-16T17:12:25.251691+00:00
 - **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/grantsgovguide607.pdf?VersionId=DoqBPFn6OVhp6ApOGBjmjWjgH3uNJ5ub
 - **Status**: error
 - File not found: crawled_files/nsf.gov/grantsgovguide607.pdf?VersionId=DoqBPFn6OVhp6ApOGBjmjWjgH3uNJ5ub (crawled 1 day(s) ago at 2026-03-10T01:18:25.297008+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### indirect-cost-proposals
-
-- **URL**: https://www.nsf.gov/awards/indirect-cost-proposals
-- **Status**: error
-- File not found: crawled_files/nsf.gov/indirect-cost-proposals (crawled 1 day(s) ago at 2026-03-10T01:18:25.297414+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### indirect-cost-rate-adjustments.pdf
 
