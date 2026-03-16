@@ -408,7 +408,57 @@ _HTML_TEMPLATE = """\
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="PDF Accessibility Scan Results" />
   <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {{
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    }})();
+  </script>
   <style>
+    /* ---- colour tokens ---- */
+    :root {{
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }}
+
+    @media (prefers-color-scheme: dark) {{
+      :root:not([data-theme="light"]) {{
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }}
+    }}
+
+    [data-theme="dark"] {{
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }}
+
     *, *::before, *::after {{ box-sizing: border-box; }}
 
     body {{
@@ -416,18 +466,36 @@ _HTML_TEMPLATE = """\
       max-width: 1000px;
       margin: 0 auto;
       padding: 2rem 1rem;
-      color: #1a1a2e;
-      background: #f8f9fa;
+      color: var(--color-fg);
+      background: var(--color-bg);
     }}
 
-    nav {{ margin-bottom: 1.5rem; }}
-    nav a {{ color: #0d6efd; text-decoration: none; }}
+    nav {{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }}
+    nav a {{ color: var(--color-link); text-decoration: none; }}
     nav a:hover {{ text-decoration: underline; }}
 
-    h1 {{ color: #0d6efd; }}
+    .theme-toggle {{
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }}
+    .theme-toggle:hover {{ background: var(--color-th-bg); }}
+
+    h1 {{ color: var(--color-link); }}
     h2 {{ margin-top: 2rem; }}
 
-    #generated-at {{ font-size: 0.85rem; color: #6c757d; margin-top: -0.5rem; }}
+    #generated-at {{ font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }}
 
     .stats-grid {{
       display: grid;
@@ -436,8 +504,8 @@ _HTML_TEMPLATE = """\
       margin: 1.5rem 0;
     }}
     .stat-card {{
-      background: #fff;
-      border: 1px solid #dee2e6;
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
       border-radius: 0.375rem;
       padding: 1rem;
       text-align: center;
@@ -445,49 +513,52 @@ _HTML_TEMPLATE = """\
     .stat-card .value {{
       font-size: 2rem;
       font-weight: 700;
-      color: #0d6efd;
+      color: var(--color-link);
       line-height: 1.1;
     }}
-    .stat-card .label {{ font-size: 0.8rem; color: #6c757d; margin-top: 0.25rem; }}
+    .stat-card .label {{ font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }}
 
     table {{ width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }}
     th {{
-      background: #e9ecef;
+      background: var(--color-th-bg);
       padding: 0.5rem 0.75rem;
       text-align: left;
-      border-bottom: 2px solid #dee2e6;
+      border-bottom: 2px solid var(--color-border);
     }}
-    td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: top; }}
+    td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }}
     tr:last-child td {{ border-bottom: none; }}
-    tr:nth-child(even) td {{ background: #f8f9fa; }}
+    tr:nth-child(even) td {{ background: var(--color-row-stripe); }}
 
-    .pass {{ color: #198754; }}
-    .fail {{ color: #dc3545; }}
-    .na   {{ color: #6c757d; }}
+    .pass {{ color: var(--color-pass); }}
+    .fail {{ color: var(--color-fail); }}
+    .na   {{ color: var(--color-muted); }}
 
-    a {{ color: #0d6efd; }}
+    a {{ color: var(--color-link); }}
 
     .empty-state {{
-      background: #fff;
-      border: 1px solid #dee2e6;
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
       border-radius: 0.375rem;
       padding: 2rem;
       text-align: center;
-      color: #6c757d;
+      color: var(--color-muted);
     }}
 
     footer {{
       margin-top: 3rem;
       font-size: 0.8rem;
-      color: #6c757d;
-      border-top: 1px solid #dee2e6;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
       padding-top: 1rem;
     }}
   </style>
 </head>
 <body>
 
-  <nav><a href="{back_url}">&#8592; {back_label}</a></nav>
+  <nav>
+    <a href="{back_url}">&#8592; {back_label}</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
 
   <h1>&#128202; PDF Accessibility Scan Results</h1>
   <p id="generated-at"></p>
@@ -612,6 +683,35 @@ _HTML_TEMPLATE = """\
     </p>
   </footer>
 
+  <script>
+    (function () {{
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {{
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {{
+          btn.textContent = '\u2600\uFE0F';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        }} else {{
+          btn.textContent = '\U0001F319';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }}
+      }}
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {{
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      }});
+    }})();
+  </script>
+
 </body>
 </html>
 """
@@ -650,7 +750,78 @@ _REPORTS_INDEX_TEMPLATE = """\
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="PDF Accessibility Scan Reports" />
   <meta name="twitter:description" content="Historical record of all PDF accessibility scans run by the PDF Accessibility Crawler." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {{
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    }})();
+  </script>
   <style>
+    /* ---- colour tokens ---- */
+    :root {{
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-input-border: #ced4da;
+      --color-input-bg:     #fff;
+      --color-bar-track:    #dee2e6;
+      --color-bar-high:     #198754;
+      --color-bar-medium:   #fd7e14;
+      --color-bar-low:      #dc3545;
+      --color-error-bg:     #fff5f5;
+      --color-error-border: #f5c2c7;
+      --color-error-fg:     #842029;
+    }}
+
+    @media (prefers-color-scheme: dark) {{
+      :root:not([data-theme="light"]) {{
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-input-border: #30363d;
+        --color-input-bg:     #0d1117;
+        --color-bar-track:    #30363d;
+        --color-bar-high:     #3fb950;
+        --color-bar-medium:   #e3b341;
+        --color-bar-low:      #f85149;
+        --color-error-bg:     #2c0b0e;
+        --color-error-border: #842029;
+        --color-error-fg:     #f1aeb5;
+      }}
+    }}
+
+    [data-theme="dark"] {{
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-input-border: #30363d;
+      --color-input-bg:     #0d1117;
+      --color-bar-track:    #30363d;
+      --color-bar-high:     #3fb950;
+      --color-bar-medium:   #e3b341;
+      --color-bar-low:      #f85149;
+      --color-error-bg:     #2c0b0e;
+      --color-error-border: #842029;
+      --color-error-fg:     #f1aeb5;
+    }}
+
     *, *::before, *::after {{ box-sizing: border-box; }}
 
     body {{
@@ -658,15 +829,33 @@ _REPORTS_INDEX_TEMPLATE = """\
       max-width: 1100px;
       margin: 0 auto;
       padding: 2rem 1rem;
-      color: #1a1a2e;
-      background: #f8f9fa;
+      color: var(--color-fg);
+      background: var(--color-bg);
     }}
 
-    nav {{ margin-bottom: 1.5rem; }}
-    nav a {{ color: #0d6efd; text-decoration: none; }}
+    nav {{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }}
+    nav a {{ color: var(--color-link); text-decoration: none; }}
     nav a:hover {{ text-decoration: underline; }}
 
-    h1 {{ color: #0d6efd; margin-bottom: 0.5rem; }}
+    .theme-toggle {{
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }}
+    .theme-toggle:hover {{ background: var(--color-th-bg); }}
+
+    h1 {{ color: var(--color-link); margin-bottom: 0.5rem; }}
 
     .summary-bar {{
       display: flex;
@@ -675,15 +864,15 @@ _REPORTS_INDEX_TEMPLATE = """\
       margin: 1rem 0 1.5rem;
     }}
     .summary-card {{
-      background: #fff;
-      border: 1px solid #dee2e6;
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
       border-radius: 0.375rem;
       padding: 0.75rem 1.25rem;
       min-width: 120px;
       text-align: center;
     }}
-    .summary-card .value {{ font-size: 1.6rem; font-weight: 700; color: #0d6efd; }}
-    .summary-card .label {{ font-size: 0.8rem; color: #6c757d; margin-top: 0.2rem; }}
+    .summary-card .value {{ font-size: 1.6rem; font-weight: 700; color: var(--color-link); }}
+    .summary-card .label {{ font-size: 0.8rem; color: var(--color-muted); margin-top: 0.2rem; }}
 
     .filter-bar {{
       display: flex;
@@ -695,27 +884,29 @@ _REPORTS_INDEX_TEMPLATE = """\
     .filter-bar label {{ font-weight: 600; white-space: nowrap; }}
     .filter-bar input[type="search"] {{
       padding: 0.4rem 0.75rem;
-      border: 1px solid #ced4da;
+      border: 1px solid var(--color-input-border);
       border-radius: 0.375rem;
       font-size: 0.95rem;
       width: 260px;
       max-width: 100%;
+      background: var(--color-input-bg);
+      color: var(--color-fg);
     }}
-    .filter-count {{ font-size: 0.85rem; color: #6c757d; }}
+    .filter-count {{ font-size: 0.85rem; color: var(--color-muted); }}
 
     table {{ width: 100%; border-collapse: collapse; margin: 0.5rem 0; font-size: 0.9rem; }}
     th {{
-      background: #e9ecef;
+      background: var(--color-th-bg);
       padding: 0.5rem 0.75rem;
       text-align: left;
-      border-bottom: 2px solid #dee2e6;
+      border-bottom: 2px solid var(--color-border);
       white-space: nowrap;
     }}
-    td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid #dee2e6; vertical-align: middle; }}
+    td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: middle; }}
     tr:last-child td {{ border-bottom: none; }}
-    tr:nth-child(even) td {{ background: #f8f9fa; }}
+    tr:nth-child(even) td {{ background: var(--color-row-stripe); }}
 
-    a {{ color: #0d6efd; }}
+    a {{ color: var(--color-link); }}
 
     .pct-bar {{
       display: flex;
@@ -726,7 +917,7 @@ _REPORTS_INDEX_TEMPLATE = """\
     .pct-bar-track {{
       flex: 1;
       height: 8px;
-      background: #dee2e6;
+      background: var(--color-bar-track);
       border-radius: 4px;
       overflow: hidden;
     }}
@@ -734,33 +925,36 @@ _REPORTS_INDEX_TEMPLATE = """\
       height: 100%;
       border-radius: 4px;
     }}
-    .pct-bar-fill.high   {{ background: #198754; }}
-    .pct-bar-fill.medium {{ background: #fd7e14; }}
-    .pct-bar-fill.low    {{ background: #dc3545; }}
+    .pct-bar-fill.high   {{ background: var(--color-bar-high); }}
+    .pct-bar-fill.medium {{ background: var(--color-bar-medium); }}
+    .pct-bar-fill.low    {{ background: var(--color-bar-low); }}
     .pct-label {{ font-size: 0.8rem; white-space: nowrap; }}
 
     .empty-state, .error-state, .loading-state {{
-      background: #fff;
-      border: 1px solid #dee2e6;
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
       border-radius: 0.375rem;
       padding: 2rem;
       text-align: center;
-      color: #6c757d;
+      color: var(--color-muted);
     }}
-    .error-state {{ border-color: #f5c2c7; color: #842029; background: #fff5f5; }}
+    .error-state {{ border-color: var(--color-error-border); color: var(--color-error-fg); background: var(--color-error-bg); }}
 
     footer {{
       margin-top: 3rem;
       font-size: 0.8rem;
-      color: #6c757d;
-      border-top: 1px solid #dee2e6;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
       padding-top: 1rem;
     }}
   </style>
 </head>
 <body>
 
-  <nav><a href="./">&#8592; Back to submission form</a></nav>
+  <nav>
+    <a href="./">&#8592; Back to submission form</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
 
   <h1>&#128202; PDF Accessibility Scan Reports</h1>
   <p>Historical record of all PDF accessibility scans run by this tool.</p>
@@ -925,6 +1119,35 @@ _REPORTS_INDEX_TEMPLATE = """\
       MIT licence.
     </p>
   </footer>
+
+  <script>
+    (function () {{
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {{
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {{
+          btn.textContent = '\u2600\uFE0F';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        }} else {{
+          btn.textContent = '\U0001F319';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }}
+      }}
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {{
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      }});
+    }})();
+  </script>
 
 </body>
 </html>

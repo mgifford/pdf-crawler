@@ -894,3 +894,87 @@ def test_issue_comment_words_images_none_shows_dash():
         run_url="",
     )
     assert "—" in comment
+
+
+# ---------------------------------------------------------------------------
+# Dark / light mode support
+# ---------------------------------------------------------------------------
+
+def test_generate_html_has_dark_mode_css_variables():
+    """HTML report must declare CSS custom properties for theming."""
+    html = generate_html([], _summary_stats([]))
+    assert "--color-bg" in html
+    assert "--color-fg" in html
+    assert "--color-link" in html
+
+
+def test_generate_html_has_prefers_color_scheme_dark():
+    """HTML report must include a dark-mode media query."""
+    html = generate_html([], _summary_stats([]))
+    assert "prefers-color-scheme: dark" in html
+
+
+def test_generate_html_has_data_theme_dark_override():
+    """HTML report must have a [data-theme=\"dark\"] CSS block for manual override."""
+    html = generate_html([], _summary_stats([]))
+    assert '[data-theme="dark"]' in html
+
+
+def test_generate_html_has_theme_toggle_button():
+    """HTML report must contain a theme-toggle button with aria-label."""
+    html = generate_html([], _summary_stats([]))
+    assert 'id="theme-toggle"' in html
+    assert 'aria-label' in html
+
+
+def test_generate_html_has_anti_fouc_script():
+    """HTML report must include an inline script in <head> to prevent flash of unstyled content."""
+    html = generate_html([], _summary_stats([]))
+    head = html.split("</head>")[0]
+    assert "localStorage.getItem('theme')" in head
+
+
+def test_generate_html_has_color_scheme_meta():
+    """HTML report must declare color-scheme: light dark on :root."""
+    html = generate_html([], _summary_stats([]))
+    assert "color-scheme: light dark" in html
+
+
+def test_generate_reports_index_html_has_dark_mode_css_variables():
+    """Reports index must declare CSS custom properties for theming."""
+    html = generate_reports_index_html([])
+    assert "--color-bg" in html
+    assert "--color-fg" in html
+    assert "--color-link" in html
+
+
+def test_generate_reports_index_html_has_prefers_color_scheme_dark():
+    """Reports index must include a dark-mode media query."""
+    html = generate_reports_index_html([])
+    assert "prefers-color-scheme: dark" in html
+
+
+def test_generate_reports_index_html_has_data_theme_dark_override():
+    """Reports index must have a [data-theme=\"dark\"] CSS block for manual override."""
+    html = generate_reports_index_html([])
+    assert '[data-theme="dark"]' in html
+
+
+def test_generate_reports_index_html_has_theme_toggle_button():
+    """Reports index must contain a theme-toggle button with aria-label."""
+    html = generate_reports_index_html([])
+    assert 'id="theme-toggle"' in html
+    assert 'aria-label' in html
+
+
+def test_generate_reports_index_html_has_anti_fouc_script():
+    """Reports index must include an inline script in <head> to prevent FOUC."""
+    html = generate_reports_index_html([])
+    head = html.split("</head>")[0]
+    assert "localStorage.getItem('theme')" in head
+
+
+def test_generate_reports_index_html_has_color_scheme_meta():
+    """Reports index must declare color-scheme: light dark on :root."""
+    html = generate_reports_index_html([])
+    assert "color-scheme: light dark" in html
