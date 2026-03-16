@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-16T20:13:52.026852+00:00
+Generated: 2026-03-16T21:51:20.570026+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 135 |
+| URLs crawled | 22 |
 | Total files tracked | 15535 |
 | Analysed | 3559 |
-| Pending analysis | 10563 |
-| Errors during analysis | 1413 |
+| Pending analysis | 10551 |
+| Errors during analysis | 1425 |
 | Accessible | 1212 |
 | Totally inaccessible | 55 |
 | Broken / unreadable | 3 |
@@ -26193,3 +26193,75 @@ Generated: 2026-03-16T20:13:52.026852+00:00
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucms%20-%20how%20to%20register%20online%20tpa.pdf
 - **Status**: analysed
 - title, 
+
+### ucms%20-%20how%20to%20register%20online%20user.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucms%20-%20how%20to%20register%20online%20user.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/ucms%20-%20how%20to%20register%20online%20user.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.938161+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ucms%20how%20to%20file%20a%20quarterly%20report%20online%20(2).pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucts/ucms%20how%20to%20file%20a%20quarterly%20report%20online%20(2).pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/ucms%20how%20to%20file%20a%20quarterly%20report%20online%20(2).pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.940934+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ucms-associating-tpa-representative-for-employer-account.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucts/ucms-associating-tpa-representative-for-employer-account.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/ucms-associating-tpa-representative-for-employer-account.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.943436+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ucp-1083.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucp-forms/ucp-1083.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/ucp-1083.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.944976+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ucp-35.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucp-forms/ucp-35.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/ucp-35.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.946273+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### use_tax_pa40_instructions.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxtypes/sut/usetax/documents/use_tax_pa40_instructions.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/use_tax_pa40_instructions.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.947366+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### virtual%20nhios%20town%20hall%20flyer.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/virtual%20nhios%20town%20hall%20flyer.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/virtual%20nhios%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.959393+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### waiver_of_confidentiality_form.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/waiver_of_confidentiality_form.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/waiver_of_confidentiality_form.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.961757+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### washington%20county%20nhios%20town%20hall%20flyer%20(1).pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/washington%20county%20nhios%20town%20hall%20flyer%20(1).pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/washington%20county%20nhios%20town%20hall%20flyer%20(1).pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.967767+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### washington%20county%20town%20hall%20flyer.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2024/washington%20county%20town%20hall%20flyer.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/washington%20county%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.972194+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wawa%2060th%20anniversary%20pdf.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/wawa%2060th%20anniversary%20pdf.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/wawa%2060th%20anniversary%20pdf.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.973956+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### york%20nhios%20town%20hall%20flyer.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/york%20nhios%20town%20hall%20flyer.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/york%20nhios%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.978353+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
