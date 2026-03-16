@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-16T16:11:58.049376+00:00
+Generated: 2026-03-16T17:12:25.251691+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 337 |
-| Total files tracked | 15074 |
-| Analysed | 3357 |
-| Pending analysis | 10303 |
+| URLs crawled | 284 |
+| Total files tracked | 15286 |
+| Analysed | 3557 |
+| Pending analysis | 10315 |
 | Errors during analysis | 1414 |
-| Accessible | 1163 |
-| Totally inaccessible | 54 |
+| Accessible | 1210 |
+| Totally inaccessible | 55 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 695 |
+| Exempt (pre-2018) | 744 |
 
 ## Files per Site
 
@@ -45,6 +45,7 @@ Generated: 2026-03-16T16:11:58.049376+00:00
 | nsf.gov | 1179 |
 | ontario.ca | 51 |
 | oregon.gov | 1968 |
+| pa.gov | 212 |
 | projects.accesscomputing.uw.edu | 3 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
@@ -3415,6 +3416,206 @@ Generated: 2026-03-16T16:11:58.049376+00:00
 | [statute_creating_the_commission.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/statute_creating_the_commission.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 | 4292 | 0 |
 | [wbj_cab_tackles_backlog.pdf](https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/wbj_cab_tackles_backlog.pdf) | dc.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 17 |
 | [webpage%20%20Open%20Government%20Report%20%20October%202014.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/webpage%20%20Open%20Government%20Report%20%20October%202014.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 994 | 0 |
+| [15-dgs-fy-2023-budget-hearing-request.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/documents/appropriations-budgetary-submissions/15-dgs-fy-2023-budget-hearing-request.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 61 | 9884 | 3 |
+| [2016-20_dor_strategic_plan.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2016-20_dor_strategic_plan.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 28 | 4872 | 56 |
+| [2016-20_dor_strategic_plan_update.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2016-20_dor_strategic_plan_update.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 2655 | 65 |
+| [2017%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2017%20BIPS%20Annual%20Report.pdf) | pa.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 18 | 0 | 18 |
+| [2018%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2018%20BIPS%20Annual%20Report.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 2829 | 0 |
+| [2021-25_dor_strategic_keystone.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2021-25_dor_strategic_keystone.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 142 | 1 |
+| [2021-25_dor_strategic_plan.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2021-25_dor_strategic_plan.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 1842 | 17 |
+| [2021-25_dor_strategic_plan_achievements.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2021-25_dor_strategic_plan_achievements.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 1551 | 6 |
+| [2024-my-2023-odp-annual-technical-report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/acap/2024-my-2023-odp-annual-technical-report.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 38 | 16357 | 36 |
+| [2024_utilization_report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/2024_utilization_report.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 5308 | 0 |
+| [2025%20drap%20guidelines.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/2025%20drap%20guidelines.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 3848 | 3 |
+| [2025-26-penndot-winter-fact-sheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/2025-26-penndot-winter-fact-sheet.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 434 | 2 |
+| [2025_pa-1000_inst_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000_inst_span.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 31 | 23223 | 9 |
+| [2025_pa-1000_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000_span.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 1947 | 0 |
+| [2025_pa-1000a_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000a_span.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 979 | 0 |
+| [2025_pa-1000b-d-e_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000b-d-e_span.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 916 | 0 |
+| [2025_pa-1000f-g_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000f-g_span.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 721 | 0 |
+| [2025_pa-1000ps_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000ps_span.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 333 | 0 |
+| [2025_pa-1000rc_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000rc_span.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 856 | 0 |
+| [2026-01-28-obra-appendix-i.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/contact/dhs-offices/documents/oltl/oltl-waivers/2026-chc-waiver/2026-obra-waiver-/2026-01-28-obra-appendix-i.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 7055 | 1 |
+| [2026-01-28-obra-appendix-j.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/contact/dhs-offices/documents/oltl/oltl-waivers/2026-chc-waiver/2026-obra-waiver-/2026-01-28-obra-appendix-j.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 5319 | 0 |
+| [2026-01-28-obra-performance-measures.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/contact/dhs-offices/documents/oltl/oltl-waivers/2026-chc-waiver/2026-obra-waiver-/2026-01-28-obra-performance-measures.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 61 | 16773 | 0 |
+| [2026-30_dor_strategic_plan.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2026-30_dor_strategic_plan.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 1766 | 13 |
+| [2026_pride_workshop.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/homelandsecurity/documents/events26/2026_pride_workshop.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 184 | 1 |
+| [205_24.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/205_24.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 928 | 19 |
+| [210_1.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/210_1.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3166 | 2 |
+| [44fr_explanation.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/44fr_explanation.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 442 | 0 |
+| [Advocate%20Letter%20Template.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Advocate%20Letter%20Template.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 221 | 0 |
+| [Ambassador%20Program%20Application%20Fillable%20PDF.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/Ambassador%20Program%20Application%20Fillable%20PDF.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 307 | 1 |
+| [CVSD_Safety_Presentation_Request.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CVSD_Safety_Presentation_Request.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 415 | 2 |
+| [Community%20Living%20Waiver%207.9.2020.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver%207.9.2020.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 400 | 141408 | 0 |
+| [Community%20Living%20Waiver%20Amendment%20Effective%20January%201,%202019%20(c_285798).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver%20Amendment%20Effective%20January%201,%202019%20(c_285798).pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 263 | 130705 | 10 |
+| [Community%20Living%20Waiver%20Amendment%20Effective%20November%201,%202018%20(c_282391).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver%20Amendment%20Effective%20November%201,%202018%20(c_282391).pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 293 | 131561 | 0 |
+| [Community%20Living%20Waiver%20Amendment%20Effective%20October%201,%202019%20(c_291816).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver%20Amendment%20Effective%20October%201,%202019%20(c_291816).pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 405 | 145422 | 0 |
+| [Community%20Living%20Waiver,%20Effective%20January%201,%202018%20(c_268684).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver,%20Effective%20January%201,%202018%20(c_268684).pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 317 | 134855 | 0 |
+| [Disability%20Info%20Release%20for%20Public%20Accommodations.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/public-accommodations/Disability%20Info%20Release%20for%20Public%20Accommodations.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 319 | 0 |
+| [Executive%20Summary%20of%20the%20Final%20Report%20of%20the%20Autism%20Task%20Force.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/autism-services/Executive%20Summary%20of%20the%20Final%20Report%20of%20the%20Autism%20Task%20Force.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 5388 | 0 |
+| [Explanation%20of%20SGOC%20Schedules.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Explanation%20of%20SGOC%20Schedules.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1118 | 1 |
+| [Explanation%20of%20Tavern%20Gaming%20Schedules.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Explanation%20of%20Tavern%20Gaming%20Schedules.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 459 | 1 |
+| [HAVA-Violations-Title-III-Complaint-Form-English.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/vote/resources/documents-and-forms/HAVA-Violations-Title-III-Complaint-Form-English.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 904 | 1 |
+| [LEOT%20Essential%20Job%20Functions.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Essential%20Job%20Functions.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 462 | 2 |
+| [LEOT%20Medical%20Information%2020210305.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Medical%20Information%2020210305.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 448 | 1 |
+| [LEOT%20Personal%20Appearance.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Personal%20Appearance.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 783 | 1 |
+| [No%20Hate%20in%20Our%20State%20Townhall%20Flyer.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2024/No%20Hate%20in%20Our%20State%20Townhall%20Flyer.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 211 | 9 |
+| [PA-600-L-S-AS-5-20-Final.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/benefits-applications/PA-600-L-S-AS-5-20-Final.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 7854 | 4 |
+| [PSP%20Cadet%20and%20LEOT%20Written%20Examination%20Prep%20Guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/PSP%20Cadet%20and%20LEOT%20Written%20Examination%20Prep%20Guide.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 40 | 17500 | 3 |
+| [Pennsylvania%20Autism%20Census%20Project%20Final%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/autism-services/Pennsylvania%20Autism%20Census%20Project%20Final%20Report.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 19 | 4749 | 4 |
+| [Pennsylvania_State_Police_LEOT_Training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Pennsylvania_State_Police_LEOT_Training.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 497 | 1 |
+| [Record%20of%20Change%20Approved%20IDA%20Waivers%20Effective%20November%202021.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Record%20of%20Change%20Approved%20IDA%20Waivers%20Effective%20November%202021.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 7316 | 0 |
+| [SGOC%20-%20Public%20-%20Tavern%20Games-bars%201.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/SGOC%20-%20Public%20-%20Tavern%20Games-bars%201.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 40 | 1797 | 25 |
+| [SGOC%20-%20Public-%20Eligable%20Organizations-clubs.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/SGOC%20-%20Public-%20Eligable%20Organizations-clubs.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 148 | 7391 | 86 |
+| [Schedule%201%20-%20SGOC%20Annual%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%201%20-%20SGOC%20Annual%20Operating%20Record.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 89 | 1 |
+| [Schedule%202%20-%20SGOC%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202%20-%20SGOC%20Weekly%20Operating%20Record.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 96 | 1 |
+| [Schedule%202A%20-%20Pull-Tab%20and%20Punchboard%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202A%20-%20Pull-Tab%20and%20Punchboard%20Weekly%20Operating%20Record.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 77 | 1 |
+| [Schedule%202B%20-%20Regular%20Raffle-Special%20Raffle.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202B%20-%20Regular%20Raffle-Special%20Raffle.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 123 | 1 |
+| [Schedule%202C%20-%20Daily-Weekly%20Drawings.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202C%20-%20Daily-Weekly%20Drawings.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 108 | 1 |
+| [Schedule%202D%20%2050-50%20Drawing%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202D%20%2050-50%20Drawing%20Weekly%20Operating%20Record.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 73 | 1 |
+| [Schedule%202E%20-%20Pool%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202E%20-%20Pool%20Weekly%20Operating%20Record.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 50 | 1 |
+| [Schedule%203%20-%20%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%203%20-%20%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 51 | 1 |
+| [Schedule%204%20-%20SGOC%20Use%20of%20Proceeds-60%20Percent.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%204%20-%20SGOC%20Use%20of%20Proceeds-60%20Percent.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 56 | 1 |
+| [Schedule%204A%20-%20SGOC%20Use%20of%20Proceeds-40%20Percent.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%204A%20-%20SGOC%20Use%20of%20Proceeds-40%20Percent.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 76 | 1 |
+| [Schedule%205%20-%20Pull-Tab%20and%20Punchboard%20Games%20Worksheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%205%20-%20Pull-Tab%20and%20Punchboard%20Games%20Worksheet.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 109 | 1 |
+| [Schedule%206%20%2050-50%20Drawings.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%206%20%2050-50%20Drawings.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 71 | 1 |
+| [Schedule%207%20-%20Pools.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%207%20-%20Pools.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 57 | 1 |
+| [Schedule%208%20-%20Race%20Night%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%208%20-%20Race%20Night%20Record.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 114 | 1 |
+| [Schedule%20T1%20-%20Tavern%20Gaming%20Annual%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T1%20-%20Tavern%20Gaming%20Annual%20Operating%20Record.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 82 | 1 |
+| [Schedule%20T1-A%20-%20Tavern%20Gaming%20Quarterly%20Return%20Worksheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T1-A%20-%20Tavern%20Gaming%20Quarterly%20Return%20Worksheet.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 86 | 1 |
+| [Schedule%20T2%20-%20Tavern%20Gaming%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T2%20-%20Tavern%20Gaming%20Weekly%20Operating%20Record.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 144 | 1 |
+| [Schedule%20T3%20-%20Tavern%20Gaming%20Daily%20Drawings.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T3%20-%20Tavern%20Gaming%20Daily%20Drawings.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 96 | 1 |
+| [Schedule%20T4%20-%20Tavern%20Gaming%20Pull-Tab%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T4%20-%20Tavern%20Gaming%20Pull-Tab%20Weekly%20Operating%20Record.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 61 | 1 |
+| [Schedule%20T4-A%20%20Tavern%20Gaming%20Pull-Tab%20Worksheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T4-A%20%20Tavern%20Gaming%20Pull-Tab%20Worksheet.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 70 | 1 |
+| [Schedule%20T5%20-%20Tavern%20Raffles.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T5%20-%20Tavern%20Raffles.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 176 | 1 |
+| [Schedule%20T6%20-%20%20Tavern%20Gaming%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T6%20-%20%20Tavern%20Gaming%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 59 | 1 |
+| [Sexual%20Harassment%20Symposium%20Flyer%20with%20keynote%20.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/other/2023/Sexual%20Harassment%20Symposium%20Flyer%20with%20keynote%20.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 57 | 5 |
+| [Side-By-Side%20of%20Substantive%20Changes%20Made%20to%20the%20waivers%20(c_291277).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Side-By-Side%20of%20Substantive%20Changes%20Made%20to%20the%20waivers%20(c_291277).pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 25 | 12682 | 0 |
+| [ada_grievance_procedure.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/ada_grievance_procedure.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 765 | 1 |
+| [address_directory.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/contactus/documents/address_directory.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 605 | 1 |
+| [after-the-disaster.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/resources/guides/after-the-disaster.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 20 | 1122 | 38 |
+| [appeal-process-user-guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-benmod/appeal-process-user-guide.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 | 939 | 30 |
+| [auxiliary-volunteer-application.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/auxiliary-communications/auxiliary-volunteer-application.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 520 | 2 |
+| [blair%20county%20town%20hall%20flyer.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2024/blair%20county%20town%20hall%20flyer.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 157 | 10 |
+| [c_237996.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/documents/odp/c_237996.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3259 | 0 |
+| [carlisle%20nhios%20town%20hall%20flyer%20(1).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/carlisle%20nhios%20town%20hall%20flyer%20(1).pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 156 | 14 |
+| [civil%20rights%20division%20brochure.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/phrc-outreach/english/civil%20rights%20division%20brochure.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 546 | 13 |
+| [claim%20for%20death%20benefits.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/insurance/line-of-duty-death-benefits/documents/claim%20for%20death%20benefits.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 547 | 0 |
+| [cmv-restriction-terminology.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/cmv-restriction-terminology.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 113 | 0 |
+| [cmv-restriction-tier-information-sign.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/cmv-restriction-tier-information-sign.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 65 | 0 |
+| [cy-868s-application-for-subsidized-child-care-05-2023.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/children/documents/child-care-early-learning/cy-868s-application-for-subsidized-child-care-05-2023.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 5349 | 20 |
+| [deo-118.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/deo-118.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 180 | 1 |
+| [dgs-contracts-2023.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/documents/appropriations-budgetary-submissions/dgs-contracts-2023.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 8077 | 1 |
+| [disaster%20recovery%20application%20walkthrough.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/recovery/disaster-help/documents/disaster%20recovery%20application%20walkthrough.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 730 | 45 |
+| [dor_legislative_guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/dor_legislative_guide.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 66 | 17991 | 120 |
+| [dpo-85.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/dpo-85.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 156 | 0 |
+| [drap%20activation%20notice%20for%20hotel%20hampton%20fire.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/resources/drap%20activation%20notice%20for%20hotel%20hampton%20fire.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 347 | 1 |
+| [drap%20what%20to%20do%20next%20hotel%20hampton%20fire.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/resources/drap%20what%20to%20do%20next%20hotel%20hampton%20fire.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 459 | 19 |
+| [eeo_titlevi_discrimination_complaint.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/eeo_titlevi_discrimination_complaint.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 216 | 1 |
+| [emc%20website%20list.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/county-emc/emc%20website%20list.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1520 | 6 |
+| [emergency%20kit%20list.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/emergency%20kit%20list.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 113 | 1 |
+| [erie%20nhios%20town%20hall%20flyer.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/erie%20nhios%20town%20hall%20flyer.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 128 | 10 |
+| [external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 157 | 1 |
+| [ffy%202026%20title%20vi%20plan.pdf.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/ffy%202026%20title%20vi%20plan.pdf.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 | 6188 | 8 |
+| [flag%20program%20flying%20request%20form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/flag%20program%20flying%20request%20form.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 131 | 0 |
+| [hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 142 | 11 |
+| [immigration%20nhios%20town%20hall%20flyer%20(3).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/immigration%20nhios%20town%20hall%20flyer%20(3).pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 148 | 14 |
+| [it-policy-crosswalk.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 2521 | 1 |
+| [lce_pe_readiness_tests.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/lce_pe_readiness_tests.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 577 | 1 |
+| [legislative_inquiries_submission_update.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/legislative_inquiries_submission_update.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 709 | 27 |
+| [library%20collection.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/library%20collection.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 200 | 0 |
+| [mechanicsburg%20nhios%20town%20hall%20flyer.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/mechanicsburg%20nhios%20town%20hall%20flyer.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 135 | 10 |
+| [mv-13st.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-13st.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 840 | 0 |
+| [mv-3.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-3.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 1707 | 1 |
+| [mv-371dv.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-371dv.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 1195 | 0 |
+| [odhh-12esp.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/documents/odhh-12esp.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 4083 | 45 |
+| [os-105.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/os-105.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 840 | 6 |
+| [os-12.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/os-12.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 818 | 0 |
+| [ovr-808.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/documents/ovr-808.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 | 1531 | 1 |
+| [pa%20demographics%20how%20many%20pennsylvanians%20are%20deaf%20or%20hard%20of%20hearing.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/pa%20demographics%20how%20many%20pennsylvanians%20are%20deaf%20or%20hard%20of%20hearing.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 416 | 1 |
+| [pa-600-l.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/benefits-applications/pa-600-l.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 6965 | 4 |
+| [pa_email_phishing_poster.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/idtheftprotectionandvictimassistance/documents/pa_email_phishing_poster.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 297 | 1 |
+| [pabeoc-membership-agreement.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/private-sector-integration/pabeoc-membership-agreement.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 799 | 0 |
+| [pat-questions.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/pat-questions.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 894 | 0 |
+| [pema-request-form-addendum-equipment-transportation-supplement.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-equipment-transportation-supplement.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 224 | 0 |
+| [pema-request-form-addendum-es13-law-enforcement.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-es13-law-enforcement.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 468 | 0 |
+| [pema-request-form-addendum-generators.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-generators.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 293 | 0 |
+| [pema-request-form-addendum-penndot-salt.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-penndot-salt.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 538 | 1 |
+| [pema-request-form-addendum-state-managed-sheltering.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-state-managed-sheltering.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1649 | 0 |
+| [pema-request-form-addendum-water.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-water.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 275 | 0 |
+| [philadelphia%20bench-bar%20cle%20flyer%20update.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/other/2023/philadelphia%20bench-bar%20cle%20flyer%20update.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 103 | 8 |
+| [philadelphia%20nhios%20town%20hall%20flyer%20(2).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/philadelphia%20nhios%20town%20hall%20flyer%20(2).pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 149 | 14 |
+| [pit_mef_software_vendors.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/onlineservices/personalincometaxe-services/efile/documents/pit_mef_software_vendors.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1591 | 0 |
+| [private-sector-integration-fact-sheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/private-sector-integration/private-sector-integration-fact-sheet.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 417 | 3 |
+| [processing%20an%20act%20101%20and%20act%2051%20claim.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/insurance/line-of-duty-death-benefits/documents/processing%20an%20act%20101%20and%20act%2051%20claim.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 313 | 0 |
+| [psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 41 | 13504 | 15 |
+| [psp_form_3-394%20.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/psp_form_3-394%20.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 207 | 1 |
+| [psp_most_wanted_current.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/psp_most_wanted_current.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 333 | 10 |
+| [ptrr_proof_doc_checklist.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_proof_doc_checklist.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1484 | 4 |
+| [ptrr_proof_doc_checklist_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_proof_doc_checklist_span.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1635 | 4 |
+| [ptrr_quick_tips.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_quick_tips.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1392 | 2 |
+| [ptrr_training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_training.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | 50 | 2382 | 264 |
+| [pub%20370g.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub%20370g.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 453 | 5 |
+| [pub%20628.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub%20628.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | 32 | 7863 | 3 |
+| [pub%20650.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub%20650.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 772 | 8 |
+| [pub%20650_10-22_web.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/pub%20650_10-22_web.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 772 | 8 |
+| [pub%20753.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-publications/pub%20753.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 321 | 1 |
+| [report%20of%20death%20form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/insurance/line-of-duty-death-benefits/documents/report%20of%20death%20form.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 559 | 0 |
+| [rev-181.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/rev-181.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1769 | 0 |
+| [rev-227.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/sut/documents/rev-227.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 735 | 0 |
+| [rev-467.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/rev-467.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1413 | 0 |
+| [rev-717.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/sut/documents/rev-717.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 26 | 16493 | 1 |
+| [rev-935.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/sut/documents/rev-935.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1074 | 0 |
+| [rmo-1dl.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/orm_forms/orm_forms/rmo-1dl.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 389 | 1 |
+| [rmo-1vr.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/orm_forms/orm_forms/rmo-1vr.pdf) | pa.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 169 | 1 |
+| [roxborough%20nhios%20town%20hall%20flyer%20(1).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/roxborough%20nhios%20town%20hall%20flyer%20(1).pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 151 | 13 |
+| [rvat_commissioners_report_2025.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/rvat/rvat_commissioners_report_2025.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 680 | 5 |
+| [social%20justice%20community%20involvement.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/phrc-outreach/english/social%20justice%20community%20involvement.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 546 | 18 |
+| [st_bulletin_2019-01.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxlawpoliciesbulletinsnotices/taxbulletins/sut/documents/st_bulletin_2019-01.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1061 | 1 |
+| [st_bulletin_2019-02.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxlawpoliciesbulletinsnotices/taxbulletins/sut/documents/st_bulletin_2019-02.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1458 | 4 |
+| [staff-highlight-stacie-andrews.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/documents/staff-highlights/staff-highlight-stacie-andrews.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 452 | 1 |
+| [state%20employee%20recognition%20day%202024%20pdf.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/state%20employee%20recognition%20day%202024%20pdf.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 0 | 66 |
+| [std-486c-discrimination-complaint-form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/std-486c-discrimination-complaint-form.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 153 | 0 |
+| [storm%20tactic%20fact%20sheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/storm%20tactic%20fact%20sheet.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 644 | 1 |
+| [uc-181.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-181.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 214 | 0 |
+| [uc-2010%20(13).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucts/uc-2010%20(13).pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 41 | 10811 | 0 |
+| [uc-229-ara.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-229-ara.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 33 | 4 |
+| [uc-229-khm.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-229-khm.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 33 | 5 |
+| [uc-23.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-23.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 578 | 0 |
+| [uc-304(esp).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-304(esp).pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 397 | 0 |
+| [uc-310%20rev%2011-15.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-310%20rev%2011-15.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 3419 | 0 |
+| [uc-318.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-318.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 426 | 0 |
+| [uc-748%20rev%2008-18.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2008-18.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 1287 | 0 |
+| [uc-748%20rev%2008-20.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2008-20.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1287 | 0 |
+| [uc-748%20rev%2009-25.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2009-25.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1303 | 0 |
+| [uc-748%20rev%2010-24.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2010-24.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1303 | 0 |
+| [uc-748%20rev%2011-19.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2011-19.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1287 | 0 |
+| [uc-748%20rev%209-17.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%209-17.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 1287 | 0 |
+| [uc-748-rev-08-21.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748-rev-08-21.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1287 | 0 |
+| [uc-748-rev-11-22.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748-rev-11-22.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1303 | 0 |
+| [uc-748-rev-11-23.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748-rev-11-23.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1303 | 0 |
+| [uc-749%20rev%2008-18.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2008-18.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 3754 | 0 |
+| [uc-749%20rev%2009-20.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2009-20.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 4523 | 0 |
+| [uc-749%20rev%2009-25.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2009-25.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1206 | 0 |
+| [uc-749%20rev%2010-24.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2010-24.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1205 | 0 |
+| [uc-749%20rev%2012-19.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2012-19.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1231 | 0 |
+| [uc-749%20rev%209-17.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%209-17.pdf) | pa.gov | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [uc-749-rev-08-21.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749-rev-08-21.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 3744 | 0 |
+| [uc-749-rev-10-23.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749-rev-10-23.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1222 | 0 |
+| [uc-749-rev-11-22.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749-rev-11-22.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1231 | 0 |
+| [uc-810(i).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-810(i).pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 407 | 1 |
+| [uc-820%20rev%2008-18.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2008-18.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 626 | 0 |
+| [uc-820%20rev%2009-20.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2009-20.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 615 | 0 |
+| [uc-820%20rev%2009-25.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2009-25.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 615 | 0 |
+| [uc-820%20rev%2010-24.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2010-24.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 617 | 0 |
+| [uc-820%20rev%2011-19.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2011-19.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 615 | 0 |
+| [uc-820%20rev%209-17.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%209-17.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 626 | 0 |
+| [uc-820-rev-08-21.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820-rev-08-21.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 615 | 0 |
+| [uc-820-rev-10-23.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820-rev-10-23.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 615 | 0 |
+| [uc-820-rev-11-22.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820-rev-11-22.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 615 | 0 |
+| [uc-855.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-855.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 219 | 0 |
+| [uc-employer-quick-guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-employer-quick-guide.pdf) | pa.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 607 | 16 |
+| [ucms%20-%20how%20to%20register%20online%20tpa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucms%20-%20how%20to%20register%20online%20tpa.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 651 | 23 |
 
 ## Files with Errors or Notes
 
@@ -25077,3 +25278,921 @@ Generated: 2026-03-16T16:11:58.049376+00:00
 - **URL**: https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/webpage%20%20Open%20Government%20Report%20%20October%202014.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### 15-dgs-fy-2023-budget-hearing-request.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/documents/appropriations-budgetary-submissions/15-dgs-fy-2023-budget-hearing-request.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2016-20_dor_strategic_plan.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2016-20_dor_strategic_plan.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2017%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2017%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2018%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2018%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- title, 
+
+### 2021-25_dor_strategic_keystone.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2021-25_dor_strategic_keystone.pdf
+- **Status**: analysed
+- title, 
+
+### 2021-25_dor_strategic_plan_achievements.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2021-25_dor_strategic_plan_achievements.pdf
+- **Status**: analysed
+- title, 
+
+### 2024-my-2023-odp-annual-technical-report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/acap/2024-my-2023-odp-annual-technical-report.pdf
+- **Status**: analysed
+- title, 
+
+### 2025%20drap%20guidelines.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/2025%20drap%20guidelines.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-26-penndot-winter-fact-sheet.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/2025-26-penndot-winter-fact-sheet.pdf
+- **Status**: analysed
+- title, 
+
+### 2025_pa-1000_inst_span.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000_inst_span.pdf
+- **Status**: analysed
+- tagged, no bookmarks and more than 20 pages, 
+
+### 2025_pa-1000_span.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000_span.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### 2025_pa-1000a_span.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000a_span.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### 2025_pa-1000b-d-e_span.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000b-d-e_span.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### 2025_pa-1000f-g_span.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000f-g_span.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### 2025_pa-1000ps_span.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000ps_span.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### 2025_pa-1000rc_span.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000rc_span.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### 2026-01-28-obra-appendix-i.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/contact/dhs-offices/documents/oltl/oltl-waivers/2026-chc-waiver/2026-obra-waiver-/2026-01-28-obra-appendix-i.pdf
+- **Status**: analysed
+- title, 
+
+### 2026-01-28-obra-performance-measures.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/contact/dhs-offices/documents/oltl/oltl-waivers/2026-chc-waiver/2026-obra-waiver-/2026-01-28-obra-performance-measures.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### 205_24.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/205_24.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 44fr_explanation.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/44fr_explanation.pdf
+- **Status**: analysed
+- title, 
+
+### Disability%20Info%20Release%20for%20Public%20Accommodations.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/public-accommodations/Disability%20Info%20Release%20for%20Public%20Accommodations.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Executive%20Summary%20of%20the%20Final%20Report%20of%20the%20Autism%20Task%20Force.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/autism-services/Executive%20Summary%20of%20the%20Final%20Report%20of%20the%20Autism%20Task%20Force.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Explanation%20of%20SGOC%20Schedules.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Explanation%20of%20SGOC%20Schedules.pdf
+- **Status**: analysed
+- title, 
+
+### Explanation%20of%20Tavern%20Gaming%20Schedules.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Explanation%20of%20Tavern%20Gaming%20Schedules.pdf
+- **Status**: analysed
+- title, 
+
+### LEOT%20Essential%20Job%20Functions.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Essential%20Job%20Functions.pdf
+- **Status**: analysed
+- title, 
+
+### LEOT%20Medical%20Information%2020210305.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Medical%20Information%2020210305.pdf
+- **Status**: analysed
+- title, 
+
+### LEOT%20Personal%20Appearance.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Personal%20Appearance.pdf
+- **Status**: analysed
+- title, 
+
+### PA-600-L-S-AS-5-20-Final.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/benefits-applications/PA-600-L-S-AS-5-20-Final.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### PSP%20Cadet%20and%20LEOT%20Written%20Examination%20Prep%20Guide.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/PSP%20Cadet%20and%20LEOT%20Written%20Examination%20Prep%20Guide.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Pennsylvania%20Autism%20Census%20Project%20Final%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/autism-services/Pennsylvania%20Autism%20Census%20Project%20Final%20Report.pdf
+- **Status**: analysed
+- title, 
+
+### Pennsylvania_State_Police_LEOT_Training.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Pennsylvania_State_Police_LEOT_Training.pdf
+- **Status**: analysed
+- title, 
+
+### Record%20of%20Change%20Approved%20IDA%20Waivers%20Effective%20November%202021.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Record%20of%20Change%20Approved%20IDA%20Waivers%20Effective%20November%202021.pdf
+- **Status**: analysed
+- title, 
+
+### SGOC%20-%20Public%20-%20Tavern%20Games-bars%201.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/SGOC%20-%20Public%20-%20Tavern%20Games-bars%201.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### SGOC%20-%20Public-%20Eligable%20Organizations-clubs.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/SGOC%20-%20Public-%20Eligable%20Organizations-clubs.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Schedule%201%20-%20SGOC%20Annual%20Operating%20Record.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%201%20-%20SGOC%20Annual%20Operating%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%202%20-%20SGOC%20Weekly%20Operating%20Record.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202%20-%20SGOC%20Weekly%20Operating%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%202A%20-%20Pull-Tab%20and%20Punchboard%20Weekly%20Operating%20Record.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202A%20-%20Pull-Tab%20and%20Punchboard%20Weekly%20Operating%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%202B%20-%20Regular%20Raffle-Special%20Raffle.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202B%20-%20Regular%20Raffle-Special%20Raffle.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%202C%20-%20Daily-Weekly%20Drawings.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202C%20-%20Daily-Weekly%20Drawings.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%202D%20%2050-50%20Drawing%20Weekly%20Operating%20Record.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202D%20%2050-50%20Drawing%20Weekly%20Operating%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%202E%20-%20Pool%20Weekly%20Operating%20Record.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202E%20-%20Pool%20Weekly%20Operating%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%203%20-%20%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%203%20-%20%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%204%20-%20SGOC%20Use%20of%20Proceeds-60%20Percent.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%204%20-%20SGOC%20Use%20of%20Proceeds-60%20Percent.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%204A%20-%20SGOC%20Use%20of%20Proceeds-40%20Percent.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%204A%20-%20SGOC%20Use%20of%20Proceeds-40%20Percent.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%205%20-%20Pull-Tab%20and%20Punchboard%20Games%20Worksheet.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%205%20-%20Pull-Tab%20and%20Punchboard%20Games%20Worksheet.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%206%20%2050-50%20Drawings.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%206%20%2050-50%20Drawings.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%207%20-%20Pools.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%207%20-%20Pools.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%208%20-%20Race%20Night%20Record.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%208%20-%20Race%20Night%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%20T1%20-%20Tavern%20Gaming%20Annual%20Operating%20Record.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T1%20-%20Tavern%20Gaming%20Annual%20Operating%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%20T1-A%20-%20Tavern%20Gaming%20Quarterly%20Return%20Worksheet.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T1-A%20-%20Tavern%20Gaming%20Quarterly%20Return%20Worksheet.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%20T2%20-%20Tavern%20Gaming%20Weekly%20Operating%20Record.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T2%20-%20Tavern%20Gaming%20Weekly%20Operating%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%20T3%20-%20Tavern%20Gaming%20Daily%20Drawings.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T3%20-%20Tavern%20Gaming%20Daily%20Drawings.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%20T4%20-%20Tavern%20Gaming%20Pull-Tab%20Weekly%20Operating%20Record.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T4%20-%20Tavern%20Gaming%20Pull-Tab%20Weekly%20Operating%20Record.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%20T4-A%20%20Tavern%20Gaming%20Pull-Tab%20Worksheet.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T4-A%20%20Tavern%20Gaming%20Pull-Tab%20Worksheet.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%20T5%20-%20Tavern%20Raffles.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T5%20-%20Tavern%20Raffles.pdf
+- **Status**: analysed
+- title, 
+
+### Schedule%20T6%20-%20%20Tavern%20Gaming%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T6%20-%20%20Tavern%20Gaming%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf
+- **Status**: analysed
+- title, 
+
+### address_directory.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/contactus/documents/address_directory.pdf
+- **Status**: analysed
+- title, 
+
+### after-the-disaster.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ready/resources/guides/after-the-disaster.pdf
+- **Status**: analysed
+- title, 
+
+### appeal-process-user-guide.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-benmod/appeal-process-user-guide.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### auxiliary-volunteer-application.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/auxiliary-communications/auxiliary-volunteer-application.pdf
+- **Status**: analysed
+- title, 
+
+### c_237996.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/documents/odp/c_237996.pdf
+- **Status**: analysed
+- title, 
+
+### carlisle%20nhios%20town%20hall%20flyer%20(1).pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/carlisle%20nhios%20town%20hall%20flyer%20(1).pdf
+- **Status**: analysed
+- title, 
+
+### claim%20for%20death%20benefits.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/insurance/line-of-duty-death-benefits/documents/claim%20for%20death%20benefits.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cmv-restriction-terminology.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/cmv-restriction-terminology.pdf
+- **Status**: analysed
+- title, 
+
+### cmv-restriction-tier-information-sign.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/cmv-restriction-tier-information-sign.pdf
+- **Status**: analysed
+- title, 
+
+### deo-118.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/deo-118.pdf
+- **Status**: analysed
+- title, 
+
+### dgs-contracts-2023.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/documents/appropriations-budgetary-submissions/dgs-contracts-2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### disaster%20recovery%20application%20walkthrough.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/recovery/disaster-help/documents/disaster%20recovery%20application%20walkthrough.pdf
+- **Status**: analysed
+- title, 
+
+### dor_legislative_guide.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/dor_legislative_guide.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### drap%20activation%20notice%20for%20hotel%20hampton%20fire.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/resources/drap%20activation%20notice%20for%20hotel%20hampton%20fire.pdf
+- **Status**: analysed
+- title, 
+
+### emc%20website%20list.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/county-emc/emc%20website%20list.pdf
+- **Status**: analysed
+- title, 
+
+### emergency%20kit%20list.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/emergency%20kit%20list.pdf
+- **Status**: analysed
+- tagged, 
+
+### external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf
+- **Status**: analysed
+- title, 
+
+### flag%20program%20flying%20request%20form.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/flag%20program%20flying%20request%20form.pdf
+- **Status**: analysed
+- title, 
+
+### it-policy-crosswalk.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf
+- **Status**: analysed
+- title, 
+
+### library%20collection.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/library%20collection.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### mv-13st.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-13st.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### mv-3.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-3.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### mv-371dv.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-371dv.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### odhh-12esp.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/documents/odhh-12esp.pdf
+- **Status**: analysed
+- title, 
+
+### os-105.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/os-105.pdf
+- **Status**: analysed
+- title, 
+
+### os-12.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/os-12.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### ovr-808.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/documents/ovr-808.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pa%20demographics%20how%20many%20pennsylvanians%20are%20deaf%20or%20hard%20of%20hearing.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/pa%20demographics%20how%20many%20pennsylvanians%20are%20deaf%20or%20hard%20of%20hearing.pdf
+- **Status**: analysed
+- title, 
+
+### pa-600-l.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/benefits-applications/pa-600-l.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### pa_email_phishing_poster.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/idtheftprotectionandvictimassistance/documents/pa_email_phishing_poster.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pabeoc-membership-agreement.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/private-sector-integration/pabeoc-membership-agreement.pdf
+- **Status**: analysed
+- title, 
+
+### pat-questions.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/pat-questions.pdf
+- **Status**: analysed
+- title, 
+
+### pema-request-form-addendum-equipment-transportation-supplement.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-equipment-transportation-supplement.pdf
+- **Status**: analysed
+- title, 
+
+### pema-request-form-addendum-es13-law-enforcement.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-es13-law-enforcement.pdf
+- **Status**: analysed
+- title, 
+
+### pema-request-form-addendum-generators.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-generators.pdf
+- **Status**: analysed
+- title, 
+
+### pema-request-form-addendum-penndot-salt.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-penndot-salt.pdf
+- **Status**: analysed
+- title, 
+
+### pema-request-form-addendum-state-managed-sheltering.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-state-managed-sheltering.pdf
+- **Status**: analysed
+- title, 
+
+### pema-request-form-addendum-water.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/mission-request/pema-request-form-addendum-water.pdf
+- **Status**: analysed
+- title, 
+
+### philadelphia%20nhios%20town%20hall%20flyer%20(2).pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/philadelphia%20nhios%20town%20hall%20flyer%20(2).pdf
+- **Status**: analysed
+- title, 
+
+### pit_mef_software_vendors.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/onlineservices/personalincometaxe-services/efile/documents/pit_mef_software_vendors.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### private-sector-integration-fact-sheet.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/private-sector-integration/private-sector-integration-fact-sheet.pdf
+- **Status**: analysed
+- title, 
+
+### processing%20an%20act%20101%20and%20act%2051%20claim.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/insurance/line-of-duty-death-benefits/documents/processing%20an%20act%20101%20and%20act%2051%20claim.pdf
+- **Status**: analysed
+- title, 
+
+### psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf
+- **Status**: analysed
+- title, 
+
+### ptrr_training.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_training.pdf
+- **Status**: analysed
+- tagged, lang, no bookmarks and more than 20 pages, 
+
+### pub%20370g.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub%20370g.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pub%20628.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub%20628.pdf
+- **Status**: analysed
+- tagged, lang, no bookmarks and more than 20 pages, 
+
+### pub%20650.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub%20650.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pub%20650_10-22_web.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/pub%20650_10-22_web.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pub%20753.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-publications/pub%20753.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### report%20of%20death%20form.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/insurance/line-of-duty-death-benefits/documents/report%20of%20death%20form.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rev-181.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/rev-181.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### rev-717.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/sut/documents/rev-717.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### rev-935.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/sut/documents/rev-935.pdf
+- **Status**: analysed
+- title, 
+
+### rmo-1dl.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/orm_forms/orm_forms/rmo-1dl.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rmo-1vr.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/orm_forms/orm_forms/rmo-1vr.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### roxborough%20nhios%20town%20hall%20flyer%20(1).pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/roxborough%20nhios%20town%20hall%20flyer%20(1).pdf
+- **Status**: analysed
+- title, 
+
+### social%20justice%20community%20involvement.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/phrc-outreach/english/social%20justice%20community%20involvement.pdf
+- **Status**: analysed
+- title, 
+
+### st_bulletin_2019-01.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxlawpoliciesbulletinsnotices/taxbulletins/sut/documents/st_bulletin_2019-01.pdf
+- **Status**: analysed
+- title, 
+
+### st_bulletin_2019-02.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxlawpoliciesbulletinsnotices/taxbulletins/sut/documents/st_bulletin_2019-02.pdf
+- **Status**: analysed
+- title, 
+
+### state%20employee%20recognition%20day%202024%20pdf.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/state%20employee%20recognition%20day%202024%20pdf.pdf
+- **Status**: analysed
+- title, 
+
+### std-486c-discrimination-complaint-form.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/std-486c-discrimination-complaint-form.pdf
+- **Status**: analysed
+- title, lang, 
+
+### storm%20tactic%20fact%20sheet.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/storm%20tactic%20fact%20sheet.pdf
+- **Status**: analysed
+- title, lang, 
+
+### uc-181.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-181.pdf
+- **Status**: analysed
+- title, 
+
+### uc-2010%20(13).pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucts/uc-2010%20(13).pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### uc-229-ara.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-229-ara.pdf
+- **Status**: analysed
+- title, 
+
+### uc-229-khm.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-229-khm.pdf
+- **Status**: analysed
+- title, 
+
+### uc-23.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-23.pdf
+- **Status**: analysed
+- title, lang, 
+
+### uc-310%20rev%2011-15.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-310%20rev%2011-15.pdf
+- **Status**: analysed
+- title, lang, 
+
+### uc-748%20rev%2008-18.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2008-18.pdf
+- **Status**: analysed
+- title, 
+
+### uc-748%20rev%2008-20.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2008-20.pdf
+- **Status**: analysed
+- title, 
+
+### uc-748%20rev%2009-25.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2009-25.pdf
+- **Status**: analysed
+- title, 
+
+### uc-748%20rev%2010-24.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2010-24.pdf
+- **Status**: analysed
+- title, 
+
+### uc-748%20rev%2011-19.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%2011-19.pdf
+- **Status**: analysed
+- title, 
+
+### uc-748%20rev%209-17.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748%20rev%209-17.pdf
+- **Status**: analysed
+- title, 
+
+### uc-748-rev-08-21.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748-rev-08-21.pdf
+- **Status**: analysed
+- title, 
+
+### uc-748-rev-11-22.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748-rev-11-22.pdf
+- **Status**: analysed
+- title, 
+
+### uc-748-rev-11-23.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-748-rev-11-23.pdf
+- **Status**: analysed
+- title, 
+
+### uc-749%20rev%2008-18.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2008-18.pdf
+- **Status**: analysed
+- title, 
+
+### uc-749%20rev%2009-20.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2009-20.pdf
+- **Status**: analysed
+- title, 
+
+### uc-749%20rev%2009-25.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2009-25.pdf
+- **Status**: analysed
+- title, 
+
+### uc-749%20rev%2010-24.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2010-24.pdf
+- **Status**: analysed
+- title, 
+
+### uc-749%20rev%2012-19.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%2012-19.pdf
+- **Status**: analysed
+- title, 
+
+### uc-749%20rev%209-17.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749%20rev%209-17.pdf
+- **Status**: analysed
+- title, lang, 
+
+### uc-749-rev-08-21.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749-rev-08-21.pdf
+- **Status**: analysed
+- title, 
+
+### uc-749-rev-10-23.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749-rev-10-23.pdf
+- **Status**: analysed
+- title, 
+
+### uc-749-rev-11-22.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-749-rev-11-22.pdf
+- **Status**: analysed
+- title, 
+
+### uc-810(i).pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-810(i).pdf
+- **Status**: analysed
+- title, lang, 
+
+### uc-820%20rev%2008-18.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2008-18.pdf
+- **Status**: analysed
+- title, 
+
+### uc-820%20rev%2009-20.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2009-20.pdf
+- **Status**: analysed
+- title, 
+
+### uc-820%20rev%2009-25.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2009-25.pdf
+- **Status**: analysed
+- title, 
+
+### uc-820%20rev%2010-24.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2010-24.pdf
+- **Status**: analysed
+- title, 
+
+### uc-820%20rev%2011-19.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%2011-19.pdf
+- **Status**: analysed
+- title, 
+
+### uc-820%20rev%209-17.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820%20rev%209-17.pdf
+- **Status**: analysed
+- title, 
+
+### uc-820-rev-08-21.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820-rev-08-21.pdf
+- **Status**: analysed
+- title, 
+
+### uc-820-rev-10-23.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820-rev-10-23.pdf
+- **Status**: analysed
+- title, 
+
+### uc-820-rev-11-22.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/employer/uc-tax-rates/uc-820-rev-11-22.pdf
+- **Status**: analysed
+- title, 
+
+### ucms%20-%20how%20to%20register%20online%20tpa.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucms%20-%20how%20to%20register%20online%20tpa.pdf
+- **Status**: analysed
+- title, 

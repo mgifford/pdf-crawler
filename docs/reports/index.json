@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-16T17:12:25.251691+00:00",
+    "site": "pa.gov",
+    "crawl_url": "https://www.pa.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23154983873",
+    "issue_url": "",
+    "archive_file": "2026-03-16_17-12-25-251_pa.gov.html",
+    "total": 212,
+    "analysed": 200,
+    "accessible": 47
+  },
+  {
     "date": "2026-03-16T16:11:58.049376+00:00",
     "site": "dc.gov",
     "crawl_url": "https://dc.gov",
