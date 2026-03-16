@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-16T08:31:38.245201+00:00",
+    "site": "all",
+    "crawl_url": "",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23133267580",
+    "issue_url": "",
+    "archive_file": "2026-03-16_08-31-38-245_all.html",
+    "total": 14738,
+    "analysed": 3041,
+    "accessible": 1119
+  },
+  {
     "date": "2026-03-15T18:38:46.703724+00:00",
     "site": "ijcaonline.org",
     "crawl_url": "https://www.ijcaonline.org/archives/volume187/number2/hand-gesture-recognition-systems-a-review-of-methods-datasets-and-emerging-trends/",
