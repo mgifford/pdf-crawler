@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-16T14:14:18.919019+00:00
+Generated: 2026-03-16T16:11:58.049376+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 259 |
-| Total files tracked | 15000 |
-| Analysed | 3283 |
+| URLs crawled | 337 |
+| Total files tracked | 15074 |
+| Analysed | 3357 |
 | Pending analysis | 10303 |
 | Errors during analysis | 1414 |
-| Accessible | 1158 |
-| Totally inaccessible | 47 |
+| Accessible | 1163 |
+| Totally inaccessible | 54 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 665 |
+| Exempt (pre-2018) | 695 |
 
 ## Files per Site
 
@@ -29,6 +29,7 @@ Generated: 2026-03-16T14:14:18.919019+00:00
 | canada.ca | 496 |
 | cms.gov | 373 |
 | ctoec.org | 1742 |
+| dc.gov | 74 |
 | ec.europa.eu | 199 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
@@ -3340,6 +3341,80 @@ Generated: 2026-03-16T14:14:18.919019+00:00
 | [tmp-ancaster.pdf](https://www.hamilton.ca/sites/default/files/2023-02/tmp-ancaster.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 218 | 54394 | 314 |
 | [tmp-binbrook-village.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-binbrook-village.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 0 | — | 0 |
 | [york-valley-road-ea-pic1-comments.pdf](https://www.hamilton.ca/sites/default/files/2022-08/york-valley-road-ea-pic1-comments.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 117 | 1 |
+| [1012-001-Discounts-AdvisoryOpinion.pdf](https://bega.dc.gov/sites/bega/files/publication/attachments/1012-001-Discounts-AdvisoryOpinion.pdf) | dc.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 | 0 | 7 |
+| [14-PAYGO_FY%202014%20Budget%20Load%20of%20Paygo%20Capital%20Funds%20Report_Sent%202-28-14.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/14-PAYGO_FY%202014%20Budget%20Load%20of%20Paygo%20Capital%20Funds%20Report_Sent%202-28-14.pdf) | dc.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [15-Paygo_FY%202015%20Paygo%20Budget%20Load_Sent%202-20-15.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/15-Paygo_FY%202015%20Paygo%20Budget%20Load_Sent%202-20-15.pdf) | dc.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [2013%20FH%20decision%20list.pdf](https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/publication/attachments/2013%20FH%20decision%20list.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 2053 | 0 |
+| [2025%20AFR%20Filing%20Instructions_FINAL.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/2025%20AFR%20Filing%20Instructions_FINAL.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 4532 | 0 |
+| [Advisory_Opinion-019-13.pdf](https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion-019-13.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1845 | 1 |
+| [Advisory_Opinion_001-13.pdf](https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_001-13.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1410 | 1 |
+| [Advisory_Opinion_002-12.pdf](https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_002-12.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1387 | 1 |
+| [Advisory_Opinion_005-12.pdf](https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_005-12.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1261 | 1 |
+| [Advisory_Opinion_011-13.pdf](https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_011-13.pdf) | dc.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 3 |
+| [Advisory_Opinion_013-13.pdf](https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_013-13.pdf) | dc.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 5 |
+| [Advisory_opinion_006-12.pdf](https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_opinion_006-12.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1504 | 1 |
+| [Budget%20Testimony%203.23.22_DLI%20.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Budget%20Testimony%203.23.22_DLI%20.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 580 | 1 |
+| [Budget%20Testimony%20Final%204.25.23.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Budget%20Testimony%20Final%204.25.23.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 848 | 1 |
+| [Bulletin%20106%20Eligibility%20Requirements%20for%20MHRS%20Providers%206.7.16%20.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/Bulletin%20106%20Eligibility%20Requirements%20for%20MHRS%20Providers%206.7.16%20.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 542 | 1 |
+| [CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf](https://cab.dc.gov/sites/default/files/u76776/CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 592 | 0 |
+| [CFSA%20NOPP%20rev.2020.pdf](https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/publication/attachments/CFSA%20NOPP%20rev.2020.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1413 | 1 |
+| [CFSA%20Organizational%20Chart%20FY25%2012.2.24.pdf](https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/page_content/attachments/CFSA%20Organizational%20Chart%20FY25%2012.2.24.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 47 | 12628 | 2 |
+| [CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1725 | 1 |
+| [CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 | 2094 | 1 |
+| [CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1588 | 1 |
+| [CIC%20Testimony%20on%20Letterhead.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony%20on%20Letterhead.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1139 | 2 |
+| [CIC%20Testimony%20on%20Roundtable%20on%20DOC%202.15.18.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Roundtable%20on%20DOC%202.15.18.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1829 | 1 |
+| [CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1465 | 1 |
+| [CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 885 | 1 |
+| [CIC-Education%20Committee%20Testimony%2010.4.17.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC-Education%20Committee%20Testimony%2010.4.17.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1539 | 1 |
+| [CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1045 | 0 |
+| [CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 | 4398 | 18 |
+| [CJS1%20Summary%20FINAL.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS1%20Summary%20FINAL.pdf) | dc.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3274 | 7 |
+| [CJS2%20Webinar%20Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS2%20Webinar%20Summary.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2200 | 7 |
+| [CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 17 | 5211 | 0 |
+| [Commission%20Rules-2003%20-%20Amended%202024_0.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Commission%20Rules-2003%20-%20Amended%202024_0.pdf) | dc.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1542 | 0 |
+| [Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 | 4810 | 52 |
+| [D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf](https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 15 | 4799 | 15 |
+| [DC%20Gun%20Violence%20Problem%20Analysis%20Summary%20Report.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/release_content/attachments/DC%20Gun%20Violence%20Problem%20Analysis%20Summary%20Report.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 2402 | 14 |
+| [DCOCFO_Volume_4.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/DCOCFO_Volume_4.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 444 | 138272 | 25 |
+| [DLI%20Testimony%20POH%20FY23_3.1.23.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/DLI%20Testimony%20POH%20FY23_3.1.23.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1586 | 1 |
+| [DLI%20Testimony-Performance%20Hearing%203.2.22.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/DLI%20Testimony-Performance%20Hearing%203.2.22.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 929 | 1 |
+| [FY%2023%20%20Org%20Chart-0.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/page_content/attachments/FY%2023%20%20Org%20Chart.pdf) | dc.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 256 | 50 |
+| [FY%2023%20%20Org%20Chart.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/FY%2023%20%20Org%20Chart.pdf) | dc.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 256 | 50 |
+| [FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1305 | 1 |
+| [Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 566 | 1 |
+| [Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 520 | 0 |
+| [Housing%20Webinar%20Summary%2009.20.23.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Housing%20Webinar%20Summary%2009.20.23.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1546 | 1 |
+| [ISF%20Program%202025.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/ISF%20Program%202025.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 3985 | 42 |
+| [ISF%20Summary%202025%20%28Final%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/ISF%20Summary%202025%20%28Final%29.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 4885 | 52 |
+| [JJ%20Webinar%20Alternatives%20to%20Incarceration%20for%20Youth.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/JJ%20Webinar%20Alternatives%20to%20Incarceration%20for%20Youth.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2108 | 1 |
+| [JJ%20Webinar%20Series%20Session%20Four.Reducing%20Youth%20Justice%20System%20Involvement.What%20Works.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/JJ%20Webinar%20Series%20Session%20Four.Reducing%20Youth%20Justice%20System%20Involvement.What%20Works.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3216 | 8 |
+| [July%20Spotlight%20on%20Aging%202019.pdf](https://dacl.dc.gov/sites/default/files/dc/sites/dcoa/release_content/attachments/July%20Spotlight%20on%20Aging%202019.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 1494 | 6 |
+| [Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2984 | 4 |
+| [Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2888 | 9 |
+| [Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1735 | 6 |
+| [Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf](https://ddot.dc.gov/sites/default/files/dc/sites/ddot/page_content/attachments/Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1030 | 16 |
+| [MHRS%20Bulletin%20Listing_0.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/MHRS%20Bulletin%20Listing_0.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1100 | 2 |
+| [Medical%20Cannabis%20Registered%20Practitioners%20-%20July%202024.pdf](https://abca.dc.gov/sites/default/files/dc/sites/abra/publication/attachments/Medical%20Cannabis%20Registered%20Practitioners%20-%20July%202024.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 38 | 8991 | 0 |
+| [November%20Spotlight%20on%20Aging%202019.pdf](https://dacl.dc.gov/sites/default/files/dc/sites/dcoa/release_content/attachments/November%20Spotlight%20on%20Aging%202019.pdf) | dc.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1586 | 10 |
+| [Promising%20Practices%20at%20the%20Front%20End%20%20%28March%202023%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Promising%20Practices%20at%20the%20Front%20End%20%20%28March%202023%29.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 759 | 3 |
+| [QuickPaymentAct-11172021.pdf](https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/QuickPaymentAct-11172021.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 430 | 0 |
+| [Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 913 | 3 |
+| [Risk%20Assessment%20Information%20Session%20Summary%20Final%20Draft%20.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Risk%20Assessment%20Information%20Session%20Summary%20Final%20Draft%20.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1377 | 1 |
+| [SROJJTA_Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/SROJJTA_Summary.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 4590 | 4 |
+| [The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 57 | 26325 | 18 |
+| [Trauma%20Informed%20Webinar%20Summary%20.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Trauma%20Informed%20Webinar%20Summary%20.pdf) | dc.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2713 | 6 |
+| [Truck_Touch_2015%283%29.pdf](https://calendar.dc.gov/sites/default/files/dc/sites/calendar/event_content/attachments/Truck_Touch_2015%283%29.pdf) | dc.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [ag0_bega_chapter_2025j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/ag0_bega_chapter_2025j.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1472 | 0 |
+| [ag_bega_tables_2025j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/ag_bega_tables_2025j.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 2891 | 0 |
+| [evaluation_fredrick_weisberg.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/evaluation_fredrick_weisberg.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 | 2072 | 0 |
+| [one%20pager%20JJS120%20%282%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/one%20pager%20JJS120%20%282%29.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 1041 | 1 |
+| [rl_cfsa_chapter_2019j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_chapter_2019j.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 14 | 249 | 0 |
+| [rl_cfsa_tables_2019j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_tables_2019j.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 | 9428 | 0 |
+| [rm_dbh_capital_2019j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rm_dbh_capital_2019j.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 1780 | 3 |
+| [statute_creating_the_commission.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/statute_creating_the_commission.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 | 4292 | 0 |
+| [wbj_cab_tackles_backlog.pdf](https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/wbj_cab_tackles_backlog.pdf) | dc.gov | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 17 |
+| [webpage%20%20Open%20Government%20Report%20%20October%202014.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/webpage%20%20Open%20Government%20Report%20%20October%202014.pdf) | dc.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 994 | 0 |
 
 ## Files with Errors or Notes
 
@@ -24588,3 +24663,417 @@ Generated: 2026-03-16T14:14:18.919019+00:00
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/tmp-binbrook-village.pdf
 - **Status**: analysed
 - no date found, title, tagged, lang, 
+
+### 1012-001-Discounts-AdvisoryOpinion.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/1012-001-Discounts-AdvisoryOpinion.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 14-PAYGO_FY%202014%20Budget%20Load%20of%20Paygo%20Capital%20Funds%20Report_Sent%202-28-14.pdf
+
+- **URL**: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/14-PAYGO_FY%202014%20Budget%20Load%20of%20Paygo%20Capital%20Funds%20Report_Sent%202-28-14.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 15-Paygo_FY%202015%20Paygo%20Budget%20Load_Sent%202-20-15.pdf
+
+- **URL**: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/15-Paygo_FY%202015%20Paygo%20Budget%20Load_Sent%202-20-15.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2013%20FH%20decision%20list.pdf
+
+- **URL**: https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/publication/attachments/2013%20FH%20decision%20list.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2025%20AFR%20Filing%20Instructions_FINAL.pdf
+
+- **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/2025%20AFR%20Filing%20Instructions_FINAL.pdf
+- **Status**: analysed
+- title, 
+
+### Advisory_Opinion-019-13.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion-019-13.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Advisory_Opinion_001-13.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_001-13.pdf
+- **Status**: analysed
+- title, 
+
+### Advisory_Opinion_002-12.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_002-12.pdf
+- **Status**: analysed
+- title, 
+
+### Advisory_Opinion_005-12.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_005-12.pdf
+- **Status**: analysed
+- title, 
+
+### Advisory_Opinion_011-13.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_011-13.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Advisory_Opinion_013-13.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_Opinion_013-13.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Advisory_opinion_006-12.pdf
+
+- **URL**: https://bega.dc.gov/sites/bega/files/publication/attachments/Advisory_opinion_006-12.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Budget%20Testimony%203.23.22_DLI%20.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Budget%20Testimony%203.23.22_DLI%20.pdf
+- **Status**: analysed
+- title, 
+
+### Budget%20Testimony%20Final%204.25.23.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Budget%20Testimony%20Final%204.25.23.pdf
+- **Status**: analysed
+- title, 
+
+### Bulletin%20106%20Eligibility%20Requirements%20for%20MHRS%20Providers%206.7.16%20.pdf
+
+- **URL**: https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/Bulletin%20106%20Eligibility%20Requirements%20for%20MHRS%20Providers%206.7.16%20.pdf
+- **Status**: analysed
+- title, 
+
+### CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf
+
+- **URL**: https://cab.dc.gov/sites/default/files/u76776/CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf
+- **Status**: analysed
+- title, 
+
+### CFSA%20NOPP%20rev.2020.pdf
+
+- **URL**: https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/publication/attachments/CFSA%20NOPP%20rev.2020.pdf
+- **Status**: analysed
+- title, 
+
+### CFSA%20Organizational%20Chart%20FY25%2012.2.24.pdf
+
+- **URL**: https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/page_content/attachments/CFSA%20Organizational%20Chart%20FY25%2012.2.24.pdf
+- **Status**: analysed
+- title, 
+
+### CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf
+- **Status**: analysed
+- title, 
+
+### CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
+- **Status**: analysed
+- title, 
+
+### CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CIC%20Testimony%20on%20Letterhead.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony%20on%20Letterhead.pdf
+- **Status**: analysed
+- title, 
+
+### CIC%20Testimony%20on%20Roundtable%20on%20DOC%202.15.18.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Roundtable%20on%20DOC%202.15.18.pdf
+- **Status**: analysed
+- title, 
+
+### CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf
+- **Status**: analysed
+- title, 
+
+### CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf
+- **Status**: analysed
+- title, 
+
+### CIC-Education%20Committee%20Testimony%2010.4.17.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC-Education%20Committee%20Testimony%2010.4.17.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
+
+- **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
+- **Status**: analysed
+- title, 
+
+### CJS2%20Webinar%20Summary.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS2%20Webinar%20Summary.pdf
+- **Status**: analysed
+- title, 
+
+### CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf
+
+- **URL**: https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf
+- **Status**: analysed
+- title, 
+
+### Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf
+
+- **URL**: https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### DC%20Gun%20Violence%20Problem%20Analysis%20Summary%20Report.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/release_content/attachments/DC%20Gun%20Violence%20Problem%20Analysis%20Summary%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### DCOCFO_Volume_4.pdf
+
+- **URL**: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/DCOCFO_Volume_4.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### DLI%20Testimony%20POH%20FY23_3.1.23.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/DLI%20Testimony%20POH%20FY23_3.1.23.pdf
+- **Status**: analysed
+- title, 
+
+### DLI%20Testimony-Performance%20Hearing%203.2.22.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/DLI%20Testimony-Performance%20Hearing%203.2.22.pdf
+- **Status**: analysed
+- title, 
+
+### FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf
+- **Status**: analysed
+- title, 
+
+### Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf
+
+- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf
+- **Status**: analysed
+- title, 
+
+### Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf
+
+- **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf
+- **Status**: analysed
+- title, 
+
+### Housing%20Webinar%20Summary%2009.20.23.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Housing%20Webinar%20Summary%2009.20.23.pdf
+- **Status**: analysed
+- title, 
+
+### ISF%20Program%202025.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/ISF%20Program%202025.pdf
+- **Status**: analysed
+- title, 
+
+### ISF%20Summary%202025%20%28Final%29.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/ISF%20Summary%202025%20%28Final%29.pdf
+- **Status**: analysed
+- title, 
+
+### JJ%20Webinar%20Alternatives%20to%20Incarceration%20for%20Youth.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/JJ%20Webinar%20Alternatives%20to%20Incarceration%20for%20Youth.pdf
+- **Status**: analysed
+- title, 
+
+### JJ%20Webinar%20Series%20Session%20Four.Reducing%20Youth%20Justice%20System%20Involvement.What%20Works.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/JJ%20Webinar%20Series%20Session%20Four.Reducing%20Youth%20Justice%20System%20Involvement.What%20Works.pdf
+- **Status**: analysed
+- title, 
+
+### July%20Spotlight%20on%20Aging%202019.pdf
+
+- **URL**: https://dacl.dc.gov/sites/default/files/dc/sites/dcoa/release_content/attachments/July%20Spotlight%20on%20Aging%202019.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf
+- **Status**: analysed
+- title, 
+
+### Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
+- **Status**: analysed
+- title, 
+
+### Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf
+- **Status**: analysed
+- title, 
+
+### Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf
+
+- **URL**: https://ddot.dc.gov/sites/default/files/dc/sites/ddot/page_content/attachments/Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### MHRS%20Bulletin%20Listing_0.pdf
+
+- **URL**: https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/MHRS%20Bulletin%20Listing_0.pdf
+- **Status**: analysed
+- title, 
+
+### Medical%20Cannabis%20Registered%20Practitioners%20-%20July%202024.pdf
+
+- **URL**: https://abca.dc.gov/sites/default/files/dc/sites/abra/publication/attachments/Medical%20Cannabis%20Registered%20Practitioners%20-%20July%202024.pdf
+- **Status**: analysed
+- title, 
+
+### Promising%20Practices%20at%20the%20Front%20End%20%20%28March%202023%29.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Promising%20Practices%20at%20the%20Front%20End%20%20%28March%202023%29.pdf
+- **Status**: analysed
+- title, 
+
+### QuickPaymentAct-11172021.pdf
+
+- **URL**: https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/QuickPaymentAct-11172021.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf
+- **Status**: analysed
+- title, 
+
+### Risk%20Assessment%20Information%20Session%20Summary%20Final%20Draft%20.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Risk%20Assessment%20Information%20Session%20Summary%20Final%20Draft%20.pdf
+- **Status**: analysed
+- title, 
+
+### SROJJTA_Summary.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/SROJJTA_Summary.pdf
+- **Status**: analysed
+- title, 
+
+### The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### Trauma%20Informed%20Webinar%20Summary%20.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Trauma%20Informed%20Webinar%20Summary%20.pdf
+- **Status**: analysed
+- title, 
+
+### Truck_Touch_2015%283%29.pdf
+
+- **URL**: https://calendar.dc.gov/sites/default/files/dc/sites/calendar/event_content/attachments/Truck_Touch_2015%283%29.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ag0_bega_chapter_2025j.pdf
+
+- **URL**: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/ag0_bega_chapter_2025j.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ag_bega_tables_2025j.pdf
+
+- **URL**: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/ag_bega_tables_2025j.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### evaluation_fredrick_weisberg.pdf
+
+- **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/evaluation_fredrick_weisberg.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### one%20pager%20JJS120%20%282%29.pdf
+
+- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/one%20pager%20JJS120%20%282%29.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rl_cfsa_chapter_2019j.pdf
+
+- **URL**: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_chapter_2019j.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rl_cfsa_tables_2019j.pdf
+
+- **URL**: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_tables_2019j.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rm_dbh_capital_2019j.pdf
+
+- **URL**: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rm_dbh_capital_2019j.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### statute_creating_the_commission.pdf
+
+- **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/statute_creating_the_commission.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### wbj_cab_tackles_backlog.pdf
+
+- **URL**: https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/wbj_cab_tackles_backlog.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### webpage%20%20Open%20Government%20Report%20%20October%202014.pdf
+
+- **URL**: https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/webpage%20%20Open%20Government%20Report%20%20October%202014.pdf
+- **Status**: analysed
+- title, tagged, lang, 
