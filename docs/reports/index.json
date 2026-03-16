@@ -4,7 +4,7 @@
     "site": "hamilton.ca",
     "crawl_url": "https://www.hamilton.ca/things-do/recreation",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23146815039",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/111#issuecomment-4067972284",
     "archive_file": "2026-03-16_14-14-18-919_hamilton.ca.html",
     "total": 262,
     "analysed": 242,
