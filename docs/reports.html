@@ -218,7 +218,7 @@
 
   <nav>
     <a href="./">&#8592; Back to submission form</a>
-    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">🌙</button>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
   </nav>
 
   <h1>&#128202; PDF Accessibility Scan Reports</h1>
@@ -394,11 +394,11 @@
         root.setAttribute('data-theme', theme);
         localStorage.setItem('theme', theme);
         if (theme === 'dark') {
-          btn.textContent = '\u2600\uFE0F';
+          btn.textContent = '☀️';
           btn.setAttribute('aria-label', 'Switch to light mode');
           btn.setAttribute('title', 'Switch to light mode');
         } else {
-          btn.textContent = '\uD83C\uDF19';
+          btn.textContent = '🌙';
           btn.setAttribute('aria-label', 'Switch to dark mode');
           btn.setAttribute('title', 'Switch to dark mode');
         }

@@ -1,19 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-16T08:31:38.245201+00:00
+Generated: 2026-03-16T13:15:29.807832+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 14738 |
-| Analysed | 3041 |
-| Pending analysis | 10303 |
-| Errors during analysis | 1394 |
-| Accessible | 1119 |
-| Totally inaccessible | 35 |
+| URLs crawled | 288 |
+| Total files tracked | 14944 |
+| Analysed | 3169 |
+| Pending analysis | 10375 |
+| Errors during analysis | 1400 |
+| Accessible | 1145 |
+| Totally inaccessible | 39 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 644 |
+| Exempt (pre-2018) | 661 |
 
 ## Files per Site
 
@@ -34,6 +35,7 @@ Generated: 2026-03-16T08:31:38.245201+00:00
 | energy.gov | 417 |
 | euclinicaltrials.eu | 78 |
 | gsa.gov | 450 |
+| hamilton.ca | 206 |
 | hud.gov | 1418 |
 | ijcaonline.org | 1 |
 | lasv.brandenburg.de | 260 |
@@ -3096,6 +3098,134 @@ Generated: 2026-03-16T08:31:38.245201+00:00
 | [aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf](https://euclinicaltrials.eu/documents/20482/2921140/Release+notes-v1.0.0.5-Jan2022/aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2115 | 7 |
 | [bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Sponsors+-+v1.0.6.0_oct2022.pdf/bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf) | euclinicaltrials.eu | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4890 | 2 |
 | [IJCACopyrightForm.pdf](https://www.ijcaonline.org/ip/IJCACopyrightForm.pdf) | ijcaonline.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 995 | 5 |
+| [2024-2028-Hamilton-Tourism-Strategy.pdf](https://www.hamilton.ca/sites/default/files/2025-04/2024-2028-Hamilton-Tourism-Strategy.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 50 | 19125 | 184 |
+| [23-045.pdf](https://www.hamilton.ca/sites/default/files/2023-04/23-045.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 | 2133 | 1 |
+| [25-043.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-043.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 1346 | 1 |
+| [25-044.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-044.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 1363 | 1 |
+| [25-049.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-049.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 1531 | 1 |
+| [25-050.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 1399 | 3 |
+| [25-144.pdf](https://www.hamilton.ca/sites/default/files/2025-08/25-144.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1612 | 1 |
+| [25-145.pdf](https://www.hamilton.ca/sites/default/files/2025-08/25-145.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1496 | 1 |
+| [25-146.pdf](https://www.hamilton.ca/sites/default/files/2025-08/25-146.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1383 | 1 |
+| [26-032.pdf](https://www.hamilton.ca/sites/default/files/2026-02/26-032.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1414 | 1 |
+| [26-033.pdf](https://www.hamilton.ca/sites/default/files/2026-02/26-033.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1415 | 1 |
+| [Accessibility-AssistiveDevices-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-AssistiveDevices-Policy.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 922 | 0 |
+| [Accessibility-ClearPrint-Guidelines.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-ClearPrint-Guidelines.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 1840 | 0 |
+| [Accessibility-Communication-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Communication-Policy.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 940 | 0 |
+| [Accessibility-DisruptionNotice-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-DisruptionNotice-Policy.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 591 | 0 |
+| [Accessibility-Feedback-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Feedback-Policy.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 754 | 0 |
+| [Accessibility-ServiceAnimal-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-ServiceAnimal-Policy.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 1135 | 0 |
+| [Accessibility-SupportPersons-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-SupportPersons-Policy.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 659 | 0 |
+| [Accessibility-Training-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Training-Policy.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 845 | 0 |
+| [CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-05/CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 2953 | 1 |
+| [CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1098 | 2 |
+| [Digital-Strategy-Accessible.pdf](https://www.hamilton.ca/sites/default/files/2023-02/Digital-Strategy-Accessible.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 44 | 3524 | 1 |
+| [EDI-2019urbanindigenousstrategy-Report.pdf](https://www.hamilton.ca/sites/default/files/2022-05/EDI-2019urbanindigenousstrategy-Report.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 44 | 6356 | 60 |
+| [EDI-UISimplementationplan2021.pdf](https://www.hamilton.ca/sites/default/files/2022-05/EDI-UISimplementationplan2021.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 3152 | 85 |
+| [EDI-orangeshirtday-colouringactivitypages.pdf](https://www.hamilton.ca/sites/default/files/2022-05/EDI-orangeshirtday-colouringactivitypages.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 0 | 4 |
+| [Existing-Truck-Route-Network.pdf](https://www.hamilton.ca/sites/default/files/2023-03/Existing-Truck-Route-Network.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 414 | 4 |
+| [News-Policy-mandatory-covid19-vaccination-verification-08262021.pdf](https://www.hamilton.ca/sites/default/files/2022-04/News-Policy-mandatory-covid19-vaccination-verification-08262021.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2182 | 8 |
+| [Strategic-Transportation-Network-Review-Active-Transportation-Project-List.pdf](https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-Active-Transportation-Project-List.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 4256 | 0 |
+| [Strategic-Transportation-Network-Review-PIC-1-Future-Transportation-Map.pdf](https://www.hamilton.ca/sites/default/files/2023-05/Strategic-Transportation-Network-Review-PIC-1-Future-Transportation-Map.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Strategic-Transportation-Network-Review-PIC-1-Roads-Transit-Project-List.pdf](https://www.hamilton.ca/sites/default/files/2023-05/Strategic-Transportation-Network-Review-PIC-1-Roads-Transit-Project-List.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 2246 | 0 |
+| [Strategic-Transportation-Network-Review-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-Report.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 115 | 40476 | 33 |
+| [Strategic-Transportation-Network-Review-Roads-Transit-Project-List.pdf](https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-Roads-Transit-Project-List.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 2274 | 0 |
+| [Strategic-Transportation-Network-Review-pic-2-active-transportation-project-list.pdf](https://www.hamilton.ca/sites/default/files/2024-01/Strategic-Transportation-Network-Review-pic-2-active-transportation-project-list.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 4694 | 0 |
+| [Strategic-Transportation-Network-Review-pic-2-presentation.pdf](https://www.hamilton.ca/sites/default/files/2024-01/Strategic-Transportation-Network-Review-pic-2-presentation.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 1129 | 38 |
+| [Strategic-Transportation-Network-Review-pic-2-roads-transit-project-list.pdf](https://www.hamilton.ca/sites/default/files/2024-01/Strategic-Transportation-Network-Review-pic-2-roads-transit-project-list.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 2268 | 0 |
+| [Strategic-Transportation-Network-Review-pic-2-structures-program-list.pdf](https://www.hamilton.ca/sites/default/files/2024-01/Strategic-Transportation-Network-Review-pic-2-structures-program-list.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 432 | 0 |
+| [Strategic-Transportation-Network-Review-structures-programs-list.pdf](https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-structures-programs-list.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 459 | 0 |
+| [WWSMP-Notice-of-Study-Transition.pdf](https://www.hamilton.ca/sites/default/files/2025-12/WWSMP-Notice-of-Study-Transition.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 422 | 8 |
+| [Water-Wastewater-Stormwater-Master-Plans-Strategic-Transportation-Network-Review-PIC-1-Presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-05/Water-Wastewater-Stormwater-Master-Plans-Strategic-Transportation-Network-Review-PIC-1-Presentation.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 31 | 3310 | 242 |
+| [Youth-Strategy-Report-2022-2027.pdf](https://www.hamilton.ca/sites/default/files/2023-03/Youth-Strategy-Report-2022-2027.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 32 | 4863 | 27 |
+| [accessibility-clause-advertisements-pic-pmeetings-july-2022.pdf](https://www.hamilton.ca/sites/default/files/2023-01/accessibility-clause-advertisements-pic-pmeetings-july-2022.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 66 | 0 |
+| [accessible-meeting-checklist.pdf](https://www.hamilton.ca/sites/default/files/2022-09/accessible-meeting-checklist.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 814 | 0 |
+| [aegd-tmp-updated-conceptual-cross-section-Oct2022.pdf](https://www.hamilton.ca/sites/default/files/2022-10/aegd-tmp-updated-conceptual-cross-section-Oct2022.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 896 | 23 |
+| [aoda-2005-statement-of-acknowledgement-fillable-mar2023.pdf](https://www.hamilton.ca/sites/default/files/2023-03/aoda-2005-statement-of-acknowledgement-fillable-mar2023.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 201 | 1 |
+| [budget-flowchart-2026.pdf](https://www.hamilton.ca/sites/default/files/2025-11/budget-flowchart-2026.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 13 | 3 |
+| [building-safer-communities-multi-year-plan.pdf](https://www.hamilton.ca/sites/default/files/2023-09/building-safer-communities-multi-year-plan.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 29 | 8685 | 15 |
+| [child-youth-network-SOP-agenda-planning-procedure-june2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-agenda-planning-procedure-june2025.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 537 | 2 |
+| [child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1215 | 4 |
+| [child-youth-network-SOP-email-distribution-procedure-june2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-email-distribution-procedure-june2025.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 420 | 2 |
+| [child-youth-network-community-engagement-procedure.pdf](https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-community-engagement-procedure.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1146 | 4 |
+| [child-youth-network-data-decision-support-guide1.pdf](https://www.hamilton.ca/sites/default/files/2025-11/child-youth-network-data-decision-support-guide1.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 0 | 10 |
+| [child-youth-network-terms-of-Reference-sep2025.pdf](https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-terms-of-Reference-sep2025.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 3450 | 12 |
+| [comm-update-2023-Urban-Forest-Pests.pdf](https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1689 | 1 |
+| [comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf](https://www.hamilton.ca/sites/default/files/2024-12/comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 4306 | 2 |
+| [comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-08/comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 848 | 3 |
+| [comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf](https://www.hamilton.ca/sites/default/files/2023-03/comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1061 | 3 |
+| [comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf](https://www.hamilton.ca/sites/default/files/2023-04/comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 433 | 2 |
+| [community-garden-final-report.pdf](https://www.hamilton.ca/sites/default/files/2022-08/community-garden-final-report.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 3226 | 1 |
+| [community-garden-infographic.pdf](https://www.hamilton.ca/sites/default/files/2022-08/community-garden-infographic.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 112 | 14 |
+| [community-garden-summary-report.pdf](https://www.hamilton.ca/sites/default/files/2022-08/community-garden-summary-report.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 908 | 0 |
+| [consideration-report-HSC25012-2025-2029-cswb-plan.pdf](https://www.hamilton.ca/sites/default/files/2025-06/consideration-report-HSC25012-2025-2029-cswb-plan.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 1837 | 1 |
+| [developmentcharges-backgroundstudy-2019.pdf](https://www.hamilton.ca/sites/default/files/2023-02/developmentcharges-backgroundstudy-2019.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 666 | 187176 | 911 |
+| [ea-safari-rd-pic2-presentation.pdf](https://www.hamilton.ca/sites/default/files/2025-09/ea-safari-rd-pic2-presentation.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 21 | 2702 | 73 |
+| [emergency_hps-master-plan-2022-2031.pdf](https://www.hamilton.ca/sites/default/files/2022-06/emergency_hps-master-plan-2022-2031.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 234 | 57139 | 174 |
+| [engagement-municipal-scan-practices.pdf](https://www.hamilton.ca/sites/default/files/2024-05/engagement-municipal-scan-practices.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 1153 | 1109 |
+| [engagement-public-engagement-policy-CMO-GRCE-24-01.pdf](https://www.hamilton.ca/sites/default/files/2024-05/engagement-public-engagement-policy-CMO-GRCE-24-01.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1796 | 6 |
+| [environmentalassessments-SafariRdEA_PIC1-Displays.pdf](https://www.hamilton.ca/sites/default/files/2024-09/environmentalassessments-SafariRdEA_PIC1-Displays.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 964 | 35 |
+| [hamilton-digital-strategy_0.pdf](https://www.hamilton.ca/sites/default/files/2023-01/hamilton-digital-strategy_0.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 3432 | 5 |
+| [hamilton-drug-strategy-report.pdf](https://www.hamilton.ca/sites/default/files/2022-08/hamilton-drug-strategy-report.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 2646 | 18 |
+| [hamilton-food-literacy-network-forum-report-2017.pdf](https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 44 | 7810 | 34 |
+| [hamilton-food-strategy-forum-summary.pdf](https://www.hamilton.ca/sites/default/files/2023-07/hamilton-food-strategy-forum-summary.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 24 | 5817 | 11 |
+| [hamilton-food-strategy.pdf](https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 125 | 17089 | 144 |
+| [hamilton-supervised-injection-site-study.pdf](https://www.hamilton.ca/sites/default/files/2023-03/hamilton-supervised-injection-site-study.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 96 | 24633 | 14 |
+| [harassment-discrimination-prevention-policy.pdf](https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 5036 | 16 |
+| [hwy52-powerlinerd-ea-pic1-presentation-apr2025-1.pdf](https://www.hamilton.ca/sites/default/files/2025-04/hwy52-powerlinerd-ea-pic1-presentation-apr2025-1.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 22 | 2236 | 46 |
+| [hwy52-powerlinerd-ea-pic2-presentation-oct2025.pdf](https://www.hamilton.ca/sites/default/files/2025-10/hwy52-powerlinerd-ea-pic2-presentation-oct2025.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 1262 | 65 |
+| [indigenous-health-strateg-2023.pdf](https://www.hamilton.ca/sites/default/files/2025-07/indigenous-health-strateg-2023.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 32 | 7508 | 26 |
+| [indigenous-relations-honouring-our-roots-report_0.pdf](https://www.hamilton.ca/sites/default/files/2024-07/indigenous-relations-honouring-our-roots-report_0.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 40 | 15180 | 5 |
+| [indigenous-tourism-development-strategy.pdf](https://www.hamilton.ca/sites/default/files/2025-11/indigenous-tourism-development-strategy.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 32 | 8756 | 51 |
+| [info-report-CSWB-Progress-Report-%28HSC24050%29.pdf](https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 2093 | 2 |
+| [info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf](https://www.hamilton.ca/sites/default/files/2023-08/info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1675 | 2 |
+| [info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-09/info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 2725 | 2 |
+| [main-whitney-ea-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-01/main-whitney-ea-pic1-presentation.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 978 | 148 |
+| [main-whitney-ea-pic2-comment.pdf](https://www.hamilton.ca/sites/default/files/2023-04/main-whitney-ea-pic2-comment.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 339 | 6 |
+| [main-whitney-ea-pic2-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-04/main-whitney-ea-pic2-presentation.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 2700 | 296 |
+| [mainwhitney-ea-pic1-comment1.pdf](https://www.hamilton.ca/sites/default/files/2023-01/mainwhitney-ea-pic1-comment1.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 308 | 6 |
+| [masterplan-pipeline-trail-appendix.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail-appendix.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 60 | 4792 | 399 |
+| [masterplan-pipeline-trail-drawingsL1-5.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail-drawingsL1-5.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 19034 |
+| [masterplan-pipeline-trail-drawingsL12-16.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail-drawingsL12-16.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 165 | 25470 |
+| [masterplan-pipeline-trail-drawingsL6-11.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail-drawingsL6-11.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 42822 |
+| [masterplan-pipeline-trail.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 65 | 17025 | 387 |
+| [masterplan-public-art-2016.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-public-art-2016.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 46 | 7151 | 51 |
+| [masterplan-recreational-trails2.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-recreational-trails2.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 142 | 54646 | 116 |
+| [masterplan-solid-waste.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-solid-waste.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 74 | 24437 | 81 |
+| [masterplan-transportation-2007.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-2007.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 100 | 39695 | 125 |
+| [masterplan-transportation-background-CLBstreets.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-CLBstreets.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 76 | 19845 | 816 |
+| [masterplan-transportation-background-cyclingmasterplanreview.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-cyclingmasterplanreview.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 53 | 16715 | 17 |
+| [masterplan-transportation-background-emergingtech.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-emergingtech.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 11 | 2775 | 5 |
+| [masterplan-transportation-background-goodsmovement.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-goodsmovement.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 42 | 14978 | 11 |
+| [masterplan-transportation-background-roadsafety.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-roadsafety.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 | 2186 | 17 |
+| [masterplan-transportation-background-roleofhealth.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-roleofhealth.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 | 1941 | 2 |
+| [masterplan-transportation-background-stconversions.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-stconversions.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 14 | 3814 | 3 |
+| [masterplan-transportation-background-sustainablemobility.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-sustainablemobility.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 39 | 13002 | 49 |
+| [masterplan-transportation-update-2018.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-update-2018.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 159 | 50658 | 232 |
+| [masterplan-truck-route-update.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-truck-route-update.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 173 | 52420 | 199 |
+| [masterplan-water-wastewater-appendices.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-appendices.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 154 | 36563 | 11948 |
+| [masterplan-water-wastewater-newsletter-apr2022.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-newsletter-apr2022.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 606 | 9 |
+| [masterplan-water-wastewater-newsletter-aug2021.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-newsletter-aug2021.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 652 | 6 |
+| [masterplan-water-wastewater-newsletter-jul2022.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-newsletter-jul2022.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 584 | 9 |
+| [masterplan-water-wastewater-newsletter-oct2021.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-newsletter-oct2021.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1293 | 25 |
+| [masterplan-water-wastewater-notice-commencement.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-notice-commencement.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 438 | 3 |
+| [mcquestenparkpedbridge-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2026-02/mcquestenparkpedbridge-pic1-presentation.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 17 | 1914 | 71 |
+| [medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf](https://www.hamilton.ca/sites/default/files/2025-08/medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 1744 | 4 |
+| [medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf](https://www.hamilton.ca/sites/default/files/2025-09/medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1668 | 1 |
+| [municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf](https://www.hamilton.ca/sites/default/files/2026-01/municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 1764 | 10 |
+| [municipal-act-charges-proposed-bylaws-apr23-2025.pdf](https://www.hamilton.ca/sites/default/files/2025-04/municipal-act-charges-proposed-bylaws-apr23-2025.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 38 | 7804 | 7 |
+| [neighbourhood-risk-management-toolkit.pdf](https://www.hamilton.ca/sites/default/files/2022-12/neighbourhood-risk-management-toolkit.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 32 | 3825 | 737 |
+| [our-future-hamilton-2018-summit-summary-report.pdf](https://www.hamilton.ca/sites/default/files/2025-02/our-future-hamilton-2018-summit-summary-report.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 2895 | 15 |
+| [our-future-hamilton-2019-summit-summary-report.pdf](https://www.hamilton.ca/sites/default/files/2023-10/our-future-hamilton-2019-summit-summary-report.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 2752 | 24 |
+| [ourfuturehamilton-final-report-2017.pdf](https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-final-report-2017.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 36 | 5733 | 76 |
+| [ourfuturehamilton-progress-report-2018.pdf](https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 20 | 5787 | 2962 |
+| [ourfuturehamilton-suggested-actions.pdf](https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-suggested-actions.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 28 | 4187 | 48 |
+| [parking-master-plan.pdf](https://www.hamilton.ca/sites/default/files/2024-01/parking-master-plan.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 40 | 12747 | 65 |
+| [public-engagement-charter.pdf](https://www.hamilton.ca/sites/default/files/2023-10/public-engagement-charter.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 28 | 2893 | 44 |
+| [recreation-master-plan.pdf](https://www.hamilton.ca/sites/default/files/2022-11/recreation-master-plan.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 135 | 39549 | 115 |
+| [recreation_08.2-Appendix-A-Recreation-Master-Plan-Implementation%20Strategy-%28revised%29-Sep162025.pdf](https://www.hamilton.ca/sites/default/files/2025-09/recreation_08.2-Appendix-A-Recreation-Master-Plan-Implementation%20Strategy-%28revised%29-Sep162025.pdf) | hamilton.ca | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 174 | 44280 | 112 |
+| [report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf](https://www.hamilton.ca/sites/default/files/2024-09/report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf) | hamilton.ca | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1904 | 2 |
+| [rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf](https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf) | hamilton.ca | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 703 | 3 |
 
 ## Files with Errors or Notes
 
@@ -23006,3 +23136,651 @@ Generated: 2026-03-16T08:31:38.245201+00:00
 - **URL**: https://www.ijcaonline.org/ip/IJCACopyrightForm.pdf
 - **Status**: analysed
 - title, 
+
+### 2024-2028-Hamilton-Tourism-Strategy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/2024-2028-Hamilton-Tourism-Strategy.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### 23-045.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-04/23-045.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 25-043.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-043.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 25-044.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-044.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 25-049.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-049.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 25-050.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Accessibility-AssistiveDevices-Policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-AssistiveDevices-Policy.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Accessibility-ClearPrint-Guidelines.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-ClearPrint-Guidelines.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Accessibility-Communication-Policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Communication-Policy.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Accessibility-DisruptionNotice-Policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-DisruptionNotice-Policy.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Accessibility-Feedback-Policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Feedback-Policy.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Accessibility-ServiceAnimal-Policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-ServiceAnimal-Policy.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Accessibility-SupportPersons-Policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-SupportPersons-Policy.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Accessibility-Training-Policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Training-Policy.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
+- **Status**: analysed
+- lang, 
+
+### EDI-2019urbanindigenousstrategy-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-2019urbanindigenousstrategy-Report.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### EDI-UISimplementationplan2021.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-UISimplementationplan2021.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### EDI-orangeshirtday-colouringactivitypages.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-orangeshirtday-colouringactivitypages.pdf
+- **Status**: analysed
+- title, 
+
+### Existing-Truck-Route-Network.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/Existing-Truck-Route-Network.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Strategic-Transportation-Network-Review-Active-Transportation-Project-List.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-Active-Transportation-Project-List.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Strategic-Transportation-Network-Review-PIC-1-Future-Transportation-Map.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-05/Strategic-Transportation-Network-Review-PIC-1-Future-Transportation-Map.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Strategic-Transportation-Network-Review-PIC-1-Roads-Transit-Project-List.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-05/Strategic-Transportation-Network-Review-PIC-1-Roads-Transit-Project-List.pdf
+- **Status**: analysed
+- title, 
+
+### Strategic-Transportation-Network-Review-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-Report.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Strategic-Transportation-Network-Review-Roads-Transit-Project-List.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-Roads-Transit-Project-List.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Strategic-Transportation-Network-Review-pic-2-active-transportation-project-list.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-01/Strategic-Transportation-Network-Review-pic-2-active-transportation-project-list.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Strategic-Transportation-Network-Review-pic-2-presentation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-01/Strategic-Transportation-Network-Review-pic-2-presentation.pdf
+- **Status**: analysed
+- title, 
+
+### Strategic-Transportation-Network-Review-pic-2-roads-transit-project-list.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-01/Strategic-Transportation-Network-Review-pic-2-roads-transit-project-list.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Strategic-Transportation-Network-Review-pic-2-structures-program-list.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-01/Strategic-Transportation-Network-Review-pic-2-structures-program-list.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Strategic-Transportation-Network-Review-structures-programs-list.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-structures-programs-list.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### WWSMP-Notice-of-Study-Transition.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-12/WWSMP-Notice-of-Study-Transition.pdf
+- **Status**: analysed
+- title, 
+
+### Water-Wastewater-Stormwater-Master-Plans-Strategic-Transportation-Network-Review-PIC-1-Presentation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-05/Water-Wastewater-Stormwater-Master-Plans-Strategic-Transportation-Network-Review-PIC-1-Presentation.pdf
+- **Status**: analysed
+- title, 
+
+### Youth-Strategy-Report-2022-2027.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/Youth-Strategy-Report-2022-2027.pdf
+- **Status**: analysed
+- title, 
+
+### accessible-meeting-checklist.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/accessible-meeting-checklist.pdf
+- **Status**: analysed
+- title, lang, 
+
+### budget-flowchart-2026.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/budget-flowchart-2026.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### building-safer-communities-multi-year-plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/building-safer-communities-multi-year-plan.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
+- **Status**: analysed
+- title, 
+
+### child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
+- **Status**: analysed
+- title, 
+
+### child-youth-network-SOP-email-distribution-procedure-june2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-email-distribution-procedure-june2025.pdf
+- **Status**: analysed
+- title, 
+
+### child-youth-network-community-engagement-procedure.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-community-engagement-procedure.pdf
+- **Status**: analysed
+- title, 
+
+### child-youth-network-data-decision-support-guide1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/child-youth-network-data-decision-support-guide1.pdf
+- **Status**: analysed
+- tagged, 
+
+### child-youth-network-terms-of-Reference-sep2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-terms-of-Reference-sep2025.pdf
+- **Status**: analysed
+- title, 
+
+### comm-update-2023-Urban-Forest-Pests.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf
+- **Status**: analysed
+- title, lang, 
+
+### comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-08/comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-04/comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf
+- **Status**: analysed
+- title, lang, 
+
+### community-garden-final-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-final-report.pdf
+- **Status**: analysed
+- title, 
+
+### community-garden-infographic.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-infographic.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### community-garden-summary-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-summary-report.pdf
+- **Status**: analysed
+- title, 
+
+### consideration-report-HSC25012-2025-2029-cswb-plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/consideration-report-HSC25012-2025-2029-cswb-plan.pdf
+- **Status**: analysed
+- lang, 
+
+### emergency_hps-master-plan-2022-2031.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-06/emergency_hps-master-plan-2022-2031.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### engagement-municipal-scan-practices.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/engagement-municipal-scan-practices.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### grids-grids-strategy-2006.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-05/grids-grids-strategy-2006.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### hamilton-drug-strategy-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-drug-strategy-report.pdf
+- **Status**: analysed
+- title, 
+
+### hamilton-food-literacy-network-forum-report-2017.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### hamilton-food-strategy-forum-summary.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-07/hamilton-food-strategy-forum-summary.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### hamilton-food-strategy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### hamilton-supervised-injection-site-study.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/hamilton-supervised-injection-site-study.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### harassment-discrimination-prevention-policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf
+- **Status**: analysed
+- title, 
+
+### indigenous-health-strateg-2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-07/indigenous-health-strateg-2023.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### indigenous-tourism-development-strategy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/indigenous-tourism-development-strategy.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
+- **Status**: analysed
+- lang, 
+
+### info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-08/info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
+- **Status**: analysed
+- title, lang, 
+
+### info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
+- **Status**: analysed
+- lang, 
+
+### main-whitney-ea-pic1-presentation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-01/main-whitney-ea-pic1-presentation.pdf
+- **Status**: analysed
+- title, 
+
+### main-whitney-ea-pic2-comment.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-04/main-whitney-ea-pic2-comment.pdf
+- **Status**: analysed
+- title, 
+
+### main-whitney-ea-pic2-presentation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-04/main-whitney-ea-pic2-presentation.pdf
+- **Status**: analysed
+- title, 
+
+### mainwhitney-ea-pic1-comment1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-01/mainwhitney-ea-pic1-comment1.pdf
+- **Status**: analysed
+- title, 
+
+### masterplan-pipeline-trail-appendix.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail-appendix.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-pipeline-trail-drawingsL1-5.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail-drawingsL1-5.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-pipeline-trail-drawingsL12-16.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail-drawingsL12-16.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-pipeline-trail-drawingsL6-11.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail-drawingsL6-11.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-pipeline-trail.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-pipeline-trail.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-public-art-2016.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-public-art-2016.pdf
+- **Status**: analysed
+- title, 
+
+### masterplan-recreational-trails-network-maps1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-recreational-trails-network-maps1.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### masterplan-recreational-trails2.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-recreational-trails2.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-solid-waste.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-solid-waste.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### masterplan-stormwater-management.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-stormwater-management.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### masterplan-transportation-2007.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-2007.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-transportation-background-CLBstreets.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-CLBstreets.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### masterplan-transportation-background-cyclingmasterplanreview.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-cyclingmasterplanreview.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### masterplan-transportation-background-emergingtech.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-emergingtech.pdf
+- **Status**: analysed
+- title, 
+
+### masterplan-transportation-background-futuretraveldemand.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-futuretraveldemand.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### masterplan-transportation-background-goodsmovement.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-goodsmovement.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### masterplan-transportation-background-roadsafety.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-roadsafety.pdf
+- **Status**: analysed
+- title, 
+
+### masterplan-transportation-background-roleofhealth.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-roleofhealth.pdf
+- **Status**: analysed
+- title, 
+
+### masterplan-transportation-background-stconversions.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-stconversions.pdf
+- **Status**: analysed
+- title, lang, 
+
+### masterplan-transportation-background-sustainablemobility.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-background-sustainablemobility.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### masterplan-transportation-update-2018.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-transportation-update-2018.pdf
+- **Status**: analysed
+- title, lang, 
+
+### masterplan-truck-route-update-consultation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-truck-route-update-consultation.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### masterplan-truck-route-update.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-truck-route-update.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### masterplan-water-wastewater-appendices.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-appendices.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-water-wastewater-notice-commencement.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-notice-commencement.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### masterplan-water-wastewater.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### mcquestenparkpedbridge-pic1-presentation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2026-02/mcquestenparkpedbridge-pic1-presentation.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
+- **Status**: analysed
+- title, lang, 
+
+### municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2026-01/municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf
+- **Status**: analysed
+- title, 
+
+### municipal-act-charges-proposed-bylaws-apr23-2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/municipal-act-charges-proposed-bylaws-apr23-2025.pdf
+- **Status**: analysed
+- title, lang, 
+
+### neighbourhood-risk-management-toolkit.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/neighbourhood-risk-management-toolkit.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### our-future-hamilton-2018-summit-summary-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-02/our-future-hamilton-2018-summit-summary-report.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### our-future-hamilton-2019-summit-summary-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-10/our-future-hamilton-2019-summit-summary-report.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### ourfuturehamilton-final-report-2017.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-final-report-2017.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### ourfuturehamilton-progress-report-2018.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ourfuturehamilton-suggested-actions.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-suggested-actions.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### parking-master-plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-01/parking-master-plan.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### public-engagement-charter.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-10/public-engagement-charter.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### recreation-master-plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-11/recreation-master-plan.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
+- **Status**: analysed
+- lang, 
+
+### rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 

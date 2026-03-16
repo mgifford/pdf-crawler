@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-16T13:15:29.807832+00:00",
+    "site": "hamilton.ca",
+    "crawl_url": "https://www.hamilton.ca/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23143855620",
+    "issue_url": "",
+    "archive_file": "2026-03-16_13-15-29-807_hamilton.ca.html",
+    "total": 206,
+    "analysed": 128,
+    "accessible": 26
+  },
+  {
     "date": "2026-03-16T08:31:38.245201+00:00",
     "site": "all",
     "crawl_url": "",
