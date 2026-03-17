@@ -1,19 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-16T22:52:58.912743+00:00
+Generated: 2026-03-17T19:51:44.123511+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 15535 |
-| Analysed | 3559 |
+| URLs crawled | 755 |
+| Total files tracked | 15622 |
+| Analysed | 3646 |
 | Pending analysis | 10551 |
 | Errors during analysis | 1425 |
-| Accessible | 1212 |
+| Accessible | 1264 |
 | Totally inaccessible | 55 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 744 |
+| Exempt (pre-2018) | 766 |
 
 ## Files per Site
 
@@ -27,7 +28,7 @@ Generated: 2026-03-16T22:52:58.912743+00:00
 | ble.de | 268 |
 | calgary.ca | 165 |
 | canada.ca | 496 |
-| cms.gov | 373 |
+| cms.gov | 460 |
 | ctoec.org | 1742 |
 | dc.gov | 74 |
 | ec.europa.eu | 199 |
@@ -3618,6 +3619,93 @@ Generated: 2026-03-16T22:52:58.912743+00:00
 | [ucms%20-%20how%20to%20register%20online%20tpa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucms%20-%20how%20to%20register%20online%20tpa.pdf) | pa.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 651 | 23 |
 | [Bixal_Transforming_Govt_CX.pdf](https://www.bixal.com/sites/default/files/2024-06/Bixal_Transforming_Govt_CX.pdf) | bixal.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 5028 | 1 |
 | [data-maturity-checklist.pdf](https://www.bixal.com/sites/default/files/2024-06/data-maturity-checklist.pdf) | bixal.com | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 425 | 0 |
+| [03092020-covid-19-faqs-508.pdf](https://www.cms.gov/files/document/03092020-covid-19-faqs-508.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 181 | 72020 | 197 |
+| [102622-landscape-and-window-shopping-508.pdf](https://www.cms.gov/files/document/102622-landscape-and-window-shopping-508.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2842 | 8 |
+| [2006_vendor_apppdf.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/2006_vendor_apppdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 10 | 3513 | 0 |
+| [2009-2011_cap_vendor_bidding_application.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/2009-2011_cap_vendor_bidding_application.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 10 | 3514 | 0 |
+| [2016-hac-report.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitalacqcond/downloads/2016-hac-report.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 76 | 16016 | 0 |
+| [2023-shared-savings-program-fast-facts.pdf](https://www.cms.gov/files/document/2023-shared-savings-program-fast-facts.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 341 | 3 |
+| [2023qhppremiumschoicereport.pdf](https://www.cms.gov/cciio/resources/data-resources/downloads/2023qhppremiumschoicereport.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 3699 | 7 |
+| [2024-announcement-pdf.pdf](https://www.cms.gov/files/document/2024-announcement-pdf.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 200 | 80666 | 11 |
+| [2026-ma-part-d-landscape-state-state-fact-sheet.pdf](https://www.cms.gov/files/document/2026-ma-part-d-landscape-state-state-fact-sheet.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 168 | 45252 | 56 |
+| [5010_provider_natl_conf_call_06092009.pdf](https://www.cms.gov/regulations-and-guidance/administrative-simplification/versions5010andd0/downloads/5010_provider_natl_conf_call_06092009.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 27 | 2503 | 93 |
+| [7716-ab-registrationtermination-list-data-dictionary-web_1.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/7716-ab-registrationtermination-list-data-dictionary-web_1.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 689 | 0 |
+| [82820-mi-ehb.pdf](https://www.cms.gov/files/document/82820-mi-ehb.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 579 | 1 |
+| [82820-nm-ehb.pdf](https://www.cms.gov/files/document/82820-nm-ehb.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 593 | 1 |
+| [82820-or-ehb.pdf](https://www.cms.gov/files/document/82820-or-ehb.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 651 | 1 |
+| [CEDComment-response.pdf](https://www.cms.gov/Medicare/Coverage/Coverage-with-Evidence-Development/Downloads/CEDComment-response.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1440 | 0 |
+| [MEDCACcharter.pdf](https://www.cms.gov/Regulations-and-Guidance/Guidance/FACA/Downloads/MEDCACcharter.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1757 | 7 |
+| [R487CP.pdf](https://www.cms.gov/Regulations-and-Guidance/Guidance/Transmittals/downloads/R487CP.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 | 1784 | 0 |
+| [august-2024-complaint-data-and-enforcement-report.pdf](https://www.cms.gov/files/document/august-2024-complaint-data-and-enforcement-report.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 434 | 3 |
+| [bid_ceiling.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/bid_ceiling.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 420 | 0 |
+| [branding-guide.pdf](https://www.cms.gov/about-cms/agency-information/cms-brand-identity/downloads/branding-guide.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 3423 | 7 |
+| [broker-help-desks.pdf](https://www.cms.gov/files/document/agent/broker-help-desks.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1060 | 8 |
+| [carlson_comment_03152019.pdf](https://www.cms.gov/Medicare/Coverage/DeterminationProcess/downloads/carlson_comment_03152019.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 29 | 8468 | 51 |
+| [cgt-model-ovw-fact-sheet.pdf](https://www.cms.gov/files/document/cgt-model-ovw-fact-sheet.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1069 | 12 |
+| [clm104c04.pdf](https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/Downloads/clm104c04.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 313 | 108868 | 0 |
+| [cms-geographic-framework.pdf](https://www.cms.gov/files/document/cms-geographic-framework.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 7188 | 13 |
+| [cmsopps340bupdate508g.pdf](https://www.cms.gov/files/document/cmsopps340bupdate508g.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 606 | 1 |
+| [coins.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/coins.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 817 | 0 |
+| [covid-19-mac-hotlines.pdf](https://www.cms.gov/files/document/covid-19-mac-hotlines.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 489 | 0 |
+| [covid-19-toolkit-issuers-ma-plans-22.pdf](https://www.cms.gov/files/document/covid-19-toolkit-issuers-ma-plans-22.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 30 | 11920 | 30 |
+| [covid-ifc-3-8-25-20.pdf](https://www.cms.gov/files/document/covid-ifc-3-8-25-20.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 202 | 70745 | 0 |
+| [drug-price-negotiation-timeline-2026.pdf](https://www.cms.gov/files/document/drug-price-negotiation-timeline-2026.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 794 | 0 |
+| [edeapprovedpartnerlistpdf.pdf](https://www.cms.gov/files/document/edeapprovedpartnerlistpdf.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 785 | 1 |
+| [enforcement-report-11-23.pdf](https://www.cms.gov/files/document/enforcement-report-11-23.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 404 | 3 |
+| [es-help-demand-managing-referrals.pdf](https://www.cms.gov/marketplace/agents-brokers/files/es-help-demand-managing-referrals.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1837 | 18 |
+| [evidenced_based_guidelines_report.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitalacqcond/downloads/evidenced_based_guidelines_report.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 43 | 13104 | 0 |
+| [fact-sheet-doi-awards-10-31-16_final.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-market-reforms/downloads/fact-sheet-doi-awards-10-31-16_final.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 807 | 0 |
+| [fact-sheet-ssp-py24-financial-quality-results.pdf](https://www.cms.gov/files/document/fact-sheet-ssp-py24-financial-quality-results.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1064 | 6 |
+| [factsheet-medicare-negotiation-selected-drug-list-ipay-2027.pdf](https://www.cms.gov/files/document/factsheet-medicare-negotiation-selected-drug-list-ipay-2027.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 2032 | 0 |
+| [factsheet-medicare-negotiation-selected-drug-list-ipay-2028.pdf](https://www.cms.gov/files/document/factsheet-medicare-negotiation-selected-drug-list-ipay-2028.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 2234 | 0 |
+| [factsheet-medicare-top-50-negotiation-eligible-drug-list-ipay-2028.pdf](https://www.cms.gov/files/document/factsheet-medicare-top-50-negotiation-eligible-drug-list-ipay-2028.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1419 | 0 |
+| [faqs-part-49.pdf](https://www.cms.gov/cciio/resources/fact-sheets-and-faqs/downloads/faqs-part-49.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 5551 | 0 |
+| [february-2024-complaint-data-and-enforcement-report.pdf](https://www.cms.gov/files/document/february-2024-complaint-data-and-enforcement-report.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 404 | 3 |
+| [frequently-asked-questions-cms-waivers-flexibilities-and-end-covid-19-public-health-emergency.pdf](https://www.cms.gov/files/document/frequently-asked-questions-cms-waivers-flexibilities-and-end-covid-19-public-health-emergency.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 8681 | 19 |
+| [fy-2024-hcfac-operating-plan.pdf](https://www.cms.gov/files/document/fy-2024-hcfac-operating-plan.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 50 | 0 |
+| [fy-2024-program-management-operating-plan.pdf](https://www.cms.gov/files/document/fy-2024-program-management-operating-plan.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 182 | 0 |
+| [grants-to-states-added-flexibility-2018.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2018.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 70 | 22220 | 0 |
+| [inflation-rebate-fact-sheet-february-2023.pdf](https://www.cms.gov/files/document/inflation-rebate-fact-sheet-february-2023.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1241 | 0 |
+| [infographic-negotiated-prices-ipay-2027.pdf](https://www.cms.gov/files/document/infographic-negotiated-prices-ipay-2027.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 432 | 0 |
+| [innovators-guide-master-7-23-15.pdf](https://www.cms.gov/medicare/coverage/councilontechinnov/downloads/innovators-guide-master-7-23-15.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 63 | 26524 | 18 |
+| [january_2008_list_of_drugs_supplied_under_the_cap.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/january_2008_list_of_drugs_supplied_under_the_cap.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 24 | 2327 | 0 |
+| [macs-hub-medicare-ffs-program.pdf](https://www.cms.gov/files/document/macs-hub-medicare-ffs-program.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 63 | 0 |
+| [maternal-morbidity-structural-measure-specifications.pdf](https://www.cms.gov/files/document/maternal-morbidity-structural-measure-specifications.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 365 | 0 |
+| [may-2024-complaint-data-and-enforcement-report.pdf](https://www.cms.gov/files/document/may-2024-complaint-data-and-enforcement-report.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 437 | 3 |
+| [medicare-and-medicaid-milestones-1937-2015.pdf](https://www.cms.gov/about-cms/agency-information/history/downloads/medicare-and-medicaid-milestones-1937-2015.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 9 | 2753 | 9 |
+| [medicare-drug-price-negotiation-selection-process.pdf](https://www.cms.gov/files/document/medicare-drug-price-negotiation-selection-process.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 571 | 1 |
+| [medicare-part-b-inflation-rebate-program-initial-guidance.pdf](https://www.cms.gov/files/document/medicare-part-b-inflation-rebate-program-initial-guidance.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 14898 | 2 |
+| [medicare-part-d-inflation-rebate-program-initial-guidance.pdf](https://www.cms.gov/files/document/medicare-part-d-inflation-rebate-program-initial-guidance.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 35 | 18648 | 2 |
+| [medicare-prescription-drug-inflation-rebate-program-proposed-rule-fact-sheet.pdf](https://www.cms.gov/files/document/medicare-prescription-drug-inflation-rebate-program-proposed-rule-fact-sheet.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 4044 | 0 |
+| [moratorium-on-hospital-supervision-enforcement.pdf](https://www.cms.gov/regulations-and-guidance/guidance/faca/downloads/moratorium-on-hospital-supervision-enforcement.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 210 | 0 |
+| [mssp-fact-sheet-cy-2023-pfs-final-rule.pdf](https://www.cms.gov/files/document/mssp-fact-sheet-cy-2023-pfs-final-rule.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 6165 | 13 |
+| [november-2024-complaint-data-and-enforcement-report.pdf](https://www.cms.gov/files/document/november-2024-complaint-data-and-enforcement-report.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 482 | 3 |
+| [opioid-epidemic-roadmap.pdf](https://www.cms.gov/about-cms/agency-information/emergency/downloads/opioid-epidemic-roadmap.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1540 | 2 |
+| [partasoftwarereleasepdf.pdf](https://www.cms.gov/files/document/partasoftwarereleasepdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 166 | 0 |
+| [partbdrugcap2009vendorbiddingaddendum2.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/partbdrugcap2009vendorbiddingaddendum2.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 515 | 0 |
+| [phase-3-state-tracking-report.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitalacqcond/downloads/phase-3-state-tracking-report.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 52 | 16897 | 2 |
+| [postpay.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/postpay.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 419 | 0 |
+| [proposed-2022-hhs-notice-benefit-and-payment-parameters-fact-sheet.pdf](https://www.cms.gov/files/document/proposed-2022-hhs-notice-benefit-and-payment-parameters-fact-sheet.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2663 | 0 |
+| [py2023-county-coverage-map.pdf](https://www.cms.gov/files/document/py2023-county-coverage-map.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 112 | 0 |
+| [qin-qio-fact-page.pdf](https://www.cms.gov/files/document/qin-qio-fact-page.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 347 | 11 |
+| [qso-22-05-hospitals.pdf](https://www.cms.gov/files/document/qso-22-05-hospitals.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1656 | 1 |
+| [qssam-25-02-hospitals.pdf](https://www.cms.gov/files/document/qssam-25-02-hospitals.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1151 | 1 |
+| [r12590ncd.pdf](https://www.cms.gov/files/document/r12590ncd.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1204 | 0 |
+| [r777cp.pdf](https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/r777cp.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 26 | 6573 | 0 |
+| [r866cppdf.pdf](https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/dwnlds/r866cppdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 40 | 12131 | 0 |
+| [report-to-congress-september-2015.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/ambulancefeeschedule/downloads/report-to-congress-september-2015.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 63 | 19371 | 42 |
+| [rfi-medicare-dialysis.pdf](https://www.cms.gov/about-cms/components/cpi/downloads/rfi-medicare-dialysis.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 572 | 1 |
+| [se20005.pdf](https://www.cms.gov/files/document/se20005.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1742 | 15 |
+| [social-media-evolution-excellence.pdf](https://www.cms.gov/files/document/social-media-evolution-excellence.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 174 | 0 |
+| [social-media-how-qin-qio-13th-scope-work-supports-making-america-healthy-again-maha.pdf](https://www.cms.gov/files/document/social-media-how-qin-qio-13th-scope-work-supports-making-america-healthy-again-maha.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 145 | 0 |
+| [social-media-key-features-cms-qin-qio-13th-scope-work.pdf](https://www.cms.gov/files/document/social-media-key-features-cms-qin-qio-13th-scope-work.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 194 | 0 |
+| [social-media-transforming-healthcare-quality.pdf](https://www.cms.gov/files/document/social-media-transforming-healthcare-quality.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 174 | 0 |
+| [som107ap_z_emergprep.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/som107ap_z_emergprep.pdf) | cms.gov | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 108 | 42154 | 0 |
+| [state-exchange-oe-chart-py-2025.pdf](https://www.cms.gov/files/document/state-exchange-oe-chart-py-2025.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 862 | 0 |
+| [state-flexibility-grant-fact-sheet.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-market-reforms/downloads/state-flexibility-grant-fact-sheet.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 882 | 0 |
+| [talking-people-medicare-about-covid-19-vaccine.pdf](https://www.cms.gov/files/document/talking-people-medicare-about-covid-19-vaccine.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 491 | 0 |
+| [trhcapdf.pdf](https://www.cms.gov/regulations-and-guidance/legislation/legislativeupdate/downloads/trhcapdf.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 559 | 111856 | 0 |
+| [what-macfunctional-contractors-overview.pdf](https://www.cms.gov/files/document/what-macfunctional-contractors-overview.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 948 | 0 |
 
 ## Files with Errors or Notes
 
@@ -26264,3 +26352,213 @@ Generated: 2026-03-16T22:52:58.912743+00:00
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/york%20nhios%20town%20hall%20flyer.pdf
 - **Status**: error
 - File not found: crawled_files/pa.gov/york%20nhios%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.978353+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2006_vendor_apppdf.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/2006_vendor_apppdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2009-2011_cap_vendor_bidding_application.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/2009-2011_cap_vendor_bidding_application.pdf
+- **Status**: analysed
+- title, 
+
+### 2026-ma-part-d-landscape-state-state-fact-sheet.pdf
+
+- **URL**: https://www.cms.gov/files/document/2026-ma-part-d-landscape-state-state-fact-sheet.pdf
+- **Status**: analysed
+- title, 
+
+### 5010_provider_natl_conf_call_06092009.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/administrative-simplification/versions5010andd0/downloads/5010_provider_natl_conf_call_06092009.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### 82820-mi-ehb.pdf
+
+- **URL**: https://www.cms.gov/files/document/82820-mi-ehb.pdf
+- **Status**: analysed
+- title, 
+
+### 82820-nm-ehb.pdf
+
+- **URL**: https://www.cms.gov/files/document/82820-nm-ehb.pdf
+- **Status**: analysed
+- title, 
+
+### 82820-or-ehb.pdf
+
+- **URL**: https://www.cms.gov/files/document/82820-or-ehb.pdf
+- **Status**: analysed
+- title, 
+
+### CEDComment-response.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Coverage/Coverage-with-Evidence-Development/Downloads/CEDComment-response.pdf
+- **Status**: analysed
+- title, 
+
+### R487CP.pdf
+
+- **URL**: https://www.cms.gov/Regulations-and-Guidance/Guidance/Transmittals/downloads/R487CP.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### bid_ceiling.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/bid_ceiling.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### broker-help-desks.pdf
+
+- **URL**: https://www.cms.gov/files/document/agent/broker-help-desks.pdf
+- **Status**: analysed
+- title, 
+
+### coins.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/coins.pdf
+- **Status**: analysed
+- title, 
+
+### covid-19-toolkit-issuers-ma-plans-22.pdf
+
+- **URL**: https://www.cms.gov/files/document/covid-19-toolkit-issuers-ma-plans-22.pdf
+- **Status**: analysed
+- title, 
+
+### fact-sheet-ssp-py24-financial-quality-results.pdf
+
+- **URL**: https://www.cms.gov/files/document/fact-sheet-ssp-py24-financial-quality-results.pdf
+- **Status**: analysed
+- title, 
+
+### factsheet-medicare-negotiation-selected-drug-list-ipay-2028.pdf
+
+- **URL**: https://www.cms.gov/files/document/factsheet-medicare-negotiation-selected-drug-list-ipay-2028.pdf
+- **Status**: analysed
+- title, 
+
+### fy-2024-hcfac-operating-plan.pdf
+
+- **URL**: https://www.cms.gov/files/document/fy-2024-hcfac-operating-plan.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fy-2024-program-management-operating-plan.pdf
+
+- **URL**: https://www.cms.gov/files/document/fy-2024-program-management-operating-plan.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### january_2008_list_of_drugs_supplied_under_the_cap.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/january_2008_list_of_drugs_supplied_under_the_cap.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### maternal-morbidity-structural-measure-specifications.pdf
+
+- **URL**: https://www.cms.gov/files/document/maternal-morbidity-structural-measure-specifications.pdf
+- **Status**: analysed
+- title, 
+
+### partasoftwarereleasepdf.pdf
+
+- **URL**: https://www.cms.gov/files/document/partasoftwarereleasepdf
+- **Status**: analysed
+- title, 
+
+### partbdrugcap2009vendorbiddingaddendum2.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/partbdrugcap2009vendorbiddingaddendum2.pdf
+- **Status**: analysed
+- title, 
+
+### postpay.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/postpay.pdf
+- **Status**: analysed
+- title, 
+
+### proposed-2022-hhs-notice-benefit-and-payment-parameters-fact-sheet.pdf
+
+- **URL**: https://www.cms.gov/files/document/proposed-2022-hhs-notice-benefit-and-payment-parameters-fact-sheet.pdf
+- **Status**: analysed
+- title, 
+
+### py2023-county-coverage-map.pdf
+
+- **URL**: https://www.cms.gov/files/document/py2023-county-coverage-map.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### qin-qio-fact-page.pdf
+
+- **URL**: https://www.cms.gov/files/document/qin-qio-fact-page.pdf
+- **Status**: analysed
+- title, 
+
+### r12590ncd.pdf
+
+- **URL**: https://www.cms.gov/files/document/r12590ncd.pdf
+- **Status**: analysed
+- title, 
+
+### r777cp.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/r777cp.pdf
+- **Status**: analysed
+- title, lang, 
+
+### r866cppdf.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/dwnlds/r866cppdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### rfi-medicare-dialysis.pdf
+
+- **URL**: https://www.cms.gov/about-cms/components/cpi/downloads/rfi-medicare-dialysis.pdf
+- **Status**: analysed
+- title, 
+
+### social-media-evolution-excellence.pdf
+
+- **URL**: https://www.cms.gov/files/document/social-media-evolution-excellence.pdf
+- **Status**: analysed
+- title, 
+
+### social-media-how-qin-qio-13th-scope-work-supports-making-america-healthy-again-maha.pdf
+
+- **URL**: https://www.cms.gov/files/document/social-media-how-qin-qio-13th-scope-work-supports-making-america-healthy-again-maha.pdf
+- **Status**: analysed
+- title, 
+
+### social-media-key-features-cms-qin-qio-13th-scope-work.pdf
+
+- **URL**: https://www.cms.gov/files/document/social-media-key-features-cms-qin-qio-13th-scope-work.pdf
+- **Status**: analysed
+- title, 
+
+### social-media-transforming-healthcare-quality.pdf
+
+- **URL**: https://www.cms.gov/files/document/social-media-transforming-healthcare-quality.pdf
+- **Status**: analysed
+- title, 
+
+### som107ap_z_emergprep.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/som107ap_z_emergprep.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### trhcapdf.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/legislativeupdate/downloads/trhcapdf.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
