@@ -4,7 +4,7 @@
     "site": "cms.gov",
     "crawl_url": "https://www.cms.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23212928944",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/31#issuecomment-4077613398",
     "archive_file": "2026-03-17_19-51-44-123_cms.gov.html",
     "total": 460,
     "analysed": 460,
