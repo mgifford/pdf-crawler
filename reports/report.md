@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-17T19:51:44.123511+00:00
+Generated: 2026-03-18T17:08:59.691479+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 755 |
-| Total files tracked | 15622 |
-| Analysed | 3646 |
-| Pending analysis | 10551 |
+| URLs crawled | 158 |
+| Total files tracked | 15833 |
+| Analysed | 3846 |
+| Pending analysis | 10562 |
 | Errors during analysis | 1425 |
-| Accessible | 1264 |
+| Accessible | 1315 |
 | Totally inaccessible | 55 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 766 |
+| Exempt (pre-2018) | 841 |
 
 ## Files per Site
 
@@ -47,6 +47,7 @@ Generated: 2026-03-17T19:51:44.123511+00:00
 | ontario.ca | 51 |
 | oregon.gov | 1968 |
 | pa.gov | 212 |
+| pca.state.mn.us | 211 |
 | projects.accesscomputing.uw.edu | 3 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
@@ -3706,6 +3707,206 @@ Generated: 2026-03-17T19:51:44.123511+00:00
 | [talking-people-medicare-about-covid-19-vaccine.pdf](https://www.cms.gov/files/document/talking-people-medicare-about-covid-19-vaccine.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 491 | 0 |
 | [trhcapdf.pdf](https://www.cms.gov/regulations-and-guidance/legislation/legislativeupdate/downloads/trhcapdf.pdf) | cms.gov | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 559 | 111856 | 0 |
 | [what-macfunctional-contractors-overview.pdf](https://www.cms.gov/files/document/what-macfunctional-contractors-overview.pdf) | cms.gov | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 948 | 0 |
+| [Evaluation-of-Emerging-Contaminant-Data-at-Solid-Waste-Facilities_02132020.pdf](https://www.pca.state.mn.us/sites/default/files/Evaluation-of-Emerging-Contaminant-Data-at-Solid-Waste-Facilities_02132020.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 122 | 19940 | 653 |
+| [aq1-15.pdf](https://www.pca.state.mn.us/sites/default/files/aq1-15.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 826 | 1 |
+| [c-pfc1-02.pdf](https://www.pca.state.mn.us/sites/default/files/c-pfc1-02.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 91 | 37570 | 6 |
+| [c-pfc1-26.pdf](https://www.pca.state.mn.us/sites/default/files/c-pfc1-26.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 281 | 93939 | 43 |
+| [c-pfc4-02.pdf](https://www.pca.state.mn.us/sites/default/files/c-pfc4-02.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 58 | 11203 | 0 |
+| [gp3-05.pdf](https://www.pca.state.mn.us/sites/default/files/gp3-05.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 38 | 13561 | 2 |
+| [gp3-06.pdf](https://www.pca.state.mn.us/sites/default/files/gp3-06.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 34 | 12076 | 2 |
+| [gp3-08.pdf](https://www.pca.state.mn.us/sites/default/files/gp3-08.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4910 | 4 |
+| [i-admin9-01.pdf](https://www.pca.state.mn.us/sites/default/files/i-admin9-01.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 69 | 35709 | 26 |
+| [lrp-f-2sy24a.pdf](https://www.pca.state.mn.us/sites/default/files/lrp-f-2sy24a.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 2227 | 0 |
+| [m_ad.pdf](https://www.pca.state.mn.us/sites/default/files/m_ad.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 35 | 3 |
+| [m_billboard.pdf](https://www.pca.state.mn.us/sites/default/files/m_billboard.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 10 | 2 |
+| [m_brochure.pdf](https://www.pca.state.mn.us/sites/default/files/m_brochure.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 120 | 2 |
+| [m_postcard.pdf](https://www.pca.state.mn.us/sites/default/files/m_postcard.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 68 | 4 |
+| [p-eao2-27.pdf](https://www.pca.state.mn.us/sites/default/files/p-eao2-27.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2624 | 1 |
+| [p-f2-22b-fy25.pdf](https://www.pca.state.mn.us/sites/default/files/p-f2-22b-fy25.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 536 | 1 |
+| [p-f2-54a-fy25-27.pdf](https://www.pca.state.mn.us/sites/default/files/p-f2-54a-fy25-27.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2239 | 1 |
+| [p-gen1-17.pdf](https://www.pca.state.mn.us/sites/default/files/p-gen1-17.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 23 | 3781 | 40 |
+| [p-gen1-18.pdf](https://www.pca.state.mn.us/sites/default/files/p-gen1-18.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 891 | 23 |
+| [p-gen1-19.pdf](https://www.pca.state.mn.us/sites/default/files/p-gen1-19.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 42 | 3772 | 82 |
+| [p-gen1-24.pdf](https://www.pca.state.mn.us/sites/default/files/p-gen1-24.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 1123 | 23 |
+| [p-gen1-26.pdf](https://www.pca.state.mn.us/sites/default/files/p-gen1-26.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | 60 | 10638 | 2 |
+| [p-gen5-25.pdf](https://www.pca.state.mn.us/sites/default/files/p-gen5-25.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 18 | 5000 | 1 |
+| [p-p2s10-13.pdf](https://www.pca.state.mn.us/sites/default/files/p-p2s10-13.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 11 | 3874 | 2 |
+| [p-p2s6-14.pdf](https://www.pca.state.mn.us/sites/default/files/p-p2s6-14.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 72 | 19123 | 31 |
+| [p-sbap5-02.pdf](https://www.pca.state.mn.us/sites/default/files/p-sbap5-02.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 33 | 10910 | 4 |
+| [p-sbap5-05.pdf](https://www.pca.state.mn.us/sites/default/files/p-sbap5-05.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 34 | 13916 | 16 |
+| [p-tr1-04.pdf](https://www.pca.state.mn.us/sites/default/files/p-tr1-04.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 97 | 25453 | 433 |
+| [p-tr1-05.pdf](https://www.pca.state.mn.us/sites/default/files/p-tr1-05.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 20 | 9509 | 24 |
+| [p-tr2-20b.pdf](https://www.pca.state.mn.us/sites/default/files/p-tr2-20b.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 616 | 2 |
+| [p_billboard.pdf](https://www.pca.state.mn.us/sites/default/files/p_billboard.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 11 | 2 |
+| [p_brochure.pdf](https://www.pca.state.mn.us/sites/default/files/p_brochure.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 192 | 2 |
+| [p_postcard.pdf](https://www.pca.state.mn.us/sites/default/files/p_postcard.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 58 | 4 |
+| [p_print_ad.pdf](https://www.pca.state.mn.us/sites/default/files/p_print_ad.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 30 | 3 |
+| [pfc-2008mpcametrolakesfishpfcdata.pdf](https://www.pca.state.mn.us/sites/default/files/pfc-2008mpcametrolakesfishpfcdata.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 271 | 0 |
+| [pfc-fishdata.pdf](https://www.pca.state.mn.us/sites/default/files/pfc-fishdata.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 15 | 6009 | 0 |
+| [pfc-metro-lakes-fish.pdf](https://www.pca.state.mn.us/sites/default/files/pfc-metro-lakes-fish.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 | 2772 | 0 |
+| [pfc-wwtpsampling.pdf](https://www.pca.state.mn.us/sites/default/files/pfc-wwtpsampling.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 197 | 0 |
+| [tdr-g1-21.pdf](https://www.pca.state.mn.us/sites/default/files/tdr-g1-21.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 50 | 15280 | 17 |
+| [tdr-g1-23.pdf](https://www.pca.state.mn.us/sites/default/files/tdr-g1-23.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 121 | 36309 | 30 |
+| [tdr-g1-25.pdf](https://www.pca.state.mn.us/sites/default/files/tdr-g1-25.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 6808 | 2 |
+| [tmdl-mercury-att1.pdf](https://www.pca.state.mn.us/sites/default/files/tmdl-mercury-att1.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 38 | 495 | 38 |
+| [w-gen2-08.pdf](https://www.pca.state.mn.us/sites/default/files/w-gen2-08.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 55 | 19520 | 16 |
+| [w-gen2-14.pdf](https://www.pca.state.mn.us/sites/default/files/w-gen2-14.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 283 | 1 |
+| [w-gen2-16.pdf](https://www.pca.state.mn.us/sites/default/files/w-gen2-16.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 384 | 1 |
+| [w-gen2-18.pdf](https://www.pca.state.mn.us/sites/default/files/w-gen2-18.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 787 | 1 |
+| [w-gen2-19.pdf](https://www.pca.state.mn.us/sites/default/files/w-gen2-19.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 1269 | 19 |
+| [w-gen2-20.pdf](https://www.pca.state.mn.us/sites/default/files/w-gen2-20.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 1510 | 20 |
+| [w-gen2-52.pdf](https://www.pca.state.mn.us/sites/default/files/w-gen2-52.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 671 | 1 |
+| [w-hhw1-38.pdf](https://www.pca.state.mn.us/sites/default/files/w-hhw1-38.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1707 | 1 |
+| [w-hhw2-06.pdf](https://www.pca.state.mn.us/sites/default/files/w-hhw2-06.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1825 | 1 |
+| [w-hhw2-07.pdf](https://www.pca.state.mn.us/sites/default/files/w-hhw2-07.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 | 2370 | 1 |
+| [w-hhw4-67.pdf](https://www.pca.state.mn.us/sites/default/files/w-hhw4-67.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 740 | 9 |
+| [w-hhwsop2-05a.pdf](https://www.pca.state.mn.us/sites/default/files/w-hhwsop2-05a.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2204 | 10 |
+| [w-hw3-36b.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw3-36b.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1436 | 1 |
+| [w-hw3-72.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw3-72.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 890 | 1 |
+| [w-hw4-39a.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-39a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 | 3249 | 1 |
+| [w-hw4-45a.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-45a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 966 | 44 |
+| [w-hw4-45b.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-45b.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1104 | 1 |
+| [w-hw4-46.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-46.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1352 | 3 |
+| [w-hw4-48b.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-48b.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 951 | 3 |
+| [w-hw4-48c.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-48c.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1899 | 1 |
+| [w-hw4-48d.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-48d.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1518 | 1 |
+| [w-hw4-48e.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-48e.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1637 | 1 |
+| [w-hw4-48g.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-48g.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 | 2218 | 1 |
+| [w-hw4-48k.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-48k.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1154 | 1 |
+| [w-hw4-48m.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-48m.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1790 | 1 |
+| [w-hw4-50.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-50.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 986 | 1 |
+| [w-hw4-51.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-51.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1086 | 1 |
+| [w-hw4-52.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-52.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 3261 | 2 |
+| [w-hw4-61.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-61.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1631 | 1 |
+| [w-hw4-63.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-63.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1558 | 3 |
+| [w-hw4-67.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-67.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1335 | 3 |
+| [w-hw4-68.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw4-68.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 1061 | 6 |
+| [w-hw5-12.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw5-12.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3376 | 58 |
+| [w-hw5-13.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw5-13.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 4137 | 40 |
+| [w-hw7-17.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw7-17.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 351 | 1 |
+| [w-hw8-03.pdf](https://www.pca.state.mn.us/sites/default/files/w-hw8-03.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 449 | 353 |
+| [w-ps1-08z.pdf](https://www.pca.state.mn.us/sites/default/files/w-ps1-08z.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2210 | 18 |
+| [w-sw1-18.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw1-18.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 906 | 1 |
+| [w-sw1-31.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw1-31.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 5342 | 3 |
+| [w-sw1-73.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw1-73.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1649 | 1 |
+| [w-sw10-06g.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw10-06g.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 14 | 12 |
+| [w-sw10-08.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw10-08.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2698 | 3 |
+| [w-sw2-08.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw2-08.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 37 | 8236 | 119 |
+| [w-sw4-03.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-03.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1310 | 1 |
+| [w-sw4-04.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-04.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 1159 | 1 |
+| [w-sw4-05.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-05.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 1120 | 1 |
+| [w-sw4-07.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-07.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1285 | 1 |
+| [w-sw4-22.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-22.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 452 | 1 |
+| [w-sw4-37.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-37.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 55 | 20576 | 191 |
+| [w-sw4-37a.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-37a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 899 | 1 |
+| [w-sw4-37b.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-37b.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 73 | 19194 | 74 |
+| [w-sw4-37c.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-37c.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1018 | 1 |
+| [w-sw4-37d.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-37d.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 2573 | 1 |
+| [w-sw4-54.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-54.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 965 | 2 |
+| [w-sw4-60.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw4-60.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1157 | 1 |
+| [w-sw5-01.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-01.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1224 | 1 |
+| [w-sw5-55.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-55.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 52 | 15127 | 3 |
+| [w-sw5-58.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-58.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 32 | 469 | 173 |
+| [w-sw5-59.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-59.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 59 | 1 | 59 |
+| [w-sw5-60.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-60.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 27 | 7803 | 22 |
+| [w-sw5-61.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-61.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 16 | 1 | 16 |
+| [w-sw5-62a.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-62a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 4298 | 3 |
+| [w-sw5-62b.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-62b.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 697 | 1 |
+| [w-sw5-62c.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-62c.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2370 | 1 |
+| [w-sw5-62d.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw5-62d.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1803 | 1 |
+| [w-sw6-00.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw6-00.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 742 | 1 |
+| [w-sw6-03.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw6-03.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1447 | 1 |
+| [w-sw7-22.pdf](https://www.pca.state.mn.us/sites/default/files/w-sw7-22.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 132 | 84166 | 22 |
+| [wq-am1-08.pdf](https://www.pca.state.mn.us/sites/default/files/wq-am1-08.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 17 | 6888 | 3 |
+| [wq-am1-09.pdf](https://www.pca.state.mn.us/sites/default/files/wq-am1-09.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 32 | 12104 | 3 |
+| [wq-am4-02.pdf](https://www.pca.state.mn.us/sites/default/files/wq-am4-02.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 39 | 13984 | 26 |
+| [wq-bsm3-02.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bsm3-02.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 | 5675 | 13 |
+| [wq-bsm3-12a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bsm3-12a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 69 | 21269 | 16 |
+| [wq-bsm3-12b.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bsm3-12b.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 29 | 8298 | 18 |
+| [wq-bwm1-05.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bwm1-05.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 5520 | 10 |
+| [wq-bwm2-01.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bwm2-01.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 30 | 10654 | 37 |
+| [wq-bwm2-02a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bwm2-02a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 56 | 24537 | 35 |
+| [wq-bwm2-02b.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bwm2-02b.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 44 | 18187 | 19 |
+| [wq-bwm2-02c.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bwm2-02c.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 1771 | 1 |
+| [wq-bwm3-01.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bwm3-01.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 26 | 10310 | 10 |
+| [wq-bwm3-02.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bwm3-02.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 | 6904 | 10 |
+| [wq-bwm5-01.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bwm5-01.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 | 4558 | 2 |
+| [wq-bwm5-02.pdf](https://www.pca.state.mn.us/sites/default/files/wq-bwm5-02.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 | 2511 | 11 |
+| [wq-cm1-02.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cm1-02.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 50 | 11653 | 26 |
+| [wq-cm1-03.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cm1-03.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 635 | 7 |
+| [wq-cm1-05.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cm1-05.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1265 | 1 |
+| [wq-cm1-08.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cm1-08.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 360 | 17 |
+| [wq-cm1-09.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cm1-09.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 359 | 17 |
+| [wq-cm1-10.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cm1-10.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 359 | 17 |
+| [wq-cm1-11.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cm1-11.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 558 | 1 |
+| [wq-cwc5-25j.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cwc5-25j.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 61 | 28421 | 31 |
+| [wq-cwc5-25k.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cwc5-25k.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 22 | 8717 | 10 |
+| [wq-cwp8-28.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cwp8-28.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 72 | 22089 | 8 |
+| [wq-cwp8-29.pdf](https://www.pca.state.mn.us/sites/default/files/wq-cwp8-29.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 52 | 16434 | 12 |
+| [wq-f8-13.pdf](https://www.pca.state.mn.us/sites/default/files/wq-f8-13.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 | 2309 | 3 |
+| [wq-f8-20.pdf](https://www.pca.state.mn.us/sites/default/files/wq-f8-20.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1415 | 3 |
+| [wq-gen2-02.pdf](https://www.pca.state.mn.us/sites/default/files/wq-gen2-02.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 3094 | 2 |
+| [wq-gen2-18d.pdf](https://www.pca.state.mn.us/sites/default/files/wq-gen2-18d.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 4792 | 4 |
+| [wq-gen2-18e.pdf](https://www.pca.state.mn.us/sites/default/files/wq-gen2-18e.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 5830 | 1 |
+| [wq-gen2-20.pdf](https://www.pca.state.mn.us/sites/default/files/wq-gen2-20.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 477 | 1 |
+| [wq-gen2-21.pdf](https://www.pca.state.mn.us/sites/default/files/wq-gen2-21.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3588 | 3 |
+| [wq-gen2-22.pdf](https://www.pca.state.mn.us/sites/default/files/wq-gen2-22.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 361 | 0 |
+| [wq-iw1-44.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw1-44.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1203 | 3 |
+| [wq-iw3-20.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw3-20.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 1061 | 4 |
+| [wq-iw5-09g.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw5-09g.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 27 | 12446 | 1 |
+| [wq-iw7-29o.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw7-29o.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 128 | 52282 | 397 |
+| [wq-iw7-47o.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw7-47o.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 39 | 14535 | 39 |
+| [wq-iw7-48g.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw7-48g.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 26 | 11982 | 1 |
+| [wq-iw8-41c.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw8-41c.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 43 | 11120 | 24 |
+| [wq-iw9-17e.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw9-17e.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 158 | 36835 | 59 |
+| [wq-iw9-17g.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw9-17g.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 46 | 6162 | 46 |
+| [wq-iw9-22d.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw9-22d.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1964 | 2 |
+| [wq-iw9-22n.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw9-22n.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 2179 | 7 |
+| [wq-iw9-28g.pdf](https://www.pca.state.mn.us/sites/default/files/wq-iw9-28g.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 39 | 16991 | 2 |
+| [wq-ppt2-08.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ppt2-08.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 59 | 4233 | 2995 |
+| [wq-s1-15.pdf](https://www.pca.state.mn.us/sites/default/files/wq-s1-15.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 173 | 78577 | 112 |
+| [wq-s1-16.pdf](https://www.pca.state.mn.us/sites/default/files/wq-s1-16.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 23 | 7341 | 1 |
+| [wq-s1-18.pdf](https://www.pca.state.mn.us/sites/default/files/wq-s1-18.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 6946 | 1 |
+| [wq-s1-68.pdf](https://www.pca.state.mn.us/sites/default/files/wq-s1-68.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 4773 | 1 |
+| [wq-strm3-102a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-strm3-102a.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 912 | 1 |
+| [wq-strm3-102c.pdf](https://www.pca.state.mn.us/sites/default/files/wq-strm3-102c.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2325 | 2 |
+| [wq-strm3-102d.pdf](https://www.pca.state.mn.us/sites/default/files/wq-strm3-102d.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 342 | 0 |
+| [wq-strm3-102f.pdf](https://www.pca.state.mn.us/sites/default/files/wq-strm3-102f.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2716 | 1 |
+| [wq-strm3-102g.pdf](https://www.pca.state.mn.us/sites/default/files/wq-strm3-102g.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 99 | 51281 | 4 |
+| [wq-strm3-25.pdf](https://www.pca.state.mn.us/sites/default/files/wq-strm3-25.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 994 | 10 |
+| [wq-strm3-29.pdf](https://www.pca.state.mn.us/sites/default/files/wq-strm3-29.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 933 | 5 |
+| [wq-strm3-33b.pdf](https://www.pca.state.mn.us/sites/default/files/wq-strm3-33b.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 692 | 11 |
+| [wq-strm4-16.pdf](https://www.pca.state.mn.us/sites/default/files/wq-strm4-16.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 11639 | 31 |
+| [wq-swm1-11.pdf](https://www.pca.state.mn.us/sites/default/files/wq-swm1-11.pdf) | pca.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 19 | 7983 | 5 |
+| [wq-swm1-15.pdf](https://www.pca.state.mn.us/sites/default/files/wq-swm1-15.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 3230 | 1 |
+| [wq-ws1-26.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws1-26.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 | 4750 | 21 |
+| [wq-ws1-27.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws1-27.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 25 | 9791 | 13 |
+| [wq-ws3-04010202b.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws3-04010202b.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 130 | 37530 | 197 |
+| [wq-ws3-04010202c.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws3-04010202c.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 501 | 9 |
+| [wq-ws4-18a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws4-18a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 173 | 42455 | 40 |
+| [wq-ws4-18b.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws4-18b.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1454 | 10 |
+| [wq-ws4-21a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws4-21a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 113 | 34619 | 188 |
+| [wq-ws4-72a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws4-72a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 122 | 27992 | 77 |
+| [wq-ws4-72b.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws4-72b.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 807 | 8 |
+| [wq-ws4-98a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws4-98a.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 90 | 20325 | 67 |
+| [wq-ws4-98c.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws4-98c.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 70 | 14909 | 31 |
+| [wq-ws5-04010202a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-ws5-04010202a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 98 | 31957 | 63 |
+| [wq-wwists1-57.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwists1-57.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1352 | 2 |
+| [wq-wwists3-09.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwists3-09.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 775 | 2 |
+| [wq-wwists3-50.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwists3-50.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 980 | 1 |
+| [wq-wwprm1-19.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwprm1-19.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 838 | 2 |
+| [wq-wwprm1-32.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwprm1-32.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1058 | 1 |
+| [wq-wwprm1-35.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwprm1-35.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1993 | 1 |
+| [wq-wwprm3-01.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwprm3-01.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 3204 | 1 |
+| [wq-wwprm7-33b.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwprm7-33b.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 38 | 19997 | 1 |
+| [wq-wwprm7-66.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwprm7-66.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 468 | 1 |
+| [wq-wwprm9-28.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwprm9-28.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 72 | 28588 | 8 |
+| [wq-wwtp1-13.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwtp1-13.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 377 | 1 |
+| [wq-wwtp2-41.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-41.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 2221 | 4 |
+| [wq-wwtp2-42.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-42.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1349 | 11 |
+| [wq-wwtp2-43.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-43.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1199 | 1 |
+| [wq-wwtp2-46a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-46a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 3871 | 1 |
+| [wq-wwtp2-50.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-50.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1127 | 1 |
 
 ## Files with Errors or Notes
 
@@ -26562,3 +26763,897 @@ Generated: 2026-03-17T19:51:44.123511+00:00
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/legislativeupdate/downloads/trhcapdf.pdf
 - **Status**: analysed
 - title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Evaluation-of-Emerging-Contaminant-Data-at-Solid-Waste-Facilities_02132020.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/Evaluation-of-Emerging-Contaminant-Data-at-Solid-Waste-Facilities_02132020.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### aq1-15.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/aq1-15.pdf
+- **Status**: analysed
+- title, lang, 
+
+### c-pfc1-02.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/c-pfc1-02.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### c-pfc1-26.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/c-pfc1-26.pdf
+- **Status**: analysed
+- tagged, 
+
+### c-pfc4-02.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/c-pfc4-02.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### gp3-05.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/gp3-05.pdf
+- **Status**: analysed
+- title, 
+
+### gp3-06.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/gp3-06.pdf
+- **Status**: analysed
+- title, 
+
+### gp3-08.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/gp3-08.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### m_ad.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/m_ad.pdf
+- **Status**: analysed
+- title, lang, 
+
+### m_billboard.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/m_billboard.pdf
+- **Status**: analysed
+- title, lang, 
+
+### m_brochure.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/m_brochure.pdf
+- **Status**: analysed
+- title, lang, 
+
+### m_postcard.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/m_postcard.pdf
+- **Status**: analysed
+- title, lang, 
+
+### p-eao2-27.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-eao2-27.pdf
+- **Status**: analysed
+- title, 
+
+### p-f2-22b-fy25.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-f2-22b-fy25.pdf
+- **Status**: analysed
+- title, 
+
+### p-gen1-17.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-gen1-17.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### p-gen1-19.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-gen1-19.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### p-gen1-24.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-gen1-24.pdf
+- **Status**: analysed
+- title, 
+
+### p-gen1-26.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-gen1-26.pdf
+- **Status**: analysed
+- tagged, lang, no bookmarks and more than 20 pages, 
+
+### p-p2s10-13.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-p2s10-13.pdf
+- **Status**: analysed
+- title, lang, 
+
+### p-p2s6-14.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-p2s6-14.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### p-sbap5-02.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-sbap5-02.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### p-sbap5-05.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-sbap5-05.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### p-tr1-04.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-tr1-04.pdf
+- **Status**: analysed
+- title, lang, 
+
+### p-tr1-05.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-tr1-05.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### p-tr2-20b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p-tr2-20b.pdf
+- **Status**: analysed
+- tagged, 
+
+### p_billboard.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p_billboard.pdf
+- **Status**: analysed
+- title, lang, 
+
+### p_brochure.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p_brochure.pdf
+- **Status**: analysed
+- title, lang, 
+
+### p_postcard.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p_postcard.pdf
+- **Status**: analysed
+- title, lang, 
+
+### p_print_ad.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/p_print_ad.pdf
+- **Status**: analysed
+- title, lang, 
+
+### pfc-2008mpcametrolakesfishpfcdata.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/pfc-2008mpcametrolakesfishpfcdata.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pfc-fishdata.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/pfc-fishdata.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pfc-metro-lakes-fish.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/pfc-metro-lakes-fish.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### pfc-wwtpsampling.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/pfc-wwtpsampling.pdf
+- **Status**: analysed
+- title, lang, 
+
+### tdr-g1-23.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/tdr-g1-23.pdf
+- **Status**: analysed
+- title, 
+
+### tmdl-mercury-att1.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/tmdl-mercury-att1.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### w-gen2-08.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-gen2-08.pdf
+- **Status**: analysed
+- title, lang, 
+
+### w-gen2-14.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-gen2-14.pdf
+- **Status**: analysed
+- title, 
+
+### w-gen2-18.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-gen2-18.pdf
+- **Status**: analysed
+- title, 
+
+### w-gen2-19.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-gen2-19.pdf
+- **Status**: analysed
+- title, 
+
+### w-gen2-52.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-gen2-52.pdf
+- **Status**: analysed
+- title, 
+
+### w-hhw1-38.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hhw1-38.pdf
+- **Status**: analysed
+- title, 
+
+### w-hhw2-06.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hhw2-06.pdf
+- **Status**: analysed
+- title, 
+
+### w-hhw2-07.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hhw2-07.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw3-72.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw3-72.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw4-39a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-39a.pdf
+- **Status**: analysed
+- title, lang, 
+
+### w-hw4-45a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-45a.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw4-45b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-45b.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw4-46.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-46.pdf
+- **Status**: analysed
+- title, lang, 
+
+### w-hw4-48g.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-48g.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw4-48k.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-48k.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw4-48m.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-48m.pdf
+- **Status**: analysed
+- lang, 
+
+### w-hw4-50.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-50.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw4-52.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-52.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw4-61.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-61.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw4-63.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-63.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw4-67.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-67.pdf
+- **Status**: analysed
+- title, lang, 
+
+### w-hw4-68.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw4-68.pdf
+- **Status**: analysed
+- title, 
+
+### w-hw7-17.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw7-17.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### w-hw8-03.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-hw8-03.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### w-sw1-18.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw1-18.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw10-06g.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw10-06g.pdf
+- **Status**: analysed
+- title, lang, 
+
+### w-sw2-08.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw2-08.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw4-03.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-03.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw4-04.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-04.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw4-05.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-05.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw4-07.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-07.pdf
+- **Status**: analysed
+- title, lang, 
+
+### w-sw4-22.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-22.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw4-37.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-37.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### w-sw4-37a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-37a.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw4-37b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-37b.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### w-sw4-37c.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-37c.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw4-37d.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-37d.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw4-54.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-54.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### w-sw4-60.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw4-60.pdf
+- **Status**: analysed
+- title, lang, 
+
+### w-sw5-01.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-01.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw5-55.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-55.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw5-58.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-58.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### w-sw5-59.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-59.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### w-sw5-60.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-60.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### w-sw5-61.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-61.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### w-sw5-62a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-62a.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw5-62b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-62b.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw5-62c.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-62c.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw5-62d.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw5-62d.pdf
+- **Status**: analysed
+- title, 
+
+### w-sw6-00.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/w-sw6-00.pdf
+- **Status**: analysed
+- title, 
+
+### wq-am1-08.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-am1-08.pdf
+- **Status**: analysed
+- title, 
+
+### wq-am1-09.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-am1-09.pdf
+- **Status**: analysed
+- title, 
+
+### wq-bsm3-02.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bsm3-02.pdf
+- **Status**: analysed
+- title, 
+
+### wq-bsm3-12a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bsm3-12a.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### wq-bsm3-12b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bsm3-12b.pdf
+- **Status**: analysed
+- title, 
+
+### wq-bwm1-05.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bwm1-05.pdf
+- **Status**: analysed
+- title, 
+
+### wq-bwm2-01.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bwm2-01.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### wq-bwm2-02a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bwm2-02a.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-bwm2-02b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bwm2-02b.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-bwm2-02c.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bwm2-02c.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-bwm3-01.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bwm3-01.pdf
+- **Status**: analysed
+- title, 
+
+### wq-bwm3-02.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bwm3-02.pdf
+- **Status**: analysed
+- title, 
+
+### wq-bwm5-01.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bwm5-01.pdf
+- **Status**: analysed
+- title, 
+
+### wq-bwm5-02.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-bwm5-02.pdf
+- **Status**: analysed
+- title, 
+
+### wq-cm1-02.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-cm1-02.pdf
+- **Status**: analysed
+- title, 
+
+### wq-cm1-05.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-cm1-05.pdf
+- **Status**: analysed
+- title, 
+
+### wq-cm1-08.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-cm1-08.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### wq-cm1-09.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-cm1-09.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### wq-cm1-10.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-cm1-10.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### wq-cm1-11.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-cm1-11.pdf
+- **Status**: analysed
+- title, 
+
+### wq-f8-13.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-f8-13.pdf
+- **Status**: analysed
+- title, 
+
+### wq-f8-20.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-f8-20.pdf
+- **Status**: analysed
+- title, 
+
+### wq-gen2-18d.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-gen2-18d.pdf
+- **Status**: analysed
+- title, 
+
+### wq-gen2-18e.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-gen2-18e.pdf
+- **Status**: analysed
+- title, 
+
+### wq-iw1-44.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw1-44.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-iw3-20.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw3-20.pdf
+- **Status**: analysed
+- title, 
+
+### wq-iw5-09g.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw5-09g.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-iw7-29o.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw7-29o.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### wq-iw7-47o.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw7-47o.pdf
+- **Status**: analysed
+- title, 
+
+### wq-iw7-48g.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw7-48g.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-iw8-41c.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw8-41c.pdf
+- **Status**: analysed
+- title, 
+
+### wq-iw9-17e.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw9-17e.pdf
+- **Status**: analysed
+- title, 
+
+### wq-iw9-17g.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw9-17g.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### wq-iw9-22d.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw9-22d.pdf
+- **Status**: analysed
+- title, 
+
+### wq-iw9-22n.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw9-22n.pdf
+- **Status**: analysed
+- title, 
+
+### wq-iw9-28g.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-iw9-28g.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### wq-ppt2-08.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ppt2-08.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### wq-s1-15.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-s1-15.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### wq-s1-16.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-s1-16.pdf
+- **Status**: analysed
+- title, 
+
+### wq-s1-18.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-s1-18.pdf
+- **Status**: analysed
+- title, 
+
+### wq-s1-68.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-s1-68.pdf
+- **Status**: analysed
+- title, 
+
+### wq-strm3-102d.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-strm3-102d.pdf
+- **Status**: analysed
+- title, 
+
+### wq-strm3-25.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-strm3-25.pdf
+- **Status**: analysed
+- title, 
+
+### wq-swm1-11.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-swm1-11.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### wq-ws1-26.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws1-26.pdf
+- **Status**: analysed
+- title, 
+
+### wq-ws1-27.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws1-27.pdf
+- **Status**: analysed
+- title, 
+
+### wq-ws3-04010202b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws3-04010202b.pdf
+- **Status**: analysed
+- title, 
+
+### wq-ws3-04010202c.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws3-04010202c.pdf
+- **Status**: analysed
+- title, 
+
+### wq-ws4-18a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws4-18a.pdf
+- **Status**: analysed
+- title, 
+
+### wq-ws4-18b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws4-18b.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-ws4-21a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws4-21a.pdf
+- **Status**: analysed
+- title, 
+
+### wq-ws4-72a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws4-72a.pdf
+- **Status**: analysed
+- title, 
+
+### wq-ws4-72b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws4-72b.pdf
+- **Status**: analysed
+- title, 
+
+### wq-ws5-04010202a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-ws5-04010202a.pdf
+- **Status**: analysed
+- title, 
+
+### wq-wwists1-57.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwists1-57.pdf
+- **Status**: analysed
+- title, 
+
+### wq-wwists3-09.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwists3-09.pdf
+- **Status**: analysed
+- title, 
+
+### wq-wwprm1-19.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwprm1-19.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-wwprm3-01.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwprm3-01.pdf
+- **Status**: analysed
+- title, 
+
+### wq-wwprm7-33b.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwprm7-33b.pdf
+- **Status**: analysed
+- title, 
+
+### wq-wwprm7-66.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwprm7-66.pdf
+- **Status**: analysed
+- title, 
+
+### wq-wwprm9-28.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwprm9-28.pdf
+- **Status**: analysed
+- title, 
+
+### wq-wwtp2-41.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-41.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-wwtp2-43.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-43.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wq-wwtp2-46a.pdf
+
+- **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-46a.pdf
+- **Status**: analysed
+- title, 
