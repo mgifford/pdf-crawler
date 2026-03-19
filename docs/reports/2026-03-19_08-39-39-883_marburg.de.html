@@ -1,0 +1,3012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-19T08:39:39.885176+00:00",
+    "total_files": 71,
+    "analysed": 71,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 13,
+    "totally_inaccessible": 6,
+    "broken": 0,
+    "exempt": 16,
+    "sites": {
+      "marburg.de": 71
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000012_archivsatzung.pdf",
+      "md5": "98b3ef414a69a56b778c5149e2e2f079",
+      "filename": "900000012_archivsatzung.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.791638+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-12-17 06:35:20+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 7,
+        "Words": 1999,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000074_schulbezirksgrenzensatzung_fassung_01.pdf",
+      "md5": "eff6f2e3ed1041275af80c2e53bbf94e",
+      "filename": "900000074_schulbezirksgrenzensatzung_fassung_01.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.792838+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-08-30 10:04:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 9,
+        "Words": 1513,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000079__f6ffentlich_rechtliche_20vereinbarung_20gem._20_a7_20140_20abs._201_20i._20v._20m._20_a7_20143_20abs._204_20hessische_20schulgesetz.pdf",
+      "md5": "2b266c4a6c037ce9b51f32988e5efb80",
+      "filename": "900000079__f6ffentlich_rechtliche_20vereinbarung_20gem._20_a7_20140_20abs._201_20i._20v._20m._20_a7_20143_20abs._204_20hessische_20schulgesetz.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.794446+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-07-30 12:12:56+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": "Adobe Acrobat 9.1.0",
+        "Producer": "AFPL Ghostscript 8.54",
+        "Pages": 4,
+        "Words": 0,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000196_40_31_schulbezirksgrenzensatzung_bs.pdf",
+      "md5": "4eda5b17becaf51965667b552f945f0c",
+      "filename": "900000196_40_31_schulbezirksgrenzensatzung_bs.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.795564+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Fail",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2002-03-28 14:17:47+01:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.2",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 391,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000245_kinderbetreuungssatzung_der_universitaetsstadt_marburg.pdf",
+      "md5": "914af5a69960d1959a204ae0a1068358",
+      "filename": "900000245_kinderbetreuungssatzung_der_universitaetsstadt_marburg.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.796810+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2016-02-08 14:34:51+01:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 4,
+        "Words": 1035,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000263_i._nachtrag_zur_kinderbetreuungssatzung.pdf",
+      "md5": "c764f4bb50b10c6154839b7deccb9758",
+      "filename": "900000263_i._nachtrag_zur_kinderbetreuungssatzung.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.798007+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2016-12-13 18:07:05+01:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 354,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000288_archivsatzung_der_universitaetsstadt_marburg_in_kraft_getreten_am_13.05.2018.pdf",
+      "md5": "a6f5f521d41c680256a6142025db316f",
+      "filename": "900000288_archivsatzung_der_universitaetsstadt_marburg_in_kraft_getreten_am_13.05.2018.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.799160+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-05-14 11:07:27+02:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 7,
+        "Words": 1836,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000335_satzung_ueber_die_bildung_der_schulbezirksgrenzen_i.d.f._des_viii._nachtrags_inkrafttreten_am_01.08.2020_pdf.pdf",
+      "md5": "72ce51659296b301acc6538d9c1e279d",
+      "filename": "900000335_satzung_ueber_die_bildung_der_schulbezirksgrenzen_i.d.f._des_viii._nachtrags_inkrafttreten_am_01.08.2020_pdf.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.800523+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-07-03 09:26:05+02:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 9,
+        "Words": 1554,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000335_viii._nachtrag_zur_satzung_bildung_schulbezirksgrenzen_inkrafttreten_am_01.08.2020.pdf",
+      "md5": "84ba315b16fd002209d2218ce3dda398",
+      "filename": "900000335_viii._nachtrag_zur_satzung_bildung_schulbezirksgrenzen_inkrafttreten_am_01.08.2020.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.801797+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-07-03 09:38:53+02:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 403,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/satzungen/900000413_neufassung_archivsatzung_az11.10.03_0001.0005_p004372539_.pdf",
+      "md5": "aea3020a5a72720c38535e6c207c286e",
+      "filename": "900000413_neufassung_archivsatzung_az11.10.03_0001.0005_p004372539_.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.803072+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-12-06 11:11:38+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 8,
+        "Words": 1854,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/M2ViOTUyNzY4ZmNkY2U1NmN1cUVQa016bnp1NXFFWmZMakkwOVhJWXdvK3VtMjBqVEFNM3ptVFN5TnpoM2V0UkI0RE9lSmc3WnFUY0lLbTJwMitPWXlFMWpSa0YzVTg5UTZ1YkFjbk02WnJGTWtRREc1bVNOejlmUFpsQ3B1Tlc0ZnpycmFtRmRjeHpnQVFPVFdLdXA5WlBmVlNSRDdUeE9tM1dXcENLVzRwUVk4YXJVeFFmeklSWGFyST0",
+      "md5": "b791a2b74225802dc633c1ad119638e3",
+      "filename": "M2ViOTUyNzY4ZmNkY2U1NmN1cUVQa016bnp1NXFFWmZMakkwOVhJWXdvK3VtMjBqVEFNM3ptVFN5TnpoM2V0UkI0RE9lSmc3WnFUY0lLbTJwMitPWXlFMWpSa0YzVTg5UTZ1YkFjbk02WnJGTWtRREc1bVNOejlmUFpsQ3B1Tlc0ZnpycmFtRmRjeHpnQVFPVFdLdXA5WlBmVlNSRDdUeE9tM1dXcENLVzRwUVk4YXJVeFFmeklSWGFyST0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.840870+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2025-11-04 11:34:45+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 29,
+        "Words": 688,
+        "Images": 326
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/M2Y0ZmFmM2YxNDRmY2YwYUQ1MThWSzU3bGpWTWNvTitJSE11NVprK1FwejIvdEM1Y3pkelR5aGh2TnMwVEZNRkY0bVdDVDMySWpZU2RVOFNRTFVNOUk1R1RkeEdzell0SXJMbEliNkt0NUhvTHIxMzM0dlA3QUVZL3BBRzduWTJ4Wk9pdVpXOFRFT1FZTWVG",
+      "md5": "acb29689bd5e895b80effcb3d9cc635b",
+      "filename": "M2Y0ZmFmM2YxNDRmY2YwYUQ1MThWSzU3bGpWTWNvTitJSE11NVprK1FwejIvdEM1Y3pkelR5aGh2TnMwVEZNRkY0bVdDVDMySWpZU2RVOFNRTFVNOUk1R1RkeEdzell0SXJMbEliNkt0NUhvTHIxMzM0dlA3QUVZL3BBRzduWTJ4Wk9pdVpXOFRFT1FZTWVG.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.842614+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-01-31 10:45:42+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 73,
+        "Images": 7
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MDc1ODE0ZWRjODU2MjU5OFdhOFF3RG5SLzJQWHZPTytDZWY3NUFwc2lVRktpMWxOWjBrcUdEVEVGdjM4czNTTFZva0gzYUxqQ1VUaHFHVVhKN0I4OThyeW15azdZTjlmMHRNMXhCWDl1bTIxQ0FuVVpsYTQvUGlYUDUxTmdFSDhncHNBZ1lKV2l5MUM5Q1hyNGlOK2NHM3g5amdpSk9VVUhWalVTUEJ0NS94UE11eUpNZCtRbDcvYkZHWT0",
+      "md5": "6be4a9074bc5dc757c88ae1ac2dfd20b",
+      "filename": "MDc1ODE0ZWRjODU2MjU5OFdhOFF3RG5SLzJQWHZPTytDZWY3NUFwc2lVRktpMWxOWjBrcUdEVEVGdjM4czNTTFZva0gzYUxqQ1VUaHFHVVhKN0I4OThyeW15azdZTjlmMHRNMXhCWDl1bTIxQ0FuVVpsYTQvUGlYUDUxTmdFSDhncHNBZ1lKV2l5MUM5Q1hyNGlOK2NHM3g5amdpSk9VVUhWalVTUEJ0NS94UE11eUpNZCtRbDcvYkZHWT0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.844324+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-12 08:23:42+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 f\u00fcr Word",
+        "Producer": "Adobe PDF Library 24.2.229",
+        "Pages": 2,
+        "Words": 225,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MDczZDlkOTJhMzI5NDYzY2xCb0VER3NHeXZMaDZjY1l3dW1TOTFNS3hMWTROenBLYnZtQXZKVzBJQ21OZmlrZ3V1aGZKTzR2K3kwVGtNRjVwQ1AxcmI4eGtpS3dLTCtxMDJxeUh5Q3hScEhLQ3RlWlBvWU80bXR6N000YjRsaVhCVnJtbmo0MVYrSlpNVUtaeVFTMFcwUnFOMkxDSzRrSmgrSThEUT09",
+      "md5": "4c32b6172b19472c75f9d31879200037",
+      "filename": "MDczZDlkOTJhMzI5NDYzY2xCb0VER3NHeXZMaDZjY1l3dW1TOTFNS3hMWTROenBLYnZtQXZKVzBJQ21OZmlrZ3V1aGZKTzR2K3kwVGtNRjVwQ1AxcmI4eGtpS3dLTCtxMDJxeUh5Q3hScEhLQ3RlWlBvWU80bXR6N000YjRsaVhCVnJtbmo0MVYrSlpNVUtaeVFTMFcwUnFOMkxDSzRrSmgrSThEUT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.846449+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-10-22 11:12:47+02:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 427,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MDg2OGVhY2ZhN2ZkMTk3NS9XQlpZVGhwdVh6azlVb3hrWW9CTGtrcUs1dkY3ZmVCeEpQSi9KL24vUllFZGFBZksxN3dnRGl1M0pWa2MvMFR0RCsyUWw1SGJKb29ielR1ZkUvV2Y4QmgrVDNHQ2x2VkEveGNLWHRHdUxzUnRtZlVKYXlXSk9qU2ZLRDk0WXFj",
+      "md5": "6f1dba92681065668b0fc0823533f612",
+      "filename": "MDg2OGVhY2ZhN2ZkMTk3NS9XQlpZVGhwdVh6azlVb3hrWW9CTGtrcUs1dkY3ZmVCeEpQSi9KL24vUllFZGFBZksxN3dnRGl1M0pWa2MvMFR0RCsyUWw1SGJKb29ielR1ZkUvV2Y4QmgrVDNHQ2x2VkEveGNLWHRHdUxzUnRtZlVKYXlXSk9qU2ZLRDk0WXFj.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.847668+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-14 06:44:07+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Producer": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Pages": 1,
+        "Words": 147,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MDk0YTc4OGM4MDlmMTk3NUVYaWp3MkFmenZhSklZdEpVR2Mvd3QwQnRTamo3N1RTR2RrNFdJMGJZTTlFY3JyeUsreWVWb1Z0eGZXczBFWGI5ZkhEaUU3YW5VNldTT1VITkh1TWJQRG5ha2ppS09hWUtYTkFZdm5KTm1BZHFPSWlVR1ZBUzNnS1B4eUVtcjNT",
+      "md5": "48f470fa64ced4503a2fea560e3b978c",
+      "filename": "MDk0YTc4OGM4MDlmMTk3NUVYaWp3MkFmenZhSklZdEpVR2Mvd3QwQnRTamo3N1RTR2RrNFdJMGJZTTlFY3JyeUsreWVWb1Z0eGZXczBFWGI5ZkhEaUU3YW5VNldTT1VITkh1TWJQRG5ha2ppS09hWUtYTkFZdm5KTm1BZHFPSWlVR1ZBUzNnS1B4eUVtcjNT.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.849267+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-12-08 14:34:41+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 221,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MGQ2MWFkMWEzZmY5YmY4NkdPa2VxNk9BbVYyRStPbEFjVmVjQlBhb0hOMEZKNWk5MHE4L3BwSVpKQUNJTXNkbEtURElHSVRiNEI3dGxXc0llVDh4a29iMVJSNmdtTXVyQlNXNDN0ZEtjWjBsVTNxdGM5U2M3bVJNOGxWSjY0SWxxNkZWcXExa2M4SXN6OEhQTlZYZnJsd25mMU02SndSZzJmcnU2T2NDUkszTnlSS2hMcGpCWjhIWnAyST0",
+      "md5": "c0f0bacabf9290c1d38470a14440fb6b",
+      "filename": "MGQ2MWFkMWEzZmY5YmY4NkdPa2VxNk9BbVYyRStPbEFjVmVjQlBhb0hOMEZKNWk5MHE4L3BwSVpKQUNJTXNkbEtURElHSVRiNEI3dGxXc0llVDh4a29iMVJSNmdtTXVyQlNXNDN0ZEtjWjBsVTNxdGM5U2M3bVJNOGxWSjY0SWxxNkZWcXExa2M4SXN6OEhQTlZYZnJsd25mMU02SndSZzJmcnU2T2NDUkszTnlSS2hMcGpCWjhIWnAyST0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.851282+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-05-19 08:51:19+02:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 10,
+        "Words": 2985,
+        "Images": 16
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MGQzMjdhMGNlOWFkMDAxY0tKV1JTSERSVXV0S2pqRDlJenFxMWNUUkRHZEFnb2lVUVJZb3dGd01tRlkreGhKd0szczBLTWdHV0hqRHNHc2VOcjBwQjd0QU9vSEdKYWY0bnpGYXpINThvTTQ0WVpZVUdMM00ybDRGTys2TEhvVy9aOFRpNXY0ZnRRUUxlWEFIRFRpSnFGbVQrVnB4bzQ2S2JQWHlWUT09",
+      "md5": "e4209632de10027e9ffcedbaaa4735e9",
+      "filename": "MGQzMjdhMGNlOWFkMDAxY0tKV1JTSERSVXV0S2pqRDlJenFxMWNUUkRHZEFnb2lVUVJZb3dGd01tRlkreGhKd0szczBLTWdHV0hqRHNHc2VOcjBwQjd0QU9vSEdKYWY0bnpGYXpINThvTTQ0WVpZVUdMM00ybDRGTys2TEhvVy9aOFRpNXY0ZnRRUUxlWEFIRFRpSnFGbVQrVnB4bzQ2S2JQWHlWUT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.854096+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-08-23 09:50:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 19.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 538,
+        "Images": 14
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MTJhMmVjYzBkNjQ4MWZjMUIwRzhYU0c3MVhzb1pmVGhYR0MxWHNOaWphR3puZlZCeTBEYWQxdFVlWXFzVUVXOHV2ODB5T2VEcEw1RkRkT0xnSW5QRGFSSmZUNDJoMkdFdS9RS2ErcGJwV1lEUHNjdUlqWjVzbjYvUEcwMENYa0l6c21QV2ljc1dPblRJV3VN",
+      "md5": "ea0902c919084f0b429c78959ef9f4b2",
+      "filename": "MTJhMmVjYzBkNjQ4MWZjMUIwRzhYU0c3MVhzb1pmVGhYR0MxWHNOaWphR3puZlZCeTBEYWQxdFVlWXFzVUVXOHV2ODB5T2VEcEw1RkRkT0xnSW5QRGFSSmZUNDJoMkdFdS9RS2ErcGJwV1lEUHNjdUlqWjVzbjYvUEcwMENYa0l6c21QV2ljc1dPblRJV3VN.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.855443+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-04 10:20:48+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 5,
+        "Words": 944,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MTQ1YjQ1YmM3ZTljNGNkZHRlL2w3Vk8rR3g4ajRMTGtMaC9iL2xwRWFqN3hsRmN6ZWVOZ2VHUlA0QzhzME8vcTFhVlpQWDdRMkpRNHBvNU1FelRxdGFmK2ZrMjRXL2tneHNkbTVjeFZVZ1VOcjBudUxUWTVDSHExQmg1TGJ2dEJXRkVtVkk5TWVGbVVRM1pa",
+      "md5": "74c7b3a92e854430d3421b6b1f7a6b15",
+      "filename": "MTQ1YjQ1YmM3ZTljNGNkZHRlL2w3Vk8rR3g4ajRMTGtMaC9iL2xwRWFqN3hsRmN6ZWVOZ2VHUlA0QzhzME8vcTFhVlpQWDdRMkpRNHBvNU1FelRxdGFmK2ZrMjRXL2tneHNkbTVjeFZVZ1VOcjBudUxUWTVDSHExQmg1TGJ2dEJXRkVtVkk5TWVGbVVRM1pa.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.856578+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-12-08 11:28:31+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 566,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MWFlOGI2Zjk0MTY1ZDQ4YUp1VWtWWnpTelZWNHJMcW8zeHlnOHU2QStmLy9CMm5GeC9IdzducXhMemU3Q2hFMnphalZtc2VkZER0NXVJMmVWQnZpSWZUUXJhYU1tVWx4WUM5NUdZVW1UMnJVMWFmRlNFaTZ5WlFKR25sczRBWDdmSm04c3VlcDRTbTh0VnV6dVE4NDVuUnI0QVhEeG42Qm1XSU1pUT09",
+      "md5": "f6793e79ec172709dcb1a5fcdc8db53d",
+      "filename": "MWFlOGI2Zjk0MTY1ZDQ4YUp1VWtWWnpTelZWNHJMcW8zeHlnOHU2QStmLy9CMm5GeC9IdzducXhMemU3Q2hFMnphalZtc2VkZER0NXVJMmVWQnZpSWZUUXJhYU1tVWx4WUM5NUdZVW1UMnJVMWFmRlNFaTZ5WlFKR25sczRBWDdmSm04c3VlcDRTbTh0VnV6dVE4NDVuUnI0QVhEeG42Qm1XSU1pUT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.857760+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-29 10:36:29+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 1,
+        "Words": 193,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MWQ1OTcyZTMyNTZlY2E0ZFozdmlYR01FM0VCVTBrb2RpcCtYL0YxaUsxaG1UdlFJMGM4ckF6cTR1bGVHdzRhckVCWk55UFdTbEVZTkZvdlpHSTRBWXROMGFlbUhzV2hxZFFBVHNHeWptdkZmYk1EQ1JtdW1MY0w2ZU9Wbm50a3RkdDdLWlZrbW44bjJhZzVa",
+      "md5": "f03df7ac0951a6be4c5d254859cae4ed",
+      "filename": "MWQ1OTcyZTMyNTZlY2E0ZFozdmlYR01FM0VCVTBrb2RpcCtYL0YxaUsxaG1UdlFJMGM4ckF6cTR1bGVHdzRhckVCWk55UFdTbEVZTkZvdlpHSTRBWXROMGFlbUhzV2hxZFFBVHNHeWptdkZmYk1EQ1JtdW1MY0w2ZU9Wbm50a3RkdDdLWlZrbW44bjJhZzVa.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.858937+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-03-27 12:06:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "PDF24 Creator",
+        "Producer": "GPL Ghostscript 10.02.1",
+        "Pages": 2,
+        "Words": 146,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/Mjc3Y2Q2NDU5ODIzYmM2ZUdPaHZma1EreDZYaERzRnR6NEZEbmdaUHpQN2ZXZHpma0xqL3Z6c0hQaWt2R3VoeE1td3lTb0xsSE9nTWJKR2d6a2NjZThMWTZrM1NYVE9oWGtleVRMMUlFQ2lBSFdmWWZTbFNnTlB5aElZPQ",
+      "md5": "33fd564fb4a5a7165e551293053ddfaf",
+      "filename": "Mjc3Y2Q2NDU5ODIzYmM2ZUdPaHZma1EreDZYaERzRnR6NEZEbmdaUHpQN2ZXZHpma0xqL3Z6c0hQaWt2R3VoeE1td3lTb0xsSE9nTWJKR2d6a2NjZThMWTZrM1NYVE9oWGtleVRMMUlFQ2lBSFdmWWZTbFNnTlB5aElZPQ.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.860162+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-02-11 15:09:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 3,
+        "Words": 640,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MmM4YjM3MTU1ZmIzZWQwM1ZvYnBrREZTZ2RpeWhTRUNXZllEYzZ3MXoyZVRsdncyeXRxaTUwWVpXd09kemNIMFo1WCt4TlJDSk5POVZjcWxRaENhZ2tOc1JWclY1dzQzYXpxZHo2RlhMZzRWaHJlVHR1QnExc0JTTVJYak5BY3VhT2szbVNvS0JvMXI2MHZaNHA3c1VKcm9KVktjc3NUbzJOZHd4aG1MZU1GeU1DWEx1czkxTGV3WENYND0",
+      "md5": "b78f74c7b83579a602382874fb1f4853",
+      "filename": "MmM4YjM3MTU1ZmIzZWQwM1ZvYnBrREZTZ2RpeWhTRUNXZllEYzZ3MXoyZVRsdncyeXRxaTUwWVpXd09kemNIMFo1WCt4TlJDSk5POVZjcWxRaENhZ2tOc1JWclY1dzQzYXpxZHo2RlhMZzRWaHJlVHR1QnExc0JTTVJYak5BY3VhT2szbVNvS0JvMXI2MHZaNHA3c1VKcm9KVktjc3NUbzJOZHd4aG1MZU1GeU1DWEx1czkxTGV3WENYND0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.861353+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-06 13:37:36+01:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 216,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MzFjYzhmMTM5OTUxNzY3NWpYeGFWTFBWQWJ0V2VFUVRaKzR6Q1JzUG5UdHpDdG05a3JJSjV2eUs1OTdUMmFaeUpUbG5GcGFoUlpYQzBaemo4czJvbzBUOHFvSWIyZDhyWUY0Zk1QaW9VVEluT1cvdFplVXVXYlF3S04yOTVPS3c1eEFmYmIzeTYvNndvSk8xcVRUSGtjK2pUZ1lCVlJySzRielltV3JBNFlyNEIxQ09qbnd2blczOXIxRT0",
+      "md5": "f9b417c6c11fa5406bff3c9525b0116f",
+      "filename": "MzFjYzhmMTM5OTUxNzY3NWpYeGFWTFBWQWJ0V2VFUVRaKzR6Q1JzUG5UdHpDdG05a3JJSjV2eUs1OTdUMmFaeUpUbG5GcGFoUlpYQzBaemo4czJvbzBUOHFvSWIyZDhyWUY0Zk1QaW9VVEluT1cvdFplVXVXYlF3S04yOTVPS3c1eEFmYmIzeTYvNndvSk8xcVRUSGtjK2pUZ1lCVlJySzRielltV3JBNFlyNEIxQ09qbnd2blczOXIxRT0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.862677+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-04 08:05:52+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 f\u00fcr Word",
+        "Producer": "Adobe PDF Library 25.1.5",
+        "Pages": 2,
+        "Words": 350,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MzVkYjI5MDRmZjVlZmM3ME5YK2QzZ0ltbjJjRU5wUGxhbnVJTVQzVTZlM254a1dud1ZpaXdnQUliMGd0RDR2OWlRZm0rRnR5cFJLRTlsdDZPR2RCMWNHUFF6MEpGNUd4WGlBY0NWMkp2cVl1T2QxQjFnOUk3RU1xOWcvNHJ3MlovNEk0ZnZabnc5K3UrWmQy",
+      "md5": "154ec06c96f884bbfd10401f4a9b99fe",
+      "filename": "MzVkYjI5MDRmZjVlZmM3ME5YK2QzZ0ltbjJjRU5wUGxhbnVJTVQzVTZlM254a1dud1ZpaXdnQUliMGd0RDR2OWlRZm0rRnR5cFJLRTlsdDZPR2RCMWNHUFF6MEpGNUd4WGlBY0NWMkp2cVl1T2QxQjFnOUk3RU1xOWcvNHJ3MlovNEk0ZnZabnc5K3UrWmQy.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.863918+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-14 06:45:50+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Producer": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Pages": 1,
+        "Words": 197,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/MzhmN2UwNjM3NWYzZDU5NUZTOW1MKzV1b2VkZU53RkxBRzF5dEVtTlYzUEU2NThZK1F4VjdjR2RPNCs2VVcxSlVTTWVmRkdrVUF1cWZjU0gvWUpJQkJQSktMTmhicGdHbW56OE9vMHNjeUNxdWkxWlBrRUtBdThoK2cwK3I4ZjRRMDJKMGoyRThOb1Y1dDRT",
+      "md5": "af491a3d5d603b8303b3ed40be17f0e3",
+      "filename": "MzhmN2UwNjM3NWYzZDU5NUZTOW1MKzV1b2VkZU53RkxBRzF5dEVtTlYzUEU2NThZK1F4VjdjR2RPNCs2VVcxSlVTTWVmRkdrVUF1cWZjU0gvWUpJQkJQSktMTmhicGdHbW56OE9vMHNjeUNxdWkxWlBrRUtBdThoK2cwK3I4ZjRRMDJKMGoyRThOb1Y1dDRT.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.865337+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-11-09 08:59:12+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "www.form-solutions.de",
+        "Producer": "Adobe LiveCycle Designer 11.0; modified using iText\u00ae 5.5.5 \u00a92000-2014 iText Group NV (AGPL-version)",
+        "Pages": 2,
+        "Words": 524,
+        "Images": 5
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/N2ZmZTI0Njc1MDgyMWQ0MTZGS05QSWh1SFRtc1prNWo4TThnWmp0NXRZQldIWmZ0MGF0UlkrenVpdVRvWk9pbGV1VkNOL1o4L2ZreUtsWDhQaGVkREhVd1NRcWhjS1E4bWk5YUpQckFhZ3p6dXZSb1dMbzdyampQdm5lNXhGdjNxeHNLMUZnVmxLRnQ4VGFhMmozdnpnT2p3cWhyT3VjbGRxeHhJdz09",
+      "md5": "72e5b66c2072ae88c694b48d3e781a7c",
+      "filename": "N2ZmZTI0Njc1MDgyMWQ0MTZGS05QSWh1SFRtc1prNWo4TThnWmp0NXRZQldIWmZ0MGF0UlkrenVpdVRvWk9pbGV1VkNOL1o4L2ZreUtsWDhQaGVkREhVd1NRcWhjS1E4bWk5YUpQckFhZ3p6dXZSb1dMbzdyampQdm5lNXhGdjNxeHNLMUZnVmxLRnQ4VGFhMmozdnpnT2p3cWhyT3VjbGRxeHhJdz09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.866571+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-23 12:14:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word f\u00fcr Microsoft 365",
+        "Producer": "Microsoft\u00ae Word f\u00fcr Microsoft 365",
+        "Pages": 2,
+        "Words": 266,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NDE0YTIyNDg5M2VhOTAzMkNTMFQvbmxIajlRWW42MThLVzdWZ2lnN2pLa1RHSEI1aHJhN3lGckc2a2loWUxNT0dYVlZvck9VOEZFQ3JaVXRqTTBVSUk1eGRoelRSMlZ1ejZvcTlnYVdTaE9VSTIxa2JOZ1VHSDBWU1ErOG9RQzRXUUZlVWJ2dkVUNnlLVFdtU2RsTTVuOFp5OGc5RHlRUy8xZno4UT09",
+      "md5": "c62f9ea03373a7d4ceb211fd0fdca80e",
+      "filename": "NDE0YTIyNDg5M2VhOTAzMkNTMFQvbmxIajlRWW42MThLVzdWZ2lnN2pLa1RHSEI1aHJhN3lGckc2a2loWUxNT0dYVlZvck9VOEZFQ3JaVXRqTTBVSUk1eGRoelRSMlZ1ejZvcTlnYVdTaE9VSTIxa2JOZ1VHSDBWU1ErOG9RQzRXUUZlVWJ2dkVUNnlLVFdtU2RsTTVuOFp5OGc5RHlRUy8xZno4UT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.868625+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-17 14:08:28+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 19.5 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 739,
+        "Images": 5
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NDJiMzlmYTQwM2FhNTIzNDhvb0ROMS95WG9yZ0NTVS9zSEtmazEvK05lRkZuc3VqL3lHY255amg3bzBTcUoxMlFGWkpTVk5kaDM2djJocXVJVG9JUlVDTzVEZGtWOGFJbmVEY3VvMFZpU1VhdHRSOFlaLy9GbUMzTGNxaEg2VlZuNlZiUHZrOEt4QzNGWmRUUnRNWWJxeTRZTnJOYktSYmVGUU5Fdz09",
+      "md5": "f0ebcc73b09c171dd34643c390dc2ba2",
+      "filename": "NDJiMzlmYTQwM2FhNTIzNDhvb0ROMS95WG9yZ0NTVS9zSEtmazEvK05lRkZuc3VqL3lHY255amg3bzBTcUoxMlFGWkpTVk5kaDM2djJocXVJVG9JUlVDTzVEZGtWOGFJbmVEY3VvMFZpU1VhdHRSOFlaLy9GbUMzTGNxaEg2VlZuNlZiUHZrOEt4QzNGWmRUUnRNWWJxeTRZTnJOYktSYmVGUU5Fdz09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.870021+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-11-09 09:58:55+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "www.form-solutions.de",
+        "Producer": "Adobe LiveCycle Designer ES 10.0; modified using iText\u00ae 5.5.5 \u00a92000-2014 iText Group NV (AGPL-version)",
+        "Pages": 2,
+        "Words": 470,
+        "Images": 5
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NDNjNTIzODZkMzAyNWZiOE1VY2lqZ1hYeEs0R2RKbld4ZHgrZzZmcUdvSWRkaGd4OVkrUFUrNEpLVFdyR3BGbG9raWkyVUI5Rm54VzI4aVNRZnJLbTBtV3RDY0RzaWFtcjZGbVpFeEFpZ2Zsb0lCc29yc0JSYjVYLzVVN0lsN29lTStFRWlnWkFVVGxJYlN6Mzl4eFBjRktNMTJmc0pCZGdLcHc4d3RjblNZaXRXbGk0NjhTekxHKzJEcz0",
+      "md5": "5a3c55aad023a1a421b894437a804a39",
+      "filename": "NDNjNTIzODZkMzAyNWZiOE1VY2lqZ1hYeEs0R2RKbld4ZHgrZzZmcUdvSWRkaGd4OVkrUFUrNEpLVFdyR3BGbG9raWkyVUI5Rm54VzI4aVNRZnJLbTBtV3RDY0RzaWFtcjZGbVpFeEFpZ2Zsb0lCc29yc0JSYjVYLzVVN0lsN29lTStFRWlnWkFVVGxJYlN6Mzl4eFBjRktNMTJmc0pCZGdLcHc4d3RjblNZaXRXbGk0NjhTekxHKzJEcz0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.872472+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-22 07:27:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 f\u00fcr Word",
+        "Producer": "Adobe PDF Library 24.1.135",
+        "Pages": 21,
+        "Words": 5224,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NGI4MDUzZDcwOGZkMDJjN21MSnVsNVF3R1BZVmhxOTBTaUgweUZIV2xreitXZmRNUkRNRXpuaEQ5dU1uU0NuSFN5cjUrNThWMlZRUnFLNS85UnBrWTFXWmhXVFU5UUhsSFYxa2RuQVpZSkRRU0R6NWVjWHNHT3pZWDZPRFgrODhmbnNuOFc3VEZBaVhRTW83",
+      "md5": "7e99dc0361154b2d1b2a870240892eb4",
+      "filename": "NGI4MDUzZDcwOGZkMDJjN21MSnVsNVF3R1BZVmhxOTBTaUgweUZIV2xreitXZmRNUkRNRXpuaEQ5dU1uU0NuSFN5cjUrNThWMlZRUnFLNS85UnBrWTFXWmhXVFU5UUhsSFYxa2RuQVpZSkRRU0R6NWVjWHNHT3pZWDZPRFgrODhmbnNuOFc3VEZBaVhRTW83.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.882627+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-12-18 11:06:37+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae PowerPoint\u00ae f\u00fcr Microsoft 365",
+        "Producer": "Microsoft\u00ae PowerPoint\u00ae f\u00fcr Microsoft 365",
+        "Pages": 33,
+        "Words": 623,
+        "Images": 91
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NTNmYzMzODUxNmVlYzQ3OVZEOFp6eHR1aDNnN0pLK3k2UU4yZmYrZHlyd0Zrd3ByZ05odFFYSXd2VHRpZVBoajlhU25XZ0o1OGx1SGY4NkRuZ2lxQ3A2NE9RS0tJZFZLVForWWJheG1rTzdpVExybDhjVkFhT1VZWm5IRVAxc0tmano0ci9Db2NLQ2l4WVlZZEFTck8vQVNQQzIvQ1VBWDF1Q3AzQT09",
+      "md5": "4d60b76e3a2cd10585b7b68b91175a7e",
+      "filename": "NTNmYzMzODUxNmVlYzQ3OVZEOFp6eHR1aDNnN0pLK3k2UU4yZmYrZHlyd0Zrd3ByZ05odFFYSXd2VHRpZVBoajlhU25XZ0o1OGx1SGY4NkRuZ2lxQ3A2NE9RS0tJZFZLVForWWJheG1rTzdpVExybDhjVkFhT1VZWm5IRVAxc0tmano0ci9Db2NLQ2l4WVlZZEFTck8vQVNQQzIvQ1VBWDF1Q3AzQT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.885585+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-08-12 11:46:38+02:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 0,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NTRmZTVmYzQzMTRkZDEyOUlzcGhHZy8xRWxscXVxWFdkU1JqV2I5UFVaSnRKRVdDVSswQ1lsR2JESzU5dVY4alRhQkhiRWh6WVpCc0tMRkZtRFNHbTFCeXViVE1NT00remJseHk2Y1Y1NmJqM1NVOUsyRGQrU1FEaHN6Zk53RXJoQmFhbDVlWUNWS3JxUTNO",
+      "md5": "806803458e1c9e4374fd78e0f4ec2dee",
+      "filename": "NTRmZTVmYzQzMTRkZDEyOUlzcGhHZy8xRWxscXVxWFdkU1JqV2I5UFVaSnRKRVdDVSswQ1lsR2JESzU5dVY4alRhQkhiRWh6WVpCc0tMRkZtRFNHbTFCeXViVE1NT00remJseHk2Y1Y1NmJqM1NVOUsyRGQrU1FEaHN6Zk53RXJoQmFhbDVlWUNWS3JxUTNO.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.886706+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-12-17 11:39:51+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 116,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NWRhM2JiYjdlODc3M2U2ZmlibGY4WnN5T2xZQWd3dXo5T1lGS1psWXB3cTVENFlnRFpDQ3BFQnB1RmRMR3RPRVhhYlR2Z256TjlqWDQvZlRmTmY4STBHMjRtdkNUVHFORVNDUHZxWDNtS05YRDZSbmxkZk94azJ5eStLaCtkeEZHSlhOczhvWWZkOW10TXk3MlJBSEgyOXpuTDZSM3p6YlZpSTloQT09",
+      "md5": "1ed89fef958a88ef96cdf3fe39686faf",
+      "filename": "NWRhM2JiYjdlODc3M2U2ZmlibGY4WnN5T2xZQWd3dXo5T1lGS1psWXB3cTVENFlnRFpDQ3BFQnB1RmRMR3RPRVhhYlR2Z256TjlqWDQvZlRmTmY4STBHMjRtdkNUVHFORVNDUHZxWDNtS05YRDZSbmxkZk94azJ5eStLaCtkeEZHSlhOczhvWWZkOW10TXk3MlJBSEgyOXpuTDZSM3p6YlZpSTloQT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.888151+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-04 10:22:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 4,
+        "Words": 944,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NjNmNTkxNGY4NGYxYzMxYk4yeHNTZkcyWXFRN0lSUXlKT2ozVWN2UXUyaEZUKzNBdTVDSmcvVHkwRSt6cnJLYmQ2SjFub2svY250NXdDcHFxWWNKeUhOenp1bkFDMGJnSldPK2RoNHY5eU9wVWc4QWhkQWcwQ3BaVmtyT2gwcnIzQlFDMTdhelE4b09ycUpq",
+      "md5": "77e0b2cca96d58e972c2ca3a3adb4ee2",
+      "filename": "NjNmNTkxNGY4NGYxYzMxYk4yeHNTZkcyWXFRN0lSUXlKT2ozVWN2UXUyaEZUKzNBdTVDSmcvVHkwRSt6cnJLYmQ2SjFub2svY250NXdDcHFxWWNKeUhOenp1bkFDMGJnSldPK2RoNHY5eU9wVWc4QWhkQWcwQ3BaVmtyT2gwcnIzQlFDMTdhelE4b09ycUpq.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.889371+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-04-30 11:51:48+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Producer": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Pages": 1,
+        "Words": 159,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/Njk2MDgyMmIyMTIzNmFmZFlZUU0weXlET1JRNUVEaDBnUmc3R1ZGU1R4Q0VMZTZXZjNpTHRENjZuZ0d2YU5pK1RSK3dQS1E3WC9pbW9teWhFZXpWMWk4RmdWRFYyQ3AybzZaOUFJZm1yOXhkVW9GVFJPeFJaQWplblBqYS9pSjBvN3dVM0ZZZk5zdDJzM2tSaDRtZFcyM1k2aDE0Y0Q4Wjl4QWFpZz09",
+      "md5": "4aec83fea50a746c18c56e8edbad68d6",
+      "filename": "Njk2MDgyMmIyMTIzNmFmZFlZUU0weXlET1JRNUVEaDBnUmc3R1ZGU1R4Q0VMZTZXZjNpTHRENjZuZ0d2YU5pK1RSK3dQS1E3WC9pbW9teWhFZXpWMWk4RmdWRFYyQ3AybzZaOUFJZm1yOXhkVW9GVFJPeFJaQWplblBqYS9pSjBvN3dVM0ZZZk5zdDJzM2tSaDRtZFcyM1k2aDE0Y0Q4Wjl4QWFpZz09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.891021+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-07-24 14:54:15+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 6,
+        "Words": 1823,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NmFmYjQ0MDViNTVmMjA2M1NuTjRQSHpCSC9FZU1INHFjR3JVdFdsQ1QyVHhzR09wSmpDVFd3NlUxU1ZwSHA2R3Z2WERXSFdyQzVxQWpCQmJJS3FJTVNhS28rZHhrZXViYk5uRnhHZ1h1eUpWTnNjSld2ZjFQSm9DdGQ0cjJUSmt3Ty9wY0Z1bDRJMWpTbXZBYm5BNTljcXErL3J5U3VvWHEzRUkxQT09",
+      "md5": "61446f4f1ae351587620b57817261a5c",
+      "filename": "NmFmYjQ0MDViNTVmMjA2M1NuTjRQSHpCSC9FZU1INHFjR3JVdFdsQ1QyVHhzR09wSmpDVFd3NlUxU1ZwSHA2R3Z2WERXSFdyQzVxQWpCQmJJS3FJTVNhS28rZHhrZXViYk5uRnhHZ1h1eUpWTnNjSld2ZjFQSm9DdGQ0cjJUSmt3Ty9wY0Z1bDRJMWpTbXZBYm5BNTljcXErL3J5U3VvWHEzRUkxQT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.892281+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-01-15 10:03:51+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 19 f\u00fcr Word",
+        "Producer": "Adobe PDF Library 19.12.66",
+        "Pages": 2,
+        "Words": 248,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NzAwNjUxMjJjZTYyNjQ5MnZHTjdXV1N2NHJqYURWRTJ0dFlCZEJSRk9zd1BiT2JyWldQM1ZmVVhqL055VE1Wb1E1akVzRjBhdnpYbHRIYW1ySHlwSE5raWJ5bVB2NFdPVis2bVhIeTc5ejEzWmRLbDBBWjYvdlZRMnJWRnlJeEg4UDFTTTdtZEh2VDlMdUov",
+      "md5": "08c29a7b1e9335ba30ff332140982230",
+      "filename": "NzAwNjUxMjJjZTYyNjQ5MnZHTjdXV1N2NHJqYURWRTJ0dFlCZEJSRk9zd1BiT2JyWldQM1ZmVVhqL055VE1Wb1E1akVzRjBhdnpYbHRIYW1ySHlwSE5raWJ5bVB2NFdPVis2bVhIeTc5ejEzWmRLbDBBWjYvdlZRMnJWRnlJeEg4UDFTTTdtZEh2VDlMdUov.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.900961+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-12 17:51:07+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae PowerPoint\u00ae 2019",
+        "Producer": "Microsoft\u00ae PowerPoint\u00ae 2019",
+        "Pages": 38,
+        "Words": 845,
+        "Images": 47
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NzFmNmJjM2E4MjdhNmRhZGY0dDN6dzd0TnhoUE5Yd3hNSWRNeDFvdlVaaUFSYkFmbjEwYzRPYklVNEVheXB5WjZQT1l5aUJCNXFBUGFyNkVOWVlGNUR2ZE1OcUc1eHcyczhhWU9JTEFzTnlTbHZ2SEsvRUJYNG0rdmdEcVcyaDAzOXhnem9iaTQxa1pSNmtu",
+      "md5": "e4d24d3d933a248f1008e7dc5134f388",
+      "filename": "NzFmNmJjM2E4MjdhNmRhZGY0dDN6dzd0TnhoUE5Yd3hNSWRNeDFvdlVaaUFSYkFmbjEwYzRPYklVNEVheXB5WjZQT1l5aUJCNXFBUGFyNkVOWVlGNUR2ZE1OcUc1eHcyczhhWU9JTEFzTnlTbHZ2SEsvRUJYNG0rdmdEcVcyaDAzOXhnem9iaTQxa1pSNmtu.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.902176+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-04-30 11:51:14+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Producer": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Pages": 1,
+        "Words": 194,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NzQ5ZmQ5YjNjNDU3YjkwMG01cGlkYjFyWVdvY1Jxa3ZaT3I0aDJqSEhzRXFWbHZJVG5YK1BDS0NQOUlBQnpnTEFPM0RXMW9OdG05R3V0RFRZd2ZHYW1OUGwvUi9IME1BNTk3VmRzMXFJbUtock5NNTlpQ09sOCtjWXB2RzJwV1B1Rnp0ejcrc2EzNjdEVmNoV0o3VmZ3dk9yeFBMRnh6SGRud09qQ1pRSXd4WlVnOEZZbmlWQTlVaE5ITT0",
+      "md5": "d37c4da039808cee222e1af1becff4f5",
+      "filename": "NzQ5ZmQ5YjNjNDU3YjkwMG01cGlkYjFyWVdvY1Jxa3ZaT3I0aDJqSEhzRXFWbHZJVG5YK1BDS0NQOUlBQnpnTEFPM0RXMW9OdG05R3V0RFRZd2ZHYW1OUGwvUi9IME1BNTk3VmRzMXFJbUtock5NNTlpQ09sOCtjWXB2RzJwV1B1Rnp0ejcrc2EzNjdEVmNoV0o3VmZ3dk9yeFBMRnh6SGRud09qQ1pRSXd4WlVnOEZZbmlWQTlVaE5ITT0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.903798+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-06-17 10:35:41+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 4,
+        "Words": 0,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/NzY1ODllMWJlMWRlM2U5YXFMMW9uUEpUNjBjelQ1YXoxM0lNYU5NVnlFcTRna3dBay9PaGlqWm9nV2xBSiswNFZHcXhkNTlBT2JRSmNDdGFxay9yUkdtRjIveDBCeWdrQnpoV2ZHaXpUMXpPSzVHK1pydDBiMmp1MzFlY2dQOVQrQzUzQWVLS1NkTjZZa3NGMlN0bHdaY0U4WWgxQzN2cFBLVHp4dz09",
+      "md5": "0eff21ee82e2ed6e3784e62f33b71fea",
+      "filename": "NzY1ODllMWJlMWRlM2U5YXFMMW9uUEpUNjBjelQ1YXoxM0lNYU5NVnlFcTRna3dBay9PaGlqWm9nV2xBSiswNFZHcXhkNTlBT2JRSmNDdGFxay9yUkdtRjIveDBCeWdrQnpoV2ZHaXpUMXpPSzVHK1pydDBiMmp1MzFlY2dQOVQrQzUzQWVLS1NkTjZZa3NGMlN0bHdaY0U4WWgxQzN2cFBLVHp4dz09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.905115+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-03-18 11:14:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 3,
+        "Words": 366,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ODlkMWU1NGViNDhkYTZhNDlvem5TYmkreXBDV0hDSXJaRTFlbFhuSXJ0SC9ZQ3diNUpIQUV6Vk93MG5pdCtYbVA5YnQ2bndCU2NPSmx4OWxmY1EwTWNsTFJGaEs2elVJeWdrVlo5MTEvT2xxTDNyUW1QVmMvTXM3TjdhbEpTcnJZZWhuZUdtMERDdTlZTmY3bUtCZkE3T0ZVZEF3THhOUE5BMWZ0QT09",
+      "md5": "8d7da427a1df6e1216dd924cefa19aaf",
+      "filename": "ODlkMWU1NGViNDhkYTZhNDlvem5TYmkreXBDV0hDSXJaRTFlbFhuSXJ0SC9ZQ3diNUpIQUV6Vk93MG5pdCtYbVA5YnQ2bndCU2NPSmx4OWxmY1EwTWNsTFJGaEs2elVJeWdrVlo5MTEvT2xxTDNyUW1QVmMvTXM3TjdhbEpTcnJZZWhuZUdtMERDdTlZTmY3bUtCZkE3T0ZVZEF3THhOUE5BMWZ0QT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.906824+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-06-10 09:08:38+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 171,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/OGMzOWZkMzhjZTU5OThmM0Nld0hYUjdPNmE1TUdEQklCT2QzTjdaUkRDTDBaRGI2VWtDaHd1VXMzUER4Tlo3QWk1SDV4R2tydXVTQzV4T0krakQrMkM5R2V6U2xCNUFETWhNUUZxcTJSQlhGYWJyKzYzemdVRk1sTStLR2FJbkh6b29qaU5hejBjLzgrS1JC",
+      "md5": "c78adb773a2884cb4172a1684f7fc5e5",
+      "filename": "OGMzOWZkMzhjZTU5OThmM0Nld0hYUjdPNmE1TUdEQklCT2QzTjdaUkRDTDBaRGI2VWtDaHd1VXMzUER4Tlo3QWk1SDV4R2tydXVTQzV4T0krakQrMkM5R2V6U2xCNUFETWhNUUZxcTJSQlhGYWJyKzYzemdVRk1sTStLR2FJbkh6b29qaU5hejBjLzgrS1JC.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.908051+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-14 14:31:27+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Producer": "Microsoft\u00ae Excel\u00ae LTSC",
+        "Pages": 1,
+        "Words": 205,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/OThlMGQ4YmEwMDJlYTUwOXZTNEdZOEs1Sms0T2NDUERWd3NpOEZYMFNXc0lPRjhuNWg3UUUyRjBKOHFtRjcwQ3N5QXgxK212UUo2U0l3TTBkbityb25QY2Rlc0czZ0o3NDkrUWpTYU1UVVhnVnVjdXBWdXdNNld4eFRFR1BKNEw0RkcvdGZqYXJvK1FucWRi",
+      "md5": "6f01c76badd053511b6eacdc89f3388a",
+      "filename": "OThlMGQ4YmEwMDJlYTUwOXZTNEdZOEs1Sms0T2NDUERWd3NpOEZYMFNXc0lPRjhuNWg3UUUyRjBKOHFtRjcwQ3N5QXgxK212UUo2U0l3TTBkbityb25QY2Rlc0czZ0o3NDkrUWpTYU1UVVhnVnVjdXBWdXdNNld4eFRFR1BKNEw0RkcvdGZqYXJvK1FucWRi.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.909685+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-12-08 14:32:32+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 210,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/OWRiZDcwYWFkMjQ3YzdlZklmWklST3ZSOC9IYWxYTi8vNHRsM2VrUHdDbVUvMUsyczc1SDk3ZlgrSGdUUlRjZ0ZCWTJFbzk4WUVmdWFoS2tKUVVEVjRCRVBsMmtFSGNsdE9QbXZTVG5tUzg1K3BVS0RaZzJrTWx3eno3TXl2N3pZQUZjSWdkTDRCYWRwVnQxdTJJaE5PcVVRdlBlVHpnTDZuYmlta2JpL215R2tzNlF4a0puNGozOUxnWT0",
+      "md5": "f1b19d24a46acd9053cea66ce0c12263",
+      "filename": "OWRiZDcwYWFkMjQ3YzdlZklmWklST3ZSOC9IYWxYTi8vNHRsM2VrUHdDbVUvMUsyczc1SDk3ZlgrSGdUUlRjZ0ZCWTJFbzk4WUVmdWFoS2tKUVVEVjRCRVBsMmtFSGNsdE9QbXZTVG5tUzg1K3BVS0RaZzJrTWx3eno3TXl2N3pZQUZjSWdkTDRCYWRwVnQxdTJJaE5PcVVRdlBlVHpnTDZuYmlta2JpL215R2tzNlF4a0puNGozOUxnWT0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.923510+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-30 10:30:26+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae PowerPoint\u00ae f\u00fcr Microsoft 365",
+        "Producer": "Microsoft\u00ae PowerPoint\u00ae f\u00fcr Microsoft 365",
+        "Pages": 27,
+        "Words": 889,
+        "Images": 72
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YTc5ZjU3ZmE1ZmJlOTAzM0krTHBOTDFqT1lNYnJNQ0x2OXo1VWl5dENNWk5pSG5VUEQ1R2EwRmRMWkZrOWFuVitXTUM4K29sUjdhUkc1R211WVZSOVdPMlNla3cyT2RkZ1FUTHBSU3RaVXA1WFJyaGxtdm1ndDdDTm5qRVJzUHFCcGtvYnhTU2d2dUp6b1IwekxCZXA3eHlKbE9ubms1THJRbGRtUT09",
+      "md5": "94a8bcc75098b498a5dc57e5a310366f",
+      "filename": "YTc5ZjU3ZmE1ZmJlOTAzM0krTHBOTDFqT1lNYnJNQ0x2OXo1VWl5dENNWk5pSG5VUEQ1R2EwRmRMWkZrOWFuVitXTUM4K29sUjdhUkc1R211WVZSOVdPMlNla3cyT2RkZ1FUTHBSU3RaVXA1WFJyaGxtdm1ndDdDTm5qRVJzUHFCcGtvYnhTU2d2dUp6b1IwekxCZXA3eHlKbE9ubms1THJRbGRtUT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.924833+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-04 09:57:17+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 5,
+        "Words": 1179,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YTkxZGVlZDAzMDgyZTg2Y2wzbC9WUkNOV2lQUjV6dDg0a3pNK0hQNGNHdFlhRUE5Rm5SYSt6bExXeUhlanJoTVFpZXc5R0ZSczNUU3UvSHRrQ2d5a0pyYXc0MU53WWZZT1hZSjZCdVNLUVZ6L3R5eEFnWDh3RDB6VXJFV3UvRWVKY1hMWVMrS1EwYzFEc21FRkZNTFJPVkVUdmZKRThLWFM2SldlQT09",
+      "md5": "b5aa7392f09e7dc588d5890931063146",
+      "filename": "YTkxZGVlZDAzMDgyZTg2Y2wzbC9WUkNOV2lQUjV6dDg0a3pNK0hQNGNHdFlhRUE5Rm5SYSt6bExXeUhlanJoTVFpZXc5R0ZSczNUU3UvSHRrQ2d5a0pyYXc0MU53WWZZT1hZSjZCdVNLUVZ6L3R5eEFnWDh3RDB6VXJFV3UvRWVKY1hMWVMrS1EwYzFEc21FRkZNTFJPVkVUdmZKRThLWFM2SldlQT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.926117+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-07 16:02:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 f\u00fcr Word",
+        "Producer": "Adobe PDF Library 24.1.135",
+        "Pages": 10,
+        "Words": 2350,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YTlhY2U5ODdjNzkzNTFlN1Z5aUdaU3JWRGJDeEt6aUVPUGpwUENxdCtyNlJKVlFwMnNoVi9ndXdGd09MaCtjR0kwSUl1RXpoV3N0U3Z0eVhYYldrYkVxZkMyTEY3LzR0RUc3MUlqbSt2eUFyV1k0RlM5WXFIOWhVNkFwVlVQRjg2UGxaSTI0VXJEcmFpeFZTeUYxMXhVZXVudnFCYS93WmdaNjEzeWxhUWdTZGZJdVhtdEpUbm9WMEwvOD0",
+      "md5": "721675bbbd66da03ec622a057e872f6b",
+      "filename": "YTlhY2U5ODdjNzkzNTFlN1Z5aUdaU3JWRGJDeEt6aUVPUGpwUENxdCtyNlJKVlFwMnNoVi9ndXdGd09MaCtjR0kwSUl1RXpoV3N0U3Z0eVhYYldrYkVxZkMyTEY3LzR0RUc3MUlqbSt2eUFyV1k0RlM5WXFIOWhVNkFwVlVQRjg2UGxaSTI0VXJEcmFpeFZTeUYxMXhVZXVudnFCYS93WmdaNjEzeWxhUWdTZGZJdVhtdEpUbm9WMEwvOD0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.927346+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-21 13:20:40+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 3,
+        "Words": 561,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YWNhNWU0NTNlMGNjZjcyZjBGWnNkOVpNZVRESDdtOFR6d3BkbHdlY0pqa2IrNXRnaHNMV0tqVWFYSThnUTZVNmJxWmFhYWxKSDlBZ2c4N2x3YVJJQWtyZ2dmdm9Kd3BEdXo0UHhUVE15d09XWTNLejdCUmNOYS91ZHJweXVBV3NZUXZUSDlhNjNta3JraWMvS2xGY0hvOWR3TDlJSlBUeGdHNk1GQT09",
+      "md5": "f4a3c5cdc0e2b443ba30471dc235cdab",
+      "filename": "YWNhNWU0NTNlMGNjZjcyZjBGWnNkOVpNZVRESDdtOFR6d3BkbHdlY0pqa2IrNXRnaHNMV0tqVWFYSThnUTZVNmJxWmFhYWxKSDlBZ2c4N2x3YVJJQWtyZ2dmdm9Kd3BEdXo0UHhUVE15d09XWTNLejdCUmNOYS91ZHJweXVBV3NZUXZUSDlhNjNta3JraWMvS2xGY0hvOWR3TDlJSlBUeGdHNk1GQT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.928745+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-03-10 14:20:24+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 1021,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YWZjZWVhYWViNWE0NmJjNlYyQ3c4YnJ6eThyMTM1bG9XMnVUVFU4UGV4bWFORFNnVVZUbWtkajBpeGV3T1UwWkdsNytMbmtyY0l6U0FUU1VldG5reEkySjQ5VnZHUFpENG1LTzRkWEFiV09ZeUZtcG5EWWhLZmVDcHN0QjE1L2xJdkZJN2ZZaWFFS3hhS1B2Z2lpc2l5TllUeGdwK1ZTMEo2R3dsUFVFcE81WnpSTWpQTmlvYzZCcURWST0",
+      "md5": "aff4692b9630e6a3885f93914177659e",
+      "filename": "YWZjZWVhYWViNWE0NmJjNlYyQ3c4YnJ6eThyMTM1bG9XMnVUVFU4UGV4bWFORFNnVVZUbWtkajBpeGV3T1UwWkdsNytMbmtyY0l6U0FUU1VldG5reEkySjQ5VnZHUFpENG1LTzRkWEFiV09ZeUZtcG5EWWhLZmVDcHN0QjE1L2xJdkZJN2ZZaWFFS3hhS1B2Z2lpc2l5TllUeGdwK1ZTMEo2R3dsUFVFcE81WnpSTWpQTmlvYzZCcURWST0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.932864+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-11 12:36:55+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae PowerPoint\u00ae f\u00fcr Microsoft 365",
+        "Producer": "Microsoft\u00ae PowerPoint\u00ae f\u00fcr Microsoft 365",
+        "Pages": 11,
+        "Words": 277,
+        "Images": 30
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YjE4MzhkODM2ZDBjNDJhMHBnRGtRUVhCUUh3SXdLazdjVDV0SURuMGsvZE9ZY1hVMVRkeUJEMlkwSzFnOEFQVFJwV1VISm5jTmFvNk9EdlBJQWFlSENLOXVtZWhrUjk3MDY3bHpTR0tibSs5dS9kc1FMNjY4OFhrRHBrb0NOM2xzRHN4ZUlYc3UzM0ZaOWlsNlRjbHlsSFFFbngwQmdOdUpVZysrdz09",
+      "md5": "2f4da6544e86482f8cac38490c362443",
+      "filename": "YjE4MzhkODM2ZDBjNDJhMHBnRGtRUVhCUUh3SXdLazdjVDV0SURuMGsvZE9ZY1hVMVRkeUJEMlkwSzFnOEFQVFJwV1VISm5jTmFvNk9EdlBJQWFlSENLOXVtZWhrUjk3MDY3bHpTR0tibSs5dS9kc1FMNjY4OFhrRHBrb0NOM2xzRHN4ZUlYc3UzM0ZaOWlsNlRjbHlsSFFFbngwQmdOdUpVZysrdz09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.934165+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-27 08:16:05+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "PDFTron PDFNet, V10.9084\n",
+        "Pages": 1,
+        "Words": 240,
+        "Images": 18
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YjM1ZDhkOGI3MDU3ZjY0NytDL2gyTWJlcU5STitiS3VCdUlqK1pJNG5Za2llYTBGRkU3V3k4aks0Yk9HdlJxOVVuaXhzck1lNThac05ROUUzdU9wTlhWTGNQV3VlMXdCSmRkT2F3eER1NGJ5Wnd6OWpPdGk3ZFlHc01YQnROQTVmVnBwSlBhYjZVRWNpd2xZ",
+      "md5": "d396815be1a87e49c515ed3aac708eda",
+      "filename": "YjM1ZDhkOGI3MDU3ZjY0NytDL2gyTWJlcU5STitiS3VCdUlqK1pJNG5Za2llYTBGRkU3V3k4aks0Yk9HdlJxOVVuaXhzck1lNThac05ROUUzdU9wTlhWTGNQV3VlMXdCSmRkT2F3eER1NGJ5Wnd6OWpPdGk3ZFlHc01YQnROQTVmVnBwSlBhYjZVRWNpd2xZ.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.935798+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-12-08 14:33:00+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 201,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YjM4YzY0NGYwZWEwNWFlYWlzM2c1QnFPZ3BtazN5R041Rnpjdm83YmsyYXVxclNYKy9seXUyNEtZWFZMaG5TSDEwaGthc1c0MXZ4MFU2dGF3emRGV0VPZ3dWNWsvMnFXNEorZG5zdjBzclI4VUJreFdRKzBoKzVFNG9iR0hTMmw4ajZvbURBbW1VQW5uSkxvWDVXVTNXZnBuSkR3eFZ1U2RMaWdKdz09",
+      "md5": "14eefd6972a28a1254081203681c557e",
+      "filename": "YjM4YzY0NGYwZWEwNWFlYWlzM2c1QnFPZ3BtazN5R041Rnpjdm83YmsyYXVxclNYKy9seXUyNEtZWFZMaG5TSDEwaGthc1c0MXZ4MFU2dGF3emRGV0VPZ3dWNWsvMnFXNEorZG5zdjBzclI4VUJreFdRKzBoKzVFNG9iR0hTMmw4ajZvbURBbW1VQW5uSkxvWDVXVTNXZnBuSkR3eFZ1U2RMaWdKdz09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.937755+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-11-12 15:52:09+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 11,
+        "Words": 2778,
+        "Images": 7
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YjkyZmZmYTYzODNiY2IxYldLemNCQSt1RXRINkFyQkdWRlpjaUZxZFB2b2JBaEl1Q0lBVTlNSWZzRTNyZENtR0JCeWV2c0h1Y29YS1I3M0hrcGxQa3p4QzBwWDVVbE5qdnJEb1djczBRM0RVTFJuWDgzMEFiRkJXT0lhdCtmUXdvNytBb3duN1h1QktrVWFIZTBob1dNRDQrL3ZlbHd6TzRlVHFQVnVaMnJYcW9MRUFzWU1MUGpTemthaz0",
+      "md5": "5b7826ba9c4ae0fd9804bcd7210db161",
+      "filename": "YjkyZmZmYTYzODNiY2IxYldLemNCQSt1RXRINkFyQkdWRlpjaUZxZFB2b2JBaEl1Q0lBVTlNSWZzRTNyZENtR0JCeWV2c0h1Y29YS1I3M0hrcGxQa3p4QzBwWDVVbE5qdnJEb1djczBRM0RVTFJuWDgzMEFiRkJXT0lhdCtmUXdvNytBb3duN1h1QktrVWFIZTBob1dNRDQrL3ZlbHd6TzRlVHFQVnVaMnJYcW9MRUFzWU1MUGpTemthaz0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.948501+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-31 10:44:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 13,
+        "Words": 2109,
+        "Images": 10
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YmY5YWYyNDNkZTIzNWQzOUxoYnNDVWNReVVwb3o0b2N3VGl2ZDFZYUVvcWltSGY3QVY1em9JOHdMeC91NW1qSEx4NndYM1VocUVaVGRlRHgzYzR4eS9XcmlOejlzRzZ1MFBGVGU5dEpHWGNQWWxaQTFkOVh0RnBvYlZXRXBRV0ZrNCs3Z0FlcHJtVXdkbVlIY2dXUXZ4OUROelFaK1FTYzRGU1NiQT09",
+      "md5": "6fdd1bdf3c727890c28a9ee78557e2ff",
+      "filename": "YmY5YWYyNDNkZTIzNWQzOUxoYnNDVWNReVVwb3o0b2N3VGl2ZDFZYUVvcWltSGY3QVY1em9JOHdMeC91NW1qSEx4NndYM1VocUVaVGRlRHgzYzR4eS9XcmlOejlzRzZ1MFBGVGU5dEpHWGNQWWxaQTFkOVh0RnBvYlZXRXBRV0ZrNCs3Z0FlcHJtVXdkbVlIY2dXUXZ4OUROelFaK1FTYzRGU1NiQT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.949631+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Fail",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2002-03-28 14:10:03+01:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.2",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 4,
+        "Words": 925,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/YzdmYTU2M2YyY2U4MDU5N2g5RXpvTWd5Wi9WOHl4cytzNjN3VTZMZ2xETVlKM2FNNXJ0Rm0rSXh3MmU5dENSK3VRQjFNVVpyNmtNeE5qUTJZejdKMENhR1NyQ05tZU5OdEVsa3ptb3pxbnFLRlhkWmN3TEc1RWkxTmN4VnQxaGJSS2E1dDJqWFB1d2F3b3I4",
+      "md5": "c4e4503d36f956e76fba7bbc279bdaf5",
+      "filename": "YzdmYTU2M2YyY2U4MDU5N2g5RXpvTWd5Wi9WOHl4cytzNjN3VTZMZ2xETVlKM2FNNXJ0Rm0rSXh3MmU5dENSK3VRQjFNVVpyNmtNeE5qUTJZejdKMENhR1NyQ05tZU5OdEVsa3ptb3pxbnFLRlhkWmN3TEc1RWkxTmN4VnQxaGJSS2E1dDJqWFB1d2F3b3I4.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.951673+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-02-07 11:35:26+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "QuarkXPress(R) 15.25",
+        "Producer": "QuarkXPress(R) 15.25",
+        "Pages": 2,
+        "Words": 473,
+        "Images": 12
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ZDAyZWQxMjdlNGQzNTAwM2RZdzB4aTA4MXB4L2wzOWk0dDdsMWVYS3ptaXprblNVZk1EVVVoVWhrRXJ3b3R0QVNsc0FhQkY4SmRGV21FbEJDcGo3VEZLeWVTbzNOdkFQZk5yNE1OZ2t5a2luY2FDRjRMVVplOFF2cXY2c05wR2NsY0JzbnR1d3g1Y1NNOGVnRHMxaGVJV0xXdTdnYlQxYlgwNldwQT09",
+      "md5": "7ccb720235a96afb7de5050470131996",
+      "filename": "ZDAyZWQxMjdlNGQzNTAwM2RZdzB4aTA4MXB4L2wzOWk0dDdsMWVYS3ptaXprblNVZk1EVVVoVWhrRXJ3b3R0QVNsc0FhQkY4SmRGV21FbEJDcGo3VEZLeWVTbzNOdkFQZk5yNE1OZ2t5a2luY2FDRjRMVVplOFF2cXY2c05wR2NsY0JzbnR1d3g1Y1NNOGVnRHMxaGVJV0xXdTdnYlQxYlgwNldwQT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.952937+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-16 05:52:21+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word 2019",
+        "Producer": "Microsoft\u00ae Word 2019",
+        "Pages": 1,
+        "Words": 139,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ZDBmY2JjNzJlZDgxMDNlYUxSM3dIYkVjcXlTT1FQTTZ0RGJnbjRLZ0Vwd3A5dmt1bk1ZZC9UNXd3NDA2bFhFVVNyMVhKamRBZXlGOXkrMTdwNFhrdjNvWE4zQWhTbFJiaFdCRW5BM25XRXhWNjJ3RVd0emxncWRmbkhvVTFHRnl2QW5JT2RqMUJBT3RwWUI5Y0F1Y1BOc3dqNm5tb2VWZDEwUG4xT2pISWM5OHU5YW5rS1BoVmgzNThZQT0",
+      "md5": "223e86f95d13d264c6f3bf9820b14a09",
+      "filename": "ZDBmY2JjNzJlZDgxMDNlYUxSM3dIYkVjcXlTT1FQTTZ0RGJnbjRLZ0Vwd3A5dmt1bk1ZZC9UNXd3NDA2bFhFVVNyMVhKamRBZXlGOXkrMTdwNFhrdjNvWE4zQWhTbFJiaFdCRW5BM25XRXhWNjJ3RVd0emxncWRmbkhvVTFHRnl2QW5JT2RqMUJBT3RwWUI5Y0F1Y1BOc3dqNm5tb2VWZDEwUG4xT2pISWM5OHU5YW5rS1BoVmgzNThZQT0.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.956093+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-03-08 13:32:20+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "RICOH MP C6502",
+        "Producer": "RICOH MP C6502",
+        "Pages": 11,
+        "Words": 0,
+        "Images": 11
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ZDU4MjFhNDhkZmIyODlkZW96MUNmeWhQbjZ3aUR6WVZXVWRscnNrOVphb3h5Q3pZMUU0c0FjUU5uSU5YY3BCMS92M1RsUGhkek4wUUFlTjBiVllxNDRIclV0QnZWUnVVNFJYQTRsc2Y5TlV1Qnptb2w2TkZFazBsQk4vSXdKRTZhS1hjQVdSY1JPYVMvU3hQ",
+      "md5": "7bff7ea55de1c5426c18fad1ea40fe7c",
+      "filename": "ZDU4MjFhNDhkZmIyODlkZW96MUNmeWhQbjZ3aUR6WVZXVWRscnNrOVphb3h5Q3pZMUU0c0FjUU5uSU5YY3BCMS92M1RsUGhkek4wUUFlTjBiVllxNDRIclV0QnZWUnVVNFJYQTRsc2Y5TlV1Qnptb2w2TkZFazBsQk4vSXdKRTZhS1hjQVdSY1JPYVMvU3hQ.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.957731+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-12-08 14:31:55+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 201,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ZDc0MDcyMzJjYjI4NzhlZjV4ckFFd2JqSEJha2hDcklHeXg3WTN6TjhROVpTakpxeFlWaXlJQ3AxNTYxVXE1VHFKNE9SVmdjaGk1UENQTWh3RUhwdGNGaXBlam9HR1BZZGY2VEt3ZVJ5YlV3aUxXaFV5MjNaOHQ3Vm5IemRhaHZ1SlZsaHNKbUxRRkgvdnNZZE9yT1VKcGNuamxDZHNnU0I1RndJUT09",
+      "md5": "2f4da6544e86482f8cac38490c362443",
+      "filename": "ZDc0MDcyMzJjYjI4NzhlZjV4ckFFd2JqSEJha2hDcklHeXg3WTN6TjhROVpTakpxeFlWaXlJQ3AxNTYxVXE1VHFKNE9SVmdjaGk1UENQTWh3RUhwdGNGaXBlam9HR1BZZGY2VEt3ZVJ5YlV3aUxXaFV5MjNaOHQ3Vm5IemRhaHZ1SlZsaHNKbUxRRkgvdnNZZE9yT1VKcGNuamxDZHNnU0I1RndJUT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.959031+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-27 08:16:05+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "PDFTron PDFNet, V10.9084\n",
+        "Pages": 1,
+        "Words": 240,
+        "Images": 18
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ZDhiZTM4MTgxNjFlZDA5NmlOdHk2amlOQU1PbFFVWjh5NkFXMXVJOU9NbzVueWlCN0hiVDdKbXlwd2lQUnlyYjFRcGhmQnVOd0dnMUV1NGc0UGpmR0JmdzJQZ293MG5VTVlLMXpMbTJ2ZWR2dkxRTHhFS0Z5U0dVbi9lZEJSZ2RvZlkvcktqKzhFa3hTL2lvcHlUQjBvNExUc2J4QXMvenNGOGVRUT09",
+      "md5": "ca26f10554705d13113f155001cb9058",
+      "filename": "ZDhiZTM4MTgxNjFlZDA5NmlOdHk2amlOQU1PbFFVWjh5NkFXMXVJOU9NbzVueWlCN0hiVDdKbXlwd2lQUnlyYjFRcGhmQnVOd0dnMUV1NGc0UGpmR0JmdzJQZ293MG5VTVlLMXpMbTJ2ZWR2dkxRTHhFS0Z5U0dVbi9lZEJSZ2RvZlkvcktqKzhFa3hTL2lvcHlUQjBvNExUc2J4QXMvenNGOGVRUT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.960310+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-12 16:23:15+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 1,
+        "Words": 122,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ZGQxNTg1NWUxMGI1MjI2NkEvMWdiRlVVT0ZZWnpEOFBkakhaQXpXNFFDMk40SmN3WUxFZTZYcm1nZ0pOcUFRdWh0UzdsOU55OEdvOHdEOEpqZlE3YWZvaVZ2cWNkTGNSSjJNYXh5dTdIM2RmQWhZb1FWelVhOThaYnVKbmFQYmt3NVNBRkRTdFN6RndkQ01Femcwb3Nnc21oSEZ6UXhhT3QweXViQT09",
+      "md5": "91a38c40a9245d1a310840ca81368361",
+      "filename": "ZGQxNTg1NWUxMGI1MjI2NkEvMWdiRlVVT0ZZWnpEOFBkakhaQXpXNFFDMk40SmN3WUxFZTZYcm1nZ0pOcUFRdWh0UzdsOU55OEdvOHdEOEpqZlE3YWZvaVZ2cWNkTGNSSjJNYXh5dTdIM2RmQWhZb1FWelVhOThaYnVKbmFQYmt3NVNBRkRTdFN6RndkQ01Femcwb3Nnc21oSEZ6UXhhT3QweXViQT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.962318+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-23 13:40:48+01:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 7,
+        "Words": 2549,
+        "Images": 14
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ZTI1NTUwMDRjOWE1NjQ2YzhIeE1aN0NGSktpZU1mT0FRbVZqZ29HK0k1YWpvU2xXZGw5T1ViellXTXBlTjBOM0hNdDRLZ2lXU2M4V1BBazc2MC92WnJBVko0bkhjNVNYRlRIeWJiMXQ1WTllZUdPRFl1VTJ0Wm9nSy9VT09ZRnpFTVNqZml6dzUwbzJsZnl3WkV6NU5jaEVMWG5SOGhFR1hGS1o3UT09",
+      "md5": "8f80d83f37645fd8217c6b507bcc824f",
+      "filename": "ZTI1NTUwMDRjOWE1NjQ2YzhIeE1aN0NGSktpZU1mT0FRbVZqZ29HK0k1YWpvU2xXZGw5T1ViellXTXBlTjBOM0hNdDRLZ2lXU2M4V1BBazc2MC92WnJBVko0bkhjNVNYRlRIeWJiMXQ1WTllZUdPRFl1VTJ0Wm9nSy9VT09ZRnpFTVNqZml6dzUwbzJsZnl3WkV6NU5jaEVMWG5SOGhFR1hGS1o3UT09.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.964964+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-03-26 05:58:12+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 3,
+        "Words": 0,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ZTQ0OTQ2OTFhZjg4NWZiZkVzeFRFZ3cyVC9aM0NlbHYvbTRMTUR1WW1hbVdPUi9ZQzR1ZnFlNExJRUt3Qk1Cd0g2YWtGSC8yVTk4eFJjeHNnTG9zRHFpRzJsSTRnOUF0YjJ6QktBWGFxcEFqbFBTQUIvSXpsQlNtdXhvUExjQm4xZnBSUG1rcE5jb0Y3amdT",
+      "md5": "b1e26560edcbeab4ba53f16f42c8b804",
+      "filename": "ZTQ0OTQ2OTFhZjg4NWZiZkVzeFRFZ3cyVC9aM0NlbHYvbTRMTUR1WW1hbVdPUi9ZQzR1ZnFlNExJRUt3Qk1Cd0g2YWtGSC8yVTk4eFJjeHNnTG9zRHFpRzJsSTRnOUF0YjJ6QktBWGFxcEFqbFBTQUIvSXpsQlNtdXhvUExjQm4xZnBSUG1rcE5jb0Y3amdT.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.966716+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-12-08 14:33:27+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 215,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/downloads/datei/ZTcyYjU4YjA5M2U2MmM1YjVkdEVEZWFlMnJ0aVFDSjBRdUZLMk56SVNOeU1sY1BwOWdQOHVjOUFXejFlS2pUdDdPNHo3eVpEWHBBQ2JaQUlaY2V6eFhHeUllcko1amJkSFc1Z0xEL2FWdUFzT3Z0dktoY3I0TE5WSDlkNmtPaDdMZWFCUTNwV1FDN2ltajA1",
+      "md5": "b6201c78f97b8af7b58e02235106cc6c",
+      "filename": "ZTcyYjU4YjA5M2U2MmM1YjVkdEVEZWFlMnJ0aVFDSjBRdUZLMk56SVNOeU1sY1BwOWdQOHVjOUFXejFlS2pUdDdPNHo3eVpEWHBBQ2JaQUlaY2V6eFhHeUllcko1amJkSFc1Z0xEL2FWdUFzT3Z0dktoY3I0TE5WSDlkNmtPaDdMZWFCUTNwV1FDN2ltajA1.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.968356+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-12-08 14:35:06+01:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 215,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/dokumente/beratung_on_tour_2024.pdf?20250610080013",
+      "md5": "acb29689bd5e895b80effcb3d9cc635b",
+      "filename": "beratung_on_tour_2024.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.969757+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-01-31 10:45:42+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 73,
+        "Images": 7
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/dokumente/einfuehrung_von_kita_gebuehren_und_erhoehung_der_krippen_gebuehren.pdf?20251125103223",
+      "md5": "af6a73b39a1d189a61a248360d32601c",
+      "filename": "einfuehrung_von_kita_gebuehren_und_erhoehung_der_krippen_gebuehren.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.971469+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-05 14:28:05+01:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 12,
+        "Words": 3865,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/dokumente/faq_ermaessigungsregelung_eltern.pdf?20260211112744",
+      "md5": "ea0902c919084f0b429c78959ef9f4b2",
+      "filename": "faq_ermaessigungsregelung_eltern.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.972816+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-04 10:20:48+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 5,
+        "Words": 944,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/dokumente/faq_ermaessigungsregelung_eltern_einfache_sprache.pdf?20260211112723",
+      "md5": "94a8bcc75098b498a5dc57e5a310366f",
+      "filename": "faq_ermaessigungsregelung_eltern_einfache_sprache.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.974114+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-04 09:57:17+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word LTSC",
+        "Producer": "Microsoft\u00ae Word LTSC",
+        "Pages": 5,
+        "Words": 1179,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.marburg.de/medien/dokumente/flyer_sicher_einfach_digital_der_online_ausweis.pdf?20241129115018",
+      "md5": "c62f9ea03373a7d4ceb211fd0fdca80e",
+      "filename": "flyer_sicher_einfach_digital_der_online_ausweis.pdf",
+      "site": "marburg.de",
+      "crawled_at": "2026-03-19T08:27:08.976182+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-17 14:08:28+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 19.5 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 739,
+        "Images": 5
+      },
+      "errors": []
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+      if (analysed.length) {
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table><thead><tr>' +
+          '<th>File</th><th>Site</th><th>Notes</th><th>Accessible</th>' +
+          '<th>Tagged</th><th>Title</th><th>Language</th><th>Bookmarks</th><th>Pages</th><th>Words</th><th>Images</th>' +
+          '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          var r = f.report || {};
+          html += '<tr>' +
+            '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' +
+              esc(f.filename || f.url) + '</a></td>' +
+            '<td>' + esc(f.site || '') + '</td>' +
+            '<td>' + esc(f.notes || '') + '</td>' +
+            '<td>' + icon(r.Accessible)     + '</td>' +
+            '<td>' + icon(r.TaggedTest)     + '</td>' +
+            '<td>' + icon(r.TitleTest)      + '</td>' +
+            '<td>' + icon(r.LanguageTest)   + '</td>' +
+            '<td>' + icon(r.BookmarksTest)  + '</td>' +
+            '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' +
+            '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' +
+            '</tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>

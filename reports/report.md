@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-19T04:20:22.045311+00:00
+Generated: 2026-03-19T08:39:39.883221+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 87 |
-| Total files tracked | 16225 |
-| Analysed | 3863 |
+| URLs crawled | 244 |
+| Total files tracked | 16296 |
+| Analysed | 3934 |
 | Pending analysis | 10937 |
 | Errors during analysis | 1425 |
-| Accessible | 1319 |
-| Totally inaccessible | 56 |
+| Accessible | 1332 |
+| Totally inaccessible | 62 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 842 |
+| Exempt (pre-2018) | 858 |
 
 ## Files per Site
 
@@ -42,6 +42,7 @@ Generated: 2026-03-19T04:20:22.045311+00:00
 | hud.gov | 1418 |
 | ijcaonline.org | 1 |
 | lasv.brandenburg.de | 260 |
+| marburg.de | 71 |
 | mn.gov | 1397 |
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
@@ -3926,6 +3927,77 @@ Generated: 2026-03-19T04:20:22.045311+00:00
 | [erappaexpenseform2025-1.pdf](https://www.erappa.org/wp-content/uploads/2025/10/erappaexpenseform2025-1.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 139 | 1 |
 | [erappapieform-0.pdf](https://www.erappa.org/wp-content/uploads/2022/04/erappapieform.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 114 | 1 |
 | [erappapieform.pdf](https://www.erappa.org/wp-content/uploads/2019/11/erappapieform.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 114 | 1 |
+| [900000012_archivsatzung.pdf](https://www.marburg.de/medien/satzungen/900000012_archivsatzung.pdf) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 | 1999 | 0 |
+| [900000074_schulbezirksgrenzensatzung_fassung_01.pdf](https://www.marburg.de/medien/satzungen/900000074_schulbezirksgrenzensatzung_fassung_01.pdf) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 | 1513 | 0 |
+| [900000079__f6ffentlich_rechtliche_20vereinbarung_20gem._20_a7_20140_20abs._201_20i._20v._20m._20_a7_20143_20abs._204_20hessische_20schulgesetz.pdf](https://www.marburg.de/medien/satzungen/900000079__f6ffentlich_rechtliche_20vereinbarung_20gem._20_a7_20140_20abs._201_20i._20v._20m._20_a7_20143_20abs._204_20hessische_20schulgesetz.pdf) | marburg.de | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 0 | 4 |
+| [900000196_40_31_schulbezirksgrenzensatzung_bs.pdf](https://www.marburg.de/medien/satzungen/900000196_40_31_schulbezirksgrenzensatzung_bs.pdf) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 391 | 0 |
+| [900000245_kinderbetreuungssatzung_der_universitaetsstadt_marburg.pdf](https://www.marburg.de/medien/satzungen/900000245_kinderbetreuungssatzung_der_universitaetsstadt_marburg.pdf) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1035 | 0 |
+| [900000263_i._nachtrag_zur_kinderbetreuungssatzung.pdf](https://www.marburg.de/medien/satzungen/900000263_i._nachtrag_zur_kinderbetreuungssatzung.pdf) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 354 | 0 |
+| [900000288_archivsatzung_der_universitaetsstadt_marburg_in_kraft_getreten_am_13.05.2018.pdf](https://www.marburg.de/medien/satzungen/900000288_archivsatzung_der_universitaetsstadt_marburg_in_kraft_getreten_am_13.05.2018.pdf) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 | 1836 | 0 |
+| [900000335_satzung_ueber_die_bildung_der_schulbezirksgrenzen_i.d.f._des_viii._nachtrags_inkrafttreten_am_01.08.2020_pdf.pdf](https://www.marburg.de/medien/satzungen/900000335_satzung_ueber_die_bildung_der_schulbezirksgrenzen_i.d.f._des_viii._nachtrags_inkrafttreten_am_01.08.2020_pdf.pdf) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1554 | 0 |
+| [900000335_viii._nachtrag_zur_satzung_bildung_schulbezirksgrenzen_inkrafttreten_am_01.08.2020.pdf](https://www.marburg.de/medien/satzungen/900000335_viii._nachtrag_zur_satzung_bildung_schulbezirksgrenzen_inkrafttreten_am_01.08.2020.pdf) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 403 | 0 |
+| [900000413_neufassung_archivsatzung_az11.10.03_0001.0005_p004372539_.pdf](https://www.marburg.de/medien/satzungen/900000413_neufassung_archivsatzung_az11.10.03_0001.0005_p004372539_.pdf) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1854 | 1 |
+| [M2ViOTUyNzY4ZmNkY2U1NmN1cUVQa016bnp1NXFFWmZMakkwOVhJWXdvK3VtMjBqVEFNM3ptVFN5TnpoM2V0UkI0RE9lSmc3WnFUY0lLbTJwMitPWXlFMWpSa0YzVTg5UTZ1YkFjbk02WnJGTWtRREc1bVNOejlmUFpsQ3B1Tlc0ZnpycmFtRmRjeHpnQVFPVFdLdXA5WlBmVlNSRDdUeE9tM1dXcENLVzRwUVk4YXJVeFFmeklSWGFyST0.pdf](https://www.marburg.de/downloads/datei/M2ViOTUyNzY4ZmNkY2U1NmN1cUVQa016bnp1NXFFWmZMakkwOVhJWXdvK3VtMjBqVEFNM3ptVFN5TnpoM2V0UkI0RE9lSmc3WnFUY0lLbTJwMitPWXlFMWpSa0YzVTg5UTZ1YkFjbk02WnJGTWtRREc1bVNOejlmUFpsQ3B1Tlc0ZnpycmFtRmRjeHpnQVFPVFdLdXA5WlBmVlNSRDdUeE9tM1dXcENLVzRwUVk4YXJVeFFmeklSWGFyST0) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 29 | 688 | 326 |
+| [M2Y0ZmFmM2YxNDRmY2YwYUQ1MThWSzU3bGpWTWNvTitJSE11NVprK1FwejIvdEM1Y3pkelR5aGh2TnMwVEZNRkY0bVdDVDMySWpZU2RVOFNRTFVNOUk1R1RkeEdzell0SXJMbEliNkt0NUhvTHIxMzM0dlA3QUVZL3BBRzduWTJ4Wk9pdVpXOFRFT1FZTWVG.pdf](https://www.marburg.de/downloads/datei/M2Y0ZmFmM2YxNDRmY2YwYUQ1MThWSzU3bGpWTWNvTitJSE11NVprK1FwejIvdEM1Y3pkelR5aGh2TnMwVEZNRkY0bVdDVDMySWpZU2RVOFNRTFVNOUk1R1RkeEdzell0SXJMbEliNkt0NUhvTHIxMzM0dlA3QUVZL3BBRzduWTJ4Wk9pdVpXOFRFT1FZTWVG) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 73 | 7 |
+| [MDc1ODE0ZWRjODU2MjU5OFdhOFF3RG5SLzJQWHZPTytDZWY3NUFwc2lVRktpMWxOWjBrcUdEVEVGdjM4czNTTFZva0gzYUxqQ1VUaHFHVVhKN0I4OThyeW15azdZTjlmMHRNMXhCWDl1bTIxQ0FuVVpsYTQvUGlYUDUxTmdFSDhncHNBZ1lKV2l5MUM5Q1hyNGlOK2NHM3g5amdpSk9VVUhWalVTUEJ0NS94UE11eUpNZCtRbDcvYkZHWT0.pdf](https://www.marburg.de/downloads/datei/MDc1ODE0ZWRjODU2MjU5OFdhOFF3RG5SLzJQWHZPTytDZWY3NUFwc2lVRktpMWxOWjBrcUdEVEVGdjM4czNTTFZva0gzYUxqQ1VUaHFHVVhKN0I4OThyeW15azdZTjlmMHRNMXhCWDl1bTIxQ0FuVVpsYTQvUGlYUDUxTmdFSDhncHNBZ1lKV2l5MUM5Q1hyNGlOK2NHM3g5amdpSk9VVUhWalVTUEJ0NS94UE11eUpNZCtRbDcvYkZHWT0) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 225 | 0 |
+| [MDczZDlkOTJhMzI5NDYzY2xCb0VER3NHeXZMaDZjY1l3dW1TOTFNS3hMWTROenBLYnZtQXZKVzBJQ21OZmlrZ3V1aGZKTzR2K3kwVGtNRjVwQ1AxcmI4eGtpS3dLTCtxMDJxeUh5Q3hScEhLQ3RlWlBvWU80bXR6N000YjRsaVhCVnJtbmo0MVYrSlpNVUtaeVFTMFcwUnFOMkxDSzRrSmgrSThEUT09.pdf](https://www.marburg.de/downloads/datei/MDczZDlkOTJhMzI5NDYzY2xCb0VER3NHeXZMaDZjY1l3dW1TOTFNS3hMWTROenBLYnZtQXZKVzBJQ21OZmlrZ3V1aGZKTzR2K3kwVGtNRjVwQ1AxcmI4eGtpS3dLTCtxMDJxeUh5Q3hScEhLQ3RlWlBvWU80bXR6N000YjRsaVhCVnJtbmo0MVYrSlpNVUtaeVFTMFcwUnFOMkxDSzRrSmgrSThEUT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 427 | 0 |
+| [MDg2OGVhY2ZhN2ZkMTk3NS9XQlpZVGhwdVh6azlVb3hrWW9CTGtrcUs1dkY3ZmVCeEpQSi9KL24vUllFZGFBZksxN3dnRGl1M0pWa2MvMFR0RCsyUWw1SGJKb29ielR1ZkUvV2Y4QmgrVDNHQ2x2VkEveGNLWHRHdUxzUnRtZlVKYXlXSk9qU2ZLRDk0WXFj.pdf](https://www.marburg.de/downloads/datei/MDg2OGVhY2ZhN2ZkMTk3NS9XQlpZVGhwdVh6azlVb3hrWW9CTGtrcUs1dkY3ZmVCeEpQSi9KL24vUllFZGFBZksxN3dnRGl1M0pWa2MvMFR0RCsyUWw1SGJKb29ielR1ZkUvV2Y4QmgrVDNHQ2x2VkEveGNLWHRHdUxzUnRtZlVKYXlXSk9qU2ZLRDk0WXFj) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 147 | 0 |
+| [MDk0YTc4OGM4MDlmMTk3NUVYaWp3MkFmenZhSklZdEpVR2Mvd3QwQnRTamo3N1RTR2RrNFdJMGJZTTlFY3JyeUsreWVWb1Z0eGZXczBFWGI5ZkhEaUU3YW5VNldTT1VITkh1TWJQRG5ha2ppS09hWUtYTkFZdm5KTm1BZHFPSWlVR1ZBUzNnS1B4eUVtcjNT.pdf](https://www.marburg.de/downloads/datei/MDk0YTc4OGM4MDlmMTk3NUVYaWp3MkFmenZhSklZdEpVR2Mvd3QwQnRTamo3N1RTR2RrNFdJMGJZTTlFY3JyeUsreWVWb1Z0eGZXczBFWGI5ZkhEaUU3YW5VNldTT1VITkh1TWJQRG5ha2ppS09hWUtYTkFZdm5KTm1BZHFPSWlVR1ZBUzNnS1B4eUVtcjNT) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 221 | 3 |
+| [MGQ2MWFkMWEzZmY5YmY4NkdPa2VxNk9BbVYyRStPbEFjVmVjQlBhb0hOMEZKNWk5MHE4L3BwSVpKQUNJTXNkbEtURElHSVRiNEI3dGxXc0llVDh4a29iMVJSNmdtTXVyQlNXNDN0ZEtjWjBsVTNxdGM5U2M3bVJNOGxWSjY0SWxxNkZWcXExa2M4SXN6OEhQTlZYZnJsd25mMU02SndSZzJmcnU2T2NDUkszTnlSS2hMcGpCWjhIWnAyST0.pdf](https://www.marburg.de/downloads/datei/MGQ2MWFkMWEzZmY5YmY4NkdPa2VxNk9BbVYyRStPbEFjVmVjQlBhb0hOMEZKNWk5MHE4L3BwSVpKQUNJTXNkbEtURElHSVRiNEI3dGxXc0llVDh4a29iMVJSNmdtTXVyQlNXNDN0ZEtjWjBsVTNxdGM5U2M3bVJNOGxWSjY0SWxxNkZWcXExa2M4SXN6OEhQTlZYZnJsd25mMU02SndSZzJmcnU2T2NDUkszTnlSS2hMcGpCWjhIWnAyST0) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2985 | 16 |
+| [MGQzMjdhMGNlOWFkMDAxY0tKV1JTSERSVXV0S2pqRDlJenFxMWNUUkRHZEFnb2lVUVJZb3dGd01tRlkreGhKd0szczBLTWdHV0hqRHNHc2VOcjBwQjd0QU9vSEdKYWY0bnpGYXpINThvTTQ0WVpZVUdMM00ybDRGTys2TEhvVy9aOFRpNXY0ZnRRUUxlWEFIRFRpSnFGbVQrVnB4bzQ2S2JQWHlWUT09.pdf](https://www.marburg.de/downloads/datei/MGQzMjdhMGNlOWFkMDAxY0tKV1JTSERSVXV0S2pqRDlJenFxMWNUUkRHZEFnb2lVUVJZb3dGd01tRlkreGhKd0szczBLTWdHV0hqRHNHc2VOcjBwQjd0QU9vSEdKYWY0bnpGYXpINThvTTQ0WVpZVUdMM00ybDRGTys2TEhvVy9aOFRpNXY0ZnRRUUxlWEFIRFRpSnFGbVQrVnB4bzQ2S2JQWHlWUT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 538 | 14 |
+| [MTJhMmVjYzBkNjQ4MWZjMUIwRzhYU0c3MVhzb1pmVGhYR0MxWHNOaWphR3puZlZCeTBEYWQxdFVlWXFzVUVXOHV2ODB5T2VEcEw1RkRkT0xnSW5QRGFSSmZUNDJoMkdFdS9RS2ErcGJwV1lEUHNjdUlqWjVzbjYvUEcwMENYa0l6c21QV2ljc1dPblRJV3VN.pdf](https://www.marburg.de/downloads/datei/MTJhMmVjYzBkNjQ4MWZjMUIwRzhYU0c3MVhzb1pmVGhYR0MxWHNOaWphR3puZlZCeTBEYWQxdFVlWXFzVUVXOHV2ODB5T2VEcEw1RkRkT0xnSW5QRGFSSmZUNDJoMkdFdS9RS2ErcGJwV1lEUHNjdUlqWjVzbjYvUEcwMENYa0l6c21QV2ljc1dPblRJV3VN) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 944 | 0 |
+| [MTQ1YjQ1YmM3ZTljNGNkZHRlL2w3Vk8rR3g4ajRMTGtMaC9iL2xwRWFqN3hsRmN6ZWVOZ2VHUlA0QzhzME8vcTFhVlpQWDdRMkpRNHBvNU1FelRxdGFmK2ZrMjRXL2tneHNkbTVjeFZVZ1VOcjBudUxUWTVDSHExQmg1TGJ2dEJXRkVtVkk5TWVGbVVRM1pa.pdf](https://www.marburg.de/downloads/datei/MTQ1YjQ1YmM3ZTljNGNkZHRlL2w3Vk8rR3g4ajRMTGtMaC9iL2xwRWFqN3hsRmN6ZWVOZ2VHUlA0QzhzME8vcTFhVlpQWDdRMkpRNHBvNU1FelRxdGFmK2ZrMjRXL2tneHNkbTVjeFZVZ1VOcjBudUxUWTVDSHExQmg1TGJ2dEJXRkVtVkk5TWVGbVVRM1pa) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 566 | 0 |
+| [MWFlOGI2Zjk0MTY1ZDQ4YUp1VWtWWnpTelZWNHJMcW8zeHlnOHU2QStmLy9CMm5GeC9IdzducXhMemU3Q2hFMnphalZtc2VkZER0NXVJMmVWQnZpSWZUUXJhYU1tVWx4WUM5NUdZVW1UMnJVMWFmRlNFaTZ5WlFKR25sczRBWDdmSm04c3VlcDRTbTh0VnV6dVE4NDVuUnI0QVhEeG42Qm1XSU1pUT09.pdf](https://www.marburg.de/downloads/datei/MWFlOGI2Zjk0MTY1ZDQ4YUp1VWtWWnpTelZWNHJMcW8zeHlnOHU2QStmLy9CMm5GeC9IdzducXhMemU3Q2hFMnphalZtc2VkZER0NXVJMmVWQnZpSWZUUXJhYU1tVWx4WUM5NUdZVW1UMnJVMWFmRlNFaTZ5WlFKR25sczRBWDdmSm04c3VlcDRTbTh0VnV6dVE4NDVuUnI0QVhEeG42Qm1XSU1pUT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 193 | 0 |
+| [MWQ1OTcyZTMyNTZlY2E0ZFozdmlYR01FM0VCVTBrb2RpcCtYL0YxaUsxaG1UdlFJMGM4ckF6cTR1bGVHdzRhckVCWk55UFdTbEVZTkZvdlpHSTRBWXROMGFlbUhzV2hxZFFBVHNHeWptdkZmYk1EQ1JtdW1MY0w2ZU9Wbm50a3RkdDdLWlZrbW44bjJhZzVa.pdf](https://www.marburg.de/downloads/datei/MWQ1OTcyZTMyNTZlY2E0ZFozdmlYR01FM0VCVTBrb2RpcCtYL0YxaUsxaG1UdlFJMGM4ckF6cTR1bGVHdzRhckVCWk55UFdTbEVZTkZvdlpHSTRBWXROMGFlbUhzV2hxZFFBVHNHeWptdkZmYk1EQ1JtdW1MY0w2ZU9Wbm50a3RkdDdLWlZrbW44bjJhZzVa) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 146 | 0 |
+| [Mjc3Y2Q2NDU5ODIzYmM2ZUdPaHZma1EreDZYaERzRnR6NEZEbmdaUHpQN2ZXZHpma0xqL3Z6c0hQaWt2R3VoeE1td3lTb0xsSE9nTWJKR2d6a2NjZThMWTZrM1NYVE9oWGtleVRMMUlFQ2lBSFdmWWZTbFNnTlB5aElZPQ.pdf](https://www.marburg.de/downloads/datei/Mjc3Y2Q2NDU5ODIzYmM2ZUdPaHZma1EreDZYaERzRnR6NEZEbmdaUHpQN2ZXZHpma0xqL3Z6c0hQaWt2R3VoeE1td3lTb0xsSE9nTWJKR2d6a2NjZThMWTZrM1NYVE9oWGtleVRMMUlFQ2lBSFdmWWZTbFNnTlB5aElZPQ) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 640 | 0 |
+| [MmM4YjM3MTU1ZmIzZWQwM1ZvYnBrREZTZ2RpeWhTRUNXZllEYzZ3MXoyZVRsdncyeXRxaTUwWVpXd09kemNIMFo1WCt4TlJDSk5POVZjcWxRaENhZ2tOc1JWclY1dzQzYXpxZHo2RlhMZzRWaHJlVHR1QnExc0JTTVJYak5BY3VhT2szbVNvS0JvMXI2MHZaNHA3c1VKcm9KVktjc3NUbzJOZHd4aG1MZU1GeU1DWEx1czkxTGV3WENYND0.pdf](https://www.marburg.de/downloads/datei/MmM4YjM3MTU1ZmIzZWQwM1ZvYnBrREZTZ2RpeWhTRUNXZllEYzZ3MXoyZVRsdncyeXRxaTUwWVpXd09kemNIMFo1WCt4TlJDSk5POVZjcWxRaENhZ2tOc1JWclY1dzQzYXpxZHo2RlhMZzRWaHJlVHR1QnExc0JTTVJYak5BY3VhT2szbVNvS0JvMXI2MHZaNHA3c1VKcm9KVktjc3NUbzJOZHd4aG1MZU1GeU1DWEx1czkxTGV3WENYND0) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 216 | 1 |
+| [MzFjYzhmMTM5OTUxNzY3NWpYeGFWTFBWQWJ0V2VFUVRaKzR6Q1JzUG5UdHpDdG05a3JJSjV2eUs1OTdUMmFaeUpUbG5GcGFoUlpYQzBaemo4czJvbzBUOHFvSWIyZDhyWUY0Zk1QaW9VVEluT1cvdFplVXVXYlF3S04yOTVPS3c1eEFmYmIzeTYvNndvSk8xcVRUSGtjK2pUZ1lCVlJySzRielltV3JBNFlyNEIxQ09qbnd2blczOXIxRT0.pdf](https://www.marburg.de/downloads/datei/MzFjYzhmMTM5OTUxNzY3NWpYeGFWTFBWQWJ0V2VFUVRaKzR6Q1JzUG5UdHpDdG05a3JJSjV2eUs1OTdUMmFaeUpUbG5GcGFoUlpYQzBaemo4czJvbzBUOHFvSWIyZDhyWUY0Zk1QaW9VVEluT1cvdFplVXVXYlF3S04yOTVPS3c1eEFmYmIzeTYvNndvSk8xcVRUSGtjK2pUZ1lCVlJySzRielltV3JBNFlyNEIxQ09qbnd2blczOXIxRT0) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 350 | 0 |
+| [MzVkYjI5MDRmZjVlZmM3ME5YK2QzZ0ltbjJjRU5wUGxhbnVJTVQzVTZlM254a1dud1ZpaXdnQUliMGd0RDR2OWlRZm0rRnR5cFJLRTlsdDZPR2RCMWNHUFF6MEpGNUd4WGlBY0NWMkp2cVl1T2QxQjFnOUk3RU1xOWcvNHJ3MlovNEk0ZnZabnc5K3UrWmQy.pdf](https://www.marburg.de/downloads/datei/MzVkYjI5MDRmZjVlZmM3ME5YK2QzZ0ltbjJjRU5wUGxhbnVJTVQzVTZlM254a1dud1ZpaXdnQUliMGd0RDR2OWlRZm0rRnR5cFJLRTlsdDZPR2RCMWNHUFF6MEpGNUd4WGlBY0NWMkp2cVl1T2QxQjFnOUk3RU1xOWcvNHJ3MlovNEk0ZnZabnc5K3UrWmQy) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 197 | 0 |
+| [MzhmN2UwNjM3NWYzZDU5NUZTOW1MKzV1b2VkZU53RkxBRzF5dEVtTlYzUEU2NThZK1F4VjdjR2RPNCs2VVcxSlVTTWVmRkdrVUF1cWZjU0gvWUpJQkJQSktMTmhicGdHbW56OE9vMHNjeUNxdWkxWlBrRUtBdThoK2cwK3I4ZjRRMDJKMGoyRThOb1Y1dDRT.pdf](https://www.marburg.de/downloads/datei/MzhmN2UwNjM3NWYzZDU5NUZTOW1MKzV1b2VkZU53RkxBRzF5dEVtTlYzUEU2NThZK1F4VjdjR2RPNCs2VVcxSlVTTWVmRkdrVUF1cWZjU0gvWUpJQkJQSktMTmhicGdHbW56OE9vMHNjeUNxdWkxWlBrRUtBdThoK2cwK3I4ZjRRMDJKMGoyRThOb1Y1dDRT) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 524 | 5 |
+| [N2ZmZTI0Njc1MDgyMWQ0MTZGS05QSWh1SFRtc1prNWo4TThnWmp0NXRZQldIWmZ0MGF0UlkrenVpdVRvWk9pbGV1VkNOL1o4L2ZreUtsWDhQaGVkREhVd1NRcWhjS1E4bWk5YUpQckFhZ3p6dXZSb1dMbzdyampQdm5lNXhGdjNxeHNLMUZnVmxLRnQ4VGFhMmozdnpnT2p3cWhyT3VjbGRxeHhJdz09.pdf](https://www.marburg.de/downloads/datei/N2ZmZTI0Njc1MDgyMWQ0MTZGS05QSWh1SFRtc1prNWo4TThnWmp0NXRZQldIWmZ0MGF0UlkrenVpdVRvWk9pbGV1VkNOL1o4L2ZreUtsWDhQaGVkREhVd1NRcWhjS1E4bWk5YUpQckFhZ3p6dXZSb1dMbzdyampQdm5lNXhGdjNxeHNLMUZnVmxLRnQ4VGFhMmozdnpnT2p3cWhyT3VjbGRxeHhJdz09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 266 | 1 |
+| [NDE0YTIyNDg5M2VhOTAzMkNTMFQvbmxIajlRWW42MThLVzdWZ2lnN2pLa1RHSEI1aHJhN3lGckc2a2loWUxNT0dYVlZvck9VOEZFQ3JaVXRqTTBVSUk1eGRoelRSMlZ1ejZvcTlnYVdTaE9VSTIxa2JOZ1VHSDBWU1ErOG9RQzRXUUZlVWJ2dkVUNnlLVFdtU2RsTTVuOFp5OGc5RHlRUy8xZno4UT09.pdf](https://www.marburg.de/downloads/datei/NDE0YTIyNDg5M2VhOTAzMkNTMFQvbmxIajlRWW42MThLVzdWZ2lnN2pLa1RHSEI1aHJhN3lGckc2a2loWUxNT0dYVlZvck9VOEZFQ3JaVXRqTTBVSUk1eGRoelRSMlZ1ejZvcTlnYVdTaE9VSTIxa2JOZ1VHSDBWU1ErOG9RQzRXUUZlVWJ2dkVUNnlLVFdtU2RsTTVuOFp5OGc5RHlRUy8xZno4UT09) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 739 | 5 |
+| [NDJiMzlmYTQwM2FhNTIzNDhvb0ROMS95WG9yZ0NTVS9zSEtmazEvK05lRkZuc3VqL3lHY255amg3bzBTcUoxMlFGWkpTVk5kaDM2djJocXVJVG9JUlVDTzVEZGtWOGFJbmVEY3VvMFZpU1VhdHRSOFlaLy9GbUMzTGNxaEg2VlZuNlZiUHZrOEt4QzNGWmRUUnRNWWJxeTRZTnJOYktSYmVGUU5Fdz09.pdf](https://www.marburg.de/downloads/datei/NDJiMzlmYTQwM2FhNTIzNDhvb0ROMS95WG9yZ0NTVS9zSEtmazEvK05lRkZuc3VqL3lHY255amg3bzBTcUoxMlFGWkpTVk5kaDM2djJocXVJVG9JUlVDTzVEZGtWOGFJbmVEY3VvMFZpU1VhdHRSOFlaLy9GbUMzTGNxaEg2VlZuNlZiUHZrOEt4QzNGWmRUUnRNWWJxeTRZTnJOYktSYmVGUU5Fdz09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 470 | 5 |
+| [NDNjNTIzODZkMzAyNWZiOE1VY2lqZ1hYeEs0R2RKbld4ZHgrZzZmcUdvSWRkaGd4OVkrUFUrNEpLVFdyR3BGbG9raWkyVUI5Rm54VzI4aVNRZnJLbTBtV3RDY0RzaWFtcjZGbVpFeEFpZ2Zsb0lCc29yc0JSYjVYLzVVN0lsN29lTStFRWlnWkFVVGxJYlN6Mzl4eFBjRktNMTJmc0pCZGdLcHc4d3RjblNZaXRXbGk0NjhTekxHKzJEcz0.pdf](https://www.marburg.de/downloads/datei/NDNjNTIzODZkMzAyNWZiOE1VY2lqZ1hYeEs0R2RKbld4ZHgrZzZmcUdvSWRkaGd4OVkrUFUrNEpLVFdyR3BGbG9raWkyVUI5Rm54VzI4aVNRZnJLbTBtV3RDY0RzaWFtcjZGbVpFeEFpZ2Zsb0lCc29yc0JSYjVYLzVVN0lsN29lTStFRWlnWkFVVGxJYlN6Mzl4eFBjRktNMTJmc0pCZGdLcHc4d3RjblNZaXRXbGk0NjhTekxHKzJEcz0) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 21 | 5224 | 2 |
+| [NGI4MDUzZDcwOGZkMDJjN21MSnVsNVF3R1BZVmhxOTBTaUgweUZIV2xreitXZmRNUkRNRXpuaEQ5dU1uU0NuSFN5cjUrNThWMlZRUnFLNS85UnBrWTFXWmhXVFU5UUhsSFYxa2RuQVpZSkRRU0R6NWVjWHNHT3pZWDZPRFgrODhmbnNuOFc3VEZBaVhRTW83.pdf](https://www.marburg.de/downloads/datei/NGI4MDUzZDcwOGZkMDJjN21MSnVsNVF3R1BZVmhxOTBTaUgweUZIV2xreitXZmRNUkRNRXpuaEQ5dU1uU0NuSFN5cjUrNThWMlZRUnFLNS85UnBrWTFXWmhXVFU5UUhsSFYxa2RuQVpZSkRRU0R6NWVjWHNHT3pZWDZPRFgrODhmbnNuOFc3VEZBaVhRTW83) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 | 623 | 91 |
+| [NTNmYzMzODUxNmVlYzQ3OVZEOFp6eHR1aDNnN0pLK3k2UU4yZmYrZHlyd0Zrd3ByZ05odFFYSXd2VHRpZVBoajlhU25XZ0o1OGx1SGY4NkRuZ2lxQ3A2NE9RS0tJZFZLVForWWJheG1rTzdpVExybDhjVkFhT1VZWm5IRVAxc0tmano0ci9Db2NLQ2l4WVlZZEFTck8vQVNQQzIvQ1VBWDF1Q3AzQT09.pdf](https://www.marburg.de/downloads/datei/NTNmYzMzODUxNmVlYzQ3OVZEOFp6eHR1aDNnN0pLK3k2UU4yZmYrZHlyd0Zrd3ByZ05odFFYSXd2VHRpZVBoajlhU25XZ0o1OGx1SGY4NkRuZ2lxQ3A2NE9RS0tJZFZLVForWWJheG1rTzdpVExybDhjVkFhT1VZWm5IRVAxc0tmano0ci9Db2NLQ2l4WVlZZEFTck8vQVNQQzIvQ1VBWDF1Q3AzQT09) | marburg.de | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 4 |
+| [NTRmZTVmYzQzMTRkZDEyOUlzcGhHZy8xRWxscXVxWFdkU1JqV2I5UFVaSnRKRVdDVSswQ1lsR2JESzU5dVY4alRhQkhiRWh6WVpCc0tMRkZtRFNHbTFCeXViVE1NT00remJseHk2Y1Y1NmJqM1NVOUsyRGQrU1FEaHN6Zk53RXJoQmFhbDVlWUNWS3JxUTNO.pdf](https://www.marburg.de/downloads/datei/NTRmZTVmYzQzMTRkZDEyOUlzcGhHZy8xRWxscXVxWFdkU1JqV2I5UFVaSnRKRVdDVSswQ1lsR2JESzU5dVY4alRhQkhiRWh6WVpCc0tMRkZtRFNHbTFCeXViVE1NT00remJseHk2Y1Y1NmJqM1NVOUsyRGQrU1FEaHN6Zk53RXJoQmFhbDVlWUNWS3JxUTNO) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 116 | 0 |
+| [NWRhM2JiYjdlODc3M2U2ZmlibGY4WnN5T2xZQWd3dXo5T1lGS1psWXB3cTVENFlnRFpDQ3BFQnB1RmRMR3RPRVhhYlR2Z256TjlqWDQvZlRmTmY4STBHMjRtdkNUVHFORVNDUHZxWDNtS05YRDZSbmxkZk94azJ5eStLaCtkeEZHSlhOczhvWWZkOW10TXk3MlJBSEgyOXpuTDZSM3p6YlZpSTloQT09.pdf](https://www.marburg.de/downloads/datei/NWRhM2JiYjdlODc3M2U2ZmlibGY4WnN5T2xZQWd3dXo5T1lGS1psWXB3cTVENFlnRFpDQ3BFQnB1RmRMR3RPRVhhYlR2Z256TjlqWDQvZlRmTmY4STBHMjRtdkNUVHFORVNDUHZxWDNtS05YRDZSbmxkZk94azJ5eStLaCtkeEZHSlhOczhvWWZkOW10TXk3MlJBSEgyOXpuTDZSM3p6YlZpSTloQT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 944 | 0 |
+| [NjNmNTkxNGY4NGYxYzMxYk4yeHNTZkcyWXFRN0lSUXlKT2ozVWN2UXUyaEZUKzNBdTVDSmcvVHkwRSt6cnJLYmQ2SjFub2svY250NXdDcHFxWWNKeUhOenp1bkFDMGJnSldPK2RoNHY5eU9wVWc4QWhkQWcwQ3BaVmtyT2gwcnIzQlFDMTdhelE4b09ycUpq.pdf](https://www.marburg.de/downloads/datei/NjNmNTkxNGY4NGYxYzMxYk4yeHNTZkcyWXFRN0lSUXlKT2ozVWN2UXUyaEZUKzNBdTVDSmcvVHkwRSt6cnJLYmQ2SjFub2svY250NXdDcHFxWWNKeUhOenp1bkFDMGJnSldPK2RoNHY5eU9wVWc4QWhkQWcwQ3BaVmtyT2gwcnIzQlFDMTdhelE4b09ycUpq) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 159 | 0 |
+| [Njk2MDgyMmIyMTIzNmFmZFlZUU0weXlET1JRNUVEaDBnUmc3R1ZGU1R4Q0VMZTZXZjNpTHRENjZuZ0d2YU5pK1RSK3dQS1E3WC9pbW9teWhFZXpWMWk4RmdWRFYyQ3AybzZaOUFJZm1yOXhkVW9GVFJPeFJaQWplblBqYS9pSjBvN3dVM0ZZZk5zdDJzM2tSaDRtZFcyM1k2aDE0Y0Q4Wjl4QWFpZz09.pdf](https://www.marburg.de/downloads/datei/Njk2MDgyMmIyMTIzNmFmZFlZUU0weXlET1JRNUVEaDBnUmc3R1ZGU1R4Q0VMZTZXZjNpTHRENjZuZ0d2YU5pK1RSK3dQS1E3WC9pbW9teWhFZXpWMWk4RmdWRFYyQ3AybzZaOUFJZm1yOXhkVW9GVFJPeFJaQWplblBqYS9pSjBvN3dVM0ZZZk5zdDJzM2tSaDRtZFcyM1k2aDE0Y0Q4Wjl4QWFpZz09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1823 | 0 |
+| [NmFmYjQ0MDViNTVmMjA2M1NuTjRQSHpCSC9FZU1INHFjR3JVdFdsQ1QyVHhzR09wSmpDVFd3NlUxU1ZwSHA2R3Z2WERXSFdyQzVxQWpCQmJJS3FJTVNhS28rZHhrZXViYk5uRnhHZ1h1eUpWTnNjSld2ZjFQSm9DdGQ0cjJUSmt3Ty9wY0Z1bDRJMWpTbXZBYm5BNTljcXErL3J5U3VvWHEzRUkxQT09.pdf](https://www.marburg.de/downloads/datei/NmFmYjQ0MDViNTVmMjA2M1NuTjRQSHpCSC9FZU1INHFjR3JVdFdsQ1QyVHhzR09wSmpDVFd3NlUxU1ZwSHA2R3Z2WERXSFdyQzVxQWpCQmJJS3FJTVNhS28rZHhrZXViYk5uRnhHZ1h1eUpWTnNjSld2ZjFQSm9DdGQ0cjJUSmt3Ty9wY0Z1bDRJMWpTbXZBYm5BNTljcXErL3J5U3VvWHEzRUkxQT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 248 | 0 |
+| [NzAwNjUxMjJjZTYyNjQ5MnZHTjdXV1N2NHJqYURWRTJ0dFlCZEJSRk9zd1BiT2JyWldQM1ZmVVhqL055VE1Wb1E1akVzRjBhdnpYbHRIYW1ySHlwSE5raWJ5bVB2NFdPVis2bVhIeTc5ejEzWmRLbDBBWjYvdlZRMnJWRnlJeEg4UDFTTTdtZEh2VDlMdUov.pdf](https://www.marburg.de/downloads/datei/NzAwNjUxMjJjZTYyNjQ5MnZHTjdXV1N2NHJqYURWRTJ0dFlCZEJSRk9zd1BiT2JyWldQM1ZmVVhqL055VE1Wb1E1akVzRjBhdnpYbHRIYW1ySHlwSE5raWJ5bVB2NFdPVis2bVhIeTc5ejEzWmRLbDBBWjYvdlZRMnJWRnlJeEg4UDFTTTdtZEh2VDlMdUov) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 38 | 845 | 47 |
+| [NzFmNmJjM2E4MjdhNmRhZGY0dDN6dzd0TnhoUE5Yd3hNSWRNeDFvdlVaaUFSYkFmbjEwYzRPYklVNEVheXB5WjZQT1l5aUJCNXFBUGFyNkVOWVlGNUR2ZE1OcUc1eHcyczhhWU9JTEFzTnlTbHZ2SEsvRUJYNG0rdmdEcVcyaDAzOXhnem9iaTQxa1pSNmtu.pdf](https://www.marburg.de/downloads/datei/NzFmNmJjM2E4MjdhNmRhZGY0dDN6dzd0TnhoUE5Yd3hNSWRNeDFvdlVaaUFSYkFmbjEwYzRPYklVNEVheXB5WjZQT1l5aUJCNXFBUGFyNkVOWVlGNUR2ZE1OcUc1eHcyczhhWU9JTEFzTnlTbHZ2SEsvRUJYNG0rdmdEcVcyaDAzOXhnem9iaTQxa1pSNmtu) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 194 | 0 |
+| [NzQ5ZmQ5YjNjNDU3YjkwMG01cGlkYjFyWVdvY1Jxa3ZaT3I0aDJqSEhzRXFWbHZJVG5YK1BDS0NQOUlBQnpnTEFPM0RXMW9OdG05R3V0RFRZd2ZHYW1OUGwvUi9IME1BNTk3VmRzMXFJbUtock5NNTlpQ09sOCtjWXB2RzJwV1B1Rnp0ejcrc2EzNjdEVmNoV0o3VmZ3dk9yeFBMRnh6SGRud09qQ1pRSXd4WlVnOEZZbmlWQTlVaE5ITT0.pdf](https://www.marburg.de/downloads/datei/NzQ5ZmQ5YjNjNDU3YjkwMG01cGlkYjFyWVdvY1Jxa3ZaT3I0aDJqSEhzRXFWbHZJVG5YK1BDS0NQOUlBQnpnTEFPM0RXMW9OdG05R3V0RFRZd2ZHYW1OUGwvUi9IME1BNTk3VmRzMXFJbUtock5NNTlpQ09sOCtjWXB2RzJwV1B1Rnp0ejcrc2EzNjdEVmNoV0o3VmZ3dk9yeFBMRnh6SGRud09qQ1pRSXd4WlVnOEZZbmlWQTlVaE5ITT0) | marburg.de | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 0 | 4 |
+| [NzY1ODllMWJlMWRlM2U5YXFMMW9uUEpUNjBjelQ1YXoxM0lNYU5NVnlFcTRna3dBay9PaGlqWm9nV2xBSiswNFZHcXhkNTlBT2JRSmNDdGFxay9yUkdtRjIveDBCeWdrQnpoV2ZHaXpUMXpPSzVHK1pydDBiMmp1MzFlY2dQOVQrQzUzQWVLS1NkTjZZa3NGMlN0bHdaY0U4WWgxQzN2cFBLVHp4dz09.pdf](https://www.marburg.de/downloads/datei/NzY1ODllMWJlMWRlM2U5YXFMMW9uUEpUNjBjelQ1YXoxM0lNYU5NVnlFcTRna3dBay9PaGlqWm9nV2xBSiswNFZHcXhkNTlBT2JRSmNDdGFxay9yUkdtRjIveDBCeWdrQnpoV2ZHaXpUMXpPSzVHK1pydDBiMmp1MzFlY2dQOVQrQzUzQWVLS1NkTjZZa3NGMlN0bHdaY0U4WWgxQzN2cFBLVHp4dz09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 366 | 0 |
+| [ODlkMWU1NGViNDhkYTZhNDlvem5TYmkreXBDV0hDSXJaRTFlbFhuSXJ0SC9ZQ3diNUpIQUV6Vk93MG5pdCtYbVA5YnQ2bndCU2NPSmx4OWxmY1EwTWNsTFJGaEs2elVJeWdrVlo5MTEvT2xxTDNyUW1QVmMvTXM3TjdhbEpTcnJZZWhuZUdtMERDdTlZTmY3bUtCZkE3T0ZVZEF3THhOUE5BMWZ0QT09.pdf](https://www.marburg.de/downloads/datei/ODlkMWU1NGViNDhkYTZhNDlvem5TYmkreXBDV0hDSXJaRTFlbFhuSXJ0SC9ZQ3diNUpIQUV6Vk93MG5pdCtYbVA5YnQ2bndCU2NPSmx4OWxmY1EwTWNsTFJGaEs2elVJeWdrVlo5MTEvT2xxTDNyUW1QVmMvTXM3TjdhbEpTcnJZZWhuZUdtMERDdTlZTmY3bUtCZkE3T0ZVZEF3THhOUE5BMWZ0QT09) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 171 | 2 |
+| [OGMzOWZkMzhjZTU5OThmM0Nld0hYUjdPNmE1TUdEQklCT2QzTjdaUkRDTDBaRGI2VWtDaHd1VXMzUER4Tlo3QWk1SDV4R2tydXVTQzV4T0krakQrMkM5R2V6U2xCNUFETWhNUUZxcTJSQlhGYWJyKzYzemdVRk1sTStLR2FJbkh6b29qaU5hejBjLzgrS1JC.pdf](https://www.marburg.de/downloads/datei/OGMzOWZkMzhjZTU5OThmM0Nld0hYUjdPNmE1TUdEQklCT2QzTjdaUkRDTDBaRGI2VWtDaHd1VXMzUER4Tlo3QWk1SDV4R2tydXVTQzV4T0krakQrMkM5R2V6U2xCNUFETWhNUUZxcTJSQlhGYWJyKzYzemdVRk1sTStLR2FJbkh6b29qaU5hejBjLzgrS1JC) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 205 | 0 |
+| [OThlMGQ4YmEwMDJlYTUwOXZTNEdZOEs1Sms0T2NDUERWd3NpOEZYMFNXc0lPRjhuNWg3UUUyRjBKOHFtRjcwQ3N5QXgxK212UUo2U0l3TTBkbityb25QY2Rlc0czZ0o3NDkrUWpTYU1UVVhnVnVjdXBWdXdNNld4eFRFR1BKNEw0RkcvdGZqYXJvK1FucWRi.pdf](https://www.marburg.de/downloads/datei/OThlMGQ4YmEwMDJlYTUwOXZTNEdZOEs1Sms0T2NDUERWd3NpOEZYMFNXc0lPRjhuNWg3UUUyRjBKOHFtRjcwQ3N5QXgxK212UUo2U0l3TTBkbityb25QY2Rlc0czZ0o3NDkrUWpTYU1UVVhnVnVjdXBWdXdNNld4eFRFR1BKNEw0RkcvdGZqYXJvK1FucWRi) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 210 | 4 |
+| [OWRiZDcwYWFkMjQ3YzdlZklmWklST3ZSOC9IYWxYTi8vNHRsM2VrUHdDbVUvMUsyczc1SDk3ZlgrSGdUUlRjZ0ZCWTJFbzk4WUVmdWFoS2tKUVVEVjRCRVBsMmtFSGNsdE9QbXZTVG5tUzg1K3BVS0RaZzJrTWx3eno3TXl2N3pZQUZjSWdkTDRCYWRwVnQxdTJJaE5PcVVRdlBlVHpnTDZuYmlta2JpL215R2tzNlF4a0puNGozOUxnWT0.pdf](https://www.marburg.de/downloads/datei/OWRiZDcwYWFkMjQ3YzdlZklmWklST3ZSOC9IYWxYTi8vNHRsM2VrUHdDbVUvMUsyczc1SDk3ZlgrSGdUUlRjZ0ZCWTJFbzk4WUVmdWFoS2tKUVVEVjRCRVBsMmtFSGNsdE9QbXZTVG5tUzg1K3BVS0RaZzJrTWx3eno3TXl2N3pZQUZjSWdkTDRCYWRwVnQxdTJJaE5PcVVRdlBlVHpnTDZuYmlta2JpL215R2tzNlF4a0puNGozOUxnWT0) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 | 889 | 72 |
+| [YTc5ZjU3ZmE1ZmJlOTAzM0krTHBOTDFqT1lNYnJNQ0x2OXo1VWl5dENNWk5pSG5VUEQ1R2EwRmRMWkZrOWFuVitXTUM4K29sUjdhUkc1R211WVZSOVdPMlNla3cyT2RkZ1FUTHBSU3RaVXA1WFJyaGxtdm1ndDdDTm5qRVJzUHFCcGtvYnhTU2d2dUp6b1IwekxCZXA3eHlKbE9ubms1THJRbGRtUT09.pdf](https://www.marburg.de/downloads/datei/YTc5ZjU3ZmE1ZmJlOTAzM0krTHBOTDFqT1lNYnJNQ0x2OXo1VWl5dENNWk5pSG5VUEQ1R2EwRmRMWkZrOWFuVitXTUM4K29sUjdhUkc1R211WVZSOVdPMlNla3cyT2RkZ1FUTHBSU3RaVXA1WFJyaGxtdm1ndDdDTm5qRVJzUHFCcGtvYnhTU2d2dUp6b1IwekxCZXA3eHlKbE9ubms1THJRbGRtUT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1179 | 0 |
+| [YTkxZGVlZDAzMDgyZTg2Y2wzbC9WUkNOV2lQUjV6dDg0a3pNK0hQNGNHdFlhRUE5Rm5SYSt6bExXeUhlanJoTVFpZXc5R0ZSczNUU3UvSHRrQ2d5a0pyYXc0MU53WWZZT1hZSjZCdVNLUVZ6L3R5eEFnWDh3RDB6VXJFV3UvRWVKY1hMWVMrS1EwYzFEc21FRkZNTFJPVkVUdmZKRThLWFM2SldlQT09.pdf](https://www.marburg.de/downloads/datei/YTkxZGVlZDAzMDgyZTg2Y2wzbC9WUkNOV2lQUjV6dDg0a3pNK0hQNGNHdFlhRUE5Rm5SYSt6bExXeUhlanJoTVFpZXc5R0ZSczNUU3UvSHRrQ2d5a0pyYXc0MU53WWZZT1hZSjZCdVNLUVZ6L3R5eEFnWDh3RDB6VXJFV3UvRWVKY1hMWVMrS1EwYzFEc21FRkZNTFJPVkVUdmZKRThLWFM2SldlQT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2350 | 0 |
+| [YTlhY2U5ODdjNzkzNTFlN1Z5aUdaU3JWRGJDeEt6aUVPUGpwUENxdCtyNlJKVlFwMnNoVi9ndXdGd09MaCtjR0kwSUl1RXpoV3N0U3Z0eVhYYldrYkVxZkMyTEY3LzR0RUc3MUlqbSt2eUFyV1k0RlM5WXFIOWhVNkFwVlVQRjg2UGxaSTI0VXJEcmFpeFZTeUYxMXhVZXVudnFCYS93WmdaNjEzeWxhUWdTZGZJdVhtdEpUbm9WMEwvOD0.pdf](https://www.marburg.de/downloads/datei/YTlhY2U5ODdjNzkzNTFlN1Z5aUdaU3JWRGJDeEt6aUVPUGpwUENxdCtyNlJKVlFwMnNoVi9ndXdGd09MaCtjR0kwSUl1RXpoV3N0U3Z0eVhYYldrYkVxZkMyTEY3LzR0RUc3MUlqbSt2eUFyV1k0RlM5WXFIOWhVNkFwVlVQRjg2UGxaSTI0VXJEcmFpeFZTeUYxMXhVZXVudnFCYS93WmdaNjEzeWxhUWdTZGZJdVhtdEpUbm9WMEwvOD0) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 561 | 0 |
+| [YWNhNWU0NTNlMGNjZjcyZjBGWnNkOVpNZVRESDdtOFR6d3BkbHdlY0pqa2IrNXRnaHNMV0tqVWFYSThnUTZVNmJxWmFhYWxKSDlBZ2c4N2x3YVJJQWtyZ2dmdm9Kd3BEdXo0UHhUVE15d09XWTNLejdCUmNOYS91ZHJweXVBV3NZUXZUSDlhNjNta3JraWMvS2xGY0hvOWR3TDlJSlBUeGdHNk1GQT09.pdf](https://www.marburg.de/downloads/datei/YWNhNWU0NTNlMGNjZjcyZjBGWnNkOVpNZVRESDdtOFR6d3BkbHdlY0pqa2IrNXRnaHNMV0tqVWFYSThnUTZVNmJxWmFhYWxKSDlBZ2c4N2x3YVJJQWtyZ2dmdm9Kd3BEdXo0UHhUVE15d09XWTNLejdCUmNOYS91ZHJweXVBV3NZUXZUSDlhNjNta3JraWMvS2xGY0hvOWR3TDlJSlBUeGdHNk1GQT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1021 | 0 |
+| [YWZjZWVhYWViNWE0NmJjNlYyQ3c4YnJ6eThyMTM1bG9XMnVUVFU4UGV4bWFORFNnVVZUbWtkajBpeGV3T1UwWkdsNytMbmtyY0l6U0FUU1VldG5reEkySjQ5VnZHUFpENG1LTzRkWEFiV09ZeUZtcG5EWWhLZmVDcHN0QjE1L2xJdkZJN2ZZaWFFS3hhS1B2Z2lpc2l5TllUeGdwK1ZTMEo2R3dsUFVFcE81WnpSTWpQTmlvYzZCcURWST0.pdf](https://www.marburg.de/downloads/datei/YWZjZWVhYWViNWE0NmJjNlYyQ3c4YnJ6eThyMTM1bG9XMnVUVFU4UGV4bWFORFNnVVZUbWtkajBpeGV3T1UwWkdsNytMbmtyY0l6U0FUU1VldG5reEkySjQ5VnZHUFpENG1LTzRkWEFiV09ZeUZtcG5EWWhLZmVDcHN0QjE1L2xJdkZJN2ZZaWFFS3hhS1B2Z2lpc2l5TllUeGdwK1ZTMEo2R3dsUFVFcE81WnpSTWpQTmlvYzZCcURWST0) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 277 | 30 |
+| [YjE4MzhkODM2ZDBjNDJhMHBnRGtRUVhCUUh3SXdLazdjVDV0SURuMGsvZE9ZY1hVMVRkeUJEMlkwSzFnOEFQVFJwV1VISm5jTmFvNk9EdlBJQWFlSENLOXVtZWhrUjk3MDY3bHpTR0tibSs5dS9kc1FMNjY4OFhrRHBrb0NOM2xzRHN4ZUlYc3UzM0ZaOWlsNlRjbHlsSFFFbngwQmdOdUpVZysrdz09.pdf](https://www.marburg.de/downloads/datei/YjE4MzhkODM2ZDBjNDJhMHBnRGtRUVhCUUh3SXdLazdjVDV0SURuMGsvZE9ZY1hVMVRkeUJEMlkwSzFnOEFQVFJwV1VISm5jTmFvNk9EdlBJQWFlSENLOXVtZWhrUjk3MDY3bHpTR0tibSs5dS9kc1FMNjY4OFhrRHBrb0NOM2xzRHN4ZUlYc3UzM0ZaOWlsNlRjbHlsSFFFbngwQmdOdUpVZysrdz09) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 240 | 18 |
+| [YjM1ZDhkOGI3MDU3ZjY0NytDL2gyTWJlcU5STitiS3VCdUlqK1pJNG5Za2llYTBGRkU3V3k4aks0Yk9HdlJxOVVuaXhzck1lNThac05ROUUzdU9wTlhWTGNQV3VlMXdCSmRkT2F3eER1NGJ5Wnd6OWpPdGk3ZFlHc01YQnROQTVmVnBwSlBhYjZVRWNpd2xZ.pdf](https://www.marburg.de/downloads/datei/YjM1ZDhkOGI3MDU3ZjY0NytDL2gyTWJlcU5STitiS3VCdUlqK1pJNG5Za2llYTBGRkU3V3k4aks0Yk9HdlJxOVVuaXhzck1lNThac05ROUUzdU9wTlhWTGNQV3VlMXdCSmRkT2F3eER1NGJ5Wnd6OWpPdGk3ZFlHc01YQnROQTVmVnBwSlBhYjZVRWNpd2xZ) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 201 | 4 |
+| [YjM4YzY0NGYwZWEwNWFlYWlzM2c1QnFPZ3BtazN5R041Rnpjdm83YmsyYXVxclNYKy9seXUyNEtZWFZMaG5TSDEwaGthc1c0MXZ4MFU2dGF3emRGV0VPZ3dWNWsvMnFXNEorZG5zdjBzclI4VUJreFdRKzBoKzVFNG9iR0hTMmw4ajZvbURBbW1VQW5uSkxvWDVXVTNXZnBuSkR3eFZ1U2RMaWdKdz09.pdf](https://www.marburg.de/downloads/datei/YjM4YzY0NGYwZWEwNWFlYWlzM2c1QnFPZ3BtazN5R041Rnpjdm83YmsyYXVxclNYKy9seXUyNEtZWFZMaG5TSDEwaGthc1c0MXZ4MFU2dGF3emRGV0VPZ3dWNWsvMnFXNEorZG5zdjBzclI4VUJreFdRKzBoKzVFNG9iR0hTMmw4ajZvbURBbW1VQW5uSkxvWDVXVTNXZnBuSkR3eFZ1U2RMaWdKdz09) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 2778 | 7 |
+| [YjkyZmZmYTYzODNiY2IxYldLemNCQSt1RXRINkFyQkdWRlpjaUZxZFB2b2JBaEl1Q0lBVTlNSWZzRTNyZENtR0JCeWV2c0h1Y29YS1I3M0hrcGxQa3p4QzBwWDVVbE5qdnJEb1djczBRM0RVTFJuWDgzMEFiRkJXT0lhdCtmUXdvNytBb3duN1h1QktrVWFIZTBob1dNRDQrL3ZlbHd6TzRlVHFQVnVaMnJYcW9MRUFzWU1MUGpTemthaz0.pdf](https://www.marburg.de/downloads/datei/YjkyZmZmYTYzODNiY2IxYldLemNCQSt1RXRINkFyQkdWRlpjaUZxZFB2b2JBaEl1Q0lBVTlNSWZzRTNyZENtR0JCeWV2c0h1Y29YS1I3M0hrcGxQa3p4QzBwWDVVbE5qdnJEb1djczBRM0RVTFJuWDgzMEFiRkJXT0lhdCtmUXdvNytBb3duN1h1QktrVWFIZTBob1dNRDQrL3ZlbHd6TzRlVHFQVnVaMnJYcW9MRUFzWU1MUGpTemthaz0) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 2109 | 10 |
+| [YmY5YWYyNDNkZTIzNWQzOUxoYnNDVWNReVVwb3o0b2N3VGl2ZDFZYUVvcWltSGY3QVY1em9JOHdMeC91NW1qSEx4NndYM1VocUVaVGRlRHgzYzR4eS9XcmlOejlzRzZ1MFBGVGU5dEpHWGNQWWxaQTFkOVh0RnBvYlZXRXBRV0ZrNCs3Z0FlcHJtVXdkbVlIY2dXUXZ4OUROelFaK1FTYzRGU1NiQT09.pdf](https://www.marburg.de/downloads/datei/YmY5YWYyNDNkZTIzNWQzOUxoYnNDVWNReVVwb3o0b2N3VGl2ZDFZYUVvcWltSGY3QVY1em9JOHdMeC91NW1qSEx4NndYM1VocUVaVGRlRHgzYzR4eS9XcmlOejlzRzZ1MFBGVGU5dEpHWGNQWWxaQTFkOVh0RnBvYlZXRXBRV0ZrNCs3Z0FlcHJtVXdkbVlIY2dXUXZ4OUROelFaK1FTYzRGU1NiQT09) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 925 | 0 |
+| [YzdmYTU2M2YyY2U4MDU5N2g5RXpvTWd5Wi9WOHl4cytzNjN3VTZMZ2xETVlKM2FNNXJ0Rm0rSXh3MmU5dENSK3VRQjFNVVpyNmtNeE5qUTJZejdKMENhR1NyQ05tZU5OdEVsa3ptb3pxbnFLRlhkWmN3TEc1RWkxTmN4VnQxaGJSS2E1dDJqWFB1d2F3b3I4.pdf](https://www.marburg.de/downloads/datei/YzdmYTU2M2YyY2U4MDU5N2g5RXpvTWd5Wi9WOHl4cytzNjN3VTZMZ2xETVlKM2FNNXJ0Rm0rSXh3MmU5dENSK3VRQjFNVVpyNmtNeE5qUTJZejdKMENhR1NyQ05tZU5OdEVsa3ptb3pxbnFLRlhkWmN3TEc1RWkxTmN4VnQxaGJSS2E1dDJqWFB1d2F3b3I4) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 473 | 12 |
+| [ZDAyZWQxMjdlNGQzNTAwM2RZdzB4aTA4MXB4L2wzOWk0dDdsMWVYS3ptaXprblNVZk1EVVVoVWhrRXJ3b3R0QVNsc0FhQkY4SmRGV21FbEJDcGo3VEZLeWVTbzNOdkFQZk5yNE1OZ2t5a2luY2FDRjRMVVplOFF2cXY2c05wR2NsY0JzbnR1d3g1Y1NNOGVnRHMxaGVJV0xXdTdnYlQxYlgwNldwQT09.pdf](https://www.marburg.de/downloads/datei/ZDAyZWQxMjdlNGQzNTAwM2RZdzB4aTA4MXB4L2wzOWk0dDdsMWVYS3ptaXprblNVZk1EVVVoVWhrRXJ3b3R0QVNsc0FhQkY4SmRGV21FbEJDcGo3VEZLeWVTbzNOdkFQZk5yNE1OZ2t5a2luY2FDRjRMVVplOFF2cXY2c05wR2NsY0JzbnR1d3g1Y1NNOGVnRHMxaGVJV0xXdTdnYlQxYlgwNldwQT09) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 139 | 1 |
+| [ZDBmY2JjNzJlZDgxMDNlYUxSM3dIYkVjcXlTT1FQTTZ0RGJnbjRLZ0Vwd3A5dmt1bk1ZZC9UNXd3NDA2bFhFVVNyMVhKamRBZXlGOXkrMTdwNFhrdjNvWE4zQWhTbFJiaFdCRW5BM25XRXhWNjJ3RVd0emxncWRmbkhvVTFHRnl2QW5JT2RqMUJBT3RwWUI5Y0F1Y1BOc3dqNm5tb2VWZDEwUG4xT2pISWM5OHU5YW5rS1BoVmgzNThZQT0.pdf](https://www.marburg.de/downloads/datei/ZDBmY2JjNzJlZDgxMDNlYUxSM3dIYkVjcXlTT1FQTTZ0RGJnbjRLZ0Vwd3A5dmt1bk1ZZC9UNXd3NDA2bFhFVVNyMVhKamRBZXlGOXkrMTdwNFhrdjNvWE4zQWhTbFJiaFdCRW5BM25XRXhWNjJ3RVd0emxncWRmbkhvVTFHRnl2QW5JT2RqMUJBT3RwWUI5Y0F1Y1BOc3dqNm5tb2VWZDEwUG4xT2pISWM5OHU5YW5rS1BoVmgzNThZQT0) | marburg.de | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 0 | 11 |
+| [ZDU4MjFhNDhkZmIyODlkZW96MUNmeWhQbjZ3aUR6WVZXVWRscnNrOVphb3h5Q3pZMUU0c0FjUU5uSU5YY3BCMS92M1RsUGhkek4wUUFlTjBiVllxNDRIclV0QnZWUnVVNFJYQTRsc2Y5TlV1Qnptb2w2TkZFazBsQk4vSXdKRTZhS1hjQVdSY1JPYVMvU3hQ.pdf](https://www.marburg.de/downloads/datei/ZDU4MjFhNDhkZmIyODlkZW96MUNmeWhQbjZ3aUR6WVZXVWRscnNrOVphb3h5Q3pZMUU0c0FjUU5uSU5YY3BCMS92M1RsUGhkek4wUUFlTjBiVllxNDRIclV0QnZWUnVVNFJYQTRsc2Y5TlV1Qnptb2w2TkZFazBsQk4vSXdKRTZhS1hjQVdSY1JPYVMvU3hQ) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 201 | 4 |
+| [ZDc0MDcyMzJjYjI4NzhlZjV4ckFFd2JqSEJha2hDcklHeXg3WTN6TjhROVpTakpxeFlWaXlJQ3AxNTYxVXE1VHFKNE9SVmdjaGk1UENQTWh3RUhwdGNGaXBlam9HR1BZZGY2VEt3ZVJ5YlV3aUxXaFV5MjNaOHQ3Vm5IemRhaHZ1SlZsaHNKbUxRRkgvdnNZZE9yT1VKcGNuamxDZHNnU0I1RndJUT09.pdf](https://www.marburg.de/downloads/datei/ZDc0MDcyMzJjYjI4NzhlZjV4ckFFd2JqSEJha2hDcklHeXg3WTN6TjhROVpTakpxeFlWaXlJQ3AxNTYxVXE1VHFKNE9SVmdjaGk1UENQTWh3RUhwdGNGaXBlam9HR1BZZGY2VEt3ZVJ5YlV3aUxXaFV5MjNaOHQ3Vm5IemRhaHZ1SlZsaHNKbUxRRkgvdnNZZE9yT1VKcGNuamxDZHNnU0I1RndJUT09) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 240 | 18 |
+| [ZDhiZTM4MTgxNjFlZDA5NmlOdHk2amlOQU1PbFFVWjh5NkFXMXVJOU9NbzVueWlCN0hiVDdKbXlwd2lQUnlyYjFRcGhmQnVOd0dnMUV1NGc0UGpmR0JmdzJQZ293MG5VTVlLMXpMbTJ2ZWR2dkxRTHhFS0Z5U0dVbi9lZEJSZ2RvZlkvcktqKzhFa3hTL2lvcHlUQjBvNExUc2J4QXMvenNGOGVRUT09.pdf](https://www.marburg.de/downloads/datei/ZDhiZTM4MTgxNjFlZDA5NmlOdHk2amlOQU1PbFFVWjh5NkFXMXVJOU9NbzVueWlCN0hiVDdKbXlwd2lQUnlyYjFRcGhmQnVOd0dnMUV1NGc0UGpmR0JmdzJQZ293MG5VTVlLMXpMbTJ2ZWR2dkxRTHhFS0Z5U0dVbi9lZEJSZ2RvZlkvcktqKzhFa3hTL2lvcHlUQjBvNExUc2J4QXMvenNGOGVRUT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 122 | 3 |
+| [ZGQxNTg1NWUxMGI1MjI2NkEvMWdiRlVVT0ZZWnpEOFBkakhaQXpXNFFDMk40SmN3WUxFZTZYcm1nZ0pOcUFRdWh0UzdsOU55OEdvOHdEOEpqZlE3YWZvaVZ2cWNkTGNSSjJNYXh5dTdIM2RmQWhZb1FWelVhOThaYnVKbmFQYmt3NVNBRkRTdFN6RndkQ01Femcwb3Nnc21oSEZ6UXhhT3QweXViQT09.pdf](https://www.marburg.de/downloads/datei/ZGQxNTg1NWUxMGI1MjI2NkEvMWdiRlVVT0ZZWnpEOFBkakhaQXpXNFFDMk40SmN3WUxFZTZYcm1nZ0pOcUFRdWh0UzdsOU55OEdvOHdEOEpqZlE3YWZvaVZ2cWNkTGNSSjJNYXh5dTdIM2RmQWhZb1FWelVhOThaYnVKbmFQYmt3NVNBRkRTdFN6RndkQ01Femcwb3Nnc21oSEZ6UXhhT3QweXViQT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2549 | 14 |
+| [ZTI1NTUwMDRjOWE1NjQ2YzhIeE1aN0NGSktpZU1mT0FRbVZqZ29HK0k1YWpvU2xXZGw5T1ViellXTXBlTjBOM0hNdDRLZ2lXU2M4V1BBazc2MC92WnJBVko0bkhjNVNYRlRIeWJiMXQ1WTllZUdPRFl1VTJ0Wm9nSy9VT09ZRnpFTVNqZml6dzUwbzJsZnl3WkV6NU5jaEVMWG5SOGhFR1hGS1o3UT09.pdf](https://www.marburg.de/downloads/datei/ZTI1NTUwMDRjOWE1NjQ2YzhIeE1aN0NGSktpZU1mT0FRbVZqZ29HK0k1YWpvU2xXZGw5T1ViellXTXBlTjBOM0hNdDRLZ2lXU2M4V1BBazc2MC92WnJBVko0bkhjNVNYRlRIeWJiMXQ1WTllZUdPRFl1VTJ0Wm9nSy9VT09ZRnpFTVNqZml6dzUwbzJsZnl3WkV6NU5jaEVMWG5SOGhFR1hGS1o3UT09) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 0 | 3 |
+| [ZTQ0OTQ2OTFhZjg4NWZiZkVzeFRFZ3cyVC9aM0NlbHYvbTRMTUR1WW1hbVdPUi9ZQzR1ZnFlNExJRUt3Qk1Cd0g2YWtGSC8yVTk4eFJjeHNnTG9zRHFpRzJsSTRnOUF0YjJ6QktBWGFxcEFqbFBTQUIvSXpsQlNtdXhvUExjQm4xZnBSUG1rcE5jb0Y3amdT.pdf](https://www.marburg.de/downloads/datei/ZTQ0OTQ2OTFhZjg4NWZiZkVzeFRFZ3cyVC9aM0NlbHYvbTRMTUR1WW1hbVdPUi9ZQzR1ZnFlNExJRUt3Qk1Cd0g2YWtGSC8yVTk4eFJjeHNnTG9zRHFpRzJsSTRnOUF0YjJ6QktBWGFxcEFqbFBTQUIvSXpsQlNtdXhvUExjQm4xZnBSUG1rcE5jb0Y3amdT) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 215 | 4 |
+| [ZTcyYjU4YjA5M2U2MmM1YjVkdEVEZWFlMnJ0aVFDSjBRdUZLMk56SVNOeU1sY1BwOWdQOHVjOUFXejFlS2pUdDdPNHo3eVpEWHBBQ2JaQUlaY2V6eFhHeUllcko1amJkSFc1Z0xEL2FWdUFzT3Z0dktoY3I0TE5WSDlkNmtPaDdMZWFCUTNwV1FDN2ltajA1.pdf](https://www.marburg.de/downloads/datei/ZTcyYjU4YjA5M2U2MmM1YjVkdEVEZWFlMnJ0aVFDSjBRdUZLMk56SVNOeU1sY1BwOWdQOHVjOUFXejFlS2pUdDdPNHo3eVpEWHBBQ2JaQUlaY2V6eFhHeUllcko1amJkSFc1Z0xEL2FWdUFzT3Z0dktoY3I0TE5WSDlkNmtPaDdMZWFCUTNwV1FDN2ltajA1) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 215 | 3 |
+| [beratung_on_tour_2024.pdf](https://www.marburg.de/medien/dokumente/beratung_on_tour_2024.pdf?20250610080013) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 73 | 7 |
+| [einfuehrung_von_kita_gebuehren_und_erhoehung_der_krippen_gebuehren.pdf](https://www.marburg.de/medien/dokumente/einfuehrung_von_kita_gebuehren_und_erhoehung_der_krippen_gebuehren.pdf?20251125103223) | marburg.de | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 3865 | 5 |
+| [faq_ermaessigungsregelung_eltern.pdf](https://www.marburg.de/medien/dokumente/faq_ermaessigungsregelung_eltern.pdf?20260211112744) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 944 | 0 |
+| [faq_ermaessigungsregelung_eltern_einfache_sprache.pdf](https://www.marburg.de/medien/dokumente/faq_ermaessigungsregelung_eltern_einfache_sprache.pdf?20260211112723) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1179 | 0 |
+| [flyer_sicher_einfach_digital_der_online_ausweis.pdf](https://www.marburg.de/medien/dokumente/flyer_sicher_einfach_digital_der_online_ausweis.pdf?20241129115018) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 739 | 5 |
 
 ## Files with Errors or Notes
 
@@ -27754,3 +27826,351 @@ Generated: 2026-03-19T04:20:22.045311+00:00
 - **URL**: https://www.erappa.org/wp-content/uploads/2019/11/erappapieform.pdf
 - **Status**: analysed
 - title, lang, 
+
+### 900000012_archivsatzung.pdf
+
+- **URL**: https://www.marburg.de/medien/satzungen/900000012_archivsatzung.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 900000074_schulbezirksgrenzensatzung_fassung_01.pdf
+
+- **URL**: https://www.marburg.de/medien/satzungen/900000074_schulbezirksgrenzensatzung_fassung_01.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 900000079__f6ffentlich_rechtliche_20vereinbarung_20gem._20_a7_20140_20abs._201_20i._20v._20m._20_a7_20143_20abs._204_20hessische_20schulgesetz.pdf
+
+- **URL**: https://www.marburg.de/medien/satzungen/900000079__f6ffentlich_rechtliche_20vereinbarung_20gem._20_a7_20140_20abs._201_20i._20v._20m._20_a7_20143_20abs._204_20hessische_20schulgesetz.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 900000196_40_31_schulbezirksgrenzensatzung_bs.pdf
+
+- **URL**: https://www.marburg.de/medien/satzungen/900000196_40_31_schulbezirksgrenzensatzung_bs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 900000245_kinderbetreuungssatzung_der_universitaetsstadt_marburg.pdf
+
+- **URL**: https://www.marburg.de/medien/satzungen/900000245_kinderbetreuungssatzung_der_universitaetsstadt_marburg.pdf
+- **Status**: analysed
+- title, 
+
+### 900000263_i._nachtrag_zur_kinderbetreuungssatzung.pdf
+
+- **URL**: https://www.marburg.de/medien/satzungen/900000263_i._nachtrag_zur_kinderbetreuungssatzung.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### 900000288_archivsatzung_der_universitaetsstadt_marburg_in_kraft_getreten_am_13.05.2018.pdf
+
+- **URL**: https://www.marburg.de/medien/satzungen/900000288_archivsatzung_der_universitaetsstadt_marburg_in_kraft_getreten_am_13.05.2018.pdf
+- **Status**: analysed
+- title, 
+
+### 900000335_satzung_ueber_die_bildung_der_schulbezirksgrenzen_i.d.f._des_viii._nachtrags_inkrafttreten_am_01.08.2020_pdf.pdf
+
+- **URL**: https://www.marburg.de/medien/satzungen/900000335_satzung_ueber_die_bildung_der_schulbezirksgrenzen_i.d.f._des_viii._nachtrags_inkrafttreten_am_01.08.2020_pdf.pdf
+- **Status**: analysed
+- title, 
+
+### 900000335_viii._nachtrag_zur_satzung_bildung_schulbezirksgrenzen_inkrafttreten_am_01.08.2020.pdf
+
+- **URL**: https://www.marburg.de/medien/satzungen/900000335_viii._nachtrag_zur_satzung_bildung_schulbezirksgrenzen_inkrafttreten_am_01.08.2020.pdf
+- **Status**: analysed
+- title, 
+
+### M2ViOTUyNzY4ZmNkY2U1NmN1cUVQa016bnp1NXFFWmZMakkwOVhJWXdvK3VtMjBqVEFNM3ptVFN5TnpoM2V0UkI0RE9lSmc3WnFUY0lLbTJwMitPWXlFMWpSa0YzVTg5UTZ1YkFjbk02WnJGTWtRREc1bVNOejlmUFpsQ3B1Tlc0ZnpycmFtRmRjeHpnQVFPVFdLdXA5WlBmVlNSRDdUeE9tM1dXcENLVzRwUVk4YXJVeFFmeklSWGFyST0.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/M2ViOTUyNzY4ZmNkY2U1NmN1cUVQa016bnp1NXFFWmZMakkwOVhJWXdvK3VtMjBqVEFNM3ptVFN5TnpoM2V0UkI0RE9lSmc3WnFUY0lLbTJwMitPWXlFMWpSa0YzVTg5UTZ1YkFjbk02WnJGTWtRREc1bVNOejlmUFpsQ3B1Tlc0ZnpycmFtRmRjeHpnQVFPVFdLdXA5WlBmVlNSRDdUeE9tM1dXcENLVzRwUVk4YXJVeFFmeklSWGFyST0
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### M2Y0ZmFmM2YxNDRmY2YwYUQ1MThWSzU3bGpWTWNvTitJSE11NVprK1FwejIvdEM1Y3pkelR5aGh2TnMwVEZNRkY0bVdDVDMySWpZU2RVOFNRTFVNOUk1R1RkeEdzell0SXJMbEliNkt0NUhvTHIxMzM0dlA3QUVZL3BBRzduWTJ4Wk9pdVpXOFRFT1FZTWVG.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/M2Y0ZmFmM2YxNDRmY2YwYUQ1MThWSzU3bGpWTWNvTitJSE11NVprK1FwejIvdEM1Y3pkelR5aGh2TnMwVEZNRkY0bVdDVDMySWpZU2RVOFNRTFVNOUk1R1RkeEdzell0SXJMbEliNkt0NUhvTHIxMzM0dlA3QUVZL3BBRzduWTJ4Wk9pdVpXOFRFT1FZTWVG
+- **Status**: analysed
+- title, 
+
+### MDczZDlkOTJhMzI5NDYzY2xCb0VER3NHeXZMaDZjY1l3dW1TOTFNS3hMWTROenBLYnZtQXZKVzBJQ21OZmlrZ3V1aGZKTzR2K3kwVGtNRjVwQ1AxcmI4eGtpS3dLTCtxMDJxeUh5Q3hScEhLQ3RlWlBvWU80bXR6N000YjRsaVhCVnJtbmo0MVYrSlpNVUtaeVFTMFcwUnFOMkxDSzRrSmgrSThEUT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MDczZDlkOTJhMzI5NDYzY2xCb0VER3NHeXZMaDZjY1l3dW1TOTFNS3hMWTROenBLYnZtQXZKVzBJQ21OZmlrZ3V1aGZKTzR2K3kwVGtNRjVwQ1AxcmI4eGtpS3dLTCtxMDJxeUh5Q3hScEhLQ3RlWlBvWU80bXR6N000YjRsaVhCVnJtbmo0MVYrSlpNVUtaeVFTMFcwUnFOMkxDSzRrSmgrSThEUT09
+- **Status**: analysed
+- title, 
+
+### MDg2OGVhY2ZhN2ZkMTk3NS9XQlpZVGhwdVh6azlVb3hrWW9CTGtrcUs1dkY3ZmVCeEpQSi9KL24vUllFZGFBZksxN3dnRGl1M0pWa2MvMFR0RCsyUWw1SGJKb29ielR1ZkUvV2Y4QmgrVDNHQ2x2VkEveGNLWHRHdUxzUnRtZlVKYXlXSk9qU2ZLRDk0WXFj.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MDg2OGVhY2ZhN2ZkMTk3NS9XQlpZVGhwdVh6azlVb3hrWW9CTGtrcUs1dkY3ZmVCeEpQSi9KL24vUllFZGFBZksxN3dnRGl1M0pWa2MvMFR0RCsyUWw1SGJKb29ielR1ZkUvV2Y4QmgrVDNHQ2x2VkEveGNLWHRHdUxzUnRtZlVKYXlXSk9qU2ZLRDk0WXFj
+- **Status**: analysed
+- title, 
+
+### MDk0YTc4OGM4MDlmMTk3NUVYaWp3MkFmenZhSklZdEpVR2Mvd3QwQnRTamo3N1RTR2RrNFdJMGJZTTlFY3JyeUsreWVWb1Z0eGZXczBFWGI5ZkhEaUU3YW5VNldTT1VITkh1TWJQRG5ha2ppS09hWUtYTkFZdm5KTm1BZHFPSWlVR1ZBUzNnS1B4eUVtcjNT.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MDk0YTc4OGM4MDlmMTk3NUVYaWp3MkFmenZhSklZdEpVR2Mvd3QwQnRTamo3N1RTR2RrNFdJMGJZTTlFY3JyeUsreWVWb1Z0eGZXczBFWGI5ZkhEaUU3YW5VNldTT1VITkh1TWJQRG5ha2ppS09hWUtYTkFZdm5KTm1BZHFPSWlVR1ZBUzNnS1B4eUVtcjNT
+- **Status**: analysed
+- title, tagged, lang, 
+
+### MGQ2MWFkMWEzZmY5YmY4NkdPa2VxNk9BbVYyRStPbEFjVmVjQlBhb0hOMEZKNWk5MHE4L3BwSVpKQUNJTXNkbEtURElHSVRiNEI3dGxXc0llVDh4a29iMVJSNmdtTXVyQlNXNDN0ZEtjWjBsVTNxdGM5U2M3bVJNOGxWSjY0SWxxNkZWcXExa2M4SXN6OEhQTlZYZnJsd25mMU02SndSZzJmcnU2T2NDUkszTnlSS2hMcGpCWjhIWnAyST0.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MGQ2MWFkMWEzZmY5YmY4NkdPa2VxNk9BbVYyRStPbEFjVmVjQlBhb0hOMEZKNWk5MHE4L3BwSVpKQUNJTXNkbEtURElHSVRiNEI3dGxXc0llVDh4a29iMVJSNmdtTXVyQlNXNDN0ZEtjWjBsVTNxdGM5U2M3bVJNOGxWSjY0SWxxNkZWcXExa2M4SXN6OEhQTlZYZnJsd25mMU02SndSZzJmcnU2T2NDUkszTnlSS2hMcGpCWjhIWnAyST0
+- **Status**: analysed
+- title, 
+
+### MGQzMjdhMGNlOWFkMDAxY0tKV1JTSERSVXV0S2pqRDlJenFxMWNUUkRHZEFnb2lVUVJZb3dGd01tRlkreGhKd0szczBLTWdHV0hqRHNHc2VOcjBwQjd0QU9vSEdKYWY0bnpGYXpINThvTTQ0WVpZVUdMM00ybDRGTys2TEhvVy9aOFRpNXY0ZnRRUUxlWEFIRFRpSnFGbVQrVnB4bzQ2S2JQWHlWUT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MGQzMjdhMGNlOWFkMDAxY0tKV1JTSERSVXV0S2pqRDlJenFxMWNUUkRHZEFnb2lVUVJZb3dGd01tRlkreGhKd0szczBLTWdHV0hqRHNHc2VOcjBwQjd0QU9vSEdKYWY0bnpGYXpINThvTTQ0WVpZVUdMM00ybDRGTys2TEhvVy9aOFRpNXY0ZnRRUUxlWEFIRFRpSnFGbVQrVnB4bzQ2S2JQWHlWUT09
+- **Status**: analysed
+- title, 
+
+### MTJhMmVjYzBkNjQ4MWZjMUIwRzhYU0c3MVhzb1pmVGhYR0MxWHNOaWphR3puZlZCeTBEYWQxdFVlWXFzVUVXOHV2ODB5T2VEcEw1RkRkT0xnSW5QRGFSSmZUNDJoMkdFdS9RS2ErcGJwV1lEUHNjdUlqWjVzbjYvUEcwMENYa0l6c21QV2ljc1dPblRJV3VN.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MTJhMmVjYzBkNjQ4MWZjMUIwRzhYU0c3MVhzb1pmVGhYR0MxWHNOaWphR3puZlZCeTBEYWQxdFVlWXFzVUVXOHV2ODB5T2VEcEw1RkRkT0xnSW5QRGFSSmZUNDJoMkdFdS9RS2ErcGJwV1lEUHNjdUlqWjVzbjYvUEcwMENYa0l6c21QV2ljc1dPblRJV3VN
+- **Status**: analysed
+- title, 
+
+### MTQ1YjQ1YmM3ZTljNGNkZHRlL2w3Vk8rR3g4ajRMTGtMaC9iL2xwRWFqN3hsRmN6ZWVOZ2VHUlA0QzhzME8vcTFhVlpQWDdRMkpRNHBvNU1FelRxdGFmK2ZrMjRXL2tneHNkbTVjeFZVZ1VOcjBudUxUWTVDSHExQmg1TGJ2dEJXRkVtVkk5TWVGbVVRM1pa.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MTQ1YjQ1YmM3ZTljNGNkZHRlL2w3Vk8rR3g4ajRMTGtMaC9iL2xwRWFqN3hsRmN6ZWVOZ2VHUlA0QzhzME8vcTFhVlpQWDdRMkpRNHBvNU1FelRxdGFmK2ZrMjRXL2tneHNkbTVjeFZVZ1VOcjBudUxUWTVDSHExQmg1TGJ2dEJXRkVtVkk5TWVGbVVRM1pa
+- **Status**: analysed
+- title, tagged, lang, 
+
+### MWFlOGI2Zjk0MTY1ZDQ4YUp1VWtWWnpTelZWNHJMcW8zeHlnOHU2QStmLy9CMm5GeC9IdzducXhMemU3Q2hFMnphalZtc2VkZER0NXVJMmVWQnZpSWZUUXJhYU1tVWx4WUM5NUdZVW1UMnJVMWFmRlNFaTZ5WlFKR25sczRBWDdmSm04c3VlcDRTbTh0VnV6dVE4NDVuUnI0QVhEeG42Qm1XSU1pUT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MWFlOGI2Zjk0MTY1ZDQ4YUp1VWtWWnpTelZWNHJMcW8zeHlnOHU2QStmLy9CMm5GeC9IdzducXhMemU3Q2hFMnphalZtc2VkZER0NXVJMmVWQnZpSWZUUXJhYU1tVWx4WUM5NUdZVW1UMnJVMWFmRlNFaTZ5WlFKR25sczRBWDdmSm04c3VlcDRTbTh0VnV6dVE4NDVuUnI0QVhEeG42Qm1XSU1pUT09
+- **Status**: analysed
+- title, 
+
+### MWQ1OTcyZTMyNTZlY2E0ZFozdmlYR01FM0VCVTBrb2RpcCtYL0YxaUsxaG1UdlFJMGM4ckF6cTR1bGVHdzRhckVCWk55UFdTbEVZTkZvdlpHSTRBWXROMGFlbUhzV2hxZFFBVHNHeWptdkZmYk1EQ1JtdW1MY0w2ZU9Wbm50a3RkdDdLWlZrbW44bjJhZzVa.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MWQ1OTcyZTMyNTZlY2E0ZFozdmlYR01FM0VCVTBrb2RpcCtYL0YxaUsxaG1UdlFJMGM4ckF6cTR1bGVHdzRhckVCWk55UFdTbEVZTkZvdlpHSTRBWXROMGFlbUhzV2hxZFFBVHNHeWptdkZmYk1EQ1JtdW1MY0w2ZU9Wbm50a3RkdDdLWlZrbW44bjJhZzVa
+- **Status**: analysed
+- title, tagged, lang, 
+
+### MmM4YjM3MTU1ZmIzZWQwM1ZvYnBrREZTZ2RpeWhTRUNXZllEYzZ3MXoyZVRsdncyeXRxaTUwWVpXd09kemNIMFo1WCt4TlJDSk5POVZjcWxRaENhZ2tOc1JWclY1dzQzYXpxZHo2RlhMZzRWaHJlVHR1QnExc0JTTVJYak5BY3VhT2szbVNvS0JvMXI2MHZaNHA3c1VKcm9KVktjc3NUbzJOZHd4aG1MZU1GeU1DWEx1czkxTGV3WENYND0.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MmM4YjM3MTU1ZmIzZWQwM1ZvYnBrREZTZ2RpeWhTRUNXZllEYzZ3MXoyZVRsdncyeXRxaTUwWVpXd09kemNIMFo1WCt4TlJDSk5POVZjcWxRaENhZ2tOc1JWclY1dzQzYXpxZHo2RlhMZzRWaHJlVHR1QnExc0JTTVJYak5BY3VhT2szbVNvS0JvMXI2MHZaNHA3c1VKcm9KVktjc3NUbzJOZHd4aG1MZU1GeU1DWEx1czkxTGV3WENYND0
+- **Status**: analysed
+- title, tagged, lang, 
+
+### MzVkYjI5MDRmZjVlZmM3ME5YK2QzZ0ltbjJjRU5wUGxhbnVJTVQzVTZlM254a1dud1ZpaXdnQUliMGd0RDR2OWlRZm0rRnR5cFJLRTlsdDZPR2RCMWNHUFF6MEpGNUd4WGlBY0NWMkp2cVl1T2QxQjFnOUk3RU1xOWcvNHJ3MlovNEk0ZnZabnc5K3UrWmQy.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MzVkYjI5MDRmZjVlZmM3ME5YK2QzZ0ltbjJjRU5wUGxhbnVJTVQzVTZlM254a1dud1ZpaXdnQUliMGd0RDR2OWlRZm0rRnR5cFJLRTlsdDZPR2RCMWNHUFF6MEpGNUd4WGlBY0NWMkp2cVl1T2QxQjFnOUk3RU1xOWcvNHJ3MlovNEk0ZnZabnc5K3UrWmQy
+- **Status**: analysed
+- title, 
+
+### MzhmN2UwNjM3NWYzZDU5NUZTOW1MKzV1b2VkZU53RkxBRzF5dEVtTlYzUEU2NThZK1F4VjdjR2RPNCs2VVcxSlVTTWVmRkdrVUF1cWZjU0gvWUpJQkJQSktMTmhicGdHbW56OE9vMHNjeUNxdWkxWlBrRUtBdThoK2cwK3I4ZjRRMDJKMGoyRThOb1Y1dDRT.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/MzhmN2UwNjM3NWYzZDU5NUZTOW1MKzV1b2VkZU53RkxBRzF5dEVtTlYzUEU2NThZK1F4VjdjR2RPNCs2VVcxSlVTTWVmRkdrVUF1cWZjU0gvWUpJQkJQSktMTmhicGdHbW56OE9vMHNjeUNxdWkxWlBrRUtBdThoK2cwK3I4ZjRRMDJKMGoyRThOb1Y1dDRT
+- **Status**: analysed
+- title, lang, 
+
+### N2ZmZTI0Njc1MDgyMWQ0MTZGS05QSWh1SFRtc1prNWo4TThnWmp0NXRZQldIWmZ0MGF0UlkrenVpdVRvWk9pbGV1VkNOL1o4L2ZreUtsWDhQaGVkREhVd1NRcWhjS1E4bWk5YUpQckFhZ3p6dXZSb1dMbzdyampQdm5lNXhGdjNxeHNLMUZnVmxLRnQ4VGFhMmozdnpnT2p3cWhyT3VjbGRxeHhJdz09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/N2ZmZTI0Njc1MDgyMWQ0MTZGS05QSWh1SFRtc1prNWo4TThnWmp0NXRZQldIWmZ0MGF0UlkrenVpdVRvWk9pbGV1VkNOL1o4L2ZreUtsWDhQaGVkREhVd1NRcWhjS1E4bWk5YUpQckFhZ3p6dXZSb1dMbzdyampQdm5lNXhGdjNxeHNLMUZnVmxLRnQ4VGFhMmozdnpnT2p3cWhyT3VjbGRxeHhJdz09
+- **Status**: analysed
+- title, 
+
+### NDJiMzlmYTQwM2FhNTIzNDhvb0ROMS95WG9yZ0NTVS9zSEtmazEvK05lRkZuc3VqL3lHY255amg3bzBTcUoxMlFGWkpTVk5kaDM2djJocXVJVG9JUlVDTzVEZGtWOGFJbmVEY3VvMFZpU1VhdHRSOFlaLy9GbUMzTGNxaEg2VlZuNlZiUHZrOEt4QzNGWmRUUnRNWWJxeTRZTnJOYktSYmVGUU5Fdz09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NDJiMzlmYTQwM2FhNTIzNDhvb0ROMS95WG9yZ0NTVS9zSEtmazEvK05lRkZuc3VqL3lHY255amg3bzBTcUoxMlFGWkpTVk5kaDM2djJocXVJVG9JUlVDTzVEZGtWOGFJbmVEY3VvMFZpU1VhdHRSOFlaLy9GbUMzTGNxaEg2VlZuNlZiUHZrOEt4QzNGWmRUUnRNWWJxeTRZTnJOYktSYmVGUU5Fdz09
+- **Status**: analysed
+- title, lang, 
+
+### NDNjNTIzODZkMzAyNWZiOE1VY2lqZ1hYeEs0R2RKbld4ZHgrZzZmcUdvSWRkaGd4OVkrUFUrNEpLVFdyR3BGbG9raWkyVUI5Rm54VzI4aVNRZnJLbTBtV3RDY0RzaWFtcjZGbVpFeEFpZ2Zsb0lCc29yc0JSYjVYLzVVN0lsN29lTStFRWlnWkFVVGxJYlN6Mzl4eFBjRktNMTJmc0pCZGdLcHc4d3RjblNZaXRXbGk0NjhTekxHKzJEcz0.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NDNjNTIzODZkMzAyNWZiOE1VY2lqZ1hYeEs0R2RKbld4ZHgrZzZmcUdvSWRkaGd4OVkrUFUrNEpLVFdyR3BGbG9raWkyVUI5Rm54VzI4aVNRZnJLbTBtV3RDY0RzaWFtcjZGbVpFeEFpZ2Zsb0lCc29yc0JSYjVYLzVVN0lsN29lTStFRWlnWkFVVGxJYlN6Mzl4eFBjRktNMTJmc0pCZGdLcHc4d3RjblNZaXRXbGk0NjhTekxHKzJEcz0
+- **Status**: analysed
+- title, 
+
+### NTNmYzMzODUxNmVlYzQ3OVZEOFp6eHR1aDNnN0pLK3k2UU4yZmYrZHlyd0Zrd3ByZ05odFFYSXd2VHRpZVBoajlhU25XZ0o1OGx1SGY4NkRuZ2lxQ3A2NE9RS0tJZFZLVForWWJheG1rTzdpVExybDhjVkFhT1VZWm5IRVAxc0tmano0ci9Db2NLQ2l4WVlZZEFTck8vQVNQQzIvQ1VBWDF1Q3AzQT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NTNmYzMzODUxNmVlYzQ3OVZEOFp6eHR1aDNnN0pLK3k2UU4yZmYrZHlyd0Zrd3ByZ05odFFYSXd2VHRpZVBoajlhU25XZ0o1OGx1SGY4NkRuZ2lxQ3A2NE9RS0tJZFZLVForWWJheG1rTzdpVExybDhjVkFhT1VZWm5IRVAxc0tmano0ci9Db2NLQ2l4WVlZZEFTck8vQVNQQzIvQ1VBWDF1Q3AzQT09
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NTRmZTVmYzQzMTRkZDEyOUlzcGhHZy8xRWxscXVxWFdkU1JqV2I5UFVaSnRKRVdDVSswQ1lsR2JESzU5dVY4alRhQkhiRWh6WVpCc0tMRkZtRFNHbTFCeXViVE1NT00remJseHk2Y1Y1NmJqM1NVOUsyRGQrU1FEaHN6Zk53RXJoQmFhbDVlWUNWS3JxUTNO.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NTRmZTVmYzQzMTRkZDEyOUlzcGhHZy8xRWxscXVxWFdkU1JqV2I5UFVaSnRKRVdDVSswQ1lsR2JESzU5dVY4alRhQkhiRWh6WVpCc0tMRkZtRFNHbTFCeXViVE1NT00remJseHk2Y1Y1NmJqM1NVOUsyRGQrU1FEaHN6Zk53RXJoQmFhbDVlWUNWS3JxUTNO
+- **Status**: analysed
+- title, 
+
+### NWRhM2JiYjdlODc3M2U2ZmlibGY4WnN5T2xZQWd3dXo5T1lGS1psWXB3cTVENFlnRFpDQ3BFQnB1RmRMR3RPRVhhYlR2Z256TjlqWDQvZlRmTmY4STBHMjRtdkNUVHFORVNDUHZxWDNtS05YRDZSbmxkZk94azJ5eStLaCtkeEZHSlhOczhvWWZkOW10TXk3MlJBSEgyOXpuTDZSM3p6YlZpSTloQT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NWRhM2JiYjdlODc3M2U2ZmlibGY4WnN5T2xZQWd3dXo5T1lGS1psWXB3cTVENFlnRFpDQ3BFQnB1RmRMR3RPRVhhYlR2Z256TjlqWDQvZlRmTmY4STBHMjRtdkNUVHFORVNDUHZxWDNtS05YRDZSbmxkZk94azJ5eStLaCtkeEZHSlhOczhvWWZkOW10TXk3MlJBSEgyOXpuTDZSM3p6YlZpSTloQT09
+- **Status**: analysed
+- title, 
+
+### NjNmNTkxNGY4NGYxYzMxYk4yeHNTZkcyWXFRN0lSUXlKT2ozVWN2UXUyaEZUKzNBdTVDSmcvVHkwRSt6cnJLYmQ2SjFub2svY250NXdDcHFxWWNKeUhOenp1bkFDMGJnSldPK2RoNHY5eU9wVWc4QWhkQWcwQ3BaVmtyT2gwcnIzQlFDMTdhelE4b09ycUpq.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NjNmNTkxNGY4NGYxYzMxYk4yeHNTZkcyWXFRN0lSUXlKT2ozVWN2UXUyaEZUKzNBdTVDSmcvVHkwRSt6cnJLYmQ2SjFub2svY250NXdDcHFxWWNKeUhOenp1bkFDMGJnSldPK2RoNHY5eU9wVWc4QWhkQWcwQ3BaVmtyT2gwcnIzQlFDMTdhelE4b09ycUpq
+- **Status**: analysed
+- title, 
+
+### Njk2MDgyMmIyMTIzNmFmZFlZUU0weXlET1JRNUVEaDBnUmc3R1ZGU1R4Q0VMZTZXZjNpTHRENjZuZ0d2YU5pK1RSK3dQS1E3WC9pbW9teWhFZXpWMWk4RmdWRFYyQ3AybzZaOUFJZm1yOXhkVW9GVFJPeFJaQWplblBqYS9pSjBvN3dVM0ZZZk5zdDJzM2tSaDRtZFcyM1k2aDE0Y0Q4Wjl4QWFpZz09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/Njk2MDgyMmIyMTIzNmFmZFlZUU0weXlET1JRNUVEaDBnUmc3R1ZGU1R4Q0VMZTZXZjNpTHRENjZuZ0d2YU5pK1RSK3dQS1E3WC9pbW9teWhFZXpWMWk4RmdWRFYyQ3AybzZaOUFJZm1yOXhkVW9GVFJPeFJaQWplblBqYS9pSjBvN3dVM0ZZZk5zdDJzM2tSaDRtZFcyM1k2aDE0Y0Q4Wjl4QWFpZz09
+- **Status**: analysed
+- title, 
+
+### NmFmYjQ0MDViNTVmMjA2M1NuTjRQSHpCSC9FZU1INHFjR3JVdFdsQ1QyVHhzR09wSmpDVFd3NlUxU1ZwSHA2R3Z2WERXSFdyQzVxQWpCQmJJS3FJTVNhS28rZHhrZXViYk5uRnhHZ1h1eUpWTnNjSld2ZjFQSm9DdGQ0cjJUSmt3Ty9wY0Z1bDRJMWpTbXZBYm5BNTljcXErL3J5U3VvWHEzRUkxQT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NmFmYjQ0MDViNTVmMjA2M1NuTjRQSHpCSC9FZU1INHFjR3JVdFdsQ1QyVHhzR09wSmpDVFd3NlUxU1ZwSHA2R3Z2WERXSFdyQzVxQWpCQmJJS3FJTVNhS28rZHhrZXViYk5uRnhHZ1h1eUpWTnNjSld2ZjFQSm9DdGQ0cjJUSmt3Ty9wY0Z1bDRJMWpTbXZBYm5BNTljcXErL3J5U3VvWHEzRUkxQT09
+- **Status**: analysed
+- title, lang, 
+
+### NzFmNmJjM2E4MjdhNmRhZGY0dDN6dzd0TnhoUE5Yd3hNSWRNeDFvdlVaaUFSYkFmbjEwYzRPYklVNEVheXB5WjZQT1l5aUJCNXFBUGFyNkVOWVlGNUR2ZE1OcUc1eHcyczhhWU9JTEFzTnlTbHZ2SEsvRUJYNG0rdmdEcVcyaDAzOXhnem9iaTQxa1pSNmtu.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NzFmNmJjM2E4MjdhNmRhZGY0dDN6dzd0TnhoUE5Yd3hNSWRNeDFvdlVaaUFSYkFmbjEwYzRPYklVNEVheXB5WjZQT1l5aUJCNXFBUGFyNkVOWVlGNUR2ZE1OcUc1eHcyczhhWU9JTEFzTnlTbHZ2SEsvRUJYNG0rdmdEcVcyaDAzOXhnem9iaTQxa1pSNmtu
+- **Status**: analysed
+- title, 
+
+### NzQ5ZmQ5YjNjNDU3YjkwMG01cGlkYjFyWVdvY1Jxa3ZaT3I0aDJqSEhzRXFWbHZJVG5YK1BDS0NQOUlBQnpnTEFPM0RXMW9OdG05R3V0RFRZd2ZHYW1OUGwvUi9IME1BNTk3VmRzMXFJbUtock5NNTlpQ09sOCtjWXB2RzJwV1B1Rnp0ejcrc2EzNjdEVmNoV0o3VmZ3dk9yeFBMRnh6SGRud09qQ1pRSXd4WlVnOEZZbmlWQTlVaE5ITT0.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NzQ5ZmQ5YjNjNDU3YjkwMG01cGlkYjFyWVdvY1Jxa3ZaT3I0aDJqSEhzRXFWbHZJVG5YK1BDS0NQOUlBQnpnTEFPM0RXMW9OdG05R3V0RFRZd2ZHYW1OUGwvUi9IME1BNTk3VmRzMXFJbUtock5NNTlpQ09sOCtjWXB2RzJwV1B1Rnp0ejcrc2EzNjdEVmNoV0o3VmZ3dk9yeFBMRnh6SGRud09qQ1pRSXd4WlVnOEZZbmlWQTlVaE5ITT0
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NzY1ODllMWJlMWRlM2U5YXFMMW9uUEpUNjBjelQ1YXoxM0lNYU5NVnlFcTRna3dBay9PaGlqWm9nV2xBSiswNFZHcXhkNTlBT2JRSmNDdGFxay9yUkdtRjIveDBCeWdrQnpoV2ZHaXpUMXpPSzVHK1pydDBiMmp1MzFlY2dQOVQrQzUzQWVLS1NkTjZZa3NGMlN0bHdaY0U4WWgxQzN2cFBLVHp4dz09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/NzY1ODllMWJlMWRlM2U5YXFMMW9uUEpUNjBjelQ1YXoxM0lNYU5NVnlFcTRna3dBay9PaGlqWm9nV2xBSiswNFZHcXhkNTlBT2JRSmNDdGFxay9yUkdtRjIveDBCeWdrQnpoV2ZHaXpUMXpPSzVHK1pydDBiMmp1MzFlY2dQOVQrQzUzQWVLS1NkTjZZa3NGMlN0bHdaY0U4WWgxQzN2cFBLVHp4dz09
+- **Status**: analysed
+- title, 
+
+### ODlkMWU1NGViNDhkYTZhNDlvem5TYmkreXBDV0hDSXJaRTFlbFhuSXJ0SC9ZQ3diNUpIQUV6Vk93MG5pdCtYbVA5YnQ2bndCU2NPSmx4OWxmY1EwTWNsTFJGaEs2elVJeWdrVlo5MTEvT2xxTDNyUW1QVmMvTXM3TjdhbEpTcnJZZWhuZUdtMERDdTlZTmY3bUtCZkE3T0ZVZEF3THhOUE5BMWZ0QT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/ODlkMWU1NGViNDhkYTZhNDlvem5TYmkreXBDV0hDSXJaRTFlbFhuSXJ0SC9ZQ3diNUpIQUV6Vk93MG5pdCtYbVA5YnQ2bndCU2NPSmx4OWxmY1EwTWNsTFJGaEs2elVJeWdrVlo5MTEvT2xxTDNyUW1QVmMvTXM3TjdhbEpTcnJZZWhuZUdtMERDdTlZTmY3bUtCZkE3T0ZVZEF3THhOUE5BMWZ0QT09
+- **Status**: analysed
+- title, tagged, lang, 
+
+### OGMzOWZkMzhjZTU5OThmM0Nld0hYUjdPNmE1TUdEQklCT2QzTjdaUkRDTDBaRGI2VWtDaHd1VXMzUER4Tlo3QWk1SDV4R2tydXVTQzV4T0krakQrMkM5R2V6U2xCNUFETWhNUUZxcTJSQlhGYWJyKzYzemdVRk1sTStLR2FJbkh6b29qaU5hejBjLzgrS1JC.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/OGMzOWZkMzhjZTU5OThmM0Nld0hYUjdPNmE1TUdEQklCT2QzTjdaUkRDTDBaRGI2VWtDaHd1VXMzUER4Tlo3QWk1SDV4R2tydXVTQzV4T0krakQrMkM5R2V6U2xCNUFETWhNUUZxcTJSQlhGYWJyKzYzemdVRk1sTStLR2FJbkh6b29qaU5hejBjLzgrS1JC
+- **Status**: analysed
+- title, 
+
+### OThlMGQ4YmEwMDJlYTUwOXZTNEdZOEs1Sms0T2NDUERWd3NpOEZYMFNXc0lPRjhuNWg3UUUyRjBKOHFtRjcwQ3N5QXgxK212UUo2U0l3TTBkbityb25QY2Rlc0czZ0o3NDkrUWpTYU1UVVhnVnVjdXBWdXdNNld4eFRFR1BKNEw0RkcvdGZqYXJvK1FucWRi.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/OThlMGQ4YmEwMDJlYTUwOXZTNEdZOEs1Sms0T2NDUERWd3NpOEZYMFNXc0lPRjhuNWg3UUUyRjBKOHFtRjcwQ3N5QXgxK212UUo2U0l3TTBkbityb25QY2Rlc0czZ0o3NDkrUWpTYU1UVVhnVnVjdXBWdXdNNld4eFRFR1BKNEw0RkcvdGZqYXJvK1FucWRi
+- **Status**: analysed
+- title, tagged, lang, 
+
+### YTc5ZjU3ZmE1ZmJlOTAzM0krTHBOTDFqT1lNYnJNQ0x2OXo1VWl5dENNWk5pSG5VUEQ1R2EwRmRMWkZrOWFuVitXTUM4K29sUjdhUkc1R211WVZSOVdPMlNla3cyT2RkZ1FUTHBSU3RaVXA1WFJyaGxtdm1ndDdDTm5qRVJzUHFCcGtvYnhTU2d2dUp6b1IwekxCZXA3eHlKbE9ubms1THJRbGRtUT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/YTc5ZjU3ZmE1ZmJlOTAzM0krTHBOTDFqT1lNYnJNQ0x2OXo1VWl5dENNWk5pSG5VUEQ1R2EwRmRMWkZrOWFuVitXTUM4K29sUjdhUkc1R211WVZSOVdPMlNla3cyT2RkZ1FUTHBSU3RaVXA1WFJyaGxtdm1ndDdDTm5qRVJzUHFCcGtvYnhTU2d2dUp6b1IwekxCZXA3eHlKbE9ubms1THJRbGRtUT09
+- **Status**: analysed
+- title, 
+
+### YTkxZGVlZDAzMDgyZTg2Y2wzbC9WUkNOV2lQUjV6dDg0a3pNK0hQNGNHdFlhRUE5Rm5SYSt6bExXeUhlanJoTVFpZXc5R0ZSczNUU3UvSHRrQ2d5a0pyYXc0MU53WWZZT1hZSjZCdVNLUVZ6L3R5eEFnWDh3RDB6VXJFV3UvRWVKY1hMWVMrS1EwYzFEc21FRkZNTFJPVkVUdmZKRThLWFM2SldlQT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/YTkxZGVlZDAzMDgyZTg2Y2wzbC9WUkNOV2lQUjV6dDg0a3pNK0hQNGNHdFlhRUE5Rm5SYSt6bExXeUhlanJoTVFpZXc5R0ZSczNUU3UvSHRrQ2d5a0pyYXc0MU53WWZZT1hZSjZCdVNLUVZ6L3R5eEFnWDh3RDB6VXJFV3UvRWVKY1hMWVMrS1EwYzFEc21FRkZNTFJPVkVUdmZKRThLWFM2SldlQT09
+- **Status**: analysed
+- title, 
+
+### YWNhNWU0NTNlMGNjZjcyZjBGWnNkOVpNZVRESDdtOFR6d3BkbHdlY0pqa2IrNXRnaHNMV0tqVWFYSThnUTZVNmJxWmFhYWxKSDlBZ2c4N2x3YVJJQWtyZ2dmdm9Kd3BEdXo0UHhUVE15d09XWTNLejdCUmNOYS91ZHJweXVBV3NZUXZUSDlhNjNta3JraWMvS2xGY0hvOWR3TDlJSlBUeGdHNk1GQT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/YWNhNWU0NTNlMGNjZjcyZjBGWnNkOVpNZVRESDdtOFR6d3BkbHdlY0pqa2IrNXRnaHNMV0tqVWFYSThnUTZVNmJxWmFhYWxKSDlBZ2c4N2x3YVJJQWtyZ2dmdm9Kd3BEdXo0UHhUVE15d09XWTNLejdCUmNOYS91ZHJweXVBV3NZUXZUSDlhNjNta3JraWMvS2xGY0hvOWR3TDlJSlBUeGdHNk1GQT09
+- **Status**: analysed
+- title, 
+
+### YjE4MzhkODM2ZDBjNDJhMHBnRGtRUVhCUUh3SXdLazdjVDV0SURuMGsvZE9ZY1hVMVRkeUJEMlkwSzFnOEFQVFJwV1VISm5jTmFvNk9EdlBJQWFlSENLOXVtZWhrUjk3MDY3bHpTR0tibSs5dS9kc1FMNjY4OFhrRHBrb0NOM2xzRHN4ZUlYc3UzM0ZaOWlsNlRjbHlsSFFFbngwQmdOdUpVZysrdz09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/YjE4MzhkODM2ZDBjNDJhMHBnRGtRUVhCUUh3SXdLazdjVDV0SURuMGsvZE9ZY1hVMVRkeUJEMlkwSzFnOEFQVFJwV1VISm5jTmFvNk9EdlBJQWFlSENLOXVtZWhrUjk3MDY3bHpTR0tibSs5dS9kc1FMNjY4OFhrRHBrb0NOM2xzRHN4ZUlYc3UzM0ZaOWlsNlRjbHlsSFFFbngwQmdOdUpVZysrdz09
+- **Status**: analysed
+- title, tagged, lang, 
+
+### YjM1ZDhkOGI3MDU3ZjY0NytDL2gyTWJlcU5STitiS3VCdUlqK1pJNG5Za2llYTBGRkU3V3k4aks0Yk9HdlJxOVVuaXhzck1lNThac05ROUUzdU9wTlhWTGNQV3VlMXdCSmRkT2F3eER1NGJ5Wnd6OWpPdGk3ZFlHc01YQnROQTVmVnBwSlBhYjZVRWNpd2xZ.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/YjM1ZDhkOGI3MDU3ZjY0NytDL2gyTWJlcU5STitiS3VCdUlqK1pJNG5Za2llYTBGRkU3V3k4aks0Yk9HdlJxOVVuaXhzck1lNThac05ROUUzdU9wTlhWTGNQV3VlMXdCSmRkT2F3eER1NGJ5Wnd6OWpPdGk3ZFlHc01YQnROQTVmVnBwSlBhYjZVRWNpd2xZ
+- **Status**: analysed
+- title, tagged, lang, 
+
+### YjM4YzY0NGYwZWEwNWFlYWlzM2c1QnFPZ3BtazN5R041Rnpjdm83YmsyYXVxclNYKy9seXUyNEtZWFZMaG5TSDEwaGthc1c0MXZ4MFU2dGF3emRGV0VPZ3dWNWsvMnFXNEorZG5zdjBzclI4VUJreFdRKzBoKzVFNG9iR0hTMmw4ajZvbURBbW1VQW5uSkxvWDVXVTNXZnBuSkR3eFZ1U2RMaWdKdz09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/YjM4YzY0NGYwZWEwNWFlYWlzM2c1QnFPZ3BtazN5R041Rnpjdm83YmsyYXVxclNYKy9seXUyNEtZWFZMaG5TSDEwaGthc1c0MXZ4MFU2dGF3emRGV0VPZ3dWNWsvMnFXNEorZG5zdjBzclI4VUJreFdRKzBoKzVFNG9iR0hTMmw4ajZvbURBbW1VQW5uSkxvWDVXVTNXZnBuSkR3eFZ1U2RMaWdKdz09
+- **Status**: analysed
+- title, tagged, lang, 
+
+### YjkyZmZmYTYzODNiY2IxYldLemNCQSt1RXRINkFyQkdWRlpjaUZxZFB2b2JBaEl1Q0lBVTlNSWZzRTNyZENtR0JCeWV2c0h1Y29YS1I3M0hrcGxQa3p4QzBwWDVVbE5qdnJEb1djczBRM0RVTFJuWDgzMEFiRkJXT0lhdCtmUXdvNytBb3duN1h1QktrVWFIZTBob1dNRDQrL3ZlbHd6TzRlVHFQVnVaMnJYcW9MRUFzWU1MUGpTemthaz0.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/YjkyZmZmYTYzODNiY2IxYldLemNCQSt1RXRINkFyQkdWRlpjaUZxZFB2b2JBaEl1Q0lBVTlNSWZzRTNyZENtR0JCeWV2c0h1Y29YS1I3M0hrcGxQa3p4QzBwWDVVbE5qdnJEb1djczBRM0RVTFJuWDgzMEFiRkJXT0lhdCtmUXdvNytBb3duN1h1QktrVWFIZTBob1dNRDQrL3ZlbHd6TzRlVHFQVnVaMnJYcW9MRUFzWU1MUGpTemthaz0
+- **Status**: analysed
+- title, tagged, lang, 
+
+### YmY5YWYyNDNkZTIzNWQzOUxoYnNDVWNReVVwb3o0b2N3VGl2ZDFZYUVvcWltSGY3QVY1em9JOHdMeC91NW1qSEx4NndYM1VocUVaVGRlRHgzYzR4eS9XcmlOejlzRzZ1MFBGVGU5dEpHWGNQWWxaQTFkOVh0RnBvYlZXRXBRV0ZrNCs3Z0FlcHJtVXdkbVlIY2dXUXZ4OUROelFaK1FTYzRGU1NiQT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/YmY5YWYyNDNkZTIzNWQzOUxoYnNDVWNReVVwb3o0b2N3VGl2ZDFZYUVvcWltSGY3QVY1em9JOHdMeC91NW1qSEx4NndYM1VocUVaVGRlRHgzYzR4eS9XcmlOejlzRzZ1MFBGVGU5dEpHWGNQWWxaQTFkOVh0RnBvYlZXRXBRV0ZrNCs3Z0FlcHJtVXdkbVlIY2dXUXZ4OUROelFaK1FTYzRGU1NiQT09
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ZDBmY2JjNzJlZDgxMDNlYUxSM3dIYkVjcXlTT1FQTTZ0RGJnbjRLZ0Vwd3A5dmt1bk1ZZC9UNXd3NDA2bFhFVVNyMVhKamRBZXlGOXkrMTdwNFhrdjNvWE4zQWhTbFJiaFdCRW5BM25XRXhWNjJ3RVd0emxncWRmbkhvVTFHRnl2QW5JT2RqMUJBT3RwWUI5Y0F1Y1BOc3dqNm5tb2VWZDEwUG4xT2pISWM5OHU5YW5rS1BoVmgzNThZQT0.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/ZDBmY2JjNzJlZDgxMDNlYUxSM3dIYkVjcXlTT1FQTTZ0RGJnbjRLZ0Vwd3A5dmt1bk1ZZC9UNXd3NDA2bFhFVVNyMVhKamRBZXlGOXkrMTdwNFhrdjNvWE4zQWhTbFJiaFdCRW5BM25XRXhWNjJ3RVd0emxncWRmbkhvVTFHRnl2QW5JT2RqMUJBT3RwWUI5Y0F1Y1BOc3dqNm5tb2VWZDEwUG4xT2pISWM5OHU5YW5rS1BoVmgzNThZQT0
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ZDU4MjFhNDhkZmIyODlkZW96MUNmeWhQbjZ3aUR6WVZXVWRscnNrOVphb3h5Q3pZMUU0c0FjUU5uSU5YY3BCMS92M1RsUGhkek4wUUFlTjBiVllxNDRIclV0QnZWUnVVNFJYQTRsc2Y5TlV1Qnptb2w2TkZFazBsQk4vSXdKRTZhS1hjQVdSY1JPYVMvU3hQ.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/ZDU4MjFhNDhkZmIyODlkZW96MUNmeWhQbjZ3aUR6WVZXVWRscnNrOVphb3h5Q3pZMUU0c0FjUU5uSU5YY3BCMS92M1RsUGhkek4wUUFlTjBiVllxNDRIclV0QnZWUnVVNFJYQTRsc2Y5TlV1Qnptb2w2TkZFazBsQk4vSXdKRTZhS1hjQVdSY1JPYVMvU3hQ
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ZDc0MDcyMzJjYjI4NzhlZjV4ckFFd2JqSEJha2hDcklHeXg3WTN6TjhROVpTakpxeFlWaXlJQ3AxNTYxVXE1VHFKNE9SVmdjaGk1UENQTWh3RUhwdGNGaXBlam9HR1BZZGY2VEt3ZVJ5YlV3aUxXaFV5MjNaOHQ3Vm5IemRhaHZ1SlZsaHNKbUxRRkgvdnNZZE9yT1VKcGNuamxDZHNnU0I1RndJUT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/ZDc0MDcyMzJjYjI4NzhlZjV4ckFFd2JqSEJha2hDcklHeXg3WTN6TjhROVpTakpxeFlWaXlJQ3AxNTYxVXE1VHFKNE9SVmdjaGk1UENQTWh3RUhwdGNGaXBlam9HR1BZZGY2VEt3ZVJ5YlV3aUxXaFV5MjNaOHQ3Vm5IemRhaHZ1SlZsaHNKbUxRRkgvdnNZZE9yT1VKcGNuamxDZHNnU0I1RndJUT09
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ZDhiZTM4MTgxNjFlZDA5NmlOdHk2amlOQU1PbFFVWjh5NkFXMXVJOU9NbzVueWlCN0hiVDdKbXlwd2lQUnlyYjFRcGhmQnVOd0dnMUV1NGc0UGpmR0JmdzJQZ293MG5VTVlLMXpMbTJ2ZWR2dkxRTHhFS0Z5U0dVbi9lZEJSZ2RvZlkvcktqKzhFa3hTL2lvcHlUQjBvNExUc2J4QXMvenNGOGVRUT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/ZDhiZTM4MTgxNjFlZDA5NmlOdHk2amlOQU1PbFFVWjh5NkFXMXVJOU9NbzVueWlCN0hiVDdKbXlwd2lQUnlyYjFRcGhmQnVOd0dnMUV1NGc0UGpmR0JmdzJQZ293MG5VTVlLMXpMbTJ2ZWR2dkxRTHhFS0Z5U0dVbi9lZEJSZ2RvZlkvcktqKzhFa3hTL2lvcHlUQjBvNExUc2J4QXMvenNGOGVRUT09
+- **Status**: analysed
+- title, 
+
+### ZGQxNTg1NWUxMGI1MjI2NkEvMWdiRlVVT0ZZWnpEOFBkakhaQXpXNFFDMk40SmN3WUxFZTZYcm1nZ0pOcUFRdWh0UzdsOU55OEdvOHdEOEpqZlE3YWZvaVZ2cWNkTGNSSjJNYXh5dTdIM2RmQWhZb1FWelVhOThaYnVKbmFQYmt3NVNBRkRTdFN6RndkQ01Femcwb3Nnc21oSEZ6UXhhT3QweXViQT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/ZGQxNTg1NWUxMGI1MjI2NkEvMWdiRlVVT0ZZWnpEOFBkakhaQXpXNFFDMk40SmN3WUxFZTZYcm1nZ0pOcUFRdWh0UzdsOU55OEdvOHdEOEpqZlE3YWZvaVZ2cWNkTGNSSjJNYXh5dTdIM2RmQWhZb1FWelVhOThaYnVKbmFQYmt3NVNBRkRTdFN6RndkQ01Femcwb3Nnc21oSEZ6UXhhT3QweXViQT09
+- **Status**: analysed
+- title, 
+
+### ZTI1NTUwMDRjOWE1NjQ2YzhIeE1aN0NGSktpZU1mT0FRbVZqZ29HK0k1YWpvU2xXZGw5T1ViellXTXBlTjBOM0hNdDRLZ2lXU2M4V1BBazc2MC92WnJBVko0bkhjNVNYRlRIeWJiMXQ1WTllZUdPRFl1VTJ0Wm9nSy9VT09ZRnpFTVNqZml6dzUwbzJsZnl3WkV6NU5jaEVMWG5SOGhFR1hGS1o3UT09.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/ZTI1NTUwMDRjOWE1NjQ2YzhIeE1aN0NGSktpZU1mT0FRbVZqZ29HK0k1YWpvU2xXZGw5T1ViellXTXBlTjBOM0hNdDRLZ2lXU2M4V1BBazc2MC92WnJBVko0bkhjNVNYRlRIeWJiMXQ1WTllZUdPRFl1VTJ0Wm9nSy9VT09ZRnpFTVNqZml6dzUwbzJsZnl3WkV6NU5jaEVMWG5SOGhFR1hGS1o3UT09
+- **Status**: analysed
+- title, 
+
+### ZTQ0OTQ2OTFhZjg4NWZiZkVzeFRFZ3cyVC9aM0NlbHYvbTRMTUR1WW1hbVdPUi9ZQzR1ZnFlNExJRUt3Qk1Cd0g2YWtGSC8yVTk4eFJjeHNnTG9zRHFpRzJsSTRnOUF0YjJ6QktBWGFxcEFqbFBTQUIvSXpsQlNtdXhvUExjQm4xZnBSUG1rcE5jb0Y3amdT.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/ZTQ0OTQ2OTFhZjg4NWZiZkVzeFRFZ3cyVC9aM0NlbHYvbTRMTUR1WW1hbVdPUi9ZQzR1ZnFlNExJRUt3Qk1Cd0g2YWtGSC8yVTk4eFJjeHNnTG9zRHFpRzJsSTRnOUF0YjJ6QktBWGFxcEFqbFBTQUIvSXpsQlNtdXhvUExjQm4xZnBSUG1rcE5jb0Y3amdT
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ZTcyYjU4YjA5M2U2MmM1YjVkdEVEZWFlMnJ0aVFDSjBRdUZLMk56SVNOeU1sY1BwOWdQOHVjOUFXejFlS2pUdDdPNHo3eVpEWHBBQ2JaQUlaY2V6eFhHeUllcko1amJkSFc1Z0xEL2FWdUFzT3Z0dktoY3I0TE5WSDlkNmtPaDdMZWFCUTNwV1FDN2ltajA1.pdf
+
+- **URL**: https://www.marburg.de/downloads/datei/ZTcyYjU4YjA5M2U2MmM1YjVkdEVEZWFlMnJ0aVFDSjBRdUZLMk56SVNOeU1sY1BwOWdQOHVjOUFXejFlS2pUdDdPNHo3eVpEWHBBQ2JaQUlaY2V6eFhHeUllcko1amJkSFc1Z0xEL2FWdUFzT3Z0dktoY3I0TE5WSDlkNmtPaDdMZWFCUTNwV1FDN2ltajA1
+- **Status**: analysed
+- title, tagged, lang, 
+
+### beratung_on_tour_2024.pdf
+
+- **URL**: https://www.marburg.de/medien/dokumente/beratung_on_tour_2024.pdf?20250610080013
+- **Status**: analysed
+- title, 
+
+### einfuehrung_von_kita_gebuehren_und_erhoehung_der_krippen_gebuehren.pdf
+
+- **URL**: https://www.marburg.de/medien/dokumente/einfuehrung_von_kita_gebuehren_und_erhoehung_der_krippen_gebuehren.pdf?20251125103223
+- **Status**: analysed
+- title, tagged, lang, 
+
+### faq_ermaessigungsregelung_eltern.pdf
+
+- **URL**: https://www.marburg.de/medien/dokumente/faq_ermaessigungsregelung_eltern.pdf?20260211112744
+- **Status**: analysed
+- title, 
+
+### faq_ermaessigungsregelung_eltern_einfache_sprache.pdf
+
+- **URL**: https://www.marburg.de/medien/dokumente/faq_ermaessigungsregelung_eltern_einfache_sprache.pdf?20260211112723
+- **Status**: analysed
+- title, 

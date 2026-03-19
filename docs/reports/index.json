@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-19T08:39:39.883221+00:00",
+    "site": "marburg.de",
+    "crawl_url": "https://www.marburg.de",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23286239481",
+    "issue_url": "",
+    "archive_file": "2026-03-19_08-39-39-883_marburg.de.html",
+    "total": 71,
+    "analysed": 71,
+    "accessible": 13
+  },
+  {
     "date": "2026-03-19T04:20:22.045311+00:00",
     "site": "erappa.org",
     "crawl_url": "https://www.erappa.org/",
