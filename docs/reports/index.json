@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-19T12:26:07.505247+00:00",
+    "site": "dot.state.mn.us",
+    "crawl_url": "https://www.dot.state.mn.us/design/design-standards/facility-design-guide.html",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23294309265",
+    "issue_url": "",
+    "archive_file": "2026-03-19_12-26-07-505_dot.state.mn.us.html",
+    "total": 44,
+    "analysed": 43,
+    "accessible": 6
+  },
+  {
     "date": "2026-03-19T08:39:39.883221+00:00",
     "site": "marburg.de",
     "crawl_url": "https://www.marburg.de",

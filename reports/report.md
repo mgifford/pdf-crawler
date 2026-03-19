@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-19T08:39:39.883221+00:00
+Generated: 2026-03-19T12:26:07.505247+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 244 |
-| Total files tracked | 16296 |
-| Analysed | 3934 |
+| URLs crawled | 435 |
+| Total files tracked | 16340 |
+| Analysed | 3977 |
 | Pending analysis | 10937 |
-| Errors during analysis | 1425 |
-| Accessible | 1332 |
-| Totally inaccessible | 62 |
+| Errors during analysis | 1426 |
+| Accessible | 1338 |
+| Totally inaccessible | 63 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 858 |
+| Exempt (pre-2018) | 890 |
 
 ## Files per Site
 
@@ -31,6 +31,7 @@ Generated: 2026-03-19T08:39:39.883221+00:00
 | cms.gov | 460 |
 | ctoec.org | 1742 |
 | dc.gov | 74 |
+| dot.state.mn.us | 44 |
 | ec.europa.eu | 199 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
@@ -3998,6 +3999,49 @@ Generated: 2026-03-19T08:39:39.883221+00:00
 | [faq_ermaessigungsregelung_eltern.pdf](https://www.marburg.de/medien/dokumente/faq_ermaessigungsregelung_eltern.pdf?20260211112744) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 944 | 0 |
 | [faq_ermaessigungsregelung_eltern_einfache_sprache.pdf](https://www.marburg.de/medien/dokumente/faq_ermaessigungsregelung_eltern_einfache_sprache.pdf?20260211112723) | marburg.de | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1179 | 0 |
 | [flyer_sicher_einfach_digital_der_online_ausweis.pdf](https://www.marburg.de/medien/dokumente/flyer_sicher_einfach_digital_der_online_ausweis.pdf?20241129115018) | marburg.de | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 739 | 5 |
+| [2012-workshop.pdf](https://www.dot.state.mn.us/bridge/pdf/lrfdmanual/workshop/2012-workshop.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 514 | 16513 | 1828 |
+| [2017_Status_Procedures.pdf](http://www.dot.state.mn.us/maps/gdma/data/2017_Status_Procedures.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 | 3972 | 2 |
+| [2018_ACPA_Quarterly_CCP_20181107.pdf](http://www.dot.state.mn.us/mnroad/nrra/newsletter/documents/2018_ACPA_Quarterly_CCP_20181107.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 42 | 254 | 255 |
+| [2022-2024%20Affirmative%20Action%20Plan%20-%20FINAL%20(06-12-2023).pdf](http://www.dot.state.mn.us/equity-diversity/documents/2022-2024%20Affirmative%20Action%20Plan%20-%20FINAL%20(06-12-2023).pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 109 | 35368 | 7 |
+| [2111.pdf](https://www.dot.state.mn.us/materials/manuals/laboratory/2111.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 149 | 0 |
+| [MICE2.1_UserGuide-0.pdf](https://www.dot.state.mn.us/environment/airquality/documents/MICE2.1_UserGuide.pdf) | dot.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 | 10241 | 51 |
+| [MICE2.1_UserGuide.pdf](http://www.dot.state.mn.us/environment/airquality/documents/MICE2.1_UserGuide.pdf) | dot.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 | 10241 | 51 |
+| [Manufacturers'%20Perspective%20Pilot%20Study%20Final%20Report%20February%202014.pdf](http://www.dot.state.mn.us/d8/projects/manufacturersperspectives/Manufacturers'%20Perspective%20Pilot%20Study%20Final%20Report%20February%202014.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 56 | 16193 | 25 |
+| [RailBankedCorridors.pdf](http://www.dot.state.mn.us/ofrw/maps/RailBankedCorridors.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 88 | 407 |
+| [aestheticguidelinesforbridgedesign.pdf](http://www.dot.state.mn.us/bridge/pdf/aestheticguidelinesforbridgedesign.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 89 | 35289 | 3046 |
+| [airportlandusecompatabilitymanual.pdf](https://www.dot.state.mn.us/aero/planning/documents/airportlandusecompatabilitymanual/airportlandusecompatabilitymanual.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 202 | 72819 | 71 |
+| [backside_2023_insets.pdf](http://www.dot.state.mn.us/statemap/2023/backside_2023_insets.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 36 | 0 |
+| [cement%20stabilized%20presentation%20.pdf](http://www.dot.state.mn.us/mnroad/nrra/newsletter/documents/cement%20stabilized%20presentation%20.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 51 | 1388 | 586 |
+| [d1reportada.pdf](http://www.dot.state.mn.us/mps/docs/d1reportada.pdf) | dot.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 97 | 25903 | 51 |
+| [d2report.pdf](http://www.dot.state.mn.us/mps/docs/d2report.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 90 | 27516 | 56 |
+| [d4report.pdf](http://www.dot.state.mn.us/mps/docs/d4report.pdf) | dot.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 83 | 22465 | 48 |
+| [d8report.pdf](http://www.dot.state.mn.us/mps/docs/d8report.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 56 | 16193 | 25 |
+| [district-map-with-sub-areas.pdf](http://www.dot.state.mn.us/information/docs/district-map-with-sub-areas.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 101 | 0 |
+| [executivesummary.pdf](http://www.dot.state.mn.us/maintenance/hsop/pdf/executivesummary.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 | 4983 | 19 |
+| [freight-network-guide.pdf](https://www.dot.state.mn.us/ofrw/freight/PDF/freight-network-guide.pdf) | dot.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 940 | 3 |
+| [great-river-road.pdf](https://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/great-river-road.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 168 | 48820 | 120 |
+| [metroarea-2022.pdf](http://www.dot.state.mn.us/maps/gdma/data/maps/metro_area/metroarea-2022.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 3935 | 4 |
+| [mmutcd-presentation.pdf](http://www.dot.state.mn.us/trafficeng/topics/mmutcd-presentation.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 23 | 2899 | 96 |
+| [mndotadatransitionplan-0.pdf](http://www.dot.state.mn.us/ada/pdf/mndotadatransitionplan.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 89 | 24691 | 7 |
+| [mndotadatransitionplan.pdf](https://www.dot.state.mn.us/ada/pdf/mndotadatransitionplan.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 89 | 24691 | 7 |
+| [mndotpavementmarkingfieldguide.pdf](http://www.dot.state.mn.us/trafficeng/pavement/doc-storage/mndotpavementmarkingfieldguide.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 86 | 20341 | 75 |
+| [modelordinance.pdf](https://www.dot.state.mn.us/accessmanagement/docs/pdf/modelordinance.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 16 | 5504 | 3 |
+| [newproductapp.pdf](https://www.dot.state.mn.us/products/roadsafety/pdf/newproductapp.pdf) | dot.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 254 | 1 |
+| [relo-booklet.pdf](https://www.dot.state.mn.us/row/pdfs/relo-booklet.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 52 | 6978 | 16 |
+| [report.pdf](http://www.dot.state.mn.us/maintenance/hsop/pdf/report.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 196 | 59258 | 206 |
+| [section-12.pdf](https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/section-12.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 759 | 0 |
+| [section-17.pdf](https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/section-17.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 889 | 0 |
+| [section-6.pdf](https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/section-6.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 288 | 0 |
+| [sm-instructions-0.pdf](https://www.dot.state.mn.us/surveying/pdf/sm-instructions.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 152 | 2 |
+| [sm-instructions.pdf](http://www.dot.state.mn.us/surveying/pdf/sm-instructions.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 152 | 2 |
+| [sm-manual-2000.pdf](https://www.dot.state.mn.us/surveying/pdf/sm-manual-2000.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 326 | 98195 | 500 |
+| [sm-manual-2007.pdf](https://www.dot.state.mn.us/surveying/pdf/sm-manual-2007.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 395 | 119605 | 65 |
+| [stsheetsdesignb.pdf](http://www.dot.state.mn.us/trafficeng/signing/plansheets/stsheetsdesignb.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 | 0 | 13 |
+| [surfacemountspecs.pdf](https://www.dot.state.mn.us/products/signing/pdf/surfacemountspecs.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 240 | 0 |
+| [template_for_record_keeping_feb17.pdf](https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/template_for_record_keeping_feb17.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 46 | 0 |
+| [trucksizeweightreport.pdf](http://www.dot.state.mn.us/information/truckstudy/pdf/trucksizeweightreport.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 190 | 53720 | 954 |
+| [wood-lake.pdf](http://www.dot.state.mn.us/maps/gdma/data/maps/township/yellowmedicine/wood-lake.pdf) | dot.state.mn.us | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 760 | 104 |
+| [work-plan.pdf](http://www.dot.state.mn.us/environment/pdf/work-plan.pdf) | dot.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 31 | 7125 | 1 |
 
 ## Files with Errors or Notes
 
@@ -28172,5 +28216,233 @@ Generated: 2026-03-19T08:39:39.883221+00:00
 ### faq_ermaessigungsregelung_eltern_einfache_sprache.pdf
 
 - **URL**: https://www.marburg.de/medien/dokumente/faq_ermaessigungsregelung_eltern_einfache_sprache.pdf?20260211112723
+- **Status**: analysed
+- title, 
+
+### 2012-workshop.pdf
+
+- **URL**: https://www.dot.state.mn.us/bridge/pdf/lrfdmanual/workshop/2012-workshop.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2017_Status_Procedures.pdf
+
+- **URL**: http://www.dot.state.mn.us/maps/gdma/data/2017_Status_Procedures.pdf
+- **Status**: analysed
+- title, 
+
+### 2018_ACPA_Quarterly_CCP_20181107.pdf
+
+- **URL**: http://www.dot.state.mn.us/mnroad/nrra/newsletter/documents/2018_ACPA_Quarterly_CCP_20181107.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### 2022-2024%20Affirmative%20Action%20Plan%20-%20FINAL%20(06-12-2023).pdf
+
+- **URL**: http://www.dot.state.mn.us/equity-diversity/documents/2022-2024%20Affirmative%20Action%20Plan%20-%20FINAL%20(06-12-2023).pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### 2111.pdf
+
+- **URL**: https://www.dot.state.mn.us/materials/manuals/laboratory/2111.pdf
+- **Status**: analysed
+- title, 
+
+### Manufacturers'%20Perspective%20Pilot%20Study%20Final%20Report%20February%202014.pdf
+
+- **URL**: http://www.dot.state.mn.us/d8/projects/manufacturersperspectives/Manufacturers'%20Perspective%20Pilot%20Study%20Final%20Report%20February%202014.pdf
+- **Status**: analysed
+- title, lang, 
+
+### RailBankedCorridors.pdf
+
+- **URL**: http://www.dot.state.mn.us/ofrw/maps/RailBankedCorridors.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### aestheticguidelinesforbridgedesign.pdf
+
+- **URL**: http://www.dot.state.mn.us/bridge/pdf/aestheticguidelinesforbridgedesign.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### airportlandusecompatabilitymanual.pdf
+
+- **URL**: https://www.dot.state.mn.us/aero/planning/documents/airportlandusecompatabilitymanual/airportlandusecompatabilitymanual.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### backside_2023_insets.pdf
+
+- **URL**: http://www.dot.state.mn.us/statemap/2023/backside_2023_insets.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cement%20stabilized%20presentation%20.pdf
+
+- **URL**: http://www.dot.state.mn.us/mnroad/nrra/newsletter/documents/cement%20stabilized%20presentation%20.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### d2report.pdf
+
+- **URL**: http://www.dot.state.mn.us/mps/docs/d2report.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### d8report.pdf
+
+- **URL**: http://www.dot.state.mn.us/mps/docs/d8report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### district-map-with-sub-areas.pdf
+
+- **URL**: http://www.dot.state.mn.us/information/docs/district-map-with-sub-areas.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### executivesummary.pdf
+
+- **URL**: http://www.dot.state.mn.us/maintenance/hsop/pdf/executivesummary.pdf
+- **Status**: analysed
+- title, lang, 
+
+### great-river-road.pdf
+
+- **URL**: https://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/great-river-road.pdf
+- **Status**: analysed
+- title, lang, 
+
+### metroarea-2022.pdf
+
+- **URL**: http://www.dot.state.mn.us/maps/gdma/data/maps/metro_area/metroarea-2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### mmutcd-presentation.pdf
+
+- **URL**: http://www.dot.state.mn.us/trafficeng/topics/mmutcd-presentation.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### mndotadatransitionplan-0.pdf
+
+- **URL**: http://www.dot.state.mn.us/ada/pdf/mndotadatransitionplan.pdf
+- **Status**: analysed
+- title, lang, 
+
+### mndotadatransitionplan.pdf
+
+- **URL**: https://www.dot.state.mn.us/ada/pdf/mndotadatransitionplan.pdf
+- **Status**: analysed
+- title, lang, 
+
+### mndotpavementmarkingfieldguide.pdf
+
+- **URL**: http://www.dot.state.mn.us/trafficeng/pavement/doc-storage/mndotpavementmarkingfieldguide.pdf
+- **Status**: analysed
+- title, lang, 
+
+### modelordinance.pdf
+
+- **URL**: https://www.dot.state.mn.us/accessmanagement/docs/pdf/modelordinance.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### relo-booklet.pdf
+
+- **URL**: https://www.dot.state.mn.us/row/pdfs/relo-booklet.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### report.pdf
+
+- **URL**: http://www.dot.state.mn.us/maintenance/hsop/pdf/report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### section-12.pdf
+
+- **URL**: https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/section-12.pdf
+- **Status**: analysed
+- title, 
+
+### section-17.pdf
+
+- **URL**: https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/section-17.pdf
+- **Status**: analysed
+- title, lang, 
+
+### section-6.pdf
+
+- **URL**: https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/section-6.pdf
+- **Status**: analysed
+- title, 
+
+### sm-instructions-0.pdf
+
+- **URL**: https://www.dot.state.mn.us/surveying/pdf/sm-instructions.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### sm-instructions.pdf
+
+- **URL**: http://www.dot.state.mn.us/surveying/pdf/sm-instructions.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### sm-manual-2000.pdf
+
+- **URL**: https://www.dot.state.mn.us/surveying/pdf/sm-manual-2000.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### sm-manual-2007.pdf
+
+- **URL**: https://www.dot.state.mn.us/surveying/pdf/sm-manual-2007.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### statebikemap.pdf
+
+- **URL**: http://www.dot.state.mn.us/maps/gdma/data/maps/bicycle/state/statebikemap.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### stsheetsdesignb.pdf
+
+- **URL**: http://www.dot.state.mn.us/trafficeng/signing/plansheets/stsheetsdesignb.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### surfacemountspecs.pdf
+
+- **URL**: https://www.dot.state.mn.us/products/signing/pdf/surfacemountspecs.pdf
+- **Status**: analysed
+- title, 
+
+### template_for_record_keeping_feb17.pdf
+
+- **URL**: https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/template_for_record_keeping_feb17.pdf
+- **Status**: analysed
+- title, 
+
+### trucksizeweightreport.pdf
+
+- **URL**: http://www.dot.state.mn.us/information/truckstudy/pdf/trucksizeweightreport.pdf
+- **Status**: analysed
+- title, lang, 
+
+### wood-lake.pdf
+
+- **URL**: http://www.dot.state.mn.us/maps/gdma/data/maps/township/yellowmedicine/wood-lake.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### work-plan.pdf
+
+- **URL**: http://www.dot.state.mn.us/environment/pdf/work-plan.pdf
 - **Status**: analysed
 - title, 
