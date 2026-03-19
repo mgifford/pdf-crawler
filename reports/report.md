@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-18T17:08:59.691479+00:00
+Generated: 2026-03-19T04:20:22.045311+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 158 |
-| Total files tracked | 15833 |
-| Analysed | 3846 |
-| Pending analysis | 10562 |
+| URLs crawled | 87 |
+| Total files tracked | 16225 |
+| Analysed | 3863 |
+| Pending analysis | 10937 |
 | Errors during analysis | 1425 |
-| Accessible | 1315 |
-| Totally inaccessible | 55 |
+| Accessible | 1319 |
+| Totally inaccessible | 56 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 841 |
+| Exempt (pre-2018) | 842 |
 
 ## Files per Site
 
@@ -35,6 +35,7 @@ Generated: 2026-03-18T17:08:59.691479+00:00
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
 | energy.gov | 417 |
+| erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gsa.gov | 450 |
 | hamilton.ca | 262 |
@@ -42,6 +43,7 @@ Generated: 2026-03-18T17:08:59.691479+00:00
 | ijcaonline.org | 1 |
 | lasv.brandenburg.de | 260 |
 | mn.gov | 1397 |
+| nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
 | nsf.gov | 1426 |
 | ontario.ca | 51 |
@@ -3907,6 +3909,23 @@ Generated: 2026-03-18T17:08:59.691479+00:00
 | [wq-wwtp2-43.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-43.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1199 | 1 |
 | [wq-wwtp2-46a.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-46a.pdf) | pca.state.mn.us | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 3871 | 1 |
 | [wq-wwtp2-50.pdf](https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-50.pdf) | pca.state.mn.us | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1127 | 1 |
+| [APPA-P2P-Program-7.28.2022.pdf](https://www.erappa.org/wp-content/uploads/2022/10/APPA-P2P-Program-7.28.2022.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 762 | 2 |
+| [ERAPPA-Annual-Report-2024-2025.pdf](https://www.erappa.org/wp-content/uploads/2025/09/ERAPPA-Annual-Report-2024-2025.pdf) | erappa.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 69 | 20176 | 53 |
+| [ERAPPA-Annual-Report-to-Membership-for-2016-2017-FINAL.pdf](https://www.erappa.org/wp-content/uploads/2021/09/ERAPPA-Annual-Report-to-Membership-for-2016-2017-FINAL.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 58 | 17057 | 53 |
+| [ERAPPA-Annual-Report-to-Membership-for-2017-2018-FINAL.pdf](https://www.erappa.org/wp-content/uploads/2021/09/ERAPPA-Annual-Report-to-Membership-for-2017-2018-FINAL.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 60 | 18124 | 54 |
+| [ERAPPA-Annual-Report-to-Membership-for-2018-2019-FINAL-ERAPPA-Website.pdf](https://www.erappa.org/wp-content/uploads/2021/09/ERAPPA-Annual-Report-to-Membership-for-2018-2019-FINAL-ERAPPA-Website.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 63 | 18945 | 56 |
+| [ERAPPA-Annual-Report-to-Membership-for-2019-2021.pdf](https://www.erappa.org/wp-content/uploads/2021/09/ERAPPA-Annual-Report-to-Membership-for-2019-2021.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 51 | 14386 | 46 |
+| [ERAPPA-Annual-Report-to-Membership-for-2021-2022.pdf](https://www.erappa.org/wp-content/uploads/2022/09/ERAPPA-Annual-Report-to-Membership-for-2021-2022.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 55 | 15705 | 54 |
+| [ERAPPA-Annual-Report-to-Membership-for-2022-2023-FINAL.pdf](https://www.erappa.org/wp-content/uploads/2023/09/ERAPPA-Annual-Report-to-Membership-for-2022-2023-FINAL.pdf) | erappa.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 56 | 15993 | 50 |
+| [ERAPPA-Annual-Report-to-Membership-for-2023-2024-FINAL.pdf](https://www.erappa.org/wp-content/uploads/2024/10/ERAPPA-Annual-Report-to-Membership-for-2023-2024-FINAL.pdf) | erappa.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 66 | 18713 | 56 |
+| [ERAPPA-BOD-22-23.pdf](https://www.erappa.org/wp-content/uploads/2024/08/ERAPPA-BOD-22-23.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 52 | 2 |
+| [ERAPPA-BOD-23-24.pdf](https://www.erappa.org/wp-content/uploads/2024/08/ERAPPA-BOD-23-24.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 57 | 2 |
+| [ERAPPA-Bylaws-Approved-by-Membership-September-2025-final-copy.pdf](https://www.erappa.org/wp-content/uploads/2026/01/ERAPPA-Bylaws-Approved-by-Membership-September-2025-final-copy.pdf) | erappa.org | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 22 | 6452 | 1 |
+| [ERAPPA-Travel-Policy.pdf](https://www.erappa.org/wp-content/uploads/2024/02/ERAPPA-Travel-Policy.pdf) | erappa.org | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 589 | 1 |
+| [erappa2024.pdf](https://www.erappa.org/wp-content/uploads/2024/08/erappa2024.pdf) | erappa.org | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 5 |
+| [erappaexpenseform2025-1.pdf](https://www.erappa.org/wp-content/uploads/2025/10/erappaexpenseform2025-1.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 139 | 1 |
+| [erappapieform-0.pdf](https://www.erappa.org/wp-content/uploads/2022/04/erappapieform.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 114 | 1 |
+| [erappapieform.pdf](https://www.erappa.org/wp-content/uploads/2019/11/erappapieform.pdf) | erappa.org | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 114 | 1 |
 
 ## Files with Errors or Notes
 
@@ -27657,3 +27676,81 @@ Generated: 2026-03-18T17:08:59.691479+00:00
 - **URL**: https://www.pca.state.mn.us/sites/default/files/wq-wwtp2-46a.pdf
 - **Status**: analysed
 - title, 
+
+### APPA-P2P-Program-7.28.2022.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2022/10/APPA-P2P-Program-7.28.2022.pdf
+- **Status**: analysed
+- title, 
+
+### ERAPPA-Annual-Report-to-Membership-for-2016-2017-FINAL.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2021/09/ERAPPA-Annual-Report-to-Membership-for-2016-2017-FINAL.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### ERAPPA-Annual-Report-to-Membership-for-2017-2018-FINAL.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2021/09/ERAPPA-Annual-Report-to-Membership-for-2017-2018-FINAL.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### ERAPPA-Annual-Report-to-Membership-for-2018-2019-FINAL-ERAPPA-Website.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2021/09/ERAPPA-Annual-Report-to-Membership-for-2018-2019-FINAL-ERAPPA-Website.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### ERAPPA-Annual-Report-to-Membership-for-2019-2021.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2021/09/ERAPPA-Annual-Report-to-Membership-for-2019-2021.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### ERAPPA-Annual-Report-to-Membership-for-2021-2022.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2022/09/ERAPPA-Annual-Report-to-Membership-for-2021-2022.pdf
+- **Status**: analysed
+- title, 
+
+### ERAPPA-BOD-22-23.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2024/08/ERAPPA-BOD-22-23.pdf
+- **Status**: analysed
+- title, 
+
+### ERAPPA-BOD-23-24.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2024/08/ERAPPA-BOD-23-24.pdf
+- **Status**: analysed
+- title, 
+
+### ERAPPA-Travel-Policy.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2024/02/ERAPPA-Travel-Policy.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### erappa2024.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2024/08/erappa2024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### erappaexpenseform2025-1.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2025/10/erappaexpenseform2025-1.pdf
+- **Status**: analysed
+- title, 
+
+### erappapieform-0.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2022/04/erappapieform.pdf
+- **Status**: analysed
+- title, lang, 
+
+### erappapieform.pdf
+
+- **URL**: https://www.erappa.org/wp-content/uploads/2019/11/erappapieform.pdf
+- **Status**: analysed
+- title, lang, 
