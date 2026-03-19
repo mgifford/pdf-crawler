@@ -176,6 +176,9 @@ Before opening a PR, confirm:
 - [ ] Sustainability impact noted: `improves / neutral / regresses`
 - [ ] No new unjustified third-party dependencies
 - [ ] AI assistance disclosed if used
+- [ ] If AI assistance was used, the **`README.md` § AI Disclosure** table has
+      been updated to reflect any new LLM or tool involved (model name,
+      provider, and purpose)
 
 ---
 

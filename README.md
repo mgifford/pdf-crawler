@@ -218,6 +218,42 @@ pdf-crawler/
 
 ---
 
+## AI Disclosure
+
+This section documents all AI tools used in this project.  Transparency about
+AI involvement is a core commitment — see [SUSTAINABILITY.md](./SUSTAINABILITY.md)
+for the full AI usage policy.
+
+### Building the project
+
+The following LLMs were used during development and are the only AI tools known
+to have been applied to this repository:
+
+| LLM / tool | Provider | Used for |
+|------------|----------|----------|
+| GitHub Copilot (GPT-4-class) | GitHub / OpenAI | Code suggestions, CI workflow improvements, PR support |
+| GPT-4-class models via Copilot Chat | GitHub / OpenAI | Content drafting, structural editing, documentation |
+| Claude (Anthropic) | Anthropic via GitHub Copilot Coding Agent | Automated issue resolution and code changes via the GitHub Copilot coding agent |
+
+Each use involved human review and editing before the output was merged.
+
+### Runtime AI usage
+
+**No AI runs automatically at runtime.**  When a crawl or analysis job executes,
+all processing is performed by deterministic Python scripts
+(`pdf_spider.py`, `pdf_analyser.py`, `generate_report.py`).  No LLM is called
+during a scan.
+
+### Browser-based AI
+
+**No browser-based AI is enabled.**  The `docs/index.html` submission form is
+a static HTML page with no runtime AI features.  Browser built-in AI APIs (if
+supported by the visitor's browser) are not activated by this page.  Any future
+use of browser AI would require explicit user opt-in per the AI usage policy in
+[SUSTAINABILITY.md](./SUSTAINABILITY.md).
+
+---
+
 ## Credits
 
 - Accessibility checks are based on
