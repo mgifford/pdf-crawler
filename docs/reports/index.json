@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-19T13:49:35.704340+00:00",
+    "site": "appa.org",
+    "crawl_url": "https://www.appa.org/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23298073773",
+    "issue_url": "",
+    "archive_file": "2026-03-19_13-49-35-704_appa.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-19T12:26:07.505247+00:00",
     "site": "dot.state.mn.us",
     "crawl_url": "https://www.dot.state.mn.us/design/design-standards/facility-design-guide.html",
