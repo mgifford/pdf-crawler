@@ -229,4 +229,4 @@ pdf-crawler/
 
 ## Licence
 
-MIT
+Building on simplA11yPDFCrawler, this is released under the MIT.
