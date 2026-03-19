@@ -1008,17 +1008,18 @@ _REPORTS_INDEX_TEMPLATE = """\
       }}
 
       function deduplicateReports(reports) {{
-        // Keep only the latest entry per (site, issue-number) pair.
+        // Keep only the latest entry per issue.
         // index.json is sorted newest-first so the first occurrence is the
-        // most-recent scan.  Entries with no issue_url are grouped by site
-        // alone; entries tied to different issues on the same site each get
-        // their own row.
+        // most-recent scan.  When an issue_url is present the issue number is
+        // used as the key so that all re-runs of the same issue collapse to
+        // one row regardless of any site-name differences between runs.
+        // Entries with no issue_url (manual runs) are grouped by site alone.
         var seen = {{}};
         var result = [];
         reports.forEach(function (r) {{
           var m = r.issue_url ? r.issue_url.match(/\\/issues\\/(\\d+)/) : null;
           var issueKey = m ? m[1] : '';
-          var key = (r.site || '') + '\x00' + issueKey;
+          var key = issueKey || (r.site || '');
           if (!seen[key]) {{
             seen[key] = true;
             result.push(r);

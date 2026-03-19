@@ -1,6 +1,7 @@
 """Tests for scripts/generate_report.py"""
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -346,6 +347,21 @@ def test_generate_reports_index_html_has_deduplicate_function():
     assert "deduplicateReports" in html
     # Dedup must be applied after loading the JSON data
     assert "deduplicateReports(allReports)" in html
+
+
+def test_generate_reports_index_html_dedup_by_issue_number():
+    """deduplicateReports must use issue number as the key, not site+issue.
+
+    Re-runs of the same issue (even with a different site name) must collapse
+    to a single row showing only the latest scan.
+    """
+    html = generate_reports_index_html([])
+    # The old composite key used site + null-byte + issue number.
+    # The new logic must use issue number alone (falling back to site).
+    assert "\\x00" not in html, "dedup key must not concatenate site and issue number"
+    assert re.search(r"issueKey\s*\|\|\s*\(r\.site", html), (
+        "dedup key must be issueKey alone (falling back to site for manual runs)"
+    )
 
 
 def test_generate_reports_index_html_issue_number_in_link():
