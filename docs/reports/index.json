@@ -4,7 +4,7 @@
     "site": "dot.state.mn.us",
     "crawl_url": "https://www.dot.state.mn.us/design/design-standards/facility-design-guide.html",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23294309265",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/122#issuecomment-4089780561",
     "archive_file": "2026-03-19_12-26-07-505_dot.state.mn.us.html",
     "total": 44,
     "analysed": 43,
