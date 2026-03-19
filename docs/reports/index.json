@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-19T18:16:40.553773+00:00",
+    "site": "nsf.gov",
+    "crawl_url": "https://www.nsf.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23308541638",
+    "issue_url": "",
+    "archive_file": "2026-03-19_18-16-40-553_nsf.gov.html",
+    "total": 1426,
+    "analysed": 250,
+    "accessible": 209
+  },
+  {
     "date": "2026-03-19T13:49:35.704340+00:00",
     "site": "appa.org",
     "crawl_url": "https://www.appa.org/",

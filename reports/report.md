@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-19T13:49:35.704340+00:00
+Generated: 2026-03-19T18:16:40.553773+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 452 |
+| URLs crawled | 481 |
 | Total files tracked | 16340 |
 | Analysed | 3977 |
-| Pending analysis | 10937 |
-| Errors during analysis | 1426 |
+| Pending analysis | 10689 |
+| Errors during analysis | 1674 |
 | Accessible | 1338 |
 | Totally inaccessible | 63 |
 | Broken / unreadable | 3 |
@@ -13675,6 +13675,12 @@ Generated: 2026-03-19T13:49:35.704340+00:00
 - **Status**: error
 - File not found: crawled_files/nsf.gov/grantsgovguide607.pdf?VersionId=DoqBPFn6OVhp6ApOGBjmjWjgH3uNJ5ub (crawled 1 day(s) ago at 2026-03-10T01:18:25.297008+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
+### indirect-cost-proposals
+
+- **URL**: https://www.nsf.gov/awards/indirect-cost-proposals
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.263464+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### indirect-cost-rate-adjustments.pdf
 
 - **URL**: https://seedfund.nsf.gov/assets/files/applicants/indirect-cost-rate-adjustments.pdf
@@ -26688,6 +26694,1488 @@ Generated: 2026-03-19T13:49:35.704340+00:00
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/york%20nhios%20town%20hall%20flyer.pdf
 - **Status**: error
 - File not found: crawled_files/pa.gov/york%20nhios%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.978353+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 1995-1996-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/1995-1996-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.679600+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1997-1998-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/1997-1998-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.682443+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1999-2000-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/1999-2000-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.686674+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2001-2002-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2001-2002-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.695709+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2003-2004-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2003-2004-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.699081+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2005-2006-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2005-2006-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.703796+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2007-2008-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2007-2008-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.705505+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2009-2010-ceose-biennial-report-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2009-2010-ceose-biennial-report-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.709637+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2011-2012-ceose-biennial-report-508_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2011-2012-ceose-biennial-report-508_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.714167+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2013-2014-ceose-biennial-report-508_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2013-2014-ceose-biennial-report-508_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.718035+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-2018-ceose-biennial-report-508_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2017-2018-ceose-biennial-report-508_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.733489+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2019-2020-ceose-biennial-report-508_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2019-2020-ceose-biennial-report-508_1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.745202+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023.04.18-Panchanathan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.18-Panchanathan.pdf?VersionId=bqXPI_W_7KKX_BA719VbZqMsQJudWoqZ
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.746684+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023.04.19-Panchanathan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.19-Panchanathan.pdf?VersionId=tJDqtAg7mbtbVNSIM1H8RHM4hRFEH7Sc
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.748145+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023.04.26-Panchanathan.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.26-Panchanathan.pdf?VersionId=eBnztrtMSd9TTsdAR2tNR6kiJpL2GE1j
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.749609+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-indicators-rollout-slides.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/2024-indicators-rollout-slides.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.761933+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ACMS_Critical_Dates_Webinar_Aug_2025.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/ACMS_Critical_Dates_Webinar_Aug_2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.766615+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ACSSPresentation.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/306457/public/ACSSPresentation.pdf?VersionId=0r6CL.tAIf0jUYZbSLC87JfiMMQhn0ml
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.770617+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### AI_Research_Institutes_Map_2023.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-05/AI_Research_Institutes_Map_2023.pdf?VersionId=GtBfiPXUI3e_RePJ6Ub2y5UVfhPdKKct
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.784865+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CEOSE-Biennial-Report-Handout.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/CEOSE-Biennial-Report-Handout.pdf?VersionId=P.J_bZbEEjMjHOUIYObeWUGwQtHARkGz
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.796556+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CEOSE-Report-2023_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/CEOSE-Report-2023_1.pdf?VersionId=EpkpUgJGSR0U5WuA6ZpILyALmytjW5Cx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.813180+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CEOSE_STEM-Talent_of_Rural_America_Report.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/CEOSE_STEM-Talent_of_Rural_America_Report.pdf?VersionId=Jr.NV_HxMT0eVnFm12wZA5EPZ0DgxAXJ
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.827323+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CreditGatewayFAQs.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/CreditGatewayFAQs.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.831004+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CreditGatewayOverviewPresentation.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/CreditGatewayOverviewPresentation.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.834447+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DFM-PABGrantFAQ-0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.837569+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DFM-PABGrantFAQ-r_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ-r_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.842358+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DFM-PABGrantFAQ.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ.pdf?VersionId=zLyGdO2m4vigGuM4vn0GOvih5TY_N3fm
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.845484+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DFM_PABNonGrantFAQ.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/DFM_PABNonGrantFAQ.pdf?VersionId=vFBJGErNh3pu9cRDue8DelRuOG.a.ACl
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.847403+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.849276+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Dr-Jennifer-Mercer-Testimony.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Jennifer-Mercer-Testimony.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.852848+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Dr-Saul-Gonzalez-Testimony.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Saul-Gonzalez-Testimony.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.854273+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FOIA-2025-Q3.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q3.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.861855+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FOIA-2025-Q4.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q4.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.863116+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FOIA-NSF-2025-Q2.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-NSF-2025-Q2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.864377+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Factsheet_MajorMultiuserFacilities.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_MajorMultiuserFacilities.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.876072+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Factsheet_NSFAtAGlance.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_NSFAtAGlance.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.880292+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Future-of-NSF-EPSCoR-Report-Handout-508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Future-of-NSF-EPSCoR-Report-Handout-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.889380+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### HSST%20NSF%20Research%20Security.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST%20NSF%20Research%20Security.pdf?VersionId=24Tt_EGAGCWnTKBS4M3B5WAP4dn4fgpM
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.891424+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### HSST-NSF-AI.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST-NSF-AI.pdf?VersionId=gFmwAXBtlyi2h6ZBEEDCOsVodVDheSB2
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.892800+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### House-Oversight-Telework-Hearing-Testimony-NSF.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/House-Oversight-Telework-Hearing-Testimony-NSF.pdf?VersionId=L_RzMRWzqB_SyxHnoSS9iEhQxDwtFZ40
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.894623+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Indicators-ALABAMA.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Indicators-ALABAMA.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.898009+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Meeting_Sign_In_508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Meeting_Sign_In_508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.939315+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NAIRR_Pilot%28508%29.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/309062/public/NAIRR_Pilot%28508%29.pdf?VersionId=pA7blNbi.CwpTnLg8jM1dgTmw7G9VP0Y
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.974452+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF%20FY25%20Written%20Testimony-CLEARED.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-CLEARED.pdf?VersionId=WVkvVmvimYP8r80b4cfoXtua57DIi6LC
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.988801+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf?VersionId=IOXy7dVBqD_IE8SIX_JXyRZUvoZZ99TC
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.990164+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf?VersionId=WeGurDj3zPXT_MXAinMIMaJGyt1SWx3X
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.992212+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF-22-586-CAREER-Program-2025-Webinars.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-22-586-CAREER-Program-2025-Webinars.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.997045+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF-FOIA-Raw-Data-FY2021-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-FOIA-Raw-Data-FY2021-r.pdf?VersionId=L_SFeppi9o1YWWbSqhLhnbYVC5T8RBLi
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.999067+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF_Chief_FOIA_Officers_Report_2026.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF_Chief_FOIA_Officers_Report_2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.036711+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NSF_New%20Proposer_Proposal%20Submission%20Supplementary%20Guidance_NOTOC_20240320.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF_New%20Proposer_Proposal%20Submission%20Supplementary%20Guidance_NOTOC_20240320.pdf?VersionId=7wooBeOw5ndl1hvLve5Yq2k9WqkvU08N
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.041898+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### PES_Quickstart_Guide_External.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/PES_Quickstart_Guide_External.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.060767+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### PIA-eJacket.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/PIA-eJacket.pdf?VersionId=Cokz.QEQDI7GcPZRGdK44LSqJtxhcdGU
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.065262+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### PIA_FastLane.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/PIA_FastLane.pdf?VersionId=idqcoI0D2PvIuTmdpDKq5hXrmoGCfULc
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.067150+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Quarterly%20Report%20FY24%20Q4.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Quarterly%20Report%20FY24%20Q4.pdf?VersionId=Sa9Hz17ol7QzxhVl109_IeyIv9RKKq.x
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.068640+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Quarterly-Report-FY25-First-Quarter.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Quarterly-Report-FY25-First-Quarter.pdf?VersionId=ukejAgJ8ilF0eydtSBsnc9cccsnlNRi0
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.070061+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### RoS%20Map%20Builder%20Guide%20%202022_508c.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2022-10/RoS%20Map%20Builder%20Guide%20%202022_508c.pdf?VersionId=BsjCVcSdsXa7fteM1u2CRQ.tdKj7qO7n
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.081515+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### RoughTranscript-ACSS.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/attachments/306457/public/RoughTranscript-ACSS.pdf?VersionId=cAc7585UCNsumrRGONDlYqvhClYFpWiB
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.082886+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Test_Your_Connection.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Test_Your_Connection.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.158187+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Travel_and_Reimbursement_508.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Travel_and_Reimbursement_508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.161101+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Webinar_FAQ.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Webinar_FAQ.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.167306+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Which_Platform_Is_My_Meeting_On.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/Which_Platform_Is_My_Meeting_On.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.168760+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### dr-rebecca-keiser-testimony.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/dr-rebecca-keiser-testimony.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.238788+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2009.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2009.pdf?VersionId=hA3_.8iId4NhmEPfOWWZpDbuZBEgjvmf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.240589+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2010.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2010.pdf?VersionId=uEuG1B33r0OayT29KCqyzFmKbvxGQpO5
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.242123+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2011.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2011.pdf?VersionId=D4I7_kBXWlAeJ39MZQLOz_nynQJFb0Ap
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.244608+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2012.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2012.pdf?VersionId=nAjYDYikxuW_J52AY714iMtU9N_zU4Jh
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.247034+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2013.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2013.pdf?VersionId=82e0dP831Bdb7Hqy_95_wZN3PHeo5Dk5
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.249320+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2014.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2014.pdf?VersionId=_INPOLoHq1zU2jnpzldkGIQtstJP9o.u
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.251673+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2015.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2015.pdf?VersionId=K8ALMpdOOPcBVT4r2uLY4tRxOVZkHMHL
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.253829+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2016.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2016.pdf?VersionId=kx.1yIleG0euNLXT5zL8KAiV.BsagLjh
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.256424+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2017.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2017.pdf?VersionId=wriIniXRE9KR2gQWJATwkKB_QXFOCIhB
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.257897+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2018_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2018_0.pdf?VersionId=xVUCJAxSxVyklmZAX82Xv7PwjWY6CvOi
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.259360+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### foia-log-2019-r_0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2019-r_0.pdf?VersionId=wZtMKRHXNdYAX15QlbhHU6a4GcsyYYq.
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.260963+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hon-panchanathan-10-2023.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/2023-11/hon-panchanathan-10-2023.pdf?VersionId=ptY9eFD4CMGWZktorTwJfGYweiqXf3S7
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.262860+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### jan2024-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/jan2024-r.pdf?VersionId=LNjd7itUwfpwC4dhi2aimgvn6rQFrRNX
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.265435+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsb20224-sidebar-rapid-innovation-and-the-development-of-the-covid-19-vaccine.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsb20224/assets/innovation-indicators-introducing-new-products-and-processes/sidebars/nsb20224-sidebar-rapid-innovation-and-the-development-of-the-covid-19-vaccine.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.372515+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf07140.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/papp/nsf07140.pdf?VersionId=ddwKcmnqUWXj.xTOWwWVhYAna7VVzY9N
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.392362+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf081.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf08_1/nsf081.pdf?VersionId=KpYZICO14gLu8207Dsfx3rAKOGerp6tw
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.428062+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf091.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf09_1/nsf091.pdf?VersionId=l5OyUfQYeXb_UpwL_va78ji.SC23TgCt
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.431865+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf0929.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf09_29/nsf0929.pdf?VersionId=VysUbJgDJkRvVQT4qCs..VwsYvhpEMkS
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.435620+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf10_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf10_1/nsf10_1.pdf?VersionId=kMgdWYCNV1wR2BUXyoOzaARuUsUhSCvY
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.439801+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf11_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf11001/nsf11_1.pdf?VersionId=0S0Wm2wBeTXyfubDcxCxEn6XYZP3NoH2
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.444504+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf13_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf13001/nsf13_1.pdf?VersionId=UWidLylx60P7JmIowjh_9Buf3pMXPcb2
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.464337+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf14_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf14001/nsf14_1.pdf?VersionId=xGW1hkzcZPDzMOPdDJ0z21I_MjEkhOul
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.488999+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf15_1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf15001/nsf15_1.pdf?VersionId=SzEYaiqKsqoPmLnHYzXgdf5ydyhZc5Fa
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.508291+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf17559.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2017/nsf17559/nsf17559.pdf?VersionId=cvhpwVa3.OxCtOLELdnbsF6WVN2TsmSZ
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.523710+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf17575.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2017/nsf17575/nsf17575.pdf?VersionId=Nzh2A_XsmVe_uP5YauAVFLKdtKlWYP.3
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.525998+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf18515.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2018/nsf18515/nsf18515.pdf?VersionId=_2kjnKU7N0ELoZAcoxRpvl0zFbKUVNEC
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.538787+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2021q4.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2021q4.pdf?VersionId=e6eY88BQ_AK2u8LcyhVBn8TqDl_FpLJ5
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.553806+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2022q1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2022q1.pdf?VersionId=JqLkrY5pKlm9HYA7dWwfAYRUR6i6J_dn
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.555359+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2022q2.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2022q2.pdf?VersionId=emoBBT5SrcCeJzyZzSvnk7BYKUKVkux.
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.556693+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2022q3.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2022q3.pdf?VersionId=n72uV4DS1jC_lanMKeaSidKDs8vII7BC
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.558006+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2022q4.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2022q4.pdf?VersionId=FG67UFGyIBitfk.YJII7rZtJJ50T3XfR
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.559312+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2023q1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2023q1.pdf?VersionId=4oef3paE0uld94F6vts42stgZRC_xDCK
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.560620+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2023q2.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2023q2.pdf?VersionId=0paDz06gbnWxpobcwGUjHSgO3kjlCnct
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.562022+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2023q3.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2023q3.pdf?VersionId=0fFtyLAzP.7AO1eeUjOQqHHzy69erDHn
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.563409+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2023q4.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2023q4.pdf?VersionId=LWkpdfcnIm3abWnds.R_oqvL17r0iMOn
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.564903+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2024q1.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2024q1.pdf?VersionId=hTpMdeZZJmdbg.Z_J9i4ZLzrN4.WaMuv
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.566268+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2024q2.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2024q2.pdf?VersionId=nmP7.IANIPXwGDVLDsCGyal5nKCZSKsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.567644+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf2024q3.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf2024q3.pdf?VersionId=qwR0AbfMaKcByoy5XqxrGmnoBKxDY1xQ
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.569084+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf20525.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2020/nsf20525/nsf20525.pdf?VersionId=xGIqh88RdKOoTq5B_FNyVm..0Xp_djX3
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.571471+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf20555.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2020/nsf20555/nsf20555.pdf?VersionId=hEjNGx3maciQ2U6z8TxJn3xVue5gilok
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.573838+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf20584.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2020/nsf20584/nsf20584.pdf?VersionId=6El82E2kwxnKFQcokIOn_obkpBgc0A6_
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.576276+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf21616.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2021/nsf21616/nsf21616.pdf?VersionId=XShoirvKMLUI60dIExNuURtJiOBGcFMX
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.584057+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf22313-tab003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf22313/assets/universities-report-growth-in-u-s-citizen-and-permanent-resident-enrollment-along-with-declines-in-enrollment-of-temporary-visa-holders-at-master-s-and-doctoral-levels-due-to-the-covid-19-pandemic/tables/nsf22313-tab003.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.585196+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf22313-tab004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf22313/assets/universities-report-growth-in-u-s-citizen-and-permanent-resident-enrollment-along-with-declines-in-enrollment-of-temporary-visa-holders-at-master-s-and-doctoral-levels-due-to-the-covid-19-pandemic/tables/nsf22313-tab004.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.586347+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf22319-taba-018b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf22319/assets/technical-tables/tables/nsf22319-taba-018b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.587548+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf22538.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22538/nsf22538.pdf?VersionId=3G3UVRUa4h0Ic5Ggwcu6KKxGZtPmklZ8
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.590283+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf23104-0.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2023/nsf23104/nsf23104.pdf?VersionId=N7D3BO3OgMHfbXGGpuygCL7SEDqbweMB
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.600294+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf23518.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23518/nsf23518.pdf?VersionId=aziW47Xa32JrlPgkZV2lfPwSkUDHzXws
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.606522+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf23562.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23562/nsf23562.pdf?VersionId=M9qnP7WdCeG4C1gYVZhjRu74GNseMGYg
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.608839+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf24521.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2024/nsf24521/nsf24521.pdf?VersionId=3jQ_U5HEqGapEZnTBRYmWmgNxizZgR93
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.616899+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf25354-tab076.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf25354/assets/data-tables/tables/nsf25354-tab076.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.629416+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf25534.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf25534.pdf?VersionId=c1L5gv7nV3f98g02xf8jjZkGspo8oF3_
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.631910+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf26304-tab021.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26304/assets/data-tables/tables/nsf26304-tab021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.633586+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf26304-tab022.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26304/assets/data-tables/tables/nsf26304-tab022.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.635436+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf26304-tab023.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26304/assets/data-tables/tables/nsf26304-tab023.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.637535+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf26304-tab024.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26304/assets/data-tables/tables/nsf26304-tab024.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.639371+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nsf26304-tab025.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf26304/assets/data-tables/tables/nsf26304-tab025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.640593+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nspm33-disclosuretable-sept2022-r.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/nspm33-disclosuretable-sept2022-r.pdf?VersionId=2RzU6StX2qoQ.IYoEoaS.0Pe8_oXPvfA
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.644424+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### pia-health-program-records.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/pia-health-program-records.pdf?VersionId=xT7FBFyVubs56wKSjJZMnWjyKrF0AuTB
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.650554+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### program-income-reporting-webinar-FAQ-Oct2024.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/program-income-reporting-webinar-FAQ-Oct2024.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.654985+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### program-income-reporting-webinar-slides-Oct2024.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/program-income-reporting-webinar-slides-Oct2024.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.660158+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### proposal_timeline.pdf
+
+- **URL**: https://nsf-gov-resources.nsf.gov/files/proposal_timeline.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.661747+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### report.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.664670+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig01a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig01a.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.671134+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig01b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig01b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.672315+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig01c.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig01c.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.673572+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig01d.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig01d.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.674754+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig01e.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig01e.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.675937+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig01f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig01f.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.677122+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig02a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig02a.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.678308+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig02b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig02b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.679516+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig02c.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig02c.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.680893+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig02d.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig02d.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.682089+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig02e.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig02e.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.683278+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig02f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig02f.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.684762+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig03a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig03a.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.685949+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig03b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig03b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.687173+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig03c.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig03c.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.688361+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig03d.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig03d.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.689570+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig03e.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig03e.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.690775+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig03f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig03f.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.692289+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig04a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig04a.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.693557+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig04b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig04b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.694767+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig04c.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig04c.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.695976+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig04d.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig04d.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.697159+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig04e.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig04e.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.698368+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig04f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig04f.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.699581+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig05a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig05a.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.700782+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig05b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig05b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.702102+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig05c.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig05c.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.703313+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig05d.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig05d.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.704514+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig05e.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig05e.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.705687+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig05f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig05f.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.706881+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig06a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig06a.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.708072+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig06b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig06b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.709272+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig06c.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig06c.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.710493+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig06d.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig06d.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.711704+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig06e.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig06e.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.712917+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-fig06f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/report/figures/sed17-sr-fig06f.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.714165+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.715346+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab002.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.716531+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab003.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.717687+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab004.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.718917+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab005.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.720078+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab006.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab006.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.721326+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab007.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab007.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.723800+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab008.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab008.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.725749+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab009.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab009.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.726930+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab010.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab010.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.728083+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab011.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab011.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.729290+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab012.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab012.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.730520+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab013.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab013.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.732094+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab014.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab014.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.733274+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab015.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab015.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.734589+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab016.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab016.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.735884+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab017.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab017.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.737057+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab018.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab018.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.738364+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab019.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab019.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.739555+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab020.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.740732+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab021.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.741911+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab022.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab022.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.743382+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab023.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab023.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.744680+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab024.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab024.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.745898+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab025.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.747054+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab026.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.748251+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab027.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab027.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.749426+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab028.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab028.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.750613+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab029.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab029.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.751788+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab030.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab030.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.752941+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab031.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab031.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.754106+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab032.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab032.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.755354+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab033.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab033.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.756555+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab034.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab034.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.757701+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab035.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab035.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.758944+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab036.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab036.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.760124+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab037.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab037.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.761307+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab038.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab038.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.762542+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab039.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab039.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.763728+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab040.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab040.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.764978+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab041.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab041.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.766147+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab042.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab042.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.767314+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab043.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab043.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.768500+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab044.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab044.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.769666+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab045.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab045.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.770840+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab046.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab046.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.772020+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab047.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab047.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.773210+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab048.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab048.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.774358+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab049.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab049.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.775528+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab050.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab050.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.776739+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab051.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab051.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.778033+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab052.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab052.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.779319+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab053.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab053.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.780571+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab054.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab054.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.781772+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab055.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab055.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.783077+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab056.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab056.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.784292+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab057.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab057.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.785525+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab058.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab058.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.786701+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab059.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab059.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.787921+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab060.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab060.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.789090+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab061.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab061.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.790303+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab062.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab062.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.791504+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab063.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab063.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.792771+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab064.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab064.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.793983+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab065.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab065.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.795269+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab066.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab066.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.796496+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab067.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab067.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.797743+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab068.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab068.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.798948+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab069.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab069.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.800184+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab070.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab070.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.801363+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab071.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab071.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.802594+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-tab072.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/data/tables/sed17-sr-tab072.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.803794+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-taba001.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/technical-notes/tables/sed17-sr-taba001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.804931+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-taba002.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/technical-notes/tables/sed17-sr-taba002.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.806400+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-taba003.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/technical-notes/tables/sed17-sr-taba003.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.807881+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-taba004.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/technical-notes/tables/sed17-sr-taba004.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.809550+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-taba005.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/technical-notes/tables/sed17-sr-taba005.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.811041+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sed17-sr-taba006.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/technical-notes/tables/sed17-sr-taba006.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.812500+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### survey-description.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/survey-description/survey-description.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.814065+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### technical-notes.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19301/assets/technical-notes/technical-notes.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.816393+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### wmpd19-sr-fig03a.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig03a.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.817609+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### wmpd19-sr-fig03b.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig03b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.818796+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### wmpd19-sr-fig03c.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig03c.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.819991+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### wmpd19-sr-fig03d.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig03d.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.821174+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### wmpd19-sr-fig03e.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig03e.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.822362+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### wmpd19-sr-fig03f.pdf
+
+- **URL**: https://ncses.nsf.gov/pubs/nsf19304/assets/digest/figures/wmpd19-sr-fig03f.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.823555+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 2006_vendor_apppdf.pdf
 
