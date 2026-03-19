@@ -146,9 +146,9 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
 
     header = (
         "## File Details\n\n"
-        "| File | Site | Accessible | Tagged | EmptyText | Protected"
+        "| File | Site | Published Date | Accessible | Tagged | EmptyText | Protected"
         " | Title | Language | Bookmarks | Exempt | Pages | Words | Images |\n"
-        "|------|------|------------|--------|-----------|---------|"
+        "|------|------|----------------|------------|--------|-----------|---------|"
         "-------|----------|-----------|--------|-------|-------|--------|\n"
     )
 
@@ -158,9 +158,12 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
         url = e.get("url", "")
         filename = e.get("filename", url)
         site = e.get("site", "")
+        date_val = r.get("Date")
+        date_str = str(date_val)[:10] if date_val else _NA
         rows.append(
             f"| [{filename}]({url}) "
             f"| {site} "
+            f"| {date_str} "
             f"| {_fmt(r.get('Accessible'))} "
             f"| {_fmt(r.get('TaggedTest'))} "
             f"| {_fmt(r.get('EmptyTextTest'))} "
@@ -212,6 +215,7 @@ _CSV_COLUMNS = [
     "site",
     "status",
     "crawled_at",
+    "published_date",
     "accessible",
     "totally_inaccessible",
     "broken",
@@ -250,6 +254,7 @@ def generate_csv(entries: List[Dict[str, Any]]) -> str:
                 "site": e.get("site", ""),
                 "status": e.get("status", ""),
                 "crawled_at": e.get("crawled_at", ""),
+                "published_date": r.get("Date", ""),
                 "accessible": r.get("Accessible", ""),
                 "totally_inaccessible": r.get("TotallyInaccessible", ""),
                 "broken": r.get("BrokenFile", ""),
@@ -525,6 +530,11 @@ _HTML_TEMPLATE = """\
       text-align: left;
       border-bottom: 2px solid var(--color-border);
     }}
+    th.sortable {{
+      cursor: pointer;
+      user-select: none;
+    }}
+    th.sortable:hover {{ background: var(--color-border); }}
     td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }}
     tr:last-child td {{ border-bottom: none; }}
     tr:nth-child(even) td {{ background: var(--color-row-stripe); }}
@@ -624,34 +634,138 @@ _HTML_TEMPLATE = """\
 
       // --- File details table ---
       var analysed = files.filter(function (f) {{ return f.status === 'analysed'; }});
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) {{ return f.report && f.report.Words  != null; }});
+      var hasImages = analysed.some(function (f) {{ return f.report && f.report.Images != null; }});
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {{
+        var r = f.report || {{}};
+        switch (col) {{
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }}
+      }}
+
+      function buildRow(f) {{
+        var r = f.report || {{}};
+        var dateStr = '';
+        if (r.Date) {{
+          var dm = String(r.Date).match(/^(\\d{{4}}-\\d{{2}}-\\d{{2}})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }}
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + esc(f.site || '') + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }}
+
+      function renderBody(tbl) {{
+        var rows = analysed.slice();
+        if (sortCol !== null) {{
+          rows.sort(function (a, b) {{
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          }});
+        }}
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }}
+
+      function updateHeaders(tbl) {{
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {{
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {{
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' \u25b4' : ' \u25be');
+          }} else {{
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }}
+        }});
+      }}
+
       if (analysed.length) {{
+        var colDefs = [
+          {{ key: 'file',       label: 'File' }},
+          {{ key: 'site',       label: 'Site' }},
+          {{ key: 'date',       label: 'Published Date' }},
+          {{ key: 'accessible', label: 'Accessible' }},
+          {{ key: 'tagged',     label: 'Tagged' }},
+          {{ key: 'title',      label: 'Title' }},
+          {{ key: 'language',   label: 'Language' }},
+          {{ key: 'bookmarks',  label: 'Bookmarks' }},
+          {{ key: 'pages',      label: 'Pages' }},
+        ];
+        if (hasWords)  colDefs.push({{ key: 'words',  label: 'Words' }});
+        if (hasImages) colDefs.push({{ key: 'images', label: 'Images' }});
+
         html += '<h2>PDF Details</h2>';
         html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
-        html += '<table><thead><tr>' +
-          '<th>File</th><th>Site</th><th>Notes</th><th>Accessible</th>' +
-          '<th>Tagged</th><th>Title</th><th>Language</th><th>Bookmarks</th><th>Pages</th><th>Words</th><th>Images</th>' +
-          '</tr></thead><tbody>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {{
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        }});
+        html += '</tr></thead><tbody>';
         analysed.forEach(function (f) {{
-          var r = f.report || {{}};
-          html += '<tr>' +
-            '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' +
-              esc(f.filename || f.url) + '</a></td>' +
-            '<td>' + esc(f.site || '') + '</td>' +
-            '<td>' + esc(f.notes || '') + '</td>' +
-            '<td>' + icon(r.Accessible)     + '</td>' +
-            '<td>' + icon(r.TaggedTest)     + '</td>' +
-            '<td>' + icon(r.TitleTest)      + '</td>' +
-            '<td>' + icon(r.LanguageTest)   + '</td>' +
-            '<td>' + icon(r.BookmarksTest)  + '</td>' +
-            '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
-            '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' +
-            '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' +
-            '</tr>';
+          html += buildRow(f);
         }});
         html += '</tbody></table>';
       }}
 
       root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {{
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {{
+          th.addEventListener('click', function () {{
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {{
+              sortAsc = !sortAsc;
+            }} else {{
+              sortCol = col;
+              sortAsc = true;
+            }}
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          }});
+          th.addEventListener('keydown', function (e) {{
+            if (e.key === 'Enter' || e.key === ' ') {{
+              e.preventDefault();
+              this.click();
+            }}
+          }});
+        }});
+      }}
 
       function icon(v) {{
         if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';

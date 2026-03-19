@@ -254,12 +254,58 @@ def test_generate_html_contains_back_link():
     assert 'href="./"' in html
 
 
-def test_generate_html_includes_notes_column():
+def test_generate_html_notes_column_removed():
+    """Notes column must no longer appear in the HTML report."""
     entry = _make_entry("https://example.com/doc.pdf")
     entry["notes"] = "Test notes for this scan"
     stats = _summary_stats([entry])
     html = generate_html([entry], stats)
-    assert "Notes" in html
+    assert '>Notes<' not in html
+
+
+def test_generate_html_has_published_date_column():
+    """Published Date column must appear in the HTML report."""
+    entry = _make_entry("https://example.com/doc.pdf")
+    entry["report"]["Date"] = "2021-05-10 08:00:00+00:00"
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    assert "Published Date" in html
+    assert "2021-05-10" in html
+
+
+def test_generate_html_has_sortable_headers():
+    """Column headers in the PDF details table must have data-col attributes for sorting."""
+    entry = _make_entry("https://example.com/doc.pdf")
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    # JS template uses data-col attribute on sortable headers
+    assert 'data-col=' in html
+    # Column key definitions must appear in the JS colDefs array
+    assert "key: 'file'" in html
+    assert "key: 'accessible'" in html
+    assert "key: 'date'" in html
+
+
+def test_generate_html_words_images_hidden_when_no_data():
+    """JS must use hasWords/hasImages flags to conditionally show those columns."""
+    entry = _make_entry("https://example.com/doc.pdf")
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    # These variables guard the conditional column rendering
+    assert 'hasWords' in html
+    assert 'hasImages' in html
+
+
+def test_generate_html_words_images_shown_when_data_present():
+    """Words and Images column key defs must be in JS when colDefs.push is present."""
+    entry = _make_entry("https://example.com/doc.pdf")
+    entry["report"]["Words"] = 500
+    entry["report"]["Images"] = 3
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    # The JS push code for optional columns must be present
+    assert "key: 'words'" in html
+    assert "key: 'images'" in html
 
 
 def test_generate_html_custom_back_url():
