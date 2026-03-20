@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-20T15:33:49.199129+00:00",
+    "site": "all",
+    "crawl_url": "",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23348419680",
+    "issue_url": "",
+    "archive_file": "2026-03-20_15-33-49-199_all.html",
+    "total": 16669,
+    "analysed": 4167,
+    "accessible": 1338
+  },
+  {
     "date": "2026-03-20T11:32:42.738125+00:00",
     "site": "ncert.nic.in",
     "crawl_url": "https://ncert.nic.in/textbook.php?leph1=0-8",
