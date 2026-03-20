@@ -1,13 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-20T15:33:49.199129+00:00
+Generated: 2026-03-20T15:42:17.216620+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 16669 |
-| Analysed | 4167 |
+| URLs crawled | 1004 |
+| Total files tracked | 16672 |
+| Analysed | 4170 |
 | Pending analysis | 10535 |
 | Errors during analysis | 1967 |
 | Accessible | 1338 |
@@ -30,6 +31,7 @@ Generated: 2026-03-20T15:33:49.199129+00:00
 | cms.gov | 460 |
 | ctoec.org | 1742 |
 | dc.gov | 74 |
+| dnr.state.mn.us | 3 |
 | dot.state.mn.us | 44 |
 | ec.europa.eu | 199 |
 | ed.gov | 2886 |
@@ -4232,6 +4234,9 @@ Generated: 2026-03-20T15:33:49.199129+00:00
 | [Preamblehi.pdf](https://ncert.nic.in/pdf/module/Constitution_Daypdf/Preamblehi.pdf) | ncert.nic.in | 2024-11-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 5 | 595 |
 | [ProcessDocument.pdf](https://ncert.nic.in/dee/pdf/ProcessDocument.pdf) | ncert.nic.in | 2014-04-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 | 2882 | 0 |
 | [Profile.pdf](https://ncert.nic.in/del/pdf/Profile.pdf) | ncert.nic.in | 2018-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 3395 | 41 |
+| [yn_cranes_study_questions.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_cranes_study_questions.pdf) | dnr.state.mn.us | 2022-04-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 734 | 1 |
+| [yn_cranes_teachers_guide.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_cranes_teachers_guide.pdf) | dnr.state.mn.us | 2022-04-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2691 | 1 |
+| [yn_sandhills.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_sandhills.pdf) | dnr.state.mn.us | 2021-01-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2280 | 14 |
 
 ## Files with Errors or Notes
 
@@ -33022,3 +33027,21 @@ Generated: 2026-03-20T15:33:49.199129+00:00
 - **URL**: https://ncert.nic.in/dee/pdf/Pustakon_se_pare_hamara%20_paryavaran.pdf
 - **Status**: error
 - Analysis exceeded 120s per-file limit
+
+### yn_cranes_study_questions.pdf
+
+- **URL**: https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_cranes_study_questions.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yn_cranes_teachers_guide.pdf
+
+- **URL**: https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_cranes_teachers_guide.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### yn_sandhills.pdf
+
+- **URL**: https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_sandhills.pdf
+- **Status**: analysed
+- title, tagged, 
