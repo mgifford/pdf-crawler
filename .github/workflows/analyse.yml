@@ -262,14 +262,16 @@ jobs:
 
       - name: Install veraPDF
         # Only install when the scan requested it (veraPDF/VERAPDF in issue title).
-        # veraPDF is a Java application; we pin to a known stable release for
-        # reproducibility.  See https://github.com/veraPDF/veraPDF-library/releases.
+        # veraPDF is a Java application distributed via
+        # https://github.com/veraPDF/veraPDF-library/releases.  We pin to a
+        # known stable release for reproducibility; update VERAPDF_VERSION when
+        # a new stable release is published.
         if: steps.meta.outputs.run_verapdf == 'true'
         run: |
           sudo apt-get install -y --no-install-recommends default-jre-headless
-          VERAPDF_VERSION="1.26.2"
+          VERAPDF_VERSION="1.28.2"
           mkdir -p /tmp/verapdf-install
-          curl -sL \
+          curl -fsSL \
             "https://github.com/veraPDF/veraPDF-library/releases/download/v${VERAPDF_VERSION}/verapdf-greenfield-${VERAPDF_VERSION}.zip" \
             -o /tmp/verapdf-install/verapdf.zip
           unzip -q /tmp/verapdf-install/verapdf.zip -d /tmp/verapdf-install/
@@ -366,15 +368,19 @@ jobs:
           else
             git commit -m "chore: update accessibility reports"
             # Retry push up to 3 times to handle concurrent report commits.
-            # Track success so the commit from the final rebase is also pushed.
+            # Use git merge -X ours so that conflicts in generated report files
+            # are automatically resolved in favour of the freshly produced
+            # reports from this run; manifest.yaml auto-merges cleanly because
+            # each run modifies distinct URL entries.
             PUSH_DONE=false
             for attempt in 1 2 3; do
               if git push; then
                 PUSH_DONE=true
                 break
               fi
-              echo "Push attempt $attempt failed – pulling and retrying…"
-              git pull --rebase origin "${{ github.ref_name }}" || { echo "::warning::Rebase failed on attempt $attempt; aborting."; git rebase --abort 2>/dev/null || true; }
+              echo "Push attempt $attempt failed – fetching and merging (ours) then retrying…"
+              git fetch origin "${{ github.ref_name }}"
+              git merge --no-edit -X ours FETCH_HEAD || { echo "::warning::Merge failed on attempt $attempt; aborting."; git merge --abort 2>/dev/null || true; }
             done
             if [ "$PUSH_DONE" = "false" ]; then
               git push || echo "::warning::All push attempts exhausted; reports saved as workflow artifact."
