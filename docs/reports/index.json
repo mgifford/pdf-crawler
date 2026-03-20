@@ -4,7 +4,7 @@
     "site": "ncert.nic.in",
     "crawl_url": "https://ncert.nic.in/textbook.php?leph1=0-8",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23339547135",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/130#issuecomment-4097397522",
     "archive_file": "2026-03-20_11-32-42-738_ncert.nic.in.html",
     "total": 329,
     "analysed": 190,
