@@ -1,16 +1,17 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-20T16:27:34.508001+00:00
+Generated: 2026-03-20T20:09:53.913228+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 16672 |
-| Analysed | 4170 |
-| Pending analysis | 10286 |
+| URLs crawled | 505 |
+| Total files tracked | 16868 |
+| Analysed | 4175 |
+| Pending analysis | 10477 |
 | Errors during analysis | 2216 |
-| Accessible | 1338 |
+| Accessible | 1342 |
 | Totally inaccessible | 131 |
 | Broken / unreadable | 3 |
 | Exempt (pre-2018) | 967 |
@@ -19,6 +20,7 @@ Generated: 2026-03-20T16:27:34.508001+00:00
 
 | Site | Files |
 |------|-------|
+| access-board.gov | 151 |
 | adem.public.lu | 17 |
 | akzent.lu | 3 |
 | apps.deed.state.mn.us | 1 |
@@ -30,12 +32,12 @@ Generated: 2026-03-20T16:27:34.508001+00:00
 | cms.gov | 460 |
 | ctoec.org | 1742 |
 | dc.gov | 74 |
-| dnr.state.mn.us | 3 |
+| dnr.state.mn.us | 8 |
 | dot.state.mn.us | 44 |
 | ec.europa.eu | 199 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 417 |
+| energy.gov | 457 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gsa.gov | 450 |
@@ -4236,6 +4238,11 @@ Generated: 2026-03-20T16:27:34.508001+00:00
 | [yn_cranes_study_questions.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_cranes_study_questions.pdf) | dnr.state.mn.us | 2022-04-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 734 | 1 |
 | [yn_cranes_teachers_guide.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_cranes_teachers_guide.pdf) | dnr.state.mn.us | 2022-04-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2691 | 1 |
 | [yn_sandhills.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_sandhills.pdf) | dnr.state.mn.us | 2021-01-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2280 | 14 |
+| [march-2023-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/march-2023-thank-you.pdf) | dnr.state.mn.us | 2023-03-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 | 25097 | 26 |
+| [march_2024_thank_you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/march_2024_thank_you.pdf) | dnr.state.mn.us | 2024-02-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 23147 | 23 |
+| [sep-oct-2022-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/sep-oct-2022-thank-you.pdf) | dnr.state.mn.us | 2022-08-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 32 | 31103 | 32 |
+| [sep-oct-2023-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/sep-oct-2023-thank-you.pdf) | dnr.state.mn.us | 2023-09-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 | 25767 | 28 |
+| [september-2024-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/september-2024-thank-you.pdf) | dnr.state.mn.us | 2024-09-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 26 | 24094 | 25 |
 
 ## Files with Errors or Notes
 
@@ -34538,3 +34545,9 @@ Generated: 2026-03-20T16:27:34.508001+00:00
 - **URL**: https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_sandhills.pdf
 - **Status**: analysed
 - title, tagged, 
+
+### september-2024-thank-you.pdf
+
+- **URL**: https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/september-2024-thank-you.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 

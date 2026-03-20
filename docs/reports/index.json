@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-20T20:09:53.913228+00:00",
+    "site": "dnr.state.mn.us",
+    "crawl_url": "https://www.dnr.state.mn.us/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23360606271",
+    "issue_url": "",
+    "archive_file": "2026-03-20_20-09-53-913_dnr.state.mn.us.html",
+    "total": 8,
+    "analysed": 8,
+    "accessible": 4
+  },
+  {
     "date": "2026-03-20T16:27:34.508001+00:00",
     "site": "all",
     "crawl_url": "",
