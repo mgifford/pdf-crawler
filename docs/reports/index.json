@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-20T11:32:42.738125+00:00",
+    "site": "ncert.nic.in",
+    "crawl_url": "https://ncert.nic.in/textbook.php?leph1=0-8",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23339547135",
+    "issue_url": "",
+    "archive_file": "2026-03-20_11-32-42-738_ncert.nic.in.html",
+    "total": 329,
+    "analysed": 190,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-19T19:01:42.685162+00:00",
     "site": "gsa.gov",
     "crawl_url": "https://gsa.gov",

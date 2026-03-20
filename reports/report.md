@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-19T19:01:42.685162+00:00
+Generated: 2026-03-20T11:32:42.738125+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 384 |
-| Total files tracked | 16340 |
-| Analysed | 3977 |
-| Pending analysis | 10689 |
-| Errors during analysis | 1674 |
+| URLs crawled | 78 |
+| Total files tracked | 16669 |
+| Analysed | 4167 |
+| Pending analysis | 10825 |
+| Errors during analysis | 1677 |
 | Accessible | 1338 |
-| Totally inaccessible | 63 |
+| Totally inaccessible | 131 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 890 |
+| Exempt (pre-2018) | 967 |
 
 ## Files per Site
 
@@ -45,6 +45,7 @@ Generated: 2026-03-19T19:01:42.685162+00:00
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
 | mn.gov | 1397 |
+| ncert.nic.in | 329 |
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
 | nsf.gov | 1426 |
@@ -4042,6 +4043,196 @@ Generated: 2026-03-19T19:01:42.685162+00:00
 | [trucksizeweightreport.pdf](http://www.dot.state.mn.us/information/truckstudy/pdf/trucksizeweightreport.pdf) | dot.state.mn.us | 2006-09-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 190 | 53720 | 954 |
 | [wood-lake.pdf](http://www.dot.state.mn.us/maps/gdma/data/maps/township/yellowmedicine/wood-lake.pdf) | dot.state.mn.us | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 760 | 104 |
 | [work-plan.pdf](http://www.dot.state.mn.us/environment/pdf/work-plan.pdf) | dot.state.mn.us | 2017-03-31 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 31 | 7125 | 1 |
+| [10_Rubru.pdf](https://ncert.nic.in/del/pdf/10_Rubru.pdf) | ncert.nic.in | 2019-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 291 | 2 |
+| [11_Rest_in_Peace.pdf](https://ncert.nic.in/del/pdf/11_Rest_in_Peace.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 355 | 9 |
+| [11_Yester_Years.pdf](https://ncert.nic.in/del/pdf/11_Yester_Years.pdf) | ncert.nic.in | 2019-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 177 | 14 |
+| [125thBirth_netaji.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/125thBirth_netaji.pdf) | ncert.nic.in | 2021-04-12 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 0 | 7 |
+| [12_Bhavya_Satyagreha_Shram.pdf](https://ncert.nic.in/del/pdf/12_Bhavya_Satyagreha_Shram.pdf) | ncert.nic.in | 2019-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 9 | 558 | 15 |
+| [12poster1_6_16.pdf](https://ncert.nic.in/dee/pdf/12poster1_6_16.pdf) | ncert.nic.in | 2016-06-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 14 | 879 | 224 |
+| [1_Bhasha_Sangam.pdf](https://ncert.nic.in/del/pdf/1_Bhasha_Sangam.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1061 | 12 |
+| [1stIssueFirkee.pdf](https://ncert.nic.in/dee/pdf/magazine/1stIssueFirkee.pdf) | ncert.nic.in | 2014-05-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 24 | 1767 | 125 |
+| [23SEPFITIndiaQuiz.pdf](https://ncert.nic.in/pdf/notice/23SEPFITIndiaQuiz.pdf) | ncert.nic.in | 2021-09-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 8746 | 27 |
+| [2_ek_pehchaan.pdf](https://ncert.nic.in/del/pdf/2_ek_pehchaan.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 475 | 3 |
+| [2ndIssueFirkee.pdf](https://ncert.nic.in/dee/pdf/magazine/2ndIssueFirkee.pdf) | ncert.nic.in | 2014-05-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 24 | 1217 | 151 |
+| [3_kala_bhasha.pdf](https://ncert.nic.in/del/pdf/3_kala_bhasha.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 666 | 34 |
+| [3rdIssueFirkee.pdf](https://ncert.nic.in/dee/pdf/magazine/3rdIssueFirkee.pdf) | ncert.nic.in | 2014-05-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 24 | 1845 | 2843 |
+| [4_Insight.pdf](https://ncert.nic.in/del/pdf/4_Insight.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 2134 | 16 |
+| [4thIssueFirkee.pdf](https://ncert.nic.in/dee/pdf/magazine/4thIssueFirkee.pdf) | ncert.nic.in | 2014-05-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 24 | 1238 | 3048 |
+| [5_bhasha_vrintat.pdf](https://ncert.nic.in/del/pdf/5_bhasha_vrintat.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 4951 | 30 |
+| [5thIssueFirkee.pdf](https://ncert.nic.in/dee/pdf/magazine/5thIssueFirkee.pdf) | ncert.nic.in | 2017-04-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 24 | 1116 | 8853 |
+| [6_Ground_Realities.pdf](https://ncert.nic.in/del/pdf/6_Ground_Realities.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 1568 | 13 |
+| [6thIssueFirkee.pdf](https://ncert.nic.in/dee/pdf/magazine/6thIssueFirkee.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 908 | 12904 |
+| [75anniversery.pdf](https://ncert.nic.in/pdf/notice/75anniversery.pdf) | ncert.nic.in | 2021-08-04 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 3 |
+| [7_Window_in_the_Classroom.pdf](https://ncert.nic.in/del/pdf/7_Window_in_the_Classroom.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 496 | 7 |
+| [7thIssueFirkee.pdf](https://ncert.nic.in/dee/pdf/magazine/7thIssueFirkee.pdf) | ncert.nic.in | 2017-04-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 24 | 1663 | 67 |
+| [8_Feather_in_the_Cap.pdf](https://ncert.nic.in/del/pdf/8_Feather_in_the_Cap.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 170 | 11 |
+| [8thNRG.pdf](https://ncert.nic.in/dee/pdf/8thNRG.pdf) | ncert.nic.in | 2013-06-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 | 2597 | 0 |
+| [9_rubaru.pdf](https://ncert.nic.in/del/pdf/9_rubaru.pdf) | ncert.nic.in | 2019-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 391 | 10 |
+| [A.K.Rajput.pdf](https://ncert.nic.in/dee/pdf/A.K.Rajput.pdf) | ncert.nic.in | 2015-10-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 | 2638 | 0 |
+| [Aadhar%20enabled%20Bio-metric%20attendence%20system.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/Aadhar%20enabled%20Bio-metric%20attendence%20system.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [Advisory_for_use_of_email_and_web_services.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/Advisory_for_use_of_email_and_web_services.pdf) | ncert.nic.in | 2014-12-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 681 | 3 |
+| [Advisoryboard_march2016.pdf](https://ncert.nic.in/dee/pdf/Advisoryboard_march2016.pdf) | ncert.nic.in | 2016-05-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 | 1718 | 0 |
+| [Advt.DISTRIBUTION-OF-BOOKS-Hindi.pdf](https://ncert.nic.in/pdf/announcement/tender/Advt.DISTRIBUTION-OF-BOOKS-Hindi.pdf) | ncert.nic.in | 2021-07-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 20 | 5053 | 14 |
+| [Ajmer.pdf](https://ncert.nic.in/dee/pdf/Ajmer.pdf) | ncert.nic.in | 2014-01-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 40 | 9432 | 42 |
+| [AmritMahotsavSubhashChandra.pdf](https://ncert.nic.in/pdf/notice/AmritMahotsavSubhashChandra.pdf) | ncert.nic.in | 2021-10-20 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 5 |
+| [Approach_paper_del.pdf](https://ncert.nic.in/del/pdf/Approach_paper_del.pdf) | ncert.nic.in | 2017-03-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 | 1068 | 0 |
+| [Auction-notice.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/Auction-notice.pdf) | ncert.nic.in | 2014-08-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 992 | 0 |
+| [Barkha_Eng.pdf](https://ncert.nic.in/dee/pdf/Barkha_Eng.pdf) | ncert.nic.in | 2008-11-19 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 0 | 18 |
+| [Barkha_hindi.pdf](https://ncert.nic.in/dee/pdf/Barkha_hindi.pdf) | ncert.nic.in | 2013-11-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 | 2706 | 35 |
+| [BhashaSangamMazineIV.pdf](https://ncert.nic.in/pdf/notice/BhashaSangamMazineIV.pdf) | ncert.nic.in | 2020-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 72 | 4498 | 124 |
+| [Bhopal.pdf](https://ncert.nic.in/dee/pdf/Bhopal.pdf) | ncert.nic.in | 2014-01-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 39 | 9018 | 26 |
+| [Bhubneshwar.pdf](https://ncert.nic.in/dee/pdf/Bhubneshwar.pdf) | ncert.nic.in | 2014-01-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 27 | 7784 | 20 |
+| [Biharstate.pdf](https://ncert.nic.in/dee/pdf/Biharstate.pdf) | ncert.nic.in | 2016-08-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 307 | 101598 | 524356 |
+| [BrochureonEarlyLiteracyinHindi.pdf](https://ncert.nic.in/dee/pdf/BrochureonEarlyLiteracyinHindi.pdf) | ncert.nic.in | 2015-04-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 1154 | 27 |
+| [Broucher.pdf](https://ncert.nic.in/del/pdf/Broucher.pdf) | ncert.nic.in | 2018-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 22 | 14 |
+| [BubblesBubbles.pdf](https://ncert.nic.in/dee/pdf/BubblesBubbles.pdf) | ncert.nic.in | 2015-04-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 52 | 7 |
+| [CASNERIE.pdf](https://ncert.nic.in/pdf/notice/CASNERIE.pdf) | ncert.nic.in | 2022-04-28 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [CCEAdecisions.pdf](https://ncert.nic.in/pdf/notice/CCEAdecisions.pdf) | ncert.nic.in | 2021-09-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 585 | 4 |
+| [CCEDEE25_8_15.pdf](https://ncert.nic.in/dee/pdf/CCEDEE25_8_15.pdf) | ncert.nic.in | 2015-08-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 97 | 32426 | 1204 |
+| [CCE_Arts_edu.pdf](https://ncert.nic.in/dee/pdf/CCE_Arts_edu.pdf) | ncert.nic.in | 2013-05-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 24 | 9972 | 152 |
+| [CCE_English.pdf](https://ncert.nic.in/dee/pdf/CCE_English.pdf) | ncert.nic.in | 2013-05-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 40 | 15512 | 8 |
+| [CCE_Exm_Hindi.pdf](https://ncert.nic.in/dee/pdf/CCE_Exm_Hindi.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 30 | 14952 | 28 |
+| [CCE_Math.pdf](https://ncert.nic.in/dee/pdf/CCE_Math.pdf) | ncert.nic.in | 2013-05-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 24 | 9675 | 0 |
+| [CCE_PE_complete_10_1_17.pdf](https://ncert.nic.in/dee/pdf/CCE_PE_complete_10_1_17.pdf) | ncert.nic.in | 2017-01-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 83 | 24578 | 3 |
+| [CCE_Science.pdf](https://ncert.nic.in/dee/pdf/CCE_Science.pdf) | ncert.nic.in | 2013-05-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 43 | 16718 | 0 |
+| [CCE_SocialScience.pdf](https://ncert.nic.in/dee/pdf/CCE_SocialScience.pdf) | ncert.nic.in | 2013-05-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 39 | 12442 | 12 |
+| [CCE_Urdu.pdf](https://ncert.nic.in/dee/pdf/CCE_Urdu.pdf) | ncert.nic.in | 2013-01-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 57 | 3155 | 39 |
+| [CEE-2023_Notice_Hindi.pdf](https://ncert.nic.in/pdf/notice/CEE-2023_Notice_Hindi.pdf) | ncert.nic.in | 2023-04-24 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 2 |
+| [CGHS.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/CGHS.pdf) | ncert.nic.in | 2015-09-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 17 | 4759 | 0 |
+| [COVID_19_Report_MISC.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/COVID_19_Report_MISC.pdf) | ncert.nic.in | 2021-03-04 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [CProjects1.pdf](https://ncert.nic.in/dee/pdf/CProjects1.pdf) | ncert.nic.in | 2013-05-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 257 | 0 |
+| [CallforProposal.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/CallforProposal.pdf) | ncert.nic.in | 2021-04-07 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 0 | 7 |
+| [Career_Ke_Samuchit_Career_Cards_Bhag2.pdf](https://ncert.nic.in/pdf/CareerGuide/Career_Ke_Samuchit_Career_Cards_Bhag2.pdf) | ncert.nic.in | 2025-05-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 604 | 232557 | 578 |
+| [Catalogue%20and%20Glimpses.pdf](https://ncert.nic.in/del/pdf/Catalogue%20and%20Glimpses.pdf) | ncert.nic.in | 2018-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 20 | 3934 | 55 |
+| [Changeofadd.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Changeofadd.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Chattisgarh.pdf](https://ncert.nic.in/dee/pdf/Chattisgarh.pdf) | ncert.nic.in | 2016-08-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 138 | 30907 | 349692 |
+| [Cir_listrie.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Cir_listrie.pdf) | ncert.nic.in | 2019-09-10 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 4 |
+| [Circular-c&w.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Circular-c&w.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Circular-c&wj2j.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Circular-c&wj2j.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Circular_CGHS_facilities_for_NCERT_Pensionars.pdf](https://ncert.nic.in/pdf/announcement/notices/medical/Circular_CGHS_facilities_for_NCERT_Pensionars.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [CnW_20July2020.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/CnW_20July2020.pdf) | ncert.nic.in | 2020-07-21 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [Covid%20-19_Attendance.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Covid%20-19_Attendance.pdf) | ncert.nic.in | 2021-02-23 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 3 |
+| [DDE(eng).pdf](https://ncert.nic.in/dee/pdf/DDE(eng).pdf) | ncert.nic.in | 2014-06-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 570 | 0 |
+| [DDE(pp).pdf](https://ncert.nic.in/dee/pdf/DDE(pp).pdf) | ncert.nic.in | 2014-06-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 907 | 0 |
+| [DEE_haat_corn.pdf](https://ncert.nic.in/dee/pdf/DEE_haat_corn.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 19 | 10 |
+| [DEEbharkha1_3_16.pdf](https://ncert.nic.in/dee/pdf/DEEbharkha1_3_16.pdf) | ncert.nic.in | 2016-03-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 180 | 0 |
+| [DESMhi_624.pdf](https://ncert.nic.in/desm/pdf/DESMhi_624.pdf) | ncert.nic.in | 2022-09-01 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [DO_LETTER.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/DO_LETTER.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 5 |
+| [DR_%20V_P.pdf](https://ncert.nic.in/dee/pdf/DR_%20V_P.pdf) | ncert.nic.in | 2018-06-25 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 | 3196 | 1 |
+| [DatabasedigitizationwithAadharNumber.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/DatabasedigitizationwithAadharNumber.pdf) | ncert.nic.in | 2015-03-16 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 0 | 3 |
+| [Dhanya.pdf](https://ncert.nic.in/dee/pdf/Dhanya.pdf) | ncert.nic.in | 2024-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 2653 | 1 |
+| [Disaster%20Risk%20reduction%20activities%20and%20programmes%20-%20reg.pdf](https://ncert.nic.in/pdf/notice/Disaster%20Risk%20reduction%20activities%20and%20programmes%20-%20reg.pdf) | ncert.nic.in | 2021-07-16 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 15 | 0 | 15 |
+| [Dr_Ramesh_Kumar.pdf](https://ncert.nic.in/dee/pdf/Dr_Ramesh_Kumar.pdf) | ncert.nic.in | 2012-04-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 422 | 1 |
+| [Dr_Sandhya_sangai.pdf](https://ncert.nic.in/dee/pdf/Dr_Sandhya_sangai.pdf) | ncert.nic.in | 2018-05-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 626 | 4 |
+| [E2-28102020.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/E2-28102020.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 0 | 7 |
+| [ECCE.pdf](https://ncert.nic.in/dee/pdf/ECCE.pdf) | ncert.nic.in | 2012-06-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 102 | 0 |
+| [ECS-172-241.pdf](https://ncert.nic.in/pdf/announcement/ECS-172-241.pdf) | ncert.nic.in | 2020-09-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [ELPEnglish25_5_16.pdf](https://ncert.nic.in/dee/pdf/ELPEnglish25_5_16.pdf) | ncert.nic.in | 2016-05-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 975 | 62 |
+| [ELPFinal2014_15revised.pdf](https://ncert.nic.in/dee/pdf/ELPFinal2014_15revised.pdf) | ncert.nic.in | 2015-04-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 1173 | 27 |
+| [ELPhin25_5_16.pdf](https://ncert.nic.in/dee/pdf/ELPhin25_5_16.pdf) | ncert.nic.in | 2016-05-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 1152 | 62 |
+| [EOI_NTS.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/others/generalpublic/EOI_NTS.pdf) | ncert.nic.in | 2015-07-07 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Early_Literacy.pdf](https://ncert.nic.in/dee/pdf/Early_Literacy.pdf) | ncert.nic.in | 2014-03-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 64 | 9 |
+| [English_Primary_level.pdf](https://ncert.nic.in/del/pdf/English_Primary_level.pdf) | ncert.nic.in | 2014-06-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 109 | 39383 | 319 |
+| [FINALETS10.12.13.pdf](https://ncert.nic.in/dee/pdf/FINALETS10.12.13.pdf) | ncert.nic.in | 2014-03-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 91 | 28559 | 209 |
+| [FNChapter10.pdf](https://ncert.nic.in/pdf/adulteducation/Maths/FNChapter10.pdf) | ncert.nic.in | 2023-07-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 886 | 13 |
+| [FNChapter11.pdf](https://ncert.nic.in/pdf/adulteducation/Maths/FNChapter11.pdf) | ncert.nic.in | 2023-07-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 618 | 50 |
+| [FNChapter12.pdf](https://ncert.nic.in/pdf/adulteducation/Maths/FNChapter12.pdf) | ncert.nic.in | 2023-07-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 991 | 15 |
+| [FNChapter13.pdf](https://ncert.nic.in/pdf/adulteducation/Maths/FNChapter13.pdf) | ncert.nic.in | 2023-07-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 735 | 26 |
+| [Final_Change_list_Type-I-Type_26-09.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Final_Change_list_Type-I-Type_26-09.pdf) | ncert.nic.in | 2025-09-22 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 22 | 0 | 22 |
+| [Final_E-tender_NIE-GH_2025.pdf](https://ncert.nic.in/pdf/announcement/tender/Final_E-tender_NIE-GH_2025.pdf) | ncert.nic.in | 2025-12-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 48 | 14979 | 0 |
+| [Final_Module_CD.pdf](https://ncert.nic.in/pdf/module/Constitution_Daypdf/Final_Module_CD.pdf) | ncert.nic.in | 2024-11-25 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 31 | 5471 | 81 |
+| [Firkee10issue.pdf](https://ncert.nic.in/dee/pdf/magazine/Firkee10issue.pdf) | ncert.nic.in | 2018-07-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 24 | 1161 | 615 |
+| [Firkee8issue.pdf](https://ncert.nic.in/dee/pdf/magazine/Firkee8issue.pdf) | ncert.nic.in | 2017-12-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 24 | 1451 | 257 |
+| [Firkee9issue.pdf](https://ncert.nic.in/dee/pdf/magazine/Firkee9issue.pdf) | ncert.nic.in | 2017-12-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 24 | 1337 | 109 |
+| [FirkeeBachchonKi_submission.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeBachchonKi_submission.pdf) | ncert.nic.in | 2020-11-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 427 | 77 |
+| [FirkeeBachoki-June2019.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeBachoki-June2019.pdf) | ncert.nic.in | 2019-06-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1192 | 128 |
+| [FirkeeDecember2019_final.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeDecember2019_final.pdf) | ncert.nic.in | 2019-11-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1493 | 95 |
+| [FirkeeDecember2022.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeDecember2022.pdf) | ncert.nic.in | 2023-03-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1262 | 91 |
+| [FirkeeDecember2023.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeDecember2023.pdf) | ncert.nic.in | 2023-06-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1193 | 90 |
+| [FirkeeJan-June2024.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeJan-June2024.pdf) | ncert.nic.in | 2024-06-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 24 | 1553 | 93 |
+| [FirkeeJan-June2025.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeJan-June2025.pdf) | ncert.nic.in | 2025-07-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1944 | 98 |
+| [FirkeeJuly-December2024.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeJuly-December2024.pdf) | ncert.nic.in | 2024-06-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 24 | 1474 | 91 |
+| [FirkeeJuly-December2025.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeJuly-December2025.pdf) | ncert.nic.in | 2025-07-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 2010 | 102 |
+| [FirkeeJune2022.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeJune2022.pdf) | ncert.nic.in | 2023-03-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1272 | 92 |
+| [FirkeeJune2023.pdf](https://ncert.nic.in/dee/pdf/magazine/FirkeeJune2023.pdf) | ncert.nic.in | 2023-06-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1175 | 91 |
+| [Firkee_December2020.pdf](https://ncert.nic.in/dee/pdf/magazine/Firkee_December2020.pdf) | ncert.nic.in | 2022-03-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1197 | 136 |
+| [Firkee_December2021.pdf](https://ncert.nic.in/dee/pdf/magazine/Firkee_December2021.pdf) | ncert.nic.in | 2022-03-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1056 | 136 |
+| [Firkee_June2021.pdf](https://ncert.nic.in/dee/pdf/magazine/Firkee_June2021.pdf) | ncert.nic.in | 2022-03-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 24 | 1051 | 137 |
+| [GTE.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/GTE.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 4 |
+| [GeM.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/GeM.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 5 |
+| [GlobalHandWashingDay.pdf](https://ncert.nic.in/pdf/notice/GlobalHandWashingDay.pdf) | ncert.nic.in | 2021-10-13 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 6 |
+| [Guidelines%20of%20MHA.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Guidelines%20of%20MHA.pdf) | ncert.nic.in | 2021-02-01 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 0 | 8 |
+| [GuidelinesSchool%20SafetySecurity.pdf](https://ncert.nic.in/pdf/notice/GuidelinesSchool%20SafetySecurity.pdf) | ncert.nic.in | 2021-10-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 96 | 29090 | 96 |
+| [HelplinewomenNCW.pdf](https://ncert.nic.in/pdf/notice/HelplinewomenNCW.pdf) | ncert.nic.in | 2021-10-25 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 4 |
+| [Hon_PM_MentoringYUVACampaign.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/Hon_PM_MentoringYUVACampaign.pdf) | ncert.nic.in | 2021-07-19 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 5 |
+| [IEC_Materials.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/IEC_Materials.pdf) | ncert.nic.in | 2021-01-22 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 6 |
+| [IFFI.pdf](https://ncert.nic.in/pdf/notice/IFFI.pdf) | ncert.nic.in | 2021-11-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 5 |
+| [In%20the%20light%20of.pdf](https://ncert.nic.in/del/pdf/In%20the%20light%20of.pdf) | ncert.nic.in | 2018-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 | 962 | 24 |
+| [Information_Brochure_2019.pdf](https://ncert.nic.in/pdf/notice/Information_Brochure_2019.pdf) | ncert.nic.in | 2019-04-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 21 | 7052 | 6 |
+| [Insight.pdf](https://ncert.nic.in/del/pdf/Insight.pdf) | ncert.nic.in | 2018-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 62 | 17 |
+| [InteractionHon'ble_PM_Tokyo%20Olympic_bound_athletes.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/InteractionHon'ble_PM_Tokyo%20Olympic_bound_athletes.pdf) | ncert.nic.in | 2021-07-13 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 5 |
+| [JDPSSCIVE.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/JDPSSCIVE.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [JEE_notice.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/JEE_notice.pdf) | ncert.nic.in | 2021-02-09 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [Jun_Dec_2017_quaters_list.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Jun_Dec_2017_quaters_list.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 0 | 13 |
+| [Kavita.pdf](https://ncert.nic.in/dee/pdf/Kavita.pdf) | ncert.nic.in | 2018-12-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 1913 | 1 |
+| [LI_Final_Copy_Revised_29.12.14.pdf](https://ncert.nic.in/dee/pdf/LI_Final_Copy_Revised_29.12.14.pdf) | ncert.nic.in | 2015-02-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 208 | 70200 | 29 |
+| [LO_list_2019-20.pdf](https://ncert.nic.in/pdf/programmes/NTSE/LO_list_2019-20.pdf) | ncert.nic.in | 2020-10-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 1953 | 0 |
+| [LOkpal_Lokayuktas_Act.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/others/generalpublic/LOkpal_Lokayuktas_Act.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 36 | 15095 | 4 |
+| [LTC_Relaxation.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/LTC_Relaxation.pdf) | ncert.nic.in | 2021-02-05 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 3 |
+| [LaunchofOnlinePortal_PPP-MIIOrder2017.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/LaunchofOnlinePortal_PPP-MIIOrder2017.pdf) | ncert.nic.in | 2021-07-19 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 6 |
+| [LetterSJMAPMIndiaVPMIVienna.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/LetterSJMAPMIndiaVPMIVienna.pdf) | ncert.nic.in | 2021-03-01 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 4 |
+| [Letter_Kabariwala.pdf](https://ncert.nic.in/dee/pdf/Letter_Kabariwala.pdf) | ncert.nic.in | 2014-11-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1003 | 4 |
+| [Likhne%20ki%20shuruat_Cover%201st%20&%204th.pdf](https://ncert.nic.in/del/pdf/Likhne%20ki%20shuruat_Cover%201st%20&%204th.pdf) | ncert.nic.in | 2015-01-27 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 46 |
+| [Likhne%20ki%20shuruat_Prelium.pdf](https://ncert.nic.in/del/pdf/Likhne%20ki%20shuruat_Prelium.pdf) | ncert.nic.in | 2015-01-27 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 | 0 | 1 |
+| [LinksNIE.pdf](https://www.ncert.nic.in/ncertldd/links/pdf/LinksNIE.pdf) | ncert.nic.in | 2019-11-25 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 262 | 0 |
+| [List%20of%20Holidays.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/List%20of%20Holidays.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 6 |
+| [List_Newly_Empanelled_Access_Auditors-DEPwD.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/List_Newly_Empanelled_Access_Auditors-DEPwD.pdf) | ncert.nic.in | 2024-11-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1320 | 5 |
+| [MP_Study.pdf](https://ncert.nic.in/dee/pdf/MP_Study.pdf) | ncert.nic.in | 2018-09-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 183 | 59087 | 286 |
+| [Matribhasha%20Diwas%20(Mother%20Language%20Day).pdf](https://ncert.nic.in/pdf/notice/Matribhasha%20Diwas%20(Mother%20Language%20Day).pdf) | ncert.nic.in | 2021-02-18 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 3 |
+| [MentalHealthWeek.pdf](https://ncert.nic.in/pdf/notice/MentalHealthWeek.pdf) | ncert.nic.in | 2021-09-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 812 | 5 |
+| [Monitoringtools.pdf](https://ncert.nic.in/dee/pdf/Monitoringtools.pdf) | ncert.nic.in | 2014-01-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 29 | 55 | 1523 |
+| [Monu.pdf](https://ncert.nic.in/dee/pdf/Monu.pdf) | ncert.nic.in | 2024-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 607 | 1 |
+| [NDU%20Poster.pdf](https://ncert.nic.in/dee/pdf/NDU%20Poster.pdf) | ncert.nic.in | 2014-05-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 127 | 1 |
+| [NIEGH_Tarrif_Rates_08092025.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/NIEGH_Tarrif_Rates_08092025.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [NOTIFICATION%20%2029-9-2020.pdf](https://ncert.nic.in/pdf/notice/NOTIFICATION%20%2029-9-2020.pdf) | ncert.nic.in | 2020-09-29 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 4 |
+| [NSQF.pdf](https://ncert.nic.in/pdf/notice/NSQF.pdf) | ncert.nic.in | 2021-08-04 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 3 |
+| [NTSE-2015.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/others/students/NTSE-2015.pdf) | ncert.nic.in | 2015-01-05 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 0 | 5 |
+| [NTSE-Notice.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/others/generalpublic/NTSE-Notice.pdf) | ncert.nic.in | 2014-02-24 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [NTSE-Notice28feb2014.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/others/students/NTSE-Notice28feb2014.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [NWAs.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/NWAs.pdf) | ncert.nic.in | 2021-01-20 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 40 | 0 | 40 |
+| [Nagaland.pdf](https://ncert.nic.in/dee/pdf/Nagaland.pdf) | ncert.nic.in | 2016-08-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 82 | 18479 | 82 |
+| [Nari%20Shakti%20Puruskar.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Nari%20Shakti%20Puruskar.pdf) | ncert.nic.in | 2021-01-28 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 0 | 10 |
+| [NatinalAnthem.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/NatinalAnthem.pdf) | ncert.nic.in | 2015-03-16 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 0 | 12 |
+| [Ncte.pdf](https://ncert.nic.in/pdf/notice/Ncte.pdf) | ncert.nic.in | 2021-11-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 3 |
+| [NightCurfewDelhi.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/NightCurfewDelhi.pdf) | ncert.nic.in | 2021-04-12 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 4 |
+| [NodalOfficers.pdf](https://ncert.nic.in/dee/pdf/NodalOfficers.pdf) | ncert.nic.in | 2013-07-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 335 | 0 |
+| [Notice-1168.pdf](https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Notice-1168.pdf) | ncert.nic.in | 2019-12-20 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [OFFICE%20ORDER%20%2029-9-2020.pdf](https://ncert.nic.in/pdf/notice/OFFICE%20ORDER%20%2029-9-2020.pdf) | ncert.nic.in | 2020-09-29 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 15 | 0 | 15 |
+| [OSS_ltr.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/OSS_ltr.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [OccCourse.pdf](https://ncert.nic.in/pdf/notice/OccCourse.pdf) | ncert.nic.in | 2020-10-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 255 | 1 |
+| [Office%20Memorandum.pdf](https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/Office%20Memorandum.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [Office_Memorandum353-421-09-07.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Office_Memorandum353-421-09-07.pdf) | ncert.nic.in | 2025-07-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 221 | 1 |
+| [Officials_dealings.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/Officials_dealings.pdf) | ncert.nic.in | 2021-04-07 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 19 | 0 | 19 |
+| [Order_E1.pdf](https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Order_E1.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Order_regarding_handling_pensioners_work.pdf](https://ncert.nic.in/pdf/announcement/notices/medical/Order_regarding_handling_pensioners_work.pdf) | ncert.nic.in | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 3 |
+| [Orderdated25.03.2021.pdf](https://ncert.nic.in/pdf/announcement/miscellaneous/Orderdated25.03.2021.pdf) | ncert.nic.in | 2021-04-19 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 15 | 0 | 15 |
+| [PM_CARESChildren.pdf](https://ncert.nic.in/pdf/notice/PM_CARESChildren.pdf) | ncert.nic.in | 2021-10-20 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 0 | 27 |
+| [PadanaHaihindi.pdf](https://ncert.nic.in/dee/pdf/PadanaHaihindi.pdf) | ncert.nic.in | 2015-06-15 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 166 | 55576 | 44 |
+| [PadheBharatBadheBharat.pdf](https://ncert.nic.in/dee/pdf/PadheBharatBadheBharat.pdf) | ncert.nic.in | 2014-08-27 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 24 | 5292 | 97 |
+| [Padhne%20ki%20Faham%201__Final.pdf](https://ncert.nic.in/del/pdf/Padhne%20ki%20Faham%201__Final.pdf) | ncert.nic.in | 2015-01-27 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 79 | 0 | 8 |
+| [Padhne%20ki%20Faham_Cover%20&%20Inside%20cover_Final.pdf](https://ncert.nic.in/del/pdf/Padhne%20ki%20Faham_Cover%20&%20Inside%20cover_Final.pdf) | ncert.nic.in | 2015-01-27 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 26 |
+| [Padhne%20ki%20Faham__Final.pdf](https://ncert.nic.in/del/pdf/Padhne%20ki%20Faham__Final.pdf) | ncert.nic.in | 2015-01-27 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 101 | 0 | 14 |
+| [Padhne%20ki%20Faham__Prelims_Urdu.pdf](https://ncert.nic.in/del/pdf/Padhne%20ki%20Faham__Prelims_Urdu.pdf) | ncert.nic.in | 2015-01-27 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 0 | 1 |
+| [PastProj2.pdf](https://ncert.nic.in/dee/pdf/PastProj2.pdf) | ncert.nic.in | 2013-05-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 225 | 0 |
+| [PastProj3.pdf](https://ncert.nic.in/dee/pdf/PastProj3.pdf) | ncert.nic.in | 2013-05-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 111 | 0 |
+| [Pensioncell250222.pdf](https://ncert.nic.in/pdf/announcement/notices/gpfpensionsalary/Pensioncell250222.pdf) | ncert.nic.in | 2022-03-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [Phase-II_report.pdf](https://ncert.nic.in/dee/pdf/Phase-II_report.pdf) | ncert.nic.in | 2019-06-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 208 | 55641 | 240 |
+| [Phase-I_report.pdf](https://ncert.nic.in/dee/pdf/Phase-I_report.pdf) | ncert.nic.in | 2019-06-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 166 | 40675 | 68 |
+| [Poojacv.pdf](https://ncert.nic.in/dee/pdf/Poojacv.pdf) | ncert.nic.in | 2024-11-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 357 | 1 |
+| [Posterguidelines.pdf](https://ncert.nic.in/dee/pdf/Posterguidelines.pdf) | ncert.nic.in | 2016-05-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 1276 | 287 |
+| [Preamblehi.pdf](https://ncert.nic.in/pdf/module/Constitution_Daypdf/Preamblehi.pdf) | ncert.nic.in | 2024-11-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 5 | 595 |
+| [ProcessDocument.pdf](https://ncert.nic.in/dee/pdf/ProcessDocument.pdf) | ncert.nic.in | 2014-04-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 | 2882 | 0 |
+| [Profile.pdf](https://ncert.nic.in/del/pdf/Profile.pdf) | ncert.nic.in | 2018-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 3395 | 41 |
 
 ## Files with Errors or Notes
 
@@ -29934,3 +30125,1161 @@ Generated: 2026-03-19T19:01:42.685162+00:00
 - **URL**: http://www.dot.state.mn.us/environment/pdf/work-plan.pdf
 - **Status**: analysed
 - title, 
+
+### 10_Rubru.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/10_Rubru.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 11_Rest_in_Peace.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/11_Rest_in_Peace.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 11_Yester_Years.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/11_Yester_Years.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 125thBirth_netaji.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/125thBirth_netaji.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 12_Bhavya_Satyagreha_Shram.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/12_Bhavya_Satyagreha_Shram.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 12poster1_6_16.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/12poster1_6_16.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 1_Bhasha_Sangam.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/1_Bhasha_Sangam.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 1stIssueFirkee.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/1stIssueFirkee.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 23SEPFITIndiaQuiz.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/23SEPFITIndiaQuiz.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2_ek_pehchaan.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/2_ek_pehchaan.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 2ndIssueFirkee.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/2ndIssueFirkee.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 3_kala_bhasha.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/3_kala_bhasha.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 3rdIssueFirkee.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/3rdIssueFirkee.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 4_Insight.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/4_Insight.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 4thIssueFirkee.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/4thIssueFirkee.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 5_bhasha_vrintat.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/5_bhasha_vrintat.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 5thIssueFirkee.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/5thIssueFirkee.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 6_Ground_Realities.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/6_Ground_Realities.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 6thIssueFirkee.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/6thIssueFirkee.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 75anniversery.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/75anniversery.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 7_Window_in_the_Classroom.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/7_Window_in_the_Classroom.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 7thIssueFirkee.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/7thIssueFirkee.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 8_Feather_in_the_Cap.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/8_Feather_in_the_Cap.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 8thNRG.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/8thNRG.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 9_rubaru.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/9_rubaru.pdf
+- **Status**: analysed
+- title, lang, 
+
+### A.K.Rajput.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/A.K.Rajput.pdf
+- **Status**: analysed
+- title, 
+
+### AIL-Guidelines-English.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/AIL-Guidelines-English.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### AIL-Guidelines-Hindi.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/AIL-Guidelines-Hindi.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Aadhar%20enabled%20Bio-metric%20attendence%20system.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/Aadhar%20enabled%20Bio-metric%20attendence%20system.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Advisory_for_use_of_email_and_web_services.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/Advisory_for_use_of_email_and_web_services.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Advisoryboard_march2016.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Advisoryboard_march2016.pdf
+- **Status**: analysed
+- title, 
+
+### Advt.DISTRIBUTION-OF-BOOKS-Hindi.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/tender/Advt.DISTRIBUTION-OF-BOOKS-Hindi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Ajmer.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Ajmer.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### AmritMahotsavSubhashChandra.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/AmritMahotsavSubhashChandra.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Approach_paper_del.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Approach_paper_del.pdf
+- **Status**: analysed
+- title, 
+
+### Auction-notice.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/Auction-notice.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Barkha_Eng.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Barkha_Eng.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Barkha_hindi.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Barkha_hindi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### BhashaSangamMazineIV.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/BhashaSangamMazineIV.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Bhopal.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Bhopal.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Bhubneshwar.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Bhubneshwar.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Biharstate.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Biharstate.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BrochureonEarlyLiteracyinHindi.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/BrochureonEarlyLiteracyinHindi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Broucher.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Broucher.pdf
+- **Status**: analysed
+- title, lang, 
+
+### BubblesBubbles.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/BubblesBubbles.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CASNERIE.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/CASNERIE.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CCEAdecisions.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/CCEAdecisions.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CCEDEE25_8_15.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CCEDEE25_8_15.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CCE_Arts_edu.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CCE_Arts_edu.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CCE_English.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CCE_English.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CCE_Exm_Hindi.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CCE_Exm_Hindi.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CCE_Math.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CCE_Math.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CCE_PE_complete_10_1_17.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CCE_PE_complete_10_1_17.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### CCE_Science.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CCE_Science.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CCE_SocialScience.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CCE_SocialScience.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CCE_Urdu.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CCE_Urdu.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CEE-2023_Notice_Hindi.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/CEE-2023_Notice_Hindi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CGHS.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/CGHS.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### COVID_19_Report_MISC.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/COVID_19_Report_MISC.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CProjects1.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/CProjects1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CallforProposal.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/CallforProposal.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Career_Ke_Samuchit_Career_Cards_Bhag2.pdf
+
+- **URL**: https://ncert.nic.in/pdf/CareerGuide/Career_Ke_Samuchit_Career_Cards_Bhag2.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Catalogue%20and%20Glimpses.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Catalogue%20and%20Glimpses.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Changeofadd.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Changeofadd.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Chattisgarh.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Chattisgarh.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Cir_listrie.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Cir_listrie.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Circular-c&w.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Circular-c&w.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Circular-c&wj2j.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Circular-c&wj2j.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Circular_CGHS_facilities_for_NCERT_Pensionars.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/medical/Circular_CGHS_facilities_for_NCERT_Pensionars.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### CnW_20July2020.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/CnW_20July2020.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Covid%20-19_Attendance.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Covid%20-19_Attendance.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### DDE(eng).pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/DDE(eng).pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### DDE(pp).pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/DDE(pp).pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### DEE_haat_corn.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/DEE_haat_corn.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### DEEbharkha1_3_16.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/DEEbharkha1_3_16.pdf
+- **Status**: analysed
+- title, 
+
+### DESMhi_624.pdf
+
+- **URL**: https://ncert.nic.in/desm/pdf/DESMhi_624.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### DO_LETTER.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/DO_LETTER.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### DR_%20V_P.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/DR_%20V_P.pdf
+- **Status**: analysed
+- title, 
+
+### DatabasedigitizationwithAadharNumber.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/DatabasedigitizationwithAadharNumber.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Dhanya.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Dhanya.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Disaster%20Risk%20reduction%20activities%20and%20programmes%20-%20reg.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/Disaster%20Risk%20reduction%20activities%20and%20programmes%20-%20reg.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Dr_Ramesh_Kumar.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Dr_Ramesh_Kumar.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Dr_Sandhya_sangai.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Dr_Sandhya_sangai.pdf
+- **Status**: analysed
+- tagged, 
+
+### E2-28102020.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/E2-28102020.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### ECCE.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/ECCE.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ECS-172-241.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/ECS-172-241.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ELPEnglish25_5_16.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/ELPEnglish25_5_16.pdf
+- **Status**: analysed
+- title, lang, 
+
+### ELPFinal2014_15revised.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/ELPFinal2014_15revised.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ELPhin25_5_16.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/ELPhin25_5_16.pdf
+- **Status**: analysed
+- title, lang, 
+
+### EOI_NTS.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/others/generalpublic/EOI_NTS.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Early_Literacy.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Early_Literacy.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### English_Primary_level.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/English_Primary_level.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FINALETS10.12.13.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/FINALETS10.12.13.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### FNChapter10.pdf
+
+- **URL**: https://ncert.nic.in/pdf/adulteducation/Maths/FNChapter10.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### FNChapter11.pdf
+
+- **URL**: https://ncert.nic.in/pdf/adulteducation/Maths/FNChapter11.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### FNChapter12.pdf
+
+- **URL**: https://ncert.nic.in/pdf/adulteducation/Maths/FNChapter12.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### FNChapter13.pdf
+
+- **URL**: https://ncert.nic.in/pdf/adulteducation/Maths/FNChapter13.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Final_Change_list_Type-I-Type_26-09.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Final_Change_list_Type-I-Type_26-09.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Final_E-tender_NIE-GH_2025.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/tender/Final_E-tender_NIE-GH_2025.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Final_Module_CD.pdf
+
+- **URL**: https://ncert.nic.in/pdf/module/Constitution_Daypdf/Final_Module_CD.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Firkee10issue.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/Firkee10issue.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Firkee8issue.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/Firkee8issue.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Firkee9issue.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/Firkee9issue.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### FirkeeBachchonKi_submission.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeBachchonKi_submission.pdf
+- **Status**: analysed
+- title, lang, 
+
+### FirkeeBachoki-June2019.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeBachoki-June2019.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### FirkeeDecember2019_final.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeDecember2019_final.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### FirkeeDecember2022.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeDecember2022.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### FirkeeDecember2023.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeDecember2023.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### FirkeeJan-June2024.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeJan-June2024.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### FirkeeJan-June2025.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeJan-June2025.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### FirkeeJuly-December2024.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeJuly-December2024.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### FirkeeJuly-December2025.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeJuly-December2025.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### FirkeeJune2022.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeJune2022.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### FirkeeJune2023.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/FirkeeJune2023.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### Firkee_December2020.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/Firkee_December2020.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Firkee_December2021.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/Firkee_December2021.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Firkee_June2021.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/magazine/Firkee_June2021.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### GTE.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/GTE.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### GeM.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/GeM.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### GlobalHandWashingDay.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/GlobalHandWashingDay.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Guidelines%20of%20MHA.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Guidelines%20of%20MHA.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GuidelinesSchool%20SafetySecurity.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/GuidelinesSchool%20SafetySecurity.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### HelplinewomenNCW.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/HelplinewomenNCW.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Hon_PM_MentoringYUVACampaign.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/Hon_PM_MentoringYUVACampaign.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### IEC_Materials.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/IEC_Materials.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### IFFI.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/IFFI.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### In%20the%20light%20of.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/In%20the%20light%20of.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Information_Brochure_2019.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/Information_Brochure_2019.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Insight.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Insight.pdf
+- **Status**: analysed
+- title, lang, 
+
+### InteractionHon'ble_PM_Tokyo%20Olympic_bound_athletes.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/InteractionHon'ble_PM_Tokyo%20Olympic_bound_athletes.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### JDPSSCIVE.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/JDPSSCIVE.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### JEE_notice.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/JEE_notice.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Jun_Dec_2017_quaters_list.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Jun_Dec_2017_quaters_list.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Kavita.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Kavita.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### LI_Final_Copy_Revised_29.12.14.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/LI_Final_Copy_Revised_29.12.14.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### LO_list_2019-20.pdf
+
+- **URL**: https://ncert.nic.in/pdf/programmes/NTSE/LO_list_2019-20.pdf
+- **Status**: analysed
+- title, 
+
+### LOkpal_Lokayuktas_Act.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/others/generalpublic/LOkpal_Lokayuktas_Act.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### LTC_Relaxation.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/LTC_Relaxation.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### LaunchofOnlinePortal_PPP-MIIOrder2017.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/LaunchofOnlinePortal_PPP-MIIOrder2017.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### LetterSJMAPMIndiaVPMIVienna.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/LetterSJMAPMIndiaVPMIVienna.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Letter_Kabariwala.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Letter_Kabariwala.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Likhne%20ki%20shuruat_Cover%201st%20&%204th.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Likhne%20ki%20shuruat_Cover%201st%20&%204th.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Likhne%20ki%20shuruat_Prelium.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Likhne%20ki%20shuruat_Prelium.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### LinksNIE.pdf
+
+- **URL**: https://www.ncert.nic.in/ncertldd/links/pdf/LinksNIE.pdf
+- **Status**: analysed
+- title, 
+
+### List%20of%20Holidays.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/List%20of%20Holidays.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### List_Newly_Empanelled_Access_Auditors-DEPwD.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/List_Newly_Empanelled_Access_Auditors-DEPwD.pdf
+- **Status**: analysed
+- title, 
+
+### MP_Study.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/MP_Study.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Matribhasha%20Diwas%20(Mother%20Language%20Day).pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/Matribhasha%20Diwas%20(Mother%20Language%20Day).pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### MentalHealthWeek.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/MentalHealthWeek.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Monitoringtools.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Monitoringtools.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Monu.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Monu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NDU%20Poster.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/NDU%20Poster.pdf
+- **Status**: analysed
+- title, 
+
+### NIEGH_Tarrif_Rates_08092025.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/NIEGH_Tarrif_Rates_08092025.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### NOTIFICATION%20%2029-9-2020.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/NOTIFICATION%20%2029-9-2020.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NSQF.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/NSQF.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NTSE-2015.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/others/students/NTSE-2015.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NTSE-Notice.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/others/generalpublic/NTSE-Notice.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NTSE-Notice28feb2014.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/others/students/NTSE-Notice28feb2014.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### NWAs.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/NWAs.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Nagaland.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Nagaland.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Nari%20Shakti%20Puruskar.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Nari%20Shakti%20Puruskar.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NatinalAnthem.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/NatinalAnthem.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Ncte.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/Ncte.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NightCurfewDelhi.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/NightCurfewDelhi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NodalOfficers.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/NodalOfficers.pdf
+- **Status**: analysed
+- title, 
+
+### Notice-1168.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/campusWelfare/Notice-1168.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### OFFICE%20ORDER%20%2029-9-2020.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/OFFICE%20ORDER%20%2029-9-2020.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### OSS_ltr.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/OSS_ltr.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### OccCourse.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/OccCourse.pdf
+- **Status**: analysed
+- title, 
+
+### Office%20Memorandum.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/archive/staffmembers/miscellaneous/Office%20Memorandum.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Office_Memorandum353-421-09-07.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Office_Memorandum353-421-09-07.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Officials_dealings.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/Officials_dealings.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Order_E1.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/miscellaneous/Order_E1.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Order_regarding_handling_pensioners_work.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/medical/Order_regarding_handling_pensioners_work.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Orderdated25.03.2021.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/miscellaneous/Orderdated25.03.2021.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### PM_CARESChildren.pdf
+
+- **URL**: https://ncert.nic.in/pdf/notice/PM_CARESChildren.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### PadanaHaihindi.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/PadanaHaihindi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### PadheBharatBadheBharat.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/PadheBharatBadheBharat.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Padhne%20ki%20Faham%201__Final.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Padhne%20ki%20Faham%201__Final.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Padhne%20ki%20Faham_Cover%20&%20Inside%20cover_Final.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Padhne%20ki%20Faham_Cover%20&%20Inside%20cover_Final.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Padhne%20ki%20Faham__Final.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Padhne%20ki%20Faham__Final.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Padhne%20ki%20Faham__Prelims_Urdu.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Padhne%20ki%20Faham__Prelims_Urdu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### PastProj2.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/PastProj2.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### PastProj3.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/PastProj3.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Pensioncell250222.pdf
+
+- **URL**: https://ncert.nic.in/pdf/announcement/notices/gpfpensionsalary/Pensioncell250222.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Phase-II_report.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Phase-II_report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Phase-I_report.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Phase-I_report.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Poojacv.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Poojacv.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Posterguidelines.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Posterguidelines.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Preamblehi.pdf
+
+- **URL**: https://ncert.nic.in/pdf/module/Constitution_Daypdf/Preamblehi.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ProcessDocument.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/ProcessDocument.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Profile.pdf
+
+- **URL**: https://ncert.nic.in/del/pdf/Profile.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Pustakon_se_pare_hamara%20_paryavaran.pdf
+
+- **URL**: https://ncert.nic.in/dee/pdf/Pustakon_se_pare_hamara%20_paryavaran.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
