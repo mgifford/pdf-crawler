@@ -31,6 +31,33 @@ and deployable entirely on GitHub Pages + GitHub Actions – no server needed.
 
 ---
 
+## Interpreting results
+
+The automated checks above are a **first step**, not a complete accessibility
+audit.
+
+| Level | What it tells you |
+|-------|-------------------|
+| All checks pass | The document meets a basic set of machine-testable criteria. |
+| [veraPDF](https://verapdf.org/) pass | The document also conforms to PDF/A or PDF/UA as verified by the leading open-source conformance checker (run separately). |
+| Manual review complete | The document has been tested by a person using assistive technology — the only way to confirm true accessibility. |
+
+Passing every automated check is good.  Passing [veraPDF](https://verapdf.org/)
+as well is better.
+**Manual testing is still required and will always be required.**  Automated
+tools cannot evaluate reading order, meaningful link text, appropriate use of
+heading levels, table header associations, or the accessibility of form fields,
+among other criteria.
+
+### Further reading
+
+- [PDF Accessibility Checklist – Canada.ca](https://a11y.canada.ca/en/pdf-accessibility-checklist/)
+  — a practical, human-centred checklist for evaluating PDF accessibility.
+- [Tagged PDF Q&A – PDF Association](https://pdfa.org/resource/tagged-pdf-q-a/)
+  — authoritative answers on PDF tagging from the PDF standards body.
+
+---
+
 ## Quick start
 
 ### 1 – Submit a crawl via the web form
