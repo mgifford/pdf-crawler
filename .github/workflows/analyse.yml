@@ -221,6 +221,7 @@ jobs:
           CRAWL_SITE=""
           MAX_PAGES="500"
           MAX_PDFS="200"
+          RUN_VERAPDF="false"
           if [ -f scan-meta/issue_number.txt ]; then
             ISSUE_NUMBER=$(cat scan-meta/issue_number.txt | tr -d '[:space:]')
           fi
@@ -242,21 +243,52 @@ jobs:
               MAX_PDFS="$PARSED"
             fi
           fi
+          if [ -f scan-meta/verapdf.txt ]; then
+            PARSED=$(cat scan-meta/verapdf.txt | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')
+            if [ "$PARSED" = "true" ]; then
+              RUN_VERAPDF="true"
+            fi
+          fi
           echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
           echo "crawl_url=$CRAWL_URL"       >> "$GITHUB_OUTPUT"
           echo "crawl_site=$CRAWL_SITE"     >> "$GITHUB_OUTPUT"
           echo "max_pages=$MAX_PAGES"       >> "$GITHUB_OUTPUT"
           echo "max_pdfs=$MAX_PDFS"         >> "$GITHUB_OUTPUT"
+          echo "run_verapdf=$RUN_VERAPDF"   >> "$GITHUB_OUTPUT"
 
       - name: Pull latest manifest
         run: |
           git pull --rebase origin "${{ github.ref_name }}" || true
+
+      - name: Install veraPDF
+        # Only install when the scan requested it (veraPDF/VERAPDF in issue title).
+        # veraPDF is a Java application; we pin to a known stable release for
+        # reproducibility.  See https://github.com/veraPDF/veraPDF-library/releases.
+        if: steps.meta.outputs.run_verapdf == 'true'
+        run: |
+          sudo apt-get install -y --no-install-recommends default-jre-headless
+          VERAPDF_VERSION="1.26.2"
+          mkdir -p /tmp/verapdf-install
+          curl -sL \
+            "https://github.com/veraPDF/veraPDF-library/releases/download/v${VERAPDF_VERSION}/verapdf-greenfield-${VERAPDF_VERSION}.zip" \
+            -o /tmp/verapdf-install/verapdf.zip
+          unzip -q /tmp/verapdf-install/verapdf.zip -d /tmp/verapdf-install/
+          VERAPDF_BIN=$(find /tmp/verapdf-install -maxdepth 2 -name "verapdf" -type f | head -1)
+          if [ -z "$VERAPDF_BIN" ]; then
+            echo "::error::veraPDF binary not found after extraction"
+            exit 1
+          fi
+          VERAPDF_DIR=$(dirname "$VERAPDF_BIN")
+          echo "$VERAPDF_DIR" >> "$GITHUB_PATH"
+          echo "veraPDF installed from $VERAPDF_DIR"
+          "$VERAPDF_BIN" --version || true
 
       - name: Analyse PDFs for accessibility issues
         env:
           CRAWL_SITE:      ${{ steps.meta.outputs.crawl_site }}
           CRAWL_MAX_PAGES: ${{ steps.meta.outputs.max_pages }}
           CRAWL_MAX_PDFS:  ${{ steps.meta.outputs.max_pdfs }}
+          RUN_VERAPDF:     ${{ steps.meta.outputs.run_verapdf }}
         run: |
           KEEP_FLAG=""
           if [ "${{ github.event.inputs.keep_files }}" = "true" ]; then
@@ -274,6 +306,10 @@ jobs:
             MAX_PDFS="200"
           fi
           MAX_FILES_FLAG="--max-files $MAX_PDFS"
+          VERAPDF_FLAG=""
+          if [ "$RUN_VERAPDF" = "true" ]; then
+            VERAPDF_FLAG="--verapdf"
+          fi
           python scripts/pdf_analyser.py \
             --manifest reports/manifest.yaml \
             --crawled-dir crawled_files \
@@ -281,6 +317,7 @@ jobs:
             --total-timeout 2400 \
             $SITE_FLAG \
             $MAX_FILES_FLAG \
+            $VERAPDF_FLAG \
             $KEEP_FLAG
 
       - name: Generate accessibility reports

@@ -135,6 +135,7 @@ jobs:
             echo "max_pdfs="                    >> "$GITHUB_OUTPUT"
             echo "issue_number="                >> "$GITHUB_OUTPUT"
             echo "notes="                       >> "$GITHUB_OUTPUT"
+            echo "verapdf=false"                >> "$GITHUB_OUTPUT"
           else
             # 1. Try to extract the URL from the issue title (after the prefix).
             STRIPPED=$(echo "$ISSUE_TITLE" \
@@ -233,12 +234,21 @@ jobs:
               fi
             fi
 
+            # 8. Detect optional veraPDF flag: when the issue title contains
+            #    "veraPDF" (case-insensitive) a full veraPDF scan is added on
+            #    top of the built-in accessibility checks.
+            RUN_VERAPDF="false"
+            if echo "$ISSUE_TITLE" | grep -Eqi 'verapdf'; then
+              RUN_VERAPDF="true"
+            fi
+
             echo "url=$URL"                   >> "$GITHUB_OUTPUT"
             echo "timeout=3600"               >> "$GITHUB_OUTPUT"
             echo "max_pages=$MAX_PAGES"       >> "$GITHUB_OUTPUT"
             echo "max_pdfs=$MAX_PDFS"         >> "$GITHUB_OUTPUT"
             echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
             echo "notes=$NOTES"               >> "$GITHUB_OUTPUT"
+            echo "verapdf=$RUN_VERAPDF"       >> "$GITHUB_OUTPUT"
           fi
 
       - name: Comment on issue when crawl setup fails
@@ -458,6 +468,7 @@ jobs:
           CRAWL_NOTES:     ${{ steps.params.outputs.notes }}
           CRAWL_MAX_PAGES: ${{ steps.params.outputs.max_pages }}
           CRAWL_MAX_PDFS:  ${{ steps.params.outputs.max_pdfs }}
+          CRAWL_VERAPDF:   ${{ steps.params.outputs.verapdf }}
         run: |
           mkdir -p scan-meta
           echo "$ISSUE_NUMBER"    > scan-meta/issue_number.txt
@@ -465,6 +476,7 @@ jobs:
           echo "$CRAWL_NOTES"     > scan-meta/notes.txt
           echo "$CRAWL_MAX_PAGES" > scan-meta/max_pages.txt
           echo "$CRAWL_MAX_PDFS"  > scan-meta/max_pdfs.txt
+          echo "$CRAWL_VERAPDF"   > scan-meta/verapdf.txt
           # Extract and save the site/domain for per-site scoping in the analysis step.
           # This mirrors the _site_folder() helper in scripts/crawl.py: lowercase the
           # netloc and strip a leading www. prefix (e.g. www.Ontario.ca → ontario.ca).

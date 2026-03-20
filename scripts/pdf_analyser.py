@@ -28,6 +28,8 @@ from __future__ import annotations
 import multiprocessing
 import os
 import re
+import shutil
+import subprocess
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
@@ -61,10 +63,140 @@ DEADLINE_DATE_STR = "2018-09-23T00:00:00+02:00"
 
 
 # ---------------------------------------------------------------------------
+# Optional veraPDF validation
+# ---------------------------------------------------------------------------
+
+def run_verapdf(filepath: str) -> Optional[Dict[str, Any]]:
+    """Run veraPDF (PDF/UA-1) against *filepath* and return a summary dict.
+
+    Returns ``None`` when veraPDF is not installed (i.e. ``verapdf`` is not on
+    PATH), so the rest of the analysis can proceed without error.
+
+    veraPDF must be installed separately; see https://verapdf.org/.
+    The PDF/UA-1 profile (ISO 14289-1) is used because it is the primary
+    accessibility conformance standard targeted by this project.
+
+    Returns:
+        A dict with keys:
+
+        ``compliant``      (bool | None) – True if the file passes PDF/UA-1.
+        ``profile``        (str  | None) – Profile name reported by veraPDF.
+        ``failed_checks``  (int  | None) – Number of failed checks.
+        ``passed_checks``  (int  | None) – Number of passed checks.
+        ``failed_rules``   (list[str])   – Clause references of failed rules.
+        ``error``          (str  | None) – Error message if veraPDF itself failed.
+
+        or ``None`` if veraPDF is not available.
+
+    References
+    ----------
+    - https://docs.verapdf.org/cli/
+    - ISO 14289-1 (PDF/UA-1)
+    """
+    if not shutil.which("verapdf"):
+        return None
+
+    result: Dict[str, Any] = {
+        "compliant": None,
+        "profile": None,
+        "failed_checks": None,
+        "passed_checks": None,
+        "failed_rules": [],
+        "error": None,
+    }
+
+    try:
+        proc = subprocess.run(
+            ["verapdf", "--flavour", "ua1", "--format", "mrr", filepath],
+            capture_output=True,
+            text=True,
+            timeout=120,
+        )
+        raw = proc.stdout.strip()
+        if not raw:
+            result["error"] = proc.stderr.strip() or "veraPDF produced no output"
+            return result
+
+        root = ET.fromstring(raw)
+
+        # Locate the <validationReport> element (namespace-agnostic).
+        val_report = None
+        for elem in root.iter():
+            local = elem.tag.split("}")[-1] if "}" in elem.tag else elem.tag
+            if local == "validationReport":
+                val_report = elem
+                break
+
+        if val_report is None:
+            # veraPDF emits <exceptionMessage> for unreadable files.
+            for elem in root.iter():
+                local = elem.tag.split("}")[-1] if "}" in elem.tag else elem.tag
+                if local == "exceptionMessage":
+                    result["error"] = elem.text or "veraPDF exception (no message)"
+                    return result
+            result["error"] = "No validationReport element in veraPDF output"
+            return result
+
+        result["profile"] = val_report.get("profileName")
+        compliant_str = (val_report.get("isCompliant") or "").lower()
+        if compliant_str in ("true", "false"):
+            result["compliant"] = compliant_str == "true"
+
+        # Locate the <details> element inside validationReport.
+        details = None
+        for elem in val_report.iter():
+            local = elem.tag.split("}")[-1] if "}" in elem.tag else elem.tag
+            if local == "details":
+                details = elem
+                break
+
+        if details is not None:
+            for attr, key in (
+                ("failedChecks", "failed_checks"),
+                ("passedChecks", "passed_checks"),
+            ):
+                val = details.get(attr)
+                if val is not None:
+                    try:
+                        result[key] = int(val)
+                    except ValueError:
+                        pass
+
+            failed_rules: List[str] = []
+            for elem in details.iter():
+                local = elem.tag.split("}")[-1] if "}" in elem.tag else elem.tag
+                if local == "rule" and elem.get("status") == "FAILED":
+                    clause = elem.get("clause", "")
+                    test_num = elem.get("testNumber", "")
+                    ref = (
+                        f"{clause}-{test_num}"
+                        if clause and test_num
+                        else (clause or test_num)
+                    )
+                    if ref:
+                        failed_rules.append(ref)
+            result["failed_rules"] = failed_rules
+
+    except subprocess.TimeoutExpired:
+        result["error"] = "veraPDF timed out (120s limit)"
+    except ET.ParseError as exc:
+        result["error"] = f"veraPDF XML parse error: {exc}"
+    except Exception as exc:
+        result["error"] = f"veraPDF error: {exc}"
+
+    return result
+
+
+# ---------------------------------------------------------------------------
 # Per-file analysis with a hard process-level timeout
 # ---------------------------------------------------------------------------
 
-def _run_check_file_worker(filename: str, site: str, queue: "multiprocessing.Queue") -> None:
+def _run_check_file_worker(
+    filename: str,
+    site: str,
+    queue: "multiprocessing.Queue",
+    run_verapdf_check: bool = False,
+) -> None:
     """Worker function run inside a child process.
 
     Calls check_file() and places ``(True, result)`` on *queue* on success, or
@@ -73,13 +205,18 @@ def _run_check_file_worker(filename: str, site: str, queue: "multiprocessing.Que
     reliably terminates any blocking C-extension call (e.g. pdfminer/pikepdf).
     """
     try:
-        result = check_file(filename, site=site)
+        result = check_file(filename, site=site, run_verapdf_check=run_verapdf_check)
         queue.put((True, result))
     except Exception as exc:  # pragma: no cover
         queue.put((False, str(exc)))
 
 
-def _analyse_with_process_timeout(filename: str, site: str, timeout: int) -> dict:
+def _analyse_with_process_timeout(
+    filename: str,
+    site: str,
+    timeout: int,
+    run_verapdf_check: bool = False,
+) -> dict:
     """Run check_file() in a child process with a hard wall-clock *timeout*.
 
     Unlike SIGALRM (which cannot interrupt blocking C-extension calls),
@@ -90,6 +227,8 @@ def _analyse_with_process_timeout(filename: str, site: str, timeout: int) -> dic
         filename: Path to the PDF file to analyse.
         site: Site/domain string passed to check_file().
         timeout: Maximum seconds to wait for the child process.
+        run_verapdf_check: When True, veraPDF is invoked inside the child
+            process if it is available on PATH.
 
     Returns:
         The analysis result dict returned by check_file().
@@ -102,7 +241,7 @@ def _analyse_with_process_timeout(filename: str, site: str, timeout: int) -> dic
     queue: multiprocessing.Queue = ctx.Queue()
     proc = ctx.Process(
         target=_run_check_file_worker,
-        args=(filename, site, queue),
+        args=(filename, site, queue, run_verapdf_check),
         daemon=True,
     )
     proc.start()
@@ -270,8 +409,20 @@ def _count_words(filename: str) -> Optional[int]:
 # Core check function
 # ---------------------------------------------------------------------------
 
-def check_file(filename: str, site: str = None) -> Dict[str, Any]:
-    """Run all accessibility checks on *filename* and return a result dict."""
+def check_file(
+    filename: str,
+    site: str = None,
+    run_verapdf_check: bool = False,
+) -> Dict[str, Any]:
+    """Run all accessibility checks on *filename* and return a result dict.
+
+    Args:
+        filename: Path to the PDF file.
+        site: Optional site/domain string (currently unused in checks).
+        run_verapdf_check: When True and veraPDF is on PATH, run veraPDF
+            (PDF/UA-1) against the file and store the result under the
+            ``veraPDF`` key in the returned dict.
+    """
     result: Dict[str, Any] = {
         "Accessible": True,
         "TotallyInaccessible": False,
@@ -506,6 +657,10 @@ def check_file(filename: str, site: str = None) -> Dict[str, Any]:
     if result["ProtectedTest"] == "Fail":
         result["TotallyInaccessible"] = True
 
+    # Optional veraPDF (PDF/UA-1) validation.
+    if run_verapdf_check:
+        result["veraPDF"] = run_verapdf(filename)
+
     return result
 
 
@@ -536,6 +691,7 @@ def main(
     max_age_days: Optional[int] = None,
     max_files: Optional[int] = None,
     total_timeout: Optional[int] = None,
+    run_verapdf: bool = False,
 ) -> None:
     """Analyse pending PDFs and update the manifest.
 
@@ -560,6 +716,9 @@ def main(
             processed on the next run. Useful for staying within CI time
             limits so that report generation can still complete in the same
             job.
+        run_verapdf: When True, run veraPDF (PDF/UA-1) against each PDF if
+            ``verapdf`` is available on PATH and store the result in the
+            manifest under the ``veraPDF`` key.
     """
     print(f"pikepdf version: {pikepdf.__version__}")
 
@@ -584,6 +743,11 @@ def main(
             f"  Stale-entry threshold: entries older than {max_age_days} day(s) "
             "without a local file will be marked as stale errors and skipped."
         )
+    if run_verapdf:
+        if shutil.which("verapdf"):
+            print("  veraPDF: enabled (found on PATH) – PDF/UA-1 validation will run per file.")
+        else:
+            print("  veraPDF: requested but not found on PATH – veraPDF checks will be skipped.")
 
     accessible_count = 0
     issues_count = 0
@@ -718,7 +882,9 @@ def main(
         t_start = time.monotonic()
 
         try:
-            report = _analyse_with_process_timeout(str(local_path), site, per_file_timeout)
+            report = _analyse_with_process_timeout(
+                str(local_path), site, per_file_timeout, run_verapdf
+            )
 
             elapsed = time.monotonic() - t_start
             log_msg = report.pop("_log", "")
@@ -739,6 +905,25 @@ def main(
                 for name, val in checks.items()
             )
             print(f"    Checks: {check_str}")
+            if run_verapdf and "veraPDF" in report:
+                vp = report["veraPDF"]
+                if vp is None:
+                    vp_str = "veraPDF: not available (not on PATH)"
+                elif vp.get("error"):
+                    vp_str = f"veraPDF: error – {vp['error']}"
+                else:
+                    label = (
+                        "Pass" if vp.get("compliant") is True
+                        else "Fail" if vp.get("compliant") is False
+                        else "—"
+                    )
+                    failed = vp.get("failed_checks", "?")
+                    passed = vp.get("passed_checks", "?")
+                    vp_str = (
+                        f"veraPDF (PDF/UA-1): {label} "
+                        f"(failed: {failed}, passed: {passed})"
+                    )
+                print(f"    {vp_str}")
             print(f"    Elapsed: {elapsed:.1f}s")
 
             if report.get("BrokenFile"):
@@ -868,6 +1053,16 @@ if __name__ == "__main__":
             "limits so that report generation can still complete in the same job."
         ),
     )
+    parser.add_argument(
+        "--verapdf",
+        action="store_true",
+        help=(
+            "Run veraPDF (PDF/UA-1) against each PDF in addition to the built-in "
+            "checks. Results are stored in the manifest under the 'veraPDF' key. "
+            "Requires veraPDF to be installed and available on PATH; "
+            "see https://verapdf.org/. Has no effect when veraPDF is absent."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -879,4 +1074,5 @@ if __name__ == "__main__":
         max_age_days=args.max_age_days,
         max_files=args.max_files,
         total_timeout=args.total_timeout,
+        run_verapdf=args.verapdf,
     )
