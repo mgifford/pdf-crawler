@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-20T22:03:32.366241+00:00",
+    "site": "energy.gov",
+    "crawl_url": "https://www.energy.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23362394864",
+    "issue_url": "",
+    "archive_file": "2026-03-20_22-03-32-366_energy.gov.html",
+    "total": 562,
+    "analysed": 515,
+    "accessible": 174
+  },
+  {
     "date": "2026-03-20T20:09:53.913228+00:00",
     "site": "dnr.state.mn.us",
     "crawl_url": "https://www.dnr.state.mn.us/",

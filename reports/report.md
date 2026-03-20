@@ -1,20 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-20T20:09:53.913228+00:00
+Generated: 2026-03-20T22:03:32.366241+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 505 |
-| Total files tracked | 16868 |
-| Analysed | 4175 |
-| Pending analysis | 10477 |
-| Errors during analysis | 2216 |
-| Accessible | 1342 |
-| Totally inaccessible | 131 |
+| Total files tracked | 16973 |
+| Analysed | 4295 |
+| Pending analysis | 10437 |
+| Errors during analysis | 2241 |
+| Accessible | 1372 |
+| Totally inaccessible | 133 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 967 |
+| Exempt (pre-2018) | 1019 |
 
 ## Files per Site
 
@@ -37,7 +36,7 @@ Generated: 2026-03-20T20:09:53.913228+00:00
 | ec.europa.eu | 199 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 457 |
+| energy.gov | 562 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gsa.gov | 450 |
@@ -4238,11 +4237,131 @@ Generated: 2026-03-20T20:09:53.913228+00:00
 | [yn_cranes_study_questions.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_cranes_study_questions.pdf) | dnr.state.mn.us | 2022-04-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 734 | 1 |
 | [yn_cranes_teachers_guide.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_cranes_teachers_guide.pdf) | dnr.state.mn.us | 2022-04-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2691 | 1 |
 | [yn_sandhills.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_sandhills.pdf) | dnr.state.mn.us | 2021-01-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2280 | 14 |
+| [1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf](https://www.energy.gov/sites/default/files/2025-06/1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf) | energy.gov | 2025-03-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1217 | 1 |
+| [2024_Impact%20Flyer%20-%20website%20version.pdf](https://www.energy.gov/sites/default/files/2025-05/2024_Impact%20Flyer%20-%20website%20version.pdf) | energy.gov | 2025-03-31 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 537 | 10 |
+| [3118-sasc-nomination-testimonypdf.pdf](https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf) | energy.gov | 2018-02-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 755 | 0 |
+| [DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf](https://www.energy.gov/sites/default/files/2025-11/DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf) | energy.gov | 2025-10-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 73 | 18302 | 58 |
+| [MSIPP%20FY2022%20%20Impact_2.pdf](https://www.energy.gov/sites/default/files/2023-06/MSIPP%20FY2022%20%20Impact_2.pdf) | energy.gov | 2023-04-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 923 | 3 |
+| [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 22 | 7021 | 7 |
+| [amw-nomination-testimony-jan-18-18pdf.pdf](https://www.energy.gov/documents/amw-nomination-testimony-jan-18-18pdf) | energy.gov | 2018-08-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 174 | 0 |
+| [applying-msipp-grants.pdf](https://www.energy.gov/nnsa/articles/applying-msipp-grants) | energy.gov | 2023-03-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2436 | 1 |
+| [centralia-order-no-202-26-18.pdf](https://www.energy.gov/documents/centralia-order-no-202-26-18) | energy.gov | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2703 | 1 |
+| [final-hasc-em-fy18-written-testimonypdf.pdf](https://www.energy.gov/documents/final-hasc-em-fy18-written-testimonypdf) | energy.gov | 2017-05-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 | 2679 | 0 |
+| [final-sasc-em-fy18-written-testimonypdf.pdf](https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf) | energy.gov | 2017-05-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 | 2678 | 0 |
+| [fossil-energy-fy-2009-budget.pdf](https://www.energy.gov/hgeo/articles/fossil-energy-fy-2009-budget) | energy.gov | 2013-05-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 | 3375 | 0 |
+| [gto-quarterly-update-q1-2020.pdf](https://www.energy.gov/hgeo/geothermal/articles/gto-quarterly-update-q1-2020) | energy.gov | 2020-01-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 30 | 1644 | 136 |
+| [guide-financial-assistance-october-2024pdf.pdf](https://www.energy.gov/documents/guide-financial-assistance-october-2024pdf) | energy.gov | 2025-01-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 116 | 46444 | 1 |
+| [next-generation-nuclear-plant-report-congress.pdf](https://www.energy.gov/ne/articles/next-generation-nuclear-plant-report-congress) | energy.gov | 2010-04-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 36 | 11886 | 498 |
+| [ord4446-B.pdf](https://www.energy.gov/sites/default/files/2026-03/ord4446-B.pdf) | energy.gov | 2026-03-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 68 | 22266 | 0 |
 | [march-2023-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/march-2023-thank-you.pdf) | dnr.state.mn.us | 2023-03-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 | 25097 | 26 |
 | [march_2024_thank_you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/march_2024_thank_you.pdf) | dnr.state.mn.us | 2024-02-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 23147 | 23 |
 | [sep-oct-2022-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/sep-oct-2022-thank-you.pdf) | dnr.state.mn.us | 2022-08-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 32 | 31103 | 32 |
 | [sep-oct-2023-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/sep-oct-2023-thank-you.pdf) | dnr.state.mn.us | 2023-09-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 | 25767 | 28 |
 | [september-2024-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/september-2024-thank-you.pdf) | dnr.state.mn.us | 2024-09-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 26 | 24094 | 25 |
+| [2019ssl-energy-savings-forecastpdf-0.pdf](https://www.energy.gov/documents/2019ssl-energy-savings-forecastpdf-0) | energy.gov | 2020-02-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 128 | 41030 | 54 |
+| [2910-1572_Washington_State_University_Summary.pdf](https://www.energy.gov/sites/default/files/2024-01/2910-1572_Washington_State_University_Summary.pdf) | energy.gov | 2024-01-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 392 | 0 |
+| [AMO%20Semiconductor%20Workshop%20II%20Report%20FINAL_compliant_02-08-2022.pdf](https://www.energy.gov/sites/default/files/2022-02/AMO%20Semiconductor%20Workshop%20II%20Report%20FINAL_compliant_02-08-2022.pdf) | energy.gov | 2022-02-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 71 | 25884 | 36 |
+| [All_Investing-in-America_December-2024_0.pdf](https://www.energy.gov/sites/default/files/2025-01/All_Investing-in-America_December-2024_0.pdf) | energy.gov | 2025-01-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 100 | 24190 | 150 |
+| [An-executives-guide-to-AI.pdf](https://www.energy.gov/sites/default/files/2018/05/f51/An-executives-guide-to-AI.pdf) | energy.gov | 2018-02-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 | 4420 | 7 |
+| [BETO%20Multi-Year%20Program%20Plan%20FY23_0.pdf](https://www.energy.gov/sites/default/files/2024-11/BETO%20Multi-Year%20Program%20Plan%20FY23_0.pdf) | energy.gov | 2023-03-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 76 | 20459 | 173 |
+| [Cybersecurity%20Considerations%20for%20Distributed%20Energy%20Resources%20on%20the%20U.S.%20Electric%20Grid.pdf](https://www.energy.gov/sites/default/files/2022-10/Cybersecurity%20Considerations%20for%20Distributed%20Energy%20Resources%20on%20the%20U.S.%20Electric%20Grid.pdf) | energy.gov | 2022-10-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 31 | 11989 | 5 |
+| [DE-FOA-0003371_Webinar_Presentation%20%281%29.pdf](https://www.energy.gov/sites/default/files/2024-10/DE-FOA-0003371_Webinar_Presentation%20%281%29.pdf) | energy.gov | 2024-10-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 52 | 5837 | 73 |
+| [DOE-FOA-2740-Teaming-Partner-List_updated-3-12-2023.pdf](https://www.energy.gov/sites/default/files/2023-03/DOE-FOA-2740-Teaming-Partner-List_updated-3-12-2023.pdf) | energy.gov | 2023-03-31 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 6920 | 0 |
+| [DOE-FY2019-Budget-Volume-3-Part-1_0.pdf](https://www.energy.gov/sites/prod/files/2018/03/f49/DOE-FY2019-Budget-Volume-3-Part-1_0.pdf) | energy.gov | 2018-03-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 524 | 130897 | 26 |
+| [EEIO-IIA-model-documentation_9_01_23_v2.pdf](https://www.energy.gov/sites/default/files/2025-12/EEIO-IIA-model-documentation_9_01_23_v2.pdf) | energy.gov | 2025-12-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 60 | 16351 | 13 |
+| [Elective_Pay_Fact_Sheet_Territories_073124.pdf](https://www.energy.gov/sites/default/files/2024-08/Elective_Pay_Fact_Sheet_Territories_073124.pdf) | energy.gov | 2024-07-31 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1441 | 2 |
+| [Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf](https://www.energy.gov/sites/default/files/2020/12/f81/Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf) | energy.gov | 2020-12-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 157 | 61649 | 119 |
+| [FCAB%20Year%20End%20Report%20Oct%202021%20FINAL.pdf](https://www.energy.gov/sites/default/files/2021-12/FCAB%20Year%20End%20Report%20Oct%202021%20FINAL.pdf) | energy.gov | 2021-12-06 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 505 | 2 |
+| [FY2017BudgetVolume3.pdf](https://www.energy.gov/sites/prod/files/2016/02/f30/FY2017BudgetVolume3.pdf) | energy.gov | 2016-02-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 822 | 234372 | 10 |
+| [FY21-DOEAnnualReport_ConfActivities_Web_0.pdf](https://www.energy.gov/sites/default/files/2022-01/FY21-DOEAnnualReport_ConfActivities_Web_0.pdf) | energy.gov | 2022-01-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 503 | 0 |
+| [FY22-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2023-01/FY22-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2023-01-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 1283 | 5 |
+| [FY23-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2024-01/FY23-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2024-01-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 1642 | 5 |
+| [FY24-DOE-Conference-Activity-Annual-Report.pdf](https://www.energy.gov/sites/default/files/2025-01/FY24-DOE-Conference-Activity-Annual-Report.pdf) | energy.gov | 2025-01-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 2605 | 7 |
+| [FY24SSMP_FINAL_NOVEMBER_2023_0.pdf](https://www.energy.gov/sites/default/files/2023-11/FY24SSMP_FINAL_NOVEMBER_2023_0.pdf) | energy.gov | 2023-11-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 335 | 127163 | 279 |
+| [GRIP_Call-for-Reviewers_March-13-2023.pdf](https://www.energy.gov/sites/default/files/2023-03/GRIP_Call-for-Reviewers_March-13-2023.pdf) | energy.gov | 2023-03-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 460 | 2 |
+| [Indiana_Investing-in-America_December-2024_0.pdf](https://www.energy.gov/sites/default/files/2025-01/Indiana_Investing-in-America_December-2024_0.pdf) | energy.gov | 2025-01-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 484 | 3 |
+| [MESC_Request_For_Information_Supply_Chain.pdf](https://www.energy.gov/sites/default/files/2024-04/MESC_Request_For_Information_Supply_Chain.pdf) | energy.gov | 2024-04-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2768 | 2 |
+| [MMRV%20Framework%20US%20Stakeholder%20Meeting_Final_15Sept2023.pdf](https://www.energy.gov/sites/default/files/2023-09/MMRV%20Framework%20US%20Stakeholder%20Meeting_Final_15Sept2023.pdf) | energy.gov | 2023-09-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 | 1733 | 111 |
+| [Mercury%20Treatment%20Facility_2024.pdf](https://www.energy.gov/sites/default/files/2023-12/Mercury%20Treatment%20Facility_2024.pdf) | energy.gov | 2023-12-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 359 | 8 |
+| [NSLSII_Lessons_Learned_2015-08_0.pdf](https://www.energy.gov/sites/prod/files/2016/02/f29/NSLSII_Lessons_Learned_2015-08_0.pdf) | energy.gov | 2015-10-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 36 | 10893 | 100 |
+| [Order%20No.%20202-25-10.pdf](https://www.energy.gov/sites/default/files/2025-11/Order%20No.%20202-25-10.pdf) | energy.gov | 2025-11-25 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3557 | 2 |
+| [Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf](https://www.energy.gov/sites/default/files/2022-05/Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf) | energy.gov | 2022-05-25 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 86 | 22399 | 16 |
+| [Supply%20Chain%20Progress%20Report%20-%20August%202023.pdf](https://www.energy.gov/sites/default/files/2023-08/Supply%20Chain%20Progress%20Report%20-%20August%202023.pdf) | energy.gov | 2023-08-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 38 | 10577 | 45 |
+| [Tips_for_a_Strong_FOA_App_FINAL_.pdf](https://www.energy.gov/sites/default/files/2024-03/Tips_for_a_Strong_FOA_App_FINAL_.pdf) | energy.gov | 2024-03-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 73 | 6987 | 203 |
+| [U.S.%20Hydropower%20Market%20Report%202023%20Edition.pdf](https://www.energy.gov/sites/default/files/2023-09/U.S.%20Hydropower%20Market%20Report%202023%20Edition.pdf) | energy.gov | 2023-09-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 138 | 58518 | 21 |
+| [Water%20Security%20Workshop%20Summary_0.pdf](https://www.energy.gov/sites/prod/files/2019/07/f64/Water%20Security%20Workshop%20Summary_0.pdf) | energy.gov | 2019-07-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 46 | 18351 | 8 |
+| [ZEDD-Application-Instructions-opt.pdf](https://www.energy.gov/sites/default/files/2022-05/ZEDD-Application-Instructions-opt.pdf) | energy.gov | 2022-05-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 1086 | 2 |
+| [ZERH%20MH%20V1%20Policy%20Record%20-%209-11-23.pdf](https://www.energy.gov/sites/default/files/2023-09/ZERH%20MH%20V1%20Policy%20Record%20-%209-11-23.pdf) | energy.gov | 2023-09-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1326 | 0 |
+| [annualreportonpart810processingfy2017pdf.pdf](https://www.energy.gov/documents/annualreportonpart810processingfy2017pdf) | energy.gov | 2018-05-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 11 | 2709 | 11 |
+| [appendix-part-625-title-10.pdf](https://www.energy.gov/documents/appendix-part-625-title-10) | energy.gov | 2025-06-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 50 | 22499 | 1 |
+| [appliance-and-equipment-standards-fact-sheet.pdf](https://www.energy.gov/cmei/buildings/articles/appliance-and-equipment-standards-fact-sheet) | energy.gov | 2017-01-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 1270 | 4 |
+| [better-plants-infographic_2025-april.pdf](https://www.energy.gov/sites/default/files/2025-04/better-plants-infographic_2025-april.pdf) | energy.gov | 2025-04-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 297 | 8 |
+| [bioproducts_to_enable_biofuels_workshop_report.pdf](https://www.energy.gov/sites/prod/files/2015/12/f27/bioproducts_to_enable_biofuels_workshop_report.pdf) | energy.gov | 2015-12-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 40 | 9954 | 1 |
+| [bto-2024-zedd-application-checklist-020824.pdf](https://www.energy.gov/sites/default/files/2024-02/bto-2024-zedd-application-checklist-020824.pdf) | energy.gov | 2024-02-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 272 | 1 |
+| [bto-manufactured-housing-financing-guide-030625.pdf](https://www.energy.gov/sites/default/files/2025-03/bto-manufactured-housing-financing-guide-030625.pdf) | energy.gov | 2025-03-06 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 67 | 19463 | 14 |
+| [bto-schools-rtu-replacement-083022pdf.pdf](https://www.energy.gov/documents/bto-schools-rtu-replacement-083022pdf) | energy.gov | 2022-08-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 3552 | 46 |
+| [bto-zedd-case-study-FS-FY24-DB-v3_x1a-052024.pdf](https://www.energy.gov/sites/default/files/2024-05/bto-zedd-case-study-FS-FY24-DB-v3_x1a-052024.pdf) | energy.gov | 2024-05-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 706 | 2 |
+| [bto-zedd-fact-sheet-020124.pdf](https://www.energy.gov/sites/default/files/2024-02/bto-zedd-fact-sheet-020124.pdf) | energy.gov | 2024-02-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 323 | 4 |
+| [bto-zedd-learning-objectives-031424.pdf](https://www.energy.gov/sites/default/files/2024-03/bto-zedd-learning-objectives-031424.pdf) | energy.gov | 2024-03-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 749 | 3 |
+| [building-science-education-learning-objectives-zero-energy-design.pdf](https://www.energy.gov/cmei/buildings/articles/building-science-education-learning-objectives-zero-energy-design) | energy.gov | 2024-03-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 749 | 3 |
+| [changes-cleanup-strategies-and-long-term-monitoring-costs-doe-fusrap-sites.pdf](https://www.energy.gov/lm/articles/changes-cleanup-strategies-and-long-term-monitoring-costs-doe-fusrap-sites) | energy.gov | 2017-04-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 9 | 3314 | 2 |
+| [defense-waste-processing-facility.pdf](https://www.energy.gov/documents/defense-waste-processing-facility) | energy.gov | 2026-02-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 954 | 13 |
+| [detailed-agenda-final_0.pdf](https://www.energy.gov/sites/prod/files/2018/11/f58/detailed-agenda-final_0.pdf) | energy.gov | 2018-11-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1518 | 8 |
+| [doe-completes-treatment-remediated-nitrate-salts-download.pdf](https://www.energy.gov/em-la/articles/doe-completes-treatment-remediated-nitrate-salts-download) | energy.gov | 2017-11-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 556 | 2 |
+| [doe-f-2065-privacy-act-information-request.pdf](https://www.energy.gov/cio/articles/doe-f-2065-privacy-act-information-request) | energy.gov | 2025-01-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1984 | 0 |
+| [effects-climate-change-federal-hydropower.pdf](https://www.energy.gov/cmei/water/articles/effects-climate-change-federal-hydropower) | energy.gov | 2017-01-20 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 35 | 0 | 35 |
+| [energy_savings_from_windows_attachments.pdf](https://www.energy.gov/sites/prod/files/2013/11/f5/energy_savings_from_windows_attachments.pdf) | energy.gov | 2013-11-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 106 | 22791 | 19102 |
+| [espc-project-development-guide-2019.pdf](https://www.energy.gov/sites/default/files/2019/12/f69/espc-project-development-guide-2019.pdf) | energy.gov | 2019-12-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 169 | 40571 | 55 |
+| [fctojune2017h2scalereviewelgowainypdf.pdf](https://www.energy.gov/documents/fctojune2017h2scalereviewelgowainypdf) | energy.gov | 2017-06-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 17 | 951 | 201 |
+| [fctojune2017h2scalereviewhovsapianpdf.pdf](https://www.energy.gov/documents/fctojune2017h2scalereviewhovsapianpdf) | energy.gov | 2017-06-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 23 | 1292 | 85 |
+| [femp-espc-project-development-resource-guide-2025.pdf](https://www.energy.gov/sites/default/files/2025-09/femp-espc-project-development-resource-guide-2025.pdf) | energy.gov | 2025-09-30 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 97 | 18147 | 73 |
+| [fiscal-year-2022-technology-commercialization-fund-lab-call-amo.pdf](https://www.energy.gov/cmei/ito/articles/fiscal-year-2022-technology-commercialization-fund-lab-call-amo) | energy.gov | 2022-04-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 9933 | 0 |
+| [fupwgfall14novagendapdf-4.pdf](https://www.energy.gov/documents/fupwgfall14novagendapdf-4) | energy.gov | 2014-11-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 681 | 6 |
+| [fupwgmay2014uescmvpdf.pdf](https://www.energy.gov/documents/fupwgmay2014uescmvpdf) | energy.gov | 2015-03-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 10 | 760 | 46 |
+| [fupwgwinter2014chaconpdf.pdf](https://www.energy.gov/documents/fupwgwinter2014chaconpdf) | energy.gov | 2014-06-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 11 | 333 | 143 |
+| [fupwgwinter2014whitepdf.pdf](https://www.energy.gov/documents/fupwgwinter2014whitepdf) | energy.gov | 2014-01-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 446 | 4 |
+| [fy-2012-performance-evaluation-plan-savannah-river-nuclear-solutions-llc.pdf](https://www.energy.gov/nnsa/articles/fy-2012-performance-evaluation-plan-savannah-river-nuclear-solutions-llc) | energy.gov | 2015-05-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 36 | 10 | 36 |
+| [fy-2013-performance-evaluation-plan-savannah-river-nucelar-solutions-llc.pdf](https://www.energy.gov/nnsa/articles/fy-2013-performance-evaluation-plan-savannah-river-nucelar-solutions-llc) | energy.gov | 2015-05-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 9 | 16 | 9 |
+| [fy-2018-report-transfers-civil-nuclear-technologypdf.pdf](https://www.energy.gov/documents/fy-2018-report-transfers-civil-nuclear-technologypdf) | energy.gov | 2019-03-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 2868 | 22 |
+| [fy2015-stockpile-stewardship-and-management-plan.pdf](https://www.energy.gov/documents/fy2015-stockpile-stewardship-and-management-plan) | energy.gov | 2014-04-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 128 | 39294 | 2693 |
+| [fy2016-stockpile-stewardship-and-management-plan.pdf](https://www.energy.gov/documents/fy2016-stockpile-stewardship-and-management-plan) | energy.gov | 2015-03-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 314 | 102459 | 297 |
+| [fy2017-stockpile-stewardship-and-management-plan.pdf](https://www.energy.gov/documents/fy2017-stockpile-stewardship-and-management-plan) | energy.gov | 2016-03-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 134 | 46730 | 91 |
+| [memorandum-understanding-hydropower-five-year-extensionpdf.pdf](https://www.energy.gov/documents/memorandum-understanding-hydropower-five-year-extensionpdf) | energy.gov | 2015-03-24 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [motion-intervene-and-request-rehearing-natural-resources-defense-council-citizens-0.pdf](https://www.energy.gov/documents/motion-intervene-and-request-rehearing-natural-resources-defense-council-citizens-0) | energy.gov | 2025-12-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 123 | 31357 | 2 |
+| [motion-intervene-and-request-rehearing-natural-resources-defense-council-citizens-1.pdf](https://www.energy.gov/documents/motion-intervene-and-request-rehearing-natural-resources-defense-council-citizens-1) | energy.gov | 2025-12-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 668 | 225892 | 930 |
+| [ne-asi-project-summaries-2020.pdf](https://www.energy.gov/sites/default/files/2020/09/f79/ne-asi-project-summaries-2020.pdf) | energy.gov | 2020-09-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 44 | 14982 | 118 |
+| [notice-denial-rehearing-operation-law-and-providing-further-consideration-202-25-10a.pdf](https://www.energy.gov/documents/notice-denial-rehearing-operation-law-and-providing-further-consideration-202-25-10a) | energy.gov | 2026-01-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 178 | 1 |
+| [ord3868-C_4010-B.pdf](https://www.energy.gov/sites/default/files/2023-04/ord3868-C_4010-B.pdf) | energy.gov | 2023-04-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 6590 | 1 |
+| [ott-epic-report-0622.pdf](https://www.energy.gov/sites/default/files/2022-06/ott-epic-report-0622.pdf) | energy.gov | 2022-06-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 | 7472 | 7 |
+| [part-810-awareness-training.pdf](https://www.energy.gov/nnsa/articles/part-810-awareness-training) | energy.gov | 2018-05-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 16 | 1517 | 392 |
+| [peer_review_report_june2011.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/peer_review_report_june2011.pdf) | energy.gov | 2012-06-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 872 | 294926 | 969 |
+| [pepex-release-notespdf.pdf](https://www.energy.gov/documents/pepex-release-notespdf) | energy.gov | 2017-07-31 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 46 | 0 |
+| [pepex-tutorialpdf.pdf](https://www.energy.gov/documents/pepex-tutorialpdf) | energy.gov | 2016-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 | 1192 | 12 |
+| [pfa-phase-ii-projectspdf.pdf](https://www.energy.gov/documents/pfa-phase-ii-projectspdf) | energy.gov | 2016-02-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 409 | 1 |
+| [queued-upbut-need-transmission.pdf](https://www.energy.gov/documents/queued-upbut-need-transmission) | energy.gov | 2022-04-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 2916 | 4 |
+| [report-strengthening-cybersecurity-federal-networks-and-critical-infrastructure.pdf](https://www.energy.gov/articles/report-strengthening-cybersecurity-federal-networks-and-critical-infrastructure) | energy.gov | 2018-05-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 55 | 20458 | 3 |
+| [shines-kickoff-presentation-austin-energy.pdf](https://www.energy.gov/eere/solar/articles/shines-kickoff-presentation-austin-energy) | energy.gov | 2016-05-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 19 | 700 | 160 |
+| [shines-kickoff-presentation-hawaiian-electric-company.pdf](https://www.energy.gov/eere/solar/articles/shines-kickoff-presentation-hawaiian-electric-company) | energy.gov | 2016-05-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 22 | 900 | 249 |
+| [strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf](https://www.energy.gov/sites/default/files/2024-09/strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf) | energy.gov | 2024-08-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1185 | 1 |
+| [suny_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/04/f14/suny_project_abstract.pdf) | energy.gov | 2012-12-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 546 | 0 |
+| [transition-and-transfer-remediated-fusrap-sites-usace-us-doe-long-term-surveillance-and.pdf](https://www.energy.gov/lm/articles/transition-and-transfer-remediated-fusrap-sites-usace-us-doe-long-term-surveillance-and) | energy.gov | 2017-07-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 31 | 5896 | 8 |
+| [tva-wpto-mou-action-plan.pdf](https://www.energy.gov/sites/default/files/2024-01/tva-wpto-mou-action-plan.pdf) | energy.gov | 2024-01-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3901 | 0 |
+| [uesc-fact-sheetpdf.pdf](https://www.energy.gov/documents/uesc-fact-sheetpdf) | energy.gov | 2020-01-30 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 821 | 2 |
+| [us-policy-framework-civil-nuclear-cooperation-china.pdf](https://www.energy.gov/nnsa/articles/us-policy-framework-civil-nuclear-cooperation-china) | energy.gov | 2018-10-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 468 | 0 |
+| [validation_ellis_vsp_imaging.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_ellis_vsp_imaging.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 21 | 1974 | 14 |
+| [validation_holdmann_pilgrim_hot_springs.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_holdmann_pilgrim_hot_springs.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 16 | 841 | 28 |
+| [validation_jackson_pyramid_lake.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_jackson_pyramid_lake.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 1373 | 78 |
+| [validation_johnson_new_river.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_johnson_new_river.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 15 | 373 | 13 |
+| [validation_kaufman_jemez_pueblo.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_kaufman_jemez_pueblo.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 | 688 | 25 |
+| [validation_moore_hot_pot.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_moore_hot_pot.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 10 | 795 | 12 |
+| [validation_ronne_alum.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_ronne_alum.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 14 | 1139 | 17 |
+| [validation_ronne_silver_peak.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_ronne_silver_peak.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 14 | 1117 | 16 |
+| [validation_shervais_snake_river.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_shervais_snake_river.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 16 | 1283 | 31 |
+| [validation_stockli_detachment_faulting.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_stockli_detachment_faulting.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 820 | 17 |
+| [validation_teplow_large_aperture.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_teplow_large_aperture.pdf) | energy.gov | 2010-08-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 15 | 919 | 25 |
+| [what-foia.pdf](https://www.energy.gov/gc/articles/what-foia) | energy.gov | 2007-03-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 780 | 0 |
+| [wpto-third-9505-assessment-0.pdf](https://www.energy.gov/sites/default/files/2022-11/wpto-third-9505-assessment.pdf) | energy.gov | 2022-11-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 667 | 3 |
+| [wpto-third-9505-assessment.pdf](https://www.energy.gov/sites/default/files/2023-01/wpto-third-9505-assessment.pdf) | energy.gov | 2023-01-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 667 | 3 |
 
 ## Files with Errors or Notes
 
@@ -34546,8 +34665,698 @@ Generated: 2026-03-20T20:09:53.913228+00:00
 - **Status**: analysed
 - title, tagged, 
 
+### 100kin10_Beyond%20100K_FIRST%20STEPS.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-10/100kin10_Beyond%20100K_FIRST%20STEPS.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/100kin10_Beyond%20100K_FIRST%20STEPS.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.584768+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 17-development-nuclear-quality-components-using-metal-additive-manufacturingpdf-0.pdf
+
+- **URL**: https://www.energy.gov/documents/17-development-nuclear-quality-components-using-metal-additive-manufacturingpdf-0
+- **Status**: error
+- File not found: crawled_files/energy.gov/17-development-nuclear-quality-components-using-metal-additive-manufacturingpdf-0.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.591346+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### 2024_Impact%20Flyer%20-%20website%20version.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-05/2024_Impact%20Flyer%20-%20website%20version.pdf
+- **Status**: analysed
+- title, 
+
+### 3118-sasc-nomination-testimonypdf.pdf
+
+- **URL**: https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf
+- **Status**: analysed
+- title, 
+
+### Arctic-Energy-8-page-brochure-October%202024%20printer%20ready.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-10/Arctic-Energy-8-page-brochure-October%202024%20printer%20ready.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/Arctic-Energy-8-page-brochure-October%202024%20printer%20ready.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.614363+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-11/DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-02/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.626388+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ES-KitchenAppliances_080221.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2021-08/ES-KitchenAppliances_080221.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/ES-KitchenAppliances_080221.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.630338+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FCAB%20National%20Blueprint%20Lithium%20Batteries%200621_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2021-06/FCAB%20National%20Blueprint%20Lithium%20Batteries%200621_0.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/FCAB%20National%20Blueprint%20Lithium%20Batteries%200621_0.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.635142+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FINAL%20EnergyTech%20University%20Prize%20Fiscal%20Year%202023%20Annual%20Report_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-01/FINAL%20EnergyTech%20University%20Prize%20Fiscal%20Year%202023%20Annual%20Report_0.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/FINAL%20EnergyTech%20University%20Prize%20Fiscal%20Year%202023%20Annual%20Report_0.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.639127+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Final_Reports_on_Community_Reuse_Organization_Grants.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2021-05/Final_Reports_on_Community_Reuse_Organization_Grants.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/Final_Reports_on_Community_Reuse_Organization_Grants.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.643475+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### MSIPP%20FY2022%20%20Impact_2.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-06/MSIPP%20FY2022%20%20Impact_2.pdf
+- **Status**: analysed
+- title, 
+
+### Open-Government-Plan-4.0-Final.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### OralHistoryProject_JacqelineYoung_Transcript.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-03/OralHistoryProject_JacqelineYoung_Transcript.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/OralHistoryProject_JacqelineYoung_Transcript.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.652289+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Organization-Chart-11.20.2025-2.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-11/Organization-Chart-11.20.2025-2.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/Organization-Chart-11.20.2025-2.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.653883+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PIA%20Guide%20Aug%202023_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/PIA%20Guide%20Aug%202023_0.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.656159+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### advanced-instrumentation-information-and-control-system-technologies-nondestructive.pdf
+
+- **URL**: https://www.energy.gov/ne/articles/advanced-instrumentation-information-and-control-system-technologies-nondestructive
+- **Status**: error
+- File not found: crawled_files/energy.gov/advanced-instrumentation-information-and-control-system-technologies-nondestructive.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.661105+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### amw-nomination-testimony-jan-18-18pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/amw-nomination-testimony-jan-18-18pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### applying-msipp-grants.pdf
+
+- **URL**: https://www.energy.gov/nnsa/articles/applying-msipp-grants
+- **Status**: analysed
+- title, 
+
+### centralia-order-no-202-26-18.pdf
+
+- **URL**: https://www.energy.gov/documents/centralia-order-no-202-26-18
+- **Status**: analysed
+- no date found, title, 
+
+### deploy.pdf
+
+- **URL**: https://www.energy.gov/lpo/deploy
+- **Status**: error
+- File not found: crawled_files/energy.gov/deploy.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.669681+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### fes-building-bridges-vision.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-06/fes-building-bridges-vision.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/fes-building-bridges-vision.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.693269+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### final-hasc-em-fy18-written-testimonypdf.pdf
+
+- **URL**: https://www.energy.gov/documents/final-hasc-em-fy18-written-testimonypdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### final-sasc-em-fy18-written-testimonypdf.pdf
+
+- **URL**: https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fossil-energy-fy-2009-budget.pdf
+
+- **URL**: https://www.energy.gov/hgeo/articles/fossil-energy-fy-2009-budget
+- **Status**: analysed
+- title, 
+
+### fusion-energy-strategy-2024.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-06/fusion-energy-strategy-2024.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/fusion-energy-strategy-2024.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.716308+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### gto-quarterly-update-q1-2020.pdf
+
+- **URL**: https://www.energy.gov/hgeo/geothermal/articles/gto-quarterly-update-q1-2020
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### gto-quarterly-update-q2-2020.pdf
+
+- **URL**: https://www.energy.gov/hgeo/geothermal/articles/gto-quarterly-update-q2-2020
+- **Status**: error
+- File not found: crawled_files/energy.gov/gto-quarterly-update-q2-2020.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.730535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### gto-quarterly-update-q3-2020.pdf
+
+- **URL**: https://www.energy.gov/hgeo/geothermal/articles/gto-quarterly-update-q3-2020
+- **Status**: error
+- File not found: crawled_files/energy.gov/gto-quarterly-update-q3-2020.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.747334+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### guide-financial-assistance-october-2024pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/guide-financial-assistance-october-2024pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### neet-workshop-2010.pdf
+
+- **URL**: https://www.energy.gov/ne/articles/neet-workshop-2010
+- **Status**: error
+- File not found: crawled_files/energy.gov/neet-workshop-2010.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.756943+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### next-generation-nuclear-plant-report-congress.pdf
+
+- **URL**: https://www.energy.gov/ne/articles/next-generation-nuclear-plant-report-congress
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### notice-denial-rehearing-operation-law-and-providing-further-consideration-202-25-9a.pdf
+
+- **URL**: https://www.energy.gov/documents/notice-denial-rehearing-operation-law-and-providing-further-consideration-202-25-9a
+- **Status**: error
+- File not found: crawled_files/energy.gov/notice-denial-rehearing-operation-law-and-providing-further-consideration-202-25-9a.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.764842+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ord4446-B.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/ord4446-B.pdf
+- **Status**: analysed
+- title, 
+
+### order-addressing-arguments-raised-rehearing-202-25-7b.pdf
+
+- **URL**: https://www.energy.gov/documents/order-addressing-arguments-raised-rehearing-202-25-7b
+- **Status**: error
+- File not found: crawled_files/energy.gov/order-addressing-arguments-raised-rehearing-202-25-7b.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.771154+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### propulsion-materials-rd-2008-annual-progress-report.pdf
+
+- **URL**: https://www.energy.gov/cmei/vehicles/articles/propulsion-materials-rd-2008-annual-progress-report
+- **Status**: error
+- File not found: crawled_files/energy.gov/propulsion-materials-rd-2008-annual-progress-report.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.800374+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### qtr-ch8-next-gen-materials-ta-feb-18-2015pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/qtr-ch8-next-gen-materials-ta-feb-18-2015pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/qtr-ch8-next-gen-materials-ta-feb-18-2015pdf.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.804765+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### qtr-ch8-process-heating-ta-feb-13-2015pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/qtr-ch8-process-heating-ta-feb-13-2015pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/qtr-ch8-process-heating-ta-feb-13-2015pdf.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.808454+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### us-department-energy-american-indian-policy.pdf
+
+- **URL**: https://www.energy.gov/congressional/articles/us-department-energy-american-indian-policy
+- **Status**: error
+- File not found: crawled_files/energy.gov/us-department-energy-american-indian-policy.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.811361+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
 ### september-2024-thank-you.pdf
 
 - **URL**: https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/september-2024-thank-you.pdf
 - **Status**: analysed
 - no bookmarks and more than 20 pages, 
+
+### 2910-1572_Washington_State_University_Summary.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-01/2910-1572_Washington_State_University_Summary.pdf
+- **Status**: analysed
+- title, 
+
+### All_Investing-in-America_December-2024_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-01/All_Investing-in-America_December-2024_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### An-executives-guide-to-AI.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2018/05/f51/An-executives-guide-to-AI.pdf
+- **Status**: analysed
+- title, 
+
+### Cybersecurity%20Considerations%20for%20Distributed%20Energy%20Resources%20on%20the%20U.S.%20Electric%20Grid.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-10/Cybersecurity%20Considerations%20for%20Distributed%20Energy%20Resources%20on%20the%20U.S.%20Electric%20Grid.pdf
+- **Status**: analysed
+- title, lang, 
+
+### DE-FOA-0003371_Webinar_Presentation%20%281%29.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-10/DE-FOA-0003371_Webinar_Presentation%20%281%29.pdf
+- **Status**: analysed
+- tagged, 
+
+### DOE-FOA-2740-Teaming-Partner-List_updated-3-12-2023.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-03/DOE-FOA-2740-Teaming-Partner-List_updated-3-12-2023.pdf
+- **Status**: analysed
+- title, 
+
+### DOE-FY2019-Budget-Volume-3-Part-1_0.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2018/03/f49/DOE-FY2019-Budget-Volume-3-Part-1_0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Elective_Pay_Fact_Sheet_Territories_073124.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-08/Elective_Pay_Fact_Sheet_Territories_073124.pdf
+- **Status**: analysed
+- title, 
+
+### Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2020/12/f81/Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf
+- **Status**: analysed
+- title, 
+
+### FY2017BudgetVolume3.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2016/02/f30/FY2017BudgetVolume3.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FY22-DOEAnnualReport_ConfActivities_Web.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-01/FY22-DOEAnnualReport_ConfActivities_Web.pdf
+- **Status**: analysed
+- title, 
+
+### FY24SSMP_FINAL_NOVEMBER_2023_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-11/FY24SSMP_FINAL_NOVEMBER_2023_0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GRIP_Call-for-Reviewers_March-13-2023.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-03/GRIP_Call-for-Reviewers_March-13-2023.pdf
+- **Status**: analysed
+- title, 
+
+### Indiana_Investing-in-America_December-2024_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-01/Indiana_Investing-in-America_December-2024_0.pdf
+- **Status**: analysed
+- title, 
+
+### Mercury%20Treatment%20Facility_2024.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-12/Mercury%20Treatment%20Facility_2024.pdf
+- **Status**: analysed
+- title, 
+
+### NSLSII_Lessons_Learned_2015-08_0.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2016/02/f29/NSLSII_Lessons_Learned_2015-08_0.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Order%20No.%20202-25-10.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-11/Order%20No.%20202-25-10.pdf
+- **Status**: analysed
+- title, 
+
+### Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-05/Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf
+- **Status**: analysed
+- title, 
+
+### Water%20Security%20Workshop%20Summary_0.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2019/07/f64/Water%20Security%20Workshop%20Summary_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### ZEDD-Application-Instructions-opt.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-05/ZEDD-Application-Instructions-opt.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ZERH%20MH%20V1%20Policy%20Record%20-%209-11-23.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-09/ZERH%20MH%20V1%20Policy%20Record%20-%209-11-23.pdf
+- **Status**: analysed
+- title, 
+
+### annualreportonpart810processingfy2017pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/annualreportonpart810processingfy2017pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### appendix-part-625-title-10.pdf
+
+- **URL**: https://www.energy.gov/documents/appendix-part-625-title-10
+- **Status**: analysed
+- title, tagged, lang, 
+
+### bioproducts_to_enable_biofuels_workshop_report.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2015/12/f27/bioproducts_to_enable_biofuels_workshop_report.pdf
+- **Status**: analysed
+- title, lang, 
+
+### bto-schools-rtu-replacement-083022pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/bto-schools-rtu-replacement-083022pdf
+- **Status**: analysed
+- tagged, 
+
+### bto-zedd-fact-sheet-020124.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-02/bto-zedd-fact-sheet-020124.pdf
+- **Status**: analysed
+- tagged, 
+
+### changes-cleanup-strategies-and-long-term-monitoring-costs-doe-fusrap-sites.pdf
+
+- **URL**: https://www.energy.gov/lm/articles/changes-cleanup-strategies-and-long-term-monitoring-costs-doe-fusrap-sites
+- **Status**: analysed
+- title, 
+
+### defense-waste-processing-facility.pdf
+
+- **URL**: https://www.energy.gov/documents/defense-waste-processing-facility
+- **Status**: analysed
+- title, tagged, 
+
+### detailed-agenda-final_0.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2018/11/f58/detailed-agenda-final_0.pdf
+- **Status**: analysed
+- title, 
+
+### doe-completes-treatment-remediated-nitrate-salts-download.pdf
+
+- **URL**: https://www.energy.gov/em-la/articles/doe-completes-treatment-remediated-nitrate-salts-download
+- **Status**: analysed
+- title, 
+
+### effects-climate-change-federal-hydropower.pdf
+
+- **URL**: https://www.energy.gov/cmei/water/articles/effects-climate-change-federal-hydropower
+- **Status**: analysed
+- title, tagged, lang, 
+
+### emt67kuruganti042414pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/emt67kuruganti042414pdf
+- **Status**: error
+- maximum recursion depth exceeded while calling a Python object
+
+### energy_savings_from_windows_attachments.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2013/11/f5/energy_savings_from_windows_attachments.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### espc-project-development-guide-2019.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2019/12/f69/espc-project-development-guide-2019.pdf
+- **Status**: analysed
+- title, 
+
+### fiscal-year-2022-technology-commercialization-fund-lab-call-amo.pdf
+
+- **URL**: https://www.energy.gov/cmei/ito/articles/fiscal-year-2022-technology-commercialization-fund-lab-call-amo
+- **Status**: analysed
+- title, 
+
+### fupwgfall14novagendapdf-4.pdf
+
+- **URL**: https://www.energy.gov/documents/fupwgfall14novagendapdf-4
+- **Status**: analysed
+- title, lang, 
+
+### fupwgmay2014uescmvpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fupwgmay2014uescmvpdf
+- **Status**: analysed
+- title, 
+
+### fupwgwinter2014chaconpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fupwgwinter2014chaconpdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fupwgwinter2014whitepdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fupwgwinter2014whitepdf
+- **Status**: analysed
+- title, lang, 
+
+### fy-2012-performance-evaluation-plan-savannah-river-nuclear-solutions-llc.pdf
+
+- **URL**: https://www.energy.gov/nnsa/articles/fy-2012-performance-evaluation-plan-savannah-river-nuclear-solutions-llc
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### fy-2013-performance-evaluation-plan-savannah-river-nucelar-solutions-llc.pdf
+
+- **URL**: https://www.energy.gov/nnsa/articles/fy-2013-performance-evaluation-plan-savannah-river-nucelar-solutions-llc
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fy-2018-report-transfers-civil-nuclear-technologypdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fy-2018-report-transfers-civil-nuclear-technologypdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fy2015-stockpile-stewardship-and-management-plan.pdf
+
+- **URL**: https://www.energy.gov/documents/fy2015-stockpile-stewardship-and-management-plan
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fy2016-stockpile-stewardship-and-management-plan.pdf
+
+- **URL**: https://www.energy.gov/documents/fy2016-stockpile-stewardship-and-management-plan
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fy2017-stockpile-stewardship-and-management-plan.pdf
+
+- **URL**: https://www.energy.gov/documents/fy2017-stockpile-stewardship-and-management-plan
+- **Status**: analysed
+- title, tagged, lang, 
+
+### memorandum-understanding-hydropower-five-year-extensionpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/memorandum-understanding-hydropower-five-year-extensionpdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### motion-intervene-and-request-rehearing-natural-resources-defense-council-citizens-0.pdf
+
+- **URL**: https://www.energy.gov/documents/motion-intervene-and-request-rehearing-natural-resources-defense-council-citizens-0
+- **Status**: analysed
+- title, 
+
+### motion-intervene-and-request-rehearing-natural-resources-defense-council-citizens-1.pdf
+
+- **URL**: https://www.energy.gov/documents/motion-intervene-and-request-rehearing-natural-resources-defense-council-citizens-1
+- **Status**: analysed
+- title, tagged, 
+
+### ne-asi-project-summaries-2020.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2020/09/f79/ne-asi-project-summaries-2020.pdf
+- **Status**: analysed
+- tagged, 
+
+### notice-denial-rehearing-operation-law-and-providing-further-consideration-202-25-10a.pdf
+
+- **URL**: https://www.energy.gov/documents/notice-denial-rehearing-operation-law-and-providing-further-consideration-202-25-10a
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ord3868-C_4010-B.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-04/ord3868-C_4010-B.pdf
+- **Status**: analysed
+- title, 
+
+### part-810-awareness-training.pdf
+
+- **URL**: https://www.energy.gov/nnsa/articles/part-810-awareness-training
+- **Status**: analysed
+- title, tagged, lang, 
+
+### peer_review_report_june2011.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/peer_review_report_june2011.pdf
+- **Status**: analysed
+- title, 
+
+### pepex-release-notespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/pepex-release-notespdf
+- **Status**: analysed
+- title, 
+
+### pepex-tutorialpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/pepex-tutorialpdf
+- **Status**: analysed
+- title, 
+
+### pfa-phase-ii-projectspdf.pdf
+
+- **URL**: https://www.energy.gov/documents/pfa-phase-ii-projectspdf
+- **Status**: analysed
+- title, 
+
+### report-strengthening-cybersecurity-federal-networks-and-critical-infrastructure.pdf
+
+- **URL**: https://www.energy.gov/articles/report-strengthening-cybersecurity-federal-networks-and-critical-infrastructure
+- **Status**: analysed
+- title, 
+
+### shines-kickoff-presentation-austin-energy.pdf
+
+- **URL**: https://www.energy.gov/eere/solar/articles/shines-kickoff-presentation-austin-energy
+- **Status**: analysed
+- title, tagged, lang, 
+
+### shines-kickoff-presentation-hawaiian-electric-company.pdf
+
+- **URL**: https://www.energy.gov/eere/solar/articles/shines-kickoff-presentation-hawaiian-electric-company
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-09/strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
+- **Status**: analysed
+- title, 
+
+### suny_project_abstract.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2014/04/f14/suny_project_abstract.pdf
+- **Status**: analysed
+- title, 
+
+### transition-and-transfer-remediated-fusrap-sites-usace-us-doe-long-term-surveillance-and.pdf
+
+- **URL**: https://www.energy.gov/lm/articles/transition-and-transfer-remediated-fusrap-sites-usace-us-doe-long-term-surveillance-and
+- **Status**: analysed
+- title, lang, 
+
+### us-policy-framework-civil-nuclear-cooperation-china.pdf
+
+- **URL**: https://www.energy.gov/nnsa/articles/us-policy-framework-civil-nuclear-cooperation-china
+- **Status**: analysed
+- title, 
+
+### validation_ellis_vsp_imaging.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_ellis_vsp_imaging.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_holdmann_pilgrim_hot_springs.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_holdmann_pilgrim_hot_springs.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_jackson_pyramid_lake.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_jackson_pyramid_lake.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_johnson_new_river.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_johnson_new_river.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_kaufman_jemez_pueblo.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_kaufman_jemez_pueblo.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_moore_hot_pot.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_moore_hot_pot.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_ronne_alum.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_ronne_alum.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_ronne_silver_peak.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_ronne_silver_peak.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_shervais_snake_river.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_shervais_snake_river.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_stockli_detachment_faulting.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_stockli_detachment_faulting.pdf
+- **Status**: analysed
+- title, lang, 
+
+### validation_teplow_large_aperture.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_teplow_large_aperture.pdf
+- **Status**: analysed
+- title, lang, 
+
+### what-foia.pdf
+
+- **URL**: https://www.energy.gov/gc/articles/what-foia
+- **Status**: analysed
+- title, 
+
+### wpto-third-9505-assessment.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-01/wpto-third-9505-assessment.pdf
+- **Status**: analysed
+- tagged, 
