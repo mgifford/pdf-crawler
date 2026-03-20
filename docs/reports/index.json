@@ -4,7 +4,7 @@
     "site": "dnr.state.mn.us",
     "crawl_url": "https://www.dnr.state.mn.us/",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23350411387",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/134#issuecomment-4099143448",
     "archive_file": "2026-03-20_15-42-17-216_dnr.state.mn.us.html",
     "total": 3,
     "analysed": 3,
