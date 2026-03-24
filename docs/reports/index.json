@@ -4,7 +4,7 @@
     "site": "smallpdf.com",
     "crawl_url": "https://smallpdf.com/blog/sample-pdf",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23474202368",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/147#issuecomment-4115450408",
     "archive_file": "2026-03-24_05-13-12-373_smallpdf.com.html",
     "total": 2,
     "analysed": 2,
