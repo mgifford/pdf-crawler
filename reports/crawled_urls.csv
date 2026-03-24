@@ -1,3 +1,6 @@
 url,type,referer
-https://microsoftsharepointintegration.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAVWprsjFvdrZuwzS0R0FVmicHcXtyged2Dh1xb26VtJDCefI71HAZku4_U0ALE3W4*,page,
-https://microsoftsharepointintegration.na1.echosign.com/public/login,page,
+https://dfcs.gci-ga.com/index.php/log-in,page,
+https://dfcs.gci-ga.com/index.php/log-in?view=remind,page,
+https://dfcs.gci-ga.com/index.php/log-in?view=reset,page,
+https://dfcs.gci-ga.com/,page,
+https://dfcs.gci-ga.com/index.php,page,
