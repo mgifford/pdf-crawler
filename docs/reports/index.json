@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-24T18:25:38.748200+00:00",
+    "site": "dfcs.gci-ga.com",
+    "crawl_url": "https://dfcs.gci-ga.com/index.php/log-in",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23505720818",
+    "issue_url": "",
+    "archive_file": "2026-03-24_18-25-38-748_dfcs.gci-ga.com.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-24T17:31:30.362811+00:00",
     "site": "microsoftsharepointintegration.na1.echosign.com",
     "crawl_url": "https://microsoftsharepointintegration.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAVWprsjFvdrZuwzS0R0FVmicHcXtyged2Dh1xb26VtJDCefI71HAZku4_U0ALE3W4*",
