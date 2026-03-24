@@ -1,14 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-23T17:28:22.835955+00:00
+Generated: 2026-03-24T05:13:12.373740+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 68 |
-| Total files tracked | 16973 |
-| Analysed | 4295 |
+| URLs crawled | 512 |
+| Total files tracked | 16975 |
+| Analysed | 4297 |
 | Pending analysis | 10437 |
 | Errors during analysis | 2241 |
 | Accessible | 1372 |
@@ -56,6 +56,7 @@ Generated: 2026-03-23T17:28:22.835955+00:00
 | pa.gov | 212 |
 | pca.state.mn.us | 211 |
 | projects.accesscomputing.uw.edu | 3 |
+| smallpdf.com | 2 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
 | towson.edu | 148 |
@@ -4363,6 +4364,8 @@ Generated: 2026-03-23T17:28:22.835955+00:00
 | [what-foia.pdf](https://www.energy.gov/gc/articles/what-foia) | energy.gov | 2007-03-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 780 | 0 |
 | [wpto-third-9505-assessment-0.pdf](https://www.energy.gov/sites/default/files/2022-11/wpto-third-9505-assessment.pdf) | energy.gov | 2022-11-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 667 | 3 |
 | [wpto-third-9505-assessment.pdf](https://www.energy.gov/sites/default/files/2023-01/wpto-third-9505-assessment.pdf) | energy.gov | 2023-01-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 667 | 3 |
+| [accessible-pdfs-an-actionable-guide-for-every-business.pdf](https://s.smallpdf.com/static/cms/f/102628/x/70ab56427d/accessible-pdfs-an-actionable-guide-for-every-business.pdf) | smallpdf.com | 2025-06-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 25 | 4222 | 0 |
+| [checklist-for-your-accessible-pdf.pdf](https://s.smallpdf.com/static/cms/f/102628/x/28cc9ed1e6/checklist-for-your-accessible-pdf.pdf) | smallpdf.com | 2025-06-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 307 | 0 |
 
 ## Files with Errors or Notes
 
@@ -35361,3 +35364,15 @@ Generated: 2026-03-23T17:28:22.835955+00:00
 - **URL**: https://www.energy.gov/sites/default/files/2023-01/wpto-third-9505-assessment.pdf
 - **Status**: analysed
 - tagged, 
+
+### accessible-pdfs-an-actionable-guide-for-every-business.pdf
+
+- **URL**: https://s.smallpdf.com/static/cms/f/102628/x/70ab56427d/accessible-pdfs-an-actionable-guide-for-every-business.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### checklist-for-your-accessible-pdf.pdf
+
+- **URL**: https://s.smallpdf.com/static/cms/f/102628/x/28cc9ed1e6/checklist-for-your-accessible-pdf.pdf
+- **Status**: analysed
+- title, tagged, 

@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-24T05:13:12.373740+00:00",
+    "site": "smallpdf.com",
+    "crawl_url": "https://smallpdf.com/blog/sample-pdf",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23474202368",
+    "issue_url": "",
+    "archive_file": "2026-03-24_05-13-12-373_smallpdf.com.html",
+    "total": 2,
+    "analysed": 2,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-23T17:28:22.835955+00:00",
     "site": "pl.mn.gov",
     "crawl_url": "https://pl.mn.gov/common-questions",
