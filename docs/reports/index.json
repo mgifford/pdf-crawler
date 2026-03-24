@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-24T17:29:17.076023+00:00",
+    "site": "microsoftsharepointintegration.na1.echosign.com",
+    "crawl_url": "https://microsoftsharepointintegration.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBPxQ3jE_vVHxTrDgRybokv5_hC4_oV4sb9_TOcvBUKE-JCmp8_Oz7U6cLDUxH4hRI*",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23503280220",
+    "issue_url": "",
+    "archive_file": "2026-03-24_17-29-17-076_microsoftsharepointintegration.na1.echosign.com.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-24T16:52:25.941721+00:00",
     "site": "slideshare.net",
     "crawl_url": "https://www.slideshare.net/slideshow/types-of-coffeepdf/252409583",
