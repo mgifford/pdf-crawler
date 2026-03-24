@@ -1,14 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-24T05:13:12.373740+00:00
+Generated: 2026-03-24T16:30:24.951081+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 512 |
-| Total files tracked | 16975 |
-| Analysed | 4297 |
+| URLs crawled | 8 |
+| Total files tracked | 16976 |
+| Analysed | 4298 |
 | Pending analysis | 10437 |
 | Errors during analysis | 2241 |
 | Accessible | 1372 |
@@ -44,6 +44,7 @@ Generated: 2026-03-24T05:13:12.373740+00:00
 | hamilton.ca | 262 |
 | hud.gov | 1418 |
 | ijcaonline.org | 1 |
+| kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
 | mn.gov | 1397 |
@@ -4366,6 +4367,7 @@ Generated: 2026-03-24T05:13:12.373740+00:00
 | [wpto-third-9505-assessment.pdf](https://www.energy.gov/sites/default/files/2023-01/wpto-third-9505-assessment.pdf) | energy.gov | 2023-01-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 667 | 3 |
 | [accessible-pdfs-an-actionable-guide-for-every-business.pdf](https://s.smallpdf.com/static/cms/f/102628/x/70ab56427d/accessible-pdfs-an-actionable-guide-for-every-business.pdf) | smallpdf.com | 2025-06-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 25 | 4222 | 0 |
 | [checklist-for-your-accessible-pdf.pdf](https://s.smallpdf.com/static/cms/f/102628/x/28cc9ed1e6/checklist-for-your-accessible-pdf.pdf) | smallpdf.com | 2025-06-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 307 | 0 |
+| [new_test_pdf.pdf](https://kjk.umn.edu/sites/kjk.umn.edu/files/2025-07/new_test_pdf.pdf) | kjk.umn.edu | 2019-01-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 304 | 4 |
 
 ## Files with Errors or Notes
 
@@ -35376,3 +35378,9 @@ Generated: 2026-03-24T05:13:12.373740+00:00
 - **URL**: https://s.smallpdf.com/static/cms/f/102628/x/28cc9ed1e6/checklist-for-your-accessible-pdf.pdf
 - **Status**: analysed
 - title, tagged, 
+
+### new_test_pdf.pdf
+
+- **URL**: https://kjk.umn.edu/sites/kjk.umn.edu/files/2025-07/new_test_pdf.pdf
+- **Status**: analysed
+- title, tagged, lang, 
