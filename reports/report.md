@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-24T18:25:38.748200+00:00
+Generated: 2026-03-24T19:03:15.270909+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 5 |
-| Total files tracked | 16976 |
-| Analysed | 4298 |
-| Pending analysis | 10437 |
+| URLs crawled | 377 |
+| Total files tracked | 17174 |
+| Analysed | 4435 |
+| Pending analysis | 10498 |
 | Errors during analysis | 2241 |
-| Accessible | 1372 |
-| Totally inaccessible | 133 |
+| Accessible | 1374 |
+| Totally inaccessible | 135 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 1019 |
+| Exempt (pre-2018) | 1132 |
 
 ## Files per Site
 
@@ -40,6 +40,7 @@ Generated: 2026-03-24T18:25:38.748200+00:00
 | energy.gov | 562 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
+| gci-ga.com | 61 |
 | gsa.gov | 450 |
 | hamilton.ca | 262 |
 | hud.gov | 1418 |
@@ -56,6 +57,7 @@ Generated: 2026-03-24T18:25:38.748200+00:00
 | oregon.gov | 1968 |
 | pa.gov | 212 |
 | pca.state.mn.us | 211 |
+| products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
 | smallpdf.com | 2 |
 | tn.gov | 768 |
@@ -4368,6 +4370,143 @@ Generated: 2026-03-24T18:25:38.748200+00:00
 | [accessible-pdfs-an-actionable-guide-for-every-business.pdf](https://s.smallpdf.com/static/cms/f/102628/x/70ab56427d/accessible-pdfs-an-actionable-guide-for-every-business.pdf) | smallpdf.com | 2025-06-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 25 | 4222 | 0 |
 | [checklist-for-your-accessible-pdf.pdf](https://s.smallpdf.com/static/cms/f/102628/x/28cc9ed1e6/checklist-for-your-accessible-pdf.pdf) | smallpdf.com | 2025-06-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 307 | 0 |
 | [new_test_pdf.pdf](https://kjk.umn.edu/sites/kjk.umn.edu/files/2025-07/new_test_pdf.pdf) | kjk.umn.edu | 2019-01-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 304 | 4 |
+| [Chemical%20Products%20Secondary%20Labels%20PDF%20Form%20(1)%20ver2%20(1).pdf](https://products.gci-ga.com/images/PDFs/Chemical%20Products%20Secondary%20Labels%20PDF%20Form%20(1)%20ver2%20(1).pdf) | products.gci-ga.com | 2021-03-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 407 | 1 |
+| [Ergonomics%20Catalog.pdf](https://products.gci-ga.com/images/PDFs/Ergonomics%20Catalog.pdf) | products.gci-ga.com | 2022-06-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 22 | 348 | 87 |
+| [GCI%20Grill%20Flyer%20Web.pdf](https://products.gci-ga.com/images/PDFs/GCI%20Grill%20Flyer%20Web.pdf) | products.gci-ga.com | 2021-03-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 102 | 3 |
+| [GCI%20MXOchairs.pdf](https://products.gci-ga.com/images/PDFs/GCI%20MXOchairs.pdf) | products.gci-ga.com | 2011-10-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 412 | 15 |
+| [GCI%20PIE%20Brochure.pdf](https://products.gci-ga.com/images/PDFs/GCI%20PIE%20Brochure.pdf) | products.gci-ga.com | 2021-03-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 279 | 11 |
+| [GCI%20PPE%20Flyer%2010%20112420%20Interactive.pdf](https://products.gci-ga.com/images/PDFs/GCI%20PPE%20Flyer%2010%20112420%20Interactive.pdf) | products.gci-ga.com | 2020-11-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 673 | 12 |
+| [GCI%20Uphostery%20draft%207%20web%20email.pdf](https://products.gci-ga.com/images/PDFs/GCI%20Uphostery%20draft%207%20web%20email.pdf) | products.gci-ga.com | 2020-07-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 325 | 22 |
+| [GCIBeddingCatalog.pdf](https://products.gci-ga.com/images/PDFs/GCIBeddingCatalog.pdf) | products.gci-ga.com | 2015-06-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 16 | 5215 | 41 |
+| [GCIBreatheJrChairs.pdf](https://products.gci-ga.com/images/pdfs/GCIBreatheJrChairs.pdf) | products.gci-ga.com | 2012-08-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 511 | 13 |
+| [GCICXOchairs.pdf](https://products.gci-ga.com/images/pdfs/GCICXOchairs.pdf) | products.gci-ga.com | 2011-10-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 494 | 16 |
+| [GCICXOhdchairs.pdf](https://products.gci-ga.com/images/pdfs/GCICXOhdchairs.pdf) | products.gci-ga.com | 2011-10-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 296 | 9 |
+| [GCIComfortWorxSideChairs.pdf](https://products.gci-ga.com/images/pdfs/GCIComfortWorxSideChairs.pdf) | products.gci-ga.com | 2012-04-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 145 | 2 |
+| [GCIGXOchairs.pdf](https://products.gci-ga.com/images/pdfs/GCIGXOchairs.pdf) | products.gci-ga.com | 2011-06-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 321 | 18 |
+| [GCIKhromaChairs.pdf](https://products.gci-ga.com/images/pdfs/GCIKhromaChairs.pdf) | products.gci-ga.com | 2013-06-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 252 | 8 |
+| [GCILXODraftStool.pdf](https://products.gci-ga.com/images/pdfs/GCILXODraftStool.pdf) | products.gci-ga.com | 2014-11-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 188 | 8 |
+| [GCILXOchairs.pdf](https://products.gci-ga.com/images/pdfs/GCILXOchairs.pdf) | products.gci-ga.com | 2011-05-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 443 | 20 |
+| [GCIMXOchairs.pdf](https://products.gci-ga.com/images/pdfs/GCIMXOchairs.pdf) | products.gci-ga.com | 2011-10-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 412 | 15 |
+| [GCIPiedmontOffice.pdf](https://products.gci-ga.com/images/PDFs/GCIPiedmontOffice.pdf) | products.gci-ga.com | 2013-05-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 343 | 34 |
+| [GCIShermanHDChairs.pdf](https://products.gci-ga.com/images/pdfs/GCIShermanHDChairs.pdf) | products.gci-ga.com | 2014-11-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 214 | 11 |
+| [GCIStreetSignSizeGuide.pdf](https://products.gci-ga.com/images/PDFs/GCIStreetSignSizeGuide.pdf) | products.gci-ga.com | 2012-12-20 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 0 | 3 |
+| [GCITonikChairs.pdf](https://products.gci-ga.com/images/pdfs/GCITonikChairs.pdf) | products.gci-ga.com | 2013-06-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 222 | 9 |
+| [GCIWXOchairs.pdf](https://products.gci-ga.com/images/pdfs/GCIWXOchairs.pdf) | products.gci-ga.com | 2011-04-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 301 | 8 |
+| [GCI_Breathe_BreatheJr%20RTI.pdf](https://products.gci-ga.com/images/PDFs/GCI_Breathe_BreatheJr%20RTI.pdf) | products.gci-ga.com | 2021-04-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 475 | 28 |
+| [GCI_Customer_Freight_Announcement.pdf](https://products.gci-ga.com/images/pdfs/GCI_Customer_Freight_Announcement.pdf) | products.gci-ga.com | 2022-06-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 657 | 2 |
+| [GCI_Develop_Brochure%20RTI.pdf](https://products.gci-ga.com/images/PDFs/GCI_Develop_Brochure%20RTI.pdf) | products.gci-ga.com | 2021-04-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 1974 | 122 |
+| [GCI_Element_Lookbook.pdf](https://products.gci-ga.com/images/PDFs/GCI_Element_Lookbook.pdf) | products.gci-ga.com | 2024-07-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 569 | 2271 |
+| [GCI_Navigator_Air%20Brochure%20RTI.pdf](https://products.gci-ga.com/images/PDFs/GCI_Navigator_Air%20Brochure%20RTI.pdf) | products.gci-ga.com | 2021-04-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 1079 | 71 |
+| [GCI_Piper_SellSheet%20RTI.pdf](https://products.gci-ga.com/images/PDFs/GCI_Piper_SellSheet%20RTI.pdf) | products.gci-ga.com | 2021-04-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 490 | 18 |
+| [GCI_StackChair_AtAGlance.pdf](https://products.gci-ga.com/images/PDFs/GCI_StackChair_AtAGlance.pdf) | products.gci-ga.com | 2020-09-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1253 | 54 |
+| [GCI_SuaveLounge-Brochure.pdf](https://products.gci-ga.com/images/PDFs/GCI_SuaveLounge-Brochure.pdf) | products.gci-ga.com | 2023-10-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 837 | 13 |
+| [GCI_TaskSeating_AtAGlance.pdf](https://products.gci-ga.com/images/PDFs/GCI_TaskSeating_AtAGlance.pdf) | products.gci-ga.com | 2020-09-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1817 | 36 |
+| [GCI_brochure_202025.pdf](https://products.gci-ga.com/images/PDFs/GCI_brochure_202025.pdf) | products.gci-ga.com | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 35 | 0 | 35 |
+| [GCIalt3chairs.pdf](https://products.gci-ga.com/images/pdfs/GCIalt3chairs.pdf) | products.gci-ga.com | 2013-09-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 | 1217 | 58 |
+| [GCIbreathechairs.pdf](https://products.gci-ga.com/images/pdfs/GCIbreathechairs.pdf) | products.gci-ga.com | 2010-08-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 516 | 12 |
+| [GCIcarlsonchairs.pdf](https://products.gci-ga.com/images/pdfs/GCIcarlsonchairs.pdf) | products.gci-ga.com | 2012-04-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 227 | 15 |
+| [GCIcomfortworxchairs.pdf](https://products.gci-ga.com/images/pdfs/GCIcomfortworxchairs.pdf) | products.gci-ga.com | 2012-04-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 122 | 3 |
+| [GCIsnapchairs.pdf](https://products.gci-ga.com/images/pdfs/GCIsnapchairs.pdf) | products.gci-ga.com | 2012-02-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 496 | 14 |
+| [GCIsnapchairsF&B.pdf](https://products.gci-ga.com/images/pdfs/GCIsnapchairsF&B.pdf) | products.gci-ga.com | 2008-07-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 128 | 1 |
+| [GDC_ORDER_FORM_01-2026.pdf](https://products.gci-ga.com/images/PDFs/GDC_ORDER_FORM_01-2026.pdf) | products.gci-ga.com | 2026-02-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 888 | 2 |
+| [Liquid%20Fabric%20Softener.pdf](https://products.gci-ga.com/images/MSDS/Liquid%20Fabric%20Softener.pdf) | products.gci-ga.com | 2015-04-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1802 | 4 |
+| [Liquid%20Laundry%20Builder.pdf](https://products.gci-ga.com/images/MSDS/Liquid%20Laundry%20Builder.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1744 | 2 |
+| [Liquid%20Laundry%20Conditioner.pdf](https://products.gci-ga.com/images/MSDS/Liquid%20Laundry%20Conditioner.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1656 | 2 |
+| [Liquid%20Laundry%20Sour.pdf](https://products.gci-ga.com/images/MSDS/Liquid%20Laundry%20Sour.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1779 | 2 |
+| [Print%20Catalog_113021_FINAL.pdf](https://products.gci-ga.com/images/PDFs/Print%20Catalog_113021_FINAL.pdf) | products.gci-ga.com | 2021-11-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3505 | 126 |
+| [SDS_07200-07202-07204.pdf](https://products.gci-ga.com/images/MSDS/SDS_07200-07202-07204.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1828 | 2 |
+| [SDS_07210-07212-07214.pdf](https://products.gci-ga.com/images/MSDS/SDS_07210-07212-07214.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1794 | 2 |
+| [SDS_07215-07217-07219.pdf](https://products.gci-ga.com/images/MSDS/SDS_07215-07217-07219.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1757 | 2 |
+| [SDS_07220-07224.pdf](https://products.gci-ga.com/images/MSDS/SDS_07220-07224.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1787 | 2 |
+| [SDS_07225-07227-07229.pdf](https://products.gci-ga.com/images/MSDS/SDS_07225-07227-07229.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1729 | 2 |
+| [SDS_07230-07232-07234.pdf](https://products.gci-ga.com/images/MSDS/SDS_07230-07232-07234.pdf) | products.gci-ga.com | 2015-04-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1869 | 2 |
+| [SDS_07235-07236-07239.pdf](https://products.gci-ga.com/images/MSDS/SDS_07235-07236-07239.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1964 | 6 |
+| [SDS_07240.pdf](https://products.gci-ga.com/images/MSDS/SDS_07240.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1666 | 2 |
+| [SDS_07245-07247-07249.pdf](https://products.gci-ga.com/images/MSDS/SDS_07245-07247-07249.pdf) | products.gci-ga.com | 2015-04-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1737 | 2 |
+| [SDS_07250-07252-07254.pdf](https://products.gci-ga.com/images/MSDS/SDS_07250-07252-07254.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1745 | 2 |
+| [SDS_07255-07256-07257.pdf](https://products.gci-ga.com/images/MSDS/SDS_07255-07256-07257.pdf) | products.gci-ga.com | 2015-06-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1669 | 2 |
+| [SDS_07260-07262-07264.pdf](https://products.gci-ga.com/images/MSDS/SDS_07260-07262-07264.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1666 | 2 |
+| [SDS_07265-07267-07269.pdf](https://products.gci-ga.com/images/MSDS/SDS_07265-07267-07269.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1741 | 2 |
+| [SDS_07270.pdf](https://products.gci-ga.com/images/MSDS/SDS_07270.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1846 | 2 |
+| [SDS_07281.pdf](https://products.gci-ga.com/images/MSDS/SDS_07281.pdf) | products.gci-ga.com | 2015-04-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1864 | 4 |
+| [SDS_07284-07286-07288.pdf](https://products.gci-ga.com/images/MSDS/SDS_07284-07286-07288.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1959 | 6 |
+| [SDS_07289-07291-07293.pdf](https://products.gci-ga.com/images/MSDS/SDS_07289-07291-07293.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 2023 | 6 |
+| [SDS_07299-07301-07303.pdf](https://products.gci-ga.com/images/MSDS/SDS_07299-07301-07303.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1670 | 2 |
+| [SDS_07309.pdf](https://products.gci-ga.com/images/MSDS/SDS_07309.pdf) | products.gci-ga.com | 2015-04-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1903 | 4 |
+| [SDS_07310-07312-07314.pdf](https://products.gci-ga.com/images/MSDS/SDS_07310-07312-07314.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1782 | 2 |
+| [SDS_07315-07317-07319.pdf](https://products.gci-ga.com/images/MSDS/SDS_07315-07317-07319.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1838 | 2 |
+| [SDS_07320-07322-07324.pdf](https://products.gci-ga.com/images/MSDS/SDS_07320-07322-07324.pdf) | products.gci-ga.com | 2015-04-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1784 | 2 |
+| [SDS_07327.pdf](https://products.gci-ga.com/images/MSDS/SDS_07327.pdf) | products.gci-ga.com | 2015-04-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1858 | 2 |
+| [SDS_07332-07333.pdf](https://products.gci-ga.com/images/MSDS/SDS_07332-07333.pdf) | products.gci-ga.com | 2015-04-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1832 | 4 |
+| [SDS_07336-07338-07340.pdf](https://products.gci-ga.com/images/MSDS/SDS_07336-07338-07340.pdf) | products.gci-ga.com | 2015-04-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1870 | 2 |
+| [SDS_07350-07351.pdf](https://products.gci-ga.com/images/MSDS/SDS_07350-07351.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1751 | 2 |
+| [SDS_07355-07356.pdf](https://products.gci-ga.com/images/MSDS/SDS_07355-07356.pdf) | products.gci-ga.com | 2015-04-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1674 | 2 |
+| [SDS_07440-07442-07444.pdf](https://products.gci-ga.com/images/MSDS/SDS_07440-07442-07444.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1792 | 2 |
+| [SDS_07450-07451.pdf](https://products.gci-ga.com/images/MSDS/SDS_07450-07451.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1847 | 2 |
+| [SDS_07455-07456.pdf](https://products.gci-ga.com/images/MSDS/SDS_07455-07456.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1740 | 2 |
+| [SDS_07463.pdf](https://products.gci-ga.com/images/MSDS/SDS_07463.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1783 | 2 |
+| [SDS_07475-07476.pdf](https://products.gci-ga.com/images/MSDS/SDS_07475-07476.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1807 | 2 |
+| [SDS_07500-07510-07530.pdf](https://products.gci-ga.com/images/MSDS/SDS_07500-07510-07530.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1700 | 2 |
+| [SDS_07600-07601.pdf](https://products.gci-ga.com/images/MSDS/SDS_07600-07601.pdf) | products.gci-ga.com | 2015-04-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1768 | 4 |
+| [SDS_07660-07661-07662.pdf](https://products.gci-ga.com/images/MSDS/SDS_07660-07661-07662.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1688 | 2 |
+| [SDS_07670-07671-07674.pdf](https://products.gci-ga.com/images/MSDS/SDS_07670-07671-07674.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1692 | 2 |
+| [SDS_07710-07720.pdf](https://products.gci-ga.com/images/MSDS/SDS_07710-07720.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1825 | 2 |
+| [SDS_07730-07732-07735.pdf](https://products.gci-ga.com/images/MSDS/SDS_07730-07732-07735.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1868 | 6 |
+| [SDS_07740-07750.pdf](https://products.gci-ga.com/images/MSDS/SDS_07740-07750.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1756 | 2 |
+| [SDS_07780-07790.pdf](https://products.gci-ga.com/images/MSDS/SDS_07780-07790.pdf) | products.gci-ga.com | 2015-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1820 | 2 |
+| [SDS_07800-07802-07804.pdf](https://products.gci-ga.com/images/MSDS/SDS_07800-07802-07804.pdf) | products.gci-ga.com | 2015-04-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1763 | 2 |
+| [SDS_07810-07812-07814.pdf](https://products.gci-ga.com/images/MSDS/SDS_07810-07812-07814.pdf) | products.gci-ga.com | 2015-04-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1763 | 2 |
+| [SDS_07820-07822-07824.pdf](https://products.gci-ga.com/images/MSDS/SDS_07820-07822-07824.pdf) | products.gci-ga.com | 2015-04-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1767 | 2 |
+| [SDS_07833-07835-07837.pdf](https://products.gci-ga.com/images/MSDS/SDS_07833-07835-07837.pdf) | products.gci-ga.com | 2015-04-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1767 | 2 |
+| [SDS_07840-07842-07844.pdf](https://products.gci-ga.com/images/MSDS/SDS_07840-07842-07844.pdf) | products.gci-ga.com | 2015-04-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1760 | 2 |
+| [SDS_07850-07851-07852.pdf](https://products.gci-ga.com/images/MSDS/SDS_07850-07851-07852.pdf) | products.gci-ga.com | 2015-04-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1762 | 2 |
+| [SDS_07910-07912.pdf](https://products.gci-ga.com/images/MSDS/SDS_07910-07912.pdf) | products.gci-ga.com | 2015-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1912 | 2 |
+| [Seating%20Solutions%20Catalog_FINAL.pdf](https://products.gci-ga.com/images/PDFs/Seating%20Solutions%20Catalog_FINAL.pdf) | products.gci-ga.com | 2021-04-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3426 | 102 |
+| [Seating_Catalog.pdf](https://products.gci-ga.com/images/PDFs/Seating_Catalog.pdf) | products.gci-ga.com | 2015-06-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 16 | 3708 | 134 |
+| [beeflinks.pdf](https://products.gci-ga.com/images/farmproductcatalog/beeflinks.pdf) | products.gci-ga.com | 2012-08-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 256 | 3 |
+| [beefmixbulk.pdf](https://products.gci-ga.com/images/farmproductcatalog/beefmixbulk.pdf) | products.gci-ga.com | 2012-08-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 235 | 3 |
+| [beefpattie.pdf](https://products.gci-ga.com/images/farmproductcatalog/beefpattie.pdf) | products.gci-ga.com | 2012-08-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 284 | 3 |
+| [carrots.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/carrots.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 209 | 2 |
+| [chickenlinks.pdf](https://products.gci-ga.com/images/farmproductcatalog/chickenlinks.pdf) | products.gci-ga.com | 2012-08-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 239 | 3 |
+| [chickenpatties.pdf](https://products.gci-ga.com/images/farmproductcatalog/chickenpatties.pdf) | products.gci-ga.com | 2013-02-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 235 | 3 |
+| [chocolatemilk.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/chocolatemilk.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 194 | 3 |
+| [chuckwagonpattie.pdf](https://products.gci-ga.com/images/farmproductcatalog/chuckwagonpattie.pdf) | products.gci-ga.com | 2012-08-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 298 | 3 |
+| [collards.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/collards.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 208 | 2 |
+| [cornmeal.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/cornmeal.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 275 | 2 |
+| [eggs.pdf](https://products.gci-ga.com/images/farmproductcatalog/eggs.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 194 | 3 |
+| [gci%20catalog%20cleaning%20products.pdf](https://products.gci-ga.com/images/PDFs/gci%20catalog%20cleaning%20products.pdf) | products.gci-ga.com | 2021-04-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 4323 | 76 |
+| [gci%20heavy%20duty%20security.pdf](https://products.gci-ga.com/images/PDFs/gci%20heavy%20duty%20security.pdf) | products.gci-ga.com | 2020-09-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 541 | 15 |
+| [gci_legion_brochure%20rti.pdf](https://products.gci-ga.com/images/PDFs/gci_legion_brochure%20rti.pdf) | products.gci-ga.com | 2021-04-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 1125 | 46 |
+| [gci_systemxxi_stack_tile%20rti.pdf](https://products.gci-ga.com/images/PDFs/gci_systemxxi_stack_tile%20rti.pdf) | products.gci-ga.com | 2021-04-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 1524 | 53 |
+| [gcibreathechairsF&B.pdf](https://products.gci-ga.com/images/pdfs/gcibreathechairsF&B.pdf) | products.gci-ga.com | 2009-06-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 188 | 1 |
+| [gciclearbagsflyer.pdf](https://products.gci-ga.com/images/PDFs/gciclearbagsflyer.pdf) | products.gci-ga.com | 2015-03-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 179 | 3 |
+| [gcinavigatorchairbrochure.pdf](https://products.gci-ga.com/images/PDFs/gcinavigatorchairbrochure.pdf) | products.gci-ga.com | 2014-04-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 | 1108 | 47 |
+| [gcipiedmontmeasurements.pdf](https://products.gci-ga.com/images/PDFs/gcipiedmontmeasurements.pdf) | products.gci-ga.com | 2015-04-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 139 | 1 |
+| [gcipiedmontproductspecs.pdf](https://products.gci-ga.com/images/PDFs/gcipiedmontproductspecs.pdf) | products.gci-ga.com | 2015-04-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 278 | 7 |
+| [gcipresbookcases&lateral.pdf](https://products.gci-ga.com/images/PDFs/gcipresbookcases&lateral.pdf) | products.gci-ga.com | 2015-06-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 174 | 6 |
+| [gcipresbridgesuite.pdf](https://products.gci-ga.com/images/PDFs/gcipresbridgesuite.pdf) | products.gci-ga.com | 2015-06-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 137 | 3 |
+| [gciprescomp&print.pdf](https://products.gci-ga.com/images/PDFs/gciprescomp&print.pdf) | products.gci-ga.com | 2013-06-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 133 | 4 |
+| [gciprescred&hutch.pdf](https://products.gci-ga.com/images/PDFs/gciprescred&hutch.pdf) | products.gci-ga.com | 2015-06-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 171 | 4 |
+| [gcipresdesks.pdf](https://products.gci-ga.com/images/PDFs/gcipresdesks.pdf) | products.gci-ga.com | 2015-06-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 191 | 5 |
+| [gcipresidentialconferencetables.pdf](https://products.gci-ga.com/images/PDFs/gcipresidentialconferencetables.pdf) | products.gci-ga.com | 2015-03-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 215 | 6 |
+| [gcisignscatalog.pdf](https://products.gci-ga.com/images/PDFs/gcisignscatalog.pdf) | products.gci-ga.com | 2015-04-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 40 | 4962 | 591 |
+| [gciultrabookcases.pdf](https://products.gci-ga.com/images/PDFs/gciultrabookcases.pdf) | products.gci-ga.com | 2013-07-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 155 | 5 |
+| [gciultrabridgesuite.pdf](https://products.gci-ga.com/images/PDFs/gciultrabridgesuite.pdf) | products.gci-ga.com | 2013-07-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 171 | 3 |
+| [gciultracredenzas.pdf](https://products.gci-ga.com/images/PDFs/gciultracredenzas.pdf) | products.gci-ga.com | 2013-07-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 138 | 5 |
+| [gciultradesks.pdf](https://products.gci-ga.com/images/PDFs/gciultradesks.pdf) | products.gci-ga.com | 2013-07-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 157 | 4 |
+| [gciultrapedestaldesks.pdf](https://products.gci-ga.com/images/PDFs/gciultrapedestaldesks.pdf) | products.gci-ga.com | 2013-07-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 159 | 4 |
+| [grits.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/grits.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 195 | 2 |
+| [kale.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/kale.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 193 | 2 |
+| [lowfatmilk.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/lowfatmilk.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 185 | 3 |
+| [meatloaf.pdf](https://products.gci-ga.com/images/farmproductcatalog/meatloaf.pdf) | products.gci-ga.com | 2012-08-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 296 | 3 |
+| [print%20tri-fold%20draft%2011%20050620%20website.pdf](https://products.gci-ga.com/images/PDFs/print%20tri-fold%20draft%2011%20050620%20website.pdf) | products.gci-ga.com | 2021-03-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 659 | 8 |
+| [rutabagas.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/rutabagas.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 198 | 2 |
+| [salisburypattie.pdf](https://products.gci-ga.com/images/farmproductcatalog/salisburypattie.pdf) | products.gci-ga.com | 2012-08-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 284 | 3 |
+| [seasonal.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/seasonal.pdf) | products.gci-ga.com | 2013-02-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 101 | 2 |
+| [squash.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/squash.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 208 | 2 |
+| [sweetpotatoes.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/sweetpotatoes.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 219 | 2 |
+| [turnips.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/turnips.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 206 | 2 |
+| [whitepotatoes.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/whitepotatoes.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 229 | 2 |
 
 ## Files with Errors or Notes
 
@@ -35384,3 +35523,813 @@ Generated: 2026-03-24T18:25:38.748200+00:00
 - **URL**: https://kjk.umn.edu/sites/kjk.umn.edu/files/2025-07/new_test_pdf.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### Chemical%20Products%20Secondary%20Labels%20PDF%20Form%20(1)%20ver2%20(1).pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/Chemical%20Products%20Secondary%20Labels%20PDF%20Form%20(1)%20ver2%20(1).pdf
+- **Status**: analysed
+- title, 
+
+### Ergonomics%20Catalog.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/Ergonomics%20Catalog.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### GCI%20Grill%20Flyer%20Web.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI%20Grill%20Flyer%20Web.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI%20MXOchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI%20MXOchairs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCI%20PIE%20Brochure.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI%20PIE%20Brochure.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI%20PPE%20Flyer%2010%20112420%20Interactive.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI%20PPE%20Flyer%2010%20112420%20Interactive.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI%20Uphostery%20draft%207%20web%20email.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI%20Uphostery%20draft%207%20web%20email.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCIBeddingCatalog.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCIBeddingCatalog.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GCIBreatheJrChairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIBreatheJrChairs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCICXOchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCICXOchairs.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GCICXOhdchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCICXOhdchairs.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GCIComfortWorxSideChairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIComfortWorxSideChairs.pdf
+- **Status**: analysed
+- title, 
+
+### GCIGXOchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIGXOchairs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCIKhromaChairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIKhromaChairs.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GCILXODraftStool.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCILXODraftStool.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCILXOchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCILXOchairs.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GCIMXOchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIMXOchairs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCIPiedmontOffice.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCIPiedmontOffice.pdf
+- **Status**: analysed
+- title, 
+
+### GCIShermanHDChairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIShermanHDChairs.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GCIStreetSignSizeGuide.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCIStreetSignSizeGuide.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCITonikChairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCITonikChairs.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GCIWXOchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIWXOchairs.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GCI_Breathe_BreatheJr%20RTI.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI_Breathe_BreatheJr%20RTI.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCI_Customer_Freight_Announcement.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCI_Customer_Freight_Announcement.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCI_Develop_Brochure%20RTI.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI_Develop_Brochure%20RTI.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCI_Element_Lookbook.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI_Element_Lookbook.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCI_Navigator_Air%20Brochure%20RTI.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI_Navigator_Air%20Brochure%20RTI.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCI_Piper_SellSheet%20RTI.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI_Piper_SellSheet%20RTI.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCI_SuaveLounge-Brochure.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI_SuaveLounge-Brochure.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_brochure_202025.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GCI_brochure_202025.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### GCIalt3chairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIalt3chairs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCIbreathechairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIbreathechairs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCIcarlsonchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIcarlsonchairs.pdf
+- **Status**: analysed
+- title, lang, 
+
+### GCIcomfortworxchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIcomfortworxchairs.pdf
+- **Status**: analysed
+- title, 
+
+### GCIsnapchairs.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIsnapchairs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GCIsnapchairsF&B.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/GCIsnapchairsF&B.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### GDC_ORDER_FORM_01-2026.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/GDC_ORDER_FORM_01-2026.pdf
+- **Status**: analysed
+- title, 
+
+### Liquid%20Fabric%20Softener.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/Liquid%20Fabric%20Softener.pdf
+- **Status**: analysed
+- title, 
+
+### Liquid%20Laundry%20Builder.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/Liquid%20Laundry%20Builder.pdf
+- **Status**: analysed
+- title, 
+
+### Liquid%20Laundry%20Conditioner.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/Liquid%20Laundry%20Conditioner.pdf
+- **Status**: analysed
+- title, 
+
+### Liquid%20Laundry%20Sour.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/Liquid%20Laundry%20Sour.pdf
+- **Status**: analysed
+- title, 
+
+### Print%20Catalog_113021_FINAL.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/Print%20Catalog_113021_FINAL.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### SDS_07200-07202-07204.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07200-07202-07204.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07210-07212-07214.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07210-07212-07214.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07215-07217-07219.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07215-07217-07219.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07220-07224.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07220-07224.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07225-07227-07229.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07225-07227-07229.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07230-07232-07234.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07230-07232-07234.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07235-07236-07239.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07235-07236-07239.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07240.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07240.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07245-07247-07249.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07245-07247-07249.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07250-07252-07254.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07250-07252-07254.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07255-07256-07257.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07255-07256-07257.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07260-07262-07264.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07260-07262-07264.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07265-07267-07269.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07265-07267-07269.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07270.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07270.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07281.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07281.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07284-07286-07288.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07284-07286-07288.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07289-07291-07293.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07289-07291-07293.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07299-07301-07303.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07299-07301-07303.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07309.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07309.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07310-07312-07314.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07310-07312-07314.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07315-07317-07319.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07315-07317-07319.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07320-07322-07324.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07320-07322-07324.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07327.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07327.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07332-07333.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07332-07333.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07336-07338-07340.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07336-07338-07340.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07350-07351.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07350-07351.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07355-07356.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07355-07356.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07440-07442-07444.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07440-07442-07444.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07450-07451.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07450-07451.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07455-07456.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07455-07456.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07463.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07463.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07475-07476.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07475-07476.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07500-07510-07530.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07500-07510-07530.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07600-07601.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07600-07601.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07660-07661-07662.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07660-07661-07662.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07670-07671-07674.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07670-07671-07674.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07710-07720.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07710-07720.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07730-07732-07735.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07730-07732-07735.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07740-07750.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07740-07750.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07780-07790.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07780-07790.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07800-07802-07804.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07800-07802-07804.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07810-07812-07814.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07810-07812-07814.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07820-07822-07824.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07820-07822-07824.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07833-07835-07837.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07833-07835-07837.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07840-07842-07844.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07840-07842-07844.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07850-07851-07852.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07850-07851-07852.pdf
+- **Status**: analysed
+- title, 
+
+### SDS_07910-07912.pdf
+
+- **URL**: https://products.gci-ga.com/images/MSDS/SDS_07910-07912.pdf
+- **Status**: analysed
+- title, 
+
+### Seating%20Solutions%20Catalog_FINAL.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/Seating%20Solutions%20Catalog_FINAL.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Seating_Catalog.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/Seating_Catalog.pdf
+- **Status**: analysed
+- title, lang, 
+
+### beeflinks.pdf
+
+- **URL**: https://products.gci-ga.com/images/farmproductcatalog/beeflinks.pdf
+- **Status**: analysed
+- title, 
+
+### beefmixbulk.pdf
+
+- **URL**: https://products.gci-ga.com/images/farmproductcatalog/beefmixbulk.pdf
+- **Status**: analysed
+- title, 
+
+### beefpattie.pdf
+
+- **URL**: https://products.gci-ga.com/images/farmproductcatalog/beefpattie.pdf
+- **Status**: analysed
+- title, 
+
+### carrots.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/carrots.pdf
+- **Status**: analysed
+- title, 
+
+### chickenlinks.pdf
+
+- **URL**: https://products.gci-ga.com/images/farmproductcatalog/chickenlinks.pdf
+- **Status**: analysed
+- title, 
+
+### chickenpatties.pdf
+
+- **URL**: https://products.gci-ga.com/images/farmproductcatalog/chickenpatties.pdf
+- **Status**: analysed
+- title, 
+
+### chocolatemilk.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/chocolatemilk.pdf
+- **Status**: analysed
+- title, 
+
+### chuckwagonpattie.pdf
+
+- **URL**: https://products.gci-ga.com/images/farmproductcatalog/chuckwagonpattie.pdf
+- **Status**: analysed
+- title, 
+
+### collards.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/collards.pdf
+- **Status**: analysed
+- title, 
+
+### cornmeal.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/cornmeal.pdf
+- **Status**: analysed
+- title, 
+
+### eggs.pdf
+
+- **URL**: https://products.gci-ga.com/images/farmproductcatalog/eggs.pdf
+- **Status**: analysed
+- title, 
+
+### gci%20catalog%20cleaning%20products.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gci%20catalog%20cleaning%20products.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### gci%20heavy%20duty%20security.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gci%20heavy%20duty%20security.pdf
+- **Status**: analysed
+- title, 
+
+### gci_legion_brochure%20rti.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gci_legion_brochure%20rti.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gci_systemxxi_stack_tile%20rti.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gci_systemxxi_stack_tile%20rti.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gcibreathechairsF&B.pdf
+
+- **URL**: https://products.gci-ga.com/images/pdfs/gcibreathechairsF&B.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gciclearbagsflyer.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gciclearbagsflyer.pdf
+- **Status**: analysed
+- title, 
+
+### gcinavigatorchairbrochure.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gcinavigatorchairbrochure.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gcipiedmontmeasurements.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gcipiedmontmeasurements.pdf
+- **Status**: analysed
+- title, 
+
+### gcipiedmontproductspecs.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gcipiedmontproductspecs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gcipresbookcases&lateral.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gcipresbookcases&lateral.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gcipresbridgesuite.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gcipresbridgesuite.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gciprescomp&print.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gciprescomp&print.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gciprescred&hutch.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gciprescred&hutch.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gcipresdesks.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gcipresdesks.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gcipresidentialconferencetables.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gcipresidentialconferencetables.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gcisignscatalog.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gcisignscatalog.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### gciultrabookcases.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gciultrabookcases.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gciultrabridgesuite.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gciultrabridgesuite.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gciultracredenzas.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gciultracredenzas.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gciultradesks.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gciultradesks.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### gciultrapedestaldesks.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/gciultrapedestaldesks.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### grits.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/grits.pdf
+- **Status**: analysed
+- title, 
+
+### kale.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/kale.pdf
+- **Status**: analysed
+- title, 
+
+### lowfatmilk.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/lowfatmilk.pdf
+- **Status**: analysed
+- title, 
+
+### meatloaf.pdf
+
+- **URL**: https://products.gci-ga.com/images/farmproductcatalog/meatloaf.pdf
+- **Status**: analysed
+- title, 
+
+### print%20tri-fold%20draft%2011%20050620%20website.pdf
+
+- **URL**: https://products.gci-ga.com/images/PDFs/print%20tri-fold%20draft%2011%20050620%20website.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### rutabagas.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/rutabagas.pdf
+- **Status**: analysed
+- title, 
+
+### salisburypattie.pdf
+
+- **URL**: https://products.gci-ga.com/images/farmproductcatalog/salisburypattie.pdf
+- **Status**: analysed
+- title, 
+
+### seasonal.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/seasonal.pdf
+- **Status**: analysed
+- title, 
+
+### squash.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/squash.pdf
+- **Status**: analysed
+- title, 
+
+### sweetpotatoes.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/sweetpotatoes.pdf
+- **Status**: analysed
+- title, 
+
+### turnips.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/turnips.pdf
+- **Status**: analysed
+- title, 
+
+### whitepotatoes.pdf
+
+- **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/whitepotatoes.pdf
+- **Status**: analysed
+- title, 

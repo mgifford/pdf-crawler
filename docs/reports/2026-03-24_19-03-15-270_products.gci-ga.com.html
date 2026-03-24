@@ -1,0 +1,5651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-24T19:03:15.273610+00:00",
+    "total_files": 137,
+    "analysed": 137,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 2,
+    "totally_inaccessible": 2,
+    "broken": 0,
+    "exempt": 113,
+    "sites": {
+      "products.gci-ga.com": 137
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/Chemical%20Products%20Secondary%20Labels%20PDF%20Form%20(1)%20ver2%20(1).pdf",
+      "md5": "315d685e577db54fee7050fae07692cc",
+      "filename": "Chemical%20Products%20Secondary%20Labels%20PDF%20Form%20(1)%20ver2%20(1).pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.489632+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-03-23 17:38:06-04:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 407,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/Ergonomics%20Catalog.pdf",
+      "md5": "43b3a27524a412e9e897e7e375501034",
+      "filename": "Ergonomics%20Catalog.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.530401+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2022-06-06 12:56:59+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": "PDF Presentation Adobe Photoshop ",
+        "Producer": "Adobe Photoshop for Macintosh -- Image Conversion Plug-in",
+        "Pages": 22,
+        "Words": 348,
+        "Images": 87
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI%20Grill%20Flyer%20Web.pdf",
+      "md5": "6db605c15936a952046da3a521ffedcb",
+      "filename": "GCI%20Grill%20Flyer%20Web.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.533576+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-03-31 17:04:41+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 16.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 102,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI%20MXOchairs.pdf",
+      "md5": "a3cbea62e64df8638dbc2b2ceee86079",
+      "filename": "GCI%20MXOchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.535461+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-10-19 16:31:31+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe InDesign CS5 (7.0)",
+        "Producer": "Acrobat Distiller 9.4.0 (Macintosh)",
+        "Pages": 4,
+        "Words": 412,
+        "Images": 15
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI%20PIE%20Brochure.pdf",
+      "md5": "cf1d495336fbe2c698a1bf33bd861ef0",
+      "filename": "GCI%20PIE%20Brochure.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.537279+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-03-10 18:53:14+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 279,
+        "Images": 11
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI%20PPE%20Flyer%2010%20112420%20Interactive.pdf",
+      "md5": "0791c4605308d968fe8dd70d4efde80b",
+      "filename": "GCI%20PPE%20Flyer%2010%20112420%20Interactive.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.539654+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-11-24 19:03:29+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 673,
+        "Images": 12
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI%20Uphostery%20draft%207%20web%20email.pdf",
+      "md5": "9b285b5c0ab866c3be898f8c7feceebf",
+      "filename": "GCI%20Uphostery%20draft%207%20web%20email.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.541543+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-07-22 11:59:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 325,
+        "Images": 22
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCIBeddingCatalog.pdf",
+      "md5": "543ca8a0a3829fe45dab2d71fbacdb50",
+      "filename": "GCIBeddingCatalog.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.549593+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-05 15:42:51+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CC 2014 (Windows)",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 16,
+        "Words": 5215,
+        "Images": 41
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIBreatheJrChairs.pdf",
+      "md5": "ef9d55b37ac75b3e31a7b93b4f807c8e",
+      "filename": "GCIBreatheJrChairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.552461+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-07 08:27:05-06:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 511,
+        "Images": 13
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCICXOchairs.pdf",
+      "md5": "337df282cc3a1169b6920fb08d5c9cd2",
+      "filename": "GCICXOchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.555265+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-10-05 19:01:08+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CS5 (7.0)",
+        "Producer": "Adobe PDF Library 9.9",
+        "Pages": 4,
+        "Words": 494,
+        "Images": 16
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCICXOhdchairs.pdf",
+      "md5": "b89897bc94b77f0f3c76623029819d18",
+      "filename": "GCICXOhdchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.557288+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-10-14 16:52:57+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CS5 (7.0)",
+        "Producer": "Adobe PDF Library 9.9",
+        "Pages": 2,
+        "Words": 296,
+        "Images": 9
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIComfortWorxSideChairs.pdf",
+      "md5": "6fd9748d2518f3e338c79e32f042970a",
+      "filename": "GCIComfortWorxSideChairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.558529+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-04-26 14:55:43+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 1,
+        "Words": 145,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIGXOchairs.pdf",
+      "md5": "dd642b9103575657b07fd624a56e2f8f",
+      "filename": "GCIGXOchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.560448+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-06-17 17:34:52+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe InDesign CS5 (7.0)",
+        "Producer": "Acrobat Distiller 9.4.0 (Macintosh)",
+        "Pages": 4,
+        "Words": 321,
+        "Images": 18
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIKhromaChairs.pdf",
+      "md5": "b3751a2ca4d7b73e28ddd753fbd4bc74",
+      "filename": "GCIKhromaChairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.562393+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-06-10 18:55:43+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CS6 (Macintosh)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 4,
+        "Words": 252,
+        "Images": 8
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCILXODraftStool.pdf",
+      "md5": "c60378f4155fb8379470b7f74a4d50c3",
+      "filename": "GCILXODraftStool.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.565267+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-11-14 19:15:04+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "QuarkXPress(R) 7.02",
+        "Producer": "QuarkXPress(R) 7.02",
+        "Pages": 2,
+        "Words": 188,
+        "Images": 8
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCILXOchairs.pdf",
+      "md5": "e377f035504ce4cc98378be133caf4a4",
+      "filename": "GCILXOchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.567761+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-05-17 16:04:54+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CS5 (7.0)",
+        "Producer": "Adobe PDF Library 9.9",
+        "Pages": 4,
+        "Words": 443,
+        "Images": 20
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIMXOchairs.pdf",
+      "md5": "a3cbea62e64df8638dbc2b2ceee86079",
+      "filename": "GCIMXOchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.569620+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-10-19 16:31:31+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe InDesign CS5 (7.0)",
+        "Producer": "Acrobat Distiller 9.4.0 (Macintosh)",
+        "Pages": 4,
+        "Words": 412,
+        "Images": 15
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCIPiedmontOffice.pdf",
+      "md5": "b1503561636293dc5bdcc9c3e5e68de9",
+      "filename": "GCIPiedmontOffice.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.572332+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-05-13 19:32:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Office PowerPoint\u00ae 2007",
+        "Producer": "Microsoft\u00ae Office PowerPoint\u00ae 2007",
+        "Pages": 2,
+        "Words": 343,
+        "Images": 34
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIShermanHDChairs.pdf",
+      "md5": "0e64b5dd0a1144ce854b4e7415b20aae",
+      "filename": "GCIShermanHDChairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.574186+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-11-14 15:57:22+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CS6 (Macintosh)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 4,
+        "Words": 214,
+        "Images": 11
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCIStreetSignSizeGuide.pdf",
+      "md5": "7db2d81e720bfcb07588855630787609",
+      "filename": "GCIStreetSignSizeGuide.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.577586+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-12-20 09:45:23-05:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 0,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCITonikChairs.pdf",
+      "md5": "184dced70847a1c1c2d650a0fe4d11ea",
+      "filename": "GCITonikChairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.579396+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-06-13 18:12:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CS6 (Macintosh)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 4,
+        "Words": 222,
+        "Images": 9
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIWXOchairs.pdf",
+      "md5": "a8a75b60aef3fe50ecf322897bd901da",
+      "filename": "GCIWXOchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.581304+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-04-13 13:35:30+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CS5 (7.0)",
+        "Producer": "Adobe PDF Library 9.9",
+        "Pages": 2,
+        "Words": 301,
+        "Images": 8
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI_Breathe_BreatheJr%20RTI.pdf",
+      "md5": "ea7dcc0add6fc8d0503fe5fc581877f5",
+      "filename": "GCI_Breathe_BreatheJr%20RTI.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.586070+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-21 15:19:02+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "QuarkXPress(R) 11.2r6",
+        "Producer": "QuarkXPress(R) 11.2r6",
+        "Pages": 2,
+        "Words": 475,
+        "Images": 28
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCI_Customer_Freight_Announcement.pdf",
+      "md5": "fab4ffbb08831a45da9bec68c2f01c1c",
+      "filename": "GCI_Customer_Freight_Announcement.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.588575+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-06-02 19:33:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "iOS Version 14.6 (Build 18F72) Quartz PDFContext",
+        "Pages": 3,
+        "Words": 657,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI_Develop_Brochure%20RTI.pdf",
+      "md5": "1cc4321c96c4eef029c20512f293391c",
+      "filename": "GCI_Develop_Brochure%20RTI.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.604717+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-21 15:14:34+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "QuarkXPress(R) 11.2r6",
+        "Producer": "QuarkXPress(R) 11.2r6",
+        "Pages": 12,
+        "Words": 1974,
+        "Images": 122
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI_Element_Lookbook.pdf",
+      "md5": "9401381210d2c04a0f811e2a99fa6906",
+      "filename": "GCI_Element_Lookbook.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.615401+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-01 23:06:27+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 8,
+        "Words": 569,
+        "Images": 2271
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI_Navigator_Air%20Brochure%20RTI.pdf",
+      "md5": "61c9486b204c088b1933ef118173ce29",
+      "filename": "GCI_Navigator_Air%20Brochure%20RTI.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.627557+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-21 15:12:01+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "QuarkXPress(R) 11.2r6",
+        "Producer": "QuarkXPress(R) 11.2r6",
+        "Pages": 8,
+        "Words": 1079,
+        "Images": 71
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI_Piper_SellSheet%20RTI.pdf",
+      "md5": "b21055fb23476374f29073df14475c9a",
+      "filename": "GCI_Piper_SellSheet%20RTI.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.631078+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-21 15:29:31+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "QuarkXPress(R) 11.2r6",
+        "Producer": "QuarkXPress(R) 11.2r6",
+        "Pages": 2,
+        "Words": 490,
+        "Images": 18
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI_StackChair_AtAGlance.pdf",
+      "md5": "5d837c63c1d9b560718db1005fa970ea",
+      "filename": "GCI_StackChair_AtAGlance.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.634462+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-09-23 15:37:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "QuarkXPress(R) 15.23",
+        "Producer": "QuarkXPress(R) 15.23",
+        "Pages": 3,
+        "Words": 1253,
+        "Images": 54
+      },
+      "errors": []
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI_SuaveLounge-Brochure.pdf",
+      "md5": "63a66abca14cfa6e7350c66f638f8c05",
+      "filename": "GCI_SuaveLounge-Brochure.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.636687+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-10-06 20:05:57+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 18.5 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 4,
+        "Words": 837,
+        "Images": 13
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI_TaskSeating_AtAGlance.pdf",
+      "md5": "a5143f83e7e55bea5ece4fae89094aec",
+      "filename": "GCI_TaskSeating_AtAGlance.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.640382+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-09-23 15:43:26+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "QuarkXPress(R) 15.23",
+        "Producer": "QuarkXPress(R) 15.23",
+        "Pages": 3,
+        "Words": 1817,
+        "Images": 36
+      },
+      "errors": []
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GCI_brochure_202025.pdf",
+      "md5": "5551d4b422b2f41e2d94e918fadc8b85",
+      "filename": "GCI_brochure_202025.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.644757+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 35,
+        "Words": 0,
+        "Images": 35
+      },
+      "errors": [
+        "no date found, title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIalt3chairs.pdf",
+      "md5": "41616db508169fa5237e3983c92b9277",
+      "filename": "GCIalt3chairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.653644+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-09-17 09:01:04-06:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 8,
+        "Words": 1217,
+        "Images": 58
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIbreathechairs.pdf",
+      "md5": "4d264ff7968aa80664a7f06f8f94cb3c",
+      "filename": "GCIbreathechairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.655211+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2010-08-20 14:50:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 516,
+        "Images": 12
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIcarlsonchairs.pdf",
+      "md5": "40b670983c1bb59762c622d803337f22",
+      "filename": "GCIcarlsonchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.656841+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-04-26 13:19:55+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe InDesign CS5 (7.0)",
+        "Producer": "Adobe PDF Library 9.9",
+        "Pages": 2,
+        "Words": 227,
+        "Images": 15
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIcomfortworxchairs.pdf",
+      "md5": "2736846d261e859c8913b441ae376aaf",
+      "filename": "GCIcomfortworxchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.658484+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-04-26 15:25:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Microsoft\u00ae Office Word 2007",
+        "Producer": "Microsoft\u00ae Office Word 2007",
+        "Pages": 1,
+        "Words": 122,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIsnapchairs.pdf",
+      "md5": "afc41e41520cc6a9f6788e8ffa0e4717",
+      "filename": "GCIsnapchairs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.660694+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-02-28 11:43:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 496,
+        "Images": 14
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/GCIsnapchairsF&B.pdf",
+      "md5": "1320f1fe9bf897ce7901fa6fb5aad33d",
+      "filename": "GCIsnapchairsF&B.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.662308+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2008-07-07 13:43:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 128,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/GDC_ORDER_FORM_01-2026.pdf",
+      "md5": "8634e24c57612624a29c5aedba2e9fb0",
+      "filename": "GDC_ORDER_FORM_01-2026.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.663907+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-03 16:05:42+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Excel",
+        "Producer": "Adobe PDF Library 22.1.149",
+        "Pages": 2,
+        "Words": 888,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/Liquid%20Fabric%20Softener.pdf",
+      "md5": "fbee6dfd7bda2410ff3a9dc3f71bc901",
+      "filename": "Liquid%20Fabric%20Softener.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.665246+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-16 17:58:51+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1802,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/Liquid%20Laundry%20Builder.pdf",
+      "md5": "d8b03e4506e4dec6b9fb46c826a073c1",
+      "filename": "Liquid%20Laundry%20Builder.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.666547+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 14:41:12+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1744,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/Liquid%20Laundry%20Conditioner.pdf",
+      "md5": "7ae020227ef5a8bfdfb613ee2dbc418b",
+      "filename": "Liquid%20Laundry%20Conditioner.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.667833+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 16:00:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1656,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/Liquid%20Laundry%20Sour.pdf",
+      "md5": "9b6d5b986c9d44f94639947c898c8034",
+      "filename": "Liquid%20Laundry%20Sour.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.669131+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 14:46:18+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1779,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/Print%20Catalog_113021_FINAL.pdf",
+      "md5": "4226c59649b690742994e860dc9d2a54",
+      "filename": "Print%20Catalog_113021_FINAL.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.679761+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-11-30 14:14:14+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 16.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 9,
+        "Words": 3505,
+        "Images": 126
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07200-07202-07204.pdf",
+      "md5": "842aa9970104f54ac4a2df317bc75e59",
+      "filename": "SDS_07200-07202-07204.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.681135+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 12:55:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1828,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07210-07212-07214.pdf",
+      "md5": "de4f7531f029ad249896d73af6acff12",
+      "filename": "SDS_07210-07212-07214.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.682459+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 12:59:55+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1794,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07215-07217-07219.pdf",
+      "md5": "81b0d5df4c6f5ee43ad72ab8990f2606",
+      "filename": "SDS_07215-07217-07219.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.683759+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 13:01:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1757,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07220-07224.pdf",
+      "md5": "88ead8473e91ff243a063e702ad3b78b",
+      "filename": "SDS_07220-07224.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.685077+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 13:05:23+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1787,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07225-07227-07229.pdf",
+      "md5": "16453b51b27aea75941d9e2ce4309961",
+      "filename": "SDS_07225-07227-07229.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.686396+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 13:02:40+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1729,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07230-07232-07234.pdf",
+      "md5": "3429b3ab42f32cb9fc1b4906df27e50e",
+      "filename": "SDS_07230-07232-07234.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.687692+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-08 13:01:01+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1869,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07235-07236-07239.pdf",
+      "md5": "2bc08147be65f73062063323f9381a43",
+      "filename": "SDS_07235-07236-07239.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.689111+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 14:27:02+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1964,
+        "Images": 6
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07240.pdf",
+      "md5": "637ae7ad4580bf95dc75bfe8e9d6ee90",
+      "filename": "SDS_07240.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.690405+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 13:05:06+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1666,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07245-07247-07249.pdf",
+      "md5": "54f7abc73545f7ff337b1d66197eb686",
+      "filename": "SDS_07245-07247-07249.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.691692+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-08 13:03:56+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1737,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07250-07252-07254.pdf",
+      "md5": "f4dd9f5db7ef0f92f2fca304e11894af",
+      "filename": "SDS_07250-07252-07254.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.693047+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 12:33:31+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1745,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07255-07256-07257.pdf",
+      "md5": "3c0db79136eea24922e211abd2c58005",
+      "filename": "SDS_07255-07256-07257.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.694338+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-23 11:05:54+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 4,
+        "Words": 1669,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07260-07262-07264.pdf",
+      "md5": "290fc708df4515d3f5f2c30da4242c49",
+      "filename": "SDS_07260-07262-07264.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.695662+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 12:59:56+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1666,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07265-07267-07269.pdf",
+      "md5": "273ac7de4fcb5700a8c00a854d4a8b63",
+      "filename": "SDS_07265-07267-07269.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.696970+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 13:07:36+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1741,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07270.pdf",
+      "md5": "6ba19e50ec17a0ac03c4ab22c4759c63",
+      "filename": "SDS_07270.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.698276+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 14:52:04+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1846,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07281.pdf",
+      "md5": "4bda047a4276afd9a2f10ecd02192f52",
+      "filename": "SDS_07281.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.699617+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-17 11:03:35+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1864,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07284-07286-07288.pdf",
+      "md5": "b7546042c5eaa6e9e7a6083b012a10cd",
+      "filename": "SDS_07284-07286-07288.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.701035+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 12:57:16+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1959,
+        "Images": 6
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07289-07291-07293.pdf",
+      "md5": "61a68fd57dbde173a543431238d40891",
+      "filename": "SDS_07289-07291-07293.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.702458+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 12:58:54+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 2023,
+        "Images": 6
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07299-07301-07303.pdf",
+      "md5": "26b983ab173ab064ae42e0a91650868d",
+      "filename": "SDS_07299-07301-07303.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.703745+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 13:23:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1670,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07309.pdf",
+      "md5": "2e856be27b5d5e9b9d8e2347d9eab784",
+      "filename": "SDS_07309.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.705066+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-21 18:26:44+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1903,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07310-07312-07314.pdf",
+      "md5": "b69a364e5d5b8164e7156319f4c722f7",
+      "filename": "SDS_07310-07312-07314.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.706353+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 12:47:56+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1782,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07315-07317-07319.pdf",
+      "md5": "a8d3bc4b08839424a71e8de89417c88d",
+      "filename": "SDS_07315-07317-07319.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.707644+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 12:28:03+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1838,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07320-07322-07324.pdf",
+      "md5": "09e345e8ccc9f6a3e2ca73138db40f6f",
+      "filename": "SDS_07320-07322-07324.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.708936+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-21 16:02:44+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1784,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07327.pdf",
+      "md5": "703066d1dec8a7ae156bcbd2749d740f",
+      "filename": "SDS_07327.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.710244+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-21 16:15:41+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1858,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07332-07333.pdf",
+      "md5": "f6d185b96e008c120f1362d37713a489",
+      "filename": "SDS_07332-07333.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.711563+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-17 11:11:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1832,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07336-07338-07340.pdf",
+      "md5": "c2a87e7cf70269231e7b8f2ff26e04fb",
+      "filename": "SDS_07336-07338-07340.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.712880+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-08 13:00:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1870,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07350-07351.pdf",
+      "md5": "6c8b6e37c5bac9ce293ce8b2722d57bd",
+      "filename": "SDS_07350-07351.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.714177+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 12:30:36+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1751,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07355-07356.pdf",
+      "md5": "592f92aa59a5ebe0ddebc851d9b1de9f",
+      "filename": "SDS_07355-07356.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.715473+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-08 13:04:43+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1674,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07440-07442-07444.pdf",
+      "md5": "361a942ce41290ff10df662d713d6136",
+      "filename": "SDS_07440-07442-07444.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.716764+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 12:36:52+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1792,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07450-07451.pdf",
+      "md5": "715d2ddefc3c5152af7ff6bf6eb9bd11",
+      "filename": "SDS_07450-07451.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.718068+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 12:26:29+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1847,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07455-07456.pdf",
+      "md5": "6eea07e367b5dcb3f54de6035bacf1d6",
+      "filename": "SDS_07455-07456.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.719363+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 14:52:57+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1740,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07463.pdf",
+      "md5": "7c1c8de44b4b29232e661a28c6c4f864",
+      "filename": "SDS_07463.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.720652+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 13:27:48+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1783,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07475-07476.pdf",
+      "md5": "76d738b7f5f7b928d9f5d465dbcaac3e",
+      "filename": "SDS_07475-07476.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.721965+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 14:50:36+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1807,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07500-07510-07530.pdf",
+      "md5": "8f391b000e39a809ce49b3c731b90cbe",
+      "filename": "SDS_07500-07510-07530.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.723263+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 12:56:38+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1700,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07600-07601.pdf",
+      "md5": "268c94402bf8ffc5ca43c7d4ee9a0d89",
+      "filename": "SDS_07600-07601.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.724576+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-16 18:22:19+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1768,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07660-07661-07662.pdf",
+      "md5": "c17dd57e2057165dc7e61d90c4402b60",
+      "filename": "SDS_07660-07661-07662.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.725871+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 14:31:40+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1688,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07670-07671-07674.pdf",
+      "md5": "cfcb7c55a986df8f2df508c2637f47bd",
+      "filename": "SDS_07670-07671-07674.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.727186+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 14:33:58+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1692,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07710-07720.pdf",
+      "md5": "37522c76f72285ff4821958d98313bc4",
+      "filename": "SDS_07710-07720.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.728539+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 13:40:35+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1825,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07730-07732-07735.pdf",
+      "md5": "5fc48d189cda49d971a8de62abf5b56b",
+      "filename": "SDS_07730-07732-07735.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.729952+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 13:30:59+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1868,
+        "Images": 6
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07740-07750.pdf",
+      "md5": "0d09feb9400daa71b5c9e872407a1ea7",
+      "filename": "SDS_07740-07750.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.731248+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 13:37:32+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1756,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07780-07790.pdf",
+      "md5": "ef1aebec76f975c1ec8126345f5d48b5",
+      "filename": "SDS_07780-07790.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.732544+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-06 14:28:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1820,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07800-07802-07804.pdf",
+      "md5": "4a24ba1a6280d87b4dd3d5563ac25f83",
+      "filename": "SDS_07800-07802-07804.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.733843+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-08 12:57:35+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1763,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07810-07812-07814.pdf",
+      "md5": "74299c75abd65a0876b932984b11de4e",
+      "filename": "SDS_07810-07812-07814.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.735142+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-08 12:56:39+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1763,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07820-07822-07824.pdf",
+      "md5": "512079d8440e22ad55b9be28a46dff9d",
+      "filename": "SDS_07820-07822-07824.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.736454+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-21 16:08:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1767,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07833-07835-07837.pdf",
+      "md5": "dc4f77e8d39e22e2959948aeb4d6a96b",
+      "filename": "SDS_07833-07835-07837.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.737752+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-08 13:02:49+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1767,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07840-07842-07844.pdf",
+      "md5": "c9ead30bd3bb9d54522d774abc08f13a",
+      "filename": "SDS_07840-07842-07844.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.739047+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-21 16:13:45+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1760,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07850-07851-07852.pdf",
+      "md5": "538733af15046a234b389bcc7537dde6",
+      "filename": "SDS_07850-07851-07852.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.740336+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-08 12:59:04+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1762,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/MSDS/SDS_07910-07912.pdf",
+      "md5": "8f84502c28027d2da64676b43cd62b54",
+      "filename": "SDS_07910-07912.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.741639+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-07 13:17:08+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 1912,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/Seating%20Solutions%20Catalog_FINAL.pdf",
+      "md5": "9e3a8b9b2b7a02df3f71eccc32a514f1",
+      "filename": "Seating%20Solutions%20Catalog_FINAL.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.750894+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-21 15:26:40+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 15.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 16,
+        "Words": 3426,
+        "Images": 102
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/Seating_Catalog.pdf",
+      "md5": "247a0200b2979147590dbf492d46c961",
+      "filename": "Seating_Catalog.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.768836+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-04 14:36:50+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CC 2014 (Windows)",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 16,
+        "Words": 3708,
+        "Images": 134
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/farmproductcatalog/beeflinks.pdf",
+      "md5": "6fce73145ddb496d59052dc217502ac9",
+      "filename": "beeflinks.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.770684+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-15 10:48:50+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 256,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/farmproductcatalog/beefmixbulk.pdf",
+      "md5": "6c71a0390d8d25ab42769985d96adfba",
+      "filename": "beefmixbulk.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.772160+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-15 10:50:38+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 235,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/farmproductcatalog/beefpattie.pdf",
+      "md5": "b02cc92920877547c0cab2dac6c15757",
+      "filename": "beefpattie.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.773952+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-15 10:54:01+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 284,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/carrots.pdf",
+      "md5": "52fce28df5eb41e554ae794065be55c3",
+      "filename": "carrots.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.775235+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:12:49+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 209,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/farmproductcatalog/chickenlinks.pdf",
+      "md5": "c47526ca1e0f62a7d7dca283b74d1243",
+      "filename": "chickenlinks.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.776906+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-16 08:01:22+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 239,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/farmproductcatalog/chickenpatties.pdf",
+      "md5": "f3e60d239e7084060a203eed2de652dd",
+      "filename": "chickenpatties.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.778670+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-02-04 16:52:57+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 235,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/chocolatemilk.pdf",
+      "md5": "02e2b243a48c14536e1d7b862c8d8942",
+      "filename": "chocolatemilk.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.780157+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 18:58:15+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 194,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/farmproductcatalog/chuckwagonpattie.pdf",
+      "md5": "a04274a3abf84cadc63e7588d53004b3",
+      "filename": "chuckwagonpattie.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.781958+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-15 10:55:29+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 298,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/collards.pdf",
+      "md5": "4c6ac8b88f5199b5bd3e21fdd9b7d4fa",
+      "filename": "collards.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.783582+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:11:24+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 208,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/cornmeal.pdf",
+      "md5": "11cd3fef6ab0c879f52ca941ff311e2a",
+      "filename": "cornmeal.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.785203+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:10:49+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 275,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/farmproductcatalog/eggs.pdf",
+      "md5": "261b8c5fad2f36e6332f4848ca36eaa5",
+      "filename": "eggs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.786900+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:33:34+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 194,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gci%20catalog%20cleaning%20products.pdf",
+      "md5": "f6031aade2045d52c4552bf10f6de4ca",
+      "filename": "gci%20catalog%20cleaning%20products.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.795157+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-23 13:34:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 16.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 9,
+        "Words": 4323,
+        "Images": 76
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gci%20heavy%20duty%20security.pdf",
+      "md5": "6737d38f39ab952286bd6f6265d93ef8",
+      "filename": "gci%20heavy%20duty%20security.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.801348+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-09-18 15:57:15+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 541,
+        "Images": 15
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gci_legion_brochure%20rti.pdf",
+      "md5": "b6f0f03f9f004114a3392b3ac1f3dc38",
+      "filename": "gci_legion_brochure%20rti.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.815743+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-21 15:06:55+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "QuarkXPress(R) 11.2r6",
+        "Producer": "QuarkXPress(R) 11.2r6",
+        "Pages": 8,
+        "Words": 1125,
+        "Images": 46
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gci_systemxxi_stack_tile%20rti.pdf",
+      "md5": "e0896524cd3ed9d5be9ac4455154127b",
+      "filename": "gci_systemxxi_stack_tile%20rti.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.825141+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-21 15:23:26+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "QuarkXPress(R) 11.2r6",
+        "Producer": "QuarkXPress(R) 11.2r6",
+        "Pages": 12,
+        "Words": 1524,
+        "Images": 53
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/pdfs/gcibreathechairsF&B.pdf",
+      "md5": "499d6eebdab7f4d7edc7f96373d086c6",
+      "filename": "gcibreathechairsF&B.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.826403+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2009-06-19 10:08:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 188,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gciclearbagsflyer.pdf",
+      "md5": "5e82ee06e5f5582fcb3dc0e05a2e46a0",
+      "filename": "gciclearbagsflyer.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.828285+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-03-09 11:31:41+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for PowerPoint",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 179,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gcinavigatorchairbrochure.pdf",
+      "md5": "68e60ef8d170ac2759ee50855ffbf3f3",
+      "filename": "gcinavigatorchairbrochure.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.834512+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-04-01 10:48:48-06:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 8,
+        "Words": 1108,
+        "Images": 47
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gcipiedmontmeasurements.pdf",
+      "md5": "3682ad1b796734edac85bd6c42ac0ed5",
+      "filename": "gcipiedmontmeasurements.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.836019+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-23 13:22:15+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 139,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gcipiedmontproductspecs.pdf",
+      "md5": "9afbcff8e753c769628949279dc13d1c",
+      "filename": "gcipiedmontproductspecs.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.838564+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-04-23 13:20:40+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CS6 (Windows)",
+        "Producer": "Adobe PDF library 10.01",
+        "Pages": 1,
+        "Words": 278,
+        "Images": 7
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gcipresbookcases&lateral.pdf",
+      "md5": "2d7033c3f32e97c2a96cef26fd4c773e",
+      "filename": "gcipresbookcases&lateral.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.842703+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-29 12:10:03+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CC 2014 (Windows)",
+        "Producer": "Adobe PDF library 11.00",
+        "Pages": 1,
+        "Words": 174,
+        "Images": 6
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gcipresbridgesuite.pdf",
+      "md5": "396ec11471ad3fb93b527696114f7302",
+      "filename": "gcipresbridgesuite.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.847072+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-29 13:20:42+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CC 2014 (Windows)",
+        "Producer": "Adobe PDF library 11.00",
+        "Pages": 1,
+        "Words": 137,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gciprescomp&print.pdf",
+      "md5": "229f9d7d2bc021c1acc67ce90107fe3f",
+      "filename": "gciprescomp&print.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.850973+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-06-19 11:37:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CS6 (Windows)",
+        "Producer": "Adobe PDF library 10.01",
+        "Pages": 1,
+        "Words": 133,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gciprescred&hutch.pdf",
+      "md5": "106d947eebcd4bc2c2e2e8b1abfc3e03",
+      "filename": "gciprescred&hutch.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.855818+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-29 13:14:15+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CC 2014 (Windows)",
+        "Producer": "Adobe PDF library 11.00",
+        "Pages": 1,
+        "Words": 171,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gcipresdesks.pdf",
+      "md5": "e0760340c2dbc116f18f161bc2feac76",
+      "filename": "gcipresdesks.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.859721+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-29 13:12:14+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CC 2014 (Windows)",
+        "Producer": "Adobe PDF library 11.00",
+        "Pages": 1,
+        "Words": 191,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gcipresidentialconferencetables.pdf",
+      "md5": "aaacb16151674e38ddb95fda4791c238",
+      "filename": "gcipresidentialconferencetables.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.862265+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-03-16 11:52:52+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CS6 (Windows)",
+        "Producer": "Adobe PDF library 10.01",
+        "Pages": 1,
+        "Words": 215,
+        "Images": 6
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gcisignscatalog.pdf",
+      "md5": "9eb138646d6281beb118ad0a03f112ec",
+      "filename": "gcisignscatalog.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.875242+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2015-04-09 16:26:02+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CS6 (Windows)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 40,
+        "Words": 4962,
+        "Images": 591
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gciultrabookcases.pdf",
+      "md5": "3830b8e312eeecc4a086f13269bbf666",
+      "filename": "gciultrabookcases.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.878154+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-07-26 16:36:15+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CS6 (Windows)",
+        "Producer": "Adobe PDF library 10.01",
+        "Pages": 1,
+        "Words": 155,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gciultrabridgesuite.pdf",
+      "md5": "b22208edea7c327dba528be5e8d68a37",
+      "filename": "gciultrabridgesuite.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.880229+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-07-26 16:39:33+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CS6 (Windows)",
+        "Producer": "Adobe PDF library 10.01",
+        "Pages": 1,
+        "Words": 171,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gciultracredenzas.pdf",
+      "md5": "02b738c18ddbcf95d58a35d8686eb559",
+      "filename": "gciultracredenzas.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.882496+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-07-26 16:37:37+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CS6 (Windows)",
+        "Producer": "Adobe PDF library 10.01",
+        "Pages": 1,
+        "Words": 138,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gciultradesks.pdf",
+      "md5": "e61af4b329c9cec10c7df3bf9ea7d16c",
+      "filename": "gciultradesks.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.884679+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-07-26 16:40:32+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CS6 (Windows)",
+        "Producer": "Adobe PDF library 10.01",
+        "Pages": 1,
+        "Words": 157,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/gciultrapedestaldesks.pdf",
+      "md5": "04a26e86a97cf558086175b6299420fd",
+      "filename": "gciultrapedestaldesks.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.886491+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-07-26 16:34:58+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CS6 (Windows)",
+        "Producer": "Adobe PDF library 10.01",
+        "Pages": 1,
+        "Words": 159,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/grits.pdf",
+      "md5": "a032c17626083fb2b21caf1664ca43df",
+      "filename": "grits.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.887788+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:33:00+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 195,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/kale.pdf",
+      "md5": "393803bfb33554687a295c416a1adf6d",
+      "filename": "kale.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.889086+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:32:46+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 193,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/lowfatmilk.pdf",
+      "md5": "385302d62ca78166e3add52898a2fd35",
+      "filename": "lowfatmilk.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.890564+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 18:56:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 185,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/farmproductcatalog/meatloaf.pdf",
+      "md5": "367d52beac901374ad67a7de95dd3f0b",
+      "filename": "meatloaf.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.892044+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-15 10:52:10+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 296,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/PDFs/print%20tri-fold%20draft%2011%20050620%20website.pdf",
+      "md5": "aa229fbfe5fd1ed93e0caae080e60d9f",
+      "filename": "print%20tri-fold%20draft%2011%20050620%20website.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.893732+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-03-10 18:55:49+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 659,
+        "Images": 8
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/rutabagas.pdf",
+      "md5": "4dfc078c9eb7b60421e804448d21aa2c",
+      "filename": "rutabagas.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.895037+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:35:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 198,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/images/farmproductcatalog/salisburypattie.pdf",
+      "md5": "69c10dc8d5878a91373dd38ee2220ffa",
+      "filename": "salisburypattie.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.896538+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-15 10:56:59+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 284,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/seasonal.pdf",
+      "md5": "3aade7063c36d795c12ba5da69a63e9e",
+      "filename": "seasonal.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.897816+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-02-06 14:20:20+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 101,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/squash.pdf",
+      "md5": "70a42d083b6decb7781b84e0d6af5b8b",
+      "filename": "squash.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.899145+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:34:48+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 208,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/sweetpotatoes.pdf",
+      "md5": "ed48b5875639c5236babee9aa619648a",
+      "filename": "sweetpotatoes.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.900419+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:35:18+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 219,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/turnips.pdf",
+      "md5": "c73269f815826c3b538311906d635a71",
+      "filename": "turnips.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.901699+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:35:02+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 206,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://products.gci-ga.com/IMAGES/farmproductcatalog/whitepotatoes.pdf",
+      "md5": "efb5cdb063de97288c21ae86d4d0451a",
+      "filename": "whitepotatoes.pdf",
+      "site": "products.gci-ga.com",
+      "crawled_at": "2026-03-24T18:36:31.902978+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-08-14 19:36:04+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 2,
+        "Words": 229,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
+      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + esc(f.site || '') + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        var colDefs = [
+          { key: 'file',       label: 'File' },
+          { key: 'site',       label: 'Site' },
+          { key: 'date',       label: 'Published Date' },
+          { key: 'accessible', label: 'Accessible' },
+          { key: 'tagged',     label: 'Tagged' },
+          { key: 'title',      label: 'Title' },
+          { key: 'language',   label: 'Language' },
+          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'pages',      label: 'Pages' },
+        ];
+        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
+        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>
