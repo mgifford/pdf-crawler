@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-25T13:19:53.088437+00:00",
+    "site": "beaverton.k12.or.us",
+    "crawl_url": "https://www.beaverton.k12.or.us/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23543063125",
+    "issue_url": "",
+    "archive_file": "2026-03-25_13-19-53-088_beaverton.k12.or.us.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-24T19:03:15.270909+00:00",
     "site": "products.gci-ga.com",
     "crawl_url": "https://products.gci-ga.com/",

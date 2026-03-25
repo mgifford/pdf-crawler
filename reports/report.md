@@ -1,18 +1,18 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-24T19:03:15.270909+00:00
+Generated: 2026-03-25T13:19:53.088437+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 377 |
+| URLs crawled | 486 |
 | Total files tracked | 17174 |
-| Analysed | 4435 |
-| Pending analysis | 10498 |
+| Analysed | 4496 |
+| Pending analysis | 10437 |
 | Errors during analysis | 2241 |
 | Accessible | 1374 |
-| Totally inaccessible | 135 |
+| Totally inaccessible | 137 |
 | Broken / unreadable | 3 |
 | Exempt (pre-2018) | 1132 |
 
@@ -4370,6 +4370,67 @@ Generated: 2026-03-24T19:03:15.270909+00:00
 | [accessible-pdfs-an-actionable-guide-for-every-business.pdf](https://s.smallpdf.com/static/cms/f/102628/x/70ab56427d/accessible-pdfs-an-actionable-guide-for-every-business.pdf) | smallpdf.com | 2025-06-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 25 | 4222 | 0 |
 | [checklist-for-your-accessible-pdf.pdf](https://s.smallpdf.com/static/cms/f/102628/x/28cc9ed1e6/checklist-for-your-accessible-pdf.pdf) | smallpdf.com | 2025-06-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 307 | 0 |
 | [new_test_pdf.pdf](https://kjk.umn.edu/sites/kjk.umn.edu/files/2025-07/new_test_pdf.pdf) | kjk.umn.edu | 2019-01-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 304 | 4 |
+| [Agribusiness_Hen%20House.pdf](https://www.gci-ga.com/pub/media/pdf/Agribusiness_Hen%20House.pdf) | gci-ga.com | 2021-08-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 629 | 5 |
+| [Agribusiness_Silage.pdf](https://www.gci-ga.com/pub/media/pdf/Agribusiness_Silage.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 281 | 2 |
+| [Agribusiness_Student%20Tour.pdf](https://www.gci-ga.com/pub/media/pdf/Agribusiness_Student%20Tour.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 298 | 2 |
+| [Community_Backpacks.pdf](https://www.gci-ga.com/pub/media/pdf/Community_Backpacks.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 258 | 10 |
+| [Community_Backpacks2.pdf](https://www.gci-ga.com/pub/media/pdf/Community_Backpacks2.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 144 | 3 |
+| [Community_Youth.pdf](https://www.gci-ga.com/pub/media/pdf/Community_Youth.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 96 | 1 |
+| [Customer%20Showcase_Fire-Station.pdf](https://www.gci-ga.com/pub/media/pdf/Customer%20Showcase_Fire-Station.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 296 | 5 |
+| [Customer%20Showcase_Judicial-Bldg.pdf](https://www.gci-ga.com/pub/media/pdf/Customer%20Showcase_Judicial-Bldg.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 273 | 4 |
+| [Food-Service.pdf](https://www.gci-ga.com/pub/media/pdf/Food-Service.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 215 | 4 |
+| [GCI-Dashboard%20User%20Guide.pdf](https://www.gci-ga.com/pub/media/pdf/GCI-Dashboard%20User%20Guide.pdf) | gci-ga.com | 2020-10-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 337 | 6 |
+| [GCI_Fall_2019.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2019.pdf) | gci-ga.com | 2019-12-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4348 | 66 |
+| [GCI_Fall_2020.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2020.pdf) | gci-ga.com | 2020-11-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2851 | 58 |
+| [GCI_Fall_2021.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2021.pdf) | gci-ga.com | 2021-11-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 4373 | 101 |
+| [GCI_Fall_2022.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2022.pdf) | gci-ga.com | 2022-11-15 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3890 | 88 |
+| [GCI_Spring_2019.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2019.pdf) | gci-ga.com | 2019-05-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3182 | 44 |
+| [GCI_Spring_2020.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2020.pdf) | gci-ga.com | 2020-05-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 3438 | 63 |
+| [GCI_Spring_2021.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2021.pdf) | gci-ga.com | 2021-05-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3682 | 82 |
+| [GCI_Spring_2022.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2022.pdf) | gci-ga.com | 2022-05-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3792 | 100 |
+| [GCI_Summer_2019.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Summer_2019.pdf) | gci-ga.com | 2019-08-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 3327 | 56 |
+| [GCI_Summer_2020.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Summer_2020.pdf) | gci-ga.com | 2020-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 3441 | 75 |
+| [GCI_Summer_2021.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Summer_2021.pdf) | gci-ga.com | 2021-08-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3704 | 58 |
+| [GCI_Winter_2019.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2019.pdf) | gci-ga.com | 2019-02-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 2490 | 273 |
+| [GCI_Winter_2020.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2020.pdf) | gci-ga.com | 2020-02-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4384 | 62 |
+| [GCI_Winter_2021.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2021.pdf) | gci-ga.com | 2021-02-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3452 | 84 |
+| [GCI_Winter_2022.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2022.pdf) | gci-ga.com | 2022-03-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3651 | 84 |
+| [GCI_Winter_2023.pdf](https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2023.pdf) | gci-ga.com | 2023-02-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4146 | 110 |
+| [IGA_FINAL_Rev1.pdf](https://www.gci-ga.com/pub/media/pdf/IGA_FINAL_Rev1.pdf) | gci-ga.com | 2020-03-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 454 | 0 |
+| [NAIA_Fall_2019.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Fall_2019.pdf) | gci-ga.com | 2019-12-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 16 | 2382 | 49 |
+| [NAIA_Fall_2020.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Fall_2020.pdf) | gci-ga.com | 2020-10-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2856 | 46 |
+| [NAIA_Fall_2022.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Fall_2022.pdf) | gci-ga.com | 2022-11-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 5765 | 60 |
+| [NAIA_Spring_2019.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Spring_2019.pdf) | gci-ga.com | 2019-05-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3379 | 29 |
+| [NAIA_Spring_2020.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Spring_2020.pdf) | gci-ga.com | 2020-06-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4817 | 40 |
+| [NAIA_Spring_2021.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Spring_2021.pdf) | gci-ga.com | 2021-05-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3433 | 33 |
+| [NAIA_Summer_2019.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Summer_2019.pdf) | gci-ga.com | 2019-08-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 3376 | 44 |
+| [NAIA_Summer_2020.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Summer_2020.pdf) | gci-ga.com | 2020-09-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 4607 | 40 |
+| [NAIA_Summer_2021.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Summer_2021.pdf) | gci-ga.com | 2021-08-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3026 | 35 |
+| [NAIA_Winter_2021.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Winter_2021.pdf) | gci-ga.com | 2021-01-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 4090 | 30 |
+| [NAIA_Winter_2022.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Winter_2022.pdf) | gci-ga.com | 2022-03-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3205 | 38 |
+| [NAIA_Winter_2023.pdf](https://www.gci-ga.com/pub/media/pdf/NAIA_Winter_2023.pdf) | gci-ga.com | 2023-01-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 4702 | 43 |
+| [NCIA_Fall_2019.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Fall_2019.pdf) | gci-ga.com | 2019-09-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 52 | 14103 | 234 |
+| [NCIA_Fall_2020.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Fall_2020.pdf) | gci-ga.com | 2020-09-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 44 | 11911 | 275 |
+| [NCIA_Fall_2022.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Fall_2022.pdf) | gci-ga.com | 2022-09-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 40 | 10114 | 130 |
+| [NCIA_Spring_2019.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Spring_2019.pdf) | gci-ga.com | 2019-03-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 52 | 16523 | 341 |
+| [NCIA_Spring_2020.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Spring_2020.pdf) | gci-ga.com | 2020-03-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 48 | 13460 | 266 |
+| [NCIA_Spring_2021.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Spring_2021.pdf) | gci-ga.com | 2021-03-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 40 | 11186 | 225 |
+| [NCIA_Summer_2019.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Summer_2019.pdf) | gci-ga.com | 2019-06-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 56 | 11461 | 356 |
+| [NCIA_Summer_2020.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Summer_2020.pdf) | gci-ga.com | 2020-06-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 44 | 12277 | 333 |
+| [NCIA_Summer_2021.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Summer_2021.pdf) | gci-ga.com | 2021-06-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 72 | 29358 | 200 |
+| [NCIA_Winter_2020.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Winter_2020.pdf) | gci-ga.com | 2020-12-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 40 | 13566 | 174 |
+| [NCIA_Winter_2022.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Winter_2022.pdf) | gci-ga.com | 2022-02-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 44 | 11802 | 146 |
+| [NCIA_Winter_2023.pdf](https://www.gci-ga.com/pub/media/pdf/NCIA_Winter_2023.pdf) | gci-ga.com | 2023-01-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 44 | 10769 | 143 |
+| [News_Emergency.pdf](https://www.gci-ga.com/pub/media/pdf/News_Emergency.pdf) | gci-ga.com | 2019-11-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [News_Toombs.pdf](https://www.gci-ga.com/pub/media/pdf/News_Toombs.pdf) | gci-ga.com | 2019-11-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Op-Highlight-Optics.pdf](https://www.gci-ga.com/pub/media/pdf/Op-Highlight-Optics.pdf) | gci-ga.com | 2021-08-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 167 | 10 |
+| [Op-Highlight_Autry.pdf](https://www.gci-ga.com/pub/media/pdf/Op-Highlight_Autry.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 222 | 4 |
+| [Op-Highlight_Engraving.pdf](https://www.gci-ga.com/pub/media/pdf/Op-Highlight_Engraving.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 285 | 5 |
+| [Op-Highlight_Telfair.pdf](https://www.gci-ga.com/pub/media/pdf/Op-Highlight_Telfair.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 431 | 12 |
+| [SCSC_FINAL_Rev1.pdf](https://www.gci-ga.com/pub/media/pdf/SCSC_FINAL_Rev1.pdf) | gci-ga.com | 2019-11-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 337 | 1 |
+| [SkillsTraining_AutoCAD.pdf](https://www.gci-ga.com/pub/media/pdf/SkillsTraining_AutoCAD.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 228 | 6 |
+| [SkillsTraining_COVID-Shields.pdf](https://www.gci-ga.com/pub/media/pdf/SkillsTraining_COVID-Shields.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 336 | 6 |
+| [SkillsTraining_Gowns.pdf](https://www.gci-ga.com/pub/media/pdf/SkillsTraining_Gowns.pdf) | gci-ga.com | 2021-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 223 | 5 |
 | [Chemical%20Products%20Secondary%20Labels%20PDF%20Form%20(1)%20ver2%20(1).pdf](https://products.gci-ga.com/images/PDFs/Chemical%20Products%20Secondary%20Labels%20PDF%20Form%20(1)%20ver2%20(1).pdf) | products.gci-ga.com | 2021-03-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 407 | 1 |
 | [Ergonomics%20Catalog.pdf](https://products.gci-ga.com/images/PDFs/Ergonomics%20Catalog.pdf) | products.gci-ga.com | 2022-06-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 22 | 348 | 87 |
 | [GCI%20Grill%20Flyer%20Web.pdf](https://products.gci-ga.com/images/PDFs/GCI%20Grill%20Flyer%20Web.pdf) | products.gci-ga.com | 2021-03-31 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 102 | 3 |
@@ -35523,6 +35584,372 @@ Generated: 2026-03-24T19:03:15.270909+00:00
 - **URL**: https://kjk.umn.edu/sites/kjk.umn.edu/files/2025-07/new_test_pdf.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### Agribusiness_Hen%20House.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Agribusiness_Hen%20House.pdf
+- **Status**: analysed
+- title, 
+
+### Agribusiness_Silage.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Agribusiness_Silage.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Agribusiness_Student%20Tour.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Agribusiness_Student%20Tour.pdf
+- **Status**: analysed
+- title, 
+
+### Community_Backpacks.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Community_Backpacks.pdf
+- **Status**: analysed
+- title, 
+
+### Community_Backpacks2.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Community_Backpacks2.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Community_Youth.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Community_Youth.pdf
+- **Status**: analysed
+- title, 
+
+### Customer%20Showcase_Fire-Station.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Customer%20Showcase_Fire-Station.pdf
+- **Status**: analysed
+- title, 
+
+### Customer%20Showcase_Judicial-Bldg.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Customer%20Showcase_Judicial-Bldg.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Food-Service.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Food-Service.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI-Dashboard%20User%20Guide.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI-Dashboard%20User%20Guide.pdf
+- **Status**: analysed
+- title, 
+
+### GCI_Fall_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2019.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Fall_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2020.pdf
+- **Status**: analysed
+- title, 
+
+### GCI_Fall_2021.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2021.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Fall_2022.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2022.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Spring_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2019.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Spring_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2020.pdf
+- **Status**: analysed
+- title, 
+
+### GCI_Spring_2021.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2021.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Spring_2022.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2022.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Summer_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Summer_2019.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Summer_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Summer_2020.pdf
+- **Status**: analysed
+- title, 
+
+### GCI_Summer_2021.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Summer_2021.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Winter_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2019.pdf
+- **Status**: analysed
+- title, 
+
+### GCI_Winter_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2020.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Winter_2021.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2021.pdf
+- **Status**: analysed
+- title, 
+
+### GCI_Winter_2022.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2022.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### GCI_Winter_2023.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2023.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### IGA_FINAL_Rev1.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/IGA_FINAL_Rev1.pdf
+- **Status**: analysed
+- title, 
+
+### NAIA_Fall_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Fall_2019.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NAIA_Fall_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Fall_2020.pdf
+- **Status**: analysed
+- title, 
+
+### NAIA_Fall_2022.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Fall_2022.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NAIA_Spring_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Spring_2019.pdf
+- **Status**: analysed
+- title, 
+
+### NAIA_Spring_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Spring_2020.pdf
+- **Status**: analysed
+- title, 
+
+### NAIA_Spring_2021.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Spring_2021.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NAIA_Summer_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Summer_2019.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NAIA_Summer_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Summer_2020.pdf
+- **Status**: analysed
+- title, 
+
+### NAIA_Summer_2021.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Summer_2021.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NAIA_Winter_2021.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Winter_2021.pdf
+- **Status**: analysed
+- title, 
+
+### NAIA_Winter_2022.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Winter_2022.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NAIA_Winter_2023.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NAIA_Winter_2023.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NCIA_Fall_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Fall_2019.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### NCIA_Fall_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Fall_2020.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### NCIA_Fall_2022.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Fall_2022.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### NCIA_Spring_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Spring_2019.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### NCIA_Spring_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Spring_2020.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### NCIA_Spring_2021.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Spring_2021.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### NCIA_Summer_2019.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Summer_2019.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### NCIA_Summer_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Summer_2020.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### NCIA_Summer_2021.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Summer_2021.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### NCIA_Winter_2020.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Winter_2020.pdf
+- **Status**: analysed
+- title, 
+
+### NCIA_Winter_2022.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Winter_2022.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### NCIA_Winter_2023.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/NCIA_Winter_2023.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### News_Emergency.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/News_Emergency.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### News_Toombs.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/News_Toombs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Op-Highlight-Optics.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Op-Highlight-Optics.pdf
+- **Status**: analysed
+- title, 
+
+### Op-Highlight_Autry.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Op-Highlight_Autry.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Op-Highlight_Engraving.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Op-Highlight_Engraving.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Op-Highlight_Telfair.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/Op-Highlight_Telfair.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### SCSC_FINAL_Rev1.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/SCSC_FINAL_Rev1.pdf
+- **Status**: analysed
+- title, 
+
+### SkillsTraining_AutoCAD.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/SkillsTraining_AutoCAD.pdf
+- **Status**: analysed
+- title, 
+
+### SkillsTraining_COVID-Shields.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/SkillsTraining_COVID-Shields.pdf
+- **Status**: analysed
+- title, 
+
+### SkillsTraining_Gowns.pdf
+
+- **URL**: https://www.gci-ga.com/pub/media/pdf/SkillsTraining_Gowns.pdf
+- **Status**: analysed
+- title, 
 
 ### Chemical%20Products%20Secondary%20Labels%20PDF%20Form%20(1)%20ver2%20(1).pdf
 
