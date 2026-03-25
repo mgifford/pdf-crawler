@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-25T17:06:55.227039+00:00",
+    "site": "coloradoboces.org",
+    "crawl_url": "https://www.coloradoboces.org/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23553408139",
+    "issue_url": "",
+    "archive_file": "2026-03-25_17-06-55-227_coloradoboces.org.html",
+    "total": 48,
+    "analysed": 48,
+    "accessible": 9
+  },
+  {
     "date": "2026-03-25T16:05:44.387328+00:00",
     "site": "slvboces.org",
     "crawl_url": "https://www.slvboces.org",

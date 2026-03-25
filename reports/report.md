@@ -1,19 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-25T16:05:44.387328+00:00
+Generated: 2026-03-25T17:06:55.227039+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 17788 |
-| Analysed | 4695 |
+| URLs crawled | 98 |
+| Total files tracked | 17836 |
+| Analysed | 4743 |
 | Pending analysis | 10851 |
 | Errors during analysis | 2242 |
-| Accessible | 1396 |
+| Accessible | 1405 |
 | Totally inaccessible | 158 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 1160 |
+| Exempt (pre-2018) | 1161 |
 
 ## Files per Site
 
@@ -29,6 +30,7 @@ Generated: 2026-03-25T16:05:44.387328+00:00
 | calgary.ca | 165 |
 | canada.ca | 496 |
 | cms.gov | 460 |
+| coloradoboces.org | 48 |
 | ctoec.org | 1742 |
 | dc.gov | 74 |
 | dnr.state.mn.us | 8 |
@@ -4767,6 +4769,54 @@ Generated: 2026-03-25T16:05:44.387328+00:00
 | [DFA_DFAA.pdf](https://slvboces.org/DFA_DFAA.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 543 | 0 |
 | [DFG.pdf](https://slvboces.org/DFG.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 91 | 0 |
 | [DG.pdf](https://slvboces.org/DG.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 152 | 0 |
+| [2025-26-CBA-Member-Directory.pdf](https://www.coloradoboces.org/wp-content/uploads/2025/08/2025-26-CBA-Member-Directory.pdf) | coloradoboces.org | 2025-08-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 654 | 4 |
+| [2026-February-AEPA-Newsletter.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/2026-February-AEPA-Newsletter.pdf) | coloradoboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 577 | 3 |
+| [2026-March-AEPA-Newsletter.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/2026-March-AEPA-Newsletter.pdf) | coloradoboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 772 | 6 |
+| [360FF_COBOCES-Education-4.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/360FF_COBOCES-Education-4.pdf) | coloradoboces.org | 2025-12-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 148 | 24 |
+| [AEPA-CO-Boces-flyer-2026-JG.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/AEPA-CO-Boces-flyer-2026-JG.pdf) | coloradoboces.org | 2026-01-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 75 | 18 |
+| [AEPA_Cooperative-Purchasing-Ad-February-2026.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/AEPA_Cooperative-Purchasing-Ad-February-2026.pdf) | coloradoboces.org | 2026-02-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 245 | 8 |
+| [AEPA_Cooperative-Purchasing-Ad-March-2026.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/AEPA_Cooperative-Purchasing-Ad-March-2026.pdf) | coloradoboces.org | 2026-03-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 235 | 8 |
+| [AI-Protection.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/AI-Protection.pdf) | coloradoboces.org | 2025-09-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 430 | 0 |
+| [Answers-to-Colorado-BOCES-RFP-2025-1.pdf](https://www.coloradoboces.org/wp-content/uploads/2025/01/Answers-to-Colorado-BOCES-RFP-2025-1.pdf) | coloradoboces.org | 2025-02-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 546 | 0 |
+| [BN-Backpack-Bundles.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/BN-Backpack-Bundles.pdf) | coloradoboces.org | 2026-01-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 265 | 9 |
+| [BN-Classwork-1.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/BN-Classwork-1.pdf) | coloradoboces.org | 2026-01-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 336 | 3 |
+| [BN-Education-Flyer-CO-BOCES.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/BN-Education-Flyer-CO-BOCES.pdf) | coloradoboces.org | 2025-01-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 227 | 9 |
+| [BOCES-Agreement.pdf](https://www.coloradoboces.org/wp-content/uploads/2023/06/BOCES-Agreement.pdf) | coloradoboces.org | 2011-05-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 1564 | 0 |
+| [BOCES-Brochure-2024-25.pdf](https://www.coloradoboces.org/wp-content/uploads/2024/08/BOCES-Brochure-2024-25.pdf) | coloradoboces.org | 2024-08-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2566 | 31 |
+| [BOCES-Software-Summary_March-2020-Final.pdf](https://www.coloradoboces.org/wp-content/uploads/2023/06/BOCES-Software-Summary_March-2020-Final.pdf) | coloradoboces.org | 2020-04-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 305 | 0 |
+| [Bluum-Product-Line-Card.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/Bluum-Product-Line-Card.pdf) | coloradoboces.org | 2024-10-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 235 | 1 |
+| [CBA-Awards-Winners-2025.pdf](https://www.coloradoboces.org/wp-content/uploads/2023/06/CBA-Awards-Winners-2025.pdf) | coloradoboces.org | 2025-07-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 827 | 1 |
+| [CBA-Cooperative-Flyer_012926.pdf](https://www.coloradoboces.org/wp-content/uploads/2025/04/CBA-Cooperative-Flyer_012926.pdf) | coloradoboces.org | 2026-02-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 745 | 5 |
+| [CBA-Legislative-Platform-2016-2017.pdf](https://www.coloradoboces.org/wp-content/uploads/2023/06/CBA-Legislative-Platform-2016-2017.pdf) | coloradoboces.org | 2023-06-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 5056 | 1 |
+| [CBA-Meeting-Calendar-2024-2025.pdf](https://www.coloradoboces.org/wp-content/uploads/2025/04/CBA-Meeting-Calendar-2024-2025.pdf) | coloradoboces.org | 2024-10-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 287 | 0 |
+| [CBA_BYLAWS-adopted-Apr-8-2015.pdf](https://www.coloradoboces.org/wp-content/uploads/2023/06/CBA_BYLAWS-adopted-Apr-8-2015.pdf) | coloradoboces.org | 2015-09-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 2497 | 1 |
+| [CO-BOCES-AEPA-1-Online-Rebate-Info-Sheet.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-BOCES-AEPA-1-Online-Rebate-Info-Sheet.pdf) | coloradoboces.org | 2026-03-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 240 | 2 |
+| [CO-BOCES-AEPA-Comprehensive-Brochure.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-BOCES-AEPA-Comprehensive-Brochure.pdf) | coloradoboces.org | 2026-03-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1442 | 6 |
+| [CO-BOCES-AEPA-Security-Solutions-Contract-Info-Sheet.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-BOCES-AEPA-Security-Solutions-Contract-Info-Sheet.pdf) | coloradoboces.org | 2026-03-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 313 | 7 |
+| [CO-K12-COBOCES-Flyer-2026-03-2.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-K12-COBOCES-Flyer-2026-03-2.pdf) | coloradoboces.org | 2026-03-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 170 | 6 |
+| [Chalmers-AEPA-TriFold_FINAL.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/Chalmers-AEPA-TriFold_FINAL.pdf) | coloradoboces.org | 2026-03-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 128 | 25 |
+| [Colorado-BOCES_-March-Customer-Bi-Fold-2026.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/Colorado-BOCES_-March-Customer-Bi-Fold-2026.pdf) | coloradoboces.org | 2026-02-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 610 | 27 |
+| [Colorado-BOCES_February-Customer-Bi-Fold-2026.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/Colorado-BOCES_February-Customer-Bi-Fold-2026.pdf) | coloradoboces.org | 2026-02-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 526 | 17 |
+| [Cook-Center-CBA-letter.pdf](https://www.coloradoboces.org/wp-content/uploads/2025/03/Cook-Center-CBA-letter.pdf) | coloradoboces.org | 2025-03-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 246 | 2 |
+| [February-eMackin.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/February-eMackin.pdf) | coloradoboces.org | 2026-02-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 435 | 22 |
+| [Hubert_AEPA-Awareness_CO-Boces_Microsite-Announcement.pdf](https://www.coloradoboces.org/wp-content/uploads/2025/12/Hubert_AEPA-Awareness_CO-Boces_Microsite-Announcement.pdf) | coloradoboces.org | 2025-11-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 180 | 4 |
+| [IKIO_AEPA_Feb_2026_AEPA.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/IKIO_AEPA_Feb_2026_AEPA.pdf) | coloradoboces.org | 2026-01-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 523 | 17 |
+| [IKIO_March_2026.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/IKIO_March_2026.pdf) | coloradoboces.org | 2026-03-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 260 | 8 |
+| [March-On-Over-To-Our-New-Mackin-Community.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/March-On-Over-To-Our-New-Mackin-Community.pdf) | coloradoboces.org | 2026-03-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 529 | 25 |
+| [Medline-K-12-Higher-Education-Brochure.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/Medline-K-12-Higher-Education-Brochure.pdf) | coloradoboces.org | 2026-03-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 291 | 29 |
+| [Mental-Health-Solutions_One-Pager.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/Mental-Health-Solutions_One-Pager.pdf) | coloradoboces.org | 2024-04-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 251 | 2 |
+| [Metalworking-project-aepa.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/Metalworking-project-aepa.pdf) | coloradoboces.org | 2026-02-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 196 | 8 |
+| [Nueralign.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/Nueralign.pdf) | coloradoboces.org | 2026-03-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 98 | 3 |
+| [NxtGenSecurity-2-1.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/NxtGenSecurity-2-1.pdf) | coloradoboces.org | 2026-02-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 511 | 8 |
+| [PG-Medallion-Rohrer.pdf](https://www.coloradoboces.org/wp-content/uploads/2025/03/PG-Medallion-Rohrer.pdf) | coloradoboces.org | 2025-02-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 101 | 2 |
+| [RFP-2025-26-FINAL-1.pdf](https://www.coloradoboces.org/wp-content/uploads/2025/01/RFP-2025-26-FINAL-1.pdf) | coloradoboces.org | 2025-01-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 49 | 15754 | 1 |
+| [Rethink-Web-Filter.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/Rethink-Web-Filter.pdf) | coloradoboces.org | 2025-05-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 154 | 0 |
+| [Tech-RFP-2020v2.pdf](https://www.coloradoboces.org/wp-content/uploads/2023/06/Tech-RFP-2020v2.pdf) | coloradoboces.org | 2020-03-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 6755 | 4 |
+| [The-OrganWise-Guys-New-Food-Pyramid-CO-1.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/The-OrganWise-Guys-New-Food-Pyramid-CO-1.pdf) | coloradoboces.org | 2026-01-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 193 | 3 |
+| [breaking_the_mold_issue6-1.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/breaking_the_mold_issue6-1.pdf) | coloradoboces.org | 2025-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1171 | 10 |
+| [from_gold_stars_issue6.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/from_gold_stars_issue6.pdf) | coloradoboces.org | 2025-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1174 | 0 |
+| [making_movement_matter_issue6.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/making_movement_matter_issue6.pdf) | coloradoboces.org | 2025-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 528 | 3 |
+| [safety-AEPA.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/safety-AEPA.pdf) | coloradoboces.org | 2026-03-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 117 | 14 |
 
 ## Files with Errors or Notes
 
@@ -38081,3 +38131,249 @@ Generated: 2026-03-25T16:05:44.387328+00:00
 - **URL**: https://slvboces.org/DG.pdf
 - **Status**: analysed
 - title, 
+
+### 2025-26-CBA-Member-Directory.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2025/08/2025-26-CBA-Member-Directory.pdf
+- **Status**: analysed
+- title, 
+
+### 2026-February-AEPA-Newsletter.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/2026-February-AEPA-Newsletter.pdf
+- **Status**: analysed
+- no date found, 
+
+### 2026-March-AEPA-Newsletter.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/2026-March-AEPA-Newsletter.pdf
+- **Status**: analysed
+- no date found, 
+
+### AEPA-CO-Boces-flyer-2026-JG.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/AEPA-CO-Boces-flyer-2026-JG.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### AEPA_Cooperative-Purchasing-Ad-February-2026.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/AEPA_Cooperative-Purchasing-Ad-February-2026.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### AEPA_Cooperative-Purchasing-Ad-March-2026.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/AEPA_Cooperative-Purchasing-Ad-March-2026.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### AI-Protection.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/AI-Protection.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Answers-to-Colorado-BOCES-RFP-2025-1.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2025/01/Answers-to-Colorado-BOCES-RFP-2025-1.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES-Agreement.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2023/06/BOCES-Agreement.pdf
+- **Status**: analysed
+- title, lang, 
+
+### BOCES-Brochure-2024-25.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2024/08/BOCES-Brochure-2024-25.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES-Software-Summary_March-2020-Final.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2023/06/BOCES-Software-Summary_March-2020-Final.pdf
+- **Status**: analysed
+- title, 
+
+### Bluum-Product-Line-Card.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/Bluum-Product-Line-Card.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### CBA-Cooperative-Flyer_012926.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2025/04/CBA-Cooperative-Flyer_012926.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CBA-Legislative-Platform-2016-2017.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2023/06/CBA-Legislative-Platform-2016-2017.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CBA-Meeting-Calendar-2024-2025.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2025/04/CBA-Meeting-Calendar-2024-2025.pdf
+- **Status**: analysed
+- title, 
+
+### CBA_BYLAWS-adopted-Apr-8-2015.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2023/06/CBA_BYLAWS-adopted-Apr-8-2015.pdf
+- **Status**: analysed
+- title, 
+
+### CO-BOCES-AEPA-1-Online-Rebate-Info-Sheet.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-BOCES-AEPA-1-Online-Rebate-Info-Sheet.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### CO-BOCES-AEPA-Comprehensive-Brochure.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-BOCES-AEPA-Comprehensive-Brochure.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### CO-BOCES-AEPA-Security-Solutions-Contract-Info-Sheet.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-BOCES-AEPA-Security-Solutions-Contract-Info-Sheet.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### CO-K12-COBOCES-Flyer-2026-03-2.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-K12-COBOCES-Flyer-2026-03-2.pdf
+- **Status**: analysed
+- title, 
+
+### Chalmers-AEPA-TriFold_FINAL.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/Chalmers-AEPA-TriFold_FINAL.pdf
+- **Status**: analysed
+- title, 
+
+### Colorado-BOCES_-March-Customer-Bi-Fold-2026.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/Colorado-BOCES_-March-Customer-Bi-Fold-2026.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Colorado-BOCES_February-Customer-Bi-Fold-2026.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/Colorado-BOCES_February-Customer-Bi-Fold-2026.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Cook-Center-CBA-letter.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2025/03/Cook-Center-CBA-letter.pdf
+- **Status**: analysed
+- title, 
+
+### February-eMackin.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/February-eMackin.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Hubert_AEPA-Awareness_CO-Boces_Microsite-Announcement.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2025/12/Hubert_AEPA-Awareness_CO-Boces_Microsite-Announcement.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### IKIO_AEPA_Feb_2026_AEPA.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/IKIO_AEPA_Feb_2026_AEPA.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### March-On-Over-To-Our-New-Mackin-Community.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/March-On-Over-To-Our-New-Mackin-Community.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Medline-K-12-Higher-Education-Brochure.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/Medline-K-12-Higher-Education-Brochure.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Mental-Health-Solutions_One-Pager.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/Mental-Health-Solutions_One-Pager.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Metalworking-project-aepa.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/Metalworking-project-aepa.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Nueralign.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/Nueralign.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### NxtGenSecurity-2-1.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/NxtGenSecurity-2-1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### PG-Medallion-Rohrer.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2025/03/PG-Medallion-Rohrer.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### RFP-2025-26-FINAL-1.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2025/01/RFP-2025-26-FINAL-1.pdf
+- **Status**: analysed
+- title, 
+
+### Rethink-Web-Filter.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/Rethink-Web-Filter.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### The-OrganWise-Guys-New-Food-Pyramid-CO-1.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/The-OrganWise-Guys-New-Food-Pyramid-CO-1.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### breaking_the_mold_issue6-1.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/breaking_the_mold_issue6-1.pdf
+- **Status**: analysed
+- tagged, 
+
+### from_gold_stars_issue6.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/02/from_gold_stars_issue6.pdf
+- **Status**: analysed
+- tagged, 
+
+### making_movement_matter_issue6.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/making_movement_matter_issue6.pdf
+- **Status**: analysed
+- tagged, 
+
+### safety-AEPA.pdf
+
+- **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/safety-AEPA.pdf
+- **Status**: analysed
+- title, tagged, lang, 

@@ -1,0 +1,2259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-25T17:06:55.228659+00:00",
+    "total_files": 48,
+    "analysed": 48,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 9,
+    "totally_inaccessible": 0,
+    "broken": 0,
+    "exempt": 1,
+    "sites": {
+      "coloradoboces.org": 48
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2025/08/2025-26-CBA-Member-Directory.pdf",
+      "md5": "79847a1dcdeaae6756b632cba43947e2",
+      "filename": "2025-26-CBA-Member-Directory.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:36.994565+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-26 18:33:52+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.150",
+        "Pages": 4,
+        "Words": 654,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/2026-February-AEPA-Newsletter.pdf",
+      "md5": "b8e8d58cb34db6713fae6269f7ccb9de",
+      "filename": "2026-February-AEPA-Newsletter.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.001157+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 5,
+        "Words": 577,
+        "Images": 3
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/2026-March-AEPA-Newsletter.pdf",
+      "md5": "f4b7e81d7efb02bd67527dd63e75195b",
+      "filename": "2026-March-AEPA-Newsletter.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.008923+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 7,
+        "Words": 772,
+        "Images": 6
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/360FF_COBOCES-Education-4.pdf",
+      "md5": "61d5e28448fe881299b6b6ad208858e0",
+      "filename": "360FF_COBOCES-Education-4.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.017657+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-20 03:24:06+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 148,
+        "Images": 24
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/AEPA-CO-Boces-flyer-2026-JG.pdf",
+      "md5": "0c719bacb4a998f59dd30054132dcbd3",
+      "filename": "AEPA-CO-Boces-flyer-2026-JG.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.024935+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-08 20:56:27+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 21.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 18.0",
+        "Pages": 1,
+        "Words": 75,
+        "Images": 18
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/AEPA_Cooperative-Purchasing-Ad-February-2026.pdf",
+      "md5": "0f0c85e30b3974bc1cd472b5877c3dc5",
+      "filename": "AEPA_Cooperative-Purchasing-Ad-February-2026.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.031820+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-09 19:54:25+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator 30.1 (Windows)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 245,
+        "Images": 8
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/AEPA_Cooperative-Purchasing-Ad-March-2026.pdf",
+      "md5": "68f50572c4b09200565491ec8ef50e7d",
+      "filename": "AEPA_Cooperative-Purchasing-Ad-March-2026.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.036559+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-04 18:10:23+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Illustrator 30.1 (Windows)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 235,
+        "Images": 8
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/AI-Protection.pdf",
+      "md5": "91d07238da5fa25bf5c98cb2cb59b7aa",
+      "filename": "AI-Protection.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.039683+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-23 16:08:21+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.5 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 430,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2025/01/Answers-to-Colorado-BOCES-RFP-2025-1.pdf",
+      "md5": "5defe82b5df1320f0742cd017639e00b",
+      "filename": "Answers-to-Colorado-BOCES-RFP-2025-1.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.043208+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-02-13 20:58:40+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft Word",
+        "Producer": null,
+        "Pages": 2,
+        "Words": 546,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/BN-Backpack-Bundles.pdf",
+      "md5": "8c0a68d2efa1c5239741a33c8f52eee0",
+      "filename": "BN-Backpack-Bundles.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.048869+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-16 02:27:42+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Canva",
+        "Producer": "Canva",
+        "Pages": 1,
+        "Words": 265,
+        "Images": 9
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/BN-Classwork-1.pdf",
+      "md5": "e5348da5f4bf7066feee8494d3183c09",
+      "filename": "BN-Classwork-1.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.051851+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-16 02:28:25+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Canva",
+        "Producer": "Canva",
+        "Pages": 1,
+        "Words": 336,
+        "Images": 3
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/BN-Education-Flyer-CO-BOCES.pdf",
+      "md5": "5d85215ff52a3d94aa438eeab6234bc6",
+      "filename": "BN-Education-Flyer-CO-BOCES.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.055170+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-11 02:44:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 227,
+        "Images": 9
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2023/06/BOCES-Agreement.pdf",
+      "md5": "39ebe3093e61db649dafe4f6fb2a24da",
+      "filename": "BOCES-Agreement.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.057084+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2011-05-11 19:16:44+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 10.0 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 3,
+        "Words": 1564,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2024/08/BOCES-Brochure-2024-25.pdf",
+      "md5": "4ae7c33cdacf81a851d23e00fc48582e",
+      "filename": "BOCES-Brochure-2024-25.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.060134+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-08-09 23:44:04+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Publisher for Microsoft 365",
+        "Producer": "Microsoft\u00ae Publisher for Microsoft 365",
+        "Pages": 8,
+        "Words": 2566,
+        "Images": 31
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2023/06/BOCES-Software-Summary_March-2020-Final.pdf",
+      "md5": "6c6fde20a1aa29385b18f0cd70d303ea",
+      "filename": "BOCES-Software-Summary_March-2020-Final.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.062207+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-04-03 19:32:42+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft Word",
+        "Producer": null,
+        "Pages": 1,
+        "Words": 305,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/Bluum-Product-Line-Card.pdf",
+      "md5": "097b3588464f4d8732e1d5234859ccea",
+      "filename": "Bluum-Product-Line-Card.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.066546+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-03 20:41:44+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 19.5 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 235,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2023/06/CBA-Awards-Winners-2025.pdf",
+      "md5": "071f62c08a325ba9ddbf65c4f3fb6ed5",
+      "filename": "CBA-Awards-Winners-2025.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.068705+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-07-15 21:48:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.51",
+        "Pages": 3,
+        "Words": 827,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2025/04/CBA-Cooperative-Flyer_012926.pdf",
+      "md5": "a7c30d0749e68f5703656343c76315cf",
+      "filename": "CBA-Cooperative-Flyer_012926.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.070948+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-04 16:05:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.119",
+        "Pages": 2,
+        "Words": 745,
+        "Images": 5
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2023/06/CBA-Legislative-Platform-2016-2017.pdf",
+      "md5": "711242feeb69180aeba11f4b02ee3900",
+      "filename": "CBA-Legislative-Platform-2016-2017.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.073018+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-06-27 00:32:08+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 13,
+        "Words": 5056,
+        "Images": 1
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2025/04/CBA-Meeting-Calendar-2024-2025.pdf",
+      "md5": "802b4c5c69d3818e335cccca2eb3f63d",
+      "filename": "CBA-Meeting-Calendar-2024-2025.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.074788+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-08 16:46:57+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.3.144",
+        "Pages": 1,
+        "Words": 287,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2023/06/CBA_BYLAWS-adopted-Apr-8-2015.pdf",
+      "md5": "0d31e7dfd0a86017f1893278aebb7e05",
+      "filename": "CBA_BYLAWS-adopted-Apr-8-2015.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.076630+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-09-18 22:20:24+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 2497,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-BOCES-AEPA-1-Online-Rebate-Info-Sheet.pdf",
+      "md5": "afbc8f431df3396f2e89f1665bda3884",
+      "filename": "CO-BOCES-AEPA-1-Online-Rebate-Info-Sheet.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.078868+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-03 17:47:18+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 21.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 18.0",
+        "Pages": 1,
+        "Words": 240,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-BOCES-AEPA-Comprehensive-Brochure.pdf",
+      "md5": "375a416cb2b8a2cfd4052227c677ac90",
+      "filename": "CO-BOCES-AEPA-Comprehensive-Brochure.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.081899+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-03 17:50:22+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 21.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 18.0",
+        "Pages": 5,
+        "Words": 1442,
+        "Images": 6
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-BOCES-AEPA-Security-Solutions-Contract-Info-Sheet.pdf",
+      "md5": "e19d486af437f9422995ada6844afaa4",
+      "filename": "CO-BOCES-AEPA-Security-Solutions-Contract-Info-Sheet.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.084806+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-03 17:57:23+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 313,
+        "Images": 7
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/CO-K12-COBOCES-Flyer-2026-03-2.pdf",
+      "md5": "34caa1dfee7c131a7ed2fd390956d3b4",
+      "filename": "CO-K12-COBOCES-Flyer-2026-03-2.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.088388+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-11 14:50:02+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 21.2 (Macintosh)",
+        "Producer": "Adobe PDF Library 18.0",
+        "Pages": 1,
+        "Words": 170,
+        "Images": 6
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/Chalmers-AEPA-TriFold_FINAL.pdf",
+      "md5": "3992d08727073d59aa6b3139dd86a2ce",
+      "filename": "Chalmers-AEPA-TriFold_FINAL.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.097864+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-04 18:56:35+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 19.5 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 128,
+        "Images": 25
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/Colorado-BOCES_-March-Customer-Bi-Fold-2026.pdf",
+      "md5": "3eb86b96ba936a71b4e11b2abd4dab1c",
+      "filename": "Colorado-BOCES_-March-Customer-Bi-Fold-2026.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.104471+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-18 17:18:44+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 21.2 (Windows)",
+        "Producer": "Adobe PDF Library 18.0",
+        "Pages": 4,
+        "Words": 610,
+        "Images": 27
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/Colorado-BOCES_February-Customer-Bi-Fold-2026.pdf",
+      "md5": "499ad8ea3ea2d53d0e0f4ffb1a58cfa6",
+      "filename": "Colorado-BOCES_February-Customer-Bi-Fold-2026.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.110011+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-02 20:57:13+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 21.1 (Windows)",
+        "Producer": "Adobe PDF Library 18.0",
+        "Pages": 4,
+        "Words": 526,
+        "Images": 17
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2025/03/Cook-Center-CBA-letter.pdf",
+      "md5": "f0da4b174f5cc83e38e7438a269f922b",
+      "filename": "Cook-Center-CBA-letter.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.112909+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-03-18 18:47:52+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.208",
+        "Pages": 1,
+        "Words": 246,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/February-eMackin.pdf",
+      "md5": "79d04eb69b0ae6739ba112a9370c7665",
+      "filename": "February-eMackin.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.116892+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-02 14:52:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Acrobat 25.0",
+        "Producer": "Acrobat Web Capture 15.0",
+        "Pages": 5,
+        "Words": 435,
+        "Images": 22
+      },
+      "errors": [
+        "tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2025/12/Hubert_AEPA-Awareness_CO-Boces_Microsite-Announcement.pdf",
+      "md5": "e8499ed715a005c00ebe843cda24abe3",
+      "filename": "Hubert_AEPA-Awareness_CO-Boces_Microsite-Announcement.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.120577+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-19 16:37:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe Illustrator 30.0 (Windows)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 180,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/IKIO_AEPA_Feb_2026_AEPA.pdf",
+      "md5": "d9d8e2a8cf96685193e3e15ceae32b85",
+      "filename": "IKIO_AEPA_Feb_2026_AEPA.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.124555+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-28 16:04:10+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Illustrator 30.1 (Windows)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 523,
+        "Images": 17
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/IKIO_March_2026.pdf",
+      "md5": "fae04d4350c83f9079aea41c803f78e7",
+      "filename": "IKIO_March_2026.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.134131+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-04 17:59:25+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 260,
+        "Images": 8
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/March-On-Over-To-Our-New-Mackin-Community.pdf",
+      "md5": "bbb51eacd91e1d9bd90e65f9f565b027",
+      "filename": "March-On-Over-To-Our-New-Mackin-Community.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.138769+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-05 14:44:30+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Acrobat 25.0",
+        "Producer": "Acrobat Web Capture 15.0",
+        "Pages": 5,
+        "Words": 529,
+        "Images": 25
+      },
+      "errors": [
+        "tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/Medline-K-12-Higher-Education-Brochure.pdf",
+      "md5": "a0c55bf4a88d6a55922e891074959dbb",
+      "filename": "Medline-K-12-Higher-Education-Brochure.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.143322+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-10 21:08:09+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "Microsoft: Print To PDF",
+        "Pages": 2,
+        "Words": 291,
+        "Images": 29
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/Mental-Health-Solutions_One-Pager.pdf",
+      "md5": "9a2b794ff44da7413c6566eb80589e9f",
+      "filename": "Mental-Health-Solutions_One-Pager.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.146477+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-04-10 16:54:51+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 19.3 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 1,
+        "Words": 251,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/Metalworking-project-aepa.pdf",
+      "md5": "fb4a41003b597653c0c460063cfc10f9",
+      "filename": "Metalworking-project-aepa.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.154001+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-09 19:41:18+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Illustrator 29.6 (Windows)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 196,
+        "Images": 8
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/Nueralign.pdf",
+      "md5": "31b8c19542fb6417e55f8c845fa217bc",
+      "filename": "Nueralign.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.158270+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-04 20:05:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "Microsoft: Print To PDF",
+        "Pages": 1,
+        "Words": 98,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/NxtGenSecurity-2-1.pdf",
+      "md5": "74a4ccfef5a639df1f04d6d7e8a167b4",
+      "filename": "NxtGenSecurity-2-1.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.168825+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-09 22:00:03+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "PDFium",
+        "Producer": "PDFium",
+        "Pages": 2,
+        "Words": 511,
+        "Images": 8
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2025/03/PG-Medallion-Rohrer.pdf",
+      "md5": "662629a9561508455a766cea615e071f",
+      "filename": "PG-Medallion-Rohrer.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.172813+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-02-07 20:46:38+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Illustrator 27.0 (Windows)",
+        "Producer": "Adobe PDF library 16.07",
+        "Pages": 1,
+        "Words": 101,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2025/01/RFP-2025-26-FINAL-1.pdf",
+      "md5": "76374d5239e27eb77291883beef2f75b",
+      "filename": "RFP-2025-26-FINAL-1.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.176398+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-05 20:59:28+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft Word",
+        "Producer": null,
+        "Pages": 49,
+        "Words": 15754,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/Rethink-Web-Filter.pdf",
+      "md5": "5a53d9c7fc837dee43217ec9f5483d76",
+      "filename": "Rethink-Web-Filter.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.179266+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-23 14:26:52+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.3 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 1,
+        "Words": 154,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2023/06/Tech-RFP-2020v2.pdf",
+      "md5": "f51f74cd293546ce3e510dd334a5e150",
+      "filename": "Tech-RFP-2020v2.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.182703+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-03-05 00:59:43+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft Word",
+        "Producer": null,
+        "Pages": 24,
+        "Words": 6755,
+        "Images": 4
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/The-OrganWise-Guys-New-Food-Pyramid-CO-1.pdf",
+      "md5": "623e61543f1587bda567c891224aa05b",
+      "filename": "The-OrganWise-Guys-New-Food-Pyramid-CO-1.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.185854+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-12 21:31:20+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 21.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 18.0",
+        "Pages": 1,
+        "Words": 193,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/breaking_the_mold_issue6-1.pdf",
+      "md5": "c99a14475819d37b497cc40296e19f01",
+      "filename": "breaking_the_mold_issue6-1.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.189587+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-14 19:50:42+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.2 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 4,
+        "Words": 1171,
+        "Images": 10
+      },
+      "errors": [
+        "tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/02/from_gold_stars_issue6.pdf",
+      "md5": "edd9f38425ba11eaac20f0d6f259248f",
+      "filename": "from_gold_stars_issue6.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.192587+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-14 21:30:43+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.2 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 3,
+        "Words": 1174,
+        "Images": 0
+      },
+      "errors": [
+        "tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/making_movement_matter_issue6.pdf",
+      "md5": "20f55c4fd37e04158e0cc1dcd4edafbd",
+      "filename": "making_movement_matter_issue6.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.195441+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-14 21:03:59+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.2 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 528,
+        "Images": 3
+      },
+      "errors": [
+        "tagged, "
+      ]
+    },
+    {
+      "url": "https://www.coloradoboces.org/wp-content/uploads/2026/03/safety-AEPA.pdf",
+      "md5": "bc89a78be56b0569c3e9154056aebb76",
+      "filename": "safety-AEPA.pdf",
+      "site": "coloradoboces.org",
+      "crawled_at": "2026-03-25T16:56:37.200070+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-10 20:42:47+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Illustrator 29.6 (Windows)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 117,
+        "Images": 14
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
+      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + esc(f.site || '') + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        var colDefs = [
+          { key: 'file',       label: 'File' },
+          { key: 'site',       label: 'Site' },
+          { key: 'date',       label: 'Published Date' },
+          { key: 'accessible', label: 'Accessible' },
+          { key: 'tagged',     label: 'Tagged' },
+          { key: 'title',      label: 'Title' },
+          { key: 'language',   label: 'Language' },
+          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'pages',      label: 'Pages' },
+        ];
+        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
+        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>
