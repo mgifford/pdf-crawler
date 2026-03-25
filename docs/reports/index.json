@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-25T16:05:44.387328+00:00",
+    "site": "slvboces.org",
+    "crawl_url": "https://www.slvboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23549178651",
+    "issue_url": "",
+    "archive_file": "2026-03-25_16-05-44-387_slvboces.org.html",
+    "total": 614,
+    "analysed": 199,
+    "accessible": 22
+  },
+  {
     "date": "2026-03-25T13:19:53.088437+00:00",
     "site": "beaverton.k12.or.us",
     "crawl_url": "https://www.beaverton.k12.or.us/",

@@ -1,20 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-25T13:19:53.088437+00:00
+Generated: 2026-03-25T16:05:44.387328+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 486 |
-| Total files tracked | 17174 |
-| Analysed | 4496 |
-| Pending analysis | 10437 |
-| Errors during analysis | 2241 |
-| Accessible | 1374 |
-| Totally inaccessible | 137 |
+| Total files tracked | 17788 |
+| Analysed | 4695 |
+| Pending analysis | 10851 |
+| Errors during analysis | 2242 |
+| Accessible | 1396 |
+| Totally inaccessible | 158 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 1132 |
+| Exempt (pre-2018) | 1160 |
 
 ## Files per Site
 
@@ -59,6 +58,7 @@ Generated: 2026-03-25T13:19:53.088437+00:00
 | pca.state.mn.us | 211 |
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
+| slvboces.org | 614 |
 | smallpdf.com | 2 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
@@ -4568,6 +4568,205 @@ Generated: 2026-03-25T13:19:53.088437+00:00
 | [sweetpotatoes.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/sweetpotatoes.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 219 | 2 |
 | [turnips.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/turnips.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 206 | 2 |
 | [whitepotatoes.pdf](https://products.gci-ga.com/IMAGES/farmproductcatalog/whitepotatoes.pdf) | products.gci-ga.com | 2012-08-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 229 | 2 |
+| [%F0%9F%A7%91_%F0%9F%8F%AB%20Tier%201%20Effectiveness%20Checklist%20using%20Core%20Instruction.pdf](https://slvboces.org/%F0%9F%A7%91_%F0%9F%8F%AB%20Tier%201%20Effectiveness%20Checklist%20using%20Core%20Instruction.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 303 | 0 |
+| [%F0%9F%A7%AD%20Tier%201%20Coaching%20Visit%20Feedback.pdf](https://slvboces.org/%F0%9F%A7%AD%20Tier%201%20Coaching%20Visit%20Feedback.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 450 | 0 |
+| [%F0%9F%A7%AD%20Tier%201%20Instruction%20Monitoring%20%28K%E2%80%9312%29.pdf](https://slvboces.org/%F0%9F%A7%AD%20Tier%201%20Instruction%20Monitoring%20%28K%E2%80%9312%29.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 803 | 0 |
+| [%F0%9F%A7%AD%20Tier%201%20Pre-Conference%20Teacher%20Checklist.pdf](https://slvboces.org/%F0%9F%A7%AD%20Tier%201%20Pre-Conference%20Teacher%20Checklist.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 220 | 0 |
+| [%F0%9F%A7%AD%20Tier%201%20Systems%20Effectiveness%20Check.pdf](https://slvboces.org/%F0%9F%A7%AD%20Tier%201%20Systems%20Effectiveness%20Check.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 426 | 0 |
+| [06.28.21_Special_Board_Agenda.pdf](https://slvboces.org/06.28.21_Special_Board_Agenda.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 60 | 3 |
+| [0966_001.pdf](https://slvboces.org/0966_001.pdf) | slvboces.org | 2025-01-07 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 4 |
+| [100%20%281%29.pdf](https://slvboces.org/100%20%281%29.pdf) | slvboces.org | 2016-02-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 213 | 1 |
+| [12_Traits_of_Giftedness%20%281%29.pdf](https://slvboces.org/12_Traits_of_Giftedness%20%281%29.pdf) | slvboces.org | 2007-03-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 629 | 0 |
+| [12_Traits_of_Giftedness.pdf](https://slvboces.org/12_Traits_of_Giftedness.pdf) | slvboces.org | 2007-03-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 629 | 0 |
+| [12_traits_non_biased.pdf](https://slvboces.org/12_traits_non_biased.pdf) | slvboces.org | 2013-07-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 853 | 0 |
+| [15_Tips_for_Identifying_Gifted_EL_Students.pdf](https://slvboces.org/15_Tips_for_Identifying_Gifted_EL_Students.pdf) | slvboces.org | 2018-06-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 509 | 1 |
+| [18_19_AUDIT_San_Luis_Valley_BOCES_2%20%281%29.pdf](https://slvboces.org/18_19_AUDIT_San_Luis_Valley_BOCES_2%20%281%29.pdf) | slvboces.org | 2020-01-01 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 80 | 0 | 233 |
+| [2011ProceduralSafeguards.pdf](https://slvboces.org/2011ProceduralSafeguards.pdf) | slvboces.org | 2011-08-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 34 | 14672 | 1 |
+| [2018_Growth_Mindset_Strategies_website.pdf](https://slvboces.org/2018_Growth_Mindset_Strategies_website.pdf) | slvboces.org | 2018-07-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1548 | 8 |
+| [2021-2022-Quarterly-Report-Card-Period-Due-Dates-by-District.pdf](https://slvboces.org/2021-2022-Quarterly-Report-Card-Period-Due-Dates-by-District.pdf) | slvboces.org | 2021-09-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 238 | 0 |
+| [2024-25%20FINAL%20AUDIT%20REPORT.pdf](https://slvboces.org/2024-25%20FINAL%20AUDIT%20REPORT.pdf) | slvboces.org | 2025-12-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 69 | 22010 | 7 |
+| [2025-2026%20ALAMOSA%20Calendar.pdf](https://slvboces.org/2025-2026%20ALAMOSA%20Calendar.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 668 | 0 |
+| [2025-2026%20School%20Calendar-Mountain%20Valley.pdf](https://slvboces.org/2025-2026%20School%20Calendar-Mountain%20Valley.pdf) | slvboces.org | 2025-05-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 694 | 0 |
+| [2025-2026-Sargent-School-Calendar-.pdf](https://slvboces.org/2025-2026-Sargent-School-Calendar-.pdf) | slvboces.org | 2025-04-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 736 | 3 |
+| [2025-2026_ALAMOSA_Calendar.pdf](https://slvboces.org/2025-2026_ALAMOSA_Calendar.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 668 | 0 |
+| [2025-2026_Calendar_Moffat.pdf](https://slvboces.org/2025-2026_Calendar_Moffat.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 652 | 1 |
+| [2025-2026_Mont_Vista.pdf](https://slvboces.org/2025-2026_Mont_Vista.pdf) | slvboces.org | 2025-04-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 926 | 1 |
+| [2025-2026_SANGRE_DE_CRISTO_SCHOOLS.pdf](https://slvboces.org/2025-2026_SANGRE_DE_CRISTO_SCHOOLS.pdf) | slvboces.org | 2025-04-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 593 | 0 |
+| [2025-2026_SOUTH_CONEJOS_SCHOOL_CALENDER.pdf](https://slvboces.org/2025-2026_SOUTH_CONEJOS_SCHOOL_CALENDER.pdf) | slvboces.org | 2025-04-21 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 3 |
+| [2025-2026_Sanford_District_Calendar_jpg.pdf](https://slvboces.org/2025-2026_Sanford_District_Calendar_jpg.pdf) | slvboces.org | 2025-06-17 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [2025-2026_School_Calendar-Mountain_Valley.pdf](https://slvboces.org/2025-2026_School_Calendar-Mountain_Valley.pdf) | slvboces.org | 2025-05-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 694 | 0 |
+| [2025-2026_School_Calendar_CENTER-0.pdf](https://slvboces.org/2025-2026_School_Calendar_CENTER-0.pdf) | slvboces.org | 2025-04-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 825 | 2 |
+| [2025-2026_School_Calendar_CENTER.pdf](https://slvboces.org/2025-2026_School_Calendar_CENTER.pdf) | slvboces.org | 2025-04-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 825 | 2 |
+| [2025-2026_School_Creede.pdf](https://slvboces.org/2025-2026_School_Creede.pdf) | slvboces.org | 2025-06-17 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [2025-2026_UPPER_RIO_GRANDE_SCHOOL_DISTRICT_CALENDER.pdf](https://slvboces.org/2025-2026_UPPER_RIO_GRANDE_SCHOOL_DISTRICT_CALENDER.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 733 | 0 |
+| [2025-26-Sierra-Grande-Calendar.pdf](https://slvboces.org/2025-26-Sierra-Grande-Calendar.pdf) | slvboces.org | 2025-04-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 749 | 1 |
+| [2025-26_Centennial_R-1_District_Calendar_FINAL-0.pdf](https://slvboces.org/2025-26_Centennial_R-1_District_Calendar_FINAL-0.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 688 | 1 |
+| [2025-26_Centennial_R-1_District_Calendar_FINAL.pdf](https://slvboces.org/2025-26_Centennial_R-1_District_Calendar_FINAL.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 688 | 1 |
+| [24-25%20SWAP%20TA.508-0.pdf](https://slvboces.org/24-25%20SWAP%20TA.508-0.pdf) | slvboces.org | 2024-09-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 854 | 9 |
+| [24-25%20SWAP%20TA.508.pdf](https://slvboces.org/24-25%20SWAP%20TA.508.pdf) | slvboces.org | 2024-09-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 854 | 9 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 143 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 908 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 149 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 143 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 143 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 903 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 145 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 277 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 246 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 144 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 144 | 0 |
+| [24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf](https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 150 | 0 |
+| [24-25-SLV-Calendar.pdf](https://slvboces.org/24-25-SLV-Calendar.pdf) | slvboces.org | 2024-06-27 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 557 | 0 |
+| [24-25-Sargent-School-Calendar-.pdf](https://slvboces.org/24-25-Sargent-School-Calendar-.pdf) | slvboces.org | 2025-04-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 736 | 3 |
+| [25-26%20Appropriation%20Resolution.pdf](https://slvboces.org/25-26%20Appropriation%20Resolution.pdf) | slvboces.org | 2026-02-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 12 | 13 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20Cert%20Prof.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Cert%20Prof.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 903 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20Coordinator_Faciliator.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Coordinator_Faciliator.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 151 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20Dir%20of%20Business%20Serv.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Dir%20of%20Business%20Serv.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 145 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20Executive%20Assist..pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Executive%20Assist..pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 147 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20HR%20Manager.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20HR%20Manager.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 143 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20Lic%20Prof.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Lic%20Prof.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 898 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20Para.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Para.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 145 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20Psych_Behavior.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Psych_Behavior.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 277 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20SWAP.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20SWAP.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 246 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20Secretary.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Secretary.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 144 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20SpEd%20Director.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20SpEd%20Director.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 144 | 0 |
+| [25-26%20Salary%20Schedules.xlsx%20-%20Support%20Staff.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Support%20Staff.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 153 | 0 |
+| [25-26%20Salary%20Schedules.xlsx.pdf](https://slvboces.org/25-26%20Salary%20Schedules.xlsx.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 3496 | 0 |
+| [2999_001.pdf](https://slvboces.org/2999_001.pdf) | slvboces.org | 2025-07-09 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 18 | 0 | 97 |
+| [AC.pdf](https://slvboces.org/AC.pdf) | slvboces.org | 2022-03-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 16 |
+| [AC_E_1.pdf](https://slvboces.org/AC_E_1.pdf) | slvboces.org | 2022-03-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 8 |
+| [AC_E_2_1_.pdf](https://slvboces.org/AC_E_2_1_.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 124 | 0 |
+| [AC_R.pdf](https://slvboces.org/AC_R.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1603 | 1 |
+| [AD.pdf](https://slvboces.org/AD.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 65 | 0 |
+| [ADC.pdf](https://slvboces.org/ADC.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 445 | 3 |
+| [ALP-MOU-Member.pdf](https://slvboces.org/ALP-MOU-Member.pdf) | slvboces.org | 2023-08-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 446 | 1 |
+| [ALP-MOU-Non-Member.pdf](https://slvboces.org/ALP-MOU-Non-Member.pdf) | slvboces.org | 2023-08-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 459 | 2 |
+| [ALP_Guidance_2016__1_%20%281%29.pdf](https://slvboces.org/ALP_Guidance_2016__1_%20%281%29.pdf) | slvboces.org | 2016-02-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 62 | 16608 | 92 |
+| [ALP_Guidance_2016__1_.pdf](https://slvboces.org/ALP_Guidance_2016__1_.pdf) | slvboces.org | 2016-02-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 62 | 16608 | 92 |
+| [ALP_Leadership_CDE_standards.pdf](https://slvboces.org/ALP_Leadership_CDE_standards.pdf) | slvboces.org | 2015-09-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 | 1800 | 6 |
+| [AU-Determination-1.pdf](https://slvboces.org/AU-Determination-1.pdf) | slvboces.org | 2019-04-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 2852 | 17 |
+| [AU_ALP_Self_review.pdf](https://slvboces.org/AU_ALP_Self_review.pdf) | slvboces.org | 2017-02-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 322 | 1 |
+| [Adult-Community-Agencies-TA-.pdf](https://slvboces.org/Adult-Community-Agencies-TA-.pdf) | slvboces.org | 2018-09-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 1566 | 4 |
+| [Advanced_Learning_Plans_ECEA_Rules_Guidance___Updated_2022.pdf](https://slvboces.org/Advanced_Learning_Plans_ECEA_Rules_Guidance___Updated_2022.pdf) | slvboces.org | 2022-09-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 3577 | 14 |
+| [Advocate_%20Counselor%20.pdf](https://slvboces.org/Advocate_%20Counselor%20.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 9 |
+| [Affective_Competence_Chart_Example_Goals.pdf](https://slvboces.org/Affective_Competence_Chart_Example_Goals.pdf) | slvboces.org | 2015-11-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 723 | 0 |
+| [Age-Milestones.pdf](https://slvboces.org/Age-Milestones.pdf) | slvboces.org | 2016-01-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 1028 | 2 |
+| [Age-of-Majority-CDE.pdf](https://slvboces.org/Age-of-Majority-CDE.pdf) | slvboces.org | 2010-06-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 | 2052 | 6 |
+| [Agenda%20August%202025%20Board%20.pdf](https://slvboces.org/Agenda%20August%202025%20Board%20.pdf) | slvboces.org | 2025-08-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 268 | 1 |
+| [Agenda%20June%20Board%20Website.pdf](https://slvboces.org/Agenda%20June%20Board%20Website.pdf) | slvboces.org | 2025-06-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 253 | 1 |
+| [Agenda%20May%2028%2C%202025.pdf](https://slvboces.org/Agenda%20May%2028%2C%202025.pdf) | slvboces.org | 2025-06-01 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [Agenda%20October%202025%20Board.pdf](https://slvboces.org/Agenda%20October%202025%20Board.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 203 | 2 |
+| [Alamosa-Autism-Training-6-8-15-text.pdf](https://slvboces.org/Alamosa-Autism-Training-6-8-15-text.pdf) | slvboces.org | 2015-06-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 207 | 10107 | 134 |
+| [All-Work-and-Some-Play.pdf](https://slvboces.org/All-Work-and-Some-Play.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [April_16_Special_Board_Mtg_Agenda.pdf](https://slvboces.org/April_16_Special_Board_Mtg_Agenda.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 87 | 3 |
+| [April_19__2023_Special_Meeting_Agenda.pdf](https://slvboces.org/April_19__2023_Special_Meeting_Agenda.pdf) | slvboces.org | 2023-04-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 189 | 1 |
+| [Assistant-Special-Education-Director-SSN-.pdf](https://slvboces.org/Assistant-Special-Education-Director-SSN-.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 11 |
+| [Audit-Report-SAN-LUIS-VALLEY-BOCES-2023-FINANCIAL-STATEMENTS.pdf](https://slvboces.org/Audit-Report-SAN-LUIS-VALLEY-BOCES-2023-FINANCIAL-STATEMENTS.pdf) | slvboces.org | 2023-12-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 62 | 20271 | 7 |
+| [August_19_2020.pdf](https://slvboces.org/August_19_2020.pdf) | slvboces.org | 2022-12-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2568 | 0 |
+| [August_2021_Board_Minutes.pdf](https://slvboces.org/August_2021_Board_Minutes.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2461 | 0 |
+| [Aviso%20de%20garant%C3%AD%20as%20de%20procedimiento.Spanish%282024%29_a11y.pdf](https://slvboces.org/Aviso%20de%20garant%C3%AD%20as%20de%20procedimiento.Spanish%282024%29_a11y.pdf) | slvboces.org | 2024-08-21 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 47 | 21937 | 37 |
+| [B.pdf](https://slvboces.org/B.pdf) | slvboces.org | 2021-11-18 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 16 | 0 | 69 |
+| [BBA.pdf](https://slvboces.org/BBA.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 308 | 0 |
+| [BBBC.pdf](https://slvboces.org/BBBC.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 216 | 0 |
+| [BC1_2_.pdf](https://slvboces.org/BC1_2_.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 292 | 0 |
+| [BCB3.pdf](https://slvboces.org/BCB3.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1027 | 2 |
+| [BC_R1_1_.pdf](https://slvboces.org/BC_R1_1_.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 397 | 1 |
+| [BDA_1_.pdf](https://slvboces.org/BDA_1_.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 162 | 0 |
+| [BDB.pdf](https://slvboces.org/BDB.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 437 | 1 |
+| [BDF.pdf](https://slvboces.org/BDF.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 379 | 0 |
+| [BDFA.pdf](https://slvboces.org/BDFA.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 173 | 0 |
+| [BDFD.pdf](https://slvboces.org/BDFD.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 139 | 0 |
+| [BDG1.pdf](https://slvboces.org/BDG1.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 295 | 1 |
+| [BE.pdf](https://slvboces.org/BE.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 472 | 1 |
+| [BEAA.pdf](https://slvboces.org/BEAA.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 199 | 0 |
+| [BEC1.pdf](https://slvboces.org/BEC1.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 689 | 0 |
+| [BEDA1.pdf](https://slvboces.org/BEDA1.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 314 | 1 |
+| [BEDB.pdf](https://slvboces.org/BEDB.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 308 | 0 |
+| [BEDD.pdf](https://slvboces.org/BEDD.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 98 | 1 |
+| [BEDF1.pdf](https://slvboces.org/BEDF1.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 199 | 0 |
+| [BEDG.pdf](https://slvboces.org/BEDG.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 322 | 0 |
+| [BEDH.pdf](https://slvboces.org/BEDH.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 336 | 0 |
+| [BG.pdf](https://slvboces.org/BG.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 768 | 0 |
+| [BID_BIE1.pdf](https://slvboces.org/BID_BIE1.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 269 | 0 |
+| [BOCES%2025-26%20Calendar.pdf](https://slvboces.org/BOCES%2025-26%20Calendar.pdf) | slvboces.org | 2025-06-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 638 | 1 |
+| [BOCES%20Employment%20Application%20-%20Certified.pdf](https://slvboces.org/BOCES%20Employment%20Application%20-%20Certified.pdf) | slvboces.org | 2025-01-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 525 | 1 |
+| [BOCES%20Employment%20Application%20-%20Classified.pdf](https://slvboces.org/BOCES%20Employment%20Application%20-%20Classified.pdf) | slvboces.org | 2025-01-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 525 | 1 |
+| [BOCES-Paraprofessional-request-22-23.pdf](https://slvboces.org/BOCES-Paraprofessional-request-22-23.pdf) | slvboces.org | 2022-07-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1476 | 0 |
+| [Before-and-After-IEP-Planning-Form.pdf](https://slvboces.org/Before-and-After-IEP-Planning-Form.pdf) | slvboces.org | 2023-03-06 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 892 | 0 |
+| [Behavior-or-sensory_.pdf](https://slvboces.org/Behavior-or-sensory_.pdf) | slvboces.org | 2023-03-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Biters-Chewers-Suckers-and-Pickers.pdf](https://slvboces.org/Biters-Chewers-Suckers-and-Pickers.pdf) | slvboces.org | 2015-10-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 1333 | 1 |
+| [Board%20August%202025%20Minutes%20%282%29.pdf](https://slvboces.org/Board%20August%202025%20Minutes%20%282%29.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1433 | 0 |
+| [Board%20June%202025%20Minutes%20%281%29.pdf](https://slvboces.org/Board%20June%202025%20Minutes%20%281%29.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1237 | 0 |
+| [Board%20Minutes%20August%2023%2C%202023.pdf](https://slvboces.org/Board%20Minutes%20August%2023%2C%202023.pdf) | slvboces.org | 2023-09-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1619 | 0 |
+| [Board%20Minutes%20June%2021%2C%202023.pdf](https://slvboces.org/Board%20Minutes%20June%2021%2C%202023.pdf) | slvboces.org | 2023-09-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1866 | 0 |
+| [Board%20Zoom%20Meeting%20-%20Sept.%2020%2C%202023%20%282%29.pdf](https://slvboces.org/Board%20Zoom%20Meeting%20-%20Sept.%2020%2C%202023%20%282%29.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1673 | 0 |
+| [Board%20of%20Directors%20-%20Jan%2022%202025%20-%20Minutes%201.pdf](https://slvboces.org/Board%20of%20Directors%20-%20Jan%2022%202025%20-%20Minutes%201.pdf) | slvboces.org | 2025-07-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 905 | 0 |
+| [Board%20of%20Directors%20-%20Mar%2026%202025%20-%20Agenda%20-%20Pdf.pdf](https://slvboces.org/Board%20of%20Directors%20-%20Mar%2026%202025%20-%20Agenda%20-%20Pdf.pdf) | slvboces.org | 2009-12-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 282 | 1 |
+| [Board%20of%20Directors%20-%20May%2028%202025%20-%20Minutes%201.pdf](https://slvboces.org/Board%20of%20Directors%20-%20May%2028%202025%20-%20Minutes%201.pdf) | slvboces.org | 2025-07-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 540 | 0 |
+| [Board_Agenda_09.15.21.pdf](https://slvboces.org/Board_Agenda_09.15.21.pdf) | slvboces.org | 2021-09-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 301 | 1 |
+| [Board_Agenda_August_2021.pdf](https://slvboces.org/Board_Agenda_August_2021.pdf) | slvboces.org | 2021-08-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 465 | 1 |
+| [Board_Agenda_Dec_15__2021.pdf](https://slvboces.org/Board_Agenda_Dec_15__2021.pdf) | slvboces.org | 2021-12-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 529 | 1 |
+| [Board_Agenda_Feb_16__2022.pdf](https://slvboces.org/Board_Agenda_Feb_16__2022.pdf) | slvboces.org | 2022-02-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 362 | 1 |
+| [Board_Agenda_Feb_16__2022_2.pdf](https://slvboces.org/Board_Agenda_Feb_16__2022_2.pdf) | slvboces.org | 2022-02-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 362 | 1 |
+| [Board_Agenda_Jan_26__2022.pdf](https://slvboces.org/Board_Agenda_Jan_26__2022.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 165 | 1 |
+| [Board_Agenda_March_15_2023.pdf](https://slvboces.org/Board_Agenda_March_15_2023.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 248 | 3 |
+| [Board_Agenda_March_9__2022.pdf](https://slvboces.org/Board_Agenda_March_9__2022.pdf) | slvboces.org | 2022-03-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 354 | 1 |
+| [Board_Agenda_March_9__2022_2.pdf](https://slvboces.org/Board_Agenda_March_9__2022_2.pdf) | slvboces.org | 2022-03-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 354 | 1 |
+| [Board_Agenda_March_9__2022_3.pdf](https://slvboces.org/Board_Agenda_March_9__2022_3.pdf) | slvboces.org | 2022-03-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 354 | 1 |
+| [Board_Agenda_May_11__2022%282%29.pdf](https://slvboces.org/Board_Agenda_May_11__2022%282%29.pdf) | slvboces.org | 2022-05-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 428 | 1 |
+| [Board_Agenda_May_11__2022.pdf](https://slvboces.org/Board_Agenda_May_11__2022.pdf) | slvboces.org | 2022-05-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 428 | 1 |
+| [Board_Agenda_May_11__2022_2.pdf](https://slvboces.org/Board_Agenda_May_11__2022_2.pdf) | slvboces.org | 2022-05-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 428 | 1 |
+| [Board_Agenda_November_16__2022.pdf](https://slvboces.org/Board_Agenda_November_16__2022.pdf) | slvboces.org | 2022-11-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 323 | 1 |
+| [Board_Agenda_September_14__2022.pdf](https://slvboces.org/Board_Agenda_September_14__2022.pdf) | slvboces.org | 2022-09-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 299 | 1 |
+| [Board_Agenda___June_2023.pdf](https://slvboces.org/Board_Agenda___June_2023.pdf) | slvboces.org | 2023-06-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 338 | 1 |
+| [Board_Agenda___May_2023.pdf](https://slvboces.org/Board_Agenda___May_2023.pdf) | slvboces.org | 2023-05-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 362 | 1 |
+| [Board_Minutes_August_17__2022.pdf](https://slvboces.org/Board_Minutes_August_17__2022.pdf) | slvboces.org | 2022-12-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1260 | 0 |
+| [Board_Minutes_September_14__2021.docx__2_1.pdf](https://slvboces.org/Board_Minutes_September_14__2021.docx__2_1.pdf) | slvboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1627 | 0 |
+| [Books_for_Parents.pdf](https://slvboces.org/Books_for_Parents.pdf) | slvboces.org | 2018-10-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 475 | 0 |
+| [Budget-Manager-.pdf](https://slvboces.org/Budget-Manager-.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 10 |
+| [CAREER_STANDARDS_AND_INDICATORS.pdf](https://slvboces.org/CAREER_STANDARDS_AND_INDICATORS.pdf) | slvboces.org | 2013-11-06 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [CASES_Assessment_Rubric.pdf](https://slvboces.org/CASES_Assessment_Rubric.pdf) | slvboces.org | 2017-06-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 17 | 3725 | 0 |
+| [CBA_CBC.pdf](https://slvboces.org/CBA_CBC.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 715 | 0 |
+| [CBF1.pdf](https://slvboces.org/CBF1.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 255 | 0 |
+| [CBI.pdf](https://slvboces.org/CBI.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 191 | 0 |
+| [CBI_E1.pdf](https://slvboces.org/CBI_E1.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 1967 | 0 |
+| [CBI_R.pdf](https://slvboces.org/CBI_R.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 534 | 0 |
+| [CC.pdf](https://slvboces.org/CC.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 75 | 0 |
+| [CCA%20Organizational%20Chart.pdf](https://slvboces.org/CCA%20Organizational%20Chart.pdf) | slvboces.org | 2025-02-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 121 | 0 |
+| [CCB.pdf](https://slvboces.org/CCB.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 183 | 0 |
+| [CDE-SOP-COMPLETION-GUIDELINES.pdf](https://slvboces.org/CDE-SOP-COMPLETION-GUIDELINES.pdf) | slvboces.org | 2010-06-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1328 | 0 |
+| [CDE.PSN_.2024April%282%29at10-25-24Accessible.pdf](https://slvboces.org/CDE.PSN_.2024April%282%29at10-25-24Accessible.pdf) | slvboces.org | 2024-11-06 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 47 | 19812 | 37 |
+| [CDE___ACCESS_for_Gifted_Identification___FAQs.pdf](https://slvboces.org/CDE___ACCESS_for_Gifted_Identification___FAQs.pdf) | slvboces.org | 2021-01-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 890 | 9 |
+| [CEBT-Benefit-Plans.pdf](https://slvboces.org/CEBT-Benefit-Plans.pdf) | slvboces.org | 2022-05-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 0 | 58 |
+| [CH.pdf](https://slvboces.org/CH.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 169 | 0 |
+| [CHCA.pdf](https://slvboces.org/CHCA.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 153 | 0 |
+| [CHD.pdf](https://slvboces.org/CHD.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 86 | 0 |
+| [COGNITIVE-DISABILITY-SAMPLE.pdf](https://slvboces.org/COGNITIVE-DISABILITY-SAMPLE.pdf) | slvboces.org | 2010-06-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 | 1763 | 101 |
+| [CWC_Varied_Faces__1___1_.pdf](https://slvboces.org/CWC_Varied_Faces__1___1_.pdf) | slvboces.org | 2006-12-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 18 | 3791 | 0 |
+| [CWC___12_traits_non_biased__2_.pdf](https://slvboces.org/CWC___12_traits_non_biased__2_.pdf) | slvboces.org | 2020-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 853 | 0 |
+| [Change%20of%20Status.pdf](https://slvboces.org/Change%20of%20Status.pdf) | slvboces.org | 2022-09-09 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 7 |
+| [Characteristics_of_Gifted_Learners%20%281%29.pdf](https://slvboces.org/Characteristics_of_Gifted_Learners%20%281%29.pdf) | slvboces.org | 2011-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 536 | 0 |
+| [Characteristics_of_Gifted_Learners.pdf](https://slvboces.org/Characteristics_of_Gifted_Learners.pdf) | slvboces.org | 2011-04-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 536 | 0 |
+| [Child-Find-Coordinator-.pdf](https://slvboces.org/Child-Find-Coordinator-.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 8 |
+| [Common_Gifted_Education_Myths.pdf](https://slvboces.org/Common_Gifted_Education_Myths.pdf) | slvboces.org | 2019-02-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1469 | 0 |
+| [Copy-of-HEAVY-WORK-CHORES%20%282%29.pdf](https://slvboces.org/Copy-of-HEAVY-WORK-CHORES%20%282%29.pdf) | slvboces.org | 2016-02-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 114 | 1 |
+| [Copy-of-Putty-Finger-Exercises.pdf](https://slvboces.org/Copy-of-Putty-Finger-Exercises.pdf) | slvboces.org | 2014-07-10 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Creede.pdf](https://slvboces.org/Creede.pdf) | slvboces.org | 2025-06-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 16 |
+| [Cultural_Competence_Checklist.pdf](https://slvboces.org/Cultural_Competence_Checklist.pdf) | slvboces.org | 2010-08-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 451 | 0 |
+| [DA.pdf](https://slvboces.org/DA.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 94 | 0 |
+| [DAB.pdf](https://slvboces.org/DAB.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 719 | 0 |
+| [DAB_E.pdf](https://slvboces.org/DAB_E.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 209 | 0 |
+| [DAC.pdf](https://slvboces.org/DAC.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 228 | 0 |
+| [DB.pdf](https://slvboces.org/DB.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 430 | 0 |
+| [DBD.pdf](https://slvboces.org/DBD.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 445 | 0 |
+| [DBG-E_001.pdf](https://slvboces.org/DBG-E_001.pdf) | slvboces.org | 2025-02-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 2 |
+| [DBG_E.pdf](https://slvboces.org/DBG_E.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 134 | 0 |
+| [DBK.pdf](https://slvboces.org/DBK.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 161 | 0 |
+| [DD.pdf](https://slvboces.org/DD.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 280 | 0 |
+| [DEB.pdf](https://slvboces.org/DEB.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 99 | 0 |
+| [DFA_DFAA.pdf](https://slvboces.org/DFA_DFAA.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 543 | 0 |
+| [DFG.pdf](https://slvboces.org/DFG.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 91 | 0 |
+| [DG.pdf](https://slvboces.org/DG.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 152 | 0 |
 
 ## Files with Errors or Notes
 
@@ -36758,5 +36957,1127 @@ Generated: 2026-03-25T13:19:53.088437+00:00
 ### whitepotatoes.pdf
 
 - **URL**: https://products.gci-ga.com/IMAGES/farmproductcatalog/whitepotatoes.pdf
+- **Status**: analysed
+- title, 
+
+### %F0%9F%A7%91_%F0%9F%8F%AB%20Tier%201%20Effectiveness%20Checklist%20using%20Core%20Instruction.pdf
+
+- **URL**: https://slvboces.org/%F0%9F%A7%91_%F0%9F%8F%AB%20Tier%201%20Effectiveness%20Checklist%20using%20Core%20Instruction.pdf
+- **Status**: analysed
+- no date found, 
+
+### %F0%9F%A7%AD%20Tier%201%20Coaching%20Visit%20Feedback.pdf
+
+- **URL**: https://slvboces.org/%F0%9F%A7%AD%20Tier%201%20Coaching%20Visit%20Feedback.pdf
+- **Status**: analysed
+- no date found, 
+
+### %F0%9F%A7%AD%20Tier%201%20Instruction%20Monitoring%20%28K%E2%80%9312%29.pdf
+
+- **URL**: https://slvboces.org/%F0%9F%A7%AD%20Tier%201%20Instruction%20Monitoring%20%28K%E2%80%9312%29.pdf
+- **Status**: analysed
+- no date found, 
+
+### %F0%9F%A7%AD%20Tier%201%20Pre-Conference%20Teacher%20Checklist.pdf
+
+- **URL**: https://slvboces.org/%F0%9F%A7%AD%20Tier%201%20Pre-Conference%20Teacher%20Checklist.pdf
+- **Status**: analysed
+- no date found, 
+
+### %F0%9F%A7%AD%20Tier%201%20Systems%20Effectiveness%20Check.pdf
+
+- **URL**: https://slvboces.org/%F0%9F%A7%AD%20Tier%201%20Systems%20Effectiveness%20Check.pdf
+- **Status**: analysed
+- no date found, 
+
+### 06.28.21_Special_Board_Agenda.pdf
+
+- **URL**: https://slvboces.org/06.28.21_Special_Board_Agenda.pdf
+- **Status**: analysed
+- title, 
+
+### 0966_001.pdf
+
+- **URL**: https://slvboces.org/0966_001.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 100%20%281%29.pdf
+
+- **URL**: https://slvboces.org/100%20%281%29.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 12_Traits_of_Giftedness%20%281%29.pdf
+
+- **URL**: https://slvboces.org/12_Traits_of_Giftedness%20%281%29.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 12_Traits_of_Giftedness.pdf
+
+- **URL**: https://slvboces.org/12_Traits_of_Giftedness.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 12_traits_non_biased.pdf
+
+- **URL**: https://slvboces.org/12_traits_non_biased.pdf
+- **Status**: analysed
+- title, 
+
+### 15_Tips_for_Identifying_Gifted_EL_Students.pdf
+
+- **URL**: https://slvboces.org/15_Tips_for_Identifying_Gifted_EL_Students.pdf
+- **Status**: analysed
+- title, 
+
+### 18_19_AUDIT_San_Luis_Valley_BOCES_2%20%281%29.pdf
+
+- **URL**: https://slvboces.org/18_19_AUDIT_San_Luis_Valley_BOCES_2%20%281%29.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2011ProceduralSafeguards-Spanish-1.pdf
+
+- **URL**: https://slvboces.org/2011ProceduralSafeguards-Spanish-1.pdf
+- **Status**: error
+- maximum recursion depth exceeded while calling a Python object
+
+### 2011ProceduralSafeguards.pdf
+
+- **URL**: https://slvboces.org/2011ProceduralSafeguards.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2018_Growth_Mindset_Strategies_website.pdf
+
+- **URL**: https://slvboces.org/2018_Growth_Mindset_Strategies_website.pdf
+- **Status**: analysed
+- title, 
+
+### 2021-2022-Quarterly-Report-Card-Period-Due-Dates-by-District.pdf
+
+- **URL**: https://slvboces.org/2021-2022-Quarterly-Report-Card-Period-Due-Dates-by-District.pdf
+- **Status**: analysed
+- title, 
+
+### 2024-25%20FINAL%20AUDIT%20REPORT.pdf
+
+- **URL**: https://slvboces.org/2024-25%20FINAL%20AUDIT%20REPORT.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### 2025-2026%20ALAMOSA%20Calendar.pdf
+
+- **URL**: https://slvboces.org/2025-2026%20ALAMOSA%20Calendar.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2025-2026%20School%20Calendar-Mountain%20Valley.pdf
+
+- **URL**: https://slvboces.org/2025-2026%20School%20Calendar-Mountain%20Valley.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2025-2026_ALAMOSA_Calendar.pdf
+
+- **URL**: https://slvboces.org/2025-2026_ALAMOSA_Calendar.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2025-2026_Calendar_Moffat.pdf
+
+- **URL**: https://slvboces.org/2025-2026_Calendar_Moffat.pdf
+- **Status**: analysed
+- no date found, 
+
+### 2025-2026_Mont_Vista.pdf
+
+- **URL**: https://slvboces.org/2025-2026_Mont_Vista.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026_SANGRE_DE_CRISTO_SCHOOLS.pdf
+
+- **URL**: https://slvboces.org/2025-2026_SANGRE_DE_CRISTO_SCHOOLS.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026_SOUTH_CONEJOS_SCHOOL_CALENDER.pdf
+
+- **URL**: https://slvboces.org/2025-2026_SOUTH_CONEJOS_SCHOOL_CALENDER.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2025-2026_Sanford_District_Calendar_jpg.pdf
+
+- **URL**: https://slvboces.org/2025-2026_Sanford_District_Calendar_jpg.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2025-2026_School_Calendar-Mountain_Valley.pdf
+
+- **URL**: https://slvboces.org/2025-2026_School_Calendar-Mountain_Valley.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2025-2026_School_Calendar_CENTER-0.pdf
+
+- **URL**: https://slvboces.org/2025-2026_School_Calendar_CENTER-0.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026_School_Calendar_CENTER.pdf
+
+- **URL**: https://slvboces.org/2025-2026_School_Calendar_CENTER.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026_School_Creede.pdf
+
+- **URL**: https://slvboces.org/2025-2026_School_Creede.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2025-2026_UPPER_RIO_GRANDE_SCHOOL_DISTRICT_CALENDER.pdf
+
+- **URL**: https://slvboces.org/2025-2026_UPPER_RIO_GRANDE_SCHOOL_DISTRICT_CALENDER.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2025-26-Sierra-Grande-Calendar.pdf
+
+- **URL**: https://slvboces.org/2025-26-Sierra-Grande-Calendar.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-26_Centennial_R-1_District_Calendar_FINAL-0.pdf
+
+- **URL**: https://slvboces.org/2025-26_Centennial_R-1_District_Calendar_FINAL-0.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2025-26_Centennial_R-1_District_Calendar_FINAL.pdf
+
+- **URL**: https://slvboces.org/2025-26_Centennial_R-1_District_Calendar_FINAL.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf
+
+- **URL**: https://slvboces.org/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Appropriation%20Resolution.pdf
+
+- **URL**: https://slvboces.org/25-26%20Appropriation%20Resolution.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20Cert%20Prof.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Cert%20Prof.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20Coordinator_Faciliator.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Coordinator_Faciliator.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20Dir%20of%20Business%20Serv.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Dir%20of%20Business%20Serv.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20Executive%20Assist..pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Executive%20Assist..pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20HR%20Manager.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20HR%20Manager.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20Lic%20Prof.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Lic%20Prof.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20Para.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Para.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20Psych_Behavior.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Psych_Behavior.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20SWAP.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20SWAP.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20Secretary.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Secretary.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20SpEd%20Director.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20SpEd%20Director.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx%20-%20Support%20Staff.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx%20-%20Support%20Staff.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 25-26%20Salary%20Schedules.xlsx.pdf
+
+- **URL**: https://slvboces.org/25-26%20Salary%20Schedules.xlsx.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 2999_001.pdf
+
+- **URL**: https://slvboces.org/2999_001.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### AC.pdf
+
+- **URL**: https://slvboces.org/AC.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### AC_E_1.pdf
+
+- **URL**: https://slvboces.org/AC_E_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### AC_E_2_1_.pdf
+
+- **URL**: https://slvboces.org/AC_E_2_1_.pdf
+- **Status**: analysed
+- title, 
+
+### AC_R.pdf
+
+- **URL**: https://slvboces.org/AC_R.pdf
+- **Status**: analysed
+- title, 
+
+### AD.pdf
+
+- **URL**: https://slvboces.org/AD.pdf
+- **Status**: analysed
+- title, 
+
+### ADC.pdf
+
+- **URL**: https://slvboces.org/ADC.pdf
+- **Status**: analysed
+- title, 
+
+### ALP-MOU-Member.pdf
+
+- **URL**: https://slvboces.org/ALP-MOU-Member.pdf
+- **Status**: analysed
+- title, 
+
+### ALP-MOU-Non-Member.pdf
+
+- **URL**: https://slvboces.org/ALP-MOU-Non-Member.pdf
+- **Status**: analysed
+- title, 
+
+### ALP_Guidance_2016__1_%20%281%29.pdf
+
+- **URL**: https://slvboces.org/ALP_Guidance_2016__1_%20%281%29.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### ALP_Guidance_2016__1_.pdf
+
+- **URL**: https://slvboces.org/ALP_Guidance_2016__1_.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### ALP_Leadership_CDE_standards.pdf
+
+- **URL**: https://slvboces.org/ALP_Leadership_CDE_standards.pdf
+- **Status**: analysed
+- title, 
+
+### AU-Determination-1.pdf
+
+- **URL**: https://slvboces.org/AU-Determination-1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### AU_ALP_Self_review.pdf
+
+- **URL**: https://slvboces.org/AU_ALP_Self_review.pdf
+- **Status**: analysed
+- title, 
+
+### Adult-Community-Agencies-TA-.pdf
+
+- **URL**: https://slvboces.org/Adult-Community-Agencies-TA-.pdf
+- **Status**: analysed
+- title, 
+
+### Advanced_Learning_Plans_ECEA_Rules_Guidance___Updated_2022.pdf
+
+- **URL**: https://slvboces.org/Advanced_Learning_Plans_ECEA_Rules_Guidance___Updated_2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Advocate_%20Counselor%20.pdf
+
+- **URL**: https://slvboces.org/Advocate_%20Counselor%20.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Affective_Competence_Chart_Example_Goals.pdf
+
+- **URL**: https://slvboces.org/Affective_Competence_Chart_Example_Goals.pdf
+- **Status**: analysed
+- title, 
+
+### Age-Milestones.pdf
+
+- **URL**: https://slvboces.org/Age-Milestones.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Age-of-Majority-CDE.pdf
+
+- **URL**: https://slvboces.org/Age-of-Majority-CDE.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Agenda%20August%202025%20Board%20.pdf
+
+- **URL**: https://slvboces.org/Agenda%20August%202025%20Board%20.pdf
+- **Status**: analysed
+- title, 
+
+### Agenda%20June%20Board%20Website.pdf
+
+- **URL**: https://slvboces.org/Agenda%20June%20Board%20Website.pdf
+- **Status**: analysed
+- title, 
+
+### Agenda%20May%2028%2C%202025.pdf
+
+- **URL**: https://slvboces.org/Agenda%20May%2028%2C%202025.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Agenda%20October%202025%20Board.pdf
+
+- **URL**: https://slvboces.org/Agenda%20October%202025%20Board.pdf
+- **Status**: analysed
+- no date found, 
+
+### Alamosa-Autism-Training-6-8-15-text.pdf
+
+- **URL**: https://slvboces.org/Alamosa-Autism-Training-6-8-15-text.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### All-Work-and-Some-Play.pdf
+
+- **URL**: https://slvboces.org/All-Work-and-Some-Play.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### April_16_Special_Board_Mtg_Agenda.pdf
+
+- **URL**: https://slvboces.org/April_16_Special_Board_Mtg_Agenda.pdf
+- **Status**: analysed
+- title, 
+
+### April_19__2023_Special_Meeting_Agenda.pdf
+
+- **URL**: https://slvboces.org/April_19__2023_Special_Meeting_Agenda.pdf
+- **Status**: analysed
+- title, 
+
+### Assistant-Special-Education-Director-SSN-.pdf
+
+- **URL**: https://slvboces.org/Assistant-Special-Education-Director-SSN-.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Audit-Report-SAN-LUIS-VALLEY-BOCES-2023-FINANCIAL-STATEMENTS.pdf
+
+- **URL**: https://slvboces.org/Audit-Report-SAN-LUIS-VALLEY-BOCES-2023-FINANCIAL-STATEMENTS.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### August_2021_Board_Minutes.pdf
+
+- **URL**: https://slvboces.org/August_2021_Board_Minutes.pdf
+- **Status**: analysed
+- title, 
+
+### B.pdf
+
+- **URL**: https://slvboces.org/B.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### BBA.pdf
+
+- **URL**: https://slvboces.org/BBA.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### BBBC.pdf
+
+- **URL**: https://slvboces.org/BBBC.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### BC1_2_.pdf
+
+- **URL**: https://slvboces.org/BC1_2_.pdf
+- **Status**: analysed
+- title, 
+
+### BCB3.pdf
+
+- **URL**: https://slvboces.org/BCB3.pdf
+- **Status**: analysed
+- title, 
+
+### BC_R1_1_.pdf
+
+- **URL**: https://slvboces.org/BC_R1_1_.pdf
+- **Status**: analysed
+- title, 
+
+### BDA_1_.pdf
+
+- **URL**: https://slvboces.org/BDA_1_.pdf
+- **Status**: analysed
+- title, 
+
+### BDB.pdf
+
+- **URL**: https://slvboces.org/BDB.pdf
+- **Status**: analysed
+- title, 
+
+### BDF.pdf
+
+- **URL**: https://slvboces.org/BDF.pdf
+- **Status**: analysed
+- title, 
+
+### BDFA.pdf
+
+- **URL**: https://slvboces.org/BDFA.pdf
+- **Status**: analysed
+- title, 
+
+### BDFD.pdf
+
+- **URL**: https://slvboces.org/BDFD.pdf
+- **Status**: analysed
+- title, 
+
+### BDG1.pdf
+
+- **URL**: https://slvboces.org/BDG1.pdf
+- **Status**: analysed
+- title, 
+
+### BE.pdf
+
+- **URL**: https://slvboces.org/BE.pdf
+- **Status**: analysed
+- title, 
+
+### BEAA.pdf
+
+- **URL**: https://slvboces.org/BEAA.pdf
+- **Status**: analysed
+- title, 
+
+### BEC1.pdf
+
+- **URL**: https://slvboces.org/BEC1.pdf
+- **Status**: analysed
+- title, 
+
+### BEDA1.pdf
+
+- **URL**: https://slvboces.org/BEDA1.pdf
+- **Status**: analysed
+- title, 
+
+### BEDB.pdf
+
+- **URL**: https://slvboces.org/BEDB.pdf
+- **Status**: analysed
+- title, 
+
+### BEDD.pdf
+
+- **URL**: https://slvboces.org/BEDD.pdf
+- **Status**: analysed
+- title, 
+
+### BEDF1.pdf
+
+- **URL**: https://slvboces.org/BEDF1.pdf
+- **Status**: analysed
+- title, 
+
+### BEDG.pdf
+
+- **URL**: https://slvboces.org/BEDG.pdf
+- **Status**: analysed
+- title, 
+
+### BEDH.pdf
+
+- **URL**: https://slvboces.org/BEDH.pdf
+- **Status**: analysed
+- title, 
+
+### BG.pdf
+
+- **URL**: https://slvboces.org/BG.pdf
+- **Status**: analysed
+- title, 
+
+### BID_BIE1.pdf
+
+- **URL**: https://slvboces.org/BID_BIE1.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES%2025-26%20Calendar.pdf
+
+- **URL**: https://slvboces.org/BOCES%2025-26%20Calendar.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Behavior-or-sensory_.pdf
+
+- **URL**: https://slvboces.org/Behavior-or-sensory_.pdf
+- **Status**: analysed
+- title, 
+
+### Biters-Chewers-Suckers-and-Pickers.pdf
+
+- **URL**: https://slvboces.org/Biters-Chewers-Suckers-and-Pickers.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Board%20August%202025%20Minutes%20%282%29.pdf
+
+- **URL**: https://slvboces.org/Board%20August%202025%20Minutes%20%282%29.pdf
+- **Status**: analysed
+- no date found, 
+
+### Board%20June%202025%20Minutes%20%281%29.pdf
+
+- **URL**: https://slvboces.org/Board%20June%202025%20Minutes%20%281%29.pdf
+- **Status**: analysed
+- no date found, 
+
+### Board%20Minutes%20August%2023%2C%202023.pdf
+
+- **URL**: https://slvboces.org/Board%20Minutes%20August%2023%2C%202023.pdf
+- **Status**: analysed
+- title, 
+
+### Board%20Minutes%20June%2021%2C%202023.pdf
+
+- **URL**: https://slvboces.org/Board%20Minutes%20June%2021%2C%202023.pdf
+- **Status**: analysed
+- title, 
+
+### Board%20Zoom%20Meeting%20-%20Sept.%2020%2C%202023%20%282%29.pdf
+
+- **URL**: https://slvboces.org/Board%20Zoom%20Meeting%20-%20Sept.%2020%2C%202023%20%282%29.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Board%20of%20Directors%20-%20Jan%2022%202025%20-%20Minutes%201.pdf
+
+- **URL**: https://slvboces.org/Board%20of%20Directors%20-%20Jan%2022%202025%20-%20Minutes%201.pdf
+- **Status**: analysed
+- title, 
+
+### Board%20of%20Directors%20-%20May%2028%202025%20-%20Minutes%201.pdf
+
+- **URL**: https://slvboces.org/Board%20of%20Directors%20-%20May%2028%202025%20-%20Minutes%201.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_09.15.21.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_09.15.21.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_August_2021.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_August_2021.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_Dec_15__2021.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_Dec_15__2021.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_Feb_16__2022.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_Feb_16__2022.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_Feb_16__2022_2.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_Feb_16__2022_2.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_Jan_26__2022.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_Jan_26__2022.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_March_15_2023.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_March_15_2023.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Board_Agenda_March_9__2022.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_March_9__2022.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_March_9__2022_2.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_March_9__2022_2.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_March_9__2022_3.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_March_9__2022_3.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_May_11__2022%282%29.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_May_11__2022%282%29.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_May_11__2022.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_May_11__2022.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_May_11__2022_2.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_May_11__2022_2.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_November_16__2022.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_November_16__2022.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda_September_14__2022.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda_September_14__2022.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda___June_2023.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda___June_2023.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Agenda___May_2023.pdf
+
+- **URL**: https://slvboces.org/Board_Agenda___May_2023.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Minutes_August_17__2022.pdf
+
+- **URL**: https://slvboces.org/Board_Minutes_August_17__2022.pdf
+- **Status**: analysed
+- title, 
+
+### Board_Minutes_September_14__2021.docx__2_1.pdf
+
+- **URL**: https://slvboces.org/Board_Minutes_September_14__2021.docx__2_1.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Books_for_Parents.pdf
+
+- **URL**: https://slvboces.org/Books_for_Parents.pdf
+- **Status**: analysed
+- title, 
+
+### Budget-Manager-.pdf
+
+- **URL**: https://slvboces.org/Budget-Manager-.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CAREER_STANDARDS_AND_INDICATORS.pdf
+
+- **URL**: https://slvboces.org/CAREER_STANDARDS_AND_INDICATORS.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CASES_Assessment_Rubric.pdf
+
+- **URL**: https://slvboces.org/CASES_Assessment_Rubric.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CBA_CBC.pdf
+
+- **URL**: https://slvboces.org/CBA_CBC.pdf
+- **Status**: analysed
+- title, 
+
+### CBF1.pdf
+
+- **URL**: https://slvboces.org/CBF1.pdf
+- **Status**: analysed
+- title, 
+
+### CBI.pdf
+
+- **URL**: https://slvboces.org/CBI.pdf
+- **Status**: analysed
+- title, 
+
+### CBI_E1.pdf
+
+- **URL**: https://slvboces.org/CBI_E1.pdf
+- **Status**: analysed
+- title, 
+
+### CBI_R.pdf
+
+- **URL**: https://slvboces.org/CBI_R.pdf
+- **Status**: analysed
+- title, 
+
+### CC.pdf
+
+- **URL**: https://slvboces.org/CC.pdf
+- **Status**: analysed
+- title, 
+
+### CCA%20Organizational%20Chart.pdf
+
+- **URL**: https://slvboces.org/CCA%20Organizational%20Chart.pdf
+- **Status**: analysed
+- title, 
+
+### CCB.pdf
+
+- **URL**: https://slvboces.org/CCB.pdf
+- **Status**: analysed
+- title, 
+
+### CDE-SOP-COMPLETION-GUIDELINES.pdf
+
+- **URL**: https://slvboces.org/CDE-SOP-COMPLETION-GUIDELINES.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CDE___ACCESS_for_Gifted_Identification___FAQs.pdf
+
+- **URL**: https://slvboces.org/CDE___ACCESS_for_Gifted_Identification___FAQs.pdf
+- **Status**: analysed
+- title, 
+
+### CEBT-Benefit-Plans.pdf
+
+- **URL**: https://slvboces.org/CEBT-Benefit-Plans.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CH.pdf
+
+- **URL**: https://slvboces.org/CH.pdf
+- **Status**: analysed
+- title, 
+
+### CHCA.pdf
+
+- **URL**: https://slvboces.org/CHCA.pdf
+- **Status**: analysed
+- title, 
+
+### CHD.pdf
+
+- **URL**: https://slvboces.org/CHD.pdf
+- **Status**: analysed
+- title, 
+
+### COGNITIVE-DISABILITY-SAMPLE.pdf
+
+- **URL**: https://slvboces.org/COGNITIVE-DISABILITY-SAMPLE.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CWC_Varied_Faces__1___1_.pdf
+
+- **URL**: https://slvboces.org/CWC_Varied_Faces__1___1_.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CWC___12_traits_non_biased__2_.pdf
+
+- **URL**: https://slvboces.org/CWC___12_traits_non_biased__2_.pdf
+- **Status**: analysed
+- title, 
+
+### Change%20of%20Status.pdf
+
+- **URL**: https://slvboces.org/Change%20of%20Status.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Characteristics_of_Gifted_Learners%20%281%29.pdf
+
+- **URL**: https://slvboces.org/Characteristics_of_Gifted_Learners%20%281%29.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Characteristics_of_Gifted_Learners.pdf
+
+- **URL**: https://slvboces.org/Characteristics_of_Gifted_Learners.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Child-Find-Coordinator-.pdf
+
+- **URL**: https://slvboces.org/Child-Find-Coordinator-.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Common_Gifted_Education_Myths.pdf
+
+- **URL**: https://slvboces.org/Common_Gifted_Education_Myths.pdf
+- **Status**: analysed
+- title, 
+
+### Copy-of-HEAVY-WORK-CHORES%20%282%29.pdf
+
+- **URL**: https://slvboces.org/Copy-of-HEAVY-WORK-CHORES%20%282%29.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Copy-of-Putty-Finger-Exercises.pdf
+
+- **URL**: https://slvboces.org/Copy-of-Putty-Finger-Exercises.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Creede.pdf
+
+- **URL**: https://slvboces.org/Creede.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Cultural_Competence_Checklist.pdf
+
+- **URL**: https://slvboces.org/Cultural_Competence_Checklist.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### DA.pdf
+
+- **URL**: https://slvboces.org/DA.pdf
+- **Status**: analysed
+- title, 
+
+### DAB.pdf
+
+- **URL**: https://slvboces.org/DAB.pdf
+- **Status**: analysed
+- title, 
+
+### DAB_E.pdf
+
+- **URL**: https://slvboces.org/DAB_E.pdf
+- **Status**: analysed
+- title, 
+
+### DAC.pdf
+
+- **URL**: https://slvboces.org/DAC.pdf
+- **Status**: analysed
+- title, 
+
+### DB.pdf
+
+- **URL**: https://slvboces.org/DB.pdf
+- **Status**: analysed
+- title, 
+
+### DBD.pdf
+
+- **URL**: https://slvboces.org/DBD.pdf
+- **Status**: analysed
+- title, 
+
+### DBG-E_001.pdf
+
+- **URL**: https://slvboces.org/DBG-E_001.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### DBG_E.pdf
+
+- **URL**: https://slvboces.org/DBG_E.pdf
+- **Status**: analysed
+- title, 
+
+### DBK.pdf
+
+- **URL**: https://slvboces.org/DBK.pdf
+- **Status**: analysed
+- title, 
+
+### DD.pdf
+
+- **URL**: https://slvboces.org/DD.pdf
+- **Status**: analysed
+- title, 
+
+### DEB.pdf
+
+- **URL**: https://slvboces.org/DEB.pdf
+- **Status**: analysed
+- title, 
+
+### DFA_DFAA.pdf
+
+- **URL**: https://slvboces.org/DFA_DFAA.pdf
+- **Status**: analysed
+- title, 
+
+### DFG.pdf
+
+- **URL**: https://slvboces.org/DFG.pdf
+- **Status**: analysed
+- title, 
+
+### DG.pdf
+
+- **URL**: https://slvboces.org/DG.pdf
 - **Status**: analysed
 - title, 
