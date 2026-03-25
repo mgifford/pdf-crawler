@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-25T18:19:07.541504+00:00",
+    "site": "sc-boces.org",
+    "crawl_url": "https://sc-boces.org/en-US",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23556984759",
+    "issue_url": "",
+    "archive_file": "2026-03-25_18-19-07-541_sc-boces.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-25T18:16:41.878930+00:00",
     "site": "rioblancoboces.org",
     "crawl_url": "https://www.rioblancoboces.org/",
