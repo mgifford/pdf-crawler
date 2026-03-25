@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-25T18:16:41.878930+00:00",
+    "site": "rioblancoboces.org",
+    "crawl_url": "https://www.rioblancoboces.org/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23556886358",
+    "issue_url": "",
+    "archive_file": "2026-03-25_18-16-41-878_rioblancoboces.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-25T18:15:56.139826+00:00",
     "site": "blueskyboces.com",
     "crawl_url": "https://blueskyboces.com/en-US",
