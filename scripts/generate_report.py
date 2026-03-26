@@ -349,6 +349,32 @@ def generate_issue_comment(
         lines.append(f"| ⚠️ Errors | {len(errored)} |")
     lines.append("")
 
+    # Diagnostic note when no PDFs were found – helps submitters understand why.
+    if not scoped:
+        if pages_crawled == 0:
+            lines += [
+                "> ⚠️ **No PDFs were found and no pages could be visited.**",
+                "> The site may be blocking automated requests, or the starting URL may be unreachable.",
+                "> Check the [workflow run](" + run_url + ") logs for crawl errors.",
+                "> You may also try submitting a more specific starting URL (e.g. a `/documents` sub-page).",
+                "",
+            ]
+        else:
+            page_word = "page" if pages_crawled == 1 else "pages"
+            lines += [
+                f"> ⚠️ **No PDFs were found** after visiting {pages_crawled} {page_word}.",
+                "> Common reasons include:",
+                ">",
+                "> - **JavaScript navigation** – PDFs linked only via JavaScript menus or dynamic content cannot be followed by the crawler.",
+                "> - **Robots.txt restrictions** – the site may restrict crawler access to sections that contain PDFs.",
+                "> - **Different subdomain** – PDFs hosted on another subdomain (e.g. `files.example.com`) are out of scope.",
+                "> - **Deeper pages** – try submitting a more specific starting URL (e.g. a `/documents` or `/resources` sub-page).",
+                ">",
+                f"> Review the [Crawled URLs]({pages_base}/reports/crawled_urls.csv) to see which pages were visited,",
+                f"> and the [workflow run]({run_url}) logs for any crawl warnings.",
+                "",
+            ]
+
     if analysed:
         lines += [
             "## PDFs Scanned",

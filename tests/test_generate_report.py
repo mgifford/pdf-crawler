@@ -659,8 +659,67 @@ def test_issue_comment_includes_crawled_urls_csv_link():
 
 
 # ---------------------------------------------------------------------------
-# main() – issue_url stored in index.json
+# generate_issue_comment – zero PDFs found diagnostic
 # ---------------------------------------------------------------------------
+
+
+def test_issue_comment_zero_pdfs_zero_pages_shows_blocked_warning():
+    """When 0 PDFs and 0 pages crawled, the comment must warn that the site
+    may have blocked the crawler and link to the workflow run."""
+    comment = generate_issue_comment(
+        [],
+        crawl_url="https://example.com",
+        pages_base="https://org.github.io/repo",
+        run_url="https://github.com/org/repo/actions/runs/99",
+        pages_crawled=0,
+    )
+    assert "No PDFs were found" in comment
+    assert "no pages could be visited" in comment.lower()
+    assert "actions/runs/99" in comment
+
+
+def test_issue_comment_zero_pdfs_with_pages_shows_reasons():
+    """When 0 PDFs but pages were crawled, the comment must list common reasons
+    why PDFs might not have been discovered."""
+    comment = generate_issue_comment(
+        [],
+        crawl_url="https://example.com",
+        pages_base="https://org.github.io/repo",
+        run_url="https://github.com/org/repo/actions/runs/77",
+        pages_crawled=20,
+    )
+    assert "No PDFs were found" in comment
+    assert "20" in comment
+    # Should mention JavaScript navigation as a common cause
+    assert "JavaScript" in comment
+    # Should include a link to the workflow run
+    assert "actions/runs/77" in comment
+
+
+def test_issue_comment_zero_pdfs_singular_page():
+    """Plural/singular: '1 page' (not '1 pages') when exactly one page crawled."""
+    comment = generate_issue_comment(
+        [],
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+        pages_crawled=1,
+    )
+    assert "1 page" in comment
+    assert "1 pages" not in comment
+
+
+def test_issue_comment_nonzero_pdfs_no_diagnostic():
+    """When PDFs are found the diagnostic block must NOT appear."""
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+        pages_crawled=50,
+    )
+    assert "No PDFs were found" not in comment
 
 def _make_manifest(tmp_path, entries=None):
     """Write a minimal YAML manifest and return its path."""
