@@ -504,19 +504,67 @@ jobs:
           path: scan-meta/
           retention-days: 1
 
+      - name: Collect crawl completion stats
+        id: crawl_stats
+        if: github.event_name == 'issues'
+        env:
+          CRAWL_URL: ${{ steps.params.outputs.url }}
+        run: |
+          CRAWL_SITE=$(cat scan-meta/crawl_site.txt 2>/dev/null | tr -d '[:space:]' || echo "")
+          PAGES_CRAWLED=0
+          PDF_COUNT=0
+          if [ -n "$CRAWL_SITE" ]; then
+            PAGES_FILE="crawled_files/${CRAWL_SITE}/_crawled_pages.json"
+            if [ -f "$PAGES_FILE" ]; then
+              PAGES_CRAWLED=$(python3 -c "import json,sys; data=json.load(open(sys.argv[1])); print(len(data))" "$PAGES_FILE" 2>&1) \
+                || { echo "::warning::Could not parse crawled pages file; defaulting to 0." >&2; PAGES_CRAWLED=0; }
+              if ! echo "$PAGES_CRAWLED" | grep -Eq '^[0-9]+$'; then PAGES_CRAWLED=0; fi
+            fi
+            if [ -f reports/manifest.yaml ]; then
+              PDF_COUNT=$(SITE_VAR="$CRAWL_SITE" python3 -c "
+import yaml, os, sys
+site = os.environ['SITE_VAR']
+data = yaml.safe_load(open('reports/manifest.yaml')) or []
+print(sum(1 for e in data if isinstance(e, dict) and e.get('site') == site))
+" 2>&1) || { echo "::warning::Could not parse manifest for PDF count; defaulting to 0." >&2; PDF_COUNT=0; }
+              if ! echo "$PDF_COUNT" | grep -Eq '^[0-9]+$'; then PDF_COUNT=0; fi
+            fi
+          fi
+          echo "pages_crawled=$PAGES_CRAWLED" >> "$GITHUB_OUTPUT"
+          echo "pdf_count=$PDF_COUNT"         >> "$GITHUB_OUTPUT"
+
       - name: Comment crawl complete on issue
         if: github.event_name == 'issues'
         uses: actions/github-script@v8
         env:
-          CRAWL_URL: ${{ steps.params.outputs.url }}
+          CRAWL_URL:     ${{ steps.params.outputs.url }}
+          PAGES_CRAWLED: ${{ steps.crawl_stats.outputs.pages_crawled }}
+          PDF_COUNT:     ${{ steps.crawl_stats.outputs.pdf_count }}
         with:
           script: |
-            const url = process.env.CRAWL_URL;
+            const url          = process.env.CRAWL_URL;
+            const pagesCrawled = parseInt(process.env.PAGES_CRAWLED, 10) || 0;
+            const pdfCount     = parseInt(process.env.PDF_COUNT, 10) || 0;
+
+            const statsLines = [];
+            if (pagesCrawled > 0) {
+              statsLines.push(`- 🌐 **${pagesCrawled}** page${pagesCrawled === 1 ? '' : 's'} crawled`);
+            }
+            if (pdfCount > 0) {
+              statsLines.push(`- 📄 **${pdfCount}** PDF${pdfCount === 1 ? '' : 's'} found`);
+            } else if (pagesCrawled > 0) {
+              statsLines.push(`- 📄 No PDFs found on the pages visited`);
+            }
+
+            const statsSection = statsLines.length > 0
+              ? `\n\n${statsLines.join('\n')}`
+              : '';
+
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
               issue_number: context.issue.number,
-              body: `✅ **Crawl complete** for \`${url}\`.\n\nThe manifest has been updated. Accessibility analysis is now running automatically and results will be posted here when ready.`
+              body: `✅ **Crawl complete** for \`${url}\`.${statsSection}\n\nThe manifest has been updated. Accessibility analysis is now running automatically and results will be posted here when ready.`
             });
 
       - name: Comment on issue when scan is cancelled or times out
