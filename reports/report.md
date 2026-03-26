@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-26T12:32:38.639968+00:00
+Generated: 2026-03-26T12:40:58.276581+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 402 |
+| URLs crawled | 463 |
 | Total files tracked | 18025 |
-| Analysed | 4852 |
-| Pending analysis | 10931 |
+| Analysed | 4917 |
+| Pending analysis | 10866 |
 | Errors during analysis | 2242 |
-| Accessible | 1432 |
-| Totally inaccessible | 160 |
-| Broken / unreadable | 3 |
-| Exempt (pre-2018) | 1173 |
+| Accessible | 1442 |
+| Totally inaccessible | 170 |
+| Broken / unreadable | 5 |
+| Exempt (pre-2018) | 1185 |
 
 ## Files per Site
 
@@ -4843,6 +4843,71 @@ Generated: 2026-03-26T12:32:38.639968+00:00
 | [FY26+NW+BOCES+Modified+budget+02.25.26+REM.pdf](https://www.nwboces.org/files/f7c05e154/FY26+NW+BOCES+Modified+budget+02.25.26+REM.pdf) | nwboces.org | 2026-02-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 25 | 5946 | 21 |
 | [FY26+salary+schedule-REM.pdf](https://www.nwboces.org/files/0424521a2/FY26+salary+schedule-REM.pdf) | nwboces.org | 2025-06-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 266 | 0 |
 | [NW+BOCES+25-26+compensation+package-REM.pdf](https://www.nwboces.org/files/b2660b41a/NW+BOCES+25-26+compensation+package-REM.pdf) | nwboces.org | 2025-05-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 355 | 1 |
+| [1.+Board+Meeting+Agenda+April+2025.docx.pdf](https://www.mtnboces.org/files/970d6ed39/1.+Board+Meeting+Agenda+April+2025.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 729 | 2 |
+| [1.+Board+Meeting+Agenda+January+18th+2024.docx.pdf](https://www.mtnboces.org/files/b5c419298/1.+Board+Meeting+Agenda+January+18th+2024.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 576 | 2 |
+| [1.+Board+Meeting+Agenda+January+2026.docx.pdf](https://www.mtnboces.org/files/ebaf80559/1.+Board+Meeting+Agenda+January+2026.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 687 | 2 |
+| [1.+Board+Meeting+Agenda+May+2025.docx.pdf](https://www.mtnboces.org/files/aa61ea370/1.+Board+Meeting+Agenda+May+2025.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 727 | 2 |
+| [1.+Board+Meeting+Agenda+November+2024.docx.pdf](https://www.mtnboces.org/files/80893e4b8/1.+Board+Meeting+Agenda+November+2024.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 721 | 2 |
+| [1.+Board+Meeting+Agenda+September+2024.docx.pdf](https://www.mtnboces.org/files/02e0b2c13/1.+Board+Meeting+Agenda+September+2024.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 614 | 2 |
+| [1.Board+Meeting+Agenda.docx+%281%29.pdf](https://www.mtnboces.org/files/0390736aa/1.Board+Meeting+Agenda.docx+%281%29.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 434 | 1 |
+| [1.Board+Meeting+Agenda.docx.pdf](https://www.mtnboces.org/files/29ab1bb3f/1.Board+Meeting+Agenda.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 566 | 1 |
+| [2.+Board+Meeting+Minutes+September+2024.docx.pdf](https://www.mtnboces.org/files/12b9286ba/2.+Board+Meeting+Minutes+September+2024.docx.pdf) | mtnboces.org | 2024-11-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1197 | 2 |
+| [2.+Meeting+Minutes+-+January+Board+Meeting+-+Signed.pdf](https://www.mtnboces.org/files/2552c82ff/2.+Meeting+Minutes+-+January+Board+Meeting+-+Signed.pdf) | mtnboces.org | 2024-04-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 1451 | 11 |
+| [2.+Meeting+Minutes+Board+Meeting+April+4+2024.pdf](https://www.mtnboces.org/files/37b64adce/2.+Meeting+Minutes+Board+Meeting+April+4+2024.pdf) | mtnboces.org | 2024-05-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1059 | 2 |
+| [2.+Sept+Meeting+Minutes+.docx.pdf](https://www.mtnboces.org/files/ddffa19fc/2.+Sept+Meeting+Minutes+.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 904 | 1 |
+| [24_11+-+Board+Meeting+Minutes+November+2024+-+signed+by+Fowler+and+Mitchell.pdf](https://www.mtnboces.org/files/cbf4bc1ff/24_11+-+Board+Meeting+Minutes+November+2024+-+signed+by+Fowler+and+Mitchell.pdf) | mtnboces.org | 2025-01-09 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 47 |
+| [25_04+-+Board+Meeting+Minutes+April+2025+-+signed+by+Fowler+and+Mitchell.pdf](https://www.mtnboces.org/files/999c0b28e/25_04+-+Board+Meeting+Minutes+April+2025+-+signed+by+Fowler+and+Mitchell.pdf) | mtnboces.org | 2025-05-07 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 0 | 49 |
+| [25_05+-+Board+Meeting+Minutes+May+2025+-+signed+by+Fowler.pdf](https://www.mtnboces.org/files/5a182d12d/25_05+-+Board+Meeting+Minutes+May+2025+-+signed+by+Fowler.pdf) | mtnboces.org | 2025-05-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1522 | 2 |
+| [25_09+-+Board+Meeting+Minutes+Sep+2025+-+signed+by+Paschall+and+Mitchell.pdf](https://www.mtnboces.org/files/a16db2fe5/25_09+-+Board+Meeting+Minutes+Sep+2025+-+signed+by+Paschall+and+Mitchell.pdf) | mtnboces.org | 2025-11-12 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 40 |
+| [25_11+-+Board+Meeting+Minutes+Nov+2025+-+signed.pdf](https://www.mtnboces.org/files/7825b8ed1/25_11+-+Board+Meeting+Minutes+Nov+2025+-+signed.pdf) | mtnboces.org | 2026-01-14 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 40 |
+| [7.+Budget+Book+Mtn+BOCES_Amended_FY23-24+01-11-24+V2.pdf](https://www.mtnboces.org/files/fa2f7737a/7.+Budget+Book+Mtn+BOCES_Amended_FY23-24+01-11-24+V2.pdf) | mtnboces.org | 2024-01-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 32 | 7784 | 34 |
+| [Board+Meeting+Agenda+April+4+2024.docx.pdf](https://www.mtnboces.org/files/0f9368822/Board+Meeting+Agenda+April+4+2024.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 570 | 2 |
+| [Board+Meeting+Agenda+March+2026.docx.pdf](https://www.mtnboces.org/files/bf22f03b5/Board+Meeting+Agenda+March+2026.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 599 | 2 |
+| [Board+Meeting+Agenda+May+9+2024.docx.pdf](https://www.mtnboces.org/files/548ba4f4f/Board+Meeting+Agenda+May+9+2024.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 661 | 2 |
+| [Board+Meeting+Agenda+November+2025.docx.pdf](https://www.mtnboces.org/files/a4dd02c88/Board+Meeting+Agenda+November+2025.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 674 | 2 |
+| [Board+Meeting+Agenda+Sept+2025.docx.pdf](https://www.mtnboces.org/files/75bbb4e72/Board+Meeting+Agenda+Sept+2025.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 698 | 2 |
+| [ESSER+III+Safe+to+Return+Letter+1-7-24.pdf](https://www.mtnboces.org/files/4c70df3d2/ESSER+III+Safe+to+Return+Letter+1-7-24.pdf) | mtnboces.org | 2024-01-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 265 | 2 |
+| [Meeting+Minutes+Board+Meeting+June+13+2024+-+signed+by+Graham+and+Brett+9-12-24.pdf](https://www.mtnboces.org/files/763f4eb38/Meeting+Minutes+Board+Meeting+June+13+2024+-+signed+by+Graham+and+Brett+9-12-24.pdf) | mtnboces.org | 2024-12-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 45 |
+| [Meeting+Minutes+January+2025+-+signed+by+Fowler.pdf](https://www.mtnboces.org/files/fbf29400c/Meeting+Minutes+January+2025+-+signed+by+Fowler.pdf) | mtnboces.org | 2025-01-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 1180 | 11 |
+| [Mountain+BOCES+ESSER+III+Funding+Plan.pdf](https://www.mtnboces.org/files/e662902c8/Mountain+BOCES+ESSER+III+Funding+Plan.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 407 | 4 |
+| [Mtn+BOCES+Nondiscrimination+and+Title+IX+Staff+Training+Slides+9-5-25.pptx.pdf](https://www.mtnboces.org/files/2dc5cbd84/Mtn+BOCES+Nondiscrimination+and+Title+IX+Staff+Training+Slides+9-5-25.pptx.pdf) | mtnboces.org | 2025-09-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 18 | 1888 | 38 |
+| [SWAP+TA+-+2023-24+English.pdf](https://www.mtnboces.org/files/033aad9f8/SWAP+TA+-+2023-24+English.pdf) | mtnboces.org | 2023-11-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 663 | 5 |
+| [SWAP+TA+-+2023-24+Spanish.pdf](https://www.mtnboces.org/files/fa8b8cf01/SWAP+TA+-+2023-24+Spanish.pdf) | mtnboces.org | 2023-11-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 811 | 5 |
+| [archived-0.pdf](https://www.mtnboces.org/files/c9a8a4e0-3704-470d-8288-be6df485c4e0/archived) | mtnboces.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [archived.pdf](https://www.mtnboces.org/files/cfe934f1-6500-4c2b-9ab1-a82d30e9d15a/archived) | mtnboces.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [05-ESY-Guidance-Document-012020.pdf](https://www.ppboces.org/DocumentCenter/View/2748/05-ESY-Guidance-Document-012020) | ppboces.org | 2020-01-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 765 | 1 |
+| [07-Guidance-Document-IEP-Amendment-012020.pdf](https://www.ppboces.org/DocumentCenter/View/2750/07-Guidance-Document-IEP-Amendment-012020) | ppboces.org | 2016-02-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 144 | 1 |
+| [08-Guidance-Document-on-EL-Students-012020.pdf](https://www.ppboces.org/DocumentCenter/View/2751/08-Guidance-Document-on-EL-Students-012020) | ppboces.org | 2020-01-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 1158 | 4 |
+| [09-Guidance-Document-Significant-Change-of-Placement-012020.pdf](https://www.ppboces.org/DocumentCenter/View/2752/09-Guidance-Document-Significant-Change-of-Placement-012020) | ppboces.org | 2020-01-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 674 | 3 |
+| [13-Guidance-FERPA.pdf](https://www.ppboces.org/DocumentCenter/View/2756/13-Guidance-FERPA) | ppboces.org | 2019-07-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 863 | 1 |
+| [14-Guidance-Service-Animals.pdf](https://www.ppboces.org/DocumentCenter/View/2757/14-Guidance-Service-Animals) | ppboces.org | 2019-07-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 880 | 1 |
+| [15-Guidance-Documents-Assigning-Providers-in-Enrich-012020.pdf](https://www.ppboces.org/DocumentCenter/View/2869/15-Guidance-Documents-Assigning-Providers-in-Enrich-012020) | ppboces.org | 2017-03-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 144 | 5 |
+| [2025-2026-ALL-District-Calendars.pdf](https://www.ppboces.org/DocumentCenter/View/4175/2025-2026-ALL-District-Calendars?bidId=) | ppboces.org | 2025-07-16 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 0 | 27 |
+| [2025-2026-BOCES-East-Calendar-.pdf](https://www.ppboces.org/DocumentCenter/View/4171/2025-2026-BOCES-East-Calendar-) | ppboces.org | 2025-05-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 648 | 0 |
+| [2025-2026-PPBOCES-Calendar.pdf](https://www.ppboces.org/DocumentCenter/View/4172/2025-2026-PPBOCES-Calendar?bidId=) | ppboces.org | 2025-05-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 615 | 0 |
+| [2025-2026-SOE-Calendar.pdf](https://www.ppboces.org/DocumentCenter/View/4174/2025-2026-SOE-Calendar) | ppboces.org | 2025-05-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 660 | 1 |
+| [AMP.pdf](https://www.ppboces.org/DocumentCenter/View/2838/AMP?bidId=) | ppboces.org | 2019-12-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 241 | 1 |
+| [Annual-Notification_1718.pdf](https://www.ppboces.org/DocumentCenter/View/2018/Annual-Notification_1718?bidId=) | ppboces.org | 2014-06-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 532 | 0 |
+| [BOCES-Proposed-Budget-FY25-26.pdf](https://www.ppboces.org/DocumentCenter/View/4157/BOCES-Proposed-Budget-FY25-26) | ppboces.org | 2025-06-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 40 | 8533 | 40 |
+| [CBI---Evaluation-of-the-Exec-Dir.pdf](https://www.ppboces.org/DocumentCenter/View/1440/CBI---Evaluation-of-the-Exec-Dir) | ppboces.org | 2015-03-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 325 | 0 |
+| [CBI_R---Evaluation-of-Executive-Director.pdf](https://www.ppboces.org/DocumentCenter/View/1441/CBI_R---Evaluation-of-Executive-Director) | ppboces.org | 2015-09-25 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 630 | 2 |
+| [CDE-Standards-Based-IEPs.pdf](https://www.ppboces.org/DocumentCenter/View/1896/CDE-Standards-Based-IEPs?bidId=) | ppboces.org | 2014-12-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 138 | 45249 | 380 |
+| [Conference-Room-Request-Form-PDF.pdf](https://www.ppboces.org/DocumentCenter/View/4002/Conference-Room-Request-Form-PDF) | ppboces.org | 2024-07-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 854 | 0 |
+| [Discipline-and-the-Role-of-Law-Enforcement-in-Special-Education.pdf](https://www.ppboces.org/DocumentCenter/View/1899/Discipline-and-the-Role-of-Law-Enforcement-in-Special-Education?bidId=) | ppboces.org | 2016-01-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 10 | 433 | 177 |
+| [Discipline-of-Students-with-Disabilities.pdf](https://www.ppboces.org/DocumentCenter/View/1900/Discipline-of-Students-with-Disabilities?bidId=) | ppboces.org | 2015-09-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1552 | 12 |
+| [Emergency-Contact-Formpdf.pdf](https://www.ppboces.org/DocumentCenter/View/4131/Emergency-Contact-Formpdf) | ppboces.org | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Enrollment-Packet-25-26-Final.pdf](https://www.ppboces.org/DocumentCenter/View/4164/Enrollment-Packet-25-26-Final) | ppboces.org | 2025-06-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 5803 | 7 |
+| [Gifted-Identification-for-Parents.pdf](https://www.ppboces.org/DocumentCenter/View/2119/Gifted-Identification-for-Parents) | ppboces.org | 2016-01-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 890 | 2 |
+| [JLDC-Medical-Necessary-Treatment-in-School-Setting.pdf](https://www.ppboces.org/DocumentCenter/View/3715/JLDC-Medical-Necessary-Treatment-in-School-Setting) | ppboces.org | 2023-11-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1184 | 0 |
+| [Lunch-Account-Info.pdf](https://www.ppboces.org/DocumentCenter/View/3259/Lunch-Account-Info) | ppboces.org | 2021-08-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2009 | 18 |
+| [One-time-CSMC-MedicaidParentConsentForm_1718.pdf](https://www.ppboces.org/DocumentCenter/View/2015/One-time-CSMC-MedicaidParentConsentForm_1718?bidId=) | ppboces.org | 2016-05-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 476 | 0 |
+| [Parent-Letter-21-22.pdf](https://www.ppboces.org/DocumentCenter/View/3113/Parent-Letter-21-22) | ppboces.org | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Parent-Student-Handbook-25-26-Final.pdf](https://www.ppboces.org/DocumentCenter/View/4163/Parent-Student-Handbook-25-26-Final) | ppboces.org | 2025-06-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 21 | 7917 | 0 |
+| [Parent-and-Child-Rights-in-Special-Education-Procedural-Safeguards.pdf](https://www.ppboces.org/DocumentCenter/View/2725/Parent-and-Child-Rights-in-Special-Education-Procedural-Safeguards) | ppboces.org | 2015-01-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 34 | 14672 | 1 |
+| [SOE-Calendar-2024-2025.pdf](https://www.ppboces.org/DocumentCenter/View/4013/SOE-Calendar-2024-2025?bidId=) | ppboces.org | 2024-07-22 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [SOE-Calendar-25-26-Final.pdf](https://www.ppboces.org/DocumentCenter/View/4165/SOE-Calendar-25-26-Final) | ppboces.org | 2025-06-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 660 | 1 |
+| [SafeInPersonPlan.pdf](https://www.ppboces.org/DocumentCenter/View/3229/SafeInPersonPlan?bidId=) | ppboces.org | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [Spanish-Annual-Notification_1718.pdf](https://www.ppboces.org/DocumentCenter/View/2016/Spanish-Annual-Notification_1718?bidId=) | ppboces.org | 2016-05-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 620 | 0 |
 | [2017-18-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/documents/2017-18-financial-data-file.pdf) | coloradomesa.edu | 2020-06-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1952 | 0 |
 | [2018-19-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/documents/2018-19-financial-data-file.pdf) | coloradomesa.edu | 2020-06-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1809 | 0 |
 | [2019-20-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/2019-20-financial-data-file.pdf) | coloradomesa.edu | 2021-08-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 2294 | 0 |
@@ -38492,6 +38557,18 @@ Generated: 2026-03-26T12:32:38.639968+00:00
 - **Status**: analysed
 - title, tagged, lang, 
 
+### 26-0115+Meeting+Minutes+SIGNED.pdf
+
+- **URL**: https://www.nwboces.org/files/5e9f8d666/26-0115+Meeting+Minutes+SIGNED.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 26-0319+Agenda.pdf
+
+- **URL**: https://www.nwboces.org/files/d834ff3f5/26-0319+Agenda.pdf
+- **Status**: analysed
+- title, 
+
 ### 1.+Board+Meeting+Agenda+April+2025.docx.pdf
 
 - **URL**: https://www.mtnboces.org/files/970d6ed39/1.+Board+Meeting+Agenda+April+2025.docx.pdf
@@ -38653,6 +38730,24 @@ Generated: 2026-03-26T12:32:38.639968+00:00
 - **URL**: https://www.mtnboces.org/files/033aad9f8/SWAP+TA+-+2023-24+English.pdf
 - **Status**: analysed
 - title, 
+
+### SWAP+TA+-+2023-24+Spanish.pdf
+
+- **URL**: https://www.mtnboces.org/files/fa8b8cf01/SWAP+TA+-+2023-24+Spanish.pdf
+- **Status**: analysed
+- title, 
+
+### archived-0.pdf
+
+- **URL**: https://www.mtnboces.org/files/c9a8a4e0-3704-470d-8288-be6df485c4e0/archived
+- **Status**: analysed
+- PdfError: crawled_files/mtnboces.org/archived-0.pdf: unable to find trailer dictionary while recovering damaged file
+
+### archived.pdf
+
+- **URL**: https://www.mtnboces.org/files/cfe934f1-6500-4c2b-9ab1-a82d30e9d15a/archived
+- **Status**: analysed
+- PdfError: crawled_files/mtnboces.org/archived.pdf: unable to find trailer dictionary while recovering damaged file
 
 ### 05-ESY-Guidance-Document-012020.pdf
 
@@ -38849,12 +38944,6 @@ Generated: 2026-03-26T12:32:38.639968+00:00
 ### Spanish-Annual-Notification_1718.pdf
 
 - **URL**: https://www.ppboces.org/DocumentCenter/View/2016/Spanish-Annual-Notification_1718?bidId=
-- **Status**: analysed
-- title, 
-
-### Spanish-One-time-CSMC-MedicaidParentConsentForm_1718.pdf
-
-- **URL**: https://www.ppboces.org/DocumentCenter/View/2017/Spanish-One-time-CSMC-MedicaidParentConsentForm_1718?bidId=
 - **Status**: analysed
 - title, 
 
