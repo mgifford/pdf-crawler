@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-26T12:07:57.624861+00:00",
+    "site": "wpsdk12.org",
+    "crawl_url": "https://www.wpsdk12.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23593416915",
+    "issue_url": "",
+    "archive_file": "2026-03-26_12-07-57-624_wpsdk12.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-26T12:06:07.212092+00:00",
     "site": "rmrig.org",
     "crawl_url": "https://www.rmrig.org",
