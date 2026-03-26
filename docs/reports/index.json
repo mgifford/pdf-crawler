@@ -22,15 +22,15 @@
     "accessible": 0
   },
   {
-    "date": "2026-03-26T12:09:55.477816+00:00",
-    "site": "neboces.org",
-    "crawl_url": "https://www.neboces.org",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23593493707",
-    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/173#issuecomment-4134137428",
-    "archive_file": "2026-03-26_12-09-55-477_neboces.org.html",
-    "total": 0,
-    "analysed": 0,
-    "accessible": 0
+    "date": "2026-03-26T12:14:39.540086+00:00",
+    "site": "nwboces.org",
+    "crawl_url": "https://www.nwboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23593515249",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/165#issuecomment-4134175618",
+    "archive_file": "2026-03-26_12-14-39-540_nwboces.org.html",
+    "total": 21,
+    "analysed": 21,
+    "accessible": 19
   },
   {
     "date": "2026-03-26T12:07:57.624861+00:00",
