@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-26T12:07:57.624861+00:00
+Generated: 2026-03-26T12:09:55.477816+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 64 |
-| Total files tracked | 17836 |
+| URLs crawled | 20 |
+| Total files tracked | 17857 |
 | Analysed | 4743 |
-| Pending analysis | 10851 |
+| Pending analysis | 10872 |
 | Errors during analysis | 2242 |
 | Accessible | 1405 |
 | Totally inaccessible | 158 |
@@ -54,6 +54,7 @@ Generated: 2026-03-26T12:07:57.624861+00:00
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
 | nsf.gov | 1426 |
+| nwboces.org | 21 |
 | ontario.ca | 51 |
 | oregon.gov | 1968 |
 | pa.gov | 212 |
