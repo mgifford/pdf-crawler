@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-26T12:19:21.552435+00:00",
+    "site": "ecboces.org",
+    "crawl_url": "https://www.ecboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23593760918",
+    "issue_url": "",
+    "archive_file": "2026-03-26_12-19-21-552_ecboces.org.html",
+    "total": 14,
+    "analysed": 14,
+    "accessible": 13
+  },
+  {
     "date": "2026-03-26T12:14:39.540086+00:00",
     "site": "nwboces.org",
     "crawl_url": "https://www.nwboces.org",

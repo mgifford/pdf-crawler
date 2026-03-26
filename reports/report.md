@@ -1,17 +1,17 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-26T12:14:39.540086+00:00
+Generated: 2026-03-26T12:19:21.552435+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 146 |
-| Total files tracked | 17857 |
-| Analysed | 4764 |
-| Pending analysis | 10851 |
+| URLs crawled | 483 |
+| Total files tracked | 17937 |
+| Analysed | 4778 |
+| Pending analysis | 10917 |
 | Errors during analysis | 2242 |
-| Accessible | 1424 |
+| Accessible | 1437 |
 | Totally inaccessible | 158 |
 | Broken / unreadable | 3 |
 | Exempt (pre-2018) | 1161 |
@@ -36,6 +36,7 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | dnr.state.mn.us | 8 |
 | dot.state.mn.us | 44 |
 | ec.europa.eu | 199 |
+| ecboces.org | 14 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
 | energy.gov | 562 |
@@ -50,6 +51,7 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
 | mn.gov | 1397 |
+| mtnboces.org | 32 |
 | ncert.nic.in | 329 |
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
@@ -59,6 +61,7 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | oregon.gov | 1968 |
 | pa.gov | 212 |
 | pca.state.mn.us | 211 |
+| ppboces.org | 34 |
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
 | slvboces.org | 614 |
@@ -4839,6 +4842,20 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | [FY26+NW+BOCES+Modified+budget+02.25.26+REM.pdf](https://www.nwboces.org/files/f7c05e154/FY26+NW+BOCES+Modified+budget+02.25.26+REM.pdf) | nwboces.org | 2026-02-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 25 | 5946 | 21 |
 | [FY26+salary+schedule-REM.pdf](https://www.nwboces.org/files/0424521a2/FY26+salary+schedule-REM.pdf) | nwboces.org | 2025-06-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 266 | 0 |
 | [NW+BOCES+25-26+compensation+package-REM.pdf](https://www.nwboces.org/files/b2660b41a/NW+BOCES+25-26+compensation+package-REM.pdf) | nwboces.org | 2025-05-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 355 | 1 |
+| [2024-W9.pdf](https://www.ecboces.org/pluginfile.php/35626/mod_page/content/13/2024-W9.pdf) | ecboces.org | 2024-03-06 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 6313 | 0 |
+| [ASD%20Training%20Foundation%20for%20Instruction%20-%20Fall%202024%20and%20Winter%202025.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/5813/ASD%20Training%20Foundation%20for%20Instruction%20-%20Fall%202024%20and%20Winter%202025.pdf?forcedownload=1) | ecboces.org | 2024-05-06 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 344 | 1 |
+| [Accessible%20Limon%20Science%20at%20Its%20Peak%20pdf%20%281%29.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6667/Accessible%20Limon%20Science%20at%20Its%20Peak%20pdf%20%281%29.pdf?forcedownload=1) | ecboces.org | 2025-09-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 121 | 5 |
+| [DBQ%20March%20Support.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6344/DBQ%20March%20Support.pdf?forcedownload=1) | ecboces.org | 2025-03-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 486 | 63 |
+| [DBQ%20Project-%20February.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6297/DBQ%20Project-%20February.pdf?forcedownload=1) | ecboces.org | 2025-02-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 909 | 76 |
+| [EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda%20%281%29-0.pdf](https://www.ecboces.org/pluginfile.php/56932/course/overviewfiles/EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda%20%281%29.pdf?forcedownload=1) | ecboces.org | 2025-08-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 692 | 6 |
+| [EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda%20%281%29.pdf](https://www.ecboces.org/pluginfile.php/56932/course/overviewfiles/EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda%20%281%29.pdf) | ecboces.org | 2025-08-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 692 | 6 |
+| [ECBOCES%20CLD-GT%20Levels%20I-III.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/5232/ECBOCES%20CLD-GT%20Levels%20I-III.pdf?forcedownload=1) | ecboces.org | 2023-08-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 340 | 3 |
+| [East%20Central%20BOCES%20%E2%80%93%20Response%20to%20Vendor%20Questions.pdf](https://www.ecboces.org/pluginfile.php/54034/mod_resource/content/1/East%20Central%20BOCES%20%E2%80%93%20Response%20to%20Vendor%20Questions.pdf) | ecboces.org | 2025-03-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 876 | 0 |
+| [January%20Professional%20Development.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6802/January%20Professional%20Development.pdf?forcedownload=1) | ecboces.org | 2026-01-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 634 | 1 |
+| [Project%20Eagle%20Registration%20Flyer%20.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6886/Project%20Eagle%20Registration%20Flyer%20.pdf?forcedownload=1) | ecboces.org | 2026-02-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 213 | 1 |
+| [Summer%20Institute%202024.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/5752/Summer%20Institute%202024.pdf?forcedownload=1) | ecboces.org | 2024-04-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1206 | 3 |
+| [Summer%20PD%20%40DMNS%202025.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6391/Summer%20PD%20%40DMNS%202025.pdf?forcedownload=1) | ecboces.org | 2025-03-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 628 | 7 |
+| [Welcome%20to%20DBQ%20Online.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/5245/Welcome%20to%20DBQ%20Online.pdf?forcedownload=1) | ecboces.org | 2023-07-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 164 | 6 |
 
 ## Files with Errors or Notes
 
@@ -38411,3 +38428,9 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 - **URL**: https://www.nwboces.org/files/d834ff3f5/26-0319+Agenda.pdf
 - **Status**: analysed
 - title, 
+
+### Welcome%20to%20DBQ%20Online.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/5245/Welcome%20to%20DBQ%20Online.pdf?forcedownload=1
+- **Status**: analysed
+- title, lang, 
