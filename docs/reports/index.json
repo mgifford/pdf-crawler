@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-26T12:06:07.212092+00:00",
+    "site": "rmrig.org",
+    "crawl_url": "https://www.rmrig.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23593345824",
+    "issue_url": "",
+    "archive_file": "2026-03-26_12-06-07-212_rmrig.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-26T12:04:17.123921+00:00",
     "site": "crboces.org",
     "crawl_url": "https://www.crboces.org/",
