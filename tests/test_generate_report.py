@@ -186,9 +186,43 @@ def test_issue_comment_contains_report_links():
     )
     assert "report.md" in comment
     assert "report.json" in comment
+    # Without archive_name the cumulative report.html should be linked
     assert "report.html" in comment
     assert "reports.html" in comment
     assert "actions/runs/99" in comment
+
+
+def test_issue_comment_uses_archive_link_when_archive_name_provided():
+    """When archive_name is supplied, the HTML link should point to the per-scan
+    archive rather than the cumulative report.html."""
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://owner.github.io/repo",
+        run_url="https://github.com/owner/repo/actions/runs/99",
+        archive_name="2026-01-01_00-00-00-000_example_com.html",
+    )
+    assert "reports/2026-01-01_00-00-00-000_example_com.html" in comment
+    # The cumulative report.html should NOT be the HTML report link
+    assert "/report.html" not in comment
+    # Other cumulative links should still be present
+    assert "reports.html" in comment
+    assert "report.md" in comment
+    assert "report.json" in comment
+
+
+def test_issue_comment_no_archive_name_falls_back_to_cumulative_html():
+    """Without archive_name the HTML report link should be the cumulative report.html."""
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://owner.github.io/repo",
+        run_url="",
+    )
+    assert "report.html" in comment
+    assert "Site-specific HTML report" not in comment
 
 
 def test_issue_comment_pdf_table_rows():

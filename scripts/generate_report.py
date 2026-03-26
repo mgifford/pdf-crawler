@@ -302,11 +302,16 @@ def generate_issue_comment(
     site_filter: Optional[str] = None,
     max_files: int = _MAX_FILES_IN_COMMENT,
     pages_crawled: int = 0,
+    archive_name: Optional[str] = None,
 ) -> str:
     """Return a Markdown string suitable for posting as a GitHub issue comment.
 
     If *site_filter* is provided, only entries for that site are included in
     the per-file table (the summary counts use those same filtered entries).
+
+    If *archive_name* is provided, the HTML report link points to the
+    per-scan archived report (``{pages_base}/reports/{archive_name}``)
+    rather than the cumulative ``report.html``.
     """
     scoped = (
         [e for e in entries if e.get("site") == site_filter]
@@ -379,7 +384,12 @@ def generate_issue_comment(
     lines += [
         "## Full Reports",
         "",
-        f"- [HTML report]({pages_base}/report.html)",
+    ]
+    if archive_name and pages_base:
+        lines.append(f"- [Site-specific HTML report]({pages_base}/reports/{archive_name})")
+    else:
+        lines.append(f"- [HTML report]({pages_base}/report.html)")
+    lines += [
         f"- [Reports history]({pages_base}/reports.html)",
         f"- [Markdown report]({pages_base}/reports/report.md)",
         f"- [JSON report]({pages_base}/reports/report.json)",
@@ -1353,6 +1363,9 @@ def main(
         html_path.write_text(generate_html(entries, stats), encoding="utf-8")
         print(f"Written: {html_path}")
 
+    # Track the archive name so it can be included in the issue comment.
+    archive_name: Optional[str] = None
+
     # Per-scan archive and historical reports index
     if archive_dir is not None and html_dir is not None:
         archive_out = Path(archive_dir)
@@ -1441,6 +1454,7 @@ def main(
             run_url=run_url,
             site_filter=site_filter,
             pages_crawled=stats.get("pages_crawled", 0),
+            archive_name=archive_name,
         )
         Path(issue_comment_file).write_text(comment, encoding="utf-8")
         print(f"Written issue comment: {issue_comment_file}")
