@@ -6,6 +6,7 @@ Generated: 2026-03-26T12:07:27.514643+00:00
 
 | Metric | Count |
 |--------|-------|
+| URLs crawled | 59 |
 | Total files tracked | 17836 |
 | Analysed | 4743 |
 | Pending analysis | 10851 |
