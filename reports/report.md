@@ -1,17 +1,17 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-26T12:07:57.624861+00:00
+Generated: 2026-03-26T12:14:39.540086+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 64 |
-| Total files tracked | 17836 |
-| Analysed | 4743 |
+| URLs crawled | 146 |
+| Total files tracked | 17857 |
+| Analysed | 4764 |
 | Pending analysis | 10851 |
 | Errors during analysis | 2242 |
-| Accessible | 1405 |
+| Accessible | 1424 |
 | Totally inaccessible | 158 |
 | Broken / unreadable | 3 |
 | Exempt (pre-2018) | 1161 |
@@ -54,6 +54,7 @@ Generated: 2026-03-26T12:07:57.624861+00:00
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
 | nsf.gov | 1426 |
+| nwboces.org | 21 |
 | ontario.ca | 51 |
 | oregon.gov | 1968 |
 | pa.gov | 212 |
@@ -4817,6 +4818,27 @@ Generated: 2026-03-26T12:07:57.624861+00:00
 | [from_gold_stars_issue6.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/from_gold_stars_issue6.pdf) | coloradoboces.org | 2025-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1174 | 0 |
 | [making_movement_matter_issue6.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/making_movement_matter_issue6.pdf) | coloradoboces.org | 2025-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 528 | 3 |
 | [safety-AEPA.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/safety-AEPA.pdf) | coloradoboces.org | 2026-03-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 117 | 14 |
+| [25-0116+Meeting+Minutes+-+SIGNED+REM.pdf](https://www.nwboces.org/files/838041bfc/25-0116+Meeting+Minutes+-+SIGNED+REM.pdf) | nwboces.org | 2025-04-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1007 | 3 |
+| [25-0320+Meeting+Minutes+SIGNED-REM.pdf](https://www.nwboces.org/files/642512c93/25-0320+Meeting+Minutes+SIGNED-REM.pdf) | nwboces.org | 2025-05-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1210 | 3 |
+| [25-0515+Meeting+Minutes+SIGNED-REM.pdf](https://www.nwboces.org/files/a30495370/25-0515+Meeting+Minutes+SIGNED-REM.pdf) | nwboces.org | 2025-06-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1091 | 3 |
+| [25-0612+Meeting+Minutes+SIGNED-REM.pdf](https://www.nwboces.org/files/c092aef73/25-0612+Meeting+Minutes+SIGNED-REM.pdf) | nwboces.org | 2025-10-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1104 | 3 |
+| [25-0918+Meeting+Minutes+SIGNED+REM.pdf](https://www.nwboces.org/files/8ef9d7b10/25-0918+Meeting+Minutes+SIGNED+REM.pdf) | nwboces.org | 2025-12-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1205 | 3 |
+| [25-1120+Meeting+Minutes+SIGNED-REM.pdf](https://www.nwboces.org/files/a89cf49cb/25-1120+Meeting+Minutes+SIGNED-REM.pdf) | nwboces.org | 2026-01-21 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 982 | 3 |
+| [26-0115+Meeting+Minutes+SIGNED.pdf](https://www.nwboces.org/files/5e9f8d666/26-0115+Meeting+Minutes+SIGNED.pdf) | nwboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1181 | 3 |
+| [26-0319+Agenda.pdf](https://www.nwboces.org/files/d834ff3f5/26-0319+Agenda.pdf) | nwboces.org | 2026-03-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 119 | 1 |
+| [FY23+NW+BOCES+Audited+Financial+Statements+REM.pdf](https://www.nwboces.org/files/e31018bd0/FY23+NW+BOCES+Audited+Financial+Statements+REM.pdf) | nwboces.org | 2024-08-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 69 | 19044 | 13 |
+| [FY23+salary+schedule+REM.pdf](https://www.nwboces.org/files/fcfc04865/FY23+salary+schedule+REM.pdf) | nwboces.org | 2024-08-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 242 | 0 |
+| [FY24+NW+BOCES+Adopted+Budget+REM.pdf](https://www.nwboces.org/files/10c7ee149/FY24+NW+BOCES+Adopted+Budget+REM.pdf) | nwboces.org | 2024-08-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 21 | 5088 | 21 |
+| [FY24+NW+BOCES+Audited+Financial+Statements.pdf](https://www.nwboces.org/files/184c31a3c/FY24+NW+BOCES+Audited+Financial+Statements.pdf) | nwboces.org | 2025-01-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 60 | 17845 | 21 |
+| [FY24+Salary+Schedule+REM.pdf](https://www.nwboces.org/files/945ac8fdb/FY24+Salary+Schedule+REM.pdf) | nwboces.org | 2024-08-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 244 | 0 |
+| [FY25+NW+BOCES+Adopted+Budget+REM.pdf](https://www.nwboces.org/files/9ec46b1db/FY25+NW+BOCES+Adopted+Budget+REM.pdf) | nwboces.org | 2024-08-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 | 6737 | 20 |
+| [FY25+NW+BOCES+Audited+Financial+Statements+REM.pdf](https://www.nwboces.org/files/80c8f9ceb/FY25+NW+BOCES+Audited+Financial+Statements+REM.pdf) | nwboces.org | 2025-11-27 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 50 | 15691 | 10 |
+| [FY25+NW+BOCES+Modified+Budget+1.16.25+REM.pdf](https://www.nwboces.org/files/ff44e3d55/FY25+NW+BOCES+Modified+Budget+1.16.25+REM.pdf) | nwboces.org | 2025-01-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 4440 | 4 |
+| [FY25+salary+schedule+REM.pdf](https://www.nwboces.org/files/ff040c9ac/FY25+salary+schedule+REM.pdf) | nwboces.org | 2024-08-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 266 | 0 |
+| [FY26+NW+BOCES+Adopted+Budget+REM.pdf](https://www.nwboces.org/files/3b9361f48/FY26+NW+BOCES+Adopted+Budget+REM.pdf) | nwboces.org | 2025-06-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 25 | 6006 | 20 |
+| [FY26+NW+BOCES+Modified+budget+02.25.26+REM.pdf](https://www.nwboces.org/files/f7c05e154/FY26+NW+BOCES+Modified+budget+02.25.26+REM.pdf) | nwboces.org | 2026-02-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 25 | 5946 | 21 |
+| [FY26+salary+schedule-REM.pdf](https://www.nwboces.org/files/0424521a2/FY26+salary+schedule-REM.pdf) | nwboces.org | 2025-06-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 266 | 0 |
+| [NW+BOCES+25-26+compensation+package-REM.pdf](https://www.nwboces.org/files/b2660b41a/NW+BOCES+25-26+compensation+package-REM.pdf) | nwboces.org | 2025-05-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 355 | 1 |
 
 ## Files with Errors or Notes
 
@@ -38377,3 +38399,15 @@ Generated: 2026-03-26T12:07:57.624861+00:00
 - **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/safety-AEPA.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### 26-0115+Meeting+Minutes+SIGNED.pdf
+
+- **URL**: https://www.nwboces.org/files/5e9f8d666/26-0115+Meeting+Minutes+SIGNED.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 26-0319+Agenda.pdf
+
+- **URL**: https://www.nwboces.org/files/d834ff3f5/26-0319+Agenda.pdf
+- **Status**: analysed
+- title, 
