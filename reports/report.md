@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-26T12:14:39.540086+00:00
+Generated: 2026-03-26T12:18:44.873946+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 146 |
-| Total files tracked | 17857 |
+| URLs crawled | 512 |
+| Total files tracked | 18025 |
 | Analysed | 4764 |
-| Pending analysis | 10851 |
+| Pending analysis | 11019 |
 | Errors during analysis | 2242 |
 | Accessible | 1424 |
 | Totally inaccessible | 158 |
@@ -31,11 +31,13 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | canada.ca | 496 |
 | cms.gov | 460 |
 | coloradoboces.org | 48 |
+| coloradomesa.edu | 88 |
 | ctoec.org | 1742 |
 | dc.gov | 74 |
 | dnr.state.mn.us | 8 |
 | dot.state.mn.us | 44 |
 | ec.europa.eu | 199 |
+| ecboces.org | 14 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
 | energy.gov | 562 |
@@ -50,6 +52,7 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
 | mn.gov | 1397 |
+| mtnboces.org | 32 |
 | ncert.nic.in | 329 |
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
@@ -59,6 +62,7 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | oregon.gov | 1968 |
 | pa.gov | 212 |
 | pca.state.mn.us | 211 |
+| ppboces.org | 34 |
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
 | slvboces.org | 614 |

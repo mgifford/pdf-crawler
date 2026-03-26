@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-26T12:18:44.873946+00:00",
+    "site": "seboces.org",
+    "crawl_url": "https://www.seboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23593844518",
+    "issue_url": "",
+    "archive_file": "2026-03-26_12-18-44-873_seboces.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-26T12:14:39.540086+00:00",
     "site": "nwboces.org",
     "crawl_url": "https://www.nwboces.org",
