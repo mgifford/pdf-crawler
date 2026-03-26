@@ -1,19 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-26T12:12:32.846875+00:00
+Generated: 2026-03-26T12:20:48.819485+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 80 |
-| Total files tracked | 17857 |
-| Analysed | 4743 |
-| Pending analysis | 10872 |
+| URLs crawled | 232 |
+| Total files tracked | 17923 |
+| Analysed | 4775 |
+| Pending analysis | 10906 |
 | Errors during analysis | 2242 |
-| Accessible | 1405 |
-| Totally inaccessible | 158 |
-| Broken / unreadable | 3 |
+| Accessible | 1415 |
+| Totally inaccessible | 163 |
+| Broken / unreadable | 5 |
 | Exempt (pre-2018) | 1161 |
 
 ## Files per Site
@@ -50,6 +50,7 @@ Generated: 2026-03-26T12:12:32.846875+00:00
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
 | mn.gov | 1397 |
+| mtnboces.org | 32 |
 | ncert.nic.in | 329 |
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
@@ -59,6 +60,7 @@ Generated: 2026-03-26T12:12:32.846875+00:00
 | oregon.gov | 1968 |
 | pa.gov | 212 |
 | pca.state.mn.us | 211 |
+| ppboces.org | 34 |
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
 | slvboces.org | 614 |
@@ -4818,6 +4820,38 @@ Generated: 2026-03-26T12:12:32.846875+00:00
 | [from_gold_stars_issue6.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/from_gold_stars_issue6.pdf) | coloradoboces.org | 2025-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1174 | 0 |
 | [making_movement_matter_issue6.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/making_movement_matter_issue6.pdf) | coloradoboces.org | 2025-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 528 | 3 |
 | [safety-AEPA.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/safety-AEPA.pdf) | coloradoboces.org | 2026-03-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 117 | 14 |
+| [1.+Board+Meeting+Agenda+April+2025.docx.pdf](https://www.mtnboces.org/files/970d6ed39/1.+Board+Meeting+Agenda+April+2025.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 729 | 2 |
+| [1.+Board+Meeting+Agenda+January+18th+2024.docx.pdf](https://www.mtnboces.org/files/b5c419298/1.+Board+Meeting+Agenda+January+18th+2024.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 576 | 2 |
+| [1.+Board+Meeting+Agenda+January+2026.docx.pdf](https://www.mtnboces.org/files/ebaf80559/1.+Board+Meeting+Agenda+January+2026.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 687 | 2 |
+| [1.+Board+Meeting+Agenda+May+2025.docx.pdf](https://www.mtnboces.org/files/aa61ea370/1.+Board+Meeting+Agenda+May+2025.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 727 | 2 |
+| [1.+Board+Meeting+Agenda+November+2024.docx.pdf](https://www.mtnboces.org/files/80893e4b8/1.+Board+Meeting+Agenda+November+2024.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 721 | 2 |
+| [1.+Board+Meeting+Agenda+September+2024.docx.pdf](https://www.mtnboces.org/files/02e0b2c13/1.+Board+Meeting+Agenda+September+2024.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 614 | 2 |
+| [1.Board+Meeting+Agenda.docx+%281%29.pdf](https://www.mtnboces.org/files/0390736aa/1.Board+Meeting+Agenda.docx+%281%29.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 434 | 1 |
+| [1.Board+Meeting+Agenda.docx.pdf](https://www.mtnboces.org/files/29ab1bb3f/1.Board+Meeting+Agenda.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 566 | 1 |
+| [2.+Board+Meeting+Minutes+September+2024.docx.pdf](https://www.mtnboces.org/files/12b9286ba/2.+Board+Meeting+Minutes+September+2024.docx.pdf) | mtnboces.org | 2024-11-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 1197 | 2 |
+| [2.+Meeting+Minutes+-+January+Board+Meeting+-+Signed.pdf](https://www.mtnboces.org/files/2552c82ff/2.+Meeting+Minutes+-+January+Board+Meeting+-+Signed.pdf) | mtnboces.org | 2024-04-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 1451 | 11 |
+| [2.+Meeting+Minutes+Board+Meeting+April+4+2024.pdf](https://www.mtnboces.org/files/37b64adce/2.+Meeting+Minutes+Board+Meeting+April+4+2024.pdf) | mtnboces.org | 2024-05-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1059 | 2 |
+| [2.+Sept+Meeting+Minutes+.docx.pdf](https://www.mtnboces.org/files/ddffa19fc/2.+Sept+Meeting+Minutes+.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 904 | 1 |
+| [24_11+-+Board+Meeting+Minutes+November+2024+-+signed+by+Fowler+and+Mitchell.pdf](https://www.mtnboces.org/files/cbf4bc1ff/24_11+-+Board+Meeting+Minutes+November+2024+-+signed+by+Fowler+and+Mitchell.pdf) | mtnboces.org | 2025-01-09 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 47 |
+| [25_04+-+Board+Meeting+Minutes+April+2025+-+signed+by+Fowler+and+Mitchell.pdf](https://www.mtnboces.org/files/999c0b28e/25_04+-+Board+Meeting+Minutes+April+2025+-+signed+by+Fowler+and+Mitchell.pdf) | mtnboces.org | 2025-05-07 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 0 | 49 |
+| [25_05+-+Board+Meeting+Minutes+May+2025+-+signed+by+Fowler.pdf](https://www.mtnboces.org/files/5a182d12d/25_05+-+Board+Meeting+Minutes+May+2025+-+signed+by+Fowler.pdf) | mtnboces.org | 2025-05-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1522 | 2 |
+| [25_09+-+Board+Meeting+Minutes+Sep+2025+-+signed+by+Paschall+and+Mitchell.pdf](https://www.mtnboces.org/files/a16db2fe5/25_09+-+Board+Meeting+Minutes+Sep+2025+-+signed+by+Paschall+and+Mitchell.pdf) | mtnboces.org | 2025-11-12 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 40 |
+| [25_11+-+Board+Meeting+Minutes+Nov+2025+-+signed.pdf](https://www.mtnboces.org/files/7825b8ed1/25_11+-+Board+Meeting+Minutes+Nov+2025+-+signed.pdf) | mtnboces.org | 2026-01-14 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 0 | 40 |
+| [7.+Budget+Book+Mtn+BOCES_Amended_FY23-24+01-11-24+V2.pdf](https://www.mtnboces.org/files/fa2f7737a/7.+Budget+Book+Mtn+BOCES_Amended_FY23-24+01-11-24+V2.pdf) | mtnboces.org | 2024-01-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 32 | 7784 | 34 |
+| [Board+Meeting+Agenda+April+4+2024.docx.pdf](https://www.mtnboces.org/files/0f9368822/Board+Meeting+Agenda+April+4+2024.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 570 | 2 |
+| [Board+Meeting+Agenda+March+2026.docx.pdf](https://www.mtnboces.org/files/bf22f03b5/Board+Meeting+Agenda+March+2026.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 599 | 2 |
+| [Board+Meeting+Agenda+May+9+2024.docx.pdf](https://www.mtnboces.org/files/548ba4f4f/Board+Meeting+Agenda+May+9+2024.docx.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 661 | 2 |
+| [Board+Meeting+Agenda+November+2025.docx.pdf](https://www.mtnboces.org/files/a4dd02c88/Board+Meeting+Agenda+November+2025.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 674 | 2 |
+| [Board+Meeting+Agenda+Sept+2025.docx.pdf](https://www.mtnboces.org/files/75bbb4e72/Board+Meeting+Agenda+Sept+2025.docx.pdf) | mtnboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 698 | 2 |
+| [ESSER+III+Safe+to+Return+Letter+1-7-24.pdf](https://www.mtnboces.org/files/4c70df3d2/ESSER+III+Safe+to+Return+Letter+1-7-24.pdf) | mtnboces.org | 2024-01-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 265 | 2 |
+| [Meeting+Minutes+Board+Meeting+June+13+2024+-+signed+by+Graham+and+Brett+9-12-24.pdf](https://www.mtnboces.org/files/763f4eb38/Meeting+Minutes+Board+Meeting+June+13+2024+-+signed+by+Graham+and+Brett+9-12-24.pdf) | mtnboces.org | 2024-12-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 45 |
+| [Meeting+Minutes+January+2025+-+signed+by+Fowler.pdf](https://www.mtnboces.org/files/fbf29400c/Meeting+Minutes+January+2025+-+signed+by+Fowler.pdf) | mtnboces.org | 2025-01-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 1180 | 11 |
+| [Mountain+BOCES+ESSER+III+Funding+Plan.pdf](https://www.mtnboces.org/files/e662902c8/Mountain+BOCES+ESSER+III+Funding+Plan.pdf) | mtnboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 407 | 4 |
+| [Mtn+BOCES+Nondiscrimination+and+Title+IX+Staff+Training+Slides+9-5-25.pptx.pdf](https://www.mtnboces.org/files/2dc5cbd84/Mtn+BOCES+Nondiscrimination+and+Title+IX+Staff+Training+Slides+9-5-25.pptx.pdf) | mtnboces.org | 2025-09-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 18 | 1888 | 38 |
+| [SWAP+TA+-+2023-24+English.pdf](https://www.mtnboces.org/files/033aad9f8/SWAP+TA+-+2023-24+English.pdf) | mtnboces.org | 2023-11-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 663 | 5 |
+| [SWAP+TA+-+2023-24+Spanish.pdf](https://www.mtnboces.org/files/fa8b8cf01/SWAP+TA+-+2023-24+Spanish.pdf) | mtnboces.org | 2023-11-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 811 | 5 |
+| [archived-0.pdf](https://www.mtnboces.org/files/c9a8a4e0-3704-470d-8288-be6df485c4e0/archived) | mtnboces.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [archived.pdf](https://www.mtnboces.org/files/cfe934f1-6500-4c2b-9ab1-a82d30e9d15a/archived) | mtnboces.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 
 ## Files with Errors or Notes
 
@@ -38378,3 +38412,183 @@ Generated: 2026-03-26T12:12:32.846875+00:00
 - **URL**: https://www.coloradoboces.org/wp-content/uploads/2026/03/safety-AEPA.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### 1.+Board+Meeting+Agenda+April+2025.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/970d6ed39/1.+Board+Meeting+Agenda+April+2025.docx.pdf
+- **Status**: analysed
+- no date found, 
+
+### 1.+Board+Meeting+Agenda+January+18th+2024.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/b5c419298/1.+Board+Meeting+Agenda+January+18th+2024.docx.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### 1.+Board+Meeting+Agenda+January+2026.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/ebaf80559/1.+Board+Meeting+Agenda+January+2026.docx.pdf
+- **Status**: analysed
+- no date found, 
+
+### 1.+Board+Meeting+Agenda+May+2025.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/aa61ea370/1.+Board+Meeting+Agenda+May+2025.docx.pdf
+- **Status**: analysed
+- no date found, 
+
+### 1.+Board+Meeting+Agenda+November+2024.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/80893e4b8/1.+Board+Meeting+Agenda+November+2024.docx.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### 1.+Board+Meeting+Agenda+September+2024.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/02e0b2c13/1.+Board+Meeting+Agenda+September+2024.docx.pdf
+- **Status**: analysed
+- no date found, 
+
+### 1.Board+Meeting+Agenda.docx+%281%29.pdf
+
+- **URL**: https://www.mtnboces.org/files/0390736aa/1.Board+Meeting+Agenda.docx+%281%29.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### 1.Board+Meeting+Agenda.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/29ab1bb3f/1.Board+Meeting+Agenda.docx.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### 2.+Board+Meeting+Minutes+September+2024.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/12b9286ba/2.+Board+Meeting+Minutes+September+2024.docx.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2.+Meeting+Minutes+-+January+Board+Meeting+-+Signed.pdf
+
+- **URL**: https://www.mtnboces.org/files/2552c82ff/2.+Meeting+Minutes+-+January+Board+Meeting+-+Signed.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2.+Sept+Meeting+Minutes+.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/ddffa19fc/2.+Sept+Meeting+Minutes+.docx.pdf
+- **Status**: analysed
+- no date found, 
+
+### 24_11+-+Board+Meeting+Minutes+November+2024+-+signed+by+Fowler+and+Mitchell.pdf
+
+- **URL**: https://www.mtnboces.org/files/cbf4bc1ff/24_11+-+Board+Meeting+Minutes+November+2024+-+signed+by+Fowler+and+Mitchell.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 25_04+-+Board+Meeting+Minutes+April+2025+-+signed+by+Fowler+and+Mitchell.pdf
+
+- **URL**: https://www.mtnboces.org/files/999c0b28e/25_04+-+Board+Meeting+Minutes+April+2025+-+signed+by+Fowler+and+Mitchell.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 25_09+-+Board+Meeting+Minutes+Sep+2025+-+signed+by+Paschall+and+Mitchell.pdf
+
+- **URL**: https://www.mtnboces.org/files/a16db2fe5/25_09+-+Board+Meeting+Minutes+Sep+2025+-+signed+by+Paschall+and+Mitchell.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 25_11+-+Board+Meeting+Minutes+Nov+2025+-+signed.pdf
+
+- **URL**: https://www.mtnboces.org/files/7825b8ed1/25_11+-+Board+Meeting+Minutes+Nov+2025+-+signed.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 7.+Budget+Book+Mtn+BOCES_Amended_FY23-24+01-11-24+V2.pdf
+
+- **URL**: https://www.mtnboces.org/files/fa2f7737a/7.+Budget+Book+Mtn+BOCES_Amended_FY23-24+01-11-24+V2.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Board+Meeting+Agenda+April+4+2024.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/0f9368822/Board+Meeting+Agenda+April+4+2024.docx.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### Board+Meeting+Agenda+March+2026.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/bf22f03b5/Board+Meeting+Agenda+March+2026.docx.pdf
+- **Status**: analysed
+- no date found, 
+
+### Board+Meeting+Agenda+May+9+2024.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/548ba4f4f/Board+Meeting+Agenda+May+9+2024.docx.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### Board+Meeting+Agenda+November+2025.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/a4dd02c88/Board+Meeting+Agenda+November+2025.docx.pdf
+- **Status**: analysed
+- no date found, 
+
+### Board+Meeting+Agenda+Sept+2025.docx.pdf
+
+- **URL**: https://www.mtnboces.org/files/75bbb4e72/Board+Meeting+Agenda+Sept+2025.docx.pdf
+- **Status**: analysed
+- no date found, 
+
+### ESSER+III+Safe+to+Return+Letter+1-7-24.pdf
+
+- **URL**: https://www.mtnboces.org/files/4c70df3d2/ESSER+III+Safe+to+Return+Letter+1-7-24.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Meeting+Minutes+Board+Meeting+June+13+2024+-+signed+by+Graham+and+Brett+9-12-24.pdf
+
+- **URL**: https://www.mtnboces.org/files/763f4eb38/Meeting+Minutes+Board+Meeting+June+13+2024+-+signed+by+Graham+and+Brett+9-12-24.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Meeting+Minutes+January+2025+-+signed+by+Fowler.pdf
+
+- **URL**: https://www.mtnboces.org/files/fbf29400c/Meeting+Minutes+January+2025+-+signed+by+Fowler.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Mountain+BOCES+ESSER+III+Funding+Plan.pdf
+
+- **URL**: https://www.mtnboces.org/files/e662902c8/Mountain+BOCES+ESSER+III+Funding+Plan.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### Mtn+BOCES+Nondiscrimination+and+Title+IX+Staff+Training+Slides+9-5-25.pptx.pdf
+
+- **URL**: https://www.mtnboces.org/files/2dc5cbd84/Mtn+BOCES+Nondiscrimination+and+Title+IX+Staff+Training+Slides+9-5-25.pptx.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### SWAP+TA+-+2023-24+English.pdf
+
+- **URL**: https://www.mtnboces.org/files/033aad9f8/SWAP+TA+-+2023-24+English.pdf
+- **Status**: analysed
+- title, 
+
+### SWAP+TA+-+2023-24+Spanish.pdf
+
+- **URL**: https://www.mtnboces.org/files/fa8b8cf01/SWAP+TA+-+2023-24+Spanish.pdf
+- **Status**: analysed
+- title, 
+
+### archived-0.pdf
+
+- **URL**: https://www.mtnboces.org/files/c9a8a4e0-3704-470d-8288-be6df485c4e0/archived
+- **Status**: analysed
+- PdfError: crawled_files/mtnboces.org/archived-0.pdf: unable to find trailer dictionary while recovering damaged file
+
+### archived.pdf
+
+- **URL**: https://www.mtnboces.org/files/cfe934f1-6500-4c2b-9ab1-a82d30e9d15a/archived
+- **Status**: analysed
+- PdfError: crawled_files/mtnboces.org/archived.pdf: unable to find trailer dictionary while recovering damaged file

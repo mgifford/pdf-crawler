@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-26T12:20:48.819485+00:00",
+    "site": "mtnboces.org",
+    "crawl_url": "https://www.mtnboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23593683241",
+    "issue_url": "",
+    "archive_file": "2026-03-26_12-20-48-819_mtnboces.org.html",
+    "total": 32,
+    "analysed": 32,
+    "accessible": 10
+  },
+  {
     "date": "2026-03-26T12:12:32.846875+00:00",
     "site": "ridgway.k12.co.us",
     "crawl_url": "https://www.ridgway.k12.co.us",

@@ -1,0 +1,1661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-26T12:20:48.821687+00:00",
+    "total_files": 32,
+    "analysed": 32,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 10,
+    "totally_inaccessible": 5,
+    "broken": 2,
+    "exempt": 0,
+    "sites": {
+      "mtnboces.org": 32
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.mtnboces.org/files/970d6ed39/1.+Board+Meeting+Agenda+April+2025.docx.pdf",
+      "md5": "4f3ba3f2677ddbe7bee24a6425c48ce1",
+      "filename": "1.+Board+Meeting+Agenda+April+2025.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.900208+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 729,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/b5c419298/1.+Board+Meeting+Agenda+January+18th+2024.docx.pdf",
+      "md5": "4a261e934bc3deb0edb2b2c74e25d9b0",
+      "filename": "1.+Board+Meeting+Agenda+January+18th+2024.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.902163+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 576,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/ebaf80559/1.+Board+Meeting+Agenda+January+2026.docx.pdf",
+      "md5": "a348d74d2a0c7761b68c2ddd3f90bb18",
+      "filename": "1.+Board+Meeting+Agenda+January+2026.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.903997+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 687,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/aa61ea370/1.+Board+Meeting+Agenda+May+2025.docx.pdf",
+      "md5": "d1b6461c62335185ea39ab6fda84fe30",
+      "filename": "1.+Board+Meeting+Agenda+May+2025.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.905937+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 727,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/80893e4b8/1.+Board+Meeting+Agenda+November+2024.docx.pdf",
+      "md5": "6f55ac931fce2154224d6727d13241cb",
+      "filename": "1.+Board+Meeting+Agenda+November+2024.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.907681+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 721,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/02e0b2c13/1.+Board+Meeting+Agenda+September+2024.docx.pdf",
+      "md5": "deb66d39d0b0f86f6e8ef5444692b819",
+      "filename": "1.+Board+Meeting+Agenda+September+2024.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.909948+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 614,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/0390736aa/1.Board+Meeting+Agenda.docx+%281%29.pdf",
+      "md5": "d7f7510868cef1d1bc8c2fa410e7ff35",
+      "filename": "1.Board+Meeting+Agenda.docx+%281%29.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.911372+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 434,
+        "Images": 1
+      },
+      "errors": [
+        "no date found, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/29ab1bb3f/1.Board+Meeting+Agenda.docx.pdf",
+      "md5": "2a508e84d604693e86f4d073eedb5888",
+      "filename": "1.Board+Meeting+Agenda.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.912776+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 566,
+        "Images": 1
+      },
+      "errors": [
+        "no date found, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/12b9286ba/2.+Board+Meeting+Minutes+September+2024.docx.pdf",
+      "md5": "d6ff3837940bb3592a4d95d6a32a7b40",
+      "filename": "2.+Board+Meeting+Minutes+September+2024.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.914702+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-11-08 10:39:52+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 5,
+        "Words": 1197,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/2552c82ff/2.+Meeting+Minutes+-+January+Board+Meeting+-+Signed.pdf",
+      "md5": "db8d75350dbf3252e927a5068faf5134",
+      "filename": "2.+Meeting+Minutes+-+January+Board+Meeting+-+Signed.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.916447+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-04-01 13:41:56+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 8,
+        "Words": 1451,
+        "Images": 11
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/37b64adce/2.+Meeting+Minutes+Board+Meeting+April+4+2024.pdf",
+      "md5": "d388f1e9c8cfad8d5b966f69f8c4c3e8",
+      "filename": "2.+Meeting+Minutes+Board+Meeting+April+4+2024.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.918283+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-05-08 02:44:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 6,
+        "Words": 1059,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.mtnboces.org/files/ddffa19fc/2.+Sept+Meeting+Minutes+.docx.pdf",
+      "md5": "9c4200c50536a3c5dc6c8268bfcedcd4",
+      "filename": "2.+Sept+Meeting+Minutes+.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.919997+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 4,
+        "Words": 904,
+        "Images": 1
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/cbf4bc1ff/24_11+-+Board+Meeting+Minutes+November+2024+-+signed+by+Fowler+and+Mitchell.pdf",
+      "md5": "22a4c51a04818e7f800db688ce465b54",
+      "filename": "24_11+-+Board+Meeting+Minutes+November+2024+-+signed+by+Fowler+and+Mitchell.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.921512+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-09 19:46:02-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 6,
+        "Words": 0,
+        "Images": 47
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/999c0b28e/25_04+-+Board+Meeting+Minutes+April+2025+-+signed+by+Fowler+and+Mitchell.pdf",
+      "md5": "878ee725e77bd80580a58d3a4092a986",
+      "filename": "25_04+-+Board+Meeting+Minutes+April+2025+-+signed+by+Fowler+and+Mitchell.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.923036+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-07 23:34:04-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 8,
+        "Words": 0,
+        "Images": 49
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/5a182d12d/25_05+-+Board+Meeting+Minutes+May+2025+-+signed+by+Fowler.pdf",
+      "md5": "e9ad7412d59c60c257d3d7d20a77db86",
+      "filename": "25_05+-+Board+Meeting+Minutes+May+2025+-+signed+by+Fowler.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.925106+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-19 18:48:58+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat Sign",
+        "Producer": "Acrobat Sign",
+        "Pages": 7,
+        "Words": 1522,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.mtnboces.org/files/a16db2fe5/25_09+-+Board+Meeting+Minutes+Sep+2025+-+signed+by+Paschall+and+Mitchell.pdf",
+      "md5": "27f25ce81081ce0e2d959170f0e8f2fc",
+      "filename": "25_09+-+Board+Meeting+Minutes+Sep+2025+-+signed+by+Paschall+and+Mitchell.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.926554+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-12 23:30:32-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 6,
+        "Words": 0,
+        "Images": 40
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/7825b8ed1/25_11+-+Board+Meeting+Minutes+Nov+2025+-+signed.pdf",
+      "md5": "eb431e64e3fcee35381090041fb0fded",
+      "filename": "25_11+-+Board+Meeting+Minutes+Nov+2025+-+signed.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.927967+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-14 23:47:02-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 5,
+        "Words": 0,
+        "Images": 40
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/fa2f7737a/7.+Budget+Book+Mtn+BOCES_Amended_FY23-24+01-11-24+V2.pdf",
+      "md5": "1997d0b76ba131e2d6ddc7491f12c4a9",
+      "filename": "7.+Budget+Book+Mtn+BOCES_Amended_FY23-24+01-11-24+V2.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.930077+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2024-01-11 20:09:26+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 23.0 (Windows)",
+        "Pages": 32,
+        "Words": 7784,
+        "Images": 34
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/0f9368822/Board+Meeting+Agenda+April+4+2024.docx.pdf",
+      "md5": "fc72be4b3e44a463fe0c900891e4ee66",
+      "filename": "Board+Meeting+Agenda+April+4+2024.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.931619+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 570,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/bf22f03b5/Board+Meeting+Agenda+March+2026.docx.pdf",
+      "md5": "ed0be796835aeb313423b17b2e93d8c8",
+      "filename": "Board+Meeting+Agenda+March+2026.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.933280+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 599,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/548ba4f4f/Board+Meeting+Agenda+May+9+2024.docx.pdf",
+      "md5": "c1d2a8e189863e7ab5c356c5c67fb201",
+      "filename": "Board+Meeting+Agenda+May+9+2024.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.934873+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 661,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/a4dd02c88/Board+Meeting+Agenda+November+2025.docx.pdf",
+      "md5": "47955cd9ecd3465aacead1f771d4f7c6",
+      "filename": "Board+Meeting+Agenda+November+2025.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.936742+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 674,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/75bbb4e72/Board+Meeting+Agenda+Sept+2025.docx.pdf",
+      "md5": "d5d4380d66280850e6dcc34d903a54a9",
+      "filename": "Board+Meeting+Agenda+Sept+2025.docx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.938623+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 698,
+        "Images": 2
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/4c70df3d2/ESSER+III+Safe+to+Return+Letter+1-7-24.pdf",
+      "md5": "594c79be978b2adda817cbaa5a14446c",
+      "filename": "ESSER+III+Safe+to+Return+Letter+1-7-24.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.940274+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-01-17 21:26:21+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 23.0 (Windows)",
+        "Pages": 1,
+        "Words": 265,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/763f4eb38/Meeting+Minutes+Board+Meeting+June+13+2024+-+signed+by+Graham+and+Brett+9-12-24.pdf",
+      "md5": "2f58a0b230eebe57a275cd48f8616d83",
+      "filename": "Meeting+Minutes+Board+Meeting+June+13+2024+-+signed+by+Graham+and+Brett+9-12-24.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.941603+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-12-02 23:24:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Xerox WorkCentre 7225",
+        "Producer": "Xerox WorkCentre 7225",
+        "Pages": 4,
+        "Words": 0,
+        "Images": 45
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/fbf29400c/Meeting+Minutes+January+2025+-+signed+by+Fowler.pdf",
+      "md5": "45dc1a2f082b8c248155a79f40b50bd3",
+      "filename": "Meeting+Minutes+January+2025+-+signed+by+Fowler.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.943485+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-13 18:22:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat Sign",
+        "Producer": "Acrobat Sign",
+        "Pages": 6,
+        "Words": 1180,
+        "Images": 11
+      },
+      "errors": [
+        "tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/e662902c8/Mountain+BOCES+ESSER+III+Funding+Plan.pdf",
+      "md5": "87227f090040ecf10182234f924deaa5",
+      "filename": "Mountain+BOCES+ESSER+III+Funding+Plan.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.944989+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 407,
+        "Images": 4
+      },
+      "errors": [
+        "no date found, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/2dc5cbd84/Mtn+BOCES+Nondiscrimination+and+Title+IX+Staff+Training+Slides+9-5-25.pptx.pdf",
+      "md5": "948e3cac5e3cdce29be8e85cd4860032",
+      "filename": "Mtn+BOCES+Nondiscrimination+and+Title+IX+Staff+Training+Slides+9-5-25.pptx.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.947729+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-05 02:12:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Google",
+        "Producer": null,
+        "Pages": 18,
+        "Words": 1888,
+        "Images": 38
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/033aad9f8/SWAP+TA+-+2023-24+English.pdf",
+      "md5": "774a8911d73e581433ef4f877a2cc686",
+      "filename": "SWAP+TA+-+2023-24+English.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.949286+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-11-14 21:14:27+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 663,
+        "Images": 5
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/fa8b8cf01/SWAP+TA+-+2023-24+Spanish.pdf",
+      "md5": "ebf22f0e7c82f4f45fb9c46fa0aaff39",
+      "filename": "SWAP+TA+-+2023-24+Spanish.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.950881+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-11-14 21:14:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 811,
+        "Images": 5
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/c9a8a4e0-3704-470d-8288-be6df485c4e0/archived",
+      "md5": "967e7f34dd661dbb47ca50ac9eecb672",
+      "filename": "archived-0.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.952202+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/mtnboces.org/archived-0.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.mtnboces.org/files/cfe934f1-6500-4c2b-9ab1-a82d30e9d15a/archived",
+      "md5": "a699370f2279118cf252dab1b2dc9a57",
+      "filename": "archived.pdf",
+      "site": "mtnboces.org",
+      "crawled_at": "2026-03-26T12:13:23.953481+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/mtnboces.org/archived.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
+      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + esc(f.site || '') + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        var colDefs = [
+          { key: 'file',       label: 'File' },
+          { key: 'site',       label: 'Site' },
+          { key: 'date',       label: 'Published Date' },
+          { key: 'accessible', label: 'Accessible' },
+          { key: 'tagged',     label: 'Tagged' },
+          { key: 'title',      label: 'Title' },
+          { key: 'language',   label: 'Language' },
+          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'pages',      label: 'Pages' },
+        ];
+        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
+        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>
