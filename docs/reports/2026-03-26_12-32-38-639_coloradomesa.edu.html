@@ -1,0 +1,3777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-26T12:32:38.642937+00:00",
+    "total_files": 88,
+    "analysed": 88,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 8,
+    "totally_inaccessible": 2,
+    "broken": 0,
+    "exempt": 12,
+    "sites": {
+      "coloradomesa.edu": 88
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.coloradomesa.edu/grandvalleyboces/documents/2017-18-financial-data-file.pdf",
+      "md5": "fad43aa3b073a64b755e137c3a652f09",
+      "filename": "2017-18-financial-data-file.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.781421+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-06-19 20:38:54+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 15 for Excel",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 8,
+        "Words": 1952,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/grandvalleyboces/documents/2018-19-financial-data-file.pdf",
+      "md5": "5ca122a0f34e927d63f8de6d11d07051",
+      "filename": "2018-19-financial-data-file.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.784689+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-06-19 20:34:59+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 15 for Excel",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 8,
+        "Words": 1809,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/grandvalleyboces/2019-20-financial-data-file.pdf",
+      "md5": "6dde07f31a9f316c45298062359ab684",
+      "filename": "2019-20-financial-data-file.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.787451+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-08-13 15:17:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 15 for Excel",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 4,
+        "Words": 2294,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/student-services/documents/2020-final-the-maverick-guide1.pdf",
+      "md5": "4d338e16135332880b2bfb955e674643",
+      "filename": "2020-final-the-maverick-guide1.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.790424+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-10-21 14:46:21+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 80,
+        "Words": 34517,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/rec-center/documents/2022-massage-services-flyer-w-cancellation-policy1.pdf",
+      "md5": "8a27b0027157c2a417364a397c42184f",
+      "filename": "2022-massage-services-flyer-w-cancellation-policy1.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.792406+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-07-20 22:07:01+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 509,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/initial-teacher-licensure/2025-2026-itl-elementary-gc-cohort-schedule.pdf",
+      "md5": "5c9218b87359271a501ea18e6d9f662a",
+      "filename": "2025-2026-itl-elementary-gc-cohort-schedule.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.794500+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-22 17:24:51+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Excel",
+        "Producer": "Adobe PDF Library 24.5.96",
+        "Pages": 1,
+        "Words": 457,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/initial-teacher-licensure/2025-2026-itl-k12-pe-gc-cohort-schedule.pdf",
+      "md5": "aebe5d248c9312112dde6b7fc23ce66f",
+      "filename": "2025-2026-itl-k12-pe-gc-cohort-schedule.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.796320+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-22 17:24:10+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Excel",
+        "Producer": "Adobe PDF Library 24.5.96",
+        "Pages": 1,
+        "Words": 481,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/initial-teacher-licensure/2025-2026-itl-secondary-gc-cohort-schedule.pdf",
+      "md5": "5b7acd06b474cf2d324927acbddf7717",
+      "filename": "2025-2026-itl-secondary-gc-cohort-schedule.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.797920+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-22 17:21:32+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Excel",
+        "Producer": "Adobe PDF Library 24.5.96",
+        "Pages": 1,
+        "Words": 473,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/camps/host/2026-summer-camps-rate-sheet.pdf",
+      "md5": "004e52b56865a50bbfdfd89ba2b27b31",
+      "filename": "2026-summer-camps-rate-sheet.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.821128+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-04 21:04:08+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 462,
+        "Images": 16
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/20_tips_designing_courses_3_16_20.pdf",
+      "md5": "eedde4d7e09e336f0e56d3abd7671a9e",
+      "filename": "20_tips_designing_courses_3_16_20.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.825051+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-03-18 16:45:42+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 14.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 1070,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/music/documents/24-25-handbook.pdf",
+      "md5": "fefc320de0758bb0a3dd53df155770c2",
+      "filename": "24-25-handbook.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.828945+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-19 21:08:08+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.150",
+        "Pages": 48,
+        "Words": 12517,
+        "Images": 5
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/documents/student-resources/2d_design_handbook_v1.8small_fall-2021.pdf",
+      "md5": "cdbf5f9c142d814935d6f103a3e3349a",
+      "filename": "2d_design_handbook_v1.8small_fall-2021.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.842669+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2021-08-02 17:01:09+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 16.3 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 156,
+        "Words": 29031,
+        "Images": 220
+      },
+      "errors": [
+        "title, tagged, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/documents/CatalogArtCenter.pdf",
+      "md5": "4653d4d312e0f29af92c9715db7b4c00",
+      "filename": "CatalogArtCenter.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.871401+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2016-07-21 22:11:15+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 42,
+        "Words": 3933,
+        "Images": 30
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/safety/awareness/documents/CrimeReport-MainCampus.pdf",
+      "md5": "c69bc978cd14c979df856782152c3c60",
+      "filename": "CrimeReport-MainCampus.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.875498+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-09-28 17:20:59+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 33,
+        "Words": 15426,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/human-performance-lab/documents/HPL%20Medical-Health%20Questionnaire.pdf",
+      "md5": "507c8dfba37344c0a0a542594413333e",
+      "filename": "HPL%20Medical-Health%20Questionnaire.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.878152+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2016-05-18 14:46:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2013",
+        "Producer": "Microsoft\u00ae Word 2013",
+        "Pages": 5,
+        "Words": 1032,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/human-performance-lab/documents/Internshipapplication-HPL.pdf",
+      "md5": "8ac25109a559ee2fb3e1bbc42c87b0b8",
+      "filename": "Internshipapplication-HPL.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.880029+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2013-05-23 16:05:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2010",
+        "Producer": "Microsoft\u00ae Word 2010",
+        "Pages": 1,
+        "Words": 184,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/residence-life/documents/InventoryOperationID.pdf",
+      "md5": "a880912e478d7c73658996ada5cf9119",
+      "filename": "InventoryOperationID.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.881805+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2012-06-28 18:27:41+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+        "Pages": 1,
+        "Words": 108,
+        "Images": 7
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/academic-affairs/documents/policies/StudentComplaintPolicy_Final.pdf",
+      "md5": "131a7bbc5e6e966b5f906375a8789708",
+      "filename": "StudentComplaintPolicy_Final.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.883740+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-09-08 15:27:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 6,
+        "Words": 1351,
+        "Images": 6
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/absence-request-form-2025.pdf",
+      "md5": "df77b890c0a289c99818fc34c5c4e51c",
+      "filename": "absence-request-form-2025.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.885522+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-07 21:52:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 377,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/degrees/afp_and_md_bfa1.pdf",
+      "md5": "34c47828f368bf7cb00ccdba443314c9",
+      "filename": "afp_and_md_bfa1.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.887024+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-12 15:19:20-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 3,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/documents/student-resources/afp_starterkit.pdf",
+      "md5": "57368108220f6ee0ab83fb6859b85481",
+      "filename": "afp_starterkit.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.888630+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-11-03 19:05:28+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 0,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/trustees/documents/bot-policy-manual.pdf",
+      "md5": "c469a237effc660297a52db07155150e",
+      "filename": "bot-policy-manual.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.890716+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2024-11-07 19:37:37+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 48,
+        "Words": 17676,
+        "Images": 1
+      },
+      "errors": [
+        "no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/directory/social-behavioral-sciences/documents/brenda-wilhelm-cv.pdf",
+      "md5": "8a88cd7c23b9d89090b47cf3fae7aee7",
+      "filename": "brenda-wilhelm-cv.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.892418+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2016-08-26 10:56:08-06:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 7,
+        "Words": 1417,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/safety/documents/campus_safety_active_threat_response.pdf",
+      "md5": "f0e6ae51827d7dacd3336ae012dd0af2",
+      "filename": "campus_safety_active_threat_response.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.897810+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2015-03-04 16:21:12-07:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 55,
+        "Words": 1674,
+        "Images": 40
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/campus-info/documents/campusmap.pdf",
+      "md5": "7a05d881ab2b6ea767063cf38876aff3",
+      "filename": "campusmap.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.904060+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-20 16:00:17+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 21.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 18.0",
+        "Pages": 3,
+        "Words": 1299,
+        "Images": 223
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/documents/cde-fingerprint-instructions.pdf",
+      "md5": "c3b9c1883cf63556828df35d8d4e8452",
+      "filename": "cde-fingerprint-instructions.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.906588+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-02-04 17:19:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 682,
+        "Images": 10
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/cmu-serviceanimalspolicy.pdf",
+      "md5": "9e3ce17ccedbdcaa175fa15a72dc31a3",
+      "filename": "cmu-serviceanimalspolicy.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.908696+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-11-07 21:40:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2010",
+        "Producer": "Microsoft\u00ae Word 2010",
+        "Pages": 2,
+        "Words": 614,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/student-resources/cmu_gd_application-updated.pdf",
+      "md5": "085f73cb66823ac3ed655427f3bfe6e9",
+      "filename": "cmu_gd_application-updated.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.910234+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-08 16:27:07+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Illustrator 30.0 (Macintosh)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 270,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/student-resources/cmu_gd_website_criteria.pdf",
+      "md5": "debb434ce2854ded27efa34829636b4d",
+      "filename": "cmu_gd_website_criteria.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.911641+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-08 15:45:12+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Illustrator 30.0 (Macintosh)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 212,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/student-resources/cmu_gd_website_criteria1.pdf",
+      "md5": "debb434ce2854ded27efa34829636b4d",
+      "filename": "cmu_gd_website_criteria1.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.913018+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-08 15:45:12+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Illustrator 30.0 (Macintosh)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 212,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/music/documents/course-offering-schedule.pdf",
+      "md5": "c46a56836b2a0c8770ef7c31f14555e9",
+      "filename": "course-offering-schedule.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.914421+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-04-21 02:35:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 426,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/directory/art/documents/crystal_wagner_cv_2025_2026.pdf",
+      "md5": "e97d55190ae607614b266ecb708ef9ef",
+      "filename": "crystal_wagner_cv_2025_2026.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.916081+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-07-28 20:53:07+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 16,
+        "Words": 4128,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/graduate/cte-grad-program-flowchart.pdf",
+      "md5": "e69bd2f74dd644e7f27eeb7995f91c88",
+      "filename": "cte-grad-program-flowchart.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.917541+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-14 17:07:15+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.5.96",
+        "Pages": 1,
+        "Words": 118,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/directory/art/documents/curtis_cv_2019.pdf",
+      "md5": "b8439ff5800afb8d21e71dc83dfb816e",
+      "filename": "curtis_cv_2019.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.919145+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-04-06 19:29:03+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft Word",
+        "Producer": null,
+        "Pages": 3,
+        "Words": 1363,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/digital-learning-innovation/documents/d2l-accommodations.pdf",
+      "md5": "5ded2ee02233873037e7b94fe05d89c1",
+      "filename": "d2l-accommodations.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.922181+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-02-16 17:39:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe Acrobat Pro (64-bit) 23 Paper Capture Plug-in",
+        "Pages": 9,
+        "Words": 1894,
+        "Images": 30
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/degrees/dig-photo-prof-cert.pdf",
+      "md5": "6361c18543e4f3d5592477ec094e63e4",
+      "filename": "dig-photo-prof-cert.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.923555+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-12 15:31:14-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 2,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/effective-teaching-article---sage-journal.pdf",
+      "md5": "3dff23b2a5dabc12a04747c741584393",
+      "filename": "effective-teaching-article---sage-journal.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.926036+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-10-13 07:10:43-07:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 10,
+        "Words": 8853,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/career/documents/example_internship-agreement-and-learning-plan-3.21.23.pdf",
+      "md5": "2989758060fdc5e582b12eaaeb17b6da",
+      "filename": "example_internship-agreement-and-learning-plan-3.21.23.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.928074+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-01-04 23:30:13+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.6.156",
+        "Pages": 5,
+        "Words": 1227,
+        "Images": 6
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/visit/documents/fall-2022-mesa-experience-schedule-for-website.pdf",
+      "md5": "8e00b4c98173d9bd7c3b807537eef5f1",
+      "filename": "fall-2022-mesa-experience-schedule-for-website.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.954732+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-10 22:37:18+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 76,
+        "Images": 5
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradomesa.edu/human-resources/documents/annual-review/faq-annual-review-virtual-overview-session.pdf",
+      "md5": "e950931c4a4ee265e3bebc570fbea206",
+      "filename": "faq-annual-review-virtual-overview-session.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.957968+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-01 15:28:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.2.159",
+        "Pages": 3,
+        "Words": 912,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/music/documents/field-experience-tabulation-form.pdf",
+      "md5": "54a8c1b9129e0216636a907041fce68c",
+      "filename": "field-experience-tabulation-form.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.960505+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-04 17:14:24+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Word",
+        "Producer": "Mac OS X 10.7.4 Quartz PDFContext",
+        "Pages": 1,
+        "Words": 67,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/degrees/film-photo-prof-cert.pdf",
+      "md5": "21f1cffe8dcb0892eea92839f56cffd8",
+      "filename": "film-photo-prof-cert.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.962461+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-12 15:31:52-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 2,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/degrees/filmstudies_and_production_minor.pdf",
+      "md5": "75f1440df4233e5d911e55880e199474",
+      "filename": "filmstudies_and_production_minor.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.964207+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-12 15:47:37-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 1,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/financial-aid/documents/fin_children-fallen-heroes.pdf",
+      "md5": "1e3151cb761ad990dc8c1bb73ecaad55",
+      "filename": "fin_children-fallen-heroes.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.965864+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-11-10 20:40:02+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 14.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 550,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/financial-aid/documents/finaid_statementofethics.pdf",
+      "md5": "f633b4fb5e71d52e2dc9dc278679c67d",
+      "filename": "finaid_statementofethics.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.967508+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-11-10 20:38:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 2,
+        "Words": 491,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/safety/awareness/documents/final-version-maverick-guide-2025.pdf",
+      "md5": "2428f6be6e4be4493ff89792fa2661c7",
+      "filename": "final-version-maverick-guide-2025.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.970706+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2025-08-19 10:07:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 96,
+        "Words": 41657,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/flex-plan-default-agreement.pdf",
+      "md5": "885bdfe05532ce610bfdd916620c8704",
+      "filename": "flex-plan-default-agreement.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.972631+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-28 23:43:58+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 328,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/directory/kinesiology/documents/fritzcv.pdf",
+      "md5": "35a2f743ac843e156e5e251a35847f0e",
+      "filename": "fritzcv.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.974395+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-10-27 14:32:04-06:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 5,
+        "Words": 1588,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/registrar/documents/golden-scholars-application-updated-december.pdf",
+      "md5": "6bdc2af83025fcefef4b06b82857a163",
+      "filename": "golden-scholars-application-updated-december.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.976138+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-10 18:29:02+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 1219,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/degrees/graphic-design-bfa2.pdf",
+      "md5": "5c6ce68541a2fc44ce71eee91968b906",
+      "filename": "graphic-design-bfa2.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.977579+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-12 15:40:13-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 4,
+        "Words": 4,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/degrees/graphicdesign-aa.pdf",
+      "md5": "ed8e7a474717667dda37e3ea6ffa7cf2",
+      "filename": "graphicdesign-aa.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.978922+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-12 15:40:54-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 3,
+        "Words": 3,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/career/documents/handshake-guide_faculty-internship-coordinators.pdf",
+      "md5": "a18123401ab2385f494927d22af4060b",
+      "filename": "handshake-guide_faculty-internship-coordinators.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.980888+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-09-05 17:55:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.3.60",
+        "Pages": 8,
+        "Words": 1054,
+        "Images": 32
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/info/how-to-pay-for-college-to-become-a-teacher-in-colorado-2025.pdf",
+      "md5": "8ba04994169c19b8bb5fe7c4d5f46854",
+      "filename": "how-to-pay-for-college-to-become-a-teacher-in-colorado-2025.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.982311+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-11-07 18:06:07+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 292,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/rec-center/documents/hrc-personal-training-request-packet2.pdf",
+      "md5": "af93c9d14e6b0558f237d4178565b215",
+      "filename": "hrc-personal-training-request-packet2.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.984799+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-09-15 07:59:45-06:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 9,
+        "Words": 2574,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/rec-center/documents/hrc-wellness-assessment-request-packet2.pdf",
+      "md5": "f1d554b394055f8068135b1eab174c6b",
+      "filename": "hrc-wellness-assessment-request-packet2.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.987290+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-09-15 07:58:42-06:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 10,
+        "Words": 2515,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/career/documents/industry-cover-letters.pdf",
+      "md5": "e132e8c966b61e7268eb7f6f74e1e08e",
+      "filename": "industry-cover-letters.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.991261+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2023-07-27 18:02:05+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 40,
+        "Words": 10338,
+        "Images": 44
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/career/documents/industry-resumes.pdf",
+      "md5": "68e2b0980e651b611568f6c68276166e",
+      "filename": "industry-resumes.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.993987+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-08-17 16:49:27+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.3.45",
+        "Pages": 42,
+        "Words": 10111,
+        "Images": 43
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/instructor-flex-plan-setup-by-course.pdf",
+      "md5": "fe5f2a568f60eb8af386b362a7ab8d7d",
+      "filename": "instructor-flex-plan-setup-by-course.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:17.998258+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-03-18 20:39:36+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "(unspecified)",
+        "Producer": "ReportLab PDF Library - www.reportlab.com",
+        "Pages": 4,
+        "Words": 133,
+        "Images": 8
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/instructor-list-final-exam-date-guide.pdf",
+      "md5": "c4346df98e7d0c15d9491e9dc5935831",
+      "filename": "instructor-list-final-exam-date-guide.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.002206+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-11-07 16:20:45+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "(unspecified)",
+        "Producer": "ReportLab PDF Library - www.reportlab.com",
+        "Pages": 7,
+        "Words": 256,
+        "Images": 14
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/instructor-testing-agreement-guide-v5.pdf",
+      "md5": "0116d1b82c89c3c091946ed93dfb210d",
+      "filename": "instructor-testing-agreement-guide-v5.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.013444+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-08-12 16:38:46+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "(unspecified)",
+        "Producer": "ReportLab PDF Library - www.reportlab.com",
+        "Pages": 19,
+        "Words": 608,
+        "Images": 37
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/info/interview-skills.pdf",
+      "md5": "1486c317f8e244d1661bbed6a88b9b22",
+      "filename": "interview-skills.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.021727+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2020-04-03 20:05:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 21,
+        "Words": 1070,
+        "Images": 52
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/images/jac-kephart-art-walk-booklet.pdf",
+      "md5": "e3326e43b411034fdb8567287999b2f5",
+      "filename": "jac-kephart-art-walk-booklet.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.030215+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2024-06-03 18:49:37+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.2.23",
+        "Pages": 23,
+        "Words": 533,
+        "Images": 54
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/rec-center/documents/massage-therapy-health-history-questionnaire2.pdf",
+      "md5": "d560452e65225a6bdc2f8fc512d09b75",
+      "filename": "massage-therapy-health-history-questionnaire2.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.032373+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-12-12 15:29:13-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 5,
+        "Words": 1477,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/student-services/documents/maverick-guide.pdf",
+      "md5": "2428f6be6e4be4493ff89792fa2661c7",
+      "filename": "maverick-guide.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.035477+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2025-08-19 10:07:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 96,
+        "Words": 41657,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/info/new-teacher-secondary-resume.pdf",
+      "md5": "cea8c02c931fa12de1f39d6006efa213",
+      "filename": "new-teacher-secondary-resume.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.036961+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-01-03 14:32:15-07:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 270,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/notetaker-handshake-ad---professors1.pdf",
+      "md5": "4d732478e3d34cdd9ce4db538b2f735b",
+      "filename": "notetaker-handshake-ad---professors1.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.038525+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-11-07 21:24:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 61,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradomesa.edu/rec-center/wellness/nutrition-health-history-questionnaire.pdf",
+      "md5": "ff274e311721a091092901695050f158",
+      "filename": "nutrition-health-history-questionnaire.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.040069+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-02-26 16:12:51+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 3,
+        "Words": 737,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/human-resources/documents/policies-manuals/outside-employment-policy.pdf",
+      "md5": "9e1eaeb36dcd7595f8dc158289306e81",
+      "filename": "outside-employment-policy.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.041746+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-09-01 16:07:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 513,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/human-resources/documents/policies-manuals/overtime-comp-time-procedure.pdf",
+      "md5": "9829d3304d8472b2464faea9a36b713f",
+      "filename": "overtime-comp-time-procedure.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.043515+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-08-08 12:58:21-06:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 4,
+        "Words": 1316,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/parking/documents/parking-permit-application-2021-22-non-7002.pdf",
+      "md5": "d07e5511aebc2523593bf94433c97081",
+      "filename": "parking-permit-application-2021-22-non-7002.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.045282+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-08-11 14:29:38+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Publisher 2016",
+        "Producer": "Microsoft\u00ae Publisher 2016",
+        "Pages": 1,
+        "Words": 132,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/campus-info/documents/parkingmap.pdf",
+      "md5": "1aa91bdfe6029b7fbe134e6915bf3edb",
+      "filename": "parkingmap.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.048157+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-16 17:26:24+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 20.5 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 1,
+        "Words": 349,
+        "Images": 84
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/marketing/documents/privacy_statement.pdf",
+      "md5": "12220971b4d5d4518921b3b5a6f4a98b",
+      "filename": "privacy_statement.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.049833+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-04-03 19:07:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 747,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/music/documents/recital-request-form.pdf",
+      "md5": "bb8f5e7ab32ea998ee78001b9e4bb731",
+      "filename": "recital-request-form.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.051291+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-13 16:55:18+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.5",
+        "Pages": 1,
+        "Words": 182,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/recording-agreement-fillable1.pdf",
+      "md5": "94c2eacf826f0a354f5f04443dfabc97",
+      "filename": "recording-agreement-fillable1.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.054428+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-22 21:30:44+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.5",
+        "Pages": 1,
+        "Words": 317,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradomesa.edu/career/documents/registration-override-mavzone-instructions-for-faculty-2024.pdf",
+      "md5": "9d7e69cb03437731606714de89648873",
+      "filename": "registration-override-mavzone-instructions-for-faculty-2024.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.056146+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-01-25 17:06:45+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 353,
+        "Images": 26
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/career/documents/request-an-experience-in-handshake_students.pdf",
+      "md5": "7607dbcb6163b2f20f234bb5109fd104",
+      "filename": "request-an-experience-in-handshake_students.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.058256+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-04-11 15:34:38+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.1.163",
+        "Pages": 8,
+        "Words": 1082,
+        "Images": 27
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.coloradomesa.edu/safety/documents/sexual_assault_harassment_prevention.pdf",
+      "md5": "b866c625c19773beec695d456539a7dc",
+      "filename": "sexual_assault_harassment_prevention.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.066495+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2015-03-04 16:23:24-07:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 56,
+        "Words": 3060,
+        "Images": 126
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/music/documents/sophomore-review-application-082219.pdf",
+      "md5": "1340913100fcfdfa1fcd2beafbc495d2",
+      "filename": "sophomore-review-application-082219.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.068080+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-07-29 21:45:16+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 263,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/student-how-to-send-accommodations-v5.pdf",
+      "md5": "8a6d0193f9e88db2d098705af1e66cee",
+      "filename": "student-how-to-send-accommodations-v5.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.072623+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-08-07 14:56:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "(unspecified)",
+        "Producer": "ReportLab PDF Library - www.reportlab.com",
+        "Pages": 5,
+        "Words": 168,
+        "Images": 10
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/educational-access/documents/student-modify-accommodation-requests-v5.pdf",
+      "md5": "ec99a136faff2ad84a8fb4869da21038",
+      "filename": "student-modify-accommodation-requests-v5.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.075461+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-20 22:50:20+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "(unspecified)",
+        "Producer": "ReportLab PDF Library - www.reportlab.com",
+        "Pages": 3,
+        "Words": 106,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/art/student-resources/studio-art-handbook-final-25-26.pdf",
+      "md5": "dc431214f14fac2bb7d7da77d8ab1891",
+      "filename": "studio-art-handbook-final-25-26.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.079378+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-04 19:31:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "CourseLeaf",
+        "Producer": "Apache FOP Version 2.1",
+        "Pages": 18,
+        "Words": 6393,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/info/teacher-interview-questions.pdf",
+      "md5": "cedae3e265892950de786a0098cc4292",
+      "filename": "teacher-interview-questions.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.080907+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-04-03 15:47:48+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 338,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/directory/social-behavioral-sciences/documents/timothy_winegard_cv.pdf",
+      "md5": "d4b3f9d2626421b23043804b90be7547",
+      "filename": "timothy_winegard_cv.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.082992+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-08-22 09:15:12-06:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 8,
+        "Words": 1934,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/info/updated-apvformcoonly_20251.pdf",
+      "md5": "a3d918efbf5623b8ec794bea5b6eb97e",
+      "filename": "updated-apvformcoonly_20251.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.085206+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-27 22:33:59+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 15 for Visio",
+        "Producer": "Acrobat Distiller 15.0 (Windows)",
+        "Pages": 1,
+        "Words": 345,
+        "Images": 29
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/academic-support/updated-faculty-recommendation-form-fillable.pdf",
+      "md5": "3755a7046caa2d0e1a2c360201eb7d3b",
+      "filename": "updated-faculty-recommendation-form-fillable.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.086683+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-09 16:47:56+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.163",
+        "Pages": 3,
+        "Words": 289,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/teacher-education/undergraduate/updated-intern-handbook-2025-2026.pdf",
+      "md5": "3c7efc5c8253d947090d87d42bbf80b0",
+      "filename": "updated-intern-handbook-2025-2026.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.088910+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-01 15:17:15+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 15,
+        "Words": 5698,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/academic-support/updated-tutor-application-2025-fillable2.pdf",
+      "md5": "95be2ebdc959593d41aa2d468372bf00",
+      "filename": "updated-tutor-application-2025-fillable2.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.090469+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-20 22:46:55+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft Word",
+        "Producer": null,
+        "Pages": 3,
+        "Words": 307,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.coloradomesa.edu/human-resources/documents/policies-manuals/volunteer-policy.pdf",
+      "md5": "c84c04dd17d55abc1764040e5b3e075f",
+      "filename": "volunteer-policy.pdf",
+      "site": "coloradomesa.edu",
+      "crawled_at": "2026-03-26T12:16:18.091990+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-09-26 19:18:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "KM_C558",
+        "Producer": "KONICA MINOLTA bizhub C558",
+        "Pages": 3,
+        "Words": 0,
+        "Images": 13
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
+      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + esc(f.site || '') + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        var colDefs = [
+          { key: 'file',       label: 'File' },
+          { key: 'site',       label: 'Site' },
+          { key: 'date',       label: 'Published Date' },
+          { key: 'accessible', label: 'Accessible' },
+          { key: 'tagged',     label: 'Tagged' },
+          { key: 'title',      label: 'Title' },
+          { key: 'language',   label: 'Language' },
+          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'pages',      label: 'Pages' },
+        ];
+        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
+        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>

@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-26T12:14:39.540086+00:00
+Generated: 2026-03-26T12:32:38.639968+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 146 |
-| Total files tracked | 17857 |
-| Analysed | 4764 |
-| Pending analysis | 10851 |
+| URLs crawled | 402 |
+| Total files tracked | 18025 |
+| Analysed | 4852 |
+| Pending analysis | 10931 |
 | Errors during analysis | 2242 |
-| Accessible | 1424 |
-| Totally inaccessible | 158 |
+| Accessible | 1432 |
+| Totally inaccessible | 160 |
 | Broken / unreadable | 3 |
-| Exempt (pre-2018) | 1161 |
+| Exempt (pre-2018) | 1173 |
 
 ## Files per Site
 
@@ -31,11 +31,13 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | canada.ca | 496 |
 | cms.gov | 460 |
 | coloradoboces.org | 48 |
+| coloradomesa.edu | 88 |
 | ctoec.org | 1742 |
 | dc.gov | 74 |
 | dnr.state.mn.us | 8 |
 | dot.state.mn.us | 44 |
 | ec.europa.eu | 199 |
+| ecboces.org | 14 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
 | energy.gov | 562 |
@@ -50,6 +52,7 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
 | mn.gov | 1397 |
+| mtnboces.org | 32 |
 | ncert.nic.in | 329 |
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
@@ -59,6 +62,7 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | oregon.gov | 1968 |
 | pa.gov | 212 |
 | pca.state.mn.us | 211 |
+| ppboces.org | 34 |
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
 | slvboces.org | 614 |
@@ -4839,6 +4843,94 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 | [FY26+NW+BOCES+Modified+budget+02.25.26+REM.pdf](https://www.nwboces.org/files/f7c05e154/FY26+NW+BOCES+Modified+budget+02.25.26+REM.pdf) | nwboces.org | 2026-02-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 25 | 5946 | 21 |
 | [FY26+salary+schedule-REM.pdf](https://www.nwboces.org/files/0424521a2/FY26+salary+schedule-REM.pdf) | nwboces.org | 2025-06-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 266 | 0 |
 | [NW+BOCES+25-26+compensation+package-REM.pdf](https://www.nwboces.org/files/b2660b41a/NW+BOCES+25-26+compensation+package-REM.pdf) | nwboces.org | 2025-05-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 355 | 1 |
+| [2017-18-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/documents/2017-18-financial-data-file.pdf) | coloradomesa.edu | 2020-06-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1952 | 0 |
+| [2018-19-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/documents/2018-19-financial-data-file.pdf) | coloradomesa.edu | 2020-06-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1809 | 0 |
+| [2019-20-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/2019-20-financial-data-file.pdf) | coloradomesa.edu | 2021-08-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 2294 | 0 |
+| [2020-final-the-maverick-guide1.pdf](https://www.coloradomesa.edu/student-services/documents/2020-final-the-maverick-guide1.pdf) | coloradomesa.edu | 2021-10-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 80 | 34517 | 1 |
+| [2022-massage-services-flyer-w-cancellation-policy1.pdf](https://www.coloradomesa.edu/rec-center/documents/2022-massage-services-flyer-w-cancellation-policy1.pdf) | coloradomesa.edu | 2022-07-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 509 | 0 |
+| [2025-2026-itl-elementary-gc-cohort-schedule.pdf](https://www.coloradomesa.edu/teacher-education/initial-teacher-licensure/2025-2026-itl-elementary-gc-cohort-schedule.pdf) | coloradomesa.edu | 2025-01-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 457 | 1 |
+| [2025-2026-itl-k12-pe-gc-cohort-schedule.pdf](https://www.coloradomesa.edu/teacher-education/initial-teacher-licensure/2025-2026-itl-k12-pe-gc-cohort-schedule.pdf) | coloradomesa.edu | 2025-01-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 481 | 1 |
+| [2025-2026-itl-secondary-gc-cohort-schedule.pdf](https://www.coloradomesa.edu/teacher-education/initial-teacher-licensure/2025-2026-itl-secondary-gc-cohort-schedule.pdf) | coloradomesa.edu | 2025-01-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 473 | 1 |
+| [2026-summer-camps-rate-sheet.pdf](https://www.coloradomesa.edu/camps/host/2026-summer-camps-rate-sheet.pdf) | coloradomesa.edu | 2025-12-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 462 | 16 |
+| [20_tips_designing_courses_3_16_20.pdf](https://www.coloradomesa.edu/educational-access/documents/20_tips_designing_courses_3_16_20.pdf) | coloradomesa.edu | 2020-03-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1070 | 4 |
+| [24-25-handbook.pdf](https://www.coloradomesa.edu/music/documents/24-25-handbook.pdf) | coloradomesa.edu | 2025-08-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 12517 | 5 |
+| [2d_design_handbook_v1.8small_fall-2021.pdf](https://www.coloradomesa.edu/art/documents/student-resources/2d_design_handbook_v1.8small_fall-2021.pdf) | coloradomesa.edu | 2021-08-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 156 | 29031 | 220 |
+| [CatalogArtCenter.pdf](https://www.coloradomesa.edu/art/documents/CatalogArtCenter.pdf) | coloradomesa.edu | 2016-07-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 42 | 3933 | 30 |
+| [CrimeReport-MainCampus.pdf](https://www.coloradomesa.edu/safety/awareness/documents/CrimeReport-MainCampus.pdf) | coloradomesa.edu | 2021-09-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 33 | 15426 | 2 |
+| [HPL%20Medical-Health%20Questionnaire.pdf](https://www.coloradomesa.edu/human-performance-lab/documents/HPL%20Medical-Health%20Questionnaire.pdf) | coloradomesa.edu | 2016-05-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1032 | 1 |
+| [Internshipapplication-HPL.pdf](https://www.coloradomesa.edu/human-performance-lab/documents/Internshipapplication-HPL.pdf) | coloradomesa.edu | 2013-05-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 184 | 1 |
+| [InventoryOperationID.pdf](https://www.coloradomesa.edu/residence-life/documents/InventoryOperationID.pdf) | coloradomesa.edu | 2012-06-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 108 | 7 |
+| [StudentComplaintPolicy_Final.pdf](https://www.coloradomesa.edu/academic-affairs/documents/policies/StudentComplaintPolicy_Final.pdf) | coloradomesa.edu | 2023-09-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1351 | 6 |
+| [absence-request-form-2025.pdf](https://www.coloradomesa.edu/teacher-education/absence-request-form-2025.pdf) | coloradomesa.edu | 2025-11-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 377 | 1 |
+| [afp_and_md_bfa1.pdf](https://www.coloradomesa.edu/art/degrees/afp_and_md_bfa1.pdf) | coloradomesa.edu | 2025-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 3 | 0 |
+| [afp_starterkit.pdf](https://www.coloradomesa.edu/art/documents/student-resources/afp_starterkit.pdf) | coloradomesa.edu | 2022-11-03 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
+| [bot-policy-manual.pdf](https://www.coloradomesa.edu/trustees/documents/bot-policy-manual.pdf) | coloradomesa.edu | 2024-11-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 48 | 17676 | 1 |
+| [brenda-wilhelm-cv.pdf](https://www.coloradomesa.edu/directory/social-behavioral-sciences/documents/brenda-wilhelm-cv.pdf) | coloradomesa.edu | 2016-08-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 | 1417 | 0 |
+| [campus_safety_active_threat_response.pdf](https://www.coloradomesa.edu/safety/documents/campus_safety_active_threat_response.pdf) | coloradomesa.edu | 2015-03-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 55 | 1674 | 40 |
+| [campusmap.pdf](https://www.coloradomesa.edu/campus-info/documents/campusmap.pdf) | coloradomesa.edu | 2026-02-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1299 | 223 |
+| [cde-fingerprint-instructions.pdf](https://www.coloradomesa.edu/teacher-education/documents/cde-fingerprint-instructions.pdf) | coloradomesa.edu | 2025-02-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 682 | 10 |
+| [cmu-serviceanimalspolicy.pdf](https://www.coloradomesa.edu/educational-access/documents/cmu-serviceanimalspolicy.pdf) | coloradomesa.edu | 2022-11-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 614 | 2 |
+| [cmu_gd_application-updated.pdf](https://www.coloradomesa.edu/art/student-resources/cmu_gd_application-updated.pdf) | coloradomesa.edu | 2025-12-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 270 | 0 |
+| [cmu_gd_website_criteria.pdf](https://www.coloradomesa.edu/art/student-resources/cmu_gd_website_criteria.pdf) | coloradomesa.edu | 2025-12-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 212 | 0 |
+| [cmu_gd_website_criteria1.pdf](https://www.coloradomesa.edu/art/student-resources/cmu_gd_website_criteria1.pdf) | coloradomesa.edu | 2025-12-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 212 | 0 |
+| [course-offering-schedule.pdf](https://www.coloradomesa.edu/music/documents/course-offering-schedule.pdf) | coloradomesa.edu | 2025-04-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 426 | 0 |
+| [crystal_wagner_cv_2025_2026.pdf](https://www.coloradomesa.edu/directory/art/documents/crystal_wagner_cv_2025_2026.pdf) | coloradomesa.edu | 2025-07-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 16 | 4128 | 0 |
+| [cte-grad-program-flowchart.pdf](https://www.coloradomesa.edu/teacher-education/graduate/cte-grad-program-flowchart.pdf) | coloradomesa.edu | 2025-01-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 118 | 1 |
+| [curtis_cv_2019.pdf](https://www.coloradomesa.edu/directory/art/documents/curtis_cv_2019.pdf) | coloradomesa.edu | 2019-04-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1363 | 0 |
+| [d2l-accommodations.pdf](https://www.coloradomesa.edu/digital-learning-innovation/documents/d2l-accommodations.pdf) | coloradomesa.edu | 2024-02-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1894 | 30 |
+| [dig-photo-prof-cert.pdf](https://www.coloradomesa.edu/art/degrees/dig-photo-prof-cert.pdf) | coloradomesa.edu | 2025-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2 | 0 |
+| [effective-teaching-article---sage-journal.pdf](https://www.coloradomesa.edu/educational-access/documents/effective-teaching-article---sage-journal.pdf) | coloradomesa.edu | 2022-10-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 8853 | 2 |
+| [example_internship-agreement-and-learning-plan-3.21.23.pdf](https://www.coloradomesa.edu/career/documents/example_internship-agreement-and-learning-plan-3.21.23.pdf) | coloradomesa.edu | 2024-01-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1227 | 6 |
+| [fall-2022-mesa-experience-schedule-for-website.pdf](https://www.coloradomesa.edu/visit/documents/fall-2022-mesa-experience-schedule-for-website.pdf) | coloradomesa.edu | 2025-12-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 76 | 5 |
+| [faq-annual-review-virtual-overview-session.pdf](https://www.coloradomesa.edu/human-resources/documents/annual-review/faq-annual-review-virtual-overview-session.pdf) | coloradomesa.edu | 2024-07-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 912 | 3 |
+| [field-experience-tabulation-form.pdf](https://www.coloradomesa.edu/music/documents/field-experience-tabulation-form.pdf) | coloradomesa.edu | 2025-08-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 67 | 1 |
+| [film-photo-prof-cert.pdf](https://www.coloradomesa.edu/art/degrees/film-photo-prof-cert.pdf) | coloradomesa.edu | 2025-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2 | 0 |
+| [filmstudies_and_production_minor.pdf](https://www.coloradomesa.edu/art/degrees/filmstudies_and_production_minor.pdf) | coloradomesa.edu | 2025-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 1 | 0 |
+| [fin_children-fallen-heroes.pdf](https://www.coloradomesa.edu/financial-aid/documents/fin_children-fallen-heroes.pdf) | coloradomesa.edu | 2022-11-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 550 | 0 |
+| [finaid_statementofethics.pdf](https://www.coloradomesa.edu/financial-aid/documents/finaid_statementofethics.pdf) | coloradomesa.edu | 2022-11-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 491 | 0 |
+| [final-version-maverick-guide-2025.pdf](https://www.coloradomesa.edu/safety/awareness/documents/final-version-maverick-guide-2025.pdf) | coloradomesa.edu | 2025-08-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 96 | 41657 | 3 |
+| [flex-plan-default-agreement.pdf](https://www.coloradomesa.edu/educational-access/documents/flex-plan-default-agreement.pdf) | coloradomesa.edu | 2025-01-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 328 | 1 |
+| [fritzcv.pdf](https://www.coloradomesa.edu/directory/kinesiology/documents/fritzcv.pdf) | coloradomesa.edu | 2014-10-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 | 1588 | 0 |
+| [golden-scholars-application-updated-december.pdf](https://www.coloradomesa.edu/registrar/documents/golden-scholars-application-updated-december.pdf) | coloradomesa.edu | 2025-11-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1219 | 1 |
+| [graphic-design-bfa2.pdf](https://www.coloradomesa.edu/art/degrees/graphic-design-bfa2.pdf) | coloradomesa.edu | 2025-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 4 | 0 |
+| [graphicdesign-aa.pdf](https://www.coloradomesa.edu/art/degrees/graphicdesign-aa.pdf) | coloradomesa.edu | 2025-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 3 | 0 |
+| [handshake-guide_faculty-internship-coordinators.pdf](https://www.coloradomesa.edu/career/documents/handshake-guide_faculty-internship-coordinators.pdf) | coloradomesa.edu | 2023-09-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1054 | 32 |
+| [how-to-pay-for-college-to-become-a-teacher-in-colorado-2025.pdf](https://www.coloradomesa.edu/teacher-education/info/how-to-pay-for-college-to-become-a-teacher-in-colorado-2025.pdf) | coloradomesa.edu | 2025-11-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 292 | 1 |
+| [hrc-personal-training-request-packet2.pdf](https://www.coloradomesa.edu/rec-center/documents/hrc-personal-training-request-packet2.pdf) | coloradomesa.edu | 2017-09-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 9 | 2574 | 1 |
+| [hrc-wellness-assessment-request-packet2.pdf](https://www.coloradomesa.edu/rec-center/documents/hrc-wellness-assessment-request-packet2.pdf) | coloradomesa.edu | 2017-09-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 10 | 2515 | 1 |
+| [industry-cover-letters.pdf](https://www.coloradomesa.edu/career/documents/industry-cover-letters.pdf) | coloradomesa.edu | 2023-07-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 40 | 10338 | 44 |
+| [industry-resumes.pdf](https://www.coloradomesa.edu/career/documents/industry-resumes.pdf) | coloradomesa.edu | 2023-08-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 42 | 10111 | 43 |
+| [instructor-flex-plan-setup-by-course.pdf](https://www.coloradomesa.edu/educational-access/documents/instructor-flex-plan-setup-by-course.pdf) | coloradomesa.edu | 2025-03-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 133 | 8 |
+| [instructor-list-final-exam-date-guide.pdf](https://www.coloradomesa.edu/educational-access/documents/instructor-list-final-exam-date-guide.pdf) | coloradomesa.edu | 2024-11-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 256 | 14 |
+| [instructor-testing-agreement-guide-v5.pdf](https://www.coloradomesa.edu/educational-access/documents/instructor-testing-agreement-guide-v5.pdf) | coloradomesa.edu | 2024-08-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 19 | 608 | 37 |
+| [interview-skills.pdf](https://www.coloradomesa.edu/teacher-education/info/interview-skills.pdf) | coloradomesa.edu | 2020-04-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 21 | 1070 | 52 |
+| [jac-kephart-art-walk-booklet.pdf](https://www.coloradomesa.edu/art/images/jac-kephart-art-walk-booklet.pdf) | coloradomesa.edu | 2024-06-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 23 | 533 | 54 |
+| [massage-therapy-health-history-questionnaire2.pdf](https://www.coloradomesa.edu/rec-center/documents/massage-therapy-health-history-questionnaire2.pdf) | coloradomesa.edu | 2017-12-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 5 | 1477 | 1 |
+| [maverick-guide.pdf](https://www.coloradomesa.edu/student-services/documents/maverick-guide.pdf) | coloradomesa.edu | 2025-08-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 96 | 41657 | 3 |
+| [new-teacher-secondary-resume.pdf](https://www.coloradomesa.edu/teacher-education/info/new-teacher-secondary-resume.pdf) | coloradomesa.edu | 2018-01-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 270 | 0 |
+| [notetaker-handshake-ad---professors1.pdf](https://www.coloradomesa.edu/educational-access/documents/notetaker-handshake-ad---professors1.pdf) | coloradomesa.edu | 2022-11-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 61 | 2 |
+| [nutrition-health-history-questionnaire.pdf](https://www.coloradomesa.edu/rec-center/wellness/nutrition-health-history-questionnaire.pdf) | coloradomesa.edu | 2021-02-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 737 | 0 |
+| [outside-employment-policy.pdf](https://www.coloradomesa.edu/human-resources/documents/policies-manuals/outside-employment-policy.pdf) | coloradomesa.edu | 2011-09-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 513 | 1 |
+| [overtime-comp-time-procedure.pdf](https://www.coloradomesa.edu/human-resources/documents/policies-manuals/overtime-comp-time-procedure.pdf) | coloradomesa.edu | 2017-08-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1316 | 1 |
+| [parking-permit-application-2021-22-non-7002.pdf](https://www.coloradomesa.edu/parking/documents/parking-permit-application-2021-22-non-7002.pdf) | coloradomesa.edu | 2021-08-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 132 | 0 |
+| [parkingmap.pdf](https://www.coloradomesa.edu/campus-info/documents/parkingmap.pdf) | coloradomesa.edu | 2025-09-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 349 | 84 |
+| [privacy_statement.pdf](https://www.coloradomesa.edu/marketing/documents/privacy_statement.pdf) | coloradomesa.edu | 2012-04-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 747 | 2 |
+| [recital-request-form.pdf](https://www.coloradomesa.edu/music/documents/recital-request-form.pdf) | coloradomesa.edu | 2026-01-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 182 | 1 |
+| [recording-agreement-fillable1.pdf](https://www.coloradomesa.edu/educational-access/documents/recording-agreement-fillable1.pdf) | coloradomesa.edu | 2026-01-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 317 | 1 |
+| [registration-override-mavzone-instructions-for-faculty-2024.pdf](https://www.coloradomesa.edu/career/documents/registration-override-mavzone-instructions-for-faculty-2024.pdf) | coloradomesa.edu | 2024-01-25 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 353 | 26 |
+| [request-an-experience-in-handshake_students.pdf](https://www.coloradomesa.edu/career/documents/request-an-experience-in-handshake_students.pdf) | coloradomesa.edu | 2024-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1082 | 27 |
+| [sexual_assault_harassment_prevention.pdf](https://www.coloradomesa.edu/safety/documents/sexual_assault_harassment_prevention.pdf) | coloradomesa.edu | 2015-03-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 56 | 3060 | 126 |
+| [sophomore-review-application-082219.pdf](https://www.coloradomesa.edu/music/documents/sophomore-review-application-082219.pdf) | coloradomesa.edu | 2025-07-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 263 | 1 |
+| [student-how-to-send-accommodations-v5.pdf](https://www.coloradomesa.edu/educational-access/documents/student-how-to-send-accommodations-v5.pdf) | coloradomesa.edu | 2024-08-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 5 | 168 | 10 |
+| [student-modify-accommodation-requests-v5.pdf](https://www.coloradomesa.edu/educational-access/documents/student-modify-accommodation-requests-v5.pdf) | coloradomesa.edu | 2025-01-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 106 | 5 |
+| [studio-art-handbook-final-25-26.pdf](https://www.coloradomesa.edu/art/student-resources/studio-art-handbook-final-25-26.pdf) | coloradomesa.edu | 2025-08-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 18 | 6393 | 1 |
+| [teacher-interview-questions.pdf](https://www.coloradomesa.edu/teacher-education/info/teacher-interview-questions.pdf) | coloradomesa.edu | 2020-04-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 338 | 0 |
+| [timothy_winegard_cv.pdf](https://www.coloradomesa.edu/directory/social-behavioral-sciences/documents/timothy_winegard_cv.pdf) | coloradomesa.edu | 2019-08-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1934 | 0 |
+| [updated-apvformcoonly_20251.pdf](https://www.coloradomesa.edu/teacher-education/info/updated-apvformcoonly_20251.pdf) | coloradomesa.edu | 2025-05-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 345 | 29 |
+| [updated-faculty-recommendation-form-fillable.pdf](https://www.coloradomesa.edu/academic-support/updated-faculty-recommendation-form-fillable.pdf) | coloradomesa.edu | 2025-09-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 289 | 3 |
+| [updated-intern-handbook-2025-2026.pdf](https://www.coloradomesa.edu/teacher-education/undergraduate/updated-intern-handbook-2025-2026.pdf) | coloradomesa.edu | 2025-10-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 5698 | 3 |
+| [updated-tutor-application-2025-fillable2.pdf](https://www.coloradomesa.edu/academic-support/updated-tutor-application-2025-fillable2.pdf) | coloradomesa.edu | 2026-01-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 307 | 3 |
+| [volunteer-policy.pdf](https://www.coloradomesa.edu/human-resources/documents/policies-manuals/volunteer-policy.pdf) | coloradomesa.edu | 2019-09-26 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 13 |
 
 ## Files with Errors or Notes
 
@@ -38411,3 +38503,483 @@ Generated: 2026-03-26T12:14:39.540086+00:00
 - **URL**: https://www.nwboces.org/files/d834ff3f5/26-0319+Agenda.pdf
 - **Status**: analysed
 - title, 
+
+### 2017-18-financial-data-file.pdf
+
+- **URL**: https://www.coloradomesa.edu/grandvalleyboces/documents/2017-18-financial-data-file.pdf
+- **Status**: analysed
+- title, 
+
+### 2018-19-financial-data-file.pdf
+
+- **URL**: https://www.coloradomesa.edu/grandvalleyboces/documents/2018-19-financial-data-file.pdf
+- **Status**: analysed
+- title, 
+
+### 2019-20-financial-data-file.pdf
+
+- **URL**: https://www.coloradomesa.edu/grandvalleyboces/2019-20-financial-data-file.pdf
+- **Status**: analysed
+- title, 
+
+### 2020-final-the-maverick-guide1.pdf
+
+- **URL**: https://www.coloradomesa.edu/student-services/documents/2020-final-the-maverick-guide1.pdf
+- **Status**: analysed
+- title, 
+
+### 2022-massage-services-flyer-w-cancellation-policy1.pdf
+
+- **URL**: https://www.coloradomesa.edu/rec-center/documents/2022-massage-services-flyer-w-cancellation-policy1.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026-itl-elementary-gc-cohort-schedule.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/initial-teacher-licensure/2025-2026-itl-elementary-gc-cohort-schedule.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026-itl-k12-pe-gc-cohort-schedule.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/initial-teacher-licensure/2025-2026-itl-k12-pe-gc-cohort-schedule.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026-itl-secondary-gc-cohort-schedule.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/initial-teacher-licensure/2025-2026-itl-secondary-gc-cohort-schedule.pdf
+- **Status**: analysed
+- title, 
+
+### 20_tips_designing_courses_3_16_20.pdf
+
+- **URL**: https://www.coloradomesa.edu/educational-access/documents/20_tips_designing_courses_3_16_20.pdf
+- **Status**: analysed
+- title, 
+
+### 24-25-handbook.pdf
+
+- **URL**: https://www.coloradomesa.edu/music/documents/24-25-handbook.pdf
+- **Status**: analysed
+- title, 
+
+### 2d_design_handbook_v1.8small_fall-2021.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/documents/student-resources/2d_design_handbook_v1.8small_fall-2021.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### CatalogArtCenter.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/documents/CatalogArtCenter.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### CrimeReport-MainCampus.pdf
+
+- **URL**: https://www.coloradomesa.edu/safety/awareness/documents/CrimeReport-MainCampus.pdf
+- **Status**: analysed
+- title, 
+
+### HPL%20Medical-Health%20Questionnaire.pdf
+
+- **URL**: https://www.coloradomesa.edu/human-performance-lab/documents/HPL%20Medical-Health%20Questionnaire.pdf
+- **Status**: analysed
+- title, 
+
+### Internshipapplication-HPL.pdf
+
+- **URL**: https://www.coloradomesa.edu/human-performance-lab/documents/Internshipapplication-HPL.pdf
+- **Status**: analysed
+- title, 
+
+### InventoryOperationID.pdf
+
+- **URL**: https://www.coloradomesa.edu/residence-life/documents/InventoryOperationID.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### StudentComplaintPolicy_Final.pdf
+
+- **URL**: https://www.coloradomesa.edu/academic-affairs/documents/policies/StudentComplaintPolicy_Final.pdf
+- **Status**: analysed
+- title, 
+
+### afp_and_md_bfa1.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/degrees/afp_and_md_bfa1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### afp_starterkit.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/documents/student-resources/afp_starterkit.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### bot-policy-manual.pdf
+
+- **URL**: https://www.coloradomesa.edu/trustees/documents/bot-policy-manual.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### brenda-wilhelm-cv.pdf
+
+- **URL**: https://www.coloradomesa.edu/directory/social-behavioral-sciences/documents/brenda-wilhelm-cv.pdf
+- **Status**: analysed
+- title, 
+
+### campus_safety_active_threat_response.pdf
+
+- **URL**: https://www.coloradomesa.edu/safety/documents/campus_safety_active_threat_response.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### campusmap.pdf
+
+- **URL**: https://www.coloradomesa.edu/campus-info/documents/campusmap.pdf
+- **Status**: analysed
+- title, 
+
+### cde-fingerprint-instructions.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/documents/cde-fingerprint-instructions.pdf
+- **Status**: analysed
+- title, 
+
+### cmu-serviceanimalspolicy.pdf
+
+- **URL**: https://www.coloradomesa.edu/educational-access/documents/cmu-serviceanimalspolicy.pdf
+- **Status**: analysed
+- title, 
+
+### cmu_gd_application-updated.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/student-resources/cmu_gd_application-updated.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cmu_gd_website_criteria.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/student-resources/cmu_gd_website_criteria.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cmu_gd_website_criteria1.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/student-resources/cmu_gd_website_criteria1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### course-offering-schedule.pdf
+
+- **URL**: https://www.coloradomesa.edu/music/documents/course-offering-schedule.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### crystal_wagner_cv_2025_2026.pdf
+
+- **URL**: https://www.coloradomesa.edu/directory/art/documents/crystal_wagner_cv_2025_2026.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cte-grad-program-flowchart.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/graduate/cte-grad-program-flowchart.pdf
+- **Status**: analysed
+- title, 
+
+### curtis_cv_2019.pdf
+
+- **URL**: https://www.coloradomesa.edu/directory/art/documents/curtis_cv_2019.pdf
+- **Status**: analysed
+- title, 
+
+### dig-photo-prof-cert.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/degrees/dig-photo-prof-cert.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### effective-teaching-article---sage-journal.pdf
+
+- **URL**: https://www.coloradomesa.edu/educational-access/documents/effective-teaching-article---sage-journal.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### example_internship-agreement-and-learning-plan-3.21.23.pdf
+
+- **URL**: https://www.coloradomesa.edu/career/documents/example_internship-agreement-and-learning-plan-3.21.23.pdf
+- **Status**: analysed
+- title, 
+
+### faq-annual-review-virtual-overview-session.pdf
+
+- **URL**: https://www.coloradomesa.edu/human-resources/documents/annual-review/faq-annual-review-virtual-overview-session.pdf
+- **Status**: analysed
+- title, 
+
+### field-experience-tabulation-form.pdf
+
+- **URL**: https://www.coloradomesa.edu/music/documents/field-experience-tabulation-form.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### film-photo-prof-cert.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/degrees/film-photo-prof-cert.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### filmstudies_and_production_minor.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/degrees/filmstudies_and_production_minor.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fin_children-fallen-heroes.pdf
+
+- **URL**: https://www.coloradomesa.edu/financial-aid/documents/fin_children-fallen-heroes.pdf
+- **Status**: analysed
+- title, 
+
+### finaid_statementofethics.pdf
+
+- **URL**: https://www.coloradomesa.edu/financial-aid/documents/finaid_statementofethics.pdf
+- **Status**: analysed
+- title, 
+
+### final-version-maverick-guide-2025.pdf
+
+- **URL**: https://www.coloradomesa.edu/safety/awareness/documents/final-version-maverick-guide-2025.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### flex-plan-default-agreement.pdf
+
+- **URL**: https://www.coloradomesa.edu/educational-access/documents/flex-plan-default-agreement.pdf
+- **Status**: analysed
+- title, 
+
+### fritzcv.pdf
+
+- **URL**: https://www.coloradomesa.edu/directory/kinesiology/documents/fritzcv.pdf
+- **Status**: analysed
+- title, 
+
+### golden-scholars-application-updated-december.pdf
+
+- **URL**: https://www.coloradomesa.edu/registrar/documents/golden-scholars-application-updated-december.pdf
+- **Status**: analysed
+- title, 
+
+### graphic-design-bfa2.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/degrees/graphic-design-bfa2.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### graphicdesign-aa.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/degrees/graphicdesign-aa.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### how-to-pay-for-college-to-become-a-teacher-in-colorado-2025.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/info/how-to-pay-for-college-to-become-a-teacher-in-colorado-2025.pdf
+- **Status**: analysed
+- title, 
+
+### hrc-personal-training-request-packet2.pdf
+
+- **URL**: https://www.coloradomesa.edu/rec-center/documents/hrc-personal-training-request-packet2.pdf
+- **Status**: analysed
+- title, 
+
+### hrc-wellness-assessment-request-packet2.pdf
+
+- **URL**: https://www.coloradomesa.edu/rec-center/documents/hrc-wellness-assessment-request-packet2.pdf
+- **Status**: analysed
+- title, 
+
+### industry-cover-letters.pdf
+
+- **URL**: https://www.coloradomesa.edu/career/documents/industry-cover-letters.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### industry-resumes.pdf
+
+- **URL**: https://www.coloradomesa.edu/career/documents/industry-resumes.pdf
+- **Status**: analysed
+- title, 
+
+### instructor-flex-plan-setup-by-course.pdf
+
+- **URL**: https://www.coloradomesa.edu/educational-access/documents/instructor-flex-plan-setup-by-course.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### instructor-list-final-exam-date-guide.pdf
+
+- **URL**: https://www.coloradomesa.edu/educational-access/documents/instructor-list-final-exam-date-guide.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### instructor-testing-agreement-guide-v5.pdf
+
+- **URL**: https://www.coloradomesa.edu/educational-access/documents/instructor-testing-agreement-guide-v5.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### interview-skills.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/info/interview-skills.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### jac-kephart-art-walk-booklet.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/images/jac-kephart-art-walk-booklet.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### massage-therapy-health-history-questionnaire2.pdf
+
+- **URL**: https://www.coloradomesa.edu/rec-center/documents/massage-therapy-health-history-questionnaire2.pdf
+- **Status**: analysed
+- title, 
+
+### maverick-guide.pdf
+
+- **URL**: https://www.coloradomesa.edu/student-services/documents/maverick-guide.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### new-teacher-secondary-resume.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/info/new-teacher-secondary-resume.pdf
+- **Status**: analysed
+- title, 
+
+### nutrition-health-history-questionnaire.pdf
+
+- **URL**: https://www.coloradomesa.edu/rec-center/wellness/nutrition-health-history-questionnaire.pdf
+- **Status**: analysed
+- title, 
+
+### outside-employment-policy.pdf
+
+- **URL**: https://www.coloradomesa.edu/human-resources/documents/policies-manuals/outside-employment-policy.pdf
+- **Status**: analysed
+- title, 
+
+### overtime-comp-time-procedure.pdf
+
+- **URL**: https://www.coloradomesa.edu/human-resources/documents/policies-manuals/overtime-comp-time-procedure.pdf
+- **Status**: analysed
+- title, 
+
+### parking-permit-application-2021-22-non-7002.pdf
+
+- **URL**: https://www.coloradomesa.edu/parking/documents/parking-permit-application-2021-22-non-7002.pdf
+- **Status**: analysed
+- title, 
+
+### parkingmap.pdf
+
+- **URL**: https://www.coloradomesa.edu/campus-info/documents/parkingmap.pdf
+- **Status**: analysed
+- title, 
+
+### privacy_statement.pdf
+
+- **URL**: https://www.coloradomesa.edu/marketing/documents/privacy_statement.pdf
+- **Status**: analysed
+- title, 
+
+### recital-request-form.pdf
+
+- **URL**: https://www.coloradomesa.edu/music/documents/recital-request-form.pdf
+- **Status**: analysed
+- title, 
+
+### registration-override-mavzone-instructions-for-faculty-2024.pdf
+
+- **URL**: https://www.coloradomesa.edu/career/documents/registration-override-mavzone-instructions-for-faculty-2024.pdf
+- **Status**: analysed
+- title, 
+
+### sexual_assault_harassment_prevention.pdf
+
+- **URL**: https://www.coloradomesa.edu/safety/documents/sexual_assault_harassment_prevention.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### sophomore-review-application-082219.pdf
+
+- **URL**: https://www.coloradomesa.edu/music/documents/sophomore-review-application-082219.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### student-how-to-send-accommodations-v5.pdf
+
+- **URL**: https://www.coloradomesa.edu/educational-access/documents/student-how-to-send-accommodations-v5.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### student-modify-accommodation-requests-v5.pdf
+
+- **URL**: https://www.coloradomesa.edu/educational-access/documents/student-modify-accommodation-requests-v5.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### studio-art-handbook-final-25-26.pdf
+
+- **URL**: https://www.coloradomesa.edu/art/student-resources/studio-art-handbook-final-25-26.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### teacher-interview-questions.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/info/teacher-interview-questions.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### timothy_winegard_cv.pdf
+
+- **URL**: https://www.coloradomesa.edu/directory/social-behavioral-sciences/documents/timothy_winegard_cv.pdf
+- **Status**: analysed
+- title, 
+
+### updated-apvformcoonly_20251.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/info/updated-apvformcoonly_20251.pdf
+- **Status**: analysed
+- title, lang, 
+
+### updated-faculty-recommendation-form-fillable.pdf
+
+- **URL**: https://www.coloradomesa.edu/academic-support/updated-faculty-recommendation-form-fillable.pdf
+- **Status**: analysed
+- title, 
+
+### updated-intern-handbook-2025-2026.pdf
+
+- **URL**: https://www.coloradomesa.edu/teacher-education/undergraduate/updated-intern-handbook-2025-2026.pdf
+- **Status**: analysed
+- title, 
+
+### updated-tutor-application-2025-fillable2.pdf
+
+- **URL**: https://www.coloradomesa.edu/academic-support/updated-tutor-application-2025-fillable2.pdf
+- **Status**: analysed
+- title, 
+
+### volunteer-policy.pdf
+
+- **URL**: https://www.coloradomesa.edu/human-resources/documents/policies-manuals/volunteer-policy.pdf
+- **Status**: analysed
+- title, tagged, lang, 

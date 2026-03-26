@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-26T12:32:38.639968+00:00",
+    "site": "coloradomesa.edu",
+    "crawl_url": "https://www.coloradomesa.edu",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23593802580",
+    "issue_url": "",
+    "archive_file": "2026-03-26_12-32-38-639_coloradomesa.edu.html",
+    "total": 88,
+    "analysed": 88,
+    "accessible": 8
+  },
+  {
     "date": "2026-03-26T12:14:39.540086+00:00",
     "site": "nwboces.org",
     "crawl_url": "https://www.nwboces.org",
