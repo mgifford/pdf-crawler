@@ -1,10 +1,10 @@
 # pdf-crawler
 
 **A free, zero-infrastructure PDF accessibility scanner.**
-Point it at any website, and within an hour it will crawl the site, find every
-PDF, flag common accessibility issues, and post a public report — all through a
-GitHub issue.  No servers to deploy, no accounts to configure, no software to
-install.
+Point it at any website, it will begin a process that might take an hour to crawl 
+your site, discover most of the PDFs and then flag common accessibility issues. 
+It then posts a public report of the discoveries. All through a GitHub issue.  
+No servers to deploy, no accounts to configure, no software to install.
 
 **How it works in three steps:**
 
