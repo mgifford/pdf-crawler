@@ -325,7 +325,11 @@ def test_generate_csv_external_domain_populated_for_external_pdf():
     """CSV external_domain field must contain the external host for external PDFs."""
     entry = _make_external_entry()
     csv_text = generate_csv([entry])
-    assert "cdn.othergov.org" in csv_text
+    lines = csv_text.splitlines()
+    header = lines[0].split(",")
+    col_idx = header.index("external_domain")
+    row = lines[1].split(",")
+    assert row[col_idx] == "cdn.othergov.org"
 
 
 def test_generate_csv_external_domain_empty_for_same_site_pdf():

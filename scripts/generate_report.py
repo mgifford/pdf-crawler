@@ -397,7 +397,7 @@ def generate_issue_comment(
                 ">",
                 "> - **JavaScript navigation** – PDFs linked only via JavaScript menus or dynamic content cannot be followed by the crawler.",
                 "> - **Robots.txt restrictions** – the site may restrict crawler access to sections that contain PDFs.",
-                "> - **External hosting** – PDFs served without a `.pdf` extension on a different domain may not be discovered. PDFs with a `.pdf` link on any domain are always followed.",
+                "> - **External hosting** – PDFs served without a `.pdf` extension on a different domain may not be discovered. PDFs with a `.pdf` file extension on any domain are always followed.",
                 "> - **Deeper pages** – try submitting a more specific starting URL (e.g. a `/documents` or `/resources` sub-page).",
                 ">",
                 f"> Review the [Crawled URLs]({pages_base}/reports/crawled_urls.csv) to see which pages were visited,",
