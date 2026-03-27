@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-26T12:40:58.276581+00:00
+Generated: 2026-03-27T10:41:19.423464+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 463 |
-| Total files tracked | 18025 |
+| URLs crawled | 512 |
+| Total files tracked | 18140 |
 | Analysed | 4917 |
-| Pending analysis | 10866 |
+| Pending analysis | 10981 |
 | Errors during analysis | 2242 |
 | Accessible | 1442 |
 | Totally inaccessible | 170 |
@@ -65,7 +65,7 @@ Generated: 2026-03-26T12:40:58.276581+00:00
 | ppboces.org | 34 |
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
-| slvboces.org | 614 |
+| slvboces.org | 729 |
 | smallpdf.com | 2 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
@@ -580,14 +580,14 @@ Generated: 2026-03-26T12:40:58.276581+00:00
 | [block-randomization.pdf](https://oes.gsa.gov/assets/files/block-randomization.pdf) | gsa.gov | 2024-10-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | — | — |
 | [calculating-standard-errors-guidance.pdf](https://oes.gsa.gov/assets/files/calculating-standard-errors-guidance.pdf) | gsa.gov | 2024-10-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | — | — |
 | [census-community-outreach-toolkit.pdf](https://oes.gsa.gov/assets/publications/census-community-outreach-toolkit.pdf) | gsa.gov | 2018-10-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 | — | — |
-| [dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products-0.pdf](https://cic.gsa.gov:443/static/documents/dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf) | gsa.gov | 2021-08-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | — | — |
+| [dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products-0.pdf](https://cic.gsa.gov:443/static/documents/dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf) | gsa.gov *(ext: cic.gsa.gov:443)* | 2021-08-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | — | — |
 | [dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf](https://cic.gsa.gov/static/documents/dod-cio-memo-2021-08-09-dod-ceta-ms-365-office-365-and-premises-products.pdf) | gsa.gov | 2021-08-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | — | — |
-| [dod-cloud-soo-template-2016-0.pdf](https://cic.gsa.gov:443/static/documents/dod-cloud-soo-template-2016.pdf) | gsa.gov | 2016-10-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 | — | — |
+| [dod-cloud-soo-template-2016-0.pdf](https://cic.gsa.gov:443/static/documents/dod-cloud-soo-template-2016.pdf) | gsa.gov *(ext: cic.gsa.gov:443)* | 2016-10-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 | — | — |
 | [dod-cloud-soo-template-2016.pdf](https://cic.gsa.gov/static/documents/dod-cloud-soo-template-2016.pdf) | gsa.gov | 2016-10-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 14 | — | — |
-| [dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services-0.pdf](https://cic.gsa.gov:443/static/documents/dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf) | gsa.gov | 2021-06-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | — | — |
+| [dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services-0.pdf](https://cic.gsa.gov:443/static/documents/dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf) | gsa.gov *(ext: cic.gsa.gov:443)* | 2021-06-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | — | — |
 | [dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf](https://cic.gsa.gov/static/documents/dod-daf-memo-2021-06-21-migration-guidance-daf-enterprise-cloud-services.pdf) | gsa.gov | 2021-06-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | — | — |
 | [doj-cloud-success-story-0.pdf](https://cic.gsa.gov/static/documents/doj-cloud-success-story.pdf) | gsa.gov | 2020-04-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | — | — |
-| [doj-cloud-success-story.pdf](https://cic.gsa.gov:443/static/documents/doj-cloud-success-story.pdf) | gsa.gov | 2020-04-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | — | — |
+| [doj-cloud-success-story.pdf](https://cic.gsa.gov:443/static/documents/doj-cloud-success-story.pdf) | gsa.gov *(ext: cic.gsa.gov:443)* | 2020-04-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | — | — |
 | [eOffer_eMod-Multi-Factor-Authentication-User-Guide.pdf](https://eoffer.gsa.gov/eoffer_docs/eOffer_eMod-Multi-Factor-Authentication-User-Guide.pdf) | gsa.gov | 2022-01-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 34 | — | — |
 | [effect-size-evaluation-basics.pdf](https://oes.gsa.gov/assets/files/effect-size-evaluation-basics.pdf) | gsa.gov | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | — | — |
 | [evaluationpolicy.pdf](https://oes.gsa.gov/assets/files/evaluationpolicy.pdf) | gsa.gov | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | — | — |
@@ -599,16 +599,16 @@ Generated: 2026-03-26T12:40:58.276581+00:00
 | [fy-2023-itvmo-annual-assessment.pdf](https://itvmo.gsa.gov/assets/files/fy-2023-itvmo-annual-assessment.pdf) | gsa.gov | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 26 | — | — |
 | [fy-2024-itvmo-annual-assessment.pdf](https://itvmo.gsa.gov/assets/files/fy-2024-itvmo-annual-assessment.pdf) | gsa.gov | 2024-12-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 27 | — | — |
 | [gsa-cio-cloud-success-story-0.pdf](https://cic.gsa.gov/static/documents/gsa-cio-cloud-success-story.pdf) | gsa.gov | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | — | — |
-| [gsa-cio-cloud-success-story.pdf](https://cic.gsa.gov:443/static/documents/gsa-cio-cloud-success-story.pdf) | gsa.gov | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | — | — |
-| [gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles-0.pdf](https://cic.gsa.gov:443/static/documents/gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf) | gsa.gov | 2021-03-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | — | — |
+| [gsa-cio-cloud-success-story.pdf](https://cic.gsa.gov:443/static/documents/gsa-cio-cloud-success-story.pdf) | gsa.gov *(ext: cic.gsa.gov:443)* | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | — | — |
+| [gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles-0.pdf](https://cic.gsa.gov:443/static/documents/gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf) | gsa.gov *(ext: cic.gsa.gov:443)* | 2021-03-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | — | — |
 | [gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf](https://cic.gsa.gov/static/documents/gsa-ogp-aa-2021-02-ramping-strategies-multiple-award-vehicles.pdf) | gsa.gov | 2021-03-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 8 | — | — |
 | [how-much-agency-bic-contracts.pdf](https://itvmo.gsa.gov/assets/files/tlr/how-much-agency-bic-contracts.pdf) | gsa.gov | 2022-02-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | — | — |
 | [ipa-toolkit-oes.pdf](https://oes.gsa.gov/assets/files/ipa-toolkit-oes.pdf) | gsa.gov | 2024-11-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | — | — |
-| [key-cost-considerations-agencies-planning-cloud-migrations-0.pdf](https://cic.gsa.gov:443/static/documents/key-cost-considerations-agencies-planning-cloud-migrations.pdf) | gsa.gov | 2018-01-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 20 | — | — |
+| [key-cost-considerations-agencies-planning-cloud-migrations-0.pdf](https://cic.gsa.gov:443/static/documents/key-cost-considerations-agencies-planning-cloud-migrations.pdf) | gsa.gov *(ext: cic.gsa.gov:443)* | 2018-01-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 20 | — | — |
 | [key-cost-considerations-agencies-planning-cloud-migrations.pdf](https://cic.gsa.gov/static/documents/key-cost-considerations-agencies-planning-cloud-migrations.pdf) | gsa.gov | 2018-01-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 20 | — | — |
 | [leading-edge-tech-report-2022.pdf](https://itvmo.gsa.gov/assets/files/tlr/leading-edge-tech-report-2022.pdf) | gsa.gov | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 40 | — | — |
 | [leading-edge-tech-report-2023.pdf](https://itvmo.gsa.gov/assets/files/tlr/leading-edge-tech-report-2023.pdf) | gsa.gov | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 41 | — | — |
-| [lmi-boc-customer-presentation-gsa-0.pdf](https://cic.gsa.gov:443/static/documents/lmi-boc-customer-presentation-gsa.pdf) | gsa.gov | 2020-05-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | — | — |
+| [lmi-boc-customer-presentation-gsa-0.pdf](https://cic.gsa.gov:443/static/documents/lmi-boc-customer-presentation-gsa.pdf) | gsa.gov *(ext: cic.gsa.gov:443)* | 2020-05-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | — | — |
 | [lmi-boc-customer-presentation-gsa.pdf](https://cic.gsa.gov/static/documents/lmi-boc-customer-presentation-gsa.pdf) | gsa.gov | 2020-05-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | — | — |
 | [managing-gsa-smartpay-purchase.pdf](https://smartpay.gsa.gov/files/managing-gsa-smartpay-purchase.pdf) | gsa.gov | 2019-11-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 52 | — | — |
 | [multiple-comparison-adjustment.pdf](https://oes.gsa.gov/assets/files/multiple-comparison-adjustment.pdf) | gsa.gov | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | — | — |
@@ -1139,7 +1139,7 @@ Generated: 2026-03-26T12:40:58.276581+00:00
 | [mnr-febb-growing-green-economy-future-fr-2025-12-09.pdf](https://www.ontario.ca/files/2025-12/mnr-febb-growing-green-economy-future-fr-2025-12-09.pdf) | ontario.ca | 2025-11-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 37 | — | — |
 | [mnr-fmz10-tipsheet-2024-fr.pdf](https://www.ontario.ca/files/2024-07/mnr-fmz10-tipsheet-2024-fr.pdf) | ontario.ca | 2024-07-17 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | — | — |
 | [mnr-rabies-vaccine-bait-identification-en-2025-14-04.pdf](https://www.ontario.ca/files/2025-04/mnr-rabies-vaccine-bait-identification-en-2025-14-04.pdf) | ontario.ca | 2025-05-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | — | — |
-| [mnr-rabies-vaccine-bait-identification-fr-2025-14-04-0.pdf](https://www.ontario.ca:443/files/2025-04/mnr-rabies-vaccine-bait-identification-fr-2025-14-04.pdf) | ontario.ca | 2025-05-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | — | — |
+| [mnr-rabies-vaccine-bait-identification-fr-2025-14-04-0.pdf](https://www.ontario.ca:443/files/2025-04/mnr-rabies-vaccine-bait-identification-fr-2025-14-04.pdf) | ontario.ca *(ext: ontario.ca:443)* | 2025-05-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | — | — |
 | [mnr-rabies-vaccine-bait-identification-fr-2025-14-04.pdf](https://www.ontario.ca/files/2025-04/mnr-rabies-vaccine-bait-identification-fr-2025-14-04.pdf) | ontario.ca | 2025-05-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | — | — |
 | [mnrf-fisheries-management-zone-05-fr-2023-12-07.pdf](https://www.ontario.ca/files/2023-12/mnrf-fisheries-management-zone-05-fr-2023-12-07.pdf) | ontario.ca | 2023-12-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | — | — |
 | [mnrf-fisheries-management-zone-06-fr-2023-12-07.pdf](https://www.ontario.ca/files/2023-12/mnrf-fisheries-management-zone-06-fr-2023-12-07.pdf) | ontario.ca | 2023-12-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | — | — |
