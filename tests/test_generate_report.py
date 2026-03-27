@@ -10,6 +10,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from generate_report import (
+    _external_domain,
     _summary_stats,
     generate_csv,
     generate_html,
@@ -250,6 +251,143 @@ def test_issue_comment_truncates_large_lists():
         max_files=10,
     )
     assert "more PDFs" in comment
+
+
+# ---------------------------------------------------------------------------
+# _external_domain helper
+# ---------------------------------------------------------------------------
+
+def test_external_domain_same_site_returns_empty():
+    """PDF hosted on the seed site must return an empty string."""
+    entry = _make_entry("https://example.com/doc.pdf", site="example.com")
+    assert _external_domain(entry) == ""
+
+
+def test_external_domain_subdomain_returns_empty():
+    """A subdomain of the seed site is not considered external."""
+    entry = _make_entry("https://files.example.com/doc.pdf", site="example.com")
+    assert _external_domain(entry) == ""
+
+
+def test_external_domain_different_host_returns_hostname():
+    """A PDF on a completely different host must return that host."""
+    entry = _make_entry("https://cdn.othergov.org/doc.pdf", site="example.com")
+    assert _external_domain(entry) == "cdn.othergov.org"
+
+
+def test_external_domain_strips_www():
+    """www. is stripped from both the PDF host and the seed site for comparison."""
+    entry = _make_entry("https://www.example.com/doc.pdf", site="example.com")
+    assert _external_domain(entry) == ""
+
+
+def test_external_domain_missing_fields_returns_empty():
+    """Missing url or site fields must return an empty string (no crash)."""
+    assert _external_domain({}) == ""
+    assert _external_domain({"url": "https://a.com/f.pdf"}) == ""
+    assert _external_domain({"site": "a.com"}) == ""
+
+
+# ---------------------------------------------------------------------------
+# External domain indication – Markdown, CSV, issue comment, HTML
+# ---------------------------------------------------------------------------
+
+def _make_external_entry():
+    """Return an analysed entry where the PDF is hosted on an external domain."""
+    entry = _make_entry("https://cdn.othergov.org/annual-report.pdf", site="gov.ca")
+    return entry
+
+
+def test_generate_markdown_shows_ext_indicator_for_external_pdf():
+    """Markdown file table must show '*(ext: …)*' in the Site column for external PDFs."""
+    entry = _make_external_entry()
+    stats = _summary_stats([entry])
+    md = generate_markdown([entry], stats)
+    assert "ext: cdn.othergov.org" in md
+
+
+def test_generate_markdown_no_ext_indicator_for_same_site_pdf():
+    """No '*(ext: …)*' must appear when the PDF is on the seed site."""
+    entry = _make_entry("https://example.com/doc.pdf", site="example.com")
+    stats = _summary_stats([entry])
+    md = generate_markdown([entry], stats)
+    assert "ext:" not in md
+
+
+def test_generate_csv_has_external_domain_column():
+    """CSV must include an 'external_domain' column."""
+    entry = _make_external_entry()
+    csv_text = generate_csv([entry])
+    assert "external_domain" in csv_text.splitlines()[0]
+
+
+def test_generate_csv_external_domain_populated_for_external_pdf():
+    """CSV external_domain field must contain the external host for external PDFs."""
+    entry = _make_external_entry()
+    csv_text = generate_csv([entry])
+    lines = csv_text.splitlines()
+    header = lines[0].split(",")
+    col_idx = header.index("external_domain")
+    row = lines[1].split(",")
+    assert row[col_idx] == "cdn.othergov.org"
+
+
+def test_generate_csv_external_domain_empty_for_same_site_pdf():
+    """CSV external_domain field must be empty when the PDF is on the seed site."""
+    entry = _make_entry("https://example.com/doc.pdf", site="example.com")
+    csv_text = generate_csv([entry])
+    lines = csv_text.splitlines()
+    header = lines[0].split(",")
+    col_idx = header.index("external_domain")
+    row = lines[1].split(",")
+    assert row[col_idx] == ""
+
+
+def test_issue_comment_shows_ext_label_for_external_pdf():
+    """Issue comment PDF table must include '*(ext: …)*' for externally hosted PDFs."""
+    entry = _make_external_entry()
+    comment = generate_issue_comment(
+        [entry],
+        crawl_url="https://gov.ca",
+        pages_base="",
+        run_url="",
+    )
+    assert "ext: cdn.othergov.org" in comment
+
+
+def test_issue_comment_no_ext_label_for_same_site_pdf():
+    """No '*(ext: …)*' must appear in issue comment when the PDF is on the seed site."""
+    entry = _make_entry("https://example.com/doc.pdf", site="example.com")
+    comment = generate_issue_comment(
+        [entry],
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+    )
+    assert "ext:" not in comment
+
+
+def test_issue_comment_zero_pdfs_mentions_external_hosting():
+    """The 'no PDFs found' diagnostic must mention external hosting instead of 'Different subdomain'."""
+    comment = generate_issue_comment(
+        [],
+        crawl_url="https://example.com",
+        pages_base="https://owner.github.io/repo",
+        run_url="https://github.com/owner/repo/actions/runs/1",
+        pages_crawled=5,
+    )
+    assert "External hosting" in comment
+    assert "Different subdomain" not in comment
+
+
+def test_generate_html_buildrow_has_external_domain_js():
+    """HTML report's buildRow JS function must compute and display the external domain."""
+    entry = _make_external_entry()
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    # The JS must contain the extDomain logic
+    assert "extDomain" in html
+    assert "no_follow" not in html  # spider meta – must not leak into HTML report
 
 
 # ---------------------------------------------------------------------------

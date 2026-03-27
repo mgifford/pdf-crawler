@@ -22,6 +22,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
+from urllib.parse import urlparse
 
 import yaml
 
@@ -48,6 +49,31 @@ def _fmt(value) -> str:
     if value == "Fail":
         return _FAIL
     return str(value)
+
+
+def _external_domain(entry: Dict[str, Any]) -> str:
+    """Return the PDF's host domain when it differs from the seed site, else ''.
+
+    A subdomain of the seed site (e.g. ``files.example.com`` when the seed is
+    ``example.com``) is not considered external.  Only a completely different
+    hostname triggers a non-empty return value.
+
+    Args:
+        entry: A manifest entry dict with ``url`` and ``site`` keys.
+
+    Returns:
+        The PDF's hostname (without ``www.``) when it is an external domain,
+        or an empty string when the PDF is hosted on the seed site.
+    """
+    url = entry.get("url", "")
+    site = entry.get("site", "")
+    if not url or not site:
+        return ""
+    pdf_host = urlparse(url).netloc.lower().removeprefix("www.")
+    seed = site.lower().removeprefix("www.")
+    if not pdf_host or pdf_host == seed or pdf_host.endswith("." + seed):
+        return ""
+    return pdf_host
 
 
 def _summary_stats(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
@@ -158,11 +184,13 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
         url = e.get("url", "")
         filename = e.get("filename", url)
         site = e.get("site", "")
+        ext_domain = _external_domain(e)
+        site_str = f"{site} *(ext: {ext_domain})*" if ext_domain else site
         date_val = r.get("Date")
         date_str = str(date_val)[:10] if date_val else _NA
         rows.append(
             f"| [{filename}]({url}) "
-            f"| {site} "
+            f"| {site_str} "
             f"| {date_str} "
             f"| {_fmt(r.get('Accessible'))} "
             f"| {_fmt(r.get('TaggedTest'))} "
@@ -213,6 +241,7 @@ _CSV_COLUMNS = [
     "url",
     "filename",
     "site",
+    "external_domain",
     "status",
     "crawled_at",
     "published_date",
@@ -252,6 +281,7 @@ def generate_csv(entries: List[Dict[str, Any]]) -> str:
                 "url": e.get("url", ""),
                 "filename": e.get("filename", ""),
                 "site": e.get("site", ""),
+                "external_domain": _external_domain(e),
                 "status": e.get("status", ""),
                 "crawled_at": e.get("crawled_at", ""),
                 "published_date": r.get("Date", ""),
@@ -367,7 +397,7 @@ def generate_issue_comment(
                 ">",
                 "> - **JavaScript navigation** – PDFs linked only via JavaScript menus or dynamic content cannot be followed by the crawler.",
                 "> - **Robots.txt restrictions** – the site may restrict crawler access to sections that contain PDFs.",
-                "> - **Different subdomain** – PDFs hosted on another subdomain (e.g. `files.example.com`) are out of scope.",
+                "> - **External hosting** – PDFs served without a `.pdf` extension on a different domain may not be discovered. PDFs with a `.pdf` file extension on any domain are always followed.",
                 "> - **Deeper pages** – try submitting a more specific starting URL (e.g. a `/documents` or `/resources` sub-page).",
                 ">",
                 f"> Review the [Crawled URLs]({pages_base}/reports/crawled_urls.csv) to see which pages were visited,",
@@ -386,10 +416,14 @@ def generate_issue_comment(
             r = e.get("report") or {}
             url = e.get("url", "")
             filename = e.get("filename", url.split("/")[-1])
+            ext_domain = _external_domain(e)
+            file_cell = f"[{filename}]({url})"
+            if ext_domain:
+                file_cell += f" *(ext: {ext_domain})*"
             words = r.get("Words")
             images = r.get("Images")
             lines.append(
-                f"| [{filename}]({url})"
+                f"| {file_cell}"
                 f" | {_icon(r.get('Accessible'))}"
                 f" | {_icon(r.get('TaggedTest'))}"
                 f" | {_icon(r.get('TitleTest'))}"
@@ -704,9 +738,21 @@ _HTML_TEMPLATE = """\
           var dm = String(r.Date).match(/^(\\d{{4}}-\\d{{2}}-\\d{{2}})/);
           dateStr = dm ? dm[1] : String(r.Date);
         }}
+        var extDomain = '';
+        try {{
+          var pdfHost = new URL(f.url).hostname.replace(/^www\\./, '');
+          var seed = (f.site || '').replace(/^www\\./, '');
+          if (pdfHost && seed && pdfHost !== seed && !pdfHost.endsWith('.' + seed)) {{
+            extDomain = pdfHost;
+          }}
+        }} catch (e) {{}}
+        var siteCell = esc(f.site || '');
+        if (extDomain) {{
+          siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
+        }}
         return '<tr>' +
           '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
-          '<td>' + esc(f.site || '') + '</td>' +
+          '<td>' + siteCell + '</td>' +
           '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
           '<td>' + icon(r.Accessible)    + '</td>' +
           '<td>' + icon(r.TaggedTest)    + '</td>' +

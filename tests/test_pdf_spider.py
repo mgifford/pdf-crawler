@@ -416,14 +416,26 @@ def test_offsite_middleware_disabled():
 # ---------------------------------------------------------------------------
 
 
-def _make_html_response(page_url, html_body):
-    """Return a real Scrapy HtmlResponse for use in parse() tests."""
-    from scrapy.http import HtmlResponse
+def _make_html_response(page_url, html_body, meta=None):
+    """Return a real Scrapy HtmlResponse for use in parse() tests.
 
+    Attaches a synthetic Request so that ``response.meta`` is accessible,
+    matching what Scrapy does when a response is received for an actual
+    in-flight request.
+
+    Args:
+        page_url: The URL the response came from.
+        html_body: HTML string for the response body.
+        meta: Optional dict to set as the request meta (e.g. {"no_follow": True}).
+    """
+    from scrapy.http import HtmlResponse, Request as ScrapyRequest
+
+    req = ScrapyRequest(page_url, meta=meta or {})
     return HtmlResponse(
         url=page_url,
         body=html_body.encode("utf-8"),
         encoding="utf-8",
+        request=req,
     )
 
 
@@ -445,10 +457,11 @@ def test_parse_cross_domain_pdf_is_downloaded():
 
 
 def test_parse_cross_domain_html_not_followed():
-    """parse() must NOT yield a follow Request for an HTML page on a different domain."""
+    """parse() must NOT yield a follow Request for an HTML page (with .html extension) on a different domain."""
     spider = _make_spider("/tmp")
     page_url = "https://example.com/page"
-    offsite_url = "https://other.com/another-page"
+    # URL with a .html extension on an external domain → must be skipped
+    offsite_url = "https://other.com/another-page.html"
     html = f'<html><body><a href="{offsite_url}">Other site</a></body></html>'
 
     response = _make_html_response(page_url, html)
@@ -456,6 +469,74 @@ def test_parse_cross_domain_html_not_followed():
 
     assert requests == [], (
         f"Expected no requests for off-site HTML link, got {requests}"
+    )
+
+
+def test_parse_cross_domain_extensionless_link_yields_potential_pdf_request():
+    """parse() must yield a parse Request for an extensionless link on an external domain.
+
+    Government CMS platforms (e.g. CivicPlus, Drupal, SharePoint) often serve
+    PDF documents through paths without a .pdf extension such as
+    /DocumentCenter/View/1234 or /download/annual-report.  When such a link is
+    found on the seed domain but points to an external host, the spider must
+    fetch it to check the Content-Type header (the response may be a PDF).
+    """
+    spider = _make_spider("/tmp")
+    page_url = "https://example.com/publications"
+    # Extensionless URL on an external domain – no .pdf, no .html suffix
+    offsite_cms_url = "https://cdn.othergov.org/DocumentCenter/View/1234"
+    html = f'<html><body><a href="{offsite_cms_url}">Download Report</a></body></html>'
+
+    response = _make_html_response(page_url, html)
+    requests = list(spider.parse(response))
+
+    assert len(requests) == 1, f"Expected 1 potential-PDF request, got {len(requests)}"
+    req = requests[0]
+    assert isinstance(req, ScrapyRequest)
+    assert req.url == offsite_cms_url
+    assert req.callback == spider.parse
+    assert req.meta.get("no_follow") is True
+    assert req.meta.get("referer") == page_url
+
+
+def test_parse_cross_domain_extensionless_link_pdf_is_saved(tmp_path):
+    """PDF returned for an extensionless external-domain fetch must be saved.
+
+    The no_follow request yields a non-HTML response with Content-Type
+    application/pdf; parse() must detect it and call save_pdf().
+    """
+    spider = _make_spider(tmp_path)
+    cms_pdf_url = "https://cdn.othergov.org/DocumentCenter/View/1234"
+    referer_page = "https://example.com/publications"
+    response = _make_binary_response(
+        cms_pdf_url,
+        meta={"referer": referer_page, "no_follow": True},
+    )
+    list(spider.parse(response))
+
+    site_dir = tmp_path / "example.com"
+    pdf_files = [f for f in site_dir.iterdir() if f.suffix == ".pdf"]
+    assert len(pdf_files) == 1, (
+        f"Expected 1 saved PDF for external-domain CMS URL, got {[f.name for f in site_dir.iterdir()]}"
+    )
+
+
+def test_parse_no_follow_html_response_is_ignored():
+    """parse() must not follow links when the response has no_follow=True in meta.
+
+    When an external URL fetched as a potential PDF returns an HTML page, the
+    spider must not crawl that external site's links.
+    """
+    spider = _make_spider("/tmp")
+    ext_url = "https://other.com/some-page"
+    html = '<html><body><a href="https://other.com/linked-page">link</a></body></html>'
+
+    # Simulate the response that would come back for a no_follow=True request
+    response = _make_html_response(ext_url, html, meta={"no_follow": True})
+    requests = list(spider.parse(response))
+
+    assert requests == [], (
+        f"Expected no requests when no_follow=True (got {requests})"
     )
 
 

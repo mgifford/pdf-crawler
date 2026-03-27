@@ -193,6 +193,12 @@ class PdfA11ySpider(scrapy.Spider):
                 self.save_pdf(response, referer=referer)
             return
 
+        # Responses fetched solely to check whether an external URL serves a
+        # PDF (requested with no_follow=True) must not have their links
+        # followed.  The response is HTML (not a PDF), so just return.
+        if response.meta.get("no_follow"):
+            return
+
         print(f"Crawling: {response.url}", flush=True)
         self._crawled_pages.append(response.url)
 
@@ -221,7 +227,29 @@ class PdfA11ySpider(scrapy.Spider):
                 if "recherche" in path_lower or "search" in path_lower:
                     self.logger.info("Skipping search page: %s", full_link)
                 elif not self._is_allowed_domain(full_link):
-                    self.logger.info("Skipping off-site page: %s", full_link)
+                    # External domain: if the path has no file extension it
+                    # may be a CMS-served PDF (e.g. /DocumentCenter/View/1234).
+                    # Fetch it to check the Content-Type; parse() will save it
+                    # if the response is application/pdf.  Set no_follow=True
+                    # so that the external site's link graph is not crawled.
+                    _, ext = os.path.splitext(path.lower())
+                    if not ext:
+                        self.logger.info(
+                            "Fetching potential off-site PDF: %s", full_link
+                        )
+                        print(
+                            f"  Fetching potential off-site PDF: {full_link}",
+                            flush=True,
+                        )
+                        yield Request(
+                            full_link,
+                            callback=self.parse,
+                            errback=self.handle_error,
+                            headers={"User-Agent": self._random_ua()},
+                            meta={"referer": response.url, "no_follow": True},
+                        )
+                    else:
+                        self.logger.info("Skipping off-site page: %s", full_link)
                 else:
                     yield response.follow(
                         link, self.parse, errback=self.handle_error,
