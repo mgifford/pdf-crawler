@@ -8,7 +8,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from manifest import build_entry, mark_analysed, pending_entries
-from pdf_analyser import main as analyser_main
+from pdf_analyser import main as analyser_main, STALE_COUNT_FILE
 
 
 # ---------------------------------------------------------------------------
@@ -312,6 +312,100 @@ def test_max_age_days_marks_old_entry_as_stale(tmp_path, capsys):
 
     out = capsys.readouterr().out
     assert "stale" in out.lower()
+
+
+def test_main_returns_stale_count(tmp_path):
+    """main() should return the number of stale entries found."""
+    from manifest import save_manifest
+    from datetime import datetime, timezone, timedelta
+
+    old_date = (datetime.now(timezone.utc) - timedelta(days=10)).isoformat()
+    entries = [
+        _pending_entry_no_file("https://a.com/old1.pdf", "a.com", old_date),
+        _pending_entry_no_file("https://a.com/old2.pdf", "a.com", old_date),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    result = analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_age_days=7,
+    )
+
+    assert result == 2, f"Expected stale_count=2, got {result}"
+
+
+def test_main_returns_zero_stale_when_no_max_age_days(tmp_path):
+    """main() should return 0 when max_age_days is not set (stale detection disabled)."""
+    from manifest import save_manifest
+
+    entries = [
+        _pending_entry_no_file("https://a.com/old.pdf", "a.com", "2020-01-01T00:00:00+00:00"),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    result = analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+    )
+
+    assert result == 0, f"Expected stale_count=0 when max_age_days not set, got {result}"
+
+
+def test_main_returns_zero_stale_when_all_fresh(tmp_path):
+    """main() should return 0 when all pending entries have local files present."""
+    from manifest import save_manifest
+
+    entries = [
+        _pending_entry("https://a.com/doc.pdf", "a.com", tmp_path),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    result = analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_age_days=2,
+    )
+
+    assert result == 0, f"Expected stale_count=0 when files are present, got {result}"
+
+
+def test_stale_count_written_to_file(tmp_path):
+    """main() writes the stale count to STALE_COUNT_FILE."""
+    import pathlib
+    from manifest import save_manifest
+    from datetime import datetime, timezone, timedelta
+
+    old_date = (datetime.now(timezone.utc) - timedelta(days=10)).isoformat()
+    entries = [
+        _pending_entry_no_file("https://a.com/old.pdf", "a.com", old_date),
+        _pending_entry_no_file("https://a.com/old2.pdf", "a.com", old_date),
+        _pending_entry_no_file("https://a.com/old3.pdf", "a.com", old_date),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    # Remove the file before the call so we know any existing value is replaced.
+    pathlib.Path(STALE_COUNT_FILE).unlink(missing_ok=True)
+
+    analyser_main(
+        manifest_path=str(manifest_path),
+        crawled_dir=str(tmp_path),
+        keep_files=True,
+        max_age_days=7,
+    )
+
+    stale_file = pathlib.Path(STALE_COUNT_FILE)
+    assert stale_file.exists(), f"{STALE_COUNT_FILE} should be written"
+    assert stale_file.read_text().strip() == "3", (
+        f"Expected '3' in stale file, got {stale_file.read_text().strip()!r}"
+    )
 
 
 def test_max_age_days_recent_entry_keeps_normal_message(tmp_path, capsys):
