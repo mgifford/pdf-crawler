@@ -1,16 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-26T12:40:58.276581+00:00
+Generated: 2026-03-27T10:45:12.531333+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 463 |
-| Total files tracked | 18025 |
+| Total files tracked | 18140 |
 | Analysed | 4917 |
-| Pending analysis | 10866 |
-| Errors during analysis | 2242 |
+| Pending analysis | 10767 |
+| Errors during analysis | 2456 |
 | Accessible | 1442 |
 | Totally inaccessible | 170 |
 | Broken / unreadable | 5 |
@@ -65,7 +64,7 @@ Generated: 2026-03-26T12:40:58.276581+00:00
 | ppboces.org | 34 |
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
-| slvboces.org | 614 |
+| slvboces.org | 729 |
 | smallpdf.com | 2 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
@@ -15078,6 +15077,1290 @@ Generated: 2026-03-26T12:40:58.276581+00:00
 - **URL**: https://www.ed.gov/media/document/fy-2025-fipse-sp-awards-funding-summary-artificial-intelligence-112926.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.617602+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-fipse-sp-awards-funding-summary-civil-discourse-112925.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-fipse-sp-awards-funding-summary-civil-discourse-112925.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.621532+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-fipse-sp-awards-funding-summary-short-term-programs-112923.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-fipse-sp-awards-funding-summary-short-term-programs-112923.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.625541+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-fipse-sp-pre-application-technical-assistance-webinar-slides-112481.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-fipse-sp-pre-application-technical-assistance-webinar-slides-112481.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.630803+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-fipse-sp-pre-application-technical-assistance-webinar-transcript-112483.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-fipse-sp-pre-application-technical-assistance-webinar-transcript-112483.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.631240+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-fipse-special-projects-program-application-booklet-november-7-2025-112457.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-fipse-special-projects-program-application-booklet-november-7-2025-112457.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.632576+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-alabama-112354.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-alabama-112354.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.634313+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-alaska-112353.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-alaska-112353.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.635895+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-american-samoa-112356.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-american-samoa-112356.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.637624+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-arizona-112459.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-arizona-112459.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.638652+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-arkansas-112355.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-arkansas-112355.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.640398+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-bureau-of-indian-education-112357.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-bureau-of-indian-education-112357.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.641606+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-california-112367.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-california-112367.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.643374+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-colorado-112369.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-colorado-112369.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.646775+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-delaware-112371.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-delaware-112371.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.648507+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-district-of-columbia-112370.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-district-of-columbia-112370.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.650424+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-florida-112452.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-florida-112452.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.651746+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-georgia-112454.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-georgia-112454.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.653517+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-guam-112455.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-guam-112455.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.657394+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-idaho-112671.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-idaho-112671.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.663460+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-grant-award-letter-illinois-112672.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-grant-award-letter-illinois-112672.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.665345+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-indiana-113198.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-indiana-113198.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.666796+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-kansas-113199.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-kansas-113199.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.669116+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-kentucky-113200.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-kentucky-113200.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.670488+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-louisiana-113201.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-louisiana-113201.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.671866+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-maine-113204.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-maine-113204.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.673752+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-maryland-113203.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-maryland-113203.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.675523+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-massachusetts-113202.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-massachusetts-113202.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.676820+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-michigan-113316.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-michigan-113316.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.678143+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-minnesota-113317.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-minnesota-113317.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.679517+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-mississippi-113319.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-mississippi-113319.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.681976+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-missouri-113318.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-missouri-113318.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.685048+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-part-b-grant-award-letter-montana-113320.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-part-b-grant-award-letter-montana-113320.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.686933+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-sbmh-abstracts-updated-12232025-112897.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-sbmh-abstracts-updated-12232025-112897.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.687331+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2025-sbmh-notice-of-final-priorities-112448.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2025-sbmh-notice-of-final-priorities-112448.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.687900+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-american-printing-house-blind-110138.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-american-printing-house-blind-110138.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.688496+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-career-technical-and-adult-education-110142.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-career-technical-and-adult-education-110142.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.689608+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-college-housing-and-academic-facilities-loans-110118.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-college-housing-and-academic-facilities-loans-110118.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.690095+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-education-disadvantaged-110143.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-education-disadvantaged-110143.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.691749+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-english-language-acquisition-110146.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-english-language-acquisition-110146.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.692404+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-gallaudet-university-110136.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-gallaudet-university-110136.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.692990+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-general-provisions-110148.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-general-provisions-110148.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.693492+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-hbcu-capital-financing-110140.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-hbcu-capital-financing-110140.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.694051+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-higher-education-110154.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-higher-education-110154.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.696389+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-howard-university-110139.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-howard-university-110139.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.697004+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-impact-aid-110144.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-impact-aid-110144.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.698044+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-indian-education-110157.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-indian-education-110157.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.698960+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-innovation-and-improvement-110147.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-innovation-and-improvement-110147.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.700182+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-institute-of-education-sciences-110173.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-institute-of-education-sciences-110173.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.701284+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-national-technical-institute-deaf-110137.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-national-technical-institute-deaf-110137.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.701800+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-office-civil-rights-110171.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-office-civil-rights-110171.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.702533+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-office-of-inspector-general-110246.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-office-of-inspector-general-110246.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.704916+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-program-administration-110177.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-program-administration-110177.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.705729+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-rehabilitation-services-110156.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-rehabilitation-services-110156.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.707346+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-safe-schools-and-citizenship-education-110153.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-safe-schools-and-citizenship-education-110153.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.708291+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-salaries-and-expenses-overview-110247.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-salaries-and-expenses-overview-110247.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.711574+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-school-improvement-programs-110158.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-school-improvement-programs-110158.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.713390+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-special-education-110159.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-special-education-110159.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.715122+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-student-aid-administration-110176.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-student-aid-administration-110176.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.716361+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-student-aid-overview-110116.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-student-aid-overview-110116.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.716864+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-congressional-justification-student-financial-assistance-110145.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-congressional-justification-student-financial-assistance-110145.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.717956+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2026-presidents-budget-request-110152.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy-2026-presidents-budget-request-110152.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.718433+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy09kswaiveramend6-30-10.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/speced/guid/idea/monitor/fy09kswaiveramend6-30-10.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.721357+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2020sbmhabstracts-112888.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy2020sbmhabstracts-112888.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.721706+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2021-ncitspsd-abstract.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/ncitspsd/fy2021-ncitspsd-abstract.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.721886+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2021-ppsid-abstract.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/ppsid-ntad/fy2021-ppsid-abstract.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.722066+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2021-ppsid-ntad-webinar.pptx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/ppsid-ntad/fy2021-ppsid-ntad-webinar.pptx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.723102+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2021cevssabstractsforwebpage92822.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/cevss/fy2021cevssabstractsforwebpage92822.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.723325+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2021cevssnewawardsforwebpage92822.xlsx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/cevss/fy2021cevssnewawardsforwebpage92822.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.723493+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2021sbmhabstract-112887.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy2021sbmhabstract-112887.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.723797+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2022cevssabstractsforwebpage92722.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/cevss/fy2022cevssabstractsforwebpage92722.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.724011+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2022cevssnewawardsforwebpage92722.xlsx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/cevss/fy2022cevssnewawardsforwebpage92722.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.724173+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2022fipseopentextbookspilotfaqs.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/otp/fy2022fipseopentextbookspilotfaqs.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.724378+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2022sbmhabstracts-112886.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy2022sbmhabstracts-112886.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.725051+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2023-cevss-abstracts.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/cevss/fy2023-cevss-abstracts.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.725287+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2023-cevss-new-awards.xlsx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/cevss/fy2023-cevss-new-awards.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.725462+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2023-cfcp-ta-preapp-webinar.pptx
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/offices/list/ope/earmark/fy2023-cfcp-ta-preapp-webinar.pptx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.729064+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2023-msp-abstracts-absolute-priority-1.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/msp/fy2023-msp-abstracts-absolute-priority-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.729522+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2023-msp-abstracts-absolute-priority-2.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/msp/fy2023-msp-abstracts-absolute-priority-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.730009+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2023-msp-new-awards.xlsx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/msp/fy2023-msp-new-awards.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.730173+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2023-otp-preapplication-webinar.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/otp/fy2023-otp-preapplication-webinar.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.738698+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-cevss-preapp-webinar.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/cevss/fy2024-cevss-preapp-webinar.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.740591+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-cfcp-faqsapril-2024for-edgov-postingdocx-17042.docx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-cfcp-faqsapril-2024for-edgov-postingdocx-17042.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.740835+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-cfcp-ta-preapp-webinar.pptx
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/offices/list/ope/earmark/fy2024-cfcp-ta-preapp-webinar.pptx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.744450+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-alabama-109623.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-alabama-109623.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.744645+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-alaska-109624.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-alaska-109624.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.744829+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-arizona-109625.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-arizona-109625.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.745026+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-arkansas-109626.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-arkansas-109626.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.745222+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-california-109627.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-california-109627.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.745478+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-colorado-109628.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-colorado-109628.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.745671+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-connecticut-109629.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-connecticut-109629.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.745861+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-dc-109630.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-dc-109630.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.746082+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-delaware-109631.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-delaware-109631.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.746281+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-florida-109632.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-florida-109632.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.746470+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-georgia-109633.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-georgia-109633.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.746663+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-hawaii-109634.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-hawaii-109634.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.746843+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-idaho-109635.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-idaho-109635.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.747030+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-illinois-109636.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-illinois-109636.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.747382+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-indiana-109637.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-indiana-109637.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.747666+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-iowa-109638.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-iowa-109638.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.747933+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-kansas-109639.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-kansas-109639.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.748144+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-kentucky-109640.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-kentucky-109640.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.748370+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-louisiana-109641.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-louisiana-109641.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.748562+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-maine-109642.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-maine-109642.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.748761+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-maryland-109643.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-maryland-109643.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.748944+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-massachusetts-109644.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-massachusetts-109644.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.749145+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-michigan-109645.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-michigan-109645.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.749383+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-minnesota-109646.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-minnesota-109646.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.749589+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-mississippi-109647.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-mississippi-109647.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.749781+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-missouri-109648.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-missouri-109648.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.749997+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-montana-109649.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-montana-109649.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.750203+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-nebraska-109650.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-nebraska-109650.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.750416+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-nevada-109651.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-nevada-109651.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.750600+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-new-jersey-109653.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-new-jersey-109653.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.750821+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-new-mexico-109654.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-new-mexico-109654.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.751009+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-new-york-109655.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-new-york-109655.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.751236+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-nh-109652.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-nh-109652.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.751454+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-north-carolina-109656.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-north-carolina-109656.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.751647+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-north-dakota-109657.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-north-dakota-109657.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.751841+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-ohio-109658.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-ohio-109658.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.752061+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-oklahoma-109659.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-oklahoma-109659.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.752290+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-oregon-109660.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-oregon-109660.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.752488+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-pennsylvania-109661.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-pennsylvania-109661.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.752702+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-puerto-rico-109662.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-puerto-rico-109662.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.752883+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-rhode-island-109663.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-rhode-island-109663.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.753069+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-south-carolina-109664.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-south-carolina-109664.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.753256+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-south-dakota-109665.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-south-dakota-109665.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.753468+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-tennessee-109666.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-tennessee-109666.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.753660+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-texas-109667.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-texas-109667.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.753906+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-utah-109668.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-utah-109668.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.754100+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-vermont-109669.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-vermont-109669.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.754310+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-virginia-109674.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-virginia-109674.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.754513+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-washington-109670.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-washington-109670.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.754719+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-west-virginia-109671.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-west-virginia-109671.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.754906+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-wisconsin-109672.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-wisconsin-109672.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.755118+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024-esea-title-1-tables-wyoming-109673.xlsx
+
+- **URL**: https://www.ed.gov/media/document/fy2024-esea-title-1-tables-wyoming-109673.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.755320+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2024sbmhabstracts-112885.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy2024sbmhabstracts-112885.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.755819+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2025-csp-cmo-pre-application-competition-budgets-webinar-slide-deck-110078.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy2025-csp-cmo-pre-application-competition-budgets-webinar-slide-deck-110078.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.759906+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy2025-csp-cmo-pre-application-competition-webinar-transcript-110076.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy2025-csp-cmo-pre-application-competition-webinar-transcript-110076.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.760367+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy22-application-congressionally-directed-awardspdf-36076.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy22-application-congressionally-directed-awardspdf-36076.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.761310+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy22-ed-earmarks-jespdf-12173.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy22-ed-earmarks-jespdf-12173.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.761629+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy22-msp-new-awards.xlsx
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/msp/fy22-msp-new-awards.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.761796+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy23-congressionally-funded-community-proj-app-instpdf-36077.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy23-congressionally-funded-community-proj-app-instpdf-36077.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.762906+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy23-earmark-grant-applicant-webinar-slidespdf-14165.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy23-earmark-grant-applicant-webinar-slidespdf-14165.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.764842+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy23-earmarks-jespdf-13961.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy23-earmarks-jespdf-13961.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.792257+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy25-84325k-osep-webinar-slide-deck-110060.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy25-84325k-osep-webinar-slide-deck-110060.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.793735+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy26-department-of-education-procurement-forecast-of-january-7-2026-112986.pdf
+
+- **URL**: https://www.ed.gov/media/document/fy26-department-of-education-procurement-forecast-of-january-7-2026-112986.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.794212+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### g-ela-0.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget22/justifications/g-ela.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.794840+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### g-ela-1.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget20/justifications/g-ela.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.795254+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### g-ela.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget23/justifications/g-ela.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.795886+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### g-ii-0.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget25/justifications/g-ii.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.797346+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### g-ii.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget21/justifications/g-ii.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.798676+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### g-ssce.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget24/justifications/g-ssce.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.799742+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ga-2021b-letter-enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2021partb/ga-2021b-letter-enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.800836+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ga-2022b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2022partb/ga-2022b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.802307+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ga-2022c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2022partc/ga-2022c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.803354+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ga-2023b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2023partb/ga-2023b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.804776+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ga-2023c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2023partc/ga-2023c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.806424+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ga-2024b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/2024-11/ga-2024b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.807470+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ga-2024c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/2024-11/ga-2024c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.808689+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ga-poa-waiver-part-b-2020.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/speced/guid/idea/monitor/poa-waivers/2020/ga-poa-waiver-part-b-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.809376+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ga-sigdispro-2020.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/speced/guid/idea/monitor/sig-dispro-reports/part-b/2020/ga-sigdispro-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.814161+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### geagenda.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/geagenda.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.814354+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gealgorithum.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gealgorithum.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.814759+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gecommentmatsudaira.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gecommentmatsudaira.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.814942+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gedatasheetsaoutliers.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gedatasheetsaoutliers.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.815454+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gedraftprotocols.doc
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gedraftprotocols.doc
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.815664+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gemarcjeromeexcelchartsscorrecardsummary.xlsx
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gemarcjeromeexcelchartsscorrecardsummary.xlsx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.821481+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gemarkmeckenzieflowcharts.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gemarkmeckenzieflowcharts.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.822120+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gematsudaira1230dte10yramortization.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gematsudaira1230dte10yramortization.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.822330+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gematsudaira820amortization10year.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gematsudaira820amortization10year.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.822529+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gemeetingummarymeeting1.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gemeetingummarymeeting1.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.822732+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gememoissue8metune.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gememoissue8metune.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.823294+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gemonroechartdebtearnings.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gemonroechartdebtearnings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.823505+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### genegotiatorsforpublication.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/genegotiatorsforpublication.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.823709+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### genprm.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/genprm.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.824229+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### genprmfactsheet.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/genprmfactsheet.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.824427+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### geprogramdata.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/geprogramdata.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.824960+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gesession2summary.docx
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/gesession2summary.docx
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.825225+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### getranscriptsday1.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/getranscriptsday1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.826899+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### getranscriptsday2.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/getranscriptsday2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.828567+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### getranscriptsday4.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/highered/reg/hearulemaking/2017/getranscriptsday4.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.829935+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gindcators-rpt.doc
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/nfdp/gindcators-rpt.doc
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.830399+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gprpt.doc
+
+- **URL**: https://www.ed.gov/sites/ed/files/programs/nfdp/gprpt.doc
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.830885+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gu-2022b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2022partb/gu-2022b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.832120+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gu-2022c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2022partc/gu-2022c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.833492+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gu-2023b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2023partb/gu-2023b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.835243+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gu-2023c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2023partc/gu-2023c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.837165+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gu-2024c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/2024-11/gu-2024c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.838820+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gu-poa-waiver-part-b-2020.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/speced/guid/idea/monitor/poa-waivers/2020/gu-poa-waiver-part-b-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.839377+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gu-poa-waiver-part-c-2020.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/speced/guid/idea/monitor/poa-waivers/2020/gu-poa-waiver-part-c-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.839716+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gu-sigdispro-2020.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/speced/guid/idea/monitor/sig-dispro-reports/part-b/2020/gu-sigdispro-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.845555+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### h-ela-0.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget24/justifications/h-ela.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.846160+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### h-ela.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget21/justifications/h-ela.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.846691+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### h-infrastructure.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget22/justifications/h-infrastructure.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.847225+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### h-specialed-0.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget20/justifications/h-specialed.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.849430+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### h-specialed.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget23/justifications/h-specialed.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.851043+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### h-ssce.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget25/justifications/h-ssce.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.852155+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hep-camp-eligibility-non-regulatory-guidance-2012.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/2021/09/hep-camp-eligibility-non-regulatory-guidance-2012.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.852734+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hep-camp-evaluation-webinar-transcript-108501.pdf
+
+- **URL**: https://www.ed.gov/media/document/hep-camp-evaluation-webinar-transcript-108501.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.853292+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hep-instructions-2024-2025-17386.pdf
+
+- **URL**: https://www.ed.gov/media/document/hep-instructions-2024-2025-17386.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.854313+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hi-2022b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2022partb/hi-2022b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.855945+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hi-2022c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2022partc/hi-2022c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.856986+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hi-2023b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2023partb/hi-2023b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.858428+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hi-2023c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/fund/data/award/idea/2023partc/hi-2023c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.863038+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hi-2024b-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/2024-11/hi-2024b-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.864279+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hi-2024c-letter.enclosures.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/2024-11/hi-2024c-letter.enclosures.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.865619+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hi-sigdispro-2020.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/speced/guid/idea/monitor/sig-dispro-reports/part-b/2020/hi-sigdispro-2020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.870402+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### highlights-year2.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/rschstat/eval/disadv/supplementalyear2/highlights-year2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.870609+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### homeschool-comparison-chart.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/inits/ed/non-public-education/files/homeschool-comparison-chart.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.870966+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hrsnarrative1.doc
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/fund/guid/humansub/hrsnarrative1.doc
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.871158+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hsr-covid19-faqs.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/policy/fund/guid/humansub/hsr-covid19-faqs.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.871744+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hsrreporttodeptofed.doc
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/offices/list/ocfo/hsrreporttodeptofed.doc
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.871974+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### i-ela.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget25/justifications/i-ela.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.872608+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### i-rehab-0.pdf
+
+- **URL**: https://www.ed.gov/sites/ed/files/about/overview/budget/budget20/justifications/i-rehab.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-09T23:50:09.873622+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 15_fy2023_0.pdf?VersionId=LV1fEl0ZGY1fu6I4LU2fFmTv1WMLTVex
 

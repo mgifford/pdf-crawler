@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-27T10:45:12.531333+00:00",
+    "site": "all",
+    "crawl_url": "",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23641057783",
+    "issue_url": "",
+    "archive_file": "2026-03-27_10-45-12-531_all.html",
+    "total": 18140,
+    "analysed": 4917,
+    "accessible": 1442
+  },
+  {
     "date": "2026-03-26T12:40:58.276581+00:00",
     "site": "cherrycreekschools.org",
     "crawl_url": "https://www.cherrycreekschools.org",
