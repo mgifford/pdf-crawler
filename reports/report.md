@@ -1,13 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-27T10:45:12.531333+00:00
+Generated: 2026-03-27T13:57:38.242265+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 18140 |
-| Analysed | 4917 |
+| URLs crawled | 43 |
+| Total files tracked | 18141 |
+| Analysed | 4918 |
 | Pending analysis | 10767 |
 | Errors during analysis | 2456 |
 | Accessible | 1442 |
@@ -26,6 +27,7 @@ Generated: 2026-03-27T10:45:12.531333+00:00
 | archscan.com | 9 |
 | bixal.com | 2 |
 | ble.de | 268 |
+| businessexpress.maryland.gov | 1 |
 | calgary.ca | 165 |
 | canada.ca | 496 |
 | cms.gov | 460 |
@@ -4995,6 +4997,7 @@ Generated: 2026-03-27T10:45:12.531333+00:00
 | [updated-intern-handbook-2025-2026.pdf](https://www.coloradomesa.edu/teacher-education/undergraduate/updated-intern-handbook-2025-2026.pdf) | coloradomesa.edu | 2025-10-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 5698 | 3 |
 | [updated-tutor-application-2025-fillable2.pdf](https://www.coloradomesa.edu/academic-support/updated-tutor-application-2025-fillable2.pdf) | coloradomesa.edu | 2026-01-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 307 | 3 |
 | [volunteer-policy.pdf](https://www.coloradomesa.edu/human-resources/documents/policies-manuals/volunteer-policy.pdf) | coloradomesa.edu | 2019-09-26 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 13 |
+| [7StepstoStartingYourBusiness-20231017.pdf](https://businessexpress.maryland.gov/documents/7StepstoStartingYourBusiness-20231017.pdf) | businessexpress.maryland.gov | 2023-10-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 164 | 8 |
 
 ## Files with Errors or Notes
 
@@ -40707,5 +40710,11 @@ Generated: 2026-03-27T10:45:12.531333+00:00
 ### volunteer-policy.pdf
 
 - **URL**: https://www.coloradomesa.edu/human-resources/documents/policies-manuals/volunteer-policy.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 7StepstoStartingYourBusiness-20231017.pdf
+
+- **URL**: https://businessexpress.maryland.gov/documents/7StepstoStartingYourBusiness-20231017.pdf
 - **Status**: analysed
 - title, tagged, lang, 
