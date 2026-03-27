@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-27T19:15:46.917395+00:00",
+    "site": "all",
+    "crawl_url": "",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23661747945",
+    "issue_url": "",
+    "archive_file": "2026-03-27_19-15-46-917_all.html",
+    "total": 18520,
+    "analysed": 5117,
+    "accessible": 1631
+  },
+  {
     "date": "2026-03-27T16:09:43.797364+00:00",
     "site": "doit.maryland.gov",
     "crawl_url": "https://doit.maryland.gov/",
