@@ -221,11 +221,13 @@ def test_spider_parse_prints_crawled_url(capsys):
     spider._url_maps = {}
     spider._referer_maps = {}
 
-    from scrapy.http import HtmlResponse
+    from scrapy.http import HtmlResponse, Request as ScrapyRequest
+    req = ScrapyRequest("https://example.com/page")
     response = HtmlResponse(
         url="https://example.com/page",
         body=b"<html><body><a href='/about'>about</a></body></html>",
         encoding="utf-8",
+        request=req,
     )
 
     list(spider.parse(response))  # consume the generator
@@ -249,11 +251,13 @@ def test_spider_parse_prints_found_pdf(capsys):
     spider._url_maps = {}
     spider._referer_maps = {}
 
-    from scrapy.http import HtmlResponse
+    from scrapy.http import HtmlResponse, Request as ScrapyRequest
+    req = ScrapyRequest("https://example.com/page")
     response = HtmlResponse(
         url="https://example.com/page",
         body=b"<html><body><a href='/files/doc.pdf'>PDF</a></body></html>",
         encoding="utf-8",
+        request=req,
     )
 
     list(spider.parse(response))
