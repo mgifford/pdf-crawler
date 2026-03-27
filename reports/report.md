@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-27T13:57:38.242265+00:00
+Generated: 2026-03-27T16:09:43.797364+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 43 |
-| Total files tracked | 18141 |
-| Analysed | 4918 |
-| Pending analysis | 10767 |
+| URLs crawled | 168 |
+| Total files tracked | 18425 |
+| Analysed | 5117 |
+| Pending analysis | 10852 |
 | Errors during analysis | 2456 |
-| Accessible | 1442 |
+| Accessible | 1631 |
 | Totally inaccessible | 170 |
 | Broken / unreadable | 5 |
-| Exempt (pre-2018) | 1185 |
+| Exempt (pre-2018) | 1189 |
 
 ## Files per Site
 
@@ -36,6 +36,7 @@ Generated: 2026-03-27T13:57:38.242265+00:00
 | ctoec.org | 1742 |
 | dc.gov | 74 |
 | dnr.state.mn.us | 8 |
+| doit.maryland.gov | 284 |
 | dot.state.mn.us | 44 |
 | ec.europa.eu | 199 |
 | ecboces.org | 14 |
@@ -4998,6 +4999,205 @@ Generated: 2026-03-27T13:57:38.242265+00:00
 | [updated-tutor-application-2025-fillable2.pdf](https://www.coloradomesa.edu/academic-support/updated-tutor-application-2025-fillable2.pdf) | coloradomesa.edu | 2026-01-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 307 | 3 |
 | [volunteer-policy.pdf](https://www.coloradomesa.edu/human-resources/documents/policies-manuals/volunteer-policy.pdf) | coloradomesa.edu | 2019-09-26 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 0 | 13 |
 | [7StepstoStartingYourBusiness-20231017.pdf](https://businessexpress.maryland.gov/documents/7StepstoStartingYourBusiness-20231017.pdf) | businessexpress.maryland.gov | 2023-10-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 164 | 8 |
+| [001B1600087-BPW-Agenda.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/001B1600087-BPW-Agenda.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 401 | 4 |
+| [060B3490012BPWitem2-IT.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Documents/SPSSAASHC/060B3490012BPWitem2-IT.pdf) | doit.maryland.gov | 2025-12-30 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 403 | 2 |
+| [060B3490012contract.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Documents/SPSSAASHC/060B3490012contract.pdf) | doit.maryland.gov | 2025-12-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 6506 | 14 |
+| [060B8400023-AgendaItem-AsPublished.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-AgendaItem-AsPublished.pdf) | doit.maryland.gov | 2025-07-31 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 529 | 2 |
+| [060B8400023-Amendment2.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-Amendment2.pdf) | doit.maryland.gov | 2025-07-31 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 586 | 3 |
+| [060B8400023-Amendment3.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-Amendment3.pdf) | doit.maryland.gov | 2025-07-31 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 241 | 1 |
+| [060B8400023-FullyExecutedContract-Redacted.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-FullyExecutedContract-Redacted.pdf) | doit.maryland.gov | 2025-07-31 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 22 | 23966 | 22 |
+| [060B8400023-QAVolumeI.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-QAVolumeI.pdf) | doit.maryland.gov | 2025-07-31 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 32 | 8794 | 32 |
+| [060B8400023-QAVolumeII.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-QAVolumeII.pdf) | doit.maryland.gov | 2025-07-31 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2476 | 10 |
+| [060B8400023-SampleWorkerOrderForm.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-SampleWorkerOrderForm.pdf) | doit.maryland.gov | 2025-06-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 150 | 0 |
+| [060B8400023-StatewideNetworkManagedServicesRFP-asAmended.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-StatewideNetworkManagedServicesRFP-asAmended.pdf) | doit.maryland.gov | 2025-06-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 288 | 108573 | 61 |
+| [060B8400023-StatewideNetworkManagedServicesRFP.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-StatewideNetworkManagedServicesRFP.pdf) | doit.maryland.gov | 2025-06-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 288 | 108289 | 58 |
+| [060B8400023-StatewideNetworkManagement-Amendment1.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/060B8400023-StatewideNetworkManagement-Amendment1.pdf) | doit.maryland.gov | 2025-06-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 156 | 1 |
+| [2.KickoffQA.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/cats-plus/Documents/2.KickoffQA.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1061 | 0 |
+| [20-02-MITDP-Procedures.pdf](https://doit.maryland.gov/policies/mitdp/Documents/20-02-MITDP-Procedures.pdf) | doit.maryland.gov | 2025-12-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 515 | 5 |
+| [20-06-MITDP-Fund-Disbursements.pdf](https://doit.maryland.gov/policies/mitdp/Documents/20-06-MITDP-Fund-Disbursements.pdf) | doit.maryland.gov | 2020-12-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 588 | 2 |
+| [20-10-IT-Support-for-Telework.pdf](https://doit.maryland.gov/policies/telework/Documents/20-10-IT-Support-for-Telework.pdf) | doit.maryland.gov | 2020-10-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 675 | 2 |
+| [20-13-Resource-Sharing-Agreements.pdf](https://doit.maryland.gov/policies/Departmental/Documents/20-13-Resource-Sharing-Agreements.pdf) | doit.maryland.gov | 2025-04-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 346 | 4 |
+| [2012-1-VSBEForms.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/PBX-IV-Telecommunications-Equipment-and-Services/Documents/2012-1-VSBEForms.pdf) | doit.maryland.gov | 2025-12-30 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1224 | 0 |
+| [2024.12.05-Web-Leads-Meeting-Slide-Deck_accessible.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2024.12.05-Web-Leads-Meeting-Slide-Deck_accessible.pdf) | doit.maryland.gov | 2024-12-06 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 47 | 1940 | 57 |
+| [2025-12-15-Web-Leads-Meeting.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2025-12-15-Web-Leads-Meeting.pdf) | doit.maryland.gov | 2025-12-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 40 | 2014 | 52 |
+| [2025-7-23-Web-Leads-Meeting.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2025-7-23-Web-Leads-Meeting.pdf) | doit.maryland.gov | 2025-07-31 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 50 | 2174 | 47 |
+| [2025-9-16-Web-Leads-Meeting.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2025-9-16-Web-Leads-Meeting.pdf) | doit.maryland.gov | 2025-09-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 37 | 2512 | 40 |
+| [2025.1.15-Web-Leads-Meeting-accessible.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2025.1.15-Web-Leads-Meeting-accessible.pdf) | doit.maryland.gov | 2025-01-17 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 43 | 1671 | 58 |
+| [2025.2.11-Web-Leads-Meeting_accessible%20final%20version.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2025.2.11-Web-Leads-Meeting_accessible%20final%20version.pdf) | doit.maryland.gov | 2025-02-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 | 690 | 42 |
+| [2025.4.8-Web-Leads-Meeting_accessible%20version.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2025.4.8-Web-Leads-Meeting_accessible%20version.pdf) | doit.maryland.gov | 2025-06-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 | 1110 | 32 |
+| [2025.5.14-Web-Leads-Meeting.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2025.5.14-Web-Leads-Meeting.pdf) | doit.maryland.gov | 2025-06-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 46 | 1659 | 38 |
+| [2025_MDDS_Impact_Report.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2025_MDDS_Impact_Report.pdf) | doit.maryland.gov | 2026-02-27 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 27 | 4170 | 22 |
+| [2026.2.19-Web-Leads-Meeting.pdf](https://doit.maryland.gov/About-DoIT/Offices/Maryland-Digital-Service/Documents/2026.2.19-Web-Leads-Meeting.pdf) | doit.maryland.gov | 2026-02-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 37 | 1653 | 76 |
+| [ADPICS%20Security%20Form%20with%20Instructions.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/ADPICS%20Security%20Form%20with%20Instructions.pdf) | doit.maryland.gov | 2025-09-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1343 | 6 |
+| [AR20221215%E2%80%93004.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/AR20221215%E2%80%93004.pdf) | doit.maryland.gov | 2023-03-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 674 | 1 |
+| [AR20221222%E2%80%93006.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/AR20221222%E2%80%93006.pdf) | doit.maryland.gov | 2023-03-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 426 | 1 |
+| [AR20221227-007.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/AR20221227-007.pdf) | doit.maryland.gov | 2023-03-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 494 | 3 |
+| [AR20230124-002.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/AR20230124-002.pdf) | doit.maryland.gov | 2025-06-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 2858 | 1 |
+| [AR20230127-003.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/AR20230127-003.pdf) | doit.maryland.gov | 2025-06-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 769 | 3 |
+| [AR20240207-002.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/AR20240207-002.pdf) | doit.maryland.gov | 2025-06-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 371 | 1 |
+| [AR20240209-003.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/AR20240209-003.pdf) | doit.maryland.gov | 2025-06-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 876 | 1 |
+| [AR20241016-33.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/AR20241016-33.pdf) | doit.maryland.gov | 2025-06-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 382 | 3 |
+| [AR20250609-28.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/AR20250609-28.pdf) | doit.maryland.gov | 2025-06-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 352 | 6 |
+| [ATE_Award_Package_Checklist.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/hardware-associated-equipment-services-2012/Documents/ATE_Award_Package_Checklist.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 391 | 0 |
+| [Adding_123_Action_Code.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/Adding_123_Action_Code.pdf) | doit.maryland.gov | 2025-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 224 | 2 |
+| [Agencies-Security-Officers-and-Functional-Coordinators.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/Agencies-Security-Officers-and-Functional-Coordinators.pdf) | doit.maryland.gov | 2026-01-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1863 | 0 |
+| [Agenda-110719.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/Agenda-110719.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 302 | 1 |
+| [AssessmentCriteriaTOMgmt.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/cats-plus/Documents/AssessmentCriteriaTOMgmt.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 355 | 0 |
+| [AssessmentCriteriaTORFPProcess.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/cats-plus/Documents/AssessmentCriteriaTORFPProcess.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 373 | 0 |
+| [BPOattachedCommodity.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/BPOattachedCommodity.pdf) | doit.maryland.gov | 2025-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 368 | 10 |
+| [BPWAgenda-WirelessVoiceDataAccessories-StatewideContract.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/BPWAgenda-WirelessVoiceDataAccessories-StatewideContract.pdf) | doit.maryland.gov | 2025-12-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 227 | 4 |
+| [Baltimore-County-Statement-on-Third-Party-Vendor-MOVEit-Breach_PBI.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/Baltimore-County-Statement-on-Third-Party-Vendor-MOVEit-Breach_PBI.pdf) | doit.maryland.gov | 2025-04-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 297 | 1 |
+| [Bluestar-Technologies-Inc.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Cabling-and-Wiring-Outside-Plant/Documents/Bluestar-Technologies-Inc.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 175 | 0 |
+| [Bluestar-Technologies_Capital_Labor-Rates.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Cabling-and-Wiring-Outside-Plant/Documents/Bluestar-Technologies_Capital_Labor-Rates.pdf) | doit.maryland.gov | 2025-12-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181 | 0 |
+| [Bluestar-Technologies_Central_Labor-Rates.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Cabling-and-Wiring-Outside-Plant/Documents/Bluestar-Technologies_Central_Labor-Rates.pdf) | doit.maryland.gov | 2025-12-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181 | 0 |
+| [Bluestar-Technologies_Lower-Eastern-Shore_Labor-Rates.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Cabling-and-Wiring-Outside-Plant/Documents/Bluestar-Technologies_Lower-Eastern-Shore_Labor-Rates.pdf) | doit.maryland.gov | 2025-12-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 183 | 0 |
+| [Bluestar-Technologies_Southern_Labor-Rates.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Cabling-and-Wiring-Outside-Plant/Documents/Bluestar-Technologies_Southern_Labor-Rates.pdf) | doit.maryland.gov | 2025-12-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181 | 0 |
+| [Bluestar-Technologies_Upper-Eastern-Shore_Labor-Rates.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Cabling-and-Wiring-Outside-Plant/Documents/Bluestar-Technologies_Upper-Eastern-Shore_Labor-Rates.pdf) | doit.maryland.gov | 2025-12-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 183 | 0 |
+| [CATS+DPAFSample.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/cats-plus/Documents/CATS+DPAFSample.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 80 | 0 |
+| [CATS+NoticeToProceedSample.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/cats-plus/Documents/CATS+NoticeToProceedSample.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 113 | 0 |
+| [CATS+Self-ReportingChecklistSample.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/cats-plus/Documents/CATS+Self-ReportingChecklistSample.pdf) | doit.maryland.gov | 2025-12-30 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 553 | 4 |
+| [CATS+WorkOrderSample.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/cats-plus/Documents/CATS+WorkOrderSample.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 140 | 0 |
+| [Call-Contact-Center-Services-2015.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/call-center-services-2025/Documents/Call-Contact-Center-Services-2015.pdf) | doit.maryland.gov | 2025-06-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 207 | 0 |
+| [ConferenceAttendeeList.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/ConferenceAttendeeList.pdf) | doit.maryland.gov | 2017-10-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 8 | 2428 | 8 |
+| [ConferenceSummary.pdf](https://doit.maryland.gov/contracts/DoIT-Contracts/Documents/StatewideNetworkManagementServices/ConferenceSummary.pdf) | doit.maryland.gov | 2025-07-31 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2237 | 6 |
+| [Cybersecurity-Guidelines-PDCI.pdf](https://doit.maryland.gov/policies/Documents/cybersecurity/Cybersecurity-Guidelines-PDCI.pdf) | doit.maryland.gov | 2025-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 923 | 12 |
+| [Cybersecurity-and-Privacy-Glossary.pdf](https://doit.maryland.gov/policies/ci/Documents/Cybersecurity-and-Privacy-Glossary.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 9514 | 0 |
+| [DGS-23-IT_Agenda_Record-Correction_5-15-24.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Cabling-and-Wiring-Outside-Plant/Documents/DGS-23-IT_Agenda_Record-Correction_5-15-24.pdf) | doit.maryland.gov | 2025-12-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1709 | 15 |
+| [December%201,%202022%20%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/December%201,%202022%20%20Minutes.pdf) | doit.maryland.gov | 2025-03-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 541 | 4 |
+| [December%201,%202022%20Agenda-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/December%201,%202022%20Agenda.pdf) | doit.maryland.gov | 2022-11-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 71 | 0 |
+| [December%201,%202022%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/December%201,%202022%20Agenda.pdf) | doit.maryland.gov | 2022-11-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 116 | 0 |
+| [December%201,%202022%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/December%201,%202022%20Minutes.pdf) | doit.maryland.gov | 2023-09-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 807 | 4 |
+| [December%203,%202024%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/December%203,%202024%20Agenda.pdf) | doit.maryland.gov | 2025-12-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 173 | 0 |
+| [December%203,%202024%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/December%203,%202024%20Minutes.pdf) | doit.maryland.gov | 2025-03-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2128 | 8 |
+| [December%204,%202025%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/December%204,%202025%20Agenda.pdf) | doit.maryland.gov | 2025-12-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 138 | 0 |
+| [DiG-Meeting-Notes-13Nov25-accessible-version.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/DIG/DiG-Meeting-Notes-13Nov25-accessible-version.pdf) | doit.maryland.gov | 2025-12-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 356 | 0 |
+| [Digital-Accessibility-Policy-Final.pdf](https://doit.maryland.gov/policies/Accessibility/Documents/Digital-Accessibility-Policy-Final.pdf) | doit.maryland.gov | 2025-12-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1873 | 1 |
+| [DirectVoucher.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/DirectVoucher.pdf) | doit.maryland.gov | 2025-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 579 | 3 |
+| [DoIT-RSA-Program-Policy.pdf](https://doit.maryland.gov/policies/Departmental/Documents/DoIT-RSA-Program-Policy.pdf) | doit.maryland.gov | 2025-12-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 79 | 26283 | 79 |
+| [DoIT-org-chart.pdf](https://doit.maryland.gov/About-DoIT/Leadership/Documents/DoIT-org-chart.pdf) | doit.maryland.gov | 2025-05-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 239 | 0 |
+| [DoIT_Service_Agreement_Contractual_ITSM_Tool_Support_Service_1_2025.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/DoIT_Service_Agreement_Contractual_ITSM_Tool_Support_Service_1_2025.pdf) | doit.maryland.gov | 2025-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2559 | 1 |
+| [DoIT_Service_Agreement_Contractual_IVV_Support_Service_1_2025.pdf](https://doit.maryland.gov/services/Website-and-Applications/Documents/DoIT_Service_Agreement_Contractual_IVV_Support_Service_1_2025.pdf) | doit.maryland.gov | 2025-04-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1384 | 1 |
+| [DoIT_Service_Agreement_FMIS_Support_1_2025.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/DoIT_Service_Agreement_FMIS_Support_1_2025.pdf) | doit.maryland.gov | 2025-04-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1395 | 1 |
+| [DoIT_Service_Agreement_Google_Workspace_1_2025.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/ops/Documents/DoIT_Service_Agreement_Google_Workspace_1_2025.pdf) | doit.maryland.gov | 2025-06-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1839 | 1 |
+| [DoIT_Service_Agreement_Managed_Development_Services_eGovernment_eGOV_1_2025.pdf](https://doit.maryland.gov/services/Website-and-Applications/Documents/DoIT_Service_Agreement_Managed_Development_Services_eGovernment_eGOV_1_2025.pdf) | doit.maryland.gov | 2025-05-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1506 | 1 |
+| [DoIT_Service_Agreement_Managed_Hosting_Services_Development_Environment_2_2025.pdf](https://doit.maryland.gov/services/Website-and-Applications/Documents/DoIT_Service_Agreement_Managed_Hosting_Services_Development_Environment_2_2025.pdf) | doit.maryland.gov | 2025-04-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1527 | 1 |
+| [DoIT_Service_Agreement_Managed_Hosting_Services_Website_2_2025.pdf](https://doit.maryland.gov/services/Website-and-Applications/Documents/DoIT_Service_Agreement_Managed_Hosting_Services_Website_2_2025.pdf) | doit.maryland.gov | 2025-04-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1847 | 1 |
+| [DoIT_Service_Agreement_Product_Design_Conducting_Discovery_1_2025.pdf](https://doit.maryland.gov/services/Website-and-Applications/Documents/DoIT_Service_Agreement_Product_Design_Conducting_Discovery_1_2025.pdf) | doit.maryland.gov | 2025-05-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1250 | 1 |
+| [DoIT_Service_Agreement_Website_Add_on_Subscriptions_1_2025.pdf](https://doit.maryland.gov/services/Website-and-Applications/Documents/DoIT_Service_Agreement_Website_Add_on_Subscriptions_1_2025.pdf) | doit.maryland.gov | 2025-05-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1204 | 1 |
+| [DoIT_Service_Agreement_Website_DesignRedesignDevelopment_1_2025.pdf](https://doit.maryland.gov/services/Website-and-Applications/Documents/DoIT_Service_Agreement_Website_DesignRedesignDevelopment_1_2025.pdf) | doit.maryland.gov | 2025-05-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1123 | 1 |
+| [EO%2001.01.2024.02%20Catalyzing%20the%20Responsible%20and%20Productive%20Use%20of%20Artificial%20Intelligence%20in%20Maryland%20State%20Government_Accessible.pdf](https://doit.maryland.gov/policies/ai/Documents/EO%2001.01.2024.02%20Catalyzing%20the%20Responsible%20and%20Productive%20Use%20of%20Artificial%20Intelligence%20in%20Maryland%20State%20Government_Accessible.pdf) | doit.maryland.gov | 2024-01-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1622 | 4 |
+| [EO-01.01.2024.25-Maryland-Plain-Language-Initiative.pdf](https://doit.maryland.gov/initiatives/Documents/EO-01.01.2024.25-Maryland-Plain-Language-Initiative.pdf) | doit.maryland.gov | 2025-05-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 948 | 7 |
+| [EPMO-MITDP-Standards-Manual-DRAFT-V4.pdf](https://doit.maryland.gov/policies/mitdp/Documents/EPMO-MITDP-Standards-Manual-DRAFT-V4.pdf) | doit.maryland.gov | 2025-04-17 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 | 7176 | 58 |
+| [ElectronicSignature.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/ElectronicSignature.pdf) | doit.maryland.gov | 2025-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 14 | 840 | 25 |
+| [ErrorCorrectionBatch.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/ErrorCorrectionBatch.pdf) | doit.maryland.gov | 2025-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1612 | 6 |
+| [EstablishingDeptApprovalPaths.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/EstablishingDeptApprovalPaths.pdf) | doit.maryland.gov | 2025-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 231 | 1 |
+| [F50B9400020-BPW-Approval-01.29.2020.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Documents/TRS/F50B9400020-BPW-Approval-01.29.2020.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 407 | 2 |
+| [F50B9400020-FEC-Contract-Modification1-signed.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Documents/TRS/F50B9400020-FEC-Contract-Modification1-signed.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 538 | 3 |
+| [FA20221010%E2%80%93001-Flash%20Alert.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/FA20221010%E2%80%93001-Flash%20Alert.pdf) | doit.maryland.gov | 2022-12-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 558 | 1 |
+| [FA20240719-002.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/FA20240719-002.pdf) | doit.maryland.gov | 2025-06-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 396 | 1 |
+| [FCC%20Rules.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/FCC%20Rules.pdf) | doit.maryland.gov | 2025-06-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1322 | 8 |
+| [FOCUS%20Ad%20Hoc%20Security%20Form%20with%20Instructions.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/FOCUS%20Ad%20Hoc%20Security%20Form%20with%20Instructions.pdf) | doit.maryland.gov | 2025-12-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1134 | 0 |
+| [FY2026-MITDP-Portfolio-List.pdf](https://doit.maryland.gov/MITDP-Oversight/Documents/FY2026-MITDP-Portfolio-List.pdf) | doit.maryland.gov | 2025-10-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 831 | 1 |
+| [Focus%20Request%20Form.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/Focus%20Request%20Form.pdf) | doit.maryland.gov | 2025-09-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 123 | 2 |
+| [Functional%20Coordinators%20and%20Security%20Officers%20Designation%20Form%20with%20Instructions.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/Functional%20Coordinators%20and%20Security%20Officers%20Designation%20Form%20with%20Instructions.pdf) | doit.maryland.gov | 2025-12-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 664 | 0 |
+| [FundingSplitAgencyBPO.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/FundingSplitAgencyBPO.pdf) | doit.maryland.gov | 2025-04-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 183 | 2 |
+| [Governance%20of%20Radio%20Control%20Board%20Working%20Groups%20SOP%200.11.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/Governance%20of%20Radio%20Control%20Board%20Working%20Groups%20SOP%200.11.pdf) | doit.maryland.gov | 2025-12-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1481 | 31 |
+| [ICPA-Mandatory-Affidavits-and-TandC-Fully-Executed.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/ICPA-Mandatory-Affidavits-and-TandC-Fully-Executed.pdf) | doit.maryland.gov | 2025-12-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2984 | 3 |
+| [ITB.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/ITB.pdf) | doit.maryland.gov | 2025-04-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 524 | 2 |
+| [ITBAwardProcess.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/ITBAwardProcess.pdf) | doit.maryland.gov | 2025-04-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 346 | 1 |
+| [ITBBidEntry2320.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/ITBBidEntry2320.pdf) | doit.maryland.gov | 2025-04-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 305 | 2 |
+| [InteragencyDirectVoucherPayment.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/InteragencyDirectVoucherPayment.pdf) | doit.maryland.gov | 2025-04-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 493 | 2 |
+| [InteragencyPayments.pdf](https://doit.maryland.gov/services/OfficeTechandProductivity/Documents/InteragencyPayments.pdf) | doit.maryland.gov | 2025-04-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 | 3203 | 18 |
+| [June%2013,%202024%20Agenda-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/June%2013,%202024%20Agenda.pdf) | doit.maryland.gov | 2024-06-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 139 | 0 |
+| [June%2013,%202024%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%2013,%202024%20Agenda.pdf) | doit.maryland.gov | 2024-06-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 133 | 0 |
+| [June%2013,%202024%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%2013,%202024%20Minutes.pdf) | doit.maryland.gov | 2025-12-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1043 | 4 |
+| [June%2015,%202023%20Agenda-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/June%2015,%202023%20Agenda.pdf) | doit.maryland.gov | 2023-06-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 89 | 0 |
+| [June%2015,%202023%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%2015,%202023%20Agenda.pdf) | doit.maryland.gov | 2023-06-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 121 | 0 |
+| [June%2015,%202023%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%2015,%202023%20Minutes.pdf) | doit.maryland.gov | 2023-09-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1007 | 4 |
+| [June%2024,%202015%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/Radio%20Control%20Board/June%2024,%202015%20Minutes.pdf) | doit.maryland.gov | 2017-05-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 632 | 0 |
+| [June%205,%202025%20Agenda-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/June%205,%202025%20Agenda.pdf) | doit.maryland.gov | 2025-06-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 89 | 0 |
+| [June%205,%202025%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%205,%202025%20Agenda.pdf) | doit.maryland.gov | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 149 | 0 |
+| [June%205,%202025%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%205,%202025%20Minutes.pdf) | doit.maryland.gov | 2025-11-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1684 | 2 |
+| [June%209,%202022%20Agenda-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%209,%202022%20Agenda.pdf) | doit.maryland.gov | 2022-06-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 126 | 0 |
+| [June%209,%202022%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/June%209,%202022%20Agenda.pdf) | doit.maryland.gov | 2022-06-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 64 | 0 |
+| [June%209,%202022%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%209,%202022%20Minutes.pdf) | doit.maryland.gov | 2022-12-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1052 | 5 |
+| [Layer-One-Technology-Solutions-Corp.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Cabling-and-Wiring-Outside-Plant/Documents/Layer-One-Technology-Solutions-Corp.pdf) | doit.maryland.gov | 2025-12-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 105 | 0 |
+| [Layer-One-Technology_Western_Labor-Rates.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Cabling-and-Wiring-Outside-Plant/Documents/Layer-One-Technology_Western_Labor-Rates.pdf) | doit.maryland.gov | 2025-12-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 187 | 1 |
+| [MBE-VSBEParticipation-Worksheet.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/PBX-IV-Telecommunications-Equipment-and-Services/Documents/MBE-VSBEParticipation-Worksheet.pdf) | doit.maryland.gov | 2025-12-30 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 268 | 0 |
+| [MCCC%20Overview%20Agenda%2007262022.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC%20Overview%20Agenda%2007262022.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 59 | 1 |
+| [MCCC-Agenda-02242020.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Agenda-02242020.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 89 | 1 |
+| [MCCC-Agenda-041521.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Agenda-041521.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 113 | 1 |
+| [MCCC-Meeting-Minutes-080819.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Meeting-Minutes-080819.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 3107 | 6 |
+| [MCCC-Meeting-Minutes-110719.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Meeting-Minutes-110719.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1875 | 4 |
+| [MCCC-MeetingMinutes-02242020.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-MeetingMinutes-02242020.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1217 | 1 |
+| [MCCC-Minutes-012821.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Minutes-012821.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 980 | 1 |
+| [MCCC-Minutes-04152021.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Minutes-04152021.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1108 | 0 |
+| [MCCC-Minutes-061423.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Minutes-061423.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1272 | 0 |
+| [MCCC-Minutes-071724.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Minutes-071724.pdf) | doit.maryland.gov | 2025-06-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1558 | 0 |
+| [MCCC-Minutes-072622.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Minutes-072622.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1262 | 0 |
+| [MCCC-Minutes-08032020.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Minutes-08032020.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 478 | 1 |
+| [MCCC-Minutes-111423.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC-Minutes-111423.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 929 | 0 |
+| [MCCCAgenda_02192025.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCCAgenda_02192025.pdf) | doit.maryland.gov | 2025-06-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 57 | 1 |
+| [MCCCAgenda_05212025.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCCAgenda_05212025.pdf) | doit.maryland.gov | 2025-06-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 53 | 1 |
+| [MCCCAgenda_06142023.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCCAgenda_06142023.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 74 | 1 |
+| [MCCCAgenda_07172024.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCCAgenda_07172024.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 82 | 1 |
+| [MCCCAgenda_072221.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCCAgenda_072221.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 114 | 1 |
+| [MCCCAgenda_101922.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCCAgenda_101922.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 153 | 1 |
+| [MCCCAgenda_11142023.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCCAgenda_11142023.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 102 | 1 |
+| [MCCC_Agenda_012821.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC_Agenda_012821.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 76 | 1 |
+| [MCCC_Agenda_080320.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC_Agenda_080320.pdf) | doit.maryland.gov | 2025-04-15 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 52 | 1 |
+| [MCCC_Meeting_Agenda_August_20_2025_FINAL.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC_Meeting_Agenda_August_20_2025_FINAL.pdf) | doit.maryland.gov | 2025-11-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 99 | 1 |
+| [MCCC_Meeting_Agenda_November%2019_2025.pdf](https://doit.maryland.gov/About-DoIT/Boards-Committees-Commissions/Documents/MCCC/MCCC_Meeting_Agenda_November%2019_2025.pdf) | doit.maryland.gov | 2025-11-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 102 | 1 |
+| [MD%20Call%20MD%20Event%20SOP%200.10.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/MD%20Call%20MD%20Event%20SOP%200.10.pdf) | doit.maryland.gov | 2025-06-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 6052 | 29 |
+| [MD%20FiRST%20Frequency%20List.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/MD%20FiRST%20Frequency%20List.pdf) | doit.maryland.gov | 2025-06-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4898 | 44 |
+| [MD-STD-301-AC-01-Access-Control-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-301-AC-01-Access-Control-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 4439 | 2 |
+| [MD-STD-302-AT-01-Awareness-and-Training-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-302-AT-01-Awareness-and-Training-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1551 | 4 |
+| [MD-STD-303-AU-01-Audit-and-Accountability.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-303-AU-01-Audit-and-Accountability.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2135 | 2 |
+| [MD-STD-304-CA-01-Control-Assessments.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-304-CA-01-Control-Assessments.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1981 | 10 |
+| [MD-STD-305-CM-01-Configuration-Management-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-305-CM-01-Configuration-Management-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2356 | 10 |
+| [MD-STD-306-CP-01-Contingency-Planning-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-306-CP-01-Contingency-Planning-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 2394 | 9 |
+| [MD-STD-307-IA-01-Identification-and-Authentication-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-307-IA-01-Identification-and-Authentication-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2850 | 11 |
+| [MD-STD-308-IR-01-Incident-Response-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-308-IR-01-Incident-Response-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2101 | 6 |
+| [MD-STD-309-MA-01-Maintenance-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-309-MA-01-Maintenance-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1351 | 10 |
+| [MD-STD-310-MP-01-Media-Protection-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-310-MP-01-Media-Protection-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1434 | 11 |
+| [MD-STD-311-PE-01-Physical-and-Environmental-Protection-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-311-PE-01-Physical-and-Environmental-Protection-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2014 | 8 |
+| [MD-STD-312-PL-01-Planning-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-312-PL-01-Planning-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1839 | 3 |
+| [MD-STD-313-PM-01-Program-Management-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-313-PM-01-Program-Management-Standard.pdf) | doit.maryland.gov | 2026-02-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3669 | 11 |
+| [MD-STD-314-PS-01-Personnel-Security-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-314-PS-01-Personnel-Security-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1441 | 10 |
+| [MD-STD-315-PT-01-PII-and-Transparency-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-315-PT-01-PII-and-Transparency-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1740 | 8 |
+| [MD-STD-316-RA-01-Risk-Assessment-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-316-RA-01-Risk-Assessment-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 1859 | 11 |
+| [MD-STD-317-SA-01-System-and-Services-Acquisition-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-317-SA-01-System-and-Services-Acquisition-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2756 | 10 |
+| [MD-STD-318-SC-01-System-and-Communication-Protection-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-318-SC-01-System-and-Communication-Protection-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 3690 | 10 |
+| [MD-STD-319-SI-01-System-and-Information-Integrity-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-319-SI-01-System-and-Information-Integrity-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 3105 | 9 |
+| [MD-STD-320-SR-01-Supply-Chain-and-Risk-Management-Standard.pdf](https://doit.maryland.gov/policies/ci/Documents/MD-STD-320-SR-01-Supply-Chain-and-Risk-Management-Standard.pdf) | doit.maryland.gov | 2026-02-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2038 | 10 |
+| [MD311-Agenda-10-16-25.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/MD311-Agenda-10-16-25.pdf) | doit.maryland.gov | 2025-10-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 68 | 2 |
+| [MD311-Agenda-6-30-25.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/MD311-Agenda-6-30-25.pdf) | doit.maryland.gov | 2025-07-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 299 | 4 |
+| [MD311-Agenda-7-29-25.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/MD311-Agenda-7-29-25.pdf) | doit.maryland.gov | 2025-07-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 149 | 2 |
+| [MD311-Minutes-6-30-25.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/MD311-Minutes-6-30-25.pdf) | doit.maryland.gov | 2025-07-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1622 | 10 |
+| [MD311-Minutes-7-29-25.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/MD311-Minutes-7-29-25.pdf) | doit.maryland.gov | 2025-08-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1783 | 12 |
+| [MD311_AI_Feasibility_Study.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Documents/MD311_AI_Feasibility_Study.pdf) | doit.maryland.gov | 2025-10-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 51 | 21404 | 62 |
+| [MSRA-Statement-on-Third-Party-Vendor-MOVEit-Breach_TIAA.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/MSRA-Statement-on-Third-Party-Vendor-MOVEit-Breach_TIAA.pdf) | doit.maryland.gov | 2025-04-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 481 | 2 |
+| [March%2018,%202015%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/Radio%20Control%20Board/March%2018,%202015%20Agenda.pdf) | doit.maryland.gov | 2017-10-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 166 | 1 |
+| [March%2018,%202015%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/Radio%20Control%20Board/March%2018,%202015%20Minutes.pdf) | doit.maryland.gov | 2017-10-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 930 | 0 |
+| [March%202%202023%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/March%202%202023%20Minutes.pdf) | doit.maryland.gov | 2023-09-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 466 | 5 |
+| [March%202,%202023%20Agenda-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/March%202,%202023%20Agenda.pdf) | doit.maryland.gov | 2023-03-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 71 | 0 |
+| [March%202,%202023%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/March%202,%202023%20Agenda.pdf) | doit.maryland.gov | 2023-03-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 99 | 0 |
+| [March%202,%202023%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/March%202,%202023%20Minutes.pdf) | doit.maryland.gov | 2023-09-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 957 | 4 |
+| [March%203,%202022%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/March%203,%202022%20Agenda.pdf) | doit.maryland.gov | 2022-03-01 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 146 | 0 |
+| [March%203,%202022%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/March%203,%202022%20Minutes.pdf) | doit.maryland.gov | 2022-12-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1051 | 4 |
+| [March%205,%202026%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/Radio%20Control%20Board/March%205,%202026%20Agenda.pdf) | doit.maryland.gov | 2026-03-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 134 | 0 |
+| [March%206,%202025%20Agenda-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/March%206,%202025%20Agenda.pdf) | doit.maryland.gov | 2025-03-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 81 | 0 |
+| [March%206,%202025%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/March%206,%202025%20Agenda.pdf) | doit.maryland.gov | 2025-03-04 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 130 | 0 |
+| [March%206,%202025%20Minutes-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/March%206,%202025%20Minutes.pdf) | doit.maryland.gov | 2025-06-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 2181 | 3 |
+| [March%206,%202025%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/Radio%20Control%20Board/March%206,%202025%20Minutes.pdf) | doit.maryland.gov | 2025-12-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1354 | 2 |
+| [March%207,%202024%20Agenda-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/March%207,%202024%20Agenda.pdf) | doit.maryland.gov | 2025-12-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 81 | 0 |
+| [March%207,%202024%20Agenda.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/March%207,%202024%20Agenda.pdf) | doit.maryland.gov | 2024-03-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 81 | 0 |
+| [March%207,%202024%20Minutes-0.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/March%207,%202024%20Minutes.pdf) | doit.maryland.gov | 2025-02-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 609 | 5 |
+| [March%207,%202024%20Minutes.pdf](https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/March%207,%202024%20Minutes.pdf) | doit.maryland.gov | 2025-12-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 876 | 4 |
+| [Maryland-IT-Security-Manual-v1-2.pdf](https://doit.maryland.gov/policies/ci/Documents/Maryland-IT-Security-Manual-v1-2.pdf) | doit.maryland.gov | 2025-04-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 219 | 47119 | 1 |
+| [Maryland-Information-Technology-Master-Plan-2025.pdf](https://doit.maryland.gov/About-DoIT/Documents/Maryland-Information-Technology-Master-Plan-2025.pdf) | doit.maryland.gov | 2025-08-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 86 | 26251 | 16 |
+| [Maryland-NASPO-Wireless-ATT-PA-Final_signed.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/Maryland-NASPO-Wireless-ATT-PA-Final_signed.pdf) | doit.maryland.gov | 2025-12-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 5359 | 2 |
+| [Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf) | doit.maryland.gov | 2025-12-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 116 | 1 |
 
 ## Files with Errors or Notes
 
@@ -40718,3 +40918,69 @@ Generated: 2026-03-27T13:57:38.242265+00:00
 - **URL**: https://businessexpress.maryland.gov/documents/7StepstoStartingYourBusiness-20231017.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### 20-06-MITDP-Fund-Disbursements.pdf
+
+- **URL**: https://doit.maryland.gov/policies/mitdp/Documents/20-06-MITDP-Fund-Disbursements.pdf
+- **Status**: analysed
+- title, 
+
+### 20-10-IT-Support-for-Telework.pdf
+
+- **URL**: https://doit.maryland.gov/policies/telework/Documents/20-10-IT-Support-for-Telework.pdf
+- **Status**: analysed
+- title, 
+
+### December%201,%202022%20%20Minutes.pdf
+
+- **URL**: https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/December%201,%202022%20%20Minutes.pdf
+- **Status**: analysed
+- title, 
+
+### FA20221010%E2%80%93001-Flash%20Alert.pdf
+
+- **URL**: https://doit.maryland.gov/About-DoIT/Offices/Office-of-Security-Management/Documents/FA20221010%E2%80%93001-Flash%20Alert.pdf
+- **Status**: analysed
+- title, 
+
+### June%2024,%202015%20Minutes.pdf
+
+- **URL**: https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/Radio%20Control%20Board/June%2024,%202015%20Minutes.pdf
+- **Status**: analysed
+- title, 
+
+### June%205,%202025%20Agenda-0.pdf
+
+- **URL**: https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/June%205,%202025%20Agenda.pdf
+- **Status**: analysed
+- title, lang, 
+
+### June%205,%202025%20Agenda.pdf
+
+- **URL**: https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%205,%202025%20Agenda.pdf
+- **Status**: analysed
+- no date found, 
+
+### June%209,%202022%20Agenda-0.pdf
+
+- **URL**: https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Managers%20Committee/June%209,%202022%20Agenda.pdf
+- **Status**: analysed
+- title, 
+
+### June%209,%202022%20Agenda.pdf
+
+- **URL**: https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/June%209,%202022%20Agenda.pdf
+- **Status**: analysed
+- title, 
+
+### March%202%202023%20Minutes.pdf
+
+- **URL**: https://doit.maryland.gov/About-DoIT/Offices/Office-of-Infrastructure/Radio-Control-Board/System%20Users%20Committee/March%202%202023%20Minutes.pdf
+- **Status**: analysed
+- title, 
+
+### Maryland-IT-Security-Manual-v1-2.pdf
+
+- **URL**: https://doit.maryland.gov/policies/ci/Documents/Maryland-IT-Security-Manual-v1-2.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 

@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-27T16:09:43.797364+00:00",
+    "site": "doit.maryland.gov",
+    "crawl_url": "https://doit.maryland.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23653983273",
+    "issue_url": "",
+    "archive_file": "2026-03-27_16-09-43-797_doit.maryland.gov.html",
+    "total": 284,
+    "analysed": 199,
+    "accessible": 189
+  },
+  {
     "date": "2026-03-27T13:57:38.242265+00:00",
     "site": "businessexpress.maryland.gov",
     "crawl_url": "https://businessexpress.maryland.gov/",
