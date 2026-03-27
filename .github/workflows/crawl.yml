@@ -521,12 +521,8 @@ jobs:
               if ! echo "$PAGES_CRAWLED" | grep -Eq '^[0-9]+$'; then PAGES_CRAWLED=0; fi
             fi
             if [ -f reports/manifest.yaml ]; then
-              PDF_COUNT=$(SITE_VAR="$CRAWL_SITE" python3 -c "
-import yaml, os, sys
-site = os.environ['SITE_VAR']
-data = yaml.safe_load(open('reports/manifest.yaml')) or []
-print(sum(1 for e in data if isinstance(e, dict) and e.get('site') == site))
-" 2>&1) || { echo "::warning::Could not parse manifest for PDF count; defaulting to 0." >&2; PDF_COUNT=0; }
+              PDF_COUNT=$(SITE_VAR="$CRAWL_SITE" python3 -c "import yaml,os; d=yaml.safe_load(open('reports/manifest.yaml')) or []; print(sum(1 for e in d if isinstance(e,dict) and e.get('site')==os.environ['SITE_VAR']))" 2>&1) \
+                || { echo "::warning::Could not parse manifest for PDF count; defaulting to 0." >&2; PDF_COUNT=0; }
               if ! echo "$PDF_COUNT" | grep -Eq '^[0-9]+$'; then PDF_COUNT=0; fi
             fi
           fi
