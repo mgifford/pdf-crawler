@@ -4,17 +4,17 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>PDF Accessibility Crawler</title>
-  <meta name="description" content="Submit a website URL to discover all PDF files it contains and assess their accessibility. Powered by simplA11yPDFCrawler." />
+  <meta name="description" content="Free, zero-infrastructure PDF accessibility scanner. Give it a website, it crawls for up to 1 hour, finds every PDF, flags common accessibility issues, and posts a public report — no deployment needed." />
   <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
   <meta property="og:title" content="PDF Accessibility Crawler" />
-  <meta property="og:description" content="Submit a website URL to discover all PDF files it contains and assess their accessibility." />
+  <meta property="og:description" content="Free, zero-infrastructure PDF accessibility scanner. Give it a website, it crawls for up to 1 hour, finds every PDF, flags common accessibility issues, and posts a public report — no deployment needed." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://mgifford.github.io/pdf-crawler/" />
   <meta property="og:site_name" content="PDF Accessibility Crawler" />
   <!-- Twitter Card (also used by many other platforms) -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="PDF Accessibility Crawler" />
-  <meta name="twitter:description" content="Submit a website URL to discover all PDF files it contains and assess their accessibility." />
+  <meta name="twitter:description" content="Free, zero-infrastructure PDF accessibility scanner. Give it a website, it crawls for up to 1 hour, finds every PDF, flags common accessibility issues, and posts a public report — no deployment needed." />
   <!-- Prevent flash of unstyled content when a saved theme preference is present -->
   <script>
     (function () {
@@ -180,10 +180,12 @@
 
   <h1>🔍 PDF Accessibility Crawler</h1>
   <p>
-    Submit a website URL to discover all PDF files it contains and assess their
-    accessibility using the checks from
-    <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
-       target="_blank" rel="noopener">simplA11yPDFCrawler</a>.
+    <strong>Free PDF accessibility scanning — no deployment or infrastructure needed.</strong>
+    Give it a website and it will crawl for up to one hour, find every PDF, and
+    flag common accessibility issues.  Just fill out the form below: it creates a
+    GitHub issue, runs the scan, and posts a <strong>public report</strong> as a
+    comment on that issue.  The issue is <strong>automatically closed</strong>
+    when the report is ready.  Reopen it any time to re-run the scan.
   </p>
 
   <div class="action-bar">
@@ -257,7 +259,11 @@
     <li>
       Once the crawl is complete, the
       <em>Analyse PDFs for Accessibility</em> workflow starts automatically and
-      posts results back to your issue.
+      posts a <strong>public report</strong> as a comment on your issue.
+    </li>
+    <li>
+      The issue is <strong>automatically closed</strong> when the report is
+      ready.  <strong>Reopen it any time</strong> to re-run the scan.
     </li>
     <li>
       PDFs are deleted after analysis; only the

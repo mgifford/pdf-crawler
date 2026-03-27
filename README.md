@@ -1,8 +1,19 @@
 # pdf-crawler
 
-An automated PDF accessibility crawler and analyser built on
-[simplA11yPDFCrawler](https://github.com/accessibility-luxembourg/simplA11yPDFCrawler)
-and deployable entirely on GitHub Pages + GitHub Actions – no server needed.
+**A free, zero-infrastructure PDF accessibility scanner.**
+Point it at any website, and within an hour it will crawl the site, find every
+PDF, flag common accessibility issues, and post a public report — all through a
+GitHub issue.  No servers to deploy, no accounts to configure, no software to
+install.
+
+**How it works in three steps:**
+
+1. Fill out the [web form](https://mgifford.github.io/pdf-crawler/) — it
+   creates a GitHub issue titled `SCAN: https://…` with a single click.
+2. GitHub Actions crawls the site for up to one hour, analyses every PDF it
+   finds, and posts the full results as a comment on that issue.
+3. The issue is **automatically closed** once the report is ready.  The report
+   is **public**.  Reopen the issue any time to re-run the scan.
 
 ---
 
