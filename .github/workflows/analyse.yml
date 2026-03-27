@@ -262,28 +262,27 @@ jobs:
 
       - name: Install veraPDF
         # Only install when the scan requested it (veraPDF/VERAPDF in issue title).
-        # veraPDF is a Java application distributed via
-        # https://github.com/veraPDF/veraPDF-library/releases.  We pin to a
-        # known stable release for reproducibility; update VERAPDF_VERSION when
-        # a new stable release is published.
+        # The uber-JAR greenfield-apps-<version>.jar is published to Maven Central
+        # at org.verapdf.apps:greenfield-apps.  We download it and create a thin
+        # wrapper script so that `verapdf` is available on PATH.
+        # Update VERAPDF_VERSION when a new stable release is published to Maven
+        # Central (https://repo1.maven.org/maven2/org/verapdf/apps/greenfield-apps/).
         if: steps.meta.outputs.run_verapdf == 'true'
         run: |
           sudo apt-get install -y --no-install-recommends default-jre-headless
           VERAPDF_VERSION="1.28.2"
+          MAVEN_BASE="https://repo1.maven.org/maven2/org/verapdf/apps/greenfield-apps"
           mkdir -p /tmp/verapdf-install
           curl -fsSL \
-            "https://github.com/veraPDF/veraPDF-library/releases/download/v${VERAPDF_VERSION}/verapdf-greenfield-${VERAPDF_VERSION}.zip" \
-            -o /tmp/verapdf-install/verapdf.zip
-          unzip -q /tmp/verapdf-install/verapdf.zip -d /tmp/verapdf-install/
-          VERAPDF_BIN=$(find /tmp/verapdf-install -maxdepth 2 -name "verapdf" -type f | head -1)
-          if [ -z "$VERAPDF_BIN" ]; then
-            echo "::error::veraPDF binary not found after extraction"
-            exit 1
-          fi
-          VERAPDF_DIR=$(dirname "$VERAPDF_BIN")
-          echo "$VERAPDF_DIR" >> "$GITHUB_PATH"
-          echo "veraPDF installed from $VERAPDF_DIR"
-          "$VERAPDF_BIN" --version || true
+            "${MAVEN_BASE}/${VERAPDF_VERSION}/greenfield-apps-${VERAPDF_VERSION}.jar" \
+            -o /tmp/verapdf-install/greenfield-apps.jar
+          # Create a thin wrapper script so `verapdf` is on PATH
+          printf '#!/bin/sh\nexec java -cp /tmp/verapdf-install/greenfield-apps.jar org.verapdf.apps.GreenfieldCliWrapper "$@"\n' \
+            > /tmp/verapdf-install/verapdf
+          chmod +x /tmp/verapdf-install/verapdf
+          echo "/tmp/verapdf-install" >> "$GITHUB_PATH"
+          echo "veraPDF installed (Maven Central, v${VERAPDF_VERSION})"
+          /tmp/verapdf-install/verapdf --version || true
 
       - name: Analyse PDFs for accessibility issues
         env:
