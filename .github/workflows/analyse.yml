@@ -8,6 +8,11 @@ on:
         required: false
         default: "false"
         type: string
+      site:
+        description: "Site/domain to restrict analysis to (e.g. example.com). Leave blank to process all pending entries."
+        required: false
+        default: ""
+        type: string
   workflow_run:
     workflows: ["1 - Crawl Site for PDFs"]
     types: [completed]
@@ -214,7 +219,8 @@ jobs:
 
       - name: Read scan metadata
         id: meta
-        if: github.event_name == 'workflow_run'
+        env:
+          DISPATCH_SITE: ${{ github.event.inputs.site }}
         run: |
           ISSUE_NUMBER=""
           CRAWL_URL=""
@@ -222,32 +228,38 @@ jobs:
           MAX_PAGES="500"
           MAX_PDFS="200"
           RUN_VERAPDF="false"
-          if [ -f scan-meta/issue_number.txt ]; then
-            ISSUE_NUMBER=$(cat scan-meta/issue_number.txt | tr -d '[:space:]')
-          fi
-          if [ -f scan-meta/crawl_url.txt ]; then
-            CRAWL_URL=$(cat scan-meta/crawl_url.txt | tr -d '[:space:]')
-          fi
-          if [ -f scan-meta/crawl_site.txt ]; then
-            CRAWL_SITE=$(cat scan-meta/crawl_site.txt | tr -d '[:space:]')
-          fi
-          if [ -f scan-meta/max_pages.txt ]; then
-            PARSED=$(cat scan-meta/max_pages.txt | tr -d '[:space:]')
-            if echo "$PARSED" | grep -Eq '^[0-9]+$'; then
-              MAX_PAGES="$PARSED"
+          if [ "${{ github.event_name }}" = "workflow_run" ]; then
+            # workflow_run: read metadata from the scan-meta artifact left by the crawl.
+            if [ -f scan-meta/issue_number.txt ]; then
+              ISSUE_NUMBER=$(cat scan-meta/issue_number.txt | tr -d '[:space:]')
             fi
-          fi
-          if [ -f scan-meta/max_pdfs.txt ]; then
-            PARSED=$(cat scan-meta/max_pdfs.txt | tr -d '[:space:]')
-            if echo "$PARSED" | grep -Eq '^[0-9]+$'; then
-              MAX_PDFS="$PARSED"
+            if [ -f scan-meta/crawl_url.txt ]; then
+              CRAWL_URL=$(cat scan-meta/crawl_url.txt | tr -d '[:space:]')
             fi
-          fi
-          if [ -f scan-meta/verapdf.txt ]; then
-            PARSED=$(cat scan-meta/verapdf.txt | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')
-            if [ "$PARSED" = "true" ]; then
-              RUN_VERAPDF="true"
+            if [ -f scan-meta/crawl_site.txt ]; then
+              CRAWL_SITE=$(cat scan-meta/crawl_site.txt | tr -d '[:space:]')
             fi
+            if [ -f scan-meta/max_pages.txt ]; then
+              PARSED=$(cat scan-meta/max_pages.txt | tr -d '[:space:]')
+              if echo "$PARSED" | grep -Eq '^[0-9]+$'; then
+                MAX_PAGES="$PARSED"
+              fi
+            fi
+            if [ -f scan-meta/max_pdfs.txt ]; then
+              PARSED=$(cat scan-meta/max_pdfs.txt | tr -d '[:space:]')
+              if echo "$PARSED" | grep -Eq '^[0-9]+$'; then
+                MAX_PDFS="$PARSED"
+              fi
+            fi
+            if [ -f scan-meta/verapdf.txt ]; then
+              PARSED=$(cat scan-meta/verapdf.txt | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')
+              if [ "$PARSED" = "true" ]; then
+                RUN_VERAPDF="true"
+              fi
+            fi
+          else
+            # workflow_dispatch: read the optional site input directly.
+            CRAWL_SITE=$(echo "$DISPATCH_SITE" | tr -d '[:space:]')
           fi
           echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
           echo "crawl_url=$CRAWL_URL"       >> "$GITHUB_OUTPUT"
@@ -320,6 +332,30 @@ jobs:
             $MAX_FILES_FLAG \
             $VERAPDF_FLAG \
             $KEEP_FLAG
+
+      - name: Check stale entries and flag for re-crawl
+        id: stale_check
+        env:
+          CRAWL_URL:    ${{ steps.meta.outputs.crawl_url }}
+          CRAWL_SITE:   ${{ steps.meta.outputs.crawl_site }}
+        run: |
+          # Path matches STALE_COUNT_FILE in scripts/pdf_analyser.py
+          STALE_COUNT=$(cat /tmp/pdf_analyser_stale.txt 2>/dev/null || echo "0")
+          # Treat non-numeric content as 0
+          if ! echo "$STALE_COUNT" | grep -Eq '^[0-9]+$'; then
+            STALE_COUNT="0"
+          fi
+          echo "stale_count=$STALE_COUNT" >> "$GITHUB_OUTPUT"
+          # Request a re-crawl when more than one stale entry was found and the
+          # triggering site is known. A single stale entry may be a one-off;
+          # multiple stale entries strongly suggest the previous crawl artifact
+          # expired before analysis could complete.
+          NEEDS_RECRAWL="false"
+          if [ "$STALE_COUNT" -gt 1 ] && [ -n "$CRAWL_SITE" ]; then
+            NEEDS_RECRAWL="true"
+          fi
+          echo "needs_recrawl=$NEEDS_RECRAWL" >> "$GITHUB_OUTPUT"
+          echo "Stale entries: $STALE_COUNT, needs_recrawl: $NEEDS_RECRAWL"
 
       - name: Generate accessibility reports
         env:
@@ -540,7 +576,8 @@ jobs:
       - name: Close issue after scan and report
         if: >-
           github.event_name == 'workflow_run' &&
-          steps.meta.outputs.issue_number != ''
+          steps.meta.outputs.issue_number != '' &&
+          steps.stale_check.outputs.needs_recrawl != 'true'
         uses: actions/github-script@v8
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
@@ -557,6 +594,68 @@ jobs:
               state: 'closed',
               state_reason: 'completed',
             });
+
+      - name: Request re-crawl when stale entries found
+        if: >-
+          github.event_name == 'workflow_run' &&
+          steps.meta.outputs.issue_number != '' &&
+          steps.stale_check.outputs.needs_recrawl == 'true'
+        uses: actions/github-script@v8
+        env:
+          ISSUE_NUMBER:  ${{ steps.meta.outputs.issue_number }}
+          CRAWL_URL:     ${{ steps.meta.outputs.crawl_url }}
+          CRAWL_SITE:    ${{ steps.meta.outputs.crawl_site }}
+          STALE_COUNT:   ${{ steps.stale_check.outputs.stale_count }}
+          RUN_URL:       https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const issueNumber = parseInt(process.env.ISSUE_NUMBER, 10);
+            if (!Number.isInteger(issueNumber) || issueNumber <= 0) return;
+            const crawlUrl   = process.env.CRAWL_URL || '(unknown)';
+            const staleCount = process.env.STALE_COUNT || '0';
+            const runUrl     = process.env.RUN_URL;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              issue_number: issueNumber,
+              body: [
+                `♻️ **Re-crawl needed** for \`${crawlUrl}\`.`,
+                ``,
+                `${staleCount} pending manifest entries were found whose downloaded files`,
+                `are no longer available (the GitHub Actions artifact from the previous`,
+                `crawl has likely expired).`,
+                ``,
+                `**To re-scan this site:** close and reopen this issue, or open a new`,
+                `issue with the same URL. The crawler will download fresh files and`,
+                `analyse them automatically.`,
+                ``,
+                `[View workflow run](${runUrl})`,
+              ].join('\n'),
+            });
+
+            // Remove scan-in-progress / scan-complete labels and add scan-failed
+            // so the issue status is clearly visible.
+            for (const label of ['scan-in-progress', 'scan-complete']) {
+              try {
+                await github.rest.issues.removeLabel({
+                  owner: context.repo.owner,
+                  repo:  context.repo.repo,
+                  issue_number: issueNumber,
+                  name: label,
+                });
+              } catch (err) {
+                if (err.status !== 404) throw err;
+              }
+            }
+            try {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo:  context.repo.repo,
+                issue_number: issueNumber,
+                labels: ['scan-failed'],
+              });
+            } catch (_) {}
 
       # -----------------------------------------------------------------------
       # Runs only when the job is cancelled (e.g. 60-minute job timeout).

@@ -61,6 +61,9 @@ from manifest import (
 # the simplified monitoring requirements under Commission Decision 2018/1524.
 DEADLINE_DATE_STR = "2018-09-23T00:00:00+02:00"
 
+# Path where main() writes the stale entry count after each run, so that the
+# calling workflow can check it without parsing stdout.
+STALE_COUNT_FILE = "/tmp/pdf_analyser_stale.txt"
 
 # ---------------------------------------------------------------------------
 # Optional veraPDF validation
@@ -692,7 +695,7 @@ def main(
     max_files: Optional[int] = None,
     total_timeout: Optional[int] = None,
     run_verapdf: bool = False,
-) -> None:
+) -> int:
     """Analyse pending PDFs and update the manifest.
 
     Args:
@@ -719,6 +722,12 @@ def main(
         run_verapdf: When True, run veraPDF (PDF/UA-1) against each PDF if
             ``verapdf`` is available on PATH and store the result in the
             manifest under the ``veraPDF`` key.
+
+    Returns:
+        The number of stale manifest entries found (pending entries whose
+        local file is missing and whose ``crawled_at`` is older than
+        ``max_age_days``).  Returns 0 when ``max_age_days`` is not set or
+        no stale entries exist.
     """
     print(f"pikepdf version: {pikepdf.__version__}")
 
@@ -731,7 +740,7 @@ def main(
 
     if not pending:
         print("No pending entries in manifest – nothing to do.")
-        return
+        return 0
 
     print(f"Analysing {len(pending)} pending file(s)…")
     if max_files is not None:
@@ -754,6 +763,7 @@ def main(
     broken_count = 0
     error_count = 0
     file_not_found_count = 0
+    stale_count = 0
     skipped_count = 0
     files_analysed_count = 0
 
@@ -829,6 +839,8 @@ def main(
             entries = mark_error(entries, url, [error_msg])
             save_manifest(entries, manifest_path)
             file_not_found_count += 1
+            if is_stale:
+                stale_count += 1
             continue
 
         # Skip non-PDF files – pikepdf can only analyse PDF documents.
@@ -966,7 +978,7 @@ def main(
         f"Issues found: {issues_count}, "
         f"Broken: {broken_count}, "
         f"Errors: {error_count}, "
-        f"File not found: {file_not_found_count}, "
+        f"File not found: {file_not_found_count} (stale: {stale_count}), "
         f"Skipped (non-PDF or too large): {skipped_count}."
     )
     if file_not_found_count > 0:
@@ -982,6 +994,24 @@ def main(
             "  To suppress these warnings for old entries, re-run with "
             "--max-age-days N."
         )
+    if stale_count > 0:
+        stale_word = "entry" if stale_count == 1 else "entries"
+        print(
+            f"\n  ♻ {stale_count} stale manifest {stale_word} found (pending files "
+            f"older than {max_age_days} day(s) with no local copy).\n"
+            "  These entries are from a previous crawl whose downloaded files are no "
+            "longer available.\n"
+            "  Re-crawl the site to refresh them."
+        )
+
+    # Write stale count to a file so the calling workflow can check it.
+    try:
+        import pathlib
+        pathlib.Path(STALE_COUNT_FILE).write_text(str(stale_count))
+    except OSError:
+        pass
+
+    return stale_count
 
 
 if __name__ == "__main__":
