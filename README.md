@@ -93,6 +93,25 @@ If a crawl fails (the issue is labelled `scan-failed`), you can restart it by
 **closing and then reopening** the issue.  The crawler will pick up the
 `reopened` event and start a fresh crawl.
 
+#### Abandoned scans
+
+Occasionally the analysis step does not start after a successful crawl.  This
+can happen when many issues are opened at the same time and GitHub's
+`workflow_run` event queue becomes saturated.  The scan then appears stuck with
+a `scan-in-progress` label indefinitely.
+
+The **4 – Rescue Abandoned Scans** workflow detects these stuck issues
+automatically:
+
+* It runs **every day at 06:00 UTC**.
+* It can also be triggered manually via
+  **Actions → 4 – Rescue Abandoned Scans → Run workflow**.
+* Any issue that has been in `scan-in-progress` for more than **3 hours**
+  without a `scan-complete` or `scan-failed` label is marked `scan-failed`
+  and a comment is posted explaining what happened and how to retry.
+* Issues that carry *both* `scan-in-progress` and `scan-complete` (a stale
+  label left over from an earlier run) are silently tidied up.
+
 #### Issue lifecycle
 
 | Label | Meaning |
@@ -188,6 +207,8 @@ Repeat this process until the crawl completes within the time limit.
 |----------|------|---------|
 | Crawl Site for PDFs | `.github/workflows/crawl.yml` | Manual dispatch or issue opened/reopened with `SCAN:` title (legacy: `PDF-CRAWL:`) |
 | Analyse PDFs for Accessibility | `.github/workflows/analyse.yml` | After crawl succeeds, or manual dispatch |
+| Process Scan Queue | `.github/workflows/process_scan_queue.yml` | Manual dispatch |
+| Rescue Abandoned Scans | `.github/workflows/rescue_abandoned_scans.yml` | Daily at 06:00 UTC, or manual dispatch |
 
 ---
 
