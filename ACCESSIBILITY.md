@@ -199,7 +199,100 @@ Relevant specifications:
 - [ARIA Informative (YAML)](https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/wai-aria-informative.yaml) – ARIA roles and properties for form controls
 - [HTML Living Standard Accessibility (YAML)](https://github.com/mgifford/wai-yaml-ld/blob/main/kitty-specs/001-wai-standards-yaml-ld-ingestion/research/html-living-standard-accessibility.yaml) – HTML form element accessibility
 
-## 10. Known Limitations
+## 10. CI/CD Accessibility Integration
+
+Integrating accessibility checks into the CI/CD pipeline catches regressions before
+they reach users. This section documents the automated checks, workflow design
+principles, and guidance for contributors. It is adapted from the
+[CI/CD Accessibility Best Practices](https://mgifford.github.io/ACCESSIBILITY.md/examples/CI_CD_ACCESSIBILITY_BEST_PRACTICES.html)
+guide.
+
+### 10.1 Principles
+
+- **Local-first:** Run accessibility checks locally before pushing code; CI is
+  a safety net, not the first line of defence.
+- **Zero alert-fatigue:** Scheduled scans are skipped when open accessibility
+  issues already exist, so every new alert remains actionable.
+- **Minimal compute:** CI steps that are not needed for every commit are guarded
+  by path filters or manual/scheduled triggers only.
+- **Structured output (AI-ready):** Reports are produced in JSON so that
+  automated tooling and AI agents can triage and remediate findings.
+
+### 10.2 Automated Checks in This Repository
+
+| Workflow | Trigger | What it checks |
+|---|---|---|
+| `crawl.yml` | Issue opened / workflow_dispatch | Crawls a target site for PDF files |
+| `analyse.yml` | After crawl succeeds / workflow_dispatch | WCAG / PDF/UA accessibility of each PDF |
+| `pages.yml` | Push to `docs/**` / workflow_dispatch | Deploys the GitHub Pages form |
+| `a11y-scan.yml` | Monthly + workflow_dispatch | Automated accessibility scan of `docs/index.html` via pa11y-ci |
+| `rescue_abandoned_scans.yml` | Daily at 06:00 UTC / workflow_dispatch | Detects and cleans up stalled scan issues |
+
+### 10.3 Workflow Design Rules
+
+The following rules apply to *any* change that touches a GitHub Actions workflow
+file in this repository:
+
+- **Path filters on push triggers:** Only run a deployment or check when the
+  files it depends on have actually changed.  `pages.yml` uses `paths: ['docs/**']`
+  so that commits to `reports/manifest.yaml` do not trigger redundant deployments.
+- **No unconditional always-on push steps:** Do not add CI steps that fire on
+  every push without a path filter or a `workflow_run` guard.
+- **Pinned action versions:** All `uses:` references must be pinned to a specific
+  major version tag (e.g. `actions/checkout@v6`) and updated deliberately.
+- **Explicit `timeout-minutes`:** Every job that runs external tools must declare
+  a `timeout-minutes` value to prevent runaway billable-minute consumption.
+- **Minimal permissions:** Each workflow declares only the GitHub token permissions
+  it actually uses (`contents: write`, `issues: write`, `pages: write`, etc.).
+
+### 10.4 Scheduled Accessibility Scan (`a11y-scan.yml`)
+
+A monthly, low-footprint workflow checks `docs/index.html` for WCAG violations
+using [pa11y](https://github.com/pa11y/pa11y) via a static file scan.  It follows
+the **zero alert-fatigue** pattern from the CI/CD Best Practices guide:
+
+```yaml
+- name: Check for existing open accessibility issues
+  run: |
+    COUNT=$(gh issue list --label "accessibility" --state open --json number \
+              --jq '. | length')
+    echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+
+- name: Run pa11y accessibility scan
+  if: steps.check.outputs.count == '0'
+  ...
+```
+
+If any open issues labelled `accessibility` already exist, the scan step is
+skipped.  When the scan finds new violations, a GitHub Issue is automatically
+opened with the `accessibility` label so they can be triaged and fixed.
+
+### 10.5 Local Accessibility Testing
+
+Contributors can run pa11y locally before pushing:
+
+```bash
+npm install -g pa11y
+pa11y --standard WCAG2AA file:docs/index.html
+```
+
+For richer reporting (JSON output suitable for AI analysis):
+
+```bash
+pa11y --standard WCAG2AA --reporter json file:docs/index.html
+```
+
+### 10.6 Recommended Tools
+
+| Tool | Purpose | When to use |
+|---|---|---|
+| [pa11y](https://github.com/pa11y/pa11y) | WCAG automated scan | Scheduled CI checks, local pre-push checks |
+| [Lighthouse CI](https://github.com/GoogleChrome/lighthouse-ci) | Performance + accessibility auditing | Manual deep-audits of the live Pages URL |
+| [axe-core](https://github.com/dequelabs/axe-core) | In-browser rule engine | Playwright/Puppeteer end-to-end test suites |
+| [AccessLint](https://github.com/accesslint) | PR inline comments | Secondary review gate during code review |
+| [Open-Scans](https://github.com/mgifford/open-scans) | External multi-engine scan | Periodic out-of-band audits against the live site |
+
+## 11. Known Limitations
 
 - Automated PDF checks cover a subset of WCAG/PDF UA requirements; a "Pass"
   result does not guarantee full accessibility.
@@ -209,14 +302,14 @@ Relevant specifications:
 - The GitHub Pages form has no server-side component; JavaScript must be
   enabled for URL validation and crawl-request submission.
 
-## 11. Getting Help
+## 12. Getting Help
 
 - **Questions:** Open a [discussion](https://github.com/mgifford/pdf-crawler/discussions)
 - **Bugs or accessibility barriers:** Open an [issue](https://github.com/mgifford/pdf-crawler/issues)
 - **Contributions:** See [CONTRIBUTING.md](./CONTRIBUTING.md) (if present)
 - **Accommodations:** Request via the `accessibility-accommodation` label
 
-## 12. Continuous Improvement
+## 13. Continuous Improvement
 
 We regularly review and update:
 

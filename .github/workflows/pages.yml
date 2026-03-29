@@ -3,6 +3,10 @@ name: Deploy GitHub Pages
 on:
   push:
     branches: [main]
+    # Only deploy when docs/ actually changes – prevents a redundant deployment
+    # every time crawl.yml commits manifest.yaml without touching docs/.
+    paths:
+      - "docs/**"
   workflow_dispatch:
 
 # Allow only one concurrent deployment; skip runs queued between the run
