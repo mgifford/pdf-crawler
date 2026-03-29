@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-27T19:15:46.917395+00:00
+Generated: 2026-03-29T22:54:09.655459+00:00
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-03-27T19:15:46.917395+00:00
 |--------|-------|
 | Total files tracked | 18520 |
 | Analysed | 5117 |
-| Pending analysis | 10514 |
-| Errors during analysis | 2889 |
+| Pending analysis | 10513 |
+| Errors during analysis | 2890 |
 | Accessible | 1631 |
 | Totally inaccessible | 170 |
 | Broken / unreadable | 5 |
@@ -43581,3 +43581,9 @@ Generated: 2026-03-27T19:15:46.917395+00:00
 - **URL**: https://doit.maryland.gov/policies/ci/Documents/Maryland-IT-Security-Manual-v1-2.pdf
 - **Status**: analysed
 - title, lang, no bookmarks and more than 20 pages, 
+
+### records-management.pdf
+
+- **URL**: https://www.nsf.gov/oirm/das/records-management
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:08:34.569016+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
