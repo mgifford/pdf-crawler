@@ -57,7 +57,7 @@ This policy applies to:
 
 - **Repository:** `mgifford/pdf-crawler`
 - **GitHub Pages web interface:** `docs/index.html`
-- **GitHub Actions workflows:** `crawl.yml`, `analyse.yml`, `pages.yml`, `process_scan_queue.yml`
+- **GitHub Actions workflows:** `crawl.yml`, `analyse.yml`, `pages.yml`, `process_scan_queue.yml`, `rescue_abandoned_scans.yml`, `a11y-scan.yml`
 - **Python scripts:** `scripts/` directory
 - **Third-party services:** GitHub Actions hosted runners, GitHub Pages CDN
 

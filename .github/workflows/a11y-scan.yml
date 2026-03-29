@@ -1,0 +1,156 @@
+name: "Accessibility Scan – GitHub Pages Form"
+
+# Runs a lightweight pa11y WCAG 2.2 AA scan of docs/index.html.
+#
+# Zero alert-fatigue design:
+#   If any GitHub Issues labelled "accessibility" are already open, the scan
+#   step is skipped.  This prevents duplicate reports flooding the issue tracker
+#   while real issues are being fixed.
+#
+# When new violations are found, a GitHub Issue is opened automatically with
+# the "accessibility" label so it can be triaged and fixed.
+#
+# Guidance: https://mgifford.github.io/ACCESSIBILITY.md/examples/CI_CD_ACCESSIBILITY_BEST_PRACTICES.html
+
+on:
+  workflow_dispatch:  # Manual trigger for on-demand audits
+  schedule:
+    # Run on the first day of every month at 07:00 UTC.
+    - cron: "0 7 1 * *"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      # -----------------------------------------------------------------
+      # Gate: skip the scan if open accessibility issues already exist.
+      # This prevents alert fatigue while real issues are being fixed.
+      # -----------------------------------------------------------------
+      - name: Check for existing open accessibility issues
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          COUNT=$(gh issue list \
+            --label "accessibility" \
+            --state open \
+            --json number \
+            --jq '. | length' \
+            --repo "${{ github.repository }}")
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          if [ "$COUNT" -gt 0 ]; then
+            echo "::notice::$COUNT open accessibility issue(s) found – scan skipped to prevent alert fatigue."
+          fi
+
+      # -----------------------------------------------------------------
+      # Install pa11y for static-file WCAG scanning (no server needed).
+      # -----------------------------------------------------------------
+      - name: Set up Node.js
+        if: steps.check.outputs.count == '0'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install pa11y
+        if: steps.check.outputs.count == '0'
+        run: npm install -g pa11y
+
+      # -----------------------------------------------------------------
+      # Run the scan against the local docs/index.html file.
+      # The "file://" protocol lets pa11y audit without a live server.
+      # Output is JSON for structured (AI-ready) downstream consumption.
+      # Exit code 2 = violations found; we capture it and open an issue.
+      # -----------------------------------------------------------------
+      - name: Run pa11y WCAG 2.2 AA scan
+        id: scan
+        if: steps.check.outputs.count == '0'
+        run: |
+          set +e
+          pa11y \
+            --standard WCAG2AA \
+            --reporter json \
+            "file://$(pwd)/docs/index.html" \
+            > /tmp/pa11y-report.json 2>/tmp/pa11y-stderr.txt
+          EXIT_CODE=$?
+          set -e
+          echo "exit_code=$EXIT_CODE" >> "$GITHUB_OUTPUT"
+          if [ "$EXIT_CODE" -eq 0 ]; then
+            echo "::notice::No accessibility violations found."
+          elif [ "$EXIT_CODE" -eq 2 ]; then
+            COUNT=$(python3 -c "import json,sys; d=json.load(open('/tmp/pa11y-report.json')); print(len(d))" \
+                    2>/tmp/pa11y-count-err.txt || cat /tmp/pa11y-count-err.txt)
+            echo "::warning::pa11y found accessibility violations (count: $COUNT)."
+          else
+            echo "::warning::pa11y exited with unexpected code $EXIT_CODE."
+            cat /tmp/pa11y-stderr.txt || true
+          fi
+
+      # -----------------------------------------------------------------
+      # Open a GitHub Issue when violations are found.
+      # The issue body includes the full JSON report for AI-assisted triage.
+      # -----------------------------------------------------------------
+      - name: Open accessibility issue for violations found
+        if: >-
+          steps.check.outputs.count == '0' &&
+          steps.scan.outputs.exit_code == '2'
+        uses: actions/github-script@v8
+        env:
+          REPORT_PATH: /tmp/pa11y-report.json
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const fs  = require('fs');
+            const runUrl = process.env.RUN_URL;
+
+            // Truncation limits for the violations table in the issue body.
+            const MAX_MESSAGE_LEN  = 120;
+            const MAX_SELECTOR_LEN = 80;
+
+            let violations = [];
+            try {
+              violations = JSON.parse(fs.readFileSync(process.env.REPORT_PATH, 'utf8'));
+            } catch (_) {}
+
+            const count = violations.length;
+
+            // Build a concise summary table (up to 20 rows).
+            const rows = violations.slice(0, 20).map(v =>
+              `| ${v.code || '—'} | ${(v.message || '').replace(/\|/g, '\\|').slice(0, MAX_MESSAGE_LEN)} | \`${(v.selector || '').slice(0, MAX_SELECTOR_LEN)}\` |`
+            );
+            const truncated = count > 20 ? `\n_(showing first 20 of ${count} violations)_` : '';
+
+            const body = [
+              `## Automated Accessibility Scan – \`docs/index.html\``,
+              ``,
+              `The monthly pa11y WCAG 2.2 AA scan found **${count} violation${count === 1 ? '' : 's'}**.`,
+              ``,
+              `| Rule | Message | Selector |`,
+              `|---|---|---|`,
+              ...rows,
+              truncated,
+              ``,
+              `**Next steps:**`,
+              `1. Review the violations above (or download the full JSON from the [workflow run](${runUrl})).`,
+              `2. Fix each violation in \`docs/index.html\` following the guidance in [ACCESSIBILITY.md §6](./ACCESSIBILITY.md#6-form-accessibility).`,
+              `3. Re-run the scan manually via the [Accessibility Scan workflow](${runUrl}) to confirm the fix.`,
+              `4. Close this issue once all violations are resolved.`,
+              ``,
+              `> _Opened automatically by the [Accessibility Scan workflow](${runUrl})._`,
+            ].join('\n');
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo:  context.repo.repo,
+              title: `Accessibility: pa11y WCAG 2.2 AA violations in docs/index.html (${count} issue${count === 1 ? '' : 's'})`,
+              body,
+              labels: ['accessibility'],
+            });
