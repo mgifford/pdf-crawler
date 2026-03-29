@@ -1,0 +1,242 @@
+name: "4 - Rescue Abandoned Scans"
+
+# Detects and cleans up issues that became stuck mid-scan:
+#
+#   Abandoned  – has "scan-in-progress" but NOT "scan-complete" or
+#                "scan-failed", and has not been updated in > stale_hours.
+#                Root cause: the analysis workflow_run trigger occasionally
+#                fails to fire when many crawls land simultaneously.
+#                Action: mark as scan-failed and comment with retry instructions.
+#
+#   Label-drift – has BOTH "scan-in-progress" AND "scan-complete".
+#                The cleanup step in analyse.yml or process_scan_queue.yml
+#                may have failed to remove the in-progress label.
+#                Action: silently remove the stale scan-in-progress label.
+
+on:
+  workflow_dispatch:
+    inputs:
+      stale_hours:
+        description: >
+          Hours since last issue update before a stuck scan is considered
+          abandoned (default: 3)
+        required: false
+        default: "3"
+        type: string
+      dry_run:
+        description: >
+          Report what would be done without making any changes (default: false)
+        required: false
+        default: "false"
+        type: choice
+        options:
+          - "false"
+          - "true"
+
+  schedule:
+    # Run once a day at 06:00 UTC to catch scans abandoned overnight.
+    - cron: "0 6 * * *"
+
+permissions:
+  issues: write
+
+jobs:
+  # ---------------------------------------------------------------------------
+  # Job 1: find all open issues that carry the scan-in-progress label
+  # ---------------------------------------------------------------------------
+  find:
+    runs-on: ubuntu-latest
+
+    outputs:
+      abandoned:    ${{ steps.classify.outputs.abandoned }}
+      label_drift:  ${{ steps.classify.outputs.label_drift }}
+      abandoned_count:   ${{ steps.classify.outputs.abandoned_count }}
+      label_drift_count: ${{ steps.classify.outputs.label_drift_count }}
+      dry_run: ${{ steps.classify.outputs.dry_run }}
+
+    steps:
+      - name: Classify stuck scan issues
+        id: classify
+        uses: actions/github-script@v8
+        env:
+          STALE_HOURS: ${{ inputs.stale_hours || '3' }}
+          DRY_RUN:     ${{ inputs.dry_run || 'false' }}
+        with:
+          script: |
+            const staleHours = parseFloat(process.env.STALE_HOURS) || 3;
+            const dryRun     = process.env.DRY_RUN === 'true';
+            const now        = Date.now();
+            const staleMs    = staleHours * 60 * 60 * 1000;
+
+            core.info(`Scanning for issues stuck in scan-in-progress for >${staleHours}h (dry_run=${dryRun})`);
+
+            // Fetch every open issue that carries scan-in-progress.
+            const issues = await github.paginate(
+              github.rest.issues.listForRepo,
+              {
+                owner:    context.repo.owner,
+                repo:     context.repo.repo,
+                state:    'open',
+                labels:   'scan-in-progress',
+                per_page: 100,
+              }
+            );
+
+            // Filter out PRs (they can carry labels too).
+            const scanIssues = issues.filter(i => !i.pull_request);
+
+            const abandoned   = [];
+            const labelDrift  = [];
+
+            for (const issue of scanIssues) {
+              const labels = issue.labels.map(l => l.name);
+              const hasComplete = labels.includes('scan-complete');
+              const hasFailed   = labels.includes('scan-failed');
+              const updatedAt   = new Date(issue.updated_at).getTime();
+              const ageMs       = now - updatedAt;
+
+              if (hasComplete) {
+                // Label-drift: scan finished but scan-in-progress was not removed.
+                labelDrift.push(issue.number);
+                core.info(`#${issue.number} label-drift (scan-complete present)`);
+              } else if (!hasFailed && ageMs > staleMs) {
+                // Truly abandoned: no completion or failure signal, stale for too long.
+                abandoned.push(issue.number);
+                const ageH = (ageMs / 3600000).toFixed(1);
+                core.info(`#${issue.number} abandoned (${ageH}h since last update, threshold ${staleHours}h)`);
+              } else {
+                // Still within the grace period – leave it alone.
+                const ageH = (ageMs / 3600000).toFixed(1);
+                core.info(`#${issue.number} still within grace period (${ageH}h old) – skipping`);
+              }
+            }
+
+            core.info(`Results: ${abandoned.length} abandoned, ${labelDrift.length} label-drift`);
+
+            core.setOutput('abandoned',          JSON.stringify(abandoned));
+            core.setOutput('label_drift',        JSON.stringify(labelDrift));
+            core.setOutput('abandoned_count',    String(abandoned.length));
+            core.setOutput('label_drift_count',  String(labelDrift.length));
+            core.setOutput('dry_run',            String(dryRun));
+
+  # ---------------------------------------------------------------------------
+  # Job 2: remove the stale scan-in-progress label from completed issues
+  # ---------------------------------------------------------------------------
+  cleanup_label_drift:
+    needs: find
+    if: needs.find.outputs.label_drift_count != '0'
+    runs-on: ubuntu-latest
+
+    strategy:
+      max-parallel: 1
+      matrix:
+        issue_number: ${{ fromJson(needs.find.outputs.label_drift) }}
+
+    steps:
+      - name: Remove stale scan-in-progress label
+        if: needs.find.outputs.dry_run != 'true'
+        uses: actions/github-script@v8
+        env:
+          ISSUE_NUMBER: ${{ matrix.issue_number }}
+        with:
+          script: |
+            const issueNumber = parseInt(process.env.ISSUE_NUMBER, 10);
+            try {
+              await github.rest.issues.removeLabel({
+                owner:        context.repo.owner,
+                repo:         context.repo.repo,
+                issue_number: issueNumber,
+                name:         'scan-in-progress',
+              });
+              core.info(`#${issueNumber}: removed stale scan-in-progress label`);
+            } catch (err) {
+              if (err.status !== 404) throw err;
+              core.info(`#${issueNumber}: scan-in-progress label was already absent`);
+            }
+
+      - name: Dry-run log (label-drift)
+        if: needs.find.outputs.dry_run == 'true'
+        run: |
+          echo "[dry-run] Would remove scan-in-progress label from issue #${{ matrix.issue_number }}"
+
+  # ---------------------------------------------------------------------------
+  # Job 3: mark truly abandoned scans as failed and ask the author to retry
+  # ---------------------------------------------------------------------------
+  rescue_abandoned:
+    needs: find
+    if: needs.find.outputs.abandoned_count != '0'
+    runs-on: ubuntu-latest
+
+    strategy:
+      max-parallel: 1
+      matrix:
+        issue_number: ${{ fromJson(needs.find.outputs.abandoned) }}
+
+    steps:
+      - name: Mark abandoned scan as failed and comment
+        if: needs.find.outputs.dry_run != 'true'
+        uses: actions/github-script@v8
+        env:
+          ISSUE_NUMBER: ${{ matrix.issue_number }}
+          STALE_HOURS:  ${{ inputs.stale_hours || '3' }}
+          RESCUE_RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          script: |
+            const issueNumber  = parseInt(process.env.ISSUE_NUMBER, 10);
+            const staleHours   = process.env.STALE_HOURS || '3';
+            const rescueRunUrl = process.env.RESCUE_RUN_URL;
+
+            // Fetch the issue to get its title (for the comment).
+            const { data: issue } = await github.rest.issues.get({
+              owner:        context.repo.owner,
+              repo:         context.repo.repo,
+              issue_number: issueNumber,
+            });
+
+            await github.rest.issues.createComment({
+              owner:        context.repo.owner,
+              repo:         context.repo.repo,
+              issue_number: issueNumber,
+              body: [
+                `⚠️ **Scan appears to have stalled** for \`${issue.title}\`.`,
+                ``,
+                `The crawl completed successfully, but the accessibility-analysis step`,
+                `was never triggered (the \`workflow_run\` event occasionally fails to`,
+                `fire when many scans land at the same time).`,
+                ``,
+                `This issue has been marked **scan-failed** after being stuck in`,
+                `\`scan-in-progress\` for more than ${staleHours} hours with no progress.`,
+                ``,
+                `**To retry:** close this issue and reopen it — that will kick off a`,
+                `fresh crawl + analysis automatically.`,
+                ``,
+                `_(Detected by the [Rescue Abandoned Scans](${rescueRunUrl}) workflow.)_`,
+              ].join('\n'),
+            });
+
+            // Replace scan-in-progress with scan-failed.
+            try {
+              await github.rest.issues.removeLabel({
+                owner:        context.repo.owner,
+                repo:         context.repo.repo,
+                issue_number: issueNumber,
+                name:         'scan-in-progress',
+              });
+            } catch (err) {
+              if (err.status !== 404) throw err;
+            }
+            try {
+              await github.rest.issues.addLabels({
+                owner:        context.repo.owner,
+                repo:         context.repo.repo,
+                issue_number: issueNumber,
+                labels:       ['scan-failed'],
+              });
+            } catch (_) {}
+
+            core.info(`#${issueNumber}: marked as scan-failed and commented`);
+
+      - name: Dry-run log (abandoned)
+        if: needs.find.outputs.dry_run == 'true'
+        run: |
+          echo "[dry-run] Would mark issue #${{ matrix.issue_number }} as scan-failed and post retry instructions"

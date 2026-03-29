@@ -122,6 +122,7 @@ patterns in `tests/`.
 | Analyse PDFs for Accessibility | `analyse.yml` | After crawl succeeds, or manual dispatch |
 | Deploy GitHub Pages | `pages.yml` | After analysis, or manual dispatch |
 | Process Scan Queue | `process_scan_queue.yml` | Manual dispatch |
+| Rescue Abandoned Scans | `rescue_abandoned_scans.yml` | Daily at 06:00 UTC, or manual dispatch |
 
 ### Key workflow details
 
