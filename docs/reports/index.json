@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-30T15:02:46.230956+00:00",
+    "site": "slvboces.org",
+    "crawl_url": "https://www.slvboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23749712955",
+    "issue_url": "",
+    "archive_file": "2026-03-30_15-02-46-230_slvboces.org.html",
+    "total": 729,
+    "analysed": 220,
+    "accessible": 24
+  },
+  {
     "date": "2026-03-30T14:08:39.381262+00:00",
     "site": "ppboces.org",
     "crawl_url": "https://www.ppboces.org",

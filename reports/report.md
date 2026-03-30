@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-30T14:08:39.381262+00:00
+Generated: 2026-03-30T15:02:46.230956+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 306 |
-| Total files tracked | 18612 |
-| Analysed | 5218 |
-| Pending analysis | 10418 |
-| Errors during analysis | 2976 |
-| Accessible | 1651 |
-| Totally inaccessible | 172 |
+| URLs crawled | 352 |
+| Total files tracked | 18673 |
+| Analysed | 5239 |
+| Pending analysis | 10276 |
+| Errors during analysis | 3158 |
+| Accessible | 1653 |
+| Totally inaccessible | 183 |
 | Broken / unreadable | 5 |
-| Exempt (pre-2018) | 1223 |
+| Exempt (pre-2018) | 1224 |
 
 ## Files per Site
 
@@ -39,7 +39,7 @@ Generated: 2026-03-30T14:08:39.381262+00:00
 | doit.maryland.gov | 284 |
 | dot.state.mn.us | 44 |
 | ec.europa.eu | 199 |
-| ecboces.org | 14 |
+| ecboces.org | 75 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
 | energy.gov | 748 |
@@ -4776,6 +4776,27 @@ Generated: 2026-03-30T14:08:39.381262+00:00
 | [DFA_DFAA.pdf](https://slvboces.org/DFA_DFAA.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 543 | 0 |
 | [DFG.pdf](https://slvboces.org/DFG.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 91 | 0 |
 | [DG.pdf](https://slvboces.org/DG.pdf) | slvboces.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 152 | 0 |
+| [Data-Reporting-Specialist-.pdf](https://slvboces.org/Data-Reporting-Specialist-.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 9 |
+| [Delta-Dental.pdf](https://slvboces.org/Delta-Dental.pdf) | slvboces.org | 2022-05-12 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [ECSE-Teacher1.pdf](https://slvboces.org/ECSE-Teacher1.pdf) | slvboces.org | 2023-04-25 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 480 | 0 |
+| [Educational%20Audiologist%20.pdf](https://slvboces.org/Educational%20Audiologist%20.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 8 |
+| [Employee%20Handbook.docx.pdf](https://slvboces.org/Employee%20Handbook.docx.pdf) | slvboces.org | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 26 | 9512 | 1 |
+| [Enrollment-From.pdf](https://slvboces.org/Enrollment-From.pdf) | slvboces.org | 2022-09-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 393 | 0 |
+| [Evidence%20That%20Tier%201%20Instruction%20Is%20Working.pdf](https://slvboces.org/Evidence%20That%20Tier%201%20Instruction%20Is%20Working.pdf) | slvboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 556 | 0 |
+| [Executive-Administrative-Assistant-.pdf](https://slvboces.org/Executive-Administrative-Assistant-.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 12 |
+| [Executive-Director_-Director-of-Exceptional-Student-Services.pdf](https://slvboces.org/Executive-Director_-Director-of-Exceptional-Student-Services.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 17 |
+| [Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf](https://slvboces.org/Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 12 |
+| [Fingerpringing-Instructions.pdf](https://slvboces.org/Fingerpringing-Instructions.pdf) | slvboces.org | 2019-02-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 311 | 2 |
+| [Fingerprinting-Locations.pdf](https://slvboces.org/Fingerprinting-Locations.pdf) | slvboces.org | 2019-02-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 198 | 2 |
+| [Fingerprinting-Notice-to-Applicants.pdf](https://slvboces.org/Fingerprinting-Notice-to-Applicants.pdf) | slvboces.org | 2026-03-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 352 | 3 |
+| [First_Report_of_Injury%20%281%29-1.pdf](https://slvboces.org/First_Report_of_Injury%20%281%29-1.pdf) | slvboces.org | 2026-03-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 337 | 0 |
+| [Forms_%20Referral%20_English.pdf](https://slvboces.org/Forms_%20Referral%20_English.pdf) | slvboces.org | 2024-08-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 510 | 2 |
+| [Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf](https://slvboces.org/Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 13 |
+| [Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf](https://slvboces.org/Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 10 |
+| [Grants%20Coordinator%20.pdf](https://slvboces.org/Grants%20Coordinator%20.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 4 |
+| [HR-Intern.pdf](https://slvboces.org/HR-Intern.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 5 |
+| [Human-Resource-and-Payroll-Manager-.pdf](https://slvboces.org/Human-Resource-and-Payroll-Manager-.pdf) | slvboces.org | 2022-12-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 0 | 12 |
+| [Indicator-13-Compliance-Tips-July-20151.pdf](https://slvboces.org/Indicator-13-Compliance-Tips-July-20151.pdf) | slvboces.org | 2015-08-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 22 | 6834 | 55 |
 | [2025-26-CBA-Member-Directory.pdf](https://www.coloradoboces.org/wp-content/uploads/2025/08/2025-26-CBA-Member-Directory.pdf) | coloradoboces.org | 2025-08-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 654 | 4 |
 | [2026-February-AEPA-Newsletter.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/02/2026-February-AEPA-Newsletter.pdf) | coloradoboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 577 | 3 |
 | [2026-March-AEPA-Newsletter.pdf](https://www.coloradoboces.org/wp-content/uploads/2026/03/2026-March-AEPA-Newsletter.pdf) | coloradoboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 772 | 6 |
@@ -42495,6 +42516,1218 @@ Generated: 2026-03-30T14:08:39.381262+00:00
 - **URL**: https://slvboces.org/DG.pdf
 - **Status**: analysed
 - title, 
+
+### DH.pdf
+
+- **URL**: https://slvboces.org/DH.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.922420+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DHA.pdf
+
+- **URL**: https://slvboces.org/DHA.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.923810+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DID.pdf
+
+- **URL**: https://slvboces.org/DID.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.925173+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DJ-DJA_001.pdf
+
+- **URL**: https://slvboces.org/DJ-DJA_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.926433+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DJB.pdf
+
+- **URL**: https://slvboces.org/DJB.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.927812+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DJB_R.pdf
+
+- **URL**: https://slvboces.org/DJB_R.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.929158+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DJE.pdf
+
+- **URL**: https://slvboces.org/DJE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.930638+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DJG.pdf
+
+- **URL**: https://slvboces.org/DJG.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.931955+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DJ_DJA1.pdf
+
+- **URL**: https://slvboces.org/DJ_DJA1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.933298+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DKB.pdf
+
+- **URL**: https://slvboces.org/DKB.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.934608+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DKC1.pdf
+
+- **URL**: https://slvboces.org/DKC1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.935972+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Data-Reporting-Specialist-.pdf
+
+- **URL**: https://slvboces.org/Data-Reporting-Specialist-.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Deaf.pdf
+
+- **URL**: https://slvboces.org/Deaf.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.938705+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Dec_2019_BOCES_GT_Newsletter.pdf
+
+- **URL**: https://slvboces.org/Dec_2019_BOCES_GT_Newsletter.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.940382+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### December_2021_Board_Minutes.pdf
+
+- **URL**: https://slvboces.org/December_2021_Board_Minutes.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.941970+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Delta-Dental.pdf
+
+- **URL**: https://slvboces.org/Delta-Dental.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Differentiating_for_Gifted_Learners.pdf
+
+- **URL**: https://slvboces.org/Differentiating_for_Gifted_Learners.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.946619+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Differentiation_Tiered_Lessons_and_Elementary_Examples.pdf
+
+- **URL**: https://slvboces.org/Differentiation_Tiered_Lessons_and_Elementary_Examples.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.948743+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Dual-Enrollment-Fast-Facts%20%281%29.pdf
+
+- **URL**: https://slvboces.org/Dual-Enrollment-Fast-Facts%20%281%29.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.950166+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EBAB.pdf
+
+- **URL**: https://slvboces.org/EBAB.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.951456+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EBBB1.pdf
+
+- **URL**: https://slvboces.org/EBBB1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.952783+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EBCE1.pdf
+
+- **URL**: https://slvboces.org/EBCE1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.954091+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EC.pdf
+
+- **URL**: https://slvboces.org/EC.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.955407+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ECAF%20_1_.pdf
+
+- **URL**: https://slvboces.org/ECAF%20_1_.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.957070+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ECAF.pdf
+
+- **URL**: https://slvboces.org/ECAF.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.958800+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ECA_ECAB1.pdf
+
+- **URL**: https://slvboces.org/ECA_ECAB1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.960375+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ECSE-Teacher1.pdf
+
+- **URL**: https://slvboces.org/ECSE-Teacher1.pdf
+- **Status**: analysed
+- title, 
+
+### EEAE.pdf
+
+- **URL**: https://slvboces.org/EEAE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.963304+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EEAEA.pdf
+
+- **URL**: https://slvboces.org/EEAEA.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.964716+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EEAEAB.pdf
+
+- **URL**: https://slvboces.org/EEAEAB.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.966152+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EEAEAB_1_.pdf
+
+- **URL**: https://slvboces.org/EEAEAB_1_.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.967561+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EEAEAB_R.pdf
+
+- **URL**: https://slvboces.org/EEAEAB_R.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.969042+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EEAEG.pdf
+
+- **URL**: https://slvboces.org/EEAEG.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.970425+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EGAD.pdf
+
+- **URL**: https://slvboces.org/EGAD.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.971772+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EGAEA.pdf
+
+- **URL**: https://slvboces.org/EGAEA.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.973132+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EHB1.pdf
+
+- **URL**: https://slvboces.org/EHB1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.974549+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EI.pdf
+
+- **URL**: https://slvboces.org/EI.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.975876+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIE.pdf
+
+- **URL**: https://slvboces.org/EIE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.977282+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ESY-CDE-Manual-2011%282%29.pdf
+
+- **URL**: https://slvboces.org/ESY-CDE-Manual-2011%282%29.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.981934+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EXIT%20FLOW%20CHART%20rev%202012.pdf
+
+- **URL**: https://slvboces.org/EXIT%20FLOW%20CHART%20rev%202012.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.983239+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Early_Access_Application_Materials_for_Parents.pdf
+
+- **URL**: https://slvboces.org/Early_Access_Application_Materials_for_Parents.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.984761+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Early_Access_Family_Form_to_Accompany_Application1.pdf
+
+- **URL**: https://slvboces.org/Early_Access_Family_Form_to_Accompany_Application1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.986153+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Early_Access_Timeline.pdf
+
+- **URL**: https://slvboces.org/Early_Access_Timeline.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.987673+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Educational%20Audiologist%20.pdf
+
+- **URL**: https://slvboces.org/Educational%20Audiologist%20.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Employee%20Handbook.docx.pdf
+
+- **URL**: https://slvboces.org/Employee%20Handbook.docx.pdf
+- **Status**: analysed
+- no date found, no bookmarks and more than 20 pages, 
+
+### English-Transition-Handbook-2022-2023.pdf
+
+- **URL**: https://slvboces.org/English-Transition-Handbook-2022-2023.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.993401+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Enrollment-From.pdf
+
+- **URL**: https://slvboces.org/Enrollment-From.pdf
+- **Status**: analysed
+- title, 
+
+### Evidence%20That%20Tier%201%20Instruction%20Is%20Working.pdf
+
+- **URL**: https://slvboces.org/Evidence%20That%20Tier%201%20Instruction%20Is%20Working.pdf
+- **Status**: analysed
+- no date found, 
+
+### Exceptional_Children_s_Educational_Act__ECEA__Rules_for_Gifted_Education.pdf
+
+- **URL**: https://slvboces.org/Exceptional_Children_s_Educational_Act__ECEA__Rules_for_Gifted_Education.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:17.999367+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Exec_Dir_Contract_2020_2021_Blank.pdf
+
+- **URL**: https://slvboces.org/Exec_Dir_Contract_2020_2021_Blank.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.000950+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Executive-Administrative-Assistant-.pdf
+
+- **URL**: https://slvboces.org/Executive-Administrative-Assistant-.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Executive-Director_-Director-of-Exceptional-Student-Services.pdf
+
+- **URL**: https://slvboces.org/Executive-Director_-Director-of-Exceptional-Student-Services.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf
+
+- **URL**: https://slvboces.org/Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FB.pdf
+
+- **URL**: https://slvboces.org/FB.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.006519+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FBA.pdf
+
+- **URL**: https://slvboces.org/FBA.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.007830+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FBC.pdf
+
+- **URL**: https://slvboces.org/FBC.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.009127+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FBC_R.pdf
+
+- **URL**: https://slvboces.org/FBC_R.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.010485+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FB_R.pdf
+
+- **URL**: https://slvboces.org/FB_R.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.011811+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FY%2023-24%20Audit%20Report%20-%20SAN%20LUIS%20VALLEY%20BOCES-2024%20FINANCIAL%20STATEMENTS.pdf
+
+- **URL**: https://slvboces.org/FY%2023-24%20Audit%20Report%20-%20SAN%20LUIS%20VALLEY%20BOCES-2024%20FINANCIAL%20STATEMENTS.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.017551+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FY%2024-25%20Final%20Budget%20-%20Adopted%201.22.25.pdf
+
+- **URL**: https://slvboces.org/FY%2024-25%20Final%20Budget%20-%20Adopted%201.22.25.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.020405+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FY24-25-Preliminary-Budget-Adopted-5.15.24.pdf
+
+- **URL**: https://slvboces.org/FY24-25-Preliminary-Budget-Adopted-5.15.24.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.023191+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FY25-26%20-%20Preliminary%20Budget%20Workbook%20-%20Unsigned%202.pdf
+
+- **URL**: https://slvboces.org/FY25-26%20-%20Preliminary%20Budget%20Workbook%20-%20Unsigned%202.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.027523+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Family%20HCT%20Toolkit%20-%20updated%20Nov%202022.pdf
+
+- **URL**: https://slvboces.org/Family%20HCT%20Toolkit%20-%20updated%20Nov%202022.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.032483+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### February_2022_Board_Minutes.docx1_.pdf
+
+- **URL**: https://slvboces.org/February_2022_Board_Minutes.docx1_.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.033947+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Final-UNIFORM-BUDGET-23-24-APPROPRIATION-RESOLUTION.pdf
+
+- **URL**: https://slvboces.org/Final-UNIFORM-BUDGET-23-24-APPROPRIATION-RESOLUTION.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.035802+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Final_20_21_Uniform_Budget_Summary___Resolutions_with_Signatures-1%20%281%29.pdf
+
+- **URL**: https://slvboces.org/Final_20_21_Uniform_Budget_Summary___Resolutions_with_Signatures-1%20%281%29.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.037902+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Final_20_21_Uniform_Budget_Summary___Resolutions_with_Signatures-1.pdf
+
+- **URL**: https://slvboces.org/Final_20_21_Uniform_Budget_Summary___Resolutions_with_Signatures-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.039982+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Fingerpringing-Instructions.pdf
+
+- **URL**: https://slvboces.org/Fingerpringing-Instructions.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Fingerprinting-Locations.pdf
+
+- **URL**: https://slvboces.org/Fingerprinting-Locations.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Fingerprinting-Notice-to-Applicants.pdf
+
+- **URL**: https://slvboces.org/Fingerprinting-Notice-to-Applicants.pdf
+- **Status**: analysed
+- title, 
+
+### First_Report_of_Injury%20%281%29-1.pdf
+
+- **URL**: https://slvboces.org/First_Report_of_Injury%20%281%29-1.pdf
+- **Status**: analysed
+- title, 
+
+### GBA-2.pdf
+
+- **URL**: https://slvboces.org/GBA-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.049903+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBAA-2.pdf
+
+- **URL**: https://slvboces.org/GBAA-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.051323+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBEA1-2.pdf
+
+- **URL**: https://slvboces.org/GBEA1-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.052675+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBEB-2.pdf
+
+- **URL**: https://slvboces.org/GBEB-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.054845+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBEBC-2.pdf
+
+- **URL**: https://slvboces.org/GBEBC-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.056186+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBEB_R-2.pdf
+
+- **URL**: https://slvboces.org/GBEB_R-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.057545+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBEB_R_2-2.pdf
+
+- **URL**: https://slvboces.org/GBEB_R_2-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.058976+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBEC-2.pdf
+
+- **URL**: https://slvboces.org/GBEC-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.060425+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBEC_E-2.pdf
+
+- **URL**: https://slvboces.org/GBEC_E-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.061796+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBEE-2.pdf
+
+- **URL**: https://slvboces.org/GBEE-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.063270+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBEE_E-2-1.pdf
+
+- **URL**: https://slvboces.org/GBEE_E-2-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.064579+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGA-2.pdf
+
+- **URL**: https://slvboces.org/GBGA-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.065980+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGAB-2.pdf
+
+- **URL**: https://slvboces.org/GBGAB-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.067368+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGBA_E-2.pdf
+
+- **URL**: https://slvboces.org/GBGBA_E-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.068810+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGD-2.pdf
+
+- **URL**: https://slvboces.org/GBGD-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.070178+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGE-2.pdf
+
+- **URL**: https://slvboces.org/GBGE-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.071561+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGF-2.pdf
+
+- **URL**: https://slvboces.org/GBGF-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.072997+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGG%20-%20STAFF%20LEAVES%20AND%20ABSENCES%20-%20REVISED%202_20_2024_6_-1.pdf
+
+- **URL**: https://slvboces.org/GBGG%20-%20STAFF%20LEAVES%20AND%20ABSENCES%20-%20REVISED%202_20_2024_6_-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.074548+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGH_E1-2.pdf
+
+- **URL**: https://slvboces.org/GBGH_E1-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.075935+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGH_E2-2.pdf
+
+- **URL**: https://slvboces.org/GBGH_E2-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.077370+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGI-2.pdf
+
+- **URL**: https://slvboces.org/GBGI-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.078701+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGJ%20Bereavement%20Leave%20REVISED%203_22_4_.pdf
+
+- **URL**: https://slvboces.org/GBGJ%20Bereavement%20Leave%20REVISED%203_22_4_.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.080004+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGK-2.pdf
+
+- **URL**: https://slvboces.org/GBGK-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.081307+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBGL-2.pdf
+
+- **URL**: https://slvboces.org/GBGL-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.082638+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBH-2.pdf
+
+- **URL**: https://slvboces.org/GBH-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.083965+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBHA1-2.pdf
+
+- **URL**: https://slvboces.org/GBHA1-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.085338+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBHB-2.pdf
+
+- **URL**: https://slvboces.org/GBHB-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.086693+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBHC1-2.pdf
+
+- **URL**: https://slvboces.org/GBHC1-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.088035+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBHD-2.pdf
+
+- **URL**: https://slvboces.org/GBHD-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.089342+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBHG-2.pdf
+
+- **URL**: https://slvboces.org/GBHG-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.090671+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBJ-2.pdf
+
+- **URL**: https://slvboces.org/GBJ-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.092000+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBK-2.pdf
+
+- **URL**: https://slvboces.org/GBK-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.093305+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GBK_R-2.pdf
+
+- **URL**: https://slvboces.org/GBK_R-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.094628+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCA_001.pdf
+
+- **URL**: https://slvboces.org/GCA_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.095900+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCBD_001.pdf
+
+- **URL**: https://slvboces.org/GCBD_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.097172+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCD_001.pdf
+
+- **URL**: https://slvboces.org/GCD_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.098448+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCE-GCF2_001.pdf
+
+- **URL**: https://slvboces.org/GCE-GCF2_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.100328+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCE-GCF_001-1.pdf
+
+- **URL**: https://slvboces.org/GCE-GCF_001-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.101720+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCE-GCF_001-2.pdf
+
+- **URL**: https://slvboces.org/GCE-GCF_001-2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.103045+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCE-GCF_001.pdf
+
+- **URL**: https://slvboces.org/GCE-GCF_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.104259+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCO-R_001.pdf
+
+- **URL**: https://slvboces.org/GCO-R_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.105741+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCO1_001.pdf
+
+- **URL**: https://slvboces.org/GCO1_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.107136+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCOE_001.pdf
+
+- **URL**: https://slvboces.org/GCOE_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.108405+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCO_001.pdf
+
+- **URL**: https://slvboces.org/GCO_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.110084+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCQC-R_001-1.pdf
+
+- **URL**: https://slvboces.org/GCQC-R_001-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.111536+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCQC-R_001.pdf
+
+- **URL**: https://slvboces.org/GCQC-R_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.113250+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCQC_001.pdf
+
+- **URL**: https://slvboces.org/GCQC_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.114513+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCQF-R_001.pdf
+
+- **URL**: https://slvboces.org/GCQF-R_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.116214+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GCQF_001.pdf
+
+- **URL**: https://slvboces.org/GCQF_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.117729+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDA_001.pdf
+
+- **URL**: https://slvboces.org/GDA_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.118971+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDBC_001.pdf
+
+- **URL**: https://slvboces.org/GDBC_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.120263+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDBD_001.pdf
+
+- **URL**: https://slvboces.org/GDBD_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.121518+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDD_001.pdf
+
+- **URL**: https://slvboces.org/GDD_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.122793+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDE-GDF-R_001.pdf
+
+- **URL**: https://slvboces.org/GDE-GDF-R_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.124404+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDE-GDF_001.pdf
+
+- **URL**: https://slvboces.org/GDE-GDF_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.126295+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDO-R_001.pdf
+
+- **URL**: https://slvboces.org/GDO-R_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.127971+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDO_001.pdf
+
+- **URL**: https://slvboces.org/GDO_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.129304+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDQB_001.pdf
+
+- **URL**: https://slvboces.org/GDQB_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.130683+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GDQD_001.pdf
+
+- **URL**: https://slvboces.org/GDQD_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.132176+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GGMenuOfOptionsSept2024-accessible2.pdf
+
+- **URL**: https://slvboces.org/GGMenuOfOptionsSept2024-accessible2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.133860+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GT_Parent_Survey___Google_Forms__Crestone.pdf
+
+- **URL**: https://slvboces.org/GT_Parent_Survey___Google_Forms__Crestone.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.135269+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GT_TeacherToolkitII_final.pdf
+
+- **URL**: https://slvboces.org/GT_TeacherToolkitII_final.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.142853+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GT_Toolkit_I.pdf
+
+- **URL**: https://slvboces.org/GT_Toolkit_I.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.145676+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf
+
+- **URL**: https://slvboces.org/Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf
+
+- **URL**: https://slvboces.org/Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Gifted-Budget-Guidance-2017_18.pdf
+
+- **URL**: https://slvboces.org/Gifted-Budget-Guidance-2017_18.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.151631+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Gifted_101_from_Davidson_Institute.pdf
+
+- **URL**: https://slvboces.org/Gifted_101_from_Davidson_Institute.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.153487+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Grading-and-Transcripts-Fast-Facts.pdf
+
+- **URL**: https://slvboces.org/Grading-and-Transcripts-Fast-Facts.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.154904+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Graduation-and-Diplomas-Fast-Facts.pdf
+
+- **URL**: https://slvboces.org/Graduation-and-Diplomas-Fast-Facts.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.156299+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Grants%20Coordinator%20.pdf
+
+- **URL**: https://slvboces.org/Grants%20Coordinator%20.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Greetings.pdf
+
+- **URL**: https://slvboces.org/Greetings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.159026+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### HB11-1277-Q-and-A1.pdf
+
+- **URL**: https://slvboces.org/HB11-1277-Q-and-A1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.160472+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### HR-Intern.pdf
+
+- **URL**: https://slvboces.org/HR-Intern.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Happy%20Martin%20Luther%20King%20Day.pdf
+
+- **URL**: https://slvboces.org/Happy%20Martin%20Luther%20King%20Day.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.162974+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Happy%20Monday%20and%20Happy%20New%20Year.pdf
+
+- **URL**: https://slvboces.org/Happy%20Monday%20and%20Happy%20New%20Year.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.164329+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Happy%20Monday%20and%20Welcome%20to%20February.pdf
+
+- **URL**: https://slvboces.org/Happy%20Monday%20and%20Welcome%20to%20February.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.165607+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Happy%20Monday%20and.pdf
+
+- **URL**: https://slvboces.org/Happy%20Monday%20and.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.166856+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Happy%20Monday.pdf
+
+- **URL**: https://slvboces.org/Happy%20Monday.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.168730+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Happy%20Monday1.pdf
+
+- **URL**: https://slvboces.org/Happy%20Monday1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.170018+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Heavy-Work-Activities-List.pdf
+
+- **URL**: https://slvboces.org/Heavy-Work-Activities-List.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.171370+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Heavy-Work-List.pdf
+
+- **URL**: https://slvboces.org/Heavy-Work-List.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.172813+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Heavy-Work.pdf
+
+- **URL**: https://slvboces.org/Heavy-Work.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.174596+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Helpful_Links_for_Educators-1.pdf
+
+- **URL**: https://slvboces.org/Helpful_Links_for_Educators-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.175896+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Helping_Your_Child_Manage_Stress_through_Mindfulness_PHP_Dec17.pdf
+
+- **URL**: https://slvboces.org/Helping_Your_Child_Manage_Stress_through_Mindfulness_PHP_Dec17.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.177344+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Human-Resource-and-Payroll-Manager-.pdf
+
+- **URL**: https://slvboces.org/Human-Resource-and-Payroll-Manager-.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### I%20hope%20everyone%20had%20a%20great%20weekend.pdf
+
+- **URL**: https://slvboces.org/I%20hope%20everyone%20had%20a%20great%20weekend.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.180077+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### IHBA_001.pdf
+
+- **URL**: https://slvboces.org/IHBA_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.181367+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### IHBF_001.pdf
+
+- **URL**: https://slvboces.org/IHBF_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.182649+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### IHBIB_001.pdf
+
+- **URL**: https://slvboces.org/IHBIB_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.184050+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### IJOA_001.pdf
+
+- **URL**: https://slvboces.org/IJOA_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.185295+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### IJ_001.pdf
+
+- **URL**: https://slvboces.org/IJ_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.186535+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Identification_Tools_and_Processes__1_.pdf
+
+- **URL**: https://slvboces.org/Identification_Tools_and_Processes__1_.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.189061+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### IdentifyGiftedTalentedELL.pdf
+
+- **URL**: https://slvboces.org/IdentifyGiftedTalentedELL.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.199222+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Identifying_and_Managing_Stress___MS.pdf
+
+- **URL**: https://slvboces.org/Identifying_and_Managing_Stress___MS.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.201759+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Important-Ages-and-Milestones.pdf
+
+- **URL**: https://slvboces.org/Important-Ages-and-Milestones.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.203649+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Indicator-13-Compliance-Tips-July-20151.pdf
+
+- **URL**: https://slvboces.org/Indicator-13-Compliance-Tips-July-20151.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Indicator-13-Guide.pdf
+
+- **URL**: https://slvboces.org/Indicator-13-Guide.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.208641+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Is_There_a_Gifted_Gap___Gifted_Education_in_High_Poverty_Schools.pdf
+
+- **URL**: https://slvboces.org/Is_There_a_Gifted_Gap___Gifted_Education_in_High_Poverty_Schools.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.233998+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JBB_001.pdf
+
+- **URL**: https://slvboces.org/JBB_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.236736+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JB_001.pdf
+
+- **URL**: https://slvboces.org/JB_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.239199+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JF-E_001.pdf
+
+- **URL**: https://slvboces.org/JF-E_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.241330+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JF_001.pdf
+
+- **URL**: https://slvboces.org/JF_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.243493+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JICAA_001.pdf
+
+- **URL**: https://slvboces.org/JICAA_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.245240+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JICC_001.pdf
+
+- **URL**: https://slvboces.org/JICC_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.246956+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JICDE_001.pdf
+
+- **URL**: https://slvboces.org/JICDE_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.249025+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JII-R_001.pdf
+
+- **URL**: https://slvboces.org/JII-R_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.250661+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JII_001.pdf
+
+- **URL**: https://slvboces.org/JII_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.252220+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JJC_001-1.pdf
+
+- **URL**: https://slvboces.org/JJC_001-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.253645+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JJC_001.pdf
+
+- **URL**: https://slvboces.org/JJC_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.255018+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JKA-E-2_001.pdf
+
+- **URL**: https://slvboces.org/JKA-E-2_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.256773+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JKA-E_001.pdf
+
+- **URL**: https://slvboces.org/JKA-E_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.258223+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JKA-R_001.pdf
+
+- **URL**: https://slvboces.org/JKA-R_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.260070+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JKA_001.pdf
+
+- **URL**: https://slvboces.org/JKA_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.261533+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JLF-R_001.pdf
+
+- **URL**: https://slvboces.org/JLF-R_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.263243+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JLF_001.pdf
+
+- **URL**: https://slvboces.org/JLF_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.264536+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JQ_001.pdf
+
+- **URL**: https://slvboces.org/JQ_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.266124+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JRA-JRC-1_001.pdf
+
+- **URL**: https://slvboces.org/JRA-JRC-1_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.267428+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JRA-JRC-E-2_001-1.pdf
+
+- **URL**: https://slvboces.org/JRA-JRC-E-2_001-1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.268685+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JRA-JRC-E-3_001.pdf
+
+- **URL**: https://slvboces.org/JRA-JRC-E-3_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.269964+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JRA-JRC-R_001.pdf
+
+- **URL**: https://slvboces.org/JRA-JRC-R_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.271417+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JRA-JRC_001.pdf
+
+- **URL**: https://slvboces.org/JRA-JRC_001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.273491+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### JUne_28__2021.pdf
+
+- **URL**: https://slvboces.org/JUne_28__2021.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.275055+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Jamarreo.pdf
+
+- **URL**: https://slvboces.org/Jamarreo.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.276862+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### January_2021_Board_Agenda.pdf
+
+- **URL**: https://slvboces.org/January_2021_Board_Agenda.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.278622+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### January_2021_Board_Minutes.pdf
+
+- **URL**: https://slvboces.org/January_2021_Board_Minutes.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.280192+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### January_25__2023_Board_Agenda.pdf
+
+- **URL**: https://slvboces.org/January_25__2023_Board_Agenda.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.281664+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### January_26__2022_Board_Minutes.pdf
+
+- **URL**: https://slvboces.org/January_26__2022_Board_Minutes.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.283168+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Jim_Delisle_GDC_New_Link.pdf
+
+- **URL**: https://slvboces.org/Jim_Delisle_GDC_New_Link.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.286730+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### July-Continuous-Improvement-FAQ.pdf
+
+- **URL**: https://slvboces.org/July-Continuous-Improvement-FAQ.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.288221+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### June_2__2021_Board_Agenda.pdf
+
+- **URL**: https://slvboces.org/June_2__2021_Board_Agenda.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.289862+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### KBBA1.pdf
+
+- **URL**: https://slvboces.org/KBBA1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-25T15:27:18.291248+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 2025-26-CBA-Member-Directory.pdf
 
