@@ -4932,6 +4932,10 @@ Generated: 2026-03-30T15:02:46.230956+00:00
 | [SafeInPersonPlan.pdf](https://www.ppboces.org/DocumentCenter/View/3229/SafeInPersonPlan?bidId=) | ppboces.org | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
 | [Spanish-Annual-Notification_1718.pdf](https://www.ppboces.org/DocumentCenter/View/2016/Spanish-Annual-Notification_1718?bidId=) | ppboces.org | 2016-05-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 620 | 0 |
 | [Spanish-One-time-CSMC-MedicaidParentConsentForm_1718.pdf](https://www.ppboces.org/DocumentCenter/View/2017/Spanish-One-time-CSMC-MedicaidParentConsentForm_1718?bidId=) | ppboces.org | 2016-05-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 571 | 0 |
+| [EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda%20%281%29-0.pdf](https://www.ecboces.org/pluginfile.php/56932/course/overviewfiles/EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda%20%281%29.pdf?forcedownload=1) | ecboces.org | 2025-08-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 692 | 6 |
+| [EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda%20%281%29.pdf](https://www.ecboces.org/pluginfile.php/56932/course/overviewfiles/EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda%20%281%29.pdf) | ecboces.org | 2025-08-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 692 | 6 |
+| [East%20Central%20BOCES%20%E2%80%93%20Response%20to%20Vendor%20Questions.pdf](https://www.ecboces.org/pluginfile.php/54034/mod_resource/content/1/East%20Central%20BOCES%20%E2%80%93%20Response%20to%20Vendor%20Questions.pdf) | ecboces.org | 2025-03-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 876 | 0 |
+| [Project%20Eagle%20Registration%20Flyer%20.pdf](https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6886/Project%20Eagle%20Registration%20Flyer%20.pdf?forcedownload=1) | ecboces.org | 2026-02-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 213 | 1 |
 | [2017-18-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/documents/2017-18-financial-data-file.pdf) | coloradomesa.edu | 2020-06-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1952 | 0 |
 | [2018-19-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/documents/2018-19-financial-data-file.pdf) | coloradomesa.edu | 2020-06-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1809 | 0 |
 | [2019-20-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/2019-20-financial-data-file.pdf) | coloradomesa.edu | 2021-08-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 2294 | 0 |
@@ -5320,6 +5324,66 @@ Generated: 2026-03-30T15:02:46.230956+00:00
 | [rod-eis-0552-lanl-site-wide-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/rod-eis-0552-lanl-site-wide-2026-03.pdf) | energy.gov | 2026-03-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2203 | 1 |
 | [site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet.pdf](https://www.energy.gov/lm/articles/site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet) | energy.gov | 2025-12-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1092 | 8 |
 | [strategic%20petroleum%20reserve%20factsheet.2_1.pdf](https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf) | energy.gov | 2022-09-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1172 | 1 |
+| [21-26%20ERP-Accounting%20RFP%20Narrative.pdf](https://www.ecboces.org/pluginfile.php/29957/mod_resource/content/1/21-26%20ERP-Accounting%20RFP%20Narrative.pdf) | ecboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 4321 | 1 |
+| [22-23%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf](https://www.ecboces.org/pluginfile.php/46687/mod_resource/content/0/22-23%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf) | ecboces.org | 2023-12-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 4407 | 24 |
+| [23-24%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf](https://www.ecboces.org/pluginfile.php/50688/mod_resource/content/0/23-24%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf) | ecboces.org | 2024-11-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 4557 | 26 |
+| [BOCES%20Job%20Information%20Form%20Early%20Childhood%20%281%29.pdf](https://www.ecboces.org/pluginfile.php/35343/mod_resource/content/3/BOCES%20Job%20Information%20Form%20Early%20Childhood%20%281%29.pdf) | ecboces.org | 2022-04-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 211 | 0 |
+| [BOCES%20Job%20Information%20Form%20High%20Needs%20Educator%20Strasburg1%20%281%29%20%281%29%20%282%29.pdf](https://www.ecboces.org/pluginfile.php/34775/mod_resource/content/3/BOCES%20Job%20Information%20Form%20High%20Needs%20Educator%20Strasburg1%20%281%29%20%281%29%20%282%29.pdf) | ecboces.org | 2022-03-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 164 | 0 |
+| [BOCES%20Job%20Information%20Form%20OTR.pdf](https://www.ecboces.org/pluginfile.php/35114/mod_resource/content/2/BOCES%20Job%20Information%20Form%20OTR.pdf) | ecboces.org | 2022-03-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 179 | 0 |
+| [BOCES%20Job%20Information%20Form%20Paraprofessional2%20%281%29%20%281%29.pdf](https://www.ecboces.org/pluginfile.php/30683/mod_resource/content/9/BOCES%20Job%20Information%20Form%20Paraprofessional2%20%281%29%20%281%29.pdf) | ecboces.org | 2022-03-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 146 | 0 |
+| [BOCES%20Job%20Information%20Form%20Pathologist-SLPA2022.pdf](https://www.ecboces.org/pluginfile.php/34229/mod_resource/content/10/BOCES%20Job%20Information%20Form%20Pathologist-SLPA2022.pdf) | ecboces.org | 2022-03-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 180 | 0 |
+| [BOCES%20Job%20Information%20Form%20Psychologist-Intern.pdf](https://www.ecboces.org/pluginfile.php/34230/mod_resource/content/7/BOCES%20Job%20Information%20Form%20Psychologist-Intern.pdf) | ecboces.org | 2022-03-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 175 | 0 |
+| [BOCES%20Job%20Information%20Form%20SubsParaprofessional%20%281%29.pdf](https://www.ecboces.org/pluginfile.php/33354/mod_resource/content/4/BOCES%20Job%20Information%20Form%20SubsParaprofessional%20%281%29.pdf) | ecboces.org | 2021-10-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 123 | 0 |
+| [BOCES%20Job%20Information%20FormTVI.pdf](https://www.ecboces.org/pluginfile.php/35390/mod_resource/content/3/BOCES%20Job%20Information%20FormTVI.pdf) | ecboces.org | 2022-04-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 234 | 0 |
+| [CPI%20Dates%20for%202025-2026.pdf](https://www.ecboces.org/pluginfile.php/54359/course/overviewfiles/CPI%20Dates%20for%202025-2026.pdf?forcedownload=1) | ecboces.org | 2025-04-04 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [CPI%20Flier%2026-27%20Accessible%20%281%29-0.pdf](https://www.ecboces.org/pluginfile.php/60032/course/overviewfiles/CPI%20Flier%2026-27%20Accessible%20%281%29.pdf?forcedownload=1) | ecboces.org | 2026-02-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 323 | 0 |
+| [CPI%20Flier%2026-27%20Accessible%20%281%29-1.pdf](https://www.ecboces.org/pluginfile.php/60086/course/overviewfiles/CPI%20Flier%2026-27%20Accessible%20%281%29.pdf?forcedownload=1) | ecboces.org | 2026-02-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 323 | 0 |
+| [CPI%20Flier%2026-27%20Accessible%20%281%29-2.pdf](https://www.ecboces.org/pluginfile.php/60067/course/overviewfiles/CPI%20Flier%2026-27%20Accessible%20%281%29.pdf?forcedownload=1) | ecboces.org | 2026-02-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 323 | 0 |
+| [CPI%20Flier%2026-27%20Accessible%20%281%29-3.pdf](https://www.ecboces.org/pluginfile.php/60123/course/overviewfiles/CPI%20Flier%2026-27%20Accessible%20%281%29.pdf?forcedownload=1) | ecboces.org | 2026-02-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 323 | 0 |
+| [CPI%20Flier%2026-27%20Accessible%20%281%29-4.pdf](https://www.ecboces.org/pluginfile.php/60104/course/overviewfiles/CPI%20Flier%2026-27%20Accessible%20%281%29.pdf?forcedownload=1) | ecboces.org | 2026-02-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 323 | 0 |
+| [CPI%20Flier%2026-27%20Accessible%20%281%29.pdf](https://www.ecboces.org/pluginfile.php/60050/course/overviewfiles/CPI%20Flier%2026-27%20Accessible%20%281%29.pdf?forcedownload=1) | ecboces.org | 2026-02-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 323 | 0 |
+| [CPI%20Flier%2026-27%20Accessible.pdf](https://www.ecboces.org/pluginfile.php/59997/course/overviewfiles/CPI%20Flier%2026-27%20Accessible.pdf?forcedownload=1) | ecboces.org | 2026-02-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 320 | 0 |
+| [CPI%20flier%2025-26%20-%20accessible%20%282%29-0.pdf](https://www.ecboces.org/pluginfile.php/54103/course/overviewfiles/CPI%20flier%2025-26%20-%20accessible%20%282%29.pdf?forcedownload=1) | ecboces.org | 2025-04-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 337 | 0 |
+| [CPI%20flier%2025-26%20-%20accessible%20%282%29-1.pdf](https://www.ecboces.org/pluginfile.php/54086/course/overviewfiles/CPI%20flier%2025-26%20-%20accessible%20%282%29.pdf?forcedownload=1) | ecboces.org | 2025-04-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 337 | 0 |
+| [CPI%20flier%2025-26%20-%20accessible%20%282%29-2.pdf](https://www.ecboces.org/pluginfile.php/54119/course/overviewfiles/CPI%20flier%2025-26%20-%20accessible%20%282%29.pdf?forcedownload=1) | ecboces.org | 2025-04-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 337 | 0 |
+| [CPI%20flier%2025-26%20-%20accessible%20%282%29-3.pdf](https://www.ecboces.org/pluginfile.php/54069/course/overviewfiles/CPI%20flier%2025-26%20-%20accessible%20%282%29.pdf?forcedownload=1) | ecboces.org | 2025-04-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 337 | 0 |
+| [CPI%20flier%2025-26%20-%20accessible%20%282%29-4.pdf](https://www.ecboces.org/pluginfile.php/54053/course/overviewfiles/CPI%20flier%2025-26%20-%20accessible%20%282%29.pdf?forcedownload=1) | ecboces.org | 2025-04-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 337 | 0 |
+| [CPI%20flier%2025-26%20-%20accessible%20%282%29-5.pdf](https://www.ecboces.org/pluginfile.php/54016/course/overviewfiles/CPI%20flier%2025-26%20-%20accessible%20%282%29.pdf?forcedownload=1) | ecboces.org | 2025-04-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 337 | 0 |
+| [CPI%20flier%2025-26%20-%20accessible%20%282%29-6.pdf](https://www.ecboces.org/pluginfile.php/54036/course/overviewfiles/CPI%20flier%2025-26%20-%20accessible%20%282%29.pdf?forcedownload=1) | ecboces.org | 2025-04-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 337 | 0 |
+| [CPI%20flier%2025-26%20-%20accessible%20%282%29.pdf](https://www.ecboces.org/pluginfile.php/54203/course/overviewfiles/CPI%20flier%2025-26%20-%20accessible%20%282%29.pdf?forcedownload=1) | ecboces.org | 2025-04-07 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 337 | 0 |
+| [Classified%20Application%20for%20Employment.pdf](https://www.ecboces.org/pluginfile.php/1839/mod_resource/content/0/Classified%20Application%20for%20Employment.pdf) | ecboces.org | 2014-12-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 641 | 1 |
+| [EC%20BOCES%20Budget%20FY%2023-24%20Final%20Jan24.pdf](https://www.ecboces.org/pluginfile.php/47095/mod_resource/content/0/EC%20BOCES%20Budget%20FY%2023-24%20Final%20Jan24.pdf) | ecboces.org | 2024-02-01 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 34 | 15983 | 29 |
+| [EC%20BOCES%20Budget%20FY%2024-25%20%20JanuaryFinalRevised.pdf](https://www.ecboces.org/pluginfile.php/52642/mod_resource/content/0/EC%20BOCES%20Budget%20FY%2024-25%20%20JanuaryFinalRevised.pdf) | ecboces.org | 2025-01-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 33 | 16811 | 29 |
+| [EC%20BOCES%20Budget%20FY%2025-26%20Jan%202025%20AdoptedFINAL.pdf](https://www.ecboces.org/pluginfile.php/59901/mod_resource/content/0/EC%20BOCES%20Budget%20FY%2025-26%20Jan%202025%20AdoptedFINAL.pdf) | ecboces.org | 2026-01-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 35 | 15983 | 34 |
+| [EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda-0.pdf](https://www.ecboces.org/pluginfile.php/55459/course/overviewfiles/EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda.pdf?forcedownload=1) | ecboces.org | 2025-08-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 692 | 6 |
+| [EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda-1.pdf](https://www.ecboces.org/pluginfile.php/55443/course/overviewfiles/EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda.pdf?forcedownload=1) | ecboces.org | 2025-08-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 692 | 6 |
+| [EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda.pdf](https://www.ecboces.org/pluginfile.php/55475/course/overviewfiles/EC%20BOCES%20and%20CDE%20-%202025%20Crosscutting%20Concepts%20Virtual%20PL%20Goals%20and%20Agenda.pdf?forcedownload=1) | ecboces.org | 2025-08-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 692 | 6 |
+| [ECBoces-SalarySchedulesPacket-LastRevised%202022--July1.pdf](https://www.ecboces.org/pluginfile.php/38567/mod_resource/content/2/ECBoces-SalarySchedulesPacket-LastRevised%202022--July1.pdf) | ecboces.org | 2025-06-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 3976 | 0 |
+| [ECBoces-SalarySchedulesPacket-LastRevised%202024--July1.pdf](https://www.ecboces.org/pluginfile.php/48027/mod_resource/content/1/ECBoces-SalarySchedulesPacket-LastRevised%202024--July1.pdf) | ecboces.org | 2025-06-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 4171 | 0 |
+| [ECBoces-SalarySchedulesPacket-LastRevised%202025--July.pdf](https://www.ecboces.org/pluginfile.php/54664/mod_resource/content/1/ECBoces-SalarySchedulesPacket-LastRevised%202025--July.pdf) | ecboces.org | 2025-06-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 4212 | 0 |
+| [East%20BOCES%202026%20OM%20Asbestos%20Training%20Dates-0.pdf](https://www.ecboces.org/pluginfile.php/60236/course/overviewfiles/East%20BOCES%202026%20OM%20Asbestos%20Training%20Dates.pdf?forcedownload=1) | ecboces.org | 2026-03-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 826 | 5 |
+| [East%20BOCES%202026%20OM%20Asbestos%20Training%20Dates.pdf](https://www.ecboces.org/pluginfile.php/60252/course/overviewfiles/East%20BOCES%202026%20OM%20Asbestos%20Training%20Dates.pdf?forcedownload=1) | ecboces.org | 2026-03-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 826 | 5 |
+| [East%20Central%20BOCES%20FY13%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/24522/mod_resource/content/0/East%20Central%20BOCES%20FY13%20Audit%20Report.pdf) | ecboces.org | 2013-11-20 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 63 | 0 | 89 |
+| [East%20Central%20BOCES%20FY14%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/24523/mod_resource/content/0/East%20Central%20BOCES%20FY14%20Audit%20Report.pdf) | ecboces.org | 2014-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 63 | 0 | 91 |
+| [East%20Central%20BOCES%20FY15%20Audit%20Report%20.pdf](https://www.ecboces.org/pluginfile.php/24521/mod_resource/content/0/East%20Central%20BOCES%20FY15%20Audit%20Report%20.pdf) | ecboces.org | 2015-11-23 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 73 | 0 | 219 |
+| [East%20Central%20BOCES%20FY16%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/24520/mod_resource/content/0/East%20Central%20BOCES%20FY16%20Audit%20Report.pdf) | ecboces.org | 2016-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 73 | 0 | 219 |
+| [East%20Central%20BOCES%20FY17%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/11371/mod_resource/content/0/East%20Central%20BOCES%20FY17%20Audit%20Report.pdf) | ecboces.org | 2017-11-27 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 75 | 16310 | 85 |
+| [East%20Central%20BOCES%20FY18%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/17132/mod_resource/content/0/East%20Central%20BOCES%20FY18%20Audit%20Report.pdf) | ecboces.org | 2019-01-31 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 94 | 0 | 94 |
+| [East%20Central%20BOCES%20FY19%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/24299/mod_resource/content/0/East%20Central%20BOCES%20FY19%20Audit%20Report.pdf) | ecboces.org | 2019-11-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 89 | 20773 | 97 |
+| [East%20Central%20BOCES%20FY20%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/29435/mod_resource/content/0/East%20Central%20BOCES%20FY20%20Audit%20Report.pdf) | ecboces.org | 2020-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 87 | 22581 | 1731 |
+| [East%20Central%20BOCES%20FY21%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/33742/mod_resource/content/0/East%20Central%20BOCES%20FY21%20Audit%20Report.pdf) | ecboces.org | 2021-11-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 93 | 23020 | 316 |
+| [East%20Central%20BOCES%20FY22%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/41335/mod_resource/content/0/East%20Central%20BOCES%20FY22%20Audit%20Report.pdf) | ecboces.org | 2022-11-15 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 89 | 0 | 89 |
+| [East%20Central%20BOCES%20FY23%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/46686/mod_resource/content/0/East%20Central%20BOCES%20FY23%20Audit%20Report.pdf) | ecboces.org | 2023-11-20 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 89 | 0 | 89 |
+| [East%20Central%20BOCES%20FY24%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/50687/mod_resource/content/0/East%20Central%20BOCES%20FY24%20Audit%20Report.pdf) | ecboces.org | 2024-11-18 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 87 | 0 | 87 |
+| [East%20Central%20BOCES%20FY25%20Audit%20Report.pdf](https://www.ecboces.org/pluginfile.php/59115/mod_resource/content/1/East%20Central%20BOCES%20FY25%20Audit%20Report.pdf) | ecboces.org | 2025-12-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 79 | 18281 | 14 |
+| [PAC%20Library.pdf](https://www.ecboces.org/pluginfile.php/2121/mod_resource/content/1/PAC%20Library.pdf) | ecboces.org | 2015-09-22 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 | 0 | 6 |
+| [Principal%20Cluster%20Agenda%2010-1-2025.pdf](https://www.ecboces.org/pluginfile.php/57061/course/overviewfiles/Principal%20Cluster%20Agenda%2010-1-2025.pdf?forcedownload=1) | ecboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 161 | 1 |
+| [Principal%20Cluster%20Agenda%20for%20November%205%2C%202025.docx%20%281%29.pdf](https://www.ecboces.org/pluginfile.php/57870/course/overviewfiles/Principal%20Cluster%20Agenda%20for%20November%205%2C%202025.docx%20%281%29.pdf?forcedownload=1) | ecboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 266 | 1 |
+| [Prinicpal%20Cluster%20January%2028%2C%202026.docx.pdf](https://www.ecboces.org/pluginfile.php/58991/course/overviewfiles/Prinicpal%20Cluster%20January%2028%2C%202026.docx.pdf?forcedownload=1) | ecboces.org | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 270 | 1 |
+| [Procedural%20Safeguards.pdf](https://www.ecboces.org/pluginfile.php/1468/mod_resource/content/1/Procedural%20Safeguards.pdf) | ecboces.org | 2014-09-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 34 | 14672 | 1 |
+| [Questions%20Responses.pdf](https://www.ecboces.org/pluginfile.php/30108/mod_resource/content/1/Questions%20Responses.pdf) | ecboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 432 | 0 |
+| [Transition%20Fair%20Fall%202016%20Flyer%20English-Spanish.pdf](https://www.ecboces.org/pluginfile.php/2619/mod_resource/content/1/Transition%20Fair%20Fall%202016%20Flyer%20English-Spanish.pdf) | ecboces.org | 2016-08-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 536 | 2 |
+| [Vocabulary%20Instruction%20Template.pdf](https://www.ecboces.org/pluginfile.php/40153/mod_resource/content/1/Vocabulary%20Instruction%20Template.pdf) | ecboces.org | 2022-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 90 | 0 |
 
 ## Files with Errors or Notes
 
@@ -44371,6 +44435,66 @@ Generated: 2026-03-30T15:02:46.230956+00:00
 - **Status**: analysed
 - title, 
 
+### 2024-W9.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/35626/mod_page/content/13/2024-W9.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.856645+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ASD%20Training%20Foundation%20for%20Instruction%20-%20Fall%202024%20and%20Winter%202025.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/5813/ASD%20Training%20Foundation%20for%20Instruction%20-%20Fall%202024%20and%20Winter%202025.pdf?forcedownload=1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.858928+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Accessible%20Limon%20Science%20at%20Its%20Peak%20pdf%20%281%29.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6667/Accessible%20Limon%20Science%20at%20Its%20Peak%20pdf%20%281%29.pdf?forcedownload=1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.860647+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DBQ%20March%20Support.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6344/DBQ%20March%20Support.pdf?forcedownload=1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.874827+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DBQ%20Project-%20February.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6297/DBQ%20Project-%20February.pdf?forcedownload=1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.880563+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ECBOCES%20CLD-GT%20Levels%20I-III.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/5232/ECBOCES%20CLD-GT%20Levels%20I-III.pdf?forcedownload=1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.887365+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### January%20Professional%20Development.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6802/January%20Professional%20Development.pdf?forcedownload=1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.890730+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Summer%20Institute%202024.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/5752/Summer%20Institute%202024.pdf?forcedownload=1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.893686+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Summer%20PD%20%40DMNS%202025.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/6391/Summer%20PD%20%40DMNS%202025.pdf?forcedownload=1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.897274+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Welcome%20to%20DBQ%20Online.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/16468/mod_forum/attachment/5245/Welcome%20to%20DBQ%20Online.pdf?forcedownload=1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:15:15.899583+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### 2017-18-financial-data-file.pdf
 
 - **URL**: https://www.coloradomesa.edu/grandvalleyboces/documents/2017-18-financial-data-file.pdf
@@ -45922,5 +46046,239 @@ Generated: 2026-03-30T15:02:46.230956+00:00
 ### strategic%20petroleum%20reserve%20factsheet.2_1.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf
+- **Status**: analysed
+- title, 
+
+### 21-26%20ERP-Accounting%20RFP%20Narrative.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/29957/mod_resource/content/1/21-26%20ERP-Accounting%20RFP%20Narrative.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 22-23%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/46687/mod_resource/content/0/22-23%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 23-24%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/50688/mod_resource/content/0/23-24%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### BOCES%20Job%20Information%20Form%20Early%20Childhood%20%281%29.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/35343/mod_resource/content/3/BOCES%20Job%20Information%20Form%20Early%20Childhood%20%281%29.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES%20Job%20Information%20Form%20High%20Needs%20Educator%20Strasburg1%20%281%29%20%281%29%20%282%29.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/34775/mod_resource/content/3/BOCES%20Job%20Information%20Form%20High%20Needs%20Educator%20Strasburg1%20%281%29%20%281%29%20%282%29.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES%20Job%20Information%20Form%20OTR.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/35114/mod_resource/content/2/BOCES%20Job%20Information%20Form%20OTR.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES%20Job%20Information%20Form%20Paraprofessional2%20%281%29%20%281%29.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/30683/mod_resource/content/9/BOCES%20Job%20Information%20Form%20Paraprofessional2%20%281%29%20%281%29.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES%20Job%20Information%20Form%20Pathologist-SLPA2022.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/34229/mod_resource/content/10/BOCES%20Job%20Information%20Form%20Pathologist-SLPA2022.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES%20Job%20Information%20Form%20Psychologist-Intern.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/34230/mod_resource/content/7/BOCES%20Job%20Information%20Form%20Psychologist-Intern.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES%20Job%20Information%20Form%20SubsParaprofessional%20%281%29.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/33354/mod_resource/content/4/BOCES%20Job%20Information%20Form%20SubsParaprofessional%20%281%29.pdf
+- **Status**: analysed
+- title, 
+
+### BOCES%20Job%20Information%20FormTVI.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/35390/mod_resource/content/3/BOCES%20Job%20Information%20FormTVI.pdf
+- **Status**: analysed
+- title, 
+
+### CPI%20Dates%20for%202025-2026.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/54359/course/overviewfiles/CPI%20Dates%20for%202025-2026.pdf?forcedownload=1
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Classified%20Application%20for%20Employment.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/1839/mod_resource/content/0/Classified%20Application%20for%20Employment.pdf
+- **Status**: analysed
+- title, lang, 
+
+### EC%20BOCES%20Budget%20FY%2023-24%20Final%20Jan24.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/47095/mod_resource/content/0/EC%20BOCES%20Budget%20FY%2023-24%20Final%20Jan24.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### EC%20BOCES%20Budget%20FY%2024-25%20%20JanuaryFinalRevised.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/52642/mod_resource/content/0/EC%20BOCES%20Budget%20FY%2024-25%20%20JanuaryFinalRevised.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### EC%20BOCES%20Budget%20FY%2025-26%20Jan%202025%20AdoptedFINAL.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/59901/mod_resource/content/0/EC%20BOCES%20Budget%20FY%2025-26%20Jan%202025%20AdoptedFINAL.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ECBoces-SalarySchedulesPacket-LastRevised%202024--July1.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/48027/mod_resource/content/1/ECBoces-SalarySchedulesPacket-LastRevised%202024--July1.pdf
+- **Status**: analysed
+- tagged, 
+
+### ECBoces-SalarySchedulesPacket-LastRevised%202025--July.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/54664/mod_resource/content/1/ECBoces-SalarySchedulesPacket-LastRevised%202025--July.pdf
+- **Status**: analysed
+- tagged, 
+
+### East%20Central%20BOCES%20FY13%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/24522/mod_resource/content/0/East%20Central%20BOCES%20FY13%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY14%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/24523/mod_resource/content/0/East%20Central%20BOCES%20FY14%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY15%20Audit%20Report%20.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/24521/mod_resource/content/0/East%20Central%20BOCES%20FY15%20Audit%20Report%20.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY16%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/24520/mod_resource/content/0/East%20Central%20BOCES%20FY16%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY17%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/11371/mod_resource/content/0/East%20Central%20BOCES%20FY17%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY18%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/17132/mod_resource/content/0/East%20Central%20BOCES%20FY18%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY19%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/24299/mod_resource/content/0/East%20Central%20BOCES%20FY19%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY20%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/29435/mod_resource/content/0/East%20Central%20BOCES%20FY20%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY21%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/33742/mod_resource/content/0/East%20Central%20BOCES%20FY21%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY22%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/41335/mod_resource/content/0/East%20Central%20BOCES%20FY22%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY23%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/46686/mod_resource/content/0/East%20Central%20BOCES%20FY23%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### East%20Central%20BOCES%20FY24%20Audit%20Report.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/50687/mod_resource/content/0/East%20Central%20BOCES%20FY24%20Audit%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### PAC%20Library.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/2121/mod_resource/content/1/PAC%20Library.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Principal%20Cluster%20Agenda%2010-1-2025.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/57061/course/overviewfiles/Principal%20Cluster%20Agenda%2010-1-2025.pdf?forcedownload=1
+- **Status**: analysed
+- no date found, 
+
+### Principal%20Cluster%20Agenda%20for%20November%205%2C%202025.docx%20%281%29.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/57870/course/overviewfiles/Principal%20Cluster%20Agenda%20for%20November%205%2C%202025.docx%20%281%29.pdf?forcedownload=1
+- **Status**: analysed
+- no date found, 
+
+### Prinicpal%20Cluster%20January%2028%2C%202026.docx.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/58991/course/overviewfiles/Prinicpal%20Cluster%20January%2028%2C%202026.docx.pdf?forcedownload=1
+- **Status**: analysed
+- no date found, 
+
+### Procedural%20Safeguards.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/1468/mod_resource/content/1/Procedural%20Safeguards.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Project%20Eagle%20Registration%20Flyer%20.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/60181/course/overviewfiles/Project%20Eagle%20Registration%20Flyer%20.pdf?forcedownload=1
+- **Status**: error
+- File not found: crawled_files/ecboces.org/Project%20Eagle%20Registration%20Flyer%20.pdf (crawled 0.0 day(s) ago at 2026-03-30T14:07:50.324009+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Questions%20Responses.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/30108/mod_resource/content/1/Questions%20Responses.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Transition%20Fair%20Fall%202016%20Flyer%20English-Spanish.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/2619/mod_resource/content/1/Transition%20Fair%20Fall%202016%20Flyer%20English-Spanish.pdf
+- **Status**: analysed
+- title, 
+
+### Vocabulary%20Instruction%20Template.pdf
+
+- **URL**: https://www.ecboces.org/pluginfile.php/40153/mod_resource/content/1/Vocabulary%20Instruction%20Template.pdf
 - **Status**: analysed
 - title, 
