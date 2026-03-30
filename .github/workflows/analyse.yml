@@ -333,7 +333,7 @@ jobs:
             $VERAPDF_FLAG \
             $KEEP_FLAG
 
-      - name: Check stale entries and flag for re-crawl
+      - name: Check stale entries from previous crawls
         id: stale_check
         env:
           CRAWL_URL:    ${{ steps.meta.outputs.crawl_url }}
@@ -346,10 +346,10 @@ jobs:
             STALE_COUNT="0"
           fi
           echo "stale_count=$STALE_COUNT" >> "$GITHUB_OUTPUT"
-          # Request a re-crawl when more than one stale entry was found and the
-          # triggering site is known. A single stale entry may be a one-off;
-          # multiple stale entries strongly suggest the previous crawl artifact
-          # expired before analysis could complete.
+          # Post an informational note when more than one stale entry was found and
+          # the triggering site is known. A single stale entry may be a one-off;
+          # multiple stale entries suggest the previous crawl artifact expired before
+          # those entries could be analysed. The current scan is still marked complete.
           NEEDS_RECRAWL="false"
           if [ "$STALE_COUNT" -gt 1 ] && [ -n "$CRAWL_SITE" ]; then
             NEEDS_RECRAWL="true"
@@ -576,8 +576,7 @@ jobs:
       - name: Close issue after scan and report
         if: >-
           github.event_name == 'workflow_run' &&
-          steps.meta.outputs.issue_number != '' &&
-          steps.stale_check.outputs.needs_recrawl != 'true'
+          steps.meta.outputs.issue_number != ''
         uses: actions/github-script@v8
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
@@ -595,7 +594,7 @@ jobs:
               state_reason: 'completed',
             });
 
-      - name: Request re-crawl when stale entries found
+      - name: Note stale entries from previous crawl
         if: >-
           github.event_name == 'workflow_run' &&
           steps.meta.outputs.issue_number != '' &&
@@ -620,42 +619,19 @@ jobs:
               repo:  context.repo.repo,
               issue_number: issueNumber,
               body: [
-                `♻️ **Re-crawl needed** for \`${crawlUrl}\`.`,
+                `♻️ **Heads up: ${staleCount} PDF entries from a previous crawl of \`${crawlUrl}\` could not be analysed.**`,
                 ``,
-                `${staleCount} pending manifest entries were found whose downloaded files`,
-                `are no longer available (the GitHub Actions artifact from the previous`,
-                `crawl has likely expired).`,
+                `These entries are still marked as pending in the manifest, but their`,
+                `downloaded files are no longer available (the GitHub Actions artifact`,
+                `from the previous crawl has likely expired).`,
                 ``,
-                `**To re-scan this site:** close and reopen this issue, or open a new`,
-                `issue with the same URL. The crawler will download fresh files and`,
-                `analyse them automatically.`,
+                `The current scan has been completed and this issue has been closed.`,
+                `To analyse the remaining PDFs, reopen this issue (or open a new one`,
+                `with the same URL) to trigger a fresh crawl.`,
                 ``,
-                `[View workflow run](${runUrl})`,
+                `<a href="${runUrl}">View workflow run</a>`,
               ].join('\n'),
             });
-
-            // Remove scan-in-progress / scan-complete labels and add scan-failed
-            // so the issue status is clearly visible.
-            for (const label of ['scan-in-progress', 'scan-complete']) {
-              try {
-                await github.rest.issues.removeLabel({
-                  owner: context.repo.owner,
-                  repo:  context.repo.repo,
-                  issue_number: issueNumber,
-                  name: label,
-                });
-              } catch (err) {
-                if (err.status !== 404) throw err;
-              }
-            }
-            try {
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo:  context.repo.repo,
-                issue_number: issueNumber,
-                labels: ['scan-failed'],
-              });
-            } catch (_) {}
 
       # -----------------------------------------------------------------------
       # Runs only when the job is cancelled (e.g. 60-minute job timeout).
