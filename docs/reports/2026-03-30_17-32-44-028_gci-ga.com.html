@@ -1,0 +1,2754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-30T17:32:44.031927+00:00",
+    "total_files": 61,
+    "analysed": 61,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 43,
+    "totally_inaccessible": 0,
+    "broken": 0,
+    "exempt": 0,
+    "sites": {
+      "gci-ga.com": 61
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Agribusiness_Hen%20House.pdf",
+      "md5": "1b997dbc383a1558b7966dc00a517458",
+      "filename": "Agribusiness_Hen%20House.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.009687+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-10 18:40:05+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 629,
+        "Images": 5
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Agribusiness_Silage.pdf",
+      "md5": "1a07550b595ccb2dc949c52bac55c99a",
+      "filename": "Agribusiness_Silage.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.013509+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-10 18:35:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 281,
+        "Images": 2
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Agribusiness_Student%20Tour.pdf",
+      "md5": "5a5a0e4903f8ecda47743d2802dd5a80",
+      "filename": "Agribusiness_Student%20Tour.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.016002+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-10 18:32:28+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 298,
+        "Images": 2
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Community_Backpacks.pdf",
+      "md5": "656187e19caeea15864ab7abf7a1ece9",
+      "filename": "Community_Backpacks.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.025225+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-26 12:42:20+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 258,
+        "Images": 10
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Community_Backpacks2.pdf",
+      "md5": "246c2ec42227a7ebacb0c2602ccd8d7a",
+      "filename": "Community_Backpacks2.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.028517+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-10 19:05:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 144,
+        "Images": 3
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Community_Youth.pdf",
+      "md5": "beeda606ab4b800dc43240190ddc979f",
+      "filename": "Community_Youth.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.030478+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-10 19:09:16+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 96,
+        "Images": 1
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Customer%20Showcase_Fire-Station.pdf",
+      "md5": "cd1fa56cdc061a24cda89a78cbcd5d08",
+      "filename": "Customer%20Showcase_Fire-Station.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.040552+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-10 19:17:46+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 296,
+        "Images": 5
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Customer%20Showcase_Judicial-Bldg.pdf",
+      "md5": "e0baedfe05277c2b44b8ce7cf0a79b48",
+      "filename": "Customer%20Showcase_Judicial-Bldg.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.046495+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-10 19:57:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 273,
+        "Images": 4
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Food-Service.pdf",
+      "md5": "6b4ef2d007075b3677c10dc29cdf48d6",
+      "filename": "Food-Service.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.048151+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-12 15:46:01+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 1,
+        "Words": 215,
+        "Images": 4
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI-Dashboard%20User%20Guide.pdf",
+      "md5": "92a8ddf8a8b965f1b4d00be86829d8cc",
+      "filename": "GCI-Dashboard%20User%20Guide.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.050331+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-10 20:28:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.12.75",
+        "Pages": 2,
+        "Words": 337,
+        "Images": 6
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2019.pdf",
+      "md5": "a8582eb7f632d190126573247fa0b03d",
+      "filename": "GCI_Fall_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.130140+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-19 19:38:24+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 20,
+        "Words": 4348,
+        "Images": 58
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2020.pdf",
+      "md5": "d2d8281566eb0df91660f01dd9322cc3",
+      "filename": "GCI_Fall_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.202075+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-23 13:50:01+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 11,
+        "Words": 2853,
+        "Images": 58
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2021.pdf",
+      "md5": "f3c31508bfdc2bece309f4fd734eb322",
+      "filename": "GCI_Fall_2021.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.242745+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-23 18:13:16+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 11,
+        "Words": 4373,
+        "Images": 101
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Fall_2022.pdf",
+      "md5": "6533504f72635e87cffec85db89d0c7e",
+      "filename": "GCI_Fall_2022.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.319541+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-24 13:44:08+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Pages": 11,
+        "Words": 3890,
+        "Images": 88
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2019.pdf",
+      "md5": "6e0a40f4de16f68fe6d8c9ec4292ff25",
+      "filename": "GCI_Spring_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.340059+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-25 13:55:16+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 16,
+        "Words": 3182,
+        "Images": 44
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2020.pdf",
+      "md5": "aeefc670565e53d70c467ea519d8fd4b",
+      "filename": "GCI_Spring_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.412872+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-25 15:26:44+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 20,
+        "Words": 3438,
+        "Images": 63
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2021.pdf",
+      "md5": "84778db70899120abbfbba44af10bcea",
+      "filename": "GCI_Spring_2021.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.451972+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-25 17:42:02+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 11,
+        "Words": 3682,
+        "Images": 82
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Spring_2022.pdf",
+      "md5": "e89c5748b72b88e4f3418e31a6f9ca02",
+      "filename": "GCI_Spring_2022.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.486483+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-25 20:30:38+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.1 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.5",
+        "Pages": 11,
+        "Words": 3792,
+        "Images": 99
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Summer_2019.pdf",
+      "md5": "69582360b40a7ec60ee47c284e9e33eb",
+      "filename": "GCI_Summer_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.509443+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-26 11:30:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 20,
+        "Words": 3327,
+        "Images": 56
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Summer_2020.pdf",
+      "md5": "e630e280c5d53be3d932b07d8036bf38",
+      "filename": "GCI_Summer_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.614856+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-26 13:11:11+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 20,
+        "Words": 3441,
+        "Images": 75
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Summer_2021.pdf",
+      "md5": "e6b72d87bb3c0c249aee1460ce188302",
+      "filename": "GCI_Summer_2021.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.644193+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-26 15:26:59+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 11,
+        "Words": 3704,
+        "Images": 58
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2019.pdf",
+      "md5": "a89797d81a4aff8c632f30724957b2d1",
+      "filename": "GCI_Winter_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.710482+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-26 17:22:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Publisher 2016",
+        "Producer": "Microsoft\u00ae Publisher 2016",
+        "Pages": 16,
+        "Words": 2512,
+        "Images": 273
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2020.pdf",
+      "md5": "dc93c36f49a28e813dc29c22356c56a5",
+      "filename": "GCI_Winter_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.719378+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-29 18:18:01+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 20,
+        "Words": 4384,
+        "Images": 62
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2021.pdf",
+      "md5": "8caf330361954392297f1c56015fa70a",
+      "filename": "GCI_Winter_2021.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.791783+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-29 19:16:17+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 11,
+        "Words": 3452,
+        "Images": 84
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2022.pdf",
+      "md5": "ee61daafca145577c363827ae332ac68",
+      "filename": "GCI_Winter_2022.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.798977+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-29 20:06:32+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.1 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.5",
+        "Pages": 9,
+        "Words": 3651,
+        "Images": 84
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/GCI_Winter_2023.pdf",
+      "md5": "0ba3122807a9ca4bd9570ba9aab95292",
+      "filename": "GCI_Winter_2023.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.859288+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-29 21:34:49+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Pages": 20,
+        "Words": 4146,
+        "Images": 107
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/IGA_FINAL_Rev1.pdf",
+      "md5": "2425c3a918eb4cbf957d287f55e2b538",
+      "filename": "IGA_FINAL_Rev1.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.862719+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-09 19:39:06+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 1,
+        "Words": 454,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Fall_2019.pdf",
+      "md5": "f3086ba80b32bb4fb7cf4b126a5226bf",
+      "filename": "NAIA_Fall_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.920030+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-29 21:50:32+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CS6 (Windows)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 16,
+        "Words": 2382,
+        "Images": 49
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Fall_2020.pdf",
+      "md5": "7f0080bc13d650c961941a1afd1c4267",
+      "filename": "NAIA_Fall_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:37.938624+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-29 22:02:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 9,
+        "Words": 2856,
+        "Images": 46
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Fall_2022.pdf",
+      "md5": "8b438b6d0c58aa1a92406702f92b1689",
+      "filename": "NAIA_Fall_2022.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.013806+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-29 22:20:46+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Pages": 11,
+        "Words": 5765,
+        "Images": 59
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Spring_2019.pdf",
+      "md5": "7598e0fe5b45a4a7456485800b41e5c5",
+      "filename": "NAIA_Spring_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.041628+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-30 12:30:42+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 16,
+        "Words": 3379,
+        "Images": 29
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Spring_2020.pdf",
+      "md5": "01ece3d99a8b4cc8871a92cea64f62a7",
+      "filename": "NAIA_Spring_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.108804+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-30 13:00:40+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 20,
+        "Words": 4817,
+        "Images": 40
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Spring_2021.pdf",
+      "md5": "75181c889d87f28237105a1a23236ad3",
+      "filename": "NAIA_Spring_2021.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.135402+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-30 13:21:06+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 9,
+        "Words": 3452,
+        "Images": 33
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Summer_2019.pdf",
+      "md5": "2b38289bbe9037ce1adfbfaea4c797e0",
+      "filename": "NAIA_Summer_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.151472+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-30 14:50:58+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 20,
+        "Words": 3376,
+        "Images": 44
+      },
+      "errors": [
+        "tagged, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Summer_2020.pdf",
+      "md5": "14b9de04f52ff82ed621a6783755f164",
+      "filename": "NAIA_Summer_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.210678+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-30 14:50:47+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 9,
+        "Words": 4607,
+        "Images": 40
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Summer_2021.pdf",
+      "md5": "e1be625b4f40033893598393f3ef09cd",
+      "filename": "NAIA_Summer_2021.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:05.749973+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-08-11 14:38:30+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 9,
+        "Words": 3026,
+        "Images": 35
+      },
+      "errors": [
+        "title, tagged, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Winter_2021.pdf",
+      "md5": "116613678db5f16ddf93173b7ee30014",
+      "filename": "NAIA_Winter_2021.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:05.767941+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-01-07 19:54:28+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 9,
+        "Words": 4090,
+        "Images": 30
+      },
+      "errors": [
+        "title, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Winter_2022.pdf",
+      "md5": "34face6c489b436204dcd464e6139c63",
+      "filename": "NAIA_Winter_2022.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:05.770709+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-03-16 19:00:43+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.1 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.5",
+        "Pages": 9,
+        "Words": 3205,
+        "Images": 38
+      },
+      "errors": [
+        "title, tagged, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NAIA_Winter_2023.pdf",
+      "md5": "b070af7014f8b5c31e697c4437f6cb11",
+      "filename": "NAIA_Winter_2023.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:05.801837+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-01-30 16:50:09+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Pages": 9,
+        "Words": 4702,
+        "Images": 43
+      },
+      "errors": [
+        "title, tagged, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Fall_2019.pdf",
+      "md5": "5638efe1f5427c0d586206901a6e122e",
+      "filename": "NCIA_Fall_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:05.817497+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2019-09-12 15:53:57+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 52,
+        "Words": 14103,
+        "Images": 234
+      },
+      "errors": [
+        "title, tagged, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Fall_2020.pdf",
+      "md5": "3462d46558b7064f419df0ad2d1cacfd",
+      "filename": "NCIA_Fall_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:05.885579+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2020-09-04 15:41:17+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 15.1 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 44,
+        "Words": 11911,
+        "Images": 275
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Fall_2022.pdf",
+      "md5": "f49c05eb47e154935ed92bbd3af397a2",
+      "filename": "NCIA_Fall_2022.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:05.893859+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2022-09-06 19:36:41+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Pages": 40,
+        "Words": 10114,
+        "Images": 130
+      },
+      "errors": [
+        "title, tagged, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Spring_2019.pdf",
+      "md5": "037fc810f6644f7bb9314fb0ea079f6e",
+      "filename": "NCIA_Spring_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:05.907269+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2019-03-25 17:55:41+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe InDesign CC 13.1 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 52,
+        "Words": 16523,
+        "Images": 341
+      },
+      "errors": [
+        "title, tagged, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Spring_2020.pdf",
+      "md5": "89f6f1774c655bbacb5ee18376fd3d16",
+      "filename": "NCIA_Spring_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:06.005018+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2020-03-27 14:06:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 15.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 48,
+        "Words": 13460,
+        "Images": 266
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Spring_2021.pdf",
+      "md5": "87da664252f6ef4c1d90d6183b476844",
+      "filename": "NCIA_Spring_2021.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:06.063581+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2021-03-23 17:50:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 16.1 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 40,
+        "Words": 11186,
+        "Images": 225
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Summer_2019.pdf",
+      "md5": "6ec58a3c795eab5a06c26b2e0e7b6dba",
+      "filename": "NCIA_Summer_2019.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:06.085770+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2019-06-17 15:13:31+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe InDesign CC 13.1 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 56,
+        "Words": 11461,
+        "Images": 356
+      },
+      "errors": [
+        "title, tagged, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Summer_2020.pdf",
+      "md5": "fe92d37bdc90d47dc8df13aab42b7340",
+      "filename": "NCIA_Summer_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:06.163155+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2020-06-24 15:35:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 15.1 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 44,
+        "Words": 12277,
+        "Images": 333
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Summer_2021.pdf",
+      "md5": "9349a0fbb20dcb830451c03462eb8fc7",
+      "filename": "NCIA_Summer_2021.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:06.174591+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-06-07 22:01:23+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 16.2 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 72,
+        "Words": 29358,
+        "Images": 200
+      },
+      "errors": [
+        "title, tagged, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Winter_2020.pdf",
+      "md5": "7b9d3b8638f1d3590883bb4b2c508669",
+      "filename": "NCIA_Winter_2020.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:06.233754+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-12-23 17:39:28+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 16.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 40,
+        "Words": 13566,
+        "Images": 174
+      },
+      "errors": [
+        "title, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Winter_2022.pdf",
+      "md5": "eb95ec67fc3e039754cb074ada981534",
+      "filename": "NCIA_Winter_2022.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:06.242802+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2022-02-02 19:34:18+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe InDesign 17.0 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.3",
+        "Pages": 44,
+        "Words": 11802,
+        "Images": 146
+      },
+      "errors": [
+        "title, tagged, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/NCIA_Winter_2023.pdf",
+      "md5": "3f05847c16df6b9cf0ec7a5baebf7064",
+      "filename": "NCIA_Winter_2023.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-24T18:26:06.254742+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2023-01-13 21:41:22+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 18.1 (Windows)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 44,
+        "Words": 10769,
+        "Images": 143
+      },
+      "errors": [
+        "title, tagged, no bookmarks and more than 20 pages, "
+      ],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/News_Emergency.pdf",
+      "md5": "cebafa83372623533edc92781f28cfba",
+      "filename": "News_Emergency.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.757657+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-26 11:16:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe Acrobat 19.12",
+        "Producer": "Adobe Acrobat 19.12 Image Conversion Plug-in",
+        "Pages": 1,
+        "Words": 103,
+        "Images": 1
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/News_Toombs.pdf",
+      "md5": "0f7827c54592bde2f72d68fcbcc37509",
+      "filename": "News_Toombs.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.762610+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-10 11:42:21+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe Acrobat 19.12",
+        "Producer": "Adobe Acrobat 19.12 Image Conversion Plug-in",
+        "Pages": 1,
+        "Words": 199,
+        "Images": 1
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Op-Highlight-Optics.pdf",
+      "md5": "58602bcf48fbdd64e0f6d4842f53dfca",
+      "filename": "Op-Highlight-Optics.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.768422+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-19 16:12:25+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 167,
+        "Images": 10
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Op-Highlight_Autry.pdf",
+      "md5": "129fb9ff18e2761a84d5d3a6a051f83e",
+      "filename": "Op-Highlight_Autry.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.773527+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-26 15:17:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 222,
+        "Images": 4
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Op-Highlight_Engraving.pdf",
+      "md5": "51a1c9d07858c8881808ec0ef9ff4b5b",
+      "filename": "Op-Highlight_Engraving.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.776907+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-10 12:32:27+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 285,
+        "Images": 5
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/Op-Highlight_Telfair.pdf",
+      "md5": "b525a7b417edf2a5359e75dc8088d7c0",
+      "filename": "Op-Highlight_Telfair.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.790047+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-18 19:40:45+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 430,
+        "Images": 12
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/SCSC_FINAL_Rev1.pdf",
+      "md5": "d1d97385766575d78b11286ea9ed4f5f",
+      "filename": "SCSC_FINAL_Rev1.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.794488+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-18 19:46:49+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 2,
+        "Words": 337,
+        "Images": 1
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/SkillsTraining_AutoCAD.pdf",
+      "md5": "7c59af6be500228bd29f4ee9fed903bf",
+      "filename": "SkillsTraining_AutoCAD.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.802963+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-26 14:03:12+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 228,
+        "Images": 6
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/SkillsTraining_COVID-Shields.pdf",
+      "md5": "9da8c6a5789e8300a932b5cf1abc3840",
+      "filename": "SkillsTraining_COVID-Shields.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.813124+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-26 14:02:26+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 339,
+        "Images": 6
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    },
+    {
+      "url": "https://www.gci-ga.com/pub/media/pdf/SkillsTraining_Gowns.pdf",
+      "md5": "ace7326de08e0f5dc55bb42a31df3124",
+      "filename": "SkillsTraining_Gowns.pdf",
+      "site": "gci-ga.com",
+      "crawled_at": "2026-03-30T17:22:38.816695+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-18 20:21:26+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 223,
+        "Images": 5
+      },
+      "errors": [],
+      "notes": "This is scan #2 for the GCI website."
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
+      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        var extDomain = '';
+        try {
+          var pdfHost = new URL(f.url).hostname.replace(/^www\./, '');
+          var seed = (f.site || '').replace(/^www\./, '');
+          if (pdfHost && seed && pdfHost !== seed && !pdfHost.endsWith('.' + seed)) {
+            extDomain = pdfHost;
+          }
+        } catch (e) {}
+        var siteCell = esc(f.site || '');
+        if (extDomain) {
+          siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
+        }
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        var colDefs = [
+          { key: 'file',       label: 'File' },
+          { key: 'site',       label: 'Site' },
+          { key: 'date',       label: 'Published Date' },
+          { key: 'accessible', label: 'Accessible' },
+          { key: 'tagged',     label: 'Tagged' },
+          { key: 'title',      label: 'Title' },
+          { key: 'language',   label: 'Language' },
+          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'pages',      label: 'Pages' },
+        ];
+        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
+        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>
