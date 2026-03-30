@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-30T14:08:39.381262+00:00",
+    "site": "ppboces.org",
+    "crawl_url": "https://www.ppboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23749044483",
+    "issue_url": "",
+    "archive_file": "2026-03-30_14-08-39-381_ppboces.org.html",
+    "total": 34,
+    "analysed": 34,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-30T14:05:39.171467+00:00",
     "site": "mtnboces.org",
     "crawl_url": "https://www.mtnboces.org",

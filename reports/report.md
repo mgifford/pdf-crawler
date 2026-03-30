@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-30T14:05:39.171467+00:00
+Generated: 2026-03-30T14:08:39.381262+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 230 |
+| URLs crawled | 306 |
 | Total files tracked | 18612 |
-| Analysed | 5217 |
-| Pending analysis | 10419 |
+| Analysed | 5218 |
+| Pending analysis | 10418 |
 | Errors during analysis | 2976 |
 | Accessible | 1651 |
 | Totally inaccessible | 172 |
 | Broken / unreadable | 5 |
-| Exempt (pre-2018) | 1222 |
+| Exempt (pre-2018) | 1223 |
 
 ## Files per Site
 
@@ -4910,6 +4910,7 @@ Generated: 2026-03-30T14:05:39.171467+00:00
 | [SOE-Calendar-25-26-Final.pdf](https://www.ppboces.org/DocumentCenter/View/4165/SOE-Calendar-25-26-Final) | ppboces.org | 2025-06-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 660 | 1 |
 | [SafeInPersonPlan.pdf](https://www.ppboces.org/DocumentCenter/View/3229/SafeInPersonPlan?bidId=) | ppboces.org | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 0 | 2 |
 | [Spanish-Annual-Notification_1718.pdf](https://www.ppboces.org/DocumentCenter/View/2016/Spanish-Annual-Notification_1718?bidId=) | ppboces.org | 2016-05-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 620 | 0 |
+| [Spanish-One-time-CSMC-MedicaidParentConsentForm_1718.pdf](https://www.ppboces.org/DocumentCenter/View/2017/Spanish-One-time-CSMC-MedicaidParentConsentForm_1718?bidId=) | ppboces.org | 2016-05-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 571 | 0 |
 | [2017-18-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/documents/2017-18-financial-data-file.pdf) | coloradomesa.edu | 2020-06-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1952 | 0 |
 | [2018-19-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/documents/2018-19-financial-data-file.pdf) | coloradomesa.edu | 2020-06-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1809 | 0 |
 | [2019-20-financial-data-file.pdf](https://www.coloradomesa.edu/grandvalleyboces/2019-20-financial-data-file.pdf) | coloradomesa.edu | 2021-08-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 2294 | 0 |
@@ -43128,6 +43129,12 @@ Generated: 2026-03-30T14:05:39.171467+00:00
 ### Spanish-Annual-Notification_1718.pdf
 
 - **URL**: https://www.ppboces.org/DocumentCenter/View/2016/Spanish-Annual-Notification_1718?bidId=
+- **Status**: analysed
+- title, 
+
+### Spanish-One-time-CSMC-MedicaidParentConsentForm_1718.pdf
+
+- **URL**: https://www.ppboces.org/DocumentCenter/View/2017/Spanish-One-time-CSMC-MedicaidParentConsentForm_1718?bidId=
 - **Status**: analysed
 - title, 
 
