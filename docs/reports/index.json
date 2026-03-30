@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-30T14:05:39.171467+00:00",
+    "site": "mtnboces.org",
+    "crawl_url": "https://www.mtnboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23748892682",
+    "issue_url": "",
+    "archive_file": "2026-03-30_14-05-39-171_mtnboces.org.html",
+    "total": 32,
+    "analysed": 32,
+    "accessible": 10
+  },
+  {
     "date": "2026-03-30T00:04:49.266491+00:00",
     "site": "energy.gov",
     "crawl_url": "https://www.energy.gov/",
