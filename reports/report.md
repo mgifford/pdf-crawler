@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-30T18:22:48.854282+00:00
+Generated: 2026-03-30T21:35:40.661740+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 13 |
-| Total files tracked | 18673 |
+| URLs crawled | 342 |
+| Total files tracked | 18806 |
 | Analysed | 5303 |
-| Pending analysis | 10201 |
-| Errors during analysis | 3169 |
+| Pending analysis | 10093 |
+| Errors during analysis | 3410 |
 | Accessible | 1728 |
 | Totally inaccessible | 191 |
 | Broken / unreadable | 5 |
@@ -61,7 +61,7 @@ Generated: 2026-03-30T18:22:48.854282+00:00
 | nsf.gov | 1427 |
 | nwboces.org | 21 |
 | ontario.ca | 51 |
-| oregon.gov | 1968 |
+| oregon.gov | 2101 |
 | pa.gov | 212 |
 | pca.state.mn.us | 211 |
 | ppboces.org | 34 |
@@ -32206,6 +32206,1452 @@ Generated: 2026-03-30T18:22:48.854282+00:00
 - **URL**: https://www.oregon.gov/odhs/aging-disability-services/Documents/deaf-hard-of-hearing-community-needs-assessment-2016.pdf
 - **Status**: analysed
 - tagged, 
+
+### 1-22-minutes.pdf
+
+- **URL**: https://www.oregon.gov/DCBS/SBO/Documents/ORAC/1-22-minutes.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.434991+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1-23-meeting-docs.pdf
+
+- **URL**: https://www.oregon.gov/DCBS/SBO/Documents/ORAC/1-23-meeting-docs.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.439372+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 10-22-minutes.pdf
+
+- **URL**: https://www.oregon.gov/DCBS/SBO/Documents/ORAC/10-22-minutes.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.440580+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 110-033%20CL2.pdf
+
+- **URL**: https://www.oregon.gov/dor/Documents/110-033%20CL2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.441665+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 148.pdf
+
+- **URL**: https://www.oregon.gov/odot/forms/dmv/148.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.442956+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 14RS0500_610_SeismicReportFinal.pdf
+
+- **URL**: https://www.oregon.gov/odot/Programs/ResearchDocuments/14RS0500_610_SeismicReportFinal.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.494856+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 173DPfill.pdf
+
+- **URL**: https://www.oregon.gov/odot/Forms/DMV/173DPfill.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.498435+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 180212-Final-Letter-on-Temporary-Protected%20Status.pdf
+
+- **URL**: https://www.oregon.gov/treasury/news-data/Documents/topics-of-interest/undated/180212-Final-Letter-on-Temporary-Protected%20Status.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.500824+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1997-salmonellosis.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/COMMUNICABLEDISEASE/DISEASESURVEILLANCEDATA/ANNUALREPORTS/Documents/1997/1997-salmonellosis.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.503206+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1997-shigellosis.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/COMMUNICABLEDISEASE/DISEASESURVEILLANCEDATA/ANNUALREPORTS/Documents/1997/1997-shigellosis.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.504631+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1997-tularemia.pdf
+
+- **URL**: https://www.oregon.gov/oha/PH/DISEASESCONDITIONS/COMMUNICABLEDISEASE/DISEASESURVEILLANCEDATA/ANNUALREPORTS/Documents/1997/1997-tularemia.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.505876+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201.3%20Release%20of%20Public%20Records.pdf
+
+- **URL**: https://www.oregon.gov/osp/programs/Shared%20Documents/201.3%20Release%20of%20Public%20Records.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.507012+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2012-legal-guide.pdf
+
+- **URL**: https://www.oregon.gov/odhs/providers-partners/foster-care/Documents/2012-legal-guide.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.508964+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 20120913_Plechl,%20Kevin_Final%20Order.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/20120913_Plechl,%20Kevin_Final%20Order.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.515731+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201212008_Houston_FO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201212008_Houston_FO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.535862+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201304004_Dorn,%20Devon_SO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201304004_Dorn,%20Devon_SO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.537739+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201410005_Lancaster_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201410005_Lancaster_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.539001+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2015-02-009_Niebergall_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2015-02-009_Niebergall_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.541797+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201507007_Smith_Wade_FO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201507007_Smith_Wade_FO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.561982+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201509019_Orias_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201509019_Orias_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.566242+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201510009_deCastro_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201510009_deCastro_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.570449+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201510010_Corley_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201510010_Corley_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.574365+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201510018_Simons_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201510018_Simons_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.577951+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2016-05-024_Cantwell_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2016-05-024_Cantwell_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.581831+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201601009_Olson_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201601009_Olson_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.585894+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201605026_Sandino_Angela_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201605026_Sandino_Angela_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.587771+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201609014_Hays_Jeffrey_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201609014_Hays_Jeffrey_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.589559+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201610004_Watkins_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201610004_Watkins_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.592566+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201610009_Benton_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201610009_Benton_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.596362+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201612003_Ball_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201612003_Ball_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.599479+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201612008_Hawke_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201612008_Hawke_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.601327+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201612011_Jensen_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201612011_Jensen_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.605110+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-03-026_Merrel_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017-03-026_Merrel_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.608061+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-04-014_Shepard_SO_.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017-04-014_Shepard_SO_.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.611484+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-06-005_Flucas_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017-06-005_Flucas_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.614812+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-09-016_Jenkins_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017-09-016_Jenkins_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.618498+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-09-021_Thompson_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017-09-021_Thompson_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.621910+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-11-005_Bliss_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017-11-005_Bliss_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.625070+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-12-002_Larsson_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017-12-002_Larsson_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.627846+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-12-013_Atherton_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017-12-013_Atherton_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.631196+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017-12-022_Diehl_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017-12-022_Diehl_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.634134+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201702005_Springer_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201702005_Springer_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.637083+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201703015_White_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201703015_White_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.640488+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201703016_Chon_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201703016_Chon_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.643302+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201703017_Castillo_Erick_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201703017_Castillo_Erick_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.647747+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201703020_Glodt_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201703020_Glodt_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.650925+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201703028_Wieweck_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201703028_Wieweck_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.653584+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201704001_Austin_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201704001_Austin_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.654734+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201704002_Haddock_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201704002_Haddock_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.657482+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201704012_Walsh,%20Robert_DO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201704012_Walsh,%20Robert_DO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.658533+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201704016_Olson_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201704016_Olson_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.659815+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201704018_Hutchins_Scott_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201704018_Hutchins_Scott_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.661083+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201705013_Bando_FO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201705013_Bando_FO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.670272+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201705026_Wood_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201705026_Wood_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.673313+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2017052017_Sullivan_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2017052017_Sullivan_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.674348+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201706015_Foster_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201706015_Foster_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.677197+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201706018_Mitchell_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201706018_Mitchell_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.680795+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201706028_Jolley_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201706028_Jolley_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.684286+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201707005_Barrie_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201707005_Barrie_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.687125+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201707011_Baucum_Lena_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201707011_Baucum_Lena_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.688343+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201707012_deNevers_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201707012_deNevers_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.692592+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201708008_Tackett_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201708008_Tackett_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.695832+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201709005_Lynn_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201709005_Lynn_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.696850+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201709007_Pfeiffer_Scott_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201709007_Pfeiffer_Scott_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.698140+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201710004_Sander_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201710004_Sander_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.701241+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201710012_Skowhede_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201710012_Skowhede_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.706167+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201710013_Schillinger_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201710013_Schillinger_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.709059+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201711006_Madrigal,%20Jaime_Final_Order.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201711006_Madrigal,%20Jaime_Final_Order.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.710375+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201711014_Odle_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201711014_Odle_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.713553+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201712004_Potts_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201712004_Potts_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.716890+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201712005_Brown_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201712005_Brown_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.717984+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201712011_Newell_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201712011_Newell_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.720428+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201712015_Jackson_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201712015_Jackson_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.723518+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201712020_Cota_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201712020_Cota_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.728066+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-01-007_Theissen_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-01-007_Theissen_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.733179+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-01-032_Bates_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-01-032_Bates_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.736553+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-02-009_Weems_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-02-009_Weems_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.739953+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-02-012_Chaney_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-02-012_Chaney_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.743434+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-05-022_Phelps_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-05-022_Phelps_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.747632+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-08-005_Ames_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-08-005_Ames_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.750840+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-08-008_Cole_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-08-008_Cole_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.754280+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-09-002_Campbell_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-09-002_Campbell_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.756864+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-09-008_Hicks_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-09-008_Hicks_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.759927+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-10-001_Wormley_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-10-001_Wormley_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.762386+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-10-019_DeVogele_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-10-019_DeVogele_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.765816+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-11-007_Johnson_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-11-007_Johnson_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.769182+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-11-013_Dickinson_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2018-11-013_Dickinson_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.772849+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201801014_McMillan_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201801014_McMillan_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.774670+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201801022_Martos_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201801022_Martos_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.780326+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201801023_Randall_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201801023_Randall_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.783295+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201802011_LaFramboise_Jeremy_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201802011_LaFramboise_Jeremy_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.787982+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201802013_Zysett_Russell_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201802013_Zysett_Russell_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.789159+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201802025_Hanks_Kandace_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201802025_Hanks_Kandace_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.793948+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201802027_James_Joseph_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201802027_James_Joseph_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.795265+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201802029_Saulter_Douglas_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201802029_Saulter_Douglas_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.796429+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201803009_Gibson_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201803009_Gibson_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.799988+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201803012_Lyon_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201803012_Lyon_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.802910+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201804012_Gamez_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201804012_Gamez_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.805540+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201804015_Riser_Christopher_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201804015_Riser_Christopher_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.806674+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201805001_Wroblewski_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201805001_Wroblewski_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.807657+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201805004_StLouis_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201805004_StLouis_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.811609+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201805009_Sharifi_Tehrani_Mehrnaz_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201805009_Sharifi_Tehrani_Mehrnaz_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.815566+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201805018_Pierson_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201805018_Pierson_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.820869+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201805023_Delgado_Ernesto_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201805023_Delgado_Ernesto_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.822044+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201805031_Rue_Jennifer_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201805031_Rue_Jennifer_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.823237+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201806004_Binder_Mark_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201806004_Binder_Mark_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.826356+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201806013_Cohn_Eric_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201806013_Cohn_Eric_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.830245+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201806014_Birdsell_Carol_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201806014_Birdsell_Carol_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.833958+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201806018_Colburn_David_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201806018_Colburn_David_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.836836+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201806021_Lattman_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201806021_Lattman_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.840073+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201807001_Knox_Douglas_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201807001_Knox_Douglas_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.844348+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201807008_Schell_David_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201807008_Schell_David_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.848063+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201807011_Jackson_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201807011_Jackson_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.852446+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201807013_Allen_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201807013_Allen_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.855695+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201807015_Lulay_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201807015_Lulay_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.860052+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201808007_Connelly_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201808007_Connelly_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.863534+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201809006_Barber_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201809006_Barber_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.864677+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201809016_Alley_Ronald_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201809016_Alley_Ronald_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.867500+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201809017_Grimes_Jeffrey_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201809017_Grimes_Jeffrey_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.871859+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201810002_Boone,%20Christopher_DO%20(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201810002_Boone,%20Christopher_DO%20(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.872879+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201810004_Germano_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201810004_Germano_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.873890+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201810009_Swan_Peter_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201810009_Swan_Peter_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.878136+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201810012_Modarelli_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201810012_Modarelli_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.882896+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201810022_Smith_Ronald_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201810022_Smith_Ronald_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.884033+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201811003_Sequeira_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201811003_Sequeira_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.888083+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201811010_Walker_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201811010_Walker_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.893569+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201811011_Bissey_John_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201811011_Bissey_John_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.894693+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201812002_Chuhlantseff_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201812002_Chuhlantseff_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.897626+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201812003_Shank_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201812003_Shank_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.898604+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201812015_Schlaht_Donna_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201812015_Schlaht_Donna_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.899779+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2019-01-023_Oswald_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2019-01-023_Oswald_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.902598+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2019-02-018_Russell_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/2019-02-018_Russell_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.906905+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201901022_Wilshire_Charlie_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201901022_Wilshire_Charlie_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.911081+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201901025_Nelson_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201901025_Nelson_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.915130+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201902001_Commins_Timothy_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201902001_Commins_Timothy_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.920268+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201902002_DeLoera_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201902002_DeLoera_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.921239+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201902004_Alas_Yamilet_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201902004_Alas_Yamilet_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.922431+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201902007_Smith_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201902007_Smith_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.925641+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201902017_Ashley_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201902017_Ashley_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.928613+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201903006_Vanderhoff_MDO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201903006_Vanderhoff_MDO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.929585+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201903007_Black_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201903007_Black_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.933123+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201903008_Todd,%20Michael_DO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201903008_Todd,%20Michael_DO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.934127+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201903012_Nopp_Scott_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201903012_Nopp_Scott_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.935235+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201903013_DeSousa-Costa_Ricardo_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201903013_DeSousa-Costa_Ricardo_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.938352+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201903019_Smyth_Terrence_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201903019_Smyth_Terrence_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.942906+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201903020_Kenneth_Matthew_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201903020_Kenneth_Matthew_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.947627+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201903021_Weber_Maxwell_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201903021_Weber_Maxwell_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.948839+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201903028_Wilson_Warren_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201903028_Wilson_Warren_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.952070+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904002_McDonald_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904002_McDonald_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.956208+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904003_White_Ronald_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904003_White_Ronald_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.960523+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904006_Snyder_Stephanie_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904006_Snyder_Stephanie_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.965120+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904008_Dunn_Ronald_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904008_Dunn_Ronald_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.966349+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904013_Conlon_Matthew_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904013_Conlon_Matthew_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.967527+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904015_Yount_Darrell_DO_(Final%20Order).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904015_Yount_Darrell_DO_(Final%20Order).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.968528+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904016_White_Josh_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904016_White_Josh_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.969661+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904017_Yee_Timothy_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904017_Yee_Timothy_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.974349+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904019_Emms_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904019_Emms_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.975336+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904023_Varner_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904023_Varner_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.979039+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201904028_Silva_Raina_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201904028_Silva_Raina_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.982469+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201905001_Stickler_Kristen_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201905001_Stickler_Kristen_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.983913+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201905005_Sumerlin_Cheryl_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201905005_Sumerlin_Cheryl_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.985380+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201905015_Jones_Paul_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201905015_Jones_Paul_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.989258+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201905016_Tubbs_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201905016_Tubbs_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.993465+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201905021_Brown_Oliver_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201905021_Brown_Oliver_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.995168+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201906001_Wood_Jeffrey_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201906001_Wood_Jeffrey_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:37.996355+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201906005_James_Robert_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201906005_James_Robert_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.001825+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201906007_Naill_Jesse_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201906007_Naill_Jesse_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.002999+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201906010_Herneisen_Donald_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201906010_Herneisen_Donald_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.004270+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201906013_Martin_Stacey_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201906013_Martin_Stacey_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.007692+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201906015_Bishop_Jon_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201906015_Bishop_Jon_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.010848+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201906020_Keller_Damon_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201906020_Keller_Damon_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.016550+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201907004_Luhman_John_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201907004_Luhman_John_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.021278+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201907006_Mjelde_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201907006_Mjelde_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.024209+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201907008_Sherman,%20Jacob_DO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201907008_Sherman,%20Jacob_DO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.025235+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201908004_Harrington_Ryan_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201908004_Harrington_Ryan_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.027632+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201908006_Hamann_William_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201908006_Hamann_William_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.028883+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201908011_Genthner_Holly_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201908011_Genthner_Holly_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.032568+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201908015_Henshaw_Bradley_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201908015_Henshaw_Bradley_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.036647+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201908017_Hunt_Joshua_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201908017_Hunt_Joshua_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.039117+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201909009_Regan_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201909009_Regan_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.042058+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910001_Goff_Tryon_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910001_Goff_Tryon_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.043245+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910006_Woods_Victor_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910006_Woods_Victor_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.044405+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910007_Phillips_Danley_SO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910007_Phillips_Danley_SO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.046596+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910008_Miller_Ross_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910008_Miller_Ross_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.047766+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910009_Benjamin_Jeffrey_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910009_Benjamin_Jeffrey_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.048945+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910011_Spencer_Jonathan_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910011_Spencer_Jonathan_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.052246+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910013_Santos_Daniel_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910013_Santos_Daniel_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.058499+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910015_Rinke_Isaac_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910015_Rinke_Isaac_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.062738+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910017_Sandven_Melissa_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910017_Sandven_Melissa_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.067401+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910021_Federico,%20Nicholas_DO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910021_Federico,%20Nicholas_DO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.068612+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201910024_Moses_John_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201910024_Moses_John_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.069944+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201911001_Byington_Drew_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201911001_Byington_Drew_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.071354+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201911005_Coffman_Delpha_STIP_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201911005_Coffman_Delpha_STIP_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.072647+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201911007_Aerts,%20Mark_SFO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201911007_Aerts,%20Mark_SFO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.073966+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201911008_Lillebo_Jeffrey_FO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201911008_Lillebo_Jeffrey_FO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.075744+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201911011_Wade_Christopher_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201911011_Wade_Christopher_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.077016+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201911016_May_Carol_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201911016_May_Carol_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.078303+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201911017_Wade_Benjamin_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201911017_Wade_Benjamin_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.079579+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201912002_Smith,%20Paul_SFO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201912002_Smith,%20Paul_SFO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.080797+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201912005_Crook_Michelle_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201912005_Crook_Michelle_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.085324+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201912010_Murray_Michael_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201912010_Murray_Michael_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.086724+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201912013_Faudskar_Jessica_Final_Order.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201912013_Faudskar_Jessica_Final_Order.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.088227+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 201912016_Gamez,%20Melchor_STIP_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/201912016_Gamez,%20Melchor_STIP_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.089346+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2020-dsp-workforce-report-en.pdf
+
+- **URL**: https://www.oregon.gov/odhs/data/oddsdata/2020-dsp-workforce-report-en.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.092648+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2020.2.19%20SUD%20Waiver%20Redmond.Bend%20Townhall%20Minutes.pdf
+
+- **URL**: https://www.oregon.gov/oha/HSD/Medicaid-Policy/SUDWaiver/2020.2.19%20SUD%20Waiver%20Redmond.Bend%20Townhall%20Minutes.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.093881+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001001_Landon_Elizabeth_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001001_Landon_Elizabeth_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.095113+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001003_Miranda%20Felipe_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001003_Miranda%20Felipe_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.096198+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001004_Wolfe_Lonnie_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001004_Wolfe_Lonnie_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.097471+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001007_Belenfant,%20Joel_Final%20Order.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001007_Belenfant,%20Joel_Final%20Order.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.099137+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001008_Fredrickson_Kaitlin_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001008_Fredrickson_Kaitlin_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.100298+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001016_Hawk_Ryan_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001016_Hawk_Ryan_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.114175+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001018_Henderson_Jamie_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001018_Henderson_Jamie_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.119297+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001023_Comstock_Jeffery_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001023_Comstock_Jeffery_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.121456+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001028_Stasack_Michael_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001028_Stasack_Michael_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.123660+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202001030_McKenzie,%20David_SFO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202001030_McKenzie,%20David_SFO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.125581+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202002005_Bolden,%20Kawanna_SFO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202002005_Bolden,%20Kawanna_SFO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.127516+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202002008_Landis_RO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202002008_Landis_RO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.133226+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202002021_Baker_Steven_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202002021_Baker_Steven_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.135084+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202002024_Blakley_Donna_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202002024_Blakley_Donna_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.139287+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202002031_Harley_Peter_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202002031_Harley_Peter_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.141125+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202003001_Bost_Larry_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202003001_Bost_Larry_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.144264+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202003003_Burpee_Julie_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202003003_Burpee_Julie_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.145864+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202003004_Lund_John_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202003004_Lund_John_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.147413+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202003008_Carlton_Joshua_DO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202003008_Carlton_Joshua_DO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.148947+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202003018_Deyoe_Andrew_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202003018_Deyoe_Andrew_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.150472+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202003021_Goodman_Darren_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202003021_Goodman_Darren_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.151942+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202003023_Cox_Laurie_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202003023_Cox_Laurie_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.153459+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202003024_Sisko_Alexander_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202003024_Sisko_Alexander_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.154935+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202004003_Salas_Gilbert_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202004003_Salas_Gilbert_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.156290+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202004008_Berman_Noah_DO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202004008_Berman_Noah_DO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.157492+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202005006%20Cunningham,%20Brett_DO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202005006%20Cunningham,%20Brett_DO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.158623+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202005007_VanLoon_Michael_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202005007_VanLoon_Michael_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.159879+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202005010_Quaresma,%20Laure_SFO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202005010_Quaresma,%20Laure_SFO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.161074+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202005012_Shindelman_Robert_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202005012_Shindelman_Robert_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.162373+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202006004_Parker_Deborah_DO(final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202006004_Parker_Deborah_DO(final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.163864+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202006006_Schumacher,%20Larry_DO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202006006_Schumacher,%20Larry_DO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.165231+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202006008_Gutierrez_Adrian_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202006008_Gutierrez_Adrian_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.166693+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202006009_Knowles_Edward_DO_(Final).pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202006009_Knowles_Edward_DO_(Final).pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.168028+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202007002_Crabaugh_Alanna_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202007002_Crabaugh_Alanna_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.169426+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202007008_Wierth_David_DO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202007008_Wierth_David_DO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.170850+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 202008006_Amerson_Kai_SO.pdf
+
+- **URL**: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202008006_Amerson_Kai_SO.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.172269+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CTIS%20List%20of%20known%20issues%20for%20Authorities%20-%20v1.0.16.0.pdf
 

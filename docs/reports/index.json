@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-30T21:35:40.661740+00:00",
+    "site": "oregon.gov",
+    "crawl_url": "https://oregon.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23767262551",
+    "issue_url": "",
+    "archive_file": "2026-03-30_21-35-40-661_oregon.gov.html",
+    "total": 2101,
+    "analysed": 55,
+    "accessible": 21
+  },
+  {
     "date": "2026-03-30T18:22:48.854282+00:00",
     "site": "gci-ga.com",
     "crawl_url": "https://www.gci-ga.com",
