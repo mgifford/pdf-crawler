@@ -1,19 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-29T22:54:09.655459+00:00
+Generated: 2026-03-30T00:04:49.266491+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 18520 |
-| Analysed | 5117 |
-| Pending analysis | 10513 |
-| Errors during analysis | 2890 |
-| Accessible | 1631 |
-| Totally inaccessible | 170 |
+| Total files tracked | 18612 |
+| Analysed | 5217 |
+| Pending analysis | 10419 |
+| Errors during analysis | 2976 |
+| Accessible | 1651 |
+| Totally inaccessible | 172 |
 | Broken / unreadable | 5 |
-| Exempt (pre-2018) | 1189 |
+| Exempt (pre-2018) | 1222 |
 
 ## Files per Site
 
@@ -41,7 +41,7 @@ Generated: 2026-03-29T22:54:09.655459+00:00
 | ecboces.org | 14 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 656 |
+| energy.gov | 748 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
@@ -5197,6 +5197,106 @@ Generated: 2026-03-29T22:54:09.655459+00:00
 | [Maryland-Information-Technology-Master-Plan-2025.pdf](https://doit.maryland.gov/About-DoIT/Documents/Maryland-Information-Technology-Master-Plan-2025.pdf) | doit.maryland.gov | 2025-08-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 86 | 26251 | 16 |
 | [Maryland-NASPO-Wireless-ATT-PA-Final_signed.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/Maryland-NASPO-Wireless-ATT-PA-Final_signed.pdf) | doit.maryland.gov | 2025-12-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 5359 | 2 |
 | [Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf) | doit.maryland.gov | 2025-12-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 116 | 1 |
+| [2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf](https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team) | energy.gov | 2023-04-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 212 | 10 |
+| [Infographic%20SPR%2002_2023.pdf](https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf) | energy.gov | 2023-03-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 603 | 4 |
+| [OEA_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf) | energy.gov | 2026-03-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 309 | 1 |
+| [WAPA_Posting_Notice.pdf](https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf) | energy.gov | 2026-03-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 313 | 0 |
+| [doe-national-labs-report-finalpdf.pdf](https://www.energy.gov/documents/doe-national-labs-report-finalpdf) | energy.gov | 2021-01-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 96 | 38681 | 144 |
+| [h2iq-hour-10282021.pdf](https://www.energy.gov/sites/default/files/2021-11/h2iq-hour-10282021.pdf) | energy.gov | 2021-11-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 25 | 1768 | 212 |
+| [nuclear-power-summary.pdf](https://www.energy.gov/ne/articles/nuclear-power-summary) | energy.gov | 2017-08-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 8 | 2283 | 14 |
+| [scoping-mtg-eis-0552-lanl-site-wide-2022-08pdf.pdf](https://www.energy.gov/documents/scoping-mtg-eis-0552-lanl-site-wide-2022-08pdf) | energy.gov | 2022-08-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 226 | 4 |
+| [15-25-LNG%20VG%20Calcasieu%20Pass%20Rehearing%20Order%20-%20FINAL%2010-03-25.pdf](https://www.energy.gov/sites/default/files/2025-10/15-25-LNG%20VG%20Calcasieu%20Pass%20Rehearing%20Order%20-%20FINAL%2010-03-25.pdf) | energy.gov | 2025-10-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 18 | 5180 | 0 |
+| [2022-2023-algaeprize-competition-poster-pupr-algaeprize-team.pdf](https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-pupr-algaeprize-team) | energy.gov | 2023-04-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 1817 | 41 |
+| [26-avecpdf.pdf](https://www.energy.gov/documents/26-avecpdf) | energy.gov | 2019-01-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 30 | 963 | 61 |
+| [403%20Hydropower%20Letter.pdf](https://www.energy.gov/sites/default/files/2025-10/403%20Hydropower%20Letter.pdf) | energy.gov | 2025-10-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 3240 | 12 |
+| [403%20Large%20Loads%20Letter.pdf](https://www.energy.gov/sites/default/files/2025-10/403%20Large%20Loads%20Letter.pdf) | energy.gov | 2025-10-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 16 | 4040 | 16 |
+| [45zcf-greet-user-manual-may2025.pdf](https://www.energy.gov/sites/default/files/2025-05/45zcf-greet-user-manual-may2025.pdf) | energy.gov | 2025-05-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 47 | 13978 | 16 |
+| [48C_Applicant_User_Guide_August_29_2024.pdf](https://www.energy.gov/sites/default/files/2024-08/48C_Applicant_User_Guide_August_29_2024.pdf) | energy.gov | 2024-08-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 50 | 6608 | 232 |
+| [48C_Tax_Credit_Program_Reviewers_Brochure_Round_2_5.24.24.pdf](https://www.energy.gov/sites/default/files/2024-05/48C_Tax_Credit_Program_Reviewers_Brochure_Round_2_5.24.24.pdf) | energy.gov | 2024-05-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1213 | 40 |
+| [75-breakthroughs-national-labspdf.pdf](https://www.energy.gov/documents/75-breakthroughs-national-labspdf) | energy.gov | 2017-10-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 12 | 3869 | 61 |
+| [87%20FR%201131.pdf](https://www.energy.gov/sites/default/files/2022-01/87%20FR%201131.pdf) | energy.gov | 2022-01-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2200 | 0 |
+| [Algae_Huesemann_132501-503%2C%20505.pdf](https://www.energy.gov/sites/prod/files/2017/05/f34/Algae_Huesemann_132501-503%2C%20505.pdf) | energy.gov | 2017-03-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 38 | 3191 | 167 |
+| [CW%20Workshop%20Series%20Report-Summary_0.pdf](https://www.energy.gov/sites/prod/files/2018/03/f49/CW%20Workshop%20Series%20Report-Summary_0.pdf) | energy.gov | 2018-03-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 68 | 22708 | 13 |
+| [Campbell%20Order%20Addressing%20Arguments%20Raised%20on%20Rehearing.pdf](https://www.energy.gov/sites/default/files/2025-09/Campbell%20Order%20Addressing%20Arguments%20Raised%20on%20Rehearing.pdf) | energy.gov | 2025-09-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 9630 | 76 |
+| [Correction%20Needed%20to%20VGCP.pdf](https://www.energy.gov/sites/default/files/2022-01/Correction%20Needed%20to%20VGCP.pdf) | energy.gov | 2022-01-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 576 | 0 |
+| [DE-AI30-08CC60036_Attachment_1.pdf](https://www.energy.gov/sites/default/files/2023-09/DE-AI30-08CC60036_Attachment_1.pdf) | energy.gov | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 0 | 6 |
+| [DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf](https://www.energy.gov/sites/default/files/2025-10/DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf) | energy.gov | 2025-10-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4402 | 12 |
+| [DOE%20ZERH%20MH%20V1%20National%20Program%20Requirements.pdf](https://www.energy.gov/sites/default/files/2022-12/DOE%20ZERH%20MH%20V1%20National%20Program%20Requirements.pdf) | energy.gov | 2022-12-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 4768 | 13 |
+| [Distributed%20Wind%20Competitiveness%20Project%20Fact%20Sheet%20FY19_1.pdf](https://www.energy.gov/sites/prod/files/2019/02/f60/Distributed%20Wind%20Competitiveness%20Project%20Fact%20Sheet%20FY19_1.pdf) | energy.gov | 2019-02-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 579 | 3 |
+| [EM%20SSAB%20Charter%202024.pdf](https://www.energy.gov/sites/default/files/2024-04/EM%20SSAB%20Charter%202024.pdf) | energy.gov | 2024-04-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 910 | 1 |
+| [EMAB%20Recruitment%20and%20Retention%20Report%202022.pdf](https://www.energy.gov/sites/default/files/2023-01/EMAB%20Recruitment%20and%20Retention%20Report%202022.pdf) | energy.gov | 2023-01-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 2176 | 0 |
+| [EMLA%20-N3B%20FY%2022%20AFB%20%20Publication%20FINAL.pdf](https://www.energy.gov/sites/default/files/2022-12/EMLA%20-N3B%20FY%2022%20AFB%20%20Publication%20FINAL.pdf) | energy.gov | 2022-12-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 233 | 1 |
+| [EPA-HRS-1.pdf](https://www.energy.gov/sites/default/files/2023-01/EPA-HRS-1.pdf) | energy.gov | 2006-12-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1359 | 1 |
+| [FACT_SHEET_Portsmouth_AI.pdf](https://www.energy.gov/sites/default/files/2026-03/FACT_SHEET_Portsmouth_AI.pdf) | energy.gov | 2026-03-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 869 | 0 |
+| [FUSRAPFactSheet.pdf](https://www.energy.gov/sites/default/files/2024-10/FUSRAPFactSheet.pdf) | energy.gov | 2024-10-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1492 | 1 |
+| [FY2022%20NNSA%20Prevent%2C%20Counter%2C%20and%20Respond%E2%80%94A%20Strategic%20Plan%20to%20Reduce%20Global%20Nuclear%20Threats.pdf](https://www.energy.gov/sites/default/files/2021-12/FY2022%20NNSA%20Prevent%2C%20Counter%2C%20and%20Respond%E2%80%94A%20Strategic%20Plan%20to%20Reduce%20Global%20Nuclear%20Threats.pdf) | energy.gov | 2021-12-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 84 | 24961 | 106 |
+| [Fernald%20Preserve%2C%20Ohio%20Wildland%20Fire%20Management.pdf](https://www.energy.gov/sites/prod/files/2020/04/f74/Fernald%20Preserve%2C%20Ohio%20Wildland%20Fire%20Management.pdf) | energy.gov | 2014-02-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 393 | 3 |
+| [Fondo-de-Resiliencia-Energetica_Solictud-de-Informacion_02-21-23.pdf](https://www.energy.gov/sites/default/files/2023-02/Fondo-de-Resiliencia-Energetica_Solictud-de-Informacion_02-21-23.pdf) | energy.gov | 2023-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2582 | 7 |
+| [Hoja%20informativa%20sobre%20el%20Fondo%20de%20Resiliencia%20Energ%C3%A9tica%20de%20Puerto%20Rico%20%28febrero%202023%29.pdf](https://www.energy.gov/sites/default/files/2023-02/Hoja%20informativa%20sobre%20el%20Fondo%20de%20Resiliencia%20Energ%C3%A9tica%20de%20Puerto%20Rico%20%28febrero%202023%29.pdf) | energy.gov | 2023-02-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 467 | 2 |
+| [IndianapolisGatorade-Project_Profile.pdf](https://www.energy.gov/sites/default/files/2023-03/IndianapolisGatorade-Project_Profile.pdf) | energy.gov | 2023-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 971 | 5 |
+| [Infographic%20SPR%2002_2024_1.pdf](https://www.energy.gov/sites/default/files/2024-02/Infographic%20SPR%2002_2024_1.pdf) | energy.gov | 2024-02-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 603 | 4 |
+| [No%20FEAR%20Act%20-%20Public%20Law%202022.pdf](https://www.energy.gov/sites/default/files/2026-03/No%20FEAR%20Act%20-%20Public%20Law%202022.pdf) | energy.gov | 2002-05-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 11 | 4311 | 0 |
+| [Notice%20of%20Clarification%20of%20the%20Organization%20of%20MISO%20States.pdf](https://www.energy.gov/sites/default/files/2025-07/Notice%20of%20Clarification%20of%20the%20Organization%20of%20MISO%20States.pdf) | energy.gov | 2025-07-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 453 | 0 |
+| [Notice%20of%20Denial%20of%20Rehearing%20by%20Operation%20of%20Law%20and%20Providing%20for%20Further%20Consideration%20-%20Order%20No.%20202-25-3A.pdf](https://www.energy.gov/sites/default/files/2025-07/Notice%20of%20Denial%20of%20Rehearing%20by%20Operation%20of%20Law%20and%20Providing%20for%20Further%20Consideration%20-%20Order%20No.%20202-25-3A.pdf) | energy.gov | 2025-07-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 185 | 1 |
+| [Progress_Reports_1955_4th_Quarter.pdf](https://www.energy.gov/sites/default/files/2023-10/Progress_Reports_1955_4th_Quarter.pdf) | energy.gov | 2007-10-10 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 14 | 0 | 14 |
+| [Request%20for%20Update%20to%20Contact%20Information%20for%20Docket%20No.%2014-88-LNG.pdf](https://www.energy.gov/sites/default/files/2025-03/Request%20for%20Update%20to%20Contact%20Information%20for%20Docket%20No.%2014-88-LNG.pdf) | energy.gov | 2025-03-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 597 | 5 |
+| [S1%20Oppenheimer%20Order%2012.12.22%20signed%20by%20S1%2012-16-2022.pdf](https://www.energy.gov/sites/default/files/2022-12/S1%20Oppenheimer%20Order%2012.12.22%20signed%20by%20S1%2012-16-2022.pdf) | energy.gov | 2022-12-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 3033 | 2 |
+| [SSFL_OnsiteSchedule_Attachment_2.pdf](https://www.energy.gov/sites/default/files/2023-09/SSFL_OnsiteSchedule_Attachment_2.pdf) | energy.gov | 2009-03-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 741 | 0 |
+| [UC%20Davis%20Giant%20Kelp%20Team.pdf](https://www.energy.gov/sites/default/files/2022-04/UC%20Davis%20Giant%20Kelp%20Team.pdf) | energy.gov | 2022-04-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 551 | 2 |
+| [USA-Qatar-Joint-Letter.pdf](https://www.energy.gov/sites/default/files/2025-10/USA-Qatar-Joint-Letter.pdf) | energy.gov | 2025-10-21 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 163 | 6 |
+| [USGS%20and%20DOE%20FECM_Memorandum%20of%20Understanding_January%202025.pdf](https://www.energy.gov/sites/default/files/2025-01/USGS%20and%20DOE%20FECM_Memorandum%20of%20Understanding_January%202025.pdf) | energy.gov | 2025-01-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 2137 | 1 |
+| [VTO_FOA_Info_Session_Part_2_Budget.pdf](https://www.energy.gov/sites/default/files/2023-06/VTO_FOA_Info_Session_Part_2_Budget.pdf) | energy.gov | 2023-06-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 1679 | 57 |
+| [advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication.pdf](https://www.energy.gov/ne/articles/advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication) | energy.gov | 2018-04-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 843 | 12 |
+| [antares_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/03/f14/antares_project_abstract.pdf) | energy.gov | 2012-12-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 372 | 0 |
+| [appendix-e-coverpdf.pdf](https://www.energy.gov/documents/appendix-e-coverpdf) | energy.gov | 2016-12-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 8 | 0 |
+| [appendix-e-mrlpdf.pdf](https://www.energy.gov/documents/appendix-e-mrlpdf) | energy.gov | 2016-12-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 126 | 8387 | 215 |
+| [attachment-bpa-master-performance-work-statementpdf.pdf](https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf) | energy.gov | 2022-06-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 12 | 4167 | 0 |
+| [busch-weldon-greenspace-map.pdf](https://www.energy.gov/lm/articles/busch-weldon-greenspace-map) | energy.gov | 2018-11-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 261 | 7 |
+| [corky-mittelsteadt-plug-power.pdf](https://www.energy.gov/documents/corky-mittelsteadt-plug-power) | energy.gov | 2022-04-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 746 | 69 |
+| [doe-nepa-compliance-officers-directory-march-23-2026.pdf](https://www.energy.gov/documents/doe-nepa-compliance-officers-directory-march-23-2026) | energy.gov | 2026-03-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 677 | 0 |
+| [doe-noa-eis-0552-lanl-site-wide-2025-01.pdf](https://www.energy.gov/sites/default/files/2025-01/doe-noa-eis-0552-lanl-site-wide-2025-01.pdf) | energy.gov | 2025-01-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 2890 | 0 |
+| [doe-op-economy-wide-report.pdf](https://www.energy.gov/documents/doe-op-economy-wide-report) | energy.gov | 2023-08-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 2594 | 7 |
+| [eaapperesponsetoareaivcriticismspdf.pdf](https://www.energy.gov/documents/eaapperesponsetoareaivcriticismspdf) | energy.gov | 2007-05-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 | 2944 | 0 |
+| [eis-0552-lanl-site-wide-summary-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/eis-0552-lanl-site-wide-summary-2026-03.pdf) | energy.gov | 2026-03-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 33 | 12840 | 33 |
+| [eis-0552-lanl-site-wide-vol-1-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/eis-0552-lanl-site-wide-vol-1-2026-03.pdf) | energy.gov | 2026-03-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 323 | 212679 | 117 |
+| [em-ssab-policies-desk-reference-april-2023-finalpdf.pdf](https://www.energy.gov/documents/em-ssab-policies-desk-reference-april-2023-finalpdf) | energy.gov | 2023-04-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 27 | 8563 | 1 |
+| [end-use-working-group-final-reportpdf.pdf](https://www.energy.gov/documents/end-use-working-group-final-reportpdf) | energy.gov | 2016-06-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 108 | 28584 | 108 |
+| [end-use-working-group-report.pdf](https://www.energy.gov/orem/articles/end-use-working-group-report) | energy.gov | 2016-06-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 108 | 28584 | 108 |
+| [energy-savings-potential-ssl-horticultural-applications.pdf](https://www.energy.gov/cmei/ssl/articles/energy-savings-potential-ssl-horticultural-applications) | energy.gov | 2017-12-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 34 | 9072 | 17 |
+| [epa-amended-noa-eis-0552-lanl-site-wide-2025-03_0.pdf](https://www.energy.gov/sites/default/files/2025-03/epa-amended-noa-eis-0552-lanl-site-wide-2025-03_0.pdf) | energy.gov | 2025-03-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2077 | 0 |
+| [epa-noa-eis-0552-lanl-site-wide-2025-01.pdf](https://www.energy.gov/sites/default/files/2025-03/epa-noa-eis-0552-lanl-site-wide-2025-01.pdf) | energy.gov | 2025-01-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 2074 | 0 |
+| [er-0006environmentalmonitoringplanrev0pdf.pdf](https://www.energy.gov/documents/er-0006environmentalmonitoringplanrev0pdf) | energy.gov | 2007-09-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 127 | 29832 | 127 |
+| [er-0006environmentalmonitoringplanrevapdf.pdf](https://www.energy.gov/documents/er-0006environmentalmonitoringplanrevapdf) | energy.gov | 2007-09-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 133 | 33631 | 133 |
+| [er-0006environmentalmonitoringplanrevbpdf.pdf](https://www.energy.gov/documents/er-0006environmentalmonitoringplanrevbpdf) | energy.gov | 2007-09-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 137 | 30993 | 137 |
+| [expanded-operations-eis-0552-lanl-site-wide-2025-02.pdf](https://www.energy.gov/sites/default/files/2025-02/expanded-operations-eis-0552-lanl-site-wide-2025-02.pdf) | energy.gov | 2025-02-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 482 | 5 |
+| [flibe-molten-salt-processing.pdf](https://www.energy.gov/ne/articles/flibe-molten-salt-processing) | energy.gov | 2018-04-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 375 | 0 |
+| [freedomcar-and-fuel-partnership-2006-highlights-technical-accomplishments.pdf](https://www.energy.gov/cmei/vehicles/articles/freedomcar-and-fuel-partnership-2006-highlights-technical-accomplishments) | energy.gov | 2010-03-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 41 | 12057 | 127 |
+| [freedomcar-and-fuel-partnership-2007-highlights-technical-accomplishments.pdf](https://www.energy.gov/cmei/vehicles/articles/freedomcar-and-fuel-partnership-2007-highlights-technical-accomplishments) | energy.gov | 2010-03-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 46 | 14947 | 68 |
+| [freedomcar-and-fuel-partnership-2008-highlights-technical-accomplishments.pdf](https://www.energy.gov/cmei/vehicles/articles/freedomcar-and-fuel-partnership-2008-highlights-technical-accomplishments) | energy.gov | 2010-03-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 55 | 18676 | 121 |
+| [fuel-cell-report-congress-esecs-ee-1973-february-2003.pdf](https://www.energy.gov/cmei/vehicles/articles/fuel-cell-report-congress-esecs-ee-1973-february-2003) | energy.gov | 2003-04-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 64 | 18003 | 140 |
+| [fuel-cells-transportation-1999-annual-progress-report-energy-conversion-team.pdf](https://www.energy.gov/cmei/fuels/articles/fuel-cells-transportation-1999-annual-progress-report-energy-conversion-team) | energy.gov | 2001-08-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 154 | 62865 | 105 |
+| [fusion-st-roadmap.pdf](https://www.energy.gov/articles/fusion-st-roadmap) | energy.gov | 2025-10-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 52 | 22128 | 41 |
+| [fusrap-memorandum-understanding.pdf](https://www.energy.gov/lm/articles/fusrap-memorandum-understanding) | energy.gov | 2017-04-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 17 | 3051 | 6 |
+| [genera_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/04/f14/genera_project_abstract.pdf) | energy.gov | 2012-12-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 433 | 0 |
+| [grand-junction-colorado-site-fact-sheet.pdf](https://www.energy.gov/lm/articles/grand-junction-colorado-site-fact-sheet) | energy.gov | 2025-12-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1642 | 5 |
+| [ground-based-coastal-air-surveillance-radar-wtri-study-public-summary.pdf](https://www.energy.gov/documents/ground-based-coastal-air-surveillance-radar-wtri-study-public-summary) | energy.gov | 2017-12-08 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 9 | 1726 | 4 |
+| [hallam-nebraska-decommissioned-reactor-site-fact-sheet.pdf](https://www.energy.gov/lm/articles/hallam-nebraska-decommissioned-reactor-site-fact-sheet) | energy.gov | 2025-12-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1093 | 6 |
+| [history-atomic-energy-commission.pdf](https://www.energy.gov/management/articles/history-atomic-energy-commission) | energy.gov | 2012-03-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 42 | 11420 | 23 |
+| [ne-dpa-consortium-faqs-091525.pdf](https://www.energy.gov/sites/default/files/2025-09/ne-dpa-consortium-faqs-091525.pdf) | energy.gov | 2025-09-15 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1318 | 0 |
+| [nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf](https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf) | energy.gov | 2023-09-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 2500 | 1 |
+| [noa-eis-0552-lanl-site-wide-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/noa-eis-0552-lanl-site-wide-2026-03.pdf) | energy.gov | 2026-03-27 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 1068 | 0 |
+| [noi-eis-0552-lanl-site-wide-2022-08pdf.pdf](https://www.energy.gov/documents/noi-eis-0552-lanl-site-wide-2022-08pdf) | energy.gov | 2022-08-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 4077 | 0 |
+| [order-granting-rehearing-request-nos-202-26-01-though-15.pdf](https://www.energy.gov/documents/order-granting-rehearing-request-nos-202-26-01-though-15) | energy.gov | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1317 | 1 |
+| [pathways-commercial-success-technologies-and-innovations-enabled-us-department.pdf](https://www.energy.gov/cmei/fuels/articles/pathways-commercial-success-technologies-and-innovations-enabled-us-department) | energy.gov | 2017-10-11 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 328 | 99748 | 162 |
+| [pitka-point-final-reportpdf.pdf](https://www.energy.gov/documents/pitka-point-final-reportpdf) | energy.gov | 2020-04-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2360 | 3 |
+| [rad-air-emissions-eis-0552-lanl-site-wide-2025-02_0.pdf](https://www.energy.gov/sites/default/files/2025-02/rad-air-emissions-eis-0552-lanl-site-wide-2025-02_0.pdf) | energy.gov | 2025-02-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 201 | 5 |
+| [radiological-assistance-program-60th-anniversary-brochure.pdf](https://www.energy.gov/nnsa/articles/radiological-assistance-program-60th-anniversary-brochure) | energy.gov | 2018-10-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 28 | 3348 | 96 |
+| [rd-greet-hydrogen-fact-sheet_january-2025.pdf](https://www.energy.gov/sites/default/files/2025-01/rd-greet-hydrogen-fact-sheet_january-2025.pdf) | energy.gov | 2025-01-17 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 972 | 1 |
+| [regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water.pdf](https://www.energy.gov/ne/articles/regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water) | energy.gov | 2018-04-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 419 | 1 |
+| [resolving-regulatory-issues-implementation-online-monitoring-technologies-extend.pdf](https://www.energy.gov/ne/articles/resolving-regulatory-issues-implementation-online-monitoring-technologies-extend) | energy.gov | 2018-01-31 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 250 | 1 |
+| [rod-eis-0552-lanl-site-wide-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/rod-eis-0552-lanl-site-wide-2026-03.pdf) | energy.gov | 2026-03-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2203 | 1 |
+| [site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet.pdf](https://www.energy.gov/lm/articles/site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet) | energy.gov | 2025-12-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1092 | 8 |
+| [strategic%20petroleum%20reserve%20factsheet.2_1.pdf](https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf) | energy.gov | 2022-09-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1172 | 1 |
 
 ## Files with Errors or Notes
 
@@ -43587,3 +43687,999 @@ Generated: 2026-03-29T22:54:09.655459+00:00
 - **URL**: https://www.nsf.gov/oirm/das/records-management
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:08:34.569016+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf
+
+- **URL**: https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team
+- **Status**: analysed
+- lang, 
+
+### 2910-1538_Arizona_State_University_Summary.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-09/2910-1538_Arizona_State_University_Summary.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.542533+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4772498.pdf
+
+- **URL**: https://www.energy.gov/node/4772498
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.547844+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### AASG%20June%202021_Hamm%20FINAL.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2021-06/AASG%20June%202021_Hamm%20FINAL.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.551893+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Cybersecurity%2520Supply%2520Chain%2520Fact%2520Sheet%5B1%5D.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-12/Cybersecurity%2520Supply%2520Chain%2520Fact%2520Sheet%5B1%5D.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.564696+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DOE%20Distributed%20Energy%20Resources%20Cybersecurity%20Report%20and%20Threat%20Briefing%20Presentation%20110722_508.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-11/DOE%20Distributed%20Energy%20Resources%20Cybersecurity%20Report%20and%20Threat%20Briefing%20Presentation%20110722_508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.577233+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DOE%20F%20540.30%20EERE%20Environmental%20Questionnaire_3.2025.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/DOE%20F%20540.30%20EERE%20Environmental%20Questionnaire_3.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.579027+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DOEClimateAdaptationandResiliencePlan.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-03/DOEClimateAdaptationandResiliencePlan.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.590627+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EM-CY20-MISSION-AND-PRIORITIES-v3.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/02/f72/EM-CY20-MISSION-AND-PRIORITIES-v3.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.592122+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GTO%20Multi-Year%20Program%20Plan%20FY%202022-2026.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-02/GTO%20Multi-Year%20Program%20Plan%20FY%202022-2026.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.597820+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### History%20of%20SPR%20Releases%209.15.25.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-09/History%20of%20SPR%20Releases%209.15.25.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.599406+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### IEA%20Emergency%20Response%20of%20IEA%20Countries_2014.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2018/08/f54/IEA%20Emergency%20Response%20of%20IEA%20Countries_2014.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.625638+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Infographic%20SPR%2002_2023.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Listening%20Session%2001%20General%20Deck_08.18.2022_508.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-09/Listening%20Session%2001%20General%20Deck_08.18.2022_508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.648131+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NIETC-Designation-Process-NOI-RFI-Fact-Sheet_May-23-2023.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-05/NIETC-Designation-Process-NOI-RFI-Fact-Sheet_May-23-2023.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.653354+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NPR_90_years_tri-fold.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/NPR_90_years_tri-fold.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.655183+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NREL%20Doubling%20Geothermal%20Capacity.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2016/01/f28/NREL%20Doubling%20Geothermal%20Capacity.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.657844+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NoFEAR_Act_Data_2020-2025.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/NoFEAR_Act_Data_2020-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.659755+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### OEA_WashingtonDC.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### OMEI_WashingtonDC.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/OMEI_WashingtonDC.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.662967+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### RescindProbationaryTermLetter%20%20%203.13.25%20%28003%29.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/RescindProbationaryTermLetter%20%20%203.13.25%20%28003%29.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.672107+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### SRS%20Solar%20Power%20Generation%20Request%20for%20Information%20-%20RFI.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-10/SRS%20Solar%20Power%20Generation%20Request%20for%20Information%20-%20RFI.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.700560+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### SRS-Fact-Sheet-Salt-Waste-Processing_Dec-2020_Cleansed_.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2021/01/f82/SRS-Fact-Sheet-Salt-Waste-Processing_Dec-2020_Cleansed_.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.704294+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### SSP%20Final%20Rule%203-12-2019_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-03/SSP%20Final%20Rule%203-12-2019_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.706028+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### STEM_Activity_Birding.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2021/02/f82/STEM_Activity_Birding.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.711570+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### USGS-FECM-MOU-Final.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2021-11/USGS-FECM-MOU-Final.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.713377+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### VPP%20Site%20Status%20Report_Website%20Posting_Update.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-01/VPP%20Site%20Status%20Report_Website%20Posting_Update.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.714879+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### WAPA_Posting_Notice.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### aham-cce-overview-and-update-dated-06072011.pdf
+
+- **URL**: https://www.energy.gov/cmei/buildings/articles/aham-cce-overview-and-update-dated-06072011
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.722154+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ammonia-maritime-fuel.pdf
+
+- **URL**: https://www.energy.gov/documents/ammonia-maritime-fuel
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.725471+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### amo-fall-2020-combined-heat-and-power-chp-virtual-workshop.pdf
+
+- **URL**: https://www.energy.gov/eere/amo/articles/amo-fall-2020-combined-heat-and-power-chp-virtual-workshop
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.729411+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### appendix-e-updated-permitting-inventory-r1pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/appendix-e-updated-permitting-inventory-r1pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.747225+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### appendix-h-stakeholder-engagement-status-update-r1pdf-0.pdf
+
+- **URL**: https://www.energy.gov/documents/appendix-h-stakeholder-engagement-status-update-r1pdf-0
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.749541+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### appliance-standards-update-and-review-certification-compliance-and.pdf
+
+- **URL**: https://www.energy.gov/cmei/buildings/articles/appliance-standards-update-and-review-certification-compliance-and
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.753686+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### arma-55th-us-rock-mechanicsgeomechanics-symposium.pdf
+
+- **URL**: https://www.energy.gov/hgeo/geothermal/articles/arma-55th-us-rock-mechanicsgeomechanics-symposium
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.763187+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### bto-peer-2023-25204-seed-nrel-longpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/bto-peer-2023-25204-seed-nrel-longpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.777909+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### communications-and-outreach-plannewberry-volcano-orpdf-5.pdf
+
+- **URL**: https://www.energy.gov/documents/communications-and-outreach-plannewberry-volcano-orpdf-5
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.781925+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### conceptual-geologic-modelnewberry-volcano-orpdf-1.pdf
+
+- **URL**: https://www.energy.gov/documents/conceptual-geologic-modelnewberry-volcano-orpdf-1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.794206+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### data-dissemination-and-intellectual-property-plannewberry-volcano-orpdf-0.pdf
+
+- **URL**: https://www.energy.gov/documents/data-dissemination-and-intellectual-property-plannewberry-volcano-orpdf-0
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.799422+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### doe-awards-new-los-alamos-legacy-cleanup-contract-0.pdf
+
+- **URL**: https://www.energy.gov/em-la/articles/doe-awards-new-los-alamos-legacy-cleanup-contract-0
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.800782+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### doe-national-labs-report-finalpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/doe-national-labs-report-finalpdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### doe-offshore-wind-market-report-2023-edition.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-09/doe-offshore-wind-market-report-2023-edition.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.831999+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### energy-conservation-program-consumer-products-and-commercial-and-industrial.pdf
+
+- **URL**: https://www.energy.gov/cmei/buildings/articles/energy-conservation-program-consumer-products-and-commercial-and-industrial
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.833458+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### environmental-information-synopsisnewberry-volcano-orpdf-1.pdf
+
+- **URL**: https://www.energy.gov/documents/environmental-information-synopsisnewberry-volcano-orpdf-1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.838961+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### environmental-safety-and-health-plannewberry-volcano-orpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/environmental-safety-and-health-plannewberry-volcano-orpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.845869+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### erratumpagea36conceptual-geologic-modelnewberry-volcano-orpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/erratumpagea36conceptual-geologic-modelnewberry-volcano-orpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.850095+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcto-fcs-h2-scale-2019-workshop-20-prakash.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2019/12/f69/fcto-fcs-h2-scale-2019-workshop-20-prakash.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.853165+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcto-h2-at-ports-workshop-2019-viii5-ahluwalia.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2019/10/f68/fcto-h2-at-ports-workshop-2019-viii5-ahluwalia.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.855885+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcto-h2-at-rail-workshop-2019-ehrhart.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2019/04/f62/fcto-h2-at-rail-workshop-2019-ehrhart.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.860192+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcto2016pressclubbriefingcenterpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fcto2016pressclubbriefingcenterpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.862636+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcto2016pressclubbriefingewanickpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fcto2016pressclubbriefingewanickpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.876335+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcto2016pressclubbriefingfreelspdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fcto2016pressclubbriefingfreelspdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.881170+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcto2016pressclubbriefingfreesepdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fcto2016pressclubbriefingfreesepdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.894012+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcto2016pressclubbriefingpivovarpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fcto2016pressclubbriefingpivovarpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.900786+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcto2016pressclubbriefingwimmerpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/fcto2016pressclubbriefingwimmerpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.904361+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### femp-digest-12-19-22.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-12/femp-digest-12-19-22.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.911230+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fy-2006-budget-request.pdf
+
+- **URL**: https://www.energy.gov/cmei/articles/fy-2006-budget-request
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.913392+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### geothermal-rising-grc-2020-annual-conference.pdf
+
+- **URL**: https://www.energy.gov/hgeo/geothermal/articles/geothermal-rising-grc-2020-annual-conference
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.930872+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### geothermal-technologies-office-multi-year-program-plan-fy-2022-2026.pdf
+
+- **URL**: https://www.energy.gov/hgeo/geothermal/articles/geothermal-technologies-office-multi-year-program-plan-fy-2022-2026
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.935198+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### geothermal_history_1_exploration.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2014/02/f7/geothermal_history_1_exploration.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.954148+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### geothermal_history_2_drilling_0.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2014/02/f7/geothermal_history_2_drilling_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.969403+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### geothermal_history_3_engineering.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2014/02/f7/geothermal_history_3_engineering.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.990184+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### geothermal_history_4_conversion.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2014/02/f7/geothermal_history_4_conversion.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.997787+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gto-quarterly-update-q1-2021.pdf
+
+- **URL**: https://www.energy.gov/hgeo/geothermal/articles/gto-quarterly-update-q1-2021
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.017748+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gto-stanford-geothermal-workshop-2%285%29.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-04/gto-stanford-geothermal-workshop-2%285%29.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.056230+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### gtp_benefit-cost_eval_aug2010.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2014/02/f7/gtp_benefit-cost_eval_aug2010.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.060253+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### h2-shot-summit-panel4-rfi-themes-overview.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2021-09/h2-shot-summit-panel4-rfi-themes-overview.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.067259+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### hfto-h2-airports-workshop-2020-burgunder.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/12/f81/hfto-h2-airports-workshop-2020-burgunder.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.078483+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### iapmopmi-cce-overview-and-update.pdf
+
+- **URL**: https://www.energy.gov/cmei/buildings/articles/iapmopmi-cce-overview-and-update
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.080031+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### iet_needs_assessment_06-2011.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2014/02/f7/iet_needs_assessment_06-2011.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.089558+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### induced-seismicity-mitigation-plannewberry-volcano-orpdf-6.pdf
+
+- **URL**: https://www.energy.gov/documents/induced-seismicity-mitigation-plannewberry-volcano-orpdf-6
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.106474+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### interim-waiver-faq.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2019/06/f63/interim-waiver-faq.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.107914+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### land-based-wind-market-report-2023-edition.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-08/land-based-wind-market-report-2023-edition.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.115486+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nema-distribution-transformers-cce-overview-and-update-presentation-dated.pdf
+
+- **URL**: https://www.energy.gov/cmei/buildings/articles/nema-distribution-transformers-cce-overview-and-update-presentation-dated
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.117087+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nema-lighting-cce-overview-and-update-presentation-dated-05252011.pdf
+
+- **URL**: https://www.energy.gov/cmei/buildings/articles/nema-lighting-cce-overview-and-update-presentation-dated-05252011
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.118674+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### no-fear-act-pl-107-174.pdf
+
+- **URL**: https://www.energy.gov/documents/no-fear-act-pl-107-174
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.120006+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### notice-metallurgical-coal-steelmaking-critical-materials-list.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-05/notice-metallurgical-coal-steelmaking-critical-materials-list.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.121923+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nuclear-power-summary.pdf
+
+- **URL**: https://www.energy.gov/ne/articles/nuclear-power-summary
+- **Status**: analysed
+- title, 
+
+### rooftopsolartrujillo122011pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/rooftopsolartrujillo122011pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.128118+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### rtilm-80-white-ledsmar2020pdf-0.pdf
+
+- **URL**: https://www.energy.gov/documents/rtilm-80-white-ledsmar2020pdf-0
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.131622+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sample-and-core-curation-plannewberry-volcano-orpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/sample-and-core-curation-plannewberry-volcano-orpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.135203+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### scoping-mtg-eis-0552-lanl-site-wide-2022-08pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/scoping-mtg-eis-0552-lanl-site-wide-2022-08pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### session-5-2-blackfeet-community-college.pdf
+
+- **URL**: https://www.energy.gov/documents/session-5-2-blackfeet-community-college
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.140582+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### site-characterization-data-inventorynewberry-volcano-orpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/site-characterization-data-inventorynewberry-volcano-orpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.142426+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### stakeholder-engagement-status-updatenewberry-volcano-orpdf-0.pdf
+
+- **URL**: https://www.energy.gov/documents/stakeholder-engagement-status-updatenewberry-volcano-orpdf-0
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.148829+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### thermochemical-energy-storage-ammonia.pdf
+
+- **URL**: https://www.energy.gov/documents/thermochemical-energy-storage-ammonia
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.151468+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### topical-reportnewberry-volcano-orpdf-2.pdf
+
+- **URL**: https://www.energy.gov/documents/topical-reportnewberry-volcano-orpdf-2
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.159934+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### transmissiondecesaropdf.pdf
+
+- **URL**: https://www.energy.gov/documents/transmissiondecesaropdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.162147+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### transmissionisemanpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/transmissionisemanpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.164939+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### transmissionwoertzpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/transmissionwoertzpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.166839+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### update-characterization-data-gdrnewberry-volcano-orpdf-0.pdf
+
+- **URL**: https://www.energy.gov/documents/update-characterization-data-gdrnewberry-volcano-orpdf-0
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.168357+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### updated-permitting-inventorynewberry-volcano-orpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/updated-permitting-inventorynewberry-volcano-orpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.170850+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### us-doe-commercial-building-energy-asset-score.pdf
+
+- **URL**: https://www.energy.gov/cmei/buildings/articles/us-doe-commercial-building-energy-asset-score
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:32.172427+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 15-25-LNG%20VG%20Calcasieu%20Pass%20Rehearing%20Order%20-%20FINAL%2010-03-25.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-10/15-25-LNG%20VG%20Calcasieu%20Pass%20Rehearing%20Order%20-%20FINAL%2010-03-25.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 26-avecpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/26-avecpdf
+- **Status**: analysed
+- title, 
+
+### 403%20Hydropower%20Letter.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-10/403%20Hydropower%20Letter.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 403%20Large%20Loads%20Letter.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-10/403%20Large%20Loads%20Letter.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 75-breakthroughs-national-labspdf.pdf
+
+- **URL**: https://www.energy.gov/documents/75-breakthroughs-national-labspdf
+- **Status**: analysed
+- title, 
+
+### 87%20FR%201131.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-01/87%20FR%201131.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Algae_Huesemann_132501-503%2C%20505.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2017/05/f34/Algae_Huesemann_132501-503%2C%20505.pdf
+- **Status**: analysed
+- title, 
+
+### CW%20Workshop%20Series%20Report-Summary_0.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2018/03/f49/CW%20Workshop%20Series%20Report-Summary_0.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Campbell%20Order%20Addressing%20Arguments%20Raised%20on%20Rehearing.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-09/Campbell%20Order%20Addressing%20Arguments%20Raised%20on%20Rehearing.pdf
+- **Status**: analysed
+- title, 
+
+### Correction%20Needed%20to%20VGCP.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-01/Correction%20Needed%20to%20VGCP.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### DE-AI30-08CC60036_Attachment_1.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-09/DE-AI30-08CC60036_Attachment_1.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-10/DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf
+- **Status**: analysed
+- title, 
+
+### DOE%20ZERH%20MH%20V1%20National%20Program%20Requirements.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-12/DOE%20ZERH%20MH%20V1%20National%20Program%20Requirements.pdf
+- **Status**: analysed
+- title, 
+
+### EMAB%20Recruitment%20and%20Retention%20Report%202022.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-01/EMAB%20Recruitment%20and%20Retention%20Report%202022.pdf
+- **Status**: analysed
+- title, 
+
+### EMLA%20-N3B%20FY%2022%20AFB%20%20Publication%20FINAL.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-12/EMLA%20-N3B%20FY%2022%20AFB%20%20Publication%20FINAL.pdf
+- **Status**: analysed
+- title, 
+
+### EPA-HRS-1.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-01/EPA-HRS-1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FACT_SHEET_Portsmouth_AI.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/FACT_SHEET_Portsmouth_AI.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FUSRAPFactSheet.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-10/FUSRAPFactSheet.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### FY2022%20NNSA%20Prevent%2C%20Counter%2C%20and%20Respond%E2%80%94A%20Strategic%20Plan%20to%20Reduce%20Global%20Nuclear%20Threats.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2021-12/FY2022%20NNSA%20Prevent%2C%20Counter%2C%20and%20Respond%E2%80%94A%20Strategic%20Plan%20to%20Reduce%20Global%20Nuclear%20Threats.pdf
+- **Status**: analysed
+- title, 
+
+### Fernald%20Preserve%2C%20Ohio%20Wildland%20Fire%20Management.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/04/f74/Fernald%20Preserve%2C%20Ohio%20Wildland%20Fire%20Management.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Fondo-de-Resiliencia-Energetica_Solictud-de-Informacion_02-21-23.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-02/Fondo-de-Resiliencia-Energetica_Solictud-de-Informacion_02-21-23.pdf
+- **Status**: analysed
+- title, 
+
+### Hoja%20informativa%20sobre%20el%20Fondo%20de%20Resiliencia%20Energ%C3%A9tica%20de%20Puerto%20Rico%20%28febrero%202023%29.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-02/Hoja%20informativa%20sobre%20el%20Fondo%20de%20Resiliencia%20Energ%C3%A9tica%20de%20Puerto%20Rico%20%28febrero%202023%29.pdf
+- **Status**: analysed
+- title, 
+
+### IndianapolisGatorade-Project_Profile.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-03/IndianapolisGatorade-Project_Profile.pdf
+- **Status**: analysed
+- title, 
+
+### Infographic%20SPR%2002_2024_1.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-02/Infographic%20SPR%2002_2024_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### No%20FEAR%20Act%20-%20Public%20Law%202022.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/No%20FEAR%20Act%20-%20Public%20Law%202022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Notice%20of%20Clarification%20of%20the%20Organization%20of%20MISO%20States.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-07/Notice%20of%20Clarification%20of%20the%20Organization%20of%20MISO%20States.pdf
+- **Status**: analysed
+- title, 
+
+### Notice%20of%20Denial%20of%20Rehearing%20by%20Operation%20of%20Law%20and%20Providing%20for%20Further%20Consideration%20-%20Order%20No.%20202-25-3A.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-07/Notice%20of%20Denial%20of%20Rehearing%20by%20Operation%20of%20Law%20and%20Providing%20for%20Further%20Consideration%20-%20Order%20No.%20202-25-3A.pdf
+- **Status**: analysed
+- title, 
+
+### Progress_Reports_1955_4th_Quarter.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-10/Progress_Reports_1955_4th_Quarter.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Request%20for%20Update%20to%20Contact%20Information%20for%20Docket%20No.%2014-88-LNG.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/Request%20for%20Update%20to%20Contact%20Information%20for%20Docket%20No.%2014-88-LNG.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### S1%20Oppenheimer%20Order%2012.12.22%20signed%20by%20S1%2012-16-2022.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-12/S1%20Oppenheimer%20Order%2012.12.22%20signed%20by%20S1%2012-16-2022.pdf
+- **Status**: analysed
+- title, 
+
+### SSFL_OnsiteSchedule_Attachment_2.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-09/SSFL_OnsiteSchedule_Attachment_2.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### UC%20Davis%20Giant%20Kelp%20Team.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-04/UC%20Davis%20Giant%20Kelp%20Team.pdf
+- **Status**: analysed
+- title, 
+
+### USA-Qatar-Joint-Letter.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-10/USA-Qatar-Joint-Letter.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### USGS%20and%20DOE%20FECM_Memorandum%20of%20Understanding_January%202025.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-01/USGS%20and%20DOE%20FECM_Memorandum%20of%20Understanding_January%202025.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication.pdf
+
+- **URL**: https://www.energy.gov/ne/articles/advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication
+- **Status**: analysed
+- title, 
+
+### antares_project_abstract.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2014/03/f14/antares_project_abstract.pdf
+- **Status**: analysed
+- title, lang, 
+
+### appendix-e-mrlpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/appendix-e-mrlpdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### attachment-bpa-master-performance-work-statementpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### busch-weldon-greenspace-map.pdf
+
+- **URL**: https://www.energy.gov/lm/articles/busch-weldon-greenspace-map
+- **Status**: analysed
+- title, tagged, 
+
+### doe-noa-eis-0552-lanl-site-wide-2025-01.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-01/doe-noa-eis-0552-lanl-site-wide-2025-01.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### doe-op-economy-wide-report.pdf
+
+- **URL**: https://www.energy.gov/documents/doe-op-economy-wide-report
+- **Status**: analysed
+- title, 
+
+### eaapperesponsetoareaivcriticismspdf.pdf
+
+- **URL**: https://www.energy.gov/documents/eaapperesponsetoareaivcriticismspdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### em-ssab-policies-desk-reference-april-2023-finalpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/em-ssab-policies-desk-reference-april-2023-finalpdf
+- **Status**: analysed
+- title, 
+
+### end-use-working-group-final-reportpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/end-use-working-group-final-reportpdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### end-use-working-group-report.pdf
+
+- **URL**: https://www.energy.gov/orem/articles/end-use-working-group-report
+- **Status**: analysed
+- title, tagged, lang, 
+
+### epa-amended-noa-eis-0552-lanl-site-wide-2025-03_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/epa-amended-noa-eis-0552-lanl-site-wide-2025-03_0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### epa-noa-eis-0552-lanl-site-wide-2025-01.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/epa-noa-eis-0552-lanl-site-wide-2025-01.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### er-0006environmentalmonitoringplanrev0pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/er-0006environmentalmonitoringplanrev0pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### er-0006environmentalmonitoringplanrevapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/er-0006environmentalmonitoringplanrevapdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### er-0006environmentalmonitoringplanrevbpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/er-0006environmentalmonitoringplanrevbpdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### flibe-molten-salt-processing.pdf
+
+- **URL**: https://www.energy.gov/ne/articles/flibe-molten-salt-processing
+- **Status**: analysed
+- title, tagged, 
+
+### freedomcar-and-fuel-partnership-2006-highlights-technical-accomplishments.pdf
+
+- **URL**: https://www.energy.gov/cmei/vehicles/articles/freedomcar-and-fuel-partnership-2006-highlights-technical-accomplishments
+- **Status**: analysed
+- title, lang, 
+
+### freedomcar-and-fuel-partnership-2007-highlights-technical-accomplishments.pdf
+
+- **URL**: https://www.energy.gov/cmei/vehicles/articles/freedomcar-and-fuel-partnership-2007-highlights-technical-accomplishments
+- **Status**: analysed
+- title, lang, 
+
+### freedomcar-and-fuel-partnership-2008-highlights-technical-accomplishments.pdf
+
+- **URL**: https://www.energy.gov/cmei/vehicles/articles/freedomcar-and-fuel-partnership-2008-highlights-technical-accomplishments
+- **Status**: analysed
+- title, lang, 
+
+### fuel-cell-report-congress-esecs-ee-1973-february-2003.pdf
+
+- **URL**: https://www.energy.gov/cmei/vehicles/articles/fuel-cell-report-congress-esecs-ee-1973-february-2003
+- **Status**: analysed
+- title, lang, 
+
+### fuel-cells-transportation-1999-annual-progress-report-energy-conversion-team.pdf
+
+- **URL**: https://www.energy.gov/cmei/fuels/articles/fuel-cells-transportation-1999-annual-progress-report-energy-conversion-team
+- **Status**: analysed
+- title, tagged, lang, 
+
+### fusion-st-roadmap.pdf
+
+- **URL**: https://www.energy.gov/articles/fusion-st-roadmap
+- **Status**: analysed
+- title, tagged, 
+
+### fusrap-memorandum-understanding.pdf
+
+- **URL**: https://www.energy.gov/lm/articles/fusrap-memorandum-understanding
+- **Status**: analysed
+- title, tagged, lang, 
+
+### genera_project_abstract.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2014/04/f14/genera_project_abstract.pdf
+- **Status**: analysed
+- title, 
+
+### grand-junction-colorado-site-fact-sheet.pdf
+
+- **URL**: https://www.energy.gov/lm/articles/grand-junction-colorado-site-fact-sheet
+- **Status**: analysed
+- title, tagged, 
+
+### hallam-nebraska-decommissioned-reactor-site-fact-sheet.pdf
+
+- **URL**: https://www.energy.gov/lm/articles/hallam-nebraska-decommissioned-reactor-site-fact-sheet
+- **Status**: analysed
+- title, tagged, 
+
+### history-atomic-energy-commission.pdf
+
+- **URL**: https://www.energy.gov/management/articles/history-atomic-energy-commission
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### ne-dpa-consortium-faqs-091525.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-09/ne-dpa-consortium-faqs-091525.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf
+- **Status**: analysed
+- title, 
+
+### noa-eis-0552-lanl-site-wide-2026-03.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/noa-eis-0552-lanl-site-wide-2026-03.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### noi-eis-0552-lanl-site-wide-2022-08pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/noi-eis-0552-lanl-site-wide-2022-08pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### order-granting-rehearing-request-nos-202-26-01-though-15.pdf
+
+- **URL**: https://www.energy.gov/documents/order-granting-rehearing-request-nos-202-26-01-though-15
+- **Status**: analysed
+- no date found, title, tagged, 
+
+### pitka-point-final-reportpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/pitka-point-final-reportpdf
+- **Status**: analysed
+- title, 
+
+### radiological-assistance-program-60th-anniversary-brochure.pdf
+
+- **URL**: https://www.energy.gov/nnsa/articles/radiological-assistance-program-60th-anniversary-brochure
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, 
+
+### regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water.pdf
+
+- **URL**: https://www.energy.gov/ne/articles/regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water
+- **Status**: analysed
+- title, tagged, lang, 
+
+### resolving-regulatory-issues-implementation-online-monitoring-technologies-extend.pdf
+
+- **URL**: https://www.energy.gov/ne/articles/resolving-regulatory-issues-implementation-online-monitoring-technologies-extend
+- **Status**: analysed
+- title, 
+
+### site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet.pdf
+
+- **URL**: https://www.energy.gov/lm/articles/site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet
+- **Status**: analysed
+- title, tagged, 
+
+### strategic%20petroleum%20reserve%20factsheet.2_1.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf
+- **Status**: analysed
+- title, 
