@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-30T18:22:48.854282+00:00",
+    "site": "gci-ga.com",
+    "crawl_url": "https://www.gci-ga.com",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23760484559",
+    "issue_url": "",
+    "archive_file": "2026-03-30_18-22-48-854_gci-ga.com.html",
+    "total": 61,
+    "analysed": 61,
+    "accessible": 46
+  },
+  {
     "date": "2026-03-30T17:32:44.028090+00:00",
     "site": "gci-ga.com",
     "crawl_url": "https://www.gci-ga.com",
