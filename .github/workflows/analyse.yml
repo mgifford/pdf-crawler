@@ -36,6 +36,23 @@ jobs:
           echo "The crawl workflow run ${{ github.event.workflow_run.id }} concluded with 'skipped'."
           echo "This typically means the triggering issue title did not start with 'SCAN:' or 'PDF-CRAWL:'."
           echo "No analysis is needed. This is expected behaviour for non-scan issues."
+          echo ""
+          echo "NOTE FOR DEBUGGING:"
+          echo "  - This job (note_crawl_skipped) only runs when the crawl workflow was SKIPPED."
+          echo "  - The report_crawl_failure job only runs when the crawl workflow FAILED or was CANCELLED."
+          echo "  - When the crawl succeeds, both of those jobs are skipped (they show as 'skipped' in the UI)."
+          echo "  - A 'skipped' status on note_crawl_skipped or report_crawl_failure means the crawl"
+          echo "    completed successfully and the analyse job ran instead."
+          echo ""
+          {
+            echo "## ⏭️ Crawl workflow was skipped"
+            echo ""
+            echo "Run ID: \`${{ github.event.workflow_run.id }}\`"
+            echo ""
+            echo "The upstream crawl workflow concluded with **skipped**, which typically means"
+            echo "the triggering issue title did not start with \`SCAN:\` or \`PDF-CRAWL:\`."
+            echo "No accessibility analysis is needed."
+          } >> "$GITHUB_STEP_SUMMARY"
 
   # ---------------------------------------------------------------------------
   # Job 1: report a failed upstream crawl back to the originating issue
@@ -79,26 +96,39 @@ jobs:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
           CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
           CRAWL_RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}
+          CRAWL_CONCLUSION: ${{ github.event.workflow_run.conclusion }}
         with:
           script: |
             const issueNumber = parseInt(process.env.ISSUE_NUMBER, 10);
             if (!Number.isInteger(issueNumber) || issueNumber <= 0) return;
-            const crawlUrl  = process.env.CRAWL_URL  || '(unknown)';
-            const runUrl    = process.env.CRAWL_RUN_URL;
+            const crawlUrl   = process.env.CRAWL_URL  || '(unknown)';
+            const runUrl     = process.env.CRAWL_RUN_URL;
+            const conclusion = process.env.CRAWL_CONCLUSION || 'failure';
+
+            const isCancelled = conclusion === 'cancelled';
+            const headline = isCancelled
+              ? `⏱️ **Crawl cancelled** for \`${crawlUrl}\`.`
+              : `❌ **Crawl failed** for \`${crawlUrl}\`.`;
+            const reason = isCancelled
+              ? `The crawl workflow was cancelled (likely a timeout).`
+              : `The crawl workflow did not complete successfully.`;
+
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo:  context.repo.repo,
               issue_number: issueNumber,
               body: [
-                `❌ **Crawl failed** for \`${crawlUrl}\`.`,
+                headline,
                 ``,
-                `The crawl workflow did not complete successfully.`,
+                reason,
                 `Please check the [workflow run](${runUrl}) for details.`,
                 ``,
-                `Common causes:`,
-                `- The URL is not reachable`,
-                `- A timeout was exceeded`,
+                `**Common causes:**`,
+                `- The URL is not reachable or returns errors`,
+                `- A timeout was exceeded (crawl job limit is 75 minutes)`,
                 `- An unexpected error occurred during crawling`,
+                ``,
+                `**To retry:** close and reopen this issue to trigger a fresh crawl.`,
               ].join('\n')
             });
             try {
@@ -119,6 +149,17 @@ jobs:
                 labels: ['scan-failed']
               });
             } catch (_) {}
+
+            core.summary
+              .addHeading(isCancelled ? '⏱️ Crawl cancelled' : '❌ Crawl failed', 2)
+              .addRaw(`Issue: [#${issueNumber}](https://github.com/${context.repo.owner}/${context.repo.repo}/issues/${issueNumber})`)
+              .addEOL()
+              .addRaw(`Crawl URL: \`${crawlUrl}\``)
+              .addEOL()
+              .addRaw(`Conclusion: \`${conclusion}\``)
+              .addEOL()
+              .addRaw(`[View crawl run](${runUrl})`)
+              .write();
 
   # ---------------------------------------------------------------------------
   # Job 2: run accessibility analysis for a successful crawl
@@ -149,6 +190,12 @@ jobs:
           echo "Artifact names expected:"
           echo "  crawled-pdfs-${{ github.event.workflow_run.id }}"
           echo "  scan-meta-${{ github.event.workflow_run.id }}"
+          echo ""
+          echo "=== Job visibility note ==="
+          echo "The 'note_crawl_skipped' job runs ONLY when the crawl was skipped (non-SCAN issue)."
+          echo "The 'report_crawl_failure' job runs ONLY when the crawl failed or was cancelled."
+          echo "When those two jobs appear as 'skipped' in the UI it means the crawl succeeded"
+          echo "and this 'analyse' job is running instead — that is the expected happy path."
 
       - name: Checkout repository
         uses: actions/checkout@v6
@@ -356,6 +403,17 @@ jobs:
           fi
           echo "needs_recrawl=$NEEDS_RECRAWL" >> "$GITHUB_OUTPUT"
           echo "Stale entries: $STALE_COUNT, needs_recrawl: $NEEDS_RECRAWL"
+          echo ""
+          echo "=== Stale entry explanation ==="
+          echo "Stale entries are manifest entries that were recorded as 'pending' in a"
+          echo "previous crawl run, but whose downloaded PDF files are no longer available."
+          echo "This happens when the GitHub Actions artifact from the previous crawl has"
+          echo "expired (default retention: 90 days) or when the crawl was interrupted."
+          echo "Stale entries do NOT indicate a failure of the current scan — the current"
+          echo "scan ran successfully. To analyse the remaining PDFs, re-crawl the site."
+          if [ "$STALE_COUNT" -gt 0 ]; then
+            echo "::notice::$STALE_COUNT stale manifest entries were skipped (no local file). Re-crawl $CRAWL_SITE to analyse them."
+          fi
 
       - name: Generate accessibility reports
         env:
@@ -491,16 +549,21 @@ jobs:
 
             core.setOutput('comment_url', commentData.html_url);
 
-            // Replace the in-progress label with a completed label.
-            try {
-              await github.rest.issues.removeLabel({
-                owner: repoOwner,
-                repo:  repoName,
-                issue_number: issueNumber,
-                name: 'scan-in-progress'
-              });
-            } catch (err) {
-              if (err.status !== 404) throw err;
+            // Replace the in-progress (and any previous scan-failed) label with
+            // a completed label.  The scan-failed label may have been applied by a
+            // previous stale-entry bug or an earlier failed attempt; clearing it
+            // ensures the issue correctly reflects the current successful result.
+            for (const label of ['scan-in-progress', 'scan-failed']) {
+              try {
+                await github.rest.issues.removeLabel({
+                  owner: repoOwner,
+                  repo:  repoName,
+                  issue_number: issueNumber,
+                  name: label,
+                });
+              } catch (err) {
+                if (err.status !== 404) throw err;
+              }
             }
 
             await github.rest.issues.addLabels({
@@ -572,6 +635,65 @@ jobs:
               git push || echo "::warning::All push attempts exhausted."
             fi
           fi
+
+      - name: Write workflow summary
+        if: always()
+        env:
+          EVENT_NAME:      ${{ github.event_name }}
+          ISSUE_NUMBER:    ${{ steps.meta.outputs.issue_number }}
+          CRAWL_URL:       ${{ steps.meta.outputs.crawl_url }}
+          CRAWL_SITE:      ${{ steps.meta.outputs.crawl_site }}
+          STALE_COUNT:     ${{ steps.stale_check.outputs.stale_count }}
+          NEEDS_RECRAWL:   ${{ steps.stale_check.outputs.needs_recrawl }}
+          REPO_OWNER:      ${{ github.repository_owner }}
+          REPO_NAME:       ${{ github.event.repository.name }}
+          RUN_ID:          ${{ github.run_id }}
+          CRAWL_RUN_ID:    ${{ github.event.workflow_run.id }}
+          PDF_OUTCOME:     ${{ steps.download_pdfs.outcome }}
+          META_OUTCOME:    ${{ steps.download_meta.outcome }}
+        run: |
+          CRAWL_URL="${CRAWL_URL:-unknown}"
+          ISSUE_NUMBER="${ISSUE_NUMBER:-}"
+          STALE_COUNT="${STALE_COUNT:-0}"
+          REPO_OWNER="${REPO_OWNER:-}"
+          REPO_NAME="${REPO_NAME:-}"
+          RUN_ID="${RUN_ID:-}"
+          CRAWL_RUN_ID="${CRAWL_RUN_ID:-}"
+          {
+            echo "## 📊 Accessibility Analysis Summary"
+            echo ""
+            echo "| Field | Value |"
+            echo "|-------|-------|"
+            echo "| Site | \`${CRAWL_URL}\` |"
+            if [ -n "$ISSUE_NUMBER" ]; then
+              echo "| Issue | [#${ISSUE_NUMBER}](https://github.com/${REPO_OWNER}/${REPO_NAME}/issues/${ISSUE_NUMBER}) |"
+            fi
+            if [ -n "$CRAWL_RUN_ID" ] && [ "$EVENT_NAME" = "workflow_run" ]; then
+              echo "| Crawl run | [View](https://github.com/${REPO_OWNER}/${REPO_NAME}/actions/runs/${CRAWL_RUN_ID}) |"
+            fi
+            echo "| Analysis run | [View](https://github.com/${REPO_OWNER}/${REPO_NAME}/actions/runs/${RUN_ID}) |"
+            echo "| PDF artifact | \`${PDF_OUTCOME:-n/a}\` |"
+            echo "| Metadata artifact | \`${META_OUTCOME:-n/a}\` |"
+            echo "| Stale entries skipped | ${STALE_COUNT} |"
+            echo ""
+            if [ "$STALE_COUNT" -gt 0 ]; then
+              echo "### ♻️ Stale Entries Detected"
+              echo ""
+              echo "${STALE_COUNT} manifest entries from a previous crawl could not be analysed"
+              echo "because their downloaded files are no longer available."
+              echo ""
+              echo "**This is not a scan failure.** The current scan completed successfully."
+              echo "To analyse the remaining PDFs, reopen the issue to trigger a fresh crawl."
+            fi
+            echo ""
+            echo "### ℹ️ About Skipped Jobs"
+            echo ""
+            echo "The \`note_crawl_skipped\` and \`report_crawl_failure\` jobs appear as"
+            echo "**skipped** in the workflow run UI when this \`analyse\` job runs."
+            echo "That is expected — those jobs only run when the crawl was skipped or failed."
+            echo "A skipped status on those jobs means **the crawl succeeded** and this"
+            echo "analysis job ran instead."
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Close issue after scan and report
         if: >-
@@ -687,12 +809,16 @@ jobs:
               body: [
                 `⏱️ **Analysis timed out** for \`${crawlUrl}\`.`,
                 ``,
-                `The accessibility analysis job exceeded its time limit and was cancelled.`,
+                `The accessibility analysis job exceeded its time limit (60 minutes) and was cancelled.`,
                 `Please check the [workflow run](${runUrl}) for details.`,
                 ``,
                 `To help the next attempt succeed, the PDF analysis limit has been automatically`,
                 `reduced to **${newMax} PDFs** (was ${currentMax}).`,
                 `Close and reopen this issue to retry with the smaller batch size.`,
+                ``,
+                `**Debugging tips:**`,
+                `- Check the workflow run logs for the last PDF being analysed before the timeout`,
+                `- Consider adding \`PDFs: ${newMax}\` to the issue body to set the limit explicitly`,
               ].join('\n'),
             });
             try {
@@ -713,3 +839,14 @@ jobs:
                 labels: ['scan-failed'],
               });
             } catch (_) {}
+
+            core.summary
+              .addHeading('⏱️ Analysis timed out', 2)
+              .addRaw(`Issue: [#${issueNumber}](https://github.com/${context.repo.owner}/${context.repo.repo}/issues/${issueNumber})`)
+              .addEOL()
+              .addRaw(`Crawl URL: \`${crawlUrl}\``)
+              .addEOL()
+              .addRaw(`PDF limit reduced from ${currentMax} → ${newMax} for next retry.`)
+              .addEOL()
+              .addRaw(`[View workflow run](${runUrl})`)
+              .write();
