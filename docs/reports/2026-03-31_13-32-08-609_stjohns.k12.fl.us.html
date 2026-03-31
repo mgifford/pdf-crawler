@@ -1,0 +1,5195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-03-31T13:32:08.613470+00:00",
+    "total_files": 126,
+    "analysed": 126,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 29,
+    "totally_inaccessible": 3,
+    "broken": 0,
+    "exempt": 15,
+    "sites": {
+      "stjohns.k12.fl.us": 126
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Class-Size-Letter.pdf",
+      "md5": "22f238a49842be9ded05498beafc1763",
+      "filename": "2022-23-Class-Size-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.725493+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-08-10 18:32:32+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "KM_368e",
+        "Producer": "Adobe Acrobat Pro 2017 17 Paper Capture Plug-in",
+        "Pages": 1,
+        "Words": 514,
+        "Images": 1
+      },
+      "errors": [
+        "lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Code-of-Conduct-Letter.pdf",
+      "md5": "30e05035ea9e9bda09769f3e92bc3a42",
+      "filename": "2022-23-Code-of-Conduct-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.727553+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-07-28 11:51:10+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 229,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Elementary-Choice-Letter.pdf",
+      "md5": "2f26cf66d96c1d39130ddd38383cd8e3",
+      "filename": "2022-23-Elementary-Choice-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.729143+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-08-03 18:29:27+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 465,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Required-Instruction-Elementary-Parent-Letter.pdf",
+      "md5": "3705366fc274b3daaa03d2ff2e51f19f",
+      "filename": "2022-23-Required-Instruction-Elementary-Parent-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.730714+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-07-28 11:53:50+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 202,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Required-Instruction-High-School-Parent-Letter.pdf",
+      "md5": "9edbfc3e1bcb38793bc6802af37a5bd5",
+      "filename": "2022-23-Required-Instruction-High-School-Parent-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.732272+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-07-28 11:54:35+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 210,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Required-Instruction-Middle-School-Parent-Letter.pdf",
+      "md5": "cc2aaee1c36eea3b6492e5e21a9ccebc",
+      "filename": "2022-23-Required-Instruction-Middle-School-Parent-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.734224+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-07-28 11:52:53+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 210,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-School-Safety-Letter.pdf",
+      "md5": "e274c4708838fc0cbbc52d1de856b4da",
+      "filename": "2022-23-School-Safety-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.735781+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-07-28 12:16:03+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 614,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Secondary-Choice-Letter.pdf",
+      "md5": "776ca1732ff33646fb733d4cf652ffc1",
+      "filename": "2022-23-Secondary-Choice-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.737442+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-08-03 18:25:49+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 1024,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Sheriff-Hardwick-Letter.pdf",
+      "md5": "d006af96662eb3fe92858f8c3d43a24c",
+      "filename": "2022-23-Sheriff-Hardwick-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.739689+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-08-10 18:21:59+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "SAVIN MP C2004ex",
+        "Producer": "Adobe Acrobat Pro 2017 17 Paper Capture Plug-in",
+        "Pages": 1,
+        "Words": 437,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2023/02/2023-2024-School-Start-and-Dismissal-Times.pdf",
+      "md5": "b5ebe1f3234e368663d2e76b83d89d71",
+      "filename": "2023-2024-School-Start-and-Dismissal-Times.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.741110+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-02-27 15:40:07+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 17 for PowerPoint",
+        "Producer": "Adobe PDF Library 17.11.238",
+        "Pages": 1,
+        "Words": 89,
+        "Images": 5
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/08/2024-SJCSD-INTERNSHIP-Application-Fillable-PDF.pdf",
+      "md5": "071c599d8d66484573b184aeaa338d2d",
+      "filename": "2024-SJCSD-INTERNSHIP-Application-Fillable-PDF.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.742674+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-02-14 16:14:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 377,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2025/12/2025-2026-English-Language-Arts-K-12-Adoption-Recommendations-1.pdf",
+      "md5": "c18ccada65f671e7f11d3a5dab11b38b",
+      "filename": "2025-2026-English-Language-Arts-K-12-Adoption-Recommendations-1.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.743910+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-05 17:21:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 175,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2025/12/2025-2026-HOPE-9-12-Adoption-Recommendations-1.pdf",
+      "md5": "a7f2e49290206b4d0ab9df000dc65bb7",
+      "filename": "2025-2026-HOPE-9-12-Adoption-Recommendations-1.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.745096+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-05 17:25:03+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 50,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/year-at-a-glance/wp-content/uploads/sites/101/2025/08/25-26-ASL-3-Content-Guide-.pdf",
+      "md5": "8be9ec4147ae94510574c897294b66ff",
+      "filename": "25-26-ASL-3-Content-Guide-.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.746526+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-06-23 13:18:51+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 5,
+        "Words": 316,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2025/10/25_26_Matrix_Pager.pdf",
+      "md5": "974a701c1a4b2a2d9fb6877be6146eb1",
+      "filename": "25_26_Matrix_Pager.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.747812+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-06 17:42:03+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 20.4 (Macintosh)",
+        "Producer": "Acrobat Distiller 24.0 (Windows)",
+        "Pages": 1,
+        "Words": 505,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2015/02/5_20.pdf",
+      "md5": "ffa29d643bf7d5def3cedd295834c0e7",
+      "filename": "5_20.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.748945+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2010-04-15 19:43:46+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 8.2.2 (Windows)",
+        "Pages": 3,
+        "Words": 599,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/board/wp-content/uploads/sites/11/2019/07/6_104.pdf",
+      "md5": "5047b02a22787df925800f890e3283cf",
+      "filename": "6_104.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.750252+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-07-09 15:09:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Office 365",
+        "Producer": "Microsoft\u00ae Word for Office 365",
+        "Pages": 4,
+        "Words": 1270,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/board/wp-content/uploads/sites/11/2015/02/7_142.pdf",
+      "md5": "d7200b770c5047346a5d5568dda0888e",
+      "filename": "7_142.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.751435+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-10-15 14:47:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 5,
+        "Words": 1639,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/board/wp-content/uploads/sites/11/2015/02/9_05.pdf",
+      "md5": "42ccb1c33f74a9fef6b2e71d7c48908f",
+      "filename": "9_05.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.752553+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2010-09-15 16:01:15+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 9.1 for Word",
+        "Producer": "Adobe PDF Library 9.0",
+        "Pages": 2,
+        "Words": 519,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2019/11/A-Career-in-a-Year-Handout-rev.-11-8-19.pdf",
+      "md5": "d25bb90d3120453ff636478534ed7101",
+      "filename": "A-Career-in-a-Year-Handout-rev.-11-8-19.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.756361+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-11-08 17:59:41+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 17 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 240,
+        "Images": 7
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/06/Add-Drop-form-2023.pdf",
+      "md5": "a41db56bd067de0e9949dc95ce95e0e2",
+      "filename": "Add-Drop-form-2023.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.758136+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-01-19 14:05:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.3.39",
+        "Pages": 1,
+        "Words": 184,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2024/12/Advertising-Guidelines-8-19-2024.pdf",
+      "md5": "ea10e03d793bb95112da141347244892",
+      "filename": "Advertising-Guidelines-8-19-2024.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.759409+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-12-09 17:55:36+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 393,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2022/05/Alternate-Placement-Criteria-for-Demonstrating-College-Readiness-Updated.pdf",
+      "md5": "392f879f30528f7d3a47ceeb05dd2278",
+      "filename": "Alternate-Placement-Criteria-for-Demonstrating-College-Readiness-Updated.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.760864+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-05-03 13:48:49+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 436,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2023/09/Attendance-Zoning-_2024-2025_K-8-NN-OO-Growth-Capacity-Balancing_TH-8-31-23.pdf",
+      "md5": "1164abec65c74758819f6ca01cd5dbd8",
+      "filename": "Attendance-Zoning-_2024-2025_K-8-NN-OO-Growth-Capacity-Balancing_TH-8-31-23.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.767620+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-09-05 23:54:38+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for PowerPoint",
+        "Producer": "Adobe PDF Library 20.5.50",
+        "Pages": 107,
+        "Words": 5011,
+        "Images": 53
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2021/04/Attendance-Zoning-_HS-III_TH-3.23.21.pdf",
+      "md5": "69dc844d317f46816bf65011e3afb0d8",
+      "filename": "Attendance-Zoning-_HS-III_TH-3.23.21.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.794919+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-21 17:51:00+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for PowerPoint",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 80,
+        "Words": 2657,
+        "Images": 99
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2021/04/Attendance-Zoning-_SB-Wkshp-4.27.21.pdf",
+      "md5": "1797fba6d50132e5e654acab336d5910",
+      "filename": "Attendance-Zoning-_SB-Wkshp-4.27.21.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.806411+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-27 18:15:55+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for PowerPoint",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 44,
+        "Words": 1600,
+        "Images": 43
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2021/04/Attendance-Zoning-_SB-Wkshp-4.6.21.pdf",
+      "md5": "7d04889e882db00ca5b1aa1375e26658",
+      "filename": "Attendance-Zoning-_SB-Wkshp-4.6.21.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.817505+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-21 18:34:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for PowerPoint",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 64,
+        "Words": 2536,
+        "Images": 63
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/09/Bright-Futures-Community-Service-Form.pdf",
+      "md5": "9c38a1febf5d795e4faa6574a52ea646",
+      "filename": "Bright-Futures-Community-Service-Form.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.819346+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-09-06 13:47:27+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.5.50",
+        "Pages": 3,
+        "Words": 1027,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/04/Brooks_Virtual_Volunteer_Program_Flyer_030721.pdf",
+      "md5": "e4bae16e7cc685b212bd8a19771673e2",
+      "filename": "Brooks_Virtual_Volunteer_Program_Flyer_030721.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.822407+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-03-08 16:22:49+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign 16.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 145,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/Buddy-Bus-Event-Flyer.pdf",
+      "md5": "8e7304218906ab1c4de5b99abbae0bef",
+      "filename": "Buddy-Bus-Event-Flyer.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.826320+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-22 15:54:14+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 19.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 2,
+        "Words": 616,
+        "Images": 470
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/online-learning/wp-content/uploads/sites/148/2020/04/COVID-19-Elementary-Parent-Guide-on-Exams-Grading-Promotion.pdf",
+      "md5": "ef8e724e52cea256bb6762334fa8809c",
+      "filename": "COVID-19-Elementary-Parent-Guide-on-Exams-Grading-Promotion.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.827937+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-04-17 14:56:23+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Office 365",
+        "Producer": "Microsoft\u00ae Word for Office 365",
+        "Pages": 2,
+        "Words": 509,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2019/03/CS-Internet-Jobs-Websites-February-Edition.pdf",
+      "md5": "e82e3da0e6696c3dccf9d3f4b95726e3",
+      "filename": "CS-Internet-Jobs-Websites-February-Edition.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.829559+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-08-27 19:54:11+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 2,
+        "Words": 429,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/screening/wp-content/uploads/sites/38/2025/04/Clearinghouse-Applicant-Request-Form.pdf",
+      "md5": "c5393cfd8a6a0dfb76b2f96c8310ce46",
+      "filename": "Clearinghouse-Applicant-Request-Form.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.831526+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-04-09 15:33:55+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 8,
+        "Words": 2648,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/Come-Drive-the-Bus-Flyer.pdf",
+      "md5": "f8de7d9bf2412531db0dc0b162fa4a18",
+      "filename": "Come-Drive-the-Bus-Flyer.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.832996+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-27 13:44:24+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe Illustrator 28.5 (Windows)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 8
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/coe/wp-content/uploads/sites/122/2017/01/Controlled-Open-Enrollment-Plan.pdf",
+      "md5": "c2131a177fee5fa27c8651ad00115a9f",
+      "filename": "Controlled-Open-Enrollment-Plan.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.834355+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-01-11 17:19:10+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 13,
+        "Words": 5118,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Cyberbullying-Warning-Signs.pdf",
+      "md5": "d96a8f03394a59645179a36b92b6af79",
+      "filename": "Cyberbullying-Warning-Signs.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.837097+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-09-10 15:07:28+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Publisher 2016",
+        "Producer": "Microsoft\u00ae Publisher 2016",
+        "Pages": 1,
+        "Words": 70,
+        "Images": 51
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2025/05/DE-Student-Information-Night.pdf",
+      "md5": "2cff40f9125f42259060748a45fb638b",
+      "filename": "DE-Student-Information-Night.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.839589+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-22 12:29:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for PowerPoint",
+        "Producer": "Adobe PDF Library 20.5.43",
+        "Pages": 18,
+        "Words": 991,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/Donate-Blood-Flyer.pdf",
+      "md5": "e3631a034d386d75b61e74658104c405",
+      "filename": "Donate-Blood-Flyer.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.842463+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-09 16:09:31+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "PTI~FusionPro~14.0.3 (DEBUG)",
+        "Producer": "Adobe PDF Library 15/FusionPro",
+        "Pages": 1,
+        "Words": 85,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/Economic-Security-Report-Summary.pdf",
+      "md5": "dafb8638e1effb1e67d5447089fb656a",
+      "filename": "Economic-Security-Report-Summary.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.844921+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-03-17 15:03:26-04:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 553,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2023/08/Elementary-Whole-Grade-Acceleration-Checklist.pdf",
+      "md5": "6f66c04c30a006ef8313782b9d0767f6",
+      "filename": "Elementary-Whole-Grade-Acceleration-Checklist.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.846465+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-07-19 16:22:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 593,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/ElementaryHealthEdToolkit.pdf",
+      "md5": "cc651bf464ef1fe75c74b6d69d220d0c",
+      "filename": "ElementaryHealthEdToolkit.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.848346+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-08-27 19:53:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2010",
+        "Producer": "Microsoft\u00ae Word 2010",
+        "Pages": 8,
+        "Words": 1938,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2024/11/Evelyn-Hamblen-Classroom-Library-Listing.pdf",
+      "md5": "d19e6f4f8a2b85410c82e877b37cd546",
+      "filename": "Evelyn-Hamblen-Classroom-Library-Listing.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.849903+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2024-11-18 16:20:07-05:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 27,
+        "Words": 7350,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sss/wp-content/uploads/sites/90/2024/01/External-OSJ-Guidelines-1.16.24-1.pdf",
+      "md5": "08d8932723a8bc4c2fafb698de5400e8",
+      "filename": "External-OSJ-Guidelines-1.16.24-1.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.856757+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-01-16 20:46:05+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 11.0 (Windows)",
+        "Pages": 29,
+        "Words": 7479,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2021/04/FAQ-Regarding-Assessments-for-the-2020-2021-School-Year.pdf",
+      "md5": "ed6e530592c2a1145179c8dc614a6b06",
+      "filename": "FAQ-Regarding-Assessments-for-the-2020-2021-School-Year.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.859444+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-22 12:22:50-04:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 7,
+        "Words": 2300,
+        "Images": 7
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/purchasing/wp-content/uploads/sites/30/2024/09/Federal-Grants-Terms-and-Conditions-9-12-2024.pdf",
+      "md5": "0f3440de2ee1736242b68da6759fe19e",
+      "filename": "Federal-Grants-Terms-and-Conditions-9-12-2024.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.860794+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-12 17:42:25+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 4,
+        "Words": 3219,
+        "Images": 4
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2019/10/Florida-Financial-Aid-Application-Tips-.pdf",
+      "md5": "ce2e409d2b872da1416e65ee4052a925",
+      "filename": "Florida-Financial-Aid-Application-Tips-.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.862056+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-10-01 15:08:54+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Office 365",
+        "Producer": "Microsoft\u00ae Word for Office 365",
+        "Pages": 1,
+        "Words": 290,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/02/Foreign-Exchange-Registration-Form-fillable.pdf",
+      "md5": "ad28fbcaeb7e69918808b00a6fa2bbb6",
+      "filename": "Foreign-Exchange-Registration-Form-fillable.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.863775+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-02-21 18:58:50+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 226,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2020/10/Grades-3-5-Grade-Level-Determinations.pdf",
+      "md5": "3525a0fd5285d59ead9db7bae5f72fee",
+      "filename": "Grades-3-5-Grade-Level-Determinations.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.865183+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-10-30 14:49:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 238,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2020/10/Grades-K-2-Grade-Level-Determinations-October-2020.pdf",
+      "md5": "590fd5d32e0552c016fdb705132f3b7f",
+      "filename": "Grades-K-2-Grade-Level-Determinations-October-2020.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.866640+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-10-30 14:48:45+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 2,
+        "Words": 339,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2020/09/Graduation-Application-2020.pdf",
+      "md5": "622a54ba6f525c1b20429bbf5ba6d9cb",
+      "filename": "Graduation-Application-2020.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.867941+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-06-10 19:15:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 15 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 444,
+        "Images": 1
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Growing-Up-Drug-Free-A-Parent-Guide-to-Prevention.pdf",
+      "md5": "e6553b440f154769bc7344d3760379b4",
+      "filename": "Growing-Up-Drug-Free-A-Parent-Guide-to-Prevention.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.875332+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-10-28 14:05:45+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 16.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0",
+        "Pages": 64,
+        "Words": 18498,
+        "Images": 58
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/Guide-to-FSA-Algebra-1-EOC-revised-October-2020-002-1.pdf",
+      "md5": "9ffe24a9be66e6f3930c09f204e285ca",
+      "filename": "Guide-to-FSA-Algebra-1-EOC-revised-October-2020-002-1.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.877134+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-10-28 17:58:29+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 3,
+        "Words": 677,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/High-School-Advanced-Programs-24-25.pdf",
+      "md5": "8c1a42f9422c08f29f24349917c90792",
+      "filename": "High-School-Advanced-Programs-24-25.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.878829+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-19 18:01:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.5.216",
+        "Pages": 7,
+        "Words": 2453,
+        "Images": 6
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/07/Home-Ed-Affidavit-7.9.24.pdf",
+      "md5": "20c3c091848a61fd3bd527a38e36e4c4",
+      "filename": "Home-Ed-Affidavit-7.9.24.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.880265+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-10 02:24:10+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 21 for Word",
+        "Producer": "Adobe PDF Library 21.11.71",
+        "Pages": 1,
+        "Words": 178,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/206/2025/10/Home-Ed-Notice-of-Intent-9.30.25.pdf",
+      "md5": "57a7cfc36b227cd808a39e415b7a2341",
+      "filename": "Home-Ed-Notice-of-Intent-9.30.25.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.881806+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-01 15:11:42+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.5.73",
+        "Pages": 1,
+        "Words": 471,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/07/Home-Ed-Termination-Form-7.9.24.pdf",
+      "md5": "644811a22f1fb51a5979511af41d8faa",
+      "filename": "Home-Ed-Termination-Form-7.9.24.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.883408+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-10 02:22:01+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 225,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/07/Home-Ed-Transfer-Form-7.9.24.pdf",
+      "md5": "cd44a7d430595a71f141907d700f8d73",
+      "filename": "Home-Ed-Transfer-Form-7.9.24.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.884927+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-10 02:22:19+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 21 for Word",
+        "Producer": "Adobe PDF Library 21.11.71",
+        "Pages": 1,
+        "Words": 214,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/08/Home-Education-Evaluation-Form-7.9.24.pdf",
+      "md5": "730141b5623961f49873c74607edea70",
+      "filename": "Home-Education-Evaluation-Form-7.9.24.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.886701+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-08-15 00:56:37+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 630,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/Homework.pdf",
+      "md5": "a4ea2bee0b6c67d0b599cab0da030ed3",
+      "filename": "Homework.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.887965+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-09-25 19:01:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2013",
+        "Producer": "Acrobat Distiller 9.4.5 (Windows)",
+        "Pages": 1,
+        "Words": 512,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/How-Students-Track-a-Letter-of-Recommendation-Request.pdf",
+      "md5": "ffbf5658db827ecec23cca8c75af6701",
+      "filename": "How-Students-Track-a-Letter-of-Recommendation-Request.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.889221+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-02 11:09:25+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.5.191",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/How-to-Request-a-Letter-of-Recommendation.pdf",
+      "md5": "251317856dc69e4b8e9b4fc2e1cec450",
+      "filename": "How-to-Request-a-Letter-of-Recommendation.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.892364+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-08-20 20:57:40+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": "madbuild",
+        "Pages": 2,
+        "Words": 449,
+        "Images": 9
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/How-to-Request-a-Transcript-Non-Parchment-High-Schools-Only.pdf",
+      "md5": "eba7e3b1834ea48baa6c4a5a3008f063",
+      "filename": "How-to-Request-a-Transcript-Non-Parchment-High-Schools-Only.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.895092+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-08-19 17:49:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": "madbuild",
+        "Pages": 2,
+        "Words": 294,
+        "Images": 8
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2022/08/Informational-Brochure-for-Parents-rev.-2022.pdf",
+      "md5": "72f8311a05b13a6bebe806293a249b9e",
+      "filename": "Informational-Brochure-for-Parents-rev.-2022.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.897111+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-08-19 16:43:28+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Publisher for Microsoft 365",
+        "Producer": "Microsoft\u00ae Publisher for Microsoft 365",
+        "Pages": 2,
+        "Words": 521,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/purchasing/wp-content/uploads/sites/30/2026/02/Insurance-Requirements-12-20-2023.pdf",
+      "md5": "1fef3cc9dba1fcaecc90a32089b1db33",
+      "filename": "Insurance-Requirements-12-20-2023.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.898426+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-23 17:21:51+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 328,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/staff/wp-content/uploads/sites/4/2022/01/MOU-Transfer-Process-2022-2023.pdf",
+      "md5": "9dfe4bbedd17877a6b68082d2146c011",
+      "filename": "MOU-Transfer-Process-2022-2023.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.900237+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-01-24 16:53:55+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "KM_368e",
+        "Producer": "KONICA MINOLTA bizhub 368e",
+        "Pages": 4,
+        "Words": 1351,
+        "Images": 6
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2022/12/New-Bright-Futures-Community-Service-Form-St.-Johns-Final-1.pdf",
+      "md5": "c51904d5e65a0ba8b9bf41a2ed1ea38d",
+      "filename": "New-Bright-Futures-Community-Service-Form-St.-Johns-Final-1.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.901825+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-06-28 17:07:15+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 3,
+        "Words": 999,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2022/07/New-Bright-Futures-Community-Service-Form-St.-Johns-Final.pdf",
+      "md5": "c51904d5e65a0ba8b9bf41a2ed1ea38d",
+      "filename": "New-Bright-Futures-Community-Service-Form-St.-Johns-Final.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.903373+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-06-28 17:07:15+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 3,
+        "Words": 999,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/schoolservices/wp-content/uploads/sites/23/2025/08/Out-of-School-Supspension-Process-082025.pdf",
+      "md5": "ee48c7e2382d62a64754382fae0a0db5",
+      "filename": "Out-of-School-Supspension-Process-082025.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.904615+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-25 18:25:16+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 70,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2015/02/PR-Protocol-10-16-15.pdf",
+      "md5": "100fa24366618b1ec76b2bdd2da54934",
+      "filename": "PR-Protocol-10-16-15.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.906101+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-10-16 14:33:18+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 10.1.16 (Windows)",
+        "Pages": 2,
+        "Words": 699,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2025/08/Parent-Announcement-Template-Post-launch-1.pdf",
+      "md5": "8f49c35d2290392dc61a84173651ee58",
+      "filename": "Parent-Announcement-Template-Post-launch-1.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.907999+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 0,
+        "Images": 18
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2020/06/Parent-Survey-Results.pdf",
+      "md5": "1be56a2577fb5ab25b37028cf21106ec",
+      "filename": "Parent-Survey-Results.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.916215+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-06-11 17:17:00+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 17 for PowerPoint",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 82,
+        "Words": 954,
+        "Images": 144
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/06/Petition-form-Request-for-Policy-Exception-2021.pdf",
+      "md5": "b17673aa24094ec2feb25e32862bd194",
+      "filename": "Petition-form-Request-for-Policy-Exception-2021.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.917819+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-02-22 15:26:10+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.13.106",
+        "Pages": 2,
+        "Words": 450,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/12/Principles-of-Participation-Responsibilities-2023.pdf",
+      "md5": "6a1d02c04b95d6c9b23a61bc413f7dae",
+      "filename": "Principles-of-Participation-Responsibilities-2023.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.919396+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-11-30 17:34:57+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.6.96",
+        "Pages": 5,
+        "Words": 2174,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2025/08/Program-Providers-Template-Post-Launch.pdf",
+      "md5": "a53a50db73202be517cf342f3a769fd3",
+      "filename": "Program-Providers-Template-Post-Launch.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.921227+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 0,
+        "Images": 21
+      },
+      "errors": [
+        "no date found, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2024/11/Proper-Use-of-FortifyFL-Training-for-Parents.pdf",
+      "md5": "1f7921888ec40584f6a15396926b2b39",
+      "filename": "Proper-Use-of-FortifyFL-Training-for-Parents.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.922525+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-11-11 15:09:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 17 for PowerPoint",
+        "Producer": "Adobe PDF Library 17.11.238",
+        "Pages": 7,
+        "Words": 459,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/Q-and-A-for-Award-Credit.pdf",
+      "md5": "00facdc37ee54dba508adec15655ebae",
+      "filename": "Q-and-A-for-Award-Credit.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.924167+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-02-23 15:32:43-05:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 662,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2021/08/Quarantine-Family-Help-Guide-Elementary-rev-8-17-21.pdf",
+      "md5": "eb20177e0f8b8c88162d538ff0a16084",
+      "filename": "Quarantine-Family-Help-Guide-Elementary-rev-8-17-21.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.925740+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-08-18 10:08:14-04:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 225,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2021/08/Quarantine-Family-Help-Guide-Secondary-rev-8-17-21.pdf",
+      "md5": "5eab144e3cba3ba8b310ef93f50df4d7",
+      "filename": "Quarantine-Family-Help-Guide-Secondary-rev-8-17-21.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.927011+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-08-18 14:08:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 17 for Word",
+        "Producer": "Adobe PDF Library 17.11.238",
+        "Pages": 1,
+        "Words": 230,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/purchasing/wp-content/uploads/sites/30/2026/03/RFP2026-012-Schools-Internal-Accounts-Auditing-Services-March-26-2026-@-1000-AM.pdf",
+      "md5": "2a7edd81e76fda7452a9d9ab1f512729",
+      "filename": "RFP2026-012-Schools-Internal-Accounts-Auditing-Services-March-26-2026-@-1000-AM.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.928338+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-17 14:47:55+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 75,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2022/10/Registration-Form-2023.pdf",
+      "md5": "5c46752da6bab1d8198ac480398cac51",
+      "filename": "Registration-Form-2023.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.929951+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-10-06 18:56:34+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.2.223",
+        "Pages": 1,
+        "Words": 393,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/127/2022/02/Request-for-Reconsideration-Form.pdf",
+      "md5": "2ead807a975b20ec2a37932d8c3f6a77",
+      "filename": "Request-for-Reconsideration-Form.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.931263+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-02-08 20:51:12+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 2,
+        "Words": 302,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2015/03/SBN_Tip22_Lend-A-Hand.pdf",
+      "md5": "8ef25e15d86899e2ff1d4558ea96add3",
+      "filename": "SBN_Tip22_Lend-A-Hand.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.933203+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-08-22 17:36:22+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CS5 (7.0.3)",
+        "Producer": "Adobe PDF Library 9.9",
+        "Pages": 2,
+        "Words": 756,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2024/07/SJCSD-2024-Test-Scores-Infographic.pdf",
+      "md5": "6f5f3064e46046b3d2c484374a00bbfb",
+      "filename": "SJCSD-2024-Test-Scores-Infographic.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.934909+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-09 17:46:02+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 257,
+        "Images": 6
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/127/2022/02/SJCSD-Approved-Math-Instructional-Materials-2021.2022.pdf",
+      "md5": "e9078cd4d940eb76065f2380e4d7591e",
+      "filename": "SJCSD-Approved-Math-Instructional-Materials-2021.2022.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.936300+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-02-08 20:57:10+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 17.0 (Windows)",
+        "Pages": 1,
+        "Words": 714,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2025/09/SJCSD-CCN-Vendor-Map-2025-2.pdf",
+      "md5": "879afd36b59d54188c973d03e8c4cee6",
+      "filename": "SJCSD-CCN-Vendor-Map-2025-2.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.937617+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-03 15:16:57+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.5.54",
+        "Pages": 1,
+        "Words": 498,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2025/08/SJCSD-Comprehensive-Reading-Plan-2025-2026.pdf",
+      "md5": "03017d45e3e1cf90de27419e37a8a886",
+      "filename": "SJCSD-Comprehensive-Reading-Plan-2025-2026.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.940352+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2025-08-13 15:57:37+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.97",
+        "Pages": 39,
+        "Words": 14480,
+        "Images": 0
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/SJCSD-ESE-PAC-Flyer-10-7-2025.pdf",
+      "md5": "bda5f9e7b0d2b6ceed075cf4937261c9",
+      "filename": "SJCSD-ESE-PAC-Flyer-10-7-2025.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.941789+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-17 17:37:18+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 123,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/01/SJCSD-Enhancing-Executive-Functioning-Skills-2-4-2025.pdf",
+      "md5": "5d1fde6b6ab6d758159eb93780c3260a",
+      "filename": "SJCSD-Enhancing-Executive-Functioning-Skills-2-4-2025.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.943200+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-09 14:32:38+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 116,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2025/09/SJCSD-Faith-Based-Partnerships.pdf",
+      "md5": "7e6a163933ba22b1afd25f016b39c67c",
+      "filename": "SJCSD-Faith-Based-Partnerships.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.944628+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-09-25 18:47:49+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for PowerPoint",
+        "Producer": "Adobe PDF Library 25.1.213",
+        "Pages": 11,
+        "Words": 319,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2024/09/SJCSD-Middle-School-Math-Progression.pdf",
+      "md5": "38256bc377365bcc7507d90f5f0e21de",
+      "filename": "SJCSD-Middle-School-Math-Progression.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.945958+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-24 14:35:32+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Excel",
+        "Producer": "Adobe PDF Library 24.3.144",
+        "Pages": 1,
+        "Words": 151,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/10/SJCSD-October-2025-Flyer-GPAC.pdf",
+      "md5": "726290bcd55cd65b692c138eb3de5b7b",
+      "filename": "SJCSD-October-2025-Flyer-GPAC.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.948673+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-10-02 12:33:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe Express",
+        "Producer": "Adobe Express",
+        "Pages": 1,
+        "Words": 74,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2025/12/SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Elementary.pdf",
+      "md5": "d9089c3f3dc50444750b3b236878cbb4",
+      "filename": "SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Elementary.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.950914+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-22 19:35:23+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 4,
+        "Words": 1655,
+        "Images": 34
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2025/12/SJCSD-Reading-Intervention-Placement-Guide-2025-2026-High-School.pdf",
+      "md5": "6362fecab409807e438d702cbb73d62d",
+      "filename": "SJCSD-Reading-Intervention-Placement-Guide-2025-2026-High-School.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.952857+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-12 21:57:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 3,
+        "Words": 868,
+        "Images": 18
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2025/12/SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Middle-School.pdf",
+      "md5": "c2fcc45a1f51a7528e8eab82e4e5ddd4",
+      "filename": "SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Middle-School.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.954794+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-08-12 22:00:33+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 3,
+        "Words": 878,
+        "Images": 16
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2021/09/SJCSD-Social-Media-Guidelines-for-Public-Use.pdf",
+      "md5": "e654a849bd5acbbe3c7577bc5b57c049",
+      "filename": "SJCSD-Social-Media-Guidelines-for-Public-Use.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.956400+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-09-17 15:57:58+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 327,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/05/SJCSD-Summer-Flyer-7-24-2025.pdf",
+      "md5": "d1c6dc3a26c1859a74d010193b7c88a8",
+      "filename": "SJCSD-Summer-Flyer-7-24-2025.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.957883+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-07-24 16:24:02+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Acrobat 20.5",
+        "Producer": "Adobe Acrobat 20.5 Image Conversion Plug-in",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2023/03/SJCSD-Transition-Services-Fair.pdf",
+      "md5": "11d19b589d6ba627faed00bd0a5a76ab",
+      "filename": "SJCSD-Transition-Services-Fair.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.959641+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-03-23 13:46:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Canva",
+        "Producer": "Adobe Acrobat Pro 2017 17 Paper Capture Plug-in",
+        "Pages": 1,
+        "Words": 184,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/supt/wp-content/uploads/sites/10/2017/02/SJVS-Fundraising-for-Chipotle-on-2.28.2017.pdf",
+      "md5": "1f0fe65bb366f60ddf2184e06513e5b0",
+      "filename": "SJVS-Fundraising-for-Chipotle-on-2.28.2017.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.962194+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-02-06 19:16:35+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": "DOMPDF",
+        "Producer": null,
+        "Pages": 1,
+        "Words": 124,
+        "Images": 6
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/supt/wp-content/uploads/sites/10/2017/02/SJVS-Fundraising-for-Panera-on-2.22.2017.pdf",
+      "md5": "ed5dbafe2591d743b519c769928da2eb",
+      "filename": "SJVS-Fundraising-for-Panera-on-2.22.2017.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.963614+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-02-06 19:17:21+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": "wkhtmltopdf",
+        "Pages": 1,
+        "Words": 108,
+        "Images": 1
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2016/12/Scholarship-FAQs.pdf",
+      "md5": "9d9c203b5f5f4fa1d5be95f8509ffddf",
+      "filename": "Scholarship-FAQs.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.965261+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2016-12-05 21:56:05+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 1,
+        "Words": 407,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/Scholarships-Guide-for-Students.pdf",
+      "md5": "c99c3fd2ab62dd8f1865ba7c5d78cb9d",
+      "filename": "Scholarships-Guide-for-Students.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.969192+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-05-27 03:44:43+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": "madbuild",
+        "Pages": 5,
+        "Words": 741,
+        "Images": 22
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/SecondaryHealthEdToolkit.pdf",
+      "md5": "4bb57e9d81e128819d6796b033dda2d4",
+      "filename": "SecondaryHealthEdToolkit.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.971203+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-08-27 19:53:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2010",
+        "Producer": "Microsoft\u00ae Word 2010",
+        "Pages": 11,
+        "Words": 2479,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/06/Signature-page-for-online-application-2021.pdf",
+      "md5": "416935ad849829da83478277ccc42249",
+      "filename": "Signature-page-for-online-application-2021.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.972664+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-05-10 21:04:40+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word 2019",
+        "Producer": "Microsoft\u00ae Word 2019",
+        "Pages": 1,
+        "Words": 658,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2023/03/Social-Studies-Adoption-2022-2023-Review-Selections-3.21.2023.pdf",
+      "md5": "c6786d625a9b58250443e2ced482e961",
+      "filename": "Social-Studies-Adoption-2022-2023-Review-Selections-3.21.2023.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.974504+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-03-29 10:13:48-04:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 86,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/StandardDiplomaRequirements.pdf",
+      "md5": "958c2f083d83bbdb36347942679185b0",
+      "filename": "StandardDiplomaRequirements.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.975944+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-08-28 19:20:46+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Word",
+        "Producer": "Acrobat PDFMaker 15 for Word",
+        "Pages": 2,
+        "Words": 1240,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/StandardDiplomaSpanish.pdf",
+      "md5": "b7cab5731ce7a37d687f1c9919073014",
+      "filename": "StandardDiplomaSpanish.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.978181+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-08-28 18:59:21+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 14.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 1426,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/06/Student-Withdrawal-2021.pdf",
+      "md5": "0e8d658384b0efe97a7254347b8bf77b",
+      "filename": "Student-Withdrawal-2021.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.979519+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-02-22 15:20:58+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.13.106",
+        "Pages": 1,
+        "Words": 119,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/05/Summer-Facility-Use-Flyer-2025.pdf",
+      "md5": "6c10ee7dfa71bb02abf997298a690398",
+      "filename": "Summer-Facility-Use-Flyer-2025.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.981207+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-05-22 11:32:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Publisher for Microsoft 365",
+        "Producer": "Microsoft\u00ae Publisher for Microsoft 365",
+        "Pages": 1,
+        "Words": 112,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2021/08/T4S-flyer-updated-8.21.pdf",
+      "md5": "90411f6abaebfeee72a4a1a45e54eeac",
+      "filename": "T4S-flyer-updated-8.21.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.982927+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-08-24 16:29:20+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Publisher for Microsoft 365",
+        "Producer": "Microsoft\u00ae Publisher for Microsoft 365",
+        "Pages": 1,
+        "Words": 431,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/03/Taste-of-the-Tech-2025-Flyer.pdf",
+      "md5": "38f69ee4f8b9c061ade1149cc105eefc",
+      "filename": "Taste-of-the-Tech-2025-Flyer.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.986685+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-03-10 19:41:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 117,
+        "Images": 18
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/sites/94/2015/07/Teacher-Change-Request-form.pdf",
+      "md5": "1862852da37780f9f47bc9c858b15619",
+      "filename": "Teacher-Change-Request-form.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.988193+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2016-06-30 18:47:09+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2013",
+        "Producer": "Microsoft\u00ae Word 2013",
+        "Pages": 1,
+        "Words": 185,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2016/06/Tips-for-Talking-With-Children-Cope-After-a-Disaster.pdf",
+      "md5": "85ab5eb5027a128ab6f883ef870f9925",
+      "filename": "Tips-for-Talking-With-Children-Cope-After-a-Disaster.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.989866+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-08-27 19:55:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CS6 (Macintosh)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 4,
+        "Words": 1897,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Tips-for-Teens-Alcohol-Prevention.pdf",
+      "md5": "ea1990e81e6689e0e4c909a339a8e425",
+      "filename": "Tips-for-Teens-Alcohol-Prevention.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.991207+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-03-26 23:14:10+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 16.1 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 929,
+        "Images": 3
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Tips-for-Teens-Marijuana-Prevention.pdf",
+      "md5": "175c6d41417ccde6151d37804ecc33b1",
+      "filename": "Tips-for-Teens-Marijuana-Prevention.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.992551+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-03-13 14:14:11+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 877,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Tips-for-Teens-The-Truth-About-E-Cigarettes.pdf",
+      "md5": "7eb1379fd9f7b80d9ccbc90aae7a4d89",
+      "filename": "Tips-for-Teens-The-Truth-About-E-Cigarettes.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.993893+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-03-13 22:58:07+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 850,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Tips-for-Teens-Tobacco-Prevention.pdf",
+      "md5": "5262d3c9ca4ac817a590acf3ba83cac8",
+      "filename": "Tips-for-Teens-Tobacco-Prevention.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.995244+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-03-14 17:47:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CC 14.0 (Windows)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 2,
+        "Words": 943,
+        "Images": 2
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/purchasing/wp-content/uploads/sites/30/2026/02/Vendor-Performance-Report-11.6.25-Fillable.pdf",
+      "md5": "cb83911db8f52b705a1306684ef5e046",
+      "filename": "Vendor-Performance-Report-11.6.25-Fillable.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.997626+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-23 17:45:46+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 17 for Excel",
+        "Producer": "Adobe PDF Library 17.11.238",
+        "Pages": 1,
+        "Words": 144,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/student/wp-content/uploads/sites/21/2023/01/Verification-of-Residence-revised-1-1-2023.pdf",
+      "md5": "5d74c16d2bf90ab0a7791d37d9770091",
+      "filename": "Verification-of-Residence-revised-1-1-2023.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:18.999159+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-04-20 17:44:38+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 2,
+        "Words": 768,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/student/wp-content/uploads/sites/21/2022/10/Water-Safety-1.pdf",
+      "md5": "c08ae998361e09057b5f1f64b3cfce10",
+      "filename": "Water-Safety-1.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:19.000606+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-10-12 16:00:54+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 517,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2023/08/Whole-Grade-Acceleration-Parent-Letter.pdf",
+      "md5": "55bb0e95381472f05eac39b8e7b9023c",
+      "filename": "Whole-Grade-Acceleration-Parent-Letter.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:19.001839+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-07-19 16:11:12+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "BOE-KMB458E-325",
+        "Producer": "KONICA MINOLTA bizhub 458e",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 14
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/Xello-Common-App-Student-Guide.pdf",
+      "md5": "7409b3e238345ce3dda3b9e393c81e22",
+      "filename": "Xello-Common-App-Student-Guide.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:19.005467+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-07-17 16:01:30+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": "madbuild",
+        "Pages": 3,
+        "Words": 685,
+        "Images": 13
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/Xello-Parent-Resources.pdf",
+      "md5": "32f1293819fc4e05a2933b5f0147115e",
+      "filename": "Xello-Parent-Resources.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:19.007041+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-02 11:04:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 20 for Word",
+        "Producer": "Adobe PDF Library 20.5.191",
+        "Pages": 5,
+        "Words": 3,
+        "Images": 5
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/wp-content/uploads/2025/03/ese-pac-flyer-4-2-2025.pdf",
+      "md5": "6c58a21d03ef370389ef171c1006551e",
+      "filename": "ese-pac-flyer-4-2-2025.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:19.008565+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-03-13 12:24:53+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 131,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/lafs.pdf",
+      "md5": "703b043529399618ae06d09a17152361",
+      "filename": "lafs.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:19.012297+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-01-22 18:19:37+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Office Word 2007",
+        "Producer": "Microsoft\u00ae Office Word 2007",
+        "Pages": 95,
+        "Words": 32981,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/mafs.pdf",
+      "md5": "b5ad02e8b161d38e2c7d37ef5035b4c3",
+      "filename": "mafs.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:19.015514+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-01-22 18:16:52+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 10.0 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 88,
+        "Words": 35239,
+        "Images": 28
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/smart-social-networking.pdf",
+      "md5": "445930955a3535b84575b83cf12525f4",
+      "filename": "smart-social-networking.pdf",
+      "site": "stjohns.k12.fl.us",
+      "crawled_at": "2026-03-31T13:03:19.021919+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-09-12 17:44:45+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Publisher 2016",
+        "Producer": "Microsoft\u00ae Publisher 2016",
+        "Pages": 2,
+        "Words": 39,
+        "Images": 197
+      },
+      "errors": [
+        "title, "
+      ]
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
+      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        var extDomain = '';
+        try {
+          var pdfHost = new URL(f.url).hostname.replace(/^www\./, '');
+          var seed = (f.site || '').replace(/^www\./, '');
+          if (pdfHost && seed && pdfHost !== seed && !pdfHost.endsWith('.' + seed)) {
+            extDomain = pdfHost;
+          }
+        } catch (e) {}
+        var siteCell = esc(f.site || '');
+        if (extDomain) {
+          siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
+        }
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        var colDefs = [
+          { key: 'file',       label: 'File' },
+          { key: 'site',       label: 'Site' },
+          { key: 'date',       label: 'Published Date' },
+          { key: 'accessible', label: 'Accessible' },
+          { key: 'tagged',     label: 'Tagged' },
+          { key: 'title',      label: 'Title' },
+          { key: 'language',   label: 'Language' },
+          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'pages',      label: 'Pages' },
+        ];
+        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
+        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>
