@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-31T12:49:11.221241+00:00",
+    "site": "middltowncityschools.com",
+    "crawl_url": "https://middltowncityschools.com",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23798079548",
+    "issue_url": "",
+    "archive_file": "2026-03-31_12-49-11-221_middltowncityschools.com.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-31T12:48:00.668789+00:00",
     "site": "fairfieldschools.org",
     "crawl_url": "https://fairfieldschools.org",
