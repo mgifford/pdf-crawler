@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-31T13:06:58.205187+00:00
+Generated: 2026-03-31T13:54:44.119187+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 76 |
-| Total files tracked | 18932 |
-| Analysed | 5303 |
+| URLs crawled | 280 |
+| Total files tracked | 19102 |
+| Analysed | 5473 |
 | Pending analysis | 10219 |
 | Errors during analysis | 3410 |
-| Accessible | 1728 |
-| Totally inaccessible | 191 |
+| Accessible | 1737 |
+| Totally inaccessible | 234 |
 | Broken / unreadable | 5 |
-| Exempt (pre-2018) | 1233 |
+| Exempt (pre-2018) | 1362 |
 
 ## Files per Site
 
@@ -53,6 +53,7 @@ Generated: 2026-03-31T13:06:58.205187+00:00
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
+| middletowncityschools.com | 170 |
 | mn.gov | 1397 |
 | mtnboces.org | 32 |
 | ncert.nic.in | 329 |
@@ -5385,6 +5386,176 @@ Generated: 2026-03-31T13:06:58.205187+00:00
 | [Questions%20Responses.pdf](https://www.ecboces.org/pluginfile.php/30108/mod_resource/content/1/Questions%20Responses.pdf) | ecboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 432 | 0 |
 | [Transition%20Fair%20Fall%202016%20Flyer%20English-Spanish.pdf](https://www.ecboces.org/pluginfile.php/2619/mod_resource/content/1/Transition%20Fair%20Fall%202016%20Flyer%20English-Spanish.pdf) | ecboces.org | 2016-08-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 536 | 2 |
 | [Vocabulary%20Instruction%20Template.pdf](https://www.ecboces.org/pluginfile.php/40153/mod_resource/content/1/Vocabulary%20Instruction%20Template.pdf) | ecboces.org | 2022-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 90 | 0 |
+| [11th%20Grade%20Immunization%20Letter.pdf](https://www.middletowncityschools.com/media/user/resources/11th%20Grade%20Immunization%20Letter.pdf) | middletowncityschools.com | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 242 | 1 |
+| [2020-21%20-%20K-12%20-%20Ohio%20-%20Voluntary%20-%20GP-2020-OH.pdf](https://www.middletowncityschools.com/media/user/resources/2020-21%20-%20K-12%20-%20Ohio%20-%20Voluntary%20-%20GP-2020-OH.pdf) | middletowncityschools.com | 2020-05-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 24 | 10934 | 20 |
+| [20240611_HowtoSignupfortheMyRideK-12App%20Completed.pdf](https://www.middletowncityschools.com/media/user/resources/20240611_HowtoSignupfortheMyRideK-12App%20Completed.pdf) | middletowncityschools.com | 2024-09-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 236 | 33 |
+| [21-22%20COVID%20Quarantine%20Guidelines%208-9-21%20Merged.pdf](https://www.middletowncityschools.com/media/user/news/21-22%20COVID%20Quarantine%20Guidelines%208-9-21%20Merged.pdf) | middletowncityschools.com | 2021-08-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 905 | 2 |
+| [6th%20Grade%20Immunization%20Letter.pdf](https://www.middletowncityschools.com/media/user/resources/6th%20Grade%20Immunization%20Letter.pdf) | middletowncityschools.com | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 225 | 1 |
+| [Administration%20of%20Medication%20Form%205-16%20(2).doc.pdf](https://www.middletowncityschools.com/media/user/departments/Administration%20of%20Medication%20Form%205-16%20(2).doc.pdf) | middletowncityschools.com | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 421 | 3 |
+| [AsthmaInhalerAuthorizationForm.pdf](https://www.middletowncityschools.com/media/user/departments/AsthmaInhalerAuthorizationForm.pdf) | middletowncityschools.com | 2007-03-15 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 222 | 0 |
+| [Breakfast%20Notification%202022-2023.pdf](https://www.middletowncityschools.com/media/user/departments/Breakfast%20Notification%202022-2023.pdf) | middletowncityschools.com | 2022-08-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 32 | 1 |
+| [Calendar%202021-2022_Board-0.pdf](https://www.middletowncityschools.com/media/user/news/Calendar%202021-2022_Board.pdf) | middletowncityschools.com | 2021-03-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 557 | 4 |
+| [Calendar%202021-2022_Board.pdf](https://www.middletowncityschools.com/media/user/calendars/Calendar%202021-2022_Board.pdf) | middletowncityschools.com | 2021-03-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 557 | 4 |
+| [Catering%20Brochure%20(5).pdf](https://www.middletowncityschools.com/media/user/resources/Catering%20Brochure%20(5).pdf) | middletowncityschools.com | 2024-09-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 431 | 14 |
+| [EarlyEntranceIntoKinder.pdf](https://www.middletowncityschools.com/media/user/departments/EarlyEntranceIntoKinder.pdf) | middletowncityschools.com | 2022-04-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1915 | 15 |
+| [EpinephrineAutoinjectorAuthorization.pdf](https://www.middletowncityschools.com/media/user/departments/EpinephrineAutoinjectorAuthorization.pdf) | middletowncityschools.com | 2018-06-28 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 0 |
+| [Form_Grade10_CareerAssessments.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade10_CareerAssessments.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 988 | 5 |
+| [Form_Grade10_PlanningForFuture.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade10_PlanningForFuture.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 112 | 16 |
+| [Form_Grade10_PostSecondaryEducation.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade10_PostSecondaryEducation.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 2188 | 0 |
+| [Form_Grade11_AgencyQuestionnaire.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade11_AgencyQuestionnaire.pdf) | middletowncityschools.com | 2013-10-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 120 | 0 |
+| [Form_Grade11_AmIReadyToLiveOnMyOwn.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade11_AmIReadyToLiveOnMyOwn.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 906 | 0 |
+| [Form_Grade11_ImportantDocumentsToKeep.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade11_ImportantDocumentsToKeep.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 408 | 0 |
+| [Form_Grade11_ItsYourLife.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade11_ItsYourLife.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 394 | 0 |
+| [Form_Grade11_PocketResume.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade11_PocketResume.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 477 | 0 |
+| [Form_Grade11_TransportationNeeds.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade11_TransportationNeeds.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 207 | 0 |
+| [Form_Grade12_CollegeInterviewPrep.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade12_CollegeInterviewPrep.pdf) | middletowncityschools.com | 2013-12-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 333 | 0 |
+| [Form_Grade12_QuestionsBeforeGraduation.pdf](https://www.middletowncityschools.com/media/user/departments/Form_Grade12_QuestionsBeforeGraduation.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 98 | 0 |
+| [Form_Grade12_StudentParentTransitionChecklist.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade12_StudentParentTransitionChecklist.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 364 | 3 |
+| [Form_Grade8_LearningStyle.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade8_LearningStyle.pdf) | middletowncityschools.com | 2013-10-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 657 | 0 |
+| [Form_Grade8_ThisIsHowISeeMyself.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade8_ThisIsHowISeeMyself.pdf) | middletowncityschools.com | 2013-10-09 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Grade9_AssessingMultipleIntelligences.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade9_AssessingMultipleIntelligences.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Grade9_CareerPortfolio.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade9_CareerPortfolio.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Grade9_ClassCredit.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade9_ClassCredit.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 75 | 0 |
+| [Form_Grade9_SelfDetermination.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Grade9_SelfDetermination.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_HR_Athletics_EmergencyContactAndMedical.pdf](https://www.middletowncityschools.com/media/user/resources/Form_HR_Athletics_EmergencyContactAndMedical.pdf) | middletowncityschools.com | 2016-01-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 259 | 1 |
+| [Form_StudentServices_SpecialEd_IEPChecklist.pdf](https://www.middletowncityschools.com/media/user/departments/Form_StudentServices_SpecialEd_IEPChecklist.pdf) | middletowncityschools.com | 2011-07-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 435 | 2 |
+| [Form_StudentServices_SpecialEd_LearningDisabilitiesChecklist.pdf](https://www.middletowncityschools.com/media/user/departments/Form_StudentServices_SpecialEd_LearningDisabilitiesChecklist.pdf) | middletowncityschools.com | 2011-04-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 1913 | 12 |
+| [Form_Transition_Employment_CareerCluster.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_CareerCluster.pdf) | middletowncityschools.com | 2008-06-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 | 0 | 16 |
+| [Form_Transition_Employment_CareerCluster_Spanish.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_CareerCluster_Spanish.pdf) | middletowncityschools.com | 2007-09-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 2058 | 0 |
+| [Form_Transition_Employment_CareerEducation.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_CareerEducation.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Transition_Employment_CareerPortfolio.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_CareerPortfolio.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_Employment_JobPrep.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_JobPrep.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Transition_Employment_WorkPersonality.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_WorkPersonality.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Transition_General_BuildingYourFuture.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_General_BuildingYourFuture.pdf) | middletowncityschools.com | 2013-10-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 234 | 2 |
+| [Form_Transition_General_CollegePrep.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_General_CollegePrep.pdf) | middletowncityschools.com | 2013-10-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 870 | 0 |
+| [Form_Transition_General_DevelopingAVision.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_General_DevelopingAVision.pdf) | middletowncityschools.com | 2013-10-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 76 | 0 |
+| [Form_Transition_Independent_AIRSelfDetermination_Parents.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_AIRSelfDetermination_Parents.pdf) | middletowncityschools.com | 2006-01-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 | 1541 | 0 |
+| [Form_Transition_Independent_AIRSelfDetermination_Students.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_AIRSelfDetermination_Students.pdf) | middletowncityschools.com | 2007-02-15 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 | 1719 | 0 |
+| [Form_Transition_Independent_AmIReady.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_AmIReady.pdf) | middletowncityschools.com | 2009-10-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 906 | 0 |
+| [Form_Transition_Independent_FinancialSkills.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_FinancialSkills.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Transition_Independent_HealthcareAssessment.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_HealthcareAssessment.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 0 | 4 |
+| [Form_Transition_Independent_InterpersonalRelationship.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_InterpersonalRelationship.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_Independent_ItsYourLife.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_ItsYourLife.pdf) | middletowncityschools.com | 2009-10-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 394 | 0 |
+| [Form_Transition_Independent_ParentsOfTeenagers.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_ParentsOfTeenagers.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 0 | 4 |
+| [Form_Transition_Independent_PlanningForLivingIndependently.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_PlanningForLivingIndependently.pdf) | middletowncityschools.com | 2010-02-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1032 | 0 |
+| [Form_Transition_Independent_SchoolAndCommunitySocialSkills.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_SchoolAndCommunitySocialSkills.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 0 | 4 |
+| [Form_Transition_Independent_SelfDetermination.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_SelfDetermination.pdf) | middletowncityschools.com | 2008-12-30 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 13 | 3780 | 0 |
+| [Form_Transition_Independent_SelfDeterminationAndAdvocacy.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_SelfDeterminationAndAdvocacy.pdf) | middletowncityschools.com | 2007-08-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_Independent_SocialSkills.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_SocialSkills.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Transition_Independent_TransportationNeeds.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_TransportationNeeds.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_PET_AssessingMyMultipleIntelligences.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_AssessingMyMultipleIntelligences.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Transition_PET_ReadingStylePreferences.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_ReadingStylePreferences.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_PET_StudySkillys%20(1).pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_StudySkillys%20(1).pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 0 | 3 |
+| [Form_Transition_PET_WWWSelfAssessment%20(1).pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_WWWSelfAssessment%20(1).pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_PET_WritingSelfAssessment.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_WritingSelfAssessment.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_PINS_HowISeeMyself.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_HowISeeMyself.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Transition_PINS_JobInterests.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_JobInterests.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 0 | 2 |
+| [Form_Transition_PINS_LikesDislikes.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_LikesDislikes.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_PINS_PersonalSkills.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_PersonalSkills.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_PINS_Satisfaction.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_Satisfaction.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_PINS_Strengths.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_Strengths.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_PINS_ValuesInventory.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_ValuesInventory.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 0 | 4 |
+| [Form_Transition_PINS_WhatsInYourBag.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_WhatsInYourBag.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Form_Transition_PINS_WhoAmI.pdf](https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_WhoAmI.pdf) | middletowncityschools.com | 2010-11-11 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 1 |
+| [Handbook_GATE.pdf](https://www.middletowncityschools.com/media/user/resources/Handbook_GATE.pdf) | middletowncityschools.com | 2015-01-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 7 | 1365 | 47 |
+| [Implementing%20Title%20IXs%20New%20Regulations%20-%20Title%20IX%20Training%20-%20FBT.pdf](https://www.middletowncityschools.com/media/user/about-us/Implementing%20Title%20IXs%20New%20Regulations%20-%20Title%20IX%20Training%20-%20FBT.pdf) | middletowncityschools.com | 2020-08-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 49 | 3449 | 125 |
+| [Information_Finance_CAFR_2014.pdf](https://www.middletowncityschools.com/media/user/departments/Information_Finance_CAFR_2014.pdf) | middletowncityschools.com | 2014-12-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 143 | 30422 | 45 |
+| [Information_Finance_CAFR_2015.pdf](https://www.middletowncityschools.com/media/user/departments/Information_Finance_CAFR_2015.pdf) | middletowncityschools.com | 2015-12-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 165 | 31062 | 101 |
+| [Information_Finance_CAFR_2016.pdf](https://www.middletowncityschools.com/media/user/departments/Information_Finance_CAFR_2016.pdf) | middletowncityschools.com | 2017-10-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 178 | 52992 | 38 |
+| [Information_Finance_CAFR_2017.pdf](https://www.middletowncityschools.com/media/user/departments/Information_Finance_CAFR_2017.pdf) | middletowncityschools.com | 2017-12-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 176 | 52782 | 32 |
+| [Information_Finance_TaxBudget_2015.pdf](https://www.middletowncityschools.com/media/user/departments/Information_Finance_TaxBudget_2015.pdf) | middletowncityschools.com | 2015-01-06 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 0 | 12 |
+| [Information_Finance_TaxBudget_2016.pdf](https://www.middletowncityschools.com/media/user/departments/Information_Finance_TaxBudget_2016.pdf) | middletowncityschools.com | 2015-12-31 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 16 | 2933 | 7 |
+| [Information_Finance_TaxBudget_2017.pdf](https://www.middletowncityschools.com/media/user/departments/Information_Finance_TaxBudget_2017.pdf) | middletowncityschools.com | 2017-01-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 16 | 2986 | 7 |
+| [Information_Finance_TaxBudget_2018.pdf](https://www.middletowncityschools.com/media/user/departments/Information_Finance_TaxBudget_2018.pdf) | middletowncityschools.com | 2018-01-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 16 | 3088 | 7 |
+| [Information_GATE_BoardPolicy.pdf](https://www.middletowncityschools.com/media/user/resources/Information_GATE_BoardPolicy.pdf) | middletowncityschools.com | 2015-01-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 501 | 2 |
+| [Information_GATE_Brochure.pdf](https://www.middletowncityschools.com/media/user/resources/Information_GATE_Brochure.pdf) | middletowncityschools.com | 2016-01-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 1106 | 3 |
+| [Information_Grade10_EverythingYouNeedToKnow.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade10_EverythingYouNeedToKnow.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 | 3477 | 0 |
+| [Information_Grade10_WhatAreEmployabilitySkills.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade10_WhatAreEmployabilitySkills.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1508 | 2 |
+| [Information_Grade11_12CollegeFinancialAid.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_12CollegeFinancialAid.pdf) | middletowncityschools.com | 2013-10-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 963 | 1 |
+| [Information_Grade11_AgeOfMajority.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_AgeOfMajority.pdf) | middletowncityschools.com | 2013-12-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 604 | 15 |
+| [Information_Grade11_AgenciesThatCanHelp.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_AgenciesThatCanHelp.pdf) | middletowncityschools.com | 2013-10-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 359 | 3 |
+| [Information_Grade11_AgencyInformation.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_AgencyInformation.pdf) | middletowncityschools.com | 2013-11-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 1172 | 5 |
+| [Information_Grade11_AreYouReadyForCollege.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_AreYouReadyForCollege.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 0 | 4 |
+| [Information_Grade11_EverythingYouNeedToKnow.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_EverythingYouNeedToKnow.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 | 3477 | 0 |
+| [Information_Grade11_HowIsCollegeDifferent.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_HowIsCollegeDifferent.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1305 | 0 |
+| [Information_Grade11_InterviewingSkills.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_InterviewingSkills.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 916 | 1 |
+| [Information_Grade11_ProjectSearch_Life101.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_ProjectSearch_Life101.pdf) | middletowncityschools.com | 2013-10-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 410 | 8 |
+| [Information_Grade11_ProjectSearch_Life201.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_ProjectSearch_Life201.pdf) | middletowncityschools.com | 2013-09-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 392 | 9 |
+| [Information_Grade11_ProjectSearch_Year1.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_ProjectSearch_Year1.pdf) | middletowncityschools.com | 2013-09-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 371 | 8 |
+| [Information_Grade11_QuestionsAboutGuardianshio.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_QuestionsAboutGuardianshio.pdf) | middletowncityschools.com | 2013-10-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 670 | 2 |
+| [Information_Grade11_SelectingACollege.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_SelectingACollege.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 892 | 4 |
+| [Information_Grade11_WhatStudentsNeedToKnow.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade11_WhatStudentsNeedToKnow.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 265 | 0 |
+| [Information_Grade12_AdultsWithDisabilities.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade12_AdultsWithDisabilities.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1232 | 5 |
+| [Information_Grade12_SocialActivitiesForTeensWithDisabilities.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade12_SocialActivitiesForTeensWithDisabilities.pdf) | middletowncityschools.com | 2013-12-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 341 | 0 |
+| [Information_Grade8_CareerTrainingBeginsInHome.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade8_CareerTrainingBeginsInHome.pdf) | middletowncityschools.com | 2013-12-05 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 | 0 | 7 |
+| [Information_Grade8_LearningStyle.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade8_LearningStyle.pdf) | middletowncityschools.com | 2013-10-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 340 | 0 |
+| [Information_Grade9_EmployabilitySkills.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade9_EmployabilitySkills.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1508 | 2 |
+| [Information_Grade9_PreparingYourChild.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Grade9_PreparingYourChild.pdf) | middletowncityschools.com | 2013-10-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 447 | 0 |
+| [Information_HR_Athletics_OhioEhtics_Policy.pdf](https://www.middletowncityschools.com/media/user/resources/Information_HR_Athletics_OhioEhtics_Policy.pdf) | middletowncityschools.com | 2015-05-08 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 26 | 0 | 26 |
+| [Information_HR_Board_EmergencyLeave%20(1).pdf](https://www.middletowncityschools.com/media/user/departments/Information_HR_Board_EmergencyLeave%20(1).pdf) | middletowncityschools.com | 2015-06-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 974 | 1 |
+| [Information_HR_Outsourced_OhioEthics_Policy%20(1).pdf](https://www.middletowncityschools.com/media/user/departments/Information_HR_Outsourced_OhioEthics_Policy%20(1).pdf) | middletowncityschools.com | 2015-05-08 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 26 | 0 | 26 |
+| [Information_HR_Outsourced_SexualHarassmentPolicy%20(1).pdf](https://www.middletowncityschools.com/media/user/departments/Information_HR_Outsourced_SexualHarassmentPolicy%20(1).pdf) | middletowncityschools.com | 2015-05-11 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 | 1361 | 1 |
+| [Information_HR_Support_AcceptableUse.pdf](https://www.middletowncityschools.com/media/user/departments/Information_HR_Support_AcceptableUse.pdf) | middletowncityschools.com | 2014-03-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 7 | 2293 | 0 |
+| [Information_StudentServices_SpecialEd_50QuestionsAboutLD.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_50QuestionsAboutLD.pdf) | middletowncityschools.com | 2013-01-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 41 | 12673 | 75 |
+| [Information_StudentServices_SpecialEd_ADHD.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_ADHD.pdf) | middletowncityschools.com | 2008-11-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 28 | 7092 | 17 |
+| [Information_StudentServices_SpecialEd_AlphabetSoup.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AlphabetSoup.pdf) | middletowncityschools.com | 2004-11-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 12 | 2256 | 138 |
+| [Information_StudentServices_SpecialEd_AnnotateETR.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AnnotateETR.pdf) | middletowncityschools.com | 2009-02-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 18 | 9722 | 25 |
+| [Information_StudentServices_SpecialEd_AutismBrighterFuture.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AutismBrighterFuture.pdf) | middletowncityschools.com | 2004-05-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 105 | 50029 | 108 |
+| [Information_StudentServices_SpecialEd_AutismSpeaks100Days.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AutismSpeaks100Days.pdf) | middletowncityschools.com | 2010-03-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 99 | 37118 | 183 |
+| [Information_StudentServices_SpecialEd_AutismSpeaksTransitionToolkit.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AutismSpeaksTransitionToolkit.pdf) | middletowncityschools.com | 2011-02-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 118 | 37790 | 317 |
+| [Information_StudentServices_SpecialEd_BehaviorLearningDisabilities.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_BehaviorLearningDisabilities.pdf) | middletowncityschools.com | 2011-03-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 14 | 5830 | 1 |
+| [Information_StudentServices_SpecialEd_BipolarDisorder.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_BipolarDisorder.pdf) | middletowncityschools.com | 2012-12-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 28 | 7038 | 16 |
+| [Information_StudentServices_SpecialEd_Dyslexia101.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_Dyslexia101.pdf) | middletowncityschools.com | 2012-10-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 43 | 10422 | 73 |
+| [Information_StudentServices_SpecialEd_ExecFunction.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_ExecFunction.pdf) | middletowncityschools.com | 2013-10-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 28 | 8976 | 8 |
+| [Information_StudentServices_SpecialEd_NegotiationSkills.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_NegotiationSkills.pdf) | middletowncityschools.com | 2004-11-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 27 | 9100 | 0 |
+| [Information_StudentServices_SpecialEd_OpeningDoors-0.pdf](https://www.middletowncityschools.com/media/user/resources/Information_StudentServices_SpecialEd_OpeningDoors.pdf) | middletowncityschools.com | 2006-12-15 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 | 3475 | 6 |
+| [Information_StudentServices_SpecialEd_OpeningDoors.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_OpeningDoors.pdf) | middletowncityschools.com | 2006-12-15 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 8 | 3475 | 6 |
+| [Information_StudentServices_SpecialEd_OperatingStandards.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_OperatingStandards.pdf) | middletowncityschools.com | 2008-08-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 205 | 63725 | 6 |
+| [Information_StudentServices_SpecialEd_PTSD.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_PTSD.pdf) | middletowncityschools.com | 2008-12-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 18 | 4369 | 13 |
+| [Information_StudentServices_SpecialEd_ParentGuideAutism.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_ParentGuideAutism.pdf) | middletowncityschools.com | 2011-10-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 27 | 10071 | 5 |
+| [Information_StudentServices_SpecialEd_StudentsWithTraumaticBrainInjury.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_StudentsWithTraumaticBrainInjury.pdf) | middletowncityschools.com | 2005-12-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 117 | 27954 | 2 |
+| [Information_StudentServices_SpecialEd_UnderstandingStandardIEPs.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_UnderstandingStandardIEPs.pdf) | middletowncityschools.com | 2008-04-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 11 | 4959 | 14 |
+| [Information_StudentServices_SpecialEd_UnderstandingTheProcess.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_UnderstandingTheProcess.pdf) | middletowncityschools.com | 2007-09-12 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1158 | 1 |
+| [Information_StudentServices_WhoseIdeaIsThis_Spanish.pdf](https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_WhoseIdeaIsThis_Spanish.pdf) | middletowncityschools.com | 2010-09-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 90 | 43000 | 5 |
+| [Information_Transition_FAQs.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_FAQs.pdf) | middletowncityschools.com | 2012-09-19 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 1054 | 2 |
+| [Information_Transition_General_CourseOfStudy.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_CourseOfStudy.pdf) | middletowncityschools.com | 2013-10-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 417 | 1 |
+| [Information_Transition_General_PlanningForEducation.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_PlanningForEducation.pdf) | middletowncityschools.com | 2013-10-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1032 | 0 |
+| [Information_Transition_General_PlanningForFuture.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_PlanningForFuture.pdf) | middletowncityschools.com | 2013-10-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 296 | 1 |
+| [Information_Transition_General_TermsAndDefinitionsFuturePlanning.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_TermsAndDefinitionsFuturePlanning.pdf) | middletowncityschools.com | 2013-10-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 335 | 0 |
+| [Information_Transition_General_TheTransitionalPlan.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_TheTransitionalPlan.pdf) | middletowncityschools.com | 2013-10-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 94 | 21 |
+| [Information_Transition_General_TransitionActivities.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_TransitionActivities.pdf) | middletowncityschools.com | 2013-10-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 644 | 0 |
+| [Information_Transition_General_TransitionTimelines.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_TransitionTimelines.pdf) | middletowncityschools.com | 2013-09-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 518 | 0 |
+| [Information_Transition_General_WhyAssessment.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_WhyAssessment.pdf) | middletowncityschools.com | 2013-10-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 575 | 4 |
+| [Information_Transition_Timelines.pdf](https://www.middletowncityschools.com/media/user/resources/Information_Transition_Timelines.pdf) | middletowncityschools.com | 2013-09-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 518 | 0 |
+| [June%202025%20MMM%20menu.pdf](https://www.middletowncityschools.com/media/user/resources/June%202025%20MMM%20menu.pdf) | middletowncityschools.com | 2025-05-28 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Letter%20to%20Parent%20(1).pdf](https://www.middletowncityschools.com/media/user/resources/Letter%20to%20Parent%20(1).pdf) | middletowncityschools.com | 2025-07-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 484 | 2 |
+| [MCSD%202025%20May%20Financial%20Forecast%20with%20Assumptions%20Final.pdf](https://www.middletowncityschools.com/media/user/resources/MCSD%202025%20May%20Financial%20Forecast%20with%20Assumptions%20Final.pdf) | middletowncityschools.com | 2025-05-30 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 26 | 0 | 26 |
+| [MCSD%205-Year%20Forecast%20-%20November%202022.pdf](https://www.middletowncityschools.com/media/user/departments/MCSD%205-Year%20Forecast%20-%20November%202022.pdf) | middletowncityschools.com | 2022-11-18 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [MCSD%205-Year%20Forecast%20Assumptions%20-%20November%202022.pdf](https://www.middletowncityschools.com/media/user/departments/MCSD%205-Year%20Forecast%20Assumptions%20-%20November%202022.pdf) | middletowncityschools.com | 2022-11-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 23 | 7005 | 0 |
+| [MCSD%205-Year%20Forecast%20Presentation%20-%20November%202022.pdf](https://www.middletowncityschools.com/media/user/departments/MCSD%205-Year%20Forecast%20Presentation%20-%20November%202022.pdf) | middletowncityschools.com | 2022-11-18 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 10 | 0 | 10 |
+| [MCSD-BOE-Policy.pdf](https://www.middletowncityschools.com/media/user/about-us/MCSD-BOE-Policy.pdf) | middletowncityschools.com | 2020-08-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 11 | 4159 | 0 |
+| [MMM.pdf](https://www.middletowncityschools.com/media/user/news/MMM.pdf) | middletowncityschools.com | 2022-06-30 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 223 | 1 |
+| [Middie%20Meal%20Machine%20JULY25%20Menu.pdf](https://www.middletowncityschools.com/media/user/resources/Middie%20Meal%20Machine%20JULY25%20Menu.pdf) | middletowncityschools.com | 2025-06-19 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Middie%20Meal%20Machine-M-F.pdf](https://www.middletowncityschools.com/media/user/news/Middie%20Meal%20Machine-M-F.pdf) | middletowncityschools.com | 2022-06-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 236 | 1 |
+| [My%20Ride%20K-12%20Parent%20User%20Guide%20Flyer.pdf](https://www.middletowncityschools.com/media/user/resources/My%20Ride%20K-12%20Parent%20User%20Guide%20Flyer.pdf) | middletowncityschools.com | 2024-02-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 587 | 5 |
+| [Nov.%202024%20K-5%20instructions%20page.pdf](https://www.middletowncityschools.com/media/user/resources/Nov.%202024%20K-5%20instructions%20page.pdf) | middletowncityschools.com | 2024-10-21 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 88 | 2 |
+| [Nov.%202024%20Personalized%20Learning%20Choice%20Board.pdf](https://www.middletowncityschools.com/media/user/resources/Nov.%202024%20Personalized%20Learning%20Choice%20Board.pdf) | middletowncityschools.com | 2024-10-21 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 272 | 8 |
+| [Nov.%202024%20SPANISH%20Personalized%20Learning%20Choice%20Board.pdf](https://www.middletowncityschools.com/media/user/resources/Nov.%202024%20SPANISH%20Personalized%20Learning%20Choice%20Board.pdf) | middletowncityschools.com | 2024-10-21 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 299 | 8 |
+| [Parent%20and%20Community%20Policy%202023-2024.pdf](https://www.middletowncityschools.com/media/user/resources/Parent%20and%20Community%20Policy%202023-2024.pdf) | middletowncityschools.com | 2024-04-22 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Pfizer%205%20though%2011%20Fact%20Sheet%20for%20Recipients-COVID-19%20Vaccine%20Final.pdf](https://www.middletowncityschools.com/media/user/news/Pfizer%205%20though%2011%20Fact%20Sheet%20for%20Recipients-COVID-19%20Vaccine%20Final.pdf) | middletowncityschools.com | 2021-10-29 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2135 | 5 |
+| [ProgressBook%20App-Spanish%20for%20our%20web%20Page%201-7-2022.pdf](https://www.middletowncityschools.com/media/user/news/ProgressBook%20App-Spanish%20for%20our%20web%20Page%201-7-2022.pdf) | middletowncityschools.com | 2022-01-07 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 360 | 1 |
+| [Rosa%20Parks%202023-2024%20Handbook.pdf](https://www.middletowncityschools.com/media/user/resources/Rosa%20Parks%202023-2024%20Handbook.pdf) | middletowncityschools.com | 2024-01-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 34 | 10868 | 11 |
+| [SUMMER%20CAMPS.pdf](https://www.middletowncityschools.com/media/user/news/SUMMER%20CAMPS.pdf) | middletowncityschools.com | 2021-03-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 421 | 4 |
+| [Spanish-MyRideK-12App.pdf](https://www.middletowncityschools.com/media/user/resources/Spanish-MyRideK-12App.pdf) | middletowncityschools.com | 2024-09-06 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 265 | 17 |
+| [State%20Test%20Result%20Parent%20Letter%20Notification%20(For%20June%2030th%20deadline).pdf](https://www.middletowncityschools.com/media/user/resources/State%20Test%20Result%20Parent%20Letter%20Notification%20(For%20June%2030th%20deadline).pdf) | middletowncityschools.com | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 739 | 4 |
+| [Student%20Transportation%20My%20Ride%20K-12%20Parent%20User%20Guide%20Spanish%20Flyer%204%20(1).pdf](https://www.middletowncityschools.com/media/user/resources/Student%20Transportation%20My%20Ride%20K-12%20Parent%20User%20Guide%20Spanish%20Flyer%204%20(1).pdf) | middletowncityschools.com | 2023-06-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 684 | 6 |
+| [Title%20I%20Definition-docx.pdf](https://www.middletowncityschools.com/media/user/rosa-parks-elementary/Title%20I%20Definition-docx.pdf) | middletowncityschools.com | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 1114 | 0 |
+| [Title%20IX%20Training%20Ennis%20Britton%20080620%20-%20All%20revisions%201.pdf](https://www.middletowncityschools.com/media/user/about-us/Title%20IX%20Training%20Ennis%20Britton%20080620%20-%20All%20revisions%201.pdf) | middletowncityschools.com | 2020-08-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 99 | 6633 | 106 |
+| [Title%20l%20Programs.pdf](https://www.middletowncityschools.com/media/user/rosa-parks-elementary/Title%20l%20Programs.pdf) | middletowncityschools.com | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [Vision%20conservation%20program-ashx.pdf](https://www.middletowncityschools.com/media/user/resources/Vision%20conservation%20program-ashx.pdf) | middletowncityschools.com | 2007-11-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 43 | 11508 | 13 |
+| [W4_2021.pdf](https://www.middletowncityschools.com/media/user/resources/W4_2021.pdf) | middletowncityschools.com | 2020-12-31 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 3722 | 1 |
+| [_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf](https://www.middletowncityschools.com/media/user/resources/_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf) | middletowncityschools.com | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 447 | 0 |
+| [sBHC%20cheat%20sheet%20(1).pdf](https://www.middletowncityschools.com/media/user/resources/sBHC%20cheat%20sheet%20(1).pdf) | middletowncityschools.com | 2023-08-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 112 | 1 |
 
 ## Files with Errors or Notes
 
@@ -47451,5 +47622,983 @@ Generated: 2026-03-31T13:06:58.205187+00:00
 ### Vocabulary%20Instruction%20Template.pdf
 
 - **URL**: https://www.ecboces.org/pluginfile.php/40153/mod_resource/content/1/Vocabulary%20Instruction%20Template.pdf
+- **Status**: analysed
+- title, 
+
+### 11th%20Grade%20Immunization%20Letter.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/11th%20Grade%20Immunization%20Letter.pdf
+- **Status**: analysed
+- no date found, 
+
+### 2020-21%20-%20K-12%20-%20Ohio%20-%20Voluntary%20-%20GP-2020-OH.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/2020-21%20-%20K-12%20-%20Ohio%20-%20Voluntary%20-%20GP-2020-OH.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 20240611_HowtoSignupfortheMyRideK-12App%20Completed.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/20240611_HowtoSignupfortheMyRideK-12App%20Completed.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 21-22%20COVID%20Quarantine%20Guidelines%208-9-21%20Merged.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/news/21-22%20COVID%20Quarantine%20Guidelines%208-9-21%20Merged.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 6th%20Grade%20Immunization%20Letter.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/6th%20Grade%20Immunization%20Letter.pdf
+- **Status**: analysed
+- no date found, 
+
+### Administration%20of%20Medication%20Form%205-16%20(2).doc.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Administration%20of%20Medication%20Form%205-16%20(2).doc.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### AsthmaInhalerAuthorizationForm.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/AsthmaInhalerAuthorizationForm.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Breakfast%20Notification%202022-2023.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Breakfast%20Notification%202022-2023.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Calendar%202021-2022_Board-0.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/news/Calendar%202021-2022_Board.pdf
+- **Status**: analysed
+- title, 
+
+### Calendar%202021-2022_Board.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/calendars/Calendar%202021-2022_Board.pdf
+- **Status**: analysed
+- title, 
+
+### Catering%20Brochure%20(5).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Catering%20Brochure%20(5).pdf
+- **Status**: analysed
+- title, 
+
+### EarlyEntranceIntoKinder.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/EarlyEntranceIntoKinder.pdf
+- **Status**: analysed
+- title, 
+
+### EpinephrineAutoinjectorAuthorization.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/EpinephrineAutoinjectorAuthorization.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade10_CareerAssessments.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade10_CareerAssessments.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade10_PlanningForFuture.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade10_PlanningForFuture.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade10_PostSecondaryEducation.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade10_PostSecondaryEducation.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Form_Grade11_AgencyQuestionnaire.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade11_AgencyQuestionnaire.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade11_AmIReadyToLiveOnMyOwn.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade11_AmIReadyToLiveOnMyOwn.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade11_ImportantDocumentsToKeep.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade11_ImportantDocumentsToKeep.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade11_ItsYourLife.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade11_ItsYourLife.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade11_PocketResume.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade11_PocketResume.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade11_TransportationNeeds.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade11_TransportationNeeds.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade12_CollegeInterviewPrep.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade12_CollegeInterviewPrep.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade12_QuestionsBeforeGraduation.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Form_Grade12_QuestionsBeforeGraduation.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade12_StudentParentTransitionChecklist.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade12_StudentParentTransitionChecklist.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade8_LearningStyle.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade8_LearningStyle.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade8_ThisIsHowISeeMyself.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade8_ThisIsHowISeeMyself.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade9_AssessingMultipleIntelligences.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade9_AssessingMultipleIntelligences.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade9_CareerPortfolio.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade9_CareerPortfolio.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade9_ClassCredit.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade9_ClassCredit.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Grade9_SelfDetermination.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Grade9_SelfDetermination.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_HR_Athletics_EmergencyContactAndMedical.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_HR_Athletics_EmergencyContactAndMedical.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Form_StudentServices_SpecialEd_IEPChecklist.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Form_StudentServices_SpecialEd_IEPChecklist.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Form_StudentServices_SpecialEd_LearningDisabilitiesChecklist.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Form_StudentServices_SpecialEd_LearningDisabilitiesChecklist.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Employment_CareerCluster.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_CareerCluster.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Employment_CareerCluster_Spanish.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_CareerCluster_Spanish.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Form_Transition_Employment_CareerEducation.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_CareerEducation.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Employment_CareerPortfolio.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_CareerPortfolio.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Employment_JobPrep.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_JobPrep.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Employment_WorkPersonality.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Employment_WorkPersonality.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_General_BuildingYourFuture.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_General_BuildingYourFuture.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_General_CollegePrep.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_General_CollegePrep.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_General_DevelopingAVision.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_General_DevelopingAVision.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_AIRSelfDetermination_Parents.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_AIRSelfDetermination_Parents.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_AIRSelfDetermination_Students.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_AIRSelfDetermination_Students.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_AmIReady.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_AmIReady.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_FinancialSkills.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_FinancialSkills.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_HealthcareAssessment.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_HealthcareAssessment.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_InterpersonalRelationship.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_InterpersonalRelationship.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_ItsYourLife.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_ItsYourLife.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_ParentsOfTeenagers.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_ParentsOfTeenagers.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_PlanningForLivingIndependently.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_PlanningForLivingIndependently.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_SchoolAndCommunitySocialSkills.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_SchoolAndCommunitySocialSkills.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_SelfDetermination.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_SelfDetermination.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_SelfDeterminationAndAdvocacy.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_SelfDeterminationAndAdvocacy.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_SocialSkills.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_SocialSkills.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_Independent_TransportationNeeds.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_Independent_TransportationNeeds.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PET_AssessingMyMultipleIntelligences.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_AssessingMyMultipleIntelligences.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PET_ReadingStylePreferences.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_ReadingStylePreferences.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PET_StudySkillys%20(1).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_StudySkillys%20(1).pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PET_WWWSelfAssessment%20(1).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_WWWSelfAssessment%20(1).pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PET_WritingSelfAssessment.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PET_WritingSelfAssessment.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PINS_HowISeeMyself.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_HowISeeMyself.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PINS_JobInterests.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_JobInterests.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PINS_LikesDislikes.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_LikesDislikes.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PINS_PersonalSkills.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_PersonalSkills.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PINS_Satisfaction.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_Satisfaction.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PINS_Strengths.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_Strengths.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PINS_ValuesInventory.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_ValuesInventory.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PINS_WhatsInYourBag.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_WhatsInYourBag.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Form_Transition_PINS_WhoAmI.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Form_Transition_PINS_WhoAmI.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Handbook_GATE.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Handbook_GATE.pdf
+- **Status**: analysed
+- title, 
+
+### Implementing%20Title%20IXs%20New%20Regulations%20-%20Title%20IX%20Training%20-%20FBT.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/about-us/Implementing%20Title%20IXs%20New%20Regulations%20-%20Title%20IX%20Training%20-%20FBT.pdf
+- **Status**: analysed
+- lang, 
+
+### Information_Finance_CAFR_2014.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_Finance_CAFR_2014.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Finance_CAFR_2015.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_Finance_CAFR_2015.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Finance_CAFR_2016.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_Finance_CAFR_2016.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Finance_CAFR_2017.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_Finance_CAFR_2017.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Finance_TaxBudget_2015.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_Finance_TaxBudget_2015.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Finance_TaxBudget_2016.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_Finance_TaxBudget_2016.pdf
+- **Status**: analysed
+- title, 
+
+### Information_Finance_TaxBudget_2017.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_Finance_TaxBudget_2017.pdf
+- **Status**: analysed
+- title, 
+
+### Information_Finance_TaxBudget_2018.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_Finance_TaxBudget_2018.pdf
+- **Status**: analysed
+- title, 
+
+### Information_GATE_BoardPolicy.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_GATE_BoardPolicy.pdf
+- **Status**: analysed
+- title, 
+
+### Information_GATE_Brochure.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_GATE_Brochure.pdf
+- **Status**: analysed
+- title, 
+
+### Information_Grade10_EverythingYouNeedToKnow.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade10_EverythingYouNeedToKnow.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade10_WhatAreEmployabilitySkills.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade10_WhatAreEmployabilitySkills.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_12CollegeFinancialAid.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_12CollegeFinancialAid.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_AgeOfMajority.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_AgeOfMajority.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_AgenciesThatCanHelp.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_AgenciesThatCanHelp.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_AgencyInformation.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_AgencyInformation.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_AreYouReadyForCollege.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_AreYouReadyForCollege.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_EverythingYouNeedToKnow.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_EverythingYouNeedToKnow.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_HowIsCollegeDifferent.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_HowIsCollegeDifferent.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_InterviewingSkills.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_InterviewingSkills.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_ProjectSearch_Life101.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_ProjectSearch_Life101.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Information_Grade11_ProjectSearch_Life201.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_ProjectSearch_Life201.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Information_Grade11_ProjectSearch_Year1.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_ProjectSearch_Year1.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Information_Grade11_QuestionsAboutGuardianshio.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_QuestionsAboutGuardianshio.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_SelectingACollege.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_SelectingACollege.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade11_WhatStudentsNeedToKnow.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade11_WhatStudentsNeedToKnow.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade12_AdultsWithDisabilities.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade12_AdultsWithDisabilities.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade12_SocialActivitiesForTeensWithDisabilities.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade12_SocialActivitiesForTeensWithDisabilities.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade8_CareerTrainingBeginsInHome.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade8_CareerTrainingBeginsInHome.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade8_LearningStyle.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade8_LearningStyle.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade9_EmployabilitySkills.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade9_EmployabilitySkills.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Grade9_PreparingYourChild.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Grade9_PreparingYourChild.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_HR_Athletics_OhioEhtics_Policy.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_HR_Athletics_OhioEhtics_Policy.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Information_HR_Board_EmergencyLeave%20(1).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_HR_Board_EmergencyLeave%20(1).pdf
+- **Status**: analysed
+- title, 
+
+### Information_HR_Outsourced_OhioEthics_Policy%20(1).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_HR_Outsourced_OhioEthics_Policy%20(1).pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Information_HR_Outsourced_SexualHarassmentPolicy%20(1).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_HR_Outsourced_SexualHarassmentPolicy%20(1).pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_HR_Support_AcceptableUse.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_HR_Support_AcceptableUse.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_50QuestionsAboutLD.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_50QuestionsAboutLD.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Information_StudentServices_SpecialEd_ADHD.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_ADHD.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### Information_StudentServices_SpecialEd_AlphabetSoup.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AlphabetSoup.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_AnnotateETR.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AnnotateETR.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_AutismBrighterFuture.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AutismBrighterFuture.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Information_StudentServices_SpecialEd_AutismSpeaks100Days.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AutismSpeaks100Days.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_AutismSpeaksTransitionToolkit.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_AutismSpeaksTransitionToolkit.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_BehaviorLearningDisabilities.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_BehaviorLearningDisabilities.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_BipolarDisorder.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_BipolarDisorder.pdf
+- **Status**: analysed
+- title, 
+
+### Information_StudentServices_SpecialEd_Dyslexia101.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_Dyslexia101.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Information_StudentServices_SpecialEd_ExecFunction.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_ExecFunction.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Information_StudentServices_SpecialEd_NegotiationSkills.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_NegotiationSkills.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_OpeningDoors-0.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_StudentServices_SpecialEd_OpeningDoors.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_OpeningDoors.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_OpeningDoors.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_OperatingStandards.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_OperatingStandards.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_PTSD.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_PTSD.pdf
+- **Status**: analysed
+- title, 
+
+### Information_StudentServices_SpecialEd_ParentGuideAutism.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_ParentGuideAutism.pdf
+- **Status**: analysed
+- title, 
+
+### Information_StudentServices_SpecialEd_StudentsWithTraumaticBrainInjury.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_StudentsWithTraumaticBrainInjury.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_UnderstandingStandardIEPs.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_UnderstandingStandardIEPs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_SpecialEd_UnderstandingTheProcess.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_SpecialEd_UnderstandingTheProcess.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_StudentServices_WhoseIdeaIsThis_Spanish.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/Information_StudentServices_WhoseIdeaIsThis_Spanish.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_FAQs.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_FAQs.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_General_CourseOfStudy.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_CourseOfStudy.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_General_PlanningForEducation.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_PlanningForEducation.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_General_PlanningForFuture.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_PlanningForFuture.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_General_TermsAndDefinitionsFuturePlanning.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_TermsAndDefinitionsFuturePlanning.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_General_TheTransitionalPlan.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_TheTransitionalPlan.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_General_TransitionActivities.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_TransitionActivities.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_General_TransitionTimelines.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_TransitionTimelines.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_General_WhyAssessment.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_General_WhyAssessment.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Information_Transition_Timelines.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Information_Transition_Timelines.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### June%202025%20MMM%20menu.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/June%202025%20MMM%20menu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Letter%20to%20Parent%20(1).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Letter%20to%20Parent%20(1).pdf
+- **Status**: analysed
+- title, 
+
+### MCSD%202025%20May%20Financial%20Forecast%20with%20Assumptions%20Final.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/MCSD%202025%20May%20Financial%20Forecast%20with%20Assumptions%20Final.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### MCSD%205-Year%20Forecast%20-%20November%202022.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/MCSD%205-Year%20Forecast%20-%20November%202022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### MCSD%205-Year%20Forecast%20Assumptions%20-%20November%202022.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/MCSD%205-Year%20Forecast%20Assumptions%20-%20November%202022.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### MCSD%205-Year%20Forecast%20Presentation%20-%20November%202022.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/departments/MCSD%205-Year%20Forecast%20Presentation%20-%20November%202022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### MCSD-BOE-Policy.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/about-us/MCSD-BOE-Policy.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Middie%20Meal%20Machine%20JULY25%20Menu.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Middie%20Meal%20Machine%20JULY25%20Menu.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### My%20Ride%20K-12%20Parent%20User%20Guide%20Flyer.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/My%20Ride%20K-12%20Parent%20User%20Guide%20Flyer.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Parent%20and%20Community%20Policy%202023-2024.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Parent%20and%20Community%20Policy%202023-2024.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ProgressBook%20App-Spanish%20for%20our%20web%20Page%201-7-2022.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/news/ProgressBook%20App-Spanish%20for%20our%20web%20Page%201-7-2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Rosa%20Parks%202023-2024%20Handbook.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Rosa%20Parks%202023-2024%20Handbook.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### SUMMER%20CAMPS.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/news/SUMMER%20CAMPS.pdf
+- **Status**: analysed
+- title, 
+
+### State%20Test%20Result%20Parent%20Letter%20Notification%20(For%20June%2030th%20deadline).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/State%20Test%20Result%20Parent%20Letter%20Notification%20(For%20June%2030th%20deadline).pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### Student%20Transportation%20My%20Ride%20K-12%20Parent%20User%20Guide%20Spanish%20Flyer%204%20(1).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Student%20Transportation%20My%20Ride%20K-12%20Parent%20User%20Guide%20Spanish%20Flyer%204%20(1).pdf
+- **Status**: analysed
+- title, 
+
+### Title%20I%20Definition-docx.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/rosa-parks-elementary/Title%20I%20Definition-docx.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Title%20IX%20Training%20Ennis%20Britton%20080620%20-%20All%20revisions%201.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/about-us/Title%20IX%20Training%20Ennis%20Britton%20080620%20-%20All%20revisions%201.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Title%20l%20Programs.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/rosa-parks-elementary/Title%20l%20Programs.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### Vision%20conservation%20program-ashx.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/Vision%20conservation%20program-ashx.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### W4_2021.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/W4_2021.pdf
+- **Status**: analysed
+- title, lang, 
+
+### _Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf
+- **Status**: analysed
+- no date found, tagged, lang, 
+
+### sBHC%20cheat%20sheet%20(1).pdf
+
+- **URL**: https://www.middletowncityschools.com/media/user/resources/sBHC%20cheat%20sheet%20(1).pdf
 - **Status**: analysed
 - title, 

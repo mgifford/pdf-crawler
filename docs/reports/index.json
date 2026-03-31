@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-31T13:54:44.119187+00:00",
+    "site": "middletowncityschools.com",
+    "crawl_url": "https://www.middletowncityschools.com",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23799353873",
+    "issue_url": "",
+    "archive_file": "2026-03-31_13-54-44-119_middletowncityschools.com.html",
+    "total": 170,
+    "analysed": 170,
+    "accessible": 9
+  },
+  {
     "date": "2026-03-31T13:06:58.205187+00:00",
     "site": "moffatschools.org",
     "crawl_url": "https://www.moffatschools.org",
