@@ -1,14 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-31T12:57:13.235602+00:00
+Generated: 2026-03-31T13:06:58.205187+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 18806 |
+| URLs crawled | 76 |
+| Total files tracked | 18932 |
 | Analysed | 5303 |
-| Pending analysis | 10093 |
+| Pending analysis | 10219 |
 | Errors during analysis | 3410 |
 | Accessible | 1728 |
 | Totally inaccessible | 191 |
@@ -68,6 +69,7 @@ Generated: 2026-03-31T12:57:13.235602+00:00
 | projects.accesscomputing.uw.edu | 3 |
 | slvboces.org | 729 |
 | smallpdf.com | 2 |
+| stjohns.k12.fl.us | 126 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
 | towson.edu | 148 |
