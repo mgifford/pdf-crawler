@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-31T12:48:00.668789+00:00",
+    "site": "fairfieldschools.org",
+    "crawl_url": "https://fairfieldschools.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23798038384",
+    "issue_url": "",
+    "archive_file": "2026-03-31_12-48-00-668_fairfieldschools.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-31T02:51:19.115639+00:00",
     "site": "our-english-spelling-lite.pages.dev",
     "crawl_url": "https://our-english-spelling-lite.pages.dev/",
