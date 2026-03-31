@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-31T13:06:58.205187+00:00
+Generated: 2026-03-31T13:21:16.019050+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 76 |
-| Total files tracked | 18932 |
+| URLs crawled | 489 |
+| Total files tracked | 19102 |
 | Analysed | 5303 |
-| Pending analysis | 10219 |
+| Pending analysis | 10389 |
 | Errors during analysis | 3410 |
 | Accessible | 1728 |
 | Totally inaccessible | 191 |
@@ -53,6 +53,7 @@ Generated: 2026-03-31T13:06:58.205187+00:00
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
+| middletowncityschools.com | 170 |
 | mn.gov | 1397 |
 | mtnboces.org | 32 |
 | ncert.nic.in | 329 |
