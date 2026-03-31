@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-03-31T12:57:06.817161+00:00",
+    "site": "alamosa.k12.co.us",
+    "crawl_url": "https://www.alamosa.k12.co.us",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23798410177",
+    "issue_url": "",
+    "archive_file": "2026-03-31_12-57-06-817_alamosa.k12.co.us.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-31T12:49:11.221241+00:00",
     "site": "middltowncityschools.com",
     "crawl_url": "https://middltowncityschools.com",
