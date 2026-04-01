@@ -1,19 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-04-01T12:49:30.711485+00:00
+Generated: 2026-04-01T13:04:42.490061+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 198 |
-| Total files tracked | 19103 |
-| Analysed | 5599 |
+| URLs crawled | 158 |
+| Total files tracked | 19111 |
+| Analysed | 5607 |
 | Pending analysis | 10094 |
 | Errors during analysis | 3410 |
 | Accessible | 1766 |
 | Totally inaccessible | 237 |
-| Broken / unreadable | 6 |
+| Broken / unreadable | 14 |
 | Exempt (pre-2018) | 1376 |
 
 ## Files per Site
@@ -30,7 +30,7 @@ Generated: 2026-04-01T12:49:30.711485+00:00
 | businessexpress.maryland.gov | 1 |
 | calgary.ca | 165 |
 | canada.ca | 496 |
-| careerforce.mn.gov | 1 |
+| careerforce.mn.gov | 9 |
 | cms.gov | 460 |
 | coloradoboces.org | 48 |
 | coloradomesa.edu | 88 |
@@ -5683,6 +5683,14 @@ Generated: 2026-04-01T12:49:30.711485+00:00
 | [_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf](https://www.middletowncityschools.com/media/user/resources/_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf) | middletowncityschools.com | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 447 | 0 |
 | [sBHC%20cheat%20sheet%20(1).pdf](https://www.middletowncityschools.com/media/user/resources/sBHC%20cheat%20sheet%20(1).pdf) | middletowncityschools.com | 2023-08-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 112 | 1 |
 | [RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf](https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [CareerForce%20Job%20Seeker%20Brochure%202025-acc.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Brochure%202025-acc.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025-acc.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025-acc.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025_ES-ACC.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025_ES-ACC.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person%20flyer%20with%20QR%20code-6-2025-ACC.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person%20flyer%20with%20QR%20code-6-2025-ACC.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [SOM_R351_CareerForce%20Job%20Seeker%20Brochure%202025-acc_Somali.pdf](https://careerforce.mn.gov/sites/default/files/2025-07/SOM_R351_CareerForce%20Job%20Seeker%20Brochure%202025-acc_Somali.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [SOM_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_Somali.pdf](https://careerforce.mn.gov/sites/default/files/2025-07/SOM_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_Somali.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [SPA_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_SPANISH.pdf](https://careerforce.mn.gov/sites/default/files/2025-07/SPA_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_SPANISH.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 
 ## Files with Errors or Notes
 
@@ -49323,3 +49331,51 @@ Generated: 2026-04-01T12:49:30.711485+00:00
 - **URL**: https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
 - **Status**: analysed
 - PdfError: crawled_files/careerforce.mn.gov/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf: unable to find trailer dictionary while recovering damaged file
+
+### 2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
+- **Status**: analysed
+- PdfError: crawled_files/careerforce.mn.gov/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf: unable to find trailer dictionary while recovering damaged file
+
+### CareerForce%20Job%20Seeker%20Brochure%202025-acc.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Brochure%202025-acc.pdf
+- **Status**: analysed
+- PdfError: crawled_files/careerforce.mn.gov/CareerForce%20Job%20Seeker%20Brochure%202025-acc.pdf: unable to find trailer dictionary while recovering damaged file
+
+### CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025-acc.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025-acc.pdf
+- **Status**: analysed
+- PdfError: crawled_files/careerforce.mn.gov/CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025-acc.pdf: unable to find trailer dictionary while recovering damaged file
+
+### CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025_ES-ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025_ES-ACC.pdf
+- **Status**: analysed
+- PdfError: crawled_files/careerforce.mn.gov/CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025_ES-ACC.pdf: unable to find trailer dictionary while recovering damaged file
+
+### GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person%20flyer%20with%20QR%20code-6-2025-ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person%20flyer%20with%20QR%20code-6-2025-ACC.pdf
+- **Status**: analysed
+- PdfError: crawled_files/careerforce.mn.gov/GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person%20flyer%20with%20QR%20code-6-2025-ACC.pdf: unable to find trailer dictionary while recovering damaged file
+
+### SOM_R351_CareerForce%20Job%20Seeker%20Brochure%202025-acc_Somali.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-07/SOM_R351_CareerForce%20Job%20Seeker%20Brochure%202025-acc_Somali.pdf
+- **Status**: analysed
+- PdfError: crawled_files/careerforce.mn.gov/SOM_R351_CareerForce%20Job%20Seeker%20Brochure%202025-acc_Somali.pdf: unable to find trailer dictionary while recovering damaged file
+
+### SOM_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_Somali.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-07/SOM_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_Somali.pdf
+- **Status**: analysed
+- PdfError: crawled_files/careerforce.mn.gov/SOM_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_Somali.pdf: unable to find trailer dictionary while recovering damaged file
+
+### SPA_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_SPANISH.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-07/SPA_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_SPANISH.pdf
+- **Status**: analysed
+- PdfError: crawled_files/careerforce.mn.gov/SPA_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_SPANISH.pdf: unable to find trailer dictionary while recovering damaged file
