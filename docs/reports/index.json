@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-01T13:11:04.504047+00:00",
+    "site": "careerforce.mn.gov",
+    "crawl_url": "https://careerforce.mn.gov/employers",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23850255302",
+    "issue_url": "",
+    "archive_file": "2026-04-01_13-11-04-504_careerforce.mn.gov.html",
+    "total": 9,
+    "analysed": 9,
+    "accessible": 0
+  },
+  {
     "date": "2026-04-01T13:04:42.490061+00:00",
     "site": "careerforce.mn.gov",
     "crawl_url": "https://careerforce.mn.gov/careerforce-services-overview",
