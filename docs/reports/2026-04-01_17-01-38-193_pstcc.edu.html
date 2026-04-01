@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-04-01T17:01:38.194972+00:00",
+    "total_files": 11,
+    "analysed": 11,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 8,
+    "totally_inaccessible": 0,
+    "broken": 0,
+    "exempt": 0,
+    "sites": {
+      "pstcc.edu": 11
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/2024-Recruitment-Guidelines.pdf",
+      "md5": "80b595f3318f57ad496f1b0279185439",
+      "filename": "2024-Recruitment-Guidelines.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.053310+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-03-10 15:29:22+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Word",
+        "Producer": "macOS Version 14.2 (Build 23C64) Quartz PDFContext",
+        "Pages": 10,
+        "Words": 3308,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Advising-Guide-PSCC-AASN-PDF.pdf",
+      "md5": "87bf421a13ab6d41638838a9821721ec",
+      "filename": "Advising-Guide-PSCC-AASN-PDF.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.054818+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-03 18:48:17+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.3.144",
+        "Pages": 1,
+        "Words": 466,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Chemical-Hygiene-Plan-081803.pdf",
+      "md5": "0d033b171667b941a4c90729bf6122c3",
+      "filename": "Chemical-Hygiene-Plan-081803.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.057901+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-06-16 19:05:03+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "Microsoft: Print To PDF",
+        "Pages": 18,
+        "Words": 6400,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Early-Childhood-Education-Program-Learning-Outcomes.pdf",
+      "md5": "d4afbc990515c7c624c5400c47948d7a",
+      "filename": "Early-Childhood-Education-Program-Learning-Outcomes.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.059551+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-03-07 21:05:08+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.2.223",
+        "Pages": 2,
+        "Words": 956,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Early-Childhood-Education-Program-Outcome-Measures.pdf",
+      "md5": "9112de12766f46cfd3bc810ccd52dba6",
+      "filename": "Early-Childhood-Education-Program-Outcome-Measures.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.061085+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-03-07 21:06:01+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 22 for Word",
+        "Producer": "Adobe PDF Library 22.2.223",
+        "Pages": 2,
+        "Words": 157,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/PSCC-STAFF-PAYCHART-2026-Rev-06.06.2025.pdf",
+      "md5": "a957a06eb8cabec3df63da55d9d2b920",
+      "filename": "PSCC-STAFF-PAYCHART-2026-Rev-06.06.2025.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.062688+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-06-18 14:59:52+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "Microsoft: Print To PDF",
+        "Pages": 1,
+        "Words": 102,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/PayRangesFaculty2026-Rev-06.11.2025.pdf",
+      "md5": "8be2dd006e4b36a042f17d0e441f3595",
+      "filename": "PayRangesFaculty2026-Rev-06.11.2025.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.064153+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-06-18 14:58:20+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat PDFMaker 25 for Excel",
+        "Producer": "Adobe PDF Library 25.1.250",
+        "Pages": 1,
+        "Words": 228,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/intellectual-diversity/Pellissippi-Results-2025-Intellectual-Diversity.pdf",
+      "md5": "d918b4a580c156c4b026768e9467281d",
+      "filename": "Pellissippi-Results-2025-Intellectual-Diversity.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.065660+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-02-20 21:10:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 15.0 (Windows)",
+        "Pages": 1,
+        "Words": 383,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Recruitment-Guidelines-FAQs_2024.pdf",
+      "md5": "647a03f872df543b32018fd584170d6c",
+      "filename": "Recruitment-Guidelines-FAQs_2024.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.067089+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-03-10 15:28:28+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Word",
+        "Producer": "macOS Version 14.2 (Build 23C64) Quartz PDFContext",
+        "Pages": 3,
+        "Words": 1462,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Student-Awards-Program-Spring-2025.pdf",
+      "md5": "ae4ac990adfa765c9ddbdc4ce9f354b6",
+      "filename": "Student-Awards-Program-Spring-2025.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.068613+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-04-16 19:10:04+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 20.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 17.0",
+        "Pages": 7,
+        "Words": 918,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/calendar/TLC-LEARNING-CONFERENCE-2026.pdf",
+      "md5": "c8d3161453ed0d832184ea2e24cc6ef6",
+      "filename": "TLC-LEARNING-CONFERENCE-2026.pdf",
+      "site": "pstcc.edu",
+      "crawled_at": "2026-04-01T16:57:15.082475+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-12 19:11:32+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign 21.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 18.0",
+        "Pages": 56,
+        "Words": 14831,
+        "Images": 44
+      },
+      "errors": []
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
+      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        var extDomain = '';
+        try {
+          var pdfHost = new URL(f.url).hostname.replace(/^www\./, '');
+          var seed = (f.site || '').replace(/^www\./, '');
+          if (pdfHost && seed && pdfHost !== seed && !pdfHost.endsWith('.' + seed)) {
+            extDomain = pdfHost;
+          }
+        } catch (e) {}
+        var siteCell = esc(f.site || '');
+        if (extDomain) {
+          siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
+        }
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        var colDefs = [
+          { key: 'file',       label: 'File' },
+          { key: 'site',       label: 'Site' },
+          { key: 'date',       label: 'Published Date' },
+          { key: 'accessible', label: 'Accessible' },
+          { key: 'tagged',     label: 'Tagged' },
+          { key: 'title',      label: 'Title' },
+          { key: 'language',   label: 'Language' },
+          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'pages',      label: 'Pages' },
+        ];
+        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
+        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>

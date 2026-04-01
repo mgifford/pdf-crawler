@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-01T17:01:38.193298+00:00",
+    "site": "pstcc.edu",
+    "crawl_url": "https://www.pstcc.edu/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23860541076",
+    "issue_url": "",
+    "archive_file": "2026-04-01_17-01-38-193_pstcc.edu.html",
+    "total": 11,
+    "analysed": 11,
+    "accessible": 8
+  },
+  {
     "date": "2026-04-01T14:22:50.286776+00:00",
     "site": "dot.state.mn.us",
     "crawl_url": "https://www.dot.state.mn.us/index.html",

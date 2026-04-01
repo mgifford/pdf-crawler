@@ -1,17 +1,17 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-04-01T14:22:50.286776+00:00
+Generated: 2026-04-01T17:01:38.193298+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 400 |
-| Total files tracked | 19162 |
-| Analysed | 5657 |
+| URLs crawled | 496 |
+| Total files tracked | 19173 |
+| Analysed | 5668 |
 | Pending analysis | 10094 |
 | Errors during analysis | 3411 |
-| Accessible | 1777 |
+| Accessible | 1785 |
 | Totally inaccessible | 243 |
 | Broken / unreadable | 14 |
 | Exempt (pre-2018) | 1409 |
@@ -69,6 +69,7 @@ Generated: 2026-04-01T14:22:50.286776+00:00
 | ppboces.org | 34 |
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
+| pstcc.edu | 11 |
 | slvboces.org | 729 |
 | smallpdf.com | 2 |
 | stjohns.k12.fl.us | 126 |
@@ -5741,6 +5742,17 @@ Generated: 2026-04-01T14:22:50.286776+00:00
 | [typelabel.pdf](https://www.dot.state.mn.us/products/signing/pdf/typelabel.pdf) | dot.state.mn.us | 2019-08-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 142 | 1 |
 | [veterans-evergreen-memorial.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/veterans-evergreen-memorial.pdf) | dot.state.mn.us | 2015-06-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 21 | 3728 | 6 |
 | [wayrep.pdf](https://www.dot.state.mn.us/roadsides/historic/files/wayrep.pdf) | dot.state.mn.us | 2002-02-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 242 | 73199 | 58 |
+| [2024-Recruitment-Guidelines.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/2024-Recruitment-Guidelines.pdf) | pstcc.edu | 2025-03-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 10 | 3308 | 0 |
+| [Advising-Guide-PSCC-AASN-PDF.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Advising-Guide-PSCC-AASN-PDF.pdf) | pstcc.edu | 2024-10-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 466 | 0 |
+| [Chemical-Hygiene-Plan-081803.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Chemical-Hygiene-Plan-081803.pdf) | pstcc.edu | 2023-06-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 18 | 6400 | 1 |
+| [Early-Childhood-Education-Program-Learning-Outcomes.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Early-Childhood-Education-Program-Learning-Outcomes.pdf) | pstcc.edu | 2024-03-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 956 | 0 |
+| [Early-Childhood-Education-Program-Outcome-Measures.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Early-Childhood-Education-Program-Outcome-Measures.pdf) | pstcc.edu | 2024-03-07 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 157 | 0 |
+| [PSCC-STAFF-PAYCHART-2026-Rev-06.06.2025.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/PSCC-STAFF-PAYCHART-2026-Rev-06.06.2025.pdf) | pstcc.edu | 2025-06-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 102 | 0 |
+| [PayRangesFaculty2026-Rev-06.11.2025.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/PayRangesFaculty2026-Rev-06.11.2025.pdf) | pstcc.edu | 2025-06-18 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 228 | 0 |
+| [Pellissippi-Results-2025-Intellectual-Diversity.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/intellectual-diversity/Pellissippi-Results-2025-Intellectual-Diversity.pdf) | pstcc.edu | 2025-02-20 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 383 | 3 |
+| [Recruitment-Guidelines-FAQs_2024.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Recruitment-Guidelines-FAQs_2024.pdf) | pstcc.edu | 2025-03-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1462 | 0 |
+| [Student-Awards-Program-Spring-2025.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Student-Awards-Program-Spring-2025.pdf) | pstcc.edu | 2025-04-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 918 | 1 |
+| [TLC-LEARNING-CONFERENCE-2026.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/calendar/TLC-LEARNING-CONFERENCE-2026.pdf) | pstcc.edu | 2026-03-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 56 | 14831 | 44 |
 
 ## Files with Errors or Notes
 
@@ -49667,5 +49679,23 @@ Generated: 2026-04-01T14:22:50.286776+00:00
 ### wayrep.pdf
 
 - **URL**: https://www.dot.state.mn.us/roadsides/historic/files/wayrep.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Early-Childhood-Education-Program-Learning-Outcomes.pdf
+
+- **URL**: https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Early-Childhood-Education-Program-Learning-Outcomes.pdf
+- **Status**: analysed
+- title, 
+
+### Early-Childhood-Education-Program-Outcome-Measures.pdf
+
+- **URL**: https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Early-Childhood-Education-Program-Outcome-Measures.pdf
+- **Status**: analysed
+- title, 
+
+### Pellissippi-Results-2025-Intellectual-Diversity.pdf
+
+- **URL**: https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/intellectual-diversity/Pellissippi-Results-2025-Intellectual-Diversity.pdf
 - **Status**: analysed
 - title, tagged, lang, 
