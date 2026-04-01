@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-03-31T13:54:44.119187+00:00
+Generated: 2026-04-01T12:49:30.711485+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 280 |
-| Total files tracked | 19102 |
-| Analysed | 5473 |
-| Pending analysis | 10219 |
+| URLs crawled | 198 |
+| Total files tracked | 19103 |
+| Analysed | 5599 |
+| Pending analysis | 10094 |
 | Errors during analysis | 3410 |
-| Accessible | 1737 |
-| Totally inaccessible | 234 |
-| Broken / unreadable | 5 |
-| Exempt (pre-2018) | 1362 |
+| Accessible | 1766 |
+| Totally inaccessible | 237 |
+| Broken / unreadable | 6 |
+| Exempt (pre-2018) | 1376 |
 
 ## Files per Site
 
@@ -30,6 +30,7 @@ Generated: 2026-03-31T13:54:44.119187+00:00
 | businessexpress.maryland.gov | 1 |
 | calgary.ca | 165 |
 | canada.ca | 496 |
+| careerforce.mn.gov | 1 |
 | cms.gov | 460 |
 | coloradoboces.org | 48 |
 | coloradomesa.edu | 88 |
@@ -5386,6 +5387,131 @@ Generated: 2026-03-31T13:54:44.119187+00:00
 | [Questions%20Responses.pdf](https://www.ecboces.org/pluginfile.php/30108/mod_resource/content/1/Questions%20Responses.pdf) | ecboces.org | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 432 | 0 |
 | [Transition%20Fair%20Fall%202016%20Flyer%20English-Spanish.pdf](https://www.ecboces.org/pluginfile.php/2619/mod_resource/content/1/Transition%20Fair%20Fall%202016%20Flyer%20English-Spanish.pdf) | ecboces.org | 2016-08-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 536 | 2 |
 | [Vocabulary%20Instruction%20Template.pdf](https://www.ecboces.org/pluginfile.php/40153/mod_resource/content/1/Vocabulary%20Instruction%20Template.pdf) | ecboces.org | 2022-08-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 90 | 0 |
+| [2022-23-Class-Size-Letter.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Class-Size-Letter.pdf) | stjohns.k12.fl.us | 2022-08-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 514 | 1 |
+| [2022-23-Code-of-Conduct-Letter.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Code-of-Conduct-Letter.pdf) | stjohns.k12.fl.us | 2022-07-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 229 | 1 |
+| [2022-23-Elementary-Choice-Letter.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Elementary-Choice-Letter.pdf) | stjohns.k12.fl.us | 2022-08-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 465 | 1 |
+| [2022-23-Required-Instruction-Elementary-Parent-Letter.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Required-Instruction-Elementary-Parent-Letter.pdf) | stjohns.k12.fl.us | 2022-07-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 202 | 1 |
+| [2022-23-Required-Instruction-High-School-Parent-Letter.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Required-Instruction-High-School-Parent-Letter.pdf) | stjohns.k12.fl.us | 2022-07-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 210 | 1 |
+| [2022-23-Required-Instruction-Middle-School-Parent-Letter.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Required-Instruction-Middle-School-Parent-Letter.pdf) | stjohns.k12.fl.us | 2022-07-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 210 | 1 |
+| [2022-23-School-Safety-Letter.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-School-Safety-Letter.pdf) | stjohns.k12.fl.us | 2022-07-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 614 | 2 |
+| [2022-23-Secondary-Choice-Letter.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Secondary-Choice-Letter.pdf) | stjohns.k12.fl.us | 2022-08-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1024 | 1 |
+| [2022-23-Sheriff-Hardwick-Letter.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Sheriff-Hardwick-Letter.pdf) | stjohns.k12.fl.us | 2022-08-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 437 | 1 |
+| [2023-2024-School-Start-and-Dismissal-Times.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2023/02/2023-2024-School-Start-and-Dismissal-Times.pdf) | stjohns.k12.fl.us | 2023-02-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 89 | 5 |
+| [2024-SJCSD-INTERNSHIP-Application-Fillable-PDF.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/08/2024-SJCSD-INTERNSHIP-Application-Fillable-PDF.pdf) | stjohns.k12.fl.us | 2024-02-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 377 | 1 |
+| [2025-2026-English-Language-Arts-K-12-Adoption-Recommendations-1.pdf](https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2025/12/2025-2026-English-Language-Arts-K-12-Adoption-Recommendations-1.pdf) | stjohns.k12.fl.us | 2025-12-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 175 | 0 |
+| [2025-2026-HOPE-9-12-Adoption-Recommendations-1.pdf](https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2025/12/2025-2026-HOPE-9-12-Adoption-Recommendations-1.pdf) | stjohns.k12.fl.us | 2025-12-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 50 | 0 |
+| [25-26-ASL-3-Content-Guide-.pdf](https://www.stjohns.k12.fl.us/year-at-a-glance/wp-content/uploads/sites/101/2025/08/25-26-ASL-3-Content-Guide-.pdf) | stjohns.k12.fl.us | 2025-06-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 316 | 0 |
+| [25_26_Matrix_Pager.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2025/10/25_26_Matrix_Pager.pdf) | stjohns.k12.fl.us | 2025-10-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 505 | 5 |
+| [5_20.pdf](https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2015/02/5_20.pdf) | stjohns.k12.fl.us | 2010-04-15 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 599 | 0 |
+| [6_104.pdf](https://www.stjohns.k12.fl.us/board/wp-content/uploads/sites/11/2019/07/6_104.pdf) | stjohns.k12.fl.us | 2019-07-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1270 | 0 |
+| [7_142.pdf](https://www.stjohns.k12.fl.us/board/wp-content/uploads/sites/11/2015/02/7_142.pdf) | stjohns.k12.fl.us | 2014-10-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 1639 | 0 |
+| [9_05.pdf](https://www.stjohns.k12.fl.us/board/wp-content/uploads/sites/11/2015/02/9_05.pdf) | stjohns.k12.fl.us | 2010-09-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 519 | 0 |
+| [A-Career-in-a-Year-Handout-rev.-11-8-19.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2019/11/A-Career-in-a-Year-Handout-rev.-11-8-19.pdf) | stjohns.k12.fl.us | 2019-11-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 240 | 7 |
+| [Add-Drop-form-2023.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/06/Add-Drop-form-2023.pdf) | stjohns.k12.fl.us | 2023-01-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 184 | 1 |
+| [Advertising-Guidelines-8-19-2024.pdf](https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2024/12/Advertising-Guidelines-8-19-2024.pdf) | stjohns.k12.fl.us | 2024-12-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 393 | 0 |
+| [Alternate-Placement-Criteria-for-Demonstrating-College-Readiness-Updated.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2022/05/Alternate-Placement-Criteria-for-Demonstrating-College-Readiness-Updated.pdf) | stjohns.k12.fl.us | 2022-05-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 436 | 0 |
+| [Attendance-Zoning-_2024-2025_K-8-NN-OO-Growth-Capacity-Balancing_TH-8-31-23.pdf](https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2023/09/Attendance-Zoning-_2024-2025_K-8-NN-OO-Growth-Capacity-Balancing_TH-8-31-23.pdf) | stjohns.k12.fl.us | 2023-09-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 107 | 5011 | 53 |
+| [Attendance-Zoning-_HS-III_TH-3.23.21.pdf](https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2021/04/Attendance-Zoning-_HS-III_TH-3.23.21.pdf) | stjohns.k12.fl.us | 2021-04-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 80 | 2657 | 99 |
+| [Attendance-Zoning-_SB-Wkshp-4.27.21.pdf](https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2021/04/Attendance-Zoning-_SB-Wkshp-4.27.21.pdf) | stjohns.k12.fl.us | 2021-04-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 44 | 1600 | 43 |
+| [Attendance-Zoning-_SB-Wkshp-4.6.21.pdf](https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2021/04/Attendance-Zoning-_SB-Wkshp-4.6.21.pdf) | stjohns.k12.fl.us | 2021-04-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 64 | 2536 | 63 |
+| [Bright-Futures-Community-Service-Form.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/09/Bright-Futures-Community-Service-Form.pdf) | stjohns.k12.fl.us | 2023-09-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1027 | 1 |
+| [Brooks_Virtual_Volunteer_Program_Flyer_030721.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/04/Brooks_Virtual_Volunteer_Program_Flyer_030721.pdf) | stjohns.k12.fl.us | 2021-03-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 145 | 1 |
+| [Buddy-Bus-Event-Flyer.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/Buddy-Bus-Event-Flyer.pdf) | stjohns.k12.fl.us | 2025-09-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 616 | 470 |
+| [COVID-19-Elementary-Parent-Guide-on-Exams-Grading-Promotion.pdf](https://www.stjohns.k12.fl.us/online-learning/wp-content/uploads/sites/148/2020/04/COVID-19-Elementary-Parent-Guide-on-Exams-Grading-Promotion.pdf) | stjohns.k12.fl.us | 2020-04-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 509 | 1 |
+| [CS-Internet-Jobs-Websites-February-Edition.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2019/03/CS-Internet-Jobs-Websites-February-Edition.pdf) | stjohns.k12.fl.us | 2019-08-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 429 | 2 |
+| [Clearinghouse-Applicant-Request-Form.pdf](https://www.stjohns.k12.fl.us/screening/wp-content/uploads/sites/38/2025/04/Clearinghouse-Applicant-Request-Form.pdf) | stjohns.k12.fl.us | 2025-04-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2648 | 5 |
+| [Come-Drive-the-Bus-Flyer.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/Come-Drive-the-Bus-Flyer.pdf) | stjohns.k12.fl.us | 2025-08-27 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 8 |
+| [Controlled-Open-Enrollment-Plan.pdf](https://www.stjohns.k12.fl.us/coe/wp-content/uploads/sites/122/2017/01/Controlled-Open-Enrollment-Plan.pdf) | stjohns.k12.fl.us | 2017-01-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 13 | 5118 | 0 |
+| [Cyberbullying-Warning-Signs.pdf](https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Cyberbullying-Warning-Signs.pdf) | stjohns.k12.fl.us | 2018-09-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 70 | 51 |
+| [DE-Student-Information-Night.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2025/05/DE-Student-Information-Night.pdf) | stjohns.k12.fl.us | 2025-05-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 | 991 | 4 |
+| [Donate-Blood-Flyer.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/Donate-Blood-Flyer.pdf) | stjohns.k12.fl.us | 2025-09-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 85 | 5 |
+| [Economic-Security-Report-Summary.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/Economic-Security-Report-Summary.pdf) | stjohns.k12.fl.us | 2022-03-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 553 | 4 |
+| [Elementary-Whole-Grade-Acceleration-Checklist.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2023/08/Elementary-Whole-Grade-Acceleration-Checklist.pdf) | stjohns.k12.fl.us | 2023-07-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 593 | 0 |
+| [ElementaryHealthEdToolkit.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/ElementaryHealthEdToolkit.pdf) | stjohns.k12.fl.us | 2019-08-27 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1938 | 0 |
+| [Evelyn-Hamblen-Classroom-Library-Listing.pdf](https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2024/11/Evelyn-Hamblen-Classroom-Library-Listing.pdf) | stjohns.k12.fl.us | 2024-11-18 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 7350 | 0 |
+| [External-OSJ-Guidelines-1.16.24-1.pdf](https://www.stjohns.k12.fl.us/sss/wp-content/uploads/sites/90/2024/01/External-OSJ-Guidelines-1.16.24-1.pdf) | stjohns.k12.fl.us | 2024-01-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 29 | 7479 | 1 |
+| [FAQ-Regarding-Assessments-for-the-2020-2021-School-Year.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2021/04/FAQ-Regarding-Assessments-for-the-2020-2021-School-Year.pdf) | stjohns.k12.fl.us | 2021-04-22 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 7 | 2300 | 7 |
+| [Federal-Grants-Terms-and-Conditions-9-12-2024.pdf](https://www.stjohns.k12.fl.us/purchasing/wp-content/uploads/sites/30/2024/09/Federal-Grants-Terms-and-Conditions-9-12-2024.pdf) | stjohns.k12.fl.us | 2024-09-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 3219 | 4 |
+| [Florida-Financial-Aid-Application-Tips-.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2019/10/Florida-Financial-Aid-Application-Tips-.pdf) | stjohns.k12.fl.us | 2019-10-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 290 | 0 |
+| [Foreign-Exchange-Registration-Form-fillable.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/02/Foreign-Exchange-Registration-Form-fillable.pdf) | stjohns.k12.fl.us | 2023-02-21 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 226 | 1 |
+| [Grades-3-5-Grade-Level-Determinations.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2020/10/Grades-3-5-Grade-Level-Determinations.pdf) | stjohns.k12.fl.us | 2020-10-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 238 | 1 |
+| [Grades-K-2-Grade-Level-Determinations-October-2020.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2020/10/Grades-K-2-Grade-Level-Determinations-October-2020.pdf) | stjohns.k12.fl.us | 2020-10-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 339 | 1 |
+| [Graduation-Application-2020.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2020/09/Graduation-Application-2020.pdf) | stjohns.k12.fl.us | 2020-06-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 444 | 1 |
+| [Growing-Up-Drug-Free-A-Parent-Guide-to-Prevention.pdf](https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Growing-Up-Drug-Free-A-Parent-Guide-to-Prevention.pdf) | stjohns.k12.fl.us | 2021-10-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 64 | 18498 | 58 |
+| [Guide-to-FSA-Algebra-1-EOC-revised-October-2020-002-1.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/Guide-to-FSA-Algebra-1-EOC-revised-October-2020-002-1.pdf) | stjohns.k12.fl.us | 2020-10-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 677 | 1 |
+| [High-School-Advanced-Programs-24-25.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/High-School-Advanced-Programs-24-25.pdf) | stjohns.k12.fl.us | 2024-09-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 2453 | 6 |
+| [Home-Ed-Affidavit-7.9.24.pdf](https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/07/Home-Ed-Affidavit-7.9.24.pdf) | stjohns.k12.fl.us | 2024-07-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 178 | 0 |
+| [Home-Ed-Notice-of-Intent-9.30.25.pdf](https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/206/2025/10/Home-Ed-Notice-of-Intent-9.30.25.pdf) | stjohns.k12.fl.us | 2025-10-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 471 | 1 |
+| [Home-Ed-Termination-Form-7.9.24.pdf](https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/07/Home-Ed-Termination-Form-7.9.24.pdf) | stjohns.k12.fl.us | 2024-07-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 225 | 1 |
+| [Home-Ed-Transfer-Form-7.9.24.pdf](https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/07/Home-Ed-Transfer-Form-7.9.24.pdf) | stjohns.k12.fl.us | 2024-07-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 214 | 0 |
+| [Home-Education-Evaluation-Form-7.9.24.pdf](https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/08/Home-Education-Evaluation-Form-7.9.24.pdf) | stjohns.k12.fl.us | 2024-08-15 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 630 | 2 |
+| [Homework.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/Homework.pdf) | stjohns.k12.fl.us | 2014-09-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 512 | 2 |
+| [How-Students-Track-a-Letter-of-Recommendation-Request.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/How-Students-Track-a-Letter-of-Recommendation-Request.pdf) | stjohns.k12.fl.us | 2024-09-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [How-to-Request-a-Letter-of-Recommendation.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/How-to-Request-a-Letter-of-Recommendation.pdf) | stjohns.k12.fl.us | 2024-08-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 449 | 9 |
+| [How-to-Request-a-Transcript-Non-Parchment-High-Schools-Only.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/How-to-Request-a-Transcript-Non-Parchment-High-Schools-Only.pdf) | stjohns.k12.fl.us | 2024-08-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 294 | 8 |
+| [Informational-Brochure-for-Parents-rev.-2022.pdf](https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2022/08/Informational-Brochure-for-Parents-rev.-2022.pdf) | stjohns.k12.fl.us | 2022-08-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 521 | 2 |
+| [Insurance-Requirements-12-20-2023.pdf](https://www.stjohns.k12.fl.us/purchasing/wp-content/uploads/sites/30/2026/02/Insurance-Requirements-12-20-2023.pdf) | stjohns.k12.fl.us | 2026-02-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 328 | 0 |
+| [MOU-Transfer-Process-2022-2023.pdf](https://www.stjohns.k12.fl.us/staff/wp-content/uploads/sites/4/2022/01/MOU-Transfer-Process-2022-2023.pdf) | stjohns.k12.fl.us | 2022-01-24 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 1351 | 6 |
+| [New-Bright-Futures-Community-Service-Form-St.-Johns-Final-1.pdf](https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2022/12/New-Bright-Futures-Community-Service-Form-St.-Johns-Final-1.pdf) | stjohns.k12.fl.us | 2022-06-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 999 | 1 |
+| [New-Bright-Futures-Community-Service-Form-St.-Johns-Final.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2022/07/New-Bright-Futures-Community-Service-Form-St.-Johns-Final.pdf) | stjohns.k12.fl.us | 2022-06-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 999 | 1 |
+| [Out-of-School-Supspension-Process-082025.pdf](https://www.stjohns.k12.fl.us/schoolservices/wp-content/uploads/sites/23/2025/08/Out-of-School-Supspension-Process-082025.pdf) | stjohns.k12.fl.us | 2025-08-25 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 70 | 0 |
+| [PR-Protocol-10-16-15.pdf](https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2015/02/PR-Protocol-10-16-15.pdf) | stjohns.k12.fl.us | 2015-10-16 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 699 | 1 |
+| [Parent-Announcement-Template-Post-launch-1.pdf](https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2025/08/Parent-Announcement-Template-Post-launch-1.pdf) | stjohns.k12.fl.us | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 0 | 18 |
+| [Parent-Survey-Results.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2020/06/Parent-Survey-Results.pdf) | stjohns.k12.fl.us | 2020-06-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 82 | 954 | 144 |
+| [Petition-form-Request-for-Policy-Exception-2021.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/06/Petition-form-Request-for-Policy-Exception-2021.pdf) | stjohns.k12.fl.us | 2021-02-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 450 | 1 |
+| [Principles-of-Participation-Responsibilities-2023.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/12/Principles-of-Participation-Responsibilities-2023.pdf) | stjohns.k12.fl.us | 2023-11-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 2174 | 1 |
+| [Program-Providers-Template-Post-Launch.pdf](https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2025/08/Program-Providers-Template-Post-Launch.pdf) | stjohns.k12.fl.us | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 0 | 21 |
+| [Proper-Use-of-FortifyFL-Training-for-Parents.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2024/11/Proper-Use-of-FortifyFL-Training-for-Parents.pdf) | stjohns.k12.fl.us | 2024-11-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 459 | 1 |
+| [Q-and-A-for-Award-Credit.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/Q-and-A-for-Award-Credit.pdf) | stjohns.k12.fl.us | 2015-02-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 662 | 2 |
+| [Quarantine-Family-Help-Guide-Elementary-rev-8-17-21.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2021/08/Quarantine-Family-Help-Guide-Elementary-rev-8-17-21.pdf) | stjohns.k12.fl.us | 2021-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 225 | 2 |
+| [Quarantine-Family-Help-Guide-Secondary-rev-8-17-21.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2021/08/Quarantine-Family-Help-Guide-Secondary-rev-8-17-21.pdf) | stjohns.k12.fl.us | 2021-08-18 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 230 | 2 |
+| [RFP2026-012-Schools-Internal-Accounts-Auditing-Services-March-26-2026-@-1000-AM.pdf](https://www.stjohns.k12.fl.us/purchasing/wp-content/uploads/sites/30/2026/03/RFP2026-012-Schools-Internal-Accounts-Auditing-Services-March-26-2026-@-1000-AM.pdf) | stjohns.k12.fl.us | 2026-03-17 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 75 | 1 |
+| [Registration-Form-2023.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2022/10/Registration-Form-2023.pdf) | stjohns.k12.fl.us | 2022-10-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 393 | 1 |
+| [Request-for-Reconsideration-Form.pdf](https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/127/2022/02/Request-for-Reconsideration-Form.pdf) | stjohns.k12.fl.us | 2022-02-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 302 | 1 |
+| [SBN_Tip22_Lend-A-Hand.pdf](https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2015/03/SBN_Tip22_Lend-A-Hand.pdf) | stjohns.k12.fl.us | 2011-08-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 756 | 0 |
+| [SJCSD-2024-Test-Scores-Infographic.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2024/07/SJCSD-2024-Test-Scores-Infographic.pdf) | stjohns.k12.fl.us | 2024-07-09 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 257 | 6 |
+| [SJCSD-Approved-Math-Instructional-Materials-2021.2022.pdf](https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/127/2022/02/SJCSD-Approved-Math-Instructional-Materials-2021.2022.pdf) | stjohns.k12.fl.us | 2022-02-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 714 | 0 |
+| [SJCSD-CCN-Vendor-Map-2025-2.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2025/09/SJCSD-CCN-Vendor-Map-2025-2.pdf) | stjohns.k12.fl.us | 2025-09-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 498 | 0 |
+| [SJCSD-Comprehensive-Reading-Plan-2025-2026.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2025/08/SJCSD-Comprehensive-Reading-Plan-2025-2026.pdf) | stjohns.k12.fl.us | 2025-08-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 39 | 14480 | 0 |
+| [SJCSD-ESE-PAC-Flyer-10-7-2025.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/SJCSD-ESE-PAC-Flyer-10-7-2025.pdf) | stjohns.k12.fl.us | 2025-09-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 123 | 3 |
+| [SJCSD-Enhancing-Executive-Functioning-Skills-2-4-2025.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/01/SJCSD-Enhancing-Executive-Functioning-Skills-2-4-2025.pdf) | stjohns.k12.fl.us | 2025-01-09 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 116 | 2 |
+| [SJCSD-Faith-Based-Partnerships.pdf](https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2025/09/SJCSD-Faith-Based-Partnerships.pdf) | stjohns.k12.fl.us | 2025-09-25 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 319 | 4 |
+| [SJCSD-Middle-School-Math-Progression.pdf](https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2024/09/SJCSD-Middle-School-Math-Progression.pdf) | stjohns.k12.fl.us | 2024-09-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 151 | 0 |
+| [SJCSD-October-2025-Flyer-GPAC.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/10/SJCSD-October-2025-Flyer-GPAC.pdf) | stjohns.k12.fl.us | 2025-10-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 74 | 1 |
+| [SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Elementary.pdf](https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2025/12/SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Elementary.pdf) | stjohns.k12.fl.us | 2025-08-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1655 | 34 |
+| [SJCSD-Reading-Intervention-Placement-Guide-2025-2026-High-School.pdf](https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2025/12/SJCSD-Reading-Intervention-Placement-Guide-2025-2026-High-School.pdf) | stjohns.k12.fl.us | 2025-08-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 868 | 18 |
+| [SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Middle-School.pdf](https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2025/12/SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Middle-School.pdf) | stjohns.k12.fl.us | 2025-08-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 878 | 16 |
+| [SJCSD-Social-Media-Guidelines-for-Public-Use.pdf](https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2021/09/SJCSD-Social-Media-Guidelines-for-Public-Use.pdf) | stjohns.k12.fl.us | 2021-09-17 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 327 | 0 |
+| [SJCSD-Summer-Flyer-7-24-2025.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/05/SJCSD-Summer-Flyer-7-24-2025.pdf) | stjohns.k12.fl.us | 2025-07-24 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 1 |
+| [SJCSD-Transition-Services-Fair.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2023/03/SJCSD-Transition-Services-Fair.pdf) | stjohns.k12.fl.us | 2023-03-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 184 | 1 |
+| [SJVS-Fundraising-for-Chipotle-on-2.28.2017.pdf](https://www.stjohns.k12.fl.us/supt/wp-content/uploads/sites/10/2017/02/SJVS-Fundraising-for-Chipotle-on-2.28.2017.pdf) | stjohns.k12.fl.us | 2017-02-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 124 | 6 |
+| [SJVS-Fundraising-for-Panera-on-2.22.2017.pdf](https://www.stjohns.k12.fl.us/supt/wp-content/uploads/sites/10/2017/02/SJVS-Fundraising-for-Panera-on-2.22.2017.pdf) | stjohns.k12.fl.us | 2017-02-06 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 108 | 1 |
+| [Scholarship-FAQs.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2016/12/Scholarship-FAQs.pdf) | stjohns.k12.fl.us | 2016-12-05 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 407 | 0 |
+| [Scholarships-Guide-for-Students.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/Scholarships-Guide-for-Students.pdf) | stjohns.k12.fl.us | 2024-05-27 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 741 | 22 |
+| [SecondaryHealthEdToolkit.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/SecondaryHealthEdToolkit.pdf) | stjohns.k12.fl.us | 2019-08-27 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2479 | 0 |
+| [Signature-page-for-online-application-2021.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/06/Signature-page-for-online-application-2021.pdf) | stjohns.k12.fl.us | 2021-05-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 658 | 0 |
+| [Social-Studies-Adoption-2022-2023-Review-Selections-3.21.2023.pdf](https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2023/03/Social-Studies-Adoption-2022-2023-Review-Selections-3.21.2023.pdf) | stjohns.k12.fl.us | 2023-03-29 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 86 | 0 |
+| [StandardDiplomaRequirements.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/StandardDiplomaRequirements.pdf) | stjohns.k12.fl.us | 2020-08-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1240 | 1 |
+| [StandardDiplomaSpanish.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/StandardDiplomaSpanish.pdf) | stjohns.k12.fl.us | 2020-08-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1426 | 1 |
+| [Student-Withdrawal-2021.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/06/Student-Withdrawal-2021.pdf) | stjohns.k12.fl.us | 2021-02-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 119 | 1 |
+| [Summer-Facility-Use-Flyer-2025.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/05/Summer-Facility-Use-Flyer-2025.pdf) | stjohns.k12.fl.us | 2025-05-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 112 | 1 |
+| [T4S-flyer-updated-8.21.pdf](https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2021/08/T4S-flyer-updated-8.21.pdf) | stjohns.k12.fl.us | 2021-08-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 431 | 3 |
+| [Taste-of-the-Tech-2025-Flyer.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/03/Taste-of-the-Tech-2025-Flyer.pdf) | stjohns.k12.fl.us | 2025-03-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 117 | 18 |
+| [Teacher-Change-Request-form.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/sites/94/2015/07/Teacher-Change-Request-form.pdf) | stjohns.k12.fl.us | 2016-06-30 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 185 | 0 |
+| [Tips-for-Talking-With-Children-Cope-After-a-Disaster.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2016/06/Tips-for-Talking-With-Children-Cope-After-a-Disaster.pdf) | stjohns.k12.fl.us | 2019-08-27 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1897 | 2 |
+| [Tips-for-Teens-Alcohol-Prevention.pdf](https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Tips-for-Teens-Alcohol-Prevention.pdf) | stjohns.k12.fl.us | 2021-03-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 929 | 3 |
+| [Tips-for-Teens-Marijuana-Prevention.pdf](https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Tips-for-Teens-Marijuana-Prevention.pdf) | stjohns.k12.fl.us | 2019-03-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 877 | 2 |
+| [Tips-for-Teens-The-Truth-About-E-Cigarettes.pdf](https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Tips-for-Teens-The-Truth-About-E-Cigarettes.pdf) | stjohns.k12.fl.us | 2019-03-13 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 850 | 2 |
+| [Tips-for-Teens-Tobacco-Prevention.pdf](https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Tips-for-Teens-Tobacco-Prevention.pdf) | stjohns.k12.fl.us | 2019-03-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 943 | 2 |
+| [Vendor-Performance-Report-11.6.25-Fillable.pdf](https://www.stjohns.k12.fl.us/purchasing/wp-content/uploads/sites/30/2026/02/Vendor-Performance-Report-11.6.25-Fillable.pdf) | stjohns.k12.fl.us | 2026-02-23 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 144 | 1 |
+| [Verification-of-Residence-revised-1-1-2023.pdf](https://www.stjohns.k12.fl.us/student/wp-content/uploads/sites/21/2023/01/Verification-of-Residence-revised-1-1-2023.pdf) | stjohns.k12.fl.us | 2023-04-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 768 | 1 |
+| [Water-Safety-1.pdf](https://www.stjohns.k12.fl.us/student/wp-content/uploads/sites/21/2022/10/Water-Safety-1.pdf) | stjohns.k12.fl.us | 2022-10-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 517 | 1 |
+| [Whole-Grade-Acceleration-Parent-Letter.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2023/08/Whole-Grade-Acceleration-Parent-Letter.pdf) | stjohns.k12.fl.us | 2023-07-19 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 14 |
+| [Xello-Common-App-Student-Guide.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/Xello-Common-App-Student-Guide.pdf) | stjohns.k12.fl.us | 2024-07-17 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 685 | 13 |
+| [Xello-Parent-Resources.pdf](https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/Xello-Parent-Resources.pdf) | stjohns.k12.fl.us | 2024-09-02 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 3 | 5 |
+| [ese-pac-flyer-4-2-2025.pdf](https://www.stjohns.k12.fl.us/wp-content/uploads/2025/03/ese-pac-flyer-4-2-2025.pdf) | stjohns.k12.fl.us | 2025-03-13 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 131 | 2 |
+| [lafs.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/lafs.pdf) | stjohns.k12.fl.us | 2014-01-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 95 | 32981 | 0 |
+| [mafs.pdf](https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/mafs.pdf) | stjohns.k12.fl.us | 2014-01-22 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 88 | 35239 | 28 |
 | [11th%20Grade%20Immunization%20Letter.pdf](https://www.middletowncityschools.com/media/user/resources/11th%20Grade%20Immunization%20Letter.pdf) | middletowncityschools.com | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 242 | 1 |
 | [2020-21%20-%20K-12%20-%20Ohio%20-%20Voluntary%20-%20GP-2020-OH.pdf](https://www.middletowncityschools.com/media/user/resources/2020-21%20-%20K-12%20-%20Ohio%20-%20Voluntary%20-%20GP-2020-OH.pdf) | middletowncityschools.com | 2020-05-05 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 24 | 10934 | 20 |
 | [20240611_HowtoSignupfortheMyRideK-12App%20Completed.pdf](https://www.middletowncityschools.com/media/user/resources/20240611_HowtoSignupfortheMyRideK-12App%20Completed.pdf) | middletowncityschools.com | 2024-09-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 236 | 33 |
@@ -5556,6 +5682,7 @@ Generated: 2026-03-31T13:54:44.119187+00:00
 | [W4_2021.pdf](https://www.middletowncityschools.com/media/user/resources/W4_2021.pdf) | middletowncityschools.com | 2020-12-31 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 3722 | 1 |
 | [_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf](https://www.middletowncityschools.com/media/user/resources/_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf) | middletowncityschools.com | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 447 | 0 |
 | [sBHC%20cheat%20sheet%20(1).pdf](https://www.middletowncityschools.com/media/user/resources/sBHC%20cheat%20sheet%20(1).pdf) | middletowncityschools.com | 2023-08-11 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 112 | 1 |
+| [RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf](https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 
 ## Files with Errors or Notes
 
@@ -47625,6 +47752,594 @@ Generated: 2026-03-31T13:54:44.119187+00:00
 - **Status**: analysed
 - title, 
 
+### 2022-23-Class-Size-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Class-Size-Letter.pdf
+- **Status**: analysed
+- lang, 
+
+### 2022-23-Code-of-Conduct-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Code-of-Conduct-Letter.pdf
+- **Status**: analysed
+- title, 
+
+### 2022-23-Elementary-Choice-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Elementary-Choice-Letter.pdf
+- **Status**: analysed
+- title, 
+
+### 2022-23-Required-Instruction-Elementary-Parent-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Required-Instruction-Elementary-Parent-Letter.pdf
+- **Status**: analysed
+- title, 
+
+### 2022-23-Required-Instruction-High-School-Parent-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Required-Instruction-High-School-Parent-Letter.pdf
+- **Status**: analysed
+- title, 
+
+### 2022-23-Required-Instruction-Middle-School-Parent-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Required-Instruction-Middle-School-Parent-Letter.pdf
+- **Status**: analysed
+- title, 
+
+### 2022-23-School-Safety-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-School-Safety-Letter.pdf
+- **Status**: analysed
+- title, 
+
+### 2022-23-Secondary-Choice-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Secondary-Choice-Letter.pdf
+- **Status**: analysed
+- title, 
+
+### 2022-23-Sheriff-Hardwick-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/2022-23-Sheriff-Hardwick-Letter.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2023-2024-School-Start-and-Dismissal-Times.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2023/02/2023-2024-School-Start-and-Dismissal-Times.pdf
+- **Status**: analysed
+- title, 
+
+### 2024-SJCSD-INTERNSHIP-Application-Fillable-PDF.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/08/2024-SJCSD-INTERNSHIP-Application-Fillable-PDF.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026-English-Language-Arts-K-12-Adoption-Recommendations-1.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2025/12/2025-2026-English-Language-Arts-K-12-Adoption-Recommendations-1.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026-HOPE-9-12-Adoption-Recommendations-1.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2025/12/2025-2026-HOPE-9-12-Adoption-Recommendations-1.pdf
+- **Status**: analysed
+- title, 
+
+### 25-26-ASL-3-Content-Guide-.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/year-at-a-glance/wp-content/uploads/sites/101/2025/08/25-26-ASL-3-Content-Guide-.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### 25_26_Matrix_Pager.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2025/10/25_26_Matrix_Pager.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 5_20.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2015/02/5_20.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 6_104.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/board/wp-content/uploads/sites/11/2019/07/6_104.pdf
+- **Status**: analysed
+- title, 
+
+### 7_142.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/board/wp-content/uploads/sites/11/2015/02/7_142.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 9_05.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/board/wp-content/uploads/sites/11/2015/02/9_05.pdf
+- **Status**: analysed
+- title, 
+
+### A-Career-in-a-Year-Handout-rev.-11-8-19.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2019/11/A-Career-in-a-Year-Handout-rev.-11-8-19.pdf
+- **Status**: analysed
+- title, 
+
+### Advertising-Guidelines-8-19-2024.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2024/12/Advertising-Guidelines-8-19-2024.pdf
+- **Status**: analysed
+- title, 
+
+### Alternate-Placement-Criteria-for-Demonstrating-College-Readiness-Updated.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2022/05/Alternate-Placement-Criteria-for-Demonstrating-College-Readiness-Updated.pdf
+- **Status**: analysed
+- title, 
+
+### Attendance-Zoning-_2024-2025_K-8-NN-OO-Growth-Capacity-Balancing_TH-8-31-23.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2023/09/Attendance-Zoning-_2024-2025_K-8-NN-OO-Growth-Capacity-Balancing_TH-8-31-23.pdf
+- **Status**: analysed
+- title, 
+
+### Attendance-Zoning-_HS-III_TH-3.23.21.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2021/04/Attendance-Zoning-_HS-III_TH-3.23.21.pdf
+- **Status**: analysed
+- title, 
+
+### Attendance-Zoning-_SB-Wkshp-4.27.21.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2021/04/Attendance-Zoning-_SB-Wkshp-4.27.21.pdf
+- **Status**: analysed
+- title, 
+
+### Attendance-Zoning-_SB-Wkshp-4.6.21.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/zoning/wp-content/uploads/sites/44/2021/04/Attendance-Zoning-_SB-Wkshp-4.6.21.pdf
+- **Status**: analysed
+- title, 
+
+### Bright-Futures-Community-Service-Form.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/09/Bright-Futures-Community-Service-Form.pdf
+- **Status**: analysed
+- title, 
+
+### Brooks_Virtual_Volunteer_Program_Flyer_030721.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/04/Brooks_Virtual_Volunteer_Program_Flyer_030721.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Buddy-Bus-Event-Flyer.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/Buddy-Bus-Event-Flyer.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### COVID-19-Elementary-Parent-Guide-on-Exams-Grading-Promotion.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/online-learning/wp-content/uploads/sites/148/2020/04/COVID-19-Elementary-Parent-Guide-on-Exams-Grading-Promotion.pdf
+- **Status**: analysed
+- title, 
+
+### CS-Internet-Jobs-Websites-February-Edition.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2019/03/CS-Internet-Jobs-Websites-February-Edition.pdf
+- **Status**: analysed
+- title, 
+
+### Clearinghouse-Applicant-Request-Form.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/screening/wp-content/uploads/sites/38/2025/04/Clearinghouse-Applicant-Request-Form.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Come-Drive-the-Bus-Flyer.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/Come-Drive-the-Bus-Flyer.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Controlled-Open-Enrollment-Plan.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/coe/wp-content/uploads/sites/122/2017/01/Controlled-Open-Enrollment-Plan.pdf
+- **Status**: analysed
+- title, 
+
+### Cyberbullying-Warning-Signs.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2023/05/Cyberbullying-Warning-Signs.pdf
+- **Status**: analysed
+- title, 
+
+### DE-Student-Information-Night.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2025/05/DE-Student-Information-Night.pdf
+- **Status**: analysed
+- title, 
+
+### Donate-Blood-Flyer.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/Donate-Blood-Flyer.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Economic-Security-Report-Summary.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2022/08/Economic-Security-Report-Summary.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Elementary-Whole-Grade-Acceleration-Checklist.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2023/08/Elementary-Whole-Grade-Acceleration-Checklist.pdf
+- **Status**: analysed
+- title, 
+
+### Evelyn-Hamblen-Classroom-Library-Listing.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2024/11/Evelyn-Hamblen-Classroom-Library-Listing.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### External-OSJ-Guidelines-1.16.24-1.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/sss/wp-content/uploads/sites/90/2024/01/External-OSJ-Guidelines-1.16.24-1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### FAQ-Regarding-Assessments-for-the-2020-2021-School-Year.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2021/04/FAQ-Regarding-Assessments-for-the-2020-2021-School-Year.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Florida-Financial-Aid-Application-Tips-.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2019/10/Florida-Financial-Aid-Application-Tips-.pdf
+- **Status**: analysed
+- title, 
+
+### Foreign-Exchange-Registration-Form-fillable.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/02/Foreign-Exchange-Registration-Form-fillable.pdf
+- **Status**: analysed
+- title, 
+
+### Grades-3-5-Grade-Level-Determinations.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2020/10/Grades-3-5-Grade-Level-Determinations.pdf
+- **Status**: analysed
+- title, 
+
+### Grades-K-2-Grade-Level-Determinations-October-2020.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2020/10/Grades-K-2-Grade-Level-Determinations-October-2020.pdf
+- **Status**: analysed
+- title, 
+
+### Graduation-Application-2020.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2020/09/Graduation-Application-2020.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Guide-to-FSA-Algebra-1-EOC-revised-October-2020-002-1.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/Guide-to-FSA-Algebra-1-EOC-revised-October-2020-002-1.pdf
+- **Status**: analysed
+- title, 
+
+### High-School-Advanced-Programs-24-25.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/High-School-Advanced-Programs-24-25.pdf
+- **Status**: analysed
+- title, 
+
+### Home-Ed-Affidavit-7.9.24.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/07/Home-Ed-Affidavit-7.9.24.pdf
+- **Status**: analysed
+- title, 
+
+### Home-Ed-Notice-of-Intent-9.30.25.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/206/2025/10/Home-Ed-Notice-of-Intent-9.30.25.pdf
+- **Status**: analysed
+- title, 
+
+### Home-Ed-Termination-Form-7.9.24.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/07/Home-Ed-Termination-Form-7.9.24.pdf
+- **Status**: analysed
+- title, 
+
+### Home-Ed-Transfer-Form-7.9.24.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/07/Home-Ed-Transfer-Form-7.9.24.pdf
+- **Status**: analysed
+- title, 
+
+### Home-Education-Evaluation-Form-7.9.24.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2024/08/Home-Education-Evaluation-Form-7.9.24.pdf
+- **Status**: analysed
+- title, 
+
+### Homework.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/Homework.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### How-Students-Track-a-Letter-of-Recommendation-Request.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/How-Students-Track-a-Letter-of-Recommendation-Request.pdf
+- **Status**: analysed
+- title, 
+
+### Informational-Brochure-for-Parents-rev.-2022.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2022/08/Informational-Brochure-for-Parents-rev.-2022.pdf
+- **Status**: analysed
+- title, 
+
+### MOU-Transfer-Process-2022-2023.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/staff/wp-content/uploads/sites/4/2022/01/MOU-Transfer-Process-2022-2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### New-Bright-Futures-Community-Service-Form-St.-Johns-Final-1.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/homeeducation/wp-content/uploads/sites/28/2022/12/New-Bright-Futures-Community-Service-Form-St.-Johns-Final-1.pdf
+- **Status**: analysed
+- title, 
+
+### New-Bright-Futures-Community-Service-Form-St.-Johns-Final.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2022/07/New-Bright-Futures-Community-Service-Form-St.-Johns-Final.pdf
+- **Status**: analysed
+- title, 
+
+### PR-Protocol-10-16-15.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2015/02/PR-Protocol-10-16-15.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Parent-Announcement-Template-Post-launch-1.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2025/08/Parent-Announcement-Template-Post-launch-1.pdf
+- **Status**: analysed
+- no date found, 
+
+### Parent-Survey-Results.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2020/06/Parent-Survey-Results.pdf
+- **Status**: analysed
+- title, 
+
+### Petition-form-Request-for-Policy-Exception-2021.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/06/Petition-form-Request-for-Policy-Exception-2021.pdf
+- **Status**: analysed
+- title, 
+
+### Principles-of-Participation-Responsibilities-2023.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2023/12/Principles-of-Participation-Responsibilities-2023.pdf
+- **Status**: analysed
+- title, 
+
+### Program-Providers-Template-Post-Launch.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2025/08/Program-Providers-Template-Post-Launch.pdf
+- **Status**: analysed
+- no date found, 
+
+### Proper-Use-of-FortifyFL-Training-for-Parents.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2024/11/Proper-Use-of-FortifyFL-Training-for-Parents.pdf
+- **Status**: analysed
+- title, 
+
+### Q-and-A-for-Award-Credit.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2015/02/Q-and-A-for-Award-Credit.pdf
+- **Status**: analysed
+- title, 
+
+### Quarantine-Family-Help-Guide-Elementary-rev-8-17-21.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2021/08/Quarantine-Family-Help-Guide-Elementary-rev-8-17-21.pdf
+- **Status**: analysed
+- title, 
+
+### Quarantine-Family-Help-Guide-Secondary-rev-8-17-21.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2021/08/Quarantine-Family-Help-Guide-Secondary-rev-8-17-21.pdf
+- **Status**: analysed
+- title, 
+
+### Registration-Form-2023.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2022/10/Registration-Form-2023.pdf
+- **Status**: analysed
+- title, 
+
+### Request-for-Reconsideration-Form.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/127/2022/02/Request-for-Reconsideration-Form.pdf
+- **Status**: analysed
+- title, 
+
+### SBN_Tip22_Lend-A-Hand.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2015/03/SBN_Tip22_Lend-A-Hand.pdf
+- **Status**: analysed
+- title, lang, 
+
+### SJCSD-Approved-Math-Instructional-Materials-2021.2022.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/127/2022/02/SJCSD-Approved-Math-Instructional-Materials-2021.2022.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### SJCSD-CCN-Vendor-Map-2025-2.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2025/09/SJCSD-CCN-Vendor-Map-2025-2.pdf
+- **Status**: analysed
+- title, lang, 
+
+### SJCSD-Comprehensive-Reading-Plan-2025-2026.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2025/08/SJCSD-Comprehensive-Reading-Plan-2025-2026.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### SJCSD-ESE-PAC-Flyer-10-7-2025.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2025/09/SJCSD-ESE-PAC-Flyer-10-7-2025.pdf
+- **Status**: analysed
+- title, 
+
+### SJCSD-Enhancing-Executive-Functioning-Skills-2-4-2025.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2025/01/SJCSD-Enhancing-Executive-Functioning-Skills-2-4-2025.pdf
+- **Status**: analysed
+- title, 
+
+### SJCSD-Faith-Based-Partnerships.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/cr/wp-content/uploads/sites/35/2025/09/SJCSD-Faith-Based-Partnerships.pdf
+- **Status**: analysed
+- title, 
+
+### SJCSD-Middle-School-Math-Progression.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2024/09/SJCSD-Middle-School-Math-Progression.pdf
+- **Status**: analysed
+- title, 
+
+### SJCSD-October-2025-Flyer-GPAC.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2025/10/SJCSD-October-2025-Flyer-GPAC.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Elementary.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2025/12/SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Elementary.pdf
+- **Status**: analysed
+- title, 
+
+### SJCSD-Reading-Intervention-Placement-Guide-2025-2026-High-School.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2025/12/SJCSD-Reading-Intervention-Placement-Guide-2025-2026-High-School.pdf
+- **Status**: analysed
+- title, 
+
+### SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Middle-School.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/spp/wp-content/uploads/sites/198/2025/12/SJCSD-Reading-Intervention-Placement-Guide-2025-2026-Middle-School.pdf
+- **Status**: analysed
+- title, 
+
+### SJCSD-Summer-Flyer-7-24-2025.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2025/05/SJCSD-Summer-Flyer-7-24-2025.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### SJVS-Fundraising-for-Chipotle-on-2.28.2017.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/supt/wp-content/uploads/sites/10/2017/02/SJVS-Fundraising-for-Chipotle-on-2.28.2017.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### SJVS-Fundraising-for-Panera-on-2.22.2017.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/supt/wp-content/uploads/sites/10/2017/02/SJVS-Fundraising-for-Panera-on-2.22.2017.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Scholarship-FAQs.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2016/12/Scholarship-FAQs.pdf
+- **Status**: analysed
+- title, 
+
+### Signature-page-for-online-application-2021.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/06/Signature-page-for-online-application-2021.pdf
+- **Status**: analysed
+- title, 
+
+### Social-Studies-Adoption-2022-2023-Review-Selections-3.21.2023.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/media/wp-content/uploads/sites/184/2023/03/Social-Studies-Adoption-2022-2023-Review-Selections-3.21.2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Student-Withdrawal-2021.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2021/06/Student-Withdrawal-2021.pdf
+- **Status**: analysed
+- title, 
+
+### Summer-Facility-Use-Flyer-2025.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2025/05/Summer-Facility-Use-Flyer-2025.pdf
+- **Status**: analysed
+- title, 
+
+### T4S-flyer-updated-8.21.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/sdfs/wp-content/uploads/sites/67/2021/08/T4S-flyer-updated-8.21.pdf
+- **Status**: analysed
+- title, 
+
+### Teacher-Change-Request-form.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/sites/94/2015/07/Teacher-Change-Request-form.pdf
+- **Status**: analysed
+- title, 
+
+### Water-Safety-1.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/student/wp-content/uploads/sites/21/2022/10/Water-Safety-1.pdf
+- **Status**: analysed
+- title, 
+
+### Whole-Grade-Acceleration-Parent-Letter.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/academics/wp-content/uploads/sites/29/2023/08/Whole-Grade-Acceleration-Parent-Letter.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Xello-Parent-Resources.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/guidance/wp-content/uploads/sites/142/2024/09/Xello-Parent-Resources.pdf
+- **Status**: analysed
+- title, 
+
+### ese-pac-flyer-4-2-2025.pdf
+
+- **URL**: https://www.stjohns.k12.fl.us/wp-content/uploads/2025/03/ese-pac-flyer-4-2-2025.pdf
+- **Status**: analysed
+- title, 
+
 ### 11th%20Grade%20Immunization%20Letter.pdf
 
 - **URL**: https://www.middletowncityschools.com/media/user/resources/11th%20Grade%20Immunization%20Letter.pdf
@@ -48602,3 +49317,9 @@ Generated: 2026-03-31T13:54:44.119187+00:00
 - **URL**: https://www.middletowncityschools.com/media/user/resources/sBHC%20cheat%20sheet%20(1).pdf
 - **Status**: analysed
 - title, 
+
+### RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
+- **Status**: analysed
+- PdfError: crawled_files/careerforce.mn.gov/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf: unable to find trailer dictionary while recovering damaged file

@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-01T12:49:30.711485+00:00",
+    "site": "careerforce.mn.gov",
+    "crawl_url": "https://careerforce.mn.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23849360322",
+    "issue_url": "",
+    "archive_file": "2026-04-01_12-49-30-711_careerforce.mn.gov.html",
+    "total": 1,
+    "analysed": 1,
+    "accessible": 0
+  },
+  {
     "date": "2026-03-31T13:54:44.119187+00:00",
     "site": "middletowncityschools.com",
     "crawl_url": "https://www.middletowncityschools.com",
