@@ -4,7 +4,7 @@
     "site": "dot.state.mn.us",
     "crawl_url": "https://www.dot.state.mn.us/index.html",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23852758369",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/213#issuecomment-4170461538",
     "archive_file": "2026-04-01_14-22-50-286_dot.state.mn.us.html",
     "total": 95,
     "analysed": 93,
