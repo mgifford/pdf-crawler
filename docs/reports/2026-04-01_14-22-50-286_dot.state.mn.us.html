@@ -1,0 +1,3985 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-04-01T14:22:50.288694+00:00",
+    "total_files": 95,
+    "analysed": 93,
+    "pending": 0,
+    "errored": 2,
+    "accessible": 17,
+    "totally_inaccessible": 7,
+    "broken": 0,
+    "exempt": 65,
+    "sites": {
+      "dot.state.mn.us": 95
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.dot.state.mn.us/bridge/pdf/lrfdmanual/workshop/2012-workshop.pdf",
+      "md5": "9679829db56b1dd2616b4513eb7594f0",
+      "filename": "2012-workshop.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.123594+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2017-07-11 18:21:45+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 10.1.2 (Windows)",
+        "Pages": 514,
+        "Words": 16513,
+        "Images": 1828
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/maps/gdma/data/2017_Status_Procedures.pdf",
+      "md5": "be6ebf8a12b46bd212a7c78567eed49e",
+      "filename": "2017_Status_Procedures.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.126805+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-02-27 14:56:11+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 13,
+        "Words": 3972,
+        "Images": 2
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mnroad/nrra/newsletter/documents/2018_ACPA_Quarterly_CCP_20181107.pdf",
+      "md5": "01921287821d37de8294fb4b17cc7a3d",
+      "filename": "2018_ACPA_Quarterly_CCP_20181107.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.142657+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2018-12-03 09:54:58-06:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 42,
+        "Words": 254,
+        "Images": 255
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/equity-diversity/documents/2022-2024%20Affirmative%20Action%20Plan%20-%20FINAL%20(06-12-2023).pdf",
+      "md5": "44d7fa9094a43b35dad701556d94f7ae",
+      "filename": "2022-2024%20Affirmative%20Action%20Plan%20-%20FINAL%20(06-12-2023).pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.147194+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2023-06-13 17:58:53+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 109,
+        "Words": 35368,
+        "Images": 7
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/materials/manuals/laboratory/2111.pdf",
+      "md5": "ea62fbe0df8c0db9875fc44c1a980862",
+      "filename": "2111.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.148321+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-10-12 15:26:34+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.0 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 1,
+        "Words": 149,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/environment/airquality/documents/MICE2.1_UserGuide.pdf",
+      "md5": "1a598bbb689cabcfd1082a8d952ac5d9",
+      "filename": "MICE2.1_UserGuide-0.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.151993+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-02-03 18:38:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 21 for Word",
+        "Producer": "Adobe PDF Library 21.11.71",
+        "Pages": 33,
+        "Words": 10241,
+        "Images": 51
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/environment/airquality/documents/MICE2.1_UserGuide.pdf",
+      "md5": "1a598bbb689cabcfd1082a8d952ac5d9",
+      "filename": "MICE2.1_UserGuide.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.155706+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-02-03 18:38:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 21 for Word",
+        "Producer": "Adobe PDF Library 21.11.71",
+        "Pages": 33,
+        "Words": 10241,
+        "Images": 51
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/d8/projects/manufacturersperspectives/Manufacturers'%20Perspective%20Pilot%20Study%20Final%20Report%20February%202014.pdf",
+      "md5": "e67a5ffe24a046f61343846da7ad397c",
+      "filename": "Manufacturers'%20Perspective%20Pilot%20Study%20Final%20Report%20February%202014.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.158381+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-07-03 18:40:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 56,
+        "Words": 16193,
+        "Images": 25
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/ofrw/maps/RailBankedCorridors.pdf",
+      "md5": "13a97fc3c598e1864c3b6257d4fe88dc",
+      "filename": "RailBankedCorridors.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.160915+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2008-04-09 17:42:24+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 7.0.5 (Windows)",
+        "Pages": 1,
+        "Words": 88,
+        "Images": 407
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/bridge/pdf/aestheticguidelinesforbridgedesign.pdf",
+      "md5": "952fd7919d4256b5b24420a1cffada67",
+      "filename": "aestheticguidelinesforbridgedesign.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.249023+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2013-07-29 20:19:55+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Acrobat 7.05",
+        "Producer": "Adobe Acrobat 7.05 Paper Capture Plug-in",
+        "Pages": 89,
+        "Words": 35289,
+        "Images": 3046
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/aero/planning/documents/airportlandusecompatabilitymanual/airportlandusecompatabilitymanual.pdf",
+      "md5": "c42a1ad910aee8096d7177a18e2df28f",
+      "filename": "airportlandusecompatabilitymanual.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.270170+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-03-24 13:59:30+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Word: cgpdftops CUPS filter",
+        "Producer": "Acrobat Distiller 7.0 for Macintosh",
+        "Pages": 202,
+        "Words": 72819,
+        "Images": 71
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/statemap/2023/backside_2023_insets.pdf",
+      "md5": "ef6129e32e0e225f8e7e799d2f231882",
+      "filename": "backside_2023_insets.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.277259+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-06-28 15:38:53+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe Illustrator 27.6 (Windows)",
+        "Producer": "Adobe PDF library 17.00",
+        "Pages": 1,
+        "Words": 36,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mnroad/nrra/newsletter/documents/cement%20stabilized%20presentation%20.pdf",
+      "md5": "e65496f31cb4b226a211661292113786",
+      "filename": "cement%20stabilized%20presentation%20.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.286241+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2017-05-26 16:11:41+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 15.0 (Windows)",
+        "Pages": 51,
+        "Words": 1388,
+        "Images": 586
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mps/docs/d1reportada.pdf",
+      "md5": "0c2822ed13cce9c6e4fb2782711cf35f",
+      "filename": "d1reportada.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.310523+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-09-20 18:26:46+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 97,
+        "Words": 25903,
+        "Images": 51
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mps/docs/d2report.pdf",
+      "md5": "29a707f2f40d1d227d48cf5fa6552fee",
+      "filename": "d2report.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.317311+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2016-08-08 18:48:10+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe Illustrator CC (Windows)",
+        "Producer": "Adobe Photoshop for Windows -- Image Conversion Plug-in",
+        "Pages": 90,
+        "Words": 27516,
+        "Images": 56
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mps/docs/d4report.pdf",
+      "md5": "76c6d624a80d6af2914ccb8f046cbb45",
+      "filename": "d4report.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.330091+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-05-08 21:03:23+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 83,
+        "Words": 22465,
+        "Images": 48
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mps/docs/d8report.pdf",
+      "md5": "e67a5ffe24a046f61343846da7ad397c",
+      "filename": "d8report.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.332754+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-07-03 18:40:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 56,
+        "Words": 16193,
+        "Images": 25
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/information/docs/district-map-with-sub-areas.pdf",
+      "md5": "c49532da857dab3a283900cce6df0ef0",
+      "filename": "district-map-with-sub-areas.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.335459+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-12-26 19:23:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Adobe Illustrator CC 2017 (Windows)",
+        "Producer": "Adobe PDF library 15.00",
+        "Pages": 1,
+        "Words": 101,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/maintenance/hsop/pdf/executivesummary.pdf",
+      "md5": "2a92daac111e0703684571dc8135a652",
+      "filename": "executivesummary.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.342384+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-09-13 16:37:41+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CS5.5 (7.5)",
+        "Producer": "Adobe PDF Library 9.9",
+        "Pages": 9,
+        "Words": 4983,
+        "Images": 19
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/ofrw/freight/PDF/freight-network-guide.pdf",
+      "md5": "ab39ba47cdcb575cbb802f84b0d05bd3",
+      "filename": "freight-network-guide.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.343939+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-06-12 13:45:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 4,
+        "Words": 940,
+        "Images": 3
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/great-river-road.pdf",
+      "md5": "89c4ba4817b7415de6f6858c4d625c00",
+      "filename": "great-river-road.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.356733+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2016-04-11 20:25:21+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CC 2014 (Windows)",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 168,
+        "Words": 48820,
+        "Images": 120
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/maps/gdma/data/maps/metro_area/metroarea-2022.pdf",
+      "md5": "3d75c904b233a49d1567953f9059cbe9",
+      "filename": "metroarea-2022.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.371594+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-01-13 15:35:12+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Esri ArcGIS Pro 2.7.0.26828",
+        "Producer": null,
+        "Pages": 1,
+        "Words": 3935,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/trafficeng/topics/mmutcd-presentation.pdf",
+      "md5": "0a51a603a63453c9e1f5fec8135380f2",
+      "filename": "mmutcd-presentation.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.376638+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2025-12-18 19:27:56+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "Microsoft: Print To PDF",
+        "Pages": 23,
+        "Words": 2899,
+        "Images": 96
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/ada/pdf/mndotadatransitionplan.pdf",
+      "md5": "a6c6a65a7b080769f2c9e002ffcbdb38",
+      "filename": "mndotadatransitionplan-0.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.379935+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-05-22 15:07:14+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.0 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 89,
+        "Words": 24691,
+        "Images": 7
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/ada/pdf/mndotadatransitionplan.pdf",
+      "md5": "a6c6a65a7b080769f2c9e002ffcbdb38",
+      "filename": "mndotadatransitionplan.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.383235+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-05-22 15:07:14+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.0 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 89,
+        "Words": 24691,
+        "Images": 7
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/trafficeng/pavement/doc-storage/mndotpavementmarkingfieldguide.pdf",
+      "md5": "e164241d9a369dd305b237f5e1aea3b4",
+      "filename": "mndotpavementmarkingfieldguide.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.391194+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-05 13:35:28+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CS6 (Windows)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 86,
+        "Words": 20341,
+        "Images": 75
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/accessmanagement/docs/pdf/modelordinance.pdf",
+      "md5": "62612548a57f9921c03c777b0e5ede4b",
+      "filename": "modelordinance.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.392713+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-06-24 15:50:57+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 8.2.3 (Windows)",
+        "Pages": 16,
+        "Words": 5504,
+        "Images": 3
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/products/roadsafety/pdf/newproductapp.pdf",
+      "md5": "06927fac932e20373debf42a6bdcc4d2",
+      "filename": "newproductapp.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.394091+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-07-08 19:18:13+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 17 for Word",
+        "Producer": "Adobe PDF Library 17.11.238",
+        "Pages": 2,
+        "Words": 254,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.dot.state.mn.us/row/pdfs/relo-booklet.pdf",
+      "md5": "7a5d39539a8a4d8961b78263071b415d",
+      "filename": "relo-booklet.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.396668+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2021-02-02 21:12:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 17 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 52,
+        "Words": 6978,
+        "Images": 16
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/maintenance/hsop/pdf/report.pdf",
+      "md5": "3867f90104d6d7db78d901ac1a127b32",
+      "filename": "report.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.415501+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2012-09-13 16:37:06+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 196,
+        "Words": 59258,
+        "Images": 206
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/section-12.pdf",
+      "md5": "e95cfe237f7bfeb5e963f9c7c1179489",
+      "filename": "section-12.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.416686+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-11-25 14:55:26+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Acrobat PDFMaker 8.1 for Word",
+        "Producer": "Acrobat Distiller 8.2.2 (Windows)",
+        "Pages": 2,
+        "Words": 759,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/section-17.pdf",
+      "md5": "a0063dae22279d96b85bdda19b626fe6",
+      "filename": "section-17.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.417923+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-07-10 17:21:40+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 8.1 for Word",
+        "Producer": "Acrobat Distiller 8.2.3 (Windows)",
+        "Pages": 3,
+        "Words": 889,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/section-6.pdf",
+      "md5": "5381d92fc014667203f1fb00504df113",
+      "filename": "section-6.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.419083+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-11-25 14:53:30+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 288,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/surveying/pdf/sm-instructions.pdf",
+      "md5": "2ada42c34188b243aecf4f4dfe6be0ab",
+      "filename": "sm-instructions-0.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.420351+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2000-09-13 13:59:26-05:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 152,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/surveying/pdf/sm-instructions.pdf",
+      "md5": "2ada42c34188b243aecf4f4dfe6be0ab",
+      "filename": "sm-instructions.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.421615+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2000-09-13 13:59:26-05:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 152,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/surveying/pdf/sm-manual-2000.pdf",
+      "md5": "4b6919dbeb68538fe40c9eaa33c28a68",
+      "filename": "sm-manual-2000.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.428197+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2000-09-08 13:35:59-05:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 326,
+        "Words": 98195,
+        "Images": 500
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/surveying/pdf/sm-manual-2007.pdf",
+      "md5": "cd6c927e8a119544747b2d3bb9636400",
+      "filename": "sm-manual-2007.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.435271+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-09-14 19:24:14+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 7.0.5 (Windows)",
+        "Pages": 395,
+        "Words": 119605,
+        "Images": 65
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/maps/gdma/data/maps/bicycle/state/statebikemap.pdf",
+      "md5": "6af33bc5521f8f265e889af7a7f67211",
+      "filename": "statebikemap.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.499651+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "Analysis exceeded 120s per-file limit"
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/trafficeng/signing/plansheets/stsheetsdesignb.pdf",
+      "md5": "089d26e3951c24ce017609f723d780a8",
+      "filename": "stsheetsdesignb.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.512461+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-08-16 17:41:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "RICOH MP C5503",
+        "Producer": "RICOH MP C5503",
+        "Pages": 13,
+        "Words": 0,
+        "Images": 13
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/products/signing/pdf/surfacemountspecs.pdf",
+      "md5": "aa92d26469f959af2e844918feb327aa",
+      "filename": "surfacemountspecs.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.513662+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-04-22 19:56:21+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 1,
+        "Words": 240,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/environment/regulatedmaterials/pdf/template_for_record_keeping_feb17.pdf",
+      "md5": "8dcfb6df30765ca7e00c27227af50d89",
+      "filename": "template_for_record_keeping_feb17.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.514832+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-02-07 22:15:16+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 46,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/information/truckstudy/pdf/trucksizeweightreport.pdf",
+      "md5": "c1c5026b4467566364a0ea71578ba76d",
+      "filename": "trucksizeweightreport.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.522047+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2006-09-07 12:48:48+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 7.0 for Word",
+        "Producer": "Acrobat Distiller 7.0 (Windows)",
+        "Pages": 190,
+        "Words": 53720,
+        "Images": 954
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/maps/gdma/data/maps/township/yellowmedicine/wood-lake.pdf",
+      "md5": "05d8e4652b16c143a2a3cbd335dcface",
+      "filename": "wood-lake.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.526336+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 760,
+        "Images": 104
+      },
+      "errors": [
+        "no date found, title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/environment/pdf/work-plan.pdf",
+      "md5": "b41f2944d7e9c7304d01d5c4ea53558b",
+      "filename": "work-plan.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-03-19T12:13:27.528676+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-03-31 14:41:21+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 31,
+        "Words": 7125,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/d8/projects/hwy212hwy22glencoe/documents/11649_GlencoeReport_021920.pdf",
+      "md5": "fc470a1553d5758ceabecd5580902c85",
+      "filename": "11649_GlencoeReport_021920.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.556038+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-02-21 13:29:23+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 15.0 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 29,
+        "Words": 7643,
+        "Images": 37
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.dot.state.mn.us/materials/manuals/laboratory/2110.pdf",
+      "md5": "1c703ec206e5b4419aae9549fefb8d28",
+      "filename": "2110.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.608074+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-06-22 21:28:03+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.0 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 1,
+        "Words": 234,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/sustainability/documents/62003011_20230727_CTS_WG%20Agendav3.pdf",
+      "md5": "ff6aa8a497bf3152845911f0901e5944",
+      "filename": "62003011_20230727_CTS_WG%20Agendav3.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.610715+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-07-28 16:27:23+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.3.20",
+        "Pages": 2,
+        "Words": 196,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.dot.state.mn.us/aero/planning/sasp/Aviation%20Chapter%20from%202040-TPP-Complete-Plan.pdf",
+      "md5": "bccc3a21e6100e4cfbcb24a35bdd1c48",
+      "filename": "Aviation%20Chapter%20from%202040-TPP-Complete-Plan.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.614586+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2017-08-16 19:47:09+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CC 2014 (Windows)",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 32,
+        "Words": 9940,
+        "Images": 21
+      },
+      "errors": [
+        "title, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/surveying/geodetics/Data_Sheet_Definitions.pdf",
+      "md5": "d5ec50c467e53a9937c4ab656c0bed69",
+      "filename": "Data_Sheet_Definitions.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.616472+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2012-03-02 13:36:52+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Office Word 2007",
+        "Producer": "Microsoft\u00ae Office Word 2007",
+        "Pages": 9,
+        "Words": 3026,
+        "Images": 11
+      },
+      "errors": [
+        "title, tagged, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/d8/pdfs/District%208%20Shoulder%20Widening%20Prioritzation%20Study.pdf",
+      "md5": "572e9f6354a5a061e1a27d62cc364b37",
+      "filename": "District%208%20Shoulder%20Widening%20Prioritzation%20Study.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.634791+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": false,
+        "Date": "2021-09-10 16:38:58+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 41,
+        "Words": 12411,
+        "Images": 1856
+      },
+      "errors": [
+        "no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/surveying/geodetics/Geodetic_History_in_Minnesota.pdf",
+      "md5": "613f7ca134b3709834549a8cea3e106a",
+      "filename": "Geodetic_History_in_Minnesota.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.648248+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "Analysis exceeded 120s per-file limit"
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/d8/projects/hwy212hwy22glencoe/documents/GlencoeTranPlan_ExecSum_2020-01-27.pdf",
+      "md5": "e2a8382bbbc6b0931d469b6e418219da",
+      "filename": "GlencoeTranPlan_ExecSum_2020-01-27.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.651254+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-01-27 12:29:48+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae PowerPoint\u00ae for Office 365",
+        "Producer": "Microsoft\u00ae PowerPoint\u00ae for Office 365",
+        "Pages": 6,
+        "Words": 1248,
+        "Images": 27
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.dot.state.mn.us/ofrw/PDF/Mn2000FrtFlowsStdyComplete.pdf",
+      "md5": "8b3bec4d33b25256a00e6e15d3e7eda4",
+      "filename": "Mn2000FrtFlowsStdyComplete.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.667881+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2007-06-25 18:34:56+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": "Microsoft Word",
+        "Producer": "Acrobat PDFWriter 4.05 for Windows NT",
+        "Pages": 204,
+        "Words": 60468,
+        "Images": 67
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/trafficeng/publ/signallighting/To%20delete/Sample-Plan%2012312025.PDF",
+      "md5": "c62948b5e81e5cc6c73a4aa0c5c0c581",
+      "filename": "Sample-Plan%2012312025.PDF",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.682224+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-12-17 19:50:43+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "OpenRoads Designer 23.0.1.11 by Bentley Systems, Incorporated",
+        "Producer": "Adobe PDF Library 18.0.4",
+        "Pages": 13,
+        "Words": 10161,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/maps/permits/pdfs/SpecialDesignEmbankments.pdf",
+      "md5": "d7e468459e5480ba6636594644fef47a",
+      "filename": "SpecialDesignEmbankments.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.698038+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-05-04 16:51:16+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "ESRI ArcMap 9.3.1.1850",
+        "Producer": "Adobe Acrobat 8.1",
+        "Pages": 23,
+        "Words": 2481,
+        "Images": 644
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mnmodel/geomorphology/UpdatedCodeKeyTable.pdf",
+      "md5": "284ec4f553ba6f4c7ac9bc6afdc3d597",
+      "filename": "UpdatedCodeKeyTable.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.699920+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2013-05-10 18:39:35+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 10.0 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 45,
+        "Words": 11426,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/design/landscape-treatments/pdf/appendix7.pdf",
+      "md5": "aa950816c42b4ddbc90f9db1850c8322",
+      "filename": "appendix7.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.720987+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2009-02-03 14:26:36+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 8.1.0 (Windows)",
+        "Pages": 2,
+        "Words": 706,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/bike/documents/safety-education/bike-law-summary.pdf",
+      "md5": "0ebf4b6a46f2711ad01c4940f4395a8c",
+      "filename": "bike-law-summary.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.729424+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-07-03 15:34:37+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF library 15.00",
+        "Pages": 2,
+        "Words": 1217,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/bike/documents/safety-education/bike-pocket-card.pdf",
+      "md5": "699507c2c70765767b214a415ef50068",
+      "filename": "bike-pocket-card.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.731982+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-06-09 14:54:02+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe Illustrator CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF library 15.00",
+        "Pages": 2,
+        "Words": 184,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/bridge/pdf/cebo-outline.pdf",
+      "md5": "37821b3cd3c1937c019c2bb1f3077f39",
+      "filename": "cebo-outline.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.733436+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-30 20:01:12+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 17.0 (Windows)",
+        "Pages": 1,
+        "Words": 357,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.dot.state.mn.us/trafficeng/pavement/typicaldetail/characterareas10.22.19.pdf",
+      "md5": "76e1ccca4f524da177f17648aff4f91a",
+      "filename": "characterareas10.22.19-0.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.735287+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-10-24 18:42:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Power GEOPAK 8.11.9.832 by Bentley Systems, Incorporated",
+        "Producer": "Adobe PDF Library 9.0",
+        "Pages": 5,
+        "Words": 1388,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/trafficeng/pavement/typicaldetail/characterareas10.22.19.pdf",
+      "md5": "76e1ccca4f524da177f17648aff4f91a",
+      "filename": "characterareas10.22.19.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.737144+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-10-24 18:42:29+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Power GEOPAK 8.11.9.832 by Bentley Systems, Incorporated",
+        "Producer": "Adobe PDF Library 9.0",
+        "Pages": 5,
+        "Words": 1388,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/culturalresources/docs/cru-consultant-guidelines.pdf",
+      "md5": "5e9fb413cce08ea780f509ac720bb75f",
+      "filename": "cru-consultant-guidelines.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.738962+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2017-01-23 16:16:22+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 27,
+        "Words": 11628,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/culturalresources/docs/early-not.pdf",
+      "md5": "f3abc7d215cd47d3ca585641364225b3",
+      "filename": "early-not.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.740393+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2020-11-19 14:17:30+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 3,
+        "Words": 685,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mnmodel/lfsaanokasandplain/figure17.pdf",
+      "md5": "7819879c3f9dd1859879084fa7c30d57",
+      "filename": "figure17.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.749483+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 87,
+        "Images": 7
+      },
+      "errors": [
+        "no date found, title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mnmodel/lfsaanokasandplain/figure18.pdf",
+      "md5": "2637870c9104a670bd885afe967f940b",
+      "filename": "figure18.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.750962+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2009-07-08 15:33:29-05:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 1,
+        "Words": 48,
+        "Images": 6
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/ofrw/PDF/grainDisStdy2000213.pdf",
+      "md5": "cdfd3b74dec486a7986f73d060a015ac",
+      "filename": "grainDisStdy2000213.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.771581+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2006-02-10 11:02:50-06:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 76,
+        "Words": 1138,
+        "Images": 71
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/design/landscape-treatments/pdf/guidelines.pdf",
+      "md5": "b084126c461b8d452d9262ad4074def0",
+      "filename": "guidelines.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.772952+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2009-01-28 18:49:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 6.0 for Word",
+        "Producer": "Acrobat Distiller 6.0.1 (Windows)",
+        "Pages": 5,
+        "Words": 1701,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/historic-bluff-country-corridor-management-plan.pdf",
+      "md5": "946805adeab2deba9ef0c306cfb53700",
+      "filename": "historic-bluff-country-corridor-management-plan.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.783127+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-03-27 21:38:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe Acrobat Pro DC 18.11.20038",
+        "Producer": "Adobe Acrobat Pro DC 18.11.20038",
+        "Pages": 185,
+        "Words": 37448,
+        "Images": 97
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/roadsides/historic/files/inspiration-point-final.pdf",
+      "md5": "ec418e330ab5c904dadb0054002340bc",
+      "filename": "inspiration-point-final.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.806241+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2014-10-27 15:48:40+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 45,
+        "Words": 9672,
+        "Images": 42
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/king-of-trails-cmp.pdf",
+      "md5": "d6748312d9a3ebb388a9dc1105c48956",
+      "filename": "king-of-trails-cmp.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.812695+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-05-22 14:03:58+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Microsoft\u00ae Word 2010",
+        "Producer": "Microsoft\u00ae Word 2010",
+        "Pages": 83,
+        "Words": 27825,
+        "Images": 50
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/lady-slipper-cmp.pdf",
+      "md5": "94b19d1fa8ffa55019e1378d535c7d53",
+      "filename": "lady-slipper-cmp.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.821059+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-05-27 20:53:39+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 32,
+        "Words": 9387,
+        "Images": 8
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/culturalresources/docs/rail/maps4.pdf",
+      "md5": "1527050c0ca3aae11dd617920c7636fa",
+      "filename": "maps4.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.823379+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2007-08-15 19:33:21+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 7.0.5 (Windows)",
+        "Pages": 3,
+        "Words": 1055,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/restareas/pdf/missing-children-posting.pdf",
+      "md5": "a9c10345ff5d1f9cde2d6f6567abccf5",
+      "filename": "missing-children-posting.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.824721+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2010-09-14 18:10:43+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": "Acrobat 4.0 Capture Plug-in for Windows",
+        "Producer": "Acrobat PDFWriter 5.0 for Windows NT",
+        "Pages": 1,
+        "Words": 176,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/n-shore-cmp.pdf",
+      "md5": "8b5d322ec7ed4ceaa2a4c5f49c45d8a3",
+      "filename": "n-shore-cmp.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.846589+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-12-30 21:36:26+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Office 365",
+        "Producer": "Microsoft\u00ae Word for Office 365",
+        "Pages": 26,
+        "Words": 5589,
+        "Images": 21
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/mnroad/ncat-partnership/files/national-apttesting-ncat-mnroad-feb2015.pdf",
+      "md5": "3f4b5c258bdab5683cc5472e12aafc3a",
+      "filename": "national-apttesting-ncat-mnroad-feb2015.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.848404+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-02-26 07:12:51-06:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 2,
+        "Words": 752,
+        "Images": 4
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/otter-trail-cmp.pdf",
+      "md5": "dd9777ad9ecade7b8fe2b47a36af6006",
+      "filename": "otter-trail-cmp.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.852510+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-03 17:31:08-05:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 17,
+        "Words": 3377,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/paul-bunyan-cmp.pdf",
+      "md5": "baeeadbd620a4f53cfe74a9bd823fb9a",
+      "filename": "paul-bunyan-cmp.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.863756+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2015-05-28 09:19:52-05:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 82,
+        "Words": 24349,
+        "Images": 37
+      },
+      "errors": [
+        "title, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/roadsides/vegetation/pdf/poison-hemlock.pdf",
+      "md5": "e3549d183bdb217c9f67fd96c1d9e76f",
+      "filename": "poison-hemlock.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.865833+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2018-06-20 16:24:44+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 2,
+        "Words": 340,
+        "Images": 5
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/culturalresources/docs/section106generalagreementtosignatories.pdf",
+      "md5": "58ab708300e446f0352ab874bd1d8614",
+      "filename": "section106generalagreementtosignatories.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.869155+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2015-04-13 12:20:36+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 10.1 for Word",
+        "Producer": "Adobe PDF Library 10.0",
+        "Pages": 18,
+        "Words": 637,
+        "Images": 16
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/skyline-cmp.pdf",
+      "md5": "3ccef9948396018054849f11b3734c30",
+      "filename": "skyline-cmp.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.881242+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "Exempt": true,
+        "Date": "2016-02-26 16:39:53+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2010",
+        "Producer": "Acrobat Distiller 10.1.2 (Windows)",
+        "Pages": 100,
+        "Words": 31776,
+        "Images": 202
+      },
+      "errors": [
+        "title, tagged, lang, no bookmarks and more than 20 pages, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/products/signing/pdf/slipbaseinstallation.pdf",
+      "md5": "d47d90d3b3004dd35bb9e9ca836a1a08",
+      "filename": "slipbaseinstallation.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.883289+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2013-07-01 19:21:20+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "GPL Ghostscript 8.15",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/surveying/pdf/sm-manual-2000.pdf",
+      "md5": "4b6919dbeb68538fe40c9eaa33c28a68",
+      "filename": "sm-manual-2000.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.891113+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2000-09-08 13:35:59-05:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 326,
+        "Words": 98195,
+        "Images": 500
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/surveying/pdf/sm-manual-2007.pdf",
+      "md5": "cd6c927e8a119544747b2d3bb9636400",
+      "filename": "sm-manual-2007.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.898192+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2011-09-14 19:24:14+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 7.0.5 (Windows)",
+        "Pages": 395,
+        "Words": 119605,
+        "Images": 65
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/products/signing/pdf/specs-qualification-process.pdf",
+      "md5": "a4bcb715dbb4238052cb0b5d9d4c9b81",
+      "filename": "specs-qualification-process.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.899586+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-12-03 01:14:50+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 17 for Word",
+        "Producer": "Adobe PDF Library 15.0",
+        "Pages": 1,
+        "Words": 282,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/st-croix-report.pdf",
+      "md5": "17f9ae1a297e62ab7e4e980c9fad3e19",
+      "filename": "st-croix-report.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.902873+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-29 13:59:46-05:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 18,
+        "Words": 2738,
+        "Images": 8
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/environment/erosion/pdf/vegetation/turfgrass-form.pdf",
+      "md5": "a12e3ba27a64f7f8766426e055649a86",
+      "filename": "turfgrass-form.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.905483+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-02-26 19:16:11+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 209,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_o.pdf",
+      "md5": "56df042bda009bdbf4f83d9a5ab6b8b5",
+      "filename": "type_o.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.907239+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2009-01-28 18:47:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "PScript5.dll Version 5.2",
+        "Producer": "Acrobat Distiller 6.0 (Windows)",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_p.pdf",
+      "md5": "a449d094b7d5435143c4a5525510fd07",
+      "filename": "type_p.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.908883+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2009-01-28 18:47:44+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "PScript5.dll Version 5.2",
+        "Producer": "Acrobat Distiller 6.0 (Windows)",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 4
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_q.pdf",
+      "md5": "288062ef0ab78e0b4a196813e65084b8",
+      "filename": "type_q.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.910663+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2009-01-28 18:47:27+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "PScript5.dll Version 5.2",
+        "Producer": "Acrobat Distiller 6.0 (Windows)",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 7
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_r.pdf",
+      "md5": "def503335b5fef95c2f306a48450f0c5",
+      "filename": "type_r.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.912284+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2009-01-28 18:47:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "PScript5.dll Version 5.2",
+        "Producer": "Acrobat Distiller 6.0 (Windows)",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 2
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_s.pdf",
+      "md5": "58f7bb92328507a72b05d9b319d957c4",
+      "filename": "type_s.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.914050+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2009-01-28 18:47:11+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "PScript5.dll Version 5.2",
+        "Producer": "Acrobat Distiller 6.0 (Windows)",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 5
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/products/signing/pdf/typelabel.pdf",
+      "md5": "f7f6795a99d1b1671e32d64180c0881c",
+      "filename": "typelabel.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.915724+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2019-08-22 14:08:12+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CS6 (Windows)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 1,
+        "Words": 142,
+        "Images": 1
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/veterans-evergreen-memorial.pdf",
+      "md5": "42afcc72f15e6ad78ab72afdde558ebc",
+      "filename": "veterans-evergreen-memorial.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.918705+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2015-06-01 14:27:07-05:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 21,
+        "Words": 3728,
+        "Images": 6
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.dot.state.mn.us/roadsides/historic/files/wayrep.pdf",
+      "md5": "60ab44598631f3f803076c1e4100f4d2",
+      "filename": "wayrep.pdf",
+      "site": "dot.state.mn.us",
+      "crawled_at": "2026-04-01T14:04:57.926123+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2002-02-28 15:43:31-06:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.3",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 242,
+        "Words": 73199,
+        "Images": 58
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
+      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        var extDomain = '';
+        try {
+          var pdfHost = new URL(f.url).hostname.replace(/^www\./, '');
+          var seed = (f.site || '').replace(/^www\./, '');
+          if (pdfHost && seed && pdfHost !== seed && !pdfHost.endsWith('.' + seed)) {
+            extDomain = pdfHost;
+          }
+        } catch (e) {}
+        var siteCell = esc(f.site || '');
+        if (extDomain) {
+          siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
+        }
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        var colDefs = [
+          { key: 'file',       label: 'File' },
+          { key: 'site',       label: 'Site' },
+          { key: 'date',       label: 'Published Date' },
+          { key: 'accessible', label: 'Accessible' },
+          { key: 'tagged',     label: 'Tagged' },
+          { key: 'title',      label: 'Title' },
+          { key: 'language',   label: 'Language' },
+          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'pages',      label: 'Pages' },
+        ];
+        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
+        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>

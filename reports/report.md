@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-04-01T13:44:57.124498+00:00
+Generated: 2026-04-01T14:22:50.286776+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 156 |
-| Total files tracked | 19111 |
-| Analysed | 5607 |
+| URLs crawled | 400 |
+| Total files tracked | 19162 |
+| Analysed | 5657 |
 | Pending analysis | 10094 |
-| Errors during analysis | 3410 |
-| Accessible | 1766 |
-| Totally inaccessible | 237 |
+| Errors during analysis | 3411 |
+| Accessible | 1777 |
+| Totally inaccessible | 243 |
 | Broken / unreadable | 14 |
-| Exempt (pre-2018) | 1376 |
+| Exempt (pre-2018) | 1409 |
 
 ## Files per Site
 
@@ -38,7 +38,7 @@ Generated: 2026-04-01T13:44:57.124498+00:00
 | dc.gov | 74 |
 | dnr.state.mn.us | 8 |
 | doit.maryland.gov | 284 |
-| dot.state.mn.us | 44 |
+| dot.state.mn.us | 95 |
 | ec.europa.eu | 199 |
 | ecboces.org | 75 |
 | ed.gov | 2886 |
@@ -5691,6 +5691,56 @@ Generated: 2026-04-01T13:44:57.124498+00:00
 | [SOM_R351_CareerForce%20Job%20Seeker%20Brochure%202025-acc_Somali.pdf](https://careerforce.mn.gov/sites/default/files/2025-07/SOM_R351_CareerForce%20Job%20Seeker%20Brochure%202025-acc_Somali.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [SOM_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_Somali.pdf](https://careerforce.mn.gov/sites/default/files/2025-07/SOM_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_Somali.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [SPA_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_SPANISH.pdf](https://careerforce.mn.gov/sites/default/files/2025-07/SPA_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_SPANISH.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [11649_GlencoeReport_021920.pdf](http://www.dot.state.mn.us/d8/projects/hwy212hwy22glencoe/documents/11649_GlencoeReport_021920.pdf) | dot.state.mn.us | 2020-02-21 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 29 | 7643 | 37 |
+| [2110.pdf](https://www.dot.state.mn.us/materials/manuals/laboratory/2110.pdf) | dot.state.mn.us | 2020-06-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 234 | 0 |
+| [62003011_20230727_CTS_WG%20Agendav3.pdf](http://www.dot.state.mn.us/sustainability/documents/62003011_20230727_CTS_WG%20Agendav3.pdf) | dot.state.mn.us | 2023-07-28 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 196 | 1 |
+| [Aviation%20Chapter%20from%202040-TPP-Complete-Plan.pdf](https://www.dot.state.mn.us/aero/planning/sasp/Aviation%20Chapter%20from%202040-TPP-Complete-Plan.pdf) | dot.state.mn.us | 2017-08-16 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 32 | 9940 | 21 |
+| [Data_Sheet_Definitions.pdf](http://www.dot.state.mn.us/surveying/geodetics/Data_Sheet_Definitions.pdf) | dot.state.mn.us | 2012-03-02 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 3026 | 11 |
+| [District%208%20Shoulder%20Widening%20Prioritzation%20Study.pdf](http://www.dot.state.mn.us/d8/pdfs/District%208%20Shoulder%20Widening%20Prioritzation%20Study.pdf) | dot.state.mn.us | 2021-09-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 41 | 12411 | 1856 |
+| [GlencoeTranPlan_ExecSum_2020-01-27.pdf](http://www.dot.state.mn.us/d8/projects/hwy212hwy22glencoe/documents/GlencoeTranPlan_ExecSum_2020-01-27.pdf) | dot.state.mn.us | 2020-01-27 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1248 | 27 |
+| [Mn2000FrtFlowsStdyComplete.pdf](https://www.dot.state.mn.us/ofrw/PDF/Mn2000FrtFlowsStdyComplete.pdf) | dot.state.mn.us | 2007-06-25 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 204 | 60468 | 67 |
+| [Sample-Plan%2012312025.PDF](http://www.dot.state.mn.us/trafficeng/publ/signallighting/To%20delete/Sample-Plan%2012312025.PDF) | dot.state.mn.us | 2025-12-17 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 10161 | 2 |
+| [SpecialDesignEmbankments.pdf](http://www.dot.state.mn.us/maps/permits/pdfs/SpecialDesignEmbankments.pdf) | dot.state.mn.us | 2011-05-04 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 23 | 2481 | 644 |
+| [UpdatedCodeKeyTable.pdf](http://www.dot.state.mn.us/mnmodel/geomorphology/UpdatedCodeKeyTable.pdf) | dot.state.mn.us | 2013-05-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 45 | 11426 | 0 |
+| [appendix7.pdf](http://www.dot.state.mn.us/design/landscape-treatments/pdf/appendix7.pdf) | dot.state.mn.us | 2009-02-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 706 | 0 |
+| [bike-law-summary.pdf](http://www.dot.state.mn.us/bike/documents/safety-education/bike-law-summary.pdf) | dot.state.mn.us | 2017-07-03 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 1217 | 4 |
+| [bike-pocket-card.pdf](http://www.dot.state.mn.us/bike/documents/safety-education/bike-pocket-card.pdf) | dot.state.mn.us | 2017-06-09 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 184 | 0 |
+| [cebo-outline.pdf](https://www.dot.state.mn.us/bridge/pdf/cebo-outline.pdf) | dot.state.mn.us | 2021-04-30 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 357 | 0 |
+| [characterareas10.22.19-0.pdf](https://www.dot.state.mn.us/trafficeng/pavement/typicaldetail/characterareas10.22.19.pdf) | dot.state.mn.us | 2019-10-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1388 | 0 |
+| [characterareas10.22.19.pdf](http://www.dot.state.mn.us/trafficeng/pavement/typicaldetail/characterareas10.22.19.pdf) | dot.state.mn.us | 2019-10-24 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1388 | 0 |
+| [cru-consultant-guidelines.pdf](http://www.dot.state.mn.us/culturalresources/docs/cru-consultant-guidelines.pdf) | dot.state.mn.us | 2017-01-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 27 | 11628 | 0 |
+| [early-not.pdf](http://www.dot.state.mn.us/culturalresources/docs/early-not.pdf) | dot.state.mn.us | 2020-11-19 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 685 | 0 |
+| [figure17.pdf](http://www.dot.state.mn.us/mnmodel/lfsaanokasandplain/figure17.pdf) | dot.state.mn.us | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 87 | 7 |
+| [figure18.pdf](http://www.dot.state.mn.us/mnmodel/lfsaanokasandplain/figure18.pdf) | dot.state.mn.us | 2009-07-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 48 | 6 |
+| [grainDisStdy2000213.pdf](https://www.dot.state.mn.us/ofrw/PDF/grainDisStdy2000213.pdf) | dot.state.mn.us | 2006-02-10 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 76 | 1138 | 71 |
+| [guidelines.pdf](http://www.dot.state.mn.us/design/landscape-treatments/pdf/guidelines.pdf) | dot.state.mn.us | 2009-01-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 5 | 1701 | 0 |
+| [historic-bluff-country-corridor-management-plan.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/historic-bluff-country-corridor-management-plan.pdf) | dot.state.mn.us | 2018-03-27 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 185 | 37448 | 97 |
+| [inspiration-point-final.pdf](http://www.dot.state.mn.us/roadsides/historic/files/inspiration-point-final.pdf) | dot.state.mn.us | 2014-10-27 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 45 | 9672 | 42 |
+| [king-of-trails-cmp.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/king-of-trails-cmp.pdf) | dot.state.mn.us | 2015-05-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 83 | 27825 | 50 |
+| [lady-slipper-cmp.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/lady-slipper-cmp.pdf) | dot.state.mn.us | 2015-05-27 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 32 | 9387 | 8 |
+| [maps4.pdf](http://www.dot.state.mn.us/culturalresources/docs/rail/maps4.pdf) | dot.state.mn.us | 2007-08-15 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 1055 | 0 |
+| [missing-children-posting.pdf](http://www.dot.state.mn.us/restareas/pdf/missing-children-posting.pdf) | dot.state.mn.us | 2010-09-14 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 176 | 0 |
+| [n-shore-cmp.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/n-shore-cmp.pdf) | dot.state.mn.us | 2019-12-30 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 | 5589 | 21 |
+| [national-apttesting-ncat-mnroad-feb2015.pdf](http://www.dot.state.mn.us/mnroad/ncat-partnership/files/national-apttesting-ncat-mnroad-feb2015.pdf) | dot.state.mn.us | 2015-02-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 752 | 4 |
+| [otter-trail-cmp.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/otter-trail-cmp.pdf) | dot.state.mn.us | 2015-06-03 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 17 | 3377 | 1 |
+| [paul-bunyan-cmp.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/paul-bunyan-cmp.pdf) | dot.state.mn.us | 2015-05-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 82 | 24349 | 37 |
+| [poison-hemlock.pdf](http://www.dot.state.mn.us/roadsides/vegetation/pdf/poison-hemlock.pdf) | dot.state.mn.us | 2018-06-20 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 340 | 5 |
+| [section106generalagreementtosignatories.pdf](http://www.dot.state.mn.us/culturalresources/docs/section106generalagreementtosignatories.pdf) | dot.state.mn.us | 2015-04-13 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 18 | 637 | 16 |
+| [skyline-cmp.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/skyline-cmp.pdf) | dot.state.mn.us | 2016-02-26 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 100 | 31776 | 202 |
+| [slipbaseinstallation.pdf](http://www.dot.state.mn.us/products/signing/pdf/slipbaseinstallation.pdf) | dot.state.mn.us | 2013-07-01 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 0 |
+| [sm-manual-2000.pdf](http://www.dot.state.mn.us/surveying/pdf/sm-manual-2000.pdf) | dot.state.mn.us | 2000-09-08 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 326 | 98195 | 500 |
+| [sm-manual-2007.pdf](http://www.dot.state.mn.us/surveying/pdf/sm-manual-2007.pdf) | dot.state.mn.us | 2011-09-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 395 | 119605 | 65 |
+| [specs-qualification-process.pdf](http://www.dot.state.mn.us/products/signing/pdf/specs-qualification-process.pdf) | dot.state.mn.us | 2019-12-03 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 282 | 1 |
+| [st-croix-report.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/st-croix-report.pdf) | dot.state.mn.us | 2015-06-29 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 18 | 2738 | 8 |
+| [turfgrass-form.pdf](http://www.dot.state.mn.us/environment/erosion/pdf/vegetation/turfgrass-form.pdf) | dot.state.mn.us | 2021-02-26 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 209 | 1 |
+| [type_o.pdf](http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_o.pdf) | dot.state.mn.us | 2009-01-28 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 5 |
+| [type_p.pdf](http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_p.pdf) | dot.state.mn.us | 2009-01-28 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 4 |
+| [type_q.pdf](http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_q.pdf) | dot.state.mn.us | 2009-01-28 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 7 |
+| [type_r.pdf](http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_r.pdf) | dot.state.mn.us | 2009-01-28 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 2 |
+| [type_s.pdf](http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_s.pdf) | dot.state.mn.us | 2009-01-28 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 0 | 5 |
+| [typelabel.pdf](https://www.dot.state.mn.us/products/signing/pdf/typelabel.pdf) | dot.state.mn.us | 2019-08-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 142 | 1 |
+| [veterans-evergreen-memorial.pdf](http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/veterans-evergreen-memorial.pdf) | dot.state.mn.us | 2015-06-01 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 21 | 3728 | 6 |
+| [wayrep.pdf](https://www.dot.state.mn.us/roadsides/historic/files/wayrep.pdf) | dot.state.mn.us | 2002-02-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 242 | 73199 | 58 |
 
 ## Files with Errors or Notes
 
@@ -49379,3 +49429,243 @@ Generated: 2026-04-01T13:44:57.124498+00:00
 - **URL**: https://careerforce.mn.gov/sites/default/files/2025-07/SPA_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_SPANISH.pdf
 - **Status**: analysed
 - PdfError: crawled_files/careerforce.mn.gov/SPA_R351_GENERIC_Help%20online%20on%20the%20phone%20or%20in%20person_SPANISH.pdf: unable to find trailer dictionary while recovering damaged file
+
+### 2110.pdf
+
+- **URL**: https://www.dot.state.mn.us/materials/manuals/laboratory/2110.pdf
+- **Status**: analysed
+- title, 
+
+### Aviation%20Chapter%20from%202040-TPP-Complete-Plan.pdf
+
+- **URL**: https://www.dot.state.mn.us/aero/planning/sasp/Aviation%20Chapter%20from%202040-TPP-Complete-Plan.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, 
+
+### Data_Sheet_Definitions.pdf
+
+- **URL**: http://www.dot.state.mn.us/surveying/geodetics/Data_Sheet_Definitions.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### District%208%20Shoulder%20Widening%20Prioritzation%20Study.pdf
+
+- **URL**: http://www.dot.state.mn.us/d8/pdfs/District%208%20Shoulder%20Widening%20Prioritzation%20Study.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, 
+
+### Geodetic_History_in_Minnesota.pdf
+
+- **URL**: http://www.dot.state.mn.us/surveying/geodetics/Geodetic_History_in_Minnesota.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Mn2000FrtFlowsStdyComplete.pdf
+
+- **URL**: https://www.dot.state.mn.us/ofrw/PDF/Mn2000FrtFlowsStdyComplete.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Sample-Plan%2012312025.PDF
+
+- **URL**: http://www.dot.state.mn.us/trafficeng/publ/signallighting/To%20delete/Sample-Plan%2012312025.PDF
+- **Status**: analysed
+- title, tagged, lang, 
+
+### SpecialDesignEmbankments.pdf
+
+- **URL**: http://www.dot.state.mn.us/maps/permits/pdfs/SpecialDesignEmbankments.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### UpdatedCodeKeyTable.pdf
+
+- **URL**: http://www.dot.state.mn.us/mnmodel/geomorphology/UpdatedCodeKeyTable.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### appendix7.pdf
+
+- **URL**: http://www.dot.state.mn.us/design/landscape-treatments/pdf/appendix7.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### bike-law-summary.pdf
+
+- **URL**: http://www.dot.state.mn.us/bike/documents/safety-education/bike-law-summary.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### bike-pocket-card.pdf
+
+- **URL**: http://www.dot.state.mn.us/bike/documents/safety-education/bike-pocket-card.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### cru-consultant-guidelines.pdf
+
+- **URL**: http://www.dot.state.mn.us/culturalresources/docs/cru-consultant-guidelines.pdf
+- **Status**: analysed
+- title, 
+
+### figure17.pdf
+
+- **URL**: http://www.dot.state.mn.us/mnmodel/lfsaanokasandplain/figure17.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### figure18.pdf
+
+- **URL**: http://www.dot.state.mn.us/mnmodel/lfsaanokasandplain/figure18.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### grainDisStdy2000213.pdf
+
+- **URL**: https://www.dot.state.mn.us/ofrw/PDF/grainDisStdy2000213.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### guidelines.pdf
+
+- **URL**: http://www.dot.state.mn.us/design/landscape-treatments/pdf/guidelines.pdf
+- **Status**: analysed
+- title, lang, 
+
+### historic-bluff-country-corridor-management-plan.pdf
+
+- **URL**: http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/historic-bluff-country-corridor-management-plan.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### inspiration-point-final.pdf
+
+- **URL**: http://www.dot.state.mn.us/roadsides/historic/files/inspiration-point-final.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### king-of-trails-cmp.pdf
+
+- **URL**: http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/king-of-trails-cmp.pdf
+- **Status**: analysed
+- title, 
+
+### lady-slipper-cmp.pdf
+
+- **URL**: http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/lady-slipper-cmp.pdf
+- **Status**: analysed
+- title, lang, 
+
+### maps4.pdf
+
+- **URL**: http://www.dot.state.mn.us/culturalresources/docs/rail/maps4.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### missing-children-posting.pdf
+
+- **URL**: http://www.dot.state.mn.us/restareas/pdf/missing-children-posting.pdf
+- **Status**: analysed
+- title, 
+
+### national-apttesting-ncat-mnroad-feb2015.pdf
+
+- **URL**: http://www.dot.state.mn.us/mnroad/ncat-partnership/files/national-apttesting-ncat-mnroad-feb2015.pdf
+- **Status**: analysed
+- title, 
+
+### otter-trail-cmp.pdf
+
+- **URL**: http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/otter-trail-cmp.pdf
+- **Status**: analysed
+- title, 
+
+### paul-bunyan-cmp.pdf
+
+- **URL**: http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/paul-bunyan-cmp.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, 
+
+### section106generalagreementtosignatories.pdf
+
+- **URL**: http://www.dot.state.mn.us/culturalresources/docs/section106generalagreementtosignatories.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### skyline-cmp.pdf
+
+- **URL**: http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/skyline-cmp.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### slipbaseinstallation.pdf
+
+- **URL**: http://www.dot.state.mn.us/products/signing/pdf/slipbaseinstallation.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### sm-manual-2000.pdf
+
+- **URL**: http://www.dot.state.mn.us/surveying/pdf/sm-manual-2000.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### sm-manual-2007.pdf
+
+- **URL**: http://www.dot.state.mn.us/surveying/pdf/sm-manual-2007.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### st-croix-report.pdf
+
+- **URL**: http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/st-croix-report.pdf
+- **Status**: analysed
+- title, 
+
+### type_o.pdf
+
+- **URL**: http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_o.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### type_p.pdf
+
+- **URL**: http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_p.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### type_q.pdf
+
+- **URL**: http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_q.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### type_r.pdf
+
+- **URL**: http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_r.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### type_s.pdf
+
+- **URL**: http://www.dot.state.mn.us/design/landscape-treatments/pdf/type_s.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### typelabel.pdf
+
+- **URL**: https://www.dot.state.mn.us/products/signing/pdf/typelabel.pdf
+- **Status**: analysed
+- title, lang, 
+
+### veterans-evergreen-memorial.pdf
+
+- **URL**: http://www.dot.state.mn.us/scenicbyways/pdf/corridor-mgmt-plans/veterans-evergreen-memorial.pdf
+- **Status**: analysed
+- title, 
+
+### wayrep.pdf
+
+- **URL**: https://www.dot.state.mn.us/roadsides/historic/files/wayrep.pdf
+- **Status**: analysed
+- title, tagged, lang, 

@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-01T14:22:50.286776+00:00",
+    "site": "dot.state.mn.us",
+    "crawl_url": "https://www.dot.state.mn.us/index.html",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23852758369",
+    "issue_url": "",
+    "archive_file": "2026-04-01_14-22-50-286_dot.state.mn.us.html",
+    "total": 95,
+    "analysed": 93,
+    "accessible": 17
+  },
+  {
     "date": "2026-04-01T13:44:57.124498+00:00",
     "site": "careerforce.mn.gov",
     "crawl_url": "https://careerforce.mn.gov/education-and-training-options",
