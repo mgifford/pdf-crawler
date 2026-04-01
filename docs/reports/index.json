@@ -4,7 +4,7 @@
     "site": "careerforce.mn.gov",
     "crawl_url": "https://careerforce.mn.gov/careerforce-services-overview",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23849938333",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/210#issuecomment-4169962141",
     "archive_file": "2026-04-01_13-04-42-490_careerforce.mn.gov.html",
     "total": 9,
     "analysed": 9,
