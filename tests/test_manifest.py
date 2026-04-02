@@ -230,3 +230,45 @@ def test_needs_analysis_analysed_changed_md5(tmp_path):
     entry["status"] = "analysed"
     p.write_bytes(b"v2")
     assert needs_analysis(entry, p) is True
+
+
+# ---------------------------------------------------------------------------
+# upsert_entry – notes on changed content (line 138)
+# ---------------------------------------------------------------------------
+
+def test_upsert_updates_notes_when_content_changes(tmp_path):
+    """When a file's content changes, notes should also be updated."""
+    p = tmp_path / "doc.pdf"
+    p.write_bytes(b"original content")
+    url = "https://example.com/doc.pdf"
+    entries = []
+    entries, _ = upsert_entry(entries, url, p, "example.com")
+    entries = mark_analysed(entries, url, {"Accessible": True})
+    # Change file content
+    p.write_bytes(b"updated content")
+    entries, needs_scan = upsert_entry(entries, url, p, "example.com", notes="New notes")
+    assert needs_scan is True
+    assert entries[0].get("notes") == "New notes"
+
+
+# ---------------------------------------------------------------------------
+# mark_analysed / mark_error – unknown URL returns unchanged list
+# ---------------------------------------------------------------------------
+
+def test_mark_analysed_missing_url_returns_unchanged(tmp_pdf):
+    """mark_analysed must return the unchanged list when the URL is not found."""
+    entry = build_entry("https://example.com/a.pdf", tmp_pdf, "example.com")
+    entries = [entry]
+    result = mark_analysed(entries, "https://example.com/nonexistent.pdf", {"Accessible": True})
+    # The list must be returned unchanged
+    assert result is entries
+    assert entries[0]["status"] == "pending"
+
+
+def test_mark_error_missing_url_returns_unchanged(tmp_pdf):
+    """mark_error must return the unchanged list when the URL is not found."""
+    entry = build_entry("https://example.com/b.pdf", tmp_pdf, "example.com")
+    entries = [entry]
+    result = mark_error(entries, "https://example.com/nonexistent.pdf", ["some error"])
+    assert result is entries
+    assert entries[0]["status"] == "pending"

@@ -741,3 +741,189 @@ def test_skip_crawl_no_zero_pages_warning(tmp_path, capsys):
 
     captured = capsys.readouterr()
     assert "WARNING" not in captured.out
+
+
+# ---------------------------------------------------------------------------
+# normalize_url – invalid domain fallback (lines 107-109)
+# ---------------------------------------------------------------------------
+
+def test_normalize_url_invalid_domain_uses_fallback(capsys):
+    """Input that does not look like a domain should use a https:// fallback."""
+    result = normalize_url("..bad_input")
+    # Should return the input prefixed with https://
+    assert result.startswith("https://")
+    out = capsys.readouterr().out
+    assert "does not look like a domain" in out
+
+
+def test_normalize_url_dotdot_uses_fallback(capsys):
+    """Input with '..' path traversal sequences must use the fallback."""
+    result = normalize_url("example..com")
+    assert result.startswith("https://")
+    out = capsys.readouterr().out
+    assert "does not look like a domain" in out
+
+
+# ---------------------------------------------------------------------------
+# run_scrapy – TimeoutExpired handling (lines 195-196)
+# ---------------------------------------------------------------------------
+
+def test_run_scrapy_timeout_prints_message(tmp_path, capsys):
+    """run_scrapy must print a timeout message and continue when Scrapy times out."""
+    import subprocess
+
+    log_path = str(tmp_path / "scrapy.log")
+    Path(log_path).write_text("", encoding="utf-8")
+
+    with patch("crawl.subprocess.run") as mock_run:
+        mock_run.side_effect = subprocess.TimeoutExpired("scrapy", 3600)
+        run_scrapy("https://example.com", "out", 3600, "spider.py", log_path=log_path)
+
+    captured = capsys.readouterr()
+    assert "timed out" in captured.out.lower()
+
+
+# ---------------------------------------------------------------------------
+# update_manifest – invalid JSON in _url_map.json (lines 234-235)
+# ---------------------------------------------------------------------------
+
+def test_update_manifest_corrupt_url_map_json_falls_back(tmp_path):
+    """A corrupt _url_map.json must be ignored; the fallback URL must be used."""
+    from crawl import update_manifest
+    from manifest import load_manifest
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    (site_dir / "doc.pdf").write_bytes(b"%PDF fake")
+    # Write invalid JSON to the url_map file
+    (site_dir / "_url_map.json").write_text("NOT VALID JSON", encoding="utf-8")
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(f"https://{site}", str(output_dir), str(manifest_path))
+
+    entries = load_manifest(str(manifest_path))
+    urls = [e["url"] for e in entries]
+    # Should fall back to the best-guess URL
+    assert f"https://{site}/doc.pdf" in urls
+
+
+# ---------------------------------------------------------------------------
+# generate_crawled_urls_csv – invalid JSON in spider output files (lines 291-292, 300-301, 309-310)
+# ---------------------------------------------------------------------------
+
+def test_generate_crawled_urls_csv_corrupt_crawled_pages_json(tmp_path):
+    """A corrupt _crawled_pages.json must be handled gracefully (returns 0 pages)."""
+    from crawl import generate_crawled_urls_csv
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    (site_dir / "_crawled_pages.json").write_text("INVALID JSON", encoding="utf-8")
+
+    report_dir = tmp_path / "reports"
+    count = generate_crawled_urls_csv("https://example.com", str(output_dir), str(report_dir))
+    assert count == 0
+
+
+def test_generate_crawled_urls_csv_corrupt_url_map_json(tmp_path):
+    """A corrupt _url_map.json must be handled gracefully."""
+    from crawl import generate_crawled_urls_csv
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    pages = ["https://example.com/"]
+    (site_dir / "_crawled_pages.json").write_text(json.dumps(pages), encoding="utf-8")
+    (site_dir / "_url_map.json").write_text("INVALID JSON", encoding="utf-8")
+
+    report_dir = tmp_path / "reports"
+    count = generate_crawled_urls_csv("https://example.com", str(output_dir), str(report_dir))
+    # Pages still counted; url_map gracefully defaulted to empty
+    assert count == 1
+
+
+def test_generate_crawled_urls_csv_corrupt_referer_map_json(tmp_path):
+    """A corrupt _referer_map.json must be handled gracefully."""
+    from crawl import generate_crawled_urls_csv
+    import csv
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    pages = ["https://example.com/"]
+    (site_dir / "_crawled_pages.json").write_text(json.dumps(pages), encoding="utf-8")
+    url_map = {"doc.pdf": "https://example.com/doc.pdf"}
+    (site_dir / "_url_map.json").write_text(json.dumps(url_map), encoding="utf-8")
+    (site_dir / "_referer_map.json").write_text("INVALID JSON", encoding="utf-8")
+
+    report_dir = tmp_path / "reports"
+    count = generate_crawled_urls_csv("https://example.com", str(output_dir), str(report_dir))
+    assert count == 1
+    # CSV must still be written
+    assert (report_dir / "crawled_urls.csv").exists()
+
+
+# ---------------------------------------------------------------------------
+# main() – PDF URL rejection (lines 405-412)
+# ---------------------------------------------------------------------------
+
+def test_main_rejects_pdf_url(tmp_path, capsys):
+    """main() must exit with code 1 when the URL points directly to a PDF."""
+    from crawl import main
+
+    manifest_path = tmp_path / "manifest.yaml"
+    report_dir = tmp_path / "reports"
+
+    with patch("crawl.normalize_url", return_value="https://example.com/doc.pdf"), \
+         pytest.raises(SystemExit) as exc_info:
+        with patch("sys.argv", [
+            "crawl.py",
+            "--url", "https://example.com/doc.pdf",
+            "--manifest", str(manifest_path),
+            "--output-dir", str(tmp_path / "crawled_files"),
+            "--report-dir", str(report_dir),
+        ]):
+            main()
+
+    assert exc_info.value.code == 1
+    captured = capsys.readouterr()
+    assert "ERROR" in captured.out
+    assert "direct link to a PDF" in captured.out
+
+
+# ---------------------------------------------------------------------------
+# main() – no pages crawled warning (lines 428-433)
+# ---------------------------------------------------------------------------
+
+def test_main_warns_when_no_pages_crawled(tmp_path, capsys):
+    """main() must print a WARNING when pages_crawled is 0 and --skip-crawl is not set."""
+    from crawl import main
+
+    manifest_path = tmp_path / "manifest.yaml"
+    report_dir = tmp_path / "reports"
+
+    with patch("crawl.run_scrapy"), \
+         patch("crawl.normalize_url", return_value="https://example.com"), \
+         patch("crawl.update_manifest"), \
+         patch("crawl.generate_crawled_urls_csv", return_value=0), \
+         patch("crawl._print_scrapy_log_tail"):
+        with patch("sys.argv", [
+            "crawl.py",
+            "--url", "https://example.com",
+            "--manifest", str(manifest_path),
+            "--output-dir", str(tmp_path / "crawled_files"),
+            "--report-dir", str(report_dir),
+        ]):
+            main()
+
+    captured = capsys.readouterr()
+    assert "WARNING" in captured.out

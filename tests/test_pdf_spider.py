@@ -700,3 +700,87 @@ def test_save_pdf_preserves_existing_pdf_extension(tmp_path):
     assert pdf_files[0].name == "annual.pdf", (
         f"Extension was doubled: {pdf_files[0].name}"
     )
+
+
+# ---------------------------------------------------------------------------
+# parse() – skip links with non-http/https schemes (line 213)
+# ---------------------------------------------------------------------------
+
+def test_parse_skips_non_http_scheme():
+    """parse() must ignore links with non-http/https schemes (e.g. mailto:, ftp:)."""
+    spider = _make_spider("/tmp")
+    page_url = "https://example.com/page"
+    html = (
+        '<html><body>'
+        '<a href="mailto:info@example.com">email</a>'
+        '<a href="ftp://files.example.com/doc.pdf">ftp</a>'
+        '</body></html>'
+    )
+    response = _make_html_response(page_url, html)
+    requests = list(spider.parse(response))
+
+    # No requests should be yielded for mailto: or ftp: links
+    assert len(requests) == 0
+
+
+# ---------------------------------------------------------------------------
+# parse() – skip search pages (line 228)
+# ---------------------------------------------------------------------------
+
+def test_parse_skips_search_page():
+    """parse() must not follow links that contain 'search' in the path."""
+    spider = _make_spider("/tmp")
+    page_url = "https://example.com/home"
+    html = (
+        '<html><body>'
+        '<a href="/search?q=pdf">Search PDFs</a>'
+        '<a href="/recherche/all">Recherche</a>'
+        '</body></html>'
+    )
+    response = _make_html_response(page_url, html)
+    requests = list(spider.parse(response))
+
+    # Neither search nor recherche paths should produce follow requests
+    assert len(requests) == 0
+
+
+# ---------------------------------------------------------------------------
+# save_pdf() – root-path URL uses hash-based filename (line 275)
+# ---------------------------------------------------------------------------
+
+def test_save_pdf_root_path_uses_hash_filename(tmp_path):
+    """save_pdf() for a root-path URL must derive a stable filename via MD5 hash."""
+    spider = _make_spider(tmp_path)
+    url = "https://example.com/"
+    spider.save_pdf(_make_response(url))
+
+    site_dir = tmp_path / "example.com"
+    saved_files = [f for f in site_dir.iterdir() if f.name != "_url_map.json"]
+    assert len(saved_files) == 1
+    # Filename must start with "doc-" (from the hash-based fallback)
+    assert saved_files[0].name.startswith("doc-")
+
+
+# ---------------------------------------------------------------------------
+# _unique_filename() – collision avoidance (line 304)
+# ---------------------------------------------------------------------------
+
+def test_unique_filename_avoids_collision(tmp_path):
+    """_unique_filename must add a counter suffix when a file already exists."""
+    from pdf_spider import PdfA11ySpider
+
+    directory = str(tmp_path)
+    # Create the first file so the next call must pick a different name
+    (tmp_path / "report.pdf").touch()
+
+    first = PdfA11ySpider._unique_filename(directory, "report", ".pdf")
+    assert first != "report.pdf", "Second call should not reuse the existing name"
+    assert first.startswith("report-"), f"Expected 'report-N.pdf', got {first!r}"
+
+
+def test_unique_filename_no_collision_returns_plain(tmp_path):
+    """_unique_filename must return the plain name when no collision exists."""
+    from pdf_spider import PdfA11ySpider
+
+    first = PdfA11ySpider._unique_filename(str(tmp_path), "report", ".pdf")
+    assert first == "report.pdf"
