@@ -1532,7 +1532,7 @@ def main(
         print(f"Written issue comment: {issue_comment_file}")
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     import argparse
 
     parser = argparse.ArgumentParser(description="Generate accessibility reports")
