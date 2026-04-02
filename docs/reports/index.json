@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-02T11:03:49.034703+00:00",
+    "site": "applytosupply.digitalmarketplace.service.gov.uk",
+    "crawl_url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23897277134",
+    "issue_url": "",
+    "archive_file": "2026-04-02_11-03-49-034_applytosupply.digitalmarketplace.service.gov.uk.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-04-01T17:01:38.193298+00:00",
     "site": "pstcc.edu",
     "crawl_url": "https://www.pstcc.edu/",
