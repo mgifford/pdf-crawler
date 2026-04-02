@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-02T12:09:51.309164+00:00",
+    "site": "ithacacityschools.org",
+    "crawl_url": "https://ithacacityschools.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23899628049",
+    "issue_url": "",
+    "archive_file": "2026-04-02_12-09-51-309_ithacacityschools.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-04-02T11:03:49.034703+00:00",
     "site": "applytosupply.digitalmarketplace.service.gov.uk",
     "crawl_url": "https://www.applytosupply.digitalmarketplace.service.gov.uk/",
