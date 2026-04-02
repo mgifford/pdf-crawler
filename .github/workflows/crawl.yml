@@ -604,12 +604,17 @@ jobs:
               body: [
                 `❌ **Scan timed out** for \`${crawlUrl}\`.`,
                 ``,
-                `The workflow exceeded the time limit and was cancelled.`,
+                `The crawl workflow exceeded its time limit (75 minutes) and was cancelled.`,
                 `Please check the [workflow run](${runUrl}) for details.`,
                 ``,
                 `To help the next attempt succeed, the capture limit has been automatically`,
                 `reduced to **${newMaxPages} pages** (was ${currentMaxPages}).`,
                 `Close and reopen this issue to retry with the smaller batch size.`,
+                ``,
+                `**Debugging tips:**`,
+                `- Check the crawl run logs to see how many pages were visited before the timeout`,
+                `- Large or deeply-nested sites may need a smaller page limit`,
+                `- Consider adding \`Number: ${newMaxPages}\` to the issue body to set the limit explicitly`,
               ].join('\n'),
             });
             try {
