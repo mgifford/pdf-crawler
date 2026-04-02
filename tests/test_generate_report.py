@@ -11,6 +11,8 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from generate_report import (
     _external_domain,
+    _fmt,
+    _icon,
     _summary_stats,
     generate_csv,
     generate_html,
@@ -1271,3 +1273,404 @@ def test_generate_reports_index_html_has_color_scheme_meta():
     """Reports index must declare color-scheme: light dark on :root."""
     html = generate_reports_index_html([])
     assert "color-scheme: light dark" in html
+
+
+# ---------------------------------------------------------------------------
+# _fmt helper – None and unknown string branches (lines 44, 51)
+# ---------------------------------------------------------------------------
+
+def test_fmt_none_returns_na():
+    """_fmt(None) must return the N/A placeholder string."""
+    assert _fmt(None) == "—"
+
+
+def test_fmt_unknown_string_returns_str():
+    """_fmt with an unknown string must return str(value) unchanged."""
+    assert _fmt("maybe") == "maybe"
+    assert _fmt("unknown") == "unknown"
+    assert _fmt("42") == "42"
+
+
+# ---------------------------------------------------------------------------
+# generate_markdown – pages_crawled in summary table (line 152)
+# ---------------------------------------------------------------------------
+
+def test_generate_markdown_with_pages_crawled():
+    """When stats['pages_crawled'] > 0, the markdown summary must include that row."""
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    stats = _summary_stats(entries)
+    stats["pages_crawled"] = 99
+    md = generate_markdown(entries, stats)
+    assert "URLs crawled" in md
+    assert "99" in md
+
+
+# ---------------------------------------------------------------------------
+# generate_issue_comment – pending and errored rows (lines 377, 379)
+# ---------------------------------------------------------------------------
+
+def test_issue_comment_shows_pending_row():
+    """Issue comment must include a 'Pending analysis' row when pending entries exist."""
+    entries = [
+        _make_entry("https://example.com/done.pdf", status="analysed"),
+        _make_entry("https://example.com/pending.pdf", status="pending"),
+    ]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+    )
+    assert "Pending analysis" in comment
+
+
+def test_issue_comment_shows_errors_row():
+    """Issue comment must include a 'Errors' row when errored entries exist."""
+    entries = [
+        _make_entry("https://example.com/done.pdf", status="analysed"),
+        _make_entry("https://example.com/err.pdf", status="error"),
+    ]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+    )
+    assert "Errors" in comment
+
+
+# ---------------------------------------------------------------------------
+# generate_main() – no site_filter uses overall stats (line 1388)
+# ---------------------------------------------------------------------------
+
+def test_generate_main_no_site_filter(tmp_path):
+    """main() without site_filter must produce a report using overall manifest stats."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    report_dir = tmp_path / "reports"
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        site_filter=None,
+    )
+
+    assert (report_dir / "report.md").exists()
+    assert (report_dir / "report.json").exists()
+
+
+# ---------------------------------------------------------------------------
+# generate_main() – issue_comment_file writing (lines 1522-1532)
+# ---------------------------------------------------------------------------
+
+def test_generate_main_writes_issue_comment_file(tmp_path):
+    """main() with issue_comment_file must write a Markdown comment to that path."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf", site="example.com")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    report_dir = tmp_path / "reports"
+    comment_path = tmp_path / "comment.md"
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        site_filter="example.com",
+        issue_comment_file=str(comment_path),
+        crawl_url="https://example.com",
+        pages_base="https://owner.github.io/repo",
+        run_url="https://github.com/owner/repo/actions/runs/1",
+    )
+
+    assert comment_path.exists()
+    comment = comment_path.read_text(encoding="utf-8")
+    assert comment.startswith("📊 **Accessibility analysis complete**")
+
+
+# ---------------------------------------------------------------------------
+# generate_main() – archive_dir creates per-scan archive (lines 1441-1497)
+# ---------------------------------------------------------------------------
+
+def test_generate_main_with_archive_dir(tmp_path):
+    """main() with archive_dir must create a per-scan HTML archive and index.json."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf", site="example.com")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    report_dir = tmp_path / "reports"
+    html_dir = tmp_path / "docs"
+    archive_dir = tmp_path / "docs" / "reports"
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        html_dir=str(html_dir),
+        archive_dir=str(archive_dir),
+        site_filter="example.com",
+        crawl_url="https://example.com",
+        run_url="https://github.com/owner/repo/actions/runs/1",
+    )
+
+    index_path = archive_dir / "index.json"
+    assert index_path.exists()
+    index = json.loads(index_path.read_text(encoding="utf-8"))
+    assert len(index) == 1
+    assert index[0]["site"] == "example.com"
+
+    # An HTML archive file must have been created
+    html_files = list(archive_dir.glob("*.html"))
+    assert len(html_files) == 1
+
+
+def test_generate_main_archive_dir_reuses_existing_index(tmp_path):
+    """main() must append to an existing index.json without adding duplicates."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf", site="example.com")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    report_dir = tmp_path / "reports"
+    html_dir = tmp_path / "docs"
+    archive_dir = tmp_path / "docs" / "reports"
+    archive_dir.mkdir(parents=True)
+
+    # Pre-populate with a different existing entry
+    existing_index = [
+        {
+            "date": "2025-01-01T00:00:00+00:00",
+            "site": "other.com",
+            "crawl_url": "https://other.com",
+            "run_url": "",
+            "issue_url": "",
+            "archive_file": "2025-01-01_00-00-00-000_other.com.html",
+            "total": 1,
+            "analysed": 1,
+            "accessible": 0,
+        }
+    ]
+    (archive_dir / "index.json").write_text(
+        json.dumps(existing_index), encoding="utf-8"
+    )
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        html_dir=str(html_dir),
+        archive_dir=str(archive_dir),
+        site_filter="example.com",
+        crawl_url="https://example.com",
+        run_url="",
+    )
+
+    index = json.loads((archive_dir / "index.json").read_text(encoding="utf-8"))
+    # The existing entry plus the new one = 2
+    assert len(index) == 2
+
+
+# ---------------------------------------------------------------------------
+# generate_main() – crawled_dir reads pages_crawled (lines 1394-1406)
+# ---------------------------------------------------------------------------
+
+def test_generate_main_reads_pages_crawled_from_crawled_dir(tmp_path):
+    """main() with crawled_dir must read page count from _crawled_pages.json."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf", site="example.com")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    crawled_dir = tmp_path / "crawled_files"
+    site_dir = crawled_dir / "example.com"
+    site_dir.mkdir(parents=True)
+
+    pages = [f"https://example.com/page{i}" for i in range(7)]
+    (site_dir / "_crawled_pages.json").write_text(
+        json.dumps(pages), encoding="utf-8"
+    )
+
+    report_dir = tmp_path / "reports"
+    html_dir = tmp_path / "docs"
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        html_dir=str(html_dir),
+        site_filter="example.com",
+        crawled_dir=str(crawled_dir),
+    )
+
+    report_json = json.loads((report_dir / "report.json").read_text(encoding="utf-8"))
+    assert report_json["summary"].get("pages_crawled") == 7
+
+
+# ---------------------------------------------------------------------------
+# _icon helper – fallback "—" branch (line 324)
+# ---------------------------------------------------------------------------
+
+def test_icon_none_returns_dash():
+    """_icon(None) must return the '—' placeholder."""
+    assert _icon(None) == "—"
+
+
+def test_icon_unknown_value_returns_dash():
+    """_icon with an unknown value (e.g. 'Unknown') must return '—'."""
+    assert _icon("Unknown") == "—"
+    assert _icon(42) == "—"
+
+
+def test_icon_true_returns_check():
+    """_icon(True) must return the checkmark emoji."""
+    assert _icon(True) == "✅"
+
+
+def test_icon_false_returns_cross():
+    """_icon(False) must return the cross emoji."""
+    assert _icon(False) == "❌"
+
+
+# ---------------------------------------------------------------------------
+# generate_main() – corrupt _crawled_pages.json exception path (lines 1401-1402)
+# ---------------------------------------------------------------------------
+
+def test_generate_main_corrupt_crawled_pages_json_handled(tmp_path):
+    """main() must handle a corrupt _crawled_pages.json gracefully (no crash)."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf", site="example.com")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    crawled_dir = tmp_path / "crawled_files"
+    site_dir = crawled_dir / "example.com"
+    site_dir.mkdir(parents=True)
+    (site_dir / "_crawled_pages.json").write_text("NOT VALID JSON", encoding="utf-8")
+
+    report_dir = tmp_path / "reports"
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        html_dir=str(tmp_path / "docs"),
+        site_filter="example.com",
+        crawled_dir=str(crawled_dir),
+    )
+
+    # Report should still be generated
+    assert (report_dir / "report.md").exists()
+
+
+# ---------------------------------------------------------------------------
+# generate_main() – crawled_urls.csv copy (lines 1405-1406)
+# ---------------------------------------------------------------------------
+
+def test_generate_main_copies_crawled_urls_csv(tmp_path):
+    """main() with crawled_dir must copy crawled_urls.csv to report_dir when it exists."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf", site="example.com")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    crawled_dir = tmp_path / "crawled_files"
+    site_dir = crawled_dir / "example.com"
+    site_dir.mkdir(parents=True)
+    (site_dir / "crawled_urls.csv").write_text("url,type\nhttps://example.com,page\n", encoding="utf-8")
+
+    report_dir = tmp_path / "reports"
+    report_dir.mkdir(parents=True)
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        html_dir=str(tmp_path / "docs"),
+        site_filter="example.com",
+        crawled_dir=str(crawled_dir),
+    )
+
+    assert (report_dir / "crawled_urls.csv").exists()
+
+
+# ---------------------------------------------------------------------------
+# generate_main() – corrupt stats["generated_at"] fallback (lines 1449-1450)
+# ---------------------------------------------------------------------------
+
+def test_generate_main_archive_with_invalid_generated_at(tmp_path, monkeypatch):
+    """main() must fall back to now() when stats['generated_at'] cannot be parsed."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf", site="example.com")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    report_dir = tmp_path / "reports"
+    html_dir = tmp_path / "docs"
+    archive_dir = tmp_path / "docs" / "reports"
+
+    # Patch _summary_stats to inject a bad generated_at value
+    import generate_report as _mod
+    original = _mod._summary_stats
+
+    def _patched_stats(entries):
+        result = original(entries)
+        result["generated_at"] = "NOT A VALID DATETIME"
+        return result
+
+    monkeypatch.setattr(_mod, "_summary_stats", _patched_stats)
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        html_dir=str(html_dir),
+        archive_dir=str(archive_dir),
+        site_filter="example.com",
+        crawl_url="https://example.com",
+        run_url="",
+    )
+
+    # Archive must still be written
+    html_files = list(archive_dir.glob("*.html"))
+    assert len(html_files) == 1
+
+
+# ---------------------------------------------------------------------------
+# generate_main() – corrupt index.json fallback (lines 1476-1477)
+# ---------------------------------------------------------------------------
+
+def test_generate_main_archive_with_corrupt_index_json(tmp_path):
+    """main() must handle a corrupt index.json and start fresh."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf", site="example.com")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    report_dir = tmp_path / "reports"
+    html_dir = tmp_path / "docs"
+    archive_dir = tmp_path / "docs" / "reports"
+    archive_dir.mkdir(parents=True)
+
+    # Write invalid JSON to the index file
+    (archive_dir / "index.json").write_text("THIS IS NOT VALID JSON", encoding="utf-8")
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        html_dir=str(html_dir),
+        archive_dir=str(archive_dir),
+        site_filter="example.com",
+        crawl_url="https://example.com",
+        run_url="",
+    )
+
+    # Index must be recreated with a single entry
+    index = json.loads((archive_dir / "index.json").read_text(encoding="utf-8"))
+    assert len(index) == 1
