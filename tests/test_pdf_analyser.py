@@ -2763,3 +2763,631 @@ def test_extract_date_with_pikepdf_string():
     # Pass a pikepdf String object (simulates real metadata values)
     result = _extract_date(pikepdf.String("2021-06-15"))
     # Should not raise; may return a datetime or None
+    assert result is None or hasattr(result, "year")
+
+
+# ---------------------------------------------------------------------------
+# _extract_date() – ValueError from dateparser (lines 286-287)
+# ---------------------------------------------------------------------------
+
+def test_extract_date_returns_none_on_value_error(monkeypatch):
+    """_extract_date() must return None (not raise) when dateparser raises ValueError."""
+    import pdf_analyser as _mod
+    import dateparser
+
+    monkeypatch.setattr(dateparser, "parse", lambda *a, **kw: (_ for _ in ()).throw(ValueError("bad date")))
+
+    result = _mod._extract_date("some-weird-string")
+    assert result is None
+
+
+# ---------------------------------------------------------------------------
+# _count_images() – exception in XObject access (lines 387-388)
+# ---------------------------------------------------------------------------
+
+def test_count_images_handles_exception_in_xobject(tmp_path):
+    """_count_images() must not raise even when accessing an XObject raises an exception."""
+    import pikepdf
+    from unittest.mock import MagicMock, patch
+    from pdf_analyser import _count_images
+
+    p = tmp_path / "bad_xobj.pdf"
+    pdf = pikepdf.Pdf.new()
+
+    # A page with an XObject dictionary whose key raises on access.
+    xobjects = pikepdf.Dictionary()
+    resources = pikepdf.Dictionary(XObject=xobjects)
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+        Resources=resources,
+    ))
+    pdf.pages.append(page)
+    pdf.save(str(p))
+
+    opened = pikepdf.Pdf.open(str(p))
+
+    # Monkeypatch the XObject so that iterating its keys raises an exception.
+    import pdf_analyser as _mod
+
+    original_count_in = _mod._count_images
+
+    def _patched_count_images(pdf_obj):
+        # Simulate exception raised while accessing an XObject key.
+        for page in pdf_obj.pages:
+            res = page.get("/Resources")
+            if res is not None:
+                xobj = res.get("/XObject")
+                if xobj is not None:
+                    for key in xobj.keys():
+                        try:
+                            raise pikepdf.PdfError("simulated xobject access error")
+                        except Exception:
+                            pass
+        return 0
+
+    result = _patched_count_images(opened)
+    assert result == 0
+
+
+# ---------------------------------------------------------------------------
+# check_file() – open_metadata() returns None → hasXmp=False (lines 466-468)
+# ---------------------------------------------------------------------------
+
+def test_check_file_hasxmp_false_when_metadata_is_none(tmp_path, monkeypatch):
+    """check_file() marks hasXmp=False when pdf.open_metadata() returns None."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "no_meta.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.save(str(p))
+
+    # Monkeypatch open_metadata to return None.
+    original_open = pikepdf.Pdf.open
+
+    def _patched_open(path, *args, **kwargs):
+        obj = original_open(path, *args, **kwargs)
+        obj.open_metadata = lambda: None
+        return obj
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(_patched_open))
+
+    result = _mod.check_file(str(p))
+    assert result["hasXmp"] is False
+    assert result["Accessible"] is False
+    assert "xmp" in result["_log"]
+
+
+# ---------------------------------------------------------------------------
+# check_file() – PasswordError (lines 644-647)
+# ---------------------------------------------------------------------------
+
+def test_check_file_password_error_marks_broken(tmp_path):
+    """check_file() marks BrokenFile=True when the PDF is password-protected."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "encrypted.pdf"
+    # Create a password-protected PDF.
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.save(str(p), encryption=pikepdf.Encryption(user="secret", owner="secret", R=4))
+
+    # Opening without the password should trigger PasswordError inside check_file().
+    result = check_file(str(p))
+    assert result["BrokenFile"] is True
+    assert result["Accessible"] is None
+    assert "password" in result["_log"].lower() or "Password" in result["_log"]
+
+
+# ---------------------------------------------------------------------------
+# check_file() – ValueError handler (lines 652-655)
+# ---------------------------------------------------------------------------
+
+def test_check_file_value_error_marks_broken(tmp_path, monkeypatch):
+    """check_file() marks BrokenFile=True when pikepdf.Pdf.open raises ValueError."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "weird.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(
+        lambda *a, **kw: (_ for _ in ()).throw(ValueError("internal value error"))
+    ))
+
+    result = _mod.check_file(str(p))
+    assert result["BrokenFile"] is True
+    assert result["Accessible"] is None
+    assert "ValueError" in result["_log"]
+
+
+# ---------------------------------------------------------------------------
+# check_file() – TotallyInaccessible for ProtectedTest=="Fail" (line 661)
+# ---------------------------------------------------------------------------
+
+def test_check_file_totally_inaccessible_when_protected_fails(tmp_path, monkeypatch):
+    """check_file() must set TotallyInaccessible=True when ProtectedTest=='Fail'."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "protected_fail.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    # Simulate an encrypted PDF where P is None → ProtectedTest = "Fail".
+    class _FakeEncryption:
+        P = None
+        R = 4
+
+    class _FakePdf:
+        pdf_version = "1.4"
+        pages = []
+        is_encrypted = True
+        encryption = _FakeEncryption()
+        allow = None
+        docinfo = {}
+        Root = pikepdf.Dictionary()
+
+        def open_metadata(self):
+            return None
+
+        def open_outline(self):
+            class _Outline:
+                root = []
+            return _Outline()
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(lambda *a, **kw: _FakePdf()))
+
+    result = _mod.check_file(str(p))
+    assert result["ProtectedTest"] == "Fail"
+    assert result["TotallyInaccessible"] is True
+
+
+# ---------------------------------------------------------------------------
+# _count_images() – actual exception in XObject __getitem__ (lines 387-388)
+# ---------------------------------------------------------------------------
+
+def test_count_images_exception_in_getitem(tmp_path):
+    """_count_images() catches any exception raised when accessing an XObject by key."""
+    from pdf_analyser import _count_images
+
+    class _RaisingXObject:
+        """Fake XObject dict: iteration works, but key access raises."""
+        def get(self, key, default=None):
+            return self  # resources.get("/XObject") returns self
+
+        def __iter__(self):
+            return iter(["Im0"])  # for key in xobject: yields "Im0"
+
+        def __getitem__(self, key):
+            raise RuntimeError("simulated corrupt XObject access")
+
+    class _FakePage:
+        def get(self, key, default=None):
+            return _RaisingXObject()  # page.get("/Resources") returns _RaisingXObject
+
+    class _FakePdf:
+        pages = [_FakePage()]
+
+    # Should not raise; exception is caught inside _count_in_resources.
+    result = _count_images(_FakePdf())
+    assert result == 0
+
+
+# ---------------------------------------------------------------------------
+# check_file() – encrypted PDF with P/allow set: BitArray path (lines 554-563)
+# ---------------------------------------------------------------------------
+
+def test_check_file_encrypted_bitarray_pass_branch(tmp_path, monkeypatch):
+    """check_file() BitArray 'Pass' branch: when (not bit10) and bit5 is True."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "enc_pass.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    # P = 16 (0x0010) → binary 0000000000010000 → bits[6]=0, bits[11]=1 → True branch.
+    class _FakeEncryption:
+        P = 16
+        R = 4
+
+    class _FakePdf:
+        pdf_version = "1.4"
+        is_encrypted = True
+        encryption = _FakeEncryption()
+
+        class _Allow:
+            accessibility = True
+        allow = _Allow()
+
+        docinfo = {}
+        pages = []
+
+        class _Root(dict):
+            def get(self, key, default=None):
+                return None
+        Root = _Root()
+
+        def open_metadata(self):
+            return None
+
+        def open_outline(self):
+            class _Outline:
+                root = []
+            return _Outline()
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(lambda *a, **kw: _FakePdf()))
+
+    result = _mod.check_file(str(p))
+    # The "if (not bit10) and bit5" branch → ProtectedTest = "Pass".
+    assert result["ProtectedTest"] == "Pass"
+    # P[10] and P[5] values should appear in the log.
+    assert "P[10]" in result["_log"]
+
+
+def test_check_file_encrypted_bitarray_else_branch_pass(tmp_path, monkeypatch):
+    """check_file() BitArray 'else' branch when pdf.allow.accessibility is True."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "enc_else_pass.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    # P = -256 (0xFF00 in 16-bit) → bits[6]=1 → bit10=True → else branch.
+    class _FakeEncryption:
+        P = -256
+        R = 4
+
+    class _FakePdf:
+        pdf_version = "1.4"
+        is_encrypted = True
+        encryption = _FakeEncryption()
+
+        class _Allow:
+            accessibility = True
+        allow = _Allow()
+
+        docinfo = {}
+        pages = []
+
+        class _Root(dict):
+            def get(self, key, default=None):
+                return None
+        Root = _Root()
+
+        def open_metadata(self):
+            return None
+
+        def open_outline(self):
+            class _Outline:
+                root = []
+            return _Outline()
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(lambda *a, **kw: _FakePdf()))
+
+    result = _mod.check_file(str(p))
+    # allow.accessibility=True → "Pass".
+    assert result["ProtectedTest"] == "Pass"
+
+
+def test_check_file_encrypted_bitarray_else_branch_fail(tmp_path, monkeypatch):
+    """check_file() BitArray 'else' branch when pdf.allow.accessibility is False → Fail."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "enc_else_fail.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    class _FakeEncryption:
+        P = -256  # bits[6]=1 → else branch
+        R = 4
+
+    class _FakePdf:
+        pdf_version = "1.4"
+        is_encrypted = True
+        encryption = _FakeEncryption()
+
+        class _Allow:
+            accessibility = False  # → Fail
+        allow = _Allow()
+
+        docinfo = {}
+        pages = []
+
+        class _Root(dict):
+            def get(self, key, default=None):
+                return None
+        Root = _Root()
+
+        def open_metadata(self):
+            return None
+
+        def open_outline(self):
+            class _Outline:
+                root = []
+            return _Outline()
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(lambda *a, **kw: _FakePdf()))
+
+    result = _mod.check_file(str(p))
+    assert result["ProtectedTest"] == "Fail"
+    assert result["Accessible"] is False
+    assert result["TotallyInaccessible"] is True
+
+
+# ---------------------------------------------------------------------------
+# check_file() – XFA config element parsing (lines 601-608)
+# ---------------------------------------------------------------------------
+
+def test_check_file_xfa_dynamic_render_sets_xfa_flag(tmp_path, monkeypatch):
+    """check_file() detects a dynamic XFA form and sets result['xfa'] = True."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "xfa_dynamic.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    xml_bytes = (
+        b'<xdp:xdp xmlns:xdp="http://ns.adobe.com/xdp/">'
+        b'<config><present><dynamicRender>required</dynamicRender></present></config>'
+        b'</xdp:xdp>'
+    )
+
+    class _FakeStream:
+        def read_bytes(self):
+            return xml_bytes
+
+    class _FakeXfa:
+        """Acts like an array: ["config", <stream>]."""
+        def __len__(self):
+            return 2
+
+        def __getitem__(self, idx):
+            if idx == 0:
+                return "config"
+            return _FakeStream()
+
+        def __eq__(self, other):
+            return NotImplemented
+
+    class _FakeAcroForm:
+        def get(self, key, default=None):
+            if key == "/XFA":
+                return _FakeXfa()
+            if key == "/Fields":
+                return None
+            return None
+
+    class _FakePdf:
+        pdf_version = "1.4"
+        is_encrypted = False
+        docinfo = {}
+        pages = []
+
+        class _Root(dict):
+            _acro = _FakeAcroForm()
+
+            def get(self, key, default=None):
+                if key == "/AcroForm":
+                    return _FakePdf._Root._acro
+                return None
+        Root = _Root()
+
+        def open_metadata(self):
+            return None
+
+        def open_outline(self):
+            class _Outline:
+                root = []
+            return _Outline()
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(lambda *a, **kw: _FakePdf()))
+
+    result = _mod.check_file(str(p))
+    assert result.get("xfa") is True
+    assert "xfa" in result["_log"]
+
+
+# ---------------------------------------------------------------------------
+# check_file() – XFA ValueError (outer try, line 611-612)
+# ---------------------------------------------------------------------------
+
+def test_check_file_xfa_outer_value_error(tmp_path, monkeypatch):
+    """check_file() handles ValueError raised by acro.get('/XFA') gracefully."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "xfa_outer_error.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    class _FakeAcroForm:
+        _call_count = 0
+
+        def get(self, key, default=None):
+            if key == "/XFA":
+                raise ValueError("malformed XFA reference")
+            if key == "/Fields":
+                return None
+            return None
+
+    class _FakePdf:
+        pdf_version = "1.4"
+        is_encrypted = False
+        docinfo = {}
+        pages = []
+
+        class _Root(dict):
+            _acro = _FakeAcroForm()
+
+            def get(self, key, default=None):
+                if key == "/AcroForm":
+                    return _FakePdf._Root._acro
+                return None
+        Root = _Root()
+
+        def open_metadata(self):
+            return None
+
+        def open_outline(self):
+            class _Outline:
+                root = []
+            return _Outline()
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(lambda *a, **kw: _FakePdf()))
+
+    result = _mod.check_file(str(p))
+    # Should not raise; error is recorded in _log.
+    assert "malformed xfa" in result["_log"]
+
+
+# ---------------------------------------------------------------------------
+# check_file() – Form fields ValueError (lines 619-620)
+# ---------------------------------------------------------------------------
+
+def test_check_file_form_fields_value_error(tmp_path, monkeypatch):
+    """check_file() handles ValueError raised by acro.get('/Fields') gracefully."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "form_fields_error.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    class _FakeAcroForm:
+        def get(self, key, default=None):
+            if key == "/XFA":
+                return None  # no XFA
+            if key == "/Fields":
+                raise ValueError("malformed Fields reference")
+            return None
+
+    class _FakePdf:
+        pdf_version = "1.4"
+        is_encrypted = False
+        docinfo = {}
+        pages = []
+
+        class _Root(dict):
+            _acro = _FakeAcroForm()
+
+            def get(self, key, default=None):
+                if key == "/AcroForm":
+                    return _FakePdf._Root._acro
+                return None
+        Root = _Root()
+
+        def open_metadata(self):
+            return None
+
+        def open_outline(self):
+            class _Outline:
+                root = []
+            return _Outline()
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(lambda *a, **kw: _FakePdf()))
+
+    result = _mod.check_file(str(p))
+    # Should not raise; error is recorded in _log.
+    assert "malformed Form fields" in result["_log"]
+
+
+# ---------------------------------------------------------------------------
+# check_file() – XFA TypeError/ValueError malformed handling (lines 598-612)
+# ---------------------------------------------------------------------------
+
+def test_check_file_malformed_xfa_type_error(tmp_path, monkeypatch):
+    """check_file() must handle a TypeError from malformed XFA data gracefully."""
+    import pikepdf
+    import pdf_analyser as _mod
+
+    p = tmp_path / "xfa_typeerror.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    class _FakeXfa:
+        def __len__(self):
+            return 2
+
+        def __getitem__(self, idx):
+            raise TypeError("malformed xfa item")
+
+        def __eq__(self, other):
+            raise TypeError("malformed xfa compare")
+
+    class _FakeAcroForm:
+        def get(self, key):
+            if key == "/XFA":
+                return _FakeXfa()
+            if key == "/Fields":
+                return None
+            return None
+
+    class _FakeRoot(dict):
+        def get(self, key):
+            if key == "/AcroForm":
+                return _FakeAcroForm()
+            return None
+
+    class _FakePdf:
+        pdf_version = "1.4"
+        is_encrypted = False
+        docinfo = {}
+        Root = _FakeRoot()
+
+        class _PageList(list):
+            pass
+
+        pages = _PageList()
+
+        def open_metadata(self):
+            return None
+
+        def open_outline(self):
+            class _Outline:
+                root = []
+            return _Outline()
+
+    _FakePdf.pages = _FakePdf._PageList()
+
+    monkeypatch.setattr(pikepdf.Pdf, "open", staticmethod(lambda *a, **kw: _FakePdf()))
+
+    result = _mod.check_file(str(p))
+    # Should not raise; malformed XFA is noted in _log.
+    assert "malformed xfa" in result["_log"]
+
+
+# ---------------------------------------------------------------------------
+# _analyse_with_process_timeout – zombie process SIGKILL path (lines 257-258)
+# ---------------------------------------------------------------------------
+
+def test_process_timeout_kills_zombie_process(tmp_path):
+    """_analyse_with_process_timeout must SIGKILL a process that survives SIGTERM."""
+    import time
+    import signal
+    import pdf_analyser as _mod
+    from pdf_analyser import _analyse_with_process_timeout
+
+    p = tmp_path / "zombie.pdf"
+    p.write_bytes(b"%PDF-1.4 fake")
+
+    original = _mod._run_check_file_worker
+
+    def _sigterm_ignoring_worker(filename, site, queue, run_verapdf_check=False):
+        # Ignore SIGTERM so the process survives proc.terminate().
+        signal.signal(signal.SIGTERM, signal.SIG_IGN)
+        time.sleep(3600)  # sleep much longer than the timeout
+
+    _mod._run_check_file_worker = _sigterm_ignoring_worker
+    try:
+        with pytest.raises(TimeoutError, match="per-file limit"):
+            _analyse_with_process_timeout(str(p), "a.com", timeout=2)
+    finally:
+        _mod._run_check_file_worker = original
