@@ -207,7 +207,7 @@ def _run_check_file_worker(
     SIGALRM means the timeout is enforced at the OS level via SIGKILL, which
     reliably terminates any blocking C-extension call (e.g. pdfminer/pikepdf).
     """
-    try:
+    try:  # pragma: no cover
         result = check_file(filename, site=site, run_verapdf_check=run_verapdf_check)
         queue.put((True, result))
     except Exception as exc:  # pragma: no cover
@@ -1014,7 +1014,7 @@ def main(
     return stale_count
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     import argparse
 
     parser = argparse.ArgumentParser(description="Analyse PDFs for accessibility issues")

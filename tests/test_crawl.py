@@ -927,3 +927,71 @@ def test_main_warns_when_no_pages_crawled(tmp_path, capsys):
 
     captured = capsys.readouterr()
     assert "WARNING" in captured.out
+
+
+# ---------------------------------------------------------------------------
+# update_manifest – subdirectory skipping (line 239)
+# ---------------------------------------------------------------------------
+
+def test_update_manifest_skips_subdirectories(tmp_path):
+    """update_manifest must skip subdirectories inside the site directory."""
+    from crawl import update_manifest
+    from manifest import load_manifest
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    # Create a real PDF and a subdirectory inside the site dir.
+    (site_dir / "report.pdf").write_bytes(b"%PDF-1.4 fake")
+    subdir = site_dir / "subdir"
+    subdir.mkdir()
+    # A PDF inside the subdirectory should not be picked up.
+    (subdir / "nested.pdf").write_bytes(b"%PDF-1.4 nested")
+
+    manifest_path = tmp_path / "manifest.yaml"
+    update_manifest(f"https://{site}", str(output_dir), str(manifest_path))
+
+    entries = load_manifest(str(manifest_path))
+    urls = [e["url"] for e in entries]
+    # Only the top-level PDF should be in the manifest.
+    assert len(entries) == 1
+    assert f"https://{site}/report.pdf" in urls
+    assert not any("nested" in u for u in urls)
+
+
+# ---------------------------------------------------------------------------
+# update_manifest – unchanged file counter (line 254)
+# ---------------------------------------------------------------------------
+
+def test_update_manifest_counts_unchanged_files(tmp_path, capsys):
+    """update_manifest must count unchanged files (already in manifest) in updated_count."""
+    from crawl import update_manifest
+    from manifest import load_manifest, save_manifest, build_entry
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    pdf_path = site_dir / "doc.pdf"
+    pdf_path.write_bytes(b"%PDF-1.4 stable")
+
+    # Pre-populate the manifest with the file already analysed (unchanged MD5).
+    existing = build_entry(f"https://{site}/doc.pdf", pdf_path, site)
+    existing["status"] = "analysed"
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest([existing], manifest_path)
+
+    # Run update_manifest again – the file hasn't changed, so upsert_entry
+    # returns needs_scan=False, incrementing updated_count.
+    update_manifest(f"https://{site}", str(output_dir), str(manifest_path))
+
+    captured = capsys.readouterr()
+    assert "0 new/changed" in captured.out
+    assert "1 unchanged" in captured.out
+
+    entries = load_manifest(str(manifest_path))
+    # Status should not have been reset (file MD5 unchanged, already analysed).
+    assert entries[0]["status"] == "analysed"
