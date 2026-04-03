@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-04-02T12:09:51.309164+00:00
+Generated: 2026-04-03T00:25:12.430808+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 256 |
-| Total files tracked | 19173 |
+| URLs crawled | 39 |
+| Total files tracked | 19199 |
 | Analysed | 5668 |
-| Pending analysis | 10094 |
-| Errors during analysis | 3411 |
+| Pending analysis | 9928 |
+| Errors during analysis | 3603 |
 | Accessible | 1785 |
 | Totally inaccessible | 243 |
 | Broken / unreadable | 14 |
@@ -55,7 +55,7 @@ Generated: 2026-04-02T12:09:51.309164+00:00
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
 | middletowncityschools.com | 170 |
-| mn.gov | 1397 |
+| mn.gov | 1423 |
 | mtnboces.org | 32 |
 | ncert.nic.in | 329 |
 | nj.gov | 375 |
@@ -30007,6 +30007,1158 @@ Generated: 2026-04-02T12:09:51.309164+00:00
 - **URL**: https://www.edf-feph.org/content/uploads/2023/06/signed-letter-Commissioners-Valean-and-Dalli-.pdf
 - **Status**: analysed
 - title, 
+
+### (A)Heating_Fuel_and_Utility_Service_Evaluation_Presentation.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_12_10/(A)Heating_Fuel_and_Utility_Service_Evaluation_Presentation.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.654217+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Heating_Fuel_and_Utility_Service_Evaluation_Report.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_12_10/(A)Heating_Fuel_and_Utility_Service_Evaluation_Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.655342+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Heating_Fuel_and_Utility_Service_Summary.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_12_10/(A)Heating_Fuel_and_Utility_Service_Summary.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.656466+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Lawful_Gambling_Evaluation_Presentation.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_12_10/(A)Lawful_Gambling_Evaluation_Presentation.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.657576+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Lawful_Gambling_Evaluation_Report.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_12_10/(A)Lawful_Gambling_Evaluation_Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.659094+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Lawful_Gambling_Summary.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_12_10/(A)Lawful_Gambling_Summary.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.659814+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Marriage_Credit_Evaluation_Presentation.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_11_05/(A)Marriage_Credit_Evaluation_Presentation.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.660928+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Marriage_Credit_Evaluation_Report.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_11_05/(A)Marriage_Credit_Evaluation_Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.662463+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Marriage_Credit_Summary.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_11_05/(A)Marriage_Credit_Summary.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.663271+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Small_Alcohol_Manufacturer_Bundle_Evaluation_Presentation.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_12_10/(A)Small_Alcohol_Manufacturer_Bundle_Evaluation_Presentation.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.664363+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Small_Alcohol_Manufacturer_Bundle_Evaluation_Report.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_12_10/(A)Small_Alcohol_Manufacturer_Bundle_Evaluation_Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.666720+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Small_Alcohol_Manufacturer_Bundle_Summary.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_12_10/(A)Small_Alcohol_Manufacturer_Bundle_Summary.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.667596+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Solar_Energy_Systems_Summary.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_11_05/(A)Solar_Energy_Systems_Summary.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.668420+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Solar_and_Wind_Energy_Systems_Evaluation_Presentation.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_11_05/(A)Solar_and_Wind_Energy_Systems_Evaluation_Presentation.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.670340+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Solar_and_Wind_Energy_Systems_Evaluation_Report.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_11_05/(A)Solar_and_Wind_Energy_Systems_Evaluation_Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.675085+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)TERC_Annual_Report_2025.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/documents/(A)TERC_Annual_Report_2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.683353+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (A)Wind_Energy_Converstion_Systems_Summary.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/meetings/2025/2025_11_05/(A)Wind_Energy_Converstion_Systems_Summary.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.684178+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### (R)TERC_Annual_Report_2024.pdf
+
+- **URL**: https://www.lbo.mn.gov/TERC/documents/(R)TERC_Annual_Report_2024.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.696054+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 020784.pdf
+
+- **URL**: https://bosa.mn.gov/cs/groups/communications/documents/basic/mdaw/mdiw/~edisp/020784.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.697147+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 020815.pdf
+
+- **URL**: https://bosa.mn.gov/cs/groups/communications/documents/document/mdaw/mdiw/~edisp/020815.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.701798+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 020838.pdf
+
+- **URL**: https://bosa.mn.gov/cs/groups/communications/documents/basic/mdaw/mdiw/~edisp/020838.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.703038+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 109-hmong_tcm1068-192565.pdf
+
+- **URL**: https://ui.mn.gov/assets/109-hmong_tcm1068-192565.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.703854+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 109-somali_tcm1068-192564.pdf
+
+- **URL**: https://ui.mn.gov/assets/109-somali_tcm1068-192564.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.704634+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 109-spanish_tcm1068-192563.pdf
+
+- **URL**: https://ui.mn.gov/assets/109-spanish_tcm1068-192563.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.705449+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 109_tcm1068-192562.pdf
+
+- **URL**: https://ui.mn.gov/assets/109_tcm1068-192562.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.706185+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 12.22.2023%20-%20PSG%20MEETINGS_tcm21-604390.pdf
+
+- **URL**: https://mn.gov/boards/assets/12.22.2023%20-%20PSG%20MEETINGS_tcm21-604390.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.707107+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1435-PaidParentalLeave.pdf
+
+- **URL**: https://mn.gov/mmb-stat/policies/1435-PaidParentalLeave.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.707931+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1740_Conciliation_Agreement.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/1740_Conciliation_Agreement.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.708535+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1_Original_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/1_Original_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.709024+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 1_Revised_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/1_Revised_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.709602+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2018-Minnesota-Uniform-Crime-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2018-Minnesota-Uniform-Crime-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.713224+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2019-Minnesota-Uniform-Crime-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2019-Minnesota-Uniform-Crime-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.720001+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2019-Permit-to-Carry-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2019-Permit-to-Carry-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.729872+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2019-hands-free-brochure-for-print-shop.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/ots/2019-hands-free-brochure-for-print-shop.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.732312+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2020-Minnesota-Uniform-Crime-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2020-Minnesota-Uniform-Crime-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.739107+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2020-UAV-Report-Addendum.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2020-UAV-Report-Addendum.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.740271+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2020-permit-to-carry-report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2020-permit-to-carry-report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.756587+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2021-2022-Integration-Report-to-the-Legislature.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2021-2022-Integration-Report-to-the-Legislature.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.757718+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2021-Minnesota-Gang-File-report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2021-Minnesota-Gang-File-report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.758571+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2021-Minnesota-Uniform-Crime-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2021-Minnesota-Uniform-Crime-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.768193+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2021-No-Knock-Annual-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2021-No-Knock-Annual-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.777510+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2021-Permit-to-Carry-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2021-Permit-to-Carry-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.793893+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2021-Use-of-Unmanned-Aerial-Vehicles.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2021-Use-of-Unmanned-Aerial-Vehicles.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.795408+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2021_9_22_RD4713.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/2021_9_22_RD4713.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.796383+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-2024%20AAP%20Minnesota%20Board%20of%20Psychology%20signed_tcm21-590268_tcm21-620049.pdf
+
+- **URL**: https://mn.gov/boards/assets/2022-2024%20AAP%20Minnesota%20Board%20of%20Psychology%20signed_tcm21-590268_tcm21-620049.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.798628+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-2024%20Professional%20Educator%20Licensing%20and%20Standards%20Board%20AAP%20Signed%20Accessible_tcm1113-574886.pdf
+
+- **URL**: https://mn.gov/pelsb/assets/2022-2024%20Professional%20Educator%20Licensing%20and%20Standards%20Board%20AAP%20Signed%20Accessible_tcm1113-574886.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.800619+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-Minnesota-Gang-File-report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2022-Minnesota-Gang-File-report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.801481+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-Minnesota-Uniform-Crime-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2022-Minnesota-Uniform-Crime-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.807146+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-No-Knock-Annual-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2022-No-Knock-Annual-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.808494+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-Permit-to-Carry-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2022-Permit-to-Carry-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.817804+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022-Use-of-Unmanned-Aerial-Vehicles.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2022-Use-of-Unmanned-Aerial-Vehicles.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.819731+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2022combo.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/2022combo.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:42.999819+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023-2024-Integration-Report-to-the-Legislature.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2023-2024-Integration-Report-to-the-Legislature.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.002103+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023-Minnesota-Gang-File-report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2023-Minnesota-Gang-File-report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.003047+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023-Minnesota-Uniform-Crime-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2023-Minnesota-Uniform-Crime-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.004932+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023-No-Knock-Annual-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2023-No-Knock-Annual-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.005925+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023-Permit-to-Carry-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2023-Permit-to-Carry-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.015388+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2023-Use-of-Unmanned-Aerial-Vehicles.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2023-Use-of-Unmanned-Aerial-Vehicles.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.017342+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024%20Minnesota%20Legislation%20Affecting%20Board%20of%20Pharmacy%20Licensees%20and%20Registrants_tcm21-630150.pdf
+
+- **URL**: https://mn.gov/boards/assets/2024%20Minnesota%20Legislation%20Affecting%20Board%20of%20Pharmacy%20Licensees%20and%20Registrants_tcm21-630150.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.018494+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-2026%20MNIT%20AAP%201_tcm38-666122.pdf
+
+- **URL**: https://mn.gov/mnit/assets/2024-2026%20MNIT%20AAP%201_tcm38-666122.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.021733+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-Minnesota-Gang-File-report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2024-Minnesota-Gang-File-report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.022592+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-No-Knock-Annual-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2024-No-Knock-Annual-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.023668+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-Permit-to-Carry-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2024-Permit-to-Carry-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.034663+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-Uniform-Crime-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2024-Uniform-Crime-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.039662+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2024-Use-of-Unmanned-Aerial-Vehicles.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2024-Use-of-Unmanned-Aerial-Vehicles.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.041770+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2025%20Immunization%20Schedules_MDH_tcm21-669301.pdf
+
+- **URL**: https://mn.gov/boards/assets/2025%20Immunization%20Schedules_MDH_tcm21-669301.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.042468+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2025%20Minnesota%20Legislation%20Affecting%20Board%20of%20Pharmacy%20Licensees%20and%20Registrants_tcm21-700907.pdf
+
+- **URL**: https://mn.gov/boards/assets/2025%20Minnesota%20Legislation%20Affecting%20Board%20of%20Pharmacy%20Licensees%20and%20Registrants_tcm21-700907.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.043749+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2025-04-30_lccmr_evaluation_and_selection_criteria.pdf
+
+- **URL**: https://www.lccmr.mn.gov/member_info/2025-04-30_lccmr_evaluation_and_selection_criteria.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.044290+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2025-29-MSP-Strategic-Plan.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/msp/2025-29-MSP-Strategic-Plan.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.045125+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2025-Permit-to-Carry-Report.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/bca/2025-Permit-to-Carry-Report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.056889+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2025-Proclamation-_-Office-of-Governor-Tim-Walz-and-Lt.-Governor-Peggy-Flanagan_2.pdf
+
+- **URL**: https://assets.dps.mn.gov/files/ots/2025-Proclamation-_-Office-of-Governor-Tim-Walz-and-Lt.-Governor-Peggy-Flanagan_2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.058244+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 2027_lccmr_rfp.pdf
+
+- **URL**: https://www.lccmr.mn.gov/proposals/2027/2027_lccmr_rfp.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.059257+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-comments.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-comments.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.074943+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-comments1120.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-comments1120.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.076681+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-draft-rules-board-033120.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-draft-rules-board-033120.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.078465+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-draft-rules.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-draft-rules.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.089623+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-draft-rules011620.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-draft-rules011620.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.091459+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-draft-rules012221.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-draft-rules012221.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.093423+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-draft-rules033120.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-draft-rules033120.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.095759+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-draft-rules072320.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-draft-rules072320.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.098060+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-draft-rules121720.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-draft-rules121720.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.100016+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-order-adopting-rule.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-order-adopting-rule.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.104189+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-order.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-order.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.104829+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-order010622.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-order010622.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.106521+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-sonar-FINAL.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-sonar-FINAL.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.107769+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714-sonar102721.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714-sonar102721.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.108700+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714_draft_rules.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714_draft_rules.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.109745+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 4714_draft_rules081821.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/4714_draft_rules081821.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.110516+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 55.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/55.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.113821+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 56.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/56.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.117068+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 57.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/57.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.119940+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 58.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/58.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.123596+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 59.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/59.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.127071+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 60.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/60.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.130297+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 61.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/61.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.133718+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 62.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/62.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.136174+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 62B.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/62B.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.138568+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 63.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/63.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.142214+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 63A.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/63A.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.144801+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 63B.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/63B.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.147729+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 64.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/64.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.151025+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 64A.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/64A.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.153556+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 64B.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/64B.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.156108+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 65.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/65.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.159293+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 65A-0.pdf
+
+- **URL**: https://gis.lcc.mn.gov/redist2010/Legislative/L2012/maps/house/65A.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.162076+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 65A.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/65A.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.164358+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 65B-0.pdf
+
+- **URL**: https://gis.lcc.mn.gov/redist2010/Legislative/L2012/maps/house/65B.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.168751+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 65B.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/65B.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.171496+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 66.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/66.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.174534+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 661_Complaint.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/661_Complaint.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.175661+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 661_Conciliation_Agreement.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/661_Conciliation_Agreement.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.176336+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 661_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/661_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.177140+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 66A-0.pdf
+
+- **URL**: https://gis.lcc.mn.gov/redist2010/Legislative/L2012/maps/house/66A.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.181718+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 66A.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/66A.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.184099+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 66B-0.pdf
+
+- **URL**: https://gis.lcc.mn.gov/redist2010/Legislative/L2012/maps/house/66B.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.188069+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 66B.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/66B.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.190369+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 67.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/senate/67.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.193533+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 67A-0.pdf
+
+- **URL**: https://gis.lcc.mn.gov/redist2010/Legislative/L2012/maps/house/67A.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.196375+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 67A.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/67A.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.198392+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 67B-0.pdf
+
+- **URL**: https://gis.lcc.mn.gov/redist2010/Legislative/L2012/maps/house/67B.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.202571+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 67B.pdf
+
+- **URL**: https://gis.lcc.mn.gov/pdf/leg2022/house/67B.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.205321+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 690_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/690_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.205813+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 691_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/691_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.206282+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 692_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/692_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.206769+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 694_Original_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/694_Original_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.207237+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 694_Revised_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/694_Revised_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.207719+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 695_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/695_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.208189+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 696_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/696_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.208681+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 699_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/699_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.209161+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 700_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/700_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.209629+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 701_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/701_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.210106+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 702_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/702_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.210575+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 703_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/703_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.211060+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 704_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/704_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.211538+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 705_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/705_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.212030+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 707_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/707_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.212499+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 708_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/708_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.212988+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 713_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/713_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.213462+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 716_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/716_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.213950+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 717_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/717_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.214448+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 719_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/719_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.214943+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 720_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/720_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.215409+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 721_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/721_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.215895+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 722_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/722_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.216367+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 743_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/743_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.216880+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 744_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/744_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.217356+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 745_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/745_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.217842+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 752_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/752_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.218325+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 753_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/753_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.218830+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 754_Complaint.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/754_Complaint.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.227122+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 754_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/754_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.228486+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 754_Supplemental_Complaint.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/754_Supplemental_Complaint.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.235740+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 755_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/755_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.236221+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 756_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/756_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.236710+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 757_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/757_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.237178+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 758_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/758_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.237640+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 759_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/759_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.238119+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 761_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/761_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.238619+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 762_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/762_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.239099+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 765_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/765_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.239579+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 766_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/766_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.240072+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 767_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/767_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.240551+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 768_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/768_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.243847+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 769_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/769_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.244340+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 770_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/770_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.245094+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 771_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/771_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.245849+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 772_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/772_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.246899+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 773_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/773_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.247388+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 774_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/774_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.247890+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 775_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/775_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.248953+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 776_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/776_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.249579+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 777_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/777_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.250722+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 778_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/778_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.251214+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 779_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/779_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.251917+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 780_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/780_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.252437+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 781_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/781_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.253199+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 782_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/782_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.253923+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 783_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/783_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.254624+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 784_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/784_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.255409+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 785_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/785_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.256204+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 786_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/786_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.256711+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 787_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/787_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.257625+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 788_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/788_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.260889+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 789_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/789_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.262327+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 790_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/790_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.263067+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 791_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/791_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.263824+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 792_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/792_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.264546+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 793_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/793_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.265230+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 794_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/794_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.265968+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 795_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/795_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.266685+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 796_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/796_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.267174+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 797_Findings.pdf
+
+- **URL**: https://cfb.mn.gov/pdf/bdactions/797_Findings.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-11T19:43:43.267674+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Aktionsplan-PAN-2019-2024-DE.pdf
 

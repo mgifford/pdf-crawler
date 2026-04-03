@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-03T00:25:12.430808+00:00",
+    "site": "mn.gov",
+    "crawl_url": "https://mn.gov/puc/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23927151053",
+    "issue_url": "",
+    "archive_file": "2026-04-03_00-25-12-430_mn.gov.html",
+    "total": 1423,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-04-02T12:09:51.309164+00:00",
     "site": "ithacacityschools.org",
     "crawl_url": "https://ithacacityschools.org",
