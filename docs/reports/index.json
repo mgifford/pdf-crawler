@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-03T17:01:42.756492+00:00",
+    "site": "mn.gov",
+    "crawl_url": "https://mn.gov/commerce",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23953264419",
+    "issue_url": "",
+    "archive_file": "2026-04-03_17-01-42-756_mn.gov.html",
+    "total": 1423,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-04-03T16:12:38.183232+00:00",
     "site": "mn.gov",
     "crawl_url": "https://mn.gov/commerce/",
