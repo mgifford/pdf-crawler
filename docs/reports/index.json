@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-04T12:22:01.053987+00:00",
+    "site": "slvboces.org",
+    "crawl_url": "https://www.slvboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/23977801091",
+    "issue_url": "",
+    "archive_file": "2026-04-04_12-22-01-053_slvboces.org.html",
+    "total": 729,
+    "analysed": 259,
+    "accessible": 29
+  },
+  {
     "date": "2026-04-03T17:01:42.756492+00:00",
     "site": "mn.gov",
     "crawl_url": "https://mn.gov/commerce",
