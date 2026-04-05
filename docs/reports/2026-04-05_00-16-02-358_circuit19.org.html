@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="../reports.html">&#8592; Back to reports index</a>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-04-05T00:16:02.361902+00:00",
+    "total_files": 39,
+    "analysed": 39,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 4,
+    "totally_inaccessible": 1,
+    "broken": 13,
+    "exempt": 1,
+    "sites": {
+      "circuit19.org": 39
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/06/1-2025-Judge-Wallaces-Office-Office-Procedures.pdf",
+      "md5": "975cac93c1ac7a1d09daf7553f9674b4",
+      "filename": "1-2025-Judge-Wallaces-Office-Office-Procedures.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.494476+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/1-2025-Judge-Wallaces-Office-Office-Procedures.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2024/11/2015-06-Amended.pdf",
+      "md5": "b209d8de51d130c1bb9a3341cc573da7",
+      "filename": "2015-06-Amended.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.496599+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2018-10-08 11:54:53-04:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 8,
+        "Words": 2135,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2024/11/2021-05.pdf",
+      "md5": "59ff7beb0877a1d3c9de9492940beef1",
+      "filename": "2021-05.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.498158+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-04-23 14:26:30+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 8,
+        "Words": 1961,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2024/11/2023-03.pdf",
+      "md5": "8918b2d8036b2f69f1b5255c59c23a68",
+      "filename": "2023-03.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.499750+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-07-17 14:50:30+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.3.20",
+        "Pages": 2,
+        "Words": 414,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/2025-2026-CAC-New-Application.pdf",
+      "md5": "2c536ce91472685cd269f09140c4abeb",
+      "filename": "2025-2026-CAC-New-Application.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.501111+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/2025-2026-CAC-New-Application.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/2025-2026-CAC-Renewal-Application.pdf",
+      "md5": "cd2cca45866dd9bb204bf306510f526d",
+      "filename": "2025-2026-CAC-Renewal-Application.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.502548+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/2025-2026-CAC-Renewal-Application.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/06/2025-4-County-Weekend-FAPS-SWAPS.pdf",
+      "md5": "294ec33cf08f729eded6af49c49f1073",
+      "filename": "2025-4-County-Weekend-FAPS-SWAPS.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.504066+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-06-17 19:08:21+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.51",
+        "Pages": 5,
+        "Words": 506,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2026/02/2026-DR-Judicial-Practices-and-Procedures-1.pdf",
+      "md5": "cd2b5035b13000b2df3ab094acba83b0",
+      "filename": "2026-DR-Judicial-Practices-and-Procedures-1.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.505847+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-02-24 18:16:21+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.231",
+        "Pages": 18,
+        "Words": 6479,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/01/ADA-Compliant-language-for-Summons.pdf",
+      "md5": "2d072d654b224c24deef55024f084d49",
+      "filename": "ADA-Compliant-language-for-Summons.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.507861+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": true,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Fail",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-12-31 12:57:43+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "Microsoft: Print To PDF",
+        "Pages": 1,
+        "Words": 0,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/COP-Form-Without-Attorney.pdf",
+      "md5": "09c81c9bb741e4531e2dc89048ab3e29",
+      "filename": "COP-Form-Without-Attorney.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.509444+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-05-19 13:33:00+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 23 for Word",
+        "Producer": "Adobe PDF Library 23.1.206",
+        "Pages": 3,
+        "Words": 1194,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/CSHO-EXHIBIT-LIST-FORM.pdf",
+      "md5": "207fb991067fc37e1433a069accd808a",
+      "filename": "CSHO-EXHIBIT-LIST-FORM.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.510808+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/CSHO-EXHIBIT-LIST-FORM.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/CSHO-EXHIBIT-POLICY.pdf",
+      "md5": "2d2eff2d9bc626c148e947211f0d0a81",
+      "filename": "CSHO-EXHIBIT-POLICY.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.512191+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/CSHO-EXHIBIT-POLICY.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/08/Civil-Order-of-Referral-Magistrate-Lewis-2025.pdf",
+      "md5": "1b1efe3e349c8c60a1428ad5206e4280",
+      "filename": "Civil-Order-of-Referral-Magistrate-Lewis-2025.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.513553+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/Civil-Order-of-Referral-Magistrate-Lewis-2025.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Closing-a-Formal-Administration-Checklist-Discharge-RW.pdf",
+      "md5": "bdb07f3e4e72f6be160cb1011e441269",
+      "filename": "Closing-a-Formal-Administration-Checklist-Discharge-RW.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.515340+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-06 16:15:43+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 2,
+        "Words": 339,
+        "Images": 3
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2024/12/Complaint-Form-Draft-v.2.1.pdf",
+      "md5": "0062ccd3f33c56ce3e17700407988466",
+      "filename": "Complaint-Form-Draft-v.2.1.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.517866+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2018-09-28 14:55:13+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 11 for Word",
+        "Producer": "Adobe PDF Library 11.0",
+        "Pages": 1,
+        "Words": 165,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Disposition-of-Personal-Property-Checklist-RW.pdf",
+      "md5": "091e2c963faca0ff5e3378f2544366af",
+      "filename": "Disposition-of-Personal-Property-Checklist-RW.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.519651+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-06 16:14:46+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 1,
+        "Words": 225,
+        "Images": 1
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/EXHIBIT-POLICY-REVISED-9-10-2024.pdf",
+      "md5": "2db8fa40fbabf9cbd28286bb64e1cfbe",
+      "filename": "EXHIBIT-POLICY-REVISED-9-10-2024.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.521570+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-09-10 20:43:50+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.3.86",
+        "Pages": 2,
+        "Words": 466,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Exhibit-procedure.pdf",
+      "md5": "933614958dc5643fadfb4642f09fa3d6",
+      "filename": "Exhibit-procedure.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.523149+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2024-10-28 17:20:21+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 24 for Word",
+        "Producer": "Adobe PDF Library 24.3.212",
+        "Pages": 2,
+        "Words": 507,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/03/Grievance-Complaint-Form-2011.pdf",
+      "md5": "3593a4c1758f0bf82b936172ebab0767",
+      "filename": "Grievance-Complaint-Form-2011.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.524527+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/Grievance-Complaint-Form-2011.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/03/Grievance-Procedure-2011.pdf",
+      "md5": "ab10c768f125ad967abd32433202b3b1",
+      "filename": "Grievance-Procedure-2011.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.525884+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/Grievance-Procedure-2011.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Annual-Audit-Checklist_0.pdf",
+      "md5": "a6fea22282e03c3df948e1ac70bf90d4",
+      "filename": "Guardianship-Annual-Audit-Checklist_0.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.527327+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": true,
+        "Date": "2005-09-23 17:51:05+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "PScript5.dll Version 5.2",
+        "Producer": "Acrobat Distiller 7.0 (Windows)",
+        "Pages": 1,
+        "Words": 221,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Annual-Plan-Form_0.pdf",
+      "md5": "516065d7a052a027be8dcabdcd3d4011",
+      "filename": "Guardianship-Annual-Plan-Form_0.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.529104+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2016-03-22 02:31:08+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 9.0 for Word",
+        "Producer": "Adobe PDF Library 9.0",
+        "Pages": 13,
+        "Words": 1998,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Petition-for-Order-Authorizing-Payment-to-Attorney_0.pdf",
+      "md5": "f400390efceb905b3a68e32a0f38af50",
+      "filename": "Guardianship-Petition-for-Order-Authorizing-Payment-to-Attorney_0.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.530607+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2014-04-04 15:52:37+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 9.0 for Word",
+        "Producer": "Adobe PDF Library 9.0",
+        "Pages": 2,
+        "Words": 400,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Simplified-Accounting-Form_0.pdf",
+      "md5": "ed520b6fa4398166731a8402522d7704",
+      "filename": "Guardianship-Simplified-Accounting-Form_0.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.532370+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2014-04-04 16:06:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Microsoft\u00ae Office Word 2007",
+        "Producer": "Microsoft\u00ae Office Word 2007",
+        "Pages": 3,
+        "Words": 474,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/IDO-and-Instructions-Fillable-Form-12.996a-10.21.pdf",
+      "md5": "7d86b743dbdeb30244d81e0ab123b49d",
+      "filename": "IDO-and-Instructions-Fillable-Form-12.996a-10.21.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.535753+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2022-01-05 20:10:23+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": null,
+        "Producer": "Microsoft: Print To PDF",
+        "Pages": 8,
+        "Words": 3018,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/IWO-Fillable-Form-12.996-expires-08.31.2026.pdf",
+      "md5": "e4cf1f9c82eed532c73f54096540b113",
+      "filename": "IWO-Fillable-Form-12.996-expires-08.31.2026.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.538352+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2023-10-06 19:09:53+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": null,
+        "Producer": null,
+        "Pages": 4,
+        "Words": 1552,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2026/03/Judges-Printable-List-Updated-3-11-2026.pdf",
+      "md5": "47fd44384990b7747d5f3707cc3319b9",
+      "filename": "Judges-Printable-List-Updated-3-11-2026.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.540009+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/Judges-Printable-List-Updated-3-11-2026.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2026/03/July-2026.pdf",
+      "md5": "f37429540e9ad9bcc63d959603fdaf8f",
+      "filename": "July-2026.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.541555+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-03-12 15:25:34+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.40",
+        "Pages": 1,
+        "Words": 269,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2026/01/March-2026.pdf",
+      "md5": "b9191d70388d4c128af8ae31e79856b3",
+      "filename": "March-2026.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.543026+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2026-01-26 13:41:19+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.119",
+        "Pages": 1,
+        "Words": 240,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/ORDER-DETERMINING-INCAPACITY_0.pdf",
+      "md5": "e36e5db6d22bbc03fc3428c9758cf1f9",
+      "filename": "ORDER-DETERMINING-INCAPACITY_0.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.544759+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-02-10 21:46:22+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.5",
+        "Creator": "Microsoft\u00ae Word 2016",
+        "Producer": "Microsoft\u00ae Word 2016",
+        "Pages": 2,
+        "Words": 569,
+        "Images": 0
+      },
+      "errors": [
+        "title, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2026/01/ST.pdf",
+      "md5": "e8311ab9ed6a5240db305e7a79bedcfa",
+      "filename": "ST.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.546140+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/ST.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2024/12/State-Application.pdf",
+      "md5": "e023168349e4833d85f9543b732e909c",
+      "filename": "State-Application.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.548651+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2021-08-20 16:20:17+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CS6 (Macintosh)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Pages": 6,
+        "Words": 2791,
+        "Images": 0
+      },
+      "errors": [
+        "title, lang, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/03/Title-II-ADA-REQUEST-FORM.pdf",
+      "md5": "66e73cdafd50a86a3eafe948b4021d95",
+      "filename": "Title-II-ADA-REQUEST-FORM.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.550489+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/Title-II-ADA-REQUEST-FORM.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Verified-Checklist-for-Adoption-by-Stepparent-Fillable.pdf",
+      "md5": "c29ca38bf52d88a8d5ef0822eea8fff5",
+      "filename": "Verified-Checklist-for-Adoption-by-Stepparent-Fillable.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.552634+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-28 17:39:19+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 24.0 (Windows)",
+        "Pages": 4,
+        "Words": 563,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Verified-Checklist-for-Paternity-Fillable_0.pdf",
+      "md5": "7862b082dd409b4a180981f40d0574c5",
+      "filename": "Verified-Checklist-for-Paternity-Fillable_0.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.556160+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-02-14 13:22:24+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "PScript5.dll Version 5.2.2",
+        "Producer": "Acrobat Distiller 24.0 (Windows)",
+        "Pages": 3,
+        "Words": 498,
+        "Images": 0
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Verified-Checklist-for-Support-Unconnected-with-Dissolution-Fillable_1.pdf",
+      "md5": "2908c03a21fd4a22d6ba11879c68e2a6",
+      "filename": "Verified-Checklist-for-Support-Unconnected-with-Dissolution-Fillable_1.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.560083+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-02-14 13:28:55+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": true,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 3,
+        "Words": 514,
+        "Images": 0
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Behavior-1.pdf",
+      "md5": "18360eb381634c77a9d65b2bfb97e83d",
+      "filename": "Zoom-Behavior-1.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.562412+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/Zoom-Behavior-1.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Flyer-Judge-White-IRC-WP.pdf",
+      "md5": "c294ead6c84db6e68c08f222dd20023c",
+      "filename": "Zoom-Flyer-Judge-White-IRC-WP.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.564838+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": true,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "Exempt": false,
+        "Date": "2025-01-16 14:40:20+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Microsoft\u00ae Word for Microsoft 365",
+        "Producer": "Microsoft\u00ae Word for Microsoft 365",
+        "Pages": 1,
+        "Words": 181,
+        "Images": 1
+      },
+      "errors": []
+    },
+    {
+      "url": "https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Link-2024-09-25.pdf",
+      "md5": "495e6c816e80bd62ad3e81d3236c0341",
+      "filename": "Zoom-Link-2024-09-25.pdf",
+      "site": "circuit19.org",
+      "crawled_at": "2026-04-05T00:05:40.566898+00:00",
+      "status": "analysed",
+      "report": {
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null
+      },
+      "errors": [
+        "PdfError: crawled_files/circuit19.org/Zoom-Link-2024-09-25.pdf: unable to find trailer dictionary while recovering damaged file"
+      ]
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>No scan data available yet.</p>' +
+          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: 'Total PDFs' },
+        { value: summary.analysed,            label: 'Analysed' },
+        { value: summary.accessible,          label: '&#x2705; Accessible' },
+        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
+        { value: summary.pending,             label: '&#x23F3; Pending' },
+        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+      ];
+      html += '<h2>Summary</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>Sites Scanned</h2>';
+        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
+      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':       return (f.filename || f.url || '').toLowerCase();
+          case 'site':       return (f.site || '').toLowerCase();
+          case 'date':       return r.Date ? String(r.Date) : '';
+          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
+          case 'words':      return r.Words  != null ? r.Words  : -1;
+          case 'images':     return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        var extDomain = '';
+        try {
+          var pdfHost = new URL(f.url).hostname.replace(/^www\./, '');
+          var seed = (f.site || '').replace(/^www\./, '');
+          if (pdfHost && seed && pdfHost !== seed && !pdfHost.endsWith('.' + seed)) {
+            extDomain = pdfHost;
+          }
+        } catch (e) {}
+        var siteCell = esc(f.site || '');
+        if (extDomain) {
+          siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
+        }
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        var colDefs = [
+          { key: 'file',       label: 'File' },
+          { key: 'site',       label: 'Site' },
+          { key: 'date',       label: 'Published Date' },
+          { key: 'accessible', label: 'Accessible' },
+          { key: 'tagged',     label: 'Tagged' },
+          { key: 'title',      label: 'Title' },
+          { key: 'language',   label: 'Language' },
+          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'pages',      label: 'Pages' },
+        ];
+        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
+        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+
+        html += '<h2>PDF Details</h2>';
+        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>

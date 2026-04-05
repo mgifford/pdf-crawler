@@ -1,19 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-04-04T12:47:48.321717+00:00
+Generated: 2026-04-05T00:16:02.358384+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19199 |
-| Analysed | 5707 |
-| Pending analysis | 9003 |
+| URLs crawled | 64 |
+| Total files tracked | 19305 |
+| Analysed | 5746 |
+| Pending analysis | 9070 |
 | Errors during analysis | 4489 |
-| Accessible | 1790 |
-| Totally inaccessible | 256 |
-| Broken / unreadable | 14 |
-| Exempt (pre-2018) | 1410 |
+| Accessible | 1794 |
+| Totally inaccessible | 257 |
+| Broken / unreadable | 27 |
+| Exempt (pre-2018) | 1411 |
 
 ## Files per Site
 
@@ -30,6 +31,7 @@ Generated: 2026-04-04T12:47:48.321717+00:00
 | calgary.ca | 165 |
 | canada.ca | 496 |
 | careerforce.mn.gov | 9 |
+| circuit19.org | 39 |
 | cms.gov | 460 |
 | coloradoboces.org | 48 |
 | coloradomesa.edu | 88 |
@@ -62,7 +64,7 @@ Generated: 2026-04-04T12:47:48.321717+00:00
 | nsf.gov | 1427 |
 | nwboces.org | 21 |
 | ontario.ca | 51 |
-| oregon.gov | 2101 |
+| oregon.gov | 2168 |
 | pa.gov | 212 |
 | pca.state.mn.us | 211 |
 | ppboces.org | 34 |
@@ -5791,6 +5793,45 @@ Generated: 2026-04-04T12:47:48.321717+00:00
 | [Recruitment-Guidelines-FAQs_2024.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Recruitment-Guidelines-FAQs_2024.pdf) | pstcc.edu | 2025-03-10 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1462 | 0 |
 | [Student-Awards-Program-Spring-2025.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/Student-Awards-Program-Spring-2025.pdf) | pstcc.edu | 2025-04-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 918 | 1 |
 | [TLC-LEARNING-CONFERENCE-2026.pdf](https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/calendar/TLC-LEARNING-CONFERENCE-2026.pdf) | pstcc.edu | 2026-03-12 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 56 | 14831 | 44 |
+| [1-2025-Judge-Wallaces-Office-Office-Procedures.pdf](https://www.circuit19.org/wp-content/uploads/2025/06/1-2025-Judge-Wallaces-Office-Office-Procedures.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [2015-06-Amended.pdf](https://www.circuit19.org/wp-content/uploads/2024/11/2015-06-Amended.pdf) | circuit19.org | 2018-10-08 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2135 | 1 |
+| [2021-05.pdf](https://www.circuit19.org/wp-content/uploads/2024/11/2021-05.pdf) | circuit19.org | 2021-04-23 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1961 | 1 |
+| [2023-03.pdf](https://www.circuit19.org/wp-content/uploads/2024/11/2023-03.pdf) | circuit19.org | 2023-07-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 414 | 1 |
+| [2025-2026-CAC-New-Application.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/2025-2026-CAC-New-Application.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [2025-2026-CAC-Renewal-Application.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/2025-2026-CAC-Renewal-Application.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [2025-4-County-Weekend-FAPS-SWAPS.pdf](https://www.circuit19.org/wp-content/uploads/2025/06/2025-4-County-Weekend-FAPS-SWAPS.pdf) | circuit19.org | 2025-06-17 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 506 | 0 |
+| [2026-DR-Judicial-Practices-and-Procedures-1.pdf](https://www.circuit19.org/wp-content/uploads/2026/02/2026-DR-Judicial-Practices-and-Procedures-1.pdf) | circuit19.org | 2026-02-24 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 18 | 6479 | 0 |
+| [ADA-Compliant-language-for-Summons.pdf](https://www.circuit19.org/wp-content/uploads/2025/01/ADA-Compliant-language-for-Summons.pdf) | circuit19.org | 2024-12-31 | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 0 | 0 |
+| [COP-Form-Without-Attorney.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/COP-Form-Without-Attorney.pdf) | circuit19.org | 2023-05-19 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 1194 | 0 |
+| [CSHO-EXHIBIT-LIST-FORM.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/CSHO-EXHIBIT-LIST-FORM.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [CSHO-EXHIBIT-POLICY.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/CSHO-EXHIBIT-POLICY.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [Civil-Order-of-Referral-Magistrate-Lewis-2025.pdf](https://www.circuit19.org/wp-content/uploads/2025/08/Civil-Order-of-Referral-Magistrate-Lewis-2025.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [Closing-a-Formal-Administration-Checklist-Discharge-RW.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Closing-a-Formal-Administration-Checklist-Discharge-RW.pdf) | circuit19.org | 2025-01-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 339 | 3 |
+| [Complaint-Form-Draft-v.2.1.pdf](https://www.circuit19.org/wp-content/uploads/2024/12/Complaint-Form-Draft-v.2.1.pdf) | circuit19.org | 2018-09-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 165 | 0 |
+| [Disposition-of-Personal-Property-Checklist-RW.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Disposition-of-Personal-Property-Checklist-RW.pdf) | circuit19.org | 2025-01-06 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 225 | 1 |
+| [EXHIBIT-POLICY-REVISED-9-10-2024.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/EXHIBIT-POLICY-REVISED-9-10-2024.pdf) | circuit19.org | 2024-09-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 466 | 0 |
+| [Exhibit-procedure.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Exhibit-procedure.pdf) | circuit19.org | 2024-10-28 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 507 | 0 |
+| [Grievance-Complaint-Form-2011.pdf](https://www.circuit19.org/wp-content/uploads/2025/03/Grievance-Complaint-Form-2011.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [Grievance-Procedure-2011.pdf](https://www.circuit19.org/wp-content/uploads/2025/03/Grievance-Procedure-2011.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [Guardianship-Annual-Audit-Checklist_0.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Annual-Audit-Checklist_0.pdf) | circuit19.org | 2005-09-23 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 221 | 0 |
+| [Guardianship-Annual-Plan-Form_0.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Annual-Plan-Form_0.pdf) | circuit19.org | 2016-03-22 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 1998 | 0 |
+| [Guardianship-Petition-for-Order-Authorizing-Payment-to-Attorney_0.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Petition-for-Order-Authorizing-Payment-to-Attorney_0.pdf) | circuit19.org | 2014-04-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 2 | 400 | 0 |
+| [Guardianship-Simplified-Accounting-Form_0.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Simplified-Accounting-Form_0.pdf) | circuit19.org | 2014-04-04 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 474 | 0 |
+| [IDO-and-Instructions-Fillable-Form-12.996a-10.21.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/IDO-and-Instructions-Fillable-Form-12.996a-10.21.pdf) | circuit19.org | 2022-01-05 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 3018 | 0 |
+| [IWO-Fillable-Form-12.996-expires-08.31.2026.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/IWO-Fillable-Form-12.996-expires-08.31.2026.pdf) | circuit19.org | 2023-10-06 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1552 | 0 |
+| [Judges-Printable-List-Updated-3-11-2026.pdf](https://www.circuit19.org/wp-content/uploads/2026/03/Judges-Printable-List-Updated-3-11-2026.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [July-2026.pdf](https://www.circuit19.org/wp-content/uploads/2026/03/July-2026.pdf) | circuit19.org | 2026-03-12 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 269 | 0 |
+| [March-2026.pdf](https://www.circuit19.org/wp-content/uploads/2026/01/March-2026.pdf) | circuit19.org | 2026-01-26 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 240 | 0 |
+| [ORDER-DETERMINING-INCAPACITY_0.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/ORDER-DETERMINING-INCAPACITY_0.pdf) | circuit19.org | 2025-02-10 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 569 | 0 |
+| [ST.pdf](https://www.circuit19.org/wp-content/uploads/2026/01/ST.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [State-Application.pdf](https://www.circuit19.org/wp-content/uploads/2024/12/State-Application.pdf) | circuit19.org | 2021-08-20 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 6 | 2791 | 0 |
+| [Title-II-ADA-REQUEST-FORM.pdf](https://www.circuit19.org/wp-content/uploads/2025/03/Title-II-ADA-REQUEST-FORM.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [Verified-Checklist-for-Adoption-by-Stepparent-Fillable.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Verified-Checklist-for-Adoption-by-Stepparent-Fillable.pdf) | circuit19.org | 2025-01-28 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 4 | 563 | 0 |
+| [Verified-Checklist-for-Paternity-Fillable_0.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Verified-Checklist-for-Paternity-Fillable_0.pdf) | circuit19.org | 2025-02-14 | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 3 | 498 | 0 |
+| [Verified-Checklist-for-Support-Unconnected-with-Dissolution-Fillable_1.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Verified-Checklist-for-Support-Unconnected-with-Dissolution-Fillable_1.pdf) | circuit19.org | 2025-02-14 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 514 | 0 |
+| [Zoom-Behavior-1.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Behavior-1.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [Zoom-Flyer-Judge-White-IRC-WP.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Flyer-Judge-White-IRC-WP.pdf) | circuit19.org | 2025-01-16 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181 | 1 |
+| [Zoom-Link-2024-09-25.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Link-2024-09-25.pdf) | circuit19.org | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 
 ## Files with Errors or Notes
 
@@ -56415,3 +56456,213 @@ Generated: 2026-04-04T12:47:48.321717+00:00
 - **URL**: https://www.pstcc.edu/media/pstccedu/site-assets/pdfs/intellectual-diversity/Pellissippi-Results-2025-Intellectual-Diversity.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### 1-2025-Judge-Wallaces-Office-Office-Procedures.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/06/1-2025-Judge-Wallaces-Office-Office-Procedures.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/1-2025-Judge-Wallaces-Office-Office-Procedures.pdf: unable to find trailer dictionary while recovering damaged file
+
+### 2015-06-Amended.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2024/11/2015-06-Amended.pdf
+- **Status**: analysed
+- title, 
+
+### 2021-05.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2024/11/2021-05.pdf
+- **Status**: analysed
+- title, 
+
+### 2023-03.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2024/11/2023-03.pdf
+- **Status**: analysed
+- title, 
+
+### 2025-2026-CAC-New-Application.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/2025-2026-CAC-New-Application.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/2025-2026-CAC-New-Application.pdf: unable to find trailer dictionary while recovering damaged file
+
+### 2025-2026-CAC-Renewal-Application.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/2025-2026-CAC-Renewal-Application.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/2025-2026-CAC-Renewal-Application.pdf: unable to find trailer dictionary while recovering damaged file
+
+### 2025-4-County-Weekend-FAPS-SWAPS.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/06/2025-4-County-Weekend-FAPS-SWAPS.pdf
+- **Status**: analysed
+- title, 
+
+### 2026-DR-Judicial-Practices-and-Procedures-1.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2026/02/2026-DR-Judicial-Practices-and-Procedures-1.pdf
+- **Status**: analysed
+- title, 
+
+### ADA-Compliant-language-for-Summons.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/01/ADA-Compliant-language-for-Summons.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### COP-Form-Without-Attorney.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/COP-Form-Without-Attorney.pdf
+- **Status**: analysed
+- title, lang, 
+
+### CSHO-EXHIBIT-LIST-FORM.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/CSHO-EXHIBIT-LIST-FORM.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/CSHO-EXHIBIT-LIST-FORM.pdf: unable to find trailer dictionary while recovering damaged file
+
+### CSHO-EXHIBIT-POLICY.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/CSHO-EXHIBIT-POLICY.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/CSHO-EXHIBIT-POLICY.pdf: unable to find trailer dictionary while recovering damaged file
+
+### Civil-Order-of-Referral-Magistrate-Lewis-2025.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/08/Civil-Order-of-Referral-Magistrate-Lewis-2025.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/Civil-Order-of-Referral-Magistrate-Lewis-2025.pdf: unable to find trailer dictionary while recovering damaged file
+
+### Closing-a-Formal-Administration-Checklist-Discharge-RW.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Closing-a-Formal-Administration-Checklist-Discharge-RW.pdf
+- **Status**: analysed
+- title, 
+
+### Complaint-Form-Draft-v.2.1.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2024/12/Complaint-Form-Draft-v.2.1.pdf
+- **Status**: analysed
+- title, 
+
+### Disposition-of-Personal-Property-Checklist-RW.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Disposition-of-Personal-Property-Checklist-RW.pdf
+- **Status**: analysed
+- title, 
+
+### EXHIBIT-POLICY-REVISED-9-10-2024.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/EXHIBIT-POLICY-REVISED-9-10-2024.pdf
+- **Status**: analysed
+- title, 
+
+### Exhibit-procedure.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Exhibit-procedure.pdf
+- **Status**: analysed
+- title, 
+
+### Grievance-Complaint-Form-2011.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/03/Grievance-Complaint-Form-2011.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/Grievance-Complaint-Form-2011.pdf: unable to find trailer dictionary while recovering damaged file
+
+### Grievance-Procedure-2011.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/03/Grievance-Procedure-2011.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/Grievance-Procedure-2011.pdf: unable to find trailer dictionary while recovering damaged file
+
+### Guardianship-Annual-Audit-Checklist_0.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Annual-Audit-Checklist_0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Guardianship-Annual-Plan-Form_0.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Annual-Plan-Form_0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Guardianship-Petition-for-Order-Authorizing-Payment-to-Attorney_0.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Petition-for-Order-Authorizing-Payment-to-Attorney_0.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Guardianship-Simplified-Accounting-Form_0.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Guardianship-Simplified-Accounting-Form_0.pdf
+- **Status**: analysed
+- title, 
+
+### Judges-Printable-List-Updated-3-11-2026.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2026/03/Judges-Printable-List-Updated-3-11-2026.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/Judges-Printable-List-Updated-3-11-2026.pdf: unable to find trailer dictionary while recovering damaged file
+
+### July-2026.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2026/03/July-2026.pdf
+- **Status**: analysed
+- title, 
+
+### March-2026.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2026/01/March-2026.pdf
+- **Status**: analysed
+- title, 
+
+### ORDER-DETERMINING-INCAPACITY_0.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/ORDER-DETERMINING-INCAPACITY_0.pdf
+- **Status**: analysed
+- title, 
+
+### ST.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2026/01/ST.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/ST.pdf: unable to find trailer dictionary while recovering damaged file
+
+### State-Application.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2024/12/State-Application.pdf
+- **Status**: analysed
+- title, lang, 
+
+### Title-II-ADA-REQUEST-FORM.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/03/Title-II-ADA-REQUEST-FORM.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/Title-II-ADA-REQUEST-FORM.pdf: unable to find trailer dictionary while recovering damaged file
+
+### Verified-Checklist-for-Adoption-by-Stepparent-Fillable.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Verified-Checklist-for-Adoption-by-Stepparent-Fillable.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Verified-Checklist-for-Paternity-Fillable_0.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Verified-Checklist-for-Paternity-Fillable_0.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Zoom-Behavior-1.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Behavior-1.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/Zoom-Behavior-1.pdf: unable to find trailer dictionary while recovering damaged file
+
+### Zoom-Link-2024-09-25.pdf
+
+- **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Link-2024-09-25.pdf
+- **Status**: analysed
+- PdfError: crawled_files/circuit19.org/Zoom-Link-2024-09-25.pdf: unable to find trailer dictionary while recovering damaged file
