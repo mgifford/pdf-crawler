@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-06T20:39:50.107417+00:00",
+    "site": "mn.gov",
+    "crawl_url": "https://mn.gov/puc/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/24048482259",
+    "issue_url": "",
+    "archive_file": "2026-04-06_20-39-50-107_mn.gov.html",
+    "total": 1456,
+    "analysed": 30,
+    "accessible": 13
+  },
+  {
     "date": "2026-04-06T12:47:23.482382+00:00",
     "site": "lib.pstcc.edu",
     "crawl_url": "https://lib.pstcc.edu",

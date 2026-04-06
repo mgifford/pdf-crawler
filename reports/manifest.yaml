@@ -109258,8 +109258,33 @@
   filename: 2027_lccmr_rfp.pdf
   site: mn.gov
   crawled_at: '2026-04-06T19:57:32.743933+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2026-03-18 15:19:42+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft® Publisher for Microsoft 365
+    Producer: Microsoft® Publisher for Microsoft 365
+    Pages: 12
+    Words: 5894
+    Images: 4
   errors: []
 - url: https://www.dli.mn.gov/sites/default/files/pdf/4714-comments.pdf
   md5: 0b3733147d7036edb2816500b3ddffb2
@@ -136813,1505 +136838,2724 @@
   filename: Informed-Consent-for-Release-of-Data.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.230050+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.230050+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/Insurers_and_self-insured_employers_assessment_resources.pdf
   md5: efb903ed1cb1dc177231f89fd96bc99c
   filename: Insurers_and_self-insured_employers_assessment_resources.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.231452+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.231452+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/bca/Investigations-Retention-Schedule.pdf
   md5: 5dbdeb12842fb462eb50770fbfd983aa
   filename: Investigations-Retention-Schedule.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.237357+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.237357+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/LCPR_Background_Doc.pdf
   md5: c04e5f8253f8e42301567d61a2d3f37b
   filename: LCPR_Background_Doc.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.239391+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2023-10-24 15:26:16+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 23 for Word
+    Producer: Adobe PDF Library 23.6.136
+    Pages: 12
+    Words: 2660
+    Images: 21
+  errors:
+  - 'title, '
 - url: https://mn.gov/law-library/assets/LLSP%20Annual%20Report%202023_tcm1041-660621.pdf
   md5: b647b6341fd019c3a2608b1cfd4a6d0b
   filename: LLSP%20Annual%20Report%202023_tcm1041-660621.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.241339+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.241339+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/LLSP2018_tcm1041-400910.pdf
   md5: b04faa91bec5bbfc59b05da1a8f991e9
   filename: LLSP2018_tcm1041-400910.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.242057+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.242057+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/LLSP2019_tcm1041-438817.pdf
   md5: 4ecf2a37f7648be0c48d2c90ccdc24ea
   filename: LLSP2019_tcm1041-438817.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.242787+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.242787+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/LLSPAnnualReport_2021_tcm1041-526722.pdf
   md5: eedec810fd061672812fa552f3e95894
   filename: LLSPAnnualReport_2021_tcm1041-526722.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.243587+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.243587+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/LLSPAnnualReport_2022_web_tcm1041-582692.pdf
   md5: bda5355715ae8a17970d23c85caed4e5
   filename: LLSPAnnualReport_2022_web_tcm1041-582692.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.244336+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.244336+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/190301/LSC-Data-Practices-Data-Subjects-policy-1-2017.pdf
   md5: b4c534c68bde23c82530e75ab0309d0f
   filename: LSC-Data-Practices-Data-Subjects-policy-1-2017.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.246429+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.246429+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/190301/LSC-Data-Practices-policy-1-2017.pdf
   md5: 2d455fd2c69347ed6bcd1974ff3de694
   filename: LSC-Data-Practices-policy-1-2017.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.247791+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.247791+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcc.mn.gov/legsalarycouncil/reports/LSC-report-3-23-21-final.pdf
   md5: 37467f7eca79929e25f8c8dde9197acd
   filename: LSC-report-3-23-21-final.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.253234+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.253234+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/250221/Legislative-Salary-Council-Provisions.pdf
   md5: af72de3022808aa9c939b31c3478e6f7
   filename: Legislative-Salary-Council-Provisions.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.254716+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-02-14 18:08:21+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 24 for Word
+    Producer: Adobe PDF Library 24.5.175
+    Pages: 1
+    Words: 273
+    Images: 1
   errors: []
 - url: https://www.legacy.mn.gov/MN-Civics-Questions.pdf
   md5: f634f4a4a45ae20dd69408990bbc4ae9
   filename: MN-Civics-Questions.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.257296+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.257296+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/bca/MN-Justice-Information-Services-Retention-Schedule.pdf
   md5: 1c2e31bfce96b74889d80bb29defbad1
   filename: MN-Justice-Information-Services-Retention-Schedule.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.274193+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.274193+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/dvs/MV-DisabilityPlate-SecondSetQuestionnaire.pdf
   md5: 79ca7eaacc2565b2ece5bfa640c26570
   filename: MV-DisabilityPlate-SecondSetQuestionnaire.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.277748+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.277748+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/dvs/MV_SpecialPlatesApplication.pdf
   md5: 24a5eabc1674908ed70c507b109f0d47
   filename: MV_SpecialPlatesApplication.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.281129+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.281129+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/bca/Minnesota-Fusion-Center-Retension-Schedule.pdf
   md5: c66db464104c46dc98a4b8555a42932a
   filename: Minnesota-Fusion-Center-Retension-Schedule.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.285356+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.285356+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/ojp/Minnesota-ID-Theft-Toolkit.pdf
   md5: 40634a40bad43e4a296d187f3019092d
   filename: Minnesota-ID-Theft-Toolkit.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.287007+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-11-24 20:47:24+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 25 for Word
+    Producer: Adobe PDF Library 25.1.20
+    Pages: 24
+    Words: 4887
+    Images: 2
   errors: []
 - url: https://assets.dps.mn.gov/files/bca/Missing-persons-2025.pdf
   md5: 5bbe332bc9f2047cd23ea25b6e87b743
   filename: Missing-persons-2025.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.291448+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.291448+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/obfc/assets/OBFC%20Complaint%20Form%20for%20Staff_tcm1157-471832.pdf
   md5: fefcda133b18dce7a046413b4d2d42e1
   filename: OBFC%20Complaint%20Form%20for%20Staff_tcm1157-471832.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.307343+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.307343+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/obfc/assets/OBFC%20Crumbling%20Conditions%20Update%20February%202025_tcm1157-669735.pdf
   md5: b93ac536a04bf010d785127262cb06cf
   filename: OBFC%20Crumbling%20Conditions%20Update%20February%202025_tcm1157-669735.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.308852+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.308852+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/obfc/assets/OBFC%20Systemic%20Complaint%20Form%20Website%20Fillable_tcm1157-471591.pdf
   md5: 0387c83edcc081967e5f551c76a75e28
   filename: OBFC%20Systemic%20Complaint%20Form%20Website%20Fillable_tcm1157-471591.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.310081+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.310081+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/bca/Obtaining-Private-Data-on-Decedent.pdf
   md5: feae3b802d7ef775a494237221f5dce8
   filename: Obtaining-Private-Data-on-Decedent.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.311031+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.311031+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/obfc/assets/Ombuds%20Information%20on%20ICE%20Detainees%20in%20Jails_tcm1157-477515.pdf
   md5: fd8b4886b00773426fe6e8dff6407f22
   filename: Ombuds%20Information%20on%20ICE%20Detainees%20in%20Jails_tcm1157-477515.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.312118+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.312118+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/obfc/assets/Ombuds-Information-on-ICE-detainees-in-jails_tcm1157-687781.pdf
   md5: 0c5efa7beca57b4634c4c88ee7cc2860
   filename: Ombuds-Information-on-ICE-detainees-in-jails_tcm1157-687781.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.313186+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.313186+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/250221/Open-Meeting-Salary-Council-Legal-Memo.pdf
   md5: 950b70cee66f2eb55580468ca97ad229
   filename: Open-Meeting-Salary-Council-Legal-Memo.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.314117+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-02-19 19:50:06+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 24 for Word
+    Producer: Adobe PDF Library 24.2.13
+    Pages: 2
+    Words: 627
+    Images: 1
   errors: []
 - url: https://assets.dps.mn.gov/files/bca/Proof-of-Identity-Form.pdf
   md5: e77411d6215348209074c768bd84d0da
   filename: Proof-of-Identity-Form.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.324616+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.324616+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.house.mn.gov/comm/docs/R8IQBYg_fE67VaaBp8hLRg.pdf
   md5: 37480810b19ca8f2a948cac3cf1639e9
   filename: R8IQBYg_fE67VaaBp8hLRg.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.325694+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.325694+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/bca/Request-for-Public-Government-Data.pdf
   md5: c6db0478fc112bfd38455c0869e51eaf
   filename: Request-for-Public-Government-Data.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.326509+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.326509+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/SBCDL_DAS-DAR-DAC.pdf
   md5: 2155dc75fa283241e891946b830ea8ab
   filename: SBCDL_DAS-DAR-DAC.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.327169+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.327169+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/dps/SBIM_January%202026_0.pdf
   md5: 4e321e643195b2d7bf0f64e0ff9dcb15
   filename: SBIM_January%202026_0.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.330825+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.330825+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/SBnotification_to_employer.pdf
   md5: dcbf20105ea9cbb2e5f4a2e35f5af3d7
   filename: SBnotification_to_employer.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.331874+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.331874+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/admin/assets/SR47_26%20-%20Accessible_tcm36-553699.pdf
   md5: f5c995f93ce825f7c2e4d51db0be40ae
   filename: SR47_26%20-%20Accessible_tcm36-553699.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.334172+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.334172+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/admin/assets/SR49_35_tcm36-670221.pdf
   md5: ecf4bb4e5818ba22c94d7d8cdcbda629
   filename: SR49_35_tcm36-670221.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.355022+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.355022+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/admin/assets/SR50_04_tcm36-699734.pdf
   md5: 4ac38d4389fa73fb78ec59aaa4568df5
   filename: SR50_04_tcm36-699734.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.374337+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.374337+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/admin/assets/SR50_12_tcm36-706603.pdf
   md5: dcbe8ae46ae39024294066e32ac5673d
   filename: SR50_12_tcm36-706603.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.400704+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.400704+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/250221/Salary-Council-Data-Practices-policy-2-21-25.pdf
   md5: 48d10f589b8e02965814081df5ea31e4
   filename: Salary-Council-Data-Practices-policy-2-21-25.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.402656+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-02-14 18:00:17+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 24 for Word
+    Producer: Adobe PDF Library 24.5.175
+    Pages: 7
+    Words: 1615
+    Images: 0
   errors: []
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/250221/Salary-Council-Data-Subject-policy-2-21-25.pdf
   md5: e88f8ef6a7420124fa7eae2343562a46
   filename: Salary-Council-Data-Subject-policy-2-21-25.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.404280+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-02-14 17:52:29+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 24 for Word
+    Producer: Adobe PDF Library 24.5.175
+    Pages: 10
+    Words: 2527
+    Images: 0
   errors: []
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/190301/Salary-comparisons-2-28-19.pdf
   md5: 289ce49345d62b5ff00f708aa61793e1
   filename: Salary-comparisons-2-28-19.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.406028+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.406028+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/dvs/SchoolBus-Driver-Applicant-Affidavit.pdf
   md5: 95f50cbddfca50ffeb500d81bc3b2fa9
   filename: SchoolBus-Driver-Applicant-Affidavit.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.406896+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.406896+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/dvs/SchoolBus-PreApp.pdf
   md5: a8dcf05c9fbf7fba9a204addac9b4e33
   filename: SchoolBus-PreApp.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.408457+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.408457+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/250221/Senate-House-member-comparison-2-6-25.pdf
   md5: cd290d17dd2085a646436891d95a6492
   filename: Senate-House-member-comparison-2-6-25.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.409328+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-02-14 17:18:42+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 24 for Excel
+    Producer: Adobe PDF Library 24.5.175
+    Pages: 1
+    Words: 545
+    Images: 0
   errors: []
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/190301/Senate-house-member-cost-2-28-19.pdf
   md5: 247b9e9be0b8b478db306bf8459e4199
   filename: Senate-house-member-cost-2-28-19.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.410635+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.410635+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/bca/Shared-Services-Retention-Schedule.pdf
   md5: dac744182d42017aae991501d4148ffd
   filename: Shared-Services-Retention-Schedule.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.417181+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.417181+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lbo.mn.gov/TERC/meetings/2022/20220419/TERCAgenda20220419.pdf
   md5: fb670276e1109c70f7ef59406a515025
   filename: TERCAgenda20220419.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.421232+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.421232+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lbo.mn.gov/TERC/meetings/2022/20220714/TERCDraftMinutes20220419.pdf
   md5: 9b55463c94e68547b6d5209f7a57a1fd
   filename: TERCDraftMinutes20220419.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.425856+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.425856+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lbo.mn.gov/TERC/meetings/2022/20220419/TaxExpenditureBackgroundandStatute.pdf
   md5: 0a84373f48b3aa86f0167041f2d2e9de
   filename: TaxExpenditureBackgroundandStatute.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.427933+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.427933+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://careerforce.mn.gov/sites/default/files/2025-12/Tip%20Sheet%20on%20AI%20Use%20by%20Job%20Seekers_ACC.pdf
   md5: 7a7d33a094c916067c661c187b06afd0
   filename: Tip%20Sheet%20on%20AI%20Use%20by%20Job%20Seekers_ACC.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.429153+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.429153+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/bca/Training-Auditing-Retention-Schedule.pdf
   md5: b6f703b3c593bfd254f08e6286b3592f
   filename: Training-Auditing-Retention-Schedule.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.433271+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.433271+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/VRU_Flyer_Spanish_accessible.pdf
   md5: 31b809d863957650588c23aaecb7ea9e
   filename: VRU_Flyer_Spanish_accessible.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.445726+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.445726+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/WESA_employee_notice_Spanish.pdf
   md5: 7e93d0e80fdf4b72401b154761154939
   filename: WESA_employee_notice_Spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.446793+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.446793+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/actuarial_equivalence_definition.pdf
   md5: b365515c77c5c09ac784032e4aa3d988
   filename: actuarial_equivalence_definition.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.451084+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-11-13 16:11:03+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Word
+    Producer: Adobe PDF Library 9.0
+    Pages: 4
+    Words: 2098
+    Images: 0
+  errors:
+  - 'title, lang, '
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/actuarial_funding-reporting.pdf
   md5: 118012bf3182039a66a228d281a2f776
   filename: actuarial_funding-reporting.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.451826+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-10-09 17:40:49+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Word
+    Producer: Adobe PDF Library 9.0
+    Pages: 8
+    Words: 6131
+    Images: 0
+  errors:
+  - 'title, lang, '
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/actuarial_valuation_of_plan_assets.pdf
   md5: c4cd9de9cdd77c18b257661695d74a02
   filename: actuarial_valuation_of_plan_assets.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.452633+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-11-13 16:23:01+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Word
+    Producer: Adobe PDF Library 9.0
+    Pages: 3
+    Words: 1872
+    Images: 3450
+  errors:
+  - 'title, lang, '
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/actuary,_approved_actuary.pdf
   md5: c61d32725a8fd102117796d9be6f0886
   filename: actuary,_approved_actuary.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.453274+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-11-13 18:09:11+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Word
+    Producer: Adobe PDF Library 9.0
+    Pages: 2
+    Words: 1238
+    Images: 0
+  errors:
+  - 'title, '
 - url: https://dli.mn.gov/sites/default/files/pdf/address.pdf
   md5: 58a130c25e26f0524cb7f9823064eb59
   filename: address.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.454191+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.454191+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/agediscr_poster_spanish.pdf
   md5: fc684f511e8ea5e02b5bb9fa39db601e
   filename: agediscr_poster_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.454989+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.454989+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/agencies_handout.pdf
   md5: 855fcdeec599c57aa0478c85571b48d4
   filename: agencies_handout.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.456159+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.456159+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/agencies_handout_Spanish.pdf
   md5: 26ad7af6bb1e8291d2e3f0ca98f5cc49
   filename: agencies_handout_Spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.457406+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.457406+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/amortization_of_uaal.pdf
   md5: f48f09d0eb68ec41b7467ca15cf4dd7c
   filename: amortization_of_uaal.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.458108+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-10-09 17:43:20+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Word
+    Producer: Adobe PDF Library 9.0
+    Pages: 5
+    Words: 3779
+    Images: 0
+  errors:
+  - 'title, lang, '
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/amortization_period,_appropriate.pdf
   md5: 4d17d7d313b556aedb0ef0d67f649d2a
   filename: amortization_period,_appropriate.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.458717+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-12-05 17:09:44+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Word
+    Producer: Adobe PDF Library 9.0
+    Pages: 1
+    Words: 442
+    Images: 0
+  errors:
+  - 'title, '
 - url: https://mn.gov/mmb/assets/app-intern_tcm1059-126404.pdf
   md5: c8c1cdb39138edff6ac71c5fa3a857d9
   filename: app-intern_tcm1059-126404.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.459438+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.459438+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/appendix-a-driver-eval-12-6-21.pdf
   md5: c6d8b2b920b470ebb71d7a45ed4b1e7b
   filename: appendix-a-driver-eval-12-6-21.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.460363+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.460363+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/appendix-a1-driver-eval-type-iii.pdf
   md5: ec82e0969bfce85d65b83bce4a512d97
   filename: appendix-a1-driver-eval-type-iii.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.461330+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.461330+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/appendix-b-pretrip-12-6-21.pdf
   md5: f92c1a5b4e9cedeef568f9106da678d4
   filename: appendix-b-pretrip-12-6-21.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.462276+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.462276+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/appendix-b1-pretrip-type-iii.pdf
   md5: 780d27513195fa3661cf39e580b54a1a
   filename: appendix-b1-pretrip-type-iii.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.463154+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.463154+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/appendix-d-evaluator-cert-12-6-21.pdf
   md5: da72afa87e57f21ac54091f988539486
   filename: appendix-d-evaluator-cert-12-6-21.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.463995+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.463995+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/appendix-d1-evaluator-cert-type-iii.pdf
   md5: 5501012baae4fc6f6bfd5f56de919ba5
   filename: appendix-d1-evaluator-cert-type-iii.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.464802+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.464802+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/appendix-f-8-hour-training-12-6-21.pdf
   md5: daef0fc1e6f1ec3fece4e4c1c27c6589
   filename: appendix-f-8-hour-training-12-6-21.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.465505+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.465505+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/awair_construction.pdf
   md5: b83280e56fd38fc92d80430655055a55
   filename: awair_construction.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.466130+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.466130+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/awair_construction_spanish.pdf
   md5: e09b25e4c5915d7dfaf1702dc310f33d
   filename: awair_construction_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.466736+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.466736+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/awair_program_er_guide.pdf
   md5: 305a76b3a2adeeb8b20857978d1f87d4
   filename: awair_program_er_guide.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.467797+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.467797+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/awair_spanish.pdf
   md5: db8e0746760ff5f1d7516cc51b89f258
   filename: awair_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.469002+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.469002+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ba01.pdf
   md5: 924ca133359933a116dec3db43ca7f80
   filename: ba01.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.469727+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.469727+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/bc_map_with_regional_reps07.pdf
   md5: 7c0ff51249ff78f7b6ae7e3f73158b31
   filename: bc_map_with_regional_reps07.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.470599+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.470599+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/bond_credit_ratings.pdf
   md5: ec9a12d0d397fb20eae0ba6637d58bd9
   filename: bond_credit_ratings.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.484911+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-11-13 18:16:17+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Word
+    Producer: Adobe PDF Library 9.0
+    Pages: 2
+    Words: 1067
+    Images: 0
+  errors:
+  - 'title, lang, '
 - url: https://dli.mn.gov/sites/default/files/pdf/brochure_wsc.pdf
   md5: cfc6aa8492c06c0bd969063f8155f12e
   filename: brochure_wsc.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.488847+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.488847+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/brochure_wsc_spanish.pdf
   md5: 6814e1f74884c183f7d53954f799bf87
   filename: brochure_wsc_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.492815+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.492815+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ca0022.pdf
   md5: 21d4ef7a09672435cf76e60860bfc935
   filename: ca0022.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.493993+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.493993+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/cdl-driver-d-a-test-flowchart.pdf
   md5: 08cd745fa3648135381f9ca57f783981
   filename: cdl-driver-d-a-test-flowchart.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.504606+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.504606+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/child_labor.pdf
   md5: 11f3df3afcc89b7c271732a1faf19125
   filename: child_labor.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.507982+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.507982+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/child_labor_spanish.pdf
   md5: a62fc4dc783e1e7d8fe61016f216974d
   filename: child_labor_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.508979+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.508979+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/consumer_price_index.pdf
   md5: 336697ecdbd9d07c4fa53fc21faf9c62
   filename: consumer_price_index.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.510894+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-11-13 18:18:54+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Word
+    Producer: Adobe PDF Library 9.0
+    Pages: 2
+    Words: 1676
+    Images: 0
+  errors:
+  - 'title, '
 - url: https://osp.admin.mn.gov/sites/osp/files/pdf/directpaypermit.pdf
   md5: 4856847a76ddc4adb8ae13ab5339863c
   filename: directpaypermit.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.511615+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.511615+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/dtrfa_2010_financial_sustainability_provisions.pdf
   md5: 0e07ac7d768466ebdb54e192f65d34bb
   filename: dtrfa_2010_financial_sustainability_provisions.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.518321+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-10-02 14:28:24+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Word
+    Producer: Adobe PDF Library 9.0
+    Pages: 1
+    Words: 519
+    Images: 0
+  errors:
+  - 'title, '
 - url: https://assets.dps.mn.gov/files/dvs/dvs-disability-plate-app_0.pdf
   md5: 34f0936ead1acb9f675d8805f15dee8e
   filename: dvs-disability-plate-app_0.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.520422+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.520422+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/dvs/dvs-real-id-document-requirements.pdf
   md5: 151aea335939f0db8377261d2c42f061
   filename: dvs-real-id-document-requirements.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.525783+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.525783+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/dvs/dvs-real-id-documents-infographic2.pdf
   md5: aee60d228d61c0f19f8967e305dccd60
   filename: dvs-real-id-documents-infographic2.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.527667+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.527667+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/dvs/dvs-special-license-plates-brochure.pdf
   md5: da3304ed711ccbc7fbedfc7f182f45e9
   filename: dvs-special-license-plates-brochure.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.541465+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.541465+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/eeguide2wc.pdf
   md5: 9be088c2eef0056ff761783c61f66242
   filename: eeguide2wc.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.546499+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.546499+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/eeguide2wc_spanish.pdf
   md5: 74c33f4a216015a597db645aa0ca9624
   filename: eeguide2wc_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.547567+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.547567+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcc.mn.gov/legsalarycouncil/meetings/250221/elected-officials-salaries-excerpt-1-29-2025.pdf
   md5: 5645b5e3312f6cb8e9a49033f4c16dcf
   filename: elected-officials-salaries-excerpt-1-29-2025.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.577567+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-02-17 22:19:11+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 24 for Excel
+    Producer: Adobe PDF Library 24.2.13
+    Pages: 1
+    Words: 508
+    Images: 0
   errors: []
 - url: https://dcyf.mn.gov/sites/default/files/2025-10/els-fy26-maximum-award-amounts-10.27.25.pdf
   md5: 37b5371223998757373ac34174ddc7e6
   filename: els-fy26-maximum-award-amounts-10.27.25.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.579282+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.579282+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dcyf.mn.gov/sites/default/files/2025-10/els-fy26-maximum-registration-fees-10.27.25.pdf
   md5: d0b83ed078cf1e739f53d370501feb5d
   filename: els-fy26-maximum-registration-fees-10.27.25.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.580287+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.580287+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dcyf.mn.gov/sites/default/files/2025-09/els-pathwayii-fy26-27-funded-programs.pdf
   md5: 3e5ff59aa796a0e2cc7c0347f7c833e2
   filename: els-pathwayii-fy26-27-funded-programs.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.581577+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.581577+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/employee_notice_form_Ukrainian.pdf
   md5: 5b20f48d156b6c3ae1789799c46413e9
   filename: employee_notice_form_Ukrainian.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.582953+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.582953+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ep04.pdf
   md5: f5c561aa58f704ba8c883090732e5a55
   filename: ep04.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.583840+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.583840+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ertk_construct.pdf
   md5: a651b03e47200b6ce092a48f9c7addca
   filename: ertk_construct.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.584511+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.584511+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ertk_construct_spanish.pdf
   md5: 3843b3af1d6e95642aff63be7bdfcf87
   filename: ertk_construct_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.585273+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.585273+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.dli.mn.gov/sites/default/files/pdf/esst_poster_Spanish.pdf
   md5: c49a5fb7e406282801f06c3d24240c6a
   filename: esst_poster_Spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.586186+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.586186+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/fact_discrimination.pdf
   md5: 385da06a3aaa7fbc45ab37d21f0cc14b
   filename: fact_discrimination.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.587025+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.587025+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/fact_discrimination_spanish.pdf
   md5: f14546118e528e682989e98760b7579b
   filename: fact_discrimination_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.587890+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.587890+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/fact_eisa.pdf
   md5: fbfe539d790fbb40baba91e4df4d904b
   filename: fact_eisa.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.588737+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.588737+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/fact_eisa_spanish.pdf
   md5: 88a1c5e1e0b261ca73823bbc9eb1b043
   filename: fact_eisa_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.589633+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.589633+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/fce.pdf
   md5: a017fe484c827f7fd83ece90c49472ba
   filename: fce.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.594161+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.594161+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/fe0005_1.pdf
   md5: c939593df948527e9f9ac5381c50be0e
   filename: fe0005_1.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.595085+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.595085+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: http://www.dli.mn.gov/sites/default/files/pdf/fees_RBRVS_explanation_of_conversion_factors25.pdf
   md5: 209b649a7b2b66dddebf6be9195bb904
   filename: fees_RBRVS_explanation_of_conversion_factors25.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.596585+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.596585+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: http://www.dli.mn.gov/sites/default/files/pdf/fees_RBRVS_instructions25.pdf
   md5: 74b76a9cb331a1e9424c6700a776d388
   filename: fees_RBRVS_instructions25.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.597442+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.597442+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-055.pdf
   md5: 580260f3edc219c7d49ba6b78a5853b5
   filename: final_workplan_2025-055.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.598482+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.598482+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-081.pdf
   md5: 9a720a5f775ce0bc5d121502aa724166
   filename: final_workplan_2025-081.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.599472+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.599472+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-114.pdf
   md5: 64258a425610ca3de8918028c31913dc
   filename: final_workplan_2025-114.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.600521+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.600521+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-122.pdf
   md5: e05ea595b2a63f7f316431764b8be6d1
   filename: final_workplan_2025-122.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.601519+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.601519+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-173.pdf
   md5: 35d6d7a6f08367f3354f4480de20af52
   filename: final_workplan_2025-173.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.602486+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.602486+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-182.pdf
   md5: 13dce5ff8fb861216adb371df0c959ee
   filename: final_workplan_2025-182.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.603443+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.603443+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-197.pdf
   md5: 3cb1eae3ca33f537116ad37bc3bdb1f8
   filename: final_workplan_2025-197.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.604464+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.604464+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-201.pdf
   md5: 7648538d450b2b317dceefebd6baad6e
   filename: final_workplan_2025-201.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.605511+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.605511+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-213.pdf
   md5: c0a93d6e8a85f0f852ed57102d2e4899
   filename: final_workplan_2025-213.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.606556+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.606556+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-216.pdf
   md5: c4638eac73c2e9b86c4dad2c7d05299c
   filename: final_workplan_2025-216.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.607586+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-07-02 15:26:21+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 25 for Word
+    Producer: Adobe PDF Library 25.1.51
+    Pages: 15
+    Words: 3007
+    Images: 1
   errors: []
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-236.pdf
   md5: 01dffdf84fb8f259da1251589d528c8e
   filename: final_workplan_2025-236.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.608628+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-07-02 15:31:04+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 25 for Word
+    Producer: Adobe PDF Library 25.1.51
+    Pages: 14
+    Words: 2761
+    Images: 1
   errors: []
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-268.pdf
   md5: 0e923feb0714c7f02033e8a1753cfdf3
   filename: final_workplan_2025-268.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.609674+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2025-07-02 15:38:19+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 25 for Word
+    Producer: Adobe PDF Library 25.1.51
+    Pages: 12
+    Words: 2294
+    Images: 1
   errors: []
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-283.pdf
   md5: f5e93fd9b7ed4dac5520b472d8310c55
   filename: final_workplan_2025-283.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.610757+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.610757+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-288.pdf
   md5: 5da51f835bc3f2979e1ab930c8e9ec58
   filename: final_workplan_2025-288.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.611779+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.611779+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lccmr.mn.gov/projects/2025/approved_work_plans/final_workplan_2025-317.pdf
   md5: 094a044b9c697db5a4e783973f42d525
   filename: final_workplan_2025-317.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.613661+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.613661+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/financial_sustainability_provisions_2010-2011.pdf
   md5: 934276120dd80f894f6373581d71bd40
   filename: financial_sustainability_provisions_2010-2011.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.614331+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2013-04-08 22:29:57+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: PScript5.dll Version 5.2.2
+    Producer: Acrobat Distiller 10.0.0 (Windows)
+    Pages: 1
+    Words: 932
+    Images: 0
+  errors:
+  - 'title, tagged, lang, '
 - url: https://dli.mn.gov/sites/default/files/pdf/fs-2020-residential-code.pdf
   md5: eb365427632381db4530a486d774ec23
   filename: fs-2020-residential-code.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.615183+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.615183+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/fs-2020-residential-code_Spanish.pdf
   md5: a4850c86f2f4c7e21eb898bfb81a4902
   filename: fs-2020-residential-code_Spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.616036+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.616036+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/grantbrochure.pdf
   md5: df5edfec0de81671491fbb8ab1f44cff
   filename: grantbrochure.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.622124+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.622124+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/grantbrochure_spanish.pdf
   md5: 915722e429bfce1879fa7415bd4665de
   filename: grantbrochure_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.627185+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.627185+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/irs_constructive_receipt.pdf
   md5: 9bf8ef1dc72f47da7a3d6ad154c2e6f9
   filename: irs_constructive_receipt.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.634614+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-10-09 14:31:09+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: PScript5.dll Version 5.2.2
+    Producer: Acrobat Distiller 10.0.0 (Windows)
+    Pages: 1
+    Words: 347
+    Images: 0
+  errors:
+  - 'title, tagged, lang, '
 - url: https://dli.mn.gov/sites/default/files/pdf/iw05.pdf
   md5: 84f347cf4038ba4dea90d6cf516b0d2c
   filename: iw05.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.635459+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.635459+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/iw05_somali.pdf
   md5: c34ec8d3d323de125e0d73de94e8716a
   filename: iw05_somali.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.636643+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.636643+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/iw05_spanish.pdf
   md5: cef914946bdcd48863450856add1720d
   filename: iw05_spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.637729+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.637729+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/mmb/assets/key-card-application_tcm1059-128147.pdf
   md5: 31908237ca2a6242ef8824dcef254cbe
   filename: key-card-application_tcm1059-128147.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.640902+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.640902+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/lcpr_budget_fy2000-2013.pdf
   md5: 80b0f09604ae3c8baceabe4961ed1b26
   filename: lcpr_budget_fy2000-2013.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.641526+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2011-09-16 19:46:55+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Acrobat PDFMaker 9.0 for Excel
+    Producer: Adobe PDF Library 9.0
+    Pages: 1
+    Words: 471
+    Images: 0
+  errors:
+  - 'title, lang, '
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/lcpr_history.pdf
   md5: bdef933f4d3a6718b9e1f711f4d2c62f
   filename: lcpr_history.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.642145+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-11-01 16:32:10+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: PScript5.dll Version 5.2.2
+    Producer: Acrobat Distiller 10.0.0 (Windows)
+    Pages: 2
+    Words: 1675
+    Images: 0
+  errors:
+  - 'title, tagged, lang, '
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/lcpr_role_function.pdf
   md5: c5d7a6c93145ad280ba9c7956d603484
   filename: lcpr_role_function.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.642729+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-11-01 17:01:40+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: PScript5.dll Version 5.2.2
+    Producer: Acrobat Distiller 10.0.0 (Windows)
+    Pages: 2
+    Words: 1243
+    Images: 0
+  errors:
+  - 'title, tagged, lang, '
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/leaves_of_absence,_sabbatical.pdf
   md5: 685b3948ee8695ee345b6b1d25bf0823
   filename: leaves_of_absence,_sabbatical.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.643340+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.643340+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2003_tcm1041-91060.pdf
   md5: c74ef32fc494eaba9576c1cd416f59ac
   filename: llsp2003_tcm1041-91060.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.645591+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.645591+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2004_tcm1041-91061.pdf
   md5: 55d1b0762a2e035e7450a29b9663ba13
   filename: llsp2004_tcm1041-91061.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.646275+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.646275+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2005_tcm1041-91062.pdf
   md5: ca34d2dca0f0e99008e90e715c25ae69
   filename: llsp2005_tcm1041-91062.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.646935+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.646935+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2006_tcm1041-91063.pdf
   md5: 36195076e0447fdf08b7a6a59507074d
   filename: llsp2006_tcm1041-91063.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.647563+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.647563+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2007_tcm1041-91064.pdf
   md5: 7465b5c86fafdd70d0805ae0700f5ecf
   filename: llsp2007_tcm1041-91064.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.648232+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.648232+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2008_tcm1041-91065.pdf
   md5: 85778eff6319c3dfb6991f9f8db0592c
   filename: llsp2008_tcm1041-91065.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.648957+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.648957+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2009_tcm1041-91066.pdf
   md5: 1fa61a99faaa7388cd3af2bd0502df46
   filename: llsp2009_tcm1041-91066.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.649943+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.649943+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2010_tcm1041-91067.pdf
   md5: ce21be028561a38e67a70269676e1e06
   filename: llsp2010_tcm1041-91067.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.651071+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.651071+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2011_tcm1041-91068.pdf
   md5: bbdfc42ae434a68f5f58f6c66a8c881c
   filename: llsp2011_tcm1041-91068.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.652417+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.652417+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2012_tcm1041-91069.pdf
   md5: 7e294f9c738f76763682b307ad495636
   filename: llsp2012_tcm1041-91069.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.653721+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.653721+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2013_tcm1041-91070.pdf
   md5: c8792d4f6e9e2cb341b1f9c98d4aac0b
   filename: llsp2013_tcm1041-91070.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.655015+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.655015+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2014_tcm1041-91071.pdf
   md5: 6a6d3108a8e344618f4e0b9e256fbd75
   filename: llsp2014_tcm1041-91071.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.656479+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.656479+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/law-library/assets/llsp2017_tcm1041-349125.pdf
   md5: 30e9b834e698a6b77b9dba8d72da5a31
   filename: llsp2017_tcm1041-349125.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.657303+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.657303+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcc.mn.gov/legsalarycouncil/reports/lsc-final-report-3-15-2023.pdf
   md5: e0e22dd5158e22eb3f8c8ed1335fbf1e
   filename: lsc-final-report-3-15-2023.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.662912+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2023-03-15 19:27:40+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Adobe Acrobat Pro (32-bit) 22.3.20322
+    Producer: Adobe Acrobat Pro (32-bit) 22.3.20322
+    Pages: 55
+    Words: 9719
+    Images: 12
   errors: []
 - url: https://www.lcc.mn.gov/legsalarycouncil/reports/lsc_final_report_03_29_2019.pdf
   md5: 979e3f3b1546c876ab70ac470af03199
   filename: lsc_final_report_03_29_2019.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.678504+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: false
+    Date: '2019-03-29 21:01:31+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe Acrobat Pro 11.0.0
+    Producer: Adobe Acrobat Pro 11.0.0
+    Pages: 56
+    Words: 7947
+    Images: 15
   errors: []
 - url: https://www.lcc.mn.gov/legsalarycouncil/reports/lsc_final_report_2017.pdf
   md5: f5c3b943b23622a230a8cc5e2d33cf21
   filename: lsc_final_report_2017.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.689644+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2017-08-14 15:46:38+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Acrobat PDFMaker 11 for Word
+    Producer: Adobe PDF Library 11.0
+    Pages: 95
+    Words: 15939
+    Images: 54
+  errors:
+  - 'tagged, '
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/member-employer-contributions.pdf
   md5: 7c81004547e1b7b34e5272ddfe0864a5
   filename: member-employer-contributions.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.693687+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.693687+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/military_service_provisions.pdf
   md5: 9fb471fd1dce761435b5e2644780b8f1
   filename: military_service_provisions.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.694686+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.694686+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/minwage_poster.pdf
   md5: f9e8c51a96dc6856ad251244c7260bc9
   filename: minwage_poster.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.695644+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.695644+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/minwage_poster_Spanish.pdf
   md5: 17b565c871e1b52d7422947ea8badd43
   filename: minwage_poster_Spanish.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.696559+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.696559+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://www.lcpr.mn.gov/documents/backgrounddocs/mn_pension_commissions_1943-present.pdf
   md5: 69c35a595d7951b4a589261696236ff4
   filename: mn_pension_commissions_1943-present.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.697264+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    Exempt: true
+    Date: '2012-11-01 16:52:02+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: PScript5.dll Version 5.2.2
+    Producer: Acrobat Distiller 10.0.0 (Windows)
+    Pages: 6
+    Words: 2229
+    Images: 0
+  errors:
+  - 'title, tagged, lang, '
 - url: https://assets.dps.mn.gov/files/ots/mnscu-course-waiver.pdf
   md5: 7e2bcb92983ef73a3a513fc2fa6a54bb
   filename: mnscu-course-waiver.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.706120+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.706120+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://mn.gov/mmb-stat/careers/mnsure-and-other-public-marketplaces.pdf
   md5: 8df8d850d84db6588976c48d80206d52
   filename: mnsure-and-other-public-marketplaces.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.707137+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.707137+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/mo0001.pdf
   md5: e143f2a15ce4ec29ca8ecbfd445ea244
   filename: mo0001.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.708207+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.708207+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/dvs/motorcycle-manual.pdf
   md5: f9c3db32b22c25d521e540f6eee665e8
   filename: motorcycle-manual.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.720450+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.720450+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ms_code_verification.pdf
   md5: 8cd5d85daa257b81e8bf3f6028e8a817
   filename: ms_code_verification.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.722402+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.722402+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ms_egress_windows.pdf
   md5: 9809772ce1cacf652fbbba70b7da71a7
   filename: ms_egress_windows.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.723792+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.723792+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ms_installer_new.pdf
   md5: f4fc50b64f635d4be5968d79e314ddea
   filename: ms_installer_new.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.726379+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.726379+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ms_installer_renewal18.pdf
   md5: 0c73e388aa5590d94bb9936c83df9f0f
   filename: ms_installer_renewal18.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.728872+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.728872+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ms_mh_installer_appl_for_registration.pdf
   md5: f9c1b2bd6500551150dd6335abdf500a
   filename: ms_mh_installer_appl_for_registration.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.730529+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.730529+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ms_prefab_EnergyComp.pdf
   md5: 52da918a13a4ae43933edb12d2e57e0d
   filename: ms_prefab_EnergyComp.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.731743+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.731743+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ms_prefab_SealInst.pdf
   md5: 00f7a3e4657857494ff95c8a1250ffb1
   filename: ms_prefab_SealInst.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.732736+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.732736+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://dli.mn.gov/sites/default/files/pdf/ms_soils_classification_and_bearing_table.pdf
   md5: 22ad1a80821e17e5a78700eba142261b
   filename: ms_soils_classification_and_bearing_table.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.733488+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.733488+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-2024-school-bus-aware-brochure.pdf
   md5: 620670f607e638c1261d5f3a6fc3d9a1
   filename: msp-2024-school-bus-aware-brochure.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.738189+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.738189+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-class-b-answer-key.pdf
   md5: eedc38915451b13e99e9d345adc03e23
   filename: msp-class-b-answer-key.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.741406+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.741406+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-hiring-a-school-bus-driver.pdf
   md5: 8d3f1a66429ba3aea67a0844cc08a7d5
   filename: msp-hiring-a-school-bus-driver.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.769448+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.769448+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-notification-to-employer-type-III-form.pdf
   md5: a11ed82badfe89f6a5540a027d506a4c
   filename: msp-notification-to-employer-type-III-form.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.772179+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.772179+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-passenger-endorsement-answer-key.pdf
   md5: 04d940d63336e019e4efc841a41dd1d0
   filename: msp-passenger-endorsement-answer-key.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.773420+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.773420+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-passenger-endorsement-final.pdf
   md5: b90a8a14d3239a50097ec7f398cd47da
   filename: msp-passenger-endorsement-final.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.774403+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.774403+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-sb-driver-training-file-requirements-2-22.pdf
   md5: 869dddd3c6e66cef2365a8df1be3b94a
   filename: msp-sb-driver-training-file-requirements-2-22.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.775602+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.775602+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-school-bus-endorsement-answer-key.pdf
   md5: 47b93b61eec7ff9e2ddd8ba03b0c898e
   filename: msp-school-bus-endorsement-answer-key.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.776673+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.776673+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-school-bus-endorsement-final.pdf
   md5: f67ea2406a8774a8c0ff7b13b1d6bc77
   filename: msp-school-bus-endorsement-final.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.777616+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.777616+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-school-bus-inspection-results-2024.pdf
   md5: accc6d2b64e2488ffc3f03f7ebca6a4f
   filename: msp-school-bus-inspection-results-2024.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.778670+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.778670+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-school-bus-post-crash-insp-flowchart.pdf
   md5: 1072438c6b0a7bde8f1d8dad83585012
   filename: msp-school-bus-post-crash-insp-flowchart.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.781000+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.781000+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-survey-cycle-1-answer-key.pdf
   md5: 8b5a8d2694ce42f9182e5079e34afd69
   filename: msp-survey-cycle-1-answer-key.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.782331+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.782331+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-survey-cycle-1-appendix-e.pdf
   md5: de91e81d7b50da5c12bdf92bc03d2573
   filename: msp-survey-cycle-1-appendix-e.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.783440+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.783440+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-survey-cycle-2-answer-key.pdf
   md5: bc5c4cf9db71115175ce698c026fc6e4
   filename: msp-survey-cycle-2-answer-key.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.784580+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.784580+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-survey-cycle-2-appendix-e.pdf
   md5: 69ab0d0400d776acf1da263e400099a7
   filename: msp-survey-cycle-2-appendix-e.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.785482+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.785482+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-survey-cycle-3-answer-key.pdf
   md5: 8ec9ef084d56f1c7c95bdade4fa90dd0
   filename: msp-survey-cycle-3-answer-key.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.786506+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.786506+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-survey-cycle-3-appendix-e.pdf
   md5: fba17584bdb738fc0fd4bf96ed04c465
   filename: msp-survey-cycle-3-appendix-e.pdf
   site: mn.gov
   crawled_at: '2026-03-12T13:48:09.787387+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T13:48:09.787387+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
 - url: https://assets.dps.mn.gov/files/msp/msp-type-iii-requirements.pdf
   md5: 0848689cd883f8ab8c2683f8df7a2a31
   filename: msp-type-iii-requirements.pdf
