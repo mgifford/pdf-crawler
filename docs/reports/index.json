@@ -4,7 +4,7 @@
     "site": "microsoftsharepointintegration.na1.echosign.com",
     "crawl_url": "https://microsoftsharepointintegration.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAVWprsjFvdrZuwzS0R0FVmicHcXtyged2Dh1xb26VtJDCefI71HAZku4_U0ALE3W4*",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/24082791390",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/228#issuecomment-4199158306",
     "archive_file": "2026-04-07_13-04-38-325_microsoftsharepointintegration.na1.echosign.com.html",
     "total": 0,
     "analysed": 0,
