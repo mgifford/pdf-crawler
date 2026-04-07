@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-07T13:00:16.041646+00:00",
+    "site": "microsoftsharepointintegration.na1.echosign.com",
+    "crawl_url": "https://microsoftsharepointintegration.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhBPxQ3jE_vVHxTrDgRybokv5_hC4_oV4sb9_TOcvBUKE-JCmp8_Oz7U6cLDUxH4hRI*",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/24082601411",
+    "issue_url": "",
+    "archive_file": "2026-04-07_13-00-16-041_microsoftsharepointintegration.na1.echosign.com.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-04-06T21:55:45.946111+00:00",
     "site": "mn.gov",
     "crawl_url": "https://mn.gov/commerce/",
