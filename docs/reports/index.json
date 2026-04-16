@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-16T13:29:02.376230+00:00",
+    "site": "kfw.de",
+    "crawl_url": "https://www.kfw.de/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/24512917064",
+    "issue_url": "",
+    "archive_file": "2026-04-16_13-29-02-376_kfw.de.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-04-07T13:04:38.325617+00:00",
     "site": "microsoftsharepointintegration.na1.echosign.com",
     "crawl_url": "https://microsoftsharepointintegration.na1.echosign.com/public/esignWidget?wid=CBFCIBAA3AAABLblqZhAVWprsjFvdrZuwzS0R0FVmicHcXtyged2Dh1xb26VtJDCefI71HAZku4_U0ALE3W4*",
