@@ -3513,3 +3513,189 @@ def test_check_file_metadata_none_when_absent(tmp_path):
     assert result["Subject"] is None
     assert result["Keywords"] is None
     assert result["Description"] is None
+
+
+# ---------------------------------------------------------------------------
+# _check_figures_alt_text() and ImageAltTextTest (WCAG 1.1.1 / PDF/UA Matterhorn 09)
+# ---------------------------------------------------------------------------
+
+def test_check_figures_alt_text_detects_missing_alt(tmp_path):
+    """_check_figures_alt_text() must detect Figure elements that have no /Alt attribute."""
+    import pikepdf
+    from pdf_analyser import _check_figures_alt_text
+
+    figure_with_alt = pikepdf.Dictionary(
+        S=pikepdf.Name("/Figure"),
+        Alt="A cat sitting on a fence",
+        MCID=0,
+    )
+    figure_no_alt = pikepdf.Dictionary(
+        S=pikepdf.Name("/Figure"),
+        MCID=1,
+    )
+
+    missing: list = []
+    _check_figures_alt_text(figure_with_alt, missing)
+    assert missing == [], "Figure with /Alt should not be listed as missing"
+
+    missing2: list = []
+    _check_figures_alt_text(figure_no_alt, missing2)
+    assert missing2 != [], "Figure without /Alt should be listed as missing"
+
+
+def test_check_figures_alt_text_empty_alt_counts_as_missing(tmp_path):
+    """_check_figures_alt_text() must treat an empty /Alt string as missing."""
+    import pikepdf
+    from pdf_analyser import _check_figures_alt_text
+
+    figure_empty_alt = pikepdf.Dictionary(
+        S=pikepdf.Name("/Figure"),
+        Alt="",
+        MCID=2,
+    )
+    missing: list = []
+    _check_figures_alt_text(figure_empty_alt, missing)
+    assert missing != [], "Figure with empty /Alt should be treated as missing"
+
+
+def test_check_figures_alt_text_ignores_non_figure_elements(tmp_path):
+    """_check_figures_alt_text() must not flag non-Figure structure elements."""
+    import pikepdf
+    from pdf_analyser import _check_figures_alt_text
+
+    para = pikepdf.Dictionary(
+        S=pikepdf.Name("/P"),
+        MCID=3,
+    )
+    missing: list = []
+    _check_figures_alt_text(para, missing)
+    assert missing == [], "Non-Figure element should never be flagged"
+
+
+def test_check_figures_alt_text_recurses_into_nested_kids(tmp_path):
+    """_check_figures_alt_text() must recurse into /K children to find nested Figures."""
+    import pikepdf
+    from pdf_analyser import _check_figures_alt_text
+
+    # Nested Figure (no alt) inside a section element
+    inner_figure = pikepdf.Dictionary(
+        S=pikepdf.Name("/Figure"),
+        MCID=4,
+    )
+    section = pikepdf.Dictionary(
+        S=pikepdf.Name("/Sect"),
+        K=inner_figure,
+    )
+    missing: list = []
+    _check_figures_alt_text(section, missing)
+    assert missing != [], "Nested Figure without /Alt should be found recursively"
+
+
+def test_check_file_image_alt_text_pass_when_all_figures_have_alt(tmp_path):
+    """check_file() must set ImageAltTextTest=Pass when all Figure elements have /Alt."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "all_alt.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+
+    figure_a = pikepdf.Dictionary(S=pikepdf.Name("/Figure"), Alt="First image", MCID=0)
+    figure_b = pikepdf.Dictionary(S=pikepdf.Name("/Figure"), Alt="Second image", MCID=1)
+    struct_tree = pikepdf.Dictionary(K=pikepdf.Array([figure_a, figure_b]))
+    pdf.Root["/StructTreeRoot"] = struct_tree
+    pdf.Root["/MarkInfo"] = pikepdf.Dictionary(Marked=True)
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result["TaggedTest"] == "Pass"
+    assert result["ImageAltTextTest"] == "Pass"
+
+
+def test_check_file_image_alt_text_fail_when_figure_missing_alt(tmp_path):
+    """check_file() must set ImageAltTextTest=Fail when any Figure element lacks /Alt."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "missing_alt.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+
+    figure_ok = pikepdf.Dictionary(S=pikepdf.Name("/Figure"), Alt="Good alt", MCID=0)
+    figure_bad = pikepdf.Dictionary(S=pikepdf.Name("/Figure"), MCID=1)
+    struct_tree = pikepdf.Dictionary(K=pikepdf.Array([figure_ok, figure_bad]))
+    pdf.Root["/StructTreeRoot"] = struct_tree
+    pdf.Root["/MarkInfo"] = pikepdf.Dictionary(Marked=True)
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result["TaggedTest"] == "Pass"
+    assert result["ImageAltTextTest"] == "Fail"
+    assert result["Accessible"] is False
+    assert "figures missing alt text" in result["_log"]
+
+
+def test_check_file_image_alt_text_none_when_untagged(tmp_path):
+    """check_file() must leave ImageAltTextTest=None for untagged PDFs."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "untagged.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    # No StructTreeRoot → TaggedTest will Fail; ImageAltTextTest should remain None
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result["TaggedTest"] == "Fail"
+    assert result["ImageAltTextTest"] is None
+
+
+def test_check_file_image_alt_text_pass_when_no_figures(tmp_path):
+    """check_file() must set ImageAltTextTest=Pass for a tagged PDF with no Figure elements."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "no_figures.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+
+    # Structure tree with only a paragraph element — no figures
+    para = pikepdf.Dictionary(S=pikepdf.Name("/P"), MCID=0)
+    struct_tree = pikepdf.Dictionary(K=para)
+    pdf.Root["/StructTreeRoot"] = struct_tree
+    pdf.Root["/MarkInfo"] = pikepdf.Dictionary(Marked=True)
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result["TaggedTest"] == "Pass"
+    assert result["ImageAltTextTest"] == "Pass"
+
+
+def test_check_file_result_has_image_alt_text_key(tmp_path):
+    """check_file() result dict must always contain the 'ImageAltTextTest' key."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "minimal.pdf"
+    pdf = pikepdf.Pdf.new()
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert "ImageAltTextTest" in result, "'ImageAltTextTest' key must be present in check_file() result"
