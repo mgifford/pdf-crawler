@@ -449,6 +449,11 @@ def check_file(
         "PDFVersion": None,
         "Creator": None,
         "Producer": None,
+        "Title": None,
+        "Author": None,
+        "Subject": None,
+        "Keywords": None,
+        "Description": None,
         "Pages": None,
         "Words": None,
         "Images": None,
@@ -466,10 +471,52 @@ def check_file(
             result["hasXmp"] = False
             result["Accessible"] = False
             result["_log"] += "xmp "
+            # Fall back to docinfo-only metadata when XMP is unavailable
+            for key, field in (
+                ("/Title", "Title"),
+                ("/Author", "Author"),
+                ("/Subject", "Subject"),
+                ("/Keywords", "Keywords"),
+            ):
+                raw = pdf.docinfo.get(key)
+                if raw is not None:
+                    result[field] = str(raw).strip() or None
         else:
             result["hasXmp"] = True
             result["Creator"] = meta.get("xmp:CreatorTool")
             result["Producer"] = meta.get("pdf:Producer")
+
+            # Extract additional document metadata for prioritization
+            # Title value (separate from TitleTest pass/fail)
+            raw_title = meta.get("dc:title") or pdf.docinfo.get("/Title")
+            if raw_title is not None:
+                result["Title"] = str(raw_title).strip() or None
+
+            # Author: dc:creator may be a list; join multiple authors
+            raw_author = meta.get("dc:creator") or pdf.docinfo.get("/Author")
+            if raw_author is not None:
+                if isinstance(raw_author, (list, tuple)):
+                    result["Author"] = "; ".join(str(a) for a in raw_author if a) or None
+                else:
+                    result["Author"] = str(raw_author).strip() or None
+
+            # Subject: dc:subject may be a list of topics/keywords
+            raw_subject = meta.get("dc:subject") or pdf.docinfo.get("/Subject")
+            if raw_subject is not None:
+                if isinstance(raw_subject, (list, tuple)):
+                    result["Subject"] = "; ".join(str(s) for s in raw_subject if s) or None
+                else:
+                    result["Subject"] = str(raw_subject).strip() or None
+
+            # Keywords: pdf:Keywords or /Keywords from docinfo
+            raw_keywords = meta.get("pdf:Keywords") or pdf.docinfo.get("/Keywords")
+            if raw_keywords is not None:
+                result["Keywords"] = str(raw_keywords).strip() or None
+
+            # Description: dc:description
+            raw_desc = meta.get("dc:description")
+            if raw_desc is not None:
+                result["Description"] = str(raw_desc).strip() or None
 
             xmp_modify = _extract_date(meta.get("xmp:ModifyDate"))
             dc_modified = _extract_date(meta.get("dc:Modified"))
