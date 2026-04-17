@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-04-17T02:00:22.343733+00:00",
+    "site": "kfw.de",
+    "crawl_url": "https://www.kfw.de/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/24543823935",
+    "issue_url": "",
+    "archive_file": "2026-04-17_02-00-22-343_kfw.de.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-04-16T15:17:04.194182+00:00",
     "site": "cms.gov",
     "crawl_url": "https://www.cms.gov/medicare/forms-notices/cms-forms",
