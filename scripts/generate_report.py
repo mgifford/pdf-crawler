@@ -825,6 +825,9 @@ _HTML_TEMPLATE = """\
       }}
 
       if (analysed.length) {{
+        // Column order: identity columns, then optional metadata (shown only when
+        // at least one file has that field), then accessibility checks, then
+        // optional numeric columns (words/images shown only when data is present).
         var colDefs = [
           {{ key: 'file',       label: 'File' }},
           {{ key: 'site',       label: 'Site' }},
