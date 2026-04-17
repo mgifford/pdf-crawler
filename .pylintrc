@@ -1,0 +1,38 @@
+[MASTER]
+# Add scripts/ to sys.path so pylint can resolve internal imports (crawl,
+# manifest, pdf_analyser, etc.) which live under scripts/ rather than at the
+# repository root.
+init-hook='import sys; sys.path.append("scripts")'
+
+[MESSAGES CONTROL]
+# Globally suppress checks that require large-scale refactoring of existing
+# code or that produce high false-positive rates across this codebase:
+#   too-many-*                 – complex scripts that would need major restructuring
+#   too-many-instance-attrs    – Scrapy spider accumulates state by design
+#   too-many-nested-blocks     – deeply nested PDF-structure traversal
+#   duplicate-code             – test suites naturally contain similar boilerplate
+#   broad-exception-caught     – intentional catch-all error handling throughout
+#   wrong-import-order         – sys.path manipulation must precede local imports
+#   wrong-import-position      – same reason as above
+#   missing-function-docstring – many helper/fixture functions intentionally terse
+#   missing-class-docstring    – Scrapy spider class documented at module level
+#   keyword-arg-before-vararg  – Scrapy spider __init__ convention
+disable=
+    too-many-locals,
+    too-many-branches,
+    too-many-statements,
+    too-many-arguments,
+    too-many-positional-arguments,
+    too-many-lines,
+    too-many-instance-attributes,
+    too-many-nested-blocks,
+    duplicate-code,
+    broad-exception-caught,
+    wrong-import-order,
+    wrong-import-position,
+    missing-function-docstring,
+    missing-class-docstring,
+    keyword-arg-before-vararg
+
+[FORMAT]
+max-line-length=200

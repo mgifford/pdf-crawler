@@ -1,11 +1,11 @@
 """Tests for scripts/generate_report.py"""
+# pylint: disable=import-outside-toplevel,protected-access,unused-argument
+# pylint: disable=use-maxsplit-arg
 
 import json
 import re
 import sys
 from pathlib import Path
-
-import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
@@ -1227,6 +1227,7 @@ def test_cli_accepts_issue_url_argument(tmp_path):
         ["python3", str(script), "--help"],
         capture_output=True,
         text=True,
+        check=False,
     )
     assert result.returncode == 0
     assert "--issue-url" in result.stdout

@@ -28,7 +28,6 @@ References
 from __future__ import annotations
 
 import multiprocessing
-import os
 import re
 import shutil
 import subprocess
@@ -116,6 +115,7 @@ def run_verapdf(filepath: str) -> Optional[Dict[str, Any]]:
             capture_output=True,
             text=True,
             timeout=120,
+            check=False,
         )
         raw = proc.stdout.strip()
         if not raw:
@@ -262,10 +262,10 @@ def _analyse_with_process_timeout(
 
     try:
         ok, payload = queue.get_nowait()
-    except Exception:
+    except Exception as exc:
         raise RuntimeError(
             f"Analysis subprocess exited (code {proc.exitcode}) without producing a result"
-        )
+        ) from exc
 
     if ok:
         return payload
@@ -307,7 +307,7 @@ def _extract_pdf_date(s) -> Optional[datetime]:
             tz += "00"
         if "'" in tz:
             n = re.search(r"\+\s?(\d+)\'\s?(\d+)\'?", tz)
-            tz = "+%02d%02d" % (int(n.group(1)), int(n.group(2))) if n else "+0000"
+            tz = f"+{int(n.group(1)):02d}{int(n.group(2)):02d}" if n else "+0000"
         s = s.replace(orig_tz, tz)
 
     try:
@@ -337,7 +337,7 @@ def _merge_analyses(a: Dict, b: Dict) -> Dict:
     }
 
 
-def _analyse_content(content, is_xobject: bool = False) -> Dict[str, Any]:
+def _analyse_content(content, is_xobject: bool = False) -> Dict[str, Any]:  # pylint: disable=unused-argument
     res = _init_analysis()
     resources = content.get("/Resources")
     if resources is None:
@@ -469,7 +469,7 @@ def _meta_str(value) -> Optional[str]:
 
 def check_file(
     filename: str,
-    site: str = None,
+    site: str = None,  # pylint: disable=unused-argument
     run_verapdf_check: bool = False,
 ) -> Dict[str, Any]:
     """Run all accessibility checks on *filename* and return a result dict.
@@ -799,7 +799,7 @@ def main(
     max_age_days: Optional[int] = None,
     max_files: Optional[int] = None,
     total_timeout: Optional[int] = None,
-    run_verapdf: bool = False,
+    run_verapdf: bool = False,  # pylint: disable=redefined-outer-name
 ) -> int:
     """Analyse pending PDFs and update the manifest.
 
@@ -1111,8 +1111,7 @@ def main(
 
     # Write stale count to a file so the calling workflow can check it.
     try:
-        import pathlib
-        pathlib.Path(STALE_COUNT_FILE).write_text(str(stale_count))
+        Path(STALE_COUNT_FILE).write_text(str(stale_count), encoding="utf-8")
     except OSError:
         pass
 

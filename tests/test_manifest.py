@@ -1,12 +1,10 @@
 """Tests for scripts/manifest.py"""
+# pylint: disable=redefined-outer-name,unused-argument,use-implicit-booleaness-not-comparison
+# pylint: disable=wrong-import-order,unsubscriptable-object
 
-import hashlib
-import os
-import tempfile
 from pathlib import Path
 
 import pytest
-import yaml
 
 # Allow importing from scripts/
 import sys
@@ -21,7 +19,6 @@ from manifest import (
     needs_analysis,
     pending_entries,
     save_manifest,
-    update_entry_from_file,
     upsert_entry,
 )
 
@@ -183,7 +180,7 @@ def test_mark_analysed(tmp_pdf):
     report = {"Accessible": True, "TaggedTest": "Pass"}
     entries = mark_analysed(entries, "https://example.com/a.pdf", report, ["some log"])
     assert entries[0]["status"] == "analysed"
-    assert entries[0]["report"]["Accessible"] is True
+    assert entries[0]["report"]["Accessible"] is True  # pylint: disable=unsubscriptable-object
     assert entries[0]["errors"] == ["some log"]
 
 
