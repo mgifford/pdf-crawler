@@ -1710,7 +1710,7 @@ def test_generate_csv_metadata_values_populated():
     assert "Jane Smith; John Doe" in csv_text
     assert "Accessibility; Disability Policy" in csv_text
     assert "accessibility, WCAG, PDF/UA" in csv_text
-    assert "A report on document accessibility" in csv_text
+    assert "A report on document accessibility across the organisation." in csv_text
 
 
 def test_generate_csv_metadata_columns_empty_when_no_metadata():

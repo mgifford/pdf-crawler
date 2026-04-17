@@ -408,6 +408,19 @@ def _count_words(filename: str) -> Optional[int]:
         return None
 
 
+def _meta_str(value) -> Optional[str]:
+    """Coerce a metadata value to a stripped string, joining lists with '; '.
+
+    Returns ``None`` when *value* is ``None`` or results in an empty string.
+    """
+    if value is None:
+        return None
+    if isinstance(value, (list, tuple)):
+        joined = "; ".join(str(v) for v in value if v)
+        return joined or None
+    return str(value).strip() or None
+
+
 # ---------------------------------------------------------------------------
 # Core check function
 # ---------------------------------------------------------------------------
@@ -478,9 +491,7 @@ def check_file(
                 ("/Subject", "Subject"),
                 ("/Keywords", "Keywords"),
             ):
-                raw = pdf.docinfo.get(key)
-                if raw is not None:
-                    result[field] = str(raw).strip() or None
+                result[field] = _meta_str(pdf.docinfo.get(key))
         else:
             result["hasXmp"] = True
             result["Creator"] = meta.get("xmp:CreatorTool")
@@ -488,35 +499,19 @@ def check_file(
 
             # Extract additional document metadata for prioritization
             # Title value (separate from TitleTest pass/fail)
-            raw_title = meta.get("dc:title") or pdf.docinfo.get("/Title")
-            if raw_title is not None:
-                result["Title"] = str(raw_title).strip() or None
+            result["Title"] = _meta_str(meta.get("dc:title") or pdf.docinfo.get("/Title"))
 
-            # Author: dc:creator may be a list; join multiple authors
-            raw_author = meta.get("dc:creator") or pdf.docinfo.get("/Author")
-            if raw_author is not None:
-                if isinstance(raw_author, (list, tuple)):
-                    result["Author"] = "; ".join(str(a) for a in raw_author if a) or None
-                else:
-                    result["Author"] = str(raw_author).strip() or None
+            # Author: dc:creator may be a list; join multiple authors with '; '
+            result["Author"] = _meta_str(meta.get("dc:creator") or pdf.docinfo.get("/Author"))
 
             # Subject: dc:subject may be a list of topics/keywords
-            raw_subject = meta.get("dc:subject") or pdf.docinfo.get("/Subject")
-            if raw_subject is not None:
-                if isinstance(raw_subject, (list, tuple)):
-                    result["Subject"] = "; ".join(str(s) for s in raw_subject if s) or None
-                else:
-                    result["Subject"] = str(raw_subject).strip() or None
+            result["Subject"] = _meta_str(meta.get("dc:subject") or pdf.docinfo.get("/Subject"))
 
             # Keywords: pdf:Keywords or /Keywords from docinfo
-            raw_keywords = meta.get("pdf:Keywords") or pdf.docinfo.get("/Keywords")
-            if raw_keywords is not None:
-                result["Keywords"] = str(raw_keywords).strip() or None
+            result["Keywords"] = _meta_str(meta.get("pdf:Keywords") or pdf.docinfo.get("/Keywords"))
 
             # Description: dc:description
-            raw_desc = meta.get("dc:description")
-            if raw_desc is not None:
-                result["Description"] = str(raw_desc).strip() or None
+            result["Description"] = _meta_str(meta.get("dc:description"))
 
             xmp_modify = _extract_date(meta.get("xmp:ModifyDate"))
             dc_modified = _extract_date(meta.get("dc:Modified"))
