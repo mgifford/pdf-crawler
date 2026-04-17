@@ -1,6 +1,9 @@
 # Downloaded PDF / document files – never commit these
 crawled_files/
 
+# Runtime scan metadata (temporary CI artifacts)
+scan-meta/
+
 # Python virtual environments
 env/
 venv/
