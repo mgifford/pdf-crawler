@@ -349,6 +349,7 @@ def generate_issue_comment(
     max_files: int = _MAX_FILES_IN_COMMENT,
     pages_crawled: int = 0,
     archive_name: Optional[str] = None,
+    spot_check: Optional[Dict[str, Any]] = None,
 ) -> str:
     """Return a Markdown string suitable for posting as a GitHub issue comment.
 
@@ -358,6 +359,10 @@ def generate_issue_comment(
     If *archive_name* is provided, the HTML report link points to the
     per-scan archived report (``{pages_base}/reports/{archive_name}``)
     rather than the cumulative ``report.html``.
+
+    If *spot_check* is provided (a dict returned by ``spot_check_zero_results``
+    in crawl.py), its findings are included in the diagnostic block that is
+    shown when zero PDFs and zero pages were found.
     """
     scoped = (
         [e for e in entries if e.get("site") == site_filter]
@@ -402,6 +407,40 @@ def generate_issue_comment(
                 "> ⚠️ **No PDFs were found and no pages could be visited.**",
                 "> The site may be blocking automated requests, or the starting URL may be unreachable.",
                 "> Check the [workflow run](" + run_url + ") logs for crawl errors.",
+            ]
+            # Include spot-check diagnostics when available.
+            if spot_check:
+                seed_status = spot_check.get("seed_status")
+                robots_blocked = spot_check.get("robots_blocked", False)
+                robots_disallows = spot_check.get("robots_disallows", [])
+                sitemap_pdf_count = spot_check.get("sitemap_pdf_count", 0)
+                sitemap_pdf_samples = spot_check.get("sitemap_pdf_samples", [])
+
+                lines += [">", "> **Automated diagnostics:**"]
+
+                if seed_status is None:
+                    lines.append("> - 🔴 **Seed URL**: could not connect — the site may be down or blocking requests entirely.")
+                elif seed_status < 400:
+                    lines.append(f"> - 🟢 **Seed URL**: responded HTTP {seed_status} — the site is reachable with browser-like headers.")
+                else:
+                    lines.append(f"> - 🔴 **Seed URL**: responded HTTP {seed_status} — the site is actively blocking automated requests.")
+
+                if robots_blocked:
+                    blocked_agents = ", ".join(f"`{a}`" for a in robots_disallows)
+                    lines.append(f"> - 🔴 **robots.txt**: crawl disallowed for {blocked_agents} — the site's robots.txt explicitly blocks automated crawlers.")
+                else:
+                    lines.append("> - 🟢 **robots.txt**: no crawler block detected.")
+
+                if sitemap_pdf_count:
+                    lines.append(f"> - 📄 **sitemap.xml**: {sitemap_pdf_count} PDF(s) found — PDFs exist but cannot be reached by link-following alone.")
+                    for sample in sitemap_pdf_samples:
+                        lines.append(f">   - `{sample}`")
+                    lines.append(">   Consider submitting one of these PDF URLs' parent directory as the crawl starting point.")
+                else:
+                    lines.append("> - **sitemap.xml**: no PDF URLs listed.")
+
+            lines += [
+                ">",
                 "> You may also try submitting a more specific starting URL (e.g. a `/documents` sub-page).",
                 "",
             ]
@@ -1415,6 +1454,7 @@ def main(
     archive_dir: Optional[str] = None,
     crawled_dir: Optional[str] = None,
     issue_url: str = "",
+    spot_check_file: Optional[str] = None,
 ) -> None:
     entries = load_manifest(manifest_path)
     stats = _summary_stats(entries)
@@ -1560,6 +1600,14 @@ def main(
 
     # Optional per-site issue comment
     if issue_comment_file:
+        # Load spot-check diagnostics if a file was provided.
+        spot_check: Optional[Dict[str, Any]] = None
+        if spot_check_file:
+            try:
+                spot_check = json.loads(Path(spot_check_file).read_text(encoding="utf-8"))
+            except Exception as exc:  # noqa: BLE001
+                print(f"Warning: could not load spot-check file {spot_check_file!r}: {exc}")
+
         comment = generate_issue_comment(
             entries,
             crawl_url=crawl_url,
@@ -1568,6 +1616,7 @@ def main(
             site_filter=site_filter,
             pages_crawled=stats.get("pages_crawled", 0),
             archive_name=archive_name,
+            spot_check=spot_check,
         )
         Path(issue_comment_file).write_text(comment, encoding="utf-8")
         print(f"Written issue comment: {issue_comment_file}")
@@ -1643,6 +1692,16 @@ if __name__ == "__main__":  # pragma: no cover
             "https://github.com/owner/repo/issues/42#issuecomment-12345)"
         ),
     )
+    parser.add_argument(
+        "--spot-check-file",
+        default=None,
+        help=(
+            "Path to a JSON file produced by spot_check_zero_results() in crawl.py "
+            "(saved to scan-meta/spot_check.json during the crawl). When provided, "
+            "its diagnostic findings are included in the issue comment when zero "
+            "PDFs and zero pages were found."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -1656,4 +1715,5 @@ if __name__ == "__main__":  # pragma: no cover
         archive_dir=args.archive_dir,
         crawled_dir=args.crawled_dir,
         issue_url=args.issue_url,
+        spot_check_file=args.spot_check_file,
     )

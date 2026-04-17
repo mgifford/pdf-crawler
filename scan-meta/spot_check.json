@@ -1,0 +1,8 @@
+{
+  "seed_status": null,
+  "robots_blocked": false,
+  "robots_disallows": [],
+  "sitemap_pdf_count": 0,
+  "sitemap_pdf_samples": [],
+  "error": "Seed URL probe failed: <urlopen error [Errno -5] No address associated with hostname>; robots.txt probe failed: <urlopen error [Errno -5] No address associated with hostname>; sitemap.xml probe failed: <urlopen error [Errno -5] No address associated with hostname>"
+}

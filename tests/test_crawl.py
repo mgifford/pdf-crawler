@@ -9,7 +9,16 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from crawl import normalize_url, _URL_PREFIXES, _site_folder, run_scrapy, _print_scrapy_log_tail, is_pdf_url
+from crawl import (
+    normalize_url,
+    _URL_PREFIXES,
+    _site_folder,
+    run_scrapy,
+    _print_scrapy_log_tail,
+    is_pdf_url,
+    spot_check_zero_results,
+    _extract_pdf_urls_from_sitemap,
+)
 
 
 # ---------------------------------------------------------------------------
@@ -995,3 +1004,257 @@ def test_update_manifest_counts_unchanged_files(tmp_path, capsys):
     entries = load_manifest(str(manifest_path))
     # Status should not have been reset (file MD5 unchanged, already analysed).
     assert entries[0]["status"] == "analysed"
+
+
+# ---------------------------------------------------------------------------
+# spot_check_zero_results
+# ---------------------------------------------------------------------------
+
+def _make_http_response(status: int, body: bytes = b""):
+    """Return a mock urllib response with the given status and body."""
+    resp = MagicMock()
+    resp.status = status
+    resp.read.return_value = body
+    resp.__enter__ = lambda s: s
+    resp.__exit__ = MagicMock(return_value=False)
+    return resp
+
+
+def test_spot_check_seed_status_2xx():
+    """Seed URL returning HTTP 200 should be recorded as seed_status=200."""
+    from urllib.error import URLError
+
+    # Seed OK, robots.txt error, sitemap.xml error (both fail gracefully).
+    call_count = [0]
+    responses = [
+        _make_http_response(200),                # seed URL
+        URLError("no robots.txt"),               # robots.txt fetch fails
+        URLError("no sitemap.xml"),              # sitemap.xml fetch fails
+    ]
+
+    def side_effect(req, timeout=15):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        if isinstance(r, URLError):
+            raise r
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["seed_status"] == 200
+    assert result["robots_blocked"] is False
+
+
+def test_spot_check_seed_unreachable():
+    """When the seed URL is unreachable, seed_status should be None."""
+    from urllib.error import URLError
+
+    with patch("crawl.urlopen", side_effect=URLError("connection refused")):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["seed_status"] is None
+    assert "Seed URL probe failed" in result["error"]
+
+
+def test_spot_check_robots_blocked():
+    """robots.txt that disallows '/' for all agents should set robots_blocked=True."""
+    robots_content = b"User-agent: *\nDisallow: /\n"
+
+    call_count = [0]
+    responses = [
+        _make_http_response(403),               # seed – blocked
+        _make_http_response(200, robots_content),  # robots.txt
+        MagicMock(side_effect=Exception("no sitemap")),  # sitemap fails
+    ]
+
+    def side_effect(req, timeout=15):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        if isinstance(r, Exception):
+            raise r
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["robots_blocked"] is True
+    assert result["robots_disallows"]  # non-empty list
+
+
+def test_spot_check_robots_not_blocked():
+    """robots.txt that allows crawling should not set robots_blocked."""
+    robots_content = b"User-agent: *\nDisallow: /private/\n"
+
+    call_count = [0]
+    from urllib.error import URLError
+    responses = [
+        _make_http_response(200),               # seed
+        _make_http_response(200, robots_content),  # robots.txt
+        URLError("no sitemap"),                 # sitemap fails
+    ]
+
+    def side_effect(req, timeout=15):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        if isinstance(r, URLError):
+            raise r
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["robots_blocked"] is False
+
+
+def test_spot_check_sitemap_pdfs_found():
+    """A sitemap.xml listing PDF URLs should populate sitemap_pdf_count and samples."""
+    sitemap_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/a.pdf</loc></url>
+  <url><loc>https://example.com/b.pdf</loc></url>
+  <url><loc>https://example.com/page.html</loc></url>
+</urlset>"""
+
+    call_count = [0]
+    from urllib.error import URLError
+    responses = [
+        URLError("seed unreachable"),           # seed
+        URLError("no robots.txt"),              # robots.txt
+        _make_http_response(200, sitemap_xml),  # sitemap.xml
+    ]
+
+    def side_effect(req, timeout=15):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        if isinstance(r, URLError):
+            raise r
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["sitemap_pdf_count"] == 2
+    assert "https://example.com/a.pdf" in result["sitemap_pdf_samples"]
+    assert "https://example.com/b.pdf" in result["sitemap_pdf_samples"]
+
+
+def test_spot_check_sitemap_no_pdfs():
+    """A sitemap.xml with no PDF URLs should give sitemap_pdf_count=0."""
+    sitemap_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/page.html</loc></url>
+</urlset>"""
+
+    call_count = [0]
+    from urllib.error import URLError
+    responses = [
+        URLError("seed unreachable"),
+        URLError("no robots.txt"),
+        _make_http_response(200, sitemap_xml),
+    ]
+
+    def side_effect(req, timeout=15):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        if isinstance(r, URLError):
+            raise r
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["sitemap_pdf_count"] == 0
+    assert result["sitemap_pdf_samples"] == []
+
+
+def test_spot_check_sitemap_samples_capped_at_five():
+    """sitemap_pdf_samples should include at most 5 URLs even if more exist."""
+    locs = "\n".join(
+        f"  <url><loc>https://example.com/{i}.pdf</loc></url>" for i in range(10)
+    )
+    sitemap_xml = (
+        b'<?xml version="1.0" encoding="UTF-8"?>'
+        b'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+        + locs.encode()
+        + b"</urlset>"
+    )
+
+    call_count = [0]
+    from urllib.error import URLError
+    responses = [
+        URLError("seed unreachable"),
+        URLError("no robots.txt"),
+        _make_http_response(200, sitemap_xml),
+    ]
+
+    def side_effect(req, timeout=15):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        if isinstance(r, URLError):
+            raise r
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["sitemap_pdf_count"] == 10
+    assert len(result["sitemap_pdf_samples"]) == 5
+
+
+def test_spot_check_all_probes_fail_gracefully():
+    """All probes failing should not raise an exception; errors reported in 'error'."""
+    from urllib.error import URLError
+
+    with patch("crawl.urlopen", side_effect=URLError("all fail")):
+        result = spot_check_zero_results("https://example.com")
+
+    assert result["seed_status"] is None
+    assert result["sitemap_pdf_count"] == 0
+    assert result["error"]  # non-empty error summary
+
+
+# ---------------------------------------------------------------------------
+# _extract_pdf_urls_from_sitemap
+# ---------------------------------------------------------------------------
+
+def test_extract_pdf_urls_standard_sitemap():
+    """Standard <urlset> sitemap with PDF and non-PDF URLs."""
+    xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/doc.pdf</loc></url>
+  <url><loc>https://example.com/page.html</loc></url>
+  <url><loc>https://example.com/report.PDF</loc></url>
+</urlset>"""
+    urls = _extract_pdf_urls_from_sitemap(xml)
+    assert "https://example.com/doc.pdf" in urls
+    assert "https://example.com/report.PDF" in urls
+    assert "https://example.com/page.html" not in urls
+
+
+def test_extract_pdf_urls_sitemap_index():
+    """Sitemap index files: PDF locs in <sitemap> elements are returned."""
+    xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://example.com/sitemap2.pdf</loc></sitemap>
+  <sitemap><loc>https://example.com/sitemap3.xml</loc></sitemap>
+</sitemapindex>"""
+    urls = _extract_pdf_urls_from_sitemap(xml)
+    assert "https://example.com/sitemap2.pdf" in urls
+    assert "https://example.com/sitemap3.xml" not in urls
+
+
+def test_extract_pdf_urls_invalid_xml():
+    """Malformed XML should return an empty list without raising."""
+    urls = _extract_pdf_urls_from_sitemap(b"not xml at all <<<<")
+    assert urls == []
+
+
+def test_extract_pdf_urls_empty_sitemap():
+    """Sitemap with no URL elements returns an empty list."""
+    xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+</urlset>"""
+    urls = _extract_pdf_urls_from_sitemap(xml)
+    assert urls == []
+

@@ -19,9 +19,11 @@ import os
 import re
 import subprocess
 import sys
+import urllib.robotparser
+import xml.etree.ElementTree as ET
 from pathlib import Path
-from urllib.parse import urlparse, urlunparse
-from urllib.request import urlopen
+from urllib.parse import urlparse, urlunparse, urljoin
+from urllib.request import urlopen, Request
 from urllib.error import URLError
 
 # Ensure sibling scripts are importable
@@ -156,6 +158,184 @@ def _print_scrapy_log_tail(log_path: str, tail_lines: int = 50) -> None:
         for line in lines[-tail_lines:]:
             print(line, end="")
         print(f"--- end of {log_path} ---\n")
+
+
+_SPOT_CHECK_UA = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/131.0.0.0 Safari/537.36"
+)
+_SPOT_CHECK_HEADERS = {
+    "User-Agent": _SPOT_CHECK_UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+}
+_SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
+
+
+def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
+    """Probe a site when the crawler found zero pages to diagnose why.
+
+    Makes three lightweight HTTP requests:
+
+    1. **Seed URL** – reports the HTTP status code so callers can tell whether
+       the site is outright unreachable (connection error), blocking automated
+       requests (HTTP 4xx), or responding normally (2xx/3xx).
+    2. **robots.txt** – parses the file and reports whether common crawler
+       user-agents are disallowed from accessing the root path.
+    3. **sitemap.xml** – fetches and parses the XML to count and sample any
+       PDF URLs listed there; a non-empty sitemap confirms PDFs exist even
+       though the link-following crawl could not reach them.
+
+    All requests use a browser-like User-Agent and Accept headers to reduce
+    the chance of being blocked by WAF rules that target bot user-agents.
+
+    Args:
+        url: The seed URL that was crawled (normalised, with protocol).
+        timeout: Per-request connection timeout in seconds.
+
+    Returns:
+        A dict with the following keys:
+
+        * ``seed_status`` (int | None) – HTTP status of the seed URL, or
+          ``None`` if the request failed entirely.
+        * ``robots_blocked`` (bool) – ``True`` when the site's ``robots.txt``
+          disallows the root path for any of the common crawler agents checked.
+        * ``robots_disallows`` (list[str]) – Disallow rules found in robots.txt
+          that apply to the root path; empty when not blocked.
+        * ``sitemap_pdf_count`` (int) – Number of PDF URLs found in sitemap.xml.
+        * ``sitemap_pdf_samples`` (list[str]) – Up to five example PDF URLs from
+          the sitemap.
+        * ``error`` (str) – Human-readable summary of any errors encountered.
+    """
+    result: dict = {
+        "seed_status": None,
+        "robots_blocked": False,
+        "robots_disallows": [],
+        "sitemap_pdf_count": 0,
+        "sitemap_pdf_samples": [],
+        "error": "",
+    }
+    errors = []
+
+    parsed = urlparse(url)
+    base = f"{parsed.scheme}://{parsed.netloc}"
+
+    # 1. Probe the seed URL.
+    try:
+        req = Request(url, headers=_SPOT_CHECK_HEADERS)
+        with urlopen(req, timeout=timeout) as resp:  # noqa: S310
+            result["seed_status"] = resp.status
+    except URLError as exc:
+        errors.append(f"Seed URL probe failed: {exc}")
+    except Exception as exc:  # noqa: BLE001
+        errors.append(f"Seed URL probe error: {exc}")
+
+    # 2. Check robots.txt.
+    robots_url = urljoin(base, "/robots.txt")
+    try:
+        rp = urllib.robotparser.RobotFileParser()
+        rp.set_url(robots_url)
+        # Fetch robots.txt manually so we can apply the browser UA and timeout.
+        req = Request(robots_url, headers=_SPOT_CHECK_HEADERS)
+        with urlopen(req, timeout=timeout) as resp:  # noqa: S310
+            content = resp.read().decode("utf-8", errors="replace")
+        rp.parse(content.splitlines())
+        # Check whether any of the common crawler user-agent strings are
+        # blocked from accessing the root path.  We check both the wildcard
+        # agent (*) and the Scrapy default agent name.
+        agents_to_check = ["*", "Scrapy", "python-urllib"]
+        blocked_by = []
+        for agent in agents_to_check:
+            if not rp.can_fetch(agent, url):
+                blocked_by.append(agent)
+        if blocked_by:
+            result["robots_blocked"] = True
+            result["robots_disallows"] = blocked_by
+    except URLError as exc:
+        errors.append(f"robots.txt probe failed: {exc}")
+    except Exception as exc:  # noqa: BLE001
+        errors.append(f"robots.txt parse error: {exc}")
+
+    # 3. Check sitemap.xml for PDF URLs.
+    sitemap_url = urljoin(base, "/sitemap.xml")
+    try:
+        req = Request(sitemap_url, headers=_SPOT_CHECK_HEADERS)
+        with urlopen(req, timeout=timeout) as resp:  # noqa: S310
+            sitemap_content = resp.read()
+        pdf_urls = _extract_pdf_urls_from_sitemap(sitemap_content)
+        result["sitemap_pdf_count"] = len(pdf_urls)
+        result["sitemap_pdf_samples"] = pdf_urls[:5]
+    except URLError as exc:
+        errors.append(f"sitemap.xml probe failed: {exc}")
+    except Exception as exc:  # noqa: BLE001
+        errors.append(f"sitemap.xml parse error: {exc}")
+
+    if errors:
+        result["error"] = "; ".join(errors)
+
+    # Print a brief diagnostic summary to stdout so it appears in the
+    # GitHub Actions log even when no issue comment is generated.
+    print("\n--- Spot-check diagnostics (zero pages crawled) ---")
+    status = result["seed_status"]
+    if status is None:
+        print(f"  Seed URL ({url}): unreachable")
+    else:
+        print(f"  Seed URL ({url}): HTTP {status}")
+    if result["robots_blocked"]:
+        print(f"  robots.txt: crawlers blocked ({', '.join(result['robots_disallows'])})")
+    else:
+        print("  robots.txt: no block detected")
+    if result["sitemap_pdf_count"]:
+        print(f"  sitemap.xml: {result['sitemap_pdf_count']} PDF(s) found")
+        for sample in result["sitemap_pdf_samples"]:
+            print(f"    {sample}")
+    else:
+        print("  sitemap.xml: no PDFs found")
+    if result["error"]:
+        print(f"  Errors: {result['error']}")
+    print("--- end spot-check ---\n")
+
+    return result
+
+
+def _extract_pdf_urls_from_sitemap(content: bytes, _depth: int = 0) -> list:
+    """Return all PDF URLs found in a sitemap XML document.
+
+    Handles both standard sitemaps (``<urlset>``) and sitemap index files
+    (``<sitemapindex>``).  Nested sitemap index files are not recursively
+    fetched (only the top level is parsed) to avoid unbounded HTTP requests.
+
+    Args:
+        content: Raw bytes of the sitemap XML document.
+        _depth: Internal recursion guard; callers should omit this argument.
+
+    Returns:
+        A list of PDF URL strings found in the sitemap.
+    """
+    pdf_urls: list = []
+    try:
+        root = ET.fromstring(content)
+    except ET.ParseError:
+        return pdf_urls
+
+    # Strip the namespace prefix for simpler tag comparisons.
+    tag = root.tag.split("}")[-1] if "}" in root.tag else root.tag
+
+    ns = {"sm": _SITEMAP_NS}
+
+    if tag == "urlset":
+        for loc in root.findall("sm:url/sm:loc", ns):
+            if loc.text and loc.text.lower().endswith(".pdf"):
+                pdf_urls.append(loc.text.strip())
+    elif tag == "sitemapindex":
+        # Sitemap index: list child sitemap URLs but do not fetch them —
+        # just report their paths so we avoid additional HTTP requests.
+        for loc in root.findall("sm:sitemap/sm:loc", ns):
+            if loc.text and loc.text.lower().endswith(".pdf"):
+                pdf_urls.append(loc.text.strip())
+
+    return pdf_urls
 
 
 def run_scrapy(
@@ -431,6 +611,17 @@ def main() -> None:
             "requests. Check the Scrapy log below for details."
         )
         _print_scrapy_log_tail(log_path)
+        # Run a lightweight spot-check to diagnose why the crawl found nothing
+        # and persist the results so the analysis workflow can surface them in
+        # the issue comment.
+        print("Running spot-check diagnostics…")
+        spot = spot_check_zero_results(url)
+        spot_check_path = Path("scan-meta") / "spot_check.json"
+        spot_check_path.parent.mkdir(parents=True, exist_ok=True)
+        spot_check_path.write_text(
+            json.dumps(spot, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+        print(f"Spot-check saved: {spot_check_path}")
 
 
 if __name__ == "__main__":  # pragma: no cover

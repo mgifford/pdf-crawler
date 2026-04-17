@@ -435,12 +435,17 @@ jobs:
           if [ -d crawled_files ]; then
             CRAWLED_DIR_FLAG="--crawled-dir crawled_files"
           fi
+          SPOT_CHECK_FLAG=""
+          if [ -f scan-meta/spot_check.json ]; then
+            SPOT_CHECK_FLAG="--spot-check-file scan-meta/spot_check.json"
+          fi
           python scripts/generate_report.py \
             --manifest reports/manifest.yaml \
             --report-dir reports \
             $SITE_FLAG \
             $COMMENT_FLAG \
             $CRAWLED_DIR_FLAG \
+            $SPOT_CHECK_FLAG \
             --html-dir docs \
             --archive-dir docs/reports \
             --pages-base "$PAGES_BASE" \
