@@ -208,10 +208,10 @@ class PdfA11ySpider(scrapy.Spider):
         self._crawled_pages.append(response.url)
 
         for a_tag in response.xpath("//a[@href]"):
-            link = a_tag.xpath("@href").get("").strip()
+            link = (a_tag.xpath("@href").get() or "").strip()
             # Capture the visible text of the link for downstream classification.
             # normalize-space() collapses whitespace and trims the result.
-            link_text = a_tag.xpath("normalize-space(.)").get("").strip()
+            link_text = (a_tag.xpath("normalize-space(.)").get() or "").strip()
             parsed_link = urllib.parse.urlparse(link)
             path = re.sub(r"/+$", "", parsed_link.path)
             scheme = parsed_link.scheme

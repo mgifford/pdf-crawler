@@ -36,7 +36,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import pytz
 import pikepdf
@@ -476,7 +476,7 @@ def _meta_str(value) -> Optional[str]:
 # Each pattern is matched case-insensitively against a normalised text string
 # built from the URL path segments, filename stem, and (if available) the
 # anchor-link text.  The first matching rule wins.
-_CATEGORY_RULES: List[tuple] = [
+_CATEGORY_RULES: List[Tuple[str, re.Pattern[str]]] = [
     ("Agenda",      re.compile(r"\b(agenda|agm)\b", re.IGNORECASE)),
     ("Minutes",     re.compile(r"\b(minutes?|meeting[-_]?min)\b", re.IGNORECASE)),
     ("Budget",      re.compile(
