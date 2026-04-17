@@ -3391,3 +3391,125 @@ def test_process_timeout_kills_zombie_process(tmp_path):
             _analyse_with_process_timeout(str(p), "a.com", timeout=2)
     finally:
         _mod._run_check_file_worker = original
+
+
+# ---------------------------------------------------------------------------
+# check_file: new metadata fields (Title, Author, Subject, Keywords, Description)
+# ---------------------------------------------------------------------------
+
+def test_check_file_result_has_metadata_keys(tmp_path):
+    """check_file() must always return Title, Author, Subject, Keywords, Description keys."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "test_meta_keys.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    for key in ("Title", "Author", "Subject", "Keywords", "Description"):
+        assert key in result, f"Expected key '{key}' in check_file result"
+
+
+def test_check_file_extracts_author_from_docinfo(tmp_path):
+    """check_file() must extract the Author field from PDF docinfo /Author."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "author.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.docinfo["/Author"] = "Jane Smith"
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result["Author"] == "Jane Smith"
+
+
+def test_check_file_extracts_subject_from_docinfo(tmp_path):
+    """check_file() must extract the Subject field from PDF docinfo /Subject."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "subject.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.docinfo["/Subject"] = "Accessibility Policy"
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result["Subject"] == "Accessibility Policy"
+
+
+def test_check_file_extracts_keywords_from_docinfo(tmp_path):
+    """check_file() must extract the Keywords field from PDF docinfo /Keywords."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "keywords.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.docinfo["/Keywords"] = "accessibility, WCAG, PDF/UA"
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result["Keywords"] == "accessibility, WCAG, PDF/UA"
+
+
+def test_check_file_extracts_title_value_from_docinfo(tmp_path):
+    """check_file() must extract the Title value (not just pass/fail) from docinfo."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "title_val.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.docinfo["/Title"] = "Annual Accessibility Report"
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result["Title"] == "Annual Accessibility Report"
+
+
+def test_check_file_metadata_none_when_absent(tmp_path):
+    """check_file() must return None for metadata fields when they are absent."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "no_meta.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    # Save without any docinfo metadata
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    # Fields should be None (not raise an error)
+    assert result["Author"] is None
+    assert result["Subject"] is None
+    assert result["Keywords"] is None
+    assert result["Description"] is None

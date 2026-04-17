@@ -1674,3 +1674,102 @@ def test_generate_main_archive_with_corrupt_index_json(tmp_path):
     # Index must be recreated with a single entry
     index = json.loads((archive_dir / "index.json").read_text(encoding="utf-8"))
     assert len(index) == 1
+
+
+# ---------------------------------------------------------------------------
+# Metadata fields: Title, Author, Subject, Keywords, Description
+# ---------------------------------------------------------------------------
+
+def _make_entry_with_metadata(url="https://example.com/doc.pdf"):
+    """Return an analysed entry that includes the new document metadata fields."""
+    entry = _make_entry(url)
+    entry["report"].update({
+        "Title": "Annual Accessibility Report 2024",
+        "Author": "Jane Smith; John Doe",
+        "Subject": "Accessibility; Disability Policy",
+        "Keywords": "accessibility, WCAG, PDF/UA",
+        "Description": "A report on document accessibility across the organisation.",
+    })
+    return entry
+
+
+def test_generate_csv_includes_metadata_columns():
+    """CSV must include doc_title, author, subject, keywords, description columns."""
+    entry = _make_entry_with_metadata()
+    csv_text = generate_csv([entry])
+    header_cols = csv_text.splitlines()[0].split(",")
+    for col in ("doc_title", "author", "subject", "keywords", "description"):
+        assert col in header_cols, f"Expected column '{col}' in CSV header"
+
+
+def test_generate_csv_metadata_values_populated():
+    """CSV metadata columns must contain values from the report dict."""
+    entry = _make_entry_with_metadata()
+    csv_text = generate_csv([entry])
+    assert "Annual Accessibility Report 2024" in csv_text
+    assert "Jane Smith; John Doe" in csv_text
+    assert "Accessibility; Disability Policy" in csv_text
+    assert "accessibility, WCAG, PDF/UA" in csv_text
+    assert "A report on document accessibility across the organisation." in csv_text
+
+
+def test_generate_csv_metadata_columns_empty_when_no_metadata():
+    """CSV metadata columns must be empty when report lacks metadata fields."""
+    entry = _make_entry("https://example.com/doc.pdf")
+    csv_text = generate_csv([entry])
+    lines = csv_text.splitlines()
+    header = lines[0].split(",")
+    row = lines[1].split(",")
+    for col in ("doc_title", "author", "subject", "keywords", "description"):
+        idx = header.index(col)
+        assert row[idx] == "", f"Column '{col}' should be empty, got {row[idx]!r}"
+
+
+def test_generate_markdown_includes_metadata_columns():
+    """Markdown file table must include Doc Title, Author, Subject, Keywords columns."""
+    entry = _make_entry_with_metadata()
+    stats = _summary_stats([entry])
+    md = generate_markdown([entry], stats)
+    assert "Doc Title" in md
+    assert "Author" in md
+    assert "Subject" in md
+    assert "Keywords" in md
+
+
+def test_generate_markdown_metadata_values_shown():
+    """Markdown file table must show metadata values when present."""
+    entry = _make_entry_with_metadata()
+    stats = _summary_stats([entry])
+    md = generate_markdown([entry], stats)
+    assert "Annual Accessibility Report 2024" in md
+    assert "Jane Smith; John Doe" in md
+
+
+def test_generate_markdown_metadata_na_when_absent():
+    """Markdown file table must show '—' for missing metadata fields."""
+    entry = _make_entry("https://example.com/doc.pdf")
+    stats = _summary_stats([entry])
+    md = generate_markdown([entry], stats)
+    # The NA placeholder should appear in the table rows
+    assert "—" in md
+
+
+def test_generate_html_metadata_flags_present():
+    """HTML report must include hasDocTitle/hasAuthor/hasSubject/hasKeywords flags."""
+    entry = _make_entry_with_metadata()
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    assert "hasDocTitle" in html
+    assert "hasAuthor" in html
+    assert "hasSubject" in html
+    assert "hasKeywords" in html
+    assert "hasDescription" in html
+
+
+def test_generate_html_metadata_col_defs_pushed_when_present():
+    """HTML JS colDefs must include doc_title and author keys when metadata is present."""
+    entry = _make_entry_with_metadata()
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    assert "key: 'doc_title'" in html
+    assert "key: 'author'" in html

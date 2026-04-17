@@ -172,9 +172,11 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
 
     header = (
         "## File Details\n\n"
-        "| File | Site | Published Date | Accessible | Tagged | EmptyText | Protected"
+        "| File | Site | Published Date | Doc Title | Author | Subject | Keywords"
+        " | Accessible | Tagged | EmptyText | Protected"
         " | Title | Language | Bookmarks | Exempt | Pages | Words | Images |\n"
-        "|------|------|----------------|------------|--------|-----------|---------|"
+        "|------|------|----------------|-----------|--------|---------|---------|"
+        "------------|--------|-----------|---------|"
         "-------|----------|-----------|--------|-------|-------|--------|\n"
     )
 
@@ -192,6 +194,10 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
             f"| [{filename}]({url}) "
             f"| {site_str} "
             f"| {date_str} "
+            f"| {r.get('Title') or _NA} "
+            f"| {r.get('Author') or _NA} "
+            f"| {r.get('Subject') or _NA} "
+            f"| {r.get('Keywords') or _NA} "
             f"| {_fmt(r.get('Accessible'))} "
             f"| {_fmt(r.get('TaggedTest'))} "
             f"| {_fmt(r.get('EmptyTextTest'))} "
@@ -245,6 +251,11 @@ _CSV_COLUMNS = [
     "status",
     "crawled_at",
     "published_date",
+    "doc_title",
+    "author",
+    "subject",
+    "keywords",
+    "description",
     "accessible",
     "totally_inaccessible",
     "broken",
@@ -285,6 +296,11 @@ def generate_csv(entries: List[Dict[str, Any]]) -> str:
                 "status": e.get("status", ""),
                 "crawled_at": e.get("crawled_at", ""),
                 "published_date": r.get("Date", ""),
+                "doc_title": r.get("Title", ""),
+                "author": r.get("Author", ""),
+                "subject": r.get("Subject", ""),
+                "keywords": r.get("Keywords", ""),
+                "description": r.get("Description", ""),
                 "accessible": r.get("Accessible", ""),
                 "totally_inaccessible": r.get("TotallyInaccessible", ""),
                 "broken": r.get("BrokenFile", ""),
@@ -706,8 +722,13 @@ _HTML_TEMPLATE = """\
       var analysed = files.filter(function (f) {{ return f.status === 'analysed'; }});
 
       // Determine which optional columns have data
-      var hasWords  = analysed.some(function (f) {{ return f.report && f.report.Words  != null; }});
-      var hasImages = analysed.some(function (f) {{ return f.report && f.report.Images != null; }});
+      var hasWords       = analysed.some(function (f) {{ return f.report && f.report.Words       != null; }});
+      var hasImages      = analysed.some(function (f) {{ return f.report && f.report.Images      != null; }});
+      var hasDocTitle    = analysed.some(function (f) {{ return f.report && f.report.Title       != null; }});
+      var hasAuthor      = analysed.some(function (f) {{ return f.report && f.report.Author      != null; }});
+      var hasSubject     = analysed.some(function (f) {{ return f.report && f.report.Subject     != null; }});
+      var hasKeywords    = analysed.some(function (f) {{ return f.report && f.report.Keywords    != null; }});
+      var hasDescription = analysed.some(function (f) {{ return f.report && f.report.Description != null; }});
 
       // Sort state
       var sortCol = null;
@@ -716,17 +737,22 @@ _HTML_TEMPLATE = """\
       function colVal(f, col) {{
         var r = f.report || {{}};
         switch (col) {{
-          case 'file':       return (f.filename || f.url || '').toLowerCase();
-          case 'site':       return (f.site || '').toLowerCase();
-          case 'date':       return r.Date ? String(r.Date) : '';
-          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
-          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
-          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
-          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
-          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
-          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
-          case 'words':      return r.Words  != null ? r.Words  : -1;
-          case 'images':     return r.Images != null ? r.Images : -1;
+          case 'file':        return (f.filename || f.url || '').toLowerCase();
+          case 'site':        return (f.site || '').toLowerCase();
+          case 'date':        return r.Date ? String(r.Date) : '';
+          case 'doc_title':   return (r.Title       || '').toLowerCase();
+          case 'author':      return (r.Author      || '').toLowerCase();
+          case 'subject':     return (r.Subject     || '').toLowerCase();
+          case 'keywords':    return (r.Keywords    || '').toLowerCase();
+          case 'description': return (r.Description || '').toLowerCase();
+          case 'accessible':  return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':      return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':       return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':    return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':   return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':       return r.Pages  != null ? r.Pages  : -1;
+          case 'words':       return r.Words  != null ? r.Words  : -1;
+          case 'images':      return r.Images != null ? r.Images : -1;
           default: return '';
         }}
       }}
@@ -754,6 +780,11 @@ _HTML_TEMPLATE = """\
           '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
           '<td>' + siteCell + '</td>' +
           '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          (hasDocTitle    ? '<td>' + (r.Title       ? esc(r.Title)       : '&#x2014;') + '</td>' : '') +
+          (hasAuthor      ? '<td>' + (r.Author      ? esc(r.Author)      : '&#x2014;') + '</td>' : '') +
+          (hasSubject     ? '<td>' + (r.Subject     ? esc(r.Subject)     : '&#x2014;') + '</td>' : '') +
+          (hasKeywords    ? '<td>' + (r.Keywords    ? esc(r.Keywords)    : '&#x2014;') + '</td>' : '') +
+          (hasDescription ? '<td>' + (r.Description ? esc(r.Description) : '&#x2014;') + '</td>' : '') +
           '<td>' + icon(r.Accessible)    + '</td>' +
           '<td>' + icon(r.TaggedTest)    + '</td>' +
           '<td>' + icon(r.TitleTest)     + '</td>' +
@@ -794,17 +825,27 @@ _HTML_TEMPLATE = """\
       }}
 
       if (analysed.length) {{
+        // Column order: identity columns, then optional metadata (shown only when
+        // at least one file has that field), then accessibility checks, then
+        // optional numeric columns (words/images shown only when data is present).
         var colDefs = [
           {{ key: 'file',       label: 'File' }},
           {{ key: 'site',       label: 'Site' }},
           {{ key: 'date',       label: 'Published Date' }},
+        ];
+        if (hasDocTitle)    colDefs.push({{ key: 'doc_title',   label: 'Doc Title' }});
+        if (hasAuthor)      colDefs.push({{ key: 'author',      label: 'Author' }});
+        if (hasSubject)     colDefs.push({{ key: 'subject',     label: 'Subject' }});
+        if (hasKeywords)    colDefs.push({{ key: 'keywords',    label: 'Keywords' }});
+        if (hasDescription) colDefs.push({{ key: 'description', label: 'Description' }});
+        colDefs.push(
           {{ key: 'accessible', label: 'Accessible' }},
           {{ key: 'tagged',     label: 'Tagged' }},
           {{ key: 'title',      label: 'Title' }},
           {{ key: 'language',   label: 'Language' }},
           {{ key: 'bookmarks',  label: 'Bookmarks' }},
-          {{ key: 'pages',      label: 'Pages' }},
-        ];
+          {{ key: 'pages',      label: 'Pages' }}
+        );
         if (hasWords)  colDefs.push({{ key: 'words',  label: 'Words' }});
         if (hasImages) colDefs.push({{ key: 'images', label: 'Images' }});
 

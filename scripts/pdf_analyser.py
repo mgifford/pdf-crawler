@@ -408,6 +408,19 @@ def _count_words(filename: str) -> Optional[int]:
         return None
 
 
+def _meta_str(value) -> Optional[str]:
+    """Coerce a metadata value to a stripped string, joining lists with '; '.
+
+    Returns ``None`` when *value* is ``None`` or results in an empty string.
+    """
+    if value is None:
+        return None
+    if isinstance(value, (list, tuple)):
+        joined = "; ".join(str(v) for v in value if v)
+        return joined or None
+    return str(value).strip() or None
+
+
 # ---------------------------------------------------------------------------
 # Core check function
 # ---------------------------------------------------------------------------
@@ -449,6 +462,11 @@ def check_file(
         "PDFVersion": None,
         "Creator": None,
         "Producer": None,
+        "Title": None,
+        "Author": None,
+        "Subject": None,
+        "Keywords": None,
+        "Description": None,
         "Pages": None,
         "Words": None,
         "Images": None,
@@ -466,10 +484,34 @@ def check_file(
             result["hasXmp"] = False
             result["Accessible"] = False
             result["_log"] += "xmp "
+            # Fall back to docinfo-only metadata when XMP is unavailable
+            for key, field in (
+                ("/Title", "Title"),
+                ("/Author", "Author"),
+                ("/Subject", "Subject"),
+                ("/Keywords", "Keywords"),
+            ):
+                result[field] = _meta_str(pdf.docinfo.get(key))
         else:
             result["hasXmp"] = True
             result["Creator"] = meta.get("xmp:CreatorTool")
             result["Producer"] = meta.get("pdf:Producer")
+
+            # Extract additional document metadata for prioritization
+            # Title value (separate from TitleTest pass/fail)
+            result["Title"] = _meta_str(meta.get("dc:title") or pdf.docinfo.get("/Title"))
+
+            # Author: dc:creator may be a list; join multiple authors with '; '
+            result["Author"] = _meta_str(meta.get("dc:creator") or pdf.docinfo.get("/Author"))
+
+            # Subject: dc:subject may be a list of topics/keywords
+            result["Subject"] = _meta_str(meta.get("dc:subject") or pdf.docinfo.get("/Subject"))
+
+            # Keywords: pdf:Keywords or /Keywords from docinfo
+            result["Keywords"] = _meta_str(meta.get("pdf:Keywords") or pdf.docinfo.get("/Keywords"))
+
+            # Description: dc:description
+            result["Description"] = _meta_str(meta.get("dc:description"))
 
             xmp_modify = _extract_date(meta.get("xmp:ModifyDate"))
             dc_modified = _extract_date(meta.get("dc:Modified"))
