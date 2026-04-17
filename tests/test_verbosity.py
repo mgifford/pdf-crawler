@@ -1,6 +1,6 @@
 """Tests for verbose output added to crawl.py and pdf_analyser.py."""
 # pylint: disable=import-outside-toplevel,protected-access,redefined-outer-name
-# pylint: disable=unused-argument,unused-import,trailing-newlines
+# pylint: disable=unused-argument,trailing-newlines
 
 import sys
 from pathlib import Path

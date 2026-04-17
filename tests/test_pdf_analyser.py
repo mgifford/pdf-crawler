@@ -1,7 +1,8 @@
 """Tests for the PDF analyser: site-filter, non-PDF skip, and size-limit features."""
 # pylint: disable=import-outside-toplevel,protected-access,redefined-outer-name
-# pylint: disable=reimported,unused-argument,unused-import,too-few-public-methods
-# pylint: disable=use-implicit-booleaness-not-comparison,unspecified-encoding,unused-variable
+# pylint: disable=reimported,unused-argument,too-few-public-methods
+# pylint: disable=use-implicit-booleaness-not-comparison,unspecified-encoding
+# pylint: disable=unused-import,unused-variable
 
 import sys
 from pathlib import Path
@@ -10,7 +11,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from manifest import build_entry, mark_analysed, pending_entries
+from manifest import build_entry
 from pdf_analyser import main as analyser_main, STALE_COUNT_FILE
 
 

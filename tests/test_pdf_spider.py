@@ -1,6 +1,6 @@
 """Tests for scripts/pdf_spider.py."""
 # pylint: disable=import-outside-toplevel,protected-access,redefined-outer-name
-# pylint: disable=reimported,unused-import,comparison-with-callable
+# pylint: disable=reimported,comparison-with-callable
 # pylint: disable=use-implicit-booleaness-not-comparison
 
 import sys
