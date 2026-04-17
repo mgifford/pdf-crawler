@@ -304,7 +304,7 @@ class PdfA11ySpider(scrapy.Spider):
             candidate = f"{basename}-{next(counter)}{ext}"
         return candidate
 
-    def closed(self, reason):
+    def closed(self, reason):  # pylint: disable=unused-argument
         """Write accumulated filename→URL maps to disk when the spider finishes.
 
         Persisting the maps in a single write per directory avoids any

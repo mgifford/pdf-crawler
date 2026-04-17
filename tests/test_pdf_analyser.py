@@ -1,4 +1,7 @@
 """Tests for the PDF analyser: site-filter, non-PDF skip, and size-limit features."""
+# pylint: disable=import-outside-toplevel,protected-access,redefined-outer-name
+# pylint: disable=reimported,unused-argument,unused-import,too-few-public-methods
+# pylint: disable=use-implicit-booleaness-not-comparison,unspecified-encoding,unused-variable
 
 import sys
 from pathlib import Path
@@ -1457,7 +1460,7 @@ def test_check_file_tagged_with_marked_true(tmp_path):
     pdf.pages.append(page)
     # Add StructTreeRoot and MarkInfo with Marked=true
     pdf.Root["/StructTreeRoot"] = pikepdf.Dictionary()
-    pdf.Root["/MarkInfo"] = pikepdf.Dictionary(Marked=pikepdf.Boolean(True))
+    pdf.Root["/MarkInfo"] = pikepdf.Dictionary(Marked=True)
     pdf.save(str(p))
 
     result = check_file(str(p))
@@ -1477,7 +1480,7 @@ def test_check_file_marked_false_fails_tagged(tmp_path):
     ))
     pdf.pages.append(page)
     pdf.Root["/StructTreeRoot"] = pikepdf.Dictionary()
-    pdf.Root["/MarkInfo"] = pikepdf.Dictionary(Marked=pikepdf.Boolean(False))
+    pdf.Root["/MarkInfo"] = pikepdf.Dictionary(Marked=False)
     pdf.save(str(p))
 
     result = check_file(str(p))
@@ -1988,7 +1991,7 @@ def test_check_file_title_with_display_doc_title_true_passes(tmp_path):
     pdf.pages.append(page)
     pdf.docinfo["/Title"] = "My Accessible Document"
     pdf.Root["/ViewerPreferences"] = pikepdf.Dictionary(
-        DisplayDocTitle=pikepdf.Boolean(True)
+        DisplayDocTitle=True
     )
     pdf.save(str(p))
 
@@ -2012,7 +2015,7 @@ def test_check_file_title_with_display_doc_title_false_fails(tmp_path):
     pdf.pages.append(page)
     pdf.docinfo["/Title"] = "My Document"
     pdf.Root["/ViewerPreferences"] = pikepdf.Dictionary(
-        DisplayDocTitle=pikepdf.Boolean(False)
+        DisplayDocTitle=False
     )
     pdf.save(str(p))
 

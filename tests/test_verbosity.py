@@ -1,8 +1,8 @@
 """Tests for verbose output added to crawl.py and pdf_analyser.py."""
+# pylint: disable=import-outside-toplevel,protected-access,redefined-outer-name
+# pylint: disable=unused-argument,unused-import,trailing-newlines
 
 import sys
-import types
-import tempfile
 from pathlib import Path
 from unittest.mock import MagicMock, patch
 
@@ -10,7 +10,7 @@ import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
-from manifest import build_entry, save_manifest
+from manifest import save_manifest
 
 
 # ---------------------------------------------------------------------------

@@ -1,11 +1,11 @@
 """Tests for scripts/generate_report.py"""
+# pylint: disable=import-outside-toplevel,protected-access,unused-argument
+# pylint: disable=use-maxsplit-arg,subprocess-run-check
 
 import json
 import re
 import sys
 from pathlib import Path
-
-import pytest
 
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 

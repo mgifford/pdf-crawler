@@ -24,8 +24,6 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.parse import urlparse
 
-import yaml
-
 sys.path.insert(0, str(Path(__file__).parent))
 from manifest import load_manifest
 
@@ -135,8 +133,8 @@ def _md_summary(stats: Dict[str, Any]) -> str:
         "",
         "## Summary",
         "",
-        f"| Metric | Count |",
-        f"|--------|-------|",
+        "| Metric | Count |",
+        "|--------|-------|",
         f"| Total files tracked | {stats['total_files']} |",
         f"| Analysed | {stats['analysed']} |",
         f"| Pending analysis | {stats['pending']} |",
@@ -1431,7 +1429,7 @@ _REPORTS_INDEX_TEMPLATE = """\
 """
 
 
-def generate_reports_index_html(reports_index: List[Dict[str, Any]]) -> str:
+def generate_reports_index_html(reports_index: List[Dict[str, Any]]) -> str:  # pylint: disable=unused-argument
     """Return a standalone HTML page that dynamically loads scan reports from reports/index.json.
 
     The ``reports_index`` argument is accepted for API compatibility but the data
@@ -1476,8 +1474,7 @@ def main(
         pages_path = site_dir / "_crawled_pages.json"
         if pages_path.exists():
             try:
-                import json as _json
-                pages = _json.loads(pages_path.read_text(encoding="utf-8"))
+                pages = json.loads(pages_path.read_text(encoding="utf-8"))
                 stats["pages_crawled"] = len(pages)
             except Exception:
                 pass

@@ -19,7 +19,6 @@ The manifest is stored at ``reports/manifest.yaml`` by default.
 from __future__ import annotations
 
 import hashlib
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional

@@ -1,11 +1,12 @@
 """Tests for scripts/pdf_spider.py."""
+# pylint: disable=import-outside-toplevel,protected-access,redefined-outer-name
+# pylint: disable=reimported,unused-import,comparison-with-callable
+# pylint: disable=use-implicit-booleaness-not-comparison
 
-import os
 import sys
 from pathlib import Path
 from unittest.mock import MagicMock
 
-import pytest
 from scrapy.http import Request as ScrapyRequest
 from scrapy.http import Response as ScrapyResponse
 

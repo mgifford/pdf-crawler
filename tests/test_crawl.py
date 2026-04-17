@@ -1,4 +1,6 @@
 """Tests for scripts/crawl.py – focused on normalize_url(), _site_folder(), and run_scrapy()."""
+# pylint: disable=import-outside-toplevel,unused-argument,unused-import
+# pylint: disable=trailing-newlines,use-implicit-booleaness-not-comparison
 
 import json
 import sys
@@ -1036,7 +1038,7 @@ def test_spot_check_seed_status_2xx():
         r = responses[call_count[0]]
         call_count[0] += 1
         if isinstance(r, URLError):
-            raise r
+            raise r  # pylint: disable=raising-non-exception
         return r
 
     with patch("crawl.urlopen", side_effect=side_effect):
@@ -1065,14 +1067,14 @@ def test_spot_check_robots_blocked():
     responses = [
         _make_http_response(403),               # seed – blocked
         _make_http_response(200, robots_content),  # robots.txt
-        MagicMock(side_effect=Exception("no sitemap")),  # sitemap fails
+        Exception("no sitemap"),  # sitemap fails
     ]
 
     def side_effect(req, timeout=15):
         r = responses[call_count[0]]
         call_count[0] += 1
         if isinstance(r, Exception):
-            raise r
+            raise r  # pylint: disable=raising-non-exception
         return r
 
     with patch("crawl.urlopen", side_effect=side_effect):
@@ -1098,7 +1100,7 @@ def test_spot_check_robots_not_blocked():
         r = responses[call_count[0]]
         call_count[0] += 1
         if isinstance(r, URLError):
-            raise r
+            raise r  # pylint: disable=raising-non-exception
         return r
 
     with patch("crawl.urlopen", side_effect=side_effect):

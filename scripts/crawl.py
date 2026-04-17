@@ -29,7 +29,7 @@ from urllib.error import URLError
 # Ensure sibling scripts are importable
 sys.path.insert(0, str(Path(__file__).parent))
 
-from manifest import _md5, load_manifest, save_manifest, upsert_entry
+from manifest import load_manifest, save_manifest, upsert_entry
 
 # Ordered list of protocol prefixes to probe when a bare domain is supplied.
 _URL_PREFIXES = [
