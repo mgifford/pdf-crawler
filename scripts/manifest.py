@@ -71,6 +71,7 @@ def build_entry(
     local_path: str | Path,
     site: str,
     notes: str = "",
+    link_text: str = "",
 ) -> Dict[str, Any]:
     """Create a new manifest entry for *local_path*."""
     entry: Dict[str, Any] = {
@@ -85,6 +86,8 @@ def build_entry(
     }
     if notes:
         entry["notes"] = notes
+    if link_text:
+        entry["link_text"] = link_text
     return entry
 
 
@@ -121,6 +124,7 @@ def upsert_entry(
     local_path: str | Path,
     site: str,
     notes: str = "",
+    link_text: str = "",
 ) -> tuple[List[Dict[str, Any]], bool]:
     """Add or update the manifest entry for *url*.
 
@@ -135,16 +139,20 @@ def upsert_entry(
                 update_entry_from_file(entry, local_path)
                 if notes:
                     entry["notes"] = notes
+                if link_text:
+                    entry["link_text"] = link_text
                 return entries, True
             # File unchanged – only skip if it has already been successfully
             # analysed.  If the status is 'pending' or 'error', we still need
             # to (re-)analyse it even though the content has not changed.
             if notes:
                 entry["notes"] = notes
+            if link_text:
+                entry["link_text"] = link_text
             return entries, entry.get("status") != "analysed"
 
     # Brand-new entry
-    entries.append(build_entry(url, local_path, site, notes=notes))
+    entries.append(build_entry(url, local_path, site, notes=notes, link_text=link_text))
     return entries, True
 
 
