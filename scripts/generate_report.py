@@ -740,8 +740,11 @@ _HTML_TEMPLATE = """\
           case 'file':        return (f.filename || f.url || '').toLowerCase();
           case 'site':        return (f.site || '').toLowerCase();
           case 'date':        return r.Date ? String(r.Date) : '';
-          case 'doc_title':   return (r.Title  || '').toLowerCase();
-          case 'author':      return (r.Author || '').toLowerCase();
+          case 'doc_title':   return (r.Title       || '').toLowerCase();
+          case 'author':      return (r.Author      || '').toLowerCase();
+          case 'subject':     return (r.Subject     || '').toLowerCase();
+          case 'keywords':    return (r.Keywords    || '').toLowerCase();
+          case 'description': return (r.Description || '').toLowerCase();
           case 'accessible':  return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
           case 'tagged':      return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
           case 'title':       return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
@@ -832,14 +835,14 @@ _HTML_TEMPLATE = """\
         if (hasSubject)     colDefs.push({{ key: 'subject',     label: 'Subject' }});
         if (hasKeywords)    colDefs.push({{ key: 'keywords',    label: 'Keywords' }});
         if (hasDescription) colDefs.push({{ key: 'description', label: 'Description' }});
-        colDefs = colDefs.concat([
+        colDefs.push(
           {{ key: 'accessible', label: 'Accessible' }},
           {{ key: 'tagged',     label: 'Tagged' }},
           {{ key: 'title',      label: 'Title' }},
           {{ key: 'language',   label: 'Language' }},
           {{ key: 'bookmarks',  label: 'Bookmarks' }},
-          {{ key: 'pages',      label: 'Pages' }},
-        ]);
+          {{ key: 'pages',      label: 'Pages' }}
+        );
         if (hasWords)  colDefs.push({{ key: 'words',  label: 'Words' }});
         if (hasImages) colDefs.push({{ key: 'images', label: 'Images' }});
 

@@ -3397,12 +3397,12 @@ def test_process_timeout_kills_zombie_process(tmp_path):
 # check_file: new metadata fields (Title, Author, Subject, Keywords, Description)
 # ---------------------------------------------------------------------------
 
-def test_check_file_result_has_metadata_keys():
+def test_check_file_result_has_metadata_keys(tmp_path):
     """check_file() must always return Title, Author, Subject, Keywords, Description keys."""
     import pikepdf
     from pdf_analyser import check_file
 
-    p = Path("/tmp/test_meta_keys.pdf")
+    p = tmp_path / "test_meta_keys.pdf"
     pdf = pikepdf.Pdf.new()
     page = pikepdf.Page(pikepdf.Dictionary(
         Type=pikepdf.Name("/Page"),
