@@ -75,6 +75,57 @@ among other criteria.
 
 ---
 
+## Frequently asked questions
+
+**How does this tool compare to commercial PDF accessibility checkers such as
+Clarity by CommonLook?**
+
+This project is a free, open-source proof-of-concept built on
+[simplA11yPDFCrawler](https://github.com/accessibility-luxembourg/simplA11yPDFCrawler)
+(MIT) and [veraPDF](https://verapdf.org/).  It is not intended to replace
+commercial tools that offer deeper validation, remediation workflows, or
+dedicated support.  Commercial tools typically cover a wider range of checks,
+integrate with document-authoring workflows, and carry vendor support
+agreements.  This tool is best suited for a quick, no-cost, first-pass audit
+across many PDFs at once.
+
+**How accurate is the tool at detecting PDF accessibility problems?**
+
+The automated checks cover a specific subset of machine-detectable criteria
+(tagging, language, title, bookmarks, image alt text, encryption — see
+*What it does* above).  They can surface common structural issues quickly and
+at scale, but they cannot replace a manual review.  Automated tools cannot
+evaluate reading order, meaningful link text, appropriate heading levels, table
+header associations, or the accessibility of form fields, among other criteria.
+A passing result means the document meets this basic set of machine-testable
+criteria — it does not certify full accessibility.  Running
+[veraPDF](https://verapdf.org/) separately provides a more rigorous conformance
+check against PDF/A and PDF/UA standards.
+
+**Can the tool scan multiple domains?**
+
+Not in its current form — each scan request targets a single domain.  The
+architecture (GitHub Actions + YAML manifest) could be extended to support
+multi-domain batching, and submitting multiple separate `SCAN:` issues is the
+simplest workaround today.  This project is not set up to replace commercial
+providers, but wider-scale scanning is a potential future direction.
+
+**Can WCAG or Section 508 conformance levels be configured?**
+
+Not yet.  The checks are mapped to specific WCAG 2.x success criteria (see the
+table in *What it does*), but there is no option to restrict or expand checks
+by conformance level.  The tool exposes what the underlying open-source
+checkers provide; targeted conformance-level filtering is a potential future
+enhancement.
+
+**Why are some PDFs on a site not found?**
+
+PDFs hosted on a different domain from the one being crawled may not be
+discovered.  The spider follows links within the target domain; PDF links that
+point to an external domain are not followed in the current implementation.
+
+---
+
 ## Quick start
 
 ### 1 – Submit a crawl via the web form
