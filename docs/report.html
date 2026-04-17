@@ -179,7 +179,7 @@
   <script type="application/json" id="report-data">
 {
   "summary": {
-    "generated_at": "2026-04-16T15:17:04.194182+00:00",
+    "generated_at": "2026-04-17T01:59:52.252474+00:00",
     "total_files": 19338,
     "analysed": 5776,
     "pending": 8724,
@@ -357267,8 +357267,13 @@
       var analysed = files.filter(function (f) { return f.status === 'analysed'; });
 
       // Determine which optional columns have data
-      var hasWords  = analysed.some(function (f) { return f.report && f.report.Words  != null; });
-      var hasImages = analysed.some(function (f) { return f.report && f.report.Images != null; });
+      var hasWords       = analysed.some(function (f) { return f.report && f.report.Words       != null; });
+      var hasImages      = analysed.some(function (f) { return f.report && f.report.Images      != null; });
+      var hasDocTitle    = analysed.some(function (f) { return f.report && f.report.Title       != null; });
+      var hasAuthor      = analysed.some(function (f) { return f.report && f.report.Author      != null; });
+      var hasSubject     = analysed.some(function (f) { return f.report && f.report.Subject     != null; });
+      var hasKeywords    = analysed.some(function (f) { return f.report && f.report.Keywords    != null; });
+      var hasDescription = analysed.some(function (f) { return f.report && f.report.Description != null; });
 
       // Sort state
       var sortCol = null;
@@ -357277,17 +357282,22 @@
       function colVal(f, col) {
         var r = f.report || {};
         switch (col) {
-          case 'file':       return (f.filename || f.url || '').toLowerCase();
-          case 'site':       return (f.site || '').toLowerCase();
-          case 'date':       return r.Date ? String(r.Date) : '';
-          case 'accessible': return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
-          case 'tagged':     return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
-          case 'title':      return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
-          case 'language':   return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
-          case 'bookmarks':  return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
-          case 'pages':      return r.Pages  != null ? r.Pages  : -1;
-          case 'words':      return r.Words  != null ? r.Words  : -1;
-          case 'images':     return r.Images != null ? r.Images : -1;
+          case 'file':        return (f.filename || f.url || '').toLowerCase();
+          case 'site':        return (f.site || '').toLowerCase();
+          case 'date':        return r.Date ? String(r.Date) : '';
+          case 'doc_title':   return (r.Title       || '').toLowerCase();
+          case 'author':      return (r.Author      || '').toLowerCase();
+          case 'subject':     return (r.Subject     || '').toLowerCase();
+          case 'keywords':    return (r.Keywords    || '').toLowerCase();
+          case 'description': return (r.Description || '').toLowerCase();
+          case 'accessible':  return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':      return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':       return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':    return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':   return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'pages':       return r.Pages  != null ? r.Pages  : -1;
+          case 'words':       return r.Words  != null ? r.Words  : -1;
+          case 'images':      return r.Images != null ? r.Images : -1;
           default: return '';
         }
       }
@@ -357315,6 +357325,11 @@
           '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
           '<td>' + siteCell + '</td>' +
           '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          (hasDocTitle    ? '<td>' + (r.Title       ? esc(r.Title)       : '&#x2014;') + '</td>' : '') +
+          (hasAuthor      ? '<td>' + (r.Author      ? esc(r.Author)      : '&#x2014;') + '</td>' : '') +
+          (hasSubject     ? '<td>' + (r.Subject     ? esc(r.Subject)     : '&#x2014;') + '</td>' : '') +
+          (hasKeywords    ? '<td>' + (r.Keywords    ? esc(r.Keywords)    : '&#x2014;') + '</td>' : '') +
+          (hasDescription ? '<td>' + (r.Description ? esc(r.Description) : '&#x2014;') + '</td>' : '') +
           '<td>' + icon(r.Accessible)    + '</td>' +
           '<td>' + icon(r.TaggedTest)    + '</td>' +
           '<td>' + icon(r.TitleTest)     + '</td>' +
@@ -357355,17 +357370,27 @@
       }
 
       if (analysed.length) {
+        // Column order: identity columns, then optional metadata (shown only when
+        // at least one file has that field), then accessibility checks, then
+        // optional numeric columns (words/images shown only when data is present).
         var colDefs = [
           { key: 'file',       label: 'File' },
           { key: 'site',       label: 'Site' },
           { key: 'date',       label: 'Published Date' },
+        ];
+        if (hasDocTitle)    colDefs.push({ key: 'doc_title',   label: 'Doc Title' });
+        if (hasAuthor)      colDefs.push({ key: 'author',      label: 'Author' });
+        if (hasSubject)     colDefs.push({ key: 'subject',     label: 'Subject' });
+        if (hasKeywords)    colDefs.push({ key: 'keywords',    label: 'Keywords' });
+        if (hasDescription) colDefs.push({ key: 'description', label: 'Description' });
+        colDefs.push(
           { key: 'accessible', label: 'Accessible' },
           { key: 'tagged',     label: 'Tagged' },
           { key: 'title',      label: 'Title' },
           { key: 'language',   label: 'Language' },
           { key: 'bookmarks',  label: 'Bookmarks' },
-          { key: 'pages',      label: 'Pages' },
-        ];
+          { key: 'pages',      label: 'Pages' }
+        );
         if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
         if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
 
