@@ -32,10 +32,11 @@ import re
 import shutil
 import subprocess
 import time
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import pytz
 import pikepdf
@@ -461,6 +462,106 @@ def _meta_str(value) -> Optional[str]:
         joined = "; ".join(str(v) for v in value if v)
         return joined or None
     return str(value).strip() or None
+
+
+# ---------------------------------------------------------------------------
+# Document category classifier (rule-based, inspired by asap_pdf)
+# ---------------------------------------------------------------------------
+
+# Ordered list of (category, compiled_regex) pairs.  Categories match those
+# used by Code for America's asap_pdf project
+# (https://github.com/codeforamerica/asap_pdf) with two additions common in
+# government document audits: "Minutes" and "Budget".
+#
+# Each pattern is matched case-insensitively against a normalised text string
+# built from the URL path segments, filename stem, and (if available) the
+# anchor-link text.  The first matching rule wins.
+_CATEGORY_RULES: List[Tuple[str, re.Pattern[str]]] = [
+    ("Agenda",      re.compile(r"\b(agenda|agm)\b", re.IGNORECASE)),
+    ("Minutes",     re.compile(r"\b(minutes?|meeting[-_]?min)\b", re.IGNORECASE)),
+    ("Budget",      re.compile(
+        r"\b(budget|fiscal|appropriation|expenditure|revenue|finance|financial)\b",
+        re.IGNORECASE,
+    )),
+    ("Policy",      re.compile(
+        r"\b(policy|policies|procedure|procedures|guideline|guidelines|"
+        r"ordinance|resolutions?|bylaws?|by[-_]laws?|regulations?|directive|code)\b",
+        re.IGNORECASE,
+    )),
+    ("Procurement", re.compile(
+        r"\b(procurement|rfp|rfi|rfq|bid|bids|bidding|tender|tenders|"
+        r"contract|contracts|vendor|proposal|proposals|solicitation)\b",
+        re.IGNORECASE,
+    )),
+    ("Form",        re.compile(
+        r"\b(form|application|registration|enrollment|enrolment|submission|apply)\b",
+        re.IGNORECASE,
+    )),
+    ("Job",         re.compile(
+        r"\b(job|jobs|vacancy|vacancies|employment|position|positions|"
+        r"career|careers|hiring|recruit|recruitment)\b",
+        re.IGNORECASE,
+    )),
+    ("Notice",      re.compile(
+        r"\b(notice|notification|advisory|alert|bulletin|public[-_]?notice|noi)\b",
+        re.IGNORECASE,
+    )),
+    ("Press",       re.compile(
+        r"\b(press[-_\s]?release|media[-_\s]?release|press|newsroom)\b",
+        re.IGNORECASE,
+    )),
+    ("Slides",      re.compile(
+        r"\b(slides?|presentation|deck|powerpoint|pptx?)\b",
+        re.IGNORECASE,
+    )),
+    ("Brochure",    re.compile(
+        r"\b(brochure|pamphlet|leaflet|flyer|booklet|factsheet|fact[-_]?sheet)\b",
+        re.IGNORECASE,
+    )),
+    ("Report",      re.compile(
+        r"\b(report|findings|assessment|audit|review|survey|evaluation|"
+        r"study|investigation|analysis|annual[-_]?report)\b",
+        re.IGNORECASE,
+    )),
+]
+
+
+def classify_document_category(
+    url: str,
+    filename: str,
+    link_text: str = "",
+) -> Optional[str]:
+    """Return a document category string inferred from *url*, *filename*, and *link_text*.
+
+    Uses the same category labels as Code for America's asap_pdf project
+    (https://github.com/codeforamerica/asap_pdf/blob/main/python_components/classifier/labels.json)
+    with two additions: "Minutes" and "Budget".  The classifier is rule-based
+    (keyword matching) rather than ML-based, so it requires no trained model or
+    additional dependencies.
+
+    The text searched is the concatenation of:
+    * URL path segments (lowercased, non-alphanumeric chars replaced with spaces)
+    * Filename stem (lowercased, non-alphanumeric chars replaced with spaces)
+    * Anchor-link text (if provided)
+
+    Returns a category string (e.g. ``"Agenda"``) or ``None`` when no rule
+    matches.
+
+    Args:
+        url: The full URL of the PDF.
+        filename: The local filename (basename) of the PDF.
+        link_text: The visible text of the HTML link that pointed to this PDF.
+            Defaults to an empty string when not available.
+    """
+    # Build the text corpus to search.
+    url_path = re.sub(r"[^a-zA-Z0-9]+", " ", urllib.parse.urlparse(url).path)
+    stem = re.sub(r"[^a-zA-Z0-9]+", " ", Path(filename).stem)
+    corpus = " ".join(filter(None, [url_path, stem, link_text]))
+
+    for category, pattern in _CATEGORY_RULES:
+        if pattern.search(corpus):
+            return category
+    return None
 
 
 # ---------------------------------------------------------------------------
@@ -1002,6 +1103,15 @@ def main(
             report = _analyse_with_process_timeout(
                 str(local_path), site, per_file_timeout, run_verapdf
             )
+
+            # Classify the document type from URL, filename, and anchor text.
+            # This mirrors the approach of Code for America's asap_pdf project
+            # (https://github.com/codeforamerica/asap_pdf) using rule-based
+            # keyword matching rather than a trained ML model.
+            link_text = entry.get("link_text", "")
+            doc_category = classify_document_category(url, filename, link_text)
+            if doc_category is not None:
+                report["DocCategory"] = doc_category
 
             elapsed = time.monotonic() - t_start
             log_msg = report.pop("_log", "")

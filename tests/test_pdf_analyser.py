@@ -3703,3 +3703,174 @@ def test_check_file_result_has_image_alt_text_key(tmp_path):
 
     result = check_file(str(p))
     assert "ImageAltTextTest" in result, "'ImageAltTextTest' key must be present in check_file() result"
+
+
+# ---------------------------------------------------------------------------
+# Document category classifier (classify_document_category)
+# ---------------------------------------------------------------------------
+
+def test_classify_document_category_import():
+    """classify_document_category must be importable from pdf_analyser."""
+    from pdf_analyser import classify_document_category
+    assert callable(classify_document_category)
+
+
+@pytest.mark.parametrize("url,filename,link_text,expected", [
+    # Agenda – URL path keyword
+    ("https://city.gov/documents/agenda-2024-01.pdf", "agenda-2024-01.pdf", "", "Agenda"),
+    # Agenda – filename keyword
+    ("https://city.gov/docs/jan-agm.pdf", "jan-agm.pdf", "", "Agenda"),
+    # Agenda – link text only
+    ("https://city.gov/docs/doc1234.pdf", "doc1234.pdf", "Council Agenda", "Agenda"),
+    # Minutes
+    ("https://city.gov/meetings/minutes-jan.pdf", "minutes-jan.pdf", "", "Minutes"),
+    ("https://city.gov/docs/meeting-minutes.pdf", "meeting-minutes.pdf", "", "Minutes"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Board minutes", "Minutes"),
+    # Budget
+    ("https://city.gov/finance/budget2024.pdf", "budget2024.pdf", "", "Budget"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Annual budget report", "Budget"),
+    # Policy
+    ("https://city.gov/policy/data-privacy-policy.pdf", "data-privacy-policy.pdf", "", "Policy"),
+    ("https://city.gov/docs/zoning-ordinance.pdf", "zoning-ordinance.pdf", "", "Policy"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "City bylaws and resolutions", "Policy"),
+    # Procurement
+    ("https://city.gov/procurement/rfp-2024.pdf", "rfp-2024.pdf", "", "Procurement"),
+    ("https://city.gov/docs/bid-documents.pdf", "bid-documents.pdf", "", "Procurement"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Request for Proposal", "Procurement"),
+    # Form
+    ("https://city.gov/forms/permit-application.pdf", "permit-application.pdf", "", "Form"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Registration form", "Form"),
+    # Job
+    ("https://city.gov/hr/job-posting-engineer.pdf", "job-posting-engineer.pdf", "", "Job"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Open vacancies", "Job"),
+    # Notice
+    ("https://city.gov/notices/public-notice-2024.pdf", "public-notice-2024.pdf", "", "Notice"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Environmental advisory", "Notice"),
+    # Press
+    ("https://city.gov/media/press-release-jan.pdf", "press-release-jan.pdf", "", "Press"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Media release", "Press"),
+    # Slides
+    ("https://city.gov/presentations/slides-q1.pdf", "slides-q1.pdf", "", "Slides"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Q1 presentation deck", "Slides"),
+    # Brochure
+    ("https://city.gov/docs/parks-brochure.pdf", "parks-brochure.pdf", "", "Brochure"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Services factsheet", "Brochure"),
+    # Report
+    ("https://city.gov/reports/annual-report-2023.pdf", "annual-report-2023.pdf", "", "Report"),
+    ("https://city.gov/docs/xyz.pdf", "xyz.pdf", "Audit findings", "Report"),
+    # Unknown – no matching keyword
+    ("https://city.gov/docs/document1234.pdf", "document1234.pdf", "", None),
+    # Unknown – empty inputs
+    ("", "", "", None),
+])
+def test_classify_document_category_parametrized(url, filename, link_text, expected):
+    """classify_document_category must return the expected category for each input."""
+    from pdf_analyser import classify_document_category
+
+    result = classify_document_category(url, filename, link_text)
+    assert result == expected, (
+        f"Expected {expected!r} for url={url!r}, filename={filename!r}, "
+        f"link_text={link_text!r}; got {result!r}"
+    )
+
+
+def test_classify_document_category_returns_string_or_none():
+    """classify_document_category must return a str or None (never raises)."""
+    from pdf_analyser import classify_document_category
+
+    for url, filename, link_text in [
+        ("https://example.com/report.pdf", "report.pdf", "Annual report"),
+        ("https://example.com/mystery.pdf", "mystery.pdf", ""),
+        ("", "noext", ""),
+    ]:
+        result = classify_document_category(url, filename, link_text)
+        assert result is None or isinstance(result, str)
+
+
+def test_classify_document_category_case_insensitive():
+    """Keyword matching must be case-insensitive."""
+    from pdf_analyser import classify_document_category
+
+    assert classify_document_category(
+        "https://city.gov/AGENDA-FEB.pdf", "AGENDA-FEB.pdf", ""
+    ) == "Agenda"
+    assert classify_document_category(
+        "https://city.gov/xyz.pdf", "xyz.pdf", "MEETING MINUTES"
+    ) == "Minutes"
+
+
+def test_classify_document_category_priority():
+    """Agenda and Minutes must take priority over Report when both keywords present."""
+    from pdf_analyser import classify_document_category
+
+    # "agenda" comes before "report" in the rules so should win.
+    result = classify_document_category(
+        "https://city.gov/agenda-report.pdf", "agenda-report.pdf", ""
+    )
+    assert result == "Agenda", f"Expected 'Agenda' got {result!r}"
+
+
+def test_classify_document_category_link_text_used():
+    """link_text should contribute to classification when URL/filename give no hint."""
+    from pdf_analyser import classify_document_category
+
+    result = classify_document_category(
+        "https://city.gov/download/12345", "12345", "Budget Overview"
+    )
+    assert result == "Budget"
+
+
+# ---------------------------------------------------------------------------
+# link_text field in manifest entries
+# ---------------------------------------------------------------------------
+
+def test_manifest_build_entry_stores_link_text(tmp_path):
+    """build_entry must store link_text when provided."""
+    from manifest import build_entry
+
+    p = tmp_path / "doc.pdf"
+    p.write_bytes(b"%PDF-1.4 minimal")
+    entry = build_entry("https://a.com/doc.pdf", p, "a.com", link_text="Annual Report")
+    assert entry.get("link_text") == "Annual Report"
+
+
+def test_manifest_build_entry_omits_empty_link_text(tmp_path):
+    """build_entry must not include link_text key when link_text is empty."""
+    from manifest import build_entry
+
+    p = tmp_path / "doc.pdf"
+    p.write_bytes(b"%PDF-1.4 minimal")
+    entry = build_entry("https://a.com/doc.pdf", p, "a.com")
+    assert "link_text" not in entry
+
+
+def test_manifest_upsert_entry_stores_link_text(tmp_path):
+    """upsert_entry must propagate link_text to a new manifest entry."""
+    from manifest import upsert_entry, load_manifest, save_manifest
+
+    p = tmp_path / "a.com" / "doc.pdf"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_bytes(b"%PDF-1.4 minimal")
+
+    entries, _ = upsert_entry(
+        [], "https://a.com/doc.pdf", p, "a.com", link_text="Policy Document"
+    )
+    assert entries[0].get("link_text") == "Policy Document"
+
+
+def test_manifest_upsert_entry_updates_link_text_on_existing(tmp_path):
+    """upsert_entry must update link_text even when the file MD5 is unchanged."""
+    from manifest import upsert_entry, build_entry
+
+    p = tmp_path / "a.com" / "doc.pdf"
+    p.parent.mkdir(parents=True, exist_ok=True)
+    p.write_bytes(b"%PDF-1.4 minimal")
+
+    # Create an existing analysed entry (MD5 matches so file won't be re-analysed)
+    entry = build_entry("https://a.com/doc.pdf", p, "a.com", link_text="Old Text")
+    entry["status"] = "analysed"
+
+    entries, _ = upsert_entry(
+        [entry], "https://a.com/doc.pdf", p, "a.com", link_text="New Text"
+    )
+    assert entries[0].get("link_text") == "New Text"

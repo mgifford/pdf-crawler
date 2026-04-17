@@ -72,6 +72,14 @@ among other criteria.
   Its checks (tagging, title, language, alternate text for figures) inform the approach taken by
   this project.  We do not duplicate the module but draw on the same underlying standards
   (WCAG 2.x / PDF/UA) to complement it.
+- [asap_pdf – Code for America](https://github.com/codeforamerica/asap_pdf)
+  — a Rails + Python application for navigating large-scale PDF accessibility audits.  It uses
+  NLP/ML to classify documents by category (agendas, reports, policies, forms, etc.) and
+  LLM-powered tools to summarise documents and suggest remediation priorities.  This project
+  draws on asap_pdf's document-category taxonomy — the same labels are used by the rule-based
+  `DocCategory` classifier added here — but does not require the Rails application, a trained
+  ML model, or LLM API keys.  For organisations that need ML-based classification, dashboard
+  workflows, and LLM summaries, asap_pdf is the recommended complementary tool.
 
 ---
 

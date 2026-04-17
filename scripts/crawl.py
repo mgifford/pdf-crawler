@@ -418,6 +418,19 @@ def update_manifest(
         except (json.JSONDecodeError, OSError):
             url_map = {}
 
+    # Load the anchor-text map written by the spider (filename → link text).
+    # This captures the visible text of the <a> tag that linked to each PDF,
+    # which is useful for document category classification (inspired by the
+    # approach taken by Code for America's asap_pdf project).
+    anchor_map: dict = {}
+    anchor_map_path = site_dir / "_anchor_map.json"
+    if anchor_map_path.exists():
+        try:
+            with open(anchor_map_path, "r", encoding="utf-8") as fh:
+                anchor_map = json.load(fh)
+        except (json.JSONDecodeError, OSError):
+            anchor_map = {}
+
     for file_path in sorted(site_dir.iterdir()):
         if not file_path.is_file():
             continue
@@ -430,8 +443,11 @@ def update_manifest(
         # Prefer the actual URL recorded by the spider; fall back to the
         # best-guess "https://{site}/{filename}" only when the map is absent.
         file_url = url_map.get(file_path.name) or f"https://{site}/{file_path.name}"
+        link_text = anchor_map.get(file_path.name, "")
         print(f"  Processing: {file_url}")
-        entries, needs_scan = upsert_entry(entries, file_url, file_path, site, notes=notes)
+        entries, needs_scan = upsert_entry(
+            entries, file_url, file_path, site, notes=notes, link_text=link_text
+        )
         if needs_scan:
             new_count += 1
         else:

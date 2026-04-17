@@ -124,6 +124,11 @@ class PdfA11ySpider(scrapy.Spider):
         # Accumulate filename→referer mappings (the page that linked to each
         # downloadable file).  Keyed by save_dir like _url_maps.
         self._referer_maps: dict = {}
+        # Accumulate filename→anchor-text mappings (the visible text of the
+        # <a> tag that linked to each PDF).  Used downstream for document
+        # category classification (inspired by Code for America's asap_pdf).
+        # Keyed by save_dir like _url_maps.
+        self._anchor_maps: dict = {}
 
     def _has_download_extension(self, path):
         _, ext = os.path.splitext(path.lower())
@@ -202,8 +207,11 @@ class PdfA11ySpider(scrapy.Spider):
         print(f"Crawling: {response.url}", flush=True)
         self._crawled_pages.append(response.url)
 
-        for href in response.xpath("//a[@href]/@href"):
-            link = href.extract().strip()
+        for a_tag in response.xpath("//a[@href]"):
+            link = (a_tag.xpath("@href").get() or "").strip()
+            # Capture the visible text of the link for downstream classification.
+            # normalize-space() collapses whitespace and trims the result.
+            link_text = (a_tag.xpath("normalize-space(.)").get() or "").strip()
             parsed_link = urllib.parse.urlparse(link)
             path = re.sub(r"/+$", "", parsed_link.path)
             scheme = parsed_link.scheme
@@ -219,7 +227,7 @@ class PdfA11ySpider(scrapy.Spider):
                     full_link,
                     callback=self.save_pdf,
                     errback=self.handle_error,
-                    cb_kwargs={"referer": response.url},
+                    cb_kwargs={"referer": response.url, "link_text": link_text},
                     headers={"User-Agent": self._random_ua()},
                 )
             else:
@@ -257,7 +265,7 @@ class PdfA11ySpider(scrapy.Spider):
                         meta={"referer": response.url},
                     )
 
-    def save_pdf(self, response, referer=""):
+    def save_pdf(self, response, referer="", link_text=""):
         # Use only the URL path component so that query-string parameters
         # (e.g. ?VersionId=abc123) do not end up embedded in the filename.
         # Characters such as '?' are rejected by GitHub Actions artifact upload
@@ -295,6 +303,8 @@ class PdfA11ySpider(scrapy.Spider):
         # _url_map.json when the spider closes (see `closed()`).
         self._url_maps.setdefault(save_dir, {})[filename] = response.url
         self._referer_maps.setdefault(save_dir, {})[filename] = referer
+        # Record the anchor text of the link that pointed to this PDF.
+        self._anchor_maps.setdefault(save_dir, {})[filename] = link_text
 
     @staticmethod
     def _unique_filename(directory, basename, ext):
@@ -319,6 +329,10 @@ class PdfA11ySpider(scrapy.Spider):
             referer_map_path = os.path.join(save_dir, "_referer_map.json")
             with open(referer_map_path, "w", encoding="utf-8") as fh:
                 json.dump(referer_map, fh, indent=2, ensure_ascii=False)
+            anchor_map = self._anchor_maps.get(save_dir, {})
+            anchor_map_path = os.path.join(save_dir, "_anchor_map.json")
+            with open(anchor_map_path, "w", encoding="utf-8") as fh:
+                json.dump(anchor_map, fh, indent=2, ensure_ascii=False)
 
         # Write the list of all HTML pages crawled to the site directory.
         # Use the first save_dir with downloaded files, or derive the directory
