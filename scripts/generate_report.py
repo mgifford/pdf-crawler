@@ -1606,7 +1606,10 @@ def main(
             try:
                 spot_check = json.loads(Path(spot_check_file).read_text(encoding="utf-8"))
             except Exception as exc:  # noqa: BLE001
-                print(f"Warning: could not load spot-check file {spot_check_file!r}: {exc}")
+                print(
+                    f"Warning: could not load spot-check file {spot_check_file!r}: {exc}. "
+                    "Spot-check diagnostics will be omitted from the issue comment."
+                )
 
         comment = generate_issue_comment(
             entries,

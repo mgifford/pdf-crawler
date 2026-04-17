@@ -866,7 +866,7 @@ def test_issue_comment_nonzero_pdfs_no_diagnostic():
 # generate_issue_comment – spot_check diagnostics
 # ---------------------------------------------------------------------------
 
-def _spot_check(seed_status=200, robots_blocked=False, robots_disallows=None,
+def _make_spot_check(seed_status=200, robots_blocked=False, robots_disallows=None,
                 sitemap_pdf_count=0, sitemap_pdf_samples=None, error=""):
     """Return a minimal spot_check dict matching the structure from crawl.py."""
     return {
@@ -881,7 +881,7 @@ def _spot_check(seed_status=200, robots_blocked=False, robots_disallows=None,
 
 def test_spot_check_seed_unreachable_shown_in_comment():
     """When spot_check shows seed_status=None, the comment mentions it."""
-    sc = _spot_check(seed_status=None, error="Seed URL probe failed: timeout")
+    sc = _make_spot_check(seed_status=None, error="Seed URL probe failed: timeout")
     comment = generate_issue_comment(
         [],
         crawl_url="https://example.com",
@@ -895,7 +895,7 @@ def test_spot_check_seed_unreachable_shown_in_comment():
 
 def test_spot_check_seed_4xx_shown_in_comment():
     """When spot_check shows HTTP 403, the comment mentions the status."""
-    sc = _spot_check(seed_status=403)
+    sc = _make_spot_check(seed_status=403)
     comment = generate_issue_comment(
         [],
         crawl_url="https://example.com",
@@ -909,7 +909,7 @@ def test_spot_check_seed_4xx_shown_in_comment():
 
 def test_spot_check_seed_2xx_shown_in_comment():
     """When spot_check shows HTTP 200, the comment reflects reachability."""
-    sc = _spot_check(seed_status=200)
+    sc = _make_spot_check(seed_status=200)
     comment = generate_issue_comment(
         [],
         crawl_url="https://example.com",
@@ -923,7 +923,7 @@ def test_spot_check_seed_2xx_shown_in_comment():
 
 def test_spot_check_robots_blocked_shown_in_comment():
     """When robots.txt blocks crawlers, the comment calls it out."""
-    sc = _spot_check(robots_blocked=True, robots_disallows=["*"])
+    sc = _make_spot_check(robots_blocked=True, robots_disallows=["*"])
     comment = generate_issue_comment(
         [],
         crawl_url="https://example.com",
@@ -938,7 +938,7 @@ def test_spot_check_robots_blocked_shown_in_comment():
 
 def test_spot_check_sitemap_pdfs_shown_in_comment():
     """When sitemap.xml lists PDFs, the count and sample URLs appear in the comment."""
-    sc = _spot_check(
+    sc = _make_spot_check(
         sitemap_pdf_count=3,
         sitemap_pdf_samples=[
             "https://example.com/a.pdf",
@@ -960,7 +960,7 @@ def test_spot_check_sitemap_pdfs_shown_in_comment():
 
 def test_spot_check_no_sitemap_pdfs_shown_in_comment():
     """When sitemap.xml has no PDFs, the comment reflects that."""
-    sc = _spot_check(sitemap_pdf_count=0)
+    sc = _make_spot_check(sitemap_pdf_count=0)
     comment = generate_issue_comment(
         [],
         crawl_url="https://example.com",
@@ -974,7 +974,7 @@ def test_spot_check_no_sitemap_pdfs_shown_in_comment():
 
 def test_spot_check_not_shown_when_pdfs_found():
     """Spot check diagnostics must NOT appear when PDFs are found."""
-    sc = _spot_check(seed_status=403, robots_blocked=True)
+    sc = _make_spot_check(seed_status=403, robots_blocked=True)
     entries = [_make_entry("https://example.com/doc.pdf")]
     comment = generate_issue_comment(
         entries,
@@ -989,7 +989,7 @@ def test_spot_check_not_shown_when_pdfs_found():
 
 def test_spot_check_not_shown_when_pages_but_no_pdfs():
     """Spot check diagnostics are only for zero-pages crawls, not pages-crawled-but-no-PDFs."""
-    sc = _spot_check(seed_status=403)
+    sc = _make_spot_check(seed_status=403)
     comment = generate_issue_comment(
         [],
         crawl_url="https://example.com",

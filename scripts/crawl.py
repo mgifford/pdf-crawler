@@ -160,6 +160,11 @@ def _print_scrapy_log_tail(log_path: str, tail_lines: int = 50) -> None:
         print(f"--- end of {log_path} ---\n")
 
 
+# User-Agent string used for spot-check HTTP requests.
+# A specific (pinned) Chrome version is intentional: the goal is to look like
+# a real browser to pass basic bot-detection rules.  The version number should
+# be reviewed and updated periodically (e.g. when a major Chrome release ships)
+# to remain plausible, but any recent Chrome version is acceptable here.
 _SPOT_CHECK_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -299,7 +304,7 @@ def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
     return result
 
 
-def _extract_pdf_urls_from_sitemap(content: bytes, _depth: int = 0) -> list:
+def _extract_pdf_urls_from_sitemap(content: bytes) -> list:
     """Return all PDF URLs found in a sitemap XML document.
 
     Handles both standard sitemaps (``<urlset>``) and sitemap index files
@@ -308,7 +313,6 @@ def _extract_pdf_urls_from_sitemap(content: bytes, _depth: int = 0) -> list:
 
     Args:
         content: Raw bytes of the sitemap XML document.
-        _depth: Internal recursion guard; callers should omit this argument.
 
     Returns:
         A list of PDF URL strings found in the sitemap.
