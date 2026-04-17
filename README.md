@@ -35,6 +35,7 @@ No servers to deploy, no accounts to configure, no software to install.
    | `TitleTest` | 2.4.2 | Does it have a title with `DisplayDocTitle` set? |
    | `LanguageTest` | 3.1.1 | Does it have a valid default language? |
    | `BookmarksTest` | 2.4.1 | For documents > 20 pages, does it have bookmarks? |
+   | `ImageAltTextTest` | 1.1.1 | Do all Figure structure elements carry alternate text? |
 
 4. **Generates reports** in Markdown and JSON.
 5. **Deletes the PDF files** after analysis to keep the repository small;
@@ -66,6 +67,11 @@ among other criteria.
   — a practical, human-centred checklist for evaluating PDF accessibility.
 - [Tagged PDF Q&A – PDF Association](https://pdfa.org/resource/tagged-pdf-q-a/)
   — authoritative answers on PDF tagging from the PDF standards body.
+- [PDF Accessibility (pdfa11y) – Drupal.org](https://www.drupal.org/project/pdfa11y)
+  — a Drupal module that validates PDFs for accessibility before they are published on Drupal sites.
+  Its checks (tagging, title, language, alternate text for figures) inform the approach taken by
+  this project.  We do not duplicate the module but draw on the same underlying standards
+  (WCAG 2.x / PDF/UA) to complement it.
 
 ---
 

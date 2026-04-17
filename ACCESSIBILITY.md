@@ -41,6 +41,7 @@ The analyser checks each crawled PDF for the following issues:
 | `TitleTest` | 2.4.2 | Does the document have a title with `DisplayDocTitle` set? |
 | `LanguageTest` | 3.1.1 | Does the document declare a valid default language? |
 | `BookmarksTest` | 2.4.1 | For documents > 20 pages, does the document have bookmarks? |
+| `ImageAltTextTest` | 1.1.1 | Do all Figure structure elements carry alternate text (`/Alt`)? |
 | `Form` / `xfa` | – | Does the document contain an AcroForm or dynamic XFA form? |
 
 PDFs containing AcroForm or dynamic XFA form fields are flagged for additional

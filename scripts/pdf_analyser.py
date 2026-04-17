@@ -16,11 +16,13 @@ The accessibility checks mirror those of simplA11yPDFCrawler's pdfCheck.py:
     TitleTest       – does the document have a title with DisplayDocTitle set?
     LanguageTest    – does the document have a valid default language?
     BookmarksTest   – for documents > 20 pages, are there bookmarks?
+    ImageAltTextTest – do all Figure structure elements carry /Alt text? (WCAG 1.1.1)
 
 References
 ----------
 - https://github.com/accessibility-luxembourg/simplA11yPDFCrawler
 - Matterhorn Protocol: https://www.pdfa.org/resource/the-matterhorn-protocol/
+- Drupal pdfa11y module: https://www.drupal.org/project/pdfa11y
 """
 
 from __future__ import annotations
@@ -394,6 +396,46 @@ def _count_images(pdf: Pdf) -> int:
     return total
 
 
+def _check_figures_alt_text(struct_elem, missing: list, _depth: int = 0) -> None:
+    """Recursively walk the PDF structure tree and collect Figure elements missing /Alt.
+
+    PDF/UA (ISO 14289-1) clause 7.3 / Matterhorn Protocol checkpoint 09-001
+    requires that every Figure structure element carries an /Alt (alternate text)
+    attribute so that screen readers can convey the meaning of images to people
+    who cannot see them.
+
+    Args:
+        struct_elem: A pikepdf Dictionary representing a structure element.
+        missing: A list that is mutated in-place; each item is a string
+            description of a Figure element that is missing its /Alt attribute.
+        _depth: Internal recursion guard — stops at 200 levels to prevent
+            infinite loops on pathological or cyclic structure trees.
+    """
+    if _depth > 200:
+        return
+    try:
+        elem_type = str(struct_elem.get("/S", ""))
+        if elem_type in ("/Figure", "Figure"):
+            alt = struct_elem.get("/Alt")
+            alt_str = str(alt).strip() if alt is not None else None
+            if not alt_str:
+                obj_ref = str(struct_elem.get("/MCID", ""))
+                missing.append(obj_ref or "unknown MCID")
+
+        kids = struct_elem.get("/K")
+        if kids is None:
+            return
+        # /K may be a single element, an array, or a marked-content reference (int/dict).
+        if isinstance(kids, pikepdf.Array):
+            for kid in kids:
+                if isinstance(kid, pikepdf.Dictionary):
+                    _check_figures_alt_text(kid, missing, _depth + 1)
+        elif isinstance(kids, pikepdf.Dictionary):
+            _check_figures_alt_text(kids, missing, _depth + 1)
+    except Exception:
+        pass
+
+
 def _count_words(filename: str) -> Optional[int]:
     """Extract text from *filename* using pdfminer.six and return the word count.
 
@@ -449,6 +491,7 @@ def check_file(
         "TitleTest": None,
         "LanguageTest": None,
         "BookmarksTest": None,
+        "ImageAltTextTest": None,
         "Exempt": False,
         "Date": None,
         "hasTitle": None,
@@ -682,6 +725,26 @@ def check_file(
         )
 
         result["Words"] = _count_words(filename)
+
+        # Image alt text check (WCAG 1.1.1 / PDF/UA Matterhorn 09-001)
+        # Only meaningful when the document is tagged; skip for untagged PDFs.
+        struct_tree = pdf.Root.get("/StructTreeRoot")
+        if struct_tree is not None and result.get("TaggedTest") == "Pass":
+            missing_alt: list = []
+            kids = struct_tree.get("/K")
+            if kids is not None:
+                if isinstance(kids, pikepdf.Array):
+                    for kid in kids:
+                        if isinstance(kid, pikepdf.Dictionary):
+                            _check_figures_alt_text(kid, missing_alt)
+                elif isinstance(kids, pikepdf.Dictionary):
+                    _check_figures_alt_text(kids, missing_alt)
+            if missing_alt:
+                result["ImageAltTextTest"] = "Fail"
+                result["Accessible"] = False
+                result["_log"] += f"figures missing alt text (count={len(missing_alt)}), "
+            else:
+                result["ImageAltTextTest"] = "Pass"
 
     except pikepdf.PasswordError as err:
         result["BrokenFile"] = True
