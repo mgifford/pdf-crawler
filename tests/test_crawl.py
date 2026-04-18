@@ -20,6 +20,8 @@ from crawl import (
     is_pdf_url,
     spot_check_zero_results,
     _extract_pdf_urls_from_sitemap,
+    _collect_sitemap_pdf_urls,
+    fetch_sitemap_pdfs,
 )
 
 
@@ -1259,4 +1261,337 @@ def test_extract_pdf_urls_empty_sitemap():
 </urlset>"""
     urls = _extract_pdf_urls_from_sitemap(xml)
     assert urls == []
+
+
+# ---------------------------------------------------------------------------
+# _collect_sitemap_pdf_urls
+# ---------------------------------------------------------------------------
+
+def _make_http_response_plain(status: int, body: bytes = b""):
+    """Return a plain mock urllib response (no MagicMock context-manager magic)."""
+    resp = MagicMock()
+    resp.status = status
+    resp.read.return_value = body
+    resp.__enter__ = lambda s: s
+    resp.__exit__ = MagicMock(return_value=False)
+    return resp
+
+
+def test_collect_sitemap_pdf_urls_simple_urlset():
+    """A standard urlset sitemap returns its PDF URLs."""
+    xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/a.pdf</loc></url>
+  <url><loc>https://example.com/b.pdf</loc></url>
+  <url><loc>https://example.com/page.html</loc></url>
+</urlset>"""
+
+    with patch("crawl.urlopen", return_value=_make_http_response_plain(200, xml)):
+        urls = _collect_sitemap_pdf_urls("https://example.com/sitemap.xml")
+
+    assert "https://example.com/a.pdf" in urls
+    assert "https://example.com/b.pdf" in urls
+    assert "https://example.com/page.html" not in urls
+
+
+def test_collect_sitemap_pdf_urls_index_fetches_children():
+    """A sitemap index causes child sitemaps to be fetched."""
+    index_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://example.com/sitemap-docs.xml</loc></sitemap>
+</sitemapindex>"""
+    child_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/pub/report.pdf</loc></url>
+</urlset>"""
+
+    responses = [
+        _make_http_response_plain(200, index_xml),   # root sitemap
+        _make_http_response_plain(200, child_xml),   # child sitemap
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=15):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        urls = _collect_sitemap_pdf_urls("https://example.com/sitemap.xml")
+
+    assert "https://example.com/pub/report.pdf" in urls
+
+
+def test_collect_sitemap_pdf_urls_index_child_limit():
+    """max_child_sitemaps caps how many child sitemaps are fetched."""
+    child_locs = "\n".join(
+        f"  <sitemap><loc>https://example.com/s{i}.xml</loc></sitemap>"
+        for i in range(5)
+    )
+    index_xml = (
+        b'<?xml version="1.0" encoding="UTF-8"?>'
+        b'<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+        + child_locs.encode()
+        + b"</sitemapindex>"
+    )
+    child_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/doc.pdf</loc></url>
+</urlset>"""
+
+    responses = [_make_http_response_plain(200, index_xml)] + [
+        _make_http_response_plain(200, child_xml) for _ in range(5)
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=15):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    # Only fetch 2 child sitemaps at most.
+    with patch("crawl.urlopen", side_effect=side_effect):
+        urls = _collect_sitemap_pdf_urls(
+            "https://example.com/sitemap.xml", max_child_sitemaps=2
+        )
+
+    # 1 root fetch + 2 child fetches = 3 urlopen calls.
+    assert call_count[0] == 3
+    assert len(urls) == 2
+
+
+def test_collect_sitemap_pdf_urls_raises_on_top_level_failure():
+    """URLError fetching the root sitemap propagates to the caller."""
+    from urllib.error import URLError
+
+    with patch("crawl.urlopen", side_effect=URLError("timeout")):
+        with pytest.raises(URLError):
+            _collect_sitemap_pdf_urls("https://example.com/sitemap.xml")
+
+
+def test_collect_sitemap_pdf_urls_child_failure_skipped():
+    """A failed child sitemap fetch is skipped; successful ones still contribute."""
+    from urllib.error import URLError
+
+    index_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap><loc>https://example.com/s1.xml</loc></sitemap>
+  <sitemap><loc>https://example.com/s2.xml</loc></sitemap>
+</sitemapindex>"""
+    child_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/good.pdf</loc></url>
+</urlset>"""
+
+    responses = [
+        _make_http_response_plain(200, index_xml),
+        URLError("child unreachable"),
+        _make_http_response_plain(200, child_xml),
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=15):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        if isinstance(r, URLError):
+            raise r
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        urls = _collect_sitemap_pdf_urls("https://example.com/sitemap.xml")
+
+    assert "https://example.com/good.pdf" in urls
+
+
+# ---------------------------------------------------------------------------
+# fetch_sitemap_pdfs
+# ---------------------------------------------------------------------------
+
+def test_fetch_sitemap_pdfs_downloads_pdfs(tmp_path):
+    """PDFs listed in a sitemap are downloaded to the output directory."""
+    sitemap_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/docs/report.pdf</loc></url>
+  <url><loc>https://example.com/docs/guide.pdf</loc></url>
+</urlset>"""
+    pdf_bytes = b"%PDF-1.4 fake"
+
+    responses = [
+        _make_http_response_plain(200, sitemap_xml),  # sitemap fetch
+        _make_http_response_plain(200, pdf_bytes),    # report.pdf
+        _make_http_response_plain(200, pdf_bytes),    # guide.pdf
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        count = fetch_sitemap_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+
+    assert count == 2
+    save_dir = tmp_path / "example.com"
+    pdfs = list(save_dir.glob("*.pdf"))
+    assert len(pdfs) == 2
+
+
+def test_fetch_sitemap_pdfs_respects_max_pdfs(tmp_path):
+    """max_pdfs limits how many PDFs are downloaded."""
+    locs = "\n".join(
+        f"  <url><loc>https://example.com/{i}.pdf</loc></url>" for i in range(5)
+    )
+    sitemap_xml = (
+        b'<?xml version="1.0" encoding="UTF-8"?>'
+        b'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+        + locs.encode()
+        + b"</urlset>"
+    )
+    pdf_bytes = b"%PDF-1.4 fake"
+
+    responses = [_make_http_response_plain(200, sitemap_xml)] + [
+        _make_http_response_plain(200, pdf_bytes) for _ in range(5)
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        count = fetch_sitemap_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=3, timeout=60
+        )
+
+    assert count == 3
+    save_dir = tmp_path / "example.com"
+    assert len(list(save_dir.glob("*.pdf"))) == 3
+
+
+def test_fetch_sitemap_pdfs_empty_sitemap(tmp_path):
+    """An empty sitemap returns 0 without creating any files."""
+    sitemap_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+</urlset>"""
+
+    with patch(
+        "crawl.urlopen",
+        return_value=_make_http_response_plain(200, sitemap_xml),
+    ):
+        count = fetch_sitemap_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+
+    assert count == 0
+
+
+def test_fetch_sitemap_pdfs_unreachable_sitemap(tmp_path):
+    """A sitemap fetch failure returns 0 without raising."""
+    from urllib.error import URLError
+
+    with patch("crawl.urlopen", side_effect=URLError("timeout")):
+        count = fetch_sitemap_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+
+    assert count == 0
+
+
+def test_fetch_sitemap_pdfs_skips_already_downloaded(tmp_path):
+    """PDFs whose URLs are already in the existing _url_map.json are skipped."""
+    sitemap_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/old.pdf</loc></url>
+  <url><loc>https://example.com/new.pdf</loc></url>
+</urlset>"""
+    pdf_bytes = b"%PDF-1.4 fake"
+
+    # Pre-populate the output directory with an existing URL map.
+    save_dir = tmp_path / "example.com"
+    save_dir.mkdir()
+    url_map = {"old.pdf": "https://example.com/old.pdf"}
+    (save_dir / "_url_map.json").write_text(
+        __import__("json").dumps(url_map), encoding="utf-8"
+    )
+    (save_dir / "old.pdf").write_bytes(pdf_bytes)
+
+    responses = [
+        _make_http_response_plain(200, sitemap_xml),  # sitemap
+        _make_http_response_plain(200, pdf_bytes),    # new.pdf (old.pdf skipped)
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        count = fetch_sitemap_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+
+    assert count == 1  # only new.pdf was downloaded
+
+
+def test_fetch_sitemap_pdfs_creates_url_map(tmp_path):
+    """fetch_sitemap_pdfs writes _url_map.json mapping filename to URL."""
+    sitemap_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/docs/report.pdf</loc></url>
+</urlset>"""
+    pdf_bytes = b"%PDF-1.4 fake"
+
+    responses = [
+        _make_http_response_plain(200, sitemap_xml),
+        _make_http_response_plain(200, pdf_bytes),
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        fetch_sitemap_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+
+    url_map = json.loads((tmp_path / "example.com" / "_url_map.json").read_text())
+    assert "https://example.com/docs/report.pdf" in url_map.values()
+
+
+def test_fetch_sitemap_pdfs_strips_www(tmp_path):
+    """www. prefix is stripped when deriving the output subdirectory."""
+    sitemap_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.example.com/a.pdf</loc></url>
+</urlset>"""
+    pdf_bytes = b"%PDF-1.4 fake"
+
+    responses = [
+        _make_http_response_plain(200, sitemap_xml),
+        _make_http_response_plain(200, pdf_bytes),
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        count = fetch_sitemap_pdfs(
+            "https://www.example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+
+    assert count == 1
+    # Output directory should be example.com, not www.example.com.
+    assert (tmp_path / "example.com").exists()
+    assert not (tmp_path / "www.example.com").exists()
 
