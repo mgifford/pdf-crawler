@@ -427,8 +427,10 @@ def fetch_sitemap_pdfs(
             output directory).
         output_dir: Directory where downloaded files are saved.
         max_pdfs: Maximum number of PDFs to download.
-        timeout: Wall-clock timeout for the whole operation in seconds.
-            Individual HTTP requests are capped at 60 seconds each.
+        timeout: Upper bound (in seconds) used to derive the per-request HTTP
+            timeout: each individual HTTP request is capped at
+            ``min(timeout, 60)`` seconds.  There is no enforced wall-clock
+            limit on the total download time.
 
     Returns:
         The number of PDFs successfully downloaded.
@@ -437,10 +439,10 @@ def fetch_sitemap_pdfs(
     base = f"{parsed.scheme}://{parsed.netloc}"
     sitemap_url = urljoin(base, "/sitemap.xml")
 
-    req_timeout = min(timeout, 60)
+    per_request_timeout = min(timeout, 60)
     print(f"Fetching PDF list from sitemap: {sitemap_url}")
     try:
-        pdf_urls = _collect_sitemap_pdf_urls(sitemap_url, timeout=req_timeout)
+        pdf_urls = _collect_sitemap_pdf_urls(sitemap_url, timeout=per_request_timeout)
     except (URLError, OSError) as exc:
         print(f"  Sitemap fetch failed: {exc}")
         return 0
@@ -501,7 +503,7 @@ def fetch_sitemap_pdfs(
 
         try:
             req = Request(pdf_url, headers=_SPOT_CHECK_HEADERS)
-            with urlopen(req, timeout=req_timeout) as resp:  # noqa: S310
+            with urlopen(req, timeout=per_request_timeout) as resp:  # noqa: S310
                 data = resp.read()
             with open(full_path, "wb") as fh:
                 fh.write(data)

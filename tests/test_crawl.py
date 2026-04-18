@@ -1562,8 +1562,7 @@ def test_fetch_sitemap_pdfs_creates_url_map(tmp_path):
             "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
         )
 
-    import json as _json
-    url_map = _json.loads((tmp_path / "example.com" / "_url_map.json").read_text())
+    url_map = json.loads((tmp_path / "example.com" / "_url_map.json").read_text())
     assert "https://example.com/docs/report.pdf" in url_map.values()
 
 
