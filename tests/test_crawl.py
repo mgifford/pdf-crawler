@@ -1394,7 +1394,7 @@ def test_collect_sitemap_pdf_urls_child_failure_skipped():
         r = responses[call_count[0]]
         call_count[0] += 1
         if isinstance(r, URLError):
-            raise r
+            raise r  # pylint: disable=raising-non-exception
         return r
 
     with patch("crawl.urlopen", side_effect=side_effect):
