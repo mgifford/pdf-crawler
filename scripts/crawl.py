@@ -14,6 +14,8 @@ from __future__ import annotations
 
 import argparse
 import csv
+import hashlib
+import itertools
 import json
 import os
 import re
@@ -262,13 +264,11 @@ def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
     except Exception as exc:  # noqa: BLE001
         errors.append(f"robots.txt parse error: {exc}")
 
-    # 3. Check sitemap.xml for PDF URLs.
+    # 3. Check sitemap.xml for PDF URLs (including child sitemaps when the
+    #    root document is a sitemap index).
     sitemap_url = urljoin(base, "/sitemap.xml")
     try:
-        req = Request(sitemap_url, headers=_SPOT_CHECK_HEADERS)
-        with urlopen(req, timeout=timeout) as resp:  # noqa: S310
-            sitemap_content = resp.read()
-        pdf_urls = _extract_pdf_urls_from_sitemap(sitemap_content)
+        pdf_urls = _collect_sitemap_pdf_urls(sitemap_url, timeout=timeout)
         result["sitemap_pdf_count"] = len(pdf_urls)
         result["sitemap_pdf_samples"] = pdf_urls[:5]
     except URLError as exc:
@@ -340,6 +340,196 @@ def _extract_pdf_urls_from_sitemap(content: bytes) -> list:
                 pdf_urls.append(loc.text.strip())
 
     return pdf_urls
+
+
+def _collect_sitemap_pdf_urls(
+    sitemap_url: str,
+    timeout: int = 15,
+    max_child_sitemaps: int = 20,
+) -> list:
+    """Fetch a sitemap and collect all PDF URLs, including from child sitemaps.
+
+    If *sitemap_url* points to a sitemap index, up to *max_child_sitemaps*
+    child sitemaps are fetched and parsed.  Only one level of nesting is
+    followed to avoid unbounded HTTP requests.
+
+    Unlike ``_extract_pdf_urls_from_sitemap`` (which only parses a pre-fetched
+    bytes blob), this function performs the HTTP request(s) itself and will
+    raise ``URLError`` when the top-level sitemap is unreachable.
+
+    Args:
+        sitemap_url: URL of the sitemap (or sitemap index) to fetch.
+        timeout: Per-request connection timeout in seconds.
+        max_child_sitemaps: Maximum number of child sitemaps to fetch when the
+            root document is a sitemap index.  Defaults to 20.
+
+    Returns:
+        A list of PDF URL strings found in the sitemap(s).
+
+    Raises:
+        URLError: When the top-level sitemap cannot be fetched.
+    """
+    req = Request(sitemap_url, headers=_SPOT_CHECK_HEADERS)
+    with urlopen(req, timeout=timeout) as resp:  # noqa: S310
+        content = resp.read()
+
+    # Collect PDFs from the top-level document (handles both urlset and
+    # the rare case of a sitemap index whose child entries are .pdf files).
+    pdf_urls = _extract_pdf_urls_from_sitemap(content)
+
+    # If the document is a sitemap index, also fetch each child sitemap.
+    try:
+        root = ET.fromstring(content)
+    except ET.ParseError:
+        return pdf_urls
+
+    tag = root.tag.split("}")[-1] if "}" in root.tag else root.tag
+    if tag != "sitemapindex":
+        return pdf_urls
+
+    ns = {"sm": _SITEMAP_NS}
+    child_urls = [
+        loc.text.strip()
+        for loc in root.findall("sm:sitemap/sm:loc", ns)
+        if loc.text and not loc.text.strip().lower().endswith(".pdf")
+    ]
+    for child_url in child_urls[:max_child_sitemaps]:
+        try:
+            req = Request(child_url, headers=_SPOT_CHECK_HEADERS)
+            with urlopen(req, timeout=timeout) as resp:  # noqa: S310
+                child_content = resp.read()
+            pdf_urls.extend(_extract_pdf_urls_from_sitemap(child_content))
+        except (URLError, OSError) as exc:
+            print(f"  Child sitemap fetch failed ({child_url}): {exc}")
+        except Exception as exc:  # noqa: BLE001
+            print(f"  Child sitemap parse error ({child_url}): {exc}")
+
+    return pdf_urls
+
+
+def fetch_sitemap_pdfs(
+    url: str,
+    output_dir: str,
+    max_pdfs: int,
+    timeout: int = 3600,
+) -> int:
+    """Download PDFs listed in the site's sitemap.xml.
+
+    Used as a fallback for sites whose PDFs are not linked from any HTML page
+    but are listed in sitemap.xml (or a sitemap index).  Handles both standard
+    sitemaps and sitemap index files (one level of nesting).
+
+    Already-downloaded files (present in the site output directory) are
+    skipped so that re-running the crawler does not re-fetch unchanged PDFs.
+
+    Args:
+        url: Seed URL of the site (used to derive the sitemap URL and
+            output directory).
+        output_dir: Directory where downloaded files are saved.
+        max_pdfs: Maximum number of PDFs to download.
+        timeout: Wall-clock timeout for the whole operation in seconds.
+            Individual HTTP requests are capped at 60 seconds each.
+
+    Returns:
+        The number of PDFs successfully downloaded.
+    """
+    parsed = urlparse(url)
+    base = f"{parsed.scheme}://{parsed.netloc}"
+    sitemap_url = urljoin(base, "/sitemap.xml")
+
+    req_timeout = min(timeout, 60)
+    print(f"Fetching PDF list from sitemap: {sitemap_url}")
+    try:
+        pdf_urls = _collect_sitemap_pdf_urls(sitemap_url, timeout=req_timeout)
+    except (URLError, OSError) as exc:
+        print(f"  Sitemap fetch failed: {exc}")
+        return 0
+    except Exception as exc:  # noqa: BLE001
+        print(f"  Sitemap parse error: {exc}")
+        return 0
+
+    if not pdf_urls:
+        print("  No PDFs found in sitemap.")
+        return 0
+
+    total = len(pdf_urls)
+    limited = pdf_urls[:max_pdfs]
+    if total > max_pdfs:
+        print(f"  Found {total} PDF(s) in sitemap; downloading up to {max_pdfs}.")
+    else:
+        print(f"  Found {total} PDF(s) in sitemap; downloading all.")
+
+    netloc = parsed.netloc.lower()
+    subfolder = netloc.removeprefix("www.")
+    save_dir = Path(output_dir) / subfolder
+    save_dir.mkdir(parents=True, exist_ok=True)
+
+    # Load any URL map written by an earlier spider run so we can skip files
+    # that were already downloaded during link-following.
+    url_map_path = save_dir / "_url_map.json"
+    url_map: dict = {}
+    if url_map_path.exists():
+        try:
+            with open(url_map_path, encoding="utf-8") as fh:
+                url_map = json.load(fh)
+        except (json.JSONDecodeError, OSError):
+            url_map = {}
+
+    already_downloaded = set(url_map.values())
+    downloaded = 0
+
+    for pdf_url in limited:
+        if pdf_url in already_downloaded:
+            continue
+
+        pdf_path = urlparse(pdf_url).path
+        segments = [s for s in pdf_path.split("/") if s]
+        raw_name = segments[-1] if segments else (
+            "doc-" + hashlib.md5(pdf_url.encode()).hexdigest()[:8]
+        )
+        basename, ext = os.path.splitext(raw_name)
+        if not ext:
+            ext = ".pdf"
+
+        # Ensure the filename is unique within the save directory.
+        candidate = f"{basename}{ext}"
+        counter = itertools.count()
+        while (save_dir / candidate).exists():
+            candidate = f"{basename}-{next(counter)}{ext}"
+        filename = candidate
+        full_path = save_dir / filename
+
+        try:
+            req = Request(pdf_url, headers=_SPOT_CHECK_HEADERS)
+            with urlopen(req, timeout=req_timeout) as resp:  # noqa: S310
+                data = resp.read()
+            with open(full_path, "wb") as fh:
+                fh.write(data)
+            url_map[filename] = pdf_url
+            already_downloaded.add(pdf_url)
+            downloaded += 1
+            print(f"  [{downloaded}/{len(limited)}] Downloaded: {pdf_url}")
+        except (URLError, OSError) as exc:
+            print(f"  Failed to download {pdf_url}: {exc}")
+        except Exception as exc:  # noqa: BLE001
+            print(f"  Error downloading {pdf_url}: {exc}")
+
+    # Persist the updated URL map so update_manifest can read it.
+    with open(url_map_path, "w", encoding="utf-8") as fh:
+        json.dump(url_map, fh, indent=2, ensure_ascii=False)
+
+    # Create empty referer/anchor maps if absent so update_manifest succeeds.
+    for map_name in ("_referer_map.json", "_anchor_map.json"):
+        map_path = save_dir / map_name
+        if not map_path.exists():
+            with open(map_path, "w", encoding="utf-8") as fh:
+                json.dump({}, fh)
+
+    print(
+        f"Sitemap download complete: {downloaded} of {len(limited)} PDF(s)"
+        f" saved to {save_dir}"
+    )
+    return downloaded
 
 
 def run_scrapy(
@@ -576,6 +766,15 @@ def main() -> None:
         help="Maximum number of pages (URLs) to crawl (default: 2500)",
     )
     parser.add_argument(
+        "--max-pdfs",
+        type=int,
+        default=200,
+        help=(
+            "Maximum number of PDFs to download from sitemap.xml when the "
+            "spider finds no PDFs via link-following (default: 200)"
+        ),
+    )
+    parser.add_argument(
         "--report-dir",
         default="reports",
         help="Directory to write the crawled_urls.csv report into (default: reports)",
@@ -625,23 +824,55 @@ def main() -> None:
     pages_crawled = generate_crawled_urls_csv(url, args.output_dir, args.report_dir)
     print(f"Pages crawled: {pages_crawled}")
 
-    if not args.skip_crawl and pages_crawled == 0:
-        print(
-            "WARNING: No pages were crawled. The site may be blocking automated "
-            "requests. Check the Scrapy log below for details."
+    if not args.skip_crawl:
+        # Count PDFs already downloaded by the spider so we can decide whether
+        # to fall back to the sitemap.
+        parsed_seed = urlparse(url)
+        site_folder = _site_folder(parsed_seed.netloc)
+        site_dir = Path(args.output_dir) / site_folder
+        pdf_count = (
+            sum(1 for f in site_dir.iterdir() if f.is_file() and f.suffix.lower() == ".pdf")
+            if site_dir.exists() else 0
         )
-        _print_scrapy_log_tail(log_path)
-        # Run a lightweight spot-check to diagnose why the crawl found nothing
-        # and persist the results so the analysis workflow can surface them in
-        # the issue comment.
-        print("Running spot-check diagnostics…")
-        spot = spot_check_zero_results(url)
-        spot_check_path = Path("scan-meta") / "spot_check.json"
-        spot_check_path.parent.mkdir(parents=True, exist_ok=True)
-        spot_check_path.write_text(
-            json.dumps(spot, indent=2, ensure_ascii=False), encoding="utf-8"
-        )
-        print(f"Spot-check saved: {spot_check_path}")
+
+        if pdf_count == 0:
+            # The spider found no PDFs – either it could not crawl any pages
+            # (blocked by WAF/robots.txt) or the site serves PDFs only via
+            # sitemap rather than through navigable HTML links.
+            if pages_crawled == 0:
+                print(
+                    "WARNING: No pages were crawled. The site may be blocking automated "
+                    "requests. Check the Scrapy log below for details."
+                )
+                _print_scrapy_log_tail(log_path)
+
+            # Attempt to download PDFs directly from sitemap.xml.
+            print(
+                "No PDFs found via link-following. "
+                "Checking sitemap.xml for PDF links…"
+            )
+            sitemap_fetched = fetch_sitemap_pdfs(
+                url, args.output_dir, args.max_pdfs, args.timeout
+            )
+            if sitemap_fetched > 0:
+                print(
+                    f"Downloaded {sitemap_fetched} PDF(s) from sitemap. "
+                    "Updating manifest…"
+                )
+                update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
+
+        if pages_crawled == 0:
+            # Run a lightweight spot-check to diagnose why the crawl found
+            # nothing and persist the results so the analysis workflow can
+            # surface them in the issue comment.
+            print("Running spot-check diagnostics…")
+            spot = spot_check_zero_results(url)
+            spot_check_path = Path("scan-meta") / "spot_check.json"
+            spot_check_path.parent.mkdir(parents=True, exist_ok=True)
+            spot_check_path.write_text(
+                json.dumps(spot, indent=2, ensure_ascii=False), encoding="utf-8"
+            )
+            print(f"Spot-check saved: {spot_check_path}")
 
 
 if __name__ == "__main__":  # pragma: no cover

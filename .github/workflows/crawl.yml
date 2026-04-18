@@ -379,11 +379,16 @@ jobs:
           CRAWL_URL: ${{ steps.params.outputs.url }}
           CRAWL_TIMEOUT: ${{ steps.params.outputs.timeout }}
           CRAWL_MAX_PAGES: ${{ steps.params.outputs.max_pages }}
+          CRAWL_MAX_PDFS: ${{ steps.params.outputs.max_pdfs }}
           CRAWL_NOTES: ${{ steps.params.outputs.notes }}
         run: |
           NOTES_ARGS=()
           if [ -n "$CRAWL_NOTES" ]; then
             NOTES_ARGS=(--notes "$CRAWL_NOTES")
+          fi
+          MAX_PDFS_ARGS=()
+          if [ -n "$CRAWL_MAX_PDFS" ]; then
+            MAX_PDFS_ARGS=(--max-pdfs "$CRAWL_MAX_PDFS")
           fi
           python scripts/crawl.py \
             --url "$CRAWL_URL" \
@@ -392,6 +397,7 @@ jobs:
             --report-dir reports \
             --timeout "$CRAWL_TIMEOUT" \
             --max-pages "$CRAWL_MAX_PAGES" \
+            "${MAX_PDFS_ARGS[@]}" \
             "${NOTES_ARGS[@]}"
 
       - name: Commit updated manifest
