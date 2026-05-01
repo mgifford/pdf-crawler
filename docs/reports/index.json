@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-01T15:15:32.538988+00:00",
+    "site": "volstate.edu",
+    "crawl_url": "https://www.volstate.edu/about-us",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25219797847",
+    "issue_url": "",
+    "archive_file": "2026-05-01_15-15-32-538_volstate.edu.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-05-01T15:10:32.505054+00:00",
     "site": "volstate.edu",
     "crawl_url": "https://www.volstate.edu/human-resources/new-employees",
