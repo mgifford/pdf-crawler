@@ -4,7 +4,7 @@
     "site": "volstate.edu",
     "crawl_url": "https://www.volstate.edu/human-resources/new-employees",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25219608847",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/244#issuecomment-4359965386",
     "archive_file": "2026-05-01_15-10-32-505_volstate.edu.html",
     "total": 0,
     "analysed": 0,
