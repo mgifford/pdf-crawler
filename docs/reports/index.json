@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-15T07:38:31.941112+00:00",
+    "site": "accessibilityassociation.org",
+    "crawl_url": "https://www.accessibilityassociation.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25906386792",
+    "issue_url": "",
+    "archive_file": "2026-05-15_07-38-31-941_accessibilityassociation.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-05-01T15:15:32.538988+00:00",
     "site": "volstate.edu",
     "crawl_url": "https://www.volstate.edu/about-us",
