@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-16T21:14:38.500213+00:00",
+    "site": "all",
+    "crawl_url": "",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25972234618",
+    "issue_url": "",
+    "archive_file": "2026-05-16_21-14-38-500_all.html",
+    "total": 19536,
+    "analysed": 5776,
+    "accessible": 1807
+  },
+  {
     "date": "2026-05-16T20:10:26.894814+00:00",
     "site": "nfb.org",
     "crawl_url": "https://nfb.org/",
