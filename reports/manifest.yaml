@@ -86541,6 +86541,7 @@
     Producer: Adobe PDF Library 15.0
     Pages: 60
   errors: []
+  notes: Just exploring.
 - url: https://www.cms.gov/priorities/innovation/files/reports/hhvbp-firstannrpt-app-qual.pdf
   md5: 1d9132de9c729a0a4a23235cca252d8f
   filename: hhvbp-firstannrpt-app-qual.pdf
@@ -225565,6 +225566,7 @@
     Images: 8
   errors:
   - 'title, '
+  notes: Just exploring.
 - url: https://www.cms.gov/Medicare/Coverage/DeterminationProcess/downloads/carlson_comment_03152019.pdf
   md5: 378b00368cbc85dd9849a49042dbf682
   filename: carlson_comment_03152019.pdf
@@ -313510,3 +313512,1785 @@
   status: pending
   report: null
   errors: []
+- url: https://www.cms.gov/medicare/prevention/immunizations/downloads/-0506vaccreimburs033006.pdf
+  md5: 5c4618edc5ee9e4a59544e6f31adb9d1
+  filename: -0506vaccreimburs033006.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.155002+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/research-statistics-data-and-systems/cms-information-technology/mapdhelpdesk/downloads/-marx_redesign_and_modernization_handbook.pdf
+  md5: 85af1bf5f60e784921cefa34b069242d
+  filename: -marx_redesign_and_modernization_handbook.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.158945+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/medicare/prescription-drug-coverage/prescriptiondrugcovcontra/downloads/-pdp_enrollmentguidance%20exhibits_sep082006.pdf
+  md5: dc84169516c7f17129afa4e345eafa1a
+  filename: -pdp_enrollmentguidance%20exhibits_sep082006.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.163386+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/-resultsthrusept2005-onepager-112105v3.pdf
+  md5: e3bfb71403b6261c4327939ca011441b
+  filename: -resultsthrusept2005-onepager-112105v3.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.165384+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/medicare-ffs-compliance-programs/perm/downloads/-state_universe_comparison_guidance.pdf
+  md5: b9d65117e3abb1a67a70774d7d9883b1
+  filename: -state_universe_comparison_guidance-0.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.167677+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/perm/downloads/-state_universe_comparison_guidance.pdf
+  md5: b9d65117e3abb1a67a70774d7d9883b1
+  filename: -state_universe_comparison_guidance-1.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.169898+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/medicaid-and-chip-compliance/perm/downloads/-state_universe_comparison_guidance.pdf
+  md5: b9d65117e3abb1a67a70774d7d9883b1
+  filename: -state_universe_comparison_guidance.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.172166+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/files/document/10-25-2018-cms-5528-anprm.pdf
+  md5: b280f5c24bd6cd6c786463f8be68d9c7
+  filename: 10-25-2018-cms-5528-anprm.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.174622+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/cciio/programs-and-initiatives/premium-stabilization-programs/the-transitional-reinsurance-program/downloads/1_review_and_discussion_slides.pdf
+  md5: 600f4979b1711d2d69e7bc5bbcfee97d
+  filename: 1_review_and_discussion_slides.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.177476+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/advpayaco-fnevalrpt.pdf
+  md5: 3d0a3fd1a16636de60ed3eccb1a875c0
+  filename: advpayaco-fnevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.184967+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/aim-fg-firstannrpt.pdf
+  md5: c7462d30c716d929e8a0ca9db454fe9e
+  filename: aim-fg-firstannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.189477+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/aim-firstannrpt.pdf
+  md5: db1e971602843502c9abaf811520645b
+  filename: aim-firstannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.196898+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/aim-second-annrpt.pdf
+  md5: 63cb364eb97aa1fa0909672144a111b0
+  filename: aim-second-annrpt-0.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.207183+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/aim-second-annrpt-fg.pdf
+  md5: 5109d72ee502f0a5599bafc300d90650
+  filename: aim-second-annrpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.214465+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/aim-second-annrpt.pdf
+  md5: 63cb364eb97aa1fa0909672144a111b0
+  filename: aim-second-annrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.225030+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/medicare/coordination-of-benefits-and-recovery/coordination-of-benefits-and-recovery-overview/non-group-health-plan-recovery/downloads/alert-change-in-recovery-threshold-for-certain-liability-insurance.pdf
+  md5: 56e7dc9c92a94146a5d1ce6488c7f33c
+  filename: alert-change-in-recovery-threshold-for-certain-liability-insurance.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.229038+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/medicare/appeals-and-grievances/orgmedffsappeals/appeals-settlement-initiatives/appeals-settlement-external-process-flow-diagram-.pdf
+  md5: 7491b5bf192b9c05804d2c59f0474f96
+  filename: appeals-settlement-external-process-flow-diagram-.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.231440+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/files/document/average-monthly-premiums-slcsp-lcp-2016-2019.pdf
+  md5: bfd4b47007fb4feb612e6e9bbcc0ae3e
+  filename: average-monthly-premiums-slcsp-lcp-2016-2019.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.233114+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnedwebguide/downloads/biographical-data-injection-safety-wbt.pdf
+  md5: 3fcd8360ed786bb72d7cd748035db9ea
+  filename: biographical-data-injection-safety-wbt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.235121+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/bpci-evalrpt1.pdf
+  md5: a8c444fb66a277d2e46a53f010efc744
+  filename: bpci-evalrpt1.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.241896+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/bpci-mdl1yr2annrpt.pdf
+  md5: 2919edfec4231958a91219168c3af196
+  filename: bpci-mdl1yr2annrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.251223+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/bpci-models2-4-yr2evalrpt.pdf
+  md5: 7e6949f75ae1a2b44b8124f246a98be4
+  filename: bpci-models2-4-yr2evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.260410+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/bpci-models2-4-yr4evalrpt.pdf
+  md5: 929fabd17dabef9e40836505c54b79d3
+  filename: bpci-models2-4-yr4evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.269948+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/cmmi/bpci-models2-4-yr5evalrpt.pdf
+  md5: 7270d9422d7b2b2f6a902090efb66d04
+  filename: bpci-models2-4-yr5evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.282817+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/bpci2-4-fg-evalyrs1-3.pdf
+  md5: 3052bf90467694b0fca0970731cd647d
+  filename: bpci2-4-fg-evalyrs1-3.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.287119+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cctp-annualrpt1.pdf
+  md5: 323a3058e6fdb3dc48d505cc0597697b
+  filename: cctp-annualrpt1.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.296426+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cec-annrpt-py1.pdf
+  md5: cfa001d19b9eaa32560bf8b8c257b670
+  filename: cec-annrpt-py1.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.306630+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cec-annrpt-py2-fg.pdf
+  md5: f0e5f3e00b8644a4996704fbf9e2b519
+  filename: cec-annrpt-py2-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.311166+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cec-annrpt-py2.pdf
+  md5: c8a9a3d4b33b1c96bbc7e05f8e2c901f
+  filename: cec-annrpt-py2.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.322333+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/chronic-care-mngmt-finalevalrpt.pdf
+  md5: 37d8a7dceba8aa7bb7957436895037c0
+  filename: chronic-care-mngmt-finalevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.329312+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/chronicallycriticallyillpopulation-report.pdf
+  md5: 4abb1e0e305ce79bc6f1913dfa4c8ed9
+  filename: chronicallycriticallyillpopulation-report.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.336299+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cjr-fg-firstannrpt.pdf
+  md5: f629a5062dc069064de73deccac1746b
+  filename: cjr-fg-firstannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.340456+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cjr-fg-secondannrpt.pdf
+  md5: a6d66e3cfd4e55f48761a7a3f06b0bbb
+  filename: cjr-fg-secondannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.343469+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cjr-firstannrpt.pdf
+  md5: 8accd4f875b7a122dff80046d8908f8b
+  filename: cjr-firstannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.347678+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cjr-secondannrpt.pdf
+  md5: a344ae8c7f6bcc538f46cb62947d5ad4
+  filename: cjr-secondannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.356153+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cmhcb-healthbuddymontefiore.pdf
+  md5: 4d4fbd77d2dad280a1f202b02d80e10a
+  filename: cmhcb-healthbuddymontefiore.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.360294+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cmhcb-healthbuddywest.pdf
+  md5: 3c08ef64413837caac737e8136540338
+  filename: cmhcb-healthbuddywest.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.364448+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cmhcb-massgen.pdf
+  md5: 9cc8266bb5bb0a961f537fc28f6cb7be
+  filename: cmhcb-massgen.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.369693+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cmhcb-villagehealth.pdf
+  md5: 637061405e98f235a4970153d632c8df
+  filename: cmhcb-villagehealth.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.373479+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/about-cms/agency-information/office-of-minority-health/cms-omh-mailings/cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_english.pdf
+  md5: b25bde863e2a9512d58039ca6081ea17
+  filename: cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_english.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.375522+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/about-cms/agency-information/office-of-minority-health/cms-omh-mailings/cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_spanish.pdf
+  md5: abdd9c3dd0ad3445265f4c48280182bb
+  filename: cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_spanish.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.377632+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/communitywellnessprgms-frstevalrpt.pdf
+  md5: b22e43d79ef3d1fce966685e96b23517
+  filename: communitywellnessprgms-frstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.380810+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/communitywellnessrtc.pdf
+  md5: 7fdfd394669d440641baf00dbc7474c2
+  filename: communitywellnessrtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.384141+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/files/document/cpc-primary-care-first-table.pdf
+  md5: 69d9f87bc936e434199a67368abe467f
+  filename: cpc-primary-care-first-table.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.385478+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cpci-evalrpt1.pdf
+  md5: f8ba3e72a5767283def26b0e7e3b4208
+  filename: cpci-evalrpt1.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.389879+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cpci-evalrpt2.pdf
+  md5: 6911ea389772f097bb6613e03ba26e42
+  filename: cpci-evalrpt2.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.395373+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cpci-evalrpt3.pdf
+  md5: e2bd8ec07f4fac03803c0a6c5ccf55ad
+  filename: cpci-evalrpt3.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.402006+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cpcplus-fg-firstannrpt.pdf
+  md5: 713d7d4716df42d7323d7b9cccd2df82
+  filename: cpcplus-fg-firstannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.404458+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/cmmi/cpcplus-first-ann-rpt.pdf
+  md5: fd630c81cf7cae748e0074421e142603
+  filename: cpcplus-first-ann-rpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.409806+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/cptd-final.pdf
+  md5: c88d0c1a38fc22fd2980232dd54507f9
+  filename: cptd-final.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.412705+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/files/document/effectuated-enrollment-first-half-2018.pdf
+  md5: 52d6434f486e0b2b3bb471d1cf98bfe5
+  filename: effectuated-enrollment-first-half-2018.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.414232+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/episode-payment-models-wp.pdf
+  md5: 2a8145077f9a9242a12029f4bbb4d470
+  filename: episode-payment-models-wp.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.416720+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/espc-final-report.pdf
+  md5: 933117ed6c0194ac9dd964662d701329
+  filename: espc-final-report.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.419558+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/esrd-eval-ptsat.pdf
+  md5: 9e8f944abf797e3719ca41dd898939cd
+  filename: esrd-eval-ptsat.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.423787+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/marketplace/resources/data/essential-health-benefits-rx-crosswalk-methodology-2017.pdf
+  md5: b013886b8408e4f6022e7312f96df3d0
+  filename: essential-health-benefits-rx-crosswalk-methodology-2017.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.425495+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/x/external_guidance.pdf
+  md5: 47d1f7e4fbd265ea6d168ddf8fbbe6af
+  filename: external_guidance.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.427027+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-ca-firstevalrpt.pdf
+  md5: cc3c199ddfa016c9bcff067340f31a6b
+  filename: fai-ca-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.432730+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-carecoordination-issuebrief.pdf
+  md5: 26b4c725778b350090fdfb613dd94769
+  filename: fai-carecoordination-issuebrief.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.435454+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-co-prelimyr1savings.pdf
+  md5: f3502990600f5d4b4cc5abdd56e4ae44
+  filename: fai-co-prelimyr1savings.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.438046+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-co-prelimyr2savings.pdf
+  md5: 3d87ad055353182b9cf8e815c79d4e88
+  filename: fai-co-prelimyr2savings.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.441541+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-focusgroup-issuebrief.pdf
+  md5: e4a326d5d647a132d8243dcc297561a8
+  filename: fai-focusgroup-issuebrief.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.443923+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-il-firstevalrpt.pdf
+  md5: 04627b239a03eed544b96c3092cad817
+  filename: fai-il-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.448905+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-implementationrpt.pdf
+  md5: 7f27b819523d8a7849d377c4ad76978b
+  filename: fai-implementationrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.451244+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-ma-firstevalrpt.pdf
+  md5: f9ad04d318be74064747a91e4cb3ef0f
+  filename: fai-ma-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.456085+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-ma-secondevalrpt.pdf
+  md5: c872d0e18d74a748f998c79cb0f17ebd
+  filename: fai-ma-secondevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.461892+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-ma-thirdevalrpt.pdf
+  md5: 3a88929ef88d66dfca617e5de13bccec
+  filename: fai-ma-thirdevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.467578+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-mi-firstevalrpt.pdf
+  md5: 98a15be4b826fac31147bd856a0e1d71
+  filename: fai-mi-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.472486+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-mn-firstannrpt.pdf
+  md5: fe7aad74435ab24e2e9f58600757ee5f
+  filename: fai-mn-firstannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.474939+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-mn-secondevalrpt.pdf
+  md5: e0ffd0cb97032ed98777acedb6377f0a
+  filename: fai-mn-secondevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.478649+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-ny-firstevalrpt.pdf
+  md5: a1df2576036588049e30331d4e2203ba
+  filename: fai-ny-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.482740+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-oh-firstevalrpt.pdf
+  md5: 4147b7b895e082550d68b65a47bce154
+  filename: fai-oh-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.488161+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-sc-firstevalrpt.pdf
+  md5: 09165f3f753f1d0dbb645995f3a6b649
+  filename: fai-sc-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.493160+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-specialpop-issuebrief.pdf
+  md5: 6621fafb22ccc41cc5e7841d272e9c73
+  filename: fai-specialpop-issuebrief.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.496085+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-tx-firstevalrpt.pdf
+  md5: 23371cf705b173be6999ea6c18460b5e
+  filename: fai-tx-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.500284+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-wa-finalyr1prelimyr2.pdf
+  md5: bfaa3c43c32c6ab08236568fe87134b8
+  filename: fai-wa-finalyr1prelimyr2.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.504275+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-wa-finalyr2preyr3.pdf
+  md5: 322212f5943edac6eece29a54057478e
+  filename: fai-wa-finalyr2preyr3.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.508894+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-wa-finalyr3preyr4.pdf
+  md5: 31ab101901fbb8d2224149e7cd5c4968
+  filename: fai-wa-finalyr3preyr4.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.513705+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-wa-prelimppone.pdf
+  md5: 5e18596d5c41178e42461dca49ca9bef
+  filename: fai-wa-prelimppone.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.517888+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-wa-secondevalrpt.pdf
+  md5: 6106165f3834aa633fc61985249dfcbf
+  filename: fai-wa-secondevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.523789+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fai-wa-thirdevalrpt.pdf
+  md5: e604caae9fe257216566a9e848181b3c
+  filename: fai-wa-thirdevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.529237+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fqhc-scndevalrpt.pdf
+  md5: b0a7fafad5c257589835871050b673fb
+  filename: fqhc-scndevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.534789+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/fqhcevalrpt.pdf
+  md5: 364312e47babb5b136dc0041eb49d3f4
+  filename: fqhcevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.541480+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/gne-final-eval-rpt-fg.pdf
+  md5: 4f7189d12bfaef17f7e976f5427af209
+  filename: gne-final-eval-rpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.544841+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/gne-final-eval-rpt.pdf
+  md5: 5735dfdca60d0d63e219f55616575040
+  filename: gne-final-eval-rpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.551092+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/gne-rtc.pdf
+  md5: fc97182b0a717017e2bd0f295ef50ad0
+  filename: gne-rtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.554689+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-bhsa-firstevalrpt.pdf
+  md5: a10a3e90eaf8e477f6dbdedaaee72677
+  filename: hcia-bhsa-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.563292+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-bhsa-secondevalrpt.pdf
+  md5: 7c67f5a20e3b6ab43011750fb7bfaa48
+  filename: hcia-bhsa-secondevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.569513+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-chspt-firstevalrpt.pdf
+  md5: 56f83944b97515d0d7c56fa4910036a1
+  filename: hcia-chspt-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.578967+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-diseasespecific-thirdannrpt-addendum.pdf
+  md5: d3c30f08ab6189a025c58706729c9841
+  filename: hcia-diseasespecific-thirdannrpt-addendum.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.587948+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-ds-firstevalrpt.pdf
+  md5: 08e8350d5a51d43fb1c7c8d35494253c
+  filename: hcia-ds-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.596730+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-hospitalsetting-thirdannrpt-addendum.pdf
+  md5: 4078ad9cfe5d13078e4cc2dc3fa9e931
+  filename: hcia-hospitalsetting-thirdannrpt-addendum.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.605798+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-pcrp-firstevalrpt.pdf
+  md5: 07272539b39e68b0c410d54fd0ea6dca
+  filename: hcia-pcrp-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.612391+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-primarycareredesign-thirdannrpt-addendum.pdf
+  md5: da187d2e1cbdd71f031abc7021292da9
+  filename: hcia-primarycareredesign-thirdannrpt-addendum.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.620885+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-sdm-firstevalrpt.pdf
+  md5: 83bb125ba731ee301de17845e71e443c
+  filename: hcia-sdm-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.630727+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hcia-ymcadpp-evalrpt.pdf
+  md5: f2c2137acea987618b7a2b359bd52a17
+  filename: hcia-ymcadpp-evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.636594+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hhvbp-secann-rpt-fg.pdf
+  md5: 9f9b922bd4dd968fba78f6a0bdaa9d65
+  filename: hhvbp-secann-rpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.647024+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/hhvbp-secann-rpt.pdf
+  md5: 6deed4a02c7711164bb4ba8e0e703227
+  filename: hhvbp-secann-rpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.653545+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/medicare/medicare-contracting/medicare-administrative-contractors/downloads/homehealthhospice_jurisdictionmap_oct2013.pdf
+  md5: e8fdc3e59a4ac7bd1c64f148ce7fdc56
+  filename: homehealthhospice_jurisdictionmap_oct2013.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.657838+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/x/hospacquiredconditionsrtc.pdf
+  md5: 84b216e4eb7fc1ffa42376fa63e8341e
+  filename: hospacquiredconditionsrtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.662119+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/iah-fg-yr4eval.pdf
+  md5: 92e1714fc57d028c0151533d503b541b
+  filename: iah-fg-yr4eval.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.666727+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/iah-fg-yr5eval.pdf
+  md5: 6a11d44047676d639dae5d40a62922ac
+  filename: iah-fg-yr5eval.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.670634+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/iah-rtc.pdf
+  md5: 4ae805c9625af8dbadb927963dd1e10e
+  filename: iah-rtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.676962+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/iah-yr4evalrpt.pdf
+  md5: dc76e266621ed7a8f1007b5264cabeb8
+  filename: iah-yr4evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.687530+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/iah-yr5evalrpt.pdf
+  md5: a195cb0a7c22008aac9aa6310a4be325
+  filename: iah-yr5evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.693866+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/x/iah-yroneresults.pdf
+  md5: 203fde2f81b67cf7e8db317340641d7b
+  filename: iah-yroneresults.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.697648+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/innovation-center-year-one-summary-document.pdf
+  md5: 4e752df537559a1cf510c64382c3df31
+  filename: innovation-center-year-one-summary-document.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.701957+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/interimevalrpt-mpa-hbo.pdf
+  md5: 709c15db75fc4b3ca31f11113e89baf1
+  filename: interimevalrpt-mpa-hbo.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.707579+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/irahnfr-finalyrfourevalrpt.pdf
+  md5: c2974342f353f95f2ef5379d317f83af
+  filename: irahnfr-finalyrfourevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.718425+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/irahnfr-finalyrthreeevalrpt.pdf
+  md5: 4e1ef94e86fd9e949b95d03abf4f5ec2
+  filename: irahnfr-finalyrthreeevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.726497+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/irahnfr-secondevalrpt.pdf
+  md5: 3695960662849c1f0e43847c6c323301
+  filename: irahnfr-secondevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.731154+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/ivig-intrtc.pdf
+  md5: 492b8c482982d9cf985013e1ba57289a
+  filename: ivig-intrtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.735125+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/maqbp-firstevalrpt.pdf
+  md5: 4a0e06ea3aaf0bc85372d054da3e4bf4
+  filename: maqbp-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.740266+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/maqbpdemonstration-finalevalrpt.pdf
+  md5: 06952538ef942295224074ff4ad1f83b
+  filename: maqbpdemonstration-finalevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.749202+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/files/document/maternal-opioid-misuse-mom-model.pdf
+  md5: 192ee052d0a323fd59b9064b416e7625
+  filename: maternal-opioid-misuse-mom-model.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.754096+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mccd-hqp-finaleval.pdf
+  md5: 9d24c5fe7cd866bac629bba955dd375e
+  filename: mccd-hqp-finaleval.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.758630+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mccm-fg-firstannrpt.pdf
+  md5: 0d20c42455456edae9e5a48068df6324
+  filename: mccm-fg-firstannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.765040+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mccm-fg-secannrpt.pdf
+  md5: 71e9c52945c164bbba71477b96942175
+  filename: mccm-fg-secannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.768759+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mccm-firstannrpt.pdf
+  md5: 35ee0054b61b685e6f31c4e2639f709d
+  filename: mccm-firstannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.779782+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/mccm-secannrpt.pdf
+  md5: f12da4c3c8abb5bc82f84a624b8fe573
+  filename: mccm-secannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.795798+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mcmpd-eval-rtc.pdf
+  md5: 68781b0347674a8db3b4fc78d4a526e0
+  filename: mcmpd-eval-rtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.799868+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/md-all-payer-secondannrpt.pdf
+  md5: 5385fe4ca31aca78c6dce2df2247f5b6
+  filename: md-all-payer-secondannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.809351+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/md-allpayer-finalevalrpt-fg.pdf
+  md5: 312d9041f2d0306a5ae89d081e2c7fd9
+  filename: md-allpayer-finalevalrpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.814049+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/md-allpayer-finalevalrpt.pdf
+  md5: 0bf56646b8f1b9cf1969d3d08490dcf1
+  filename: md-allpayer-finalevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.826194+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/medicarecoordinatedcaredemortc.pdf
+  md5: 36913534422944cc7e5e2aa4f6bdcb05
+  filename: medicarecoordinatedcaredemortc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.830010+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/medicaregainsharingrtc.pdf
+  md5: 1551402e7ce8499e3907eaa815c6ee35
+  filename: medicaregainsharingrtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.833141+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/medicareimagingdemortc.pdf
+  md5: b4bedab626499f38beefbefad1e5f193
+  filename: medicareimagingdemortc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.836333+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mepd-curesact-rtc.pdf
+  md5: b84abb1802c734a50ce4298e45f9f85b
+  filename: mepd-curesact-rtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.842491+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mepd-finalrpt.pdf
+  md5: b0485aba6a40349772e5583e5dcbf423
+  filename: mepd-finalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.850036+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mepd_rtc.pdf
+  md5: 9bfb39c34267793f8eb4a2938e1b718e
+  filename: mepd_rtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.854761+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mfescd-rtc.pdf
+  md5: 45626ddd81c31bee33e9acd32aa70a28
+  filename: mfescd-rtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.857375+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ihie-py3-eval.pdf
+  md5: 59d74c8bb4e9aa94a8be29a6b2baf4da
+  filename: mhcq-ihie-py3-eval.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.859790+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ihie-py3-financial.pdf
+  md5: 302c1529a56ca3f7f6b5935113bb4434
+  filename: mhcq-ihie-py3-financial.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.862517+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-meridian-final.pdf
+  md5: b6ec0188f9e6d174c87ee0ced5dabc45
+  filename: mhcq-meridian-final.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.866179+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-meridian-patientfamily-fginterviewsrpt.pdf
+  md5: 0692a59baac983e7b4b32dc93ffdbb00
+  filename: mhcq-meridian-patientfamily-fginterviewsrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.869263+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ncccn-py3-eval.pdf
+  md5: ccaba8419fa947c9ad3c7eb5a34821d6
+  filename: mhcq-ncccn-py3-eval.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.872264+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ncccn-py3-financial.pdf
+  md5: 306738e2318fde0520da165616054c5f
+  filename: mhcq-ncccn-py3-financial.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.875716+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/cmmi/mhcvdrrm-firstann-evalrpt.pdf
+  md5: 99db65da0a2737046afe9862760d5fa1
+  filename: mhcvdrrm-firstann-evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.888241+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mhcvdrrm-firstannevalrpt-fg.pdf
+  md5: 35dde4c40af516451af43b91ca1aae89
+  filename: mhcvdrrm-firstannevalrpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.892378+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mhcvdrrm-secannevalrpt-fg.pdf
+  md5: 0b706cb54ae4818bb0e64c14891000ad
+  filename: mhcvdrrm-secannevalrpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.896424+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mid-ir.pdf
+  md5: 765eb217f18bc581f0414fc44c4ae3a8
+  filename: mid-ir.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.905188+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/media/millionheartscdrrm-secondannualevaluationreport_1_13_20.pdf
+  md5: e24b3dbd675ec72c628a4280faa7a854
+  filename: millionheartscdrrm-secondannualevaluationreport_1_13_20.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.919024+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mipcd-secondrtc.pdf
+  md5: 41238d10f219a900a8105bdb72e524c0
+  filename: mipcd-secondrtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.922836+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mipcd_rtc.pdf
+  md5: 75fb692e38a1ac078e68cae03192964b
+  filename: mipcd_rtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.925934+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mpa-hbo-fnlevalrpt-fg.pdf
+  md5: 2160fa754633ce7b7c281eb55c3e39a5
+  filename: mpa-hbo-fnlevalrpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.930000+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mpa-hbo-fnlevalrpt.pdf
+  md5: bd0e618711cf51b30014df1c89b849b0
+  filename: mpa-hbo-fnlevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.936206+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mtm-firstevalrpt-fg.pdf
+  md5: 5ceed0f9034c58f09ab50801cc72aacd
+  filename: mtm-firstevalrpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.940153+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/mtm-firstevalrpt.pdf
+  md5: 2fad3259b57976527a6f1dfb17e484de
+  filename: mtm-firstevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.954578+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/mtm_final_report.pdf
+  md5: f2e4e237430f07081ff437353f79f52f
+  filename: mtm_final_report.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.963620+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/nextgenaco-fg-secondevalrpt.pdf
+  md5: 4569bad59fd93e23e7bf3319de77141f
+  filename: nextgenaco-fg-secondevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.967938+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/nextgenaco-firstannrpt.pdf
+  md5: b99fa0b46a46a5dc8d7c857398eddb84
+  filename: nextgenaco-firstannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.975105+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/nextgenaco-secondevalrpt-app.pdf
+  md5: 2089f8cabde52bcabde36a666888e19a
+  filename: nextgenaco-secondevalrpt-app.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.979284+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/nextgenaco-secondevalrpt.pdf
+  md5: cacfb6c2c525ad012f01f8d61cec47fd
+  filename: nextgenaco-secondevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.981717+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/nursinghomevbp_evalreport.pdf
+  md5: 0f73d5ae49399883cbdf998f325138ae
+  filename: nursinghomevbp_evalreport.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.984550+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/ocm-secondannualeval-pp1-fg.pdf
+  md5: 8aa10e069c895fa02ae1c5f9aed14dac
+  filename: ocm-secondannualeval-pp1-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.986631+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/ocm-secondannualeval-pp1.pdf
+  md5: baccb87804a8a42e1ddbebd23a1e0af8
+  filename: ocm-secondannualeval-pp1.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.990946+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/medicare/appeals-and-grievances/orgmedffsappeals/appeals-settlement-initiatives/ofm-irf-appeals-settlement-agreement-template.pdf
+  md5: 8d70c1983bc1fcce3f65aa765abca769
+  filename: ofm-irf-appeals-settlement-agreement-template.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.992733+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/medicare/appeals-and-grievances/orgmedffsappeals/appeals-settlement-initiatives/ofm-irf-appeals-settlement-expression-of-interest-eoi.pdf
+  md5: d3918a26d858ddfc39547c1cb8fdfda3
+  filename: ofm-irf-appeals-settlement-expression-of-interest-eoi.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:48.994247+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/pace-access-qualityreport.pdf
+  md5: 4ffedac6a425bfa73d70ab020cadfa57
+  filename: pace-access-qualityreport.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.001492+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/patient-safety-results.pdf
+  md5: ad9c00644583be5c88222cd7ff1bcf6a
+  filename: patient-safety-results.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.003395+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/pfpevalprogrpt.pdf
+  md5: 9d5322c5e150e20623ff0200021149c3
+  filename: pfpevalprogrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.006774+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/pioneeraco-finalevalrpt.pdf
+  md5: 49b050b24d8d573e887e51daf0c6df20
+  filename: pioneeraco-finalevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.013755+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/x/pioneeraco-fncl-py1.pdf
+  md5: 6663f77df71035159175e2f7779371d5
+  filename: pioneeraco-fncl-py1.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.016201+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/x/pioneeraco-fncl-py2.pdf
+  md5: f5043a07a7585b08aba69d7bdadb100b
+  filename: pioneeraco-fncl-py2.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.017961+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/pioneeraco-snf-evalrpt.pdf
+  md5: e1bee1405dd9870ea963107413a4b980
+  filename: pioneeraco-snf-evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.022710+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/practice-feedback-reports.pdf
+  md5: f7458aa5168d29a067b84dcce5be301e
+  filename: practice-feedback-reports.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.026546+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/primarycare-finalevalrpt.pdf
+  md5: ac1c55dd1dbfcfc31e7d8b8330c4e8a7
+  filename: primarycare-finalevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.031021+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/qca-report.pdf
+  md5: 9e8b1bd4a81a82ebc204e6ca182c7915
+  filename: qca-report.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.033669+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/radiationtherapy-apm-rtc.pdf
+  md5: 01dc879859db7188824ce157a86d7be4
+  filename: radiationtherapy-apm-rtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.036937+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/rahnfr-phasetwo-secondannrpt-fg.pdf
+  md5: ee606f51b193148953488de9d8bda573
+  filename: rahnfr-phasetwo-secondannrpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.038930+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/cmmi/rahnfr-phasetwo-secondannrpt.pdf
+  md5: a3e109513d50922dcca032c3c394ee51
+  filename: rahnfr-phasetwo-secondannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.056932+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/rahnfr-phasetwo-thirdannrpt-fg.pdf
+  md5: ea78bd3ac3cec08965d89ede7100b712
+  filename: rahnfr-phasetwo-thirdannrpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.061289+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/rahnfr-phasetwo-thirdannrpt.pdf
+  md5: b421b13e5ec8eef4f2a5d1713042ab05
+  filename: rahnfr-phasetwo-thirdannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.072188+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/rch-rtc.pdf
+  md5: 1ef74422302371e0bc6e6bf06e76fd2c
+  filename: rch-rtc.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.076837+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/rsnat-firstintevalrpt.pdf
+  md5: 98bde4ce6e5c65eb8c7948c759c699c3
+  filename: rsnat-firstintevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.080828+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/rtc-12-2012.pdf
+  md5: b75fcd8b63546bd1cbeae3572fa11771
+  filename: rtc-12-2012.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.083839+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/rtc-12-2014.pdf
+  md5: 2e99736292f1287ecbb3c09dd1a1bb37
+  filename: rtc-12-2014.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.087809+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/rtc-2016.pdf
+  md5: f27234b472483d186a7bf97236e2b702
+  filename: rtc-2016.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.092592+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/rtc-2018.pdf
+  md5: 5fb8bada486fe8aa64161f8d3e2ca6c8
+  filename: rtc-2018.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.097148+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/rtc_for-profit_pace_report_to_congress_051915_clean.pdf
+  md5: 221355e347c70b3f7eefb805c02b7fb1
+  filename: rtc_for-profit_pace_report_to_congress_051915_clean.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.099485+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/about-cms/leadership/seema-verma-portrait-high-res.pdf
+  md5: f07fb6887db3eb1a903602b683e908c2
+  filename: seema-verma-portrait-high-res.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.110568+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/sim-designrd2-final.pdf
+  md5: b87fe8d9fb6df26cf1cdc60d17888eda
+  filename: sim-designrd2-final.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.116093+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/sim-mt-fg-fifthannrpt.pdf
+  md5: dfc5d40fe82c23ce58e9918e101ba61f
+  filename: sim-mt-fg-fifthannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.119816+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/cmmi/sim-rd1-mt-fifthannrpt.pdf
+  md5: 0fee13ef95fcafa8204f1265838ba95d
+  filename: sim-rd1-mt-fifthannrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.148429+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/sim-rd2-test-ar3-fg.pdf
+  md5: e02ba30d164ec4e180e51c2936ce6d19
+  filename: sim-rd2-test-ar3-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.153422+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/cmmi/sim-rd2-test-ar3.pdf
+  md5: 1d7d8150fa1f42008ad0b68e1019b2c0
+  filename: sim-rd2-test-ar3.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.163115+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/x/sor.pdf
+  md5: ffd41f5826c20be32df8c332d55cf697
+  filename: sor.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.166375+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/srriskreductiondemo-finaleval.pdf
+  md5: 7b20e85903b858c0848e468ea37cd1f9
+  filename: srriskreductiondemo-finaleval.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.172242+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/state-basedinitiatives-fg-lessonslearned.pdf
+  md5: 94c34f1895450c7d0453d35ffac3d734
+  filename: state-basedinitiatives-fg-lessonslearned.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.174512+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/statebasedinitiatives-lessonslearned.pdf
+  md5: c8545e32b10fca29cd162947e87678ec
+  filename: statebasedinitiatives-lessonslearned.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.178842+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/strongstart-enhancedprenatal-yr1evalrpt.pdf
+  md5: fc55fcde523d65d4fa6cbee40b4224d7
+  filename: strongstart-enhancedprenatal-yr1evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.187161+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/strongstart-prenatal-fg-finalevalrpt.pdf
+  md5: 1468aaba8be1d06ad02550b5ab5b8264
+  filename: strongstart-prenatal-fg-finalevalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.190423+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/cmmi/strongstart-prenatal-finalevalrpt-v1.pdf
+  md5: bc9bd0a89fb6346862ec0cf4aed22e95
+  filename: strongstart-prenatal-finalevalrpt-v1.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.225756+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/cmmi/strongstart-prenatal-finalevalrpt-v2.pdf
+  md5: c374f6863bccb886dfb07c7a32a841ae
+  filename: strongstart-prenatal-finalevalrpt-v2.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.266701+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/cciio/programs-and-initiatives/premium-stabilization-programs/downloads/summary-reinsurance-payments-2014.pdf
+  md5: 5904dd14ec4bcc1e64a31b69dbfccd6f
+  filename: summary-reinsurance-payments-2014.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.272021+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/cciio/programs-and-initiatives/premium-stabilization-programs/downloads/summary-reinsurance-payments-risk-2016.pdf
+  md5: 065051edb946f1eb3eab798100d42454
+  filename: summary-reinsurance-payments-risk-2016.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.277560+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/vbid-yr1-evalrpt-fg.pdf
+  md5: 2703a52e285bcaee24dcbbcdbeca05a3
+  filename: vbid-yr1-evalrpt-fg.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.281269+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/vbid-yr1-evalrpt.pdf
+  md5: aba76abe9a42f300763ddccab34152ce
+  filename: vbid-yr1-evalrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.287567+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
+- url: https://www.cms.gov/priorities/innovation/files/reports/wa-faimffs-firstannualrpt.pdf
+  md5: 36d5dfec0be0079ddb65f16df44f64eb
+  filename: wa-faimffs-firstannualrpt.pdf
+  site: cms.gov
+  crawled_at: '2026-05-16T20:16:49.292283+00:00'
+  status: pending
+  report: null
+  errors: []
+  notes: Just exploring.
