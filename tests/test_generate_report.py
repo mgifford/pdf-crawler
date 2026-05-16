@@ -17,6 +17,7 @@ from generate_report import (
     generate_csv,
     generate_html,
     generate_markdown,
+    generate_structured_json,
     generate_issue_comment,
     generate_reports_index_html,
     main as generate_main,
@@ -189,6 +190,7 @@ def test_issue_comment_contains_report_links():
     )
     assert "report.md" in comment
     assert "report.json" in comment
+    assert "report_structured.json" in comment
     # Without archive_name the cumulative report.html should be linked
     assert "report.html" in comment
     assert "reports.html" in comment
@@ -343,6 +345,19 @@ def test_generate_csv_external_domain_empty_for_same_site_pdf():
     col_idx = header.index("external_domain")
     row = lines[1].split(",")
     assert row[col_idx] == ""
+
+
+def test_generate_structured_json_shape():
+    entry = _make_entry("https://example.com/doc.pdf")
+    stats = _summary_stats([entry])
+    data = generate_structured_json([entry], stats)
+    assert "generated_at" in data
+    assert "summary" in data
+    assert "files" in data
+    assert len(data["files"]) == 1
+    first = data["files"][0]
+    assert "structured_report" in first
+    assert "structured_report_compatible" in first
 
 
 def test_issue_comment_shows_ext_label_for_external_pdf():

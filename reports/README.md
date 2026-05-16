@@ -7,6 +7,7 @@ This directory stores the outputs produced by the crawl and analysis workflows.
 | `manifest.yaml` | YAML tracking file – one entry per discovered PDF with URL, MD5 hash, crawl timestamp, and accessibility results |
 | `report.md` | Human-readable Markdown report generated from the manifest |
 | `report.json` | Machine-readable JSON report |
+| `report_structured.json` | Structured JSON report with rule categories (`Summary`, `Detailed Report`, `PDF Metadata`) for each analysed file |
 
 ## manifest.yaml schema
 

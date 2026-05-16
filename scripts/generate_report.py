@@ -4,6 +4,7 @@ Report generator.
 Reads the YAML manifest and produces:
   - reports/report.md   – human-readable Markdown summary
   - reports/report.json – machine-readable JSON summary
+  - reports/report_structured.json – structured rule-based JSON summary
   - reports/report.csv  – CSV for spreadsheet consumption
 
 Usage:
@@ -26,6 +27,7 @@ from urllib.parse import urlparse
 
 sys.path.insert(0, str(Path(__file__).parent))
 from manifest import load_manifest
+from structured_report import build_json_report
 
 
 # ---------------------------------------------------------------------------
@@ -35,6 +37,61 @@ from manifest import load_manifest
 _PASS = "✅ Pass"
 _FAIL = "❌ Fail"
 _NA = "—"
+
+
+def generate_structured_json(entries: List[Dict[str, Any]], stats: Dict[str, Any]) -> Dict[str, Any]:
+    """Return structured-report JSON for analysed manifest entries.
+
+    Args:
+        entries: Manifest entries loaded from ``reports/manifest.yaml``.
+            Only entries with ``status == "analysed"`` are included in the
+            structured output.
+        stats: Aggregate summary stats produced by ``_summary_stats``.
+
+    Returns:
+        A dictionary with:
+            - ``generated_at`` timestamp
+            - ``summary`` counts for total/analysed/structured files
+            - ``files`` list where each item includes:
+                - file identity fields (url/filename/site/status)
+                - ``structured_report`` (normal mode)
+                - ``structured_report_compatible`` (compatible mode)
+    """
+    files: List[Dict[str, Any]] = []
+    for e in entries:
+        if e.get("status") != "analysed":
+            continue
+        report = dict(e.get("report") or {})
+        report.setdefault("File", e.get("filename"))
+        report.setdefault("Site", e.get("site"))
+        files.append(
+            {
+                "url": e.get("url", ""),
+                "filename": e.get("filename", ""),
+                "site": e.get("site", ""),
+                "status": e.get("status", ""),
+                "structured_report": build_json_report(
+                    report,
+                    compatible=False,
+                    debug=False,
+                ),
+                "structured_report_compatible": build_json_report(
+                    report,
+                    compatible=True,
+                    debug=False,
+                ),
+            }
+        )
+
+    return {
+        "generated_at": stats.get("generated_at"),
+        "summary": {
+            "total_files": stats.get("total_files", 0),
+            "analysed": stats.get("analysed", 0),
+            "files_with_structured_report": len(files),
+        },
+        "files": files,
+    }
 
 
 def _fmt(value) -> str:
@@ -506,6 +563,7 @@ def generate_issue_comment(
         f"- [Reports history]({pages_base}/reports.html)",
         f"- [Markdown report]({pages_base}/reports/report.md)",
         f"- [JSON report]({pages_base}/reports/report.json)",
+        f"- [Structured JSON report]({pages_base}/reports/report_structured.json)",
         f"- [CSV report]({pages_base}/reports/report.csv)",
         f"- [Crawled URLs CSV]({pages_base}/reports/crawled_urls.csv)",
         f"- [YAML manifest]({pages_base}/reports/manifest.yaml)",
@@ -1500,6 +1558,14 @@ def main(
     )
     print(f"Written: {json_path}")
 
+    # Structured JSON report (all analysed files)
+    structured_json_path = out_dir / "report_structured.json"
+    structured_data = generate_structured_json(entries, stats)
+    structured_json_path.write_text(
+        json.dumps(structured_data, indent=2, default=str), encoding="utf-8"
+    )
+    print(f"Written: {structured_json_path}")
+
     # CSV report (full, all sites)
     csv_path = out_dir / "report.csv"
     csv_path.write_text(generate_csv(entries), encoding="utf-8")
@@ -1586,6 +1652,10 @@ def main(
         pages_json = archive_out / "report.json"
         shutil.copy2(json_path, pages_json)
         print(f"Copied:  {pages_json}")
+
+        pages_structured_json = archive_out / "report_structured.json"
+        shutil.copy2(structured_json_path, pages_structured_json)
+        print(f"Copied:  {pages_structured_json}")
 
         pages_csv = archive_out / "report.csv"
         shutil.copy2(csv_path, pages_csv)
