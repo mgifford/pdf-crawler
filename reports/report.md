@@ -1,19 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-05-16T20:10:26.894814+00:00
+Generated: 2026-05-16T20:59:05.678893+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19338 |
-| Analysed | 5776 |
-| Pending analysis | 8724 |
-| Errors during analysis | 4838 |
-| Accessible | 1807 |
+| Total files tracked | 19536 |
+| Analysed | 5873 |
+| Pending analysis | 8822 |
+| Errors during analysis | 4841 |
+| Accessible | 1870 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
-| Exempt (pre-2018) | 1427 |
+| Exempt (pre-2018) | 1487 |
 
 ## Files per Site
 
@@ -31,7 +31,7 @@ Generated: 2026-05-16T20:10:26.894814+00:00
 | canada.ca | 496 |
 | careerforce.mn.gov | 9 |
 | circuit19.org | 39 |
-| cms.gov | 460 |
+| cms.gov | 658 |
 | coloradoboces.org | 48 |
 | coloradomesa.edu | 88 |
 | ctoec.org | 1742 |
@@ -5861,6 +5861,104 @@ Generated: 2026-05-16T20:10:26.894814+00:00
 | [Zoom-Behavior-1.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Behavior-1.pdf) | circuit19.org | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [Zoom-Flyer-Judge-White-IRC-WP.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Flyer-Judge-White-IRC-WP.pdf) | circuit19.org | 2025-01-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181 | 1 |
 | [Zoom-Link-2024-09-25.pdf](https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Link-2024-09-25.pdf) | circuit19.org | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
+| [-0506vaccreimburs033006.pdf](https://www.cms.gov/medicare/prevention/immunizations/downloads/-0506vaccreimburs033006.pdf) | cms.gov | 2006-03-30 | 2006 | 312e | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 3 | 397 | 0 |
+| [-marx_redesign_and_modernization_handbook.pdf](https://www.cms.gov/research-statistics-data-and-systems/cms-information-technology/mapdhelpdesk/downloads/-marx_redesign_and_modernization_handbook.pdf) | cms.gov | 2011-04-13 | MARx RM Plan Handbook | CMS | MARx Sytem Requirement | Handbook, Redesign, Modernization | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 71 | 17876 | 2 |
+| [-pdp_enrollmentguidance%20exhibits_sep082006.pdf](https://www.cms.gov/medicare/prescription-drug-coverage/prescriptiondrugcovcontra/downloads/-pdp_enrollmentguidance%20exhibits_sep082006.pdf) | cms.gov | 2006-09-12 | Medicare Managed Care Manual | CMS | Chapter 2 - Medicare + Choice Enrollment and Disenrollment | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | 139 | 46873 | 181 |
+| [-resultsthrusept2005-onepager-112105v3.pdf](https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/-resultsthrusept2005-onepager-112105v3.pdf) | cms.gov | 2005-11-22 | DEPARTMENT OF HEALTH & HUMAN SERVICES | Graphics | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 461 | 0 |
+| [-state_universe_comparison_guidance-0.pdf](https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/medicare-ffs-compliance-programs/perm/downloads/-state_universe_comparison_guidance.pdf) | cms.gov | 2010-02-23 | — | CMS | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 348 | 3 |
+| [-state_universe_comparison_guidance-1.pdf](https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/perm/downloads/-state_universe_comparison_guidance.pdf) | cms.gov | 2010-02-23 | — | CMS | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 348 | 3 |
+| [-state_universe_comparison_guidance.pdf](https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/medicaid-and-chip-compliance/perm/downloads/-state_universe_comparison_guidance.pdf) | cms.gov | 2010-02-23 | — | CMS | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 348 | 3 |
+| [10-25-2018-cms-5528-anprm.pdf](https://www.cms.gov/files/document/10-25-2018-cms-5528-anprm.pdf) | cms.gov | 2018-10-25 | Medicare Program; International Pricing Index Model for Medicare Part B Drugs | HHS/CMS | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 61 | 15173 | 2 |
+| [1_review_and_discussion_slides.pdf](https://www.cms.gov/cciio/programs-and-initiatives/premium-stabilization-programs/the-transitional-reinsurance-program/downloads/1_review_and_discussion_slides.pdf) | cms.gov | 2016-11-04 | 2016 Reinsurance Contributions Review and Discussion Session | CMS | Submission of Annual Enrollment and Contributions through Pay.gov | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 41 | 2321 | 103 |
+| [advpayaco-fnevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/advpayaco-fnevalrpt.pdf) | cms.gov | 2017-03-28 | — | Kathryn Linehan | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 115 | 40129 | 129 |
+| [aim-fg-firstannrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/aim-fg-firstannrpt.pdf) | cms.gov | 2018-08-28 | PowerPoint Presentation | SHANNON FLOOD | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 557 | 5 |
+| [aim-firstannrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/aim-firstannrpt.pdf) | cms.gov | 2018-08-28 | AIM Impacts in the First Performance Year | Centers for Medicare & Medicaid Services;Center for Medicare and Medicaid Innovation | {'Shared Savings Program', 'ACO evaluation', 'ACO payments', 'ACO Investment Model', 'accountable care organization', 'advanced payment', 'rural ACOs', 'ACO'} | accountable care organization, ACO, rural ACOs, Shared Savings Program, advanced payment, ACO Investment Model, ACO payments, ACO evaluation | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 69 | 28631 | 20 |
+| [aim-second-annrpt-0.pdf](https://www.cms.gov/priorities/innovation/files/reports/aim-second-annrpt.pdf) | cms.gov | 2019-09-09 | ACO Investment Model (AIM) Evaluation of the First Two AIM Performance Years | Centers for Medicare and Medicaid Services; Center for Medicare and Medicaid Innovation; CMS; Abt Associates | {'Shared Savings Program', 'SSP', 'rural ACO', 'ACO evaluation', 'ACO Investment Model', 'Accountable Care Organization', 'ACO', 'CMS', 'ACO payments', 'AIM'} | ACO; Accountable Care Organization; AIM; ACO Investment Model; SSP; Shared Savings Program; CMS; rural ACO; ACO payments; ACO evaluation | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 91 | 41417 | 23 |
+| [aim-second-annrpt-fg.pdf](https://www.cms.gov/priorities/innovation/files/reports/aim-second-annrpt-fg.pdf) | cms.gov | 2019-09-09 | ACO Investment Model (AIM) Evaluation of the First Two AIM Performance Years | {'Abt Associates', 'CMS', 'Center for Medicare and Medicaid Innovation', 'Centers for Medicare and Medicaid Services'} | {'Shared Savings Program', 'SSP', 'rural ACO', 'ACO evaluation', 'ACO Investment Model', 'Accountable Care Organization', 'ACO', 'CMS', 'ACO payments', 'AIM'} | ACO; Accountable Care Organization; AIM; ACO Investment Model; SSP; Shared Savings Program; CMS; rural ACO; ACO payments; ACO evaluation | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 635 | 9 |
+| [aim-second-annrpt.pdf](https://www.cms.gov/priorities/innovation/aim-second-annrpt.pdf) | cms.gov | 2019-09-09 | ACO Investment Model (AIM) Evaluation of the First Two AIM Performance Years | Centers for Medicare and Medicaid Services; Center for Medicare and Medicaid Innovation; CMS; Abt Associates | {'Shared Savings Program', 'SSP', 'rural ACO', 'ACO evaluation', 'ACO Investment Model', 'Accountable Care Organization', 'ACO', 'CMS', 'ACO payments', 'AIM'} | ACO; Accountable Care Organization; AIM; ACO Investment Model; SSP; Shared Savings Program; CMS; rural ACO; ACO payments; ACO evaluation | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 91 | 41417 | 23 |
+| [alert-change-in-recovery-threshold-for-certain-liability-insurance.pdf](https://www.cms.gov/medicare/coordination-of-benefits-and-recovery/coordination-of-benefits-and-recovery-overview/non-group-health-plan-recovery/downloads/alert-change-in-recovery-threshold-for-certain-liability-insurance.pdf) | cms.gov | 2014-02-28 | DEPARTMENT OF HEALTH & HUMAN SERVICES | Graphics | Change in Recovery Threshold for Certain Liability Settlements, Judgments Awards, or Other Payments | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 202 | 1 |
+| [appeals-settlement-external-process-flow-diagram-.pdf](https://www.cms.gov/medicare/appeals-and-grievances/orgmedffsappeals/appeals-settlement-initiatives/appeals-settlement-external-process-flow-diagram-.pdf) | cms.gov | 2019-06-13 | PowerPoint Presentation | STEVE FORRY | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 155 | 0 |
+| [average-monthly-premiums-slcsp-lcp-2016-2019.pdf](https://www.cms.gov/files/document/average-monthly-premiums-slcsp-lcp-2016-2019.pdf) | cms.gov | 2018-10-11 | — | ARIEL NOVICK | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 783 | 0 |
+| [biographical-data-injection-safety-wbt.pdf](https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnedwebguide/downloads/biographical-data-injection-safety-wbt.pdf) | cms.gov | 2020-01-08 | "Infection Prevention and Control Series" CMSCE Authors & Disclosures | CMS/CM/PCG/DPIPD | {'Infection Prevention and Control Series', 'CMSCE Authors & Disclosures'} | "Infection Prevention and Control Series" CMSCE Authors & Disclosures | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 291 | 1 |
+| [bpci-mdl1yr2annrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/bpci-mdl1yr2annrpt.pdf) | cms.gov | 2017-03-31 | BPCI Annual Report | CMS | {'BPCI', 'annual report', 'CMS'} | BPCI, annual report, CMS | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 119 | 35181 | 257 |
+| [bpci-models2-4-yr2evalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/bpci-models2-4-yr2evalrpt.pdf) | cms.gov | 2016-09-19 | CMS Bundled Payments for Care Improvement Initiative Models 2-4: Year 2 Evaluation & Monitoring Annual Report August 2016 | The Lewin Group | {'Conclusions', 'Methods', 'Model 3 Results', 'CMS Bundled Payments for Care Improvement Initiative Models 2-4: Year 2 Evaluation & Monitoring Annual Report', 'Results', 'Model 2 Results', 'August 2016', 'Data and Methods', 'Study Populations', 'Model 4 Results', 'Data Sources', 'Limitations', 'Market Dynamics', 'Analytical Methods', 'Outcome Measures', 'Future Analyses', 'Impact of BPCI', 'BPCI Initiative', 'Research Questions', 'Analytic Framework', 'Discussion', 'The Lewin Group'} | CMS Bundled Payments for Care Improvement Initiative Models 2-4: Year 2 Evaluation & Monitoring Annual Report, August 2016, The Lewin Group, Methods, Model 2 Results, Model 3 Results, Model 4 Results, Analytic Framework, Data and Methods,  Results, Discussion, Conclusions, BPCI Initiative, Research Questions, Data Sources, Study Populations, Outcome Measures, Analytical Methods, Impact of BPCI, Market Dynamics,  Limitations, Future Analyses, Conclusions, | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 256 | 108437 | 266 |
+| [bpci-models2-4-yr4evalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/bpci-models2-4-yr4evalrpt.pdf) | cms.gov | 2018-06-22 | CMS_BPCI_Initiative_Models_2-3:_Year_4_Evaluation_&_Monitoring_Annual_Report | The Lewin Group | {'BPCI Year 4 Annual Report'} | CMS; BPCI; Initiative; Models 2-3; Year 4 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 86 | 33724 | 85 |
+| [bpci-models2-4-yr5evalrpt.pdf](https://www.cms.gov/priorities/innovation/files/cmmi/bpci-models2-4-yr5evalrpt.pdf) | cms.gov | 2018-10-02 | CMS_BPCI_Models_2-4:_Year_5_Evaluation_&_Monitoring_Annual_Report | The Lewin Group | {'Year 5 Evaluation & Monitoring Annual Report'} | Bundled Payments for Care Improvement; BPCI; CMS; Evaluation; Annual Report | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 169 | 69796 | 182 |
+| [bpci2-4-fg-evalyrs1-3.pdf](https://www.cms.gov/priorities/innovation/files/reports/bpci2-4-fg-evalyrs1-3.pdf) | cms.gov | 2018-10-02 | BPCI Findings at a Glance | The Lewin Group | BPCI Initiative Models 2-4 | CMS; CMMI; BPCI; BPCI Models 2-4; Findings | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 672 | 8 |
+| [cctp-annualrpt1.pdf](https://www.cms.gov/priorities/innovation/files/reports/cctp-annualrpt1.pdf) | cms.gov | 2014-12-22 | CCTP First Annual Report | CMS | — | CCTP, CMS, CMMI, care transitions | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 111 | 40472 | 2 |
+| [cec-annrpt-py1.pdf](https://www.cms.gov/priorities/innovation/files/reports/cec-annrpt-py1.pdf) | cms.gov | 2018-04-16 | Comprehensive_End_Stage_Renal_Disease_Care_(CEC)_Model | CMS, The Lewin Group | {'Performance Year 1 Annual Evaluation Report'} | Research, ESCOs, Findings, Methods, Results, | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 116 | 45941 | 214 |
+| [cec-annrpt-py2-fg.pdf](https://www.cms.gov/priorities/innovation/files/reports/cec-annrpt-py2-fg.pdf) | cms.gov | 2019-08-29 | CEC PY2 Annual Evaluation Report 508 New Graphs | CMS, The Lewin Group | Findings at a Glance | Findings, Payments, Utilization, Quality, Takeaways | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 598 | 16 |
+| [cec-annrpt-py2.pdf](https://www.cms.gov/priorities/innovation/files/reports/cec-annrpt-py2.pdf) | cms.gov | 2019-08-29 | Comprehensive_End_Stage_Renal_Disease_Care_(CEC)_Model | CMS, The Lewin Group | Performance Year 1 Annual Evaluation Report | Research, ESCOs, Findings, Methods, Results, | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 117 | 42374 | 164 |
+| [chronic-care-mngmt-finalevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/chronic-care-mngmt-finalevalrpt.pdf) | cms.gov | 2018-01-25 | Evaluation of the Diffusion and Impact of the Chronic Care Management (CCM) Services: Final Report | Mathematica Policy Research; Insight Policy Research | {'Medicare, CCM, chronic condition management, chronic care management services, CMS, 99490, 99487, 99489'} | "Medicare, CCM, chronic condition management, chronic care management services, CMS, 99490, 99487, 99489" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 138 | 41005 | 18 |
+| [chronicallycriticallyillpopulation-report.pdf](https://www.cms.gov/priorities/innovation/files/reports/chronicallycriticallyillpopulation-report.pdf) | cms.gov | 2014-05-19 | Chronically Critically Ill Population Payment Recommendations | Centers for Medicare & Medicaid Services | {'transfer', 'chronically critically ill', 'Long-term care hospital', 'Medicare', 'payment', 'LTCH'} | Long-term care hospital,Medicare,payment,chronically critically ill,LTCH,transfer | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 175 | 60186 | 30 |
+| [cjr-fg-firstannrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/cjr-fg-firstannrpt.pdf) | cms.gov | 2018-08-31 | Comprehensive Care for Joint Replacement (CJR) Model | CMMI/REG | {'Findings at a Glance'} | Findings at a Glance | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 588 | 4 |
+| [cjr-fg-secondannrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/cjr-fg-secondannrpt.pdf) | cms.gov | 2019-06-26 | Findings at a Glance - CJR Model | The Lewin Group | Evaluation of Performance Years 1  2 (201 6 - 2017) | Centers for Medicare  Medicaid Services (CMS); Center for Medicare  Medicaid Innovation (CMMI); Comprehensive care for joint replacement model (CJR); Lower extremity joint replacement (LEJR); Annual report; Evaluation; Bundled payments; Bundles; Payment reform; Health policy; Quality of care; Medicare savings; Volume; Care redesign; Post-acute care; Utilization; Findings | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 898 | 3 |
+| [cjr-firstannrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/cjr-firstannrpt.pdf) | cms.gov | 2018-08-30 | CMS_CJR_Model:_Performance_Year_1_Evaluation_Report | The Lewin Group | {'First Annual Report'} | CMS; Comprehensive Care for Joint Replacement (CJR); lower extremity joint replacements (LEJR); Annual Report | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 75 | 29449 | 89 |
+| [cjr-secondannrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/cjr-secondannrpt.pdf) | cms.gov | 2019-06-26 | CMS Comprehensive Care for Joint Replacement Model: Second Annual Report | The Lewin Group: CMS: CMMI | {'Centers for Medicare  Medicaid Services (CMS); Center for Medicare  Medicaid Innovation (CMMI); Comprehensive care for joint replacement model (CJR); Lower extremity joint replacement (LEJR); Annual report; Evaluation; Bundled payments; Bundles; Payment reform; Health policy; Quality of care; Medicare savings; Volume; Care redesign; Post-acute care; Utilization; Knee; Hip'} | "Centers for Medicare  Medicaid Services (CMS); Center for Medicare  Medicaid Innovation (CMMI); Comprehensive care for joint replacement model (CJR); Lower extremity joint replacement (LEJR); Annual report; Evaluation; Bundled payments; Bundles; Payment reform; Health policy; Quality of care; Medicare savings; Volume; Care redesign; Post-acute care; Utilization; Knee; Hip" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 100 | 36008 | 160 |
+| [cmhcb-healthbuddymontefiore.pdf](https://www.cms.gov/priorities/innovation/files/reports/cmhcb-healthbuddymontefiore.pdf) | cms.gov | 2014-04-11 | Evaluation of the Extended Medicare Care Management for High Cost Beneficiaries (CMHCB) Demonstration: Health Buddy® Program at Montefiore | Centers for Medicare & Medicaid Services | {'care management', 'CMHCB Demonstration', 'Medicare'} | Medicare,care management,CMHCB Demonstration | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 151 | 52148 | 6 |
+| [cmhcb-healthbuddywest.pdf](https://www.cms.gov/priorities/innovation/files/reports/cmhcb-healthbuddywest.pdf) | cms.gov | 2014-04-11 | Evaluation of the Extended Medicare Care Management for High Cost Beneficiaries (CMHCB) Demonstration: Health Buddy® West Program | Centers for Medicare & Medicaid Services | {'care management', 'CMHCB Demonstration', 'Medicare'} | Medicare,care management,CMHCB Demonstration | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 151 | 54454 | 8 |
+| [cmhcb-massgen.pdf](https://www.cms.gov/priorities/innovation/files/reports/cmhcb-massgen.pdf) | cms.gov | 2014-04-11 | Evaluation of the Extended Medicare Care Management for High Cost Beneficiaries (CMHCB) Demonstration: Massachusetts General Hospital (MGH) | Centers for Medicare & Medicaid Services | {'care management', 'CMHCB Demonstration', 'Medicare'} | Medicare, care management, CMHCB Demonstration | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 183 | 68553 | 9 |
+| [cmhcb-villagehealth.pdf](https://www.cms.gov/priorities/innovation/files/reports/cmhcb-villagehealth.pdf) | cms.gov | 2014-04-11 | Evaluation of the Extended Medicare Care Management for High Cost Beneficiaries (CMHCB) Demonstration: VillageHealth’s Key to Better Health (KTBH) | Centers for Medicare & Medicaid Services | {'care management', 'CMHCB Demonstration', 'Medicare'} | Medicare,care management,CMHCB Demonstration | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 150 | 54232 | 70 |
+| [cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_english.pdf](https://www.cms.gov/about-cms/agency-information/office-of-minority-health/cms-omh-mailings/cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_english.pdf) | cms.gov | 2014-03-25 | — | Eskedar Dejene | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 721 | 1 |
+| [cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_spanish.pdf](https://www.cms.gov/about-cms/agency-information/office-of-minority-health/cms-omh-mailings/cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_spanish.pdf) | cms.gov | 2014-03-26 | — | Patricia Willis | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 3 | 814 | 1 |
+| [communitywellnessprgms-frstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/communitywellnessprgms-frstevalrpt.pdf) | cms.gov | 2016-07-12 | Wellness Prospective Evaluation Report on Baseline Survey Efforts and Qualitative Study of Program Operations and Costs | Acumen; LLC (for Centers for Medicare & Medicaid Innovation) | {'This interim report presents findings on baseline survey efforts and qualitative study of program operations and costs from data collected through June 30', '2015.'} | This interim report presents findings on baseline survey efforts and qualitative study of program operations and costs from data collected through June 30; 2015. | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 91 | 32261 | 50 |
+| [communitywellnessrtc.pdf](https://www.cms.gov/priorities/innovation/files/reports/communitywellnessrtc.pdf) | cms.gov | 2013-12-09 | — | BENJAMIN HOWELL | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | 87 | 25155 | 0 |
+| [cpc-primary-care-first-table.pdf](https://www.cms.gov/files/document/cpc-primary-care-first-table.pdf) | cms.gov | 2019-04-22 | — | Jeremy Booth | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 530 | 4 |
+| [cpci-evalrpt1.pdf](https://www.cms.gov/priorities/innovation/files/reports/cpci-evalrpt1.pdf) | cms.gov | 2015-01-23 | Evaluation of the Comprehensive Primary Care Initiative:  First Annual Report | Mathematica Policy Research | {'patient-centered medical home, advanced primary care, primary care redesign, practice transformation, care management, multipayer, Comprehensive Primary Care Initiative,  CPC, innovative payment approaches, evaluation'} | "patient-centered medical home, advanced primary care, primary care redesign, practice transformation, care management, multipayer, Comprehensive Primary Care Initiative,  CPC, innovative payment approaches, evaluation" | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 196 | 82790 | 3 |
+| [cpci-evalrpt2.pdf](https://www.cms.gov/priorities/innovation/files/reports/cpci-evalrpt2.pdf) | cms.gov | 2016-04-13 | Evaluation of the Comprehensive Primary Care Initiative: Second Annual Report | CMS | Two-year evaluation results of the Comprehensive Primary Care Initiative | Comprehensive Primary Care Initiative, advanced primary care, risk-stratified care management, patient centered medical home, Medicare fee for service, health information technology, propensity score matching | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 223 | 92076 | 7 |
+| [cpci-evalrpt3.pdf](https://www.cms.gov/priorities/innovation/files/reports/cpci-evalrpt3.pdf) | cms.gov | 2016-12-19 | Evaluation of the Comprehensive Primary Care Initiative: Third Annual Report | Mathematica | Three-year evaluation results of the Comprehensive Primary Care Initiative | Comprehensive Primary Care Initiative, advanced primary care, risk-stratified care management, patient centered medical home, Medicare fee for service, multi-payer, health information technology, propensity score matching | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 270 | 119087 | 4 |
+| [cpcplus-fg-firstannrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/cpcplus-fg-firstannrpt.pdf) | cms.gov | 2019-04-22 | Evaluation of the Comprehensive Primary Care Plus Initiative (CPC+): First Annual Report Findings at a Glance | {'Mathematica Policy Research'} | {'quality-of-care outcomes', 'advanced primary care', 'data feedback', 'care delivery requirements', 'CPC Plus', 'comprehensiveness and coordination', 'payment reform."', 'findings at a glance', 'CPC+', 'Medicare fee-for-service', 'learning supports', 'first annual report', 'planned care and population health', 'health information technology', 'access and continuity', 'patient-centered medical home model', 'risk-stratified care management', 'patient and caregiver engagement', 'multi-payer', 'enhanced payment', 'value-based purchasing'} | "Comprehensive Primary Care Plus | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 600 | 0 |
+| [cpcplus-first-ann-rpt.pdf](https://www.cms.gov/priorities/innovation/files/cmmi/cpcplus-first-ann-rpt.pdf) | cms.gov | 2019-05-13 | Independent Evaluation of Comprehensive Primary Care Plus: First Annual Report | Mathematica Policy Research | {'quality-of-care outcomes', 'advanced primary care', 'data feedback', 'care delivery requirements', 'CPC Plus', 'comprehensiveness and coordination', 'payment reform"', 'CPC+', 'Medicare fee-for-service', 'learning supports', 'first annual report', 'planned care and population health', 'health information technology', 'access and continuity', 'patient-centered medical home model', 'risk-stratified care management', 'patient and caregiver engagement', 'multi-payer', 'enhanced payment', 'value-based purchasing'} | "Comprehensive Primary Care Plus | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 79 | 25890 | 73 |
+| [cptd-final.pdf](https://www.cms.gov/priorities/innovation/files/reports/cptd-final.pdf) | cms.gov | 2013-11-19 | Evaluation of the Cancer Prevention and Treatment Demonstration for Ethnic and Racial Minorities | Centers for Medicare & Medicaid Services | {'community health worker', 'patient navigator', 'health disparities', 'cancer screenings'} | patient navigator,community health worker,health disparities,cancer screenings | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 88 | 30865 | 0 |
+| [effectuated-enrollment-first-half-2018.pdf](https://www.cms.gov/files/document/effectuated-enrollment-first-half-2018.pdf) | cms.gov | 2018-11-28 | CMS NEWS | DHHS/CMS | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1333 | 1 |
+| [episode-payment-models-wp.pdf](https://www.cms.gov/priorities/innovation/files/reports/episode-payment-models-wp.pdf) | cms.gov | 2020-01-10 | CMS Innovation Center Episode Payment Models | Centers for Medicare & Medicaid Services (CMS), Center for Medicare and Medicaid Innovation (CMMI) | {'Synthesis', 'Target Prices', 'Bundled Payments', 'Attribution', 'Evaluation'} | Bundled Payments, Synthesis, Evaluation, Target Prices, Attribution | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 2953 | 2 |
+| [espc-final-report.pdf](https://www.cms.gov/priorities/innovation/files/reports/espc-final-report.pdf) | cms.gov | 2014-03-06 | Environmental Scanning and Program Characteristics Database—Task 5: ESPC Final Report | IMPAQ International LLC; Center for Medicare & Medicaid Innovation; Centers for Medicare & Medicaid Services | {'Task 5', 'Centers for Medicare & Medicaid Services', 'IMPAQ International LLC', 'Center for Medicare & Medicaid Innovation', 'Program Characteristics Database', 'ESPC Final Report', 'ESPC Database', 'Project Overview', 'Environmental Scanning', 'Analytic Study', 'ESPC Database Design', 'Summary Statistics'} | IMPAQ International LLC; Center for Medicare & Medicaid Innovation; Centers for Medicare & Medicaid Services; Environmental Scanning; Program Characteristics Database; Task 5; ESPC Final Report; Project Overview; ESPC Database; Analytic Study; ESPC Database Design; Summary Statistics; | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 40 | 13452 | 9 |
+| [esrd-eval-ptsat.pdf](https://www.cms.gov/priorities/innovation/files/reports/esrd-eval-ptsat.pdf) | cms.gov | 2015-01-28 | Evaluation of Patient Satisfaction and Experience of Care for Medicare Beneficiaries with End-Stage Renal Disease (ESRD): Impact of the ESRD Prospective Payment System (PPS) and ESRD Quality Incentive Program (QIP)Final Report | Acumen - Lynn Redington;Westat - Theresa Famolaro, Stephanie Fry, Jeff Kerwin, Stephanie Stratos, Anne Herleth, Hyunshik Lee | End-Stage Renal Disease Program Evaluation | End-Stage Renal Disease; ESRD; Patient Experience; Patient Satisfaction; Prospective Payment System; Quality Incentive Program | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 130 | 34636 | 2 |
+| [essential-health-benefits-rx-crosswalk-methodology-2017.pdf](https://www.cms.gov/marketplace/resources/data/essential-health-benefits-rx-crosswalk-methodology-2017.pdf) | cms.gov | 2016-03-21 | EHB Rx Crosswalk Methodology PY 2017 | Zippora Kiptanui | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 667 | 0 |
+| [external_guidance.pdf](https://www.cms.gov/priorities/innovation/files/x/external_guidance.pdf) | cms.gov | 2012-07-05 | Proposed Application of Alignment Principles for the Duals Managed Fee-for-Service (MFFS) Model and | C Powell | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 843 | 1 |
+| [fai-ca-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-ca-firstevalrpt.pdf) | cms.gov | 2018-11-27 | Financial Alignment Initiative California Cal MediConnect: First Evaluation Report | Center for Medicare & Medicaid Innovation | {'Financial Alignment Initiative', 'Medicare-Medicaid Plan', 'Financial Alignment demonstration', 'Cal MediConnect', 'Centers for Medicare & Medicaid Services', 'Evaluation report', 'California', 'demonstration', 'capitated', 'dual eligibles', 'Medicare-Medicaid eligible', 'Medicare-Medicaid Coordination Office'} | Evaluation report;Centers for Medicare & Medicaid Services;Medicare-Medicaid Coordination Office;Financial Alignment Initiative;Financial Alignment demonstration;dual eligibles;Medicare-Medicaid eligible;California;Cal MediConnect;capitated,Medicare-Medicaid Plan;demonstration | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 203 | 84078 | 10 |
+| [fai-carecoordination-issuebrief.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-carecoordination-issuebrief.pdf) | cms.gov | 2017-03-20 | Early Findings on Care Coordination in Capitated Medicare-Medicaid Plans under the Financial Alignment Initiative | Joshua M. Weiner, PhD; Galina Khatutsky, MS; Nga (Trini) Thach, BS; Angela Greene, MS, MBA; Amy Chepaitis, PhD; Catherine Ormond, MS; Sonja Hoover, MPP; RTI International; Eileen Griffin, JD; Maureen Booth, MPA; Elizabeth Gattine, JD; Kimberly Snow, MHSA; Muskie School of Public Service, University of Southern Maine; Ellen Bayer, MA; Scott Holladay, MPA; Diane Justice, MA; National Academy for State Health Policy | {'Financial Alignment Initiative', 'Medicare-Medicaid enrollees', 'dual eligibles', 'Medicare-Medicaid integration', 'Care Coordination'} | Financial Alignment Initiative;Care Coordination;Medicare-Medicaid integration;dual eligibles;Medicare-Medicaid enrollees | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 52 | 20033 | 0 |
+| [fai-co-prelimyr1savings.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-co-prelimyr1savings.pdf) | cms.gov | 2017-10-19 | Preliminary Savings Report for Colorado Managed Fee-for-Service (MFFS) Demonstration Period 1: Medicare-Medicaid Financial Alignment Initiative | Centers for Medicare & Medicaid Services | {'Medicare', 'savings', 'Colorado', 'Medicaid', 'dual eligible'} | Medicare;Medicaid;dual eligible;savings;Colorado | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 50 | 13736 | 0 |
+| [fai-co-prelimyr2savings.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-co-prelimyr2savings.pdf) | cms.gov | 2019-05-23 | Preliminary Savings Report for Colorado Managed Fee-for-Service (MFFS) Demonstration Period 2: Medicare-Medicaid Financial Alignment Initiative | Michael Sandler,; Lan Zhao,; Todd Trapnell;; Anthony Simms;; Alicia Nussbaum; Melissa Morley; Guiseppina Chiri" | {'Financial Alignment Initiative', 'Financial Alignment demonstration', 'MFFS', 'Centers for Medicare & Medicaid Services', 'demonstration', 'Colorado', 'dual eligibles', 'Medicare-Medicaid eligible', 'Savings report', 'Medicare-Medicaid Coordination Office', 'managed fee-for-service'} | Savings report;Centers for Medicare & Medicaid Services;Medicare-Medicaid Coordination Office;Financial Alignment Initiative;Financial Alignment demonstration;dual eligibles;Medicare-Medicaid eligible;Colorado;managed fee-for-service; MFFS;demonstration | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 85 | 23841 | 1 |
+| [fai-focusgroup-issuebrief.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-focusgroup-issuebrief.pdf) | cms.gov | 2017-03-20 | Beneficiary Experience: Early Findings from Focus Groups with Enrollees Participating in the Financial Alignment Initiative | Centers for Medicare & Medicaid Services (CMS) | {'Financial Alignment Initiative', 'dual eligibles', 'Medicare Medicaid enrollees', 'beneficiary rights and protections', 'care coordination', 'patient engagement', 'Financial Alignment Initiative satisfaction', 'access and utilization', 'beneficiary experience', 'quality of life'} | Financial Alignment Initiative,dual eligibles,Medicare Medicaid enrollees,care coordination,access and utilization,beneficiary experience,beneficiary rights and protections,quality of life,patient engagement,Financial Alignment Initiative satisfaction | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 45 | 18082 | 0 |
+| [fai-il-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-il-firstevalrpt.pdf) | cms.gov | 2018-11-27 | Financial Alignment Initiative, llinois Medicare-Medicaid Alignment Initiative, First Evaluation Report | Julie Fralich | {'Financial Alignment Initiative', 'Medicare Medicaid enrollees', 'Medicare Advantage Special Needs Plans', 'Illinois Medicare-Medicaid Alignment Program', 'Medicare Medicaid integration', 'dual eligibles', 'beneficiaries with behavioral health needs'} | Financial Alignment Initiative;Illinois Medicare-Medicaid Alignment Program;Medicare Medicaid integration;dual eligibles;Medicare Medicaid enrollees;Medicare Advantage Special Needs Plans;beneficiaries with behavioral health needs | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 172 | 51341 | 56 |
+| [fai-implementationrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-implementationrpt.pdf) | cms.gov | 2016-01-22 | Report on Early Implementation of Demonstrations under the Financial Alignment Initiative | Normandy Brangan | Early Implementation of Demonstrations under the Financial Alignment Initiative | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 40 | 14558 | 0 |
+| [fai-ma-secondevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-ma-secondevalrpt.pdf) | cms.gov | 2019-05-23 | Financial Alignment Initiative: Massachusetts One Care: Second Evaluation Report | Centers for Medicare & Medicaid Services | {'Financial Alignment Initiative', 'Medicare Medicaid enrollees', 'One Care Plans', 'MassHealth plus Medicare', 'care coordination', 'access and utilization', 'Medicare Medicaid integration', 'Medicare Cost and Utilization', 'beneficiaries with behavioral health needs', 'dual eligibles', 'Medicare cost savings', 'One Care', 'One Care enrollment'} | Financial Alignment Initiative;One Care;MassHealth plus Medicare;Medicare Medicaid integration;dual eligibles;Medicare Medicaid enrollees;care coordination;access and utilization;Medicare cost savings;Medicare Cost and Utilization;One Care enrollment;One Care Plans;beneficiaries with behavioral health needs | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 186 | 59741 | 22 |
+| [fai-ma-thirdevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-ma-thirdevalrpt.pdf) | cms.gov | 2019-05-23 | Financial Alignment Initiative: Massachusetts One Care: Third Evaluation Report | Centers for Medicare & Medicaid Services | {'Financial Alignment Initiative', 'Medicare Medicaid enrollees', 'One Care Plans', 'MassHealth plus Medicare', 'care coordination', 'access and utilization', 'Medicare Medicaid integration', 'Medicare Cost and Utilization', 'beneficiaries with behavioral health needs', 'dual eligibles', 'Medicare cost savings', 'One Care', 'One Care enrollment'} | Financial Alignment Initiative;One Care;MassHealth plus Medicare;Medicare Medicaid integration;dual eligibles;Medicare Medicaid enrollees;care coordination;access and utilization;Medicare cost savings;Medicare Cost and Utilization;One Care enrollment;One Care Plans;beneficiaries with behavioral health needs | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 152 | 46026 | 40 |
+| [fai-mi-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-mi-firstevalrpt.pdf) | cms.gov | 2019-09-24 | Financial Alignment Initiative Michigan MI Health Link First Evaluation Report | Scott Holladay, Ellen J. Bayer, Ira Dave, Cleo Kordomenos, Paul Moore, Joyce Wang, Emily Gillen, Giuseppina Chiri, Jill Akiyama, Allison Dorneo, Wayne Anderson, Melissa Morley, Angela M. Greene | {'Financial Alignment Initiative', 'Michigan MI Health Link', 'Medicare Medicaid enrollees', 'Medicare Advantage Special Needs Plans', 'Medicare Medicaid integration', 'dual eligibles', 'beneficiaries with behavioral health needs'} | Financial Alignment Initiative; Michigan MI Health Link; Medicare Medicaid integration;dual eligibles;Medicare Medicaid enrollees;Medicare Advantage Special Needs Plans;beneficiaries with behavioral health needs | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 171 | 50539 | 29 |
+| [fai-mn-firstannrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-mn-firstannrpt.pdf) | cms.gov | 2017-10-03 | Minnesota Demonstration to Align Administrative Functions for Improvements in Beneficiary Experience: Annual Report | Diana Justice;Edith Walsh;Angela M Greene;Melissa Morley;Sharon Long | Financial Alignment Initiative | Financial Alignment Initiative; Minnesota Senior Health Option (MSHO) program; Medicare Medicaid integration; dual eligibles; Medicare Medicaid enrollees; Medicare Advantage Special Needs Plans; beneficiaries with behavioral health needs | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 58 | 22611 | 7 |
+| [fai-mn-secondevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-mn-secondevalrpt.pdf) | cms.gov | 2018-11-27 | Minnesota Demonstration to Align Administrative Functions for Improvements in Beneficiary Experience, Second Evaluation Report | Diane Justice, Angela M Greene, Melissa Morley, Wayne L Anderson | {'Financial Alignment Initiative', 'Medicare Medicaid enrollees', 'Medicare Advantage Special Needs Plans', 'Medicare Medicaid integration', 'dual eligibles', 'Minnesota Senior Health Option (MSHO) program', 'beneficiaries with behavioral health needs'} | Financial Alignment Initiative;Minnesota Senior Health Option (MSHO) program;Medicare Medicaid integration;dual eligibles;Medicare Medicaid enrollees;Medicare Advantage Special Needs Plans;beneficiaries with behavioral health needs | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 85 | 22424 | 51 |
+| [fai-ny-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-ny-firstevalrpt.pdf) | cms.gov | 2019-09-24 | Financial Alignment Initiative New York Fully Integrated Duals Advantage (FIDA) Program First Evaluation Report | Julie Fralich | {'Financial Alignment Initiative', 'Medicare Medicaid enrollees', 'NY FIDA', 'care coordination', 'access and utilization', 'New York Fully Integrated Duals Advantage', 'Medicare Medicaid integration', 'LTSS', 'dual eligibles', 'MMPs', 'capitated model demonstration'} | Financial Alignment Initiative;New York Fully Integrated Duals Advantage;NY FIDA;Medicare Medicaid integration;capitated model demonstration;dual eligibles;Medicare Medicaid enrollees;MMPs;care coordination;access and utilization;LTSS | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 122 | 41300 | 27 |
+| [fai-oh-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-oh-firstevalrpt.pdf) | cms.gov | 2018-11-27 | Financial Alignment Initiative MyCare Ohio: First Evaluation Report | CMS | {'Financial Alignment Initiative', 'Medicare-Medicaid Plan', 'Financial Alignment demonstration', 'Centers for Medicare & Medicaid Services', 'Ohio', 'Evaluation report', 't', 'demonstration', 'capitated', 'dual eligibles', 'Medicare-Medicaid eligible', 'Medicare-Medicaid Coordination Office'} | Evaluation report;Centers for Medicare & Medicaid Services;Medicare-Medicaid Coordination Office;Financial Alignment Initiative;Financial Alignment demonstration;dual eligibles;Medicare-Medicaid eligible;Ohio;t;capitated,Medicare-Medicaid Plan;demonstration | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 185 | 58915 | 21 |
+| [fai-sc-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-sc-firstevalrpt.pdf) | cms.gov | 2019-09-24 | Financial Alignment Initiative South Carolina Healthy Connections Prime: First Evaluation Report | Centers for Medicare & Medicaid Services | {'Financial Alignment Initiative', 'Medicare Medicaid enrollees', 'capitated demonstration', 'South Carolina Healthy Connections Prime', 'Medicare Medicaid integration', 'Medicare-Me3dicaid Plans', 'dual eligibles', 'MMPs'} | Financial Alignment Initiative;Medicare Medicaid integration;dual eligibles;South Carolina Healthy Connections Prime;Medicare Medicaid enrollees;capitated demonstration;MMPs;Medicare-Me3dicaid Plans | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 170 | 53234 | 25 |
+| [fai-specialpop-issuebrief.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-specialpop-issuebrief.pdf) | cms.gov | 2017-03-20 | Issue Brief: Special Populations Enrolled in Demonstrations under the Financial Alignment Initiative | Wayne L. Anderson, Angela M. Greene; Catherine Ormond | {'Financial Alignment Initiative', 'long term services and supports', 'Medicare-Medicaid enrollees', 'CAHPS', 'behavioral health', 'special populations', 'dual eligibles', 'Washington Health Home Demonstration', 'One Care'} | Financial Alignment Initiative;Washington Health Home Demonstration;One Care;Medicare-Medicaid enrollees;dual eligibles;CAHPS;long term services and supports;behavioral health;special populations | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 37 | 14783 | 0 |
+| [fai-tx-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-tx-firstevalrpt.pdf) | cms.gov | 2019-05-23 | Financial Alignment Initiative Texas Dual Eligible Integrated Care Demonstration Project: First Evaluation Report | Centers for Medicare & Medicaid Services | {'Financial Alignment Initiative', 'Medicare Medicaid enrollees', 'MMPs', 'care coordination', 'Medicare Medicaid integration', 'access and utilization', 'LTSS', 'dual eligibles', 'Texas Dual Eligible Integrated Care Demonstration', 'capitated model demonstration', 'beneficiaries with behavioral health needs'} | Financial Alignment Initiative;Texas Dual Eligible Integrated Care Demonstration;Medicare Medicaid integration;capitated model demonstration;dual eligibles;Medicare Medicaid enrollees;MMPs;care coordination;access and utilization;LTSS;beneficiaries with behavioral health needs | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 122 | 36355 | 7 |
+| [fai-wa-finalyr1prelimyr2.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-wa-finalyr1prelimyr2.pdf) | cms.gov | 2017-07-27 | Report for Washington Managed Fee-for-Service (MFFS) Final Demonstration Year 1 and Preliminary Demonstration Year 2 Medicare Savings Estimates: Medicare-Medicaid Financial Alignment Initiative | Centers for Medicare & Medicaid Services; Center for Medicare & Medicaid Innovation | {'Washington', 'Medicaid', 'savings', 'Medicare'} | Washington;savings;Medicare;Medicaid | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 88 | 26189 | 0 |
+| [fai-wa-finalyr2preyr3.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-wa-finalyr2preyr3.pdf) | cms.gov | 2018-11-15 | Report for Washington Managed Fee-for-Service (MFFS) Final Demonstration Year 2 and Preliminary Demonstration Year 3 Medicare Savings Estimates: Medicare-Medicaid Financial Alignment Initiative | Centers for Medicare & Medicaid Services | {'Financial Alignment Initiative', 'Financial Alignment demonstration', 'Medicare', 'savings', 'Centers for Medicare & Medicaid Services', 'Washington', 'dual eligibles', 'Medicare-Medicaid eligible', 'Medicaid', 'Medicare-Medicaid Coordination Office'} | Centers for Medicare & Medicaid Services;Medicare-Medicaid Coordination Office;Financial Alignment Initiative;Financial Alignment demonstration;dual eligibles;Medicare-Medicaid eligible;Washington;savings;Medicare;Medicaid | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 102 | 28446 | 0 |
+| [fai-wa-finalyr3preyr4.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-wa-finalyr3preyr4.pdf) | cms.gov | 2019-09-24 | Financial Alignment Initiative 6-Month Report: One Care: MassHealth plus Medicare | Centers for Medicare & Medicaid Services | {'Financial Alignment Initiative', 'dual eligibles', 'Financial Alignment demonstration', 'Centers for Medicare & Medicaid Services', 'Massachusetts', 'demonstration', 'capitated', 'Implementation report', 'Medicare-Medicaid eligible', 'Medicare-Medicaid Coordination Office'} | Implementation report;Centers for Medicare & Medicaid Services;Medicare-Medicaid Coordination Office;Financial Alignment Initiative;Financial Alignment demonstration;dual eligibles;Medicare-Medicaid eligible;Massachusetts;capitated;demonstration | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 119 | 33796 | 0 |
+| [fai-wa-prelimppone.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-wa-prelimppone.pdf) | cms.gov | 2016-01-22 | Preliminary Findings from the Washington MFFS Demonstration | Centers for Medicare & Medicaid Services | {'Financial Alignment Initiative', 'Monitoring', 'Washington MFFS Demonstration', 'Medicare-Medicaid Enrollees', 'Measurement', 'Preliminary Findings', 'Evaluation'} | Measurement,Monitoring,Evaluation,Financial Alignment Initiative,Medicare-Medicaid Enrollees,Preliminary Findings,Washington MFFS Demonstration | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 88 | 24407 | 12 |
+| [fai-wa-secondevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-wa-secondevalrpt.pdf) | cms.gov | 2018-11-27 | Financial Alignment Initiative Washington Health Homes MFFS Demonstration: Second Evaluation Report | Diane Justice;Edith Walsh;Angela M Greene;Wayne Anderson;Melissa Morley | Financial Alignment Initiative | Financial Alignment Initiative; Washington Health Homes MFFS Demonstration; Medicaid health homes; Medicare Medicaid integration; dual eligibles; Medicare Medicaid enrollees; care coordination, access, and utilization; Medicare cost savings; Medicare Cost | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 162 | 45764 | 25 |
+| [fai-wa-thirdevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fai-wa-thirdevalrpt.pdf) | cms.gov | 2019-09-24 | Financial Alignment Initiative Washington Health Home MFFS Demonstration: Third Evaluation Report | Centers for Medicare & Medicaid Services; Center for Medicare & Medicaid Innovation | {'Financial Alignment Initiative', 'Medicare Medicaid enrollees', 'Medicare cost savings', 'Washington Health Homes MFFS Demonstration', 'access', 'care coordination', 'Medicare Medicaid integration', 'Medicare Cost', 'and utilization', 'dual eligibles', 'Medicaid health homes'} | Financial Alignment Initiative;Washington Health Homes MFFS Demonstration;Medicaid health homes;Medicare Medicaid integration;dual eligibles;Medicare Medicaid enrollees;care coordination, access, and utilization;Medicare cost savings;Medicare Cost | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 116 | 31444 | 23 |
+| [fqhc-scndevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fqhc-scndevalrpt.pdf) | cms.gov | 2015-07-13 | Evaluation of CMS' FQHC APCP Demonstration Final Second Annual Report | The RAND Corporation | {'Centers for Medicare & Medicaid Services', 'Advanced Primary Care Practice', 'patien centered medical home', 'RAND', 'APCP', 'FQHC', 'CMS', 'Demonstration', 'Evaluation', 'PCMH', 'Federally Qualified Health Center'} | FQHC, APCP, CMS, Centers for Medicare & Medicaid Services, Federally Qualified Health Center, Advanced Primary Care Practice, RAND, Evaluation, Demonstration, PCMH, patien centered medical home | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 204 | 65215 | 87 |
+| [fqhcevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/fqhcevalrpt.pdf) | cms.gov | 2015-03-06 | Evaluation of CMS’ FQHC APCP Demonstration Final First Annual Report | RAND Corporation for the Centers for Medicare & Medicaid Services | {'Centers for Medicare & Medicaid Services', 'Advanced Primary Care Practice', 'RAND', 'APCP', 'FQHC', 'CMS', 'Federally Qualified Health Center'} | FQHC, APCP, CMS, Centers for Medicare & Medicaid Services, Federally Qualified Health Center, Advanced Primary Care Practice, RAND | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 347 | 97674 | 83 |
+| [gne-final-eval-rpt-fg.pdf](https://www.cms.gov/priorities/innovation/files/reports/gne-final-eval-rpt-fg.pdf) | cms.gov | 2019-08-22 | Graduate Nursing Education (GNE) Demonstration Project Final Evaluation - Findings at a Glance | CMS | {'CMMI', 'Centers for Medicare & Medicaid Services', 'Center for Medicare & Medicaid Innovation', 'Final Evaluation', 'CMS', 'GNE'} | Graduate Nursing Education | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 607 | 16 |
+| [gne-final-eval-rpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/gne-final-eval-rpt.pdf) | cms.gov | 2019-08-22 | The Graduate Nurse Education Demonstration Project: Final Evaluation Report | IMPAQ International | {'CMMI', 'Centers for Medicare & Medicaid Services', 'Center for Medicare & Medical Innovation', 'Final Report', 'CMS', 'GNE', 'Evaluation'} | Graduate Nurse Education | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 121 | 40580 | 215 |
+| [gne-rtc.pdf](https://www.cms.gov/priorities/innovation/files/reports/gne-rtc.pdf) | cms.gov | 2018-06-08 | Evaluation of the Graduate Nurse Education Demonstration Project: Report to Congress | {'U.S. Department of Health and Human Services'} | {'Evaluation of the Graduate Nurse Education Demonstration Project:', 'Report to Congress'} | Evaluation of the Graduate Nurse Education Demonstration Project:
+Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 20 | 7638 | 0 |
+| [hcia-bhsa-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-bhsa-firstevalrpt.pdf) | cms.gov | 2015-03-09 | Evaluating the HCIA - Behavioral Health/Substance Abuse Awards: First Annual Report | Mathematica Policy Research | {'CMMI', 'program evaluation', 'uninsured', 'Medicare', 'telehealth', 'care coordination', 'mental health', 'integration', 'Medicaid', 'substance abuse'} | mental health, substance abuse, Medicaid, Medicare, uninsured, care coordination, integration, telehealth, program evaluation, CMMI | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 306 | 107896 | 8 |
+| [hcia-bhsa-secondevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-bhsa-secondevalrpt.pdf) | cms.gov | 2016-03-03 | Evaluating the HCIA – Behavioral Health/Substance Abuse Awards: Second Annual Report | Mathematica Policy Research | {'HCIA'} | HCIA | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 194 | 77620 | 23 |
+| [hcia-chspt-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-chspt-firstevalrpt.pdf) | cms.gov | 2015-04-06 | HCIA Complex / High-Risk Patient Targeting: First Annual Report | NORC | {'rapid cycle evaluation, high-risk, complex, awardees, HCIA, workforce, surveys, comparison groups, target populations, chronic conditions'} | "rapid cycle evaluation, high-risk, complex, awardees, HCIA, workforce, surveys, comparison groups, target populations, chronic conditions" | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 300 | 109735 | 52 |
+| [hcia-diseasespecific-thirdannrpt-addendum.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-diseasespecific-thirdannrpt-addendum.pdf) | cms.gov | 2017-08-03 | Health Care Innovation Awards Disease-Specific Evaluation | NORC | {'health care delivery; special populations; Alzheimer’s disease and dementia; cancer; cardiovascular disease and stroke; chronic pain; diabetes; end stage renal disease; pediatric asthma; mixed-methods analysi'} | "health care delivery; special populations; Alzheimer’s disease and dementia; cancer; cardiovascular disease and stroke; chronic pain; diabetes; end stage renal disease; pediatric asthma; mixed-methods analysi" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 81 | 19385 | 92 |
+| [hcia-ds-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-ds-firstevalrpt.pdf) | cms.gov | 2015-03-26 | Annual Report 1 - HCIA Disease-Specific Evaluation | NORC | {'Health Care Innovation Award, Disease Specific Evaluation, CMMI'} | "Health Care Innovation Award, Disease Specific Evaluation, CMMI" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 237 | 106596 | 18 |
+| [hcia-hospitalsetting-thirdannrpt-addendum.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-hospitalsetting-thirdannrpt-addendum.pdf) | cms.gov | 2017-08-02 | Evaluation of Hospital-Setting HCIA Awards: Addendum to the Third Annual Report | Centers for Medicare & Medicaid Services | {'HICA', 'hospital intervention', 'quantitative', 'mixed-methods', 'hospital innovation', 'evaluation', 'claims analyses'} | HICA; evaluation; quantitative; claims analyses; mixed-methods; hospital intervention; hospital innovation | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 32 | 6698 | 20 |
+| [hcia-pcrp-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-pcrp-firstevalrpt.pdf) | cms.gov | 2015-03-04 | Evaluation of Health Care Innovation Awards (HCIA): Primary Care Redesign Programs: First Annual Report | Mathematica Policy Research | {'Clinician Behavior', 'Workforce Development', 'Delivery Systems Innovation', 'Primary Care Redesign', 'Medicare', 'Implementation Evaluation', 'Impact Evaluation', 'Medicaid'} | Primary Care Redesign; Implementation Evaluation; Impact Evaluation; Delivery Systems Innovation; Clinician Behavior; Workforce Development; Medicare; Medicaid | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 235 | 92006 | 3 |
+| [hcia-primarycareredesign-thirdannrpt-addendum.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-primarycareredesign-thirdannrpt-addendum.pdf) | cms.gov | 2017-08-07 | Evaluation of Health Care Innovation Awards (HCIA): Primary Care Redesign Programs: Addendum to Third Annual Report | Mathematica Policy Research | {'Primary Care Redesign, Implementation Evaluation, Impact Evaluation, Delivery Systems Innovation, Clinician Behavior, Workforce Development, Medicare, Medicaid'} | "Primary Care Redesign, Implementation Evaluation, Impact Evaluation, Delivery Systems Innovation, Clinician Behavior, Workforce Development, Medicare, Medicaid" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 234 | 111496 | 120 |
+| [hcia-sdm-firstevalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-sdm-firstevalrpt.pdf) | cms.gov | 2014-10-30 | Evaluation of the Shared Decision Making (SDM) & Medication Management (MM) Health Care Innovation Awardees | Centers for Medicare & Medicaid Services | Annual Report One | Health Care Innovation Awards, Shared Decision Making, Medication Management, Evaluation | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 175 | 62786 | 3 |
+| [hcia-ymcadpp-evalrpt.pdf](https://www.cms.gov/priorities/innovation/files/reports/hcia-ymcadpp-evalrpt.pdf) | cms.gov | 2016-03-21 | Evaluation of the Health Care Innovation Awards: Community Resource Planning, Prevention, and Monitoring Second Annual Report: YMCA of the USA | Centers for Medicare & Medicaid Services | {'CMMI', 'Y-USA', 'Medicare', 'CMS', 'Medicaid', 'HCIA'} | Y-USA,CMS,CMMI,HCIA,Medicaid,Medicare | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 38 | 12838 | 10 |
+| [hhvbp-secann-rpt-fg.pdf](https://www.cms.gov/priorities/innovation/files/reports/hhvbp-secann-rpt-fg.pdf) | cms.gov | 2019-12-17 | Home Health Value-Based Purchasing Model Findings at a Glance - Evaluation of the First Two Performance Years | Arbor Research Collaborative for Health, Centers for Medicare and Medicaid Services, Center for Medicare and Medicaid Innovation | {'Facts at a Glance', 'Quality Measures', 'HHVBP', 'HHVBP Evaluation', 'Incentive Payment', 'Second Annual Report', 'Total Performance Score', 'OASIS', 'Home Health Value-Based Purchasing', 'HHCAHPS'} | Home Health Value-Based Purchasing, HHVBP, HHVBP Evaluation, Second Annual Report, Facts at a Glance, Incentive Payment, Total Performance Score, OASIS, HHCAHPS, Quality Measures | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 695 | 5 |
+| [homehealthhospice_jurisdictionmap_oct2013.pdf](https://www.cms.gov/medicare/medicare-contracting/medicare-administrative-contractors/downloads/homehealthhospice_jurisdictionmap_oct2013.pdf) | cms.gov | 2013-10-22 | Home Health and Hospice (HH+H) Jurisdictions (Administered by A/B MACs) | Phyllis Atkins-MacKey | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 29 | 1 |
+| [hospacquiredconditionsrtc.pdf](https://www.cms.gov/priorities/innovation/files/x/hospacquiredconditionsrtc.pdf) | cms.gov | 2013-02-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 46 | 12533 | 0 |
+| [iah-fg-yr4eval.pdf](https://www.cms.gov/priorities/innovation/files/reports/iah-fg-yr4eval.pdf) | cms.gov | 2019-05-23 | Evaluation of the Independence at Home Demonstration: Evaluation of Performance Years 1 to 4 (2012-2016) | Mathematica; CMS; CMMI; Innovation Center | {'Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact'} | "Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 747 | 4 |
 
 ## Files with Errors or Notes
 
@@ -58891,3 +58989,285 @@ Generated: 2026-05-16T20:10:26.894814+00:00
 - **URL**: https://www.circuit19.org/wp-content/uploads/2025/04/Zoom-Link-2024-09-25.pdf
 - **Status**: analysed
 - PdfError: crawled_files/circuit19.org/Zoom-Link-2024-09-25.pdf: unable to find trailer dictionary while recovering damaged file
+
+### -0506vaccreimburs033006.pdf
+
+- **URL**: https://www.cms.gov/medicare/prevention/immunizations/downloads/-0506vaccreimburs033006.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### -marx_redesign_and_modernization_handbook.pdf
+
+- **URL**: https://www.cms.gov/research-statistics-data-and-systems/cms-information-technology/mapdhelpdesk/downloads/-marx_redesign_and_modernization_handbook.pdf
+- **Status**: analysed
+- title, headings-skip, tables-fail, 
+
+### -pdp_enrollmentguidance%20exhibits_sep082006.pdf
+
+- **URL**: https://www.cms.gov/medicare/prescription-drug-coverage/prescriptiondrugcovcontra/downloads/-pdp_enrollmentguidance%20exhibits_sep082006.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### -resultsthrusept2005-onepager-112105v3.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/clia/downloads/-resultsthrusept2005-onepager-112105v3.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### -state_universe_comparison_guidance-0.pdf
+
+- **URL**: https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/medicare-ffs-compliance-programs/perm/downloads/-state_universe_comparison_guidance.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### -state_universe_comparison_guidance-1.pdf
+
+- **URL**: https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/perm/downloads/-state_universe_comparison_guidance.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### -state_universe_comparison_guidance.pdf
+
+- **URL**: https://www.cms.gov/research-statistics-data-and-systems/monitoring-programs/medicaid-and-chip-compliance/perm/downloads/-state_universe_comparison_guidance.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### 10-25-2018-cms-5528-anprm.pdf
+
+- **URL**: https://www.cms.gov/files/document/10-25-2018-cms-5528-anprm.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### 1_review_and_discussion_slides.pdf
+
+- **URL**: https://www.cms.gov/cciio/programs-and-initiatives/premium-stabilization-programs/the-transitional-reinsurance-program/downloads/1_review_and_discussion_slides.pdf
+- **Status**: analysed
+- headings-warn, lists-fail, 
+
+### advpayaco-fnevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/advpayaco-fnevalrpt.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=12), tables-fail, 
+
+### aim-fg-firstannrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/aim-fg-firstannrpt.pdf
+- **Status**: analysed
+- headings-none, tables-fail, 
+
+### aim-firstannrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/aim-firstannrpt.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### appeals-settlement-external-process-flow-diagram-.pdf
+
+- **URL**: https://www.cms.gov/medicare/appeals-and-grievances/orgmedffsappeals/appeals-settlement-initiatives/appeals-settlement-external-process-flow-diagram-.pdf
+- **Status**: analysed
+- headings-none, 
+
+### average-monthly-premiums-slcsp-lcp-2016-2019.pdf
+
+- **URL**: https://www.cms.gov/files/document/average-monthly-premiums-slcsp-lcp-2016-2019.pdf
+- **Status**: analysed
+- title, headings-none, tables-fail, 
+
+### biographical-data-injection-safety-wbt.pdf
+
+- **URL**: https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnedwebguide/downloads/biographical-data-injection-safety-wbt.pdf
+- **Status**: analysed
+- headings-none, 
+
+### bpci-evalrpt1.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/bpci-evalrpt1.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### bpci-models2-4-yr4evalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/bpci-models2-4-yr4evalrpt.pdf
+- **Status**: analysed
+- figures missing alt text (count=4), 
+
+### bpci-models2-4-yr5evalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/cmmi/bpci-models2-4-yr5evalrpt.pdf
+- **Status**: analysed
+- figures missing alt text (count=8), lists-fail, 
+
+### cctp-annualrpt1.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cctp-annualrpt1.pdf
+- **Status**: analysed
+- title, headings-skip, tables-fail, 
+
+### cjr-firstannrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cjr-firstannrpt.pdf
+- **Status**: analysed
+- figures missing alt text (count=16), tables-warn, 
+
+### cmhcb-healthbuddymontefiore.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cmhcb-healthbuddymontefiore.pdf
+- **Status**: analysed
+- title, 
+
+### cmhcb-healthbuddywest.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cmhcb-healthbuddywest.pdf
+- **Status**: analysed
+- title, 
+
+### cmhcb-massgen.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cmhcb-massgen.pdf
+- **Status**: analysed
+- title, headings-skip, 
+
+### cmhcb-villagehealth.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cmhcb-villagehealth.pdf
+- **Status**: analysed
+- title, 
+
+### cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_english.pdf
+
+- **URL**: https://www.cms.gov/about-cms/agency-information/office-of-minority-health/cms-omh-mailings/cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_english.pdf
+- **Status**: analysed
+- title, 
+
+### cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_spanish.pdf
+
+- **URL**: https://www.cms.gov/about-cms/agency-information/office-of-minority-health/cms-omh-mailings/cms-omh-marketplace-open-enrollment-ends-march-31-get-enrolled_spanish.pdf
+- **Status**: analysed
+- title, 
+
+### communitywellnessrtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/communitywellnessrtc.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, tables-fail, 
+
+### cpc-primary-care-first-table.pdf
+
+- **URL**: https://www.cms.gov/files/document/cpc-primary-care-first-table.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=4), headings-none, tables-fail, 
+
+### cpci-evalrpt1.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cpci-evalrpt1.pdf
+- **Status**: analysed
+- tables-fail, 
+
+### cpci-evalrpt2.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cpci-evalrpt2.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### cpci-evalrpt3.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cpci-evalrpt3.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### cptd-final.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/cptd-final.pdf
+- **Status**: analysed
+- title, headings-skip, 
+
+### effectuated-enrollment-first-half-2018.pdf
+
+- **URL**: https://www.cms.gov/files/document/effectuated-enrollment-first-half-2018.pdf
+- **Status**: analysed
+- title, headings-warn, tables-warn, 
+
+### espc-final-report.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/espc-final-report.pdf
+- **Status**: analysed
+- headings-skip, tables-warn, 
+
+### esrd-eval-ptsat.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/esrd-eval-ptsat.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### external_guidance.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/x/external_guidance.pdf
+- **Status**: analysed
+- title, 
+
+### fai-ma-firstevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/fai-ma-firstevalrpt.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### fqhc-scndevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/fqhc-scndevalrpt.pdf
+- **Status**: analysed
+- lists-warn, tables-warn, 
+
+### fqhcevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/fqhcevalrpt.pdf
+- **Status**: analysed
+- lists-fail, 
+
+### hcia-bhsa-secondevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/hcia-bhsa-secondevalrpt.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### hcia-chspt-firstevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/hcia-chspt-firstevalrpt.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### hcia-ds-firstevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/hcia-ds-firstevalrpt.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### hcia-primarycareredesign-thirdannrpt-addendum.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/hcia-primarycareredesign-thirdannrpt-addendum.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### hcia-sdm-firstevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/hcia-sdm-firstevalrpt.pdf
+- **Status**: analysed
+- lists-warn, tables-warn, 
+
+### hhvbp-secann-rpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/hhvbp-secann-rpt.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### homehealthhospice_jurisdictionmap_oct2013.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-contracting/medicare-administrative-contractors/downloads/homehealthhospice_jurisdictionmap_oct2013.pdf
+- **Status**: analysed
+- title, 
+
+### hospacquiredconditionsrtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/x/hospacquiredconditionsrtc.pdf
+- **Status**: analysed
+- title, tables-fail, 
