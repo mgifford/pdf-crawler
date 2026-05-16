@@ -1,3 +1,5 @@
+"""Table model extraction and rule checks for tagged PDF structure."""
+
 from dataclasses import dataclass, field
 
 from .models import StructureItem

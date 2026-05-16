@@ -1,3 +1,5 @@
+"""List structure validation checks for tagged PDF documents."""
+
 from .models import StructureItem
 
 LIST_CONTAINER = "L"

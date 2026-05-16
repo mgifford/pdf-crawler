@@ -1,3 +1,5 @@
+"""Alternate text structure checks for tagged PDF content."""
+
 from .models import StructureItem
 
 
