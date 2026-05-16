@@ -134,19 +134,14 @@ def _status_from_test(
     raw = result.get(field)
     details = result.get(details_field) if details_field else None
 
-    status_map = {
-        "Pass": PASSED,
-        "Fail": FAILED,
-        "Warn": WARNING,
+    status_resolvers = {
+        "Pass": _passed,
+        "Fail": _failed,
+        "Warn": _warning,
     }
-    mapped = status_map.get(raw)
-
-    if mapped is not None:
-        return {
-            PASSED: _passed(original=raw, details=details),
-            FAILED: _failed(original=raw, details=details),
-            WARNING: _warning(original=raw, details=details),
-        }[mapped]
+    resolver = status_resolvers.get(raw)
+    if resolver is not None:
+        return resolver(original=raw, details=details)
 
     if raw == "NotApplicable":
         if not_applicable_status == PASSED:
