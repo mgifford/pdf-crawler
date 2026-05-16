@@ -86,10 +86,10 @@ def _marked_content_tag(operands: list[Any]) -> str | None:
 def _extract_tj_array_text(value: Any) -> str:
     parts: list[str] = []
     try:
-        for item in value:
-            if isinstance(item, Number):
+        for tj_element in value:
+            if isinstance(tj_element, Number):
                 continue
-            text = safe_name(item)
+            text = safe_name(tj_element)
             if text:
                 parts.append(text)
     except TypeError:

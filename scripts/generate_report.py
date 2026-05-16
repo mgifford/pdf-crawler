@@ -40,7 +40,23 @@ _NA = "—"
 
 
 def generate_structured_json(entries: List[Dict[str, Any]], stats: Dict[str, Any]) -> Dict[str, Any]:
-    """Return a structured-report JSON payload for analysed files."""
+    """Return structured-report JSON for analysed manifest entries.
+
+    Args:
+        entries: Manifest entries loaded from ``reports/manifest.yaml``.
+            Only entries with ``status == "analysed"`` are included in the
+            structured output.
+        stats: Aggregate summary stats produced by ``_summary_stats``.
+
+    Returns:
+        A dictionary with:
+            - ``generated_at`` timestamp
+            - ``summary`` counts for total/analysed/structured files
+            - ``files`` list where each item includes:
+                - file identity fields (url/filename/site/status)
+                - ``structured_report`` (normal mode)
+                - ``structured_report_compatible`` (compatible mode)
+    """
     files: List[Dict[str, Any]] = []
     for e in entries:
         if e.get("status") != "analysed":

@@ -353,16 +353,14 @@ def check_forms(pdf, result: dict) -> None:
 
     try:
         xfa = acro.get("/XFA")
-        config_pos = -1
-        found = False
+        config_pos = None
         if xfa is not None:
             try:
-                for n in range(0, len(xfa) - 1):
-                    if xfa[n] == "config":
-                        config_pos = n + 1
-                        found = True
+                for index in range(0, len(xfa) - 1):
+                    if xfa[index] == "config":
+                        config_pos = index + 1
                         break
-                if found and xfa[config_pos] is not None:
+                if config_pos is not None and xfa[config_pos] is not None:
                     xml_str = xfa[config_pos].read_bytes().decode()
                     document = ET.fromstring(xml_str)
                     for d in document.iter():

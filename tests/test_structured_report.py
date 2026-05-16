@@ -58,6 +58,18 @@ def test_build_json_report_compatible_mode_includes_manual_rules():
     compat_count = sum(len(v) for v in compatible["Detailed Report"].values())
 
     assert compat_count > normal_count
+    normal_rules = {
+        item["Rule"]
+        for rules in normal["Detailed Report"].values()
+        for item in rules
+    }
+    compatible_rules = {
+        item["Rule"]
+        for rules in compatible["Detailed Report"].values()
+        for item in rules
+    }
+    assert "Logical Reading Order" in compatible_rules
+    assert "Logical Reading Order" not in normal_rules
 
 
 def test_build_json_report_fallback_uses_image_alt_text_test():

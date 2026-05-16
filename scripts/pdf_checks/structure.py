@@ -150,17 +150,17 @@ def extract_role_map(pdf: pikepdf.Pdf) -> dict[str, str]:
 
     try:
         for key, value in role_map.items():
-            k = safe_name(key)
-            v = safe_name(value)
-            if not k or not v:
+            key_str = safe_name(key)
+            value_str = safe_name(value)
+            if not key_str or not value_str:
                 continue
 
-            if k.startswith("/"):
-                k = k[1:]
-            if v.startswith("/"):
-                v = v[1:]
+            if key_str.startswith("/"):
+                key_str = key_str[1:]
+            if value_str.startswith("/"):
+                value_str = value_str[1:]
 
-            mapping[k] = v
+            mapping[key_str] = value_str
     except Exception:
         pass
 
