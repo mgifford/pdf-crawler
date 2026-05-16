@@ -18,7 +18,10 @@ from crawl import (
     run_scrapy,
     _print_scrapy_log_tail,
     is_pdf_url,
+    _broaden_seed_urls,
     spot_check_zero_results,
+    _extract_sitemap_urls_from_robots,
+    _candidate_sitemap_urls,
     _extract_pdf_urls_from_sitemap,
     _collect_sitemap_pdf_urls,
     fetch_sitemap_pdfs,
@@ -304,6 +307,59 @@ def test_is_pdf_url_homepage_with_path():
 def test_is_pdf_url_pdf_in_path_segment():
     """A URL with 'pdf' in a path segment (not extension) is not a PDF URL."""
     assert is_pdf_url("https://example.com/pdf-reports/index.html") is False
+
+
+# ---------------------------------------------------------------------------
+# _broaden_seed_urls
+# ---------------------------------------------------------------------------
+
+def test_broaden_seed_urls_returns_parent_paths_then_root():
+    """Path-scoped seeds should broaden to parent paths then domain root."""
+    assert _broaden_seed_urls("https://example.com/programs/abc123") == [
+        "https://example.com/programs",
+        "https://example.com/",
+    ]
+
+
+def test_broaden_seed_urls_strips_query_and_fragment():
+    """Broadened URLs should not keep query strings or fragments."""
+    assert _broaden_seed_urls("https://example.com/a/b?x=1#sec") == [
+        "https://example.com/a",
+        "https://example.com/",
+    ]
+
+
+def test_broaden_seed_urls_root_returns_empty():
+    """A root URL has no broader scope to try."""
+    assert _broaden_seed_urls("https://example.com/") == []
+
+
+# ---------------------------------------------------------------------------
+# sitemap helpers
+# ---------------------------------------------------------------------------
+
+def test_extract_sitemap_urls_from_robots():
+    """robots.txt Sitemap directives should be parsed case-insensitively."""
+    content = """
+User-agent: *
+Disallow:
+Sitemap: https://example.com/sitemap.xml
+sitemap: https://example.com/news-sitemap.xml
+"""
+    assert _extract_sitemap_urls_from_robots(content) == [
+        "https://example.com/sitemap.xml",
+        "https://example.com/news-sitemap.xml",
+    ]
+
+
+def test_candidate_sitemap_urls_includes_robots_entries():
+    """Candidate sitemap URL list should include defaults plus robots sitemap URLs."""
+    candidates = _candidate_sitemap_urls(
+        "https://example.com/deep/path",
+        extra_urls=["https://example.com/custom.xml"],
+    )
+    assert "https://example.com/sitemap.xml" in candidates
+    assert "https://example.com/custom.xml" in candidates
 
 
 # ---------------------------------------------------------------------------
@@ -942,6 +998,40 @@ def test_main_warns_when_no_pages_crawled(tmp_path, capsys):
     assert "WARNING" in captured.out
 
 
+def test_main_retries_with_broader_scope_when_path_seed_finds_no_results(tmp_path):
+    """If a deep path finds no pages/PDFs, main() should retry from a broader path."""
+    from crawl import main
+
+    output_root = tmp_path / "crawled_files"
+    (output_root / "example.com").mkdir(parents=True)
+    manifest_path = tmp_path / "manifest.yaml"
+    report_dir = tmp_path / "reports"
+
+    with patch("crawl.run_scrapy") as mock_scrapy, \
+         patch(
+             "crawl.normalize_url",
+             return_value="https://example.com/programs/5b5d7aab-0149-4898",
+         ), \
+         patch("crawl.update_manifest"), \
+         patch("crawl.generate_crawled_urls_csv", side_effect=[0, 12]), \
+         patch("crawl.fetch_sitemap_pdfs", return_value=0), \
+         patch("crawl._print_scrapy_log_tail"), \
+         patch("crawl.spot_check_zero_results") as mock_spot:
+        with patch("sys.argv", [
+            "crawl.py",
+            "--url", "https://example.com/programs/5b5d7aab-0149-4898",
+            "--manifest", str(manifest_path),
+            "--output-dir", str(output_root),
+            "--report-dir", str(report_dir),
+        ]):
+            main()
+
+    called_urls = [call.args[0] for call in mock_scrapy.call_args_list]
+    assert called_urls[0] == "https://example.com/programs/5b5d7aab-0149-4898"
+    assert called_urls[1] == "https://example.com/programs"
+    mock_spot.assert_not_called()
+
+
 # ---------------------------------------------------------------------------
 # update_manifest – subdirectory skipping (line 239)
 # ---------------------------------------------------------------------------
@@ -1489,6 +1579,37 @@ def test_fetch_sitemap_pdfs_empty_sitemap(tmp_path):
     assert count == 0
 
 
+def test_fetch_sitemap_pdfs_tries_alternative_sitemap_paths(tmp_path):
+    """When /sitemap.xml has no PDFs, alternative sitemap paths should be tried."""
+    empty_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>"""
+    alt_xml = b"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/docs/from-alt.pdf</loc></url>
+</urlset>"""
+    pdf_bytes = b"%PDF-1.4 fake"
+
+    responses = [
+        _make_http_response_plain(200, empty_xml),  # /sitemap.xml
+        _make_http_response_plain(200, alt_xml),    # /sitemap_index.xml
+        _make_http_response_plain(200, pdf_bytes),  # PDF download
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        count = fetch_sitemap_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+
+    assert count == 1
+    assert (tmp_path / "example.com" / "from-alt.pdf").exists()
+
+
 def test_fetch_sitemap_pdfs_unreachable_sitemap(tmp_path):
     """A sitemap fetch failure returns 0 without raising."""
     from urllib.error import URLError
@@ -1594,4 +1715,3 @@ def test_fetch_sitemap_pdfs_strips_www(tmp_path):
     # Output directory should be example.com, not www.example.com.
     assert (tmp_path / "example.com").exists()
     assert not (tmp_path / "www.example.com").exists()
-
