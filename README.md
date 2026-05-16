@@ -284,6 +284,7 @@ Repeat this process until the crawl completes within the time limit.
 | `reports/manifest.yaml` | YAML tracking file – one entry per PDF |
 | `reports/report.md` | Human-readable Markdown report |
 | `reports/report.json` | Machine-readable JSON report |
+| `reports/report_structured.json` | Structured JSON report with per-rule categories and compatibility mode |
 
 See [`reports/README.md`](reports/README.md) for the full manifest schema.
 
@@ -311,6 +312,12 @@ python scripts/pdf_analyser.py
 
 # Generate reports
 python scripts/generate_report.py
+
+# Validate a single PDF (structured JSON output by default)
+python scripts/validate_pdf.py path/to/file.pdf
+
+# Validate a single PDF (raw analyser output)
+python scripts/validate_pdf.py path/to/file.pdf --mode raw
 ```
 
 ---
@@ -330,12 +337,14 @@ pdf-crawler/
 │   ├── crawl.py               # Crawl wrapper + manifest update
 │   ├── manifest.py            # YAML manifest management (MD5 dedup)
 │   ├── pdf_analyser.py        # Accessibility checks (pikepdf-based)
-│   └── generate_report.py     # Markdown + JSON report generator
+│   ├── generate_report.py     # Markdown + JSON report generator
+│   └── validate_pdf.py        # Single-PDF validator (raw/structured JSON)
 ├── reports/
 │   ├── README.md              # Manifest schema docs
 │   ├── manifest.yaml          # ← committed; grows over time
 │   ├── report.md              # ← committed; regenerated each run
-│   └── report.json            # ← committed; regenerated each run
+│   ├── report.json            # ← committed; regenerated each run
+│   └── report_structured.json # ← committed; regenerated each run
 ├── requirements.txt           # Python dependencies
 └── README.md
 ```

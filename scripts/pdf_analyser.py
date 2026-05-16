@@ -57,6 +57,14 @@ from manifest import (
     mark_error,
     pending_entries,
 )
+from pdf_checks.structure import load_structure_items
+from pdf_checks.tagged_content import check_tagged_content
+from pdf_checks.forms import check_forms, check_form_fields
+from pdf_checks.annotations import check_annotations
+from pdf_checks.headings import check_headings
+from pdf_checks.lists import check_lists
+from pdf_checks.tables import check_tables
+from pdf_checks.alt_text import check_nested_alt_text, check_hides_annotation
 
 # EU Web Accessibility Directive implementation deadline (Directive 2016/2102/EU).
 # Public sector PDFs published before this date are considered exempt from
@@ -593,6 +601,50 @@ def check_file(
         "LanguageTest": None,
         "BookmarksTest": None,
         "ImageAltTextTest": None,
+        "TaggedContentTest": None,
+        "UntaggedContentCount": None,
+        "UntaggedContentSummary": None,
+        "UntaggedWhitespaceContentCount": None,
+        "UntaggedWhitespaceContentSummary": None,
+        "FormsTest": None,
+        "FormFieldCount": None,
+        "FormFieldSummary": None,
+        "FieldsWithoutDescription": None,
+        "TaggedFormFieldsTest": None,
+        "TaggedFormFieldIssues": None,
+        "AnnotationsFound": None,
+        "AnnotationCount": None,
+        "AnnotationSubtypeCounts": None,
+        "LinkAnnotationCount": None,
+        "WidgetAnnotationCount": None,
+        "TaggedAnnotationsTest": None,
+        "TaggedAnnotationIssues": None,
+        "AnnotationSummary": None,
+        "LinkStructureCount": None,
+        "ExternalLinkAnnotationCount": None,
+        "InternalLinkAnnotationCount": None,
+        "AnnotationPagesWithLinks": None,
+        "HidesAnnotationTest": None,
+        "HidesAnnotationIssues": None,
+        "NestedAltTextTest": None,
+        "NestedAltTextIssues": None,
+        "HeadingsTest": None,
+        "HeadingCount": None,
+        "HeadingSequence": None,
+        "HeadingIssues": None,
+        "ListsTest": None,
+        "ListCount": None,
+        "InvalidListItemParents": None,
+        "InvalidListChildren": None,
+        "MalformedListNodes": None,
+        "TablesTest": None,
+        "TableCount": None,
+        "InvalidTRParents": None,
+        "InvalidCellParents": None,
+        "TablesWithoutHeaders": None,
+        "IrregularTables": None,
+        "FiguresAltTextTest": None,
+        "FiguresAltTextIssues": None,
         "Exempt": False,
         "Date": None,
         "hasTitle": None,
@@ -730,6 +782,13 @@ def check_file(
             result["Accessible"] = False
             result["_log"] += "tagged, "
 
+        structure_items = (
+            load_structure_items(pdf) if result.get("TaggedTest") == "Pass" else []
+        )
+
+        # Check for untagged meaningful content in tagged PDFs.
+        check_tagged_content(pdf, result)
+
         # Protection check
         result["ProtectedTest"] = "Pass"
         if pdf.is_encrypted:
@@ -775,35 +834,9 @@ def check_file(
             result["Accessible"] = False
             result["_log"] += "lang, "
 
-        # Form / XFA check
-        acro = pdf.Root.get("/AcroForm")
-        if acro is not None:
-            try:
-                xfa = acro.get("/XFA")
-                if xfa is not None:
-                    try:
-                        for n in range(len(xfa) - 1):
-                            if xfa[n] == "config":
-                                xml_bytes = xfa[n + 1].read_bytes().decode()
-                                doc = ET.fromstring(xml_bytes)
-                                for elem in doc.iter():
-                                    if re.match(r".*dynamicRender", elem.tag):
-                                        if elem.text == "required":
-                                            result["xfa"] = True
-                                            result["_log"] += "xfa, "
-                                break
-                    except TypeError:
-                        result["_log"] += "malformed xfa, "
-            except ValueError:
-                result["_log"] += "malformed xfa, "
-
-            try:
-                fields = acro.get("/Fields")
-                if fields is not None and len(fields) != 0:
-                    result["Form"] = True
-                    result["Exempt"] = False
-            except ValueError:
-                result["_log"] += "malformed Form fields, "
+        # Form / XFA and form-structure checks
+        check_forms(pdf, result)
+        check_form_fields(pdf, structure_items, result)
 
         # Bookmarks check
         outline = pdf.open_outline()
@@ -842,10 +875,27 @@ def check_file(
                     _check_figures_alt_text(kids, missing_alt)
             if missing_alt:
                 result["ImageAltTextTest"] = "Fail"
+                result["FiguresAltTextTest"] = "Fail"
+                result["FiguresAltTextIssues"] = (
+                    f"Figures missing alt text (count={len(missing_alt)})"
+                )
                 result["Accessible"] = False
                 result["_log"] += f"figures missing alt text (count={len(missing_alt)}), "
             else:
                 result["ImageAltTextTest"] = "Pass"
+                result["FiguresAltTextTest"] = "Pass"
+                result["FiguresAltTextIssues"] = ""
+        elif result.get("TaggedTest") != "Pass":
+            result["FiguresAltTextTest"] = "NotApplicable"
+            result["FiguresAltTextIssues"] = ""
+
+        # Additional structure-aware checks (tagged PDFs).
+        check_nested_alt_text(structure_items, result)
+        check_hides_annotation(structure_items, result)
+        check_headings(structure_items, result)
+        check_lists(structure_items, result)
+        check_tables(structure_items, result)
+        check_annotations(pdf, structure_items, result)
 
     except pikepdf.PasswordError as err:
         result["BrokenFile"] = True

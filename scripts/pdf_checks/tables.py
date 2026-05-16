@@ -1,0 +1,299 @@
+from dataclasses import dataclass, field
+
+from .models import StructureItem
+
+TABLE = "Table"
+TABLE_ROW = "TR"
+TABLE_HEADER_CELL = "TH"
+TABLE_DATA_CELL = "TD"
+TABLE_HEAD = "THead"
+TABLE_BODY = "TBody"
+TABLE_FOOT = "TFoot"
+CAPTION = "Caption"
+
+ALLOWED_TR_PARENTS = {TABLE, TABLE_HEAD, TABLE_BODY, TABLE_FOOT}
+ALLOWED_CELL_PARENTS = {TABLE_ROW}
+TABLE_CELL_TYPES = {TABLE_HEADER_CELL, TABLE_DATA_CELL}
+TABLE_GROUP_TYPES = {TABLE_HEAD, TABLE_BODY, TABLE_FOOT}
+
+
+@dataclass
+class TableCell:
+    item: StructureItem
+    cell_type: str
+    col_span: int = 1
+    row_span: int = 1
+
+
+@dataclass
+class TableRow:
+    item: StructureItem
+    cells: list[TableCell] = field(default_factory=list)
+
+    @property
+    def cell_count(self) -> int:
+        return len(self.cells)
+
+
+@dataclass
+class TableSection:
+    item: StructureItem
+    section_type: str
+    rows: list[TableRow] = field(default_factory=list)
+
+
+@dataclass
+class TableModel:
+    item: StructureItem
+    sections: list[TableSection] = field(default_factory=list)
+    direct_rows: list[TableRow] = field(default_factory=list)
+    captions: list[StructureItem] = field(default_factory=list)
+    direct_child_types: list[str] = field(default_factory=list)
+
+    @property
+    def rows(self) -> list[TableRow]:
+        rows: list[TableRow] = []
+        rows.extend(self.direct_rows)
+        for section in self.sections:
+            rows.extend(section.rows)
+        return rows
+
+    @property
+    def has_thead(self) -> bool:
+        return any(section.section_type == TABLE_HEAD for section in self.sections)
+
+    @property
+    def has_tbody(self) -> bool:
+        return any(section.section_type == TABLE_BODY for section in self.sections)
+
+    @property
+    def all_cell_types(self) -> list[str]:
+        types: list[str] = []
+        for row in self.rows:
+            for cell in row.cells:
+                types.append(cell.cell_type)
+        return types
+
+    @property
+    def has_headers(self) -> bool:
+        return TABLE_HEADER_CELL in self.all_cell_types
+
+
+def _direct_children(
+    structure_items: list[StructureItem], start_index: int
+) -> list[tuple[int, StructureItem]]:
+    root = structure_items[start_index]
+    children: list[tuple[int, StructureItem]] = []
+
+    i = start_index + 1
+    while i < len(structure_items):
+        item = structure_items[i]
+
+        if item.depth <= root.depth:
+            break
+
+        if item.depth == root.depth + 1:
+            children.append((i, item))
+
+        i += 1
+
+    return children
+
+
+def _row_from_index(structure_items: list[StructureItem], row_index: int) -> TableRow:
+    row_item = structure_items[row_index]
+    row = TableRow(item=row_item)
+
+    for _, child in _direct_children(structure_items, row_index):
+        if child.normalized_type in TABLE_CELL_TYPES:
+            row.cells.append(
+                TableCell(
+                    item=child,
+                    cell_type=child.normalized_type,
+                    row_span=int(child.attributes.get("row_span", 1)),
+                    col_span=int(child.attributes.get("col_span", 1)),
+                )
+            )
+
+    return row
+
+
+def _effective_row_widths(table: TableModel) -> list[int]:
+    widths: list[int] = []
+    occupied_until: dict[int, int] = {}
+
+    for row_index, row in enumerate(table.rows):
+        col_index = 0
+        max_col_used = 0
+
+        for cell in row.cells:
+            while occupied_until.get(col_index, -1) >= row_index:
+                col_index += 1
+
+            start_col = col_index
+            span_width = max(1, cell.col_span)
+            span_height = max(1, cell.row_span)
+
+            if span_height > 1:
+                last_occupied_row = row_index + span_height - 1
+                for c in range(start_col, start_col + span_width):
+                    occupied_until[c] = last_occupied_row
+
+            col_index = start_col + span_width
+            max_col_used = max(max_col_used, col_index)
+
+        occupied_cols_this_row = [
+            c for c, last_row in occupied_until.items() if last_row >= row_index
+        ]
+        if occupied_cols_this_row:
+            max_col_used = max(max_col_used, max(occupied_cols_this_row) + 1)
+
+        widths.append(max_col_used)
+
+    return widths
+
+
+def _section_from_index(
+    structure_items: list[StructureItem], section_index: int
+) -> TableSection:
+    section_item = structure_items[section_index]
+    section = TableSection(item=section_item, section_type=section_item.normalized_type)
+
+    for child_index, child in _direct_children(structure_items, section_index):
+        if child.normalized_type == TABLE_ROW:
+            section.rows.append(_row_from_index(structure_items, child_index))
+
+    return section
+
+
+def build_tables(structure_items: list[StructureItem]) -> list[TableModel]:
+    tables: list[TableModel] = []
+
+    for index, item in enumerate(structure_items):
+        if item.normalized_type != TABLE:
+            continue
+
+        table = TableModel(item=item)
+
+        for child_index, child in _direct_children(structure_items, index):
+            if child.normalized_type is not None:
+                table.direct_child_types.append(child.normalized_type)
+
+            if child.normalized_type == CAPTION:
+                table.captions.append(child)
+            elif child.normalized_type == TABLE_ROW:
+                table.direct_rows.append(_row_from_index(structure_items, child_index))
+            elif child.normalized_type in TABLE_GROUP_TYPES:
+                table.sections.append(_section_from_index(structure_items, child_index))
+
+        tables.append(table)
+
+    return tables
+
+
+def check_tables(structure_items: list[StructureItem], result: dict) -> None:
+    result["TableCount"] = 0
+    result["InvalidTRParents"] = ""
+    result["InvalidCellParents"] = ""
+    result["TablesWithoutHeaders"] = ""
+    result["IrregularTables"] = ""
+
+    if result.get("TaggedTest") != "Pass":
+        result["TablesTest"] = "NotApplicable"
+        return
+
+    tables = build_tables(structure_items)
+    rows = [item for item in structure_items if item.normalized_type == TABLE_ROW]
+    cells = [
+        item
+        for item in structure_items
+        if item.normalized_type in {TABLE_HEADER_CELL, TABLE_DATA_CELL}
+    ]
+
+    result["TableCount"] = len(tables)
+
+    if not tables and not rows and not cells:
+        result["TablesTest"] = "NotApplicable"
+        return
+
+    failures: list[str] = []
+    warnings: list[str] = []
+    header_failures: list[str] = []
+    irregular_warnings: list[str] = []
+
+    for item in rows:
+        ref = item.object_ref or "unknown-object"
+        if item.parent_type not in ALLOWED_TR_PARENTS:
+            failures.append(
+                f"{ref}: TR parent is {item.parent_type or 'None'}, expected Table, THead, TBody, or TFoot"
+            )
+
+    for item in cells:
+        ref = item.object_ref or "unknown-object"
+        if item.parent_type not in ALLOWED_CELL_PARENTS:
+            failures.append(
+                f"{ref}: {item.normalized_type} parent is {item.parent_type or 'None'}, expected TR"
+            )
+
+    for table in tables:
+        table_ref = table.item.object_ref or "unknown-object"
+
+        if len(table.captions) > 1:
+            warnings.append(f"{table_ref}: Table has more than one Caption")
+
+        if len(table.captions) == 1:
+            child_types = table.direct_child_types
+            if child_types and child_types[0] != CAPTION and child_types[-1] != CAPTION:
+                warnings.append(f"{table_ref}: Caption is not the first or last child of Table")
+
+        if table.has_thead and not table.has_tbody:
+            warnings.append(f"{table_ref}: Table has THead but no TBody")
+        if table.has_tbody and not table.has_thead:
+            warnings.append(f"{table_ref}: Table has TBody but no THead")
+
+        for section in table.sections:
+            section_ref = section.item.object_ref or table_ref
+            if not section.rows:
+                warnings.append(f"{section_ref}: {section.section_type} is empty")
+
+        for row in table.rows:
+            row_ref = row.item.object_ref or table_ref
+            if row.cell_count == 0:
+                warnings.append(f"{row_ref}: TR is empty")
+
+        if not table.rows:
+            header_failures.append(f"{table_ref}: Table has no rows")
+            header_failures.append(f"{table_ref}: Table has no TH cells")
+        elif not table.all_cell_types:
+            header_failures.append(f"{table_ref}: Table has rows but no cells")
+            header_failures.append(f"{table_ref}: Table has no TH cells")
+        elif not table.has_headers:
+            header_failures.append(f"{table_ref}: Table has no TH cells")
+            if all(cell_type == TABLE_DATA_CELL for cell_type in table.all_cell_types):
+                header_failures.append(f"{table_ref}: Table cells are all TD")
+
+        effective_widths = [count for count in _effective_row_widths(table) if count > 0]
+        if len(effective_widths) >= 2 and len(set(effective_widths)) > 1:
+            irregular_warnings.append(f"{table_ref}: Uneven row lengths detected ({effective_widths})")
+
+    result["InvalidTRParents"] = " | ".join(
+        msg for msg in failures if ": TR parent is " in msg
+    )
+    result["InvalidCellParents"] = " | ".join(
+        msg for msg in failures if " expected TR" in msg
+    )
+    result["TablesWithoutHeaders"] = " | ".join(header_failures)
+    result["IrregularTables"] = " | ".join(irregular_warnings)
+
+    failures.extend(header_failures)
+    warnings.extend(irregular_warnings)
+
+    if failures:
+        result["TablesTest"] = "Fail"
+        result["Accessible"] = False
+        result["_log"] += "tables-fail, "
+    elif warnings:
+        result["TablesTest"] = "Warn"
+        result["_log"] += "tables-warn, "
+    else:
+        result["TablesTest"] = "Pass"
