@@ -124,6 +124,13 @@ def _needs_manual_check(note: str | None = None) -> dict:
     return outcome
 
 
+_STATUS_RESOLVERS = {
+    "Pass": _passed,
+    "Fail": _failed,
+    "Warn": _warning,
+}
+
+
 def _status_from_test(
     result: dict,
     field: str,
@@ -134,12 +141,10 @@ def _status_from_test(
     raw = result.get(field)
     details = result.get(details_field) if details_field else None
 
-    if raw == "Pass":
-        return _passed(original=raw, details=details)
-    if raw == "Fail":
-        return _failed(original=raw, details=details)
-    if raw == "Warn":
-        return _warning(original=raw, details=details)
+    resolver = _STATUS_RESOLVERS.get(raw)
+    if resolver is not None:
+        return resolver(original=raw, details=details)
+
     if raw == "NotApplicable":
         if not_applicable_status == PASSED:
             return _passed(original=raw, details=details)
@@ -151,33 +156,33 @@ def _status_from_test(
 
 
 def _direct_test(field: str, details_field: str | None = None):
-    def resolver(result: dict, debug: bool = False) -> dict:
+    def resolver(result: dict, _debug: bool = False) -> dict:
         return _status_from_test(result, field, details_field=details_field)
 
     return resolver
 
 
-def _manual_rule(result: dict, debug: bool = False) -> dict:
+def _manual_rule(_result: dict, _debug: bool = False) -> dict:
     return _needs_manual_check()
 
 
-def _unsupported_rule(result: dict, debug: bool = False) -> dict:
+def _unsupported_rule(_result: dict, _debug: bool = False) -> dict:
     return _skipped(note="This rule is not checked by this scanner.")
 
 
-def _unsupported_structure_rule(result: dict, debug: bool = False) -> dict:
+def _unsupported_structure_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("TaggedTest") == "Fail":
         return _failed(details="Document is not tagged; this structure-dependent rule cannot be verified.")
     return _skipped(note="This rule is not checked by this scanner.")
 
 
-def _open_pdf_rule(result: dict, debug: bool = False) -> dict:
+def _open_pdf_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("BrokenFile"):
         return _failed(details=result.get("_log"))
     return _passed()
 
 
-def _tagged_content_rule(result: dict, debug: bool = False) -> dict:
+def _tagged_content_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("TaggedTest") == "Fail":
         return _failed(details="Document is not tagged; page content cannot be verified as tagged.")
 
@@ -198,7 +203,7 @@ def _tagged_content_rule(result: dict, debug: bool = False) -> dict:
     return _status_from_test(result, "TaggedContentTest", details_field="UntaggedContentSummary")
 
 
-def _tagged_annotations_rule(result: dict, debug: bool = False) -> dict:
+def _tagged_annotations_rule(result: dict, _debug: bool = False) -> dict:
     raw = result.get("TaggedAnnotationsTest")
     if raw == "NotApplicable":
         return _passed(original=raw)
@@ -206,14 +211,14 @@ def _tagged_annotations_rule(result: dict, debug: bool = False) -> dict:
     return _status_from_test(result, "TaggedAnnotationsTest", details_field="TaggedAnnotationIssues")
 
 
-def _forms_tagged_fields_rule(result: dict, debug: bool = False) -> dict:
+def _forms_tagged_fields_rule(result: dict, _debug: bool = False) -> dict:
     if not result.get("FormFieldCount"):
         return _passed(original=result.get("TaggedFormFieldsTest"))
 
     return _status_from_test(result, "TaggedFormFieldsTest", details_field="TaggedFormFieldIssues")
 
 
-def _forms_field_descriptions_rule(result: dict, debug: bool = False) -> dict:
+def _forms_field_descriptions_rule(result: dict, _debug: bool = False) -> dict:
     if not result.get("FormFieldCount"):
         return _passed(original=result.get("FormsTest"))
 
@@ -221,7 +226,7 @@ def _forms_field_descriptions_rule(result: dict, debug: bool = False) -> dict:
 
 
 def _structure_dependent_test(field: str, *, details_field: str | None = None):
-    def resolver(result: dict, debug: bool = False) -> dict:
+    def resolver(result: dict, _debug: bool = False) -> dict:
         if result.get("TaggedTest") == "Fail":
             return _failed(details="Document is not tagged; this structure-dependent rule cannot be verified.")
 
@@ -248,7 +253,7 @@ def _figure_alt_rule(result: dict, debug: bool = False) -> dict:
     )(result, debug)
 
 
-def _table_rows_rule(result: dict, debug: bool = False) -> dict:
+def _table_rows_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("TaggedTest") == "Fail":
         return _failed(details="Document is not tagged; table row structure cannot be verified.")
 
@@ -259,7 +264,7 @@ def _table_rows_rule(result: dict, debug: bool = False) -> dict:
     return _passed()
 
 
-def _table_cells_rule(result: dict, debug: bool = False) -> dict:
+def _table_cells_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("TaggedTest") == "Fail":
         return _failed(details="Document is not tagged; table cell structure cannot be verified.")
 
@@ -270,7 +275,7 @@ def _table_cells_rule(result: dict, debug: bool = False) -> dict:
     return _passed()
 
 
-def _table_headers_rule(result: dict, debug: bool = False) -> dict:
+def _table_headers_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("TaggedTest") == "Fail":
         return _failed(details="Document is not tagged; table headers cannot be verified.")
 
@@ -281,7 +286,7 @@ def _table_headers_rule(result: dict, debug: bool = False) -> dict:
     return _passed()
 
 
-def _table_regularity_rule(result: dict, debug: bool = False) -> dict:
+def _table_regularity_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("TaggedTest") == "Fail":
         return _failed(details="Document is not tagged; table regularity cannot be verified.")
 
@@ -299,11 +304,11 @@ def _table_regularity_rule(result: dict, debug: bool = False) -> dict:
     return _passed()
 
 
-def _table_summary_rule(result: dict, debug: bool = False) -> dict:
+def _table_summary_rule(_result: dict, _debug: bool = False) -> dict:
     return _skipped(note="Table summary is not checked by this scanner.")
 
 
-def _list_items_rule(result: dict, debug: bool = False) -> dict:
+def _list_items_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("TaggedTest") == "Fail":
         return _failed(details="Document is not tagged; list item structure cannot be verified.")
 
@@ -317,7 +322,7 @@ def _list_items_rule(result: dict, debug: bool = False) -> dict:
     return _passed()
 
 
-def _lbl_lbody_rule(result: dict, debug: bool = False) -> dict:
+def _lbl_lbody_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("TaggedTest") == "Fail":
         return _failed(details="Document is not tagged; list label/body structure cannot be verified.")
 
@@ -333,7 +338,7 @@ def _lbl_lbody_rule(result: dict, debug: bool = False) -> dict:
     return _passed()
 
 
-def _headings_rule(result: dict, debug: bool = False) -> dict:
+def _headings_rule(result: dict, _debug: bool = False) -> dict:
     if result.get("TaggedTest") == "Fail":
         return _failed(details="Document is not tagged; heading structure cannot be verified.")
 

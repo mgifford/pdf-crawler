@@ -1,3 +1,5 @@
+"""Utilities for traversing and normalizing PDF logical structure trees."""
+
 from __future__ import annotations
 
 from typing import Any

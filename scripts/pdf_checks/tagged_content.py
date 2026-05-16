@@ -1,3 +1,5 @@
+"""Detection of untagged page and XObject content in tagged PDFs."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass

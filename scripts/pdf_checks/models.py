@@ -1,3 +1,5 @@
+"""Shared dataclass models used by PDF structure analysis checks."""
+
 from dataclasses import dataclass, field
 
 

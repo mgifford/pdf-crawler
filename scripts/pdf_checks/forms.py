@@ -1,8 +1,10 @@
+"""Form field extraction and validation checks for PDF accessibility analysis."""
+
 from __future__ import annotations
 
 import re
 import xml.etree.ElementTree as ET
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field as dc_field
 from typing import Any
 
 from .models import StructureItem
@@ -30,8 +32,8 @@ class FormFieldInfo:
     description: str | None
     description_source: str | None
     widget_count: int = 0
-    page_refs: list[str] = field(default_factory=list)
-    widgets: list[Any] = field(default_factory=list, repr=False)
+    page_refs: list[str] = dc_field(default_factory=list)
+    widgets: list[Any] = dc_field(default_factory=list, repr=False)
 
 
 def _object_ref(obj: Any) -> str | None:
@@ -356,8 +358,8 @@ def check_forms(pdf, result: dict) -> None:
         config_pos = None
         if xfa is not None:
             try:
-                for index in range(0, len(xfa)):
-                    if xfa[index] == "config":
+                for index, value in enumerate(xfa):
+                    if value == "config":
                         config_pos = index + 1
                         break
                 if (
