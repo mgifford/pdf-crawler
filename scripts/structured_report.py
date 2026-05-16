@@ -124,6 +124,13 @@ def _needs_manual_check(note: str | None = None) -> dict:
     return outcome
 
 
+_STATUS_RESOLVERS = {
+    "Pass": _passed,
+    "Fail": _failed,
+    "Warn": _warning,
+}
+
+
 def _status_from_test(
     result: dict,
     field: str,
@@ -134,12 +141,7 @@ def _status_from_test(
     raw = result.get(field)
     details = result.get(details_field) if details_field else None
 
-    status_resolvers = {
-        "Pass": _passed,
-        "Fail": _failed,
-        "Warn": _warning,
-    }
-    resolver = status_resolvers.get(raw)
+    resolver = _STATUS_RESOLVERS.get(raw)
     if resolver is not None:
         return resolver(original=raw, details=details)
 
