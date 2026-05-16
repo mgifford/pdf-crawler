@@ -91,13 +91,15 @@ def _broaden_seed_urls(url: str) -> list[str]:
         return []
 
     candidates: list[str] = []
+    seen = set()
     for depth in range(len(segments) - 1, -1, -1):
         path = f"/{'/'.join(segments[:depth])}" if depth else "/"
         candidate = urlunparse(
             parsed._replace(path=path, params="", query="", fragment="")
         )
-        if candidate != url and candidate not in candidates:
+        if candidate != url and candidate not in seen:
             candidates.append(candidate)
+            seen.add(candidate)
     return candidates
 
 
@@ -390,7 +392,7 @@ def _extract_pdf_urls_from_sitemap(content: bytes) -> list:
     Returns:
         A list of PDF URL strings found in the sitemap.
     """
-    pdf_urls: list = []
+    pdf_urls: list[str] = []
     try:
         root = ET.fromstring(content)
     except ET.ParseError:
@@ -510,7 +512,7 @@ def fetch_sitemap_pdfs(
     """
     parsed = urlparse(url)
     per_request_timeout = min(timeout, 60)
-    pdf_urls: list = []
+    pdf_urls: list[str] = []
     sitemap_errors: list[str] = []
     sitemap_candidates = _candidate_sitemap_urls(url)
 
@@ -733,6 +735,13 @@ def update_manifest(
     )
 
 
+def _count_downloaded_pdfs(site_dir: Path) -> int:
+    """Count downloaded PDFs in a site directory."""
+    if not site_dir.exists():
+        return 0
+    return sum(1 for f in site_dir.iterdir() if f.is_file() and f.suffix.lower() == ".pdf")
+
+
 def generate_crawled_urls_csv(
     url: str,
     output_dir: str,
@@ -913,10 +922,7 @@ def main() -> None:
         parsed_seed = urlparse(url)
         site_folder = _site_folder(parsed_seed.netloc)
         site_dir = Path(args.output_dir) / site_folder
-        pdf_count = (
-            sum(1 for f in site_dir.iterdir() if f.is_file() and f.suffix.lower() == ".pdf")
-            if site_dir.exists() else 0
-        )
+        pdf_count = _count_downloaded_pdfs(site_dir)
 
         if pdf_count == 0:
             # The spider found no PDFs – either it could not crawl any pages
@@ -943,13 +949,7 @@ def main() -> None:
                     "Updating manifest…"
                 )
                 update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
-                pdf_count = (
-                    sum(
-                        1 for f in site_dir.iterdir()
-                        if f.is_file() and f.suffix.lower() == ".pdf"
-                    )
-                    if site_dir.exists() else 0
-                )
+                pdf_count = _count_downloaded_pdfs(site_dir)
 
         if pdf_count == 0:
             # If the user submitted a deep page URL and that scope produced no
@@ -978,14 +978,8 @@ def main() -> None:
                     broader_url, args.output_dir, args.report_dir
                 )
                 print(f"Pages crawled from broader scope: {pages_crawled}")
-                pdf_count = (
-                    sum(
-                        1 for f in site_dir.iterdir()
-                        if f.is_file() and f.suffix.lower() == ".pdf"
-                    )
-                    if site_dir.exists() else 0
-                )
-                if pdf_count > 0 or pages_crawled > 0:
+                pdf_count = _count_downloaded_pdfs(site_dir)
+                if pdf_count > 0:
                     print(
                         f"Broader scope succeeded ({pdf_count} PDF(s), "
                         f"{pages_crawled} page(s) crawled)."

@@ -19,6 +19,7 @@ from crawl import (
     _print_scrapy_log_tail,
     is_pdf_url,
     _broaden_seed_urls,
+    _count_downloaded_pdfs,
     spot_check_zero_results,
     _extract_sitemap_urls_from_robots,
     _candidate_sitemap_urls,
@@ -332,6 +333,20 @@ def test_broaden_seed_urls_strips_query_and_fragment():
 def test_broaden_seed_urls_root_returns_empty():
     """A root URL has no broader scope to try."""
     assert _broaden_seed_urls("https://example.com/") == []
+
+
+# ---------------------------------------------------------------------------
+# _count_downloaded_pdfs
+# ---------------------------------------------------------------------------
+
+def test_count_downloaded_pdfs_counts_only_pdf_files(tmp_path):
+    """Only .pdf files (case-insensitive) should be counted."""
+    (tmp_path / "a.pdf").write_bytes(b"%PDF-1.4")
+    (tmp_path / "b.PDF").write_bytes(b"%PDF-1.4")
+    (tmp_path / "c.txt").write_text("not pdf", encoding="utf-8")
+    (tmp_path / "nested").mkdir()
+    (tmp_path / "nested" / "inside.pdf").write_bytes(b"%PDF-1.4")
+    assert _count_downloaded_pdfs(tmp_path) == 2
 
 
 # ---------------------------------------------------------------------------
@@ -1003,17 +1018,23 @@ def test_main_retries_with_broader_scope_when_path_seed_finds_no_results(tmp_pat
     from crawl import main
 
     output_root = tmp_path / "crawled_files"
-    (output_root / "example.com").mkdir(parents=True)
+    site_dir = output_root / "example.com"
+    site_dir.mkdir(parents=True)
     manifest_path = tmp_path / "manifest.yaml"
     report_dir = tmp_path / "reports"
 
-    with patch("crawl.run_scrapy") as mock_scrapy, \
+    def scrapy_side_effect(url, *_args, **_kwargs):
+        # Simulate broader-scope crawl finding at least one PDF.
+        if url == "https://example.com/programs":
+            (site_dir / "found.pdf").write_bytes(b"%PDF fake")
+
+    with patch("crawl.run_scrapy", side_effect=scrapy_side_effect) as mock_scrapy, \
          patch(
              "crawl.normalize_url",
              return_value="https://example.com/programs/5b5d7aab-0149-4898",
          ), \
          patch("crawl.update_manifest"), \
-         patch("crawl.generate_crawled_urls_csv", side_effect=[0, 12]), \
+         patch("crawl.generate_crawled_urls_csv", side_effect=[0, 12]) as mock_crawled_urls, \
          patch("crawl.fetch_sitemap_pdfs", return_value=0), \
          patch("crawl._print_scrapy_log_tail"), \
          patch("crawl.spot_check_zero_results") as mock_spot:
@@ -1026,9 +1047,14 @@ def test_main_retries_with_broader_scope_when_path_seed_finds_no_results(tmp_pat
         ]):
             main()
 
+    original_url = "https://example.com/programs/5b5d7aab-0149-4898"
+    broader_url = "https://example.com/programs"
     called_urls = [call.args[0] for call in mock_scrapy.call_args_list]
-    assert called_urls[0] == "https://example.com/programs/5b5d7aab-0149-4898"
-    assert called_urls[1] == "https://example.com/programs"
+    assert called_urls[0] == original_url
+    assert called_urls[1] == broader_url
+    assert mock_crawled_urls.call_count == 2
+    assert mock_crawled_urls.call_args_list[0].args[0] == original_url
+    assert mock_crawled_urls.call_args_list[1].args[0] == broader_url
     mock_spot.assert_not_called()
 
 
