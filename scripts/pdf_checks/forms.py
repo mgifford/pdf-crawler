@@ -356,11 +356,15 @@ def check_forms(pdf, result: dict) -> None:
         config_pos = None
         if xfa is not None:
             try:
-                for index in range(0, len(xfa) - 1):
+                for index in range(0, len(xfa)):
                     if xfa[index] == "config":
                         config_pos = index + 1
                         break
-                if config_pos is not None and xfa[config_pos] is not None:
+                if (
+                    config_pos is not None
+                    and config_pos < len(xfa)
+                    and xfa[config_pos] is not None
+                ):
                     xml_str = xfa[config_pos].read_bytes().decode()
                     document = ET.fromstring(xml_str)
                     for d in document.iter():
