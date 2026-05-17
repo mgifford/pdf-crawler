@@ -10,7 +10,7 @@ Generated: 2026-05-17T07:56:44.619884+00:00
 | Analysed | 6034 |
 | Pending analysis | 8694 |
 | Errors during analysis | 5035 |
-| Accessible | 1988 |
+| Accessible | 1994 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
 | Exempt (pre-2018) | 1501 |
