@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-05-17T07:57:30.378611+00:00
+Generated: 2026-05-17T08:13:30.715782+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
 | Total files tracked | 19763 |
-| Analysed | 6033 |
-| Pending analysis | 8693 |
-| Errors during analysis | 5037 |
-| Accessible | 1994 |
+| Analysed | 6049 |
+| Pending analysis | 8676 |
+| Errors during analysis | 5038 |
+| Accessible | 2000 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
 | Exempt (pre-2018) | 1501 |
@@ -6117,6 +6117,13 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [11514-a-quick-look-at-medicare-2.pdf](https://www.medicare.gov/publications/11514-a-quick-look-at-medicare-2.pdf) | medicare.gov | 2020-07-21 | A Quick Look at Medicare | CMS | {'Original Medicare', 'Medicare Advantage', 'resources', 'help', 'Medicare basics'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 611 | 2 |
 | [11514-s-a-quick-look-medicare.pdf](https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf) | medicare.gov | 2020-07-30 | Resumen Corto Sobre Medicare | {'CMS'} | {'información básica', 'Medicare Advantage', 'ayuda', 'recursos', 'Medicare Original'} | Medicare Original, Medicare Advantage, recursos, ayuda, información básica | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 686 | 2 |
 | [11525-medicare-appeals.pdf](https://www.medicare.gov/publications/11525-medicare-appeals.pdf) | medicare.gov | 2026-04-21 | Medicare Appeals | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 14904 | 8 |
+| [BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf](https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf) | kfw.de | 2024-10-17 | Green Bonds – Made by KfW: Impact achieved by KfW’s green bond issuances 2021 & 2022 (September 2024) | KfW Group | Impact achieved by KfW’s green bond issuances 2021 & 2022 | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 11677 | 23 |
+| [KfW-FInancial-Report-2023.pdf](https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-FInancial-Report-2023.pdf) | kfw.de | 2024-06-03 | Financial Report 2023 | {'KfW Bankengruppe'} | Shaping transformation | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 224 | 89690 | 26 |
+| [KfW-Gesetz-DE-EN.pdf](https://www.kfw.de/PDF/Download-Center/Law-Concerning-KfW/KfW-Gesetz-DE-EN.pdf) | kfw.de | 2021-01-27 | Law Concerning Kreditanstalt für Wiederaufbau | KfW | Law Concerning Kreditanstalt für Wiederaufbau | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4466 | 0 |
+| [KfW-Green-Bond-Allocation-Report-2023.pdf](https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bond-Allocation-Report-2023.pdf) | kfw.de | 2024-03-20 | KfW Green Bonds Allocation Report 2023_final_ neues CDv1 | Nickolaizig, Andrea | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4944 | 14 |
+| [KfW-Green-Bonds-Reporting-2023.pdf](https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bonds-Reporting-2023.pdf) | kfw.de | 2025-11-25 | Green Bonds – Made by KfW | KfW Group | Impact achieved by KfW’s green bond issuances 2023 (November 2025) | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 8180 | 14 |
+| [KfW-an-overview.pdf](https://www.kfw.de/PDF/Download-Center/Konzernthemen/KfW-at-a-glance/KfW-an-overview.pdf) | kfw.de | 2020-03-31 | KfW at a Glance · Facts and Figures | {'KfW Bankengruppe'} | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2955 | 11 |
+| [kfw-brochure_english_bf.pdf](https://www.kfw.de/stories/kfw/documents/pdf/kfw-brochure_english_bf.pdf) | kfw.de | 2025-06-18 | Responsibility for the future | {'KfW Group'} | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1800 | 12 |
 | [AdjunctHandbook2025-2026.pdf](https://my.volstate.edu/files/documents/AdjunctHandbook2025-2026.pdf) | volstate.edu | 2025-09-30 | Microsoft Word - Adjunct Handbook 2025-26 Updated 09192025 | AHANSON5 | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 10612 | 0 |
 | [DMS-Information-Packet.pdf](https://www.volstate.edu/sites/default/files/documents/dms/DMS-Information-Packet.pdf) | volstate.edu | 2026-03-23 | Microsoft Word - DMS Information Packet 2023 - JoCTOBER 2024 update | LKIRKLAND | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 2117 | 0 |
 | [FacultyHandbook2025-2026.pdf](https://my.volstate.edu/files/documents/FacultyHandbook2025-2026.pdf) | volstate.edu | 2025-09-30 | Microsoft Word - Faculty Handbook 2025-26 Updated 09192025 | AHANSON5 | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 39 | 15434 | 0 |
@@ -6125,6 +6132,15 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [StudentHandbook.pdf](https://www.volstate.edu/sites/default/files/documents/StudentHandbook.pdf) | volstate.edu | 2026-05-13 | COLLEGE GOVERNANCE | itguest01 | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 58 | 30054 | 1 |
 | [Vet-Tech-Information-Packet.pdf](https://www.volstate.edu/sites/default/files/documents/veterinary/Vet-Tech-Information-Packet.pdf) | volstate.edu | 2026-02-04 | Vet Tech Information Packet | Wright, Kimberly | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2314 | 1 |
 | [advising-resources-guide.pdf](https://www.volstate.edu/sites/default/files/documents/advising/resources/advising-resources-guide.pdf) | volstate.edu | 2026-03-25 | Advising Resource Guide | Corlew, Teresa | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1203 | 0 |
+| [260301-Organigramm-StMD-Website-1.pdf](https://www.stmd.bayern.de/wp-content/uploads/2026/03/260301-Organigramm-StMD-Website-1.pdf) | stmd.bayern.de | 2026-03-04 | Microsoft Word - 260301 Organigramm StMD (Website).docx | Strunz, Birgit (StMD) | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | 1 | 720 | 20 |
+| [Digitalplan_Text_Kurzfassung_EN_PDF.pdf](https://www.stmd.bayern.de/wp-content/uploads/2025/06/Digitalplan_Text_Kurzfassung_EN_PDF.pdf) | stmd.bayern.de | 2023-04-14 | — | — | Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor. | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 26 | 3977 | 14 |
+| [Digitalplan_Text_Langfassung_PDF.pdf](https://www.stmd.bayern.de/wp-content/uploads/2025/06/Digitalplan_Text_Langfassung_PDF.pdf) | stmd.bayern.de | 2023-03-24 | — | — | Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor. | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 127 | 55128 | 74 |
+| [Digitalplan_Text_Leichte_Sprache_PDF.pdf](https://www.stmd.bayern.de/wp-content/uploads/2025/06/Digitalplan_Text_Leichte_Sprache_PDF.pdf) | stmd.bayern.de | 2023-07-10 | — | — | Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor. | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 38 | 4633 | 14 |
+| [Entwurf_Digitalgesetz.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/01/Entwurf_Digitalgesetz.pdf) | stmd.bayern.de | 2022-01-04 | Drucksache 18/19572 | Schaberl, Julia | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 102 | 50514 | 2 |
+| [Konzept_Wirkungsanalyse.pdf](https://www.stmd.bayern.de/wp-content/uploads/2025/06/Konzept_Wirkungsanalyse.pdf) | stmd.bayern.de | 2024-04-08 | — | — | Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor. | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 21 | 3855 | 8 |
+| [Konzept_Wirkungsanalyse_auf_einen_Blick_PDF.pdf](https://www.stmd.bayern.de/wp-content/uploads/2025/06/Konzept_Wirkungsanalyse_auf_einen_Blick_PDF.pdf) | stmd.bayern.de | 2024-04-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 488 | 2 |
+| [Leitfaden_Wirkungsanalyse_PDF.pdf](https://www.stmd.bayern.de/wp-content/uploads/2025/06/Leitfaden_Wirkungsanalyse_PDF.pdf) | stmd.bayern.de | 2024-07-08 | — | — | Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor. | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3189 | 5 |
+| [Umsetzung-Pakt-Digitale-Infrastruktur-14-11-2023.pdf](https://www.stmd.bayern.de/wp-content/uploads/2023/12/Umsetzung-Pakt-Digitale-Infrastruktur-14-11-2023.pdf) | stmd.bayern.de | 2023-12-04 | — | Karl, Michael (StMD) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1112 | 0 |
 
 ## Files with Errors or Notes
 
@@ -60872,6 +60888,24 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - headings-warn, 
 
+### KfW-Finanzbericht-2024-2.pdf
+
+- **URL**: https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-Finanzbericht-2024-2.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### KfW-Green-Bond-Allocation-Report-2023.pdf
+
+- **URL**: https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bond-Allocation-Report-2023.pdf
+- **Status**: analysed
+- title, tagged, annotations-untagged, 
+
+### KfW-Green-Bonds-Reporting-2023.pdf
+
+- **URL**: https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bonds-Reporting-2023.pdf
+- **Status**: analysed
+- lists-warn, 
+
 ### AdjunctHandbook2025-2026.pdf
 
 - **URL**: https://my.volstate.edu/files/documents/AdjunctHandbook2025-2026.pdf
@@ -60907,3 +60941,57 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.volstate.edu/sites/default/files/documents/veterinary/Vet-Tech-Information-Packet.pdf
 - **Status**: analysed
 - tables-warn, 
+
+### 260301-Organigramm-StMD-Website-1.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2026/03/260301-Organigramm-StMD-Website-1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Digitalplan_Text_Kurzfassung_EN_PDF.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Digitalplan_Text_Kurzfassung_EN_PDF.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=2), 
+
+### Digitalplan_Text_Langfassung_PDF.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Digitalplan_Text_Langfassung_PDF.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=79), 
+
+### Digitalplan_Text_Leichte_Sprache_PDF.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Digitalplan_Text_Leichte_Sprache_PDF.pdf
+- **Status**: analysed
+- title, tagged-content-fail, no bookmarks and more than 20 pages, figures missing alt text (count=2), 
+
+### Entwurf_Digitalgesetz.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/01/Entwurf_Digitalgesetz.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, headings-none, 
+
+### Konzept_Wirkungsanalyse.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Konzept_Wirkungsanalyse.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=11), headings-warn, tables-fail, 
+
+### Konzept_Wirkungsanalyse_auf_einen_Blick_PDF.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Konzept_Wirkungsanalyse_auf_einen_Blick_PDF.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, 
+
+### Leitfaden_Wirkungsanalyse_PDF.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Leitfaden_Wirkungsanalyse_PDF.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=10), headings-skip, annotations-tagging-fail, 
+
+### Umsetzung-Pakt-Digitale-Infrastruktur-14-11-2023.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2023/12/Umsetzung-Pakt-Digitale-Infrastruktur-14-11-2023.pdf
+- **Status**: analysed
+- title, headings-none, 

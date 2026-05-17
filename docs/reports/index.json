@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-17T08:13:30.715782+00:00",
+    "site": "navymwrsingapore.com",
+    "crawl_url": "https://www.navymwrsingapore.com/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25985538814",
+    "issue_url": "",
+    "archive_file": "2026-05-17_08-13-30-715_navymwrsingapore.com.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-05-17T07:57:30.378611+00:00",
     "site": "volstate.edu",
     "crawl_url": "https://www.volstate.edu/about-us",
