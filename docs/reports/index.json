@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-17T00:41:25.697312+00:00",
+    "site": "kfw.de",
+    "crawl_url": "https://www.kfw.de/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25977117640",
+    "issue_url": "",
+    "archive_file": "2026-05-17_00-41-25-697_kfw.de.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-05-16T21:14:38.500213+00:00",
     "site": "all",
     "crawl_url": "",
