@@ -364047,64 +364047,816 @@
   filename: BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf
   site: kfw.de
   crawled_at: '2026-05-17T07:48:08.966528+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 24
+    AnnotationSubtypeCounts: Link=24
+    LinkAnnotationCount: 24
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(2826, 0): page=2 subtype=Link flags=None rect=[42.5197, 679.934,
+      376.082, 663.494] action=''/GoTo'' dest=''BF-KfW-Green Bonds Reporting 2021_2022-A4-241016-06.indd:.28761:227''
+      widget=False field=None struct_parent=2 | (2824, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 655.934, 226.624, 639.494] action=''/GoTo'' dest=''BF-KfW-Green
+      Bonds Reporting 2021_2022-A4-241016-06.indd:.28767:228'' widget=False field=None
+      struct_parent=3 | (2822, 0): page=2 subtype=Link flags=None rect=[42.5197, 631.934,
+      155.801, 615.494] action=''/GoTo'' dest=''BF-KfW-Green Bonds Reporting 2021_2022-A4-241016-06.indd:.28771:229''
+      widget=False field=None struct_parent=4 | (2820, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 607.934, 311.583, 591.494] action=''/GoTo'' dest=''BF-KfW-Green
+      Bonds Reporting 2021_2022-A4-241016-06.indd:.28775:230'' widget=False field=None
+      struct_parent=5 | (2818, 0): page=2 subtype=Link flags=None rect=[42.5197, 583.934,
+      252.088, 567.494] action=''/GoTo'' dest=''BF-KfW-Green Bonds Reporting 2021_2022-A4-241016-06.indd:.28779:231''
+      widget=False field=None struct_parent=6 | (2816, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 559.934, 245.248, 543.494] action=''/GoTo'' dest=''BF-KfW-Green
+      Bonds Reporting 2021_2022-A4-241016-06.indd:.28783:232'' widget=False field=None
+      struct_parent=7 | (2814, 0): page=2 subtype=Link flags=None rect=[42.5197, 535.934,
+      311.583, 519.494] action=''/GoTo'' dest=''BF-KfW-Green Bonds Reporting 2021_2022-A4-241016-06.indd:.28787:233''
+      widget=False field=None struct_parent=8 | (2812, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 511.934, 252.088, 495.494] action=''/GoTo'' dest=''BF-KfW-Green
+      Bonds Reporting 2021_2022-A4-241016-06.indd:.28791:234'' widget=False field=None
+      struct_parent=9 | (2810, 0): page=2 subtype=Link flags=None rect=[42.5197, 487.934,
+      245.248, 471.494] action=''/GoTo'' dest=''BF-KfW-Green Bonds Reporting 2021_2022-A4-241016-06.indd:.28795:235''
+      widget=False field=None struct_parent=10 | (2808, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 463.934, 264.616, 447.494] action=''/GoTo'' dest=''BF-KfW-Green
+      Bonds Reporting 2021_2022-A4-241016-06.indd:.28799:236'' widget=False field=None
+      struct_parent=11 | (2806, 0): page=2 subtype=Link flags=None rect=[42.5197,
+      439.934, 240.652, 423.494] action=''/GoTo'' dest=''BF-KfW-Green Bonds Reporting
+      2021_2022-A4-241016-06.indd:.28803:237'' widget=False field=None struct_parent=12
+      | (2804, 0): page=2 subtype=Link flags=None rect=[42.5197, 415.934, 416.798,
+      399.494] action=''/GoTo'' dest=''BF-KfW-Green Bonds Reporting 2021_2022-A4-241016-06.indd:.28807:238''
+      widget=False field=None struct_parent=13 | (2802, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 391.934, 416.798, 375.494] action=''/GoTo'' dest=''BF-KfW-Green
+      Bonds Reporting 2021_2022-A4-241016-06.indd:.28811:239'' widget=False field=None
+      struct_parent=14 | (2800, 0): page=2 subtype=Link flags=None rect=[42.5197,
+      367.934, 118.182, 351.494] action=''/GoTo'' dest=''BF-KfW-Green Bonds Reporting
+      2021_2022-A4-241016-06.indd:.28815:240'' widget=False field=None struct_parent=15
+      | (2693, 0): page=3 subtype=Link flags=None rect=[399.685, 592.154, 551.972,
+      580.922] action=''/URI'' dest=''https://www.un.org/sustainabledevelopment/''
+      widget=False field=None struct_parent=17 | (2695, 0): page=3 subtype=Link flags=None
+      rect=[399.685, 580.154, 454.809, 568.922] action=''/URI'' dest=''https://www.un.org/sustainabledevelopment/''
+      widget=False field=None struct_parent=18 | (2521, 0): page=5 subtype=Link flags=None
+      rect=[950.973, 268.793, 1137.67, 256.463] action=''/GoTo'' dest=''BF-KfW-Green
+      Bonds Reporting 2021_2022-A4-241016-06.indd:.29196:247'' widget=False field=None
+      struct_parent=21 | (505, 0): page=14 subtype=Link flags=None rect=[676.937,
+      168.598, 812.97, 158.323] action=''/URI'' dest=''https://unfccc.int/climate-action/sectoral-engagement/ifis-harmonization-of-standards-for-ghg-accounting/ifi-twg-list-of-methodologies''
+      widget=False field=None struct_parent=39 | (502, 0): page=14 subtype=Link flags=None
+      rect=[676.937, 144.598, 859.08, 134.323] action=''/URI'' dest=''https://unfccc.int/documents/461676''
+      widget=False field=None struct_parent=40 | (499, 0): page=14 subtype=Link flags=None
+      rect=[706.367, 93.2225, 933.186, 82.9476] action=''/URI'' dest=''http://www.ipcc.ch/site/assets/uploads/2018/03/Annex-II-Methodology-1.pdf
+      '' widget=False field=None struct_parent=41 | (496, 0): page=14 subtype=Link
+      flags=None rect=[658.172, 78.2225, 936.426, 67.9476] action=''/URI'' dest=''http://www.irena.org/Data/View-data-by-topic/Climate-Change/Avoided-Emissions-Calculator''
+      widget=False field=None struct_parent=42 | (545, 0): page=19 subtype=Link flags=None
+      rect=[42.5197, 430.793, 87.7077, 418.463] action=''/URI'' dest=''http://www.kfw.de''
+      widget=False field=None struct_parent=36 | (542, 0): page=19 subtype=Link flags=None
+      rect=[42.5197, 388.793, 172.901, 376.463] action=''/URI'' dest=''http://www.kfw.de/investor-relations''
+      widget=False field=None struct_parent=37 | (539, 0): page=19 subtype=Link flags=None
+      rect=[42.5197, 376.793, 141.212, 364.463] action=''/URI'' dest=''mailto:investor.relations%40kfw.de?subject=''
+      widget=False field=None struct_parent=38'
+    LinkStructureCount: 23
+    ExternalLinkAnnotationCount: 9
+    InternalLinkAnnotationCount: 15
+    AnnotationPagesWithLinks: 5
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 87
+    HeadingSequence: H1 > H2 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H3 > H3
+      > H3 > H2 > H3 > H2 > H3 > H3 > H3 > H4 > H4 > H3 > H4 > H4 > H3 > H4 > H4 >
+      H3 > H4 > H4 > H3 > H4 > H4 > H2 > H3 > H2 > H3 > H3 > H3 > H4 > H4 > H2 > H3
+      > H3 > H4 > H2 > H3 > H2 > H3 > H3 > H2 > H3 > H3 > H4 > H2 > H3 > H3 > H2 >
+      H3 > H4 > H4 > H4 > H3 > H4 > H4 > H3 > H4 > H4 > H3 > H4 > H4 > H3 > H4 > H4
+      > H2 > H3 > H3 > H3 > H2 > H3 > H3 > H3 > H2 > H2 > H3 > H3
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Pass
+    TableCount: 16
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2024-10-17 11:20:58+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 19.5 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: 'Green Bonds – Made by KfW: Impact achieved by KfW’s green bond issuances
+      2021 & 2022 (September 2024)'
+    Author: KfW Group
+    Subject: Impact achieved by KfW’s green bond issuances 2021 & 2022
+    Keywords: null
+    Description: Impact achieved by KfW’s green bond issuances 2021 & 2022
+    Pages: 19
+    Words: 11677
+    Images: 23
   errors: []
 - url: https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-FInancial-Report-2023.pdf
   md5: 7e9214b75ab06816151b58c12b580f9d
   filename: KfW-FInancial-Report-2023.pdf
   site: kfw.de
   crawled_at: '2026-05-17T07:48:08.977855+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 7
+    AnnotationSubtypeCounts: Link=7
+    LinkAnnotationCount: 7
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(562, 0): page=28 subtype=Link flags=None rect=[182.395, 616.303,
+      232.905, 627.13] action=''/URI'' dest=''http://www.kfw.de'' widget=False field=None
+      struct_parent=1706 | (566, 0): page=32 subtype=Link flags=None rect=[56.5981,
+      54.5656, 278.969, 63.9865] action=''/URI'' dest=''https://www.kfw.de/microsites/Microsite/nachhaltigkeitsbericht.kfw.de/en/''
+      widget=False field=None struct_parent=1713 | (529, 0): page=90 subtype=Link
+      flags=None rect=[50.5551, 519.648, 151.601, 531.475] action=''/URI'' dest=''http://www.kfw.de/Sustainability''
+      widget=False field=None struct_parent=1773 | (538, 0): page=222 subtype=Link
+      flags=None rect=[50.5301, 354.819, 125.978, 365.646] action=''/URI'' dest=''mailto:infocenter@kfw.de''
+      widget=False field=None struct_parent=1907 | (539, 0): page=222 subtype=Link
+      flags=None rect=[126.516, 354.819, 174.109, 365.646] action=''/URI'' dest=''http://www.kfw.de''
+      widget=False field=None struct_parent=1909 | (543, 0): page=224 subtype=Link
+      flags=None rect=[51.5551, 705.612, 133.068, 716.439] action=''/URI'' dest=''mailto:infocenter@kfw.de''
+      widget=False field=None struct_parent=1912 | (544, 0): page=224 subtype=Link
+      flags=None rect=[51.5551, 692.859, 106.149, 703.686] action=''/URI'' dest=''http://www.kfw.de''
+      widget=False field=None struct_parent=1914'
+    LinkStructureCount: 7
+    ExternalLinkAnnotationCount: 7
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 5
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 275
+    HeadingSequence: H1 > H2 > H3 > H3 > H3 > H3 > H3 > H2 > H2 > H3 > H3 > H3 > H3
+      > H3 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H3 > H3 > H2 > H2 >
+      H3 > H4 > H4 > H4 > H3 > H3 > H3 > H4 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+      > H3 > H3 > H3 > H2 > H3 > H4 > H3 > H4 > H4 > H4 > H5 > H5 > H5 > H5 > H3 >
+      H4 > H4 > H5 > H5 > H5 > H5 > H5 > H4 > H4 > H4 > H3 > H4 > H4 > H4 > H4 > H5
+      > H5 > H5 > H5 > H4 > H5 > H6 > H6 > H6 > H4 > H5 > H6 > H6 > H6 > H6 > H6 >
+      H5 > H6 > H6 > H5 > H6 > H6 > H6 > H6 > H6 > H6 > H5 > H6 > H6 > H6 > H6 > H5
+      > H5 > H5 > H5 > H6 > H5 > H5 > H5 > H5 > H4 > H5 > H5 > H5 > H3 > H4 > H4 >
+      H5 > H5 > H5 > H5 > H4 > H4 > H4 > H3 > H4 > H4 > H4 > H4 > H3 > H3 > H2 > H3
+      > H4 > H4 > H3 > H4 > H4 > H3 > H4 > H3 > H2 > H3 > H4 > H4 > H5 > H5 > H5 >
+      H4 > H4 > H4 > H4 > H4 > H5 > H5 > H5 > H5 > H6 > H6 > H5 > H5 > H4 > H5 > H5
+      > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H3 > H4 >
+      H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H5 > H3 > H4 > H4 > H3 > H4 > H4
+      > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 >
+      H4 > H5 > H4 > H4 > H4 > H3 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H3
+      > H4 > H4 > H4 > H4 > H4 > H5 > H5 > H5 > H5 > H5 > H5 > H4 > H5 > H5 > H5 >
+      H5 > H4 > H4 > H5 > H5 > H5 > H4 > H5 > H4 > H2 > H3 > H3 > H4 > H5 > H5 > H5
+      > H5 > H5 > H4 > H5 > H5 > H5 > H5 > H4 > H2 > H3 > H3 > H3 > H3 > H4
+    HeadingIssues: ''
+    ListsTest: Pass
+    ListCount: 73
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Pass
+    TableCount: 199
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2024-06-03 14:18:40+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: null
+    Producer: null
+    Title: Financial Report 2023
+    Author: '{''KfW Bankengruppe''}'
+    Subject: Shaping transformation
+    Keywords: null
+    Description: Shaping transformation
+    Pages: 224
+    Words: 89690
+    Images: 26
+    DocCategory: Budget
   errors: []
 - url: https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-Finanzbericht-2024-2.pdf
   md5: fce59fffe4861fd7eb9cd86d0591ef3a
   filename: KfW-Finanzbericht-2024-2.pdf
   site: kfw.de
   crawled_at: '2026-05-17T07:48:08.990080+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - Analysis exceeded 120s per-file limit
 - url: https://www.kfw.de/PDF/Download-Center/Law-Concerning-KfW/KfW-Gesetz-DE-EN.pdf
   md5: 82d8161522e708c90e063dc5ea4ac0c4
   filename: KfW-Gesetz-DE-EN.pdf
   site: kfw.de
   crawled_at: '2026-05-17T07:48:08.992679+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 21
+    HeadingSequence: H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2
+      > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2021-01-27 08:06:13+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 15.1 (Macintosh)
+    Producer: Adobe PDF Library 15.0
+    Title: Law Concerning Kreditanstalt für Wiederaufbau
+    Author: KfW
+    Subject: Law Concerning Kreditanstalt für Wiederaufbau
+    Keywords: null
+    Description: Law Concerning Kreditanstalt für Wiederaufbau
+    Pages: 12
+    Words: 4466
+    Images: 0
   errors: []
 - url: https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bond-Allocation-Report-2023.pdf
   md5: cd52ef0443331e28d7421dc3001b0d4c
   filename: KfW-Green-Bond-Allocation-Report-2023.pdf
   site: kfw.de
   crawled_at: '2026-05-17T07:48:08.995317+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: null
+    TaggedContentTest: Fail
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 11
+    AnnotationSubtypeCounts: Link=11
+    LinkAnnotationCount: 11
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Fail
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(95, 0): page=2 subtype=Link flags=4 rect=[37.45, 697.8099,
+      426.95, 709.3099] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(4,0)>,
+      "/XYZ", Decimal(\''37.45\''), Decimal(\''804.2001\''), 0 ])'' widget=False field=None
+      struct_parent=2 | (98, 0): page=2 subtype=Link flags=4 rect=[37.45, 674.8099,
+      426.95, 697.8099] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(4,0)>,
+      "/XYZ", Decimal(\''37.45\''), Decimal(\''432.8048\''), 0 ])'' widget=False field=None
+      struct_parent=3 | (101, 0): page=2 subtype=Link flags=4 rect=[37.45, 651.8099,
+      426.95, 674.8099] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(7,0)>,
+      "/XYZ", Decimal(\''37.45\''), Decimal(\''804.2001\''), 0 ])'' widget=False field=None
+      struct_parent=4 | (104, 0): page=2 subtype=Link flags=4 rect=[37.45, 628.8099,
+      426.95, 651.8099] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(9,0)>,
+      "/XYZ", Decimal(\''37.45\''), Decimal(\''804.2001\''), 0 ])'' widget=False field=None
+      struct_parent=5 | (107, 0): page=2 subtype=Link flags=4 rect=[37.45, 605.8099,
+      426.95, 628.8099] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(11,0)>,
+      "/XYZ", Decimal(\''37.45\''), Decimal(\''804.2001\''), 0 ])'' widget=False field=None
+      struct_parent=6 | (110, 0): page=2 subtype=Link flags=4 rect=[37.45, 582.8099,
+      426.95, 605.8099] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(20,0)>,
+      "/XYZ", Decimal(\''37.45\''), Decimal(\''804.2001\''), 0 ])'' widget=False field=None
+      struct_parent=7 | (113, 0): page=2 subtype=Link flags=4 rect=[37.45, 559.8099,
+      426.95, 582.8099] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(25,0)>,
+      "/XYZ", Decimal(\''54.45\''), Decimal(\''555.6\''), 0 ])'' widget=False field=None
+      struct_parent=8 | (117, 0): page=6 subtype=Link flags=4 rect=[37.45, 695.6229,
+      149.8975, 707.4927] action=''/URI'' dest=''http://www.kfw.de/green-bonds'' widget=False
+      field=None struct_parent=13 | (119, 0): page=6 subtype=Link flags=4 rect=[37.45,
+      296.1138, 149.8975, 307.9837] action=''/URI'' dest=''http://www.kfw.de/green-bonds''
+      widget=False field=None struct_parent=14 | (122, 0): page=20 subtype=Link flags=4
+      rect=[38.45, 112.5098, 142.2717, 124.0098] action=''/URI'' dest=''mailto:investor.relations@kfw.de''
+      widget=False field=None struct_parent=23 | (124, 0): page=20 subtype=Link flags=4
+      rect=[38.45, 101.0098, 114.0308, 112.5098] action=''/URI'' dest=''http://www.kfw.de/green''
+      widget=False field=None struct_parent=24'
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 4
+    InternalLinkAnnotationCount: 7
+    AnnotationPagesWithLinks: 3
+    HidesAnnotationTest: NotApplicable
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: NotApplicable
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: NotApplicable
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2024-03-20 09:22:41+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: Power PDF Create
+    Producer: Power PDF Create
+    Title: KfW Green Bonds Allocation Report 2023_final_ neues CDv1
+    Author: Nickolaizig, Andrea
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 20
+    Words: 4944
+    Images: 14
+    DocCategory: Report
+  errors:
+  - 'title, tagged, annotations-untagged, '
 - url: https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bonds-Reporting-2023.pdf
   md5: 4fdb9ff8954600d88a9242f30da81fb5
   filename: KfW-Green-Bonds-Reporting-2023.pdf
   site: kfw.de
   crawled_at: '2026-05-17T07:48:08.999836+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 19
+    AnnotationSubtypeCounts: Link=19
+    LinkAnnotationCount: 19
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(1877, 0): page=2 subtype=Link flags=None rect=[42.5197, 679.934,
+      385.25, 663.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34329:361''
+      widget=False field=None struct_parent=2 | (1875, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 655.934, 226.624, 639.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34335:362''
+      widget=False field=None struct_parent=3 | (1873, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 631.934, 231.832, 615.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34339:363''
+      widget=False field=None struct_parent=4 | (1871, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 607.934, 155.801, 591.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34343:364''
+      widget=False field=None struct_parent=5 | (1869, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 583.934, 311.583, 567.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34347:365''
+      widget=False field=None struct_parent=6 | (1867, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 559.934, 243.856, 543.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34351:366''
+      widget=False field=None struct_parent=7 | (1865, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 535.934, 237.016, 519.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34355:367''
+      widget=False field=None struct_parent=8 | (1863, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 511.934, 257.224, 495.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34359:368''
+      widget=False field=None struct_parent=9 | (1861, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 487.934, 237.389, 471.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34363:369''
+      widget=False field=None struct_parent=10 | (1859, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 463.934, 367.478, 447.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34367:370''
+      widget=False field=None struct_parent=11 | (1857, 0): page=2 subtype=Link flags=None
+      rect=[42.5197, 439.934, 127.53, 423.494] action=''/GoTo'' dest=''KfW-Green-Bonds-Reporting-2023-A4-2025-11-24_bf.indd:.34371:371''
+      widget=False field=None struct_parent=12 | (604, 0): page=11 subtype=Link flags=None
+      rect=[495.795, 174.531, 551.294, 164.256] action=''/URI'' dest=''https://www.ipcc.ch/site/assets/uploads/2018/03/Annex-II-Methodology-1.pdf''
+      widget=False field=None struct_parent=32 | (606, 0): page=11 subtype=Link flags=None
+      rect=[302.598, 165.531, 471.879, 155.256] action=''/URI'' dest=''https://www.ipcc.ch/site/assets/uploads/2018/03/Annex-II-Methodology-1.pdf''
+      widget=False field=None struct_parent=33 | (611, 0): page=11 subtype=Link flags=None
+      rect=[323.401, 149.914, 552.965, 139.639] action=''/URI'' dest=''https://www.irena.org/Data/View-data-by-topic/Climate-Change/Avoided-Emissions-Calculator''
+      widget=False field=None struct_parent=30 | (613, 0): page=11 subtype=Link flags=None
+      rect=[303.024, 140.914, 354.458, 130.639] action=''/URI'' dest=''https://www.irena.org/Data/View-data-by-topic/Climate-Change/Avoided-Emissions-Calculator''
+      widget=False field=None struct_parent=31 | (657, 0): page=15 subtype=Link flags=None
+      rect=[637.795, 430.793, 682.983, 418.463] action=''/URI'' dest=''https://www.kfw.de''
+      widget=False field=None struct_parent=26 | (654, 0): page=15 subtype=Link flags=None
+      rect=[637.795, 388.793, 768.176, 376.463] action=''/URI'' dest=''https://www.kfw.de/investor-relations''
+      widget=False field=None struct_parent=27 | (651, 0): page=15 subtype=Link flags=None
+      rect=[637.795, 376.793, 736.488, 364.463] action=''/URI'' dest=''mailto:investor.relations@kfw.de''
+      widget=False field=None struct_parent=28 | (648, 0): page=15 subtype=Link flags=None
+      rect=[695.646, 232.793, 748.367, 220.463] action=''/URI'' dest=''https://photothek.net''
+      widget=False field=None struct_parent=29'
+    LinkStructureCount: 17
+    ExternalLinkAnnotationCount: 8
+    InternalLinkAnnotationCount: 11
+    AnnotationPagesWithLinks: 3
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 64
+    HeadingSequence: H1 > H2 > H2 > H2 > H3 > H2 > H3 > H2 > H3 > H3 > H3 > H2 > H3
+      > H3 > H3 > H3 > H4 > H5 > H5 > H4 > H5 > H5 > H4 > H5 > H5 > H2 > H3 > H3 >
+      H2 > H3 > H3 > H2 > H3 > H2 > H3 > H2 > H3 > H4 > H4 > H4 > H3 > H4 > H4 > H3
+      > H4 > H4 > H4 > H2 > H3 > H3 > H3 > H2 > H2 > H3 > H3 > H2 > H3 > H3 > H2 >
+      H2 > H2 > H2 > H2 > H2
+    HeadingIssues: ''
+    ListsTest: Warn
+    ListCount: 9
+    InvalidListItemParents: ''
+    InvalidListChildren: '(751, 0): LI has unusual children P | (757, 0): LI has unusual
+      children P, P | (759, 0): LI has unusual children P, P, P | (736, 0): LI has
+      unusual children P | (841, 0): LI has unusual children P | (847, 0): LI has
+      unusual children P | (868, 0): LI has unusual children P'
+    MalformedListNodes: ''
+    TablesTest: Pass
+    TableCount: 9
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2025-11-25 10:28:02+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 21.0 (Macintosh)
+    Producer: Adobe PDF Library 18.0
+    Title: Green Bonds – Made by KfW
+    Author: KfW Group
+    Subject: Impact achieved by KfW’s green bond issuances 2023 (November 2025)
+    Keywords: null
+    Description: Impact achieved by KfW’s green bond issuances 2023 (November 2025)
+    Pages: 15
+    Words: 8180
+    Images: 14
+  errors:
+  - 'lists-warn, '
 - url: https://www.kfw.de/PDF/Download-Center/Konzernthemen/KfW-at-a-glance/KfW-an-overview.pdf
   md5: ecc465261ae66f3b3b1203e1ba511029
   filename: KfW-an-overview.pdf
   site: kfw.de
   crawled_at: '2026-05-17T07:48:09.004491+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 3
+    AnnotationSubtypeCounts: Link=3
+    LinkAnnotationCount: 3
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(61, 0): page=6 subtype=Link flags=None rect=[72.2328, 152.53,
+      160.382, 164.762] action=''/URI'' dest=''http://www.kfw-capital.de'' widget=False
+      field=None struct_parent=6 | (52, 0): page=11 subtype=Link flags=None rect=[27.3465,
+      112.326, 96.5075, 121.95] action=''/URI'' dest=''mailto:infocenter@kfw.de''
+      widget=False field=None struct_parent=12 | (53, 0): page=11 subtype=Link flags=None
+      rect=[27.3465, 101.166, 72.7993, 110.79] action=''/URI'' dest=''http://www.kfw.de''
+      widget=False field=None struct_parent=13'
+    LinkStructureCount: 3
+    ExternalLinkAnnotationCount: 3
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 2
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 34
+    HeadingSequence: H1 > H2 > H2 > H3 > H2 > H3 > H2 > H3 > H2 > H3 > H2 > H3 > H2
+      > H2 > H2 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 >
+      H2 > H3 > H3 > H3 > H4 > H2
+    HeadingIssues: ''
+    ListsTest: Pass
+    ListCount: 3
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Pass
+    TableCount: 7
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2020-03-31 16:31:16+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: null
+    Producer: null
+    Title: KfW at a Glance · Facts and Figures
+    Author: '{''KfW Bankengruppe''}'
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 11
+    Words: 2955
+    Images: 11
   errors: []
 - url: https://www.kfw.de/stories/kfw/documents/pdf/kfw-brochure_english_bf.pdf
   md5: fe199046b3e1b62dad06bc7c3e7b965f
   filename: kfw-brochure_english_bf.pdf
   site: kfw.de
   crawled_at: '2026-05-17T07:48:09.011280+00:00'
-  status: pending
-  report: null
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 21
+    AnnotationSubtypeCounts: Link=21
+    LinkAnnotationCount: 21
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(42, 0): page=2 subtype=Link flags=None rect=[627.424998,
+      467.363998, 655.964, 456.132] action=''/GoTo'' dest=''EN_KfW_0443_TransformationsMagazin_Sonderfarbe_barr.indd:.54140:3''
+      widget=False field=None struct_parent=2 | (44, 0): page=2 subtype=Link flags=None
+      rect=[627.424998, 217.189999, 655.964, 205.957999] action=''/GoTo'' dest=''EN_KfW_0443_TransformationsMagazin_Sonderfarbe_barr.indd:.54195:6''
+      widget=False field=None struct_parent=5 | (46, 0): page=2 subtype=Link flags=None
+      rect=[627.424998, 134.925, 655.964, 123.692999] action=''/GoTo'' dest=''EN_KfW_0443_TransformationsMagazin_Sonderfarbe_barr.indd:.54213:7''
+      widget=False field=None struct_parent=6 | (48, 0): page=2 subtype=Link flags=None
+      rect=[627.424998, 56.3344, 655.964, 45.1024] action=''/GoTo'' dest=''EN_KfW_0443_TransformationsMagazin_Sonderfarbe_barr.indd:.54231:8''
+      widget=False field=None struct_parent=7 | (50, 0): page=2 subtype=Link flags=None
+      rect=[626.831998, 384.016998, 655.37, 372.785] action=''/GoTo'' dest=''EN_KfW_0443_TransformationsMagazin_Sonderfarbe_barr.indd:.54158:4''
+      widget=False field=None struct_parent=3 | (52, 0): page=2 subtype=Link flags=None
+      rect=[627.818998, 299.454998, 656.357998, 288.223] action=''/GoTo'' dest=''EN_KfW_0443_TransformationsMagazin_Sonderfarbe_barr.indd:.54177:5''
+      widget=False field=None struct_parent=4 | (140, 0): page=3 subtype=Link flags=None
+      rect=[738.140998, 472.85, 789.292, 462.865998] action=''/URI'' dest=''http://www.kfw.de/
+      SMEpromotion'' widget=False field=None struct_parent=9 | (142, 0): page=3 subtype=Link
+      flags=None rect=[738.140998, 463.25, 793.964, 453.266] action=''/URI'' dest=''http://www.kfw.de/
+      SMEpromotion'' widget=False field=None struct_parent=10 | (165, 0): page=4 subtype=Link
+      flags=None rect=[736.298998, 478.175, 785.099, 468.190998] action=''/URI'' dest=''http://www.kfw.de/ThinkGlobally''
+      widget=False field=None struct_parent=12 | (167, 0): page=4 subtype=Link flags=None
+      rect=[736.298998, 468.574998, 786.922, 458.591] action=''/URI'' dest=''http://www.kfw.de/ThinkGlobally''
+      widget=False field=None struct_parent=13 | (169, 0): page=4 subtype=Link flags=None
+      rect=[812.942999, 46.506999, 829.961, 269.314] action=''/URI'' dest=''https://www.bpb.de/kurz-knapp/zahlen-und-fakten/globalisierung/52842/deutschland-aussenhandel''
+      widget=False field=None struct_parent=28 | (204, 0): page=5 subtype=Link flags=None
+      rect=[821.966998, 302.904998, 829.184998, 67.060299] action=''/URI'' dest=''https://www.kfw.de/%C3%9Cber-die-KfW/Newsroom/Aktuelles/Pressemitteilungen-Details_827136.html''
+      widget=False field=None struct_parent=15 | (206, 0): page=5 subtype=Link flags=None
+      rect=[384.093998, 65.521399, 435.245998, 55.537399] action=''/URI'' dest=''http://www.kfw.de/
+      GlobalPartnerships'' widget=False field=None struct_parent=16 | (208, 0): page=5
+      subtype=Link flags=None rect=[384.093998, 55.921399, 454.988998, 45.937398]
+      action=''/URI'' dest=''http://www.kfw.de/ GlobalPartnerships'' widget=False
+      field=None struct_parent=17 | (246, 0): page=6 subtype=Link flags=None rect=[673.547,
+      438.531998, 724.697998, 428.548] action=''/URI'' dest=''http://www.kfw.de/ PromotingInnovation''
+      widget=False field=None struct_parent=19 | (248, 0): page=6 subtype=Link flags=None
+      rect=[673.547, 428.932, 752.697998, 418.947998] action=''/URI'' dest=''http://www.kfw.de/
+      PromotingInnovation'' widget=False field=None struct_parent=20 | (316, 0): page=7
+      subtype=Link flags=None rect=[382.322998, 56.157299, 447.065998, 46.173299]
+      action=''/URI'' dest=''http://www.kfw.de/WIN'' widget=False field=None struct_parent=22
+      | (346, 0): page=8 subtype=Link flags=None rect=[712.154998, 276.699998, 796.716,
+      267.677998] action=''/URI'' dest=''http://as-corporate-solutions.de '' widget=False
+      field=None struct_parent=24 | (348, 0): page=8 subtype=Link flags=None rect=[709.380998,
+      165.866, 800.489, 156.842998] action=''/URI'' dest=''http://stock.adobe.com
+      / Westend61'' widget=False field=None struct_parent=25 | (350, 0): page=8 subtype=Link
+      flags=None rect=[588.222998, 452.439999, 637.022, 442.456] action=''/URI'' dest=''http://www.kfw.de/LivingSpace''
+      widget=False field=None struct_parent=26 | (352, 0): page=8 subtype=Link flags=None
+      rect=[588.222998, 442.839998, 633.822, 432.855998] action=''/URI'' dest=''http://www.kfw.de/LivingSpace''
+      widget=False field=None struct_parent=27'
+    LinkStructureCount: 16
+    ExternalLinkAnnotationCount: 15
+    InternalLinkAnnotationCount: 6
+    AnnotationPagesWithLinks: 7
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 9
+    HeadingSequence: H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H3
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2025-06-18 12:55:32+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 20.3 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: Responsibility for the future
+    Author: '{''KfW Group''}'
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 8
+    Words: 1800
+    Images: 12
+    DocCategory: Brochure
   errors: []
 - url: https://my.volstate.edu/files/documents/AdjunctHandbook2025-2026.pdf
   md5: 523a8fe7d79991f9077d4b3cc859e4cf
