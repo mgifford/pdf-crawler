@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-05-17T07:48:30.246924+00:00
+Generated: 2026-05-17T07:54:35.899037+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19736 |
-| Analysed | 6025 |
+| Total files tracked | 19744 |
+| Analysed | 6032 |
 | Pending analysis | 8676 |
-| Errors during analysis | 5035 |
-| Accessible | 1988 |
+| Errors during analysis | 5036 |
+| Accessible | 1994 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
 | Exempt (pre-2018) | 1501 |
@@ -51,6 +51,7 @@ Generated: 2026-05-17T07:48:30.246924+00:00
 | hamilton.ca | 262 |
 | hud.gov | 1418 |
 | ijcaonline.org | 1 |
+| kfw.de | 8 |
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
@@ -6114,6 +6115,13 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [11514-a-quick-look-at-medicare-2.pdf](https://www.medicare.gov/publications/11514-a-quick-look-at-medicare-2.pdf) | medicare.gov | 2020-07-21 | A Quick Look at Medicare | CMS | {'Original Medicare', 'Medicare Advantage', 'resources', 'help', 'Medicare basics'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 611 | 2 |
 | [11514-s-a-quick-look-medicare.pdf](https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf) | medicare.gov | 2020-07-30 | Resumen Corto Sobre Medicare | {'CMS'} | {'información básica', 'Medicare Advantage', 'ayuda', 'recursos', 'Medicare Original'} | Medicare Original, Medicare Advantage, recursos, ayuda, información básica | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 686 | 2 |
 | [11525-medicare-appeals.pdf](https://www.medicare.gov/publications/11525-medicare-appeals.pdf) | medicare.gov | 2026-04-21 | Medicare Appeals | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 14904 | 8 |
+| [BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf](https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf) | kfw.de | 2024-10-17 | Green Bonds – Made by KfW: Impact achieved by KfW’s green bond issuances 2021 & 2022 (September 2024) | KfW Group | Impact achieved by KfW’s green bond issuances 2021 & 2022 | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 19 | 11677 | 23 |
+| [KfW-FInancial-Report-2023.pdf](https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-FInancial-Report-2023.pdf) | kfw.de | 2024-06-03 | Financial Report 2023 | {'KfW Bankengruppe'} | Shaping transformation | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 224 | 89690 | 26 |
+| [KfW-Gesetz-DE-EN.pdf](https://www.kfw.de/PDF/Download-Center/Law-Concerning-KfW/KfW-Gesetz-DE-EN.pdf) | kfw.de | 2021-01-27 | Law Concerning Kreditanstalt für Wiederaufbau | KfW | Law Concerning Kreditanstalt für Wiederaufbau | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4466 | 0 |
+| [KfW-Green-Bond-Allocation-Report-2023.pdf](https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bond-Allocation-Report-2023.pdf) | kfw.de | 2024-03-20 | KfW Green Bonds Allocation Report 2023_final_ neues CDv1 | Nickolaizig, Andrea | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4944 | 14 |
+| [KfW-Green-Bonds-Reporting-2023.pdf](https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bonds-Reporting-2023.pdf) | kfw.de | 2025-11-25 | Green Bonds – Made by KfW | KfW Group | Impact achieved by KfW’s green bond issuances 2023 (November 2025) | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 8180 | 14 |
+| [KfW-an-overview.pdf](https://www.kfw.de/PDF/Download-Center/Konzernthemen/KfW-at-a-glance/KfW-an-overview.pdf) | kfw.de | 2020-03-31 | KfW at a Glance · Facts and Figures | {'KfW Bankengruppe'} | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2955 | 11 |
+| [kfw-brochure_english_bf.pdf](https://www.kfw.de/stories/kfw/documents/pdf/kfw-brochure_english_bf.pdf) | kfw.de | 2025-06-18 | Responsibility for the future | {'KfW Group'} | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1800 | 12 |
 
 ## Files with Errors or Notes
 
@@ -60860,3 +60868,21 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf
 - **Status**: analysed
 - headings-warn, 
+
+### KfW-Finanzbericht-2024-2.pdf
+
+- **URL**: https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-Finanzbericht-2024-2.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### KfW-Green-Bond-Allocation-Report-2023.pdf
+
+- **URL**: https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bond-Allocation-Report-2023.pdf
+- **Status**: analysed
+- title, tagged, annotations-untagged, 
+
+### KfW-Green-Bonds-Reporting-2023.pdf
+
+- **URL**: https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/KfW-Green-Bonds-Reporting-2023.pdf
+- **Status**: analysed
+- lists-warn, 
