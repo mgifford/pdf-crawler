@@ -1,19 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-05-17T00:41:25.697312+00:00
+Generated: 2026-05-17T01:24:40.739006+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19536 |
-| Analysed | 5873 |
-| Pending analysis | 8630 |
-| Errors during analysis | 5033 |
-| Accessible | 1870 |
+| Total files tracked | 19736 |
+| Analysed | 6025 |
+| Pending analysis | 8676 |
+| Errors during analysis | 5035 |
+| Accessible | 1988 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
-| Exempt (pre-2018) | 1487 |
+| Exempt (pre-2018) | 1501 |
 
 ## Files per Site
 
@@ -54,6 +54,7 @@ Generated: 2026-05-17T00:41:25.697312+00:00
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
+| medicare.gov | 200 |
 | middletowncityschools.com | 170 |
 | mn.gov | 1456 |
 | mtnboces.org | 32 |
@@ -5959,6 +5960,160 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [homehealthhospice_jurisdictionmap_oct2013.pdf](https://www.cms.gov/medicare/medicare-contracting/medicare-administrative-contractors/downloads/homehealthhospice_jurisdictionmap_oct2013.pdf) | cms.gov | 2013-10-22 | Home Health and Hospice (HH+H) Jurisdictions (Administered by A/B MACs) | Phyllis Atkins-MacKey | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 29 | 1 |
 | [hospacquiredconditionsrtc.pdf](https://www.cms.gov/priorities/innovation/files/x/hospacquiredconditionsrtc.pdf) | cms.gov | 2013-02-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 46 | 12533 | 0 |
 | [iah-fg-yr4eval.pdf](https://www.cms.gov/priorities/innovation/files/reports/iah-fg-yr4eval.pdf) | cms.gov | 2019-05-23 | Evaluation of the Independence at Home Demonstration: Evaluation of Performance Years 1 to 4 (2012-2016) | Mathematica; CMS; CMMI; Innovation Center | {'Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact'} | "Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 747 | 4 |
+| [02118-part-b-outpatient-services.pdf](https://www.medicare.gov/publications/02118-part-b-outpatient-services.pdf) | medicare.gov | 2017-12-07 | Quick facts about payment for outpatient services for people with Medicare Part B. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 963 | 4 |
+| [02118-s-part-b-outpatient-services.pdf](https://www.medicare.gov/publications/02118-s-part-b-outpatient-services.pdf) | medicare.gov | 2018-01-04 | Resumen sobre el Sistema de Pago de Servicios Ambulatorios para las Personas con la Parte B de Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 1090 | 4 |
+| [02154-medicare-hospice-benefits.pdf](https://www.medicare.gov/publications/02154-medicare-hospice-benefits.pdf) | medicare.gov | 2026-02-27 | Medicare Hospice Benefits | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 4455 | 4 |
+| [02173-getting-a-second-opinion-before-surgery.pdf](https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf) | medicare.gov | 2022-01-11 | Getting a second opinion before surgery. | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 802 | 4 |
+| [02173-s-getting-a-second-opinion-before-surgery.pdf](https://www.medicare.gov/publications/02173-s-getting-a-second-opinion-before-surgery.pdf) | medicare.gov | 2022-01-21 | Una Segunda Opinión Antes de la Cirugía. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 952 | 4 |
+| [02174-s-your-guide-to-choosing-a-nursing-home.pdf](https://www.medicare.gov/publications/02174-s-your-guide-to-choosing-a-nursing-home.pdf) | medicare.gov | 2025-11-21 | 02174-S: Su guía para elegir un asilo de ancianos | Centers for Medicare and Medicaid Services | {'booklet', 'Your Guide to Choosing a Nursing Home', 'Medicare', 'Spanish', 'Su guía para elegir un asilo de ancianos', '02174', 'Centers for Medicare & Medicaid Services'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3376 | 9 |
+| [02179-how-medicare-works-with-other-insurance.pdf](https://www.medicare.gov/publications/02179-how-medicare-works-with-other-insurance.pdf) | medicare.gov | 2026-02-20 | How Medicare Works with Other Insurance | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 | 8096 | 3 |
+| [02179-s-how-medicare-works-with-other-insurance508.pdf](https://www.medicare.gov/publications/02179-s-how-medicare-works-with-other-insurance508.pdf) | medicare.gov | 2026-03-11 | Cómo funciona Medicare con otros seguros | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 | 9384 | 3 |
+| [10108_c.pdf](https://www.medicare.gov/publications/10108_c.pdf) | medicare.gov | 2009-03-25 | — | {'Centers for Medicare and Medicaid Services'} | www.medicare.gov | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 102 | 3 |
+| [10108_k.pdf](https://www.medicare.gov/publications/10108_k.pdf) | medicare.gov | 2009-03-31 | — | {'Centers for Medicare and Medicaid Services'} | www.medicare.gov | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 4 | 496 | 3 |
+| [10108_v.pdf](https://www.medicare.gov/publications/10108_v.pdf) | medicare.gov | 2009-03-25 | — | {'Centers for Medicare and Medicaid Services'} | www.medicare.gov | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 930 | 3 |
+| [10110-s-your-guide-to-preventive-services.pdf](https://www.medicare.gov/publications/10110-s-your-guide-to-preventive-services.pdf) | medicare.gov | 2025-06-26 | Servicios Preventivos | Centers for Medicare and Medicaid Services | Servicios Preventivos de Medicare | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 28 | 7800 | 4 |
+| [10111-protecting-yourself-from-fraud.pdf](https://www.medicare.gov/publications/10111-protecting-yourself-from-fraud.pdf) | medicare.gov | 2025-02-26 | Protecting Yourself From Fraud | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3649 | 3 |
+| [10111-s-protecting-yourself-from-fraud.pdf](https://www.medicare.gov/publications/10111-s-protecting-yourself-from-fraud.pdf) | medicare.gov | 2025-02-28 | Protegiéndose del fraude | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3954 | 3 |
+| [10126-ar-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-ar-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | Ստացեք աջակցություն Ձեր Medicare-ի ծախսերի վճարման հարցում | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 753 | 1 |
+| [10126-arb-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-arb-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | احصل على مساعدة في تكاليف خطة Medicare الخاصة بك | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 901 | 1 |
+| [10126-c-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-c-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-11 | 获取有关联邦医疗保险费用的帮助 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 240 | 1 |
+| [10126-f-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-f-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | Obtenez de l’aide pour vos coûts d’assurance- | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 914 | 1 |
+| [10126-far-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-far-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | در مورد هزینه های Medicare خود راهنمایی بگیرید | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 960 | 1 |
+| [10126-g-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-g-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | Holen Sie sich Hilfe bei Ihren Medicare-Kosten | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 790 | 1 |
+| [10126-get-help-with-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-get-help-with-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-08 | Get help with your Medicare costs | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 763 | 1 |
+| [10126-gr-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-gr-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | Λάβετε βοήθεια με τα έξοδα του Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 873 | 1 |
+| [10126-hc-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-hc-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-10 | Jwenn èd ak depans Medicare ou yo | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 855 | 1 |
+| [10126-i-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-i-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-10 | Ottieni assistenza per i costi di Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 854 | 1 |
+| [10126-j-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-j-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-11 | メディケア・コストを支援します | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 216 | 1 |
+| [10126-k-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-k-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | 메디케어 비용에 대한 도움 받기 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 647 | 1 |
+| [10126-pol-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-pol-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | Uzyskaj pomoc w pokryciu kosztów Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 850 | 1 |
+| [10126-por-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-por-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | Obtenha ajuda com seus custos do Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 884 | 1 |
+| [10126-r-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-r-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | Получите помощь на оплату ваших расходов на Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 854 | 1 |
+| [10126-s-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-s-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-21 | Obtenga ayuda con sus costos de Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 871 | 1 |
+| [10126-t-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-t-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-13 | Humingi ng tulong sa iyong mga gastos sa Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1013 | 1 |
+| [10126-v-get-help-with-your-medicare-costs-getting-started.pdf](https://www.medicare.gov/publications/10126-v-get-help-with-your-medicare-costs-getting-started.pdf) | medicare.gov | 2026-04-11 | Cần sự trợ giúp với chi phí Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1268 | 1 |
+| [10128-medicare-coverage-of-kidney-dialysis-kidney-transplant-services.pdf](https://www.medicare.gov/publications/10128-medicare-coverage-of-kidney-dialysis-kidney-transplant-services.pdf) | medicare.gov | 2025-12-18 | Medicare Coverage of Kidney Dialysis & Kidney Transplant Services | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 11245 | 10 |
+| [10128-s-medicare-coverage-of-kidney-dialysis-kidney-transplant-services.pdf](https://www.medicare.gov/publications/10128-s-medicare-coverage-of-kidney-dialysis-kidney-transplant-services.pdf) | medicare.gov | 2026-02-03 | La Cobertura de Medicare de los Servicios de Diálisis Renal y Trasplante de Riñón | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 12840 | 10 |
+| [10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf](https://www.medicare.gov/publications/10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf) | medicare.gov | 2025-08-06 | Medicare Coverage of Skilled Nursing Facility Care | Centers for Medicare and Medicaid Services | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 7612 | 10 |
+| [10153-s-medicare-skilled-nursing-facility.pdf](https://www.medicare.gov/publications/10153-s-medicare-skilled-nursing-facility.pdf) | medicare.gov | 2025-08-20 | Medicare Rights & Protections | Centers for Medicare and Medicaid Services | {'11534', 'Medicare Rights & Protections', 'Medicare'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 36 | 8543 | 9 |
+| [10181-s-guide-to-choosing-a-hospital.pdf](https://www.medicare.gov/publications/10181-s-guide-to-choosing-a-hospital.pdf) | medicare.gov | 2026-03-31 | La guía para escoger un hospital | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3512 | 7 |
+| [10969-medicare-and-home-health-care.pdf](https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf) | medicare.gov | 2025-06-24 | 10969 Medicare and Home Health Care | Centers for Medicare and Medicaid Services | {'Medicare', 'Medicare and Home Health Care', '10969', 'CMS'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 5521 | 5 |
+| [10969-s-medicare-and-home-health-care.pdf](https://www.medicare.gov/publications/10969-s-medicare-and-home-health-care.pdf) | medicare.gov | 2025-08-18 | 10969 Medicare y el Cuidado de Salud en el Hogar | Centers for Medicare and Medicaid Services | {'Medicare and Home Health Care Booklet', 'Medicare y el Cuidado de Salud en el Hogar', 'Centers for Medicare and Medicaid Services', 'Spanish', 'CMS'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 6675 | 5 |
+| [10988-medicare-coverage-of-therapy-services.pdf](https://www.medicare.gov/publications/10988-medicare-coverage-of-therapy-services.pdf) | medicare.gov | 2024-11-05 | Medicare Coverage of Therapy Services | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 464 | 0 |
+| [10988-s-medicare-coverage-therapy-services.pdf](https://www.medicare.gov/publications/10988-s-medicare-coverage-therapy-services.pdf) | medicare.gov | 2025-01-22 | Cobertura de Medicare para servicios de terapia | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 550 | 0 |
+| [11021-medicare-coverage-of-ambulance-services.pdf](https://www.medicare.gov/publications/11021-medicare-coverage-of-ambulance-services.pdf) | medicare.gov | 2025-08-28 | Medicare Coverage of Ambulance Services | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 2751 | 4 |
+| [11021-s-medicare-ambulance-services.pdf](https://www.medicare.gov/publications/11021-s-medicare-ambulance-services.pdf) | medicare.gov | 2026-01-15 | Medicare Rights & Protections | Centers for Medicare and Medicaid Services | {'11534', 'Medicare Rights & Protections', 'Medicare'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 3022 | 4 |
+| [11022-AR-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-AR-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-28 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 5285 | 7 |
+| [11022-ARB-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-ARB-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-30 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 5809 | 7 |
+| [11022-C-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-C-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-30 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 1350 | 7 |
+| [11022-F-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-F-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-29 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 6689 | 7 |
+| [11022-FAR-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-FAR-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-28 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 6807 | 7 |
+| [11022-G-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-G-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-30 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 5433 | 7 |
+| [11022-GR-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-GR-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-29 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 6015 | 7 |
+| [11022-HC-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-HC-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-30 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 5950 | 7 |
+| [11022-I-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-I-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-29 | Medicare Coverage of Diabetes Supplies Services Rights & Protections | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 6072 | 7 |
+| [11022-J-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-J-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-30 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 1084 | 7 |
+| [11022-K-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-K-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-29 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 4388 | 7 |
+| [11022-POL-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-POL-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-27 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 5618 | 7 |
+| [11022-POR-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-POR-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-29 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 6183 | 7 |
+| [11022-R-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-R-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-29 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 5605 | 7 |
+| [11022-T-Medicares-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-T-Medicares-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-29 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 7050 | 7 |
+| [11022-V-Medicare-Diabetes-Coverage.pdf](https://www.medicare.gov/publications/11022-V-Medicare-Diabetes-Coverage.pdf) | medicare.gov | 2025-06-27 | Medicare Coverage of Diabetes Supplies Services | Centers for Medicare and Medicaid Services | {'Medicare Coverage of Diabetes Supplies Services', '11022', 'Medicare'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 8795 | 7 |
+| [11022-le-medicare-coverage-of-diabetes-supplies-services-and-prevention-programs.pdf](https://www.medicare.gov/publications/11022-le-medicare-coverage-of-diabetes-supplies-services-and-prevention-programs.pdf) | medicare.gov | 2025-08-06 | Medicare Rights & Protections | Centers for Medicare and Medicaid Services | {'11534', 'Medicare Rights & Protections'} | Medicare Rights & Protections, 11534, | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 52 | 5817 | 0 |
+| [11036-enroll-medicare-parta-partb.pdf](https://www.medicare.gov/publications/11036-enroll-medicare-parta-partb.pdf) | medicare.gov | 2016-04-26 | Enrolling in Medicare Part A & Part B | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 36 | 8814 | 10 |
+| [11036-enrolling-medicare-part-a-part-b.pdf](https://www.medicare.gov/publications/11036-enrolling-medicare-part-a-part-b.pdf) | medicare.gov | 2018-01-11 | Enrolling in Medicare Part A and Part B. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 36 | 9070 | 10 |
+| [11036-enrolling-part-a-part-b.pdf](https://www.medicare.gov/publications/11036-enrolling-part-a-part-b.pdf) | medicare.gov | 2016-04-26 | Enrolling in Medicare Part A & Part B | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 36 | 8814 | 10 |
+| [11036-s-enrolling-part-a-part-b.pdf](https://www.medicare.gov/publications/11036-s-enrolling-part-a-part-b.pdf) | medicare.gov | 2018-02-02 | La Inscripción en la Parte A y la Parte B de Medicare. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 36 | 10418 | 6 |
+| [11037-medicare-coverage-outside-the-united-states.pdf](https://www.medicare.gov/publications/11037-medicare-coverage-outside-the-united-states.pdf) | medicare.gov | 2026-04-07 | Medicare Coverage Outside the United States | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1271 | 0 |
+| [11037-s-medicare-coverage-outside-the-united-states.pdf](https://www.medicare.gov/publications/11037-s-medicare-coverage-outside-the-united-states.pdf) | medicare.gov | 2026-04-14 | La cobertura de Medicare fuera de los Estados Unidos de Norteamérica | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1476 | 0 |
+| [11046-medicare-coverage-of-wheelchairs-scooters.pdf](https://www.medicare.gov/publications/11046-medicare-coverage-of-wheelchairs-scooters.pdf) | medicare.gov | 2026-05-07 | Medicare Coverage of Wheelchair & Scooters | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1410 | 0 |
+| [11046-s-medicare-coverage-of-wheelchairs-and-scooters.pdf](https://www.medicare.gov/publications/11046-s-medicare-coverage-of-wheelchairs-and-scooters.pdf) | medicare.gov | 2024-05-24 | Cobertura de Medicare para sillas de ruedas y escúteres | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 1552 | 0 |
+| [11109-s-medicare-drug-coverage-guide.pdf](https://www.medicare.gov/publications/11109-s-medicare-drug-coverage-guide.pdf) | medicare.gov | 2025-06-04 | Su Guía sobre la Cobertura de Medicare para Medicamentos | Centros de Servicios de Medicare y Medicaid | {'11109-S', 'Su Guía sobre la Cobertura de Medicare para Medicamentos'} | Su Guía sobre la Cobertura de Medicare para Medicamentos, 11109-S | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 17467 | 8 |
+| [11145-j.pdf](https://www.medicare.gov/publications/11145-j.pdf) | medicare.gov | 2015-07-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 98 | 2 |
+| [11173-medicare-beneficiary-ombudsman.pdf](https://www.medicare.gov/publications/11173-medicare-beneficiary-ombudsman.pdf) | medicare.gov | 2024-09-10 | The Medicare Beneficiary Ombudsman Works for You | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 473 | 0 |
+| [11173-s-the-medicare-beneficiary-ombudsman-works-for-you.pdf](https://www.medicare.gov/publications/11173-s-the-medicare-beneficiary-ombudsman-works-for-you.pdf) | medicare.gov | 2024-09-10 | El Defensor del Beneficiario de Medicare trabaja para usted | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 571 | 0 |
+| [11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf](https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf) | medicare.gov | 2026-03-11 | Understanding Medicare Advantage & Medicare Drug Plan Enrollment Periods | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4257 | 0 |
+| [11220-I-have-you-done-your-yearly-medicare-plan-review.pdf](https://www.medicare.gov/publications/11220-I-have-you-done-your-yearly-medicare-plan-review.pdf) | medicare.gov | 2025-09-23 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1020 | 1 |
+| [11220-ar-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-ar-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 916 | 1 |
+| [11220-arb-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-arb-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1008 | 1 |
+| [11220-c-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-c-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 231 | 1 |
+| [11220-f-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-f-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1175 | 1 |
+| [11220-far-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-far-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1161 | 1 |
+| [11220-g-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-g-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1004 | 1 |
+| [11220-gr-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-gr-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1061 | 1 |
+| [11220-hc-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-hc-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1033 | 1 |
+| [11220-j-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-j-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 228 | 1 |
+| [11220-pol-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-pol-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 947 | 1 |
+| [11220-por-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-por-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1063 | 1 |
+| [11220-r-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-r-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1002 | 1 |
+| [11220-t-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-t-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1161 | 1 |
+| [11220-v-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-v-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1463 | 1 |
+| [11220-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-your-yearly-medicare-review.pdf) | medicare.gov | 2025-09-04 | Your Yearly Medicare Review | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 966 | 1 |
+| [11294-s-women-and-heart-disease.pdf](https://www.medicare.gov/publications/11294-s-women-and-heart-disease.pdf) | medicare.gov | 2026-04-21 | La Mujer y las Enfermedades  del Corazón | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 466 | 1 |
+| [11294-women-and-heart-disease.pdf](https://www.medicare.gov/publications/11294-women-and-heart-disease.pdf) | medicare.gov | 2026-04-08 | Women & Heart Disease | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 392 | 1 |
+| [11317.pdf](https://www.medicare.gov/publications/11317.pdf) | medicare.gov | 2008-01-04 | Microsoft Word - 11317-2008.doc | S1H7 | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 248 | 2 |
+| [11317_s.pdf](https://www.medicare.gov/publications/11317_s.pdf) | medicare.gov | 2008-01-04 | Microsoft Word - 11317_S-2008.doc | S1H7 | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | 1 | 272 | 1 |
+| [11318.pdf](https://www.medicare.gov/publications/11318.pdf) | medicare.gov | 2025-07-08 | Apply for Extra Help | Centers for Medicare & Medicaid Services | {'Apply for Extra Help', 'Medicare', 'Centers for Medicare & Medicaid Services'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 198 | 1 |
+| [11318_aa.pdf](https://www.medicare.gov/publications/11318_aa.pdf) | medicare.gov | 2007-09-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 2 | 28 | 3 |
+| [11318_s.pdf](https://www.medicare.gov/publications/11318_s.pdf) | medicare.gov | 2025-07-21 | ¿Necesita ayuda para pagar sus recetas? | Centers for Medicare & Medicaid Services | {'Apply for Extra Help', 'Medicare', 'Centers for Medicare & Medicaid Services'} | Medicare; Apply for Extra Help; Centers for Medicare & Medicaid Services | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 224 | 1 |
+| [11347-long-term-care-hospitals.pdf](https://www.medicare.gov/publications/11347-long-term-care-hospitals.pdf) | medicare.gov | 2019-06-18 | What are long-term care hospitals? | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 477 | 2 |
+| [11347-s-long-term-care-hospitals.pdf](https://www.medicare.gov/publications/11347-s-long-term-care-hospitals.pdf) | medicare.gov | 2019-07-25 | ¿Qué son los Hospitales de Cuidado a Largo Plazo? | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 560 | 2 |
+| [11357-home-health-getting-started.pdf](https://www.medicare.gov/publications/11357-home-health-getting-started.pdf) | medicare.gov | 2025-09-19 | Medicare’s 
+Home Health Benefit | Centers for Medicare & Medicaid Services | {'Home Health Benefit', 'Medicare', 'Centers for Medicare & Medicaid Services', 'Medicare’s'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1036 | 3 |
+| [11357-smedicare-and-home-health-benefits.pdf](https://www.medicare.gov/publications/11357-smedicare-and-home-health-benefits.pdf) | medicare.gov | 2025-09-10 | El Beneficio de Medicare del Cuidado de la Salud en el Hogar | Centros de Medicare y Servicios de Medicare | {'Centros de Medicare y Servicios de Medicare', 'El Beneficio de Medicare del Cuidado de la Salud en el Hogar'} | WCAG 2.0 | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1226 | 4 |
+| [11358-medicare-and-your-mental-health-benefits-getting-started.pdf](https://www.medicare.gov/publications/11358-medicare-and-your-mental-health-benefits-getting-started.pdf) | medicare.gov | 2025-08-07 | Medicare's Mental Health Coverage | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1059 | 1 |
+| [11358-s-medicare-and-your-mental-health-benefits-getting-started.pdf](https://www.medicare.gov/publications/11358-s-medicare-and-your-mental-health-benefits-getting-started.pdf) | medicare.gov | 2025-08-14 | Cobertura de salud mental de Medicaid | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1277 | 1 |
+| [11359-getting-started-medicare-and-skilled-nursing-facility-care.pdf](https://www.medicare.gov/publications/11359-getting-started-medicare-and-skilled-nursing-facility-care.pdf) | medicare.gov | 2024-05-24 | Getting Started: Medicare & Skilled Nursing Facility Care | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 918 | 3 |
+| [11359-s-getting-started-medicare-and-skilled-nursing-facility-care.pdf](https://www.medicare.gov/publications/11359-s-getting-started-medicare-and-skilled-nursing-facility-care.pdf) | medicare.gov | 2024-11-13 | Atención médica y en centros de enfermería especializada | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1068 | 3 |
+| [11360-medicare-dialysis-kidney-transplant.pdf](https://www.medicare.gov/publications/11360-medicare-dialysis-kidney-transplant.pdf) | medicare.gov | 2023-12-21 | Medicare's coverage of Kidney dialysis and kidney transplant benefits. | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1447 | 2 |
+| [11360-s-medicare-dialysis-kidney-transplant.pdf](https://www.medicare.gov/publications/11360-s-medicare-dialysis-kidney-transplant.pdf) | medicare.gov | 2024-01-19 | Cobertura de Medicare y los beneficios de diálisis y trasplante de riñón | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1685 | 1 |
+| [11361-s-medicare-and-hospice-benefits.pdf](https://www.medicare.gov/publications/11361-s-medicare-and-hospice-benefits.pdf) | medicare.gov | 2025-07-03 | Medicare y los beneficios de hospicio | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1511 | 1 |
+| [11368-n-bringing-better-heal-care.pdf](https://www.medicare.gov/publications/11368-n-bringing-better-heal-care.pdf) | medicare.gov | 2015-08-24 | Bringing Better Health Care to Native Communities | {'The Centers for Medicare & Medicaid Services'} | {'tribal', 'American Indian', 'health insurance', 'Medicare', 'Centers for Medicare and Medicaid Services', 'Native health', 'CMS', 'health coverage', 'Alaska Native', 'Indian Country', 'Medicaid', 'AI/AN', 'Marketplace'} | CMS, Centers for Medicare and Medicaid Services, Native health, Indian Country, American Indian, Alaska Native, AI/AN, tribal, Medicare, Medicaid, Marketplace, health insurance, health coverage | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | 2 | 496 | 5 |
+| [11376-s-your-discharge-planning-checklist.pdf](https://www.medicare.gov/publications/11376-s-your-discharge-planning-checklist.pdf) | medicare.gov | 2025-12-09 | Su lista de verificación para la planificación del alta | — | {'11376', 'Medicare', 'Your discharge planning checklist'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1624 | 1 |
+| [11376-your-discharge-planning-checklist.pdf](https://www.medicare.gov/publications/11376-your-discharge-planning-checklist.pdf) | medicare.gov | 2025-12-03 | Your discharge planning checklist | — | {'11376', 'Medicare', 'Your discharge planning checklist'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1379 | 1 |
+| [11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf](https://www.medicare.gov/publications/11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf) | medicare.gov | 2025-03-04 | Getting Care & Drugs in a Disaster or Emergency | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1249 | 0 |
+| [11377-s-getting-care-and-drugs-in-a-disaster-or-emergency.pdf](https://www.medicare.gov/publications/11377-s-getting-care-and-drugs-in-a-disaster-or-emergency.pdf) | medicare.gov | 2025-03-07 | Cómo obtener atención médica y medicamentos en una situación de desastre o emergencia | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1427 | 0 |
+| [11389-s-medicare-getting-started.pdf](https://www.medicare.gov/publications/11389-s-medicare-getting-started.pdf) | medicare.gov | 2026-02-27 | Medicare: Conozca los conceptos básicos | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1789 | 1 |
+| [11392-getting-started-medicare-for-children-with-end-stage-renal-disease.pdf](https://www.medicare.gov/publications/11392-getting-started-medicare-for-children-with-end-stage-renal-disease.pdf) | medicare.gov | 2023-12-21 | Medicare for Children with End-Stage Renal Disease. | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1547 | 1 |
+| [11392-s-getting-started-medicare-for-children-with-end-stage-renal-disease.pdf](https://www.medicare.gov/publications/11392-s-getting-started-medicare-for-children-with-end-stage-renal-disease.pdf) | medicare.gov | 2024-01-17 | Medicare para niños con Enfermedad Renal en Etapa Final. | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1828 | 1 |
+| [11408-hospital-benefits-getting-started.pdf](https://www.medicare.gov/publications/11408-hospital-benefits-getting-started.pdf) | medicare.gov | 2020-04-08 | Medicare and your hospital benefits. | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1142 | 10 |
+| [11409-AR-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-AR-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-29 | Հասկացեք Medicaid-ի ծրագրի հիմունքները | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1154 | 4 |
+| [11409-ARB-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-ARB-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-29 | فهم أساسيات برنامج  Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1122 | 4 |
+| [11409-C-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-C-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-29 | 了解醫療補助基礎知識 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 299 | 4 |
+| [11409-F-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-F-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-28 | Comprendre les fondements de Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1421 | 4 |
+| [11409-FAR-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-FAR-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-29 | آشنایی با مبانی Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1274 | 4 |
+| [11409-G-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-G-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-28 | Die Medicaid-Grundlagen verstehen | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1185 | 4 |
+| [11409-GR-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-GR-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-29 | Κατανόηση των βασικών αρχών Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1173 | 4 |
+| [11409-HC-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-HC-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-28 | Konprann baz Medicaid yo | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1263 | 4 |
+| [11409-I-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-I-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-28 | Capire le basi di Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1290 | 4 |
+| [11409-K-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-K-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-29 | Medicaid 기본 사항 이해 | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 884 | 4 |
+| [11409-POL-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-POL-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-28 | Zrozumienie podstaw Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1207 | 4 |
+| [11409-POR-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-POR-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-28 | Entenda os princípios básico do Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1270 | 4 |
+| [11409-R-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-R-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-28 | Изучите основы Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1167 | 4 |
+| [11409-T-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-T-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-28 | Intindihan ang mga basic ng Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1449 | 4 |
+| [11409-V-Getting-Started-Understand-Medicaid-Basics.pdf](https://www.medicare.gov/publications/11409-V-Getting-Started-Understand-Medicaid-Basics.pdf) | medicare.gov | 2022-01-29 | Hiểu những đặc điểm cơ bản của Medicaid | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 1739 | 4 |
+| [11409-medicaid-getting-started.pdf](https://www.medicare.gov/publications/11409-medicaid-getting-started.pdf) | medicare.gov | 2026-04-21 | Medicaid | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 977 | 2 |
+| [11410-Diabetes-Conference-Card.pdf](https://www.medicare.gov/publications/11410-Diabetes-Conference-Card.pdf) | medicare.gov | 2025-07-24 | Medicare helps cover diabetes supplies & services | Centers for Medicare & Medicaid Services | {'Medicare helps cover diabetes supplies & services', '11410', 'Medicare', 'Centers for Medicare & Medicaid Services'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 466 | 1 |
+| [11410-s-diabetes-conference-card.pdf](https://www.medicare.gov/publications/11410-s-diabetes-conference-card.pdf) | medicare.gov | 2025-08-07 | Medicare ayuda 
+a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medicaid Services | {'a cubrir suministros y servicios para la diabetes', 'Medicare ayuda', 'Medicare', 'Centers for Medicare & Medicaid Services'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 547 | 1 |
+| [11417-Saving-on-health-care-costs.pdf](https://www.medicare.gov/publications/11417-Saving-on-health-care-costs.pdf) | medicare.gov | 2025-05-20 | Saving on health care costs | Centers for Medicare & Medicaid Services | {'Centers for Medicare & Medicaid Services', 'Medicare', 'Saving on health care costs'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1102 | 0 |
+| [11420-s-are-you-up-to-date-on-your-preventive-services.pdf](https://www.medicare.gov/publications/11420-s-are-you-up-to-date-on-your-preventive-services.pdf) | medicare.gov | 2026-04-22 | ¿Está al Día Con Sus  Servicios Preventivos? | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 375 | 1 |
+| [11441-s-speaking-with-doctor-during-office.pdf](https://www.medicare.gov/publications/11441-s-speaking-with-doctor-during-office.pdf) | medicare.gov | 2025-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 761 | 0 |
+| [11441-speaking-with-doctor-during-office.pdf](https://www.medicare.gov/publications/11441-speaking-with-doctor-during-office.pdf) | medicare.gov | 2025-04-23 | Talking with a Friend’s or Family Member’s Doctor During an Appointment | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 684 | 0 |
+| [11445-AR-4-Programs-Help-Pay-Medical-Expenses.pdf](https://www.medicare.gov/publications/11445-AR-4-Programs-Help-Pay-Medical-Expenses.pdf) | medicare.gov | 2022-08-18 | 4 programs that can help you pay your medical expenses. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 746 | 4 |
+| [11445-ARB-4-Programs-Help-Pay-Medical-Expenses.pdf](https://www.medicare.gov/publications/11445-ARB-4-Programs-Help-Pay-Medical-Expenses.pdf) | medicare.gov | 2022-07-25 | 4 برامج لمساعدتك على دفع التكاليف الطبية المترتبة عليك | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 870 | 4 |
+| [11445-GR-4-Programs-Help-Pay-Medical-Expenses.pdf](https://www.medicare.gov/publications/11445-GR-4-Programs-Help-Pay-Medical-Expenses.pdf) | medicare.gov | 2022-07-24 | 4 προγράμματα που μπορούν να σας βοηθήσουν να πληρώσετε τα ιατρικά | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 838 | 4 |
+| [11445-s-4-programs-to-help-pay-medical-expenses.pdf](https://www.medicare.gov/publications/11445-s-4-programs-to-help-pay-medical-expenses.pdf) | medicare.gov | 2022-07-27 | 4 Programas que Pueden Ayudarle con sus Gastos Médicos | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 879 | 4 |
+| [11469-income-and-drug-premiums.pdf](https://www.medicare.gov/publications/11469-income-and-drug-premiums.pdf) | medicare.gov | 2025-04-23 | How income affects your premiums | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 899 | 0 |
+| [11469-s-income-affects-drug-premiums.pdf](https://www.medicare.gov/publications/11469-s-income-affects-drug-premiums.pdf) | medicare.gov | 2025-05-06 | Cómo los ingresos afectan las primas de su cobertura de medicamentos de Medicare | {'CMS'} | {'ingresos', 'pima', 'Parte D'} | Parte D, pima, , ingresos | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 993 | 0 |
+| [11472-s-learn-what-medicare-covers.pdf](https://www.medicare.gov/publications/11472-s-learn-what-medicare-covers.pdf) | medicare.gov | 2024-10-02 | Conozca qué cubre Medicare y sus costos | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 1225 | 0 |
+| [11477-return-to-the-community.pdf](https://www.medicare.gov/publications/11477-return-to-the-community.pdf) | medicare.gov | 2022-04-20 | Your Right to get information about returning to the community. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 440 | 4 |
+| [11477-s-return-to-the-community.pdf](https://www.medicare.gov/publications/11477-s-return-to-the-community.pdf) | medicare.gov | 2022-05-18 | Su derecho a recibir información sobre su regreso a la comunidad | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 448 | 4 |
+| [11514-AR-A-Quick-Look-at-Medicare.pdf](https://www.medicare.gov/publications/11514-AR-A-Quick-Look-at-Medicare.pdf) | medicare.gov | 2021-08-07 | Հպանցիկ հայացք Medicare ծրագրին | CMS | {'Original Medicare', 'Medicare Advantage', 'resources', 'help', 'Medicare basics'} | ; Original Medicare; Medicare Advantage; Medicare basics; resources; help | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 732 | 2 |
+| [11514-ARB-a-quick-look-at-medicare.pdf](https://www.medicare.gov/publications/11514-ARB-a-quick-look-at-medicare.pdf) | medicare.gov | 2021-08-12 | نظرة سريعة على Medicare | CMS | {'Original Medicare', 'Medicare Advantage', 'resources', 'help', 'Medicare basics'} | ; Original Medicare; Medicare Advantage; Medicare basics; resources; help | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 746 | 2 |
+| [11514-a-quick-look-at-medicare-2.pdf](https://www.medicare.gov/publications/11514-a-quick-look-at-medicare-2.pdf) | medicare.gov | 2020-07-21 | A Quick Look at Medicare | CMS | {'Original Medicare', 'Medicare Advantage', 'resources', 'help', 'Medicare basics'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 611 | 2 |
+| [11514-s-a-quick-look-medicare.pdf](https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf) | medicare.gov | 2020-07-30 | Resumen Corto Sobre Medicare | {'CMS'} | {'información básica', 'Medicare Advantage', 'ayuda', 'recursos', 'Medicare Original'} | Medicare Original, Medicare Advantage, recursos, ayuda, información básica | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 686 | 2 |
+| [11525-medicare-appeals.pdf](https://www.medicare.gov/publications/11525-medicare-appeals.pdf) | medicare.gov | 2026-04-21 | Medicare Appeals | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 14904 | 8 |
 
 ## Files with Errors or Notes
 
@@ -60423,3 +60578,285 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cms.gov/priorities/innovation/files/x/hospacquiredconditionsrtc.pdf
 - **Status**: analysed
 - title, tables-fail, 
+
+### 02173-getting-a-second-opinion-before-surgery.pdf
+
+- **URL**: https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 10050-le-medicare-and-you.pdf
+
+- **URL**: https://www.medicare.gov/publications/10050-le-medicare-and-you.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### 10108_c.pdf
+
+- **URL**: https://www.medicare.gov/publications/10108_c.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 10108_k.pdf
+
+- **URL**: https://www.medicare.gov/publications/10108_k.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 10108_v.pdf
+
+- **URL**: https://www.medicare.gov/publications/10108_v.pdf
+- **Status**: analysed
+- title, Default language is not valid: Vietnamese, headings-none, 
+
+### 10110-s-your-guide-to-preventive-services.pdf
+
+- **URL**: https://www.medicare.gov/publications/10110-s-your-guide-to-preventive-services.pdf
+- **Status**: analysed
+- headings-skip, annotations-tagging-fail, 
+
+### 10116-your-medicare-benefits.pdf
+
+- **URL**: https://www.medicare.gov/publications/10116-your-medicare-benefits.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### 10126-f-get-help-with-your-medicare-costs-getting-started.pdf
+
+- **URL**: https://www.medicare.gov/publications/10126-f-get-help-with-your-medicare-costs-getting-started.pdf
+- **Status**: analysed
+- lists-fail, 
+
+### 10126-get-help-with-medicare-costs-getting-started.pdf
+
+- **URL**: https://www.medicare.gov/publications/10126-get-help-with-medicare-costs-getting-started.pdf
+- **Status**: analysed
+- lists-warn, annotations-tagging-fail, 
+
+### 10126-s-get-help-with-your-medicare-costs-getting-started.pdf
+
+- **URL**: https://www.medicare.gov/publications/10126-s-get-help-with-your-medicare-costs-getting-started.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### 10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 10153-s-medicare-skilled-nursing-facility.pdf
+
+- **URL**: https://www.medicare.gov/publications/10153-s-medicare-skilled-nursing-facility.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=10), headings-skip, 
+
+### 10969-medicare-and-home-health-care.pdf
+
+- **URL**: https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 10969-s-medicare-and-home-health-care.pdf
+
+- **URL**: https://www.medicare.gov/publications/10969-s-medicare-and-home-health-care.pdf
+- **Status**: analysed
+- lists-warn, annotations-tagging-fail, 
+
+### 11021-s-medicare-ambulance-services.pdf
+
+- **URL**: https://www.medicare.gov/publications/11021-s-medicare-ambulance-services.pdf
+- **Status**: analysed
+- headings-skip, 
+
+### 11036-enroll-medicare-parta-partb.pdf
+
+- **URL**: https://www.medicare.gov/publications/11036-enroll-medicare-parta-partb.pdf
+- **Status**: analysed
+- headings-warn, 
+
+### 11036-enrolling-medicare-part-a-part-b.pdf
+
+- **URL**: https://www.medicare.gov/publications/11036-enrolling-medicare-part-a-part-b.pdf
+- **Status**: analysed
+- headings-warn, 
+
+### 11036-enrolling-part-a-part-b.pdf
+
+- **URL**: https://www.medicare.gov/publications/11036-enrolling-part-a-part-b.pdf
+- **Status**: analysed
+- headings-warn, 
+
+### 11036-s-enrolling-part-a-part-b.pdf
+
+- **URL**: https://www.medicare.gov/publications/11036-s-enrolling-part-a-part-b.pdf
+- **Status**: analysed
+- headings-warn, 
+
+### 11046-medicare-coverage-of-wheelchairs-scooters.pdf
+
+- **URL**: https://www.medicare.gov/publications/11046-medicare-coverage-of-wheelchairs-scooters.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### 11046-s-medicare-coverage-of-wheelchairs-and-scooters.pdf
+
+- **URL**: https://www.medicare.gov/publications/11046-s-medicare-coverage-of-wheelchairs-and-scooters.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### 11145-j.pdf
+
+- **URL**: https://www.medicare.gov/publications/11145-j.pdf
+- **Status**: analysed
+- title, lang, 
+
+### 11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
+
+- **URL**: https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11220-your-yearly-medicare-review.pdf
+
+- **URL**: https://www.medicare.gov/publications/11220-your-yearly-medicare-review.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11294-s-women-and-heart-disease.pdf
+
+- **URL**: https://www.medicare.gov/publications/11294-s-women-and-heart-disease.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11294-women-and-heart-disease.pdf
+
+- **URL**: https://www.medicare.gov/publications/11294-women-and-heart-disease.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11317.pdf
+
+- **URL**: https://www.medicare.gov/publications/11317.pdf
+- **Status**: analysed
+- title, headings-warn, 
+
+### 11317_s.pdf
+
+- **URL**: https://www.medicare.gov/publications/11317_s.pdf
+- **Status**: analysed
+- title, headings-warn, 
+
+### 11318_aa.pdf
+
+- **URL**: https://www.medicare.gov/publications/11318_aa.pdf
+- **Status**: analysed
+- title, lang, headings-none, 
+
+### 11318_s.pdf
+
+- **URL**: https://www.medicare.gov/publications/11318_s.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11357-smedicare-and-home-health-benefits.pdf
+
+- **URL**: https://www.medicare.gov/publications/11357-smedicare-and-home-health-benefits.pdf
+- **Status**: analysed
+- headings-skip, 
+
+### 11358-medicare-and-your-mental-health-benefits-getting-started.pdf
+
+- **URL**: https://www.medicare.gov/publications/11358-medicare-and-your-mental-health-benefits-getting-started.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11358-s-medicare-and-your-mental-health-benefits-getting-started.pdf
+
+- **URL**: https://www.medicare.gov/publications/11358-s-medicare-and-your-mental-health-benefits-getting-started.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11359-getting-started-medicare-and-skilled-nursing-facility-care.pdf
+
+- **URL**: https://www.medicare.gov/publications/11359-getting-started-medicare-and-skilled-nursing-facility-care.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11359-s-getting-started-medicare-and-skilled-nursing-facility-care.pdf
+
+- **URL**: https://www.medicare.gov/publications/11359-s-getting-started-medicare-and-skilled-nursing-facility-care.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11360-medicare-dialysis-kidney-transplant.pdf
+
+- **URL**: https://www.medicare.gov/publications/11360-medicare-dialysis-kidney-transplant.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11389-s-medicare-getting-started.pdf
+
+- **URL**: https://www.medicare.gov/publications/11389-s-medicare-getting-started.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11392-getting-started-medicare-for-children-with-end-stage-renal-disease.pdf
+
+- **URL**: https://www.medicare.gov/publications/11392-getting-started-medicare-for-children-with-end-stage-renal-disease.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11392-s-getting-started-medicare-for-children-with-end-stage-renal-disease.pdf
+
+- **URL**: https://www.medicare.gov/publications/11392-s-getting-started-medicare-for-children-with-end-stage-renal-disease.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11408-hospital-benefits-getting-started.pdf
+
+- **URL**: https://www.medicare.gov/publications/11408-hospital-benefits-getting-started.pdf
+- **Status**: analysed
+- headings-none, annotations-tagging-fail, 
+
+### 11409-POR-Getting-Started-Understand-Medicaid-Basics.pdf
+
+- **URL**: https://www.medicare.gov/publications/11409-POR-Getting-Started-Understand-Medicaid-Basics.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### 11409-medicaid-getting-started.pdf
+
+- **URL**: https://www.medicare.gov/publications/11409-medicaid-getting-started.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### 11441-s-speaking-with-doctor-during-office.pdf
+
+- **URL**: https://www.medicare.gov/publications/11441-s-speaking-with-doctor-during-office.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), 
+
+### 11445-s-4-programs-to-help-pay-medical-expenses.pdf
+
+- **URL**: https://www.medicare.gov/publications/11445-s-4-programs-to-help-pay-medical-expenses.pdf
+- **Status**: analysed
+- headings-warn, 
+
+### 11477-s-return-to-the-community.pdf
+
+- **URL**: https://www.medicare.gov/publications/11477-s-return-to-the-community.pdf
+- **Status**: analysed
+- figures missing alt text (count=10), 
+
+### 11514-a-quick-look-at-medicare-2.pdf
+
+- **URL**: https://www.medicare.gov/publications/11514-a-quick-look-at-medicare-2.pdf
+- **Status**: analysed
+- headings-warn, 
+
+### 11514-s-a-quick-look-medicare.pdf
+
+- **URL**: https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf
+- **Status**: analysed
+- headings-warn, 
