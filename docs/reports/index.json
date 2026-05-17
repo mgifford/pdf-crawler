@@ -4,7 +4,7 @@
     "site": "canada.ca",
     "crawl_url": "https://www.canada.ca",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25991394631",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/15#issuecomment-4470738715",
     "archive_file": "2026-05-17_12-57-54-947_canada.ca.html",
     "total": 500,
     "analysed": 475,
