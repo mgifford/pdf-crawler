@@ -26,6 +26,8 @@ from crawl import (
     _extract_pdf_urls_from_sitemap,
     _collect_sitemap_pdf_urls,
     fetch_sitemap_pdfs,
+    _extract_pdf_urls_from_duckduckgo,
+    fetch_duckduckgo_pdfs,
 )
 
 
@@ -1741,3 +1743,75 @@ def test_fetch_sitemap_pdfs_strips_www(tmp_path):
     # Output directory should be example.com, not www.example.com.
     assert (tmp_path / "example.com").exists()
     assert not (tmp_path / "www.example.com").exists()
+
+
+# ---------------------------------------------------------------------------
+# DuckDuckGo fallback search
+# ---------------------------------------------------------------------------
+
+def test_extract_pdf_urls_from_duckduckgo_redirect_links():
+    """DuckDuckGo redirect links should yield same-site .pdf URLs."""
+    html = """
+<html><body>
+  <a href="https://duckduckgo.com/l/?uddg=https%3A%2F%2Fnfb.org%2Ffiles%2Fa.pdf">
+    result 1
+  </a>
+  <a href="https://duckduckgo.com/l/?uddg=https%3A%2F%2Fcdn.nfb.org%2Fdocs%2Fb.PDF">
+    result 2
+  </a>
+  <a href="https://duckduckgo.com/l/?uddg=https%3A%2F%2Fexample.com%2Fskip.pdf">
+    wrong domain
+  </a>
+  <a href="https://duckduckgo.com/l/?uddg=https%3A%2F%2Fnfb.org%2Fpage.html">
+    not a pdf
+  </a>
+</body></html>
+"""
+    urls = _extract_pdf_urls_from_duckduckgo(html, "https://nfb.org")
+    assert urls == [
+        "https://nfb.org/files/a.pdf",
+        "https://cdn.nfb.org/docs/b.PDF",
+    ]
+
+
+def test_fetch_duckduckgo_pdfs_downloads_pdfs(tmp_path):
+    """DuckDuckGo-discovered PDFs should be downloaded and counted."""
+    html = """
+<html><body>
+  <a href="https://duckduckgo.com/l/?uddg=https%3A%2F%2Fexample.com%2Fdocs%2Fguide.pdf">
+    guide
+  </a>
+</body></html>
+"""
+    pdf_bytes = b"%PDF-1.4 fake"
+    responses = [
+        _make_http_response_plain(200, html.encode("utf-8")),  # DDG search
+        _make_http_response_plain(200, pdf_bytes),             # PDF download
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        count = fetch_duckduckgo_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+
+    assert count == 1
+    assert (tmp_path / "example.com" / "guide.pdf").exists()
+
+
+def test_fetch_duckduckgo_pdfs_no_results(tmp_path):
+    """When search results contain no same-site PDFs, nothing is downloaded."""
+    html = "<html><body><a href='https://example.com/nope.html'>nope</a></body></html>"
+    with patch(
+        "crawl.urlopen",
+        return_value=_make_http_response_plain(200, html.encode("utf-8")),
+    ):
+        count = fetch_duckduckgo_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+    assert count == 0
