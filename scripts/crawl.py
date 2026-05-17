@@ -643,7 +643,8 @@ def _extract_pdf_urls_from_duckduckgo(content: str, seed_url: str) -> list[str]:
             candidate = "https:" + candidate
 
         parsed = urlparse(candidate)
-        if parsed.netloc.endswith("duckduckgo.com") and parsed.path == "/l/":
+        host = parsed.netloc.lower().split(":", 1)[0]
+        if (host == "duckduckgo.com" or host.endswith(".duckduckgo.com")) and parsed.path == "/l/":
             redirected = parse_qs(parsed.query).get("uddg", [])
             if not redirected:
                 continue
@@ -673,6 +674,8 @@ def _collect_duckduckgo_pdf_urls(
     if not site:
         return []
 
+    # DuckDuckGo search syntax: site: limits to the target domain/subdomains,
+    # and filetype:pdf limits matches to PDF links.
     query = f"site:{site} filetype:pdf"
     search_url = f"https://duckduckgo.com/html/?{urlencode({'q': query})}"
     req = Request(
