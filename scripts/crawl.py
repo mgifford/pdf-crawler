@@ -76,6 +76,33 @@ def is_pdf_url(url: str) -> bool:
     return path.endswith(".pdf")
 
 
+def _broaden_seed_urls(url: str) -> list[str]:
+    """Return broader crawl scopes for a path-specific seed URL.
+
+    For a seed like ``https://example.com/a/b/c`` this yields:
+    ``https://example.com/a/b``, ``https://example.com/a``, and
+    ``https://example.com/``.
+
+    Query parameters and fragments are removed from broadened URLs.
+    """
+    parsed = urlparse(url)
+    segments = [segment for segment in parsed.path.split("/") if segment]
+    if not segments:
+        return []
+
+    candidates: list[str] = []
+    seen = set()
+    for depth in range(len(segments) - 1, -1, -1):
+        path = f"/{'/'.join(segments[:depth])}" if depth else "/"
+        candidate = urlunparse(
+            parsed._replace(path=path, params="", query="", fragment="")
+        )
+        if candidate != url and candidate not in seen:
+            candidates.append(candidate)
+            seen.add(candidate)
+    return candidates
+
+
 def normalize_url(url: str, timeout: int = 15) -> str:
     """Return a fully-qualified URL for *url*, probing protocol variants if needed.
 
@@ -178,6 +205,43 @@ _SPOT_CHECK_HEADERS = {
     "Accept-Language": "en-US,en;q=0.5",
 }
 _SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
+_COMMON_SITEMAP_PATHS = [
+    "/sitemap.xml",
+    "/sitemap_index.xml",
+    "/sitemap-index.xml",
+    "/wp-sitemap.xml",
+]
+
+
+def _extract_sitemap_urls_from_robots(content: str) -> list[str]:
+    """Extract sitemap URLs from robots.txt content."""
+    urls: list[str] = []
+    for raw_line in content.splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        if line.lower().startswith("sitemap:"):
+            sitemap_url = line.split(":", 1)[1].strip()
+            if sitemap_url:
+                urls.append(sitemap_url)
+    return urls
+
+
+def _candidate_sitemap_urls(url: str, extra_urls: list[str] | None = None) -> list[str]:
+    """Return candidate sitemap URLs for a site, ordered by likely usefulness."""
+    parsed = urlparse(url)
+    base = f"{parsed.scheme}://{parsed.netloc}"
+    candidates = [urljoin(base, path) for path in _COMMON_SITEMAP_PATHS]
+    if extra_urls:
+        candidates.extend(extra_urls)
+
+    deduped: list[str] = []
+    seen = set()
+    for candidate in candidates:
+        if candidate and candidate not in seen:
+            deduped.append(candidate)
+            seen.add(candidate)
+    return deduped
 
 
 def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
@@ -213,6 +277,7 @@ def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
         * ``sitemap_pdf_count`` (int) – Number of PDF URLs found in sitemap.xml.
         * ``sitemap_pdf_samples`` (list[str]) – Up to five example PDF URLs from
           the sitemap.
+        * ``sitemap_source`` (str) – Which sitemap URL produced the sample PDFs.
         * ``error`` (str) – Human-readable summary of any errors encountered.
     """
     result: dict = {
@@ -221,9 +286,11 @@ def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
         "robots_disallows": [],
         "sitemap_pdf_count": 0,
         "sitemap_pdf_samples": [],
+        "sitemap_source": "",
         "error": "",
     }
     errors = []
+    robots_content = ""
 
     parsed = urlparse(url)
     base = f"{parsed.scheme}://{parsed.netloc}"
@@ -246,8 +313,8 @@ def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
         # Fetch robots.txt manually so we can apply the browser UA and timeout.
         req = Request(robots_url, headers=_SPOT_CHECK_HEADERS)
         with urlopen(req, timeout=timeout) as resp:  # noqa: S310
-            content = resp.read().decode("utf-8", errors="replace")
-        rp.parse(content.splitlines())
+            robots_content = resp.read().decode("utf-8", errors="replace")
+        rp.parse(robots_content.splitlines())
         # Check whether any of the common crawler user-agent strings are
         # blocked from accessing the root path.  We check both the wildcard
         # agent (*) and the Scrapy default agent name.
@@ -264,17 +331,24 @@ def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
     except Exception as exc:  # noqa: BLE001
         errors.append(f"robots.txt parse error: {exc}")
 
-    # 3. Check sitemap.xml for PDF URLs (including child sitemaps when the
-    #    root document is a sitemap index).
-    sitemap_url = urljoin(base, "/sitemap.xml")
-    try:
-        pdf_urls = _collect_sitemap_pdf_urls(sitemap_url, timeout=timeout)
-        result["sitemap_pdf_count"] = len(pdf_urls)
-        result["sitemap_pdf_samples"] = pdf_urls[:5]
-    except URLError as exc:
-        errors.append(f"sitemap.xml probe failed: {exc}")
-    except Exception as exc:  # noqa: BLE001
-        errors.append(f"sitemap.xml parse error: {exc}")
+    # 3. Check sitemap locations for PDF URLs (including child sitemaps when a
+    #    candidate document is a sitemap index).
+    sitemap_errors = []
+    robots_sitemap_urls = _extract_sitemap_urls_from_robots(robots_content)
+    for sitemap_url in _candidate_sitemap_urls(url, extra_urls=robots_sitemap_urls):
+        try:
+            pdf_urls = _collect_sitemap_pdf_urls(sitemap_url, timeout=timeout)
+            if pdf_urls:
+                result["sitemap_pdf_count"] = len(pdf_urls)
+                result["sitemap_pdf_samples"] = pdf_urls[:5]
+                result["sitemap_source"] = sitemap_url
+                break
+        except URLError as exc:
+            sitemap_errors.append(f"{sitemap_url}: {exc}")
+        except Exception as exc:  # noqa: BLE001
+            sitemap_errors.append(f"{sitemap_url}: {exc}")
+    if sitemap_errors and result["sitemap_pdf_count"] == 0:
+        errors.append("sitemap probes failed: " + "; ".join(sitemap_errors))
 
     if errors:
         result["error"] = "; ".join(errors)
@@ -292,11 +366,12 @@ def spot_check_zero_results(url: str, timeout: int = 15) -> dict:
     else:
         print("  robots.txt: no block detected")
     if result["sitemap_pdf_count"]:
-        print(f"  sitemap.xml: {result['sitemap_pdf_count']} PDF(s) found")
+        source = result["sitemap_source"] or "sitemap.xml"
+        print(f"  {source}: {result['sitemap_pdf_count']} PDF(s) found")
         for sample in result["sitemap_pdf_samples"]:
             print(f"    {sample}")
     else:
-        print("  sitemap.xml: no PDFs found")
+        print("  sitemap.xml (and common alternatives): no PDFs found")
     if result["error"]:
         print(f"  Errors: {result['error']}")
     print("--- end spot-check ---\n")
@@ -317,7 +392,7 @@ def _extract_pdf_urls_from_sitemap(content: bytes) -> list:
     Returns:
         A list of PDF URL strings found in the sitemap.
     """
-    pdf_urls: list = []
+    pdf_urls: list[str] = []
     try:
         root = ET.fromstring(content)
     except ET.ParseError:
@@ -436,21 +511,29 @@ def fetch_sitemap_pdfs(
         The number of PDFs successfully downloaded.
     """
     parsed = urlparse(url)
-    base = f"{parsed.scheme}://{parsed.netloc}"
-    sitemap_url = urljoin(base, "/sitemap.xml")
-
     per_request_timeout = min(timeout, 60)
-    print(f"Fetching PDF list from sitemap: {sitemap_url}")
-    try:
-        pdf_urls = _collect_sitemap_pdf_urls(sitemap_url, timeout=per_request_timeout)
-    except (URLError, OSError) as exc:
-        print(f"  Sitemap fetch failed: {exc}")
-        return 0
-    except Exception as exc:  # noqa: BLE001
-        print(f"  Sitemap parse error: {exc}")
-        return 0
+    pdf_urls: list[str] = []
+    sitemap_errors: list[str] = []
+    sitemap_candidates = _candidate_sitemap_urls(url)
+
+    for sitemap_url in sitemap_candidates:
+        print(f"Fetching PDF list from sitemap: {sitemap_url}")
+        try:
+            pdf_urls = _collect_sitemap_pdf_urls(
+                sitemap_url, timeout=per_request_timeout
+            )
+            if pdf_urls:
+                break
+        except (URLError, OSError) as exc:
+            sitemap_errors.append(f"{sitemap_url}: {exc}")
+        except Exception as exc:  # noqa: BLE001
+            sitemap_errors.append(f"{sitemap_url}: {exc}")
 
     if not pdf_urls:
+        if sitemap_errors:
+            print("  Sitemap fetch failures:")
+            for error in sitemap_errors:
+                print(f"    - {error}")
         print("  No PDFs found in sitemap.")
         return 0
 
@@ -652,6 +735,13 @@ def update_manifest(
     )
 
 
+def _count_downloaded_pdfs(site_dir: Path) -> int:
+    """Count downloaded PDFs in a site directory."""
+    if not site_dir.exists():
+        return 0
+    return sum(1 for f in site_dir.iterdir() if f.is_file() and f.suffix.lower() == ".pdf")
+
+
 def generate_crawled_urls_csv(
     url: str,
     output_dir: str,
@@ -832,10 +922,7 @@ def main() -> None:
         parsed_seed = urlparse(url)
         site_folder = _site_folder(parsed_seed.netloc)
         site_dir = Path(args.output_dir) / site_folder
-        pdf_count = (
-            sum(1 for f in site_dir.iterdir() if f.is_file() and f.suffix.lower() == ".pdf")
-            if site_dir.exists() else 0
-        )
+        pdf_count = _count_downloaded_pdfs(site_dir)
 
         if pdf_count == 0:
             # The spider found no PDFs – either it could not crawl any pages
@@ -862,6 +949,42 @@ def main() -> None:
                     "Updating manifest…"
                 )
                 update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
+                pdf_count = _count_downloaded_pdfs(site_dir)
+
+        if pdf_count == 0:
+            # If the user submitted a deep page URL and that scope produced no
+            # PDFs, retry from progressively broader parent paths so we can
+            # still return nearby/domain-level PDFs instead of an empty result.
+            for broader_url in _broaden_seed_urls(url):
+                print(
+                    "No PDFs found from the submitted URL scope. "
+                    f"Retrying crawl with broader scope: {broader_url}"
+                )
+                run_scrapy(
+                    broader_url,
+                    args.output_dir,
+                    args.timeout,
+                    args.spider,
+                    args.max_pages,
+                    log_path,
+                )
+                update_manifest(
+                    broader_url,
+                    args.output_dir,
+                    args.manifest,
+                    notes=args.notes,
+                )
+                pages_crawled = generate_crawled_urls_csv(
+                    broader_url, args.output_dir, args.report_dir
+                )
+                print(f"Pages crawled from broader scope: {pages_crawled}")
+                pdf_count = _count_downloaded_pdfs(site_dir)
+                if pdf_count > 0:
+                    print(
+                        f"Broader scope succeeded ({pdf_count} PDF(s), "
+                        f"{pages_crawled} page(s) crawled)."
+                    )
+                    break
 
         if pages_crawled == 0:
             # Run a lightweight spot-check to diagnose why the crawl found
