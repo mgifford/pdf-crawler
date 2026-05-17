@@ -1,9 +1,12 @@
 const assert = require("node:assert/strict");
+const path = require("node:path");
+const { pathToFileURL } = require("node:url");
 const { Given, When, Then } = require("@cucumber/cucumber");
 
 function formUrl() {
   if (process.env.FORM_PAGE_URL) return process.env.FORM_PAGE_URL;
-  return `file://${process.cwd()}/docs/index.html`;
+  const formPath = path.resolve(__dirname, "../../docs/index.html");
+  return pathToFileURL(formPath).href;
 }
 
 Given("I open the PDF crawler form", async function () {
@@ -22,4 +25,3 @@ Then("I should see a validation message containing {string}", async function (te
     `Expected validation preview to include "${text}", but got "${content}"`
   );
 });
-
