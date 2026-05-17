@@ -1068,12 +1068,13 @@ def test_main_uses_google_when_sitemap_and_duckduckgo_find_no_pdfs(tmp_path):
 
     manifest_path = tmp_path / "manifest.yaml"
     report_dir = tmp_path / "reports"
+    pdf_counts = iter([0, 2])
 
     with patch("crawl.run_scrapy"), \
          patch("crawl.normalize_url", return_value="https://www.stmd.bayern.de/"), \
          patch("crawl.update_manifest") as mock_update, \
          patch("crawl.generate_crawled_urls_csv", return_value=1), \
-         patch("crawl._count_downloaded_pdfs", side_effect=[0, 2]), \
+         patch("crawl._count_downloaded_pdfs", side_effect=lambda *_: next(pdf_counts, 2)), \
          patch("crawl.fetch_sitemap_pdfs", return_value=0), \
          patch("crawl.fetch_duckduckgo_pdfs", return_value=0), \
          patch("crawl.fetch_google_pdfs", return_value=2) as mock_google, \

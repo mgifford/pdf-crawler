@@ -715,7 +715,8 @@ def _extract_pdf_urls_from_google(content: str, seed_url: str) -> list[str]:
             parsed = urlparse(candidate)
             host = parsed.netloc.lower().split(":", 1)[0]
             if host in {"google.com", "www.google.com"} and parsed.path == "/url":
-                redirected = parse_qs(parsed.query).get("q", []) or parse_qs(parsed.query).get("url", [])
+                params = parse_qs(parsed.query)
+                redirected = params.get("q", []) or params.get("url", [])
                 if not redirected:
                     continue
                 candidate = unquote(redirected[0]).strip()
