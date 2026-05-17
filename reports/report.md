@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-05-17T07:52:01.830920+00:00
+Generated: 2026-05-17T07:57:30.378611+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19744 |
-| Analysed | 6025 |
-| Pending analysis | 8684 |
-| Errors during analysis | 5035 |
-| Accessible | 1988 |
+| Total files tracked | 19763 |
+| Analysed | 6033 |
+| Pending analysis | 8693 |
+| Errors during analysis | 5037 |
+| Accessible | 1994 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
 | Exempt (pre-2018) | 1501 |
@@ -75,12 +75,14 @@ Generated: 2026-05-17T07:52:01.830920+00:00
 | slvboces.org | 729 |
 | smallpdf.com | 2 |
 | stjohns.k12.fl.us | 126 |
+| stmd.bayern.de | 9 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
 | towson.edu | 148 |
 | ul.ie | 7 |
 | vdl.lu | 16 |
 | vivaqua.be | 68 |
+| volstate.edu | 10 |
 | web-4-all.de | 9 |
 | wellsfargo.com | 55 |
 ## File Details
@@ -6115,6 +6117,14 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [11514-a-quick-look-at-medicare-2.pdf](https://www.medicare.gov/publications/11514-a-quick-look-at-medicare-2.pdf) | medicare.gov | 2020-07-21 | A Quick Look at Medicare | CMS | {'Original Medicare', 'Medicare Advantage', 'resources', 'help', 'Medicare basics'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 611 | 2 |
 | [11514-s-a-quick-look-medicare.pdf](https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf) | medicare.gov | 2020-07-30 | Resumen Corto Sobre Medicare | {'CMS'} | {'información básica', 'Medicare Advantage', 'ayuda', 'recursos', 'Medicare Original'} | Medicare Original, Medicare Advantage, recursos, ayuda, información básica | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | 686 | 2 |
 | [11525-medicare-appeals.pdf](https://www.medicare.gov/publications/11525-medicare-appeals.pdf) | medicare.gov | 2026-04-21 | Medicare Appeals | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 14904 | 8 |
+| [AdjunctHandbook2025-2026.pdf](https://my.volstate.edu/files/documents/AdjunctHandbook2025-2026.pdf) | volstate.edu | 2025-09-30 | Microsoft Word - Adjunct Handbook 2025-26 Updated 09192025 | AHANSON5 | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 10612 | 0 |
+| [DMS-Information-Packet.pdf](https://www.volstate.edu/sites/default/files/documents/dms/DMS-Information-Packet.pdf) | volstate.edu | 2026-03-23 | Microsoft Word - DMS Information Packet 2023 - JoCTOBER 2024 update | LKIRKLAND | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 2117 | 0 |
+| [FacultyHandbook2025-2026.pdf](https://my.volstate.edu/files/documents/FacultyHandbook2025-2026.pdf) | volstate.edu | 2025-09-30 | Microsoft Word - Faculty Handbook 2025-26 Updated 09192025 | AHANSON5 | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 39 | 15434 | 0 |
+| [MLTInformationPacket.pdf](https://www.volstate.edu/sites/default/files/documents/healthsciences/MLTInformationPacket.pdf) | volstate.edu | 2026-02-27 | MLT Program Information Packet | Smithen, Andrew | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 2610 | 15 |
+| [NursingInformationPacket.pdf](https://www.volstate.edu/sites/default/files/documents/nursing/NursingInformationPacket.pdf) | volstate.edu | 2026-03-23 | Nursing Info Packet | python-docx | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1457 | 0 |
+| [StudentHandbook.pdf](https://www.volstate.edu/sites/default/files/documents/StudentHandbook.pdf) | volstate.edu | 2026-05-13 | COLLEGE GOVERNANCE | itguest01 | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 58 | 30054 | 1 |
+| [Vet-Tech-Information-Packet.pdf](https://www.volstate.edu/sites/default/files/documents/veterinary/Vet-Tech-Information-Packet.pdf) | volstate.edu | 2026-02-04 | Vet Tech Information Packet | Wright, Kimberly | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 2314 | 1 |
+| [advising-resources-guide.pdf](https://www.volstate.edu/sites/default/files/documents/advising/resources/advising-resources-guide.pdf) | volstate.edu | 2026-03-25 | Advising Resource Guide | Corlew, Teresa | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1203 | 0 |
 
 ## Files with Errors or Notes
 
@@ -60861,3 +60871,39 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf
 - **Status**: analysed
 - headings-warn, 
+
+### AdjunctHandbook2025-2026.pdf
+
+- **URL**: https://my.volstate.edu/files/documents/AdjunctHandbook2025-2026.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Current_Annual_Campus_Safety_and_Security_Report.pdf
+
+- **URL**: https://www.volstate.edu/sites/default/files/documents/campuspolice/Current_Annual_Campus_Safety_and_Security_Report.pdf
+- **Status**: error
+- File not found: crawled_files/volstate.edu/Current_Annual_Campus_Safety_and_Security_Report.pdf (crawled 0.0 day(s) ago at 2026-05-17T07:51:00.935190+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### EnrollmentFunnelFinal.pdf
+
+- **URL**: https://my.volstate.edu/files/documents/EnrollmentFunnelFinal.pdf
+- **Status**: error
+- File not found: crawled_files/volstate.edu/EnrollmentFunnelFinal.pdf (crawled 0.0 day(s) ago at 2026-05-17T07:51:00.941542+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FacultyHandbook2025-2026.pdf
+
+- **URL**: https://my.volstate.edu/files/documents/FacultyHandbook2025-2026.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### NursingInformationPacket.pdf
+
+- **URL**: https://www.volstate.edu/sites/default/files/documents/nursing/NursingInformationPacket.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### Vet-Tech-Information-Packet.pdf
+
+- **URL**: https://www.volstate.edu/sites/default/files/documents/veterinary/Vet-Tech-Information-Packet.pdf
+- **Status**: analysed
+- tables-warn, 
