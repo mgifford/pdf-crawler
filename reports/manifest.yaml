@@ -367517,3 +367517,35 @@
   errors:
   - 'title, headings-none, '
   notes: Digital Ministry of Bavaria Website
+- url: https://www.budget.canada.ca/2024/report-rapport/budget-2024.pdf
+  md5: 9e28190253d872461467638d04ac4d3e
+  filename: budget-2024.pdf
+  site: canada.ca
+  crawled_at: '2026-05-17T12:50:21.874696+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://budget.canada.ca/2025/report-rapport/pdf/budget-2025.pdf
+  md5: fbe361bbd39963efa5701e1d5ed75d40
+  filename: budget-2025.pdf
+  site: canada.ca
+  crawled_at: '2026-05-17T12:50:21.900070+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://digital.canada.ca/reports/tactical-plan-2025.pdf
+  md5: 5bc7a8a648148dc85ca791f9338b9e19
+  filename: tactical-plan-2025.pdf
+  site: canada.ca
+  crawled_at: '2026-05-17T12:50:21.905877+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://budget.canada.ca/update-miseajour/2026/report-rapport/pdf/update-miseajour2026-eng.pdf
+  md5: 48460731e5000a935d460b44a0d9723d
+  filename: update-miseajour2026-eng.pdf
+  site: canada.ca
+  crawled_at: '2026-05-17T12:50:21.927486+00:00'
+  status: pending
+  report: null
+  errors: []
