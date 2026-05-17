@@ -364106,3 +364106,1159 @@
   status: pending
   report: null
   errors: []
+- url: https://my.volstate.edu/files/documents/AdjunctHandbook2025-2026.pdf
+  md5: 523a8fe7d79991f9077d4b3cc859e4cf
+  filename: AdjunctHandbook2025-2026.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.897087+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.volstate.edu/sites/default/files/documents/campuspolice/Current_Annual_Campus_Safety_and_Security_Report.pdf
+  md5: a79419fc4be5163ec85aeea99690e778
+  filename: Current_Annual_Campus_Safety_and_Security_Report.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.935190+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.volstate.edu/sites/default/files/documents/dms/DMS-Information-Packet.pdf
+  md5: 4207cf7c20ec9d39710a2eb44ac3e162
+  filename: DMS-Information-Packet.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.939424+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://my.volstate.edu/files/documents/EnrollmentFunnelFinal.pdf
+  md5: ac0d76d0586fe8c6e1a071ae59a4487b
+  filename: EnrollmentFunnelFinal.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.941542+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://my.volstate.edu/files/documents/FacultyHandbook2025-2026.pdf
+  md5: d16841924a74b2cfa3a8a52afd6b8b05
+  filename: FacultyHandbook2025-2026.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.943450+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.volstate.edu/sites/default/files/documents/healthsciences/MLTInformationPacket.pdf
+  md5: 81f62ec64ad64bf1210a4b3bb414053e
+  filename: MLTInformationPacket.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.945737+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.volstate.edu/sites/default/files/documents/nursing/NursingInformationPacket.pdf
+  md5: 634a4a824d21fb774d05cc7e64e67e21
+  filename: NursingInformationPacket.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.947476+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.volstate.edu/sites/default/files/documents/StudentHandbook.pdf
+  md5: 2964fb53a74bc2f7f3bb83496099fdd5
+  filename: StudentHandbook.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.950077+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.volstate.edu/sites/default/files/documents/veterinary/Vet-Tech-Information-Packet.pdf
+  md5: 391dcf8037ac942bcc14f18078c700c1
+  filename: Vet-Tech-Information-Packet.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.951989+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.volstate.edu/sites/default/files/documents/advising/resources/advising-resources-guide.pdf
+  md5: 27190bc698db89dfeb7b8a41cdcab441
+  filename: advising-resources-guide.pdf
+  site: volstate.edu
+  crawled_at: '2026-05-17T07:51:00.953878+00:00'
+  status: pending
+  report: null
+  errors: []
+- url: https://www.stmd.bayern.de/wp-content/uploads/2026/03/260301-Organigramm-StMD-Website-1.pdf
+  md5: 5f5d8703f9f1bb1b0c9c8edd64fb25c4
+  filename: 260301-Organigramm-StMD-Website-1.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-05-17T07:51:48.032857+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    ImageAltTextTest: null
+    TaggedContentTest: Fail
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: NotApplicable
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: NotApplicable
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: NotApplicable
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2026-03-04 11:39:17+01:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: null
+    Producer: null
+    Title: Microsoft Word - 260301 Organigramm StMD (Website).docx
+    Author: Strunz, Birgit (StMD)
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 1
+    Words: 720
+    Images: 20
+  errors:
+  - 'title, tagged, lang, '
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Digitalplan_Text_Kurzfassung_EN_PDF.pdf
+  md5: 77b759ba6eb652d06d79defa4e0c119b
+  filename: Digitalplan_Text_Kurzfassung_EN_PDF.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-05-17T07:51:48.037517+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Fail
+    ImageAltTextTest: Fail
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 29
+    HeadingSequence: H1 > H1 > H1 > H1 > H1 > H2 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+      > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H2 > H3 > H3 > H3 > H3 > H3 > H3 >
+      H3
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: Figures missing alt text (count=2)
+    Exempt: false
+    Date: '2023-04-14 13:33:15+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 18.2 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: null
+    Author: null
+    Subject: Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030
+      ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Keywords: null
+    Description: Das Staatsministerium für Digitales stellt in seinem Digitalplan
+      2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Pages: 26
+    Words: 3977
+    Images: 14
+  errors:
+  - 'title, no bookmarks and more than 20 pages, figures missing alt text (count=2), '
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Digitalplan_Text_Langfassung_PDF.pdf
+  md5: 7416e2b933d5e209bdd018b7346578fe
+  filename: Digitalplan_Text_Langfassung_PDF.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-05-17T07:51:48.045131+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Fail
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 100
+    AnnotationSubtypeCounts: Link=100
+    LinkAnnotationCount: 100
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(6483, 0): page=2 subtype=Link flags=None rect=[714.331, 693.512,
+      845.992, 671.91] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35746:565''
+      widget=False field=None struct_parent=4 | (6479, 0): page=2 subtype=Link flags=None
+      rect=[714.331, 655.512, 882.364, 633.91] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35756:567'' widget=False field=None struct_parent=5 | (6475, 0):
+      page=2 subtype=Link flags=None rect=[714.331, 617.512, 849.534, 595.91] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35760:568'' widget=False field=None struct_parent=6
+      | (6471, 0): page=2 subtype=Link flags=None rect=[714.331, 579.512, 872.032,
+      557.91] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35768:570'' widget=False
+      field=None struct_parent=7 | (6467, 0): page=2 subtype=Link flags=None rect=[714.331,
+      541.512, 954.169, 519.91] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35776:572''
+      widget=False field=None struct_parent=8 | (6463, 0): page=2 subtype=Link flags=None
+      rect=[714.331, 503.512, 860.79, 481.91] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35816:582'' widget=False field=None struct_parent=9 | (6459, 0):
+      page=2 subtype=Link flags=None rect=[714.331, 464.182, 937.85, 443.966] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35821:583'' widget=False field=None struct_parent=10
+      | (6455, 0): page=2 subtype=Link flags=None rect=[714.331, 426.182, 915.115,
+      405.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35825:584'' widget=False
+      field=None struct_parent=11 | (6451, 0): page=2 subtype=Link flags=None rect=[714.331,
+      388.182, 932.209, 367.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35829:585''
+      widget=False field=None struct_parent=12 | (6447, 0): page=2 subtype=Link flags=None
+      rect=[714.331, 350.182, 876.616, 329.966] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35833:586'' widget=False field=None struct_parent=13 | (6443, 0):
+      page=2 subtype=Link flags=None rect=[714.331, 313.512, 822.878, 291.91] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35837:587'' widget=False field=None struct_parent=14
+      | (6439, 0): page=2 subtype=Link flags=None rect=[714.331, 274.182, 915.27,
+      253.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35841:588'' widget=False
+      field=None struct_parent=15 | (6435, 0): page=2 subtype=Link flags=None rect=[714.331,
+      236.182, 920.379, 215.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35845:589''
+      widget=False field=None struct_parent=16 | (6431, 0): page=2 subtype=Link flags=None
+      rect=[714.331, 199.512, 867.664, 177.91] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35849:590'' widget=False field=None struct_parent=17 | (6427, 0):
+      page=2 subtype=Link flags=None rect=[714.331, 160.182, 940.497, 139.966] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35853:591'' widget=False field=None struct_parent=18
+      | (6423, 0): page=2 subtype=Link flags=None rect=[714.331, 123.512, 875.384,
+      101.91] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35857:592'' widget=False
+      field=None struct_parent=19 | (6419, 0): page=3 subtype=Link flags=None rect=[143.15,
+      750.512, 293.29, 728.91] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35883:598''
+      widget=False field=None struct_parent=20 | (6415, 0): page=3 subtype=Link flags=None
+      rect=[143.15, 711.182, 359.15, 690.966] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35887:599'' widget=False field=None struct_parent=22 | (6411, 0):
+      page=3 subtype=Link flags=None rect=[143.15, 673.182, 359.15, 652.966] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35891:600'' widget=False field=None struct_parent=23
+      | (6407, 0): page=3 subtype=Link flags=None rect=[143.15, 635.182, 405.435,
+      614.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35895:601'' widget=False
+      field=None struct_parent=24 | (6403, 0): page=3 subtype=Link flags=None rect=[143.15,
+      597.182, 378.276, 576.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35899:602''
+      widget=False field=None struct_parent=25 | (6399, 0): page=3 subtype=Link flags=None
+      rect=[143.15, 560.512, 299.87, 538.91] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35904:603''
+      widget=False field=None struct_parent=26 | (6395, 0): page=3 subtype=Link flags=None
+      rect=[143.15, 521.182, 372.269, 500.966] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35908:604'' widget=False field=None struct_parent=27 | (6391, 0):
+      page=3 subtype=Link flags=None rect=[143.15, 483.182, 327.106, 462.966] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35912:605'' widget=False field=None struct_parent=28
+      | (6387, 0): page=3 subtype=Link flags=None rect=[143.15, 445.182, 304.945,
+      424.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35916:606'' widget=False
+      field=None struct_parent=29 | (6383, 0): page=3 subtype=Link flags=None rect=[143.15,
+      407.182, 287.15, 386.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35920:607''
+      widget=False field=None struct_parent=30 | (6379, 0): page=3 subtype=Link flags=None
+      rect=[143.15, 369.182, 322.332, 348.966] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35924:608'' widget=False field=None struct_parent=31 | (6375, 0):
+      page=3 subtype=Link flags=None rect=[143.15, 332.512, 311.196, 310.91] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35928:609'' widget=False field=None struct_parent=32
+      | (6371, 0): page=3 subtype=Link flags=None rect=[143.15, 293.182, 365.9, 272.966]
+      action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35932:610'' widget=False field=None
+      struct_parent=33 | (6367, 0): page=3 subtype=Link flags=None rect=[143.15, 255.182,
+      315.599, 234.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35936:611''
+      widget=False field=None struct_parent=34 | (6363, 0): page=3 subtype=Link flags=None
+      rect=[143.15, 217.182, 311.497, 196.966] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35940:612'' widget=False field=None struct_parent=35 | (6359, 0):
+      page=3 subtype=Link flags=None rect=[143.15, 179.182, 287.389, 158.966] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35945:613'' widget=False field=None struct_parent=36
+      | (6355, 0): page=3 subtype=Link flags=None rect=[715.748, 750.512, 820.697,
+      728.91] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35949:614'' widget=False
+      field=None struct_parent=37 | (6351, 0): page=3 subtype=Link flags=None rect=[715.748,
+      711.182, 965.546, 690.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35953:615''
+      widget=False field=None struct_parent=38 | (6347, 0): page=3 subtype=Link flags=None
+      rect=[715.748, 673.182, 923.687, 652.966] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35957:616'' widget=False field=None struct_parent=39 | (6343, 0):
+      page=3 subtype=Link flags=None rect=[715.748, 635.182, 887.077, 614.966] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35961:617'' widget=False field=None struct_parent=40
+      | (6339, 0): page=3 subtype=Link flags=None rect=[715.748, 597.182, 1005.22,
+      576.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35965:618'' widget=False
+      field=None struct_parent=41 | (6335, 0): page=3 subtype=Link flags=None rect=[715.748,
+      559.182, 939.296, 538.966] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35969:619''
+      widget=False field=None struct_parent=42 | (6331, 0): page=3 subtype=Link flags=None
+      rect=[715.748, 521.182, 881.015, 500.966] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35973:620'' widget=False field=None struct_parent=43 | (6327, 0):
+      page=3 subtype=Link flags=None rect=[715.748, 483.182, 990.886, 462.966] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35977:621'' widget=False field=None struct_parent=44
+      | (6321, 0): page=3 subtype=Link flags=None rect=[715.748, 446.512, 944.61,
+      424.91] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35981:622'' widget=False
+      field=None struct_parent=45 | (6323, 0): page=3 subtype=Link flags=None rect=[715.748,
+      427.512, 1030.61, 405.91] action=''/GoTo'' dest=''Digitalplan Bayern.indd:.35981:622''
+      widget=False field=None struct_parent=46 | (6316, 0): page=3 subtype=Link flags=None
+      rect=[715.748, 389.512, 932.403, 367.91] action=''/GoTo'' dest=''Digitalplan
+      Bayern.indd:.35986:623'' widget=False field=None struct_parent=47 | (6312, 0):
+      page=3 subtype=Link flags=None rect=[715.748, 351.512, 834.67, 329.91] action=''/GoTo''
+      dest=''Digitalplan Bayern.indd:.35990:624'' widget=False field=None struct_parent=48
+      | (5977, 0): page=15 subtype=Link flags=None rect=[56.6929, 176.994, 217.53,
+      159.666] action=''/URI'' dest=''https://mitmachen.digitalplan.bayern'' widget=False
+      field=None struct_parent=59 | (5528, 0): page=20 subtype=Link flags=None rect=[968.059,
+      233.61, 1096.14, 216.666] action=''/URI'' dest=''https://www.gesetze-bayern.de/Content/Document/BayDiG/true''
+      widget=False field=None struct_parent=77 | (5514, 0): page=24 subtype=Link flags=None
+      rect=[669.226, 518.61, 851.712, 501.666] action=''/URI'' dest=''https://www.verwaltungsinformatiker.de/de/startseite.html''
+      widget=False field=None struct_parent=78 | (5498, 0): page=27 subtype=Link flags=None
+      rect=[915.841, 556.61, 1013.92, 539.666] action=''/URI'' dest=''https://www.verfassungsschutz.bayern.de/spionageabwehr/cyberabwehr/''
+      widget=False field=None struct_parent=79 | (5500, 0): page=27 subtype=Link flags=None
+      rect=[915.841, 537.61, 1012.91, 520.666] action=''/URI'' dest=''https://www.verfassungsschutz.bayern.de/spionageabwehr/cyberabwehr/''
+      widget=False field=None struct_parent=80 | (5502, 0): page=27 subtype=Link flags=None
+      rect=[915.841, 518.61, 1009.23, 501.666] action=''/URI'' dest=''https://www.verfassungsschutz.bayern.de/spionageabwehr/cyberabwehr/''
+      widget=False field=None struct_parent=81 | (5504, 0): page=27 subtype=Link flags=None
+      rect=[915.841, 499.61, 985.509, 482.666] action=''/URI'' dest=''https://www.verfassungsschutz.bayern.de/spionageabwehr/cyberabwehr/''
+      widget=False field=None struct_parent=82 | (5489, 0): page=27 subtype=Link flags=None
+      rect=[915.841, 157.61, 1013.07, 140.666] action=''/URI'' dest=''https://www.lsi.bayern.de''
+      widget=False field=None struct_parent=83 | (5476, 0): page=31 subtype=Link flags=None
+      rect=[71.1161, 556.61, 159.037, 539.666] action=''/URI'' dest=''https://www.govdata.de/''
+      widget=False field=None struct_parent=84 | (5221, 0): page=35 subtype=Link flags=None
+      rect=[71.1161, 575.61, 254.076, 558.666] action=''/URI'' dest=''https://www.buerokratieabbau-bayern.de/wp-content/uploads/2018/08/Datenschutzgrundverordnung_Bayerischer_Weg.pdf''
+      widget=False field=None struct_parent=93 | (5211, 0): page=38 subtype=Link flags=None
+      rect=[666.392, 613.61, 804.168, 596.666] action=''/URI'' dest=''http://www.geoportal.bayern.de''
+      widget=False field=None struct_parent=94 | (5018, 0): page=43 subtype=Link flags=None
+      rect=[71.6161, 575.61, 183.438, 558.666] action=''/URI'' dest=''https://www.wlan-bayern.de/#/''
+      widget=False field=None struct_parent=101 | (5008, 0): page=45 subtype=Link
+      flags=None rect=[71.1161, 613.61, 231.896, 596.666] action=''/URI'' dest=''https://mitmachen.digitalplan.bayern''
+      widget=False field=None struct_parent=102 | (4954, 0): page=50 subtype=Link
+      flags=None rect=[756.261, 575.994, 914.245, 558.666] action=''/URI'' dest=''http://www.partizipation.bayern.de''
+      widget=False field=None struct_parent=107 | (4951, 0): page=50 subtype=Link
+      flags=None rect=[808.865, 499.994, 934.561, 482.666] action=''/URI'' dest=''https://familienland.bayern.de/''
+      widget=False field=None struct_parent=108 | (4948, 0): page=50 subtype=Link
+      flags=None rect=[1013.25, 328.994, 1039.75, 311.666] action=''/URI'' dest=''https://jff.de/''
+      widget=False field=None struct_parent=109 | (4946, 0): page=50 subtype=Link
+      flags=None rect=[655.632, 195.994, 785.666, 178.666] action=''/URI'' dest=''https://bayern.jugendschutz.de/''
+      widget=False field=None struct_parent=110 | (4940, 0): page=50 subtype=Link
+      flags=None rect=[698.806, 119.994, 938.569, 102.666] action=''/URI'' dest=''https://www.stiftung-medienpaedagogik-bayern.de/''
+      widget=False field=None struct_parent=111 | (4936, 0): page=51 subtype=Link
+      flags=None rect=[105.878, 537.994, 226.633, 520.666] action=''/URI'' dest=''https://www.bayfid.bayern.de/''
+      widget=False field=None struct_parent=113 | (4398, 0): page=52 subtype=Link
+      flags=None rect=[71.1161, 100.61, 163.366, 83.6661] action=''/URI'' dest=''https://digital-vereint.de/''
+      widget=False field=None struct_parent=137 | (4833, 0): page=54 subtype=Link
+      flags=None rect=[988.646, 385.994, 1088.2, 368.666] action=''/URI'' dest=''https://www.ifp.bayern.de/''
+      widget=False field=None struct_parent=117 | (4795, 0): page=55 subtype=Link
+      flags=None rect=[823.956, 746.994, 894.716, 729.666] action=''/URI'' dest=''https://www.bycs.de/index.html''
+      widget=False field=None struct_parent=119 | (4788, 0): page=56 subtype=Link
+      flags=None rect=[456.009, 442.994, 522.258, 425.666] action=''/URI'' dest=''https://webhelm.de/''
+      widget=False field=None struct_parent=121 | (4784, 0): page=56 subtype=Link
+      flags=None rect=[60.2004, 290.994, 267.427, 273.666] action=''/URI'' dest=''https://www.machdeinhandynichtzurwaffe.de/''
+      widget=False field=None struct_parent=122 | (4771, 0): page=56 subtype=Link
+      flags=None rect=[962.689, 138.994, 1103.05, 121.666] action=''/URI'' dest=''https://www.kommweiter.bayern.de/''
+      widget=False field=None struct_parent=123 | (4773, 0): page=56 subtype=Link
+      flags=None rect=[651.969, 119.994, 665.682, 102.666] action=''/URI'' dest=''https://www.kommweiter.bayern.de/''
+      widget=False field=None struct_parent=124 | (4387, 0): page=56 subtype=Link
+      flags=None rect=[71.3661, 575.61, 300.186, 558.666] action=''/URI'' dest=''https://www.stmd.bayern.de/themen/wo-ist-goldi''
+      widget=False field=None struct_parent=138 | (4733, 0): page=57 subtype=Link
+      flags=None rect=[861.495, 138.994, 927.864, 121.666] action=''/URI'' dest=''https://webhelm.de/''
+      widget=False field=None struct_parent=126 | (4671, 0): page=59 subtype=Link
+      flags=None rect=[73.7008, 575.994, 227.805, 558.666] action=''/URI'' dest=''https://www.kommweiter.bayern.de/''
+      widget=False field=None struct_parent=129 | (4376, 0): page=60 subtype=Link
+      flags=None rect=[879.24, 670.61, 1016.01, 653.666] action=''/URI'' dest=''https://www.digimed-bayern.de''
+      widget=False field=None struct_parent=139 | (4568, 0): page=63 subtype=Link
+      flags=None rect=[56.6929, 290.994, 303.982, 273.666] action=''/URI'' dest=''https://www.stmwk.bayern.de/kunst-und-kultur/digitale-kulturvermittlung/veranstaltungen.html''
+      widget=False field=None struct_parent=134 | (4566, 0): page=63 subtype=Link
+      flags=None rect=[104.901, 252.994, 314.243, 235.666] action=''/URI'' dest=''https://www.youtube.com/channel/UC5j5upl0KxwDjZ_JKY7xZkA''
+      widget=False field=None struct_parent=135 | (4367, 0): page=63 subtype=Link
+      flags=None rect=[71.1161, 594.61, 168.89, 577.666] action=''/URI'' dest=''https://www.bavarikon.de/?lang=de''
+      widget=False field=None struct_parent=140 | (3814, 0): page=67 subtype=Link
+      flags=None rect=[70.8661, 556.61, 205.828, 539.666] action=''/URI'' dest=''https://kommunal-digital.bayern/''
+      widget=False field=None struct_parent=157 | (3801, 0): page=70 subtype=Link
+      flags=None rect=[366.169, 594.61, 512.71, 577.666] action=''/URI'' dest=''https://www.stmb.bayern.de/med/pressemitteilungen/pressearchiv/2022/97/''
+      widget=False field=None struct_parent=158 | (3803, 0): page=70 subtype=Link
+      flags=None rect=[366.169, 575.61, 517.211, 558.666] action=''/URI'' dest=''https://www.stmb.bayern.de/med/pressemitteilungen/pressearchiv/2022/97/''
+      widget=False field=None struct_parent=159 | (4029, 0): page=74 subtype=Link
+      flags=None rect=[176.616, 461.994, 306.944, 444.666] action=''/URI'' dest=''https://www.climex-project.org''
+      widget=False field=None struct_parent=151 | (3785, 0): page=75 subtype=Link
+      flags=None rect=[922.01, 670.61, 1063.53, 653.666] action=''/URI'' dest=''https://www.bayern-innovativ.de/de/seite/zdb-themenplattform-digitalisierung-im-energiebereich''
+      widget=False field=None struct_parent=160 | (3787, 0): page=75 subtype=Link
+      flags=None rect=[922.01, 651.61, 1100.79, 634.666] action=''/URI'' dest=''https://www.bayern-innovativ.de/de/seite/zdb-themenplattform-digitalisierung-im-energiebereich''
+      widget=False field=None struct_parent=161 | (3789, 0): page=75 subtype=Link
+      flags=None rect=[922.01, 632.61, 1050.14, 615.666] action=''/URI'' dest=''https://www.bayern-innovativ.de/de/seite/zdb-themenplattform-digitalisierung-im-energiebereich''
+      widget=False field=None struct_parent=162 | (3772, 0): page=78 subtype=Link
+      flags=None rect=[71.1161, 442.61, 289.052, 425.666] action=''/URI'' dest=''https://www.lfl.bayern.de/ilt/tierhaltung/237196/''
+      widget=False field=None struct_parent=163 | (3286, 0): page=82 subtype=Link
+      flags=None rect=[71.1161, 518.61, 129.678, 501.666] action=''/URI'' dest=''https://www.lrz.de/''
+      widget=False field=None struct_parent=179 | (3274, 0): page=86 subtype=Link
+      flags=None rect=[940.907, 651.61, 1069.57, 634.666] action=''/URI'' dest=''https://www.ki-transfer-plus.de/''
+      widget=False field=None struct_parent=180 | (3264, 0): page=89 subtype=Link
+      flags=None rect=[71.1161, 613.61, 288.605, 596.666] action=''/URI'' dest=''https://www.bayern.de/politik/hightech-agenda/''
+      widget=False field=None struct_parent=181 | (3509, 0): page=91 subtype=Link
+      flags=None rect=[736.812, 575.994, 881.723, 558.666] action=''/URI'' dest=''http://www.gruenderland.bayern''
+      widget=False field=None struct_parent=176 | (6535, 0): page=96 subtype=Link
+      flags=None rect=[71.1161, 594.61, 282.255, 577.666] action=''/URI'' dest=''https://www.stmd.bayern.de/ministerium/byte/''
+      widget=False field=None struct_parent=202 | (6533, 0): page=96 subtype=Link
+      flags=None rect=[71.1161, 575.61, 163.744, 558.666] action=''/URI'' dest=''https://www.byte.bayern''
+      widget=False field=None struct_parent=203 | (3169, 0): page=98 subtype=Link
+      flags=None rect=[755.625, 176.994, 872.765, 159.666] action=''/URI'' dest=''https://www.freistaat.bayern''
+      widget=False field=None struct_parent=187 | (6527, 0): page=98 subtype=Link
+      flags=None rect=[930.959, 670.61, 1119.29, 653.666] action=''/URI'' dest=''https://www.stmd.bayern.de/themen/digitale-verwaltung/dashboard-digitale-verwaltung/''
+      widget=False field=None struct_parent=204 | (6529, 0): page=98 subtype=Link
+      flags=None rect=[930.959, 651.61, 1119.31, 634.666] action=''/URI'' dest=''https://www.stmd.bayern.de/themen/digitale-verwaltung/dashboard-digitale-verwaltung/''
+      widget=False field=None struct_parent=205 | (6531, 0): page=98 subtype=Link
+      flags=None rect=[930.959, 632.61, 1005.39, 615.666] action=''/URI'' dest=''https://www.stmd.bayern.de/themen/digitale-verwaltung/dashboard-digitale-verwaltung/''
+      widget=False field=None struct_parent=206 | (6523, 0): page=101 subtype=Link
+      flags=None rect=[666.642, 119.61, 830.052, 102.666] action=''/URI'' dest=''https://www.rechtsstandortbayern.de/startseite.html''
+      widget=False field=None struct_parent=207 | (6521, 0): page=106 subtype=Link
+      flags=None rect=[71.1161, 556.61, 196.741, 539.666] action=''/URI'' dest=''https://digitalschmiede.bayern''
+      widget=False field=None struct_parent=208 | (6519, 0): page=108 subtype=Link
+      flags=None rect=[666.392, 119.61, 767.214, 102.666] action=''/URI'' dest=''https://www.lsi.bayern.de''
+      widget=False field=None struct_parent=209 | (6517, 0): page=111 subtype=Link
+      flags=None rect=[70.8661, 575.61, 231.437, 558.666] action=''/URI'' dest=''https://www.digitales-rathaus.bayern/''
+      widget=False field=None struct_parent=210 | (6515, 0): page=114 subtype=Link
+      flags=None rect=[803.704, 499.994, 932.837, 482.666] action=''/URI'' dest=''https://www.digitalplan.bayern''
+      widget=False field=None struct_parent=213'
+    LinkStructureCount: 90
+    ExternalLinkAnnotationCount: 56
+    InternalLinkAnnotationCount: 44
+    AnnotationPagesWithLinks: 37
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 162
+    HeadingSequence: H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+      > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 >
+      H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+      > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 >
+      H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+      > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 >
+      H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+      > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 >
+      H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+      > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 >
+      H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+    HeadingIssues: ''
+    ListsTest: Pass
+    ListCount: 57
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Pass
+    TableCount: 2
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: Figures missing alt text (count=79)
+    Exempt: false
+    Date: '2023-03-24 11:06:25+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 18.2 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: null
+    Author: null
+    Subject: Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030
+      ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Keywords: null
+    Description: Das Staatsministerium für Digitales stellt in seinem Digitalplan
+      2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Pages: 127
+    Words: 55128
+    Images: 74
+  errors:
+  - 'title, figures missing alt text (count=79), '
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Digitalplan_Text_Leichte_Sprache_PDF.pdf
+  md5: de61e08e449838ca199d5498c815f4d3
+  filename: Digitalplan_Text_Leichte_Sprache_PDF.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-05-17T07:51:48.055423+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Fail
+    ImageAltTextTest: Fail
+    TaggedContentTest: Fail
+    UntaggedContentCount: 1
+    UntaggedContentSummary: page=27 source=page op=Tj text='KI'
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 28
+    HeadingSequence: H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+      > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H2 > H3 > H3 > H3 > H3 > H3 > H3
+    HeadingIssues: ''
+    ListsTest: Pass
+    ListCount: 36
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: Figures missing alt text (count=2)
+    Exempt: false
+    Date: '2023-07-10 09:27:37+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 18.4 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: null
+    Author: null
+    Subject: Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030
+      ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Keywords: null
+    Description: Das Staatsministerium für Digitales stellt in seinem Digitalplan
+      2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Pages: 38
+    Words: 4633
+    Images: 14
+  errors:
+  - 'title, tagged-content-fail, no bookmarks and more than 20 pages, figures missing
+    alt text (count=2), '
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/01/Entwurf_Digitalgesetz.pdf
+  md5: 43f42e75e83fe7fa31c2a3aa1913f1f4
+  filename: Entwurf_Digitalgesetz.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-05-17T07:51:48.058316+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Fail
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 9
+    AnnotationSubtypeCounts: Link=9
+    LinkAnnotationCount: 9
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(131, 0): page=45 subtype=Link flags=4 rect=[273.88, 230.67,
+      491.25, 241.67] action=''/URI'' dest=''https://www.stmwi.bayern.de/digitalisierung/digitale-gruender/''
+      widget=False field=None struct_parent=45 | (132, 0): page=45 subtype=Link flags=4
+      rect=[104.05, 219.67, 170.81, 230.67] action=''/URI'' dest=''https://www.stmwi.bayern.de/digitalisierung/digitale-gruender/''
+      widget=False field=None struct_parent=46 | (137, 0): page=47 subtype=Link flags=4
+      rect=[212.73, 347.67, 491.25, 358.67] action=''/URI'' dest=''https://www.bmwi.de/Redaktion/DE/Publikationen/Industrie/industrie-4-0-und-digitale-wirtschaft.html''
+      widget=False field=None struct_parent=49 | (138, 0): page=47 subtype=Link flags=4
+      rect=[104.05, 336.67, 278.61, 347.67] action=''/URI'' dest=''https://www.bmwi.de/Redaktion/DE/Publikationen/Industrie/industrie-4-0-und-digitale-wirtschaft.html''
+      widget=False field=None struct_parent=50 | (181, 0): page=68 subtype=Link flags=4
+      rect=[213.08, 136.67, 494.03, 147.67] action=''/URI'' dest=''https://www.cio.bund.de/SharedDocs/Publikationen/DE/Innovative-Vorhaben/Portalverbund/portalverbund_mit_bundesportal_und_nutzerkonten.pdf?__blob=publicationFile''
+      widget=False field=None struct_parent=72 | (182, 0): page=68 subtype=Link flags=4
+      rect=[104.05, 125.67, 247.61, 136.67] action=''/URI'' dest=''https://www.cio.bund.de/SharedDocs/Publikationen/DE/Innovative-Vorhaben/Portalverbund/portalverbund_mit_bundesportal_und_nutzerkonten.pdf?__blob=publicationFile''
+      widget=False field=None struct_parent=73 | (183, 0): page=68 subtype=Link flags=4
+      rect=[270.4, 125.67, 278.23, 136.67] action=''/URI'' dest=''https://www.cio.bund.de/SharedDocs/Publikationen/DE/Innovative-Vorhaben/Portalverbund/portalverbund_mit_bundesportal_und_nutzerkonten.pdf?__blob=publicationFile''
+      widget=False field=None struct_parent=74 | (252, 0): page=102 subtype=Link flags=4
+      rect=[194.93, 554.67, 491.25, 565.67] action=''/URI'' dest=''https://leitfaden.ozg-umsetzung.de/display/OZG/2.2+Digitale+Services+im+Sinne+des+OZG''
+      widget=False field=None struct_parent=109 | (253, 0): page=102 subtype=Link
+      flags=4 rect=[104.05, 543.67, 228.61, 554.67] action=''/URI'' dest=''https://leitfaden.ozg-umsetzung.de/display/OZG/2.2+Digitale+Services+im+Sinne+des+OZG''
+      widget=False field=None struct_parent=110'
+    LinkStructureCount: 5
+    ExternalLinkAnnotationCount: 9
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 4
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: No headings found in tagged document
+    ListsTest: Pass
+    ListCount: 45
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2022-01-04 10:09:01+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft® Word für Microsoft 365
+    Producer: Microsoft® Word für Microsoft 365
+    Title: Drucksache 18/19572
+    Author: Schaberl, Julia
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 102
+    Words: 50514
+    Images: 2
+  errors:
+  - 'no bookmarks and more than 20 pages, headings-none, '
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Konzept_Wirkungsanalyse.pdf
+  md5: 6d183e774bb2113ef4cf79553ad98c77
+  filename: Konzept_Wirkungsanalyse.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-05-17T07:51:48.064879+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Fail
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 13
+    AnnotationSubtypeCounts: Link=13
+    LinkAnnotationCount: 13
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(1126, 0): page=2 subtype=Link flags=None rect=[122.598, 510.953,
+      497.342, 492.438] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44667:671''
+      widget=False field=None struct_parent=2 | (1124, 0): page=2 subtype=Link flags=None
+      rect=[136.772, 485.813, 497.054, 468.485] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44673:672''
+      widget=False field=None struct_parent=3 | (1122, 0): page=2 subtype=Link flags=None
+      rect=[136.772, 461.813, 497.078, 444.485] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44677:673''
+      widget=False field=None struct_parent=4 | (1120, 0): page=2 subtype=Link flags=None
+      rect=[122.598, 438.953, 497.822, 420.437] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44681:674''
+      widget=False field=None struct_parent=5 | (1118, 0): page=2 subtype=Link flags=None
+      rect=[122.598, 414.953, 502.91, 396.437] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44685:675''
+      widget=False field=None struct_parent=6 | (1116, 0): page=2 subtype=Link flags=None
+      rect=[136.772, 389.813, 502.19, 372.485] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44689:676''
+      widget=False field=None struct_parent=7 | (1114, 0): page=2 subtype=Link flags=None
+      rect=[136.772, 365.813, 502.19, 348.485] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44693:677''
+      widget=False field=None struct_parent=8 | (1112, 0): page=2 subtype=Link flags=None
+      rect=[136.772, 341.813, 502.586, 324.485] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44697:678''
+      widget=False field=None struct_parent=9 | (1110, 0): page=2 subtype=Link flags=None
+      rect=[136.772, 317.813, 502.214, 300.485] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44701:679''
+      widget=False field=None struct_parent=10 | (1108, 0): page=2 subtype=Link flags=None
+      rect=[136.772, 293.813, 501.542, 276.485] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44705:680''
+      widget=False field=None struct_parent=11 | (1106, 0): page=2 subtype=Link flags=None
+      rect=[136.772, 269.813, 501.542, 252.485] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44709:681''
+      widget=False field=None struct_parent=12 | (1104, 0): page=2 subtype=Link flags=None
+      rect=[122.598, 246.953, 503.39, 228.437] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44713:682''
+      widget=False field=None struct_parent=13 | (1099, 0): page=2 subtype=Link flags=None
+      rect=[122.598, 222.953, 504.326, 204.437] action=''/GoTo'' dest=''Wirkungsanalyse.indd:.44717:683''
+      widget=False field=None struct_parent=14'
+    LinkStructureCount: 13
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 13
+    AnnotationPagesWithLinks: 1
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 14
+    HeadingSequence: H2 > H3 > H3 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H2
+      > H3
+    HeadingIssues: First known heading is H2, not H1
+    ListsTest: Pass
+    ListCount: 3
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Fail
+    TableCount: 1
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: '(606, 0): Table has no TH cells | (606, 0): Table cells
+      are all TD'
+    IrregularTables: ''
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: Figures missing alt text (count=11)
+    Exempt: false
+    Date: '2024-04-08 09:20:29+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 19.3 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: null
+    Author: null
+    Subject: Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030
+      ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Keywords: null
+    Description: Das Staatsministerium für Digitales stellt in seinem Digitalplan
+      2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Pages: 21
+    Words: 3855
+    Images: 8
+  errors:
+  - 'title, figures missing alt text (count=11), headings-warn, tables-fail, '
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Konzept_Wirkungsanalyse_auf_einen_Blick_PDF.pdf
+  md5: df9e4250c1eda4bdbc30b400e19a120a
+  filename: Konzept_Wirkungsanalyse_auf_einen_Blick_PDF.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-05-17T07:51:48.066995+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Fail
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: No headings found in tagged document
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: Figures missing alt text (count=2)
+    Exempt: false
+    Date: '2024-04-05 10:06:47+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 19.3 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: null
+    Author: null
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 2
+    Words: 488
+    Images: 2
+  errors:
+  - 'title, figures missing alt text (count=2), headings-none, '
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2025/06/Leitfaden_Wirkungsanalyse_PDF.pdf
+  md5: 933c7785bdf32923036ccae9ba8ea0c8
+  filename: Leitfaden_Wirkungsanalyse_PDF.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-05-17T07:51:48.070185+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Fail
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 13
+    AnnotationSubtypeCounts: Link=13
+    LinkAnnotationCount: 13
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Fail
+    TaggedAnnotationIssues: '(198, 0): page=8 dest=''https://digitalplan.bayern/bayern/de/home/file/fileId/489/name/Digitalplan%20Bayern.pdf'':
+      link annotation has no /StructParent | (205, 0): page=10 dest=''https://digitalplan.bayern/bayern/de/home/file/fileId/524/name/Konzept%20Wirkungsanalyse.pdf'':
+      link annotation has no /StructParent'
+    AnnotationSummary: '(808, 0): page=1 subtype=Link flags=None rect=[56.6929, 218.177,
+      514.59, 205.055] action=''/GoTo'' dest=''24-0611-Leitfaden-Wirkungsanalyse.indd:.53694:749''
+      widget=False field=None struct_parent=1 | (805, 0): page=1 subtype=Link flags=None
+      rect=[514.59, 218.177, 516.975, 205.055] action=''/GoTo'' dest=''24-0611-Leitfaden-Wirkungsanalyse.indd:.53700:750''
+      widget=False field=None struct_parent=2 | (802, 0): page=1 subtype=Link flags=None
+      rect=[56.6929, 194.177, 514.59, 181.055] action=''/GoTo'' dest=''24-0611-Leitfaden-Wirkungsanalyse.indd:.53700:750''
+      widget=False field=None struct_parent=3 | (800, 0): page=1 subtype=Link flags=None
+      rect=[514.59, 194.177, 516.975, 181.055] action=''/GoTo'' dest=''24-0611-Leitfaden-Wirkungsanalyse.indd:.53704:751''
+      widget=False field=None struct_parent=4 | (798, 0): page=1 subtype=Link flags=None
+      rect=[56.6929, 170.177, 515.148, 157.055] action=''/GoTo'' dest=''24-0611-Leitfaden-Wirkungsanalyse.indd:.53704:751''
+      widget=False field=None struct_parent=5 | (796, 0): page=1 subtype=Link flags=None
+      rect=[56.6929, 146.177, 514.689, 133.055] action=''/GoTo'' dest=''24-0611-Leitfaden-Wirkungsanalyse.indd:.53708:752''
+      widget=False field=None struct_parent=7 | (787, 0): page=1 subtype=Link flags=None
+      rect=[56.6929, 122.177, 515.652, 109.055] action=''/GoTo'' dest=''24-0611-Leitfaden-Wirkungsanalyse.indd:.53712:753''
+      widget=False field=None struct_parent=19 | (793, 0): page=2 subtype=Link flags=None
+      rect=[93.1305, 719.216, 171.195, 706.22] action=''/URI'' dest=''https://digitalplan.bayern/bayern/de/home/file/fileId/489/name/Digitalplan%20Bayern.pdf''
+      widget=False field=None struct_parent=12 | (784, 0): page=4 subtype=Link flags=None
+      rect=[223.915, 644.216, 346.881, 631.22] action=''/URI'' dest=''https://digitalplan.bayern/bayern/de/home/file/fileId/524/name/Konzept%20Wirkungsanalyse.pdf''
+      widget=False field=None struct_parent=20 | (778, 0): page=6 subtype=Link flags=None
+      rect=[227.524, 494.216, 350.57, 481.22] action=''/URI'' dest=''https://digitalplan.bayern/bayern/de/home/file/fileId/524/name/Konzept%20Wirkungsanalyse.pdf''
+      widget=False field=None struct_parent=21 | (790, 0): page=8 subtype=Link flags=None
+      rect=[282.268, 390.071, 361.595, 376.184] action=''/URI'' dest=''https://digitalplan.bayern/bayern/de/home/file/fileId/489/name/Digitalplan%20Bayern.pdf''
+      widget=False field=None struct_parent=17 | (198, 0): page=8 subtype=Link flags=None
+      rect=[314.353, 150.071, 393.68, 136.184] action=''/URI'' dest=''https://digitalplan.bayern/bayern/de/home/file/fileId/489/name/Digitalplan%20Bayern.pdf''
+      widget=False field=None struct_parent=None | (205, 0): page=10 subtype=Link
+      flags=None rect=[81.2499, 374.216, 204.216, 361.22] action=''/URI'' dest=''https://digitalplan.bayern/bayern/de/home/file/fileId/524/name/Konzept%20Wirkungsanalyse.pdf''
+      widget=False field=None struct_parent=None'
+    LinkStructureCount: 11
+    ExternalLinkAnnotationCount: 6
+    InternalLinkAnnotationCount: 7
+    AnnotationPagesWithLinks: 6
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Fail
+    HeadingCount: 24
+    HeadingSequence: H2 > H1 > H2 > H1 > H2 > H3 > H1 > H3 > H1 > H3 > H3 > H1 > H1
+      > H1 > H1 > H2 > H3 > H1 > H1 > H1 > H2 > H3 > H1 > H3
+    HeadingIssues: 'Skipped heading level: H1 -> H3 | Skipped heading level: H1 ->
+      H3 | Skipped heading level: H1 -> H3 | First known heading is H2, not H1'
+    ListsTest: Pass
+    ListCount: 7
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: Figures missing alt text (count=10)
+    Exempt: false
+    Date: '2024-07-08 11:52:30+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 19.4 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: null
+    Author: null
+    Subject: Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030
+      ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Keywords: null
+    Description: Das Staatsministerium für Digitales stellt in seinem Digitalplan
+      2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor.
+    Pages: 11
+    Words: 3189
+    Images: 5
+  errors:
+  - 'title, figures missing alt text (count=10), headings-skip, annotations-tagging-fail, '
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2023/12/Umsetzung-Pakt-Digitale-Infrastruktur-14-11-2023.pdf
+  md5: 8198589a6cdcc4e9e9a54c69ad70ee32
+  filename: Umsetzung-Pakt-Digitale-Infrastruktur-14-11-2023.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-05-17T07:51:48.071629+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: No headings found in tagged document
+    ListsTest: Pass
+    ListCount: 3
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2023-12-04 11:40:39+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft® Word für Microsoft 365
+    Producer: Microsoft® Word für Microsoft 365
+    Title: null
+    Author: Karl, Michael (StMD)
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 5
+    Words: 1112
+    Images: 0
+  errors:
+  - 'title, headings-none, '
+  notes: Digital Ministry of Bavaria Website

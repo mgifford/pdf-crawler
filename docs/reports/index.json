@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-17T07:56:44.619884+00:00",
+    "site": "stmd.bayern.de",
+    "crawl_url": "https://www.stmd.bayern.de/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25985139640",
+    "issue_url": "",
+    "archive_file": "2026-05-17_07-56-44-619_stmd.bayern.de.html",
+    "total": 9,
+    "analysed": 9,
+    "accessible": 0
+  },
+  {
     "date": "2026-05-17T07:52:01.830920+00:00",
     "site": "navymwrsingapore.com",
     "crawl_url": "https://www.navymwrsingapore.com/programs/5b5d7aab-0149-4898-bd35-58282de94f5b",
