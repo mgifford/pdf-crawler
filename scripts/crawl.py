@@ -24,7 +24,7 @@ import sys
 import urllib.robotparser
 import xml.etree.ElementTree as ET
 from pathlib import Path
-from urllib.parse import urlparse, urlunparse, urljoin
+from urllib.parse import parse_qs, unquote, urlencode, urlparse, urlunparse, urljoin
 from urllib.request import urlopen, Request
 from urllib.error import URLError
 
@@ -617,6 +617,178 @@ def fetch_sitemap_pdfs(
     return downloaded
 
 
+def _is_site_match(candidate_url: str, seed_url: str) -> bool:
+    """Return True if *candidate_url* is on the seed site or one of its subdomains."""
+    candidate_host = urlparse(candidate_url).netloc.lower().split(":", 1)[0]
+    seed_host = urlparse(seed_url).netloc.lower().split(":", 1)[0]
+    if not candidate_host or not seed_host:
+        return False
+    candidate_host = candidate_host.removeprefix("www.")
+    seed_host = seed_host.removeprefix("www.")
+    return candidate_host == seed_host or candidate_host.endswith("." + seed_host)
+
+
+def _extract_pdf_urls_from_duckduckgo(content: str, seed_url: str) -> list[str]:
+    """Extract same-site PDF URLs from DuckDuckGo HTML search results."""
+    pdf_urls: list[str] = []
+    seen = set()
+
+    hrefs = re.findall(r'href=["\']([^"\']+)["\']', content, flags=re.IGNORECASE)
+    for href in hrefs:
+        candidate = href.strip()
+        if not candidate:
+            continue
+
+        if candidate.startswith("//"):
+            candidate = "https:" + candidate
+
+        parsed = urlparse(candidate)
+        host = parsed.netloc.lower().split(":", 1)[0]
+        if (host == "duckduckgo.com" or host.endswith(".duckduckgo.com")) and parsed.path == "/l/":
+            redirected = parse_qs(parsed.query).get("uddg", [])
+            if not redirected:
+                continue
+            candidate = unquote(redirected[0]).strip()
+
+        if not candidate.startswith(("http://", "https://")):
+            continue
+        if not is_pdf_url(candidate):
+            continue
+        if not _is_site_match(candidate, seed_url):
+            continue
+        if candidate in seen:
+            continue
+        seen.add(candidate)
+        pdf_urls.append(candidate)
+
+    return pdf_urls
+
+
+def _collect_duckduckgo_pdf_urls(
+    url: str,
+    timeout: int = 15,
+) -> list[str]:
+    """Search DuckDuckGo for same-site PDF URLs for *url*."""
+    parsed = urlparse(url)
+    site = parsed.netloc.lower().split(":", 1)[0].removeprefix("www.")
+    if not site:
+        return []
+
+    # DuckDuckGo search syntax: site: limits to the target domain/subdomains,
+    # and filetype:pdf limits matches to PDF links.
+    query = f"site:{site} filetype:pdf"
+    search_url = f"https://duckduckgo.com/html/?{urlencode({'q': query})}"
+    req = Request(
+        search_url,
+        headers={
+            **_SPOT_CHECK_HEADERS,
+            "Referer": "https://duckduckgo.com/",
+        },
+    )
+    with urlopen(req, timeout=timeout) as resp:  # noqa: S310
+        content = resp.read().decode("utf-8", errors="replace")
+    return _extract_pdf_urls_from_duckduckgo(content, url)
+
+
+def fetch_duckduckgo_pdfs(
+    url: str,
+    output_dir: str,
+    max_pdfs: int,
+    timeout: int = 3600,
+) -> int:
+    """Download PDFs discovered via DuckDuckGo site-scoped search results."""
+    parsed = urlparse(url)
+    per_request_timeout = min(timeout, 60)
+    try:
+        pdf_urls = _collect_duckduckgo_pdf_urls(url, timeout=per_request_timeout)
+    except (URLError, OSError) as exc:
+        print(f"  DuckDuckGo search failed: {exc}")
+        return 0
+    except Exception as exc:  # noqa: BLE001
+        print(f"  DuckDuckGo parse error: {exc}")
+        return 0
+
+    if not pdf_urls:
+        print("  No PDFs found in DuckDuckGo search results.")
+        return 0
+
+    total = len(pdf_urls)
+    limited = pdf_urls[:max_pdfs]
+    if total > max_pdfs:
+        print(
+            f"  Found {total} PDF(s) in DuckDuckGo results; downloading up to {max_pdfs}."
+        )
+    else:
+        print(f"  Found {total} PDF(s) in DuckDuckGo results; downloading all.")
+
+    netloc = parsed.netloc.lower()
+    subfolder = netloc.removeprefix("www.")
+    save_dir = Path(output_dir) / subfolder
+    save_dir.mkdir(parents=True, exist_ok=True)
+
+    url_map_path = save_dir / "_url_map.json"
+    url_map: dict = {}
+    if url_map_path.exists():
+        try:
+            with open(url_map_path, encoding="utf-8") as fh:
+                url_map = json.load(fh)
+        except (json.JSONDecodeError, OSError):
+            url_map = {}
+
+    already_downloaded = set(url_map.values())
+    downloaded = 0
+
+    for pdf_url in limited:
+        if pdf_url in already_downloaded:
+            continue
+
+        pdf_path = urlparse(pdf_url).path
+        segments = [s for s in pdf_path.split("/") if s]
+        raw_name = segments[-1] if segments else (
+            "doc-" + hashlib.md5(pdf_url.encode()).hexdigest()[:8]
+        )
+        basename, ext = os.path.splitext(raw_name)
+        if not ext:
+            ext = ".pdf"
+
+        candidate = f"{basename}{ext}"
+        counter = itertools.count()
+        while (save_dir / candidate).exists():
+            candidate = f"{basename}-{next(counter)}{ext}"
+        filename = candidate
+        full_path = save_dir / filename
+
+        try:
+            req = Request(pdf_url, headers=_SPOT_CHECK_HEADERS)
+            with urlopen(req, timeout=per_request_timeout) as resp:  # noqa: S310
+                data = resp.read()
+            with open(full_path, "wb") as fh:
+                fh.write(data)
+            url_map[filename] = pdf_url
+            already_downloaded.add(pdf_url)
+            downloaded += 1
+            print(f"  [{downloaded}/{len(limited)}] Downloaded: {pdf_url}")
+        except (URLError, OSError) as exc:
+            print(f"  Failed to download {pdf_url}: {exc}")
+        except Exception as exc:  # noqa: BLE001
+            print(f"  Error downloading {pdf_url}: {exc}")
+
+    with open(url_map_path, "w", encoding="utf-8") as fh:
+        json.dump(url_map, fh, indent=2, ensure_ascii=False)
+
+    for map_name in ("_referer_map.json", "_anchor_map.json"):
+        map_path = save_dir / map_name
+        if not map_path.exists():
+            with open(map_path, "w", encoding="utf-8") as fh:
+                json.dump({}, fh)
+
+    print(
+        f"DuckDuckGo download complete: {downloaded} of {len(limited)} PDF(s)"
+        f" saved to {save_dir}"
+    )
+    return downloaded
+
+
 def run_scrapy(
     url: str,
     output_dir: str,
@@ -950,6 +1122,21 @@ def main() -> None:
                 )
                 update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
                 pdf_count = _count_downloaded_pdfs(site_dir)
+            else:
+                print(
+                    "No PDFs found in sitemap. "
+                    "Searching DuckDuckGo for site-scoped PDF links…"
+                )
+                duckduckgo_fetched = fetch_duckduckgo_pdfs(
+                    url, args.output_dir, args.max_pdfs, args.timeout
+                )
+                if duckduckgo_fetched > 0:
+                    print(
+                        f"Downloaded {duckduckgo_fetched} PDF(s) from DuckDuckGo results. "
+                        "Updating manifest…"
+                    )
+                    update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
+                    pdf_count = _count_downloaded_pdfs(site_dir)
 
         if pdf_count == 0:
             # If the user submitted a deep page URL and that scope produced no
