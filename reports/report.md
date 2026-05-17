@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-05-16T21:14:38.500213+00:00
+Generated: 2026-05-17T00:41:18.187563+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
 | Total files tracked | 19536 |
-| Analysed | 5776 |
-| Pending analysis | 8730 |
-| Errors during analysis | 5030 |
-| Accessible | 1807 |
+| Analysed | 5873 |
+| Pending analysis | 8630 |
+| Errors during analysis | 5033 |
+| Accessible | 1870 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
 | Exempt (pre-2018) | 1487 |
