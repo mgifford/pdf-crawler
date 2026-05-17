@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-17T06:18:54.293611+00:00",
+    "site": "nfb.org",
+    "crawl_url": "https://nfb.org/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25983305435",
+    "issue_url": "",
+    "archive_file": "2026-05-17_06-18-54-293_nfb.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-05-17T01:24:40.739006+00:00",
     "site": "medicare.gov",
     "crawl_url": "https://www.medicare.gov/",
