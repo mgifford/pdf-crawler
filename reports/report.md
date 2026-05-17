@@ -1,14 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-05-17T06:18:54.293611+00:00
+Generated: 2026-05-17T07:49:29.792430+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19736 |
+| Total files tracked | 19744 |
 | Analysed | 6025 |
-| Pending analysis | 8676 |
+| Pending analysis | 8684 |
 | Errors during analysis | 5035 |
 | Accessible | 1988 |
 | Totally inaccessible | 257 |
@@ -51,6 +51,7 @@ Generated: 2026-05-17T06:18:54.293611+00:00
 | hamilton.ca | 262 |
 | hud.gov | 1418 |
 | ijcaonline.org | 1 |
+| kfw.de | 8 |
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
