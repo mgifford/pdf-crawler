@@ -367522,30 +367522,1000 @@
   filename: budget-2024.pdf
   site: canada.ca
   crawled_at: '2026-05-17T12:50:21.874696+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - Analysis exceeded 120s per-file limit
 - url: https://budget.canada.ca/2025/report-rapport/pdf/budget-2025.pdf
   md5: fbe361bbd39963efa5701e1d5ed75d40
   filename: budget-2025.pdf
   site: canada.ca
   crawled_at: '2026-05-17T12:50:21.900070+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Fail
+    TaggedContentTest: Fail
+    UntaggedContentCount: 4
+    UntaggedContentSummary: page=9 source=page op=Tj text='\x00$\x00Q' | page=9 source=page
+      op=TJ text="\x00Q\x00H\x00[\x00\x03\x00\x17\x00\x03\x00\x10\x00\x03\x00'\x00H\x00E\x00W\x00\x03\x000\x00D\x00Q\x00D\x00J\x00H\x00P\x00H\x00Q\x00W\x00\x03\x006\x00W\x00U\x00D\x00W\x00H\x00J\x00\\"
+      | page=9 source=page op=Tj text='\x00$\x00Q\x00Q\x00H\x00[\x00\x03\x00˘\x00\x03\x00\x10\x00\x03\x00/\x00H\x00J\x00L\x00V\x00O\x00D\x00W\x00L\x00Y\x00H\x00\x03\x000\x00H\x00D\x00V\x00X\x00U\x00H\x00V'
+      | page=9 source=page op=Tj text='\x00$\x00Q\x00Q\x00H\x00[\x00\x03\x00ˇ\x00\x03\x00\x10\x00\x03\x00,\x00P\x00S\x00D\x00F\x00W\x00V\x00\x03\x005\x00H\x00S\x00R\x00U\x00W'
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 180
+    AnnotationSubtypeCounts: Link=180
+    LinkAnnotationCount: 180
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Fail
+    TaggedAnnotationIssues: '(2563, 0): page=9 dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1687,0)>,
+      "/Fit" ])'': link annotation has no /StructParent | (2564, 0): page=9 dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1709,0)>, "/FitR", -147, -42, 615, 745 ])'': link annotation
+      has no /StructParent | (2565, 0): page=9 dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1744,0)>,
+      "/FitR", -147, -42, 615, 745 ])'': link annotation has no /StructParent'
+    AnnotationSummary: '(30342, 0): page=5 subtype=Link flags=None rect=[55.35, 589.2,
+      412.15, 603.6] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(41,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=1 | (30339, 0):
+      page=5 subtype=Link flags=None rect=[55.35, 574.8, 412.15, 589.2] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(53,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=2 | (30336, 0): page=5 subtype=Link flags=None
+      rect=[55.35, 560.4, 412.15, 574.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(471,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=3 | (30333, 0):
+      page=5 subtype=Link flags=None rect=[65.35, 543.0, 412.15, 560.4] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(471,0)>, "/XYZ", 55, 604, 0 ])''
+      widget=False field=None struct_parent=4 | (30330, 0): page=5 subtype=Link flags=None
+      rect=[65.35, 525.6, 412.15, 543.0] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(471,0)>,
+      "/XYZ", 55, 209, 0 ])'' widget=False field=None struct_parent=5 | (30327, 0):
+      page=5 subtype=Link flags=None rect=[65.35, 508.2, 412.15, 525.6] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(482,0)>, "/XYZ", 55, 434, 0 ])''
+      widget=False field=None struct_parent=6 | (30324, 0): page=5 subtype=Link flags=None
+      rect=[65.35, 490.801, 412.15, 508.2] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(486,0)>, "/XYZ", 55, 363, 0 ])'' widget=False field=None
+      struct_parent=7 | (30321, 0): page=5 subtype=Link flags=None rect=[75.35, 473.401,
+      412.15, 490.801] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(486,0)>,
+      "/XYZ", 55, 312, 0 ])'' widget=False field=None struct_parent=8 | (30318, 0):
+      page=5 subtype=Link flags=None rect=[65.35, 456.001, 412.15, 473.401] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(492,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=9 | (30315, 0): page=5 subtype=Link flags=None
+      rect=[75.35, 438.601, 412.15, 456.001] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(492,0)>, "/XYZ", 55, 611, 0 ])'' widget=False field=None
+      struct_parent=10 | (30312, 0): page=5 subtype=Link flags=None rect=[75.35, 421.201,
+      412.15, 438.601] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(498,0)>,
+      "/XYZ", 55, 439, 0 ])'' widget=False field=None struct_parent=11 | (30309, 0):
+      page=5 subtype=Link flags=None rect=[75.35, 403.801, 412.15, 421.201] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(502,0)>, "/XYZ", 55, 578, 0 ])''
+      widget=False field=None struct_parent=12 | (30306, 0): page=5 subtype=Link flags=None
+      rect=[75.35, 386.401, 412.15, 403.801] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(506,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=13 | (30303, 0): page=5 subtype=Link flags=None rect=[75.35, 369.001,
+      412.15, 386.401] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(510,0)>,
+      "/XYZ", 55, 416, 0 ])'' widget=False field=None struct_parent=14 | (30300, 0):
+      page=5 subtype=Link flags=None rect=[65.35, 351.601, 412.15, 369.001] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(516,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=15 | (30297, 0): page=5 subtype=Link flags=None
+      rect=[75.35, 334.201, 412.15, 351.601] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(516,0)>, "/XYZ", 55, 611, 0 ])'' widget=False field=None
+      struct_parent=16 | (30294, 0): page=5 subtype=Link flags=None rect=[75.35, 316.802,
+      412.15, 334.201] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(520,0)>,
+      "/XYZ", 55, 360, 0 ])'' widget=False field=None struct_parent=17 | (30291, 0):
+      page=5 subtype=Link flags=None rect=[65.35, 299.402, 412.15, 316.802] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(524,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=18 | (30288, 0): page=5 subtype=Link flags=None
+      rect=[75.35, 282.002, 412.15, 299.402] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(524,0)>, "/XYZ", 55, 589, 0 ])'' widget=False field=None
+      struct_parent=19 | (30285, 0): page=5 subtype=Link flags=None rect=[75.35, 264.602,
+      412.15, 282.002] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(528,0)>,
+      "/XYZ", 55, 231, 0 ])'' widget=False field=None struct_parent=20 | (30282, 0):
+      page=5 subtype=Link flags=None rect=[65.35, 247.202, 412.15, 264.602] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(571,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=21 | (30279, 0): page=5 subtype=Link flags=None
+      rect=[75.35, 229.802, 412.15, 247.202] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(571,0)>, "/XYZ", 55, 211, 0 ])'' widget=False field=None
+      struct_parent=22 | (30276, 0): page=5 subtype=Link flags=None rect=[75.35, 212.402,
+      412.15, 229.802] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(583,0)>,
+      "/XYZ", 55, 461, 0 ])'' widget=False field=None struct_parent=23 | (30273, 0):
+      page=5 subtype=Link flags=None rect=[75.35, 195.002, 412.15, 212.402] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(587,0)>, "/XYZ", 55, 384, 0 ])''
+      widget=False field=None struct_parent=24 | (30270, 0): page=5 subtype=Link flags=None
+      rect=[75.35, 177.602, 412.15, 195.002] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(589,0)>, "/XYZ", 55, 426, 0 ])'' widget=False field=None
+      struct_parent=25 | (30267, 0): page=5 subtype=Link flags=None rect=[75.35, 160.202,
+      412.15, 177.602] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(611,0)>,
+      "/XYZ", 55, 342, 0 ])'' widget=False field=None struct_parent=26 | (30264, 0):
+      page=5 subtype=Link flags=None rect=[107.969, 145.802, 412.15, 160.202] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(622,0)>, "/XYZ", 132, 574, 0 ])''
+      widget=False field=None struct_parent=27 | (30261, 0): page=5 subtype=Link flags=None
+      rect=[65.35, 128.403, 412.15, 145.802] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(629,0)>, "/XYZ", 48, 444, 0 ])'' widget=False field=None
+      struct_parent=28 | (30258, 0): page=5 subtype=Link flags=None rect=[75.35, 111.003,
+      412.15, 128.403] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(631,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=29 | (30255, 0):
+      page=5 subtype=Link flags=None rect=[75.35, 93.603, 412.15, 111.003] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(654,0)>, "/XYZ", 55, 459, 0 ])''
+      widget=False field=None struct_parent=30 | (30252, 0): page=5 subtype=Link flags=None
+      rect=[65.35, 76.203, 412.15, 93.603] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(656,0)>, "/XYZ", 48, 467, 0 ])'' widget=False field=None
+      struct_parent=31 | (30249, 0): page=5 subtype=Link flags=None rect=[75.35, 58.803,
+      412.15, 76.203] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(656,0)>,
+      "/XYZ", 48, 332, 0 ])'' widget=False field=None struct_parent=32 | (30214, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 629.4, 412.65, 644.4] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(672,0)>, "/XYZ", 48, 238, 0 ])''
+      widget=False field=None struct_parent=34 | (30212, 0): page=6 subtype=Link flags=None
+      rect=[55.35, 612.0, 412.15, 629.4] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(672,0)>,
+      "/XYZ", 48, 238, 0 ])'' widget=False field=None struct_parent=35 | (30209, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 594.6, 412.15, 612.0] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(681,0)>, "/XYZ", 48, 644, 0 ])''
+      widget=False field=None struct_parent=36 | (30206, 0): page=6 subtype=Link flags=None
+      rect=[75.35, 577.2, 412.15, 594.6] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(686,0)>,
+      "/XYZ", 48, 644, 0 ])'' widget=False field=None struct_parent=37 | (30203, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 562.2, 412.65, 577.2] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(686,0)>, "/XYZ", 48, 213, 0 ])''
+      widget=False field=None struct_parent=38 | (30201, 0): page=6 subtype=Link flags=None
+      rect=[55.35, 544.8, 412.15, 562.2] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(686,0)>,
+      "/XYZ", 48, 213, 0 ])'' widget=False field=None struct_parent=39 | (30198, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 527.4, 412.15, 544.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(688,0)>, "/XYZ", 55, 400, 0 ])''
+      widget=False field=None struct_parent=40 | (30195, 0): page=6 subtype=Link flags=None
+      rect=[75.35, 510.0, 412.15, 527.4] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(694,0)>,
+      "/XYZ", 48, 361, 0 ])'' widget=False field=None struct_parent=41 | (30192, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 492.601, 412.15, 510.0] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(696,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=42 | (30189, 0): page=6 subtype=Link flags=None
+      rect=[75.35, 475.201, 412.15, 492.601] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(698,0)>, "/XYZ", 48, 474, 0 ])'' widget=False field=None
+      struct_parent=43 | (30186, 0): page=6 subtype=Link flags=None rect=[75.35, 457.801,
+      412.15, 475.201] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(700,0)>,
+      "/XYZ", 55, 476, 0 ])'' widget=False field=None struct_parent=44 | (30183, 0):
+      page=6 subtype=Link flags=None rect=[65.35, 440.401, 412.15, 457.801] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(707,0)>, "/XYZ", 48, 506, 0 ])''
+      widget=False field=None struct_parent=45 | (30180, 0): page=6 subtype=Link flags=None
+      rect=[75.35, 423.001, 412.15, 440.401] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(716,0)>, "/XYZ", 48, 144, 0 ])'' widget=False field=None
+      struct_parent=46 | (30177, 0): page=6 subtype=Link flags=None rect=[75.35, 405.601,
+      412.15, 423.001] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(718,0)>,
+      "/XYZ", 55, 173, 0 ])'' widget=False field=None struct_parent=47 | (30174, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 388.201, 412.15, 405.601] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(722,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=48 | (30171, 0): page=6 subtype=Link flags=None
+      rect=[75.35, 370.801, 412.15, 388.201] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(728,0)>, "/XYZ", 55, 365, 0 ])'' widget=False field=None
+      struct_parent=49 | (30168, 0): page=6 subtype=Link flags=None rect=[75.35, 353.401,
+      412.15, 370.801] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(730,0)>,
+      "/XYZ", 48, 281, 0 ])'' widget=False field=None struct_parent=50 | (30165, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 338.401, 412.65, 353.401] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(732,0)>, "/XYZ", 55, 281, 0 ])''
+      widget=False field=None struct_parent=51 | (30163, 0): page=6 subtype=Link flags=None
+      rect=[55.35, 321.001, 412.15, 338.401] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(732,0)>, "/XYZ", 55, 281, 0 ])'' widget=False field=None
+      struct_parent=52 | (30160, 0): page=6 subtype=Link flags=None rect=[65.35, 303.602,
+      412.15, 321.001] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(734,0)>,
+      "/XYZ", 48, 644, 0 ])'' widget=False field=None struct_parent=53 | (30157, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 286.202, 412.15, 303.602] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(734,0)>, "/XYZ", 48, 485, 0 ])''
+      widget=False field=None struct_parent=54 | (30154, 0): page=6 subtype=Link flags=None
+      rect=[75.35, 268.802, 412.15, 286.202] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(736,0)>, "/XYZ", 55, 452, 0 ])'' widget=False field=None
+      struct_parent=55 | (30151, 0): page=6 subtype=Link flags=None rect=[75.35, 251.402,
+      412.15, 268.802] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(750,0)>,
+      "/XYZ", 55, 476, 0 ])'' widget=False field=None struct_parent=56 | (30148, 0):
+      page=6 subtype=Link flags=None rect=[107.969, 237.002, 412.15, 251.402] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(764,0)>, "/XYZ", 132, 595, 0 ])''
+      widget=False field=None struct_parent=57 | (30145, 0): page=6 subtype=Link flags=None
+      rect=[65.35, 219.602, 412.15, 237.002] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(771,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=58 | (30142, 0): page=6 subtype=Link flags=None rect=[75.35, 202.202,
+      412.15, 219.602] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(771,0)>,
+      "/XYZ", 55, 355, 0 ])'' widget=False field=None struct_parent=59 | (30139, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 184.802, 412.15, 202.202] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(779,0)>, "/XYZ", 55, 310, 0 ])''
+      widget=False field=None struct_parent=60 | (30136, 0): page=6 subtype=Link flags=None
+      rect=[65.35, 167.402, 412.15, 184.802] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(783,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=61 | (30133, 0): page=6 subtype=Link flags=None rect=[75.35, 150.002,
+      412.15, 167.402] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(783,0)>,
+      "/XYZ", 55, 377, 0 ])'' widget=False field=None struct_parent=62 | (30130, 0):
+      page=6 subtype=Link flags=None rect=[75.35, 132.603, 412.15, 150.002] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(791,0)>, "/XYZ", 55, 365, 0 ])''
+      widget=False field=None struct_parent=63 | (30127, 0): page=6 subtype=Link flags=None
+      rect=[75.35, 115.203, 412.15, 132.603] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(803,0)>, "/XYZ", 55, 314, 0 ])'' widget=False field=None
+      struct_parent=64 | (30124, 0): page=6 subtype=Link flags=None rect=[75.35, 97.803,
+      412.15, 115.203] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(807,0)>,
+      "/XYZ", 55, 572, 0 ])'' widget=False field=None struct_parent=65 | (30121, 0):
+      page=6 subtype=Link flags=None rect=[107.969, 83.403, 412.15, 97.803] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(820,0)>, "/XYZ", 132, 595, 0 ])''
+      widget=False field=None struct_parent=66 | (30117, 0): page=6 subtype=Link flags=None
+      rect=[65.35, 66.003, 412.15, 83.403] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(827,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=67 | (30083, 0): page=7 subtype=Link flags=None rect=[75.35, 627.0,
+      412.15, 644.4] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(832,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=69 | (30080, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 612.0, 412.65, 627.0] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(836,0)>, "/XYZ", 55, 375, 0 ])''
+      widget=False field=None struct_parent=70 | (30078, 0): page=7 subtype=Link flags=None
+      rect=[55.35, 594.6, 412.15, 612.0] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(836,0)>,
+      "/XYZ", 55, 375, 0 ])'' widget=False field=None struct_parent=71 | (30075, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 577.2, 412.15, 594.6] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(836,0)>, "/XYZ", 55, 183, 0 ])''
+      widget=False field=None struct_parent=72 | (30072, 0): page=7 subtype=Link flags=None
+      rect=[75.35, 559.8, 412.15, 577.2] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(841,0)>,
+      "/XYZ", 55, 563, 0 ])'' widget=False field=None struct_parent=73 | (30069, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 544.8, 412.65, 559.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(841,0)>, "/XYZ", 55, 331, 0 ])''
+      widget=False field=None struct_parent=74 | (30067, 0): page=7 subtype=Link flags=None
+      rect=[55.35, 527.4, 412.15, 544.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(841,0)>,
+      "/XYZ", 55, 331, 0 ])'' widget=False field=None struct_parent=75 | (30064, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 510.0, 412.15, 527.4] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(843,0)>, "/XYZ", 55, 529, 0 ])''
+      widget=False field=None struct_parent=76 | (30061, 0): page=7 subtype=Link flags=None
+      rect=[65.35, 492.601, 412.15, 510.0] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(845,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=77 | (30058, 0): page=7 subtype=Link flags=None rect=[75.35, 475.201,
+      412.15, 492.601] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(845,0)>,
+      "/XYZ", 55, 439, 0 ])'' widget=False field=None struct_parent=78 | (30055, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 457.801, 412.15, 475.201] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(847,0)>, "/XYZ", 55, 404, 0 ])''
+      widget=False field=None struct_parent=79 | (30052, 0): page=7 subtype=Link flags=None
+      rect=[75.35, 440.401, 412.15, 457.801] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(849,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=80 | (30049, 0): page=7 subtype=Link flags=None rect=[75.35, 423.001,
+      412.15, 440.401] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(849,0)>,
+      "/XYZ", 55, 179, 0 ])'' widget=False field=None struct_parent=81 | (30046, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 405.601, 412.15, 423.001] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(851,0)>, "/XYZ", 55, 431, 0 ])''
+      widget=False field=None struct_parent=82 | (30043, 0): page=7 subtype=Link flags=None
+      rect=[75.35, 388.201, 412.15, 405.601] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(851,0)>, "/XYZ", 55, 268, 0 ])'' widget=False field=None
+      struct_parent=83 | (30040, 0): page=7 subtype=Link flags=None rect=[75.35, 370.801,
+      412.15, 388.201] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(853,0)>,
+      "/XYZ", 55, 533, 0 ])'' widget=False field=None struct_parent=84 | (30037, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 353.401, 412.15, 370.801] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(853,0)>, "/XYZ", 55, 171, 0 ])''
+      widget=False field=None struct_parent=85 | (30034, 0): page=7 subtype=Link flags=None
+      rect=[75.35, 336.001, 412.15, 353.401] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(855,0)>, "/XYZ", 55, 504, 0 ])'' widget=False field=None
+      struct_parent=86 | (30031, 0): page=7 subtype=Link flags=None rect=[75.35, 318.602,
+      412.15, 336.001] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(855,0)>,
+      "/XYZ", 55, 160, 0 ])'' widget=False field=None struct_parent=87 | (30028, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 301.202, 412.15, 318.602] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(857,0)>, "/XYZ", 55, 393, 0 ])''
+      widget=False field=None struct_parent=88 | (30025, 0): page=7 subtype=Link flags=None
+      rect=[65.35, 283.802, 412.15, 301.202] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(859,0)>, "/XYZ", 55, 308, 0 ])'' widget=False field=None
+      struct_parent=89 | (30022, 0): page=7 subtype=Link flags=None rect=[75.35, 266.402,
+      412.15, 283.802] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(864,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=90 | (30019, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 249.002, 412.15, 266.402] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(866,0)>, "/XYZ", 55, 470, 0 ])''
+      widget=False field=None struct_parent=91 | (30016, 0): page=7 subtype=Link flags=None
+      rect=[75.35, 234.002, 412.65, 249.002] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(866,0)>, "/XYZ", 55, 243, 0 ])'' widget=False field=None
+      struct_parent=92 | (30014, 0): page=7 subtype=Link flags=None rect=[55.35, 216.602,
+      412.15, 234.002] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(866,0)>,
+      "/XYZ", 55, 243, 0 ])'' widget=False field=None struct_parent=93 | (30011, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 199.202, 412.15, 216.602] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(868,0)>, "/XYZ", 55, 419, 0 ])''
+      widget=False field=None struct_parent=94 | (30008, 0): page=7 subtype=Link flags=None
+      rect=[75.35, 181.802, 412.15, 199.202] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(870,0)>, "/XYZ", 55, 521, 0 ])'' widget=False field=None
+      struct_parent=95 | (30005, 0): page=7 subtype=Link flags=None rect=[75.35, 164.402,
+      412.15, 181.802] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(870,0)>,
+      "/XYZ", 55, 358, 0 ])'' widget=False field=None struct_parent=96 | (30002, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 147.002, 412.15, 164.402] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(870,0)>, "/XYZ", 55, 179, 0 ])''
+      widget=False field=None struct_parent=97 | (29999, 0): page=7 subtype=Link flags=None
+      rect=[75.35, 129.603, 412.15, 147.002] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(872,0)>, "/XYZ", 55, 497, 0 ])'' widget=False field=None
+      struct_parent=98 | (29996, 0): page=7 subtype=Link flags=None rect=[75.35, 112.203,
+      412.15, 129.603] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(872,0)>,
+      "/XYZ", 55, 304, 0 ])'' widget=False field=None struct_parent=99 | (29993, 0):
+      page=7 subtype=Link flags=None rect=[75.35, 94.803, 412.15, 112.203] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(874,0)>, "/XYZ", 55, 497, 0 ])''
+      widget=False field=None struct_parent=100 | (29990, 0): page=7 subtype=Link
+      flags=None rect=[75.35, 77.403, 412.15, 94.803] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(874,0)>, "/XYZ", 55, 160, 0 ])'' widget=False field=None
+      struct_parent=101 | (29987, 0): page=7 subtype=Link flags=None rect=[107.969,
+      63.003, 412.15, 77.403] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(891,0)>,
+      "/XYZ", 132, 560, 0 ])'' widget=False field=None struct_parent=102 | (29952,
+      0): page=8 subtype=Link flags=None rect=[65.35, 627.0, 412.15, 644.4] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(898,0)>, "/XYZ", 55, 299, 0 ])''
+      widget=False field=None struct_parent=104 | (29949, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 609.6, 412.15, 627.0] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(898,0)>, "/XYZ", 55, 177, 0 ])'' widget=False field=None
+      struct_parent=105 | (29946, 0): page=8 subtype=Link flags=None rect=[75.35,
+      592.2, 412.15, 609.6] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(902,0)>,
+      "/XYZ", 55, 434, 0 ])'' widget=False field=None struct_parent=106 | (29943,
+      0): page=8 subtype=Link flags=None rect=[75.35, 574.8, 412.15, 592.2] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(907,0)>, "/XYZ", 55, 303, 0 ])''
+      widget=False field=None struct_parent=107 | (29940, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 559.8, 412.65, 574.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(911,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=108 | (29938, 0): page=8 subtype=Link flags=None rect=[55.35,
+      542.4, 412.15, 559.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(911,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=109 | (29935,
+      0): page=8 subtype=Link flags=None rect=[65.35, 525.0, 412.15, 542.4] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(913,0)>, "/XYZ", 55, 412, 0 ])''
+      widget=False field=None struct_parent=110 | (29932, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 507.601, 412.15, 525.0] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(915,0)>, "/XYZ", 55, 559, 0 ])'' widget=False field=None
+      struct_parent=111 | (29929, 0): page=8 subtype=Link flags=None rect=[75.35,
+      490.201, 412.15, 507.601] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(915,0)>,
+      "/XYZ", 55, 178, 0 ])'' widget=False field=None struct_parent=112 | (29926,
+      0): page=8 subtype=Link flags=None rect=[75.35, 472.801, 412.15, 490.201] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(917,0)>, "/XYZ", 55, 470, 0 ])''
+      widget=False field=None struct_parent=113 | (29923, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 455.401, 412.15, 472.801] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(917,0)>, "/XYZ", 55, 166, 0 ])'' widget=False field=None
+      struct_parent=114 | (29920, 0): page=8 subtype=Link flags=None rect=[75.35,
+      438.001, 412.15, 455.401] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(919,0)>,
+      "/XYZ", 55, 552, 0 ])'' widget=False field=None struct_parent=115 | (29917,
+      0): page=8 subtype=Link flags=None rect=[75.35, 420.601, 412.15, 438.001] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(919,0)>, "/XYZ", 55, 299, 0 ])''
+      widget=False field=None struct_parent=116 | (29914, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 403.201, 412.15, 420.601] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(921,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=117 | (29911, 0): page=8 subtype=Link flags=None rect=[75.35,
+      385.801, 412.15, 403.201] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(921,0)>,
+      "/XYZ", 55, 396, 0 ])'' widget=False field=None struct_parent=118 | (29908,
+      0): page=8 subtype=Link flags=None rect=[75.35, 368.401, 412.15, 385.801] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(921,0)>, "/XYZ", 55, 202, 0 ])''
+      widget=False field=None struct_parent=119 | (29905, 0): page=8 subtype=Link
+      flags=None rect=[65.35, 351.001, 412.15, 368.401] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(923,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=120 | (29902, 0): page=8 subtype=Link flags=None rect=[75.35,
+      333.602, 412.15, 351.001] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(923,0)>,
+      "/XYZ", 55, 558, 0 ])'' widget=False field=None struct_parent=121 | (29899,
+      0): page=8 subtype=Link flags=None rect=[75.35, 316.202, 412.15, 333.602] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(925,0)>, "/XYZ", 55, 608, 0 ])''
+      widget=False field=None struct_parent=122 | (29896, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 298.802, 412.15, 316.202] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(925,0)>, "/XYZ", 55, 203, 0 ])'' widget=False field=None
+      struct_parent=123 | (29893, 0): page=8 subtype=Link flags=None rect=[75.35,
+      281.402, 412.15, 298.802] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(927,0)>,
+      "/XYZ", 55, 602, 0 ])'' widget=False field=None struct_parent=124 | (29890,
+      0): page=8 subtype=Link flags=None rect=[107.969, 267.002, 412.15, 281.402]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(940,0)>, "/XYZ",
+      132, 570, 0 ])'' widget=False field=None struct_parent=125 | (29886, 0): page=8
+      subtype=Link flags=None rect=[65.35, 249.602, 412.15, 267.002] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(945,0)>, "/XYZ", 55, 418, 0 ])''
+      widget=False field=None struct_parent=126 | (29883, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 232.202, 412.15, 249.602] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(945,0)>, "/XYZ", 55, 198, 0 ])'' widget=False field=None
+      struct_parent=127 | (29880, 0): page=8 subtype=Link flags=None rect=[75.35,
+      214.802, 412.15, 232.202] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(959,0)>,
+      "/XYZ", 55, 241, 0 ])'' widget=False field=None struct_parent=128 | (29877,
+      0): page=8 subtype=Link flags=None rect=[75.35, 197.402, 412.15, 214.802] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(963,0)>, "/XYZ", 55, 559, 0 ])''
+      widget=False field=None struct_parent=129 | (29874, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 180.002, 412.15, 197.402] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(963,0)>, "/XYZ", 55, 215, 0 ])'' widget=False field=None
+      struct_parent=130 | (29871, 0): page=8 subtype=Link flags=None rect=[75.35,
+      162.603, 412.15, 180.002] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(965,0)>,
+      "/XYZ", 55, 195, 0 ])'' widget=False field=None struct_parent=131 | (29868,
+      0): page=8 subtype=Link flags=None rect=[75.35, 145.203, 412.15, 162.603] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(967,0)>, "/XYZ", 55, 367, 0 ])''
+      widget=False field=None struct_parent=132 | (29865, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 127.803, 412.15, 145.203] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(969,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=133 | (29862, 0): page=8 subtype=Link flags=None rect=[65.35,
+      110.403, 412.15, 127.803] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(969,0)>,
+      "/XYZ", 55, 344, 0 ])'' widget=False field=None struct_parent=134 | (29859,
+      0): page=8 subtype=Link flags=None rect=[75.35, 93.003, 412.15, 110.403] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(969,0)>, "/XYZ", 55, 217, 0 ])''
+      widget=False field=None struct_parent=135 | (29856, 0): page=8 subtype=Link
+      flags=None rect=[75.35, 75.603, 412.15, 93.003] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(971,0)>, "/XYZ", 55, 563, 0 ])'' widget=False field=None
+      struct_parent=136 | (29853, 0): page=8 subtype=Link flags=None rect=[75.35,
+      58.203, 412.15, 75.603] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(971,0)>,
+      "/XYZ", 55, 329, 0 ])'' widget=False field=None struct_parent=137 | (29817,
+      0): page=9 subtype=Link flags=None rect=[75.35, 627.0, 412.15, 644.4] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(973,0)>, "/XYZ", 55, 599, 0 ])''
+      widget=False field=None struct_parent=139 | (29814, 0): page=9 subtype=Link
+      flags=None rect=[65.35, 609.6, 412.15, 627.0] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(973,0)>, "/XYZ", 55, 476, 0 ])'' widget=False field=None
+      struct_parent=140 | (29811, 0): page=9 subtype=Link flags=None rect=[75.35,
+      592.2, 412.15, 609.6] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(973,0)>,
+      "/XYZ", 55, 362, 0 ])'' widget=False field=None struct_parent=141 | (29808,
+      0): page=9 subtype=Link flags=None rect=[75.35, 574.8, 412.15, 592.2] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(975,0)>, "/XYZ", 55, 512, 0 ])''
+      widget=False field=None struct_parent=142 | (29805, 0): page=9 subtype=Link
+      flags=None rect=[65.35, 557.4, 412.15, 574.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(975,0)>, "/XYZ", 55, 287, 0 ])'' widget=False field=None
+      struct_parent=143 | (29802, 0): page=9 subtype=Link flags=None rect=[55.35,
+      543.0, 412.15, 557.4] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(985,0)>,
+      "/XYZ", 55, 632, 0 ])'' widget=False field=None struct_parent=144 | (29799,
+      0): page=9 subtype=Link flags=None rect=[55.35, 528.601, 412.15, 543.0] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1124,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=145 | (29796, 0): page=9 subtype=Link
+      flags=None rect=[55.35, 516.601, 412.65, 528.601] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1154,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=146 | (29794, 0): page=9 subtype=Link flags=None rect=[55.35,
+      502.201, 412.15, 516.601] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1154,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=147 | (29791,
+      0): page=9 subtype=Link flags=None rect=[55.35, 487.801, 412.15, 502.201] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1237,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=148 | (2563, 0): page=9 subtype=Link flags=None
+      rect=[53.673, 446.726, 244.801, 461.126] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1687,0)>, "/Fit" ])'' widget=False field=None struct_parent=None
+      | (2564, 0): page=9 subtype=Link flags=None rect=[54.9821, 422.508, 212.074,
+      436.253] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1709,0)>,
+      "/FitR", -147, -42, 615, 745 ])'' widget=False field=None struct_parent=None
+      | (2565, 0): page=9 subtype=Link flags=None rect=[55.6366, 395.671, 191.783,
+      413.999] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1744,0)>,
+      "/FitR", -147, -42, 615, 745 ])'' widget=False field=None struct_parent=None
+      | (29080, 0): page=40 subtype=Link flags=4 rect=[365.64, 417.183, 369.398, 425.912]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(473,0)>, "/XYZ",
+      0, 93, None ])'' widget=False field=None struct_parent=534 | (15704, 0): page=304
+      subtype=Link flags=None rect=[55.35, 595.8, 412.15, 612.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1159,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=431 | (15701, 0): page=304 subtype=Link
+      flags=None rect=[55.35, 578.8, 412.15, 595.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1161,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=432 | (15698, 0): page=304 subtype=Link flags=None rect=[55.35,
+      561.8, 412.15, 578.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1161,0)>,
+      "/XYZ", 55, 91, 0 ])'' widget=False field=None struct_parent=433 | (15694, 0):
+      page=304 subtype=Link flags=None rect=[55.35, 544.8, 412.15, 561.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1167,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=434 | (15691, 0): page=304 subtype=Link
+      flags=None rect=[55.35, 527.8, 412.15, 544.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1169,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=435 | (15688, 0): page=304 subtype=Link flags=None rect=[55.35,
+      510.8, 412.15, 527.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1171,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=436 | (15685,
+      0): page=304 subtype=Link flags=None rect=[55.35, 493.8, 412.15, 510.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1171,0)>, "/XYZ", 55, 96, 0 ])''
+      widget=False field=None struct_parent=437 | (15682, 0): page=304 subtype=Link
+      flags=None rect=[55.35, 476.8, 412.15, 493.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1173,0)>, "/XYZ", 55, 176, 0 ])'' widget=False field=None
+      struct_parent=438 | (15679, 0): page=304 subtype=Link flags=None rect=[55.35,
+      459.8, 412.15, 476.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1177,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=439 | (15676,
+      0): page=304 subtype=Link flags=None rect=[55.35, 442.8, 412.15, 459.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1179,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=440 | (15673, 0): page=304 subtype=Link
+      flags=None rect=[55.35, 425.8, 412.15, 442.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1181,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=441 | (15670, 0): page=304 subtype=Link flags=None rect=[55.35,
+      408.8, 412.15, 425.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1185,0)>,
+      "/XYZ", 55, 382, 0 ])'' widget=False field=None struct_parent=442 | (15667,
+      0): page=304 subtype=Link flags=None rect=[55.35, 391.8, 412.15, 408.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1191,0)>, "/XYZ", 55, 234, 0 ])''
+      widget=False field=None struct_parent=443 | (15664, 0): page=304 subtype=Link
+      flags=None rect=[55.35, 374.8, 412.15, 391.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1195,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=444 | (15661, 0): page=304 subtype=Link flags=None rect=[55.35,
+      357.8, 412.15, 374.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1195,0)>,
+      "/XYZ", 55, 364, 0 ])'' widget=False field=None struct_parent=445 | (15658,
+      0): page=304 subtype=Link flags=None rect=[55.35, 340.8, 412.15, 357.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1201,0)>, "/XYZ", 55, 358, 0 ])''
+      widget=False field=None struct_parent=446 | (15655, 0): page=304 subtype=Link
+      flags=None rect=[55.35, 323.8, 412.15, 340.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1203,0)>, "/XYZ", 55, 134, 0 ])'' widget=False field=None
+      struct_parent=447 | (15652, 0): page=304 subtype=Link flags=None rect=[55.35,
+      306.8, 412.15, 323.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1209,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=448 | (15649,
+      0): page=304 subtype=Link flags=None rect=[55.35, 289.8, 412.15, 306.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1211,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=449 | (15646, 0): page=304 subtype=Link
+      flags=None rect=[55.35, 272.8, 412.15, 289.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1219,0)>, "/XYZ", 55, 644, 0 ])'' widget=False field=None
+      struct_parent=450 | (15643, 0): page=304 subtype=Link flags=None rect=[55.35,
+      255.8, 412.15, 272.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1223,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=451 | (15640,
+      0): page=304 subtype=Link flags=None rect=[55.35, 238.8, 412.15, 255.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1227,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=452 | (15637, 0): page=304 subtype=Link
+      flags=None rect=[55.35, 221.8, 412.15, 238.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1227,0)>, "/XYZ", 55, 128, 0 ])'' widget=False field=None
+      struct_parent=453 | (15634, 0): page=304 subtype=Link flags=None rect=[55.35,
+      204.8, 412.15, 221.8] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1231,0)>,
+      "/XYZ", 55, 644, 0 ])'' widget=False field=None struct_parent=454 | (15631,
+      0): page=304 subtype=Link flags=None rect=[55.35, 187.8, 412.15, 204.8] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(1233,0)>, "/XYZ", 55, 644, 0 ])''
+      widget=False field=None struct_parent=455 | (15628, 0): page=304 subtype=Link
+      flags=None rect=[55.35, 170.8, 412.15, 187.8] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(1233,0)>, "/XYZ", 55, 370, 0 ])'' widget=False field=None
+      struct_parent=456 | (10772, 0): page=367 subtype=Link flags=None rect=[228.25,
+      441.6, 383.646, 456.6] action=''/URI'' dest=''mailto:Consultation-Legislation@fin.gc.ca''
+      widget=False field=None struct_parent=520 | (10241, 0): page=421 subtype=Link
+      flags=None rect=[67.474, 366.72, 227.915, 381.72] action=''/URI'' dest=''https://www.canada.ca/en/department-finance/services/publications/debt-management-strategy/2025-2026.html''
+      widget=False field=None struct_parent=621 | (9487, 0): page=428 subtype=Link
+      flags=None rect=[116.323, 621.6, 414.19, 636.6] action=''/URI'' dest=''https://www.canada.ca/en/department-finance/services/publications/official-international-reserves.html''
+      widget=False field=None struct_parent=629 | (9485, 0): page=428 subtype=Link
+      flags=None rect=[77.399, 596.6, 159.192, 621.6] action=''/URI'' dest=''https://www.canada.ca/en/department-finance/services/publications/fiscal-monitor.html''
+      widget=False field=None struct_parent=630 | (8628, 0): page=452 subtype=Link
+      flags=None rect=[119.267, 399.599, 304.414, 410.399] action=''/URI'' dest=''https://www.statcan.gc.ca/hub-carrefour/gdis-sgdi/index-eng.htm''
+      widget=False field=None struct_parent=655 | (8470, 0): page=453 subtype=Link
+      flags=None rect=[170.383, 145.219, 271.9, 155.579] action=''/URI'' dest=''https://www.canada.ca/en/women-gender-equality/gender-equality/gender-results-framework.html''
+      widget=False field=None struct_parent=657'
+    LinkStructureCount: 2
+    ExternalLinkAnnotationCount: 6
+    InternalLinkAnnotationCount: 174
+    AnnotationPagesWithLinks: 12
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Fail
+    HeadingCount: 281
+    HeadingSequence: H1 > H1 > H1 > H2 > H2 > H2 > H2 > H3 > H2 > H3 > H3 > H3 > H3
+      > H3 > H2 > H3 > H3 > H4 > H4 > H2 > H3 > H3 > H2 > H3 > H3 > H3 > H3 > H3 >
+      H2 > H3 > H4 > H3 > H2 > H3 > H4 > H4 > H4 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+      > H3 > H3 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H4 > H4 > H4 >
+      H4 > H3 > H2 > H3 > H4 > H4 > H4 > H4 > H3 > H2 > H3 > H3 > H4 > H4 > H4 > H4
+      > H4 > H3 > H4 > H4 > H3 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H3 > H3 >
+      H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H3 > H3 > H3 > H3
+      > H3 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H4 > H3 > H3 > H2 > H3 > H3 > H3 >
+      H3 > H3 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H3 > H3
+      > H3 > H3 > H3 > H2 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H2 > H1 > H2 > H2 >
+      H4 > H3 > H3 > H3 > H3 > H3 > H4 > H4 > H4 > H4 > H4 > H3 > H4 > H4 > H4 > H4
+      > H4 > H4 > H3 > H3 > H4 > H4 > H3 > H4 > H4 > H4 > H2 > H3 > H3 > H1 > H2 >
+      H3 > H3 > H3 > H1 > H2 > H2 > H2 > H3 > H3 > H2 > H2 > H2 > H2 > H2 > H2 > H2
+      > H2 > H3 > H3 > H3 > H2 > H3 > H3 > H2 > H2 > H2 > H3 > H3 > H3 > H2 > H2 >
+      H2 > H2 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H2 > H3 > H3 > H2 > H2 > H2 > H2
+      > H2 > H1 > H2 > H2 > H3 > H4 > H4 > H4 > H4 > H4 > H3 > H4 > H3 > H3 > H4 >
+      H4 > H4 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H4 > H3 > H3 > H3 > H3 > H4 > H3
+      > H3 > H3 > H2 > H3 > H3 > H2 > H3 > H3 > H3 > H4 > H5 > H5 > H5 > H5 > H5 >
+      H5 > H5 > H3 > H2 > H2
+    HeadingIssues: 'Skipped heading level: H2 -> H4'
+    ListsTest: Warn
+    ListCount: 186
+    InvalidListItemParents: ''
+    InvalidListChildren: '(28880, 0): LI has unusual children Figure | (28803, 0):
+      LI has unusual children Figure | (28804, 0): LI has unusual children Figure
+      | (28740, 0): LI has unusual children Figure | (28636, 0): LI has unusual children
+      Figure | (28637, 0): LI has unusual children Figure | (28055, 0): LI has unusual
+      children Figure | (28056, 0): LI has unusual children Figure | (27787, 0): LI
+      has unusual children Figure | (27621, 0): LI has unusual children Figure | (27590,
+      0): LI has unusual children Figure | (27591, 0): LI has unusual children Figure
+      | (27577, 0): LI has unusual children Figure | (27232, 0): LI has unusual children
+      Figure | (27152, 0): LI has unusual children Figure | (27153, 0): LI has unusual
+      children Figure | (27171, 0): LI has unusual children Figure | (27076, 0): LI
+      has unusual children Figure | (27020, 0): LI has unusual children Figure | (25247,
+      0): LI has unusual children Figure | (25239, 0): LI has unusual children Figure
+      | (25214, 0): LI has unusual children Figure | (25200, 0): LI has unusual children
+      Figure | (24223, 0): LI has unusual children Figure | (17837, 0): LI has unusual
+      children Figure | (10637, 0): LI has unusual children Figure'
+    MalformedListNodes: '(28055, 0): LI missing LBody but contains direct content
+      | (28056, 0): LI missing LBody but contains direct content | (27787, 0): LI
+      missing LBody but contains direct content'
+    TablesTest: Fail
+    TableCount: 130
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: '(29671, 0): Table has no TH cells | (29671, 0): Table cells
+      are all TD | (29659, 0): Table has no TH cells | (29659, 0): Table cells are
+      all TD | (29652, 0): Table has no TH cells | (29652, 0): Table cells are all
+      TD | (29643, 0): Table has no TH cells | (29643, 0): Table cells are all TD
+      | (29603, 0): Table has no TH cells | (29603, 0): Table cells are all TD | (29594,
+      0): Table has no TH cells | (29594, 0): Table cells are all TD | (29544, 0):
+      Table has no TH cells | (29544, 0): Table cells are all TD | (29534, 0): Table
+      has no TH cells | (29534, 0): Table cells are all TD | (29522, 0): Table has
+      no TH cells | (29522, 0): Table cells are all TD | (29502, 0): Table has no
+      TH cells | (29502, 0): Table cells are all TD | (29495, 0): Table has no TH
+      cells | (29495, 0): Table cells are all TD | (29475, 0): Table has no TH cells
+      | (29475, 0): Table cells are all TD | (29464, 0): Table has no TH cells | (29464,
+      0): Table cells are all TD | (29452, 0): Table has no TH cells | (29452, 0):
+      Table cells are all TD | (29387, 0): Table has no TH cells | (29387, 0): Table
+      cells are all TD | (29377, 0): Table has no TH cells | (29377, 0): Table cells
+      are all TD | (29365, 0): Table has no TH cells | (29365, 0): Table cells are
+      all TD | (29266, 0): Table has no TH cells | (29266, 0): Table cells are all
+      TD'
+    IrregularTables: '(27972, 0): Uneven row lengths detected ([1, 2, 1]) | (27986,
+      0): Uneven row lengths detected ([3, 1, 3]) | (28038, 0): Uneven row lengths
+      detected ([2, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]) | (27716,
+      0): Uneven row lengths detected ([2, 1]) | (27721, 0): Uneven row lengths detected
+      ([2, 2, 1]) | (26573, 0): Uneven row lengths detected ([4, 4, 4, 4, 1]) | (26576,
+      0): Uneven row lengths detected ([4, 4, 4, 7, 7, 4, 7, 7, 4, 7, 7, 4, 1]) |
+      (25451, 0): Uneven row lengths detected ([7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7,
+      7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 7, 1, 7, 1, 7,
+      1, 7, 7]) | (24735, 0): Uneven row lengths detected ([7, 7, 7, 7, 7, 7, 7, 7,
+      7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1, 7, 7, 7, 1, 7, 7]) | (22631, 0): Uneven
+      row lengths detected ([2, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7,
+      7, 7, 7, 7, 7, 7, 7, 2, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 1]) | (22659, 0): Uneven
+      row lengths detected ([2, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 7, 7, 7])
+      | (11352, 0): Uneven row lengths detected ([5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 1])
+      | (11365, 0): Uneven row lengths detected ([4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4,
+      1]) | (11370, 0): Uneven row lengths detected ([6, 9, 6, 9, 9, 9, 9, 9, 9, 9,
+      9, 9]) | (11404, 0): Uneven row lengths detected ([8, 8, 8, 8, 8, 8, 8, 8, 8,
+      8, 8, 7, 8, 8, 7, 8, 7, 7, 8, 8, 8, 8, 8, 7, 8, 8, 8, 8, 7, 8, 8, 7, 8, 8, 7,
+      8, 7, 8, 7, 8, 8, 7, 8, 7, 8, 7, 8, 8, 8, 8, 8, 8, 8, 8, 7, 8, 7, 8, 8, 8, 7,
+      8, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 7, 8, 8, 7, 7, 8, 8, 7, 8, 8,
+      8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 7, 8, 8, 8, 8, 8, 8, 8, 8, 7, 8,
+      8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8,
+      8, 8, 8, 8, 8, 7, 8, 8, 8, 8, 7, 8, 7, 8, 8, 8, 8, 8, 8, 8, 8, 7, 8, 8, 7, 8,
+      7, 8, 8, 8, 8, 8, 8]) | (11444, 0): Uneven row lengths detected ([5, 5, 5, 5,
+      5, 5, 5, 5, 5, 5, 1]) | (11468, 0): Uneven row lengths detected ([2, 7, 7, 7,
+      7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7,
+      7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7,
+      7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 2, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7,
+      7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7]) | (11486, 0): Uneven row lengths detected
+      ([1, 6, 6, 6, 6, 6, 6, 6, 1]) | (11508, 0): Uneven row lengths detected ([6,
+      6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 1]) | (11526, 0): Uneven row
+      lengths detected ([6, 6, 6, 6, 6, 6, 6, 6, 6, 1]) | (11532, 0): Uneven row lengths
+      detected ([6, 6, 1, 6, 6, 6, 6, 6]) | (11539, 0): Uneven row lengths detected
+      ([6, 6, 6, 6, 6, 6, 6, 6, 1]) | (11585, 0): Uneven row lengths detected ([6,
+      6, 1, 6, 6, 6, 6, 6, 6, 6, 6, 6, 1]) | (11593, 0): Uneven row lengths detected
+      ([6, 6, 6, 6, 6, 6, 6, 1]) | (11597, 0): Uneven row lengths detected ([6, 6,
+      6, 6, 1]) | (11615, 0): Uneven row lengths detected ([6, 6, 6, 6, 6, 6, 6, 6,
+      6, 6, 6, 6, 6, 6, 6, 6, 6, 1]) | (11633, 0): Uneven row lengths detected ([6,
+      6, 6, 6, 6, 6, 6, 1]) | (11640, 0): Uneven row lengths detected ([6, 6, 6, 6,
+      6, 6, 6, 6, 6, 1]) | (11661, 0): Uneven row lengths detected ([6, 6, 1, 6, 6,
+      6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 1]) | (11664, 0): Uneven row lengths
+      detected ([6, 6, 1, 6, 6]) | (11690, 0): Uneven row lengths detected ([6, 6,
+      6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 1]) | (11696, 0): Uneven row lengths detected
+      ([1, 6, 6, 6, 6, 6, 6, 1]) | (11702, 0): Uneven row lengths detected ([6, 6,
+      6, 6, 6, 1]) | (11711, 0): Uneven row lengths detected ([6, 6, 6, 6, 1]) | (11717,
+      0): Uneven row lengths detected ([6, 6, 6, 6, 1]) | (10413, 0): Uneven row lengths
+      detected ([1, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 7,
+      8, 7, 7, 7, 7, 7, 7, 7, 1])'
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: Figures missing alt text (count=144)
+    Exempt: false
+    Date: '2025-11-12 18:46:42+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Acrobat PDFMaker 24 for Word
+    Producer: Adobe PDF Library 24.3.144
+    Title: Budget 2025 - Canada Strong
+    Author: Government of Canada
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 493
+    Words: 155901
+    Images: 148
+    DocCategory: Budget
+  errors:
+  - 'tagged-content-fail, figures missing alt text (count=144), headings-skip, lists-warn,
+    tables-fail, annotations-tagging-fail, '
 - url: https://digital.canada.ca/reports/tactical-plan-2025.pdf
   md5: 5bc7a8a648148dc85ca791f9338b9e19
   filename: tactical-plan-2025.pdf
   site: canada.ca
   crawled_at: '2026-05-17T12:50:21.905877+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 17
+    AnnotationSubtypeCounts: Link=17
+    LinkAnnotationCount: 17
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Fail
+    TaggedAnnotationIssues: '(1068, 0): page=2 dest=''https://digital.canada.ca/'':
+      link annotation has no /StructParent | (1069, 0): page=2 dest=''https://digital.canada.ca/reports/strategy-2024.pdf'':
+      link annotation has no /StructParent | (1050, 0): page=3 dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(19,0)>, "/Fit" ])'': link annotation has no /StructParent
+      | (1051, 0): page=3 dest=''pikepdf.Array([ <Pdf.pages.from_objgen(21,0)>, "/FitR",
+      -249, -4, 862, 792 ])'': link annotation has no /StructParent | (1052, 0): page=3
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(23,0)>, "/FitR", -249, -4, 862,
+      792 ])'': link annotation has no /StructParent | (1053, 0): page=3 dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(25,0)>, "/FitR", -249, -4, 862, 792 ])'': link annotation
+      has no /StructParent | (83, 0): page=4 dest=''https://digital.canada.ca/reports/strategy-2024.pdf'':
+      link annotation has no /StructParent | (87, 0): page=10 dest=''https://digital.canada.ca/reports/strategy-2024.pdf'':
+      link annotation has no /StructParent | (88, 0): page=10 dest=''https://digital.canada.ca/reports/strategy-2024.pdf'':
+      link annotation has no /StructParent'
+    AnnotationSummary: '(1068, 0): page=2 subtype=Link flags=None rect=[54.0, 475.074,
+      272.601, 456.216] action=''/URI'' dest=''https://digital.canada.ca/'' widget=False
+      field=None struct_parent=None | (1069, 0): page=2 subtype=Link flags=None rect=[164.473,
+      415.074, 326.108, 396.216] action=''/URI'' dest=''https://digital.canada.ca/reports/strategy-2024.pdf''
+      widget=False field=None struct_parent=None | (1067, 0): page=2 subtype=Link
+      flags=None rect=[54.0, 219.707, 124.851, 207.584] action=''/URI'' dest=''https://digital.canada.ca/''
+      widget=False field=None struct_parent=25 | (1011, 0): page=3 subtype=Link flags=None
+      rect=[99.5, 666.493, 537.62, 647.11] action=''/GoTo'' dest=''EN_CDS_2025_2026_TacticalPlan_V7.indd:.23926:2137''
+      widget=False field=None struct_parent=5 | (1008, 0): page=3 subtype=Link flags=None
+      rect=[99.5, 616.493, 537.62, 597.11] action=''/GoTo'' dest=''EN_CDS_2025_2026_TacticalPlan_V7.indd:.23932:2138''
+      widget=False field=None struct_parent=6 | (1005, 0): page=3 subtype=Link flags=None
+      rect=[364.938, 507.493, 537.62, 488.11] action=''/GoTo'' dest=''EN_CDS_2025_2026_TacticalPlan_V7.indd:.23936:2139''
+      widget=False field=None struct_parent=7 | (1003, 0): page=3 subtype=Link flags=None
+      rect=[471.142, 475.493, 537.62, 456.11] action=''/GoTo'' dest=''EN_CDS_2025_2026_TacticalPlan_V7.indd:.23940:2140''
+      widget=False field=None struct_parent=8 | (1001, 0): page=3 subtype=Link flags=None
+      rect=[221.705, 421.493, 537.62, 402.11] action=''/GoTo'' dest=''EN_CDS_2025_2026_TacticalPlan_V7.indd:.23944:2141''
+      widget=False field=None struct_parent=9 | (999, 0): page=3 subtype=Link flags=None
+      rect=[329.363, 367.493, 545.244, 348.11] action=''/GoTo'' dest=''EN_CDS_2025_2026_TacticalPlan_V7.indd:.23948:2142''
+      widget=False field=None struct_parent=10 | (1050, 0): page=3 subtype=Link flags=None
+      rect=[99.5, 492.11, 364.919, 511.5] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(19,0)>, "/Fit" ])'' widget=False field=None struct_parent=None
+      | (1051, 0): page=3 subtype=Link flags=None rect=[99.5, 460.11, 471.109, 479.5]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(21,0)>, "/FitR",
+      -249, -4, 862, 792 ])'' widget=False field=None struct_parent=None | (1052,
+      0): page=3 subtype=Link flags=None rect=[99.5, 406.11, 432.925, 447.5] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(23,0)>, "/FitR", -249, -4, 862,
+      792 ])'' widget=False field=None struct_parent=None | (1053, 0): page=3 subtype=Link
+      flags=None rect=[99.5, 352.11, 329.354, 371.5] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(25,0)>, "/FitR", -249, -4, 862, 792 ])'' widget=False
+      field=None struct_parent=None | (83, 0): page=4 subtype=Link flags=None rect=[224.33,
+      544.324, 341.19, 530.181] action=''/URI'' dest=''https://digital.canada.ca/reports/strategy-2024.pdf''
+      widget=False field=None struct_parent=None | (87, 0): page=10 subtype=Link flags=None
+      rect=[477.084, 318.356, 516.864, 300.845] action=''/URI'' dest=''https://digital.canada.ca/reports/strategy-2024.pdf''
+      widget=False field=None struct_parent=None | (88, 0): page=10 subtype=Link flags=None
+      rect=[329.75, 302.756, 515.309, 285.245] action=''/URI'' dest=''https://digital.canada.ca/reports/strategy-2024.pdf''
+      widget=False field=None struct_parent=None | (747, 0): page=10 subtype=Link
+      flags=None rect=[416.069, 287.156, 511.547, 269.645] action=''/URI'' dest=''https://digital.canada.ca/''
+      widget=False field=None struct_parent=21'
+    LinkStructureCount: 17
+    ExternalLinkAnnotationCount: 7
+    InternalLinkAnnotationCount: 10
+    AnnotationPagesWithLinks: 4
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Fail
+    HeadingCount: 46
+    HeadingSequence: H1 > H1 > H1 > H3 > H3 > H6 > H6 > H6 > H6 > H1 > H4 > H4 > H1
+      > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 >
+      H1 > H1 > H1 > H1 > H1 > H1 > H3 > H3 > H3 > H1 > H1 > H1 > H1 > H1 > H1 > H3
+      > H3 > H3
+    HeadingIssues: 'Skipped heading level: H1 -> H3 | Skipped heading level: H3 ->
+      H6 | Skipped heading level: H1 -> H4 | Skipped heading level: H1 -> H3 | Skipped
+      heading level: H1 -> H3'
+    ListsTest: Warn
+    ListCount: 1
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: '(207, 0): LI is empty'
+    TablesTest: Fail
+    TableCount: 9
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: '(528, 0): Table has no rows | (528, 0): Table has no TH
+      cells | (526, 0): Table has no rows | (526, 0): Table has no TH cells | (511,
+      0): Table has no TH cells | (511, 0): Table cells are all TD | (424, 0): Table
+      has no TH cells | (424, 0): Table cells are all TD | (414, 0): Table has no
+      TH cells | (414, 0): Table cells are all TD | (403, 0): Table has no TH cells
+      | (403, 0): Table cells are all TD | (301, 0): Table has no rows | (301, 0):
+      Table has no TH cells | (299, 0): Table has no rows | (299, 0): Table has no
+      TH cells | (282, 0): Table has no TH cells | (282, 0): Table cells are all TD'
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2025-11-06 18:19:19+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 20.5 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: 'Tactical plan
+
+      2025–2026'
+    Author: CDS
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 11
+    Words: 2076
+    Images: 4
+  errors:
+  - 'headings-skip, lists-warn, tables-fail, annotations-tagging-fail, '
 - url: https://budget.canada.ca/update-miseajour/2026/report-rapport/pdf/update-miseajour2026-eng.pdf
   md5: 48460731e5000a935d460b44a0d9723d
   filename: update-miseajour2026-eng.pdf
   site: canada.ca
   crawled_at: '2026-05-17T12:50:21.927486+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    ImageAltTextTest: null
+    TaggedContentTest: Fail
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 35
+    AnnotationSubtypeCounts: Link=35
+    LinkAnnotationCount: 35
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Fail
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(17575, 0): page=5 subtype=Link flags=None rect=[57.2236,
+      696.411, 554.679, 710.066] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(39,0)>,
+      "/Fit" ])'' widget=False field=None struct_parent=None | (17576, 0): page=5
+      subtype=Link flags=None rect=[58.9093, 677.454, 556.366, 691.2] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(150,0)>, "/FitR", -302, -63, 914,
+      734 ])'' widget=False field=None struct_parent=None | (17577, 0): page=5 subtype=Link
+      flags=None rect=[58.9093, 662.399, 554.402, 675.49] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(150,0)>, "/FitR", -302, -103, 914, 694 ])'' widget=False
+      field=None struct_parent=None | (17578, 0): page=5 subtype=Link flags=None rect=[60.475,
+      646.99, 555.979, 661.296] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(153,0)>,
+      "/Fit" ])'' widget=False field=None struct_parent=None | (17579, 0): page=5
+      subtype=Link flags=None rect=[62.8366, 586.472, 558.33, 601.526] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(159,0)>, "/FitR", -302, -473,
+      914, 324 ])'' widget=False field=None struct_parent=None | (17580, 0): page=5
+      subtype=Link flags=None rect=[64.8003, 377.016, 556.366, 392.725] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(200,0)>, "/FitR", -302, -177,
+      914, 620 ])'' widget=False field=None struct_parent=None | (17581, 0): page=5
+      subtype=Link flags=None rect=[64.1457, 346.253, 557.675, 360.653] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(204,0)>, "/FitR", -302, -451,
+      914, 346 ])'' widget=False field=None struct_parent=None | (17582, 0): page=5
+      subtype=Link flags=None rect=[66.7639, 301.743, 557.675, 316.143] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(208,0)>, "/FitR", -302, -63, 914,
+      734 ])'' widget=False field=None struct_parent=None | (17583, 0): page=5 subtype=Link
+      flags=None rect=[65.4548, 258.543, 560.293, 270.325] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(212,0)>, "/FitR", -302, -448, 914, 349 ])'' widget=False
+      field=None struct_parent=None | (17584, 0): page=5 subtype=Link flags=None rect=[54.9821,
+      210.107, 559.639, 225.161] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(222,0)>,
+      "/FitR", -302, -54, 914, 744 ])'' widget=False field=None struct_parent=None
+      | (17585, 0): page=5 subtype=Link flags=None rect=[56.2912, 196.361, 560.948,
+      208.797] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(224,0)>,
+      "/FitR", -302, -359, 914, 438 ])'' widget=False field=None struct_parent=None
+      | (17586, 0): page=5 subtype=Link flags=None rect=[64.1457, 135.488, 558.984,
+      147.924] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(247,0)>,
+      "/FitR", -302, -365, 914, 432 ])'' widget=False field=None struct_parent=None
+      | (17557, 0): page=6 subtype=Link flags=None rect=[67.4185, 608.726, 556.366,
+      623.781] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(296,0)>,
+      "/FitR", -302, -63, 914, 734 ])'' widget=False field=None struct_parent=None
+      | (17558, 0): page=6 subtype=Link flags=None rect=[68.073, 519.708, 555.712,
+      533.453] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(325,0)>,
+      "/FitR", -302, -173, 914, 624 ])'' widget=False field=None struct_parent=None
+      | (17559, 0): page=6 subtype=Link flags=None rect=[65.4548, 413.671, 558.33,
+      428.726] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(331,0)>,
+      "/FitR", -302, -63, 914, 734 ])'' widget=False field=None struct_parent=None
+      | (17560, 0): page=6 subtype=Link flags=None rect=[68.7276, 338.398, 562.912,
+      354.762] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(350,0)>,
+      "/FitR", -302, -63, 914, 734 ])'' widget=False field=None struct_parent=None
+      | (17561, 0): page=6 subtype=Link flags=None rect=[66.7639, 265.089, 559.639,
+      280.143] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(363,0)>,
+      "/FitR", -302, -285, 914, 512 ])'' widget=False field=None struct_parent=None
+      | (17562, 0): page=6 subtype=Link flags=None rect=[53.0184, 217.307, 560.948,
+      232.361] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(381,0)>,
+      "/FitR", -302, -85, 914, 712 ])'' widget=False field=None struct_parent=None
+      | (17563, 0): page=6 subtype=Link flags=None rect=[60.873, 201.597, 561.602,
+      215.343] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(383,0)>,
+      "/FitR", -302, -144, 914, 653 ])'' widget=False field=None struct_parent=None
+      | (17564, 0): page=6 subtype=Link flags=None rect=[66.1094, 95.5605, 559.639,
+      111.924] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(395,0)>,
+      "/FitR", -302, -231, 914, 566 ])'' widget=False field=None struct_parent=None
+      | (17542, 0): page=7 subtype=Link flags=None rect=[62.1821, 690.545, 558.33,
+      704.945] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(399,0)>,
+      "/FitR", -302, -234, 914, 563 ])'' widget=False field=None struct_parent=None
+      | (17543, 0): page=7 subtype=Link flags=None rect=[64.1457, 585.817, 556.366,
+      600.217] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(410,0)>,
+      "/FitR", -302, -126, 914, 671 ])'' widget=False field=None struct_parent=None
+      | (17544, 0): page=7 subtype=Link flags=None rect=[66.1094, 479.78, 558.33,
+      494.181] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(416,0)>,
+      "/FitR", -302, -63, 914, 734 ])'' widget=False field=None struct_parent=None
+      | (17545, 0): page=7 subtype=Link flags=None rect=[54.3275, 357.38, 558.984,
+      369.816] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(430,0)>,
+      "/FitR", -302, -85, 914, 712 ])'' widget=False field=None struct_parent=None
+      | (17546, 0): page=7 subtype=Link flags=None rect=[57.6003, 338.398, 557.021,
+      351.489] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(522,0)>,
+      "/FitR", -302, -85, 914, 712 ])'' widget=False field=None struct_parent=None
+      | (17547, 0): page=7 subtype=Link flags=None rect=[56.9457, 321.38, 558.33,
+      334.471] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(529,0)>,
+      "/FitR", -302, -85, 914, 712 ])'' widget=False field=None struct_parent=None
+      | (17548, 0): page=7 subtype=Link flags=None rect=[56.2912, 304.361, 555.712,
+      317.452] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(546,0)>,
+      "/FitR", -302, -63, 914, 734 ])'' widget=False field=None struct_parent=None
+      | (953, 0): page=130 subtype=Link flags=4 rect=[307.56, 366.021, 311.318, 373.155]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(456,0)>, "/XYZ",
+      0, 93, None ])'' widget=False field=None struct_parent=None | (962, 0): page=159
+      subtype=Link flags=None rect=[173.886, 143.039, 294.253, 163.039] action=''/URI''
+      dest=''https://www.canada.ca/en/public-services-procurement/services/payments-accounting/public-accounts.html''
+      widget=False field=None struct_parent=None | (965, 0): page=160 subtype=Link
+      flags=None rect=[475.477, 506.77, 556.65, 518.77] action=''/URI'' dest=''https://www.canada.ca/en/department-finance/services/publications/official-international-reserves.html''
+      widget=False field=None struct_parent=None | (966, 0): page=160 subtype=Link
+      flags=None rect=[55.3501, 486.77, 305.693, 506.77] action=''/URI'' dest=''https://www.canada.ca/en/department-finance/services/publications/official-international-reserves.html''
+      widget=False field=None struct_parent=None | (967, 0): page=160 subtype=Link
+      flags=None rect=[331.322, 486.77, 417.44, 506.77] action=''/URI'' dest=''https://www.canada.ca/en/department-finance/services/publications/fiscal-monitor.html''
+      widget=False field=None struct_parent=None | (968, 0): page=160 subtype=Link
+      flags=None rect=[197.515, 272.14, 283.633, 291.14] action=''/URI'' dest=''https://www.canada.ca/en/department-finance/services/publications/fiscal-monitor.html''
+      widget=False field=None struct_parent=None | (969, 0): page=160 subtype=Link
+      flags=None rect=[503.557, 247.14, 556.65, 259.14] action=''/URI'' dest=''https://www.bankofcanada.ca/markets/government-securities-auctions/calls-for-tenders-and-results/cash-management-bond-buybacks/''
+      widget=False field=None struct_parent=None | (970, 0): page=160 subtype=Link
+      flags=None rect=[55.3501, 228.14, 189.057, 247.14] action=''/URI'' dest=''https://www.bankofcanada.ca/markets/government-securities-auctions/calls-for-tenders-and-results/cash-management-bond-buybacks/''
+      widget=False field=None struct_parent=None'
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 7
+    InternalLinkAnnotationCount: 28
+    AnnotationPagesWithLinks: 6
+    HidesAnnotationTest: NotApplicable
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: NotApplicable
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: NotApplicable
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2026-05-14 18:58:48+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 26 for Word
+    Producer: Adobe PDF Library 26.1.183
+    Title: Spring Economic Update 2026 - Canada Strong For All
+    Author: Department of Finance Canada
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 178
+    Words: 74735
+    Images: 107
+    DocCategory: Report
+  errors:
+  - 'tagged, lang, annotations-untagged, '

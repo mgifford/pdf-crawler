@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-17T12:57:54.947129+00:00",
+    "site": "canada.ca",
+    "crawl_url": "https://www.canada.ca",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25991394631",
+    "issue_url": "",
+    "archive_file": "2026-05-17_12-57-54-947_canada.ca.html",
+    "total": 500,
+    "analysed": 475,
+    "accessible": 33
+  },
+  {
     "date": "2026-05-17T08:13:30.715782+00:00",
     "site": "navymwrsingapore.com",
     "crawl_url": "https://www.navymwrsingapore.com/",

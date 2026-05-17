@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-05-17T08:13:30.715782+00:00
+Generated: 2026-05-17T12:57:54.947129+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19763 |
-| Analysed | 6049 |
+| Total files tracked | 19767 |
+| Analysed | 6052 |
 | Pending analysis | 8676 |
-| Errors during analysis | 5038 |
+| Errors during analysis | 5039 |
 | Accessible | 2000 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
@@ -28,7 +28,7 @@ Generated: 2026-05-17T08:13:30.715782+00:00
 | ble.de | 268 |
 | businessexpress.maryland.gov | 1 |
 | calgary.ca | 165 |
-| canada.ca | 496 |
+| canada.ca | 500 |
 | careerforce.mn.gov | 9 |
 | circuit19.org | 39 |
 | cms.gov | 658 |
@@ -6141,6 +6141,10 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [Konzept_Wirkungsanalyse_auf_einen_Blick_PDF.pdf](https://www.stmd.bayern.de/wp-content/uploads/2025/06/Konzept_Wirkungsanalyse_auf_einen_Blick_PDF.pdf) | stmd.bayern.de | 2024-04-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 488 | 2 |
 | [Leitfaden_Wirkungsanalyse_PDF.pdf](https://www.stmd.bayern.de/wp-content/uploads/2025/06/Leitfaden_Wirkungsanalyse_PDF.pdf) | stmd.bayern.de | 2024-07-08 | — | — | Das Staatsministerium für Digitales stellt in seinem Digitalplan 2030 ein Grundlegendes Konzept für ein digitalisiertes Bayern vor. | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 3189 | 5 |
 | [Umsetzung-Pakt-Digitale-Infrastruktur-14-11-2023.pdf](https://www.stmd.bayern.de/wp-content/uploads/2023/12/Umsetzung-Pakt-Digitale-Infrastruktur-14-11-2023.pdf) | stmd.bayern.de | 2023-12-04 | — | Karl, Michael (StMD) | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 1112 | 0 |
+| [budget-2025.pdf](https://budget.canada.ca/2025/report-rapport/pdf/budget-2025.pdf) | canada.ca | 2025-11-12 | Budget 2025 - Canada Strong | Government of Canada | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 493 | 155901 | 148 |
+| [tactical-plan-2025.pdf](https://digital.canada.ca/reports/tactical-plan-2025.pdf) | canada.ca | 2025-11-06 | Tactical plan
+2025–2026 | CDS | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2076 | 4 |
+| [update-miseajour2026-eng.pdf](https://budget.canada.ca/update-miseajour/2026/report-rapport/pdf/update-miseajour2026-eng.pdf) | canada.ca | 2026-05-14 | Spring Economic Update 2026 - Canada Strong For All | Department of Finance Canada | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 178 | 74735 | 107 |
 
 ## Files with Errors or Notes
 
@@ -60995,3 +60999,27 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.stmd.bayern.de/wp-content/uploads/2023/12/Umsetzung-Pakt-Digitale-Infrastruktur-14-11-2023.pdf
 - **Status**: analysed
 - title, headings-none, 
+
+### budget-2024.pdf
+
+- **URL**: https://www.budget.canada.ca/2024/report-rapport/budget-2024.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### budget-2025.pdf
+
+- **URL**: https://budget.canada.ca/2025/report-rapport/pdf/budget-2025.pdf
+- **Status**: analysed
+- tagged-content-fail, figures missing alt text (count=144), headings-skip, lists-warn, tables-fail, annotations-tagging-fail, 
+
+### tactical-plan-2025.pdf
+
+- **URL**: https://digital.canada.ca/reports/tactical-plan-2025.pdf
+- **Status**: analysed
+- headings-skip, lists-warn, tables-fail, annotations-tagging-fail, 
+
+### update-miseajour2026-eng.pdf
+
+- **URL**: https://budget.canada.ca/update-miseajour/2026/report-rapport/pdf/update-miseajour2026-eng.pdf
+- **Status**: analysed
+- tagged, lang, annotations-untagged, 
