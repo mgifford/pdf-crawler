@@ -322,6 +322,39 @@ python scripts/validate_pdf.py path/to/file.pdf --mode raw
 
 ---
 
+## Behavior-driven development (BDD)
+
+Behavior expectations are documented in:
+
+- `FEATURES.md` (user stories, acceptance criteria, governance, traceability)
+- `features/` (canonical Gherkin scenarios)
+
+### BDD command set
+
+```bash
+# Install BDD dependencies
+npm install
+
+# Run UI smoke behavior checks (for PR-level confidence)
+npm run bdd:ui:smoke
+
+# Run full UI behavior checks
+npm run bdd:ui:all
+
+# Ensure non-UI Gherkin specs remain parseable
+npm run bdd:spec:lint
+
+# Run full domain regression suite
+python -m pytest tests/ -v
+```
+
+Sustainability alignment:
+- PR checks run smoke-tagged UI scenarios only (`@ui @smoke`).
+- Full matrix runs on schedule/manual and relevant-path main-branch updates.
+- Existing pytest coverage remains the source of executable domain behavior.
+
+---
+
 ## Architecture
 
 ```
