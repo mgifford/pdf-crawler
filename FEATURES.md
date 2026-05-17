@@ -67,7 +67,7 @@ Acceptance criteria:
 
 ## Canonical Gherkin coverage
 
-All behavior specs live in `/home/runner/work/pdf-crawler/pdf-crawler/features/`.
+All behavior specs live in `features/`.
 
 Rules:
 - Every scenario must include exactly one user-story tag (`@us-001`, etc.).
@@ -95,4 +95,3 @@ Review checklist:
 - Reuse existing step vocabulary before adding new phrases.
 - Keep scenarios readable by non-technical stakeholders.
 - Keep CI compute low using path filters and smoke/full split.
-

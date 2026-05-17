@@ -326,8 +326,8 @@ python scripts/validate_pdf.py path/to/file.pdf --mode raw
 
 Behavior expectations are documented in:
 
-- `/home/runner/work/pdf-crawler/pdf-crawler/FEATURES.md` (user stories, acceptance criteria, governance, traceability)
-- `/home/runner/work/pdf-crawler/pdf-crawler/features/` (canonical Gherkin scenarios)
+- `FEATURES.md` (user stories, acceptance criteria, governance, traceability)
+- `features/` (canonical Gherkin scenarios)
 
 ### BDD command set
 
