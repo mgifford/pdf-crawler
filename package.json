@@ -1,0 +1,14 @@
+{
+  "name": "pdf-crawler-bdd",
+  "private": true,
+  "description": "BDD scaffolding for mgifford/pdf-crawler",
+  "scripts": {
+    "bdd:ui:smoke": "cucumber-js --tags \"@ui and @smoke\"",
+    "bdd:ui:all": "cucumber-js --tags \"@ui\"",
+    "bdd:spec:lint": "cucumber-js --tags \"not @ui\" --dry-run"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "playwright": "^1.55.1"
+  }
+}

@@ -1,0 +1,95 @@
+name: "BDD Behavior Checks"
+
+on:
+  pull_request:
+    paths:
+      - "FEATURES.md"
+      - "features/**"
+      - "docs/index.html"
+      - "tests/bdd/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/bdd.yml"
+  push:
+    branches: [main]
+    paths:
+      - "FEATURES.md"
+      - "features/**"
+      - "docs/index.html"
+      - "tests/**"
+      - "scripts/**"
+      - "package.json"
+      - "package-lock.json"
+      - ".github/workflows/bdd.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  bdd_smoke_ui:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run BDD UI smoke scenarios
+        run: npm run bdd:ui:smoke
+
+      - name: Validate non-UI feature specs parse
+        run: npm run bdd:spec:lint
+
+  bdd_full_matrix:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install pytest
+
+      - name: Run pytest suite
+        run: python -m pytest tests/ -v
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run full UI BDD scenarios
+        run: npm run bdd:ui:all
+
+      - name: Validate non-UI feature specs parse
+        run: npm run bdd:spec:lint
+
