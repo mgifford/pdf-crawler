@@ -28,6 +28,8 @@ from crawl import (
     fetch_sitemap_pdfs,
     _extract_pdf_urls_from_duckduckgo,
     fetch_duckduckgo_pdfs,
+    _extract_pdf_urls_from_google,
+    fetch_google_pdfs,
 )
 
 
@@ -1060,6 +1062,36 @@ def test_main_retries_with_broader_scope_when_path_seed_finds_no_results(tmp_pat
     mock_spot.assert_not_called()
 
 
+def test_main_uses_google_when_sitemap_and_duckduckgo_find_no_pdfs(tmp_path):
+    """If sitemap and DuckDuckGo are empty, main() should try Google fallback."""
+    from crawl import main
+
+    manifest_path = tmp_path / "manifest.yaml"
+    report_dir = tmp_path / "reports"
+
+    with patch("crawl.run_scrapy"), \
+         patch("crawl.normalize_url", return_value="https://www.stmd.bayern.de/"), \
+         patch("crawl.update_manifest") as mock_update, \
+         patch("crawl.generate_crawled_urls_csv", return_value=1), \
+         patch("crawl._count_downloaded_pdfs", side_effect=[0, 2]), \
+         patch("crawl.fetch_sitemap_pdfs", return_value=0), \
+         patch("crawl.fetch_duckduckgo_pdfs", return_value=0), \
+         patch("crawl.fetch_google_pdfs", return_value=2) as mock_google, \
+         patch("crawl._print_scrapy_log_tail"), \
+         patch("crawl.spot_check_zero_results"):
+        with patch("sys.argv", [
+            "crawl.py",
+            "--url", "https://www.stmd.bayern.de/",
+            "--manifest", str(manifest_path),
+            "--output-dir", str(tmp_path / "crawled_files"),
+            "--report-dir", str(report_dir),
+        ]):
+            main()
+
+    mock_google.assert_called_once()
+    assert mock_update.call_count == 2
+
+
 # ---------------------------------------------------------------------------
 # update_manifest – subdirectory skipping (line 239)
 # ---------------------------------------------------------------------------
@@ -1815,3 +1847,48 @@ def test_fetch_duckduckgo_pdfs_no_results(tmp_path):
             "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
         )
     assert count == 0
+
+
+def test_extract_pdf_urls_from_google_redirect_links():
+    """Google redirect links should yield same-site .pdf URLs."""
+    html = """
+<html><body>
+  <a href="/url?q=https%3A%2F%2Fwww.stmd.bayern.de%2Ffiles%2Fa.pdf&amp;sa=U">a</a>
+  <a href="/url?url=https%3A%2F%2Fcdn.stmd.bayern.de%2Fdocs%2Fb.PDF&amp;sa=U">b</a>
+  <a href="/url?q=https%3A%2F%2Fexample.com%2Fskip.pdf&amp;sa=U">skip</a>
+  <a href="/url?q=https%3A%2F%2Fwww.stmd.bayern.de%2Fpage.html&amp;sa=U">not pdf</a>
+</body></html>
+"""
+    urls = _extract_pdf_urls_from_google(html, "https://www.stmd.bayern.de/")
+    assert urls == [
+        "https://www.stmd.bayern.de/files/a.pdf",
+        "https://cdn.stmd.bayern.de/docs/b.PDF",
+    ]
+
+
+def test_fetch_google_pdfs_downloads_pdfs(tmp_path):
+    """Google-discovered PDFs should be downloaded and counted."""
+    html = """
+<html><body>
+  <a href="/url?q=https%3A%2F%2Fexample.com%2Fdocs%2Fguide.pdf&amp;sa=U">guide</a>
+</body></html>
+"""
+    pdf_bytes = b"%PDF-1.4 fake"
+    responses = [
+        _make_http_response_plain(200, html.encode("utf-8")),  # Google search
+        _make_http_response_plain(200, pdf_bytes),             # PDF download
+    ]
+    call_count = [0]
+
+    def side_effect(req, timeout=60):
+        r = responses[call_count[0]]
+        call_count[0] += 1
+        return r
+
+    with patch("crawl.urlopen", side_effect=side_effect):
+        count = fetch_google_pdfs(
+            "https://example.com", str(tmp_path), max_pdfs=10, timeout=60
+        )
+
+    assert count == 1
+    assert (tmp_path / "example.com" / "guide.pdf").exists()
