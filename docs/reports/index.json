@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-05-17T01:01:30.688824+00:00",
+    "site": "nfb.org",
+    "crawl_url": "https://nfb.org/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/25977485422",
+    "issue_url": "",
+    "archive_file": "2026-05-17_01-01-30-688_nfb.org.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-05-17T00:41:25.697312+00:00",
     "site": "kfw.de",
     "crawl_url": "https://www.kfw.de/",
