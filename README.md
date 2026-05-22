@@ -383,7 +383,7 @@ pdf-crawler/
 │   └── report_structured.json # ← committed; regenerated each run
 ├── pyproject.toml             # Python project metadata and dependency groups
 ├── uv.lock                    # Locked Python dependencies for reproducible installs
-├── requirements.txt           # Python dependencies
+├── requirements.txt           # Compatibility export of Python dependencies
 └── README.md
 ```
 
