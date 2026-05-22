@@ -297,8 +297,8 @@ See [`reports/README.md`](reports/README.md) for the full manifest schema.
 git clone https://github.com/mgifford/pdf-crawler.git
 cd pdf-crawler
 
-# Install uv (if not already installed)
-python -m pip install uv
+# Install uv (recommended: standalone installer)
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Create/update virtual environment from lockfile
 uv sync --frozen --dev

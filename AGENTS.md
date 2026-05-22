@@ -70,8 +70,8 @@ pdf-crawler/
 git clone https://github.com/mgifford/pdf-crawler.git
 cd pdf-crawler
 
-# Install uv (if not already installed)
-python -m pip install uv
+# Install uv (recommended: standalone installer)
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Install dependencies
 uv sync --frozen --dev
