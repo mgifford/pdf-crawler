@@ -1,0 +1,25 @@
+[project]
+name = "pdf-crawler"
+version = "0.1.0"
+description = "Serverless PDF accessibility auditor using GitHub Actions and GitHub Pages."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "scrapy>=2.11.0",
+    "pikepdf>=9.0.0",
+    "langcodes",
+    "pdfminer.six",
+    "bitstring",
+    "dateparser",
+    "typer",
+    "PyYAML>=6.0",
+    "pytz",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
+lint = [
+    "pylint",
+]
