@@ -67,11 +67,13 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v6
+
       - name: Install Python dependencies
         run: |
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
-          python -m pip install pytest
+          uv sync --frozen --dev
+          echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
       - name: Run pytest suite
         run: python -m pytest tests/ -v
@@ -92,4 +94,3 @@ jobs:
 
       - name: Validate non-UI feature specs parse
         run: npm run bdd:spec:lint
-

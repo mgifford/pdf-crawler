@@ -297,27 +297,30 @@ See [`reports/README.md`](reports/README.md) for the full manifest schema.
 git clone https://github.com/mgifford/pdf-crawler.git
 cd pdf-crawler
 
-# Set up a Python virtual environment
-python3 -m venv env
-source env/bin/activate
+# Install uv (recommended: standalone installer)
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Create/update virtual environment from lockfile
+uv sync --frozen --dev
 
 # Install dependencies
-pip install -r requirements.txt
+# (Legacy fallback)
+# pip install -r requirements.txt
 
 # Crawl a site (runs for up to 1 hour by default)
-python scripts/crawl.py --url https://example.com
+uv run python scripts/crawl.py --url https://example.com
 
 # Analyse the downloaded PDFs
-python scripts/pdf_analyser.py
+uv run python scripts/pdf_analyser.py
 
 # Generate reports
-python scripts/generate_report.py
+uv run python scripts/generate_report.py
 
 # Validate a single PDF (structured JSON output by default)
-python scripts/validate_pdf.py path/to/file.pdf
+uv run python scripts/validate_pdf.py path/to/file.pdf
 
 # Validate a single PDF (raw analyser output)
-python scripts/validate_pdf.py path/to/file.pdf --mode raw
+uv run python scripts/validate_pdf.py path/to/file.pdf --mode raw
 ```
 
 ---
@@ -345,7 +348,7 @@ npm run bdd:ui:all
 npm run bdd:spec:lint
 
 # Run full domain regression suite
-python -m pytest tests/ -v
+uv run python -m pytest tests/ -v
 ```
 
 Sustainability alignment:
@@ -378,7 +381,9 @@ pdf-crawler/
 │   ├── report.md              # ← committed; regenerated each run
 │   ├── report.json            # ← committed; regenerated each run
 │   └── report_structured.json # ← committed; regenerated each run
-├── requirements.txt           # Python dependencies
+├── pyproject.toml             # Python project metadata and dependency groups
+├── uv.lock                    # Locked Python dependencies for reproducible installs
+├── requirements.txt           # Compatibility export of Python dependencies
 └── README.md
 ```
 

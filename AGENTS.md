@@ -55,6 +55,8 @@ pdf-crawler/
 ├── tests/                        # pytest test suite
 ├── ACCESSIBILITY.md              # Accessibility policy and contributor requirements
 ├── SUSTAINABILITY.md             # Sustainability policy and AI usage guidelines
+├── pyproject.toml                # Python project metadata (uv-managed)
+├── uv.lock                       # Locked Python dependencies for reproducible installs
 ├── requirements.txt              # Python dependencies
 └── README.md                     # User-facing documentation
 ```
@@ -68,16 +70,14 @@ pdf-crawler/
 git clone https://github.com/mgifford/pdf-crawler.git
 cd pdf-crawler
 
-# Create and activate a virtual environment
-python3 -m venv env
-source env/bin/activate   # Windows: env\Scripts\activate
+# Install uv (recommended: standalone installer)
+curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Install dependencies
-pip install -r requirements.txt
-pip install pytest          # for running tests
+uv sync --frozen --dev
 
 # Run the test suite
-python -m pytest tests/ -v
+uv run python -m pytest tests/ -v
 ```
 
 ---
@@ -188,8 +188,10 @@ Before opening a PR, confirm:
 - **Language:** Python 3.10+
 - **Style:** follow the existing code style in `scripts/`.  No formatter is
   enforced, but keep changes consistent with the surrounding code.
-- **Dependencies:** declared in `requirements.txt`; add new packages only when
-  strictly necessary.
+- **Dependencies:** declared in `pyproject.toml` (with `uv.lock`); keep
+  `requirements.txt` aligned for compatibility by exporting from the lockfile:
+  `uv export --format requirements.txt --no-hashes -o requirements.txt`.
+  Add new packages only when strictly necessary.
 - **Comments:** match the style of existing comments; do not add verbose or
   redundant comments.
 - **Errors:** document any errors encountered and the workaround applied (in the
