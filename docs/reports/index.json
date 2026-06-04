@@ -4,7 +4,7 @@
     "site": "doc.convergecloud.com",
     "crawl_url": "https://doc.convergecloud.com/tcloud/api",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/26925084859",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/257#issuecomment-4618275959",
     "archive_file": "2026-06-04_01-53-12-285_doc.convergecloud.com.html",
     "total": 0,
     "analysed": 0,
