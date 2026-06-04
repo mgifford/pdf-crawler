@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-06-04T01:53:12.285353+00:00",
+    "site": "doc.convergecloud.com",
+    "crawl_url": "https://doc.convergecloud.com/tcloud/api",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/26925084859",
+    "issue_url": "",
+    "archive_file": "2026-06-04_01-53-12-285_doc.convergecloud.com.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-05-17T12:57:54.947129+00:00",
     "site": "canada.ca",
     "crawl_url": "https://www.canada.ca",
