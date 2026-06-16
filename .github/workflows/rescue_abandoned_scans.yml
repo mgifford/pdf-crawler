@@ -33,7 +33,7 @@ on:
           - "false"
           - "true"
 
-  schedule:
+  # schedule:
     # Run once a day at 06:00 UTC to catch scans abandoned overnight.
     # - cron: "0 6 * * *"
 
