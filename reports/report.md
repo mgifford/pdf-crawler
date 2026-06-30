@@ -1,19 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-06-04T01:53:12.285353+00:00
+Generated: 2026-06-30T13:21:31.712064+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19767 |
-| Analysed | 6052 |
+| Total files tracked | 19773 |
+| Analysed | 6058 |
 | Pending analysis | 8676 |
 | Errors during analysis | 5039 |
-| Accessible | 2000 |
+| Accessible | 2002 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
-| Exempt (pre-2018) | 1501 |
+| Exempt (pre-2018) | 1502 |
 
 ## Files per Site
 
@@ -57,6 +57,7 @@ Generated: 2026-06-04T01:53:12.285353+00:00
 | marburg.de | 71 |
 | medicare.gov | 200 |
 | middletowncityschools.com | 170 |
+| minneapolis.edu | 6 |
 | mn.gov | 1456 |
 | mtnboces.org | 32 |
 | ncert.nic.in | 329 |
@@ -6145,6 +6146,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [tactical-plan-2025.pdf](https://digital.canada.ca/reports/tactical-plan-2025.pdf) | canada.ca | 2025-11-06 | Tactical plan
 2025–2026 | CDS | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2076 | 4 |
 | [update-miseajour2026-eng.pdf](https://budget.canada.ca/update-miseajour/2026/report-rapport/pdf/update-miseajour2026-eng.pdf) | canada.ca | 2026-05-14 | Spring Economic Update 2026 - Canada Strong For All | Department of Finance Canada | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 178 | 74735 | 107 |
+| [ARC-Disability-Documentation-Form-A2.pdf](https://minneapolis.edu/sites/default/files/ARC-Disability-Documentation-Form-A2.pdf) | minneapolis.edu | 2022-05-23 | ARC Disability Documentation Form | Moe, Jill C | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 585 | 2 |
+| [CE-Student-Handbook-final.pdf](https://minneapolis.edu/sites/default/files/CE-Student-Handbook-final.pdf) | minneapolis.edu | 2018-02-08 | Microsoft Word - CE-Student-Handbook-c.docx | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 4 | 1355 | 12 |
+| [College-policy-3.04.pdf](https://minneapolis.edu/sites/default/files/College-policy-3.04.pdf) | minneapolis.edu | 2018-11-01 | College policy 3.04 | Elizabeth Erredge | October  2018 | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1139 | 7 |
+| [Minneapolis-College-PSEOHandbook-2025-2026-A1.pdf](https://minneapolis.edu/sites/default/files/Minneapolis-College-PSEOHandbook-2025-2026-A1.pdf) | minneapolis.edu | 2025-06-12 | 2025-2026 PSEO Handbook | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 2118 | 19 |
+| [Student-Life-Guide-FY20-A2.pdf](https://minneapolis.edu/sites/default/files/Student-Life-Guide-FY20-A2.pdf) | minneapolis.edu | 2019-10-14 | Student Life Guide | macalester | Policies and Procedures | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 34 | 11544 | 0 |
+| [Student-Life-Guide-FY22-Final-A1.pdf](https://minneapolis.edu/sites/default/files/Student-Life-Guide-FY22-Final-A1.pdf) | minneapolis.edu | 2022-03-07 | Student Life Guide | macalester | Policies and Procedures | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 41 | 13847 | 1 |
 
 ## Files with Errors or Notes
 
@@ -61023,3 +61030,33 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://budget.canada.ca/update-miseajour/2026/report-rapport/pdf/update-miseajour2026-eng.pdf
 - **Status**: analysed
 - tagged, lang, annotations-untagged, 
+
+### ARC-Disability-Documentation-Form-A2.pdf
+
+- **URL**: https://minneapolis.edu/sites/default/files/ARC-Disability-Documentation-Form-A2.pdf
+- **Status**: analysed
+- forms-tagging-fail, headings-warn, tables-fail, 
+
+### CE-Student-Handbook-final.pdf
+
+- **URL**: https://minneapolis.edu/sites/default/files/CE-Student-Handbook-final.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### College-policy-3.04.pdf
+
+- **URL**: https://minneapolis.edu/sites/default/files/College-policy-3.04.pdf
+- **Status**: analysed
+- title, headings-none, tables-fail, 
+
+### Minneapolis-College-PSEOHandbook-2025-2026-A1.pdf
+
+- **URL**: https://minneapolis.edu/sites/default/files/Minneapolis-College-PSEOHandbook-2025-2026-A1.pdf
+- **Status**: analysed
+- lists-warn, 
+
+### Student-Life-Guide-FY20-A2.pdf
+
+- **URL**: https://minneapolis.edu/sites/default/files/Student-Life-Guide-FY20-A2.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=2), tables-warn, 

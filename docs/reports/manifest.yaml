@@ -368519,3 +368519,1547 @@
     DocCategory: Report
   errors:
   - 'tagged, lang, annotations-untagged, '
+- url: https://minneapolis.edu/sites/default/files/ARC-Disability-Documentation-Form-A2.pdf
+  md5: e54a17f7a154e734aaf99db9610b7ffc
+  filename: ARC-Disability-Documentation-Form-A2.pdf
+  site: minneapolis.edu
+  crawled_at: '2026-06-30T13:17:36.769806+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: Pass
+    FormFieldCount: 48
+    FormFieldSummary: '(398, 0): type=button name=''MLA Eating'' desc="Please select
+      if student''s diagnosis interferes with eating." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[67] | (396, 0): type=button name=''MLA
+      Sleeping'' desc="Please select if student''s diagnosis interferes with sleeping."
+      desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[69]
+      | (392, 0): type=button name=''MLA Memorizing'' desc="Please select if student''s
+      diagnosis interferes with memorization." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[73] | (400, 0): type=button name=''MLA
+      Self Care'' desc="Please select if student''s diagnosis interferes with self
+      care." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[65]
+      | (390, 0): type=button name=''MLA Breathing'' desc="Please select if student''s
+      diagnosis interferes with ability to breathe." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[75] | (388, 0): type=button name=''MLA
+      Lifting'' desc="Please select if student''s diagnosis interferes with ability
+      to lift." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[77]
+      | (386, 0): type=button name=''MLA learning'' desc="Please select if student''s
+      diagnosis interferes with ability to learn." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[79] | (384, 0): type=button name=''MLA
+      Seeing'' desc="Please select if student''s diagnosis interferes with ability
+      to see." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[81]
+      | (380, 0): type=button name=''MLA Writing'' desc="Please select if student''s
+      diagnosis interferes with ability to see." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[85] | (382, 0): type=button name=''MLA
+      Reading'' desc="Please select if student''s diagnosis interferes with ability
+      to see." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[83]
+      | (376, 0): type=button name=''MLA Thinking'' desc="Please select if student''s
+      diagnosis interferes with ability to think." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[89] | (378, 0): type=button name=''MLA
+      Standing'' desc="Please select if student''s diagnosis interferes with ability
+      to see." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[87]
+      | (372, 0): type=button name=''MLA Sitting'' desc="Please select if student''s
+      diagnosis interferes with ability to interact." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[93] | (399, 0): type=button name=''MLA
+      Walking'' desc="Please select if student''s diagnosis interferes with ability
+      to walk." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[66]
+      | (374, 0): type=button name=''MLA Interacting'' desc="Please select if student''s
+      diagnosis interferes with ability to interact." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[91] | (395, 0): type=button name=''MLA
+      Hear'' desc="Please select if student''s diagnosis interferes with ability to
+      hear." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[70]
+      | (393, 0): type=button name=''MLA Listen'' desc="Please select if student''s
+      diagnosis interferes with ability to listen." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[72] | (391, 0): type=button name=''MLA
+      Speak'' desc="Please select if student''s diagnosis interferes with ability
+      to speak." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[74]
+      | (397, 0): type=button name=''MLA Talk'' desc="Please select if student''s
+      diagnosis interferes with ability to interact." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[68] | (394, 0): type=button name=''MLA
+      Concentrating'' desc="Please select if student''s diagnosis interferes with
+      concentrating." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[71]
+      | (389, 0): type=button name=''MLA Organize'' desc="Please select if student''s
+      diagnosis interferes with ability to organize." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[76] | (387, 0): type=button name=''MLA
+      Social Interactions'' desc="Please select if student''s diagnosis interferes
+      with ability to socially interact." desc_source=field-tooltip widgets=1 pages=[''(546,
+      0)''] struct_parents=[78] | (383, 0): type=button name=''MLA Attendance'' desc="Please
+      select if student''s diagnosis interferes with ability to manage time, attend
+      classes or work regularly, be on time." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[82] | (385, 0): type=button name=''MLA
+      Stress Management'' desc="Please select if student''s diagnosis interferes with
+      ability to socially interact." desc_source=field-tooltip widgets=1 pages=[''(546,
+      0)''] struct_parents=[80] | (381, 0): type=button name=''MLA Internal Distractions''
+      desc="Please select if student''s diagnosis interferes with ability to manage
+      internal distractions." desc_source=field-tooltip widgets=1 pages=[''(546, 0)'']
+      struct_parents=[84] | (379, 0): type=button name=''MLA External Distractions''
+      desc="Please select if student''s diagnosis interferes with ability to manage
+      external distractions." desc_source=field-tooltip widgets=1 pages=[''(546, 0)'']
+      struct_parents=[86] | (375, 0): type=button name=''MLA Reach or Grasp'' desc="Please
+      select if student''s diagnosis interferes with ability to reach or grasp." desc_source=field-tooltip
+      widgets=1 pages=[''(546, 0)''] struct_parents=[90] | (373, 0): type=button name=''MLA
+      Make and Keep Appt'' desc="Please select if student''s diagnosis interferes
+      with ability to manage external distractions." desc_source=field-tooltip widgets=1
+      pages=[''(546, 0)''] struct_parents=[92] | (377, 0): type=button name=''MLA
+      Manual Tasks'' desc="Please select if student''s diagnosis interferes with ability
+      to manage external distractions." desc_source=field-tooltip widgets=1 pages=[''(546,
+      0)''] struct_parents=[88] | (371, 0): type=button name=''MLA Maintain Deadlines''
+      desc="Please select if student''s diagnosis interferes with ability to maintain
+      deadlines." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[94]
+      | (288, 0): type=text name=''Student Current Symptoms'' desc="Please enter the
+      student''s current symptoms." desc_source=field-tooltip widgets=1 pages=[''(546,
+      0)''] struct_parents=[95] | (287, 0): type=text name=''Strategies and Prognosis''
+      desc="Please enter the student''s current treatment strategies and prognosis."
+      desc_source=field-tooltip widgets=1 pages=[''(1, 0)''] struct_parents=[96] |
+      (286, 0): type=text name=''Functional Limitations'' desc=''Please summarize
+      the functional limitations of the diagnosis and the impact of medication and
+      or treatment on educational functioning.'' desc_source=field-tooltip widgets=1
+      pages=[''(1, 0)''] struct_parents=[97] | (281, 0): type=text name=''Suggested
+      Accommodations'' desc=''Please provide suggestions for reasonable accommodations
+      that would be appropriate at the post-secondary level of education.'' desc_source=field-tooltip
+      widgets=1 pages=[''(1, 0)''] struct_parents=[98] | (276, 0): type=text name=''Providers
+      Name'' desc=''Please enter your First and Last Name'' desc_source=field-tooltip
+      widgets=1 pages=[''(1, 0)''] struct_parents=[99] | (275, 0): type=text name=''Providers
+      Title'' desc=''Please enter the title of your position.'' desc_source=field-tooltip
+      widgets=1 pages=[''(1, 0)''] struct_parents=[100] | (273, 0): type=text name=''Providers
+      License and state of issue'' desc=''Please enter your license number and state
+      of issue.'' desc_source=field-tooltip widgets=1 pages=[''(1, 0)''] struct_parents=[102]
+      | (274, 0): type=text name=''Providers Credentials'' desc=''Please enter your
+      credentials.'' desc_source=field-tooltip widgets=1 pages=[''(1, 0)''] struct_parents=[101]
+      | (271, 0): type=text name=''Fax Number'' desc=''Please enter your business
+      fax number.'' desc_source=field-tooltip widgets=1 pages=[''(1, 0)''] struct_parents=[104]
+      | (272, 0): type=text name=''Business Phone'' desc=''Please enter your business
+      phone number.'' desc_source=field-tooltip widgets=1 pages=[''(1, 0)''] struct_parents=[103]
+      | (255, 0): type=text name=''Date of report'' desc=''Please enter the date the
+      report was completed.'' desc_source=field-tooltip widgets=1 pages=[''(1, 0)'']
+      struct_parents=[107] | (270, 0): type=text name=''Provider Signature'' desc=''Please
+      sign here.'' desc_source=field-tooltip widgets=1 pages=[''(1, 0)''] struct_parents=[105]
+      | (445, 0): type=text name=''Last Name'' desc="Please enter Student''s last
+      name." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[59]
+      | (443, 0): type=text name=''First Name'' desc="Please enter student''s first
+      name." desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[61]
+      | (444, 0): type=text name=''StarID'' desc="Please enter student''s StarID"
+      desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[60]
+      | (440, 0): type=text name=''Date of Diagnosis'' desc=''Please enter the date
+      of diagnosis.'' desc_source=field-tooltip widgets=1 pages=[''(546, 0)''] struct_parents=[62]
+      | (437, 0): type=text name=''Recent Assessment Date'' desc=''Please enter the
+      most resent assessment date.'' desc_source=field-tooltip widgets=1 pages=[''(546,
+      0)''] struct_parents=[63] | (402, 0): type=text name=''Student Diagnosis'' desc="Please
+      enter the student''s diagnosis." desc_source=field-tooltip widgets=1 pages=[''(546,
+      0)''] struct_parents=[64]'
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: Fail
+    TaggedFormFieldIssues: '(445, 0): field=''Last Name'': /StructParent 59 maps to
+      P, expected Form | (443, 0): field=''First Name'': /StructParent 61 maps to
+      P, expected Form | (444, 0): field=''StarID'': /StructParent 60 maps to P, expected
+      Form | (440, 0): field=''Date of Diagnosis'': /StructParent 62 maps to P, expected
+      Form | (437, 0): field=''Recent Assessment Date'': /StructParent 63 maps to
+      P, expected Form'
+    AnnotationsFound: true
+    AnnotationCount: 50
+    AnnotationSubtypeCounts: Link=2 | Widget=48
+    LinkAnnotationCount: 2
+    WidgetAnnotationCount: 48
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(249, 0): page=1 subtype=Link flags=None rect=[280.098, 688.302,
+      393.66, 697.501] action=''/URI'' dest=''mailto:accessibility@minneapolis.edu''
+      widget=False field=None struct_parent=108 | (445, 0): page=1 subtype=Widget
+      flags=4 rect=[84.9786, 547.92, 213.493, 562.32] action=None dest=None widget=True
+      field=''Last Name'' struct_parent=59 | (444, 0): page=1 subtype=Widget flags=4
+      rect=[427.48, 547.855, 528.154, 562.255] action=None dest=None widget=True field=''StarID''
+      struct_parent=60 | (443, 0): page=1 subtype=Widget flags=4 rect=[267.468, 548.013,
+      394.024, 562.413] action=None dest=None widget=True field=''First Name'' struct_parent=61
+      | (440, 0): page=1 subtype=Widget flags=4 rect=[117.485, 501.84, 263.896, 516.24]
+      action=None dest=None widget=True field=''Date of Diagnosis'' struct_parent=62
+      | (437, 0): page=1 subtype=Widget flags=4 rect=[465.37, 502.037, 570.326, 516.437]
+      action=None dest=None widget=True field=''Recent Assessment Date'' struct_parent=63
+      | (402, 0): page=1 subtype=Widget flags=4 rect=[35.454, 457.473, 570.24, 475.037]
+      action=None dest=None widget=True field=''Student Diagnosis'' struct_parent=64
+      | (400, 0): page=1 subtype=Widget flags=4 rect=[42.109, 402.983, 56.509, 417.383]
+      action=None dest=None widget=True field=''MLA Self Care'' struct_parent=65 |
+      (399, 0): page=1 subtype=Widget flags=4 rect=[329.09, 403.128, 343.49, 417.528]
+      action=None dest=None widget=True field=''MLA Walking'' struct_parent=66 | (398,
+      0): page=1 subtype=Widget flags=4 rect=[41.76, 382.165, 56.16, 396.565] action=None
+      dest=None widget=True field=''MLA Eating'' struct_parent=67 | (397, 0): page=1
+      subtype=Widget flags=4 rect=[328.945, 382.583, 343.345, 396.983] action=None
+      dest=None widget=True field=''MLA Talk'' struct_parent=68 | (396, 0): page=1
+      subtype=Widget flags=4 rect=[41.76, 362.365, 56.16, 376.765] action=None dest=None
+      widget=True field=''MLA Sleeping'' struct_parent=69 | (395, 0): page=1 subtype=Widget
+      flags=4 rect=[329.363, 361.655, 343.763, 376.056] action=None dest=None widget=True
+      field=''MLA Hear'' struct_parent=70 | (394, 0): page=1 subtype=Widget flags=4
+      rect=[41.76, 341.746, 56.16, 356.146] action=None dest=None widget=True field=''MLA
+      Concentrating'' struct_parent=71 | (393, 0): page=1 subtype=Widget flags=4 rect=[329.04,
+      342.165, 344.799, 356.565] action=None dest=None widget=True field=''MLA Listen''
+      struct_parent=72 | (392, 0): page=1 subtype=Widget flags=4 rect=[41.6728, 321.637,
+      56.0727, 336.037] action=None dest=None widget=True field=''MLA Memorizing''
+      struct_parent=73 | (391, 0): page=1 subtype=Widget flags=4 rect=[329.072, 322.11,
+      343.472, 336.51] action=None dest=None widget=True field=''MLA Speak'' struct_parent=74
+      | (390, 0): page=1 subtype=Widget flags=4 rect=[41.5273, 299.837, 55.9273, 314.237]
+      action=None dest=None widget=True field=''MLA Breathing'' struct_parent=75 |
+      (389, 0): page=1 subtype=Widget flags=4 rect=[329.04, 299.565, 342.89, 313.965]
+      action=None dest=None widget=True field=''MLA Organize'' struct_parent=76 |
+      (388, 0): page=1 subtype=Widget flags=4 rect=[42.109, 279.36, 56.509, 293.201]
+      action=None dest=None widget=True field=''MLA Lifting'' struct_parent=77 | (387,
+      0): page=1 subtype=Widget flags=4 rect=[329.054, 279.492, 343.454, 293.892]
+      action=None dest=None widget=True field=''MLA Social Interactions'' struct_parent=78
+      | (386, 0): page=1 subtype=Widget flags=4 rect=[42.109, 258.856, 56.509, 273.256]
+      action=None dest=None widget=True field=''MLA learning'' struct_parent=79 |
+      (385, 0): page=1 subtype=Widget flags=4 rect=[329.04, 258.983, 343.89, 273.383]
+      action=None dest=None widget=True field=''MLA Stress Management'' struct_parent=80
+      | (384, 0): page=1 subtype=Widget flags=4 rect=[41.6726, 239.91, 56.0726, 254.31]
+      action=None dest=None widget=True field=''MLA Seeing'' struct_parent=81 | (383,
+      0): page=1 subtype=Widget flags=4 rect=[329.04, 240.038, 343.454, 254.438] action=None
+      dest=None widget=True field=''MLA Attendance'' struct_parent=82 | (382, 0):
+      page=1 subtype=Widget flags=4 rect=[42.109, 219.965, 56.509, 234.365] action=None
+      dest=None widget=True field=''MLA Reading'' struct_parent=83 | (381, 0): page=1
+      subtype=Widget flags=4 rect=[329.345, 219.983, 343.745, 234.383] action=None
+      dest=None widget=True field=''MLA Internal Distractions'' struct_parent=84 |
+      (380, 0): page=1 subtype=Widget flags=4 rect=[41.6726, 199.892, 56.0726, 214.292]
+      action=None dest=None widget=True field=''MLA Writing'' struct_parent=85 | (379,
+      0): page=1 subtype=Widget flags=4 rect=[329.054, 200.16, 343.454, 214.038] action=None
+      dest=None widget=True field=''MLA External Distractions'' struct_parent=86 |
+      (378, 0): page=1 subtype=Widget flags=4 rect=[42.0909, 178.656, 56.4908, 193.056]
+      action=None dest=None widget=True field=''MLA Standing'' struct_parent=87 |
+      (377, 0): page=1 subtype=Widget flags=4 rect=[328.76, 178.82, 343.017, 193.22]
+      action=None dest=None widget=True field=''MLA Manual Tasks'' struct_parent=88
+      | (376, 0): page=1 subtype=Widget flags=4 rect=[41.9272, 157.438, 56.3272, 171.838]
+      action=None dest=None widget=True field=''MLA Thinking'' struct_parent=89 |
+      (375, 0): page=1 subtype=Widget flags=4 rect=[329.308, 157.565, 343.708, 171.965]
+      action=None dest=None widget=True field=''MLA Reach or Grasp'' struct_parent=90
+      | (374, 0): page=1 subtype=Widget flags=4 rect=[41.6545, 137.765, 56.0545, 152.165]
+      action=None dest=None widget=True field=''MLA Interacting'' struct_parent=91
+      | (373, 0): page=1 subtype=Widget flags=4 rect=[328.727, 137.511, 343.127, 151.911]
+      action=None dest=None widget=True field=''MLA Make and Keep Appt'' struct_parent=92
+      | (372, 0): page=1 subtype=Widget flags=4 rect=[41.9272, 117.729, 56.3272, 132.129]
+      action=None dest=None widget=True field=''MLA Sitting'' struct_parent=93 | (371,
+      0): page=1 subtype=Widget flags=4 rect=[328.89, 118.02, 343.29, 132.42] action=None
+      dest=None widget=True field=''MLA Maintain Deadlines'' struct_parent=94 | (288,
+      0): page=1 subtype=Widget flags=4 rect=[35.28, 28.7469, 570.24, 80.7836] action=None
+      dest=None widget=True field=''Student Current Symptoms'' struct_parent=95 |
+      (450, 0): page=1 subtype=Link flags=None rect=[282.349, 687.484, 391.424, 696.484]
+      action=''/URI'' dest=''mailto:accessibility@minneapolis.edu'' widget=False field=None
+      struct_parent=58 | (287, 0): page=2 subtype=Widget flags=4 rect=[35.7044, 609.11,
+      570.664, 752.521] action=None dest=None widget=True field=''Strategies and Prognosis''
+      struct_parent=96 | (286, 0): page=2 subtype=Widget flags=4 rect=[36.228, 435.437,
+      571.188, 564.186] action=None dest=None widget=True field=''Functional Limitations''
+      struct_parent=97 | (281, 0): page=2 subtype=Widget flags=4 rect=[35.7044, 216.034,
+      570.664, 339.547] action=None dest=None widget=True field=''Suggested Accommodations''
+      struct_parent=98 | (276, 0): page=2 subtype=Widget flags=4 rect=[113.732, 190.999,
+      322.456, 205.399] action=None dest=None widget=True field=''Providers Name''
+      struct_parent=99 | (275, 0): page=2 subtype=Widget flags=4 rect=[394.662, 190.475,
+      570.92, 204.875] action=None dest=None widget=True field=''Providers Title''
+      struct_parent=100 | (274, 0): page=2 subtype=Widget flags=4 rect=[138.081, 169.53,
+      314.339, 183.929] action=None dest=None widget=True field=''Providers Credentials''
+      struct_parent=101 | (273, 0): page=2 subtype=Widget flags=4 rect=[449.644, 169.006,
+      570.96, 183.406] action=None dest=None widget=True field=''Providers License
+      and state of issue'' struct_parent=102 | (272, 0): page=2 subtype=Widget flags=4
+      rect=[148.845, 146.722, 321.437, 161.122] action=None dest=None widget=True
+      field=''Business Phone'' struct_parent=103 | (271, 0): page=2 subtype=Widget
+      flags=4 rect=[381.309, 146.88, 553.902, 160.89] action=None dest=None widget=True
+      field=''Fax Number'' struct_parent=104 | (270, 0): page=2 subtype=Widget flags=4
+      rect=[130.385, 123.461, 320.977, 142.17] action=None dest=None widget=True field=''Provider
+      Signature'' struct_parent=105 | (255, 0): page=2 subtype=Widget flags=4 rect=[393.877,
+      122.926, 540.287, 137.326] action=None dest=None widget=True field=''Date of
+      report'' struct_parent=107'
+    LinkStructureCount: 2
+    ExternalLinkAnnotationCount: 2
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 1
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 5
+    HeadingSequence: H > H > H > H > H
+    HeadingIssues: Plain H tag encountered
+    ListsTest: Pass
+    ListCount: 3
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Fail
+    TableCount: 1
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: '(406, 0): Table has no TH cells | (406, 0): Table cells
+      are all TD'
+    IrregularTables: '(406, 0): Uneven row lengths detected ([2, 1, 2])'
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2022-05-23 14:27:15+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: true
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 20 for Word
+    Producer: Adobe PDF Library 20.9.95
+    Title: ARC Disability Documentation Form
+    Author: Moe, Jill C
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 3
+    Words: 585
+    Images: 2
+    DocCategory: Form
+  errors:
+  - 'forms-tagging-fail, headings-warn, tables-fail, '
+- url: https://minneapolis.edu/sites/default/files/CE-Student-Handbook-final.pdf
+  md5: b589a0b9cfb7523e177910c6e2cd1e4c
+  filename: CE-Student-Handbook-final.pdf
+  site: minneapolis.edu
+  crawled_at: '2026-06-30T13:17:36.774646+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    ImageAltTextTest: null
+    TaggedContentTest: Fail
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: NotApplicable
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: NotApplicable
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: NotApplicable
+    FiguresAltTextIssues: ''
+    Exempt: true
+    Date: '2018-02-08 17:18:17+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.3'
+    Creator: null
+    Producer: null
+    Title: Microsoft Word - CE-Student-Handbook-c.docx
+    Author: null
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 4
+    Words: 1355
+    Images: 12
+  errors:
+  - 'title, tagged, lang, '
+- url: https://minneapolis.edu/sites/default/files/College-policy-3.04.pdf
+  md5: bf230983da11a158f73f9f5647552091
+  filename: College-policy-3.04.pdf
+  site: minneapolis.edu
+  crawled_at: '2026-06-30T13:17:36.776726+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: No headings found in tagged document
+    ListsTest: Pass
+    ListCount: 13
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Fail
+    TableCount: 6
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: '(50, 0): Table has no TH cells | (50, 0): Table cells are
+      all TD | (78, 0): Table has no TH cells | (78, 0): Table cells are all TD |
+      (121, 0): Table has no TH cells | (121, 0): Table cells are all TD | (185, 0):
+      Table has no TH cells | (185, 0): Table cells are all TD | (250, 0): Table has
+      no TH cells | (250, 0): Table cells are all TD | (325, 0): Table has no TH cells
+      | (325, 0): Table cells are all TD'
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2018-11-01 15:51:56-05:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: null
+    Producer: null
+    Title: College policy 3.04
+    Author: Elizabeth Erredge
+    Subject: October  2018
+    Keywords: null
+    Description: null
+    Pages: 6
+    Words: 1139
+    Images: 7
+    DocCategory: Policy
+  errors:
+  - 'title, headings-none, tables-fail, '
+- url: https://minneapolis.edu/sites/default/files/Minneapolis-College-PSEOHandbook-2025-2026-A1.pdf
+  md5: 1d998e25922cbae9006800bc90798f4a
+  filename: Minneapolis-College-PSEOHandbook-2025-2026-A1.pdf
+  site: minneapolis.edu
+  crawled_at: '2026-06-30T13:17:36.782950+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 33
+    AnnotationSubtypeCounts: Link=33
+    LinkAnnotationCount: 33
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(685, 0): page=2 subtype=Link flags=None rect=[60.173, 56.218,
+      275.332, 71.893] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>,
+      "/XYZ", None, None, None ])'' widget=False field=None struct_parent=12 | (681,
+      0): page=2 subtype=Link flags=None rect=[60.682, 99.049, 215.664, 114.724] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(136,0)>, "/XYZ", None, None, None
+      ])'' widget=False field=None struct_parent=13 | (677, 0): page=2 subtype=Link
+      flags=None rect=[61.191, 143.335, 285.953, 159.01] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(126,0)>, "/XYZ", None, None, None ])'' widget=False field=None
+      struct_parent=14 | (673, 0): page=2 subtype=Link flags=None rect=[60.144, 217.935,
+      309.644, 233.61] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(91,0)>,
+      "/XYZ", None, None, None ])'' widget=False field=None struct_parent=15 | (669,
+      0): page=2 subtype=Link flags=None rect=[60.148, 373.631, 239.231, 389.306]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(72,0)>, "/XYZ",
+      None, None, None ])'' widget=False field=None struct_parent=16 | (665, 0): page=2
+      subtype=Link flags=None rect=[60.667, 464.8637, 321.3823, 498.904] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(63,0)>, "/XYZ", None, None, None
+      ])'' widget=False field=None struct_parent=17 | (661, 0): page=2 subtype=Link
+      flags=None rect=[60.158, 555.7877, 324.8523, 589.712] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(51,0)>, "/XYZ", None, None, None ])'' widget=False field=None
+      struct_parent=18 | (657, 0): page=2 subtype=Link flags=None rect=[60.144, 618.968,
+      238.372, 635.179] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(31,0)>,
+      "/XYZ", None, None, None ])'' widget=False field=None struct_parent=19 | (595,
+      0): page=3 subtype=Link flags=None rect=[253.8, 543.0, 313.2, 556.8] action=''/URI''
+      dest=''https://eservices.minnstate.edu/esession/authentication.do?campusId=305&postAuthUrl=http%3A//eservices.minnstate.edu/student-portal/secure/dashboard.do%3Fcampusid%3D305&_ga=2.228807580.1235247382.1749474485-21302425.1749474485''
+      widget=False field=None struct_parent=20 | (586, 0): page=3 subtype=Link flags=None
+      rect=[243.162, 579.399, 166.345, 561.576] action=''/URI'' dest=''https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&s''
+      widget=False field=None struct_parent=23 | (589, 0): page=3 subtype=Link flags=None
+      rect=[273.85, 579.399, 249.718, 561.576] action=''/URI'' dest=''https://minneapolis.learn.minnstate.edu/d2l/login?_ga=2.8455093.1461552869.1676991879-915131842.1647030806''
+      widget=False field=None struct_parent=22 | (592, 0): page=3 subtype=Link flags=None
+      rect=[295.856, 560.726, 359.565, 577.308] action=''/URI'' dest=''https://minneapolis.navigate.eab.com/app/#/authentication/remote/''
+      widget=False field=None struct_parent=21 | (540, 0): page=3 subtype=Link flags=None
+      rect=[137.4, 430.7338, 164.4, 448.98785] action=''/URI'' dest=''https://minneapolis.learn.minnstate.edu/d2l/login?_ga=2.8455093.1461552869.1676991879-915131842.1647030806''
+      widget=False field=None struct_parent=24 | (547, 0): page=3 subtype=Link flags=None
+      rect=[229.39912, 451.91147, 433.4243, 466.36987] action=''/URI'' dest=''https://minneapolis.edu/about-us/maps-hours-parking''
+      widget=False field=None struct_parent=25 | (557, 0): page=3 subtype=Link flags=None
+      rect=[225.599, 485.761, 151.755, 467.939] action=''/URI'' dest=''https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&s''
+      widget=False field=None struct_parent=26 | (554, 0): page=3 subtype=Link flags=None
+      rect=[434.64233, 485.07233, 539.64233, 502.9192] action=''/URI'' dest=''https://minneapoliscollegestore.com/home.aspx''
+      widget=False field=None struct_parent=27 | (525, 0): page=3 subtype=Link flags=None
+      rect=[475.08704, 286.3517, 552.61273, 302.87866] action=''/URI'' dest=''https://minneapolis.edu/student-life/student-activities-clubs-and-organizations''
+      widget=False field=None struct_parent=28 | (508, 0): page=3 subtype=Link flags=None
+      rect=[411.58072, 173.80989, 551.38074, 191.85199] action=''/URI'' dest=''mailto:pseo@minneapolis.edu''
+      widget=False field=None struct_parent=29 | (495, 0): page=3 subtype=Link flags=None
+      rect=[285.955, 81.580505, 349.1286, 100.603355] action=''/URI'' dest=''https://eservices.minnstate.edu/esession/authentication.do?campusId=305&postAuthUrl=http%3A//eservices.minnstate.edu/student-portal/secure/dashboard.do%3Fcampusid%3D305&_ga=2.85601305.1461552869.1676991879-915131842.1647030806''
+      widget=False field=None struct_parent=30 | (478, 0): page=5 subtype=Link flags=None
+      rect=[469.95435, 572.979, 550.741, 586.681] action=''/URI'' dest=''https://minneapolis.edu/admissions/pseo-student''
+      widget=False field=None struct_parent=31 | (475, 0): page=5 subtype=Link flags=None
+      rect=[129.91064, 619.4465, 201.54022, 633.1485] action=''/URI'' dest=''https://minneapoliscollegestore.com/home.aspx''
+      widget=False field=None struct_parent=32 | (450, 0): page=6 subtype=Link flags=None
+      rect=[362.86108, 539.25305, 458.93436, 552.95905] action=''/URI'' dest=''https://minneapolis.navigate.eab.com/app/#/authentication/remote/''
+      widget=False field=None struct_parent=33 | (447, 0): page=6 subtype=Link flags=None
+      rect=[303.8761, 587.02704, 353.0643, 600.73303] action=''/URI'' dest=''https://eservices.minnstate.edu/esession/authentication.do?campusId=305&postAuthUrl=http%3A//eservices.minnstate.edu/student-portal/secure/dashboard.do%3Fcampusid%3D305&_ga=2.228807580.1235247382.1749474485-21302425.1749474485''
+      widget=False field=None struct_parent=34 | (430, 0): page=6 subtype=Link flags=None
+      rect=[54.122, 450.789, 138.44043, 464.496] action=''/URI'' dest=''https://minneapolis.learn.minnstate.edu/d2l/login?_ga=2.8455093.1461552869.1676991879-915131842.1647030806''
+      widget=False field=None struct_parent=35 | (423, 0): page=7 subtype=Link flags=None
+      rect=[108.2643, 419.35486, 228.3029, 431.55338] action=''/URI'' dest=''https://minneapolis.edu/tutoring''
+      widget=False field=None struct_parent=37 | (426, 0): page=7 subtype=Link flags=None
+      rect=[403.83472, 388.6618, 457.75378, 402.04083] action=''/URI'' dest=''https://minneapolis.navigate.eab.com/app/#/authentication/remote/''
+      widget=False field=None struct_parent=36 | (420, 0): page=7 subtype=Link flags=None
+      rect=[106.296455, 449.2609, 152.73772, 464.21393] action=''/URI'' dest=''https://minneapolis.edu/tutoring''
+      widget=False field=None struct_parent=38 | (402, 0): page=7 subtype=Link flags=None
+      rect=[272.77618, 207.25798, 323.9402, 218.276] action=''/URI'' dest=''https://minneapolis.navigate.eab.com/app/#/authentication/remote/''
+      widget=False field=None struct_parent=39 | (393, 0): page=8 subtype=Link flags=None
+      rect=[364.4778, 354.03375, 451.06656, 375.28278] action=''/URI'' dest=''https://minneapolis.edu/admissions/pseo-student''
+      widget=False field=None struct_parent=40 | (376, 0): page=10 subtype=Link flags=None
+      rect=[210.98584, 234.882, 416.42892, 251.478] action=''/URI'' dest=''https://minneapolis.edu/admissions/start-college-early/high-school-non-pseo-program''
+      widget=False field=None struct_parent=41 | (373, 0): page=10 subtype=Link flags=None
+      rect=[205.0823, 610.9615, 358.4086, 627.5575] action=''/URI'' dest=''mailto:PSEO@minneapolis.edu''
+      widget=False field=None struct_parent=42 | (344, 0): page=11 subtype=Link flags=None
+      rect=[42.931824, 612.9412, 197.60449, 631.0582] action=''/URI'' dest=''https://minneapolis.edu/about-us/policies''
+      widget=False field=None struct_parent=43 | (340, 0): page=11 subtype=Link flags=None
+      rect=[390.5275, 91.734116, 558.4929, 111.65259] action=''/URI'' dest=''https://minneapolis.edu/ferpa-and-student-directory-information''
+      widget=False field=None struct_parent=44'
+    LinkStructureCount: 33
+    ExternalLinkAnnotationCount: 25
+    InternalLinkAnnotationCount: 8
+    AnnotationPagesWithLinks: 8
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 72
+    HeadingSequence: H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2
+      > H2 > H2 > H2 > H3 > H3 > H2 > H2 > H2 > H2 > H3 > H2 > H2 > H3 > H3 > H4 >
+      H3 > H4 > H4 > H2 > H2 > H3 > H3 > H4 > H4 > H4 > H3 > H2 > H3 > H4 > H4 > H4
+      > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 >
+      H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H3 > H3 > H4 > H3
+    HeadingIssues: ''
+    ListsTest: Warn
+    ListCount: 28
+    InvalidListItemParents: ''
+    InvalidListChildren: '(346, 0): LI has unusual children Link | (354, 0): LI has
+      unusual children Link | (860, 0): LI has unusual children P'
+    MalformedListNodes: '(781, 0): LI missing LBody and no body content found'
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2025-06-12 17:01:20+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: null
+    Producer: null
+    Title: 2025-2026 PSEO Handbook
+    Author: null
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 12
+    Words: 2118
+    Images: 19
+  errors:
+  - 'lists-warn, '
+- url: https://minneapolis.edu/sites/default/files/Student-Life-Guide-FY20-A2.pdf
+  md5: 0d3beeb814d0c91deed0bf24ecb88ad9
+  filename: Student-Life-Guide-FY20-A2.pdf
+  site: minneapolis.edu
+  crawled_at: '2026-06-30T13:17:36.785258+00:00'
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Fail
+    ImageAltTextTest: Fail
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 103
+    AnnotationSubtypeCounts: Link=103
+    LinkAnnotationCount: 103
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(28, 0): page=2 subtype=Link flags=4 rect=[51.75, 648.93,
+      487.75, 672.45] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(31,0)>,
+      "/XYZ", 51, 738, 0 ])'' widget=False field=None struct_parent=2 | (32, 0): page=2
+      subtype=Link flags=4 rect=[58.95, 634.41, 487.75, 648.93] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(31,0)>, "/XYZ", 51, 637, 0 ])'' widget=False field=None
+      struct_parent=3 | (33, 0): page=2 subtype=Link flags=4 rect=[66.15, 619.88,
+      487.75, 634.41] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(31,0)>,
+      "/XYZ", 51, 404, 0 ])'' widget=False field=None struct_parent=4 | (34, 0): page=2
+      subtype=Link flags=4 rect=[66.15, 605.36, 487.75, 619.88] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(31,0)>, "/XYZ", 51, 234, 0 ])'' widget=False field=None
+      struct_parent=5 | (35, 0): page=2 subtype=Link flags=4 rect=[66.15, 590.84,
+      487.75, 605.36] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(31,0)>,
+      "/XYZ", 51, 174, 0 ])'' widget=False field=None struct_parent=6 | (36, 0): page=2
+      subtype=Link flags=4 rect=[66.15, 576.32, 487.75, 590.84] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(37,0)>, "/XYZ", 51, 685, 0 ])'' widget=False field=None
+      struct_parent=7 | (38, 0): page=2 subtype=Link flags=4 rect=[66.15, 561.8, 487.75,
+      576.32] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(37,0)>,
+      "/XYZ", 51, 520, 0 ])'' widget=False field=None struct_parent=8 | (39, 0): page=2
+      subtype=Link flags=4 rect=[66.15, 547.27, 487.75, 561.8] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(37,0)>, "/XYZ", 51, 460, 0 ])'' widget=False field=None
+      struct_parent=9 | (40, 0): page=2 subtype=Link flags=4 rect=[66.15, 532.75,
+      487.75, 547.27] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(37,0)>,
+      "/XYZ", 51, 385, 0 ])'' widget=False field=None struct_parent=10 | (41, 0):
+      page=2 subtype=Link flags=4 rect=[58.95, 518.23, 487.75, 532.75] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(37,0)>, "/XYZ", 51, 296, 0 ])''
+      widget=False field=None struct_parent=11 | (42, 0): page=2 subtype=Link flags=4
+      rect=[66.15, 503.71, 487.75, 518.23] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(43,0)>, "/XYZ", 51, 738, 0 ])'' widget=False field=None
+      struct_parent=12 | (44, 0): page=2 subtype=Link flags=4 rect=[66.15, 489.19,
+      487.75, 503.71] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(43,0)>,
+      "/XYZ", 51, 477, 0 ])'' widget=False field=None struct_parent=13 | (45, 0):
+      page=2 subtype=Link flags=4 rect=[66.15, 474.66, 487.75, 489.19] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(43,0)>, "/XYZ", 51, 348, 0 ])''
+      widget=False field=None struct_parent=14 | (46, 0): page=2 subtype=Link flags=4
+      rect=[58.95, 460.14, 487.75, 474.66] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(47,0)>, "/XYZ", 51, 738, 0 ])'' widget=False field=None
+      struct_parent=15 | (48, 0): page=2 subtype=Link flags=4 rect=[66.15, 445.62,
+      487.75, 460.14] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(47,0)>,
+      "/XYZ", 51, 492, 0 ])'' widget=False field=None struct_parent=16 | (49, 0):
+      page=2 subtype=Link flags=4 rect=[66.15, 431.1, 487.75, 445.62] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(50,0)>, "/XYZ", 51, 651, 0 ])''
+      widget=False field=None struct_parent=17 | (51, 0): page=2 subtype=Link flags=4
+      rect=[66.15, 416.58, 487.75, 431.1] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(50,0)>,
+      "/XYZ", 51, 422, 0 ])'' widget=False field=None struct_parent=18 | (52, 0):
+      page=2 subtype=Link flags=4 rect=[58.95, 402.05, 487.75, 416.58] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(53,0)>, "/XYZ", 51, 698, 0 ])''
+      widget=False field=None struct_parent=19 | (54, 0): page=2 subtype=Link flags=4
+      rect=[58.95, 387.53, 487.75, 402.05] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(53,0)>, "/XYZ", 51, 227, 0 ])'' widget=False field=None
+      struct_parent=20 | (55, 0): page=2 subtype=Link flags=4 rect=[58.95, 373.01,
+      487.75, 387.53] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(56,0)>,
+      "/XYZ", 51, 596, 0 ])'' widget=False field=None struct_parent=21 | (57, 0):
+      page=2 subtype=Link flags=4 rect=[66.15, 358.49, 487.75, 373.01] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(56,0)>, "/XYZ", 51, 539, 0 ])''
+      widget=False field=None struct_parent=22 | (58, 0): page=2 subtype=Link flags=4
+      rect=[58.95, 343.97, 487.75, 358.49] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(56,0)>, "/XYZ", 51, 426, 0 ])'' widget=False field=None
+      struct_parent=23 | (59, 0): page=2 subtype=Link flags=4 rect=[58.95, 329.44,
+      487.75, 343.97] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(56,0)>,
+      "/XYZ", 51, 294, 0 ])'' widget=False field=None struct_parent=24 | (60, 0):
+      page=2 subtype=Link flags=4 rect=[66.15, 314.92, 487.75, 329.44] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(56,0)>, "/XYZ", 51, 187, 0 ])''
+      widget=False field=None struct_parent=25 | (61, 0): page=2 subtype=Link flags=4
+      rect=[58.95, 300.4, 487.75, 314.92] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(62,0)>,
+      "/XYZ", 51, 490, 0 ])'' widget=False field=None struct_parent=26 | (63, 0):
+      page=2 subtype=Link flags=4 rect=[66.15, 285.88, 487.75, 300.4] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(62,0)>, "/XYZ", 51, 176, 0 ])''
+      widget=False field=None struct_parent=27 | (64, 0): page=2 subtype=Link flags=4
+      rect=[66.15, 271.36, 487.75, 285.88] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(65,0)>, "/XYZ", 51, 738, 0 ])'' widget=False field=None
+      struct_parent=28 | (66, 0): page=2 subtype=Link flags=4 rect=[66.15, 256.83,
+      487.75, 271.36] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(65,0)>,
+      "/XYZ", 51, 622, 0 ])'' widget=False field=None struct_parent=29 | (67, 0):
+      page=2 subtype=Link flags=4 rect=[58.95, 242.31, 487.75, 256.83] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(65,0)>, "/XYZ", 51, 474, 0 ])''
+      widget=False field=None struct_parent=30 | (68, 0): page=2 subtype=Link flags=4
+      rect=[58.95, 227.79, 487.75, 242.31] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(65,0)>, "/XYZ", 51, 327, 0 ])'' widget=False field=None
+      struct_parent=31 | (69, 0): page=2 subtype=Link flags=4 rect=[58.95, 213.27,
+      487.75, 227.79] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(71,0)>,
+      "/XYZ", 51, 545, 0 ])'' widget=False field=None struct_parent=32 | (72, 0):
+      page=2 subtype=Link flags=4 rect=[66.15, 198.75, 487.75, 213.27] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(71,0)>, "/XYZ", 51, 236, 0 ])''
+      widget=False field=None struct_parent=33 | (73, 0): page=2 subtype=Link flags=4
+      rect=[66.15, 184.23, 487.75, 198.75] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(74,0)>, "/XYZ", 51, 583, 0 ])'' widget=False field=None
+      struct_parent=34 | (75, 0): page=2 subtype=Link flags=4 rect=[66.15, 169.7,
+      487.75, 184.23] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(74,0)>,
+      "/XYZ", 51, 445, 0 ])'' widget=False field=None struct_parent=35 | (76, 0):
+      page=2 subtype=Link flags=4 rect=[66.15, 155.18, 487.75, 169.7] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(74,0)>, "/XYZ", 51, 212, 0 ])''
+      widget=False field=None struct_parent=36 | (77, 0): page=2 subtype=Link flags=4
+      rect=[66.15, 140.66, 487.75, 155.18] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(78,0)>, "/XYZ", 51, 349, 0 ])'' widget=False field=None
+      struct_parent=37 | (79, 0): page=2 subtype=Link flags=4 rect=[58.95, 126.14,
+      487.75, 140.66] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(80,0)>,
+      "/XYZ", 51, 738, 0 ])'' widget=False field=None struct_parent=38 | (81, 0):
+      page=2 subtype=Link flags=4 rect=[66.15, 111.62, 487.75, 126.14] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(80,0)>, "/XYZ", 51, 631, 0 ])''
+      widget=False field=None struct_parent=39 | (82, 0): page=2 subtype=Link flags=4
+      rect=[66.15, 97.093, 487.75, 111.62] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(80,0)>, "/XYZ", 51, 413, 0 ])'' widget=False field=None
+      struct_parent=40 | (83, 0): page=2 subtype=Link flags=4 rect=[66.15, 82.571,
+      487.75, 97.093] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(80,0)>,
+      "/XYZ", 51, 281, 0 ])'' widget=False field=None struct_parent=41 | (85, 0):
+      page=3 subtype=Link flags=4 rect=[66.15, 723.48, 487.75, 738.0] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(86,0)>, "/XYZ", 51, 738, 0 ])''
+      widget=False field=None struct_parent=42 | (87, 0): page=3 subtype=Link flags=4
+      rect=[66.15, 708.96, 487.75, 723.48] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(86,0)>, "/XYZ", 51, 547, 0 ])'' widget=False field=None
+      struct_parent=44 | (88, 0): page=3 subtype=Link flags=4 rect=[58.95, 694.43,
+      487.75, 708.96] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(89,0)>,
+      "/XYZ", 51, 738, 0 ])'' widget=False field=None struct_parent=45 | (90, 0):
+      page=3 subtype=Link flags=4 rect=[58.95, 679.91, 487.75, 694.43] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(92,0)>, "/XYZ", 51, 528, 0 ])''
+      widget=False field=None struct_parent=46 | (93, 0): page=3 subtype=Link flags=4
+      rect=[58.95, 665.39, 487.75, 679.91] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(94,0)>, "/XYZ", 51, 738, 0 ])'' widget=False field=None
+      struct_parent=47 | (95, 0): page=3 subtype=Link flags=4 rect=[58.95, 650.87,
+      487.75, 665.39] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(94,0)>,
+      "/XYZ", 51, 609, 0 ])'' widget=False field=None struct_parent=48 | (96, 0):
+      page=3 subtype=Link flags=4 rect=[58.95, 636.35, 487.75, 650.87] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(94,0)>, "/XYZ", 51, 552, 0 ])''
+      widget=False field=None struct_parent=49 | (97, 0): page=3 subtype=Link flags=4
+      rect=[58.95, 621.82, 487.75, 636.35] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(94,0)>, "/XYZ", 51, 481, 0 ])'' widget=False field=None
+      struct_parent=50 | (98, 0): page=3 subtype=Link flags=4 rect=[58.95, 607.3,
+      487.75, 621.82] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(94,0)>,
+      "/XYZ", 51, 461, 0 ])'' widget=False field=None struct_parent=51 | (99, 0):
+      page=3 subtype=Link flags=4 rect=[58.95, 592.78, 487.75, 607.3] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(94,0)>, "/XYZ", 51, 361, 0 ])''
+      widget=False field=None struct_parent=52 | (100, 0): page=3 subtype=Link flags=4
+      rect=[58.95, 578.26, 487.75, 592.78] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(94,0)>, "/XYZ", 51, 261, 0 ])'' widget=False field=None
+      struct_parent=53 | (101, 0): page=3 subtype=Link flags=4 rect=[58.95, 563.74,
+      487.75, 578.26] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(94,0)>,
+      "/XYZ", 51, 152, 0 ])'' widget=False field=None struct_parent=54 | (102, 0):
+      page=3 subtype=Link flags=4 rect=[58.95, 549.21, 487.75, 563.74] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(103,0)>, "/XYZ", 51, 584, 0 ])''
+      widget=False field=None struct_parent=55 | (104, 0): page=3 subtype=Link flags=4
+      rect=[66.15, 534.69, 487.75, 549.21] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(103,0)>, "/XYZ", 51, 431, 0 ])'' widget=False field=None
+      struct_parent=56 | (105, 0): page=3 subtype=Link flags=4 rect=[66.15, 520.17,
+      487.75, 534.69] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(103,0)>,
+      "/XYZ", 51, 328, 0 ])'' widget=False field=None struct_parent=57 | (106, 0):
+      page=3 subtype=Link flags=4 rect=[66.15, 505.65, 487.75, 520.17] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(107,0)>, "/XYZ", 51, 738, 0 ])''
+      widget=False field=None struct_parent=58 | (108, 0): page=3 subtype=Link flags=4
+      rect=[66.15, 491.13, 487.75, 505.65] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(107,0)>, "/XYZ", 51, 624, 0 ])'' widget=False field=None
+      struct_parent=59 | (109, 0): page=3 subtype=Link flags=4 rect=[58.95, 476.6,
+      487.75, 491.13] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(107,0)>,
+      "/XYZ", 51, 387, 0 ])'' widget=False field=None struct_parent=60 | (110, 0):
+      page=3 subtype=Link flags=4 rect=[58.95, 462.08, 487.75, 476.6] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(111,0)>, "/XYZ", 51, 700, 0 ])''
+      widget=False field=None struct_parent=61 | (112, 0): page=3 subtype=Link flags=4
+      rect=[58.95, 447.56, 487.75, 462.08] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(111,0)>, "/XYZ", 51, 286, 0 ])'' widget=False field=None
+      struct_parent=62 | (113, 0): page=3 subtype=Link flags=4 rect=[66.15, 433.04,
+      487.75, 447.56] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(114,0)>,
+      "/XYZ", 51, 633, 0 ])'' widget=False field=None struct_parent=63 | (115, 0):
+      page=3 subtype=Link flags=4 rect=[66.15, 418.52, 487.75, 433.04] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(114,0)>, "/XYZ", 51, 544, 0 ])''
+      widget=False field=None struct_parent=64 | (116, 0): page=3 subtype=Link flags=4
+      rect=[58.95, 403.99, 487.75, 418.52] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(114,0)>, "/XYZ", 51, 397, 0 ])'' widget=False field=None
+      struct_parent=65 | (117, 0): page=3 subtype=Link flags=4 rect=[58.95, 389.47,
+      487.75, 403.99] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(114,0)>,
+      "/XYZ", 51, 240, 0 ])'' widget=False field=None struct_parent=66 | (118, 0):
+      page=3 subtype=Link flags=4 rect=[66.15, 374.95, 487.75, 389.47] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(114,0)>, "/XYZ", 51, 168, 0 ])''
+      widget=False field=None struct_parent=67 | (119, 0): page=3 subtype=Link flags=4
+      rect=[66.15, 360.43, 487.75, 374.95] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(120,0)>, "/XYZ", 51, 657, 0 ])'' widget=False field=None
+      struct_parent=68 | (121, 0): page=3 subtype=Link flags=4 rect=[66.15, 345.91,
+      487.75, 360.43] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(120,0)>,
+      "/XYZ", 51, 553, 0 ])'' widget=False field=None struct_parent=69 | (122, 0):
+      page=3 subtype=Link flags=4 rect=[66.15, 331.38, 487.75, 345.91] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(120,0)>, "/XYZ", 51, 392, 0 ])''
+      widget=False field=None struct_parent=70 | (123, 0): page=3 subtype=Link flags=4
+      rect=[66.15, 316.86, 487.75, 331.38] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(120,0)>, "/XYZ", 51, 331, 0 ])'' widget=False field=None
+      struct_parent=71 | (124, 0): page=3 subtype=Link flags=4 rect=[66.15, 302.34,
+      487.75, 316.86] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(120,0)>,
+      "/XYZ", 51, 242, 0 ])'' widget=False field=None struct_parent=72 | (125, 0):
+      page=3 subtype=Link flags=4 rect=[66.15, 287.82, 487.75, 302.34] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(120,0)>, "/XYZ", 51, 182, 0 ])''
+      widget=False field=None struct_parent=73 | (126, 0): page=3 subtype=Link flags=4
+      rect=[66.15, 273.3, 487.75, 287.82] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(127,0)>,
+      "/XYZ", 51, 738, 0 ])'' widget=False field=None struct_parent=74 | (128, 0):
+      page=3 subtype=Link flags=4 rect=[58.95, 258.77, 487.75, 273.3] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(127,0)>, "/XYZ", 51, 651, 0 ])''
+      widget=False field=None struct_parent=75 | (129, 0): page=3 subtype=Link flags=4
+      rect=[58.95, 244.25, 487.75, 258.77] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(127,0)>, "/XYZ", 51, 537, 0 ])'' widget=False field=None
+      struct_parent=76 | (130, 0): page=3 subtype=Link flags=4 rect=[58.95, 229.73,
+      487.75, 244.25] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(127,0)>,
+      "/XYZ", 51, 480, 0 ])'' widget=False field=None struct_parent=77 | (131, 0):
+      page=3 subtype=Link flags=4 rect=[58.95, 215.21, 487.75, 229.73] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(127,0)>, "/XYZ", 51, 409, 0 ])''
+      widget=False field=None struct_parent=78 | (132, 0): page=3 subtype=Link flags=4
+      rect=[58.95, 200.69, 487.75, 215.21] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(133,0)>, "/XYZ", 51, 659, 0 ])'' widget=False field=None
+      struct_parent=79 | (134, 0): page=3 subtype=Link flags=4 rect=[58.95, 186.17,
+      487.75, 200.69] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(133,0)>,
+      "/XYZ", 51, 550, 0 ])'' widget=False field=None struct_parent=80 | (135, 0):
+      page=3 subtype=Link flags=4 rect=[58.95, 171.64, 487.75, 186.17] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(136,0)>, "/XYZ", 51, 738, 0 ])''
+      widget=False field=None struct_parent=81 | (137, 0): page=3 subtype=Link flags=4
+      rect=[58.95, 157.12, 487.75, 171.64] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(136,0)>, "/XYZ", 51, 510, 0 ])'' widget=False field=None
+      struct_parent=82 | (138, 0): page=3 subtype=Link flags=4 rect=[66.15, 142.6,
+      487.75, 157.12] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(136,0)>,
+      "/XYZ", 51, 149, 0 ])'' widget=False field=None struct_parent=83 | (139, 0):
+      page=3 subtype=Link flags=4 rect=[66.15, 128.08, 487.75, 142.6] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(140,0)>, "/XYZ", 51, 649, 0 ])''
+      widget=False field=None struct_parent=84 | (141, 0): page=3 subtype=Link flags=4
+      rect=[66.15, 113.56, 487.75, 128.08] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(140,0)>, "/XYZ", 51, 404, 0 ])'' widget=False field=None
+      struct_parent=85 | (142, 0): page=3 subtype=Link flags=4 rect=[58.95, 99.033,
+      487.75, 113.56] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>,
+      "/XYZ", 51, 698, 0 ])'' widget=False field=None struct_parent=86 | (144, 0):
+      page=3 subtype=Link flags=4 rect=[64.7, 84.511, 487.75, 99.033] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>, "/XYZ", 51, 565, 0 ])''
+      widget=False field=None struct_parent=87 | (146, 0): page=4 subtype=Link flags=4
+      rect=[64.7, 723.48, 487.75, 738.0] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>,
+      "/XYZ", 51, 499, 0 ])'' widget=False field=None struct_parent=89 | (147, 0):
+      page=4 subtype=Link flags=4 rect=[64.7, 708.96, 487.75, 723.48] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>, "/XYZ", 51, 442, 0 ])''
+      widget=False field=None struct_parent=90 | (148, 0): page=4 subtype=Link flags=4
+      rect=[64.7, 694.43, 487.75, 708.96] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>,
+      "/XYZ", 51, 380, 0 ])'' widget=False field=None struct_parent=91 | (149, 0):
+      page=4 subtype=Link flags=4 rect=[64.7, 679.91, 487.75, 694.43] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>, "/XYZ", 51, 338, 0 ])''
+      widget=False field=None struct_parent=92 | (150, 0): page=4 subtype=Link flags=4
+      rect=[71.9, 665.39, 487.75, 679.91] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>,
+      "/XYZ", 51, 272, 0 ])'' widget=False field=None struct_parent=93 | (151, 0):
+      page=4 subtype=Link flags=4 rect=[71.9, 650.87, 487.75, 665.39] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>, "/XYZ", 51, 232, 0 ])''
+      widget=False field=None struct_parent=94 | (152, 0): page=4 subtype=Link flags=4
+      rect=[64.7, 636.35, 487.75, 650.87] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>,
+      "/XYZ", 51, 206, 0 ])'' widget=False field=None struct_parent=95 | (153, 0):
+      page=4 subtype=Link flags=4 rect=[64.7, 621.82, 487.75, 636.35] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(154,0)>, "/XYZ", 51, 738, 0 ])''
+      widget=False field=None struct_parent=96 | (155, 0): page=4 subtype=Link flags=4
+      rect=[64.7, 607.3, 487.75, 621.82] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(154,0)>,
+      "/XYZ", 51, 603, 0 ])'' widget=False field=None struct_parent=97 | (173, 0):
+      page=12 subtype=Link flags=4 rect=[51.75, 490.03, 194.03, 513.4] action=''/URI''
+      dest=''http://www.minneapolis.edu/campusvibe'' widget=False field=None struct_parent=106
+      | (200, 0): page=26 subtype=Link flags=4 rect=[51.75, 594.85, 225.85, 609.22]
+      action=''/URI'' dest=''https://www.mplc.org/page/about-copyright-law'' widget=False
+      field=None struct_parent=121 | (201, 0): page=26 subtype=Link flags=4 rect=[87.75,
+      540.94, 525.16, 555.31] action=''/URI'' dest=''https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ranker.com%2Fcrowdranked-list%2Ffree-movies-the-best-films-in-the-public-domain&data=02%7C01%7Cjenny.thomas%40minneapolis.edu%7Cb617febe941a4b9092c108d709edc483%7C5011c7c60ab446ab9ef4fae74a921a7f%7C0%7C0%7C636988789110949532&sdata=zRNLx4ScJOIZjolA8pztxOrufWG28dHap4NlZt3REco%3D&reserved=0''
+      widget=False field=None struct_parent=122 | (202, 0): page=26 subtype=Link flags=4
+      rect=[87.75, 515.77, 297.76, 540.94] action=''/URI'' dest=''https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.imdb.com%2Flist%2Fls003915205%2F&data=02%7C01%7Cjenny.thomas%40minneapolis.edu%7Cb617febe941a4b9092c108d709edc483%7C5011c7c60ab446ab9ef4fae74a921a7f%7C0%7C0%7C636988789110959525&sdata=22NV81hGkKJ119R0V02iTPQCG%2FzyfkiUEJ2sbzXE6lM%3D&reserved=0''
+      widget=False field=None struct_parent=123 | (203, 0): page=26 subtype=Link flags=4
+      rect=[242.0, 146.2, 381.32, 168.27] action=''/URI'' dest=''mailto:dexterdunnbros@gmail.com''
+      widget=False field=None struct_parent=124 | (204, 0): page=26 subtype=Link flags=4
+      rect=[288.67, 102.07, 416.31, 124.13] action=''/URI'' dest=''http://www.tiffinmanmn.catertrax.com/''
+      widget=False field=None struct_parent=125 | (205, 0): page=26 subtype=Link flags=4
+      rect=[179.08, 80.002, 334.03, 102.07] action=''/URI'' dest=''mailto:catering.mctc@tiffinmanmn.com''
+      widget=False field=None struct_parent=126 | (208, 0): page=28 subtype=Link flags=4
+      rect=[407.31, 331.86, 551.67, 355.23] action=''/URI'' dest=''mailto:student.life@minneapolis.edu''
+      widget=False field=None struct_parent=129 | (209, 0): page=28 subtype=Link flags=4
+      rect=[124.44, 265.97, 268.79, 280.35] action=''/URI'' dest=''mailto:student.life@minneapolis.edu''
+      widget=False field=None struct_parent=130'
+    LinkStructureCount: 125
+    ExternalLinkAnnotationCount: 9
+    InternalLinkAnnotationCount: 94
+    AnnotationPagesWithLinks: 6
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 92
+    HeadingSequence: H1 > H2 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H3
+      > H3 > H3 > H2 > H3 > H3 > H3 > H2 > H2 > H2 > H3 > H2 > H2 > H3 > H2 > H3 >
+      H3 > H3 > H2 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H3 > H3 > H3
+      > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H3 > H3 > H3 > H3 >
+      H2 > H2 > H2 > H3 > H3 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H2
+      > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H3 > H3 > H3 > H2 > H2 > H2 > H2 > H2 >
+      H2 > H2
+    HeadingIssues: ''
+    ListsTest: Pass
+    ListCount: 38
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Warn
+    TableCount: 1
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: Figures missing alt text (count=2)
+    Exempt: false
+    Date: '2019-10-14 13:42:25-05:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.5'
+    Creator: null
+    Producer: null
+    Title: Student Life Guide
+    Author: macalester
+    Subject: Policies and Procedures
+    Keywords: null
+    Description: null
+    Pages: 34
+    Words: 11544
+    Images: 0
+  errors:
+  - 'title, no bookmarks and more than 20 pages, figures missing alt text (count=2),
+    tables-warn, '
+- url: https://minneapolis.edu/sites/default/files/Student-Life-Guide-FY22-Final-A1.pdf
+  md5: 9031a08f476d35e598acab1bdf7effa6
+  filename: Student-Life-Guide-FY22-Final-A1.pdf
+  site: minneapolis.edu
+  crawled_at: '2026-06-30T13:17:36.787246+00:00'
+  status: analysed
+  report:
+    Accessible: true
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 180
+    AnnotationSubtypeCounts: Link=180
+    LinkAnnotationCount: 180
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(2011, 0): page=1 subtype=Link flags=None rect=[195.75, 258.445,
+      398.941, 278.045] action=''/URI'' dest=''https://www.minneapolis.edu/student-life''
+      widget=False field=None struct_parent=1 | (2008, 0): page=1 subtype=Link flags=None
+      rect=[195.75, 238.845, 454.629, 258.445] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS-CampusLife''
+      widget=False field=None struct_parent=2 | (2005, 0): page=1 subtype=Link flags=None
+      rect=[249.709, 219.246, 441.721, 238.845] action=''/URI'' dest=''http://www.facebook.com/MCTCStudentLife3''
+      widget=False field=None struct_parent=3 | (2002, 0): page=1 subtype=Link flags=None
+      rect=[252.046, 199.646, 456.204, 219.246] action=''/URI'' dest=''https://www.instagram.com/sl_mpls_coll/''
+      widget=False field=None struct_parent=4 | (1981, 0): page=2 subtype=Link flags=None
+      rect=[58.95, 502.693, 487.75, 517.215] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(10,0)>, "/XYZ", 52, 719, Decimal(\''0.0\'') ])'' widget=False
+      field=None struct_parent=6 | (1977, 0): page=2 subtype=Link flags=None rect=[58.95,
+      488.171, 487.75, 502.693] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(10,0)>,
+      "/XYZ", 52, 553, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=7
+      | (1973, 0): page=2 subtype=Link flags=None rect=[58.95, 473.649, 487.75, 488.171]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(10,0)>, "/XYZ",
+      52, 341, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=8 | (1969,
+      0): page=2 subtype=Link flags=None rect=[66.1499, 459.127, 487.75, 473.649]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(13,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=9 | (1965,
+      0): page=2 subtype=Link flags=None rect=[66.1499, 444.605, 487.75, 459.127]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(13,0)>, "/XYZ",
+      52, 571, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=10 |
+      (1961, 0): page=2 subtype=Link flags=None rect=[66.1499, 430.083, 487.75, 444.605]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(13,0)>, "/XYZ",
+      52, 482, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=11 |
+      (1957, 0): page=2 subtype=Link flags=None rect=[66.1499, 415.561, 487.75, 430.083]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(13,0)>, "/XYZ",
+      52, 296, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=12 |
+      (1953, 0): page=2 subtype=Link flags=None rect=[66.1499, 401.039, 487.75, 415.561]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(16,0)>, "/XYZ",
+      52, 286, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=13 |
+      (1949, 0): page=2 subtype=Link flags=None rect=[66.1499, 386.517, 487.75, 401.039]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(16,0)>, "/XYZ",
+      52, 217, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=14 |
+      (1945, 0): page=2 subtype=Link flags=None rect=[66.1499, 371.995, 487.75, 386.517]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(16,0)>, "/XYZ",
+      52, 142, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=15 |
+      (1941, 0): page=2 subtype=Link flags=None rect=[58.95, 357.473, 487.75, 371.995]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(18,0)>, "/XYZ",
+      52, 700, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=16 |
+      (1937, 0): page=2 subtype=Link flags=None rect=[66.1499, 342.951, 487.75, 357.473]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(18,0)>, "/XYZ",
+      52, 534, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=17 |
+      (1933, 0): page=2 subtype=Link flags=None rect=[66.1499, 328.429, 487.75, 342.951]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(18,0)>, "/XYZ",
+      52, 271, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=18 |
+      (1929, 0): page=2 subtype=Link flags=None rect=[66.1499, 313.907, 487.75, 328.429]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(18,0)>, "/XYZ",
+      52, 142, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=19 |
+      (1925, 0): page=2 subtype=Link flags=None rect=[66.1499, 299.385, 487.75, 313.907]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(20,0)>, "/XYZ",
+      52, 305, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=20 |
+      (1921, 0): page=2 subtype=Link flags=None rect=[66.1499, 284.863, 487.75, 299.385]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(22,0)>, "/XYZ",
+      52, 443, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=21 |
+      (1917, 0): page=2 subtype=Link flags=None rect=[66.1499, 270.341, 487.75, 284.863]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(22,0)>, "/XYZ",
+      52, 213, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=22 |
+      (1913, 0): page=2 subtype=Link flags=None rect=[58.95, 255.819, 487.75, 270.341]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(26,0)>, "/XYZ",
+      52, 699, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=23 |
+      (1909, 0): page=2 subtype=Link flags=None rect=[58.95, 241.297, 487.75, 255.819]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(29,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=24 |
+      (1905, 0): page=2 subtype=Link flags=None rect=[58.95, 226.775, 487.75, 241.297]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(29,0)>, "/XYZ",
+      52, 501, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=25 |
+      (1901, 0): page=2 subtype=Link flags=None rect=[66.1499, 212.253, 487.75, 226.775]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(29,0)>, "/XYZ",
+      52, 444, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=26 |
+      (1897, 0): page=2 subtype=Link flags=None rect=[58.95, 197.731, 487.75, 212.253]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(29,0)>, "/XYZ",
+      52, 332, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=27 |
+      (1893, 0): page=2 subtype=Link flags=None rect=[58.95, 183.209, 487.75, 197.731]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(32,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=28 |
+      (1890, 0): page=2 subtype=Link flags=None rect=[66.1499, 168.687, 487.75, 183.209]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(32,0)>, "/XYZ",
+      52, 646, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=29 |
+      (1887, 0): page=2 subtype=Link flags=None rect=[58.95, 154.166, 487.75, 168.687]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(35,0)>, "/XYZ",
+      52, 686, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=30 |
+      (1884, 0): page=2 subtype=Link flags=None rect=[66.1499, 139.644, 487.75, 154.166]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(35,0)>, "/XYZ",
+      52, 372, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=31 |
+      (1991, 0): page=2 subtype=Link flags=None rect=[66.1499, 125.122, 487.75, 139.644]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(35,0)>, "/XYZ",
+      52, 312, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=32 |
+      (1989, 0): page=2 subtype=Link flags=None rect=[66.1499, 110.6, 487.75, 125.122]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(35,0)>, "/XYZ",
+      52, 209, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=33 |
+      (1987, 0): page=2 subtype=Link flags=None rect=[58.95, 96.0776, 487.75, 110.6]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(37,0)>, "/XYZ",
+      52, 700, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=34 |
+      (1985, 0): page=2 subtype=Link flags=None rect=[58.95, 81.5557, 487.75, 96.0776]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(37,0)>, "/XYZ",
+      52, 554, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=35 |
+      (1983, 0): page=2 subtype=Link flags=None rect=[66.1499, 67.0337, 487.75, 81.5557]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(39,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=36 |
+      (1801, 0): page=3 subtype=Link flags=None rect=[66.1499, 723.478, 487.75, 738.0]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(42,0)>, "/XYZ",
+      52, 558, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=38 |
+      (1798, 0): page=3 subtype=Link flags=None rect=[66.1499, 708.956, 487.75, 723.478]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(45,0)>, "/XYZ",
+      52, 208, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=39 |
+      (1795, 0): page=3 subtype=Link flags=None rect=[66.1499, 694.434, 487.75, 708.956]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(48,0)>, "/XYZ",
+      52, 527, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=40 |
+      (1792, 0): page=3 subtype=Link flags=None rect=[66.1499, 679.912, 487.75, 694.434]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(48,0)>, "/XYZ",
+      52, 389, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=41 |
+      (1789, 0): page=3 subtype=Link flags=None rect=[66.1499, 665.39, 487.75, 679.912]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(53,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=42 |
+      (1786, 0): page=3 subtype=Link flags=None rect=[66.1499, 650.868, 487.75, 665.39]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(53,0)>, "/XYZ",
+      52, 255, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=43 |
+      (1783, 0): page=3 subtype=Link flags=None rect=[58.95, 636.346, 487.75, 650.868]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(55,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=44 |
+      (1780, 0): page=3 subtype=Link flags=None rect=[66.1499, 621.824, 487.75, 636.346]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(55,0)>, "/XYZ",
+      52, 631, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=45 |
+      (1777, 0): page=3 subtype=Link flags=None rect=[66.1499, 607.302, 487.75, 621.824]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(55,0)>, "/XYZ",
+      52, 414, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=46 |
+      (1774, 0): page=3 subtype=Link flags=None rect=[66.1499, 592.78, 487.75, 607.302]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(55,0)>, "/XYZ",
+      52, 281, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=47 |
+      (1771, 0): page=3 subtype=Link flags=None rect=[66.1499, 578.258, 487.75, 592.78]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(58,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=48 |
+      (1768, 0): page=3 subtype=Link flags=None rect=[66.1499, 563.736, 487.75, 578.258]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(58,0)>, "/XYZ",
+      52, 519, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=49 |
+      (1765, 0): page=3 subtype=Link flags=None rect=[66.1499, 549.214, 487.75, 563.736]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(58,0)>, "/XYZ",
+      52, 291, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=50 |
+      (1762, 0): page=3 subtype=Link flags=None rect=[58.95, 534.692, 487.75, 549.214]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(58,0)>, "/XYZ",
+      52, 173, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=51 |
+      (1759, 0): page=3 subtype=Link flags=None rect=[58.95, 520.17, 487.75, 534.692]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(65,0)>, "/XYZ",
+      52, 529, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=52 |
+      (1756, 0): page=3 subtype=Link flags=None rect=[58.95, 505.648, 487.75, 520.17]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=53 |
+      (1753, 0): page=3 subtype=Link flags=None rect=[58.95, 491.126, 487.75, 505.648]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, "/XYZ",
+      52, 609, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=54 |
+      (1750, 0): page=3 subtype=Link flags=None rect=[58.95, 476.604, 487.75, 491.126]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, "/XYZ",
+      52, 538, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=55 |
+      (1747, 0): page=3 subtype=Link flags=None rect=[58.95, 462.083, 487.75, 476.604]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, "/XYZ",
+      52, 452, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=56 |
+      (1744, 0): page=3 subtype=Link flags=None rect=[58.95, 447.561, 487.75, 462.083]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, "/XYZ",
+      52, 433, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=57 |
+      (1741, 0): page=3 subtype=Link flags=None rect=[58.95, 433.039, 487.75, 447.561]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, "/XYZ",
+      52, 319, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=58 |
+      (1738, 0): page=3 subtype=Link flags=None rect=[58.95, 418.517, 487.75, 433.039]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, "/XYZ",
+      52, 219, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=59 |
+      (1735, 0): page=3 subtype=Link flags=None rect=[58.95, 403.995, 487.75, 418.517]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(70,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=60 |
+      (1732, 0): page=3 subtype=Link flags=None rect=[58.95, 389.473, 487.75, 403.995]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(73,0)>, "/XYZ",
+      52, 660, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=61 |
+      (1729, 0): page=3 subtype=Link flags=None rect=[66.1499, 374.951, 487.75, 389.473]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(73,0)>, "/XYZ",
+      52, 479, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=62 |
+      (1726, 0): page=3 subtype=Link flags=None rect=[66.1499, 360.429, 487.75, 374.951]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(73,0)>, "/XYZ",
+      52, 375, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=63 |
+      (1841, 0): page=3 subtype=Link flags=None rect=[66.1499, 345.907, 487.75, 360.429]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(73,0)>, "/XYZ",
+      52, 162, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=64 |
+      (1839, 0): page=3 subtype=Link flags=None rect=[66.1499, 331.385, 487.75, 345.907]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(78,0)>, "/XYZ",
+      52, 700, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=65 |
+      (1837, 0): page=3 subtype=Link flags=None rect=[58.95, 316.863, 487.75, 331.385]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(78,0)>, "/XYZ",
+      52, 449, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=66 |
+      (1835, 0): page=3 subtype=Link flags=None rect=[58.95, 302.341, 487.75, 316.863]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(78,0)>, "/XYZ",
+      52, 264, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=67 |
+      (1833, 0): page=3 subtype=Link flags=None rect=[58.95, 287.819, 487.75, 302.341]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(81,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=68 |
+      (1831, 0): page=3 subtype=Link flags=None rect=[58.95, 273.297, 487.75, 287.819]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(81,0)>, "/XYZ",
+      52, 359, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=69 |
+      (1829, 0): page=3 subtype=Link flags=None rect=[66.1499, 258.775, 487.75, 273.297]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(84,0)>, "/XYZ",
+      52, 686, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=70 |
+      (1827, 0): page=3 subtype=Link flags=None rect=[66.1499, 244.253, 487.75, 258.775]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(84,0)>, "/XYZ",
+      52, 582, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=71 |
+      (1825, 0): page=3 subtype=Link flags=None rect=[58.95, 229.731, 487.75, 244.253]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(84,0)>, "/XYZ",
+      52, 421, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=72 |
+      (1823, 0): page=3 subtype=Link flags=None rect=[58.95, 215.209, 487.75, 229.731]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(84,0)>, "/XYZ",
+      52, 249, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=73 |
+      (1821, 0): page=3 subtype=Link flags=None rect=[66.1499, 200.687, 487.75, 215.209]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(87,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=74 |
+      (1819, 0): page=3 subtype=Link flags=None rect=[66.1499, 186.165, 487.75, 200.687]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(87,0)>, "/XYZ",
+      52, 566, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=75 |
+      (1817, 0): page=3 subtype=Link flags=None rect=[66.1499, 171.643, 487.75, 186.165]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(87,0)>, "/XYZ",
+      52, 462, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=76 |
+      (1815, 0): page=3 subtype=Link flags=None rect=[66.1499, 157.121, 487.75, 171.643]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(87,0)>, "/XYZ",
+      52, 211, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=77 |
+      (1813, 0): page=3 subtype=Link flags=None rect=[66.1499, 142.599, 487.75, 157.121]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(90,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=78 |
+      (1811, 0): page=3 subtype=Link flags=None rect=[66.1499, 128.077, 487.75, 142.599]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(90,0)>, "/XYZ",
+      52, 427, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=79 |
+      (1809, 0): page=3 subtype=Link flags=None rect=[66.1499, 113.555, 487.75, 128.077]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(90,0)>, "/XYZ",
+      52, 338, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=80 |
+      (1807, 0): page=3 subtype=Link flags=None rect=[66.1499, 99.0332, 487.75, 113.555]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(90,0)>, "/XYZ",
+      52, 263, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=81 |
+      (1805, 0): page=3 subtype=Link flags=None rect=[58.95, 84.5112, 487.75, 99.0332]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(93,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=82 |
+      (1803, 0): page=3 subtype=Link flags=None rect=[58.95, 69.9893, 487.75, 84.5112]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(93,0)>, "/XYZ",
+      52, 624, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=83 |
+      (1622, 0): page=4 subtype=Link flags=None rect=[58.95, 723.478, 487.75, 738.0]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(93,0)>, "/XYZ",
+      52, 567, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=85 |
+      (1619, 0): page=4 subtype=Link flags=None rect=[58.95, 708.956, 487.75, 723.478]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(96,0)>, "/XYZ",
+      52, 660, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=86 |
+      (1616, 0): page=4 subtype=Link flags=None rect=[58.95, 694.434, 487.75, 708.956]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(96,0)>, "/XYZ",
+      52, 536, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=87 |
+      (1613, 0): page=4 subtype=Link flags=None rect=[58.95, 679.912, 487.75, 694.434]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(98,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=88 |
+      (1610, 0): page=4 subtype=Link flags=None rect=[58.95, 665.39, 487.75, 679.912]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(98,0)>, "/XYZ",
+      52, 510, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=89 |
+      (1607, 0): page=4 subtype=Link flags=None rect=[66.1499, 650.868, 487.75, 665.39]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(100,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=90 |
+      (1604, 0): page=4 subtype=Link flags=None rect=[66.1499, 636.346, 487.75, 650.868]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(100,0)>, "/XYZ",
+      52, 591, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=91 |
+      (1601, 0): page=4 subtype=Link flags=None rect=[66.1499, 621.824, 487.75, 636.346]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(100,0)>, "/XYZ",
+      52, 345, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=92 |
+      (1598, 0): page=4 subtype=Link flags=None rect=[58.95, 607.302, 487.75, 621.824]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>, "/XYZ",
+      52, 699, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=93 |
+      (1595, 0): page=4 subtype=Link flags=None rect=[58.95, 592.78, 487.75, 607.302]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>, "/XYZ",
+      52, 536, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=94 |
+      (1592, 0): page=4 subtype=Link flags=None rect=[58.95, 578.258, 487.75, 592.78]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>, "/XYZ",
+      52, 471, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=95 |
+      (1638, 0): page=4 subtype=Link flags=None rect=[58.95, 563.736, 487.75, 578.258]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>, "/XYZ",
+      52, 414, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=96 |
+      (1636, 0): page=4 subtype=Link flags=None rect=[58.95, 549.214, 487.75, 563.736]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>, "/XYZ",
+      52, 352, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=97 |
+      (1634, 0): page=4 subtype=Link flags=None rect=[58.95, 534.692, 487.75, 549.214]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>, "/XYZ",
+      52, 309, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=98 |
+      (1632, 0): page=4 subtype=Link flags=None rect=[66.1499, 520.17, 487.75, 534.692]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>, "/XYZ",
+      52, 244, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=99 |
+      (1630, 0): page=4 subtype=Link flags=None rect=[66.1499, 505.648, 487.75, 520.17]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>, "/XYZ",
+      52, 204, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=100 |
+      (1628, 0): page=4 subtype=Link flags=None rect=[58.95, 491.126, 487.75, 505.648]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>, "/XYZ",
+      52, 178, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=101 |
+      (1626, 0): page=4 subtype=Link flags=None rect=[58.95, 476.604, 487.75, 491.126]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(105,0)>, "/XYZ",
+      52, 738, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=102 |
+      (1624, 0): page=4 subtype=Link flags=None rect=[58.95, 462.083, 487.75, 476.604]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(105,0)>, "/XYZ",
+      52, 603, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=103 |
+      (1557, 0): page=5 subtype=Link flags=None rect=[260.086, 575.687, 560.25, 590.061]
+      action=''/URI'' dest=''https://www.minneapolis.edu/student-life/student-activities-clubs-and-organizations''
+      widget=False field=None struct_parent=105 | (1555, 0): page=5 subtype=Link flags=None
+      rect=[51.75, 552.913, 165.259, 575.687] action=''/URI'' dest=''https://www.minneapolis.edu/student-life/student-activities-clubs-and-organizations''
+      widget=False field=None struct_parent=106 | (1552, 0): page=5 subtype=Link flags=None
+      rect=[87.75, 428.33, 476.495, 442.104] action=''/URI'' dest=''https://www.minneapolis.edu/student-life/student-activities-clubs-and-organizations''
+      widget=False field=None struct_parent=107 | (1525, 0): page=6 subtype=Link flags=None
+      rect=[306.686, 504.986, 560.25, 519.359] action=''/URI'' dest=''https://www.minneapolis.edu/student-life/theater-and-music''
+      widget=False field=None struct_parent=109 | (1523, 0): page=6 subtype=Link flags=None
+      rect=[51.75, 481.613, 103.248, 504.986] action=''/URI'' dest=''https://www.minneapolis.edu/student-life/theater-and-music''
+      widget=False field=None struct_parent=110 | (1363, 0): page=12 subtype=Link
+      flags=None rect=[486.27, 570.025, 560.25, 584.398] action=''/URI'' dest=''https://forms.microsoft.com/Pages/ResponsePage.aspx?id=xscRULQKq0ae9PrnSpIaf8cswyM26b9HpmXAeweN-O5UNVc1TlE5VUwyRjZDV1dUWDk3MkRPNFdTMSQlQCN0PWcu''
+      widget=False field=None struct_parent=117 | (1361, 0): page=12 subtype=Link
+      flags=None rect=[51.75, 546.652, 162.615, 570.025] action=''/URI'' dest=''https://forms.microsoft.com/Pages/ResponsePage.aspx?id=xscRULQKq0ae9PrnSpIaf8cswyM26b9HpmXAeweN-O5UNVc1TlE5VUwyRjZDV1dUWDk3MkRPNFdTMSQlQCN0PWcu''
+      widget=False field=None struct_parent=118 | (1358, 0): page=12 subtype=Link
+      flags=None rect=[272.678, 222.438, 303.287, 236.811] action=''/URI'' dest=''https://minneapolis.edu/student-services/support-services/satisfactory-academic-progress-help''
+      widget=False field=None struct_parent=119 | (1341, 0): page=13 subtype=Link
+      flags=None rect=[51.75, 681.09, 147.572, 695.463] action=''/URI'' dest=''https://forms.microsoft.com/Pages/ResponsePage.aspx?id=xscRULQKq0ae9PrnSpIaf8cswyM26b9HpmXAeweN-O5UMFRCUEdCMUlJVDVWSVMxU0FWOVQ2MlAyVCQlQCN0PWcu''
+      widget=False field=None struct_parent=121 | (1338, 0): page=13 subtype=Link
+      flags=None rect=[51.75, 628.971, 180.799, 643.344] action=''/URI'' dest=''https://forms.microsoft.com/Pages/ResponsePage.aspx?id=xscRULQKq0ae9PrnSpIaf8cswyM26b9HpmXAeweN-O5UNVc1TlE5VUwyRjZDV1dUWDk3MkRPNFdTMSQlQCN0PWcu''
+      widget=False field=None struct_parent=122 | (1332, 0): page=14 subtype=Link
+      flags=None rect=[87.75, 574.801, 476.495, 588.575] action=''/URI'' dest=''https://www.minneapolis.edu/student-life/student-activities-clubs-and-organizations''
+      widget=False field=None struct_parent=124 | (1330, 0): page=14 subtype=Link
+      flags=None rect=[309.398, 546.055, 560.25, 560.428] action=''/URI'' dest=''https://www.minneapolis.edu/student-life/student-activities-clubs-and-organizations''
+      widget=False field=None struct_parent=125 | (1328, 0): page=14 subtype=Link
+      flags=None rect=[51.75, 531.682, 244.271, 546.055] action=''/URI'' dest=''https://www.minneapolis.edu/student-life/student-activities-clubs-and-organizations''
+      widget=False field=None struct_parent=126 | (1326, 0): page=14 subtype=Link
+      flags=None rect=[87.75, 100.49, 261.34, 114.864] action=''/URI'' dest=''mailto:financesenate@go.minneapolis.edu''
+      widget=False field=None struct_parent=127 | (1162, 0): page=17 subtype=Link
+      flags=None rect=[51.75, 635.586, 560.25, 649.361] action=''/URI'' dest=''https://minneapolis.edu/technology-support-portal?_ga=2.213994257.72865607.1629116975-626649900.1601908232''
+      widget=False field=None struct_parent=131 | (1160, 0): page=17 subtype=Link
+      flags=None rect=[51.75, 621.812, 179.33, 635.586] action=''/URI'' dest=''https://minneapolis.edu/technology-support-portal?_ga=2.213994257.72865607.1629116975-626649900.1601908232''
+      widget=False field=None struct_parent=132 | (1157, 0): page=17 subtype=Link
+      flags=None rect=[338.475, 594.264, 477.005, 608.038] action=''/URI'' dest=''mailto:student.life@minneapolis.edu''
+      widget=False field=None struct_parent=133 | (1155, 0): page=17 subtype=Link
+      flags=None rect=[51.75, 566.716, 214.869, 580.49] action=''/URI'' dest=''https://tinyurl.com/SLDropInsMPLS''
+      widget=False field=None struct_parent=134 | (1094, 0): page=18 subtype=Link
+      flags=None rect=[123.75, 382.951, 392.284, 396.464] action=''/URI'' dest=''https://minneapolis.edu/student-services/support-services''
+      widget=False field=None struct_parent=136 | (1092, 0): page=18 subtype=Link
+      flags=None rect=[215.172, 354.206, 499.799, 367.719] action=''/URI'' dest=''https://minneapolis.edu/student-services/student-health-clinic''
+      widget=False field=None struct_parent=137 | (1077, 0): page=18 subtype=Link
+      flags=None rect=[159.75, 236.936, 519.088, 250.943] action=''/URI'' dest=''https://minneapolis.edu/student-services/support-services/counseling-services''
+      widget=False field=None struct_parent=138 | (1048, 0): page=19 subtype=Link
+      flags=None rect=[309.258, 504.128, 453.615, 518.501] action=''/URI'' dest=''mailto:student.life@minneapolis.edu''
+      widget=False field=None struct_parent=140 | (997, 0): page=20 subtype=Link flags=None
+      rect=[51.75, 711.867, 228.604, 724.934] action=''/URI'' dest=''mailto:FinanceSenate@go.minneapolis.edu''
+      widget=False field=None struct_parent=142 | (930, 0): page=23 subtype=Link flags=None
+      rect=[51.75, 258.442, 192.674, 281.211] action=''/URI'' dest=''https://mnscu.sharepoint.com/:b:/s/MPLS-CampusLife/EXjLl7SNfapFhGHFzyeIpTsB25yLf8iR-I664_FETPBzJg?e=dlmm4D''
+      widget=False field=None struct_parent=146 | (914, 0): page=24 subtype=Link flags=None
+      rect=[242.291, 585.247, 418.488, 599.62] action=''/URI'' dest=''mailto:accounts.payable@minneapolis.edu''
+      widget=False field=None struct_parent=148 | (911, 0): page=24 subtype=Link flags=None
+      rect=[87.75, 290.539, 222.727, 313.912] action=''/URI'' dest=''mailto:kira.berglund@hennepin.us''
+      widget=False field=None struct_parent=149 | (838, 0): page=28 subtype=Link flags=None
+      rect=[182.801, 475.658, 327.158, 490.031] action=''/URI'' dest=''mailto:student.life@minneapolis.edu''
+      widget=False field=None struct_parent=154 | (835, 0): page=28 subtype=Link flags=None
+      rect=[480.041, 385.211, 560.25, 399.584] action=''/URI'' dest=''https://mnscu.sharepoint.com/:w:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Copy%20Request%20Form%20for%20Printing/MCTC%20COPY%20REQUEST%20FORM.doc?d=wc619f5626e6345dda534d1b8cbf93dfe&csf=1&web=1&e=71OOSZ''
+      widget=False field=None struct_parent=155 | (833, 0): page=28 subtype=Link flags=None
+      rect=[51.75, 370.838, 79.5059, 385.211] action=''/URI'' dest=''https://mnscu.sharepoint.com/:w:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Copy%20Request%20Form%20for%20Printing/MCTC%20COPY%20REQUEST%20FORM.doc?d=wc619f5626e6345dda534d1b8cbf93dfe&csf=1&web=1&e=71OOSZ''
+      widget=False field=None struct_parent=156 | (830, 0): page=28 subtype=Link flags=None
+      rect=[51.75, 185.152, 207.779, 199.525] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS-CampusLife''
+      widget=False field=None struct_parent=157 | (828, 0): page=28 subtype=Link flags=None
+      rect=[401.422, 91.1118, 543.776, 113.886] action=''/URI'' dest=''mailto:Student.Life@minneapolis.edu''
+      widget=False field=None struct_parent=158 | (793, 0): page=29 subtype=Link flags=None
+      rect=[118.758, 594.852, 512.818, 618.225] action=''/URI'' dest=''https://www.minneapolis.edu/student-services/information-technology-services-its''
+      widget=False field=None struct_parent=160 | (790, 0): page=29 subtype=Link flags=None
+      rect=[182.766, 566.105, 560.25, 580.479] action=''/URI'' dest=''https://support.office.com/en-us/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7''
+      widget=False field=None struct_parent=161 | (788, 0): page=29 subtype=Link flags=None
+      rect=[51.75, 542.732, 278.238, 566.105] action=''/URI'' dest=''https://support.office.com/en-us/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7''
+      widget=False field=None struct_parent=162 | (767, 0): page=30 subtype=Link flags=None
+      rect=[263.83, 161.828, 445.189, 185.201] action=''/URI'' dest=''mailto:Central.Scheduling@minneapolis.edu''
+      widget=False field=None struct_parent=164 | (754, 0): page=31 subtype=Link flags=None
+      rect=[329.637, 648.739, 431.109, 663.112] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS-CampusLife/Shared%20Documents/Forms/AllItems.aspx''
+      widget=False field=None struct_parent=166 | (751, 0): page=31 subtype=Link flags=None
+      rect=[95.4551, 582.247, 239.812, 596.62] action=''/URI'' dest=''mailto:student.life@minneapolis.edu''
+      widget=False field=None struct_parent=167 | (739, 0): page=32 subtype=Link flags=None
+      rect=[51.75, 632.598, 225.853, 646.971] action=''/URI'' dest=''https://www.mplc.org/page/about-copyright-law''
+      widget=False field=None struct_parent=169 | (736, 0): page=32 subtype=Link flags=None
+      rect=[87.75, 578.686, 525.158, 593.059] action=''/URI'' dest=''https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ranker.com%2Fcrowdranked-list%2Ffree-movies-the-best-films-in-the-public-domain&data=02%7C01%7Cjenny.thomas%40minneapolis.edu%7Cb617febe941a4b9092c108d709edc483%7C5011c7c60ab446ab9ef4fae74a921a7f%7C0%7C0%7C636988789110949532&sdata=zRNLx4ScJOIZjolA8pztxOrufWG28dHap4NlZt3REco%3D&reserved=0''
+      widget=False field=None struct_parent=170 | (733, 0): page=32 subtype=Link flags=None
+      rect=[87.75, 553.52, 297.756, 578.686] action=''/URI'' dest=''https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.imdb.com%2Flist%2Fls003915205%2F&data=02%7C01%7Cjenny.thomas%40minneapolis.edu%7Cb617febe941a4b9092c108d709edc483%7C5011c7c60ab446ab9ef4fae74a921a7f%7C0%7C0%7C636988789110959525&sdata=22NV81hGkKJ119R0V02iTPQCG%2FzyfkiUEJ2sbzXE6lM%3D&reserved=0''
+      widget=False field=None struct_parent=171 | (728, 0): page=32 subtype=Link flags=None
+      rect=[415.6, 437.173, 531.674, 451.546] action=''/URI'' dest=''mailto:info@speakoutnow.org''
+      widget=False field=None struct_parent=172 | (675, 0): page=32 subtype=Link flags=None
+      rect=[249.586, 233.651, 388.898, 246.717] action=''/URI'' dest=''mailto:dexterdunnbros@gmail.com''
+      widget=False field=None struct_parent=173 | (672, 0): page=32 subtype=Link flags=None
+      rect=[385.623, 220.584, 549.199, 233.651] action=''/URI'' dest=''mailto:David.pacheco@tiffinmanmn.com''
+      widget=False field=None struct_parent=174 | (669, 0): page=32 subtype=Link flags=None
+      rect=[288.674, 194.451, 416.314, 207.518] action=''/URI'' dest=''http://www.tiffinmanmn.catertrax.com/''
+      widget=False field=None struct_parent=175 | (666, 0): page=32 subtype=Link flags=None
+      rect=[179.08, 172.385, 334.031, 194.451] action=''/URI'' dest=''mailto:catering.mctc@tiffinmanmn.com''
+      widget=False field=None struct_parent=176 | (663, 0): page=32 subtype=Link flags=None
+      rect=[154.611, 114.893, 383.449, 129.266] action=''/URI'' dest=''mailto:Zero-Waste-Events-Team@go.minneapolis.edu''
+      widget=False field=None struct_parent=177 | (653, 0): page=33 subtype=Link flags=None
+      rect=[172.764, 619.993, 274.236, 634.366] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS-CampusLife/Shared%20Documents/Forms/AllItems.aspx''
+      widget=False field=None struct_parent=179 | (650, 0): page=33 subtype=Link flags=None
+      rect=[232.266, 487.613, 336.99, 501.986] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS-CampusLife/Shared%20Documents/Forms/AllItems.aspx''
+      widget=False field=None struct_parent=180 | (647, 0): page=33 subtype=Link flags=None
+      rect=[446.479, 330.092, 550.582, 344.465] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS-CampusLife/Shared%20Documents/Forms/AllItems.aspx''
+      widget=False field=None struct_parent=181 | (644, 0): page=33 subtype=Link flags=None
+      rect=[112.512, 140.197, 239.648, 163.57] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS/ResourcesAndServices/marketingcommunications/SitePages/NewHome.aspx''
+      widget=False field=None struct_parent=182 | (634, 0): page=34 subtype=Link flags=None
+      rect=[289.02, 689.485, 414.029, 703.858] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS/ResourcesAndServices/marketingcommunications/Shared%20Documents/MinneapolisCollege_BrandManual.pdf''
+      widget=False field=None struct_parent=184 | (631, 0): page=34 subtype=Link flags=None
+      rect=[241.113, 499.613, 469.547, 513.986] action=''/URI'' dest=''http://www.minneapolis.edu/about-us/policies''
+      widget=False field=None struct_parent=185 | (628, 0): page=34 subtype=Link flags=None
+      rect=[155.754, 329.487, 304.834, 343.86] action=''/URI'' dest=''mailto:accessibility@minneapolis.edu''
+      widget=False field=None struct_parent=186 | (625, 0): page=34 subtype=Link flags=None
+      rect=[407.314, 150.361, 551.672, 173.734] action=''/URI'' dest=''mailto:student.life@minneapolis.edu''
+      widget=False field=None struct_parent=187 | (601, 0): page=35 subtype=Link flags=None
+      rect=[132.551, 666.112, 362.754, 689.485] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS/ResourcesAndServices/marketingcommunications/Shared%20Documents/Minneapolis%20College%20Social%20Media%20User%20Guide.pdf''
+      widget=False field=None struct_parent=189 | (598, 0): page=35 subtype=Link flags=None
+      rect=[205.541, 545.743, 412.547, 560.116] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS/ResourcesAndServices/marketingcommunications/SiteAssets/SitePages/Social%20Media/Minneapolis%20College%20Social%20Media%20Policy_v3_101018.pdf''
+      widget=False field=None struct_parent=190 | (595, 0): page=35 subtype=Link flags=None
+      rect=[124.436, 479.251, 268.793, 493.624] action=''/URI'' dest=''mailto:student.life@minneapolis.edu''
+      widget=False field=None struct_parent=191 | (593, 0): page=35 subtype=Link flags=None
+      rect=[217.934, 464.878, 409.945, 479.251] action=''/URI'' dest=''http://www.facebook.com/MCTCStudentLife3''
+      widget=False field=None struct_parent=192 | (591, 0): page=35 subtype=Link flags=None
+      rect=[51.75, 450.505, 255.908, 464.878] action=''/URI'' dest=''https://www.instagram.com/sl_mpls_coll/''
+      widget=False field=None struct_parent=193 | (582, 0): page=36 subtype=Link flags=None
+      rect=[149.537, 661.344, 313.758, 675.717] action=''/URI'' dest=''mailto:MarketingDesk@minneapolis.edu''
+      widget=False field=None struct_parent=195 | (580, 0): page=36 subtype=Link flags=None
+      rect=[370.717, 623.598, 519.064, 646.971] action=''/URI'' dest=''mailto:Student.Life@minneapolis.edu''
+      widget=False field=None struct_parent=196 | (495, 0): page=40 subtype=Link flags=None
+      rect=[51.75, 562.257, 353.025, 579.025] action=''/URI'' dest=''https://mnscu.sharepoint.com/sites/MPLS-CampusLife''
+      widget=False field=None struct_parent=201 | (492, 0): page=40 subtype=Link flags=None
+      rect=[51.75, 493.951, 560.25, 517.324] action=''/URI'' dest=''https://mnscu.sharepoint.com/:w:/r/sites/MPLS-CampusLife/_layouts/15/Doc.aspx?sourcedoc=%7BDDC825F4-3325-4803-99B2-0C2C6AB94A75%7D&file=Meeting%20Room%20and%20Tabling%20Request%20forms-Oct%202018.docx&action=default&mobileredirect=true''
+      widget=False field=None struct_parent=202 | (490, 0): page=40 subtype=Link flags=None
+      rect=[51.75, 470.578, 244.201, 493.951] action=''/URI'' dest=''https://mnscu.sharepoint.com/:w:/r/sites/MPLS-CampusLife/_layouts/15/Doc.aspx?sourcedoc=%7BDDC825F4-3325-4803-99B2-0C2C6AB94A75%7D&file=Meeting%20Room%20and%20Tabling%20Request%20forms-Oct%202018.docx&action=default&mobileredirect=true''
+      widget=False field=None struct_parent=203 | (487, 0): page=40 subtype=Link flags=None
+      rect=[51.75, 437.041, 154.799, 451.414] action=''/URI'' dest=''https://mnscu.sharepoint.com/:b:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Event%20Request%20Form/Event%20request%20form.pdf?csf=1&web=1&e=kTnXwf''
+      widget=False field=None struct_parent=204 | (485, 0): page=40 subtype=Link flags=None
+      rect=[51.75, 413.668, 206.156, 437.041] action=''/URI'' dest=''mailto:student.life@minneapolis.edu''
+      widget=False field=None struct_parent=205 | (482, 0): page=40 subtype=Link flags=None
+      rect=[51.75, 351.967, 184.301, 375.34] action=''/URI'' dest=''https://mnscu.sharepoint.com/:b:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Guest%20Lecture%20Agreement%20Packet/Guest%20Lecture%20Agreement%20Packet.pdf?csf=1&web=1&e=4G60bg''
+      widget=False field=None struct_parent=206 | (479, 0): page=40 subtype=Link flags=None
+      rect=[51.75, 309.43, 188.701, 332.803] action=''/URI'' dest=''https://mnscu.sharepoint.com/:b:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Requisition%20for%20Purchase/Requisition%20for%20Purchase.pdf?csf=1&web=1&e=zRc7Ad''
+      widget=False field=None struct_parent=207 | (476, 0): page=40 subtype=Link flags=None
+      rect=[51.75, 244.118, 262.289, 267.491] action=''/URI'' dest=''https://mnscu.sharepoint.com/:b:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Special%20Expense/specialexpense.pdf?csf=1&web=1&e=AQtEw8''
+      widget=False field=None struct_parent=208 | (473, 0): page=40 subtype=Link flags=None
+      rect=[51.75, 112.897, 258.416, 136.27] action=''/URI'' dest=''https://mnscu.sharepoint.com/:b:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Student%20Group%20Campus%20Food%20Event%20Form/Student%20Group%20Campus%20Food%20Event%20Form.pdf?csf=1&web=1&e=dlBfeJ''
+      widget=False field=None struct_parent=209 | (465, 0): page=41 subtype=Link flags=None
+      rect=[51.75, 664.557, 170.613, 687.93] action=''/URI'' dest=''https://mnscu.sharepoint.com/:w:/r/sites/MPLS-CampusLife/Shared%20Documents/Club%20Paperwork/Guest%20Lecture%20Agreement%20Packet/Guest%20Lecturer%20Contract/GuestLecturer-PresenterAgreement.docx?d=wad1d986199af45ab8ee5282c8fa19a73&csf=1&e=8n4Wlq''
+      widget=False field=None struct_parent=211 | (463, 0): page=41 subtype=Link flags=None
+      rect=[212.49, 664.557, 485.326, 687.93] action=''/URI'' dest=''http://www.minnstate.edu/system/templates/index.html''
+      widget=False field=None struct_parent=212 | (460, 0): page=41 subtype=Link flags=None
+      rect=[51.75, 641.184, 119.678, 664.557] action=''/URI'' dest=''https://mnscu.sharepoint.com/:w:/r/sites/MPLS-CampusLife/Shared%20Documents/Club%20Paperwork/Guest%20Lecture%20Agreement%20Packet/16A.15%20Form/16a%20form.doc?d=w69515451777740f989f3fad7be0dfeb2&csf=1&e=PToiin''
+      widget=False field=None struct_parent=213 | (457, 0): page=41 subtype=Link flags=None
+      rect=[51.75, 626.811, 130.676, 641.184] action=''/URI'' dest=''https://mnscu.sharepoint.com/:w:/r/sites/MPLS-CampusLife/Shared%20Documents/Club%20Paperwork/Guest%20Lecture%20Agreement%20Packet/Service%20Invoice/Service%20Invoice.doc?d=w9564a09c9b964521837b468092a6c7f2&csf=1&e=QL3PZs''
+      widget=False field=None struct_parent=214 | (455, 0): page=41 subtype=Link flags=None
+      rect=[55.002, 603.437, 510.217, 626.811] action=''/URI'' dest=''https://my.minneapolis.edu/%7E/media/Intranet-Site/Files/Forms/Employees/serviceinvoice.pdf''
+      widget=False field=None struct_parent=215 | (452, 0): page=41 subtype=Link flags=None
+      rect=[51.75, 551.9, 262.289, 575.273] action=''/URI'' dest=''https://mnscu.sharepoint.com/:b:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Special%20Expense/specialexpense.pdf?csf=1&web=1&e=KNv8oy''
+      widget=False field=None struct_parent=216 | (449, 0): page=41 subtype=Link flags=None
+      rect=[51.75, 505.154, 138.305, 528.527] action=''/URI'' dest=''https://mnscu.sharepoint.com/:w:/r/sites/MPLS-CampusLife/Shared%20Documents/Club%20Paperwork/SLBC%20Travel%20Budget%20Request%20Form/SLBC%20Travel%20Budget%20Request%20Form.docx?d=wa63b39ec4318446e9e4c5dd08d5a793f&csf=1&e=NVxnVS''
+      widget=False field=None struct_parent=217 | (446, 0): page=41 subtype=Link flags=None
+      rect=[51.75, 458.408, 129.111, 481.781] action=''/URI'' dest=''https://mnscu.sharepoint.com/:b:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Field%20Trip%20or%20Off-Campus%20Activity%20Form/Field%20Trip%20or%20Off-Campus%20Activity%20Form.pdf?csf=1&web=1&e=SUig9k''
+      widget=False field=None struct_parent=218 | (443, 0): page=41 subtype=Link flags=None
+      rect=[51.75, 435.035, 187.066, 458.408] action=''/URI'' dest=''https://mnscu.sharepoint.com/:w:/r/sites/MPLS-CampusLife/Shared%20Documents/Purchasing%20Paperwork/Field%20Trip%20or%20Off-Campus%20Activity%20Form/Emergency%20%26%20Medical%20Form/Medical_info_form.doc?d=w35691e41a661418ba235edfee2160b52&csf=1&web=1&e=K2Hbtw''
+      widget=False field=None struct_parent=219 | (440, 0): page=41 subtype=Link flags=None
+      rect=[51.75, 411.662, 157.898, 435.035] action=''/URI'' dest=''https://mnscu.sharepoint.com/:b:/r/teams/MPLS-Student-Life-Team/Shared%20Documents/General/Forms%20%26%20Documents/Media%20Release%20Form/MC-Media-Release-form-fill-in.pdf?csf=1&web=1&e=gPisnR''
+      widget=False field=None struct_parent=220'
+    LinkStructureCount: 77
+    ExternalLinkAnnotationCount: 84
+    InternalLinkAnnotationCount: 96
+    AnnotationPagesWithLinks: 26
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 94
+    HeadingSequence: H1 > H2 > H2 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H2
+      > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H2 > H2 > H3 > H2 > H2 > H3 > H2 > H3 >
+      H3 > H3 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H2 > H3 > H3 > H3 > H3
+      > H3 > H3 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H3 > H3 >
+      H3 > H3 > H2 > H2 > H2 > H2 > H3 > H3 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3
+      > H3 > H3 > H2 > H2 > H2 > H2 > H2 > H2 > H2 > H3 > H3 > H3 > H2 > H2 > H2 >
+      H2 > H2 > H2 > H2
+    HeadingIssues: ''
+    ListsTest: Pass
+    ListCount: 54
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Pass
+    TableCount: 1
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2022-03-07 16:30:57+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 21 for Word
+    Producer: Adobe PDF Library 21.1.177
+    Title: Student Life Guide
+    Author: macalester
+    Subject: Policies and Procedures
+    Keywords: null
+    Description: Policies and Procedures
+    Pages: 41
+    Words: 13847
+    Images: 1
+  errors: []
