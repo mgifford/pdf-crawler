@@ -1,10 +1,10 @@
 {
   "summary": {
-    "generated_at": "2026-07-06T14:33:18.189561+00:00",
-    "total_files": 19792,
-    "analysed": 6074,
-    "pending": 8677,
-    "errored": 5041,
+    "generated_at": "2026-07-06T15:33:52.559723+00:00",
+    "total_files": 19815,
+    "analysed": 6075,
+    "pending": 8688,
+    "errored": 5052,
     "accessible": 2002,
     "totally_inaccessible": 257,
     "broken": 27,
@@ -39,7 +39,7 @@
       "tn.gov": 768,
       "njfamilycare.dhs.state.nj.us": 180,
       "ctoec.org": 1742,
-      "oregon.gov": 2168,
+      "oregon.gov": 2178,
       "euclinicaltrials.eu": 78,
       "ijcaonline.org": 1,
       "hamilton.ca": 262,
@@ -78,12 +78,13 @@
       "stmd.bayern.de": 9,
       "minneapolis.edu": 6,
       "govt.nz": 9,
-      "usds.gov": 9
+      "usds.gov": 22
     },
     "engines": {
-      "original": 19792
+      "original": 19804,
+      "bloom": 11
     },
-    "pages_crawled": 0
+    "pages_crawled": 31
   },
   "comparison": {
     "comparable_files": 0,
@@ -377548,6 +377549,15 @@
       "status": "pending",
       "report": null,
       "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "English",
       "engine": "original",
       "engine_status": "pending"
     },
@@ -377560,6 +377570,15 @@
       "status": "pending",
       "report": null,
       "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "Py\u0441\u0441\u043a\u0438\u0439",
       "engine": "original",
       "engine_status": "pending"
     },
@@ -377572,6 +377591,15 @@
       "status": "pending",
       "report": null,
       "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "Espa\u00f1ol",
       "engine": "original",
       "engine_status": "pending"
     },
@@ -377584,6 +377612,15 @@
       "status": "pending",
       "report": null,
       "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "Ti\u1ebfng Vi\u1ec7t",
       "engine": "original",
       "engine_status": "pending"
     },
@@ -377944,6 +377981,15 @@
       "status": "pending",
       "report": null,
       "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "Py\u0441\u0441\u043a\u0438\u0439",
       "engine": "original",
       "engine_status": "pending"
     },
@@ -377956,6 +378002,15 @@
       "status": "pending",
       "report": null,
       "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "Espa\u00f1ol",
       "engine": "original",
       "engine_status": "pending"
     },
@@ -378460,6 +378515,15 @@
       "status": "pending",
       "report": null,
       "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "choose a new Medicare plan",
       "engine": "original",
       "engine_status": "pending"
     },
@@ -424107,6 +424171,120 @@
       "filename": "Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf",
       "site": "usds.gov",
       "crawled_at": "2026-07-06T14:28:46.944732+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "usds.gov",
+            "File": "Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 50,
+            "AnnotationSubtypeCounts": "Link=50",
+            "LinkAnnotationCount": 50,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Pass",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(597, 0): page=2 subtype=Link flags=None rect=[112.961, 463.518, 175.694, 449.658] action='/URI' dest='https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women' widget=False field=None struct_parent=3 | (598, 0): page=2 subtype=Link flags=None rect=[33.84, 450.318, 163.957, 436.458] action='/URI' dest='https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women' widget=False field=None struct_parent=4 | (599, 0): page=2 subtype=Link flags=None rect=[33.84, 437.118, 68.4896, 423.258] action='/URI' dest='https://www.unwomen.org/en/how-we-work/commission-on-the-status-of-women' widget=False field=None struct_parent=5 | (600, 0): page=2 subtype=Link flags=None rect=[222.016, 463.518, 239.846, 449.658] action='/URI' dest='https://www.whitehouse.gov/wp-content/uploads/2022/06/Maternal-Health-Blueprint.pdf' widget=False field=None struct_parent=6 | (601, 0): page=2 subtype=Link flags=None rect=[241.936, 463.518, 315.69, 449.658] action='/URI' dest='https://www.whitehouse.gov/wp-content/uploads/2022/06/Maternal-Health-Blueprint.pdf' widget=False field=None struct_parent=7 | (602, 0): page=2 subtype=Link flags=None rect=[202.92, 450.318, 241.397, 436.458] action='/URI' dest='https://www.whitehouse.gov/wp-content/uploads/2022/06/Maternal-Health-Blueprint.pdf' widget=False field=None struct_parent=8 | (568, 0): page=3 subtype=Link flags=None rect=[36.0, 487.672, 208.092, 473.812] action='/URI' dest='https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/' widget=False field=None struct_parent=10 | (569, 0): page=3 subtype=Link flags=None rect=[36.0, 474.472, 223.932, 460.612] action='/URI' dest='https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/' widget=False field=None struct_parent=11 | (570, 0): page=3 subtype=Link flags=None rect=[36.0, 461.272, 90.9772, 447.412] action='/URI' dest='https://www.whitehouse.gov/briefing-room/presidential-actions/2021/12/13/executive-order-on-transforming-federal-customer-experience-and-service-delivery-to-rebuild-trust-in-government/' widget=False field=None struct_parent=12 | (571, 0): page=3 subtype=Link flags=None rect=[80.1203, 236.872, 303.197, 223.012] action='/URI' dest='https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/' widget=False field=None struct_parent=13 | (572, 0): page=3 subtype=Link flags=None rect=[36.0, 223.672, 89.481, 209.812] action='/URI' dest='https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/' widget=False field=None struct_parent=14 | (573, 0): page=3 subtype=Link flags=None rect=[40.5, 118.303, 148.112, 104.08] action='/URI' dest='https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/' widget=False field=None struct_parent=15 | (574, 0): page=3 subtype=Link flags=None rect=[40.5, 105.103, 126.365, 90.8801] action='/URI' dest='https://www.hhs.gov/healthcare/maternal-health/newborn-supply-kit/index.html' widget=False field=None struct_parent=16 | (575, 0): page=3 subtype=Link flags=None rect=[40.5, 91.9031, 250.454, 77.6801] action='/URI' dest='https://www.hhs.gov/blog/2023/12/04/newborn-supply-kit-shows-promising-early-results.html' widget=False field=None struct_parent=17 | (576, 0): page=3 subtype=Link flags=None rect=[40.5, 78.7031, 287.37, 64.4801] action='/URI' dest='https://medium.com/the-u-s-digital-service/why-were-designing-government-to-work-better-and-smarter-for-families-abfb63dee5c2' widget=False field=None struct_parent=18 | (577, 0): page=3 subtype=Link flags=None rect=[40.5, 65.5031, 136.055, 51.2801] action='/URI' dest='https://medium.com/the-u-s-digital-service/why-were-designing-government-to-work-better-and-smarter-for-families-abfb63dee5c2' widget=False field=None struct_parent=19 | (578, 0): page=3 subtype=Link flags=None rect=[40.5, 52.3031, 199.03, 38.0801] action='/URI' dest='https://medium.com/the-u-s-digital-service/solutions-by-families-for-families-510dea4b8150' widget=False field=None struct_parent=20 | (579, 0): page=3 subtype=Link flags=None rect=[239.92, 505.28, 358.193, 436.711] action='/URI' dest='http://wh.gov' widget=False field=None struct_parent=49 | (580, 0): page=3 subtype=Link flags=None rect=[235.807, 431.914, 354.08, 352.886] action='/URI' dest='http://usds.gov' widget=False field=None struct_parent=50 | (618, 0): page=4 subtype=Link flags=None rect=[31.84, 568.5, 188.519, 520.372] action='/URI' dest='https://www.commonwealthfund.org/' widget=False field=None struct_parent=61 | (619, 0): page=4 subtype=Link flags=None rect=[38.34, 282.451, 194.692, 268.228] action='/URI' dest='https://www.commonwealthfund.org/international' widget=False field=None struct_parent=22 | (620, 0): page=4 subtype=Link flags=None rect=[68.9306, 269.251, 145.996, 255.028] action='/URI' dest='https://www.commonwealthfund.org/maternal-health' widget=False field=None struct_parent=23 | (621, 0): page=4 subtype=Link flags=None rect=[38.34, 256.051, 133.665, 241.828] action='/URI' dest='https://lemonadamedia.com/show/uncared-for/' widget=False field=None struct_parent=24 | (622, 0): page=4 subtype=Link flags=None rect=[31.84, 223.52, 53.84, 201.52] action='/URI' dest='https://www.linkedin.com/company/the-commonwealth-fund/' widget=False field=None struct_parent=51 | (623, 0): page=4 subtype=Link flags=None rect=[31.84, 200.0, 53.84, 178.0] action='/URI' dest='https://www.instagram.com/advancinghealthequity' widget=False field=None struct_parent=54 | (624, 0): page=4 subtype=Link flags=None rect=[60.48, 221.869, 100.806, 207.646] action='/URI' dest='https://www.linkedin.com/company/the-commonwealth-fund/' widget=False field=None struct_parent=52 | (625, 0): page=4 subtype=Link flags=None rect=[60.48, 195.469, 225.907, 181.246] action='/URI' dest='https://www.instagram.com/advancinghealthequity' widget=False field=None struct_parent=53 | (526, 0): page=5 subtype=Link flags=None rect=[40.5, 308.457, 291.264, 294.234] action='/URI' dest='https://www.canva.com/design/DAF9jWL7BqM/XYiQ8eUQUlHWzc9SZWBaNQ/view?utm_content=DAF9jWL7BqM&utm_campaign=designshare&utm_medium=link&utm_source=editor' widget=False field=None struct_parent=26 | (527, 0): page=5 subtype=Link flags=None rect=[211.504, 295.257, 277.569, 281.034] action='/URI' dest='https://drive.google.com/file/d/1pon1iWJB9IqUKlAbqotMCwZrr72h-MjL/view?usp=sharing' widget=False field=None struct_parent=27 | (528, 0): page=5 subtype=Link flags=None rect=[40.5, 282.057, 176.381, 267.834] action='/URI' dest='https://static1.squarespace.com/static/6384fb4cc6b0c5448aa371be/t/64d3d0b11c38d85bc12097f6/1691603122164/PUMP+Act+Quick+Guide+-+pumpspotting+x+Chamber+of+Mothers.pdf' widget=False field=None struct_parent=28 | (529, 0): page=5 subtype=Link flags=None rect=[40.5, 242.457, 60.4097, 228.234] action='/URI' dest='https://www.wbur.org/hereandnow/2023/09/14/chamber-of-mothers-paid-leave' widget=False field=None struct_parent=29 | (530, 0): page=5 subtype=Link flags=None rect=[40.5, 229.257, 120.898, 215.034] action='/URI' dest='https://www.youtube.com/watch?v=vVqOSgmXMaI' widget=False field=None struct_parent=30 | (531, 0): page=5 subtype=Link flags=None rect=[40.5, 216.057, 119.413, 201.834] action='/URI' dest='https://www.bloomberg.com/news/articles/2023-12-20/us-child-care-costs-rise-in-post-covid-economy-pushing-parents-into-second-job?embedded-checkout=true' widget=False field=None struct_parent=31 | (532, 0): page=5 subtype=Link flags=None rect=[40.5, 202.857, 124.011, 188.634] action='/URI' dest='https://www.thecut.com/2023/01/affordable-child-care-as-collective-wellness.html' widget=False field=None struct_parent=32 | (533, 0): page=5 subtype=Link flags=None rect=[34.0, 168.32, 56.0, 146.32] action='/URI' dest='https://www.linkedin.com/company/the-commonwealth-fund/' widget=False field=None struct_parent=55 | (534, 0): page=5 subtype=Link flags=None rect=[34.0, 140.8, 56.0, 118.8] action='/URI' dest='https://www.instagram.com/advancinghealthequity' widget=False field=None struct_parent=59 | (535, 0): page=5 subtype=Link flags=None rect=[34.0, 116.2, 56.0, 94.2] action='/URI' dest='https://www.instagram.com/advancinghealthequity' widget=False field=None struct_parent=60 | (536, 0): page=5 subtype=Link flags=None rect=[64.8, 164.949, 105.126, 150.726] action='/URI' dest='https://www.linkedin.com/company/chamber-of-mothers/' widget=False field=None struct_parent=56 | (537, 0): page=5 subtype=Link flags=None rect=[64.8, 138.549, 212.396, 124.326] action='/URI' dest='https://www.instagram.com/chamberofmothers/' widget=False field=None struct_parent=57 | (538, 0): page=5 subtype=Link flags=None rect=[64.8, 114.47, 204.223, 101.27] action='/URI' dest='mailto:info%40chamberofmothers.com?subject=' widget=False field=None struct_parent=58 | (513, 0): page=6 subtype=Link flags=None rect=[36.0, 255.608, 179.306, 239.228] action='/URI' dest='https://www.gov.scot/children-and-families/' widget=False field=None struct_parent=34 | (501, 0): page=7 subtype=Link flags=None rect=[40.5, 65.729, 121.184, 51.506] action='/URI' dest='www.DrFatuForna.com' widget=False field=None struct_parent=36 | (502, 0): page=7 subtype=Link flags=None rect=[40.5, 52.529, 164.128, 38.306] action='/URI' dest='www.MamaPikinFoundation.org' widget=False field=None struct_parent=37 | (489, 0): page=8 subtype=Link flags=None rect=[40.5, 308.839, 337.43, 294.616] action='/URI' dest='https://www.canada.ca/en/employment-social-development/programs/early-learning-child-care.html' widget=False field=None struct_parent=39 | (490, 0): page=8 subtype=Link flags=None rect=[40.5, 295.639, 325.991, 281.416] action='/URI' dest='https://www150.statcan.gc.ca/n1/pub/71-607-x/71-607-x2021007-eng.htm' widget=False field=None struct_parent=40 | (491, 0): page=8 subtype=Link flags=None rect=[40.5, 282.439, 221.359, 268.216] action='/URI' dest='https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit-overview.html' widget=False field=None struct_parent=41 | (477, 0): page=9 subtype=Link flags=None rect=[40.5, 208.729, 229.401, 194.506] action='/URI' dest='https://lapsiasia.fi/en/ombudsman-for-children \\r' widget=False field=None struct_parent=43 | (478, 0): page=9 subtype=Link flags=None rect=[40.5, 195.529, 258.154, 181.306] action='/URI' dest='https://lapsiasia.fi/en/annual-reports-and-summaries' widget=False field=None struct_parent=44 | (470, 0): page=10 subtype=Link flags=None rect=[42.028, 327.318, 235.166, 311.802] action='/URI' dest='https://www.ariadnelabs.org/profile/katherine-semrau/' widget=False field=None struct_parent=46 | (552, 0): page=11 subtype=Link flags=None rect=[40.873, 64.279, 105.894, 50.056] action='/URI' dest='https://yourdost.com/ \\r' widget=False field=None struct_parent=48",
+            "LinkStructureCount": 44,
+            "ExternalLinkAnnotationCount": 50,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 10,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "Pass",
+            "ListCount": 7,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=19)",
+            "Exempt": false,
+            "Date": "2024-03-11 16:19:01+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.6",
+            "Creator": "Adobe InDesign 18.4 (Macintosh)",
+            "Producer": "Adobe PDF Library 17.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 11,
+            "Words": 2089,
+            "Images": 15,
+            "fonts": 4,
+            "numTxtObjects": 80
+          },
+          "errors": [
+            "title, figures missing alt text (count=19), headings-none, "
+          ],
+          "analysed_at": "2026-07-06T14:30:40.486246+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:30:51.959278+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "engine": "bloom",
+      "engine_status": "error"
+    },
+    {
+      "url": "https://www.usds.gov/assets/files/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf",
+      "md5": "b4b8eb7956d581f6c8a78e7f313dbb3f",
+      "file_hash": "85ddf51ed23d5639453266b1ded4eefa30a7afb5312b0524d70ad1b03bf751af",
+      "filename": "Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T14:28:46.944732+00:00",
       "status": "analysed",
       "report": {
         "Site": "usds.gov",
@@ -424280,11 +424458,134 @@
             "title, figures missing alt text (count=19), headings-none, "
           ],
           "analysed_at": "2026-07-06T14:30:40.486246+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:30:51.959278+00:00"
         }
       },
       "notes": "What happens to the notes?",
       "engine": "original",
       "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf",
+      "md5": "df50ec065c6ba2d62354f896da33252f",
+      "file_hash": "5e2480e05704343c0fcce09f795c27dd920b9eb60c7bfe40aa31deb25a50edd0",
+      "filename": "IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T14:28:46.948626+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "usds.gov",
+            "File": "IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Fail",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": null,
+            "TaggedContentTest": "Fail",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 55,
+            "AnnotationSubtypeCounts": "Link=55",
+            "LinkAnnotationCount": 55,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Fail",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(0, 0): page=1 subtype=Link flags=4 rect=[35.0, 627.0, 578.0, 643.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/weekly-address' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[35.0, 604.0, 578.0, 619.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/speeches-and-remarks' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[35.0, 580.0, 578.0, 595.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/press-briefings' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[35.0, 556.0, 578.0, 571.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/statements-and-releases' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[35.0, 532.0, 578.0, 547.0] action='/URI' dest='https://www.whitehouse.gov/blog#today' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[35.0, 508.0, 578.0, 523.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/presidential-actions' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[47.0, 484.0, 578.0, 500.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/presidential-actions/executive-orders' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[47.0, 461.0, 578.0, 476.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/presidential-actions/presidential-memoranda' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[47.0, 437.0, 578.0, 452.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/presidential-actions/proclamations' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[35.0, 413.0, 578.0, 428.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/legislation' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[47.0, 389.0, 578.0, 404.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/pending-legislation' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[47.0, 365.0, 578.0, 380.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/signed-legislation' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[47.0, 341.0, 578.0, 357.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/vetoed-legislation' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[35.0, 318.0, 578.0, 333.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/nominations-and-appointments' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[35.0, 294.0, 578.0, 309.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room/disclosures' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[522.0, 160.0, 564.0, 193.0] action='/URI' dest='http://twitter.com/intent/tweet?url=%2Fthe-press-office%2F2016%2F08%2F09%2Fimpact-report-transforming-government-services-through-technology-and&text=IMPACT%20REPORT%3A%20Transforming%20Government...' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[522.0, 128.0, 574.0, 160.0] action='/URI' dest='http://facebook.com/sharer.php?u=%2Fthe-press-office%2F2016%2F08%2F09%2Fimpact-report-transforming-government-services-through-technology-and' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[522.0, 95.0, 550.0, 128.0] action='/URI' dest='mailto:?to=&subject=&body=%0A%2Fthe-press-office%2F2016%2F08%2F09%2Fimpact-report-transforming-government-services-through-technology-and' widget=False field=None struct_parent=None | (0, 0): page=1 subtype=Link flags=4 rect=[271.0, 710.0, 342.0, 760.0] action='/URI' dest='https://www.whitehouse.gov/' widget=False field=None struct_parent=None | (0, 0): page=2 subtype=Link flags=4 rect=[151.0, 236.0, 327.0, 249.0] action='/URI' dest='https://www.vets.gov/healthcare/apply/application/' widget=False field=None struct_parent=None | (0, 0): page=3 subtype=Link flags=4 rect=[397.0, 402.0, 441.0, 415.0] action='/URI' dest='http://vets.gov/' widget=False field=None struct_parent=None | (0, 0): page=3 subtype=Link flags=4 rect=[58.0, 367.0, 491.0, 398.0] action='/URI' dest='https://www.vets.gov/playbook/' widget=False field=None struct_parent=None | (0, 0): page=3 subtype=Link flags=4 rect=[112.0, 194.0, 237.0, 207.0] action='/URI' dest='http://studentloans.gov/repay' widget=False field=None struct_parent=None | (0, 0): page=3 subtype=Link flags=4 rect=[58.0, 90.0, 454.0, 120.0] action='/URI' dest='https://medium.com/the-u-s-digital-service/new-tool-launches-to-improve-the-benefits-claim-appeals-process-at-the-va-59c2557a4a1c' widget=False field=None struct_parent=None | (0, 0): page=4 subtype=Link flags=4 rect=[332.0, 541.0, 401.0, 554.0] action='/URI' dest='http://www.hhs.gov/blog/2016/04/27/paying-what-works.html' widget=False field=None struct_parent=None | (0, 0): page=4 subtype=Link flags=4 rect=[122.0, 506.0, 263.0, 519.0] action='/URI' dest='https://www.whitehouse.gov/precision-medicine' widget=False field=None struct_parent=None | (0, 0): page=4 subtype=Link flags=4 rect=[300.0, 367.0, 391.0, 380.0] action='/URI' dest='https://medium.com/@DefenseDigitalService/hacking-the-pentagon-69486aa9f226' widget=False field=None struct_parent=None | (0, 0): page=5 subtype=Link flags=4 rect=[385.0, 429.0, 462.0, 442.0] action='/URI' dest='http://certify.sba.gov/' widget=False field=None struct_parent=None | (0, 0): page=5 subtype=Link flags=4 rect=[230.0, 359.0, 273.0, 372.0] action='/URI' dest='https://playbook.cio.gov/techfar/' widget=False field=None struct_parent=None | (0, 0): page=5 subtype=Link flags=4 rect=[315.0, 359.0, 381.0, 372.0] action='/URI' dest='http://techfarhub.cio.gov/' widget=False field=None struct_parent=None | (0, 0): page=5 subtype=Link flags=4 rect=[81.0, 238.0, 497.0, 268.0] action='/URI' dest='https://medium.com/@USDigitalService/congratulating-our-challenge-gov-winners-f6ec5deefbd6' widget=False field=None struct_parent=None | (0, 0): page=5 subtype=Link flags=4 rect=[127.0, 91.0, 252.0, 104.0] action='/URI' dest='https://playbook.cio.gov/' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[76.0, 731.0, 213.0, 744.0] action='/URI' dest='https://standards.usa.gov/' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[58.0, 593.0, 475.0, 623.0] action='/URI' dest='https://analytics.usa.gov/' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[248.0, 575.0, 376.0, 588.0] action='/URI' dest='https://www.digitalgov.gov/services/dap/' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[339.0, 394.0, 407.0, 407.0] action='/URI' dest='http://usds.gov/join' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[182.0, 338.0, 196.0, 355.0] action='/URI' dest='http://twitter.com/whitehouse' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[212.0, 338.0, 225.0, 355.0] action='/URI' dest='http://instagram.com/whitehouse' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[242.0, 338.0, 250.0, 355.0] action='/URI' dest='http://facebook.com/whitehouse' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[267.0, 338.0, 279.0, 355.0] action='/URI' dest='https://plus.google.com/+whitehouse' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[297.0, 338.0, 311.0, 355.0] action='/URI' dest='http://www.youtube.com/user/whitehouse' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[328.0, 338.0, 339.0, 355.0] action='/URI' dest='http://www.whitehouse.gov/engage' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[357.0, 338.0, 385.0, 355.0] action='/URI' dest='http://www.whitehouse.gov/contact' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[402.0, 338.0, 417.0, 355.0] action='/URI' dest='http://www.whitehouse.gov/email-updates' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[81.0, 302.0, 109.0, 312.0] action='/URI' dest='https://www.whitehouse.gov/' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[126.0, 302.0, 203.0, 312.0] action='/URI' dest='https://www.whitehouse.gov/briefing-room' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[220.0, 302.0, 254.0, 312.0] action='/URI' dest='https://www.whitehouse.gov/issues' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[271.0, 302.0, 373.0, 312.0] action='/URI' dest='https://www.whitehouse.gov/administration' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[391.0, 302.0, 451.0, 312.0] action='/URI' dest='https://www.whitehouse.gov/participate' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[468.0, 302.0, 518.0, 312.0] action='/URI' dest='https://www.whitehouse.gov/1600' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[134.0, 268.0, 183.0, 279.0] action='/URI' dest='http://www.whitehouse.gov/espanol' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[198.0, 268.0, 248.0, 279.0] action='/URI' dest='http://www.whitehouse.gov/accessibility' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[264.0, 268.0, 353.0, 279.0] action='/URI' dest='http://www.whitehouse.gov/copyright' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[368.0, 268.0, 427.0, 279.0] action='/URI' dest='http://www.whitehouse.gov/privacy' widget=False field=None struct_parent=None | (0, 0): page=6 subtype=Link flags=4 rect=[441.0, 268.0, 479.0, 279.0] action='/URI' dest='http://www.usa.gov/' widget=False field=None struct_parent=None",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 55,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 6,
+            "HidesAnnotationTest": "NotApplicable",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "NotApplicable",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "NotApplicable",
+            "FiguresAltTextIssues": "",
+            "Exempt": true,
+            "Date": "2017-01-10 03:20:10+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": null,
+            "Producer": null,
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 6,
+            "Words": 2230,
+            "Images": 2,
+            "fonts": 4,
+            "numTxtObjects": 305,
+            "DocCategory": "Report"
+          },
+          "errors": [
+            "title, tagged, lang, annotations-untagged, "
+          ],
+          "analysed_at": "2026-07-06T14:30:55.502775+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:31:06.138031+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "engine": "bloom",
+      "engine_status": "error"
     },
     {
       "url": "https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf",
@@ -424468,11 +424769,135 @@
             "title, tagged, lang, annotations-untagged, "
           ],
           "analysed_at": "2026-07-06T14:30:55.502775+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:31:06.138031+00:00"
         }
       },
       "notes": "What happens to the notes?",
       "engine": "original",
       "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf",
+      "md5": "aa1f6b460bfd12cb744f2ad847f4351a",
+      "file_hash": "1df9c3d4eadd08bc842f68b98044f072a148a77daa32e219bfe83c33637ead6e",
+      "filename": "USDS-2024-Impact-Report.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T14:28:46.954489+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "No module named 'simpla11ypdf'"
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "usds.gov",
+            "File": "USDS-2024-Impact-Report.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Fail",
+            "ImageAltTextTest": "Pass",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 62,
+            "AnnotationSubtypeCounts": "Link=62",
+            "LinkAnnotationCount": 62,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Fail",
+            "TaggedAnnotationIssues": "(1313, 0): page=23 dest='https://www.usds.gov/impact-report/2024/': link annotation has no /StructParent",
+            "AnnotationSummary": "(1411, 0): page=3 subtype=Link flags=None rect=[157.68, 632.1, 561.0, 618.81] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26656:345' widget=False field=None struct_parent=4 | (1412, 0): page=3 subtype=Link flags=None rect=[93.0876, 548.42, 237.0, 535.82] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26660:346' widget=False field=None struct_parent=5 | (1413, 0): page=3 subtype=Link flags=None rect=[93.1908, 537.3, 561.0, 524.01] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26664:347' widget=False field=None struct_parent=6 | (1414, 0): page=3 subtype=Link flags=None rect=[93.1308, 504.62, 309.0, 492.02] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26672:349' widget=False field=None struct_parent=7 | (1415, 0): page=3 subtype=Link flags=None rect=[93.2604, 493.5, 561.0, 480.21] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26676:350' widget=False field=None struct_parent=8 | (1416, 0): page=3 subtype=Link flags=None rect=[92.478, 460.82, 489.0, 448.22] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26684:352' widget=False field=None struct_parent=9 | (1417, 0): page=3 subtype=Link flags=None rect=[93.5004, 449.7, 561.0, 436.41] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26688:353' widget=False field=None struct_parent=10 | (1418, 0): page=3 subtype=Link flags=None rect=[92.478, 417.02, 370.187, 404.42] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26696:355' widget=False field=None struct_parent=11 | (1419, 0): page=3 subtype=Link flags=None rect=[93.4104, 405.02, 417.0, 392.42] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26696:355' widget=False field=None struct_parent=12 | (1420, 0): page=3 subtype=Link flags=None rect=[92.928, 393.9, 561.0, 380.42] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26700:356' widget=False field=None struct_parent=13 | (1421, 0): page=3 subtype=Link flags=None rect=[92.478, 361.22, 273.0, 348.62] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26708:358' widget=False field=None struct_parent=14 | (1422, 0): page=3 subtype=Link flags=None rect=[93.27, 350.1, 561.0, 336.81] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26713:359' widget=False field=None struct_parent=15 | (1423, 0): page=3 subtype=Link flags=None rect=[92.478, 317.42, 453.0, 304.82] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26717:360' widget=False field=None struct_parent=16 | (1424, 0): page=3 subtype=Link flags=None rect=[93.2604, 306.3, 561.0, 293.01] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26721:361' widget=False field=None struct_parent=17 | (1425, 0): page=3 subtype=Link flags=None rect=[92.478, 273.62, 309.0, 261.02] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26725:362' widget=False field=None struct_parent=18 | (1426, 0): page=3 subtype=Link flags=None rect=[93.5004, 262.5, 561.0, 249.21] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26729:363' widget=False field=None struct_parent=19 | (1427, 0): page=3 subtype=Link flags=None rect=[93.2976, 229.82, 273.0, 217.22] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26733:364' widget=False field=None struct_parent=20 | (1428, 0): page=3 subtype=Link flags=None rect=[93.5004, 218.7, 561.0, 205.41] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26737:365' widget=False field=None struct_parent=21 | (1429, 0): page=3 subtype=Link flags=None rect=[93.1308, 186.02, 277.637, 173.42] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26741:366' widget=False field=None struct_parent=22 | (1430, 0): page=3 subtype=Link flags=None rect=[93.1908, 174.9, 561.0, 161.61] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26745:367' widget=False field=None struct_parent=23 | (1431, 0): page=3 subtype=Link flags=None rect=[92.478, 142.22, 309.0, 129.62] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26749:368' widget=False field=None struct_parent=24 | (1432, 0): page=3 subtype=Link flags=None rect=[93.2604, 131.1, 561.0, 117.81] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26754:369' widget=False field=None struct_parent=25 | (1433, 0): page=3 subtype=Link flags=None rect=[93.318, 99.3001, 561.0, 86.0101] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26758:370' widget=False field=None struct_parent=26 | (1434, 0): page=3 subtype=Link flags=None rect=[75.4566, 632.12, 81.5066, 618.83] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26829:375' widget=False field=None struct_parent=27 | (1435, 0): page=3 subtype=Link flags=None rect=[0.0, 593.12, 81.6976, 579.83] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26833:377' widget=False field=None struct_parent=28 | (1436, 0): page=3 subtype=Link flags=None rect=[75.4467, 581.12, 82.0566, 567.83] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26833:377' widget=False field=None struct_parent=29 | (1437, 0): page=3 subtype=Link flags=None rect=[0.0, 549.32, 81.6976, 536.03] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26825:373' widget=False field=None struct_parent=30 | (1438, 0): page=3 subtype=Link flags=None rect=[75.0717, 537.32, 81.7816, 524.03] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26825:373' widget=False field=None struct_parent=31 | (1439, 0): page=3 subtype=Link flags=None rect=[75.0357, 493.52, 81.4456, 480.23] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26839:380' widget=False field=None struct_parent=32 | (1440, 0): page=3 subtype=Link flags=None rect=[70.3457, 449.72, 81.4956, 436.24] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26841:381' widget=False field=None struct_parent=33 | (1441, 0): page=3 subtype=Link flags=None rect=[70.8767, 393.92, 81.5066, 380.63] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26847:384' widget=False field=None struct_parent=34 | (1442, 0): page=3 subtype=Link flags=None rect=[0.0, 362.12, 81.6976, 348.83] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26849:385' widget=False field=None struct_parent=35 | (1443, 0): page=3 subtype=Link flags=None rect=[71.2397, 350.12, 81.4796, 336.83] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26849:385' widget=False field=None struct_parent=36 | (1444, 0): page=3 subtype=Link flags=None rect=[70.8667, 306.32, 82.0566, 293.03] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26855:388' widget=False field=None struct_parent=37 | (1445, 0): page=3 subtype=Link flags=None rect=[70.9377, 262.52, 81.6376, 249.23] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26857:389' widget=False field=None struct_parent=38 | (1446, 0): page=3 subtype=Link flags=None rect=[0.0, 230.72, 81.6976, 217.43] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26861:391' widget=False field=None struct_parent=39 | (1447, 0): page=3 subtype=Link flags=None rect=[70.4918, 218.72, 81.7816, 205.43] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26861:391' widget=False field=None struct_parent=40 | (1448, 0): page=3 subtype=Link flags=None rect=[0.0, 186.92, 81.6976, 173.63] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26865:393' widget=False field=None struct_parent=41 | (1449, 0): page=3 subtype=Link flags=None rect=[0.0, 174.92, 81.6026, 161.63] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26865:393' widget=False field=None struct_parent=42 | (1450, 0): page=3 subtype=Link flags=None rect=[70.4558, 131.12, 81.4456, 117.83] action='/GoTo' dest='USDS-Impact-Report-2024-draft-8.10.24.indd:.26863:392' widget=False field=None struct_parent=43 | (1391, 0): page=5 subtype=Link flags=None rect=[108.248, 564.68, 192.953, 552.08] action='/URI' dest='https://www.irs.gov/pub/irs-pdf/i1040gi.pdf#page=107' widget=False field=None struct_parent=46 | (1392, 0): page=5 subtype=Link flags=None rect=[141.196, 418.88, 284.854, 406.28] action='/URI' dest='https://www.usds.gov/projects/direct-file' widget=False field=None struct_parent=47 | (1393, 0): page=5 subtype=Link flags=None rect=[81.0876, 405.38, 114.191, 392.78] action='/URI' dest='https://www.usds.gov/projects/direct-file' widget=False field=None struct_parent=48 | (1394, 0): page=5 subtype=Link flags=None rect=[379.83, 387.38, 439.781, 374.78] action='/URI' dest='https://www.section508.gov/manage/section-508-assessment/' widget=False field=None struct_parent=49 | (1384, 0): page=6 subtype=Link flags=None rect=[149.087, 378.38, 274.591, 365.78] action='/URI' dest='https://www.irs.gov/newsroom/irs-makes-direct-file-a-permanent-option-to-file-federal-tax-returns-expanded-access-for-more-taxpayers-planned-for-the-2025-filing-season' widget=False field=None struct_parent=51 | (1385, 0): page=6 subtype=Link flags=None rect=[81.1908, 364.88, 111.039, 352.28] action='/URI' dest='https://www.irs.gov/newsroom/irs-makes-direct-file-a-permanent-option-to-file-federal-tax-returns-expanded-access-for-more-taxpayers-planned-for-the-2025-filing-season' widget=False field=None struct_parent=52 | (1377, 0): page=8 subtype=Link flags=None rect=[102.677, 460.89, 136.686, 448.37] action='/URI' dest='http://SSA.gov' widget=False field=None struct_parent=55 | (1399, 0): page=9 subtype=Link flags=None rect=[179.759, 564.68, 266.551, 552.08] action='/URI' dest='https://www.cdc.gov/museum/timeline/covid19.html' widget=False field=None struct_parent=57 | (1400, 0): page=9 subtype=Link flags=None rect=[81.1908, 551.18, 194.185, 538.58] action='/URI' dest='https://www.cdc.gov/museum/timeline/covid19.html' widget=False field=None struct_parent=58 | (1359, 0): page=10 subtype=Link flags=None rect=[100.767, 289.164, 178.079, 276.644] action='/URI' dest='http://USDS.gov/projects' widget=False field=None struct_parent=60 | (1343, 0): page=12 subtype=Link flags=None rect=[217.798, 93.9899, 253.223, 81.47] action='/URI' dest='http://CMS.gov' widget=False field=None struct_parent=63 | (1338, 0): page=13 subtype=Link flags=None rect=[379.235, 249.64, 478.214, 237.04] action='/URI' dest='https://www.whitehouse.gov/formula/' widget=False field=None struct_parent=65 | (1304, 0): page=17 subtype=Link flags=None rect=[80.4324, 343.21, 149.064, 330.736] action='/URI' dest='https://www.performance.gov/cx/life-experiences/having-a-child-and-early-childhood/' widget=False field=None struct_parent=70 | (1280, 0): page=19 subtype=Link flags=None rect=[82.9945, 85.032, 278.344, 75.016] action='/URI' dest='https://www.cms.gov/newsroom/fact-sheets/marketplace-2024-open-enrollment-period-report-final-national-snapshot' widget=False field=None struct_parent=73 | (1281, 0): page=19 subtype=Link flags=None rect=[76.0828, 75.4319, 279.603, 65.416] action='/URI' dest='https://www.cms.gov/newsroom/fact-sheets/marketplace-2024-open-enrollment-period-report-final-national-snapshot' widget=False field=None struct_parent=74 | (1256, 0): page=20 subtype=Link flags=None rect=[493.467, 429.14, 532.074, 416.54] action='/URI' dest='https://www.whitehouse.gov/briefing-room/statements-releases/2023/07/11/fact-sheet-vice-president-harris-announces-actions-to-lower-child-care-costs-and-support-child-care-providers/' widget=False field=None struct_parent=79 | (1257, 0): page=20 subtype=Link flags=None rect=[347.878, 415.64, 438.292, 403.04] action='/URI' dest='https://www.whitehouse.gov/briefing-room/statements-releases/2023/07/11/fact-sheet-vice-president-harris-announces-actions-to-lower-child-care-costs-and-support-child-care-providers/' widget=False field=None struct_parent=80 | (1258, 0): page=20 subtype=Link flags=None rect=[237.954, 391.34, 277.365, 378.74] action='/URI' dest='https://childcareta.acf.hhs.gov/creating-family-friendly-child-care-assistance-application?guestaccesstoken=NE5x%2BKGTKsFp9EzK%2F3nkSmYyKq1ztYwcTboI90Z1FcI%3D&docid=2_192c704b9228b4e2abf1ff42bdbf72da7&rev=1' widget=False field=None struct_parent=76 | (1259, 0): page=20 subtype=Link flags=None rect=[82.1308, 377.84, 284.21, 365.24] action='/URI' dest='https://childcareta.acf.hhs.gov/creating-family-friendly-child-care-assistance-application?guestaccesstoken=NE5x%2BKGTKsFp9EzK%2F3nkSmYyKq1ztYwcTboI90Z1FcI%3D&docid=2_192c704b9228b4e2abf1ff42bdbf72da7&rev=1' widget=False field=None struct_parent=77 | (1260, 0): page=20 subtype=Link flags=None rect=[81.8824, 364.34, 130.198, 351.74] action='/URI' dest='https://childcareta.acf.hhs.gov/creating-family-friendly-child-care-assistance-application?guestaccesstoken=NE5x%2BKGTKsFp9EzK%2F3nkSmYyKq1ztYwcTboI90Z1FcI%3D&docid=2_192c704b9228b4e2abf1ff42bdbf72da7&rev=1' widget=False field=None struct_parent=78 | (1313, 0): page=23 subtype=Link flags=None rect=[-2.0, 175.52, 614.0, 136.96] action='/URI' dest='https://www.usds.gov/impact-report/2024/' widget=False field=None struct_parent=None | (1314, 0): page=23 subtype=Link flags=None rect=[260.328, 125.006, 352.672, 79.0] action='/URI' dest='https://www.usds.gov/impact-report/2024/' widget=False field=None struct_parent=83",
+            "LinkStructureCount": 48,
+            "ExternalLinkAnnotationCount": 22,
+            "InternalLinkAnnotationCount": 40,
+            "AnnotationPagesWithLinks": 12,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "Pass",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "Pass",
+            "ListCount": 24,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Pass",
+            "FiguresAltTextIssues": "",
+            "Exempt": false,
+            "Date": "2024-08-12 21:18:03+00:00",
+            "hasTitle": true,
+            "hasDisplayDocTitle": false,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.6",
+            "Creator": "Adobe InDesign 18.4 (Macintosh)",
+            "Producer": "Adobe PDF Library 17.0",
+            "Title": "United States Digital Service 2024 Impact Report",
+            "Author": "United States Digital Service",
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 23,
+            "Words": 6960,
+            "Images": 16,
+            "fonts": 9,
+            "numTxtObjects": 740,
+            "DocCategory": "Report"
+          },
+          "errors": [
+            "title, no bookmarks and more than 20 pages, headings-none, annotations-tagging-fail, "
+          ],
+          "analysed_at": "2026-07-06T14:31:11.381958+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "No module named 'simpla11ypdf'"
+          ],
+          "analysed_at": "2026-07-06T15:31:20.395329+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "link_text": "Download thefull report (PDF)",
+      "engine": "bloom",
+      "engine_status": "error"
     },
     {
       "url": "https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf",
@@ -424656,11 +425081,135 @@
             "title, no bookmarks and more than 20 pages, headings-none, annotations-tagging-fail, "
           ],
           "analysed_at": "2026-07-06T14:31:11.381958+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "No module named 'simpla11ypdf'"
+          ],
+          "analysed_at": "2026-07-06T15:31:20.395329+00:00"
         }
       },
       "notes": "What happens to the notes?",
+      "link_text": "Download thefull report (PDF)",
       "engine": "original",
       "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf",
+      "md5": "52bf1b287e0bd2990ecb4bfb73ba0b1a",
+      "file_hash": "d54d316dfdbed3c606506498d79a6f444a94d6c0a1cd6c8728189734af5b03ec",
+      "filename": "USDS-Impact-Report-2020.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T14:28:46.961569+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "usds.gov",
+            "File": "USDS-Impact-Report-2020.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 37,
+            "AnnotationSubtypeCounts": "Link=37",
+            "LinkAnnotationCount": 37,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Pass",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(144, 0): page=3 subtype=Link flags=None rect=[81.0312, 578.338, 424.218, 564.478] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16783:190' widget=False field=None struct_parent=2 | (145, 0): page=3 subtype=Link flags=None rect=[81.504, 517.852, 208.474, 505.927] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16787:191' widget=False field=None struct_parent=3 | (137, 0): page=3 subtype=Link flags=None rect=[81.0456, 503.419, 424.246, 489.559] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16791:192' widget=False field=None struct_parent=4 | (139, 0): page=3 subtype=Link flags=None rect=[81.0456, 487.419, 424.307, 473.559] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16799:194' widget=False field=None struct_parent=5 | (135, 0): page=3 subtype=Link flags=None rect=[81.0936, 462.852, 257.753, 450.927] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16803:195' widget=False field=None struct_parent=6 | (136, 0): page=3 subtype=Link flags=None rect=[81.1068, 448.419, 424.097, 434.559] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16807:196' widget=False field=None struct_parent=7 | (138, 0): page=3 subtype=Link flags=None rect=[81.0456, 432.419, 424.933, 418.559] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16815:198' widget=False field=None struct_parent=8 | (132, 0): page=3 subtype=Link flags=None rect=[81.504, 407.852, 222.067, 395.927] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16819:199' widget=False field=None struct_parent=9 | (133, 0): page=3 subtype=Link flags=None rect=[81.2076, 393.419, 424.108, 379.559] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16823:200' widget=False field=None struct_parent=10 | (130, 0): page=3 subtype=Link flags=None rect=[81.0456, 377.419, 424.198, 363.559] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16831:202' widget=False field=None struct_parent=11 | (131, 0): page=3 subtype=Link flags=None rect=[81.504, 352.852, 277.466, 340.927] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16835:203' widget=False field=None struct_parent=12 | (134, 0): page=3 subtype=Link flags=None rect=[81.2076, 338.419, 424.021, 324.559] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16839:204' widget=False field=None struct_parent=13 | (129, 0): page=3 subtype=Link flags=None rect=[81.504, 313.852, 173.493, 301.927] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16843:205' widget=False field=None struct_parent=14 | (104, 0): page=3 subtype=Link flags=None rect=[81.2076, 299.419, 424.955, 285.559] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16847:206' widget=False field=None struct_parent=15 | (105, 0): page=3 subtype=Link flags=None rect=[81.192, 237.627, 320.157, 225.702] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16856:208' widget=False field=None struct_parent=16 | (126, 0): page=3 subtype=Link flags=None rect=[81.078, 223.194, 424.407, 209.334] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16860:209' widget=False field=None struct_parent=17 | (127, 0): page=3 subtype=Link flags=None rect=[81.504, 198.627, 286.239, 186.702] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16872:212' widget=False field=None struct_parent=18 | (124, 0): page=3 subtype=Link flags=None rect=[81.1968, 184.194, 424.246, 170.334] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16876:213' widget=False field=None struct_parent=19 | (125, 0): page=3 subtype=Link flags=None rect=[81.1284, 159.627, 146.037, 147.702] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16880:214' widget=False field=None struct_parent=20 | (128, 0): page=3 subtype=Link flags=None rect=[81.2076, 145.194, 424.307, 131.334] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16884:215' widget=False field=None struct_parent=21 | (102, 0): page=3 subtype=Link flags=None rect=[81.1068, 129.194, 424.097, 115.334] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16897:218' widget=False field=None struct_parent=22 | (103, 0): page=3 subtype=Link flags=None rect=[81.1068, 113.194, 424.933, 99.3337] action='/GoTo' dest='USDS-Impact-Report-2020.indd:.16906:220' widget=False field=None struct_parent=23 | (186, 0): page=7 subtype=Link flags=None rect=[393.084, 254.891, 429.539, 243.623] action='/URI' dest='http://youtu.be/H8hndge4wLc' widget=False field=None struct_parent=29 | (170, 0): page=7 subtype=Link flags=None rect=[319.692, 243.891, 373.425, 232.623] action='/URI' dest='http://youtu.be/H8hndge4wLc' widget=False field=None struct_parent=30 | (189, 0): page=7 subtype=Link flags=None rect=[459.25, 287.92, 535.25, 211.92] action='/URI' dest='http://youtu.be/H8hndge4wLc' widget=False field=None struct_parent=31 | (172, 0): page=7 subtype=Link flags=None rect=[317.375, 421.399, 535.375, 296.915] action='/URI' dest='http://youtu.be/H8hndge4wLc' widget=False field=None struct_parent=28 | (194, 0): page=9 subtype=Link flags=None rect=[317.418, 224.497, 401.173, 213.229] action='/URI' dest='https://youtu.be/zIwphPlI9RA' widget=False field=None struct_parent=35 | (197, 0): page=9 subtype=Link flags=None rect=[457.0, 268.526, 533.0, 192.526] action='/URI' dest='https://youtu.be/zIwphPlI9RA' widget=False field=None struct_parent=36 | (195, 0): page=9 subtype=Link flags=None rect=[315.125, 404.005, 533.125, 279.521] action='/URI' dest='https://youtu.be/zIwphPlI9RA' widget=False field=None struct_parent=34 | (198, 0): page=10 subtype=Link flags=None rect=[319.691, 227.98, 428.703, 215.38] action='/URI' dest='https://egov.uscis.gov/casestatus' widget=False field=None struct_parent=38 | (216, 0): page=11 subtype=Link flags=None rect=[369.193, 148.971, 432.477, 137.703] action='/URI' dest='https://schoolsafety.gov' widget=False field=None struct_parent=42 | (219, 0): page=11 subtype=Link flags=None rect=[459.25, 182.0, 535.25, 106.0] action='/URI' dest='https://schoolsafety.gov' widget=False field=None struct_parent=41 | (217, 0): page=11 subtype=Link flags=None rect=[317.375, 315.479, 535.375, 190.995] action='/URI' dest='https://schoolsafety.gov' widget=False field=None struct_parent=40 | (222, 0): page=12 subtype=Link flags=None rect=[319.871, 322.301, 467.593, 311.033] action='/URI' dest='https://www.hud.gov/fairhousingis50/openingdoors' widget=False field=None struct_parent=44 | (227, 0): page=15 subtype=Link flags=None rect=[192.343, 251.88, 231.348, 239.28] action='/URI' dest='https://www.chcoc.gov/content/improving-federal-hiring-through-use-effective-assessment-strategies-advance-mission' widget=False field=None struct_parent=48 | (224, 0): page=15 subtype=Link flags=None rect=[81.0876, 238.38, 149.566, 225.78] action='/URI' dest='https://www.chcoc.gov/content/improving-federal-hiring-through-use-effective-assessment-strategies-advance-mission' widget=False field=None struct_parent=49 | (228, 0): page=16 subtype=Link flags=None rect=[98.4207, 170.88, 166.029, 158.28] action='/URI' dest='https://www.whitehouse.gov/wp-content/uploads/2018/05/fac_c_digital_services_05_12_18.pdf' widget=False field=None struct_parent=51",
+            "LinkStructureCount": 35,
+            "ExternalLinkAnnotationCount": 15,
+            "InternalLinkAnnotationCount": 22,
+            "AnnotationPagesWithLinks": 8,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "Pass",
+            "ListCount": 3,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=147)",
+            "Exempt": false,
+            "Date": "2020-06-30 17:04:39+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": true,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign 15.0 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 20,
+            "Words": 5407,
+            "Images": 23,
+            "fonts": 9,
+            "numTxtObjects": 563,
+            "DocCategory": "Report"
+          },
+          "errors": [
+            "title, figures missing alt text (count=147), headings-none, "
+          ],
+          "analysed_at": "2026-07-06T14:31:27.075644+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:31:34.861881+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "engine": "bloom",
+      "engine_status": "error"
     },
     {
       "url": "https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf",
@@ -424844,11 +425393,134 @@
             "title, figures missing alt text (count=147), headings-none, "
           ],
           "analysed_at": "2026-07-06T14:31:27.075644+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:31:34.861881+00:00"
         }
       },
       "notes": "What happens to the notes?",
       "engine": "original",
       "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.usds.gov/assets/files/USDS-Overview.pdf",
+      "md5": "4359199fa585b1a479543a2793e8a706",
+      "file_hash": "581354b87f7f8be44baf34028d273f244f618d7ff778824f4b29e13641b58336",
+      "filename": "USDS-Overview.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T14:28:46.963982+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "No module named 'simpla11ypdf'"
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "usds.gov",
+            "File": "USDS-Overview.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 4,
+            "AnnotationSubtypeCounts": "Link=4",
+            "LinkAnnotationCount": 4,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Fail",
+            "TaggedAnnotationIssues": "(279, 0): page=1 dest='mailto:USDS%40omb.eop.gov?subject=': link annotation has no /StructParent | (3, 0): page=2 dest='http://www.usds.gov': link annotation has no /StructParent",
+            "AnnotationSummary": "(278, 0): page=1 subtype=Link flags=None rect=[44.08, 762.32, 138.08, 695.32] action='/URI' dest='https://www.usds.gov/' widget=False field=None struct_parent=1 | (279, 0): page=1 subtype=Link flags=None rect=[49.0, 52.4, 403.04, -2.0] action='/URI' dest='mailto:USDS%40omb.eop.gov?subject=' widget=False field=None struct_parent=None | (26, 0): page=2 subtype=Link flags=None rect=[501.125, 760.05, 573.375, 715.1] action='/URI' dest='http://www.usds.gov' widget=False field=None struct_parent=3 | (3, 0): page=2 subtype=Link flags=None rect=[49.0, 52.4, 403.04, -2.0] action='/URI' dest='http://www.usds.gov' widget=False field=None struct_parent=None",
+            "LinkStructureCount": 2,
+            "ExternalLinkAnnotationCount": 4,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 2,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "Pass",
+            "ListCount": 1,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=2)",
+            "Exempt": false,
+            "Date": "2023-04-05 21:07:12+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign 15.1 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 2,
+            "Words": 645,
+            "Images": 2,
+            "fonts": 6,
+            "numTxtObjects": 68
+          },
+          "errors": [
+            "title, figures missing alt text (count=2), headings-none, annotations-tagging-fail, "
+          ],
+          "analysed_at": "2026-07-06T14:31:42.187405+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "No module named 'simpla11ypdf'"
+          ],
+          "analysed_at": "2026-07-06T15:31:49.085713+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "link_text": "Press sheet [PDF, 2 pages]",
+      "engine": "bloom",
+      "engine_status": "error"
     },
     {
       "url": "https://www.usds.gov/assets/files/USDS-Overview.pdf",
@@ -425030,11 +425702,135 @@
             "title, figures missing alt text (count=2), headings-none, annotations-tagging-fail, "
           ],
           "analysed_at": "2026-07-06T14:31:42.187405+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "No module named 'simpla11ypdf'"
+          ],
+          "analysed_at": "2026-07-06T15:31:49.085713+00:00"
         }
       },
       "notes": "What happens to the notes?",
+      "link_text": "Press sheet [PDF, 2 pages]",
       "engine": "original",
       "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf",
+      "md5": "a8a638f3ef507207551cf42efdab5daa",
+      "file_hash": "4ddeb10122c2821c83bed1fe62253e294140e61dc447f789c4fff4825bdb40aa",
+      "filename": "USDS-Press-Sheet.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T14:28:46.966116+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "usds.gov",
+            "File": "USDS-Press-Sheet.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 4,
+            "AnnotationSubtypeCounts": "Link=4",
+            "LinkAnnotationCount": 4,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Pass",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(327, 0): page=1 subtype=Link flags=None rect=[481.0, 762.702, 575.0, 695.702] action=None dest=None widget=False field=None struct_parent=1 | (19, 0): page=2 subtype=Link flags=None rect=[530.612, 45.516, 566.625, 33.303] action='/URI' dest='http://usds.gov' widget=False field=None struct_parent=4 | (16, 0): page=2 subtype=Link flags=None rect=[127.834, 45.516, 233.034, 33.303] action='/URI' dest='mailto:USDSpress%40omb.eop.gov?subject=Press%20inquiry%20about%20USDS' widget=False field=None struct_parent=5 | (17, 0): page=2 subtype=Link flags=None rect=[506.0, 760.05, 568.5, 715.1] action='/URI' dest='http://usds.gov' widget=False field=None struct_parent=3",
+            "LinkStructureCount": 4,
+            "ExternalLinkAnnotationCount": 3,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 2,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=69)",
+            "Exempt": false,
+            "Date": "2020-09-24 20:37:14+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.5",
+            "Creator": "Adobe InDesign 15.0 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 2,
+            "Words": 550,
+            "Images": 2,
+            "fonts": 6,
+            "numTxtObjects": 76,
+            "DocCategory": "Press"
+          },
+          "errors": [
+            "title, figures missing alt text (count=69), headings-none, "
+          ],
+          "analysed_at": "2026-07-06T14:31:56.833581+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:32:03.647096+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "engine": "bloom",
+      "engine_status": "error"
     },
     {
       "url": "https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf",
@@ -425218,11 +426014,133 @@
             "title, figures missing alt text (count=69), headings-none, "
           ],
           "analysed_at": "2026-07-06T14:31:56.833581+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:32:03.647096+00:00"
         }
       },
       "notes": "What happens to the notes?",
       "engine": "original",
       "engine_status": "analysed"
+    },
+    {
+      "url": "https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf",
+      "md5": "27f2fe3ec256d981cd2abe71612f323e",
+      "file_hash": "a77ddf979575ed479b63ff8fda9446a4bb04ce03e549c14ee5cf096d5503ce65",
+      "filename": "USDS-SBA8a_Brief.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T14:28:46.968859+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "usds.gov",
+            "File": "USDS-SBA8a_Brief.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Fail",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": null,
+            "TaggedContentTest": "Fail",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "NotApplicable",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "NotApplicable",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "NotApplicable",
+            "FiguresAltTextIssues": "",
+            "Exempt": true,
+            "Date": "2017-05-01 18:24:36+00:00",
+            "hasTitle": true,
+            "hasDisplayDocTitle": false,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.3",
+            "Creator": "Adobe InDesign CS5.5 (7.5)",
+            "Producer": "Adobe PDF Library 9.9",
+            "Title": "Getting Started With USDS 8a Digital Services",
+            "Author": "{'U.S. Digital Service Acquisitions Team'}",
+            "Subject": "{'8a', 'SBA', 'procuremenati', 'USDS'}",
+            "Keywords": "8a, SBA, USDS, procuremenati",
+            "Description": "8a, SBA, USDS",
+            "Pages": 1,
+            "Words": 85,
+            "Images": 2,
+            "fonts": 5,
+            "numTxtObjects": 19
+          },
+          "errors": [
+            "title, tagged, lang, "
+          ],
+          "analysed_at": "2026-07-06T14:32:11.322086+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:32:17.978814+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "engine": "bloom",
+      "engine_status": "error"
     },
     {
       "url": "https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf",
@@ -425404,11 +426322,133 @@
             "title, tagged, lang, "
           ],
           "analysed_at": "2026-07-06T14:32:11.322086+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:32:17.978814+00:00"
         }
       },
       "notes": "What happens to the notes?",
       "engine": "original",
       "engine_status": "analysed"
+    },
+    {
+      "url": "https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf",
+      "md5": "492e3aec80a81eac45b238d092b10d9d",
+      "file_hash": "3d58a1abc7170179312dd41d6a4c8e4a7f01affde256023ef7db85bdb2db7ba1",
+      "filename": "USDS-SBA8a_Detailed.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T14:28:46.971648+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "usds.gov",
+            "File": "USDS-SBA8a_Detailed.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Fail",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": null,
+            "TaggedContentTest": "Fail",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "NotApplicable",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "NotApplicable",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "NotApplicable",
+            "FiguresAltTextIssues": "",
+            "Exempt": true,
+            "Date": "2017-05-01 18:26:45+00:00",
+            "hasTitle": true,
+            "hasDisplayDocTitle": false,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.3",
+            "Creator": "Adobe InDesign CS5.5 (7.5)",
+            "Producer": "Adobe PDF Library 9.9",
+            "Title": "USDS 8a Digital Service Intiative",
+            "Author": "{'U.S. Digital Service Acquisitions Team'}",
+            "Subject": "{'8a', 'SBA', 'procuremenati', 'USDS'}",
+            "Keywords": "8a, SBA, USDS, procuremenati",
+            "Description": "8a, SBA, USDS, acquisitions",
+            "Pages": 1,
+            "Words": 286,
+            "Images": 2,
+            "fonts": 4,
+            "numTxtObjects": 28
+          },
+          "errors": [
+            "title, tagged, lang, "
+          ],
+          "analysed_at": "2026-07-06T14:32:25.845690+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:32:32.009483+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "engine": "bloom",
+      "engine_status": "error"
     },
     {
       "url": "https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf",
@@ -425590,11 +426630,133 @@
             "title, tagged, lang, "
           ],
           "analysed_at": "2026-07-06T14:32:25.845690+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:32:32.009483+00:00"
         }
       },
       "notes": "What happens to the notes?",
       "engine": "original",
       "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.usds.gov/assets/files/usds-di.pdf",
+      "md5": "375e4935dd1d4ff355fdce257dad5c0b",
+      "file_hash": "0c4bd28a6b5b7fff540a4dd13ac87076f73597e06752e520c1bce972e84ac156",
+      "filename": "usds-di.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T14:28:46.973626+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "File not found: crawled_files/usds.gov/usds-di.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "usds.gov",
+            "File": "usds-di.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 4,
+            "AnnotationSubtypeCounts": "Link=4",
+            "LinkAnnotationCount": 4,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Fail",
+            "TaggedAnnotationIssues": "(237, 0): page=1 dest='http://usds.gov': link annotation has no /StructParent | (3, 0): page=2 dest='http://usds.gov': link annotation has no /StructParent",
+            "AnnotationSummary": "(237, 0): page=1 subtype=Link flags=None rect=[475.0, 753.5, 569.0, 686.5] action='/URI' dest='http://usds.gov' widget=False field=None struct_parent=None | (238, 0): page=1 subtype=Link flags=None rect=[530.612, 45.516, 566.625, 33.303] action='/URI' dest='http://usds.gov' widget=False field=None struct_parent=2 | (239, 0): page=1 subtype=Link flags=None rect=[126.899, 45.516, 194.874, 33.303] action='/URI' dest='mailto:talent%40usds.gov?subject=I%27m%20interested%20in%20USDS' widget=False field=None struct_parent=1 | (3, 0): page=2 subtype=Link flags=None rect=[475.0, 753.5, 569.0, 686.5] action='/URI' dest='http://usds.gov' widget=False field=None struct_parent=None",
+            "LinkStructureCount": 2,
+            "ExternalLinkAnnotationCount": 4,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 2,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=55)",
+            "Exempt": false,
+            "Date": "2020-09-24 20:23:24+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.5",
+            "Creator": "Adobe InDesign 15.0 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 2,
+            "Words": 499,
+            "Images": 2,
+            "fonts": 7,
+            "numTxtObjects": 49
+          },
+          "errors": [
+            "title, figures missing alt text (count=55), headings-none, annotations-tagging-fail, "
+          ],
+          "analysed_at": "2026-07-06T14:32:40.428788+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/usds-di.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:32:46.345815+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "engine": "bloom",
+      "engine_status": "error"
     },
     {
       "url": "https://www.usds.gov/assets/files/usds-di.pdf",
@@ -425776,6 +426938,14 @@
             "title, figures missing alt text (count=55), headings-none, annotations-tagging-fail, "
           ],
           "analysed_at": "2026-07-06T14:32:40.428788+00:00"
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "File not found: crawled_files/usds.gov/usds-di.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run."
+          ],
+          "analysed_at": "2026-07-06T15:32:46.345815+00:00"
         }
       },
       "notes": "What happens to the notes?",
@@ -425789,6 +426959,193 @@
       "filename": "DOE_Fact_Sheet_Grid_Report_July_2025.pdf",
       "site": "energy.gov",
       "crawled_at": "2026-07-06T14:29:49.870731+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "energy.gov",
+        "File": "DOE_Fact_Sheet_Grid_Report_July_2025.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Pass",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": true,
+        "AnnotationCount": 7,
+        "AnnotationSubtypeCounts": "Link=7",
+        "LinkAnnotationCount": 7,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "Pass",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "(176, 0): page=2 subtype=Link flags=None rect=[128.432, 626.764, 230.404, 640.832] action='/URI' dest='https://www.powermag.com/nations-power-operators-warn-congress-of-a-coming-reliability-shortfall/' widget=False field=None struct_parent=2 | (174, 0): page=2 subtype=Link flags=None rect=[139.107, 561.111, 321.113, 575.18] action='/URI' dest='https://www.utilitydive.com/news/isos-rtos-face-growing-risk-resource-adequacy-FERC/749904/' widget=False field=None struct_parent=3 | (172, 0): page=2 subtype=Link flags=None rect=[215.748, 481.391, 255.223, 495.459] action='/URI' dest='https://www.forbes.com/sites/rrapier/2025/03/26/how-ai-data-centers-are-reshaping-americas-electric-grid/' widget=False field=None struct_parent=4 | (166, 0): page=3 subtype=Link flags=None rect=[219.498, 618.791, 399.574, 632.859] action='/URI' dest='https://www.energy.gov/ceser/federal-power-act-section-202c-midcontinent-independent-system-operator-miso' widget=False field=None struct_parent=6 | (164, 0): page=3 subtype=Link flags=None rect=[219.498, 482.244, 392.877, 496.312] action='/URI' dest='https://www.energy.gov/sites/default/files/2025-05/PREPA%20202%28c%29%20Emergency%20Measures%20Generation.pdf' widget=False field=None struct_parent=7 | (162, 0): page=3 subtype=Link flags=None rect=[219.498, 395.902, 399.574, 409.971] action='/URI' dest='https://www.energy.gov/articles/us-department-energy-issues-202c-emergency-order-safeguard-electric-grid-reliability-pjm' widget=False field=None struct_parent=8 | (160, 0): page=3 subtype=Link flags=None rect=[220.664, 259.355, 400.74, 273.424] action='/URI' dest='https://www.energy.gov/articles/secretary-wright-issues-emergency-order-secure-southeast-power-grid-amid-heat-wave' widget=False field=None struct_parent=9",
+        "LinkStructureCount": 7,
+        "ExternalLinkAnnotationCount": 7,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 2,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 4,
+        "HeadingSequence": "H3 > H2 > H2 > H2",
+        "HeadingIssues": "First known heading is H3, not H1",
+        "ListsTest": "Pass",
+        "ListCount": 25,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Pass",
+        "FiguresAltTextIssues": "",
+        "Exempt": false,
+        "Date": "2025-07-07 18:24:40+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": true,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Acrobat PDFMaker 25 for Word",
+        "Producer": "Adobe PDF Library 25.1.51",
+        "Title": null,
+        "Author": "Dankert, Charlie",
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 3,
+        "Words": 1276,
+        "Images": 0,
+        "fonts": 7,
+        "numTxtObjects": 115,
+        "DocCategory": "Report"
+      },
+      "errors": [
+        "title, headings-warn, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "energy.gov",
+            "File": "DOE_Fact_Sheet_Grid_Report_July_2025.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Pass",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 7,
+            "AnnotationSubtypeCounts": "Link=7",
+            "LinkAnnotationCount": 7,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Pass",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(176, 0): page=2 subtype=Link flags=None rect=[128.432, 626.764, 230.404, 640.832] action='/URI' dest='https://www.powermag.com/nations-power-operators-warn-congress-of-a-coming-reliability-shortfall/' widget=False field=None struct_parent=2 | (174, 0): page=2 subtype=Link flags=None rect=[139.107, 561.111, 321.113, 575.18] action='/URI' dest='https://www.utilitydive.com/news/isos-rtos-face-growing-risk-resource-adequacy-FERC/749904/' widget=False field=None struct_parent=3 | (172, 0): page=2 subtype=Link flags=None rect=[215.748, 481.391, 255.223, 495.459] action='/URI' dest='https://www.forbes.com/sites/rrapier/2025/03/26/how-ai-data-centers-are-reshaping-americas-electric-grid/' widget=False field=None struct_parent=4 | (166, 0): page=3 subtype=Link flags=None rect=[219.498, 618.791, 399.574, 632.859] action='/URI' dest='https://www.energy.gov/ceser/federal-power-act-section-202c-midcontinent-independent-system-operator-miso' widget=False field=None struct_parent=6 | (164, 0): page=3 subtype=Link flags=None rect=[219.498, 482.244, 392.877, 496.312] action='/URI' dest='https://www.energy.gov/sites/default/files/2025-05/PREPA%20202%28c%29%20Emergency%20Measures%20Generation.pdf' widget=False field=None struct_parent=7 | (162, 0): page=3 subtype=Link flags=None rect=[219.498, 395.902, 399.574, 409.971] action='/URI' dest='https://www.energy.gov/articles/us-department-energy-issues-202c-emergency-order-safeguard-electric-grid-reliability-pjm' widget=False field=None struct_parent=8 | (160, 0): page=3 subtype=Link flags=None rect=[220.664, 259.355, 400.74, 273.424] action='/URI' dest='https://www.energy.gov/articles/secretary-wright-issues-emergency-order-secure-southeast-power-grid-amid-heat-wave' widget=False field=None struct_parent=9",
+            "LinkStructureCount": 7,
+            "ExternalLinkAnnotationCount": 7,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 2,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 4,
+            "HeadingSequence": "H3 > H2 > H2 > H2",
+            "HeadingIssues": "First known heading is H3, not H1",
+            "ListsTest": "Pass",
+            "ListCount": 25,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Pass",
+            "FiguresAltTextIssues": "",
+            "Exempt": false,
+            "Date": "2025-07-07 18:24:40+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": true,
+            "hasXmp": true,
+            "PDFVersion": "1.6",
+            "Creator": "Acrobat PDFMaker 25 for Word",
+            "Producer": "Adobe PDF Library 25.1.51",
+            "Title": null,
+            "Author": "Dankert, Charlie",
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 3,
+            "Words": 1276,
+            "Images": 0,
+            "fonts": 7,
+            "numTxtObjects": 115,
+            "DocCategory": "Report"
+          },
+          "errors": [
+            "title, headings-warn, "
+          ],
+          "analysed_at": "2026-07-06T14:31:32.366838+00:00"
+        }
+      },
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.ojp.gov/pdffiles1/ojjdp/212703.pdf",
+      "md5": "9484d6f3d7a2e4782c8e8f78be1dd86c",
+      "file_hash": "6142d0a150db31867881993eddb78e3bac89aa6e4fe2c72b7e9eea717f9d7519",
+      "filename": "212703.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.603547+00:00",
       "status": "pending",
       "report": null,
       "errors": [],
@@ -425800,6 +427157,333 @@
           "analysed_at": null
         }
       },
+      "link_text": "Guide for Public Information Officers",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://dfr.oregon.gov/help/Documents/6099.pdf",
+      "md5": "d8d376c0b5a2738b7d6603fc5ccf4514",
+      "file_hash": "ad0a8d14034f9d90c0eee30e6c7f022c62da9bbe4c5814f5930df27283b3ccd5",
+      "filename": "6099.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.606393+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "PDF",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://sos.oregon.gov/blue-book/Documents/about-contest-postal-entry.pdf",
+      "md5": "b777e5ed436b624c930677fed2107e23",
+      "file_hash": "6b340709f3e96d4b60c411badd85c93679c8c59cd692c7fee2ca36f325e7456a",
+      "filename": "about-contest-postal-entry.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.620857+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "Submit Images Through the Mail",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/de3886-c2025.pdf",
+      "md5": "882a12c71a055a736ee320dcbdee0542",
+      "file_hash": "03fd79b2b2e012513de8e0edf63ace288f5b3814d3f569eac0d2a407f3064822",
+      "filename": "de3886-c2025.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.622781+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "2025 Corrections Sheet",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/de4054.pdf",
+      "md5": "59e2fddb09d200df379a0fb04a3756c5",
+      "file_hash": "01ec3a96510060721b8003982e5a07f1e8f478a650c4af5c634d5efda3483c9f",
+      "filename": "de4054.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.625949+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "by mail",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/le2996.pdf",
+      "md5": "05584e6b37e31e965efda1f04f31a195",
+      "file_hash": "7badc8a32104c9dc44c1690235f0719f634b3ffc0470dcb1ea34510e33184f44",
+      "filename": "le2996.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.628953+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "Nondiscrimination Policy",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://www.ready.gov/plan-form",
+      "md5": "7d73eeb91cba19be72068ec3219b20bb",
+      "file_hash": "eedc2fcc824488535ece173b0eed92cfb6401179e7c5aa7dbf61bc98f55c84aa",
+      "filename": "plan-form.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.631250+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "Family Communication Plan",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/se-3886-2025.pdf",
+      "md5": "ffd1bbbd147780b087acd6554e262393",
+      "file_hash": "62677fefdd359a789bca36df1d5fee1ce93dbc439270f68f96853fb4c5794398",
+      "filename": "se-3886-2025.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.646600+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "2025 Medicare Guide",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/se-3886-2026.pdf",
+      "md5": "168320404348cdcd27f40fa691d3a628",
+      "file_hash": "8503b1004cda2dab9429568d35ca9abe0f91efdcfe15c385c6dbdf0b189e18d8",
+      "filename": "se-3886-2026.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.661951+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "2026 Medicare Guide",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://sharedsystems.dhsoha.state.or.us/DHSForms/Served/se3900.pdf",
+      "md5": "8dea53680bae833dc080bd314eee05f9",
+      "file_hash": "28ddc9ffc925a5ea24f6bc74ded2123d2155ff71f3da596b06c5a21a885fc672",
+      "filename": "se3900.pdf",
+      "site": "oregon.gov",
+      "crawled_at": "2026-07-06T15:26:58.666168+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        }
+      },
+      "link_text": "The Impact of SHIBA",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/05/fac_c_digital_services_05_12_18.pdf",
+      "md5": "814fdc4fcc260c45f628e8be253798ca",
+      "file_hash": "cd9f1ec48a1a7e38f89cfedef78da62d63cc0afe7009f2b44d0ff1d5b44b4d80",
+      "filename": "fac_c_digital_services_05_12_18.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T15:29:05.161336+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "No module named 'simpla11ypdf'"
+      ],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "No module named 'simpla11ypdf'"
+          ],
+          "analysed_at": "2026-07-06T15:33:00.686059+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "link_text": "May 2018 memo",
+      "engine": "bloom",
+      "engine_status": "error"
+    },
+    {
+      "url": "https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/05/fac_c_digital_services_05_12_18.pdf",
+      "md5": "814fdc4fcc260c45f628e8be253798ca",
+      "file_hash": "cd9f1ec48a1a7e38f89cfedef78da62d63cc0afe7009f2b44d0ff1d5b44b4d80",
+      "filename": "fac_c_digital_services_05_12_18.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T15:29:05.161336+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "No module named 'simpla11ypdf'"
+          ],
+          "analysed_at": "2026-07-06T15:33:00.686059+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "link_text": "May 2018 memo",
+      "engine": "original",
+      "engine_status": "pending"
+    },
+    {
+      "url": "https://www.irs.gov/pub/irs-pdf/i1040gi.pdf",
+      "md5": "893c14b1fac3150d23866380a91f6016",
+      "file_hash": "482e9c487c608f1bbeaceef35bc3c0933e8b35443cfff447e4279d590468364a",
+      "filename": "i1040gi.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T15:29:05.173452+00:00",
+      "status": "error",
+      "report": null,
+      "errors": [
+        "No module named 'simpla11ypdf'"
+      ],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "No module named 'simpla11ypdf'"
+          ],
+          "analysed_at": "2026-07-06T15:33:15.116513+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "link_text": "nine hours and $150",
+      "engine": "bloom",
+      "engine_status": "error"
+    },
+    {
+      "url": "https://www.irs.gov/pub/irs-pdf/i1040gi.pdf",
+      "md5": "893c14b1fac3150d23866380a91f6016",
+      "file_hash": "482e9c487c608f1bbeaceef35bc3c0933e8b35443cfff447e4279d590468364a",
+      "filename": "i1040gi.pdf",
+      "site": "usds.gov",
+      "crawled_at": "2026-07-06T15:29:05.173452+00:00",
+      "status": "pending",
+      "report": null,
+      "errors": [],
+      "analyses": {
+        "original": {
+          "status": "pending",
+          "report": null,
+          "errors": [],
+          "analysed_at": null
+        },
+        "bloom": {
+          "status": "error",
+          "report": null,
+          "errors": [
+            "No module named 'simpla11ypdf'"
+          ],
+          "analysed_at": "2026-07-06T15:33:15.116513+00:00"
+        }
+      },
+      "notes": "What happens to the notes?",
+      "link_text": "nine hours and $150",
       "engine": "original",
       "engine_status": "pending"
     }
