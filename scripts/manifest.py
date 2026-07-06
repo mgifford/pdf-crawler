@@ -49,6 +49,16 @@ def _sha256(path: str | Path) -> str:
     return h.hexdigest()
 
 
+def _legacy_original_analysed(entry: Dict[str, Any]) -> bool:
+    """Return True when legacy top-level fields indicate an analysed result.
+
+    Older manifest entries store status/report/errors only at the top level.
+    During migration to engine-specific analyses, treat that state as analysed
+    for the original engine so unchanged files are not rescanned.
+    """
+    return entry.get("status") == "analysed"
+
+
 def load_manifest(manifest_path: str | Path = DEFAULT_MANIFEST_PATH) -> List[Dict[str, Any]]:
     """Return the list of manifest entries, or an empty list if no file exists."""
     path = Path(manifest_path)
@@ -185,17 +195,34 @@ def upsert_entry(
             analyses = entry.setdefault("analyses", {})
             engine_data = analyses.get(crawler_version)
             if engine_data is None:
-                analyses[crawler_version] = {
-                    "status": "pending",
-                    "report": None,
-                    "errors": [],
-                    "analysed_at": None,
-                }
-                entry["status"] = "pending"
-                entry["report"] = None
-                entry["errors"] = []
-                needs_scan = True
+                if crawler_version == "original" and _legacy_original_analysed(entry):
+                    analyses[crawler_version] = {
+                        "status": "analysed",
+                        "report": entry.get("report"),
+                        "errors": entry.get("errors") or [],
+                        "analysed_at": None,
+                    }
+                    needs_scan = False
+                else:
+                    analyses[crawler_version] = {
+                        "status": "pending",
+                        "report": None,
+                        "errors": [],
+                        "analysed_at": None,
+                    }
+                    entry["status"] = "pending"
+                    entry["report"] = None
+                    entry["errors"] = []
+                    needs_scan = True
             else:
+                if (
+                    crawler_version == "original"
+                    and engine_data.get("status") in (None, "pending")
+                    and _legacy_original_analysed(entry)
+                ):
+                    engine_data["status"] = "analysed"
+                    engine_data["report"] = entry.get("report")
+                    engine_data["errors"] = entry.get("errors") or []
                 needs_scan = engine_data.get("status") != "analysed"
                 if needs_scan:
                     engine_data["status"] = "pending"
@@ -281,6 +308,13 @@ def pending_entries(
         analyses = entry.get("analyses")
         if isinstance(analyses, dict):
             engine_data = analyses.get(crawler_version)
+            if (
+                crawler_version == "original"
+                and isinstance(engine_data, dict)
+                and engine_data.get("status") in (None, "pending")
+                and _legacy_original_analysed(entry)
+            ):
+                continue
             if engine_data is None or engine_data.get("status") != "analysed":
                 pending.append(entry)
         elif entry.get("status") == "pending":

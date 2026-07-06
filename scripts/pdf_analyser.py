@@ -225,6 +225,8 @@ def _run_check_file_worker(
             # works without the extra package installed.
             from simpla11ypdf.scanner import check_file as bloom_check_file
             result = bloom_check_file(filename, site=site, debug=False)
+            if run_verapdf_check:
+                result["veraPDF"] = run_verapdf(filename)
         else:
             result = check_file(filename, site=site, run_verapdf_check=run_verapdf_check)
         queue.put((True, result))

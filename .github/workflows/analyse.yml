@@ -218,7 +218,7 @@ jobs:
       - name: Install Bloom Works crawler
         if: steps.meta.outputs.crawler_version == 'bloom'
         run: |
-          uv pip install git+https://github.com/bloom-works/simplA11yPDFCrawler.git@main
+          uv pip install git+https://github.com/bloom-works/simplA11yPDFCrawler.git@0df4d4f3eca1f0bbf3898046ef5c2c8f9ddd86b0
 
       - name: Download crawled PDFs artifact
         id: download_pdfs
@@ -284,6 +284,7 @@ jobs:
           MAX_PAGES="500"
           MAX_PDFS="200"
           RUN_VERAPDF="false"
+          CRAWLER_VERSION="original"
           if [ "${{ github.event_name }}" = "workflow_run" ]; then
             # workflow_run: read metadata from the scan-meta artifact left by the crawl.
             if [ -f scan-meta/issue_number.txt ]; then
@@ -315,8 +316,6 @@ jobs:
             fi
             if [ -f scan-meta/crawler_version.txt ]; then
               CRAWLER_VERSION=$(cat scan-meta/crawler_version.txt | tr -d '[:space:]')
-            else
-              CRAWLER_VERSION="original"
             fi
           else
             # workflow_dispatch: read the optional site input directly.
