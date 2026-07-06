@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-06T15:37:19.012104+00:00",
+    "site": "govcms.gov.au",
+    "crawl_url": "https://www.govcms.gov.au",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28803541117",
+    "issue_url": "",
+    "archive_file": "2026-07-06_15-37-19-012_govcms.gov.au.html",
+    "total": 0,
+    "analysed": 0,
+    "accessible": 0
+  },
+  {
     "date": "2026-07-06T15:33:52.559723+00:00",
     "site": "usds.gov",
     "crawl_url": "https://www.usds.gov/",
