@@ -371390,3 +371390,18 @@
       errors: []
       analysed_at: null
   notes: What happens to the notes?
+- url: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
+  md5: 3ebe33fa286efd3b8cbee74bdde6b931
+  file_hash: 3b8654d680ccec064f3c416eb3bb9cf76b4d8bc82efa2f103340e4834495ea75
+  filename: DOE_Fact_Sheet_Grid_Report_July_2025.pdf
+  site: energy.gov
+  crawled_at: '2026-07-06T14:29:49.870731+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
