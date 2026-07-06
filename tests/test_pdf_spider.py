@@ -406,8 +406,8 @@ def test_offsite_middleware_disabled():
     """OffsiteMiddleware must be disabled so cross-domain PDF downloads are not dropped."""
     from pdf_spider import PdfA11ySpider
 
-    middlewares = PdfA11ySpider.custom_settings.get("SPIDER_MIDDLEWARES", {})
-    assert middlewares.get("scrapy.spidermiddlewares.offsite.OffsiteMiddleware") is None, (
+    middlewares = PdfA11ySpider.custom_settings.get("DOWNLOADER_MIDDLEWARES", {})
+    assert middlewares.get("scrapy.downloadermiddlewares.offsite.OffsiteMiddleware") is None, (
         "OffsiteMiddleware must be set to None (disabled) in custom_settings"
     )
 

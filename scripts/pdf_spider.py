@@ -95,8 +95,8 @@ class PdfA11ySpider(scrapy.Spider):
         # pointing to a different domain (e.g. a CDN or asset host) are not
         # silently dropped.  Same-domain enforcement for HTML page crawling is
         # handled explicitly in parse() via _is_allowed_domain().
-        "SPIDER_MIDDLEWARES": {
-            "scrapy.spidermiddlewares.offsite.OffsiteMiddleware": None,
+        "DOWNLOADER_MIDDLEWARES": {
+            "scrapy.downloadermiddlewares.offsite.OffsiteMiddleware": None,
         },
     }
 
