@@ -117,6 +117,54 @@ def test_save_creates_parent_dirs(tmp_path):
     assert deep_path.exists()
 
 
+def test_save_manifest_does_not_emit_yaml_aliases(manifest_file, tmp_pdf):
+        """save_manifest should not emit YAML anchors/aliases for shared objects."""
+        entry = build_entry("https://example.com/a.pdf", tmp_pdf, "example.com")
+        shared_report = {"Accessible": True}
+        entry["status"] = "analysed"
+        entry["report"] = shared_report
+        entry["analyses"]["original"]["status"] = "analysed"
+        entry["analyses"]["original"]["report"] = shared_report
+        save_manifest([entry], manifest_file)
+
+        raw = manifest_file.read_text(encoding="utf-8")
+        assert "&id" not in raw
+        assert "*id" not in raw
+
+
+def test_load_manifest_repairs_duplicate_yaml_anchors(manifest_file):
+        """load_manifest should recover when duplicate PyYAML anchors are present."""
+        broken_yaml = "\n".join([
+                "- url: a",
+                "  report: &id001",
+                "    Accessible: true",
+                "  analyses:",
+                "    original:",
+                "      report: *id001",
+                "- url: b",
+                "  report: &id001",
+                "    Accessible: false",
+                "  analyses:",
+                "    original:",
+                "      report: *id001",
+                "",
+        ])
+        manifest_file.write_text(
+                broken_yaml,
+                encoding="utf-8",
+        )
+
+        loaded = load_manifest(manifest_file)
+        assert len(loaded) == 2
+        assert loaded[0]["report"]["Accessible"] is True
+        assert loaded[1]["report"]["Accessible"] is False
+
+        # The repaired file should no longer contain duplicate id001 anchors.
+        raw = manifest_file.read_text(encoding="utf-8")
+        assert "&id001_dup1" in raw
+        assert "*id001_dup1" in raw
+
+
 # ---------------------------------------------------------------------------
 # upsert_entry
 # ---------------------------------------------------------------------------

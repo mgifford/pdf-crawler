@@ -19,6 +19,7 @@ The manifest is stored at ``reports/manifest.yaml`` by default.
 from __future__ import annotations
 
 import hashlib
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -27,6 +28,13 @@ import yaml
 
 
 DEFAULT_MANIFEST_PATH = Path("reports") / "manifest.yaml"
+
+
+class _NoAliasDumper(yaml.SafeDumper):
+    """YAML dumper that never emits anchors/aliases."""
+
+    def ignore_aliases(self, data):  # type: ignore[override]
+        return True
 
 
 # ---------------------------------------------------------------------------
@@ -59,13 +67,58 @@ def _legacy_original_analysed(entry: Dict[str, Any]) -> bool:
     return entry.get("status") == "analysed"
 
 
+def _rewrite_duplicate_anchors(raw_yaml: str) -> tuple[str, bool]:
+    """Rewrite duplicate ``&idNNN`` anchors to unique names in a single pass.
+
+    PyYAML-generated aliases use identifiers like ``id001``.  If two YAML
+    fragments with the same anchor names are accidentally concatenated,
+    ``yaml.safe_load`` raises ``ComposerError`` for duplicate anchors.
+    """
+
+    token_re = re.compile(r"([&*])(id\d+)")
+    seen_counts: Dict[str, int] = {}
+    current_anchor_name: Dict[str, str] = {}
+    changed = False
+
+    def _replace(match: re.Match[str]) -> str:
+        nonlocal changed
+        token_type, name = match.groups()
+        if token_type == "&":
+            count = seen_counts.get(name, 0) + 1
+            seen_counts[name] = count
+            new_name = name if count == 1 else f"{name}_dup{count - 1}"
+            current_anchor_name[name] = new_name
+            if new_name != name:
+                changed = True
+            return f"&{new_name}"
+
+        resolved = current_anchor_name.get(name, name)
+        if resolved != name:
+            changed = True
+        return f"*{resolved}"
+
+    rewritten = token_re.sub(_replace, raw_yaml)
+    return rewritten, changed
+
+
 def load_manifest(manifest_path: str | Path = DEFAULT_MANIFEST_PATH) -> List[Dict[str, Any]]:
     """Return the list of manifest entries, or an empty list if no file exists."""
     path = Path(manifest_path)
     if not path.exists():
         return []
     with open(path, "r", encoding="utf-8") as fh:
-        data = yaml.safe_load(fh)
+        raw_yaml = fh.read()
+    try:
+        data = yaml.safe_load(raw_yaml)
+    except yaml.composer.ComposerError as exc:
+        if "duplicate anchor" not in str(exc):
+            raise
+        rewritten, changed = _rewrite_duplicate_anchors(raw_yaml)
+        if not changed:
+            raise
+        # Self-heal malformed manifests so crawl/analyse can continue.
+        path.write_text(rewritten, encoding="utf-8")
+        data = yaml.safe_load(rewritten)
     return data if isinstance(data, list) else []
 
 
@@ -77,7 +130,13 @@ def save_manifest(
     path = Path(manifest_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as fh:
-        yaml.dump(entries, fh, allow_unicode=True, sort_keys=False)
+        yaml.dump(
+            entries,
+            fh,
+            allow_unicode=True,
+            sort_keys=False,
+            Dumper=_NoAliasDumper,
+        )
 
 
 # ---------------------------------------------------------------------------
