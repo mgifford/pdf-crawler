@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-06T16:09:19.433752+00:00",
+    "site": "oregon.gov",
+    "crawl_url": "https://oregon.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28803013960",
+    "issue_url": "",
+    "archive_file": "2026-07-06_16-09-19-433_oregon.gov.html",
+    "total": 2178,
+    "analysed": 55,
+    "accessible": 21
+  },
+  {
     "date": "2026-07-06T14:33:18.189561+00:00",
     "site": "usds.gov",
     "crawl_url": "https://www.usds.gov/",

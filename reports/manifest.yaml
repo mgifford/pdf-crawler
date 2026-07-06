@@ -184586,1353 +184586,3381 @@
   filename: 202008009_Hays%2C%20Jeffery_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.173307+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.173307+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.173307+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:28:49.893162+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202008012_Goudiaby,%20Adama_SFO.pdf
   md5: ac60e1bbef6caab5ec45905735ec9fc4
   filename: 202008012_Goudiaby,%20Adama_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.174462+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.174462+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.174462+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:29:03.766124+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202009001_Keady_Charles_SO.pdf
   md5: 4795fca67e1949e925e27853e819650f
   filename: 202009001_Keady_Charles_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.175725+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.175725+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.175725+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:29:17.408819+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202009002_Andry_Brett_DO.pdf
   md5: 2d27e1eabf0afa637ffc3ea5a12d5584
   filename: 202009002_Andry_Brett_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.176932+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.176932+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.176932+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:29:31.327505+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202009013_Whalen_Michael_Stipulated_Order_(Final)_06222021.pdf
   md5: b27c3a0b19c605e4ccb10bd91a46682c
   filename: 202009013_Whalen_Michael_Stipulated_Order_(Final)_06222021.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.178083+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.178083+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.178083+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:29:45.169724+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202010009_Munoz,%20Nain_SFO.pdf
   md5: 97ea1f16d1bec64bf878dd8a71134edf
   filename: 202010009_Munoz,%20Nain_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.179208+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.179208+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.179208+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:29:59.456051+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202011002_Brown_Marcus_SO.pdf
   md5: 3b184a075f206f23cb551e88814c9034
   filename: 202011002_Brown_Marcus_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.180725+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.180725+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.180725+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:30:13.286774+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202012003_DeFluri_Lisa_DO.pdf
   md5: 04b48df41677cfd36f378984542aee88
   filename: 202012003_DeFluri_Lisa_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.181931+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.181931+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.181931+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:30:27.711795+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202012008_Trostel_Brian_SO.pdf
   md5: 25b10c8cf197cecf4821749d042b7f52
   filename: 202012008_Trostel_Brian_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.183077+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.183077+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.183077+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:30:41.679399+00:00'
 - url: https://www.oregon.gov/ogec/Documents/2021%20PO%20Guide%20Final%20Adopted.pdf
   md5: a77d18b229808ec5843c6d7ff19e09e3
   filename: 2021%20PO%20Guide%20Final%20Adopted.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.186604+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.186604+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.186604+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:30:55.990508+00:00'
 - url: https://www.oregon.gov/odot/STIP/Documents/2021-2024_Final_STIP_Historical.pdf
   md5: 495f35b50ba4c58cbc23ffad242389de
   filename: 2021-2024_Final_STIP_Historical.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.201499+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.201499+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.201499+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:31:10.295565+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202101002_Best_Richard_SO.pdf
   md5: 16b9a47b5f28cd6527c0b020a7fa4514
   filename: 202101002_Best_Richard_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.202690+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.202690+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.202690+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:31:24.508764+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202101004_Sturgess,%20Kory_DO_Final.pdf
   md5: fcf4abeefd34d124f273f66acb2c86d0
   filename: 202101004_Sturgess,%20Kory_DO_Final.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.203702+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.203702+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.203702+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:31:38.325559+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202101008_Paton,%20Michele_SFO.pdf
   md5: fcf72608436bac56407e9704622af790
   filename: 202101008_Paton,%20Michele_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.204848+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.204848+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.204848+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:31:52.473853+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202101009_James_Robert_DO.pdf
   md5: aeb1417552300931443fec16ffb941ef
   filename: 202101009_James_Robert_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.206256+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.206256+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.206256+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:32:06.411940+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202101012_Periman_Allen_DO.pdf
   md5: 00a214fc890a30ecaad90d5822db37df
   filename: 202101012_Periman_Allen_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.207415+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.207415+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.207415+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:32:20.502913+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202101020_Stansfield,%20Elizabeth_DO_(Final).pdf
   md5: 222adf983388f9ce8859fde87a85cbbc
   filename: 202101020_Stansfield,%20Elizabeth_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.208378+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.208378+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.208378+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:32:34.471500+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202102005_Penaguirre,%20Willado_STIP_(Final).pdf
   md5: f6115a2f615b4797a871c14ecb44063a
   filename: 202102005_Penaguirre,%20Willado_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.209621+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.209621+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.209621+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:32:48.779092+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202102006_Dixon_Thomas_DO.pdf
   md5: 629e3658b2e2ac7ebbc49bbfa49d45bc
   filename: 202102006_Dixon_Thomas_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.210771+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.210771+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.210771+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:33:02.553790+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202102010_Greif_Dianne_SO.pdf
   md5: 8c755fda3f6caea2b31b481bf19d76b5
   filename: 202102010_Greif_Dianne_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.211921+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.211921+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.211921+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:33:16.667032+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202102011_Chappell_Robin_SO.pdf
   md5: 49c8768f96b2383a5725547162149531
   filename: 202102011_Chappell_Robin_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.213134+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.213134+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.213134+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:33:31.017628+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202102013_Perrins,%20Jason_SFO.pdf
   md5: b0b2ee518ce71aa4d9d5ad0fb25497f9
   filename: 202102013_Perrins,%20Jason_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.214232+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.214232+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.214232+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:33:44.993424+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202102013_Rupp,%20Carl_SFO.pdf
   md5: f2d886788619f7c4f1ac0d97a8d6547d
   filename: 202102013_Rupp,%20Carl_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.215318+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.215318+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.215318+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:33:59.334686+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202103001_Radcliffe,%20Nathan_SFO.pdf
   md5: 6ade3742ec103d0f8214c0bf1093b26b
   filename: 202103001_Radcliffe,%20Nathan_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.216439+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.216439+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.216439+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:34:13.409433+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202103003_Gutierrez_Larry_DO_(Final).pdf
   md5: b3df711fdba039a97f384ba506ab61ed
   filename: 202103003_Gutierrez_Larry_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.217469+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.217469+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.217469+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:34:27.274463+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202103006_Tjarks_Nicole_SO.pdf
   md5: c2b403f6e8647db70b7e2887511b80b5
   filename: 202103006_Tjarks_Nicole_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.218681+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.218681+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.218681+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:34:41.306009+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202103008_Pattz_Desmond_DO.pdf
   md5: 09b9009bb37b4412d6281922d378787b
   filename: 202103008_Pattz_Desmond_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.219795+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.219795+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.219795+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:34:55.316304+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202103016_Llewellyn,%20Taylor_DO_(Final).pdf
   md5: e8bd259ba73b7a5bbc2b4db8ff4e92a1
   filename: 202103016_Llewellyn,%20Taylor_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.220780+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.220780+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.220780+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:35:09.222360+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202104002_Horner_April_SO.pdf
   md5: 9fb776072523379026d377da40c50395
   filename: 202104002_Horner_April_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.222020+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.222020+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.222020+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:35:23.443130+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202104008_Harn_Allison_SO.pdf
   md5: d963d17017fc1e8824a97ba1d94133a5
   filename: 202104008_Harn_Allison_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.223494+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.223494+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.223494+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:35:37.381317+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202104009_Kovachy_Isaiyah_SO.pdf
   md5: 1c1e9a0bba0fb4456fd6740bb84be228
   filename: 202104009_Kovachy_Isaiyah_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.224652+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.224652+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.224652+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:35:51.847640+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202105001_Batease_Robert_DO.pdf
   md5: ee863eaed8b98a16781ffb04576f79e6
   filename: 202105001_Batease_Robert_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.225847+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.225847+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.225847+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:36:05.723442+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202105003_Batliner_Derrick_DO_(Final).pdf
   md5: 5e77f824ac1a128296bdf933762a0a14
   filename: 202105003_Batliner_Derrick_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.226939+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.226939+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.226939+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:36:19.637641+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202105006_Jones_William_SO.pdf
   md5: cb0f98dbd39d3e61986a112bf7a660db
   filename: 202105006_Jones_William_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.228217+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.228217+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.228217+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:36:33.485036+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202105007_Bascom_Skyler_DO.pdf
   md5: 43f885b48bbb1d2aec857c8450480cae
   filename: 202105007_Bascom_Skyler_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.229416+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.229416+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.229416+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:36:47.225628+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202105009_Hall_Mandee_DO.pdf
   md5: 496d275f9cdab26b4824e97c46a1ca9f
   filename: 202105009_Hall_Mandee_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.230740+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.230740+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.230740+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:37:01.159100+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202105010_Harjo,%20Erich_SFO.pdf
   md5: df28e1b7d06e45bfb370503eae1e37ae
   filename: 202105010_Harjo,%20Erich_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.233144+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.233144+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.233144+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:37:15.126947+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202105013_Morgan_Fred_DO.pdf
   md5: 0afc27d4bffe911d9a343e499b68329f
   filename: 202105013_Morgan_Fred_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.234427+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.234427+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.234427+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:37:29.432016+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202105014_Chorey,%20Nicholas_DO_(Final).pdf
   md5: aa2064d481ec2e233c7bb662e92595bb
   filename: 202105014_Chorey,%20Nicholas_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.235408+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.235408+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.235408+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:37:43.487054+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202105050_Hall,%20Phillip_DO_(Final).pdf
   md5: 4df487c566581bef7d1c85bf13178610
   filename: 202105050_Hall,%20Phillip_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.236409+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.236409+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.236409+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:37:57.336697+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202106001_Rist_Joshua_STIP_(Final).pdf
   md5: 9c6bf47686c80a1f0a96bca32f69294a
   filename: 202106001_Rist_Joshua_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.237864+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.237864+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.237864+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:38:11.319426+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202106002_Schaefer_Michael_DO_(Final).pdf
   md5: 92e88d4b64aaf6579cdd96bfeedb990b
   filename: 202106002_Schaefer_Michael_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.238853+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.238853+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.238853+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:38:25.517158+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202106011_Guthrie,%20John_SFO.pdf
   md5: afaa21b305952e4e35085dcb1f8ecacf
   filename: 202106011_Guthrie,%20John_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.239952+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.239952+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.239952+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:38:39.489000+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202106014_Henderson_Jamie_SO.pdf
   md5: 7ebeed387a3787fdd99c687dd602e1e7
   filename: 202106014_Henderson_Jamie_SO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.241078+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.241078+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.241078+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:38:53.845679+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202106015_Remington,%20Kevin_SFO.pdf
   md5: f920cd240d4890f8d4283c86f9b4ce24
   filename: 202106015_Remington,%20Kevin_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.242258+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.242258+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.242258+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:39:07.438104+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202106016_Lenoue,%20Matthew_DO_(Final).pdf
   md5: a151e8f034e11d4d043d71a81ea3ddcf
   filename: 202106016_Lenoue,%20Matthew_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.243283+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.243283+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.243283+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:39:21.586512+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202107002_Prater,%20Earl_STIP_(Final).pdf
   md5: a164f83326e5f86464dcaf176e4805ef
   filename: 202107002_Prater,%20Earl_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.244380+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.244380+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.244380+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:39:35.558248+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202107009_Peterson,%20Kyle_SFO.pdf
   md5: 177cc5575f1ee55ff6c733fa99cf1db6
   filename: 202107009_Peterson,%20Kyle_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.245438+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.245438+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.245438+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:39:49.390569+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202107010_Salisbury,%20Dustin_STIP%20(Final).pdf
   md5: 98fd51e71c86b93c94ec16d2ce2548e7
   filename: 202107010_Salisbury,%20Dustin_STIP%20(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.246835+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.246835+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.246835+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:40:03.273777+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202108001_Bobeda,%20Todd_STIP_(Final).pdf
   md5: 49ba98fafc6432109c067012dfd665de
   filename: 202108001_Bobeda,%20Todd_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.247884+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.247884+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.247884+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:40:17.355356+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202108008_Wright,%20Dean_SFO.pdf
   md5: 869e2ac1262b8ba379ff08b7c6c87be6
   filename: 202108008_Wright,%20Dean_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.249042+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.249042+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.249042+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:40:30.993114+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202109012_Dillon,%20Timothy_DO%20(Final).pdf
   md5: fcbc7fe746bd3456965a272f71fe8808
   filename: 202109012_Dillon,%20Timothy_DO%20(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.249987+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.249987+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.249987+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:40:44.905638+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202109013_Wortman,%20William_SFO.pdf
   md5: 120b61ff6908bbdba9415b8bb7a6d211
   filename: 202109013_Wortman,%20William_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.251145+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.251145+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.251145+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:40:58.816976+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202109018_Cohen,%20Richard_DO_(Final).pdf
   md5: 5038ff961e9cb54e22e493332c1a86fb
   filename: 202109018_Cohen,%20Richard_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.252125+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.252125+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.252125+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:41:12.562449+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202110002_Leary,%20Alexandra_SFO.pdf
   md5: e4ba4c0e8b678f4cbc5ae048502ba87c
   filename: 202110002_Leary,%20Alexandra_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.253199+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.253199+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.253199+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:41:26.436464+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202110007_Salas,%20Gilbert_STIP_(Final).pdf
   md5: 6c2a7a72ee89170c774d238669153368
   filename: 202110007_Salas,%20Gilbert_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.254313+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.254313+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.254313+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:41:40.811806+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202110010_Vanermark-Tingle_Jason_DO.pdf
   md5: f0c4f404066aed9e9696f1b90b840524
   filename: 202110010_Vanermark-Tingle_Jason_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.255465+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.255465+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.255465+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:41:54.621411+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202110021_Stevens_Markus_DO_(Final).pdf
   md5: 0f3f977c50f1de5db49a69ce42853fd3
   filename: 202110021_Stevens_Markus_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.256452+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.256452+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.256452+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:42:08.934016+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202111006_Cancino,%20Jamie_DO_(Final).pdf
   md5: 655b8e31ecf5600666cbdb7e1b58c74e
   filename: 202111006_Cancino,%20Jamie_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.257439+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.257439+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.257439+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:42:22.962379+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202111010_Miller-Rider_Nathaniel_DO.pdf
   md5: d8428ddab11cee43806d18a6f5a7835c
   filename: 202111010_Miller-Rider_Nathaniel_DO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.258899+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.258899+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.258899+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:42:36.913845+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202111011_Cooper,%20Steven_SFO.pdf
   md5: a1e40bb112c89cafbbea4b042ca5426d
   filename: 202111011_Cooper,%20Steven_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.259989+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.259989+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.259989+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:42:50.969134+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202111013_Weaver,%20Matthew_DO_(Final).pdf
   md5: 9487ffdb78b01370e9173973c65c0a43
   filename: 202111013_Weaver,%20Matthew_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.260949+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.260949+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.260949+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:43:05.598687+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202111014_Estrada-Suro,%20Nohemi_DO_(Final).pdf
   md5: 2c8a7fb0ee3246a53425d734fe4e0bbc
   filename: 202111014_Estrada-Suro,%20Nohemi_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.261944+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.261944+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.261944+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:43:19.632130+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202111019_Brandon,%20David_DO_(Final).pdf
   md5: ab5d26a1d3fca2c2e54c4691d930f26e
   filename: 202111019_Brandon,%20David_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.262921+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.262921+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.262921+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:43:33.953465+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202111020_Lemus%20Partida,%20Maria_SFO.pdf
   md5: db2fab560fe026b60c4047c0bf0b14e6
   filename: 202111020_Lemus%20Partida,%20Maria_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.263969+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.263969+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.263969+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:43:47.954560+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202111021_Tracy,%20April_STIP_(Final).pdf
   md5: d1a53a9f9af0f4f2a1e1a2dd6ef85099
   filename: 202111021_Tracy,%20April_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.265155+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.265155+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.265155+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:44:02.505818+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202112005_Garcia,%20Daniel_STIP_(Final).pdf
   md5: c53078d22d2ffd7f7479832651159845
   filename: 202112005_Garcia,%20Daniel_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.266845+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.266845+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.266845+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:44:16.313402+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202112010_Whitson,%20Larry_DO_(Final).pdf
   md5: ff6fa380ae9b33dc699ee87c3e0831f3
   filename: 202112010_Whitson,%20Larry_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.268044+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.268044+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.268044+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:44:30.484651+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202112017_Williams%20Jr.,%20Dowell_STIP_(Final).pdf
   md5: b2791fea0dbe166cfbb0f1c1407b7ca2
   filename: 202112017_Williams%20Jr.,%20Dowell_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.269177+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.269177+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.269177+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:44:44.443693+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202112019_Cienfuegos,%20Tyler_DO_(Final).pdf
   md5: 3ce264e54d47553f9b7a79b01449015b
   filename: 202112019_Cienfuegos,%20Tyler_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.270158+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.270158+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.270158+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:44:59.209939+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202112019_Thielen,%20Courtney_SFO.pdf
   md5: 02a9b7d633886638eafed94350af4808
   filename: 202112019_Thielen,%20Courtney_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.271183+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.271183+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.271183+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:45:12.979711+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202112026_Johnson,%20Brandon_STIP_(Final).pdf
   md5: 70711ce3c6deda2a6cb81ec6244bde5d
   filename: 202112026_Johnson,%20Brandon_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.272474+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.272474+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.272474+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:45:26.910409+00:00'
 - url: https://www.oregon.gov/oha/HSD/Medicaid-Policy/Documents/2022-2027-Demonstration-Amendment.pdf
   md5: f0de3efce1ae550fa90cc4ebf25d3a85
   filename: 2022-2027-Demonstration-Amendment.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.275129+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.275129+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.275129+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:45:40.975233+00:00'
 - url: https://www.oregon.gov/odhs/data/oddsdata/2022-dsp-workforce-report-ru.pdf
   md5: 7924f43f98ffee7581d1b547219524db
   filename: 2022-dsp-workforce-report-ru.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.279840+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.279840+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.279840+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:45:55.379641+00:00'
 - url: https://www.oregon.gov/odhs/data/oddsdata/2022-dsp-workforce-report-so.pdf
   md5: 2a60b10e63b22b0519f074442926d3a7
   filename: 2022-dsp-workforce-report-so.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.284508+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.284508+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.284508+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:46:09.263669+00:00'
 - url: https://www.oregon.gov/odhs/data/oddsdata/2022-dsp-workforce-report-vi.pdf
   md5: 2a30b78f88e969be931bb322da5b724b
   filename: 2022-dsp-workforce-report-vi.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.289180+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.289180+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.289180+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:46:23.286124+00:00'
 - url: https://www.oregon.gov/odhs/data/oddsdata/2022-dsp-workforce-report-zh-cn.pdf
   md5: 00d115abf5a3cbd7cc1232807672c486
   filename: 2022-dsp-workforce-report-zh-cn.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.294168+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.294168+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.294168+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:46:37.277577+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202201001_Piazza,%20Peter_DO_(Final).pdf
   md5: 45e922d8abb71a91f5522b50d2729f19
   filename: 202201001_Piazza,%20Peter_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.295155+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.295155+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.295155+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:46:51.905610+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202201005_Lawson-Shequin,%20Katelynn_SFO.pdf
   md5: 64d79cbfbeec3c1153cf1a9bebe2ef9c
   filename: 202201005_Lawson-Shequin,%20Katelynn_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.296199+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.296199+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.296199+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:47:06.002823+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202201007_Parker,%20Jesse_STIP_(Final).pdf
   md5: 8fe2be8cf6fce93a0eddc5fa865188e1
   filename: 202201007_Parker,%20Jesse_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.297469+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.297469+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.297469+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:47:20.613100+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202201013_Werschkul,%20Kelly_STIP_(Final).pdf
   md5: d6ed2397efc566651bb138e311dfddbd
   filename: 202201013_Werschkul,%20Kelly_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.298608+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.298608+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.298608+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:47:34.738966+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202201016_Keck,%20Jill_SFO.pdf
   md5: a91d28b3303338e2fe8f52123576651a
   filename: 202201016_Keck,%20Jill_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.299684+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.299684+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.299684+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:47:49.126165+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202201025_Palanuk,%20Dennis_Reinstatement%20Order.pdf
   md5: d80d02070fdaa9512b7453c8a7c2bda4
   filename: 202201025_Palanuk,%20Dennis_Reinstatement%20Order.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.300637+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.300637+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.300637+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:48:02.832959+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202201027_Daniels,%20Wayne_DO_(Final).pdf
   md5: ccc9db446ada7391ac46643479322406
   filename: 202201027_Daniels,%20Wayne_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.301606+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.301606+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.301606+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:48:16.967884+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202201030_Klander,%20Isaac_DO_(Final).pdf
   md5: b1c2a7c098efdedd0002e83af9b96cfb
   filename: 202201030_Klander,%20Isaac_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.302524+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.302524+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.302524+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:48:31.036884+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202202007_Kelley%20Dennis_DO_(Final).pdf
   md5: 6d7646352045173a6651c79093a094cb
   filename: 202202007_Kelley%20Dennis_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.303498+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.303498+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.303498+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:48:45.694876+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202202009_Freysinger,%20Michael_STIP_(Updated%20Final).pdf
   md5: f6a9087c46d19debe87b7bb2f49be51e
   filename: 202202009_Freysinger,%20Michael_STIP_(Updated%20Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.304922+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.304922+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.304922+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:48:59.723568+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202202013_Hildebrandt,%20Aaron_DO_(Final).pdf
   md5: a45617a4fd011ce4d778ef4c4db973a0
   filename: 202202013_Hildebrandt,%20Aaron_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.305950+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.305950+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.305950+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:49:14.010281+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202202014_Randall,%20Emily_SFO.pdf
   md5: 57c3a05e8bf62a17a56030dec017204a
   filename: 202202014_Randall,%20Emily_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.307033+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.307033+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.307033+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:49:28.218368+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202202019_Daw,%20Michelle_STIP_(Final).pdf
   md5: 08a431bba1cd5884768d15656683e01e
   filename: 202202019_Daw,%20Michelle_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.308137+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.308137+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.308137+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:49:42.959490+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202202020_Ruzek,%20Maurine_STIP_(Final).pdf
   md5: 1126b8d69c24cbb7bcab48f1d1267c93
   filename: 202202020_Ruzek,%20Maurine_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.309297+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.309297+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.309297+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:49:57.266823+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202202021_Martin,%20Michael_STIP_(Final).pdf
   md5: e673a5b6e1e17ff1de0f884bac9113d7
   filename: 202202021_Martin,%20Michael_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.310345+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.310345+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.310345+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:50:11.624361+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202202023_Dodge,%20Jennifer_STIP_(Final).pdf
   md5: 2a34dc049a78adde5f26b4c256fa3e36
   filename: 202202023_Dodge,%20Jennifer_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.311361+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.311361+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.311361+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:50:25.878722+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202203001_Lee,%20Benjamin_STIP%20(Final).pdf
   md5: 440e2a3bd93142a27935f406b931646b
   filename: 202203001_Lee,%20Benjamin_STIP%20(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.312420+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.312420+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.312420+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:50:40.556967+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202203023_Smith,%20Joshua_DO_(Final).pdf
   md5: 8a8f4b270c7ebe0dbf4354d563bb164b
   filename: 202203023_Smith,%20Joshua_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.313386+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.313386+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.313386+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:50:55.212157+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202203028_Gans,%20Griffith_STIP_(Final).pdf
   md5: 7cce0dcdb45516fcf49c326095200d8e
   filename: 202203028_Gans,%20Griffith_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.314477+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.314477+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.314477+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:51:09.865484+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202203030_Kipnis,%20Heather_STIP_(Final).pdf
   md5: ae9e2f1ca5d8c5ea250bb2b419496891
   filename: 202203030_Kipnis,%20Heather_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.315509+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.315509+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.315509+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:51:24.255651+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202203038_Hammond,%20Andrew_DO_(Final).pdf
   md5: b7041bad981b82d24724c324eb64d38c
   filename: 202203038_Hammond,%20Andrew_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.316506+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.316506+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.316506+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:51:38.207641+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204004_Aldred,%20Keith_STIP_(Final).pdf
   md5: 397cb9e59135d870d438fcca1a7c1d1c
   filename: 202204004_Aldred,%20Keith_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.317866+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.317866+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.317866+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:51:52.618194+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204005_Swanson-Suhrstedt_SFO.pdf
   md5: 356ec8574726e87af3f72557175a5829
   filename: 202204005_Swanson-Suhrstedt_SFO.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.318909+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.318909+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.318909+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:52:06.969984+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204007_Larsen,%20Aaron_STIP_(Final).pdf
   md5: 5525db0697f3e43dce3dd02748fb2f8a
   filename: 202204007_Larsen,%20Aaron_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.320041+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.320041+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.320041+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:52:21.810757+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204013_Nye,%20Joel_DO_(Final).pdf
   md5: 4edba323381e008e6764af67b9cb838b
   filename: 202204013_Nye,%20Joel_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.321190+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.321190+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.321190+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:52:35.876623+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204014_Basile,%20Jennifer_STIP_(Final).pdf
   md5: dd5fcec14caa1a328c4725dc96ce6cf6
   filename: 202204014_Basile,%20Jennifer_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.322259+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.322259+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.322259+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:52:50.191740+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204017_Wieber,%20Kent_STIP_(Final).pdf
   md5: 0a9095cee2e7d46d557527e82382c7db
   filename: 202204017_Wieber,%20Kent_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.323290+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.323290+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.323290+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:53:04.522329+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204020_Fuller,%20Sean_DO_(Final).pdf
   md5: f8eef23c32fe70fc31b23b990eb72d1f
   filename: 202204020_Fuller,%20Sean_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.324276+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.324276+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.324276+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:53:19.357241+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204021_Gold,%20Alex_STIP_(Final).pdf
   md5: 8bb8261313d83125550234d654f29b37
   filename: 202204021_Gold,%20Alex_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.325528+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.325528+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.325528+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:53:34.040962+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204031_LaBarre,%20Paul_STIP_(Final).pdf
   md5: c2b19f966d899e515ddf2f859722374b
   filename: 202204031_LaBarre,%20Paul_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.326543+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.326543+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.326543+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:53:48.152353+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202204034_Markee,%20Barbara_STIP_(Final).pdf
   md5: 9d39cf47cb86ed036e26602feca64b79
   filename: 202204034_Markee,%20Barbara_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.327881+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.327881+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.327881+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:54:02.601702+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205004_Sutherland,%20Johnathan_DO_(Final).pdf
   md5: 300c1f3528dfe408b3f9e7236a06dcdb
   filename: 202205004_Sutherland,%20Johnathan_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.328984+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.328984+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.328984+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:54:16.911436+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205010_Muniz,%20Sarah_DO_(Final).pdf
   md5: 22d41dd4f5d6c167bbfe481f907b4b65
   filename: 202205010_Muniz,%20Sarah_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.330060+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.330060+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.330060+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:54:32.031585+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205011_Nieve,%20Austin_STIP_(Final).pdf
   md5: 2eb454e6434cd8451026765ce7f23d81
   filename: 202205011_Nieve,%20Austin_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.331302+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.331302+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.331302+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:54:46.011604+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205015_Bynum,%20Cheryl_STIP_(Final).pdf
   md5: fd8f6b43ec8ecb8d1397c444915fee05
   filename: 202205015_Bynum,%20Cheryl_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.332389+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.332389+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.332389+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:55:00.253863+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205016_Dobias,%20Erin_STIP_(Final).pdf
   md5: 0423437b4a3416605d555ec0b4798ca5
   filename: 202205016_Dobias,%20Erin_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.333468+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.333468+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.333468+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:55:14.947289+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205022_Pennell,%20Jededia_STIP_(Final).pdf
   md5: c2d79fde540e79a7673bd850f09b591d
   filename: 202205022_Pennell,%20Jededia_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.334831+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.334831+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.334831+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:55:28.832031+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205024_Stanek,%20Jeffrey_STIP_(Final).pdf
   md5: 9872bac5a7c181080bb5289ca6f40048
   filename: 202205024_Stanek,%20Jeffrey_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.335884+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.335884+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.335884+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:55:42.819998+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205028_Hooper,%20John_STIP_(Final).pdf
   md5: 1a9caf43fcfd9b39544b068944238ac7
   filename: 202205028_Hooper,%20John_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.337411+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.337411+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.337411+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:55:57.591148+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205035_Reichenbach,%20Timothy_DO_(Final).pdf
   md5: eca9e8382ed4e5c89d32e4438d86439d
   filename: 202205035_Reichenbach,%20Timothy_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.342478+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.342478+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.342478+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:56:11.441215+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202205036_Nibergall,%20Matthew_STIP_(Final).pdf
   md5: f2fad91a5b26420f4adf3c32aacd3530
   filename: 202205036_Nibergall,%20Matthew_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.343677+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.343677+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.343677+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:56:25.803805+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202206015_Murray,%20Ashley_DO_(Final).pdf
   md5: de1397a9674e7e85a5c4bf9146b241df
   filename: 202206015_Murray,%20Ashley_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.344752+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.344752+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.344752+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:56:40.175738+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202206016_Loughran,%20Hailey_DO_(Final).pdf
   md5: beca79bae757646cb0a12b4109d73e2f
   filename: 202206016_Loughran,%20Hailey_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.345780+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.345780+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.345780+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:56:53.949372+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202206023_Beirwagen,%20Hannah_DO_(Final).pdf
   md5: 7959b21e60096a76579fddde0b8788b6
   filename: 202206023_Beirwagen,%20Hannah_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.346808+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.346808+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.346808+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:57:08.202161+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202206028_Padalinski,%20Danielle_DO%20(Final).pdf
   md5: d0df46f9951887edec94a1ac7e1880b3
   filename: 202206028_Padalinski,%20Danielle_DO%20(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.347805+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.347805+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.347805+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:57:22.426813+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202206030_Avino,%20James_STIP_(Final).pdf
   md5: 5fc53457638221a7dbcf66db72325389
   filename: 202206030_Avino,%20James_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.349100+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.349100+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.349100+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:57:37.207691+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202207001_Forrest,%20Danielle_DO_(Final).pdf
   md5: 0c14507b173d60143bbe6b6fe10760ed
   filename: 202207001_Forrest,%20Danielle_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.350079+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.350079+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.350079+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:57:51.509363+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202207003_Nutter,%20Treva_DO_(Final).pdf
   md5: 8550682b5ba9fbfe8f1afa16576d8d09
   filename: 202207003_Nutter,%20Treva_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.351464+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.351464+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.351464+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:58:06.291767+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202207004_Huffstickler,%20Angela_STIP_(Final).pdf
   md5: c4981b349ef266f846baa35344e56aad
   filename: 202207004_Huffstickler,%20Angela_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.352688+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.352688+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.352688+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:58:20.302704+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202207012_Gray,%20Rachel_DO_(Final).pdf
   md5: 6663905857e3d4ffa43027d8912d7f0e
   filename: 202207012_Gray,%20Rachel_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.353642+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.353642+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.353642+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:58:34.524768+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202207015_Phaly,%20Duece_STIP_(Final).pdf
   md5: feb708c628ee6c9ad48e8d7435ea3242
   filename: 202207015_Phaly,%20Duece_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.354740+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.354740+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.354740+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:58:48.912490+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202208002_Claxton,%20Henry_DO_(Final).pdf
   md5: 3ccb2dd690e2cf889df237e000ed2c79
   filename: 202208002_Claxton,%20Henry_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.355922+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.355922+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.355922+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:59:03.472465+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202208005_Schroeder,%20Ian_STIP_(Final).pdf
   md5: c2f63b818a4bddb8e12c12c5e3afcdff
   filename: 202208005_Schroeder,%20Ian_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.357036+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.357036+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.357036+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:59:17.776753+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202208008_Aguilera,%20Vincent_DO_(Final).pdf
   md5: f3bd1dea08ad8934cc84fc4b51340e86
   filename: 202208008_Aguilera,%20Vincent_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.358265+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.358265+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.358265+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:59:31.481993+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202208011_van%20Haalen,%20Caspar_STIP_(Final).pdf
   md5: 3afe06a4c4768b73a0f7a8e3206868ec
   filename: 202208011_van%20Haalen,%20Caspar_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.359686+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.359686+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.359686+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:59:45.488535+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202208012_Arthur,%20Michael_STIP_(Final).pdf
   md5: bb0a6c80547e9f0a7e6158cefebe10ca
   filename: 202208012_Arthur,%20Michael_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.360832+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.360832+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.360832+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T15:59:59.569391+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202209002_Fery,%20Debra_DO_(Final).pdf
   md5: 5d024320d360c600647d2f819cd16ad7
   filename: 202209002_Fery,%20Debra_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.361853+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.361853+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.361853+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:00:14.031813+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202209010_Henderson,%20Elizabeth_STIP_(Final).pdf
   md5: e179ba6df3c5b13984a6a5f80c56a2e2
   filename: 202209010_Henderson,%20Elizabeth_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.363083+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.363083+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.363083+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:00:28.429964+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202209014_Ekstrom,%20Erik_DO_(Final).pdf
   md5: 24884a9c7eb7e74d3bf60f2a84bf083f
   filename: 202209014_Ekstrom,%20Erik_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.364078+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.364078+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.364078+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:00:42.822402+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202209015_McMillan,%20Stephanie_STIP_(Final).pdf
   md5: eedef904c1805ffe2dbc247286857360
   filename: 202209015_McMillan,%20Stephanie_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.365306+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.365306+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.365306+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:00:57.402688+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202209016_Goulter-Allen,%20Amy_STIP_(Final).pdf
   md5: 85e0cc18efc31d0d7d8bedeec7c51759
   filename: 202209016_Goulter-Allen,%20Amy_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.366480+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.366480+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.366480+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:01:11.789307+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202209019_Bland,%20Darren_STIP_(Final).pdf
   md5: 23d17b4b856488391b7f38566f64457a
   filename: 202209019_Bland,%20Darren_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.368493+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.368493+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.368493+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:01:26.292998+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202209026_Uraine,%20Dina_DO_(Final).pdf
   md5: 39155e61ae229d9e7921ad4a6e1c5194
   filename: 202209026_Uraine,%20Dina_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.369461+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.369461+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.369461+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:01:40.818037+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202210006_Whittemore,%20Ann_STIP_(Final).pdf
   md5: 9ab93b9b119b1c9420b96f5a6aca9ca7
   filename: 202210006_Whittemore,%20Ann_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.370654+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.370654+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.370654+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:01:55.371557+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202210007_Danese,%20Gregory_STIP_(Final).pdf
   md5: f213989070d7983a78fa9f98c1737e34
   filename: 202210007_Danese,%20Gregory_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.371949+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.371949+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.371949+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:02:09.896491+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202210010_Rehwald,%20Joanna_DO_(Final).pdf
   md5: 760e14f5fb5ae27f0d62fd411215483d
   filename: 202210010_Rehwald,%20Joanna_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.373045+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.373045+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.373045+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:02:24.455366+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202210012_Johnston,%20Ernest_DO_(Final).pdf
   md5: b3911a2ee181dd59b01d0914976447bf
   filename: 202210012_Johnston,%20Ernest_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.374062+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.374062+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.374062+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:02:38.991832+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202210014_Carter,%20Jolie_DO_(Final).pdf
   md5: 4766985878001e1eebec3eafe185ea3f
   filename: 202210014_Carter,%20Jolie_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.375011+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.375011+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.375011+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:02:53.689913+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202210024_Kester,%20Ken_DO_(Final).pdf
   md5: 104d956dcbbfa782b6537f09b54114a6
   filename: 202210024_Kester,%20Ken_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.375958+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.375958+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.375958+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:03:08.640941+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202211013_Marcantonio,%20Mark_STIP_(Final).pdf
   md5: 72ac2887910633534352a3204bac69c6
   filename: 202211013_Marcantonio,%20Mark_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.377077+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.377077+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.377077+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:03:23.324374+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202211014_Jennings,%20Jon_DO_(Final).pdf
   md5: aa1489556c07ea2c9bbd61b06e8f6057
   filename: 202211014_Jennings,%20Jon_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.378065+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.378065+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.378065+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:03:37.905879+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202211015_Boyle,%20Katherine_STIP_(Final).pdf
   md5: e24983a95b37d9791b9fdf4b3c61631d
   filename: 202211015_Boyle,%20Katherine_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.379171+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.379171+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.379171+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:03:52.608862+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202211017_Hernandez-Corchado,%20Edward_DO%20(Final).pdf
   md5: a14effa75dcd9e0f6e68cfc5ab04186f
   filename: 202211017_Hernandez-Corchado,%20Edward_DO%20(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.380187+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.380187+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.380187+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:04:07.057728+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202211020_Schlauch,%20Ronald_STIP_(Final).pdf
   md5: 80dc3019db71f3b9179606e146646cc8
   filename: 202211020_Schlauch,%20Ronald_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.381225+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.381225+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.381225+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:04:21.799738+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202211026_Matheny,%20David_STIP_(Final).pdf
   md5: 4ea8534d1eb4262d407e65c0d0b64175
   filename: 202211026_Matheny,%20David_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.382377+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.382377+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.382377+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:04:35.742750+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202211031_Yount,%20Darrell_DO_(Final).pdf
   md5: 9fc186c8dd944669db740c183692a01a
   filename: 202211031_Yount,%20Darrell_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.383393+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.383393+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.383393+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:04:49.895292+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202212002_Zittel,%20Eric_DO_(Final).pdf
   md5: edb243a2c4acde932ef5017c89b0d923
   filename: 202212002_Zittel,%20Eric_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.384387+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.384387+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.384387+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:05:04.168451+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202212006_Jenkins,%20Kayla_STIP_(Final).pdf
   md5: 9561a89e31b8d68014403d3404e7c054
   filename: 202212006_Jenkins,%20Kayla_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.385885+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.385885+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.385885+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:05:18.838491+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202212012_Luna,%20Michael_STIP_(Final).pdf
   md5: 8bed1eb4e1dc61a5f04dce9aa5fb4abe
   filename: 202212012_Luna,%20Michael_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.387171+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.387171+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.387171+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:05:33.230920+00:00'
 - url: https://www.oregon.gov/odot/ADA/ProjectDelivery/2023-tech-serv-memo.pdf
   md5: e57792b85f98f1eec5620d5d99ac0e2c
   filename: 2023-tech-serv-memo.pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.388508+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.388508+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.388508+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:05:47.883163+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202301003_Hughes,%20Heather_STIP_(Final).pdf
   md5: ad9fbecfce964b8b5cd2502c22e9f888
   filename: 202301003_Hughes,%20Heather_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.389765+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.389765+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.389765+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:06:02.282444+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202301009_Holleyman,%20Mark_DO_(Final).pdf
   md5: 3c684151110e84a377fbded61120444b
   filename: 202301009_Holleyman,%20Mark_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.390725+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.390725+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.390725+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:06:17.138761+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202301012_Aye,%20Brandon_STIP_(Final).pdf
   md5: 2a727c0435917bddf259154657fc2d1a
   filename: 202301012_Aye,%20Brandon_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.391785+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.391785+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.391785+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:06:31.238722+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202301015_Ewing,%20Stephanie_STIP_(FINAL).pdf
   md5: 0af18beccf186a4c7dbd79dea533788e
   filename: 202301015_Ewing,%20Stephanie_STIP_(FINAL).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.393331+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.393331+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.393331+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:06:45.593127+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202301027_George,%20Jeffrey_DO_(Final).pdf
   md5: e8273b448ad55cfbf2662c741c1ca5ef
   filename: 202301027_George,%20Jeffrey_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.394291+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.394291+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.394291+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:06:59.781743+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202301030_Green,%20David_STIP_(Final).pdf
   md5: c762f3e17ee53920ddf1af65dc9035bb
   filename: 202301030_Green,%20David_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.395372+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.395372+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.395372+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:07:14.415549+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202301031_Baxter,%20Jodi_STIP_(FINAL).pdf
   md5: c0ffa55971fdd998b9ac54d5ccefebeb
   filename: 202301031_Baxter,%20Jodi_STIP_(FINAL).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.396630+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.396630+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.396630+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:07:28.854652+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202302003_Whittemore,%20David_STIP%20(FInal).pdf
   md5: d55ebeb0c5809d1ca1ae747e52bd69e1
   filename: 202302003_Whittemore,%20David_STIP%20(FInal).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.398231+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.398231+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.398231+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:07:43.213856+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202302005_Wilcox,%20Gregory_STIP_(Final).pdf
   md5: edbe72495e75334ce637acfa06e93eeb
   filename: 202302005_Wilcox,%20Gregory_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.399839+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.399839+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.399839+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:07:57.595385+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202302007_Delman,%20Mike_STIP_(Final).pdf
   md5: b476db86166e303a0b1c60d0b13d8ae7
   filename: 202302007_Delman,%20Mike_STIP_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.401273+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.401273+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.401273+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:08:12.617880+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202302009_Loffarelli,%20Thomas_DO_(Final).pdf
   md5: 01036810e6bafee02699b1e2aaf5799b
   filename: 202302009_Loffarelli,%20Thomas_DO_(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.402252+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.402252+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.402252+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:08:26.976307+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202302012_Kunes%20Joseph_STIP%20(Final).pdf
   md5: e21888bad426ae9a8ffb34b4264e076c
   filename: 202302012_Kunes%20Joseph_STIP%20(Final).pdf
   site: oregon.gov
   crawled_at: '2026-03-13T01:07:38.404423+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.404423+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-13T01:07:38.404423+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-06T16:08:41.311756+00:00'
 - url: https://www.oregon.gov/tspc/PP/FinalOrders/Outcome_Documents/202302029_Hedrick,%20Shane_STIP%20(Final).pdf
   md5: e03a2ef1c5cbf283b4fecf435f39d2c0
   filename: 202302029_Hedrick,%20Shane_STIP%20(Final).pdf
