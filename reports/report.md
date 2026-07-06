@@ -1,19 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-06T14:12:59.580319+00:00
+Generated: 2026-07-06T14:33:18.189561+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19782 |
-| Analysed | 6065 |
-| Pending analysis | 8676 |
+| Total files tracked | 19792 |
+| Analysed | 6074 |
+| Pending analysis | 8677 |
 | Errors during analysis | 5041 |
 | Accessible | 2002 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
-| Exempt (pre-2018) | 1502 |
+| Exempt (pre-2018) | 1505 |
 
 ## Files per Site
 
@@ -43,7 +43,7 @@ Generated: 2026-07-06T14:12:59.580319+00:00
 | ecboces.org | 75 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 748 |
+| energy.gov | 749 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
@@ -82,6 +82,7 @@ Generated: 2026-07-06T14:12:59.580319+00:00
 | tollwerk.de | 8 |
 | towson.edu | 148 |
 | ul.ie | 7 |
+| usds.gov | 9 |
 | vdl.lu | 16 |
 | vivaqua.be | 68 |
 | volstate.edu | 10 |
@@ -6160,6 +6161,15 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [inz1002.pdf](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1002.pdf) | govt.nz | 2025-09-23 | INZ 1002 Residence Guide | Immigration New Zealand | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 9579 | 0 |
 | [new-zealands-tourism-policy-statement.pdf](https://www.mbie.govt.nz/assets/new-zealands-tourism-policy-statement.pdf) | govt.nz | 2026-06-25 | New Zealand's Tourism Policy Statement | Ministry of Business, Innovatoin and Employment | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 56 | 12191 | 168 |
 | [service-coverage-expectations-2025-26.pdf](https://www.health.govt.nz/system/files/2025-08/service-coverage-expectations-2025-26.pdf) | govt.nz | 2025-08-07 | Microsoft Word - Service Coverage Expectations 2025-26 | aschmidt | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 8877 | 2 |
+| [Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf](https://www.usds.gov/assets/files/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf) | usds.gov | 2024-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 2089 | 15 |
+| [IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf](https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf) | usds.gov | 2017-01-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 6 | 2230 | 2 |
+| [USDS-2024-Impact-Report.pdf](https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf) | usds.gov | 2024-08-12 | United States Digital Service 2024 Impact Report | United States Digital Service | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 23 | 6960 | 16 |
+| [USDS-Impact-Report-2020.pdf](https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf) | usds.gov | 2020-06-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 5407 | 23 |
+| [USDS-Overview.pdf](https://www.usds.gov/assets/files/USDS-Overview.pdf) | usds.gov | 2023-04-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 645 | 2 |
+| [USDS-Press-Sheet.pdf](https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf) | usds.gov | 2020-09-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 550 | 2 |
+| [USDS-SBA8a_Brief.pdf](https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf) | usds.gov | 2017-05-01 | Getting Started With USDS 8a Digital Services | {'U.S. Digital Service Acquisitions Team'} | {'8a', 'SBA', 'procuremenati', 'USDS'} | 8a, SBA, USDS, procuremenati | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 85 | 2 |
+| [USDS-SBA8a_Detailed.pdf](https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf) | usds.gov | 2017-05-01 | USDS 8a Digital Service Intiative | {'U.S. Digital Service Acquisitions Team'} | {'8a', 'SBA', 'procuremenati', 'USDS'} | 8a, SBA, USDS, procuremenati | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | 1 | 286 | 2 |
+| [usds-di.pdf](https://www.usds.gov/assets/files/usds-di.pdf) | usds.gov | 2020-09-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 499 | 2 |
 
 ## Files with Errors or Notes
 
@@ -61122,3 +61132,57 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.health.govt.nz/system/files/2025-08/service-coverage-expectations-2025-26.pdf
 - **Status**: analysed
 - title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
+
+- **URL**: https://www.usds.gov/assets/files/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=19), headings-none, 
+
+### IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
+
+- **URL**: https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### USDS-2024-Impact-Report.pdf
+
+- **URL**: https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, headings-none, annotations-tagging-fail, 
+
+### USDS-Impact-Report-2020.pdf
+
+- **URL**: https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=147), headings-none, 
+
+### USDS-Overview.pdf
+
+- **URL**: https://www.usds.gov/assets/files/USDS-Overview.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, annotations-tagging-fail, 
+
+### USDS-Press-Sheet.pdf
+
+- **URL**: https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=69), headings-none, 
+
+### USDS-SBA8a_Brief.pdf
+
+- **URL**: https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### USDS-SBA8a_Detailed.pdf
+
+- **URL**: https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### usds-di.pdf
+
+- **URL**: https://www.usds.gov/assets/files/usds-di.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=55), headings-none, annotations-tagging-fail, 
