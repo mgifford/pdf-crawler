@@ -372557,12 +372557,107 @@
   filename: DOE_Fact_Sheet_Grid_Report_July_2025.pdf
   site: energy.gov
   crawled_at: '2026-07-06T14:29:49.870731+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report: &id001
+    Site: energy.gov
+    File: DOE_Fact_Sheet_Grid_Report_July_2025.pdf
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 7
+    AnnotationSubtypeCounts: Link=7
+    LinkAnnotationCount: 7
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(176, 0): page=2 subtype=Link flags=None rect=[128.432, 626.764,
+      230.404, 640.832] action=''/URI'' dest=''https://www.powermag.com/nations-power-operators-warn-congress-of-a-coming-reliability-shortfall/''
+      widget=False field=None struct_parent=2 | (174, 0): page=2 subtype=Link flags=None
+      rect=[139.107, 561.111, 321.113, 575.18] action=''/URI'' dest=''https://www.utilitydive.com/news/isos-rtos-face-growing-risk-resource-adequacy-FERC/749904/''
+      widget=False field=None struct_parent=3 | (172, 0): page=2 subtype=Link flags=None
+      rect=[215.748, 481.391, 255.223, 495.459] action=''/URI'' dest=''https://www.forbes.com/sites/rrapier/2025/03/26/how-ai-data-centers-are-reshaping-americas-electric-grid/''
+      widget=False field=None struct_parent=4 | (166, 0): page=3 subtype=Link flags=None
+      rect=[219.498, 618.791, 399.574, 632.859] action=''/URI'' dest=''https://www.energy.gov/ceser/federal-power-act-section-202c-midcontinent-independent-system-operator-miso''
+      widget=False field=None struct_parent=6 | (164, 0): page=3 subtype=Link flags=None
+      rect=[219.498, 482.244, 392.877, 496.312] action=''/URI'' dest=''https://www.energy.gov/sites/default/files/2025-05/PREPA%20202%28c%29%20Emergency%20Measures%20Generation.pdf''
+      widget=False field=None struct_parent=7 | (162, 0): page=3 subtype=Link flags=None
+      rect=[219.498, 395.902, 399.574, 409.971] action=''/URI'' dest=''https://www.energy.gov/articles/us-department-energy-issues-202c-emergency-order-safeguard-electric-grid-reliability-pjm''
+      widget=False field=None struct_parent=8 | (160, 0): page=3 subtype=Link flags=None
+      rect=[220.664, 259.355, 400.74, 273.424] action=''/URI'' dest=''https://www.energy.gov/articles/secretary-wright-issues-emergency-order-secure-southeast-power-grid-amid-heat-wave''
+      widget=False field=None struct_parent=9'
+    LinkStructureCount: 7
+    ExternalLinkAnnotationCount: 7
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 2
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 4
+    HeadingSequence: H3 > H2 > H2 > H2
+    HeadingIssues: First known heading is H3, not H1
+    ListsTest: Pass
+    ListCount: 25
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2025-07-07 18:24:40+00:00'
+    hasTitle: false
+    hasDisplayDocTitle: null
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 25 for Word
+    Producer: Adobe PDF Library 25.1.51
+    Title: null
+    Author: Dankert, Charlie
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 3
+    Words: 1276
+    Images: 0
+    fonts: 7
+    numTxtObjects: 115
+    DocCategory: Report
+  errors: &id002
+  - 'title, headings-warn, '
   analyses:
     original:
-      status: pending
-      report: null
-      errors: []
-      analysed_at: null
+      status: analysed
+      report: *id001
+      errors: *id002
+      analysed_at: '2026-07-06T14:31:32.366838+00:00'
