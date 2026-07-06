@@ -1004,7 +1004,7 @@ def main(
     print(f"pikepdf version: {pikepdf.__version__}")
 
     entries = load_manifest(manifest_path)
-    pending = pending_entries(entries)
+    pending = pending_entries(entries, crawler_version=crawler_version)
 
     if site_filter:
         pending = [e for e in pending if e.get("site") == site_filter]
@@ -1108,7 +1108,7 @@ def main(
                     "or stale manifest entry from a previous run."
                 )
 
-            entries = mark_error(entries, url, [error_msg])
+            entries = mark_error(entries, url, [error_msg], crawler_version=crawler_version)
             save_manifest(entries, manifest_path)
             file_not_found_count += 1
             if is_stale:
@@ -1119,7 +1119,12 @@ def main(
         if local_path.suffix.lower() != ".pdf":
             ext = local_path.suffix or "(no extension)"
             print(f"  SKIP (not a PDF – {ext}): {url}")
-            entries = mark_error(entries, url, [f"Not a PDF file: {ext}"])
+            entries = mark_error(
+                entries,
+                url,
+                [f"Not a PDF file: {ext}"],
+                crawler_version=crawler_version,
+            )
             save_manifest(entries, manifest_path)
             if not keep_files:
                 try:
@@ -1141,6 +1146,7 @@ def main(
                 entries,
                 url,
                 [f"File too large to analyse: {file_size_mb:.1f} MB (limit: {max_file_size_mb:.0f} MB)"],
+                crawler_version=crawler_version,
             )
             save_manifest(entries, manifest_path)
             if not keep_files:
@@ -1182,7 +1188,13 @@ def main(
             elapsed = time.monotonic() - t_start
             log_msg = report.pop("_log", "")
             errors = [log_msg] if log_msg else []
-            entries = mark_analysed(entries, url, report, errors)
+            entries = mark_analysed(
+                entries,
+                url,
+                report,
+                errors,
+                crawler_version=crawler_version,
+            )
 
             # Print per-check results for transparency
             checks = {
@@ -1234,12 +1246,12 @@ def main(
             print(f"    → {status}")
         except TimeoutError as exc:
             elapsed = time.monotonic() - t_start
-            entries = mark_error(entries, url, [str(exc)])
+            entries = mark_error(entries, url, [str(exc)], crawler_version=crawler_version)
             print(f"    → TIMEOUT after {elapsed:.1f}s: {exc}")
             error_count += 1
         except Exception as exc:
             elapsed = time.monotonic() - t_start
-            entries = mark_error(entries, url, [str(exc)])
+            entries = mark_error(entries, url, [str(exc)], crawler_version=crawler_version)
             print(f"    → ERROR after {elapsed:.1f}s: {exc}")
             error_count += 1
 

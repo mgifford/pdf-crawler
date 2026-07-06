@@ -78,6 +78,9 @@ def test_build_entry_structure(tmp_pdf):
     assert entry["report"] is None
     assert entry["errors"] == []
     assert len(entry["md5"]) == 32
+    assert len(entry["file_hash"]) == 64
+    assert "analyses" in entry
+    assert "original" in entry["analyses"]
 
 
 def test_build_entry_with_notes(tmp_pdf):
@@ -205,6 +208,19 @@ def test_pending_entries_filter(tmp_pdf):
     assert result[0]["url"] == "https://example.com/p.pdf"
 
 
+def test_pending_entries_filter_per_engine(tmp_pdf):
+    """pending_entries must be engine-aware when analyses are present."""
+    e = build_entry("https://example.com/p.pdf", tmp_pdf, "example.com")
+    e["analyses"]["original"]["status"] = "analysed"
+    e["status"] = "analysed"
+    e["report"] = {"Accessible": True}
+    # Bloom has never run yet, so it must still be pending for bloom.
+    assert pending_entries([e], crawler_version="original") == []
+    bloom_pending = pending_entries([e], crawler_version="bloom")
+    assert len(bloom_pending) == 1
+    assert bloom_pending[0]["url"] == "https://example.com/p.pdf"
+
+
 # ---------------------------------------------------------------------------
 # needs_analysis
 # ---------------------------------------------------------------------------
@@ -217,7 +233,50 @@ def test_needs_analysis_pending(tmp_pdf):
 def test_needs_analysis_analysed_same_md5(tmp_pdf):
     entry = build_entry("https://example.com/x.pdf", tmp_pdf, "example.com")
     entry["status"] = "analysed"
+    entry["analyses"]["original"]["status"] = "analysed"
     assert needs_analysis(entry, tmp_pdf) is False
+
+
+def test_needs_analysis_engine_specific(tmp_pdf):
+    """needs_analysis should return True for engines that have not analysed yet."""
+    entry = build_entry("https://example.com/x.pdf", tmp_pdf, "example.com")
+    entry["status"] = "analysed"
+    entry["analyses"]["original"]["status"] = "analysed"
+    assert needs_analysis(entry, tmp_pdf, crawler_version="original") is False
+    assert needs_analysis(entry, tmp_pdf, crawler_version="bloom") is True
+
+
+def test_upsert_engine_aware_skip_and_rescan(tmp_pdf):
+    """Same file should skip for analysed engine and rescan for other engine."""
+    url = "https://example.com/doc.pdf"
+    entries = []
+    entries, _ = upsert_entry(entries, url, tmp_pdf, "example.com", crawler_version="original")
+    entries = mark_analysed(
+        entries,
+        url,
+        {"Accessible": True},
+        crawler_version="original",
+    )
+
+    # Original should skip because already analysed.
+    entries, needs_scan_original = upsert_entry(
+        entries,
+        url,
+        tmp_pdf,
+        "example.com",
+        crawler_version="original",
+    )
+    assert needs_scan_original is False
+
+    # Bloom should require scan on the same unchanged file.
+    entries, needs_scan_bloom = upsert_entry(
+        entries,
+        url,
+        tmp_pdf,
+        "example.com",
+        crawler_version="bloom",
+    )
+    assert needs_scan_bloom is True
 
 
 def test_needs_analysis_analysed_changed_md5(tmp_path):

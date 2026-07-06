@@ -215,6 +215,11 @@ jobs:
           uv sync --frozen
           echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
+      - name: Install Bloom Works crawler
+        if: steps.meta.outputs.crawler_version == 'bloom'
+        run: |
+          uv pip install git+https://github.com/bloom-works/simplA11yPDFCrawler.git@main
+
       - name: Download crawled PDFs artifact
         id: download_pdfs
         if: github.event_name == 'workflow_run'
@@ -308,6 +313,11 @@ jobs:
                 RUN_VERAPDF="true"
               fi
             fi
+            if [ -f scan-meta/crawler_version.txt ]; then
+              CRAWLER_VERSION=$(cat scan-meta/crawler_version.txt | tr -d '[:space:]')
+            else
+              CRAWLER_VERSION="original"
+            fi
           else
             # workflow_dispatch: read the optional site input directly.
             CRAWL_SITE=$(echo "$DISPATCH_SITE" | tr -d '[:space:]')
@@ -318,6 +328,7 @@ jobs:
           echo "max_pages=$MAX_PAGES"       >> "$GITHUB_OUTPUT"
           echo "max_pdfs=$MAX_PDFS"         >> "$GITHUB_OUTPUT"
           echo "run_verapdf=$RUN_VERAPDF"   >> "$GITHUB_OUTPUT"
+          echo "crawler_version=$CRAWLER_VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Pull latest manifest
         run: |
@@ -374,6 +385,10 @@ jobs:
           if [ "$RUN_VERAPDF" = "true" ]; then
             VERAPDF_FLAG="--verapdf"
           fi
+          CRAWLER_VERSION_FLAG=""
+          if [ "${{ steps.meta.outputs.crawler_version }}" = "bloom" ]; then
+            CRAWLER_VERSION_FLAG="--crawler-version bloom"
+          fi
           python scripts/pdf_analyser.py \
             --manifest reports/manifest.yaml \
             --crawled-dir crawled_files \
@@ -382,6 +397,7 @@ jobs:
             $SITE_FLAG \
             $MAX_FILES_FLAG \
             $VERAPDF_FLAG \
+            $CRAWLER_VERSION_FLAG \
             $KEEP_FLAG
 
       - name: Check stale entries from previous crawls

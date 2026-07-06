@@ -157,6 +157,35 @@
 
     .hint { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.75rem; margin-bottom: 1rem; }
 
+    .radio-group {
+      border: 1px solid var(--color-input-border);
+      border-radius: 0.375rem;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      background: var(--color-input-bg);
+    }
+    .radio-group legend {
+      font-weight: 600;
+      padding: 0 0.4rem;
+      font-size: 1rem;
+    }
+    .radio-group label {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: normal;
+      margin-bottom: 0.25rem;
+      cursor: pointer;
+    }
+    .radio-group input[type="radio"] {
+      margin: 0;
+      width: auto;
+    }
+    .radio-group input[type="radio"]:focus-visible {
+      outline: 2px solid var(--color-link);
+      outline-offset: 2px;
+    }
+
     #validation-preview {
       background: var(--color-card-bg);
       border: 1px solid var(--color-border);
@@ -235,6 +264,24 @@
     <textarea id="scan-notes" name="notes" rows="3"
       placeholder="Any context about this scan (organisation name, reason for scan, etc.)"></textarea>
 
+    <fieldset class="radio-group" id="crawler-version-group">
+      <legend>Crawler version</legend>
+      <label for="crawler-original">
+        <input type="radio" name="crawler_version" id="crawler-original" value="original" checked />
+        Original (Accessibility Luxembourg) — default
+      </label>
+      <label for="crawler-bloom">
+        <input type="radio" name="crawler_version" id="crawler-bloom" value="bloom" />
+        Bloom Works fork
+      </label>
+      <p class="hint" id="crawler-hint">
+        Choose which PDF accessibility checker to use. The original is the
+        default; the Bloom Works fork is a refactored version with additional
+        checks. To compare results, run two separate scans of the same site
+        with different versions.
+      </p>
+    </fieldset>
+
     <div id="validation-preview" aria-live="polite"></div>
 
     <button type="submit">Submit Crawl Request →</button>
@@ -244,6 +291,8 @@
     Prefer to create the issue yourself?
     Open a <a href="https://github.com/mgifford/pdf-crawler/issues/new" target="_blank" rel="noopener">new GitHub issue</a>
     and set the title to <code>SCAN: https://example.com</code>.
+    Add <code>BLOOM</code> after the URL to use the Bloom Works crawler
+    (e.g. <code>SCAN: https://example.com BLOOM</code>).
     Add a <code>Number: 200</code> line to the issue body to cap the crawl at
     200 pages.
   </p>
@@ -280,6 +329,12 @@
     const urlInput = document.getElementById('site-url');
     const preview  = document.getElementById('validation-preview');
 
+    function getCrawlerSuffix() {
+      const checked = document.querySelector('input[name="crawler_version"]:checked');
+      if (checked && checked.value === 'bloom') return 'BLOOM';
+      return '';
+    }
+
     function isPrivateOrLocalhost(url) {
       try {
         const { hostname } = new URL(url);
@@ -313,7 +368,11 @@
           message = `<span class="invalid-url">❌ That looks like a direct link to a PDF file. This tool crawls <em>websites</em> to discover PDFs — please enter a website URL (e.g. <code>https://example.com</code>) instead.</span>`;
         } else {
           valid = true;
-          message = `<span class="valid-url">✅ Valid URL — issue will be titled: <strong>SCAN: ${url.href}</strong></span>`;
+          const crawlerSuffix = getCrawlerSuffix();
+          const titleDisplay = crawlerSuffix
+            ? `SCAN: ${url.href} ${crawlerSuffix}`
+            : `SCAN: ${url.href}`;
+          message = `<span class="valid-url">✅ Valid URL — issue will be titled: <strong>${titleDisplay}</strong></span>`;
         }
       } catch {
         message = `<span class="invalid-url">❌ Not a valid URL.</span>`;
@@ -321,6 +380,12 @@
 
       preview.innerHTML = message;
       preview.style.display = 'block';
+    });
+
+    document.querySelectorAll('input[name="crawler_version"]').forEach(function (radio) {
+      radio.addEventListener('change', function () {
+        urlInput.dispatchEvent(new Event('input'));
+      });
     });
 
     form.addEventListener('submit', (e) => {
@@ -342,9 +407,16 @@
         ? `Number: ${maxPages}\n\n`
         : '';
 
-      const issueTitle = encodeURIComponent(`SCAN: ${url}`);
+      const crawlerSuffix = getCrawlerSuffix();
+      const crawlerLine = crawlerSuffix
+        ? `Crawler: ${crawlerSuffix}\n\n`
+        : '';
+      const titleCrawlerSuffix = crawlerSuffix ? ` ${crawlerSuffix}` : '';
+
+      const issueTitle = encodeURIComponent(`SCAN: ${url}${titleCrawlerSuffix}`);
       const issueBody  = encodeURIComponent(
         `## Scan Request\n\n**URL:** ${url}\n\n${notes ? `**Notes:** ${notes}\n\n` : ''}` +
+        crawlerLine +
         maxPagesLine +
         `This issue was submitted via the [PDF Crawler form](https://${REPO_OWNER}.github.io/${REPO_NAME}/).\n\n` +
         `The \`SCAN:\` prefix will automatically trigger the crawl workflow.`

@@ -23,3 +23,15 @@ Feature: Triggering crawl from issue events
     When crawl parameters are resolved
     Then a normalized crawl URL is produced
 
+  @us-003
+  Scenario: Issue body limits are parsed for crawl and analysis caps
+    Given a scan issue body contains "Number:" and "PDFs:" limits
+    When crawl parameters are resolved
+    Then max pages and max PDFs values are emitted to workflow outputs
+
+  @us-003
+  Scenario: Engine selection suffix is propagated
+    Given a scan issue title ends with "BLOOM"
+    When crawl parameters are resolved
+    Then crawler_version output is set to "bloom"
+

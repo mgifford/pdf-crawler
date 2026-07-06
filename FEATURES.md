@@ -42,6 +42,8 @@ Acceptance criteria:
 - Issues with `SCAN:` or `PDF-CRAWL:` are treated as scan requests.
 - Non-scan issue titles do not start crawl execution.
 - URL extraction falls back from title to body when needed.
+- Optional issue-body limits (`Number:`, `PDFs:`) are parsed into crawl/analyse caps.
+- Crawler engine selection from title suffix (`BLOOM` / `ORIGINAL`) is propagated to analysis metadata.
 
 ### US-004 — Unchanged files are not rescanned
 
@@ -51,8 +53,11 @@ Acceptance criteria:
 
 Acceptance criteria:
 - Manifest tracks URL, file identity, and processing status.
-- Unchanged files remain skipped on subsequent runs.
+- Manifest stores both MD5 and a stable file hash to identify content changes.
+- Unchanged files remain skipped on subsequent runs for the same engine.
+- The same unchanged file can still be analysed by a different engine.
 - Reports still include complete state for decision-making.
+- Reports include engine-aware comparison data when both engines analysed the same file.
 
 ### US-005 — Reports remain human-readable and machine-readable
 
@@ -80,8 +85,8 @@ Rules:
 |---|---|---|---|---|
 | US-001 | `features/ui_scan_submission.feature` → “Valid URL can be prepared for SCAN issue submission” | `tests/test_crawl.py` (URL normalization supports request quality) | `features/ui_scan_submission.feature` (`@ui`) | `docs/index.html`, `.github/workflows/crawl.yml` |
 | US-002 | `features/ui_scan_submission.feature` → “Direct PDF URLs are blocked before submit”; “Private and localhost URLs are blocked” | `tests/test_crawl.py` (`is_pdf_url` coverage) | `features/ui_scan_submission.feature` (`@ui @accessibility`) | `docs/index.html`, `.github/workflows/crawl.yml` |
-| US-003 | `features/workflow_scan_trigger.feature` scenarios | `tests/test_crawl.py` | Planned BDD step expansion (currently documented spec) | `.github/workflows/crawl.yml` |
-| US-004 | `features/reporting_manifest_behavior.feature` scenarios | `tests/test_manifest.py`, `tests/test_crawl.py` | N/A (domain covered by pytest) | `scripts/manifest.py`, `scripts/crawl.py` |
+| US-003 | `features/workflow_scan_trigger.feature` scenarios | `tests/test_crawl.py`, `tests/test_crawl_workflow_config.py` | Planned BDD step expansion (currently documented spec) | `.github/workflows/crawl.yml` |
+| US-004 | `features/reporting_manifest_behavior.feature` scenarios | `tests/test_manifest.py`, `tests/test_crawl.py`, `tests/test_generate_report_engine_comparison.py` | N/A (domain covered by pytest) | `scripts/manifest.py`, `scripts/crawl.py`, `scripts/pdf_analyser.py`, `scripts/generate_report.py` |
 | US-005 | `features/reporting_manifest_behavior.feature` scenarios | `tests/test_generate_report.py`, `tests/test_structured_report.py` | N/A (domain covered by pytest) | `scripts/generate_report.py`, `reports/` |
 
 ## Governance for maintainability

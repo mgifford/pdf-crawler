@@ -4,7 +4,7 @@ This directory stores the outputs produced by the crawl and analysis workflows.
 
 | File | Description |
 |------|-------------|
-| `manifest.yaml` | YAML tracking file – one entry per discovered PDF with URL, MD5 hash, crawl timestamp, and accessibility results |
+| `manifest.yaml` | YAML tracking file – one entry per discovered PDF with URL, hashes, crawl timestamp, and engine-specific accessibility results |
 | `report.md` | Human-readable Markdown report generated from the manifest |
 | `report.json` | Machine-readable JSON report |
 | `report_structured.json` | Structured JSON report with rule categories (`Summary`, `Detailed Report`, `PDF Metadata`) for each analysed file |
@@ -14,6 +14,7 @@ This directory stores the outputs produced by the crawl and analysis workflows.
 ```yaml
 - url: https://example.com/document.pdf
   md5: d41d8cd98f00b204e9800998ecf8427e
+  file_hash: 8f434346648f6b96df89dda901c5176b10a6d83961db1f4c3d410a8f1f6677f2
   filename: document.pdf
   site: example.com
   crawled_at: "2024-01-15T10:30:00+00:00"
@@ -46,6 +47,17 @@ This directory stores the outputs produced by the crawl and analysis workflows.
     DocCategory: Report     # optional – inferred document category (see below)
   errors:
     - "title, lang, tagged, "
+  analyses:
+    original:
+      status: analysed
+      analysed_at: "2024-01-15T10:40:00+00:00"
+      report: { ... }
+      errors: []
+    bloom:
+      status: pending
+      analysed_at: null
+      report: null
+      errors: []
 ```
 
 ### `link_text` field
@@ -87,3 +99,12 @@ The category is determined by keyword matching and is a best-effort
 classification — it should be treated as a hint rather than a definitive label.
 For ML-powered classification, see
 [asap_pdf](https://github.com/codeforamerica/asap_pdf).
+
+### Hashes and engine-specific analyses
+
+- `md5` is retained for backward compatibility and lightweight change detection.
+- `file_hash` stores a SHA-256 digest to uniquely identify file content across runs.
+- `analyses` stores per-engine state (`original`, `bloom`, etc.).
+
+This allows the same unchanged PDF to be skipped for an engine that has already
+analysed it, while still allowing analysis by another engine for comparison.

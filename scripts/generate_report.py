@@ -39,6 +39,89 @@ _FAIL = "❌ Fail"
 _NA = "—"
 
 
+def _entry_for_engine(entry: Dict[str, Any], engine: str) -> Dict[str, Any]:
+  """Return a report-ready entry view for a specific engine result."""
+  analyses = entry.get("analyses") if isinstance(entry.get("analyses"), dict) else {}
+  engine_data = analyses.get(engine) if isinstance(analyses, dict) else None
+  if not isinstance(engine_data, dict):
+    status = entry.get("status")
+    report = entry.get("report")
+    errors = entry.get("errors")
+  else:
+    status = engine_data.get("status")
+    report = engine_data.get("report")
+    errors = engine_data.get("errors")
+
+  return {
+    **entry,
+    "status": status,
+    "report": report,
+    "errors": errors or [],
+    "engine": engine,
+    "engine_status": status,
+  }
+
+
+def _expanded_entries(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+  """Return entries flattened per engine for reporting and comparison."""
+  expanded: List[Dict[str, Any]] = []
+  for entry in entries:
+    analyses = entry.get("analyses")
+    if isinstance(analyses, dict) and analyses:
+      for engine in sorted(analyses.keys()):
+        expanded.append(_entry_for_engine(entry, engine))
+    else:
+      expanded.append(_entry_for_engine(entry, "original"))
+  return expanded
+
+
+def _engine_comparison(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
+  """Build a comparison summary for files analysed by both engines."""
+  by_url: Dict[str, Dict[str, Dict[str, Any]]] = {}
+  for entry in entries:
+    analyses = entry.get("analyses")
+    if not isinstance(analyses, dict):
+      continue
+    by_url[entry.get("url", "")] = analyses
+
+  comparable = 0
+  accessible_disagreements = 0
+  tagged_disagreements = 0
+  title_disagreements = 0
+  language_disagreements = 0
+  bookmarks_disagreements = 0
+
+  for analyses in by_url.values():
+    original = analyses.get("original")
+    bloom = analyses.get("bloom")
+    if not isinstance(original, dict) or not isinstance(bloom, dict):
+      continue
+    if original.get("status") != "analysed" or bloom.get("status") != "analysed":
+      continue
+    r1 = original.get("report") or {}
+    r2 = bloom.get("report") or {}
+    comparable += 1
+    if r1.get("Accessible") != r2.get("Accessible"):
+      accessible_disagreements += 1
+    if r1.get("TaggedTest") != r2.get("TaggedTest"):
+      tagged_disagreements += 1
+    if r1.get("TitleTest") != r2.get("TitleTest"):
+      title_disagreements += 1
+    if r1.get("LanguageTest") != r2.get("LanguageTest"):
+      language_disagreements += 1
+    if r1.get("BookmarksTest") != r2.get("BookmarksTest"):
+      bookmarks_disagreements += 1
+
+  return {
+    "comparable_files": comparable,
+    "accessible_disagreements": accessible_disagreements,
+    "tagged_disagreements": tagged_disagreements,
+    "title_disagreements": title_disagreements,
+    "language_disagreements": language_disagreements,
+    "bookmarks_disagreements": bookmarks_disagreements,
+  }
+
+
 def generate_structured_json(entries: List[Dict[str, Any]], stats: Dict[str, Any]) -> Dict[str, Any]:
     """Return structured-report JSON for analysed manifest entries.
 
@@ -163,6 +246,11 @@ def _summary_stats(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
         site = e.get("site", "unknown")
         sites[site] = sites.get(site, 0) + 1
 
+    engine_counts: Dict[str, int] = {}
+    for e in entries:
+      engine = e.get("engine", "original")
+      engine_counts[engine] = engine_counts.get(engine, 0) + 1
+
     return {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total_files": total,
@@ -174,6 +262,7 @@ def _summary_stats(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
         "broken": broken,
         "exempt": exempt,
         "sites": sites,
+        "engines": engine_counts,
         "pages_crawled": 0,
     }
 
@@ -1512,8 +1601,10 @@ def main(
     issue_url: str = "",
     spot_check_file: Optional[str] = None,
 ) -> None:
-    entries = load_manifest(manifest_path)
+    raw_entries = load_manifest(manifest_path)
+    entries = _expanded_entries(raw_entries)
     stats = _summary_stats(entries)
+    comparison = _engine_comparison(raw_entries)
 
     # Compute per-site stats for the archive index entry so that values in
     # index.json (Total PDFs, Analysed, Accessible) reflect only the current
@@ -1551,7 +1642,7 @@ def main(
     print(f"Written: {md_path}")
 
     # JSON report (full, all sites)
-    json_data = {"summary": stats, "files": entries}
+    json_data = {"summary": stats, "comparison": comparison, "files": entries}
     json_path = out_dir / "report.json"
     json_path.write_text(
         json.dumps(json_data, indent=2, default=str), encoding="utf-8"

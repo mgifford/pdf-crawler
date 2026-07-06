@@ -564,6 +564,47 @@ def test_update_manifest_skips_non_pdf_prints_message(tmp_path, capsys):
     assert "Skipping non-PDF file" in captured.out
 
 
+def test_update_manifest_marks_pending_for_other_engine_on_unchanged_pdf(tmp_path):
+    """Unchanged PDF analysed by one engine should still be pending for another."""
+    from crawl import update_manifest
+    from manifest import load_manifest
+
+    site = "example.com"
+    output_dir = tmp_path / "crawled_files"
+    site_dir = output_dir / site
+    site_dir.mkdir(parents=True)
+
+    (site_dir / "doc.pdf").write_bytes(b"%PDF fake")
+    manifest_path = tmp_path / "manifest.yaml"
+
+    # First crawl update for original engine, then mark analysed manually.
+    update_manifest(
+        f"https://{site}",
+        str(output_dir),
+        str(manifest_path),
+        crawler_version="original",
+    )
+    entries = load_manifest(str(manifest_path))
+    entries[0]["status"] = "analysed"
+    entries[0]["report"] = {"Accessible": True}
+    entries[0]["analyses"]["original"]["status"] = "analysed"
+    entries[0]["analyses"]["original"]["report"] = {"Accessible": True}
+    from manifest import save_manifest
+    save_manifest(entries, str(manifest_path))
+
+    # Running update for bloom should mark as pending for bloom.
+    update_manifest(
+        f"https://{site}",
+        str(output_dir),
+        str(manifest_path),
+        crawler_version="bloom",
+    )
+    entries = load_manifest(str(manifest_path))
+    assert entries[0]["status"] == "pending"
+    assert entries[0]["analyses"]["original"]["status"] == "analysed"
+    assert entries[0]["analyses"]["bloom"]["status"] == "pending"
+
+
 # ---------------------------------------------------------------------------
 # generate_crawled_urls_csv
 # ---------------------------------------------------------------------------

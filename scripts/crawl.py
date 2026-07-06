@@ -1006,6 +1006,7 @@ def update_manifest(
     output_dir: str,
     manifest_path: str,
     notes: str = "",
+    crawler_version: str = "original",
 ) -> None:
     """Walk the crawled output directory and update the manifest."""
     parsed = urlparse(url)
@@ -1061,7 +1062,13 @@ def update_manifest(
         link_text = anchor_map.get(file_path.name, "")
         print(f"  Processing: {file_url}")
         entries, needs_scan = upsert_entry(
-            entries, file_url, file_path, site, notes=notes, link_text=link_text
+            entries,
+            file_url,
+            file_path,
+            site,
+            notes=notes,
+            link_text=link_text,
+            crawler_version=crawler_version,
         )
         if needs_scan:
             new_count += 1
@@ -1220,6 +1227,15 @@ def main() -> None:
             "the crawled files are still on disk, so only the manifest re-merge is needed."
         ),
     )
+    parser.add_argument(
+        "--crawler-version",
+        choices=["original", "bloom"],
+        default="original",
+        help=(
+            "Crawler engine label used to track engine-specific analysis state "
+            "in the manifest (default: original)."
+        ),
+    )
     args = parser.parse_args()
 
     # Ensure output and reports directories exist
@@ -1250,7 +1266,13 @@ def main() -> None:
         run_scrapy(url, args.output_dir, args.timeout, args.spider, args.max_pages, log_path)
 
     print("Updating manifest…")
-    update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
+    update_manifest(
+        url,
+        args.output_dir,
+        args.manifest,
+        notes=args.notes,
+        crawler_version=args.crawler_version,
+    )
 
     print("Generating crawled URLs CSV…")
     pages_crawled = generate_crawled_urls_csv(url, args.output_dir, args.report_dir)
@@ -1288,7 +1310,13 @@ def main() -> None:
                     f"Downloaded {sitemap_fetched} PDF(s) from sitemap. "
                     "Updating manifest…"
                 )
-                update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
+                update_manifest(
+                    url,
+                    args.output_dir,
+                    args.manifest,
+                    notes=args.notes,
+                    crawler_version=args.crawler_version,
+                )
                 pdf_count = _count_downloaded_pdfs(site_dir)
             else:
                 print(
@@ -1303,7 +1331,13 @@ def main() -> None:
                         f"Downloaded {duckduckgo_fetched} PDF(s) from DuckDuckGo results. "
                         "Updating manifest…"
                     )
-                    update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
+                    update_manifest(
+                        url,
+                        args.output_dir,
+                        args.manifest,
+                        notes=args.notes,
+                        crawler_version=args.crawler_version,
+                    )
                     pdf_count = _count_downloaded_pdfs(site_dir)
                 else:
                     print(
@@ -1318,7 +1352,13 @@ def main() -> None:
                             f"Downloaded {google_fetched} PDF(s) from Google results. "
                             "Updating manifest…"
                         )
-                        update_manifest(url, args.output_dir, args.manifest, notes=args.notes)
+                        update_manifest(
+                            url,
+                            args.output_dir,
+                            args.manifest,
+                            notes=args.notes,
+                            crawler_version=args.crawler_version,
+                        )
                         pdf_count = _count_downloaded_pdfs(site_dir)
 
         if pdf_count == 0:
@@ -1343,6 +1383,7 @@ def main() -> None:
                     args.output_dir,
                     args.manifest,
                     notes=args.notes,
+                    crawler_version=args.crawler_version,
                 )
                 pages_crawled = generate_crawled_urls_csv(
                     broader_url, args.output_dir, args.report_dir
