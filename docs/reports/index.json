@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-06T04:21:21.643591+00:00",
+    "site": "govt.nz",
+    "crawl_url": "https://www.govt.nz",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28767265650",
+    "issue_url": "",
+    "archive_file": "2026-07-06_04-21-21-643_govt.nz.html",
+    "total": 9,
+    "analysed": 7,
+    "accessible": 0
+  },
+  {
     "date": "2026-06-30T13:21:31.712064+00:00",
     "site": "minneapolis.edu",
     "crawl_url": "https://minneapolis.edu/",

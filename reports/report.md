@@ -1,15 +1,15 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-06-30T13:21:31.712064+00:00
+Generated: 2026-07-06T04:21:21.643591+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19773 |
-| Analysed | 6058 |
+| Total files tracked | 19782 |
+| Analysed | 6065 |
 | Pending analysis | 8676 |
-| Errors during analysis | 5039 |
+| Errors during analysis | 5041 |
 | Accessible | 2002 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
@@ -47,6 +47,7 @@ Generated: 2026-06-30T13:21:31.712064+00:00
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
+| govt.nz | 9 |
 | gsa.gov | 450 |
 | hamilton.ca | 262 |
 | hud.gov | 1418 |
@@ -6152,6 +6153,13 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [Minneapolis-College-PSEOHandbook-2025-2026-A1.pdf](https://minneapolis.edu/sites/default/files/Minneapolis-College-PSEOHandbook-2025-2026-A1.pdf) | minneapolis.edu | 2025-06-12 | 2025-2026 PSEO Handbook | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 2118 | 19 |
 | [Student-Life-Guide-FY20-A2.pdf](https://minneapolis.edu/sites/default/files/Student-Life-Guide-FY20-A2.pdf) | minneapolis.edu | 2019-10-14 | Student Life Guide | macalester | Policies and Procedures | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 34 | 11544 | 0 |
 | [Student-Life-Guide-FY22-Final-A1.pdf](https://minneapolis.edu/sites/default/files/Student-Life-Guide-FY22-Final-A1.pdf) | minneapolis.edu | 2022-03-07 | Student Life Guide | macalester | Policies and Procedures | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 41 | 13847 | 1 |
+| [Draft-Mental-Health-and-Wellbeing-Strategy-2026-2036.pdf](https://www.health.govt.nz/system/files/2026-04/Draft-Mental-Health-and-Wellbeing-Strategy-2026-2036.pdf) | govt.nz | 2026-04-06 | Draft Mental Health and Wellbeing Strategy 2026–2036 | Ministry of Health | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 48 | 15037 | 70 |
+| [Traveller-factsheet-English.pdf](https://www.nztd.govt.nz/assets/pdfs/Traveller-factsheet-English.pdf) | govt.nz | 2023-07-11 | Traveller factsheet - English | {'New Zealand Traveller Declaration'} | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 643 | 0 |
+| [b26-at-a-glance.pdf](https://www.treasury.govt.nz/sites/default/files/2026-05/b26-at-a-glance.pdf) | govt.nz | 2026-05-27 | Budget 2026 - Budget at a Glance | New Zealand Treasury | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 1623 | 58 |
+| [b26-sum-initiatives.pdf](https://www.treasury.govt.nz/sites/default/files/2026-05/b26-sum-initiatives.pdf) | govt.nz | 2026-05-27 | Budget 2026 - Summary of Initiatives - 28 May 2026 | {'New Zealand Treasury'} | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 87 | 27163 | 4 |
+| [inz1002.pdf](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1002.pdf) | govt.nz | 2025-09-23 | INZ 1002 Residence Guide | Immigration New Zealand | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 9579 | 0 |
+| [new-zealands-tourism-policy-statement.pdf](https://www.mbie.govt.nz/assets/new-zealands-tourism-policy-statement.pdf) | govt.nz | 2026-06-25 | New Zealand's Tourism Policy Statement | Ministry of Business, Innovatoin and Employment | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 56 | 12191 | 168 |
+| [service-coverage-expectations-2025-26.pdf](https://www.health.govt.nz/system/files/2025-08/service-coverage-expectations-2025-26.pdf) | govt.nz | 2025-08-07 | Microsoft Word - Service Coverage Expectations 2025-26 | aschmidt | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 8877 | 2 |
 
 ## Files with Errors or Notes
 
@@ -61060,3 +61068,57 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://minneapolis.edu/sites/default/files/Student-Life-Guide-FY20-A2.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, figures missing alt text (count=2), tables-warn, 
+
+### Draft-Mental-Health-and-Wellbeing-Strategy-2026-2036.pdf
+
+- **URL**: https://www.health.govt.nz/system/files/2026-04/Draft-Mental-Health-and-Wellbeing-Strategy-2026-2036.pdf
+- **Status**: analysed
+- headings-skip, tables-warn, 
+
+### Housing-in-aotearoa-new-zealand-2025.pdf
+
+- **URL**: https://www.census.govt.nz/assets/Reports/Housing-in-Aotearoa-New-Zealand-2025/Housing-in-aotearoa-new-zealand-2025.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Traveller-factsheet-English.pdf
+
+- **URL**: https://www.nztd.govt.nz/assets/pdfs/Traveller-factsheet-English.pdf
+- **Status**: analysed
+- tagged, 
+
+### b26-at-a-glance.pdf
+
+- **URL**: https://www.treasury.govt.nz/sites/default/files/2026-05/b26-at-a-glance.pdf
+- **Status**: analysed
+- tagged-content-fail, tables-warn, annotations-tagging-fail, 
+
+### b26-sum-initiatives.pdf
+
+- **URL**: https://www.treasury.govt.nz/sites/default/files/2026-05/b26-sum-initiatives.pdf
+- **Status**: analysed
+- lang, figures missing alt text (count=11), headings-skip, tables-warn, annotations-tagging-fail, 
+
+### government-procurement-rules-4th-edition.pdf
+
+- **URL**: https://www.procurement.govt.nz/assets/procurement-property/documents/government-procurement-rules-4th-edition.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### inz1002.pdf
+
+- **URL**: https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1002.pdf
+- **Status**: analysed
+- headings-none, tables-fail, annotations-tagging-fail, 
+
+### new-zealands-tourism-policy-statement.pdf
+
+- **URL**: https://www.mbie.govt.nz/assets/new-zealands-tourism-policy-statement.pdf
+- **Status**: analysed
+- tagged, no bookmarks and more than 20 pages, 
+
+### service-coverage-expectations-2025-26.pdf
+
+- **URL**: https://www.health.govt.nz/system/files/2025-08/service-coverage-expectations-2025-26.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 

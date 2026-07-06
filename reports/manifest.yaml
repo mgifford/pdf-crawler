@@ -370068,70 +370068,1181 @@
   filename: Draft-Mental-Health-and-Wellbeing-Strategy-2026-2036.pdf
   site: govt.nz
   crawled_at: '2026-07-06T04:12:07.626123+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 105
+    AnnotationSubtypeCounts: Link=105
+    LinkAnnotationCount: 105
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Pass
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: '(58, 0): page=6 subtype=Link flags=4 rect=[82.8, 688.94, 462.9,
+      704.9] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(36,0)>,
+      "/XYZ", 104, 771, 0 ])'' widget=False field=None struct_parent=6 | (61, 0):
+      page=6 subtype=Link flags=4 rect=[82.8, 657.98, 462.9, 688.94] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(64,0)>, "/XYZ", 104, 770, 0 ])''
+      widget=False field=None struct_parent=7 | (65, 0): page=6 subtype=Link flags=4
+      rect=[97.0, 640.34, 462.9, 657.98] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(64,0)>,
+      "/XYZ", 104, 704, 0 ])'' widget=False field=None struct_parent=8 | (66, 0):
+      page=6 subtype=Link flags=4 rect=[97.0, 622.71, 462.9, 640.34] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, "/XYZ", 82, 770, 0 ])''
+      widget=False field=None struct_parent=9 | (68, 0): page=6 subtype=Link flags=4
+      rect=[97.0, 605.08, 462.9, 622.71] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>,
+      "/XYZ", 82, 287, 0 ])'' widget=False field=None struct_parent=10 | (69, 0):
+      page=6 subtype=Link flags=4 rect=[82.8, 574.12, 462.9, 605.08] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(71,0)>, "/XYZ", 82, 770, 0 ])''
+      widget=False field=None struct_parent=11 | (72, 0): page=6 subtype=Link flags=4
+      rect=[97.0, 556.49, 462.9, 574.12] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(71,0)>,
+      "/XYZ", 82, 609, 0 ])'' widget=False field=None struct_parent=12 | (73, 0):
+      page=6 subtype=Link flags=4 rect=[97.0, 538.86, 462.9, 556.49] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(74,0)>, "/XYZ", 104, 519, 0 ])''
+      widget=False field=None struct_parent=13 | (75, 0): page=6 subtype=Link flags=4
+      rect=[97.0, 521.23, 462.9, 538.86] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(77,0)>,
+      "/XYZ", 104, 687, 0 ])'' widget=False field=None struct_parent=14 | (78, 0):
+      page=6 subtype=Link flags=4 rect=[82.8, 490.27, 462.9, 521.23] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(79,0)>, "/XYZ", 82, 770, 0 ])''
+      widget=False field=None struct_parent=15 | (80, 0): page=6 subtype=Link flags=4
+      rect=[97.0, 472.64, 462.9, 490.27] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(79,0)>,
+      "/XYZ", 82, 704, 0 ])'' widget=False field=None struct_parent=16 | (81, 0):
+      page=6 subtype=Link flags=4 rect=[97.0, 455.01, 462.9, 472.64] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(79,0)>, "/XYZ", 82, 364, 0 ])''
+      widget=False field=None struct_parent=17 | (82, 0): page=6 subtype=Link flags=4
+      rect=[97.0, 437.38, 462.9, 455.01] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(83,0)>,
+      "/XYZ", 104, 280, 0 ])'' widget=False field=None struct_parent=18 | (84, 0):
+      page=6 subtype=Link flags=4 rect=[97.0, 419.74, 462.9, 437.38] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(85,0)>, "/XYZ", 82, 519, 0 ])''
+      widget=False field=None struct_parent=19 | (86, 0): page=6 subtype=Link flags=4
+      rect=[82.8, 388.78, 462.9, 419.74] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(87,0)>,
+      "/XYZ", 104, 770, 0 ])'' widget=False field=None struct_parent=20 | (88, 0):
+      page=6 subtype=Link flags=4 rect=[82.8, 357.82, 462.9, 388.78] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(90,0)>, "/XYZ", 104, 770, 0 ])''
+      widget=False field=None struct_parent=21 | (91, 0): page=6 subtype=Link flags=4
+      rect=[82.8, 326.86, 462.9, 357.82] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(93,0)>,
+      "/XYZ", 104, 770, 0 ])'' widget=False field=None struct_parent=22 | (94, 0):
+      page=6 subtype=Link flags=4 rect=[82.8, 295.9, 462.9, 326.86] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(96,0)>, "/XYZ", 104, 770, 0 ])''
+      widget=False field=None struct_parent=23 | (97, 0): page=6 subtype=Link flags=4
+      rect=[82.8, 264.94, 462.9, 295.9] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(100,0)>,
+      "/XYZ", 82, 770, 0 ])'' widget=False field=None struct_parent=24 | (101, 0):
+      page=6 subtype=Link flags=4 rect=[82.8, 233.98, 462.9, 264.94] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(103,0)>, "/XYZ", 54, 771, 0 ])''
+      widget=False field=None struct_parent=25 | (104, 0): page=6 subtype=Link flags=4
+      rect=[82.8, 203.02, 491.25, 233.98] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(107,0)>,
+      "/XYZ", 54, 771, 0 ])'' widget=False field=None struct_parent=26 | (108, 0):
+      page=6 subtype=Link flags=4 rect=[82.8, 187.06, 462.9, 203.02] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(107,0)>, "/XYZ", 54, 771, 0 ])''
+      widget=False field=None struct_parent=27 | (109, 0): page=6 subtype=Link flags=4
+      rect=[82.8, 156.1, 462.9, 187.06] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(111,0)>,
+      "/XYZ", 68, 785, 0 ])'' widget=False field=None struct_parent=28 | (112, 0):
+      page=6 subtype=Link flags=4 rect=[82.8, 125.14, 462.9, 156.1] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(113,0)>, "/XYZ", 82, 771, 0 ])''
+      widget=False field=None struct_parent=29 | (114, 0): page=6 subtype=Link flags=4
+      rect=[82.8, 94.175, 462.9, 125.14] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(125,0)>,
+      "/XYZ", 104, 771, 0 ])'' widget=False field=None struct_parent=30 | (127, 0):
+      page=7 subtype=Link flags=4 rect=[104.1, 719.85, 484.2, 739.82] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>, "/XYZ", 82, 642, 0 ])''
+      widget=False field=None struct_parent=32 | (128, 0): page=7 subtype=Link flags=4
+      rect=[104.1, 699.89, 484.2, 719.85] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(70,0)>,
+      "/XYZ", 104, 770, 0 ])'' widget=False field=None struct_parent=33 | (129, 0):
+      page=7 subtype=Link flags=4 rect=[104.1, 679.92, 484.2, 699.89] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(71,0)>, "/XYZ", 82, 478, 0 ])''
+      widget=False field=None struct_parent=34 | (130, 0): page=7 subtype=Link flags=4
+      rect=[104.1, 659.96, 512.55, 679.92] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(74,0)>, "/XYZ", 104, 338, 0 ])'' widget=False field=None
+      struct_parent=35 | (131, 0): page=7 subtype=Link flags=4 rect=[104.1, 645.99,
+      484.2, 659.96] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(74,0)>,
+      "/XYZ", 104, 338, 0 ])'' widget=False field=None struct_parent=36 | (132, 0):
+      page=7 subtype=Link flags=4 rect=[104.1, 626.02, 484.2, 645.99] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(83,0)>, "/XYZ", 104, 575, 0 ])''
+      widget=False field=None struct_parent=37 | (133, 0): page=7 subtype=Link flags=4
+      rect=[104.1, 606.06, 512.55, 626.02] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(115,0)>, "/XYZ", 104, 355, 0 ])'' widget=False field=None
+      struct_parent=38 | (134, 0): page=7 subtype=Link flags=4 rect=[104.1, 592.09,
+      484.2, 606.06] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(115,0)>,
+      "/XYZ", 104, 355, 0 ])'' widget=False field=None struct_parent=39 | (135, 0):
+      page=7 subtype=Link flags=4 rect=[104.1, 572.13, 512.55, 592.09] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(118,0)>, "/XYZ", 82, 617, 0 ])''
+      widget=False field=None struct_parent=40 | (136, 0): page=7 subtype=Link flags=4
+      rect=[104.1, 558.16, 484.2, 572.13] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(118,0)>,
+      "/XYZ", 82, 617, 0 ])'' widget=False field=None struct_parent=41 | (137, 0):
+      page=7 subtype=Link flags=4 rect=[104.1, 538.2, 484.2, 558.16] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(119,0)>, "/XYZ", 104, 771, 0 ])''
+      widget=False field=None struct_parent=42 | (138, 0): page=7 subtype=Link flags=4
+      rect=[104.1, 473.3, 484.2, 493.27] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(120,0)>,
+      "/XYZ", 82, 519, 0 ])'' widget=False field=None struct_parent=43 | (141, 0):
+      page=9 subtype=Link flags=4 rect=[137.68, 300.3, 145.96, 314.26] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(64,0)>, "/XYZ", 104, 81, 0 ])''
+      widget=False field=None struct_parent=45 | (155, 0): page=11 subtype=Link flags=4
+      rect=[420.35, 454.84, 428.62, 468.81] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(70,0)>, "/XYZ", 104, 81, 0 ])'' widget=False field=None
+      struct_parent=48 | (159, 0): page=12 subtype=Link flags=4 rect=[168.75, 492.38,
+      177.03, 506.35] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(71,0)>,
+      "/XYZ", 82, 139, 0 ])'' widget=False field=None struct_parent=50 | (160, 0):
+      page=12 subtype=Link flags=4 rect=[174.04, 492.38, 182.32, 506.35] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(71,0)>, "/XYZ", 82, 102, 0 ])''
+      widget=False field=None struct_parent=57 | (161, 0): page=12 subtype=Link flags=4
+      rect=[89.45, 125.25, 408.75, 139.22] action=''/URI'' dest=''https://www.asianfamilyservices.nz/resources/resource-items/2025-new-zealand-asian-well-being-and-mental-health-survey-report/''
+      widget=False field=None struct_parent=51 | (162, 0): page=12 subtype=Link flags=4
+      rect=[408.42, 125.25, 491.25, 139.22] action=''/URI'' dest=''https://www.health.govt.nz/publications/health-and-independence-report-2023''
+      widget=False field=None struct_parent=52 | (163, 0): page=12 subtype=Link flags=4
+      rect=[82.8, 113.95, 318.01, 125.25] action=''/URI'' dest=''https://www.health.govt.nz/publications/health-and-independence-report-2023''
+      widget=False field=None struct_parent=53 | (164, 0): page=12 subtype=Link flags=4
+      rect=[317.68, 113.95, 491.25, 125.25] action=''/URI'' dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=54 | (165, 0): page=12 subtype=Link flags=4
+      rect=[82.8, 102.64, 164.02, 113.95] action=''/URI'' dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=55 | (166, 0): page=12 subtype=Link flags=4
+      rect=[163.69, 102.64, 305.06, 113.95] action=''/URI'' dest=''https://www.stats.govt.nz/information-releases/wellbeing-statistics-2023''
+      widget=False field=None struct_parent=56 | (170, 0): page=13 subtype=Link flags=4
+      rect=[454.63, 99.729, 462.9, 113.7] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(74,0)>,
+      "/XYZ", 104, 70, 0 ])'' widget=False field=None struct_parent=59 | (171, 0):
+      page=13 subtype=Link flags=4 rect=[109.39, 56.68, 337.22, 70.42] action=''/URI''
+      dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=60 | (185, 0): page=15 subtype=Link flags=4
+      rect=[498.42, 485.38, 507.24, 505.84] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(77,0)>, "/XYZ", 104, 94, 0 ])'' widget=False field=None
+      struct_parent=63 | (186, 0): page=15 subtype=Link flags=4 rect=[460.42, 285.35,
+      468.7, 299.32] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(77,0)>,
+      "/XYZ", 104, 70, 0 ])'' widget=False field=None struct_parent=64 | (193, 0):
+      page=19 subtype=Link flags=4 rect=[371.09, 442.52, 379.36, 456.48] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(87,0)>, "/XYZ", 104, 140, 0 ])''
+      widget=False field=None struct_parent=69 | (194, 0): page=19 subtype=Link flags=4
+      rect=[290.01, 398.62, 298.83, 414.59] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(87,0)>, "/XYZ", 104, 127, 0 ])'' widget=False field=None
+      struct_parent=70 | (195, 0): page=19 subtype=Link flags=4 rect=[358.92, 342.76,
+      370.97, 356.73] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(87,0)>,
+      "/XYZ", 104, 91, 0 ])'' widget=False field=None struct_parent=73 | (196, 0):
+      page=19 subtype=Link flags=4 rect=[347.61, 102.64, 512.55, 113.38] action=''/URI''
+      dest=''https://doi.org/10.1038/s41380-41021-01161-41387'' widget=False field=None
+      struct_parent=71 | (197, 0): page=19 subtype=Link flags=4 rect=[104.1, 91.901,
+      175.13, 102.64] action=''/URI'' dest=''https://doi.org/10.1038/s41380-41021-01161-41387''
+      widget=False field=None struct_parent=72 | (198, 0): page=19 subtype=Link flags=4
+      rect=[154.41, 56.68, 349.13, 67.42] action=''/URI'' dest=''https://doi.org/10.1136/bmjopen-2023-075095''
+      widget=False field=None struct_parent=74 | (220, 0): page=26 subtype=Link flags=4
+      rect=[409.35, 659.05, 442.52, 673.02] action=''/URI'' dest=''https://www.abuseincare.org.nz/reports/whanaketia''
+      widget=False field=None struct_parent=82 | (223, 0): page=28 subtype=Link flags=4
+      rect=[213.27, 505.05, 365.07, 520.42] action=''/URI'' dest=''https://consult.health.govt.nz/''
+      widget=False field=None struct_parent=85 | (224, 0): page=28 subtype=Link flags=4
+      rect=[82.8, 335.91, 295.07, 354.38] action=''/URI'' dest=''https://health.govt.nz/mhws-consultation''
+      widget=False field=None struct_parent=86 | (225, 0): page=28 subtype=Link flags=4
+      rect=[82.8, 294.02, 265.8, 307.98] action=''/URI'' dest=''mailto:mhasp.engagement@health.govt.nz''
+      widget=False field=None struct_parent=87 | (274, 0): page=37 subtype=Link flags=4
+      rect=[391.12, 662.25, 403.17, 676.22] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(115,0)>, "/XYZ", 104, 97, 0 ])'' widget=False field=None
+      struct_parent=97 | (275, 0): page=37 subtype=Link flags=4 rect=[493.03, 578.45,
+      505.07, 592.42] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(115,0)>,
+      "/XYZ", 104, 84, 0 ])'' widget=False field=None struct_parent=99 | (276, 0):
+      page=37 subtype=Link flags=4 rect=[459.06, 411.33, 471.11, 425.3] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(115,0)>, "/XYZ", 104, 70, 0 ])''
+      widget=False field=None struct_parent=101 | (277, 0): page=37 subtype=Link flags=4
+      rect=[112.36, 84.201, 340.18, 97.941] action=''/URI'' dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=98 | (278, 0): page=37 subtype=Link flags=4
+      rect=[112.77, 70.461, 340.6, 84.201] action=''/URI'' dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=100 | (279, 0): page=37 subtype=Link flags=4
+      rect=[112.77, 56.72, 340.6, 70.461] action=''/URI'' dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=102 | (283, 0): page=38 subtype=Link flags=4
+      rect=[229.58, 694.7, 242.71, 715.16] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(116,0)>, "/XYZ", 82, 182, 0 ])'' widget=False field=None
+      struct_parent=104 | (284, 0): page=38 subtype=Link flags=4 rect=[204.53, 660.27,
+      217.66, 680.73] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(116,0)>,
+      "/XYZ", 82, 168, 0 ])'' widget=False field=None struct_parent=106 | (285, 0):
+      page=38 subtype=Link flags=4 rect=[389.04, 644.31, 402.17, 660.27] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(116,0)>, "/XYZ", 82, 154, 0 ])''
+      widget=False field=None struct_parent=107 | (286, 0): page=38 subtype=Link flags=4
+      rect=[210.93, 595.92, 224.06, 611.88] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(116,0)>, "/XYZ", 82, 130, 0 ])'' widget=False field=None
+      struct_parent=109 | (287, 0): page=38 subtype=Link flags=4 rect=[369.06, 275.65,
+      382.18, 291.61] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(116,0)>,
+      "/XYZ", 82, 116, 0 ])'' widget=False field=None struct_parent=111 | (288, 0):
+      page=38 subtype=Link flags=4 rect=[180.92, 245.72, 194.04, 261.68] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(116,0)>, "/XYZ", 82, 81, 0 ])''
+      widget=False field=None struct_parent=115 | (289, 0): page=38 subtype=Link flags=4
+      rect=[91.058, 168.38, 289.34, 182.12] action=''/URI'' dest=''https://tewhatuora.shinyapps.io/suicide-web-tool/''
+      widget=False field=None struct_parent=105 | (290, 0): page=38 subtype=Link flags=4
+      rect=[91.058, 140.9, 371.65, 154.64] action=''/URI'' dest=''https://minhealthnz.shinyapps.io/nz-health-survey-2022-23-mental-health-data-explorer''
+      widget=False field=None struct_parent=108 | (291, 0): page=38 subtype=Link flags=4
+      rect=[91.058, 116.42, 350.41, 130.16] action=''/URI'' dest=''https://drugfoundation.org.nz/assets/PageBlocks/Downloads/DrugOverdosesInAotearoa2025.pdf''
+      widget=False field=None struct_parent=110 | (292, 0): page=38 subtype=Link flags=4
+      rect=[91.058, 102.68, 491.2, 116.42] action=''/URI'' dest=''https://www.youth19.ac.nz/publications/needs-and-opportunities''
+      widget=False field=None struct_parent=112 | (293, 0): page=38 subtype=Link flags=4
+      rect=[82.8, 91.941, 491.2, 102.68] action=''/URI'' dest=''https://www.youth19.ac.nz/publications/needs-and-opportunities''
+      widget=False field=None struct_parent=113 | (294, 0): page=38 subtype=Link flags=4
+      rect=[82.8, 81.201, 368.22, 91.941] action=''/URI'' dest=''https://www.youth19.ac.nz/publications/needs-and-opportunities''
+      widget=False field=None struct_parent=114 | (295, 0): page=38 subtype=Link flags=4
+      rect=[91.058, 67.461, 491.2, 81.201] action=''/URI'' dest=''https://www.orangatamarikiactionplan.govt.nz/assets/Action-Plan/Uploads/Understanding-need/Mental-health-and-wellbeing/OT-MW-Needs-Assessment_final-for-publication_Redacted.pdf''
+      widget=False field=None struct_parent=116 | (296, 0): page=38 subtype=Link flags=4
+      rect=[82.8, 56.72, 163.38, 67.461] action=''/URI'' dest=''https://www.orangatamarikiactionplan.govt.nz/assets/Action-Plan/Uploads/Understanding-need/Mental-health-and-wellbeing/OT-MW-Needs-Assessment_final-for-publication_Redacted.pdf''
+      widget=False field=None struct_parent=117 | (298, 0): page=39 subtype=Link flags=4
+      rect=[489.15, 750.56, 502.27, 771.02] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(117,0)>, "/XYZ", 104, 223, 0 ])'' widget=False field=None
+      struct_parent=119 | (299, 0): page=39 subtype=Link flags=4 rect=[166.72, 727.13,
+      178.77, 741.09] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(117,0)>,
+      "/XYZ", 104, 210, 0 ])'' widget=False field=None struct_parent=121 | (300, 0):
+      page=39 subtype=Link flags=4 rect=[170.33, 680.73, 182.38, 694.7] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(117,0)>, "/XYZ", 104, 196, 0 ])''
+      widget=False field=None struct_parent=123 | (301, 0): page=39 subtype=Link flags=4
+      rect=[400.63, 632.34, 413.75, 648.3] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(117,0)>, "/XYZ", 104, 182, 0 ])'' widget=False field=None
+      struct_parent=125 | (302, 0): page=39 subtype=Link flags=4 rect=[464.72, 597.91,
+      477.85, 613.87] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(117,0)>,
+      "/XYZ", 104, 168, 0 ])'' widget=False field=None struct_parent=127 | (303, 0):
+      page=39 subtype=Link flags=4 rect=[460.25, 563.48, 473.38, 579.44] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(117,0)>, "/XYZ", 104, 157, 0 ])''
+      widget=False field=None struct_parent=129 | (304, 0): page=39 subtype=Link flags=4
+      rect=[244.83, 543.02, 257.95, 563.48] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(117,0)>, "/XYZ", 0, 841, 0 ])'' widget=False field=None
+      struct_parent=131 | (305, 0): page=39 subtype=Link flags=4 rect=[334.05, 543.02,
+      347.18, 563.48] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(117,0)>,
+      "/XYZ", 104, 130, 0 ])'' widget=False field=None struct_parent=133 | (306, 0):
+      page=39 subtype=Link flags=4 rect=[119.99, 359.44, 133.11, 375.4] action=''Dest''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(117,0)>, "/XYZ", 104, 116, 0 ])''
+      widget=False field=None struct_parent=135 | (307, 0): page=39 subtype=Link flags=4
+      rect=[431.64, 343.48, 444.77, 359.44] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(117,0)>, "/XYZ", 104, 81, 0 ])'' widget=False field=None
+      struct_parent=137 | (308, 0): page=39 subtype=Link flags=4 rect=[112.77, 210.17,
+      431.38, 223.91] action=''/URI'' dest=''https://kupe.healthpromotion.govt.nz/nzgs/''
+      widget=False field=None struct_parent=120 | (309, 0): page=39 subtype=Link flags=4
+      rect=[112.36, 196.43, 392.95, 210.17] action=''/URI'' dest=''https://minhealthnz.shinyapps.io/nz-health-survey-2022-23-mental-health-data-explorer''
+      widget=False field=None struct_parent=122 | (310, 0): page=39 subtype=Link flags=4
+      rect=[112.36, 182.69, 340.18, 196.43] action=''/URI'' dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=124 | (311, 0): page=39 subtype=Link flags=4
+      rect=[112.36, 168.95, 340.18, 182.69] action=''/URI'' dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=126 | (312, 0): page=39 subtype=Link flags=4
+      rect=[112.36, 157.64, 431.66, 168.95] action=''/URI'' dest=''https://www.asianfamilyservices.nz/resources/resource-items/2025-new-zealand-asian-well-being-and-mental-health-survey-report/''
+      widget=False field=None struct_parent=128 | (313, 0): page=39 subtype=Link flags=4
+      rect=[112.36, 143.9, 253.73, 157.64] action=''/URI'' dest=''https://www.stats.govt.nz/information-releases/wellbeing-statistics-2023''
+      widget=False field=None struct_parent=130 | (314, 0): page=39 subtype=Link flags=4
+      rect=[104.1, 130.16, 220.76, 143.9] action=''/URI'' dest=''https://www.health.govt.nz/publications/regional-data-release-201112-202324-new-zealand-health-survey''
+      widget=False field=None struct_parent=132 | (315, 0): page=39 subtype=Link flags=4
+      rect=[112.36, 116.42, 324.72, 130.16] action=''/URI'' dest=''https://www.health.govt.nz/publications/suicide-facts-data-tables-1996-2015''
+      widget=False field=None struct_parent=134 | (316, 0): page=39 subtype=Link flags=4
+      rect=[112.36, 102.68, 340.18, 116.42] action=''/URI'' dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=136 | (318, 0): page=40 subtype=Link flags=4
+      rect=[305.09, 743.09, 317.14, 757.05] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(118,0)>, "/XYZ", 82, 94, 0 ])'' widget=False field=None
+      struct_parent=139 | (319, 0): page=40 subtype=Link flags=4 rect=[441.91, 687.23,
+      453.95, 701.19] action=''Dest'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(118,0)>,
+      "/XYZ", 82, 70, 0 ])'' widget=False field=None struct_parent=141 | (320, 0):
+      page=40 subtype=Link flags=4 rect=[91.058, 81.201, 318.88, 94.941] action=''/URI''
+      dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=140 | (321, 0): page=40 subtype=Link flags=4
+      rect=[91.058, 56.72, 318.88, 70.461] action=''/URI'' dest=''https://www.health.govt.nz/publications/annual-update-of-key-results-202425-new-zealand-health-survey''
+      widget=False field=None struct_parent=142 | (328, 0): page=42 subtype=Link flags=4
+      rect=[156.54, 561.5, 168.59, 575.47] action=''Dest'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(120,0)>, "/XYZ", 82, 70, 0 ])'' widget=False field=None
+      struct_parent=145'
+    LinkStructureCount: 95
+    ExternalLinkAnnotationCount: 36
+    InternalLinkAnnotationCount: 69
+    AnnotationPagesWithLinks: 15
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Fail
+    HeadingCount: 50
+    HeadingSequence: H1 > H1 > H1 > H1 > H2 > H2 > H2 > H1 > H2 > H2 > H2 > H1 > H2
+      > H2 > H2 > H2 > H1 > H3 > H3 > H3 > H1 > H3 > H3 > H3 > H1 > H3 > H3 > H3 >
+      H1 > H3 > H3 > H3 > H1 > H3 > H3 > H3 > H1 > H1 > H1 > H1 > H3 > H3 > H5 > H5
+      > H5 > H3 > H5 > H5 > H3 > H1
+    HeadingIssues: 'Skipped heading level: H1 -> H3 | Skipped heading level: H1 ->
+      H3 | Skipped heading level: H1 -> H3 | Skipped heading level: H1 -> H3 | Skipped
+      heading level: H1 -> H3 | Skipped heading level: H1 -> H3 | Skipped heading
+      level: H3 -> H5 | Skipped heading level: H3 -> H5'
+    ListsTest: Pass
+    ListCount: 98
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Warn
+    TableCount: 11
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: '(1376, 0): Uneven row lengths detected ([2, 2, 5, 5, 5]) | (1468,
+      0): Uneven row lengths detected ([2, 2, 5, 5, 5]) | (1613, 0): Uneven row lengths
+      detected ([2, 2, 5, 2, 5]) | (1991, 0): Uneven row lengths detected ([2, 2,
+      2, 2, 6])'
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2026-04-06 22:57:41+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Microsoft® Word for Microsoft 365
+    Producer: Microsoft® Word for Microsoft 365
+    Title: Draft Mental Health and Wellbeing Strategy 2026–2036
+    Author: Ministry of Health
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 48
+    Words: 15037
+    Images: 70
+  errors:
+  - 'headings-skip, tables-warn, '
 - url: https://www.census.govt.nz/assets/Reports/Housing-in-Aotearoa-New-Zealand-2025/Housing-in-aotearoa-new-zealand-2025.pdf
   md5: bbd32d94c146297cff43abcd1a56096e
   filename: Housing-in-aotearoa-new-zealand-2025.pdf
   site: govt.nz
   crawled_at: '2026-07-06T04:12:07.644939+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - Analysis exceeded 120s per-file limit
 - url: https://www.nztd.govt.nz/assets/pdfs/Traveller-factsheet-English.pdf
   md5: 61afe60efe94b58b8b301eb1fb978e35
   filename: Traveller-factsheet-English.pdf
   site: govt.nz
   crawled_at: '2026-07-06T04:12:07.646998+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: null
+    TaggedContentTest: Fail
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: NotApplicable
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: NotApplicable
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: NotApplicable
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2023-07-11 03:46:11+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.4'
+    Creator: Adobe InDesign 18.0 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: Traveller factsheet - English
+    Author: '{''New Zealand Traveller Declaration''}'
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 2
+    Words: 643
+    Images: 0
+    DocCategory: Brochure
+  errors:
+  - 'tagged, '
 - url: https://www.treasury.govt.nz/sites/default/files/2026-05/b26-at-a-glance.pdf
   md5: 86db9f3c77e79136a0466158f81b5b7b
   filename: b26-at-a-glance.pdf
   site: govt.nz
   crawled_at: '2026-07-06T04:12:07.650064+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Fail
+    UntaggedContentCount: 54
+    UntaggedContentSummary: page=2 source=page op=Tj text='8' | page=4 source=page
+      op=Do text='Image XObject /Im0 (25, 0)' | page=4 source=page op=Do text='Image
+      XObject /Im1 (27, 0)' | page=4 source=page op=Do text='Image XObject /Im2 (31,
+      0)' | page=4 source=page op=Do text='Image XObject /Im3 (33, 0)' | page=4 source=page
+      op=Do text='Image XObject /Im4 (35, 0)' | page=4 source=page op=Do text='Image
+      XObject /Im5 (37, 0)' | page=4 source=page op=Do text='Image XObject /Im6 (39,
+      0)' | page=4 source=page op=Do text='Image XObject /Im7 (41, 0)' | page=4 source=page
+      op=Do text='Image XObject /Im8 (43, 0)' | page=4 source=page op=Do text='Image
+      XObject /Im9 (45, 0)' | page=4 source=page op=Do text='Image XObject /Im10 (29,
+      0)' | page=5 source=page op=Do text='Image XObject /Im0 (61, 0)' | page=5 source=page
+      op=Do text='Image XObject /Im1 (63, 0)' | page=5 source=page op=Do text='Image
+      XObject /Im2 (67, 0)' | page=5 source=page op=Do text='Image XObject /Im3 (69,
+      0)' | page=5 source=page op=Do text='Image XObject /Im4 (71, 0)' | page=5 source=page
+      op=Do text='Image XObject /Im5 (73, 0)' | page=5 source=page op=Do text='Image
+      XObject /Im6 (75, 0)' | page=5 source=page op=Do text='Image XObject /Im7 (77,
+      0)' | page=5 source=page op=Do text='Image XObject /Im8 (79, 0)' | page=5 source=page
+      op=Do text='Image XObject /Im9 (81, 0)' | page=5 source=page op=Do text='Image
+      XObject /Im10 (65, 0)' | page=6 source=page op=Do text='Image XObject /Im0 (95,
+      0)' | page=6 source=page op=Do text='Image XObject /Im1 (97, 0)' | page=6 source=page
+      op=Do text='Image XObject /Im2 (99, 0)' | page=6 source=page op=Do text='Image
+      XObject /Im3 (101, 0)' | page=6 source=page op=Do text='Image XObject /Im4 (103,
+      0)' | page=6 source=page op=Do text='Image XObject /Im5 (105, 0)' | page=6 source=page
+      op=Do text='Image XObject /Im6 (107, 0)' | page=6 source=page op=Do text='Image
+      XObject /Im7 (109, 0)' | page=6 source=page op=Do text='Image XObject /Im8 (111,
+      0)' | page=6 source=page op=Do text='Image XObject /Im9 (113, 0)' | page=7 source=page
+      op=Do text='Image XObject /Im0 (127, 0)' | page=7 source=page op=Do text='Image
+      XObject /Im1 (129, 0)' | page=7 source=page op=Do text='Image XObject /Im2 (131,
+      0)' | page=7 source=page op=Do text='Image XObject /Im3 (133, 0)' | page=7 source=page
+      op=Do text='Image XObject /Im4 (135, 0)' | page=7 source=page op=Do text='Image
+      XObject /Im5 (137, 0)' | page=7 source=page op=Do text='Image XObject /Im6 (139,
+      0)' | page=7 source=page op=Do text='Image XObject /Im7 (141, 0)' | page=7 source=page
+      op=Do text='Image XObject /Im8 (143, 0)' | page=7 source=page op=Do text='Image
+      XObject /Im9 (145, 0)' | page=8 source=page op=Do text='Image XObject /Im0 (162,
+      0)' | page=8 source=page op=Do text='Image XObject /Im1 (164, 0)' | page=8 source=page
+      op=Do text='Image XObject /Im2 (168, 0)' | page=8 source=page op=Do text='Image
+      XObject /Im3 (170, 0)' | page=8 source=page op=Do text='Image XObject /Im4 (172,
+      0)' | page=8 source=page op=Do text='Image XObject /Im5 (174, 0)' | page=8 source=page
+      op=Do text='Image XObject /Im6 (176, 0)' | ... 4 more
+    UntaggedWhitespaceContentCount: 39
+    UntaggedWhitespaceContentSummary: page=8 source=page op=Tj text=' ' | page=12
+      source=page op=Tj text=' ' | page=12 source=page op=Tj text=' ' | page=12 source=page
+      op=Tj text=' ' | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj
+      text=' ' | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text='
+      ' | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text=' '
+      | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text=' ' |
+      page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text=' ' | page=12
+      source=page op=Tj text=' ' | page=12 source=page op=Tj text=' ' | page=12 source=page
+      op=Tj text=' ' | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj
+      text=' ' | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text='
+      ' | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text=' '
+      | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text=' ' |
+      page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text=' ' | page=12
+      source=page op=Tj text=' ' | page=12 source=page op=Tj text=' ' | page=12 source=page
+      op=Tj text=' ' | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj
+      text=' ' | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text='
+      ' | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text=' '
+      | page=12 source=page op=Tj text=' ' | page=12 source=page op=Tj text=' ' |
+      page=12 source=page op=Tj text=' '
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 2
+    AnnotationSubtypeCounts: Link=2
+    LinkAnnotationCount: 2
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Fail
+    TaggedAnnotationIssues: '(238, 0): page=12 dest=''budget.govt.nz/budget/2026/at-a-glance'':
+      link annotation has no /StructParent'
+    AnnotationSummary: '(522, 0): page=12 subtype=Link flags=None rect=[14.16, 107.857,
+      235.358, 119.46] action=''/URI'' dest=''treasury.govt.nz/publications/glance/budget-glance-2026''
+      widget=False field=None struct_parent=15 | (238, 0): page=12 subtype=Link flags=None
+      rect=[14.16, 81.817, 171.764, 93.3302] action=''/URI'' dest=''budget.govt.nz/budget/2026/at-a-glance''
+      widget=False field=None struct_parent=None'
+    LinkStructureCount: 1
+    ExternalLinkAnnotationCount: 2
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 1
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Pass
+    HeadingCount: 23
+    HeadingSequence: H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1 > H1
+      > H1 > H1 > H2 > H2 > H1 > H2 > H2 > H1 > H2 > H2
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Warn
+    TableCount: 6
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2026-05-27 03:17:50+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Acrobat PDFMaker 24 for Word
+    Producer: Adobe PDF Library 24.2.13
+    Title: Budget 2026 - Budget at a Glance
+    Author: New Zealand Treasury
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 12
+    Words: 1623
+    Images: 58
+  errors:
+  - 'tagged-content-fail, tables-warn, annotations-tagging-fail, '
 - url: https://www.treasury.govt.nz/sites/default/files/2026-05/b26-sum-initiatives.pdf
   md5: 9f2c5a7787011d3629b754bef26c80d8
   filename: b26-sum-initiatives.pdf
   site: govt.nz
   crawled_at: '2026-07-06T04:12:07.653952+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Fail
+    BookmarksTest: Pass
+    ImageAltTextTest: Fail
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 54
+    AnnotationSubtypeCounts: Link=54
+    LinkAnnotationCount: 54
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Fail
+    TaggedAnnotationIssues: '(16011, 0): page=72 dest=''pikepdf.Array([ <Pdf.pages.from_objgen(187,0)>,
+      "/XYZ", 0, 140, None ])'': link annotation has no /StructParent | (2978, 0):
+      page=72 dest=''pikepdf.Array([ <Pdf.pages.from_objgen(187,0)>, "/XYZ", 0, 82,
+      None ])'': link annotation has no /StructParent | (2959, 0): page=72 dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(187,0)>, "/XYZ", 0, 68, None ])'': link annotation has
+      no /StructParent'
+    AnnotationSummary: '(15922, 0): page=5 subtype=Link flags=None rect=[68.6499,
+      719.928, 526.65, 733.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(35,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=92
+      | (15919, 0): page=5 subtype=Link flags=None rect=[68.6499, 702.928, 526.65,
+      719.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(40,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=91
+      | (15916, 0): page=5 subtype=Link flags=None rect=[68.6499, 688.928, 526.65,
+      702.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(53,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=90
+      | (15913, 0): page=5 subtype=Link flags=None rect=[68.6499, 674.928, 526.65,
+      688.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(55,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=89
+      | (15910, 0): page=5 subtype=Link flags=None rect=[68.6499, 660.928, 526.65,
+      674.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(57,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=88
+      | (15907, 0): page=5 subtype=Link flags=None rect=[68.6499, 646.928, 526.65,
+      660.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(59,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=87
+      | (15904, 0): page=5 subtype=Link flags=None rect=[68.6499, 632.928, 526.65,
+      646.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(63,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=86
+      | (15901, 0): page=5 subtype=Link flags=None rect=[68.6499, 618.928, 526.65,
+      632.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(65,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=85
+      | (15924, 0): page=5 subtype=Link flags=None rect=[68.6499, 604.928, 526.65,
+      618.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(67,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=138
+      | (15926, 0): page=5 subtype=Link flags=None rect=[68.6499, 590.928, 526.65,
+      604.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(69,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=137
+      | (15928, 0): page=5 subtype=Link flags=None rect=[68.6499, 576.928, 526.65,
+      590.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(71,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=136
+      | (15930, 0): page=5 subtype=Link flags=None rect=[68.6499, 562.928, 526.65,
+      576.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(76,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=135
+      | (15932, 0): page=5 subtype=Link flags=None rect=[68.6499, 548.928, 526.65,
+      562.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(78,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=134
+      | (15934, 0): page=5 subtype=Link flags=None rect=[68.6499, 534.928, 526.65,
+      548.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(80,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=133
+      | (15936, 0): page=5 subtype=Link flags=None rect=[68.6499, 520.928, 526.65,
+      534.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(88,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=132
+      | (15938, 0): page=5 subtype=Link flags=None rect=[68.6499, 506.928, 526.65,
+      520.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(90,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=131
+      | (15940, 0): page=5 subtype=Link flags=None rect=[68.6499, 492.928, 526.65,
+      506.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(102,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=130
+      | (15942, 0): page=5 subtype=Link flags=None rect=[68.6499, 478.928, 526.65,
+      492.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(104,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=129
+      | (15944, 0): page=5 subtype=Link flags=None rect=[68.6499, 464.928, 526.65,
+      478.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(106,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=128
+      | (15946, 0): page=5 subtype=Link flags=None rect=[68.6499, 450.928, 526.65,
+      464.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(111,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=127
+      | (15948, 0): page=5 subtype=Link flags=None rect=[68.6499, 436.928, 526.65,
+      450.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(113,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=126
+      | (15950, 0): page=5 subtype=Link flags=None rect=[68.6499, 422.928, 526.65,
+      436.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(119,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=125
+      | (15952, 0): page=5 subtype=Link flags=None rect=[68.6499, 408.928, 526.65,
+      422.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(121,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=124
+      | (15954, 0): page=5 subtype=Link flags=None rect=[68.6499, 394.928, 526.65,
+      408.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(126,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=123
+      | (15956, 0): page=5 subtype=Link flags=None rect=[68.6499, 380.928, 526.65,
+      394.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(130,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=122
+      | (15958, 0): page=5 subtype=Link flags=None rect=[68.6499, 366.928, 526.65,
+      380.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(137,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=121
+      | (15960, 0): page=5 subtype=Link flags=None rect=[68.6499, 352.928, 526.65,
+      366.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(139,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=120
+      | (15962, 0): page=5 subtype=Link flags=None rect=[68.6499, 338.928, 526.65,
+      352.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(141,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=119
+      | (15964, 0): page=5 subtype=Link flags=None rect=[68.6499, 324.928, 526.65,
+      338.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(143,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=118
+      | (15966, 0): page=5 subtype=Link flags=None rect=[68.6499, 310.928, 526.65,
+      324.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(145,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=117
+      | (15968, 0): page=5 subtype=Link flags=None rect=[68.6499, 296.928, 526.65,
+      310.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(147,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=116
+      | (15970, 0): page=5 subtype=Link flags=None rect=[68.6499, 282.928, 526.65,
+      296.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(149,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=115
+      | (15972, 0): page=5 subtype=Link flags=None rect=[68.6499, 268.928, 526.65,
+      282.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(151,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=114
+      | (15974, 0): page=5 subtype=Link flags=None rect=[68.6499, 254.928, 526.65,
+      268.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(153,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=113
+      | (15976, 0): page=5 subtype=Link flags=None rect=[68.6499, 240.928, 526.65,
+      254.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(159,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=112
+      | (15978, 0): page=5 subtype=Link flags=None rect=[68.6499, 226.928, 526.65,
+      240.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(161,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=111
+      | (15980, 0): page=5 subtype=Link flags=None rect=[68.6499, 212.928, 526.65,
+      226.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(165,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=110
+      | (15982, 0): page=5 subtype=Link flags=None rect=[68.6499, 198.928, 526.65,
+      212.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(167,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=109
+      | (15984, 0): page=5 subtype=Link flags=None rect=[68.6499, 184.928, 526.65,
+      198.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(169,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=108
+      | (15986, 0): page=5 subtype=Link flags=None rect=[68.6499, 170.928, 526.65,
+      184.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(171,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=107
+      | (15988, 0): page=5 subtype=Link flags=None rect=[68.6499, 156.928, 526.65,
+      170.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(173,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=106
+      | (15990, 0): page=5 subtype=Link flags=None rect=[68.6499, 142.928, 526.65,
+      156.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(177,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=105
+      | (15992, 0): page=5 subtype=Link flags=None rect=[68.6499, 125.928, 526.65,
+      142.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(181,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=104
+      | (15994, 0): page=5 subtype=Link flags=None rect=[68.6499, 111.928, 526.65,
+      125.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(183,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=103
+      | (15996, 0): page=5 subtype=Link flags=None rect=[68.6499, 97.9276, 526.65,
+      111.928] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(185,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=102
+      | (15998, 0): page=5 subtype=Link flags=None rect=[68.6499, 83.9276, 526.65,
+      97.9276] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(187,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=101
+      | (16000, 0): page=5 subtype=Link flags=None rect=[68.6499, 69.9276, 526.65,
+      83.9276] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(193,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=100
+      | (16002, 0): page=5 subtype=Link flags=None rect=[68.6499, 57.9276, 526.65,
+      69.9276] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(207,0)>,
+      "/XYZ", 69, 771, Decimal(\''0.0\'') ])'' widget=False field=None struct_parent=99
+      | (16005, 0): page=7 subtype=Link flags=4 rect=[303.84, 453.018, 307.71, 462.226]
+      action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(27,0)>, "/XYZ",
+      0, 78, None ])'' widget=False field=None struct_parent=98 | (16008, 0): page=8
+      subtype=Link flags=4 rect=[449.88, 535.29, 453.216, 543.48] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(35,0)>, "/XYZ", 0, 68, None ])''
+      widget=False field=None struct_parent=97 | (16011, 0): page=72 subtype=Link
+      flags=4 rect=[261.6, 502.938, 265.47, 512.438] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(187,0)>, "/XYZ", 0, 140, None ])'' widget=False field=None
+      struct_parent=None | (2978, 0): page=72 subtype=Link flags=4 rect=[332.52, 488.898,
+      336.39, 498.398] action=''/GoTo'' dest=''pikepdf.Array([ <Pdf.pages.from_objgen(187,0)>,
+      "/XYZ", 0, 82, None ])'' widget=False field=None struct_parent=None | (2959,
+      0): page=72 subtype=Link flags=4 rect=[460.68, 350.184, 464.016, 358.776] action=''/GoTo''
+      dest=''pikepdf.Array([ <Pdf.pages.from_objgen(187,0)>, "/XYZ", 0, 68, None ])''
+      widget=False field=None struct_parent=None | (2868, 0): page=73 subtype=Link
+      flags=4 rect=[294.96, 674.49, 298.296, 682.68] action=''/GoTo'' dest=''pikepdf.Array([
+      <Pdf.pages.from_objgen(190,0)>, "/XYZ", 0, 90, None ])'' widget=False field=None
+      struct_parent=93'
+    LinkStructureCount: 6
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 54
+    AnnotationPagesWithLinks: 5
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: Pass
+    NestedAltTextIssues: ''
+    HeadingsTest: Fail
+    HeadingCount: 457
+    HeadingSequence: H2 > H3 > H3 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4
+      > H4 > H4 > H2 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 >
+      H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4
+      > H2 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H4 > H4 >
+      H2 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H2 > H4 > H4 > H4 > H4
+      > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 >
+      H4 > H4 > H4 > H4 > H2 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4
+      > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 >
+      H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4
+      > H4 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H4 > H2 > H4 > H4 >
+      H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H4 > H4
+      > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 >
+      H4 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H4
+      > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 >
+      H4 > H4 > H4 > H4 > H2 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4
+      > H4 > H4 > H2 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 >
+      H4 > H2 > H4 > H4 > H2 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4
+      > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H2 >
+      H4 > H4 > H2 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H2
+      > H4 > H4 > H2 > H4 > H4 > H2 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H4 > H4 >
+      H2 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4
+      > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H4 > H2 > H4 > H4 > H2 > H4 > H4 >
+      H4 > H4 > H4 > H2 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+      > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 >
+      H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+      > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 >
+      H2 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+      > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 >
+      H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+      > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+    HeadingIssues: 'Skipped heading level: H2 -> H4 | Skipped heading level: H2 ->
+      H4 | Skipped heading level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped
+      heading level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped heading
+      level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped heading level: H2
+      -> H4 | Skipped heading level: H2 -> H4 | Skipped heading level: H2 -> H4 |
+      Skipped heading level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped
+      heading level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped heading
+      level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped heading level: H2
+      -> H4 | Skipped heading level: H2 -> H4 | Skipped heading level: H2 -> H4 |
+      Skipped heading level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped
+      heading level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped heading
+      level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped heading level: H2
+      -> H4 | Skipped heading level: H2 -> H4 | Skipped heading level: H2 -> H4 |
+      Skipped heading level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped
+      heading level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped heading
+      level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped heading level: H2
+      -> H4 | Skipped heading level: H2 -> H4 | Skipped heading level: H2 -> H4 |
+      Skipped heading level: H2 -> H4 | Skipped heading level: H2 -> H4 | Skipped
+      heading level: H2 -> H4 | First known heading is H2, not H1'
+    ListsTest: Pass
+    ListCount: 7
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Warn
+    TableCount: 262
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: '(1458, 0): Uneven row lengths detected ([5, 3, 6, 6, 6, 6, 6,
+      6, 6, 6, 6, 6]) | (1484, 0): Uneven row lengths detected ([8, 8, 8, 8, 8, 8,
+      4]) | (16425, 0): Uneven row lengths detected ([3, 2, 3, 3, 3, 3, 3, 3, 3, 3,
+      3]) | (2438, 0): Uneven row lengths detected ([3, 3, 3, 3, 3, 3, 3, 3, 3, 3,
+      3, 3, 3, 3, 3, 3, 2])'
+    FiguresAltTextTest: Fail
+    FiguresAltTextIssues: Figures missing alt text (count=11)
+    Exempt: false
+    Date: '2026-05-27 03:15:08+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: true
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Adobe Acrobat Pro (64-bit) 24.5.20399
+    Producer: Adobe Acrobat Pro (64-bit) 24.5.20399
+    Title: Budget 2026 - Summary of Initiatives - 28 May 2026
+    Author: '{''New Zealand Treasury''}'
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 87
+    Words: 27163
+    Images: 4
+  errors:
+  - 'lang, figures missing alt text (count=11), headings-skip, tables-warn, annotations-tagging-fail, '
 - url: https://www.procurement.govt.nz/assets/procurement-property/documents/government-procurement-rules-4th-edition.pdf
   md5: 6046e6e1c861e182614621ff82fe8950
   filename: government-procurement-rules-4th-edition.pdf
   site: govt.nz
   crawled_at: '2026-07-06T04:12:07.660877+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - Analysis exceeded 120s per-file limit
 - url: https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1002.pdf
   md5: 9cfc8481b414770abe307ff83ac41461
   filename: inz1002.pdf
   site: govt.nz
   crawled_at: '2026-07-06T04:12:07.662935+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Pass
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Pass
+    ImageAltTextTest: Pass
+    TaggedContentTest: Pass
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: true
+    AnnotationCount: 17
+    AnnotationSubtypeCounts: Link=17
+    LinkAnnotationCount: 17
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: Fail
+    TaggedAnnotationIssues: '(1597, 0): page=1 dest=''immigration.govt.nz'': link
+      annotation has no /StructParent'
+    AnnotationSummary: '(1597, 0): page=1 subtype=Link flags=None rect=[475.577, 38.7519,
+      558.425, 27.8371] action=''/URI'' dest=''immigration.govt.nz'' widget=False
+      field=None struct_parent=None | (1528, 0): page=1 subtype=Link flags=None rect=[63.3513,
+      350.797, 187.16, 338.097] action=''/URI'' dest=''www.immigration.govt.nz'' widget=False
+      field=None struct_parent=34 | (1558, 0): page=1 subtype=Link flags=None rect=[304.252,
+      468.15, 429.211, 455.45] action=''/URI'' dest=''www.immigration.govt.nz'' widget=False
+      field=None struct_parent=1 | (1556, 0): page=1 subtype=Link flags=None rect=[304.252,
+      192.188, 429.211, 179.488] action=''/URI'' dest=''www.immigration.govt.nz''
+      widget=False field=None struct_parent=2 | (1554, 0): page=1 subtype=Link flags=None
+      rect=[386.885, 158.267, 511.844, 145.567] action=''/URI'' dest=''www.immigration.govt.nz''
+      widget=False field=None struct_parent=3 | (1552, 0): page=3 subtype=Link flags=None
+      rect=[318.283, 662.289, 443.242, 649.589] action=''/URI'' dest=''www.immigration.govt.nz''
+      widget=False field=None struct_parent=6 | (1550, 0): page=5 subtype=Link flags=None
+      rect=[107.646, 541.533, 313.773, 528.833] action=''/URI'' dest=''https://www.immigration.govt.nz/new-zealand-visas/apply-for-a-visa/tools-and-information/tools/police-certificates''
+      widget=False field=None struct_parent=9 | (1548, 0): page=5 subtype=Link flags=None
+      rect=[107.646, 94.1601, 299.534, 81.4601] action=''/URI'' dest=''www.immigration.govt.nz/paneldoctors''
+      widget=False field=None struct_parent=10 | (1546, 0): page=7 subtype=Link flags=None
+      rect=[85.0394, 561.519, 209.998, 548.819] action=''/URI'' dest=''www.immigration.govt.nz''
+      widget=False field=None struct_parent=13 | (1544, 0): page=7 subtype=Link flags=None
+      rect=[152.958, 111.679, 233.598, 98.9793] action=''/URI'' dest=''www.dia.govt.nz''
+      widget=False field=None struct_parent=14 | (1542, 0): page=14 subtype=Link flags=None
+      rect=[150.719, 676.09, 356.846, 663.39] action=''/URI'' dest=''www.immigration.govt.nz/policecertificate''
+      widget=False field=None struct_parent=22 | (1540, 0): page=17 subtype=Link flags=None
+      rect=[265.103, 472.652, 390.062, 459.952] action=''/URI'' dest=''www.immigration.govt.nz''
+      widget=False field=None struct_parent=26 | (1538, 0): page=19 subtype=Link flags=None
+      rect=[85.0394, 411.649, 234.218, 398.949] action=''/URI'' dest=''http://www.immigration.govt.nz\\fees''
+      widget=False field=None struct_parent=29 | (1536, 0): page=19 subtype=Link flags=None
+      rect=[127.159, 321.337, 300.957, 308.637] action=''/URI'' dest=''http://www.ird.govt.nz/irdnum-individuals''
+      widget=False field=None struct_parent=30 | (1534, 0): page=19 subtype=Link flags=None
+      rect=[269.266, 267.668, 451.594, 254.968] action=''/URI'' dest=''http://www.ird.govt.nz/temp-tax-exemption''
+      widget=False field=None struct_parent=31 | (1532, 0): page=19 subtype=Link flags=None
+      rect=[200.757, 177.356, 307.596, 164.656] action=''/URI'' dest=''www.customs.govt.nz''
+      widget=False field=None struct_parent=32 | (1530, 0): page=19 subtype=Link flags=None
+      rect=[190.558, 147.687, 322.626, 134.986] action=''/URI'' dest=''mailto:feedback@customs.govt.nz''
+      widget=False field=None struct_parent=33'
+    LinkStructureCount: 16
+    ExternalLinkAnnotationCount: 17
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 7
+    HidesAnnotationTest: Pass
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: Warn
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: No headings found in tagged document
+    ListsTest: Pass
+    ListCount: 49
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: Fail
+    TableCount: 1
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: '(893, 0): Table has no TH cells | (893, 0): Table cells
+      are all TD'
+    IrregularTables: ''
+    FiguresAltTextTest: Pass
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2025-09-23 22:58:51+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.7'
+    Creator: Adobe InDesign 20.5 (Macintosh)
+    Producer: Adobe PDF Library 17.0
+    Title: INZ 1002 Residence Guide
+    Author: Immigration New Zealand
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 20
+    Words: 9579
+    Images: 0
+  errors:
+  - 'headings-none, tables-fail, annotations-tagging-fail, '
 - url: https://www.mbie.govt.nz/assets/new-zealands-tourism-policy-statement.pdf
   md5: 305e259b1969e3ddc62e42d152d2e94f
   filename: new-zealands-tourism-policy-statement.pdf
   site: govt.nz
   crawled_at: '2026-07-06T04:12:07.674356+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Pass
+    LanguageTest: Pass
+    BookmarksTest: Fail
+    ImageAltTextTest: null
+    TaggedContentTest: Fail
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: NotApplicable
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: NotApplicable
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: NotApplicable
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2026-06-25 03:00:44+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: true
+    hasLang: true
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: Power PDF Create
+    Producer: Power PDF Create
+    Title: New Zealand's Tourism Policy Statement
+    Author: Ministry of Business, Innovatoin and Employment
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 56
+    Words: 12191
+    Images: 168
+    DocCategory: Policy
+  errors:
+  - 'tagged, no bookmarks and more than 20 pages, '
 - url: https://www.health.govt.nz/system/files/2025-08/service-coverage-expectations-2025-26.pdf
   md5: 94f68afcd59ba39a9ea5294ae47b1fcd
   filename: service-coverage-expectations-2025-26.pdf
   site: govt.nz
   crawled_at: '2026-07-06T04:12:07.676017+00:00'
-  status: pending
-  report: null
-  errors: []
+  status: analysed
+  report:
+    Accessible: false
+    TotallyInaccessible: false
+    BrokenFile: false
+    TaggedTest: Fail
+    EmptyTextTest: Pass
+    ProtectedTest: Pass
+    TitleTest: Fail
+    LanguageTest: Fail
+    BookmarksTest: Fail
+    ImageAltTextTest: null
+    TaggedContentTest: Fail
+    UntaggedContentCount: 0
+    UntaggedContentSummary: ''
+    UntaggedWhitespaceContentCount: 0
+    UntaggedWhitespaceContentSummary: ''
+    FormsTest: NotApplicable
+    FormFieldCount: 0
+    FormFieldSummary: null
+    FieldsWithoutDescription: ''
+    TaggedFormFieldsTest: NotApplicable
+    TaggedFormFieldIssues: ''
+    AnnotationsFound: false
+    AnnotationCount: 0
+    AnnotationSubtypeCounts: ''
+    LinkAnnotationCount: 0
+    WidgetAnnotationCount: 0
+    TaggedAnnotationsTest: NotApplicable
+    TaggedAnnotationIssues: ''
+    AnnotationSummary: ''
+    LinkStructureCount: 0
+    ExternalLinkAnnotationCount: 0
+    InternalLinkAnnotationCount: 0
+    AnnotationPagesWithLinks: 0
+    HidesAnnotationTest: NotApplicable
+    HidesAnnotationIssues: ''
+    NestedAltTextTest: NotApplicable
+    NestedAltTextIssues: ''
+    HeadingsTest: NotApplicable
+    HeadingCount: 0
+    HeadingSequence: ''
+    HeadingIssues: ''
+    ListsTest: NotApplicable
+    ListCount: 0
+    InvalidListItemParents: ''
+    InvalidListChildren: ''
+    MalformedListNodes: ''
+    TablesTest: NotApplicable
+    TableCount: 0
+    InvalidTRParents: ''
+    InvalidCellParents: ''
+    TablesWithoutHeaders: ''
+    IrregularTables: ''
+    FiguresAltTextTest: NotApplicable
+    FiguresAltTextIssues: ''
+    Exempt: false
+    Date: '2025-08-07 00:01:22+00:00'
+    hasTitle: true
+    hasDisplayDocTitle: false
+    hasLang: false
+    InvalidLang: null
+    Form: null
+    xfa: null
+    hasBookmarks: false
+    hasXmp: true
+    PDFVersion: '1.6'
+    Creator: PScript5.dll Version 5.2.2
+    Producer: Acrobat Distiller 24.0 (Windows)
+    Title: Microsoft Word - Service Coverage Expectations 2025-26
+    Author: aschmidt
+    Subject: null
+    Keywords: null
+    Description: null
+    Pages: 27
+    Words: 8877
+    Images: 2
+  errors:
+  - 'title, tagged, lang, no bookmarks and more than 20 pages, '
