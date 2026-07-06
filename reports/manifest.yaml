@@ -373329,7 +373329,7 @@
   filename: Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
   site: usds.gov
   crawled_at: '2026-07-06T14:28:46.944732+00:00'
-  status: analysed
+  status: error
   report:
     Site: usds.gov
     File: Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
@@ -373511,7 +373511,10 @@
     fonts: 4
     numTxtObjects: 80
   errors:
-  - 'title, figures missing alt text (count=19), headings-none, '
+  - 'File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
+    (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes:
+    failed download, incomplete artifact transfer, or stale manifest entry from a
+    previous run.'
   analyses:
     original:
       status: analysed
@@ -373698,6 +373701,15 @@
       errors:
       - 'title, figures missing alt text (count=19), headings-none, '
       analysed_at: '2026-07-06T14:30:40.486246+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
+        (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes:
+        failed download, incomplete artifact transfer, or stale manifest entry from
+        a previous run.'
+      analysed_at: '2026-07-06T15:30:51.959278+00:00'
   notes: What happens to the notes?
 - url: https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
   md5: df50ec065c6ba2d62354f896da33252f
@@ -373705,7 +373717,7 @@
   filename: IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
   site: usds.gov
   crawled_at: '2026-07-06T14:28:46.948626+00:00'
-  status: analysed
+  status: error
   report:
     Site: usds.gov
     File: IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
@@ -373898,7 +373910,10 @@
     numTxtObjects: 305
     DocCategory: Report
   errors:
-  - 'title, tagged, lang, annotations-untagged, '
+  - 'File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
+    (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes:
+    failed download, incomplete artifact transfer, or stale manifest entry from a
+    previous run.'
   analyses:
     original:
       status: analysed
@@ -374096,6 +374111,15 @@
       errors:
       - 'title, tagged, lang, annotations-untagged, '
       analysed_at: '2026-07-06T14:30:55.502775+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
+        (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes:
+        failed download, incomplete artifact transfer, or stale manifest entry from
+        a previous run.'
+      analysed_at: '2026-07-06T15:31:06.138031+00:00'
   notes: What happens to the notes?
 - url: https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf
   md5: aa1f6b460bfd12cb744f2ad847f4351a
@@ -374103,7 +374127,7 @@
   filename: USDS-2024-Impact-Report.pdf
   site: usds.gov
   crawled_at: '2026-07-06T14:28:46.954489+00:00'
-  status: analysed
+  status: error
   report:
     Site: usds.gov
     File: USDS-2024-Impact-Report.pdf
@@ -374311,7 +374335,7 @@
     numTxtObjects: 740
     DocCategory: Report
   errors:
-  - 'title, no bookmarks and more than 20 pages, headings-none, annotations-tagging-fail, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -374524,14 +374548,21 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, headings-none, annotations-tagging-fail, '
       analysed_at: '2026-07-06T14:31:11.381958+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T15:31:20.395329+00:00'
   notes: What happens to the notes?
+  link_text: Download thefull report (PDF)
 - url: https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf
   md5: 52bf1b287e0bd2990ecb4bfb73ba0b1a
   file_hash: d54d316dfdbed3c606506498d79a6f444a94d6c0a1cd6c8728189734af5b03ec
   filename: USDS-Impact-Report-2020.pdf
   site: usds.gov
   crawled_at: '2026-07-06T14:28:46.961569+00:00'
-  status: analysed
+  status: error
   report:
     Site: usds.gov
     File: USDS-Impact-Report-2020.pdf
@@ -374688,7 +374719,9 @@
     numTxtObjects: 563
     DocCategory: Report
   errors:
-  - 'title, figures missing alt text (count=147), headings-none, '
+  - 'File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 0.0
+    day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download,
+    incomplete artifact transfer, or stale manifest entry from a previous run.'
   analyses:
     original:
       status: analysed
@@ -374850,6 +374883,15 @@
       errors:
       - 'title, figures missing alt text (count=147), headings-none, '
       analysed_at: '2026-07-06T14:31:27.075644+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled
+        0.0 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed
+        download, incomplete artifact transfer, or stale manifest entry from a previous
+        run.'
+      analysed_at: '2026-07-06T15:31:34.861881+00:00'
   notes: What happens to the notes?
 - url: https://www.usds.gov/assets/files/USDS-Overview.pdf
   md5: 4359199fa585b1a479543a2793e8a706
@@ -374857,7 +374899,7 @@
   filename: USDS-Overview.pdf
   site: usds.gov
   crawled_at: '2026-07-06T14:28:46.963982+00:00'
-  status: analysed
+  status: error
   report:
     Site: usds.gov
     File: USDS-Overview.pdf
@@ -374949,7 +374991,7 @@
     fonts: 6
     numTxtObjects: 68
   errors:
-  - 'title, figures missing alt text (count=2), headings-none, annotations-tagging-fail, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -375046,14 +375088,21 @@
       errors:
       - 'title, figures missing alt text (count=2), headings-none, annotations-tagging-fail, '
       analysed_at: '2026-07-06T14:31:42.187405+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T15:31:49.085713+00:00'
   notes: What happens to the notes?
+  link_text: Press sheet [PDF, 2 pages]
 - url: https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf
   md5: a8a638f3ef507207551cf42efdab5daa
   file_hash: 4ddeb10122c2821c83bed1fe62253e294140e61dc447f789c4fff4825bdb40aa
   filename: USDS-Press-Sheet.pdf
   site: usds.gov
   crawled_at: '2026-07-06T14:28:46.966116+00:00'
-  status: analysed
+  status: error
   report:
     Site: usds.gov
     File: USDS-Press-Sheet.pdf
@@ -375144,7 +375193,9 @@
     numTxtObjects: 76
     DocCategory: Press
   errors:
-  - 'title, figures missing alt text (count=69), headings-none, '
+  - 'File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 0.0 day(s)
+    ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete
+    artifact transfer, or stale manifest entry from a previous run.'
   analyses:
     original:
       status: analysed
@@ -375240,6 +375291,14 @@
       errors:
       - 'title, figures missing alt text (count=69), headings-none, '
       analysed_at: '2026-07-06T14:31:56.833581+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 0.0
+        day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download,
+        incomplete artifact transfer, or stale manifest entry from a previous run.'
+      analysed_at: '2026-07-06T15:32:03.647096+00:00'
   notes: What happens to the notes?
 - url: https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf
   md5: 27f2fe3ec256d981cd2abe71612f323e
@@ -375247,7 +375306,7 @@
   filename: USDS-SBA8a_Brief.pdf
   site: usds.gov
   crawled_at: '2026-07-06T14:28:46.968859+00:00'
-  status: analysed
+  status: error
   report:
     Site: usds.gov
     File: USDS-SBA8a_Brief.pdf
@@ -375329,7 +375388,9 @@
     fonts: 5
     numTxtObjects: 19
   errors:
-  - 'title, tagged, lang, '
+  - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 0.0 day(s)
+    ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete
+    artifact transfer, or stale manifest entry from a previous run.'
   analyses:
     original:
       status: analysed
@@ -375416,6 +375477,14 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: '2026-07-06T14:32:11.322086+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 0.0
+        day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download,
+        incomplete artifact transfer, or stale manifest entry from a previous run.'
+      analysed_at: '2026-07-06T15:32:17.978814+00:00'
   notes: What happens to the notes?
 - url: https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf
   md5: 492e3aec80a81eac45b238d092b10d9d
@@ -375423,7 +375492,7 @@
   filename: USDS-SBA8a_Detailed.pdf
   site: usds.gov
   crawled_at: '2026-07-06T14:28:46.971648+00:00'
-  status: analysed
+  status: error
   report:
     Site: usds.gov
     File: USDS-SBA8a_Detailed.pdf
@@ -375505,7 +375574,9 @@
     fonts: 4
     numTxtObjects: 28
   errors:
-  - 'title, tagged, lang, '
+  - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 0.0 day(s)
+    ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete
+    artifact transfer, or stale manifest entry from a previous run.'
   analyses:
     original:
       status: analysed
@@ -375592,6 +375663,14 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: '2026-07-06T14:32:25.845690+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 0.0
+        day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download,
+        incomplete artifact transfer, or stale manifest entry from a previous run.'
+      analysed_at: '2026-07-06T15:32:32.009483+00:00'
   notes: What happens to the notes?
 - url: https://www.usds.gov/assets/files/usds-di.pdf
   md5: 375e4935dd1d4ff355fdce257dad5c0b
@@ -375599,7 +375678,7 @@
   filename: usds-di.pdf
   site: usds.gov
   crawled_at: '2026-07-06T14:28:46.973626+00:00'
-  status: analysed
+  status: error
   report:
     Site: usds.gov
     File: usds-di.pdf
@@ -375691,7 +375770,9 @@
     fonts: 7
     numTxtObjects: 49
   errors:
-  - 'title, figures missing alt text (count=55), headings-none, annotations-tagging-fail, '
+  - 'File not found: crawled_files/usds.gov/usds-di.pdf (crawled 0.0 day(s) ago at
+    2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete
+    artifact transfer, or stale manifest entry from a previous run.'
   analyses:
     original:
       status: analysed
@@ -375788,6 +375869,14 @@
       errors:
       - 'title, figures missing alt text (count=55), headings-none, annotations-tagging-fail, '
       analysed_at: '2026-07-06T14:32:40.428788+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/usds.gov/usds-di.pdf (crawled 0.0 day(s) ago
+        at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete
+        artifact transfer, or stale manifest entry from a previous run.'
+      analysed_at: '2026-07-06T15:32:46.345815+00:00'
   notes: What happens to the notes?
 - url: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
   md5: 3ebe33fa286efd3b8cbee74bdde6b931
@@ -376154,3 +376243,51 @@
       errors: []
       analysed_at: null
   link_text: The Impact of SHIBA
+- url: https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/05/fac_c_digital_services_05_12_18.pdf
+  md5: 814fdc4fcc260c45f628e8be253798ca
+  file_hash: cd9f1ec48a1a7e38f89cfedef78da62d63cc0afe7009f2b44d0ff1d5b44b4d80
+  filename: fac_c_digital_services_05_12_18.pdf
+  site: usds.gov
+  crawled_at: '2026-07-06T15:29:05.161336+00:00'
+  status: error
+  report: null
+  errors:
+  - No module named 'simpla11ypdf'
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T15:33:00.686059+00:00'
+  notes: What happens to the notes?
+  link_text: May 2018 memo
+- url: https://www.irs.gov/pub/irs-pdf/i1040gi.pdf
+  md5: 893c14b1fac3150d23866380a91f6016
+  file_hash: 482e9c487c608f1bbeaceef35bc3c0933e8b35443cfff447e4279d590468364a
+  filename: i1040gi.pdf
+  site: usds.gov
+  crawled_at: '2026-07-06T15:29:05.173452+00:00'
+  status: error
+  report: null
+  errors:
+  - No module named 'simpla11ypdf'
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T15:33:15.116513+00:00'
+  notes: What happens to the notes?
+  link_text: nine hours and $150

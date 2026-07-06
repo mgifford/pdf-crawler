@@ -83,7 +83,7 @@ Generated: 2026-07-06T16:09:19.433752+00:00
 | tollwerk.de | 8 |
 | towson.edu | 148 |
 | ul.ie | 7 |
-| usds.gov | 9 |
+| usds.gov | 22 |
 | vdl.lu | 16 |
 | vivaqua.be | 68 |
 | volstate.edu | 10 |
@@ -62152,8 +62152,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
 
 - **URL**: https://www.usds.gov/assets/files/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
+- **Status**: error
+- File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
+
+- **URL**: https://www.usds.gov/assets/files/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
 - **Status**: analysed
 - title, figures missing alt text (count=19), headings-none, 
+
+### IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
+
+- **URL**: https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
+- **Status**: error
+- File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
 
@@ -62164,8 +62176,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### USDS-2024-Impact-Report.pdf
 
 - **URL**: https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### USDS-2024-Impact-Report.pdf
+
+- **URL**: https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, headings-none, annotations-tagging-fail, 
+
+### USDS-Impact-Report-2020.pdf
+
+- **URL**: https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf
+- **Status**: error
+- File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### USDS-Impact-Report-2020.pdf
 
@@ -62176,8 +62200,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### USDS-Overview.pdf
 
 - **URL**: https://www.usds.gov/assets/files/USDS-Overview.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### USDS-Overview.pdf
+
+- **URL**: https://www.usds.gov/assets/files/USDS-Overview.pdf
 - **Status**: analysed
 - title, figures missing alt text (count=2), headings-none, annotations-tagging-fail, 
+
+### USDS-Press-Sheet.pdf
+
+- **URL**: https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf
+- **Status**: error
+- File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### USDS-Press-Sheet.pdf
 
@@ -62188,14 +62224,32 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### USDS-SBA8a_Brief.pdf
 
 - **URL**: https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf
+- **Status**: error
+- File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### USDS-SBA8a_Brief.pdf
+
+- **URL**: https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf
 - **Status**: analysed
 - title, tagged, lang, 
 
 ### USDS-SBA8a_Detailed.pdf
 
 - **URL**: https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf
+- **Status**: error
+- File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### USDS-SBA8a_Detailed.pdf
+
+- **URL**: https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### usds-di.pdf
+
+- **URL**: https://www.usds.gov/assets/files/usds-di.pdf
+- **Status**: error
+- File not found: crawled_files/usds.gov/usds-di.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### usds-di.pdf
 
