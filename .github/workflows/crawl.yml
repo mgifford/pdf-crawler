@@ -136,6 +136,7 @@ jobs:
             echo "issue_number="                >> "$GITHUB_OUTPUT"
             echo "notes="                       >> "$GITHUB_OUTPUT"
             echo "verapdf=false"                >> "$GITHUB_OUTPUT"
+            echo "crawler_version=original"    >> "$GITHUB_OUTPUT"
           else
             # 1. Try to extract the URL from the issue title (after the prefix).
             STRIPPED=$(echo "$ISSUE_TITLE" \
@@ -208,30 +209,41 @@ jobs:
                 | cut -c1-500)
             fi
 
-            # 6. Extract optional page limit from the "Number: XXXX" line in the body.
-            MAX_PAGES="500"
+            # 6. Extract optional crawl limits from the issue body.
+            #    Defaults are aligned with README and workflow_dispatch defaults.
+            MAX_PAGES="2500"
+            MAX_PDFS="200"
             if [ -n "$ISSUE_BODY" ]; then
-              PARSED_MAX=$(echo "$ISSUE_BODY" \
+              PARSED_MAX_PAGES=$(echo "$ISSUE_BODY" \
                 | grep -Ei '^Number:[[:space:]]*[0-9]+' \
-                | sed -E 's/^[Nn]umber:[[:space:]]*//' \
                 | head -1 \
-                | tr -d '\r[:space:]')
-              if [ -n "$PARSED_MAX" ]; then
-                MAX_PAGES="$PARSED_MAX"
+                | tr -d '\r' \
+                | sed -E 's/^Number:[[:space:]]*//' \
+                | tr -d '[:space:]')
+              if echo "$PARSED_MAX_PAGES" | grep -Eq '^[0-9]+$'; then
+                MAX_PAGES="$PARSED_MAX_PAGES"
+              fi
+
+              PARSED_MAX_PDFS=$(echo "$ISSUE_BODY" \
+                | grep -Ei '^PDFs:[[:space:]]*[0-9]+' \
+                | head -1 \
+                | tr -d '\r' \
+                | sed -E 's/^PDFs:[[:space:]]*//' \
+                | tr -d '[:space:]')
+              if echo "$PARSED_MAX_PDFS" | grep -Eq '^[0-9]+$'; then
+                MAX_PDFS="$PARSED_MAX_PDFS"
               fi
             fi
 
-            # 7. Extract optional PDF analysis limit from the "PDFs: XXXX" line in the body.
-            MAX_PDFS="200"
-            if [ -n "$ISSUE_BODY" ]; then
-              PARSED_PDFS=$(echo "$ISSUE_BODY" \
-                | grep -Ei '^PDFs:[[:space:]]*[0-9]+' \
-                | sed -E 's/^[Pp][Dd][Ff][Ss]:[[:space:]]*//' \
-                | head -1 \
-                | tr -d '\r[:space:]')
-              if [ -n "$PARSED_PDFS" ]; then
-                MAX_PDFS="$PARSED_PDFS"
-              fi
+            # 7. Extract optional crawler version from the issue title (after the URL).
+            #    Supports the suffixes "ORIGINAL", "BLOOM", "ORIG", "B" - default to "original" if missing.
+            CRAWLER_VERSION="original"
+            if echo "$STRIPPED" | grep -Eqi "(^|\s)BLOOM$"; then
+              CRAWLER_VERSION="bloom"
+            elif echo "$STRIPPED" | grep -Eqi "(^|\s)ORIG(INAL)?$"; then
+              CRAWLER_VERSION="original"
+            elif echo "$STRIPPED" | grep -Eqi "(^|\s)B\s*$"; then
+              CRAWLER_VERSION="bloom"
             fi
 
             # 8. Detect optional veraPDF flag: when the issue title contains
@@ -249,6 +261,7 @@ jobs:
             echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
             echo "notes=$NOTES"               >> "$GITHUB_OUTPUT"
             echo "verapdf=$RUN_VERAPDF"       >> "$GITHUB_OUTPUT"
+            echo "crawler_version=$CRAWLER_VERSION" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Comment on issue when crawl setup fails
@@ -479,6 +492,7 @@ jobs:
           CRAWL_MAX_PAGES: ${{ steps.params.outputs.max_pages }}
           CRAWL_MAX_PDFS:  ${{ steps.params.outputs.max_pdfs }}
           CRAWL_VERAPDF:   ${{ steps.params.outputs.verapdf }}
+          CRAWLER_VERSION: ${{ steps.params.outputs.crawler_version }}
         run: |
           mkdir -p scan-meta
           echo "$ISSUE_NUMBER"    > scan-meta/issue_number.txt
@@ -487,6 +501,7 @@ jobs:
           echo "$CRAWL_MAX_PAGES" > scan-meta/max_pages.txt
           echo "$CRAWL_MAX_PDFS"  > scan-meta/max_pdfs.txt
           echo "$CRAWL_VERAPDF"   > scan-meta/verapdf.txt
+          echo "$CRAWLER_VERSION" > scan-meta/crawler_version.txt
           # Extract and save the site/domain for per-site scoping in the analysis step.
           # This mirrors the _site_folder() helper in scripts/crawl.py: lowercase the
           # netloc and strip a leading www. prefix (e.g. www.Ontario.ca → ontario.ca).

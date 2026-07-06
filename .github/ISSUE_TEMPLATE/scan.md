@@ -19,9 +19,9 @@ URL: <!-- e.g. https://example.com -->
 <!-- To activate a limit, delete the HTML comment markers around it.
      Leave them as-is to use the defaults shown below. -->
 
-<!-- Limit the number of pages (HTML pages) to crawl (default: 500).
+<!-- Limit the number of pages (HTML pages) to crawl (default: 2500).
      Larger values find more PDFs but may take longer. -->
-<!-- Number: 500 -->
+<!-- Number: 2500 -->
 
 <!-- Limit the number of PDFs to analyse in one run (default: 200).
      Reduce this if the analysis times out. Close and reopen to retry. -->

@@ -754,7 +754,13 @@ def test_process_timeout_raises_timeout_error(tmp_path):
 
     original = _mod._run_check_file_worker
 
-    def _sleeping_worker(filename, site, queue, run_verapdf_check=False):
+    def _sleeping_worker(
+        filename,
+        site,
+        queue,
+        run_verapdf_check=False,
+        crawler_version="original",
+    ):
         time.sleep(3600)  # sleep much longer than the timeout
 
     _mod._run_check_file_worker = _sleeping_worker
@@ -775,7 +781,13 @@ def test_process_timeout_returns_result_on_success(tmp_path):
 
     original = _mod._run_check_file_worker
 
-    def _fast_worker(filename, site, queue, run_verapdf_check=False):
+    def _fast_worker(
+        filename,
+        site,
+        queue,
+        run_verapdf_check=False,
+        crawler_version="original",
+    ):
         queue.put((True, {"TaggedTest": "Pass", "_log": ""}))
 
     _mod._run_check_file_worker = _fast_worker
@@ -796,7 +808,13 @@ def test_process_timeout_handles_worker_exception(tmp_path):
 
     original = _mod._run_check_file_worker
 
-    def _error_worker(filename, site, queue, run_verapdf_check=False):
+    def _error_worker(
+        filename,
+        site,
+        queue,
+        run_verapdf_check=False,
+        crawler_version="original",
+    ):
         queue.put((False, "something went wrong"))
 
     _mod._run_check_file_worker = _error_worker
@@ -832,7 +850,13 @@ def test_per_file_timeout_marks_entry_as_error(tmp_path, capsys):
 
     call_count = [0]
 
-    def _selective_worker(filename, site, queue, run_verapdf_check=False):
+    def _selective_worker(
+        filename,
+        site,
+        queue,
+        run_verapdf_check=False,
+        crawler_version="original",
+    ):
         call_count[0] += 1
         if "slow" in filename:
             time.sleep(3600)  # will be killed by timeout
@@ -2409,7 +2433,13 @@ def test_process_timeout_empty_queue_raises_runtime_error(tmp_path):
 
     original = _mod._run_check_file_worker
 
-    def _silent_worker(filename, site, queue, run_verapdf_check=False):
+    def _silent_worker(
+        filename,
+        site,
+        queue,
+        run_verapdf_check=False,
+        crawler_version="original",
+    ):
         # Exit without putting anything on the queue
         pass
 
@@ -3384,7 +3414,13 @@ def test_process_timeout_kills_zombie_process(tmp_path):
 
     original = _mod._run_check_file_worker
 
-    def _sigterm_ignoring_worker(filename, site, queue, run_verapdf_check=False):
+    def _sigterm_ignoring_worker(
+        filename,
+        site,
+        queue,
+        run_verapdf_check=False,
+        crawler_version="original",
+    ):
         # Ignore SIGTERM so the process survives proc.terminate().
         signal.signal(signal.SIGTERM, signal.SIG_IGN)
         time.sleep(3600)  # sleep much longer than the timeout

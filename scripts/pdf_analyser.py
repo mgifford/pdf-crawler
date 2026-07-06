@@ -210,6 +210,7 @@ def _run_check_file_worker(
     site: str,
     queue: "multiprocessing.Queue",
     run_verapdf_check: bool = False,
+    crawler_version: str = "original",
 ) -> None:
     """Worker function run inside a child process.
 
@@ -219,7 +220,13 @@ def _run_check_file_worker(
     reliably terminates any blocking C-extension call (e.g. pdfminer/pikepdf).
     """
     try:  # pragma: no cover
-        result = check_file(filename, site=site, run_verapdf_check=run_verapdf_check)
+        if crawler_version == "bloom":
+            # Import bloom-works check_file at runtime so the original env
+            # works without the extra package installed.
+            from simpla11ypdf.scanner import check_file as bloom_check_file
+            result = bloom_check_file(filename, site=site, debug=False)
+        else:
+            result = check_file(filename, site=site, run_verapdf_check=run_verapdf_check)
         queue.put((True, result))
     except Exception as exc:  # pragma: no cover
         queue.put((False, str(exc)))
@@ -230,6 +237,7 @@ def _analyse_with_process_timeout(
     site: str,
     timeout: int,
     run_verapdf_check: bool = False,
+    crawler_version: str = "original",
 ) -> dict:
     """Run check_file() in a child process with a hard wall-clock *timeout*.
 
@@ -243,6 +251,7 @@ def _analyse_with_process_timeout(
         timeout: Maximum seconds to wait for the child process.
         run_verapdf_check: When True, veraPDF is invoked inside the child
             process if it is available on PATH.
+        crawler_version: Which crawler to use - "original" or "bloom".
 
     Returns:
         The analysis result dict returned by check_file().
@@ -255,7 +264,7 @@ def _analyse_with_process_timeout(
     queue: multiprocessing.Queue = ctx.Queue()
     proc = ctx.Process(
         target=_run_check_file_worker,
-        args=(filename, site, queue, run_verapdf_check),
+        args=(filename, site, queue, run_verapdf_check, crawler_version),
         daemon=True,
     )
     proc.start()
@@ -578,7 +587,7 @@ def classify_document_category(
 
 def check_file(
     filename: str,
-    site: str = None,  # pylint: disable=unused-argument
+    site: str = None,
     run_verapdf_check: bool = False,
 ) -> Dict[str, Any]:
     """Run all accessibility checks on *filename* and return a result dict.
@@ -591,6 +600,8 @@ def check_file(
             ``veraPDF`` key in the returned dict.
     """
     result: Dict[str, Any] = {
+        "Site": site,
+        "File": Path(filename).name,
         "Accessible": True,
         "TotallyInaccessible": False,
         "BrokenFile": False,
@@ -666,6 +677,8 @@ def check_file(
         "Pages": None,
         "Words": None,
         "Images": None,
+        "fonts": None,
+        "numTxtObjects": None,
         "_log": "",
     }
 
@@ -857,6 +870,8 @@ def check_file(
             if (len(combined["fontNames"]) == 0 or combined["numTxt"] == 0)
             else "Pass"
         )
+        result["fonts"] = len(combined["fontNames"])
+        result["numTxtObjects"] = combined["numTxt"]
 
         result["Words"] = _count_words(filename)
 
@@ -950,7 +965,8 @@ def main(
     max_age_days: Optional[int] = None,
     max_files: Optional[int] = None,
     total_timeout: Optional[int] = None,
-    run_verapdf: bool = False,  # pylint: disable=redefined-outer-name
+    run_verapdf: bool = False,
+    crawler_version: str = "original",
 ) -> int:
     """Analyse pending PDFs and update the manifest.
 
@@ -1151,7 +1167,7 @@ def main(
 
         try:
             report = _analyse_with_process_timeout(
-                str(local_path), site, per_file_timeout, run_verapdf
+                str(local_path), site, per_file_timeout, run_verapdf, crawler_version
             )
 
             # Classify the document type from URL, filename, and anchor text.
@@ -1357,6 +1373,15 @@ if __name__ == "__main__":  # pragma: no cover
             "see https://verapdf.org/. Has no effect when veraPDF is absent."
         ),
     )
+    parser.add_argument(
+        "--crawler-version",
+        choices=["original", "bloom"],
+        default="original",
+        help=(
+            "Which PDF accessibility checker to use: 'original' (Accessibility Luxembourg) "
+            "or 'bloom' (Bloom Works fork). Default: original."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -1369,4 +1394,5 @@ if __name__ == "__main__":  # pragma: no cover
         max_files=args.max_files,
         total_timeout=args.total_timeout,
         run_verapdf=args.verapdf,
+        crawler_version=args.crawler_version,
     )
