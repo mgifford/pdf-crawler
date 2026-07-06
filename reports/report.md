@@ -1,14 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-06T14:12:59.580319+00:00
+Generated: 2026-07-06T14:32:12.644832+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 19782 |
-| Analysed | 6065 |
-| Pending analysis | 8676 |
+| Total files tracked | 19792 |
+| Analysed | 6066 |
+| Pending analysis | 8685 |
 | Errors during analysis | 5041 |
 | Accessible | 2002 |
 | Totally inaccessible | 257 |
@@ -43,7 +43,7 @@ Generated: 2026-07-06T14:12:59.580319+00:00
 | ecboces.org | 75 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 748 |
+| energy.gov | 749 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
@@ -82,6 +82,7 @@ Generated: 2026-07-06T14:12:59.580319+00:00
 | tollwerk.de | 8 |
 | towson.edu | 148 |
 | ul.ie | 7 |
+| usds.gov | 9 |
 | vdl.lu | 16 |
 | vivaqua.be | 68 |
 | volstate.edu | 10 |
@@ -6160,6 +6161,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [inz1002.pdf](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1002.pdf) | govt.nz | 2025-09-23 | INZ 1002 Residence Guide | Immigration New Zealand | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 9579 | 0 |
 | [new-zealands-tourism-policy-statement.pdf](https://www.mbie.govt.nz/assets/new-zealands-tourism-policy-statement.pdf) | govt.nz | 2026-06-25 | New Zealand's Tourism Policy Statement | Ministry of Business, Innovatoin and Employment | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 56 | 12191 | 168 |
 | [service-coverage-expectations-2025-26.pdf](https://www.health.govt.nz/system/files/2025-08/service-coverage-expectations-2025-26.pdf) | govt.nz | 2025-08-07 | Microsoft Word - Service Coverage Expectations 2025-26 | aschmidt | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 27 | 8877 | 2 |
+| [DOE_Fact_Sheet_Grid_Report_July_2025.pdf](https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf) | energy.gov | 2025-07-07 | — | Dankert, Charlie | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 1276 | 0 |
 
 ## Files with Errors or Notes
 
@@ -61122,3 +61124,9 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.health.govt.nz/system/files/2025-08/service-coverage-expectations-2025-26.pdf
 - **Status**: analysed
 - title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### DOE_Fact_Sheet_Grid_Report_July_2025.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
+- **Status**: analysed
+- title, headings-warn, 
