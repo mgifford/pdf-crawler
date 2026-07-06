@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-06T16:09:19.433752+00:00
+Generated: 2026-07-06T17:10:29.753734+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 105 |
-| Total files tracked | 19802 |
+| URLs crawled | 788 |
+| Total files tracked | 21359 |
 | Analysed | 6075 |
-| Pending analysis | 8517 |
-| Errors during analysis | 5210 |
+| Pending analysis | 9916 |
+| Errors during analysis | 5368 |
 | Accessible | 2002 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
@@ -44,7 +44,7 @@ Generated: 2026-07-06T16:09:19.433752+00:00
 | ecboces.org | 75 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 749 |
+| energy.gov | 2293 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
@@ -9712,6 +9712,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
 
@@ -10116,6 +10122,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://cleancities.energy.gov/files/u/news_events/document/document_url/132/Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### RI_TRO_Notice.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### RI_TRO_Notice.pdf
 
@@ -50932,6 +50944,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 3118-sasc-nomination-testimonypdf.pdf
 
 - **URL**: https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 3118-sasc-nomination-testimonypdf.pdf
+
+- **URL**: https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf
 - **Status**: analysed
 - title, 
 
@@ -51016,6 +51034,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### amw-nomination-testimony-jan-18-18pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/amw-nomination-testimony-jan-18-18pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### amw-nomination-testimony-jan-18-18pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/amw-nomination-testimony-jan-18-18pdf
 - **Status**: analysed
 - title, tagged, lang, 
 
@@ -51046,8 +51070,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### final-hasc-em-fy18-written-testimonypdf.pdf
 
 - **URL**: https://www.energy.gov/documents/final-hasc-em-fy18-written-testimonypdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### final-hasc-em-fy18-written-testimonypdf.pdf
+
+- **URL**: https://www.energy.gov/documents/final-hasc-em-fy18-written-testimonypdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### final-sasc-em-fy18-written-testimonypdf.pdf
+
+- **URL**: https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### final-sasc-em-fy18-written-testimonypdf.pdf
 
@@ -51508,6 +51544,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2024-09/strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-09/strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
 - **Status**: analysed
 - title, 
 
@@ -51594,6 +51636,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.energy.gov/sites/default/files/2014/02/f7/validation_teplow_large_aperture.pdf
 - **Status**: analysed
 - title, lang, 
+
+### what-foia.pdf
+
+- **URL**: https://www.energy.gov/gc/articles/what-foia
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### what-foia.pdf
 
@@ -58162,6 +58210,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### OEA_WashingtonDC.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OEA_WashingtonDC.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf
 - **Status**: analysed
 - title, tagged, lang, 
 
@@ -58212,6 +58266,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.energy.gov/sites/default/files/2025-01/VPP%20Site%20Status%20Report_Website%20Posting_Update.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.714879+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### WAPA_Posting_Notice.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### WAPA_Posting_Notice.pdf
 
@@ -58834,6 +58894,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### attachment-bpa-master-performance-work-statementpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### attachment-bpa-master-performance-work-statementpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf
 - **Status**: analysed
 - title, tagged, lang, 
 
@@ -58984,8 +59050,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### ne-dpa-consortium-faqs-091525.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-09/ne-dpa-consortium-faqs-091525.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ne-dpa-consortium-faqs-091525.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-09/ne-dpa-consortium-faqs-091525.pdf
 - **Status**: analysed
 - title, tagged, 
+
+### nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf
 
@@ -62260,5 +62338,821 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### DOE_Fact_Sheet_Grid_Report_July_2025.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
+- **Status**: error
+- File not found: crawled_files/energy.gov/DOE_Fact_Sheet_Grid_Report_July_2025.pdf (crawled 0.1 day(s) ago at 2026-07-06T14:29:49.870731+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### DOE_Fact_Sheet_Grid_Report_July_2025.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
 - **Status**: analysed
 - title, headings-warn, 
+
+### fac_c_digital_services_05_12_18.pdf
+
+- **URL**: https://bidenwhitehouse.archives.gov/wp-content/uploads/2018/05/fac_c_digital_services_05_12_18.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### i1040gi.pdf
+
+- **URL**: https://www.irs.gov/pub/irs-pdf/i1040gi.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10-cfr-1021-nofr-fed-reg-2020-12-04pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/10-cfr-1021-nofr-fed-reg-2020-12-04pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10-cfr-1021-notice-extension-2023-12-26pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/10-cfr-1021-notice-extension-2023-12-26pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10-cfr-part-1021-version-effect-time-2011-rulemaking.pdf
+
+- **URL**: https://www.energy.gov/nepa/articles/10-cfr-part-1021-version-effect-time-2011-rulemaking
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1978-02-21-proposed-1021pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1978-02-21-proposed-1021pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1978-07-19-proposed-1022pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1978-07-19-proposed-1022pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1979-03-07-final-1022pdf-0.pdf
+
+- **URL**: https://www.energy.gov/documents/1979-03-07-final-1022pdf-0
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1979-07-18-proposed-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1979-07-18-proposed-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1979-08-06-final-1021pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1979-08-06-final-1021pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1980-03-28-final-guidelines-completepdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1980-03-28-final-guidelines-completepdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1980-08-11-proposed-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1980-08-11-proposed-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1980-10-20-order-54401apdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1980-10-20-order-54401apdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1980-11-26-final-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1980-11-26-final-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1980-12-17-proposed-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1980-12-17-proposed-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1981-07-16-proposed-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1981-07-16-proposed-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1982-02-23-final-guidelines-section-d-completepdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1982-02-23-final-guidelines-section-d-completepdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1982-05-14-order-54401bpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1982-05-14-order-54401bpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1982-11-22-proposed-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1982-11-22-proposed-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1983-01-06-final-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1983-01-06-final-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1985-02-25-proposed-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1985-02-25-proposed-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1985-04-09-order-54401cpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1985-04-09-order-54401cpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1986-05-22-proposed-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1986-05-22-proposed-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1987-01-07-final-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1987-01-07-final-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1987-12-15-final-guidelines-completepdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1987-12-15-final-guidelines-completepdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1988-08-09-proposed-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1988-08-09-proposed-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1989-03-27-final-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1989-03-27-final-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1990-02-02-policy-sen-15-90pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1990-02-02-policy-sen-15-90pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1990-04-06-proposed-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1990-04-06-proposed-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1990-09-07-final-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1990-09-07-final-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1990-11-02-proposed-1021pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1990-11-02-proposed-1021pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1990-11-15-proposed-revocation-guidelinespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1990-11-15-proposed-revocation-guidelinespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1991-02-22-order-54401dpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1991-02-22-order-54401dpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1992-04-24-final-1021pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1992-04-24-final-1021pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1992-11-10-order-54401epdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1992-11-10-order-54401epdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1994-06-13-policy-secretarial-policy-nepapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1994-06-13-policy-secretarial-policy-nepapdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1995-09-11-order-4511pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1995-09-11-order-4511pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1996-02-20-proposed-1021pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1996-02-20-proposed-1021pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1996-07-09-final-1021-limited-reopening-comment-periodpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1996-07-09-final-1021-limited-reopening-comment-periodpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1996-07-09-final-1021pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1996-07-09-final-1021pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1996-12-06-final-1021pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1996-12-06-final-1021pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 1997-06-05-order-4511apdf.pdf
+
+- **URL**: https://www.energy.gov/documents/1997-06-05-order-4511apdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2000-10-26-order-4511bpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2000-10-26-order-4511bpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2001-09-28-order-4511b-change-1pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2001-09-28-order-4511b-change-1pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2002-11-18-proposed-1021-and-1022pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2002-11-18-proposed-1021-and-1022pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2003-08-27-final-1021-and-1022pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2003-08-27-final-1021-and-1022pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2006-10-06-notice-4511pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2006-10-06-notice-4511pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2006-11-28-final-1021-and-other-partspdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2006-11-28-final-1021-and-other-partspdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2009-03-ceq-doe-categorical-exclusionspdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2009-03-ceq-doe-categorical-exclusionspdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2009-10-02-policy-nepa-transparency-and-opennesspdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2009-10-02-policy-nepa-transparency-and-opennesspdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2010-06-25-order-4511b-change-2pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2010-06-25-order-4511b-change-2pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2010-07-16-policy-public-involvement-ea-processpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2010-07-16-policy-public-involvement-ea-processpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 20100218-nepa-consideration-effects-ghg-draft-guidance.pdf
+
+- **URL**: https://ceq.doe.gov/docs/ceq-regulations-and-guidance/20100218-nepa-consideration-effects-ghg-draft-guidance.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2011-01-03-proposed-1021pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2011-01-03-proposed-1021pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2011-10-13-final-1021pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2011-10-13-final-1021pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2012-01-19-order-4511b-change-3pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2012-01-19-order-4511b-change-3pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2012-06-12-policy-integrating-nepa-program-project-managementpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2012-06-12-policy-integrating-nepa-program-project-managementpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2016-10-06-order-4511b-change-3-variances-annotatedpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2016-10-06-order-4511b-change-3-variances-annotatedpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2016-18620.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/FR-2016-08-05/pdf/2016-18620.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2017-06576.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/FR-2017-03-31/pdf/2017-06576.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2017-06770.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/FR-2017-04-05/pdf/2017-06770.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2017-12-21-policy-4511-cancelling-nepa-orderpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2017-12-21-policy-4511-cancelling-nepa-orderpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2018_CESD_Strategic_Plan.pdf
+
+- **URL**: https://science.osti.gov/~/media/ber/pdf/workshop%20reports/2018_CESD_Strategic_Plan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2019-13576.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/FR-2019-06-26/pdf/2019-13576.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/09/f78/2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023-01-12-cx-rfi-re-openpdf-0.pdf
+
+- **URL**: https://www.energy.gov/documents/2023-01-12-cx-rfi-re-openpdf-0
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023-01-ceq-interim-guidance-ghg-emissions-climate-change.pdf
+
+- **URL**: https://www.energy.gov/documents/2023-01-ceq-interim-guidance-ghg-emissions-climate-change
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext.pdf
+
+- **URL**: https://www.energy.gov/documents/2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023-09-20-dot-adoption-doe-cx-b5-23-classespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2023-09-20-dot-adoption-doe-cx-b5-23-classespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023-09-20-nist-adoption-doe-multi-cx-classespdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2023-09-20-nist-adoption-doe-multi-cx-classespdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-07-02-cx-dhs-multiple-cxs-adoptedpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-07-02-cx-dhs-multiple-cxs-adoptedpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-07-23-doe-adoption-multi-fs-cxspdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-07-23-doe-adoption-multi-fs-cxspdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-12/2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-01-16-cx-doi-multiple-cxs-adopted.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-01/2025-01-16-cx-doi-multiple-cxs-adopted.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-05-16-nopr-10-cfr-part-1022_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-05/2025-05-16-nopr-10-cfr-part-1022_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-06-30-DOE-NEPA-Procedures.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-06/2025-06-30-DOE-NEPA-Procedures.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-07-03-IFR-1021-205-federal-register.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-07/2025-07-03-IFR-1021-205-federal-register.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-09-02-blm-multiple-cxs-adopted.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-04/2025-09-02-blm-multiple-cxs-adopted.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-09569.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/FR-2025-05-28/pdf/2025-09569.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-16235.pdf
+
+- **URL**: https://public-inspection.federalregister.gov/2025-16235.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-01-ceq-guidance-emergencies-and-nepa.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/2026-01-ceq-guidance-emergencies-and-nepa.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-04-ceq-guidance-categorical-exclusions.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-06-withdrawal%20of-guidance-documents.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/2026-06-withdrawal%20of-guidance-documents.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-202-02-1b-november-13-2002-cscpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-02-1b-november-13-2002-cscpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-202-03-4-may-7-2004-cscpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-03-4-may-7-2004-cscpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-202-05-3-december-20-2005-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-05-3-december-20-2005-mirant-corporationpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-202-06-1-february-17-2006-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-06-1-february-17-2006-mirant-corporationpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-202-06-2-september-28-2006-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-06-2-september-28-2006-mirant-corporationpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-202-07-1-november-22-2006-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-07-1-november-22-2006-mirant-corporationpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-202-07-2-january-31-2007-mirant-corporationpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-202-07-2-january-31-2007-mirant-corporationpdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-january-11-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-11-2001-californiapdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-january-16-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-16-2001-californiapdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-january-17-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-17-2001-californiapdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-january-2-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-2-2001-californiapdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 202c-order-january-23-2001-californiapdf.pdf
+
+- **URL**: https://www.energy.gov/documents/202c-order-january-23-2001-californiapdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 254737.pdf
+
+- **URL**: https://www.energy.gov/node/254737
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 255067.pdf
+
+- **URL**: https://www.energy.gov/node/255067
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 256249.pdf
+
+- **URL**: https://www.energy.gov/node/256249
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 256387.pdf
+
+- **URL**: https://www.energy.gov/node/256387
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 256519.pdf
+
+- **URL**: https://www.energy.gov/node/256519
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 257107.pdf
+
+- **URL**: https://www.energy.gov/node/257107
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 257191.pdf
+
+- **URL**: https://www.energy.gov/node/257191
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 257719.pdf
+
+- **URL**: https://www.energy.gov/node/257719
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 258337.pdf
+
+- **URL**: https://www.energy.gov/node/258337
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 258349.pdf
+
+- **URL**: https://www.energy.gov/node/258349
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 258487.pdf
+
+- **URL**: https://www.energy.gov/node/258487
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 258631.pdf
+
+- **URL**: https://www.energy.gov/node/258631
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 258961.pdf
+
+- **URL**: https://www.energy.gov/node/258961
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 259075.pdf
+
+- **URL**: https://www.energy.gov/node/259075
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 292561.pdf
+
+- **URL**: https://www.energy.gov/node/292561
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 377191.pdf
+
+- **URL**: https://www.energy.gov/node/377191
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 40-cfr-chp-v-app-i-ii-iii-final-rule-dec-1984pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/40-cfr-chp-v-app-i-ii-iii-final-rule-dec-1984pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 47870.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy10osti/47870.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 51387.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy12osti/51387.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 70207.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy20osti/70207.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 75163.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy20osti/75163.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 75387.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/pdfs/75387.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 75473.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/pdfs/75473.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 76701.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy20osti/76701.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 78495.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy21osti/78495.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'

@@ -20314,7 +20314,7 @@
   filename: 233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
   site: energy.gov
   crawled_at: '2026-03-09T22:47:23.692652+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -20340,7 +20340,7 @@
     Producer: null
     Pages: 53
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -20371,6 +20371,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:29:48.634175+00:00'
   link_text: Order Granting In Part and Denying In Part Motion for Preliminary Injunction
 - url: https://afdc.energy.gov/files/pdfs/2527.pdf
   md5: 636bb8d22168674ed579d90d497338f5
@@ -23847,7 +23853,7 @@
   filename: RI_TRO_Notice.pdf
   site: energy.gov
   crawled_at: '2026-03-09T22:47:24.228131+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -23873,7 +23879,7 @@
     Producer: null
     Pages: 15
   errors:
-  - 'no date found, title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -23904,6 +23910,12 @@
       errors:
       - 'no date found, title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:30:04.995321+00:00'
   link_text: Temporary Restraining Order
 - url: https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf
   md5: f8efb37010d506e44b589521480ba613
@@ -252495,7 +252507,7 @@
   filename: 3118-sasc-nomination-testimonypdf.pdf
   site: energy.gov
   crawled_at: '2026-03-20T16:06:15.600987+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -252523,7 +252535,7 @@
     Words: 755
     Images: 0
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -252556,6 +252568,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:30:21.450157+00:00'
 - url: https://www.energy.gov/sites/default/files/2024-10/Arctic-Energy-8-page-brochure-October%202024%20printer%20ready.pdf
   md5: 1b181f12d16fee329eb5186d88005674
   filename: Arctic-Energy-8-page-brochure-October%202024%20printer%20ready.pdf
@@ -252781,7 +252799,7 @@
   filename: amw-nomination-testimony-jan-18-18pdf.pdf
   site: energy.gov
   crawled_at: '2026-03-20T16:06:15.662870+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -252809,7 +252827,7 @@
     Words: 174
     Images: 0
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -252842,6 +252860,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:30:37.772806+00:00'
 - url: https://www.energy.gov/nnsa/articles/applying-msipp-grants
   md5: d6d4adc5e9b0bc8325654096aca10460
   filename: applying-msipp-grants.pdf
@@ -252937,7 +252961,7 @@
   filename: final-hasc-em-fy18-written-testimonypdf.pdf
   site: energy.gov
   crawled_at: '2026-03-20T16:06:15.696624+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -252965,7 +252989,7 @@
     Words: 2679
     Images: 0
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -252998,12 +253022,18 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:30:54.272660+00:00'
 - url: https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf
   md5: b0f5a6a84c579d1159342d0bcb9a0653
   filename: final-sasc-em-fy18-written-testimonypdf.pdf
   site: energy.gov
   crawled_at: '2026-03-20T16:06:15.699952+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -253031,7 +253061,7 @@
     Words: 2678
     Images: 0
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -253064,6 +253094,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:31:10.962029+00:00'
 - url: https://www.energy.gov/hgeo/articles/fossil-energy-fy-2009-budget
   md5: b0b78347feb72ee1375d13a8828f9317
   filename: fossil-energy-fy-2009-budget.pdf
@@ -257568,7 +257604,7 @@
   filename: strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
   site: energy.gov
   crawled_at: '2026-03-20T21:31:03.708872+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -257596,7 +257632,7 @@
     Words: 1185
     Images: 1
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -257629,6 +257665,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:31:27.522878+00:00'
   link_text: 'Fact Sheet: Strategic Petroleum Reserve.'
 - url: https://www.energy.gov/sites/prod/files/2014/04/f14/suny_project_abstract.pdf
   md5: 932bd9f93cd6de239af01d1f62dba6c2
@@ -258177,7 +258219,7 @@
   filename: what-foia.pdf
   site: energy.gov
   crawled_at: '2026-03-20T21:31:03.769779+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -258205,7 +258247,7 @@
     Words: 780
     Images: 0
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -258238,6 +258280,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:31:43.732291+00:00'
 - url: https://www.energy.gov/sites/default/files/2022-11/wpto-third-9505-assessment.pdf
   md5: daed0334ab3bb84e0332903391f5121c
   filename: wpto-third-9505-assessment-0.pdf
@@ -294458,7 +294506,7 @@
   filename: OEA_WashingtonDC.pdf
   site: energy.gov
   crawled_at: '2026-03-27T16:22:31.661405+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -294486,7 +294534,7 @@
     Words: 309
     Images: 1
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -294519,6 +294567,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:31:59.922722+00:00'
   link_text: Office of Enterprise Assessments - Washington DC
 - url: https://www.energy.gov/sites/default/files/2026-03/OMEI_WashingtonDC.pdf
   md5: 97cd7640bc8c44c5e7a702a66eb54eca
@@ -294613,7 +294667,7 @@
   filename: WAPA_Posting_Notice.pdf
   site: energy.gov
   crawled_at: '2026-03-27T16:22:31.716441+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -294641,7 +294695,7 @@
     Words: 313
     Images: 0
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -294674,6 +294728,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:32:16.599457+00:00'
   link_text: Western Area Power Administration - Wyoming Nebraska Maintenance Organization
 - url: https://www.energy.gov/cmei/buildings/articles/aham-cce-overview-and-update-dated-06072011
   md5: f3210c53b2b26d1b6fcae93f28dd09d5
@@ -297020,7 +297080,7 @@
   filename: attachment-bpa-master-performance-work-statementpdf.pdf
   site: energy.gov
   crawled_at: '2026-03-29T23:23:16.276922+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -297048,7 +297108,7 @@
     Words: 4167
     Images: 0
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -297081,6 +297141,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:32:33.114765+00:00'
 - url: https://www.energy.gov/lm/articles/busch-weldon-greenspace-map
   md5: d8476b3fa33489a9278dc1a4e9d6c210
   filename: busch-weldon-greenspace-map.pdf
@@ -298136,7 +298202,7 @@
   filename: ne-dpa-consortium-faqs-091525.pdf
   site: energy.gov
   crawled_at: '2026-03-29T23:23:16.609269+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -298164,7 +298230,7 @@
     Words: 1318
     Images: 0
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -298197,13 +298263,19 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:32:49.596130+00:00'
   link_text: Frequently Asked Questions
 - url: https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf
   md5: f2bb3dfa8151bfd698fb33e261154015
   filename: nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf
   site: energy.gov
   crawled_at: '2026-03-29T23:23:16.611460+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -298231,7 +298303,7 @@
     Words: 2500
     Images: 1
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -298264,6 +298336,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:33:06.027594+00:00'
 - url: https://www.energy.gov/sites/default/files/2026-03/noa-eis-0552-lanl-site-wide-2026-03.pdf
   md5: 0257c15ce4cd30139429eb54bcc70ee3
   filename: noa-eis-0552-lanl-site-wide-2026-03.pdf
@@ -376302,7 +376380,7 @@
   filename: DOE_Fact_Sheet_Grid_Report_July_2025.pdf
   site: energy.gov
   crawled_at: '2026-07-06T14:29:49.870731+00:00'
-  status: analysed
+  status: error
   report:
     Site: energy.gov
     File: DOE_Fact_Sheet_Grid_Report_July_2025.pdf
@@ -376399,7 +376477,10 @@
     numTxtObjects: 115
     DocCategory: Report
   errors:
-  - 'title, headings-warn, '
+  - 'File not found: crawled_files/energy.gov/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
+    (crawled 0.1 day(s) ago at 2026-07-06T14:29:49.870731+00:00). Possible causes:
+    failed download, incomplete artifact transfer, or stale manifest entry from a
+    previous run.'
   analyses:
     original:
       status: analysed
@@ -376501,6 +376582,15 @@
       errors:
       - 'title, headings-warn, '
       analysed_at: '2026-07-06T14:31:32.366838+00:00'
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'File not found: crawled_files/energy.gov/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
+        (crawled 0.1 day(s) ago at 2026-07-06T14:29:49.870731+00:00). Possible causes:
+        failed download, incomplete artifact transfer, or stale manifest entry from
+        a previous run.'
+      analysed_at: '2026-07-06T16:33:22.528633+00:00'
 - url: https://www.ojp.gov/pdffiles1/ojjdp/212703.pdf
   md5: 9484d6f3d7a2e4782c8e8f78be1dd86c
   file_hash: 6142d0a150db31867881993eddb78e3bac89aa6e4fe2c72b7e9eea717f9d7519
@@ -376715,780 +376805,1144 @@
   filename: 10-cfr-1021-nofr-fed-reg-2020-12-04pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.045672+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:33:39.174036+00:00'
 - url: https://www.energy.gov/documents/10-cfr-1021-notice-extension-2023-12-26pdf
   md5: 1057d012a60bf50a88b81339b33bda8a
   file_hash: a8c3a7aab4d127f4074acad5b6873b4f2c3aef59407ff53db310467c487d30ff
   filename: 10-cfr-1021-notice-extension-2023-12-26pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.049405+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:33:55.568996+00:00'
 - url: https://www.energy.gov/documents/10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf
   md5: 09ab6779432ae8d97389bd3525d99903
   file_hash: fbae4770b978a5797457e13f9dc576bde0dd11590b8cfd6bd2f9bc12c44f66d7
   filename: 10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.053478+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:34:11.840840+00:00'
 - url: https://www.energy.gov/nepa/articles/10-cfr-part-1021-version-effect-time-2011-rulemaking
   md5: f2a812ed4f04989bab947028572f2792
   file_hash: 5c92d8719a7065d8f7735133417b9f6a510b28ab06c86bfabd9f612166d2fbb1
   filename: 10-cfr-part-1021-version-effect-time-2011-rulemaking.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.055937+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:34:28.669086+00:00'
 - url: https://www.energy.gov/documents/1978-02-21-proposed-1021pdf
   md5: 35bfd07991499a828f1d3a2348136904
   file_hash: 835154ff80797bb0e7363994d768fecb7f4574c8f4e500088bca0a66e8030386
   filename: 1978-02-21-proposed-1021pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.061459+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:34:45.003390+00:00'
 - url: https://www.energy.gov/documents/1978-07-19-proposed-1022pdf
   md5: ee293b7aaf82a6a08641616096dfdc69
   file_hash: ef66b712d3bac16614a691f5b709e59ab350d8794dfc099848950bbf802f6091
   filename: 1978-07-19-proposed-1022pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.063948+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:35:01.364696+00:00'
 - url: https://www.energy.gov/documents/1979-03-07-final-1022pdf-0
   md5: 64214029770ea7c080174d87e3d32697
   file_hash: 2e24136b7b59ba03b50f1eab2b5c4db3d7cb9104c029fa02472a4d7177cba30d
   filename: 1979-03-07-final-1022pdf-0.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.068416+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:35:17.817567+00:00'
 - url: https://www.energy.gov/documents/1979-07-18-proposed-guidelinespdf
   md5: fd416ba0112cda74c9df7babdaf79db8
   file_hash: e982026feb8f9dbb2bc72c213a1a5aed689d2b275cf0714846ca0e6c545bf60e
   filename: 1979-07-18-proposed-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.072921+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:35:34.545896+00:00'
 - url: https://www.energy.gov/documents/1979-08-06-final-1021pdf
   md5: c300d995eb8188eb1fc36dc8e1aacd1e
   file_hash: 5e7f388cbf1c29092f40367ca30dacf7a0fd2f0b407c080f3d3a5af137b321aa
   filename: 1979-08-06-final-1021pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.074744+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:35:50.709053+00:00'
 - url: https://www.energy.gov/documents/1980-03-28-final-guidelines-completepdf
   md5: 62213ac24902530f64d3bae82abaedf0
   file_hash: c97884b73454d871f0e68b6277496131b57db0d4eb96017677ac2674fdf92337
   filename: 1980-03-28-final-guidelines-completepdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.078431+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:36:07.123049+00:00'
 - url: https://www.energy.gov/documents/1980-08-11-proposed-guidelinespdf
   md5: 141839ebeede9a04fd1897a86eb195af
   file_hash: 44deede940fccef56ed4be230e040a5e26a03ddfbc83a6cdc16251ebfec25068
   filename: 1980-08-11-proposed-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.080805+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:36:23.670000+00:00'
 - url: https://www.energy.gov/documents/1980-10-20-order-54401apdf
   md5: 7c759ea7da0c34480bb9c6f56cd949a6
   file_hash: c550968bed614fe4fddf064a4c49e178ab1c340b9fd2118afcb5f87b27796a42
   filename: 1980-10-20-order-54401apdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.082869+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:36:40.081405+00:00'
 - url: https://www.energy.gov/documents/1980-11-26-final-guidelinespdf
   md5: 74f301092051ef0cfe5a6dc329033792
   file_hash: fcc1d987d65bff9bfb86657510ea7975c58652a22e6c526ebc6acd2f8a726b6b
   filename: 1980-11-26-final-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.085304+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:36:56.862398+00:00'
 - url: https://www.energy.gov/documents/1980-12-17-proposed-guidelinespdf
   md5: 9130d41b318ab1d87cfaeb8fbcb9ff29
   file_hash: 8f3a57eb6822469f259f4d30411c8b7aef85ba0030cbdb7a0d46626a24a0d25c
   filename: 1980-12-17-proposed-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.087766+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:37:13.616538+00:00'
 - url: https://www.energy.gov/documents/1981-07-16-proposed-guidelinespdf
   md5: 59b71e8cbee865c7d993f17b0edb5948
   file_hash: 6e85e28edb4c704a3ab71fc0c893bcd3244ebac69eab27beb7bb42570f0d9579
   filename: 1981-07-16-proposed-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.089820+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:37:29.847555+00:00'
 - url: https://www.energy.gov/documents/1982-02-23-final-guidelines-section-d-completepdf
   md5: d64e5c514e406268a0a1e90d0d4bb8c4
   file_hash: c5c29ccd2f6f719b44110ea39298181b01b5ceb332852c99d77f2b73a6f2dc8e
   filename: 1982-02-23-final-guidelines-section-d-completepdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.092182+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:37:46.150297+00:00'
 - url: https://www.energy.gov/documents/1982-05-14-order-54401bpdf
   md5: a40b3de09028583d7f69f9f973165014
   file_hash: ae64275b6890195eba760ef9c83500731900569e945a89e6cfd4705dcf496b42
   filename: 1982-05-14-order-54401bpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.094313+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:38:02.731644+00:00'
 - url: https://www.energy.gov/documents/1982-11-22-proposed-guidelinespdf
   md5: ae7b12ffedad4f74ffbdda6a42dc5a56
   file_hash: 7625a1a68ea4fb8e7a1d66a869104bf6747a39816ff04d0d5fdf51692f7a4fd9
   filename: 1982-11-22-proposed-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.096313+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:38:19.457302+00:00'
 - url: https://www.energy.gov/documents/1983-01-06-final-guidelinespdf
   md5: 0245f53676e8568b8309c86af6a4ad32
   file_hash: b526e4d762d0545249339bf62d8d4eba3c26e597365ddcdcc2fce47166cca9b3
   filename: 1983-01-06-final-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.099188+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:38:35.841942+00:00'
 - url: https://www.energy.gov/documents/1985-02-25-proposed-guidelinespdf
   md5: 4ec75a7f4b08b2fd2dd3b8122e4abdc2
   file_hash: 0300a4f7fceb769fe020a356de373221d6d75c96ed3c5ee44a2c92a95c8b849d
   filename: 1985-02-25-proposed-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.104360+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:38:52.087240+00:00'
 - url: https://www.energy.gov/documents/1985-04-09-order-54401cpdf
   md5: 152b34dd90466d52d7fc844f9ca6c709
   file_hash: e11e4bc0d737b3555e75c87a3db6b8bff7b0e4438888ca4af211d676fd9df103
   filename: 1985-04-09-order-54401cpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.106535+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:39:08.403287+00:00'
 - url: https://www.energy.gov/documents/1986-05-22-proposed-guidelinespdf
   md5: 672b5d055e32c263236af86c3a0d26cc
   file_hash: c9b57a37d717204cc11c8f6efafb837137db4413360cdddf40df197f5ae952e8
   filename: 1986-05-22-proposed-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.108454+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:39:24.769043+00:00'
 - url: https://www.energy.gov/documents/1987-01-07-final-guidelinespdf
   md5: 8d05839913b1d657896809ef70789307
   file_hash: 8d4c16aa7e5789d8fa8da2364327c0e9da514e7a8796f8daf743f418f1790a37
   filename: 1987-01-07-final-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.110255+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:39:41.271254+00:00'
 - url: https://www.energy.gov/documents/1987-12-15-final-guidelines-completepdf
   md5: e479bcd43c997c260bb6f5ffdc6f14da
   file_hash: 5ffd6384740e1a1a5bf26a5501a638f231d6c2fdf195b2aa8294fb36b6922053
   filename: 1987-12-15-final-guidelines-completepdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.114039+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:39:57.542789+00:00'
 - url: https://www.energy.gov/documents/1988-08-09-proposed-guidelinespdf
   md5: 2e6c55ef9f26b40e00b3f257d75b4e18
   file_hash: d3fb9922b670d64d5b06106159ac790a8ee6d5a037f6b4e90ccfbd2c335ac937
   filename: 1988-08-09-proposed-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.116322+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:40:13.927956+00:00'
 - url: https://www.energy.gov/documents/1989-03-27-final-guidelinespdf
   md5: 46b925bbbd6289a094015c77f2132654
   file_hash: 20c9228f04ec02febd630e6d2b869521bbd02f8b068ea9b96aa524b5c96333a8
   filename: 1989-03-27-final-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.118227+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:40:30.219086+00:00'
 - url: https://www.energy.gov/documents/1990-02-02-policy-sen-15-90pdf
   md5: 77ab83131e69c9eb098435e87dbc3d9a
   file_hash: 2dc198fa422abeec8085a5afa30f1147909b24849d93658cbd32f6d92bfcf3ab
   filename: 1990-02-02-policy-sen-15-90pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.120580+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:40:46.534995+00:00'
 - url: https://www.energy.gov/documents/1990-04-06-proposed-guidelinespdf
   md5: 71bdc9b9fd524837076f844c2a8684cd
   file_hash: 769ea18a3c98b8448fc0199702746a9428dc3aedada8a7a90266d6ce824d040d
   filename: 1990-04-06-proposed-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.122656+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:41:02.864854+00:00'
 - url: https://www.energy.gov/documents/1990-09-07-final-guidelinespdf
   md5: ee6430591c500664d7f346fdfeae7a62
   file_hash: 86492afe8eaa840a3637b10b3130da053db7da3c23afeac799ff5c9b04ed7ecb
   filename: 1990-09-07-final-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.125503+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:41:19.270702+00:00'
 - url: https://www.energy.gov/documents/1990-11-02-proposed-1021pdf
   md5: 69ff7e7aaab19e1a90aa8b52bd4ee5e4
   file_hash: 8fe3a2dd363b6600d994f80e083a986a2ff156a4757ce647deebf4aac22273dc
   filename: 1990-11-02-proposed-1021pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.133301+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:41:35.604965+00:00'
 - url: https://www.energy.gov/documents/1990-11-15-proposed-revocation-guidelinespdf
   md5: cc8ca621f9d61b3aaab086bf4ab8e025
   file_hash: 7235f4670d0f2e62c0213c982beb14ad1ba90a47c573b429b9769e25450e29c4
   filename: 1990-11-15-proposed-revocation-guidelinespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.136386+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:41:52.023556+00:00'
 - url: https://www.energy.gov/documents/1991-02-22-order-54401dpdf
   md5: f681e281e1191a54fc76e1a2d759eef5
   file_hash: edd7b44e66342d6712c73eb12fc957a327a792a0e0125c0dd39d61aa4a46f994
   filename: 1991-02-22-order-54401dpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.139761+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:42:08.701145+00:00'
 - url: https://www.energy.gov/documents/1992-04-24-final-1021pdf
   md5: 1c4d8cd84810025d7cba788ce692f17f
   file_hash: 4720a9b7424bd93d3eb439ad7c36bf36066339a5ee567d0316f8181b184b61cf
   filename: 1992-04-24-final-1021pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.153137+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:42:25.092103+00:00'
 - url: https://www.energy.gov/documents/1992-11-10-order-54401epdf
   md5: fdb8cc10ffdd8919e08657f5a840d231
   file_hash: 2ce3e607a90fc9ba4a31049e15d218305c806bc33ba6d2eef2f1be2d5b863ca7
   filename: 1992-11-10-order-54401epdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.155155+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:42:41.462805+00:00'
 - url: https://www.energy.gov/documents/1994-06-13-policy-secretarial-policy-nepapdf
   md5: d1d3b9b31fcc4441ae6485e94399894e
   file_hash: 0757ceef7fa9ea6fa53df4c0cf8e6b62691d93dae5de5a30c1466c85b5e34085
   filename: 1994-06-13-policy-secretarial-policy-nepapdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.157574+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:42:57.729194+00:00'
 - url: https://www.energy.gov/documents/1995-09-11-order-4511pdf
   md5: c40f59636be6d4117fdc207f6a3fdff9
   file_hash: 8380506d17ec97e4fb889f56120a37182448677e7b0ffe433bce44adac6e6b88
   filename: 1995-09-11-order-4511pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.159147+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:43:13.852242+00:00'
 - url: https://www.energy.gov/documents/1996-02-20-proposed-1021pdf
   md5: 4aa019559d9603a301b3d58f862442b2
   file_hash: b43c7f73a533120bcf3d279bdc5106ca691fad5aebb1b0b87b99eed5143f313b
   filename: 1996-02-20-proposed-1021pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.161092+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:43:30.177443+00:00'
 - url: https://www.energy.gov/documents/1996-07-09-final-1021-limited-reopening-comment-periodpdf
   md5: 47e23a09ce2fb9dc724a62aa41b47274
   file_hash: 42abd7604b5ac9eb7a124541ab7183762c702261a2c817ab1e598aca93446d0f
   filename: 1996-07-09-final-1021-limited-reopening-comment-periodpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.162851+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:43:46.570912+00:00'
 - url: https://www.energy.gov/documents/1996-07-09-final-1021pdf
   md5: 62ac595c7dd95ee68965e3cebf6efed0
   file_hash: cc946487a405234bc2c7a119c4555172c874068f5855c06cb78fae401e581afd
   filename: 1996-07-09-final-1021pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.169660+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:44:03.169946+00:00'
 - url: https://www.energy.gov/documents/1996-12-06-final-1021pdf
   md5: 87bb9b1447e460ec0517c476067d51b1
   file_hash: 617ea274abff9e310b58f66797a9580311ab1178cf3e8c7075d28b57966ef485
   filename: 1996-12-06-final-1021pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.172904+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:44:19.460506+00:00'
 - url: https://www.energy.gov/documents/1997-06-05-order-4511apdf
   md5: a2f48b3e2cb81a62478bfac4ecc5bebf
   file_hash: 7533c5b76b23bee60e47f47e22ca78ff4d07f227f61647354ac9918f4771cb0d
   filename: 1997-06-05-order-4511apdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.174486+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:44:35.611502+00:00'
 - url: https://www.energy.gov/documents/2000-10-26-order-4511bpdf
   md5: cd42c7b84ac577a02fd21b011af2c89a
   file_hash: 9052a7ed450aa3fb4fc74e8c6fddb22933ed674872f05ce8d235751637e680fc
   filename: 2000-10-26-order-4511bpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.176068+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:44:51.831271+00:00'
 - url: https://www.energy.gov/documents/2001-09-28-order-4511b-change-1pdf
   md5: 8c84c8cf8b2aebb222900241031bf962
   file_hash: af931dafc76074c13552d0276b1e16391d562522bd77f0ca3c49bac5bc83ff92
   filename: 2001-09-28-order-4511b-change-1pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.177756+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:45:08.059467+00:00'
 - url: https://www.energy.gov/documents/2002-11-18-proposed-1021-and-1022pdf
   md5: c967d482ae7422a62d4439962a36b670
   file_hash: f7c377a9daacc619d7a1d2bcc3067f1b7a77725cb5f52254c029dd6c92b44c8b
   filename: 2002-11-18-proposed-1021-and-1022pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.179666+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:45:24.270630+00:00'
 - url: https://www.energy.gov/documents/2003-08-27-final-1021-and-1022pdf
   md5: 9aa824f43b7885240a58cede6530b3bd
   file_hash: 723bab3d91d4bf294442cebfb5a1743df0caa2f894c83c5c65fd7dd8a295eaa3
   filename: 2003-08-27-final-1021-and-1022pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.183060+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:45:40.749329+00:00'
 - url: https://www.energy.gov/documents/2006-10-06-notice-4511pdf
   md5: 4126d714c33929a5b8218fddceb45af2
   file_hash: 2d0344b035e199c09360f8189bf07c4aaa4d45ffea0a9d47fcc269e9fd0481b5
   filename: 2006-10-06-notice-4511pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.185579+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:45:57.523721+00:00'
 - url: https://www.energy.gov/documents/2006-11-28-final-1021-and-other-partspdf
   md5: e085b53e1051adf413fcf3db4c19f313
   file_hash: b92db32c3b2a5ee43c61961e40874c6030177c6e1a81a1b1c67a2309a91c4f3d
   filename: 2006-11-28-final-1021-and-other-partspdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.189655+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:46:13.940794+00:00'
 - url: https://www.energy.gov/documents/2009-03-ceq-doe-categorical-exclusionspdf
   md5: 31856612eaf46077e54dec45d728fd35
   file_hash: 2ca6c2aca0e82bcd8dcfe49fdd15fed18109917c7091dc3dd88ab58f09a5c34d
   filename: 2009-03-ceq-doe-categorical-exclusionspdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.192466+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:46:30.294555+00:00'
 - url: https://www.energy.gov/documents/2009-10-02-policy-nepa-transparency-and-opennesspdf
   md5: c34095f1b08b96819ea17ea73de32956
   file_hash: 3c8bdb15be267c3c7ab7881fb818951277c2a857d5e54c19186e923d6ae21f8f
   filename: 2009-10-02-policy-nepa-transparency-and-opennesspdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.194119+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:46:46.512434+00:00'
 - url: https://www.energy.gov/documents/2010-06-25-order-4511b-change-2pdf
   md5: 7385ab5d1f8a297c27d42d761c184f2b
   file_hash: 41e1c4820a55949a372a77ef4a7c20c676323f7648c3b173be9553ccf9b5c585
   filename: 2010-06-25-order-4511b-change-2pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.195768+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:47:02.861466+00:00'
 - url: https://www.energy.gov/documents/2010-07-16-policy-public-involvement-ea-processpdf
   md5: 2574705b01960fca2cf3027bb70e75cf
   file_hash: be87e30ef35c7738214c995124797d10111849b71717749a01a37995e9c5b7fc
   filename: 2010-07-16-policy-public-involvement-ea-processpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.197928+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:47:19.245235+00:00'
 - url: https://ceq.doe.gov/docs/ceq-regulations-and-guidance/20100218-nepa-consideration-effects-ghg-draft-guidance.pdf
   md5: a4bd00a2576b847bb17ba31bf783f7a5
   file_hash: b10136f5a11c46caebf03e99bb42230cc24eb32553d5d47dd7209f97339d2a21
   filename: 20100218-nepa-consideration-effects-ghg-draft-guidance.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.199712+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:47:35.816306+00:00'
   link_text: 2010 draft guidance (Feb. 18, 2010)
 - url: https://www.energy.gov/documents/2011-01-03-proposed-1021pdf
   md5: 58bb4c0cde12ab0a296e1e5635dc6a25
@@ -377496,90 +377950,132 @@
   filename: 2011-01-03-proposed-1021pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.201877+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:47:52.489280+00:00'
 - url: https://www.energy.gov/documents/2011-10-13-final-1021pdf
   md5: c2c85f80326e960bfcef4d48e53c2ec8
   file_hash: a6fc2f28393515d1a75db279e61bbf448afadd61d1afb1e075cb6d255ba6d51e
   filename: 2011-10-13-final-1021pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.204073+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:48:08.884495+00:00'
 - url: https://www.energy.gov/documents/2012-01-19-order-4511b-change-3pdf
   md5: 9b2f4c05d7b8ad3e15e15356e7c0bc23
   file_hash: 96ed15cedd86b1fb2e4160291eb250d1835d9f33c4f2aef0e12aa18c06231723
   filename: 2012-01-19-order-4511b-change-3pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.205968+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:48:24.977943+00:00'
 - url: https://www.energy.gov/documents/2012-06-12-policy-integrating-nepa-program-project-managementpdf
   md5: 8a110b289876bb2ae79eba069994d0d7
   file_hash: a4b685618d7533f3b092de67de626cff574cadf4a0dd994316716dade6e6c33c
   filename: 2012-06-12-policy-integrating-nepa-program-project-managementpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.208540+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:48:41.210920+00:00'
 - url: https://www.energy.gov/documents/2016-10-06-order-4511b-change-3-variances-annotatedpdf
   md5: ac6005d6cd3f6172b55934b82348bf28
   file_hash: 66dbaffcfcfd50e11b34e07f041b5cdb89bac22cb5f1f0d8942aa712bc049601
   filename: 2016-10-06-order-4511b-change-3-variances-annotatedpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.213448+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:48:57.487933+00:00'
 - url: https://www.govinfo.gov/content/pkg/FR-2016-08-05/pdf/2016-18620.pdf
   md5: 906932d7f2efa2dac3d59c3ab3e228b9
   file_hash: e65c3f2d9ac5509d3fa5f9b50b60a131a934a47696db902094406dcc1b883e03
   filename: 2016-18620.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.215452+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:49:13.732859+00:00'
   link_text: Notice of availability of 2016 (NOA) final guidance (Aug. 5, 2016)
 - url: https://www.govinfo.gov/content/pkg/FR-2017-03-31/pdf/2017-06576.pdf
   md5: 0b1256f2ce4076d778bb1840a1691f89
@@ -377587,15 +378083,22 @@
   filename: 2017-06576.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.217409+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:49:29.892766+00:00'
   link_text: 'E.O. 13783: Promoting Energy Independence and Economic Growth (Mar.
     28, 2017)'
 - url: https://www.govinfo.gov/content/pkg/FR-2017-04-05/pdf/2017-06770.pdf
@@ -377604,15 +378107,22 @@
   filename: 2017-06770.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.219402+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:49:46.306345+00:00'
   link_text: Notice of withdrawal of 2016 final guidance (Apr. 5, 2017)
 - url: https://www.energy.gov/documents/2017-12-21-policy-4511-cancelling-nepa-orderpdf
   md5: 7318af9311f2bb60fa275e1c705e11e8
@@ -377620,30 +378130,44 @@
   filename: 2017-12-21-policy-4511-cancelling-nepa-orderpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.221029+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:50:02.582976+00:00'
 - url: https://science.osti.gov/~/media/ber/pdf/workshop%20reports/2018_CESD_Strategic_Plan.pdf
   md5: 863d7949e689e7e47bf0fa09c8226c36
   file_hash: d85dd4e8c66fc85d39b6494a36691ddb73ebf012a3a3911fbae8bbd5aa251793
   filename: 2018_CESD_Strategic_Plan.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.257535+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:50:18.811467+00:00'
   link_text: Earth and Environmental Systems Sciences Division Strategic Plan
 - url: https://www.govinfo.gov/content/pkg/FR-2019-06-26/pdf/2019-13576.pdf
   md5: 7bb8b8ddf5d0aed15c7fa7bf2ccea6d4
@@ -377651,15 +378175,22 @@
   filename: 2019-13576.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.260878+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:50:35.119988+00:00'
   link_text: 2019 draft guidance (June 26, 2019, rescinded Feb. 19, 2021)
 - url: https://www.energy.gov/sites/prod/files/2020/09/f78/2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf
   md5: 00b9bf355527be329c7cde5f73ee0a4e
@@ -377667,15 +378198,22 @@
   filename: 2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.263322+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:50:51.458438+00:00'
   link_text: 85 FR 54366 - Notice of application of Rio Grande LNG, LLC; Application
     To Amend Export Term Through December 31, 2050, for Existing Non- Free Trade Agreement
     Authorization
@@ -377685,270 +378223,396 @@
   filename: 2023-01-12-cx-rfi-re-openpdf-0.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.265157+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:51:08.127417+00:00'
 - url: https://www.energy.gov/documents/2023-01-ceq-interim-guidance-ghg-emissions-climate-change
   md5: 70c2f5adb1e36b99cba0bae3617f1e93
   file_hash: 96f232d58d3544f2176e9e00f3d23e7cc7d19fed450d5c086be105faefe46de9
   filename: 2023-01-ceq-interim-guidance-ghg-emissions-climate-change.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.267796+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:51:24.658948+00:00'
 - url: https://www.energy.gov/documents/2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext
   md5: d2e2d5d6154c20ab8cd0165b5f98e6ae
   file_hash: 81eaa7268f0a83d9646290ea747c35054b8ce669afa5038b2868bb99509d2e5c
   filename: 2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.269662+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:51:41.504900+00:00'
 - url: https://www.energy.gov/documents/2023-09-20-dot-adoption-doe-cx-b5-23-classespdf
   md5: 7b7cdc032d0dd69f5e2d1053cabf3911
   file_hash: 5ec53894e8b6e44522569f4fa9d760d0dc6bc1dbcd371567b3ebc2f2fc08d3a8
   filename: 2023-09-20-dot-adoption-doe-cx-b5-23-classespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.271432+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:51:57.704559+00:00'
 - url: https://www.energy.gov/documents/2023-09-20-nist-adoption-doe-multi-cx-classespdf
   md5: 24bb8e9161e539d310d4ec9309970d8b
   file_hash: 478252e37e603d3e81fe3fba6d0340531ea4719a4e0e222cb84eaa3641c96001
   filename: 2023-09-20-nist-adoption-doe-multi-cx-classespdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.273234+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:52:13.941310+00:00'
 - url: https://www.energy.gov/documents/2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf
   md5: 11fa8f576023b30aae877d61bebcd772
   file_hash: dd2f2dbfb2d5b1307906b66993532285f9172be0397b7e5b19f67540c911d121
   filename: 2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.275040+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:52:30.272594+00:00'
 - url: https://www.energy.gov/documents/2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf
   md5: ebf5a07118106f070da7d36807efbe16
   file_hash: 77eb50ad4f1397a2933a0100dfc470477143f74dd86633d32c2ff0285665e666
   filename: 2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.276872+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:52:46.701710+00:00'
 - url: https://www.energy.gov/documents/2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf
   md5: 40812fe84c1084be4bd103e3fafdf209
   file_hash: b9d4193a8e9c8a18a08e166409cd0412b528dd758c37bf5edfd6789511d3a590
   filename: 2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.282684+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:53:03.504020+00:00'
 - url: https://www.energy.gov/documents/2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf
   md5: e82e92ca2c1901bcde419e569024950c
   file_hash: 58c6d13b7a0ac89f7be9c2ea0301b34df862b4328f1df8c3fa2a3a15a2524d16
   filename: 2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.284537+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:53:20.144829+00:00'
 - url: https://www.energy.gov/documents/2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment
   md5: ad9148958544e5ebc550e302ad0a9d9e
   file_hash: 7f2a31dac95b602296edc14a22556ecdf07b0db7dac3626bbf00fd503810a484
   filename: 2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.286491+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:53:36.397210+00:00'
 - url: https://www.energy.gov/documents/2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf
   md5: 26a1ad2699b7e0e7a3353ea1a112d17f
   file_hash: 2eb6bffe3a55e64bfe58daeb31d2843c4b80f95bb6b18c07b03fab11a9d522b1
   filename: 2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.288527+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:53:52.638404+00:00'
 - url: https://www.energy.gov/documents/2024-07-02-cx-dhs-multiple-cxs-adoptedpdf
   md5: f80387dc48dfd0edf00e60b1ee21dce0
   file_hash: bb8f8381fb7e84ab7acccc926c2f73a32dabab8ee8e7ef2f132f38b93d2ef73b
   filename: 2024-07-02-cx-dhs-multiple-cxs-adoptedpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.290576+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:54:08.945706+00:00'
 - url: https://www.energy.gov/documents/2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf
   md5: cc9f8bf0ce06c91743137f8aeb9a82c4
   file_hash: 070d7c171e4d4463a3532441c116c9b6bba2ea1b6ae048f6a74a439724f150c5
   filename: 2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.292636+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:54:25.422884+00:00'
 - url: https://www.energy.gov/documents/2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf
   md5: 14f0bad20cc47456370db358ba20ae40
   file_hash: fa861b92aeb6a0535c2b6bfea2572896ae9791f90d0ba79aec3e9738baa172c5
   filename: 2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.294573+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:54:42.005112+00:00'
 - url: https://www.energy.gov/documents/2024-07-23-doe-adoption-multi-fs-cxspdf
   md5: 5a520fc8760ea5c91bb4c2974a924cc0
   file_hash: f344482e860f4fab975b9e2c0bd4cf1ff9f01094821f626c02f1e8b238735e66
   filename: 2024-07-23-doe-adoption-multi-fs-cxspdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.296593+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:54:58.244076+00:00'
 - url: https://www.energy.gov/documents/2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf
   md5: 90ebed7690a4e903b813c6b2bbac24a0
   file_hash: 6114b378f037b49949abbdaac22f73818dd972b911dfd311b4aeeadbaab9138b
   filename: 2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.298543+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:55:14.667015+00:00'
 - url: https://www.energy.gov/documents/2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf
   md5: 4b7a886e3732bbe58f655feec4f7c1cd
   file_hash: ffd8e56571477581b7d4f375ba79dc7e739da611005d415a88181b828963fe53
   filename: 2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.300539+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:55:31.168496+00:00'
 - url: https://www.energy.gov/sites/default/files/2024-12/2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf
   md5: 5ad2767044fe5dbec1423cdc789d067d
   file_hash: 6f79f792b0bb1c9171ede0f92d4e821c264ce83d7d8ec4a62bb67f578fe86808
   filename: 2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.302565+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:55:47.580798+00:00'
   link_text: 2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1
 - url: https://www.energy.gov/sites/default/files/2025-01/2025-01-16-cx-doi-multiple-cxs-adopted.pdf
   md5: e263ed7e26ad228e6aabbcaefbfcbef8
@@ -377956,15 +378620,22 @@
   filename: 2025-01-16-cx-doi-multiple-cxs-adopted.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.304556+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:56:04.175757+00:00'
   link_text: 2025-01-16-cx-doi-multiple-cxs-adopted.pdf
 - url: https://www.energy.gov/sites/default/files/2025-05/2025-05-16-nopr-10-cfr-part-1022_0.pdf
   md5: f5c400cd96c5ee76af7ad04bf83ef73a
@@ -377972,15 +378643,22 @@
   filename: 2025-05-16-nopr-10-cfr-part-1022_0.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.306645+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:56:20.584752+00:00'
   link_text: Notice of Proposed Rulemaking for 10 CFR Part 1022
 - url: https://www.energy.gov/sites/default/files/2025-06/2025-06-30-DOE-NEPA-Procedures.pdf
   md5: b2c34e1f646ce00bd2cc6ffc6ad77710
@@ -377988,15 +378666,22 @@
   filename: 2025-06-30-DOE-NEPA-Procedures.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.309035+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:56:37.384174+00:00'
   link_text: 2025-06-30-DOE-NEPA-Procedures.pdf
 - url: https://www.energy.gov/sites/default/files/2025-07/2025-07-03-IFR-1021-205-federal-register.pdf
   md5: b2543c802e9cdb6d9ab79ded6c642c16
@@ -378004,15 +378689,22 @@
   filename: 2025-07-03-IFR-1021-205-federal-register.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.311495+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:56:53.600337+00:00'
   link_text: 2025-07-03-IFR-1021-205-federal-register.pdf
 - url: https://www.energy.gov/sites/default/files/2026-04/2025-09-02-blm-multiple-cxs-adopted.pdf
   md5: 6aa992950caf8d1a3599dbd7573052b2
@@ -378020,15 +378712,22 @@
   filename: 2025-09-02-blm-multiple-cxs-adopted.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.313872+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:57:09.776093+00:00'
   link_text: BLM Notice of Adoption of CXs (September 2, 2025)
 - url: https://www.govinfo.gov/content/pkg/FR-2025-05-28/pdf/2025-09569.pdf
   md5: 555d41d0dfd30b28cccb0a40d514adbc
@@ -378036,15 +378735,22 @@
   filename: 2025-09569.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.315833+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:57:26.141388+00:00'
   link_text: Withdrawal of National Environmental Policy Act Guidance on Consideration
     of Greenhouse Gas Emissions and Climate Change
 - url: https://public-inspection.federalregister.gov/2025-16235.pdf
@@ -378053,15 +378759,22 @@
   filename: 2025-16235.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.318188+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:57:42.743612+00:00'
   link_text: will be published
 - url: https://www.energy.gov/sites/default/files/2025-03/2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf
   md5: f1d37eb7b96cb5adab4229e1c66f099f
@@ -378069,15 +378782,22 @@
   filename: 2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.320639+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:57:59.443297+00:00'
   link_text: Notice of Court Order (March 5, 2025)
 - url: https://www.energy.gov/sites/default/files/2026-01/2026-01-ceq-guidance-emergencies-and-nepa.pdf
   md5: 28fbead01e0cdf122add6cc7a4e55e6b
@@ -378085,15 +378805,22 @@
   filename: 2026-01-ceq-guidance-emergencies-and-nepa.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.323367+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:58:16.009282+00:00'
   link_text: CEQ Guidance on Emergencies and NEPA (January 21, 2026)
 - url: https://www.energy.gov/sites/default/files/2026-01/2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf
   md5: 08fdf2b2aabfe9e12f3304bc6be4d911
@@ -378101,15 +378828,22 @@
   filename: 2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.325891+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:58:32.291756+00:00'
   link_text: Notice of Availability for CEQ Guidance on Emergencies and NEPA (January
     27, 2026)
 - url: https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf
@@ -378118,15 +378852,22 @@
   filename: 2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.328392+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:58:48.700918+00:00'
   link_text: Federal Register Notice for CEQ Guidance on Establishing, Revising, Adopting,
     and Applying Categorical Exclusions (April 13, 2026)
 - url: https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions.pdf
@@ -378135,15 +378876,22 @@
   filename: 2026-04-ceq-guidance-categorical-exclusions.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.337910+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:59:05.216454+00:00'
   link_text: CEQ Guidance on Establishing, Revising, Adopting, and Applying Categorical
     Exclusions (April 9, 2026)
 - url: https://www.energy.gov/sites/default/files/2026-06/2026-06-withdrawal%20of-guidance-documents.pdf
@@ -378152,15 +378900,22 @@
   filename: 2026-06-withdrawal%20of-guidance-documents.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.339914+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:59:21.751727+00:00'
   link_text: CEQ Notification of Withdrawal of Guidance Documents (June 29, 2026)
 - url: https://www.energy.gov/documents/202c-order-202-02-1b-november-13-2002-cscpdf
   md5: 4d88fe65825e4a60925690013f7e389a
@@ -378168,315 +378923,462 @@
   filename: 202c-order-202-02-1b-november-13-2002-cscpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.341535+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:59:38.566660+00:00'
 - url: https://www.energy.gov/documents/202c-order-202-03-4-may-7-2004-cscpdf
   md5: e2a0f715f43118088a62ceea62fe31ed
   file_hash: 5ba274dd8fa37112f6fa7160ee63c2448559f94119145014b79c9bea4665862f
   filename: 202c-order-202-03-4-may-7-2004-cscpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.343505+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T16:59:54.895418+00:00'
 - url: https://www.energy.gov/documents/202c-order-202-05-3-december-20-2005-mirant-corporationpdf
   md5: e658a24988982d31efc0dbe9f3dc688f
   file_hash: cfe00a9deb8eee474fb39dc2d913701f383920eaba040f653e79d0484f15b800
   filename: 202c-order-202-05-3-december-20-2005-mirant-corporationpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.346955+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:00:11.377415+00:00'
 - url: https://www.energy.gov/documents/202c-order-202-06-1-february-17-2006-mirant-corporationpdf
   md5: 1f9c3019982d4e6fcc23e30865d8b65d
   file_hash: 3921b6f7119e7dd1152cb04b4f5710c643d7d172cf116151caab45da75ef4e4d
   filename: 202c-order-202-06-1-february-17-2006-mirant-corporationpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.348660+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:00:27.747148+00:00'
 - url: https://www.energy.gov/documents/202c-order-202-06-2-september-28-2006-mirant-corporationpdf
   md5: 116d6e85281d938d97f001283a9d0629
   file_hash: 4fe144810eac2168366a6a6711a6aa76765a533dbea0ddfb2b1ce3392ea197bf
   filename: 202c-order-202-06-2-september-28-2006-mirant-corporationpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.350461+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:00:44.312842+00:00'
 - url: https://www.energy.gov/documents/202c-order-202-07-1-november-22-2006-mirant-corporationpdf
   md5: 3d43a37d6f4bbc0746702ad7284f41f9
   file_hash: 33c2a2959677813cc66f3a3dd9ddbe8de0889d0f0f9cc832c23b30ef686418e2
   filename: 202c-order-202-07-1-november-22-2006-mirant-corporationpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.352263+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:01:00.822343+00:00'
 - url: https://www.energy.gov/documents/202c-order-202-07-2-january-31-2007-mirant-corporationpdf
   md5: b819b5660dd01663d382b8eb4e2712b0
   file_hash: 132715c86d00d575fbe26441f36655839a3bd138f26909cf1dccf0c5d9623099
   filename: 202c-order-202-07-2-january-31-2007-mirant-corporationpdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.355391+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:01:17.030810+00:00'
 - url: https://www.energy.gov/documents/202c-order-january-11-2001-californiapdf
   md5: 78352bd004db80e76dabe1f23e89b857
   file_hash: 283d5cbbe4bd40bc6f85d1a7c0407862c1b1829906737cf080667e1d8273e502
   filename: 202c-order-january-11-2001-californiapdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.357616+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:01:33.788374+00:00'
 - url: https://www.energy.gov/documents/202c-order-january-16-2001-californiapdf
   md5: 71cc473357a471ed4c67bd0bc38c2c1d
   file_hash: 068483534537156ac784e96fc8ae0fe23e3368417f4c5e4e6aba4bc220085209
   filename: 202c-order-january-16-2001-californiapdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.359405+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:01:50.088215+00:00'
 - url: https://www.energy.gov/documents/202c-order-january-17-2001-californiapdf
   md5: 7dee6dbe0385214df3b3921ea425b990
   file_hash: 8bdde568c7b10e3d3b4801fd11586c1711bd044e15cacc15fe4a049cdcb34b01
   filename: 202c-order-january-17-2001-californiapdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.361155+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:02:06.445339+00:00'
 - url: https://www.energy.gov/documents/202c-order-january-2-2001-californiapdf
   md5: c085c12e028580d5b33bf6090dc9be33
   file_hash: 816c92dc1112f9b5d7c0c7195616085b29964a90a72104dc56cbd743d5a32790
   filename: 202c-order-january-2-2001-californiapdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.363114+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:02:22.848926+00:00'
 - url: https://www.energy.gov/documents/202c-order-january-23-2001-californiapdf
   md5: 012340b348263e87c60bece50a882f42
   file_hash: 9bad7c1a1a2402cb1bc5d51435205769c8aeb76d2ff5ba1670c7d7ba20581434
   filename: 202c-order-january-23-2001-californiapdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.364861+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:02:39.301504+00:00'
 - url: https://www.energy.gov/node/254737
   md5: 703a924ca4c6dfdc440ae32c6a8d09af
   file_hash: 219a433c285b2e3ee611c4fa4e4ed754c38705e8cd90cfc9b0938cafc4ee3b96
   filename: 254737.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.371035+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:02:56.049409+00:00'
 - url: https://www.energy.gov/node/255067
   md5: 114057d1b0b3bb5434f426960a197933
   file_hash: 8e1e0c542fa8dc838859b7613f4a664f9ded9b51e7fb48e75365abd41ae6d89b
   filename: 255067.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.374053+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:03:12.341214+00:00'
 - url: https://www.energy.gov/node/256249
   md5: d833dd56b0ed42260fa8c754c62d6113
   file_hash: 9d45a82b349b6bb054ca89f88cef26aeb05165cf57e9daf73d5cf3dfb668379d
   filename: 256249.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.376237+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:03:28.992884+00:00'
 - url: https://www.energy.gov/node/256387
   md5: a1808a41637bc064893670a8a310bac2
   file_hash: 8be08cf7e8aff3f2345fe7fc4e58b612dd2550100eadcfa2c009a6381f56f0e5
   filename: 256387.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.378890+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:03:45.435826+00:00'
 - url: https://www.energy.gov/node/256519
   md5: aadb3af2db76cf48df9133862f40b0c5
   file_hash: 48487e93c37a2374c41183e207590951fa43ac334d1f2dabd777d40b090b9648
   filename: 256519.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.380936+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:04:01.672334+00:00'
 - url: https://www.energy.gov/node/257107
   md5: 722964fc9ee927bc5db76999b72fb448
   file_hash: a3ce168bd6cb8e6b15bc12ed80db268b824dd35004e9bf307129d65896cf6062
   filename: 257107.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.384559+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:04:17.918860+00:00'
 - url: https://www.energy.gov/node/257191
   md5: 5e76adebe75c4b3084b6e3f9dc786076
   file_hash: 38f2d2007ffad26b5970ed077505f3022168a5c0779fa5a6b096382b103ad873
   filename: 257191.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.387186+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:04:34.345728+00:00'
 - url: https://www.energy.gov/node/257719
   md5: 443f597af6b9db981d518ce9b81ee05e
   file_hash: 5e6a2cb99a950987cbd7452b98a438d2f8d701e55f9cc78001504fbe23441df0
   filename: 257719.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.390301+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:04:50.729629+00:00'
 - url: https://www.energy.gov/sites/default/files/2025-03/258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
   md5: 44252c23fdb6b4f904db7c6f59e4f236
   file_hash: 44c5f5825eae37790cea3c9d611e21981259e9e8281c1a80bb05bc6c1b2c9d6d
   filename: 258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.392461+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:05:07.101219+00:00'
   link_text: Order on Motion for Contempt (March 17, 2025)
 - url: https://www.energy.gov/node/258337
   md5: 0be3a18cbf967d0946f8bb6b6454fa72
@@ -378484,150 +379386,220 @@
   filename: 258337.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.394072+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:05:23.570508+00:00'
 - url: https://www.energy.gov/node/258349
   md5: 6c90b9e3aa4ef0a0e7e911f79973dfc7
   file_hash: 55698759e687672c29134aafd6ec57a5ee31dd6e32341fdc14dfc9314c592850
   filename: 258349.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.396508+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:05:39.926050+00:00'
 - url: https://www.energy.gov/node/258487
   md5: 19af7e8fc7aaeab75d1ef2b2a518f757
   file_hash: afeee19fe49efda595acf1a1e7be3e900eb6dcca02f16e840368a44c8285c4ca
   filename: 258487.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.398120+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:05:56.611948+00:00'
 - url: https://www.energy.gov/node/258631
   md5: 517e7045abfbd67fe2b9583cacfd4d5a
   file_hash: f9657f2ad22f42cc36ce00a7f14641be2c0c8e5d9772b071cb6d83c55ecff68b
   filename: 258631.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.404261+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:06:13.101924+00:00'
 - url: https://www.energy.gov/node/258961
   md5: 5559e49922d301dfdf9189be61bb3901
   file_hash: 442ec9c02392b52c28250fcd2cfdce2cd0ba9649541dddc5c77a9f70850ebc27
   filename: 258961.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.405837+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:06:29.987959+00:00'
 - url: https://www.energy.gov/node/259075
   md5: 8c9202ef96a7cfbc9d8d3b3cd0cfe186
   file_hash: b02805614464b8bd430c43c16067506dbb124d1ae16f95d2ba9d0e0446c89ca3
   filename: 259075.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.407571+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:06:46.420716+00:00'
 - url: https://www.energy.gov/node/292561
   md5: 3198c6294161bb8c978e7defc8f93480
   file_hash: 0ea6eeb732c8b780538ea774fefff7ca9c09dc0c241b7a76278b256d50739ba4
   filename: 292561.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.410269+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:07:02.621243+00:00'
 - url: https://www.energy.gov/node/377191
   md5: 423e3d2ffea8d14f995d661f8b25fefd
   file_hash: 490457db127b62dd7c8217e8a2e467b562fe06ead697554671bd3e49fd4383ae
   filename: 377191.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.414067+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:07:18.985163+00:00'
 - url: https://www.energy.gov/documents/40-cfr-chp-v-app-i-ii-iii-final-rule-dec-1984pdf
   md5: 7d7422aa2ce20abd5c683b3efa7cb382
   file_hash: e87b235ec57f9276538e500b798cf996c10093e8d6a6b3087b97471f242cbaf8
   filename: 40-cfr-chp-v-app-i-ii-iii-final-rule-dec-1984pdf.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.421059+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:07:35.259478+00:00'
 - url: https://docs.nlr.gov/docs/fy10osti/47870.pdf
   md5: 27eb4abc2aeed113c375cd14e0053efd
   file_hash: 5cff46bbd57a1f0c56f98b33b7fd4e168559276fa3ee0628eee3a0cc2544b3b0
   filename: 47870.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.422683+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:07:51.744628+00:00'
   link_text: 'Main Street Net-Zero Energy Buildings: The Zero Energy Method in Concept
     and Practice (PDF)'
 - url: https://docs.nlr.gov/docs/fy12osti/51387.pdf
@@ -378636,15 +379608,22 @@
   filename: 51387.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.424296+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:08:08.170515+00:00'
   link_text: The Design and Building Process for the Research Support Facility (PDF)
 - url: https://docs.nlr.gov/docs/fy20osti/70207.pdf
   md5: 4d4743b394a67c499a67c346421fe994
@@ -378652,15 +379631,22 @@
   filename: 70207.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.425909+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:08:24.717340+00:00'
   link_text: Report
 - url: https://docs.nlr.gov/docs/fy20osti/75163.pdf
   md5: c1894f4f0ada96c09b56384a65e0daaa
@@ -378668,15 +379654,22 @@
   filename: 75163.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.427531+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:08:41.096093+00:00'
   link_text: Report
 - url: https://www1.eere.energy.gov/buildings/pdfs/75387.pdf
   md5: a58300db2b6e9f7eeece8dddec409b3e
@@ -378684,15 +379677,22 @@
   filename: 75387.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.431705+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:08:57.831402+00:00'
   link_text: Windows and Opaque Envelope GEB Technical Report
 - url: https://www1.eere.energy.gov/buildings/pdfs/75473.pdf
   md5: 5f8bd329d83ebd640bf145dd13d8315e
@@ -378700,15 +379700,22 @@
   filename: 75473.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.436539+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:09:14.234768+00:00'
   link_text: HVAC, Water Heating, Appliances and Refrigeration GEB Technical Report
 - url: https://docs.nlr.gov/docs/fy20osti/76701.pdf
   md5: 19434ecdde5c872e3e0a621a48478f5f
@@ -378716,15 +379723,22 @@
   filename: 76701.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.440365+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:09:30.990789+00:00'
   link_text: 2019 Workshop on Fundamental Needs for Dynamic and Interactive Thermal
     Storage Solutions for Buildings Report
 - url: https://docs.nlr.gov/docs/fy21osti/78495.pdf
@@ -378733,15 +379747,22 @@
   filename: 78495.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:25.441982+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-06T17:09:47.539655+00:00'
   link_text: A Guide to Energy Master Planning of High-Performance Districts and Communities
 - url: https://www1.eere.energy.gov/buildings/pdfs/80170.pdf
   md5: 93ba4d39aaf00f57d29e07982dabe6c2
