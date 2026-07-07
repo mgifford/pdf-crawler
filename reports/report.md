@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-07T11:53:56.927814+00:00
+Generated: 2026-07-07T12:49:50.729811+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 143 |
-| Total files tracked | 21454 |
+| URLs crawled | 1244 |
+| Total files tracked | 22331 |
 | Analysed | 6075 |
-| Pending analysis | 9987 |
-| Errors during analysis | 5392 |
+| Pending analysis | 10782 |
+| Errors during analysis | 5474 |
 | Accessible | 2002 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
@@ -50,7 +50,7 @@ Generated: 2026-07-07T11:53:56.927814+00:00
 | gci-ga.com | 61 |
 | govt.nz | 9 |
 | gsa.gov | 450 |
-| hamilton.ca | 262 |
+| hamilton.ca | 683 |
 | hud.gov | 1418 |
 | ijcaonline.org | 1 |
 | kfw.de | 8 |
@@ -65,7 +65,7 @@ Generated: 2026-07-07T11:53:56.927814+00:00
 | ncert.nic.in | 329 |
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
-| nsf.gov | 1427 |
+| nsf.gov | 1883 |
 | nwboces.org | 21 |
 | ontario.ca | 51 |
 | oregon.gov | 2178 |
@@ -21325,12 +21325,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/nsf.gov/19_fy2022.pdf?VersionId=Pvr2IemSyQKv3ytydFeKBG_ugunZWHkM (crawled 1 day(s) ago at 2026-03-10T01:18:24.369355+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### 2015-2016-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2015-2016-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/2015-2016-ceose-biennial-report-508_0.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.379467+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
 ### 2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-10/2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
@@ -21565,12 +21559,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/nsf.gov/ED-Supp-Template.docx (crawled 1 day(s) ago at 2026-03-10T01:18:24.455496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.489677+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
 ### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-04/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
@@ -21600,12 +21588,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Ellen-Ochoa-April-2021-NSB-testimony.pdf
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Ellen-Ochoa-April-2021-NSB-testimony.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.527868+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### Envisioning-The-Future-of-EPSCoR-Report.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Envisioning-The-Future-of-EPSCoR-Report.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/Envisioning-The-Future-of-EPSCoR-Report.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.531443+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### Evaluation%20of%20the%20National%20Sciece%20Foundation%27s%20International%20Research%20Experiences%20for%20Students%20%28IRES%29%20Program.pdf?VersionId=vuL.tNYzsDFY9SfTn9vSrW_GkIZ9CkUS
 
@@ -21744,18 +21726,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi (crawled 1 day(s) ago at 2026-03-10T01:18:24.587007+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### HAC-CJS-Panchanathan-FY23testimony_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/HAC-CJS-Panchanathan-FY23testimony_0.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/HAC-CJS-Panchanathan-FY23testimony_0.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.587572+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
-- **Status**: error
-- File not found: crawled_files/nsf.gov/HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY (crawled 1 day(s) ago at 2026-03-10T01:18:24.588116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### IISOfficehours-for-phds-postdocs_Complaint.pptx?VersionId=18cBBnY_z9wHGwULoNFPnzD7d2lfFyTL
 
@@ -22105,210 +22075,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/nsf.gov/NAIRR-2-Year-Progress-Update.pdf?VersionId=rPBRmrQGywlcbucdkNLSHgOWcYlUV1ZT (crawled 1 day(s) ago at 2026-03-10T01:18:24.685437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse (crawled 1 day(s) ago at 2026-03-10T01:18:24.685902+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS (crawled 1 day(s) ago at 2026-03-10T01:18:24.686447+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b (crawled 1 day(s) ago at 2026-03-10T01:18:24.686973+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa (crawled 1 day(s) ago at 2026-03-10T01:18:24.687427+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo (crawled 1 day(s) ago at 2026-03-10T01:18:24.687906+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I (crawled 1 day(s) ago at 2026-03-10T01:18:24.688520+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw (crawled 1 day(s) ago at 2026-03-10T01:18:24.689060+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP (crawled 1 day(s) ago at 2026-03-10T01:18:24.689547+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF (crawled 1 day(s) ago at 2026-03-10T01:18:24.689998+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw (crawled 1 day(s) ago at 2026-03-10T01:18:24.690550+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv (crawled 1 day(s) ago at 2026-03-10T01:18:24.691078+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe (crawled 1 day(s) ago at 2026-03-10T01:18:24.694506+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ (crawled 1 day(s) ago at 2026-03-10T01:18:24.695022+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD (crawled 1 day(s) ago at 2026-03-10T01:18:24.695571+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89 (crawled 1 day(s) ago at 2026-03-10T01:18:24.696111+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh (crawled 1 day(s) ago at 2026-03-10T01:18:24.696616+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI (crawled 1 day(s) ago at 2026-03-10T01:18:24.697144+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx (crawled 1 day(s) ago at 2026-03-10T01:18:24.697636+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS (crawled 1 day(s) ago at 2026-03-10T01:18:24.698146+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q (crawled 1 day(s) ago at 2026-03-10T01:18:24.698685+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O (crawled 1 day(s) ago at 2026-03-10T01:18:24.699178+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s (crawled 1 day(s) ago at 2026-03-10T01:18:24.699675+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ (crawled 1 day(s) ago at 2026-03-10T01:18:24.700253+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl (crawled 1 day(s) ago at 2026-03-10T01:18:24.701672+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY (crawled 1 day(s) ago at 2026-03-10T01:18:24.704256+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu (crawled 1 day(s) ago at 2026-03-10T01:18:24.706506+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK (crawled 1 day(s) ago at 2026-03-10T01:18:24.708253+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx (crawled 1 day(s) ago at 2026-03-10T01:18:24.714772+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ (crawled 1 day(s) ago at 2026-03-10T01:18:24.736040+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe (crawled 1 day(s) ago at 2026-03-10T01:18:24.737963+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL (crawled 1 day(s) ago at 2026-03-10T01:18:24.743927+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35 (crawled 1 day(s) ago at 2026-03-10T01:18:24.747102+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs (crawled 1 day(s) ago at 2026-03-10T01:18:24.789592+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
-- **Status**: error
-- File not found: crawled_files/nsf.gov/NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO (crawled 1 day(s) ago at 2026-03-10T01:18:24.793431+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
 ### NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-09/NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
@@ -22627,12 +22393,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/nsf.gov/NSF_act_1950_legislation.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.966818+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### National-AI-Research-Resource-Task-Force-Charter-2021.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/National-AI-Research-Resource-Task-Force-Charter-2021.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/National-AI-Research-Resource-Task-Force-Charter-2021.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.967307+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
 ### Northeastern-University-OIG-Report-25-1-005.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Northeastern-University-OIG-Report-25-1-005.pdf
@@ -22692,12 +22452,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://nsf-gov-resources.nsf.gov/attachments/304910/public/Rough-Transcript-CICI.pdf?VersionId=pYmFvazQsyajPitFMB.gkJZCHZ_FZ4lj
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Rough-Transcript-CICI.pdf?VersionId=pYmFvazQsyajPitFMB.gkJZCHZ_FZ4lj (crawled 1 day(s) ago at 2026-03-10T01:18:24.973630+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.974288+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### SBIR-STTR_Revised_Report_Cover.pdf
 
@@ -24733,12 +24487,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf15089.pdf?VersionId=G4eS8JPUx1gf.Q8jytI16KO5juyTIv7i (crawled 1 day(s) ago at 2026-03-10T01:18:25.471785+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
-
-- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf16001/nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
-- **Status**: error
-- File not found: crawled_files/nsf.gov/nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre (crawled 1 day(s) ago at 2026-03-10T01:18:25.483548+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
 ### nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
 
 - **URL**: https://nsf-gov-resources.nsf.gov/pubs/2017/nsf17066/nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
@@ -24810,12 +24558,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2021/nsf21555/nsf21555.pdf?VersionId=wxUtybPFk8fe1q769DOBj5ULnm0eF6Kn
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf21555.pdf?VersionId=wxUtybPFk8fe1q769DOBj5ULnm0eF6Kn (crawled 1 day(s) ago at 2026-03-10T01:18:25.542508+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
-
-- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2022/nsf22068/nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
-- **Status**: error
-- File not found: crawled_files/nsf.gov/nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG (crawled 1 day(s) ago at 2026-03-10T01:18:25.572460+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### nsf22528.pdf?VersionId=TlMYEXeRibcdxKcml92eKMIJ_0JHvJhn
 
@@ -25290,12 +25032,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pnag/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_
 - **Status**: error
 - File not found: crawled_files/nsf.gov/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_ (crawled 1 day(s) ago at 2026-03-10T01:18:25.660999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### polar-coc-r.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/polar-coc-r.pdf
-- **Status**: error
-- File not found: crawled_files/nsf.gov/polar-coc-r.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.661920+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### reportingrequirements.pdf
 
@@ -43768,6 +43504,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 2024-2028-Hamilton-Tourism-Strategy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-04/2024-2028-Hamilton-Tourism-Strategy.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-2028-Hamilton-Tourism-Strategy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/2024-2028-Hamilton-Tourism-Strategy.pdf
 - **Status**: analysed
 - title, tagged, no bookmarks and more than 20 pages, 
 
@@ -43792,14 +43534,50 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 25-049.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-049.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25-049.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-049.pdf
 - **Status**: analysed
 - title, tagged, lang, 
 
 ### 25-050.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25-050.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### 25-144.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/25-144.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25-146.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/25-146.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 26-032.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2026-02/26-032.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 26-033.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2026-02/26-033.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### Accessibility-AssistiveDevices-Policy.pdf
 
@@ -43852,14 +43630,44 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
 - **Status**: analysed
 - lang, 
+
+### CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Digital-Strategy-Accessible.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-02/Digital-Strategy-Accessible.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### EDI-2019urbanindigenousstrategy-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-2019urbanindigenousstrategy-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### EDI-2019urbanindigenousstrategy-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-2019urbanindigenousstrategy-Report.pdf
 - **Status**: analysed
 - title, tagged, no bookmarks and more than 20 pages, 
+
+### EDI-UISimplementationplan2021.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-UISimplementationplan2021.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### EDI-UISimplementationplan2021.pdf
 
@@ -43954,6 +43762,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### Youth-Strategy-Report-2022-2027.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-03/Youth-Strategy-Report-2022-2027.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Youth-Strategy-Report-2022-2027.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/Youth-Strategy-Report-2022-2027.pdf
 - **Status**: analysed
 - title, 
 
@@ -43966,8 +43780,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### budget-flowchart-2026.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/budget-flowchart-2026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### budget-flowchart-2026.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/budget-flowchart-2026.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### building-safer-communities-multi-year-plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/building-safer-communities-multi-year-plan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### building-safer-communities-multi-year-plan.pdf
 
@@ -43978,8 +43804,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
 - **Status**: analysed
 - title, 
+
+### child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
 
@@ -43990,8 +43828,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### child-youth-network-SOP-email-distribution-procedure-june2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-email-distribution-procedure-june2025.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### child-youth-network-SOP-email-distribution-procedure-june2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-email-distribution-procedure-june2025.pdf
 - **Status**: analysed
 - title, 
+
+### child-youth-network-community-engagement-procedure.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-community-engagement-procedure.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### child-youth-network-community-engagement-procedure.pdf
 
@@ -44002,8 +43852,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### child-youth-network-data-decision-support-guide1.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/child-youth-network-data-decision-support-guide1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### child-youth-network-data-decision-support-guide1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/child-youth-network-data-decision-support-guide1.pdf
 - **Status**: analysed
 - tagged, 
+
+### child-youth-network-terms-of-Reference-sep2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-terms-of-Reference-sep2025.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### child-youth-network-terms-of-Reference-sep2025.pdf
 
@@ -44014,14 +43876,32 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### comm-update-2023-Urban-Forest-Pests.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### comm-update-2023-Urban-Forest-Pests.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf
 - **Status**: analysed
 - title, lang, 
+
+### comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-08/comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
 
@@ -44038,8 +43918,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### community-garden-final-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-final-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### community-garden-final-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-final-report.pdf
 - **Status**: analysed
 - title, 
+
+### community-garden-infographic.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-infographic.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### community-garden-infographic.pdf
 
@@ -44050,8 +43942,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### community-garden-summary-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-summary-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### community-garden-summary-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-summary-report.pdf
 - **Status**: analysed
 - title, 
+
+### consideration-report-HSC25012-2025-2029-cswb-plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/consideration-report-HSC25012-2025-2029-cswb-plan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### consideration-report-HSC25012-2025-2029-cswb-plan.pdf
 
@@ -44068,14 +43972,38 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### engagement-municipal-scan-practices.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/engagement-municipal-scan-practices.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### engagement-municipal-scan-practices.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/engagement-municipal-scan-practices.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### engagement-public-engagement-policy-CMO-GRCE-24-01.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/engagement-public-engagement-policy-CMO-GRCE-24-01.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### grids-grids-strategy-2006.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-05/grids-grids-strategy-2006.pdf
 - **Status**: error
 - Analysis exceeded 120s per-file limit
+
+### hamilton-digital-strategy_0.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-01/hamilton-digital-strategy_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### hamilton-drug-strategy-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-drug-strategy-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### hamilton-drug-strategy-report.pdf
 
@@ -44086,8 +44014,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### hamilton-food-literacy-network-forum-report-2017.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### hamilton-food-literacy-network-forum-report-2017.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### hamilton-food-strategy-forum-summary.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-07/hamilton-food-strategy-forum-summary.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### hamilton-food-strategy-forum-summary.pdf
 
@@ -44098,8 +44038,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### hamilton-food-strategy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### hamilton-food-strategy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf
 - **Status**: analysed
 - title, tagged, no bookmarks and more than 20 pages, 
+
+### hamilton-supervised-injection-site-study.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/hamilton-supervised-injection-site-study.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### hamilton-supervised-injection-site-study.pdf
 
@@ -44110,14 +44062,38 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### harassment-discrimination-prevention-policy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### harassment-discrimination-prevention-policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf
 - **Status**: analysed
 - title, 
 
 ### indigenous-health-strateg-2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-07/indigenous-health-strateg-2023.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### indigenous-health-strateg-2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-07/indigenous-health-strateg-2023.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### indigenous-relations-honouring-our-roots-report_0.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-07/indigenous-relations-honouring-our-roots-report_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### indigenous-tourism-development-strategy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/indigenous-tourism-development-strategy.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### indigenous-tourism-development-strategy.pdf
 
@@ -44128,14 +44104,32 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
 - **Status**: analysed
 - lang, 
 
 ### info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-08/info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-08/info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
 - **Status**: analysed
 - title, lang, 
+
+### info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
 
@@ -44332,8 +44326,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
 - **Status**: analysed
 - title, lang, 
+
+### medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-09/medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf
 
@@ -44344,8 +44350,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### municipal-act-charges-proposed-bylaws-apr23-2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-04/municipal-act-charges-proposed-bylaws-apr23-2025.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### municipal-act-charges-proposed-bylaws-apr23-2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/municipal-act-charges-proposed-bylaws-apr23-2025.pdf
 - **Status**: analysed
 - title, lang, 
+
+### neighbourhood-risk-management-toolkit.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/neighbourhood-risk-management-toolkit.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### neighbourhood-risk-management-toolkit.pdf
 
@@ -44356,8 +44374,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### our-future-hamilton-2018-summit-summary-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-02/our-future-hamilton-2018-summit-summary-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### our-future-hamilton-2018-summit-summary-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-02/our-future-hamilton-2018-summit-summary-report.pdf
 - **Status**: analysed
 - title, tagged, 
+
+### our-future-hamilton-2019-summit-summary-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-10/our-future-hamilton-2019-summit-summary-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### our-future-hamilton-2019-summit-summary-report.pdf
 
@@ -44368,14 +44398,32 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### ourfuturehamilton-final-report-2017.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-final-report-2017.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ourfuturehamilton-final-report-2017.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-final-report-2017.pdf
 - **Status**: analysed
 - title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### ourfuturehamilton-progress-report-2018.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ourfuturehamilton-progress-report-2018.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### ourfuturehamilton-suggested-actions.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-suggested-actions.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### ourfuturehamilton-suggested-actions.pdf
 
@@ -44392,6 +44440,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### public-engagement-charter.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-10/public-engagement-charter.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### public-engagement-charter.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-10/public-engagement-charter.pdf
 - **Status**: analysed
 - title, tagged, no bookmarks and more than 20 pages, 
 
@@ -44404,8 +44458,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-09/report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
 - **Status**: analysed
 - lang, 
+
+### rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
 
@@ -44418,6 +44484,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-09/rymal-ea-pic2-panels.pdf
 - **Status**: error
 - File not found: crawled_files/hamilton.ca/rymal-ea-pic2-panels.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.389453+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### rymal-road-ea-pic1-panels-accessible.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels-accessible.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### rymal-road-ea-pic1-panels-accessible.pdf
 
@@ -44501,7 +44573,25 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-01/standing-water-by-law-03-173.pdf
 - **Status**: error
-- File not found: crawled_files/hamilton.ca/standing-water-by-law-03-173.pdf (crawled 0.1 day(s) ago at 2026-03-16T12:32:47.684203+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- No module named 'simpla11ypdf'
+
+### strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategies-community-garden-directory-mar2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/strategies-community-garden-directory-mar2025.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
 
@@ -44515,6 +44605,18 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, tagged, lang, 
 
+### strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
@@ -44524,8 +44626,26 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
 - **Status**: analysed
 - lang, 
+
+### strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
 
@@ -44536,8 +44656,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategies_CSWB-Plan-2025-2029.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategies_CSWB-Plan-2025-2029.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf
 - **Status**: analysed
 - title, tagged, no bookmarks and more than 20 pages, 
+
+### strategies_Connected-Communities-2-Page-Summary-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-2-Page-Summary-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategies_Connected-Communities-2-Page-Summary-Report.pdf
 
@@ -44548,14 +44680,38 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategies_Connected-Communities-Full-Report-final.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategies_Connected-Communities-Full-Report-final.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
 
 ### strategies_Connected-Communities-Summary-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategies_Connected-Communities-Summary-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf
 - **Status**: analysed
 - title, 
+
+### strategies_Summary-of-Assets-Final.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Summary-of-Assets-Final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-2023-HPS-Asset-Management-Plan.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-2023-HPS-Asset-Management-Plan.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-2023-HPS-Asset-Management-Plan.pdf
 
@@ -44566,8 +44722,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-asset-management-plan-overview-jun2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-asset-management-plan-overview-jun2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### strategy-childrens-community-services-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-childrens-community-services-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-childrens-community-services-asset-management-plan-2024.pdf
 
@@ -44578,8 +44746,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### strategy-corp-real-estate-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-corp-real-estate-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-corp-real-estate-asset-management-plan-2024.pdf
 
@@ -44590,8 +44770,26 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, 
+
+### strategy-corporate-asset-management-overview-appendix-b.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-overview-appendix-b.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-corporate-asset-management-proposed-levels-service.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-proposed-levels-service.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-corporate-asset-management-proposed-levels-service.pdf
 
@@ -44602,8 +44800,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### strategy-fire-dept-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-fire-dept-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-fire-dept-asset-management-plan-2024.pdf
 
@@ -44614,8 +44824,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-forestry-horticulture-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-forestry-horticulture-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, tagged, 
+
+### strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
 
@@ -44626,8 +44848,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-hpl-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-hpl-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### strategy-hsr-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hsr-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-hsr-asset-management-plan-2024.pdf
 
@@ -44638,8 +44872,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-information-technology-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-information-technology-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, 
+
+### strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
 
@@ -44650,8 +44896,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-long-term-care-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-long-term-care-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, 
+
+### strategy-natural-assets-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-natural-assets-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-natural-assets-asset-management-plan-2024.pdf
 
@@ -44662,8 +44920,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-paramedics-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-paramedics-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, lang, 
+
+### strategy-parking-system-asset-plan-2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-parking-system-asset-plan-2023.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-parking-system-asset-plan-2023.pdf
 
@@ -44674,8 +44944,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, tagged, 
+
+### strategy-public-health-services-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-public-health-services-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-public-health-services-asset-management-plan-2024.pdf
 
@@ -44686,8 +44968,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-recreation-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-recreation-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf
 - **Status**: analysed
 - title, tagged, 
+
+### strategy-tourism-and-culture-asset-management-plan-2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-tourism-and-culture-asset-management-plan-2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-tourism-and-culture-asset-management-plan-2024.pdf
 
@@ -44698,14 +44992,32 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### strategy-transportation-asset-management-plan-jun2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-transportation-asset-management-plan-jun2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf
 - **Status**: analysed
 - title, lang, 
 
 ### strategy-waste-management-asset-plan-2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-waste-management-asset-plan-2023.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### strategy-waste-management-asset-plan-2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-waste-management-asset-plan-2023.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### strategy-waterworks-asset-management-plan-jun2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-waterworks-asset-management-plan-jun2022.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### strategy-waterworks-asset-management-plan-jun2022.pdf
 
@@ -44794,8 +45106,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-10/uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-10/uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### violence-workplace-prevention-policy.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/violence-workplace-prevention-policy.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### violence-workplace-prevention-policy.pdf
 
@@ -44806,8 +45130,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 2025-spring-community-compost-giveaway-events-july292025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/2025-spring-community-compost-giveaway-events-july292025.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-spring-community-compost-giveaway-events-july292025.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/2025-spring-community-compost-giveaway-events-july292025.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
 
@@ -44824,8 +45160,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
 - **Status**: analysed
 - lang, 
+
+### CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
 
@@ -44838,6 +45186,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf
 - **Status**: analysed
 - lang, 
+
+### CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
 
@@ -44855,13 +45209,19 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/Final-Phase1-ESA-BarttonTiffany-Feb.8.2018.pdf
 - **Status**: error
-- Analysis exceeded 120s per-file limit
+- No module named 'simpla11ypdf'
 
 ### Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-09/Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
 
@@ -44914,8 +45274,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### comm-update-HSR-150-Celebrations.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-HSR-150-Celebrations.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### comm-update-HSR-150-Celebrations.pdf
 
@@ -44926,14 +45298,32 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-09/comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
 - **Status**: analysed
 - title, lang, 
 
 ### comm-update-HW2402-Annual-Drinking-Water-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### comm-update-HW2402-Annual-Drinking-Water-Report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf
 - **Status**: analysed
 - tagged, lang, 
+
+### comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
 
@@ -44956,8 +45346,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
 
@@ -44974,8 +45376,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### comm-update-PW-HSR-150-apr2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-HSR-150-apr2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### comm-update-PW-HSR-150-apr2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-HSR-150-apr2024.pdf
 - **Status**: analysed
 - lang, 
+
+### comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf
 
@@ -44986,8 +45400,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
 - **Status**: analysed
 - lang, 
+
+### comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
 
@@ -45000,6 +45426,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf
 - **Status**: analysed
 - lang, 
+
+### comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2024-02/comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
 
@@ -45024,6 +45456,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-03/comm-update-pw-delays-waste-collections-due-inclement-weather-staff-work-refusal-es-19002.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
 
@@ -46507,96 +46945,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/pa.gov/york%20nhios%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.978353+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### 1995-1996-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/1995-1996-ceose-biennial-report-508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.679600+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 1997-1998-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/1997-1998-ceose-biennial-report-508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.682443+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 1999-2000-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/1999-2000-ceose-biennial-report-508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.686674+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2001-2002-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2001-2002-ceose-biennial-report-508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.695709+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2003-2004-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2003-2004-ceose-biennial-report-508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.699081+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2005-2006-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2005-2006-ceose-biennial-report-508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.703796+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2007-2008-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2007-2008-ceose-biennial-report-508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.705505+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2009-2010-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2009-2010-ceose-biennial-report-508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.709637+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2011-2012-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2011-2012-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.714167+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2013-2014-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2013-2014-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.718035+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2017-2018-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2017-2018-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.733489+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2019-2020-ceose-biennial-report-508_1.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2019-2020-ceose-biennial-report-508_1.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.745202+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2023.04.18-Panchanathan.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.18-Panchanathan.pdf?VersionId=bqXPI_W_7KKX_BA719VbZqMsQJudWoqZ
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.746684+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2023.04.19-Panchanathan.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.19-Panchanathan.pdf?VersionId=tJDqtAg7mbtbVNSIM1H8RHM4hRFEH7Sc
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.748145+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 2023.04.26-Panchanathan.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.26-Panchanathan.pdf?VersionId=eBnztrtMSd9TTsdAR2tNR6kiJpL2GE1j
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.749609+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### 2024-indicators-rollout-slides.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/2024-indicators-rollout-slides.pdf
@@ -46657,12 +47005,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.837569+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### DFM-PABGrantFAQ-r_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ-r_0.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.842358+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### DFM-PABGrantFAQ.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ.pdf?VersionId=zLyGdO2m4vigGuM4vn0GOvih5TY_N3fm
@@ -46674,78 +47016,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://nsf-gov-resources.nsf.gov/files/DFM_PABNonGrantFAQ.pdf?VersionId=vFBJGErNh3pu9cRDue8DelRuOG.a.ACl
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.847403+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.849276+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Dr-Jennifer-Mercer-Testimony.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Jennifer-Mercer-Testimony.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.852848+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Dr-Saul-Gonzalez-Testimony.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Saul-Gonzalez-Testimony.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.854273+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### FOIA-2025-Q3.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q3.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.861855+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### FOIA-2025-Q4.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q4.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.863116+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### FOIA-NSF-2025-Q2.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-NSF-2025-Q2.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.864377+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Factsheet_MajorMultiuserFacilities.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_MajorMultiuserFacilities.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.876072+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Factsheet_NSFAtAGlance.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_NSFAtAGlance.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.880292+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Future-of-NSF-EPSCoR-Report-Handout-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Future-of-NSF-EPSCoR-Report-Handout-508.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.889380+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### HSST%20NSF%20Research%20Security.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST%20NSF%20Research%20Security.pdf?VersionId=24Tt_EGAGCWnTKBS4M3B5WAP4dn4fgpM
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.891424+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### HSST-NSF-AI.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST-NSF-AI.pdf?VersionId=gFmwAXBtlyi2h6ZBEEDCOsVodVDheSB2
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.892800+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### House-Oversight-Telework-Hearing-Testimony-NSF.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/House-Oversight-Telework-Hearing-Testimony-NSF.pdf?VersionId=L_RzMRWzqB_SyxHnoSS9iEhQxDwtFZ40
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.894623+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Indicators-ALABAMA.pdf
 
@@ -46765,41 +47035,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.974452+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### NSF%20FY25%20Written%20Testimony-CLEARED.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-CLEARED.pdf?VersionId=WVkvVmvimYP8r80b4cfoXtua57DIi6LC
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.988801+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf?VersionId=IOXy7dVBqD_IE8SIX_JXyRZUvoZZ99TC
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.990164+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf?VersionId=WeGurDj3zPXT_MXAinMIMaJGyt1SWx3X
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.992212+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### NSF-22-586-CAREER-Program-2025-Webinars.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-22-586-CAREER-Program-2025-Webinars.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.997045+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NSF-FOIA-Raw-Data-FY2021-r.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-FOIA-Raw-Data-FY2021-r.pdf?VersionId=L_SFeppi9o1YWWbSqhLhnbYVC5T8RBLi
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.999067+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NSF_Chief_FOIA_Officers_Report_2026.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF_Chief_FOIA_Officers_Report_2026.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.036711+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### NSF_New%20Proposer_Proposal%20Submission%20Supplementary%20Guidance_NOTOC_20240320.pdf
 
@@ -46873,12 +47113,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.168760+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### dr-rebecca-keiser-testimony.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/dr-rebecca-keiser-testimony.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.238788+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### foia-log-2009.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2009.pdf?VersionId=hA3_.8iId4NhmEPfOWWZpDbuZBEgjvmf
@@ -46944,12 +47178,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2019-r_0.pdf?VersionId=wZtMKRHXNdYAX15QlbhHU6a4GcsyYYq.
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.260963+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### hon-panchanathan-10-2023.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-11/hon-panchanathan-10-2023.pdf?VersionId=ptY9eFD4CMGWZktorTwJfGYweiqXf3S7
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.262860+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### jan2024-r.pdf
 
@@ -58153,12 +58381,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, lang, no bookmarks and more than 20 pages, 
 
-### records-management.pdf
-
-- **URL**: https://www.nsf.gov/oirm/das/records-management
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:08:34.569016+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### 2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf
 
 - **URL**: https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team
@@ -63298,5 +63520,275 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### procedural-safeguards-notice.pdf
 
 - **URL**: https://www.cde.state.co.us/spedlaw/procedural-safeguards-notice
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 05-322%20-%20Repealed.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-02/05-322%20-%20Repealed.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 0702-Foundations-Core-Values-MW-rev1.pdf
+
+- **URL**: https://www.iap2canada.ca/Resources/Documents/0702-Foundations-Core-Values-MW-rev1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10-221-consolidated.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-03/10-221-consolidated.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2012_Building_on_the_Legacy_of_NWAC_Faceless_Doll_Project.pdf
+
+- **URL**: https://nwac-afac.ca/assets-knowledge-centre/2012_Building_on_the_Legacy_of_NWAC_Faceless_Doll_Project.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 22-235.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/22-235.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25-094.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/25-094.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25-109.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/25-109.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 25-110.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/25-110.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 404.pdf
+
+- **URL**: https://ontariohealth.ca/errors/404
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Antibiotic-resistant-organism-risk-factor-screening-guide.pdf
+
+- **URL**: https://www.publichealthontario.ca/-/media/Documents/A/24/Antibiotic-resistant-organism-risk-factor-screening-guide.pdf?rev=8fadc36772db477e839094ed249b8f8f&sc_lang=en
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CCSA-Language-and-Stigma-in-Substance-Use-Addiction-Guide-2019-en.pdf
+
+- **URL**: https://ccsa.ca/sites/default/files/2019-09/CCSA-Language-and-Stigma-in-Substance-Use-Addiction-Guide-2019-en.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CCSA-NAAW-Substance-Use-Disorder-Fact-Sheet-2018-en.pdf
+
+- **URL**: https://www.ccsa.ca/sites/default/files/2019-05/CCSA-NAAW-Substance-Use-Disorder-Fact-Sheet-2018-en.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### COMM-update-2022-Annual-Rain-Barrel-Sale.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/COMM-update-2022-Annual-Rain-Barrel-Sale.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CU-pw-ChedokeCreekRemediation-hw22.05.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-07/CU-pw-ChedokeCreekRemediation-hw22.05.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CU-pw-safety-enhancements-main-king-streets-july5-2022.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-07/CU-pw-safety-enhancements-main-king-streets-july5-2022.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Calls_for_Justice.pdf
+
+- **URL**: https://www.mmiwg-ffada.ca/wp-content/uploads/2019/06/Calls_for_Justice.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Calls_to_Action_English2.pdf
+
+- **URL**: https://ehprnh2mwo3.exactdn.com/wp-content/uploads/2021/01/Calls_to_Action_English2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Ccomm-update-Accessible-Transportation-Services-Customer-Communication.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-10/Ccomm-update-Accessible-Transportation-Services-Customer-Communication.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Comm-update-New-HSR-myRide-Hybrid-Service-Waterdown.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-10/Comm-update-New-HSR-myRide-Hybrid-Service-Waterdown.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CommsUpdate-PW-2025CapitalConstructionProjectsRight-of-Way.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-2025CapitalConstructionProjectsRight-of-Way.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DRIPS_en.pdf
+
+- **URL**: https://www.un.org/esa/socdev/unpfii/documents/DRIPS_en.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_CODE_ZERO_EVENTS_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/55ee1da8f27b41bab2d45d9e896de83d/OH_HPS_CODE_ZERO_EVENTS_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337992000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD608F%2BLyNmOdQ7EaO56Vzg0yltAHsnjvnyx6ivAR36pgIgGQmqOLv2ey1h9uIeupYvJVRbKfLBYeir7tdsn1tpjj8qswUIaxAAGgw2MDQ3NTgxMDI2NjUiDHnNi9dC58MoQspT7CqQBX1LBnEul8BMYn5ilKPAyxW1uLMt0nR9Uv5zIdAuqx6VUBRbmyfucG%2B5wEv5uGsDbVZHL%2BT2H9%2FXyHqSKG0Cv%2Bc4HsFOZG%2FSe3uH5O48zsEjEnFNzrL1ujYBEaEwTObQ1Uk%2Br%2Fekb2hYCar93sj4wXXazIw5rmoyRiUN6pYiw0wksloIafA2gcq4NTwILvsE7z7WG5I%2FnEosP8xdrWcJzFIchsKTopWw78lnoH3Wg0nEVKZSd96cfh%2B%2FdIG16VAcLlrPxk1LZ%2B0IlxAUBb4e2xGpB7HAnJdvLIRC4h8g3FcPsdKWIhgp4Wl1MNVAqsjbbv7iwc6m2x9ApH%2BFMleZUZnb3G14%2F0yNb7HzbIqDeqU0NYj1MWc18iIj3kfmzvREQqQ%2Fe0fPPDhxf%2B0eoYtT826b%2Fq6Oqzr8qb7k%2F%2BVVnfKEVQm8VTZCero2pbs26NxSfR1fn6RJvFiotRQ0vXPd76%2B28KPKU%2BC%2Fw%2Bm5x4Ga2AVVcX4%2BJjn8wp%2BdAppGmr5CbFDVh6WgAgIeQyd%2F3QSPlQ7Wg2%2B75pGb0%2FmzV7tt3YEHc6bnOvb%2Fax9xBwDtZ9POgqivf%2FMB4cl%2F8fqj6OXh2G7rGLVMkOi%2FzRjlBoJvYHJ24BStsnVIcD5dvBLPu93rUMDW6rgf9dLfMNcsdXu76bDBBhngWOs0dL%2BKP%2FckjjyQxFqZDRYktROgqqHeHxqP3cuXHt5hBDnh6KfVuJy%2BXaMidtGaq%2FB8uvu%2BmAMtiKcJiLoiJyg0YTYleqz%2FysTFVaPlzv5TgZ1af6NsgQb6mi6gzYKo9FpjmtfLU%2BzTN9HS3bxq2X7sL8Ofc6MhdUKsdRCRNO4V7ZIlleU%2FDltIXc0MaeNDqyNaaQiNqwltpJocMJKgs9IGOrEBHwAlA9v0365Dy1Geit%2BrVFyrrYOeyU71wyVrw33yOx1SweHvz3G5RHaknIEvZp11T5PmDnB1xT6KxkVtn7pIB3isPeDf1LG0cZ2jeYDB%2FkrZvt1Ao9a%2FdLoVFbmkYfX2Ini6FVsjvxI3XuK0Rnwi4XL9qbJ0QqZmfMxCHNZ2RGj1a79SUReE9GRBLwqkPL2Kf31nDjjHnWiQ77KTswLdwIqwRTQyB917qY17pg%2B4Z2zj&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115034Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE4CT55MKG%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=80913a22ae1ad8fefb8e6745f65a5e5b56f6499542f1ca45f92bbc96ac7c7ca5
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_EVENT_RESPONSE_TRANSPORTS_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/256057f97a9a4819b401b21c40852124/OH_HPS_EVENT_RESPONSE_TRANSPORTS_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337995000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCGf%2FYgxZTYKTkZ%2F7iO0PmgJ0yRSpqYbySLM8h6W6ghSQIgRPd36yY6AcMUpSKzwZqgEB5uuJcfEOq%2B7r46lK7yPBkqsgUIaRAAGgw2MDQ3NTgxMDI2NjUiDPvWXzwmxjcDyGUcBiqPBcEjRi91dIHu%2FRv3dBRXsQ0bEItpcbQf7%2B3lKFyh5%2FH5vdsct3bekcCuC%2FkZMvyZinYEeBE6w%2B6Yrw37KFa3ndt1nw1xsRwUI%2FZgG8VdfvZl2CQmXFDbkwiGB5UNg1KZTzr7Ul3ZaomBQywGt8Nn5Wi%2Faptwzsg%2BAfb4w2ehGMdQBkxTTUEXDxkS3Hf7x0bA87dH%2BW0nRzia3pUiXshXzS6lsqJoYtVGpeLqxAScuJhyQzU%2BvlRoIKBKom4qxFuPR%2Fm8dQ3bzAugqVKxGCARPIOfFKHcvlG39n4IxSSpv1G5JIunArxmdLMmB%2Btpc%2Fpnm8IuWP%2BIhoYvqb5JX4H9EWkDSPzfzJjPnJ2PbDYJv7al5haFwIwCVAnrCZCH08tlUh%2BF0FtHVlwwCWGhtAqZZqJEK50CqdmehzkI2Uu3phIlNgumL5X7%2FDjkf5SM%2F2Kid9nQxEUjz9z9r5RDEOAXZZ7N6mZcE%2Bjzc277JStyyGXvnHQiiBd%2Bv%2Fwo0wGbtvdihhlDalxvSQHKEObAH9cnbMbl4Fxa4vSAD37RBVOGlgnTI6BdmznL93N8wNKcwSn%2BSiqUSIBeauKHKJqY0Ria4NyJBuxch%2BYvR1t9WIrZgwWt6pbaiDNSMawNf1Kw8UM0GxqtJsg6uyHUm36HQvG%2Ffa1vf13d6flGyln3zpJoCTfdw2Cvx21IADL5GXBgIfWS1MsHRdsZ%2FgxUFPPuC3jPLKhphiDzaHHM77Rbvcwoqxa7XK0cNfCT7zMjRnHp%2BTZXWbdbktu0ZLy9W8NFqluycH38V%2F96O9hFxFGsPH5vP2jaI6uYYLy%2FEU8ucZzZQXBbBGBb2Mb3WZb7AQsa%2B4e%2FyOVo8T0ihR9Fqj68qLW3W8Qw3NOy0gY6sQFRwW4F7kdjMs2IFvhMlLa3HT9ugWlIJ36%2FVAy6mcYaquFir7Sal1a7GTGH3JPKLymn98P7nZGpGJGFX4iStb0pBn0pVNnp1ENk4laW4i8%2F82ig5J3egRAB1tyrBubvwMeJtd4CpMw0U90AD5huGlHUKJ%2BBgkx6R56tcz1IyGiS7Q4KkiTwWvMYg0Qu6WsFglSfhcF%2BBj9FrtbiSliZYYbPvgpyM7vjsnwe%2B8CIeofWXgs%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115014Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE65C42VDL%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=5a7677c64495b4008d7529b7327bedd40fa11a13c0321b08222bb80bf053e87e
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_REASON_CALL_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/1635299d56444d9eb87c6e508d6111d5/OH_HPS_REASON_CALL_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337992000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIGaqlAYC3rUsK0n5cqKmLTGcdnBOb5FRfNgI%2F25ZDdrRAiB%2Fat7JhpnJmf8ioRr7LVhS3iaXvO%2FiER09mtH4CnH7piqzBQhrEAAaDDYwNDc1ODEwMjY2NSIMTMpp9jmcGT%2FFqKMtKpAFoHQtykudiXkMPGQixfCtLUK%2B2wAODZi4iWF2ZODONxUpUaosyMMnHa6u8%2BRQxMNVB%2BOLaXuRkqsLvlmg%2BMkOAsbQTHyzdXbUUhGd973j7yPc%2BGS3Cs3FItEHBff0SoYKqjmoP0MmuJ%2FNWj54hJQ6uIu2I%2FqWdPPhrtxQqK2D3Yocy4a19%2BIF%2BSmxD7SPfvAJafhFDBmGcYiTQF%2FvHlR%2FFi3VaRxu2dWsu3UJzKYdqo1ma58QLWxiScTiTrIJlXJcewbNiDrgp%2F099HGxBwSGsvJ6AARi4%2FMReDXZ%2FUp6ysXgF67e078qJN0I7ML%2Fpp4TdUZ6qhraLWsVGvXNXctim0h%2B4qQBD0lhkIDVrbAFAk5Ft4UGQE0jV3Iawc9641A%2FYPW3O1Mry03ruicceo%2BFlLQc1jNsdZ2vIo7%2F2607JiIjlCAAO5D0%2F6tXUgZ5i2YwDNzFylO%2FpUISlhcic26ZmhmqIdTFC9zyUk7ROZQI2eL9%2BqRx3%2BvHcVHtV%2FJxXfZXQrvZim048riwLEkNrBctEmOcPVmlG%2BeoIp2HGUcTQmYEIMcMrT9BSQ38gN6m7ZvlE%2BAg4dff3CafatkCQifRNzee49NItxiEwjxCbAD7oKEGQD04Es%2FTdTPw8ekvfs0hVYCWJNrMQj%2B%2BPB6cE14Xu6nYjzN%2FvTeimTr0QGqTlQGYSjeYDfpdLhbEGNmjoqObh%2BylAFjvpwnxRDlVx5r%2B1foglQP5BvXRFugTLCz7nZs1lNmjHPnx2Nw8L%2FyQ4lu4QVwNy5PaXwwh0vBE4kkBTOu%2FB9%2Fx%2F6xLnJofo95kopHJR%2B58WV6817%2FmXJTtXx6Tznou5PnrcZDrBssxFWLnBB5fF3EPxT6C9tF8ZKh6jzQwp4yz0gY6sgGfAqeQdbQiUOFu2%2BCuMHxAgZNcyrLKvFtIu5ZV%2FGgJqBB1UcXY20HtV057g3vznLmgjm4%2FAbGKBPoIrX%2BcOy64Pw6Du4omYyQw8GUwUfktRYPH7iAE%2B0V8k6bJ4Tww%2FGAEfZqv3b6wh5VsVCfFDfyWEVze7RYcTan9toZUmkyIMDes%2BRw4rK1uPOdJdsTsMrgBoCxC6tyA5meY1nv%2BtmQuz41Qdxc4kJi3TSWeKxwH0lfQ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115038Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE5QHG3I2P%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=03280ac424e6c12d364316a36e1a54d58ac4bc1bc0beee0996e21ad855cc7ae4
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_TARGET_RESPONSE_TIMES_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/a24a0e243ad4484a9b87b811af9c92e8/OH_HPS_TARGET_RESPONSE_TIMES_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337992000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQC0A%2BYGazQPFUHkoMbn%2FhoRmnMTGDw0jIodhgPXnaDXYQIgILp7o6F%2FO7pNP%2FZ%2FsOnmxIbVv9Dpcm5EMgjBOQp6W%2BEqtAUIaRAAGgw2MDQ3NTgxMDI2NjUiDHH3rmE%2FeVDUYbl8%2FiqRBRSJo1J9GGfuyp6ZpyhDcVctvqKzfCLCE2WrijIPu59aYjCdHA1jDCEvjDaBlk4NoNgv%2B%2FBoQPOnuWVfzWPo7KZERGv2L5vBcIgT%2BltqTC3rzYZKIyvxo9AUWA7jEM7ytFFunosvDpR0hIBJTaC%2BrKrohqCsTb51D2m0OWOv3GGX8prVcinVW%2BU8ESUye3R9t%2FjbH5PDQTGt2k98WBebCaFzO6E74PiLuTgjc5weKENkj%2Bu18Rtbx82ScU8dOoo3QNhTSdlyN7B7CquGyMwvNOtnAiBrl7X1rQROsNUSXcv6lIkFd8oqHnsJjsH9n5jXCGpY5KIr74VoTZjUzEhqXhKE00UGLRdMpOpzHTaZacJIaxSi8laOwFXn%2Bbvj9JG%2F%2BXLtOpfdjuMXpYdwb58mkgDS5DqZowdrVuOTdXwwoVB2xhsl8rx5%2FuikTqf2CbEaYyyVZ%2FQOO6d3lCFDF%2BRtil4Y1i2Jd1xGHNtX6rsWvANPtZcY2uzcxGSxZVfENpcaUMSlYNUup7oun%2FLe4yXpchix8pcCUYrtNXJJ1lDwpdtkHMo8FG64heWq%2FBoLNavdF0Q5b2YRlb5TFmRR5Ftx0ZkefB%2Fy4SWtfbeFvViBCemXSK93uqj4FIEfEEHscaxRwOFMxu7PHbp6ZGneUwWbLAWLgtdzGIYMDQEFHDyJ1%2F9tgUKNDykI31%2B24HMXlREzk5iqRFFcTixoJZgmexyCrfjbSEp%2B38i7J1uGzJyBcX7mWzeDJXBIZZlEuJ2pUR53xQj%2BAVk%2FPbOpUQ%2Fl95ASj84%2BbrnGGA6Uejbf%2BJ5k1IgLcQ168PGYQ0zZzW4QZXMMrCON0BA1AuN66ooNx2D7LCK%2FO9mshgOhDjr73uM%2BRFQJezC%2F17LSBjqxAQ6%2FAZJyP8kuHVa%2BiBofTkB8mtSDeKnrnyXgshO0U8T%2B1yZ5Uzf9dRJVnJ5BY7Wyqi8FW65EfsAyuzpqz5tNqHvQTSzwEXpt9OPhn3rdfGZCdiqo9BOOtLFF0A%2Bur6Dr4hR%2Bas%2By6OnUvytjO2LWrMi0AWRGwteOyocRn6xvptEM%2BDdF8334hCr2REn%2FWR5SsicyfGHJnhNggTADwmlLLXt%2FFJyalr3%2Bk4%2B3qIiPuUir5g%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115037Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKERFX4TXAH%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=bd62b4ddddf79444d74d01b0632793f4de7bbacea65e21da233285e47cfcc7a2
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_HPS_TRANSFER_OF_CARE_Metadata.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/e2c1144162594eb4999152ff9581f008/OH_HPS_TRANSFER_OF_CARE_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337997000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHtfv33c6oINlQDJFNMfFV9Ov0wK1lI5MIbz282v%2Fxl2AiEA%2BrLKWDcwZyhHtehOahDDQSwwMK5x%2BnFaR%2BBZcrcyiMkqswUIahAAGgw2MDQ3NTgxMDI2NjUiDGQ300VrvDYj0Hea7yqQBc32EouYTyH%2BbtTbTOe2ah9x8eEUzck8L0AZk9cOZqhhPYtVHadBvX8cf8ZM2azPZKT0I6tlQ%2FP4ExLbRzISqFocGJkYe%2BC9ptUgmYZKgKS4m%2B6zjqm0X0rQEhkAqtWQCa8k5L7XlUFgknbjVlIc3znpIDV0VHv8ryO1JYusosBMMq5Pf8hlBumtBO9%2Fv6u%2Fol9JAXzqsP8jolSoVoaBDWUDRucuH8F0qYcBpYO7QGhfLsJb%2F6jnSqzQzx7voL4ctSP8uY6bOgQPwKhAL9vyj%2FELBwsq9WS7S64PSbuv78ikvbTvUPZgP3Cd4H7JPbUY2Bc%2F1gXE0na4mA8Mg3lKlxshHT%2F7q%2F8lP6QB8%2BEbNleO89HbHxthXqP9In7JcMvKPcZMA4FRdhy1gk%2FdQcVgfdOd%2FwKYp8F%2FPb1lIMpeqfSBtwMmwUTgo1Nnucha1ObcsyO7oJViEF3yHy455ULCrW2%2BKmr5CmeYYd4jdzkNAQdK%2B%2Bczwp3Q3QGq2S2E3qLW6ADvGeSwF9dldKgIf280HVOquAZgxa%2BwFn8j1%2FRK%2BKf%2By%2FX86MPOCwZj8BTyOVVnmNPgsi5Ec%2FeW475v%2BrnfTSDMEJDytmJ5axfvRZvtiB%2FU%2Byvaxw1S6vRiMscy3xA5jxsM3Y0vcsTd7PzxSiKILGFRDX0MdEUVvPj1ieg6StZ66Uwn85IvPDiFK26YQNfa8PWW2lqm%2BhnyuyuWBIP0Gva5RJgFb6irnKrYhLosR5ytxkQ7i9uxH5DJUaWfDk0o8c%2BZMHhHhN8bKOKQsH17dYz0dpNolAXfWMC2AqRXXEsw4hdZr%2BspKlTFkiU4E%2BCgiPLhn3VX9cmbG7%2F3M8Bt%2F%2F7eCdJZ1%2BBxDB0yhnLlNTiDMN71stIGOrEBQnLPzXpqrhzlqlZmlUv828aFcptAeNNa4Kuofnzi9RxiCAjIZVO4lGAywnjMLpfCbxHId2kQqU8AXsqKydRM2u248cy8Yb%2FwgGg5XSyrI5EnblLygrRLD3ajEWqkh%2B8FWu3L5MQAnpfLdNR%2B6WR8NvOo9BIy1mZ1HesFod5AClXZv1aRKfi%2FizGfJFM2T%2FzaOf03iN21jQlZiWLsa%2BR1b9UEw7BsRw34wiOLmEi2HHI8&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115040Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKEVXI6IW3K%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=2eeb0bb94b42dd2ae4c2c2f75af2125cbe56d39748665ec7b5d3735a17dcd643
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### OH_SCHOOL_CROSSING_GUARD_LOCATIONS.pdf
+
+- **URL**: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/880c079ab768439f9bc3e81ba96e8454/OH_SCHOOL_CROSSING_GUARD_LOCATIONS.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337999000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD608F%2BLyNmOdQ7EaO56Vzg0yltAHsnjvnyx6ivAR36pgIgGQmqOLv2ey1h9uIeupYvJVRbKfLBYeir7tdsn1tpjj8qswUIaxAAGgw2MDQ3NTgxMDI2NjUiDHnNi9dC58MoQspT7CqQBX1LBnEul8BMYn5ilKPAyxW1uLMt0nR9Uv5zIdAuqx6VUBRbmyfucG%2B5wEv5uGsDbVZHL%2BT2H9%2FXyHqSKG0Cv%2Bc4HsFOZG%2FSe3uH5O48zsEjEnFNzrL1ujYBEaEwTObQ1Uk%2Br%2Fekb2hYCar93sj4wXXazIw5rmoyRiUN6pYiw0wksloIafA2gcq4NTwILvsE7z7WG5I%2FnEosP8xdrWcJzFIchsKTopWw78lnoH3Wg0nEVKZSd96cfh%2B%2FdIG16VAcLlrPxk1LZ%2B0IlxAUBb4e2xGpB7HAnJdvLIRC4h8g3FcPsdKWIhgp4Wl1MNVAqsjbbv7iwc6m2x9ApH%2BFMleZUZnb3G14%2F0yNb7HzbIqDeqU0NYj1MWc18iIj3kfmzvREQqQ%2Fe0fPPDhxf%2B0eoYtT826b%2Fq6Oqzr8qb7k%2F%2BVVnfKEVQm8VTZCero2pbs26NxSfR1fn6RJvFiotRQ0vXPd76%2B28KPKU%2BC%2Fw%2Bm5x4Ga2AVVcX4%2BJjn8wp%2BdAppGmr5CbFDVh6WgAgIeQyd%2F3QSPlQ7Wg2%2B75pGb0%2FmzV7tt3YEHc6bnOvb%2Fax9xBwDtZ9POgqivf%2FMB4cl%2F8fqj6OXh2G7rGLVMkOi%2FzRjlBoJvYHJ24BStsnVIcD5dvBLPu93rUMDW6rgf9dLfMNcsdXu76bDBBhngWOs0dL%2BKP%2FckjjyQxFqZDRYktROgqqHeHxqP3cuXHt5hBDnh6KfVuJy%2BXaMidtGaq%2FB8uvu%2BmAMtiKcJiLoiJyg0YTYleqz%2FysTFVaPlzv5TgZ1af6NsgQb6mi6gzYKo9FpjmtfLU%2BzTN9HS3bxq2X7sL8Ofc6MhdUKsdRCRNO4V7ZIlleU%2FDltIXc0MaeNDqyNaaQiNqwltpJocMJKgs9IGOrEBHwAlA9v0365Dy1Geit%2BrVFyrrYOeyU71wyVrw33yOx1SweHvz3G5RHaknIEvZp11T5PmDnB1xT6KxkVtn7pIB3isPeDf1LG0cZ2jeYDB%2FkrZvt1Ao9a%2FdLoVFbmkYfX2Ini6FVsjvxI3XuK0Rnwi4XL9qbJ0QqZmfMxCHNZ2RGj1a79SUReE9GRBLwqkPL2Kf31nDjjHnWiQ77KTswLdwIqwRTQyB917qY17pg%2B4Z2zj&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115011Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE4CT55MKG%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=a257e20c9126cbb73b557d241cd22a8f83551089bf8d427f32fb2ae87385b5de
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### block1-stoney-creek-pic3-presentation-slide12.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/block1-stoney-creek-pic3-presentation-slide12.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### block1-stoney-creek-pic3-presentation-slide13.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/block1-stoney-creek-pic3-presentation-slide13.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### block1-stoney-creek-pic3-presentation-slide14.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/block1-stoney-creek-pic3-presentation-slide14.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixA.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixA.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixB.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixB.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixC.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixD.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixD.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixE.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixE.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixF1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixF2.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixF3.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF3.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixF4.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF4.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixG.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixG.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixH1.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixH1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report-appendixH2.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixH2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### bus-maintenance-storage-facility-ea-environmental-project-report.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### cOMM-UPDATE-Development-Related-Public-Tree-Removals-1190MainStWest.pdf
+
+- **URL**: https://www.hamilton.ca/sites/default/files/2023-11/cOMM-UPDATE-Development-Related-Public-Tree-Removals-1190MainStWest.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### candida-auris-new-case-management.pdf
+
+- **URL**: https://www.publichealthontario.ca/-/media/Documents/C/24/candida-auris-new-case-management.pdf?rev=76c795c712d646daa58c60255ce4057e&sc_lang=en
 - **Status**: error
 - No module named 'simpla11ypdf'

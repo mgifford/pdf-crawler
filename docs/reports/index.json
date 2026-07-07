@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-07T12:49:50.729811+00:00",
+    "site": "hamilton.ca",
+    "crawl_url": "https://www.hamilton.ca",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28864911342",
+    "issue_url": "",
+    "archive_file": "2026-07-07_12-49-50-729_hamilton.ca.html",
+    "total": 683,
+    "analysed": 242,
+    "accessible": 39,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false
+  },
+  {
     "date": "2026-07-07T11:53:56.927814+00:00",
     "site": "slvboces.org",
     "crawl_url": "https://www.slvboces.org",

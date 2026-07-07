@@ -207423,7 +207423,7 @@
   filename: 2024-2028-Hamilton-Tourism-Strategy.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.068228+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -207451,7 +207451,7 @@
     Words: 19125
     Images: 184
   errors:
-  - 'title, tagged, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -207484,6 +207484,12 @@
       errors:
       - 'title, tagged, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:09:12.239528+00:00'
   link_text: Download Hamilton's Tourism Strategy(PDF, 16.05 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-04/23-045.pdf
   md5: 5305340c97575a9a9a1f88740387b99a
@@ -207592,7 +207598,7 @@
   filename: 25-049.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.077454+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -207620,7 +207626,7 @@
     Words: 1531
     Images: 1
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -207653,13 +207659,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:09:27.082236+00:00'
   link_text: By-law Number 25-049(PDF, 596.95 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf
   md5: c1b6986c42ac09adefed419aef6ca97e
   filename: 25-050.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.079689+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -207687,7 +207699,7 @@
     Words: 1399
     Images: 3
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -207720,13 +207732,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:09:41.586895+00:00'
   link_text: By-law Number 25-050(PDF, 798 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-08/25-144.pdf
   md5: bf6669f2a22ea7742c3ace70816659e3
   filename: 25-144.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.081231+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -207753,7 +207771,8 @@
     Pages: 7
     Words: 1612
     Images: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -207785,6 +207804,12 @@
         Images: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:09:56.194153+00:00'
   link_text: By-law Number 25-144(PDF, 362.19 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-08/25-145.pdf
   md5: 06201d79cbc13176adfde02250d578a2
@@ -207824,7 +207849,7 @@
   filename: 25-146.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.084732+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -207851,7 +207876,8 @@
     Pages: 6
     Words: 1383
     Images: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -207883,13 +207909,19 @@
         Images: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:10:11.109063+00:00'
   link_text: By-law Number 25-146(PDF, 382.48 KB)
 - url: https://www.hamilton.ca/sites/default/files/2026-02/26-032.pdf
   md5: f5856d416f0dd5eafad71b2ed3e4781a
   filename: 26-032.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.086198+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -207916,7 +207948,8 @@
     Pages: 6
     Words: 1414
     Images: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -207948,13 +207981,19 @@
         Images: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:10:25.771724+00:00'
   link_text: By-Law Number 26-032
 - url: https://www.hamilton.ca/sites/default/files/2026-02/26-033.pdf
   md5: f1fd51974250cf325b3891dc4d59d9a7
   filename: 26-033.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.087611+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -207981,7 +208020,8 @@
     Pages: 6
     Words: 1415
     Images: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -208013,6 +208053,12 @@
         Images: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:10:40.307288+00:00'
   link_text: By-Law Number 26-033
 - url: https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-AssistiveDevices-Policy.pdf
   md5: e0599981bf7184d18722e555f9e0d85b
@@ -208291,7 +208337,7 @@
   filename: CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.096652+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -208319,7 +208365,7 @@
     Words: 2953
     Images: 1
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -208352,6 +208398,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:10:54.928827+00:00'
   link_text: 'March 20, 2025: Report for Consideration: ECS: Community Safety and
     Well-Being (PDF, 210.73 KB)'
 - url: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf
@@ -208359,7 +208411,7 @@
   filename: CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.097849+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -208386,7 +208438,8 @@
     Pages: 3
     Words: 1098
     Images: 2
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -208418,13 +208471,19 @@
         Images: 2
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:11:09.588609+00:00'
   link_text: Communications Update - Apr 1, 2025 (PDF, 184.27 KB)
 - url: https://www.hamilton.ca/sites/default/files/2023-02/Digital-Strategy-Accessible.pdf
   md5: b418d74df808560f6f9d1a0bdac4d15d
   filename: Digital-Strategy-Accessible.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.099291+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -208451,7 +208510,8 @@
     Pages: 44
     Words: 3524
     Images: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -208483,13 +208543,19 @@
         Images: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:11:24.426636+00:00'
   link_text: Download City's Digital Strategy - Accessible Version(PDF, 335.97 KB)
 - url: https://www.hamilton.ca/sites/default/files/2022-05/EDI-2019urbanindigenousstrategy-Report.pdf
   md5: 6f91d401f64eab6a382586ec23a146a4
   filename: EDI-2019urbanindigenousstrategy-Report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.101935+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -208517,7 +208583,7 @@
     Words: 6356
     Images: 60
   errors:
-  - 'title, tagged, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -208550,13 +208616,19 @@
       errors:
       - 'title, tagged, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:11:39.196923+00:00'
   link_text: Download the full Urban Indigenous Strategy Report(PDF, 1.09 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-05/EDI-UISimplementationplan2021.pdf
   md5: 494b7c93b9e5057522f260caeabd8ebf
   filename: EDI-UISimplementationplan2021.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.108620+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -208584,7 +208656,7 @@
     Words: 3152
     Images: 85
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -208617,6 +208689,12 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:11:53.684057+00:00'
   link_text: Download the full Urban Indigenous Implementation Plan(PDF, 3.62 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-05/EDI-orangeshirtday-colouringactivitypages.pdf
   md5: 9ffef840f83c23948f2669204c1b9ada
@@ -209132,7 +209210,7 @@
   filename: Youth-Strategy-Report-2022-2027.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.159562+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -209160,7 +209238,7 @@
     Words: 4863
     Images: 27
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209193,6 +209271,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:12:08.642240+00:00'
   link_text: Download the Youth Strategy Report(PDF, 3.68 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-01/accessibility-clause-advertisements-pic-pmeetings-july-2022.pdf
   md5: fb6f79476612eaaccf508732a9d0f966
@@ -209332,7 +209416,7 @@
   filename: budget-flowchart-2026.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.166993+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -209360,7 +209444,7 @@
     Words: 13
     Images: 3
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209393,13 +209477,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:12:23.486224+00:00'
   link_text: 'PDF: Budget Flow Chart 2026'
 - url: https://www.hamilton.ca/sites/default/files/2023-09/building-safer-communities-multi-year-plan.pdf
   md5: 66928dda2f91729df8493bf0e87dcf76
   filename: building-safer-communities-multi-year-plan.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.184261+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -209427,7 +209517,7 @@
     Words: 8685
     Images: 15
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209460,13 +209550,19 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:12:38.197665+00:00'
   link_text: Building Safer Communities Multi-Year Plan
 - url: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
   md5: f75dfefb39d4b0d71d9ef6bf4e826050
   filename: child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.186404+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -209494,7 +209590,7 @@
     Words: 537
     Images: 2
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209527,13 +209623,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:12:53.201809+00:00'
   link_text: Agenda Planning Procedure (PDF, 170.11 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
   md5: 7760c9712a93ddcb74750540a59b3dc6
   filename: child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.188233+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -209561,7 +209663,7 @@
     Words: 1215
     Images: 4
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209594,13 +209696,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:13:07.941279+00:00'
   link_text: Collaborative Grant Procedure (PDF, 154.55 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-email-distribution-procedure-june2025.pdf
   md5: ef92956b998687bac1b10187c9b49ea1
   filename: child-youth-network-SOP-email-distribution-procedure-june2025.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.189435+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -209628,7 +209736,7 @@
     Words: 420
     Images: 2
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209661,13 +209769,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:13:22.638905+00:00'
   link_text: Email Distribution Procedure (PDF, 121.23 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-community-engagement-procedure.pdf
   md5: 90532b20458b3dc0780660bd80dc55fb
   filename: child-youth-network-community-engagement-procedure.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.190670+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -209695,7 +209809,7 @@
     Words: 1146
     Images: 4
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209728,13 +209842,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:13:37.329213+00:00'
   link_text: Community Engagement Procedure (PDF, 192.88 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-11/child-youth-network-data-decision-support-guide1.pdf
   md5: 8c8a81be7fdb5c2b9c13516efb0fe093
   filename: child-youth-network-data-decision-support-guide1.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.197158+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: true
@@ -209762,7 +209882,7 @@
     Words: 0
     Images: 10
   errors:
-  - 'tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209795,13 +209915,19 @@
       errors:
       - 'tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:13:52.397985+00:00'
   link_text: Data & Decision Support Guide(PDF, 3.45 MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-terms-of-Reference-sep2025.pdf
   md5: e6ba4b8c32fd0a215c0e48283639b9e4
   filename: child-youth-network-terms-of-Reference-sep2025.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.198802+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -209829,7 +209955,7 @@
     Words: 3450
     Images: 12
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209862,13 +209988,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:14:07.144864+00:00'
   link_text: Term of Reference (PDF, 276.18 KB)
 - url: https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf
   md5: dd4042ee7878307c591caf5ac471212d
   filename: comm-update-2023-Urban-Forest-Pests.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.200149+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -209896,7 +210028,7 @@
     Words: 1689
     Images: 1
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209929,6 +210061,12 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:14:21.731626+00:00'
   link_text: 'Invasive Spread of Urban Forest Pests: Hemlock Woolly Adelgid and Spotted
     Lanternfly'
 - url: https://www.hamilton.ca/sites/default/files/2024-12/comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf
@@ -209936,7 +210074,7 @@
   filename: comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.201583+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -209963,7 +210101,8 @@
     Pages: 10
     Words: 4306
     Images: 2
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -209995,6 +210134,12 @@
         Images: 2
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:14:36.718322+00:00'
   link_text: 'November 21, 2024: Recommendations Report: Community Safety and Well-Being:
     Tor… (PDF, 293.59 KB)'
 - url: https://www.hamilton.ca/sites/default/files/2023-08/comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf
@@ -210036,7 +210181,7 @@
   filename: comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.205629+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210064,7 +210209,7 @@
     Words: 1061
     Images: 3
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210097,6 +210242,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:14:51.422299+00:00'
   link_text: 'Invasive Spread of Urban Forest Pests: Hemlock Woolly Adelgid Identified
     on City Property'
 - url: https://www.hamilton.ca/sites/default/files/2023-04/comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf
@@ -210138,7 +210289,7 @@
   filename: community-garden-final-report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.208844+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210166,7 +210317,7 @@
     Words: 3226
     Images: 1
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210199,13 +210350,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:06.088224+00:00'
   link_text: Community Gardens Survey Final Report (PDF, 765.47 KB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-infographic.pdf
   md5: e2c907caec6df95aca317c8cd2cd09d3
   filename: community-garden-infographic.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.210139+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210233,7 +210390,7 @@
     Words: 112
     Images: 14
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210266,13 +210423,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:20.840854+00:00'
   link_text: Community Gardens Infographic (PDF, 239.68 KB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-summary-report.pdf
   md5: b8cd61c7c8cbda14f17ad54d37d2b61b
   filename: community-garden-summary-report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.211696+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210300,7 +210463,7 @@
     Words: 908
     Images: 0
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210333,13 +210496,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:35.768802+00:00'
   link_text: Community Gardens Summary Report (PDF, 409.73 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-06/consideration-report-HSC25012-2025-2029-cswb-plan.pdf
   md5: 3df1582074e9054f60aea625a7650697
   filename: consideration-report-HSC25012-2025-2029-cswb-plan.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.212911+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210367,7 +210536,7 @@
     Words: 1837
     Images: 1
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210400,6 +210569,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:50.593031+00:00'
   link_text: 'May 22, 2025: Report for Consideration: 2025-2029 Community Safety and
     Well-Bei… (PDF, 189.2 KB)'
 - url: https://www.hamilton.ca/sites/default/files/2023-02/developmentcharges-backgroundstudy-2019.pdf
@@ -210507,7 +210682,7 @@
   filename: engagement-municipal-scan-practices.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.299106+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210535,7 +210710,7 @@
     Words: 1153
     Images: 1109
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210568,13 +210743,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:05.192861+00:00'
   link_text: Municipal Scan of Public Engagement Best Practices(PDF, 4.14 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-05/engagement-public-engagement-policy-CMO-GRCE-24-01.pdf
   md5: 913be25db4c4fa3b6d5b5ef10deba20f
   filename: engagement-public-engagement-policy-CMO-GRCE-24-01.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.301552+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -210601,7 +210782,8 @@
     Pages: 6
     Words: 1796
     Images: 6
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210633,6 +210815,12 @@
         Images: 6
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:20.140477+00:00'
   link_text: Download Public Engagement Policy(PDF, 192.79 KB)
 - url: https://www.hamilton.ca/sites/default/files/2024-09/environmentalassessments-SafariRdEA_PIC1-Displays.pdf
   md5: ed350291c3c58bc7bf080d43bacdaa51
@@ -210681,7 +210869,7 @@
   filename: hamilton-digital-strategy_0.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.352545+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -210708,7 +210896,8 @@
     Pages: 15
     Words: 3432
     Images: 5
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210740,13 +210929,19 @@
         Images: 5
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:34.719251+00:00'
   link_text: View Hamilton's Digital Strategy
 - url: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-drug-strategy-report.pdf
   md5: d4cd055cb7466e01e1d142ae7d89ce9f
   filename: hamilton-drug-strategy-report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.370572+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210774,7 +210969,7 @@
     Words: 2646
     Images: 18
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210807,13 +211002,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:49.657531+00:00'
   link_text: Download Hamilton Drug Strategy Report(PDF, 9.58 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf
   md5: 63362c4d53db690eaaad33e9e6d3a811
   filename: hamilton-food-literacy-network-forum-report-2017.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.375663+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210841,7 +211042,7 @@
     Words: 7810
     Images: 34
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210874,13 +211075,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:04.375279+00:00'
   link_text: Hamilton Food Literacy Network Forum Report (PDF, 1.86 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-07/hamilton-food-strategy-forum-summary.pdf
   md5: 0b46c50bc58dd49a747a9e3752919d20
   filename: hamilton-food-strategy-forum-summary.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.379875+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210908,7 +211115,7 @@
     Words: 5817
     Images: 11
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -210941,13 +211148,19 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:18.867115+00:00'
   link_text: Food Forum Report Summary (PDF, 1.44 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf
   md5: f8e3a56cb6d0aa30189a823ee755c898
   filename: hamilton-food-strategy.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.395897+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -210975,7 +211188,7 @@
     Words: 17089
     Images: 144
   errors:
-  - 'title, tagged, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -211008,13 +211221,19 @@
       errors:
       - 'title, tagged, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:33.742056+00:00'
   link_text: Download Hamilton Food Strategy(PDF, 9.28 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-03/hamilton-supervised-injection-site-study.pdf
   md5: a5938d34672f2cbfeec956c42af2f8d3
   filename: hamilton-supervised-injection-site-study.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.403817+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -211042,7 +211261,7 @@
     Words: 24633
     Images: 14
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -211075,6 +211294,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:48.495989+00:00'
   link_text: Hamilton’s Supervised Injection Site Needs Assessment and Feasibility
     Study(PDF, 3.92 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf
@@ -211082,7 +211307,7 @@
   filename: harassment-discrimination-prevention-policy.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.405933+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -211110,7 +211335,7 @@
     Words: 5036
     Images: 16
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -211143,6 +211368,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:03.069148+00:00'
   link_text: Harassment & Discrimination Prevention Policy (PDF, 300.42 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-04/hwy52-powerlinerd-ea-pic1-presentation-apr2025-1.pdf
   md5: b14a871cd776156a1d659bcd3b086cf2
@@ -211215,7 +211446,7 @@
   filename: indigenous-health-strateg-2023.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.429722+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -211243,7 +211474,7 @@
     Words: 7508
     Images: 26
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -211276,13 +211507,19 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:17.849887+00:00'
   link_text: Indigenous Health Strategy(PDF, 7.25 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-07/indigenous-relations-honouring-our-roots-report_0.pdf
   md5: 23728937ca0d47661d34c3f4d1010a94
   filename: indigenous-relations-honouring-our-roots-report_0.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.434864+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -211309,7 +211546,8 @@
     Pages: 40
     Words: 15180
     Images: 5
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -211341,13 +211579,19 @@
         Images: 5
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:32.382792+00:00'
   link_text: Honouring Our Roots(PDF, 2.42 MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-11/indigenous-tourism-development-strategy.pdf
   md5: 013b98aa3e3146ad27a910032ed50a08
   filename: indigenous-tourism-development-strategy.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.445313+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -211375,7 +211619,7 @@
     Words: 8756
     Images: 51
   errors:
-  - 'title, tagged, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -211408,13 +211652,19 @@
       errors:
       - 'title, tagged, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:47.318940+00:00'
   link_text: Indigenous Tourism Development Strategy(PDF, 5.83 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
   md5: d4a8ce409c1db443ee413c8ca42e2d8f
   filename: info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.446907+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -211442,7 +211692,7 @@
     Words: 2093
     Images: 2
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -211475,6 +211725,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:01.959992+00:00'
   link_text: 'December 5, 2024: Information Report: Community Safety and Well-Being
     Progress … (PDF, 129.17 KB)'
 - url: https://www.hamilton.ca/sites/default/files/2023-08/info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
@@ -211482,7 +211738,7 @@
   filename: info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.448384+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -211510,7 +211766,7 @@
     Words: 1675
     Images: 2
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -211543,6 +211799,12 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:16.490779+00:00'
   link_text: 'June 15, 2023: Information Report: Building Safer Communities Multi
     Year Plan (… (PDF, 153.52 KB)'
 - url: https://www.hamilton.ca/sites/default/files/2024-09/info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
@@ -211550,7 +211812,7 @@
   filename: info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:46.449625+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -211578,7 +211840,7 @@
     Words: 2725
     Images: 2
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -211611,6 +211873,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:31.352682+00:00'
   link_text: 'May 16, 2024: Information Report: Community Safety and Well-Being Plan
     Annual R… (PDF, 190.32 KB)'
 - url: https://www.hamilton.ca/sites/default/files/2023-01/main-whitney-ea-pic1-presentation.pdf
@@ -212680,7 +212948,7 @@
   filename: medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.121726+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -212708,7 +212976,7 @@
     Words: 1744
     Images: 4
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -212741,13 +213009,19 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:46.122332+00:00'
   link_text: CMOH Memo KP.2 Market Withdrawal(PDF, 138.92 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-09/medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf
   md5: 6969784d43101e6e865dc38d75eb3684
   filename: medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.123267+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -212774,7 +213048,8 @@
     Pages: 6
     Words: 1668
     Images: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -212806,6 +213081,12 @@
         Images: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:00.883964+00:00'
   link_text: Older Adult High-Risk Respiratory Syncytial Virus (RSV) Vaccine Program
     Fact Sh… (PDF, 213.06 KB)
 - url: https://www.hamilton.ca/sites/default/files/2026-01/municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf
@@ -212847,7 +213128,7 @@
   filename: municipal-act-charges-proposed-bylaws-apr23-2025.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.127563+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -212875,7 +213156,7 @@
     Words: 7804
     Images: 7
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -212908,13 +213189,19 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:15.675359+00:00'
   link_text: Review a Draft of the Proposed By-Laws(PDF, 1.06 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-12/neighbourhood-risk-management-toolkit.pdf
   md5: d42d13b411a22006db1b844ec5215283
   filename: neighbourhood-risk-management-toolkit.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.136188+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -212942,7 +213229,7 @@
     Words: 3825
     Images: 737
   errors:
-  - 'title, tagged, lang, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -212975,13 +213262,19 @@
       errors:
       - 'title, tagged, lang, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:30.187545+00:00'
   link_text: Risk Management ToolKit for Neighbourhoods(PDF, 4.81 MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-02/our-future-hamilton-2018-summit-summary-report.pdf
   md5: 6c78f9d7424ff8046416f54a9c23095f
   filename: our-future-hamilton-2018-summit-summary-report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.165173+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -213009,7 +213302,7 @@
     Words: 2895
     Images: 15
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213042,13 +213335,19 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:45.039122+00:00'
   link_text: Our Future Hamilton 2018 Annual Summit - Summary Report (PDF, 17.38 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-10/our-future-hamilton-2019-summit-summary-report.pdf
   md5: 7be7ff630d85ea8419c5b50453e28afd
   filename: our-future-hamilton-2019-summit-summary-report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.184082+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -213076,7 +213375,7 @@
     Words: 2752
     Images: 24
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213109,13 +213408,19 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:59.791526+00:00'
   link_text: Our Future Hamilton 2019 Annual Summit - Summary Report (PDF, 10.55 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-final-report-2017.pdf
   md5: 3c2634122b0cdcb469e52b1c9db3ab68
   filename: ourfuturehamilton-final-report-2017.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.197638+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -213143,7 +213448,7 @@
     Words: 5733
     Images: 76
   errors:
-  - 'title, tagged, lang, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213176,13 +213481,19 @@
       errors:
       - 'title, tagged, lang, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:21:14.260674+00:00'
   link_text: Our Future Hamilton Community Vision - Final Report (PDF, 7.11 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf
   md5: 9225859c238af54e3ff172e9b41ec2fe
   filename: ourfuturehamilton-progress-report-2018.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.208335+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -213210,7 +213521,7 @@
     Words: 5787
     Images: 2962
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213243,13 +213554,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:21:29.240671+00:00'
   link_text: Our Future Hamilton Progress Report - 2017/2018 (PDF, 5.34 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-suggested-actions.pdf
   md5: 0a11829b5f5a337ec3e0f9533e5e526e
   filename: ourfuturehamilton-suggested-actions.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.228500+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -213277,7 +213594,7 @@
     Words: 4187
     Images: 48
   errors:
-  - 'title, tagged, lang, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213310,6 +213627,12 @@
       errors:
       - 'title, tagged, lang, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:21:43.900845+00:00'
   link_text: Our Future Hamilton Community Vision - Community Suggestions Actions
     (PDF, 11.39 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-01/parking-master-plan.pdf
@@ -213351,7 +213674,7 @@
   filename: public-engagement-charter.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.257442+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -213379,7 +213702,7 @@
     Words: 2893
     Images: 44
   errors:
-  - 'title, tagged, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213412,6 +213735,12 @@
       errors:
       - 'title, tagged, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:21:58.462132+00:00'
   link_text: Hamilton’s 2015 Public Engagement Charter(PDF, 3.05 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-11/recreation-master-plan.pdf
   md5: f9d3e2c83c64b73860a65a680259dcb0
@@ -213485,7 +213814,7 @@
   filename: report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.299306+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -213513,7 +213842,7 @@
     Words: 1904
     Images: 2
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213546,6 +213875,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:22:13.244836+00:00'
   link_text: 'April 18, 2024: Recommendation Report: Community Safety and Well-Being
     Situatio… (PDF, 149.19 KB)'
 - url: https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
@@ -213553,7 +213888,7 @@
   filename: rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.382080+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -213581,7 +213916,7 @@
     Words: 703
     Images: 3
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213614,6 +213949,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:22:27.755856+00:00'
 - url: https://www.hamilton.ca/sites/default/files/2023-09/rymal-ea-pic2-panels.pdf
   md5: 40fc420d9a80fc1d25480ca57ee6ff63
   filename: rymal-ea-pic2-panels.pdf
@@ -213630,7 +213971,7 @@
   filename: rymal-road-ea-pic1-panels-accessible.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.396808+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: true
@@ -213658,7 +213999,7 @@
     Words: 1696
     Images: 0
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213691,6 +214032,12 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:22:42.637573+00:00'
   link_text: PIC 1 Presentation Panels - Accessible(PDF, 3.26 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels.pdf
   md5: b23de975833c7f5c826766ce6df17793
@@ -213918,22 +214265,29 @@
   filename: standing-water-by-law-03-173.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.684203+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:22:57.269884+00:00'
   link_text: 'City of Hamilton By-Law: Standing Water at Specified Times of the Year'
 - url: https://www.hamilton.ca/sites/default/files/2025-08/strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf
   md5: 945a10fdc7db89499c32671d77384bdf
   filename: strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.687810+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -213960,7 +214314,8 @@
     Pages: 12
     Words: 1852
     Images: 7
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -213992,13 +214347,19 @@
         Images: 7
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:23:11.732524+00:00'
   link_text: Our Future Downtown Engagement Summary - July 2025 (PDF, 1.06 MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-03/strategies-community-garden-directory-mar2025.pdf
   md5: 94bf21d9854905dafecd6c3e80b1faf5
   filename: strategies-community-garden-directory-mar2025.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.691108+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -214025,7 +214386,8 @@
     Pages: 2
     Words: 533
     Images: 3
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214057,13 +214419,19 @@
         Images: 3
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:23:26.359512+00:00'
   link_text: Community Gardens Directory in Hamilton (PDF, 1.41 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-12/strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
   md5: fd5f5a90d7579deb0f85d3330d2ab4f8
   filename: strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.712217+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214091,7 +214459,7 @@
     Words: 4562
     Images: 18
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214124,6 +214492,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:23:40.986137+00:00'
   link_text: Download the Local Guidance for Consumption and Treatment Services(PDF,
     12.65 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-11/strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf
@@ -214165,7 +214539,7 @@
   filename: strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.717853+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -214192,7 +214566,8 @@
     Pages: 12
     Words: 1628
     Images: 11
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214224,13 +214599,19 @@
         Images: 11
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:23:55.924213+00:00'
   link_text: Read the Our Future Downtown Summary Engagement Report(PDF, 668.06 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
   md5: e26fb949cd7d4c317b4df0b50286ba4d
   filename: strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.719496+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214258,7 +214639,7 @@
     Words: 4179
     Images: 0
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214291,6 +214672,12 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:24:10.591413+00:00'
   link_text: 'March 20, 2025: Appendix A - CSWB Gender-Based Safety Audit Action Plan
     (PDF, 296.24 KB)'
 - url: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
@@ -214298,7 +214685,7 @@
   filename: strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.720783+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214326,7 +214713,7 @@
     Words: 1455
     Images: 1
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214359,6 +214746,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:24:25.072278+00:00'
   link_text: 'September 11, 2025: Report for Consideration: CSWB Gender-Based Safety
     Audit Ac… (PDF, 218.37 KB)'
 - url: https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf
@@ -214366,7 +214759,7 @@
   filename: strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.731963+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -214393,7 +214786,8 @@
     Pages: 9
     Words: 1830
     Images: 23
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214425,6 +214819,12 @@
         Images: 23
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:24:39.829560+00:00'
   link_text: 2024 HamOntYouth Summit - Post-Event Report Exec. Summary (PDF, 6.47
     MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
@@ -214432,7 +214832,7 @@
   filename: strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.750592+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214460,7 +214860,7 @@
     Words: 7786
     Images: 40
   errors:
-  - 'no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214493,13 +214893,19 @@
       errors:
       - 'no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:24:54.372442+00:00'
   link_text: 2024 HamOntYouth Summit - Post-Event Report (PDF, 10.78 MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf
   md5: 73c8621e591050dba53dd929dd12e8d0
   filename: strategies_CSWB-Plan-2025-2029.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.756234+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214527,7 +214933,7 @@
     Words: 10458
     Images: 64
   errors:
-  - 'title, tagged, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214560,13 +214966,19 @@
       errors:
       - 'title, tagged, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:25:09.250093+00:00'
   link_text: Community Safety and Well-Being (CSWB) Plan(PDF, 2.25 MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-2-Page-Summary-Report.pdf
   md5: 9be630a2a290faf9e82567b358c71630
   filename: strategies_Connected-Communities-2-Page-Summary-Report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.758525+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214594,7 +215006,7 @@
     Words: 480
     Images: 2
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214627,13 +215039,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:25:23.895410+00:00'
   link_text: Connected Communities - Condensed Summary Report (PDF, 220.71 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf
   md5: 043302b19665895265f53307d3b6404a
   filename: strategies_Connected-Communities-Full-Report-final.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.769508+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214661,7 +215079,7 @@
     Words: 17639
     Images: 64
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214694,13 +215112,19 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:25:38.408926+00:00'
   link_text: 'Download Hamilton: A Connected Community(PDF, 5.98 MB)'
 - url: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf
   md5: 071ffe0b425789e72cee227d4510bf7a
   filename: strategies_Connected-Communities-Summary-Report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.773261+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214728,7 +215152,7 @@
     Words: 1995
     Images: 14
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214761,13 +215185,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:25:53.112163+00:00'
   link_text: Connected Communities - Summary Report (PDF, 1.2 MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Summary-of-Assets-Final.pdf
   md5: 41d1a2b6597ce04b4f2dbc344a74d935
   filename: strategies_Summary-of-Assets-Final.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.775392+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -214794,7 +215224,8 @@
     Pages: 1
     Words: 497
     Images: 0
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214826,13 +215257,19 @@
         Images: 0
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:26:07.666590+00:00'
   link_text: Download City of Hamilton Summary of Assets(PDF, 295.77 KB)
 - url: https://www.hamilton.ca/sites/default/files/2023-12/strategy-2023-HPS-Asset-Management-Plan.pdf
   md5: 28c69706ea07ec06dca45316022c5984
   filename: strategy-2023-HPS-Asset-Management-Plan.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.782199+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214860,7 +215297,7 @@
     Words: 30723
     Images: 230
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214893,13 +215330,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:26:22.511580+00:00'
   link_text: 2023 Hamilton Police Services Asset Management Plan (PDF, 3.61 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf
   md5: 68d597e9130eec2b59b7b7e13ba4bd5b
   filename: strategy-asset-management-plan-overview-jun2022.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.789259+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214927,7 +215370,7 @@
     Words: 25465
     Images: 623
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -214960,13 +215403,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:26:37.200254+00:00'
   link_text: 2022 Corporate Asset Management Plan Overview(PDF, 3.67 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-childrens-community-services-asset-management-plan-2024.pdf
   md5: 2739dcaa1a73f0f2ffa85caedfcc1e43
   filename: strategy-childrens-community-services-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.796015+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -214994,7 +215443,7 @@
     Words: 21323
     Images: 210
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215027,6 +215476,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:26:51.795202+00:00'
   link_text: 2024 Children's & Community Services Asset Management Plan (PDF, 3.27
     MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
@@ -215034,7 +215489,7 @@
   filename: strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.807262+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215062,7 +215517,7 @@
     Words: 32364
     Images: 353
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215095,13 +215550,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:27:06.441282+00:00'
   link_text: 2024 CityHousing Hamilton Asset Management Plan (PDF, 6.1 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-04/strategy-corp-real-estate-asset-management-plan-2024.pdf
   md5: 90d7cf0b1eb29f163590e895292abc41
   filename: strategy-corp-real-estate-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.814321+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215129,7 +215590,7 @@
     Words: 11823
     Images: 135
   errors:
-  - 'title, tagged, lang, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215162,13 +215623,19 @@
       errors:
       - 'title, tagged, lang, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:27:21.011099+00:00'
   link_text: 2024 Corporate Real Estate Office Asset Management Plan (PDF, 3.27 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
   md5: 21f3b64fe2a7be9a273bed2506f4e764
   filename: strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.820928+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215196,7 +215663,7 @@
     Words: 22586
     Images: 207
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215229,6 +215696,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:27:35.880525+00:00'
   link_text: 2024 Corporate Asset Management Fleet Services & EAM Asset Management
     Plan (PDF, 3.02 MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-overview-appendix-b.pdf
@@ -215236,7 +215709,7 @@
   filename: strategy-corporate-asset-management-overview-appendix-b.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.826594+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -215263,7 +215736,8 @@
     Pages: 48
     Words: 12878
     Images: 82
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215295,13 +215769,19 @@
         Images: 82
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:27:50.572491+00:00'
   link_text: 2025 Corporate Asset Management Overview - Appendix B(PDF, 2.48 MB)
 - url: https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-proposed-levels-service.pdf
   md5: 9eb6454783ab47452f0bf57827b8fd7b
   filename: strategy-corporate-asset-management-proposed-levels-service.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.837733+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215329,7 +215809,7 @@
     Words: 91456
     Images: 1342
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215362,13 +215842,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:28:05.079735+00:00'
   link_text: Corporate Asset Management - Proposed Levels of Service (PDF, 5.99 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
   md5: 9a57a1f180704beb8dbe756834238a17
   filename: strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.846187+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215396,7 +215882,7 @@
     Words: 26162
     Images: 224
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215429,6 +215915,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:28:19.687797+00:00'
   link_text: 2024 Corporate Facilities Energy Management Asset Management Plan (PDF,
     4.38 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-04/strategy-fire-dept-asset-management-plan-2024.pdf
@@ -215436,7 +215928,7 @@
   filename: strategy-fire-dept-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.855791+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215464,7 +215956,7 @@
     Words: 31569
     Images: 257
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215497,13 +215989,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:28:34.276716+00:00'
   link_text: 2024 Fire Department Asset Management Plan (PDF, 5.11 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf
   md5: df4b4bceb59d5657e379db0c02119578
   filename: strategy-forestry-horticulture-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.866478+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215531,7 +216029,7 @@
     Words: 31061
     Images: 273
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215564,13 +216062,19 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:28:49.218402+00:00'
   link_text: 2024 Forestry and Horticulture Asset Management Plan (PDF, 5.81 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
   md5: fe6a2106ec437cc2b8a5b903524154af
   filename: strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.880046+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215598,7 +216102,7 @@
     Words: 34080
     Images: 182
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215631,13 +216135,19 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:29:03.882841+00:00'
   link_text: 2024 Hamilton Municipal Cemeteries Asset Management Plan (PDF, 7.12 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf
   md5: 803dd0969cbea9ea68fe4cdf216dd0f3
   filename: strategy-hpl-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.890953+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215665,7 +216175,7 @@
     Words: 30968
     Images: 260
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215698,13 +216208,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:29:18.420909+00:00'
   link_text: 2024 Hamilton Public Library Asset Management Plan (PDF, 5.81 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hsr-asset-management-plan-2024.pdf
   md5: 8031983c67a709bbb3beaa29bd18a959
   filename: strategy-hsr-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.895883+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215732,7 +216248,7 @@
     Words: 22488
     Images: 131
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215765,13 +216281,19 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:29:33.025438+00:00'
   link_text: 2024 HSR Asset Management Plan (PDF, 2.04 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf
   md5: 4f7bf5fc8ed1df20fb65489cc107522b
   filename: strategy-information-technology-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.901715+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215799,7 +216321,7 @@
     Words: 18815
     Images: 190
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215832,13 +216354,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:29:47.604949+00:00'
   link_text: 2024 Information Technology Asset Management Plan (PDF, 2.68 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
   md5: 3bcaa9f55daa004538228f85ae8290fd
   filename: strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.909525+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215866,7 +216394,7 @@
     Words: 29101
     Images: 223
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215899,13 +216427,19 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:30:02.570250+00:00'
   link_text: 2024 Licensing & By-law Services Asset Management Plan (PDF, 4.16 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf
   md5: 7e239816ea0376274c2c2eeca1193c4f
   filename: strategy-long-term-care-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.918303+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215933,7 +216467,7 @@
     Words: 29363
     Images: 266
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215966,13 +216500,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:30:17.308209+00:00'
   link_text: 2024 Long Term Care Asset Management Plan (PDF, 4.79 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-natural-assets-asset-management-plan-2024.pdf
   md5: 9dbea15225fd1ae07a0022f059d4b174
   filename: strategy-natural-assets-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.922363+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216000,7 +216540,7 @@
     Words: 6594
     Images: 34
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216033,13 +216573,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:30:31.829079+00:00'
   link_text: 2024 Natural Assets Asset Management Plan (PDF, 1.83 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf
   md5: 8157874c2457db853f816fb3d3d8ff4f
   filename: strategy-paramedics-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.928687+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216067,7 +216613,7 @@
     Words: 26599
     Images: 249
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216100,13 +216646,19 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:30:46.509863+00:00'
   link_text: 2024 Paramedics Asset Management Plan (PDF, 3.34 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-12/strategy-parking-system-asset-plan-2023.pdf
   md5: 97d596086b8256f7abd482620438da6e
   filename: strategy-parking-system-asset-plan-2023.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.935327+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216134,7 +216686,7 @@
     Words: 35039
     Images: 271
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216167,13 +216719,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:31:01.094235+00:00'
   link_text: 2023 Municipal Parking System Asset Management Plan (PDF, 3.56 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
   md5: bc0f2042fab98624a26e6805c03d71a3
   filename: strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.952096+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216201,7 +216759,7 @@
     Words: 42706
     Images: 207
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216234,13 +216792,19 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:31:16.009177+00:00'
   link_text: 2024 Parks and Recreational Trails Asset Management Plan (PDF, 10 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-public-health-services-asset-management-plan-2024.pdf
   md5: 1cc4083e1294137719923eb885012d64
   filename: strategy-public-health-services-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.957556+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216268,7 +216832,7 @@
     Words: 19245
     Images: 97
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216301,13 +216865,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:31:30.746171+00:00'
   link_text: 2024 Public Health Services Asset Management Plan (PDF, 2.68 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf
   md5: 0e63b7be6090f2f6c3e8e89963053c7e
   filename: strategy-recreation-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.966864+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216335,7 +216905,7 @@
     Words: 31457
     Images: 273
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216368,13 +216938,19 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:31:45.239470+00:00'
   link_text: 2024 Recreation Asset Management Plan (PDF, 5.17 MB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/strategy-tourism-and-culture-asset-management-plan-2024.pdf
   md5: 9e3721ec255d8243db2aa2b87b0ac887
   filename: strategy-tourism-and-culture-asset-management-plan-2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.979263+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216402,7 +216978,7 @@
     Words: 28420
     Images: 247
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216435,13 +217011,19 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:31:59.881982+00:00'
   link_text: 2024 Tourism and Culture Asset Management Plan (PDF, 6.91 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf
   md5: a31fe996f494249c568ad590fda3ae3e
   filename: strategy-transportation-asset-management-plan-jun2022.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.987545+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216469,7 +217051,7 @@
     Words: 38194
     Images: 408
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216502,13 +217084,19 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:32:14.602706+00:00'
   link_text: 2022 Transportation Asset Management Plan (PDF, 4.33 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-12/strategy-waste-management-asset-plan-2023.pdf
   md5: 31b1d2d773fd8e1474d79011e4c85b39
   filename: strategy-waste-management-asset-plan-2023.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:47.993859+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216536,7 +217124,7 @@
     Words: 30225
     Images: 266
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216569,13 +217157,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:32:29.485874+00:00'
   link_text: 2023 Waste Management Asset Management Plan (PDF, 3.12 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-12/strategy-waterworks-asset-management-plan-jun2022.pdf
   md5: 9138df36c8dab235220553f9f9006562
   filename: strategy-waterworks-asset-management-plan-jun2022.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:48.007928+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216603,7 +217197,7 @@
     Words: 58526
     Images: 597
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216636,6 +217230,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:32:44.137014+00:00'
   link_text: 2022 Waterworks Asset Management Plan (PDF, 8.17 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-notice-of-commencement-pic1.pdf
   md5: 7f174cffc9a102243267fdbeb4cd3a25
@@ -217084,7 +217684,7 @@
   filename: uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:48.118021+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217112,7 +217712,7 @@
     Words: 509
     Images: 2
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217145,12 +217745,18 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:32:58.858038+00:00'
 - url: https://www.hamilton.ca/sites/default/files/2024-09/violence-workplace-prevention-policy.pdf
   md5: c006c50563bab37bd1b938d0df64f464
   filename: violence-workplace-prevention-policy.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T12:32:48.120437+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217178,7 +217784,7 @@
     Words: 2383
     Images: 8
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217211,6 +217817,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:33:13.481497+00:00'
   link_text: Violence in the Workplace Prevention Policy HR-69-13 (PDF, 135.32 KB)
 - url: https://www.hamilton.ca/sites/default/files/2023-12/07-170-consolidated-nov302023.pdf
   md5: 9c0f4d247a537bf39fad99f77743a501
@@ -217250,7 +217862,7 @@
   filename: 2025-spring-community-compost-giveaway-events-july292025.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:38.997240+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217278,7 +217890,7 @@
     Words: 784
     Images: 2
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217311,13 +217923,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:33:28.100205+00:00'
   link_text: 2025 Spring Community Compost Giveaway Events
 - url: https://www.hamilton.ca/sites/default/files/2024-12/BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
   md5: 5d6054bee86fbe618acd85216010aa8f
   filename: BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.021477+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217345,7 +217963,7 @@
     Words: 4061
     Images: 49
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217378,6 +217996,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:33:42.592742+00:00'
   link_text: Barton-Tiffany Lands – Zone B, Environmental Risk Management Measures
     for Temporary Shelter Housing
 - url: https://www.hamilton.ca/sites/default/files/2022-10/Comms-Update-CityofHamiltonAAACreditRatingCityWide.pdf
@@ -217452,7 +218076,7 @@
   filename: CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.028726+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217480,7 +218104,7 @@
     Words: 1203
     Images: 2
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217513,13 +218137,19 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:33:57.461781+00:00'
   link_text: Clean and Green Hamilton Strategy 2024 Year End Update (ES2506)
 - url: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
   md5: 0e2c1a1a03fbb23ac8a61a2d36b04ecf
   filename: CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.029975+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217547,7 +218177,7 @@
     Words: 687
     Images: 2
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217580,6 +218210,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:34:11.962271+00:00'
   link_text: HSR 150 Celebration Activities and Events (City Wide) (HSR2502)
 - url: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf
   md5: 58bde29ce193e9132cbfbac48041d432
@@ -217620,7 +218256,7 @@
   filename: CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.032603+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217648,7 +218284,7 @@
     Words: 821
     Images: 4
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217681,6 +218317,12 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:34:26.606101+00:00'
   link_text: Release of Environmental Studies – Temporary Outdoor Shelter Project
     at 259 Caroline Street
 - url: https://www.hamilton.ca/sites/default/files/2022-09/DetourRoutes_403Closure.pdf
@@ -217722,15 +218364,22 @@
   filename: Final-Phase1-ESA-BarttonTiffany-Feb.8.2018.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.168169+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:34:41.466775+00:00'
   link_text: Final – Phase One Environmental Site Assessment, Barton-Tiffany Lands
 - url: https://www.hamilton.ca/sites/default/files/2025-09/Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf
   md5: e9a976fd6024c640dc61720d1df2e04e
@@ -217771,7 +218420,7 @@
   filename: PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.177327+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217799,7 +218448,7 @@
     Words: 5307
     Images: 19
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217832,6 +218481,12 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:34:56.149398+00:00'
   link_text: Project-Specific, Pre-Demolition Designated Substance Survey, Barton-Tiffany
     Lands
 - url: https://www.hamilton.ca/sites/default/files/2023-03/ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf
@@ -218077,7 +218732,7 @@
   filename: comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.360737+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218105,7 +218760,7 @@
     Words: 1415
     Images: 4
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218138,6 +218793,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:35:10.716057+00:00'
   link_text: 2024 Construction and Preventative Maintenance Projects in the Right-of-Way
     (ENG24002)
 - url: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-HSR-150-Celebrations.pdf
@@ -218145,7 +218806,7 @@
   filename: comm-update-HSR-150-Celebrations.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.362314+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218173,7 +218834,7 @@
     Words: 592
     Images: 2
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218206,13 +218867,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:35:25.432340+00:00'
   link_text: HSR 150 Celebration Activities and Events
 - url: https://www.hamilton.ca/sites/default/files/2022-09/comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
   md5: 148c4b9e10b01fa339ada0998fb3b485
   filename: comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.363543+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218240,7 +218907,7 @@
     Words: 901
     Images: 2
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218273,13 +218940,19 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:35:40.239119+00:00'
   link_text: Chedoke Creek Remediation - HW.22.08 (City Wide)
 - url: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf
   md5: f00c20370c91b81fdcd36b836d555a13
   filename: comm-update-HW2402-Annual-Drinking-Water-Report.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.370143+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218307,7 +218980,7 @@
     Words: 4718
     Images: 5
   errors:
-  - 'tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218340,13 +219013,19 @@
       errors:
       - 'tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:35:54.851488+00:00'
   link_text: Annual Drinking Water Report HW2402
 - url: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
   md5: d6168490077aa26a987d9ece848b97f5
   filename: comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.371539+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218374,7 +219053,7 @@
     Words: 894
     Images: 2
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218407,6 +219086,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:36:09.490777+00:00'
   link_text: City of Hamilton Watershed Action Plan Public Engagement HW2403
 - url: https://www.hamilton.ca/sites/default/files/2024-06/comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf
   md5: 5c3f4290b8b532773c4c2c1069c602fb
@@ -218481,7 +219166,7 @@
   filename: comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.375691+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218509,7 +219194,7 @@
     Words: 1433
     Images: 2
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218542,13 +219227,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:36:24.142623+00:00'
   link_text: Harmful Algal Bloom Strategy Update (HW2505)
 - url: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
   md5: 79afc4bab062c35cbb2ece6f83fe788b
   filename: comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.377106+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218576,7 +219267,7 @@
     Words: 378
     Images: 4
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218609,6 +219300,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:36:39.087167+00:00'
   link_text: Maintenance on the Lincoln M. Alexander Parkway (TD2401)
 - url: https://www.hamilton.ca/sites/default/files/2024-07/comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf
   md5: 65f1e458ab964c459c39f7bdd312253a
@@ -218649,7 +219346,7 @@
   filename: comm-update-PW-HSR-150-apr2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.379766+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218677,7 +219374,7 @@
     Words: 260
     Images: 2
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218710,13 +219407,19 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:36:53.779890+00:00'
   link_text: Hamilton Street Railway (HSR) 150 (HSR2402)
 - url: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf
   md5: 69ce64c4678dbf55f767717587134d50
   filename: comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.381291+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -218743,7 +219446,8 @@
     Pages: 2
     Words: 470
     Images: 3
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218775,6 +219479,12 @@
         Images: 3
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:37:08.499428+00:00'
   link_text: Mountain Drive Park Soils Finding (ES2402)
 - url: https://www.hamilton.ca/sites/default/files/2024-08/comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf
   md5: bc43f1dc7b5eb9f90ad241416e009375
@@ -218815,7 +219525,7 @@
   filename: comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.383882+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218843,7 +219553,7 @@
     Words: 630
     Images: 2
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218876,6 +219586,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:37:23.415737+00:00'
   link_text: Playground, Spray Pads and Play Court Facilities - Maintenance Service
     Levels Update (ES2403)
 - url: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
@@ -218883,7 +219599,7 @@
   filename: comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.386473+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218911,7 +219627,7 @@
     Words: 782
     Images: 5
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218944,6 +219660,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:37:38.151663+00:00'
   link_text: 'Update #3 – Order to Comply – Fire Damage for Woodlands Park Washroom
     Located at 501 Barton Street East (CFEM2503)'
 - url: https://www.hamilton.ca/sites/default/files/2024-06/comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf
@@ -218985,7 +219707,7 @@
   filename: comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.390451+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -219013,7 +219735,7 @@
     Words: 1595
     Images: 8
   errors:
-  - 'tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -219046,6 +219768,12 @@
       errors:
       - 'tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:37:52.781256+00:00'
   link_text: 'Technical Standards and Safety Act (TSSA) – Inspection Report #10150505
     for Bernie Morelli Recreation Centre located at 876 Cannon Street East (CFEM2404)'
 - url: https://www.hamilton.ca/sites/default/files/2024-08/comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf
@@ -219155,7 +219883,7 @@
   filename: comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
   site: hamilton.ca
   crawled_at: '2026-03-16T13:43:39.397626+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -219183,7 +219911,7 @@
     Words: 1684
     Images: 6
   errors:
-  - 'lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -219216,6 +219944,12 @@
       errors:
       - 'lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:38:07.595770+00:00'
   link_text: Stoney Creek Water Quality - May 20 and 21, 2025 (HW2504) (PDF, 323.59
     KB)
 - url: https://www.hamilton.ca/sites/default/files/2024-06/comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf
@@ -412699,15 +413433,22 @@
   filename: 05-322%20-%20Repealed.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.029477+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:38:22.296259+00:00'
   link_text: Vital Services
 - url: https://www.iap2canada.ca/Resources/Documents/0702-Foundations-Core-Values-MW-rev1.pdf
   md5: 6b18263867a922d9189556ee6ff2af93
@@ -412715,15 +413456,22 @@
   filename: 0702-Foundations-Core-Values-MW-rev1.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.034714+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:38:37.022165+00:00'
   link_text: International Association for Public Participation (IAP2)
 - url: https://www.hamilton.ca/sites/default/files/2022-03/10-221-consolidated.pdf
   md5: ed90f23f12dbe282db9446ee7948ecb7
@@ -412731,15 +413479,22 @@
   filename: 10-221-consolidated.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.039874+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:38:51.716144+00:00'
   link_text: City’s Property Standards
 - url: https://nwac-afac.ca/assets-knowledge-centre/2012_Building_on_the_Legacy_of_NWAC_Faceless_Doll_Project.pdf
   md5: 4bc4d92922a5423ec300a09e3afb2c18
@@ -412747,15 +413502,22 @@
   filename: 2012_Building_on_the_Legacy_of_NWAC_Faceless_Doll_Project.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.047286+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:39:06.671364+00:00'
   link_text: 'Building on the legacy of the NWAC Faceless Doll Project: Create your
     own Facel…'
 - url: https://www.hamilton.ca/sites/default/files/2022-09/22-235.pdf
@@ -412764,15 +413526,22 @@
   filename: 22-235.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.083862+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:39:21.361857+00:00'
   link_text: City of Hamilton Nuisance Party By-law (PDF, 20.25 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-05/25-094.pdf
   md5: bf1f9fdd21fb72f623102d5a23b68598
@@ -412780,15 +413549,22 @@
   filename: 25-094.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.095218+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:39:35.885870+00:00'
   link_text: By-law Number 25-094(PDF, 225.83 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-05/25-109.pdf
   md5: 50363388bbde03b10d9f15dabdd38914
@@ -412796,15 +413572,22 @@
   filename: 25-109.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.099663+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:39:50.884211+00:00'
   link_text: By-law Number 25-109(PDF, 358.93 KB)
 - url: https://www.hamilton.ca/sites/default/files/2025-05/25-110.pdf
   md5: 531456f3462a2946124f994b601db79b
@@ -412812,15 +413595,22 @@
   filename: 25-110.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.103924+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:40:05.666114+00:00'
   link_text: By-law Number 25-110(PDF, 358.03 KB)
 - url: https://ontariohealth.ca/errors/404
   md5: fc1e6db45694d8058dea8cbcb4268b39
@@ -412828,15 +413618,22 @@
   filename: 404.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.116087+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:40:20.249439+00:00'
   link_text: '9 Million Prescriptions: what we know about the growing use of prescription
     opioids in Ontario'
 - url: https://www.publichealthontario.ca/-/media/Documents/A/24/Antibiotic-resistant-organism-risk-factor-screening-guide.pdf?rev=8fadc36772db477e839094ed249b8f8f&sc_lang=en
@@ -412845,15 +413642,22 @@
   filename: Antibiotic-resistant-organism-risk-factor-screening-guide.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.119193+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:40:34.929691+00:00'
   link_text: Screening checklist to identify patients, clients, or residents who may
     be at i…
 - url: https://ccsa.ca/sites/default/files/2019-09/CCSA-Language-and-Stigma-in-Substance-Use-Addiction-Guide-2019-en.pdf
@@ -412862,15 +413666,22 @@
   filename: CCSA-Language-and-Stigma-in-Substance-Use-Addiction-Guide-2019-en.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.128477+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:40:49.592194+00:00'
   link_text: 'Overcoming Stigma through Language: A Primer'
 - url: https://www.ccsa.ca/sites/default/files/2019-05/CCSA-NAAW-Substance-Use-Disorder-Fact-Sheet-2018-en.pdf
   md5: 3fc197c2b85580d40211c51b4ad9d191
@@ -412878,15 +413689,22 @@
   filename: CCSA-NAAW-Substance-Use-Disorder-Fact-Sheet-2018-en.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.134765+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:41:04.493941+00:00'
   link_text: Substance Use Affects All Walks of Life Fact Sheet
 - url: https://www.hamilton.ca/sites/default/files/2022-09/COMM-update-2022-Annual-Rain-Barrel-Sale.pdf
   md5: a9d6bc13bd46068d3836c9edbab24ce0
@@ -412894,15 +413712,22 @@
   filename: COMM-update-2022-Annual-Rain-Barrel-Sale.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.138327+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:41:19.190571+00:00'
   link_text: 2022 Annual Rain Barrel Sale - HW.22.07
 - url: https://www.hamilton.ca/sites/default/files/2022-07/CU-pw-ChedokeCreekRemediation-hw22.05.pdf
   md5: d24c5718ec703f87468e5d4aea033105
@@ -412910,15 +413735,22 @@
   filename: CU-pw-ChedokeCreekRemediation-hw22.05.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.142594+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:41:33.871639+00:00'
   link_text: Chedoke Creek Remediation - HW.22.05
 - url: https://www.hamilton.ca/sites/default/files/2022-07/CU-pw-safety-enhancements-main-king-streets-july5-2022.pdf
   md5: 6402adc367fea5ac65defdae7cb89af1
@@ -412926,15 +413758,22 @@
   filename: CU-pw-safety-enhancements-main-king-streets-july5-2022.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.146430+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:41:48.519773+00:00'
   link_text: 'Update: Safety Enhancements to Main Street and King Street (CRO22022)'
 - url: https://www.mmiwg-ffada.ca/wp-content/uploads/2019/06/Calls_for_Justice.pdf
   md5: d825c34974ad789206098b7fdcef6f82
@@ -412942,15 +413781,22 @@
   filename: Calls_for_Justice.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.150787+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:42:03.473863+00:00'
   link_text: Calls for Justice for MMIWG
 - url: https://ehprnh2mwo3.exactdn.com/wp-content/uploads/2021/01/Calls_to_Action_English2.pdf
   md5: 09ac2ae3e5b46d492fd962f0152b2938
@@ -412958,15 +413804,22 @@
   filename: Calls_to_Action_English2.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.154035+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:42:18.244886+00:00'
   link_text: Truth and Reconciliation Commission’s Calls to Action
 - url: https://www.hamilton.ca/sites/default/files/2023-10/Ccomm-update-Accessible-Transportation-Services-Customer-Communication.pdf
   md5: 1fb6cbb2bcf3a64ac2518eb30caad621
@@ -412974,15 +413827,22 @@
   filename: Ccomm-update-Accessible-Transportation-Services-Customer-Communication.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.156524+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:42:32.773858+00:00'
   link_text: Accessible Transportation Services Upcoming Customer Communications
 - url: https://www.hamilton.ca/sites/default/files/2022-10/Comm-update-New-HSR-myRide-Hybrid-Service-Waterdown.pdf
   md5: 03aeb27dfe537642dbe2252e60e7b28c
@@ -412990,15 +413850,22 @@
   filename: Comm-update-New-HSR-myRide-Hybrid-Service-Waterdown.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.159131+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:42:47.634999+00:00'
   link_text: New HSR myRide Hybrid Service in Waterdown
 - url: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-2025CapitalConstructionProjectsRight-of-Way.pdf
   md5: a31d5cc1c98e3320d5e5513acb8de31f
@@ -413006,15 +413873,22 @@
   filename: CommsUpdate-PW-2025CapitalConstructionProjectsRight-of-Way.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.176044+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:43:02.277897+00:00'
   link_text: 2025 Capital Construction Projects in the Right-of-Way (ENG2501)
 - url: https://www.un.org/esa/socdev/unpfii/documents/DRIPS_en.pdf
   md5: 9ccf260bb0558566e3bf864d5d4d04bb
@@ -413022,15 +413896,22 @@
   filename: DRIPS_en.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.185486+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:43:16.986741+00:00'
   link_text: United Nations Declaration on the Rights of Indigenous Peoples
 - url: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/55ee1da8f27b41bab2d45d9e896de83d/OH_HPS_CODE_ZERO_EVENTS_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337992000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD608F%2BLyNmOdQ7EaO56Vzg0yltAHsnjvnyx6ivAR36pgIgGQmqOLv2ey1h9uIeupYvJVRbKfLBYeir7tdsn1tpjj8qswUIaxAAGgw2MDQ3NTgxMDI2NjUiDHnNi9dC58MoQspT7CqQBX1LBnEul8BMYn5ilKPAyxW1uLMt0nR9Uv5zIdAuqx6VUBRbmyfucG%2B5wEv5uGsDbVZHL%2BT2H9%2FXyHqSKG0Cv%2Bc4HsFOZG%2FSe3uH5O48zsEjEnFNzrL1ujYBEaEwTObQ1Uk%2Br%2Fekb2hYCar93sj4wXXazIw5rmoyRiUN6pYiw0wksloIafA2gcq4NTwILvsE7z7WG5I%2FnEosP8xdrWcJzFIchsKTopWw78lnoH3Wg0nEVKZSd96cfh%2B%2FdIG16VAcLlrPxk1LZ%2B0IlxAUBb4e2xGpB7HAnJdvLIRC4h8g3FcPsdKWIhgp4Wl1MNVAqsjbbv7iwc6m2x9ApH%2BFMleZUZnb3G14%2F0yNb7HzbIqDeqU0NYj1MWc18iIj3kfmzvREQqQ%2Fe0fPPDhxf%2B0eoYtT826b%2Fq6Oqzr8qb7k%2F%2BVVnfKEVQm8VTZCero2pbs26NxSfR1fn6RJvFiotRQ0vXPd76%2B28KPKU%2BC%2Fw%2Bm5x4Ga2AVVcX4%2BJjn8wp%2BdAppGmr5CbFDVh6WgAgIeQyd%2F3QSPlQ7Wg2%2B75pGb0%2FmzV7tt3YEHc6bnOvb%2Fax9xBwDtZ9POgqivf%2FMB4cl%2F8fqj6OXh2G7rGLVMkOi%2FzRjlBoJvYHJ24BStsnVIcD5dvBLPu93rUMDW6rgf9dLfMNcsdXu76bDBBhngWOs0dL%2BKP%2FckjjyQxFqZDRYktROgqqHeHxqP3cuXHt5hBDnh6KfVuJy%2BXaMidtGaq%2FB8uvu%2BmAMtiKcJiLoiJyg0YTYleqz%2FysTFVaPlzv5TgZ1af6NsgQb6mi6gzYKo9FpjmtfLU%2BzTN9HS3bxq2X7sL8Ofc6MhdUKsdRCRNO4V7ZIlleU%2FDltIXc0MaeNDqyNaaQiNqwltpJocMJKgs9IGOrEBHwAlA9v0365Dy1Geit%2BrVFyrrYOeyU71wyVrw33yOx1SweHvz3G5RHaknIEvZp11T5PmDnB1xT6KxkVtn7pIB3isPeDf1LG0cZ2jeYDB%2FkrZvt1Ao9a%2FdLoVFbmkYfX2Ini6FVsjvxI3XuK0Rnwi4XL9qbJ0QqZmfMxCHNZ2RGj1a79SUReE9GRBLwqkPL2Kf31nDjjHnWiQ77KTswLdwIqwRTQyB917qY17pg%2B4Z2zj&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115034Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE4CT55MKG%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=80913a22ae1ad8fefb8e6745f65a5e5b56f6499542f1ca45f92bbc96ac7c7ca5
   md5: ef660aa6c55b49b644175e7d4d1ba41a
@@ -413038,105 +413919,154 @@
   filename: OH_HPS_CODE_ZERO_EVENTS_Metadata.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.315954+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:43:31.800216+00:00'
 - url: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/256057f97a9a4819b401b21c40852124/OH_HPS_EVENT_RESPONSE_TRANSPORTS_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337995000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQCGf%2FYgxZTYKTkZ%2F7iO0PmgJ0yRSpqYbySLM8h6W6ghSQIgRPd36yY6AcMUpSKzwZqgEB5uuJcfEOq%2B7r46lK7yPBkqsgUIaRAAGgw2MDQ3NTgxMDI2NjUiDPvWXzwmxjcDyGUcBiqPBcEjRi91dIHu%2FRv3dBRXsQ0bEItpcbQf7%2B3lKFyh5%2FH5vdsct3bekcCuC%2FkZMvyZinYEeBE6w%2B6Yrw37KFa3ndt1nw1xsRwUI%2FZgG8VdfvZl2CQmXFDbkwiGB5UNg1KZTzr7Ul3ZaomBQywGt8Nn5Wi%2Faptwzsg%2BAfb4w2ehGMdQBkxTTUEXDxkS3Hf7x0bA87dH%2BW0nRzia3pUiXshXzS6lsqJoYtVGpeLqxAScuJhyQzU%2BvlRoIKBKom4qxFuPR%2Fm8dQ3bzAugqVKxGCARPIOfFKHcvlG39n4IxSSpv1G5JIunArxmdLMmB%2Btpc%2Fpnm8IuWP%2BIhoYvqb5JX4H9EWkDSPzfzJjPnJ2PbDYJv7al5haFwIwCVAnrCZCH08tlUh%2BF0FtHVlwwCWGhtAqZZqJEK50CqdmehzkI2Uu3phIlNgumL5X7%2FDjkf5SM%2F2Kid9nQxEUjz9z9r5RDEOAXZZ7N6mZcE%2Bjzc277JStyyGXvnHQiiBd%2Bv%2Fwo0wGbtvdihhlDalxvSQHKEObAH9cnbMbl4Fxa4vSAD37RBVOGlgnTI6BdmznL93N8wNKcwSn%2BSiqUSIBeauKHKJqY0Ria4NyJBuxch%2BYvR1t9WIrZgwWt6pbaiDNSMawNf1Kw8UM0GxqtJsg6uyHUm36HQvG%2Ffa1vf13d6flGyln3zpJoCTfdw2Cvx21IADL5GXBgIfWS1MsHRdsZ%2FgxUFPPuC3jPLKhphiDzaHHM77Rbvcwoqxa7XK0cNfCT7zMjRnHp%2BTZXWbdbktu0ZLy9W8NFqluycH38V%2F96O9hFxFGsPH5vP2jaI6uYYLy%2FEU8ucZzZQXBbBGBb2Mb3WZb7AQsa%2B4e%2FyOVo8T0ihR9Fqj68qLW3W8Qw3NOy0gY6sQFRwW4F7kdjMs2IFvhMlLa3HT9ugWlIJ36%2FVAy6mcYaquFir7Sal1a7GTGH3JPKLymn98P7nZGpGJGFX4iStb0pBn0pVNnp1ENk4laW4i8%2F82ig5J3egRAB1tyrBubvwMeJtd4CpMw0U90AD5huGlHUKJ%2BBgkx6R56tcz1IyGiS7Q4KkiTwWvMYg0Qu6WsFglSfhcF%2BBj9FrtbiSliZYYbPvgpyM7vjsnwe%2B8CIeofWXgs%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115014Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE65C42VDL%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=5a7677c64495b4008d7529b7327bedd40fa11a13c0321b08222bb80bf053e87e
   md5: de751b50b4a684b76fb5eecd1e3426f4
   file_hash: b7a9c627edc02938b79f3786e0ba8e602601a641c5b8be091804c31234f3b69f
   filename: OH_HPS_EVENT_RESPONSE_TRANSPORTS_Metadata.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.318477+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:43:46.756842+00:00'
 - url: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/1635299d56444d9eb87c6e508d6111d5/OH_HPS_REASON_CALL_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337992000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKL%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJGMEQCIGaqlAYC3rUsK0n5cqKmLTGcdnBOb5FRfNgI%2F25ZDdrRAiB%2Fat7JhpnJmf8ioRr7LVhS3iaXvO%2FiER09mtH4CnH7piqzBQhrEAAaDDYwNDc1ODEwMjY2NSIMTMpp9jmcGT%2FFqKMtKpAFoHQtykudiXkMPGQixfCtLUK%2B2wAODZi4iWF2ZODONxUpUaosyMMnHa6u8%2BRQxMNVB%2BOLaXuRkqsLvlmg%2BMkOAsbQTHyzdXbUUhGd973j7yPc%2BGS3Cs3FItEHBff0SoYKqjmoP0MmuJ%2FNWj54hJQ6uIu2I%2FqWdPPhrtxQqK2D3Yocy4a19%2BIF%2BSmxD7SPfvAJafhFDBmGcYiTQF%2FvHlR%2FFi3VaRxu2dWsu3UJzKYdqo1ma58QLWxiScTiTrIJlXJcewbNiDrgp%2F099HGxBwSGsvJ6AARi4%2FMReDXZ%2FUp6ysXgF67e078qJN0I7ML%2Fpp4TdUZ6qhraLWsVGvXNXctim0h%2B4qQBD0lhkIDVrbAFAk5Ft4UGQE0jV3Iawc9641A%2FYPW3O1Mry03ruicceo%2BFlLQc1jNsdZ2vIo7%2F2607JiIjlCAAO5D0%2F6tXUgZ5i2YwDNzFylO%2FpUISlhcic26ZmhmqIdTFC9zyUk7ROZQI2eL9%2BqRx3%2BvHcVHtV%2FJxXfZXQrvZim048riwLEkNrBctEmOcPVmlG%2BeoIp2HGUcTQmYEIMcMrT9BSQ38gN6m7ZvlE%2BAg4dff3CafatkCQifRNzee49NItxiEwjxCbAD7oKEGQD04Es%2FTdTPw8ekvfs0hVYCWJNrMQj%2B%2BPB6cE14Xu6nYjzN%2FvTeimTr0QGqTlQGYSjeYDfpdLhbEGNmjoqObh%2BylAFjvpwnxRDlVx5r%2B1foglQP5BvXRFugTLCz7nZs1lNmjHPnx2Nw8L%2FyQ4lu4QVwNy5PaXwwh0vBE4kkBTOu%2FB9%2Fx%2F6xLnJofo95kopHJR%2B58WV6817%2FmXJTtXx6Tznou5PnrcZDrBssxFWLnBB5fF3EPxT6C9tF8ZKh6jzQwp4yz0gY6sgGfAqeQdbQiUOFu2%2BCuMHxAgZNcyrLKvFtIu5ZV%2FGgJqBB1UcXY20HtV057g3vznLmgjm4%2FAbGKBPoIrX%2BcOy64Pw6Du4omYyQw8GUwUfktRYPH7iAE%2B0V8k6bJ4Tww%2FGAEfZqv3b6wh5VsVCfFDfyWEVze7RYcTan9toZUmkyIMDes%2BRw4rK1uPOdJdsTsMrgBoCxC6tyA5meY1nv%2BtmQuz41Qdxc4kJi3TSWeKxwH0lfQ&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115038Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE5QHG3I2P%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=03280ac424e6c12d364316a36e1a54d58ac4bc1bc0beee0996e21ad855cc7ae4
   md5: 4a296e80df9850ea05bae4e57bb56202
   file_hash: 5396310bdcceac7d9f187546e780ec6745d8e51a8836b2dee8694eba9b14d7c6
   filename: OH_HPS_REASON_CALL_Metadata.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.321068+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:44:01.489071+00:00'
 - url: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/a24a0e243ad4484a9b87b811af9c92e8/OH_HPS_TARGET_RESPONSE_TIMES_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337992000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKD%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQC0A%2BYGazQPFUHkoMbn%2FhoRmnMTGDw0jIodhgPXnaDXYQIgILp7o6F%2FO7pNP%2FZ%2FsOnmxIbVv9Dpcm5EMgjBOQp6W%2BEqtAUIaRAAGgw2MDQ3NTgxMDI2NjUiDHH3rmE%2FeVDUYbl8%2FiqRBRSJo1J9GGfuyp6ZpyhDcVctvqKzfCLCE2WrijIPu59aYjCdHA1jDCEvjDaBlk4NoNgv%2B%2FBoQPOnuWVfzWPo7KZERGv2L5vBcIgT%2BltqTC3rzYZKIyvxo9AUWA7jEM7ytFFunosvDpR0hIBJTaC%2BrKrohqCsTb51D2m0OWOv3GGX8prVcinVW%2BU8ESUye3R9t%2FjbH5PDQTGt2k98WBebCaFzO6E74PiLuTgjc5weKENkj%2Bu18Rtbx82ScU8dOoo3QNhTSdlyN7B7CquGyMwvNOtnAiBrl7X1rQROsNUSXcv6lIkFd8oqHnsJjsH9n5jXCGpY5KIr74VoTZjUzEhqXhKE00UGLRdMpOpzHTaZacJIaxSi8laOwFXn%2Bbvj9JG%2F%2BXLtOpfdjuMXpYdwb58mkgDS5DqZowdrVuOTdXwwoVB2xhsl8rx5%2FuikTqf2CbEaYyyVZ%2FQOO6d3lCFDF%2BRtil4Y1i2Jd1xGHNtX6rsWvANPtZcY2uzcxGSxZVfENpcaUMSlYNUup7oun%2FLe4yXpchix8pcCUYrtNXJJ1lDwpdtkHMo8FG64heWq%2FBoLNavdF0Q5b2YRlb5TFmRR5Ftx0ZkefB%2Fy4SWtfbeFvViBCemXSK93uqj4FIEfEEHscaxRwOFMxu7PHbp6ZGneUwWbLAWLgtdzGIYMDQEFHDyJ1%2F9tgUKNDykI31%2B24HMXlREzk5iqRFFcTixoJZgmexyCrfjbSEp%2B38i7J1uGzJyBcX7mWzeDJXBIZZlEuJ2pUR53xQj%2BAVk%2FPbOpUQ%2Fl95ASj84%2BbrnGGA6Uejbf%2BJ5k1IgLcQ168PGYQ0zZzW4QZXMMrCON0BA1AuN66ooNx2D7LCK%2FO9mshgOhDjr73uM%2BRFQJezC%2F17LSBjqxAQ6%2FAZJyP8kuHVa%2BiBofTkB8mtSDeKnrnyXgshO0U8T%2B1yZ5Uzf9dRJVnJ5BY7Wyqi8FW65EfsAyuzpqz5tNqHvQTSzwEXpt9OPhn3rdfGZCdiqo9BOOtLFF0A%2Bur6Dr4hR%2Bas%2By6OnUvytjO2LWrMi0AWRGwteOyocRn6xvptEM%2BDdF8334hCr2REn%2FWR5SsicyfGHJnhNggTADwmlLLXt%2FFJyalr3%2Bk4%2B3qIiPuUir5g%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115037Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKERFX4TXAH%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=bd62b4ddddf79444d74d01b0632793f4de7bbacea65e21da233285e47cfcc7a2
   md5: 8fb507e0136702b9c88769a77a1d1470
   file_hash: 9333368f2678266be5cda5b22d84351c493c94a9d4d6faefb48be8fee922cbce
   filename: OH_HPS_TARGET_RESPONSE_TIMES_Metadata.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.323602+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:44:16.087961+00:00'
 - url: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/e2c1144162594eb4999152ff9581f008/OH_HPS_TRANSFER_OF_CARE_Metadata.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337997000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIHtfv33c6oINlQDJFNMfFV9Ov0wK1lI5MIbz282v%2Fxl2AiEA%2BrLKWDcwZyhHtehOahDDQSwwMK5x%2BnFaR%2BBZcrcyiMkqswUIahAAGgw2MDQ3NTgxMDI2NjUiDGQ300VrvDYj0Hea7yqQBc32EouYTyH%2BbtTbTOe2ah9x8eEUzck8L0AZk9cOZqhhPYtVHadBvX8cf8ZM2azPZKT0I6tlQ%2FP4ExLbRzISqFocGJkYe%2BC9ptUgmYZKgKS4m%2B6zjqm0X0rQEhkAqtWQCa8k5L7XlUFgknbjVlIc3znpIDV0VHv8ryO1JYusosBMMq5Pf8hlBumtBO9%2Fv6u%2Fol9JAXzqsP8jolSoVoaBDWUDRucuH8F0qYcBpYO7QGhfLsJb%2F6jnSqzQzx7voL4ctSP8uY6bOgQPwKhAL9vyj%2FELBwsq9WS7S64PSbuv78ikvbTvUPZgP3Cd4H7JPbUY2Bc%2F1gXE0na4mA8Mg3lKlxshHT%2F7q%2F8lP6QB8%2BEbNleO89HbHxthXqP9In7JcMvKPcZMA4FRdhy1gk%2FdQcVgfdOd%2FwKYp8F%2FPb1lIMpeqfSBtwMmwUTgo1Nnucha1ObcsyO7oJViEF3yHy455ULCrW2%2BKmr5CmeYYd4jdzkNAQdK%2B%2Bczwp3Q3QGq2S2E3qLW6ADvGeSwF9dldKgIf280HVOquAZgxa%2BwFn8j1%2FRK%2BKf%2By%2FX86MPOCwZj8BTyOVVnmNPgsi5Ec%2FeW475v%2BrnfTSDMEJDytmJ5axfvRZvtiB%2FU%2Byvaxw1S6vRiMscy3xA5jxsM3Y0vcsTd7PzxSiKILGFRDX0MdEUVvPj1ieg6StZ66Uwn85IvPDiFK26YQNfa8PWW2lqm%2BhnyuyuWBIP0Gva5RJgFb6irnKrYhLosR5ytxkQ7i9uxH5DJUaWfDk0o8c%2BZMHhHhN8bKOKQsH17dYz0dpNolAXfWMC2AqRXXEsw4hdZr%2BspKlTFkiU4E%2BCgiPLhn3VX9cmbG7%2F3M8Bt%2F%2F7eCdJZ1%2BBxDB0yhnLlNTiDMN71stIGOrEBQnLPzXpqrhzlqlZmlUv828aFcptAeNNa4Kuofnzi9RxiCAjIZVO4lGAywnjMLpfCbxHId2kQqU8AXsqKydRM2u248cy8Yb%2FwgGg5XSyrI5EnblLygrRLD3ajEWqkh%2B8FWu3L5MQAnpfLdNR%2B6WR8NvOo9BIy1mZ1HesFod5AClXZv1aRKfi%2FizGfJFM2T%2FzaOf03iN21jQlZiWLsa%2BR1b9UEw7BsRw34wiOLmEi2HHI8&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115040Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKEVXI6IW3K%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=2eeb0bb94b42dd2ae4c2c2f75af2125cbe56d39748665ec7b5d3735a17dcd643
   md5: ee55630ccdda87b08ec0825dc0ea4437
   file_hash: b76d7bd9723d8ddafa4a8cb5e1b67064e94d9d73e4ea4a65680c71ce09b88dfc
   filename: OH_HPS_TRANSFER_OF_CARE_Metadata.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.326024+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:44:30.980949+00:00'
 - url: https://www.arcgis.com/itemdata/92d347a7683b26a11dab76ccf9a5cac2/880c079ab768439f9bc3e81ba96e8454/OH_SCHOOL_CROSSING_GUARD_LOCATIONS.pdf?response-cache-control=max-age%3D0%2C%20s-maxage%3D1200%2C%20v%3D1634337999000&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKP%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD608F%2BLyNmOdQ7EaO56Vzg0yltAHsnjvnyx6ivAR36pgIgGQmqOLv2ey1h9uIeupYvJVRbKfLBYeir7tdsn1tpjj8qswUIaxAAGgw2MDQ3NTgxMDI2NjUiDHnNi9dC58MoQspT7CqQBX1LBnEul8BMYn5ilKPAyxW1uLMt0nR9Uv5zIdAuqx6VUBRbmyfucG%2B5wEv5uGsDbVZHL%2BT2H9%2FXyHqSKG0Cv%2Bc4HsFOZG%2FSe3uH5O48zsEjEnFNzrL1ujYBEaEwTObQ1Uk%2Br%2Fekb2hYCar93sj4wXXazIw5rmoyRiUN6pYiw0wksloIafA2gcq4NTwILvsE7z7WG5I%2FnEosP8xdrWcJzFIchsKTopWw78lnoH3Wg0nEVKZSd96cfh%2B%2FdIG16VAcLlrPxk1LZ%2B0IlxAUBb4e2xGpB7HAnJdvLIRC4h8g3FcPsdKWIhgp4Wl1MNVAqsjbbv7iwc6m2x9ApH%2BFMleZUZnb3G14%2F0yNb7HzbIqDeqU0NYj1MWc18iIj3kfmzvREQqQ%2Fe0fPPDhxf%2B0eoYtT826b%2Fq6Oqzr8qb7k%2F%2BVVnfKEVQm8VTZCero2pbs26NxSfR1fn6RJvFiotRQ0vXPd76%2B28KPKU%2BC%2Fw%2Bm5x4Ga2AVVcX4%2BJjn8wp%2BdAppGmr5CbFDVh6WgAgIeQyd%2F3QSPlQ7Wg2%2B75pGb0%2FmzV7tt3YEHc6bnOvb%2Fax9xBwDtZ9POgqivf%2FMB4cl%2F8fqj6OXh2G7rGLVMkOi%2FzRjlBoJvYHJ24BStsnVIcD5dvBLPu93rUMDW6rgf9dLfMNcsdXu76bDBBhngWOs0dL%2BKP%2FckjjyQxFqZDRYktROgqqHeHxqP3cuXHt5hBDnh6KfVuJy%2BXaMidtGaq%2FB8uvu%2BmAMtiKcJiLoiJyg0YTYleqz%2FysTFVaPlzv5TgZ1af6NsgQb6mi6gzYKo9FpjmtfLU%2BzTN9HS3bxq2X7sL8Ofc6MhdUKsdRCRNO4V7ZIlleU%2FDltIXc0MaeNDqyNaaQiNqwltpJocMJKgs9IGOrEBHwAlA9v0365Dy1Geit%2BrVFyrrYOeyU71wyVrw33yOx1SweHvz3G5RHaknIEvZp11T5PmDnB1xT6KxkVtn7pIB3isPeDf1LG0cZ2jeYDB%2FkrZvt1Ao9a%2FdLoVFbmkYfX2Ini6FVsjvxI3XuK0Rnwi4XL9qbJ0QqZmfMxCHNZ2RGj1a79SUReE9GRBLwqkPL2Kf31nDjjHnWiQ77KTswLdwIqwRTQyB917qY17pg%2B4Z2zj&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260707T115011Z&X-Amz-SignedHeaders=host&X-Amz-Credential=ASIAYZTTEKKE4CT55MKG%2F20260707%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=1200&X-Amz-Signature=a257e20c9126cbb73b557d241cd22a8f83551089bf8d427f32fb2ae87385b5de
   md5: 12b6a0b69b151df3c62fcdfbe23d092f
   file_hash: 309c2aaf1a65c57d92a1348b5a251ab53262bb3d8caf172f6f4817f97ea73fe4
   filename: OH_SCHOOL_CROSSING_GUARD_LOCATIONS.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.328456+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:44:46.090940+00:00'
 - url: https://www.hamilton.ca/sites/default/files/2023-09/block1-stoney-creek-pic3-presentation-slide12.pdf
   md5: b4942d5ba7f20e3078bcb8ec5c1fe249
   file_hash: b8970251a8c4f21692004e5b4d424f9bfbd02f80e59e3bb3401040c451bed11e
   filename: block1-stoney-creek-pic3-presentation-slide12.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.352132+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:45:00.912131+00:00'
   link_text: Conceptual Storm Sewer Servicing and Storm Management Facilities(PDF,
     4.2 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-09/block1-stoney-creek-pic3-presentation-slide13.pdf
@@ -413145,15 +414075,22 @@
   filename: block1-stoney-creek-pic3-presentation-slide13.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.357887+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:45:15.687477+00:00'
   link_text: Conceptual Water Servicing(PDF, 1.06 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-09/block1-stoney-creek-pic3-presentation-slide14.pdf
   md5: d6e8638b2047ffdb4bd3d803eecf64eb
@@ -413161,15 +414098,22 @@
   filename: block1-stoney-creek-pic3-presentation-slide14.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.362432+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:45:30.503048+00:00'
   link_text: Next Step(PDF, 708.18 KB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixA.pdf
   md5: ecccc2a63bb349450f62eb45dc4ecf94
@@ -413177,15 +414121,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixA.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.390510+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:45:45.143285+00:00'
   link_text: Appendix A - Design Drawings (PDF, 1.5 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixB.pdf
   md5: 14001adda97f5fa9e003a8d637435083
@@ -413193,15 +414144,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixB.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.403424+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:45:59.795567+00:00'
   link_text: Appendix B - Natural Heritage (PDF, 3.89 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixC.pdf
   md5: 24492fc9b8abd41d047a4ad15b4c99e0
@@ -413209,15 +414167,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixC.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.434776+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:46:14.390384+00:00'
   link_text: Appendix C - Cultural Heritage and Archaeology (PDF, 11.59 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixD.pdf
   md5: a730cee2bd24b92252a97041abb937e3
@@ -413225,15 +414190,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixD.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.443453+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:46:28.967675+00:00'
   link_text: Appendix D - Noise Assessment (PDF, 1.76 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixE.pdf
   md5: 934e93d9346ab283a7e64ceaba389af4
@@ -413241,15 +414213,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixE.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.456115+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:46:43.837901+00:00'
   link_text: Appendix E - Air Quality (PDF, 3.5 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF1.pdf
   md5: 8448ed4339e7b79bb7f38c1501bda97b
@@ -413257,15 +414236,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixF1.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.474451+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:46:58.428965+00:00'
   link_text: Appendix F - Physical Environment - Part 1 (PDF, 5.9 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF2.pdf
   md5: 65432f3192cffcd378627f0c046ba9f9
@@ -413273,15 +414259,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixF2.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.485462+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:47:13.178224+00:00'
   link_text: Appendix F - Physical Environment - Part 2 (PDF, 2.82 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF3.pdf
   md5: 52feedab0a7e2975c685ade4452604c7
@@ -413289,15 +414282,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixF3.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.582714+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:47:28.025607+00:00'
   link_text: Appendix F - Physical Environment - Part 3 (PDF, 38.91 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixF4.pdf
   md5: c25245e0cea0f364fc42b2c31a8930c7
@@ -413305,15 +414305,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixF4.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.619902+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:47:42.631814+00:00'
   link_text: Appendix F - Physical Environment - Part 4 (PDF, 13.54 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixG.pdf
   md5: 4520eb4dc736b8f928ca590fc26e33c0
@@ -413321,15 +414328,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixG.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.634916+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:47:57.271234+00:00'
   link_text: Appendix G - Traffic Impact Study (PDF, 4.03 MB)
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixH1.pdf
   md5: 7d22837103ee6d5c4826d3ecff7379b0
@@ -413337,15 +414351,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixH1.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.659286+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:48:12.180719+00:00'
   link_text: 'Appendix H - Consultation - Part 1: Pre-TRAP (PDF, 8.29 MB)'
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report-appendixH2.pdf
   md5: 545c00923bcd5afa7ac6f97eb23e2311
@@ -413353,15 +414374,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report-appendixH2.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.681844+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:48:26.819180+00:00'
   link_text: 'Appendix H - Consultation - Part 2: TRAP (PDF, 7.53 MB)'
 - url: https://www.hamilton.ca/sites/default/files/2022-08/bus-maintenance-storage-facility-ea-environmental-project-report.pdf
   md5: 6363afe7e5b07a91af5cb52fb9f3ade9
@@ -413369,15 +414397,22 @@
   filename: bus-maintenance-storage-facility-ea-environmental-project-report.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.694101+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:48:41.554251+00:00'
   link_text: Bus Maintenance and Storage Facility Environmental Project Report (PDF,
     3.27 MB)
 - url: https://www.hamilton.ca/sites/default/files/2023-11/cOMM-UPDATE-Development-Related-Public-Tree-Removals-1190MainStWest.pdf
@@ -413386,15 +414421,22 @@
   filename: cOMM-UPDATE-Development-Related-Public-Tree-Removals-1190MainStWest.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.698602+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:48:56.204381+00:00'
   link_text: Development Related Public Tree Removals - 1190 Main St West (ES23017)
 - url: https://www.publichealthontario.ca/-/media/Documents/C/24/candida-auris-new-case-management.pdf?rev=76c795c712d646daa58c60255ce4057e&sc_lang=en
   md5: 09663534f13af72ff68f92a4524f29cf
@@ -413402,15 +414444,22 @@
   filename: candida-auris-new-case-management.pdf
   site: hamilton.ca
   crawled_at: '2026-07-07T12:06:21.703101+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:49:10.850288+00:00'
   link_text: An infographic on the Management of a Single New Case of C. auris
 - url: https://www.hamilton.ca/sites/default/files/2024-04/carlisle-ea-pic1-presentation.pdf
   md5: 3e3debb63924edcc216e5f74d4020bca
