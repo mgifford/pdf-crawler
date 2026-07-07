@@ -285150,12 +285150,16 @@
   filename: 0966_001.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.361754+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.361754+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Special Education Program Assistant
 - url: https://www.slvboces.org/pdfs/calendars/2025-2026-Sargent-School-Calendar-.pdf
   md5: c3eb69d457b562807d1f9fb11feafd9b
   filename: 2025-2026-Sargent-School-Calendar-.pdf
@@ -285427,6 +285431,39 @@
     Images: 0
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2025-05-25 20:12:58+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: false
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.6'
+        Creator: PScript5.dll Version 5.2.2
+        Producer: Acrobat Distiller 25.0 (Windows)
+        Pages: 1
+        Words: 694
+        Images: 0
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: Mountain Valley School District
 - url: https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar_CENTER.pdf
   md5: c509d3adaf5117c6056d1c672ff2eddd
   filename: 2025-2026_School_Calendar_CENTER.pdf
@@ -285563,6 +285600,39 @@
     Images: 1
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2025-04-29 20:00:13+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Publisher for Microsoft 365
+        Producer: Microsoft® Publisher for Microsoft 365
+        Pages: 1
+        Words: 749
+        Images: 1
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: Sierra Grande School District
 - url: https://www.slvboces.org/pdfs/calendars/2025-26_Centennial_R-1_District_Calendar_FINAL.pdf
   md5: 02fc3bb636593282e7d365a2b47e21f5
   filename: 2025-26_Centennial_R-1_District_Calendar_FINAL.pdf
@@ -285613,155 +285683,211 @@
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.415602+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.415602+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf?rnd=1737674155963
   md5: 2296b31d18bd831212e01d45ff249fb8
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.418653+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.418653+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf?rnd=1737673784631
   md5: 57c9cf6d6434c2fc7f4254927b54757a
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.421564+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.421564+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf?rnd=1737674560491
   md5: e2467503558c2c46b07c9d0a7261ec8a
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.424350+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.424350+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf?rnd=1737674447895
   md5: 74ff440021fbf057d96a8193a59f2ebf
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.427020+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.427020+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf?rnd=1737674018944
   md5: e01c396353fe95ac19e64646169e00f0
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.429749+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.429749+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf?rnd=1737673837608
   md5: e94bd5959acc81dfc717f497f7c54326
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.432568+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.432568+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf?rnd=1737673908419
   md5: 693e6b88e105408c8290379ae39b561d
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.435297+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.435297+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf?rnd=1737673686905
   md5: 471090a83b45036595f87851df464452
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.438019+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.438019+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf?rnd=1737674500032
   md5: 24d9d4659a0223353dd83e60338a69d7
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.440616+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.440616+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf?rnd=1737673301081
   md5: d8f20025e0cf47940c3bbc6f9e291704
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.443181+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.443181+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf?rnd=1737673574228
   md5: 2d24f23525aa62ef710351c088557fe5
   filename: 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.445725+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.445725+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 2024-2025 Salary Schedule
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Advocate_%20Counselor%20.pdf?rnd=1728931612871
   md5: dbe06eea25f00a8c577fa30c6f07fd7e
   filename: Advocate_%20Counselor%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.448286+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.448286+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Advocate / Counselor
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Assistant-Special-Education-Director-SSN-.pdf?rnd=1728931494099
   md5: a2736bb282ecdc646849509f8f7a2a99
   filename: Assistant-Special-Education-Director-SSN-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.450922+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.450922+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Assistant Director of Special Education
 - url: https://www.slvboces.org/ourpages/auto/2024/10/16/40104615/Aviso%20de%20garant%C3%AD%20as%20de%20procedimiento.Spanish%282024%29_a11y.pdf
   md5: bab93af374af6cca89880e6baea5e0ce
   filename: Aviso%20de%20garant%C3%AD%20as%20de%20procedimiento.Spanish%282024%29_a11y.pdf
@@ -285844,12 +285970,16 @@
   filename: Budget-Manager-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.469627+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.469627+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Budget Manager
 - url: https://www.slvboces.org/ourpages/auto/2024/10/16/40104615/CDE.PSN_.2024April%282%29at10-25-24Accessible.pdf?rnd=1734369831345
   md5: cee933a9b92f41c6beff554d7bf14c06
   filename: CDE.PSN_.2024April%282%29at10-25-24Accessible.pdf
@@ -285895,6 +286025,39 @@
     Images: 58
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: true
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Fail
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2022-05-11 21:56:03+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.4'
+        Creator: Xerox AltaLink C8045
+        Producer: Xerox AltaLink C8045
+        Pages: 8
+        Words: 0
+        Images: 58
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: CEBT Benefit Plans
 - url: https://www.slvboces.org/ourpages/auto/2025/1/15/47690234/Change%20of%20Status.pdf?rnd=1739288075182
   md5: 0ce9a9ebe0513ab6c18c7ede01ca9867
   filename: Change%20of%20Status.pdf
@@ -285934,23 +286097,31 @@
   filename: Child-Find-Coordinator-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.489442+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.489442+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Child Find Coordinator
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Data-Reporting-Specialist-.pdf?rnd=1728931489289
   md5: bc07336767e396ccfef329a3703d9266
   filename: Data-Reporting-Specialist-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.492814+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.492814+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Data Reporting Speciali
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Delta-Dental.pdf?rnd=1728930726976
   md5: 0ec5a87cdf4d49604906740b6326ebae
   filename: Delta-Dental.pdf
@@ -285985,28 +286156,69 @@
     Images: 1
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: true
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Fail
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2022-05-12 15:33:07+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.4'
+        Creator: Scanner System
+        Producer: Scanner System Image Conversion
+        Pages: 1
+        Words: 0
+        Images: 1
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: Delta Dental
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/ECSE-Teacher1.pdf?rnd=1728931584711
   md5: 1fbe303a5526a1f84907e1cd60542f75
   filename: ECSE-Teacher1.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.501042+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.501042+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Early Childhood Special Education Teacher
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Educational%20Audiologist%20.pdf?rnd=1728931597107
   md5: c5f20ad217b70c52aafad014adf3b175
   filename: Educational%20Audiologist%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.504414+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.504414+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Educational Audiologist
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Employee%20Handbook.docx.pdf?rnd=1736274975906
   md5: 18a3afe025b845beb2e2bc3b14146cbc
   filename: Employee%20Handbook.docx.pdf
@@ -286075,6 +286287,39 @@
     Images: 0
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2022-09-15 21:56:57+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word for Microsoft 365
+        Producer: Microsoft® Word for Microsoft 365
+        Pages: 1
+        Words: 393
+        Images: 0
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: Enrollment Form
 - url: https://www.slvboces.org/ourpages/auto/2026/1/20/33111403/Evidence%20That%20Tier%201%20Instruction%20Is%20Working.pdf?rnd=1768942818501
   md5: 2da9cdad56dc79065d6049f32179293e
   filename: Evidence%20That%20Tier%201%20Instruction%20Is%20Working.pdf
@@ -286091,34 +286336,46 @@
   filename: Executive-Administrative-Assistant-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.518862+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.518862+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Executive Administrative Assistant
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Executive-Director_-Director-of-Exceptional-Student-Services.pdf?rnd=1728931381530
   md5: e31fdecaf9b6f6a5ecdcb3dae563034b
   filename: Executive-Director_-Director-of-Exceptional-Student-Services.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.522085+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.522085+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Executive Director / Special Education Director
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf?rnd=1728931608692
   md5: df95605d0f8dd34503a54e2ad1f9e92b
   filename: Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.525125+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.525125+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Expelled and At-Risk Student Services Advocate
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerpringing-Instructions.pdf?rnd=1728930764841
   md5: 936923a8bf49a2f45276a548e2b4826f
   filename: Fingerpringing-Instructions.pdf
@@ -286153,6 +286410,39 @@
     Images: 2
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2019-02-05 16:45:51+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.5'
+        Creator: null
+        Producer: Skia/PDF m73
+        Pages: 1
+        Words: 311
+        Images: 2
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: Fingerprinting Instructions
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Locations.pdf?rnd=1728930770307
   md5: dd2183975001451f12972bcf0184eb0b
   filename: Fingerprinting-Locations.pdf
@@ -286187,6 +286477,39 @@
     Images: 2
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2019-02-05 16:46:27+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.5'
+        Creator: null
+        Producer: Skia/PDF m73
+        Pages: 1
+        Words: 198
+        Images: 2
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: Fingerprinting Locations
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Notice-to-Applicants.pdf?rnd=1774276865695
   md5: f4f6597d4f580b7426b0aa6dc25b261b
   filename: Fingerprinting-Notice-to-Applicants.pdf
@@ -286221,6 +286544,39 @@
     Images: 3
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2026-03-23 14:40:55+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word for Microsoft 365
+        Producer: Microsoft® Word for Microsoft 365
+        Pages: 1
+        Words: 352
+        Images: 3
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: Fingerprinting Notice to Applicants
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/48977507/First_Report_of_Injury%20%281%29-1.pdf?rnd=1774276726561
   md5: 0137a0ed842084b0f4962e6e32859a87
   filename: First_Report_of_Injury%20%281%29-1.pdf
@@ -286288,28 +286644,68 @@
     Words: 510
     Images: 2
   errors: []
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: true
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Pass
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2024-08-20 08:25:42+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: true
+        hasLang: true
+        InvalidLang: null
+        Form: true
+        xfa: null
+        hasBookmarks: true
+        hasXmp: true
+        PDFVersion: '1.6'
+        Creator: Acrobat PDFMaker 22 for Word
+        Producer: Adobe PDF Library 22.3.98
+        Pages: 1
+        Words: 510
+        Images: 2
+      errors: []
+      analysed_at: null
+  link_text: Download
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf?rnd=1728931617010
   md5: adcb87c119a8ee7e1e7312ec540b58bc
   filename: Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.543170+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.543170+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Gifted Education Regional Consultant (GERC)
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf?rnd=1728931634154
   md5: 09519976390b481aa45e37eaa420319e
   filename: Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.545836+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.545836+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Gifted and Talented Coordinator (GT)
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Grants%20Coordinator%20.pdf?rnd=1728931650023
   md5: e39322db028681453d255cfef99bef85
   filename: Grants%20Coordinator%20.pdf
@@ -286344,28 +286740,69 @@
     Images: 4
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: true
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Fail
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2022-12-15 11:08:56-07:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.4'
+        Creator: null
+        Producer: null
+        Pages: 2
+        Words: 0
+        Images: 4
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: Grants Coordinator
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/HR-Intern.pdf?rnd=1728931452247
   md5: 432a20915a02f575e136c048b54086cd
   filename: HR-Intern.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.550943+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.550943+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: HR Intern
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Human-Resource-and-Payroll-Manager-.pdf?rnd=1728931447908
   md5: ab4985b480b25c0012302d5e8688c80a
   filename: Human-Resource-and-Payroll-Manager-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.553710+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.553710+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Human Resources and Payroll Manager
 - url: https://www.slvboces.org/ourpages/auto/2025/2/24/31029106/Indicator-13-Compliance-Tips-July-20151.pdf?rnd=1740432501065
   md5: 9a01f07c24f11dc1687537772f33cd1e
   filename: Indicator-13-Compliance-Tips-July-20151.pdf
@@ -286382,23 +286819,31 @@
   filename: McKinney-Vento%20Homeless%20Program%20Coordinator%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.561651+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.561651+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: McKinney-Vento Homeless Coordinator
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Medicaid-Coordinator-1.pdf?rnd=1728931523173
   md5: 5d98344f1f5301f58b1aee33c87155a7
   filename: Medicaid-Coordinator-1.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.565182+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.565182+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Medicaid Coordinator
 - url: https://www.slvboces.org/ourpages/auto/2025/2/24/31029106/Notice-of-Meeting-for-a-student.pdf?rnd=1740432535821
   md5: cc67193a75a7ba15844715b74671b733
   filename: Notice-of-Meeting-for-a-student.pdf
@@ -286415,12 +286860,16 @@
   filename: Occupational-Therapist-OT-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.572159+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.572159+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Occupational Therapist (OT)
 - url: https://www.slvboces.org/ourpages/auto/2026/1/20/33111403/PLC%20Protocol%20on%20how%20to%20determine%20if%20your%20Tier%201%20Instruction%20is%20Supporting%20or%20Limiting%20RTI_MTSS.pdf?rnd=1768943641094
   md5: c4046cbc6c248f524bfffe570415c097
   filename: PLC%20Protocol%20on%20how%20to%20determine%20if%20your%20Tier%201%20Instruction%20is%20Supporting%20or%20Limiting%20RTI_MTSS.pdf
@@ -286437,34 +286886,46 @@
   filename: Paraprofessional%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.578490+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.578490+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Paraprofessional
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Physical-Therapist-PT-.pdf?rnd=1728931528555
   md5: 3cc21db754f7fb53cbfab01bc7c56d92
   filename: Physical-Therapist-PT-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.581412+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.581412+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Physical Therapist (PT)
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Professional%20Learning%20Coordinator%20.pdf?rnd=1728931644006
   md5: 8e51e23a488cb7df6f0926f1c03e83cb
   filename: Professional%20Learning%20Coordinator%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.584119+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.584119+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Professional Learning Coordinator
 - url: https://www.slvboces.org/ourpages/auto/2024/10/16/66592126/RTI-manual.pdf?rnd=1729210516136
   md5: 1453891a3d7042df33a06f3115d2ed1e
   filename: RTI-manual.pdf
@@ -286481,34 +286942,46 @@
   filename: Rate-Sheet.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.593091+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.593091+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: CEBT Rates
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Receptionist_-Secretary-.pdf?rnd=1728931418815
   md5: d31c4f115be99a151b3292fef2f61997
   filename: Receptionist_-Secretary-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.596541+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.596541+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Receptionist / Secretary
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Regional%20Literacy%20Coach%20Project%20Coordinator%20.pdf?rnd=1728931638972
   md5: d441fd8e21779a526143fbd47f32ee5e
   filename: Regional%20Literacy%20Coach%20Project%20Coordinator%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.599762+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.599762+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Regional Literacy Coach Project Coordinator
 - url: https://www.slvboces.org/ourpages/auto/2026/2/25/53295219/SEL%20Library.pdf?rnd=1772039070230
   md5: 595bc61a293d64784d916171fc52910c
   filename: SEL%20Library.pdf
@@ -286558,155 +287031,211 @@
   filename: SWAP-School-to-Work-Alliance-Program-Coordinator-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.618055+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.618055+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: SWAP (School to Work Alliance Program) Coordinato
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/SWAP-School-to-Work-Alliance-Program-Specialist-.pdf?rnd=1728931504392
   md5: 9756d102ea42cd327c84d324a7917714
   filename: SWAP-School-to-Work-Alliance-Program-Specialist-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.620867+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.620867+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: SWAP (School to Work Alliance Program) Specialist
 - url: https://www.slvboces.org/ourpages/auto/2026/2/24/62932589/School%20Aged%20Child%20Find%20Referral%20Form%20K-12%20%281%29.pdf
   md5: ef218fdf6a0b5527bec53215e979534c
   filename: School%20Aged%20Child%20Find%20Referral%20Form%20K-12%20%281%29.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.623830+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.623830+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Download PDF
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/School-Psychologist_-Behavioral-Health-Provider-.pdf?rnd=1728931564296
   md5: 0080b48e220646aadd024429130dd996
   filename: School-Psychologist_-Behavioral-Health-Provider-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.626607+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.626607+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: School Psychologist / Behavior Health Provider
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/School-Social-worker-.pdf?rnd=1728931559268
   md5: 561ee3cb59068ac0863175681fce9961
   filename: School-Social-worker-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.629101+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.629101+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: School Social Worker
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Secretary-1.pdf?rnd=1728931442761
   md5: 5f6b4b38368cb8a1c25d5181712a2df3
   filename: Secretary-1.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.631245+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.631245+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Secretary I
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Significant%20Support%20Needs%20Teacher%20.pdf?rnd=1728931589284
   md5: 74e944f91f8741186097a3c324ada0f9
   filename: Significant%20Support%20Needs%20Teacher%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.633157+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.633157+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Significant Support Needs Teacher
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Coordinator-.pdf?rnd=1728931468978
   md5: 372da22f548171e039cabff4c18a142b
   filename: Special-Education-Coordinator-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.634982+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.634982+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Special Education Coordinator
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Director.pdf?rnd=1728931464926
   md5: 5a1a09d912e68d65404276970a9efbd2
   filename: Special-Education-Director.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.636720+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.636720+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Special Education Director
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Facilitator-.pdf?rnd=1728931474336
   md5: bfccb97ac83cc758a91f17a88b01119c
   filename: Special-Education-Facilitator-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.638399+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.638399+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Special Education Facilitator
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Speech-Language-Pathologist-Assistant-.pdf?rnd=1728931578851
   md5: 7383e849dccf107c8356db293418a53b
   filename: Speech-Language-Pathologist-Assistant-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.640136+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.640136+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Speech / Language Pathologist Asst. (SLPA)
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Speech_-Language-Pathologist-.pdf?rnd=1728931573360
   md5: a07789aab6d091d8559acb0e2815872e
   filename: Speech_-Language-Pathologist-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.641812+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.641812+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Speech / Language Pathologist (SLP)
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Teacher-of-the-Visually-Impaired-%281%29.pdf?rnd=1728931538420
   md5: 2e0581b36951f52cfff78d4fac799481
   filename: Teacher-of-the-Visually-Impaired-%281%29.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.643415+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.643415+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Teacher of the Hearing Impaired
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Teacher-of-the-Visually-Impaired-.pdf?rnd=1728931509728
   md5: 2e0581b36951f52cfff78d4fac799481
   filename: Teacher-of-the-Visually-Impaired-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.644914+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.644914+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Teacher for the Visually Impaired
 - url: https://www.slvboces.org/ourpages/auto/2025/1/15/47690234/The-IEP-Process-or-Development-of-the-IEP-includes-5.pdf?rnd=1774275787465
   md5: a0099b965cbe9254774fc77fa297dfb4
   filename: The-IEP-Process-or-Development-of-the-IEP-includes-5.pdf
@@ -286778,45 +287307,61 @@
   filename: Transition-Specialist-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.658878+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.658878+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Transition Specialist
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Translator-_-Interpreter-.pdf?rnd=1728931479305
   md5: ba7361e0004a5e4fdb338ee1256f67e0
   filename: Translator-_-Interpreter-.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.660282+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.660282+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Translator / Interpreter
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Unauthorized-Leave-of-Absence-and-Attendance-Procedures.pdf?rnd=1728930700581
   md5: f4eec0ecdb28ae39c461d9d3c4311faf
   filename: Unauthorized-Leave-of-Absence-and-Attendance-Procedures.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.661636+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.661636+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Unauthorized Leave of Absence and Attendance Procedures
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Website-Return-to-HR.pdf?rnd=1728930680417
   md5: 72708209dd3c766c58041a7cbcf4a943
   filename: Website-Return-to-HR.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.664843+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.664843+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: New Employee Paperwork
 - url: https://www.slvboces.org/ourpages/auto/2024/10/16/57458301/Weighted-Vests.pdf?rnd=1729051839419
   md5: fb63da66f2df4b4142c98646fe5fd2a4
   filename: Weighted-Vests.pdf
@@ -286855,12 +287400,16 @@
   filename: Worker_s_Comp_First_Report_of_Injury.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.671404+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.671404+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Worker’s Comp Instructions & Medical Providers
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/48977507/Worker_s_Comp_Instructions_Medical_Providers_Letterhead.pdf?rnd=1728931218680
   md5: ff213f9ce9b3f8e2304cbe487e21824c
   filename: Worker_s_Comp_Instructions_Medical_Providers_Letterhead-0.pdf
@@ -286877,12 +287426,16 @@
   filename: Worker_s_Comp_Instructions_Medical_Providers_Letterhead.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.674041+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.674041+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Worker’s Comp Instructions & Medical Providers
 - url: https://www.slvboces.org/ourpages/auto/2024/10/14/48977507/Worker_s_Comp_Letter_Declining_Medical_Care-1.pdf?rnd=1774276771523
   md5: 7935f6bfc224d1b191775e16d89cfd44
   filename: Worker_s_Comp_Letter_Declining_Medical_Care-1.pdf
@@ -286899,12 +287452,16 @@
   filename: asu_flyer%20copy.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.678246+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.678246+00:00).
-    The file was probably downloaded in a previous run whose crawled_files directory
-    is no longer available.'
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: asu_flyer copy.pdf
 - url: https://www.slvboces.org/ourpages/auto/2024/10/17/56427643/guidance_disciplineofchildren.pdf?rnd=1729209847652
   md5: 5ec2b7cd72bbbad31acb116c606f6226
   filename: guidance_disciplineofchildren.pdf
@@ -398828,6 +399385,227 @@
   filename: wippannualmitigationreport-2012pdf-0.pdf
   site: energy.gov
   crawled_at: '2026-07-06T16:16:46.087228+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://www.cde.state.co.us/spedlaw/2024proceduralsafeguards-spanish
+  md5: bab93af374af6cca89880e6baea5e0ce
+  file_hash: 70ef93d849f1f390d018e13207456012b72564765c3330cc718d57153e98e897
+  filename: 2024proceduralsafeguards-spanish.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.695777+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://www.slvboces.org/pdfs/calendars/2026-2027%20Academic%20Calendar%20ALAMOSA.pdf
+  md5: bfa20f0357027688455577e1f14a11e1
+  file_hash: db5123f0ca62821fc341aa5f03e4f08b107b8ea324237b26de7c44ba185c53e4
+  filename: 2026-2027%20Academic%20Calendar%20ALAMOSA.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.706032+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Alamosa School District
+- url: https://www.slvboces.org/pdfs/calendars/2026-2027%20District%20Calendar.pdf
+  md5: 23947389f3ddb01b4770a58dd133e8cf
+  file_hash: 3681276689359d1f8198ba3486a4d606187e076aea6ff338fffa9d824f779693
+  filename: 2026-2027%20District%20Calendar.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.708341+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Sanford School District
+- url: https://www.slvboces.org/pdfs/calendars/2026-2027%20SANGRE%20DE%20CRISTO.pdf
+  md5: a55e27db325563558ea8d6288d7e1cac
+  file_hash: 6b22fda42bbc1f4948efc3d66cfe186e295832b2e5ce7cd1f6f50b4d65ba5f7e
+  filename: 2026-2027%20SANGRE%20DE%20CRISTO.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.710660+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Sangre de Cristo School District
+- url: https://www.slvboces.org/pdfs/calendars/2026-2027-School-CENTER.pdf
+  md5: a01311e4e6801601859df7dcc74e9c25
+  file_hash: 6ec17dddf906d1f3f53a803b8ab639e3def7c527295b0bcc968e666aee24a337
+  filename: 2026-2027-School-CENTER.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.712745+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Center School District
+- url: https://www.slvboces.org/pdfs/calendars/2026-2027MSCD2_MoffatPK12Calendar8apr2026.pdf
+  md5: 01cd3bf4f279b16b62ad0e7c69490771
+  file_hash: af8c2d7b8795336ff047250c91f687029f58d6ae476a20d109c55e3064e16a37
+  filename: 2026-2027MSCD2_MoffatPK12Calendar8apr2026.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.715112+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Moffat School District
+- url: https://www.slvboces.org/pdfs/calendars/2026-2027_School_CREEDE.pdf
+  md5: e033dc924b2b62f9dfdf25682ff35586
+  file_hash: 036b849a94bfbabdced761114120db0ed7b2c53772c1ee6506fdc8ebbf0fb439
+  filename: 2026-2027_School_CREEDE.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.728197+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Creede School District
+- url: https://www.slvboces.org/pdfs/calendars/2026-27%20Centennial%20R-1%20District%20Calendar_Final%20-%20Final.pdf
+  md5: 3a006953fcfab11790585d7762e81ac8
+  file_hash: d783f56d1da9318d4a5ac866b1cfdf35977d6a97183d9c878c16a25970458c8c
+  filename: 2026-27%20Centennial%20R-1%20District%20Calendar_Final%20-%20Final.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.731354+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Centennial School District
+- url: https://www.slvboces.org/pdfs/calendars/26-27-Draft-District-CalendarSARGENT.pdf
+  md5: a4939ef9eb94e22b24563ea1fe60d705
+  file_hash: 9295e7b1df664f6bde8c0b5a2fe329586303abd73aaa0de0b9035674a0e0e5ac
+  filename: 26-27-Draft-District-CalendarSARGENT.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.749578+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Sargent School District
+- url: https://www.slvboces.org/pdfs/calendars/G_1-SY26-27-District-CalendarSOUTH%20CONEJOS.pdf
+  md5: f3c10077d6bb17d8fdc8bf78d434b7ed
+  file_hash: a0be8b4124bbe6412496f2ba234cd0f70e2835efdb7014583035a74b76fe24c9
+  filename: G_1-SY26-27-District-CalendarSOUTH%20CONEJOS.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.773360+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: South Conejos School District
+- url: https://www.slvboces.org/pdfs/calendars/School%20Calendar%202026-2027%20MONTE%20VISTA.pdf
+  md5: 5011c59245c3f0157306f6f3c253cf5b
+  file_hash: 5bb7d6580dba68fde00ea28bb753d398aeb758abe61cfb5c0f4360050ba01957
+  filename: School%20Calendar%202026-2027%20MONTE%20VISTA.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.795344+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Monte Vista School District
+- url: https://www.slvboces.org/pdfs/calendars/URGSD%2026%20-%2027%20School%20Calendar%20UPPER%20RIO.pdf
+  md5: 83722a8fb3e53b6eb82182d3078aa871
+  file_hash: 26afa58785bce14ba4adf58ab39082c8581e1ccd7a2b8c4857419ab00f0fbd35
+  filename: URGSD%2026%20-%2027%20School%20Calendar%20UPPER%20RIO.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.812642+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Upper Rio Grande School District
+- url: https://www.cde.state.co.us/educatortalent/errforepps
+  md5: e61117d197baf3d1c7719aca19fcc719
+  file_hash: f7c86beb34c9f2d8670362d2c19fc23e87dda59d7e7692689fc0506b63954fc2
+  filename: errforepps.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.823181+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://www.cde.state.co.us/spedlaw/procedural-safeguards-notice
+  md5: a98551150e2d77eb08159e548afc9eff
+  file_hash: 33a3703bbc3f5176e1473a534f73f63f9a8dfba64c8a7244286ef903be3f3ccb
+  filename: procedural-safeguards-notice.pdf
+  site: slvboces.org
+  crawled_at: '2026-07-07T11:30:58.831753+00:00'
   status: pending
   report: null
   errors: []
