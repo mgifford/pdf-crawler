@@ -22,7 +22,7 @@ def _make_minimal_pdf(path: Path) -> None:
 
 def test_check_file_includes_legacy_identity_fields(tmp_path):
     """check_file() should include legacy Site/File fields for CSV compatibility."""
-    from pdf_analyser import check_file
+    from pdf_analyser import check_file  # pylint: disable=import-outside-toplevel
 
     p = tmp_path / "legacy.pdf"
     _make_minimal_pdf(p)
@@ -35,7 +35,7 @@ def test_check_file_includes_legacy_identity_fields(tmp_path):
 
 def test_check_file_includes_legacy_text_metrics_fields(tmp_path):
     """check_file() should include legacy fonts/numTxtObjects keys."""
-    from pdf_analyser import check_file
+    from pdf_analyser import check_file  # pylint: disable=import-outside-toplevel
 
     p = tmp_path / "metrics.pdf"
     _make_minimal_pdf(p)

@@ -223,7 +223,7 @@ def _run_check_file_worker(
         if crawler_version == "bloom":
             # Import bloom-works check_file at runtime so the original env
             # works without the extra package installed.
-            from simpla11ypdf.scanner import check_file as bloom_check_file
+            from simpla11ypdf.scanner import check_file as bloom_check_file  # pylint: disable=import-error,import-outside-toplevel
             result = bloom_check_file(filename, site=site, debug=False)
             if run_verapdf_check:
                 result["veraPDF"] = run_verapdf(filename)
@@ -967,7 +967,7 @@ def main(
     max_age_days: Optional[int] = None,
     max_files: Optional[int] = None,
     total_timeout: Optional[int] = None,
-    run_verapdf: bool = False,
+    run_verapdf_check: bool = False,
     crawler_version: str = "original",
 ) -> int:
     """Analyse pending PDFs and update the manifest.
@@ -993,7 +993,7 @@ def main(
             processed on the next run. Useful for staying within CI time
             limits so that report generation can still complete in the same
             job.
-        run_verapdf: When True, run veraPDF (PDF/UA-1) against each PDF if
+        run_verapdf_check: When True, run veraPDF (PDF/UA-1) against each PDF if
             ``verapdf`` is available on PATH and store the result in the
             manifest under the ``veraPDF`` key.
 
@@ -1026,7 +1026,7 @@ def main(
             f"  Stale-entry threshold: entries older than {max_age_days} day(s) "
             "without a local file will be marked as stale errors and skipped."
         )
-    if run_verapdf:
+    if run_verapdf_check:
         if shutil.which("verapdf"):
             print("  veraPDF: enabled (found on PATH) – PDF/UA-1 validation will run per file.")
         else:
@@ -1175,7 +1175,7 @@ def main(
 
         try:
             report = _analyse_with_process_timeout(
-                str(local_path), site, per_file_timeout, run_verapdf, crawler_version
+                str(local_path), site, per_file_timeout, run_verapdf_check, crawler_version
             )
 
             # Classify the document type from URL, filename, and anchor text.
@@ -1212,7 +1212,7 @@ def main(
                 for name, val in checks.items()
             )
             print(f"    Checks: {check_str}")
-            if run_verapdf and "veraPDF" in report:
+            if run_verapdf_check and "veraPDF" in report:
                 vp = report["veraPDF"]
                 if vp is None:
                     vp_str = "veraPDF: not available (not on PATH)"
@@ -1407,6 +1407,6 @@ if __name__ == "__main__":  # pragma: no cover
         max_age_days=args.max_age_days,
         max_files=args.max_files,
         total_timeout=args.total_timeout,
-        run_verapdf=args.verapdf,
+        run_verapdf_check=args.verapdf,
         crawler_version=args.crawler_version,
     )
