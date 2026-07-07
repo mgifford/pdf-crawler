@@ -215867,7 +215867,7 @@
   filename: CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.184870+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -215895,7 +215895,7 @@
     Words: 592
     Images: 0
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -215928,6 +215928,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:40:59.840560+00:00'
   link_text: ADA Information
 - url: https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/publication/attachments/CFSA%20NOPP%20rev.2020.pdf
   md5: e0c6cd3708a8f782ae810a2bfba36574
@@ -216002,7 +216008,7 @@
   filename: CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.191608+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216030,7 +216036,7 @@
     Words: 1725
     Images: 1
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216063,13 +216069,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:41:17.311821+00:00'
   link_text: CIC FY17 Performance Oversight Hearing Testimony 3.2.17.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
   md5: 7426e3a01d00a8e541fcfb593bdd94aa
   filename: CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.193069+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216097,7 +216109,7 @@
     Words: 2094
     Images: 1
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216130,13 +216142,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:41:34.689067+00:00'
   link_text: CIC FY18 Performance Oversight Hearing Testimony 2.15.18.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
   md5: 748060a1d71a7c20781f39ce674f09a7
   filename: CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.194291+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216164,7 +216182,7 @@
     Words: 1588
     Images: 1
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216197,6 +216215,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:41:51.490877+00:00'
   link_text: CIC Testimony on Bill22-459 Opioid Abuse Treatment Act 12.12.17.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony%20on%20Letterhead.pdf
   md5: c722f4695d32693390d765754a7b9024
@@ -216271,7 +216295,7 @@
   filename: CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.199046+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216299,7 +216323,7 @@
     Words: 1465
     Images: 1
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216332,6 +216356,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:42:08.852699+00:00'
   link_text: CIC Testimony on Youth Rehabilitation Amendment Act 2017 10.26.17.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf
   md5: e53880e0f550d4c2477fd445d029b4eb
@@ -216372,7 +216402,7 @@
   filename: CIC-Education%20Committee%20Testimony%2010.4.17.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.201455+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216400,7 +216430,7 @@
     Words: 1539
     Images: 1
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216433,13 +216463,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:42:26.211852+00:00'
   link_text: CIC Testimony on Special Education for Incarcerated Young Adults
 - url: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
   md5: 0faf1f6865dd4c29e216874019a9d92d
   filename: CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.202521+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216467,7 +216503,7 @@
     Words: 1045
     Images: 0
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216500,13 +216536,19 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:42:43.598934+00:00'
   link_text: DC Judicial Financial Transparency Act
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
   md5: 72881a614edae99ac61daa54d802ca5c
   filename: CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.204790+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216534,7 +216576,7 @@
     Words: 4398
     Images: 18
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216567,13 +216609,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:43:00.832247+00:00'
   link_text: CJCC 2nd Annual Criminal Justice Summit Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS1%20Summary%20FINAL.pdf
   md5: 8e1cf2e447adcef7e062855c75bca6b7
   filename: CJS1%20Summary%20FINAL.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.207312+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -216600,7 +216648,8 @@
     Pages: 11
     Words: 3274
     Images: 7
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216632,13 +216681,19 @@
         Images: 7
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:43:17.962571+00:00'
   link_text: Criminal Justice Webinar Series Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS2%20Webinar%20Summary.pdf
   md5: f8ef43311d0c7bc040696f0649ca0c88
   filename: CJS2%20Webinar%20Summary.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.209150+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216666,7 +216721,7 @@
     Words: 2200
     Images: 7
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216699,6 +216754,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:43:35.079936+00:00'
   link_text: Criminal Justice Webinar Series Session Two Summary
 - url: https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf
   md5: 3495da7613e83e86d63ab6e679ba5230
@@ -216739,7 +216800,7 @@
   filename: Commission%20Rules-2003%20-%20Amended%202024_0.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.212195+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -216766,7 +216827,8 @@
     Pages: 5
     Words: 1542
     Images: 0
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216798,13 +216860,19 @@
         Images: 0
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:43:52.020081+00:00'
   link_text: Commission Rules - §2003 Financial Reports
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
   md5: 0afd87089fd6e5eda6980ff2ed9515a0
   filename: Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.214510+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -216832,7 +216900,7 @@
     Words: 4810
     Images: 52
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -216865,6 +216933,12 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:44:09.646637+00:00'
   link_text: CJCC 2nd Annual Criminal Justice Summit
 - url: https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf
   md5: 395da5ad9c1e33e9a310f550108af89a
@@ -217107,7 +217181,7 @@
   filename: FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.235429+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217135,7 +217209,7 @@
     Words: 1305
     Images: 1
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217168,6 +217242,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:44:27.054557+00:00'
   link_text: FY2018 CIC Budget Hearing Testimony of Michelle Bonner 4.24.17.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf
   md5: 4631d67cd18fd9b4245be0001cd00f49
@@ -217208,7 +217288,7 @@
   filename: Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.237969+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217236,7 +217316,7 @@
     Words: 520
     Images: 0
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217269,6 +217349,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:44:44.185411+00:00'
   link_text: Public Access Request Form and Instructions
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Housing%20Webinar%20Summary%2009.20.23.pdf
   md5: 2785366aba60308c4bfd12c2478d1928
@@ -217479,7 +217565,7 @@
   filename: Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.255039+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217507,7 +217593,7 @@
     Words: 2984
     Images: 4
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217540,13 +217626,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:45:02.012721+00:00'
   link_text: Juvenile Justice Webinar Seriers Session Two Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
   md5: e2fea153419a616281f4c4ee73f45ad4
   filename: Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.257420+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217574,7 +217666,7 @@
     Words: 2888
     Images: 9
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217607,6 +217699,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:45:19.021802+00:00'
   link_text: Juvenile Justice Webinar Series Session Three Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf
   md5: b98fccb82f93fa404549276e8daa1d2d
@@ -217647,7 +217745,7 @@
   filename: Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.265048+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217675,7 +217773,7 @@
     Words: 1030
     Images: 16
   errors:
-  - 'title, tagged, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217708,6 +217806,12 @@
       errors:
       - 'title, tagged, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:45:36.739610+00:00'
   link_text: Kids Ride Free DC Student Ride Guide_Spanish_SY 25-26
 - url: https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/MHRS%20Bulletin%20Listing_0.pdf
   md5: 62c804bf44d5e5a90b542f968d8d1321
@@ -217849,7 +217953,7 @@
   filename: QuickPaymentAct-11172021.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.272698+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -217877,7 +217981,7 @@
     Words: 430
     Images: 0
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -217910,6 +218014,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:45:54.262560+00:00'
   link_text: Quick Payment Act Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf
   md5: 834c40c1d75694d6ff4d71f7783fb5d7
@@ -217984,7 +218094,7 @@
   filename: SROJJTA_Summary.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.278061+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218012,7 +218122,7 @@
     Words: 4590
     Images: 4
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218045,13 +218155,19 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:46:11.771448+00:00'
   link_text: Juvenile Justice Technical Assistance Session-SRO Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
   md5: e0e6b81defef4895b9e2d34f2397dbfe
   filename: The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.282207+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218079,7 +218195,7 @@
     Words: 26325
     Images: 18
   errors:
-  - 'title, tagged, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218112,6 +218228,12 @@
       errors:
       - 'title, tagged, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:46:29.304491+00:00'
   link_text: The District of Columbia's Criminal Justice System Under the Revitalization
     Act
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Trauma%20Informed%20Webinar%20Summary%20.pdf
@@ -218289,7 +218411,7 @@
   filename: one%20pager%20JJS120%20%282%29.pdf
   site: dc.gov
   crawled_at: '2026-03-16T15:58:29.304805+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -218317,7 +218439,7 @@
     Words: 1041
     Images: 1
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -218350,6 +218472,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:46:46.687024+00:00'
   link_text: Key Takeaways from the Root Cause Analysis Study
 - url: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_chapter_2019j.pdf
   md5: fc57e166bf0fbce1fda160426361db8b
@@ -400313,15 +400441,22 @@
   filename: '%E5%B0%8D%E6%96%BC%E8%AD%A6%E5%AF%9F%E9%9D%9E%E7%B7%8A%E6%80%A5%E6%83%85%E6%B3%81%20-%20%E4%B8%AD%E6%96%87.pdf'
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.036787+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:47:03.585071+00:00'
   link_text: 對於警察非緊急情況 - 中文.pdf
 - url: https://ouc.dc.gov/sites/default/files/dc/sites/OUC/publication/attachments/%EB%8B%A4%EC%9D%8C%EC%9D%84%20%ED%8F%AC%ED%95%A8%ED%95%9C%20%EA%B2%BD%EC%B0%B0%20%EB%B9%84%EA%B8%B4%EA%B8%89%20%EC%83%81%ED%99%A9%EC%9D%98%20%EA%B2%BD%EC%9A%B0%20-%20%ED%95%9C%EA%B5%AD%EC%96%B4.pdf
   md5: 6ddc309332e410bfb26a165f412c14c4
@@ -400329,15 +400464,22 @@
   filename: '%EB%8B%A4%EC%9D%8C%EC%9D%84%20%ED%8F%AC%ED%95%A8%ED%95%9C%20%EA%B2%BD%EC%B0%B0%20%EB%B9%84%EA%B8%B4%EA%B8%89%20%EC%83%81%ED%99%A9%EC%9D%98%20%EA%B2%BD%EC%9A%B0%20-%20%ED%95%9C%EA%B5%AD%EC%96%B4.pdf'
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.048344+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:47:20.703686+00:00'
   link_text: 다음을 포함한 경찰 비긴급 상황의 경우 - 한국어.pdf
 - url: https://ouc.dc.gov/sites/default/files/dc/sites/OUC/publication/attachments/%ED%95%84%EC%9A%94%EC%97%90%20%EB%A7%9E%EB%8A%94%20%EC%A0%84%ED%99%94%EB%A5%BC%20%ED%95%98%EC%8B%AD%EC%8B%9C%EC%98%A4-%20%ED%95%9C%EA%B5%AD%EC%96%B4.pdf
   md5: 0e0d85ff06dcdac66aef57291cf0bdb1
@@ -400345,15 +400487,22 @@
   filename: '%ED%95%84%EC%9A%94%EC%97%90%20%EB%A7%9E%EB%8A%94%20%EC%A0%84%ED%99%94%EB%A5%BC%20%ED%95%98%EC%8B%AD%EC%8B%9C%EC%98%A4-%20%ED%95%9C%EA%B5%AD%EC%96%B4.pdf'
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.052071+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:47:37.875254+00:00'
   link_text: 필요에 맞는 전화를 하십시오- 한국어.pdf
 - url: https://ddottopsenpsignphotos.blob.core.windows.net/topsnotices/ManageNotice//008535_PreliminaryPSCMeetingAgendaJun252026.pdf
   md5: f1476d8ece8d351abeee7e74e4b64c76
@@ -400361,15 +400510,22 @@
   filename: 008535_PreliminaryPSCMeetingAgendaJun252026.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.054907+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:47:54.454481+00:00'
   link_text: latest agenda
 - url: https://www.atlantafed.org/-/media/documents/community-development/publications/discussion-papers/2023/01-a-case-study-mitigating-benefits-cliffs-in-the-district-of-columbia.pdf
   md5: da21f552d3b893d32a5e89649cac660c
@@ -400377,15 +400533,22 @@
   filename: 01-a-case-study-mitigating-benefits-cliffs-in-the-district-of-columbia.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.056801+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:48:11.742121+00:00'
   link_text: '“Mitigating Benefits Cliffs for Low-Income Families: District of Columbia
     Career Mobility Action Plan as a Case Study”'
 - url: https://does.dc.gov/sites/default/files/dc/sites/does/publication/attachments/01_03_20_UI%20Claimant%27s%20Rights%20and%20Responsibilities.pdf
@@ -400394,15 +400557,22 @@
   filename: 01_03_20_UI%20Claimant%27s%20Rights%20and%20Responsibilities.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.059214+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:48:28.862240+00:00'
   link_text: Claimant’s Rights and Responsibilities Handbook
 - url: https://dmhhs.dc.gov/sites/default/files/dc/sites/op/publication/attachments/04%2520April%25202013%2520Briefing%2520Report%2520-%2520Disability.pdf
   md5: e2565c23461544c45d2eed7bcfa7ae23
@@ -400410,15 +400580,22 @@
   filename: 04%2520April%25202013%2520Briefing%2520Report%2520-%2520Disability-0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.061717+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:48:46.066378+00:00'
   link_text: April 2013 Briefing Report - Disability
 - url: https://odr.dc.gov/sites/default/files/dc/sites/op/publication/attachments/04%2520April%25202013%2520Briefing%2520Report%2520-%2520Disability.pdf
   md5: e2565c23461544c45d2eed7bcfa7ae23
@@ -400426,15 +400603,22 @@
   filename: 04%2520April%25202013%2520Briefing%2520Report%2520-%2520Disability.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.064189+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:49:03.231963+00:00'
   link_text: April 2013 Briefing Report - Disability
 - url: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/04.28.26%20-%202025%20AFR%20Filing%20Instructions%20%28FINAL%29.pdf
   md5: 178b52749e4e3f7f4b233cfb9285f7af
@@ -400442,15 +400626,22 @@
   filename: 04.28.26%20-%202025%20AFR%20Filing%20Instructions%20%28FINAL%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.066546+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:49:20.168400+00:00'
   link_text: 2025 AFR Filing Instructions
 - url: https://bega.dc.gov/sites/bega/files/publication/attachments/2-701.pdf
   md5: 130d4194a80312298ff00eaa5fbb932a
@@ -400458,15 +400649,22 @@
   filename: 2-701-0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.068223+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:49:37.415465+00:00'
   link_text: 2-701.pdf
 - url: https://www.bega.dc.gov/sites/bega/files/publication/attachments/2-701.pdf
   md5: 130d4194a80312298ff00eaa5fbb932a
@@ -400474,15 +400672,22 @@
   filename: 2-701.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.069862+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:49:54.294494+00:00'
   link_text: 2-701.pdf
 - url: https://ogag.dc.gov/sites/default/files/dc/sites/ogag/publication/attachments/2016-094%20Establishment%20%C2%AD%20Open%20Government%20Advisory%20Group.pdf
   md5: f0be271821522486bb095cc929ae8499
@@ -400490,15 +400695,22 @@
   filename: 2016-094%20Establishment%20%C2%AD%20Open%20Government%20Advisory%20Group.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.072012+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:50:11.650064+00:00'
   link_text: Establishment - Open Government Advisory Group - 2016
 - url: https://osse.dc.gov/sites/default/files/dc/sites/osse/publication/attachments/2017-18%20School%20Year%20Attendance%20Report.pdf
   md5: ad9d4c0d31a0848bf42c355e8d01ba1b
@@ -400506,15 +400718,22 @@
   filename: 2017-18%20School%20Year%20Attendance%20Report.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.086088+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:50:28.858077+00:00'
   link_text: 2017-18 School Year Attendance Report.pdf
 - url: https://dhcf.dc.gov/sites/default/files/dc/sites/dhcf/page_content/attachments/2019%20DC%20MCO%20Consumer%20Report%20Card.pdf
   md5: ba9fbcd127422153e3d9aa3d73b32ca1
@@ -400522,15 +400741,22 @@
   filename: 2019%20DC%20MCO%20Consumer%20Report%20Card.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.089273+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:50:45.967216+00:00'
   link_text: DC Medicaid MCO 2019 Report Card
 - url: https://dcoz.dc.gov/sites/default/files/dc/sites/dcoz/service_content/attachments/2019-003%20Defining%20a%20Separate%20Dwelling%20Unit.pdf
   md5: f40c2ffbb21f7ff4da4cd4efba68c4fe
@@ -400538,15 +400764,22 @@
   filename: 2019-003%20Defining%20a%20Separate%20Dwelling%20Unit.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.091448+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:51:02.772902+00:00'
   link_text: 🔗
 - url: https://planning.dc.gov/sites/default/files/dc/sites/op/page_content/attachments/2019-036%20Housing%20Initiative%20%285.9%29.pdf
   md5: 2ec3bd23f2a30209c57bd2b14c2c7061
@@ -400554,15 +400787,22 @@
   filename: 2019-036%20Housing%20Initiative%20%285.9%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.101124+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:51:19.506290+00:00'
   link_text: Mayor’s goal
 - url: https://housingdc.dc.gov/sites/default/files/dc/sites/housingdc/publication/attachments/2019-036%20Mayors%20Order%20on%20Housing.pdf
   md5: 15483d76bbef49954a19bb9451930478
@@ -400570,30 +400810,44 @@
   filename: 2019-036%20Mayors%20Order%20on%20Housing.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.110834+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:51:36.925109+00:00'
 - url: https://dchealth.dc.gov/sites/default/files/dc/sites/doh/page_content/attachments/2025-08-11-DCHealth-COVID-FAQs.pdf
   md5: 14f831725208bf1811727f83741dc19d
   file_hash: 647b599959f918c92baa67d7b5179446707e45cdc770ee5f46eb257d0d58cf90
   filename: 2025-08-11-DCHealth-COVID-FAQs.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.112944+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:51:54.322296+00:00'
   link_text: 2025-08-11-DCHealth-COVID-FAQs.pdf
 - url: https://38688ea5-869e-4178-b298-ec6e1fed2232.filesusr.com/ugd/22b4d3_1baa1d177b2c49239d55a2c3221f5cd6.pdf
   md5: 289a83c73d5946a4ec8125dc0e3898e5
@@ -400601,15 +400855,22 @@
   filename: 22b4d3_1baa1d177b2c49239d55a2c3221f5cd6.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.114994+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:52:11.773853+00:00'
   link_text: Tiếng Việt
 - url: https://38688ea5-869e-4178-b298-ec6e1fed2232.filesusr.com/ugd/22b4d3_398fff48b409496cba0ea69ae9012a82.pdf
   md5: c38ae26226bd06271a469280d38777f1
@@ -400617,15 +400878,22 @@
   filename: 22b4d3_398fff48b409496cba0ea69ae9012a82.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.116911+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:52:28.917764+00:00'
   link_text: Español
 - url: https://cdn.who.int/media/docs/default-source/documents/epp/tracking-sars-cov-2/23052025_nb.1.8.1_ire.pdf
   md5: 20fb1ecfa309cc73bf392b36ec4ecddd
@@ -400633,15 +400901,22 @@
   filename: 23052025_nb.1.8.1_ire.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.118901+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:52:46.131923+00:00'
   link_text: https://cdn.who.int/media/docs/default-source/documents/epp/tracking-sars-cov-2/23052025_nb.1.8.1_ire.pdf
 - url: https://ddottopsenpsignphotos.blob.core.windows.net/topsnotices/ManageNotice//370954_PreliminaryPSCMeetingAgendaJun252026.pdf
   md5: f1476d8ece8d351abeee7e74e4b64c76
@@ -400649,15 +400924,22 @@
   filename: 370954_PreliminaryPSCMeetingAgendaJun252026.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.121343+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:53:02.839242+00:00'
   link_text: .
 - url: https://ulidigitalmarketing.blob.core.windows.net/ulidcnc/2019/05/5cdc286d6aca1-5cdc286d6aca4Achieving-Housing-Affordability-Final-041519-4.pdf.pdf
   md5: 8a42e577ada0402fe88a92e8a53711c0
@@ -400665,15 +400947,22 @@
   filename: 5cdc286d6aca1-5cdc286d6aca4Achieving-Housing-Affordability-Final-041519-4.pdf.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.164063+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:53:20.079528+00:00'
   link_text: 'Increasing Housing Supply and Attainability: Improving Rules & Engagement
     to Build More Housing'
 - url: https://oag.dc.gov/sites/default/files/2026-06/6.4.26_Mem.%20Op.%20Granting%20District%20MTD%20%281%29.pdf
@@ -400682,15 +400971,22 @@
   filename: 6.4.26_Mem.%20Op.%20Granting%20District%20MTD%20%281%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.168310+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:53:37.248619+00:00'
   link_text: here
 - url: https://ddottopsenpsignphotos.blob.core.windows.net/topsnotices/ManageNotice//935792_PSCPressReleaseforJuly232026.pdf
   md5: 50b764a5cde95ca87d3856511d8db504
@@ -400698,15 +400994,22 @@
   filename: 935792_PSCPressReleaseforJuly232026.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.170918+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:53:54.618265+00:00'
   link_text: Read More
 - url: https://abca.dc.gov/sites/default/files/dc/sites/abra/publication/attachments/ABRA%20Code%20Book%20-%20Updated%208-22.pdf
   md5: fd4c1f807cf00891254c9c8212b01e80
@@ -400714,15 +401017,22 @@
   filename: ABRA%20Code%20Book%20-%20Updated%208-22.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.177132+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:54:11.247483+00:00'
   link_text: ABRA Code Book - Revised August 2022
 - url: https://disb.dc.gov/sites/default/files/dc/sites/disb/page_content/attachments/ACAExchangePlanYear2027ProposedRatesSummary.pdf
   md5: 664dc3123babace3e16cdbcda02c7f77
@@ -400730,15 +401040,22 @@
   filename: ACAExchangePlanYear2027ProposedRatesSummary.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.179715+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:54:28.533666+00:00'
   link_text: ACA Exchange Plan Year 2027 Proposed Rates Summary
 - url: https://oea.dc.gov/sites/default/files/dc/sites/oea/page_content/attachments/ADA_Grievance_Procedure%20for_Employees_and_Constituents.pdf
   md5: 07d94b65b88de05fa1e73a7ac4929921
@@ -400746,15 +401063,22 @@
   filename: ADA_Grievance_Procedure%20for_Employees_and_Constituents.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.181866+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:54:45.582620+00:00'
   link_text: ADA Grievance Procedure
 - url: https://oea.dc.gov/sites/default/files/dc/sites/oea/page_content/attachments/ADA_Public_Notice_for_Employees_and_Constituents.pdf
   md5: 59f3ef6f23243402785c3e7ca3008b49
@@ -400762,15 +401086,22 @@
   filename: ADA_Public_Notice_for_Employees_and_Constituents.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.183892+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:55:02.559650+00:00'
   link_text: ADA Public Notice
 - url: https://dfs.dc.gov/sites/default/files/dc/sites/dfs/publication/attachments/ANAB%20FM%202003%20NCR%20Summary%20DC-%20Revised.pdf
   md5: 3a7e60acef5ddde36f6c4ab1bdb5db8e
@@ -400778,15 +401109,22 @@
   filename: ANAB%20FM%202003%20NCR%20Summary%20DC-%20Revised.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.185637+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:55:19.479268+00:00'
   link_text: DFS FSL ANAB Site Summary 2015
 - url: https://oea.dc.gov/sites/default/files/dc/sites/oea/page_content/attachments/Accessibility%20of%20State%20and%20Local%20Gov%20Websites%20to%20People%20with%20Disabilities%20%28DOJ%20Guidance%29.pdf
   md5: 6e3aee558e8292f6b0a2560bcfd60bd1
@@ -400794,15 +401132,22 @@
   filename: Accessibility%20of%20State%20and%20Local%20Gov%20Websites%20to%20People%20with%20Disabilities%20%28DOJ%20Guidance%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.187748+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:55:36.558772+00:00'
   link_text: Accessibility of State and Local Gov Websites to People with Disabilities
     (DOJ Guidance).pdf
 - url: https://rptac.dc.gov/sites/default/files/dc/sites/rptac/publication/attachments/AgendaforAugust15thAdministrativeMeeting2.pdf
@@ -400811,15 +401156,22 @@
   filename: AgendaforAugust15thAdministrativeMeeting2.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.189522+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:55:53.168317+00:00'
   link_text: Agenda
 - url: https://rptac.dc.gov/sites/default/files/dc/sites/rptac/publication/attachments/AgendaforMarch6th2013AdministrativeMeeting.pdf
   md5: 9a92d3ead221dca27f6e2a0b6925e718
@@ -400827,15 +401179,22 @@
   filename: AgendaforMarch6th2013AdministrativeMeeting.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.191262+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:56:10.489215+00:00'
   link_text: Agenda
 - url: https://dchealth.dc.gov/sites/default/files/dc/sites/doh/page_content/attachments/Application%20Instructions.pdf
   md5: a261aa4def9729cc5dcbdcfd8625aca5
@@ -400843,15 +401202,22 @@
   filename: Application%20Instructions.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.194103+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:56:27.787274+00:00'
   link_text: Application Instructions
 - url: https://efile.does.dc.gov/does/eflexResources/ApplicationforFormalHearing.pdf
   md5: 3c4570592e83dcfa890842a52f47b76b
@@ -400859,15 +401225,22 @@
   filename: ApplicationforFormalHearing.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.196180+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:56:44.904391+00:00'
   link_text: Application For Formal Hearing
 - url: https://www.congress.gov/113/bills/hr803/BILLS-113hr803enr.pdf
   md5: 55d19b1ffa111ab6a7e44f2807042b50
@@ -400875,15 +401248,22 @@
   filename: BILLS-113hr803enr.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.199346+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:57:02.258959+00:00'
   link_text: 'Ley de Derecho Público de WIOA No: 113-128'
 - url: https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/Bill%20of%20Rights_VIETNAMESE.pdf
   md5: e0aabcac3979aa38d7171f1da5eb8db3
@@ -400891,15 +401271,22 @@
   filename: Bill%20of%20Rights_VIETNAMESE.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.201262+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:57:19.687075+00:00'
   link_text: vietnamita
 - url: https://abca.dc.gov/sites/default/files/dc/sites/abra/publication/attachments/Board%20Calendar%20EDIT%206.9.26.pdf
   md5: a1bd2510dbda31548daef5f6a892f45f
@@ -400907,15 +401294,22 @@
   filename: Board%20Calendar%20EDIT%206.9.26.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.206257+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:57:36.817497+00:00'
   link_text: 2026 ABC Board Calendar and Office Closures
 - url: https://techplan.dc.gov/sites/default/files/dc/sites/itstrategicplan/page_content/attachments/Brochure%20for%20Handbook%20for%20AI%20Values%20Alignment%20_06_17_2024.pdf
   md5: f89dc1e25b45733260e27eac4437a100
@@ -400923,15 +401317,22 @@
   filename: Brochure%20for%20Handbook%20for%20AI%20Values%20Alignment%20_06_17_2024.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.208631+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:57:54.532872+00:00'
   link_text: Read the Handbook for AI Values Alignment
 - url: https://static1.squarespace.com/static/5d2361aa11fed60001f7ab3a/t/67aa70da69f702100988eb99/1739223258658/CAHP+PSH+One+Page+Doc_Final_9.16.24.pdf
   md5: 5fad1a1be3e790479c9f03c5bd002ca5
@@ -400939,15 +401340,22 @@
   filename: CAHP+PSH+One+Page+Doc_Final_9.16.24.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.211820+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:58:12.125961+00:00'
   link_text: CAHP one-pager
 - url: https://ocme.dc.gov/sites/default/files/dc/sites/ocme/page_content/attachments/CH%20Authorization%20to%20Extend%20Rights%20-%20fillable-7184-1-en-zh_cn-T-C.pdf
   md5: f2fae83152df1bad9aa42af47e59396b
@@ -400955,15 +401363,22 @@
   filename: CH%20Authorization%20to%20Extend%20Rights%20-%20fillable-7184-1-en-zh_cn-T-C.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.213701+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:58:29.506369+00:00'
   link_text: 授权扩展权利
 - url: https://ocme.dc.gov/sites/default/files/dc/sites/ocme/page_content/attachments/CH%20Death%20Investigation%20and%20Certification-en-zh_cn-T-C.pdf
   md5: baa371ca9ce4d04af9cfe425fe0d4333
@@ -400971,15 +401386,22 @@
   filename: CH%20Death%20Investigation%20and%20Certification-en-zh_cn-T-C.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.215593+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:58:47.114574+00:00'
   link_text: 死亡调查及证明服务
 - url: https://ocme.dc.gov/sites/default/files/dc/sites/ocme/page_content/attachments/CH%20FOIA%20Information-en-zh_cn-T-C.pdf
   md5: 0d6460234ed0cef7772ed966d0c0455a
@@ -400987,15 +401409,22 @@
   filename: CH%20FOIA%20Information-en-zh_cn-T-C.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.217482+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:59:04.706839+00:00'
   link_text: 信息自由法要求
 - url: https://ocme.dc.gov/sites/default/files/dc/sites/ocme/page_content/attachments/CH%20Hours%20of%20Operation-en-zh_cn-T-C.pdf
   md5: 15b24acfadc6996e4b52102321e184ff
@@ -401003,15 +401432,22 @@
   filename: CH%20Hours%20of%20Operation-en-zh_cn-T-C.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.219479+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:59:22.192547+00:00'
   link_text: 营业时间
 - url: https://ocme.dc.gov/sites/default/files/dc/sites/ocme/page_content/attachments/CH%20Managing%20Grief.pdf
   md5: 854ef6024a01bf9eb6b1d93c8e6f293e
@@ -401019,15 +401455,22 @@
   filename: CH%20Managing%20Grief.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.222109+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:59:39.354046+00:00'
   link_text: 管理悲伤 – Covid 埋葬援助
 - url: https://ocme.dc.gov/sites/default/files/dc/sites/ocme/page_content/attachments/CH%20OCME%20Customers%20Served-en-zh_cn-T-C.pdf
   md5: c2a5bee569b7ebcab9a4325cb8bf7b26
@@ -401035,15 +401478,22 @@
   filename: CH%20OCME%20Customers%20Served-en-zh_cn-T-C.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.224208+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T11:59:57.110223+00:00'
   link_text: 服务的 OCME 客户
 - url: https://ocme.dc.gov/sites/default/files/dc/sites/ocme/page_content/attachments/CH%20OCME%20FAQ_s-en-zh_cn-T-C.pdf
   md5: afeffc279d30dd12f9f77d2ef2bad7d9
@@ -401051,15 +401501,22 @@
   filename: CH%20OCME%20FAQ_s-en-zh_cn-T-C.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.226534+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:00:14.616111+00:00'
   link_text: OCME 常见问题解答
 - url: https://dhcf.dc.gov/sites/default/files/dc/sites/dhcf/page_content/attachments/CURRENT_%202024-2027%20DC%20Medicaid%20Managed%20Care%20Quality%20Strategy.pdf
   md5: ca8b181165837b016b3a89ce59411b71
@@ -401067,15 +401524,22 @@
   filename: CURRENT_%202024-2027%20DC%20Medicaid%20Managed%20Care%20Quality%20Strategy.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.247281+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:00:31.863428+00:00'
   link_text: Medicaid Managed Care Quality Strategy January 2024-2027
 - url: https://dhcf.dc.gov/sites/default/files/dc/sites/dhcf/publication/attachments/CY%202011%20DHCF-%20MCO%20Annual%20Report.pdf
   md5: 9614315262b239915296d1a0a8114ccc
@@ -401083,15 +401547,22 @@
   filename: CY%202011%20DHCF-%20MCO%20Annual%20Report.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.251976+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:00:49.433411+00:00'
   link_text: Medicaid Managed Care Organizations External Quality Review Calendar
     Year 2011 Annual Technical Report
 - url: https://ocme.dc.gov/sites/default/files/dc/sites/ocme/page_content/attachments/Chinese%20Request%20Documents-en-zh_cn-T-C.pdf
@@ -401100,15 +401571,22 @@
   filename: Chinese%20Request%20Documents-en-zh_cn-T-C.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.254208+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:01:06.732958+00:00'
   link_text: 索取文件
 - url: https://mayor.dc.gov/sites/default/files/dc/sites/mayormb/page_content/attachments/DC%20FACES%20Executive%20Summary_r10sm.pdf
   md5: d10283379034905c0f87d0153383cc0a
@@ -401116,15 +401594,22 @@
   filename: DC%20FACES%20Executive%20Summary_r10sm.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.264831+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:01:24.187440+00:00'
   link_text: Read the DCFACES Working Group executive summary and recommendations
 - url: https://ohr.dc.gov/sites/default/files/dc/sites/ohr/DC%20Family%20Medical%20Leave%20Act%20Poster_Vietnamese_5.17.2024.pdf
   md5: d7d5a09c837115314c3405472584a622
@@ -401132,15 +401617,22 @@
   filename: DC%20Family%20Medical%20Leave%20Act%20Poster_Vietnamese_5.17.2024.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.268742+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:01:41.160415+00:00'
   link_text: Áp Phích Tại Nơi Làm Việc Về Đạo Luật Nghỉ Phép Vì Lý Do Gia Đình Và
     Y Tế
 - url: https://dchealth.dc.gov/sites/default/files/dc/sites/doh/publication/attachments/DC%20Health%20HCP%20Resp%20RTW%20Guidance.pdf
@@ -401149,15 +401641,22 @@
   filename: DC%20Health%20HCP%20Resp%20RTW%20Guidance.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.271676+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:01:58.500127+00:00'
   link_text: Updates to Guidance for Management of Healthcare Personnel with Acute Respiratory
     Virus Exposure and Infection including Influenza and COVID-19
 - url: https://dhcf.dc.gov/sites/default/files/dc/sites/dhcf/page_content/attachments/DC%20Medicaid%20MCO%202024%20Report%20Card.pdf
@@ -401166,15 +401665,22 @@
   filename: DC%20Medicaid%20MCO%202024%20Report%20Card.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.275245+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:02:15.612248+00:00'
   link_text: DC Medicaid MCO 2024 Report Card
 - url: https://dhcf.dc.gov/sites/default/files/dc/sites/dhcf/page_content/attachments/DC%20Medicaid%20Managed%20Care%20Quality%20Strategy%202020.pdf
   md5: 7fe2bc63af9e67c86e79ae5d96617509
@@ -401182,15 +401688,22 @@
   filename: DC%20Medicaid%20Managed%20Care%20Quality%20Strategy%202020.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.279719+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:02:32.233165+00:00'
   link_text: Medicaid Managed Care Quality Strategy January 2020
 - url: https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/DC%20WIA%20Annual%20Report%20PY%202011-FINAL_0.pdf
   md5: b864ff4c8e771b37662d6ddd0bf4be98
@@ -401198,15 +401711,22 @@
   filename: DC%20WIA%20Annual%20Report%20PY%202011-FINAL_0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.301123+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:02:49.639089+00:00'
   link_text: DC WIA Annual Report - PY 2011
 - url: https://dchr.dc.gov/sites/default/files/dc/sites/dchr/publication/attachments/DCHR_e-dpm_11b_73_holiday_premium_pay.pdf
   md5: 5cc66d863022018c07f95c18bde9f968
@@ -401214,15 +401734,22 @@
   filename: DCHR_e-dpm_11b_73_holiday_premium_pay.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.304339+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:03:06.863599+00:00'
   link_text: I-11B-73
 - url: https://dchr.dc.gov/sites/default/files/dc/sites/dchr/publication/attachments/DCHR_edpm_11b82_severance_pay.pdf
   md5: 97aa2c9a4735ce421863c2de02d61c58
@@ -401230,15 +401757,22 @@
   filename: DCHR_edpm_11b82_severance_pay.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.308169+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:03:23.511435+00:00'
   link_text: I-11B-82
 - url: https://dchr.dc.gov/sites/default/files/dc/sites/dchr/publication/attachments/DCHR_edpm_11b_80_procedures_for_processing_back_pay.pdf
   md5: 699192b9ae1fc43f1c2d85cb36520d6a
@@ -401246,15 +401780,22 @@
   filename: DCHR_edpm_11b_80_procedures_for_processing_back_pay.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.312289+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:03:40.155753+00:00'
   link_text: I-11B-80
 - url: https://dchr.dc.gov/sites/default/files/dc/sites/dchr/publication/attachments/DCHR_edpm_11b_83_26b-6_employment_and_salary_reduction%20%281%29.pdf
   md5: 22bc450d90a46a6c3bda9fe650d0ba04
@@ -401262,15 +401803,22 @@
   filename: DCHR_edpm_11b_83_26b-6_employment_and_salary_reduction%20%281%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.316696+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:03:57.146139+00:00'
   link_text: I-11B-83, I-26B-6
 - url: https://dchr.dc.gov/sites/default/files/dc/sites/dchr/publication/attachments/DCHR_edpm_38-27_mss_severance_pay.pdf
   md5: e090a0e1b8c8fa3bd2884b334b541703
@@ -401278,15 +401826,22 @@
   filename: DCHR_edpm_38-27_mss_severance_pay.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.319400+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:04:14.117900+00:00'
   link_text: I-38-27
 - url: https://dchr.dc.gov/sites/default/files/dc/sites/dchr/publication/attachments/DCHR_edpm_8_69.pdf
   md5: 05257ef34c7f17c3171d6153916a9ac1
@@ -401294,15 +401849,22 @@
   filename: DCHR_edpm_8_69.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.322988+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:04:31.137794+00:00'
   link_text: I-8-69+
 - url: https://dchr.dc.gov/sites/default/files/dc/sites/dchr/publication/attachments/DCHR_i_07a_001.pdf
   md5: ff95d9f610aa5ac5d84f16969515efa4
@@ -401310,15 +401872,22 @@
   filename: DCHR_i_07a_001.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.325336+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:04:48.354343+00:00'
   link_text: I-7A-1
 - url: https://dchr.dc.gov/sites/default/files/dc/sites/dchr/publication/attachments/DCHR_ins_8_59_time_in_grade.pdf
   md5: 794ab7ecdf05935b64ab3b225b3d87a2
@@ -401326,15 +401895,22 @@
   filename: DCHR_ins_8_59_time_in_grade.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.328156+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:05:05.689151+00:00'
   link_text: I-8-59
 - url: https://dcrb.dc.gov/sites/default/files/dc/sites/dcrb/publication/attachments/DCHR_whistleblower_protections_0.pdf
   md5: 1479fad74cca4c74beb955c5d0438632
@@ -401342,15 +401918,22 @@
   filename: DCHR_whistleblower_protections_0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.330192+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:05:22.899314+00:00'
   link_text: DCHR’s Whistleblower Protections and Obligations of Employees Notice
 - url: https://oca.dc.gov/sites/default/files/dc/sites/oca/page_content/attachments/DCOZ.pdf
   md5: 027c3efd10610df388ac93e4e754bd3f
@@ -401358,15 +401941,22 @@
   filename: DCOZ.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.337163+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:05:40.063893+00:00'
   link_text: FY25 Plan
 - url: https://ddot.dc.gov/sites/default/files/dc/sites/ddot/page_content/attachments/DDOT_Public_Space_Design_Realm_Guide_Final_updated_2019.03.15-1_0.pdf
   md5: 05bcd06678fb1854200feb35ec2dcf13
@@ -401374,15 +401964,22 @@
   filename: DDOT_Public_Space_Design_Realm_Guide_Final_updated_2019.03.15-1_0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.352757+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:05:57.055196+00:00'
   link_text: Public Realm Design Manual
 - url: https://dds.dc.gov/sites/default/files/dc/sites/dds/page_content/attachments/DDS%202022%20Annual%20Report%20%28Spanish%29.pdf
   md5: eef9860b08beb03c626a2f7c0da64d0b
@@ -401390,15 +401987,22 @@
   filename: DDS%202022%20Annual%20Report%20%28Spanish%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.366564+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:06:14.234923+00:00'
   link_text: DDS 2022 Annual Report (Spanish).pdf
 - url: https://dds.dc.gov/sites/default/files/dc/sites/dds/page_content/attachments/DDS%20Agency%20Brochure_2023%20Consiga%20El%20Apoyo%20Que%20Necesita.pdf
   md5: eda09a205da3ae349218f58620291e0d
@@ -401406,15 +402010,22 @@
   filename: DDS%20Agency%20Brochure_2023%20Consiga%20El%20Apoyo%20Que%20Necesita.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.377599+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:06:31.555710+00:00'
   link_text: DDS Agency Brochure_2023 Consiga El Apoyo Que Necesita.pdf
 - url: https://dds.dc.gov/sites/default/files/dc/sites/dds/page_content/attachments/DDS_Annual%20Report2021%20%28Spanish%29.pdf
   md5: f7527e765332b58058e4fe4cf3c0d245
@@ -401422,15 +402033,22 @@
   filename: DDS_Annual%20Report2021%20%28Spanish%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.386657+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:06:48.858431+00:00'
   link_text: DDS_Annual Report2021 (Spanish).pdf
 - url: https://dds.dc.gov/sites/default/files/dc/sites/dds/page_content/attachments/DDS_DD%20Expansion%20Fact%20Sheet%20%28Spanish%29.pdf
   md5: fc198f679d6028b7ec960110535f20d3
@@ -401438,15 +402056,22 @@
   filename: DDS_DD%20Expansion%20Fact%20Sheet%20%28Spanish%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.389352+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:07:06.127524+00:00'
   link_text: DDS_DD Expansion Fact Sheet (Spanish).pdf
 - url: https://dds.dc.gov/sites/default/files/dc/sites/dds/page_content/attachments/DDS_FY22%20Agency%20Profile%20with%20DD%20expansion%20%28Spanish%29.pdf
   md5: 41c77e10ac89dbfca0f1e1b479f7b515
@@ -401454,15 +402079,22 @@
   filename: DDS_FY22%20Agency%20Profile%20with%20DD%20expansion%20%28Spanish%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.392380+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:07:23.108168+00:00'
   link_text: DDS_FY22 Agency Profile with DD expansion (Spanish).pdf
 - url: https://dfs.dc.gov/sites/default/files/dc/sites/dfs/publication/attachments/DFS%20FQS_Certificate%20of%20Accreditation.pdf
   md5: b2e823cc539eeb61dc4eaff2aebcf348
@@ -401470,15 +402102,22 @@
   filename: DFS%20FQS_Certificate%20of%20Accreditation.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.394832+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:07:40.637109+00:00'
   link_text: DFS FQS_Certificate of Accreditation
 - url: https://dfs.dc.gov/sites/default/files/dc/sites/dfs/publication/attachments/DFS%20FQS_Scope%20of%20Accreditation.pdf
   md5: c8be3cf0a1fcfe26561d86092e208f5b
@@ -401486,15 +402125,22 @@
   filename: DFS%20FQS_Scope%20of%20Accreditation.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.397318+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:07:57.595482+00:00'
   link_text: DFS FQS_Scope of Accreditation
 - url: https://dfs.dc.gov/sites/default/files/dc/sites/dfs/publication/attachments/DFS%20FSL%20FBI%20QAS%20Compliance%202014_0.pdf
   md5: 0be711991388229a17df7e50e564fd59
@@ -401502,15 +402148,22 @@
   filename: DFS%20FSL%20FBI%20QAS%20Compliance%202014_0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.399652+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:08:14.964437+00:00'
   link_text: DFS FSL FBI QAS Compliance 2014
 - url: https://dfs.dc.gov/sites/default/files/dc/sites/dfs/publication/attachments/DFS%20FSL%20FQS%20Surveillance%202014_0.pdf
   md5: 1189d94c7593b0265e58402f1f76acb9
@@ -401518,15 +402171,22 @@
   filename: DFS%20FSL%20FQS%20Surveillance%202014_0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.401916+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:08:31.807624+00:00'
   link_text: DFS FSL FQS Surveillance 2014
 - url: https://dfs.dc.gov/sites/default/files/dc/sites/dfs/publication/attachments/DFS%20FSL_FORM319_Report%20on%20Conformance%20Wegel.pdf
   md5: 9b9d2b4895c697cc36ea0c8af4518866
@@ -401534,15 +402194,22 @@
   filename: DFS%20FSL_FORM319_Report%20on%20Conformance%20Wegel.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.404791+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:08:49.385447+00:00'
   link_text: DFS FSL_FORM319_Report on Conformance Wegel
 - url: https://dfs.dc.gov/sites/default/files/dc/sites/dfs/publication/attachments/DFS%20FSL_Pre-Assessment%20Report.pdf
   md5: 04c29241972b1f10282a004af813a073
@@ -401550,15 +402217,22 @@
   filename: DFS%20FSL_Pre-Assessment%20Report.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.407522+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:09:06.671627+00:00'
   link_text: DFS FSL_Pre-Assessment Report
 - url: https://oca.dc.gov/sites/default/files/dc/sites/oca/publication/attachments/DFS24.pdf
   md5: 59eec80b0af5dbeac738815dc55e8d95
@@ -401566,15 +402240,22 @@
   filename: DFS24.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.414316+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:09:23.834288+00:00'
   link_text: FY24 Plan
 - url: https://dgs.dc.gov/sites/default/files/dc/sites/dgs/publication/attachments/DGS%20Barring%20Policy%202014.pdf
   md5: bfe8c28f095755ef08b9d5c9c5c172a0
@@ -401582,15 +402263,22 @@
   filename: DGS%20Barring%20Policy%202014.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.423101+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:09:41.119357+00:00'
   link_text: DGS Barring Policy
 - url: https://dgs.dc.gov/sites/default/files/dc/sites/dgs/publication/attachments/DGS%20Office%20of%20the%20Director%20Org%20Chart%20%20June%202026%20Update.pdf
   md5: e371c7d59a8b5099d0c8aa30732e0e60
@@ -401598,15 +402286,22 @@
   filename: DGS%20Office%20of%20the%20Director%20Org%20Chart%20%20June%202026%20Update.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.425259+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:09:58.566005+00:00'
   link_text: DGS Office of the Director Org Chart June 2026 Update.pdf
 - url: https://dgs.dc.gov/sites/default/files/dc/sites/dgs/publication/attachments/DGS%20Proactive%20Disclosure%20DC%20Freedom%20Of%20Information%20Act%20Compliance%20Checklist.pdf
   md5: 2e0a9d761adcdfb885da04082decdafc
@@ -401614,15 +402309,22 @@
   filename: DGS%20Proactive%20Disclosure%20DC%20Freedom%20Of%20Information%20Act%20Compliance%20Checklist.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.427998+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:10:15.726264+00:00'
   link_text: DGS Proactive Disclosure DC Freedom Of Information Act Compliance Checklist
 - url: https://disb.dc.gov/sites/default/files/dc/sites/disb/publication/attachments/DISB2014OpenGovernmentReport.pdf
   md5: 693f16046e3106705f719b8019d2ac75
@@ -401630,15 +402332,22 @@
   filename: DISB2014OpenGovernmentReport.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.430134+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:10:33.054179+00:00'
   link_text: DISB 2014 Open Government Report
 - url: https://dme.dc.gov/sites/default/files/dc/sites/dme/publication/attachments/DME%20Testimony%20for%20102621%20OSSE%20Independence%20Bill%20Hearing%20FINAL.pdf
   md5: af453997b7715e8f1f7873a3015d374c
@@ -401646,15 +402355,22 @@
   filename: DME%20Testimony%20for%20102621%20OSSE%20Independence%20Bill%20Hearing%20FINAL.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.432178+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:10:50.720100+00:00'
   link_text: Public Hearing on Bill 24-80 and Bill 24-101 Testimony of Paul Kihn,
     Deputy Mayor for Education
 - url: https://dme.dc.gov/sites/default/files/dc/sites/dme/publication/attachments/DME%20Testimony%20for%20No%20Shots%20No%20School%20Roundtable%2062922.pdf
@@ -401663,15 +402379,22 @@
   filename: DME%20Testimony%20for%20No%20Shots%20No%20School%20Roundtable%2062922.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.433994+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:11:08.105021+00:00'
   link_text: Public Roundtable on "No Shots, No School" for SY22-23 Testimony of Paul
     Kihn, Deputy Mayor for Education
 - url: https://dme.dc.gov/sites/default/files/dc/sites/dme/publication/attachments/DME%20Testimony%20on%20Attendance%20Hearing%2031122%20%281%29.pdf
@@ -401680,15 +402403,22 @@
   filename: DME%20Testimony%20on%20Attendance%20Hearing%2031122%20%281%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.435830+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:11:25.738307+00:00'
   link_text: Public Hearing on Bill 24-428 Testimony of Paul Kihn, Deputy Mayor for
     Education
 - url: https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/DOES%20Org%20Chart%20-%20Program%20Names%20w%20Execs%20April%202023%20%28002%29.pdf
@@ -401697,15 +402427,22 @@
   filename: DOES%20Org%20Chart%20-%20Program%20Names%20w%20Execs%20April%202023%20%28002%29.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.437865+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:11:42.890233+00:00'
   link_text: Organigrama del Departamento de Servicios de Empleo
 - url: https://dhcd.dc.gov/sites/default/files/dc/sites/dhcd/publication/attachments/DOPA%20Fact%20Sheet%20March%202018.pdf
   md5: beb528c9d56061cb67fb07f5039f3548
@@ -401713,15 +402450,22 @@
   filename: DOPA%20Fact%20Sheet%20March%202018.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.440170+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:12:00.538366+00:00'
   link_text: DOPA Fact Sheet
 - url: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR%202023%20summer%20camp%20information%20FRENCH.pdf
   md5: 6842b1ab0df4d8829fc75a20bf74c6e7
@@ -401729,15 +402473,22 @@
   filename: DPR%202023%20summer%20camp%20information%20FRENCH.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.442359+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:12:18.007228+00:00'
   link_text: 'Camp D’été Inscription à la loterie américaine: les innovations de 2023'
 - url: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR%20Volunteer%20one%20pager_Spanish%202016.pdf
   md5: cac05c04705b1de066201a6b1d14d0f0
@@ -401745,15 +402496,22 @@
   filename: DPR%20Volunteer%20one%20pager_Spanish%202016.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.444154+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:12:35.242810+00:00'
   link_text: Cómo obtener un voluntario (2016)
 - url: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR%20Volunteer%20one%20pager_Vietnamese%202016.pdf
   md5: 102bbd2480c0fd13b333a602ac261a37
@@ -401761,15 +402519,22 @@
   filename: DPR%20Volunteer%20one%20pager_Vietnamese%202016.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.446259+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:12:52.433347+00:00'
   link_text: Làm sao để tham gia thiện nguyện (2016)
 - url: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPRPermitsposter%20Spanish_0.pdf
   md5: b61146ed0c4017fb040ded4e1c9c0946
@@ -401777,15 +402542,22 @@
   filename: DPRPermitsposter%20Spanish_0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.448188+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:13:09.718121+00:00'
   link_text: Cómo obtener un permiso (2016)
 - url: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR_Become%20a%20Programmatic%20Partner_Spanish.pdf
   md5: 5777f38aefcef6105e14d97f392b2b73
@@ -401793,15 +402565,22 @@
   filename: DPR_Become%20a%20Programmatic%20Partner_Spanish.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.449865+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:13:26.824284+00:00'
   link_text: Cómo convertirse en un colaborador de programas (2016)
 - url: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR_Become%20a%20Programmatic%20Partner_Vietnamese.pdf
   md5: 8f6a9f1996143df0594bc24e219c65c0
@@ -401809,15 +402588,22 @@
   filename: DPR_Become%20a%20Programmatic%20Partner_Vietnamese.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.451796+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:13:44.062870+00:00'
   link_text: Làm sao để hợp tác với chúng tôi trong các chương trình (2016)
 - url: https://dpr.dc.gov/sites/default/files/dc/sites/dpr/page_content/attachments/DPR_Permits%20poster_Vietnamese%202016.pdf
   md5: e55352fd8f606cc99eb80040dd7cab71
@@ -401825,15 +402611,22 @@
   filename: DPR_Permits%20poster_Vietnamese%202016.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.453662+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:14:01.366283+00:00'
   link_text: Làm sao để xin giấy phép (2016)
 - url: https://attendance.dc.gov/sites/default/files/dc/sites/attendance/publication/attachments/DRAFT-SY14-15-Year-End-Data-Committee-Report.pdf
   md5: 6ee4cfc90b5505f0f724d53be9f48ada
@@ -401841,15 +402634,22 @@
   filename: DRAFT-SY14-15-Year-End-Data-Committee-Report.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.456789+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:14:18.494026+00:00'
   link_text: Truancy Task Force Data Committee SY 2014-2015 Year End Report
 - url: https://oca.dc.gov/sites/default/files/dc/sites/oca/page_content/attachments/DYRS.pdf
   md5: c837c80eb6eabb608a1b2f5b284e492e
@@ -401857,15 +402657,22 @@
   filename: DYRS.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.463377+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:14:35.820234+00:00'
   link_text: FY25 Plan
 - url: https://bega.dc.gov/sites/bega/files/publication/attachments/DesignatedEmployee-Young%28OGE%29_2.pdf
   md5: 4415b26e2f2761288de6888c5d916eb0
@@ -401873,15 +402680,22 @@
   filename: DesignatedEmployee-Young%28OGE%29_2-0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.466017+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:14:52.691118+00:00'
   link_text: DesignatedEmployee-Young(OGE)_2.pdf
 - url: https://www.bega.dc.gov/sites/bega/files/publication/attachments/DesignatedEmployee-Young%28OGE%29_2.pdf
   md5: 4415b26e2f2761288de6888c5d916eb0
@@ -401889,15 +402703,22 @@
   filename: DesignatedEmployee-Young%28OGE%29_2.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.468676+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:10.297338+00:00'
   link_text: DesignatedEmployee-Young(OGE)_2.pdf
 - url: https://dmhhs.dc.gov/sites/default/files/dc/sites/dmhhs/publication/attachments/District%20Comprehensive%20Plan%20for%20Early%20Childhood%20and%20School-Based%20Mental%20Health%20Services.PDF
   md5: 95be3f0bbb39063a14e8c7a80f08636e
@@ -401905,15 +402726,22 @@
   filename: District%20Comprehensive%20Plan%20for%20Early%20Childhood%20and%20School-Based%20Mental%20Health%20Services.PDF
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.472806+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:27.796513+00:00'
   link_text: District Comprehensive Plan for Early Childhood and School-Based Mental
     Health Services
 - url: https://dmhhs.dc.gov/sites/default/files/dc/sites/dmhhs/publication/attachments/District%20School%20Health%20Services%20Program.pdf
@@ -401922,15 +402750,22 @@
   filename: District%20School%20Health%20Services%20Program.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.477911+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:45.095507+00:00'
   link_text: District School Health Services Program
 - url: https://dmhhs.dc.gov/sites/default/files/dc/sites/dmhhs/publication/attachments/District%20School-Based%20Behavioral%20Health%20Services%20Rollout%20Plan.pdf
   md5: aaaf10e1f551b0ce0d73243355cd97f2
@@ -401938,15 +402773,22 @@
   filename: District%20School-Based%20Behavioral%20Health%20Services%20Rollout%20Plan.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.480814+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:02.516524+00:00'
   link_text: District School-Based Behavioral Health Services Rollout Plan
 - url: https://ohr.dc.gov/sites/default/files/dc/sites/ohr/EEO%20Workplace%20Poster_Vietnamese_5.17.2024.pdf
   md5: 32cdfd9f3e7bcc887ae5b016bd8bfbc3
@@ -401954,15 +402796,22 @@
   filename: EEO%20Workplace%20Poster_Vietnamese_5.17.2024.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.484443+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:20.066414+00:00'
   link_text: Áp Phích Tại Nơi Làm Việc Về Cơ Hội Việc Làm Bình Đẳng
 - url: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Amharic.pdf
   md5: 67fdaea6db834e9053cafd4bb726bc03
@@ -401970,15 +402819,22 @@
   filename: ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Amharic.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.487118+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:37.040242+00:00'
   link_text: ESSA and Title I PRTK Request for Information – Amharic
 - url: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Chinese.pdf
   md5: 0663cc563bc8f8e4b8fccda8dec5c7c3
@@ -401986,15 +402842,22 @@
   filename: ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Chinese.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.489781+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:54.615832+00:00'
   link_text: ESSA and Title I PRTK Request for Information – Chinese
 - url: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Spanish.pdf
   md5: b4fd220fa17831f45c8e6aa34363fe03
@@ -402002,15 +402865,22 @@
   filename: ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter%20-%20Spanish.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.491757+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:11.720236+00:00'
   link_text: ESSA and Title I PRTK Request for Information – Spanish
 - url: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter_French.pdf
   md5: 6ba83e1faf4bb1859a96479ddd3ea2ae
@@ -402018,15 +402888,22 @@
   filename: ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter_French.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.493856+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:28.989693+00:00'
   link_text: ESSA and Title I PRTK Request for Information – French
 - url: https://dcps.dc.gov/sites/default/files/dc/sites/dcps/publication/attachments/ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter_Vietnamese.pdf
   md5: 45826da3d9c648f933058910a41ad596
@@ -402034,15 +402911,22 @@
   filename: ESSA%20and%20Title%20I%20Parent%20Right%20to%20Know%20Letter_Vietnamese.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.495879+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:46.406786+00:00'
   link_text: ESSA and Title I PRTK Request for Information – Vietnamese
 - url: https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/El%20Desempleo%20en%20el%20Distrito%20de%20Columbia%20mejora%20en%205%2C5%20por%20ciento%20en%20diciembre.pdf
   md5: 4cadc54c7532bfe8781ceba97c2e7014
@@ -402050,15 +402934,22 @@
   filename: El%20Desempleo%20en%20el%20Distrito%20de%20Columbia%20mejora%20en%205%2C5%20por%20ciento%20en%20diciembre.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.497696+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:03.652368+00:00'
   link_text: El Desempleo en el Distrito de Columbia mejora en 5,5 por ciento en diciembre
 - url: https://does.dc.gov/sites/default/files/dc/sites/does/page_content/attachments/El%20Desempleo%20en%20el%20Distrito%20de%20Columbia%20se%20mantiene%20estable%20en%2031%20por%20ciento%20en%20noviembre.pdf
   md5: ccf28522558a8774a57f1db94376ec24
@@ -402066,15 +402957,22 @@
   filename: El%20Desempleo%20en%20el%20Distrito%20de%20Columbia%20se%20mantiene%20estable%20en%2031%20por%20ciento%20en%20noviembre.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.499463+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:20.898815+00:00'
   link_text: El Desempleo en el Distrito de Columbia se mantiene estable en 3,1 por
     ciento en noviembre
 - url: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20-%20April%2011th%202024.pdf
@@ -402083,15 +402981,22 @@
   filename: Emancipation%20Commission%20Meeting%20Agenda%20-%20April%2011th%202024.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.501360+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:38.239265+00:00'
   link_text: Emancipation Day Commission - Agenda of April 11, 2024 Meeting
 - url: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20-%20April%204th%202024.pdf
   md5: 869cd534447155f1ebd5134e571dbd8c
@@ -402099,15 +403004,22 @@
   filename: Emancipation%20Commission%20Meeting%20Agenda%20-%20April%204th%202024.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.503245+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:55.302545+00:00'
   link_text: Emancipation Day Commission - Agenda of April 4, 2024 Meeting
 - url: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20April%2011th%202024.pdf
   md5: 64373aa34225459b195700fe5e746bdc
@@ -402115,15 +403027,22 @@
   filename: Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20April%2011th%202024.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.505224+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:12.662780+00:00'
   link_text: Emancipation Day Commission - Minutes of April 11, 2024 Meeting
 - url: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20April%204th%202024.pdf
   md5: 0084c2f7fa547dd4cae6bb0f9aa6c3c4
@@ -402131,15 +403050,22 @@
   filename: Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20April%204th%202024.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.507204+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:29.975042+00:00'
   link_text: Emancipation Day Commission - Minutes of April 4, 2024 Meeting
 - url: https://os.dc.gov/sites/default/files/dc/sites/os/page_content/attachments/Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20March%2014th%202024_0.pdf
   md5: e76c93e8e89cba13a90c0196828a2edb
@@ -402147,15 +403073,22 @@
   filename: Emancipation%20Commission%20Meeting%20Agenda%20Notes%20-%20March%2014th%202024_0.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.509086+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:47.037672+00:00'
   link_text: Emancipation Day Commission - Minutes of March 14, 2024 Meeting
 - url: https://dcrb.dc.gov/sites/default/files/dc/sites/dcrb/page_content/attachments/FAQs%20With%20Responses_Self%20Service_4-4-22%20DH%20V2%20FINAL%20.pdf
   md5: 3a8cd930d545199b24fe001312f8e675
@@ -402163,15 +403096,22 @@
   filename: FAQs%20With%20Responses_Self%20Service_4-4-22%20DH%20V2%20FINAL%20.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.511384+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:04.309426+00:00'
   link_text: Self-Service FAQs April 4 2022
 - url: https://perb.dc.gov/sites/default/files/dc/sites/perb/page_content/attachments/FOIA%20Request%20%23%202020-FOIA-04530%20Denial%20Letter.pdf
   md5: 86b3e8a8b372a42b32796d4632e6ca77
@@ -402179,15 +403119,22 @@
   filename: FOIA%20Request%20%23%202020-FOIA-04530%20Denial%20Letter.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.514219+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:21.813949+00:00'
   link_text: 'FOIA Request # 2020-FOIA-04530 Denial Letter.pdf'
 - url: https://perb.dc.gov/sites/default/files/dc/sites/perb/page_content/attachments/FOIA%20Request%20%23%202020-FOIA-04936%20Denial%20Letter.pdf
   md5: 8397c98047d352c71fd777e638b01dcc
@@ -402195,15 +403142,22 @@
   filename: FOIA%20Request%20%23%202020-FOIA-04936%20Denial%20Letter.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.516979+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:38.802101+00:00'
   link_text: 'FOIA Request # 2020-FOIA-04936 Denial Letter.pdf'
 - url: https://perb.dc.gov/sites/default/files/dc/sites/perb/page_content/attachments/FOIA%20Request%20%23%202020-FOIA-06781%20Denial%20Letter.pdf
   md5: 9c3053e56d9e221c3f08441b58efdb21
@@ -402211,15 +403165,22 @@
   filename: FOIA%20Request%20%23%202020-FOIA-06781%20Denial%20Letter.pdf
   site: dc.gov
   crawled_at: '2026-07-07T11:38:40.518763+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:56.518518+00:00'
   link_text: 'FOIA Request # 2020-FOIA-06781 Denial Letter.pdf'
 - url: https://perb.dc.gov/sites/default/files/dc/sites/perb/page_content/attachments/FOIA%20Request%20%23%202020-FOIA-07268%20Denial%20Letter.pdf
   md5: 6ad5e04a4a97d1f65a3457b3ef4f745c

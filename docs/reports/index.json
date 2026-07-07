@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-07T12:21:41.147454+00:00",
+    "site": "dc.gov",
+    "crawl_url": "https://dc.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28863334321",
+    "issue_url": "",
+    "archive_file": "2026-07-07_12-21-41-147_dc.gov.html",
+    "total": 503,
+    "analysed": 74,
+    "accessible": 5
+  },
+  {
     "date": "2026-07-07T11:28:51.596539+00:00",
     "site": "pl.mn.gov",
     "crawl_url": "https://pl.mn.gov",
