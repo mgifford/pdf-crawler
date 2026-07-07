@@ -573,30 +573,30 @@ def test_generate_reports_index_html_has_issue_link():
     html = generate_reports_index_html([])
     # JS that references issue_url to build the link
     assert "issue_url" in html
-    assert "issueLink" in html
+    assert "issueLabel" in html
 
 
-def test_generate_reports_index_html_has_deduplicate_function():
-    """The reports index template must include the deduplicateReports JS function."""
+def test_generate_reports_index_html_keeps_rerun_history():
+    """The reports index must keep reruns instead of collapsing to latest only."""
     html = generate_reports_index_html([])
-    assert "deduplicateReports" in html
-    # Dedup must be applied after loading the JSON data
-    assert "deduplicateReports(allReports)" in html
+    assert "enrichRunInfo" in html
+    assert "deduplicateReports" not in html
 
 
-def test_generate_reports_index_html_dedup_by_issue_number():
-    """deduplicateReports must use issue number as the key, not site+issue.
-
-    Re-runs of the same issue (even with a different site name) must collapse
-    to a single row showing only the latest scan.
-    """
+def test_generate_reports_index_html_shows_run_and_engine_columns():
+    """The reports index must expose run history and engine/veraPDF visibility."""
     html = generate_reports_index_html([])
-    # The old composite key used site + null-byte + issue number.
-    # The new logic must use issue number alone (falling back to site).
-    assert "\\x00" not in html, "dedup key must not concatenate site and issue number"
-    assert re.search(r"issueKey\s*\|\|\s*\(r\.site", html), (
-        "dedup key must be issueKey alone (falling back to site for manual runs)"
-    )
+    assert "data-label=\"Run\"" in html
+    assert "data-label=\"Engines\"" in html
+    assert "data-label=\"veraPDF\"" in html
+
+
+def test_generate_reports_index_html_has_sortable_headers():
+    """The reports index table headers must be keyboard/mouse sortable."""
+    html = generate_reports_index_html([])
+    assert "bindSorting" in html
+    assert "updateHeaders" in html
+    assert "class=\"sortable\"" in html
 
 
 def test_generate_reports_index_html_issue_number_in_link():
@@ -604,7 +604,7 @@ def test_generate_reports_index_html_issue_number_in_link():
     html = generate_reports_index_html([])
     # JS that extracts the issue number to display as '#NNN'
     assert "issueNum" in html
-    assert "'#' + issueNum" in html
+    assert "_issue_num" in html
 
 
 # ---------------------------------------------------------------------------
@@ -1595,6 +1595,8 @@ def test_generate_main_with_archive_dir(tmp_path):
     index = json.loads(index_path.read_text(encoding="utf-8"))
     assert len(index) == 1
     assert index[0]["site"] == "example.com"
+    assert index[0]["analysis_engines"] == ["original"]
+    assert index[0]["verapdf"] is False
 
     # An HTML archive file must have been created
     html_files = list(archive_dir.glob("*.html"))

@@ -1421,6 +1421,8 @@ _REPORTS_INDEX_TEMPLATE = """\
       border-bottom: 2px solid var(--color-border);
       white-space: nowrap;
     }}
+    th.sortable {{ cursor: pointer; }}
+    th.sortable:focus-visible {{ outline: 2px solid var(--color-link); outline-offset: 2px; }}
     td {{ padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: middle; }}
     tr:last-child td {{ border-bottom: none; }}
     tr:nth-child(even) td {{ background: var(--color-row-stripe); }}
@@ -1526,25 +1528,109 @@ _REPORTS_INDEX_TEMPLATE = """\
           '<div class="summary-card"><div class="value">' + Object.keys(sites).length + '</div><div class="label">Unique Sites</div></div>';
       }}
 
-      function deduplicateReports(reports) {{
-        // Keep only the latest entry per issue.
-        // index.json is sorted newest-first so the first occurrence is the
-        // most-recent scan.  When an issue_url is present the issue number is
-        // used as the key so that all re-runs of the same issue collapse to
-        // one row regardless of any site-name differences between runs.
-        // Entries with no issue_url (manual runs) are grouped by site alone.
-        var seen = {{}};
-        var result = [];
+      var sortCol = 'date';
+      var sortAsc = false;
+
+      function issueInfo(report) {{
+        var m = report.issue_url ? report.issue_url.match(/\/issues\/(\d+)/) : null;
+        return {{
+          issueNum: m ? m[1] : '',
+          issueKey: m ? ('issue:' + m[1]) : ('manual:' + (report.site || '') + '|' + (report.crawl_url || '')),
+        }};
+      }}
+
+      function enrichRunInfo(reports) {{
+        var byKey = {{}};
         reports.forEach(function (r) {{
-          var m = r.issue_url ? r.issue_url.match(/\\/issues\\/(\\d+)/) : null;
-          var issueKey = m ? m[1] : '';
-          var key = issueKey || (r.site || '');
-          if (!seen[key]) {{
-            seen[key] = true;
-            result.push(r);
+          var info = issueInfo(r);
+          r._issue_num = info.issueNum;
+          r._issue_key = info.issueKey;
+          byKey[info.issueKey] = byKey[info.issueKey] || [];
+          byKey[info.issueKey].push(r);
+        }});
+
+        Object.keys(byKey).forEach(function (key) {{
+          var runs = byKey[key].slice().sort(function (a, b) {{
+            var da = a.date ? Date.parse(a.date) : 0;
+            var db = b.date ? Date.parse(b.date) : 0;
+            return da - db;
+          }});
+          var total = runs.length;
+          runs.forEach(function (r, idx) {{
+            r._run_number = idx + 1;
+            r._run_total = total;
+          }});
+        }});
+      }}
+
+      function colVal(r, col) {{
+        var analysed = r.analysed || 0;
+        var accessible = r.accessible || 0;
+        var issues = Math.max(0, analysed - accessible);
+        var pct = analysed ? (accessible / analysed) : -1;
+        var engines = Array.isArray(r.analysis_engines)
+          ? r.analysis_engines.join(',')
+          : (r.analysis_engines || r.engine || 'original');
+
+        switch (col) {{
+          case 'date': return r.date ? Date.parse(r.date) : 0;
+          case 'site': return (r.site || '').toLowerCase();
+          case 'issue': return r._issue_num ? Number(r._issue_num) : -1;
+          case 'rerun': return (r._run_total || 1) * 1000 + (r._run_number || 1);
+          case 'engines': return String(engines).toLowerCase();
+          case 'verapdf': return r.verapdf ? 1 : 0;
+          case 'total': return r.total || 0;
+          case 'accessible': return accessible;
+          case 'issues': return issues;
+          case 'pct': return pct;
+          default: return '';
+        }}
+      }}
+
+      function sortReports(reports) {{
+        return reports.slice().sort(function (a, b) {{
+          var va = colVal(a, sortCol);
+          var vb = colVal(b, sortCol);
+          if (va < vb) return sortAsc ? -1 : 1;
+          if (va > vb) return sortAsc ? 1 : -1;
+          return 0;
+        }});
+      }}
+
+      function updateHeaders(table) {{
+        table.querySelectorAll('th[data-col]').forEach(function (th) {{
+          var col = th.getAttribute('data-col');
+          var label = th.getAttribute('data-label');
+          if (col === sortCol) {{
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = label + (sortAsc ? ' \u25b4' : ' \u25be');
+          }} else {{
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = label;
           }}
         }});
-        return result;
+      }}
+
+      function bindSorting(table, reports) {{
+        table.querySelectorAll('th[data-col]').forEach(function (th) {{
+          function triggerSort() {{
+            var col = th.getAttribute('data-col');
+            if (sortCol === col) {{
+              sortAsc = !sortAsc;
+            }} else {{
+              sortCol = col;
+              sortAsc = col === 'date' ? false : true;
+            }}
+            renderTable(reports);
+          }}
+          th.addEventListener('click', triggerSort);
+          th.addEventListener('keydown', function (e) {{
+            if (e.key === 'Enter' || e.key === ' ') {{
+              e.preventDefault();
+              triggerSort();
+            }}
+          }});
+        }});
       }}
 
       function renderTable(reports) {{
@@ -1557,37 +1643,58 @@ _REPORTS_INDEX_TEMPLATE = """\
           return;
         }}
 
-        var html = '<table><thead><tr>' +
-          '<th>Date</th><th>Site</th><th>Total PDFs</th>' +
-          '<th>&#x2705; Accessible</th><th>&#x274C; Issues</th>' +
-          '<th>% Accessible</th><th>Report</th>' +
+        var sorted = sortReports(reports);
+        var html = '<table id="reports-table"><thead><tr>' +
+          '<th class="sortable" data-col="date" data-label="Date" aria-sort="none" tabindex="0"><span class="sort-label">Date</span></th>' +
+          '<th class="sortable" data-col="site" data-label="Site" aria-sort="none" tabindex="0"><span class="sort-label">Site</span></th>' +
+          '<th class="sortable" data-col="issue" data-label="Issue" aria-sort="none" tabindex="0"><span class="sort-label">Issue</span></th>' +
+          '<th class="sortable" data-col="rerun" data-label="Run" aria-sort="none" tabindex="0"><span class="sort-label">Run</span></th>' +
+          '<th class="sortable" data-col="engines" data-label="Engines" aria-sort="none" tabindex="0"><span class="sort-label">Engines</span></th>' +
+          '<th class="sortable" data-col="verapdf" data-label="veraPDF" aria-sort="none" tabindex="0"><span class="sort-label">veraPDF</span></th>' +
+          '<th class="sortable" data-col="total" data-label="Total PDFs" aria-sort="none" tabindex="0"><span class="sort-label">Total PDFs</span></th>' +
+          '<th class="sortable" data-col="accessible" data-label="&#x2705; Accessible" aria-sort="none" tabindex="0"><span class="sort-label">&#x2705; Accessible</span></th>' +
+          '<th class="sortable" data-col="issues" data-label="&#x274C; Issues" aria-sort="none" tabindex="0"><span class="sort-label">&#x274C; Issues</span></th>' +
+          '<th class="sortable" data-col="pct" data-label="% Accessible" aria-sort="none" tabindex="0"><span class="sort-label">% Accessible</span></th>' +
+          '<th>Report</th>' +
           '</tr></thead><tbody>';
 
-        reports.forEach(function (r) {{
+        sorted.forEach(function (r) {{
           var issues   = Math.max(0, (r.analysed || 0) - (r.accessible || 0));
           var dateStr  = r.date ? new Date(r.date).toLocaleString() : '';
+          var issueLabel = r._issue_num
+            ? '<a href="' + esc(r.issue_url) + '" target="_blank" rel="noopener">#' + esc(r._issue_num) + '</a>'
+            : '&#x2014;';
+          var runLabel = 'Run ' + (r._run_number || 1) + ' / ' + (r._run_total || 1);
+          var enginesLabel = Array.isArray(r.analysis_engines)
+            ? r.analysis_engines.join(', ')
+            : (r.analysis_engines || r.engine || 'original');
+          var verapdfLabel = r.verapdf ? '&#x2705;' : '&#x2014;';
           var siteCell = r.crawl_url
             ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
             : esc(r.site || '');
           var reportLink = '<a href="reports/' + esc(r.archive_file) + '">View report</a>';
-          var issueNum  = r.issue_url ? (r.issue_url.match(/\\/issues\\/(\\d+)/) || [])[1] : null;
-          var issueLink = r.issue_url
-            ? ' &nbsp;<a href="' + esc(r.issue_url) + '" target="_blank" rel="noopener">' +
-              (issueNum ? '#' + issueNum : 'Issue') + '</a>'
-            : '';
           html += '<tr>' +
             '<td>' + esc(dateStr) + '</td>' +
             '<td>' + siteCell + '</td>' +
+            '<td>' + issueLabel + '</td>' +
+            '<td>' + runLabel + '</td>' +
+            '<td>' + esc(enginesLabel) + '</td>' +
+            '<td>' + verapdfLabel + '</td>' +
             '<td>' + (r.total || 0) + '</td>' +
             '<td>' + (r.accessible || 0) + '</td>' +
             '<td>' + issues + '</td>' +
             '<td>' + pctBar(r.accessible || 0, r.analysed || 0) + '</td>' +
-            '<td>' + reportLink + issueLink + '</td>' +
+            '<td>' + reportLink + '</td>' +
             '</tr>';
         }});
 
         html += '</tbody></table>';
         root.innerHTML = html;
+        var table = document.getElementById('reports-table');
+        if (table) {{
+          bindSorting(table, reports);
+          updateHeaders(table);
+        }}
       }}
 
       function applyFilter() {{
@@ -1613,7 +1720,7 @@ _REPORTS_INDEX_TEMPLATE = """\
         }})
         .then(function (data) {{
           allReports = Array.isArray(data) ? data : [];
-          allReports = deduplicateReports(allReports);
+          enrichRunInfo(allReports);
           renderSummary(allReports);
           renderTable(allReports);
         }})
@@ -1685,6 +1792,44 @@ def generate_reports_index_html(reports_index: List[Dict[str, Any]]) -> str:  # 
     return _REPORTS_INDEX_TEMPLATE.format()
 
 
+def _scan_capabilities(
+    raw_entries: List[Dict[str, Any]],
+    site_filter: Optional[str] = None,
+) -> Dict[str, Any]:
+    """Return engine and veraPDF availability for a single archived scan."""
+    scoped = (
+        [e for e in raw_entries if e.get("site") == site_filter]
+        if site_filter
+        else raw_entries
+    )
+
+    engines: set[str] = set()
+    has_verapdf = False
+
+    for entry in scoped:
+        analyses = entry.get("analyses")
+        if isinstance(analyses, dict) and analyses:
+            for engine, engine_data in analyses.items():
+                if isinstance(engine_data, dict):
+                    engines.add(engine)
+                    report = engine_data.get("report")
+                    if isinstance(report, dict) and "veraPDF" in report:
+                        has_verapdf = True
+        else:
+            engines.add("original")
+            report = entry.get("report")
+            if isinstance(report, dict) and "veraPDF" in report:
+                has_verapdf = True
+
+    if not engines:
+        engines.add("original")
+
+    return {
+        "analysis_engines": sorted(engines),
+        "verapdf": has_verapdf,
+    }
+
+
 def main(
     manifest_path: str = "reports/manifest.yaml",
     report_dir: str = "reports",
@@ -1703,6 +1848,7 @@ def main(
     entries = _expanded_entries(raw_entries)
     stats = _summary_stats(entries)
     comparison = _engine_comparison(raw_entries)
+    capabilities = _scan_capabilities(raw_entries, site_filter=site_filter)
 
     # Compute per-site stats for the archive index entry so that values in
     # index.json (Total PDFs, Analysed, Accessible) reflect only the current
@@ -1822,6 +1968,8 @@ def main(
                     "total": site_stats["total_files"],
                     "analysed": site_stats["analysed"],
                     "accessible": site_stats["accessible"],
+                    "analysis_engines": capabilities["analysis_engines"],
+                    "verapdf": capabilities["verapdf"],
                 },
             )
             index_path.write_text(
