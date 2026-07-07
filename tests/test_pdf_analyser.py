@@ -1148,7 +1148,7 @@ def test_main_verapdf_flag_stores_result(tmp_path, monkeypatch):
         manifest_path=str(manifest_path),
         crawled_dir=str(tmp_path),
         keep_files=True,
-        run_verapdf=True,
+        run_verapdf_check=True,
     )
 
     entries = load_manifest(manifest_path)
@@ -1180,7 +1180,7 @@ def test_main_verapdf_prints_status(tmp_path, monkeypatch, capsys):
         manifest_path=str(manifest_path),
         crawled_dir=str(tmp_path),
         keep_files=True,
-        run_verapdf=True,
+        run_verapdf_check=True,
     )
 
     out = capsys.readouterr().out
@@ -1213,7 +1213,7 @@ def test_main_passes_verapdf_flag_to_process_timeout(tmp_path):
             manifest_path=str(manifest_path),
             crawled_dir=str(tmp_path),
             keep_files=True,
-            run_verapdf=True,
+            run_verapdf_check=True,
         )
     finally:
         _mod._analyse_with_process_timeout = original
@@ -1782,7 +1782,7 @@ def test_main_verapdf_prints_error_in_result(tmp_path, monkeypatch, capsys):
         manifest_path=str(manifest_path),
         crawled_dir=str(tmp_path),
         keep_files=True,
-        run_verapdf=True,
+        run_verapdf_check=True,
     )
 
     out = capsys.readouterr().out
@@ -2289,7 +2289,7 @@ def test_main_verapdf_compliant_prints_pass(tmp_path, monkeypatch, capsys):
         manifest_path=str(manifest_path),
         crawled_dir=str(tmp_path),
         keep_files=True,
-        run_verapdf=True,
+        run_verapdf_check=True,
     )
 
     out = capsys.readouterr().out
@@ -2316,7 +2316,7 @@ def test_main_verapdf_not_available_prints_message(tmp_path, monkeypatch, capsys
         manifest_path=str(manifest_path),
         crawled_dir=str(tmp_path),
         keep_files=True,
-        run_verapdf=True,
+        run_verapdf_check=True,
     )
 
     out = capsys.readouterr().out

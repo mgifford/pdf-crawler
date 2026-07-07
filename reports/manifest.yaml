@@ -215896,6 +215896,39 @@
     Images: 0
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2026-02-02 17:16:31+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word for Microsoft 365
+        Producer: Microsoft® Word for Microsoft 365
+        Pages: 3
+        Words: 592
+        Images: 0
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: ADA Information
 - url: https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/publication/attachments/CFSA%20NOPP%20rev.2020.pdf
   md5: e0c6cd3708a8f782ae810a2bfba36574
   filename: CFSA%20NOPP%20rev.2020.pdf
@@ -215998,6 +216031,39 @@
     Images: 1
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: true
+        Date: '2017-05-17 17:56:59-04:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.5'
+        Creator: null
+        Producer: null
+        Pages: 4
+        Words: 1725
+        Images: 1
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: CIC FY17 Performance Oversight Hearing Testimony 3.2.17.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
   md5: 7426e3a01d00a8e541fcfb593bdd94aa
   filename: CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
@@ -216032,6 +216098,39 @@
     Images: 1
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: true
+        Date: '2018-02-28 17:38:15-05:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.5'
+        Creator: null
+        Producer: null
+        Pages: 5
+        Words: 2094
+        Images: 1
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: CIC FY18 Performance Oversight Hearing Testimony 2.15.18.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
   md5: 748060a1d71a7c20781f39ce674f09a7
   filename: CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
@@ -216066,6 +216165,39 @@
     Images: 1
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: true
+        Date: '2017-12-22 17:59:14+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: false
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.3'
+        Creator: null
+        Producer: null
+        Pages: 4
+        Words: 1588
+        Images: 1
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: CIC Testimony on Bill22-459 Opioid Abuse Treatment Act 12.12.17.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony%20on%20Letterhead.pdf
   md5: c722f4695d32693390d765754a7b9024
   filename: CIC%20Testimony%20on%20Letterhead.pdf
@@ -216168,6 +216300,39 @@
     Images: 1
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: true
+        Date: '2017-11-02 05:23:57+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.5'
+        Creator: Microsoft® Word 2010
+        Producer: Microsoft® Word 2010
+        Pages: 3
+        Words: 1465
+        Images: 1
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: CIC Testimony on Youth Rehabilitation Amendment Act 2017 10.26.17.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf
   md5: e53880e0f550d4c2477fd445d029b4eb
   filename: CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf
@@ -216236,6 +216401,39 @@
     Images: 1
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: true
+        Date: '2017-10-05 18:03:18+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: false
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.3'
+        Creator: null
+        Producer: null
+        Pages: 3
+        Words: 1539
+        Images: 1
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: CIC Testimony on Special Education for Incarcerated Young Adults
 - url: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
   md5: 0faf1f6865dd4c29e216874019a9d92d
   filename: CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
@@ -216270,6 +216468,39 @@
     Images: 0
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: true
+        Date: '2017-06-30 19:17:56+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: false
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.5'
+        Creator: PScript5.dll Version 5.2.2
+        Producer: Acrobat Distiller 10.1.16 (Windows)
+        Pages: 4
+        Words: 1045
+        Images: 0
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: DC Judicial Financial Transparency Act
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
   md5: 72881a614edae99ac61daa54d802ca5c
   filename: CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
@@ -216304,6 +216535,39 @@
     Images: 18
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: true
+        Date: '2018-04-17 16:45:08+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.5'
+        Creator: Acrobat PDFMaker 11 for Word
+        Producer: Adobe PDF Library 11.0
+        Pages: 12
+        Words: 4398
+        Images: 18
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: CJCC 2nd Annual Criminal Justice Summit Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS1%20Summary%20FINAL.pdf
   md5: 8e1cf2e447adcef7e062855c75bca6b7
   filename: CJS1%20Summary%20FINAL.pdf
@@ -216337,6 +216601,38 @@
     Words: 3274
     Images: 7
   errors: []
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: true
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Pass
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2021-04-21 19:26:18+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: true
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word 2016
+        Producer: Microsoft® Word 2016
+        Pages: 11
+        Words: 3274
+        Images: 7
+      errors: []
+      analysed_at: null
+  link_text: Criminal Justice Webinar Series Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS2%20Webinar%20Summary.pdf
   md5: f8ef43311d0c7bc040696f0649ca0c88
   filename: CJS2%20Webinar%20Summary.pdf
@@ -216371,6 +216667,39 @@
     Images: 7
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2021-06-24 15:30:47+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word 2016
+        Producer: Microsoft® Word 2016
+        Pages: 8
+        Words: 2200
+        Images: 7
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: Criminal Justice Webinar Series Session Two Summary
 - url: https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf
   md5: 3495da7613e83e86d63ab6e679ba5230
   filename: CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf
@@ -216438,6 +216767,38 @@
     Words: 1542
     Images: 0
   errors: []
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: true
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Pass
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2024-03-22 15:24:02+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: true
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.6'
+        Creator: Acrobat PDFMaker 23 for Word
+        Producer: Adobe PDF Library 23.8.75
+        Pages: 5
+        Words: 1542
+        Images: 0
+      errors: []
+      analysed_at: null
+  link_text: Commission Rules - §2003 Financial Reports
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
   md5: 0afd87089fd6e5eda6980ff2ed9515a0
   filename: Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
@@ -216472,6 +216833,39 @@
     Images: 52
   errors:
   - 'title, tagged, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: true
+        Date: '2018-03-13 20:28:33+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: true
+        hasXmp: true
+        PDFVersion: '1.6'
+        Creator: Acrobat PDFMaker 11 for Word
+        Producer: Adobe PDF Library 11.0
+        Pages: 12
+        Words: 4810
+        Images: 52
+      errors:
+      - 'title, tagged, '
+      analysed_at: null
+  link_text: CJCC 2nd Annual Criminal Justice Summit
 - url: https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf
   md5: 395da5ad9c1e33e9a310f550108af89a
   filename: D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf
@@ -216742,6 +217136,39 @@
     Images: 1
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: true
+        Date: '2017-05-17 17:59:05-04:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.5'
+        Creator: null
+        Producer: null
+        Pages: 3
+        Words: 1305
+        Images: 1
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: FY2018 CIC Budget Hearing Testimony of Michelle Bonner 4.24.17.pdf
 - url: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf
   md5: 4631d67cd18fd9b4245be0001cd00f49
   filename: Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf
@@ -216810,6 +217237,39 @@
     Images: 0
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2024-03-21 19:21:29+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: true
+        hasXmp: true
+        PDFVersion: '1.6'
+        Creator: Acrobat PDFMaker 23 for Word
+        Producer: Adobe PDF Library 23.8.75
+        Pages: 2
+        Words: 520
+        Images: 0
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: Public Access Request Form and Instructions
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Housing%20Webinar%20Summary%2009.20.23.pdf
   md5: 2785366aba60308c4bfd12c2478d1928
   filename: Housing%20Webinar%20Summary%2009.20.23.pdf
@@ -217048,6 +217508,39 @@
     Images: 4
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2021-03-29 15:40:36+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word 2016
+        Producer: Microsoft® Word 2016
+        Pages: 10
+        Words: 2984
+        Images: 4
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: Juvenile Justice Webinar Seriers Session Two Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
   md5: e2fea153419a616281f4c4ee73f45ad4
   filename: Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
@@ -217082,6 +217575,39 @@
     Images: 9
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2021-06-14 18:52:28+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word 2016
+        Producer: Microsoft® Word 2016
+        Pages: 10
+        Words: 2888
+        Images: 9
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: Juvenile Justice Webinar Series Session Three Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf
   md5: b98fccb82f93fa404549276e8daa1d2d
   filename: Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf
@@ -217150,6 +217676,39 @@
     Images: 16
   errors:
   - 'title, tagged, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2025-08-11 14:30:10+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: false
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.3'
+        Creator: Adobe InDesign 20.2 (Windows)
+        Producer: Adobe PDF Library 17.0
+        Pages: 2
+        Words: 1030
+        Images: 16
+      errors:
+      - 'title, tagged, '
+      analysed_at: null
+  link_text: Kids Ride Free DC Student Ride Guide_Spanish_SY 25-26
 - url: https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/MHRS%20Bulletin%20Listing_0.pdf
   md5: 62c804bf44d5e5a90b542f968d8d1321
   filename: MHRS%20Bulletin%20Listing_0.pdf
@@ -217319,6 +217878,39 @@
     Images: 0
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2021-11-22 13:52:46+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: false
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.3'
+        Creator: null
+        Producer: null
+        Pages: 1
+        Words: 430
+        Images: 0
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: Quick Payment Act Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf
   md5: 834c40c1d75694d6ff4d71f7783fb5d7
   filename: Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf
@@ -217421,6 +218013,39 @@
     Images: 4
   errors:
   - 'title, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2020-02-18 19:27:18+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Microsoft® Word for Office 365
+        Producer: Microsoft® Word for Office 365
+        Pages: 10
+        Words: 4590
+        Images: 4
+      errors:
+      - 'title, '
+      analysed_at: null
+  link_text: Juvenile Justice Technical Assistance Session-SRO Summary
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
   md5: e0e6b81defef4895b9e2d34f2397dbfe
   filename: The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
@@ -217455,6 +218080,40 @@
     Images: 18
   errors:
   - 'title, tagged, no bookmarks and more than 20 pages, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Pass
+        BookmarksTest: Fail
+        Exempt: false
+        Date: '2023-01-20 18:13:34+00:00'
+        hasTitle: false
+        hasDisplayDocTitle: null
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Adobe InDesign 18.1 (Macintosh)
+        Producer: Adobe PDF Library 17.0
+        Pages: 57
+        Words: 26325
+        Images: 18
+      errors:
+      - 'title, tagged, no bookmarks and more than 20 pages, '
+      analysed_at: null
+  link_text: The District of Columbia's Criminal Justice System Under the Revitalization
+    Act
 - url: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Trauma%20Informed%20Webinar%20Summary%20.pdf
   md5: 2ad07983c613bb4bab3c853c4f3608f4
   filename: Trauma%20Informed%20Webinar%20Summary%20.pdf
@@ -217659,6 +218318,39 @@
     Images: 1
   errors:
   - 'title, tagged, lang, '
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Fail
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Fail
+        LanguageTest: Fail
+        BookmarksTest: Pass
+        Exempt: false
+        Date: '2020-12-03 21:36:14+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: false
+        hasLang: false
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.4'
+        Creator: null
+        Producer: null
+        Pages: 1
+        Words: 1041
+        Images: 1
+      errors:
+      - 'title, tagged, lang, '
+      analysed_at: null
+  link_text: Key Takeaways from the Root Cause Analysis Study
 - url: https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_chapter_2019j.pdf
   md5: fc57e166bf0fbce1fda160426361db8b
   filename: rl_cfsa_chapter_2019j.pdf
