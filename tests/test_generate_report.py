@@ -1239,7 +1239,7 @@ def test_cli_accepts_issue_url_argument(tmp_path):
     script = Path(__file__).parent.parent / "scripts" / "generate_report.py"
     # Run with --help and verify --issue-url appears in the output
     result = subprocess.run(
-        ["python3", str(script), "--help"],
+        [sys.executable, str(script), "--help"],
         capture_output=True,
         text=True,
         check=False,

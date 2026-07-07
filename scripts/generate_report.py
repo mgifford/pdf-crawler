@@ -38,6 +38,17 @@ _PASS = "✅ Pass"
 _FAIL = "❌ Fail"
 _NA = "—"
 
+_EXPANDED_CHECKS: List[tuple[str, str]] = [
+  ("TaggedContentTest", "TaggedContent"),
+  ("FormsTest", "Forms"),
+  ("TaggedFormFieldsTest", "TaggedForms"),
+  ("TaggedAnnotationsTest", "TaggedAnnots"),
+  ("FiguresAltTextTest", "FiguresAlt"),
+  ("HeadingsTest", "Headings"),
+  ("ListsTest", "Lists"),
+  ("TablesTest", "Tables"),
+]
+
 
 def _entry_for_engine(entry: Dict[str, Any], engine: str) -> Dict[str, Any]:
   """Return a report-ready entry view for a specific engine result."""
@@ -314,14 +325,24 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
     if not analysed:
         return "_No analysed files yet._\n"
 
+    present_expanded = [
+        (field, label)
+        for field, label in _EXPANDED_CHECKS
+        if any((e.get("report") or {}).get(field) is not None for e in analysed)
+    ]
+
     header = (
         "## File Details\n\n"
         "| File | Site | Published Date | Doc Title | Author | Subject | Keywords"
         " | Accessible | Tagged | EmptyText | Protected"
-        " | Title | Language | Bookmarks | Exempt | Pages | Words | Images |\n"
+        " | Title | Language | Bookmarks"
+        + (" | " + " | ".join(label for _, label in present_expanded) if present_expanded else "")
+        + " | Exempt | Pages | Words | Images |\n"
         "|------|------|----------------|-----------|--------|---------|---------|"
         "------------|--------|-----------|---------|"
-        "-------|----------|-----------|--------|-------|-------|--------|\n"
+        "-------|----------|-----------"
+        + ("|" + "|".join(["-------------"] * len(present_expanded)) if present_expanded else "")
+        + "|--------|-------|-------|--------|\n"
     )
 
     rows = []
@@ -334,26 +355,35 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
         site_str = f"{site} *(ext: {ext_domain})*" if ext_domain else site
         date_val = r.get("Date")
         date_str = str(date_val)[:10] if date_val else _NA
-        rows.append(
-            f"| [{filename}]({url}) "
-            f"| {site_str} "
-            f"| {date_str} "
-            f"| {r.get('Title') or _NA} "
-            f"| {r.get('Author') or _NA} "
-            f"| {r.get('Subject') or _NA} "
-            f"| {r.get('Keywords') or _NA} "
-            f"| {_fmt(r.get('Accessible'))} "
-            f"| {_fmt(r.get('TaggedTest'))} "
-            f"| {_fmt(r.get('EmptyTextTest'))} "
-            f"| {_fmt(r.get('ProtectedTest'))} "
-            f"| {_fmt(r.get('TitleTest'))} "
-            f"| {_fmt(r.get('LanguageTest'))} "
-            f"| {_fmt(r.get('BookmarksTest'))} "
-            f"| {_fmt(r.get('Exempt'))} "
-            f"| {r.get('Pages', _NA)} "
-            f"| {r.get('Words') if r.get('Words') is not None else _NA} "
-            f"| {r.get('Images') if r.get('Images') is not None else _NA} |"
+        row_parts = [
+          f"| [{filename}]({url}) ",
+          f"| {site_str} ",
+          f"| {date_str} ",
+          f"| {r.get('Title') or _NA} ",
+          f"| {r.get('Author') or _NA} ",
+          f"| {r.get('Subject') or _NA} ",
+          f"| {r.get('Keywords') or _NA} ",
+          f"| {_fmt(r.get('Accessible'))} ",
+          f"| {_fmt(r.get('TaggedTest'))} ",
+          f"| {_fmt(r.get('EmptyTextTest'))} ",
+          f"| {_fmt(r.get('ProtectedTest'))} ",
+          f"| {_fmt(r.get('TitleTest'))} ",
+          f"| {_fmt(r.get('LanguageTest'))} ",
+          f"| {_fmt(r.get('BookmarksTest'))} ",
+        ]
+        row_parts.extend(
+          f"| {_fmt(r.get(field))} "
+          for field, _ in present_expanded
         )
+        row_parts.extend(
+          [
+            f"| {_fmt(r.get('Exempt'))} ",
+            f"| {r.get('Pages', _NA)} ",
+            f"| {r.get('Words') if r.get('Words') is not None else _NA} ",
+            f"| {r.get('Images') if r.get('Images') is not None else _NA} |",
+          ]
+        )
+        rows.append("".join(row_parts))
     return header + "\n".join(rows) + "\n"
 
 
@@ -409,6 +439,14 @@ _CSV_COLUMNS = [
     "title",
     "language",
     "bookmarks",
+    "tagged_content",
+    "forms",
+    "tagged_form_fields",
+    "tagged_annotations",
+    "figures_alt_text",
+    "headings",
+    "lists",
+    "tables",
     "exempt",
     "pages",
     "words",
@@ -454,6 +492,14 @@ def generate_csv(entries: List[Dict[str, Any]]) -> str:
                 "title": r.get("TitleTest", ""),
                 "language": r.get("LanguageTest", ""),
                 "bookmarks": r.get("BookmarksTest", ""),
+                "tagged_content": r.get("TaggedContentTest", ""),
+                "forms": r.get("FormsTest", ""),
+                "tagged_form_fields": r.get("TaggedFormFieldsTest", ""),
+                "tagged_annotations": r.get("TaggedAnnotationsTest", ""),
+                "figures_alt_text": r.get("FiguresAltTextTest", ""),
+                "headings": r.get("HeadingsTest", ""),
+                "lists": r.get("ListsTest", ""),
+                "tables": r.get("TablesTest", ""),
                 "exempt": r.get("Exempt", ""),
                 "pages": r.get("Pages", ""),
                 "words": r.get("Words", ""),
@@ -605,11 +651,20 @@ def generate_issue_comment(
             ]
 
     if analysed:
+        present_expanded = [
+            (field, label)
+            for field, label in _EXPANDED_CHECKS
+            if any((e.get("report") or {}).get(field) is not None for e in analysed)
+        ]
         lines += [
             "## PDFs Scanned",
             "",
-            "| PDF | Accessible | Tagged | Title | Language | Bookmarks | Pages | Words | Images |",
-            "|-----|-----------|--------|-------|----------|-----------|-------|-------|--------|",
+            "| PDF | Accessible | Tagged | Title | Language | Bookmarks"
+            + (" | " + " | ".join(label for _, label in present_expanded) if present_expanded else "")
+            + " | Pages | Words | Images |",
+            "|-----|-----------|--------|-------|----------|-----------"
+            + ("|" + "|".join(["-------------"] * len(present_expanded)) if present_expanded else "")
+            + "|-------|-------|--------|",
         ]
         for e in analysed[:max_files]:
             r = e.get("report") or {}
@@ -621,17 +676,26 @@ def generate_issue_comment(
                 file_cell += f" *(ext: {ext_domain})*"
             words = r.get("Words")
             images = r.get("Images")
-            lines.append(
-                f"| {file_cell}"
-                f" | {_icon(r.get('Accessible'))}"
-                f" | {_icon(r.get('TaggedTest'))}"
-                f" | {_icon(r.get('TitleTest'))}"
-                f" | {_icon(r.get('LanguageTest'))}"
-                f" | {_icon(r.get('BookmarksTest'))}"
-                f" | {r.get('Pages', '—')}"
-                f" | {words if words is not None else '—'}"
-                f" | {images if images is not None else '—'} |"
+            row_parts = [
+                f"| {file_cell}",
+                f" | {_icon(r.get('Accessible'))}",
+                f" | {_icon(r.get('TaggedTest'))}",
+                f" | {_icon(r.get('TitleTest'))}",
+                f" | {_icon(r.get('LanguageTest'))}",
+                f" | {_icon(r.get('BookmarksTest'))}",
+            ]
+            row_parts.extend(
+                f" | {_icon(r.get(field))}"
+                for field, _ in present_expanded
             )
+            row_parts.extend(
+                [
+                    f" | {r.get('Pages', '—')}",
+                    f" | {words if words is not None else '—'}",
+                    f" | {images if images is not None else '—'} |",
+                ]
+            )
+            lines.append("".join(row_parts))
         if len(analysed) > max_files:
             lines += [
                 "",
@@ -908,6 +972,14 @@ _HTML_TEMPLATE = """\
       // Determine which optional columns have data
       var hasWords       = analysed.some(function (f) {{ return f.report && f.report.Words       != null; }});
       var hasImages      = analysed.some(function (f) {{ return f.report && f.report.Images      != null; }});
+      var hasTaggedContent = analysed.some(function (f) {{ return f.report && f.report.TaggedContentTest != null; }});
+      var hasForms         = analysed.some(function (f) {{ return f.report && f.report.FormsTest != null; }});
+      var hasTaggedForms   = analysed.some(function (f) {{ return f.report && f.report.TaggedFormFieldsTest != null; }});
+      var hasTaggedAnnots  = analysed.some(function (f) {{ return f.report && f.report.TaggedAnnotationsTest != null; }});
+      var hasFiguresAlt    = analysed.some(function (f) {{ return f.report && f.report.FiguresAltTextTest != null; }});
+      var hasHeadings      = analysed.some(function (f) {{ return f.report && f.report.HeadingsTest != null; }});
+      var hasLists         = analysed.some(function (f) {{ return f.report && f.report.ListsTest != null; }});
+      var hasTables        = analysed.some(function (f) {{ return f.report && f.report.TablesTest != null; }});
       var hasDocTitle    = analysed.some(function (f) {{ return f.report && f.report.Title       != null; }});
       var hasAuthor      = analysed.some(function (f) {{ return f.report && f.report.Author      != null; }});
       var hasSubject     = analysed.some(function (f) {{ return f.report && f.report.Subject     != null; }});
@@ -934,6 +1006,14 @@ _HTML_TEMPLATE = """\
           case 'title':       return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
           case 'language':    return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
           case 'bookmarks':   return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'tagged_content': return r.TaggedContentTest === 'Pass' ? 1 : r.TaggedContentTest === 'Fail' ? 0 : -1;
+          case 'forms':          return r.FormsTest === 'Pass' ? 1 : r.FormsTest === 'Fail' ? 0 : -1;
+          case 'tagged_forms':   return r.TaggedFormFieldsTest === 'Pass' ? 1 : r.TaggedFormFieldsTest === 'Fail' ? 0 : -1;
+          case 'tagged_annots':  return r.TaggedAnnotationsTest === 'Pass' ? 1 : r.TaggedAnnotationsTest === 'Fail' ? 0 : -1;
+          case 'figures_alt':    return r.FiguresAltTextTest === 'Pass' ? 1 : r.FiguresAltTextTest === 'Fail' ? 0 : -1;
+          case 'headings':       return r.HeadingsTest === 'Pass' ? 1 : r.HeadingsTest === 'Fail' ? 0 : -1;
+          case 'lists':          return r.ListsTest === 'Pass' ? 1 : r.ListsTest === 'Fail' ? 0 : -1;
+          case 'tables':         return r.TablesTest === 'Pass' ? 1 : r.TablesTest === 'Fail' ? 0 : -1;
           case 'pages':       return r.Pages  != null ? r.Pages  : -1;
           case 'words':       return r.Words  != null ? r.Words  : -1;
           case 'images':      return r.Images != null ? r.Images : -1;
@@ -974,6 +1054,14 @@ _HTML_TEMPLATE = """\
           '<td>' + icon(r.TitleTest)     + '</td>' +
           '<td>' + icon(r.LanguageTest)  + '</td>' +
           '<td>' + icon(r.BookmarksTest) + '</td>' +
+          (hasTaggedContent ? '<td>' + icon(r.TaggedContentTest) + '</td>' : '') +
+          (hasForms         ? '<td>' + icon(r.FormsTest) + '</td>' : '') +
+          (hasTaggedForms   ? '<td>' + icon(r.TaggedFormFieldsTest) + '</td>' : '') +
+          (hasTaggedAnnots  ? '<td>' + icon(r.TaggedAnnotationsTest) + '</td>' : '') +
+          (hasFiguresAlt    ? '<td>' + icon(r.FiguresAltTextTest) + '</td>' : '') +
+          (hasHeadings      ? '<td>' + icon(r.HeadingsTest) + '</td>' : '') +
+          (hasLists         ? '<td>' + icon(r.ListsTest) + '</td>' : '') +
+          (hasTables        ? '<td>' + icon(r.TablesTest) + '</td>' : '') +
           '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
           (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
           (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
@@ -1028,6 +1116,16 @@ _HTML_TEMPLATE = """\
           {{ key: 'title',      label: 'Title' }},
           {{ key: 'language',   label: 'Language' }},
           {{ key: 'bookmarks',  label: 'Bookmarks' }},
+        );
+        if (hasTaggedContent) colDefs.push({{ key: 'tagged_content', label: 'TaggedContent' }});
+        if (hasForms)         colDefs.push({{ key: 'forms',          label: 'Forms' }});
+        if (hasTaggedForms)   colDefs.push({{ key: 'tagged_forms',   label: 'TaggedForms' }});
+        if (hasTaggedAnnots)  colDefs.push({{ key: 'tagged_annots',  label: 'TaggedAnnots' }});
+        if (hasFiguresAlt)    colDefs.push({{ key: 'figures_alt',    label: 'FiguresAlt' }});
+        if (hasHeadings)      colDefs.push({{ key: 'headings',       label: 'Headings' }});
+        if (hasLists)         colDefs.push({{ key: 'lists',          label: 'Lists' }});
+        if (hasTables)        colDefs.push({{ key: 'tables',         label: 'Tables' }});
+        colDefs.push(
           {{ key: 'pages',      label: 'Pages' }}
         );
         if (hasWords)  colDefs.push({{ key: 'words',  label: 'Words' }});
