@@ -980,6 +980,11 @@ _HTML_TEMPLATE = """\
       var hasHeadings      = analysed.some(function (f) {{ return f.report && f.report.HeadingsTest != null; }});
       var hasLists         = analysed.some(function (f) {{ return f.report && f.report.ListsTest != null; }});
       var hasTables        = analysed.some(function (f) {{ return f.report && f.report.TablesTest != null; }});
+      var hasVeraPDF       = analysed.some(function (f) {{ return f.report && f.report.veraPDF && typeof f.report.veraPDF === 'object'; }});
+      var hasVPFailed      = analysed.some(function (f) {{ return f.report && f.report.veraPDF && f.report.veraPDF.failed_checks != null; }});
+      var hasVPPassed      = analysed.some(function (f) {{ return f.report && f.report.veraPDF && f.report.veraPDF.passed_checks != null; }});
+      var hasVPRules       = analysed.some(function (f) {{ return f.report && f.report.veraPDF && Array.isArray(f.report.veraPDF.failed_rules); }});
+      var hasVPError       = analysed.some(function (f) {{ return f.report && f.report.veraPDF && f.report.veraPDF.error; }});
       var hasDocTitle    = analysed.some(function (f) {{ return f.report && f.report.Title       != null; }});
       var hasAuthor      = analysed.some(function (f) {{ return f.report && f.report.Author      != null; }});
       var hasSubject     = analysed.some(function (f) {{ return f.report && f.report.Subject     != null; }});
@@ -1014,6 +1019,16 @@ _HTML_TEMPLATE = """\
           case 'headings':       return r.HeadingsTest === 'Pass' ? 1 : r.HeadingsTest === 'Fail' ? 0 : -1;
           case 'lists':          return r.ListsTest === 'Pass' ? 1 : r.ListsTest === 'Fail' ? 0 : -1;
           case 'tables':         return r.TablesTest === 'Pass' ? 1 : r.TablesTest === 'Fail' ? 0 : -1;
+          case 'verapdf_status':
+            if (!r.veraPDF || typeof r.veraPDF !== 'object') return -1;
+            if (r.veraPDF.error) return 0;
+            if (r.veraPDF.compliant === false) return 1;
+            if (r.veraPDF.compliant === true) return 2;
+            return -1;
+          case 'verapdf_failed': return (r.veraPDF && r.veraPDF.failed_checks != null) ? r.veraPDF.failed_checks : -1;
+          case 'verapdf_passed': return (r.veraPDF && r.veraPDF.passed_checks != null) ? r.veraPDF.passed_checks : -1;
+          case 'verapdf_rules': return (r.veraPDF && Array.isArray(r.veraPDF.failed_rules)) ? r.veraPDF.failed_rules.length : -1;
+          case 'verapdf_error': return (r.veraPDF && r.veraPDF.error) ? String(r.veraPDF.error).toLowerCase() : '';
           case 'pages':       return r.Pages  != null ? r.Pages  : -1;
           case 'words':       return r.Words  != null ? r.Words  : -1;
           case 'images':      return r.Images != null ? r.Images : -1;
@@ -1040,6 +1055,15 @@ _HTML_TEMPLATE = """\
         if (extDomain) {{
           siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
         }}
+        var vp = r.veraPDF;
+        var vpStatus = '&#x2014;';
+        if (vp && typeof vp === 'object') {{
+          if (vp.error) vpStatus = '<span class="fail">Error</span>';
+          else if (vp.compliant === true) vpStatus = '<span class="pass">Pass</span>';
+          else if (vp.compliant === false) vpStatus = '<span class="fail">Fail</span>';
+        }}
+        var vpRules = (vp && Array.isArray(vp.failed_rules)) ? vp.failed_rules.length : null;
+        var vpError = (vp && vp.error) ? String(vp.error) : null;
         return '<tr>' +
           '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
           '<td>' + siteCell + '</td>' +
@@ -1062,6 +1086,11 @@ _HTML_TEMPLATE = """\
           (hasHeadings      ? '<td>' + icon(r.HeadingsTest) + '</td>' : '') +
           (hasLists         ? '<td>' + icon(r.ListsTest) + '</td>' : '') +
           (hasTables        ? '<td>' + icon(r.TablesTest) + '</td>' : '') +
+          (hasVeraPDF       ? '<td>' + vpStatus + '</td>' : '') +
+          (hasVPFailed      ? '<td>' + ((vp && vp.failed_checks != null) ? vp.failed_checks : '&#x2014;') + '</td>' : '') +
+          (hasVPPassed      ? '<td>' + ((vp && vp.passed_checks != null) ? vp.passed_checks : '&#x2014;') + '</td>' : '') +
+          (hasVPRules       ? '<td>' + (vpRules != null ? vpRules : '&#x2014;') + '</td>' : '') +
+          (hasVPError       ? '<td>' + (vpError ? esc(vpError) : '&#x2014;') + '</td>' : '') +
           '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
           (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
           (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
@@ -1125,6 +1154,11 @@ _HTML_TEMPLATE = """\
         if (hasHeadings)      colDefs.push({{ key: 'headings',       label: 'Headings' }});
         if (hasLists)         colDefs.push({{ key: 'lists',          label: 'Lists' }});
         if (hasTables)        colDefs.push({{ key: 'tables',         label: 'Tables' }});
+        if (hasVeraPDF)       colDefs.push({{ key: 'verapdf_status', label: 'veraPDF' }});
+        if (hasVPFailed)      colDefs.push({{ key: 'verapdf_failed', label: 'vPDF Fail' }});
+        if (hasVPPassed)      colDefs.push({{ key: 'verapdf_passed', label: 'vPDF Pass' }});
+        if (hasVPRules)       colDefs.push({{ key: 'verapdf_rules',  label: 'vPDF Rules' }});
+        if (hasVPError)       colDefs.push({{ key: 'verapdf_error',  label: 'vPDF Error' }});
         colDefs.push(
           {{ key: 'pages',      label: 'Pages' }}
         );
@@ -1579,6 +1613,8 @@ _REPORTS_INDEX_TEMPLATE = """\
           case 'rerun': return (r._run_total || 1) * 1000 + (r._run_number || 1);
           case 'engines': return String(engines).toLowerCase();
           case 'verapdf': return r.verapdf ? 1 : 0;
+          case 'vp_fail': return r.vp_fail_files != null ? r.vp_fail_files : -1;
+          case 'vp_error': return r.vp_error_files != null ? r.vp_error_files : -1;
           case 'total': return r.total || 0;
           case 'accessible': return accessible;
           case 'issues': return issues;
@@ -1644,13 +1680,18 @@ _REPORTS_INDEX_TEMPLATE = """\
         }}
 
         var sorted = sortReports(reports);
+        var hasVeraPDF = reports.some(function (r) {{ return r.verapdf || (r.vp_checked_files || 0) > 0; }});
+        var hasVPFail = hasVeraPDF && reports.some(function (r) {{ return r.vp_fail_files != null; }});
+        var hasVPError = hasVeraPDF && reports.some(function (r) {{ return r.vp_error_files != null; }});
         var html = '<table id="reports-table"><thead><tr>' +
           '<th class="sortable" data-col="date" data-label="Date" aria-sort="none" tabindex="0"><span class="sort-label">Date</span></th>' +
           '<th class="sortable" data-col="site" data-label="Site" aria-sort="none" tabindex="0"><span class="sort-label">Site</span></th>' +
           '<th class="sortable" data-col="issue" data-label="Issue" aria-sort="none" tabindex="0"><span class="sort-label">Issue</span></th>' +
           '<th class="sortable" data-col="rerun" data-label="Run" aria-sort="none" tabindex="0"><span class="sort-label">Run</span></th>' +
           '<th class="sortable" data-col="engines" data-label="Engines" aria-sort="none" tabindex="0"><span class="sort-label">Engines</span></th>' +
-          '<th class="sortable" data-col="verapdf" data-label="veraPDF" aria-sort="none" tabindex="0"><span class="sort-label">veraPDF</span></th>' +
+          (hasVeraPDF ? '<th class="sortable" data-col="verapdf" data-label="veraPDF" aria-sort="none" tabindex="0"><span class="sort-label">veraPDF</span></th>' : '') +
+          (hasVPFail ? '<th class="sortable" data-col="vp_fail" data-label="vPDF Fails" aria-sort="none" tabindex="0"><span class="sort-label">vPDF Fails</span></th>' : '') +
+          (hasVPError ? '<th class="sortable" data-col="vp_error" data-label="vPDF Errors" aria-sort="none" tabindex="0"><span class="sort-label">vPDF Errors</span></th>' : '') +
           '<th class="sortable" data-col="total" data-label="Total PDFs" aria-sort="none" tabindex="0"><span class="sort-label">Total PDFs</span></th>' +
           '<th class="sortable" data-col="accessible" data-label="&#x2705; Accessible" aria-sort="none" tabindex="0"><span class="sort-label">&#x2705; Accessible</span></th>' +
           '<th class="sortable" data-col="issues" data-label="&#x274C; Issues" aria-sort="none" tabindex="0"><span class="sort-label">&#x274C; Issues</span></th>' +
@@ -1669,6 +1710,8 @@ _REPORTS_INDEX_TEMPLATE = """\
             ? r.analysis_engines.join(', ')
             : (r.analysis_engines || r.engine || 'original');
           var verapdfLabel = r.verapdf ? '&#x2705;' : '&#x2014;';
+          var vpFailLabel = (r.vp_fail_files != null) ? r.vp_fail_files : '&#x2014;';
+          var vpErrorLabel = (r.vp_error_files != null) ? r.vp_error_files : '&#x2014;';
           var siteCell = r.crawl_url
             ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
             : esc(r.site || '');
@@ -1679,7 +1722,9 @@ _REPORTS_INDEX_TEMPLATE = """\
             '<td>' + issueLabel + '</td>' +
             '<td>' + runLabel + '</td>' +
             '<td>' + esc(enginesLabel) + '</td>' +
-            '<td>' + verapdfLabel + '</td>' +
+            (hasVeraPDF ? '<td>' + verapdfLabel + '</td>' : '') +
+            (hasVPFail ? '<td>' + vpFailLabel + '</td>' : '') +
+            (hasVPError ? '<td>' + vpErrorLabel + '</td>' : '') +
             '<td>' + (r.total || 0) + '</td>' +
             '<td>' + (r.accessible || 0) + '</td>' +
             '<td>' + issues + '</td>' +
@@ -1804,7 +1849,10 @@ def _scan_capabilities(
     )
 
     engines: set[str] = set()
-    has_verapdf = False
+    vp_checked_files = 0
+    vp_pass_files = 0
+    vp_fail_files = 0
+    vp_error_files = 0
 
     for entry in scoped:
         analyses = entry.get("analyses")
@@ -1813,20 +1861,38 @@ def _scan_capabilities(
                 if isinstance(engine_data, dict):
                     engines.add(engine)
                     report = engine_data.get("report")
-                    if isinstance(report, dict) and "veraPDF" in report:
-                        has_verapdf = True
+                    if isinstance(report, dict) and isinstance(report.get("veraPDF"), dict):
+                        vp = report.get("veraPDF") or {}
+                        vp_checked_files += 1
+                        if vp.get("error"):
+                            vp_error_files += 1
+                        if vp.get("compliant") is True:
+                            vp_pass_files += 1
+                        elif vp.get("compliant") is False:
+                            vp_fail_files += 1
         else:
             engines.add("original")
             report = entry.get("report")
-            if isinstance(report, dict) and "veraPDF" in report:
-                has_verapdf = True
+            if isinstance(report, dict) and isinstance(report.get("veraPDF"), dict):
+                vp = report.get("veraPDF") or {}
+                vp_checked_files += 1
+                if vp.get("error"):
+                    vp_error_files += 1
+                if vp.get("compliant") is True:
+                    vp_pass_files += 1
+                elif vp.get("compliant") is False:
+                    vp_fail_files += 1
 
     if not engines:
         engines.add("original")
 
     return {
         "analysis_engines": sorted(engines),
-        "verapdf": has_verapdf,
+      "verapdf": vp_checked_files > 0,
+      "vp_checked_files": vp_checked_files,
+      "vp_pass_files": vp_pass_files,
+      "vp_fail_files": vp_fail_files,
+      "vp_error_files": vp_error_files,
     }
 
 
@@ -1970,6 +2036,10 @@ def main(
                     "accessible": site_stats["accessible"],
                     "analysis_engines": capabilities["analysis_engines"],
                     "verapdf": capabilities["verapdf"],
+                    "vp_checked_files": capabilities["vp_checked_files"],
+                    "vp_pass_files": capabilities["vp_pass_files"],
+                    "vp_fail_files": capabilities["vp_fail_files"],
+                    "vp_error_files": capabilities["vp_error_files"],
                 },
             )
             index_path.write_text(

@@ -589,6 +589,7 @@ def test_generate_reports_index_html_shows_run_and_engine_columns():
     assert "data-label=\"Run\"" in html
     assert "data-label=\"Engines\"" in html
     assert "data-label=\"veraPDF\"" in html
+    assert "hasVeraPDF" in html
 
 
 def test_generate_reports_index_html_has_sortable_headers():
@@ -605,6 +606,15 @@ def test_generate_reports_index_html_issue_number_in_link():
     # JS that extracts the issue number to display as '#NNN'
     assert "issueNum" in html
     assert "_issue_num" in html
+
+
+def test_generate_html_has_conditional_verapdf_columns():
+    """Detailed HTML report must only show veraPDF columns when data exists."""
+    stats = _summary_stats([])
+    html = generate_html([], stats)
+    assert "hasVeraPDF" in html
+    assert "verapdf_status" in html
+    assert "vPDF Fail" in html
 
 
 # ---------------------------------------------------------------------------
@@ -1597,6 +1607,10 @@ def test_generate_main_with_archive_dir(tmp_path):
     assert index[0]["site"] == "example.com"
     assert index[0]["analysis_engines"] == ["original"]
     assert index[0]["verapdf"] is False
+    assert index[0]["vp_checked_files"] == 0
+    assert index[0]["vp_pass_files"] == 0
+    assert index[0]["vp_fail_files"] == 0
+    assert index[0]["vp_error_files"] == 0
 
     # An HTML archive file must have been created
     html_files = list(archive_dir.glob("*.html"))
