@@ -286222,7 +286222,7 @@
   filename: 2025-2026_School_Calendar-Mountain_Valley.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.391484+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -286391,7 +286391,7 @@
   filename: 2025-26-Sierra-Grande-Calendar.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.406226+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -286816,7 +286816,7 @@
   filename: CEBT-Benefit-Plans.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.482716+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: true
@@ -286947,7 +286947,7 @@
   filename: Delta-Dental.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.497502+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: true
@@ -287078,7 +287078,7 @@
   filename: Enrollment-From.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.512323+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -287201,7 +287201,7 @@
   filename: Fingerpringing-Instructions.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.528289+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -287268,7 +287268,7 @@
   filename: Fingerprinting-Locations.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.531416+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -287335,7 +287335,7 @@
   filename: Fingerprinting-Notice-to-Applicants.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.534482+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -287436,7 +287436,7 @@
   filename: Forms_%20Referral%20_English.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.540455+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -287531,7 +287531,7 @@
   filename: Grants%20Coordinator%20.pdf
   site: slvboces.org
   crawled_at: '2026-03-26T12:56:44.548329+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: true
