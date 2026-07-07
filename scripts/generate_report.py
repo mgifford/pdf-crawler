@@ -1532,7 +1532,7 @@ _REPORTS_INDEX_TEMPLATE = """\
       var sortAsc = false;
 
       function issueInfo(report) {{
-        var m = report.issue_url ? report.issue_url.match(/\/issues\/(\d+)/) : null;
+        var m = report.issue_url ? report.issue_url.match(/\\/issues\\/(\\d+)/) : null;
         return {{
           issueNum: m ? m[1] : '',
           issueKey: m ? ('issue:' + m[1]) : ('manual:' + (report.site || '') + '|' + (report.crawl_url || '')),
