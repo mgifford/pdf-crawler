@@ -179,7 +179,7 @@
   <script type="application/json" id="report-data">
 {
   "summary": {
-    "generated_at": "2026-07-06T17:10:29.753734+00:00",
+    "generated_at": "2026-07-07T11:28:51.596539+00:00",
     "total_files": 21359,
     "analysed": 6075,
     "pending": 9916,
@@ -263,7 +263,7 @@
       "original": 21032,
       "bloom": 327
     },
-    "pages_crawled": 788
+    "pages_crawled": 0
   },
   "files": [
     {
@@ -465874,6 +465874,14 @@
       // Determine which optional columns have data
       var hasWords       = analysed.some(function (f) { return f.report && f.report.Words       != null; });
       var hasImages      = analysed.some(function (f) { return f.report && f.report.Images      != null; });
+      var hasTaggedContent = analysed.some(function (f) { return f.report && f.report.TaggedContentTest != null; });
+      var hasForms         = analysed.some(function (f) { return f.report && f.report.FormsTest != null; });
+      var hasTaggedForms   = analysed.some(function (f) { return f.report && f.report.TaggedFormFieldsTest != null; });
+      var hasTaggedAnnots  = analysed.some(function (f) { return f.report && f.report.TaggedAnnotationsTest != null; });
+      var hasFiguresAlt    = analysed.some(function (f) { return f.report && f.report.FiguresAltTextTest != null; });
+      var hasHeadings      = analysed.some(function (f) { return f.report && f.report.HeadingsTest != null; });
+      var hasLists         = analysed.some(function (f) { return f.report && f.report.ListsTest != null; });
+      var hasTables        = analysed.some(function (f) { return f.report && f.report.TablesTest != null; });
       var hasDocTitle    = analysed.some(function (f) { return f.report && f.report.Title       != null; });
       var hasAuthor      = analysed.some(function (f) { return f.report && f.report.Author      != null; });
       var hasSubject     = analysed.some(function (f) { return f.report && f.report.Subject     != null; });
@@ -465900,6 +465908,14 @@
           case 'title':       return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
           case 'language':    return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
           case 'bookmarks':   return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'tagged_content': return r.TaggedContentTest === 'Pass' ? 1 : r.TaggedContentTest === 'Fail' ? 0 : -1;
+          case 'forms':          return r.FormsTest === 'Pass' ? 1 : r.FormsTest === 'Fail' ? 0 : -1;
+          case 'tagged_forms':   return r.TaggedFormFieldsTest === 'Pass' ? 1 : r.TaggedFormFieldsTest === 'Fail' ? 0 : -1;
+          case 'tagged_annots':  return r.TaggedAnnotationsTest === 'Pass' ? 1 : r.TaggedAnnotationsTest === 'Fail' ? 0 : -1;
+          case 'figures_alt':    return r.FiguresAltTextTest === 'Pass' ? 1 : r.FiguresAltTextTest === 'Fail' ? 0 : -1;
+          case 'headings':       return r.HeadingsTest === 'Pass' ? 1 : r.HeadingsTest === 'Fail' ? 0 : -1;
+          case 'lists':          return r.ListsTest === 'Pass' ? 1 : r.ListsTest === 'Fail' ? 0 : -1;
+          case 'tables':         return r.TablesTest === 'Pass' ? 1 : r.TablesTest === 'Fail' ? 0 : -1;
           case 'pages':       return r.Pages  != null ? r.Pages  : -1;
           case 'words':       return r.Words  != null ? r.Words  : -1;
           case 'images':      return r.Images != null ? r.Images : -1;
@@ -465940,6 +465956,14 @@
           '<td>' + icon(r.TitleTest)     + '</td>' +
           '<td>' + icon(r.LanguageTest)  + '</td>' +
           '<td>' + icon(r.BookmarksTest) + '</td>' +
+          (hasTaggedContent ? '<td>' + icon(r.TaggedContentTest) + '</td>' : '') +
+          (hasForms         ? '<td>' + icon(r.FormsTest) + '</td>' : '') +
+          (hasTaggedForms   ? '<td>' + icon(r.TaggedFormFieldsTest) + '</td>' : '') +
+          (hasTaggedAnnots  ? '<td>' + icon(r.TaggedAnnotationsTest) + '</td>' : '') +
+          (hasFiguresAlt    ? '<td>' + icon(r.FiguresAltTextTest) + '</td>' : '') +
+          (hasHeadings      ? '<td>' + icon(r.HeadingsTest) + '</td>' : '') +
+          (hasLists         ? '<td>' + icon(r.ListsTest) + '</td>' : '') +
+          (hasTables        ? '<td>' + icon(r.TablesTest) + '</td>' : '') +
           '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
           (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
           (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
@@ -465994,6 +466018,16 @@
           { key: 'title',      label: 'Title' },
           { key: 'language',   label: 'Language' },
           { key: 'bookmarks',  label: 'Bookmarks' },
+        );
+        if (hasTaggedContent) colDefs.push({ key: 'tagged_content', label: 'TaggedContent' });
+        if (hasForms)         colDefs.push({ key: 'forms',          label: 'Forms' });
+        if (hasTaggedForms)   colDefs.push({ key: 'tagged_forms',   label: 'TaggedForms' });
+        if (hasTaggedAnnots)  colDefs.push({ key: 'tagged_annots',  label: 'TaggedAnnots' });
+        if (hasFiguresAlt)    colDefs.push({ key: 'figures_alt',    label: 'FiguresAlt' });
+        if (hasHeadings)      colDefs.push({ key: 'headings',       label: 'Headings' });
+        if (hasLists)         colDefs.push({ key: 'lists',          label: 'Lists' });
+        if (hasTables)        colDefs.push({ key: 'tables',         label: 'Tables' });
+        colDefs.push(
           { key: 'pages',      label: 'Pages' }
         );
         if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });

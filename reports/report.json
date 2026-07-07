@@ -1,6 +1,6 @@
 {
   "summary": {
-    "generated_at": "2026-07-06T17:10:29.753734+00:00",
+    "generated_at": "2026-07-07T11:28:51.596539+00:00",
     "total_files": 21359,
     "analysed": 6075,
     "pending": 9916,
@@ -84,7 +84,7 @@
       "original": 21032,
       "bloom": 327
     },
-    "pages_crawled": 788
+    "pages_crawled": 0
   },
   "comparison": {
     "comparable_files": 0,
