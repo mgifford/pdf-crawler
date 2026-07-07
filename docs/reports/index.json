@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-07-07T11:53:56.927814+00:00",
+    "site": "slvboces.org",
+    "crawl_url": "https://www.slvboces.org",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28862894190",
+    "issue_url": "",
+    "archive_file": "2026-07-07_11-53-56-927_slvboces.org.html",
+    "total": 824,
+    "analysed": 259,
+    "accessible": 29
+  },
+  {
     "date": "2026-07-07T11:28:51.596539+00:00",
     "site": "pl.mn.gov",
     "crawl_url": "https://pl.mn.gov",

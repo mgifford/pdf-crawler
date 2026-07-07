@@ -1,15 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-07T11:28:51.596539+00:00
+Generated: 2026-07-07T11:53:56.927814+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| Total files tracked | 21359 |
+| URLs crawled | 143 |
+| Total files tracked | 21454 |
 | Analysed | 6075 |
-| Pending analysis | 9916 |
-| Errors during analysis | 5368 |
+| Pending analysis | 9987 |
+| Errors during analysis | 5392 |
 | Accessible | 2002 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 27 |
@@ -74,7 +75,7 @@ Generated: 2026-07-07T11:28:51.596539+00:00
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
 | pstcc.edu | 11 |
-| slvboces.org | 729 |
+| slvboces.org | 824 |
 | smallpdf.com | 2 |
 | stjohns.k12.fl.us | 126 |
 | stmd.bayern.de | 9 |
@@ -57388,7 +57389,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/0966_001.pdf?rnd=1736272588276
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.361754+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 2025-2026_ALAMOSA_Calendar.pdf
 
@@ -57429,6 +57430,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 2025-2026_School_Calendar-Mountain_Valley.pdf
 
 - **URL**: https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar-Mountain_Valley.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-2026_School_Calendar-Mountain_Valley.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar-Mountain_Valley.pdf
 - **Status**: analysed
 - title, tagged, lang, 
 
@@ -57453,6 +57460,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 2025-26-Sierra-Grande-Calendar.pdf
 
 - **URL**: https://www.slvboces.org/pdfs/calendars/2025-26-Sierra-Grande-Calendar.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-26-Sierra-Grande-Calendar.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2025-26-Sierra-Grande-Calendar.pdf
 - **Status**: analysed
 - title, 
 
@@ -57472,85 +57485,85 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf?rnd=1737674390218
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.415602+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf?rnd=1737674155963
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.418653+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf?rnd=1737673784631
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.421564+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf?rnd=1737674560491
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.424350+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf?rnd=1737674447895
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.427020+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf?rnd=1737674018944
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.429749+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf?rnd=1737673837608
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.432568+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf?rnd=1737673908419
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.435297+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf?rnd=1737673686905
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.438019+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf?rnd=1737674500032
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.440616+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf?rnd=1737673301081
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.443181+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf?rnd=1737673574228
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.445725+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Advocate_%20Counselor%20.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Advocate_%20Counselor%20.pdf?rnd=1728931612871
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.448286+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Assistant-Special-Education-Director-SSN-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Assistant-Special-Education-Director-SSN-.pdf?rnd=1728931494099
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.450922+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Aviso%20de%20garant%C3%AD%20as%20de%20procedimiento.Spanish%282024%29_a11y.pdf
 
@@ -57562,13 +57575,19 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Budget-Manager-.pdf?rnd=1728931437280
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.469627+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### CDE.PSN_.2024April%282%29at10-25-24Accessible.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/16/40104615/CDE.PSN_.2024April%282%29at10-25-24Accessible.pdf?rnd=1734369831345
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.478658+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CEBT-Benefit-Plans.pdf
+
+- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/CEBT-Benefit-Plans.pdf?rnd=1728930714680
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### CEBT-Benefit-Plans.pdf
 
@@ -57586,13 +57605,19 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Child-Find-Coordinator-.pdf?rnd=1728931553965
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.489442+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Data-Reporting-Specialist-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Data-Reporting-Specialist-.pdf?rnd=1728931489289
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.492814+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
+
+### Delta-Dental.pdf
+
+- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Delta-Dental.pdf?rnd=1728930726976
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### Delta-Dental.pdf
 
@@ -57604,19 +57629,25 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/ECSE-Teacher1.pdf?rnd=1728931584711
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.501042+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Educational%20Audiologist%20.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Educational%20Audiologist%20.pdf?rnd=1728931597107
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.504414+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Employee%20Handbook.docx.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Employee%20Handbook.docx.pdf?rnd=1736274975906
 - **Status**: analysed
 - no date found, no bookmarks and more than 20 pages, 
+
+### Enrollment-From.pdf
+
+- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Enrollment-From.pdf?rnd=1728930734744
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### Enrollment-From.pdf
 
@@ -57634,19 +57665,25 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Executive-Administrative-Assistant-.pdf?rnd=1728931424888
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.518862+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Executive-Director_-Director-of-Exceptional-Student-Services.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Executive-Director_-Director-of-Exceptional-Student-Services.pdf?rnd=1728931381530
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.522085+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Expelled%20and%20At-Risk%20Student%20Services%20%28EARS%29%20Advocate%20.pdf?rnd=1728931608692
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.525125+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
+
+### Fingerpringing-Instructions.pdf
+
+- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerpringing-Instructions.pdf?rnd=1728930764841
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### Fingerpringing-Instructions.pdf
 
@@ -57657,8 +57694,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### Fingerprinting-Locations.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Locations.pdf?rnd=1728930770307
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Fingerprinting-Locations.pdf
+
+- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Locations.pdf?rnd=1728930770307
 - **Status**: analysed
 - title, tagged, lang, 
+
+### Fingerprinting-Notice-to-Applicants.pdf
+
+- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Notice-to-Applicants.pdf?rnd=1774276865695
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### Fingerprinting-Notice-to-Applicants.pdf
 
@@ -57672,17 +57721,29 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, 
 
+### Forms_%20Referral%20_English.pdf
+
+- **URL**: https://www.slvboces.org/ourpages/auto/2024/12/11/51314671/Forms_%20Referral%20_English.pdf?rnd=1733949451678
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Gifted%20Education%20Reginal%20Consultant%20%28GERC%29%20.pdf?rnd=1728931617010
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.543170+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Gifted%20and%20Talented%20Coordinator%20%28GT%29%20%282%29.pdf?rnd=1728931634154
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.545836+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
+
+### Grants%20Coordinator%20.pdf
+
+- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Grants%20Coordinator%20.pdf?rnd=1728931650023
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### Grants%20Coordinator%20.pdf
 
@@ -57694,13 +57755,13 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/HR-Intern.pdf?rnd=1728931452247
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.550943+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Human-Resource-and-Payroll-Manager-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Human-Resource-and-Payroll-Manager-.pdf?rnd=1728931447908
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.553710+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Indicator-13-Compliance-Tips-July-20151.pdf
 
@@ -57712,13 +57773,13 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/McKinney-Vento%20Homeless%20Program%20Coordinator%20.pdf?rnd=1728931603725
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.561651+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Medicaid-Coordinator-1.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Medicaid-Coordinator-1.pdf?rnd=1728931523173
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.565182+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Notice-of-Meeting-for-a-student.pdf
 
@@ -57730,7 +57791,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Occupational-Therapist-OT-.pdf?rnd=1728931533734
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.572159+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### PLC%20Protocol%20on%20how%20to%20determine%20if%20your%20Tier%201%20Instruction%20is%20Supporting%20or%20Limiting%20RTI_MTSS.pdf
 
@@ -57742,19 +57803,19 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Paraprofessional%20.pdf?rnd=1728931593086
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.578490+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Physical-Therapist-PT-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Physical-Therapist-PT-.pdf?rnd=1728931528555
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.581412+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Professional%20Learning%20Coordinator%20.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Professional%20Learning%20Coordinator%20.pdf?rnd=1728931644006
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.584119+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### RTI-manual.pdf
 
@@ -57766,19 +57827,19 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Rate-Sheet.pdf?rnd=1728930720321
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.593091+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Receptionist_-Secretary-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Receptionist_-Secretary-.pdf?rnd=1728931418815
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.596541+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Regional%20Literacy%20Coach%20Project%20Coordinator%20.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Regional%20Literacy%20Coach%20Project%20Coordinator%20.pdf?rnd=1728931638972
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.599762+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### SEL%20Library.pdf
 
@@ -57808,85 +57869,85 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/SWAP-School-to-Work-Alliance-Program-Coordinator-.pdf?rnd=1728931499601
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.618055+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### SWAP-School-to-Work-Alliance-Program-Specialist-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/SWAP-School-to-Work-Alliance-Program-Specialist-.pdf?rnd=1728931504392
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.620867+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### School%20Aged%20Child%20Find%20Referral%20Form%20K-12%20%281%29.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2026/2/24/62932589/School%20Aged%20Child%20Find%20Referral%20Form%20K-12%20%281%29.pdf
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.623830+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### School-Psychologist_-Behavioral-Health-Provider-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/School-Psychologist_-Behavioral-Health-Provider-.pdf?rnd=1728931564296
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.626607+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### School-Social-worker-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/School-Social-worker-.pdf?rnd=1728931559268
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.629101+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Secretary-1.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Secretary-1.pdf?rnd=1728931442761
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.631245+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Significant%20Support%20Needs%20Teacher%20.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Significant%20Support%20Needs%20Teacher%20.pdf?rnd=1728931589284
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.633157+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Special-Education-Coordinator-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Coordinator-.pdf?rnd=1728931468978
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.634982+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Special-Education-Director.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Director.pdf?rnd=1728931464926
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.636720+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Special-Education-Facilitator-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Facilitator-.pdf?rnd=1728931474336
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.638399+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Speech-Language-Pathologist-Assistant-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Speech-Language-Pathologist-Assistant-.pdf?rnd=1728931578851
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.640136+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Speech_-Language-Pathologist-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Speech_-Language-Pathologist-.pdf?rnd=1728931573360
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.641812+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Teacher-of-the-Visually-Impaired-%281%29.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Teacher-of-the-Visually-Impaired-%281%29.pdf?rnd=1728931538420
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.643415+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Teacher-of-the-Visually-Impaired-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Teacher-of-the-Visually-Impaired-.pdf?rnd=1728931509728
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.644914+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### The-IEP-Process-or-Development-of-the-IEP-includes-5.pdf
 
@@ -57928,25 +57989,25 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Transition-Specialist-.pdf?rnd=1728931547929
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.658878+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Translator-_-Interpreter-.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Translator-_-Interpreter-.pdf?rnd=1728931479305
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.660282+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Unauthorized-Leave-of-Absence-and-Attendance-Procedures.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Unauthorized-Leave-of-Absence-and-Attendance-Procedures.pdf?rnd=1728930700581
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.661636+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Website-Return-to-HR.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Website-Return-to-HR.pdf?rnd=1728930680417
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.664843+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Weighted-Vests.pdf
 
@@ -57970,7 +58031,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/15/54360075/Worker_s_Comp_First_Report_of_Injury.pdf?rnd=1729050959973
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.671404+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Worker_s_Comp_Instructions_Medical_Providers_Letterhead-0.pdf
 
@@ -57982,7 +58043,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/15/54360075/Worker_s_Comp_Instructions_Medical_Providers_Letterhead.pdf?rnd=1729050955146
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.674041+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### Worker_s_Comp_Letter_Declining_Medical_Care-1.pdf
 
@@ -57994,7 +58055,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2026/1/21/50012136/asu_flyer%20copy.pdf
 - **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.678246+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- No module named 'simpla11ypdf'
 
 ### guidance_disciplineofchildren.pdf
 
@@ -63153,5 +63214,89 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 78495.pdf
 
 - **URL**: https://docs.nlr.gov/docs/fy21osti/78495.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024proceduralsafeguards-spanish.pdf
+
+- **URL**: https://www.cde.state.co.us/spedlaw/2024proceduralsafeguards-spanish
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027%20Academic%20Calendar%20ALAMOSA.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027%20Academic%20Calendar%20ALAMOSA.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027%20District%20Calendar.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027%20District%20Calendar.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027%20SANGRE%20DE%20CRISTO.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027%20SANGRE%20DE%20CRISTO.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027-School-CENTER.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027-School-CENTER.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027MSCD2_MoffatPK12Calendar8apr2026.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027MSCD2_MoffatPK12Calendar8apr2026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-2027_School_CREEDE.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-2027_School_CREEDE.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-27%20Centennial%20R-1%20District%20Calendar_Final%20-%20Final.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/2026-27%20Centennial%20R-1%20District%20Calendar_Final%20-%20Final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 26-27-Draft-District-CalendarSARGENT.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/26-27-Draft-District-CalendarSARGENT.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### G_1-SY26-27-District-CalendarSOUTH%20CONEJOS.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/G_1-SY26-27-District-CalendarSOUTH%20CONEJOS.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### School%20Calendar%202026-2027%20MONTE%20VISTA.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/School%20Calendar%202026-2027%20MONTE%20VISTA.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### URGSD%2026%20-%2027%20School%20Calendar%20UPPER%20RIO.pdf
+
+- **URL**: https://www.slvboces.org/pdfs/calendars/URGSD%2026%20-%2027%20School%20Calendar%20UPPER%20RIO.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### errforepps.pdf
+
+- **URL**: https://www.cde.state.co.us/educatortalent/errforepps
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### procedural-safeguards-notice.pdf
+
+- **URL**: https://www.cde.state.co.us/spedlaw/procedural-safeguards-notice
 - **Status**: error
 - No module named 'simpla11ypdf'
