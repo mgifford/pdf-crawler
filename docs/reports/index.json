@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-07T12:46:28.907525+00:00",
+    "site": "nsf.gov",
+    "crawl_url": "https://www.nsf.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28864691277",
+    "issue_url": "",
+    "archive_file": "2026-07-07_12-46-28-907_nsf.gov.html",
+    "total": 2061,
+    "analysed": 250,
+    "accessible": 209,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false
+  },
+  {
     "date": "2026-07-07T11:53:56.927814+00:00",
     "site": "slvboces.org",
     "crawl_url": "https://www.slvboces.org",

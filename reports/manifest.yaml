@@ -51794,15 +51794,22 @@
   filename: 2015-2016-ceose-biennial-report-508_0.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.379467+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:05:57.207290+00:00'
   link_text: Accountability for broadening participation 2015–2016 (PDF, 5.93 MB)
 - url: https://nsf-gov-resources.nsf.gov/2023-10/2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
   md5: e3e88774a844bab7cad1fd40ddb514c5
@@ -52399,7 +52406,7 @@
   filename: Dr.SchragTestimony508_0.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.452250+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -52424,7 +52431,8 @@
     Creator: Acrobat PDFMaker 22 for Word
     Producer: Adobe PDF Library 22.1.117
     Pages: 9
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -52454,6 +52462,12 @@
         Pages: 9
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:06:10.424151+00:00'
   link_text: Ben Schrag
 - url: https://nsf-gov-resources.nsf.gov/files/EAC-Data-Snapshot-Fairness-by-Experience-508.pdf
   md5: 238a838f9ab9438e99afeff8033f5484
@@ -52519,15 +52533,22 @@
   filename: EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.489677+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:06:23.999682+00:00'
   link_text: Full Report
 - url: https://nsf-gov-resources.nsf.gov/2023-04/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
   md5: 379d29cebd4ee8df46aa45d290984295
@@ -52594,15 +52615,22 @@
   filename: Envisioning-The-Future-of-EPSCoR-Report.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.531443+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:06:37.006075+00:00'
   link_text: Envisioning the Future of NSF EPSCoR (PDF, 2 MB)
 - url: https://nsf-gov-resources.nsf.gov/2023-04/Evaluation%20of%20the%20National%20Sciece%20Foundation%27s%20International%20Research%20Experiences%20for%20Students%20%28IRES%29%20Program.pdf?VersionId=vuL.tNYzsDFY9SfTn9vSrW_GkIZ9CkUS
   md5: 64878e43cb343d4f99d7f59f61ca2d0c
@@ -52881,30 +52909,48 @@
   filename: HAC-CJS-Panchanathan-FY23testimony_0.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.587572+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:06:50.436628+00:00'
   link_text: The Honorable Sethuraman Panchanathan
 - url: https://nsf-gov-resources.nsf.gov/2023-08/HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
   md5: 069a338d3d82d2c416fe81bf4416c2de
   filename: HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.588116+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.588116+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.588116+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:07:03.939442+00:00'
   link_text: Sean L. Jones
 - url: https://nsf-gov-resources.nsf.gov/2022-06/How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf
   md5: 673b582a178f6f39c87804a8cd4fb438
@@ -53587,510 +53633,884 @@
   filename: NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.685902+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.685902+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.685902+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:07:17.099056+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
   md5: bb582c3a856ee4dad1a9848fd2775ecc
   filename: NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.686447+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686447+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686447+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:07:30.421113+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
   md5: e4ceb9220cac4c1cb5eb19b706ea4239
   filename: NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.686973+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686973+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686973+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:07:43.705228+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
   md5: 6252a56e9b77c799617df77ec9b7ac76
   filename: NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.687427+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687427+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687427+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:07:57.047479+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
   md5: c13081c1ce56f874261448f0085802d5
   filename: NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.687906+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687906+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687906+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:08:09.948319+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
   md5: 366cad2ae5735b9d16b304e3e4f84403
   filename: NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.688520+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.688520+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.688520+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:08:23.217492+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
   md5: 67260d9078e542613964ccdf2962ad0a
   filename: NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.689060+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689060+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689060+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:08:36.412553+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
   md5: b307ab511fa6626689da33a0c90b2d31
   filename: NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.689547+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689547+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689547+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:08:50.112787+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
   md5: 3b20e7ec74d215ed24d2057835c2c60b
   filename: NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.689998+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689998+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689998+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:09:03.725967+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
   md5: f66ac6c873de3b5cd567aa69c64e3525
   filename: NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.690550+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.690550+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.690550+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:09:17.106785+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
   md5: 4f032df85cfeeff98c0770d70daca546
   filename: NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.691078+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.691078+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.691078+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:09:30.207651+00:00'
   link_text: Agenda
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
   md5: c6c65df569355064b1bac05db64dd66d
   filename: NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.694506+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.694506+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.694506+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:09:43.599226+00:00'
   link_text: NAIRR Task Force interim report to the President and Congress (2022)
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
   md5: c8ad153a510695a15fbecd81c9368782
   filename: NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.695022+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695022+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695022+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:09:57.132552+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
   md5: 19c11ca51399e15c468a5157dc7343e0
   filename: NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.695571+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695571+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695571+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:10:10.483528+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
   md5: c4514aa7fb1071afada48b627d68238c
   filename: NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.696111+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696111+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696111+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:10:24.006726+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
   md5: 4162b68cb3e218f0c46888c42e7a63c5
   filename: NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.696616+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696616+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696616+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:10:37.516956+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
   md5: 6e01ce14debfcc1a67f73d406e833007
   filename: NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.697144+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697144+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697144+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:10:51.113126+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
   md5: 3ecb6d787dd39f6c5c7a5d01ff23b428
   filename: NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.697636+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697636+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697636+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:11:04.303692+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
   md5: 6b34a181ca4f112e6f663a0ca0234281
   filename: NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.698146+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698146+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698146+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:11:17.597325+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
   md5: f14e093aad8523fdc1cdd5cf42680895
   filename: NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.698685+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698685+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698685+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:11:31.021462+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
   md5: 3affc58cb9edbff2f062c1eab26a1baf
   filename: NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.699178+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699178+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699178+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:11:44.724638+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
   md5: a4d00c2633f9d15e02938e0e142dd78a
   filename: NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.699675+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699675+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699675+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:11:58.322036+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
   md5: c4f6a85fab51e9d2f230b3e993e8cbd9
   filename: NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.700253+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.700253+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.700253+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:12:11.863157+00:00'
   link_text: Minutes
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
   md5: 97624a3005cc8013d2b08a97f4febe7f
   filename: NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.701672+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.701672+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.701672+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:12:25.104223+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
   md5: 11e79a49419f91b32c4ba304d5dd4819
   filename: NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.704256+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.704256+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.704256+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:12:38.628495+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
   md5: c4829a9f12b4feabd00a6f3bc2f54d75
   filename: NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.706506+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.706506+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.706506+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:12:52.390629+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
   md5: e29b0e71beb639f946f1be7da49f4bbc
   filename: NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.708253+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.708253+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.708253+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:13:05.933136+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
   md5: 270d445f92a572f5b3ad8f007a460a1c
   filename: NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.714772+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.714772+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.714772+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:13:19.449128+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
   md5: 4876999e323037437ca691f454564b86
   filename: NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.736040+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.736040+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.736040+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:13:32.804468+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
   md5: bede4fe2fc818bbced5c0d90d733e4e2
   filename: NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.737963+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.737963+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.737963+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:13:46.207687+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
   md5: 677bd0ce73b8bcbd9ada58167811bfc7
   filename: NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.743927+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.743927+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.743927+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:13:59.211811+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
   md5: 05b93574cee62b54fe053a7ac42d1ff8
   filename: NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.747102+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.747102+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.747102+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:14:12.408044+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
   md5: 55737021005ba370acd3e75f23404af7
   filename: NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.789592+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.789592+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.789592+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:14:25.624187+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
   md5: 7e614aae6adc3c89bd3df2b5d4f62ac2
   filename: NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.793431+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.793431+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.793431+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:14:39.122367+00:00'
   link_text: Presentations
 - url: https://nsf-gov-resources.nsf.gov/2023-09/NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
   md5: 1e59a69fba71662938b8514a847b5e85
@@ -54271,7 +54691,7 @@
   filename: NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.878603+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -54297,7 +54717,7 @@
     Producer: Adobe PDF Library 21.7.131
     Pages: 9
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -54328,6 +54748,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:14:52.485884+00:00'
   link_text: Linda Blevins
 - url: https://nsf-gov-resources.nsf.gov/files/NSF%20IDSS.pdf?VersionId=KSLD0pffarWPie1UYUL9VpSh8EDuYyRd
   md5: 0aadd8a12adc044235f494a004348aeb
@@ -54517,7 +54943,7 @@
   filename: NSF-scientific-integrity-policy.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.925396+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -54542,7 +54968,8 @@
     Creator: Microsoft® Word for Office 365
     Producer: Microsoft® Word for Office 365
     Pages: 2
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -54572,6 +54999,12 @@
         Pages: 2
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:06.181557+00:00'
   link_text: NSF Scientific Integrity Policy
 - url: https://nsf-gov-resources.nsf.gov/2023-04/NSFAnti-HarassmentES_0.pdf?VersionId=OW7tYGjLTAzzm0GKDUxFMbBC5_Rr9PLQ
   md5: 4fcbe9dee984bd9c1f174116fa9ffcc9
@@ -55450,15 +55883,22 @@
   filename: National-AI-Research-Resource-Task-Force-Charter-2021.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.967307+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:19.540811+00:00'
   link_text: National AI Research Resource Task Force Charter
 - url: https://nsf-gov-resources.nsf.gov/files/Northeastern-University-OIG-Report-25-1-005.pdf
   md5: 4b4e5a7262aeb73b0e6dc0c39de919a6
@@ -55585,15 +56025,22 @@
   filename: SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:24.974288+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:33.039871+00:00'
   link_text: The Honorable Sethuraman Panchanathan
 - url: https://seedfund.nsf.gov/assets/files/awardees/SBIR-STTR_Revised_Report_Cover.pdf
   md5: c6fab4391bbfa864b42f72079839404f
@@ -55725,7 +56172,7 @@
   filename: TIP%20Impact%20Infographic%20508%20v2.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:25.052128+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -55750,7 +56197,8 @@
     Creator: Adobe Photoshop 26.1 (Macintosh)
     Producer: Adobe Acrobat Pro (64-bit) 25 Paper Capture Plug-in
     Pages: 2
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -55780,6 +56228,12 @@
         Pages: 2
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:15:47.031127+00:00'
   link_text: Download the TIP impact one-pager to see how the directorate has moved
     the needle for America since its establishment.
 - url: https://nsf-gov-resources.nsf.gov/files/USAP-SAHPR-Report.pdf
@@ -55905,7 +56359,7 @@
   filename: appendix-a-r.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:25.114881+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -55930,7 +56384,8 @@
     Creator: Acrobat PDFMaker 21 for Excel
     Producer: Adobe PDF Library 21.1.182
     Pages: 4
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -55960,6 +56415,12 @@
         Pages: 4
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:00.818495+00:00'
   link_text: 'Appendix A: Prior Approval Matrix (Nov. 2020) (PDF, 263.3 KB)'
 - url: https://nsf-gov-resources.nsf.gov/files/audit-rep-201004-unc-chapelhill.pdf
   md5: 91fdfa54657f9969cbd49d342d6b6da7
@@ -60102,15 +60563,26 @@
   filename: nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:25.483548+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.483548+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.483548+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:16:14.312014+00:00'
   link_text: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf16001/nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
 - url: https://nsf-gov-resources.nsf.gov/pubs/2017/nsf17066/nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
   md5: 9b955f53cef60140c78fe18550f9186c
@@ -60261,15 +60733,26 @@
   filename: nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:25.572460+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.572460+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.572460+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-07T12:16:27.736966+00:00'
   link_text: Leading the World in Discovery and Innovation, STEM Talent Development
     and the Delivery of Benefits from Research - NSF Strategic Plan for Fiscal Years
     (FY) 2022 - 2026
@@ -60302,7 +60785,7 @@
   filename: nsf23104.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:25.579493+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -60327,7 +60810,8 @@
     Creator: Adobe InDesign 18.2 (Windows)
     Producer: Adobe PDF Library 17.0
     Pages: 28
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -60357,6 +60841,12 @@
         Pages: 28
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:41.310632+00:00'
   link_text: 'NSF Public Access Plan 2.0: Ensuring Open, Immediate and Equitable Access
     to National Science Foundation Funded Research'
 - url: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2023/nsf23534/nsf23534.pdf?VersionId=Irmgt52vhpKDNO.Cn1GcYVamTdzCUxED
@@ -60400,7 +60890,7 @@
   filename: nsf23_1.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:25.592636+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -60425,7 +60915,8 @@
     Creator: Adobe InDesign 17.4 (Macintosh)
     Producer: Adobe PDF Library 16.0.7
     Pages: 203
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -60455,6 +60946,12 @@
         Pages: 203
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:16:55.086678+00:00'
   link_text: Download the publication (PDF, 3.23 MB)
 - url: https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf?VersionId=VQHMy1XFClNhULRMabdaeCqYvbgykldV
   md5: c3b11b23c446d97f951b67c8788f84fb
@@ -60497,7 +60994,7 @@
   filename: nsf24_1.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:25.609167+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -60522,7 +61019,8 @@
     Creator: Acrobat PDFMaker 23 for Word
     Producer: Adobe PDF Library 23.8.246
     Pages: 216
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -60552,6 +61050,12 @@
         Pages: 216
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:08.710086+00:00'
   link_text: Download the publication (PDF, 4.38 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/nsf25003.pdf
   md5: 4629da6a68cabbfc9437ed5d2e4cc0f7
@@ -61471,15 +61975,22 @@
   filename: polar-coc-r.pdf
   site: nsf.gov
   crawled_at: '2026-03-10T01:18:25.661920+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:22.353821+00:00'
   link_text: Polar Code of Conduct
 - url: https://nsf-gov-resources.nsf.gov/2022-06/reportingrequirements.pdf
   md5: f928dd8f7633888139a9cf0e6623c832
@@ -97758,7 +98269,7 @@
   filename: PQ-Guidelines-Current-13-March-2025.pdf
   site: nsf.gov
   crawled_at: '2026-03-11T02:02:30.411154+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -97783,7 +98294,8 @@
     Creator: Microsoft Word
     Producer: null
     Pages: 71
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97813,6 +98325,12 @@
         Pages: 71
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:35.956951+00:00'
   link_text: Office of Polar Programs Physical Qualification (PQ) Guidelines (PDF,
     1.05 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL1_Mar_2025.pdf
@@ -97882,7 +98400,7 @@
   filename: SOH_POL_2000.10_VOL2.pdf
   site: nsf.gov
   crawled_at: '2026-03-11T02:02:30.418512+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -97907,7 +98425,8 @@
     Creator: Acrobat PDFMaker 24 for Word
     Producer: Adobe PDF Library 24.2.23
     Pages: 27
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97937,6 +98456,12 @@
         Pages: 27
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:17:49.434030+00:00'
   link_text: NSF Office of Polar Programs Safety and Occupational Health Policy –
     Volume 2 (Health and Medical) (PDF, 620.25 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/System_Requirements.pdf
@@ -98006,7 +98531,7 @@
   filename: TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf
   site: nsf.gov
   crawled_at: '2026-03-11T02:02:30.444026+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -98031,7 +98556,8 @@
     Creator: Adobe InDesign 18.3 (Macintosh)
     Producer: Adobe PDF Library 17.0
     Pages: 51
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -98061,6 +98587,12 @@
         Pages: 51
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:02.926223+00:00'
   link_text: 2023 biennial report
 - url: https://nsf-gov-resources.nsf.gov/files/Zoom_Test_Meeting.pdf
   md5: cca6cb4add2ebe21d1a696334d29aa14
@@ -225924,135 +226456,198 @@
   filename: 1995-1996-ceose-biennial-report-508.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.679600+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:16.697149+00:00'
   link_text: Biennial Report 1995–1996
 - url: https://nsf-gov-resources.nsf.gov/files/1997-1998-ceose-biennial-report-508.pdf
   md5: 469e16bc186c1cacf4a2eb18bad2e99c
   filename: 1997-1998-ceose-biennial-report-508.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.682443+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:30.302031+00:00'
   link_text: Biennial Report 1997–1998
 - url: https://nsf-gov-resources.nsf.gov/files/1999-2000-ceose-biennial-report-508.pdf
   md5: 44c4e52512e2eed1cee3fe09c6864708
   filename: 1999-2000-ceose-biennial-report-508.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.686674+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:43.873401+00:00'
   link_text: Biennial Report 1999–2000
 - url: https://nsf-gov-resources.nsf.gov/files/2001-2002-ceose-biennial-report-508.pdf
   md5: aa9d63cf2cd744980fdae6d8830aa34a
   filename: 2001-2002-ceose-biennial-report-508.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.695709+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:18:57.415422+00:00'
   link_text: Biennial Report 2002–2001
 - url: https://nsf-gov-resources.nsf.gov/files/2003-2004-ceose-biennial-report-508.pdf
   md5: ad5810b67783b88b74bf883444503e4d
   filename: 2003-2004-ceose-biennial-report-508.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.699081+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:11.017612+00:00'
   link_text: Biennial Report 2003–2004
 - url: https://nsf-gov-resources.nsf.gov/files/2005-2006-ceose-biennial-report-508.pdf
   md5: bd3214a46a3662bcbb539f7e40812a7e
   filename: 2005-2006-ceose-biennial-report-508.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.703796+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:24.525749+00:00'
   link_text: Biennial Report 2005–2006
 - url: https://nsf-gov-resources.nsf.gov/files/2007-2008-ceose-biennial-report-508.pdf
   md5: a30906f82642cdc667ba4f8ac1942ca3
   filename: 2007-2008-ceose-biennial-report-508.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.705505+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:37.703849+00:00'
   link_text: Biennial Report 2007–2008
 - url: https://nsf-gov-resources.nsf.gov/files/2009-2010-ceose-biennial-report-508.pdf
   md5: 1e178e1514533c0d766d4d7d44fec9c0
   filename: 2009-2010-ceose-biennial-report-508.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.709637+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:19:50.941028+00:00'
   link_text: Biennial Report 2009–2010
 - url: https://nsf-gov-resources.nsf.gov/2022-03/2011-2012-ceose-biennial-report-508_0.pdf
   md5: 283fea6812f8670412ed3712928ec6f4
   filename: 2011-2012-ceose-biennial-report-508_0.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.714167+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:04.305181+00:00'
   link_text: Broadening participation in America's STEM workforce 2011–2012 (PDF,
     2.09 MB)
 - url: https://nsf-gov-resources.nsf.gov/2022-03/2013-2014-ceose-biennial-report-508_0.pdf
@@ -226060,45 +226655,66 @@
   filename: 2013-2014-ceose-biennial-report-508_0.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.718035+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:17.616102+00:00'
   link_text: Broadening participation in STEM 2013-2014 (PDF, 1.7 MB)
 - url: https://nsf-gov-resources.nsf.gov/2022-03/2017-2018-ceose-biennial-report-508_0.pdf
   md5: 5b7b04c8423f971168f4fd8ea1a2c484
   filename: 2017-2018-ceose-biennial-report-508_0.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.733489+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:30.927569+00:00'
   link_text: Investing in diverse community voices 2017–2018 (PDF, 2.65 MB)
 - url: https://nsf-gov-resources.nsf.gov/2022-03/2019-2020-ceose-biennial-report-508_1.pdf
   md5: ec666b34a874a0c9bb257fac9c3a0221
   filename: 2019-2020-ceose-biennial-report-508_1.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.745202+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:44.519242+00:00'
   link_text: 'Making visible the invisible: Bold leadership actions 2019–2020 (PDF,
     6.44 MB)'
 - url: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.18-Panchanathan.pdf?VersionId=bqXPI_W_7KKX_BA719VbZqMsQJudWoqZ
@@ -226106,45 +226722,66 @@
   filename: 2023.04.18-Panchanathan.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.746684+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:20:57.946564+00:00'
   link_text: The Honorable Sethuraman Panchanathan
 - url: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.19-Panchanathan.pdf?VersionId=tJDqtAg7mbtbVNSIM1H8RHM4hRFEH7Sc
   md5: 620d591b810016904faf168b78770ea8
   filename: 2023.04.19-Panchanathan.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.748145+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:21:11.320307+00:00'
   link_text: The Honorable Sethuraman Panchanathan
 - url: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.26-Panchanathan.pdf?VersionId=eBnztrtMSd9TTsdAR2tNR6kiJpL2GE1j
   md5: d0f0590070f6d3ce99b168c210939692
   filename: 2023.04.26-Panchanathan.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.749609+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:21:24.674168+00:00'
   link_text: The Honorable Sethuraman Panchanathan
 - url: https://nsf-gov-resources.nsf.gov/files/2024-indicators-rollout-slides.pdf
   md5: 3341a821beb2bc5fca74df849d80f498
@@ -226261,15 +226898,22 @@
   filename: DFM-PABGrantFAQ-r_0.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.842358+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:21:38.437074+00:00'
   link_text: Post-Award Financial FAQ
 - url: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ.pdf?VersionId=zLyGdO2m4vigGuM4vn0GOvih5TY_N3fm
   md5: f3bb1f35603dc3cbb4dbd07db1047b5a
@@ -226298,180 +226942,264 @@
   filename: DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.849276+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:21:51.756397+00:00'
   link_text: DRL FY2026 Funding Opportunities Webinar Slides
 - url: https://nsf-gov-resources.nsf.gov/files/Dr-Jennifer-Mercer-Testimony.pdf
   md5: 3613b15da02e354936ec934e7edda1b0
   filename: Dr-Jennifer-Mercer-Testimony.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.852848+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:22:05.240378+00:00'
   link_text: Dr. Jennifer Mercer
 - url: https://nsf-gov-resources.nsf.gov/files/Dr-Saul-Gonzalez-Testimony.pdf
   md5: 9746da3fdea27d100e5cb092b55f3a34
   filename: Dr-Saul-Gonzalez-Testimony.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.854273+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:22:18.261658+00:00'
   link_text: Dr. Saul Gonzalez
 - url: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q3.pdf
   md5: 4b4e05d675f82db2d3a85bb13a08782b
   filename: FOIA-2025-Q3.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.861855+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:22:31.543772+00:00'
   link_text: NSF-2025-Q3 (PDF, 133.01 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q4.pdf
   md5: c00475b0b0a996d22e01516184c0ea47
   filename: FOIA-2025-Q4.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.863116+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:22:44.935675+00:00'
   link_text: NSF-2025-Q4 (PDF, 133.02 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/FOIA-NSF-2025-Q2.pdf
   md5: 6f8be08b0442ae44e465829b4a9c8e5e
   filename: FOIA-NSF-2025-Q2.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.864377+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:22:58.306156+00:00'
   link_text: NSF-2025-Q2 (PDF, 133.82 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/Factsheet_MajorMultiuserFacilities.pdf
   md5: bd2c226023c7d63a5ecbab709b873832
   filename: Factsheet_MajorMultiuserFacilities.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.876072+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:23:11.641503+00:00'
   link_text: NSF Major Multi-User Facilities
 - url: https://nsf-gov-resources.nsf.gov/files/Factsheet_NSFAtAGlance.pdf
   md5: e77ca696b92a2622fe517f8c258db841
   filename: Factsheet_NSFAtAGlance.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.880292+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:23:25.199960+00:00'
   link_text: NSF At a Glance
 - url: https://nsf-gov-resources.nsf.gov/2022-08/Future-of-NSF-EPSCoR-Report-Handout-508.pdf
   md5: 83035d9c47be59c36ecbde07c396ad25
   filename: Future-of-NSF-EPSCoR-Report-Handout-508.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.889380+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:23:38.778409+00:00'
   link_text: Envisioning the Future of NSF EPSCoR Summary (PDF, 2.98 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/HSST%20NSF%20Research%20Security.pdf?VersionId=24Tt_EGAGCWnTKBS4M3B5WAP4dn4fgpM
   md5: 666cc6c900df63993532bc28b7a5b660
   filename: HSST%20NSF%20Research%20Security.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.891424+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:23:52.632352+00:00'
   link_text: Rebecca Keiser
 - url: https://nsf-gov-resources.nsf.gov/files/HSST-NSF-AI.pdf?VersionId=gFmwAXBtlyi2h6ZBEEDCOsVodVDheSB2
   md5: 65ef03a96c473ef5a611e1d0c7ca2c8b
   filename: HSST-NSF-AI.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.892800+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:24:06.084430+00:00'
   link_text: Tess DeBlanc Knowles
 - url: https://nsf-gov-resources.nsf.gov/files/House-Oversight-Telework-Hearing-Testimony-NSF.pdf?VersionId=L_RzMRWzqB_SyxHnoSS9iEhQxDwtFZ40
   md5: 9d15bee5481c882b8644351be6cae361
   filename: House-Oversight-Telework-Hearing-Testimony-NSF.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.894623+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:24:19.467315+00:00'
   link_text: Karen Marrongelle
 - url: https://nsf-gov-resources.nsf.gov/files/Indicators-ALABAMA.pdf
   md5: bf4d7d38537de67865c5c672932771c8
@@ -226511,45 +227239,66 @@
   filename: NSF%20FY25%20Written%20Testimony-CLEARED.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.988801+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:24:33.152602+00:00'
   link_text: The Honorable Sethuraman Panchanathan
 - url: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf?VersionId=IOXy7dVBqD_IE8SIX_JXyRZUvoZZ99TC
   md5: c9a9b39e744c901efff9cdbdb381781f
   filename: NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.990164+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:24:46.565861+00:00'
   link_text: The Honorable Sethuraman Panchanathan
 - url: https://nsf-gov-resources.nsf.gov/files/NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf?VersionId=WeGurDj3zPXT_MXAinMIMaJGyt1SWx3X
   md5: 1648abfa65223228bded745c8cd1cba0
   filename: NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.992212+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:24:59.878105+00:00'
   link_text: Susan Margulies
 - url: https://nsf-gov-resources.nsf.gov/files/NSF-22-586-CAREER-Program-2025-Webinars.pdf
   md5: 31e53ce5b2a4a814754df004c71165f5
@@ -226567,30 +227316,44 @@
   filename: NSF-FOIA-Raw-Data-FY2021-r.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:42.999067+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:25:13.440271+00:00'
   link_text: FY 2021
 - url: https://nsf-gov-resources.nsf.gov/files/NSF_Chief_FOIA_Officers_Report_2026.pdf
   md5: 876a3d5413a21f7dba1aefc5b0fe6620
   filename: NSF_Chief_FOIA_Officers_Report_2026.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:43.036711+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:25:26.719801+00:00'
   link_text: 'Chief FOIA Officer Report: 2026'
 - url: https://nsf-gov-resources.nsf.gov/files/NSF_New%20Proposer_Proposal%20Submission%20Supplementary%20Guidance_NOTOC_20240320.pdf?VersionId=7wooBeOw5ndl1hvLve5Yq2k9WqkvU08N
   md5: ffb0f2deaa57970e3ed61ee7d9c69822
@@ -226729,15 +227492,22 @@
   filename: dr-rebecca-keiser-testimony.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:43.238788+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:25:40.141877+00:00'
   link_text: Dr. Rebecca Keiser
 - url: https://nsf-gov-resources.nsf.gov/files/foia-log-2009.pdf?VersionId=hA3_.8iId4NhmEPfOWWZpDbuZBEgjvmf
   md5: 61f0681e9d5429924dc72a1e763b6322
@@ -226865,15 +227635,22 @@
   filename: hon-panchanathan-10-2023.pdf
   site: nsf.gov
   crawled_at: '2026-03-16T17:03:43.262860+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:25:53.448148+00:00'
   link_text: The Honorable Sethuraman Panchanathan
 - url: https://nsf-gov-resources.nsf.gov/files/jan2024-r.pdf?VersionId=LNjd7itUwfpwC4dhi2aimgvn6rQFrRNX
   md5: 30a68632cd6cffdf73ed9097f281def9
@@ -296572,9 +297349,10 @@
   filename: records-management.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:48.830781+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   file_hash: 7da5323c2e46a0a022e71e6d743e6f7e8ec5879c375fac8cf727fb0a833d8a5b
   analyses:
     original:
@@ -296582,6 +297360,12 @@
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:26:07.157504+00:00'
   link_text: NSF-50
 - url: https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team
   md5: 26f48c6429aae82ec4ad64168185aff5
@@ -401487,15 +402271,22 @@
   filename: 010422-NSPM-33-Implementation-Guidance.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.418920+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:26:20.719387+00:00'
   link_text: Guidance for Implementing National Security Presidential Memorandum 33
     (NSPM-33) on National Security Strategy for United States Government-Supported
     Research and Development
@@ -401505,15 +402296,22 @@
   filename: 08-2022-OSTP-Public-Access-Memo.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.423907+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:26:34.878514+00:00'
   link_text: memorandum
 - url: https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology/503622/updates/112269
   md5: da79c4999ba220259d307688624a68a5
@@ -401521,15 +402319,22 @@
   filename: 112269.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.427899+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:26:48.547831+00:00'
   link_text: Sponsoring Scientist Statement Instructions
 - url: https://www.nsf.gov/funding/opportunities/prfb-postdoctoral-research-fellowships-biology/503622/updates/112277
   md5: f064fdc45020bb87cc1bdd9cdb6f4754
@@ -401537,15 +402342,22 @@
   filename: 112277.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.431825+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:27:02.404249+00:00'
   link_text: How to Apply for Fellowship Applicants
 - url: https://www.nsf.gov/funding/opportunities/agep-alliances-graduate-education-professoriate/5474/updates/115700
   md5: 5ef72ba66929f9ca13a5f1f163e6f63c
@@ -401553,15 +402365,22 @@
   filename: 115700.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.435564+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:27:16.048057+00:00'
   link_text: https://www.nsf.gov/mps/broadening_participation/FY23_Past_and_Current_AGEP_Alliance_Institutions.pdf
 - url: https://nsf-gov-resources.nsf.gov/files/2.19.2025_NSF-Engines_FactSheet.pdf?VersionId=laBQi8W.Yjvt4HGTGMdRaIGQZWPq6JyI
   md5: 9ab1091464adca917c061e311420edb7
@@ -401569,15 +402388,22 @@
   filename: 2.19.2025_NSF-Engines_FactSheet.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.448525+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:27:29.845653+00:00'
   link_text: NSF Engines Fact Sheet (PDF, 1.19 MB)
 - url: https://www.pgc.umn.edu/files/2018/05/2013-NSF-Cyberinfrastructure-Report-Final.pdf
   md5: 72130826bec5136c4d7067fdf0886979
@@ -401585,15 +402411,22 @@
   filename: 2013-NSF-Cyberinfrastructure-Report-Final.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.492341+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:27:43.515617+00:00'
   link_text: workshop report
 - url: https://obamawhitehouse.archives.gov/sites/default/files/microsites/ostp/2013_arctic_research_plan_0.pdf
   md5: 0217afa940b45519f30bb05cd9a2b3e4
@@ -401601,15 +402434,22 @@
   filename: 2013_arctic_research_plan_0.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.500763+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:27:57.218111+00:00'
   link_text: 'Arctic Research Plan: FY 2013-2017'
 - url: https://nsf-gov-resources.nsf.gov/files/2021SFSBiennialReport-r.pdf
   md5: d80110a4a5ecb56cb4ddfcf504ff00f6
@@ -401617,15 +402457,22 @@
   filename: 2021SFSBiennialReport-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.540638+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:28:11.159288+00:00'
   link_text: 2021 CyberCorps® SFS Biennial Congressional Report
 - url: https://www.iarpccollaborations.org/uploads/cms/documents/2022-2024%20BIP%20FINAL%20High%20Res%2020221109.pdf
   md5: 129c476c108d32354f0d44f71019cda4
@@ -401633,30 +402480,44 @@
   filename: 2022-2024%20BIP%20FINAL%20High%20Res%2020221109.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.605673+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:28:25.033878+00:00'
 - url: https://www.iarpccollaborations.org/uploads/cms/documents/2022-2024%20bip%20final%20high%20res%2020221109.pdf
   md5: 129c476c108d32354f0d44f71019cda4
   file_hash: beeabb66bdf349c7d89bcbd104aa384bd59abadd1ba17f0630139ecf5ae4dbda
   filename: 2022-2024%20bip%20final%20high%20res%2020221109.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.669983+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:28:38.880766+00:00'
   link_text: Biennial Implementation Plan 2022-2024 for the Arctic Research Plan 2022-2026
 - url: https://www.iarpccollaborations.org/uploads/cms/documents/2022-biennial-report.pdf
   md5: 5d7944b54354f9b527e3af88b4c639ab
@@ -401664,15 +402525,22 @@
   filename: 2022-biennial-report.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.711564+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:28:52.602156+00:00'
   link_text: Report to Congress on the Arctic Research Plan, 2017-2021
 - url: https://nsf-gov-resources.nsf.gov/files/2023SFSBiennialReport-r.pdf
   md5: c9bdc767979d15b2b4b51e2ef277bcfc
@@ -401680,15 +402548,22 @@
   filename: 2023SFSBiennialReport-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.746317+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:29:06.033207+00:00'
   link_text: 2023 CyberCorps® SFS Biennial Congressional Report
 - url: https://www.govinfo.gov/content/pkg/FR-2024-12-12/pdf/2024-29244.pdf
   md5: b7a13470587771ac8056bb2ab72b23ca
@@ -401696,15 +402571,22 @@
   filename: 2024-29244.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.751113+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:29:19.508794+00:00'
   link_text: Federal Register Notice, U.S. National Science Foundation Proposal/Award
     Information - NSF Proposal and Award Policies and Procedures Guide
 - url: https://nsf-gov-resources.nsf.gov/attachments/308354/public/2024-CyberTraining-Webinar-v2.pdf
@@ -401713,15 +402595,22 @@
   filename: 2024-CyberTraining-Webinar-v2.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.758122+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:29:33.151693+00:00'
   link_text: Slides (PDF, 1.4 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/2024-Jan-18%20INTERN%20slides%20Prakash%20Balan.pdf
   md5: 7729a61eac6eaa40e188ac4fedab172b
@@ -401729,15 +402618,22 @@
   filename: 2024-Jan-18%20INTERN%20slides%20Prakash%20Balan.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.766701+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:29:46.589981+00:00'
   link_text: INTERN (PDF, 2.12 MB)
 - url: https://www.iarpccollaborations.org/uploads/cms/documents/2024-report-to-congress_iarpc.pdf
   md5: aca614f304df3111cc5a0a940f879f38
@@ -401745,15 +402641,22 @@
   filename: 2024-report-to-congress_iarpc.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.772742+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:30:00.034491+00:00'
   link_text: IARPC Report to Congress, 2022-2024
 - url: https://nsf-gov-resources.nsf.gov/files/2024SFSAIReport-r.pdf
   md5: 4f0af20123416690ac4362db537c29c4
@@ -401761,15 +402664,22 @@
   filename: 2024SFSAIReport-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.790862+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:30:13.525595+00:00'
   link_text: '2024 Artificial Intelligence Scholarship for Service Initiative: Need,
     Feasibility, and Implementation'
 - url: https://nsf-gov-resources.nsf.gov/files/2024_01_30_IUCRC%20Webinar_Prakash%20Balan.pdf
@@ -401778,15 +402688,22 @@
   filename: 2024_01_30_IUCRC%20Webinar_Prakash%20Balan.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.803714+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:30:27.065578+00:00'
   link_text: IUCRC Program (PDF, 4.02 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/2025%20EPSCoR%20PI%20Meeting%20Agenda%20Final.pdf
   md5: aec6dfc1a58a7b4ddc434f2159cb55d3
@@ -401794,15 +402711,22 @@
   filename: 2025%20EPSCoR%20PI%20Meeting%20Agenda%20Final.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.808559+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:30:40.608281+00:00'
   link_text: 2025 EPSCoR PI Meeting Agenda (PDF, 262.84 KB)
 - url: https://www.govinfo.gov/content/pkg/FR-2025-04-28/pdf/2025-07368.pdf
   md5: c6a4eac4e1293a47adad737b44edd950
@@ -401810,15 +402734,22 @@
   filename: 2025-07368.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.811882+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:30:54.402731+00:00'
   link_text: Executive Order 14277
 - url: https://nsf-gov-resources.nsf.gov/files/2025-SFS-Biennial-Report.pdf
   md5: 911981575bda63c44726565bbb0b5830
@@ -401826,15 +402757,22 @@
   filename: 2025-SFS-Biennial-Report.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.826016+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:31:08.029968+00:00'
   link_text: 2025 CyberCorps® SFS Biennial Report
 - url: https://stride-ventures.com/wp-content/uploads/2026/03/20260324_STRIDE_Press_Release.pdf
   md5: e97ec0c9de7012350d07b0000d304a2f
@@ -401842,15 +402780,22 @@
   filename: 20260324_STRIDE_Press_Release.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.830625+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:31:21.616555+00:00'
   link_text: announcement from STRIDE Ventures
 - url: https://nsf-gov-resources.nsf.gov/about/budget/fy2014/pdf/25_fy2014.pdf
   md5: 5a49a6dc587beb861556ed407b728d88
@@ -401858,15 +402803,22 @@
   filename: 25_fy2014.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.834425+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:31:35.928516+00:00'
   link_text: https://www.nsf.gov/about/budget/fy2014/pdf/25_fy2014.pdf
 - url: https://nsf-gov-resources.nsf.gov/files/3-Practical-Guide-r.pdf
   md5: 23611c17e6d506b09062c7b41695c0ee
@@ -401874,15 +402826,22 @@
   filename: 3-Practical-Guide-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.843266+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:31:49.801606+00:00'
   link_text: Postdoc to PI Practical Guide (PDF, 2.84 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/5-Intro-to-Selected-Funding-Opportunities-r.pdf
   md5: 788b972ef6da96fc71f23cf85e1c3398
@@ -401890,15 +402849,22 @@
   filename: 5-Intro-to-Selected-Funding-Opportunities-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.857515+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:32:03.398844+00:00'
   link_text: Postdoc to PI Selected Funding Opportunities (PDF, 4.94 MB)
 - url: https://www.dfg.de/resource/blob/168072/50-01-en.pdf
   md5: dde81b4143b418c16eac1c3ff73b7764
@@ -401906,15 +402872,22 @@
   filename: 50-01-en.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.861898+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:32:16.941435+00:00'
   link_text: https://www.dfg.de/formulare/50_01/50_01_en.pdf
 - url: https://nsf-gov-resources.nsf.gov/files/6-Postdoc-to-PI-Writing-One-pagers-r.pdf
   md5: c264adcc922e62fb8df0799c73e9c200
@@ -401922,15 +402895,22 @@
   filename: 6-Postdoc-to-PI-Writing-One-pagers-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.867031+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:32:30.331958+00:00'
   link_text: Postdoc to PI One-Pagers (PDF, 758.09 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/7-Intro-Funding-Opportunities-r.pdf
   md5: ac2a26a22df194a89d0cd45824a8ec96
@@ -401938,15 +402918,22 @@
   filename: 7-Intro-Funding-Opportunities-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.873208+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:32:43.828181+00:00'
   link_text: Postdoc to PI CAREER, BRC-BIO, RUI and ROA (PDF, 1.46 MB)
 - url: https://www.govinfo.gov/content/pkg/FR-1997-10-30/pdf/97-28653.pdf
   md5: 9ebd4866a44d54957f739420af10e62b
@@ -401954,15 +402941,22 @@
   filename: 97-28653.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.875915+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:32:57.209018+00:00'
   link_text: OMB Statistical Policy Directive No. 15, Race and Ethnic Standards for
     Federal Statistics and Administrative Reporting
 - url: https://nsf-gov-resources.nsf.gov/files/9_Tips%20for%20Developing%20NSF%20Proposals_2-1.pdf
@@ -401971,15 +402965,22 @@
   filename: 9_Tips%20for%20Developing%20NSF%20Proposals_2-1.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.883661+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:33:10.723605+00:00'
   link_text: Postdoc to PI Tips for Proposal Development (PDF, 2.86 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/AAAS%20EPSCoR%20Hub.pdf
   md5: ad18b6ccd28883400b7feb4fa4d176e6
@@ -401987,15 +402988,22 @@
   filename: AAAS%20EPSCoR%20Hub.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.886826+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:33:24.232099+00:00'
   link_text: AAAS EPSCoR Hub (PDF, 380.9 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/ACA_permit_form_2025_2026_Fillable.pdf
   md5: 9ad90bd7ce3c98c0587fe6a10954bbdb
@@ -402003,15 +403011,22 @@
   filename: ACA_permit_form_2025_2026_Fillable.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.889664+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:33:37.496969+00:00'
   link_text: Flora, Fauna, and Protected Area Permit Application form (PDF, 365.62
     KB)
 - url: https://nsf-gov-resources.nsf.gov/attachments/306457/public/ACSSPresentation.pdf
@@ -402020,15 +403035,22 @@
   filename: ACSSPresentation.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.895490+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:33:51.223148+00:00'
   link_text: Presentation (PDF, 1.79 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/AI-Ready-America-Program-Webinar-04142026.pdf
   md5: 4a0f2b2f35f993612622c90f9a60145c
@@ -402036,15 +403058,22 @@
   filename: AI-Ready-America-Program-Webinar-04142026.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.906762+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:34:04.902795+00:00'
   link_text: 'April 14, 2026: AI-Ready America Program webinar slides'
 - url: https://nsf-gov-resources.nsf.gov/files/AI-Ready-America-Program-Webinar-2-04232026.pdf
   md5: 38f0a96799161000dfcf821e10977db9
@@ -402052,15 +403081,22 @@
   filename: AI-Ready-America-Program-Webinar-2-04232026.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.915245+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:34:18.523738+00:00'
   link_text: 'April 23, 2026: AI-Ready America Q&A webinar slides'
 - url: https://nsf-gov-resources.nsf.gov/files/AI-Ready_America_Workshop_Report.pdf
   md5: 2d22f3c011849f899b1d0ff3c9438ee5
@@ -402068,15 +403104,22 @@
   filename: AI-Ready_America_Workshop_Report.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.919507+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:34:32.039804+00:00'
   link_text: AI-Ready America Workshop Report
 - url: https://nsf-gov-resources.nsf.gov/files/AIL-POL-1000.01-Lodging.pdf
   md5: 88783c300e54a3ed7001e182e796bde0
@@ -402084,15 +403127,22 @@
   filename: AIL-POL-1000.01-Lodging.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.923031+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:34:45.609093+00:00'
   link_text: USAP Lodging Policy (PDF, 364.29 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/AIL-POL-1000.02b-Chapel-Use-r.pdf
   md5: 85e834a2104eba2e553cb0fe1979e498
@@ -402100,15 +403150,22 @@
   filename: AIL-POL-1000.02b-Chapel-Use-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.925397+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:34:59.193545+00:00'
   link_text: USAP McMurdo Chapel Use Policy (PDF, 204.32 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/AIL-POL-1000.08-Material-Storage-r.pdf
   md5: c4f4e93c4859a79d66f0a4f09f61b016
@@ -402116,15 +403173,22 @@
   filename: AIL-POL-1000.08-Material-Storage-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.927277+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:35:12.806466+00:00'
   link_text: USAP Material Storage Policy (PDF, 187.62 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/AIL-POL-5000.01-V2-Form-508-r.pdf
   md5: f468f025fbd21fb0fdf40e90fc02d7a9
@@ -402132,15 +403196,22 @@
   filename: AIL-POL-5000.01-V2-Form-508-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.928791+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:35:26.718431+00:00'
   link_text: Notification Filing Introduction and Use of Low-Earth Orbit Satellite
     Broadband Services (PDF, 82.62 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/AIL-POL-5000.01-V2-Form-508.pdf
@@ -402149,15 +403220,22 @@
   filename: AIL-POL-5000.01-V2-Form-508.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.930851+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:35:40.294276+00:00'
   link_text: Introduction and Use of Low Earth Orbit Satellites Providing Broadband
     Services in the USAP (PDF, 364.22 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/AIL-POL_1000.06_ECW82.pdf
@@ -402166,15 +403244,22 @@
   filename: AIL-POL_1000.06_ECW82.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.932899+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:35:53.942316+00:00'
   link_text: USAP Extreme Cold Weather Clothing Policy (PDF, 307.15 KB)
 - url: https://nsf-gov-resources.nsf.gov/2023-08/AI_Research_Institutes_Map_2023_0.pdf?VersionId=6wfALEd6vDU7_GCl.wzGo.RPBPhvbzXM
   md5: 38a0aaa0c8e7e3a27fd89f53eedbd9b2
@@ -402182,15 +403267,22 @@
   filename: AI_Research_Institutes_Map_2023_0.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.971387+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:36:07.635310+00:00'
   link_text: 'National AI Research Institutes: Interactive Map (PDF, 8.8 MB)'
 - url: https://resources.research.gov/common/attachment/Desktop/About_the_dataset_pilot.pdf
   md5: 480f72f8558ca540acbff28d009edb60
@@ -402198,15 +403290,22 @@
   filename: About_the_dataset_pilot.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.977382+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:36:21.318413+00:00'
   link_text: The current pilot allows researchers to add dataset metadata
 - url: https://nsf-gov-resources.nsf.gov/files/Affirmative-Action-Plan-FY24.pdf
   md5: 60bcdc584ac01b567b60e4972b6ea035
@@ -402214,15 +403313,22 @@
   filename: Affirmative-Action-Plan-FY24.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.980241+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:36:34.954888+00:00'
   link_text: FY 2024 affirmative action plan report
 - url: https://nsf-gov-resources.nsf.gov/files/Affirmative_Action_Plan_2023.pdf
   md5: ed10c85a53cf11b533ce862952d62463
@@ -402230,15 +403336,22 @@
   filename: Affirmative_Action_Plan_2023.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.982574+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:36:48.652618+00:00'
   link_text: FY 2023 affirmative action plan report
 - url: https://nsf-gov-resources.nsf.gov/files/Affirmative_Action_Plan_2025.pdf
   md5: 4c2ab4c02b1a55ae59863e030edb1faf
@@ -402246,15 +403359,22 @@
   filename: Affirmative_Action_Plan_2025.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.984687+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:37:02.520877+00:00'
   link_text: FY 2025 affirmative action plan report
 - url: https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf
   md5: 97121bea9371b5306664494e9a1439b9
@@ -402262,15 +403382,22 @@
   filename: Americas-AI-Action-Plan.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:45.987440+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:37:17.513350+00:00'
   link_text: White House AI Action Plan
 - url: https://nsf-gov-resources.nsf.gov/files/Arctic-Research-Support-and-Logistics-Services-Contracts.pdf?VersionId=OjssohrJmqUilPf2NWlQFheOOtGgI2yk
   md5: 7bd753fc947f701ee0229141bef6c19a
@@ -402278,15 +403405,22 @@
   filename: Arctic-Research-Support-and-Logistics-Services-Contracts.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.007747+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:37:31.164857+00:00'
   link_text: Arctic Research Support and Logistics Services
 - url: https://files.bsf.org.il/data/FormsToDownload/BSF-NSF_EEID_Call.pdf
   md5: beb8ab76ebe81daae53b36ba107fd185
@@ -402294,15 +403428,22 @@
   filename: BSF-NSF_EEID_Call.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.012408+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:37:44.748377+00:00'
   link_text: http://www.bsf.org.il/data/FormsToDownload/BSF-NSF_EEID_Call.pdf
 - url: https://nsf-gov-resources.nsf.gov/files/Budget%20Update.pdf
   md5: e4c300310837b5e5e594b8c252d897fd
@@ -402310,15 +403451,22 @@
   filename: Budget%20Update.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.017566+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:37:58.450025+00:00'
   link_text: Budget Update (PDF, 920.4 KB)
 - url: https://www.uaf.edu/cfos/files/sikuliaq/CECSOP-220216.pdf
   md5: 56f9968ef379e3a21adee71b6eb787e1
@@ -402326,15 +403474,22 @@
   filename: CECSOP-220216.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.036996+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:38:12.282923+00:00'
   link_text: Community and Environmental Compliance Standard Operating Procedures
     (CECSOP) for R/V Sikuliaq Research Operations
 - url: https://nsf-gov-resources.nsf.gov/2023-08/CEOSE-Biennial-Report-Handout.pdf
@@ -402343,15 +403498,22 @@
   filename: CEOSE-Biennial-Report-Handout.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.043563+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:38:25.968353+00:00'
   link_text: 'Handout for Making Visible the Invisible: Understanding intersectionality
     2021-2022 (PDF, 1.25 MB)'
 - url: https://nsf-gov-resources.nsf.gov/2023-08/CEOSE-Report-2023_1.pdf
@@ -402360,15 +403522,22 @@
   filename: CEOSE-Report-2023_1.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.066552+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:38:39.548515+00:00'
   link_text: 'Making visible the invisible: Understanding intersectionality 2021-2022
     (PDF, 9.42 MB)'
 - url: https://nsf-gov-resources.nsf.gov/files/CEOSE_STEM-Talent_of_Rural_America_Report.pdf
@@ -402377,15 +403546,22 @@
   filename: CEOSE_STEM-Talent_of_Rural_America_Report.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.087712+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:38:53.467424+00:00'
   link_text: 'Making visible the invisible: STEM talent of rural America (PDF, 7.92
     MB)'
 - url: https://nsf-gov-resources.nsf.gov/attachments/307790/public/CIRC-transcript.pdf
@@ -402394,15 +403570,22 @@
   filename: CIRC-transcript.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.092722+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:39:07.149771+00:00'
   link_text: Transcript (PDF, 314.64 KB)
 - url: https://www.congress.gov/116/crpt/hrpt617/CRPT-116hrpt617.pdf
   md5: 8ff94889be8df6f50fc150dd8937b922
@@ -402410,15 +403593,22 @@
   filename: CRPT-116hrpt617.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.106167+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:39:20.732645+00:00'
   link_text: National Artificial Intelligence Initiative Act of 2020
 - url: https://nsf-gov-resources.nsf.gov/attachments/304377/public/CTGC-briefing-office-hours.pdf
   md5: ba919bd139975559a3e293a3bd20fa97
@@ -402426,15 +403616,22 @@
   filename: CTGC-briefing-office-hours.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.119244+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:39:34.369813+00:00'
   link_text: Cultural Transformation in the Geoscience Community Briefing (PDF, 4.68
     MB)
 - url: https://resources.research.gov/common/attachment/Common/Career_deadline.pdf
@@ -402443,15 +403640,22 @@
   filename: Career_deadline.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.124666+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:39:47.924680+00:00'
   link_text: CAREER submission timeline
 - url: https://nsf-gov-resources.nsf.gov/files/Certificate-of-Indirect-Costs-508.pdf
   md5: 94ced900e8e361f6f5201fbc7fdc031a
@@ -402459,15 +403663,22 @@
   filename: Certificate-of-Indirect-Costs-508.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.129685+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:40:01.653698+00:00'
   link_text: Download the certificate of indirect costs template
 - url: https://nsf-gov-resources.nsf.gov/files/Commerce-research-terms-conditions-20201112-r.pdf
   md5: e7b7adccc8327a1f00a93395e92a3643
@@ -402475,15 +403686,22 @@
   filename: Commerce-research-terms-conditions-20201112-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.133677+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:40:15.249677+00:00'
   link_text: DOC Agency-Specific Requirements (Nov. 2020) (PDF, 119.11 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/Cyberinfrastrcture_EPSCoR_Live!_508.pdf
   md5: 5db8bb02561b94f6b515ffdd013373c7
@@ -402491,15 +403709,22 @@
   filename: Cyberinfrastrcture_EPSCoR_Live!_508.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.147186+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:40:29.079630+00:00'
   link_text: Download the slides from the May 21, 2025 webinar.
 - url: https://nsf-gov-resources.nsf.gov/files/DCL%20AI%20Challenge%20for%20Youth%20Webinar.pdf?VersionId=CFJBZqP.AveNxjfUQpQHpkkBstZFE7hO
   md5: e1917cb94d111779bbd7ba991699f10f
@@ -402507,15 +403732,22 @@
   filename: DCL%20AI%20Challenge%20for%20Youth%20Webinar.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.153892+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:40:42.657621+00:00'
   link_text: Webinar slides - AI Youth Challenge (Webinar held on September 23rd,
     2025)
 - url: https://digitalus.org/wp-content/uploads/2020/06/DigitalUS-Report-pages-20200602.pdf
@@ -402524,15 +403756,22 @@
   filename: DigitalUS-Report-pages-20200602.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.178923+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:40:56.155056+00:00'
   link_text: https://digitalus.org/wp-content/uploads/2020/06/DigitalUS-Report-pages-20200602.pdf
 - url: https://nsf-gov-resources.nsf.gov/files/E-CORE%20PI%20Communications_Feb2026_webinar.pdf
   md5: c3ecb395fef34a4f892b46bdd0aa496f
@@ -402540,15 +403779,22 @@
   filename: E-CORE%20PI%20Communications_Feb2026_webinar.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.191922+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:41:09.667352+00:00'
   link_text: Download slides from the February 23, 2026 webinar
 - url: https://nsf-gov-resources.nsf.gov/files/E-CORE-PI-Comm_2025_webinar.pdf
   md5: 5c4ea1bd6fa11418a07c9a8930e35c06
@@ -402556,15 +403802,22 @@
   filename: E-CORE-PI-Comm_2025_webinar.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.196579+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:41:23.104866+00:00'
   link_text: Download slides from the January 22, 2025 webinar.
 - url: https://nsf-gov-resources.nsf.gov/files/E-CORE.pdf
   md5: 7ef90a54d68e96b618390e9e78235339
@@ -402572,15 +403825,22 @@
   filename: E-CORE.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.201780+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:41:36.652474+00:00'
   link_text: E-CORE (PDF, 680.24 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/E-RISE.pdf
   md5: 9ee26061b5aefa493e6eeea7273549b3
@@ -402588,15 +403848,22 @@
   filename: E-RISE.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.207465+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:41:50.091392+00:00'
   link_text: E-Rise (PDF, 919.78 KB)
 - url: https://mcusercontent.com/3ba6db14bf82ff9d1188f1cb9/files/91d3c2ea-4216-4d90-9a3e-7cc315d8d93a/E4USA_June_Teacher_Interview_Sharon_Ball_converted.pdf
   md5: d524ab4a97a6d5f3d78f439f64bce2c5
@@ -402604,15 +403871,22 @@
   filename: E4USA_June_Teacher_Interview_Sharon_Ball_converted.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.211524+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:42:03.441285+00:00'
   link_text: said Sharon Ball, who taught the course at Patterson High School in Baltimore,
     Maryland.
 - url: https://nsf-gov-resources.nsf.gov/2023-08/EPSCoR%20AREC%20Overview_0.pdf
@@ -402621,15 +403895,22 @@
   filename: EPSCoR%20AREC%20Overview_0.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.215277+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:42:17.070053+00:00'
   link_text: 2M Study Overview (PDF, 389.96 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/EPSCoR%20Programmatic%20Updates.pdf
   md5: 8677f47d4f359c24c523c1bcbe8149ba
@@ -402637,15 +403918,22 @@
   filename: EPSCoR%20Programmatic%20Updates.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.252160+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:42:30.352799+00:00'
   link_text: EPSCoR Programmatic Updates (PDF, 1.18 MB)
 - url: https://nsf-gov-resources.nsf.gov/2022-08/EPSCoR%20Report%20Handout_Final_Aug%202022-508_0.pdf
   md5: 83035d9c47be59c36ecbde07c396ad25
@@ -402653,15 +403941,22 @@
   filename: EPSCoR%20Report%20Handout_Final_Aug%202022-508_0.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.262514+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:42:44.086485+00:00'
   link_text: Summary of Envisioning the Future of NSF EPSCoR Report (PDF, 2.98 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/EPSCoR%20Research%20Fellows.pdf
   md5: 21f276ff8f2643647efceb0ec2e69a76
@@ -402669,15 +403964,22 @@
   filename: EPSCoR%20Research%20Fellows.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.268657+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:42:57.728359+00:00'
   link_text: EPSCoR Research Fellows (PDF, 965.09 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/EPSCoR-Live-April-2025-508c.pdf
   md5: 5961441ff04c938b5899629ce3a640d4
@@ -402685,15 +403987,22 @@
   filename: EPSCoR-Live-April-2025-508c.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.275969+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:43:11.379726+00:00'
   link_text: Download the slides from the April 10, 2025 webinar.
 - url: https://nsf-gov-resources.nsf.gov/files/EPSCoR-Live-FEC-Sept-24-2025-slides.pdf
   md5: 9585e34d4691d79e3d5e4a554daf0bb6
@@ -402701,15 +404010,22 @@
   filename: EPSCoR-Live-FEC-Sept-24-2025-slides.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.284658+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:43:24.724548+00:00'
   link_text: Download slides from the September 24, 2025 webinar
 - url: https://nsf-gov-resources.nsf.gov/files/EPSCoR-Workshop-july-2025-webinar-slides.pdf
   md5: 386c92c355f89fee3dc0abb461fee38e
@@ -402717,15 +404033,22 @@
   filename: EPSCoR-Workshop-july-2025-webinar-slides.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.294376+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:43:39.024893+00:00'
   link_text: Download slides from the July 9, 2025 webinar
 - url: https://nsf-gov-resources.nsf.gov/files/EPSCoRLive-E-RISE-March%202026.pdf
   md5: a4195a56ec4c82e42b2fad1bbd5fdc78
@@ -402733,15 +404056,22 @@
   filename: EPSCoRLive-E-RISE-March%202026.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.300935+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:43:53.097460+00:00'
   link_text: Download slides from the March 31, 2026 webinar
 - url: https://nsf-gov-resources.nsf.gov/2022-06/EPSCoR_Abstract_2M.pdf
   md5: c547ee390f85574ce4a014c224d847a1
@@ -402749,15 +404079,22 @@
   filename: EPSCoR_Abstract_2M.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.305006+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:44:06.697222+00:00'
   link_text: Abstract
 - url: https://nsf-gov-resources.nsf.gov/2022-05/EPSCoR_Factsheet_2020.pdf
   md5: 0281e105d9b7267b4fdb43a4d7dca30d
@@ -402765,15 +404102,22 @@
   filename: EPSCoR_Factsheet_2020.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.308963+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:44:19.965673+00:00'
   link_text: EPSCoR Factsheet 2020 (PDF, 497.3 KB)
 - url: https://nsf-gov-resources.nsf.gov/files/EPSCoR_Live_Dec25_AAAS_Slides.pdf
   md5: 7b15d3a3b0b5c8acbf8a30998493057c
@@ -402781,15 +404125,22 @@
   filename: EPSCoR_Live_Dec25_AAAS_Slides.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.314162+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:44:33.259761+00:00'
   link_text: Download slides from the December 3, 2025 webinar.
 - url: https://nsf-gov-resources.nsf.gov/files/EPSCoR_Live_Oct25_Adjeroh%20Slides.pdf
   md5: 2c8c4d70b649c9d9d210622420ca3799
@@ -402797,15 +404148,22 @@
   filename: EPSCoR_Live_Oct25_Adjeroh%20Slides.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.318749+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:44:46.542047+00:00'
   link_text: Download slides from the October 29, 2025 webinar.
 - url: https://nsf-gov-resources.nsf.gov/2023-06/EPSCoR_Logic_Model_Outcomes_Indicator_Brochure_0.pdf
   md5: bc43ec67747f34ad4a6d632d69718c85
@@ -402813,15 +404171,22 @@
   filename: EPSCoR_Logic_Model_Outcomes_Indicator_Brochure_0.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.341551+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:44:59.776988+00:00'
   link_text: 'EPSCoR Framework: Logic Model and Key Outcomes & Indicators (PDF, 9.65
     MB)'
 - url: https://erc-assoc.org/sites/default/files/download-files/ERC%20Brochure%20Dec2023.pdf
@@ -402830,15 +404195,22 @@
   filename: ERC%20Brochure%20Dec2023.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.353979+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:45:12.977644+00:00'
   link_text: ERC 2023 Brochure (PDF, 3.8 MB)
 - url: https://nsf-gov-resources.nsf.gov/files/ERF%20EPSCoR%20Live_Jan26.pdf
   md5: 655d19f0745f4bce787c4f5836417d40
@@ -402846,15 +404218,22 @@
   filename: ERF%20EPSCoR%20Live_Jan26.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.363688+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:45:26.550062+00:00'
   link_text: Download slides from the January 22, 2026 webinar.
 - url: https://nsf-gov-resources.nsf.gov/files/Energy-research-terms-conditions-2020-11-r.pdf
   md5: f8a8ef5b218366af2fbc7c2a9017a723
@@ -402862,15 +404241,22 @@
   filename: Energy-research-terms-conditions-2020-11-r.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.368260+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:45:40.065934+00:00'
   link_text: DOE Agency-Specific Requirements (Nov. 2020) (PDF, 90.2 KB)
 - url: https://www.nitrd.gov/pubs/FACE-SP-FY22-Implementation-Roadmap.pdf
   md5: b3008c2f2b6b3fbc2b365a1136200b06
@@ -402878,15 +404264,22 @@
   filename: FACE-SP-FY22-Implementation-Roadmap.pdf
   site: nsf.gov
   crawled_at: '2026-07-07T12:02:46.377104+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-07T12:45:53.075751+00:00'
   link_text: Future Advanced Computing Ecosystem
 - url: https://www.iarpccollaborations.org/uploads/cms/documents/FINAL-IARPC-Implementation-Plan-2025-26-20241203.pdf
   md5: ff0cb456ae01755317bd1dcce5814001
