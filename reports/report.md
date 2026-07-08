@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-08T02:32:39.258695+00:00
+Generated: 2026-07-08T13:00:28.012933+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 938 |
-| Total files tracked | 23809 |
+| URLs crawled | 31 |
+| Total files tracked | 23943 |
 | Analysed | 6072 |
-| Pending analysis | 11717 |
-| Errors during analysis | 6020 |
+| Pending analysis | 11673 |
+| Errors during analysis | 6198 |
 | Accessible | 2000 |
 | Totally inaccessible | 257 |
 | Broken / unreadable | 26 |
@@ -30,7 +30,7 @@ Generated: 2026-07-08T02:32:39.258695+00:00
 | businessexpress.maryland.gov | 1 |
 | calgary.ca | 165 |
 | canada.ca | 500 |
-| careerforce.mn.gov | 43 |
+| careerforce.mn.gov | 78 |
 | circuit19.org | 39 |
 | cms.gov | 1711 |
 | coloradoboces.org | 48 |
@@ -57,7 +57,7 @@ Generated: 2026-07-08T02:32:39.258695+00:00
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
-| medicare.gov | 313 |
+| medicare.gov | 412 |
 | middletowncityschools.com | 170 |
 | minneapolis.edu | 6 |
 | mn.gov | 1462 |
@@ -63220,6 +63220,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, 
 
+### RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### 2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
 
 - **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
@@ -64324,11 +64330,23 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.979284+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### 02154-medicare-hospice-benefits.pdf
+
+- **URL**: https://www.medicare.gov/publications/02154-medicare-hospice-benefits.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### 02173-getting-a-second-opinion-before-surgery.pdf
 
 - **URL**: https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf
 - **Status**: analysed
 - annotations-tagging-fail, 
+
+### 10050-le-medicare-and-you.pdf
+
+- **URL**: https://www.medicare.gov/publications/10050-le-medicare-and-you.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### 10108_c.pdf
 
@@ -65114,7 +65132,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.usds.gov/assets/files/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
 - **Status**: error
-- File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
 
@@ -65126,7 +65144,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
 - **Status**: error
-- File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
 
@@ -65150,7 +65168,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf
 - **Status**: error
-- File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### USDS-Impact-Report-2020.pdf
 
@@ -65174,7 +65192,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf
 - **Status**: error
-- File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### USDS-Press-Sheet.pdf
 
@@ -65186,7 +65204,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf
 - **Status**: error
-- File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### USDS-SBA8a_Brief.pdf
 
@@ -65198,7 +65216,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf
 - **Status**: error
-- File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### USDS-SBA8a_Detailed.pdf
 
@@ -65210,7 +65228,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.usds.gov/assets/files/usds-di.pdf
 - **Status**: error
-- File not found: crawled_files/usds.gov/usds-di.pdf (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/usds.gov/usds-di.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### usds-di.pdf
 
@@ -67903,5 +67921,209 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### G-HI_00815.025-1.pdf
 
 - **URL**: https://secure.ssa.gov/apps10/public/pomsimages.nsf/gfx_num/G-HI_00815.025-1/$File/G-HI_00815.025-1.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### ARS%20Worker%20handout_2023-acc.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2023-06/ARS%20Worker%20handout_2023-acc.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
+
+- **URL**: https://mn.gov/mdhr/assets/BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CareerForce%20student%20focused%20flyer%202025_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2025-04/CareerForce%20student%20focused%20flyer%202025_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-03/CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CareerForce_High%20School%20handout-2025_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20handout-2025_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CareerForce_High%20School%20poster-2025_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20poster-2025_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Central-Minnesota-2024_tcm1045-288717.pdf
+
+- **URL**: https://mn.gov/deed/assets/Central-Minnesota-2024_tcm1045-288717.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DIMI%20structure%20handout_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2023-07/DIMI%20structure%20handout_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Employment--Training-Contact-Record.pdf
+
+- **URL**: https://www.scottcountymn.gov/DocumentCenter/View/13569/Employment--Training-Contact-Record?bidId=
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Federal%20Bonding%20Program%20handout_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-07/Federal%20Bonding%20Program%20handout_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-04/How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MN%20Job%20Quality%20Principles%20handout_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2024-02/MN%20Job%20Quality%20Principles%20handout_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MNWorksEmployersBrochure2019_ACC.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorksEmployersBrochure2019_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Northeast-Minnesota-2024_tcm1045-288725.pdf
+
+- **URL**: https://mn.gov/deed/assets/Northeast-Minnesota-2024_tcm1045-288725.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Northwest-Minnesota-2024_tcm1045-288726.pdf
+
+- **URL**: https://mn.gov/deed/assets/Northwest-Minnesota-2024_tcm1045-288726.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-02/Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Southeast-Minnesota-2024_tcm1045-288727.pdf
+
+- **URL**: https://mn.gov/deed/assets/Southeast-Minnesota-2024_tcm1045-288727.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Southwest-Minnesota-2024_tcm1045-288728.pdf
+
+- **URL**: https://mn.gov/deed/assets/Southwest-Minnesota-2024_tcm1045-288728.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Technical%20Guidance%20364.021_tcm1061-213501.pdf
+
+- **URL**: https://mn.gov/mdhr/assets/Technical%20Guidance%20364.021_tcm1061-213501.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-08/Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### TeenJobFairEmployerList.pdf
+
+- **URL**: https://www.co.dakota.mn.us/libraries/Programs/Teens/Documents/TeenJobFairEmployerList.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### TwinCities-2024_tcm1045-288722.pdf
+
+- **URL**: https://mn.gov/deed/assets/TwinCities-2024_tcm1045-288722.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### VetCareerFair%202026%20Directory-acc.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2026-05/VetCareerFair%202026%20Directory-acc.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### dei-employer-guide-acc.pdf
+
+- **URL**: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2020-09/dei-employer-guide-acc.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### dimi-membership-agreement-acc.pdf
+
+- **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/dimi-membership-agreement-acc.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### econ-dev-resource-guide_tcm1045-153149.pdf
+
+- **URL**: https://mn.gov/deed/assets/econ-dev-resource-guide_tcm1045-153149.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
+
+- **URL**: https://mn.gov/deed/assets/employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### employment-resource-guide.pdf
+
+- **URL**: https://apps.deed.state.mn.us/assets/employment-resource-guide.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### f8826.pdf
+
+- **URL**: https://www.irs.gov/pub/irs-pdf/f8826.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### right-fair-treatment_tcm1045-363157.pdf
+
+- **URL**: https://mn.gov/deed/assets/right-fair-treatment_tcm1045-363157.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### wioa-discrimination-complaint_tcm1045-596623.pdf
+
+- **URL**: https://mn.gov/deed/assets/wioa-discrimination-complaint_tcm1045-596623.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'

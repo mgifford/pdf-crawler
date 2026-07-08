@@ -388378,9 +388378,9 @@
     numTxtObjects: 80
   errors:
   - 'File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
-    (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+    (crawled 1 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes: failed
+    download, incomplete artifact transfer, or stale manifest entry from a previous
+    run.'
   analyses:
     original:
       status: analysed
@@ -388572,10 +388572,10 @@
       report: null
       errors:
       - 'File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
-        (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes:
+        (crawled 1 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes:
         failed download, incomplete artifact transfer, or stale manifest entry from
         a previous run.'
-      analysed_at: '2026-07-06T15:30:51.959278+00:00'
+      analysed_at: '2026-07-08T12:56:33.873379+00:00'
   notes: What happens to the notes?
 - url: https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
   md5: df50ec065c6ba2d62354f896da33252f
@@ -388777,9 +388777,9 @@
     DocCategory: Report
   errors:
   - 'File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
-    (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes:
-    failed download, incomplete artifact transfer, or stale manifest entry from a
-    previous run.'
+    (crawled 1 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes: failed
+    download, incomplete artifact transfer, or stale manifest entry from a previous
+    run.'
   analyses:
     original:
       status: analysed
@@ -388982,10 +388982,10 @@
       report: null
       errors:
       - 'File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
-        (crawled 0.0 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes:
+        (crawled 1 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes:
         failed download, incomplete artifact transfer, or stale manifest entry from
         a previous run.'
-      analysed_at: '2026-07-06T15:31:06.138031+00:00'
+      analysed_at: '2026-07-08T12:56:51.855439+00:00'
   notes: What happens to the notes?
 - url: https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf
   md5: aa1f6b460bfd12cb744f2ad847f4351a
@@ -389419,7 +389419,7 @@
       report: null
       errors:
       - No module named 'simpla11ypdf'
-      analysed_at: '2026-07-06T15:31:20.395329+00:00'
+      analysed_at: '2026-07-08T12:57:10.682555+00:00'
   notes: What happens to the notes?
   link_text: Download thefull report (PDF)
 - url: https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf
@@ -389585,7 +389585,7 @@
     numTxtObjects: 563
     DocCategory: Report
   errors:
-  - 'File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 0.0
+  - 'File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 1
     day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download,
     incomplete artifact transfer, or stale manifest entry from a previous run.'
   analyses:
@@ -389754,10 +389754,10 @@
       report: null
       errors:
       - 'File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled
-        0.0 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed
+        1 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed
         download, incomplete artifact transfer, or stale manifest entry from a previous
         run.'
-      analysed_at: '2026-07-06T15:31:34.861881+00:00'
+      analysed_at: '2026-07-08T12:57:29.161611+00:00'
   notes: What happens to the notes?
 - url: https://www.usds.gov/assets/files/USDS-Overview.pdf
   md5: 4359199fa585b1a479543a2793e8a706
@@ -389959,7 +389959,7 @@
       report: null
       errors:
       - No module named 'simpla11ypdf'
-      analysed_at: '2026-07-06T15:31:49.085713+00:00'
+      analysed_at: '2026-07-08T12:57:47.789928+00:00'
   notes: What happens to the notes?
   link_text: Press sheet [PDF, 2 pages]
 - url: https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf
@@ -390059,7 +390059,7 @@
     numTxtObjects: 76
     DocCategory: Press
   errors:
-  - 'File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 0.0 day(s)
+  - 'File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 1 day(s)
     ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete
     artifact transfer, or stale manifest entry from a previous run.'
   analyses:
@@ -390161,10 +390161,10 @@
       status: error
       report: null
       errors:
-      - 'File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 0.0
-        day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download,
+      - 'File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 1 day(s)
+        ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download,
         incomplete artifact transfer, or stale manifest entry from a previous run.'
-      analysed_at: '2026-07-06T15:32:03.647096+00:00'
+      analysed_at: '2026-07-08T12:58:06.324429+00:00'
   notes: What happens to the notes?
 - url: https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf
   md5: 27f2fe3ec256d981cd2abe71612f323e
@@ -390254,7 +390254,7 @@
     fonts: 5
     numTxtObjects: 19
   errors:
-  - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 0.0 day(s)
+  - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 1 day(s)
     ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete
     artifact transfer, or stale manifest entry from a previous run.'
   analyses:
@@ -390347,10 +390347,10 @@
       status: error
       report: null
       errors:
-      - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 0.0
-        day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download,
+      - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 1 day(s)
+        ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download,
         incomplete artifact transfer, or stale manifest entry from a previous run.'
-      analysed_at: '2026-07-06T15:32:17.978814+00:00'
+      analysed_at: '2026-07-08T12:58:25.275904+00:00'
   notes: What happens to the notes?
 - url: https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf
   md5: 492e3aec80a81eac45b238d092b10d9d
@@ -390440,7 +390440,7 @@
     fonts: 4
     numTxtObjects: 28
   errors:
-  - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 0.0 day(s)
+  - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 1 day(s)
     ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete
     artifact transfer, or stale manifest entry from a previous run.'
   analyses:
@@ -390533,10 +390533,10 @@
       status: error
       report: null
       errors:
-      - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 0.0
+      - 'File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 1
         day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download,
         incomplete artifact transfer, or stale manifest entry from a previous run.'
-      analysed_at: '2026-07-06T15:32:32.009483+00:00'
+      analysed_at: '2026-07-08T12:58:43.731091+00:00'
   notes: What happens to the notes?
 - url: https://www.usds.gov/assets/files/usds-di.pdf
   md5: 375e4935dd1d4ff355fdce257dad5c0b
@@ -390636,9 +390636,9 @@
     fonts: 7
     numTxtObjects: 49
   errors:
-  - 'File not found: crawled_files/usds.gov/usds-di.pdf (crawled 0.0 day(s) ago at
-    2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete
-    artifact transfer, or stale manifest entry from a previous run.'
+  - 'File not found: crawled_files/usds.gov/usds-di.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.973626+00:00).
+    Possible causes: failed download, incomplete artifact transfer, or stale manifest
+    entry from a previous run.'
   analyses:
     original:
       status: analysed
@@ -390739,10 +390739,10 @@
       status: error
       report: null
       errors:
-      - 'File not found: crawled_files/usds.gov/usds-di.pdf (crawled 0.0 day(s) ago
+      - 'File not found: crawled_files/usds.gov/usds-di.pdf (crawled 1 day(s) ago
         at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete
         artifact transfer, or stale manifest entry from a previous run.'
-      analysed_at: '2026-07-06T15:32:46.345815+00:00'
+      analysed_at: '2026-07-08T12:59:01.760236+00:00'
   notes: What happens to the notes?
 - url: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
   md5: 3ebe33fa286efd3b8cbee74bdde6b931
@@ -391127,9 +391127,10 @@
   filename: fac_c_digital_services_05_12_18.pdf
   site: usds.gov
   crawled_at: '2026-07-06T15:29:05.161336+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
@@ -391141,7 +391142,7 @@
       report: null
       errors:
       - No module named 'simpla11ypdf'
-      analysed_at: '2026-07-06T15:33:00.686059+00:00'
+      analysed_at: '2026-07-08T12:59:19.898231+00:00'
   notes: What happens to the notes?
   link_text: May 2018 memo
 - url: https://www.irs.gov/pub/irs-pdf/i1040gi.pdf
@@ -391150,9 +391151,10 @@
   filename: i1040gi.pdf
   site: usds.gov
   crawled_at: '2026-07-06T15:29:05.173452+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
@@ -391164,7 +391166,7 @@
       report: null
       errors:
       - No module named 'simpla11ypdf'
-      analysed_at: '2026-07-06T15:33:15.116513+00:00'
+      analysed_at: '2026-07-08T12:59:38.222890+00:00'
   notes: What happens to the notes?
   link_text: nine hours and $150
 - url: https://www.energy.gov/documents/10-cfr-1021-nofr-fed-reg-2020-12-04pdf
