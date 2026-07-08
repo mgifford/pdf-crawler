@@ -4,7 +4,7 @@
     "site": "medicare.gov",
     "crawl_url": "https://www.medicare.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28910492366",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/230#issuecomment-4910709503",
     "archive_file": "2026-07-08_02-02-20-348_medicare.gov.html",
     "total": 412,
     "analysed": 152,
