@@ -4,7 +4,7 @@
     "site": "mn.gov",
     "crawl_url": "https://mn.gov/commerce",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28909904150",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/222#issuecomment-4910633709",
     "archive_file": "2026-07-08_01-47-15-175_mn.gov.html",
     "total": 1462,
     "analysed": 30,
