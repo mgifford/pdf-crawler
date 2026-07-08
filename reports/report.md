@@ -64393,6 +64393,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 10969-medicare-and-home-health-care.pdf
 
 - **URL**: https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10969-medicare-and-home-health-care.pdf
+
+- **URL**: https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf
 - **Status**: analysed
 - annotations-tagging-fail, 
 
@@ -64449,6 +64455,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.medicare.gov/publications/11145-j.pdf
 - **Status**: analysed
 - title, lang, 
+
+### 11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
+
+- **URL**: https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### 11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
 
@@ -64534,6 +64546,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - annotations-tagging-fail, 
 
+### 11376-your-discharge-planning-checklist.pdf
+
+- **URL**: https://www.medicare.gov/publications/11376-your-discharge-planning-checklist.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### 11389-s-medicare-getting-started.pdf
 
 - **URL**: https://www.medicare.gov/publications/11389-s-medicare-getting-started.pdf
@@ -64599,6 +64617,282 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf
 - **Status**: analysed
 - headings-warn, 
+
+### 11534-s-medicare-rights-and-protections.pdf
+
+- **URL**: https://www.medicare.gov/publications/11534-s-medicare-rights-and-protections.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.306978+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11542-s-questions-to-ask-about-preventive-services.pdf
+
+- **URL**: https://www.medicare.gov/publications/11542-s-questions-to-ask-about-preventive-services.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.308561+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11546-Medicare-Coordination-of-Benefits-Getting-Started.pdf
+
+- **URL**: https://www.medicare.gov/publications/11546-Medicare-Coordination-of-Benefits-Getting-Started.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.310108+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11546-s-medicare-coordination-of-benefits-getting-started.pdf
+
+- **URL**: https://www.medicare.gov/publications/11546-s-medicare-coordination-of-benefits-getting-started.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.311631+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11548-t.pdf
+
+- **URL**: https://www.medicare.gov/publications/11548-t.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.313217+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11548-v.pdf
+
+- **URL**: https://www.medicare.gov/publications/11548-v.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.314921+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11575-ARB-medicare-supplement-insurance.pdf
+
+- **URL**: https://www.medicare.gov/publications/11575-ARB-medicare-supplement-insurance.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.318392+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11579-medicare-costs.pdf
+
+- **URL**: https://www.medicare.gov/publications/11579-medicare-costs.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11579-s-medicare-costs.pdf
+
+- **URL**: https://www.medicare.gov/publications/11579-s-medicare-costs.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.321165+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11580.pdf
+
+- **URL**: https://www.medicare.gov/publications/11580.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.322634+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11593-s.pdf
+
+- **URL**: https://www.medicare.gov/publications/11593-s.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.324522+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11593.pdf
+
+- **URL**: https://www.medicare.gov/publications/11593.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.326404+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11610-4rs-for-fighting-medicare-fraud.pdf
+
+- **URL**: https://www.medicare.gov/publications/11610-4rs-for-fighting-medicare-fraud.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.327776+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11610-s-4rs-for-fighting-medicare-fraud.pdf
+
+- **URL**: https://www.medicare.gov/publications/11610-s-4rs-for-fighting-medicare-fraud.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.329866+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11694-medicare-and-marketplace.pdf
+
+- **URL**: https://www.medicare.gov/publications/11694-medicare-and-marketplace.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.332285+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11694-s-medicare-marketplace-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/11694-s-medicare-marketplace-508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.334627+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11865-qhc-notice.pdf
+
+- **URL**: https://www.medicare.gov/publications/11865-qhc-notice.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.337403+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11865-s-qhc-notice.pdf
+
+- **URL**: https://www.medicare.gov/publications/11865-s-qhc-notice.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.339388+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11865-s.pdf
+
+- **URL**: https://www.medicare.gov/publications/11865-s.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.341001+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11865.pdf
+
+- **URL**: https://www.medicare.gov/publications/11865.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.342883+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11931-medicare-coverage-of-cancer-treatment-services.pdf
+
+- **URL**: https://www.medicare.gov/publications/11931-medicare-coverage-of-cancer-treatment-services.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.344684+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11941-s-understanding-your-medicare-advantage-plans-provider-network.pdf
+
+- **URL**: https://www.medicare.gov/publications/11941-s-understanding-your-medicare-advantage-plans-provider-network.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.346046+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11941-understanding-your-medicare-advantage-plans-provider-network.pdf
+
+- **URL**: https://www.medicare.gov/publications/11941-understanding-your-medicare-advantage-plans-provider-network.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.347420+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11989-welcome-to-medicare508.pdf
+
+- **URL**: https://www.medicare.gov/publications/11989-welcome-to-medicare508.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.354244+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 12007-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
+
+- **URL**: https://www.medicare.gov/publications/12007-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.355697+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 12007-s-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
+
+- **URL**: https://www.medicare.gov/publications/12007-s-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.357123+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Armenian-11306-Medicare-Medicaid.pdf
+
+- **URL**: https://www.medicare.gov/publications/Armenian-11306-Medicare-Medicaid.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.359624+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Chinese-11306-Medicare-Medicaid.pdf
+
+- **URL**: https://www.medicare.gov/publications/Chinese-11306-Medicare-Medicaid.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.362044+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### arabic-msn-part-a.pdf
+
+- **URL**: https://www.medicare.gov/publications/arabic-msn-part-a.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.363765+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### arabic-msn-part-b.pdf
+
+- **URL**: https://www.medicare.gov/publications/arabic-msn-part-b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.365496+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### armenian-msn-part-a.pdf
+
+- **URL**: https://www.medicare.gov/publications/armenian-msn-part-a.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.367183+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### armenian-msn-part-b.pdf
+
+- **URL**: https://www.medicare.gov/publications/armenian-msn-part-b.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.368933+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mec-intro-notice-11865-final.pdf
+
+- **URL**: https://www.medicare.gov/publications/mec-intro-notice-11865-final.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.370917+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### meetngagntsoneonone_fctsht_english_link.pdf
+
+- **URL**: https://www.medicare.gov/publications/meetngagntsoneonone_fctsht_english_link.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.372241+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### oopc_specs-s.pdf
+
+- **URL**: https://www.medicare.gov/publications/oopc_specs-s.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.374856+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### oopc_specs.pdf
+
+- **URL**: https://www.medicare.gov/publications/oopc_specs.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.377245+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### sec923ombudsman.pdf
+
+- **URL**: https://www.medicare.gov/publications/sec923ombudsman.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.378425+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### spa-mec-intro-notice11865.pdf
+
+- **URL**: https://www.medicare.gov/publications/spa-mec-intro-notice11865.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.380086+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### spas.pdf
+
+- **URL**: https://www.medicare.gov/publications/spas.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.381689+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### summary_vendors_medicare_phr_choice_pilot_table.pdf
+
+- **URL**: https://www.medicare.gov/publications/summary_vendors_medicare_phr_choice_pilot_table.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.383117+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### summary_vendors_medicare_phr_choice_pilot_table_2_16_10.pdf
+
+- **URL**: https://www.medicare.gov/publications/summary_vendors_medicare_phr_choice_pilot_table_2_16_10.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.384557+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### summary_vendors_medicare_phr_choiceupdated.pdf
+
+- **URL**: https://www.medicare.gov/publications/summary_vendors_medicare_phr_choiceupdated.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.386158+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### summarynoticea.pdf
+
+- **URL**: https://www.medicare.gov/publications/summarynoticea.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.387894+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### summarynoticeb.pdf
+
+- **URL**: https://www.medicare.gov/publications/summarynoticeb.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.389632+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### summarynoticedme.pdf
+
+- **URL**: https://www.medicare.gov/publications/summarynoticedme.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.391361+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### summarynoticeenvelope.pdf
+
+- **URL**: https://www.medicare.gov/publications/summarynoticeenvelope.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### KfW-Finanzbericht-2024-2.pdf
 
@@ -67057,5 +67351,557 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### FOIA%20Request%20%23%202020-FOIA-06781%20Denial%20Letter.pdf
 
 - **URL**: https://perb.dc.gov/sites/default/files/dc/sites/perb/page_content/attachments/FOIA%20Request%20%23%202020-FOIA-06781%20Denial%20Letter.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10001.pdf
+
+- **URL**: https://www.medicare.gov/media/10001
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10011.pdf
+
+- **URL**: https://www.medicare.gov/media/10011
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10021.pdf
+
+- **URL**: https://www.medicare.gov/media/10021
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10036.pdf
+
+- **URL**: https://www.medicare.gov/es/media/10036
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10050-medicare-and-you.pdf
+
+- **URL**: https://www.medicare.gov/publications/10050-medicare-and-you.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10056.pdf
+
+- **URL**: https://www.medicare.gov/media/10056
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 10181guidetochoosing-ahospital.pdf
+
+- **URL**: https://www.medicare.gov/publications/10181guidetochoosing-ahospital.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11095-Get-Ready-for-Medicare-package-in-United-States.pdf
+
+- **URL**: https://www.medicare.gov/media/11095-Get-Ready-for-Medicare-package-in-United-States.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11154-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11154-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11154.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11154.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11166-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11166-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11166.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11166.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11186-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11186-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11186.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11186.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11198-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11198-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11198.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11198.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11199-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11199-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11199.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11199.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11208-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11208-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11208.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11208.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11209-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11209-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11209.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11209.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11267-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11267-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11267.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11267.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11334-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11334-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11334.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11334.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11389-Medicare-Getting-Started.pdf
+
+- **URL**: https://www.medicare.gov/publications/11389-Medicare-Getting-Started.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11429-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11429-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11429.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11429.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11433.pdf
+
+- **URL**: https://www.cms.gov/Outreach-and-Education/Outreach/Partnerships/downloads/11433.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11443-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11443-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11443.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11443.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11452notice.pdf
+
+- **URL**: https://www.medicare.gov/publications/11452notice.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11475-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11475-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11475.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11475.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11496-S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11496-S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11496.pdf
+
+- **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11496.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11659-understanding-cms-500-trifold-508c.pdf
+
+- **URL**: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-508c.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11659-understanding-cms-500-trifold-may-2023.pdf
+
+- **URL**: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-may-2023.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11659s-understanding-cms-500-trifold-508c.pdf
+
+- **URL**: https://www.medicare.gov/publications/11659s-understanding-cms-500-trifold-508c.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11816.pdf
+
+- **URL**: https://www.medicare.gov/es/media/11816
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11871-Welcome-to-Medicare-package-foreign.pdf
+
+- **URL**: https://www.medicare.gov/media/11871-Welcome-to-Medicare-package-foreign.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11873-Sign-up-Part-B-package-US.pdf
+
+- **URL**: https://www.medicare.gov/media/11873-Sign-up-Part-B-package-US.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11873-s-sign-up-for-part-b.pdf
+
+- **URL**: https://www.medicare.gov/es/publications/11873-s-sign-up-for-part-b.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11874-Sign-up-Part-B-package-Puerto-Rico.pdf
+
+- **URL**: https://www.medicare.gov/media/11874-Sign-up-Part-B-package-Puerto-Rico.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11915-2024508.pdf
+
+- **URL**: https://www.medicare.gov/publications/11915-2024508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11915-s-2024508.pdf
+
+- **URL**: https://www.medicare.gov/es/publications/11915-s-2024508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11952-2024508.pdf
+
+- **URL**: https://www.medicare.gov/publications/11952-2024508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11952-s-2024508.pdf
+
+- **URL**: https://www.medicare.gov/es/publications/11952-s-2024508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
+
+- **URL**: https://www.medicare.gov/media/11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12020-Welcome-to-Medicare-0.pdf
+
+- **URL**: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12020-Welcome-to-Medicare.pdf
+
+- **URL**: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12095-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12095-Eng-Span-letter-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12096-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12096-Eng-Span-letter-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12097-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12097-Eng-Span-letter-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12098-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12098-Eng-Span-letter-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12099-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12099-Eng-Span-letter-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12100-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12100-Eng-Span-letter-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12101-Eng-Span-letter-508.pdf
+
+- **URL**: https://www.medicare.gov/media/12101-Eng-Span-letter-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12112-understanding-mep-trifold-508c.pdf
+
+- **URL**: https://www.medicare.gov/publications/12112-understanding-mep-trifold-508c.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12112s-understanding-mep-trifold-508c.pdf
+
+- **URL**: https://www.medicare.gov/publications/12112s-understanding-mep-trifold-508c.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12116-Welcome-to-Medicare.pdf
+
+- **URL**: https://www.medicare.gov/media/12116-Welcome-to-Medicare.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12116-s-bienvenido-a-medicare.pdf
+
+- **URL**: https://www.medicare.gov/publications/12116-s-bienvenido-a-medicare.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12130nursing-home-checklist508.pdf
+
+- **URL**: https://www.medicare.gov/publications/12130nursing-home-checklist508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12172-3-things-to-know-about-medicare-insulin-costs.pdf
+
+- **URL**: https://www.medicare.gov/publications/12172-3-things-to-know-about-medicare-insulin-costs.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12177-2023-02-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/12177-2023-02-508.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12181-3-6-24.pdf
+
+- **URL**: https://www.medicare.gov/publications/12181-3-6-24.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 12181-s-3-5-24-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/12181-s-3-5-24-508.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2012-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2012-annual-cms-plain-language-report-508.pdf?linkit_matcher=1
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2013-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2013-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2014-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2014-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2015-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2015-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2016-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2016-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2017-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2017-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2018-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2018-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2019-annual-CMS-plain-language-report.pdf
+
+- **URL**: https://www.medicare.gov/media/2019-annual-CMS-plain-language-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2020-Annual-Plain-Writing-Report.pdf
+
+- **URL**: https://www.medicare.gov/media/2020-Annual-Plain-Writing-Report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2021-annual-CMS-plain-language-report.pdf
+
+- **URL**: https://www.medicare.gov/media/2021-annual-CMS-plain-language-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2022-annual-cms-plain-language-report-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2022-annual-cms-plain-language-report-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2023-annual-cms-plain-language-report.pdf
+
+- **URL**: https://www.medicare.gov/publications/2023-annual-cms-plain-language-report.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2024-annual-cms-plain-language-report-final.pdf
+
+- **URL**: https://www.medicare.gov/publications/2024-annual-cms-plain-language-report-final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-annual-cms-plain-language-report-final.pdf
+
+- **URL**: https://www.medicare.gov/publications/2025-annual-cms-plain-language-report-final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2025-my-national-english-other-languages-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2025-my-national-english-other-languages-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2026-annual-cms-plain-language-report-final-508.pdf
+
+- **URL**: https://www.medicare.gov/publications/2026-annual-cms-plain-language-report-final-508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS10106.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS10106.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS10106S.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS10106S.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS1490S-Spanish.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS1490S-Spanish.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS20027.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/downloads/CMS20027.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS2728.pdf
+
+- **URL**: https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/CMS2728.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### CMS40B-E.pdf
+
+- **URL**: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS40B-E.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### DFC_checklist_11-26-19_508.pdf
+
+- **URL**: https://www.medicare.gov/care-compare/en/assets/resources/dialysis-facility/DFC_checklist_11-26-19_508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### G-HI_00815.025-1.pdf
+
+- **URL**: https://secure.ssa.gov/apps10/public/pomsimages.nsf/gfx_num/G-HI_00815.025-1/$File/G-HI_00815.025-1.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'

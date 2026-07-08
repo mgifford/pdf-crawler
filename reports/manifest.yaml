@@ -324470,9 +324470,10 @@
   filename: RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.121794+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   file_hash: 4964dfdde05142fc48f2c9ae2e6c185067c33be1267a4a2406f8cb178afdb054
   analyses:
     original:
@@ -324480,6 +324481,12 @@
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:45:51.847094+00:00'
   link_text: download a printable map of Minnesota's Local Workforce Development Areas
     and Board Information
 - url: https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
@@ -355607,7 +355614,7 @@
   filename: 02154-medicare-hospice-benefits.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:18.746993+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -355806,7 +355813,8 @@
     Pages: 20
     Words: 4455
     Images: 4
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -356015,6 +356023,12 @@
         Images: 4
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:21:35.667209+00:00'
   link_text: Open PDF
 - url: https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf
   md5: 8ab138be253647c96c0ee6638fbb7e8b
@@ -356657,9 +356671,10 @@
   filename: 10050-le-medicare-and-you.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:18.762090+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -356667,6 +356682,12 @@
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:21:52.541981+00:00'
   link_text: Open PDF of Medicare & You 2026 - Large Print English
 - url: https://www.medicare.gov/publications/10108_c.pdf
   md5: fb3306cb249b3c8f763ff12a25b216dd
@@ -360867,7 +360888,7 @@
   filename: 10969-medicare-and-home-health-care.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:18.858481+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -361054,7 +361075,7 @@
     Words: 5521
     Images: 5
   errors:
-  - 'annotations-tagging-fail, '
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -361247,6 +361268,12 @@
       errors:
       - 'annotations-tagging-fail, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:22:09.576268+00:00'
   link_text: Medicare and Home Health Care
 - url: https://www.medicare.gov/publications/10969-s-medicare-and-home-health-care.pdf
   md5: 972da5151d43f4211394193e5e07b117
@@ -370627,7 +370654,7 @@
   filename: 11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:18.980573+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -370750,7 +370777,7 @@
     Images: 0
     DocCategory: Form
   errors:
-  - 'annotations-tagging-fail, '
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -370881,6 +370908,12 @@
       errors:
       - 'annotations-tagging-fail, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:22:26.462212+00:00'
   link_text: Open PDF
 - url: https://www.medicare.gov/publications/11220-I-have-you-done-your-yearly-medicare-plan-review.pdf
   md5: 71da9d652432274f263e36f435995b80
@@ -374901,7 +374934,7 @@
   filename: 11376-your-discharge-planning-checklist.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.069909+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -375014,7 +375047,8 @@
     Pages: 6
     Words: 1379
     Images: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -375133,6 +375167,12 @@
         Images: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:22:43.723961+00:00'
   link_text: Hospital Discharge Planning Checklist
 - url: https://www.medicare.gov/publications/11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf
   md5: 803ad35233f0faadd6a545c1d78149af
@@ -379980,72 +380020,157 @@
   filename: 11534-s-medicare-rights-and-protections.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.306978+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.306978+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.306978+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:23:01.057016+00:00'
 - url: https://www.medicare.gov/publications/11542-s-questions-to-ask-about-preventive-services.pdf
   md5: 4acc93c952c112ec8e98d4d016a58919
   filename: 11542-s-questions-to-ask-about-preventive-services.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.308561+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.308561+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.308561+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:23:17.964497+00:00'
 - url: https://www.medicare.gov/publications/11546-Medicare-Coordination-of-Benefits-Getting-Started.pdf
   md5: 4bd6009a8e7718df95c7b5955edfd5ce
   filename: 11546-Medicare-Coordination-of-Benefits-Getting-Started.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.310108+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.310108+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.310108+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:23:34.820335+00:00'
 - url: https://www.medicare.gov/publications/11546-s-medicare-coordination-of-benefits-getting-started.pdf
   md5: 535f4bf30e0b94952a89759b3534fab0
   filename: 11546-s-medicare-coordination-of-benefits-getting-started.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.311631+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.311631+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.311631+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:23:51.955975+00:00'
 - url: https://www.medicare.gov/publications/11548-t.pdf
   md5: 70b6ae7289d8c43ca2c1714696ccb85c
   filename: 11548-t.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.313217+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.313217+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.313217+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:24:08.783687+00:00'
 - url: https://www.medicare.gov/publications/11548-v.pdf
   md5: 38ed7bf5c8b4db4938525e83ebebe355
   filename: 11548-v.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.314921+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.314921+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.314921+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:24:25.569856+00:00'
 - url: https://www.medicare.gov/publications/11575-ARB-medicare-supplement-insurance.pdf
   md5: d939f72a507c58d70f7a17d6d55ba763
   filename: 11575-ARB-medicare-supplement-insurance.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.318392+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.318392+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.318392+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:24:42.419798+00:00'
 - url: https://www.medicare.gov/publications/11579-medicare-costs.pdf
   md5: a97901a45fc408007a604b140ea0ec4b
   filename: 11579-medicare-costs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.319771+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -380053,348 +380178,799 @@
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:24:59.612673+00:00'
   link_text: Open PDF
 - url: https://www.medicare.gov/publications/11579-s-medicare-costs.pdf
   md5: b86e57a2e82cfcf3a62b814b9a5de155
   filename: 11579-s-medicare-costs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.321165+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.321165+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.321165+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:25:16.343836+00:00'
 - url: https://www.medicare.gov/publications/11580.pdf
   md5: 5c099f4c613dfda03446f24f8a9768e0
   filename: 11580.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.322634+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.322634+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.322634+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:25:33.563496+00:00'
 - url: https://www.medicare.gov/publications/11593-s.pdf
   md5: 59235b7afa8a5cc831a74b2440bc2241
   filename: 11593-s.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.324522+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.324522+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.324522+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:25:50.523230+00:00'
 - url: https://www.medicare.gov/publications/11593.pdf
   md5: 7b12700d583fc17e4acb6efadf878a34
   filename: 11593.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.326404+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.326404+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.326404+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:26:07.398606+00:00'
 - url: https://www.medicare.gov/publications/11610-4rs-for-fighting-medicare-fraud.pdf
   md5: 1096613a69db763cc8499c57116549c4
   filename: 11610-4rs-for-fighting-medicare-fraud.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.327776+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.327776+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.327776+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:26:24.375733+00:00'
 - url: https://www.medicare.gov/publications/11610-s-4rs-for-fighting-medicare-fraud.pdf
   md5: 2aa668926ee770a5ecd1418843e53631
   filename: 11610-s-4rs-for-fighting-medicare-fraud.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.329866+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.329866+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.329866+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:26:41.592980+00:00'
 - url: https://www.medicare.gov/publications/11694-medicare-and-marketplace.pdf
   md5: 491f23366c3765c27b12d4e71376ffc1
   filename: 11694-medicare-and-marketplace.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.332285+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.332285+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.332285+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:26:58.611776+00:00'
 - url: https://www.medicare.gov/publications/11694-s-medicare-marketplace-508.pdf
   md5: 87b8d271e5dd315c1cb6a896fefa0d4b
   filename: 11694-s-medicare-marketplace-508.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.334627+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.334627+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.334627+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:27:16.099845+00:00'
 - url: https://www.medicare.gov/publications/11865-qhc-notice.pdf
   md5: eeb9105684eba9acbdda296faa31df61
   filename: 11865-qhc-notice.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.337403+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.337403+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.337403+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:27:33.236404+00:00'
 - url: https://www.medicare.gov/publications/11865-s-qhc-notice.pdf
   md5: 1ca2f61b4ad7b34b6c53eeffc11b7cd2
   filename: 11865-s-qhc-notice.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.339388+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.339388+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.339388+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:27:50.452646+00:00'
 - url: https://www.medicare.gov/publications/11865-s.pdf
   md5: 1ca2f61b4ad7b34b6c53eeffc11b7cd2
   filename: 11865-s.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.341001+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.341001+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.341001+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:28:07.272696+00:00'
 - url: https://www.medicare.gov/publications/11865.pdf
   md5: 60375613e6ebcd854779e91369944ec8
   filename: 11865.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.342883+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.342883+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.342883+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:28:24.351697+00:00'
 - url: https://www.medicare.gov/publications/11931-medicare-coverage-of-cancer-treatment-services.pdf
   md5: 4ba793486d24440aab76b2d2c9d0302b
   filename: 11931-medicare-coverage-of-cancer-treatment-services.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.344684+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.344684+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.344684+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:28:41.487926+00:00'
 - url: https://www.medicare.gov/publications/11941-s-understanding-your-medicare-advantage-plans-provider-network.pdf
   md5: d086612b0f744a334769fbedab302abc
   filename: 11941-s-understanding-your-medicare-advantage-plans-provider-network.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.346046+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.346046+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.346046+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:28:58.551555+00:00'
 - url: https://www.medicare.gov/publications/11941-understanding-your-medicare-advantage-plans-provider-network.pdf
   md5: 81079091b701ebc47d2026f46714e2ed
   filename: 11941-understanding-your-medicare-advantage-plans-provider-network.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.347420+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.347420+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.347420+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:29:15.984466+00:00'
 - url: https://www.medicare.gov/publications/11989-welcome-to-medicare508.pdf
   md5: 17d7b2c84353a4bbe65cdd6e9033f387
   filename: 11989-welcome-to-medicare508.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.354244+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.354244+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.354244+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:29:33.103653+00:00'
 - url: https://www.medicare.gov/publications/12007-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
   md5: 1faa94f2608bc0b3663b27aeb7ffbd31
   filename: 12007-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.355697+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.355697+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.355697+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:29:50.420759+00:00'
 - url: https://www.medicare.gov/publications/12007-s-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
   md5: 3e64b209d1b9f16b0dca9b8d5bea7d3e
   filename: 12007-s-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.357123+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.357123+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.357123+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:30:07.647684+00:00'
 - url: https://www.medicare.gov/publications/Armenian-11306-Medicare-Medicaid.pdf
   md5: b3ca51bc6b08187780b622bbcca95715
   filename: Armenian-11306-Medicare-Medicaid.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.359624+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.359624+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.359624+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:30:24.919497+00:00'
 - url: https://www.medicare.gov/publications/Chinese-11306-Medicare-Medicaid.pdf
   md5: 5fba613a8c9df95e9e738428e98713ab
   filename: Chinese-11306-Medicare-Medicaid.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.362044+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.362044+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.362044+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:30:41.814102+00:00'
 - url: https://www.medicare.gov/publications/arabic-msn-part-a.pdf
   md5: 969c0640b0582db15c9faede49075f99
   filename: arabic-msn-part-a.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.363765+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.363765+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.363765+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:30:58.927325+00:00'
 - url: https://www.medicare.gov/publications/arabic-msn-part-b.pdf
   md5: 2609207664bb42081fcafcda1d2b79fa
   filename: arabic-msn-part-b.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.365496+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.365496+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.365496+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:31:15.581585+00:00'
 - url: https://www.medicare.gov/publications/armenian-msn-part-a.pdf
   md5: 19e113c5dde9a15dbb75d5f82d8d62fb
   filename: armenian-msn-part-a.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.367183+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.367183+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.367183+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:31:32.202055+00:00'
 - url: https://www.medicare.gov/publications/armenian-msn-part-b.pdf
   md5: 95c9a7038e1a7b28f7e6293bc827e558
   filename: armenian-msn-part-b.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.368933+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.368933+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.368933+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:31:48.952158+00:00'
 - url: https://www.medicare.gov/publications/mec-intro-notice-11865-final.pdf
   md5: eeb9105684eba9acbdda296faa31df61
   filename: mec-intro-notice-11865-final.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.370917+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.370917+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.370917+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:32:05.451839+00:00'
 - url: https://www.medicare.gov/publications/meetngagntsoneonone_fctsht_english_link.pdf
   md5: 60224d4585484640299acb72c0d5e378
   filename: meetngagntsoneonone_fctsht_english_link.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.372241+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.372241+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.372241+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:32:22.567263+00:00'
 - url: https://www.medicare.gov/publications/oopc_specs-s.pdf
   md5: 914d5a4b77f5445a626d1c84e6fd31b1
   filename: oopc_specs-s.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.374856+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.374856+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.374856+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:32:39.493297+00:00'
 - url: https://www.medicare.gov/publications/oopc_specs.pdf
   md5: 9a217effb09ef085582b5ef15301fd22
   filename: oopc_specs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.377245+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.377245+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.377245+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:32:56.718788+00:00'
 - url: https://www.medicare.gov/publications/sec923ombudsman.pdf
   md5: a1cd280a488545994f05cfb8db00bfa9
   filename: sec923ombudsman.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.378425+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.378425+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.378425+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:33:13.790415+00:00'
 - url: https://www.medicare.gov/publications/spa-mec-intro-notice11865.pdf
   md5: 1ca2f61b4ad7b34b6c53eeffc11b7cd2
   filename: spa-mec-intro-notice11865.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.380086+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.380086+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.380086+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:33:30.716262+00:00'
 - url: https://www.medicare.gov/publications/spas.pdf
   md5: d7c09b9cabe8e27383600fe8ca74d86a
   filename: spas.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.381689+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.381689+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.381689+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:33:48.035606+00:00'
 - url: https://www.medicare.gov/publications/summary_vendors_medicare_phr_choice_pilot_table.pdf
   md5: fa7ac41f30aa1d83469274bc461e8cde
   filename: summary_vendors_medicare_phr_choice_pilot_table.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.383117+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.383117+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.383117+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:34:04.887150+00:00'
 - url: https://www.medicare.gov/publications/summary_vendors_medicare_phr_choice_pilot_table_2_16_10.pdf
   md5: 93a36e8e6f43c3a502ceddf8968d6d12
   filename: summary_vendors_medicare_phr_choice_pilot_table_2_16_10.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.384557+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.384557+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.384557+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:34:22.219934+00:00'
 - url: https://www.medicare.gov/publications/summary_vendors_medicare_phr_choiceupdated.pdf
   md5: d5fcabab1d71e6c5f1a92e6c4537e0d6
   filename: summary_vendors_medicare_phr_choiceupdated.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.386158+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.386158+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.386158+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:34:38.963318+00:00'
 - url: https://www.medicare.gov/publications/summarynoticea.pdf
   md5: 7cab0792834ad8d11ed35edb59d5e1ab
   filename: summarynoticea.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.387894+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.387894+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.387894+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:34:56.269581+00:00'
 - url: https://www.medicare.gov/publications/summarynoticeb.pdf
   md5: 6fcc0a8e199ee982a104daa1def78919
   filename: summarynoticeb.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.389632+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.389632+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.389632+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:35:12.984864+00:00'
 - url: https://www.medicare.gov/publications/summarynoticedme.pdf
   md5: 56f3d3464d8861c2b47d9817a098d924
   filename: summarynoticedme.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.391361+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.391361+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.391361+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:35:29.688353+00:00'
 - url: https://www.medicare.gov/publications/summarynoticeenvelope.pdf
   md5: cf456a7247dd3f97ea08d503ae7c61f9
   filename: summarynoticeenvelope.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.392732+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -380402,6 +380978,12 @@
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:35:46.319313+00:00'
   link_text: look for these things on the MSN envelope.
 - url: https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf
   md5: 1b330e4d6646d32647b77666ad6a1ee2
@@ -425956,15 +426538,22 @@
   filename: 10001.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.701368+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:36:03.251389+00:00'
   notes: Just testing this.
 - url: https://www.medicare.gov/media/10011
   md5: d9ea5b01aac77e761685293c1b5a349b
@@ -425972,15 +426561,22 @@
   filename: 10011.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.708759+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:36:20.035534+00:00'
   notes: Just testing this.
 - url: https://www.medicare.gov/media/10021
   md5: 2ef5a9409f04adc0904664454efbe30b
@@ -425988,15 +426584,22 @@
   filename: 10021.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.715881+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:36:36.793398+00:00'
   notes: Just testing this.
 - url: https://www.medicare.gov/es/media/10036
   md5: 9fbfccd6148124de387e27aeac60a17d
@@ -426004,15 +426607,22 @@
   filename: 10036.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.719581+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:36:53.727360+00:00'
   notes: Just testing this.
 - url: https://www.medicare.gov/publications/10050-medicare-and-you.pdf
   md5: 647a4d4d08c2d991ab1b51ecd654787d
@@ -426020,15 +426630,22 @@
   filename: 10050-medicare-and-you.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.732906+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:37:10.629716+00:00'
   notes: Just testing this.
   link_text: Open PDF of Medicare & You 2026
 - url: https://www.medicare.gov/media/10056
@@ -426037,15 +426654,22 @@
   filename: 10056.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.740843+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:37:27.897971+00:00'
   notes: Just testing this.
 - url: https://www.medicare.gov/publications/10181guidetochoosing-ahospital.pdf
   md5: 4248a9aa86883653ffd23f4db8e9ec9d
@@ -426053,15 +426677,22 @@
   filename: 10181guidetochoosing-ahospital.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.743935+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:37:44.827179+00:00'
   notes: Just testing this.
   link_text: Guide to Choosing a Hospital
 - url: https://www.medicare.gov/media/11095-Get-Ready-for-Medicare-package-in-United-States.pdf
@@ -426070,15 +426701,22 @@
   filename: 11095-Get-Ready-for-Medicare-package-in-United-States.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.759720+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:38:01.736410+00:00'
   notes: Just testing this.
   link_text: English
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11154-S.pdf
@@ -426087,15 +426725,22 @@
   filename: 11154-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.762632+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:38:18.685510+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 597 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11154.pdf
@@ -426104,15 +426749,22 @@
   filename: 11154.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.765396+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:38:35.547768+00:00'
   notes: Just testing this.
   link_text: Auto-Enrollment Notice [PDF, 680 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11166-S.pdf
@@ -426121,15 +426773,22 @@
   filename: 11166-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.768059+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:38:52.894129+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 73.5 KB].
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11166.pdf
@@ -426138,15 +426797,22 @@
   filename: 11166.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.770521+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:39:09.947778+00:00'
   notes: Just testing this.
   link_text: Deemed Status Notice [PDF, 127 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11186-S.pdf
@@ -426155,15 +426821,22 @@
   filename: 11186-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.772995+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:39:26.465638+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 641 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11186.pdf
@@ -426172,15 +426845,22 @@
   filename: 11186.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.775588+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:39:43.331564+00:00'
   notes: Just testing this.
   link_text: '"Facilitated Enrollment Notice: Full Subsidy [PDF, 674 KB]"'
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11198-S.pdf
@@ -426189,15 +426869,22 @@
   filename: 11198-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.777820+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:39:59.842280+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 74.7 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11198.pdf
@@ -426206,15 +426893,22 @@
   filename: 11198.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.779804+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:40:16.637663+00:00'
   notes: Just testing this.
   link_text: Loss of Deemed Status Notice [PDF, 57.7 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11199-S.pdf
@@ -426223,15 +426917,22 @@
   filename: 11199-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.783122+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:40:33.477064+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 70.2 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11199.pdf
@@ -426240,15 +426941,22 @@
   filename: 11199.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.786652+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:40:50.752699+00:00'
   notes: Just testing this.
   link_text: Change in Extra Help Copayment Notice [PDF, 50.2 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11208-S.pdf
@@ -426257,15 +426965,22 @@
   filename: 11208-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.789042+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:41:07.678691+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 637 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11208.pdf
@@ -426274,15 +426989,22 @@
   filename: 11208.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.791429+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:41:24.962056+00:00'
   notes: Just testing this.
   link_text: Reassignment Notice - Plan Termination [PDF, 578 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11209-S.pdf
@@ -426291,15 +427013,22 @@
   filename: 11209-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.793804+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:41:41.723798+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 614 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11209.pdf
@@ -426308,15 +427037,22 @@
   filename: 11209.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.796107+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:41:58.871591+00:00'
   notes: Just testing this.
   link_text: Reassignment Notice - Premium Increase [PDF, 573 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11267-S.pdf
@@ -426325,15 +427061,22 @@
   filename: 11267-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.799882+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:42:15.588329+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 650 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11267.pdf
@@ -426342,15 +427085,22 @@
   filename: 11267.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.802179+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:42:32.859640+00:00'
   notes: Just testing this.
   link_text: LIS Choosers Notice [PDF, 558 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11334-S.pdf
@@ -426359,15 +427109,22 @@
   filename: 11334-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.804773+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:42:49.502944+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 610 KB].
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11334.pdf
@@ -426376,15 +427133,22 @@
   filename: 11334.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.807504+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:43:06.383044+00:00'
   notes: Just testing this.
   link_text: '"Retiree Drug Subsidy Notice Dual Eligibles [PDF, 615 KB]"'
 - url: https://www.medicare.gov/publications/11389-Medicare-Getting-Started.pdf
@@ -426393,15 +427157,22 @@
   filename: 11389-Medicare-Getting-Started.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.811762+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:43:23.559833+00:00'
   notes: Just testing this.
   link_text: Open PDF
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11429-S.pdf
@@ -426410,15 +427181,22 @@
   filename: 11429-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.814287+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:43:40.643099+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 577 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11429.pdf
@@ -426427,15 +427205,22 @@
   filename: 11429.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.817556+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:43:57.475527+00:00'
   notes: Just testing this.
   link_text: Auto-Enrollment Retroactive Notice [PDF, 671 KB]
 - url: https://www.cms.gov/Outreach-and-Education/Outreach/Partnerships/downloads/11433.pdf
@@ -426444,15 +427229,22 @@
   filename: 11433.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.820894+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:44:14.355839+00:00'
   notes: Just testing this.
   link_text: CMS Part C Non-renewal Notice [PDF, 50.6 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11443-S.pdf
@@ -426461,15 +427253,22 @@
   filename: 11443-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.823336+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:44:31.479738+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 669 KB]
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11443.pdf
@@ -426478,15 +427277,22 @@
   filename: 11443.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.825578+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:44:48.516300+00:00'
   notes: Just testing this.
   link_text: MA Reassignment Notice [PDF, 573 KB]
 - url: https://www.medicare.gov/publications/11452notice.pdf
@@ -426495,15 +427301,22 @@
   filename: 11452notice.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.827721+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:45:06.160880+00:00'
   notes: Just testing this.
   link_text: '"CMS Non-Renewal Action Notice [PDF, 78 KB]"'
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11475-S.pdf
@@ -426512,15 +427325,22 @@
   filename: 11475-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.830073+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:45:22.866445+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 647 KB].
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11475.pdf
@@ -426529,15 +427349,22 @@
   filename: 11475.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.832490+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:45:40.001784+00:00'
   notes: Just testing this.
   link_text: '"Formulary Reassignment Notice: Plan Premium Increase [PDF, 592 KB]"'
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11496-S.pdf
@@ -426546,15 +427373,22 @@
   filename: 11496-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.834924+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:45:57.301908+00:00'
   notes: Just testing this.
   link_text: Spanish [PDF, 634 KB].
 - url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11496.pdf
@@ -426563,15 +427397,22 @@
   filename: 11496.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.837345+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:46:14.249630+00:00'
   notes: Just testing this.
   link_text: '"Formulary Reassignment Notice: Plan Termination [PDF, 593 KB]"'
 - url: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-508c.pdf
@@ -426580,15 +427421,22 @@
   filename: 11659-understanding-cms-500-trifold-508c.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.840433+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:46:31.064721+00:00'
   notes: Just testing this.
   link_text: English
 - url: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-may-2023.pdf
@@ -426597,15 +427445,22 @@
   filename: 11659-understanding-cms-500-trifold-may-2023.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.846031+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:46:47.800809+00:00'
   notes: Just testing this.
   link_text: Get a sample of the delinquent bill in English.
 - url: https://www.medicare.gov/publications/11659s-understanding-cms-500-trifold-508c.pdf
@@ -426614,15 +427469,22 @@
   filename: 11659s-understanding-cms-500-trifold-508c.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.847853+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:04.645735+00:00'
   notes: Just testing this.
   link_text: Spanish
 - url: https://www.medicare.gov/es/media/11816
@@ -426631,15 +427493,22 @@
   filename: 11816.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.853503+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:21.015280+00:00'
   notes: Just testing this.
   link_text: (In Spanish.)
 - url: https://www.medicare.gov/media/11871-Welcome-to-Medicare-package-foreign.pdf
@@ -426648,15 +427517,22 @@
   filename: 11871-Welcome-to-Medicare-package-foreign.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.859238+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:38.062119+00:00'
   notes: Just testing this.
   link_text: English
 - url: https://www.medicare.gov/media/11873-Sign-up-Part-B-package-US.pdf
@@ -426665,15 +427541,22 @@
   filename: 11873-Sign-up-Part-B-package-US.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.867999+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:54.876806+00:00'
   notes: Just testing this.
   link_text: English
 - url: https://www.medicare.gov/es/publications/11873-s-sign-up-for-part-b.pdf
@@ -426682,15 +427565,22 @@
   filename: 11873-s-sign-up-for-part-b.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.876329+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:48:12.132339+00:00'
   notes: Just testing this.
   link_text: Spanish
 - url: https://www.medicare.gov/media/11874-Sign-up-Part-B-package-Puerto-Rico.pdf
@@ -426699,15 +427589,22 @@
   filename: 11874-Sign-up-Part-B-package-Puerto-Rico.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.883981+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:48:29.008767+00:00'
   notes: Just testing this.
   link_text: English
 - url: https://www.medicare.gov/publications/11915-2024508.pdf
@@ -426716,15 +427613,22 @@
   filename: 11915-2024508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.886591+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:48:45.840694+00:00'
   notes: Just testing this.
   link_text: Qualifying Health Coverage Corrected Notice
 - url: https://www.medicare.gov/es/publications/11915-s-2024508.pdf
@@ -426733,15 +427637,22 @@
   filename: 11915-s-2024508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.888991+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:02.470713+00:00'
   notes: Just testing this.
   link_text: Spanish
 - url: https://www.medicare.gov/publications/11952-2024508.pdf
@@ -426750,15 +427661,22 @@
   filename: 11952-2024508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.891333+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:19.682430+00:00'
   notes: Just testing this.
   link_text: Qualifying Health Coverage Replacement Notice
 - url: https://www.medicare.gov/es/publications/11952-s-2024508.pdf
@@ -426767,15 +427685,22 @@
   filename: 11952-s-2024508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.893721+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:36.890892+00:00'
   notes: Just testing this.
   link_text: Spanish
 - url: https://www.medicare.gov/media/11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
@@ -426784,15 +427709,22 @@
   filename: 11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.897485+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:54.401033+00:00'
   notes: Just testing this.
   link_text: English
 - url: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf?linkit_matcher=1
@@ -426801,15 +427733,22 @@
   filename: 12020-Welcome-to-Medicare-0.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.902824+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:11.273266+00:00'
   notes: Just testing this.
   link_text: welcome package
 - url: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf
@@ -426818,15 +427757,22 @@
   filename: 12020-Welcome-to-Medicare.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.908259+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:28.554011+00:00'
   notes: Just testing this.
   link_text: '"Welcome to Medicare" package'
 - url: https://www.medicare.gov/media/12095-Eng-Span-letter-508.pdf
@@ -426835,15 +427781,22 @@
   filename: 12095-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.910231+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:45.796646+00:00'
   notes: Just testing this.
   link_text: You created your new Medicare account
 - url: https://www.medicare.gov/media/12096-Eng-Span-letter-508.pdf
@@ -426852,15 +427805,22 @@
   filename: 12096-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.911988+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:02.273683+00:00'
   notes: Just testing this.
   link_text: You asked us to create your new Medicare account
 - url: https://www.medicare.gov/media/12097-Eng-Span-letter-508.pdf
@@ -426869,15 +427829,22 @@
   filename: 12097-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.913709+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:18.977456+00:00'
   notes: Just testing this.
   link_text: You asked us to reset your password (and you have an email address listed
     in your account)
@@ -426887,15 +427854,22 @@
   filename: 12098-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.916683+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:35.923033+00:00'
   notes: Just testing this.
   link_text: You asked us to reset your password (and you don't have an email address
     listed in your account)
@@ -426905,15 +427879,22 @@
   filename: 12099-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.918475+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:52.217592+00:00'
   notes: Just testing this.
   link_text: You asked us to close your account
 - url: https://www.medicare.gov/media/12100-Eng-Span-letter-508.pdf
@@ -426922,15 +427903,22 @@
   filename: 12100-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.920312+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:08.825867+00:00'
   notes: Just testing this.
   link_text: You asked us to reopen your account (and you have an email address listed
     in your account)
@@ -426940,15 +427928,22 @@
   filename: 12101-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.923605+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:25.542321+00:00'
   notes: Just testing this.
   link_text: You asked us to reopen your account (and you don't have an email address
     listed in your account)
@@ -426958,15 +427953,22 @@
   filename: 12112-understanding-mep-trifold-508c.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.929064+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:42.333848+00:00'
   notes: Just testing this.
   link_text: English
 - url: https://www.medicare.gov/publications/12112s-understanding-mep-trifold-508c.pdf
@@ -426975,15 +427977,22 @@
   filename: 12112s-understanding-mep-trifold-508c.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.934885+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:58.988424+00:00'
   notes: Just testing this.
   link_text: Spanish
 - url: https://www.medicare.gov/media/12116-Welcome-to-Medicare.pdf
@@ -426992,15 +428001,22 @@
   filename: 12116-Welcome-to-Medicare.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.936660+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:15.369210+00:00'
   notes: Just testing this.
   link_text: English
 - url: https://www.medicare.gov/publications/12116-s-bienvenido-a-medicare.pdf?linkit_matcher=1
@@ -427009,15 +428025,22 @@
   filename: 12116-s-bienvenido-a-medicare.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.938257+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:31.714338+00:00'
   notes: Just testing this.
   link_text: Spanish
 - url: https://www.medicare.gov/publications/12130nursing-home-checklist508.pdf
@@ -427026,15 +428049,22 @@
   filename: 12130nursing-home-checklist508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.939831+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:48.682853+00:00'
   notes: Just testing this.
   link_text: Nursing Home Checklist
 - url: https://www.medicare.gov/publications/12172-3-things-to-know-about-medicare-insulin-costs.pdf
@@ -427043,15 +428073,22 @@
   filename: 12172-3-things-to-know-about-medicare-insulin-costs.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.941412+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:05.020810+00:00'
   notes: Just testing this.
   link_text: Learn more about insulin costs under Part D and Part B.
 - url: https://www.medicare.gov/publications/12177-2023-02-508.pdf?linkit_matcher=1
@@ -427060,15 +428097,22 @@
   filename: 12177-2023-02-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.943702+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:21.720421+00:00'
   notes: Just testing this.
   link_text: Download more information about your Medicare options if you lose Medicaid.
 - url: https://www.medicare.gov/publications/12181-3-6-24.pdf?linkit_matcher=1
@@ -427077,15 +428121,22 @@
   filename: 12181-3-6-24.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.945350+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:38.996044+00:00'
   notes: Just testing this.
   link_text: Download and print a copy of this table
 - url: https://www.medicare.gov/publications/12181-s-3-5-24-508.pdf?linkit_matcher=1
@@ -427094,15 +428145,22 @@
   filename: 12181-s-3-5-24-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.946961+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:55.626555+00:00'
   notes: Just testing this.
   link_text: Descargue e imprima una copia de esta tabla
 - url: https://www.medicare.gov/publications/2012-annual-cms-plain-language-report-508.pdf?linkit_matcher=1
@@ -427111,15 +428169,22 @@
   filename: 2012-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.948723+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:12.267560+00:00'
   notes: Just testing this.
   link_text: 2012 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2013-annual-cms-plain-language-report-508.pdf
@@ -427128,15 +428193,22 @@
   filename: 2013-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.950448+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:28.743275+00:00'
   notes: Just testing this.
   link_text: 2013 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2014-annual-cms-plain-language-report-508.pdf
@@ -427145,15 +428217,22 @@
   filename: 2014-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.952246+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:45.523355+00:00'
   notes: Just testing this.
   link_text: 2014 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2015-annual-cms-plain-language-report-508.pdf
@@ -427162,15 +428241,22 @@
   filename: 2015-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.954108+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:56:02.248266+00:00'
   notes: Just testing this.
   link_text: 2015 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2016-annual-cms-plain-language-report-508.pdf
@@ -427179,15 +428265,22 @@
   filename: 2016-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.955970+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:56:18.595602+00:00'
   notes: Just testing this.
   link_text: 2016 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2017-annual-cms-plain-language-report-508.pdf
@@ -427196,15 +428289,22 @@
   filename: 2017-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.957861+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:56:34.702490+00:00'
   notes: Just testing this.
   link_text: 2017 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2018-annual-cms-plain-language-report-508.pdf
@@ -427213,15 +428313,22 @@
   filename: 2018-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.959815+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:56:51.188787+00:00'
   notes: Just testing this.
   link_text: 2018 Annual Plain Writing Report
 - url: https://www.medicare.gov/media/2019-annual-CMS-plain-language-report.pdf
@@ -427230,15 +428337,22 @@
   filename: 2019-annual-CMS-plain-language-report.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.961614+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:57:07.778523+00:00'
   notes: Just testing this.
   link_text: 2019 Annual Plain Writing Report
 - url: https://www.medicare.gov/media/2020-Annual-Plain-Writing-Report.pdf
@@ -427247,15 +428361,22 @@
   filename: 2020-Annual-Plain-Writing-Report.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.963468+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:57:24.593223+00:00'
   notes: Just testing this.
   link_text: 2020 Annual Plain Writing Report
 - url: https://www.medicare.gov/media/2021-annual-CMS-plain-language-report.pdf
@@ -427264,15 +428385,22 @@
   filename: 2021-annual-CMS-plain-language-report.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.965306+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:57:40.669172+00:00'
   notes: Just testing this.
   link_text: 2021 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2022-annual-cms-plain-language-report-508.pdf
@@ -427281,15 +428409,22 @@
   filename: 2022-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.967226+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:57:57.099495+00:00'
   notes: Just testing this.
   link_text: 2022 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2023-annual-cms-plain-language-report.pdf
@@ -427298,15 +428433,22 @@
   filename: 2023-annual-cms-plain-language-report.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.969296+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:58:13.392640+00:00'
   notes: Just testing this.
   link_text: 2023 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2024-annual-cms-plain-language-report-final.pdf
@@ -427315,15 +428457,22 @@
   filename: 2024-annual-cms-plain-language-report-final.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.971131+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:58:29.937479+00:00'
   notes: Just testing this.
   link_text: 2024 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2025-annual-cms-plain-language-report-final.pdf
@@ -427332,15 +428481,22 @@
   filename: 2025-annual-cms-plain-language-report-final.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.972955+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:58:46.366280+00:00'
   notes: Just testing this.
   link_text: 2025 Annual Plain Writing Report
 - url: https://www.medicare.gov/publications/2025-my-national-english-other-languages-508.pdf
@@ -427349,15 +428505,22 @@
   filename: 2025-my-national-english-other-languages-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.975588+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:59:02.666130+00:00'
   notes: Just testing this.
   link_text: You have the right to get materials from Medicare in languages other
     than English.
@@ -427367,15 +428530,22 @@
   filename: 2026-annual-cms-plain-language-report-final-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.977468+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:59:19.158193+00:00'
   notes: Just testing this.
   link_text: 2026 Annual Plain Writing Report
 - url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS10106.pdf
@@ -427384,15 +428554,22 @@
   filename: CMS10106.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.979263+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:59:36.188365+00:00'
   notes: Just testing this.
   link_text: Authorization to Disclose Personal Health Information
 - url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS10106S.pdf
@@ -427401,15 +428578,22 @@
   filename: CMS10106S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.980870+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:59:53.030272+00:00'
   notes: Just testing this.
   link_text: Spanish
 - url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS1490S-Spanish.pdf
@@ -427418,15 +428602,22 @@
   filename: CMS1490S-Spanish.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.984311+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:00:10.323050+00:00'
   notes: Just testing this.
   link_text: This form is also available in Spanish.
 - url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/downloads/CMS20027.pdf
@@ -427435,15 +428626,22 @@
   filename: CMS20027.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.985824+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:00:27.151397+00:00'
   notes: Just testing this.
   link_text: '"Redetermination Request Form [PDF, 100 KB]"'
 - url: https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/CMS2728.pdf
@@ -427452,15 +428650,22 @@
   filename: CMS2728.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.987423+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:00:44.216738+00:00'
   notes: Just testing this.
   link_text: CMS Form 2728 ("End-Stage Renal Disease Medical Evidence Report Medicare
     Entitlement and/or Patient Registration" [PDF, 1.10 MB])
@@ -427470,15 +428675,22 @@
   filename: CMS40B-E.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.988990+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:01:01.313076+00:00'
   notes: Just testing this.
   link_text: I have Part A and want to sign up for Part B
 - url: https://www.medicare.gov/care-compare/en/assets/resources/dialysis-facility/DFC_checklist_11-26-19_508.pdf
@@ -427487,15 +428699,22 @@
   filename: DFC_checklist_11-26-19_508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.990483+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:01:18.059907+00:00'
   notes: Just testing this.
   link_text: https://www.medicare.gov/care-compare/en/assets/resources/dialysis-facility/DFC…
 - url: https://secure.ssa.gov/apps10/public/pomsimages.nsf/gfx_num/G-HI_00815.025-1/$File/G-HI_00815.025-1.pdf
@@ -427504,15 +428723,22 @@
   filename: G-HI_00815.025-1.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.992536+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:01:35.193403+00:00'
   notes: Just testing this.
   link_text: '"Taking Care of Medical Costs," SSA Pub. Form L441'
 - url: https://www.medicare.gov/media/ReplacementMedicareCardLetter.pdf
@@ -427878,15 +429104,22 @@
   filename: ARS%20Worker%20handout_2023-acc.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.062129+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:46:08.929442+00:00'
   link_text: Download our Information for Agricultural Workers in Minnesota factsheet
 - url: https://mn.gov/mdhr/assets/BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
   md5: e406bf70f0bfcee923d5cb30be81f275
@@ -427894,15 +429127,22 @@
   filename: BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.069678+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:46:27.046039+00:00'
   link_text: Soo dagso buuga sharaxaaya sharciga mamnuucida bokiska ee batrooniyada
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2025-04/CareerForce%20student%20focused%20flyer%202025_ACC.pdf
   md5: f39466a39508d11b1120b8e83f4f755b
@@ -427910,15 +429150,22 @@
   filename: CareerForce%20student%20focused%20flyer%202025_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.073890+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:46:44.224051+00:00'
   link_text: CareerForce student career exploration flyer
 - url: https://careerforce.mn.gov/sites/default/files/2026-03/CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
   md5: 0b92d28b89b59d4f069a4c3e74ea25bb
@@ -427926,15 +429173,22 @@
   filename: CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.076776+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:02.171739+00:00'
   link_text: CareerForce Veterans Helping Veterans brochure
 - url: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20handout-2025_ACC.pdf
   md5: 8f62a0390b8c3bf2082f18a4448eddf8
@@ -427942,15 +429196,22 @@
   filename: CareerForce_High%20School%20handout-2025_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.079284+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:19.743963+00:00'
   link_text: CareerForce 8.5x11 flyer employment with high school diploma or equivalent
 - url: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20poster-2025_ACC.pdf
   md5: 681f516568aec2afb2d22947e78c5475
@@ -427958,15 +429219,22 @@
   filename: CareerForce_High%20School%20poster-2025_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.081875+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:37.799172+00:00'
   link_text: CareerForce 11x17 poster employment with high school diploma or equivalent
 - url: https://mn.gov/deed/assets/Central-Minnesota-2024_tcm1045-288717.pdf
   md5: d9bbb019566417a42b860350fbabe4c1
@@ -427974,15 +429242,22 @@
   filename: Central-Minnesota-2024_tcm1045-288717.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.084862+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:55.481522+00:00'
   link_text: Central Minnesota is a Manufacturing powerhouse
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2023-07/DIMI%20structure%20handout_ACC.pdf
   md5: c587c926f07d02d85bc5662785383487
@@ -427990,15 +429265,22 @@
   filename: DIMI%20structure%20handout_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.087161+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:48:13.516450+00:00'
   link_text: Download a DiMi overview
 - url: https://www.scottcountymn.gov/DocumentCenter/View/13569/Employment--Training-Contact-Record?bidId=
   md5: 018d028bd9d698d12725eeb33a8de6da
@@ -428006,30 +429288,44 @@
   filename: Employment--Training-Contact-Record.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.089696+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:48:31.597333+00:00'
 - url: https://careerforce.mn.gov/sites/default/files/2026-07/Federal%20Bonding%20Program%20handout_ACC.pdf
   md5: 5f292a96ebc83f9018d4eb8f7ee57f39
   file_hash: 77b4b59aec35aba550e01b9698b88dc190dd8045fd5c4eb057a4ac683a5c74b5
   filename: Federal%20Bonding%20Program%20handout_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.092136+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:48:49.512028+00:00'
   link_text: informational handout about the Federal Bonding Program
 - url: https://careerforce.mn.gov/sites/default/files/2025-04/How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
   md5: abe3d22465523a27ecc2349e3bbd51c0
@@ -428037,15 +429333,22 @@
   filename: How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.094401+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:07.456065+00:00'
   link_text: How DEED Helps Employers
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2024-02/MN%20Job%20Quality%20Principles%20handout_ACC.pdf
   md5: 0aa89201cdc8ee45d6e21204896edbd7
@@ -428053,30 +429356,44 @@
   filename: MN%20Job%20Quality%20Principles%20handout_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.096627+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:24.896375+00:00'
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
   md5: e6c8a085f487f2be71a20eca7c6e3c41
   file_hash: 860c56cfb135f405da4f18c016cb5d152401ef0229f6d1b62651aba769a178b5
   filename: MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.100136+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:43.230262+00:00'
   link_text: el folleto de MinnesotaWorks.net para buscadores de carrera
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorksEmployersBrochure2019_ACC.pdf
   md5: 99f15fc99b6906d4c76da09b7cf47c6b
@@ -428084,15 +429401,22 @@
   filename: MNWorksEmployersBrochure2019_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.103679+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:00.779073+00:00'
   link_text: MinnesotaWorks.net para empleadores
 - url: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
   md5: 242a7dab30c18a52c234455f1a973bed
@@ -428100,15 +429424,22 @@
   filename: MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.106966+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:19.006547+00:00'
   link_text: postcard about Highway Construction Cement Mason Training
 - url: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
   md5: 91174f6c95e9446b19e7559e25a7e75a
@@ -428116,15 +429447,22 @@
   filename: MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.110409+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:36.765121+00:00'
   link_text: flyer about Highway Construction Cement Mason Training
 - url: https://mn.gov/deed/assets/Northeast-Minnesota-2024_tcm1045-288725.pdf
   md5: 7b6412188f1aa298c9472b5c7da65d1d
@@ -428132,15 +429470,22 @@
   filename: Northeast-Minnesota-2024_tcm1045-288725.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.113382+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:54.718603+00:00'
   link_text: Northeast Minnesota
 - url: https://mn.gov/deed/assets/Northwest-Minnesota-2024_tcm1045-288726.pdf
   md5: aefa6f8403c953407f9daf051a3c9b11
@@ -428148,15 +429493,22 @@
   filename: Northwest-Minnesota-2024_tcm1045-288726.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.116185+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:12.613958+00:00'
   link_text: Northwest Minnesota manufacturing
 - url: https://careerforce.mn.gov/sites/default/files/2026-02/Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
   md5: dbdbf5a34500a840b366913abd8497d9
@@ -428164,15 +429516,22 @@
   filename: Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.118414+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:30.143106+00:00'
   link_text: MnDOT-DEED Highway Heavy Construction Training (HHCT) Preapplication
     Form
 - url: https://mn.gov/deed/assets/Southeast-Minnesota-2024_tcm1045-288727.pdf
@@ -428181,15 +429540,22 @@
   filename: Southeast-Minnesota-2024_tcm1045-288727.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.124802+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:48.079118+00:00'
   link_text: Southeast Minnesota manufacturers
 - url: https://mn.gov/deed/assets/Southwest-Minnesota-2024_tcm1045-288728.pdf
   md5: 8c78021e356e7de71c537ca5bf353b19
@@ -428197,15 +429563,22 @@
   filename: Southwest-Minnesota-2024_tcm1045-288728.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.127763+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:07.228285+00:00'
   link_text: Southwest Minnesota
 - url: https://mn.gov/mdhr/assets/Technical%20Guidance%20364.021_tcm1061-213501.pdf
   md5: 005352111db1340d3fdebd7bbfc7722d
@@ -428213,15 +429586,22 @@
   filename: Technical%20Guidance%20364.021_tcm1061-213501.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.130243+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:24.656703+00:00'
   link_text: View the Ban the Box technical guidance sheet
 - url: https://careerforce.mn.gov/sites/default/files/2025-08/Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
   md5: 6420219b06d992f655fa757369da0320
@@ -428229,15 +429609,22 @@
   filename: Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.133766+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:42.735476+00:00'
   link_text: Flyer that outlines the many reasons teens should considering working
     in home-, community- and facility-based care
 - url: https://www.co.dakota.mn.us/libraries/Programs/Teens/Documents/TeenJobFairEmployerList.pdf
@@ -428246,15 +429633,22 @@
   filename: TeenJobFairEmployerList.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.135684+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:00.664655+00:00'
   link_text: Teen Job Fair Employer and Resource List
 - url: https://mn.gov/deed/assets/TwinCities-2024_tcm1045-288722.pdf
   md5: 5ea6683efaedaa3503092f81f51c3b09
@@ -428262,15 +429656,22 @@
   filename: TwinCities-2024_tcm1045-288722.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.138682+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:17.969382+00:00'
   link_text: Twin Cities
 - url: https://careerforce.mn.gov/sites/default/files/2026-05/VetCareerFair%202026%20Directory-acc.pdf
   md5: bf2abf8aafcf315e7e7006607e29bf28
@@ -428278,15 +429679,22 @@
   filename: VetCareerFair%202026%20Directory-acc.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.144208+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:35.993256+00:00'
   link_text: Download the 20th Annual Veterans Career Fair Employer Directory
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2020-09/dei-employer-guide-acc.pdf
   md5: 84981da7e9f083d104aa3e09ca8fd258
@@ -428294,15 +429702,22 @@
   filename: dei-employer-guide-acc.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.147498+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:53.628557+00:00'
   link_text: Diversity, Equity and Inclusion Guide for Employers
 - url: https://careerforce.mn.gov/sites/default/files/2025-06/dimi-membership-agreement-acc.pdf
   md5: 96c15004052c4a56fb9c242b5ce37eb3
@@ -428310,15 +429725,22 @@
   filename: dimi-membership-agreement-acc.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.149711+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:10.868151+00:00'
   link_text: View our Membership Agreement
 - url: https://mn.gov/deed/assets/econ-dev-resource-guide_tcm1045-153149.pdf
   md5: f1c7ea372b355aa6dd4c288c90d701eb
@@ -428326,15 +429748,22 @@
   filename: econ-dev-resource-guide_tcm1045-153149.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.153944+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:28.589641+00:00'
   link_text: Minnesota Economic Development Resource Guide
 - url: https://mn.gov/deed/assets/employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
   md5: 6a35c7995d5ac44409f6a5c73213d0c0
@@ -428342,15 +429771,22 @@
   filename: employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.156125+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:46.364178+00:00'
   link_text: click here
 - url: https://apps.deed.state.mn.us/assets/employment-resource-guide.pdf
   md5: 2d373efeabd5b38dc84fd1c13cf1b14e
@@ -428358,15 +429794,22 @@
   filename: employment-resource-guide.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.158430+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:04.656728+00:00'
   link_text: 'Employment Resource Guide to State and Federal Agencies: Answers to
     your Employment-Related Questions'
 - url: https://www.irs.gov/pub/irs-pdf/f8826.pdf
@@ -428375,15 +429818,22 @@
   filename: f8826.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.160396+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:22.329093+00:00'
   link_text: Form 8826, Disabled Access Credit
 - url: https://mn.gov/deed/assets/right-fair-treatment_tcm1045-363157.pdf
   md5: 0a3a8ee54cceb10a4810421a1fb1fa20
@@ -428391,15 +429841,22 @@
   filename: right-fair-treatment_tcm1045-363157.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.162982+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:39.767660+00:00'
   link_text: right to fair treatment
 - url: https://mn.gov/deed/assets/wioa-discrimination-complaint_tcm1045-596623.pdf
   md5: af1f5592808749a735c74ae385e2b1ea
@@ -428407,15 +429864,22 @@
   filename: wioa-discrimination-complaint_tcm1045-596623.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.166421+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:57.365408+00:00'
   link_text: complaint form
 - url: https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/021752s035lbl.pdf
   md5: 74454296851920f0765bd3d2de72b9a7

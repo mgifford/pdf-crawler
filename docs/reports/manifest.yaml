@@ -355607,7 +355607,7 @@
   filename: 02154-medicare-hospice-benefits.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:18.746993+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -355806,7 +355806,8 @@
     Pages: 20
     Words: 4455
     Images: 4
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -360867,7 +360868,7 @@
   filename: 10969-medicare-and-home-health-care.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:18.858481+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -361054,7 +361055,7 @@
     Words: 5521
     Images: 5
   errors:
-  - 'annotations-tagging-fail, '
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -370627,7 +370628,7 @@
   filename: 11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:18.980573+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -370750,7 +370751,7 @@
     Images: 0
     DocCategory: Form
   errors:
-  - 'annotations-tagging-fail, '
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -374901,7 +374902,7 @@
   filename: 11376-your-discharge-planning-checklist.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.069909+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -375014,7 +375015,8 @@
     Pages: 6
     Words: 1379
     Images: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -379980,72 +379982,157 @@
   filename: 11534-s-medicare-rights-and-protections.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.306978+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.306978+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.306978+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:23:01.057016+00:00'
 - url: https://www.medicare.gov/publications/11542-s-questions-to-ask-about-preventive-services.pdf
   md5: 4acc93c952c112ec8e98d4d016a58919
   filename: 11542-s-questions-to-ask-about-preventive-services.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.308561+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.308561+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.308561+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:23:17.964497+00:00'
 - url: https://www.medicare.gov/publications/11546-Medicare-Coordination-of-Benefits-Getting-Started.pdf
   md5: 4bd6009a8e7718df95c7b5955edfd5ce
   filename: 11546-Medicare-Coordination-of-Benefits-Getting-Started.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.310108+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.310108+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.310108+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:23:34.820335+00:00'
 - url: https://www.medicare.gov/publications/11546-s-medicare-coordination-of-benefits-getting-started.pdf
   md5: 535f4bf30e0b94952a89759b3534fab0
   filename: 11546-s-medicare-coordination-of-benefits-getting-started.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.311631+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.311631+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.311631+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:23:51.955975+00:00'
 - url: https://www.medicare.gov/publications/11548-t.pdf
   md5: 70b6ae7289d8c43ca2c1714696ccb85c
   filename: 11548-t.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.313217+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.313217+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.313217+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:24:08.783687+00:00'
 - url: https://www.medicare.gov/publications/11548-v.pdf
   md5: 38ed7bf5c8b4db4938525e83ebebe355
   filename: 11548-v.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.314921+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.314921+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.314921+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:24:25.569856+00:00'
 - url: https://www.medicare.gov/publications/11575-ARB-medicare-supplement-insurance.pdf
   md5: d939f72a507c58d70f7a17d6d55ba763
   filename: 11575-ARB-medicare-supplement-insurance.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.318392+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.318392+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.318392+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:24:42.419798+00:00'
 - url: https://www.medicare.gov/publications/11579-medicare-costs.pdf
   md5: a97901a45fc408007a604b140ea0ec4b
   filename: 11579-medicare-costs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.319771+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
@@ -380059,342 +380146,787 @@
   filename: 11579-s-medicare-costs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.321165+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.321165+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.321165+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:25:16.343836+00:00'
 - url: https://www.medicare.gov/publications/11580.pdf
   md5: 5c099f4c613dfda03446f24f8a9768e0
   filename: 11580.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.322634+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.322634+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.322634+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:25:33.563496+00:00'
 - url: https://www.medicare.gov/publications/11593-s.pdf
   md5: 59235b7afa8a5cc831a74b2440bc2241
   filename: 11593-s.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.324522+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.324522+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.324522+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:25:50.523230+00:00'
 - url: https://www.medicare.gov/publications/11593.pdf
   md5: 7b12700d583fc17e4acb6efadf878a34
   filename: 11593.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.326404+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.326404+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.326404+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:26:07.398606+00:00'
 - url: https://www.medicare.gov/publications/11610-4rs-for-fighting-medicare-fraud.pdf
   md5: 1096613a69db763cc8499c57116549c4
   filename: 11610-4rs-for-fighting-medicare-fraud.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.327776+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.327776+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.327776+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:26:24.375733+00:00'
 - url: https://www.medicare.gov/publications/11610-s-4rs-for-fighting-medicare-fraud.pdf
   md5: 2aa668926ee770a5ecd1418843e53631
   filename: 11610-s-4rs-for-fighting-medicare-fraud.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.329866+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.329866+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.329866+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:26:41.592980+00:00'
 - url: https://www.medicare.gov/publications/11694-medicare-and-marketplace.pdf
   md5: 491f23366c3765c27b12d4e71376ffc1
   filename: 11694-medicare-and-marketplace.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.332285+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.332285+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.332285+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:26:58.611776+00:00'
 - url: https://www.medicare.gov/publications/11694-s-medicare-marketplace-508.pdf
   md5: 87b8d271e5dd315c1cb6a896fefa0d4b
   filename: 11694-s-medicare-marketplace-508.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.334627+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.334627+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.334627+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:27:16.099845+00:00'
 - url: https://www.medicare.gov/publications/11865-qhc-notice.pdf
   md5: eeb9105684eba9acbdda296faa31df61
   filename: 11865-qhc-notice.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.337403+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.337403+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.337403+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:27:33.236404+00:00'
 - url: https://www.medicare.gov/publications/11865-s-qhc-notice.pdf
   md5: 1ca2f61b4ad7b34b6c53eeffc11b7cd2
   filename: 11865-s-qhc-notice.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.339388+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.339388+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.339388+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:27:50.452646+00:00'
 - url: https://www.medicare.gov/publications/11865-s.pdf
   md5: 1ca2f61b4ad7b34b6c53eeffc11b7cd2
   filename: 11865-s.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.341001+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.341001+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.341001+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:28:07.272696+00:00'
 - url: https://www.medicare.gov/publications/11865.pdf
   md5: 60375613e6ebcd854779e91369944ec8
   filename: 11865.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.342883+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.342883+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.342883+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:28:24.351697+00:00'
 - url: https://www.medicare.gov/publications/11931-medicare-coverage-of-cancer-treatment-services.pdf
   md5: 4ba793486d24440aab76b2d2c9d0302b
   filename: 11931-medicare-coverage-of-cancer-treatment-services.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.344684+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.344684+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.344684+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:28:41.487926+00:00'
 - url: https://www.medicare.gov/publications/11941-s-understanding-your-medicare-advantage-plans-provider-network.pdf
   md5: d086612b0f744a334769fbedab302abc
   filename: 11941-s-understanding-your-medicare-advantage-plans-provider-network.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.346046+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.346046+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.346046+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:28:58.551555+00:00'
 - url: https://www.medicare.gov/publications/11941-understanding-your-medicare-advantage-plans-provider-network.pdf
   md5: 81079091b701ebc47d2026f46714e2ed
   filename: 11941-understanding-your-medicare-advantage-plans-provider-network.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.347420+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.347420+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.347420+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:29:15.984466+00:00'
 - url: https://www.medicare.gov/publications/11989-welcome-to-medicare508.pdf
   md5: 17d7b2c84353a4bbe65cdd6e9033f387
   filename: 11989-welcome-to-medicare508.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.354244+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.354244+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.354244+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:29:33.103653+00:00'
 - url: https://www.medicare.gov/publications/12007-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
   md5: 1faa94f2608bc0b3663b27aeb7ffbd31
   filename: 12007-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.355697+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.355697+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.355697+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:29:50.420759+00:00'
 - url: https://www.medicare.gov/publications/12007-s-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
   md5: 3e64b209d1b9f16b0dca9b8d5bea7d3e
   filename: 12007-s-prior-authorization-for-certain-types-of-power-wheelchairs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.357123+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.357123+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.357123+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:30:07.647684+00:00'
 - url: https://www.medicare.gov/publications/Armenian-11306-Medicare-Medicaid.pdf
   md5: b3ca51bc6b08187780b622bbcca95715
   filename: Armenian-11306-Medicare-Medicaid.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.359624+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.359624+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.359624+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:30:24.919497+00:00'
 - url: https://www.medicare.gov/publications/Chinese-11306-Medicare-Medicaid.pdf
   md5: 5fba613a8c9df95e9e738428e98713ab
   filename: Chinese-11306-Medicare-Medicaid.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.362044+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.362044+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.362044+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:30:41.814102+00:00'
 - url: https://www.medicare.gov/publications/arabic-msn-part-a.pdf
   md5: 969c0640b0582db15c9faede49075f99
   filename: arabic-msn-part-a.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.363765+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.363765+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.363765+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:30:58.927325+00:00'
 - url: https://www.medicare.gov/publications/arabic-msn-part-b.pdf
   md5: 2609207664bb42081fcafcda1d2b79fa
   filename: arabic-msn-part-b.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.365496+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.365496+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.365496+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:31:15.581585+00:00'
 - url: https://www.medicare.gov/publications/armenian-msn-part-a.pdf
   md5: 19e113c5dde9a15dbb75d5f82d8d62fb
   filename: armenian-msn-part-a.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.367183+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.367183+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.367183+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:31:32.202055+00:00'
 - url: https://www.medicare.gov/publications/armenian-msn-part-b.pdf
   md5: 95c9a7038e1a7b28f7e6293bc827e558
   filename: armenian-msn-part-b.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.368933+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.368933+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.368933+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:31:48.952158+00:00'
 - url: https://www.medicare.gov/publications/mec-intro-notice-11865-final.pdf
   md5: eeb9105684eba9acbdda296faa31df61
   filename: mec-intro-notice-11865-final.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.370917+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.370917+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.370917+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:32:05.451839+00:00'
 - url: https://www.medicare.gov/publications/meetngagntsoneonone_fctsht_english_link.pdf
   md5: 60224d4585484640299acb72c0d5e378
   filename: meetngagntsoneonone_fctsht_english_link.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.372241+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.372241+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.372241+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:32:22.567263+00:00'
 - url: https://www.medicare.gov/publications/oopc_specs-s.pdf
   md5: 914d5a4b77f5445a626d1c84e6fd31b1
   filename: oopc_specs-s.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.374856+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.374856+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.374856+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:32:39.493297+00:00'
 - url: https://www.medicare.gov/publications/oopc_specs.pdf
   md5: 9a217effb09ef085582b5ef15301fd22
   filename: oopc_specs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.377245+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.377245+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.377245+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:32:56.718788+00:00'
 - url: https://www.medicare.gov/publications/sec923ombudsman.pdf
   md5: a1cd280a488545994f05cfb8db00bfa9
   filename: sec923ombudsman.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.378425+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.378425+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.378425+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:33:13.790415+00:00'
 - url: https://www.medicare.gov/publications/spa-mec-intro-notice11865.pdf
   md5: 1ca2f61b4ad7b34b6c53eeffc11b7cd2
   filename: spa-mec-intro-notice11865.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.380086+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.380086+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.380086+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:33:30.716262+00:00'
 - url: https://www.medicare.gov/publications/spas.pdf
   md5: d7c09b9cabe8e27383600fe8ca74d86a
   filename: spas.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.381689+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.381689+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.381689+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:33:48.035606+00:00'
 - url: https://www.medicare.gov/publications/summary_vendors_medicare_phr_choice_pilot_table.pdf
   md5: fa7ac41f30aa1d83469274bc461e8cde
   filename: summary_vendors_medicare_phr_choice_pilot_table.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.383117+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.383117+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.383117+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:34:04.887150+00:00'
 - url: https://www.medicare.gov/publications/summary_vendors_medicare_phr_choice_pilot_table_2_16_10.pdf
   md5: 93a36e8e6f43c3a502ceddf8968d6d12
   filename: summary_vendors_medicare_phr_choice_pilot_table_2_16_10.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.384557+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.384557+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.384557+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:34:22.219934+00:00'
 - url: https://www.medicare.gov/publications/summary_vendors_medicare_phr_choiceupdated.pdf
   md5: d5fcabab1d71e6c5f1a92e6c4537e0d6
   filename: summary_vendors_medicare_phr_choiceupdated.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.386158+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.386158+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.386158+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:34:38.963318+00:00'
 - url: https://www.medicare.gov/publications/summarynoticea.pdf
   md5: 7cab0792834ad8d11ed35edb59d5e1ab
   filename: summarynoticea.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.387894+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.387894+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.387894+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:34:56.269581+00:00'
 - url: https://www.medicare.gov/publications/summarynoticeb.pdf
   md5: 6fcc0a8e199ee982a104daa1def78919
   filename: summarynoticeb.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.389632+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.389632+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.389632+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:35:12.984864+00:00'
 - url: https://www.medicare.gov/publications/summarynoticedme.pdf
   md5: 56f3d3464d8861c2b47d9817a098d924
   filename: summarynoticedme.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.391361+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.391361+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just testing this.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.391361+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:35:29.688353+00:00'
 - url: https://www.medicare.gov/publications/summarynoticeenvelope.pdf
   md5: cf456a7247dd3f97ea08d503ae7c61f9
   filename: summarynoticeenvelope.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.392732+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   notes: Just testing this.
   analyses:
     original:
