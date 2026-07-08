@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-08T18:52:16.231237+00:00
+Generated: 2026-07-08T20:05:36.067084+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 352 |
-| Total files tracked | 23959 |
-| Analysed | 5950 |
-| Pending analysis | 11909 |
-| Errors during analysis | 6100 |
-| Accessible | 1946 |
+| URLs crawled | 968 |
+| Total files tracked | 24954 |
+| Analysed | 5971 |
+| Pending analysis | 12816 |
+| Errors during analysis | 6167 |
+| Accessible | 1948 |
 | Totally inaccessible | 258 |
 | Broken / unreadable | 26 |
-| Exempt (pre-2018) | 1478 |
+| Exempt (pre-2018) | 1480 |
 
 ## Files per Site
 
@@ -44,7 +44,7 @@ Generated: 2026-07-08T18:52:16.231237+00:00
 | ecboces.org | 75 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 3008 |
+| energy.gov | 4003 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
@@ -4069,8 +4069,9 @@ Generated: 2026-07-08T18:52:16.231237+00:00
 | [1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf](https://www.energy.gov/sites/default/files/2025-06/1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf) | energy.gov | 2025-03-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1217 | 1 |
 | [2024_Impact%20Flyer%20-%20website%20version.pdf](https://www.energy.gov/sites/default/files/2025-05/2024_Impact%20Flyer%20-%20website%20version.pdf) | energy.gov | 2025-03-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 537 | 10 |
 | [DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf](https://www.energy.gov/sites/default/files/2025-11/DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf) | energy.gov | 2025-10-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 73 | 18302 | 58 |
+| [DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf](https://www.energy.gov/sites/default/files/2025-02/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf) | energy.gov | 2025-02-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 1 | — | — |
 | [MSIPP%20FY2022%20%20Impact_2.pdf](https://www.energy.gov/sites/default/files/2023-06/MSIPP%20FY2022%20%20Impact_2.pdf) | energy.gov | 2023-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 923 | 3 |
-| [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 22 | 7021 | 7 |
+| [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 22 | — | — |
 | [PIA%20Guide%20Aug%202023_0.pdf](https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf) | energy.gov | 2023-08-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 37 | — | — |
 | [applying-msipp-grants.pdf](https://www.energy.gov/nnsa/articles/applying-msipp-grants) | energy.gov | 2023-03-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 2436 | 1 |
 | [centralia-order-no-202-26-18.pdf](https://www.energy.gov/documents/centralia-order-no-202-26-18) | energy.gov | — | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 2703 | 1 |
@@ -4095,7 +4096,7 @@ Generated: 2026-07-08T18:52:16.231237+00:00
 | [DOE-FOA-2740-Teaming-Partner-List_updated-3-12-2023.pdf](https://www.energy.gov/sites/default/files/2023-03/DOE-FOA-2740-Teaming-Partner-List_updated-3-12-2023.pdf) | energy.gov | 2023-03-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 6920 | 0 |
 | [DOE-FY2019-Budget-Volume-3-Part-1_0.pdf](https://www.energy.gov/sites/prod/files/2018/03/f49/DOE-FY2019-Budget-Volume-3-Part-1_0.pdf) | energy.gov | 2018-03-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 524 | 130897 | 26 |
 | [EEIO-IIA-model-documentation_9_01_23_v2.pdf](https://www.energy.gov/sites/default/files/2025-12/EEIO-IIA-model-documentation_9_01_23_v2.pdf) | energy.gov | 2025-12-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 60 | 16351 | 13 |
-| [Elective_Pay_Fact_Sheet_Territories_073124.pdf](https://www.energy.gov/sites/default/files/2024-08/Elective_Pay_Fact_Sheet_Territories_073124.pdf) | energy.gov | 2024-07-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1441 | 2 |
+| [Elective_Pay_Fact_Sheet_Territories_073124.pdf](https://www.energy.gov/sites/default/files/2024-08/Elective_Pay_Fact_Sheet_Territories_073124.pdf) | energy.gov | 2024-07-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | — | — |
 | [Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf](https://www.energy.gov/sites/default/files/2020/12/f81/Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf) | energy.gov | 2020-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 157 | 61649 | 119 |
 | [FCAB%20Year%20End%20Report%20Oct%202021%20FINAL.pdf](https://www.energy.gov/sites/default/files/2021-12/FCAB%20Year%20End%20Report%20Oct%202021%20FINAL.pdf) | energy.gov | 2021-12-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 505 | 2 |
 | [FY2017BudgetVolume3.pdf](https://www.energy.gov/sites/prod/files/2016/02/f30/FY2017BudgetVolume3.pdf) | energy.gov | 2016-02-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 822 | 234372 | 10 |
@@ -4108,7 +4109,7 @@ Generated: 2026-07-08T18:52:16.231237+00:00
 | [Indiana_Investing-in-America_December-2024_0.pdf](https://www.energy.gov/sites/default/files/2025-01/Indiana_Investing-in-America_December-2024_0.pdf) | energy.gov | 2025-01-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 484 | 3 |
 | [MESC_Request_For_Information_Supply_Chain.pdf](https://www.energy.gov/sites/default/files/2024-04/MESC_Request_For_Information_Supply_Chain.pdf) | energy.gov | 2024-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | 2768 | 2 |
 | [MMRV%20Framework%20US%20Stakeholder%20Meeting_Final_15Sept2023.pdf](https://www.energy.gov/sites/default/files/2023-09/MMRV%20Framework%20US%20Stakeholder%20Meeting_Final_15Sept2023.pdf) | energy.gov | 2023-09-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 27 | 1733 | 111 |
-| [Mercury%20Treatment%20Facility_2024.pdf](https://www.energy.gov/sites/default/files/2023-12/Mercury%20Treatment%20Facility_2024.pdf) | energy.gov | 2023-12-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 359 | 8 |
+| [Mercury%20Treatment%20Facility_2024.pdf](https://www.energy.gov/sites/default/files/2023-12/Mercury%20Treatment%20Facility_2024.pdf) | energy.gov | 2023-12-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [NSLSII_Lessons_Learned_2015-08_0.pdf](https://www.energy.gov/sites/prod/files/2016/02/f29/NSLSII_Lessons_Learned_2015-08_0.pdf) | energy.gov | 2015-10-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 36 | 10893 | 100 |
 | [Order%20No.%20202-25-10.pdf](https://www.energy.gov/sites/default/files/2025-11/Order%20No.%20202-25-10.pdf) | energy.gov | 2025-11-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | 3557 | 2 |
 | [Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf](https://www.energy.gov/sites/default/files/2022-05/Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf) | energy.gov | 2022-05-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 86 | 22399 | 16 |
@@ -4121,7 +4122,7 @@ Generated: 2026-07-08T18:52:16.231237+00:00
 | [annualreportonpart810processingfy2017pdf.pdf](https://www.energy.gov/documents/annualreportonpart810processingfy2017pdf) | energy.gov | 2018-05-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 11 | 2709 | 11 |
 | [appendix-part-625-title-10.pdf](https://www.energy.gov/documents/appendix-part-625-title-10) | energy.gov | 2025-06-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 50 | 22499 | 1 |
 | [appliance-and-equipment-standards-fact-sheet.pdf](https://www.energy.gov/cmei/buildings/articles/appliance-and-equipment-standards-fact-sheet) | energy.gov | 2017-01-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 1270 | 4 |
-| [better-plants-infographic_2025-april.pdf](https://www.energy.gov/sites/default/files/2025-04/better-plants-infographic_2025-april.pdf) | energy.gov | 2025-04-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 297 | 8 |
+| [better-plants-infographic_2025-april.pdf](https://www.energy.gov/sites/default/files/2025-04/better-plants-infographic_2025-april.pdf) | energy.gov | 2025-04-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
 | [bioproducts_to_enable_biofuels_workshop_report.pdf](https://www.energy.gov/sites/prod/files/2015/12/f27/bioproducts_to_enable_biofuels_workshop_report.pdf) | energy.gov | 2015-12-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 40 | 9954 | 1 |
 | [bto-2024-zedd-application-checklist-020824.pdf](https://www.energy.gov/sites/default/files/2024-02/bto-2024-zedd-application-checklist-020824.pdf) | energy.gov | 2024-02-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 272 | 1 |
 | [bto-manufactured-housing-financing-guide-030625.pdf](https://www.energy.gov/sites/default/files/2025-03/bto-manufactured-housing-financing-guide-030625.pdf) | energy.gov | 2025-03-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 67 | 19463 | 14 |
@@ -5065,8 +5066,9 @@ Generated: 2026-07-08T18:52:16.231237+00:00
 | [Maryland-NASPO-Wireless-ATT-PA-Final_signed.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/Maryland-NASPO-Wireless-ATT-PA-Final_signed.pdf) | doit.maryland.gov | 2025-12-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | 5359 | 2 |
 | [Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf) | doit.maryland.gov | 2025-12-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 116 | 1 |
 | [2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf](https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team) | energy.gov | 2023-04-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 212 | 10 |
-| [Infographic%20SPR%2002_2023.pdf](https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf) | energy.gov | 2023-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 603 | 4 |
+| [Infographic%20SPR%2002_2023.pdf](https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf) | energy.gov | 2023-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [OEA_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [OMEI_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OMEI_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [WAPA_Posting_Notice.pdf](https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [doe-national-labs-report-finalpdf.pdf](https://www.energy.gov/documents/doe-national-labs-report-finalpdf) | energy.gov | 2021-01-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 96 | 38681 | 144 |
 | [h2iq-hour-10282021.pdf](https://www.energy.gov/sites/default/files/2021-11/h2iq-hour-10282021.pdf) | energy.gov | 2021-11-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 25 | 1768 | 212 |
@@ -5156,13 +5158,13 @@ Generated: 2026-07-08T18:52:16.231237+00:00
 | [pathways-commercial-success-technologies-and-innovations-enabled-us-department.pdf](https://www.energy.gov/cmei/fuels/articles/pathways-commercial-success-technologies-and-innovations-enabled-us-department) | energy.gov | 2017-10-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 328 | 99748 | 162 |
 | [pitka-point-final-reportpdf.pdf](https://www.energy.gov/documents/pitka-point-final-reportpdf) | energy.gov | 2020-04-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 2360 | 3 |
 | [rad-air-emissions-eis-0552-lanl-site-wide-2025-02_0.pdf](https://www.energy.gov/sites/default/files/2025-02/rad-air-emissions-eis-0552-lanl-site-wide-2025-02_0.pdf) | energy.gov | 2025-02-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 201 | 5 |
-| [radiological-assistance-program-60th-anniversary-brochure.pdf](https://www.energy.gov/nnsa/articles/radiological-assistance-program-60th-anniversary-brochure) | energy.gov | 2018-10-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 28 | 3348 | 96 |
+| [radiological-assistance-program-60th-anniversary-brochure.pdf](https://www.energy.gov/nnsa/articles/radiological-assistance-program-60th-anniversary-brochure) | energy.gov | 2018-10-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 28 | — | — |
 | [rd-greet-hydrogen-fact-sheet_january-2025.pdf](https://www.energy.gov/sites/default/files/2025-01/rd-greet-hydrogen-fact-sheet_january-2025.pdf) | energy.gov | 2025-01-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 972 | 1 |
 | [regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water.pdf](https://www.energy.gov/ne/articles/regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water) | energy.gov | 2018-04-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 419 | 1 |
 | [resolving-regulatory-issues-implementation-online-monitoring-technologies-extend.pdf](https://www.energy.gov/ne/articles/resolving-regulatory-issues-implementation-online-monitoring-technologies-extend) | energy.gov | 2018-01-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 250 | 1 |
 | [rod-eis-0552-lanl-site-wide-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/rod-eis-0552-lanl-site-wide-2026-03.pdf) | energy.gov | 2026-03-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 2203 | 1 |
 | [site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet.pdf](https://www.energy.gov/lm/articles/site-aplot-m-illinois-decommissioned-reactor-site-fact-sheet) | energy.gov | 2025-12-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 1092 | 8 |
-| [strategic%20petroleum%20reserve%20factsheet.2_1.pdf](https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf) | energy.gov | 2022-09-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 1172 | 1 |
+| [strategic%20petroleum%20reserve%20factsheet.2_1.pdf](https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf) | energy.gov | 2022-09-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
 | [21-26%20ERP-Accounting%20RFP%20Narrative.pdf](https://www.ecboces.org/pluginfile.php/29957/mod_resource/content/1/21-26%20ERP-Accounting%20RFP%20Narrative.pdf) | ecboces.org | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 4321 | 1 |
 | [22-23%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf](https://www.ecboces.org/pluginfile.php/46687/mod_resource/content/0/22-23%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf) | ecboces.org | 2023-12-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 4407 | 24 |
 | [23-24%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf](https://www.ecboces.org/pluginfile.php/50688/mod_resource/content/0/23-24%20ECBOCES%20Finance%20December%20Detail%20Data%20Report.pdf) | ecboces.org | 2024-11-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | 4557 | 26 |
@@ -5975,6 +5977,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [2017-06576.pdf](https://www.govinfo.gov/content/pkg/FR-2017-03-31/pdf/2017-06576.pdf) | energy.gov *(ext: govinfo.gov)* | 2024-06-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | — | — |
 | [2017-06770.pdf](https://www.govinfo.gov/content/pkg/FR-2017-04-05/pdf/2017-06770.pdf) | energy.gov *(ext: govinfo.gov)* | 2024-06-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
 | [2017-12-21-policy-4511-cancelling-nepa-orderpdf.pdf](https://www.energy.gov/documents/2017-12-21-policy-4511-cancelling-nepa-orderpdf) | energy.gov | 2017-12-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | 1 | — | — |
+| [2018_CESD_Strategic_Plan.pdf](https://science.osti.gov/~/media/ber/pdf/workshop%20reports/2018_CESD_Strategic_Plan.pdf) | energy.gov *(ext: science.osti.gov)* | 2022-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | 48 | — | — |
 | [2019-13576.pdf](https://www.govinfo.gov/content/pkg/FR-2019-06-26/pdf/2019-13576.pdf) | energy.gov *(ext: govinfo.gov)* | 2024-05-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
 | [2023-01-12-cx-rfi-re-openpdf-0.pdf](https://www.energy.gov/documents/2023-01-12-cx-rfi-re-openpdf-0) | energy.gov | 2023-01-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [2023-01-ceq-interim-guidance-ghg-emissions-climate-change.pdf](https://www.energy.gov/documents/2023-01-ceq-interim-guidance-ghg-emissions-climate-change) | energy.gov | 2023-01-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 17 | — | — |
@@ -6006,6 +6009,24 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf](https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf) | energy.gov | 2026-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [2026-04-ceq-guidance-categorical-exclusions.pdf](https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions.pdf) | energy.gov | 2026-04-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | — | — |
 | [2026-06-withdrawal%20of-guidance-documents.pdf](https://www.energy.gov/sites/default/files/2026-06/2026-06-withdrawal%20of-guidance-documents.pdf) | energy.gov | 2026-06-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [258%20-%20Order%20on%20Motion%20for%20Contempt.pdf](https://www.energy.gov/sites/default/files/2025-03/258%20-%20Order%20on%20Motion%20for%20Contempt.pdf) | energy.gov | 2025-03-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | — | — |
+| [BERAC-2017-Grand-Challenges-Report.pdf](https://science.osti.gov/~/media/ber/berac/pdf/Reports/BERAC-2017-Grand-Challenges-Report.pdf) | energy.gov *(ext: science.osti.gov)* | 2017-12-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 160 | — | — |
+| [BILLS-111s612is.pdf](https://www.govinfo.gov/content/pkg/BILLS-111s612is/pdf/BILLS-111s612is.pdf) | energy.gov *(ext: govinfo.gov)* | 2023-01-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [BSSD_Strategic_Plan_2021_HR.pdf](https://science.osti.gov/-/media/ber/pdf/bssd/BSSD_Strategic_Plan_2021_HR.pdf) | energy.gov *(ext: science.osti.gov)* | 2021-05-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 40 | — | — |
+| [DOE-OIG-23-12.pdf](https://www.energy.gov/sites/default/files/2023-01/DOE-OIG-23-12.pdf) | energy.gov | 2023-01-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 9 | — | — |
+| [DOE-OIG-24-10.pdf](https://www.energy.gov/sites/default/files/2024-01/DOE-OIG-24-10.pdf) | energy.gov | 2024-01-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 14 | — | — |
+| [DOE-OIG-25-10.pdf](https://www.energy.gov/sites/default/files/2025-02/DOE-OIG-25-10.pdf) | energy.gov | 2025-02-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 38 | — | — |
+| [DOE-OIG-26-07.pdf](https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-07.pdf) | energy.gov | 2026-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 13 | — | — |
+| [DOE-OIG-26-08.pdf](https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-08.pdf) | energy.gov | 2026-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | — | — |
+| [DOE-OIG-26-09.pdf](https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-09.pdf) | energy.gov | 2026-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [DOE-OIG-26-10.pdf](https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-10.pdf) | energy.gov | 2026-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | ❌ Fail | 16 | — | — |
+| [DOE-OIG-26-11.pdf](https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-11.pdf) | energy.gov | 2026-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | ❌ Fail | 20 | — | — |
+| [DOE-OIG-26-12.pdf](https://www.energy.gov/sites/default/files/2026-02/DOE-OIG-26-12.pdf) | energy.gov | 2026-02-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 12 | — | — |
+| [DOE-OIG-26-13.pdf](https://www.energy.gov/sites/default/files/2026-04/DOE-OIG-26-13.pdf) | energy.gov | 2026-04-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | — | — |
+| [DOE-OIG-26-14.pdf](https://www.energy.gov/sites/default/files/2026-02/DOE-OIG-26-14.pdf) | energy.gov | 2026-02-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 5 | — | — |
+| [M-19-15.pdf](https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-15.pdf) | energy.gov *(ext: whitehouse.gov)* | 2019-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | — | — |
+| [Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf](https://www.energy.gov/sites/default/files/2025-03/Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf) | energy.gov | 2025-03-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | — | — |
+| [amendment-s2488.pdf](https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amendment-s2488.pdf) | energy.gov *(ext: justice.gov)* | 2008-02-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ✅ Pass | 19 | — | — |
 | [191001-ministerrat.pdf](https://www.stmd.bayern.de/wp-content/uploads/2019/10/191001-ministerrat.pdf) | stmd.bayern.de | 2019-10-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | — | — |
 | [20200924-Cert4Trust_Presseblatt.pdf](https://www.stmd.bayern.de/wp-content/uploads/2020/09/20200924-Cert4Trust_Presseblatt.pdf) | stmd.bayern.de | 2020-09-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [21_04_2021_Abschlussbericht_DISKURS.pdf](https://www.stmd.bayern.de/wp-content/uploads/2021/05/21_04_2021_Abschlussbericht_DISKURS.pdf) | stmd.bayern.de | 2021-03-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | — | — |
@@ -52037,8 +52058,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-02/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf
-- **Status**: error
-- File not found: crawled_files/energy.gov/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.626388+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- fonts:/HLDKOJ+Calibri, /CBXLNK+Calibri, /SMQTMN+Calibri, /ZFLNNK+Calibri, /MTDWKK+Calibri, /Times-Roman, /CIDFont+F1, /CIDFont+F2, /TRTKIH+Calibri, /QFNQRR+Calibrilists-warn, 
 
 ### ES-KitchenAppliances_080221.pdf
 
@@ -52074,7 +52095,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf
 - **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
+- title, no bookmarks and more than 20 pages, fonts:/TimesNewRomanPSMT, /ABCDEE+Calibri-Italic, /Arial-BoldMT, /TimesNewRomanPS-BoldMT, /ABCDEE+Calibri, /ABCDEE+Calibri-Bold, /ABCDEE+Calibri-Light, /ABCDEE+Calibri-BoldItalic, /ABCDEE+Calibri-LightItalic, /ArialMT, /ABCDEE+Wingdings-Regular, /SymbolMTfigures-alt, alt-nested-fail, 
 
 ### OralHistoryProject_JacqelineYoung_Transcript.pdf
 
@@ -52284,7 +52305,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/default/files/2024-08/Elective_Pay_Fact_Sheet_Territories_073124.pdf
 - **Status**: analysed
-- title, 
+- title, fonts:/AZUTTC+SegoeUI, /AZUTTC+MinionPro-Regular, /AZUTTC+MinionPro-It, /AZUTTC+SegoeUI-Bold, /AZUTTC+SegoeUI-Semibold, /AZUTTC+SegoeUI-Light, /AZUTTC+MinionPro-Bold, /AZUTTC+AvenirNextCondensed-Bold, /AZUTTC+MinionPro-BoldDispfigures-alt, 
 
 ### Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf
 
@@ -52344,7 +52365,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/default/files/2023-12/Mercury%20Treatment%20Facility_2024.pdf
 - **Status**: analysed
-- title, 
+- title, fonts:/DFPKGN+PetalaProSemiBold, /ZZMMCV+PetalaProLight, /PJJJSP+PetalaProLight-Italic, /AYBSQT+PetalaPro-Bold, /CBAESP+PetalaProfigures-alt, headings-warn, annotations-tagging-fail, 
 
 ### NSLSII_Lessons_Learned_2015-08_0.pdf
 
@@ -52393,6 +52414,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.energy.gov/documents/appendix-part-625-title-10
 - **Status**: analysed
 - title, tagged, lang, 
+
+### better-plants-infographic_2025-april.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-04/better-plants-infographic_2025-april.pdf
+- **Status**: analysed
+- fonts:/JZLBDK+AvenirLTStd-Medium, /JZLBDK+AvenirLTStd-Black, /JZLBDK+AvenirLTStd-Heavy
 
 ### bioproducts_to_enable_biofuels_workshop_report.pdf
 
@@ -59238,7 +59265,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf
 - **Status**: analysed
-- title, tagged, lang, 
+- title, tagged, lang, fonts:/CYVQOK+CenturyGothic, /ZVNKZV+CourierNewPSMT, /PCHDSJ+CourierNewPSMT, /SPPJVN+CourierNewPS-ItalicMT, /FGHIXJ+CourierNewPS-BoldMT, /XPAAAZ+CenturyGothic, /YQTYBB+CourierNewPSMT, /CCHNIO+CourierNewPSMT, /MBNZPZ+Arial-BoldMT, /SKLPKT+CourierNewPSMT, /UFQAXJ+CourierNewPSMT, /HJCVXJ+CourierNewPS-BoldMT, /YYRTBB+CenturyGothic, /AVWRQN+FranklinGothic-Medium, /DDIWVN+CourierNewPSMT, /LUJSDX+CourierNewPSMT, /VYDANI+CourierNewPS-BoldMT, /ACRDJT+CourierNewPS-BoldMT, /HWAVXJ+FranklinGothic-Medium, /ZVNKZV+CourierNewPS-BoldMT, /XPAAAZ+FranklinGothic-Medium, /LHCYBB+CenturyGothic-Bold, /RSFCJQ+CourierNewPS-BoldMTuntagged-images, annotations-untagged, 
 
 ### Listening%20Session%2001%20General%20Deck_08.18.2022_508.pdf
 
@@ -59279,8 +59306,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### OMEI_WashingtonDC.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/OMEI_WashingtonDC.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.662967+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+- **Status**: analysed
+- title, tagged, lang, fonts:/KPGJDN+TimesNewRomanPSMT, /FCWAWD+MyriadPro-Regular, /KPGIKM+TimesNewRomanPSMT, /KPGIOO+TimesNewRomanPS-BoldMT, /KPGJJL+MyriadPro-Regular, /KPGIIM+TimesNewRoman, /DZXOUH+TimesNewRomanuntagged-images, 
 
 ### RescindProbationaryTermLetter%20%20%203.13.25%20%28003%29.pdf
 
@@ -60132,7 +60159,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/nnsa/articles/radiological-assistance-program-60th-anniversary-brochure
 - **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, 
+- title, tagged, no bookmarks and more than 20 pages, fonts:/QDJLFA+HelveticaNeueLTStd-Cn, /QDJLFA+Champion-HTF-Lightweightuntagged-images, 
 
 ### regulatory-support-advanced-light-water-reactor-deployment-advanced-boiling-water.pdf
 
@@ -60156,7 +60183,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/default/files/2022-09/strategic%20petroleum%20reserve%20factsheet.2_1.pdf
 - **Status**: analysed
-- title, 
+- title, fonts:/MIVTXP+FranklinGothic-MediumCond, /MIVTXP+CambriaMath, /SJZIDD+FranklinGothic-Book, /SJZIDD+CenturyGothic-Bold, /AGHCQN+FranklinGothic-Book, /CGXQNJ+FranklinGothic-Demifigures-alt, 
 
 ### 21-26%20ERP-Accounting%20RFP%20Narrative.pdf
 
@@ -63912,7 +63939,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
 - **Status**: error
-- File not found: crawled_files/energy.gov/DOE_Fact_Sheet_Grid_Report_July_2025.pdf (crawled 1 day(s) ago at 2026-07-06T14:29:49.870731+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T14:29:49.870731+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### fac_c_digital_services_05_12_18.pdf
 
@@ -64236,7 +64263,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://ceq.doe.gov/docs/ceq-regulations-and-guidance/20100218-nepa-consideration-effects-ghg-draft-guidance.pdf
 - **Status**: error
-- File not found: crawled_files/energy.gov/20100218-nepa-consideration-effects-ghg-draft-guidance.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.199712+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.199712+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 2011-01-03-proposed-1021pdf.pdf
 
@@ -64295,8 +64322,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 2018_CESD_Strategic_Plan.pdf
 
 - **URL**: https://science.osti.gov/~/media/ber/pdf/workshop%20reports/2018_CESD_Strategic_Plan.pdf
-- **Status**: error
-- File not found: crawled_files/energy.gov/2018_CESD_Strategic_Plan.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.257535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- fonts:/TRUBUK+ArnoPro-Regular, /MSCLAY+OpenSans-Semibold, /TRUBUK+OpenSans-SemiboldItalic, /TRUBUK+Helvetica, /TRUBUK+OpenSans, /Times-Roman, /TRUBUK+OpenSans-Bold, /TRUBUK+OpenSans-Light, /TRUBUK+ArnoPro-Italic, /TRUBUK+ArnoPro-Bold, /LKSFMA+OpenSans-Semibold, /TRUBUK+OpenSans-Italic, /TRUBUK+OpenSans-Semiboldfigures-alt, headings-skip, annotations-tagging-fail, 
 
 ### 2019-13576.pdf
 
@@ -64308,7 +64335,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/prod/files/2020/09/f78/2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf
 - **Status**: error
-- File not found: crawled_files/energy.gov/2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.263322+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.263322+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 2023-01-12-cx-rfi-re-openpdf-0.pdf
 
@@ -64458,7 +64485,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://public-inspection.federalregister.gov/2025-16235.pdf
 - **Status**: error
-- File not found: crawled_files/energy.gov/2025-16235.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.318188+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.318188+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf
 
@@ -64500,229 +64527,757 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-02-1b-november-13-2002-cscpdf
 - **Status**: error
-- File not found: crawled_files/energy.gov/202c-order-202-02-1b-november-13-2002-cscpdf.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.341535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.341535+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-202-03-4-may-7-2004-cscpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-03-4-may-7-2004-cscpdf
 - **Status**: error
-- File not found: crawled_files/energy.gov/202c-order-202-03-4-may-7-2004-cscpdf.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.343505+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.343505+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-202-05-3-december-20-2005-mirant-corporationpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-05-3-december-20-2005-mirant-corporationpdf
 - **Status**: error
-- File not found: crawled_files/energy.gov/202c-order-202-05-3-december-20-2005-mirant-corporationpdf.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.346955+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.346955+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-202-06-1-february-17-2006-mirant-corporationpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-06-1-february-17-2006-mirant-corporationpdf
 - **Status**: error
-- File not found: crawled_files/energy.gov/202c-order-202-06-1-february-17-2006-mirant-corporationpdf.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.348660+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.348660+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-202-06-2-september-28-2006-mirant-corporationpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-06-2-september-28-2006-mirant-corporationpdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.350461+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-202-07-1-november-22-2006-mirant-corporationpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-07-1-november-22-2006-mirant-corporationpdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.352263+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-202-07-2-january-31-2007-mirant-corporationpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-07-2-january-31-2007-mirant-corporationpdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.355391+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-january-11-2001-californiapdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-january-11-2001-californiapdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.357616+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-january-16-2001-californiapdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-january-16-2001-californiapdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.359405+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-january-17-2001-californiapdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-january-17-2001-californiapdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.361155+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-january-2-2001-californiapdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-january-2-2001-californiapdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.363114+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 202c-order-january-23-2001-californiapdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-january-23-2001-californiapdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.364861+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 254737.pdf
 
 - **URL**: https://www.energy.gov/node/254737
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.371035+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 255067.pdf
 
 - **URL**: https://www.energy.gov/node/255067
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.374053+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 256249.pdf
 
 - **URL**: https://www.energy.gov/node/256249
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.376237+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 256387.pdf
 
 - **URL**: https://www.energy.gov/node/256387
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.378890+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 256519.pdf
 
 - **URL**: https://www.energy.gov/node/256519
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.380936+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 257107.pdf
 
 - **URL**: https://www.energy.gov/node/257107
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.384559+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 257191.pdf
 
 - **URL**: https://www.energy.gov/node/257191
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.387186+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 257719.pdf
 
 - **URL**: https://www.energy.gov/node/257719
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.390301+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-03/258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, fonts:/RCFKVL+Arial-BoldMT, /BEDSFR+ArialMT, /BEDSFR+TimesNewRomanPS-ItalicMT, /RCFKVL+TimesNewRomanPS-BoldMT, /BEDSFR+KING, /EABKBJ+LiberationSans, /GBSWXH+TimesNewRomanPSMT, /BEDSFR+SymbolMT
 
 ### 258337.pdf
 
 - **URL**: https://www.energy.gov/node/258337
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.394072+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 258349.pdf
 
 - **URL**: https://www.energy.gov/node/258349
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.396508+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 258487.pdf
 
 - **URL**: https://www.energy.gov/node/258487
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.398120+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 258631.pdf
 
 - **URL**: https://www.energy.gov/node/258631
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.404261+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 258961.pdf
 
 - **URL**: https://www.energy.gov/node/258961
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.405837+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 259075.pdf
 
 - **URL**: https://www.energy.gov/node/259075
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.407571+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 292561.pdf
 
 - **URL**: https://www.energy.gov/node/292561
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.410269+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 377191.pdf
 
 - **URL**: https://www.energy.gov/node/377191
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.414067+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 40-cfr-chp-v-app-i-ii-iii-final-rule-dec-1984pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/40-cfr-chp-v-app-i-ii-iii-final-rule-dec-1984pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.421059+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 47870.pdf
 
 - **URL**: https://docs.nlr.gov/docs/fy10osti/47870.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.422683+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 51387.pdf
 
 - **URL**: https://docs.nlr.gov/docs/fy12osti/51387.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.424296+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 70207.pdf
 
 - **URL**: https://docs.nlr.gov/docs/fy20osti/70207.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.425909+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 75163.pdf
 
 - **URL**: https://docs.nlr.gov/docs/fy20osti/75163.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.427531+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 75387.pdf
 
 - **URL**: https://www1.eere.energy.gov/buildings/pdfs/75387.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.431705+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 75473.pdf
 
 - **URL**: https://www1.eere.energy.gov/buildings/pdfs/75473.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.436539+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 76701.pdf
 
 - **URL**: https://docs.nlr.gov/docs/fy20osti/76701.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.440365+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 78495.pdf
 
 - **URL**: https://docs.nlr.gov/docs/fy21osti/78495.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.441982+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 80170.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/pdfs/80170.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.471616+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 80171.pdf
+
+- **URL**: https://docs.nlr.gov/docs/fy22osti/80171.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.508012+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 80376.pdf
+
+- **URL**: https://www1.eere.energy.gov/buildings/pdfs/80376.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.513076+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 82-fr-14217-comment-period-extensionpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/82-fr-14217-comment-period-extensionpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.515462+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### A-Guide-to-Case-Studies-for-Grid-Enhancing-Technologies.pdf
+
+- **URL**: https://inl.gov/content/uploads/2023/03/A-Guide-to-Case-Studies-for-Grid-Enhancing-Technologies.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.521820+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Agenda-June-1-3-Workshop.pdf
+
+- **URL**: https://science.osti.gov/-/media/fes/pdf/fes-presentations/2022/Agenda-June-1-3-Workshop.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.523629+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Analysis_Agricultural_Lands.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/Analysis_Agricultural_Lands.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.526308+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### BERAC-2017-Grand-Challenges-Report.pdf
+
+- **URL**: https://science.osti.gov/~/media/ber/berac/pdf/Reports/BERAC-2017-Grand-Challenges-Report.pdf
+- **Status**: analysed
+- title, tagged, fonts:/BNMMTE+MyriadPro-Regular, /BNMMTE+Times-Roman, /BNMMTE+OpenSans-Bold, /BNMMTE+Calibri, /BNMMTE+OpenSans-BoldItalic, /BNMMTE+Arial, /BNMMTE+TimesNewRomanPSMT, /BNMMTE+MyriadPro-It, /OSMMTE+MyriadPro-Bold, /BNMMTE+ArnoPro-Bold, /BNMMTE+ArnoPro-Italic, /BNMMTE+OpenSans-Extrabold, /BNMMTE+Helvetica, /BNMMTE+MyriadPro-Semibold, /BNMMTE+TimesNewRomanPS-BoldMT, /BNMMTE+OpenSans-Light, /BNMMTE+OpenSans, /BNMMTE+OpenSans-SemiboldItalic, /BNMMTE+OpenSans-Semibold, /BNMMTE+CambriaMath, /BNMMTE+Arial-BoldMT, /BNMMTE+MyriadPro-Bold, /BNMMTE+ArnoPro-Regular, /BNMMTE+OpenSans-Italic, /BNMMTE+Symbol, /BNMMTE+ArialMT, /BNMMTE+ZapfDingbatsITC, /BNMMTE+ArnoPro-BoldItalic, /BNMMTE+Times-Italicuntagged-images, annotations-untagged, 
+
+### BILLS-111s612is.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/BILLS-111s612is/pdf/BILLS-111s612is.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/OKHALH+BGsddV01, /OKGPGH+Cheltenham-Bold, /OKGPMN+Times-Roman, /OKGPDO+DeVinne, /OKGPPG+Helvetica, /OKHAHA+NewCenturySchlbk-Bold, /OKHAEH+Symbol, /OKGPKE+DeVinne-Italicforms-fail, forms-untagged, 
+
+### BSSD_Strategic_Plan_2021_HR.pdf
+
+- **URL**: https://science.osti.gov/-/media/ber/pdf/bssd/BSSD_Strategic_Plan_2021_HR.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, fonts:/HNJOED+OpenSans-Extrabold, /HNJOED+ArnoPro-Italic, /HNJOED+MyriadPro-SemiboldSemiCn, /QHVQAL+OpenSans-Semibold, /HNJOED+MyriadPro-BoldCond, /HNJOED+MyriadPro-BlackSemiCn, /WIDAGZ+OpenSans-Semibold, /HNJOED+Helvetica, /HNJOED+MyriadPro-SemiboldCond, /HNJOED+ArnoPro-Bold, /HNJOED+ArnoPro-BoldItalic, /HNJOED+MyriadPro-Bold, /HNJOED+MyriadPro-BoldSemiCn, /HNJOED+MyriadPro-SemiboldIt, /HNJOED+MyriadPro-Semibold, /HNJOED+OpenSans-BoldItalic, /HNJOED+OpenSans, /HNJOED+ArnoPro-Regular, /HNJOED+OpenSans-Semibold, /HNJOED+OpenSans-Bold, /HNJOED+MyriadPro-Black, /YYXMIV+OpenSans-Semibold, /HNJOED+OpenSans-Light, /HNJOED+MyriadPro-SemiCn, /JDDAGZ+OpenSans-Semibold, /HNJOED+MyriadPro-Cond, /HNJOED+MyriadPro-Regular, /HNJOED+OpenSans-SemiboldItalic, /HNJOED+ChartwellPies, /PZLKMN+OpenSans-Semibold, /HNJOED+MyriadPro-It, /XQNGUX+OpenSans-Semibold, /HNJOED+OpenSans-Italic, /KLNGUX+OpenSans-Semibolduntagged-images, annotations-untagged, 
+
+### CEQ%20Emergencies%20guidance%202016.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/CEQ%20Emergencies%20guidance%202016.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.596687+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CEQ%20Emergencies%20guidance%202020.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/CEQ%20Emergencies%20guidance%202020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.599017+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CEQ_Scoping_Guidance.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/CEQ_Scoping_Guidance.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.600748+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-028979.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-11/CX-028979.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.602671+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-029224.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-12/CX-029224.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.604537+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-270853.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-10/CX-270853.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.607414+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-270998_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/CX-270998_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.610182+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-271002.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/CX-271002.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.613457+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-271007.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/CX-271007.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.615466+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### CX-271014.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/CX-271014.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.617812+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DAF%20Notice%20of%20Adoption%20of%20CXs%2020260224.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-03/DAF%20Notice%20of%20Adoption%20of%20CXs%2020260224.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.619838+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DOE-NEPA-Implementing-Procedures-2026-02-02.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-NEPA-Implementing-Procedures-2026-02-02.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.622227+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DOE-NEPA-Implementing-Procedures-2026-06-16.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/DOE-NEPA-Implementing-Procedures-2026-06-16.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.624685+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### DOE-OIG-23-12.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-01/DOE-OIG-23-12.pdf
+- **Status**: analysed
+- title, lang, fonts:/YNDJSB+Arial-BoldMT, /YKEEXW+BookmanOldStyle, /XLUYJY+BookAntiqua-Bold, /XLUYJY+AbadiExtraLight, /EEDTYP+TimesNewRomanPS-BoldMT, /YNDJSB+ArialMT, /RPUTDK+Calibri, /OGBBIV+BookmanOldStyle-Bold, /GHCFAL+TimesNewRomanPSMTfigures-alt, headings-none, 
+
+### DOE-OIG-24-10.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-01/DOE-OIG-24-10.pdf
+- **Status**: analysed
+- title, lang, fonts:/TDQCBB+ArialMT, /SBZFTE+BookmanOldStyle, /TDQCBB+TimesNewRomanPSMT, /JGNURV+Arial-BoldMT, /SBZFTE+Calibri, /OGBTJL+TimesNewRomanPS-BoldMT, /EEYQZF+TimesNewRomanPS-ItalicMT, /CDXNDK+AbadiExtraLight, /CDXNDK+BookAntiqua-Boldfigures-alt, headings-none, 
+
+### DOE-OIG-25-10.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-02/DOE-OIG-25-10.pdf
+- **Status**: analysed
+- title, lang, fonts:/AGKITX+EngraversMT, /TimesNewRomanPSMT, /XVKYAZ+Arial-BoldItalicMT, /FMLUIJ+TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldMT, /ArialMT, /WAMKPF+TimesNewRomanPSMT, /UYALKF+Arial-BoldMT, /SymbolMT, /GTYAWH+SymbolMT, /TimesNewRomanPS-BoldItalicMT, /TimesNewRomanPS-ItalicMT, /BCDEEE+ArialNarrow-Bold, /EQUOUL+Cambria, /FQXMLN+Calibri, /FZNZIJ+ArialMT, /RMIOUL+TimesNewRomanPS-BoldMTfigures-alt, headings-none, 
+
+### DOE-OIG-26-07.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-07.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCEDEE+TimesNewRomanPS-BoldMT, /BCDHEE+Arial-BoldMT, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCDPEE+Figtree-BoldItalic, /BCDGEE+BookmanOldStyle, /BCEBEE+Figtree-SemiBoldItalic, /BCDEEE+Tahoma, /BCDIEE+TimesNewRomanPSMT, /SIDONT+Aptos-Bold, /BCDOEE+Figtree-Bold, /BCDMEE+Calibri, /BCECEE+SymbolMT, /BCEAEE+Figtree-BoldItalic, /GIGUBR+Calibri-Light, /BCDNEE+Figtree-Bold, /BCDFEE+ArialMT, /ULHAPP+Aptos, /BCDLEE+TimesNewRomanPSMT, /BCDJEE+TimesNewRomanPS-ItalicMTfigures-alt, lists-fail, 
+
+### DOE-OIG-26-08.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-08.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDIEE+Arial-BoldMT, /BCDNEE+TimesNewRomanPSMT, /BCDEEE+Tahoma, /BCDHEE+BookmanOldStyle, /BCDPEE+Figtree-Bold, /BCDLEE+TimesNewRomanPS-ItalicMT, /BCEDEE+ArialMT, /BCDOEE+Figtree-Bold, /BCEEEE+SymbolMT, /LACHPW+Aptos, /IYOPZC+Aptos-Bold, /BCDJEE+TimesNewRomanPSMT, /BCDMEE+TimesNewRomanPS-ItalicMT, /BCECEE+Figtree-SemiBoldItalic, /BCDKEE+TimesNewRomanPS-BoldMT, /BDEEFQ+Calibri-Light, /BCDFEE+ArialMT, /BCEAEE+Figtree-BoldItalic, /BCDGEE+Calibri, /BCEBEE+Figtree-BoldItalicfigures-alt, 
+
+### DOE-OIG-26-09.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-09.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDKEE+TimesNewRomanPS-ItalicMT, /BCDEEE+Arial-BoldMT, /BCDGEE+BookmanOldStyle, /TXSPKG+Aptos-Bold, /BCDNEE+Calibri, /GTGUKG+Calibri-Light, /BCDPEE+Figtree-Bold, /BCDIEE+BookmanOldStyle-Bold, /BCDOEE+Figtree-Bold, /WEGHAA+Aptos, /BCDMEE+TimesNewRomanPSMT, /BCECEE+Figtree-SemiBoldItalic, /BCDLEE+TimesNewRomanPS-BoldMT, /BCDHEE+TimesNewRomanPSMT, /BCDFEE+ArialMT, /BCEAEE+Figtree-BoldItalic, /BCDJEE+TimesNewRomanPS-ItalicMT, /BCEBEE+Figtree-BoldItalicfigures-alt, 
+
+### DOE-OIG-26-10.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-10.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDMEE+TimesNewRomanPS-BoldMT, /BCDHEE+Arial-BoldMT, /BCECEE+Figtree-BoldItalic, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCDGEE+BookmanOldStyle, /BCDNEE+TimesNewRomanPSMT, /BCDEEE+Tahoma, /BCDIEE+TimesNewRomanPSMT, /BCEFEE+SymbolMT, /BCDOEE+Calibri, /BCDJEE+BookmanOldStyle-Bold, /LFMLPS+Aptos, /BCDPEE+Figtree-Bold, /BCDLEE+TimesNewRomanPS-ItalicMT, /BCEDEE+Figtree-SemiBoldItalic, /WYBZNW+Calibri-Light, /BCEHEE+Calibri-Italic, /BCEGEE+Figtree-Regular, /JCNZNW+Aptos-Bold, /BCEAEE+Figtree-Bold, /BCDFEE+ArialMT, /BCEEEE+ArialMT, /BCEBEE+Figtree-BoldItalicfigures-alt, lists-fail, 
+
+### DOE-OIG-26-11.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-11.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDMEE+TimesNewRomanPS-BoldMT, /BCDHEE+Arial-BoldMT, /BCDEEE+Calibri-Light, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCDGEE+BookmanOldStyle, /BCDHEE+Calibri-Light, /BCDFEE+Aptos, /BCDEEE+Tahoma, /BCDIEE+TimesNewRomanPSMT, /BCDNEE+Calibri, /BCDPEE+Figtree-Bold, /BCDOEE+Figtree-Bold, /BCDGEE+Aptos,Bold, /BCEDEE+SymbolMT, /BCEAEE+Figtree-BoldItalic, /BCECEE+Figtree-SemiBoldItalic, /BCDFEE+ArialMT, /BCDLEE+TimesNewRomanPSMT, /BCDJEE+TimesNewRomanPS-ItalicMT, /BCEBEE+Figtree-BoldItalicfigures-alt, lists-fail, annotations-tagging-fail, 
+
+### DOE-OIG-26-12.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-02/DOE-OIG-26-12.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDMEE+TimesNewRomanPS-BoldMT, /HUWBVA+Calibri-Light, /BCDHEE+Arial-BoldMT, /BCECEE+Figtree-BoldItalic, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCEGEE+SymbolMT, /BCDGEE+BookmanOldStyle, /BCDNEE+TimesNewRomanPSMT, /TZYQHC+Aptos-Bold, /BCEFEE+TimesNewRomanPS-BoldItalicMT, /BCDEEE+Tahoma, /BCDIEE+TimesNewRomanPSMT, /BCDOEE+Calibri, /BCDJEE+BookmanOldStyle-Bold, /BCDPEE+Figtree-Bold, /BCDLEE+TimesNewRomanPS-ItalicMT, /BCEDEE+Figtree-SemiBoldItalic, /BCEAEE+Figtree-Bold, /BCDFEE+ArialMT, /WBHIXW+Aptos, /BCEEEE+ArialMT, /BCEBEE+Figtree-BoldItalicfigures-alt, 
+
+### DOE-OIG-26-13.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-04/DOE-OIG-26-13.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCDHEE+Arial-BoldMT, /BCDKEE+TimesNewRomanPSMT, /IYEZMC+TimesNewRomanPSMT, /MBGMNF+TimesNewRomanPS-ItalicMT, /BCDLEE+BookmanOldStyle-Bold, /BCDJEE+BookmanOldStyle, /VGHCTY+Aptos, /BCDOEE+TimesNewRomanPSMT, /BCDPEE+Figtree-Bold, /WYEUXL+TimesNewRomanPS-BoldMT, /MBGMNF+TimesNewRomanPSMT, /TRTNKG+TimesNewRomanPS-BoldMT, /BCDEEE+TimesNewRomanPS-BoldMT, /TDIQRC+Aptos-Bold, /BCDNEE+TimesNewRomanPS-ItalicMT, /WBFAAA+TimesNewRomanPS-ItalicMT, /WYEUXL+Arial-ItalicMT, /BCDMEE+TimesNewRomanPS-ItalicMT, /BCECEE+Figtree-SemiBoldItalic, /EWXEPG+Calibri-Light, /BCDIEE+Tahoma, /BCDFEE+ArialMT, /BCEAEE+Figtree-BoldItalic, /BCDGEE+Calibri, /BCEBEE+Figtree-BoldItalicfigures-alt, 
+
+### DOE-OIG-26-14.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-02/DOE-OIG-26-14.pdf
+- **Status**: analysed
+- title, lang, fonts:/LRRNHH+Figtree-SemiBold, /NEUEJD+ArialMT, /BCDEEE+Calibri-Light, /WCIGFL+TimesNewRomanPSMT, /EGGHNV+Tahoma, /UHCPDP+Figtree-Bold, /BCDHEE+Calibri-Light, /BCDFEE+Aptos, /HDQUDP+TimesNewRomanPS-ItalicMT, /XJQHTJ+TimesNewRomanPS-BoldMT, /BCDGEE+Aptos,Bold, /UMGUDP+Calibri, /FNTIBT+Arial-BoldMT, /SEDDBT+Figtree-BoldItalic, /HVSUDP+BookmanOldStyle, /JGUGFL+BookmanOldStyle-Boldfigures-alt, 
+
+### EA-1329-FONSI-03-2004.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EA-1329-FONSI-03-2004.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.668067+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EA-1408-FEA-2002_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/EA-1408-FEA-2002_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.678976+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EA-1774-FEA-2010.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EA-1774-FEA-2010.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.680776+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EA-1774-FONSI-2010.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EA-1774-FONSI-2010.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.682449+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0293-ROD-2000.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0293-ROD-2000.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.684347+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0329-AdNOI-2001.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0329-AdNOI-2001.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.686005+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0359-DSA-DOE-NOA-2007.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0359-DSA-DOE-NOA-2007.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.687665+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0359-ROD-2004.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0359-ROD-2004.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.689327+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0359-SA-01_EIS-0360-SA-01-2007.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/EIS-0359-SA-01_EIS-0360-SA-01-2007.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.691364+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0360-DSA-DOE-NOA-2007.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/EIS-0360-DSA-DOE-NOA-2007.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.692998+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### EIS-0507_BLM_NOA_FEIS.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2016/11/f34/EIS-0507_BLM_NOA_FEIS.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.695044+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FR-Notice-CX-Advanced-Nuclear-Reactors-2026-02-02.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-02/FR-Notice-CX-Advanced-Nuclear-Reactors-2026-02-02.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.697038+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### FRICK%20ZEB%202022%20FINAL%20May%20update_compliant.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-05/FRICK%20ZEB%202022%20FINAL%20May%20update_compliant.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.712088+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-40Questions.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2018/06/f53/G-CEQ-40Questions.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.714592+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-CoopAgenciesImplem.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-CEQ-CoopAgenciesImplem.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.716264+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-DesigNonfedCoopAgencies.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/G-CEQ-DesigNonfedCoopAgencies.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.718091+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-DredgedFillMaterials.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-CEQ-DredgedFillMaterials.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.720736+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-GuidanceRegulations.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-CEQ-GuidanceRegulations.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.722940+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-CEQ-PastActsCumulEffects.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-CEQ-PastActsCumulEffects.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.727236+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-DOE-AccidentAnalysis.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-DOE-AccidentAnalysis.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.729492+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-DOE-CERCLAandRCRA.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/nepapub/nepa_documents/RedDont/G-DOE-CERCLAandRCRA.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.731685+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### G-Oth-Managing_NEPA_DOE.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/G-Oth-Managing_NEPA_DOE.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.733693+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### GPO-RIDDICK-1992-34.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/GPO-RIDDICK-1992/pdf/GPO-RIDDICK-1992-34.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.752516+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### HARC%20ZEB%20Final%20may%202022%20updates%20w%20photo%20credits_compliant%20v2.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-08/HARC%20ZEB%20Final%20may%202022%20updates%20w%20photo%20credits_compliant%20v2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.764467+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### John%20%26%20Barbara.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/09/f79/John%20%26%20Barbara.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.766613+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### LCG%20FR%20Notice_0.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2019/09/f66/LCG%20FR%20Notice_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.768860+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### M-19-15.pdf
+
+- **URL**: https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-15.pdf
+- **Status**: analysed
+- fonts:/Helvetica, /Times-Bold, /Helvetica-Oblique, /Times-BoldItalic, /Times-Italic, /Times-Romanheadings-warn, 
+
+### Mitigate_Effects_Rivers.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/Mitigate_Effects_Rivers.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.774784+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NASA%20Notice%20of%20Adoption%20of%20CXs%2020260218.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-02/NASA%20Notice%20of%20Adoption%20of%20CXs%2020260218.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.776794+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NCO-Directory-2026-06-30.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/NCO-Directory-2026-06-30.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.778630+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NEPA-CEQ_Mitigation_and_Monitoring_Guidance_14Jan2011.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2017/06/f35/NEPA-CEQ_Mitigation_and_Monitoring_Guidance_14Jan2011.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.782603+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### NEPA_CEQGuidance_EfficientReviewsUnderNEPA_03_12_12.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/NEPA_CEQGuidance_EfficientReviewsUnderNEPA_03_12_12.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.784725+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Need%20to%20Consider%20Intentional%20Destructive%20Acts%20in%20NEPA%20Documents%202006-12-01.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-08/Need%20to%20Consider%20Intentional%20Destructive%20Acts%20in%20NEPA%20Documents%202006-12-01.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.786452+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### RGLNG%20DOE%20Extension%20Application%20August%2019%202020.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/08/f77/RGLNG%20DOE%20Extension%20Application%20August%2019%202020.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.790134+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### RGLNG-Final%20Updates%20to%20DOE%20NFTA%20Application%2011.26.19.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2019/12/f69/RGLNG-Final%20Updates%20to%20DOE%20NFTA%20Application%2011.26.19.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.792188+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Recommendations_for_the_supplement_analysis_process.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2013/10/f4/Recommendations_for_the_supplement_analysis_process.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.795225+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Rio%20Grande%20LNG%20LLC%2002_03_20.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/02/f71/Rio%20Grande%20LNG%20LLC%2002_03_20.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.796880+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Short-Term%20LNG%20Exports%20Blanket%20Order%20CX.pdf
+
+- **URL**: https://www.energy.gov/sites/prod/files/2020/12/f81/Short-Term%20LNG%20Exports%20Blanket%20Order%20CX.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.798674+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### TVA%20Notice%20of%20Adoption%20of%20CXs%2020250114.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/TVA%20Notice%20of%20Adoption%20of%20CXs%2020250114.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.800665+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### USDA%20CX%20Adoption%20-%20Public%20Notice%20-%20Signed.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-06/USDA%20CX%20Adoption%20-%20Public%20Notice%20-%20Signed.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.803077+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf
+- **Status**: analysed
+- title, fonts:/HCSFSP+TimesNewRomanPS-BoldMT, /SLDOQT+Arial-BoldMT, /CKHBAZ+TimesNewRomanPS-ItalicMT, /AXEKYD+ArialMT, /GGBUER+Century, /ZNXOKF+TimesNewRomanPSMT
+
+### Written-Record-Advanced-Nuclear-Reactor-CX-2026-02-02.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/Written-Record-Advanced-Nuclear-Reactor-CX-2026-02-02.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.808672+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### action-memorandum-attach-1-background-and-supporting-discussionpdf.pdf
+
+- **URL**: https://www.energy.gov/documents/action-memorandum-attach-1-background-and-supporting-discussionpdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.810659+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### action-memorandum-attach-2-finalreportpdf-1.pdf
+
+- **URL**: https://www.energy.gov/documents/action-memorandum-attach-2-finalreportpdf-1
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.830525+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### adoption-eis-0518-annova-lng-brownsville-2019-05pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/adoption-eis-0518-annova-lng-brownsville-2019-05pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.832827+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### adoption-letter-eis-0518-annova-lng-2019-04-26pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/adoption-letter-eis-0518-annova-lng-2019-04-26pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.835076+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### adoption-letter-eis-0519-rio-grande-lng-2019-05-07pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/adoption-letter-eis-0519-rio-grande-lng-2019-05-07pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.837317+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### alternativearrangementschart092908pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/alternativearrangementschart092908pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.839078+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### amended-rod-eis-0360-duf6-2020-01pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/amended-rod-eis-0360-duf6-2020-01pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.841260+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### amended-rod-eis-0423-and-0423-s1-elemental-mercury-2020-10pdf.pdf
+
+- **URL**: https://www.energy.gov/documents/amended-rod-eis-0423-and-0423-s1-elemental-mercury-2020-10pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.843368+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### amendment-s2488.pdf
+
+- **URL**: https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amendment-s2488.pdf
+- **Status**: analysed
+- title, fonts:/Helvetica, /Times-Bold, /Times-Italic, /Helvetica-Bold, /Times-Romanlists-warn, 
+
+### answer-potomac-electric-power-company-and-pjm-lnterconnection-llc-october-6-2005-motion.pdf
+
+- **URL**: https://www.energy.gov/oe/articles/answer-potomac-electric-power-company-and-pjm-lnterconnection-llc-october-6-2005-motion
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.850866+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### appendix-c-analytical-data.pdf
+
+- **URL**: https://www.energy.gov/oe/articles/appendix-c-analytical-data
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.855524+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### appendix-d-facility-process-data-and-appendix-e-equipment-calibration-data-sheets.pdf
+
+- **URL**: https://www.energy.gov/oe/articles/appendix-d-facility-process-data-and-appendix-e-equipment-calibration-data-sheets
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-06T16:16:25.859707+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 2024proceduralsafeguards-spanish.pdf
 
