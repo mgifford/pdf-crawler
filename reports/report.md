@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-08T13:20:03.763896+00:00
+Generated: 2026-07-08T14:26:06.638030+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 351 |
-| Total files tracked | 23097 |
-| Analysed | 5851 |
-| Pending analysis | 11047 |
-| Errors during analysis | 6199 |
-| Accessible | 1944 |
-| Totally inaccessible | 256 |
+| URLs crawled | 1214 |
+| Total files tracked | 23959 |
+| Analysed | 5950 |
+| Pending analysis | 11909 |
+| Errors during analysis | 6100 |
+| Accessible | 1946 |
+| Totally inaccessible | 258 |
 | Broken / unreadable | 26 |
-| Exempt (pre-2018) | 1430 |
+| Exempt (pre-2018) | 1478 |
 
 ## Files per Site
 
@@ -44,7 +44,7 @@ Generated: 2026-07-08T13:20:03.763896+00:00
 | ecboces.org | 75 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 2146 |
+| energy.gov | 3008 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
@@ -695,6 +695,7 @@ Generated: 2026-07-08T13:20:03.763896+00:00
 | [2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2024-04/2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf) | energy.gov | 2024-04-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 29 | — | — |
 | [2025-reporting-webinar.pdf](https://epact.energy.gov/pdfs/2025-reporting-webinar.pdf) | energy.gov | 2025-12-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 29 | — | — |
 | [2025Summit-Long_Term_Planning_Savings_Multifamily-Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2025-05/2025Summit-Long_Term_Planning_Savings_Multifamily-Slides.pdf) | energy.gov | 2025-05-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 36 | — | — |
+| [233%20-%20PI%20Order%20and%20Mem.%20Op..pdf](https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf) | energy.gov | 2025-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 53 | — | — |
 | [2527.pdf](https://afdc.energy.gov/files/pdfs/2527.pdf) | energy.gov | 2008-08-22 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 357 | — | — |
 | [3-3-15-Dealerships-to-Donuts-slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/3-3-15-Dealerships-to-Donuts-slides.pdf) | energy.gov | 2015-03-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 40 | — | — |
 | [3-3-15-Dealerships-to-Donuts-transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/3-3-15-Dealerships-to-Donuts-transcript.pdf) | energy.gov | 2015-03-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — |
@@ -804,6 +805,7 @@ Generated: 2026-07-08T13:20:03.763896+00:00
 | [QECB-FAQ_final.pdf](https://www.energy.gov/sites/prod/files/2017/08/f36/QECB-FAQ_final.pdf) | energy.gov | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
 | [QuantumWkshpRpt20FINAL_Nav_0.pdf](https://www.energy.gov/sites/prod/files/2020/07/f76/QuantumWkshpRpt20FINAL_Nav_0.pdf) | energy.gov | 2020-07-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 36 | — | — |
 | [Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f](https://cleancities.energy.gov/files/u/news_events/document/document_url/132/Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f) | energy.gov | 2016-12-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — |
+| [RI_TRO_Notice.pdf](https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf) | energy.gov | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 15 | — | — |
 | [Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf) | energy.gov | 2014-05-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 81 | — | — |
 | [Red-Volunteer.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/05/Red-Volunteer.pdf) | energy.gov | 2025-05-23 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [Renew_America%27s_Nonrprofits_Office_Hours_2_Presentation.pdf](https://www.energy.gov/sites/default/files/2023-07/Renew_America%27s_Nonrprofits_Office_Hours_2_Presentation.pdf) | energy.gov | 2023-07-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 33 | — | — |
@@ -4069,11 +4071,12 @@ Generated: 2026-07-08T13:20:03.763896+00:00
 | [DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf](https://www.energy.gov/sites/default/files/2025-11/DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf) | energy.gov | 2025-10-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 73 | 18302 | 58 |
 | [MSIPP%20FY2022%20%20Impact_2.pdf](https://www.energy.gov/sites/default/files/2023-06/MSIPP%20FY2022%20%20Impact_2.pdf) | energy.gov | 2023-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 923 | 3 |
 | [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 22 | 7021 | 7 |
+| [PIA%20Guide%20Aug%202023_0.pdf](https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf) | energy.gov | 2023-08-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 37 | — | — |
 | [applying-msipp-grants.pdf](https://www.energy.gov/nnsa/articles/applying-msipp-grants) | energy.gov | 2023-03-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 2436 | 1 |
 | [centralia-order-no-202-26-18.pdf](https://www.energy.gov/documents/centralia-order-no-202-26-18) | energy.gov | — | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 2703 | 1 |
 | [fossil-energy-fy-2009-budget.pdf](https://www.energy.gov/hgeo/articles/fossil-energy-fy-2009-budget) | energy.gov | 2013-05-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 14 | 3375 | 0 |
 | [gto-quarterly-update-q1-2020.pdf](https://www.energy.gov/hgeo/geothermal/articles/gto-quarterly-update-q1-2020) | energy.gov | 2020-01-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 30 | 1644 | 136 |
-| [guide-financial-assistance-october-2024pdf.pdf](https://www.energy.gov/documents/guide-financial-assistance-october-2024pdf) | energy.gov | 2025-01-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 116 | 46444 | 1 |
+| [guide-financial-assistance-october-2024pdf.pdf](https://www.energy.gov/documents/guide-financial-assistance-october-2024pdf) | energy.gov | 2025-01-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 116 | — | — |
 | [next-generation-nuclear-plant-report-congress.pdf](https://www.energy.gov/ne/articles/next-generation-nuclear-plant-report-congress) | energy.gov | 2010-04-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 36 | 11886 | 498 |
 | [ord4446-B.pdf](https://www.energy.gov/sites/default/files/2026-03/ord4446-B.pdf) | energy.gov | 2026-03-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 68 | 22266 | 0 |
 | [march-2023-thank-you.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/pages/march-2023-thank-you.pdf) | dnr.state.mn.us | 2023-03-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 27 | 25097 | 26 |
@@ -4096,10 +4099,10 @@ Generated: 2026-07-08T13:20:03.763896+00:00
 | [Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf](https://www.energy.gov/sites/default/files/2020/12/f81/Energy%20Storage%20Grand%20Challenge%20Roadmap.pdf) | energy.gov | 2020-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 157 | 61649 | 119 |
 | [FCAB%20Year%20End%20Report%20Oct%202021%20FINAL.pdf](https://www.energy.gov/sites/default/files/2021-12/FCAB%20Year%20End%20Report%20Oct%202021%20FINAL.pdf) | energy.gov | 2021-12-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 505 | 2 |
 | [FY2017BudgetVolume3.pdf](https://www.energy.gov/sites/prod/files/2016/02/f30/FY2017BudgetVolume3.pdf) | energy.gov | 2016-02-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 822 | 234372 | 10 |
-| [FY21-DOEAnnualReport_ConfActivities_Web_0.pdf](https://www.energy.gov/sites/default/files/2022-01/FY21-DOEAnnualReport_ConfActivities_Web_0.pdf) | energy.gov | 2022-01-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 503 | 0 |
-| [FY22-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2023-01/FY22-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2023-01-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | 1283 | 5 |
-| [FY23-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2024-01/FY23-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2024-01-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | 1642 | 5 |
-| [FY24-DOE-Conference-Activity-Annual-Report.pdf](https://www.energy.gov/sites/default/files/2025-01/FY24-DOE-Conference-Activity-Annual-Report.pdf) | energy.gov | 2025-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | 2605 | 7 |
+| [FY21-DOEAnnualReport_ConfActivities_Web_0.pdf](https://www.energy.gov/sites/default/files/2022-01/FY21-DOEAnnualReport_ConfActivities_Web_0.pdf) | energy.gov | 2022-01-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 3 | — | — |
+| [FY22-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2023-01/FY22-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2023-01-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 11 | — | — |
+| [FY23-DOEAnnualReport_ConfActivities_Web.pdf](https://www.energy.gov/sites/default/files/2024-01/FY23-DOEAnnualReport_ConfActivities_Web.pdf) | energy.gov | 2024-01-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 13 | — | — |
+| [FY24-DOE-Conference-Activity-Annual-Report.pdf](https://www.energy.gov/sites/default/files/2025-01/FY24-DOE-Conference-Activity-Annual-Report.pdf) | energy.gov | 2025-01-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ❌ Fail | ❌ Fail | 16 | — | — |
 | [FY24SSMP_FINAL_NOVEMBER_2023_0.pdf](https://www.energy.gov/sites/default/files/2023-11/FY24SSMP_FINAL_NOVEMBER_2023_0.pdf) | energy.gov | 2023-11-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 335 | 127163 | 279 |
 | [GRIP_Call-for-Reviewers_March-13-2023.pdf](https://www.energy.gov/sites/default/files/2023-03/GRIP_Call-for-Reviewers_March-13-2023.pdf) | energy.gov | 2023-03-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 460 | 2 |
 | [Indiana_Investing-in-America_December-2024_0.pdf](https://www.energy.gov/sites/default/files/2025-01/Indiana_Investing-in-America_December-2024_0.pdf) | energy.gov | 2025-01-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 484 | 3 |
@@ -4181,6 +4184,7 @@ Generated: 2026-07-08T13:20:03.763896+00:00
 | [validation_shervais_snake_river.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_shervais_snake_river.pdf) | energy.gov | 2010-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 16 | 1283 | 31 |
 | [validation_stockli_detachment_faulting.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_stockli_detachment_faulting.pdf) | energy.gov | 2010-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | 820 | 17 |
 | [validation_teplow_large_aperture.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_teplow_large_aperture.pdf) | energy.gov | 2010-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 15 | 919 | 25 |
+| [what-foia.pdf](https://www.energy.gov/gc/articles/what-foia) | energy.gov | 2007-03-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ✅ Pass | 2 | — | — |
 | [wpto-third-9505-assessment-0.pdf](https://www.energy.gov/sites/default/files/2022-11/wpto-third-9505-assessment.pdf) | energy.gov | 2022-11-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 667 | 3 |
 | [wpto-third-9505-assessment.pdf](https://www.energy.gov/sites/default/files/2023-01/wpto-third-9505-assessment.pdf) | energy.gov | 2023-01-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 667 | 3 |
 | [accessible-pdfs-an-actionable-guide-for-every-business.pdf](https://s.smallpdf.com/static/cms/f/102628/x/70ab56427d/accessible-pdfs-an-actionable-guide-for-every-business.pdf) | smallpdf.com | 2025-06-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 25 | 4222 | 0 |
@@ -5062,6 +5066,8 @@ Generated: 2026-07-08T13:20:03.763896+00:00
 | [Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf) | doit.maryland.gov | 2025-12-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 116 | 1 |
 | [2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf](https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team) | energy.gov | 2023-04-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 212 | 10 |
 | [Infographic%20SPR%2002_2023.pdf](https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf) | energy.gov | 2023-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 603 | 4 |
+| [OEA_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [WAPA_Posting_Notice.pdf](https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [doe-national-labs-report-finalpdf.pdf](https://www.energy.gov/documents/doe-national-labs-report-finalpdf) | energy.gov | 2021-01-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 96 | 38681 | 144 |
 | [h2iq-hour-10282021.pdf](https://www.energy.gov/sites/default/files/2021-11/h2iq-hour-10282021.pdf) | energy.gov | 2021-11-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 25 | 1768 | 212 |
 | [nuclear-power-summary.pdf](https://www.energy.gov/ne/articles/nuclear-power-summary) | energy.gov | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 8 | 2283 | 14 |
@@ -5111,6 +5117,7 @@ Generated: 2026-07-08T13:20:03.763896+00:00
 | [antares_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/03/f14/antares_project_abstract.pdf) | energy.gov | 2012-12-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 372 | 0 |
 | [appendix-e-coverpdf.pdf](https://www.energy.gov/documents/appendix-e-coverpdf) | energy.gov | 2016-12-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 8 | 0 |
 | [appendix-e-mrlpdf.pdf](https://www.energy.gov/documents/appendix-e-mrlpdf) | energy.gov | 2016-12-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 126 | 8387 | 215 |
+| [attachment-bpa-master-performance-work-statementpdf.pdf](https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf) | energy.gov | 2022-06-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 12 | — | — |
 | [busch-weldon-greenspace-map.pdf](https://www.energy.gov/lm/articles/busch-weldon-greenspace-map) | energy.gov | 2018-11-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 261 | 7 |
 | [corky-mittelsteadt-plug-power.pdf](https://www.energy.gov/documents/corky-mittelsteadt-plug-power) | energy.gov | 2022-04-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | 746 | 69 |
 | [doe-nepa-compliance-officers-directory-march-23-2026.pdf](https://www.energy.gov/documents/doe-nepa-compliance-officers-directory-march-23-2026) | energy.gov | 2026-03-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 677 | 0 |
@@ -5142,6 +5149,7 @@ Generated: 2026-07-08T13:20:03.763896+00:00
 | [ground-based-coastal-air-surveillance-radar-wtri-study-public-summary.pdf](https://www.energy.gov/documents/ground-based-coastal-air-surveillance-radar-wtri-study-public-summary) | energy.gov | 2017-12-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | 1726 | 4 |
 | [hallam-nebraska-decommissioned-reactor-site-fact-sheet.pdf](https://www.energy.gov/lm/articles/hallam-nebraska-decommissioned-reactor-site-fact-sheet) | energy.gov | 2025-12-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 1093 | 6 |
 | [history-atomic-energy-commission.pdf](https://www.energy.gov/management/articles/history-atomic-energy-commission) | energy.gov | 2012-03-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 42 | 11420 | 23 |
+| [nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf](https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf) | energy.gov | 2023-09-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | — | — |
 | [noa-eis-0552-lanl-site-wide-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/noa-eis-0552-lanl-site-wide-2026-03.pdf) | energy.gov | 2026-03-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 1068 | 0 |
 | [noi-eis-0552-lanl-site-wide-2022-08pdf.pdf](https://www.energy.gov/documents/noi-eis-0552-lanl-site-wide-2022-08pdf) | energy.gov | 2022-08-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 4077 | 0 |
 | [order-granting-rehearing-request-nos-202-26-01-though-15.pdf](https://www.energy.gov/documents/order-granting-rehearing-request-nos-202-26-01-though-15) | energy.gov | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1317 | 1 |
@@ -5907,6 +5915,97 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [inz1002.pdf](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1002.pdf) | govt.nz | 2025-09-23 | INZ 1002 Residence Guide | Immigration New Zealand | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 20 | 9579 | 0 |
 | [new-zealands-tourism-policy-statement.pdf](https://www.mbie.govt.nz/assets/new-zealands-tourism-policy-statement.pdf) | govt.nz | 2026-06-25 | New Zealand's Tourism Policy Statement | Ministry of Business, Innovatoin and Employment | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 12191 | 168 |
 | [service-coverage-expectations-2025-26.pdf](https://www.health.govt.nz/system/files/2025-08/service-coverage-expectations-2025-26.pdf) | govt.nz | 2025-08-07 | Microsoft Word - Service Coverage Expectations 2025-26 | aschmidt | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 27 | 8877 | 2 |
+| [10-cfr-1021-nofr-fed-reg-2020-12-04pdf.pdf](https://www.energy.gov/documents/10-cfr-1021-nofr-fed-reg-2020-12-04pdf) | energy.gov | 2020-12-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 9 | — | — |
+| [10-cfr-1021-notice-extension-2023-12-26pdf.pdf](https://www.energy.gov/documents/10-cfr-1021-notice-extension-2023-12-26pdf) | energy.gov | 2023-12-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf.pdf](https://www.energy.gov/documents/10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf) | energy.gov | 2021-04-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 69 | — | — |
+| [10-cfr-part-1021-version-effect-time-2011-rulemaking.pdf](https://www.energy.gov/nepa/articles/10-cfr-part-1021-version-effect-time-2011-rulemaking) | energy.gov | 2021-04-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 34 | — | — |
+| [1978-02-21-proposed-1021pdf.pdf](https://www.energy.gov/documents/1978-02-21-proposed-1021pdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | ❌ Fail | NotApplicable | ✅ Pass | 12 | — | — |
+| [1978-07-19-proposed-1022pdf.pdf](https://www.energy.gov/documents/1978-07-19-proposed-1022pdf) | energy.gov | 2016-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 5 | — | — |
+| [1979-03-07-final-1022pdf-0.pdf](https://www.energy.gov/documents/1979-03-07-final-1022pdf-0) | energy.gov | 2018-08-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 6 | — | — |
+| [1979-07-18-proposed-guidelinespdf.pdf](https://www.energy.gov/documents/1979-07-18-proposed-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 12 | — | — |
+| [1979-08-06-final-1021pdf.pdf](https://www.energy.gov/documents/1979-08-06-final-1021pdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ❌ Fail | NotApplicable | ✅ Pass | 1 | — | — |
+| [1980-03-28-final-guidelines-completepdf.pdf](https://www.energy.gov/documents/1980-03-28-final-guidelines-completepdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | Warn | Warn | ❌ Fail | ✅ Pass | ✅ Pass | 8 | — | — |
+| [1980-08-11-proposed-guidelinespdf.pdf](https://www.energy.gov/documents/1980-08-11-proposed-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ❌ Fail | ✅ Pass | ✅ Pass | 3 | — | — |
+| [1980-10-20-order-54401apdf.pdf](https://www.energy.gov/documents/1980-10-20-order-54401apdf) | energy.gov | 2017-06-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 8 | — | — |
+| [1980-11-26-final-guidelinespdf.pdf](https://www.energy.gov/documents/1980-11-26-final-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ✅ Pass | 2 | — | — |
+| [1980-12-17-proposed-guidelinespdf.pdf](https://www.energy.gov/documents/1980-12-17-proposed-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ✅ Pass | 2 | — | — |
+| [1981-07-16-proposed-guidelinespdf.pdf](https://www.energy.gov/documents/1981-07-16-proposed-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | Warn | Warn | ❌ Fail | NotApplicable | ✅ Pass | 2 | — | — |
+| [1982-02-23-final-guidelines-section-d-completepdf.pdf](https://www.energy.gov/documents/1982-02-23-final-guidelines-section-d-completepdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 4 | — | — |
+| [1982-05-14-order-54401bpdf.pdf](https://www.energy.gov/documents/1982-05-14-order-54401bpdf) | energy.gov | 2017-06-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 9 | — | — |
+| [1982-11-22-proposed-guidelinespdf.pdf](https://www.energy.gov/documents/1982-11-22-proposed-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | ❌ Fail | NotApplicable | ✅ Pass | 2 | — | — |
+| [1983-01-06-final-guidelinespdf.pdf](https://www.energy.gov/documents/1983-01-06-final-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | Warn | Warn | ❌ Fail | NotApplicable | ✅ Pass | 2 | — | — |
+| [1985-02-25-proposed-guidelinespdf.pdf](https://www.energy.gov/documents/1985-02-25-proposed-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 2 | — | — |
+| [1985-04-09-order-54401cpdf.pdf](https://www.energy.gov/documents/1985-04-09-order-54401cpdf) | energy.gov | 2017-06-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 10 | — | — |
+| [1986-05-22-proposed-guidelinespdf.pdf](https://www.energy.gov/documents/1986-05-22-proposed-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ❌ Fail | NotApplicable | ✅ Pass | 2 | — | — |
+| [1987-01-07-final-guidelinespdf.pdf](https://www.energy.gov/documents/1987-01-07-final-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 1 | — | — |
+| [1987-12-15-final-guidelines-completepdf.pdf](https://www.energy.gov/documents/1987-12-15-final-guidelines-completepdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 9 | — | — |
+| [1988-08-09-proposed-guidelinespdf.pdf](https://www.energy.gov/documents/1988-08-09-proposed-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ❌ Fail | NotApplicable | ✅ Pass | 3 | — | — |
+| [1989-03-27-final-guidelinespdf.pdf](https://www.energy.gov/documents/1989-03-27-final-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ✅ Pass | 2 | — | — |
+| [1990-02-02-policy-sen-15-90pdf.pdf](https://www.energy.gov/documents/1990-02-02-policy-sen-15-90pdf) | energy.gov | 2015-04-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 5 | — | — |
+| [1990-04-06-proposed-guidelinespdf.pdf](https://www.energy.gov/documents/1990-04-06-proposed-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ❌ Fail | NotApplicable | ✅ Pass | 3 | — | — |
+| [1990-09-07-final-guidelinespdf.pdf](https://www.energy.gov/documents/1990-09-07-final-guidelinespdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ❌ Fail | NotApplicable | ✅ Pass | 6 | — | — |
+| [1990-11-02-proposed-1021pdf.pdf](https://www.energy.gov/documents/1990-11-02-proposed-1021pdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 21 | — | — |
+| [1990-11-15-proposed-revocation-guidelinespdf.pdf](https://www.energy.gov/documents/1990-11-15-proposed-revocation-guidelinespdf) | energy.gov | 2019-08-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [1991-02-22-order-54401dpdf.pdf](https://www.energy.gov/documents/1991-02-22-order-54401dpdf) | energy.gov | 2017-06-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 18 | — | — |
+| [1992-04-24-final-1021pdf.pdf](https://www.energy.gov/documents/1992-04-24-final-1021pdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 38 | — | — |
+| [1992-11-10-order-54401epdf.pdf](https://www.energy.gov/documents/1992-11-10-order-54401epdf) | energy.gov | 1996-09-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 20 | — | — |
+| [1994-06-13-policy-secretarial-policy-nepapdf.pdf](https://www.energy.gov/documents/1994-06-13-policy-secretarial-policy-nepapdf) | energy.gov | 2017-04-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 11 | — | — |
+| [1995-09-11-order-4511pdf.pdf](https://www.energy.gov/documents/1995-09-11-order-4511pdf) | energy.gov | 1996-02-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 7 | — | — |
+| [1996-02-20-proposed-1021pdf.pdf](https://www.energy.gov/documents/1996-02-20-proposed-1021pdf) | energy.gov | 2010-07-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 13 | — | — |
+| [1996-07-09-final-1021-limited-reopening-comment-periodpdf.pdf](https://www.energy.gov/documents/1996-07-09-final-1021-limited-reopening-comment-periodpdf) | energy.gov | 2016-04-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [1996-07-09-final-1021pdf.pdf](https://www.energy.gov/documents/1996-07-09-final-1021pdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | ❌ Fail | NotApplicable | ✅ Pass | 22 | — | — |
+| [1996-12-06-final-1021pdf.pdf](https://www.energy.gov/documents/1996-12-06-final-1021pdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | ❌ Fail | NotApplicable | ✅ Pass | 7 | — | — |
+| [1997-06-05-order-4511apdf.pdf](https://www.energy.gov/documents/1997-06-05-order-4511apdf) | energy.gov | 1997-06-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 10 | — | — |
+| [2000-10-26-order-4511bpdf.pdf](https://www.energy.gov/documents/2000-10-26-order-4511bpdf) | energy.gov | 2000-10-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 11 | — | — |
+| [2001-09-28-order-4511b-change-1pdf.pdf](https://www.energy.gov/documents/2001-09-28-order-4511b-change-1pdf) | energy.gov | 2001-10-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 12 | — | — |
+| [2002-11-18-proposed-1021-and-1022pdf.pdf](https://www.energy.gov/documents/2002-11-18-proposed-1021-and-1022pdf) | energy.gov | 2016-03-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 12 | — | — |
+| [2003-08-27-final-1021-and-1022pdf.pdf](https://www.energy.gov/documents/2003-08-27-final-1021-and-1022pdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | ❌ Fail | NotApplicable | ✅ Pass | 8 | — | — |
+| [2006-10-06-notice-4511pdf.pdf](https://www.energy.gov/documents/2006-10-06-notice-4511pdf) | energy.gov | 2006-10-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 4 | — | — |
+| [2006-11-28-final-1021-and-other-partspdf.pdf](https://www.energy.gov/documents/2006-11-28-final-1021-and-other-partspdf) | energy.gov | 2011-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | ❌ Fail | NotApplicable | ✅ Pass | 12 | — | — |
+| [2009-03-ceq-doe-categorical-exclusionspdf.pdf](https://www.energy.gov/documents/2009-03-ceq-doe-categorical-exclusionspdf) | energy.gov | 2019-06-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 6 | — | — |
+| [2009-10-02-policy-nepa-transparency-and-opennesspdf.pdf](https://www.energy.gov/documents/2009-10-02-policy-nepa-transparency-and-opennesspdf) | energy.gov | 2011-08-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 2 | — | — |
+| [2010-06-25-order-4511b-change-2pdf.pdf](https://www.energy.gov/documents/2010-06-25-order-4511b-change-2pdf) | energy.gov | 2010-06-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 11 | — | — |
+| [2010-07-16-policy-public-involvement-ea-processpdf.pdf](https://www.energy.gov/documents/2010-07-16-policy-public-involvement-ea-processpdf) | energy.gov | 2012-05-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 1 | — | — |
+| [2011-01-03-proposed-1021pdf.pdf](https://www.energy.gov/documents/2011-01-03-proposed-1021pdf) | energy.gov | 2011-01-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 36 | — | — |
+| [2011-10-13-final-1021pdf.pdf](https://www.energy.gov/documents/2011-10-13-final-1021pdf) | energy.gov | 2012-02-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 37 | — | — |
+| [2012-01-19-order-4511b-change-3pdf.pdf](https://www.energy.gov/documents/2012-01-19-order-4511b-change-3pdf) | energy.gov | 2012-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | 15 | — | — |
+| [2012-06-12-policy-integrating-nepa-program-project-managementpdf.pdf](https://www.energy.gov/documents/2012-06-12-policy-integrating-nepa-program-project-managementpdf) | energy.gov | 2012-06-12 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 3 | — | — |
+| [2016-10-06-order-4511b-change-3-variances-annotatedpdf.pdf](https://www.energy.gov/documents/2016-10-06-order-4511b-change-3-variances-annotatedpdf) | energy.gov | 2017-01-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | 15 | — | — |
+| [2016-18620.pdf](https://www.govinfo.gov/content/pkg/FR-2016-08-05/pdf/2016-18620.pdf) | energy.gov *(ext: govinfo.gov)* | 2024-06-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [2017-06576.pdf](https://www.govinfo.gov/content/pkg/FR-2017-03-31/pdf/2017-06576.pdf) | energy.gov *(ext: govinfo.gov)* | 2024-06-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | — | — |
+| [2017-06770.pdf](https://www.govinfo.gov/content/pkg/FR-2017-04-05/pdf/2017-06770.pdf) | energy.gov *(ext: govinfo.gov)* | 2024-06-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [2017-12-21-policy-4511-cancelling-nepa-orderpdf.pdf](https://www.energy.gov/documents/2017-12-21-policy-4511-cancelling-nepa-orderpdf) | energy.gov | 2017-12-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | 1 | — | — |
+| [2019-13576.pdf](https://www.govinfo.gov/content/pkg/FR-2019-06-26/pdf/2019-13576.pdf) | energy.gov *(ext: govinfo.gov)* | 2024-05-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2023-01-12-cx-rfi-re-openpdf-0.pdf](https://www.energy.gov/documents/2023-01-12-cx-rfi-re-openpdf-0) | energy.gov | 2023-01-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [2023-01-ceq-interim-guidance-ghg-emissions-climate-change.pdf](https://www.energy.gov/documents/2023-01-ceq-interim-guidance-ghg-emissions-climate-change) | energy.gov | 2023-01-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 17 | — | — |
+| [2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext.pdf](https://www.energy.gov/documents/2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext) | energy.gov | 2023-02-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [2023-09-20-dot-adoption-doe-cx-b5-23-classespdf.pdf](https://www.energy.gov/documents/2023-09-20-dot-adoption-doe-cx-b5-23-classespdf) | energy.gov | 2023-09-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [2023-09-20-nist-adoption-doe-multi-cx-classespdf.pdf](https://www.energy.gov/documents/2023-09-20-nist-adoption-doe-multi-cx-classespdf) | energy.gov | 2023-09-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf.pdf](https://www.energy.gov/documents/2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf) | energy.gov | 2023-10-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf.pdf](https://www.energy.gov/documents/2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf) | energy.gov | 2023-11-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf.pdf](https://www.energy.gov/documents/2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf) | energy.gov | 2024-01-17 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf.pdf](https://www.energy.gov/documents/2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf) | energy.gov | 2024-02-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment.pdf](https://www.energy.gov/documents/2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment) | energy.gov | 2024-03-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf.pdf](https://www.energy.gov/documents/2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf) | energy.gov | 2024-06-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2024-07-02-cx-dhs-multiple-cxs-adoptedpdf.pdf](https://www.energy.gov/documents/2024-07-02-cx-dhs-multiple-cxs-adoptedpdf) | energy.gov | 2024-07-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | — | — |
+| [2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf.pdf](https://www.energy.gov/documents/2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf) | energy.gov | 2024-07-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | — | — |
+| [2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf.pdf](https://www.energy.gov/documents/2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf) | energy.gov | 2024-07-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [2024-07-23-doe-adoption-multi-fs-cxspdf.pdf](https://www.energy.gov/documents/2024-07-23-doe-adoption-multi-fs-cxspdf) | energy.gov | 2024-07-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | — | — |
+| [2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf.pdf](https://www.energy.gov/documents/2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf) | energy.gov | 2024-08-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf.pdf](https://www.energy.gov/documents/2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf) | energy.gov | 2024-11-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf](https://www.energy.gov/sites/default/files/2024-12/2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf) | energy.gov | 2024-12-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | — | — |
+| [2025-01-16-cx-doi-multiple-cxs-adopted.pdf](https://www.energy.gov/sites/default/files/2025-01/2025-01-16-cx-doi-multiple-cxs-adopted.pdf) | energy.gov | 2025-01-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | — | — |
+| [2025-05-16-nopr-10-cfr-part-1022_0.pdf](https://www.energy.gov/sites/default/files/2025-05/2025-05-16-nopr-10-cfr-part-1022_0.pdf) | energy.gov | 2025-05-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [2025-06-30-DOE-NEPA-Procedures.pdf](https://www.energy.gov/sites/default/files/2025-06/2025-06-30-DOE-NEPA-Procedures.pdf) | energy.gov | 2025-06-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 82 | — | — |
+| [2025-07-03-IFR-1021-205-federal-register.pdf](https://www.energy.gov/sites/default/files/2025-07/2025-07-03-IFR-1021-205-federal-register.pdf) | energy.gov | 2025-07-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 40 | — | — |
+| [2025-09-02-blm-multiple-cxs-adopted.pdf](https://www.energy.gov/sites/default/files/2026-04/2025-09-02-blm-multiple-cxs-adopted.pdf) | energy.gov | 2025-08-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 8 | — | — |
+| [2025-09569.pdf](https://www.govinfo.gov/content/pkg/FR-2025-05-28/pdf/2025-09569.pdf) | energy.gov *(ext: govinfo.gov)* | 2025-05-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf](https://www.energy.gov/sites/default/files/2025-03/2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf) | energy.gov | 2025-03-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | — | — |
+| [2026-01-ceq-guidance-emergencies-and-nepa.pdf](https://www.energy.gov/sites/default/files/2026-01/2026-01-ceq-guidance-emergencies-and-nepa.pdf) | energy.gov | 2026-01-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 5 | — | — |
+| [2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf](https://www.energy.gov/sites/default/files/2026-01/2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf) | energy.gov | 2026-01-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf](https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf) | energy.gov | 2026-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [2026-04-ceq-guidance-categorical-exclusions.pdf](https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions.pdf) | energy.gov | 2026-04-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | — | — |
+| [2026-06-withdrawal%20of-guidance-documents.pdf](https://www.energy.gov/sites/default/files/2026-06/2026-06-withdrawal%20of-guidance-documents.pdf) | energy.gov | 2026-06-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
 | [191001-ministerrat.pdf](https://www.stmd.bayern.de/wp-content/uploads/2019/10/191001-ministerrat.pdf) | stmd.bayern.de | 2019-10-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | — | — |
 | [20200924-Cert4Trust_Presseblatt.pdf](https://www.stmd.bayern.de/wp-content/uploads/2020/09/20200924-Cert4Trust_Presseblatt.pdf) | stmd.bayern.de | 2020-09-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [21_04_2021_Abschlussbericht_DISKURS.pdf](https://www.stmd.bayern.de/wp-content/uploads/2021/05/21_04_2021_Abschlussbericht_DISKURS.pdf) | stmd.bayern.de | 2021-03-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | — | — |
@@ -9488,8 +9587,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, fonts:/GXBDGM+LiberationSans, /QHCLYR+KING, /QHCLYR+ArialMT, /QHCLYR+Arial-ItalicMT, /VJRPQH+TimesNewRomanPS-BoldMT, /VJRPQH+TimesNewRomanPSMT, /FGPXAN+TimesNewRomanPS-ItalicMT, /QHCLYR+Arial-BoldMT, /QHCLYR+SymbolMTheadings-skip, 
 
 ### 2527.pdf
 
@@ -9896,8 +9995,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### RI_TRO_Notice.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- no date found, title, tagged, tagged-content-fail, lang, fonts:/WOOUYQ+SourceSansPro-Regular, /SSPBUY+Century, /FVAOGE+LiberationSans, /FJNCFJ+ArialMT, /FJNBNK+TimesNewRomanPS-ItalicMT, /QNKFNX+SymbolMT, /DBAKSC+ArialMT, /FJNBKJ+TimesNewRomanPSMT, /FJNBEJ+TimesNewRomanPS-BoldMTheadings-none, 
 
 ### Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf
 
@@ -51921,7 +52020,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T16:06:15.600987+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Arctic-Energy-8-page-brochure-October%202024%20printer%20ready.pdf
 
@@ -51992,8 +52091,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### PIA%20Guide%20Aug%202023_0.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf
-- **Status**: error
-- File not found: crawled_files/energy.gov/PIA%20Guide%20Aug%202023_0.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.656159+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- fonts:/CWYWFU+Roboto-Regular, /XENXNE+ArialMT, /NUMPDY+Calibri-Bold, /ZHMJPA+SymbolMT, /SUATVO+TimesNewRomanPSMT, /ZESOPA+Calibri, /CJABFU+Calibri-BoldItalic, /SUATVO+MS-Gothic, /UHDKXK+Calibri-Light, /MDAJPA+Calibri-Italictables-warn, 
 
 ### advanced-instrumentation-information-and-control-system-technologies-nondestructive.pdf
 
@@ -52005,7 +52104,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/documents/amw-nomination-testimony-jan-18-18pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T16:06:15.662870+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### applying-msipp-grants.pdf
 
@@ -52035,13 +52134,13 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/documents/final-hasc-em-fy18-written-testimonypdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T16:06:15.696624+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### final-sasc-em-fy18-written-testimonypdf.pdf
 
 - **URL**: https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T16:06:15.699952+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### fossil-energy-fy-2009-budget.pdf
 
@@ -52077,7 +52176,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/documents/guide-financial-assistance-october-2024pdf
 - **Status**: analysed
-- no bookmarks and more than 20 pages, 
+- no bookmarks and more than 20 pages, fonts:/TimesNewRomanPS-ItalicMT, /Arial-BoldMT, /BCDIEE+CourierNewPSMT, /TimesNewRomanPSMT, /ArialMT, /BCDGEE+Wingdings-Regular, /BCDFEE+Cambria, /BCDEEE+Calibri, /SymbolMT, /BCDHEE+SegoeUI, /TimesNewRomanPS-BoldMTfigures-alt, headings-skip, tables-warn, 
 
 ### neet-workshop-2010.pdf
 
@@ -52199,11 +52298,29 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, tagged, lang, 
 
+### FY21-DOEAnnualReport_ConfActivities_Web_0.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2022-01/FY21-DOEAnnualReport_ConfActivities_Web_0.pdf
+- **Status**: analysed
+- fonts:/BCDFEE+Calibri-Bold, /BCDEEE+Calibri, /BCDGEE+Calibri, /TimesNewRomanPSMTheadings-none, 
+
 ### FY22-DOEAnnualReport_ConfActivities_Web.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2023-01/FY22-DOEAnnualReport_ConfActivities_Web.pdf
 - **Status**: analysed
-- title, 
+- title, fonts:/EYTGFG+Calibri-Light, /APWNBO+Calibri, /VNHJJY+Calibri-Bold, /FMLWTE+TimesNewRomanPSMT
+
+### FY23-DOEAnnualReport_ConfActivities_Web.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-01/FY23-DOEAnnualReport_ConfActivities_Web.pdf
+- **Status**: analysed
+- fonts:/VDSPFI+TimesNewRomanPSMT, /CYCFZU+Calibri-Bold, /GMDDDM+ArialMT, /MNCNJA+TimesNewRomanPS-BoldMT, /IPCPFI+SymbolMT, /GMDDDM+Calibri-Light, /SJCXPO+Calibri
+
+### FY24-DOE-Conference-Activity-Annual-Report.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-01/FY24-DOE-Conference-Activity-Annual-Report.pdf
+- **Status**: analysed
+- tagged-content-whitespace-warn, fonts:/MTCJTK+TimesNewRomanPS-BoldMT, /FGQTZY+Calibri-Bold, /TORUNW+Calibri, /ZPQJTK+TimesNewRomanPSMTalt-nested-fail, headings-warn, tables-fail, 
 
 ### FY24SSMP_FINAL_NOVEMBER_2023_0.pdf
 
@@ -52497,7 +52614,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/default/files/2024-09/strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-20T21:31:03.708872+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### suny_project_abstract.pdf
 
@@ -52586,8 +52703,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### what-foia.pdf
 
 - **URL**: https://www.energy.gov/gc/articles/what-foia
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, fonts:/Arial-BoldMT, /ArialNarrow, /TimesNewRomanPSMT, /IHECOF+SymbolMT, /ArialMTheadings-none, 
 
 ### wpto-third-9505-assessment.pdf
 
@@ -59156,8 +59273,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### OEA_WashingtonDC.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/KGPFPH+TimesNewRomanPSMT, /KGPFCJ+TimesNewRomanPSMT, /BNCLDQ+TimesNewRoman, /YGWDXW+TimesNewRoman, /KGPFMH+TimesNewRomanPS-BoldMTuntagged-images, forms-fail, forms-untagged, 
 
 ### OMEI_WashingtonDC.pdf
 
@@ -59210,8 +59327,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### WAPA_Posting_Notice.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/BLCIBP+TimesNewRomanPSMT, /BLCIHO+MyriadPro-Regular, /IADAAD+TimesNewRoman, /BLCHMP+TimesNewRomanPSMT, /BLCICP+TimesNewRomanPS-ItalicMT, /BLCHFN+TimesNewRoman, /BLCHNP+TimesNewRomanPS-BoldMT
 
 ### aham-cce-overview-and-update-dated-06072011.pdf
 
@@ -59828,8 +59945,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### attachment-bpa-master-performance-work-statementpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/CIDFont+F2, /CIDFont+F5, /CIDFont+F6, /CIDFont+F4, /CIDFont+F1, /CIDFont+F3
 
 ### busch-weldon-greenspace-map.pdf
 
@@ -59979,13 +60096,13 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-09/ne-dpa-consortium-faqs-091525.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-29T23:23:16.609269+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, fonts:/DHPZDN+TimesNewRomanPS-BoldMT, /BAIYAW+TimesNewRomanPS-BoldMT, /LCGBKC+TimesNewRomanPS-ItalicMT, /BAIYAW+Arial-BoldMT, /LCGBKC+TimesNewRomanPS-BoldItalicMT, /XMHAWE+TimesNewRomanPSMT, /INUOUI+Calibri, /LCGBKC+ArialMT, /VVTDVD+TimesNewRomanPSMT, /LCGBKC+SymbolMTheadings-none, 
 
 ### noa-eis-0552-lanl-site-wide-2026-03.pdf
 
@@ -63795,7 +63912,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
 - **Status**: error
-- File not found: crawled_files/energy.gov/DOE_Fact_Sheet_Grid_Report_July_2025.pdf (crawled 0.1 day(s) ago at 2026-07-06T14:29:49.870731+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- File not found: crawled_files/energy.gov/DOE_Fact_Sheet_Grid_Report_July_2025.pdf (crawled 1 day(s) ago at 2026-07-06T14:29:49.870731+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### fac_c_digital_services_05_12_18.pdf
 
@@ -63812,596 +63929,596 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 10-cfr-1021-nofr-fed-reg-2020-12-04pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/10-cfr-1021-nofr-fed-reg-2020-12-04pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold, /ZapfDingbatsforms-fail, forms-untagged, annotations-untagged, 
 
 ### 10-cfr-1021-notice-extension-2023-12-26pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/10-cfr-1021-notice-extension-2023-12-26pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Melior-Italic, /Helvetica, /Melior-Bold
 
 ### 10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/10-cfr-part-1021-proposed-changes-tracked-changes-2010-12-20pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, fonts:/TimesNewRomanPS-BoldItalicMT, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-BoldMT
 
 ### 10-cfr-part-1021-version-effect-time-2011-rulemaking.pdf
 
 - **URL**: https://www.energy.gov/nepa/articles/10-cfr-part-1021-version-effect-time-2011-rulemaking
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/EODKFD+TimesNewRoman,Italic, /EODKAL+TimesNewRoman,Bold, /IXLXZY+TimesNewRomanPSMT, /EODJHB+Arial,Bold, /EODJKP+TimesNewRoman, /EODNKJ+TimesNewRoman,BoldItalic
 
 ### 1978-02-21-proposed-1021pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1978-02-21-proposed-1021pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
 
 ### 1978-07-19-proposed-1022pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1978-07-19-proposed-1022pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Times-Italic, /Times-BoldItalic, /Times-Bolduntagged-images, 
 
 ### 1979-03-07-final-1022pdf-0.pdf
 
 - **URL**: https://www.energy.gov/documents/1979-03-07-final-1022pdf-0
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-Italic, /Helvetica-Bold, /Helveticauntagged-images, 
 
 ### 1979-07-18-proposed-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1979-07-18-proposed-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Courier, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueuntagged-images, 
 
 ### 1979-08-06-final-1021pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1979-08-06-final-1021pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueheadings-none, lists-fail, 
 
 ### 1980-03-28-final-guidelines-completepdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1980-03-28-final-guidelines-completepdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-actualtext-warn, headings-none, lists-fail, annotations-tagging-fail, 
 
 ### 1980-08-11-proposed-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1980-08-11-proposed-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Bold, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, lists-fail, 
 
 ### 1980-10-20-order-54401apdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1980-10-20-order-54401apdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Times-Bold, /Times-Italic, /Helvetica-Bold, /HiddenHorzOCR, /Helveticauntagged-images, 
 
 ### 1980-11-26-final-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1980-11-26-final-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, 
 
 ### 1980-12-17-proposed-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1980-12-17-proposed-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, 
 
 ### 1981-07-16-proposed-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1981-07-16-proposed-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-actualtext-warn, headings-none, lists-fail, 
 
 ### 1982-02-23-final-guidelines-section-d-completepdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1982-02-23-final-guidelines-section-d-completepdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
 
 ### 1982-05-14-order-54401bpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1982-05-14-order-54401bpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-Italic, /HiddenHorzOCR, /Helvetica-Bold, /Helveticauntagged-images, 
 
 ### 1982-11-22-proposed-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1982-11-22-proposed-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
 
 ### 1983-01-06-final-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1983-01-06-final-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-actualtext-warn, headings-none, lists-fail, 
 
 ### 1985-02-25-proposed-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1985-02-25-proposed-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
 
 ### 1985-04-09-order-54401cpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1985-04-09-order-54401cpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Times-Italic, /Helvetica-Bold, /HiddenHorzOCR, /Helvetica-Oblique, /Helveticauntagged-images, 
 
 ### 1986-05-22-proposed-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1986-05-22-proposed-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueheadings-none, lists-fail, 
 
 ### 1987-01-07-final-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1987-01-07-final-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Courier-Oblique, /Helvetica-Oblique, /Courier, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueuntagged-images, 
 
 ### 1987-12-15-final-guidelines-completepdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1987-12-15-final-guidelines-completepdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
 
 ### 1988-08-09-proposed-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1988-08-09-proposed-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Courier-Oblique, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliqueheadings-none, lists-fail, 
 
 ### 1989-03-27-final-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1989-03-27-final-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, tagged-content-fail, lang, fonts:/Times-Roman, /Courier-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, 
 
 ### 1990-02-02-policy-sen-15-90pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1990-02-02-policy-sen-15-90pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- tagged, lang, fonts:/Helvetica-Bold, /Courier-Bold, /Helvetica, /Times-Bold, /Courier-BoldObliqueuntagged-images, 
 
 ### 1990-04-06-proposed-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1990-04-06-proposed-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldObliquefigures-alt, headings-none, lists-fail, 
 
 ### 1990-09-07-final-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1990-09-07-final-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /Courier-Bold, /Helveticaheadings-none, lists-fail, annotations-tagging-fail, 
 
 ### 1990-11-02-proposed-1021pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1990-11-02-proposed-1021pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
 
 ### 1990-11-15-proposed-revocation-guidelinespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1990-11-15-proposed-revocation-guidelinespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/BookAntiqua, /TimesNewRomanPS-ItalicMT, /BookAntiqua-BoldItalic, /FranklinGothic-Heavy, /BookAntiqua-Bolduntagged-images, 
 
 ### 1991-02-22-order-54401dpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1991-02-22-order-54401dpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Times-Italic, /HiddenHorzOCR, /Helvetica-Oblique, /Helveticauntagged-images, 
 
 ### 1992-04-24-final-1021pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1992-04-24-final-1021pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Courier-Oblique, /Times-Bold, /Times-Italic, /Courier-Bold, /Helvetica, /Courier-BoldOblique, /Times-Roman, /Helvetica-Oblique, /Courier, /Times-BoldItalic, /Helvetica-Bold, /Helvetica-BoldObliqueuntagged-images, 
 
 ### 1992-11-10-order-54401epdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1992-11-10-order-54401epdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Helvetica-Narrow-Bold, /LetterGothic-Bolduntagged-images, 
 
 ### 1994-06-13-policy-secretarial-policy-nepapdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1994-06-13-policy-secretarial-policy-nepapdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Helvetica-Bold, /HiddenHorzOCR, /Helvetica, /Helvetica-BoldObliqueuntagged-images, 
 
 ### 1995-09-11-order-4511pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1995-09-11-order-4511pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/LetterGothic, /LetterGothic-Bold
 
 ### 1996-02-20-proposed-1021pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1996-02-20-proposed-1021pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, 
 
 ### 1996-07-09-final-1021-limited-reopening-comment-periodpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1996-07-09-final-1021-limited-reopening-comment-periodpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Symbol, /Melior-Italic, /Melior-Boldforms-fail, forms-untagged, 
 
 ### 1996-07-09-final-1021pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1996-07-09-final-1021pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Times-Roman, /Courier-Oblique, /Helvetica-Oblique, /Courier, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
 
 ### 1996-12-06-final-1021pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1996-12-06-final-1021pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
 
 ### 1997-06-05-order-4511apdf.pdf
 
 - **URL**: https://www.energy.gov/documents/1997-06-05-order-4511apdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/TimesNewRoman, /TimesNewRoman-Bold, /Arial-Bolduntagged-images, 
 
 ### 2000-10-26-order-4511bpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2000-10-26-order-4511bpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/TimesNewRoman, /Arial,Bold, /TimesNewRoman,Bolduntagged-images, 
 
 ### 2001-09-28-order-4511b-change-1pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2001-09-28-order-4511b-change-1pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/TimesNewRomanPS-ItalicMT, /ArialNarrow-Bold, /Arial-BoldMT, /Arial,Bold, /TimesNewRomanPSMT, /TimesNewRoman,Bold, /TimesNewRoman, /TimesNewRomanPS-BoldMTuntagged-images, 
 
 ### 2002-11-18-proposed-1021-and-1022pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2002-11-18-proposed-1021-and-1022pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/OMHGHK+Melior-Bold, /Symbol, /OMHGJA+Melior, /Helvetica-Bold, /Helvetica, /OMHGLK+Melior-Italicforms-fail, forms-untagged, 
 
 ### 2003-08-27-final-1021-and-1022pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2003-08-27-final-1021-and-1022pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Courier, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Courier-Bold, /Helvetica-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
 
 ### 2006-10-06-notice-4511pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2006-10-06-notice-4511pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/ArialNarrow-Bold, /TimesNewRomanPS-ItalicMT, /Arial-BoldMT, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-BoldMTuntagged-images, 
 
 ### 2006-11-28-final-1021-and-other-partspdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2006-11-28-final-1021-and-other-partspdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Helvetica-Oblique, /Times-Bold, /Times-BoldItalic, /Times-Italic, /Helvetica-Bold, /Courier-Bold, /Helvetica, /Helvetica-BoldOblique, /Courier-BoldObliquefigures-alt, headings-none, lists-fail, annotations-tagging-fail, 
 
 ### 2009-03-ceq-doe-categorical-exclusionspdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2009-03-ceq-doe-categorical-exclusionspdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/Times-Roman, /Times-Italic, /Helvetica-Bold, /Helvetica, /Times-Boldheadings-warn, 
 
 ### 2009-10-02-policy-nepa-transparency-and-opennesspdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2009-10-02-policy-nepa-transparency-and-opennesspdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Courier-Bold, /Helvetica-Bold, /Courier-BoldObliqueuntagged-images, 
 
 ### 2010-06-25-order-4511b-change-2pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2010-06-25-order-4511b-change-2pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/ArialNarrow-Bold, /TimesNewRomanPS-ItalicMT, /Arial-BoldMT, /TimesNewRomanPSMT, /ArialMT, /FPEOML+Calibri, /TimesNewRomanPS-BoldMTuntagged-images, 
 
 ### 2010-07-16-policy-public-involvement-ea-processpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2010-07-16-policy-public-involvement-ea-processpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Times-BoldItalic, /Helvetica-Bold, /Helvetica, /Times-Bolduntagged-images, 
 
 ### 20100218-nepa-consideration-effects-ghg-draft-guidance.pdf
 
 - **URL**: https://ceq.doe.gov/docs/ceq-regulations-and-guidance/20100218-nepa-consideration-effects-ghg-draft-guidance.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- File not found: crawled_files/energy.gov/20100218-nepa-consideration-effects-ghg-draft-guidance.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.199712+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2011-01-03-proposed-1021pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2011-01-03-proposed-1021pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/DICOEH+Melior, /DIDCCE+Melior-Italic, /DIDFBE+Symbol, /DIDCFE+NewCenturySchlbk-Roman, /DIDCAD+Melior-Bold, /DICOIH+Helvetica, /DIDCBE+Helvetica-Boldforms-fail, forms-untagged, 
 
 ### 2011-10-13-final-1021pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2011-10-13-final-1021pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/LGPPJD+ZapfDingbats, /LGPNLN+Melior-Italic, /LGPNKL+Melior-Bold, /LGPNFL+Melior, /LGPOGK+Symbol, /LGPNFM+Helvetica, /LGPNLM+Helvetica-Bolduntagged-images, 
 
 ### 2012-01-19-order-4511b-change-3pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2012-01-19-order-4511b-change-3pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, fonts:/Arial,Bold, /Times New Roman, /ABCDEE+Calibri, /Times New Roman,Bold, /Arial, /Times New Roman,Italic, /ABCDEE+Arial Narrow,Bold
 
 ### 2012-06-12-policy-integrating-nepa-program-project-managementpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2012-06-12-policy-integrating-nepa-program-project-managementpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, untagged-images, 
 
 ### 2016-10-06-order-4511b-change-3-variances-annotatedpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2016-10-06-order-4511b-change-3-variances-annotatedpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, fonts:/Arial,Bold, /Times New Roman, /ABCDEE+Calibri, /Times New Roman,Bold, /Arial, /Times New Roman,Italic, /ABCDEE+Arial Narrow,Bold
 
 ### 2016-18620.pdf
 
 - **URL**: https://www.govinfo.gov/content/pkg/FR-2016-08-05/pdf/2016-18620.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2017-06576.pdf
 
 - **URL**: https://www.govinfo.gov/content/pkg/FR-2017-03-31/pdf/2017-06576.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bolduntagged-images, forms-fail, forms-untagged, 
 
 ### 2017-06770.pdf
 
 - **URL**: https://www.govinfo.gov/content/pkg/FR-2017-04-05/pdf/2017-06770.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2017-12-21-policy-4511-cancelling-nepa-orderpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2017-12-21-policy-4511-cancelling-nepa-orderpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/ArialNarrow-Bold, /TimesNewRomanPS-ItalicMT, /Arial-BoldMT, /TimesNewRomanPSMT, /ArialMT, /TimesNewRomanPS-BoldMTfigures-alt, annotations-tagging-fail, 
 
 ### 2018_CESD_Strategic_Plan.pdf
 
 - **URL**: https://science.osti.gov/~/media/ber/pdf/workshop%20reports/2018_CESD_Strategic_Plan.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- File not found: crawled_files/energy.gov/2018_CESD_Strategic_Plan.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.257535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2019-13576.pdf
 
 - **URL**: https://www.govinfo.gov/content/pkg/FR-2019-06-26/pdf/2019-13576.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf
 
 - **URL**: https://www.energy.gov/sites/prod/files/2020/09/f78/2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- File not found: crawled_files/energy.gov/2020-19217_FE_NOA_Rio%20Grande%20LNG%20LLC.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.263322+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2023-01-12-cx-rfi-re-openpdf-0.pdf
 
 - **URL**: https://www.energy.gov/documents/2023-01-12-cx-rfi-re-openpdf-0
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Symbol, /Melior-Italic, /Helvetica, /Melior-Bold
 
 ### 2023-01-ceq-interim-guidance-ghg-emissions-climate-change.pdf
 
 - **URL**: https://www.energy.gov/documents/2023-01-ceq-interim-guidance-ghg-emissions-climate-change
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Times-Roman, /Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext.pdf
 
 - **URL**: https://www.energy.gov/documents/2023-02-ceq-interim-guidance-ghg-emissions-climate-change-cmnt-ext
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Helvetica-Oblique, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
 
 ### 2023-09-20-dot-adoption-doe-cx-b5-23-classespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2023-09-20-dot-adoption-doe-cx-b5-23-classespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
 
 ### 2023-09-20-nist-adoption-doe-multi-cx-classespdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2023-09-20-nist-adoption-doe-multi-cx-classespdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
 
 ### 2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2023-10-20-cx-dhs-ev-charging-station-adopted-cx-b523pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
 
 ### 2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2023-11-09-cx-exim-install-machine-equip-adopted-cx-b131pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
 
 ### 2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-01-17-cx-epa-electric-vehicle-charging-stations-adopted-cx-b523pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### 2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-02-21-cx-epa-methane-gas-recovery-utilization-systems-adopted-cx-b521pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold
 
 ### 2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-03-22-cx-epa-recyclable-materials-facilities-install-relocate-machinery-equipment
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-07-01-cx-usfs-elect-veh-charge-station-adopted-cx-b523pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2024-07-02-cx-dhs-multiple-cxs-adoptedpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-07-02-cx-dhs-multiple-cxs-adoptedpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-07-03-cx-phmsa-repair-replacement-pipelines-adopted-b54pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-07-08-cx-dtra-b523-ev-charging-stations-adoptedpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2024-07-23-doe-adoption-multi-fs-cxspdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-07-23-doe-adoption-multi-fs-cxspdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-08-06-cx-usda-b54-b55-b523-pipelines-ev-charging-stations-adoptedpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/2024-11-08-cx-usfs-elec-trans-solar-adopt-mult-cxpdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2024-12/2024-12-17-cx-exim-a9-b1.15-b1.23-b2.1-b2.2-b3.1.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2025-01-16-cx-doi-multiple-cxs-adopted.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-01/2025-01-16-cx-doi-multiple-cxs-adopted.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2025-05-16-nopr-10-cfr-part-1022_0.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-05/2025-05-16-nopr-10-cfr-part-1022_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold, /ZapfDingbatsforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2025-06-30-DOE-NEPA-Procedures.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-06/2025-06-30-DOE-NEPA-Procedures.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDHEE+Aptos, /BCDGEE+Aptos,Italic, /ArialMT, /BCDJEE+Aptos,Bold, /BCDEEE+Aptos, /BCDFEE+Aptos,Bold, /BCDIEE+Aptos,Italic
 
 ### 2025-07-03-IFR-1021-205-federal-register.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-07/2025-07-03-IFR-1021-205-federal-register.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, fonts:/Symbol, /Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Bold, /ZapfDingbatsforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2025-09-02-blm-multiple-cxs-adopted.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-04/2025-09-02-blm-multiple-cxs-adopted.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Symbol, /Melior-Italic, /Melior, /DFGBHR+Arial, /Melior-Bold, /QEZICR+Arial,Bold, /NCJERX+Arialforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2025-09569.pdf
 
 - **URL**: https://www.govinfo.gov/content/pkg/FR-2025-05-28/pdf/2025-09569.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2025-16235.pdf
 
 - **URL**: https://public-inspection.federalregister.gov/2025-16235.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- File not found: crawled_files/energy.gov/2025-16235.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.318188+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-03/2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, fonts:/NXQWHS+Arial-BoldMT, /MUOKTU+TimesNewRomanPSMT, /KKFORY+TimesNewRomanPS-BoldMT, /DZZDXM+TimesNewRomanPS-ItalicMT
 
 ### 2026-01-ceq-guidance-emergencies-and-nepa.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-01/2026-01-ceq-guidance-emergencies-and-nepa.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/ONCEOR+TimesNewRomanPS-BoldMT, /ELEWEL+ArialMT, /ELEWEL+Calibri, /ZOPSMV+TimesNewRomanPS-ItalicMT, /JLNVWB+Wingdings-Regular, /ZOPSMV+Arial-ItalicMT, /ELEWEL+TimesNewRomanPSMTforms-fail, forms-tagging-fail, 
 
 ### 2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-01/2026-01-noa-ceq-guidance-emergencies-and-nepa.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Melior-Italic, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions-fr-notice.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior, /Helvetica-Bold, /Melior-Italic, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 2026-04-ceq-guidance-categorical-exclusions.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-04/2026-04-ceq-guidance-categorical-exclusions.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/TBZFQG+Calibri, /LXWJIW+TimesNewRomanPS-ItalicMT, /KDQIUY+ArialMT, /LXWJIW+Arial-BoldMT, /CZNHMO+TimesNewRomanPS-BoldMT, /TEEGMB+TimesNewRomanPSMT, /TBZFQG+TimesNewRomanPSMTheadings-none, forms-fail, forms-tagging-fail, 
 
 ### 2026-06-withdrawal%20of-guidance-documents.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-06/2026-06-withdrawal%20of-guidance-documents.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- title, tagged, lang, fonts:/Melior-Italic, /Melior, /Helvetica-Bold, /Helvetica, /Melior-Boldforms-fail, forms-untagged, annotations-untagged, 
 
 ### 202c-order-202-02-1b-november-13-2002-cscpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-02-1b-november-13-2002-cscpdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- File not found: crawled_files/energy.gov/202c-order-202-02-1b-november-13-2002-cscpdf.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.341535+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 202c-order-202-03-4-may-7-2004-cscpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-03-4-may-7-2004-cscpdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- File not found: crawled_files/energy.gov/202c-order-202-03-4-may-7-2004-cscpdf.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.343505+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 202c-order-202-05-3-december-20-2005-mirant-corporationpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-05-3-december-20-2005-mirant-corporationpdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- File not found: crawled_files/energy.gov/202c-order-202-05-3-december-20-2005-mirant-corporationpdf.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.346955+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 202c-order-202-06-1-february-17-2006-mirant-corporationpdf.pdf
 
 - **URL**: https://www.energy.gov/documents/202c-order-202-06-1-february-17-2006-mirant-corporationpdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- File not found: crawled_files/energy.gov/202c-order-202-06-1-february-17-2006-mirant-corporationpdf.pdf (crawled 1 day(s) ago at 2026-07-06T16:16:25.348660+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 202c-order-202-06-2-september-28-2006-mirant-corporationpdf.pdf
 
