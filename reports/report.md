@@ -13,7 +13,7 @@ Generated: 2026-07-08T02:02:20.348943+00:00
 | Errors during analysis | 5888 |
 | Accessible | 2002 |
 | Totally inaccessible | 257 |
-| Broken / unreadable | 27 |
+| Broken / unreadable | 26 |
 | Exempt (pre-2018) | 1505 |
 
 ## Files per Site
@@ -30,7 +30,7 @@ Generated: 2026-07-08T02:02:20.348943+00:00
 | businessexpress.maryland.gov | 1 |
 | calgary.ca | 165 |
 | canada.ca | 500 |
-| careerforce.mn.gov | 9 |
+| careerforce.mn.gov | 78 |
 | circuit19.org | 39 |
 | cms.gov | 658 |
 | coloradoboces.org | 48 |
@@ -5760,7 +5760,6 @@ Generated: 2026-07-08T02:02:20.348943+00:00
 | [W4_2021.pdf](https://www.middletowncityschools.com/media/user/resources/W4_2021.pdf) | middletowncityschools.com | 2020-12-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 3722 | 1 |
 | [_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf](https://www.middletowncityschools.com/media/user/resources/_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf) | middletowncityschools.com | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 447 | 0 |
 | [sBHC%20cheat%20sheet%20(1).pdf](https://www.middletowncityschools.com/media/user/resources/sBHC%20cheat%20sheet%20(1).pdf) | middletowncityschools.com | 2023-08-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 112 | 1 |
-| [RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf](https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [CareerForce%20Job%20Seeker%20Brochure%202025-acc.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Brochure%202025-acc.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025-acc.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025-acc.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
@@ -39979,6 +39978,828 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.228592+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### eaesd.wfs_.2gen.listeningreport.12.1.2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/eaesd.wfs_.2gen.listeningreport.12.1.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.229627+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd.wfs_.ecsr_.onepager.12.2.2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/eaesd.wfs_.ecsr_.onepager.12.2.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.233723+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd.wfs_.feedbackloops.12.1.2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/eaesd.wfs_.feedbackloops.12.1.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.236672+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd.wfs_.guaranteedincomepublicbenefits.12.2.2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/eaesd.wfs_.guaranteedincomepublicbenefits.12.2.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.238651+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd.wfs_.humancentereddesign.12.1.2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/eaesd.wfs_.humancentereddesign.12.1.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.242840+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd.wfs_.landscapeofbenefitclifftools.12.2.2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/eaesd.wfs_.landscapeofbenefitclifftools.12.2.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.243821+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd.wfs_.nazengagementtoolkit.12.2.2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/eaesd.wfs_.nazengagementtoolkit.12.2.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.245327+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd.wfs_.statestrategies.12.2.2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/eaesd.wfs_.statestrategies.12.2.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.247992+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd.wfs_.wfsoverview.12.2.2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/eaesd.wfs_.wfsoverview.12.2.2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.249348+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd_wfs_naz_onepager1.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-09/eaesd_wfs_naz_onepager1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.251155+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd_wfs_olmsted_onepager1.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-09/eaesd_wfs_olmsted_onepager1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.252923+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd_wfs_sppn_onepager1.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-09/eaesd_wfs_sppn_onepager1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.254688+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### eaesd_wfs_wen_onepager1_0.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-09/eaesd_wfs_wen_onepager1_0.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.256406+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### early-childhood-systems-reform-year-one-final-report.pdf
+
+- **URL**: https://mn.gov/mmb-stat/2-gen/early-childhood-systems-reform-year-one-final-report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.259428+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### els-pay-equity-pilot-final-report.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-06/els-pay-equity-pilot-final-report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.262945+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### els-wage-scale-final-report.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2026-01/els-wage-scale-final-report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.264812+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### els-wage-scale-landscape-execsummary.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2026-02/els-wage-scale-landscape-execsummary.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.270707+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### family-child-care-implementation-plan-2025-legislative-changes_tcm1053-705749.pdf
+
+- **URL**: https://mn.gov/dhs/assets/family-child-care-implementation-plan-2025-legislative-changes_tcm1053-705749.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.271661+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcc-provider-update-2025-hmn.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/fcc-provider-update-2025-hmn.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.276374+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcc-provider-update-2025-som.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/fcc-provider-update-2025-som.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.277403+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcc-provider-update-2025-spa.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/fcc-provider-update-2025-spa.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.278439+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcc-provider-update-fall-2025-hmn.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/fcc-provider-update-fall-2025-hmn.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.279499+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcc-provider-update-fall-2025-som.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/fcc-provider-update-fall-2025-som.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.280645+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fcc-provider-update-fall-2025-spa.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/fcc-provider-update-fall-2025-spa.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.281771+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### fs_public_accom.pdf
+
+- **URL**: https://www.dli.mn.gov/sites/default/files/pdf/fs_public_accom.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.286151+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### guidance-on-family-child-care-continuous-licenses_tcm1053-643188.pdf
+
+- **URL**: https://mn.gov/dhs/assets/guidance-on-family-child-care-continuous-licenses_tcm1053-643188.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.288140+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-0.pdf
+
+- **URL**: https://education.mn.gov/mdeprod/idcplg?IdcService=GET_FILE&dDocName=mde034431&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.295787+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-1.pdf
+
+- **URL**: https://education.mn.gov/mdeprod/idcplg?IdcService=GET_FILE&dDocName=prod084259&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.296756+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-10.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020697&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.298885+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-100.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020867&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.299706+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-101.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020871&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.300549+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-102.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=000234&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.302282+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-11.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020729&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.303171+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-12.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020734&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.304082+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-13.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020741&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.304853+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-14.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020746&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.305635+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-15.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020748&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.306628+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-16.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020749&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.307609+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-17.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020756&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.308378+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-18.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020761&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.309176+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-19.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020762&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.309935+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-2.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=010544&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.311007+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-20.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020778&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.311788+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-21.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020783&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.312605+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-22.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020788&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.313449+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-23.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020795&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.314238+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-24.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020801&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.315025+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-25.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020811&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.315812+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-26.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020812&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.316595+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-27.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020813&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.317330+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-28.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020817&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.318107+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-29.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020818&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.318901+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-3.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=010559&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.319939+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-30.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020823&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.320735+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-31.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020829&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.321519+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-32.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020831&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.322280+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-33.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020833&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.323132+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-34.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020835&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.323990+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-35.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020837&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.324823+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-36.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020841&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.325654+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-37.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020843&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.326711+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-38.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020844&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.327651+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-39.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020848&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.328632+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-4.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020597&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.329762+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-40.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020850&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.330715+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-41.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020854&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.331661+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-42.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020855&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.332696+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-43.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020856&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.333626+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-44.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020857&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.334607+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-45.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020860&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.335497+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-46.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020862&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.336468+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-47.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020861&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.337454+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-48.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020869&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.338369+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-49.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020870&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.339209+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-5.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020612&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.340169+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-50.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020872&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.341026+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-51.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=010543&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.346298+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-52.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=010557&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.347324+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-53.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020588&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.348381+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-54.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020610&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.349419+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-55.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020634&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.350430+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-56.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020646&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.351604+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-57.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020662&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.352702+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-58.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020671&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.353764+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-59.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020695&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.354823+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-6.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020643&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.355843+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-60.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020727&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.356794+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-61.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020735&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.357534+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-62.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020738&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.358284+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-63.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020740&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.359036+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-64.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020743&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.359990+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-65.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020747&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.360740+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-66.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020750&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.361671+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-67.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020752&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.362422+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-68.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020754&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.363157+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-69.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020760&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.363950+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-7.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020647&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.365003+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-70.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020769&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.365789+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-71.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020777&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.366565+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-72.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020782&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.367342+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-73.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020787&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.368101+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-74.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020794&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.368881+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-75.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020802&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.369670+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-76.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020803&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.370405+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-77.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020809&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.371341+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-78.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020810&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.372147+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-79.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020816&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.372968+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-8.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020663&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.374017+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-80.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020819&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.374818+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-81.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020822&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.375607+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-82.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020824&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.376368+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-83.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020828&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.377205+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-84.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020832&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.378031+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-85.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020834&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.378851+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-86.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020836&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.379679+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-87.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020840&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.380673+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-88.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020846&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.381634+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-89.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020845&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.382545+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-9.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020673&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.383551+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-90.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020849&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.384479+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-91.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020851&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.385414+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-92.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020852&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.386376+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-93.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020853&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.387295+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-94.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020858&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.388221+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-95.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020863&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.389109+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-96.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020865&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.390047+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-97.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020864&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.391022+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-98.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020866&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.391953+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg-99.pdf
+
+- **URL**: https://bosa.mn.gov/cs/idcplg?IdcService=GET_FILE&dDocName=020868&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.392792+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### idcplg.pdf
+
+- **URL**: https://education.mn.gov/mdeprod/idcplg?IdcService=GET_FILE&dDocName=prod084816&RevisionSelectionMethod=latestReleased&Rendition=primary
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.393852+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### importance-of-early-care-education-workforce.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-04/importance-of-early-care-education-workforce.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.397195+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-january-2026-eng.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-january-2026-eng.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.398254+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-january-2026-hmn.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-january-2026-hmn.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.399222+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-january-2026-som.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-january-2026-som.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.400191+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-january-2026-spa.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-january-2026-spa.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.401230+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-november-2025-eng.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-november-2025-eng.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.402301+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-november-2025-hmn.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-november-2025-hmn.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.403279+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### Applicant_NJFC_Application_Check_List_en.pdf
 
 - **URL**: https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_en.pdf
@@ -61882,8 +62703,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
 
 - **URL**: https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
-- **Status**: analysed
-- PdfError: crawled_files/careerforce.mn.gov/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf: unable to find trailer dictionary while recovering damaged file
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### 2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
 
