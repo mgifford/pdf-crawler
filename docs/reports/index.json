@@ -4,7 +4,7 @@
     "site": "mn.gov",
     "crawl_url": "https://mn.gov/puc",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28909816580",
-    "issue_url": "",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/225#issuecomment-4910623562",
     "archive_file": "2026-07-08_01-45-10-040_mn.gov.html",
     "total": 1462,
     "analysed": 30,
