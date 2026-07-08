@@ -158654,73 +158654,181 @@
   filename: info-session-november-2025-som.pdf
   site: mn.gov
   crawled_at: '2026-03-12T21:50:59.404247+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.404247+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.404247+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:43:08.932568+00:00'
 - url: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-november-2025-spa.pdf
   md5: 0e1ffbd7f9657bffc823566a4974fbc7
   filename: info-session-november-2025-spa.pdf
   site: mn.gov
   crawled_at: '2026-03-12T21:50:59.405307+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.405307+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.405307+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:43:25.289011+00:00'
 - url: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-september-2025-eng.pdf
   md5: fb8a566c00ef83d75383418b2bec0663
   filename: info-session-september-2025-eng.pdf
   site: mn.gov
   crawled_at: '2026-03-12T21:50:59.406369+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.406369+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.406369+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:43:42.284355+00:00'
 - url: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-september-2025-hmn.pdf
   md5: 4637377bf3f22e2b03294851b461fc7a
   filename: info-session-september-2025-hmn.pdf
   site: mn.gov
   crawled_at: '2026-03-12T21:50:59.407339+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.407339+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.407339+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:43:58.735421+00:00'
 - url: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-september-2025-som.pdf
   md5: b596165e74355289aa7b3c56cdd56b3a
   filename: info-session-september-2025-som.pdf
   site: mn.gov
   crawled_at: '2026-03-12T21:50:59.408316+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.408316+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.408316+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:44:15.070435+00:00'
 - url: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-september-2025-spa.pdf
   md5: 4f33ac05dd613ed6c6d425af7a51d756
   filename: info-session-september-2025-spa.pdf
   site: mn.gov
   crawled_at: '2026-03-12T21:50:59.409359+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.409359+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.409359+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:44:31.848400+00:00'
 - url: https://dcyf.mn.gov/sites/default/files/2026-02/lic-certified-child-care-centers-outreach-november-2025.pdf
   md5: ff6eea668f152bcaea1445548a9d2148
   filename: lic-certified-child-care-centers-outreach-november-2025.pdf
   site: mn.gov
   crawled_at: '2026-03-12T21:50:59.428871+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.428871+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.428871+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:44:48.290724+00:00'
 - url: https://dcyf.mn.gov/sites/default/files/2026-02/lic-fcc-helper-training.pdf
   md5: 8a95573603231d2fb3f5fb7fe7b29a46
   filename: lic-fcc-helper-training.pdf
   site: mn.gov
   crawled_at: '2026-03-12T21:50:59.429760+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.429760+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.429760+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:45:04.620574+00:00'
 - url: https://dcyf.mn.gov/sites/default/files/2025-12/lic-fcc-pre-licensing-training.pdf
   md5: a0a5dcc9b0516d63a617a9367a1bc10d
   filename: lic-fcc-pre-licensing-training.pdf
   site: mn.gov
   crawled_at: '2026-03-12T21:50:59.430703+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.430703+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.430703+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T01:45:21.474381+00:00'
 - url: https://dcyf.mn.gov/sites/default/files/2026-01/lic-leg-report-010126-child-care-regulation-modernization.pdf
   md5: 5ea8d1cced1d45318c69acc3a46469ce
   filename: lic-leg-report-010126-child-care-regulation-modernization.pdf
