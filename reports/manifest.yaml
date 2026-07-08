@@ -446487,3 +446487,700 @@
   notes: Just exploring.
   link_text: 'Your Marketplace Application: Identity Proofing & Information Inconsistencies
     (PDF)'
+- url: https://www.stmd.bayern.de/wp-content/uploads/2019/10/191001-ministerrat.pdf
+  md5: fd71e7e72a4b0e3f95927b8c969ea755
+  file_hash: 633f63ed528cb4ef339471c74a39bbbf83f91dc58cf43c5d62cdd687a5b9ea66
+  filename: 191001-ministerrat.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.572420+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2020/09/20200924-Cert4Trust_Presseblatt.pdf
+  md5: 7d49d5ae9716e257c6b12dba45ea0bc4
+  file_hash: 809cd58bdb8550810fa79b40d691950fe3e13d6508a0f059a9c74a0221f0d9d0
+  filename: 20200924-Cert4Trust_Presseblatt.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.575358+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2021/05/21_04_2021_Abschlussbericht_DISKURS.pdf
+  md5: 85ef9f8d6e96015e243e91d3b818d949
+  file_hash: 86384cc39cd226ccc9a638d2cd8e4e3619afcc3185b96946d37107431d15d602
+  filename: 21_04_2021_Abschlussbericht_DISKURS.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.577869+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Abschlussbericht der Universität der Bundeswehr in München zum Projekt
+    DISKURS (pdf, 272 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/07/220719_Flyer_Bayerisches_Digitalgesetz_Kurzversion.pdf
+  md5: 73c80319feab440881a6287e44b71e00
+  file_hash: 7a6744bb76f81a0714eeb28e9197cda09b6bee9353872aa745c0f3bafd5ff775
+  filename: 220719_Flyer_Bayerisches_Digitalgesetz_Kurzversion.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.582826+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/11/221109_Programm_Bayerischer_Digitalgipfel_2022_FW.pdf
+  md5: e95e2917a853e4daaba607540e42f115
+  file_hash: 550f2d02ce6a43ca583bb4b119aacdba54dab95aa65c844200dd8ac6f691c68e
+  filename: 221109_Programm_Bayerischer_Digitalgipfel_2022_FW.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.585566+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.bihk.de/fileadmin/BIHK.de_Dateien/Downloads/weitere-Themen/Bayern_Startup_und_Scaleup_Monitor_2026.pdf
+  md5: 4f0ec618f4e713d42cf73aa0a11ed8dd
+  file_hash: c6830c999d4a194cc4790aca033cfd32635063ebc466dfa00d710d05d94a5b4f
+  filename: Bayern_Startup_und_Scaleup_Monitor_2026.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.602146+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Startup und Scaleup Monitor
+- url: https://www.stmd.bayern.de/wp-content/uploads/2020/02/Blockchain_Strategie_01.pdf
+  md5: d7413c821288819483a431d3613415ad
+  file_hash: 961409230d30ed57a8d9e9a86779a8c6a8eaa932622c1447a8c574200a18cfe6
+  filename: Blockchain_Strategie_01.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.606910+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.fim-rc.de/wp-content/uploads/2021/06/Fraunhofer-FIT_SSI_Whitepaper.pdf
+  md5: b00098817c74d17e1edb8c5bb5518d4c
+  file_hash: 01d1c0846b6d2f2a7f64571d9d0beeed12250a966f860a7b7d45312bc54089c6
+  filename: Fraunhofer-FIT_SSI_Whitepaper.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.613806+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: 'Whitepaper der Projekt­gruppe Wirtschafts­informatik des Fraunhofer
+    FIT: „Self-Sovereign Identity. Grund­lagen, An­wen­dungen und Potenziale portabler
+    digitaler Identitäten“ (PDF, 8 MB)'
+- url: https://www3.weforum.org/docs/GAC16_Top10_Emerging_Technologies_2016_report.pdf
+  md5: 0fb242ff9386384059dc29ba9b29f22e
+  file_hash: 46ff0842f56922a61428ada7b83800f7cfcab29cb7e5e336ee22f526f488a42a
+  filename: GAC16_Top10_Emerging_Technologies_2016_report.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.622088+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: '[Quelle: World Economic Forum]'
+- url: https://www.stmd.bayern.de/wp-content/uploads/2019/11/Pr%C3%A4sentation-Blockchain-Anwendung-1.pdf
+  md5: 052acde01777a989bac2c98105d06572
+  file_hash: 420fd54fa1a3dba983cfb9630f5810641a6956a6d955c8fdcd7c9f2942900594
+  filename: Pr%C3%A4sentation-Blockchain-Anwendung-1.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.625771+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+- url: https://www.stmd.bayern.de/wp-content/uploads/2021/03/Pr%C3%A4sentation-D21-Studie-Bayernergebnisse_d21.pdf
+  md5: e202ed0903312e942cac162a68e83efa
+  file_hash: 06248e965a627c83a49713c7c45f929e77684a9ff012c7e2ddc34ae31bd8ca50
+  filename: Pr%C3%A4sentation-D21-Studie-Bayernergebnisse_d21.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.630422+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Ergebnisse für Bayern (PDF, 1 MB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme-KSV-20.08.2021-BayDigG.pdf
+  md5: d504ea4ca4375fe2330462c6a4d0be0b
+  file_hash: 3d32d212bd34029e5af7ab47e3fde9f18fefbee27aedad0d5cfff61c1007c279
+  filename: Stellungnahme-KSV-20.08.2021-BayDigG.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.633250+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Kommunale Spitzenverbände in Bayern (PDF, 349 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_AGSV_BayDigitalG_08_2021.pdf
+  md5: 2a6b2dacb31a22d3db011bd22fab6612
+  file_hash: c70facedfc46a4c6c4b2487ff8944a412e9dd2bd6c7a1054279fd9b05761d542
+  filename: Stellungnahme_AGSV_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.635999+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Arbeitsgemeinschaft der Schwerbehindertenvertretungen der obersten Landesbehörden
+    des Freistaates Bayern (PDF, 325 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_AKDB_BayDigitalG_09_2021.pdf
+  md5: 86d0aaa3481b7215d30a07723d38a4ae
+  file_hash: 43501f18224e464ffd235ecee92e02985c6845e6fe145b920e63a4d9288fd70d
+  filename: Stellungnahme_AKDB_BayDigitalG_09_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.638572+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Anstalt für Kommunale Datenverarbeitung in Bayern (PDF, 295 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BBB_BayDigitalG_08_2021.pdf
+  md5: e4f53222e202aaa755107735c5129bdb
+  file_hash: 1db5e95051aef5c7a41b0910ad511adfbd57097343285a8238435c9bb0029f46
+  filename: Stellungnahme_BBB_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.640957+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bayerischer Beamtenbund (PDF, 235 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BBSB_BayDigitalG_08_2021.pdf
+  md5: d702559beb82bf28a8463277a5e59e43
+  file_hash: ac0157746443d44a9e576381ec6444989e6fb0fce46aa2333f1f3bb1b2977e02
+  filename: Stellungnahme_BBSB_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.643141+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bayerischer Blinden- und Sehbehindertenbund (PDF, 168 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BBV_BayDigitalG_08_2021.pdf
+  md5: f23e6034cf0ad2f382983d31f942e3db
+  file_hash: fd39fd35b8c7cbb031b5abe7772b02707d3066c5d8da85493ff48a2dbe26ac14
+  filename: Stellungnahme_BBV_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.645193+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bayerischer Bauernverband (PDF, 117 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BHT_BayDigitalG_08_2021.pdf
+  md5: ab16e69cc6bb217859ace886cf02930f
+  file_hash: 845bfe65b7e5406a06242e0c25d848ea23b6154a723a64ec2284d145734eb4bc
+  filename: Stellungnahme_BHT_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.649719+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bayerischer Handwerkstag (PDF, 1 MB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BKPV_BayDigitalG_08_2021.pdf
+  md5: 4da0b92a4c89d81addda0f2d41b45239
+  file_hash: ada2c0bb0a57713951695d35556949bffbb521914211ae923c12e0b47b50fa8f
+  filename: Stellungnahme_BKPV_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.651953+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bayerischer Kommunaler Prüfungsverband (PDF, 148 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BLLV_BayDigitalG_08_2021.pdf
+  md5: b7b0d6aa0881c39e958d14fbb9234927
+  file_hash: 2732f08a6acaaee941c173bb3d50ec8b628ac827e0dbc187da3a80358d3aed36
+  filename: Stellungnahme_BLLV_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.655260+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bayerischer Lehrer- und Lehrerinnenverband (PDF, 574 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BRK_BayDigitalG_07_2021.pdf
+  md5: 0f5cf40d341069074b0de2773801d72d
+  file_hash: 1a276f503270866d0cfd8bca8662f0aa115fff6e119f0a6386ee5f94d3a2d2ab
+  filename: Stellungnahme_BRK_BayDigitalG_07_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.658252+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bayerisches Rotes Kreuz (PDF, 456 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BVDW_BayDigitalG_08_2021.pdf
+  md5: 4086b472775c93fb979e361e1beb101f
+  file_hash: b1f7d221fd6fb7a2937853c35c0bd952f5fc5331bdc4f062259deacf7bd8c8cd
+  filename: Stellungnahme_BVDW_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.660291+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bundesverbands Digitale Wirtschaft (PDF. 99 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_Beauftragter_fuer_Behinderte_BayDigitalG_08_2021.pdf
+  md5: feed3356ae68c01a6013183afeea62c8
+  file_hash: 5cd56d536e8a689aa9a60952a690e7c06fcd4ab4e2476ec8cbc74f2f68328992
+  filename: Stellungnahme_Beauftragter_fuer_Behinderte_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.663549+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Beauftragter der Bayerischen Staatsregierung für die Belange von Menschen
+    mit Behinderung (PDF, 581 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_Bitkom_BayDigitalG_08_2021.pdf
+  md5: 855d9b75a7b0b846fcb9d5b0e2bf12ab
+  file_hash: 50ff5e3156fbffb34490692a4abf60d19f3b6b256cd5b6a51d2187820925f917
+  filename: Stellungnahme_Bitkom_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.665638+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bitkom (PDF, 112 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_ByAK_BayDigitalG_08_2021.pdf
+  md5: e83a008ef9bc233c1db7c4b02a754a8e
+  file_hash: 453e83b5aed2ff42e160dc17d19346f0520c030a834ab7dbfc0d6fd6c22fcda0
+  filename: Stellungnahme_ByAK_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.671053+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Bayerische Architektenkammer (PDF, 1,4 MB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_DGB_BayDigitalG_08_2021.pdf
+  md5: 0af45001c90b05c50c9bc87bc37bcc55
+  file_hash: 7fa53f5c6eba0831a57f884634d16670661534a299e97cab63018ce2c88b6026
+  filename: Stellungnahme_DGB_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.673826+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Deutscher Gewerkschaftsbund Bezirk Bayern (PDF, 320 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_DeutscheRentenversicherung_BayDigitalG_08_2021.pdf
+  md5: 05ca338c54bf56cfd5d3cb87ebdea188
+  file_hash: eba5079b9fb4cf7dddf48854de13622bc0e0fccd0942c979101dfefc469c0575
+  filename: Stellungnahme_DeutscheRentenversicherung_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.676049+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Deutsche Rentenversicherung Bayern Süd (PDF, 153 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_HochschuleBayern_BayDigitalG_08_2021.pdf
+  md5: fbd6670491d939891dd200dc84333a4c
+  file_hash: d110ec055b476a6b6ee968fd59035307b79fb3a125831cc30d6939f9e8b6ea30
+  filename: Stellungnahme_HochschuleBayern_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.678408+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Hochschule Bayern (PDF, 216 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_IHK_BayDigitalG_09_2021.pdf
+  md5: a51d89f9e12e508ada4ab120fcd734fb
+  file_hash: 2ed8699d8d65a2884617aa0928dfd7b601a24c2cb784a4543207e663f7c7d6f7
+  filename: Stellungnahme_IHK_BayDigitalG_09_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.680462+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Industrie- und Handelskammer in Bayern (PDF, 102 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_KEG_BayDigitalG_09_2021.pdf
+  md5: 899289b3cbe846bc6c19defed263224d
+  file_hash: 6e3ff02fe7857450d5f7c5d35f0e88bb7647d973d6b71c343658061f95dab7ad
+  filename: Stellungnahme_KEG_BayDigitalG_09_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.683213+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Katholische Erziehergemeinschaft in Bayern (PDF, 375 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_KUVB_BayDigitalG_08_2021.pdf
+  md5: 4dda4f8318948d02dd2bf4a4a242ca7a
+  file_hash: dca054cb07cb373bc73a8040b05304a82e8fe0c80ff64252d685dbd857e46f5e
+  filename: Stellungnahme_KUVB_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.686475+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Kommunale Unfallversicherung Bayern (PDF, 559 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_Notare_Bayern_Pfalz_BayDigitalG_08_2021.pdf
+  md5: 6764b8fcc736a1c7f6885df5926c2d1a
+  file_hash: 37c62715e50380af000e727634b2123bdc389fd53e64b751ad7018955a0f8278
+  filename: Stellungnahme_Notare_Bayern_Pfalz_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.688770+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Landesnotarkammer Bayern (PDF, 114 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_StBK_BayDigitalG_07_2021.pdf
+  md5: 6173ba8deb044b86dbcb097bfff08184
+  file_hash: 0b99c62eda293181e03ab5baf97a3f2924c8cab92b8b68b5078233a399ccf679
+  filename: Stellungnahme_StBK_BayDigitalG_07_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.692748+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Steuerberaterkammer München (PDF, 842 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_UniBayern_BayDigitalG_08_2021.pdf
+  md5: 752dcc0b738a8b9ebf60fa988046b7c4
+  file_hash: 5b0a0cd4fb843c1d6c6d7f346af5c8732874db407a3a8562c75fad25fc96e313
+  filename: Stellungnahme_UniBayern_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.695334+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Universität Bayern (PDF, 275 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_VKU_BayDigitalG_08_2021.pdf
+  md5: 8a99e2f28dc051466088adfc35d61a15
+  file_hash: a7af6a7bfdfb72ebda590a017fe35e47884cbc268e31f41d784d9f94bb8f7e96
+  filename: Stellungnahme_VKU_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.697709+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Verband Kommunaler Unternehmen (PDF, 225 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_VZBayern_BayDigitalG_08_2021.pdf
+  md5: 49564cbeef26b94f7e53153b2f412de6
+  file_hash: 7789861c589494f864f6de6579b02938dc7b76cf6b554c1e51a8f20a8d766abf
+  filename: Stellungnahme_VZBayern_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.699758+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Verbraucher Zentrale Bayern (PDF, 103 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_VdK_BayDigitalG_08_2021.pdf
+  md5: 32f255b90baf52a6b3b7c03ea67430d4
+  file_hash: 355d068ba472775e366f10178bc3b4d4947d6c4c1c99f6fdee0ae2b05d24b024
+  filename: Stellungnahme_VdK_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.702078+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Verband der Kriegsbeschädigten, Kriegshinterbliebenen und Sozialrentner
+    Deutschlands (PDF, 225 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_freie_Wohlfahrtspflege_Bayern_BayDigitalG_08_2021.pdf
+  md5: 33b56edb3bbbc99162dd6e8c5bb2ed39
+  file_hash: 4d00b6f56fecef8cdbeec495f429bef00becd1aa73e37988d8376fdb764d7c2a
+  filename: Stellungnahme_freie_Wohlfahrtspflege_Bayern_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.704628+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Freie Wohlfahrtspflege Landesarbeitsgemeinschaft Bayern (PDF, 312 KB)
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_vbw_BayDigitalG_08_2021.pdf
+  md5: 9978186c8c2133aba0ec185165bdce89
+  file_hash: eb74c80fc2b9ba5f8b36a6c389ca1b8a5b902f128deac84ac3d9b6140933aa33
+  filename: Stellungnahme_vbw_BayDigitalG_08_2021.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.706855+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Vereinigung der bayerischen Wirtschaft (PDF, 176 KB)
+- url: https://www.ihk-muenchen.de/ihk/Digitalisierung/Blockchain-Webinarreihe-2021/Webinar-2-Funktion-der-Blockchain-erkl%C3%A4rt.pdf
+  md5: 662fe0c092f8bde369445747348ef832
+  file_hash: da2277eb95983fb6fe7528a5d076323b194623e6d4c8c95d0074b1d17c0f2c42
+  filename: Webinar-2-Funktion-der-Blockchain-erkl%C3%A4rt.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.713370+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Funktion der Blockchain erklärt
+- url: https://www.stmd.bayern.de/wp-content/uploads/2022/11/White_Paper_NESSI.pdf
+  md5: de2d8f82715041094b327eeea401f890
+  file_hash: 4e12f1b01c25bbb34983d51543f531acd0d3d1bd44203c899f03a025ed3d0541
+  filename: White_Paper_NESSI.pdf
+  site: stmd.bayern.de
+  crawled_at: '2026-07-08T13:04:16.722705+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Digital Ministry of Bavaria Website
+  link_text: Whitepaper zu NESSI des Landesamtes für Steuern (pdf, 2,7 MB)
