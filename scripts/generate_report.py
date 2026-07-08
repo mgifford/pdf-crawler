@@ -86,6 +86,16 @@ def _expanded_entries(entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return expanded
 
 
+def _entries_for_reporting(
+    raw_entries: List[Dict[str, Any]],
+    engine_filter: Optional[str] = None,
+) -> List[Dict[str, Any]]:
+    """Return report entries scoped to a single engine when requested."""
+    if engine_filter in ("original", "bloom"):
+        return [_entry_for_engine(entry, engine_filter) for entry in raw_entries]
+    return _expanded_entries(raw_entries)
+
+
 def _engine_comparison(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
     """Build a comparison summary for files analysed by both engines."""
     by_url: Dict[str, Dict[str, Dict[str, Any]]] = {}
@@ -1909,9 +1919,10 @@ def main(
     crawled_dir: Optional[str] = None,
     issue_url: str = "",
     spot_check_file: Optional[str] = None,
+    engine_filter: Optional[str] = None,
 ) -> None:
     raw_entries = load_manifest(manifest_path)
-    entries = _expanded_entries(raw_entries)
+    entries = _entries_for_reporting(raw_entries, engine_filter=engine_filter)
     stats = _summary_stats(entries)
     comparison = _engine_comparison(raw_entries)
     capabilities = _scan_capabilities(raw_entries, site_filter=site_filter)
@@ -2179,6 +2190,15 @@ if __name__ == "__main__":  # pragma: no cover
             "PDFs and zero pages were found."
         ),
     )
+    parser.add_argument(
+        "--engine",
+        default=None,
+        choices=["original", "bloom"],
+        help=(
+            "Report only results for this analysis engine. "
+            "Use in CI so issue comments match the current scan mode."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -2193,4 +2213,5 @@ if __name__ == "__main__":  # pragma: no cover
         crawled_dir=args.crawled_dir,
         issue_url=args.issue_url,
         spot_check_file=args.spot_check_file,
+        engine_filter=args.engine,
     )
