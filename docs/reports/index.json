@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-08T01:47:15.175511+00:00",
+    "site": "mn.gov",
+    "crawl_url": "https://mn.gov/commerce",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28909904150",
+    "issue_url": "",
+    "archive_file": "2026-07-08_01-47-15-175_mn.gov.html",
+    "total": 1462,
+    "analysed": 30,
+    "accessible": 13,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-07-07T12:49:50.729811+00:00",
     "site": "hamilton.ca",
     "crawl_url": "https://www.hamilton.ca",
