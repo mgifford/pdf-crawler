@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-08T01:56:44.407742+00:00",
+    "site": "careerforce.mn.gov",
+    "crawl_url": "https://careerforce.mn.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/28911430242",
+    "issue_url": "",
+    "archive_file": "2026-07-08_01-56-44-407_careerforce.mn.gov.html",
+    "total": 78,
+    "analysed": 8,
+    "accessible": 0,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-07-07T12:49:50.729811+00:00",
     "site": "hamilton.ca",
     "crawl_url": "https://www.hamilton.ca",

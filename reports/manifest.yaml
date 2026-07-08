@@ -319794,9 +319794,10 @@
   filename: RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.121794+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   file_hash: 4964dfdde05142fc48f2c9ae2e6c185067c33be1267a4a2406f8cb178afdb054
   analyses:
     original:
@@ -319804,6 +319805,12 @@
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:45:51.847094+00:00'
   link_text: download a printable map of Minnesota's Local Workforce Development Areas
     and Board Information
 - url: https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
@@ -422590,15 +422597,22 @@
   filename: ARS%20Worker%20handout_2023-acc.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.062129+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:46:08.929442+00:00'
   link_text: Download our Information for Agricultural Workers in Minnesota factsheet
 - url: https://mn.gov/mdhr/assets/BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
   md5: e406bf70f0bfcee923d5cb30be81f275
@@ -422606,15 +422620,22 @@
   filename: BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.069678+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:46:27.046039+00:00'
   link_text: Soo dagso buuga sharaxaaya sharciga mamnuucida bokiska ee batrooniyada
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2025-04/CareerForce%20student%20focused%20flyer%202025_ACC.pdf
   md5: f39466a39508d11b1120b8e83f4f755b
@@ -422622,15 +422643,22 @@
   filename: CareerForce%20student%20focused%20flyer%202025_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.073890+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:46:44.224051+00:00'
   link_text: CareerForce student career exploration flyer
 - url: https://careerforce.mn.gov/sites/default/files/2026-03/CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
   md5: 0b92d28b89b59d4f069a4c3e74ea25bb
@@ -422638,15 +422666,22 @@
   filename: CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.076776+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:02.171739+00:00'
   link_text: CareerForce Veterans Helping Veterans brochure
 - url: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20handout-2025_ACC.pdf
   md5: 8f62a0390b8c3bf2082f18a4448eddf8
@@ -422654,15 +422689,22 @@
   filename: CareerForce_High%20School%20handout-2025_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.079284+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:19.743963+00:00'
   link_text: CareerForce 8.5x11 flyer employment with high school diploma or equivalent
 - url: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20poster-2025_ACC.pdf
   md5: 681f516568aec2afb2d22947e78c5475
@@ -422670,15 +422712,22 @@
   filename: CareerForce_High%20School%20poster-2025_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.081875+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:37.799172+00:00'
   link_text: CareerForce 11x17 poster employment with high school diploma or equivalent
 - url: https://mn.gov/deed/assets/Central-Minnesota-2024_tcm1045-288717.pdf
   md5: d9bbb019566417a42b860350fbabe4c1
@@ -422686,15 +422735,22 @@
   filename: Central-Minnesota-2024_tcm1045-288717.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.084862+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:47:55.481522+00:00'
   link_text: Central Minnesota is a Manufacturing powerhouse
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2023-07/DIMI%20structure%20handout_ACC.pdf
   md5: c587c926f07d02d85bc5662785383487
@@ -422702,15 +422758,22 @@
   filename: DIMI%20structure%20handout_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.087161+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:48:13.516450+00:00'
   link_text: Download a DiMi overview
 - url: https://www.scottcountymn.gov/DocumentCenter/View/13569/Employment--Training-Contact-Record?bidId=
   md5: 018d028bd9d698d12725eeb33a8de6da
@@ -422718,30 +422781,44 @@
   filename: Employment--Training-Contact-Record.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.089696+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:48:31.597333+00:00'
 - url: https://careerforce.mn.gov/sites/default/files/2026-07/Federal%20Bonding%20Program%20handout_ACC.pdf
   md5: 5f292a96ebc83f9018d4eb8f7ee57f39
   file_hash: 77b4b59aec35aba550e01b9698b88dc190dd8045fd5c4eb057a4ac683a5c74b5
   filename: Federal%20Bonding%20Program%20handout_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.092136+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:48:49.512028+00:00'
   link_text: informational handout about the Federal Bonding Program
 - url: https://careerforce.mn.gov/sites/default/files/2025-04/How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
   md5: abe3d22465523a27ecc2349e3bbd51c0
@@ -422749,15 +422826,22 @@
   filename: How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.094401+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:07.456065+00:00'
   link_text: How DEED Helps Employers
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2024-02/MN%20Job%20Quality%20Principles%20handout_ACC.pdf
   md5: 0aa89201cdc8ee45d6e21204896edbd7
@@ -422765,30 +422849,44 @@
   filename: MN%20Job%20Quality%20Principles%20handout_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.096627+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:24.896375+00:00'
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
   md5: e6c8a085f487f2be71a20eca7c6e3c41
   file_hash: 860c56cfb135f405da4f18c016cb5d152401ef0229f6d1b62651aba769a178b5
   filename: MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.100136+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:49:43.230262+00:00'
   link_text: el folleto de MinnesotaWorks.net para buscadores de carrera
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorksEmployersBrochure2019_ACC.pdf
   md5: 99f15fc99b6906d4c76da09b7cf47c6b
@@ -422796,15 +422894,22 @@
   filename: MNWorksEmployersBrochure2019_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.103679+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:00.779073+00:00'
   link_text: MinnesotaWorks.net para empleadores
 - url: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
   md5: 242a7dab30c18a52c234455f1a973bed
@@ -422812,15 +422917,22 @@
   filename: MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.106966+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:19.006547+00:00'
   link_text: postcard about Highway Construction Cement Mason Training
 - url: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
   md5: 91174f6c95e9446b19e7559e25a7e75a
@@ -422828,15 +422940,22 @@
   filename: MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.110409+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:36.765121+00:00'
   link_text: flyer about Highway Construction Cement Mason Training
 - url: https://mn.gov/deed/assets/Northeast-Minnesota-2024_tcm1045-288725.pdf
   md5: 7b6412188f1aa298c9472b5c7da65d1d
@@ -422844,15 +422963,22 @@
   filename: Northeast-Minnesota-2024_tcm1045-288725.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.113382+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:50:54.718603+00:00'
   link_text: Northeast Minnesota
 - url: https://mn.gov/deed/assets/Northwest-Minnesota-2024_tcm1045-288726.pdf
   md5: aefa6f8403c953407f9daf051a3c9b11
@@ -422860,15 +422986,22 @@
   filename: Northwest-Minnesota-2024_tcm1045-288726.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.116185+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:12.613958+00:00'
   link_text: Northwest Minnesota manufacturing
 - url: https://careerforce.mn.gov/sites/default/files/2026-02/Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
   md5: dbdbf5a34500a840b366913abd8497d9
@@ -422876,15 +423009,22 @@
   filename: Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.118414+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:30.143106+00:00'
   link_text: MnDOT-DEED Highway Heavy Construction Training (HHCT) Preapplication
     Form
 - url: https://mn.gov/deed/assets/Southeast-Minnesota-2024_tcm1045-288727.pdf
@@ -422893,15 +423033,22 @@
   filename: Southeast-Minnesota-2024_tcm1045-288727.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.124802+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:48.079118+00:00'
   link_text: Southeast Minnesota manufacturers
 - url: https://mn.gov/deed/assets/Southwest-Minnesota-2024_tcm1045-288728.pdf
   md5: 8c78021e356e7de71c537ca5bf353b19
@@ -422909,15 +423056,22 @@
   filename: Southwest-Minnesota-2024_tcm1045-288728.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.127763+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:07.228285+00:00'
   link_text: Southwest Minnesota
 - url: https://mn.gov/mdhr/assets/Technical%20Guidance%20364.021_tcm1061-213501.pdf
   md5: 005352111db1340d3fdebd7bbfc7722d
@@ -422925,15 +423079,22 @@
   filename: Technical%20Guidance%20364.021_tcm1061-213501.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.130243+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:24.656703+00:00'
   link_text: View the Ban the Box technical guidance sheet
 - url: https://careerforce.mn.gov/sites/default/files/2025-08/Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
   md5: 6420219b06d992f655fa757369da0320
@@ -422941,15 +423102,22 @@
   filename: Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.133766+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:42.735476+00:00'
   link_text: Flyer that outlines the many reasons teens should considering working
     in home-, community- and facility-based care
 - url: https://www.co.dakota.mn.us/libraries/Programs/Teens/Documents/TeenJobFairEmployerList.pdf
@@ -422958,15 +423126,22 @@
   filename: TeenJobFairEmployerList.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.135684+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:00.664655+00:00'
   link_text: Teen Job Fair Employer and Resource List
 - url: https://mn.gov/deed/assets/TwinCities-2024_tcm1045-288722.pdf
   md5: 5ea6683efaedaa3503092f81f51c3b09
@@ -422974,15 +423149,22 @@
   filename: TwinCities-2024_tcm1045-288722.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.138682+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:17.969382+00:00'
   link_text: Twin Cities
 - url: https://careerforce.mn.gov/sites/default/files/2026-05/VetCareerFair%202026%20Directory-acc.pdf
   md5: bf2abf8aafcf315e7e7006607e29bf28
@@ -422990,15 +423172,22 @@
   filename: VetCareerFair%202026%20Directory-acc.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.144208+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:35.993256+00:00'
   link_text: Download the 20th Annual Veterans Career Fair Employer Directory
 - url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2020-09/dei-employer-guide-acc.pdf
   md5: 84981da7e9f083d104aa3e09ca8fd258
@@ -423006,15 +423195,22 @@
   filename: dei-employer-guide-acc.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.147498+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:53.628557+00:00'
   link_text: Diversity, Equity and Inclusion Guide for Employers
 - url: https://careerforce.mn.gov/sites/default/files/2025-06/dimi-membership-agreement-acc.pdf
   md5: 96c15004052c4a56fb9c242b5ce37eb3
@@ -423022,15 +423218,22 @@
   filename: dimi-membership-agreement-acc.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.149711+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:10.868151+00:00'
   link_text: View our Membership Agreement
 - url: https://mn.gov/deed/assets/econ-dev-resource-guide_tcm1045-153149.pdf
   md5: f1c7ea372b355aa6dd4c288c90d701eb
@@ -423038,15 +423241,22 @@
   filename: econ-dev-resource-guide_tcm1045-153149.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.153944+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:28.589641+00:00'
   link_text: Minnesota Economic Development Resource Guide
 - url: https://mn.gov/deed/assets/employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
   md5: 6a35c7995d5ac44409f6a5c73213d0c0
@@ -423054,15 +423264,22 @@
   filename: employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.156125+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:46.364178+00:00'
   link_text: click here
 - url: https://apps.deed.state.mn.us/assets/employment-resource-guide.pdf
   md5: 2d373efeabd5b38dc84fd1c13cf1b14e
@@ -423070,15 +423287,22 @@
   filename: employment-resource-guide.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.158430+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:04.656728+00:00'
   link_text: 'Employment Resource Guide to State and Federal Agencies: Answers to
     your Employment-Related Questions'
 - url: https://www.irs.gov/pub/irs-pdf/f8826.pdf
@@ -423087,15 +423311,22 @@
   filename: f8826.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.160396+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:22.329093+00:00'
   link_text: Form 8826, Disabled Access Credit
 - url: https://mn.gov/deed/assets/right-fair-treatment_tcm1045-363157.pdf
   md5: 0a3a8ee54cceb10a4810421a1fb1fa20
@@ -423103,15 +423334,22 @@
   filename: right-fair-treatment_tcm1045-363157.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.162982+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:39.767660+00:00'
   link_text: right to fair treatment
 - url: https://mn.gov/deed/assets/wioa-discrimination-complaint_tcm1045-596623.pdf
   md5: af1f5592808749a735c74ae385e2b1ea
@@ -423119,13 +423357,20 @@
   filename: wioa-discrimination-complaint_tcm1045-596623.pdf
   site: careerforce.mn.gov
   crawled_at: '2026-07-08T01:43:50.166421+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: pending
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:57.365408+00:00'
   link_text: complaint form

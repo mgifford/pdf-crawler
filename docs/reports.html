@@ -325,6 +325,8 @@
           case 'rerun': return (r._run_total || 1) * 1000 + (r._run_number || 1);
           case 'engines': return String(engines).toLowerCase();
           case 'verapdf': return r.verapdf ? 1 : 0;
+          case 'vp_fail': return r.vp_fail_files != null ? r.vp_fail_files : -1;
+          case 'vp_error': return r.vp_error_files != null ? r.vp_error_files : -1;
           case 'total': return r.total || 0;
           case 'accessible': return accessible;
           case 'issues': return issues;
@@ -390,13 +392,18 @@
         }
 
         var sorted = sortReports(reports);
+        var hasVeraPDF = reports.some(function (r) { return r.verapdf || (r.vp_checked_files || 0) > 0; });
+        var hasVPFail = hasVeraPDF && reports.some(function (r) { return r.vp_fail_files != null; });
+        var hasVPError = hasVeraPDF && reports.some(function (r) { return r.vp_error_files != null; });
         var html = '<table id="reports-table"><thead><tr>' +
           '<th class="sortable" data-col="date" data-label="Date" aria-sort="none" tabindex="0"><span class="sort-label">Date</span></th>' +
           '<th class="sortable" data-col="site" data-label="Site" aria-sort="none" tabindex="0"><span class="sort-label">Site</span></th>' +
           '<th class="sortable" data-col="issue" data-label="Issue" aria-sort="none" tabindex="0"><span class="sort-label">Issue</span></th>' +
           '<th class="sortable" data-col="rerun" data-label="Run" aria-sort="none" tabindex="0"><span class="sort-label">Run</span></th>' +
           '<th class="sortable" data-col="engines" data-label="Engines" aria-sort="none" tabindex="0"><span class="sort-label">Engines</span></th>' +
-          '<th class="sortable" data-col="verapdf" data-label="veraPDF" aria-sort="none" tabindex="0"><span class="sort-label">veraPDF</span></th>' +
+          (hasVeraPDF ? '<th class="sortable" data-col="verapdf" data-label="veraPDF" aria-sort="none" tabindex="0"><span class="sort-label">veraPDF</span></th>' : '') +
+          (hasVPFail ? '<th class="sortable" data-col="vp_fail" data-label="vPDF Fails" aria-sort="none" tabindex="0"><span class="sort-label">vPDF Fails</span></th>' : '') +
+          (hasVPError ? '<th class="sortable" data-col="vp_error" data-label="vPDF Errors" aria-sort="none" tabindex="0"><span class="sort-label">vPDF Errors</span></th>' : '') +
           '<th class="sortable" data-col="total" data-label="Total PDFs" aria-sort="none" tabindex="0"><span class="sort-label">Total PDFs</span></th>' +
           '<th class="sortable" data-col="accessible" data-label="&#x2705; Accessible" aria-sort="none" tabindex="0"><span class="sort-label">&#x2705; Accessible</span></th>' +
           '<th class="sortable" data-col="issues" data-label="&#x274C; Issues" aria-sort="none" tabindex="0"><span class="sort-label">&#x274C; Issues</span></th>' +
@@ -415,6 +422,8 @@
             ? r.analysis_engines.join(', ')
             : (r.analysis_engines || r.engine || 'original');
           var verapdfLabel = r.verapdf ? '&#x2705;' : '&#x2014;';
+          var vpFailLabel = (r.vp_fail_files != null) ? r.vp_fail_files : '&#x2014;';
+          var vpErrorLabel = (r.vp_error_files != null) ? r.vp_error_files : '&#x2014;';
           var siteCell = r.crawl_url
             ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
             : esc(r.site || '');
@@ -425,7 +434,9 @@
             '<td>' + issueLabel + '</td>' +
             '<td>' + runLabel + '</td>' +
             '<td>' + esc(enginesLabel) + '</td>' +
-            '<td>' + verapdfLabel + '</td>' +
+            (hasVeraPDF ? '<td>' + verapdfLabel + '</td>' : '') +
+            (hasVPFail ? '<td>' + vpFailLabel + '</td>' : '') +
+            (hasVPError ? '<td>' + vpErrorLabel + '</td>' : '') +
             '<td>' + (r.total || 0) + '</td>' +
             '<td>' + (r.accessible || 0) + '</td>' +
             '<td>' + issues + '</td>' +
