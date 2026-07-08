@@ -419922,3 +419922,93 @@
       errors: []
       analysed_at: null
   link_text: Roll Plan(PDF, 5.33 MB)
+- url: https://mn.gov/mmb-stat/policies/1450-minnesota-paid-leave.pdf
+  md5: 44e7812503d98884fae733d5e606fc2d
+  file_hash: e71f5234e44a778d6ec76934770d6978cfac46d1dc95ec38d00cd7f984714c5e
+  filename: 1450-minnesota-paid-leave.pdf
+  site: mn.gov
+  crawled_at: '2026-07-08T01:02:26.293580+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://assets.dps.mn.gov/files/dvs/dvs-class-d-drivers-manual-english.pdf
+  md5: 148da00770748ad76f19a1a4bac91c1d
+  file_hash: b3b4a6f10f0ed15b6ac2f609d9ff4b8ae260c0767c3883b6f806b489796cd1e1
+  filename: dvs-class-d-drivers-manual-english.pdf
+  site: mn.gov
+  crawled_at: '2026-07-08T01:02:26.316230+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://assets.dps.mn.gov/files/dvs/dvs-dvsm10-edl-eid-ID-requirements.pdf
+  md5: 08b6593801f7b36d3decd6424725f68b
+  file_hash: 207e0455595f9892eed67356f9ed5c81e65434097ff1855ab24a8f0bb5a9b810
+  filename: dvs-dvsm10-edl-eid-ID-requirements.pdf
+  site: mn.gov
+  crawled_at: '2026-07-08T01:02:26.320607+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://mn.gov/deed/assets/paid-leave-employer-overview_tcm1045-700913.pdf
+  md5: 0615f8b7a1a430dc5059785fbdfe3fe8
+  file_hash: 7dc0833d4242566ee1585675d907a749bc2bab34092befd8e4bfdeb7ad065cbe
+  filename: paid-leave-employer-overview_tcm1045-700913.pdf
+  site: mn.gov
+  crawled_at: '2026-07-08T01:02:26.329567+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://mn.gov/deed/assets/paid-leave-mandatory-employer-poster-acc_tcm1045-700342.pdf
+  md5: 56d7a3de153a129a2c5fcfbab083d5a1
+  file_hash: 7dd3ab5dffd85afae34fd91b1e8586f7b4effec3301ef11788a4c37837ebcaae
+  filename: paid-leave-mandatory-employer-poster-acc_tcm1045-700342.pdf
+  site: mn.gov
+  crawled_at: '2026-07-08T01:02:26.332147+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://mn.gov/mmb-stat/000/az/labor-relations/unrepresented-plan/unrepresented-plan.pdf
+  md5: 98a4d20a0b83c620552c95cf69613d1a
+  file_hash: b56e9897799c472b68c5e969390d494b83941a52a7e2da878d99b6c548231a6c
+  filename: unrepresented-plan.pdf
+  site: mn.gov
+  crawled_at: '2026-07-08T01:02:26.338955+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
