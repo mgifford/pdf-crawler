@@ -360497,10 +360497,9 @@
   filename: 10050-le-medicare-and-you.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:18.762090+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   notes: Just testing this.
   analyses:
     original:
@@ -383993,10 +383992,9 @@
   filename: 11579-medicare-costs.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.319771+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   notes: Just testing this.
   analyses:
     original:
@@ -384793,10 +384791,9 @@
   filename: summarynoticeenvelope.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:19.392732+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   notes: Just testing this.
   analyses:
     original:
@@ -448773,10 +448770,9 @@
   filename: 10001.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.701368+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -448796,10 +448792,9 @@
   filename: 10011.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.708759+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -448819,10 +448814,9 @@
   filename: 10021.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.715881+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -448842,10 +448836,9 @@
   filename: 10036.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.719581+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -448865,10 +448858,9 @@
   filename: 10050-medicare-and-you.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.732906+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -448889,10 +448881,9 @@
   filename: 10056.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.740843+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -448912,10 +448903,9 @@
   filename: 10181guidetochoosing-ahospital.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.743935+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -448936,10 +448926,9 @@
   filename: 11095-Get-Ready-for-Medicare-package-in-United-States.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.759720+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -448960,10 +448949,9 @@
   filename: 11154-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.762632+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -448984,10 +448972,9 @@
   filename: 11154.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.765396+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449008,10 +448995,9 @@
   filename: 11166-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.768059+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449032,10 +449018,9 @@
   filename: 11166.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.770521+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449056,10 +449041,9 @@
   filename: 11186-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.772995+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449080,10 +449064,9 @@
   filename: 11186.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.775588+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449104,10 +449087,9 @@
   filename: 11198-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.777820+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449128,10 +449110,9 @@
   filename: 11198.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.779804+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449152,10 +449133,9 @@
   filename: 11199-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.783122+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449176,10 +449156,9 @@
   filename: 11199.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.786652+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449200,10 +449179,9 @@
   filename: 11208-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.789042+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449224,10 +449202,9 @@
   filename: 11208.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.791429+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449248,10 +449225,9 @@
   filename: 11209-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.793804+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449272,10 +449248,9 @@
   filename: 11209.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.796107+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449296,10 +449271,9 @@
   filename: 11267-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.799882+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449320,10 +449294,9 @@
   filename: 11267.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.802179+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449344,10 +449317,9 @@
   filename: 11334-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.804773+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449368,10 +449340,9 @@
   filename: 11334.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.807504+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449392,10 +449363,9 @@
   filename: 11389-Medicare-Getting-Started.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.811762+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449416,10 +449386,9 @@
   filename: 11429-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.814287+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449440,10 +449409,9 @@
   filename: 11429.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.817556+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449464,10 +449432,9 @@
   filename: 11433.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.820894+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449488,10 +449455,9 @@
   filename: 11443-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.823336+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449512,10 +449478,9 @@
   filename: 11443.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.825578+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449536,10 +449501,9 @@
   filename: 11452notice.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.827721+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449560,10 +449524,9 @@
   filename: 11475-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.830073+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449584,10 +449547,9 @@
   filename: 11475.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.832490+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449608,10 +449570,9 @@
   filename: 11496-S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.834924+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449632,10 +449593,9 @@
   filename: 11496.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.837345+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449656,10 +449616,9 @@
   filename: 11659-understanding-cms-500-trifold-508c.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.840433+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449680,10 +449639,9 @@
   filename: 11659-understanding-cms-500-trifold-may-2023.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.846031+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449704,10 +449662,9 @@
   filename: 11659s-understanding-cms-500-trifold-508c.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.847853+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449728,10 +449685,9 @@
   filename: 11816.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.853503+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449752,10 +449708,9 @@
   filename: 11871-Welcome-to-Medicare-package-foreign.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.859238+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449776,10 +449731,9 @@
   filename: 11873-Sign-up-Part-B-package-US.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.867999+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449800,10 +449754,9 @@
   filename: 11873-s-sign-up-for-part-b.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.876329+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449824,10 +449777,9 @@
   filename: 11874-Sign-up-Part-B-package-Puerto-Rico.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.883981+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449848,10 +449800,9 @@
   filename: 11915-2024508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.886591+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449872,10 +449823,9 @@
   filename: 11915-s-2024508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.888991+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449896,10 +449846,9 @@
   filename: 11952-2024508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.891333+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449920,10 +449869,9 @@
   filename: 11952-s-2024508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.893721+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449944,10 +449892,9 @@
   filename: 11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.897485+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449968,10 +449915,9 @@
   filename: 12020-Welcome-to-Medicare-0.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.902824+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -449992,10 +449938,9 @@
   filename: 12020-Welcome-to-Medicare.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.908259+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450016,10 +449961,9 @@
   filename: 12095-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.910231+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450040,10 +449984,9 @@
   filename: 12096-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.911988+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450064,10 +450007,9 @@
   filename: 12097-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.913709+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450089,10 +450031,9 @@
   filename: 12098-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.916683+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450114,10 +450055,9 @@
   filename: 12099-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.918475+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450138,10 +450078,9 @@
   filename: 12100-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.920312+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450163,10 +450102,9 @@
   filename: 12101-Eng-Span-letter-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.923605+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450188,10 +450126,9 @@
   filename: 12112-understanding-mep-trifold-508c.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.929064+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450212,10 +450149,9 @@
   filename: 12112s-understanding-mep-trifold-508c.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.934885+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450236,10 +450172,9 @@
   filename: 12116-Welcome-to-Medicare.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.936660+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450260,10 +450195,9 @@
   filename: 12116-s-bienvenido-a-medicare.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.938257+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450284,10 +450218,9 @@
   filename: 12130nursing-home-checklist508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.939831+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450308,10 +450241,9 @@
   filename: 12172-3-things-to-know-about-medicare-insulin-costs.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.941412+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450332,10 +450264,9 @@
   filename: 12177-2023-02-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.943702+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450356,10 +450287,9 @@
   filename: 12181-3-6-24.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.945350+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450380,10 +450310,9 @@
   filename: 12181-s-3-5-24-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.946961+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450404,10 +450333,9 @@
   filename: 2012-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.948723+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450428,10 +450356,9 @@
   filename: 2013-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.950448+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450452,10 +450379,9 @@
   filename: 2014-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.952246+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450476,10 +450402,9 @@
   filename: 2015-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.954108+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450500,10 +450425,9 @@
   filename: 2016-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.955970+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450524,10 +450448,9 @@
   filename: 2017-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.957861+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450548,10 +450471,9 @@
   filename: 2018-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.959815+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450572,10 +450494,9 @@
   filename: 2019-annual-CMS-plain-language-report.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.961614+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450596,10 +450517,9 @@
   filename: 2020-Annual-Plain-Writing-Report.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.963468+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450620,10 +450540,9 @@
   filename: 2021-annual-CMS-plain-language-report.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.965306+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450644,10 +450563,9 @@
   filename: 2022-annual-cms-plain-language-report-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.967226+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450668,10 +450586,9 @@
   filename: 2023-annual-cms-plain-language-report.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.969296+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450692,10 +450609,9 @@
   filename: 2024-annual-cms-plain-language-report-final.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.971131+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450716,10 +450632,9 @@
   filename: 2025-annual-cms-plain-language-report-final.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.972955+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450740,10 +450655,9 @@
   filename: 2025-my-national-english-other-languages-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.975588+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450765,10 +450679,9 @@
   filename: 2026-annual-cms-plain-language-report-final-508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.977468+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450789,10 +450702,9 @@
   filename: CMS10106.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.979263+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450806,17 +450718,16 @@
       - No module named 'simpla11ypdf'
       analysed_at: '2026-07-08T01:59:36.188365+00:00'
   notes: Just testing this.
-  link_text: Authorization to Disclose Personal Health Information
+  link_text: authorization form
 - url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS10106S.pdf
   md5: b107b8b1fc0f70ca6f91a258a3493e7a
   file_hash: 474cbe24b32e9c142bcaf247c2e99f945d298082385ed81f5fdaee4531676a6e
   filename: CMS10106S.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.980870+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450837,10 +450748,9 @@
   filename: CMS1490S-Spanish.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.984311+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450861,10 +450771,9 @@
   filename: CMS20027.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.985824+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450885,10 +450794,9 @@
   filename: CMS2728.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.987423+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450910,10 +450818,9 @@
   filename: CMS40B-E.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.988990+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450934,10 +450841,9 @@
   filename: DFC_checklist_11-26-19_508.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.990483+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
@@ -450958,10 +450864,9 @@
   filename: G-HI_00815.025-1.pdf
   site: medicare.gov
   crawled_at: '2026-07-08T01:19:43.992536+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - No module named 'simpla11ypdf'
+  errors: []
   analyses:
     original:
       status: pending
