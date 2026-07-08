@@ -3,7 +3,6 @@
 # pylint: disable=use-maxsplit-arg
 
 import json
-import re
 import sys
 from pathlib import Path
 
