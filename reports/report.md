@@ -1,20 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-08T13:00:28.012933+00:00
+Generated: 2026-07-08T13:20:03.763896+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 31 |
-| Total files tracked | 23943 |
-| Analysed | 6072 |
-| Pending analysis | 11673 |
-| Errors during analysis | 6198 |
-| Accessible | 2000 |
-| Totally inaccessible | 257 |
+| URLs crawled | 351 |
+| Total files tracked | 23097 |
+| Analysed | 5851 |
+| Pending analysis | 11047 |
+| Errors during analysis | 6199 |
+| Accessible | 1944 |
+| Totally inaccessible | 256 |
 | Broken / unreadable | 26 |
-| Exempt (pre-2018) | 1505 |
+| Exempt (pre-2018) | 1430 |
 
 ## Files per Site
 
@@ -30,13 +30,13 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | businessexpress.maryland.gov | 1 |
 | calgary.ca | 165 |
 | canada.ca | 500 |
-| careerforce.mn.gov | 78 |
+| careerforce.mn.gov | 43 |
 | circuit19.org | 39 |
-| cms.gov | 1711 |
+| cms.gov | 1633 |
 | coloradoboces.org | 48 |
 | coloradomesa.edu | 88 |
 | ctoec.org | 1742 |
-| dc.gov | 241 |
+| dc.gov | 148 |
 | dnr.state.mn.us | 8 |
 | doit.maryland.gov | 284 |
 | dot.state.mn.us | 95 |
@@ -44,20 +44,20 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | ecboces.org | 75 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 2293 |
+| energy.gov | 2146 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
 | govt.nz | 9 |
 | gsa.gov | 450 |
-| hamilton.ca | 642 |
+| hamilton.ca | 477 |
 | hud.gov | 1418 |
 | ijcaonline.org | 1 |
 | kfw.de | 8 |
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
-| medicare.gov | 412 |
+| medicare.gov | 313 |
 | middletowncityschools.com | 170 |
 | minneapolis.edu | 6 |
 | mn.gov | 1462 |
@@ -65,7 +65,7 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | ncert.nic.in | 329 |
 | nj.gov | 375 |
 | njfamilycare.dhs.state.nj.us | 180 |
-| nsf.gov | 2029 |
+| nsf.gov | 1851 |
 | nwboces.org | 21 |
 | ontario.ca | 51 |
 | oregon.gov | 2178 |
@@ -75,15 +75,15 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | products.gci-ga.com | 137 |
 | projects.accesscomputing.uw.edu | 3 |
 | pstcc.edu | 11 |
-| slvboces.org | 824 |
+| slvboces.org | 743 |
 | smallpdf.com | 2 |
 | stjohns.k12.fl.us | 126 |
-| stmd.bayern.de | 9 |
+| stmd.bayern.de | 50 |
 | tn.gov | 768 |
 | tollwerk.de | 8 |
 | towson.edu | 148 |
 | ul.ie | 7 |
-| usds.gov | 22 |
+| usds.gov | 11 |
 | vdl.lu | 16 |
 | vivaqua.be | 68 |
 | volstate.edu | 10 |
@@ -695,7 +695,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2024-04/2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf) | energy.gov | 2024-04-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 29 | — | — |
 | [2025-reporting-webinar.pdf](https://epact.energy.gov/pdfs/2025-reporting-webinar.pdf) | energy.gov | 2025-12-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 29 | — | — |
 | [2025Summit-Long_Term_Planning_Savings_Multifamily-Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2025-05/2025Summit-Long_Term_Planning_Savings_Multifamily-Slides.pdf) | energy.gov | 2025-05-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 36 | — | — |
-| [233%20-%20PI%20Order%20and%20Mem.%20Op..pdf](https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf) | energy.gov | 2025-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 53 | — | — |
 | [2527.pdf](https://afdc.energy.gov/files/pdfs/2527.pdf) | energy.gov | 2008-08-22 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 357 | — | — |
 | [3-3-15-Dealerships-to-Donuts-slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/3-3-15-Dealerships-to-Donuts-slides.pdf) | energy.gov | 2015-03-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 40 | — | — |
 | [3-3-15-Dealerships-to-Donuts-transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/3-3-15-Dealerships-to-Donuts-transcript.pdf) | energy.gov | 2015-03-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — |
@@ -805,7 +804,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [QECB-FAQ_final.pdf](https://www.energy.gov/sites/prod/files/2017/08/f36/QECB-FAQ_final.pdf) | energy.gov | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
 | [QuantumWkshpRpt20FINAL_Nav_0.pdf](https://www.energy.gov/sites/prod/files/2020/07/f76/QuantumWkshpRpt20FINAL_Nav_0.pdf) | energy.gov | 2020-07-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 36 | — | — |
 | [Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f](https://cleancities.energy.gov/files/u/news_events/document/document_url/132/Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f) | energy.gov | 2016-12-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — |
-| [RI_TRO_Notice.pdf](https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf) | energy.gov | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | — | — |
 | [Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf) | energy.gov | 2014-05-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 81 | — | — |
 | [Red-Volunteer.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/05/Red-Volunteer.pdf) | energy.gov | 2025-05-23 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [Renew_America%27s_Nonrprofits_Office_Hours_2_Presentation.pdf](https://www.energy.gov/sites/default/files/2023-07/Renew_America%27s_Nonrprofits_Office_Hours_2_Presentation.pdf) | energy.gov | 2023-07-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 33 | — | — |
@@ -1049,10 +1047,7 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [BABA_WaiverRequestSubmission_2022_508.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BABA_WaiverRequestSubmission_2022_508.pdf) | nsf.gov | 2022-05-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf](https://nsf-gov-resources.nsf.gov/2022-08/Build%20America%20Buy%20America%20Factsheet%20and%20FAQs%20for%20Award%20Recipients.pdf) | nsf.gov | 2022-08-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — |
 | [BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf](https://nsf-gov-resources.nsf.gov/2022-05/BuildAmericaBuyAmericaPL117-58IIJASec70911_0.pdf) | nsf.gov | 2022-04-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — |
-| [Dr.SchragTestimony508_0.pdf](https://nsf-gov-resources.nsf.gov/2022-04/Dr.SchragTestimony508_0.pdf) | nsf.gov | 2022-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — |
 | [How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf](https://nsf-gov-resources.nsf.gov/2022-06/How%20do%20I%20know%20if%20the%20Act%20applies%20to%20my%20award_1.pdf) | nsf.gov | 2022-06-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
-| [NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf](https://nsf-gov-resources.nsf.gov/2021-11/NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf) | nsf.gov | 2021-11-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — |
-| [NSF-scientific-integrity-policy.pdf](https://nsf-gov-resources.nsf.gov/files/NSF-scientific-integrity-policy.pdf) | nsf.gov | 2025-05-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
 | [NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_supported_Glaciers_and_Glaciology_Award.pdf) | nsf.gov | 2016-03-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
 | [NSF_Response_to_Festivus_Report_2020.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2020.pdf) | nsf.gov | 2021-02-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — |
 | [NSF_Response_to_Festivus_Report_2021.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Festivus_Report_2021.pdf) | nsf.gov | 2022-01-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
@@ -1078,8 +1073,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [NSF_Response_to_Senator_Pauls_Spring_2019_Waste_in_Full_Bloom.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_Spring_2019_Waste_in_Full_Bloom.pdf) | nsf.gov | 2021-05-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — |
 | [NSF_Response_to_Senator_Pauls_Summer_2019_Waste_Report.pdf](https://nsf-gov-resources.nsf.gov/2023-08/NSF_Response_to_Senator_Pauls_Summer_2019_Waste_Report.pdf) | nsf.gov | 2021-05-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [SciENcvFAQs.pdf](https://nsf-gov-resources.nsf.gov/files/SciENcvFAQs.pdf) | nsf.gov | 2024-08-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | — | — |
-| [TIP%20Impact%20Infographic%20508%20v2.pdf](https://nsf-gov-resources.nsf.gov/files/TIP%20Impact%20Infographic%20508%20v2.pdf) | nsf.gov | 2025-03-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
-| [appendix-a-r.pdf](https://nsf-gov-resources.nsf.gov/files/appendix-a-r.pdf) | nsf.gov | 2025-02-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — |
 | [nsb20198-fig03-021.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-021.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [nsb20198-fig03-022.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-022.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [nsb20198-fig03-023.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/demographic-trends-of-the-s-e-workforce/figures/nsb20198-fig03-023.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
@@ -1095,9 +1088,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [nsb20198-tab03-021.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-021.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [nsb20198-tab03-022.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-022.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [nsb20198-tab03-023.pdf](https://ncses.nsf.gov/pubs/nsb20198/assets/immigration-and-the-s-e-workforce/tables/nsb20198-tab03-023.pdf) | nsf.gov | 2019-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
-| [nsf23104.pdf](https://nsf-gov-resources.nsf.gov/pubs/2023/nsf23104/nsf23104.pdf) | nsf.gov | 2023-07-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 28 | — | — |
-| [nsf23_1.pdf](https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf) | nsf.gov | 2024-02-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 203 | — | — |
-| [nsf24_1.pdf](https://nsf-gov-resources.nsf.gov/files/nsf24_1.pdf) | nsf.gov | 2025-12-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 216 | — | — |
 | [nsf25003.pdf](https://nsf-gov-resources.nsf.gov/files/nsf25003.pdf) | nsf.gov | 2025-01-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 34 | — | — |
 | [nsf26313-tab009.pdf](https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab009.pdf) | nsf.gov | 2026-02-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
 | [nsf26313-tab010.pdf](https://ncses.nsf.gov/pubs/nsf26313/assets/data-tables/tables/nsf26313-tab010.pdf) | nsf.gov | 2026-02-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
@@ -1461,7 +1451,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [ons_stad_49-1995_12-14.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_49-1995_12-14.pdf) | vdl.lu | 2009-07-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — |
 | [ons_stad_93-2010_58-61.pdf](https://onsstad.vdl.lu/fileadmin/uploads/media/ons_stad_93-2010_58-61.pdf) | vdl.lu | 2010-04-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | — |
 | [01302019_non_fed_101_slides.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/01302019_non_fed_101_slides.pdf) | cms.gov | 2019-04-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 25 | — | — |
-| [11082012-teleconference-transcript.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/11082012-teleconference-transcript.pdf) | cms.gov | 2012-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 11 | — | — |
 | [1998d001.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d001.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | — | — |
 | [1998d002.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d002.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | — | — |
 | [1998d003.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d003.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 10 | — | — |
@@ -1469,7 +1458,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [1998d005.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d005.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — |
 | [1998d006.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d006.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 6 | — | — |
 | [1998d007.pdf](https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d007.pdf) | cms.gov | 1999-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 14 | — | — |
-| [2013-navigator-foa-4-9-2013.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/2013-navigator-foa-4-9-2013.pdf) | cms.gov | 2013-04-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 41 | — | — |
 | [2014-risk-corridors-validation-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2014-risk-corridors-validation-instructions.pdf) | cms.gov | 2015-08-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 37 | — | — |
 | [2014_medical_loss_ratio_report.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2014_medical_loss_ratio_report.pdf) | cms.gov | 2015-11-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | — |
 | [2016-unified-rate-review-instructions-20150222-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2016-unified-rate-review-instructions-20150222-final.pdf) | cms.gov | 2015-02-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 69 | — | — |
@@ -1482,14 +1470,12 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [2021-urr-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/2021-urr-instructions.pdf) | cms.gov | 2020-04-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 49 | — | — |
 | [2022-mhpaea-report-congress.pdf](https://www.cms.gov/files/document/2022-mhpaea-report-congress.pdf) | cms.gov | 2022-01-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 54 | — | — |
 | [2023-mhpaea-report-congress.pdf](https://www.cms.gov/files/document/2023-mhpaea-report-congress.pdf) | cms.gov | 2023-07-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 119 | — | — |
-| [2023-open-enrollment-report-infographic.pdf](https://www.cms.gov/marketplace/outreach-and-education/2023-open-enrollment-report-infographic.pdf) | cms.gov | 2023-03-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [2024-145-ipfema-exception-memo-hurricane-francinefinal508.pdf](https://www.cms.gov/files/document/2024-145-ipfema-exception-memo-hurricane-francinefinal508.pdf) | cms.gov | 2024-10-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [2024-146-ipfema-exception-memo-hurricanes-helene-miltonfinal508.pdf](https://www.cms.gov/files/document/2024-146-ipfema-exception-memo-hurricanes-helene-miltonfinal508.pdf) | cms.gov | 2024-10-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
 | [2024-mhpaea-report-congress.pdf](https://www.cms.gov/files/document/2024-mhpaea-report-congress.pdf) | cms.gov | 2025-01-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 142 | — | — |
 | [2025-74-ipfematexasflooding508.pdf](https://www.cms.gov/files/document/2025-74-ipfematexasflooding508.pdf) | cms.gov | 2025-07-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — |
 | [2025-ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf](https://www.cms.gov/files/document/2025-ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf) | cms.gov | 2024-11-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [303d.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/303d.pdf) | cms.gov | 2004-12-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | — |
-| [5-things-about-svi.pdf](https://www.cms.gov/marketplace/technical-assistance-resources/5-things-about-svi.pdf) | cms.gov | 2017-08-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — |
 | [508_cms-10379-2017-unified-rate-review-instructions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/508_cms-10379-2017-unified-rate-review-instructions.pdf) | cms.gov | 2016-03-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 78 | — | — |
 | [508_cms-10379-rate-review-supporting-statement.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/508_cms-10379-rate-review-supporting-statement.pdf) | cms.gov | 2016-03-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | — |
 | [FINAL-2017-Unified-Rate-Review-Instructions.pdf](https://www.cms.gov/CCIIO/Resources/Forms-Reports-and-Other-Resources/Downloads/FINAL-2017-Unified-Rate-Review-Instructions.pdf) | cms.gov | 2016-08-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 78 | — | — |
@@ -1499,13 +1485,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [abn-form-instructions.pdf](https://www.cms.gov/medicare/medicare-general-information/bni/downloads/abn-form-instructions.pdf) | cms.gov | 2023-03-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — |
 | [add-code-file-enhanced-format-document.pdf](https://www.cms.gov/files/document/add-code-file-enhanced-format-document.pdf) | cms.gov | 2026-02-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [agent-broker-help-desks.pdf](https://www.cms.gov/marketplace/agents-brokers/files/agent-broker-help-desks.pdf) | cms.gov | 2024-05-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — |
-| [amended-spring-2012-establishment-foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/amended-spring-2012-establishment-foa.pdf) | cms.gov | 2014-01-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 79 | — | — |
-| [annrpt03.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt03.pdf) | cms.gov | 2006-05-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — |
-| [annrpt06.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt06.pdf) | cms.gov | 2006-11-09 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 19 | — | — |
-| [asc_hai_map.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/asc_hai_map.pdf) | cms.gov | 2009-08-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
-| [august_10_foa_teleconference_transcript0816_final.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/august_10_foa_teleconference_transcript0816_final.pdf) | cms.gov | 2011-08-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 48 | — | — |
-| [authorizationform.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/authorizationform.pdf) | cms.gov | 2018-10-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
-| [black-and-white.pdf](https://www.cms.gov/files/document/emtala-poster-non-medicaid-participating-spanish/black-and-white.pdf) | cms.gov | 2024-08-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [bp102c07.pdf](https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/downloads/bp102c07.pdf) | cms.gov | 2024-01-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 108 | — | — |
 | [bp102c13.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/bp102c13.pdf) | cms.gov | 2026-01-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 70 | — | — |
 | [cac-assign-cac-idpdf.pdf](https://www.cms.gov/files/document/cac-assign-cac-idpdf.pdf) | cms.gov | 2020-09-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
@@ -1521,30 +1500,16 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [cms-10459-enrollee-notice.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/cms-10459-enrollee-notice.pdf) | cms.gov | 2013-06-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
 | [cms-request-for-review-cobra-premium-assist-denial.pdf](https://www.cms.gov/cciio/resources/files/downloads/cms-request-for-review-cobra-premium-assist-denial.pdf) | cms.gov | 2012-10-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — |
 | [cms_rtc_hrp_final073109.pdf](https://www.cms.gov/cciio/resources/files/downloads/cms_rtc_hrp_final073109.pdf) | cms.gov | 2011-10-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — |
-| [consumer_assistance_program_grant_foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/consumer_assistance_program_grant_foa.pdf) | cms.gov | 2011-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — |
-| [coop-foa-transcript-20120301.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120301.pdf) | cms.gov | 2012-07-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — |
-| [coop-foa-transcript-20120516.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf) | cms.gov | 2012-07-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 28 | — | — |
-| [cycle_i_rate_review_grant-rerelease_territories.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_i_rate_review_grant-rerelease_territories.pdf) | cms.gov | 2011-08-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — |
-| [cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf) | cms.gov | 2011-08-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 55 | — | — |
 | [detailed-explanation-non-coverage-instructions-eff-jan-2025.pdf](https://www.cms.gov/files/document/detailed-explanation-non-coverage-instructions-eff-jan-2025.pdf) | cms.gov | 2024-12-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
 | [document-5-csr-reconciliation-attestation-form-a-benefit-year-2019-or-2018.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-5-csr-reconciliation-attestation-form-a-benefit-year-2019-or-2018.pdf) | cms.gov | 2020-03-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf) | cms.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [document-6-csr-reconciliation-attestation-form-b-benefit-year-2019-or-2018.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-6-csr-reconciliation-attestation-form-b-benefit-year-2019-or-2018.pdf) | cms.gov | 2020-04-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [document-6-csr-reconciliation-attestation-form-b-benefit-year-2020-or-2019.pdf](https://www.cms.gov/cciio/resources/regulations-and-guidance/downloads/document-6-csr-reconciliation-attestation-form-b-benefit-year-2020-or-2019.pdf) | cms.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
-| [early_innovator_grants.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/early_innovator_grants.pdf) | cms.gov | 2011-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 41 | — | — |
-| [eaw-grant-fact-sheet.pdf](https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf) | cms.gov | 2024-09-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
-| [eaw-grant-pre-application-call-slides.pdf](https://www.cms.gov/files/document/eaw-grant-pre-application-call-slides.pdf) | cms.gov | 2024-07-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | — |
-| [eaw-grant-program-proposed-state-activities-final.pdf](https://www.cms.gov/files/document/eaw-grant-program-proposed-state-activities-final.pdf) | cms.gov | 2024-10-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [effective-rate-review-survey-instructions-20150202-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/effective-rate-review-survey-instructions-20150202-final.pdf) | cms.gov | 2015-02-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — |
-| [ehb-grant-external-faq508.pdf](https://www.cms.gov/files/document/ehb-grant-external-faq508.pdf) | cms.gov | 2024-11-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
 | [err-determination-and-status-questions-5-20-14.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/err-determination-and-status-questions-5-20-14.pdf) | cms.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — |
-| [exchange_planning_grant_foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/exchange_planning_grant_foa.pdf) | cms.gov | 2011-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | — | — |
-| [expanding-access-womens-health-grant-program-nofo.pdf](https://www.cms.gov/files/document/expanding-access-womens-health-grant-program-nofo.pdf) | cms.gov | 2024-07-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 66 | — | — |
 | [faqs-for-tpa-issuer-user-fee-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/faqs-for-tpa-issuer-user-fee-final.pdf) | cms.gov | 2015-10-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — |
 | [ffe-user-fee-adj-webform-quick-start-guide.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/ffe-user-fee-adj-webform-quick-start-guide.pdf) | cms.gov | 2018-05-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 19 | — | — |
-| [final-navigator-2014-foa-06-10-2014.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final-navigator-2014-foa-06-10-2014.pdf) | cms.gov | 2014-06-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 58 | — | — |
 | [final-oasis-e2-manual-04-01-2026.pdf](https://www.cms.gov/files/document/final-oasis-e2-manual-04-01-2026.pdf) | cms.gov | 2026-02-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 346 | — | — |
-| [final_premium_review_grant_solicitation_with_disclosure_statement.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final_premium_review_grant_solicitation_with_disclosure_statement.pdf) | cms.gov | 2011-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — |
 | [fm-1a-risk-adj-overview.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1a-risk-adj-overview.pdf) | cms.gov | 2012-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | — |
 | [fm-1b-risk-adj-final-rule.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1b-risk-adj-final-rule.pdf) | cms.gov | 2012-05-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 10 | — | — |
 | [fm-1c-risk-adj-model.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-1c-risk-adj-model.pdf) | cms.gov | 2012-05-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — |
@@ -1553,22 +1518,10 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [fm-2a-fed-ra-ov-dv.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-2a-fed-ra-ov-dv.pdf) | cms.gov | 2012-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — |
 | [fm-2b-dist-mdl-tech-prop.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-2b-dist-mdl-tech-prop.pdf) | cms.gov | 2012-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 6 | — | — |
 | [fm-2c-state-flex-imp.pdf](https://www.cms.gov/cciio/resources/files/downloads/fm-2c-state-flex-imp.pdf) | cms.gov | 2012-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | — | — |
-| [foa_exchange_establishment.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_exchange_establishment.pdf) | cms.gov | 2011-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 89 | — | — |
-| [foa_territories_establishment.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_territories_establishment.pdf) | cms.gov | 2011-02-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 44 | — | — |
-| [foia-faq-2022.pdf](https://www.cms.gov/files/document/foia-faq-2022.pdf) | cms.gov | 2023-10-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
-| [foiaappeal.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf) | cms.gov | 2010-10-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
-| [foiafaq.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiafaq.pdf) | cms.gov | 2022-09-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
-| [foiahandbook.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiahandbook.pdf) | cms.gov | 2011-01-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 28 | — | — |
-| [foiarequestletter.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf) | cms.gov | 2010-10-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
-| [foiarequestletterdeceasedbene.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterdeceasedbene.pdf) | cms.gov | 2023-10-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
-| [foiarequestletterlivingbene.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf) | cms.gov | 2023-10-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
-| [foiarequestletterownrecords.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterownrecords.pdf) | cms.gov | 2023-10-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [fraud-abuse-mln4649244.pdf](https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/downloads/fraud-abuse-mln4649244.pdf) | cms.gov | 2021-02-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 23 | — | — |
-| [fy2010aschai.pdf](https://www.cms.gov/regulations-and-guidance/legislation/recovery/downloads/fy2010aschai.pdf) | cms.gov | 2009-11-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — |
 | [fy2018-mhpaea-enforcement-report.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/fy2018-mhpaea-enforcement-report.pdf) | cms.gov | 2019-03-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [fy_2012_final_hacscodelist.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitalacqcond/downloads/fy_2012_final_hacscodelist.pdf) | cms.gov | 2020-06-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
 | [fy_2013_final_hacscodelist.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/hospitalacqcond/downloads/fy_2013_final_hacscodelist.pdf) | cms.gov | 2020-07-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
-| [grants-to-states-added-flexibility-2020.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2020.pdf) | cms.gov | 2020-11-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 72 | — | — |
 | [guide-home-health-help-desks-updated-january-2024.pdf](https://www.cms.gov/files/document/guide-home-health-help-desks-updated-january-2024.pdf) | cms.gov | 2024-01-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [hh-qrp-measure-specificationschanges-skin-integrity2023.pdf](https://www.cms.gov/files/document/hh-qrp-measure-specificationschanges-skin-integrity2023.pdf) | cms.gov | 2024-02-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | — |
 | [hhccn-form-cms10280-instructions-exp-2027.pdf](https://www.cms.gov/files/document/hhccn-form-cms10280-instructions-exp-2027.pdf) | cms.gov | 2024-12-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — |
@@ -1588,17 +1541,13 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [hipaaoptouts-0725.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/hipaaoptouts-0725.pdf) | cms.gov | 2026-01-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [hipaaoptouts03182021.pdf](https://www.cms.gov/files/document/hipaaoptouts03182021.pdf) | cms.gov | 2023-07-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — |
 | [home-health-oasis-all-payer-qa-november-2024.pdf](https://www.cms.gov/files/document/home-health-oasis-all-payer-qa-november-2024.pdf) | cms.gov | 2024-11-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
-| [hospice-certifying-enrollment-faqs.pdf](https://www.cms.gov/files/document/hospice-certifying-enrollment-faqs.pdf) | cms.gov | 2024-09-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
-| [hospital-appeals-provider-listing.pdf](https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/hospital-appeals-provider-listing.pdf) | cms.gov | 2016-08-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 39 | — | — |
 | [ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf](https://www.cms.gov/files/document/ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf) | cms.gov | 2025-10-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [ignagni.pdf](https://www.cms.gov/cciio/resources/files/downloads/dwnlds/ignagni.pdf) | cms.gov | 2010-09-24 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — |
 | [instructions_for_the_redacted_actuarial_memorandum_20150416.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/instructions_for_the_redacted_actuarial_memorandum_20150416.pdf) | cms.gov | 2015-04-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
 | [issuer-jobaid-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/issuer-jobaid-final.pdf) | cms.gov | 2015-10-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 6 | — | — |
 | [letter_to_j_cline.pdf](https://www.cms.gov/cciio/resources/files/downloads/letter_to_j_cline.pdf) | cms.gov | 2010-10-12 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | — |
-| [limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf) | cms.gov | 2011-02-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 29 | — | — |
 | [market-reforms-aca-and-hipaa-grandfathered-plan-provisions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/market-reforms-aca-and-hipaa-grandfathered-plan-provisions.pdf) | cms.gov | 2016-07-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 11 | — | — |
 | [market-reforms-aca-and-hipaa-non-grandfathered-plan-provisions.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/market-reforms-aca-and-hipaa-non-grandfathered-plan-provisions.pdf) | cms.gov | 2016-07-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — |
-| [marketplace-casework-overview.pdf](https://www.cms.gov/marketplace/technical-assistance-resources/marketplace-casework-overview.pdf) | cms.gov | 2015-07-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — |
 | [medical_loss_ratio_2016_annual_reportpdf.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/medical_loss_ratio_2016_annual_reportpdf.pdf) | cms.gov | 2017-12-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — |
 | [medical_loss_ratio_annual_report_2016-11-22.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/medical_loss_ratio_annual_report_2016-11-22.pdf) | cms.gov | 2016-11-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | — | — |
 | [mhpaea-enforcement-2019-fact-sheet-appendix.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/mhpaea-enforcement-2019-fact-sheet-appendix.pdf) | cms.gov | 2020-03-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
@@ -1624,7 +1573,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [mm13503-specimen-collection-fees-and-travel-allowance-2024-update.pdf](https://www.cms.gov/files/document/mm13503-specimen-collection-fees-and-travel-allowance-2024-update.pdf) | cms.gov | 2024-01-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
 | [mm13507-icd-10-other-coding-revisions-national-coverage-determinations-july-2024-update.pdf](https://www.cms.gov/files/document/mm13507-icd-10-other-coding-revisions-national-coverage-determinations-july-2024-update.pdf) | cms.gov | 2024-02-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
 | [mm13513-pulmonary-rehabilitation-cardiac-rehabilitation-intensive-cardiac-rehabilitation-expansion.pdf](https://www.cms.gov/files/document/mm13513-pulmonary-rehabilitation-cardiac-rehabilitation-intensive-cardiac-rehabilitation-expansion.pdf) | cms.gov | 2024-02-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
-| [mm13531-hospice-claims-edits-certifying-physicians.pdf](https://www.cms.gov/files/document/mm13531-hospice-claims-edits-certifying-physicians.pdf) | cms.gov | 2024-09-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [mm13541-clinical-laboratory-fee-schedule-laboratory-services-reasonable-charge-payment-quarterly.pdf](https://www.cms.gov/files/document/mm13541-clinical-laboratory-fee-schedule-laboratory-services-reasonable-charge-payment-quarterly.pdf) | cms.gov | 2024-02-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
 | [mm13546-new-waived-tests.pdf](https://www.cms.gov/files/document/mm13546-new-waived-tests.pdf) | cms.gov | 2024-03-07 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [mm13548-medicare-claims-processing-manual-updates-hcpcs-billing-codes-advance-beneficiary-notice-non.pdf](https://www.cms.gov/files/document/mm13548-medicare-claims-processing-manual-updates-hcpcs-billing-codes-advance-beneficiary-notice-non.pdf) | cms.gov | 2024-03-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
@@ -1641,8 +1589,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [mm13766-inpatient-psychiatric-facilities-prospective-payment-system-fy-2025-updates.pdf](https://www.cms.gov/files/document/mm13766-inpatient-psychiatric-facilities-prospective-payment-system-fy-2025-updates.pdf) | cms.gov | 2024-09-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
 | [mm13838-home-health-prospective-payment-system-cy-2025-rate-update.pdf](https://www.cms.gov/files/document/mm13838-home-health-prospective-payment-system-cy-2025-rate-update.pdf) | cms.gov | 2024-11-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
 | [mm13918-billing-instructions-expedited-determinations-based-medicare-change-status-notifications.pdf](https://www.cms.gov/files/document/mm13918-billing-instructions-expedited-determinations-based-medicare-change-status-notifications.pdf) | cms.gov | 2025-01-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — |
-| [navigator-2016-foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/navigator-2016-foa.pdf) | cms.gov | 2016-07-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 86 | — | — |
-| [navigator_2015_foa_final_04_15_2015.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/navigator_2015_foa_final_04_15_2015.pdf) | cms.gov | 2015-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 78 | — | — |
 | [non-federal-governmental-plans-mhpaea-presentation-6-4-19.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/non-federal-governmental-plans-mhpaea-presentation-6-4-19.pdf) | cms.gov | 2019-07-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 45 | — | — |
 | [notice-medicare-non-coverage-instructions-eff-jan-2025.pdf](https://www.cms.gov/files/document/notice-medicare-non-coverage-instructions-eff-jan-2025.pdf) | cms.gov | 2024-05-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [oasis-e2-draft-508-11-14-25.pdf](https://www.cms.gov/files/document/oasis-e2-draft-508-11-14-25.pdf) | cms.gov | 2025-11-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 344 | — | — |
@@ -1655,7 +1601,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [pac-hha-cy2025-non-compliant-apu-20250131.pdf](https://www.cms.gov/files/document/pac-hha-cy2025-non-compliant-apu-20250131.pdf) | cms.gov | 2025-04-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 27 | — | — |
 | [parts-c-and-d-enrollee-grievances-organization-coverage-determinations-and-appeals-guidance.pdf](https://www.cms.gov/medicare/appeals-and-grievances/mmcag/downloads/parts-c-and-d-enrollee-grievances-organization-coverage-determinations-and-appeals-guidance.pdf) | cms.gov | 2024-11-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 117 | — | — |
 | [patients-bill-of-rights09232011a.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/patients-bill-of-rights09232011a.pdf) | cms.gov | 2011-09-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — |
-| [pre-call-application-ecp-grant-final.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/pre-call-application-ecp-grant-final.pdf) | cms.gov | 2016-07-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | — | — |
 | [provider-demographic-updates-jan-2026.pdf](https://www.cms.gov/files/document/provider-demographic-updates-jan-2026.pdf) | cms.gov | 2026-01-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
 | [py-26-individual-market-rate-filing-instructions.pdf](https://www.cms.gov/files/document/py-26-individual-market-rate-filing-instructions.pdf) | cms.gov | 2025-05-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | — |
 | [r12238fm.pdf](https://www.cms.gov/files/document/r12238fm.pdf) | cms.gov | 2024-02-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | — |
@@ -1797,33 +1742,8 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [risk-adjustment-technical-specificationsjanuary2023.pdf](https://www.cms.gov/files/document/risk-adjustment-technical-specificationsjanuary2023.pdf) | cms.gov | 2023-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 62 | — | — |
 | [riskadjustment_whitepaper_web.pdf](https://www.cms.gov/cciio/resources/files/downloads/riskadjustment_whitepaper_web.pdf) | cms.gov | 2011-09-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 94 | — | — |
 | [rrj-instructions-manual-20150401-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/rrj-instructions-manual-20150401-final.pdf) | cms.gov | 2015-04-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — |
-| [scletter08-06.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-06.pdf) | cms.gov | 2009-02-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 167 | — | — |
-| [scletter08-08.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-08.pdf) | cms.gov | 2008-12-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 6 | — | — |
-| [scletter08-09.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-09.pdf) | cms.gov | 2008-12-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — |
-| [scletter08-10.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-10.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — |
-| [scletter08-11.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-11.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — |
-| [scletter08-12.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-12.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 27 | — | — |
-| [scletter08-13.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-13.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
-| [scletter08-14.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-14.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | — | — |
-| [scletter08-15.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-15.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 43 | — | — |
-| [scletter08-16.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-16.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — |
-| [scletter08-17.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-17.pdf) | cms.gov | 2009-01-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — |
-| [scletter08-18.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-18.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 356 | — | — |
-| [scletter08-19.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-19.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
-| [scletter08-20.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-20.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | — |
-| [scletter08-21.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-21.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — |
-| [scletter08-22.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-22.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — |
-| [scletter08-23.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-23.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | — | — |
-| [scletter08-25.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf) | cms.gov | 2009-01-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 110 | — | — |
-| [september_7_co_op_teleconference_transcript_final.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/september_7_co_op_teleconference_transcript_final.pdf) | cms.gov | 2011-09-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — |
 | [serota.pdf](https://www.cms.gov/cciio/resources/files/downloads/dwnlds/serota.pdf) | cms.gov | 2010-09-24 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | — | — |
 | [snf-abn-cms-10055-fillable-pdf.pdf](https://www.cms.gov/files/document/snf-abn-cms-10055-fillable-pdf.pdf) | cms.gov | 2024-08-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
-| [special-enrollment-periods-available-consumers.pdf](https://www.cms.gov/marketplace/agents-brokers/files/special-enrollment-periods-available-consumers.pdf) | cms.gov | 2025-06-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | — |
-| [state-based-marketplace-modernization-grant-awardee-list-2021.pdf](https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf) | cms.gov | 2021-09-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | — |
-| [state-flexibility-cycle-ii-grant-fact-sheet.pdf](https://www.cms.gov/files/document/state-flexibility-cycle-ii-grant-fact-sheet.pdf) | cms.gov | 2021-09-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
-| [state-flexibility-market-grant-cycle-ii-slides.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-cycle-ii-slides.pdf) | cms.gov | 2020-12-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 21 | — | — |
-| [state-flexibility-market-grant-slides.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-slides.pdf) | cms.gov | 2018-02-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — |
-| [the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf) | cms.gov | 2016-06-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 81 | — | — |
 | [tpa-jobaid-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/tpa-jobaid-final.pdf) | cms.gov | 2015-10-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — |
 | [uf-webguide-5cr-081816.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/uf-webguide-5cr-081816.pdf) | cms.gov | 2016-08-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | — | — |
 | [unified-rate-review-instructions.pdf](https://www.cms.gov/files/document/unified-rate-review-instructions.pdf) | cms.gov | 2025-01-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 54 | — | — |
@@ -1894,13 +1814,10 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [NSF_Major_Multi_User_Facilities_Fact_Sheet_FI.pdf](https://nsf-gov-resources.nsf.gov/files/NSF_Major_Multi_User_Facilities_Fact_Sheet_FI.pdf?VersionId=Z24KTQq6JL0R6pkBHvV81llGRoYfMZS_) | nsf.gov | 2025-12-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | — |
 | [No-FEAR-Act-Data-FY2020-Q1.pdf](https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q1.pdf?VersionId=TT57vG.xEtES6DVWn2bjs2ov8WnhDBHx) | nsf.gov | 2020-08-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — |
 | [No-FEAR-Act-Data-FY2020-Q2.pdf](https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q2.pdf?VersionId=ZBDvoDkw9sBs9hJTTTJJSRl767h9Bbpt) | nsf.gov | 2020-08-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | — |
-| [PQ-Guidelines-Current-13-March-2025.pdf](https://nsf-gov-resources.nsf.gov/files/PQ-Guidelines-Current-13-March-2025.pdf) | nsf.gov | 2025-03-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 71 | — | — |
 | [SOH_POL_2000.10_VOL1_Mar_2025-0.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL1_Mar_2025.pdf) | nsf.gov | 2025-06-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 114 | — | — |
 | [SOH_POL_2000.10_VOL1_Mar_2025.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL1_Mar_2025.pdf?VersionId=g9q07U8qCjaATlNsnWP9RBZcLdrYQzox) | nsf.gov | 2025-06-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 114 | — | — |
-| [SOH_POL_2000.10_VOL2.pdf](https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL2.pdf) | nsf.gov | 2024-06-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 27 | — | — |
 | [System_Requirements.pdf](https://nsf-gov-resources.nsf.gov/files/System_Requirements.pdf) | nsf.gov | 2023-10-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — |
 | [TIPRoadmap_WEB.pdf](https://nsf-gov-resources.nsf.gov/files/TIPRoadmap_WEB.pdf) | nsf.gov | 2024-08-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 40 | — | — |
-| [TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf](https://nsf-gov-resources.nsf.gov/2023-06/TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf?VersionId=7hktpt_12oxeM2sHpOrTR6uG3mm6_DMk) | nsf.gov | 2023-06-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 51 | — | — |
 | [Zoom_Test_Meeting.pdf](https://nsf-gov-resources.nsf.gov/files/Zoom_Test_Meeting.pdf) | nsf.gov | 2024-08-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [agencyimpstatements-20201112-r.pdf](https://nsf-gov-resources.nsf.gov/files/agencyimpstatements-20201112-r.pdf?VersionId=VByFXrlRqf4TsZmBOX9UyBKj5oGmQIJf) | nsf.gov | 2025-01-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | — |
 | [alabama_factsheet.pdf](https://nsf-gov-resources.nsf.gov/files/alabama_factsheet.pdf) | nsf.gov | 2026-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
@@ -3162,17 +3079,10 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf](https://euclinicaltrials.eu/documents/20482/2921140/Release+notes-v1.0.0.5-Jan2022/aa370c5e-20b5-821a-db0b-f4fdd3cc10f9.pdf) | euclinicaltrials.eu | 2022-01-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 2115 | 7 |
 | [bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf](https://euclinicaltrials.eu/documents/20482/2921143/CTIS+List+of+known+issues+for+Sponsors+-+v1.0.6.0_oct2022.pdf/bb56ea20-45f7-5cd9-ea96-09a4fbe0e9fc.pdf) | euclinicaltrials.eu | 2022-10-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 4890 | 2 |
 | [IJCACopyrightForm.pdf](https://www.ijcaonline.org/ip/IJCACopyrightForm.pdf) | ijcaonline.org | 2011-02-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | 995 | 5 |
-| [2024-2028-Hamilton-Tourism-Strategy.pdf](https://www.hamilton.ca/sites/default/files/2025-04/2024-2028-Hamilton-Tourism-Strategy.pdf) | hamilton.ca | 2025-04-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 50 | 19125 | 184 |
 | [23-045.pdf](https://www.hamilton.ca/sites/default/files/2023-04/23-045.pdf) | hamilton.ca | 2023-03-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | 2133 | 1 |
 | [25-043.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-043.pdf) | hamilton.ca | 2025-03-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1346 | 1 |
 | [25-044.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-044.pdf) | hamilton.ca | 2025-03-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1363 | 1 |
-| [25-049.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-049.pdf) | hamilton.ca | 2025-03-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 1531 | 1 |
-| [25-050.pdf](https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf) | hamilton.ca | 2025-03-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1399 | 3 |
-| [25-144.pdf](https://www.hamilton.ca/sites/default/files/2025-08/25-144.pdf) | hamilton.ca | 2025-08-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 1612 | 1 |
 | [25-145.pdf](https://www.hamilton.ca/sites/default/files/2025-08/25-145.pdf) | hamilton.ca | 2025-08-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 1496 | 1 |
-| [25-146.pdf](https://www.hamilton.ca/sites/default/files/2025-08/25-146.pdf) | hamilton.ca | 2025-08-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1383 | 1 |
-| [26-032.pdf](https://www.hamilton.ca/sites/default/files/2026-02/26-032.pdf) | hamilton.ca | 2026-02-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1414 | 1 |
-| [26-033.pdf](https://www.hamilton.ca/sites/default/files/2026-02/26-033.pdf) | hamilton.ca | 2026-02-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1415 | 1 |
 | [Accessibility-AssistiveDevices-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-AssistiveDevices-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 922 | 0 |
 | [Accessibility-ClearPrint-Guidelines.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-ClearPrint-Guidelines.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1840 | 0 |
 | [Accessibility-Communication-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Communication-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 940 | 0 |
@@ -3181,11 +3091,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [Accessibility-ServiceAnimal-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-ServiceAnimal-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 1135 | 0 |
 | [Accessibility-SupportPersons-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-SupportPersons-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 659 | 0 |
 | [Accessibility-Training-Policy.pdf](https://www.hamilton.ca/sites/default/files/2022-09/Accessibility-Training-Policy.pdf) | hamilton.ca | 2022-09-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 845 | 0 |
-| [CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-05/CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf) | hamilton.ca | 2025-05-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 2953 | 1 |
-| [CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf) | hamilton.ca | 2025-04-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 1098 | 2 |
-| [Digital-Strategy-Accessible.pdf](https://www.hamilton.ca/sites/default/files/2023-02/Digital-Strategy-Accessible.pdf) | hamilton.ca | 2023-02-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 44 | 3524 | 1 |
-| [EDI-2019urbanindigenousstrategy-Report.pdf](https://www.hamilton.ca/sites/default/files/2022-05/EDI-2019urbanindigenousstrategy-Report.pdf) | hamilton.ca | 2022-05-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 44 | 6356 | 60 |
-| [EDI-UISimplementationplan2021.pdf](https://www.hamilton.ca/sites/default/files/2022-05/EDI-UISimplementationplan2021.pdf) | hamilton.ca | 2022-05-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | 3152 | 85 |
 | [EDI-orangeshirtday-colouringactivitypages.pdf](https://www.hamilton.ca/sites/default/files/2022-05/EDI-orangeshirtday-colouringactivitypages.pdf) | hamilton.ca | 2021-09-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 0 | 4 |
 | [Existing-Truck-Route-Network.pdf](https://www.hamilton.ca/sites/default/files/2023-03/Existing-Truck-Route-Network.pdf) | hamilton.ca | 2023-03-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 414 | 4 |
 | [News-Policy-mandatory-covid19-vaccination-verification-08262021.pdf](https://www.hamilton.ca/sites/default/files/2022-04/News-Policy-mandatory-covid19-vaccination-verification-08262021.pdf) | hamilton.ca | 2021-08-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 2182 | 8 |
@@ -3201,49 +3106,18 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [Strategic-Transportation-Network-Review-structures-programs-list.pdf](https://www.hamilton.ca/sites/default/files/2025-05/Strategic-Transportation-Network-Review-structures-programs-list.pdf) | hamilton.ca | 2025-05-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 459 | 0 |
 | [WWSMP-Notice-of-Study-Transition.pdf](https://www.hamilton.ca/sites/default/files/2025-12/WWSMP-Notice-of-Study-Transition.pdf) | hamilton.ca | 2025-11-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 422 | 8 |
 | [Water-Wastewater-Stormwater-Master-Plans-Strategic-Transportation-Network-Review-PIC-1-Presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-05/Water-Wastewater-Stormwater-Master-Plans-Strategic-Transportation-Network-Review-PIC-1-Presentation.pdf) | hamilton.ca | 2023-05-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 31 | 3310 | 242 |
-| [Youth-Strategy-Report-2022-2027.pdf](https://www.hamilton.ca/sites/default/files/2023-03/Youth-Strategy-Report-2022-2027.pdf) | hamilton.ca | 2023-03-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 32 | 4863 | 27 |
 | [accessibility-clause-advertisements-pic-pmeetings-july-2022.pdf](https://www.hamilton.ca/sites/default/files/2023-01/accessibility-clause-advertisements-pic-pmeetings-july-2022.pdf) | hamilton.ca | 2023-01-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 66 | 0 |
 | [accessible-meeting-checklist.pdf](https://www.hamilton.ca/sites/default/files/2022-09/accessible-meeting-checklist.pdf) | hamilton.ca | 2017-01-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | 814 | 0 |
 | [aegd-tmp-updated-conceptual-cross-section-Oct2022.pdf](https://www.hamilton.ca/sites/default/files/2022-10/aegd-tmp-updated-conceptual-cross-section-Oct2022.pdf) | hamilton.ca | 2022-08-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 896 | 23 |
 | [aoda-2005-statement-of-acknowledgement-fillable-mar2023.pdf](https://www.hamilton.ca/sites/default/files/2023-03/aoda-2005-statement-of-acknowledgement-fillable-mar2023.pdf) | hamilton.ca | 2023-03-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 201 | 1 |
-| [budget-flowchart-2026.pdf](https://www.hamilton.ca/sites/default/files/2025-11/budget-flowchart-2026.pdf) | hamilton.ca | 2025-11-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 13 | 3 |
-| [building-safer-communities-multi-year-plan.pdf](https://www.hamilton.ca/sites/default/files/2023-09/building-safer-communities-multi-year-plan.pdf) | hamilton.ca | 2023-09-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 29 | 8685 | 15 |
-| [child-youth-network-SOP-agenda-planning-procedure-june2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-agenda-planning-procedure-june2025.pdf) | hamilton.ca | 2025-06-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 537 | 2 |
-| [child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf) | hamilton.ca | 2025-06-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1215 | 4 |
-| [child-youth-network-SOP-email-distribution-procedure-june2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-email-distribution-procedure-june2025.pdf) | hamilton.ca | 2025-06-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 420 | 2 |
-| [child-youth-network-community-engagement-procedure.pdf](https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-community-engagement-procedure.pdf) | hamilton.ca | 2025-09-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1146 | 4 |
-| [child-youth-network-data-decision-support-guide1.pdf](https://www.hamilton.ca/sites/default/files/2025-11/child-youth-network-data-decision-support-guide1.pdf) | hamilton.ca | 2025-11-06 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 0 | 10 |
-| [child-youth-network-terms-of-Reference-sep2025.pdf](https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-terms-of-Reference-sep2025.pdf) | hamilton.ca | 2025-09-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 3450 | 12 |
-| [comm-update-2023-Urban-Forest-Pests.pdf](https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf) | hamilton.ca | 2023-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1689 | 1 |
-| [comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf](https://www.hamilton.ca/sites/default/files/2024-12/comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf) | hamilton.ca | 2024-11-07 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 4306 | 2 |
 | [comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-08/comm-update-PED-downtown-cleanliness-service-level-enhancements-update-august-8-2023.pdf) | hamilton.ca | 2023-08-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 848 | 3 |
-| [comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf](https://www.hamilton.ca/sites/default/files/2023-03/comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf) | hamilton.ca | 2023-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1061 | 3 |
 | [comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf](https://www.hamilton.ca/sites/default/files/2023-04/comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf) | hamilton.ca | 2023-04-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 433 | 2 |
-| [community-garden-final-report.pdf](https://www.hamilton.ca/sites/default/files/2022-08/community-garden-final-report.pdf) | hamilton.ca | 2020-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 3226 | 1 |
-| [community-garden-infographic.pdf](https://www.hamilton.ca/sites/default/files/2022-08/community-garden-infographic.pdf) | hamilton.ca | 2019-12-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 112 | 14 |
-| [community-garden-summary-report.pdf](https://www.hamilton.ca/sites/default/files/2022-08/community-garden-summary-report.pdf) | hamilton.ca | 2020-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 908 | 0 |
-| [consideration-report-HSC25012-2025-2029-cswb-plan.pdf](https://www.hamilton.ca/sites/default/files/2025-06/consideration-report-HSC25012-2025-2029-cswb-plan.pdf) | hamilton.ca | 2025-05-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 1837 | 1 |
 | [developmentcharges-backgroundstudy-2019.pdf](https://www.hamilton.ca/sites/default/files/2023-02/developmentcharges-backgroundstudy-2019.pdf) | hamilton.ca | 2019-07-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 666 | 187176 | 911 |
 | [ea-safari-rd-pic2-presentation.pdf](https://www.hamilton.ca/sites/default/files/2025-09/ea-safari-rd-pic2-presentation.pdf) | hamilton.ca | 2025-09-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 21 | 2702 | 73 |
 | [emergency_hps-master-plan-2022-2031.pdf](https://www.hamilton.ca/sites/default/files/2022-06/emergency_hps-master-plan-2022-2031.pdf) | hamilton.ca | 2022-05-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 234 | 57139 | 174 |
-| [engagement-municipal-scan-practices.pdf](https://www.hamilton.ca/sites/default/files/2024-05/engagement-municipal-scan-practices.pdf) | hamilton.ca | 2023-06-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 1153 | 1109 |
-| [engagement-public-engagement-policy-CMO-GRCE-24-01.pdf](https://www.hamilton.ca/sites/default/files/2024-05/engagement-public-engagement-policy-CMO-GRCE-24-01.pdf) | hamilton.ca | 2024-04-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1796 | 6 |
 | [environmentalassessments-SafariRdEA_PIC1-Displays.pdf](https://www.hamilton.ca/sites/default/files/2024-09/environmentalassessments-SafariRdEA_PIC1-Displays.pdf) | hamilton.ca | 2024-08-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | 964 | 35 |
-| [hamilton-digital-strategy_0.pdf](https://www.hamilton.ca/sites/default/files/2023-01/hamilton-digital-strategy_0.pdf) | hamilton.ca | 2023-01-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | 3432 | 5 |
-| [hamilton-drug-strategy-report.pdf](https://www.hamilton.ca/sites/default/files/2022-08/hamilton-drug-strategy-report.pdf) | hamilton.ca | 2020-01-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 2646 | 18 |
-| [hamilton-food-literacy-network-forum-report-2017.pdf](https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf) | hamilton.ca | 2017-02-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 44 | 7810 | 34 |
-| [hamilton-food-strategy-forum-summary.pdf](https://www.hamilton.ca/sites/default/files/2023-07/hamilton-food-strategy-forum-summary.pdf) | hamilton.ca | 2023-07-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 24 | 5817 | 11 |
-| [hamilton-food-strategy.pdf](https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf) | hamilton.ca | 2018-11-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 125 | 17089 | 144 |
-| [hamilton-supervised-injection-site-study.pdf](https://www.hamilton.ca/sites/default/files/2023-03/hamilton-supervised-injection-site-study.pdf) | hamilton.ca | 2017-12-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 96 | 24633 | 14 |
-| [harassment-discrimination-prevention-policy.pdf](https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf) | hamilton.ca | 2023-09-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | 5036 | 16 |
 | [hwy52-powerlinerd-ea-pic1-presentation-apr2025-1.pdf](https://www.hamilton.ca/sites/default/files/2025-04/hwy52-powerlinerd-ea-pic1-presentation-apr2025-1.pdf) | hamilton.ca | 2025-04-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 22 | 2236 | 46 |
 | [hwy52-powerlinerd-ea-pic2-presentation-oct2025.pdf](https://www.hamilton.ca/sites/default/files/2025-10/hwy52-powerlinerd-ea-pic2-presentation-oct2025.pdf) | hamilton.ca | 2025-10-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | 1262 | 65 |
-| [indigenous-health-strateg-2023.pdf](https://www.hamilton.ca/sites/default/files/2025-07/indigenous-health-strateg-2023.pdf) | hamilton.ca | 2025-07-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 32 | 7508 | 26 |
-| [indigenous-relations-honouring-our-roots-report_0.pdf](https://www.hamilton.ca/sites/default/files/2024-07/indigenous-relations-honouring-our-roots-report_0.pdf) | hamilton.ca | 2022-04-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 40 | 15180 | 5 |
-| [indigenous-tourism-development-strategy.pdf](https://www.hamilton.ca/sites/default/files/2025-11/indigenous-tourism-development-strategy.pdf) | hamilton.ca | 2025-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 32 | 8756 | 51 |
-| [info-report-CSWB-Progress-Report-%28HSC24050%29.pdf](https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf) | hamilton.ca | 2024-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 2093 | 2 |
-| [info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf](https://www.hamilton.ca/sites/default/files/2023-08/info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf) | hamilton.ca | 2023-06-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1675 | 2 |
-| [info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-09/info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf) | hamilton.ca | 2024-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 2725 | 2 |
 | [main-whitney-ea-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-01/main-whitney-ea-pic1-presentation.pdf) | hamilton.ca | 2022-05-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 978 | 148 |
 | [main-whitney-ea-pic2-comment.pdf](https://www.hamilton.ca/sites/default/files/2023-04/main-whitney-ea-pic2-comment.pdf) | hamilton.ca | 2023-04-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 339 | 6 |
 | [main-whitney-ea-pic2-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-04/main-whitney-ea-pic2-presentation.pdf) | hamilton.ca | 2023-04-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | 2700 | 296 |
@@ -3274,67 +3148,14 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [masterplan-water-wastewater-newsletter-oct2021.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-newsletter-oct2021.pdf) | hamilton.ca | 2021-10-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1293 | 25 |
 | [masterplan-water-wastewater-notice-commencement.pdf](https://www.hamilton.ca/sites/default/files/2022-08/masterplan-water-wastewater-notice-commencement.pdf) | hamilton.ca | 2021-03-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 438 | 3 |
 | [mcquestenparkpedbridge-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2026-02/mcquestenparkpedbridge-pic1-presentation.pdf) | hamilton.ca | 2026-02-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | 1914 | 71 |
-| [medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf](https://www.hamilton.ca/sites/default/files/2025-08/medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf) | hamilton.ca | 2025-08-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 1744 | 4 |
-| [medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf](https://www.hamilton.ca/sites/default/files/2025-09/medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf) | hamilton.ca | 2025-09-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1668 | 1 |
 | [municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf](https://www.hamilton.ca/sites/default/files/2026-01/municipal-act-charges-proposed-bylaws-BHH-dec30-2025.pdf) | hamilton.ca | 2026-01-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | 1764 | 10 |
-| [municipal-act-charges-proposed-bylaws-apr23-2025.pdf](https://www.hamilton.ca/sites/default/files/2025-04/municipal-act-charges-proposed-bylaws-apr23-2025.pdf) | hamilton.ca | 2025-04-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 38 | 7804 | 7 |
-| [neighbourhood-risk-management-toolkit.pdf](https://www.hamilton.ca/sites/default/files/2022-12/neighbourhood-risk-management-toolkit.pdf) | hamilton.ca | 2018-03-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 32 | 3825 | 737 |
-| [our-future-hamilton-2018-summit-summary-report.pdf](https://www.hamilton.ca/sites/default/files/2025-02/our-future-hamilton-2018-summit-summary-report.pdf) | hamilton.ca | 2019-04-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | 2895 | 15 |
-| [our-future-hamilton-2019-summit-summary-report.pdf](https://www.hamilton.ca/sites/default/files/2023-10/our-future-hamilton-2019-summit-summary-report.pdf) | hamilton.ca | 2020-06-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | 2752 | 24 |
-| [ourfuturehamilton-final-report-2017.pdf](https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-final-report-2017.pdf) | hamilton.ca | 2018-07-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 36 | 5733 | 76 |
-| [ourfuturehamilton-progress-report-2018.pdf](https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf) | hamilton.ca | 2019-01-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | 5787 | 2962 |
-| [ourfuturehamilton-suggested-actions.pdf](https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-suggested-actions.pdf) | hamilton.ca | 2017-07-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 28 | 4187 | 48 |
 | [parking-master-plan.pdf](https://www.hamilton.ca/sites/default/files/2024-01/parking-master-plan.pdf) | hamilton.ca | 2024-01-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 40 | 12747 | 65 |
-| [public-engagement-charter.pdf](https://www.hamilton.ca/sites/default/files/2023-10/public-engagement-charter.pdf) | hamilton.ca | 2023-10-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 28 | 2893 | 44 |
 | [recreation-master-plan.pdf](https://www.hamilton.ca/sites/default/files/2022-11/recreation-master-plan.pdf) | hamilton.ca | 2022-08-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 135 | 39549 | 115 |
 | [recreation_08.2-Appendix-A-Recreation-Master-Plan-Implementation%20Strategy-%28revised%29-Sep162025.pdf](https://www.hamilton.ca/sites/default/files/2025-09/recreation_08.2-Appendix-A-Recreation-Master-Plan-Implementation%20Strategy-%28revised%29-Sep162025.pdf) | hamilton.ca | 2025-09-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 174 | 44280 | 112 |
-| [report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf](https://www.hamilton.ca/sites/default/files/2024-09/report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf) | hamilton.ca | 2024-03-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1904 | 2 |
-| [rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf](https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf) | hamilton.ca | 2024-05-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 703 | 3 |
-| [rymal-road-ea-pic1-panels-accessible.pdf](https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels-accessible.pdf) | hamilton.ca | 2022-03-21 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 0 | 1696 | 0 |
 | [rymal-road-ea-pic1-panels.pdf](https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels.pdf) | hamilton.ca | 2022-03-21 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 0 | 1019 | 0 |
 | [rymalrdEA-pic2-evaluation-alternative-design-concepts.pdf](https://www.hamilton.ca/sites/default/files/2023-09/rymalrdEA-pic2-evaluation-alternative-design-concepts.pdf) | hamilton.ca | 2023-09-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 14 | 4745 | 1 |
 | [rymalrdEA-pic2-preferred-design-set.pdf](https://www.hamilton.ca/sites/default/files/2023-09/rymalrdEA-pic2-preferred-design-set.pdf) | hamilton.ca | 2023-09-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | 3664 | 813 |
-| [strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf](https://www.hamilton.ca/sites/default/files/2025-08/strategies-10-Year-Downtown-Revitalization-Strategy-Engage-Hamilton-Summary-Findings-Report-Appendix-A.pdf) | hamilton.ca | 2025-08-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 1852 | 7 |
-| [strategies-community-garden-directory-mar2025.pdf](https://www.hamilton.ca/sites/default/files/2025-03/strategies-community-garden-directory-mar2025.pdf) | hamilton.ca | 2025-03-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 533 | 3 |
-| [strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf) | hamilton.ca | 2023-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 4562 | 18 |
 | [strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf](https://www.hamilton.ca/sites/default/files/2024-11/strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf) | hamilton.ca | 2024-11-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | 2764 | 11 |
-| [strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/strategies-our-future-downtown-10-year-strategy-engage-hamilton-summary-report-july2025.pdf) | hamilton.ca | 2025-08-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 1628 | 11 |
-| [strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf](https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf) | hamilton.ca | 2025-08-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 4179 | 0 |
-| [strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf](https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf) | hamilton.ca | 2025-09-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1455 | 1 |
-| [strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf](https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf) | hamilton.ca | 2025-05-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | 1830 | 23 |
-| [strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf](https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf) | hamilton.ca | 2025-05-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 35 | 7786 | 40 |
-| [strategies_CSWB-Plan-2025-2029.pdf](https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf) | hamilton.ca | 2025-05-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 43 | 10458 | 64 |
-| [strategies_Connected-Communities-2-Page-Summary-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-2-Page-Summary-Report.pdf) | hamilton.ca | 2025-09-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 480 | 2 |
-| [strategies_Connected-Communities-Full-Report-final.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf) | hamilton.ca | 2025-11-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 71 | 17639 | 64 |
-| [strategies_Connected-Communities-Summary-Report.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf) | hamilton.ca | 2025-09-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 1995 | 14 |
-| [strategies_Summary-of-Assets-Final.pdf](https://www.hamilton.ca/sites/default/files/2025-11/strategies_Summary-of-Assets-Final.pdf) | hamilton.ca | 2025-11-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 497 | 0 |
-| [strategy-2023-HPS-Asset-Management-Plan.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategy-2023-HPS-Asset-Management-Plan.pdf) | hamilton.ca | 2023-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 115 | 30723 | 230 |
-| [strategy-asset-management-plan-overview-jun2022.pdf](https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf) | hamilton.ca | 2022-06-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 155 | 25465 | 623 |
-| [strategy-childrens-community-services-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-childrens-community-services-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 101 | 21323 | 210 |
-| [strategy-cityhousing-hamilton-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 123 | 32364 | 353 |
-| [strategy-corp-real-estate-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-corp-real-estate-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 46 | 11823 | 135 |
-| [strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 84 | 22586 | 207 |
-| [strategy-corporate-asset-management-overview-appendix-b.pdf](https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-overview-appendix-b.pdf) | hamilton.ca | 2025-06-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 48 | 12878 | 82 |
-| [strategy-corporate-asset-management-proposed-levels-service.pdf](https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-proposed-levels-service.pdf) | hamilton.ca | 2025-06-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 476 | 91456 | 1342 |
-| [strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 97 | 26162 | 224 |
-| [strategy-fire-dept-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-fire-dept-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 116 | 31569 | 257 |
-| [strategy-forestry-horticulture-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 121 | 31061 | 273 |
-| [strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 129 | 34080 | 182 |
-| [strategy-hpl-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 119 | 30968 | 260 |
-| [strategy-hsr-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-hsr-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 81 | 22488 | 131 |
-| [strategy-information-technology-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 73 | 18815 | 190 |
-| [strategy-licensing-bylaw-services-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-licensing-bylaw-services-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 105 | 29101 | 223 |
-| [strategy-long-term-care-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 108 | 29363 | 266 |
-| [strategy-natural-assets-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-natural-assets-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 28 | 6594 | 34 |
-| [strategy-paramedics-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 122 | 26599 | 249 |
-| [strategy-parking-system-asset-plan-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategy-parking-system-asset-plan-2023.pdf) | hamilton.ca | 2023-12-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 128 | 35039 | 271 |
-| [strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 153 | 42706 | 207 |
-| [strategy-public-health-services-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-public-health-services-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 72 | 19245 | 97 |
-| [strategy-recreation-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 123 | 31457 | 273 |
-| [strategy-tourism-and-culture-asset-management-plan-2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/strategy-tourism-and-culture-asset-management-plan-2024.pdf) | hamilton.ca | 2024-05-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 108 | 28420 | 247 |
-| [strategy-transportation-asset-management-plan-jun2022.pdf](https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf) | hamilton.ca | 2022-06-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 156 | 38194 | 408 |
-| [strategy-waste-management-asset-plan-2023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/strategy-waste-management-asset-plan-2023.pdf) | hamilton.ca | 2023-12-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 114 | 30225 | 266 |
-| [strategy-waterworks-asset-management-plan-jun2022.pdf](https://www.hamilton.ca/sites/default/files/2022-12/strategy-waterworks-asset-management-plan-jun2022.pdf) | hamilton.ca | 2022-06-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 232 | 58526 | 597 |
 | [tmp-aegd-notice-of-commencement-pic1.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-notice-of-commencement-pic1.pdf) | hamilton.ca | 2021-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 432 | 4 |
 | [tmp-aegd-pic1-alternative-preferred.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative-preferred.pdf) | hamilton.ca | 2021-03-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 215 | 127 |
 | [tmp-aegd-pic1-alternative1.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-aegd-pic1-alternative1.pdf) | hamilton.ca | 2021-03-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 136 | 127 |
@@ -3348,20 +3169,12 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [tmp-centennialneighbourhood-volume1.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-volume1.pdf) | hamilton.ca | 2018-05-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 75 | 21626 | 55 |
 | [tmp-centennialneighbourhood-volume2.pdf](https://www.hamilton.ca/sites/default/files/2022-08/tmp-centennialneighbourhood-volume2.pdf) | hamilton.ca | 2022-08-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 230 | 46893 | 11402 |
 | [truck-route-network-map.pdf](https://www.hamilton.ca/sites/default/files/2023-03/truck-route-network-map.pdf) | hamilton.ca | 2023-03-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 0 | 40 |
-| [uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf](https://www.hamilton.ca/sites/default/files/2024-10/uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf) | hamilton.ca | 2024-08-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 509 | 2 |
-| [violence-workplace-prevention-policy.pdf](https://www.hamilton.ca/sites/default/files/2024-09/violence-workplace-prevention-policy.pdf) | hamilton.ca | 2024-07-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 2383 | 8 |
 | [07-170-consolidated-nov302023.pdf](https://www.hamilton.ca/sites/default/files/2023-12/07-170-consolidated-nov302023.pdf) | hamilton.ca | 2023-12-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 382 | 98660 | 8 |
-| [2025-spring-community-compost-giveaway-events-july292025.pdf](https://www.hamilton.ca/sites/default/files/2025-08/2025-spring-community-compost-giveaway-events-july292025.pdf) | hamilton.ca | 2025-07-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 784 | 2 |
-| [BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf](https://www.hamilton.ca/sites/default/files/2024-12/BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf) | hamilton.ca | 2024-12-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 18 | 4061 | 49 |
 | [Comms-Update-CityofHamiltonAAACreditRatingCityWide.pdf](https://www.hamilton.ca/sites/default/files/2022-10/Comms-Update-CityofHamiltonAAACreditRatingCityWide.pdf) | hamilton.ca | 2022-10-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 262 | 1 |
 | [CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf) | hamilton.ca | 2025-04-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 553 | 2 |
-| [CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf](https://www.hamilton.ca/sites/default/files/2025-05/CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf) | hamilton.ca | 2025-05-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1203 | 2 |
-| [CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf) | hamilton.ca | 2025-03-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 687 | 2 |
 | [CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf](https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf) | hamilton.ca | 2025-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 644 | 2 |
-| [CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf](https://www.hamilton.ca/sites/default/files/2024-12/CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf) | hamilton.ca | 2024-12-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 821 | 4 |
 | [DetourRoutes_403Closure.pdf](https://www.hamilton.ca/sites/default/files/2022-09/DetourRoutes_403Closure.pdf) | hamilton.ca | 2022-09-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 142 | 2 |
 | [Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf](https://www.hamilton.ca/sites/default/files/2025-09/Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf) | hamilton.ca | 2025-09-09 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 0 | 1 |
-| [PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf](https://www.hamilton.ca/sites/default/files/2024-12/PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf) | hamilton.ca | 2024-11-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | 5307 | 19 |
 | [ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf](https://www.hamilton.ca/sites/default/files/2023-03/ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf) | hamilton.ca | 2023-03-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 395 | 1 |
 | [ainslie-wood-creek-ea-pic1-presentation.pdf](https://www.hamilton.ca/sites/default/files/2023-02/ainslie-wood-creek-ea-pic1-presentation.pdf) | hamilton.ca | 2023-02-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | 1858 | 41 |
 | [ainslie-wood-creek-ea-pic2-comment.pdf](https://www.hamilton.ca/sites/default/files/2023-12/ainslie-wood-creek-ea-pic2-comment.pdf) | hamilton.ca | 2023-11-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 438 | 1 |
@@ -3369,27 +3182,14 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [better-homes-draft-by-law.pdf](https://www.hamilton.ca/sites/default/files/2023-11/better-homes-draft-by-law.pdf) | hamilton.ca | 2023-11-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | 3608 | 0 |
 | [bicycle-blvds-feasibility-study-Jan2022.pdf](https://www.hamilton.ca/sites/default/files/2022-08/bicycle-blvds-feasibility-study-Jan2022.pdf) | hamilton.ca | 2022-06-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 40 | 8847 | 37 |
 | [comm-update-Ancaster-Square-Life-Cycle-Improvements.pdf](https://www.hamilton.ca/sites/default/files/2025-04/comm-update-Ancaster-Square-Life-Cycle-Improvements.pdf) | hamilton.ca | 2025-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 932 | 2 |
-| [comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf) | hamilton.ca | 2024-04-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1415 | 4 |
-| [comm-update-HSR-150-Celebrations.pdf](https://www.hamilton.ca/sites/default/files/2024-05/comm-update-HSR-150-Celebrations.pdf) | hamilton.ca | 2024-05-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 592 | 2 |
-| [comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf](https://www.hamilton.ca/sites/default/files/2022-09/comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf) | hamilton.ca | 2022-09-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 901 | 2 |
-| [comm-update-HW2402-Annual-Drinking-Water-Report.pdf](https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf) | hamilton.ca | 2024-03-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | 4718 | 5 |
-| [comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf) | hamilton.ca | 2024-04-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 894 | 2 |
 | [comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf](https://www.hamilton.ca/sites/default/files/2024-06/comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf) | hamilton.ca | 2024-06-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 509 | 2 |
 | [comm-update-Hamilton-Street-Railway-%28HSR%29-Alert-Dashboard-%28HSR2503%29.pdf](https://www.hamilton.ca/sites/default/files/2025-06/comm-update-Hamilton-Street-Railway-%28HSR%29-Alert-Dashboard-%28HSR2503%29.pdf) | hamilton.ca | 2025-06-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 476 | 2 |
-| [comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf](https://www.hamilton.ca/sites/default/files/2025-08/comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf) | hamilton.ca | 2025-07-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1433 | 2 |
-| [comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf](https://www.hamilton.ca/sites/default/files/2024-05/comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf) | hamilton.ca | 2024-05-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 378 | 4 |
 | [comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf](https://www.hamilton.ca/sites/default/files/2024-07/comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf) | hamilton.ca | 2024-07-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 696 | 2 |
-| [comm-update-PW-HSR-150-apr2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-HSR-150-apr2024.pdf) | hamilton.ca | 2024-04-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 260 | 2 |
-| [comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf) | hamilton.ca | 2024-04-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 470 | 3 |
 | [comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf](https://www.hamilton.ca/sites/default/files/2024-08/comm-update-PW-Mountain-Drive-Park-Soils-Finding-update2-ES2402a-aug2024.pdf) | hamilton.ca | 2024-08-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 716 | 3 |
-| [comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf](https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf) | hamilton.ca | 2024-04-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 630 | 2 |
-| [comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf](https://www.hamilton.ca/sites/default/files/2024-03/comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf) | hamilton.ca | 2024-03-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 782 | 5 |
 | [comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf) | hamilton.ca | 2024-06-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 647 | 2 |
-| [comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf](https://www.hamilton.ca/sites/default/files/2024-02/comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf) | hamilton.ca | 2024-02-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1595 | 8 |
 | [comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf](https://www.hamilton.ca/sites/default/files/2024-08/comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf) | hamilton.ca | 2024-08-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 781 | 4 |
 | [comm-update-pw-central-composting-facility-feb-2019.pdf](https://www.hamilton.ca/sites/default/files/2023-03/comm-update-pw-central-composting-facility-feb-2019.pdf) | hamilton.ca | 2019-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 471 | 2 |
 | [comm-update-pw-delays-waste-collections-due-inclement-weather-staff-work-refusal-es-19002.pdf](https://www.hamilton.ca/sites/default/files/2023-03/comm-update-pw-delays-waste-collections-due-inclement-weather-staff-work-refusal-es-19002.pdf) | hamilton.ca | 2019-02-07 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 0 | 2 |
-| [comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf](https://www.hamilton.ca/sites/default/files/2025-06/comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf) | hamilton.ca | 2025-06-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 1684 | 6 |
 | [comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf](https://www.hamilton.ca/sites/default/files/2024-06/comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf) | hamilton.ca | 2024-06-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 897 | 2 |
 | [cycling-accelerated-active-transportation-implementation-plan.pdf](https://www.hamilton.ca/sites/default/files/2024-03/cycling-accelerated-active-transportation-implementation-plan.pdf) | hamilton.ca | 2023-12-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 32 | 10359 | 35 |
 | [election-accessibility-plan-2022.pdf](https://www.hamilton.ca/sites/default/files/2022-09/election-accessibility-plan-2022.pdf) | hamilton.ca | 2022-09-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 21 | 3940 | 2 |
@@ -3419,24 +3219,12 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [Budget%20Testimony%203.23.22_DLI%20.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Budget%20Testimony%203.23.22_DLI%20.pdf) | dc.gov | 2022-03-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 580 | 1 |
 | [Budget%20Testimony%20Final%204.25.23.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Budget%20Testimony%20Final%204.25.23.pdf) | dc.gov | 2023-04-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 848 | 1 |
 | [Bulletin%20106%20Eligibility%20Requirements%20for%20MHRS%20Providers%206.7.16%20.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/Bulletin%20106%20Eligibility%20Requirements%20for%20MHRS%20Providers%206.7.16%20.pdf) | dc.gov | 2017-12-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 542 | 1 |
-| [CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf](https://cab.dc.gov/sites/default/files/u76776/CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf) | dc.gov | 2026-02-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 592 | 0 |
 | [CFSA%20NOPP%20rev.2020.pdf](https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/publication/attachments/CFSA%20NOPP%20rev.2020.pdf) | dc.gov | 2021-02-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1413 | 1 |
 | [CFSA%20Organizational%20Chart%20FY25%2012.2.24.pdf](https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/page_content/attachments/CFSA%20Organizational%20Chart%20FY25%2012.2.24.pdf) | dc.gov | 2024-12-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 47 | 12628 | 2 |
-| [CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf) | dc.gov | 2017-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | 1725 | 1 |
-| [CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf) | dc.gov | 2018-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | 2094 | 1 |
-| [CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf) | dc.gov | 2017-12-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | 1588 | 1 |
 | [CIC%20Testimony%20on%20Letterhead.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony%20on%20Letterhead.pdf) | dc.gov | 2019-04-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1139 | 2 |
 | [CIC%20Testimony%20on%20Roundtable%20on%20DOC%202.15.18.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Roundtable%20on%20DOC%202.15.18.pdf) | dc.gov | 2018-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | 1829 | 1 |
-| [CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf) | dc.gov | 2017-11-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | 1465 | 1 |
 | [CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf) | dc.gov | 2022-02-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 885 | 1 |
-| [CIC-Education%20Committee%20Testimony%2010.4.17.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC-Education%20Committee%20Testimony%2010.4.17.pdf) | dc.gov | 2017-10-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | 1539 | 1 |
-| [CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf) | dc.gov | 2017-06-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | 1045 | 0 |
-| [CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf) | dc.gov | 2018-04-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | 4398 | 18 |
-| [CJS1%20Summary%20FINAL.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS1%20Summary%20FINAL.pdf) | dc.gov | 2021-04-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | 3274 | 7 |
-| [CJS2%20Webinar%20Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS2%20Webinar%20Summary.pdf) | dc.gov | 2021-06-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 2200 | 7 |
 | [CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf) | dc.gov | 2015-04-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 17 | 5211 | 0 |
-| [Commission%20Rules-2003%20-%20Amended%202024_0.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Commission%20Rules-2003%20-%20Amended%202024_0.pdf) | dc.gov | 2024-03-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1542 | 0 |
-| [Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf) | dc.gov | 2018-03-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | 4810 | 52 |
 | [D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf](https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf) | dc.gov | 2023-04-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | 4799 | 15 |
 | [DC%20Gun%20Violence%20Problem%20Analysis%20Summary%20Report.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/release_content/attachments/DC%20Gun%20Violence%20Problem%20Analysis%20Summary%20Report.pdf) | dc.gov | 2022-02-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | 2402 | 14 |
 | [DCOCFO_Volume_4.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/DCOCFO_Volume_4.pdf) | dc.gov | 2014-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 444 | 138272 | 25 |
@@ -3444,34 +3232,25 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [DLI%20Testimony-Performance%20Hearing%203.2.22.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/DLI%20Testimony-Performance%20Hearing%203.2.22.pdf) | dc.gov | 2022-03-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 929 | 1 |
 | [FY%2023%20%20Org%20Chart-0.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/page_content/attachments/FY%2023%20%20Org%20Chart.pdf) | dc.gov | 2024-01-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 256 | 50 |
 | [FY%2023%20%20Org%20Chart.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/FY%2023%20%20Org%20Chart.pdf) | dc.gov | 2024-01-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 256 | 50 |
-| [FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf) | dc.gov | 2017-05-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | 1305 | 1 |
 | [Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf](https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf) | dc.gov | 2022-04-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 566 | 1 |
-| [Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf) | dc.gov | 2024-03-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 520 | 0 |
 | [Housing%20Webinar%20Summary%2009.20.23.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Housing%20Webinar%20Summary%2009.20.23.pdf) | dc.gov | 2023-11-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1546 | 1 |
 | [ISF%20Program%202025.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/ISF%20Program%202025.pdf) | dc.gov | 2025-05-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 14 | 3985 | 42 |
 | [ISF%20Summary%202025%20%28Final%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/ISF%20Summary%202025%20%28Final%29.pdf) | dc.gov | 2025-08-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | 4885 | 52 |
 | [JJ%20Webinar%20Alternatives%20to%20Incarceration%20for%20Youth.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/JJ%20Webinar%20Alternatives%20to%20Incarceration%20for%20Youth.pdf) | dc.gov | 2023-09-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 2108 | 1 |
 | [JJ%20Webinar%20Series%20Session%20Four.Reducing%20Youth%20Justice%20System%20Involvement.What%20Works.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/JJ%20Webinar%20Series%20Session%20Four.Reducing%20Youth%20Justice%20System%20Involvement.What%20Works.pdf) | dc.gov | 2021-08-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | 3216 | 8 |
 | [July%20Spotlight%20on%20Aging%202019.pdf](https://dacl.dc.gov/sites/default/files/dc/sites/dcoa/release_content/attachments/July%20Spotlight%20on%20Aging%202019.pdf) | dc.gov | 2019-07-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 1494 | 6 |
-| [Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf) | dc.gov | 2021-03-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 2984 | 4 |
-| [Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf) | dc.gov | 2021-06-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 2888 | 9 |
 | [Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf) | dc.gov | 2021-12-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 1735 | 6 |
-| [Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf](https://ddot.dc.gov/sites/default/files/dc/sites/ddot/page_content/attachments/Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf) | dc.gov | 2025-08-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 1030 | 16 |
 | [MHRS%20Bulletin%20Listing_0.pdf](https://dbh.dc.gov/sites/default/files/dc/sites/dmh/publication/attachments/MHRS%20Bulletin%20Listing_0.pdf) | dc.gov | 2016-09-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 4 | 1100 | 2 |
 | [Medical%20Cannabis%20Registered%20Practitioners%20-%20July%202024.pdf](https://abca.dc.gov/sites/default/files/dc/sites/abra/publication/attachments/Medical%20Cannabis%20Registered%20Practitioners%20-%20July%202024.pdf) | dc.gov | 2024-07-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 38 | 8991 | 0 |
 | [November%20Spotlight%20on%20Aging%202019.pdf](https://dacl.dc.gov/sites/default/files/dc/sites/dcoa/release_content/attachments/November%20Spotlight%20on%20Aging%202019.pdf) | dc.gov | 2019-11-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 1586 | 10 |
 | [Promising%20Practices%20at%20the%20Front%20End%20%20%28March%202023%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Promising%20Practices%20at%20the%20Front%20End%20%20%28March%202023%29.pdf) | dc.gov | 2023-10-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 759 | 3 |
-| [QuickPaymentAct-11172021.pdf](https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/QuickPaymentAct-11172021.pdf) | dc.gov | 2021-11-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 430 | 0 |
 | [Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf) | dc.gov | 2023-02-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 913 | 3 |
 | [Risk%20Assessment%20Information%20Session%20Summary%20Final%20Draft%20.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Risk%20Assessment%20Information%20Session%20Summary%20Final%20Draft%20.pdf) | dc.gov | 2025-10-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1377 | 1 |
-| [SROJJTA_Summary.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/SROJJTA_Summary.pdf) | dc.gov | 2020-02-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 4590 | 4 |
-| [The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf) | dc.gov | 2023-01-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 57 | 26325 | 18 |
 | [Trauma%20Informed%20Webinar%20Summary%20.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Trauma%20Informed%20Webinar%20Summary%20.pdf) | dc.gov | 2022-02-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 2713 | 6 |
 | [Truck_Touch_2015%283%29.pdf](https://calendar.dc.gov/sites/default/files/dc/sites/calendar/event_content/attachments/Truck_Touch_2015%283%29.pdf) | dc.gov | 2015-05-13 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 0 | 1 |
 | [ag0_bega_chapter_2025j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/ag0_bega_chapter_2025j.pdf) | dc.gov | 2024-07-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1472 | 0 |
 | [ag_bega_tables_2025j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/ag_bega_tables_2025j.pdf) | dc.gov | 2024-07-08 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 2891 | 0 |
 | [evaluation_fredrick_weisberg.pdf](https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/evaluation_fredrick_weisberg.pdf) | dc.gov | 2008-08-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | 2072 | 0 |
-| [one%20pager%20JJS120%20%282%29.pdf](https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/one%20pager%20JJS120%20%282%29.pdf) | dc.gov | 2020-12-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 1041 | 1 |
 | [rl_cfsa_chapter_2019j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_chapter_2019j.pdf) | dc.gov | 2018-07-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 14 | 249 | 0 |
 | [rl_cfsa_tables_2019j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rl_cfsa_tables_2019j.pdf) | dc.gov | 2018-07-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | 9428 | 0 |
 | [rm_dbh_capital_2019j.pdf](https://cfo.dc.gov/sites/default/files/dc/sites/ocfo/publication/attachments/rm_dbh_capital_2019j.pdf) | dc.gov | 2018-07-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 5 | 1780 | 3 |
@@ -3689,7 +3468,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [2023qhppremiumschoicereport.pdf](https://www.cms.gov/cciio/resources/data-resources/downloads/2023qhppremiumschoicereport.pdf) | cms.gov | 2022-10-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 3699 | 7 |
 | [2024-announcement-pdf.pdf](https://www.cms.gov/files/document/2024-announcement-pdf.pdf) | cms.gov | 2023-03-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 200 | 80666 | 11 |
 | [2026-ma-part-d-landscape-state-state-fact-sheet.pdf](https://www.cms.gov/files/document/2026-ma-part-d-landscape-state-state-fact-sheet.pdf) | cms.gov | 2025-09-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 168 | 45252 | 56 |
-| [5010_provider_natl_conf_call_06092009.pdf](https://www.cms.gov/regulations-and-guidance/administrative-simplification/versions5010andd0/downloads/5010_provider_natl_conf_call_06092009.pdf) | cms.gov | 2009-06-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 27 | 2503 | 93 |
 | [7716-ab-registrationtermination-list-data-dictionary-web_1.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/7716-ab-registrationtermination-list-data-dictionary-web_1.pdf) | cms.gov | 2019-04-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 689 | 0 |
 | [82820-mi-ehb.pdf](https://www.cms.gov/files/document/82820-mi-ehb.pdf) | cms.gov | 2020-08-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 579 | 1 |
 | [82820-nm-ehb.pdf](https://www.cms.gov/files/document/82820-nm-ehb.pdf) | cms.gov | 2020-08-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 593 | 1 |
@@ -3725,10 +3503,8 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [frequently-asked-questions-cms-waivers-flexibilities-and-end-covid-19-public-health-emergency.pdf](https://www.cms.gov/files/document/frequently-asked-questions-cms-waivers-flexibilities-and-end-covid-19-public-health-emergency.pdf) | cms.gov | 2023-05-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | 8681 | 19 |
 | [fy-2024-hcfac-operating-plan.pdf](https://www.cms.gov/files/document/fy-2024-hcfac-operating-plan.pdf) | cms.gov | 2024-05-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 50 | 0 |
 | [fy-2024-program-management-operating-plan.pdf](https://www.cms.gov/files/document/fy-2024-program-management-operating-plan.pdf) | cms.gov | 2024-05-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 182 | 0 |
-| [grants-to-states-added-flexibility-2018.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2018.pdf) | cms.gov | 2018-02-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 70 | 22220 | 0 |
 | [inflation-rebate-fact-sheet-february-2023.pdf](https://www.cms.gov/files/document/inflation-rebate-fact-sheet-february-2023.pdf) | cms.gov | 2023-02-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 1241 | 0 |
 | [infographic-negotiated-prices-ipay-2027.pdf](https://www.cms.gov/files/document/infographic-negotiated-prices-ipay-2027.pdf) | cms.gov | 2025-11-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 432 | 0 |
-| [innovators-guide-master-7-23-15.pdf](https://www.cms.gov/medicare/coverage/councilontechinnov/downloads/innovators-guide-master-7-23-15.pdf) | cms.gov | 2015-09-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 63 | 26524 | 18 |
 | [january_2008_list_of_drugs_supplied_under_the_cap.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/january_2008_list_of_drugs_supplied_under_the_cap.pdf) | cms.gov | 2009-12-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 24 | 2327 | 0 |
 | [macs-hub-medicare-ffs-program.pdf](https://www.cms.gov/files/document/macs-hub-medicare-ffs-program.pdf) | cms.gov | 2025-08-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 63 | 0 |
 | [maternal-morbidity-structural-measure-specifications.pdf](https://www.cms.gov/files/document/maternal-morbidity-structural-measure-specifications.pdf) | cms.gov | 2021-04-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 365 | 0 |
@@ -3749,12 +3525,10 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [proposed-2022-hhs-notice-benefit-and-payment-parameters-fact-sheet.pdf](https://www.cms.gov/files/document/proposed-2022-hhs-notice-benefit-and-payment-parameters-fact-sheet.pdf) | cms.gov | 2020-11-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 2663 | 0 |
 | [py2023-county-coverage-map.pdf](https://www.cms.gov/files/document/py2023-county-coverage-map.pdf) | cms.gov | 2022-10-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 112 | 0 |
 | [qin-qio-fact-page.pdf](https://www.cms.gov/files/document/qin-qio-fact-page.pdf) | cms.gov | 2025-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 347 | 11 |
-| [qso-22-05-hospitals.pdf](https://www.cms.gov/files/document/qso-22-05-hospitals.pdf) | cms.gov | 2021-12-07 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1656 | 1 |
 | [qssam-25-02-hospitals.pdf](https://www.cms.gov/files/document/qssam-25-02-hospitals.pdf) | cms.gov | 2025-03-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 1151 | 1 |
 | [r12590ncd.pdf](https://www.cms.gov/files/document/r12590ncd.pdf) | cms.gov | 2024-04-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1204 | 0 |
 | [r777cp.pdf](https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/r777cp.pdf) | cms.gov | 2005-12-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 26 | 6573 | 0 |
 | [r866cppdf.pdf](https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/dwnlds/r866cppdf) | cms.gov | 2006-02-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 40 | 12131 | 0 |
-| [report-to-congress-september-2015.pdf](https://www.cms.gov/medicare/medicare-fee-for-service-payment/ambulancefeeschedule/downloads/report-to-congress-september-2015.pdf) | cms.gov | 2022-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 63 | 19371 | 42 |
 | [rfi-medicare-dialysis.pdf](https://www.cms.gov/about-cms/components/cpi/downloads/rfi-medicare-dialysis.pdf) | cms.gov | 2016-08-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 572 | 1 |
 | [se20005.pdf](https://www.cms.gov/files/document/se20005.pdf) | cms.gov | 2021-08-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1742 | 15 |
 | [social-media-evolution-excellence.pdf](https://www.cms.gov/files/document/social-media-evolution-excellence.pdf) | cms.gov | 2025-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 174 | 0 |
@@ -3763,7 +3537,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [social-media-transforming-healthcare-quality.pdf](https://www.cms.gov/files/document/social-media-transforming-healthcare-quality.pdf) | cms.gov | 2025-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 174 | 0 |
 | [som107ap_z_emergprep.pdf](https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/som107ap_z_emergprep.pdf) | cms.gov | 2021-04-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 108 | 42154 | 0 |
 | [state-exchange-oe-chart-py-2025.pdf](https://www.cms.gov/files/document/state-exchange-oe-chart-py-2025.pdf) | cms.gov | 2024-10-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 862 | 0 |
-| [state-flexibility-grant-fact-sheet.pdf](https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-market-reforms/downloads/state-flexibility-grant-fact-sheet.pdf) | cms.gov | 2018-08-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | 882 | 0 |
 | [talking-people-medicare-about-covid-19-vaccine.pdf](https://www.cms.gov/files/document/talking-people-medicare-about-covid-19-vaccine.pdf) | cms.gov | 2021-03-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 491 | 0 |
 | [trhcapdf.pdf](https://www.cms.gov/regulations-and-guidance/legislation/legislativeupdate/downloads/trhcapdf.pdf) | cms.gov | 2006-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 559 | 111856 | 0 |
 | [what-macfunctional-contractors-overview.pdf](https://www.cms.gov/files/document/what-macfunctional-contractors-overview.pdf) | cms.gov | 2025-08-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 948 | 0 |
@@ -4293,15 +4066,11 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [yn_sandhills.pdf](https://www.dnr.state.mn.us/sites/default/files/assets/mcv/2021/mar-apr/yn/yn_sandhills.pdf) | dnr.state.mn.us | 2021-01-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | 2280 | 14 |
 | [1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf](https://www.energy.gov/sites/default/files/2025-06/1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf) | energy.gov | 2025-03-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1217 | 1 |
 | [2024_Impact%20Flyer%20-%20website%20version.pdf](https://www.energy.gov/sites/default/files/2025-05/2024_Impact%20Flyer%20-%20website%20version.pdf) | energy.gov | 2025-03-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 537 | 10 |
-| [3118-sasc-nomination-testimonypdf.pdf](https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf) | energy.gov | 2018-02-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 755 | 0 |
 | [DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf](https://www.energy.gov/sites/default/files/2025-11/DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf) | energy.gov | 2025-10-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 73 | 18302 | 58 |
 | [MSIPP%20FY2022%20%20Impact_2.pdf](https://www.energy.gov/sites/default/files/2023-06/MSIPP%20FY2022%20%20Impact_2.pdf) | energy.gov | 2023-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 923 | 3 |
 | [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 22 | 7021 | 7 |
-| [amw-nomination-testimony-jan-18-18pdf.pdf](https://www.energy.gov/documents/amw-nomination-testimony-jan-18-18pdf) | energy.gov | 2018-08-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 174 | 0 |
 | [applying-msipp-grants.pdf](https://www.energy.gov/nnsa/articles/applying-msipp-grants) | energy.gov | 2023-03-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 2436 | 1 |
 | [centralia-order-no-202-26-18.pdf](https://www.energy.gov/documents/centralia-order-no-202-26-18) | energy.gov | — | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 2703 | 1 |
-| [final-hasc-em-fy18-written-testimonypdf.pdf](https://www.energy.gov/documents/final-hasc-em-fy18-written-testimonypdf) | energy.gov | 2017-05-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | 2679 | 0 |
-| [final-sasc-em-fy18-written-testimonypdf.pdf](https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf) | energy.gov | 2017-05-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | 2678 | 0 |
 | [fossil-energy-fy-2009-budget.pdf](https://www.energy.gov/hgeo/articles/fossil-energy-fy-2009-budget) | energy.gov | 2013-05-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 14 | 3375 | 0 |
 | [gto-quarterly-update-q1-2020.pdf](https://www.energy.gov/hgeo/geothermal/articles/gto-quarterly-update-q1-2020) | energy.gov | 2020-01-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 30 | 1644 | 136 |
 | [guide-financial-assistance-october-2024pdf.pdf](https://www.energy.gov/documents/guide-financial-assistance-october-2024pdf) | energy.gov | 2025-01-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 116 | 46444 | 1 |
@@ -4396,7 +4165,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [report-strengthening-cybersecurity-federal-networks-and-critical-infrastructure.pdf](https://www.energy.gov/articles/report-strengthening-cybersecurity-federal-networks-and-critical-infrastructure) | energy.gov | 2018-05-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 55 | 20458 | 3 |
 | [shines-kickoff-presentation-austin-energy.pdf](https://www.energy.gov/eere/solar/articles/shines-kickoff-presentation-austin-energy) | energy.gov | 2016-05-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 19 | 700 | 160 |
 | [shines-kickoff-presentation-hawaiian-electric-company.pdf](https://www.energy.gov/eere/solar/articles/shines-kickoff-presentation-hawaiian-electric-company) | energy.gov | 2016-05-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 22 | 900 | 249 |
-| [strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf](https://www.energy.gov/sites/default/files/2024-09/strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf) | energy.gov | 2024-08-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 1185 | 1 |
 | [suny_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/04/f14/suny_project_abstract.pdf) | energy.gov | 2012-12-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 546 | 0 |
 | [transition-and-transfer-remediated-fusrap-sites-usace-us-doe-long-term-surveillance-and.pdf](https://www.energy.gov/lm/articles/transition-and-transfer-remediated-fusrap-sites-usace-us-doe-long-term-surveillance-and) | energy.gov | 2017-07-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 31 | 5896 | 8 |
 | [tva-wpto-mou-action-plan.pdf](https://www.energy.gov/sites/default/files/2024-01/tva-wpto-mou-action-plan.pdf) | energy.gov | 2024-01-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 3901 | 0 |
@@ -4413,7 +4181,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [validation_shervais_snake_river.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_shervais_snake_river.pdf) | energy.gov | 2010-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 16 | 1283 | 31 |
 | [validation_stockli_detachment_faulting.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_stockli_detachment_faulting.pdf) | energy.gov | 2010-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | 820 | 17 |
 | [validation_teplow_large_aperture.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_teplow_large_aperture.pdf) | energy.gov | 2010-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 15 | 919 | 25 |
-| [what-foia.pdf](https://www.energy.gov/gc/articles/what-foia) | energy.gov | 2007-03-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 780 | 0 |
 | [wpto-third-9505-assessment-0.pdf](https://www.energy.gov/sites/default/files/2022-11/wpto-third-9505-assessment.pdf) | energy.gov | 2022-11-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 667 | 3 |
 | [wpto-third-9505-assessment.pdf](https://www.energy.gov/sites/default/files/2023-01/wpto-third-9505-assessment.pdf) | energy.gov | 2023-01-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 667 | 3 |
 | [accessible-pdfs-an-actionable-guide-for-every-business.pdf](https://s.smallpdf.com/static/cms/f/102628/x/70ab56427d/accessible-pdfs-an-actionable-guide-for-every-business.pdf) | smallpdf.com | 2025-06-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 25 | 4222 | 0 |
@@ -5084,25 +4851,15 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [2025-2026_SANGRE_DE_CRISTO_SCHOOLS.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_SANGRE_DE_CRISTO_SCHOOLS.pdf) | slvboces.org | 2025-04-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 593 | 0 |
 | [2025-2026_SOUTH_CONEJOS_SCHOOL_CALENDER.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_SOUTH_CONEJOS_SCHOOL_CALENDER.pdf) | slvboces.org | 2025-04-21 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 0 | 3 |
 | [2025-2026_Sanford_District_Calendar_jpg.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_Sanford_District_Calendar_jpg.pdf) | slvboces.org | 2025-06-17 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 0 | 1 |
-| [2025-2026_School_Calendar-Mountain_Valley.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar-Mountain_Valley.pdf) | slvboces.org | 2025-05-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 694 | 0 |
 | [2025-2026_School_Calendar_CENTER.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar_CENTER.pdf) | slvboces.org | 2025-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 825 | 2 |
 | [2025-2026_School_Creede.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_School_Creede.pdf) | slvboces.org | 2025-06-17 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 0 | 1 |
 | [2025-2026_UPPER_RIO_GRANDE_SCHOOL_DISTRICT_CALENDER.pdf](https://www.slvboces.org/pdfs/calendars/2025-2026_UPPER_RIO_GRANDE_SCHOOL_DISTRICT_CALENDER.pdf) | slvboces.org | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 733 | 0 |
-| [2025-26-Sierra-Grande-Calendar.pdf](https://www.slvboces.org/pdfs/calendars/2025-26-Sierra-Grande-Calendar.pdf) | slvboces.org | 2025-04-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 749 | 1 |
 | [2025-26_Centennial_R-1_District_Calendar_FINAL.pdf](https://www.slvboces.org/pdfs/calendars/2025-26_Centennial_R-1_District_Calendar_FINAL.pdf) | slvboces.org | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 688 | 1 |
 | [BOCES%20Employment%20Application%20-%20Certified.pdf](https://www.slvboces.org/ourpages/auto/2025/1/23/55962244/BOCES%20Employment%20Application%20-%20Certified.pdf?rnd=1758661327288) | slvboces.org | 2025-01-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 525 | 1 |
 | [BOCES%20Employment%20Application%20-%20Classified.pdf](https://www.slvboces.org/ourpages/auto/2025/1/23/55962244/BOCES%20Employment%20Application%20-%20Classified.pdf?rnd=1744050964923) | slvboces.org | 2025-01-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 525 | 1 |
-| [CEBT-Benefit-Plans.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/CEBT-Benefit-Plans.pdf?rnd=1728930714680) | slvboces.org | 2022-05-11 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 0 | 58 |
 | [Change%20of%20Status.pdf](https://www.slvboces.org/ourpages/auto/2025/1/15/47690234/Change%20of%20Status.pdf?rnd=1739288075182) | slvboces.org | 2022-09-09 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 0 | 7 |
-| [Delta-Dental.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Delta-Dental.pdf?rnd=1728930726976) | slvboces.org | 2022-05-12 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 0 | 1 |
 | [Employee%20Handbook.docx.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Employee%20Handbook.docx.pdf?rnd=1736274975906) | slvboces.org | — | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 26 | 9512 | 1 |
-| [Enrollment-From.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Enrollment-From.pdf?rnd=1728930734744) | slvboces.org | 2022-09-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 393 | 0 |
-| [Fingerpringing-Instructions.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerpringing-Instructions.pdf?rnd=1728930764841) | slvboces.org | 2019-02-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 311 | 2 |
-| [Fingerprinting-Locations.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Locations.pdf?rnd=1728930770307) | slvboces.org | 2019-02-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 198 | 2 |
-| [Fingerprinting-Notice-to-Applicants.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Notice-to-Applicants.pdf?rnd=1774276865695) | slvboces.org | 2026-03-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 352 | 3 |
 | [First_Report_of_Injury%20%281%29-1.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/48977507/First_Report_of_Injury%20%281%29-1.pdf?rnd=1774276726561) | slvboces.org | 2026-03-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 337 | 0 |
-| [Forms_%20Referral%20_English.pdf](https://www.slvboces.org/ourpages/auto/2024/12/11/51314671/Forms_%20Referral%20_English.pdf?rnd=1733949451678) | slvboces.org | 2024-08-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 510 | 2 |
-| [Grants%20Coordinator%20.pdf](https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Grants%20Coordinator%20.pdf?rnd=1728931650023) | slvboces.org | 2022-12-15 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 0 | 4 |
 | [7StepstoStartingYourBusiness-20231017.pdf](https://businessexpress.maryland.gov/documents/7StepstoStartingYourBusiness-20231017.pdf) | businessexpress.maryland.gov | 2023-10-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 164 | 8 |
 | [001B1600087-BPW-Agenda.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/001B1600087-BPW-Agenda.pdf) | doit.maryland.gov | 2025-12-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 401 | 4 |
 | [060B3490012BPWitem2-IT.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Documents/SPSSAASHC/060B3490012BPWitem2-IT.pdf) | doit.maryland.gov | 2025-12-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 403 | 2 |
@@ -5305,8 +5062,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf](https://doit.maryland.gov/contracts/Statewide-Contracts/Wireless-Voice-Data-and-Accessories/Documents/Maryland-NASPO-Wireless-ATT-PA-Final_signed_legal_sufficiency.pdf) | doit.maryland.gov | 2025-12-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 116 | 1 |
 | [2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf](https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team) | energy.gov | 2023-04-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 212 | 10 |
 | [Infographic%20SPR%2002_2023.pdf](https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf) | energy.gov | 2023-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 603 | 4 |
-| [OEA_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 309 | 1 |
-| [WAPA_Posting_Notice.pdf](https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 313 | 0 |
 | [doe-national-labs-report-finalpdf.pdf](https://www.energy.gov/documents/doe-national-labs-report-finalpdf) | energy.gov | 2021-01-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 96 | 38681 | 144 |
 | [h2iq-hour-10282021.pdf](https://www.energy.gov/sites/default/files/2021-11/h2iq-hour-10282021.pdf) | energy.gov | 2021-11-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 25 | 1768 | 212 |
 | [nuclear-power-summary.pdf](https://www.energy.gov/ne/articles/nuclear-power-summary) | energy.gov | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 8 | 2283 | 14 |
@@ -5356,7 +5111,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [antares_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/03/f14/antares_project_abstract.pdf) | energy.gov | 2012-12-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 372 | 0 |
 | [appendix-e-coverpdf.pdf](https://www.energy.gov/documents/appendix-e-coverpdf) | energy.gov | 2016-12-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 8 | 0 |
 | [appendix-e-mrlpdf.pdf](https://www.energy.gov/documents/appendix-e-mrlpdf) | energy.gov | 2016-12-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 126 | 8387 | 215 |
-| [attachment-bpa-master-performance-work-statementpdf.pdf](https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf) | energy.gov | 2022-06-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 4167 | 0 |
 | [busch-weldon-greenspace-map.pdf](https://www.energy.gov/lm/articles/busch-weldon-greenspace-map) | energy.gov | 2018-11-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 261 | 7 |
 | [corky-mittelsteadt-plug-power.pdf](https://www.energy.gov/documents/corky-mittelsteadt-plug-power) | energy.gov | 2022-04-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | 746 | 69 |
 | [doe-nepa-compliance-officers-directory-march-23-2026.pdf](https://www.energy.gov/documents/doe-nepa-compliance-officers-directory-march-23-2026) | energy.gov | 2026-03-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 677 | 0 |
@@ -5388,8 +5142,6 @@ Generated: 2026-07-08T13:00:28.012933+00:00
 | [ground-based-coastal-air-surveillance-radar-wtri-study-public-summary.pdf](https://www.energy.gov/documents/ground-based-coastal-air-surveillance-radar-wtri-study-public-summary) | energy.gov | 2017-12-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 9 | 1726 | 4 |
 | [hallam-nebraska-decommissioned-reactor-site-fact-sheet.pdf](https://www.energy.gov/lm/articles/hallam-nebraska-decommissioned-reactor-site-fact-sheet) | energy.gov | 2025-12-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 1093 | 6 |
 | [history-atomic-energy-commission.pdf](https://www.energy.gov/management/articles/history-atomic-energy-commission) | energy.gov | 2012-03-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 42 | 11420 | 23 |
-| [ne-dpa-consortium-faqs-091525.pdf](https://www.energy.gov/sites/default/files/2025-09/ne-dpa-consortium-faqs-091525.pdf) | energy.gov | 2025-09-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | 1318 | 0 |
-| [nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf](https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf) | energy.gov | 2023-09-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | 2500 | 1 |
 | [noa-eis-0552-lanl-site-wide-2026-03.pdf](https://www.energy.gov/sites/default/files/2026-03/noa-eis-0552-lanl-site-wide-2026-03.pdf) | energy.gov | 2026-03-27 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 1068 | 0 |
 | [noi-eis-0552-lanl-site-wide-2022-08pdf.pdf](https://www.energy.gov/documents/noi-eis-0552-lanl-site-wide-2022-08pdf) | energy.gov | 2022-08-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 4077 | 0 |
 | [order-granting-rehearing-request-nos-202-26-01-though-15.pdf](https://www.energy.gov/documents/order-granting-rehearing-request-nos-202-26-01-though-15) | energy.gov | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 1317 | 1 |
@@ -5966,7 +5718,6 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [iah-fg-yr4eval.pdf](https://www.cms.gov/priorities/innovation/files/reports/iah-fg-yr4eval.pdf) | cms.gov | 2019-05-23 | Evaluation of the Independence at Home Demonstration: Evaluation of Performance Years 1 to 4 (2012-2016) | Mathematica; CMS; CMMI; Innovation Center | {'Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact'} | "Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 747 | 4 |
 | [02118-part-b-outpatient-services.pdf](https://www.medicare.gov/publications/02118-part-b-outpatient-services.pdf) | medicare.gov | 2017-12-07 | Quick facts about payment for outpatient services for people with Medicare Part B. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 4 | 963 | 4 |
 | [02118-s-part-b-outpatient-services.pdf](https://www.medicare.gov/publications/02118-s-part-b-outpatient-services.pdf) | medicare.gov | 2018-01-04 | Resumen sobre el Sistema de Pago de Servicios Ambulatorios para las Personas con la Parte B de Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 4 | 1090 | 4 |
-| [02154-medicare-hospice-benefits.pdf](https://www.medicare.gov/publications/02154-medicare-hospice-benefits.pdf) | medicare.gov | 2026-02-27 | Medicare Hospice Benefits | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 20 | 4455 | 4 |
 | [02173-getting-a-second-opinion-before-surgery.pdf](https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf) | medicare.gov | 2022-01-11 | Getting a second opinion before surgery. | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 802 | 4 |
 | [02173-s-getting-a-second-opinion-before-surgery.pdf](https://www.medicare.gov/publications/02173-s-getting-a-second-opinion-before-surgery.pdf) | medicare.gov | 2022-01-21 | Una Segunda Opinión Antes de la Cirugía. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 952 | 4 |
 | [02174-s-your-guide-to-choosing-a-nursing-home.pdf](https://www.medicare.gov/publications/02174-s-your-guide-to-choosing-a-nursing-home.pdf) | medicare.gov | 2025-11-21 | 02174-S: Su guía para elegir un asilo de ancianos | Centers for Medicare and Medicaid Services | {'booklet', 'Your Guide to Choosing a Nursing Home', 'Medicare', 'Spanish', 'Su guía para elegir un asilo de ancianos', '02174', 'Centers for Medicare & Medicaid Services'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | 3376 | 9 |
@@ -6001,7 +5752,6 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf](https://www.medicare.gov/publications/10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf) | medicare.gov | 2025-08-06 | Medicare Coverage of Skilled Nursing Facility Care | Centers for Medicare and Medicaid Services | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 7612 | 10 |
 | [10153-s-medicare-skilled-nursing-facility.pdf](https://www.medicare.gov/publications/10153-s-medicare-skilled-nursing-facility.pdf) | medicare.gov | 2025-08-20 | Medicare Rights & Protections | Centers for Medicare and Medicaid Services | {'11534', 'Medicare Rights & Protections', 'Medicare'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 8543 | 9 |
 | [10181-s-guide-to-choosing-a-hospital.pdf](https://www.medicare.gov/publications/10181-s-guide-to-choosing-a-hospital.pdf) | medicare.gov | 2026-03-31 | La guía para escoger un hospital | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | 3512 | 7 |
-| [10969-medicare-and-home-health-care.pdf](https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf) | medicare.gov | 2025-06-24 | 10969 Medicare and Home Health Care | Centers for Medicare and Medicaid Services | {'Medicare', 'Medicare and Home Health Care', '10969', 'CMS'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 5521 | 5 |
 | [10969-s-medicare-and-home-health-care.pdf](https://www.medicare.gov/publications/10969-s-medicare-and-home-health-care.pdf) | medicare.gov | 2025-08-18 | 10969 Medicare y el Cuidado de Salud en el Hogar | Centers for Medicare and Medicaid Services | {'Medicare and Home Health Care Booklet', 'Medicare y el Cuidado de Salud en el Hogar', 'Centers for Medicare and Medicaid Services', 'Spanish', 'CMS'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | 24 | 6675 | 5 |
 | [10988-medicare-coverage-of-therapy-services.pdf](https://www.medicare.gov/publications/10988-medicare-coverage-of-therapy-services.pdf) | medicare.gov | 2024-11-05 | Medicare Coverage of Therapy Services | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 464 | 0 |
 | [10988-s-medicare-coverage-therapy-services.pdf](https://www.medicare.gov/publications/10988-s-medicare-coverage-therapy-services.pdf) | medicare.gov | 2025-01-22 | Cobertura de Medicare para servicios de terapia | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 550 | 0 |
@@ -6036,7 +5786,6 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [11145-j.pdf](https://www.medicare.gov/publications/11145-j.pdf) | medicare.gov | 2015-07-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 2 | 98 | 2 |
 | [11173-medicare-beneficiary-ombudsman.pdf](https://www.medicare.gov/publications/11173-medicare-beneficiary-ombudsman.pdf) | medicare.gov | 2024-09-10 | The Medicare Beneficiary Ombudsman Works for You | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 473 | 0 |
 | [11173-s-the-medicare-beneficiary-ombudsman-works-for-you.pdf](https://www.medicare.gov/publications/11173-s-the-medicare-beneficiary-ombudsman-works-for-you.pdf) | medicare.gov | 2024-09-10 | El Defensor del Beneficiario de Medicare trabaja para usted | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 571 | 0 |
-| [11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf](https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf) | medicare.gov | 2026-03-11 | Understanding Medicare Advantage & Medicare Drug Plan Enrollment Periods | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 4257 | 0 |
 | [11220-I-have-you-done-your-yearly-medicare-plan-review.pdf](https://www.medicare.gov/publications/11220-I-have-you-done-your-yearly-medicare-plan-review.pdf) | medicare.gov | 2025-09-23 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1020 | 1 |
 | [11220-ar-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-ar-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 916 | 1 |
 | [11220-arb-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-arb-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1008 | 1 |
@@ -6074,7 +5823,6 @@ Home Health Benefit | Centers for Medicare & Medicaid Services | {'Home Health B
 | [11361-s-medicare-and-hospice-benefits.pdf](https://www.medicare.gov/publications/11361-s-medicare-and-hospice-benefits.pdf) | medicare.gov | 2025-07-03 | Medicare y los beneficios de hospicio | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1511 | 1 |
 | [11368-n-bringing-better-heal-care.pdf](https://www.medicare.gov/publications/11368-n-bringing-better-heal-care.pdf) | medicare.gov | 2015-08-24 | Bringing Better Health Care to Native Communities | {'The Centers for Medicare & Medicaid Services'} | {'tribal', 'American Indian', 'health insurance', 'Medicare', 'Centers for Medicare and Medicaid Services', 'Native health', 'CMS', 'health coverage', 'Alaska Native', 'Indian Country', 'Medicaid', 'AI/AN', 'Marketplace'} | CMS, Centers for Medicare and Medicaid Services, Native health, Indian Country, American Indian, Alaska Native, AI/AN, tribal, Medicare, Medicaid, Marketplace, health insurance, health coverage | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 2 | 496 | 5 |
 | [11376-s-your-discharge-planning-checklist.pdf](https://www.medicare.gov/publications/11376-s-your-discharge-planning-checklist.pdf) | medicare.gov | 2025-12-09 | Su lista de verificación para la planificación del alta | — | {'11376', 'Medicare', 'Your discharge planning checklist'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1624 | 1 |
-| [11376-your-discharge-planning-checklist.pdf](https://www.medicare.gov/publications/11376-your-discharge-planning-checklist.pdf) | medicare.gov | 2025-12-03 | Your discharge planning checklist | — | {'11376', 'Medicare', 'Your discharge planning checklist'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1379 | 1 |
 | [11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf](https://www.medicare.gov/publications/11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf) | medicare.gov | 2025-03-04 | Getting Care & Drugs in a Disaster or Emergency | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1249 | 0 |
 | [11377-s-getting-care-and-drugs-in-a-disaster-or-emergency.pdf](https://www.medicare.gov/publications/11377-s-getting-care-and-drugs-in-a-disaster-or-emergency.pdf) | medicare.gov | 2025-03-07 | Cómo obtener atención médica y medicamentos en una situación de desastre o emergencia | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1427 | 0 |
 | [11389-s-medicare-getting-started.pdf](https://www.medicare.gov/publications/11389-s-medicare-getting-started.pdf) | medicare.gov | 2026-02-27 | Medicare: Conozca los conceptos básicos | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1789 | 1 |
@@ -6159,16 +5907,47 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [inz1002.pdf](https://www.immigration.govt.nz/assets/inz/documents/forms-and-guides/inz1002.pdf) | govt.nz | 2025-09-23 | INZ 1002 Residence Guide | Immigration New Zealand | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 20 | 9579 | 0 |
 | [new-zealands-tourism-policy-statement.pdf](https://www.mbie.govt.nz/assets/new-zealands-tourism-policy-statement.pdf) | govt.nz | 2026-06-25 | New Zealand's Tourism Policy Statement | Ministry of Business, Innovatoin and Employment | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 12191 | 168 |
 | [service-coverage-expectations-2025-26.pdf](https://www.health.govt.nz/system/files/2025-08/service-coverage-expectations-2025-26.pdf) | govt.nz | 2025-08-07 | Microsoft Word - Service Coverage Expectations 2025-26 | aschmidt | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 27 | 8877 | 2 |
-| [Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf](https://www.usds.gov/assets/files/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf) | usds.gov | 2024-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | 2089 | 15 |
-| [IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf](https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf) | usds.gov | 2017-01-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 6 | 2230 | 2 |
-| [USDS-2024-Impact-Report.pdf](https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf) | usds.gov | 2024-08-12 | United States Digital Service 2024 Impact Report | United States Digital Service | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 23 | 6960 | 16 |
-| [USDS-Impact-Report-2020.pdf](https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf) | usds.gov | 2020-06-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 20 | 5407 | 23 |
-| [USDS-Overview.pdf](https://www.usds.gov/assets/files/USDS-Overview.pdf) | usds.gov | 2023-04-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 645 | 2 |
-| [USDS-Press-Sheet.pdf](https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf) | usds.gov | 2020-09-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 550 | 2 |
-| [USDS-SBA8a_Brief.pdf](https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf) | usds.gov | 2017-05-01 | Getting Started With USDS 8a Digital Services | {'U.S. Digital Service Acquisitions Team'} | {'8a', 'SBA', 'procuremenati', 'USDS'} | 8a, SBA, USDS, procuremenati | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 1 | 85 | 2 |
-| [USDS-SBA8a_Detailed.pdf](https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf) | usds.gov | 2017-05-01 | USDS 8a Digital Service Intiative | {'U.S. Digital Service Acquisitions Team'} | {'8a', 'SBA', 'procuremenati', 'USDS'} | 8a, SBA, USDS, procuremenati | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 1 | 286 | 2 |
-| [usds-di.pdf](https://www.usds.gov/assets/files/usds-di.pdf) | usds.gov | 2020-09-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 499 | 2 |
-| [DOE_Fact_Sheet_Grid_Report_July_2025.pdf](https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf) | energy.gov | 2025-07-07 | — | Dankert, Charlie | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 1276 | 0 |
+| [191001-ministerrat.pdf](https://www.stmd.bayern.de/wp-content/uploads/2019/10/191001-ministerrat.pdf) | stmd.bayern.de | 2019-10-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | — | — |
+| [20200924-Cert4Trust_Presseblatt.pdf](https://www.stmd.bayern.de/wp-content/uploads/2020/09/20200924-Cert4Trust_Presseblatt.pdf) | stmd.bayern.de | 2020-09-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [21_04_2021_Abschlussbericht_DISKURS.pdf](https://www.stmd.bayern.de/wp-content/uploads/2021/05/21_04_2021_Abschlussbericht_DISKURS.pdf) | stmd.bayern.de | 2021-03-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | — | — |
+| [220719_Flyer_Bayerisches_Digitalgesetz_Kurzversion.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/07/220719_Flyer_Bayerisches_Digitalgesetz_Kurzversion.pdf) | stmd.bayern.de | 2022-07-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [221109_Programm_Bayerischer_Digitalgipfel_2022_FW.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/11/221109_Programm_Bayerischer_Digitalgipfel_2022_FW.pdf) | stmd.bayern.de | 2022-11-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | — | — |
+| [Bayern_Startup_und_Scaleup_Monitor_2026.pdf](https://www.bihk.de/fileadmin/BIHK.de_Dateien/Downloads/weitere-Themen/Bayern_Startup_und_Scaleup_Monitor_2026.pdf) | stmd.bayern.de *(ext: bihk.de)* | 2026-03-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | — | — |
+| [Blockchain_Strategie_01.pdf](https://www.stmd.bayern.de/wp-content/uploads/2020/02/Blockchain_Strategie_01.pdf) | stmd.bayern.de | 2020-02-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 26 | — | — |
+| [Fraunhofer-FIT_SSI_Whitepaper.pdf](https://www.fim-rc.de/wp-content/uploads/2021/06/Fraunhofer-FIT_SSI_Whitepaper.pdf) | stmd.bayern.de *(ext: fim-rc.de)* | 2021-07-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 52 | — | — |
+| [GAC16_Top10_Emerging_Technologies_2016_report.pdf](https://www3.weforum.org/docs/GAC16_Top10_Emerging_Technologies_2016_report.pdf) | stmd.bayern.de *(ext: www3.weforum.org)* | 2016-06-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ✅ Pass | 18 | — | — |
+| [Pr%C3%A4sentation-Blockchain-Anwendung-1.pdf](https://www.stmd.bayern.de/wp-content/uploads/2019/11/Pr%C3%A4sentation-Blockchain-Anwendung-1.pdf) | stmd.bayern.de | 2019-11-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | — | — |
+| [Pr%C3%A4sentation-D21-Studie-Bayernergebnisse_d21.pdf](https://www.stmd.bayern.de/wp-content/uploads/2021/03/Pr%C3%A4sentation-D21-Studie-Bayernergebnisse_d21.pdf) | stmd.bayern.de | 2021-03-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 18 | — | — |
+| [Stellungnahme-KSV-20.08.2021-BayDigG.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme-KSV-20.08.2021-BayDigG.pdf) | stmd.bayern.de | 2021-08-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 8 | — | — |
+| [Stellungnahme_AGSV_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_AGSV_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 7 | — | — |
+| [Stellungnahme_AKDB_BayDigitalG_09_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_AKDB_BayDigitalG_09_2021.pdf) | stmd.bayern.de | 2021-09-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | ❌ Fail | 4 | — | — |
+| [Stellungnahme_BBB_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BBB_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 5 | — | — |
+| [Stellungnahme_BBSB_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BBSB_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | ❌ Fail | 7 | — | — |
+| [Stellungnahme_BBV_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BBV_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 4 | — | — |
+| [Stellungnahme_BHT_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BHT_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-24 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | — | — |
+| [Stellungnahme_BKPV_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BKPV_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2022-02-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 7 | — | — |
+| [Stellungnahme_BLLV_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BLLV_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [Stellungnahme_BRK_BayDigitalG_07_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BRK_BayDigitalG_07_2021.pdf) | stmd.bayern.de | 2021-07-22 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [Stellungnahme_BVDW_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BVDW_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | Warn | ❌ Fail | 2 | — | — |
+| [Stellungnahme_Beauftragter_fuer_Behinderte_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_Beauftragter_fuer_Behinderte_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 4 | — | — |
+| [Stellungnahme_Bitkom_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_Bitkom_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 10 | — | — |
+| [Stellungnahme_ByAK_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_ByAK_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-09-01 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | — | — |
+| [Stellungnahme_DGB_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_DGB_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2022-02-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 4 | — | — |
+| [Stellungnahme_DeutscheRentenversicherung_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_DeutscheRentenversicherung_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 4 | — | — |
+| [Stellungnahme_HochschuleBayern_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_HochschuleBayern_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | Warn | ❌ Fail | 5 | — | — |
+| [Stellungnahme_IHK_BayDigitalG_09_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_IHK_BayDigitalG_09_2021.pdf) | stmd.bayern.de | 2021-09-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 13 | — | — |
+| [Stellungnahme_KEG_BayDigitalG_09_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_KEG_BayDigitalG_09_2021.pdf) | stmd.bayern.de | 2021-09-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | — |
+| [Stellungnahme_KUVB_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_KUVB_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-24 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
+| [Stellungnahme_Notare_Bayern_Pfalz_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_Notare_Bayern_Pfalz_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | ❌ Fail | 7 | — | — |
+| [Stellungnahme_StBK_BayDigitalG_07_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_StBK_BayDigitalG_07_2021.pdf) | stmd.bayern.de | 2021-08-26 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | — | — |
+| [Stellungnahme_UniBayern_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_UniBayern_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | — | — |
+| [Stellungnahme_VKU_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_VKU_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | — | — |
+| [Stellungnahme_VZBayern_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_VZBayern_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 5 | — | — |
+| [Stellungnahme_VdK_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_VdK_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 6 | — | — |
+| [Stellungnahme_freie_Wohlfahrtspflege_Bayern_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_freie_Wohlfahrtspflege_Bayern_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-24 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | — | — |
+| [Stellungnahme_vbw_BayDigitalG_08_2021.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_vbw_BayDigitalG_08_2021.pdf) | stmd.bayern.de | 2021-08-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | — | — |
+| [Webinar-2-Funktion-der-Blockchain-erkl%C3%A4rt.pdf](https://www.ihk-muenchen.de/ihk/Digitalisierung/Blockchain-Webinarreihe-2021/Webinar-2-Funktion-der-Blockchain-erkl%C3%A4rt.pdf) | stmd.bayern.de *(ext: ihk-muenchen.de)* | 2021-05-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 54 | — | — |
+| [White_Paper_NESSI.pdf](https://www.stmd.bayern.de/wp-content/uploads/2022/11/White_Paper_NESSI.pdf) | stmd.bayern.de | 2022-04-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 54 | — | — |
 
 ## Files with Errors or Notes
 
@@ -9712,12 +9491,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### 233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### 2527.pdf
 
 - **URL**: https://afdc.energy.gov/files/pdfs/2527.pdf
@@ -10125,12 +9898,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### RI_TRO_Notice.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf
-- **Status**: analysed
-- no date found, title, tagged, lang, 
 
 ### Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf
 
@@ -22408,12 +22175,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2021-11/NSF%20HSST%20NWIRP%20Testimony%20Final-CLEARED_0.pdf
-- **Status**: analysed
-- title, 
-
 ### NSF%20IDSS.pdf?VersionId=KSLD0pffarWPie1UYUL9VpSh8EDuYyRd
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20IDSS.pdf?VersionId=KSLD0pffarWPie1UYUL9VpSh8EDuYyRd
@@ -28660,12 +28421,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### 11082012-teleconference-transcript.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/11082012-teleconference-transcript.pdf
-- **Status**: analysed
-- title, 
-
 ### 1998d001.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/review-boards/prrbreview/downloads/1998d001.pdf
@@ -28713,12 +28468,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/2013-navigator-foa-4-9-2013.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### 2013-navigator-foa-4-9-2013.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/2013-navigator-foa-4-9-2013.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### 2014-risk-corridors-validation-instructions.pdf
 
@@ -28798,23 +28547,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### amended-spring-2012-establishment-foa.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/amended-spring-2012-establishment-foa.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### annrpt03.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt03.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### annrpt03.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt03.pdf
-- **Status**: analysed
-- title, lang, 
 
 ### annrpt06.pdf
 
@@ -28822,35 +28559,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### annrpt06.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt06.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### asc_hai_map.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/asc_hai_map.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### asc_hai_map.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/asc_hai_map.pdf
-- **Status**: analysed
-- title, 
-
 ### august_10_foa_teleconference_transcript0816_final.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/august_10_foa_teleconference_transcript0816_final.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### august_10_foa_teleconference_transcript0816_final.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/august_10_foa_teleconference_transcript0816_final.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### authorizationform.pdf
 
@@ -28906,12 +28625,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### consumer_assistance_program_grant_foa.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/consumer_assistance_program_grant_foa.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### contact_list.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/medicareprovidersupenroll/downloads/contact_list.pdf
@@ -28924,23 +28637,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### coop-foa-transcript-20120301.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120301.pdf
-- **Status**: analysed
-- title, 
-
 ### coop-foa-transcript-20120516.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### coop-foa-transcript-20120516.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf
-- **Status**: analysed
-- title, 
 
 ### cycle_i_rate_review_grant-rerelease_territories.pdf
 
@@ -28948,23 +28649,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### cycle_i_rate_review_grant-rerelease_territories.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_i_rate_review_grant-rerelease_territories.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### document-5-csr-reconciliation-attestation-form-a-benefit-year-2020-or-2019.pdf
 
@@ -28984,23 +28673,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### early_innovator_grants.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/early_innovator_grants.pdf
-- **Status**: analysed
-- title, 
-
 ### eaw-grant-fact-sheet.pdf
 
 - **URL**: https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### eaw-grant-fact-sheet.pdf
-
-- **URL**: https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf
-- **Status**: analysed
-- title, 
 
 ### eaw-grant-pre-application-call-slides.pdf
 
@@ -29013,12 +28690,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.cms.gov/files/document/eaw-grant-program-proposed-state-activities-final.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### eaw-grant-program-proposed-state-activities-final.pdf
-
-- **URL**: https://www.cms.gov/files/document/eaw-grant-program-proposed-state-activities-final.pdf
-- **Status**: analysed
-- title, 
 
 ### effective-rate-review-survey-instructions-20150202-final.pdf
 
@@ -29044,12 +28715,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### exchange_planning_grant_foa.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/exchange_planning_grant_foa.pdf
-- **Status**: analysed
-- title, 
-
 ### expanding-access-womens-health-grant-program-nofo.pdf
 
 - **URL**: https://www.cms.gov/files/document/expanding-access-womens-health-grant-program-nofo.pdf
@@ -29062,23 +28727,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### final-navigator-2014-foa-06-10-2014.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final-navigator-2014-foa-06-10-2014.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### final_premium_review_grant_solicitation_with_disclosure_statement.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final_premium_review_grant_solicitation_with_disclosure_statement.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### final_premium_review_grant_solicitation_with_disclosure_statement.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final_premium_review_grant_solicitation_with_disclosure_statement.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### fm-1a-risk-adj-overview.pdf
 
@@ -29134,23 +28787,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### foa_exchange_establishment.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_exchange_establishment.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### foa_territories_establishment.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_territories_establishment.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### foa_territories_establishment.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_territories_establishment.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### foia-faq-2022.pdf
 
@@ -29158,23 +28799,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### foia-faq-2022.pdf
-
-- **URL**: https://www.cms.gov/files/document/foia-faq-2022.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### foiaappeal.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### foiaappeal.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf
-- **Status**: analysed
-- title, 
 
 ### foiafaq.pdf
 
@@ -29188,23 +28817,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### foiahandbook.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiahandbook.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
-
 ### foiarequestletter.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### foiarequestletter.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf
-- **Status**: analysed
-- title, 
 
 ### foiarequestletterdeceasedbene.pdf
 
@@ -29212,23 +28829,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### foiarequestletterdeceasedbene.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterdeceasedbene.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### foiarequestletterlivingbene.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### foiarequestletterlivingbene.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### foiarequestletterownrecords.pdf
 
@@ -29236,23 +28841,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### foiarequestletterownrecords.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterownrecords.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### fy2010aschai.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/recovery/downloads/fy2010aschai.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### fy2010aschai.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/recovery/downloads/fy2010aschai.pdf
-- **Status**: analysed
-- title, 
 
 ### grants-to-states-added-flexibility-2020.pdf
 
@@ -29314,23 +28907,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### marketplace-casework-overview.pdf
 
 - **URL**: https://www.cms.gov/marketplace/technical-assistance-resources/marketplace-casework-overview.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### marketplace-casework-overview.pdf
-
-- **URL**: https://www.cms.gov/marketplace/technical-assistance-resources/marketplace-casework-overview.pdf
-- **Status**: analysed
-- title, 
 
 ### mm13531-hospice-claims-edits-certifying-physicians.pdf
 
@@ -29349,12 +28930,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/navigator_2015_foa_final_04_15_2015.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### navigator_2015_foa_final_04_15_2015.pdf
-
-- **URL**: https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/navigator_2015_foa_final_04_15_2015.pdf
-- **Status**: analysed
-- title, 
 
 ### opt_out_memo.pdf
 
@@ -30148,23 +29723,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-06.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-06.pdf
-- **Status**: analysed
-- title, 
-
 ### scletter08-08.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-08.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### scletter08-08.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-08.pdf
-- **Status**: analysed
-- title, 
 
 ### scletter08-09.pdf
 
@@ -30172,23 +29735,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-09.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-09.pdf
-- **Status**: analysed
-- title, 
-
 ### scletter08-10.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-10.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### scletter08-10.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-10.pdf
-- **Status**: analysed
-- title, 
 
 ### scletter08-11.pdf
 
@@ -30196,23 +29747,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-11.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-11.pdf
-- **Status**: analysed
-- title, 
-
 ### scletter08-12.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-12.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### scletter08-12.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-12.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### scletter08-13.pdf
 
@@ -30220,23 +29759,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-13.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-13.pdf
-- **Status**: analysed
-- title, 
-
 ### scletter08-14.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-14.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### scletter08-14.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-14.pdf
-- **Status**: analysed
-- title, 
 
 ### scletter08-15.pdf
 
@@ -30244,23 +29771,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-15.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-15.pdf
-- **Status**: analysed
-- title, 
-
 ### scletter08-16.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-16.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### scletter08-16.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-16.pdf
-- **Status**: analysed
-- title, 
 
 ### scletter08-17.pdf
 
@@ -30268,23 +29783,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-17.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-17.pdf
-- **Status**: analysed
-- title, 
-
 ### scletter08-18.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-18.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### scletter08-18.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-18.pdf
-- **Status**: analysed
-- title, 
 
 ### scletter08-19.pdf
 
@@ -30292,23 +29795,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-19.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-19.pdf
-- **Status**: analysed
-- title, 
-
 ### scletter08-20.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-20.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### scletter08-20.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-20.pdf
-- **Status**: analysed
-- title, 
 
 ### scletter08-21.pdf
 
@@ -30316,23 +29807,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-21.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-21.pdf
-- **Status**: analysed
-- title, 
-
 ### scletter08-22.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-22.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### scletter08-22.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-22.pdf
-- **Status**: analysed
-- title, 
 
 ### scletter08-23.pdf
 
@@ -30340,35 +29819,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-23.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-23.pdf
-- **Status**: analysed
-- title, 
-
 ### scletter08-25.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### scletter08-25.pdf
-
-- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### september_7_co_op_teleconference_transcript_final.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/september_7_co_op_teleconference_transcript_final.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### september_7_co_op_teleconference_transcript_final.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/september_7_co_op_teleconference_transcript_final.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### serota.pdf
 
@@ -30387,12 +29848,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### state-based-marketplace-modernization-grant-awardee-list-2021.pdf
-
-- **URL**: https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf
-- **Status**: analysed
-- title, lang, 
 
 ### state-flexibility-cycle-ii-grant-fact-sheet.pdf
 
@@ -45142,12 +44597,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### 2024-2028-Hamilton-Tourism-Strategy.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/2024-2028-Hamilton-Tourism-Strategy.pdf
-- **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, 
-
 ### 23-045.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-04/23-045.pdf
@@ -45172,23 +44621,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### 25-049.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-049.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### 25-050.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### 25-050.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-03/25-050.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### 25-144.pdf
 
@@ -45268,12 +44705,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CSWB_Gender-Based-Safety-Audit-Consideration-Report.pdf
-- **Status**: analysed
-- lang, 
-
 ### CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PED-OurFutureDowntown10YearDowntownRevitalizationStrategyProjectUpdate.pdf
@@ -45292,23 +44723,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### EDI-2019urbanindigenousstrategy-Report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-2019urbanindigenousstrategy-Report.pdf
-- **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, 
-
 ### EDI-UISimplementationplan2021.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-UISimplementationplan2021.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### EDI-UISimplementationplan2021.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-05/EDI-UISimplementationplan2021.pdf
-- **Status**: analysed
-- title, tagged, 
 
 ### EDI-orangeshirtday-colouringactivitypages.pdf
 
@@ -45400,12 +44819,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### Youth-Strategy-Report-2022-2027.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/Youth-Strategy-Report-2022-2027.pdf
-- **Status**: analysed
-- title, 
-
 ### accessible-meeting-checklist.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-09/accessible-meeting-checklist.pdf
@@ -45418,23 +44831,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### budget-flowchart-2026.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/budget-flowchart-2026.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### building-safer-communities-multi-year-plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-09/building-safer-communities-multi-year-plan.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### building-safer-communities-multi-year-plan.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-09/building-safer-communities-multi-year-plan.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
 
@@ -45442,23 +44843,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-agenda-planning-procedure-june2025.pdf
-- **Status**: analysed
-- title, 
-
 ### child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-collaborative-grant-procedure-june2025.pdf
-- **Status**: analysed
-- title, 
 
 ### child-youth-network-SOP-email-distribution-procedure-june2025.pdf
 
@@ -45466,23 +44855,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### child-youth-network-SOP-email-distribution-procedure-june2025.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/child-youth-network-SOP-email-distribution-procedure-june2025.pdf
-- **Status**: analysed
-- title, 
-
 ### child-youth-network-community-engagement-procedure.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-community-engagement-procedure.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### child-youth-network-community-engagement-procedure.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-community-engagement-procedure.pdf
-- **Status**: analysed
-- title, 
 
 ### child-youth-network-data-decision-support-guide1.pdf
 
@@ -45490,35 +44867,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### child-youth-network-data-decision-support-guide1.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/child-youth-network-data-decision-support-guide1.pdf
-- **Status**: analysed
-- tagged, 
-
 ### child-youth-network-terms-of-Reference-sep2025.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-terms-of-Reference-sep2025.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### child-youth-network-terms-of-Reference-sep2025.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-10/child-youth-network-terms-of-Reference-sep2025.pdf
-- **Status**: analysed
-- title, 
-
 ### comm-update-2023-Urban-Forest-Pests.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### comm-update-2023-Urban-Forest-Pests.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-02/comm-update-2023-Urban-Forest-Pests.pdf
-- **Status**: analysed
-- title, lang, 
 
 ### comm-update-CSWB-toronto-community-Crisis-Centre-Hamiltons-Mental-Health-Crisis-Response.pdf
 
@@ -45538,12 +44897,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/comm-update_Hemlock-Woolly-Adelgid-Identified-on-City-Property.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-04/comm-update_Strategic-Transportation-Network-Study-to-Support-Background-Study.pdf
@@ -45556,23 +44909,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### community-garden-final-report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-final-report.pdf
-- **Status**: analysed
-- title, 
-
 ### community-garden-infographic.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-infographic.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### community-garden-infographic.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-infographic.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### community-garden-summary-report.pdf
 
@@ -45580,23 +44921,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### community-garden-summary-report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/community-garden-summary-report.pdf
-- **Status**: analysed
-- title, 
-
 ### consideration-report-HSC25012-2025-2029-cswb-plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-06/consideration-report-HSC25012-2025-2029-cswb-plan.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### consideration-report-HSC25012-2025-2029-cswb-plan.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/consideration-report-HSC25012-2025-2029-cswb-plan.pdf
-- **Status**: analysed
-- lang, 
 
 ### emergency_hps-master-plan-2022-2031.pdf
 
@@ -45609,12 +44938,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/engagement-municipal-scan-practices.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### engagement-municipal-scan-practices.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/engagement-municipal-scan-practices.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### engagement-public-engagement-policy-CMO-GRCE-24-01.pdf
 
@@ -45640,23 +44963,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### hamilton-drug-strategy-report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-drug-strategy-report.pdf
-- **Status**: analysed
-- title, 
-
 ### hamilton-food-literacy-network-forum-report-2017.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### hamilton-food-literacy-network-forum-report-2017.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-literacy-network-forum-report-2017.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### hamilton-food-strategy-forum-summary.pdf
 
@@ -45664,23 +44975,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### hamilton-food-strategy-forum-summary.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-07/hamilton-food-strategy-forum-summary.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### hamilton-food-strategy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### hamilton-food-strategy.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/hamilton-food-strategy.pdf
-- **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, 
 
 ### hamilton-supervised-injection-site-study.pdf
 
@@ -45688,35 +44987,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### hamilton-supervised-injection-site-study.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-03/hamilton-supervised-injection-site-study.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### harassment-discrimination-prevention-policy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### harassment-discrimination-prevention-policy.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/harassment-discrimination-prevention-policy.pdf
-- **Status**: analysed
-- title, 
-
 ### indigenous-health-strateg-2023.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-07/indigenous-health-strateg-2023.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### indigenous-health-strateg-2023.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-07/indigenous-health-strateg-2023.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### indigenous-relations-honouring-our-roots-report_0.pdf
 
@@ -45730,23 +45011,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### indigenous-tourism-development-strategy.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/indigenous-tourism-development-strategy.pdf
-- **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, 
-
 ### info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/info-report-CSWB-Progress-Report-%28HSC24050%29.pdf
-- **Status**: analysed
-- lang, 
 
 ### info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
 
@@ -45754,23 +45023,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-08/info-report-HSC23033-Building-Safer-Communities-Multi-Year-Plan-jun2142023.pdf
-- **Status**: analysed
-- title, lang, 
-
 ### info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-09/info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/info-update-HSC24015-Community-Safety-and-Well-Being-Annual-Report-2024.pdf
-- **Status**: analysed
-- lang, 
 
 ### main-whitney-ea-pic1-presentation.pdf
 
@@ -45964,12 +45221,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/medical-advisory-CMOH-COVID-19-KP2-Vaccine-Market-Withdrawal.pdf
-- **Status**: analysed
-- title, lang, 
-
 ### medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-09/medicaladvisory_RSV-Older-Adult-High-Risk-Fact-Sheet-HCP.pdf
@@ -45988,23 +45239,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### municipal-act-charges-proposed-bylaws-apr23-2025.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/municipal-act-charges-proposed-bylaws-apr23-2025.pdf
-- **Status**: analysed
-- title, lang, 
-
 ### neighbourhood-risk-management-toolkit.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/neighbourhood-risk-management-toolkit.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### neighbourhood-risk-management-toolkit.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/neighbourhood-risk-management-toolkit.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### our-future-hamilton-2018-summit-summary-report.pdf
 
@@ -46012,23 +45251,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### our-future-hamilton-2018-summit-summary-report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-02/our-future-hamilton-2018-summit-summary-report.pdf
-- **Status**: analysed
-- title, tagged, 
-
 ### our-future-hamilton-2019-summit-summary-report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2023-10/our-future-hamilton-2019-summit-summary-report.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### our-future-hamilton-2019-summit-summary-report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-10/our-future-hamilton-2019-summit-summary-report.pdf
-- **Status**: analysed
-- title, tagged, 
 
 ### ourfuturehamilton-final-report-2017.pdf
 
@@ -46036,35 +45263,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### ourfuturehamilton-final-report-2017.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-final-report-2017.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
-
 ### ourfuturehamilton-progress-report-2018.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### ourfuturehamilton-progress-report-2018.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-progress-report-2018.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### ourfuturehamilton-suggested-actions.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-suggested-actions.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### ourfuturehamilton-suggested-actions.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/ourfuturehamilton-suggested-actions.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
 
 ### parking-master-plan.pdf
 
@@ -46078,12 +45287,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### public-engagement-charter.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-10/public-engagement-charter.pdf
-- **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, 
-
 ### recreation-master-plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-11/recreation-master-plan.pdf
@@ -46096,23 +45299,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/report-HSC24006-Community-Safety-and-Wellbeing-Situation-Table.pdf
-- **Status**: analysed
-- lang, 
-
 ### rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/rhop-vol1-appendix-f2-ruralarchaeologicalpotential-nov2022.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### rymal-ea-pic2-panels.pdf
 
@@ -46125,12 +45316,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels-accessible.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### rymal-road-ea-pic1-panels-accessible.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-08/rymal-road-ea-pic1-panels-accessible.pdf
-- **Status**: analysed
-- title, tagged, 
 
 ### rymal-road-ea-pic1-panels.pdf
 
@@ -46228,12 +45413,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategies-consumption-treatment-services-local-guidance-applicants-2023.pdf
-- **Status**: analysed
-- title, 
-
 ### strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-11/strategies-indigenous-archaeological-monitoring-policy-nov2024.pdf
@@ -46252,23 +45431,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-Appendix-A-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
-- **Status**: analysed
-- title, lang, 
-
 ### strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-09/strategies_08.1-HSC25007%28a%29-CSWB-Gender-Based-Safety-Audit-Action-Plan.pdf
-- **Status**: analysed
-- lang, 
 
 ### strategies_2nd-Annual-HamOntYouth-Summit-2024-exec-summary.pdf
 
@@ -46282,23 +45449,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/strategies_2nd-Annual-HamOntYouth-Summit-2024-report.pdf
-- **Status**: analysed
-- no bookmarks and more than 20 pages, 
-
 ### strategies_CSWB-Plan-2025-2029.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategies_CSWB-Plan-2025-2029.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategies_CSWB-Plan-2025-2029.pdf
-- **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, 
 
 ### strategies_Connected-Communities-2-Page-Summary-Report.pdf
 
@@ -46306,35 +45461,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategies_Connected-Communities-2-Page-Summary-Report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-2-Page-Summary-Report.pdf
-- **Status**: analysed
-- title, 
-
 ### strategies_Connected-Communities-Full-Report-final.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategies_Connected-Communities-Full-Report-final.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Full-Report-final.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### strategies_Connected-Communities-Summary-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategies_Connected-Communities-Summary-Report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-11/strategies_Connected-Communities-Summary-Report.pdf
-- **Status**: analysed
-- title, 
 
 ### strategies_Summary-of-Assets-Final.pdf
 
@@ -46348,23 +45485,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-2023-HPS-Asset-Management-Plan.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-2023-HPS-Asset-Management-Plan.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### strategy-asset-management-plan-overview-jun2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-asset-management-plan-overview-jun2022.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-asset-management-plan-overview-jun2022.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### strategy-childrens-community-services-asset-management-plan-2024.pdf
 
@@ -46372,23 +45497,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-childrens-community-services-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-childrens-community-services-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, 
-
 ### strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-cityhousing-hamilton-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### strategy-corp-real-estate-asset-management-plan-2024.pdf
 
@@ -46396,23 +45509,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-corp-real-estate-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-corp-real-estate-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
-
 ### strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-asset-management-fleet-services-eam-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, 
 
 ### strategy-corporate-asset-management-overview-appendix-b.pdf
 
@@ -46426,23 +45527,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-corporate-asset-management-proposed-levels-service.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/strategy-corporate-asset-management-proposed-levels-service.pdf
-- **Status**: analysed
-- title, 
-
 ### strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-corporate-facilities-energy-management-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### strategy-fire-dept-asset-management-plan-2024.pdf
 
@@ -46450,23 +45539,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-fire-dept-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-fire-dept-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### strategy-forestry-horticulture-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-forestry-horticulture-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-forestry-horticulture-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, 
 
 ### strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
 
@@ -46474,23 +45551,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-hamilton-municipal-cemeteries-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, 
-
 ### strategy-hpl-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-hpl-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hpl-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### strategy-hsr-asset-management-plan-2024.pdf
 
@@ -46498,23 +45563,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-hsr-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-hsr-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
-
 ### strategy-information-technology-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-information-technology-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-information-technology-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, 
 
 ### strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
 
@@ -46522,23 +45575,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-licensing-bylaw-services-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, 
-
 ### strategy-long-term-care-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-long-term-care-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-long-term-care-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, 
 
 ### strategy-natural-assets-asset-management-plan-2024.pdf
 
@@ -46546,23 +45587,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-natural-assets-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-natural-assets-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, 
-
 ### strategy-paramedics-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-paramedics-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/strategy-paramedics-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, lang, 
 
 ### strategy-parking-system-asset-plan-2023.pdf
 
@@ -46570,23 +45599,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-parking-system-asset-plan-2023.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-parking-system-asset-plan-2023.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-parks-and-recreational-trails-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, 
 
 ### strategy-public-health-services-asset-management-plan-2024.pdf
 
@@ -46594,23 +45611,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-public-health-services-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-public-health-services-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, 
-
 ### strategy-recreation-asset-management-plan-2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-recreation-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-recreation-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, 
 
 ### strategy-tourism-and-culture-asset-management-plan-2024.pdf
 
@@ -46618,23 +45623,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-tourism-and-culture-asset-management-plan-2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-06/strategy-tourism-and-culture-asset-management-plan-2024.pdf
-- **Status**: analysed
-- title, tagged, 
-
 ### strategy-transportation-asset-management-plan-jun2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-transportation-asset-management-plan-jun2022.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-transportation-asset-management-plan-jun2022.pdf
-- **Status**: analysed
-- title, lang, 
 
 ### strategy-waste-management-asset-plan-2023.pdf
 
@@ -46642,23 +45635,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategy-waste-management-asset-plan-2023.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2023-12/strategy-waste-management-asset-plan-2023.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### strategy-waterworks-asset-management-plan-jun2022.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-waterworks-asset-management-plan-jun2022.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### strategy-waterworks-asset-management-plan-jun2022.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-12/strategy-waterworks-asset-management-plan-jun2022.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### tmp-aegd-notice-of-commencement-pic1.pdf
 
@@ -46744,23 +45725,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-10/uhop-vol1-appendix-f4-archaeologicalpotential-dec2023.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### violence-workplace-prevention-policy.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-09/violence-workplace-prevention-policy.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### violence-workplace-prevention-policy.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-09/violence-workplace-prevention-policy.pdf
-- **Status**: analysed
-- title, 
 
 ### 2025-spring-community-compost-giveaway-events-july292025.pdf
 
@@ -46768,23 +45737,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### 2025-spring-community-compost-giveaway-events-july292025.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/2025-spring-community-compost-giveaway-events-july292025.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/BartonTiffanyLandsZoneB-ERMM-TemporaryShelterHousing-Oct.29.2024.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### CommsUpdate-PW-2025RuralRoadsideUrbanBlvdExpresswayGrassCuttingPrograms.pdf
 
@@ -46798,23 +45755,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-05/CommsUpdate-PW-CleanGreenHamiltonStrategy2024YearEndUpdate.pdf
-- **Status**: analysed
-- lang, 
-
 ### CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-04/CommsUpdate-PW-HSR150CelebrationActivitiesEvents.pdf
-- **Status**: analysed
-- lang, 
 
 ### CommsUpdate-PW-PlaygroundSprayPadsPlay%20CourtFacilitiesMaintenanceServiceLevelsUpdate.pdf
 
@@ -46827,12 +45772,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/CommsUpdate-PW-Release-EAS-TemporaryOutdoorShelter%20Project-259%20CarolineStreet.pdf
-- **Status**: analysed
-- title, lang, 
 
 ### DetourRoutes_403Closure.pdf
 
@@ -46857,12 +45796,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-12/PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/PreDemoDesignatedSubstancesSurveyBartonTiffanyLands-Nov.27.2024.pdf
-- **Status**: analysed
-- title, tagged, 
 
 ### ainslie-wood-creek-ea-pic1-feedback-mar2023.pdf
 
@@ -46912,23 +45845,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-ENG24002-2024-Construction-Projects-in-the-Right-of-Way.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### comm-update-HSR-150-Celebrations.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-HSR-150-Celebrations.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### comm-update-HSR-150-Celebrations.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-HSR-150-Celebrations.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
 
@@ -46936,35 +45857,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2022-09/comm-update-HW.22.08-Chedoke-Creek-Remediation.pdf
-- **Status**: analysed
-- title, lang, 
-
 ### comm-update-HW2402-Annual-Drinking-Water-Report.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### comm-update-HW2402-Annual-Drinking-Water-Report.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-HW2402-Annual-Drinking-Water-Report.pdf
-- **Status**: analysed
-- tagged, lang, 
-
 ### comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-HW2403-COH-Watershed-Action-Plan-Public-Engagement.pdf
-- **Status**: analysed
-- lang, 
 
 ### comm-update-HW2405-Reaccreditation-Citys-Drinking-Water-Quality-Management-System.pdf
 
@@ -46984,23 +45887,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-08/comm-update-Harmful-Algal-Bloom-Strategy-%28HW2505%29.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-05/comm-update-Maintenance-on-Lincoln-M-Alexander-Parkway.pdf
-- **Status**: analysed
-- title, 
 
 ### comm-update-PW-Bill-Simone-Hall-CFEM2406.pdf
 
@@ -47013,12 +45904,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-HSR-150-apr2024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### comm-update-PW-HSR-150-apr2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-HSR-150-apr2024.pdf
-- **Status**: analysed
-- lang, 
 
 ### comm-update-PW-Mountain-Drive-Park-Soils-Finding-ES2402-apr2024.pdf
 
@@ -47038,23 +45923,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-04/comm-update-PW-Playground-Spray-Pads-Play-Court-Facilities-Maintenance-Service-Levels-Update-Apr2024.pdf
-- **Status**: analysed
-- lang, 
-
 ### comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-03/comm-update-PW-Update3-fire-damage-woodlands-park-washroom.pdf
-- **Status**: analysed
-- lang, 
 
 ### comm-update-PW-Urban-Forest-Invasive-Species-Management-jun2024.pdf
 
@@ -47067,12 +45940,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2024-02/comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-02/comm-update-TSSA-Inspection-Report%2310150505-Bernie-Morelli-Recreation-Centre-%28CFEM2404%29.pdf
-- **Status**: analysed
-- tagged, lang, 
 
 ### comm-update-macassa-lodge-long-term-care-redevelopment-aug232024.pdf
 
@@ -47097,12 +45964,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-06/comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2025-06/comm-update-stoney-creek-water-quality-may-20-21-2025-hw2504_0.pdf
-- **Status**: analysed
-- lang, 
 
 ### comms-update-pw-york-blvd-cannon-street-urbanization-500mm-trunk-watermain-installation-june282024.pdf
 
@@ -47272,12 +46133,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf
-
-- **URL**: https://cab.dc.gov/sites/default/files/u76776/CAB%20ADA%20Grievance%20Procedure%20%282-2-2026%29%20%281%29.pdf
-- **Status**: analysed
-- title, 
-
 ### CFSA%20NOPP%20rev.2020.pdf
 
 - **URL**: https://cfsa.dc.gov/sites/default/files/dc/sites/cfsa/publication/attachments/CFSA%20NOPP%20rev.2020.pdf
@@ -47296,35 +46151,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf
-
-- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY17%20Performance%20Oversight%20Hearing%20Testimony%203.2.17_0.pdf
-- **Status**: analysed
-- title, 
-
 ### CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
-
-- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20FY18%20Performance%20Oversight%20Hearing%20Testimony%202.15.18.pdf
-- **Status**: analysed
-- title, 
-
 ### CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
-
-- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Bill22-459%20Opioid%20Abuse%20Treatment%20Act%2012.12.17_0.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### CIC%20Testimony%20on%20Letterhead.pdf
 
@@ -47344,12 +46181,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf
-
-- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/CIC%20Testimony%20on%20Youth%20Rehabilitation%20Amendment%20Act%202017%2010.26.17_0.pdf
-- **Status**: analysed
-- title, 
-
 ### CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC%20Testimony-Judiciary%20and%20Public%20Safety%20Committee%2011.10.21.pdf
@@ -47362,35 +46193,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### CIC-Education%20Committee%20Testimony%2010.4.17.pdf
-
-- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/CIC-Education%20Committee%20Testimony%2010.4.17.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
 
 - **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
-
-- **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/CJDT%2016%20STATUTE%20AMENDING%20FINANCIAL%20REPORTING%20REQUIREMENTS.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
-
-- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/CJS%202018%20Summit%20Summary%204.17%20%28MAB%20edits%29%20final.pdf
-- **Status**: analysed
-- title, 
 
 ### CJS1%20Summary%20FINAL.pdf
 
@@ -47403,12 +46216,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS2%20Webinar%20Summary.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### CJS2%20Webinar%20Summary.pdf
-
-- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/CJS2%20Webinar%20Summary.pdf
-- **Status**: analysed
-- title, 
 
 ### CONTRACT%20AWARD%20NOTIFICATIONS-JANUARY%202015.pdf
 
@@ -47427,12 +46234,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
-
-- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/Criminal%20Justice%20Summit%20Brochure%202018%20%28Final%29.pdf
-- **Status**: analysed
-- title, tagged, 
 
 ### D-0004_1_07-17-1958_findings_opinions_decision_board-002.pdf
 
@@ -47470,12 +46271,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf
-
-- **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/page_content/attachments/FY2018%20CIC%20Budget%20Hearing%20Testimony%20of%20Michelle%20Bonner%204.24.17_0.pdf
-- **Status**: analysed
-- title, 
-
 ### Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf
 
 - **URL**: https://cic.dc.gov/sites/default/files/dc/sites/cic/release_content/attachments/Fact%20Sheet%20on%20Female%20DC%20Code%20Offenders%20in%20BOP%20as%20of%20January%201%202022.pdf
@@ -47487,12 +46282,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf
-
-- **URL**: https://cjdt.dc.gov/sites/default/files/dc/sites/cjdt/publication/attachments/Form%2010A%20-%20Updated%20Public%20Access%20Request%20Form%202024.pdf
-- **Status**: analysed
-- title, 
 
 ### Housing%20Webinar%20Summary%2009.20.23.pdf
 
@@ -47536,23 +46325,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf
-
-- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%202%20Summary.pdf
-- **Status**: analysed
-- title, 
-
 ### Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
-
-- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Juvenile%20Justice%20Webinar%20Series%20Session%203%20Summary.pdf
-- **Status**: analysed
-- title, 
 
 ### Juvenile%20Justice%20Webinar%20Summary%20-%20Restorative%20Justice.pdf
 
@@ -47565,12 +46342,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://ddot.dc.gov/sites/default/files/dc/sites/ddot/page_content/attachments/Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf
-
-- **URL**: https://ddot.dc.gov/sites/default/files/dc/sites/ddot/page_content/attachments/Kids%20Ride%20Free%20Brochure%20Spanish%20-%202025.pdf
-- **Status**: analysed
-- title, tagged, 
 
 ### MHRS%20Bulletin%20Listing_0.pdf
 
@@ -47596,12 +46367,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### QuickPaymentAct-11172021.pdf
-
-- **URL**: https://cab.dc.gov/sites/default/files/dc/sites/cab/publication/attachments/QuickPaymentAct-11172021.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/Racial%20Equity%20in%20Data%20Integration%20%28June%202022%29.pdf
@@ -47620,23 +46385,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### SROJJTA_Summary.pdf
-
-- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/page_content/attachments/SROJJTA_Summary.pdf
-- **Status**: analysed
-- title, 
-
 ### The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
 
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
-
-- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/The%20District%20of%20Columbia%E2%80%99s%20Criminal%20Justice%20System%20under%20the%20Revitalization%20Act.pdf
-- **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, 
 
 ### Trauma%20Informed%20Webinar%20Summary%20.pdf
 
@@ -47673,12 +46426,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/one%20pager%20JJS120%20%282%29.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### one%20pager%20JJS120%20%282%29.pdf
-
-- **URL**: https://cjcc.dc.gov/sites/default/files/dc/sites/cjcc/one%20pager%20JJS120%20%282%29.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### rl_cfsa_chapter_2019j.pdf
 
@@ -50211,12 +48958,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.cms.gov/regulations-and-guidance/administrative-simplification/versions5010andd0/downloads/5010_provider_natl_conf_call_06092009.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### 5010_provider_natl_conf_call_06092009.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/administrative-simplification/versions5010andd0/downloads/5010_provider_natl_conf_call_06092009.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, 
 
 ### 82820-mi-ehb.pdf
 
@@ -53182,12 +51923,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### 3118-sasc-nomination-testimonypdf.pdf
-
-- **URL**: https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf
-- **Status**: analysed
-- title, 
-
 ### Arctic-Energy-8-page-brochure-October%202024%20printer%20ready.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2024-10/Arctic-Energy-8-page-brochure-October%202024%20printer%20ready.pdf
@@ -53272,12 +52007,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### amw-nomination-testimony-jan-18-18pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/amw-nomination-testimony-jan-18-18pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### applying-msipp-grants.pdf
 
 - **URL**: https://www.energy.gov/nnsa/articles/applying-msipp-grants
@@ -53308,23 +52037,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### final-hasc-em-fy18-written-testimonypdf.pdf
-
-- **URL**: https://www.energy.gov/documents/final-hasc-em-fy18-written-testimonypdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### final-sasc-em-fy18-written-testimonypdf.pdf
 
 - **URL**: https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### final-sasc-em-fy18-written-testimonypdf.pdf
-
-- **URL**: https://www.energy.gov/documents/final-sasc-em-fy18-written-testimonypdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### fossil-energy-fy-2009-budget.pdf
 
@@ -53782,12 +52499,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2024-09/strategic%20petroleum%20reserve%20factsheet%2008.2024.pdf
-- **Status**: analysed
-- title, 
-
 ### suny_project_abstract.pdf
 
 - **URL**: https://www.energy.gov/sites/prod/files/2014/04/f14/suny_project_abstract.pdf
@@ -53877,12 +52588,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.energy.gov/gc/articles/what-foia
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### what-foia.pdf
-
-- **URL**: https://www.energy.gov/gc/articles/what-foia
-- **Status**: analysed
-- title, 
 
 ### wpto-third-9505-assessment.pdf
 
@@ -59668,12 +58373,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### 2025-2026_School_Calendar-Mountain_Valley.pdf
-
-- **URL**: https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar-Mountain_Valley.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### 2025-2026_School_Calendar_CENTER.pdf
 
 - **URL**: https://www.slvboces.org/pdfs/calendars/2025-2026_School_Calendar_CENTER.pdf
@@ -59697,12 +58396,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.slvboces.org/pdfs/calendars/2025-26-Sierra-Grande-Calendar.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### 2025-26-Sierra-Grande-Calendar.pdf
-
-- **URL**: https://www.slvboces.org/pdfs/calendars/2025-26-Sierra-Grande-Calendar.pdf
-- **Status**: analysed
-- title, 
 
 ### 2025-26_Centennial_R-1_District_Calendar_FINAL.pdf
 
@@ -59824,12 +58517,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### CEBT-Benefit-Plans.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/CEBT-Benefit-Plans.pdf?rnd=1728930714680
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### Change%20of%20Status.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2025/1/15/47690234/Change%20of%20Status.pdf?rnd=1739288075182
@@ -59854,12 +58541,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### Delta-Dental.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Delta-Dental.pdf?rnd=1728930726976
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### ECSE-Teacher1.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/ECSE-Teacher1.pdf?rnd=1728931584711
@@ -59883,12 +58564,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Enrollment-From.pdf?rnd=1728930734744
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### Enrollment-From.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Enrollment-From.pdf?rnd=1728930734744
-- **Status**: analysed
-- title, 
 
 ### Evidence%20That%20Tier%201%20Instruction%20Is%20Working.pdf
 
@@ -59920,35 +58595,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### Fingerpringing-Instructions.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerpringing-Instructions.pdf?rnd=1728930764841
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### Fingerprinting-Locations.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Locations.pdf?rnd=1728930770307
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### Fingerprinting-Locations.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Locations.pdf?rnd=1728930770307
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### Fingerprinting-Notice-to-Applicants.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Notice-to-Applicants.pdf?rnd=1774276865695
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### Fingerprinting-Notice-to-Applicants.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Fingerprinting-Notice-to-Applicants.pdf?rnd=1774276865695
-- **Status**: analysed
-- title, 
 
 ### First_Report_of_Injury%20%281%29-1.pdf
 
@@ -59979,12 +58636,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Grants%20Coordinator%20.pdf?rnd=1728931650023
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### Grants%20Coordinator%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Grants%20Coordinator%20.pdf?rnd=1728931650023
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### HR-Intern.pdf
 
@@ -60508,12 +59159,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### OEA_WashingtonDC.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### OMEI_WashingtonDC.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/OMEI_WashingtonDC.pdf
@@ -60567,12 +59212,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### WAPA_Posting_Notice.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### aham-cce-overview-and-update-dated-06072011.pdf
 
@@ -61192,12 +59831,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### attachment-bpa-master-performance-work-statementpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/attachment-bpa-master-performance-work-statementpdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### busch-weldon-greenspace-map.pdf
 
 - **URL**: https://www.energy.gov/lm/articles/busch-weldon-greenspace-map
@@ -61348,23 +59981,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### ne-dpa-consortium-faqs-091525.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-09/ne-dpa-consortium-faqs-091525.pdf
-- **Status**: analysed
-- title, tagged, 
-
 ### nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf
 
 - **URL**: https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### nepa-support-services-bpa-ordering-guide-2023-09-12pdf.pdf
-
-- **URL**: https://www.energy.gov/documents/nepa-support-services-bpa-ordering-guide-2023-09-12pdf
-- **Status**: analysed
-- title, 
 
 ### noa-eis-0552-lanl-site-wide-2026-03.pdf
 
@@ -64414,12 +63035,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
-### 10969-medicare-and-home-health-care.pdf
-
-- **URL**: https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf
-- **Status**: analysed
-- annotations-tagging-fail, 
-
 ### 10969-s-medicare-and-home-health-care.pdf
 
 - **URL**: https://www.medicare.gov/publications/10969-s-medicare-and-home-health-care.pdf
@@ -64479,12 +63094,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### 11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
-
-- **URL**: https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
-- **Status**: analysed
-- annotations-tagging-fail, 
 
 ### 11220-your-yearly-medicare-review.pdf
 
@@ -65134,35 +63743,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/usds.gov/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.944732+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
-
-- **URL**: https://www.usds.gov/assets/files/Exploring-Global-Strategies-to-Support-Families-with-Young-Children-3.14.24.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=19), headings-none, 
-
 ### IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
 
 - **URL**: https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
 - **Status**: error
 - File not found: crawled_files/usds.gov/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.948626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
-
-- **URL**: https://www.usds.gov/resources/IMPACT_REPORT-Transforming_Government_Services_through_Technology_and_Innovation.pdf
-- **Status**: analysed
-- title, tagged, lang, annotations-untagged, 
-
 ### USDS-2024-Impact-Report.pdf
 
 - **URL**: https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### USDS-2024-Impact-Report.pdf
-
-- **URL**: https://www.usds.gov/resources/USDS-2024-Impact-Report.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, headings-none, annotations-tagging-fail, 
 
 ### USDS-Impact-Report-2020.pdf
 
@@ -65170,23 +63761,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/usds.gov/USDS-Impact-Report-2020.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.961569+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### USDS-Impact-Report-2020.pdf
-
-- **URL**: https://www.usds.gov/resources/USDS-Impact-Report-2020.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=147), headings-none, 
-
 ### USDS-Overview.pdf
 
 - **URL**: https://www.usds.gov/assets/files/USDS-Overview.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
-
-### USDS-Overview.pdf
-
-- **URL**: https://www.usds.gov/assets/files/USDS-Overview.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=2), headings-none, annotations-tagging-fail, 
 
 ### USDS-Press-Sheet.pdf
 
@@ -65194,23 +63773,11 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/usds.gov/USDS-Press-Sheet.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.966116+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### USDS-Press-Sheet.pdf
-
-- **URL**: https://www.usds.gov/assets/files/USDS-Press-Sheet.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=69), headings-none, 
-
 ### USDS-SBA8a_Brief.pdf
 
 - **URL**: https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf
 - **Status**: error
 - File not found: crawled_files/usds.gov/USDS-SBA8a_Brief.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.968859+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### USDS-SBA8a_Brief.pdf
-
-- **URL**: https://techfarhub.usds.gov/assets/8(a)/USDS-SBA8a_Brief.pdf
-- **Status**: analysed
-- title, tagged, lang, 
 
 ### USDS-SBA8a_Detailed.pdf
 
@@ -65218,35 +63785,17 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - File not found: crawled_files/usds.gov/USDS-SBA8a_Detailed.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.971648+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### USDS-SBA8a_Detailed.pdf
-
-- **URL**: https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf
-- **Status**: analysed
-- title, tagged, lang, 
-
 ### usds-di.pdf
 
 - **URL**: https://www.usds.gov/assets/files/usds-di.pdf
 - **Status**: error
 - File not found: crawled_files/usds.gov/usds-di.pdf (crawled 1 day(s) ago at 2026-07-06T14:28:46.973626+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### usds-di.pdf
-
-- **URL**: https://www.usds.gov/assets/files/usds-di.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=55), headings-none, annotations-tagging-fail, 
-
 ### DOE_Fact_Sheet_Grid_Report_July_2025.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
 - **Status**: error
 - File not found: crawled_files/energy.gov/DOE_Fact_Sheet_Grid_Report_July_2025.pdf (crawled 0.1 day(s) ago at 2026-07-06T14:29:49.870731+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### DOE_Fact_Sheet_Grid_Report_July_2025.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf
-- **Status**: analysed
-- title, headings-warn, 
 
 ### fac_c_digital_services_05_12_18.pdf
 
@@ -66850,6 +65399,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - No module named 'simpla11ypdf'
 
+### AgendaforAugust15thAdministrativeMeeting2.pdf
+
+- **URL**: https://rptac.dc.gov/sites/default/files/dc/sites/rptac/publication/attachments/AgendaforAugust15thAdministrativeMeeting2.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### 05-322%20-%20Repealed.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2022-02/05-322%20-%20Repealed.pdf
@@ -68127,3 +66682,249 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://mn.gov/deed/assets/wioa-discrimination-complaint_tcm1045-596623.pdf
 - **Status**: error
 - No module named 'simpla11ypdf'
+
+### 191001-ministerrat.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2019/10/191001-ministerrat.pdf
+- **Status**: analysed
+- title, fonts:/BCDEEE+Univers-Medium, /SymbolMT, /Arial-BoldMT, /ArialMTheadings-none, 
+
+### 20200924-Cert4Trust_Presseblatt.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2020/09/20200924-Cert4Trust_Presseblatt.pdf
+- **Status**: analysed
+- title, fonts:/ROKDFO+Lato-Light, /ROKDFO+Lato-Semibold, /ROKDFO+TitilliumWeb-Boldfigures-alt, headings-none, 
+
+### 21_04_2021_Abschlussbericht_DISKURS.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2021/05/21_04_2021_Abschlussbericht_DISKURS.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/DHAYHO+CMBX12, /WFQXLM+CMTT10, /NBFSRU+CMTI10, /AVLLUP+CMR10, /MULJMX+SFRM1000, /MKGEXS+CMBX10, /GVBHQZ+CMCSC10untagged-images, annotations-untagged, 
+
+### 220719_Flyer_Bayerisches_Digitalgesetz_Kurzversion.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/07/220719_Flyer_Bayerisches_Digitalgesetz_Kurzversion.pdf
+- **Status**: analysed
+- title, tagged, fonts:/LRUULC+SourceSansPro-Bold, /WYYHJG+SourceSansPro-Regular, /LBELGC+TitilliumWeb-Bold, /MNRRUA+Interstate-Regular, /AARCIY+TitilliumWeb-ExtraLightuntagged-images, annotations-untagged, 
+
+### 221109_Programm_Bayerischer_Digitalgipfel_2022_FW.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/11/221109_Programm_Bayerischer_Digitalgipfel_2022_FW.pdf
+- **Status**: analysed
+- title, fonts:/XJOBHE+SourceSansPro-Bold, /SVHVAT+SourceSansPro-Regular, /JGNVTG+TitilliumWeb-ExtraLight, /IVTFFI+SourceSansPro-Regular, /XJOBHE+Interstate-Bold, /NQUMID+SourceSansPro-Bold, /BUMZLW+TitilliumWeb-Boldfigures-alt, headings-none, 
+
+### Bayern_Startup_und_Scaleup_Monitor_2026.pdf
+
+- **URL**: https://www.bihk.de/fileadmin/BIHK.de_Dateien/Downloads/weitere-Themen/Bayern_Startup_und_Scaleup_Monitor_2026.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, fonts:/BUWXWV+Poppins-Regular, /BUWXWV+Poppins-MediumItalic, /BUWXWV+Poppins-Medium, /BUWXWV+Poppins-BoldItalic, /BUWXWV+Poppins-LightItalic, /BUWXWV+Poppins-Bold, /BUWXWV+Poppins-Italic, /BUWXWV+MinionPro-Regular, /BUWXWV+Poppins-ExtraBoldItalic, /BUWXWV+Poppins-SemiBoldItalicuntagged-images, annotations-untagged, 
+
+### Blockchain_Strategie_01.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2020/02/Blockchain_Strategie_01.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, fonts:/HVNXUF+Interstate-Light, /EWXAEL+Interstate-Black, /OXCXOR+Interstate-Regular, /EVEPEL+Interstate-BlackItalic, /VGHYID+Interstate-Italic, /PMNYCP+Interstate-Boldannotations-untagged, 
+
+### Fraunhofer-FIT_SSI_Whitepaper.pdf
+
+- **URL**: https://www.fim-rc.de/wp-content/uploads/2021/06/Fraunhofer-FIT_SSI_Whitepaper.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, fonts:/AAAAAJ+Arial-BoldMT, /BFNHAK+Helvetica,Bold, /AIVBIW+FrutigerLTCom-Light, /AAPPDP+FrutigerLTCom-Bold, /ARFZPR+FrutigerLTCom-LightItalic, /ASJHEV+SymbolMT, /AUFYAY+Calibri-Bold, /ASJHEV+Calibri, /AUNWCM+FrutigerLTCom-Bold, /ATPKYZ+FrutigerLTCom-Light, /AYIIDR+Consolas, /AUJMRX+Calibri, /AAAAAJ+ArialMT, /BCZCCE+FrutigerLTCom-BoldItalic, /AAAAAJ+Arial-ItalicMTuntagged-images, annotations-untagged, 
+
+### GAC16_Top10_Emerging_Technologies_2016_report.pdf
+
+- **URL**: https://www3.weforum.org/docs/GAC16_Top10_Emerging_Technologies_2016_report.pdf
+- **Status**: analysed
+- title, fonts:/EQPQVI+HelveticaNeueLTPro-Md, /EQPQVI+HelveticaNeueLTPro-Lt, /DIFKHK+HelveticaNeueLTPro-LtItfigures-alt, headings-none, 
+
+### Pr%C3%A4sentation-Blockchain-Anwendung-1.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2019/11/Pr%C3%A4sentation-Blockchain-Anwendung-1.pdf
+- **Status**: analysed
+- title, fonts:/OKHGIQ+Arial-BoldMT, /DBWXKM+Calibri, /TCSKAG+ArialMTfigures-alt, headings-warn, 
+
+### Pr%C3%A4sentation-D21-Studie-Bayernergebnisse_d21.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2021/03/Pr%C3%A4sentation-D21-Studie-Bayernergebnisse_d21.pdf
+- **Status**: analysed
+- title, fonts:/JXHSNB+SegoeUI, /HMKGLF+SegoeUI-Boldfigures-alt, headings-none, tables-fail, 
+
+### Stellungnahme-KSV-20.08.2021-BayDigG.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme-KSV-20.08.2021-BayDigG.pdf
+- **Status**: analysed
+- title, fonts:/Arial-ItalicMT, /SymbolMT, /Arial-BoldMT, /ABCDEE+Calibri, /ArialMTfigures-alt, headings-none, tables-fail, 
+
+### Stellungnahme_AGSV_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_AGSV_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/ABCDEE+Wingdings-Regular, /Arial-BoldMT, /ABCDEE+Calibri, /ArialMTfigures-alt, headings-none, tables-fail, 
+
+### Stellungnahme_AKDB_BayDigitalG_09_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_AKDB_BayDigitalG_09_2021.pdf
+- **Status**: analysed
+- title, fonts:/ABCDEE+Segoe UI,Bold, /ABCDEE+Segoe UItables-fail, 
+
+### Stellungnahme_BBB_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BBB_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/ABCDEE+DINOffc, /Arial-ItalicMT, /Arial-BoldMT, /ArialMTfigures-alt, headings-none, tables-fail, 
+
+### Stellungnahme_BBSB_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BBSB_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/ABCDEE+Verdana-Bold, /ABCDEE+Verdanatables-fail, 
+
+### Stellungnahme_BBV_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BBV_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/ABCDEE+HelveticaNeueLT Com 55 Roman,Bold, /ABCDEE+HelveticaNeueLT Com 55 Roman, /Times New Romanfigures-alt, headings-none, tables-fail, 
+
+### Stellungnahme_BHT_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BHT_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, untagged-images, 
+
+### Stellungnahme_BKPV_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BKPV_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/SymbolMT, /Arial-BoldMT, /ArialMTheadings-none, 
+
+### Stellungnahme_BLLV_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BLLV_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/ABCDEE+Calibri-Bold, /ABCDEE+Calibri-Italic, /TimesNewRomanPSMT, /TimesNewRomanPS-BoldMT, /ABCDEE+Calibri, /ABCDEE+ArialNarrow, /ArialMTfigures-alt, headings-none, 
+
+### Stellungnahme_BRK_BayDigitalG_07_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BRK_BayDigitalG_07_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/Arial-ItalicMT, /Arial-BoldMT, /CourierNewPS-BoldMT, /ArialMTuntagged-images, annotations-untagged, 
+
+### Stellungnahme_BVDW_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_BVDW_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/BCDEEE+Calibri, /BCDHEE+Roboto-Regular, /BCDFEE+Roboto-Medium, /BCDIEE+Roboto-Bold, /BCDJEE+Roboto-Light, /BCDGEE+Roboto-Lightfigures-alt, headings-none, tables-warn, 
+
+### Stellungnahme_Beauftragter_fuer_Behinderte_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_Beauftragter_fuer_Behinderte_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/ABCDEE+Calibri-Bold, /ABCDEE+Calibri-Italic, /ABCDEE+Calibri, /ArialMTfigures-alt, annotations-tagging-fail, 
+
+### Stellungnahme_Bitkom_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_Bitkom_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/BCDEEE+TheSansOffice-Bold, /BCDFEE+TheSansOffice, /BCDIEE+TheSansOffice, /BCDGEE+TheSansOffice-Italic, /Arial-BoldMT, /BCDHEE+Wingdings-Regular, /ArialMT
+
+### Stellungnahme_ByAK_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_ByAK_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, untagged-images, 
+
+### Stellungnahme_DGB_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_DGB_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/BCDEEE+Calibri, /SymbolMT, /BCDFEE+Calibri-Bold, /BCDGEE+Calibri, /ArialMTheadings-none, 
+
+### Stellungnahme_DeutscheRentenversicherung_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_DeutscheRentenversicherung_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/NPVQKO+ArialMT, /LMSPUR+ArialMT, /NPVQKO+Arial-BoldMTfigures-alt, tables-fail, 
+
+### Stellungnahme_HochschuleBayern_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_HochschuleBayern_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- fonts:/BCDFEE+Wingdings-Regular, /BCDHEE+Calibri, /Arial-BoldMT, /BCDEEE+Wingdings2, /BCDGEE+Calibri, /ArialMTfigures-alt, tables-warn, annotations-tagging-fail, 
+
+### Stellungnahme_IHK_BayDigitalG_09_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_IHK_BayDigitalG_09_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/KGBJDZ+Helvetica, /ZIFJYW+Helvetica-Bold, /WPNJEN+Courier, /PZPQPO+Symbol, /LYDLRI+Helvetica-Obliqueuntagged-images, 
+
+### Stellungnahme_KEG_BayDigitalG_09_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_KEG_BayDigitalG_09_2021.pdf
+- **Status**: analysed
+- title, fonts:/ABCDEE+Verdana, /TimesNewRomanPSMT, /Arial-BoldMT, /ABCDEE+Verdana-Bold, /ABCDEE+Calibri, /ArialMTfigures-alt, headings-none, 
+
+### Stellungnahme_KUVB_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_KUVB_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, untagged-images, 
+
+### Stellungnahme_Notare_Bayern_Pfalz_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_Notare_Bayern_Pfalz_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/ArialMT, /Arial-BoldMTfigures-alt, tables-fail, 
+
+### Stellungnahme_StBK_BayDigitalG_07_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_StBK_BayDigitalG_07_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, untagged-images, 
+
+### Stellungnahme_UniBayern_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_UniBayern_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/AAAAAG+MyriadPro-BoldCond, /AAAAAJ+MyriadPro-Cond, /AAAAAH+MyriadPro-BoldCond, /AAAAAD+MyriadPro-BoldCond, /AAAAAI+MyriadPro-Cond, /AAAAAM+MyriadPro-BoldCond, /AAAAAC+MyriadPro-Cond, /AAAAAF+MyriadPro-Cond, /AAAAAL+ArialMT, /AAAAAB+MyriadPro-Cond, /AAAAAE+MyriadPro-Conduntagged-images, 
+
+### Stellungnahme_VKU_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_VKU_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- fonts:/BCDHEE+Calibri, /SymbolMT, /BCDFEE+Calibri, /BCDGEE+Calibri-Bold, /Arial-BoldMT, /BCDEEE+Calibri-Italic, /ArialMTheadings-none, 
+
+### Stellungnahme_VZBayern_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_VZBayern_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/Arial-ItalicMT, /Arial-BoldMT, /ArialMT
+
+### Stellungnahme_VdK_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_VdK_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/BCDHEE+GillAltOneMT-Bold, /BCDFEE+GillAltOneMT, /BCDEEE+Calibri, /BCDJEE+GillAltOneMT-Light, /BCDIEE+GillAltOneMT-Light, /BCDGEE+GillAltOneMT, /ArialMTfigures-alt, 
+
+### Stellungnahme_freie_Wohlfahrtspflege_Bayern_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_freie_Wohlfahrtspflege_Bayern_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, untagged-images, 
+
+### Stellungnahme_vbw_BayDigitalG_08_2021.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/02/Stellungnahme_vbw_BayDigitalG_08_2021.pdf
+- **Status**: analysed
+- title, fonts:/BCDHEE+Calibri-Light, /BCDEEE+Calibri, /BCDIEE+Calibri-Bold, /BCDGEE+Calibri, /BCDFEE+Calibri-Light
+
+### Webinar-2-Funktion-der-Blockchain-erkl%C3%A4rt.pdf
+
+- **URL**: https://www.ihk-muenchen.de/ihk/Digitalisierung/Blockchain-Webinarreihe-2021/Webinar-2-Funktion-der-Blockchain-erkl%C3%A4rt.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, fonts:/Arial, /Arial,BoldItalic, /Arial,Italic, /Arial,Boldfigures-alt, 
+
+### White_Paper_NESSI.pdf
+
+- **URL**: https://www.stmd.bayern.de/wp-content/uploads/2022/11/White_Paper_NESSI.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, fonts:/BCDHEE+Calibri-Bold, /BCDKEE+TrebuchetMS, /SymbolMT, /TimesNewRomanPSMT, /BCDGEE+FrutigerLTCom-Roman, /BCDFEE+Calibri, /BCDIEE+Calibri, /BCDLEE+SegoeUI, /Arial-ItalicMT, /Arial-BoldMT, /BCDJEE+Georgia, /BCDEEE+Wingdings-Regular, /ArialMT, /Arial-BoldItalicMTfigures-alt, tables-warn, 
