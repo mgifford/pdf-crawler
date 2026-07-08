@@ -84424,7 +84424,7 @@
   filename: 11082012-teleconference-transcript.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.040332+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -84450,7 +84450,7 @@
     Producer: Adobe PDF Library 10.0
     Pages: 11
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -84481,6 +84481,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:51:55.537719+00:00'
   notes: Just exploring.
   link_text: Transcript of Fifth Open Information Teleconference for Applicants of
     the CO-OP Program FOA (PDF)
@@ -84713,7 +84719,7 @@
   filename: 2013-navigator-foa-4-9-2013.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.046163+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -84739,7 +84745,7 @@
     Producer: null
     Pages: 41
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -84770,6 +84776,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:13.587764+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Cooperative Agreement to Support Navigators in
     Federally-facilitated and State Partnership Exchanges (PDF)'
@@ -85154,7 +85166,7 @@
   filename: 2023-open-enrollment-report-infographic.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.079466+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -85179,7 +85191,8 @@
     Creator: Adobe InDesign 18.1 (Macintosh)
     Producer: Adobe PDF Library 17.0
     Pages: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -85209,6 +85222,12 @@
         Pages: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:32.123413+00:00'
   notes: Just exploring.
   link_text: 2023 Open Enrollment Report Infographic (PDF)
 - url: https://www.cms.gov/files/document/2024-145-ipfema-exception-memo-hurricane-francinefinal508.pdf
@@ -85403,7 +85422,7 @@
   filename: 5-things-about-svi.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.092997+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -85428,7 +85447,8 @@
     Creator: Adobe InDesign CC 2014 (Macintosh)
     Producer: Adobe PDF Library 11.0
     Pages: 5
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -85458,6 +85478,12 @@
         Pages: 5
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:52:50.984436+00:00'
   notes: Just exploring.
   link_text: 5 Things Assisters, Agents, and Brokers Should Know About SVIs (PDF)
 - url: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/508_cms-10379-2017-unified-rate-review-instructions.pdf
@@ -85749,7 +85775,7 @@
   filename: amended-spring-2012-establishment-foa.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.104709+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -85775,7 +85801,7 @@
     Producer: Microsoft® Word 2010
     Pages: 79
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -85806,6 +85832,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:09.341424+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Exchange Establishment Grants (PDF)'
 - url: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt03.pdf
@@ -85813,7 +85845,7 @@
   filename: annrpt03.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.105175+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -85839,7 +85871,7 @@
     Producer: null
     Pages: 7
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -85870,6 +85902,12 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:27.925593+00:00'
   notes: Just exploring.
   link_text: FOIA Annual Report FY 2003 (PDF)
 - url: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt06.pdf
@@ -85877,7 +85915,7 @@
   filename: annrpt06.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.106373+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: true
@@ -85903,7 +85941,7 @@
     Producer: null
     Pages: 19
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -85934,6 +85972,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:53:46.718036+00:00'
   notes: Just exploring.
   link_text: FOIA Annual Report FY 2006 (PDF)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/asc_hai_map.pdf
@@ -85941,7 +85985,7 @@
   filename: asc_hai_map.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.107179+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -85967,7 +86011,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 2
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -85998,6 +86042,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:04.967929+00:00'
   notes: Just exploring.
   link_text: Map and Overview of FY09 State Participation in the ASC-HAI Initiative
     (PDF)
@@ -86006,7 +86056,7 @@
   filename: august_10_foa_teleconference_transcript0816_final.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.107795+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -86032,7 +86082,7 @@
     Producer: Adobe PDF Library 9.0
     Pages: 48
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -86063,6 +86113,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:23.402002+00:00'
   notes: Just exploring.
   link_text: Transcript of Open Information Teleconference for Applicants of the CO-OP
     Program FOA (PDF)
@@ -86071,7 +86127,7 @@
   filename: authorizationform.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.108400+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -86096,7 +86152,8 @@
     Creator: Adobe InDesign CC 13.1 (Macintosh)
     Producer: Adobe PDF Library 15.0
     Pages: 2
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -86126,6 +86183,12 @@
         Pages: 2
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:54:42.331747+00:00'
   notes: Just exploring.
   link_text: FOIA Medicare Authorization (PDF)
 - url: https://www.cms.gov/files/document/emtala-poster-non-medicaid-participating-spanish/black-and-white.pdf
@@ -86133,7 +86196,7 @@
   filename: black-and-white.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.108916+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -86158,7 +86221,8 @@
     Creator: Adobe Illustrator 28.6 (Macintosh)
     Producer: Adobe PDF library 17.00
     Pages: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -86188,6 +86252,12 @@
         Pages: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:00.878637+00:00'
   notes: Just exploring.
   link_text: EMTALA Poster - Non Medicaid Participating (Spanish) / Black and White
     (PDF)
@@ -86667,7 +86737,7 @@
   filename: consumer_assistance_program_grant_foa.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.141141+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -86693,7 +86763,7 @@
     Producer: Adobe PDF Library 9.0
     Pages: 24
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -86724,6 +86794,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:19.481642+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Consumer Assistance Program Grants (PDF)'
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/medicareprovidersupenroll/downloads/contact_list.pdf
@@ -86731,9 +86807,10 @@
   filename: contact_list.pdf
   site: cms.gov
   crawled_at: '2026-07-08T01:48:55.427137+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   file_hash: c3be8cde35086f1c9c4b31493da99b14e3b43286d08177054fd919773281779a
   analyses:
     original:
@@ -86741,6 +86818,12 @@
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:38.556555+00:00'
   notes: Just exploring.
   link_text: Find your enrollment contractor (PDF)
 - url: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120301.pdf
@@ -86748,7 +86831,7 @@
   filename: coop-foa-transcript-20120301.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.143252+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -86774,7 +86857,7 @@
     Producer: Adobe PDF Library 10.0
     Pages: 13
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -86805,6 +86888,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:55:57.332610+00:00'
   notes: Just exploring.
   link_text: Transcript of Third Open Information Teleconference for Applicants of
     the CO-OP Program FOA (PDF)
@@ -86813,7 +86902,7 @@
   filename: coop-foa-transcript-20120516.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.143829+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -86839,7 +86928,7 @@
     Producer: Adobe PDF Library 10.0
     Pages: 28
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -86870,6 +86959,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:56:16.350833+00:00'
   notes: Just exploring.
   link_text: Transcript of Fourth Open Information Teleconference for Applicants of
     the CO-OP Program FOA (PDF)
@@ -86878,7 +86973,7 @@
   filename: cycle_i_rate_review_grant-rerelease_territories.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.144675+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -86904,7 +86999,7 @@
     Producer: Microsoft® Office Word 2007
     Pages: 26
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -86935,6 +87030,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:56:35.507100+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity to Re-release: Grants to States for Health Insurance
     Premium Review – Cycle I (PDF)'
@@ -86943,7 +87044,7 @@
   filename: cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.151238+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -86969,7 +87070,7 @@
     Producer: Neevia Document Converter Pro v6.0 (http://neevia.com)
     Pages: 55
   errors:
-  - 'title, tagged, lang, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87000,6 +87101,12 @@
       errors:
       - 'title, tagged, lang, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:56:54.214192+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Grants to Support States in Health Insurance Rate
     Review – Cycle II (PDF)'
@@ -87167,7 +87274,7 @@
   filename: early_innovator_grants.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.155366+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -87193,7 +87300,7 @@
     Producer: Adobe PDF Library 9.0
     Pages: 41
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87224,6 +87331,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:57:12.922090+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Early Innovator Grants (PDF)'
 - url: https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf
@@ -87231,7 +87344,7 @@
   filename: eaw-grant-fact-sheet.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.156078+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -87257,7 +87370,7 @@
     Producer: Adobe PDF Library 24.2.13
     Pages: 3
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87288,6 +87401,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:57:32.047987+00:00'
   notes: Just exploring.
   link_text: 'Fact sheet: Expanding Access to Women’s Health Grant Program (PDF)'
 - url: https://www.cms.gov/files/document/eaw-grant-pre-application-call-slides.pdf
@@ -87295,7 +87414,7 @@
   filename: eaw-grant-pre-application-call-slides.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.157401+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -87320,7 +87439,8 @@
     Creator: null
     Producer: macOS Version 13.6.7 (Build 22G720) Quartz PDFContext
     Pages: 16
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87350,6 +87470,12 @@
         Pages: 16
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:57:50.668441+00:00'
   notes: Just exploring.
   link_text: 'Expanding Access to Women’s Health Grant Program: Pre-Application Summary
     Slides (PDF)'
@@ -87358,7 +87484,7 @@
   filename: eaw-grant-program-proposed-state-activities-final.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.158079+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -87384,7 +87510,7 @@
     Producer: Adobe PDF Library 24.3.144
     Pages: 3
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87415,6 +87541,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:58:09.177332+00:00'
   notes: Just exploring.
   link_text: Expanding Access to Women’s Health Grant Program Applicants and Proposed
     Activity Summaries (PDF)
@@ -87455,7 +87587,7 @@
   filename: ehb-grant-external-faq508.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.159196+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -87480,7 +87612,8 @@
     Creator: Microsoft® Word for Microsoft 365
     Producer: Microsoft® Word for Microsoft 365
     Pages: 5
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87510,6 +87643,12 @@
         Pages: 5
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:58:28.160964+00:00'
   notes: Just exploring.
   link_text: Frequently Asked Questions for the 2024 Essential Health Benefits (EHB)-Benchmark
     Plan Modernization Grant for States with a Federally-facilitated Exchange (FFE)
@@ -87551,7 +87690,7 @@
   filename: exchange_planning_grant_foa.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.160292+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -87577,7 +87716,7 @@
     Producer: Adobe PDF Library 9.0
     Pages: 20
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87608,6 +87747,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:58:46.483525+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Planning and Establishment Grants (PDF)'
 - url: https://www.cms.gov/files/document/expanding-access-womens-health-grant-program-nofo.pdf
@@ -87615,7 +87760,7 @@
   filename: expanding-access-womens-health-grant-program-nofo.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.161749+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -87640,7 +87785,8 @@
     Creator: Acrobat PDFMaker 23 for Word
     Producer: Adobe PDF Library 23.8.75
     Pages: 66
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87670,6 +87816,12 @@
         Pages: 66
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:59:05.309710+00:00'
   notes: Just exploring.
   link_text: Expanding Access to Women’s Health Grant (PDF)
 - url: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/faqs-for-tpa-issuer-user-fee-final.pdf
@@ -87739,7 +87891,7 @@
   filename: final-navigator-2014-foa-06-10-2014.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.165422+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -87765,7 +87917,7 @@
     Producer: null
     Pages: 58
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87796,6 +87948,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:59:23.924695+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Cooperative Agreement to Support Navigators in
     Federally-facilitated and State Partnership Exchanges (PDF)'
@@ -87835,7 +87993,7 @@
   filename: final_premium_review_grant_solicitation_with_disclosure_statement.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.199759+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -87861,7 +88019,7 @@
     Producer: Adobe PDF Library 9.0
     Pages: 26
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -87892,6 +88050,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T01:59:42.192640+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Grants to States for Health Insurance Premium Review
     – Cycle I (PDF – 168 KB) (PDF)'
@@ -88156,7 +88320,7 @@
   filename: foa_exchange_establishment.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.210001+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88182,7 +88346,7 @@
     Producer: Microsoft® Office Word 2007
     Pages: 89
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88213,6 +88377,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:00:01.194239+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Establishment Grants (PDF)'
 - url: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_territories_establishment.pdf
@@ -88220,7 +88390,7 @@
   filename: foa_territories_establishment.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.211071+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88246,7 +88416,7 @@
     Producer: null
     Pages: 44
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88277,6 +88447,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:00:19.866241+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Territory Cooperative Agreements for the Affordable
     Care Act Exchanges (PDF)'
@@ -88285,7 +88461,7 @@
   filename: foia-faq-2022.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.212034+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88311,7 +88487,7 @@
     Producer: PDFium
     Pages: 5
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88342,6 +88518,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:00:38.664798+00:00'
   notes: Just exploring.
   link_text: FAQs (PDF)
 - url: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf
@@ -88349,7 +88531,7 @@
   filename: foiaappeal.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.212451+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88375,7 +88557,7 @@
     Producer: Adobe PDF Library 9.0
     Pages: 2
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88406,6 +88588,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:00:57.768905+00:00'
   notes: Just exploring.
   link_text: Sample FOIA Appeal Letter (PDF)
 - url: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiafaq.pdf
@@ -88413,7 +88601,7 @@
   filename: foiafaq.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.213234+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -88438,7 +88626,8 @@
     Creator: Acrobat PDFMaker 22 for Word
     Producer: Adobe PDF Library 22.1.149
     Pages: 5
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88468,6 +88657,12 @@
         Pages: 5
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:01:16.111496+00:00'
   notes: Just exploring.
   link_text: FOIA Frequently Asked Questions (PDF)
 - url: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiahandbook.pdf
@@ -88475,7 +88670,7 @@
   filename: foiahandbook.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.217238+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88501,7 +88696,7 @@
     Producer: Adobe PDF Library 9.9
     Pages: 28
   errors:
-  - 'title, tagged, lang, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88532,6 +88727,12 @@
       errors:
       - 'title, tagged, lang, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:01:35.183963+00:00'
   notes: Just exploring.
   link_text: FOIA Handbook (PDF)
 - url: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf
@@ -88539,7 +88740,7 @@
   filename: foiarequestletter.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.217673+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88565,7 +88766,7 @@
     Producer: Adobe PDF Library 9.0
     Pages: 2
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88596,6 +88797,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:01:53.736919+00:00'
   notes: Just exploring.
   link_text: Sample FOIA Request Letter (PDF)
 - url: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterdeceasedbene.pdf
@@ -88603,7 +88810,7 @@
   filename: foiarequestletterdeceasedbene.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.218204+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88629,7 +88836,7 @@
     Producer: PDFium
     Pages: 2
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88660,6 +88867,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:02:11.991099+00:00'
   notes: Just exploring.
   link_text: Sample FOIA Request Letter for Records on a Deceased Beneficiary  (PDF)
 - url: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf
@@ -88667,7 +88880,7 @@
   filename: foiarequestletterlivingbene.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.218685+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88693,7 +88906,7 @@
     Producer: PDFium
     Pages: 1
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88724,6 +88937,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:02:30.912599+00:00'
   notes: Just exploring.
   link_text: Sample FOIA Request Letter for Records on a Living Beneficiary from Someone
     Other Than the Beneficiary (PDF)
@@ -88732,7 +88951,7 @@
   filename: foiarequestletterownrecords.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.219188+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88758,7 +88977,7 @@
     Producer: PDFium
     Pages: 1
   errors:
-  - 'title, tagged, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88789,6 +89008,12 @@
       errors:
       - 'title, tagged, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:02:49.600734+00:00'
   notes: Just exploring.
   link_text: Sample FOIA Request Letter for Your Own Medical Records (PDF)
 - url: https://www.cms.gov/outreach-and-education/medicare-learning-network-mln/mlnproducts/downloads/fraud-abuse-mln4649244.pdf
@@ -88827,7 +89052,7 @@
   filename: fy2010aschai.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.222711+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -88853,7 +89078,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 3
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -88884,6 +89109,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:03:08.350936+00:00'
   notes: Just exploring.
   link_text: Map and Overview of FY2010 State Participation in the ASC-HAI Initiative
     (PDF, 185 KB) (PDF)
@@ -88985,7 +89216,7 @@
   filename: grants-to-states-added-flexibility-2020.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.226211+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -89010,7 +89241,8 @@
     Creator: Acrobat PDFMaker 17 for Word
     Producer: Adobe PDF Library 15.0
     Pages: 72
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -89040,6 +89272,12 @@
         Pages: 72
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:03:27.485396+00:00'
   notes: Just exploring.
   link_text: Grants to Support States in Providing Added Flexibility to Strengthen
     the Private Health Insurance Market through Implementation of Market Reforms under
@@ -89643,7 +89881,7 @@
   filename: hospice-certifying-enrollment-faqs.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.268459+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -89668,7 +89906,8 @@
     Creator: Acrobat PDFMaker 24 for Word
     Producer: Adobe PDF Library 24.2.13
     Pages: 5
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -89698,6 +89937,12 @@
         Pages: 5
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:03:46.108414+00:00'
   notes: Just exploring.
   link_text: Hospice Certifying Enrollment Q&A (PDF)
 - url: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/hospital-appeals-provider-listing.pdf
@@ -89705,7 +89950,7 @@
   filename: hospital-appeals-provider-listing.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.269462+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -89730,7 +89975,8 @@
     Creator: Acrobat PDFMaker 15 for Excel
     Producer: Adobe PDF Library 15.0
     Pages: 39
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -89760,6 +90006,12 @@
         Pages: 39
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:04:05.304537+00:00'
   notes: Just exploring.
   link_text: Hospital Appeals Settlements (PDF)
 - url: https://www.cms.gov/files/document/ichra-employer-lowest-cost-silver-plan-premium-look-up-table-data-dictionary.pdf
@@ -89925,7 +90177,7 @@
   filename: limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.274185+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -89951,7 +90203,7 @@
     Producer: Microsoft® Office Word 2007
     Pages: 29
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -89982,6 +90234,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:04:24.095597+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Limited Competition for State Planning and Establishment
     Grants (PDF)'
@@ -90052,7 +90310,7 @@
   filename: marketplace-casework-overview.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.277672+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -90078,7 +90336,7 @@
     Producer: Adobe PDF Library 10.0
     Pages: 13
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -90109,6 +90367,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:04:42.612219+00:00'
   notes: Just exploring.
   link_text: Marketplace Casework Overview – July 31, 2015 (slides) (PDF)
 - url: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/medical_loss_ratio_2016_annual_reportpdf.pdf
@@ -90891,7 +91155,7 @@
   filename: mm13531-hospice-claims-edits-certifying-physicians.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.306797+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -90916,7 +91180,8 @@
     Creator: Adobe InDesign 19.5 (Windows)
     Producer: Adobe PDF Library 17.0
     Pages: 3
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -90946,6 +91211,12 @@
         Pages: 3
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:05:01.303093+00:00'
   notes: Just exploring.
   link_text: Hospice Claims Edits for Certifying Physicians (PDF)
 - url: https://www.cms.gov/files/document/mm13541-clinical-laboratory-fee-schedule-laboratory-services-reasonable-charge-payment-quarterly.pdf
@@ -91449,7 +91720,7 @@
   filename: navigator-2016-foa.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.319681+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -91474,7 +91745,8 @@
     Creator: Acrobat PDFMaker 15 for Word
     Producer: Adobe PDF Library 15.0
     Pages: 86
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -91504,6 +91776,12 @@
         Pages: 86
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:05:19.880866+00:00'
   notes: Just exploring.
   link_text: 'Hawaii Funding Opportunity: Limited Competition for Cooperative Agreements
     to Support Navigators in Federally-facilitated and State Partnership Marketplaces
@@ -91513,7 +91791,7 @@
   filename: navigator_2015_foa_final_04_15_2015.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.320693+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -91539,7 +91817,7 @@
     Producer: Adobe PDF Library 10.0
     Pages: 78
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -91570,6 +91848,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:05:38.587493+00:00'
   notes: Just exploring.
   link_text: 'Funding Opportunity: Cooperative Agreement to Support Navigators in
     Federally-facilitated and State Partnership Exchanges (PDF)'
@@ -91952,7 +92236,7 @@
   filename: pre-call-application-ecp-grant-final.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.385748+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -91977,7 +92261,8 @@
     Creator: Acrobat PDFMaker 15 for PowerPoint
     Producer: Adobe PDF Library 15.0
     Pages: 20
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -92007,6 +92292,12 @@
         Pages: 20
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:05:57.549999+00:00'
   notes: Just exploring.
   link_text: 'Health Insurance Enforcement and Consumer Protections Grant Program:
     Pre-Application Summary Slides (PDF)'
@@ -96418,9 +96709,10 @@
   filename: report-life-changes-postcard-spanish.pdf
   site: cms.gov
   crawled_at: '2026-07-08T01:48:56.480778+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   file_hash: 7ef2f9d4b9a705ee33472910acf12714e71b1bdc3c065cdce7345d4695b64856
   analyses:
     original:
@@ -96428,6 +96720,12 @@
       report: null
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:06:15.997865+00:00'
   notes: Just exploring.
   link_text: Spanish (PDF)
 - url: https://www.cms.gov/files/document/risk-adjustment-technical-specificationsjanuary2023.pdf
@@ -96530,7 +96828,7 @@
   filename: scletter08-06.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.538244+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -96556,7 +96854,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 167
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -96587,6 +96885,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:06:35.232246+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-06 (PDF, 4.4 MB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-08.pdf
@@ -96594,7 +96898,7 @@
   filename: scletter08-08.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.538880+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -96620,7 +96924,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 6
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -96651,6 +96955,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:06:54.030413+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-08 (69 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-09.pdf
@@ -96658,7 +96968,7 @@
   filename: scletter08-09.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.539485+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -96684,7 +96994,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 3
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -96715,6 +97025,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:07:12.590012+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-09 (PDF, 57 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-10.pdf
@@ -96722,7 +97038,7 @@
   filename: scletter08-10.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.540031+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -96748,7 +97064,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 3
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -96779,6 +97095,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:07:31.163938+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-10 (PDF, 78 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-11.pdf
@@ -96786,7 +97108,7 @@
   filename: scletter08-11.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.540704+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -96812,7 +97134,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 5
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -96843,6 +97165,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:07:50.373261+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-11 (PDF, 122 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-12.pdf
@@ -96850,7 +97178,7 @@
   filename: scletter08-12.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.541691+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -96876,7 +97204,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 27
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -96907,6 +97235,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:08:08.645591+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-12 (PDF, 65 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-13.pdf
@@ -96914,7 +97248,7 @@
   filename: scletter08-13.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.542227+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -96940,7 +97274,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 2
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -96971,6 +97305,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:08:27.323031+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-13 (PDF, 62 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-14.pdf
@@ -96978,7 +97318,7 @@
   filename: scletter08-14.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.542942+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97004,7 +97344,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 12
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97035,6 +97375,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:08:46.171260+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-14 (PDF, 194 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-15.pdf
@@ -97042,7 +97388,7 @@
   filename: scletter08-15.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.543821+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97068,7 +97414,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 43
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97099,6 +97445,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:09:04.848991+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-15 (PDF, 470 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-16.pdf
@@ -97106,7 +97458,7 @@
   filename: scletter08-16.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.544498+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97132,7 +97484,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 7
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97163,6 +97515,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:09:23.431156+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-16 (PDF, 150 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-17.pdf
@@ -97170,7 +97528,7 @@
   filename: scletter08-17.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.545067+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97196,7 +97554,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 5
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97227,6 +97585,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:09:42.245409+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-17 (PDF, 72 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-18.pdf
@@ -97234,7 +97598,7 @@
   filename: scletter08-18.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.551979+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97260,7 +97624,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 356
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97291,6 +97655,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:10:00.671544+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-18 (PDF, 22 MB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-19.pdf
@@ -97298,7 +97668,7 @@
   filename: scletter08-19.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.552492+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97324,7 +97694,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 2
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97355,6 +97725,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:10:18.851773+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-19 (PDF, 79 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-20.pdf
@@ -97362,7 +97738,7 @@
   filename: scletter08-20.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.553029+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97388,7 +97764,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 3
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97419,6 +97795,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:10:37.636237+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-20 (PDF, 1.4 MB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-21.pdf
@@ -97426,7 +97808,7 @@
   filename: scletter08-21.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.553656+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97452,7 +97834,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 5
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97483,6 +97865,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:10:56.078188+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-21 (PDF, 240 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-22.pdf
@@ -97490,7 +97878,7 @@
   filename: scletter08-22.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.554187+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97516,7 +97904,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 2
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97547,6 +97935,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:11:14.558872+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-22 (PDF, 203 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-23.pdf
@@ -97554,7 +97948,7 @@
   filename: scletter08-23.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.554846+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97580,7 +97974,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 9
   errors:
-  - 'title, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97611,6 +98005,12 @@
       errors:
       - 'title, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:11:33.068435+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-23 (PDF, 194 KB)
 - url: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf
@@ -97618,7 +98018,7 @@
   filename: scletter08-25.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.556299+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97644,7 +98044,7 @@
     Producer: Acrobat Distiller 8.1.0 (Windows)
     Pages: 110
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97675,6 +98075,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:11:51.882391+00:00'
   notes: Just exploring.
   link_text: Survey and Cert Letter 08-25 (628 KB)
 - url: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/september_7_co_op_teleconference_transcript_final.pdf
@@ -97682,7 +98088,7 @@
   filename: september_7_co_op_teleconference_transcript_final.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.556849+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97708,7 +98114,7 @@
     Producer: Adobe PDF Library 9.0
     Pages: 26
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97739,6 +98145,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:12:09.991154+00:00'
   notes: Just exploring.
   link_text: Transcript of Second Open Information Teleconference for Applicants of
     the CO-OP Program FOA (PDF)
@@ -97810,7 +98222,7 @@
   filename: special-enrollment-periods-available-consumers.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.559760+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -97835,7 +98247,8 @@
     Creator: Adobe InDesign 20.3 (Macintosh)
     Producer: Adobe PDF Library 17.0
     Pages: 4
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97865,6 +98278,12 @@
         Pages: 4
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:12:28.850344+00:00'
   notes: Just exploring.
   link_text: Understanding Special Enrollment Periods (PDF)
 - url: https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf
@@ -97872,7 +98291,7 @@
   filename: state-based-marketplace-modernization-grant-awardee-list-2021.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.560458+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -97898,7 +98317,7 @@
     Producer: Adobe PDF Library 21.1.177
     Pages: 8
   errors:
-  - 'title, lang, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97929,6 +98348,12 @@
       errors:
       - 'title, lang, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:12:47.423415+00:00'
   notes: Just exploring.
   link_text: State-based Marketplace Modernization Grant Awardee List (PDF)
 - url: https://www.cms.gov/files/document/state-flexibility-cycle-ii-grant-fact-sheet.pdf
@@ -97936,7 +98361,7 @@
   filename: state-flexibility-cycle-ii-grant-fact-sheet.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.561066+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -97961,7 +98386,8 @@
     Creator: Acrobat PDFMaker 21 for Word
     Producer: Adobe PDF Library 21.1.177
     Pages: 3
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -97991,6 +98417,12 @@
         Pages: 3
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:13:06.011320+00:00'
   notes: Just exploring.
   link_text: 'Fact Sheet: The State Flexibility to Stabilize the Market Cycle II Grant
     Program (PDF)'
@@ -97999,7 +98431,7 @@
   filename: state-flexibility-market-grant-cycle-ii-slides.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.561877+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -98024,7 +98456,8 @@
     Creator: Acrobat PDFMaker 17 for PowerPoint
     Producer: Adobe PDF Library 15.0
     Pages: 21
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -98054,6 +98487,12 @@
         Pages: 21
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:13:25.234099+00:00'
   notes: Just exploring.
   link_text: 'State Flexibility to Stabilize the Market Grant Program Cycle II: Pre-Application
     Summary Slides (PDF)'
@@ -98062,7 +98501,7 @@
   filename: state-flexibility-market-grant-slides.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.562601+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -98087,7 +98526,8 @@
     Creator: Acrobat PDFMaker 15 for PowerPoint
     Producer: Adobe PDF Library 15.0
     Pages: 22
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -98117,6 +98557,12 @@
         Pages: 22
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:13:43.553392+00:00'
   notes: Just exploring.
   link_text: 'State Flexibility to Stabilize the Market Grant Program: Pre-Application
     Summary Slides (PDF)'
@@ -98125,7 +98571,7 @@
   filename: the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf
   site: cms.gov
   crawled_at: '2026-03-11T00:05:08.563761+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -98150,7 +98596,8 @@
     Creator: Acrobat PDFMaker 15 for Word
     Producer: Adobe PDF Library 15.0
     Pages: 81
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -98180,6 +98627,12 @@
         Pages: 81
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:14:02.434142+00:00'
   notes: Just exploring.
   link_text: Grants to States for Planning and Implementing the Insurance Market Reforms
     under Part A of Title XXVII of the Public Health Service Act - Cycle I (search
@@ -238643,7 +239096,7 @@
   filename: 5010_provider_natl_conf_call_06092009.pdf
   site: cms.gov
   crawled_at: '2026-03-17T19:35:26.023280+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: false
     TotallyInaccessible: false
@@ -238671,7 +239124,7 @@
     Words: 2503
     Images: 93
   errors:
-  - 'title, no bookmarks and more than 20 pages, '
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -238704,6 +239157,12 @@
       errors:
       - 'title, no bookmarks and more than 20 pages, '
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:14:20.853563+00:00'
   notes: Just exploring.
   link_text: View the presentation for this call
 - url: https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/7716-ab-registrationtermination-list-data-dictionary-web_1.pdf
@@ -239880,7 +240339,7 @@
   filename: grants-to-states-added-flexibility-2018.pdf
   site: cms.gov
   crawled_at: '2026-03-17T19:35:26.171684+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -239907,7 +240366,8 @@
     Pages: 70
     Words: 22220
     Images: 0
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -239939,6 +240399,12 @@
         Images: 0
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:14:39.221553+00:00'
   notes: Just exploring.
   link_text: Grants to Support States in Providing Added Flexibility to Strengthen
     the Private Health Insurance Market through Implementation of Market Reforms under
@@ -240015,7 +240481,7 @@
   filename: innovators-guide-master-7-23-15.pdf
   site: cms.gov
   crawled_at: '2026-03-17T19:35:26.200405+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -240042,7 +240508,8 @@
     Pages: 63
     Words: 26524
     Images: 18
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -240074,6 +240541,12 @@
         Images: 18
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:14:58.047895+00:00'
   notes: Just exploring.
   link_text: Innovators Guide 2015 (PDF)
 - url: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/january_2008_list_of_drugs_supplied_under_the_cap.pdf
@@ -240749,7 +241222,7 @@
   filename: qso-22-05-hospitals.pdf
   site: cms.gov
   crawled_at: '2026-03-17T19:35:26.252920+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -240776,7 +241249,8 @@
     Pages: 4
     Words: 1656
     Images: 1
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -240808,6 +241282,12 @@
         Images: 1
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:15:16.339642+00:00'
   notes: Just exploring.
   link_text: QSO-22-05-Hospitals
 - url: https://www.cms.gov/files/document/qssam-25-02-hospitals.pdf
@@ -240950,7 +241430,7 @@
   filename: report-to-congress-september-2015.pdf
   site: cms.gov
   crawled_at: '2026-03-17T19:35:26.267936+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -240977,7 +241457,8 @@
     Pages: 63
     Words: 19371
     Images: 42
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -241009,6 +241490,12 @@
         Images: 42
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:15:35.458899+00:00'
   notes: Just exploring.
   link_text: 'Report to Congress, 2015 (PDF) : Evaluations of Hospitals’ Ambulance
     Data on Medicare Cost Reports and Feasibility of Obtaining Cost Data from All
@@ -241288,7 +241775,7 @@
   filename: state-flexibility-grant-fact-sheet.pdf
   site: cms.gov
   crawled_at: '2026-03-17T19:35:26.293579+00:00'
-  status: analysed
+  status: error
   report:
     Accessible: true
     TotallyInaccessible: false
@@ -241315,7 +241802,8 @@
     Pages: 3
     Words: 882
     Images: 0
-  errors: []
+  errors:
+  - No module named 'simpla11ypdf'
   analyses:
     original:
       status: analysed
@@ -241347,6 +241835,12 @@
         Images: 0
       errors: []
       analysed_at: null
+    bloom:
+      status: error
+      report: null
+      errors:
+      - No module named 'simpla11ypdf'
+      analysed_at: '2026-07-08T02:15:54.247104+00:00'
   notes: Just exploring.
   link_text: 'Fact Sheet: The State Flexibility to Stabilize the Market Cycle I Grant
     Program (PDF)'
@@ -353445,460 +353939,1072 @@
   filename: iah-fg-yr5eval.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.670634+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.670634+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.670634+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:16:12.979023+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/iah-rtc.pdf
   md5: 4ae805c9625af8dbadb927963dd1e10e
   filename: iah-rtc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.676962+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.676962+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.676962+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:16:31.883983+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/iah-yr4evalrpt.pdf
   md5: dc76e266621ed7a8f1007b5264cabeb8
   filename: iah-yr4evalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.687530+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.687530+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.687530+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:16:50.602401+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/iah-yr5evalrpt.pdf
   md5: a195cb0a7c22008aac9aa6310a4be325
   filename: iah-yr5evalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.693866+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.693866+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.693866+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:17:09.434314+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/x/iah-yroneresults.pdf
   md5: 203fde2f81b67cf7e8db317340641d7b
   filename: iah-yroneresults.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.697648+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.697648+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.697648+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:17:27.841837+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/innovation-center-year-one-summary-document.pdf
   md5: 4e752df537559a1cf510c64382c3df31
   filename: innovation-center-year-one-summary-document.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.701957+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.701957+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.701957+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:17:47.013922+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/interimevalrpt-mpa-hbo.pdf
   md5: 709c15db75fc4b3ca31f11113e89baf1
   filename: interimevalrpt-mpa-hbo.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.707579+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.707579+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.707579+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:18:05.353761+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/irahnfr-finalyrfourevalrpt.pdf
   md5: c2974342f353f95f2ef5379d317f83af
   filename: irahnfr-finalyrfourevalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.718425+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.718425+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.718425+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:18:23.894940+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/irahnfr-finalyrthreeevalrpt.pdf
   md5: 4e1ef94e86fd9e949b95d03abf4f5ec2
   filename: irahnfr-finalyrthreeevalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.726497+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.726497+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.726497+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:18:42.523202+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/irahnfr-secondevalrpt.pdf
   md5: 3695960662849c1f0e43847c6c323301
   filename: irahnfr-secondevalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.731154+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.731154+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.731154+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:19:01.136790+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/ivig-intrtc.pdf
   md5: 492b8c482982d9cf985013e1ba57289a
   filename: ivig-intrtc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.735125+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.735125+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.735125+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:19:20.099917+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/maqbp-firstevalrpt.pdf
   md5: 4a0e06ea3aaf0bc85372d054da3e4bf4
   filename: maqbp-firstevalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.740266+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.740266+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.740266+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:19:38.671100+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/maqbpdemonstration-finalevalrpt.pdf
   md5: 06952538ef942295224074ff4ad1f83b
   filename: maqbpdemonstration-finalevalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.749202+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.749202+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.749202+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:19:57.323330+00:00'
 - url: https://www.cms.gov/files/document/maternal-opioid-misuse-mom-model.pdf
   md5: 192ee052d0a323fd59b9064b416e7625
   filename: maternal-opioid-misuse-mom-model.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.754096+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.754096+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.754096+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:20:16.562673+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mccd-hqp-finaleval.pdf
   md5: 9d24c5fe7cd866bac629bba955dd375e
   filename: mccd-hqp-finaleval.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.758630+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.758630+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.758630+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:20:34.941954+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mccm-fg-firstannrpt.pdf
   md5: 0d20c42455456edae9e5a48068df6324
   filename: mccm-fg-firstannrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.765040+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.765040+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.765040+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:20:53.887898+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mccm-fg-secannrpt.pdf
   md5: 71e9c52945c164bbba71477b96942175
   filename: mccm-fg-secannrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.768759+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.768759+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.768759+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:21:12.193525+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mccm-firstannrpt.pdf
   md5: 35ee0054b61b685e6f31c4e2639f709d
   filename: mccm-firstannrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.779782+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.779782+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.779782+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:21:30.882226+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/mccm-secannrpt.pdf
   md5: f12da4c3c8abb5bc82f84a624b8fe573
   filename: mccm-secannrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.795798+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.795798+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.795798+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:21:49.543161+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mcmpd-eval-rtc.pdf
   md5: 68781b0347674a8db3b4fc78d4a526e0
   filename: mcmpd-eval-rtc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.799868+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.799868+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.799868+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:22:08.173388+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/md-all-payer-secondannrpt.pdf
   md5: 5385fe4ca31aca78c6dce2df2247f5b6
   filename: md-all-payer-secondannrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.809351+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.809351+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.809351+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:22:27.340914+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/md-allpayer-finalevalrpt-fg.pdf
   md5: 312d9041f2d0306a5ae89d081e2c7fd9
   filename: md-allpayer-finalevalrpt-fg.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.814049+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.814049+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.814049+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:22:45.692075+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/md-allpayer-finalevalrpt.pdf
   md5: 0bf56646b8f1b9cf1969d3d08490dcf1
   filename: md-allpayer-finalevalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.826194+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.826194+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.826194+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:23:04.560254+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/medicarecoordinatedcaredemortc.pdf
   md5: 36913534422944cc7e5e2aa4f6bdcb05
   filename: medicarecoordinatedcaredemortc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.830010+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.830010+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.830010+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:23:22.975399+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/medicaregainsharingrtc.pdf
   md5: 1551402e7ce8499e3907eaa815c6ee35
   filename: medicaregainsharingrtc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.833141+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.833141+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.833141+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:23:41.590389+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/medicareimagingdemortc.pdf
   md5: b4bedab626499f38beefbefad1e5f193
   filename: medicareimagingdemortc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.836333+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.836333+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.836333+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:24:00.140613+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mepd-curesact-rtc.pdf
   md5: b84abb1802c734a50ce4298e45f9f85b
   filename: mepd-curesact-rtc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.842491+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.842491+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.842491+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:24:18.761244+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mepd-finalrpt.pdf
   md5: b0485aba6a40349772e5583e5dcbf423
   filename: mepd-finalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.850036+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.850036+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.850036+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:24:37.477475+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mepd_rtc.pdf
   md5: 9bfb39c34267793f8eb4a2938e1b718e
   filename: mepd_rtc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.854761+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.854761+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.854761+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:24:56.407624+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mfescd-rtc.pdf
   md5: 45626ddd81c31bee33e9acd32aa70a28
   filename: mfescd-rtc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.857375+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.857375+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.857375+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:25:14.812468+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ihie-py3-eval.pdf
   md5: 59d74c8bb4e9aa94a8be29a6b2baf4da
   filename: mhcq-ihie-py3-eval.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.859790+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.859790+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.859790+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:25:33.557586+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ihie-py3-financial.pdf
   md5: 302c1529a56ca3f7f6b5935113bb4434
   filename: mhcq-ihie-py3-financial.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.862517+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.862517+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.862517+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:25:51.922720+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-meridian-final.pdf
   md5: b6ec0188f9e6d174c87ee0ced5dabc45
   filename: mhcq-meridian-final.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.866179+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.866179+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.866179+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:26:10.535088+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-meridian-patientfamily-fginterviewsrpt.pdf
   md5: 0692a59baac983e7b4b32dc93ffdbb00
   filename: mhcq-meridian-patientfamily-fginterviewsrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.869263+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.869263+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.869263+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:26:28.942854+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ncccn-py3-eval.pdf
   md5: ccaba8419fa947c9ad3c7eb5a34821d6
   filename: mhcq-ncccn-py3-eval.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.872264+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.872264+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.872264+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:26:47.575514+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ncccn-py3-financial.pdf
   md5: 306738e2318fde0520da165616054c5f
   filename: mhcq-ncccn-py3-financial.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.875716+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.875716+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.875716+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:27:06.732107+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/cmmi/mhcvdrrm-firstann-evalrpt.pdf
   md5: 99db65da0a2737046afe9862760d5fa1
   filename: mhcvdrrm-firstann-evalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.888241+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.888241+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.888241+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:27:24.972027+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mhcvdrrm-firstannevalrpt-fg.pdf
   md5: 35dde4c40af516451af43b91ca1aae89
   filename: mhcvdrrm-firstannevalrpt-fg.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.892378+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.892378+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.892378+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:27:43.794913+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mhcvdrrm-secannevalrpt-fg.pdf
   md5: 0b706cb54ae4818bb0e64c14891000ad
   filename: mhcvdrrm-secannevalrpt-fg.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.896424+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.896424+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.896424+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:28:01.983003+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mid-ir.pdf
   md5: 765eb217f18bc581f0414fc44c4ae3a8
   filename: mid-ir.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.905188+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.905188+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.905188+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:28:20.605602+00:00'
 - url: https://www.cms.gov/priorities/innovation/media/millionheartscdrrm-secondannualevaluationreport_1_13_20.pdf
   md5: e24b3dbd675ec72c628a4280faa7a854
   filename: millionheartscdrrm-secondannualevaluationreport_1_13_20.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.919024+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.919024+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.919024+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:28:39.056849+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mipcd-secondrtc.pdf
   md5: 41238d10f219a900a8105bdb72e524c0
   filename: mipcd-secondrtc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.922836+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.922836+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.922836+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:28:57.867827+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mipcd_rtc.pdf
   md5: 75fb692e38a1ac078e68cae03192964b
   filename: mipcd_rtc.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.925934+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.925934+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.925934+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:29:16.387055+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mpa-hbo-fnlevalrpt-fg.pdf
   md5: 2160fa754633ce7b7c281eb55c3e39a5
   filename: mpa-hbo-fnlevalrpt-fg.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.930000+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.930000+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.930000+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:29:35.521897+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mpa-hbo-fnlevalrpt.pdf
   md5: bd0e618711cf51b30014df1c89b849b0
   filename: mpa-hbo-fnlevalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.936206+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.936206+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.936206+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:29:53.919195+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mtm-firstevalrpt-fg.pdf
   md5: 5ceed0f9034c58f09ab50801cc72aacd
   filename: mtm-firstevalrpt-fg.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.940153+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.940153+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.940153+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:30:13.255451+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/mtm-firstevalrpt.pdf
   md5: 2fad3259b57976527a6f1dfb17e484de
   filename: mtm-firstevalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.954578+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.954578+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.954578+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:30:31.938859+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/mtm_final_report.pdf
   md5: f2e4e237430f07081ff437353f79f52f
   filename: mtm_final_report.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.963620+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.963620+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.963620+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:30:51.724374+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/nextgenaco-fg-secondevalrpt.pdf
   md5: 4569bad59fd93e23e7bf3319de77141f
   filename: nextgenaco-fg-secondevalrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.967938+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.967938+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.967938+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:31:10.239897+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/nextgenaco-firstannrpt.pdf
   md5: b99fa0b46a46a5dc8d7c857398eddb84
   filename: nextgenaco-firstannrpt.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.975105+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.975105+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.975105+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:31:29.693092+00:00'
 - url: https://www.cms.gov/priorities/innovation/nextgenaco-secondevalrpt-app.pdf
   md5: 2089f8cabde52bcabde36a666888e19a
   filename: nextgenaco-secondevalrpt-app.pdf
   site: cms.gov
   crawled_at: '2026-05-16T20:16:48.979284+00:00'
-  status: pending
+  status: error
   report: null
-  errors: []
+  errors:
+  - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.979284+00:00).
+    The file was probably downloaded in a previous run whose crawled_files directory
+    is no longer available.'
   notes: Just exploring.
+  analyses:
+    bloom:
+      status: error
+      report: null
+      errors:
+      - 'Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.979284+00:00).
+        The file was probably downloaded in a previous run whose crawled_files directory
+        is no longer available.'
+      analysed_at: '2026-07-08T02:31:48.379962+00:00'
 - url: https://www.cms.gov/priorities/innovation/files/reports/nextgenaco-secondevalrpt.pdf
   md5: cacfb6c2c525ad012f01f8d61cec47fd
   filename: nextgenaco-secondevalrpt.pdf

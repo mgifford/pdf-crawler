@@ -1,19 +1,19 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-08T01:47:15.175511+00:00
+Generated: 2026-07-08T02:32:39.258695+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 1 |
-| Total files tracked | 22609 |
-| Analysed | 6075 |
-| Pending analysis | 10651 |
-| Errors during analysis | 5883 |
-| Accessible | 2002 |
+| URLs crawled | 938 |
+| Total files tracked | 23809 |
+| Analysed | 6072 |
+| Pending analysis | 11717 |
+| Errors during analysis | 6020 |
+| Accessible | 2000 |
 | Totally inaccessible | 257 |
-| Broken / unreadable | 27 |
+| Broken / unreadable | 26 |
 | Exempt (pre-2018) | 1505 |
 
 ## Files per Site
@@ -30,9 +30,9 @@ Generated: 2026-07-08T01:47:15.175511+00:00
 | businessexpress.maryland.gov | 1 |
 | calgary.ca | 165 |
 | canada.ca | 500 |
-| careerforce.mn.gov | 9 |
+| careerforce.mn.gov | 43 |
 | circuit19.org | 39 |
-| cms.gov | 658 |
+| cms.gov | 1711 |
 | coloradoboces.org | 48 |
 | coloradomesa.edu | 88 |
 | ctoec.org | 1742 |
@@ -57,7 +57,7 @@ Generated: 2026-07-08T01:47:15.175511+00:00
 | kjk.umn.edu | 1 |
 | lasv.brandenburg.de | 260 |
 | marburg.de | 71 |
-| medicare.gov | 200 |
+| medicare.gov | 313 |
 | middletowncityschools.com | 170 |
 | minneapolis.edu | 6 |
 | mn.gov | 1462 |
@@ -1522,7 +1522,6 @@ Generated: 2026-07-08T01:47:15.175511+00:00
 | [cms-request-for-review-cobra-premium-assist-denial.pdf](https://www.cms.gov/cciio/resources/files/downloads/cms-request-for-review-cobra-premium-assist-denial.pdf) | cms.gov | 2012-10-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — |
 | [cms_rtc_hrp_final073109.pdf](https://www.cms.gov/cciio/resources/files/downloads/cms_rtc_hrp_final073109.pdf) | cms.gov | 2011-10-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — |
 | [consumer_assistance_program_grant_foa.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/consumer_assistance_program_grant_foa.pdf) | cms.gov | 2011-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 24 | — | — |
-| [contact_list.pdf](https://www.cms.gov/medicare/provider-enrollment-and-certification/medicareprovidersupenroll/downloads/contact_list.pdf) | cms.gov | 2024-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 37 | — | — |
 | [coop-foa-transcript-20120301.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120301.pdf) | cms.gov | 2012-07-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 13 | — | — |
 | [coop-foa-transcript-20120516.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf) | cms.gov | 2012-07-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 28 | — | — |
 | [cycle_i_rate_review_grant-rerelease_territories.pdf](https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_i_rate_review_grant-rerelease_territories.pdf) | cms.gov | 2011-08-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — |
@@ -1795,7 +1794,6 @@ Generated: 2026-07-08T01:47:15.175511+00:00
 | [ra-march-31-white-paper-032416.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/ra-march-31-white-paper-032416.pdf) | cms.gov | 2016-03-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 130 | — | — |
 | [rate-review-annual-report_508.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/rate-review-annual-report_508.pdf) | cms.gov | 2015-12-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 8 | — | — |
 | [rate_review_report_092011.pdf](https://www.cms.gov/cciio/resources/files/downloads/rate_review_report_092011.pdf) | cms.gov | 2011-09-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 37 | — | — |
-| [report-life-changes-postcard-spanish.pdf](https://www.cms.gov/marketplace/outreach-and-education/report-life-changes-postcard-spanish.pdf) | cms.gov | 2025-03-05 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — |
 | [risk-adjustment-technical-specificationsjanuary2023.pdf](https://www.cms.gov/files/document/risk-adjustment-technical-specificationsjanuary2023.pdf) | cms.gov | 2023-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 62 | — | — |
 | [riskadjustment_whitepaper_web.pdf](https://www.cms.gov/cciio/resources/files/downloads/riskadjustment_whitepaper_web.pdf) | cms.gov | 2011-09-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 94 | — | — |
 | [rrj-instructions-manual-20150401-final.pdf](https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/rrj-instructions-manual-20150401-final.pdf) | cms.gov | 2015-04-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — |
@@ -5760,7 +5758,6 @@ Generated: 2026-07-08T01:47:15.175511+00:00
 | [W4_2021.pdf](https://www.middletowncityschools.com/media/user/resources/W4_2021.pdf) | middletowncityschools.com | 2020-12-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | 3722 | 1 |
 | [_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf](https://www.middletowncityschools.com/media/user/resources/_Middletown%20DPIA%20and%20Student%20Wellness%20and%20Success%20Plan%20FY%2024-FY%2026%20.pdf) | middletowncityschools.com | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 447 | 0 |
 | [sBHC%20cheat%20sheet%20(1).pdf](https://www.middletowncityschools.com/media/user/resources/sBHC%20cheat%20sheet%20(1).pdf) | middletowncityschools.com | 2023-08-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 112 | 1 |
-| [RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf](https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [CareerForce%20Job%20Seeker%20Brochure%202025-acc.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Brochure%202025-acc.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
 | [CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025-acc.pdf](https://careerforce.mn.gov/sites/default/files/2025-06/CareerForce%20Job%20Seeker%20Guide%20to%20Programs%20and%20Services%202025-acc.pdf) | careerforce.mn.gov | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | — | — |
@@ -28660,6 +28657,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 11082012-teleconference-transcript.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/11082012-teleconference-transcript.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 11082012-teleconference-transcript.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/11082012-teleconference-transcript.pdf
 - **Status**: analysed
 - title, 
 
@@ -28708,6 +28711,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 2013-navigator-foa-4-9-2013.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/2013-navigator-foa-4-9-2013.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 2013-navigator-foa-4-9-2013.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/2013-navigator-foa-4-9-2013.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
 
@@ -28735,11 +28744,23 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, 
 
+### 2023-open-enrollment-report-infographic.pdf
+
+- **URL**: https://www.cms.gov/marketplace/outreach-and-education/2023-open-enrollment-report-infographic.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### 303d.pdf
 
 - **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/303d.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### 5-things-about-svi.pdf
+
+- **URL**: https://www.cms.gov/marketplace/technical-assistance-resources/5-things-about-svi.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### 508_cms-10379-rate-review-supporting-statement.pdf
 
@@ -28774,8 +28795,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### amended-spring-2012-establishment-foa.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/amended-spring-2012-establishment-foa.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### amended-spring-2012-establishment-foa.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/amended-spring-2012-establishment-foa.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### annrpt03.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt03.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### annrpt03.pdf
 
@@ -28786,8 +28819,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### annrpt06.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt06.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### annrpt06.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/annrpt06.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### asc_hai_map.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/asc_hai_map.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### asc_hai_map.pdf
 
@@ -28798,8 +28843,26 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### august_10_foa_teleconference_transcript0816_final.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/august_10_foa_teleconference_transcript0816_final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### august_10_foa_teleconference_transcript0816_final.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/august_10_foa_teleconference_transcript0816_final.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### authorizationform.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/authorizationform.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### black-and-white.pdf
+
+- **URL**: https://www.cms.gov/files/document/emtala-poster-non-medicaid-participating-spanish/black-and-white.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### clm104c08.pdf
 
@@ -28840,8 +28903,26 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### consumer_assistance_program_grant_foa.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/consumer_assistance_program_grant_foa.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### consumer_assistance_program_grant_foa.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/consumer_assistance_program_grant_foa.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### contact_list.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/medicareprovidersupenroll/downloads/contact_list.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### coop-foa-transcript-20120301.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120301.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### coop-foa-transcript-20120301.pdf
 
@@ -28852,14 +28933,32 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### coop-foa-transcript-20120516.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### coop-foa-transcript-20120516.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/coop-foa-transcript-20120516.pdf
 - **Status**: analysed
 - title, 
 
 ### cycle_i_rate_review_grant-rerelease_territories.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_i_rate_review_grant-rerelease_territories.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### cycle_i_rate_review_grant-rerelease_territories.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_i_rate_review_grant-rerelease_territories.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### cycle_ii_rate_review_grants_funding_opportunity_announcement.pdf
 
@@ -28882,14 +28981,38 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### early_innovator_grants.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/early_innovator_grants.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### early_innovator_grants.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/early_innovator_grants.pdf
 - **Status**: analysed
 - title, 
 
 ### eaw-grant-fact-sheet.pdf
 
 - **URL**: https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### eaw-grant-fact-sheet.pdf
+
+- **URL**: https://www.cms.gov/files/document/eaw-grant-fact-sheet.pdf
 - **Status**: analysed
 - title, 
+
+### eaw-grant-pre-application-call-slides.pdf
+
+- **URL**: https://www.cms.gov/files/document/eaw-grant-pre-application-call-slides.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### eaw-grant-program-proposed-state-activities-final.pdf
+
+- **URL**: https://www.cms.gov/files/document/eaw-grant-program-proposed-state-activities-final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### eaw-grant-program-proposed-state-activities-final.pdf
 
@@ -28903,6 +29026,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, 
 
+### ehb-grant-external-faq508.pdf
+
+- **URL**: https://www.cms.gov/files/document/ehb-grant-external-faq508.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### err-determination-and-status-questions-5-20-14.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/err-determination-and-status-questions-5-20-14.pdf
@@ -28912,14 +29041,38 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### exchange_planning_grant_foa.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/exchange_planning_grant_foa.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### exchange_planning_grant_foa.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/exchange_planning_grant_foa.pdf
 - **Status**: analysed
 - title, 
+
+### expanding-access-womens-health-grant-program-nofo.pdf
+
+- **URL**: https://www.cms.gov/files/document/expanding-access-womens-health-grant-program-nofo.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### final-navigator-2014-foa-06-10-2014.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final-navigator-2014-foa-06-10-2014.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### final-navigator-2014-foa-06-10-2014.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final-navigator-2014-foa-06-10-2014.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### final_premium_review_grant_solicitation_with_disclosure_statement.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/final_premium_review_grant_solicitation_with_disclosure_statement.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### final_premium_review_grant_solicitation_with_disclosure_statement.pdf
 
@@ -28978,8 +29131,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### foa_exchange_establishment.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_exchange_establishment.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### foa_exchange_establishment.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_exchange_establishment.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### foa_territories_establishment.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/foa_territories_establishment.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### foa_territories_establishment.pdf
 
@@ -28990,14 +29155,38 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### foia-faq-2022.pdf
 
 - **URL**: https://www.cms.gov/files/document/foia-faq-2022.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### foia-faq-2022.pdf
+
+- **URL**: https://www.cms.gov/files/document/foia-faq-2022.pdf
 - **Status**: analysed
 - title, tagged, lang, 
 
 ### foiaappeal.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### foiaappeal.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiaappeal.pdf
 - **Status**: analysed
 - title, 
+
+### foiafaq.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiafaq.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### foiahandbook.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiahandbook.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### foiahandbook.pdf
 
@@ -29008,8 +29197,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### foiarequestletter.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### foiarequestletter.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletter.pdf
 - **Status**: analysed
 - title, 
+
+### foiarequestletterdeceasedbene.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterdeceasedbene.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### foiarequestletterdeceasedbene.pdf
 
@@ -29020,8 +29221,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### foiarequestletterlivingbene.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### foiarequestletterlivingbene.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterlivingbene.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### foiarequestletterownrecords.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/foiarequestletterownrecords.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### foiarequestletterownrecords.pdf
 
@@ -29032,8 +29245,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### fy2010aschai.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/legislation/recovery/downloads/fy2010aschai.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### fy2010aschai.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/recovery/downloads/fy2010aschai.pdf
 - **Status**: analysed
 - title, 
+
+### grants-to-states-added-flexibility-2020.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2020.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### hhvbp-odf-homehealthagencies.pdf
 
@@ -29052,6 +29277,18 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.cms.gov/files/document/hipaaoptouts03182021.pdf
 - **Status**: analysed
 - title, 
+
+### hospice-certifying-enrollment-faqs.pdf
+
+- **URL**: https://www.cms.gov/files/document/hospice-certifying-enrollment-faqs.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### hospital-appeals-provider-listing.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/hospital-appeals-provider-listing.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### ignagni.pdf
 
@@ -29074,14 +29311,44 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/limited_competition_foa_2nd_planning_grant_foa_for_clearance.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
 
 ### marketplace-casework-overview.pdf
 
 - **URL**: https://www.cms.gov/marketplace/technical-assistance-resources/marketplace-casework-overview.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### marketplace-casework-overview.pdf
+
+- **URL**: https://www.cms.gov/marketplace/technical-assistance-resources/marketplace-casework-overview.pdf
 - **Status**: analysed
 - title, 
+
+### mm13531-hospice-claims-edits-certifying-physicians.pdf
+
+- **URL**: https://www.cms.gov/files/document/mm13531-hospice-claims-edits-certifying-physicians.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### navigator-2016-foa.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/navigator-2016-foa.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### navigator_2015_foa_final_04_15_2015.pdf
+
+- **URL**: https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-marketplaces/downloads/navigator_2015_foa_final_04_15_2015.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### navigator_2015_foa_final_04_15_2015.pdf
 
@@ -29100,6 +29367,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/patients-bill-of-rights09232011a.pdf
 - **Status**: analysed
 - title, 
+
+### pre-call-application-ecp-grant-final.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/pre-call-application-ecp-grant-final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### r12238fm.pdf
 
@@ -29851,6 +30124,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
 
+### report-life-changes-postcard-spanish.pdf
+
+- **URL**: https://www.cms.gov/marketplace/outreach-and-education/report-life-changes-postcard-spanish.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### riskadjustment_whitepaper_web.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/files/downloads/riskadjustment_whitepaper_web.pdf
@@ -29866,8 +30145,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### scletter08-06.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-06.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-06.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-06.pdf
 - **Status**: analysed
 - title, 
+
+### scletter08-08.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-08.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### scletter08-08.pdf
 
@@ -29878,8 +30169,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### scletter08-09.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-09.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-09.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-09.pdf
 - **Status**: analysed
 - title, 
+
+### scletter08-10.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-10.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### scletter08-10.pdf
 
@@ -29890,8 +30193,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### scletter08-11.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-11.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-11.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-11.pdf
 - **Status**: analysed
 - title, 
+
+### scletter08-12.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-12.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### scletter08-12.pdf
 
@@ -29902,8 +30217,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### scletter08-13.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-13.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-13.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-13.pdf
 - **Status**: analysed
 - title, 
+
+### scletter08-14.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-14.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### scletter08-14.pdf
 
@@ -29914,8 +30241,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### scletter08-15.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-15.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-15.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-15.pdf
 - **Status**: analysed
 - title, 
+
+### scletter08-16.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-16.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### scletter08-16.pdf
 
@@ -29926,8 +30265,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### scletter08-17.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-17.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-17.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-17.pdf
 - **Status**: analysed
 - title, 
+
+### scletter08-18.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-18.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### scletter08-18.pdf
 
@@ -29938,8 +30289,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### scletter08-19.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-19.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-19.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-19.pdf
 - **Status**: analysed
 - title, 
+
+### scletter08-20.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-20.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### scletter08-20.pdf
 
@@ -29950,8 +30313,20 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### scletter08-21.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-21.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-21.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-21.pdf
 - **Status**: analysed
 - title, 
+
+### scletter08-22.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-22.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### scletter08-22.pdf
 
@@ -29962,14 +30337,32 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### scletter08-23.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-23.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-23.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-23.pdf
 - **Status**: analysed
 - title, 
 
 ### scletter08-25.pdf
 
 - **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### scletter08-25.pdf
+
+- **URL**: https://www.cms.gov/medicare/provider-enrollment-and-certification/surveycertificationgeninfo/downloads/scletter08-25.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### september_7_co_op_teleconference_transcript_final.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/september_7_co_op_teleconference_transcript_final.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### september_7_co_op_teleconference_transcript_final.pdf
 
@@ -29983,11 +30376,47 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, tagged, lang, 
 
+### special-enrollment-periods-available-consumers.pdf
+
+- **URL**: https://www.cms.gov/marketplace/agents-brokers/files/special-enrollment-periods-available-consumers.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### state-based-marketplace-modernization-grant-awardee-list-2021.pdf
+
+- **URL**: https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### state-based-marketplace-modernization-grant-awardee-list-2021.pdf
 
 - **URL**: https://www.cms.gov/files/document/state-based-marketplace-modernization-grant-awardee-list-2021.pdf
 - **Status**: analysed
 - title, lang, 
+
+### state-flexibility-cycle-ii-grant-fact-sheet.pdf
+
+- **URL**: https://www.cms.gov/files/document/state-flexibility-cycle-ii-grant-fact-sheet.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### state-flexibility-market-grant-cycle-ii-slides.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-cycle-ii-slides.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### state-flexibility-market-grant-slides.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/state-flexibility-market-grant-slides.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/the-health-insurance-enforcement-and-consumer-protections-grant-foa-6-15.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### unified-rate-review-instructions.pdf
 
@@ -40801,6 +41230,60 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.403279+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### info-session-november-2025-som.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-november-2025-som.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.404247+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-november-2025-spa.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-november-2025-spa.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.405307+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-september-2025-eng.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-september-2025-eng.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.406369+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-september-2025-hmn.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-september-2025-hmn.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.407339+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-september-2025-som.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-september-2025-som.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.408316+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### info-session-september-2025-spa.pdf
+
+- **URL**: https://pathlore.dhs.mn.gov/courseware/DHSCentralOffice/OIG/provider-hub/info-session-september-2025-spa.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.409359+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### lic-certified-child-care-centers-outreach-november-2025.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2026-02/lic-certified-child-care-centers-outreach-november-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.428871+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### lic-fcc-helper-training.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2026-02/lic-fcc-helper-training.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.429760+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### lic-fcc-pre-licensing-training.pdf
+
+- **URL**: https://dcyf.mn.gov/sites/default/files/2025-12/lic-fcc-pre-licensing-training.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T21:50:59.430703+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### Applicant_NJFC_Application_Check_List_en.pdf
 
 - **URL**: https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_en.pdf
@@ -49726,6 +50209,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 5010_provider_natl_conf_call_06092009.pdf
 
 - **URL**: https://www.cms.gov/regulations-and-guidance/administrative-simplification/versions5010andd0/downloads/5010_provider_natl_conf_call_06092009.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### 5010_provider_natl_conf_call_06092009.pdf
+
+- **URL**: https://www.cms.gov/regulations-and-guidance/administrative-simplification/versions5010andd0/downloads/5010_provider_natl_conf_call_06092009.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
 
@@ -49807,6 +50296,18 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, tagged, lang, 
 
+### grants-to-states-added-flexibility-2018.pdf
+
+- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2018.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
+### innovators-guide-master-7-23-15.pdf
+
+- **URL**: https://www.cms.gov/medicare/coverage/councilontechinnov/downloads/innovators-guide-master-7-23-15.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### january_2008_list_of_drugs_supplied_under_the_cap.pdf
 
 - **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/january_2008_list_of_drugs_supplied_under_the_cap.pdf
@@ -49855,6 +50356,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, 
 
+### qso-22-05-hospitals.pdf
+
+- **URL**: https://www.cms.gov/files/document/qso-22-05-hospitals.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
+
 ### r12590ncd.pdf
 
 - **URL**: https://www.cms.gov/files/document/r12590ncd.pdf
@@ -49872,6 +50379,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/dwnlds/r866cppdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### report-to-congress-september-2015.pdf
+
+- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-payment/ambulancefeeschedule/downloads/report-to-congress-september-2015.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### rfi-medicare-dialysis.pdf
 
@@ -49908,6 +50421,12 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/som107ap_z_emergprep.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
+
+### state-flexibility-grant-fact-sheet.pdf
+
+- **URL**: https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-market-reforms/downloads/state-flexibility-grant-fact-sheet.pdf
+- **Status**: error
+- No module named 'simpla11ypdf'
 
 ### trhcapdf.pdf
 
@@ -62701,12 +63220,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, 
 
-### RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
-
-- **URL**: https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
-- **Status**: analysed
-- PdfError: crawled_files/careerforce.mn.gov/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf: unable to find trailer dictionary while recovering damaged file
-
 ### 2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
 
 - **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
@@ -63505,17 +64018,317 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, tables-fail, 
 
+### iah-fg-yr5eval.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/iah-fg-yr5eval.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.670634+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### iah-rtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/iah-rtc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.676962+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### iah-yr4evalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/iah-yr4evalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.687530+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### iah-yr5evalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/iah-yr5evalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.693866+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### iah-yroneresults.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/x/iah-yroneresults.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.697648+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### innovation-center-year-one-summary-document.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/innovation-center-year-one-summary-document.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.701957+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### interimevalrpt-mpa-hbo.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/interimevalrpt-mpa-hbo.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.707579+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### irahnfr-finalyrfourevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/irahnfr-finalyrfourevalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.718425+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### irahnfr-finalyrthreeevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/irahnfr-finalyrthreeevalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.726497+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### irahnfr-secondevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/irahnfr-secondevalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.731154+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### ivig-intrtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/ivig-intrtc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.735125+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### maqbp-firstevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/maqbp-firstevalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.740266+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### maqbpdemonstration-finalevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/maqbpdemonstration-finalevalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.749202+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### maternal-opioid-misuse-mom-model.pdf
+
+- **URL**: https://www.cms.gov/files/document/maternal-opioid-misuse-mom-model.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.754096+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mccd-hqp-finaleval.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mccd-hqp-finaleval.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.758630+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mccm-fg-firstannrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mccm-fg-firstannrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.765040+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mccm-fg-secannrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mccm-fg-secannrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.768759+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mccm-firstannrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mccm-firstannrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.779782+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mccm-secannrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/mccm-secannrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.795798+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mcmpd-eval-rtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mcmpd-eval-rtc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.799868+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### md-all-payer-secondannrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/md-all-payer-secondannrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.809351+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### md-allpayer-finalevalrpt-fg.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/md-allpayer-finalevalrpt-fg.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.814049+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### md-allpayer-finalevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/md-allpayer-finalevalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.826194+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### medicarecoordinatedcaredemortc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/medicarecoordinatedcaredemortc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.830010+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### medicaregainsharingrtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/medicaregainsharingrtc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.833141+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### medicareimagingdemortc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/medicareimagingdemortc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.836333+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mepd-curesact-rtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mepd-curesact-rtc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.842491+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mepd-finalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mepd-finalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.850036+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mepd_rtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mepd_rtc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.854761+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mfescd-rtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mfescd-rtc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.857375+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mhcq-ihie-py3-eval.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ihie-py3-eval.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.859790+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mhcq-ihie-py3-financial.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ihie-py3-financial.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.862517+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mhcq-meridian-final.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mhcq-meridian-final.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.866179+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mhcq-meridian-patientfamily-fginterviewsrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mhcq-meridian-patientfamily-fginterviewsrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.869263+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mhcq-ncccn-py3-eval.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ncccn-py3-eval.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.872264+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mhcq-ncccn-py3-financial.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mhcq-ncccn-py3-financial.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.875716+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mhcvdrrm-firstann-evalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/cmmi/mhcvdrrm-firstann-evalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.888241+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mhcvdrrm-firstannevalrpt-fg.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mhcvdrrm-firstannevalrpt-fg.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.892378+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mhcvdrrm-secannevalrpt-fg.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mhcvdrrm-secannevalrpt-fg.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.896424+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mid-ir.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mid-ir.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.905188+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### millionheartscdrrm-secondannualevaluationreport_1_13_20.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/media/millionheartscdrrm-secondannualevaluationreport_1_13_20.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.919024+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mipcd-secondrtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mipcd-secondrtc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.922836+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mipcd_rtc.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mipcd_rtc.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.925934+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mpa-hbo-fnlevalrpt-fg.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mpa-hbo-fnlevalrpt-fg.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.930000+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mpa-hbo-fnlevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mpa-hbo-fnlevalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.936206+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mtm-firstevalrpt-fg.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mtm-firstevalrpt-fg.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.940153+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mtm-firstevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/mtm-firstevalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.954578+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### mtm_final_report.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/mtm_final_report.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.963620+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nextgenaco-fg-secondevalrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/nextgenaco-fg-secondevalrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.967938+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nextgenaco-firstannrpt.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/files/reports/nextgenaco-firstannrpt.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.975105+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### nextgenaco-secondevalrpt-app.pdf
+
+- **URL**: https://www.cms.gov/priorities/innovation/nextgenaco-secondevalrpt-app.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.979284+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### 02173-getting-a-second-opinion-before-surgery.pdf
 
 - **URL**: https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf
 - **Status**: analysed
 - annotations-tagging-fail, 
-
-### 10050-le-medicare-and-you.pdf
-
-- **URL**: https://www.medicare.gov/publications/10050-le-medicare-and-you.pdf
-- **Status**: error
-- Analysis exceeded 120s per-file limit
 
 ### 10108_c.pdf
 
