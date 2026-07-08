@@ -321542,40 +321542,22 @@
   errors:
   - 'title, '
 - url: https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
-  md5: e7ff5460da7630d89c71f7508a10f904
+  md5: 95334bd3890b1e908fe860155a750009
   filename: RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
   site: careerforce.mn.gov
-  crawled_at: '2026-04-01T13:42:45.124326+00:00'
-  status: analysed
-  report:
-    Accessible: null
-    TotallyInaccessible: false
-    BrokenFile: true
-    TaggedTest: null
-    EmptyTextTest: null
-    ProtectedTest: null
-    TitleTest: null
-    LanguageTest: null
-    BookmarksTest: null
-    Exempt: false
-    Date: null
-    hasTitle: null
-    hasDisplayDocTitle: null
-    hasLang: null
-    InvalidLang: null
-    Form: null
-    xfa: null
-    hasBookmarks: null
-    hasXmp: null
-    PDFVersion: null
-    Creator: null
-    Producer: null
-    Pages: null
-    Words: null
-    Images: null
-  errors:
-  - 'PdfError: crawled_files/careerforce.mn.gov/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf:
-    unable to find trailer dictionary while recovering damaged file'
+  crawled_at: '2026-07-08T01:43:50.121794+00:00'
+  status: pending
+  report: null
+  errors: []
+  file_hash: 4964dfdde05142fc48f2c9ae2e6c185067c33be1267a4a2406f8cb178afdb054
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: download a printable map of Minnesota's Local Workforce Development Areas
+    and Board Information
 - url: https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
   md5: 9cc2838832370705184fa29c688ea7a5
   filename: 2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
@@ -352290,6 +352272,214 @@
     Images: 4
   errors: []
   notes: Just testing this.
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: true
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Pass
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        ImageAltTextTest: Pass
+        TaggedContentTest: Pass
+        UntaggedContentCount: 0
+        UntaggedContentSummary: ''
+        UntaggedWhitespaceContentCount: 0
+        UntaggedWhitespaceContentSummary: ''
+        FormsTest: NotApplicable
+        FormFieldCount: 0
+        FormFieldSummary: null
+        FieldsWithoutDescription: ''
+        TaggedFormFieldsTest: NotApplicable
+        TaggedFormFieldIssues: ''
+        AnnotationsFound: true
+        AnnotationCount: 55
+        AnnotationSubtypeCounts: Link=55
+        LinkAnnotationCount: 55
+        WidgetAnnotationCount: 0
+        TaggedAnnotationsTest: Pass
+        TaggedAnnotationIssues: ''
+        AnnotationSummary: '(678, 0): page=1 subtype=Link flags=None rect=[46.08,
+          373.709, 158.607, 352.236] action=''/URI'' dest=''https://www.medicare.gov''
+          widget=False field=None struct_parent=8 | (668, 0): page=2 subtype=Link
+          flags=None rect=[72.0, 664.713, 286.229, 647.631] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.10813:388152'' widget=False field=None struct_parent=10 |
+          (661, 0): page=2 subtype=Link flags=None rect=[72.0, 644.213, 224.831, 627.131]
+          action=''/GoTo'' dest=''02154 2-19-26 .indd:.10826:388153'' widget=False
+          field=None struct_parent=11 | (654, 0): page=2 subtype=Link flags=None rect=[72.0,
+          623.713, 467.394, 606.631] action=''/GoTo'' dest=''02154 2-19-26 .indd:.10839:388154''
+          widget=False field=None struct_parent=12 | (647, 0): page=2 subtype=Link
+          flags=None rect=[72.0, 603.213, 339.437, 586.131] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.10852:388155'' widget=False field=None struct_parent=13 |
+          (640, 0): page=2 subtype=Link flags=None rect=[72.0, 582.713, 376.304, 565.631]
+          action=''/GoTo'' dest=''02154 2-19-26 .indd:.10865:388156'' widget=False
+          field=None struct_parent=14 | (633, 0): page=2 subtype=Link flags=None rect=[72.0,
+          562.213, 303.986, 545.131] action=''/GoTo'' dest=''02154 2-19-26 .indd:.10878:388157''
+          widget=False field=None struct_parent=15 | (626, 0): page=2 subtype=Link
+          flags=None rect=[80.1899, 541.713, 275.349, 524.631] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.11448:388184'' widget=False field=None struct_parent=16 |
+          (619, 0): page=2 subtype=Link flags=None rect=[72.0, 521.213, 207.866, 504.131]
+          action=''/GoTo'' dest=''02154 2-19-26 .indd:.10904:388159'' widget=False
+          field=None struct_parent=17 | (612, 0): page=2 subtype=Link flags=None rect=[72.0,
+          500.713, 385.821, 483.631] action=''/GoTo'' dest=''02154 2-19-26 .indd:.10917:388160''
+          widget=False field=None struct_parent=18 | (603, 0): page=2 subtype=Link
+          flags=None rect=[72.0, 480.213, 540.0, 463.131] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.10930:388161'' widget=False field=None struct_parent=19 |
+          (605, 0): page=2 subtype=Link flags=None rect=[112.5, 463.914, 269.849,
+          447.82] action=''/GoTo'' dest=''02154 2-19-26 .indd:.10930:388161'' widget=False
+          field=None struct_parent=20 | (595, 0): page=2 subtype=Link flags=None rect=[72.0,
+          443.713, 329.545, 426.631] action=''/GoTo'' dest=''02154 2-19-26 .indd:.10943:388162''
+          widget=False field=None struct_parent=21 | (588, 0): page=2 subtype=Link
+          flags=None rect=[72.0, 423.213, 331.091, 406.131] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.10956:388163'' widget=False field=None struct_parent=22 |
+          (581, 0): page=2 subtype=Link flags=None rect=[72.0, 402.713, 272.411, 385.631]
+          action=''/GoTo'' dest=''02154 2-19-26 .indd:.10969:388164'' widget=False
+          field=None struct_parent=23 | (575, 0): page=2 subtype=Link flags=None rect=[272.411,
+          402.713, 280.21, 385.631] action=''/GoTo'' dest=''02154 2-19-26 .indd:.11021:388168''
+          widget=False field=None struct_parent=24 | (570, 0): page=2 subtype=Link
+          flags=None rect=[72.0, 382.213, 182.01, 365.131] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.11410:388176'' widget=False field=None struct_parent=25 |
+          (563, 0): page=2 subtype=Link flags=None rect=[86.9759, 361.713, 306.899,
+          344.631] action=''/GoTo'' dest=''02154 2-19-26 .indd:.11412:388177'' widget=False
+          field=None struct_parent=26 | (556, 0): page=2 subtype=Link flags=None rect=[72.0,
+          341.213, 261.153, 324.131] action=''/GoTo'' dest=''02154 2-19-26 .indd:.11414:388178''
+          widget=False field=None struct_parent=27 | (549, 0): page=2 subtype=Link
+          flags=None rect=[72.0, 320.713, 402.551, 303.631] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.11416:388179'' widget=False field=None struct_parent=28 |
+          (542, 0): page=2 subtype=Link flags=None rect=[72.0, 300.213, 265.963, 283.131]
+          action=''/GoTo'' dest=''02154 2-19-26 .indd:.11432:388180'' widget=False
+          field=None struct_parent=29 | (535, 0): page=2 subtype=Link flags=None rect=[72.0,
+          279.713, 257.512, 262.631] action=''/GoTo'' dest=''02154 2-19-26 .indd:.11434:388181''
+          widget=False field=None struct_parent=30 | (529, 0): page=2 subtype=Link
+          flags=None rect=[72.0, 259.213, 331.599, 242.131] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.11436:388182'' widget=False field=None struct_parent=31 |
+          (776, 0): page=2 subtype=Link flags=None rect=[72.0, 238.713, 282.615, 221.631]
+          action=''/GoTo'' dest=''02154 2-19-26 .indd:.11438:388183'' widget=False
+          field=None struct_parent=32 | (770, 0): page=3 subtype=Link flags=None rect=[168.384,
+          48.0711, 453.488, 33.6172] action=''/GoTo'' dest=''02154 2-19-26 .indd:.11453:388185''
+          widget=False field=None struct_parent=33 | (768, 0): page=4 subtype=Link
+          flags=None rect=[488.542, 387.414, 547.827, 373.796] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.10207:388101'' widget=False field=None struct_parent=35 |
+          (766, 0): page=6 subtype=Link flags=None rect=[112.567, 439.568, 270.026,
+          425.455] action=''/URI'' dest=''https://www.medicare.gov/care-compare''
+          widget=False field=None struct_parent=38 | (764, 0): page=6 subtype=Link
+          flags=None rect=[171.625, 360.568, 313.982, 346.455] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:Medicare Advantage Plan (Part C)-:388089'' widget=False field=None
+          struct_parent=39 | (762, 0): page=7 subtype=Link flags=None rect=[97.4642,
+          175.468, 258.008, 161.355] action=''/URI'' dest=''https://www.medicare.gov/claims-appeals''
+          widget=False field=None struct_parent=41 | (760, 0): page=9 subtype=Link
+          flags=None rect=[222.279, 373.568, 296.287, 359.455] action=''/URI'' dest=''https://www.medicare.gov''
+          widget=False field=None struct_parent=44 | (758, 0): page=9 subtype=Link
+          flags=None rect=[307.221, 231.068, 375.684, 216.955] action=''/URI'' dest=''https://shiphelp.org''
+          widget=False field=None struct_parent=45 | (756, 0): page=9 subtype=Link
+          flags=None rect=[366.388, 208.068, 440.395, 193.955] action=''/URI'' dest=''https://www.medicare.gov''
+          widget=False field=None struct_parent=46 | (712, 0): page=11 subtype=Link
+          flags=None rect=[156.391, 484.988, 295.022, 470.875] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:Medicare Advantage Plan (Part C)-:388089'' widget=False field=None
+          struct_parent=2 | (710, 0): page=11 subtype=Link flags=None rect=[309.442,
+          456.988, 363.309, 442.875] action=''/GoTo'' dest=''02154 2-19-26 .indd:Premium-:388095''
+          widget=False field=None struct_parent=3 | (708, 0): page=11 subtype=Link
+          flags=None rect=[424.788, 442.834, 482.206, 429.216] action=''/GoTo'' dest=''02154
+          2-19-26 .indd:.10209:388102'' widget=False field=None struct_parent=4 |
+          (754, 0): page=12 subtype=Link flags=None rect=[401.26, 135.7, 509.015,
+          121.587] action=''/URI'' dest=''https://www.medicare.gov/fraud'' widget=False
+          field=None struct_parent=48 | (750, 0): page=13 subtype=Link flags=None
+          rect=[183.829, 637.414, 513.892, 623.796] action=''/URI'' dest=''https://Beneficiary
+          and Family Centered Care Quality Improvement Organization (BFCC-QIO)'' widget=False
+          field=None struct_parent=50 | (752, 0): page=13 subtype=Link flags=None
+          rect=[85.5, 623.568, 226.058, 609.455] action=''/URI'' dest=''https://Beneficiary
+          and Family Centered Care Quality Improvement Organization (BFCC-QIO)'' widget=False
+          field=None struct_parent=51 | (748, 0): page=13 subtype=Link flags=None
+          rect=[492.331, 623.568, 533.021, 609.455] action=''/URI'' dest=''https://www.livantaqio.cms.gov/en''
+          widget=False field=None struct_parent=52 | (746, 0): page=13 subtype=Link
+          flags=None rect=[100.399, 609.568, 144.081, 595.455] action=''/URI'' dest=''https://www.acentraqio.com/''
+          widget=False field=None struct_parent=53 | (744, 0): page=13 subtype=Link
+          flags=None rect=[263.462, 488.568, 498.958, 474.455] action=''/URI'' dest=''https://www.medicare.gov/basics/your-medicare-rights''
+          widget=False field=None struct_parent=54 | (738, 0): page=13 subtype=Link
+          flags=None rect=[418.371, 373.568, 504.323, 359.455] action=''/URI'' dest=''https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information/contact-information''
+          widget=False field=None struct_parent=55 | (740, 0): page=13 subtype=Link
+          flags=None rect=[85.5, 359.568, 524.142, 345.455] action=''/URI'' dest=''https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information/contact-information''
+          widget=False field=None struct_parent=56 | (742, 0): page=13 subtype=Link
+          flags=None rect=[85.5, 345.568, 150.296, 331.455] action=''/URI'' dest=''https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information/contact-information''
+          widget=False field=None struct_parent=57 | (736, 0): page=13 subtype=Link
+          flags=None rect=[370.097, 299.068, 410.786, 284.955] action=''/URI'' dest=''https://www.livantaqio.cms.gov/en''
+          widget=False field=None struct_parent=58 | (734, 0): page=13 subtype=Link
+          flags=None rect=[428.985, 299.068, 472.667, 284.955] action=''/URI'' dest=''https://www.acentraqio.com/''
+          widget=False field=None struct_parent=59 | (732, 0): page=13 subtype=Link
+          flags=None rect=[249.372, 216.568, 323.379, 202.455] action=''/URI'' dest=''https://www.medicare.gov''
+          widget=False field=None struct_parent=60 | (730, 0): page=13 subtype=Link
+          flags=None rect=[112.567, 161.068, 259.437, 146.955] action=''/URI'' dest=''https://allianceforcareathome.org/''
+          widget=False field=None struct_parent=61 | (728, 0): page=13 subtype=Link
+          flags=None rect=[112.567, 128.568, 218.018, 114.455] action=''/URI'' dest=''https://www.caregiver.org''
+          widget=False field=None struct_parent=62 | (726, 0): page=13 subtype=Link
+          flags=None rect=[112.567, 96.0681, 238.95, 81.9553] action=''/URI'' dest=''https://hospicefoundation.org''
+          widget=False field=None struct_parent=63 | (724, 0): page=16 subtype=Link
+          flags=None rect=[498.945, 487.08, 502.244, 472.967] action=''/URI'' dest=''mailto:altformatrequest@cms.hhs.gov''
+          widget=False field=None struct_parent=66 | (722, 0): page=17 subtype=Link
+          flags=None rect=[103.5, 415.267, 488.507, 399.871] action=''/URI'' dest=''https://www.hhs.gov/civil-rights/filing-a-complaint/complaint-process/index.html''
+          widget=False field=None struct_parent=68 | (720, 0): page=20 subtype=Link
+          flags=None rect=[54.046, 430.628, 131.353, 416.515] action=''/URI'' dest=''https://www.medicare.gov''
+          widget=False field=None struct_parent=71 | (718, 0): page=20 subtype=Link
+          flags=None rect=[185.417, 379.628, 267.894, 365.515] action=''/URI'' dest=''https://Es.Medicare.gov''
+          widget=False field=None struct_parent=72 | (716, 0): page=20 subtype=Link
+          flags=None rect=[238.507, 103.708, 291.247, 92.1612] action=''/URI'' dest=''https://www.medicare.gov''
+          widget=False field=None struct_parent=73'
+        LinkStructureCount: 51
+        ExternalLinkAnnotationCount: 26
+        InternalLinkAnnotationCount: 29
+        AnnotationPagesWithLinks: 13
+        HidesAnnotationTest: Pass
+        HidesAnnotationIssues: ''
+        NestedAltTextTest: Pass
+        NestedAltTextIssues: ''
+        HeadingsTest: Pass
+        HeadingCount: 29
+        HeadingSequence: H1 > H1 > H2 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H2 > H2
+          > H2 > H2 > H2 > H2 > H2 > H2 > H1 > H2 > H2 > H2 > H2 > H2 > H1 > H1 >
+          H1 > H2 > H3
+        HeadingIssues: ''
+        ListsTest: NotApplicable
+        ListCount: 0
+        InvalidListItemParents: ''
+        InvalidListChildren: ''
+        MalformedListNodes: ''
+        TablesTest: NotApplicable
+        TableCount: 0
+        InvalidTRParents: ''
+        InvalidCellParents: ''
+        TablesWithoutHeaders: ''
+        IrregularTables: ''
+        FiguresAltTextTest: Pass
+        FiguresAltTextIssues: ''
+        Exempt: false
+        Date: '2026-02-27 13:41:28+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: true
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.6'
+        Creator: Adobe InDesign 21.0 (Macintosh)
+        Producer: Adobe PDF Library 18.0
+        Title: Medicare Hospice Benefits
+        Author: Centers for Medicare and Medicaid Services
+        Subject: null
+        Keywords: null
+        Description: null
+        Pages: 20
+        Words: 4455
+        Images: 4
+      errors: []
+      analysed_at: null
+  link_text: Open PDF
 - url: https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf
   md5: 8ab138be253647c96c0ee6638fbb7e8b
   filename: 02173-getting-a-second-opinion-before-surgery.pdf
@@ -352931,11 +353121,17 @@
   filename: 10050-le-medicare-and-you.pdf
   site: medicare.gov
   crawled_at: '2026-05-17T00:42:18.762090+00:00'
-  status: error
+  status: pending
   report: null
-  errors:
-  - Analysis exceeded 120s per-file limit
+  errors: []
   notes: Just testing this.
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Open PDF of Medicare & You 2026 - Large Print English
 - url: https://www.medicare.gov/publications/10108_c.pdf
   md5: fb3306cb249b3c8f763ff12a25b216dd
   filename: 10108_c.pdf
@@ -357324,6 +357520,198 @@
   errors:
   - 'annotations-tagging-fail, '
   notes: Just testing this.
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Pass
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        ImageAltTextTest: Pass
+        TaggedContentTest: Pass
+        UntaggedContentCount: 0
+        UntaggedContentSummary: ''
+        UntaggedWhitespaceContentCount: 0
+        UntaggedWhitespaceContentSummary: ''
+        FormsTest: NotApplicable
+        FormFieldCount: 0
+        FormFieldSummary: null
+        FieldsWithoutDescription: ''
+        TaggedFormFieldsTest: NotApplicable
+        TaggedFormFieldIssues: ''
+        AnnotationsFound: true
+        AnnotationCount: 47
+        AnnotationSubtypeCounts: Link=47
+        LinkAnnotationCount: 47
+        WidgetAnnotationCount: 0
+        TaggedAnnotationsTest: Fail
+        TaggedAnnotationIssues: '(898, 0): page=1 dest=''https://www.medicare.gov/'':
+          /StructParent 65 maps to link, expected Link | (896, 0): page=2 dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9097:387833'':
+          /StructParent 66 maps to link, expected Link | (894, 0): page=2 dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9323:387857'':
+          /StructParent 67 maps to link, expected Link | (892, 0): page=2 dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9334:387858'':
+          /StructParent 68 maps to link, expected Link | (890, 0): page=2 dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9345:387859'':
+          /StructParent 69 maps to link, expected Link | (888, 0): page=2 dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9356:387860'':
+          /StructParent 70 maps to link, expected Link | (886, 0): page=3 dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9102:387834'':
+          /StructParent 71 maps to link, expected Link | (292, 0): page=9 dest=''https://www.medicare.gov/'':
+          /StructParent 79 maps to link, expected Link | (290, 0): page=9 dest=''https://www.medicare.gov/care-compare/?providerType=HomeHealth'':
+          /StructParent 80 maps to link, expected Link | (288, 0): page=9 dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9221:387842'':
+          /StructParent 81 maps to link, expected Link | (283, 0): page=9 dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9231:387843'':
+          /StructParent 82 maps to link, expected Link | (880, 0): page=10 dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9249:387844'':
+          /StructParent 76 maps to TH, expected Link | (884, 0): page=11 dest=''https://ltcombudsman.org/'':
+          /StructParent 73 maps to link, expected Link'
+        AnnotationSummary: '(898, 0): page=1 subtype=Link flags=None rect=[38.82,
+          362.94, 158.46, 333.91] action=''/URI'' dest=''https://www.medicare.gov/''
+          widget=False field=None struct_parent=65 | (1293, 0): page=2 subtype=Link
+          flags=None rect=[72.0, 664.713, 166.497, 647.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7282:387808''
+          widget=False field=None struct_parent=2 | (1290, 0): page=2 subtype=Link
+          flags=None rect=[170.397, 664.713, 436.738, 647.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7288:387809''
+          widget=False field=None struct_parent=3 | (1285, 0): page=2 subtype=Link
+          flags=None rect=[80.0468, 639.713, 169.11, 622.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7292:387810''
+          widget=False field=None struct_parent=4 | (1282, 0): page=2 subtype=Link
+          flags=None rect=[386.506, 639.713, 390.406, 622.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7296:387811''
+          widget=False field=None struct_parent=5 | (1277, 0): page=2 subtype=Link
+          flags=None rect=[86.9759, 614.713, 169.084, 597.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7300:387812''
+          widget=False field=None struct_parent=6 | (1274, 0): page=2 subtype=Link
+          flags=None rect=[343.047, 614.713, 346.947, 597.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7304:387813''
+          widget=False field=None struct_parent=7 | (1269, 0): page=2 subtype=Link
+          flags=None rect=[85.5588, 589.713, 169.968, 572.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7308:387814''
+          widget=False field=None struct_parent=8 | (1266, 0): page=2 subtype=Link
+          flags=None rect=[312.16, 589.713, 316.06, 572.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7312:387815''
+          widget=False field=None struct_parent=9 | (1261, 0): page=2 subtype=Link
+          flags=None rect=[86.0918, 564.713, 103.5, 547.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7316:387816''
+          widget=False field=None struct_parent=10 | (1258, 0): page=2 subtype=Link
+          flags=None rect=[175.129, 564.713, 179.028, 547.631] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.7320:387817''
+          widget=False field=None struct_parent=11 | (896, 0): page=2 subtype=Link
+          flags=None rect=[221.2, 137.876, 377.84, 115.904] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9097:387833''
+          widget=False field=None struct_parent=66 | (894, 0): page=2 subtype=Link
+          flags=None rect=[169.86, 643.02, 390.3, 620.22] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9323:387857''
+          widget=False field=None struct_parent=67 | (892, 0): page=2 subtype=Link
+          flags=None rect=[170.36, 619.98, 352.5, 592.5] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9334:387858''
+          widget=False field=None struct_parent=68 | (890, 0): page=2 subtype=Link
+          flags=None rect=[170.36, 596.0, 326.0, 569.52] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9345:387859''
+          widget=False field=None struct_parent=69 | (888, 0): page=2 subtype=Link
+          flags=None rect=[96.42, 568.14, 180.06, 541.66] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9356:387860''
+          widget=False field=None struct_parent=70 | (941, 0): page=3 subtype=Link
+          flags=None rect=[227.532, 41.8871, 280.876, 27.4331] action=None dest=None
+          widget=False field=None struct_parent=27 | (886, 0): page=3 subtype=Link
+          flags=None rect=[254.32, 44.27, 298.172, 23.2] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9102:387834''
+          widget=False field=None struct_parent=71 | (1180, 0): page=4 subtype=Link
+          flags=None rect=[306.73, 73.3232, 454.821, 58.8692] action=''/URI'' dest=''https://www.medicare.gov/publications''
+          widget=False field=None struct_parent=14 | (1176, 0): page=5 subtype=Link
+          flags=None rect=[283.274, 560.474, 320.794, 546.856] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9131:387835''
+          widget=False field=None struct_parent=16 | (1106, 0): page=6 subtype=Link
+          flags=None rect=[172.231, 467.107, 325.865, 452.653] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9141:387836''
+          widget=False field=None struct_parent=18 | (1087, 0): page=6 subtype=Link
+          flags=None rect=[355.851, 192.467, 413.71, 178.013] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9154:387837''
+          widget=False field=None struct_parent=19 | (1056, 0): page=7 subtype=Link
+          flags=None rect=[209.024, 385.087, 246.963, 370.633] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9165:387838''
+          widget=False field=None struct_parent=21 | (1043, 0): page=7 subtype=Link
+          flags=None rect=[96.0453, 220.607, 196.31, 206.153] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9175:387839''
+          widget=False field=None struct_parent=22 | (1041, 0): page=7 subtype=Link
+          flags=None rect=[161.911, 192.607, 317.853, 178.153] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9185:387840''
+          widget=False field=None struct_parent=23 | (1019, 0): page=8 subtype=Link
+          flags=None rect=[201.873, 546.907, 240.285, 532.453] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9195:387841''
+          widget=False field=None struct_parent=25 | (1004, 0): page=8 subtype=Link
+          flags=None rect=[331.365, 133.988, 452.595, 119.875] action=''/URI'' dest=''https://www.medicare.gov/providers-services/claims-appeals-complaints/appeals''
+          widget=False field=None struct_parent=26 | (292, 0): page=9 subtype=Link
+          flags=None rect=[326.657, 199.94, 400.005, 185.827] action=''/URI'' dest=''https://www.medicare.gov/''
+          widget=False field=None struct_parent=79 | (290, 0): page=9 subtype=Link
+          flags=None rect=[197.211, 185.94, 513.293, 171.827] action=''/URI'' dest=''https://www.medicare.gov/care-compare/?providerType=HomeHealth''
+          widget=False field=None struct_parent=80 | (288, 0): page=9 subtype=Link
+          flags=None rect=[200.203, 121.039, 342.618, 106.585] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9221:387842''
+          widget=False field=None struct_parent=81 | (283, 0): page=9 subtype=Link
+          flags=None rect=[393.372, 121.039, 509.937, 106.585] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9231:387843''
+          widget=False field=None struct_parent=82 | (880, 0): page=10 subtype=Link
+          flags=None rect=[112.615, 592.712, 163.192, 578.258] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9249:387844''
+          widget=False field=None struct_parent=76 | (884, 0): page=11 subtype=Link
+          flags=None rect=[397.266, 452.276, 292.712, 438.368] action=''/URI'' dest=''https://ltcombudsman.org/''
+          widget=False field=None struct_parent=73 | (926, 0): page=13 subtype=Link
+          flags=None rect=[409.996, 312.607, 448.407, 298.153] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9260:387845''
+          widget=False field=None struct_parent=40 | (924, 0): page=13 subtype=Link
+          flags=None rect=[99.0374, 208.528, 173.045, 194.415] action=''/URI'' dest=''https://www.medicare.gov/''
+          widget=False field=None struct_parent=41 | (922, 0): page=15 subtype=Link
+          flags=None rect=[147.965, 262.039, 246.974, 247.585] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9271:387846''
+          widget=False field=None struct_parent=44 | (920, 0): page=15 subtype=Link
+          flags=None rect=[278.433, 262.039, 352.441, 247.585] action=''/URI'' dest=''https://www.medicare.gov/''
+          widget=False field=None struct_parent=45 | (918, 0): page=15 subtype=Link
+          flags=None rect=[104.593, 211.039, 221.158, 196.585] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9281:387847''
+          widget=False field=None struct_parent=46 | (916, 0): page=15 subtype=Link
+          flags=None rect=[127.516, 160.039, 178.094, 145.585] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9291:387848''
+          widget=False field=None struct_parent=47 | (914, 0): page=15 subtype=Link
+          flags=None rect=[203.745, 145.94, 272.208, 131.827] action=''/URI'' dest=''https://www.shiphelp.org/''
+          widget=False field=None struct_parent=48 | (912, 0): page=16 subtype=Link
+          flags=None rect=[196.515, 533.643, 395.992, 519.189] action=''/GoTo'' dest=''10969-Medicare_and_Home_Health_Care-booklet-061625.indd:.9301:387849''
+          widget=False field=None struct_parent=50 | (910, 0): page=16 subtype=Link
+          flags=None rect=[128.45, 235.003, 200.128, 220.549] action=''/URI'' dest=''https://oig.hhs.gov/''
+          widget=False field=None struct_parent=51 | (908, 0): page=20 subtype=Link
+          flags=None rect=[90.0, 389.58, 261.852, 375.467] action=''/URI'' dest=''mailto:altformatrequest@cms.hhs.gov''
+          widget=False field=None struct_parent=56 | (906, 0): page=21 subtype=Link
+          flags=None rect=[90.0, 409.08, 475.007, 394.967] action=''/URI'' dest=''https://www.hhs.gov/civil-rights/filing-a-complaint/complaint-process/index.html''
+          widget=False field=None struct_parent=58 | (904, 0): page=24 subtype=Link
+          flags=None rect=[54.046, 434.904, 128.053, 420.791] action=''/URI'' dest=''https://www.Medicare.gov''
+          widget=False field=None struct_parent=62 | (902, 0): page=24 subtype=Link
+          flags=None rect=[193.886, 383.904, 267.894, 369.791] action=''/URI'' dest=''https://es.Medicare.gov''
+          widget=False field=None struct_parent=63 | (900, 0): page=24 subtype=Link
+          flags=None rect=[238.507, 119.848, 291.247, 108.301] action=''/URI'' dest=''https://www.medicare.gov''
+          widget=False field=None struct_parent=64'
+        LinkStructureCount: 34
+        ExternalLinkAnnotationCount: 15
+        InternalLinkAnnotationCount: 31
+        AnnotationPagesWithLinks: 17
+        HidesAnnotationTest: Pass
+        HidesAnnotationIssues: ''
+        NestedAltTextTest: Pass
+        NestedAltTextIssues: ''
+        HeadingsTest: Pass
+        HeadingCount: 36
+        HeadingSequence: H1 > H2 > H2 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+          > H3 > H3 > H2 > H1 > H2 > H3 > H3 > H2 > H2 > H3 > H3 > H3 > H3 > H3 >
+          H2 > H2 > H3 > H3 > H3 > H3 > H2 > H2 > H2 > H3
+        HeadingIssues: ''
+        ListsTest: Pass
+        ListCount: 26
+        InvalidListItemParents: ''
+        InvalidListChildren: ''
+        MalformedListNodes: ''
+        TablesTest: Pass
+        TableCount: 2
+        InvalidTRParents: ''
+        InvalidCellParents: ''
+        TablesWithoutHeaders: ''
+        IrregularTables: ''
+        FiguresAltTextTest: Pass
+        FiguresAltTextIssues: ''
+        Exempt: false
+        Date: '2025-06-24 14:14:25+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: true
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: true
+        hasXmp: true
+        PDFVersion: '1.7'
+        Creator: Adobe InDesign 20.3 (Macintosh)
+        Producer: Adobe PDF Library 17.0
+        Title: 10969 Medicare and Home Health Care
+        Author: Centers for Medicare and Medicaid Services
+        Subject: '{''Medicare'', ''Medicare and Home Health Care'', ''10969'', ''CMS''}'
+        Keywords: null
+        Description: Medicare and Home Health Care Booklet
+        Pages: 24
+        Words: 5521
+        Images: 5
+      errors:
+      - 'annotations-tagging-fail, '
+      analysed_at: null
+  link_text: Medicare and Home Health Care
 - url: https://www.medicare.gov/publications/10969-s-medicare-and-home-health-care.pdf
   md5: 972da5151d43f4211394193e5e07b117
   filename: 10969-s-medicare-and-home-health-care.pdf
@@ -366828,6 +367216,136 @@
   errors:
   - 'annotations-tagging-fail, '
   notes: Just testing this.
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: false
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Pass
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        ImageAltTextTest: Pass
+        TaggedContentTest: Pass
+        UntaggedContentCount: 0
+        UntaggedContentSummary: ''
+        UntaggedWhitespaceContentCount: 0
+        UntaggedWhitespaceContentSummary: ''
+        FormsTest: NotApplicable
+        FormFieldCount: 0
+        FormFieldSummary: null
+        FieldsWithoutDescription: ''
+        TaggedFormFieldsTest: NotApplicable
+        TaggedFormFieldIssues: ''
+        AnnotationsFound: true
+        AnnotationCount: 21
+        AnnotationSubtypeCounts: Link=21
+        LinkAnnotationCount: 21
+        WidgetAnnotationCount: 0
+        TaggedAnnotationsTest: Fail
+        TaggedAnnotationIssues: '(108, 0): page=7 dest=''https://www.Medicare.gov'':
+          /StructParent 32 maps to Annot, expected Link'
+        AnnotationSummary: '(715, 0): page=1 subtype=Link flags=None rect=[99.0374,
+          509.928, 363.76, 495.815] action=''/URI'' dest=''https://www.medicare.gov/basics/get-started-with-medicare''
+          widget=False field=None struct_parent=1 | (713, 0): page=1 subtype=Link
+          flags=None rect=[198.919, 397.674, 260.018, 384.056] action=''/GoTo'' dest=''11219
+          3-6-26.indd:.6802:1862'' widget=False field=None struct_parent=2 | (711,
+          0): page=1 subtype=Link flags=None rect=[302.045, 379.174, 360.34, 365.556]
+          action=''/GoTo'' dest=''11219 3-6-26.indd:.6818:1863'' widget=False field=None
+          struct_parent=3 | (709, 0): page=1 subtype=Link flags=None rect=[480.857,
+          360.674, 540.0, 347.056] action=''/GoTo'' dest=''11219 3-6-26.indd:.6837:1864''
+          widget=False field=None struct_parent=4 | (366, 0): page=3 subtype=Link
+          flags=None rect=[433.875, 311.288, 512.843, 297.175] action=''/URI'' dest=''https://www.medicare.gov/health-drug-plans/health-plans/your-health-plan-options''
+          widget=False field=None struct_parent=25 | (368, 0): page=3 subtype=Link
+          flags=None rect=[82.5, 298.288, 398.768, 284.175] action=''/URI'' dest=''https://www.medicare.gov/health-drug-plans/health-plans/your-health-plan-options''
+          widget=False field=None struct_parent=26 | (656, 0): page=6 subtype=Link
+          flags=None rect=[184.44, 432.754, 239.25, 422.226] action=''/URI'' dest=''https://www.Medicare.gov''
+          widget=False field=None struct_parent=7 | (108, 0): page=7 subtype=Link
+          flags=None rect=[-427.56, 432.754, -372.75, 422.226] action=''/URI'' dest=''https://www.Medicare.gov''
+          widget=False field=None struct_parent=32 | (553, 0): page=10 subtype=Link
+          flags=None rect=[143.322, 293.936, 469.975, 279.823] action=''/URI'' dest=''https://www.medicare.gov/basics/costs/medicare-costs/avoid-penalties''
+          widget=False field=None struct_parent=10 | (362, 0): page=10 subtype=Link
+          flags=None rect=[405.395, 533.736, 538.865, 523.224] action=''/URI'' dest=''https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies''
+          widget=False field=None struct_parent=27 | (364, 0): page=10 subtype=Link
+          flags=None rect=[72.0, 523.664, 230.55, 513.4] action=''/URI'' dest=''https://www.medicare.gov/health-drug-plans/medigap/ready-to-buy/change-policies''
+          widget=False field=None struct_parent=28 | (358, 0): page=10 subtype=Link
+          flags=None rect=[480.659, 513.664, 530.45, 503.4] action=''/URI'' dest=''https://shiphelp.org''
+          widget=False field=None struct_parent=29 | (382, 0): page=11 subtype=Link
+          flags=None rect=[355.807, 681.436, 506.457, 667.323] action=''/URI'' dest=''https://www.medicare.gov/health-drug-plans/health-plans''
+          widget=False field=None struct_parent=17 | (384, 0): page=11 subtype=Link
+          flags=None rect=[85.5, 667.436, 189.85, 653.323] action=''/URI'' dest=''https://www.medicare.gov/health-drug-plans/health-plans''
+          widget=False field=None struct_parent=18 | (380, 0): page=11 subtype=Link
+          flags=None rect=[299.776, 648.936, 520.419, 634.823] action=''/URI'' dest=''https://www.medicare.gov/health-drug-plans/part-d''
+          widget=False field=None struct_parent=19 | (376, 0): page=11 subtype=Link
+          flags=None rect=[403.834, 630.436, 524.101, 616.323] action=''/URI'' dest=''https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan''
+          widget=False field=None struct_parent=20 | (378, 0): page=11 subtype=Link
+          flags=None rect=[85.5, 616.436, 430.134, 602.323] action=''/URI'' dest=''https://www.medicare.gov/basics/get-started-with-medicare/get-more-coverage/joining-a-plan''
+          widget=False field=None struct_parent=21 | (374, 0): page=11 subtype=Link
+          flags=None rect=[333.691, 597.936, 491.323, 583.823] action=''/URI'' dest=''https://www.medicare.gov/plan-compare''
+          widget=False field=None struct_parent=22 | (372, 0): page=11 subtype=Link
+          flags=None rect=[85.5, 565.436, 287.844, 551.323] action=''/URI'' dest=''https://www.medicare.gov/plan-compare/#/pace''
+          widget=False field=None struct_parent=23 | (370, 0): page=11 subtype=Link
+          flags=None rect=[259.668, 443.836, 361.846, 429.723] action=''/URI'' dest=''https://www.SSA.gov/extrahelp''
+          widget=False field=None struct_parent=24 | (355, 0): page=12 subtype=Link
+          flags=None rect=[86.1215, 80.1121, 366.325, 68.5652] action=''/URI'' dest=''https://www.medicare.gov/about-us/accessibility-nondiscrimination-notice''
+          widget=False field=None struct_parent=31'
+        LinkStructureCount: 16
+        ExternalLinkAnnotationCount: 18
+        InternalLinkAnnotationCount: 3
+        AnnotationPagesWithLinks: 7
+        HidesAnnotationTest: Pass
+        HidesAnnotationIssues: ''
+        NestedAltTextTest: Pass
+        NestedAltTextIssues: ''
+        HeadingsTest: Pass
+        HeadingCount: 27
+        HeadingSequence: H1 > H1 > H2 > H2 > H2 > H3 > H4 > H4 > H4 > H3 > H2 > H2
+          > H2 > H2 > H3 > H4 > H4 > H4 > H3 > H4 > H4 > H4 > H2 > H2 > H2 > H2 >
+          H3
+        HeadingIssues: ''
+        ListsTest: Pass
+        ListCount: 2
+        InvalidListItemParents: ''
+        InvalidListChildren: ''
+        MalformedListNodes: ''
+        TablesTest: Pass
+        TableCount: 3
+        InvalidTRParents: ''
+        InvalidCellParents: ''
+        TablesWithoutHeaders: ''
+        IrregularTables: ''
+        FiguresAltTextTest: Pass
+        FiguresAltTextIssues: ''
+        Exempt: false
+        Date: '2026-03-11 13:41:03+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: true
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.6'
+        Creator: Adobe InDesign 21.0 (Macintosh)
+        Producer: Adobe PDF Library 18.0
+        Title: Understanding Medicare Advantage & Medicare Drug Plan Enrollment Periods
+        Author: null
+        Subject: null
+        Keywords: null
+        Description: null
+        Pages: 12
+        Words: 4257
+        Images: 0
+        DocCategory: Form
+      errors:
+      - 'annotations-tagging-fail, '
+      analysed_at: null
+  link_text: Open PDF
 - url: https://www.medicare.gov/publications/11220-I-have-you-done-your-yearly-medicare-plan-review.pdf
   md5: 71da9d652432274f263e36f435995b80
   filename: 11220-I-have-you-done-your-yearly-medicare-plan-review.pdf
@@ -370962,6 +371480,124 @@
     Images: 1
   errors: []
   notes: Just testing this.
+  analyses:
+    original:
+      status: analysed
+      report:
+        Accessible: true
+        TotallyInaccessible: false
+        BrokenFile: false
+        TaggedTest: Pass
+        EmptyTextTest: Pass
+        ProtectedTest: Pass
+        TitleTest: Pass
+        LanguageTest: Pass
+        BookmarksTest: Pass
+        ImageAltTextTest: Pass
+        TaggedContentTest: Pass
+        UntaggedContentCount: 0
+        UntaggedContentSummary: ''
+        UntaggedWhitespaceContentCount: 0
+        UntaggedWhitespaceContentSummary: ''
+        FormsTest: NotApplicable
+        FormFieldCount: 0
+        FormFieldSummary: null
+        FieldsWithoutDescription: ''
+        TaggedFormFieldsTest: NotApplicable
+        TaggedFormFieldIssues: ''
+        AnnotationsFound: true
+        AnnotationCount: 18
+        AnnotationSubtypeCounts: Link=18
+        LinkAnnotationCount: 18
+        WidgetAnnotationCount: 0
+        TaggedAnnotationsTest: Pass
+        TaggedAnnotationIssues: ''
+        AnnotationSummary: '(514, 0): page=4 subtype=Link flags=None rect=[313.199,
+          81.8274, 529.507, 68.9975] action=''/URI'' dest=''https://www.cms.gov/medicare/quality/quality-improvement-organizations/family-centered-care''
+          widget=False field=None struct_parent=1 | (516, 0): page=4 subtype=Link
+          flags=None rect=[49.9132, 68.8274, 221.171, 55.9975] action=''/URI'' dest=''https://www.cms.gov/medicare/quality/quality-improvement-organizations/family-centered-care''
+          widget=False field=None struct_parent=2 | (510, 0): page=4 subtype=Link
+          flags=None rect=[76.9802, 382.358, 234.439, 368.245] action=''/URI'' dest=''https://www.Medicare.gov/care-compare''
+          widget=False field=None struct_parent=7 | (480, 0): page=5 subtype=Link
+          flags=None rect=[297.296, 263.731, 457.845, 250.901] action=''/URI'' dest=''https://www.Medicare.gov/basics/costs/help''
+          widget=False field=None struct_parent=23 | (482, 0): page=6 subtype=Link
+          flags=None rect=[58.1215, 71.572, 338.325, 60.0251] action=''/URI'' dest=''https://www.Medicare.gov/about-us/accessibility-nondiscrimination-notice''
+          widget=False field=None struct_parent=22 | (508, 0): page=6 subtype=Link
+          flags=None rect=[145.437, 622.588, 219.445, 608.475] action=''/URI'' dest=''https://www.Medicare.gov''
+          widget=False field=None struct_parent=9 | (506, 0): page=6 subtype=Link
+          flags=None rect=[56.4269, 511.088, 146.648, 496.975] action=''/URI'' dest=''https://www.ltcombudsman.org/''
+          widget=False field=None struct_parent=10 | (504, 0): page=6 subtype=Link
+          flags=None rect=[59.9359, 413.588, 129.203, 399.475] action=''/URI'' dest=''https://www.smpresource.org/''
+          widget=False field=None struct_parent=11 | (500, 0): page=6 subtype=Link
+          flags=None rect=[62.4105, 344.088, 260.937, 329.975] action=''/URI'' dest=''https://www.ilru.org/projects/cil-net/cil-center-and-association-directory''
+          widget=False field=None struct_parent=12 | (502, 0): page=6 subtype=Link
+          flags=None rect=[36.0, 331.912, 153.105, 315.808] action=''/URI'' dest=''https://www.ilru.org/projects/cil-net/cil-center-and-association-directory''
+          widget=False field=None struct_parent=13 | (498, 0): page=6 subtype=Link
+          flags=None rect=[210.974, 279.088, 272.442, 264.975] action=''/URI'' dest=''https://www.resna.org/''
+          widget=False field=None struct_parent=14 | (496, 0): page=6 subtype=Link
+          flags=None rect=[213.669, 195.588, 279.218, 181.475] action=''/URI'' dest=''https://www.ACL.gov/ltc''
+          widget=False field=None struct_parent=15 | (494, 0): page=6 subtype=Link
+          flags=None rect=[316.942, 594.588, 424.334, 580.475] action=''/URI'' dest=''https://benefitscheckup.org/''
+          widget=False field=None struct_parent=16 | (492, 0): page=6 subtype=Link
+          flags=None rect=[309.0, 497.088, 377.463, 482.975] action=''/URI'' dest=''https://www.shiphelp.org/''
+          widget=False field=None struct_parent=17 | (488, 0): page=6 subtype=Link
+          flags=None rect=[371.061, 413.588, 565.825, 399.475] action=''/URI'' dest=''https://www.medicaid.gov/about-us/where-can-people-get-help-medicaid-chip#statemenu''
+          widget=False field=None struct_parent=18 | (490, 0): page=6 subtype=Link
+          flags=None rect=[309.0, 399.588, 548.181, 385.475] action=''/URI'' dest=''https://www.medicaid.gov/about-us/where-can-people-get-help-medicaid-chip#statemenu''
+          widget=False field=None struct_parent=19 | (486, 0): page=6 subtype=Link
+          flags=None rect=[309.0, 260.088, 487.606, 245.975] action=''/URI'' dest=''https://www.commencehealthqio.cms.gov/en''
+          widget=False field=None struct_parent=20 | (484, 0): page=6 subtype=Link
+          flags=None rect=[309.0, 246.088, 394.349, 231.975] action=''/URI'' dest=''https://www.acentraqio.com''
+          widget=False field=None struct_parent=21'
+        LinkStructureCount: 14
+        ExternalLinkAnnotationCount: 18
+        InternalLinkAnnotationCount: 0
+        AnnotationPagesWithLinks: 3
+        HidesAnnotationTest: Pass
+        HidesAnnotationIssues: ''
+        NestedAltTextTest: Pass
+        NestedAltTextIssues: ''
+        HeadingsTest: Pass
+        HeadingCount: 12
+        HeadingSequence: H1 > H2 > H2 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3 > H3
+        HeadingIssues: ''
+        ListsTest: Pass
+        ListCount: 18
+        InvalidListItemParents: ''
+        InvalidListChildren: ''
+        MalformedListNodes: ''
+        TablesTest: Pass
+        TableCount: 5
+        InvalidTRParents: ''
+        InvalidCellParents: ''
+        TablesWithoutHeaders: ''
+        IrregularTables: ''
+        FiguresAltTextTest: Pass
+        FiguresAltTextIssues: ''
+        Exempt: false
+        Date: '2025-12-03 15:04:19+00:00'
+        hasTitle: true
+        hasDisplayDocTitle: true
+        hasLang: true
+        InvalidLang: null
+        Form: null
+        xfa: null
+        hasBookmarks: false
+        hasXmp: true
+        PDFVersion: '1.4'
+        Creator: Adobe InDesign 21.0 (Macintosh)
+        Producer: Adobe PDF Library 18.0
+        Title: Your discharge planning checklist
+        Author: null
+        Subject: '{''11376'', ''Medicare'', ''Your discharge planning checklist''}'
+        Keywords: null
+        Description: Your discharge planning checklist; 11376; Medicare
+        Pages: 6
+        Words: 1379
+        Images: 1
+      errors: []
+      analysed_at: null
+  link_text: Hospital Discharge Planning Checklist
 - url: https://www.medicare.gov/publications/11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf
   md5: 803ad35233f0faadd6a545c1d78149af
   filename: 11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf
@@ -375875,6 +376511,13 @@
   report: null
   errors: []
   notes: Just testing this.
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Open PDF
 - url: https://www.medicare.gov/publications/11579-s-medicare-costs.pdf
   md5: b86e57a2e82cfcf3a62b814b9a5de155
   filename: 11579-s-medicare-costs.pdf
@@ -376217,6 +376860,13 @@
   report: null
   errors: []
   notes: Just testing this.
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: look for these things on the MSN envelope.
 - url: https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf
   md5: 1b330e4d6646d32647b77666ad6a1ee2
   filename: BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf
@@ -421764,3 +422414,2470 @@
       report: null
       errors: []
       analysed_at: null
+- url: https://www.medicare.gov/media/10001
+  md5: 702f63127ae3195e6fd3bb51f8925682
+  file_hash: 3d3c688e1ee7b26b0e1e65ac2c31d687fcac3e8c788ffd4542239b26f81acf23
+  filename: 10001.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.701368+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+- url: https://www.medicare.gov/media/10011
+  md5: d9ea5b01aac77e761685293c1b5a349b
+  file_hash: 69eb37442d180530dcee70945fede76c864ad98ee049a56667b79aceb0a9968f
+  filename: 10011.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.708759+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+- url: https://www.medicare.gov/media/10021
+  md5: 2ef5a9409f04adc0904664454efbe30b
+  file_hash: 6b8fc9f66dd10594de811566722f95e8a86090c5d8c91a8ac70b7051f401b47d
+  filename: 10021.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.715881+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+- url: https://www.medicare.gov/es/media/10036
+  md5: 9fbfccd6148124de387e27aeac60a17d
+  file_hash: 74b1e19a214bd908891d866af042783a10acd9c83bc168982814c3a35492e0f6
+  filename: 10036.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.719581+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+- url: https://www.medicare.gov/publications/10050-medicare-and-you.pdf
+  md5: 647a4d4d08c2d991ab1b51ecd654787d
+  file_hash: d7a341bc3d2d3dab59af746a0875752761e6c2f2dc107d95e9078a23933513d6
+  filename: 10050-medicare-and-you.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.732906+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Open PDF of Medicare & You 2026
+- url: https://www.medicare.gov/media/10056
+  md5: 8690cbae7fe70b4306bb43f8dee84df3
+  file_hash: 069bff2553b7d640bda842ace459f30afc9f1511b5a604f0809b113d42a768f7
+  filename: 10056.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.740843+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+- url: https://www.medicare.gov/publications/10181guidetochoosing-ahospital.pdf
+  md5: 4248a9aa86883653ffd23f4db8e9ec9d
+  file_hash: 5caa12943dc81bc3e4e2da4486a21345a2f743191cda7efd5add20d98a0b44ea
+  filename: 10181guidetochoosing-ahospital.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.743935+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Guide to Choosing a Hospital
+- url: https://www.medicare.gov/media/11095-Get-Ready-for-Medicare-package-in-United-States.pdf
+  md5: 997eec4d77caef9e487137d2dccc5a32
+  file_hash: 1ccaaa4d8fac5e2fa1ee5f1dac7d6f43bbf47194bbaa30c9e7ce570cd9b18bd3
+  filename: 11095-Get-Ready-for-Medicare-package-in-United-States.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.759720+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: English
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11154-S.pdf
+  md5: e0ccff0bfe929e7f39cdae0ab0eaa807
+  file_hash: 79f522c0a35c1bd7f475d679c8332b747c292ccf1aa934f96634209f4b928932
+  filename: 11154-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.762632+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 597 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11154.pdf
+  md5: fa10ed2ae28b084093c0343eb8ad4a28
+  file_hash: d9ec4fe11e4e83a4c2558cc23c1ffe52cbf9720036aa900cd1107ba0600cd7eb
+  filename: 11154.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.765396+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Auto-Enrollment Notice [PDF, 680 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11166-S.pdf
+  md5: 7e5fba725521539e292a46acb8e7210e
+  file_hash: f47b29e3ccb95093cedd980a7fa370e66b4d124a1b08673364018911b96f4751
+  filename: 11166-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.768059+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 73.5 KB].
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11166.pdf
+  md5: aa249a2708373022f7f55054ee1c57a2
+  file_hash: 0c3da7dc02b6f1e84b52bf0f08c30cfd8beedc742fe4da93a0ffee0ebd132434
+  filename: 11166.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.770521+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Deemed Status Notice [PDF, 127 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11186-S.pdf
+  md5: 1b12654f7c50d9f71aaceeb2ae22a917
+  file_hash: 330e5a75ec4dfa5bc97ca48367188e891ef10860765127f891ce27923593d538
+  filename: 11186-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.772995+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 641 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11186.pdf
+  md5: a61ef8b865d405031ab0751d2491b1ed
+  file_hash: c9f657f46acd7b5f3bffdd8605b8bca4e7c4e762ce7ca297c005f7cbbbe35124
+  filename: 11186.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.775588+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: '"Facilitated Enrollment Notice: Full Subsidy [PDF, 674 KB]"'
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11198-S.pdf
+  md5: b28a33d8e5a7de226e9c6dc41a5b7706
+  file_hash: 871bada6439081b19c4cffef6820367800a475ea6934b95b5d38466b40e72729
+  filename: 11198-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.777820+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 74.7 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11198.pdf
+  md5: 3eb8f649f9d5adc5c1e881f9391e6746
+  file_hash: f28b48bfd29d489e6280dfe5981619e664c5a8f4305383f72f917e322a530874
+  filename: 11198.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.779804+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Loss of Deemed Status Notice [PDF, 57.7 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11199-S.pdf
+  md5: fb29af4c83a20b080423e57c763530e8
+  file_hash: 365d56a59d985364ab585ad71acc36ce3a1a153fadb314094c0890f33649785b
+  filename: 11199-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.783122+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 70.2 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11199.pdf
+  md5: 465baf9706a0faac8366f176a49f17bf
+  file_hash: e0c128832264bcd00dc98f1740a5b068fda1deb7efba129955132fd714b052fd
+  filename: 11199.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.786652+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Change in Extra Help Copayment Notice [PDF, 50.2 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11208-S.pdf
+  md5: cb91688521c07ec2861617d9c20cde0e
+  file_hash: 4c09f7744218365f3b7243cd53174c29f199aa7b365eac5d338c1beabf0d7ff2
+  filename: 11208-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.789042+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 637 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11208.pdf
+  md5: 06957a95417ca30fa4c7738a5fbd0cf7
+  file_hash: cd6e3367600e8785fabac708631c6942bdf327a2d9358016136d05ef82f3dcf3
+  filename: 11208.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.791429+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Reassignment Notice - Plan Termination [PDF, 578 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11209-S.pdf
+  md5: 3e0aa39b64e4a7c99ec3cf897eb501f0
+  file_hash: 76577b81ffbfb15efaff90b4cb7401e171259736d696e5cfa28358ae4a86d691
+  filename: 11209-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.793804+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 614 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11209.pdf
+  md5: c47fe96ef861a56b24af370e7ad7b099
+  file_hash: 2cac31a25393d86036d0be56cc34c45d2828da18913e1399fff1505964b00bf0
+  filename: 11209.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.796107+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Reassignment Notice - Premium Increase [PDF, 573 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11267-S.pdf
+  md5: 5ab898f4eacb02def373f7f1eeaba8e1
+  file_hash: 4e776d1927241de63ed2b25c2f2ad474112a6cd0de337c45d619286a45592ad7
+  filename: 11267-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.799882+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 650 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11267.pdf
+  md5: 7ccff1bce45242d9126122a5ed1feff1
+  file_hash: 25d41f9a34e0305ab87ec56119ed9ac537583a08472d875aeff26eb7bf6e4a6c
+  filename: 11267.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.802179+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: LIS Choosers Notice [PDF, 558 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11334-S.pdf
+  md5: 74ed8d8cfddef0f020d0d1040eee2036
+  file_hash: cb1c8735eeb0d0e37a5dafdf5e8a9864444b35056e52b5b0fc80cbe489887051
+  filename: 11334-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.804773+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 610 KB].
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11334.pdf
+  md5: 926a9e20d2a466c64b381d4d0fbb46dc
+  file_hash: 0a8b1b625032987a50a3b2c51d73d1a616d424f1008a819679044e0bc637c7b6
+  filename: 11334.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.807504+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: '"Retiree Drug Subsidy Notice Dual Eligibles [PDF, 615 KB]"'
+- url: https://www.medicare.gov/publications/11389-Medicare-Getting-Started.pdf
+  md5: 5f32e5fb67bab977356f9f0ab320a1c6
+  file_hash: d9b89d61f28ecc68663169f27fc74c37362f574c68de2b3e7416b164a686fa5e
+  filename: 11389-Medicare-Getting-Started.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.811762+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Open PDF
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11429-S.pdf
+  md5: 575ad2efe8a70ef9a4237557415cb6b4
+  file_hash: 2c06d58012aa17e7d3ee0c10d5f25564dc355e03b228b4fd6c6aea47fb791e3f
+  filename: 11429-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.814287+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 577 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11429.pdf
+  md5: 5965ff3fc3ff9415c72d34f35dc77a0b
+  file_hash: 7aaacbbf1175d4e9f2a3c428f7cfabf3ccd1f3c018ac01176ef416ba61e8b6ca
+  filename: 11429.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.817556+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Auto-Enrollment Retroactive Notice [PDF, 671 KB]
+- url: https://www.cms.gov/Outreach-and-Education/Outreach/Partnerships/downloads/11433.pdf
+  md5: 4ebd8c209b4f8b36233fae7fdb396298
+  file_hash: e21c5e227db9cbb2808c46e2bc6cd5e0aca43430ba4db43d0fb4838e36406820
+  filename: 11433.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.820894+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: CMS Part C Non-renewal Notice [PDF, 50.6 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11443-S.pdf
+  md5: 563266ae273c46b1c8e7be2c120c9e21
+  file_hash: bb2f6c51c81b05007e6a89d7132d484cfa6d7511701540c614744634d29ad79b
+  filename: 11443-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.823336+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 669 KB]
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11443.pdf
+  md5: 15dc7e5b67ef707b108893befc2742cd
+  file_hash: 01f50d4f3d51f24597bc69854ee7926b754328d3aacc7aa9203a072b55de6011
+  filename: 11443.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.825578+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: MA Reassignment Notice [PDF, 573 KB]
+- url: https://www.medicare.gov/publications/11452notice.pdf
+  md5: 458814f046cc7d1c76363ae20fe6e482
+  file_hash: 7413b9b16998a55ec5397b4fc52ce22620651824f792706c1921b9ac7b29e4fe
+  filename: 11452notice.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.827721+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: '"CMS Non-Renewal Action Notice [PDF, 78 KB]"'
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11475-S.pdf
+  md5: b6690c4ee42f10bf9ecc224da8414e89
+  file_hash: 18fe602b81bdf663ec40f325fc39cfff8288f8748d6c5545f551a1c5191bd5c5
+  filename: 11475-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.830073+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 647 KB].
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11475.pdf
+  md5: 2ce45a825c7d240b91f3301e39006692
+  file_hash: e9e080dae64e34e9ca501a6df3df3e2f024bae2cee733785341ea4733efdb352
+  filename: 11475.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.832490+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: '"Formulary Reassignment Notice: Plan Premium Increase [PDF, 592 KB]"'
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11496-S.pdf
+  md5: 8d559226db9998f046a97356ad214bd6
+  file_hash: 7cef2f890e7c92f9a95c7a07f5aa8cc58dfb8034f800dc0538790d9c8b981250
+  filename: 11496-S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.834924+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish [PDF, 634 KB].
+- url: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11496.pdf
+  md5: 921148118b05d98b54af43f94e104945
+  file_hash: 05d45ce956ad79f96a18dcc1b6dc2af5d1b73e6a827d5bf2c3c4b4494210f9fc
+  filename: 11496.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.837345+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: '"Formulary Reassignment Notice: Plan Termination [PDF, 593 KB]"'
+- url: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-508c.pdf
+  md5: a38faf65057115267af47e050fff722c
+  file_hash: f8f6815c736f4780ca597b8cbdcf1b2e17b432dcba3dfacd70467306fb988b30
+  filename: 11659-understanding-cms-500-trifold-508c.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.840433+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: English
+- url: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-may-2023.pdf
+  md5: 221dc18f67f67019bd722997b9516fff
+  file_hash: f43addbfc24a43bc950041318475424138336d7129f3d9a6ff780fce711c506a
+  filename: 11659-understanding-cms-500-trifold-may-2023.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.846031+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Get a sample of the delinquent bill in English.
+- url: https://www.medicare.gov/publications/11659s-understanding-cms-500-trifold-508c.pdf
+  md5: 96c0826638fee9c50f745808868ac6cc
+  file_hash: e27a0c31e55e2e3b6c6f17c629b2cf86eaeaa449bf218b9ea7cc9748b1607c4a
+  filename: 11659s-understanding-cms-500-trifold-508c.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.847853+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish
+- url: https://www.medicare.gov/es/media/11816
+  md5: 06667000b6baff8de920ed8a1c62e0ca
+  file_hash: 9ec9f72dc69017549282bb5f26dec0a2ab894ea2c50007d173c235f1f928c2a3
+  filename: 11816.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.853503+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: (In Spanish.)
+- url: https://www.medicare.gov/media/11871-Welcome-to-Medicare-package-foreign.pdf
+  md5: 0bc7b970ac0a507538a220d17fa112f1
+  file_hash: a8e0d7bf4545fea97f41746fead8920812ded94902c8c5bebe709a46501c721a
+  filename: 11871-Welcome-to-Medicare-package-foreign.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.859238+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: English
+- url: https://www.medicare.gov/media/11873-Sign-up-Part-B-package-US.pdf
+  md5: 16ed8cca34d156e77e637ace2b874085
+  file_hash: e391addeea3409146520932381a5660d354fea40ecaa579ac3123eaca9756f15
+  filename: 11873-Sign-up-Part-B-package-US.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.867999+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: English
+- url: https://www.medicare.gov/es/publications/11873-s-sign-up-for-part-b.pdf
+  md5: d77f374d352a26922bad4c4fcee0605b
+  file_hash: 4ab512c408e31c32f5fd4b87bfb7459a70a62b4c8eb9158b4977a3d239816157
+  filename: 11873-s-sign-up-for-part-b.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.876329+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish
+- url: https://www.medicare.gov/media/11874-Sign-up-Part-B-package-Puerto-Rico.pdf
+  md5: 3537b0b0bf60533b6f4fe877f3bc4649
+  file_hash: b091a3433fc99ff60574762358ba5604fcf78ffa6729c47d1a96bb81daac3597
+  filename: 11874-Sign-up-Part-B-package-Puerto-Rico.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.883981+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: English
+- url: https://www.medicare.gov/publications/11915-2024508.pdf
+  md5: 27c7d72654168bb415dfabe13e26d45c
+  file_hash: de861ee1408bad3da5a4e49de78644b28359d9ca3b3b117970963acf8a132569
+  filename: 11915-2024508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.886591+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Qualifying Health Coverage Corrected Notice
+- url: https://www.medicare.gov/es/publications/11915-s-2024508.pdf
+  md5: a4f63d6956c179c3c258a08d4f672707
+  file_hash: d715883d24bb1790b90a846af977ccb6366d435af534c43fd9e21a92d3e3917d
+  filename: 11915-s-2024508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.888991+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish
+- url: https://www.medicare.gov/publications/11952-2024508.pdf
+  md5: a18f999ec639c67a7d51cd494022103c
+  file_hash: bb519d875412dacd1d06c43180f19c2a77733a8f4d6aa0686d8fe4d3182220c8
+  filename: 11952-2024508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.891333+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Qualifying Health Coverage Replacement Notice
+- url: https://www.medicare.gov/es/publications/11952-s-2024508.pdf
+  md5: 0fd32f78fc0a2cecc9b010767a159979
+  file_hash: ca2af3dd08a07abbc0d49e580405700da8976e491ae234d0597711e2ebeedb52
+  filename: 11952-s-2024508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.893721+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish
+- url: https://www.medicare.gov/media/11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
+  md5: e641d5b98b2346e7c27dbba0de26f84a
+  file_hash: 4aa219148690ea7445327b971a0d7065bcf5d055bdd5051cf29ebe8b3a178b9f
+  filename: 11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.897485+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: English
+- url: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf?linkit_matcher=1
+  md5: 5d78aa6847230b90ec3a9d641d4741a8
+  file_hash: 94e6cf8c178f9d30a8d0a48604fcad46935d37a29ea3ffc9d6b5fc083d3be329
+  filename: 12020-Welcome-to-Medicare-0.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.902824+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: welcome package
+- url: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf
+  md5: 5d78aa6847230b90ec3a9d641d4741a8
+  file_hash: 94e6cf8c178f9d30a8d0a48604fcad46935d37a29ea3ffc9d6b5fc083d3be329
+  filename: 12020-Welcome-to-Medicare.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.908259+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: '"Welcome to Medicare" package'
+- url: https://www.medicare.gov/media/12095-Eng-Span-letter-508.pdf
+  md5: 01b924fcd2a124aad1ed4eee1c8a3968
+  file_hash: 3ff090e043f969de0e03f8ad98b665505ea951ca394e5347a3452ea6f5c3abbd
+  filename: 12095-Eng-Span-letter-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.910231+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: You created your new Medicare account
+- url: https://www.medicare.gov/media/12096-Eng-Span-letter-508.pdf
+  md5: 3cf41812596568570bcd1659a5b6e0e1
+  file_hash: da4168c4f0595f22f3a544ef682c9c5222eb3135738e758b9ba031f46930406c
+  filename: 12096-Eng-Span-letter-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.911988+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: You asked us to create your new Medicare account
+- url: https://www.medicare.gov/media/12097-Eng-Span-letter-508.pdf
+  md5: a1cdaecc9fc8f92a2959ab121a61adbb
+  file_hash: 53829f01fe148b85fd91d34afc76231266598bb44b568f3594da1e1d277763ac
+  filename: 12097-Eng-Span-letter-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.913709+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: You asked us to reset your password (and you have an email address listed
+    in your account)
+- url: https://www.medicare.gov/media/12098-Eng-Span-letter-508.pdf
+  md5: e6f7b8d55084f02af98ba4cd03fd3ef9
+  file_hash: 5abb63238b3178c773e96067ecc6af64241b3df4a29cbab37effeb63bd90d939
+  filename: 12098-Eng-Span-letter-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.916683+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: You asked us to reset your password (and you don't have an email address
+    listed in your account)
+- url: https://www.medicare.gov/media/12099-Eng-Span-letter-508.pdf
+  md5: 91876d36070ddd33b3e483a53bf02101
+  file_hash: 8df735cfe7d2585012b10b1056963d4645560f8fe6633d1a7f1e214cf48e0399
+  filename: 12099-Eng-Span-letter-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.918475+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: You asked us to close your account
+- url: https://www.medicare.gov/media/12100-Eng-Span-letter-508.pdf
+  md5: 5f3821d1bf141ea4527cc1e06ffa9003
+  file_hash: f02c219f23e051b2a655ce779974be322db61cf7c7d506bafcb36a3e6206ebbf
+  filename: 12100-Eng-Span-letter-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.920312+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: You asked us to reopen your account (and you have an email address listed
+    in your account)
+- url: https://www.medicare.gov/media/12101-Eng-Span-letter-508.pdf
+  md5: b6dcc50c3e70c351c2f483fbcd5d2999
+  file_hash: 982a2ce2ec497e8b991bb87c7d51f55913adca408970101c618a7ee253a82df2
+  filename: 12101-Eng-Span-letter-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.923605+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: You asked us to reopen your account (and you don't have an email address
+    listed in your account)
+- url: https://www.medicare.gov/publications/12112-understanding-mep-trifold-508c.pdf
+  md5: 621df7e5ecc804d7481b1aeecc627751
+  file_hash: 57042312c0d8ae70121089ce5d9e8715ccd50e845323a84d0f7398d392558260
+  filename: 12112-understanding-mep-trifold-508c.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.929064+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: English
+- url: https://www.medicare.gov/publications/12112s-understanding-mep-trifold-508c.pdf
+  md5: 7137678fa8788bda06814d22e8cfa356
+  file_hash: 21eb11ef2999a2a9436c38a402930da46d22d85fe4051b35211054f5fb5825ef
+  filename: 12112s-understanding-mep-trifold-508c.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.934885+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish
+- url: https://www.medicare.gov/media/12116-Welcome-to-Medicare.pdf
+  md5: 93009d8f8c8f2859492782ad6f065554
+  file_hash: d1bd2b02cb06e622c9ecfc2285d99887bf0a68e422723d49daa1531a4b3a5546
+  filename: 12116-Welcome-to-Medicare.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.936660+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: English
+- url: https://www.medicare.gov/publications/12116-s-bienvenido-a-medicare.pdf?linkit_matcher=1
+  md5: 63d806cf99a6c892b189fa9cf379d23c
+  file_hash: cff8410cd50b9c20e6d72c2eed8da8f37f272726e8520fe2345209468b437c7b
+  filename: 12116-s-bienvenido-a-medicare.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.938257+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish
+- url: https://www.medicare.gov/publications/12130nursing-home-checklist508.pdf
+  md5: a45382cba5cc0bfc10a66f905e1f7f9d
+  file_hash: 6880583baa5841be705a3a3656c4e3148534197086a6f3187952f9ca684e9be5
+  filename: 12130nursing-home-checklist508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.939831+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Nursing Home Checklist
+- url: https://www.medicare.gov/publications/12172-3-things-to-know-about-medicare-insulin-costs.pdf
+  md5: bea745d2f09566ed4cd88a5d639a2af2
+  file_hash: 8e2e8b0ed66c2ec2e4c3bb00c94f71f7748bdfff2dcdd34bd347fb63eadc6490
+  filename: 12172-3-things-to-know-about-medicare-insulin-costs.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.941412+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Learn more about insulin costs under Part D and Part B.
+- url: https://www.medicare.gov/publications/12177-2023-02-508.pdf?linkit_matcher=1
+  md5: 573014f7f8c84f7f4d9ee0f9c1df7c2a
+  file_hash: f1c55ec32b1f26c3ee9750969afef6cab38704035d57474e806e64b786285434
+  filename: 12177-2023-02-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.943702+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Download more information about your Medicare options if you lose Medicaid.
+- url: https://www.medicare.gov/publications/12181-3-6-24.pdf?linkit_matcher=1
+  md5: 2b029a000ecb6320e297191a2472be8a
+  file_hash: 7d04ab9df5170d1872ecda26442a48432591b0306a28620290c5f94d38e814b7
+  filename: 12181-3-6-24.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.945350+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Download and print a copy of this table
+- url: https://www.medicare.gov/publications/12181-s-3-5-24-508.pdf?linkit_matcher=1
+  md5: 509774f2e538b89b828f3142f0a2f95a
+  file_hash: 3d21bcb6322be1ec2601fd5ec4f70567e5476a37528bb68c4c3a8dcf9b107edc
+  filename: 12181-s-3-5-24-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.946961+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Descargue e imprima una copia de esta tabla
+- url: https://www.medicare.gov/publications/2012-annual-cms-plain-language-report-508.pdf?linkit_matcher=1
+  md5: e27e9fba36e99ad89ab251ef253a8d77
+  file_hash: 85c85602bad3bad5620a611f95a2a82c2914d98d4e78bbedb0e84870acf3cf34
+  filename: 2012-annual-cms-plain-language-report-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.948723+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2012 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2013-annual-cms-plain-language-report-508.pdf
+  md5: 9de7f7b6a1a31100c28e38dedd2c554c
+  file_hash: 702eaed4991ca0d3e474f9f53ac2e4c9a1d69603a5850f97c3a856b4a126ab87
+  filename: 2013-annual-cms-plain-language-report-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.950448+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2013 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2014-annual-cms-plain-language-report-508.pdf
+  md5: e43e42ec35dc269addd6334ae27d44ae
+  file_hash: 9fb9509b0e1b567302dd567ede9d3f162e8eaf8094716da4b300a369773f8715
+  filename: 2014-annual-cms-plain-language-report-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.952246+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2014 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2015-annual-cms-plain-language-report-508.pdf
+  md5: a3b3d0a14e432dad940aa103bf094153
+  file_hash: 187104377dc7ea4cfcf8deab8c2f73d42ece01ef62badd11c8bf86c75344010b
+  filename: 2015-annual-cms-plain-language-report-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.954108+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2015 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2016-annual-cms-plain-language-report-508.pdf
+  md5: 3f92470ddf76a3f8199fab57e0d5823b
+  file_hash: 8a20a617653142d5f02a43a318e7b1bc22c94bc759492b80fc9348323d7d84ab
+  filename: 2016-annual-cms-plain-language-report-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.955970+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2016 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2017-annual-cms-plain-language-report-508.pdf
+  md5: b1afe173dce9007d6b44cd709b743244
+  file_hash: 39c494ebdbdc7605e8abfffed57fb888a5e152d69975159e18d1aa7d57c55e66
+  filename: 2017-annual-cms-plain-language-report-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.957861+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2017 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2018-annual-cms-plain-language-report-508.pdf
+  md5: 754e5d3b667e342541cacac27690c187
+  file_hash: cbbf70e07b7313b2914b5adbe0a60c7e6df24cf400dbcc86409bdc6fca9e0c90
+  filename: 2018-annual-cms-plain-language-report-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.959815+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2018 Annual Plain Writing Report
+- url: https://www.medicare.gov/media/2019-annual-CMS-plain-language-report.pdf
+  md5: 4b57cad82c86df7492bd5d1e3dd69319
+  file_hash: 07bb64b1158fece8e0412e604aba868486acaedd497fbb131ef6a9a0ff6049da
+  filename: 2019-annual-CMS-plain-language-report.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.961614+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2019 Annual Plain Writing Report
+- url: https://www.medicare.gov/media/2020-Annual-Plain-Writing-Report.pdf
+  md5: 4703e7b0abb52ce97e90aba7443acb66
+  file_hash: 6c5c46f8c1f138df2743586a93fb5bf4e34a4380ad1a5c2badbe3128eb2fa9d2
+  filename: 2020-Annual-Plain-Writing-Report.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.963468+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2020 Annual Plain Writing Report
+- url: https://www.medicare.gov/media/2021-annual-CMS-plain-language-report.pdf
+  md5: 4ab66fc5d9b96b9456816425a9d60970
+  file_hash: 9098ba8662d6ef223f58fd4c424ccc37ab50531c28012ae984ea16ac157e5c79
+  filename: 2021-annual-CMS-plain-language-report.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.965306+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2021 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2022-annual-cms-plain-language-report-508.pdf
+  md5: 1db7a108952f679308c973fe4f4b843d
+  file_hash: ffb5f8c22a4ea939ca073cc627ad97f2a40d570233aee3331b2b74a9dee01c92
+  filename: 2022-annual-cms-plain-language-report-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.967226+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2022 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2023-annual-cms-plain-language-report.pdf
+  md5: 0520bed2ed3ee1aff9b835cca3a2a7cd
+  file_hash: 616e42186729a1a2b8b52dcede584bfb2faeb47670fe26801f29f958f32475d3
+  filename: 2023-annual-cms-plain-language-report.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.969296+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2023 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2024-annual-cms-plain-language-report-final.pdf
+  md5: 7747f64395dfd952b8ea4124e79d072e
+  file_hash: 5be422ee64d0453a3c18f4882844b3be484ba848dada8a853331fc7e935026d2
+  filename: 2024-annual-cms-plain-language-report-final.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.971131+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2024 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2025-annual-cms-plain-language-report-final.pdf
+  md5: 3bdbfc6cfee38e306708b60386106d47
+  file_hash: a1fe82b80d95a9316c437047b5d1a66a2ee213f898758619fe5e441722c73e84
+  filename: 2025-annual-cms-plain-language-report-final.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.972955+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2025 Annual Plain Writing Report
+- url: https://www.medicare.gov/publications/2025-my-national-english-other-languages-508.pdf
+  md5: e612c62e8cfe16ed76666aa208e16260
+  file_hash: aa0d594a82e867cc6af89a2b46f187d1c7e49bcbc404c5a0bc46d444c3cc9510
+  filename: 2025-my-national-english-other-languages-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.975588+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: You have the right to get materials from Medicare in languages other
+    than English.
+- url: https://www.medicare.gov/publications/2026-annual-cms-plain-language-report-final-508.pdf
+  md5: 7dd1f5f6ae0574ab834a103f1eea31cc
+  file_hash: f3161497a060d7f6153d9d3cd4131653508cec654aabb6afc5a3497a37aa7fd8
+  filename: 2026-annual-cms-plain-language-report-final-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.977468+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 2026 Annual Plain Writing Report
+- url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS10106.pdf
+  md5: 9382aed460962a142ce60ae5a71c3b19
+  file_hash: afd7f3ad262914b1d00abd9ab2ddc0043f2adf98a1b998bf2d3976beb02cafd9
+  filename: CMS10106.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.979263+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Authorization to Disclose Personal Health Information
+- url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS10106S.pdf
+  md5: b107b8b1fc0f70ca6f91a258a3493e7a
+  file_hash: 474cbe24b32e9c142bcaf247c2e99f945d298082385ed81f5fdaee4531676a6e
+  filename: CMS10106S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.980870+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Spanish
+- url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS1490S-Spanish.pdf
+  md5: d596d4a49cd573e02d0caf08e36b896d
+  file_hash: 1bd0babe2fcb39adb1c93722754b5d00c10e95662d9384c125733e9a108fb0f5
+  filename: CMS1490S-Spanish.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.984311+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: This form is also available in Spanish.
+- url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/downloads/CMS20027.pdf
+  md5: be713905158f89ee357b69ed6e899e3e
+  file_hash: bc80ed47453ddabf3628106fbdf6151c13951be697a2098d548fa7f7be92f09c
+  filename: CMS20027.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.985824+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: '"Redetermination Request Form [PDF, 100 KB]"'
+- url: https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/CMS2728.pdf
+  md5: 5b7b7db98ee76c4fc8f84d4a281cdd8c
+  file_hash: 7d0ab78d83b48a5ee887f05e2eefc3ac32ed6fc814013690392053e0f2d2ae22
+  filename: CMS2728.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.987423+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: CMS Form 2728 ("End-Stage Renal Disease Medical Evidence Report Medicare
+    Entitlement and/or Patient Registration" [PDF, 1.10 MB])
+- url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/Downloads/CMS40B-E.pdf
+  md5: 2afbea8ed89082a89946fca83034fff3
+  file_hash: c991595989dafd5bff332bef16bc8f18bf2263db0799b738bdb9c528d51cf470
+  filename: CMS40B-E.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.988990+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: I have Part A and want to sign up for Part B
+- url: https://www.medicare.gov/care-compare/en/assets/resources/dialysis-facility/DFC_checklist_11-26-19_508.pdf
+  md5: f9c957026dbb81ea56ff02fc8b197227
+  file_hash: 10cd9e80ec3ea8aea75ff06ef3a83632b11a2a47dabe8c7cae579b66ed4f8c50
+  filename: DFC_checklist_11-26-19_508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.990483+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: https://www.medicare.gov/care-compare/en/assets/resources/dialysis-facility/DFC…
+- url: https://secure.ssa.gov/apps10/public/pomsimages.nsf/gfx_num/G-HI_00815.025-1/$File/G-HI_00815.025-1.pdf
+  md5: 02003819dc7c57f7e1f7ed6f8dd00faf
+  file_hash: 136741a58bb80270eaa786b10161be59fb2f7ff57b5443041bd0df2bca73e010
+  filename: G-HI_00815.025-1.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.992536+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: '"Taking Care of Medical Costs," SSA Pub. Form L441'
+- url: https://www.medicare.gov/media/ReplacementMedicareCardLetter.pdf
+  md5: 778cf611f596948b4dd91df5305e6797
+  file_hash: bddf9b502f560779a55d2bd71172c0296e70d25efee9cb06bbf6314fcefc95c6
+  filename: ReplacementMedicareCardLetter.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.995538+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Replacement Medicare card letter
+- url: https://www.viantinc.com/wp-content/uploads/2023/02/Viant-Privacy-Policy-AMERICAS-1094727173-v11.pdf
+  md5: cda686fc5d226d7a76ca35d1907ec893
+  file_hash: 925350b2a2bc4d333b9cbb7ce46afddbb1ca07c3edd70a6cd2570b3e8fbe97a6
+  filename: Viant-Privacy-Policy-AMERICAS-1094727173-v11.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.997247+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: https://www.viantinc.com/wp-content/uploads/2023/02/Viant-Privacy-Policy-AMERICAS-1094727173-v11.pdf
+- url: https://www.cms.gov/files/document/application-medicare-part-part-b-special-enrollment-period-exceptional-conditions.pdf
+  md5: 41ecbfc6069c9613ef48b6652bf21d01
+  file_hash: 41b6a8e4dbab7549a5459cfa2dcfbd3d888c92d367140ed412471ac1391a4f78
+  filename: application-medicare-part-part-b-special-enrollment-period-exceptional-conditions.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:43.998867+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Sign up for Part A & Part B using a Special Enrollment Period
+- url: https://www.cms.gov/files/document/cms-10798.pdf
+  md5: 6f20abb7c5cf47fdb95be18e0694121a
+  file_hash: 9beebd99f8e956893445e0295ab1e7c350f1a452f495e8585e045636eb6eca72
+  filename: cms-10798.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.000454+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Sign up for the Part B Immunosuppressive Drug benefit
+- url: https://www.cms.gov/files/document/cms-18f5.pdf
+  md5: 1d22c9ed8c50efe9c6a4f6871868a0f5
+  file_hash: 7e0340cc76da044e7b459c841c6e6a300ea7b20b6df487f18f079597817b453e
+  filename: cms-18f5.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.002094+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: I want to sign up for Part A and Part B
+- url: https://www.medicare.gov/publications/cms-plain-writing-act-compliance-report-508.pdf?linkit_matcher=1
+  md5: 799f1b4142ea49e2fb016beb3a4e82e2
+  file_hash: a84b464bbb87c543fbbc403cd6bc933c6b8b6f93814851025f172e80c0183a0d
+  filename: cms-plain-writing-act-compliance-report-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.003820+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: CMS Plain Writing Act Compliance Report
+- url: https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms10106.pdf
+  md5: 9382aed460962a142ce60ae5a71c3b19
+  file_hash: afd7f3ad262914b1d00abd9ab2ddc0043f2adf98a1b998bf2d3976beb02cafd9
+  filename: cms10106.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.005519+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: mail us an authorization form
+- url: https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms10106S.pdf
+  md5: b107b8b1fc0f70ca6f91a258a3493e7a
+  file_hash: 474cbe24b32e9c142bcaf247c2e99f945d298082385ed81f5fdaee4531676a6e
+  filename: cms10106S.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.007169+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Download this form in Spanish.
+- url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/downloads/cms1490s-english.pdf
+  md5: 4e0fd8d3c5a994f850c00d99828766a9
+  file_hash: baad33f7ab53097d77ff95f37f49b46d1a8dce143c4cf518e3f1da3e79269f34
+  filename: cms1490s-english.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.010723+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Patient Request for Medical Payment form (CMS-1490S)
+- url: https://www.cms.gov/Medicare/CMS-Forms/CMS-Forms/downloads/cms1696.pdf
+  md5: 06b2677f1e50063e621d5ee05a7fe05e
+  file_hash: 209793ff88d78190960a8df287b5f8534356be2358a28705e3928482e7140f93
+  filename: cms1696.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.012434+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: '"Appointment of Representative" form [PDF, 47.7 KB]'
+- url: https://www.cms.gov/medicare/cms-forms/cms-forms/downloads/cms20033.pdf
+  md5: 15179692564944f7781b0903bf866570
+  file_hash: 0b0aed491679704ee62fb797d440af00bdee758623f403077fe994e0fd423f45
+  filename: cms20033.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.013844+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Medicare Reconsideration Request Form
+- url: https://www.irs.gov/pub/irs-pdf/f1095b.pdf
+  md5: 87b1bb14a7533a592bd759e3cf1e1dba
+  file_hash: d6b37dc8e837fb722e139426caa8f2e298d678d98ae84c0f10e66f63eeaab784
+  filename: f1095b.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.015807+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: IRS Form 1095-B (Health Coverage) [PDF, 290 KB]
+- url: https://www.medicare.gov/publications/mcbsadvletterbilingual.pdf
+  md5: 395cedafe3697b21c3ba41f5e479b9f9
+  file_hash: 6a3fa731adff31d7f9deb63d41c624a577f49526ce4dc2672de14cc372d6f8fc
+  filename: mcbsadvletterbilingual.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.017340+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 'MCBS Contact Advance Letter: English/Spanish'
+- url: https://www.medicare.gov/publications/mcbsreminderletterbilingual.pdf
+  md5: 535a8cfbb5ccdd4c3a3c912b5f6f7803
+  file_hash: 16c4aaf56c97b870e3990ec776a1cbb6bab6ea2c541809c57dff79612fbb7e17
+  filename: mcbsreminderletterbilingual.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.018932+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: 'MCBS Reminder Letter: English/Spanish'
+- url: https://www.cms.gov/files/document/model-example-hospice-election-statement-march-2024.pdf
+  md5: 1327ef9c6abfbe0e433af6c583cab6da
+  file_hash: 9e8804c9dd63a9c35c870f8b4bb450cef02c6dc9948672cfa43b88d7e78f7c23
+  filename: model-example-hospice-election-statement-march-2024.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.020540+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Hospice Election Statement
+- url: https://www.medicare.gov/publications/part-b-id-medicare-card-letter-508.pdf?linkit_matcher=1
+  md5: 375d1a5a1e1d11c8f31e1813b3f82ca5
+  file_hash: 88057b17a99df9f3556ba63c993620c390425f5c79def9bda3c967105679819c
+  filename: part-b-id-medicare-card-letter-508.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.022609+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Immunosuppressive drug benefit welcome package
+- url: https://www.medicare.gov/publications/pbid-cmsnoticeonothercoverage-09302022.pdf?linkit_matcher=1
+  md5: 02fafc97384d07328ffe653e7669b0fc
+  file_hash: 8bb3e07195ae4f61b426257d09ca15fad132a2c61cd8ee68f6704ff1650c91e8
+  filename: pbid-cmsnoticeonothercoverage-09302022.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.024328+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: End-Stage Renal Disease (ESRD) coverage ending letter
+- url: https://www.medicare.gov/publications/sample-dme-medicare-summary-notice-d1.pdf?linkit_matcher=1
+  md5: 9c17daca0006ef0ccac83f74e021e675
+  file_hash: 076d60e6edd68225c90fd75be1861faae907367744caa85fc23b184e98e0466b
+  filename: sample-dme-medicare-summary-notice-d1.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.031988+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: DME Medicare Summary Notice
+- url: https://www.medicare.gov/publications/sample-part-a-medicare-summary-notice-d10.pdf?linkit_matcher=1
+  md5: 9963e5205b9f385562d63b050e8f2776
+  file_hash: f3d07c815ddaaffd13e10d199704b6945d2685d4923cd195809af63edce3dd36
+  filename: sample-part-a-medicare-summary-notice-d10.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.040268+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Part A Medicare Summary Notice
+- url: https://www.medicare.gov/publications/sample-part-b-medicare-summary-notice-d1.pdf?linkit_matcher=1
+  md5: a1c02a38e6851e337acce8c418ce9e3f
+  file_hash: 00a6f7e39ddb8c05c04e4271cc01cc1229e35957ceda898e11bed67c60f8a5c9
+  filename: sample-part-b-medicare-summary-notice-d1.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.048525+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Part B Medicare Summary Notice
+- url: https://www.medicare.gov/media/skilled-nursing-facility-checklist.pdf
+  md5: 6a3f04ca2d0b4023c5684d5bde8736ca
+  file_hash: 419ea29feb9333332acc872418df90106478c8eea221fa55b07a9ab19599fbc7
+  filename: skilled-nursing-facility-checklist.pdf
+  site: medicare.gov
+  crawled_at: '2026-07-08T01:19:44.050659+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  notes: Just testing this.
+  link_text: Skilled nursing facility checklist
+- url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2023-06/ARS%20Worker%20handout_2023-acc.pdf
+  md5: 9fdc8380367791a9af1cb41843644784
+  file_hash: 598407fddd67f79b3de23ca78a0a5a7722ab5eb72cdcfbd7c1490a05b85e6373
+  filename: ARS%20Worker%20handout_2023-acc.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.062129+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Download our Information for Agricultural Workers in Minnesota factsheet
+- url: https://mn.gov/mdhr/assets/BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
+  md5: e406bf70f0bfcee923d5cb30be81f275
+  file_hash: 59301cc750f550e5ff3e955346beca530d02703ad8acb24e1e57c0750820e5f1
+  filename: BantheBox_Brochure_r2Final_opt_tcm1061-335905.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.069678+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Soo dagso buuga sharaxaaya sharciga mamnuucida bokiska ee batrooniyada
+- url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2025-04/CareerForce%20student%20focused%20flyer%202025_ACC.pdf
+  md5: f39466a39508d11b1120b8e83f4f755b
+  file_hash: 9c7460c1015efd9fd3d4a218194576bc587519b8e4839786e45313b62fc1052a
+  filename: CareerForce%20student%20focused%20flyer%202025_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.073890+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: CareerForce student career exploration flyer
+- url: https://careerforce.mn.gov/sites/default/files/2026-03/CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
+  md5: 0b92d28b89b59d4f069a4c3e74ea25bb
+  file_hash: df51595154000a8609a5a2547fff3c209ecdfd663627c4c30c649334740a575a
+  filename: CareerForce_Brochure_Veterans%20Helping%20Veterans-2026_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.076776+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: CareerForce Veterans Helping Veterans brochure
+- url: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20handout-2025_ACC.pdf
+  md5: 8f62a0390b8c3bf2082f18a4448eddf8
+  file_hash: 2eb9336ab740964ec3aa7c5d0b5c82eb2771f80cb4d12adf789f027fe90510a0
+  filename: CareerForce_High%20School%20handout-2025_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.079284+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: CareerForce 8.5x11 flyer employment with high school diploma or equivalent
+- url: https://careerforce.mn.gov/sites/default/files/2025-12/CareerForce_High%20School%20poster-2025_ACC.pdf
+  md5: 681f516568aec2afb2d22947e78c5475
+  file_hash: 85a2b3b969f142406cc4d4a52033cf967aec86e42811321d5a2446b462ef1721
+  filename: CareerForce_High%20School%20poster-2025_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.081875+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: CareerForce 11x17 poster employment with high school diploma or equivalent
+- url: https://mn.gov/deed/assets/Central-Minnesota-2024_tcm1045-288717.pdf
+  md5: d9bbb019566417a42b860350fbabe4c1
+  file_hash: 1ada0ee88e3228de3a9f47d1a398daf4247ef35cd852ff53a5da75c89df9e1aa
+  filename: Central-Minnesota-2024_tcm1045-288717.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.084862+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Central Minnesota is a Manufacturing powerhouse
+- url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2023-07/DIMI%20structure%20handout_ACC.pdf
+  md5: c587c926f07d02d85bc5662785383487
+  file_hash: 5acdb9f97c257d70f542eaecf8bf1d83b70899e89d6d7ede0261c596f06612d5
+  filename: DIMI%20structure%20handout_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.087161+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Download a DiMi overview
+- url: https://www.scottcountymn.gov/DocumentCenter/View/13569/Employment--Training-Contact-Record?bidId=
+  md5: 018d028bd9d698d12725eeb33a8de6da
+  file_hash: e246a2e361d3e78d9aa69dd3a0f04058efdf9e9ab915c80639f2438c24d2c5cb
+  filename: Employment--Training-Contact-Record.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.089696+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://careerforce.mn.gov/sites/default/files/2026-07/Federal%20Bonding%20Program%20handout_ACC.pdf
+  md5: 5f292a96ebc83f9018d4eb8f7ee57f39
+  file_hash: 77b4b59aec35aba550e01b9698b88dc190dd8045fd5c4eb057a4ac683a5c74b5
+  filename: Federal%20Bonding%20Program%20handout_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.092136+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: informational handout about the Federal Bonding Program
+- url: https://careerforce.mn.gov/sites/default/files/2025-04/How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
+  md5: abe3d22465523a27ecc2349e3bbd51c0
+  file_hash: 47d73c3d0defdf614e2201200ed2d0de5bec21cac075122a9961560cf8fe661a
+  filename: How%20DEED%20helps%20employers%20handout%202025_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.094401+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: How DEED Helps Employers
+- url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2024-02/MN%20Job%20Quality%20Principles%20handout_ACC.pdf
+  md5: 0aa89201cdc8ee45d6e21204896edbd7
+  file_hash: 509ca5f3a52bac7899af53ed3ef4d7321c437cee09e6e324e579ccf7f4a79d39
+  filename: MN%20Job%20Quality%20Principles%20handout_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.096627+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+- url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
+  md5: e6c8a085f487f2be71a20eca7c6e3c41
+  file_hash: 860c56cfb135f405da4f18c016cb5d152401ef0229f6d1b62651aba769a178b5
+  filename: MNWorks%20Job%20Seeker%20Guide%202019_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.100136+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: el folleto de MinnesotaWorks.net para buscadores de carrera
+- url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2019-03/MNWorksEmployersBrochure2019_ACC.pdf
+  md5: 99f15fc99b6906d4c76da09b7cf47c6b
+  file_hash: d13c01d8366f82d8a6698ef7f29b8d2ab3fd1f2dc3bce62cec99fc791967986b
+  filename: MNWorksEmployersBrochure2019_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.103679+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: MinnesotaWorks.net para empleadores
+- url: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
+  md5: 242a7dab30c18a52c234455f1a973bed
+  file_hash: a5263dc30eb3657438ed1e1b3b9c9a2df74e446eef651a5300b9b96abf4ed239
+  filename: MnDOT-DEED%20Highway%20Construction%20Cement%20Masons%20postcard%201-2026_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.106966+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: postcard about Highway Construction Cement Mason Training
+- url: https://careerforce.mn.gov/sites/default/files/2026-02/MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
+  md5: 91174f6c95e9446b19e7559e25a7e75a
+  file_hash: 116531c11c7daea1aca74d06f86889789faa0cc2c186e0be472ddfd0b10e5811
+  filename: MnDOT-DEED%20Highway%20Construction%20Training%20flyer_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.110409+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: flyer about Highway Construction Cement Mason Training
+- url: https://mn.gov/deed/assets/Northeast-Minnesota-2024_tcm1045-288725.pdf
+  md5: 7b6412188f1aa298c9472b5c7da65d1d
+  file_hash: 3216ac73dd87fbb36c4f5e4edcb9c415173ba66bd491db8691e4b2a1acd7869e
+  filename: Northeast-Minnesota-2024_tcm1045-288725.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.113382+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Northeast Minnesota
+- url: https://mn.gov/deed/assets/Northwest-Minnesota-2024_tcm1045-288726.pdf
+  md5: aefa6f8403c953407f9daf051a3c9b11
+  file_hash: 8684854b75e39c7ce7233e70b3e2895a889ffa6f4f71712d11b9dae04cfbadb7
+  filename: Northwest-Minnesota-2024_tcm1045-288726.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.116185+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Northwest Minnesota manufacturing
+- url: https://careerforce.mn.gov/sites/default/files/2026-02/Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
+  md5: dbdbf5a34500a840b366913abd8497d9
+  file_hash: 58577e24fb3cb2adf643bc1d80a14f2a575c906a5a27028d46838f91598a17d8
+  filename: Pre-Application%202026%20MnDOT_ACC%20fillable%20FINAL.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.118414+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: MnDOT-DEED Highway Heavy Construction Training (HHCT) Preapplication
+    Form
+- url: https://mn.gov/deed/assets/Southeast-Minnesota-2024_tcm1045-288727.pdf
+  md5: 7210f3e8ee6a37f55f7a2d53903729fe
+  file_hash: 44eff2f9e409934433821c9925642b3f87d28e68a1220037cf90752bc578e06e
+  filename: Southeast-Minnesota-2024_tcm1045-288727.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.124802+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Southeast Minnesota manufacturers
+- url: https://mn.gov/deed/assets/Southwest-Minnesota-2024_tcm1045-288728.pdf
+  md5: 8c78021e356e7de71c537ca5bf353b19
+  file_hash: fca71d12a80c6a373f9fb222cd746844290953bc64df7f374201ba03afa47c78
+  filename: Southwest-Minnesota-2024_tcm1045-288728.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.127763+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Southwest Minnesota
+- url: https://mn.gov/mdhr/assets/Technical%20Guidance%20364.021_tcm1061-213501.pdf
+  md5: 005352111db1340d3fdebd7bbfc7722d
+  file_hash: 8958e01e095ddcb4cdb06c77601673463cf474fbd9a7903f9d33cfb576e5a060
+  filename: Technical%20Guidance%20364.021_tcm1061-213501.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.130243+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: View the Ban the Box technical guidance sheet
+- url: https://careerforce.mn.gov/sites/default/files/2025-08/Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
+  md5: 6420219b06d992f655fa757369da0320
+  file_hash: 891e5766d17232f9fad1e8aae973814bc56639a52172aec465d5752b327cdf33
+  filename: Teen%20Caring%20Career%20Resource%20Handout_ACC.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.133766+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Flyer that outlines the many reasons teens should considering working
+    in home-, community- and facility-based care
+- url: https://www.co.dakota.mn.us/libraries/Programs/Teens/Documents/TeenJobFairEmployerList.pdf
+  md5: ef3ccc2d780009f0769c8574d2269bf8
+  file_hash: 1f2fc6bd0cb0de59bd15ae1c3709f27084437601653a6f1fe7fa8b37570d4615
+  filename: TeenJobFairEmployerList.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.135684+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Teen Job Fair Employer and Resource List
+- url: https://mn.gov/deed/assets/TwinCities-2024_tcm1045-288722.pdf
+  md5: 5ea6683efaedaa3503092f81f51c3b09
+  file_hash: 598479ac12f1979ab7e7a2a555ce6360ada22d5371a6fa88e08f469c59cd6d10
+  filename: TwinCities-2024_tcm1045-288722.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.138682+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Twin Cities
+- url: https://careerforce.mn.gov/sites/default/files/2026-05/VetCareerFair%202026%20Directory-acc.pdf
+  md5: bf2abf8aafcf315e7e7006607e29bf28
+  file_hash: de400ae60e899059adec34c1ef10479ce96b0476314934e952d429356e713d92
+  filename: VetCareerFair%202026%20Directory-acc.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.144208+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Download the 20th Annual Veterans Career Fair Employer Directory
+- url: https://mn-careerforce-prod-files.s3.us-gov-west-1.amazonaws.com/files/2020-09/dei-employer-guide-acc.pdf
+  md5: 84981da7e9f083d104aa3e09ca8fd258
+  file_hash: 865f98c6e91d906edaee83891b98320ba773ed3c77627e87392ae20f78cfc2ed
+  filename: dei-employer-guide-acc.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.147498+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Diversity, Equity and Inclusion Guide for Employers
+- url: https://careerforce.mn.gov/sites/default/files/2025-06/dimi-membership-agreement-acc.pdf
+  md5: 96c15004052c4a56fb9c242b5ce37eb3
+  file_hash: f0c9a828b8bc3b874cc75703b31f78703e58098d87033a3669f67c5c8a8b6374
+  filename: dimi-membership-agreement-acc.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.149711+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: View our Membership Agreement
+- url: https://mn.gov/deed/assets/econ-dev-resource-guide_tcm1045-153149.pdf
+  md5: f1c7ea372b355aa6dd4c288c90d701eb
+  file_hash: 4979d91b14c52c1290fcb7fd3e743d8412e10b0e4a05a649373f5dc1acdd0c19
+  filename: econ-dev-resource-guide_tcm1045-153149.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.153944+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Minnesota Economic Development Resource Guide
+- url: https://mn.gov/deed/assets/employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
+  md5: 6a35c7995d5ac44409f6a5c73213d0c0
+  file_hash: 4eeee4d9a09273b9cb4e9e34fb5fc1539fa604e60d2a50b5ce4637eaa81271ed
+  filename: employer-reasonable-accommodation-fund-acc_tcm1045-595953.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.156125+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: click here
+- url: https://apps.deed.state.mn.us/assets/employment-resource-guide.pdf
+  md5: 2d373efeabd5b38dc84fd1c13cf1b14e
+  file_hash: 38d377c7cc84c9cda3377a482519c04cc8f32941ab4f0b5b682b2d7a1cc6031f
+  filename: employment-resource-guide.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.158430+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: 'Employment Resource Guide to State and Federal Agencies: Answers to
+    your Employment-Related Questions'
+- url: https://www.irs.gov/pub/irs-pdf/f8826.pdf
+  md5: 280d900deb950fd9f2c5db2bebad12a1
+  file_hash: 480502e4167833f1758f2a0fa200c4b0b113b8cb7d7d70ae808f1812d5d16ece
+  filename: f8826.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.160396+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: Form 8826, Disabled Access Credit
+- url: https://mn.gov/deed/assets/right-fair-treatment_tcm1045-363157.pdf
+  md5: 0a3a8ee54cceb10a4810421a1fb1fa20
+  file_hash: 88e0faf52390af7e6cf657a161ab9e4800b26402ddb45f394bfec2fc986e9cb9
+  filename: right-fair-treatment_tcm1045-363157.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.162982+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: right to fair treatment
+- url: https://mn.gov/deed/assets/wioa-discrimination-complaint_tcm1045-596623.pdf
+  md5: af1f5592808749a735c74ae385e2b1ea
+  file_hash: 5b3d2e3791300aeb80195aaf0a19bceb747a811c8eb8b71d06bf275108971784
+  filename: wioa-discrimination-complaint_tcm1045-596623.pdf
+  site: careerforce.mn.gov
+  crawled_at: '2026-07-08T01:43:50.166421+00:00'
+  status: pending
+  report: null
+  errors: []
+  analyses:
+    original:
+      status: pending
+      report: null
+      errors: []
+      analysed_at: null
+  link_text: complaint form
