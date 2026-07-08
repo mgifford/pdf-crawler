@@ -5728,6 +5728,7 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [iah-fg-yr4eval.pdf](https://www.cms.gov/priorities/innovation/files/reports/iah-fg-yr4eval.pdf) | cms.gov | 2019-05-23 | Evaluation of the Independence at Home Demonstration: Evaluation of Performance Years 1 to 4 (2012-2016) | Mathematica; CMS; CMMI; Innovation Center | {'Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact'} | "Independence at Home; IAH; alternative primary care; home care; home-based primary care; primary care; payment innovation; evaluation; impact" | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 747 | 4 |
 | [02118-part-b-outpatient-services.pdf](https://www.medicare.gov/publications/02118-part-b-outpatient-services.pdf) | medicare.gov | 2017-12-07 | Quick facts about payment for outpatient services for people with Medicare Part B. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 4 | 963 | 4 |
 | [02118-s-part-b-outpatient-services.pdf](https://www.medicare.gov/publications/02118-s-part-b-outpatient-services.pdf) | medicare.gov | 2018-01-04 | Resumen sobre el Sistema de Pago de Servicios Ambulatorios para las Personas con la Parte B de Medicare | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 4 | 1090 | 4 |
+| [02154-medicare-hospice-benefits.pdf](https://www.medicare.gov/publications/02154-medicare-hospice-benefits.pdf) | medicare.gov | 2026-02-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 20 | — | — |
 | [02173-getting-a-second-opinion-before-surgery.pdf](https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf) | medicare.gov | 2022-01-11 | Getting a second opinion before surgery. | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 802 | 4 |
 | [02173-s-getting-a-second-opinion-before-surgery.pdf](https://www.medicare.gov/publications/02173-s-getting-a-second-opinion-before-surgery.pdf) | medicare.gov | 2022-01-21 | Una Segunda Opinión Antes de la Cirugía. | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 4 | 952 | 4 |
 | [02174-s-your-guide-to-choosing-a-nursing-home.pdf](https://www.medicare.gov/publications/02174-s-your-guide-to-choosing-a-nursing-home.pdf) | medicare.gov | 2025-11-21 | 02174-S: Su guía para elegir un asilo de ancianos | Centers for Medicare and Medicaid Services | {'booklet', 'Your Guide to Choosing a Nursing Home', 'Medicare', 'Spanish', 'Su guía para elegir un asilo de ancianos', '02174', 'Centers for Medicare & Medicaid Services'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | 3376 | 9 |
@@ -5762,6 +5763,7 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf](https://www.medicare.gov/publications/10153-medicare-coverage-of-skilled-nursing-facility-care-508.pdf) | medicare.gov | 2025-08-06 | Medicare Coverage of Skilled Nursing Facility Care | Centers for Medicare and Medicaid Services | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 7612 | 10 |
 | [10153-s-medicare-skilled-nursing-facility.pdf](https://www.medicare.gov/publications/10153-s-medicare-skilled-nursing-facility.pdf) | medicare.gov | 2025-08-20 | Medicare Rights & Protections | Centers for Medicare and Medicaid Services | {'11534', 'Medicare Rights & Protections', 'Medicare'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 8543 | 9 |
 | [10181-s-guide-to-choosing-a-hospital.pdf](https://www.medicare.gov/publications/10181-s-guide-to-choosing-a-hospital.pdf) | medicare.gov | 2026-03-31 | La guía para escoger un hospital | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | 3512 | 7 |
+| [10969-medicare-and-home-health-care.pdf](https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf) | medicare.gov | 2025-06-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 24 | — | — |
 | [10969-s-medicare-and-home-health-care.pdf](https://www.medicare.gov/publications/10969-s-medicare-and-home-health-care.pdf) | medicare.gov | 2025-08-18 | 10969 Medicare y el Cuidado de Salud en el Hogar | Centers for Medicare and Medicaid Services | {'Medicare and Home Health Care Booklet', 'Medicare y el Cuidado de Salud en el Hogar', 'Centers for Medicare and Medicaid Services', 'Spanish', 'CMS'} | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | 24 | 6675 | 5 |
 | [10988-medicare-coverage-of-therapy-services.pdf](https://www.medicare.gov/publications/10988-medicare-coverage-of-therapy-services.pdf) | medicare.gov | 2024-11-05 | Medicare Coverage of Therapy Services | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 464 | 0 |
 | [10988-s-medicare-coverage-therapy-services.pdf](https://www.medicare.gov/publications/10988-s-medicare-coverage-therapy-services.pdf) | medicare.gov | 2025-01-22 | Cobertura de Medicare para servicios de terapia | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 550 | 0 |
@@ -5796,6 +5798,7 @@ Report to Congress | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [11145-j.pdf](https://www.medicare.gov/publications/11145-j.pdf) | medicare.gov | 2015-07-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 2 | 98 | 2 |
 | [11173-medicare-beneficiary-ombudsman.pdf](https://www.medicare.gov/publications/11173-medicare-beneficiary-ombudsman.pdf) | medicare.gov | 2024-09-10 | The Medicare Beneficiary Ombudsman Works for You | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 473 | 0 |
 | [11173-s-the-medicare-beneficiary-ombudsman-works-for-you.pdf](https://www.medicare.gov/publications/11173-s-the-medicare-beneficiary-ombudsman-works-for-you.pdf) | medicare.gov | 2024-09-10 | El Defensor del Beneficiario de Medicare trabaja para usted | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 571 | 0 |
+| [11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf](https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf) | medicare.gov | 2026-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | — | — |
 | [11220-I-have-you-done-your-yearly-medicare-plan-review.pdf](https://www.medicare.gov/publications/11220-I-have-you-done-your-yearly-medicare-plan-review.pdf) | medicare.gov | 2025-09-23 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1020 | 1 |
 | [11220-ar-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-ar-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 916 | 1 |
 | [11220-arb-your-yearly-medicare-review.pdf](https://www.medicare.gov/publications/11220-arb-your-yearly-medicare-review.pdf) | medicare.gov | 2026-02-13 | Your Yearly Medicare Review | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1008 | 1 |
@@ -5833,6 +5836,7 @@ Home Health Benefit | Centers for Medicare & Medicaid Services | {'Home Health B
 | [11361-s-medicare-and-hospice-benefits.pdf](https://www.medicare.gov/publications/11361-s-medicare-and-hospice-benefits.pdf) | medicare.gov | 2025-07-03 | Medicare y los beneficios de hospicio | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1511 | 1 |
 | [11368-n-bringing-better-heal-care.pdf](https://www.medicare.gov/publications/11368-n-bringing-better-heal-care.pdf) | medicare.gov | 2015-08-24 | Bringing Better Health Care to Native Communities | {'The Centers for Medicare & Medicaid Services'} | {'tribal', 'American Indian', 'health insurance', 'Medicare', 'Centers for Medicare and Medicaid Services', 'Native health', 'CMS', 'health coverage', 'Alaska Native', 'Indian Country', 'Medicaid', 'AI/AN', 'Marketplace'} | CMS, Centers for Medicare and Medicaid Services, Native health, Indian Country, American Indian, Alaska Native, AI/AN, tribal, Medicare, Medicaid, Marketplace, health insurance, health coverage | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 2 | 496 | 5 |
 | [11376-s-your-discharge-planning-checklist.pdf](https://www.medicare.gov/publications/11376-s-your-discharge-planning-checklist.pdf) | medicare.gov | 2025-12-09 | Su lista de verificación para la planificación del alta | — | {'11376', 'Medicare', 'Your discharge planning checklist'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 1624 | 1 |
+| [11376-your-discharge-planning-checklist.pdf](https://www.medicare.gov/publications/11376-your-discharge-planning-checklist.pdf) | medicare.gov | 2025-12-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | — | — |
 | [11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf](https://www.medicare.gov/publications/11377-getting-care-and-drugs-in-a-disaster-or-emergency.pdf) | medicare.gov | 2025-03-04 | Getting Care & Drugs in a Disaster or Emergency | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1249 | 0 |
 | [11377-s-getting-care-and-drugs-in-a-disaster-or-emergency.pdf](https://www.medicare.gov/publications/11377-s-getting-care-and-drugs-in-a-disaster-or-emergency.pdf) | medicare.gov | 2025-03-07 | Cómo obtener atención médica y medicamentos en una situación de desastre o emergencia | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1427 | 0 |
 | [11389-s-medicare-getting-started.pdf](https://www.medicare.gov/publications/11389-s-medicare-getting-started.pdf) | medicare.gov | 2026-02-27 | Medicare: Conozca los conceptos básicos | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 4 | 1789 | 1 |
@@ -5876,6 +5880,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [11514-a-quick-look-at-medicare-2.pdf](https://www.medicare.gov/publications/11514-a-quick-look-at-medicare-2.pdf) | medicare.gov | 2020-07-21 | A Quick Look at Medicare | CMS | {'Original Medicare', 'Medicare Advantage', 'resources', 'help', 'Medicare basics'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | 611 | 2 |
 | [11514-s-a-quick-look-medicare.pdf](https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf) | medicare.gov | 2020-07-30 | Resumen Corto Sobre Medicare | {'CMS'} | {'información básica', 'Medicare Advantage', 'ayuda', 'recursos', 'Medicare Original'} | Medicare Original, Medicare Advantage, recursos, ayuda, información básica | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | 686 | 2 |
 | [11525-medicare-appeals.pdf](https://www.medicare.gov/publications/11525-medicare-appeals.pdf) | medicare.gov | 2026-04-21 | Medicare Appeals | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 48 | 14904 | 8 |
+| [11579-medicare-costs.pdf](https://www.medicare.gov/publications/11579-medicare-costs.pdf) | medicare.gov | 2025-12-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | — | — |
+| [summarynoticeenvelope.pdf](https://www.medicare.gov/publications/summarynoticeenvelope.pdf) | medicare.gov | 2024-04-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — |
 | [BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf](https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf) | kfw.de | 2024-10-17 | Green Bonds – Made by KfW: Impact achieved by KfW’s green bond issuances 2021 & 2022 (September 2024) | KfW Group | Impact achieved by KfW’s green bond issuances 2021 & 2022 | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 19 | 11677 | 23 |
 | [KfW-FInancial-Report-2023.pdf](https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-FInancial-Report-2023.pdf) | kfw.de | 2024-06-03 | Financial Report 2023 | {'KfW Bankengruppe'} | Shaping transformation | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 224 | 89690 | 26 |
 | [KfW-Gesetz-DE-EN.pdf](https://www.kfw.de/PDF/Download-Center/Law-Concerning-KfW/KfW-Gesetz-DE-EN.pdf) | kfw.de | 2021-01-27 | Law Concerning Kreditanstalt für Wiederaufbau | KfW | Law Concerning Kreditanstalt für Wiederaufbau | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 12 | 4466 | 0 |
@@ -63098,8 +63104,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 02154-medicare-hospice-benefits.pdf
 
 - **URL**: https://www.medicare.gov/publications/02154-medicare-hospice-benefits.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/RMCORP+Gotham-Book, /RMCORP+Gotham-Bold, /RMCORP+Montserrat-Bold, /RMCORP+Gotham-Medium, /RMCORP+MyriadPro-BoldCond
 
 ### 02173-getting-a-second-opinion-before-surgery.pdf
 
@@ -63111,7 +63117,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 - **URL**: https://www.medicare.gov/publications/10050-le-medicare-and-you.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Analysis exceeded 120s per-file limit
 
 ### 10108_c.pdf
 
@@ -63176,8 +63182,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 10969-medicare-and-home-health-care.pdf
 
 - **URL**: https://www.medicare.gov/publications/10969-medicare-and-home-health-care.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/AFOMOX+Montserrat-Bold, /AFOMOX+Gotham-Bold, /CVIYQT+Gotham-Medium, /AFOMOX+Gotham-Bookannotations-tagging-fail, 
 
 ### 10969-s-medicare-and-home-health-care.pdf
 
@@ -63236,8 +63242,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
 
 - **URL**: https://www.medicare.gov/publications/11219-Understanding-Medicare-Advantage-Medicare-Drug-Plan-Enrollment-Periods.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/GBTJTL+Montserrat-SemiBold, /GBTJTL+Gotham-Bold, /GBTJTL+Montserrat-Regular, /GBTJTL+Gotham-Book, /GBTJTL+Montserrat-Bold, /GBTJTL+Montserrat-Medium, /GBTJTL+Gotham-Mediumannotations-tagging-fail, 
 
 ### 11220-your-yearly-medicare-review.pdf
 
@@ -63320,8 +63326,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 11376-your-discharge-planning-checklist.pdf
 
 - **URL**: https://www.medicare.gov/publications/11376-your-discharge-planning-checklist.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/DVVYRR+Montserrat-Regular, /DVVYRR+Montserrat-Bold, /DVVYRR+Gotham-Book, /DVVYRR+Wingdings-Regular, /DVVYRR+Gotham-Medium, /DVVYRR+Gotham-Bold
 
 ### 11389-s-medicare-getting-started.pdf
 
@@ -63434,8 +63440,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 11579-medicare-costs.pdf
 
 - **URL**: https://www.medicare.gov/publications/11579-medicare-costs.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/JGOHNF+Gotham-Bold, /JGOHNF+MinionPro-Regular, /JGOHNF+Montserrat-Regular, /JGOHNF+Gotham-Medium, /JGOHNF+Gotham-Book, /JGOHNF+Montserrat-Bold
 
 ### 11579-s-medicare-costs.pdf
 
@@ -63662,8 +63668,8 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### summarynoticeenvelope.pdf
 
 - **URL**: https://www.medicare.gov/publications/summarynoticeenvelope.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BVEFMV+MyriadPro-Bold, /BVEFMV+MinionPro-Regular, /MNUTTE+MyriadPro-Bold, /SBHDZS+MyriadPro-Regular, /BVEFMV+MyriadPro-Regular, /MNUTTE+MyriadPro-Regular
 
 ### KfW-Finanzbericht-2024-2.pdf
 
@@ -66602,356 +66608,356 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 ### 10001.pdf
 
 - **URL**: https://www.medicare.gov/media/10001
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BIVPFA+Montserrat-Regular, /NGQJRC+Gotham-Medium, /NGQJRC+Gotham-Bold, /NGQJRC+Gotham-BookItalic, /NGQJRC+Montserrat-SemiBold, /NGQJRC+Gotham-Black, /NGQJRC+Montserrat-ExtraBold, /NGQJRC+Montserrat-Medium, /NGQJRC+Gotham-Book, /BIVPFA+Webdings, /NGQJRC+Montserrat-Bold, /BIVPFA+Wingdings-Regularheadings-skip, lists-warn, tables-fail, 
 
 ### 10011.pdf
 
 - **URL**: https://www.medicare.gov/media/10011
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/SDQLJS+Gotham-Bold, /SDQLJS+Montserrat-Bold, /SDQLJS+Gotham-Medium, /BVYOFA+Montserrat-Medium, /SDQLJS+Montserrat-ExtraBold, /SDQLJS+Gotham-Book, /SDQLJS+Gotham-BookItalic, /BVYOFA+Montserrat-SemiBold, /BVYOFA+Montserrat-Regularheadings-skip, 
 
 ### 10021.pdf
 
 - **URL**: https://www.medicare.gov/media/10021
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/HXCNQO+Gotham-Book, /HXCNQO+Gotham-BookItalic, /HXCNQO+Montserrat-ExtraBold, /SWIBOS+Gotham-Black, /HXCNQO+Gotham-Medium, /HXCNQO+Montserrat-Bold, /HXCNQO+Montserrat-SemiBold, /HXCNQO+Gotham-Bold, /SWIBOS+MinionPro-Regular, /HXCNQO+Montserrat-Mediumheadings-skip, tables-fail, annotations-tagging-fail, 
 
 ### 10036.pdf
 
 - **URL**: https://www.medicare.gov/es/media/10036
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/KFGKVI+Montserrat-ExtraBold, /KFGKVI+Montserrat-Bold, /KFGKVI+Montserrat-Medium, /KFGKVI+Montserrat-SemiBold, /YERCJG+MinionPro-Regular, /KFGKVI+Gotham-Black, /KFGKVI+Gotham-Book, /KFGKVI+Gotham-Medium, /KFGKVI+Gotham-BookItalic, /YERCJG+Gotham-Boldannotations-tagging-fail, 
 
 ### 10050-medicare-and-you.pdf
 
 - **URL**: https://www.medicare.gov/publications/10050-medicare-and-you.pdf
 - **Status**: error
-- No module named 'simpla11ypdf'
+- Analysis exceeded 120s per-file limit
 
 ### 10056.pdf
 
 - **URL**: https://www.medicare.gov/media/10056
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/SJUIJN+Gotham-Bold, /SJUIJN+Montserrat-Medium, /PRUNOT+Gotham-Medium, /SJUIJN+Montserrat-ExtraBold, /SJUIJN+Gotham-Book, /SJUIJN+Montserrat-SemiBold, /SPYFEN+Gotham-Book, /NKMERX+Montserrat-Bold, /SJUIJN+Gotham-Medium, /SJUIJN+Gotham-BookItalic, /NKMERX+Gotham-Black, /SJUIJN+Montserrat-Boldlists-warn, tables-fail, annotations-tagging-fail, 
 
 ### 10181guidetochoosing-ahospital.pdf
 
 - **URL**: https://www.medicare.gov/publications/10181guidetochoosing-ahospital.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/VBZYMD+MinionPro-Regular, /ACVSGX+Montserrat-Bold, /ACVSGX+Montserrat-Regular, /BKFYUV+Gotham-Medium, /ACVSGX+Gotham-Book, /ACVSGX+Gotham-Bold, /ACVSGX+MyriadPro-BoldCond
 
 ### 11095-Get-Ready-for-Medicare-package-in-United-States.pdf
 
 - **URL**: https://www.medicare.gov/media/11095-Get-Ready-for-Medicare-package-in-United-States.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/OUHVAV+Montserrat-Regular, /SJAVON+Gotham-Bold, /SJAVON+Montserrat-Medium, /OUHVAV+Gotham-Black, /SJAVON+Gotham-Book, /SJAVON+Montserrat-ExtraBold, /SJAVON+Gotham-BookItalic, /OUHVAV+Webdings, /OUHVAV+Gotham-Medium, /FMNAZN+Gotham-Book, /OUHVAV+Wingdings-Regular, /SJAVON+Montserrat-SemiBold, /SJAVON+Montserrat-Boldtables-fail, 
 
 ### 11154-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11154-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/SXDNON+SymbolMT, /UPFJQJ+TimesNewRomanPS-BoldMT, /ZMUSIZ+ArialMT, /KAFBGD+TimesNewRomanPSMT, /NVOEWX+MS-Gothic, /OPZFKV+Gulim, /IQBAEH+MS-Mincho, /QBJLMR+BookAntiqua, /GGVCPG+Cambria, /AYHTWX+TimesNewRomanPS-BoldMT, /YYCCUB+TimesNewRomanPSMT, /SXDNON+Arial-Black, /IYZAEH+MalgunGothicBold, /APVSJS+Arial-BoldMT, /CASELO+SymbolMT, /EXAHAP+MS-Gothic, /SXDNON+SegoeUIalt-nested-fail, headings-none, 
 
 ### 11154.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11154.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BZZXXW+BookAntiqua, /NWDRJY+Arial-Black, /MBUNFA+SymbolMT, /AAPRJY+SegoeUI, /UWRMDK+TimesNewRomanPS-BoldMT, /VYANRI+MS-Mincho, /WJUDFG+TimesNewRomanPSMT, /NWDRJY+SymbolMT, /AAPRJY+MS-Gothic, /FAYQBO+Gulim, /VYANRI+MalgunGothicBold, /KXNZTE+MS-Gothic, /LYDKHC+TimesNewRomanPSMT, /XUJBDE+Arial-BoldMT, /DRGTZS+ArialMT, /FXEABO+TimesNewRomanPS-BoldMTalt-nested-fail, 
 
 ### 11166-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11166-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/WUBQXG+SymbolMT, /YOMBHB+BookAntiqua, /RUSRFQ+TimesNewRomanPSMT, /YOMBHB+TimesNewRomanPSMT, /RMSBIP+MS-Gothic, /BWQUPW+TimesNewRomanPS-BoldMT, /MXDINA+Arial-BoldMT, /AKGDEX+MS-Mincho, /WUBQXG+ArialMT, /HPUYDJ+SymbolMT, /AKGDEX+MalgunGothicBold, /MMJCVZ+TimesNewRomanPS-BoldMT, /XNWQTD+Arial-Black, /HPUYDJ+SegoeUI, /LLORCB+Gulim, /HPUYDJ+MS-Gothic, /IYIJRH+TimesNewRomanPSMT, /NNZSJX+ArialMTalt-nested-fail, headings-none, 
 
 ### 11166.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11166.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BAJEKW+MalgunGothicBold, /VGPZEI+Arial-Black, /GJDXCM+TimesNewRomanPSMT, /WZHPSG+TimesNewRomanPSMT, /EEYBAQ+BookAntiqua, /YDZMUC+MS-Gothic, /PFLPYU+MS-Gothic, /LCHHUC+Gulim, /Arial-BoldMT, /PFLPYU+SymbolMT, /TimesNewRomanPSMT, /QGBAMS+TimesNewRomanPS-BoldMT, /PQSSKZ+SymbolMT, /PESEYU+ArialMT, /EEYBAQ+SegoeUI, /TGKICM+MS-Mincho, /ArialMT, /BHOOKW+TimesNewRomanPS-BoldMTalt-nested-fail, 
 
 ### 11186-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11186-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/RSSTOL+Arial-Black, /SHDRID+Arial-BoldMT, /DYIYAN+Gulim, /WIXNGB+MS-Gothic, /DQKYAN+MalgunGothicBold, /LFDDIX+TimesNewRomanPS-BoldMT, /RIOOOL+MS-Gothic, /GIOZQH+TimesNewRomanPS-BoldMT, /UHELEF+SymbolMT, /ZZPKWV+SegoeUI, /VXCGSD+TimesNewRomanPSMT, /USWBEF+MS-Mincho, /VMFQSD+ArialMT, /USAYKZ+SymbolMT, /OYCWYR+BookAntiqua, /XLTIUZ+TimesNewRomanPSMTheadings-none, 
 
 ### 11186.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11186.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/HCRBIE+TimesNewRomanPS-BoldMT, /HFLWIE+MS-Mincho, /HFLWIE+MalgunGothicBold, /RCJESK+Gulim, /MCAAAU+SegoeUI, /REPJSK+Arial-Black, /CCICVO+TimesNewRomanPSMT, /MBHPFU+ArialMT, /JYGAHW+TimesNewRomanPSMT, /XCUDDY+TimesNewRomanPSMT, /WEYIKA+MS-Gothic, /XBHBVU+Arial-BoldMT, /CFCXQO+SymbolMT, /MCAAAU+MS-Gothic, /MISNXQ+ArialMT, /XFTYDY+TimesNewRomanPS-BoldMT, /CFCXQO+BookAntiqua, /NMCTLO+SymbolMT
 
 ### 11198-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11198-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- tagged-content-fail, fonts:/AAAAAE+ArialMT, /AAAABD+Gulim, /AAAAAH+ArialMT, /TWOKRW+SymbolMT, /AAAAAJ+TimesNewRomanPSMT, /AAAAAZ+MS-Mincho, /AAAAAC+ArialMT, /YYDOJM+TimesNewRomanPSMT, /AAAAAX+MS-Gothic, /AAAABB+MalgunGothicBold, /AAAAAT+Helvetica, /AAAABE+TimesNewRomanPSMT, /IVBWTS+Arial-BoldMT, /AAAAAF+Palatino-Roman, /AAAAAP+Arial-Black, /AAAAAN+TimesNewRomanPS-BoldMT, /TWOKRW+TimesNewRomanPS-BoldMT, /TWOKRW+ArialMT, /AAAAAR+Palatino-Roman, /AAAAAL+Arial-Black, /AAAAAS+Helvetica, /AAAAAQ+SymbolMT, /AAAAAV+TimesNewRomanPSMT, /EHVVCU+Arial-Blackheadings-none, annotations-tagging-fail, 
 
 ### 11198.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11198.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- tagged-content-fail, fonts:/AAAAAE+ArialMT, /AAAABB+Gulim, /AAAAAC+ArialMT, /AAAAAV+MS-Gothic, /AAAAAR+Helvetica, /AAAABC+TimesNewRomanPSMT, /AAAAAX+MS-Mincho, /AAAAAN+SymbolMT, /AAAAAG+ArialMT, /AAAAAI+TimesNewRomanPSMT, /CHCAKK+SymbolMT, /AAAAAT+TimesNewRomanPSMT, /Arial-BoldMT, /AAAAAQ+Palatino-Roman, /TimesNewRomanPSMT, /AAAAAK+Arial-Black, /AAAAAP+TimesNewRomanPS-BoldMT, /GHPHEQ+Arial-Black, /AAAAAZ+MalgunGothicBold, /ArialMT, /AAAAAM+Arial-Blackheadings-none, 
 
 ### 11199-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11199-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/GNATPG+ArialMT, /TLIKNG+TimesNewRomanPSMT, /BNWNNV+TimesNewRomanPSMT, /RNCNHV+SymbolMT, /KEFAJD+MS-PGothic, /NPZMZX+TimesNewRomanPSMT, /SIDBRN+SimSun, /GMPZJR+Arial-BoldMT, /PLTOBT+TimesNewRomanPS-BoldMT, /EJSPDP+ArialMT, /NPZMZX+Arial-Black, /SQGBRN+MS-PGothic, /WPRWZL+TimesNewRomanPSMT, /SATMFT+TimesNewRomanPSMT, /ALNRZX+SegoeUIHistoric, /ATIFFN+ArialMT, /SLCWRN+Batang, /WJCUVF+MalgunGothicBold, /RNCNHV+TimesNewRomanPS-BoldMT, /MBHBGU+ArialMT, /WGIEVF+MS-Gothic, /RNCNHV+ArialMT, /EKGADP+TimesNewRomanPS-BoldMTheadings-none, annotations-tagging-fail, 
 
 ### 11199.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11199.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/JPBOJB+SimSun, /JOIDJB+ArialMT, /DNJODN+TimesNewRomanPSMT, /EHPPRL+TimesNewRomanPSMT, /PRLOVT+SymbolMT, /XCNXCJ+ArialMT, /CMOYPP+TimesNewRomanPS-BoldMT, /TRZRTH+MS-PGothic, /YOHIAH+ArialMT, /Arial-BoldMT, /DOXZDN+MalgunGothicBold, /TimesNewRomanPSMT, /HQOCVP+ArialMT, /MORGZV+BookAntiqua, /YOOALX+MS-Gothic, /YEKVLX+MalgunGothic, /FTDRQO+TimesNewRomanPSMT, /RLBPRL+Arial-BoldMT, /MBUMKA+TimesNewRomanPS-BoldMT, /LWSANW+TimesNewRomanPS-BoldMT, /USCDXP+ArialMT, /FNQQHI+TimesNewRomanPSMT, /JPBOJB+MS-PGothic, /ArialMT
 
 ### 11208-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11208-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /TimesNewRomanPS-BoldMT, /BMTRHL+ArialMT, /BCDHEE+MS-Gothic, /SWIKLD+Arial-Black, /Helvetica, /BCDEEE+SegoeUIHistoric, /BCDGEE+Wingdings-Regular, /GEEQZB+SymbolMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /RXTEXF+TimesNewRomanPSMT, /YKFZRR+Arial-BoldMT, /ArialMT, /BCDIEE+MS Minchoheadings-none, 
 
 ### 11208.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11208.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- tagged-content-fail, fonts:/AAAAAW+Palatino-Roman, /AAAAAX+Helvetica, /ZDDFSU+TimesNewRomanPSMT, /AAAABD+MS-Mincho, /EVOEKK+ArialMT, /IBMCOC+TimesNewRomanPS-BoldMT, /AAAAAC+ArialMT, /AAAABB+MS-Gothic, /AAAAAZ+TimesNewRomanPSMT, /AAAAAN+SymbolMT, /AAAAAG+ArialMT, /AAAAAI+Arial-Black, /AAAABH+Gulim, /AAAAAK+TimesNewRomanPSMT, /AAAAAP+Arial-Black, /AAAAAV+TimesNewRomanPS-BoldMT, /AAAAAM+TimesNewRomanPS-BoldMT, /OKORUQ+Arial-BoldMT, /AAAABI+TimesNewRomanPSMT, /AAAABF+MalgunGothicBold, /AAAAAT+ArialMT, /AAAAAR+Wingdings-Regular, /FZYKYI+SymbolMTheadings-none, 
 
 ### 11209-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11209-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /MTTZCP+SymbolMT, /MLVZCP+Arial-BoldMT, /BSGLEL+TimesNewRomanPSMT, /LUETOR+ArialMT, /Helvetica, /EZUDUF+TimesNewRomanPS-BoldMT, /BCDEEE+SegoeUIHistoric, /BCDGEE+Wingdings-Regular, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /ArialMT, /BCDIEE+MS Minchoheadings-none, 
 
 ### 11209.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11209.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /BCDGEE+SegoeUIHistoric, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /LABQAS+TimesNewRomanPSMT, /Helvetica, /UYKSWA+SymbolMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /SymbolMT, /BCDFEE+Wingdings-Regular, /TZAMIC+ArialMT, /AMMCCO+Arial-BoldMT, /BCDEEE+Arial-Black, /ArialMT, /BCDIEE+MS Minchoheadings-none, 
 
 ### 11267-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11267-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /YQGKVM+ArialMT, /TimesNewRomanPS-BoldMT, /ZCOLJK+SymbolMT, /WNCYTQ+Arial-BoldMT, /BCDHEE+MS-Gothic, /Helvetica, /BCDEEE+SegoeUIHistoric, /BCDGEE+Wingdings-Regular, /LUSKVM+TimesNewRomanPSMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /PFQIZE+TimesNewRomanPS-BoldMT, /ArialMT, /BCDIEE+MS Minchoheadings-none, 
 
 ### 11267.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11267.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /BCDGEE+SegoeUIHistoric, /TimesNewRomanPS-BoldMT, /CWVWQT+TimesNewRomanPSMT, /BCDHEE+MS-Gothic, /Helvetica, /HJLAIJ+ArialMT, /INVGWH+SymbolMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /SymbolMT, /BCDFEE+Wingdings-Regular, /BCDEEE+Arial-Black, /ArialMT, /PAMWQT+Arial-BoldMT, /BCDIEE+MS Minchoheadings-none, 
 
 ### 11334-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11334-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/LRLZXM+Arial-BoldMT, /XQXPWO+Gulim, /XRKOWO+ArialMT, /XQXPWO+MalgunGothicBold, /CPSDOE+SymbolMT, /CRTNOE+TimesNewRomanPSMT, /CSMYOE+MS-Gothic, /BCLRNG+TimesNewRomanPSMT, /JWKNVQ+ArialMT, /HOIWGU+BookAntiqua, /SPVFEY+Arial-Black, /MPKGYK+MS-Mincho, /RRZKQA+MS-Gothic, /CPSDOE+TimesNewRomanPS-BoldMT, /HRCMGU+TimesNewRomanPSMT, /HPBHGU+SegoeUI, /XSDZWO+TimesNewRomanPS-BoldMT, /KAZTJO+SymbolMT, /OGXRNG+TimesNewRomanPS-BoldMTheadings-none, 
 
 ### 11334.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11334.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/WBVAKF+MS-Mincho, /WEPVKF+Gulim, /EFNKSP+TimesNewRomanPSMT, /UOMXIJ+TimesNewRomanPS-BoldMT, /YKGQMB+TimesNewRomanPS-BoldMT, /TYOXUL+MS-Gothic, /ZMOAAZ+TimesNewRomanPSMT, /QCXVER+MS-Gothic, /MVZFAZ+Arial-Black, /REGWSP+MalgunGothicBold, /DXSPER+SymbolMT, /QBEKER+BookAntiqua, /WUZTPG+Arial-BoldMT, /FKTULN+ArialMT, /LZPGMB+SegoeUI, /HVMCNK+SymbolMT
 
 ### 11389-Medicare-Getting-Started.pdf
 
 - **URL**: https://www.medicare.gov/publications/11389-Medicare-Getting-Started.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/TNJVQL+Gotham-Book, /TNJVQL+Montserrat-Regular, /TNJVQL+Montserrat-Bold, /TNJVQL+Gotham-Medium, /TNJVQL+Gotham-Boldannotations-tagging-fail, 
 
 ### 11429-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11429-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/XUFKLO+Cambria, /CJGJCJ+MS-Gothic, /WICUWV+Gulim, /SMIBSD+SegoeUI, /SMIBSD+SymbolMT, /OODDOL+MS-Mincho, /ZOXBMP+TimesNewRomanPSMT, /KMQUKT+BookAntiqua, /TOCMHW+SymbolMT, /GOLWGB+TimesNewRomanPS-BoldMT, /OLJIOL+TimesNewRomanPSMT, /EZDQEF+MalgunGothicBold, /UOOCUZ+TimesNewRomanPS-BoldMT, /WISJXQ+Arial-BoldMT, /JOUZWV+Arial-Black, /SMIBSD+MS-Gothic, /KMQUKT+ArialMTalt-nested-fail, headings-none, 
 
 ### 11429.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11429.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/SIQTSD+TimesNewRomanPS-BoldMT, /XIESKT+BookAntiqua, /VABBIX+Gulim, /LICDYR+Arial-Black, /HCWVRJ+SymbolMT, /OMWAOL+TimesNewRomanPSMT, /EKTXEF+ArialMT, /UYKARJ+Arial-BoldMT, /NBCKAN+MalgunGothicBold, /LICDYR+SymbolMT, /NBCKAN+MS-Mincho, /XIESKT+SegoeUI, /DJDHQH+TimesNewRomanPS-BoldMT, /GGNUGB+MS-Gothic, /XIESKT+MS-Gothic, /DBFMQH+TimesNewRomanPSMTalt-nested-fail, 
 
 ### 11433.pdf
 
 - **URL**: https://www.cms.gov/Outreach-and-Education/Outreach/Partnerships/downloads/11433.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- tagged-content-fail, fonts:/PGEYBO+Gulim, /WTHPGL+ArialMT, /TimesNewRomanPS-BoldMT, /OMKMLB+ArialMT, /AWVQTY+ArialMT, /DDIJPM+SymbolMT, /EYDZHV+ArialMT, /IDLSYD+Arial, /Arial-BoldMT, /USGRGZ+ArialMT, /TimesNewRomanPSMT, /VERKQD+TimesNewRomanPS-BoldMT, /CEYDBO+TimesNewRomanPS-BoldMT, /KXADQU+TimesNewRomanPSMT, /OPTMDW+ArialMT, /TYZZUB+TimesNewRomanPSMT, /RCIHUA+TimesNewRomanPSMT, /FIDPPO+ArialMT, /ZUCXQP+SymbolMT, /MOGIUV+TimesNewRomanPSMT, /EFNBMG+Arial, /MOLSJF+ArialMT, /WLSOVA+SimSun, /GXHUUB+CourierNewPSMT, /IQDSUX+SymbolMT, /VMRFTI+ArialMT, /BVRPWR+ArialMT, /ZAEGLU+MalgunGothicBold, /VNYBUY+Arial, /ZLLICK+TimesNewRomanPS-BoldMT, /FTKVRI+MS-Gothic, /XVHRTU+Arial, /SXWVRI+SimSun, /NXVPON+Arial-Black, /CHBFVT+TimesNewRomanPSMT, /CZDIOJ+Arial-Black, /DCQNWI+ArialMT, /QHEOCH+TimesNewRomanPS-BoldMT, /XULZJY+TimesNewRomanPSMT, /SCFAED+TimesNewRomanPSMT, /KKPTRD+TimesNewRomanPSMT, /ZFNZAQ+ArialMT, /JPEOVA+MS-PGothic, /HROMGZ+BookAntiqua, /WMZIZB+Arial, /XQUBAU+ArialMT, /QMHCEH+Arial-BoldMT, /JNQFHL+ArialMT, /NHZUON+ArialMT, /LQFPGB+ArialMT, /IJZFYS+ArialMT, /QDFTTX+TimesNewRomanPSMT, /TTVUUB+SymbolMTheadings-none, 
 
 ### 11443-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11443-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDJEE+Gulim, /YKMBBM+SymbolMT, /TimesNewRomanPS-BoldMT, /BCDHEE+MS Mincho, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /OIOYRG+TimesNewRomanPSMT, /SymbolMT, /QVASBI+TimesNewRomanPSMT, /Helvetica, /BCDGEE+MS-Gothic, /BCDEEE+SegoeUIHistoric, /ArialMT, /BCDIEE+MalgunGothicBold, /ELQQHA+Arial-BoldMTheadings-none, annotations-tagging-fail, 
 
 ### 11443.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11443.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/Arial-BoldMT, /TimesNewRomanPS-BoldMT, /BCDHEE+MS Mincho, /DXQAPS+TimesNewRomanPSMT, /TimesNewRomanPSMT, /SymbolMT, /MNNXAF+SymbolMT, /BCDFEE+SegoeUIHistoric, /BCDEEE+Arial-Black, /UHATTK+TimesNewRomanPSMT, /Helvetica, /BCDGEE+MS-Gothic, /BCDJEE+Gulim, /ArialMT, /BCDIEE+MalgunGothicBoldheadings-none, annotations-tagging-fail, 
 
 ### 11452notice.pdf
 
 - **URL**: https://www.medicare.gov/publications/11452notice.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/LOEFPR+TimesNewRomanPSMT, /IDKJSY+ArialMT, /TimesNewRomanPS-BoldMT, /GWPFOC+ArialMT, /GMPWXB+SimSun, /MUNJNA+Arial-Black, /ZQBJNA+ArialMT, /LEIKHS+ArialMT, /MMPJNA+TimesNewRomanPSMT, /VLCIZX+MS-Gothic, /LMYVPR+Gulim, /Arial-Black, /WPWBMB+TimesNewRomanPSMT, /QQKPGI+ArialMT, /LEFIOX+ArialMT, /TimesNewRomanPSMT, /QONEHH+MS-PGothic, /ALLHRN+MalgunGothicBold, /LOEFPR+TimesNewRomanPS-BoldMT, /XWJCAZ+TimesNewRomanPS-BoldMT, /ArialMT, /LOEFPR+BookAntiqua, /LOEFPR+SymbolMT
 
 ### 11475-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11475-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /PZESKZ+SymbolMT, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /BWIRWB+TimesNewRomanPSMT, /QVVDYX+Calibri, /Helvetica, /BCDEEE+SegoeUIHistoric, /BCDGEE+Arial-Black, /DZHDYX+Arial-Black, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /TXJVOR+ArialMT, /BCDIEE+MS Mincho, /ArialMT, /KMTTSJ+Arial-BoldMTtables-warn, 
 
 ### 11475.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11475.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /ZOTQNA+ArialMT, /BCDGEE+SegoeUIHistoric, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /Helvetica, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /LGSPZC+Arial-BoldMT, /BCDEEE+Arial-Black, /BRSCPW+SymbolMT, /ArialMT, /DMTTRS+TimesNewRomanPSMT, /BCDIEE+MS Minchoheadings-none, tables-warn, 
 
 ### 11496-S.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/Downloads/11496-S.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/XUFKLO+Cambria, /SPSGTY+ArialMT, /BCDJEE+MalgunGothicBold, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /TOCMHW+SymbolMT, /Helvetica, /BCDEEE+SegoeUIHistoric, /PAGODE+TimesNewRomanPSMT, /BCDGEE+Arial-Black, /CESODE+TimesNewRomanPS-BoldMT, /BCDKEE+Gulim, /WISJXQ+Arial-BoldMT, /PIEODE+Arial-Black, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /ArialMT, /BCDIEE+MS Minchoheadings-none, tables-warn, 
 
 ### 11496.pdf
 
 - **URL**: https://www.cms.gov/Medicare/Prescription-Drug-Coverage/LimitedIncomeandResources/downloads/11496.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/BCDJEE+MalgunGothicBold, /BCDGEE+SegoeUIHistoric, /TimesNewRomanPS-BoldMT, /BCDHEE+MS-Gothic, /Helvetica, /IDKZMY+SymbolMT, /BCDKEE+Gulim, /TimesNewRomanPSMT, /BCDFEE+Arial-Black, /SymbolMT, /AJLIJO+TimesNewRomanPSMT, /HEATYA+ArialMT, /BCDEEE+Arial-Black, /ArialMT, /PQBULK+Arial-BoldMT, /BCDIEE+MS Minchoheadings-none, tables-warn, 
 
 ### 11659-understanding-cms-500-trifold-508c.pdf
 
 - **URL**: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-508c.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/NAEAMC+MyriadPro-Regular, /NAEAMC+MyriadPro-BlackCond, /NAEAMC+ZapfDingbatsITC, /NAEAMC+MyriadPro-Bold, /NAEAMC+MyriadPro-Semibold
 
 ### 11659-understanding-cms-500-trifold-may-2023.pdf
 
 - **URL**: https://www.medicare.gov/publications/11659-understanding-cms-500-trifold-may-2023.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/FWAGUH+MyriadPro-Semibold, /FWAGUH+MyriadPro-Regular, /FWAGUH+MyriadPro-BlackCond, /FWAGUH+MyriadPro-Bold
 
 ### 11659s-understanding-cms-500-trifold-508c.pdf
 
 - **URL**: https://www.medicare.gov/publications/11659s-understanding-cms-500-trifold-508c.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/DQISCW+MyriadPro-Bold, /DQISCW+MyriadPro-BlackCond, /DQISCW+ZapfDingbatsITC, /DQISCW+MyriadPro-Regular, /DQISCW+MyriadPro-Semibold
 
 ### 11816.pdf
 
 - **URL**: https://www.medicare.gov/es/media/11816
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/YESWWV+MyriadPro-Semibold, /KMCHOX+MyriadPro-Semibold, /TKYMKF+MyriadPro-Regular, /YESWWV+MyriadPro-BlackCond, /YESWWV+MyriadPro-Regular, /YESWWV+MyriadPro-Bold
 
 ### 11871-Welcome-to-Medicare-package-foreign.pdf
 
 - **URL**: https://www.medicare.gov/media/11871-Welcome-to-Medicare-package-foreign.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/QHWWHR+Gotham-Bold, /QHWWHR+Gotham-BookItalic, /QHWWHR+Montserrat-SemiBold, /QHWWHR+Gotham-Medium, /QHWWHR+Montserrat-Bold, /QPQUCR+Montserrat-Medium, /QHWWHR+Montserrat-ExtraBold, /QPQUCR+Montserrat-Regular, /QHWWHR+Gotham-Book, /QPQUCR+MinionPro-Regular
 
 ### 11873-Sign-up-Part-B-package-US.pdf
 
 - **URL**: https://www.medicare.gov/media/11873-Sign-up-Part-B-package-US.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/EZHBAP+Montserrat-Bold, /EQBPAP+Montserrat-Black, /EZHBAP+Gotham-BookItalic, /EZHBAP+Gotham-Bold, /EZHBAP+Gotham-Book, /EZHBAP+Montserrat-SemiBold, /EZHBAP+Montserrat-ExtraBold, /EZHBAP+Montserrat-Medium, /EZHBAP+Gotham-Mediumtables-fail, annotations-tagging-fail, 
 
 ### 11873-s-sign-up-for-part-b.pdf
 
 - **URL**: https://www.medicare.gov/es/publications/11873-s-sign-up-for-part-b.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/ZZYDYZ+Montserrat-ExtraBold, /ZZYDYZ+Montserrat-Bold, /ZZYDYZ+Montserrat-Medium, /ZZYDYZ+Montserrat-SemiBold, /WIYBIF+Montserrat-Regular, /WIYBIF+Montserrat-Black, /ZZYDYZ+Gotham-Medium, /ZZYDYZ+Gotham-BookItalic, /ZZYDYZ+Gotham-Book, /ZZYDYZ+Gotham-Boldtables-fail, annotations-tagging-fail, 
 
 ### 11874-Sign-up-Part-B-package-Puerto-Rico.pdf
 
 - **URL**: https://www.medicare.gov/media/11874-Sign-up-Part-B-package-Puerto-Rico.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/MOEXIZ+Montserrat-ExtraBold, /MOEXIZ+Montserrat-Bold, /MOEXIZ+Gotham-Medium, /MOEXIZ+Montserrat-Medium, /MOEXIZ+Gotham-Book, /MOEXIZ+Gotham-Bold, /MOEXIZ+Gotham-BookItalic, /SWHHJN+Gotham-Black, /MOEXIZ+Montserrat-SemiBoldtables-fail, annotations-tagging-fail, 
 
 ### 11915-2024508.pdf
 
 - **URL**: https://www.medicare.gov/publications/11915-2024508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/XWOQDM+MyriadPro-Regular, /CVZXMO+MyriadPro-Regular, /XWOQDM+MyriadPro-Bold, /PGEYBO+Gulim, /TimesNewRomanPS-BoldMT, /FTKVRI+MS-Gothic, /SXWVRI+SimSun, /XWOQDM+MinionPro-Regular, /CEJJCY+MyriadPro-Regular, /XULZJY+TimesNewRomanPSMT, /JPEOVA+MS-PGothic, /TimesNewRomanPSMT, /CEYDBO+TimesNewRomanPS-BoldMT, /XWOQDM+MinionPro-Bold, /UWHEYK+MyriadPro-Regular, /ArialMT, /WLSOVA+SimSun, /ZAEGLU+MalgunGothicBoldheadings-none, 
 
 ### 11915-s-2024508.pdf
 
 - **URL**: https://www.medicare.gov/es/publications/11915-s-2024508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/XWOQDM+MyriadPro-Regular, /NCYBDT+Arial-Black, /PGEYBO+Gulim, /TimesNewRomanPS-BoldMT, /RBNJLA+TimesNewRomanPSMT, /AAWMPO+Arial-Black, /FTKVRI+MS-Gothic, /QRKTTN+MyriadPro-Regular, /HIHNUO+MyriadPro-Regular, /SXWVRI+SimSun, /IXDSFI+MyriadPro-Regular, /URUCJA+TimesNewRomanPSMT, /XWOQDM+MinionPro-Regular, /EXNJPF+MinionPro-Regular, /XULZJY+TimesNewRomanPSMT, /JPEOVA+MS-PGothic, /VTZXLD+TimesNewRomanPSMT, /TimesNewRomanPSMT, /PGBTYK+MyriadPro-Regular, /CEYDBO+TimesNewRomanPS-BoldMT, /XWOQDM+MinionPro-Bold, /XYIUZU+Arial-Black, /AAULNN+MyriadPro-Regular, /WLSOVA+SimSun, /ZAEGLU+MalgunGothicBoldheadings-none, 
 
 ### 11952-2024508.pdf
 
 - **URL**: https://www.medicare.gov/publications/11952-2024508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/VGUEBQ+MinionPro-Bold, /PGEYBO+Gulim, /TimesNewRomanPS-BoldMT, /FTKVRI+MS-Gothic, /SXWVRI+SimSun, /XULZJY+TimesNewRomanPSMT, /ANBBQT+MyriadPro-Regular, /JPEOVA+MS-PGothic, /ILRTIM+MyriadPro-Regular, /TimesNewRomanPSMT, /CEYDBO+TimesNewRomanPS-BoldMT, /VGUEBQ+MyriadPro-Bold, /VGUEBQ+MyriadPro-Regular, /WLSOVA+SimSun, /AQHSFI+MyriadPro-Regular, /VGUEBQ+MinionPro-Regular, /ZAEGLU+MalgunGothicBoldheadings-none, 
 
 ### 11952-s-2024508.pdf
 
 - **URL**: https://www.medicare.gov/es/publications/11952-s-2024508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/VGUEBQ+MinionPro-Bold, /PGEYBO+Gulim, /TimesNewRomanPS-BoldMT, /FTKVRI+MS-Gothic, /MWFOHV+MyriadPro-Regular, /LNODBM+MinionPro-Regular, /SXWVRI+SimSun, /ZSUNJU+MyriadPro-Regular, /NKPXAC+MyriadPro-Regular, /QZYGWC+MyriadPro-Regular, /OYKEOR+Arial-Black, /XULZJY+TimesNewRomanPSMT, /MVLSMV+Arial-Black, /JPEOVA+MS-PGothic, /TimesNewRomanPSMT, /NQNPDI+MyriadPro-Regular, /CEYDBO+TimesNewRomanPS-BoldMT, /WPLAWB+TimesNewRomanPSMT, /VGUEBQ+MyriadPro-Regular, /WLSOVA+SimSun, /VGUEBQ+MinionPro-Regular, /ZAEGLU+MalgunGothicBoldheadings-none, 
 
 ### 11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
 
 - **URL**: https://www.medicare.gov/media/11989-Welcome-to-Medicare-packate-Puerto-Rico.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/ZCJPWJ+MyriadPro-Semibold, /ZCJPWJ+MyriadPro-Bold, /ZCJPWJ+MyriadPro-Regular, /ZCJPWJ+MinionPro-Bold, /BYDBYF+MinionPro-Semibold, /BYDBYF+Times-Bold, /ZCJPWJ+MinionPro-Regular
 
 ### 12020-Welcome-to-Medicare-0.pdf
 
 - **URL**: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf?linkit_matcher=1
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/PWMDYT+Gotham-Medium, /PWMDYT+Montserrat-SemiBold, /PWMDYT+Gotham-Bold, /PWMDYT+Gotham-BookItalic, /PSWBOT+Montserrat-Bold, /PWMDYT+Montserrat-ExtraBold, /PSWBOT+MinionPro-Regular, /PWMDYT+Montserrat-Medium, /PWMDYT+Montserrat-Bold, /PWMDYT+Gotham-Booklists-warn, tables-fail, annotations-tagging-fail, 
 
 ### 12020-Welcome-to-Medicare.pdf
 
 - **URL**: https://www.medicare.gov/media/12020-Welcome-to-Medicare.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/PWMDYT+Gotham-Medium, /PWMDYT+Montserrat-SemiBold, /PWMDYT+Gotham-Bold, /PWMDYT+Gotham-BookItalic, /PSWBOT+Montserrat-Bold, /PWMDYT+Montserrat-ExtraBold, /PSWBOT+MinionPro-Regular, /PWMDYT+Montserrat-Medium, /PWMDYT+Montserrat-Bold, /PWMDYT+Gotham-Booklists-warn, tables-fail, annotations-tagging-fail, 
 
 ### 12095-Eng-Span-letter-508.pdf
 
 - **URL**: https://www.medicare.gov/media/12095-Eng-Span-letter-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/WTKRPZ+MinionPro-Bold, /WTKRPZ+MinionPro-Regular, /WTKRPZ+MyriadPro-Regular, /WTKRPZ+MyriadPro-Bold
 
 ### 12096-Eng-Span-letter-508.pdf
 
 - **URL**: https://www.medicare.gov/media/12096-Eng-Span-letter-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/DIKFEL+MinionPro-Regular, /DIKFEL+MinionPro-Bold, /DIKFEL+MyriadPro-Regular, /DIKFEL+MyriadPro-Bold
 
 ### 12097-Eng-Span-letter-508.pdf
 
 - **URL**: https://www.medicare.gov/media/12097-Eng-Span-letter-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/DEXHJL+MinionPro-Regular, /DEXHJL+MinionPro-Bold, /DEXHJL+MyriadPro-Bold, /DEXHJL+MyriadPro-Regular
 
 ### 12098-Eng-Span-letter-508.pdf
 
 - **URL**: https://www.medicare.gov/media/12098-Eng-Span-letter-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/JFHPKZ+TimesNewRomanPSMT, /JFHPKZ+MinionPro-Bold, /JFHPKZ+MinionPro-Regular, /JFHPKZ+MyriadPro-Regular, /JFHPKZ+MyriadPro-Bold, /JFHPKZ+Times-Roman
 
 ### 12099-Eng-Span-letter-508.pdf
 
 - **URL**: https://www.medicare.gov/media/12099-Eng-Span-letter-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/SOURGH+MinionPro-Bold, /SOURGH+TimesNewRomanPSMT, /SOURGH+MinionPro-Regular, /SOURGH+MyriadPro-Bold, /SOURGH+MyriadPro-Regular
 
 ### 12100-Eng-Span-letter-508.pdf
 
 - **URL**: https://www.medicare.gov/media/12100-Eng-Span-letter-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/IYJJWB+TimesNewRomanPSMT, /IYJJWB+MinionPro-Bold, /IYJJWB+MyriadPro-Bold, /IYJJWB+MinionPro-Regular, /IYJJWB+MyriadPro-Regular, /IYJJWB+Times-Roman
 
 ### 12101-Eng-Span-letter-508.pdf
 
 - **URL**: https://www.medicare.gov/media/12101-Eng-Span-letter-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
+- **Status**: analysed
+- fonts:/WROPKZ+MinionPro-Regular, /WROPKZ+Times-Roman, /WROPKZ+MyriadPro-Regular, /WROPKZ+MyriadPro-Bold, /WROPKZ+TimesNewRomanPSMT, /WROPKZ+MinionPro-Bold
 
 ### 12112-understanding-mep-trifold-508c.pdf
 
