@@ -215,11 +215,6 @@ jobs:
           uv sync --frozen
           echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
 
-      - name: Install Bloom Works crawler
-        if: steps.meta.outputs.crawler_version == 'bloom'
-        run: |
-          uv pip install git+https://github.com/bloom-works/simplA11yPDFCrawler.git@0df4d4f3eca1f0bbf3898046ef5c2c8f9ddd86b0
-
       - name: Download crawled PDFs artifact
         id: download_pdfs
         if: github.event_name == 'workflow_run'
@@ -333,6 +328,11 @@ jobs:
         run: |
           git pull --rebase origin "${{ github.ref_name }}" || true
 
+      - name: Install Bloom Works crawler
+        if: steps.meta.outputs.crawler_version == 'bloom'
+        run: |
+          uv pip install git+https://github.com/bloom-works/simplA11yPDFCrawler.git@0df4d4f3eca1f0bbf3898046ef5c2c8f9ddd86b0
+
       - name: Install veraPDF
         # Only install when the scan requested it (veraPDF/VERAPDF in issue title).
         # The uber-JAR greenfield-apps-<version>.jar is published to Maven Central
@@ -438,6 +438,7 @@ jobs:
         env:
           CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
           CRAWL_SITE: ${{ steps.meta.outputs.crawl_site }}
+          CRAWLER_VERSION: ${{ steps.meta.outputs.crawler_version }}
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
           RUN_ID: ${{ github.run_id }}
@@ -458,6 +459,12 @@ jobs:
           if [ -f scan-meta/spot_check.json ]; then
             SPOT_CHECK_FLAG="--spot-check-file scan-meta/spot_check.json"
           fi
+          ENGINE_FLAG=""
+          if [ "$CRAWLER_VERSION" = "bloom" ]; then
+            ENGINE_FLAG="--engine bloom"
+          else
+            ENGINE_FLAG="--engine original"
+          fi
           python scripts/generate_report.py \
             --manifest reports/manifest.yaml \
             --report-dir reports \
@@ -465,6 +472,7 @@ jobs:
             $COMMENT_FLAG \
             $CRAWLED_DIR_FLAG \
             $SPOT_CHECK_FLAG \
+            $ENGINE_FLAG \
             --html-dir docs \
             --archive-dir docs/reports \
             --pages-base "$PAGES_BASE" \
