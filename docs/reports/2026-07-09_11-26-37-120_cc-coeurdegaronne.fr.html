@@ -85,6 +85,22 @@
     nav a { color: var(--color-link); text-decoration: none; }
     nav a:hover { text-decoration: underline; }
 
+    .lang-switch {
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      display: inline-flex;
+      gap: 0.35rem;
+      align-items: center;
+    }
+
+    .lang-switch {
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      display: inline-flex;
+      gap: 0.35rem;
+      align-items: center;
+    }
+
     .theme-toggle {
       background: none;
       border: 1px solid var(--color-border);
@@ -102,6 +118,29 @@
     h2 { margin-top: 2rem; }
 
     #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .downloads {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin: 1rem 0 1.25rem;
+    }
+    .downloads a,
+    .downloads button {
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 0.35rem 0.65rem;
+      text-decoration: none;
+      color: var(--color-link);
+      background: var(--color-card-bg);
+      font: inherit;
+      cursor: pointer;
+    }
+    .downloads a:hover,
+    .downloads button:hover {
+      background: var(--color-th-bg);
+    }
 
     .stats-grid {
       display: grid;
@@ -167,24 +206,38 @@
 <body>
 
   <nav>
-    <a href="../reports.html">&#8592; Back to reports index</a>
+    <a id="back-link" href="../reports.html">&#8592; Back to reports index</a>
+    <span class="lang-switch" aria-label="Language switch">
+      <a id="lang-en-report" href="?lang=en" hreflang="en" lang="en">EN</a>
+      <span aria-hidden="true">|</span>
+      <a id="lang-fr-report" href="?lang=fr" hreflang="fr" lang="fr">FR</a>
+    </span>
     <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
   </nav>
 
-  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <h1 id="page-title">&#128202; PDF Accessibility Scan Results</h1>
   <p id="generated-at"></p>
+
+  <div class="downloads">
+    <a id="download-csv-link" href="./2026-07-09_11-26-37-120_cc-coeurdegaronne.fr/report.csv">Download CSV</a>
+    <a id="download-json-link" href="./2026-07-09_11-26-37-120_cc-coeurdegaronne.fr/report.json">Download JSON</a>
+    <a id="download-manifest-link" href="./2026-07-09_11-26-37-120_cc-coeurdegaronne.fr/manifest.yaml">Download Manifest</a>
+    <button id="download-current-csv" type="button">Download Current View CSV</button>
+    <button id="download-current-json" type="button">Download Current View JSON</button>
+  </div>
 
   <div id="root"></div>
 
   <script type="application/json" id="report-data">
 {
   "summary": {
-    "generated_at": "2026-07-09T11:26:37.135100+00:00",
+    "generated_at": "2026-07-09T20:44:30.447793+00:00",
     "total_files": 562,
     "analysed": 110,
     "pending": 451,
     "errored": 1,
     "accessible": 0,
+    "issues_found": 110,
     "totally_inaccessible": 7,
     "broken": 0,
     "exempt": 0,
@@ -30563,6 +30616,163 @@
 
   <script>
     (function () {
+      // i18n scaffold: add new locales by extending I18N with the same keys.
+      var I18N = {
+        en: {
+          backLabel: 'Back to submission form',
+          pageTitle: '📊 PDF Accessibility Scan Results',
+          generatedAt: 'Last updated: ',
+          summary: 'Summary',
+          totalPdfs: 'Total PDFs',
+          analysed: 'Analysed',
+          accessible: '✅ Accessible',
+          issuesFound: '❌ Issues Found',
+          pending: '⏳ Pending',
+          errors: '⚠️ Errors',
+          sitesScanned: 'Sites Scanned',
+          site: 'Site',
+          pdfs: 'PDFs',
+          pdfDetails: 'PDF Details',
+          legend: '✅ = Pass/Accessible   ❌ = Fail/Inaccessible   — = Not applicable',
+          noData: 'No scan data available yet.',
+          submitPrompt: 'Submit a crawl request',
+          submitSuffix: ' to get started.',
+          downloadCsv: 'Download CSV',
+          downloadJson: 'Download JSON',
+          downloadManifest: 'Download Manifest',
+          downloadCurrentCsv: 'Download Current View CSV',
+          downloadCurrentJson: 'Download Current View JSON',
+          colFile: 'File',
+          colSite: 'Site',
+          colPublishedDate: 'Published Date',
+          colDocTitle: 'Doc Title',
+          colAuthor: 'Author',
+          colSubject: 'Subject',
+          colKeywords: 'Keywords',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Tagged',
+          colTitle: 'Title',
+          colLanguage: 'Language',
+          colBookmarks: 'Bookmarks',
+          colTaggedContent: 'TaggedContent',
+          colForms: 'Forms',
+          colTaggedForms: 'TaggedForms',
+          colTaggedAnnots: 'TaggedAnnots',
+          colFiguresAlt: 'FiguresAlt',
+          colHeadings: 'Headings',
+          colLists: 'Lists',
+          colTables: 'Tables',
+          colPages: 'Pages',
+          colSize: 'Size',
+          colWords: 'Words',
+          colImages: 'Images',
+        },
+        fr: {
+          backLabel: 'Retour au formulaire de soumission',
+          pageTitle: '📊 Résultats du scan d'accessibilité PDF',
+          generatedAt: 'Dernière mise à jour : ',
+          summary: 'Résumé',
+          totalPdfs: 'Total des PDF',
+          analysed: 'Analysés',
+          accessible: '✅ Accessibles',
+          issuesFound: '❌ Problèmes détectés',
+          pending: '⏳ En attente',
+          errors: '⚠️ Erreurs',
+          sitesScanned: 'Sites analysés',
+          site: 'Site',
+          pdfs: 'PDF',
+          pdfDetails: 'Détails des PDF',
+          legend: '✅ = Réussite/Accessible   ❌ = Échec/Inaccessible   — = Non applicable',
+          noData: 'Aucune donnée de scan disponible pour le moment.',
+          submitPrompt: 'Soumettre une demande de scan',
+          submitSuffix: ' pour commencer.',
+          downloadCsv: 'Télécharger le CSV',
+          downloadJson: 'Télécharger le JSON',
+          downloadManifest: 'Télécharger le manifeste',
+          downloadCurrentCsv: 'Télécharger le CSV de la vue actuelle',
+          downloadCurrentJson: 'Télécharger le JSON de la vue actuelle',
+          colFile: 'Fichier',
+          colSite: 'Site',
+          colPublishedDate: 'Date de publication',
+          colDocTitle: 'Titre du doc',
+          colAuthor: 'Auteur',
+          colSubject: 'Sujet',
+          colKeywords: 'Mots-clés',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Balisé',
+          colTitle: 'Titre',
+          colLanguage: 'Langue',
+          colBookmarks: 'Signets',
+          colTaggedContent: 'ContenuBalisé',
+          colForms: 'Formulaires',
+          colTaggedForms: 'FormulairesBalisés',
+          colTaggedAnnots: 'AnnotationsBalisées',
+          colFiguresAlt: 'TexteAltFigures',
+          colHeadings: 'Titres',
+          colLists: 'Listes',
+          colTables: 'Tableaux',
+          colPages: 'Pages',
+          colSize: 'Taille',
+          colWords: 'Mots',
+          colImages: 'Images',
+        },
+      };
+
+      function detectLang() {
+        var params = new URLSearchParams(window.location.search);
+        var fromQuery = params.get('lang');
+        if (fromQuery && I18N[fromQuery]) return fromQuery;
+        var stored = localStorage.getItem('lang');
+        if (stored && I18N[stored]) return stored;
+        var navLang = (navigator.language || 'en').toLowerCase();
+        return navLang.indexOf('fr') === 0 ? 'fr' : 'en';
+      }
+
+      var currentLang = detectLang();
+      var M = I18N[currentLang] || I18N.en;
+      document.documentElement.setAttribute('lang', currentLang);
+      localStorage.setItem('lang', currentLang);
+
+      function t(key) {
+        return M[key] || I18N.en[key] || key;
+      }
+
+      function withLang(url) {
+        try {
+          var parsed = new URL(url, window.location.href);
+          parsed.searchParams.set('lang', currentLang);
+          return parsed.toString();
+        } catch (e) {
+          return url;
+        }
+      }
+
+      function applyLanguageStatic() {
+        var backLink = document.getElementById('back-link');
+        if (backLink) backLink.textContent = '← ' + t('backLabel');
+        var pageTitle = document.getElementById('page-title');
+        if (pageTitle) pageTitle.textContent = t('pageTitle');
+        var csvLink = document.getElementById('download-csv-link');
+        if (csvLink) csvLink.textContent = t('downloadCsv');
+        var jsonLink = document.getElementById('download-json-link');
+        if (jsonLink) jsonLink.textContent = t('downloadJson');
+        var manifestLink = document.getElementById('download-manifest-link');
+        if (manifestLink) manifestLink.textContent = t('downloadManifest');
+        var curCsv = document.getElementById('download-current-csv');
+        if (curCsv) curCsv.textContent = t('downloadCurrentCsv');
+        var curJson = document.getElementById('download-current-json');
+        if (curJson) curJson.textContent = t('downloadCurrentJson');
+
+        var enLink = document.getElementById('lang-en-report');
+        if (enLink) enLink.href = withLang('?lang=en');
+        var frLink = document.getElementById('lang-fr-report');
+        if (frLink) frLink.href = withLang('?lang=fr');
+      }
+
+      applyLanguageStatic();
+
       var raw  = document.getElementById('report-data').textContent;
       var data = JSON.parse(raw);
       var summary = data.summary || {};
@@ -30572,8 +30782,8 @@
       if (!summary.total_files) {
         root.innerHTML =
           '<div class="empty-state">' +
-          '<p>No scan data available yet.</p>' +
-          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '<p>' + esc(t('noData')) + '</p>' +
+          '<p><a href="./">' + esc(t('submitPrompt')) + '</a>' + esc(t('submitSuffix')) + '</p>' +
           '</div>';
         return;
       }
@@ -30581,21 +30791,21 @@
       // Generated-at timestamp
       if (summary.generated_at) {
         document.getElementById('generated-at').textContent =
-          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+          t('generatedAt') + new Date(summary.generated_at).toLocaleString(currentLang);
       }
 
       var html = '';
 
       // --- Summary cards ---
       var cards = [
-        { value: summary.total_files,         label: 'Total PDFs' },
-        { value: summary.analysed,            label: 'Analysed' },
-        { value: summary.accessible,          label: '&#x2705; Accessible' },
-        { value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' },
-        { value: summary.pending,             label: '&#x23F3; Pending' },
-        { value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' },
+        { value: summary.total_files,         label: t('totalPdfs') },
+        { value: summary.analysed,            label: t('analysed') },
+        { value: summary.accessible,          label: t('accessible') },
+        { value: summary.issues_found,        label: t('issuesFound') },
+        { value: summary.pending,             label: t('pending') },
+        { value: summary.errored,             label: t('errors') },
       ];
-      html += '<h2>Summary</h2><div class="stats-grid">';
+      html += '<h2>' + esc(t('summary')) + '</h2><div class="stats-grid">';
       cards.forEach(function (c) {
         html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
                 '</div><div class="label">' + c.label + '</div></div>';
@@ -30606,8 +30816,8 @@
       var sites = summary.sites || {};
       var siteNames = Object.keys(sites).sort();
       if (siteNames.length) {
-        html += '<h2>Sites Scanned</h2>';
-        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        html += '<h2>' + esc(t('sitesScanned')) + '</h2>';
+        html += '<table><thead><tr><th>' + esc(t('site')) + '</th><th>' + esc(t('pdfs')) + '</th></tr></thead><tbody>';
         siteNames.forEach(function (s) {
           html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
         });
@@ -30620,6 +30830,7 @@
       // Determine which optional columns have data
       var hasWords       = analysed.some(function (f) { return f.report && f.report.Words       != null; });
       var hasImages      = analysed.some(function (f) { return f.report && f.report.Images      != null; });
+      var hasFileSize    = analysed.some(function (f) { return f.file_size_bytes != null; });
       var hasTaggedContent = analysed.some(function (f) { return f.report && f.report.TaggedContentTest != null; });
       var hasForms         = analysed.some(function (f) { return f.report && f.report.FormsTest != null; });
       var hasTaggedForms   = analysed.some(function (f) { return f.report && f.report.TaggedFormFieldsTest != null; });
@@ -30642,6 +30853,43 @@
       // Sort state
       var sortCol = null;
       var sortAsc = true;
+
+      function formatSize(sizeBytes) {
+        if (sizeBytes == null) return '&#x2014;';
+        var num = Number(sizeBytes);
+        if (!isFinite(num) || num < 0) return '&#x2014;';
+        var units = ['B', 'KB', 'MB', 'GB', 'TB'];
+        var value = num;
+        var unit = 0;
+        while (value >= 1024 && unit < units.length - 1) {
+          value /= 1024;
+          unit += 1;
+        }
+        if (unit === 0) return String(Math.round(value)) + ' ' + units[unit];
+        return value.toFixed(1) + ' ' + units[unit];
+      }
+
+      function readSortFromQuery() {
+        var params = new URLSearchParams(window.location.search);
+        var col = params.get('sort');
+        var dir = params.get('dir');
+        if (col) sortCol = col;
+        if (dir === 'asc' || dir === 'desc') sortAsc = dir === 'asc';
+      }
+
+      function writeSortToQuery() {
+        var params = new URLSearchParams(window.location.search);
+        if (sortCol) {
+          params.set('sort', sortCol);
+          params.set('dir', sortAsc ? 'asc' : 'desc');
+        } else {
+          params.delete('sort');
+          params.delete('dir');
+        }
+        var qs = params.toString();
+        var nextUrl = window.location.pathname + (qs ? '?' + qs : '') + window.location.hash;
+        window.history.replaceState(null, '', nextUrl);
+      }
 
       function colVal(f, col) {
         var r = f.report || {};
@@ -30678,6 +30926,7 @@
           case 'verapdf_rules': return (r.veraPDF && Array.isArray(r.veraPDF.failed_rules)) ? r.veraPDF.failed_rules.length : -1;
           case 'verapdf_error': return (r.veraPDF && r.veraPDF.error) ? String(r.veraPDF.error).toLowerCase() : '';
           case 'pages':       return r.Pages  != null ? r.Pages  : -1;
+          case 'size':        return f.file_size_bytes != null ? Number(f.file_size_bytes) : -1;
           case 'words':       return r.Words  != null ? r.Words  : -1;
           case 'images':      return r.Images != null ? r.Images : -1;
           default: return '';
@@ -30712,11 +30961,14 @@
         }
         var vpRules = (vp && Array.isArray(vp.failed_rules)) ? vp.failed_rules.length : null;
         var vpError = (vp && vp.error) ? String(vp.error) : null;
+        var docTitleCell = '&#x2014;';
+        if (r.Title) docTitleCell = esc(r.Title);
+        else if (r.TitleTest === 'Fail') docTitleCell = icon('Fail');
         return '<tr>' +
           '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
           '<td>' + siteCell + '</td>' +
           '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
-          (hasDocTitle    ? '<td>' + (r.Title       ? esc(r.Title)       : '&#x2014;') + '</td>' : '') +
+          (hasDocTitle    ? '<td>' + docTitleCell + '</td>' : '') +
           (hasAuthor      ? '<td>' + (r.Author      ? esc(r.Author)      : '&#x2014;') + '</td>' : '') +
           (hasSubject     ? '<td>' + (r.Subject     ? esc(r.Subject)     : '&#x2014;') + '</td>' : '') +
           (hasKeywords    ? '<td>' + (r.Keywords    ? esc(r.Keywords)    : '&#x2014;') + '</td>' : '') +
@@ -30740,6 +30992,7 @@
           (hasVPRules       ? '<td>' + (vpRules != null ? vpRules : '&#x2014;') + '</td>' : '') +
           (hasVPError       ? '<td>' + (vpError ? esc(vpError) : '&#x2014;') + '</td>' : '') +
           '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasFileSize ? '<td>' + formatSize(f.file_size_bytes) + '</td>' : '') +
           (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
           (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
           '</tr>';
@@ -30757,6 +31010,7 @@
           });
         }
         tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+        writeSortToQuery();
       }
 
       function updateHeaders(tbl) {
@@ -30778,43 +31032,44 @@
         // at least one file has that field), then accessibility checks, then
         // optional numeric columns (words/images shown only when data is present).
         var colDefs = [
-          { key: 'file',       label: 'File' },
-          { key: 'site',       label: 'Site' },
-          { key: 'date',       label: 'Published Date' },
+          { key: 'file',       label: t('colFile') },
+          { key: 'site',       label: t('colSite') },
+          { key: 'date',       label: t('colPublishedDate') },
         ];
-        if (hasDocTitle)    colDefs.push({ key: 'doc_title',   label: 'Doc Title' });
-        if (hasAuthor)      colDefs.push({ key: 'author',      label: 'Author' });
-        if (hasSubject)     colDefs.push({ key: 'subject',     label: 'Subject' });
-        if (hasKeywords)    colDefs.push({ key: 'keywords',    label: 'Keywords' });
-        if (hasDescription) colDefs.push({ key: 'description', label: 'Description' });
+        if (hasDocTitle)    colDefs.push({ key: 'doc_title',   label: t('colDocTitle') });
+        if (hasAuthor)      colDefs.push({ key: 'author',      label: t('colAuthor') });
+        if (hasSubject)     colDefs.push({ key: 'subject',     label: t('colSubject') });
+        if (hasKeywords)    colDefs.push({ key: 'keywords',    label: t('colKeywords') });
+        if (hasDescription) colDefs.push({ key: 'description', label: t('colDescription') });
         colDefs.push(
-          { key: 'accessible', label: 'Accessible' },
-          { key: 'tagged',     label: 'Tagged' },
-          { key: 'title',      label: 'Title' },
-          { key: 'language',   label: 'Language' },
-          { key: 'bookmarks',  label: 'Bookmarks' },
+          { key: 'accessible', label: t('colAccessible') },
+          { key: 'tagged',     label: t('colTagged') },
+          { key: 'title',      label: t('colTitle') },
+          { key: 'language',   label: t('colLanguage') },
+          { key: 'bookmarks',  label: t('colBookmarks') },
         );
-        if (hasTaggedContent) colDefs.push({ key: 'tagged_content', label: 'TaggedContent' });
-        if (hasForms)         colDefs.push({ key: 'forms',          label: 'Forms' });
-        if (hasTaggedForms)   colDefs.push({ key: 'tagged_forms',   label: 'TaggedForms' });
-        if (hasTaggedAnnots)  colDefs.push({ key: 'tagged_annots',  label: 'TaggedAnnots' });
-        if (hasFiguresAlt)    colDefs.push({ key: 'figures_alt',    label: 'FiguresAlt' });
-        if (hasHeadings)      colDefs.push({ key: 'headings',       label: 'Headings' });
-        if (hasLists)         colDefs.push({ key: 'lists',          label: 'Lists' });
-        if (hasTables)        colDefs.push({ key: 'tables',         label: 'Tables' });
+        if (hasTaggedContent) colDefs.push({ key: 'tagged_content', label: t('colTaggedContent') });
+        if (hasForms)         colDefs.push({ key: 'forms',          label: t('colForms') });
+        if (hasTaggedForms)   colDefs.push({ key: 'tagged_forms',   label: t('colTaggedForms') });
+        if (hasTaggedAnnots)  colDefs.push({ key: 'tagged_annots',  label: t('colTaggedAnnots') });
+        if (hasFiguresAlt)    colDefs.push({ key: 'figures_alt',    label: t('colFiguresAlt') });
+        if (hasHeadings)      colDefs.push({ key: 'headings',       label: t('colHeadings') });
+        if (hasLists)         colDefs.push({ key: 'lists',          label: t('colLists') });
+        if (hasTables)        colDefs.push({ key: 'tables',         label: t('colTables') });
         if (hasVeraPDF)       colDefs.push({ key: 'verapdf_status', label: 'veraPDF' });
         if (hasVPFailed)      colDefs.push({ key: 'verapdf_failed', label: 'vPDF Fail' });
         if (hasVPPassed)      colDefs.push({ key: 'verapdf_passed', label: 'vPDF Pass' });
         if (hasVPRules)       colDefs.push({ key: 'verapdf_rules',  label: 'vPDF Rules' });
         if (hasVPError)       colDefs.push({ key: 'verapdf_error',  label: 'vPDF Error' });
         colDefs.push(
-          { key: 'pages',      label: 'Pages' }
+          { key: 'pages',      label: t('colPages') }
         );
-        if (hasWords)  colDefs.push({ key: 'words',  label: 'Words' });
-        if (hasImages) colDefs.push({ key: 'images', label: 'Images' });
+        if (hasFileSize) colDefs.push({ key: 'size', label: t('colSize') });
+        if (hasWords)  colDefs.push({ key: 'words',  label: t('colWords') });
+        if (hasImages) colDefs.push({ key: 'images', label: t('colImages') });
 
-        html += '<h2>PDF Details</h2>';
-        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<h2>' + esc(t('pdfDetails')) + '</h2>';
+        html += '<p>' + esc(t('legend')) + '</p>';
         html += '<table id="pdf-table"><thead><tr>';
         colDefs.forEach(function (c) {
           html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
@@ -30833,6 +31088,14 @@
       // Wire up column sorting on the PDF details table
       var pdfTable = document.getElementById('pdf-table');
       if (pdfTable) {
+        readSortFromQuery();
+        var validCols = Array.prototype.map.call(
+          pdfTable.querySelectorAll('th[data-col]'),
+          function (th) { return th.getAttribute('data-col'); }
+        );
+        if (sortCol && validCols.indexOf(sortCol) === -1) sortCol = null;
+        renderBody(pdfTable);
+        updateHeaders(pdfTable);
         pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
           th.addEventListener('click', function () {
             var col = this.getAttribute('data-col');
@@ -30851,6 +31114,82 @@
               this.click();
             }
           });
+        });
+      }
+
+      function makeCsvValue(value) {
+        var s = value == null ? '' : String(value);
+        if (s.indexOf('"') !== -1 || s.indexOf(',') !== -1 || s.indexOf('
+') !== -1) {
+          return '"' + s.replace(/"/g, '""') + '"';
+        }
+        return s;
+      }
+
+      function rowFromFile(file) {
+        var r = file.report || {};
+        return {
+          url: file.url || '',
+          filename: file.filename || '',
+          site: file.site || '',
+          status: file.status || '',
+          file_size_bytes: file.file_size_bytes == null ? '' : file.file_size_bytes,
+          file_size_human: formatSize(file.file_size_bytes).replace(/&[^;]+;/g, '-'),
+          published_date: r.Date || '',
+          doc_title: r.Title || '',
+          author: r.Author || '',
+          subject: r.Subject || '',
+          keywords: r.Keywords || '',
+          accessible: r.Accessible == null ? '' : r.Accessible,
+          totally_inaccessible: r.TotallyInaccessible == null ? '' : r.TotallyInaccessible,
+          broken: r.BrokenFile == null ? '' : r.BrokenFile,
+          title: r.TitleTest || '',
+          language: r.LanguageTest || '',
+          bookmarks: r.BookmarksTest || '',
+          pages: r.Pages == null ? '' : r.Pages,
+          words: r.Words == null ? '' : r.Words,
+          images: r.Images == null ? '' : r.Images,
+        };
+      }
+
+      function buildCsvText() {
+        var columns = [
+          'url','filename','site','status','file_size_bytes','file_size_human',
+          'published_date','doc_title','author','subject','keywords','accessible',
+          'totally_inaccessible','broken','title','language','bookmarks','pages',
+          'words','images'
+        ];
+        var lines = [columns.join(',')];
+        files.forEach(function (file) {
+          var row = rowFromFile(file);
+          lines.push(columns.map(function (col) { return makeCsvValue(row[col]); }).join(','));
+        });
+        return lines.join('
+');
+      }
+
+      function downloadBlob(filename, text, mime) {
+        var blob = new Blob([text], { type: mime });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(function () { URL.revokeObjectURL(a.href); }, 0);
+      }
+
+      var downloadCsvBtn = document.getElementById('download-current-csv');
+      if (downloadCsvBtn) {
+        downloadCsvBtn.addEventListener('click', function () {
+          downloadBlob('report-current-view.csv', buildCsvText(), 'text/csv;charset=utf-8');
+        });
+      }
+
+      var downloadJsonBtn = document.getElementById('download-current-json');
+      if (downloadJsonBtn) {
+        downloadJsonBtn.addEventListener('click', function () {
+          downloadBlob('report-current-view.json', JSON.stringify({ summary: summary, files: files }, null, 2), 'application/json;charset=utf-8');
         });
       }
 
