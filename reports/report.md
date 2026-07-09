@@ -64390,96 +64390,522 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 
 ### 10.1177_1090198120922942.pdf
 
-- **URL**: https://pmc.ncbi.nlm.nih.gov/articles/PMC7301291/pdf/10.1177_1090198120922942.pdf
+- **URL**: https://www.govt.nz/assets/Documents/Government-A-Z/7577Birth-certificates-and-source-documents-FAQ.pdf
 - **Status**: analysed
-- PdfError: crawled_files/lib.pstcc.edu/10.1177_1090198120922942.pdf: unable to find trailer dictionary while recovering damaged file
+- title, headings-none, 
 
-### 184368.pdf
+### 7684Declaration-interpret-or-translate-marriage-or-civil-union-BDM35T.pdf
 
-- **URL**: https://cdn.thomasnet.com/ccp/10076910/184368.pdf
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/7684Declaration-interpret-or-translate-marriage-or-civil-union-BDM35T.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### Application-by-donor-offspring-or-guardian-to-access-information-on-human-assisted-reproductive-technology-register-BDM404.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-by-donor-offspring-or-guardian-to-access-information-on-human-assisted-reproductive-technology-register-BDM404.pdf
+- **Status**: analysed
+- title, forms-fail, headings-warn, 
+
+### Application-by-donor-to-access-information-on-human-assisted-reproductive-technology-register-BDM403.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-by-donor-to-access-information-on-human-assisted-reproductive-technology-register-BDM403.pdf
+- **Status**: analysed
+- title, forms-fail, headings-warn, 
+
+### Application-for-NZ-citizenship-Samoan-adult-and-child-Samoan-language.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-NZ-citizenship-Samoan-adult-and-child-Samoan-language.pdf
+- **Status**: analysed
+- figures missing alt text (count=3), headings-none, tables-fail, 
+
+### Application-for-NZ-citizenship-adult.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-NZ-citizenship-adult.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Application-for-NZ-citizenship-child.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-NZ-citizenship-child.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Application-for-New-Zealand-citizenship-Samoan-born-before-1949-Samoan.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-New-Zealand-citizenship-Samoan-born-before-1949-Samoan.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Application-for-New-Zealand-citizenship-Samoan-born-before-1949.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-New-Zealand-citizenship-Samoan-born-before-1949.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Application-for-certificate-of-no-impediment-to-marriage-or-civil-union-BDM189.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-for-certificate-of-no-impediment-to-marriage-or-civil-union-BDM189.pdf
+- **Status**: analysed
+- title, forms-fail, headings-skip, annotations-tagging-fail, 
+
+### Application-for-certified-copy-of-descent-registration-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-certified-copy-of-descent-registration-certificate.pdf
+- **Status**: analysed
+- headings-skip, annotations-tagging-fail, 
+
+### Application-for-confirmation-of-New-Zealand-citizenship-by-grant.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-confirmation-of-New-Zealand-citizenship-by-grant.pdf
+- **Status**: analysed
+- headings-skip, 
+
+### Application-for-confirmation-of-birth-in-New-Zealand.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-confirmation-of-birth-in-New-Zealand.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Application-for-replacement-of-New-Zealand-citizenship-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-replacement-of-New-Zealand-citizenship-certificate.pdf
+- **Status**: analysed
+- headings-skip, annotations-tagging-fail, 
+
+### Application-of-Denial-of-NZ-Citizenship-Letter-of-Denial.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-of-Denial-of-NZ-Citizenship-Letter-of-Denial.pdf
+- **Status**: analysed
+- forms-fail, headings-skip, annotations-tagging-fail, 
+
+### Application-to-lodge-caveat-and-notice-of-objection-BDM505.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-lodge-caveat-and-notice-of-objection-BDM505.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, 
+
+### Application-to-record-update-donor-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM401.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-record-update-donor-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM401.pdf
+- **Status**: analysed
+- title, forms-fail, annotations-tagging-fail, 
+
+### Application-to-record-update-donor-offspring-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM402.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-record-update-donor-offspring-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM402.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, headings-skip, tables-fail, annotations-tagging-fail, 
+
+### Application-to-register-a-name-change-BDM120.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-register-a-name-change-BDM120.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, headings-warn, 
+
+### Application-to-register-a-name-change-within-2-years-of-birth-BDM36.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-register-a-name-change-within-2-years-of-birth-BDM36.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, figures missing alt text (count=5), headings-none, 
+
+### Authorisation-for-disclosure-of-information-to-agent-BDM405.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Authorisation-for-disclosure-of-information-to-agent-BDM405.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### BDM121-Application-to-register-a-name-change-aged-16-and-17.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM121-Application-to-register-a-name-change-aged-16-and-17.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### BDM123-Application-to-register-a-name-change-aged-15-and-under.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM123-Application-to-register-a-name-change-aged-15-and-under.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, headings-none, 
+
+### BDM28-notification-of-death-for-registration.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM28-notification-of-death-for-registration.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, tables-fail, 
+
+### BDM402-Application-to-record-or-update-donor-conceived-persons-details-.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM402-Application-to-record-or-update-donor-conceived-persons-details-.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### BDM43-Notification-of-overseas-dissolution.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM43-Notification-of-overseas-dissolution.pdf
+- **Status**: analysed
+- title, tagged, forms-fail, forms-untagged, annotations-untagged, 
+
+### BDM70-Application-to-update-sex-marker-on-birth-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM70-Application-to-update-sex-marker-on-birth-certificate.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-warn, tables-fail, 
+
+### BDM71-Application-to-register-a-name-change-and-update-sex-marker-on-birth-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM71-Application-to-register-a-name-change-and-update-sex-marker-on-birth-certificate.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### BDM72-Application-to-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM72-Application-to-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, tables-fail, 
+
+### BDM73-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM73-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf
+- **Status**: analysed
+- forms-fail, figures missing alt text (count=1), headings-none, 
+
+### BDM74-Application-to-update-sex-marker-on-birth-certificate-aged-15-and-under.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM74-Application-to-update-sex-marker-on-birth-certificate-aged-15-and-under.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### BDM75-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-15-and-under.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM75-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-15-and-under.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### BDM76-Identity-Referee-Declaration.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM76-Identity-Referee-Declaration.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### CIT101-Application-for-non-evidentiary-letter-of-New-Zealand-citizenship-status-240716.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/CIT101-Application-for-non-evidentiary-letter-of-New-Zealand-citizenship-status-240716.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, lists-fail, tables-fail, annotations-tagging-fail, 
+
+### Deposit-an-overseas-death-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Deposit-an-overseas-death-certificate.pdf
+- **Status**: analysed
+- forms-tagging-fail, 
+
+### Eligibility-chart-English.pdf
+
+- **URL**: https://www.govt.nz/assets/Eligibility-chart-English.pdf
 - **Status**: analysed
 - title, tagged, lang, 
 
-### Analyzing_Primary_Sources.pdf
+### Eligibility-chart-Samoan.pdf
 
-- **URL**: https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf
-- **Status**: analysed
-- title, tagged-content-fail, lang, 
-
-### Getting-Started.pdf
-
-- **URL**: https://storycorpsorg-staging.s3.amazonaws.com/uploads/Getting-Started.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=11), headings-none, 
-
-### Improve-Sound-Quality.pdf
-
-- **URL**: https://storycorpsorg-staging.s3.amazonaws.com/uploads/Improve-Sound-Quality.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=12), headings-none, 
-
-### Interview-Tips.pdf
-
-- **URL**: https://storycorpsorg-staging.s3.amazonaws.com/uploads/Interview-Tips.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=13), headings-none, 
-
-### Mission_Critical.pdf
-
-- **URL**: https://cccse.org/sites/default/files/Mission_Critical.pdf
-- **Status**: analysed
-- no bookmarks and more than 20 pages, headings-none, lists-fail, annotations-tagging-fail, 
-
-### W346-A.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-A.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=7), headings-none, 
-
-### W346-B.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-B.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=7), headings-none, tables-fail, 
-
-### W346-D.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-D.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=7), headings-none, tables-fail, 
-
-### W346-F.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-F.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=5), headings-none, 
-
-### W346-G.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-G.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=6), headings-none, tables-fail, 
-
-### asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf
-
-- **URL**: https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/standards_and_certification/asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf
-- **Status**: analysed
-- title, lang, no bookmarks and more than 20 pages, figures missing alt text (count=36), headings-none, tables-fail, 
-
-### circ61.pdf
-
-- **URL**: https://copyright.gov/circs/circ61.pdf
-- **Status**: analysed
-- title, tagged, annotations-untagged, 
-
-### gbaa114.pdf
-
-- **URL**: https://pmc.ncbi.nlm.nih.gov/articles/PMC7454923/pdf/gbaa114.pdf
-- **Status**: analysed
-- PdfError: crawled_files/lib.pstcc.edu/gbaa114.pdf: unable to find trailer dictionary while recovering damaged file
-
-### principles.pdf
-
-- **URL**: https://www.ala.org/sites/default/files/acrl/content/publications/whitepapers/principles.pdf
+- **URL**: https://www.govt.nz/assets/Eligibility-chart-Samoan.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### Findings-of-survey-of-independent-celebrants-conducted-in-January-2020.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Findings-of-survey-of-independent-celebrants-conducted-in-January-2020.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=25), headings-skip, 
+
+### GNT007-Application-for-New-Zealand-citizenship-by-grant-Samoan-Adult.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/GNT007-Application-for-New-Zealand-citizenship-by-grant-Samoan-Adult.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### GNT008-Application-for-New-Zealand-citizenship-by-grant-Samoan-child.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/GNT008-Application-for-New-Zealand-citizenship-by-grant-Samoan-child.pdf
+- **Status**: analysed
+- headings-skip, annotations-tagging-fail, 
+
+### General-identity-declaration-form-BDM130.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/General-identity-declaration-form-BDM130.pdf
+- **Status**: analysed
+- title, forms-fail, headings-warn, 
+
+### Guide-to-being-a-celebrant.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Guide-to-being-a-celebrant.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=9), headings-none, 
+
+### Independent-celebrant-good-character-form.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Independent-celebrant-good-character-form.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### Independent-celebrant-support-letter-checklist.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Independent-celebrant-support-letter-checklist.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, 
+
+### International-Surrogacy-Fact-Sheet.pdf
+
+- **URL**: https://www.orangatamariki.govt.nz/assets/Uploads/Adoptions/Surrogacy-and-adoption/International-Surrogacy-Fact-Sheet.pdf
+- **Status**: analysed
+- title, lists-fail, annotations-tagging-fail, 
+
+### MOJ0501-Childrens-Guide-A5-Aug18-WEB.pdf
+
+- **URL**: https://www.justice.govt.nz/assets/MOJ0501-Childrens-Guide-A5-Aug18-WEB.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### Make-a-complaint-about-a-celebrant.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Make-a-complaint-about-a-celebrant.pdf
+- **Status**: analysed
+- title, lang, forms-fail, forms-tagging-fail, headings-none, 
+
+### NZ-Verify-how-to-guide.pdf
+
+- **URL**: https://www.govt.nz/assets/NZ-Verify-how-to-guide.pdf
+- **Status**: analysed
+- tagged, annotations-untagged, 
+
+### Nomination-of-marriage-celebrant-by-approved-organisation-declaration-BDM159.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Nomination-of-marriage-celebrant-by-approved-organisation-declaration-BDM159.pdf
+- **Status**: analysed
+- tagged-content-fail, lang, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### Notice-of-intended-civil-union-BDM360.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-civil-union-BDM360.pdf
+- **Status**: analysed
+- title, tagged-content-fail, forms-fail, forms-tagging-fail, lists-warn, 
+
+### Notice-of-intended-civil-union-change-of-relationship-from-marriage-BDM359.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-civil-union-change-of-relationship-from-marriage-BDM359.pdf
+- **Status**: analysed
+- title, forms-fail, figures missing alt text (count=1), headings-none, 
+
+### Notice-of-intended-civil-union-where-both-parties-ordinarily-resident-outside-NZ-BDM358.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-civil-union-where-both-parties-ordinarily-resident-outside-NZ-BDM358.pdf
+- **Status**: analysed
+- forms-fail, figures missing alt text (count=2), headings-none, tables-fail, 
+
+### Notice-of-intended-marriage-BDM60.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-BDM60.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, lists-warn, tables-fail, annotations-tagging-fail, 
+
+### Notice-of-intended-marriage-change-of-relationship-from-civil-union-BDM59.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-change-of-relationship-from-civil-union-BDM59.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-none, 
+
+### Notice-of-intended-marriage-when-marrying-outside-NZ-BDM57.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-when-marrying-outside-NZ-BDM57.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### Notice-of-intended-marriage-where-both-parties-ordinarily-resident-outside-NZ-BDM58.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-where-both-parties-ordinarily-resident-outside-NZ-BDM58.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-none, tables-fail, 
+
+### Notification-of-birth-for-registration-of-child-born-in-NZ-BDM27.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notification-of-birth-for-registration-of-child-born-in-NZ-BDM27.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Organisation-celebrant-good-character-form.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Organisation-celebrant-good-character-form.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### Rates-Rebates-application-form-2026-2027-.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Rates-Rebates-application-form-2026-2027-.pdf
+- **Status**: analysed
+- headings-skip, tables-warn, 
+
+### Rates-rebate-declaration-retirement-village.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Rates-rebate-declaration-retirement-village.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, headings-none, 
+
+### Rates-rebates-declaration-company-share-apartment.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Rates-rebates-declaration-company-share-apartment.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### Registry-office-ceremony-civil-union-statements.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Registry-office-ceremony-civil-union-statements.pdf
+- **Status**: analysed
+- title, headings-none, tables-warn, 
+
+### Registry-office-ceremony-marriage-vows.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Registry-office-ceremony-marriage-vows.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Report-on-the-review-of-appointment-process-for-independent-marriage-and-civil-union-celebrants.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Report-on-the-review-of-appointment-process-for-independent-marriage-and-civil-union-celebrants.pdf
+- **Status**: analysed
+- title, headings-warn, 
+
+### Request-a-document-authentication-or-apostille.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Request-a-document-authentication-or-apostille.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, tables-fail, annotations-tagging-fail, 
+
+### Request-for-NZ-birth-certificate-or-printout-form-BDM93B.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-birth-certificate-or-printout-form-BDM93B.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### Request-for-NZ-civil-union-certificate-or-printout-form-BDM93C.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-civil-union-certificate-or-printout-form-BDM93C.pdf
+- **Status**: analysed
+- forms-tagging-fail, tables-fail, annotations-tagging-fail, 
+
+### Request-for-NZ-death-certificate-or-printout-form-BDM93D.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-death-certificate-or-printout-form-BDM93D.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### Request-for-NZ-marriage-certificate-or-printout-form-BDM93M.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-marriage-certificate-or-printout-form-BDM93M.pdf
+- **Status**: analysed
+- forms-tagging-fail, tables-fail, annotations-tagging-fail, 
+
+### Request-for-NZ-name-change-certificate-or-certified-true-copy-of-declaration-BDM93N.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-name-change-certificate-or-certified-true-copy-of-declaration-BDM93N.pdf
+- **Status**: analysed
+- lists-warn, annotations-tagging-fail, 
+
+### Request-for-information-under-the-Privacy-Act.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Request-for-information-under-the-Privacy-Act.pdf
+- **Status**: analysed
+- tagged-content-fail, lang, headings-none, tables-fail, 
+
+### Request-for-pre-adoptive-NZ-birth-certificate-BDM451.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-pre-adoptive-NZ-birth-certificate-BDM451.pdf
+- **Status**: analysed
+- title, forms-fail, headings-warn, 
+
+### Request-for-translation.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Request-for-translation.pdf
+- **Status**: analysed
+- title, headings-skip, annotations-tagging-fail, 
+
+### Request-reinstate-or-withdraw-a-non-disclosure-direction-form-BDM132.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-reinstate-or-withdraw-a-non-disclosure-direction-form-BDM132.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=18), tables-fail, 
+
+### Request-to-search-access-register-form-BDM133.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-to-search-access-register-form-BDM133.pdf
+- **Status**: analysed
+- title, 
+
+### Statutory-declaration.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Law-crime-and-justice/Statutory-declaration.pdf
+- **Status**: analysed
+- forms-tagging-fail, 
+
+### TIME_OUT_Guide-2.pdf
+
+- **URL**: https://carers.net.nz/wp-content/uploads/2014/07/TIME_OUT_Guide-2.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### Transfer_of_Entitlement.pdf
+
+- **URL**: https://consumer.licensys.co.nz/dist/pdfs/Transfer_of_Entitlement.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### Western-Samoa-Bill-fact-sheet-English.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Western-Samoa-Bill-fact-sheet-English.pdf
+- **Status**: analysed
+- title, headings-skip, tables-fail, 
+
+### Western-Samoa-Bill-fact-sheet-Samoan.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Western-Samoa-Bill-fact-sheet-Samoan.pdf
+- **Status**: analysed
+- title, headings-skip, tables-fail, 
+
+### What-is-Rates-Rebate-large-print.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/What-is-Rates-Rebate-large-print.pdf
+- **Status**: analysed
+- lang, 
+
+### What-is-a-rates-rebate-Easy-Read.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/What-is-a-rates-rebate-Easy-Read.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=4), 
+
+### Who-Can-Get-A-Rates-Rebate-Easy-Read.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/Who-Can-Get-A-Rates-Rebate-Easy-Read.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=4), 
+
+### access-to-and-disclosure-of-identifying-information-BDM406.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/access-to-and-disclosure-of-identifying-information-BDM406.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### application-for-new-zealand-citizenship-by-descent-and-passport-adult.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/application-for-new-zealand-citizenship-by-descent-and-passport-adult.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### application-for-new-zealand-citizenship-by-descent-and-passport-child.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/application-for-new-zealand-citizenship-by-descent-and-passport-child.pdf
+- **Status**: analysed
+- headings-skip, tables-fail, annotations-tagging-fail, 
+
+### breastfeeding-in-the-workplace-guide-for-employers.pdf
+
+- **URL**: https://www.employment.govt.nz/assets/uploads/documents/pay-and-hours/breastfeeding-in-the-workplace-guide-for-employers.pdf
+- **Status**: analysed
+- figures missing alt text (count=9), headings-skip, 
