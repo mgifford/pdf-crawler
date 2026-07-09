@@ -1,0 +1,3890 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PDF Accessibility Scan Results</title>
+  <meta name="description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Open Graph (LinkedIn, Mastodon, Bluesky) -->
+  <meta property="og:title" content="PDF Accessibility Scan Results" />
+  <meta property="og:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="PDF Accessibility Crawler" />
+  <!-- Twitter Card (also used by many other platforms) -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="PDF Accessibility Scan Results" />
+  <meta name="twitter:description" content="PDF accessibility scan results showing accessible and inaccessible PDFs found on a website." />
+  <!-- Prevent flash of unstyled content when a saved theme preference is present -->
+  <script>
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <style>
+    /* ---- colour tokens ---- */
+    :root {
+      color-scheme: light dark;
+      --color-bg:           #f8f9fa;
+      --color-fg:           #1a1a2e;
+      --color-link:         #0d6efd;
+      --color-card-bg:      #fff;
+      --color-border:       #dee2e6;
+      --color-th-bg:        #e9ecef;
+      --color-row-stripe:   #f8f9fa;
+      --color-muted:        #6c757d;
+      --color-pass:         #198754;
+      --color-fail:         #dc3545;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --color-bg:           #0d1117;
+        --color-fg:           #e6edf3;
+        --color-link:         #4493f8;
+        --color-card-bg:      #161b22;
+        --color-border:       #30363d;
+        --color-th-bg:        #21262d;
+        --color-row-stripe:   #161b22;
+        --color-muted:        #8b949e;
+        --color-pass:         #3fb950;
+        --color-fail:         #f85149;
+      }
+    }
+
+    [data-theme="dark"] {
+      --color-bg:           #0d1117;
+      --color-fg:           #e6edf3;
+      --color-link:         #4493f8;
+      --color-card-bg:      #161b22;
+      --color-border:       #30363d;
+      --color-th-bg:        #21262d;
+      --color-row-stripe:   #161b22;
+      --color-muted:        #8b949e;
+      --color-pass:         #3fb950;
+      --color-fail:         #f85149;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+      color: var(--color-fg);
+      background: var(--color-bg);
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    nav a { color: var(--color-link); text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+
+    .lang-switch {
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      display: inline-flex;
+      gap: 0.35rem;
+      align-items: center;
+    }
+
+    .lang-switch {
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      display: inline-flex;
+      gap: 0.35rem;
+      align-items: center;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.25rem 0.5rem;
+      line-height: 1;
+      color: var(--color-fg);
+      margin-left: auto;
+    }
+    .theme-toggle:hover { background: var(--color-th-bg); }
+
+    h1 { color: var(--color-link); }
+    h2 { margin-top: 2rem; }
+
+    #generated-at { font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }
+
+    .downloads {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin: 1rem 0 1.25rem;
+    }
+    .downloads a,
+    .downloads button {
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 0.35rem 0.65rem;
+      text-decoration: none;
+      color: var(--color-link);
+      background: var(--color-card-bg);
+      font: inherit;
+      cursor: pointer;
+    }
+    .downloads a:hover,
+    .downloads button:hover {
+      background: var(--color-th-bg);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .stat-card {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 1rem;
+      text-align: center;
+    }
+    .stat-card .value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--color-link);
+      line-height: 1.1;
+    }
+    .stat-card .label { font-size: 0.8rem; color: var(--color-muted); margin-top: 0.25rem; }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th {
+      background: var(--color-th-bg);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      border-bottom: 2px solid var(--color-border);
+    }
+    th.sortable {
+      cursor: pointer;
+      user-select: none;
+    }
+    th.sortable:hover { background: var(--color-border); }
+    td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--color-row-stripe); }
+
+    .pass { color: var(--color-pass); }
+    .fail { color: var(--color-fail); }
+    .na   { color: var(--color-muted); }
+
+    a { color: var(--color-link); }
+
+    .empty-state {
+      background: var(--color-card-bg);
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 2rem;
+      text-align: center;
+      color: var(--color-muted);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.8rem;
+      color: var(--color-muted);
+      border-top: 1px solid var(--color-border);
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a id="back-link" href="../reports.html">&#8592; Back to reports index</a>
+    <span class="lang-switch" aria-label="Language switch">
+      <a id="lang-en-report" href="?lang=en" hreflang="en" lang="en">EN</a>
+      <span aria-hidden="true">|</span>
+      <a id="lang-fr-report" href="?lang=fr" hreflang="fr" lang="fr">FR</a>
+    </span>
+    <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
+  </nav>
+
+  <h1 id="page-title">&#128202; PDF Accessibility Scan Results</h1>
+  <p id="generated-at"></p>
+
+  <div class="downloads">
+    <a id="download-csv-link" href="./2026-07-09_20-53-14-447_lib.pstcc.edu/report.csv">Download CSV</a>
+    <a id="download-json-link" href="./2026-07-09_20-53-14-447_lib.pstcc.edu/report.json">Download JSON</a>
+    <a id="download-manifest-link" href="./2026-07-09_20-53-14-447_lib.pstcc.edu/manifest.yaml">Download Manifest</a>
+    <button id="download-current-csv" type="button">Download Current View CSV</button>
+    <button id="download-current-json" type="button">Download Current View JSON</button>
+  </div>
+
+  <div id="root"></div>
+
+  <script type="application/json" id="report-data">
+{
+  "summary": {
+    "generated_at": "2026-07-09T20:53:14.459676+00:00",
+    "total_files": 16,
+    "analysed": 16,
+    "pending": 0,
+    "errored": 0,
+    "accessible": 0,
+    "issues_found": 16,
+    "totally_inaccessible": 0,
+    "broken": 2,
+    "exempt": 11,
+    "sites": {
+      "lib.pstcc.edu": 16
+    },
+    "engines": {
+      "original": 16
+    },
+    "pages_crawled": 0
+  },
+  "files": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7301291/pdf/10.1177_1090198120922942.pdf",
+      "md5": "057eb302cbe6fbdf27c9748565d1489e",
+      "file_hash": "eaff332b6e63fac236fd3df66c43f4e18ea577ea5deb9262f872bef852356622",
+      "file_size_bytes": 1817,
+      "filename": "10.1177_1090198120922942.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.899440+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "10.1177_1090198120922942.pdf",
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "ImageAltTextTest": null,
+        "TaggedContentTest": null,
+        "UntaggedContentCount": null,
+        "UntaggedContentSummary": null,
+        "UntaggedWhitespaceContentCount": null,
+        "UntaggedWhitespaceContentSummary": null,
+        "FormsTest": null,
+        "FormFieldCount": null,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": null,
+        "TaggedFormFieldsTest": null,
+        "TaggedFormFieldIssues": null,
+        "AnnotationsFound": null,
+        "AnnotationCount": null,
+        "AnnotationSubtypeCounts": null,
+        "LinkAnnotationCount": null,
+        "WidgetAnnotationCount": null,
+        "TaggedAnnotationsTest": null,
+        "TaggedAnnotationIssues": null,
+        "AnnotationSummary": null,
+        "LinkStructureCount": null,
+        "ExternalLinkAnnotationCount": null,
+        "InternalLinkAnnotationCount": null,
+        "AnnotationPagesWithLinks": null,
+        "HidesAnnotationTest": null,
+        "HidesAnnotationIssues": null,
+        "NestedAltTextTest": null,
+        "NestedAltTextIssues": null,
+        "HeadingsTest": null,
+        "HeadingCount": null,
+        "HeadingSequence": null,
+        "HeadingIssues": null,
+        "ListsTest": null,
+        "ListCount": null,
+        "InvalidListItemParents": null,
+        "InvalidListChildren": null,
+        "MalformedListNodes": null,
+        "TablesTest": null,
+        "TableCount": null,
+        "InvalidTRParents": null,
+        "InvalidCellParents": null,
+        "TablesWithoutHeaders": null,
+        "IrregularTables": null,
+        "FiguresAltTextTest": null,
+        "FiguresAltTextIssues": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null,
+        "fonts": null,
+        "numTxtObjects": null
+      },
+      "errors": [
+        "PdfError: crawled_files/lib.pstcc.edu/10.1177_1090198120922942.pdf: unable to find trailer dictionary while recovering damaged file"
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "10.1177_1090198120922942.pdf",
+            "Accessible": null,
+            "TotallyInaccessible": false,
+            "BrokenFile": true,
+            "TaggedTest": null,
+            "EmptyTextTest": null,
+            "ProtectedTest": null,
+            "TitleTest": null,
+            "LanguageTest": null,
+            "BookmarksTest": null,
+            "ImageAltTextTest": null,
+            "TaggedContentTest": null,
+            "UntaggedContentCount": null,
+            "UntaggedContentSummary": null,
+            "UntaggedWhitespaceContentCount": null,
+            "UntaggedWhitespaceContentSummary": null,
+            "FormsTest": null,
+            "FormFieldCount": null,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": null,
+            "TaggedFormFieldsTest": null,
+            "TaggedFormFieldIssues": null,
+            "AnnotationsFound": null,
+            "AnnotationCount": null,
+            "AnnotationSubtypeCounts": null,
+            "LinkAnnotationCount": null,
+            "WidgetAnnotationCount": null,
+            "TaggedAnnotationsTest": null,
+            "TaggedAnnotationIssues": null,
+            "AnnotationSummary": null,
+            "LinkStructureCount": null,
+            "ExternalLinkAnnotationCount": null,
+            "InternalLinkAnnotationCount": null,
+            "AnnotationPagesWithLinks": null,
+            "HidesAnnotationTest": null,
+            "HidesAnnotationIssues": null,
+            "NestedAltTextTest": null,
+            "NestedAltTextIssues": null,
+            "HeadingsTest": null,
+            "HeadingCount": null,
+            "HeadingSequence": null,
+            "HeadingIssues": null,
+            "ListsTest": null,
+            "ListCount": null,
+            "InvalidListItemParents": null,
+            "InvalidListChildren": null,
+            "MalformedListNodes": null,
+            "TablesTest": null,
+            "TableCount": null,
+            "InvalidTRParents": null,
+            "InvalidCellParents": null,
+            "TablesWithoutHeaders": null,
+            "IrregularTables": null,
+            "FiguresAltTextTest": null,
+            "FiguresAltTextIssues": null,
+            "Exempt": false,
+            "Date": null,
+            "hasTitle": null,
+            "hasDisplayDocTitle": null,
+            "hasLang": null,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": null,
+            "hasXmp": null,
+            "PDFVersion": null,
+            "Creator": null,
+            "Producer": null,
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": null,
+            "Words": null,
+            "Images": null,
+            "fonts": null,
+            "numTxtObjects": null
+          },
+          "errors": [
+            "PdfError: crawled_files/lib.pstcc.edu/10.1177_1090198120922942.pdf: unable to find trailer dictionary while recovering damaged file"
+          ],
+          "analysed_at": "2026-07-09T20:48:20.170289+00:00"
+        }
+      },
+      "link_text": "Racial Capitalism: A Fundamental Cause of Novel Coronavirus (COVID-19) Pandemic Inequities in the United States This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://cdn.thomasnet.com/ccp/10076910/184368.pdf",
+      "md5": "5c0339bf354bbd80a4fae0ad7834a750",
+      "file_hash": "d0ca07af5a787db0dbee8681db94611b67143ddec8c65a8f1127a788b6554777",
+      "file_size_bytes": 770097,
+      "filename": "184368.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.905691+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "184368.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": null,
+        "TaggedContentTest": "Fail",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "NotApplicable",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "NotApplicable",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "NotApplicable",
+        "FiguresAltTextIssues": "",
+        "Exempt": true,
+        "Date": "2014-04-02 19:14:04+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign CS6 (Windows)",
+        "Producer": "Adobe PDF Library 10.0.1",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 3,
+        "Words": 680,
+        "Images": 5,
+        "fonts": 4,
+        "numTxtObjects": 35
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "184368.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Fail",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": null,
+            "TaggedContentTest": "Fail",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "NotApplicable",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "NotApplicable",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "NotApplicable",
+            "FiguresAltTextIssues": "",
+            "Exempt": true,
+            "Date": "2014-04-02 19:14:04+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.7",
+            "Creator": "Adobe InDesign CS6 (Windows)",
+            "Producer": "Adobe PDF Library 10.0.1",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 3,
+            "Words": 680,
+            "Images": 5,
+            "fonts": 4,
+            "numTxtObjects": 35
+          },
+          "errors": [
+            "title, tagged, lang, "
+          ],
+          "analysed_at": "2026-07-09T20:48:36.595187+00:00"
+        }
+      },
+      "link_text": "Stat!Ref Support This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf",
+      "md5": "5464bdf743668dec8f0b5a4ee6f3d8ce",
+      "file_hash": "13b26ab25df064dff59dc09fc780fa7ecc67ac4d90217de474bcc8b8af35ab31",
+      "file_size_bytes": 49771,
+      "filename": "Analyzing_Primary_Sources.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.909706+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "Analyzing_Primary_Sources.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Pass",
+        "TaggedContentTest": "Fail",
+        "UntaggedContentCount": 2,
+        "UntaggedContentSummary": "page=1 source=page op=Do text='Image XObject /Im0 (49, 0)' | page=1 source=page op=TJ text='LOC.gov/teachers'",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Pass",
+        "HeadingCount": 1,
+        "HeadingSequence": "H1",
+        "HeadingIssues": "",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Pass",
+        "FiguresAltTextIssues": "",
+        "Exempt": true,
+        "Date": "2012-11-14 14:50:24+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CS4 (6.0)",
+        "Producer": "Adobe PDF Library 9.0",
+        "Title": "Teacher's Guide: Analyzing Primary Sources | Teacher Resources - Library of Congress",
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 1,
+        "Words": 360,
+        "Images": 1,
+        "fonts": 9,
+        "numTxtObjects": 28
+      },
+      "errors": [
+        "title, tagged-content-fail, lang, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "Analyzing_Primary_Sources.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Pass",
+            "TaggedContentTest": "Fail",
+            "UntaggedContentCount": 2,
+            "UntaggedContentSummary": "page=1 source=page op=Do text='Image XObject /Im0 (49, 0)' | page=1 source=page op=TJ text='LOC.gov/teachers'",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Pass",
+            "HeadingCount": 1,
+            "HeadingSequence": "H1",
+            "HeadingIssues": "",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Pass",
+            "FiguresAltTextIssues": "",
+            "Exempt": true,
+            "Date": "2012-11-14 14:50:24+00:00",
+            "hasTitle": true,
+            "hasDisplayDocTitle": false,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.6",
+            "Creator": "Adobe InDesign CS4 (6.0)",
+            "Producer": "Adobe PDF Library 9.0",
+            "Title": "Teacher's Guide: Analyzing Primary Sources | Teacher Resources - Library of Congress",
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 1,
+            "Words": 360,
+            "Images": 1,
+            "fonts": 9,
+            "numTxtObjects": 28
+          },
+          "errors": [
+            "title, tagged-content-fail, lang, "
+          ],
+          "analysed_at": "2026-07-09T20:48:52.739154+00:00"
+        }
+      },
+      "link_text": "The Library of Congress, Analyzing Primary Sources\u00a0Tool",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://storycorpsorg-staging.s3.amazonaws.com/uploads/Getting-Started.pdf",
+      "md5": "a519f975ea36930ff9f9182212900638",
+      "file_hash": "abde3f722f38fffdd11d1dc11035a14290b0e4d7a4f2e41a8af9ea0fb8e06bcf",
+      "file_size_bytes": 703692,
+      "filename": "Getting-Started.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.913885+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "Getting-Started.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Fail",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "Pass",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "Figures missing alt text (count=11)",
+        "Exempt": true,
+        "Date": "2017-09-18 15:22:39+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 1,
+        "Words": 379,
+        "Images": 3,
+        "fonts": 5,
+        "numTxtObjects": 23
+      },
+      "errors": [
+        "title, figures missing alt text (count=11), headings-none, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "Getting-Started.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "Pass",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=11)",
+            "Exempt": true,
+            "Date": "2017-09-18 15:22:39+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 1,
+            "Words": 379,
+            "Images": 3,
+            "fonts": 5,
+            "numTxtObjects": 23
+          },
+          "errors": [
+            "title, figures missing alt text (count=11), headings-none, "
+          ],
+          "analysed_at": "2026-07-09T20:49:08.947988+00:00"
+        }
+      },
+      "link_text": "Getting Started",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://storycorpsorg-staging.s3.amazonaws.com/uploads/Improve-Sound-Quality.pdf",
+      "md5": "d4a61f20cde18cb173c8e360432fe5ae",
+      "file_hash": "f3195a8dfd1853d87ccf4f71dcbf7fd9352b2d04a52e47d33b8bd9784bf67862",
+      "file_size_bytes": 502589,
+      "filename": "Improve-Sound-Quality.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.917197+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "Improve-Sound-Quality.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Fail",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "Figures missing alt text (count=12)",
+        "Exempt": true,
+        "Date": "2017-09-14 16:35:24+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 1,
+        "Words": 189,
+        "Images": 6,
+        "fonts": 6,
+        "numTxtObjects": 21
+      },
+      "errors": [
+        "title, figures missing alt text (count=12), headings-none, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "Improve-Sound-Quality.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=12)",
+            "Exempt": true,
+            "Date": "2017-09-14 16:35:24+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 1,
+            "Words": 189,
+            "Images": 6,
+            "fonts": 6,
+            "numTxtObjects": 21
+          },
+          "errors": [
+            "title, figures missing alt text (count=12), headings-none, "
+          ],
+          "analysed_at": "2026-07-09T20:49:25.698177+00:00"
+        }
+      },
+      "link_text": "Sounds Quality: How to Create Your Own STORYCORPS Studio:",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://storycorpsorg-staging.s3.amazonaws.com/uploads/Interview-Tips.pdf",
+      "md5": "074e7307f9b52b1d80f38b2c2ff39af1",
+      "file_hash": "1a2549134f2ee4617e385f644fe4396603b4818c2b83631922ae3ae2b07b452d",
+      "file_size_bytes": 511609,
+      "filename": "Interview-Tips.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.920430+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "Interview-Tips.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Fail",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "Figures missing alt text (count=13)",
+        "Exempt": true,
+        "Date": "2017-09-18 16:10:33+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 1,
+        "Words": 462,
+        "Images": 3,
+        "fonts": 5,
+        "numTxtObjects": 41
+      },
+      "errors": [
+        "title, figures missing alt text (count=13), headings-none, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "Interview-Tips.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=13)",
+            "Exempt": true,
+            "Date": "2017-09-18 16:10:33+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 1,
+            "Words": 462,
+            "Images": 3,
+            "fonts": 5,
+            "numTxtObjects": 41
+          },
+          "errors": [
+            "title, figures missing alt text (count=13), headings-none, "
+          ],
+          "analysed_at": "2026-07-09T20:49:41.705008+00:00"
+        }
+      },
+      "link_text": "10 Conversation Tips for Your STORYCORPS App Interview:",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://cccse.org/sites/default/files/Mission_Critical.pdf",
+      "md5": "4bfbcab8ef2a5db13a1d1ee7fc025108",
+      "file_hash": "03cfc6213a10b12e37288da1ac2f7598ef13e130ed56d637e1be82d8d2546626",
+      "file_size_bytes": 9395665,
+      "filename": "Mission_Critical.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.944071+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "Mission_Critical.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Pass",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Fail",
+        "ImageAltTextTest": "Pass",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": true,
+        "AnnotationCount": 61,
+        "AnnotationSubtypeCounts": "Link=61",
+        "LinkAnnotationCount": 61,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "Fail",
+        "TaggedAnnotationIssues": "(313, 0): page=4 dest='CCCSE Mission Critical 2022 FINAL.indd:17871': link annotation has no /StructParent | (316, 0): page=5 dest='CCCSE Mission Critical 2022 FINAL.indd:17876': link annotation has no /StructParent | (325, 0): page=8 dest='CCCSE Mission Critical 2022 FINAL.indd:17878': link annotation has no /StructParent | (341, 0): page=11 dest='CCCSE Mission Critical 2022 FINAL.indd:17880': link annotation has no /StructParent | (361, 0): page=16 dest='CCCSE Mission Critical 2022 FINAL.indd:17884': link annotation has no /StructParent",
+        "AnnotationSummary": "(1846, 0): page=2 subtype=Link flags=None rect=[549.194, 87.4114, 633.651, 74.2224] action='/URI' dest='http://www.cccse.org/NR22' widget=False field=None struct_parent=2 | (313, 0): page=4 subtype=Link flags=None rect=[411.203, 401.635, 414.281, 393.446] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17871' widget=False field=None struct_parent=None | (316, 0): page=5 subtype=Link flags=None rect=[370.284, 513.884, 374.818, 505.694] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17876' widget=False field=None struct_parent=None | (325, 0): page=8 subtype=Link flags=None rect=[482.744, 401.204, 487.278, 393.014] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17878' widget=False field=None struct_parent=None | (341, 0): page=11 subtype=Link flags=None rect=[580.716, 351.699, 583.666, 344.215] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17880' widget=False field=None struct_parent=None | (1332, 0): page=12 subtype=Link flags=None rect=[553.122, 308.205, 556.2, 300.952] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17882' widget=False field=None struct_parent=14 | (361, 0): page=16 subtype=Link flags=None rect=[723.828, 170.327, 726.906, 163.074] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17884' widget=False field=None struct_parent=None | (1312, 0): page=16 subtype=Link flags=None rect=[650.526, 106.007, 653.604, 98.7542] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17886' widget=False field=None struct_parent=18 | (1303, 0): page=16 subtype=Link flags=None rect=[645.653, 56.6873, 650.27, 49.4342] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17888' widget=False field=None struct_parent=19 | (1289, 0): page=25 subtype=Link flags=None rect=[174.757, 452.395, 177.835, 444.206] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19630' widget=False field=None struct_parent=24 | (1284, 0): page=25 subtype=Link flags=None rect=[90.2675, 293.395, 96.4239, 285.206] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19627' widget=False field=None struct_parent=25 | (1279, 0): page=25 subtype=Link flags=None rect=[72.0734, 239.395, 78.2298, 231.206] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19624' widget=False field=None struct_parent=26 | (1275, 0): page=25 subtype=Link flags=None rect=[289.207, 239.395, 296.819, 231.206] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19621' widget=False field=None struct_parent=27 | (1268, 0): page=25 subtype=Link flags=None rect=[464.728, 464.995, 470.885, 456.806] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19618' widget=False field=None struct_parent=28 | (1264, 0): page=25 subtype=Link flags=None rect=[568.093, 419.995, 574.249, 411.806] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19615' widget=False field=None struct_parent=29 | (1260, 0): page=25 subtype=Link flags=None rect=[457.018, 329.995, 463.174, 321.806] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19613' widget=False field=None struct_parent=30 | (1639, 0): page=29 subtype=Link flags=None rect=[311.303, 351.415, 317.459, 343.226] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17890' widget=False field=None struct_parent=35 | (919, 0): page=32 subtype=Link flags=None rect=[113.4, 375.804, 117.24, 365.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17872' widget=False field=None struct_parent=50 | (915, 0): page=32 subtype=Link flags=None rect=[277.943, 365.82, 372.653, 355.588] action='/URI' dest='https://nscresearchcenter.org/stay-informed/' widget=False field=None struct_parent=51 | (917, 0): page=32 subtype=Link flags=None rect=[131.4, 355.804, 179.303, 345.588] action='/URI' dest='https://nscresearchcenter.org/stay-informed/' widget=False field=None struct_parent=52 | (911, 0): page=32 subtype=Link flags=None rect=[117.24, 341.968, 113.4, 331.313] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17877' widget=False field=None struct_parent=53 | (907, 0): page=32 subtype=Link flags=None rect=[278.494, 311.32, 361.381, 301.088] action='/URI' dest='http://dx.doi.org/10.1017/S1368980021003104' widget=False field=None struct_parent=54 | (909, 0): page=32 subtype=Link flags=None rect=[131.4, 301.304, 196.631, 291.088] action='/URI' dest='http://dx.doi.org/10.1017/S1368980021003104' widget=False field=None struct_parent=55 | (903, 0): page=32 subtype=Link flags=None rect=[113.4, 286.804, 117.24, 276.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17879' widget=False field=None struct_parent=56 | (899, 0): page=32 subtype=Link flags=None rect=[131.4, 266.804, 371.757, 256.588] action='/URI' dest='https://www.trelliscompany.org/wp-content/uploads/2019/09/Studying-on-Empty.pdf' widget=False field=None struct_parent=57 | (901, 0): page=32 subtype=Link flags=None rect=[131.4, 256.804, 164.687, 246.588] action='/URI' dest='https://www.trelliscompany.org/wp-content/uploads/2019/09/Studying-on-Empty.pdf' widget=False field=None struct_parent=58 | (895, 0): page=32 subtype=Link flags=None rect=[113.4, 242.304, 117.24, 232.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17881' widget=False field=None struct_parent=59 | (891, 0): page=32 subtype=Link flags=None rect=[271.189, 222.304, 356.116, 212.088] action='/URI' dest='https://naldc.nal.usda.gov/download/38369/PDF' widget=False field=None struct_parent=60 | (893, 0): page=32 subtype=Link flags=None rect=[131.4, 212.304, 202.343, 202.088] action='/URI' dest='https://naldc.nal.usda.gov/download/38369/PDF' widget=False field=None struct_parent=61 | (887, 0): page=32 subtype=Link flags=None rect=[117.24, 198.397, 113.4, 187.742] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17883' widget=False field=None struct_parent=62 | (883, 0): page=32 subtype=Link flags=None rect=[269.342, 177.82, 376.845, 167.588] action='/URI' dest='https://doi.org/10.1093/advances/nmz111' widget=False field=None struct_parent=63 | (885, 0): page=32 subtype=Link flags=None rect=[131.4, 167.804, 157.192, 157.588] action='/URI' dest='https://doi.org/10.1093/advances/nmz111' widget=False field=None struct_parent=64 | (879, 0): page=32 subtype=Link flags=None rect=[113.4, 153.304, 117.24, 143.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17885' widget=False field=None struct_parent=65 | (875, 0): page=32 subtype=Link flags=None rect=[131.4, 123.304, 364.924, 113.088] action='/URI' dest='https://www.calstate.edu/impact-of-the-csu/student-success/basic-needs-initiative/Documents/researching-basic-needs.pdf' widget=False field=None struct_parent=66 | (877, 0): page=32 subtype=Link flags=None rect=[131.4, 113.304, 291.701, 103.088] action='/URI' dest='https://www.calstate.edu/impact-of-the-csu/student-success/basic-needs-initiative/Documents/researching-basic-needs.pdf' widget=False field=None struct_parent=67 | (871, 0): page=32 subtype=Link flags=None rect=[405.0, 375.804, 408.84, 365.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17887' widget=False field=None struct_parent=68 | (869, 0): page=32 subtype=Link flags=None rect=[405.0, 361.304, 408.84, 351.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17889' widget=False field=None struct_parent=69 | (867, 0): page=32 subtype=Link flags=None rect=[405.0, 346.804, 408.84, 336.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19631' widget=False field=None struct_parent=70 | (863, 0): page=32 subtype=Link flags=None rect=[668.443, 327.468, 560.942, 316.813] action='/URI' dest='https://doi.org/10.1093/advances/nmz111' widget=False field=None struct_parent=71 | (865, 0): page=32 subtype=Link flags=None rect=[448.792, 317.468, 423.0, 306.813] action='/URI' dest='https://doi.org/10.1093/advances/nmz111' widget=False field=None struct_parent=72 | (859, 0): page=32 subtype=Link flags=None rect=[405.0, 302.304, 412.68, 292.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19628' widget=False field=None struct_parent=73 | (857, 0): page=32 subtype=Link flags=None rect=[423.0, 302.304, 642.708, 292.088] action='/URI' dest='https://cccse.org/sites/default/files/ MissionCritical_Methodology.pdf' widget=False field=None struct_parent=74 | (854, 0): page=32 subtype=Link flags=None rect=[405.0, 287.804, 412.68, 277.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19625' widget=False field=None struct_parent=75 | (850, 0): page=32 subtype=Link flags=None rect=[562.789, 267.804, 647.716, 257.588] action='/URI' dest='https://naldc.nal.usda.gov/download/38369/PDF' widget=False field=None struct_parent=76 | (852, 0): page=32 subtype=Link flags=None rect=[423.0, 257.804, 493.943, 247.588] action='/URI' dest='https://naldc.nal.usda.gov/download/38369/PDF' widget=False field=None struct_parent=77 | (846, 0): page=32 subtype=Link flags=None rect=[405.0, 243.304, 412.68, 233.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19622' widget=False field=None struct_parent=78 | (844, 0): page=32 subtype=Link flags=None rect=[423.0, 243.304, 642.708, 233.088] action='/URI' dest='https://cccse.org/sites/default/files/ MissionCritical_Methodology.pdf' widget=False field=None struct_parent=79 | (841, 0): page=32 subtype=Link flags=None rect=[405.0, 228.804, 412.68, 218.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19619' widget=False field=None struct_parent=80 | (837, 0): page=32 subtype=Link flags=None rect=[423.0, 198.804, 656.524, 188.588] action='/URI' dest='https://www.calstate.edu/impact-of-the-csu/student-success/basic-needs-initiative/Documents/researching-basic-needs.pdf' widget=False field=None struct_parent=81 | (839, 0): page=32 subtype=Link flags=None rect=[423.0, 188.804, 583.301, 178.588] action='/URI' dest='https://www.calstate.edu/impact-of-the-csu/student-success/basic-needs-initiative/Documents/researching-basic-needs.pdf' widget=False field=None struct_parent=82 | (833, 0): page=32 subtype=Link flags=None rect=[405.0, 174.304, 412.68, 164.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19616' widget=False field=None struct_parent=83 | (831, 0): page=32 subtype=Link flags=None rect=[423.0, 174.304, 642.708, 164.088] action='/URI' dest='https://cccse.org/sites/default/files/ MissionCritical_Methodology.pdf' widget=False field=None struct_parent=84 | (828, 0): page=32 subtype=Link flags=None rect=[405.0, 159.804, 412.68, 149.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19614' widget=False field=None struct_parent=85 | (826, 0): page=32 subtype=Link flags=None rect=[405.0, 145.304, 412.68, 135.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17891' widget=False field=None struct_parent=86 | (822, 0): page=32 subtype=Link flags=None rect=[423.0, 125.304, 674.588, 115.088] action='/URI' dest='https://www.trelliscompany.org/wp-content/uploads/2022/05/71646-Research-Brief-MAY2022_FINAL.pdf' widget=False field=None struct_parent=87 | (824, 0): page=32 subtype=Link flags=None rect=[423.0, 115.304, 512.967, 105.088] action='/URI' dest='https://www.trelliscompany.org/wp-content/uploads/2022/05/71646-Research-Brief-MAY2022_FINAL.pdf' widget=False field=None struct_parent=88 | (922, 0): page=32 subtype=Link flags=None rect=[332.396, 462.118, 403.183, 448.114] action='/URI' dest='http://www.cccse.org/' widget=False field=None struct_parent=49 | (818, 0): page=33 subtype=Link flags=None rect=[368.766, 293.699, 438.875, 278.456] action='/URI' dest='mailto:info@cccse.org' widget=False field=None struct_parent=90 | (815, 0): page=33 subtype=Link flags=None rect=[369.723, 273.985, 439.551, 258.742] action='/URI' dest='http://www.cccse.org' widget=False field=None struct_parent=91 | (812, 0): page=33 subtype=Link flags=None rect=[350.503, 257.802, 462.941, 238.92] action='/URI' dest='https://twitter.com/CommCollSurveys' widget=False field=None struct_parent=92 | (807, 0): page=33 subtype=Link flags=None rect=[369.786, 234.558, 434.949, 219.315] action='/URI' dest='https://www.youtube.com/user/CCCSEVideo' widget=False field=None struct_parent=93",
+        "LinkStructureCount": 56,
+        "ExternalLinkAnnotationCount": 29,
+        "InternalLinkAnnotationCount": 32,
+        "AnnotationPagesWithLinks": 11,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "Pass",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "Fail",
+        "ListCount": 12,
+        "InvalidListItemParents": "(1397, 0): LI parent is Art, expected L",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Pass",
+        "FiguresAltTextIssues": "",
+        "Exempt": false,
+        "Date": "2022-10-14 23:00:54+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": true,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 17.4 (Windows)",
+        "Producer": "Adobe PDF Library 16.0.7",
+        "Title": "Mission Critical: The Role of Community Colleges in Meeting Students\u2019 Basic Needs",
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 33,
+        "Words": 9442,
+        "Images": 41,
+        "fonts": 26,
+        "numTxtObjects": 867
+      },
+      "errors": [
+        "no bookmarks and more than 20 pages, headings-none, lists-fail, annotations-tagging-fail, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "Mission_Critical.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Pass",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Fail",
+            "ImageAltTextTest": "Pass",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 61,
+            "AnnotationSubtypeCounts": "Link=61",
+            "LinkAnnotationCount": 61,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Fail",
+            "TaggedAnnotationIssues": "(313, 0): page=4 dest='CCCSE Mission Critical 2022 FINAL.indd:17871': link annotation has no /StructParent | (316, 0): page=5 dest='CCCSE Mission Critical 2022 FINAL.indd:17876': link annotation has no /StructParent | (325, 0): page=8 dest='CCCSE Mission Critical 2022 FINAL.indd:17878': link annotation has no /StructParent | (341, 0): page=11 dest='CCCSE Mission Critical 2022 FINAL.indd:17880': link annotation has no /StructParent | (361, 0): page=16 dest='CCCSE Mission Critical 2022 FINAL.indd:17884': link annotation has no /StructParent",
+            "AnnotationSummary": "(1846, 0): page=2 subtype=Link flags=None rect=[549.194, 87.4114, 633.651, 74.2224] action='/URI' dest='http://www.cccse.org/NR22' widget=False field=None struct_parent=2 | (313, 0): page=4 subtype=Link flags=None rect=[411.203, 401.635, 414.281, 393.446] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17871' widget=False field=None struct_parent=None | (316, 0): page=5 subtype=Link flags=None rect=[370.284, 513.884, 374.818, 505.694] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17876' widget=False field=None struct_parent=None | (325, 0): page=8 subtype=Link flags=None rect=[482.744, 401.204, 487.278, 393.014] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17878' widget=False field=None struct_parent=None | (341, 0): page=11 subtype=Link flags=None rect=[580.716, 351.699, 583.666, 344.215] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17880' widget=False field=None struct_parent=None | (1332, 0): page=12 subtype=Link flags=None rect=[553.122, 308.205, 556.2, 300.952] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17882' widget=False field=None struct_parent=14 | (361, 0): page=16 subtype=Link flags=None rect=[723.828, 170.327, 726.906, 163.074] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17884' widget=False field=None struct_parent=None | (1312, 0): page=16 subtype=Link flags=None rect=[650.526, 106.007, 653.604, 98.7542] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17886' widget=False field=None struct_parent=18 | (1303, 0): page=16 subtype=Link flags=None rect=[645.653, 56.6873, 650.27, 49.4342] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17888' widget=False field=None struct_parent=19 | (1289, 0): page=25 subtype=Link flags=None rect=[174.757, 452.395, 177.835, 444.206] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19630' widget=False field=None struct_parent=24 | (1284, 0): page=25 subtype=Link flags=None rect=[90.2675, 293.395, 96.4239, 285.206] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19627' widget=False field=None struct_parent=25 | (1279, 0): page=25 subtype=Link flags=None rect=[72.0734, 239.395, 78.2298, 231.206] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19624' widget=False field=None struct_parent=26 | (1275, 0): page=25 subtype=Link flags=None rect=[289.207, 239.395, 296.819, 231.206] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19621' widget=False field=None struct_parent=27 | (1268, 0): page=25 subtype=Link flags=None rect=[464.728, 464.995, 470.885, 456.806] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19618' widget=False field=None struct_parent=28 | (1264, 0): page=25 subtype=Link flags=None rect=[568.093, 419.995, 574.249, 411.806] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19615' widget=False field=None struct_parent=29 | (1260, 0): page=25 subtype=Link flags=None rect=[457.018, 329.995, 463.174, 321.806] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19613' widget=False field=None struct_parent=30 | (1639, 0): page=29 subtype=Link flags=None rect=[311.303, 351.415, 317.459, 343.226] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17890' widget=False field=None struct_parent=35 | (919, 0): page=32 subtype=Link flags=None rect=[113.4, 375.804, 117.24, 365.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17872' widget=False field=None struct_parent=50 | (915, 0): page=32 subtype=Link flags=None rect=[277.943, 365.82, 372.653, 355.588] action='/URI' dest='https://nscresearchcenter.org/stay-informed/' widget=False field=None struct_parent=51 | (917, 0): page=32 subtype=Link flags=None rect=[131.4, 355.804, 179.303, 345.588] action='/URI' dest='https://nscresearchcenter.org/stay-informed/' widget=False field=None struct_parent=52 | (911, 0): page=32 subtype=Link flags=None rect=[117.24, 341.968, 113.4, 331.313] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17877' widget=False field=None struct_parent=53 | (907, 0): page=32 subtype=Link flags=None rect=[278.494, 311.32, 361.381, 301.088] action='/URI' dest='http://dx.doi.org/10.1017/S1368980021003104' widget=False field=None struct_parent=54 | (909, 0): page=32 subtype=Link flags=None rect=[131.4, 301.304, 196.631, 291.088] action='/URI' dest='http://dx.doi.org/10.1017/S1368980021003104' widget=False field=None struct_parent=55 | (903, 0): page=32 subtype=Link flags=None rect=[113.4, 286.804, 117.24, 276.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17879' widget=False field=None struct_parent=56 | (899, 0): page=32 subtype=Link flags=None rect=[131.4, 266.804, 371.757, 256.588] action='/URI' dest='https://www.trelliscompany.org/wp-content/uploads/2019/09/Studying-on-Empty.pdf' widget=False field=None struct_parent=57 | (901, 0): page=32 subtype=Link flags=None rect=[131.4, 256.804, 164.687, 246.588] action='/URI' dest='https://www.trelliscompany.org/wp-content/uploads/2019/09/Studying-on-Empty.pdf' widget=False field=None struct_parent=58 | (895, 0): page=32 subtype=Link flags=None rect=[113.4, 242.304, 117.24, 232.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17881' widget=False field=None struct_parent=59 | (891, 0): page=32 subtype=Link flags=None rect=[271.189, 222.304, 356.116, 212.088] action='/URI' dest='https://naldc.nal.usda.gov/download/38369/PDF' widget=False field=None struct_parent=60 | (893, 0): page=32 subtype=Link flags=None rect=[131.4, 212.304, 202.343, 202.088] action='/URI' dest='https://naldc.nal.usda.gov/download/38369/PDF' widget=False field=None struct_parent=61 | (887, 0): page=32 subtype=Link flags=None rect=[117.24, 198.397, 113.4, 187.742] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17883' widget=False field=None struct_parent=62 | (883, 0): page=32 subtype=Link flags=None rect=[269.342, 177.82, 376.845, 167.588] action='/URI' dest='https://doi.org/10.1093/advances/nmz111' widget=False field=None struct_parent=63 | (885, 0): page=32 subtype=Link flags=None rect=[131.4, 167.804, 157.192, 157.588] action='/URI' dest='https://doi.org/10.1093/advances/nmz111' widget=False field=None struct_parent=64 | (879, 0): page=32 subtype=Link flags=None rect=[113.4, 153.304, 117.24, 143.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17885' widget=False field=None struct_parent=65 | (875, 0): page=32 subtype=Link flags=None rect=[131.4, 123.304, 364.924, 113.088] action='/URI' dest='https://www.calstate.edu/impact-of-the-csu/student-success/basic-needs-initiative/Documents/researching-basic-needs.pdf' widget=False field=None struct_parent=66 | (877, 0): page=32 subtype=Link flags=None rect=[131.4, 113.304, 291.701, 103.088] action='/URI' dest='https://www.calstate.edu/impact-of-the-csu/student-success/basic-needs-initiative/Documents/researching-basic-needs.pdf' widget=False field=None struct_parent=67 | (871, 0): page=32 subtype=Link flags=None rect=[405.0, 375.804, 408.84, 365.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17887' widget=False field=None struct_parent=68 | (869, 0): page=32 subtype=Link flags=None rect=[405.0, 361.304, 408.84, 351.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17889' widget=False field=None struct_parent=69 | (867, 0): page=32 subtype=Link flags=None rect=[405.0, 346.804, 408.84, 336.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19631' widget=False field=None struct_parent=70 | (863, 0): page=32 subtype=Link flags=None rect=[668.443, 327.468, 560.942, 316.813] action='/URI' dest='https://doi.org/10.1093/advances/nmz111' widget=False field=None struct_parent=71 | (865, 0): page=32 subtype=Link flags=None rect=[448.792, 317.468, 423.0, 306.813] action='/URI' dest='https://doi.org/10.1093/advances/nmz111' widget=False field=None struct_parent=72 | (859, 0): page=32 subtype=Link flags=None rect=[405.0, 302.304, 412.68, 292.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19628' widget=False field=None struct_parent=73 | (857, 0): page=32 subtype=Link flags=None rect=[423.0, 302.304, 642.708, 292.088] action='/URI' dest='https://cccse.org/sites/default/files/ MissionCritical_Methodology.pdf' widget=False field=None struct_parent=74 | (854, 0): page=32 subtype=Link flags=None rect=[405.0, 287.804, 412.68, 277.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19625' widget=False field=None struct_parent=75 | (850, 0): page=32 subtype=Link flags=None rect=[562.789, 267.804, 647.716, 257.588] action='/URI' dest='https://naldc.nal.usda.gov/download/38369/PDF' widget=False field=None struct_parent=76 | (852, 0): page=32 subtype=Link flags=None rect=[423.0, 257.804, 493.943, 247.588] action='/URI' dest='https://naldc.nal.usda.gov/download/38369/PDF' widget=False field=None struct_parent=77 | (846, 0): page=32 subtype=Link flags=None rect=[405.0, 243.304, 412.68, 233.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19622' widget=False field=None struct_parent=78 | (844, 0): page=32 subtype=Link flags=None rect=[423.0, 243.304, 642.708, 233.088] action='/URI' dest='https://cccse.org/sites/default/files/ MissionCritical_Methodology.pdf' widget=False field=None struct_parent=79 | (841, 0): page=32 subtype=Link flags=None rect=[405.0, 228.804, 412.68, 218.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19619' widget=False field=None struct_parent=80 | (837, 0): page=32 subtype=Link flags=None rect=[423.0, 198.804, 656.524, 188.588] action='/URI' dest='https://www.calstate.edu/impact-of-the-csu/student-success/basic-needs-initiative/Documents/researching-basic-needs.pdf' widget=False field=None struct_parent=81 | (839, 0): page=32 subtype=Link flags=None rect=[423.0, 188.804, 583.301, 178.588] action='/URI' dest='https://www.calstate.edu/impact-of-the-csu/student-success/basic-needs-initiative/Documents/researching-basic-needs.pdf' widget=False field=None struct_parent=82 | (833, 0): page=32 subtype=Link flags=None rect=[405.0, 174.304, 412.68, 164.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19616' widget=False field=None struct_parent=83 | (831, 0): page=32 subtype=Link flags=None rect=[423.0, 174.304, 642.708, 164.088] action='/URI' dest='https://cccse.org/sites/default/files/ MissionCritical_Methodology.pdf' widget=False field=None struct_parent=84 | (828, 0): page=32 subtype=Link flags=None rect=[405.0, 159.804, 412.68, 149.588] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:19614' widget=False field=None struct_parent=85 | (826, 0): page=32 subtype=Link flags=None rect=[405.0, 145.304, 412.68, 135.088] action='/GoTo' dest='CCCSE Mission Critical 2022 FINAL.indd:17891' widget=False field=None struct_parent=86 | (822, 0): page=32 subtype=Link flags=None rect=[423.0, 125.304, 674.588, 115.088] action='/URI' dest='https://www.trelliscompany.org/wp-content/uploads/2022/05/71646-Research-Brief-MAY2022_FINAL.pdf' widget=False field=None struct_parent=87 | (824, 0): page=32 subtype=Link flags=None rect=[423.0, 115.304, 512.967, 105.088] action='/URI' dest='https://www.trelliscompany.org/wp-content/uploads/2022/05/71646-Research-Brief-MAY2022_FINAL.pdf' widget=False field=None struct_parent=88 | (922, 0): page=32 subtype=Link flags=None rect=[332.396, 462.118, 403.183, 448.114] action='/URI' dest='http://www.cccse.org/' widget=False field=None struct_parent=49 | (818, 0): page=33 subtype=Link flags=None rect=[368.766, 293.699, 438.875, 278.456] action='/URI' dest='mailto:info@cccse.org' widget=False field=None struct_parent=90 | (815, 0): page=33 subtype=Link flags=None rect=[369.723, 273.985, 439.551, 258.742] action='/URI' dest='http://www.cccse.org' widget=False field=None struct_parent=91 | (812, 0): page=33 subtype=Link flags=None rect=[350.503, 257.802, 462.941, 238.92] action='/URI' dest='https://twitter.com/CommCollSurveys' widget=False field=None struct_parent=92 | (807, 0): page=33 subtype=Link flags=None rect=[369.786, 234.558, 434.949, 219.315] action='/URI' dest='https://www.youtube.com/user/CCCSEVideo' widget=False field=None struct_parent=93",
+            "LinkStructureCount": 56,
+            "ExternalLinkAnnotationCount": 29,
+            "InternalLinkAnnotationCount": 32,
+            "AnnotationPagesWithLinks": 11,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "Pass",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "Fail",
+            "ListCount": 12,
+            "InvalidListItemParents": "(1397, 0): LI parent is Art, expected L",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Pass",
+            "FiguresAltTextIssues": "",
+            "Exempt": false,
+            "Date": "2022-10-14 23:00:54+00:00",
+            "hasTitle": true,
+            "hasDisplayDocTitle": true,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.7",
+            "Creator": "Adobe InDesign 17.4 (Windows)",
+            "Producer": "Adobe PDF Library 16.0.7",
+            "Title": "Mission Critical: The Role of Community Colleges in Meeting Students\u2019 Basic Needs",
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 33,
+            "Words": 9442,
+            "Images": 41,
+            "fonts": 26,
+            "numTxtObjects": 867
+          },
+          "errors": [
+            "no bookmarks and more than 20 pages, headings-none, lists-fail, annotations-tagging-fail, "
+          ],
+          "analysed_at": "2026-07-09T20:49:59.583014+00:00"
+        }
+      },
+      "link_text": "Mission Critical: The Role of Community Colleges in Meeting Students' Basic Needs This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-A.pdf",
+      "md5": "5be2ae5486648e6a7bf96f8ba012b0fe",
+      "file_hash": "c29b3476b71b7dfb18a59bdb0af957fcecd746914aecfc1a96c4a9796553ec08",
+      "file_size_bytes": 2644863,
+      "filename": "W346-A.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.953636+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "W346-A.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Fail",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "Figures missing alt text (count=7)",
+        "Exempt": true,
+        "Date": "2016-11-02 22:47:56+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 5,
+        "Words": 2158,
+        "Images": 5,
+        "fonts": 7,
+        "numTxtObjects": 65
+      },
+      "errors": [
+        "title, lang, figures missing alt text (count=7), headings-none, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "W346-A.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=7)",
+            "Exempt": true,
+            "Date": "2016-11-02 22:47:56+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 5,
+            "Words": 2158,
+            "Images": 5,
+            "fonts": 7,
+            "numTxtObjects": 65
+          },
+          "errors": [
+            "title, lang, figures missing alt text (count=7), headings-none, "
+          ],
+          "analysed_at": "2026-07-09T20:50:16.545548+00:00"
+        }
+      },
+      "link_text": "Site Selection and Soil Testing This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-B.pdf",
+      "md5": "c9caf82df031b8e65b9f94f8e12502ea",
+      "file_hash": "c1970f68634f89970418ebb6036ffa208aa3653e79e1b78dafb933dda44b4520",
+      "file_size_bytes": 3741511,
+      "filename": "W346-B.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.965426+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "W346-B.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Fail",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "Pass",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "Fail",
+        "TableCount": 5,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "(338, 0): Table has no TH cells | (338, 0): Table cells are all TD",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "Figures missing alt text (count=7)",
+        "Exempt": true,
+        "Date": "2016-11-02 22:47:36+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 7,
+        "Words": 3441,
+        "Images": 8,
+        "fonts": 8,
+        "numTxtObjects": 148
+      },
+      "errors": [
+        "title, lang, figures missing alt text (count=7), headings-none, tables-fail, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "W346-B.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "Pass",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "Fail",
+            "TableCount": 5,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "(338, 0): Table has no TH cells | (338, 0): Table cells are all TD",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=7)",
+            "Exempt": true,
+            "Date": "2016-11-02 22:47:36+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 7,
+            "Words": 3441,
+            "Images": 8,
+            "fonts": 8,
+            "numTxtObjects": 148
+          },
+          "errors": [
+            "title, lang, figures missing alt text (count=7), headings-none, tables-fail, "
+          ],
+          "analysed_at": "2026-07-09T20:50:33.189460+00:00"
+        }
+      },
+      "link_text": "Planning, Plant Preparation and Planting This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-D.pdf",
+      "md5": "f37a4dde3e7223d198f5be355089410a",
+      "file_hash": "ac618916cd4a244c71131ef4e5297bca6f66eb8c0d03709474237a3b65dd03c9",
+      "file_size_bytes": 5735774,
+      "filename": "W346-D.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.981485+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "W346-D.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Fail",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "Pass",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "Fail",
+        "TableCount": 2,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "(103, 0): Table has no TH cells | (103, 0): Table cells are all TD",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "Figures missing alt text (count=7)",
+        "Exempt": true,
+        "Date": "2016-11-02 22:48:43+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 7,
+        "Words": 3747,
+        "Images": 8,
+        "fonts": 8,
+        "numTxtObjects": 103
+      },
+      "errors": [
+        "title, lang, figures missing alt text (count=7), headings-none, tables-fail, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "W346-D.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "Pass",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "Fail",
+            "TableCount": 2,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "(103, 0): Table has no TH cells | (103, 0): Table cells are all TD",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=7)",
+            "Exempt": true,
+            "Date": "2016-11-02 22:48:43+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 7,
+            "Words": 3747,
+            "Images": 8,
+            "fonts": 8,
+            "numTxtObjects": 103
+          },
+          "errors": [
+            "title, lang, figures missing alt text (count=7), headings-none, tables-fail, "
+          ],
+          "analysed_at": "2026-07-09T20:50:50.332978+00:00"
+        }
+      },
+      "link_text": "Plant Management Practices This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-F.pdf",
+      "md5": "276ae4ae0fa2553c1379fa5c243c69cd",
+      "file_hash": "44646cd022261ab9a15790d56bc8d7bfc222a621294d0846282071a1bbd17cb3",
+      "file_size_bytes": 2187722,
+      "filename": "W346-F.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:44.989513+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "W346-F.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Fail",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "Figures missing alt text (count=5)",
+        "Exempt": true,
+        "Date": "2016-06-15 13:28:47+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 7,
+        "Words": 3289,
+        "Images": 4,
+        "fonts": 7,
+        "numTxtObjects": 75
+      },
+      "errors": [
+        "title, lang, figures missing alt text (count=5), headings-none, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "W346-F.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=5)",
+            "Exempt": true,
+            "Date": "2016-06-15 13:28:47+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 7,
+            "Words": 3289,
+            "Images": 4,
+            "fonts": 7,
+            "numTxtObjects": 75
+          },
+          "errors": [
+            "title, lang, figures missing alt text (count=5), headings-none, "
+          ],
+          "analysed_at": "2026-07-09T20:51:06.461426+00:00"
+        }
+      },
+      "link_text": "Season Extension Methods This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-G.pdf",
+      "md5": "c273709325e2c7dc40656377cf5d35ca",
+      "file_hash": "389f169455f2914dcea5b28d069a2ce8895a30fde8f81101619595bd2f9792ad",
+      "file_size_bytes": 8046406,
+      "filename": "W346-G.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:45.010723+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "W346-G.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": "Fail",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": true,
+        "AnnotationCount": 5,
+        "AnnotationSubtypeCounts": "Link=5",
+        "LinkAnnotationCount": 5,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "Pass",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "(42, 0): page=8 subtype=Link flags=None rect=[60.9489, 712.975, 331.555, 700.964] action='/URI' dest='https://extension.tennessee.edu/publications/Documents/W235-G.pdf' widget=False field=None struct_parent=9 | (40, 0): page=8 subtype=Link flags=None rect=[60.9489, 667.975, 327.445, 655.964] action='/URI' dest='https://extension.tennessee.edu/publications/Documents/W235-I.pdf' widget=False field=None struct_parent=10 | (41, 0): page=8 subtype=Link flags=None rect=[60.9489, 634.975, 319.525, 622.964] action='/URI' dest='https://extension.tennessee.edu/publications/Documents/W316.pdf' widget=False field=None struct_parent=11 | (43, 0): page=8 subtype=Link flags=None rect=[63.5388, 589.975, 241.196, 577.964] action='/URI' dest='https://content.ces.ncsu.edu/herbicide-carryover' widget=False field=None struct_parent=12 | (39, 0): page=8 subtype=Link flags=None rect=[63.5388, 556.975, 184.648, 544.964] action='/URI' dest='http://blogs.cornell.edu/gep/blog/' widget=False field=None struct_parent=13",
+        "LinkStructureCount": 5,
+        "ExternalLinkAnnotationCount": 5,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 1,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "Fail",
+        "TableCount": 2,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "(175, 0): Table has no TH cells | (175, 0): Table cells are all TD | (116, 0): Table has no TH cells | (116, 0): Table cells are all TD",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "Figures missing alt text (count=6)",
+        "Exempt": true,
+        "Date": "2016-10-28 14:34:01+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.4",
+        "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 8,
+        "Words": 3996,
+        "Images": 5,
+        "fonts": 8,
+        "numTxtObjects": 85
+      },
+      "errors": [
+        "title, lang, figures missing alt text (count=6), headings-none, tables-fail, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "W346-G.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 5,
+            "AnnotationSubtypeCounts": "Link=5",
+            "LinkAnnotationCount": 5,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Pass",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(42, 0): page=8 subtype=Link flags=None rect=[60.9489, 712.975, 331.555, 700.964] action='/URI' dest='https://extension.tennessee.edu/publications/Documents/W235-G.pdf' widget=False field=None struct_parent=9 | (40, 0): page=8 subtype=Link flags=None rect=[60.9489, 667.975, 327.445, 655.964] action='/URI' dest='https://extension.tennessee.edu/publications/Documents/W235-I.pdf' widget=False field=None struct_parent=10 | (41, 0): page=8 subtype=Link flags=None rect=[60.9489, 634.975, 319.525, 622.964] action='/URI' dest='https://extension.tennessee.edu/publications/Documents/W316.pdf' widget=False field=None struct_parent=11 | (43, 0): page=8 subtype=Link flags=None rect=[63.5388, 589.975, 241.196, 577.964] action='/URI' dest='https://content.ces.ncsu.edu/herbicide-carryover' widget=False field=None struct_parent=12 | (39, 0): page=8 subtype=Link flags=None rect=[63.5388, 556.975, 184.648, 544.964] action='/URI' dest='http://blogs.cornell.edu/gep/blog/' widget=False field=None struct_parent=13",
+            "LinkStructureCount": 5,
+            "ExternalLinkAnnotationCount": 5,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 1,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "Fail",
+            "TableCount": 2,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "(175, 0): Table has no TH cells | (175, 0): Table cells are all TD | (116, 0): Table has no TH cells | (116, 0): Table cells are all TD",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=6)",
+            "Exempt": true,
+            "Date": "2016-10-28 14:34:01+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.4",
+            "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 8,
+            "Words": 3996,
+            "Images": 5,
+            "fonts": 8,
+            "numTxtObjects": 85
+          },
+          "errors": [
+            "title, lang, figures missing alt text (count=6), headings-none, tables-fail, "
+          ],
+          "analysed_at": "2026-07-09T20:51:22.744459+00:00"
+        }
+      },
+      "link_text": "Stewardship in Soil Management This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/standards_and_certification/asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf",
+      "md5": "c2394178e0e9e1423570036fdcb7e24b",
+      "file_hash": "5cc9a98a217650a0168c9e66e320499c1ca9efda199a6a67f7f2489095960b68",
+      "file_size_bytes": 6490409,
+      "filename": "asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:45.028910+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Pass",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Fail",
+        "ImageAltTextTest": "Fail",
+        "TaggedContentTest": "Pass",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "Pass",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "Warn",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "No headings found in tagged document",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "Fail",
+        "TableCount": 1,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "(407, 0): Table has no TH cells | (407, 0): Table cells are all TD",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "Fail",
+        "FiguresAltTextIssues": "Figures missing alt text (count=36)",
+        "Exempt": false,
+        "Date": "2021-08-23 13:29:26+00:00",
+        "hasTitle": false,
+        "hasDisplayDocTitle": null,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.6",
+        "Creator": "Adobe InDesign CC (Macintosh)",
+        "Producer": "Adobe PDF Library 11.0",
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": 34,
+        "Words": 9849,
+        "Images": 38,
+        "fonts": 15,
+        "numTxtObjects": 162
+      },
+      "errors": [
+        "title, lang, no bookmarks and more than 20 pages, figures missing alt text (count=36), headings-none, tables-fail, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Pass",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Fail",
+            "ImageAltTextTest": "Fail",
+            "TaggedContentTest": "Pass",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "Pass",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "Warn",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "No headings found in tagged document",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "Fail",
+            "TableCount": 1,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "(407, 0): Table has no TH cells | (407, 0): Table cells are all TD",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "Fail",
+            "FiguresAltTextIssues": "Figures missing alt text (count=36)",
+            "Exempt": false,
+            "Date": "2021-08-23 13:29:26+00:00",
+            "hasTitle": false,
+            "hasDisplayDocTitle": null,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.6",
+            "Creator": "Adobe InDesign CC (Macintosh)",
+            "Producer": "Adobe PDF Library 11.0",
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": 34,
+            "Words": 9849,
+            "Images": 38,
+            "fonts": 15,
+            "numTxtObjects": 162
+          },
+          "errors": [
+            "title, lang, no bookmarks and more than 20 pages, figures missing alt text (count=36), headings-none, tables-fail, "
+          ],
+          "analysed_at": "2026-07-09T20:51:39.859717+00:00"
+        }
+      },
+      "link_text": "ASME Example Uses of Codes and Standards for Students This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://copyright.gov/circs/circ61.pdf",
+      "md5": "e92003cc5c2ba92021488bb6f03edb85",
+      "file_hash": "7a42cbaff186bc272382eb48ef82ef8d02ae449bb7e754c39276c6071523efbc",
+      "file_size_bytes": 111460,
+      "filename": "circ61.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:45.032528+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "circ61.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Pass",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": null,
+        "TaggedContentTest": "Fail",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": true,
+        "AnnotationCount": 17,
+        "AnnotationSubtypeCounts": "Link=17",
+        "LinkAnnotationCount": 17,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "Fail",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "(102, 0): page=1 subtype=Link flags=None rect=[382.161, 556.02, 428.879, 544.32] action='/URI' dest='https://www.copyright.gov/comp3/chap700/ch700-literary-works.pdf' widget=False field=None struct_parent=None | (103, 0): page=1 subtype=Link flags=None rect=[270.389, 542.82, 322.057, 531.12] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (104, 0): page=1 subtype=Link flags=None rect=[480.062, 265.62, 516.799, 253.92] action='/URI' dest='https://www.copyright.gov/circs/circ02.pdf' widget=False field=None struct_parent=None | (105, 0): page=1 subtype=Link flags=None rect=[273.273, 146.82, 314.961, 135.12] action='/URI' dest='https://www.copyright.gov/circs/circ34.pdf' widget=False field=None struct_parent=None | (3, 0): page=2 subtype=Link flags=None rect=[139.325, 688.02, 217.202, 676.32] action='/URI' dest='http://www.copyright.gov' widget=False field=None struct_parent=None | (4, 0): page=2 subtype=Link flags=None rect=[452.976, 688.02, 499.694, 676.32] action='/URI' dest='https://www.copyright.gov/comp3/chap700/ch700-literary-works.pdf' widget=False field=None struct_parent=None | (5, 0): page=2 subtype=Link flags=None rect=[99.0732, 635.22, 138.592, 623.52] action='/URI' dest='https://www.copyright.gov/circs/circ04.pdf' widget=False field=None struct_parent=None | (6, 0): page=2 subtype=Link flags=None rect=[361.132, 542.82, 402.82, 531.12] action='/URI' dest='https://www.copyright.gov/circs/circ34.pdf' widget=False field=None struct_parent=None | (14, 0): page=3 subtype=Link flags=None rect=[220.539, 384.532, 272.207, 372.72] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (19, 0): page=4 subtype=Link flags=None rect=[367.888, 542.82, 418.368, 531.12] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (24, 0): page=5 subtype=Link flags=None rect=[177.517, 556.02, 229.185, 544.32] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (25, 0): page=5 subtype=Link flags=None rect=[268.672, 146.82, 310.359, 135.12] action='/URI' dest='https://www.copyright.gov/circs/circ66.pdf' widget=False field=None struct_parent=None | (31, 0): page=6 subtype=Link flags=None rect=[404.391, 476.82, 456.059, 465.12] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (32, 0): page=6 subtype=Link flags=None rect=[143.89, 331.62, 191.598, 319.92] action='/URI' dest='https://www.copyright.gov/comp3/chap600/ch600-examination-practices.pdf' widget=False field=None struct_parent=None | (38, 0): page=7 subtype=Link flags=None rect=[300.862, 529.62, 352.53, 517.92] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (39, 0): page=7 subtype=Link flags=None rect=[369.468, 410.82, 451.238, 399.12] action='/URI' dest='http://www.copyright.gov' widget=False field=None struct_parent=None | (45, 0): page=8 subtype=Link flags=None rect=[386.179, 622.02, 464.056, 610.32] action='/URI' dest='http://www.copyright.gov' widget=False field=None struct_parent=None",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 17,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 8,
+        "HidesAnnotationTest": "NotApplicable",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "NotApplicable",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "NotApplicable",
+        "FiguresAltTextIssues": "",
+        "Exempt": false,
+        "Date": "2021-02-25 16:58:46+00:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": true,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.7",
+        "Creator": "Adobe InDesign 15.1 (Macintosh)",
+        "Producer": "Adobe PDF Library 15.0",
+        "Title": "Circular 61 Copyright Registration of Computer Programs",
+        "Author": "United States Copyright Office",
+        "Subject": "{'Copyright', 'copyright education', 'registration', 'computer programs'}",
+        "Keywords": null,
+        "Description": "copyright information circular",
+        "Pages": 8,
+        "Words": 3276,
+        "Images": 0,
+        "fonts": 14,
+        "numTxtObjects": 152,
+        "DocCategory": "Form"
+      },
+      "errors": [
+        "title, tagged, annotations-untagged, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "circ61.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Fail",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Pass",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": null,
+            "TaggedContentTest": "Fail",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": true,
+            "AnnotationCount": 17,
+            "AnnotationSubtypeCounts": "Link=17",
+            "LinkAnnotationCount": 17,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "Fail",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "(102, 0): page=1 subtype=Link flags=None rect=[382.161, 556.02, 428.879, 544.32] action='/URI' dest='https://www.copyright.gov/comp3/chap700/ch700-literary-works.pdf' widget=False field=None struct_parent=None | (103, 0): page=1 subtype=Link flags=None rect=[270.389, 542.82, 322.057, 531.12] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (104, 0): page=1 subtype=Link flags=None rect=[480.062, 265.62, 516.799, 253.92] action='/URI' dest='https://www.copyright.gov/circs/circ02.pdf' widget=False field=None struct_parent=None | (105, 0): page=1 subtype=Link flags=None rect=[273.273, 146.82, 314.961, 135.12] action='/URI' dest='https://www.copyright.gov/circs/circ34.pdf' widget=False field=None struct_parent=None | (3, 0): page=2 subtype=Link flags=None rect=[139.325, 688.02, 217.202, 676.32] action='/URI' dest='http://www.copyright.gov' widget=False field=None struct_parent=None | (4, 0): page=2 subtype=Link flags=None rect=[452.976, 688.02, 499.694, 676.32] action='/URI' dest='https://www.copyright.gov/comp3/chap700/ch700-literary-works.pdf' widget=False field=None struct_parent=None | (5, 0): page=2 subtype=Link flags=None rect=[99.0732, 635.22, 138.592, 623.52] action='/URI' dest='https://www.copyright.gov/circs/circ04.pdf' widget=False field=None struct_parent=None | (6, 0): page=2 subtype=Link flags=None rect=[361.132, 542.82, 402.82, 531.12] action='/URI' dest='https://www.copyright.gov/circs/circ34.pdf' widget=False field=None struct_parent=None | (14, 0): page=3 subtype=Link flags=None rect=[220.539, 384.532, 272.207, 372.72] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (19, 0): page=4 subtype=Link flags=None rect=[367.888, 542.82, 418.368, 531.12] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (24, 0): page=5 subtype=Link flags=None rect=[177.517, 556.02, 229.185, 544.32] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (25, 0): page=5 subtype=Link flags=None rect=[268.672, 146.82, 310.359, 135.12] action='/URI' dest='https://www.copyright.gov/circs/circ66.pdf' widget=False field=None struct_parent=None | (31, 0): page=6 subtype=Link flags=None rect=[404.391, 476.82, 456.059, 465.12] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (32, 0): page=6 subtype=Link flags=None rect=[143.89, 331.62, 191.598, 319.92] action='/URI' dest='https://www.copyright.gov/comp3/chap600/ch600-examination-practices.pdf' widget=False field=None struct_parent=None | (38, 0): page=7 subtype=Link flags=None rect=[300.862, 529.62, 352.53, 517.92] action='/URI' dest='https://www.copyright.gov/comp3/chap1500/ch1500-deposits.pdf' widget=False field=None struct_parent=None | (39, 0): page=7 subtype=Link flags=None rect=[369.468, 410.82, 451.238, 399.12] action='/URI' dest='http://www.copyright.gov' widget=False field=None struct_parent=None | (45, 0): page=8 subtype=Link flags=None rect=[386.179, 622.02, 464.056, 610.32] action='/URI' dest='http://www.copyright.gov' widget=False field=None struct_parent=None",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 17,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 8,
+            "HidesAnnotationTest": "NotApplicable",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "NotApplicable",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "NotApplicable",
+            "FiguresAltTextIssues": "",
+            "Exempt": false,
+            "Date": "2021-02-25 16:58:46+00:00",
+            "hasTitle": true,
+            "hasDisplayDocTitle": false,
+            "hasLang": true,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.7",
+            "Creator": "Adobe InDesign 15.1 (Macintosh)",
+            "Producer": "Adobe PDF Library 15.0",
+            "Title": "Circular 61 Copyright Registration of Computer Programs",
+            "Author": "United States Copyright Office",
+            "Subject": "{'Copyright', 'copyright education', 'registration', 'computer programs'}",
+            "Keywords": null,
+            "Description": "copyright information circular",
+            "Pages": 8,
+            "Words": 3276,
+            "Images": 0,
+            "fonts": 14,
+            "numTxtObjects": 152,
+            "DocCategory": "Form"
+          },
+          "errors": [
+            "title, tagged, annotations-untagged, "
+          ],
+          "analysed_at": "2026-07-09T20:51:56.491441+00:00"
+        }
+      },
+      "link_text": "Copyright Registration for Computer Programs This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7454923/pdf/gbaa114.pdf",
+      "md5": "47448d1844e118dc7d11b621e99f88c0",
+      "file_hash": "baacceb5da9b57927b967a67eb7531dd175f2a4ef6b3646cacd99555ee9cc65d",
+      "file_size_bytes": 1816,
+      "filename": "gbaa114.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:45.035175+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "gbaa114.pdf",
+        "Accessible": null,
+        "TotallyInaccessible": false,
+        "BrokenFile": true,
+        "TaggedTest": null,
+        "EmptyTextTest": null,
+        "ProtectedTest": null,
+        "TitleTest": null,
+        "LanguageTest": null,
+        "BookmarksTest": null,
+        "ImageAltTextTest": null,
+        "TaggedContentTest": null,
+        "UntaggedContentCount": null,
+        "UntaggedContentSummary": null,
+        "UntaggedWhitespaceContentCount": null,
+        "UntaggedWhitespaceContentSummary": null,
+        "FormsTest": null,
+        "FormFieldCount": null,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": null,
+        "TaggedFormFieldsTest": null,
+        "TaggedFormFieldIssues": null,
+        "AnnotationsFound": null,
+        "AnnotationCount": null,
+        "AnnotationSubtypeCounts": null,
+        "LinkAnnotationCount": null,
+        "WidgetAnnotationCount": null,
+        "TaggedAnnotationsTest": null,
+        "TaggedAnnotationIssues": null,
+        "AnnotationSummary": null,
+        "LinkStructureCount": null,
+        "ExternalLinkAnnotationCount": null,
+        "InternalLinkAnnotationCount": null,
+        "AnnotationPagesWithLinks": null,
+        "HidesAnnotationTest": null,
+        "HidesAnnotationIssues": null,
+        "NestedAltTextTest": null,
+        "NestedAltTextIssues": null,
+        "HeadingsTest": null,
+        "HeadingCount": null,
+        "HeadingSequence": null,
+        "HeadingIssues": null,
+        "ListsTest": null,
+        "ListCount": null,
+        "InvalidListItemParents": null,
+        "InvalidListChildren": null,
+        "MalformedListNodes": null,
+        "TablesTest": null,
+        "TableCount": null,
+        "InvalidTRParents": null,
+        "InvalidCellParents": null,
+        "TablesWithoutHeaders": null,
+        "IrregularTables": null,
+        "FiguresAltTextTest": null,
+        "FiguresAltTextIssues": null,
+        "Exempt": false,
+        "Date": null,
+        "hasTitle": null,
+        "hasDisplayDocTitle": null,
+        "hasLang": null,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": null,
+        "hasXmp": null,
+        "PDFVersion": null,
+        "Creator": null,
+        "Producer": null,
+        "Title": null,
+        "Author": null,
+        "Subject": null,
+        "Keywords": null,
+        "Description": null,
+        "Pages": null,
+        "Words": null,
+        "Images": null,
+        "fonts": null,
+        "numTxtObjects": null
+      },
+      "errors": [
+        "PdfError: crawled_files/lib.pstcc.edu/gbaa114.pdf: unable to find trailer dictionary while recovering damaged file"
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "gbaa114.pdf",
+            "Accessible": null,
+            "TotallyInaccessible": false,
+            "BrokenFile": true,
+            "TaggedTest": null,
+            "EmptyTextTest": null,
+            "ProtectedTest": null,
+            "TitleTest": null,
+            "LanguageTest": null,
+            "BookmarksTest": null,
+            "ImageAltTextTest": null,
+            "TaggedContentTest": null,
+            "UntaggedContentCount": null,
+            "UntaggedContentSummary": null,
+            "UntaggedWhitespaceContentCount": null,
+            "UntaggedWhitespaceContentSummary": null,
+            "FormsTest": null,
+            "FormFieldCount": null,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": null,
+            "TaggedFormFieldsTest": null,
+            "TaggedFormFieldIssues": null,
+            "AnnotationsFound": null,
+            "AnnotationCount": null,
+            "AnnotationSubtypeCounts": null,
+            "LinkAnnotationCount": null,
+            "WidgetAnnotationCount": null,
+            "TaggedAnnotationsTest": null,
+            "TaggedAnnotationIssues": null,
+            "AnnotationSummary": null,
+            "LinkStructureCount": null,
+            "ExternalLinkAnnotationCount": null,
+            "InternalLinkAnnotationCount": null,
+            "AnnotationPagesWithLinks": null,
+            "HidesAnnotationTest": null,
+            "HidesAnnotationIssues": null,
+            "NestedAltTextTest": null,
+            "NestedAltTextIssues": null,
+            "HeadingsTest": null,
+            "HeadingCount": null,
+            "HeadingSequence": null,
+            "HeadingIssues": null,
+            "ListsTest": null,
+            "ListCount": null,
+            "InvalidListItemParents": null,
+            "InvalidListChildren": null,
+            "MalformedListNodes": null,
+            "TablesTest": null,
+            "TableCount": null,
+            "InvalidTRParents": null,
+            "InvalidCellParents": null,
+            "TablesWithoutHeaders": null,
+            "IrregularTables": null,
+            "FiguresAltTextTest": null,
+            "FiguresAltTextIssues": null,
+            "Exempt": false,
+            "Date": null,
+            "hasTitle": null,
+            "hasDisplayDocTitle": null,
+            "hasLang": null,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": null,
+            "hasXmp": null,
+            "PDFVersion": null,
+            "Creator": null,
+            "Producer": null,
+            "Title": null,
+            "Author": null,
+            "Subject": null,
+            "Keywords": null,
+            "Description": null,
+            "Pages": null,
+            "Words": null,
+            "Images": null,
+            "fonts": null,
+            "numTxtObjects": null
+          },
+          "errors": [
+            "PdfError: crawled_files/lib.pstcc.edu/gbaa114.pdf: unable to find trailer dictionary while recovering damaged file"
+          ],
+          "analysed_at": "2026-07-09T20:52:13.115757+00:00"
+        }
+      },
+      "link_text": "The Color of COVID-19: Structural Racism and the Disproportionate Impact of the Pandemic on Older Black and Latinx Adults This link opens in a new window",
+      "engine": "original",
+      "engine_status": "analysed"
+    },
+    {
+      "url": "https://www.ala.org/sites/default/files/acrl/content/publications/whitepapers/principles.pdf",
+      "md5": "45b3eb63522d1790824196fd9b8852b9",
+      "file_hash": "59584a926e84a7da2080658d15ea14f20e7de46f4b0821a71f480644b9f29bf5",
+      "file_size_bytes": 55288,
+      "filename": "principles.pdf",
+      "site": "lib.pstcc.edu",
+      "crawled_at": "2026-07-09T20:45:45.037637+00:00",
+      "status": "analysed",
+      "report": {
+        "Site": "lib.pstcc.edu",
+        "File": "principles.pdf",
+        "Accessible": false,
+        "TotallyInaccessible": false,
+        "BrokenFile": false,
+        "TaggedTest": "Fail",
+        "EmptyTextTest": "Pass",
+        "ProtectedTest": "Pass",
+        "TitleTest": "Fail",
+        "LanguageTest": "Fail",
+        "BookmarksTest": "Pass",
+        "ImageAltTextTest": null,
+        "TaggedContentTest": "Fail",
+        "UntaggedContentCount": 0,
+        "UntaggedContentSummary": "",
+        "UntaggedWhitespaceContentCount": 0,
+        "UntaggedWhitespaceContentSummary": "",
+        "FormsTest": "NotApplicable",
+        "FormFieldCount": 0,
+        "FormFieldSummary": null,
+        "FieldsWithoutDescription": "",
+        "TaggedFormFieldsTest": "NotApplicable",
+        "TaggedFormFieldIssues": "",
+        "AnnotationsFound": false,
+        "AnnotationCount": 0,
+        "AnnotationSubtypeCounts": "",
+        "LinkAnnotationCount": 0,
+        "WidgetAnnotationCount": 0,
+        "TaggedAnnotationsTest": "NotApplicable",
+        "TaggedAnnotationIssues": "",
+        "AnnotationSummary": "",
+        "LinkStructureCount": 0,
+        "ExternalLinkAnnotationCount": 0,
+        "InternalLinkAnnotationCount": 0,
+        "AnnotationPagesWithLinks": 0,
+        "HidesAnnotationTest": "NotApplicable",
+        "HidesAnnotationIssues": "",
+        "NestedAltTextTest": "NotApplicable",
+        "NestedAltTextIssues": "",
+        "HeadingsTest": "NotApplicable",
+        "HeadingCount": 0,
+        "HeadingSequence": "",
+        "HeadingIssues": "",
+        "ListsTest": "NotApplicable",
+        "ListCount": 0,
+        "InvalidListItemParents": "",
+        "InvalidListChildren": "",
+        "MalformedListNodes": "",
+        "TablesTest": "NotApplicable",
+        "TableCount": 0,
+        "InvalidTRParents": "",
+        "InvalidCellParents": "",
+        "TablesWithoutHeaders": "",
+        "IrregularTables": "",
+        "FiguresAltTextTest": "NotApplicable",
+        "FiguresAltTextIssues": "",
+        "Exempt": true,
+        "Date": "2000-07-14 15:41:50-05:00",
+        "hasTitle": true,
+        "hasDisplayDocTitle": false,
+        "hasLang": false,
+        "InvalidLang": null,
+        "Form": null,
+        "xfa": null,
+        "hasBookmarks": false,
+        "hasXmp": true,
+        "PDFVersion": "1.2",
+        "Creator": null,
+        "Producer": null,
+        "Title": "principles",
+        "Author": "dmueller",
+        "Subject": "principles",
+        "Keywords": null,
+        "Description": null,
+        "Pages": 1,
+        "Words": 518,
+        "Images": 0,
+        "fonts": 5,
+        "numTxtObjects": 27
+      },
+      "errors": [
+        "title, tagged, lang, "
+      ],
+      "analyses": {
+        "original": {
+          "status": "analysed",
+          "report": {
+            "Site": "lib.pstcc.edu",
+            "File": "principles.pdf",
+            "Accessible": false,
+            "TotallyInaccessible": false,
+            "BrokenFile": false,
+            "TaggedTest": "Fail",
+            "EmptyTextTest": "Pass",
+            "ProtectedTest": "Pass",
+            "TitleTest": "Fail",
+            "LanguageTest": "Fail",
+            "BookmarksTest": "Pass",
+            "ImageAltTextTest": null,
+            "TaggedContentTest": "Fail",
+            "UntaggedContentCount": 0,
+            "UntaggedContentSummary": "",
+            "UntaggedWhitespaceContentCount": 0,
+            "UntaggedWhitespaceContentSummary": "",
+            "FormsTest": "NotApplicable",
+            "FormFieldCount": 0,
+            "FormFieldSummary": null,
+            "FieldsWithoutDescription": "",
+            "TaggedFormFieldsTest": "NotApplicable",
+            "TaggedFormFieldIssues": "",
+            "AnnotationsFound": false,
+            "AnnotationCount": 0,
+            "AnnotationSubtypeCounts": "",
+            "LinkAnnotationCount": 0,
+            "WidgetAnnotationCount": 0,
+            "TaggedAnnotationsTest": "NotApplicable",
+            "TaggedAnnotationIssues": "",
+            "AnnotationSummary": "",
+            "LinkStructureCount": 0,
+            "ExternalLinkAnnotationCount": 0,
+            "InternalLinkAnnotationCount": 0,
+            "AnnotationPagesWithLinks": 0,
+            "HidesAnnotationTest": "NotApplicable",
+            "HidesAnnotationIssues": "",
+            "NestedAltTextTest": "NotApplicable",
+            "NestedAltTextIssues": "",
+            "HeadingsTest": "NotApplicable",
+            "HeadingCount": 0,
+            "HeadingSequence": "",
+            "HeadingIssues": "",
+            "ListsTest": "NotApplicable",
+            "ListCount": 0,
+            "InvalidListItemParents": "",
+            "InvalidListChildren": "",
+            "MalformedListNodes": "",
+            "TablesTest": "NotApplicable",
+            "TableCount": 0,
+            "InvalidTRParents": "",
+            "InvalidCellParents": "",
+            "TablesWithoutHeaders": "",
+            "IrregularTables": "",
+            "FiguresAltTextTest": "NotApplicable",
+            "FiguresAltTextIssues": "",
+            "Exempt": true,
+            "Date": "2000-07-14 15:41:50-05:00",
+            "hasTitle": true,
+            "hasDisplayDocTitle": false,
+            "hasLang": false,
+            "InvalidLang": null,
+            "Form": null,
+            "xfa": null,
+            "hasBookmarks": false,
+            "hasXmp": true,
+            "PDFVersion": "1.2",
+            "Creator": null,
+            "Producer": null,
+            "Title": "principles",
+            "Author": "dmueller",
+            "Subject": "principles",
+            "Keywords": null,
+            "Description": null,
+            "Pages": 1,
+            "Words": 518,
+            "Images": 0,
+            "fonts": 5,
+            "numTxtObjects": 27
+          },
+          "errors": [
+            "title, tagged, lang, "
+          ],
+          "analysed_at": "2026-07-09T20:52:29.831189+00:00"
+        }
+      },
+      "link_text": "Intellectual Freedom Principles for Academic Libraries",
+      "engine": "original",
+      "engine_status": "analysed"
+    }
+  ]
+}
+  </script>
+
+  <script>
+    (function () {
+      // i18n scaffold: add new locales by extending I18N with the same keys.
+      var I18N = {
+        en: {
+          backLabel: 'Back to submission form',
+          pageTitle: '📊 PDF Accessibility Scan Results',
+          generatedAt: 'Last updated: ',
+          summary: 'Summary',
+          totalPdfs: 'Total PDFs',
+          analysed: 'Analysed',
+          accessible: '✅ Accessible',
+          issuesFound: '❌ Issues Found',
+          pending: '⏳ Pending',
+          errors: '⚠️ Errors',
+          sitesScanned: 'Sites Scanned',
+          site: 'Site',
+          pdfs: 'PDFs',
+          pdfDetails: 'PDF Details',
+          legend: '✅ = Pass/Accessible   ❌ = Fail/Inaccessible   — = Not applicable',
+          noData: 'No scan data available yet.',
+          submitPrompt: 'Submit a crawl request',
+          submitSuffix: ' to get started.',
+          downloadCsv: 'Download CSV',
+          downloadJson: 'Download JSON',
+          downloadManifest: 'Download Manifest',
+          downloadCurrentCsv: 'Download Current View CSV',
+          downloadCurrentJson: 'Download Current View JSON',
+          colFile: 'File',
+          colSite: 'Site',
+          colPublishedDate: 'Published Date',
+          colDocTitle: 'Doc Title',
+          colAuthor: 'Author',
+          colSubject: 'Subject',
+          colKeywords: 'Keywords',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Tagged',
+          colTitle: 'Title',
+          colLanguage: 'Language',
+          colBookmarks: 'Bookmarks',
+          colTaggedContent: 'TaggedContent',
+          colForms: 'Forms',
+          colTaggedForms: 'TaggedForms',
+          colTaggedAnnots: 'TaggedAnnots',
+          colFiguresAlt: 'FiguresAlt',
+          colHeadings: 'Headings',
+          colLists: 'Lists',
+          colTables: 'Tables',
+          colPages: 'Pages',
+          colSize: 'Size',
+          colWords: 'Words',
+          colImages: 'Images',
+        },
+        fr: {
+          backLabel: 'Retour au formulaire de soumission',
+          pageTitle: '📊 Résultats du scan d'accessibilité PDF',
+          generatedAt: 'Dernière mise à jour : ',
+          summary: 'Résumé',
+          totalPdfs: 'Total des PDF',
+          analysed: 'Analysés',
+          accessible: '✅ Accessibles',
+          issuesFound: '❌ Problèmes détectés',
+          pending: '⏳ En attente',
+          errors: '⚠️ Erreurs',
+          sitesScanned: 'Sites analysés',
+          site: 'Site',
+          pdfs: 'PDF',
+          pdfDetails: 'Détails des PDF',
+          legend: '✅ = Réussite/Accessible   ❌ = Échec/Inaccessible   — = Non applicable',
+          noData: 'Aucune donnée de scan disponible pour le moment.',
+          submitPrompt: 'Soumettre une demande de scan',
+          submitSuffix: ' pour commencer.',
+          downloadCsv: 'Télécharger le CSV',
+          downloadJson: 'Télécharger le JSON',
+          downloadManifest: 'Télécharger le manifeste',
+          downloadCurrentCsv: 'Télécharger le CSV de la vue actuelle',
+          downloadCurrentJson: 'Télécharger le JSON de la vue actuelle',
+          colFile: 'Fichier',
+          colSite: 'Site',
+          colPublishedDate: 'Date de publication',
+          colDocTitle: 'Titre du doc',
+          colAuthor: 'Auteur',
+          colSubject: 'Sujet',
+          colKeywords: 'Mots-clés',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Balisé',
+          colTitle: 'Titre',
+          colLanguage: 'Langue',
+          colBookmarks: 'Signets',
+          colTaggedContent: 'ContenuBalisé',
+          colForms: 'Formulaires',
+          colTaggedForms: 'FormulairesBalisés',
+          colTaggedAnnots: 'AnnotationsBalisées',
+          colFiguresAlt: 'TexteAltFigures',
+          colHeadings: 'Titres',
+          colLists: 'Listes',
+          colTables: 'Tableaux',
+          colPages: 'Pages',
+          colSize: 'Taille',
+          colWords: 'Mots',
+          colImages: 'Images',
+        },
+      };
+
+      function detectLang() {
+        var params = new URLSearchParams(window.location.search);
+        var fromQuery = params.get('lang');
+        if (fromQuery && I18N[fromQuery]) return fromQuery;
+        var stored = localStorage.getItem('lang');
+        if (stored && I18N[stored]) return stored;
+        var navLang = (navigator.language || 'en').toLowerCase();
+        return navLang.indexOf('fr') === 0 ? 'fr' : 'en';
+      }
+
+      var currentLang = detectLang();
+      var M = I18N[currentLang] || I18N.en;
+      document.documentElement.setAttribute('lang', currentLang);
+      localStorage.setItem('lang', currentLang);
+
+      function t(key) {
+        return M[key] || I18N.en[key] || key;
+      }
+
+      function withLang(url) {
+        try {
+          var parsed = new URL(url, window.location.href);
+          parsed.searchParams.set('lang', currentLang);
+          return parsed.toString();
+        } catch (e) {
+          return url;
+        }
+      }
+
+      function applyLanguageStatic() {
+        var backLink = document.getElementById('back-link');
+        if (backLink) backLink.textContent = '← ' + t('backLabel');
+        var pageTitle = document.getElementById('page-title');
+        if (pageTitle) pageTitle.textContent = t('pageTitle');
+        var csvLink = document.getElementById('download-csv-link');
+        if (csvLink) csvLink.textContent = t('downloadCsv');
+        var jsonLink = document.getElementById('download-json-link');
+        if (jsonLink) jsonLink.textContent = t('downloadJson');
+        var manifestLink = document.getElementById('download-manifest-link');
+        if (manifestLink) manifestLink.textContent = t('downloadManifest');
+        var curCsv = document.getElementById('download-current-csv');
+        if (curCsv) curCsv.textContent = t('downloadCurrentCsv');
+        var curJson = document.getElementById('download-current-json');
+        if (curJson) curJson.textContent = t('downloadCurrentJson');
+
+        var enLink = document.getElementById('lang-en-report');
+        if (enLink) enLink.href = withLang('?lang=en');
+        var frLink = document.getElementById('lang-fr-report');
+        if (frLink) frLink.href = withLang('?lang=fr');
+      }
+
+      applyLanguageStatic();
+
+      var raw  = document.getElementById('report-data').textContent;
+      var data = JSON.parse(raw);
+      var summary = data.summary || {};
+      var files   = data.files   || [];
+      var root    = document.getElementById('root');
+
+      if (!summary.total_files) {
+        root.innerHTML =
+          '<div class="empty-state">' +
+          '<p>' + esc(t('noData')) + '</p>' +
+          '<p><a href="./">' + esc(t('submitPrompt')) + '</a>' + esc(t('submitSuffix')) + '</p>' +
+          '</div>';
+        return;
+      }
+
+      // Generated-at timestamp
+      if (summary.generated_at) {
+        document.getElementById('generated-at').textContent =
+          t('generatedAt') + new Date(summary.generated_at).toLocaleString(currentLang);
+      }
+
+      var html = '';
+
+      // --- Summary cards ---
+      var cards = [
+        { value: summary.total_files,         label: t('totalPdfs') },
+        { value: summary.analysed,            label: t('analysed') },
+        { value: summary.accessible,          label: t('accessible') },
+        { value: summary.issues_found,        label: t('issuesFound') },
+        { value: summary.pending,             label: t('pending') },
+        { value: summary.errored,             label: t('errors') },
+      ];
+      html += '<h2>' + esc(t('summary')) + '</h2><div class="stats-grid">';
+      cards.forEach(function (c) {
+        html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
+                '</div><div class="label">' + c.label + '</div></div>';
+      });
+      html += '</div>';
+
+      // --- Sites table ---
+      var sites = summary.sites || {};
+      var siteNames = Object.keys(sites).sort();
+      if (siteNames.length) {
+        html += '<h2>' + esc(t('sitesScanned')) + '</h2>';
+        html += '<table><thead><tr><th>' + esc(t('site')) + '</th><th>' + esc(t('pdfs')) + '</th></tr></thead><tbody>';
+        siteNames.forEach(function (s) {
+          html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
+        });
+        html += '</tbody></table>';
+      }
+
+      // --- File details table ---
+      var analysed = files.filter(function (f) { return f.status === 'analysed'; });
+
+      // Determine which optional columns have data
+      var hasWords       = analysed.some(function (f) { return f.report && f.report.Words       != null; });
+      var hasImages      = analysed.some(function (f) { return f.report && f.report.Images      != null; });
+      var hasFileSize    = analysed.some(function (f) { return f.file_size_bytes != null; });
+      var hasTaggedContent = analysed.some(function (f) { return f.report && f.report.TaggedContentTest != null; });
+      var hasForms         = analysed.some(function (f) { return f.report && f.report.FormsTest != null; });
+      var hasTaggedForms   = analysed.some(function (f) { return f.report && f.report.TaggedFormFieldsTest != null; });
+      var hasTaggedAnnots  = analysed.some(function (f) { return f.report && f.report.TaggedAnnotationsTest != null; });
+      var hasFiguresAlt    = analysed.some(function (f) { return f.report && f.report.FiguresAltTextTest != null; });
+      var hasHeadings      = analysed.some(function (f) { return f.report && f.report.HeadingsTest != null; });
+      var hasLists         = analysed.some(function (f) { return f.report && f.report.ListsTest != null; });
+      var hasTables        = analysed.some(function (f) { return f.report && f.report.TablesTest != null; });
+      var hasVeraPDF       = analysed.some(function (f) { return f.report && f.report.veraPDF && typeof f.report.veraPDF === 'object'; });
+      var hasVPFailed      = analysed.some(function (f) { return f.report && f.report.veraPDF && f.report.veraPDF.failed_checks != null; });
+      var hasVPPassed      = analysed.some(function (f) { return f.report && f.report.veraPDF && f.report.veraPDF.passed_checks != null; });
+      var hasVPRules       = analysed.some(function (f) { return f.report && f.report.veraPDF && Array.isArray(f.report.veraPDF.failed_rules); });
+      var hasVPError       = analysed.some(function (f) { return f.report && f.report.veraPDF && f.report.veraPDF.error; });
+      var hasDocTitle    = analysed.some(function (f) { return f.report && f.report.Title       != null; });
+      var hasAuthor      = analysed.some(function (f) { return f.report && f.report.Author      != null; });
+      var hasSubject     = analysed.some(function (f) { return f.report && f.report.Subject     != null; });
+      var hasKeywords    = analysed.some(function (f) { return f.report && f.report.Keywords    != null; });
+      var hasDescription = analysed.some(function (f) { return f.report && f.report.Description != null; });
+
+      // Sort state
+      var sortCol = null;
+      var sortAsc = true;
+
+      function formatSize(sizeBytes) {
+        if (sizeBytes == null) return '&#x2014;';
+        var num = Number(sizeBytes);
+        if (!isFinite(num) || num < 0) return '&#x2014;';
+        var units = ['B', 'KB', 'MB', 'GB', 'TB'];
+        var value = num;
+        var unit = 0;
+        while (value >= 1024 && unit < units.length - 1) {
+          value /= 1024;
+          unit += 1;
+        }
+        if (unit === 0) return String(Math.round(value)) + ' ' + units[unit];
+        return value.toFixed(1) + ' ' + units[unit];
+      }
+
+      function readSortFromQuery() {
+        var params = new URLSearchParams(window.location.search);
+        var col = params.get('sort');
+        var dir = params.get('dir');
+        if (col) sortCol = col;
+        if (dir === 'asc' || dir === 'desc') sortAsc = dir === 'asc';
+      }
+
+      function writeSortToQuery() {
+        var params = new URLSearchParams(window.location.search);
+        if (sortCol) {
+          params.set('sort', sortCol);
+          params.set('dir', sortAsc ? 'asc' : 'desc');
+        } else {
+          params.delete('sort');
+          params.delete('dir');
+        }
+        var qs = params.toString();
+        var nextUrl = window.location.pathname + (qs ? '?' + qs : '') + window.location.hash;
+        window.history.replaceState(null, '', nextUrl);
+      }
+
+      function colVal(f, col) {
+        var r = f.report || {};
+        switch (col) {
+          case 'file':        return (f.filename || f.url || '').toLowerCase();
+          case 'site':        return (f.site || '').toLowerCase();
+          case 'date':        return r.Date ? String(r.Date) : '';
+          case 'doc_title':   return (r.Title       || '').toLowerCase();
+          case 'author':      return (r.Author      || '').toLowerCase();
+          case 'subject':     return (r.Subject     || '').toLowerCase();
+          case 'keywords':    return (r.Keywords    || '').toLowerCase();
+          case 'description': return (r.Description || '').toLowerCase();
+          case 'accessible':  return r.Accessible === true ? 1 : r.Accessible === false ? 0 : -1;
+          case 'tagged':      return r.TaggedTest    === 'Pass' ? 1 : r.TaggedTest    === 'Fail' ? 0 : -1;
+          case 'title':       return r.TitleTest     === 'Pass' ? 1 : r.TitleTest     === 'Fail' ? 0 : -1;
+          case 'language':    return r.LanguageTest  === 'Pass' ? 1 : r.LanguageTest  === 'Fail' ? 0 : -1;
+          case 'bookmarks':   return r.BookmarksTest === 'Pass' ? 1 : r.BookmarksTest === 'Fail' ? 0 : -1;
+          case 'tagged_content': return r.TaggedContentTest === 'Pass' ? 1 : r.TaggedContentTest === 'Fail' ? 0 : -1;
+          case 'forms':          return r.FormsTest === 'Pass' ? 1 : r.FormsTest === 'Fail' ? 0 : -1;
+          case 'tagged_forms':   return r.TaggedFormFieldsTest === 'Pass' ? 1 : r.TaggedFormFieldsTest === 'Fail' ? 0 : -1;
+          case 'tagged_annots':  return r.TaggedAnnotationsTest === 'Pass' ? 1 : r.TaggedAnnotationsTest === 'Fail' ? 0 : -1;
+          case 'figures_alt':    return r.FiguresAltTextTest === 'Pass' ? 1 : r.FiguresAltTextTest === 'Fail' ? 0 : -1;
+          case 'headings':       return r.HeadingsTest === 'Pass' ? 1 : r.HeadingsTest === 'Fail' ? 0 : -1;
+          case 'lists':          return r.ListsTest === 'Pass' ? 1 : r.ListsTest === 'Fail' ? 0 : -1;
+          case 'tables':         return r.TablesTest === 'Pass' ? 1 : r.TablesTest === 'Fail' ? 0 : -1;
+          case 'verapdf_status':
+            if (!r.veraPDF || typeof r.veraPDF !== 'object') return -1;
+            if (r.veraPDF.error) return 0;
+            if (r.veraPDF.compliant === false) return 1;
+            if (r.veraPDF.compliant === true) return 2;
+            return -1;
+          case 'verapdf_failed': return (r.veraPDF && r.veraPDF.failed_checks != null) ? r.veraPDF.failed_checks : -1;
+          case 'verapdf_passed': return (r.veraPDF && r.veraPDF.passed_checks != null) ? r.veraPDF.passed_checks : -1;
+          case 'verapdf_rules': return (r.veraPDF && Array.isArray(r.veraPDF.failed_rules)) ? r.veraPDF.failed_rules.length : -1;
+          case 'verapdf_error': return (r.veraPDF && r.veraPDF.error) ? String(r.veraPDF.error).toLowerCase() : '';
+          case 'pages':       return r.Pages  != null ? r.Pages  : -1;
+          case 'size':        return f.file_size_bytes != null ? Number(f.file_size_bytes) : -1;
+          case 'words':       return r.Words  != null ? r.Words  : -1;
+          case 'images':      return r.Images != null ? r.Images : -1;
+          default: return '';
+        }
+      }
+
+      function buildRow(f) {
+        var r = f.report || {};
+        var dateStr = '';
+        if (r.Date) {
+          var dm = String(r.Date).match(/^(\d{4}-\d{2}-\d{2})/);
+          dateStr = dm ? dm[1] : String(r.Date);
+        }
+        var extDomain = '';
+        try {
+          var pdfHost = new URL(f.url).hostname.replace(/^www\./, '');
+          var seed = (f.site || '').replace(/^www\./, '');
+          if (pdfHost && seed && pdfHost !== seed && !pdfHost.endsWith('.' + seed)) {
+            extDomain = pdfHost;
+          }
+        } catch (e) {}
+        var siteCell = esc(f.site || '');
+        if (extDomain) {
+          siteCell += ' <em>(ext: ' + esc(extDomain) + ')</em>';
+        }
+        var vp = r.veraPDF;
+        var vpStatus = '&#x2014;';
+        if (vp && typeof vp === 'object') {
+          if (vp.error) vpStatus = '<span class="fail">Error</span>';
+          else if (vp.compliant === true) vpStatus = '<span class="pass">Pass</span>';
+          else if (vp.compliant === false) vpStatus = '<span class="fail">Fail</span>';
+        }
+        var vpRules = (vp && Array.isArray(vp.failed_rules)) ? vp.failed_rules.length : null;
+        var vpError = (vp && vp.error) ? String(vp.error) : null;
+        var docTitleCell = '&#x2014;';
+        if (r.Title) docTitleCell = esc(r.Title);
+        else if (r.TitleTest === 'Fail') docTitleCell = icon('Fail');
+        return '<tr>' +
+          '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
+          '<td>' + siteCell + '</td>' +
+          '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
+          (hasDocTitle    ? '<td>' + docTitleCell + '</td>' : '') +
+          (hasAuthor      ? '<td>' + (r.Author      ? esc(r.Author)      : '&#x2014;') + '</td>' : '') +
+          (hasSubject     ? '<td>' + (r.Subject     ? esc(r.Subject)     : '&#x2014;') + '</td>' : '') +
+          (hasKeywords    ? '<td>' + (r.Keywords    ? esc(r.Keywords)    : '&#x2014;') + '</td>' : '') +
+          (hasDescription ? '<td>' + (r.Description ? esc(r.Description) : '&#x2014;') + '</td>' : '') +
+          '<td>' + icon(r.Accessible)    + '</td>' +
+          '<td>' + icon(r.TaggedTest)    + '</td>' +
+          '<td>' + icon(r.TitleTest)     + '</td>' +
+          '<td>' + icon(r.LanguageTest)  + '</td>' +
+          '<td>' + icon(r.BookmarksTest) + '</td>' +
+          (hasTaggedContent ? '<td>' + icon(r.TaggedContentTest) + '</td>' : '') +
+          (hasForms         ? '<td>' + icon(r.FormsTest) + '</td>' : '') +
+          (hasTaggedForms   ? '<td>' + icon(r.TaggedFormFieldsTest) + '</td>' : '') +
+          (hasTaggedAnnots  ? '<td>' + icon(r.TaggedAnnotationsTest) + '</td>' : '') +
+          (hasFiguresAlt    ? '<td>' + icon(r.FiguresAltTextTest) + '</td>' : '') +
+          (hasHeadings      ? '<td>' + icon(r.HeadingsTest) + '</td>' : '') +
+          (hasLists         ? '<td>' + icon(r.ListsTest) + '</td>' : '') +
+          (hasTables        ? '<td>' + icon(r.TablesTest) + '</td>' : '') +
+          (hasVeraPDF       ? '<td>' + vpStatus + '</td>' : '') +
+          (hasVPFailed      ? '<td>' + ((vp && vp.failed_checks != null) ? vp.failed_checks : '&#x2014;') + '</td>' : '') +
+          (hasVPPassed      ? '<td>' + ((vp && vp.passed_checks != null) ? vp.passed_checks : '&#x2014;') + '</td>' : '') +
+          (hasVPRules       ? '<td>' + (vpRules != null ? vpRules : '&#x2014;') + '</td>' : '') +
+          (hasVPError       ? '<td>' + (vpError ? esc(vpError) : '&#x2014;') + '</td>' : '') +
+          '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasFileSize ? '<td>' + formatSize(f.file_size_bytes) + '</td>' : '') +
+          (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
+          (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
+          '</tr>';
+      }
+
+      function renderBody(tbl) {
+        var rows = analysed.slice();
+        if (sortCol !== null) {
+          rows.sort(function (a, b) {
+            var va = colVal(a, sortCol);
+            var vb = colVal(b, sortCol);
+            if (va < vb) return sortAsc ? -1 : 1;
+            if (va > vb) return sortAsc ?  1 : -1;
+            return 0;
+          });
+        }
+        tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+        writeSortToQuery();
+      }
+
+      function updateHeaders(tbl) {
+        tbl.querySelectorAll('th[data-col]').forEach(function (th) {
+          var col = th.getAttribute('data-col');
+          var lbl = th.getAttribute('data-label');
+          if (col === sortCol) {
+            th.setAttribute('aria-sort', sortAsc ? 'ascending' : 'descending');
+            th.querySelector('.sort-label').textContent = lbl + (sortAsc ? ' ▴' : ' ▾');
+          } else {
+            th.setAttribute('aria-sort', 'none');
+            th.querySelector('.sort-label').textContent = lbl;
+          }
+        });
+      }
+
+      if (analysed.length) {
+        // Column order: identity columns, then optional metadata (shown only when
+        // at least one file has that field), then accessibility checks, then
+        // optional numeric columns (words/images shown only when data is present).
+        var colDefs = [
+          { key: 'file',       label: t('colFile') },
+          { key: 'site',       label: t('colSite') },
+          { key: 'date',       label: t('colPublishedDate') },
+        ];
+        if (hasDocTitle)    colDefs.push({ key: 'doc_title',   label: t('colDocTitle') });
+        if (hasAuthor)      colDefs.push({ key: 'author',      label: t('colAuthor') });
+        if (hasSubject)     colDefs.push({ key: 'subject',     label: t('colSubject') });
+        if (hasKeywords)    colDefs.push({ key: 'keywords',    label: t('colKeywords') });
+        if (hasDescription) colDefs.push({ key: 'description', label: t('colDescription') });
+        colDefs.push(
+          { key: 'accessible', label: t('colAccessible') },
+          { key: 'tagged',     label: t('colTagged') },
+          { key: 'title',      label: t('colTitle') },
+          { key: 'language',   label: t('colLanguage') },
+          { key: 'bookmarks',  label: t('colBookmarks') },
+        );
+        if (hasTaggedContent) colDefs.push({ key: 'tagged_content', label: t('colTaggedContent') });
+        if (hasForms)         colDefs.push({ key: 'forms',          label: t('colForms') });
+        if (hasTaggedForms)   colDefs.push({ key: 'tagged_forms',   label: t('colTaggedForms') });
+        if (hasTaggedAnnots)  colDefs.push({ key: 'tagged_annots',  label: t('colTaggedAnnots') });
+        if (hasFiguresAlt)    colDefs.push({ key: 'figures_alt',    label: t('colFiguresAlt') });
+        if (hasHeadings)      colDefs.push({ key: 'headings',       label: t('colHeadings') });
+        if (hasLists)         colDefs.push({ key: 'lists',          label: t('colLists') });
+        if (hasTables)        colDefs.push({ key: 'tables',         label: t('colTables') });
+        if (hasVeraPDF)       colDefs.push({ key: 'verapdf_status', label: 'veraPDF' });
+        if (hasVPFailed)      colDefs.push({ key: 'verapdf_failed', label: 'vPDF Fail' });
+        if (hasVPPassed)      colDefs.push({ key: 'verapdf_passed', label: 'vPDF Pass' });
+        if (hasVPRules)       colDefs.push({ key: 'verapdf_rules',  label: 'vPDF Rules' });
+        if (hasVPError)       colDefs.push({ key: 'verapdf_error',  label: 'vPDF Error' });
+        colDefs.push(
+          { key: 'pages',      label: t('colPages') }
+        );
+        if (hasFileSize) colDefs.push({ key: 'size', label: t('colSize') });
+        if (hasWords)  colDefs.push({ key: 'words',  label: t('colWords') });
+        if (hasImages) colDefs.push({ key: 'images', label: t('colImages') });
+
+        html += '<h2>' + esc(t('pdfDetails')) + '</h2>';
+        html += '<p>' + esc(t('legend')) + '</p>';
+        html += '<table id="pdf-table"><thead><tr>';
+        colDefs.forEach(function (c) {
+          html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
+                  '" aria-sort="none" tabindex="0" role="columnheader">' +
+                  '<span class="sort-label">' + c.label + '</span></th>';
+        });
+        html += '</tr></thead><tbody>';
+        analysed.forEach(function (f) {
+          html += buildRow(f);
+        });
+        html += '</tbody></table>';
+      }
+
+      root.innerHTML = html;
+
+      // Wire up column sorting on the PDF details table
+      var pdfTable = document.getElementById('pdf-table');
+      if (pdfTable) {
+        readSortFromQuery();
+        var validCols = Array.prototype.map.call(
+          pdfTable.querySelectorAll('th[data-col]'),
+          function (th) { return th.getAttribute('data-col'); }
+        );
+        if (sortCol && validCols.indexOf(sortCol) === -1) sortCol = null;
+        renderBody(pdfTable);
+        updateHeaders(pdfTable);
+        pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {
+          th.addEventListener('click', function () {
+            var col = this.getAttribute('data-col');
+            if (sortCol === col) {
+              sortAsc = !sortAsc;
+            } else {
+              sortCol = col;
+              sortAsc = true;
+            }
+            renderBody(pdfTable);
+            updateHeaders(pdfTable);
+          });
+          th.addEventListener('keydown', function (e) {
+            if (e.key === 'Enter' || e.key === ' ') {
+              e.preventDefault();
+              this.click();
+            }
+          });
+        });
+      }
+
+      function makeCsvValue(value) {
+        var s = value == null ? '' : String(value);
+        if (s.indexOf('"') !== -1 || s.indexOf(',') !== -1 || s.indexOf('
+') !== -1) {
+          return '"' + s.replace(/"/g, '""') + '"';
+        }
+        return s;
+      }
+
+      function rowFromFile(file) {
+        var r = file.report || {};
+        return {
+          url: file.url || '',
+          filename: file.filename || '',
+          site: file.site || '',
+          status: file.status || '',
+          file_size_bytes: file.file_size_bytes == null ? '' : file.file_size_bytes,
+          file_size_human: formatSize(file.file_size_bytes).replace(/&[^;]+;/g, '-'),
+          published_date: r.Date || '',
+          doc_title: r.Title || '',
+          author: r.Author || '',
+          subject: r.Subject || '',
+          keywords: r.Keywords || '',
+          accessible: r.Accessible == null ? '' : r.Accessible,
+          totally_inaccessible: r.TotallyInaccessible == null ? '' : r.TotallyInaccessible,
+          broken: r.BrokenFile == null ? '' : r.BrokenFile,
+          title: r.TitleTest || '',
+          language: r.LanguageTest || '',
+          bookmarks: r.BookmarksTest || '',
+          pages: r.Pages == null ? '' : r.Pages,
+          words: r.Words == null ? '' : r.Words,
+          images: r.Images == null ? '' : r.Images,
+        };
+      }
+
+      function buildCsvText() {
+        var columns = [
+          'url','filename','site','status','file_size_bytes','file_size_human',
+          'published_date','doc_title','author','subject','keywords','accessible',
+          'totally_inaccessible','broken','title','language','bookmarks','pages',
+          'words','images'
+        ];
+        var lines = [columns.join(',')];
+        files.forEach(function (file) {
+          var row = rowFromFile(file);
+          lines.push(columns.map(function (col) { return makeCsvValue(row[col]); }).join(','));
+        });
+        return lines.join('
+');
+      }
+
+      function downloadBlob(filename, text, mime) {
+        var blob = new Blob([text], { type: mime });
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(function () { URL.revokeObjectURL(a.href); }, 0);
+      }
+
+      var downloadCsvBtn = document.getElementById('download-current-csv');
+      if (downloadCsvBtn) {
+        downloadCsvBtn.addEventListener('click', function () {
+          downloadBlob('report-current-view.csv', buildCsvText(), 'text/csv;charset=utf-8');
+        });
+      }
+
+      var downloadJsonBtn = document.getElementById('download-current-json');
+      if (downloadJsonBtn) {
+        downloadJsonBtn.addEventListener('click', function () {
+          downloadBlob('report-current-view.json', JSON.stringify({ summary: summary, files: files }, null, 2), 'application/json;charset=utf-8');
+        });
+      }
+
+      function icon(v) {
+        if (v === true  || v === 'Pass') return '<span class="pass">&#x2705;</span>';
+        if (v === false || v === 'Fail') return '<span class="fail">&#x274C;</span>';
+        return '<span class="na">&#x2014;</span>';
+      }
+
+      function esc(s) {
+        if (!s) return '';
+        return String(s)
+          .replace(/&/g,  '&amp;')
+          .replace(/</g,  '&lt;')
+          .replace(/>/g,  '&gt;')
+          .replace(/"/g,  '&quot;')
+          .replace(/'/g,  '&#x27;');
+      }
+    })();
+  </script>
+
+  <footer>
+    <p>
+      Powered by
+      <a href="https://github.com/accessibility-luxembourg/simplA11yPDFCrawler"
+         target="_blank" rel="noopener">simplA11yPDFCrawler</a>
+      and
+      <a href="https://github.com/mgifford/pdf-crawler"
+         target="_blank" rel="noopener">mgifford/pdf-crawler</a>.
+      MIT licence.
+    </p>
+  </footer>
+
+  <script>
+    (function () {
+      var btn  = document.getElementById('theme-toggle');
+      var root = document.documentElement;
+
+      function applyTheme(theme) {
+        root.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+        if (theme === 'dark') {
+          btn.textContent = '☀️';
+          btn.setAttribute('aria-label', 'Switch to light mode');
+          btn.setAttribute('title', 'Switch to light mode');
+        } else {
+          btn.textContent = '🌙';
+          btn.setAttribute('aria-label', 'Switch to dark mode');
+          btn.setAttribute('title', 'Switch to dark mode');
+        }
+      }
+
+      var stored      = localStorage.getItem('theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      applyTheme(stored === 'dark' || stored === 'light' ? stored : (prefersDark ? 'dark' : 'light'));
+
+      btn.addEventListener('click', function () {
+        applyTheme(root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    })();
+  </script>
+
+</body>
+</html>

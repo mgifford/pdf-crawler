@@ -1,0 +1,5694 @@
+{
+  "generated_at": "2026-07-09T20:53:14.459676+00:00",
+  "summary": {
+    "total_files": 16,
+    "analysed": 16,
+    "files_with_structured_report": 16
+  },
+  "files": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7301291/pdf/10.1177_1090198120922942.pdf",
+      "filename": "10.1177_1090198120922942.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 12,
+          "Passed": 8,
+          "Warning": 0,
+          "Failed": 1
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Open PDF",
+              "Status": "Failed",
+              "Description": "Document can be opened and read"
+            },
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Skipped",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Skipped",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Skipped",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Skipped",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Skipped",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Skipped",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Skipped",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Skipped",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Skipped",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Skipped",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Skipped",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Skipped",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "10.1177_1090198120922942.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": null,
+          "TotallyInaccessible": false,
+          "BrokenFile": true,
+          "Exempt": false,
+          "Date": null,
+          "Pages": null,
+          "PDFVersion": null,
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": null,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 22,
+          "Passed": 8,
+          "Warning": 0,
+          "Failed": 1
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Open PDF",
+              "Status": "Failed",
+              "Description": "Document can be opened and read"
+            },
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Skipped",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Skipped",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Skipped",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Skipped",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Skipped",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Skipped",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Skipped",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Skipped",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Skipped",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Skipped",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Skipped",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Skipped",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "10.1177_1090198120922942.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": null,
+          "TotallyInaccessible": false,
+          "BrokenFile": true,
+          "Exempt": false,
+          "Date": null,
+          "Pages": null,
+          "PDFVersion": null,
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": null,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://cdn.thomasnet.com/ccp/10076910/184368.pdf",
+      "filename": "184368.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 6,
+          "Warning": 0,
+          "Failed": 14
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Failed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Failed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Failed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Failed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Failed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Failed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Failed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Failed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "184368.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2014-04-02 19:14:04+00:00",
+          "Pages": 3,
+          "PDFVersion": "1.7",
+          "Creator": "Adobe InDesign CS6 (Windows)",
+          "Producer": "Adobe PDF Library 10.0.1",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 7,
+          "Passed": 6,
+          "Warning": 0,
+          "Failed": 17
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Failed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Failed",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Failed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Failed",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Failed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Failed",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Failed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Failed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Failed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Failed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Failed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "184368.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2014-04-02 19:14:04+00:00",
+          "Pages": 3,
+          "PDFVersion": "1.7",
+          "Creator": "Adobe InDesign CS6 (Windows)",
+          "Producer": "Adobe PDF Library 10.0.1",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf",
+      "filename": "Analyzing_Primary_Sources.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Passed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Analyzing_Primary_Sources.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2012-11-14 14:50:24+00:00",
+          "Pages": 1,
+          "PDFVersion": "1.6",
+          "Creator": "Adobe InDesign CS4 (6.0)",
+          "Producer": "Adobe PDF Library 9.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Passed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Analyzing_Primary_Sources.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2012-11-14 14:50:24+00:00",
+          "Pages": 1,
+          "PDFVersion": "1.6",
+          "Creator": "Adobe InDesign CS4 (6.0)",
+          "Producer": "Adobe PDF Library 9.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://storycorpsorg-staging.s3.amazonaws.com/uploads/Getting-Started.pdf",
+      "filename": "Getting-Started.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 18,
+          "Warning": 0,
+          "Failed": 2
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Getting-Started.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2017-09-18 15:22:39+00:00",
+          "Pages": 1,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 18,
+          "Warning": 0,
+          "Failed": 2
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Getting-Started.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2017-09-18 15:22:39+00:00",
+          "Pages": 1,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://storycorpsorg-staging.s3.amazonaws.com/uploads/Improve-Sound-Quality.pdf",
+      "filename": "Improve-Sound-Quality.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 18,
+          "Warning": 0,
+          "Failed": 2
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Improve-Sound-Quality.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2017-09-14 16:35:24+00:00",
+          "Pages": 1,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 18,
+          "Warning": 0,
+          "Failed": 2
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Improve-Sound-Quality.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2017-09-14 16:35:24+00:00",
+          "Pages": 1,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://storycorpsorg-staging.s3.amazonaws.com/uploads/Interview-Tips.pdf",
+      "filename": "Interview-Tips.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 18,
+          "Warning": 0,
+          "Failed": 2
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Interview-Tips.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2017-09-18 16:10:33+00:00",
+          "Pages": 1,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 18,
+          "Warning": 0,
+          "Failed": 2
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Interview-Tips.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2017-09-18 16:10:33+00:00",
+          "Pages": 1,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2017 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://cccse.org/sites/default/files/Mission_Critical.pdf",
+      "filename": "Mission_Critical.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Passed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Failed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Failed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Passed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Mission_Critical.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2022-10-14 23:00:54+00:00",
+          "Pages": 33,
+          "PDFVersion": "1.7",
+          "Creator": "Adobe InDesign 17.4 (Windows)",
+          "Producer": "Adobe PDF Library 16.0.7",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Passed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Failed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Failed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Passed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "Mission_Critical.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2022-10-14 23:00:54+00:00",
+          "Pages": 33,
+          "PDFVersion": "1.7",
+          "Creator": "Adobe InDesign 17.4 (Windows)",
+          "Producer": "Adobe PDF Library 16.0.7",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-A.pdf",
+      "filename": "W346-A.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-A.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-11-02 22:47:56+00:00",
+          "Pages": 5,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-A.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-11-02 22:47:56+00:00",
+          "Pages": 5,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-B.pdf",
+      "filename": "W346-B.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 16,
+          "Warning": 0,
+          "Failed": 4
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-B.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-11-02 22:47:36+00:00",
+          "Pages": 7,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 16,
+          "Warning": 0,
+          "Failed": 4
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-B.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-11-02 22:47:36+00:00",
+          "Pages": 7,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-D.pdf",
+      "filename": "W346-D.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 16,
+          "Warning": 0,
+          "Failed": 4
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-D.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-11-02 22:48:43+00:00",
+          "Pages": 7,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 16,
+          "Warning": 0,
+          "Failed": 4
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-D.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-11-02 22:48:43+00:00",
+          "Pages": 7,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-F.pdf",
+      "filename": "W346-F.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-F.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-06-15 13:28:47+00:00",
+          "Pages": 7,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 17,
+          "Warning": 0,
+          "Failed": 3
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-F.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-06-15 13:28:47+00:00",
+          "Pages": 7,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-G.pdf",
+      "filename": "W346-G.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 16,
+          "Warning": 0,
+          "Failed": 4
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-G.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-10-28 14:34:01+00:00",
+          "Pages": 8,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 16,
+          "Warning": 0,
+          "Failed": 4
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "W346-G.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2016-10-28 14:34:01+00:00",
+          "Pages": 8,
+          "PDFVersion": "1.4",
+          "Creator": "Adobe InDesign CC 2015 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/standards_and_certification/asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf",
+      "filename": "asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 15,
+          "Warning": 0,
+          "Failed": 5
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Failed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2021-08-23 13:29:26+00:00",
+          "Pages": 34,
+          "PDFVersion": "1.6",
+          "Creator": "Adobe InDesign CC (Macintosh)",
+          "Producer": "Adobe PDF Library 11.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 10,
+          "Passed": 15,
+          "Warning": 0,
+          "Failed": 5
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Passed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Failed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Passed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Passed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Passed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Passed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2021-08-23 13:29:26+00:00",
+          "Pages": 34,
+          "PDFVersion": "1.6",
+          "Creator": "Adobe InDesign CC (Macintosh)",
+          "Producer": "Adobe PDF Library 11.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://copyright.gov/circs/circ61.pdf",
+      "filename": "circ61.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 6,
+          "Warning": 0,
+          "Failed": 14
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Failed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Failed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Failed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Failed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Failed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Failed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Failed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Failed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Failed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "circ61.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2021-02-25 16:58:46+00:00",
+          "Pages": 8,
+          "PDFVersion": "1.7",
+          "Creator": "Adobe InDesign 15.1 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 7,
+          "Passed": 6,
+          "Warning": 0,
+          "Failed": 17
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Failed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Passed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Failed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Failed",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Failed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Failed",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Failed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Failed",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Failed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Failed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Failed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Failed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Failed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "circ61.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": false,
+          "Date": "2021-02-25 16:58:46+00:00",
+          "Pages": 8,
+          "PDFVersion": "1.7",
+          "Creator": "Adobe InDesign 15.1 (Macintosh)",
+          "Producer": "Adobe PDF Library 15.0",
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7454923/pdf/gbaa114.pdf",
+      "filename": "gbaa114.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 12,
+          "Passed": 8,
+          "Warning": 0,
+          "Failed": 1
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Open PDF",
+              "Status": "Failed",
+              "Description": "Document can be opened and read"
+            },
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Skipped",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Skipped",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Skipped",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Skipped",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Skipped",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Skipped",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Skipped",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Skipped",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Skipped",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Skipped",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Skipped",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Skipped",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "gbaa114.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": null,
+          "TotallyInaccessible": false,
+          "BrokenFile": true,
+          "Exempt": false,
+          "Date": null,
+          "Pages": null,
+          "PDFVersion": null,
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": null,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 22,
+          "Passed": 8,
+          "Warning": 0,
+          "Failed": 1
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Open PDF",
+              "Status": "Failed",
+              "Description": "Document can be opened and read"
+            },
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Skipped",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Skipped",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Skipped",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Skipped",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Skipped",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Skipped",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Skipped",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Skipped",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Skipped",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Skipped",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Skipped",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Skipped",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Skipped",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Skipped",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Passed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Passed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Passed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Passed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Passed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Passed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Skipped",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "gbaa114.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": null,
+          "TotallyInaccessible": false,
+          "BrokenFile": true,
+          "Exempt": false,
+          "Date": null,
+          "Pages": null,
+          "PDFVersion": null,
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": null,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    },
+    {
+      "url": "https://www.ala.org/sites/default/files/acrl/content/publications/whitepapers/principles.pdf",
+      "filename": "principles.pdf",
+      "site": "lib.pstcc.edu",
+      "status": "analysed",
+      "structured_report": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 0,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 0,
+          "Passed": 6,
+          "Warning": 0,
+          "Failed": 14
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Failed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Failed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Failed",
+              "Description": "Alternate text should not hide annotation"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Failed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Failed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Failed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Failed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Failed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "principles.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2000-07-14 15:41:50-05:00",
+          "Pages": 1,
+          "PDFVersion": "1.2",
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      },
+      "structured_report_compatible": {
+        "Summary": {
+          "Description": "The checker found problems which may prevent the document from being fully accessible.",
+          "Needs manual check": 2,
+          "Passed manually": 0,
+          "Failed manually": 0,
+          "Skipped": 7,
+          "Passed": 6,
+          "Warning": 0,
+          "Failed": 17
+        },
+        "Detailed Report": {
+          "Document": [
+            {
+              "Rule": "Accessibility permission flag",
+              "Status": "Passed",
+              "Description": "Accessibility permission flag must be set"
+            },
+            {
+              "Rule": "Image-only PDF",
+              "Status": "Passed",
+              "Description": "Document is not image-only PDF"
+            },
+            {
+              "Rule": "Tagged PDF",
+              "Status": "Failed",
+              "Description": "Document is tagged PDF"
+            },
+            {
+              "Rule": "Logical Reading Order",
+              "Status": "Needs manual check",
+              "Description": "Document structure provides a logical reading order"
+            },
+            {
+              "Rule": "Primary language",
+              "Status": "Failed",
+              "Description": "Text language is specified"
+            },
+            {
+              "Rule": "Title",
+              "Status": "Failed",
+              "Description": "Document title is showing in title bar"
+            },
+            {
+              "Rule": "Bookmarks",
+              "Status": "Passed",
+              "Description": "Bookmarks are present in large documents"
+            },
+            {
+              "Rule": "Color contrast",
+              "Status": "Needs manual check",
+              "Description": "Document has appropriate color contrast"
+            }
+          ],
+          "Page Content": [
+            {
+              "Rule": "Tagged content",
+              "Status": "Failed",
+              "Description": "All page content is tagged"
+            },
+            {
+              "Rule": "Tagged annotations",
+              "Status": "Passed",
+              "Description": "All annotations are tagged"
+            },
+            {
+              "Rule": "Tab order",
+              "Status": "Failed",
+              "Description": "Tab order is consistent with structure order"
+            },
+            {
+              "Rule": "Character encoding",
+              "Status": "Skipped",
+              "Description": "Reliable character encoding is provided"
+            },
+            {
+              "Rule": "Tagged multimedia",
+              "Status": "Skipped",
+              "Description": "All multimedia objects are tagged"
+            },
+            {
+              "Rule": "Screen flicker",
+              "Status": "Skipped",
+              "Description": "Page will not cause screen flicker"
+            },
+            {
+              "Rule": "Scripts",
+              "Status": "Skipped",
+              "Description": "No inaccessible scripts"
+            },
+            {
+              "Rule": "Timed responses",
+              "Status": "Skipped",
+              "Description": "Page does not require timed responses"
+            },
+            {
+              "Rule": "Navigation links",
+              "Status": "Skipped",
+              "Description": "Navigation links are not repetitive"
+            }
+          ],
+          "Forms": [
+            {
+              "Rule": "Tagged form fields",
+              "Status": "Passed",
+              "Description": "All form fields are tagged"
+            },
+            {
+              "Rule": "Field descriptions",
+              "Status": "Passed",
+              "Description": "All form fields have description"
+            }
+          ],
+          "Alternate Text": [
+            {
+              "Rule": "Figures alternate text",
+              "Status": "Failed",
+              "Description": "Figures require alternate text"
+            },
+            {
+              "Rule": "Nested alternate text",
+              "Status": "Failed",
+              "Description": "Alternate text that will never be read"
+            },
+            {
+              "Rule": "Associated with content",
+              "Status": "Failed",
+              "Description": "Alternate text must be associated with some content"
+            },
+            {
+              "Rule": "Hides annotation",
+              "Status": "Failed",
+              "Description": "Alternate text should not hide annotation"
+            },
+            {
+              "Rule": "Other elements alternate text",
+              "Status": "Failed",
+              "Description": "Other elements that require alternate text"
+            }
+          ],
+          "Tables": [
+            {
+              "Rule": "Rows",
+              "Status": "Failed",
+              "Description": "TR must be a child of Table, THead, TBody, or TFoot"
+            },
+            {
+              "Rule": "TH and TD",
+              "Status": "Failed",
+              "Description": "TH and TD must be children of TR"
+            },
+            {
+              "Rule": "Headers",
+              "Status": "Failed",
+              "Description": "Tables should have headers"
+            },
+            {
+              "Rule": "Regularity",
+              "Status": "Failed",
+              "Description": "Tables must contain the same number of columns in each row and rows in each column"
+            },
+            {
+              "Rule": "Summary",
+              "Status": "Skipped",
+              "Description": "Tables must have a summary"
+            }
+          ],
+          "Lists": [
+            {
+              "Rule": "List items",
+              "Status": "Failed",
+              "Description": "LI must be a child of L"
+            },
+            {
+              "Rule": "Lbl and LBody",
+              "Status": "Failed",
+              "Description": "Lbl and LBody must be children of LI"
+            }
+          ],
+          "Headings": [
+            {
+              "Rule": "Appropriate nesting",
+              "Status": "Failed",
+              "Description": "Appropriate nesting"
+            }
+          ]
+        },
+        "PDF Metadata": {
+          "File": "principles.pdf",
+          "Site": "lib.pstcc.edu",
+          "Accessible": false,
+          "TotallyInaccessible": false,
+          "BrokenFile": false,
+          "Exempt": true,
+          "Date": "2000-07-14 15:41:50-05:00",
+          "Pages": 1,
+          "PDFVersion": "1.2",
+          "Creator": null,
+          "Producer": null,
+          "hasXmp": true,
+          "Form": null,
+          "xfa": null
+        }
+      }
+    }
+  ]
+}
