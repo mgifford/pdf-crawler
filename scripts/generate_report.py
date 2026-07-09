@@ -23,7 +23,6 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
-from urllib.parse import urlparse
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -2641,11 +2640,11 @@ def main(
         pages_crawled_urls = archive_bundle_dir / "crawled_urls.csv"
         source_crawled_urls = out_dir / "crawled_urls.csv"
         if source_crawled_urls.exists():
-          shutil.copy2(source_crawled_urls, pages_crawled_urls)
-          print(f"Copied:  {pages_crawled_urls}")
+            shutil.copy2(source_crawled_urls, pages_crawled_urls)
+            print(f"Copied:  {pages_crawled_urls}")
         else:
-          pages_crawled_urls.write_text("", encoding="utf-8")
-          print(f"Written: {pages_crawled_urls} (empty; source crawled_urls.csv not found)")
+            pages_crawled_urls.write_text("", encoding="utf-8")
+            print(f"Written: {pages_crawled_urls} (empty; source crawled_urls.csv not found)")
 
     # Optional per-site issue comment
     if issue_comment_file:
