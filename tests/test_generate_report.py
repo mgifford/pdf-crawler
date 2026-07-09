@@ -1455,6 +1455,24 @@ def test_generate_reports_index_html_has_color_scheme_meta():
     assert "color-scheme: light dark" in html
 
 
+def test_generate_html_has_language_switch_controls():
+    """Single report page should expose EN/FR language switch controls."""
+    html = generate_html([], _summary_stats([]))
+    assert 'id="lang-en-report"' in html
+    assert 'id="lang-fr-report"' in html
+    assert "detectLang" in html
+    assert "localStorage.setItem('lang'" in html
+
+
+def test_generate_reports_index_html_has_language_switch_controls():
+    """Reports index page should expose EN/FR language switch controls."""
+    html = generate_reports_index_html([])
+    assert 'id="lang-en-index"' in html
+    assert 'id="lang-fr-index"' in html
+    assert "detectLang" in html
+    assert "localStorage.setItem('lang'" in html
+
+
 # ---------------------------------------------------------------------------
 # _fmt helper – None and unknown string branches (lines 44, 51)
 # ---------------------------------------------------------------------------

@@ -860,6 +860,22 @@ _HTML_TEMPLATE = """\
     nav a {{ color: var(--color-link); text-decoration: none; }}
     nav a:hover {{ text-decoration: underline; }}
 
+    .lang-switch {{
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      display: inline-flex;
+      gap: 0.35rem;
+      align-items: center;
+    }}
+
+    .lang-switch {{
+      font-size: 0.9rem;
+      color: var(--color-muted);
+      display: inline-flex;
+      gap: 0.35rem;
+      align-items: center;
+    }}
+
     .theme-toggle {{
       background: none;
       border: 1px solid var(--color-border);
@@ -965,17 +981,22 @@ _HTML_TEMPLATE = """\
 <body>
 
   <nav>
-    <a href="{back_url}">&#8592; {back_label}</a>
+    <a id="back-link" href="{back_url}">&#8592; {back_label}</a>
+    <span class="lang-switch" aria-label="Language switch">
+      <a id="lang-en-report" href="?lang=en" hreflang="en" lang="en">EN</a>
+      <span aria-hidden="true">|</span>
+      <a id="lang-fr-report" href="?lang=fr" hreflang="fr" lang="fr">FR</a>
+    </span>
     <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
   </nav>
 
-  <h1>&#128202; PDF Accessibility Scan Results</h1>
+  <h1 id="page-title">&#128202; PDF Accessibility Scan Results</h1>
   <p id="generated-at"></p>
 
   <div class="downloads">
-    <a href="{report_assets_base}/report.csv">Download CSV</a>
-    <a href="{report_assets_base}/report.json">Download JSON</a>
-    <a href="{report_assets_base}/manifest.yaml">Download Manifest</a>
+    <a id="download-csv-link" href="{report_assets_base}/report.csv">Download CSV</a>
+    <a id="download-json-link" href="{report_assets_base}/report.json">Download JSON</a>
+    <a id="download-manifest-link" href="{report_assets_base}/manifest.yaml">Download Manifest</a>
     <button id="download-current-csv" type="button">Download Current View CSV</button>
     <button id="download-current-json" type="button">Download Current View JSON</button>
   </div>
@@ -988,6 +1009,163 @@ _HTML_TEMPLATE = """\
 
   <script>
     (function () {{
+      // i18n scaffold: add new locales by extending I18N with the same keys.
+      var I18N = {{
+        en: {{
+          backLabel: 'Back to submission form',
+          pageTitle: '📊 PDF Accessibility Scan Results',
+          generatedAt: 'Last updated: ',
+          summary: 'Summary',
+          totalPdfs: 'Total PDFs',
+          analysed: 'Analysed',
+          accessible: '✅ Accessible',
+          issuesFound: '❌ Issues Found',
+          pending: '⏳ Pending',
+          errors: '⚠️ Errors',
+          sitesScanned: 'Sites Scanned',
+          site: 'Site',
+          pdfs: 'PDFs',
+          pdfDetails: 'PDF Details',
+          legend: '✅ = Pass/Accessible   ❌ = Fail/Inaccessible   — = Not applicable',
+          noData: 'No scan data available yet.',
+          submitPrompt: 'Submit a crawl request',
+          submitSuffix: ' to get started.',
+          downloadCsv: 'Download CSV',
+          downloadJson: 'Download JSON',
+          downloadManifest: 'Download Manifest',
+          downloadCurrentCsv: 'Download Current View CSV',
+          downloadCurrentJson: 'Download Current View JSON',
+          colFile: 'File',
+          colSite: 'Site',
+          colPublishedDate: 'Published Date',
+          colDocTitle: 'Doc Title',
+          colAuthor: 'Author',
+          colSubject: 'Subject',
+          colKeywords: 'Keywords',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Tagged',
+          colTitle: 'Title',
+          colLanguage: 'Language',
+          colBookmarks: 'Bookmarks',
+          colTaggedContent: 'TaggedContent',
+          colForms: 'Forms',
+          colTaggedForms: 'TaggedForms',
+          colTaggedAnnots: 'TaggedAnnots',
+          colFiguresAlt: 'FiguresAlt',
+          colHeadings: 'Headings',
+          colLists: 'Lists',
+          colTables: 'Tables',
+          colPages: 'Pages',
+          colSize: 'Size',
+          colWords: 'Words',
+          colImages: 'Images',
+        }},
+        fr: {{
+          backLabel: 'Retour au formulaire de soumission',
+          pageTitle: '📊 Résultats du scan d\'accessibilité PDF',
+          generatedAt: 'Dernière mise à jour : ',
+          summary: 'Résumé',
+          totalPdfs: 'Total des PDF',
+          analysed: 'Analysés',
+          accessible: '✅ Accessibles',
+          issuesFound: '❌ Problèmes détectés',
+          pending: '⏳ En attente',
+          errors: '⚠️ Erreurs',
+          sitesScanned: 'Sites analysés',
+          site: 'Site',
+          pdfs: 'PDF',
+          pdfDetails: 'Détails des PDF',
+          legend: '✅ = Réussite/Accessible   ❌ = Échec/Inaccessible   — = Non applicable',
+          noData: 'Aucune donnée de scan disponible pour le moment.',
+          submitPrompt: 'Soumettre une demande de scan',
+          submitSuffix: ' pour commencer.',
+          downloadCsv: 'Télécharger le CSV',
+          downloadJson: 'Télécharger le JSON',
+          downloadManifest: 'Télécharger le manifeste',
+          downloadCurrentCsv: 'Télécharger le CSV de la vue actuelle',
+          downloadCurrentJson: 'Télécharger le JSON de la vue actuelle',
+          colFile: 'Fichier',
+          colSite: 'Site',
+          colPublishedDate: 'Date de publication',
+          colDocTitle: 'Titre du doc',
+          colAuthor: 'Auteur',
+          colSubject: 'Sujet',
+          colKeywords: 'Mots-clés',
+          colDescription: 'Description',
+          colAccessible: 'Accessible',
+          colTagged: 'Balisé',
+          colTitle: 'Titre',
+          colLanguage: 'Langue',
+          colBookmarks: 'Signets',
+          colTaggedContent: 'ContenuBalisé',
+          colForms: 'Formulaires',
+          colTaggedForms: 'FormulairesBalisés',
+          colTaggedAnnots: 'AnnotationsBalisées',
+          colFiguresAlt: 'TexteAltFigures',
+          colHeadings: 'Titres',
+          colLists: 'Listes',
+          colTables: 'Tableaux',
+          colPages: 'Pages',
+          colSize: 'Taille',
+          colWords: 'Mots',
+          colImages: 'Images',
+        }},
+      }};
+
+      function detectLang() {{
+        var params = new URLSearchParams(window.location.search);
+        var fromQuery = params.get('lang');
+        if (fromQuery && I18N[fromQuery]) return fromQuery;
+        var stored = localStorage.getItem('lang');
+        if (stored && I18N[stored]) return stored;
+        var navLang = (navigator.language || 'en').toLowerCase();
+        return navLang.indexOf('fr') === 0 ? 'fr' : 'en';
+      }}
+
+      var currentLang = detectLang();
+      var M = I18N[currentLang] || I18N.en;
+      document.documentElement.setAttribute('lang', currentLang);
+      localStorage.setItem('lang', currentLang);
+
+      function t(key) {{
+        return M[key] || I18N.en[key] || key;
+      }}
+
+      function withLang(url) {{
+        try {{
+          var parsed = new URL(url, window.location.href);
+          parsed.searchParams.set('lang', currentLang);
+          return parsed.toString();
+        }} catch (e) {{
+          return url;
+        }}
+      }}
+
+      function applyLanguageStatic() {{
+        var backLink = document.getElementById('back-link');
+        if (backLink) backLink.textContent = '← ' + t('backLabel');
+        var pageTitle = document.getElementById('page-title');
+        if (pageTitle) pageTitle.textContent = t('pageTitle');
+        var csvLink = document.getElementById('download-csv-link');
+        if (csvLink) csvLink.textContent = t('downloadCsv');
+        var jsonLink = document.getElementById('download-json-link');
+        if (jsonLink) jsonLink.textContent = t('downloadJson');
+        var manifestLink = document.getElementById('download-manifest-link');
+        if (manifestLink) manifestLink.textContent = t('downloadManifest');
+        var curCsv = document.getElementById('download-current-csv');
+        if (curCsv) curCsv.textContent = t('downloadCurrentCsv');
+        var curJson = document.getElementById('download-current-json');
+        if (curJson) curJson.textContent = t('downloadCurrentJson');
+
+        var enLink = document.getElementById('lang-en-report');
+        if (enLink) enLink.href = withLang('?lang=en');
+        var frLink = document.getElementById('lang-fr-report');
+        if (frLink) frLink.href = withLang('?lang=fr');
+      }}
+
+      applyLanguageStatic();
+
       var raw  = document.getElementById('report-data').textContent;
       var data = JSON.parse(raw);
       var summary = data.summary || {{}};
@@ -997,8 +1175,8 @@ _HTML_TEMPLATE = """\
       if (!summary.total_files) {{
         root.innerHTML =
           '<div class="empty-state">' +
-          '<p>No scan data available yet.</p>' +
-          '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+          '<p>' + esc(t('noData')) + '</p>' +
+          '<p><a href="./">' + esc(t('submitPrompt')) + '</a>' + esc(t('submitSuffix')) + '</p>' +
           '</div>';
         return;
       }}
@@ -1006,21 +1184,21 @@ _HTML_TEMPLATE = """\
       // Generated-at timestamp
       if (summary.generated_at) {{
         document.getElementById('generated-at').textContent =
-          'Last updated: ' + new Date(summary.generated_at).toLocaleString();
+          t('generatedAt') + new Date(summary.generated_at).toLocaleString(currentLang);
       }}
 
       var html = '';
 
       // --- Summary cards ---
       var cards = [
-        {{ value: summary.total_files,         label: 'Total PDFs' }},
-        {{ value: summary.analysed,            label: 'Analysed' }},
-        {{ value: summary.accessible,          label: '&#x2705; Accessible' }},
-        {{ value: summary.issues_found,        label: '&#x274C; Issues Found' }},
-        {{ value: summary.pending,             label: '&#x23F3; Pending' }},
-        {{ value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' }},
+        {{ value: summary.total_files,         label: t('totalPdfs') }},
+        {{ value: summary.analysed,            label: t('analysed') }},
+        {{ value: summary.accessible,          label: t('accessible') }},
+        {{ value: summary.issues_found,        label: t('issuesFound') }},
+        {{ value: summary.pending,             label: t('pending') }},
+        {{ value: summary.errored,             label: t('errors') }},
       ];
-      html += '<h2>Summary</h2><div class="stats-grid">';
+      html += '<h2>' + esc(t('summary')) + '</h2><div class="stats-grid">';
       cards.forEach(function (c) {{
         html += '<div class="stat-card"><div class="value">' + (c.value || 0) +
                 '</div><div class="label">' + c.label + '</div></div>';
@@ -1031,8 +1209,8 @@ _HTML_TEMPLATE = """\
       var sites = summary.sites || {{}};
       var siteNames = Object.keys(sites).sort();
       if (siteNames.length) {{
-        html += '<h2>Sites Scanned</h2>';
-        html += '<table><thead><tr><th>Site</th><th>PDFs</th></tr></thead><tbody>';
+        html += '<h2>' + esc(t('sitesScanned')) + '</h2>';
+        html += '<table><thead><tr><th>' + esc(t('site')) + '</th><th>' + esc(t('pdfs')) + '</th></tr></thead><tbody>';
         siteNames.forEach(function (s) {{
           html += '<tr><td>' + esc(s) + '</td><td>' + sites[s] + '</td></tr>';
         }});
@@ -1247,44 +1425,44 @@ _HTML_TEMPLATE = """\
         // at least one file has that field), then accessibility checks, then
         // optional numeric columns (words/images shown only when data is present).
         var colDefs = [
-          {{ key: 'file',       label: 'File' }},
-          {{ key: 'site',       label: 'Site' }},
-          {{ key: 'date',       label: 'Published Date' }},
+          {{ key: 'file',       label: t('colFile') }},
+          {{ key: 'site',       label: t('colSite') }},
+          {{ key: 'date',       label: t('colPublishedDate') }},
         ];
-        if (hasDocTitle)    colDefs.push({{ key: 'doc_title',   label: 'Doc Title' }});
-        if (hasAuthor)      colDefs.push({{ key: 'author',      label: 'Author' }});
-        if (hasSubject)     colDefs.push({{ key: 'subject',     label: 'Subject' }});
-        if (hasKeywords)    colDefs.push({{ key: 'keywords',    label: 'Keywords' }});
-        if (hasDescription) colDefs.push({{ key: 'description', label: 'Description' }});
+        if (hasDocTitle)    colDefs.push({{ key: 'doc_title',   label: t('colDocTitle') }});
+        if (hasAuthor)      colDefs.push({{ key: 'author',      label: t('colAuthor') }});
+        if (hasSubject)     colDefs.push({{ key: 'subject',     label: t('colSubject') }});
+        if (hasKeywords)    colDefs.push({{ key: 'keywords',    label: t('colKeywords') }});
+        if (hasDescription) colDefs.push({{ key: 'description', label: t('colDescription') }});
         colDefs.push(
-          {{ key: 'accessible', label: 'Accessible' }},
-          {{ key: 'tagged',     label: 'Tagged' }},
-          {{ key: 'title',      label: 'Title' }},
-          {{ key: 'language',   label: 'Language' }},
-          {{ key: 'bookmarks',  label: 'Bookmarks' }},
+          {{ key: 'accessible', label: t('colAccessible') }},
+          {{ key: 'tagged',     label: t('colTagged') }},
+          {{ key: 'title',      label: t('colTitle') }},
+          {{ key: 'language',   label: t('colLanguage') }},
+          {{ key: 'bookmarks',  label: t('colBookmarks') }},
         );
-        if (hasTaggedContent) colDefs.push({{ key: 'tagged_content', label: 'TaggedContent' }});
-        if (hasForms)         colDefs.push({{ key: 'forms',          label: 'Forms' }});
-        if (hasTaggedForms)   colDefs.push({{ key: 'tagged_forms',   label: 'TaggedForms' }});
-        if (hasTaggedAnnots)  colDefs.push({{ key: 'tagged_annots',  label: 'TaggedAnnots' }});
-        if (hasFiguresAlt)    colDefs.push({{ key: 'figures_alt',    label: 'FiguresAlt' }});
-        if (hasHeadings)      colDefs.push({{ key: 'headings',       label: 'Headings' }});
-        if (hasLists)         colDefs.push({{ key: 'lists',          label: 'Lists' }});
-        if (hasTables)        colDefs.push({{ key: 'tables',         label: 'Tables' }});
+        if (hasTaggedContent) colDefs.push({{ key: 'tagged_content', label: t('colTaggedContent') }});
+        if (hasForms)         colDefs.push({{ key: 'forms',          label: t('colForms') }});
+        if (hasTaggedForms)   colDefs.push({{ key: 'tagged_forms',   label: t('colTaggedForms') }});
+        if (hasTaggedAnnots)  colDefs.push({{ key: 'tagged_annots',  label: t('colTaggedAnnots') }});
+        if (hasFiguresAlt)    colDefs.push({{ key: 'figures_alt',    label: t('colFiguresAlt') }});
+        if (hasHeadings)      colDefs.push({{ key: 'headings',       label: t('colHeadings') }});
+        if (hasLists)         colDefs.push({{ key: 'lists',          label: t('colLists') }});
+        if (hasTables)        colDefs.push({{ key: 'tables',         label: t('colTables') }});
         if (hasVeraPDF)       colDefs.push({{ key: 'verapdf_status', label: 'veraPDF' }});
         if (hasVPFailed)      colDefs.push({{ key: 'verapdf_failed', label: 'vPDF Fail' }});
         if (hasVPPassed)      colDefs.push({{ key: 'verapdf_passed', label: 'vPDF Pass' }});
         if (hasVPRules)       colDefs.push({{ key: 'verapdf_rules',  label: 'vPDF Rules' }});
         if (hasVPError)       colDefs.push({{ key: 'verapdf_error',  label: 'vPDF Error' }});
         colDefs.push(
-          {{ key: 'pages',      label: 'Pages' }}
+          {{ key: 'pages',      label: t('colPages') }}
         );
-        if (hasFileSize) colDefs.push({{ key: 'size', label: 'Size' }});
-        if (hasWords)  colDefs.push({{ key: 'words',  label: 'Words' }});
-        if (hasImages) colDefs.push({{ key: 'images', label: 'Images' }});
+        if (hasFileSize) colDefs.push({{ key: 'size', label: t('colSize') }});
+        if (hasWords)  colDefs.push({{ key: 'words',  label: t('colWords') }});
+        if (hasImages) colDefs.push({{ key: 'images', label: t('colImages') }});
 
-        html += '<h2>PDF Details</h2>';
-        html += '<p>&#x2705; = Pass/Accessible &nbsp; &#x274C; = Fail/Inaccessible &nbsp; &#x2014; = Not applicable</p>';
+        html += '<h2>' + esc(t('pdfDetails')) + '</h2>';
+        html += '<p>' + esc(t('legend')) + '</p>';
         html += '<table id="pdf-table"><thead><tr>';
         colDefs.forEach(function (c) {{
           html += '<th class="sortable" data-col="' + c.key + '" data-label="' + c.label +
@@ -1713,32 +1891,159 @@ _REPORTS_INDEX_TEMPLATE = """\
 <body>
 
   <nav>
-    <a href="./">&#8592; Back to submission form</a>
+    <a id="reports-back-link" href="./">&#8592; Back to submission form</a>
+    <span class="lang-switch" aria-label="Language switch">
+      <a id="lang-en-index" href="?lang=en" hreflang="en" lang="en">EN</a>
+      <span aria-hidden="true">|</span>
+      <a id="lang-fr-index" href="?lang=fr" hreflang="fr" lang="fr">FR</a>
+    </span>
     <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
   </nav>
 
-  <h1>&#128202; PDF Accessibility Scan Reports</h1>
-  <p>Historical record of all PDF accessibility scans run by this tool.</p>
+  <h1 id="reports-page-title">&#128202; PDF Accessibility Scan Reports</h1>
+  <p id="reports-page-subtitle">Historical record of all PDF accessibility scans run by this tool.</p>
 
   <div id="summary-bar" class="summary-bar" aria-live="polite"></div>
 
   <div class="filter-bar">
-    <label for="filter-input">Filter by site:</label>
+    <label id="filter-label" for="filter-input">Filter by site:</label>
     <input type="search" id="filter-input" placeholder="e.g. energy.gov" aria-label="Filter reports by site name" />
     <span id="filter-count" class="filter-count" aria-live="polite"></span>
   </div>
 
   <div id="root" aria-live="polite">
-    <div class="loading-state">Loading reports&hellip;</div>
+    <div class="loading-state" id="loading-text">Loading reports&hellip;</div>
   </div>
 
   <script>
     (function () {{
+      // i18n scaffold: add locales here with the same keys.
+      var I18N = {{
+        en: {{
+          backLabel: 'Back to submission form',
+          title: '📊 PDF Accessibility Scan Reports',
+          subtitle: 'Historical record of all PDF accessibility scans run by this tool.',
+          filterLabel: 'Filter by site:',
+          filterAria: 'Filter reports by site name',
+          filterPlaceholder: 'e.g. energy.gov',
+          loading: 'Loading reports…',
+          totalScans: 'Total Scans',
+          uniqueSites: 'Unique Sites',
+          noReports: 'No scan reports yet.',
+          noReportsCta: 'Submit a crawl request',
+          noReportsCtaSuffix: ' to get started.',
+          colDate: 'Date',
+          colSite: 'Site',
+          colIssue: 'Issue',
+          colRun: 'Run',
+          colEngines: 'Engines',
+          colVeraPdf: 'veraPDF',
+          colVpdfFails: 'vPDF Fails',
+          colVpdfErrors: 'vPDF Errors',
+          colTotalPdfs: 'Total PDFs',
+          colAccessible: '✅ Accessible',
+          colIssues: '❌ Issues',
+          colPctAccessible: '% Accessible',
+          colReport: 'Report',
+          viewReport: 'View report',
+          runLabel: 'Run',
+          showing: 'Showing',
+          of: 'of',
+          scans: 'scans',
+          loadErrorTitle: 'Could not load reports.',
+          loadErrorHint: 'If you are viewing this file locally, please serve it from a web server.',
+        }},
+        fr: {{
+          backLabel: 'Retour au formulaire de soumission',
+          title: '📊 Rapports de scan d\'accessibilité PDF',
+          subtitle: 'Historique de tous les scans d\'accessibilité PDF exécutés par cet outil.',
+          filterLabel: 'Filtrer par site :',
+          filterAria: 'Filtrer les rapports par nom de site',
+          filterPlaceholder: 'ex. energy.gov',
+          loading: 'Chargement des rapports…',
+          totalScans: 'Scans totaux',
+          uniqueSites: 'Sites uniques',
+          noReports: 'Aucun rapport de scan pour le moment.',
+          noReportsCta: 'Soumettre une demande de scan',
+          noReportsCtaSuffix: ' pour commencer.',
+          colDate: 'Date',
+          colSite: 'Site',
+          colIssue: 'Issue',
+          colRun: 'Exécution',
+          colEngines: 'Moteurs',
+          colVeraPdf: 'veraPDF',
+          colVpdfFails: 'vPDF Échecs',
+          colVpdfErrors: 'vPDF Erreurs',
+          colTotalPdfs: 'PDF totaux',
+          colAccessible: '✅ Accessibles',
+          colIssues: '❌ Problèmes',
+          colPctAccessible: '% Accessible',
+          colReport: 'Rapport',
+          viewReport: 'Voir le rapport',
+          runLabel: 'Exécution',
+          showing: 'Affichage',
+          of: 'sur',
+          scans: 'scans',
+          loadErrorTitle: 'Impossible de charger les rapports.',
+          loadErrorHint: 'Si vous ouvrez ce fichier en local, servez-le via un serveur web.',
+        }},
+      }};
+
+      function detectLang() {{
+        var params = new URLSearchParams(window.location.search);
+        var fromQuery = params.get('lang');
+        if (fromQuery && I18N[fromQuery]) return fromQuery;
+        var stored = localStorage.getItem('lang');
+        if (stored && I18N[stored]) return stored;
+        var navLang = (navigator.language || 'en').toLowerCase();
+        return navLang.indexOf('fr') === 0 ? 'fr' : 'en';
+      }}
+
+      var currentLang = detectLang();
+      var M = I18N[currentLang] || I18N.en;
+      document.documentElement.setAttribute('lang', currentLang);
+      localStorage.setItem('lang', currentLang);
+
+      function t(key) {{
+        return M[key] || I18N.en[key] || key;
+      }}
+
+      function withLang(url) {{
+        try {{
+          var parsed = new URL(url, window.location.href);
+          parsed.searchParams.set('lang', currentLang);
+          return parsed.toString();
+        }} catch (e) {{
+          return url;
+        }}
+      }}
+
       var root        = document.getElementById('root');
       var summaryBar  = document.getElementById('summary-bar');
       var filterInput = document.getElementById('filter-input');
       var filterCount = document.getElementById('filter-count');
       var allReports  = [];
+
+      (function applyLanguageStatic() {{
+        var back = document.getElementById('reports-back-link');
+        if (back) back.textContent = '← ' + t('backLabel');
+        var title = document.getElementById('reports-page-title');
+        if (title) title.textContent = t('title');
+        var subtitle = document.getElementById('reports-page-subtitle');
+        if (subtitle) subtitle.textContent = t('subtitle');
+        var filterLabel = document.getElementById('filter-label');
+        if (filterLabel) filterLabel.textContent = t('filterLabel');
+        if (filterInput) {{
+          filterInput.setAttribute('placeholder', t('filterPlaceholder'));
+          filterInput.setAttribute('aria-label', t('filterAria'));
+        }}
+        var loading = document.getElementById('loading-text');
+        if (loading) loading.textContent = t('loading');
+        var enLink = document.getElementById('lang-en-index');
+        if (enLink) enLink.href = withLang('?lang=en');
+        var frLink = document.getElementById('lang-fr-index');
+        if (frLink) frLink.href = withLang('?lang=fr');
+      }})();
 
       function esc(s) {{
         if (!s) return '';
@@ -1764,8 +2069,8 @@ _REPORTS_INDEX_TEMPLATE = """\
         var sites = {{}};
         reports.forEach(function (r) {{ if (r.site) sites[r.site] = true; }});
         summaryBar.innerHTML =
-          '<div class="summary-card"><div class="value">' + reports.length + '</div><div class="label">Total Scans</div></div>' +
-          '<div class="summary-card"><div class="value">' + Object.keys(sites).length + '</div><div class="label">Unique Sites</div></div>';
+          '<div class="summary-card"><div class="value">' + reports.length + '</div><div class="label">' + esc(t('totalScans')) + '</div></div>' +
+          '<div class="summary-card"><div class="value">' + Object.keys(sites).length + '</div><div class="label">' + esc(t('uniqueSites')) + '</div></div>';
       }}
 
       var sortCol = 'date';
@@ -1879,8 +2184,8 @@ _REPORTS_INDEX_TEMPLATE = """\
         if (!reports.length) {{
           root.innerHTML =
             '<div class="empty-state">' +
-            '<p>No scan reports yet.</p>' +
-            '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+            '<p>' + esc(t('noReports')) + '</p>' +
+            '<p><a href="./">' + esc(t('noReportsCta')) + '</a>' + esc(t('noReportsCtaSuffix')) + '</p>' +
             '</div>';
           return;
         }}
@@ -1890,19 +2195,19 @@ _REPORTS_INDEX_TEMPLATE = """\
         var hasVPFail = hasVeraPDF && reports.some(function (r) {{ return r.vp_fail_files != null; }});
         var hasVPError = hasVeraPDF && reports.some(function (r) {{ return r.vp_error_files != null; }});
         var html = '<table id="reports-table"><thead><tr>' +
-          '<th class="sortable" data-col="date" data-label="Date" aria-sort="none" tabindex="0"><span class="sort-label">Date</span></th>' +
-          '<th class="sortable" data-col="site" data-label="Site" aria-sort="none" tabindex="0"><span class="sort-label">Site</span></th>' +
-          '<th class="sortable" data-col="issue" data-label="Issue" aria-sort="none" tabindex="0"><span class="sort-label">Issue</span></th>' +
-          '<th class="sortable" data-col="rerun" data-label="Run" aria-sort="none" tabindex="0"><span class="sort-label">Run</span></th>' +
-          '<th class="sortable" data-col="engines" data-label="Engines" aria-sort="none" tabindex="0"><span class="sort-label">Engines</span></th>' +
-          (hasVeraPDF ? '<th class="sortable" data-col="verapdf" data-label="veraPDF" aria-sort="none" tabindex="0"><span class="sort-label">veraPDF</span></th>' : '') +
-          (hasVPFail ? '<th class="sortable" data-col="vp_fail" data-label="vPDF Fails" aria-sort="none" tabindex="0"><span class="sort-label">vPDF Fails</span></th>' : '') +
-          (hasVPError ? '<th class="sortable" data-col="vp_error" data-label="vPDF Errors" aria-sort="none" tabindex="0"><span class="sort-label">vPDF Errors</span></th>' : '') +
-          '<th class="sortable" data-col="total" data-label="Total PDFs" aria-sort="none" tabindex="0"><span class="sort-label">Total PDFs</span></th>' +
-          '<th class="sortable" data-col="accessible" data-label="&#x2705; Accessible" aria-sort="none" tabindex="0"><span class="sort-label">&#x2705; Accessible</span></th>' +
-          '<th class="sortable" data-col="issues" data-label="&#x274C; Issues" aria-sort="none" tabindex="0"><span class="sort-label">&#x274C; Issues</span></th>' +
-          '<th class="sortable" data-col="pct" data-label="% Accessible" aria-sort="none" tabindex="0"><span class="sort-label">% Accessible</span></th>' +
-          '<th>Report</th>' +
+          '<th class="sortable" data-col="date" data-label="' + esc(t('colDate')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colDate')) + '</span></th>' +
+          '<th class="sortable" data-col="site" data-label="' + esc(t('colSite')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colSite')) + '</span></th>' +
+          '<th class="sortable" data-col="issue" data-label="' + esc(t('colIssue')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colIssue')) + '</span></th>' +
+          '<th class="sortable" data-col="rerun" data-label="Run" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colRun')) + '</span></th>' +
+          '<th class="sortable" data-col="engines" data-label="Engines" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colEngines')) + '</span></th>' +
+          (hasVeraPDF ? '<th class="sortable" data-col="verapdf" data-label="veraPDF" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colVeraPdf')) + '</span></th>' : '') +
+          (hasVPFail ? '<th class="sortable" data-col="vp_fail" data-label="' + esc(t('colVpdfFails')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colVpdfFails')) + '</span></th>' : '') +
+          (hasVPError ? '<th class="sortable" data-col="vp_error" data-label="' + esc(t('colVpdfErrors')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colVpdfErrors')) + '</span></th>' : '') +
+          '<th class="sortable" data-col="total" data-label="' + esc(t('colTotalPdfs')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colTotalPdfs')) + '</span></th>' +
+          '<th class="sortable" data-col="accessible" data-label="' + esc(t('colAccessible')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colAccessible')) + '</span></th>' +
+          '<th class="sortable" data-col="issues" data-label="' + esc(t('colIssues')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colIssues')) + '</span></th>' +
+          '<th class="sortable" data-col="pct" data-label="' + esc(t('colPctAccessible')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colPctAccessible')) + '</span></th>' +
+          '<th>' + esc(t('colReport')) + '</th>' +
           '</tr></thead><tbody>';
 
         sorted.forEach(function (r) {{
@@ -1911,7 +2216,7 @@ _REPORTS_INDEX_TEMPLATE = """\
           var issueLabel = r._issue_num
             ? '<a href="' + esc(r.issue_url) + '" target="_blank" rel="noopener">#' + esc(r._issue_num) + '</a>'
             : '&#x2014;';
-          var runLabel = 'Run ' + (r._run_number || 1) + ' / ' + (r._run_total || 1);
+          var runLabel = t('runLabel') + ' ' + (r._run_number || 1) + ' / ' + (r._run_total || 1);
           var enginesLabel = Array.isArray(r.analysis_engines)
             ? r.analysis_engines.join(', ')
             : (r.analysis_engines || r.engine || 'original');
@@ -1921,7 +2226,7 @@ _REPORTS_INDEX_TEMPLATE = """\
           var siteCell = r.crawl_url
             ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
             : esc(r.site || '');
-          var reportLink = '<a href="reports/' + esc(r.archive_file) + '">View report</a>';
+          var reportLink = '<a href="reports/' + esc(r.archive_file) + '">' + esc(t('viewReport')) + '</a>';
           html += '<tr>' +
             '<td>' + esc(dateStr) + '</td>' +
             '<td>' + siteCell + '</td>' +
@@ -1957,7 +2262,7 @@ _REPORTS_INDEX_TEMPLATE = """\
             }})
           : allReports;
         filterCount.textContent = q
-          ? 'Showing ' + filtered.length + ' of ' + allReports.length + ' scans'
+          ? t('showing') + ' ' + filtered.length + ' ' + t('of') + ' ' + allReports.length + ' ' + t('scans')
           : '';
         renderTable(filtered);
       }}
@@ -1978,9 +2283,9 @@ _REPORTS_INDEX_TEMPLATE = """\
         .catch(function (err) {{
           root.innerHTML =
             '<div class="error-state">' +
-            '<p><strong>Could not load reports.</strong></p>' +
+            '<p><strong>' + esc(t('loadErrorTitle')) + '</strong></p>' +
             '<p>Error: ' + esc(String(err)) + '</p>' +
-            '<p>If you are viewing this file locally, please serve it from a web server.</p>' +
+            '<p>' + esc(t('loadErrorHint')) + '</p>' +
             '</div>';
         }});
     }})();
