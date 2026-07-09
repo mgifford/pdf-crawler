@@ -1084,7 +1084,7 @@ _HTML_TEMPLATE = """\
         }},
         fr: {{
           backLabel: 'Retour au formulaire de soumission',
-          pageTitle: '📊 Résultats du scan d\'accessibilité PDF',
+          pageTitle: '📊 Résultats du scan d\\'accessibilité PDF',
           generatedAt: 'Dernière mise à jour : ',
           summary: 'Résumé',
           totalPdfs: 'Total des PDF',
@@ -1976,8 +1976,8 @@ _REPORTS_INDEX_TEMPLATE = """\
         }},
         fr: {{
           backLabel: 'Retour au formulaire de soumission',
-          title: '📊 Rapports de scan d\'accessibilité PDF',
-          subtitle: 'Historique de tous les scans d\'accessibilité PDF exécutés par cet outil.',
+          title: '📊 Rapports de scan d\\'accessibilité PDF',
+          subtitle: 'Historique de tous les scans d\\'accessibilité PDF exécutés par cet outil.',
           filterLabel: 'Filtrer par site :',
           filterAria: 'Filtrer les rapports par nom de site',
           filterPlaceholder: 'ex. energy.gov',
