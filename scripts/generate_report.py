@@ -265,6 +265,7 @@ def _summary_stats(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
         for e in analysed
         if e.get("report") and e["report"].get("Accessible") is True
     )
+    issues_found = max(0, len(analysed) - accessible)
     totally_inaccessible = sum(
         1
         for e in analysed
@@ -298,6 +299,7 @@ def _summary_stats(entries: List[Dict[str, Any]]) -> Dict[str, Any]:
         "pending": len(pending),
         "errored": len(errored),
         "accessible": accessible,
+        "issues_found": issues_found,
         "totally_inaccessible": totally_inaccessible,
         "broken": broken,
         "exempt": exempt,
@@ -326,7 +328,8 @@ def _md_summary(stats: Dict[str, Any]) -> str:
         f"| Pending analysis | {stats['pending']} |",
         f"| Errors during analysis | {stats['errored']} |",
         f"| Accessible | {stats['accessible']} |",
-        f"| Totally inaccessible | {stats['totally_inaccessible']} |",
+        f"| Issues found | {stats['issues_found']} |",
+        f"| Totally inaccessible subset | {stats['totally_inaccessible']} |",
         f"| Broken / unreadable | {stats['broken']} |",
         f"| Exempt (pre-2018) | {stats['exempt']} |",
         "",
@@ -744,7 +747,11 @@ def generate_issue_comment(
         "",
     ]
     if archive_name and pages_base:
+        archive_stem = archive_name[:-5] if archive_name.endswith(".html") else archive_name
         lines.append(f"- [Site-specific HTML report]({pages_base}/reports/{archive_name})")
+        lines.append(f"- [Site-specific JSON report]({pages_base}/reports/{archive_stem}/report.json)")
+        lines.append(f"- [Site-specific structured JSON report]({pages_base}/reports/{archive_stem}/report_structured.json)")
+        lines.append(f"- [Site-specific CSV report]({pages_base}/reports/{archive_stem}/report.csv)")
     else:
         lines.append(f"- [HTML report]({pages_base}/report.html)")
     lines += [
@@ -1009,7 +1016,7 @@ _HTML_TEMPLATE = """\
         {{ value: summary.total_files,         label: 'Total PDFs' }},
         {{ value: summary.analysed,            label: 'Analysed' }},
         {{ value: summary.accessible,          label: '&#x2705; Accessible' }},
-        {{ value: summary.totally_inaccessible,label: '&#x274C; Inaccessible' }},
+        {{ value: summary.issues_found,        label: '&#x274C; Issues Found' }},
         {{ value: summary.pending,             label: '&#x23F3; Pending' }},
         {{ value: summary.errored,             label: '&#x26A0;&#xFE0F; Errors' }},
       ];
@@ -2178,8 +2185,8 @@ def main(
         html_out_dir.mkdir(parents=True, exist_ok=True)
         html_path = html_out_dir / "report.html"
         html_path.write_text(
-          generate_html(entries, stats, report_assets_base="reports"),
-          encoding="utf-8",
+            generate_html(entries, stats, report_assets_base="reports"),
+            encoding="utf-8",
         )
         print(f"Written: {html_path}")
 
@@ -2191,6 +2198,15 @@ def main(
         archive_out = Path(archive_dir)
         archive_out.mkdir(parents=True, exist_ok=True)
 
+        archive_entries = site_entries if site_filter else entries
+        archive_stats = site_stats if site_filter else stats
+        archive_raw_entries = (
+            [e for e in raw_entries if e.get("site") == site_filter]
+            if site_filter
+            else raw_entries
+        )
+        archive_comparison = _engine_comparison(archive_raw_entries)
+
         # Build a unique filename from the scan timestamp + site
         try:
             scan_dt = datetime.fromisoformat(stats["generated_at"])
@@ -2201,16 +2217,19 @@ def main(
         # Prevent directory traversal sequences in the site component
         safe_site = safe_site.replace("..", "_").strip(".")
         archive_name = f"{date_str}_{safe_site}.html"
+        archive_stem = archive_name[:-5] if archive_name.endswith(".html") else archive_name
+        archive_bundle_dir = archive_out / archive_stem
+        archive_bundle_dir.mkdir(parents=True, exist_ok=True)
 
         # Write archived scan report (links back to the reports index)
         archive_path = archive_out / archive_name
         archive_path.write_text(
             generate_html(
-                site_entries if site_filter else entries,
-                site_stats,
+            archive_entries,
+            archive_stats,
                 back_url="../reports.html",
                 back_label="Back to reports index",
-              report_assets_base=".",
+            report_assets_base=f"./{archive_stem}",
             ),
             encoding="utf-8",
         )
@@ -2260,19 +2279,34 @@ def main(
 
         # Copy the JSON, CSV, and manifest into the archive dir so they are
         # accessible via GitHub Pages (which serves from docs/ via _config.yml).
-        pages_json = archive_out / "report.json"
-        shutil.copy2(json_path, pages_json)
+        pages_json = archive_bundle_dir / "report.json"
+        archive_json_data = {
+          "summary": archive_stats,
+          "comparison": archive_comparison,
+          "files": archive_entries,
+        }
+        pages_json.write_text(
+          json.dumps(archive_json_data, indent=2, default=str),
+          encoding="utf-8",
+        )
         print(f"Copied:  {pages_json}")
 
-        pages_structured_json = archive_out / "report_structured.json"
-        shutil.copy2(structured_json_path, pages_structured_json)
+        pages_structured_json = archive_bundle_dir / "report_structured.json"
+        pages_structured_json.write_text(
+          json.dumps(
+            generate_structured_json(archive_entries, archive_stats),
+            indent=2,
+            default=str,
+          ),
+          encoding="utf-8",
+        )
         print(f"Copied:  {pages_structured_json}")
 
-        pages_csv = archive_out / "report.csv"
-        shutil.copy2(csv_path, pages_csv)
+        pages_csv = archive_bundle_dir / "report.csv"
+        pages_csv.write_text(generate_csv(archive_entries), encoding="utf-8")
         print(f"Copied:  {pages_csv}")
 
-        pages_manifest = archive_out / "manifest.yaml"
+        pages_manifest = archive_bundle_dir / "manifest.yaml"
         shutil.copy2(Path(manifest_path), pages_manifest)
         print(f"Copied:  {pages_manifest}")
 

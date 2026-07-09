@@ -479,6 +479,36 @@ jobs:
             --run-url "$RUN_URL" \
             --crawl-url "$CRAWL_URL"
 
+      - name: Compute site pending count
+        id: site_pending
+        env:
+          CRAWL_SITE: ${{ steps.meta.outputs.crawl_site }}
+        run: |
+          python3 - << 'PYEOF'
+          import json
+          import os
+          from pathlib import Path
+
+          site = (os.environ.get('CRAWL_SITE') or '').strip()
+          report_path = Path('reports/report.json')
+          pending = 0
+          total = 0
+          if report_path.exists():
+              data = json.loads(report_path.read_text(encoding='utf-8'))
+              files = data.get('files') or []
+              for f in files:
+                  if site and f.get('site') != site:
+                      continue
+                  total += 1
+                  if f.get('status') == 'pending':
+                      pending += 1
+          out_path = Path(os.environ['GITHUB_OUTPUT'])
+          with out_path.open('a', encoding='utf-8') as fh:
+              fh.write(f"pending={pending}\n")
+              fh.write(f"total={total}\n")
+          print(f"Site scope: {site or 'all'} | total={total} | pending={pending}")
+          PYEOF
+
       - name: Commit updated manifest and reports
         run: |
           git config user.name  "github-actions[bot]"
@@ -536,6 +566,7 @@ jobs:
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
           RUN_ID: ${{ github.run_id }}
+          SITE_PENDING: ${{ steps.site_pending.outputs.pending }}
         with:
           script: |
             const issueNumber = parseInt(process.env.ISSUE_NUMBER, 10);
@@ -581,11 +612,10 @@ jobs:
 
             core.setOutput('comment_url', commentData.html_url);
 
-            // Replace the in-progress (and any previous scan-failed) label with
-            // a completed label.  The scan-failed label may have been applied by a
+            // Replace transient labels with a final state label.  The scan-failed label may have been applied by a
             // previous stale-entry bug or an earlier failed attempt; clearing it
             // ensures the issue correctly reflects the current successful result.
-            for (const label of ['scan-in-progress', 'scan-failed']) {
+            for (const label of ['scan-in-progress', 'scan-failed', 'scan-complete', 'scan-partial']) {
               try {
                 await github.rest.issues.removeLabel({
                   owner: repoOwner,
@@ -598,11 +628,14 @@ jobs:
               }
             }
 
+            const pendingCount = parseInt(process.env.SITE_PENDING || '0', 10) || 0;
+            const finalLabel = pendingCount > 0 ? 'scan-partial' : 'scan-complete';
+
             await github.rest.issues.addLabels({
               owner: repoOwner,
               repo:  repoName,
               issue_number: issueNumber,
-              labels: ['scan-complete']
+              labels: [finalLabel]
             });
 
       - name: Link issue comment URL to reports index
@@ -730,7 +763,8 @@ jobs:
       - name: Close issue after scan and report
         if: >-
           github.event_name == 'workflow_run' &&
-          steps.meta.outputs.issue_number != ''
+          steps.meta.outputs.issue_number != '' &&
+          steps.site_pending.outputs.pending == '0'
         uses: actions/github-script@v8
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
