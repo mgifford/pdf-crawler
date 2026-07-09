@@ -32,11 +32,11 @@
     "analysis_engines": [
       "original"
     ],
-    "verapdf": false,
-    "vp_checked_files": 0,
+    "verapdf": true,
+    "vp_checked_files": 82,
     "vp_pass_files": 0,
-    "vp_fail_files": 0,
-    "vp_error_files": 0
+    "vp_fail_files": 76,
+    "vp_error_files": 6
   },
   {
     "date": "2026-07-09T11:26:37.120553+00:00",

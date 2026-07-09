@@ -68458,98 +68458,962 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, tagged, lang, 
 
+### 99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### 99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged-content-fail, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### 99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### 99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, tables-fail, 
+
+### 99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, tables-fail, 
+
+### 99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### A-Rapport-denquete-unique-evolution-PLU-Savere.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A-Rapport-denquete-unique-evolution-PLU-Savere.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=44), 
+
+### A2-Annexes-rapport-Saveres.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A2-Annexes-rapport-Saveres.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### ARRETE-2.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/ARRETE-2.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### AVIS-DE-PUBLICATION.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/AVIS-DE-PUBLICATION.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Affiche-2024.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/Affiche-2024.pdf
+- **Status**: analysed
+- title, tagged, 
+
+### Affiche-Contactez-nous-27.07.2023.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/10/Affiche-Contactez-nous-27.07.2023.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, 
+
+### Aides-employeur-Septembre-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Aides-employeur-Septembre-2025.pdf
+- **Status**: analysed
+- headings-warn, 
+
+### Annexe-1_PADD-debattu.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-1_PADD-debattu.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=25), 
+
+### Annexe-2_Zonage-de-la-carte-communale.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-2_Zonage-de-la-carte-communale.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Annexe-3_Zonage-PLU_En-cours.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-3_Zonage-PLU_En-cours.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Annexe-4_Cartographie-de-superposition.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-4_Cartographie-de-superposition.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=4), 
+
+### Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/03/Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf
+- **Status**: analysed
+- title, tagged-content-fail, figures missing alt text (count=1), headings-none, 
+
+### Avis_enquete_PNRCBP.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/02/Avis_enquete_PNRCBP.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), 
+
+### BP-2020-PDR.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PDR.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2020-PHOTOVOLTAIQUE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PHOTOVOLTAIQUE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2020-ZA-BOURGAIL-BERAT.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOURGAIL-BERAT.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2020-ZA-BOUSSENS.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOUSSENS.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2020-ZA-DESCAILLAUX.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-DESCAILLAUX.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2020-ZA-MARTRES-TOLOSANE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-MARTRES-TOLOSANE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-OTI-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-OTI-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-PDR-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PDR-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-PHOTOVOLTAIQUE-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PHOTOVOLTAIQUE-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-PRINCIPAL-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PRINCIPAL-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-ZA-BOURGAIL-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOURGAIL-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-ZA-BOUSSENS-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOUSSENS-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-ZA-DESCAILLAUX-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-DESCAILLAUX-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-ZA-LHERM-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-LHERM-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-ZA-MARTRES-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-MARTRES-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2022-ZA-STE-FOY-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-STE-FOY-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-BP-PRINCIPAL-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-BP-PRINCIPAL-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-OTI-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-OTI-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-PDR-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PDR-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-PHOTOVOLTAIQUE-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PHOTOVOLTAIQUE-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-ZA-BERAT-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BERAT-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-ZA-BOUSSENS-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BOUSSENS-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-ZA-DESCAILLAUX.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-DESCAILLAUX.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-ZA-LHERM-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-LHERM-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-ZA-MARTRES-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-MARTRES-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-2023-ZA-STE-FOY-VOTE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-STE-FOY-VOTE.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-CIAS-2026-SAAD-A-imprimer.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SAAD-A-imprimer.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### BP-CIAS-2026-SCELLE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SCELLE.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### BP-CIAS-PDR-2026-SCELLE.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-PDR-2026-SCELLE.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### BP-OTI-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-OTI-2025.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### BP-OTI.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-OTI.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
 ### 10.1177_1090198120922942.pdf
 
-- **URL**: https://pmc.ncbi.nlm.nih.gov/articles/PMC7301291/pdf/10.1177_1090198120922942.pdf
+- **URL**: https://www.govt.nz/assets/Documents/Government-A-Z/7577Birth-certificates-and-source-documents-FAQ.pdf
 - **Status**: analysed
-- PdfError: crawled_files/lib.pstcc.edu/10.1177_1090198120922942.pdf: unable to find trailer dictionary while recovering damaged file
+- title, headings-none, 
 
-### 184368.pdf
+### 7684Declaration-interpret-or-translate-marriage-or-civil-union-BDM35T.pdf
 
-- **URL**: https://cdn.thomasnet.com/ccp/10076910/184368.pdf
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/7684Declaration-interpret-or-translate-marriage-or-civil-union-BDM35T.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### Application-by-donor-offspring-or-guardian-to-access-information-on-human-assisted-reproductive-technology-register-BDM404.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-by-donor-offspring-or-guardian-to-access-information-on-human-assisted-reproductive-technology-register-BDM404.pdf
+- **Status**: analysed
+- title, forms-fail, headings-warn, 
+
+### Application-by-donor-to-access-information-on-human-assisted-reproductive-technology-register-BDM403.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-by-donor-to-access-information-on-human-assisted-reproductive-technology-register-BDM403.pdf
+- **Status**: analysed
+- title, forms-fail, headings-warn, 
+
+### Application-for-NZ-citizenship-Samoan-adult-and-child-Samoan-language.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-NZ-citizenship-Samoan-adult-and-child-Samoan-language.pdf
+- **Status**: analysed
+- figures missing alt text (count=3), headings-none, tables-fail, 
+
+### Application-for-NZ-citizenship-adult.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-NZ-citizenship-adult.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Application-for-NZ-citizenship-child.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-NZ-citizenship-child.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Application-for-New-Zealand-citizenship-Samoan-born-before-1949-Samoan.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-New-Zealand-citizenship-Samoan-born-before-1949-Samoan.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Application-for-New-Zealand-citizenship-Samoan-born-before-1949.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-New-Zealand-citizenship-Samoan-born-before-1949.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Application-for-certificate-of-no-impediment-to-marriage-or-civil-union-BDM189.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-for-certificate-of-no-impediment-to-marriage-or-civil-union-BDM189.pdf
+- **Status**: analysed
+- title, forms-fail, headings-skip, annotations-tagging-fail, 
+
+### Application-for-certified-copy-of-descent-registration-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-certified-copy-of-descent-registration-certificate.pdf
+- **Status**: analysed
+- headings-skip, annotations-tagging-fail, 
+
+### Application-for-confirmation-of-New-Zealand-citizenship-by-grant.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-confirmation-of-New-Zealand-citizenship-by-grant.pdf
+- **Status**: analysed
+- headings-skip, 
+
+### Application-for-confirmation-of-birth-in-New-Zealand.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-confirmation-of-birth-in-New-Zealand.pdf
+- **Status**: analysed
+- tagged, lang, 
+
+### Application-for-replacement-of-New-Zealand-citizenship-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-replacement-of-New-Zealand-citizenship-certificate.pdf
+- **Status**: analysed
+- headings-skip, annotations-tagging-fail, 
+
+### Application-of-Denial-of-NZ-Citizenship-Letter-of-Denial.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-of-Denial-of-NZ-Citizenship-Letter-of-Denial.pdf
+- **Status**: analysed
+- forms-fail, headings-skip, annotations-tagging-fail, 
+
+### Application-to-lodge-caveat-and-notice-of-objection-BDM505.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-lodge-caveat-and-notice-of-objection-BDM505.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, 
+
+### Application-to-record-update-donor-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM401.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-record-update-donor-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM401.pdf
+- **Status**: analysed
+- title, forms-fail, annotations-tagging-fail, 
+
+### Application-to-record-update-donor-offspring-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM402.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-record-update-donor-offspring-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM402.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, headings-skip, tables-fail, annotations-tagging-fail, 
+
+### Application-to-register-a-name-change-BDM120.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-register-a-name-change-BDM120.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, headings-warn, 
+
+### Application-to-register-a-name-change-within-2-years-of-birth-BDM36.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-register-a-name-change-within-2-years-of-birth-BDM36.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, figures missing alt text (count=5), headings-none, 
+
+### Authorisation-for-disclosure-of-information-to-agent-BDM405.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Authorisation-for-disclosure-of-information-to-agent-BDM405.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### BDM121-Application-to-register-a-name-change-aged-16-and-17.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM121-Application-to-register-a-name-change-aged-16-and-17.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### BDM123-Application-to-register-a-name-change-aged-15-and-under.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM123-Application-to-register-a-name-change-aged-15-and-under.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, headings-none, 
+
+### BDM28-notification-of-death-for-registration.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM28-notification-of-death-for-registration.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, tables-fail, 
+
+### BDM402-Application-to-record-or-update-donor-conceived-persons-details-.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM402-Application-to-record-or-update-donor-conceived-persons-details-.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### BDM43-Notification-of-overseas-dissolution.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/BDM43-Notification-of-overseas-dissolution.pdf
+- **Status**: analysed
+- title, tagged, forms-fail, forms-untagged, annotations-untagged, 
+
+### BDM70-Application-to-update-sex-marker-on-birth-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM70-Application-to-update-sex-marker-on-birth-certificate.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-warn, tables-fail, 
+
+### BDM71-Application-to-register-a-name-change-and-update-sex-marker-on-birth-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM71-Application-to-register-a-name-change-and-update-sex-marker-on-birth-certificate.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### BDM72-Application-to-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM72-Application-to-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, tables-fail, 
+
+### BDM73-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM73-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf
+- **Status**: analysed
+- forms-fail, figures missing alt text (count=1), headings-none, 
+
+### BDM74-Application-to-update-sex-marker-on-birth-certificate-aged-15-and-under.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM74-Application-to-update-sex-marker-on-birth-certificate-aged-15-and-under.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### BDM75-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-15-and-under.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM75-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-15-and-under.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### BDM76-Identity-Referee-Declaration.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM76-Identity-Referee-Declaration.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### CIT101-Application-for-non-evidentiary-letter-of-New-Zealand-citizenship-status-240716.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/CIT101-Application-for-non-evidentiary-letter-of-New-Zealand-citizenship-status-240716.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, lists-fail, tables-fail, annotations-tagging-fail, 
+
+### Deposit-an-overseas-death-certificate.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Deposit-an-overseas-death-certificate.pdf
+- **Status**: analysed
+- forms-tagging-fail, 
+
+### Eligibility-chart-English.pdf
+
+- **URL**: https://www.govt.nz/assets/Eligibility-chart-English.pdf
 - **Status**: analysed
 - title, tagged, lang, 
 
-### Analyzing_Primary_Sources.pdf
+### Eligibility-chart-Samoan.pdf
 
-- **URL**: https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf
-- **Status**: analysed
-- title, tagged-content-fail, lang, 
-
-### Getting-Started.pdf
-
-- **URL**: https://storycorpsorg-staging.s3.amazonaws.com/uploads/Getting-Started.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=11), headings-none, 
-
-### Improve-Sound-Quality.pdf
-
-- **URL**: https://storycorpsorg-staging.s3.amazonaws.com/uploads/Improve-Sound-Quality.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=12), headings-none, 
-
-### Interview-Tips.pdf
-
-- **URL**: https://storycorpsorg-staging.s3.amazonaws.com/uploads/Interview-Tips.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=13), headings-none, 
-
-### Mission_Critical.pdf
-
-- **URL**: https://cccse.org/sites/default/files/Mission_Critical.pdf
-- **Status**: analysed
-- no bookmarks and more than 20 pages, headings-none, lists-fail, annotations-tagging-fail, 
-
-### W346-A.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-A.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=7), headings-none, 
-
-### W346-B.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-B.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=7), headings-none, tables-fail, 
-
-### W346-D.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-D.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=7), headings-none, tables-fail, 
-
-### W346-F.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-F.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=5), headings-none, 
-
-### W346-G.pdf
-
-- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-G.pdf
-- **Status**: analysed
-- title, lang, figures missing alt text (count=6), headings-none, tables-fail, 
-
-### asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf
-
-- **URL**: https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/standards_and_certification/asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf
-- **Status**: analysed
-- title, lang, no bookmarks and more than 20 pages, figures missing alt text (count=36), headings-none, tables-fail, 
-
-### circ61.pdf
-
-- **URL**: https://copyright.gov/circs/circ61.pdf
-- **Status**: analysed
-- title, tagged, annotations-untagged, 
-
-### gbaa114.pdf
-
-- **URL**: https://pmc.ncbi.nlm.nih.gov/articles/PMC7454923/pdf/gbaa114.pdf
-- **Status**: analysed
-- PdfError: crawled_files/lib.pstcc.edu/gbaa114.pdf: unable to find trailer dictionary while recovering damaged file
-
-### principles.pdf
-
-- **URL**: https://www.ala.org/sites/default/files/acrl/content/publications/whitepapers/principles.pdf
+- **URL**: https://www.govt.nz/assets/Eligibility-chart-Samoan.pdf
 - **Status**: analysed
 - title, tagged, lang, 
+
+### Findings-of-survey-of-independent-celebrants-conducted-in-January-2020.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Findings-of-survey-of-independent-celebrants-conducted-in-January-2020.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=25), headings-skip, 
+
+### GNT007-Application-for-New-Zealand-citizenship-by-grant-Samoan-Adult.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/GNT007-Application-for-New-Zealand-citizenship-by-grant-Samoan-Adult.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### GNT008-Application-for-New-Zealand-citizenship-by-grant-Samoan-child.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/GNT008-Application-for-New-Zealand-citizenship-by-grant-Samoan-child.pdf
+- **Status**: analysed
+- headings-skip, annotations-tagging-fail, 
+
+### General-identity-declaration-form-BDM130.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/General-identity-declaration-form-BDM130.pdf
+- **Status**: analysed
+- title, forms-fail, headings-warn, 
+
+### Guide-to-being-a-celebrant.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Guide-to-being-a-celebrant.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=9), headings-none, 
+
+### Independent-celebrant-good-character-form.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Independent-celebrant-good-character-form.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### Independent-celebrant-support-letter-checklist.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Independent-celebrant-support-letter-checklist.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, 
+
+### International-Surrogacy-Fact-Sheet.pdf
+
+- **URL**: https://www.orangatamariki.govt.nz/assets/Uploads/Adoptions/Surrogacy-and-adoption/International-Surrogacy-Fact-Sheet.pdf
+- **Status**: analysed
+- title, lists-fail, annotations-tagging-fail, 
+
+### MOJ0501-Childrens-Guide-A5-Aug18-WEB.pdf
+
+- **URL**: https://www.justice.govt.nz/assets/MOJ0501-Childrens-Guide-A5-Aug18-WEB.pdf
+- **Status**: analysed
+- title, tagged, lang, annotations-untagged, 
+
+### Make-a-complaint-about-a-celebrant.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Make-a-complaint-about-a-celebrant.pdf
+- **Status**: analysed
+- title, lang, forms-fail, forms-tagging-fail, headings-none, 
+
+### NZ-Verify-how-to-guide.pdf
+
+- **URL**: https://www.govt.nz/assets/NZ-Verify-how-to-guide.pdf
+- **Status**: analysed
+- tagged, annotations-untagged, 
+
+### Nomination-of-marriage-celebrant-by-approved-organisation-declaration-BDM159.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Nomination-of-marriage-celebrant-by-approved-organisation-declaration-BDM159.pdf
+- **Status**: analysed
+- tagged-content-fail, lang, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### Notice-of-intended-civil-union-BDM360.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-civil-union-BDM360.pdf
+- **Status**: analysed
+- title, tagged-content-fail, forms-fail, forms-tagging-fail, lists-warn, 
+
+### Notice-of-intended-civil-union-change-of-relationship-from-marriage-BDM359.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-civil-union-change-of-relationship-from-marriage-BDM359.pdf
+- **Status**: analysed
+- title, forms-fail, figures missing alt text (count=1), headings-none, 
+
+### Notice-of-intended-civil-union-where-both-parties-ordinarily-resident-outside-NZ-BDM358.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-civil-union-where-both-parties-ordinarily-resident-outside-NZ-BDM358.pdf
+- **Status**: analysed
+- forms-fail, figures missing alt text (count=2), headings-none, tables-fail, 
+
+### Notice-of-intended-marriage-BDM60.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-BDM60.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, lists-warn, tables-fail, annotations-tagging-fail, 
+
+### Notice-of-intended-marriage-change-of-relationship-from-civil-union-BDM59.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-change-of-relationship-from-civil-union-BDM59.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-none, 
+
+### Notice-of-intended-marriage-when-marrying-outside-NZ-BDM57.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-when-marrying-outside-NZ-BDM57.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### Notice-of-intended-marriage-where-both-parties-ordinarily-resident-outside-NZ-BDM58.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-where-both-parties-ordinarily-resident-outside-NZ-BDM58.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-none, tables-fail, 
+
+### Notification-of-birth-for-registration-of-child-born-in-NZ-BDM27.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Notification-of-birth-for-registration-of-child-born-in-NZ-BDM27.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### Organisation-celebrant-good-character-form.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Organisation-celebrant-good-character-form.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### Rates-Rebates-application-form-2026-2027-.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Rates-Rebates-application-form-2026-2027-.pdf
+- **Status**: analysed
+- headings-skip, tables-warn, 
+
+### Rates-rebate-declaration-retirement-village.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Rates-rebate-declaration-retirement-village.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, headings-none, 
+
+### Rates-rebates-declaration-company-share-apartment.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Rates-rebates-declaration-company-share-apartment.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### Registry-office-ceremony-civil-union-statements.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Registry-office-ceremony-civil-union-statements.pdf
+- **Status**: analysed
+- title, headings-none, tables-warn, 
+
+### Registry-office-ceremony-marriage-vows.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Registry-office-ceremony-marriage-vows.pdf
+- **Status**: analysed
+- headings-none, 
+
+### Report-on-the-review-of-appointment-process-for-independent-marriage-and-civil-union-celebrants.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Celebrants/Report-on-the-review-of-appointment-process-for-independent-marriage-and-civil-union-celebrants.pdf
+- **Status**: analysed
+- title, headings-warn, 
+
+### Request-a-document-authentication-or-apostille.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Request-a-document-authentication-or-apostille.pdf
+- **Status**: analysed
+- title, forms-fail, forms-tagging-fail, headings-skip, tables-fail, annotations-tagging-fail, 
+
+### Request-for-NZ-birth-certificate-or-printout-form-BDM93B.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-birth-certificate-or-printout-form-BDM93B.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### Request-for-NZ-civil-union-certificate-or-printout-form-BDM93C.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-civil-union-certificate-or-printout-form-BDM93C.pdf
+- **Status**: analysed
+- forms-tagging-fail, tables-fail, annotations-tagging-fail, 
+
+### Request-for-NZ-death-certificate-or-printout-form-BDM93D.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-death-certificate-or-printout-form-BDM93D.pdf
+- **Status**: analysed
+- annotations-tagging-fail, 
+
+### Request-for-NZ-marriage-certificate-or-printout-form-BDM93M.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-marriage-certificate-or-printout-form-BDM93M.pdf
+- **Status**: analysed
+- forms-tagging-fail, tables-fail, annotations-tagging-fail, 
+
+### Request-for-NZ-name-change-certificate-or-certified-true-copy-of-declaration-BDM93N.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-name-change-certificate-or-certified-true-copy-of-declaration-BDM93N.pdf
+- **Status**: analysed
+- lists-warn, annotations-tagging-fail, 
+
+### Request-for-information-under-the-Privacy-Act.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Request-for-information-under-the-Privacy-Act.pdf
+- **Status**: analysed
+- tagged-content-fail, lang, headings-none, tables-fail, 
+
+### Request-for-pre-adoptive-NZ-birth-certificate-BDM451.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-pre-adoptive-NZ-birth-certificate-BDM451.pdf
+- **Status**: analysed
+- title, forms-fail, headings-warn, 
+
+### Request-for-translation.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Request-for-translation.pdf
+- **Status**: analysed
+- title, headings-skip, annotations-tagging-fail, 
+
+### Request-reinstate-or-withdraw-a-non-disclosure-direction-form-BDM132.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-reinstate-or-withdraw-a-non-disclosure-direction-form-BDM132.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=18), tables-fail, 
+
+### Request-to-search-access-register-form-BDM133.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/Request-to-search-access-register-form-BDM133.pdf
+- **Status**: analysed
+- title, 
+
+### Statutory-declaration.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Law-crime-and-justice/Statutory-declaration.pdf
+- **Status**: analysed
+- forms-tagging-fail, 
+
+### TIME_OUT_Guide-2.pdf
+
+- **URL**: https://carers.net.nz/wp-content/uploads/2014/07/TIME_OUT_Guide-2.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### Transfer_of_Entitlement.pdf
+
+- **URL**: https://consumer.licensys.co.nz/dist/pdfs/Transfer_of_Entitlement.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, tables-fail, 
+
+### Western-Samoa-Bill-fact-sheet-English.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Western-Samoa-Bill-fact-sheet-English.pdf
+- **Status**: analysed
+- title, headings-skip, tables-fail, 
+
+### Western-Samoa-Bill-fact-sheet-Samoan.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Western-Samoa-Bill-fact-sheet-Samoan.pdf
+- **Status**: analysed
+- title, headings-skip, tables-fail, 
+
+### What-is-Rates-Rebate-large-print.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/What-is-Rates-Rebate-large-print.pdf
+- **Status**: analysed
+- lang, 
+
+### What-is-a-rates-rebate-Easy-Read.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/What-is-a-rates-rebate-Easy-Read.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=4), 
+
+### Who-Can-Get-A-Rates-Rebate-Easy-Read.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/Who-Can-Get-A-Rates-Rebate-Easy-Read.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=4), 
+
+### access-to-and-disclosure-of-identifying-information-BDM406.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Family-and-whanau/access-to-and-disclosure-of-identifying-information-BDM406.pdf
+- **Status**: analysed
+- title, forms-fail, headings-none, 
+
+### application-for-new-zealand-citizenship-by-descent-and-passport-adult.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/application-for-new-zealand-citizenship-by-descent-and-passport-adult.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### application-for-new-zealand-citizenship-by-descent-and-passport-child.pdf
+
+- **URL**: https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/application-for-new-zealand-citizenship-by-descent-and-passport-child.pdf
+- **Status**: analysed
+- headings-skip, tables-fail, annotations-tagging-fail, 
+
+### breastfeeding-in-the-workplace-guide-for-employers.pdf
+
+- **URL**: https://www.employment.govt.nz/assets/uploads/documents/pay-and-hours/breastfeeding-in-the-workplace-guide-for-employers.pdf
+- **Status**: analysed
+- figures missing alt text (count=9), headings-skip, 
