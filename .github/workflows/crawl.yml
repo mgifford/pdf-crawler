@@ -137,6 +137,7 @@ jobs:
             echo "notes="                       >> "$GITHUB_OUTPUT"
             echo "verapdf=false"                >> "$GITHUB_OUTPUT"
             echo "crawler_version=original"    >> "$GITHUB_OUTPUT"
+            echo "scan_language=en"             >> "$GITHUB_OUTPUT"
           else
             # 1. Try to extract the URL from the issue title (after the prefix).
             STRIPPED=$(echo "$ISSUE_TITLE" \
@@ -254,6 +255,15 @@ jobs:
               RUN_VERAPDF="true"
             fi
 
+            # 9. Optional report language suffix in title.
+            #    Examples: "| FRENCH", "| FR", "| ENGLISH", "| EN".
+            REPORT_LANGUAGE="en"
+            if echo "$STRIPPED" | grep -Eqi '(^|[[:space:]|])(FRENCH|FRANCAIS|FR)([[:space:]]|$)'; then
+              REPORT_LANGUAGE="fr"
+            elif echo "$STRIPPED" | grep -Eqi '(^|[[:space:]|])(ENGLISH|EN)([[:space:]]|$)'; then
+              REPORT_LANGUAGE="en"
+            fi
+
             echo "url=$URL"                   >> "$GITHUB_OUTPUT"
             echo "timeout=3600"               >> "$GITHUB_OUTPUT"
             echo "max_pages=$MAX_PAGES"       >> "$GITHUB_OUTPUT"
@@ -262,6 +272,7 @@ jobs:
             echo "notes=$NOTES"               >> "$GITHUB_OUTPUT"
             echo "verapdf=$RUN_VERAPDF"       >> "$GITHUB_OUTPUT"
             echo "crawler_version=$CRAWLER_VERSION" >> "$GITHUB_OUTPUT"
+            echo "scan_language=$REPORT_LANGUAGE" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Comment on issue when crawl setup fails
@@ -493,6 +504,7 @@ jobs:
           CRAWL_MAX_PDFS:  ${{ steps.params.outputs.max_pdfs }}
           CRAWL_VERAPDF:   ${{ steps.params.outputs.verapdf }}
           CRAWLER_VERSION: ${{ steps.params.outputs.crawler_version }}
+          CRAWL_LANGUAGE:  ${{ steps.params.outputs.scan_language }}
         run: |
           mkdir -p scan-meta
           echo "$ISSUE_NUMBER"    > scan-meta/issue_number.txt
@@ -502,6 +514,7 @@ jobs:
           echo "$CRAWL_MAX_PDFS"  > scan-meta/max_pdfs.txt
           echo "$CRAWL_VERAPDF"   > scan-meta/verapdf.txt
           echo "$CRAWLER_VERSION" > scan-meta/crawler_version.txt
+          echo "$CRAWL_LANGUAGE"  > scan-meta/language.txt
           # Extract and save the site/domain for per-site scoping in the analysis step.
           # This mirrors the _site_folder() helper in scripts/crawl.py: lowercase the
           # netloc and strip a leading www. prefix (e.g. www.Ontario.ca → ontario.ca).

@@ -280,6 +280,7 @@ jobs:
           MAX_PDFS="200"
           RUN_VERAPDF="false"
           CRAWLER_VERSION="original"
+          SCAN_LANGUAGE="en"
           if [ "${{ github.event_name }}" = "workflow_run" ]; then
             # workflow_run: read metadata from the scan-meta artifact left by the crawl.
             if [ -f scan-meta/issue_number.txt ]; then
@@ -312,6 +313,12 @@ jobs:
             if [ -f scan-meta/crawler_version.txt ]; then
               CRAWLER_VERSION=$(cat scan-meta/crawler_version.txt | tr -d '[:space:]')
             fi
+            if [ -f scan-meta/language.txt ]; then
+              PARSED_LANG=$(cat scan-meta/language.txt | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')
+              if [ "$PARSED_LANG" = "fr" ] || [ "$PARSED_LANG" = "en" ]; then
+                SCAN_LANGUAGE="$PARSED_LANG"
+              fi
+            fi
           else
             # workflow_dispatch: read the optional site input directly.
             CRAWL_SITE=$(echo "$DISPATCH_SITE" | tr -d '[:space:]')
@@ -323,6 +330,7 @@ jobs:
           echo "max_pdfs=$MAX_PDFS"         >> "$GITHUB_OUTPUT"
           echo "run_verapdf=$RUN_VERAPDF"   >> "$GITHUB_OUTPUT"
           echo "crawler_version=$CRAWLER_VERSION" >> "$GITHUB_OUTPUT"
+          echo "scan_language=$SCAN_LANGUAGE" >> "$GITHUB_OUTPUT"
 
       - name: Pull latest manifest
         run: |
@@ -439,6 +447,7 @@ jobs:
           CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
           CRAWL_SITE: ${{ steps.meta.outputs.crawl_site }}
           CRAWLER_VERSION: ${{ steps.meta.outputs.crawler_version }}
+          SCAN_LANGUAGE: ${{ steps.meta.outputs.scan_language }}
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
           RUN_ID: ${{ github.run_id }}
@@ -477,7 +486,8 @@ jobs:
             --archive-dir docs/reports \
             --pages-base "$PAGES_BASE" \
             --run-url "$RUN_URL" \
-            --crawl-url "$CRAWL_URL"
+            --crawl-url "$CRAWL_URL" \
+            --default-lang "$SCAN_LANGUAGE"
 
       - name: Compute site pending count
         id: site_pending

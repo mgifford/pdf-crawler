@@ -220,6 +220,15 @@ jobs:
             | sed -E 's/^(SCAN:|PDF-CRAWL:)[[:space:]]*//')
           URL=$(extract_url "$STRIPPED")
 
+          # Optional report language suffix in title.
+          # Examples: "| FRENCH", "| FR", "| ENGLISH", "| EN".
+          REPORT_LANGUAGE="en"
+          if echo "$STRIPPED" | grep -Eqi '(^|[[:space:]|])(FRENCH|FRANCAIS|FR)([[:space:]]|$)'; then
+            REPORT_LANGUAGE="fr"
+          elif echo "$STRIPPED" | grep -Eqi '(^|[[:space:]|])(ENGLISH|EN)([[:space:]]|$)'; then
+            REPORT_LANGUAGE="en"
+          fi
+
           # 2. Try bare-domain resolution if no protocol was found in the title.
           if [ -z "$URL" ] && [ -n "$STRIPPED" ]; then
             BARE=$(extract_bare_domain "$STRIPPED")
@@ -281,6 +290,7 @@ jobs:
             echo "site=$SITE"            >> "$GITHUB_OUTPUT"
             echo "notes=$NOTES"          >> "$GITHUB_OUTPUT"
             echo "max_pages=$MAX_PAGES"  >> "$GITHUB_OUTPUT"
+            echo "scan_language=$REPORT_LANGUAGE" >> "$GITHUB_OUTPUT"
             echo "skip=false"            >> "$GITHUB_OUTPUT"
           fi
 
@@ -545,6 +555,7 @@ jobs:
         env:
           CRAWL_URL:  ${{ steps.params.outputs.url }}
           CRAWL_SITE: ${{ steps.params.outputs.site }}
+          SCAN_LANGUAGE: ${{ steps.params.outputs.scan_language }}
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME:  ${{ github.event.repository.name }}
           RUN_ID:     ${{ github.run_id }}
@@ -571,7 +582,8 @@ jobs:
             --archive-dir docs/reports \
             --pages-base "$PAGES_BASE" \
             --run-url "$RUN_URL" \
-            --crawl-url "$CRAWL_URL"
+            --crawl-url "$CRAWL_URL" \
+            --default-lang "$SCAN_LANGUAGE"
 
       # -----------------------------------------------------------------------
       # 14. Commit updated reports

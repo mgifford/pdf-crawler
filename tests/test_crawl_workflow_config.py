@@ -37,3 +37,11 @@ def test_crawler_version_written_to_scan_metadata():
     content = _workflow_text()
     assert "CRAWLER_VERSION: ${{ steps.params.outputs.crawler_version }}" in content
     assert 'echo "$CRAWLER_VERSION" > scan-meta/crawler_version.txt' in content
+
+
+def test_scan_language_written_to_scan_metadata():
+    """Scan language output must be persisted for the analysis workflow."""
+    content = _workflow_text()
+    assert "scan_language=" in content
+    assert "CRAWL_LANGUAGE:  ${{ steps.params.outputs.scan_language }}" in content
+    assert 'echo "$CRAWL_LANGUAGE"  > scan-meta/language.txt' in content

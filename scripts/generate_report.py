@@ -24,6 +24,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 from urllib.parse import urlparse
+from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
 sys.path.insert(0, str(Path(__file__).parent))
 from manifest import load_manifest
@@ -227,6 +228,17 @@ def _human_size(size_bytes: Optional[Any]) -> str:
     if unit_index == 0:
         return f"{int(value)} {units[unit_index]}"
     return f"{value:.1f} {units[unit_index]}"
+
+
+def _with_lang(url: str, default_lang: Optional[str]) -> str:
+    """Return *url* with ?lang=<en|fr> set when a supported language is given."""
+    lang = (default_lang or "").strip().lower()
+    if lang not in {"en", "fr"}:
+        return url
+    parsed = urlparse(url)
+    params = dict(parse_qsl(parsed.query, keep_blank_values=True))
+    params["lang"] = lang
+    return urlunparse(parsed._replace(query=urlencode(params)))
 
 
 def _external_domain(entry: Dict[str, Any]) -> str:
@@ -577,6 +589,7 @@ def generate_issue_comment(
     pages_crawled: int = 0,
     archive_name: Optional[str] = None,
     spot_check: Optional[Dict[str, Any]] = None,
+    default_lang: Optional[str] = None,
 ) -> str:
     """Return a Markdown string suitable for posting as a GitHub issue comment.
 
@@ -590,6 +603,9 @@ def generate_issue_comment(
     If *spot_check* is provided (a dict returned by ``spot_check_zero_results``
     in crawl.py), its findings are included in the diagnostic block that is
     shown when zero PDFs and zero pages were found.
+
+    If *default_lang* is ``"fr"`` or ``"en"``, report page links in the
+    comment include ``?lang=<value>`` so the UI opens in that language.
     """
     scoped = (
         [e for e in entries if e.get("site") == site_filter]
@@ -748,17 +764,19 @@ def generate_issue_comment(
     ]
     if archive_name and pages_base:
         archive_stem = archive_name[:-5] if archive_name.endswith(".html") else archive_name
-        lines.append(f"- [Site-specific HTML report]({pages_base}/reports/{archive_name})")
+        lines.append(
+            f"- [Site-specific HTML report]({_with_lang(f'{pages_base}/reports/{archive_name}', default_lang)})"
+        )
         lines.append(f"- [Site-specific JSON report]({pages_base}/reports/{archive_stem}/report.json)")
         lines.append(f"- [Site-specific structured JSON report]({pages_base}/reports/{archive_stem}/report_structured.json)")
         lines.append(f"- [Site-specific CSV report]({pages_base}/reports/{archive_stem}/report.csv)")
         lines.append(f"- [Site-specific YAML manifest]({pages_base}/reports/{archive_stem}/manifest.yaml)")
         lines.append(f"- [Site-specific crawled URLs CSV]({pages_base}/reports/{archive_stem}/crawled_urls.csv)")
-        lines.append(f"- [Reports history]({pages_base}/reports.html)")
+        lines.append(f"- [Reports history]({_with_lang(f'{pages_base}/reports.html', default_lang)})")
     else:
-        lines.append(f"- [HTML report]({pages_base}/report.html)")
+        lines.append(f"- [HTML report]({_with_lang(f'{pages_base}/report.html', default_lang)})")
         lines += [
-            f"- [Reports history]({pages_base}/reports.html)",
+            f"- [Reports history]({_with_lang(f'{pages_base}/reports.html', default_lang)})",
             f"- [Markdown report]({pages_base}/reports/report.md)",
             f"- [JSON report]({pages_base}/reports/report.json)",
             f"- [Structured JSON report]({pages_base}/reports/report_structured.json)",
@@ -2425,6 +2443,7 @@ def main(
     issue_url: str = "",
     spot_check_file: Optional[str] = None,
     engine_filter: Optional[str] = None,
+    default_lang: Optional[str] = None,
 ) -> None:
     raw_entries = load_manifest(manifest_path)
     entries = _entries_for_reporting(raw_entries, engine_filter=engine_filter)
@@ -2650,6 +2669,7 @@ def main(
             pages_crawled=stats.get("pages_crawled", 0),
             archive_name=archive_name,
             spot_check=spot_check,
+          default_lang=default_lang,
         )
         Path(issue_comment_file).write_text(comment, encoding="utf-8")
         print(f"Written issue comment: {issue_comment_file}")
@@ -2744,6 +2764,15 @@ if __name__ == "__main__":  # pragma: no cover
             "Use in CI so issue comments match the current scan mode."
         ),
     )
+    parser.add_argument(
+        "--default-lang",
+        default=None,
+        choices=["en", "fr"],
+        help=(
+            "Default language for report page links in issue comments. "
+            "When set, HTML report links include ?lang=<value>."
+        ),
+    )
     args = parser.parse_args()
     main(
         manifest_path=args.manifest,
@@ -2759,4 +2788,5 @@ if __name__ == "__main__":  # pragma: no cover
         issue_url=args.issue_url,
         spot_check_file=args.spot_check_file,
         engine_filter=args.engine,
+        default_lang=args.default_lang,
     )

@@ -240,6 +240,35 @@ def test_issue_comment_no_archive_name_falls_back_to_cumulative_html():
     assert "Site-specific HTML report" not in comment
 
 
+def test_issue_comment_archive_links_include_lang_query_when_default_lang_set():
+    """Site-specific HTML/history links should include ?lang when default_lang is provided."""
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://owner.github.io/repo",
+        run_url="",
+        archive_name="2026-01-01_00-00-00-000_example_com.html",
+        default_lang="fr",
+    )
+    assert "reports/2026-01-01_00-00-00-000_example_com.html?lang=fr" in comment
+    assert "reports.html?lang=fr" in comment
+
+
+def test_issue_comment_fallback_html_links_include_lang_query_when_default_lang_set():
+    """Fallback HTML/history links should include ?lang when default_lang is provided."""
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    comment = generate_issue_comment(
+        entries,
+        crawl_url="https://example.com",
+        pages_base="https://owner.github.io/repo",
+        run_url="",
+        default_lang="fr",
+    )
+    assert "report.html?lang=fr" in comment
+    assert "reports.html?lang=fr" in comment
+
+
 def test_issue_comment_pdf_table_rows():
     entries = [_make_entry("https://example.com/my.pdf")]
     comment = generate_issue_comment(
