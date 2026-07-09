@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-09T21:27:38.548080+00:00",
+    "site": "govt.nz",
+    "crawl_url": "https://www.govt.nz",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29049021664",
+    "issue_url": "",
+    "archive_file": "2026-07-09_21-27-38-548_govt.nz.html",
+    "total": 102,
+    "analysed": 89,
+    "accessible": 3,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": true,
+    "vp_checked_files": 82,
+    "vp_pass_files": 0,
+    "vp_fail_files": 76,
+    "vp_error_files": 6
+  },
+  {
     "date": "2026-07-09T11:26:37.120553+00:00",
     "site": "cc-coeurdegaronne.fr",
     "crawl_url": "https://www.cc-coeurdegaronne.fr/",

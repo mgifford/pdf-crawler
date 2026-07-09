@@ -219,32 +219,159 @@
 <body>
 
   <nav>
-    <a href="./">&#8592; Back to submission form</a>
+    <a id="reports-back-link" href="./">&#8592; Back to submission form</a>
+    <span class="lang-switch" aria-label="Language switch">
+      <a id="lang-en-index" href="?lang=en" hreflang="en" lang="en">EN</a>
+      <span aria-hidden="true">|</span>
+      <a id="lang-fr-index" href="?lang=fr" hreflang="fr" lang="fr">FR</a>
+    </span>
     <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
   </nav>
 
-  <h1>&#128202; PDF Accessibility Scan Reports</h1>
-  <p>Historical record of all PDF accessibility scans run by this tool.</p>
+  <h1 id="reports-page-title">&#128202; PDF Accessibility Scan Reports</h1>
+  <p id="reports-page-subtitle">Historical record of all PDF accessibility scans run by this tool.</p>
 
   <div id="summary-bar" class="summary-bar" aria-live="polite"></div>
 
   <div class="filter-bar">
-    <label for="filter-input">Filter by site:</label>
+    <label id="filter-label" for="filter-input">Filter by site:</label>
     <input type="search" id="filter-input" placeholder="e.g. energy.gov" aria-label="Filter reports by site name" />
     <span id="filter-count" class="filter-count" aria-live="polite"></span>
   </div>
 
   <div id="root" aria-live="polite">
-    <div class="loading-state">Loading reports&hellip;</div>
+    <div class="loading-state" id="loading-text">Loading reports&hellip;</div>
   </div>
 
   <script>
     (function () {
+      // i18n scaffold: add locales here with the same keys.
+      var I18N = {
+        en: {
+          backLabel: 'Back to submission form',
+          title: '📊 PDF Accessibility Scan Reports',
+          subtitle: 'Historical record of all PDF accessibility scans run by this tool.',
+          filterLabel: 'Filter by site:',
+          filterAria: 'Filter reports by site name',
+          filterPlaceholder: 'e.g. energy.gov',
+          loading: 'Loading reports…',
+          totalScans: 'Total Scans',
+          uniqueSites: 'Unique Sites',
+          noReports: 'No scan reports yet.',
+          noReportsCta: 'Submit a crawl request',
+          noReportsCtaSuffix: ' to get started.',
+          colDate: 'Date',
+          colSite: 'Site',
+          colIssue: 'Issue',
+          colRun: 'Run',
+          colEngines: 'Engines',
+          colVeraPdf: 'veraPDF',
+          colVpdfFails: 'vPDF Fails',
+          colVpdfErrors: 'vPDF Errors',
+          colTotalPdfs: 'Total PDFs',
+          colAccessible: '✅ Accessible',
+          colIssues: '❌ Issues',
+          colPctAccessible: '% Accessible',
+          colReport: 'Report',
+          viewReport: 'View report',
+          runLabel: 'Run',
+          showing: 'Showing',
+          of: 'of',
+          scans: 'scans',
+          loadErrorTitle: 'Could not load reports.',
+          loadErrorHint: 'If you are viewing this file locally, please serve it from a web server.',
+        },
+        fr: {
+          backLabel: 'Retour au formulaire de soumission',
+          title: '📊 Rapports de scan d'accessibilité PDF',
+          subtitle: 'Historique de tous les scans d'accessibilité PDF exécutés par cet outil.',
+          filterLabel: 'Filtrer par site :',
+          filterAria: 'Filtrer les rapports par nom de site',
+          filterPlaceholder: 'ex. energy.gov',
+          loading: 'Chargement des rapports…',
+          totalScans: 'Scans totaux',
+          uniqueSites: 'Sites uniques',
+          noReports: 'Aucun rapport de scan pour le moment.',
+          noReportsCta: 'Soumettre une demande de scan',
+          noReportsCtaSuffix: ' pour commencer.',
+          colDate: 'Date',
+          colSite: 'Site',
+          colIssue: 'Issue',
+          colRun: 'Exécution',
+          colEngines: 'Moteurs',
+          colVeraPdf: 'veraPDF',
+          colVpdfFails: 'vPDF Échecs',
+          colVpdfErrors: 'vPDF Erreurs',
+          colTotalPdfs: 'PDF totaux',
+          colAccessible: '✅ Accessibles',
+          colIssues: '❌ Problèmes',
+          colPctAccessible: '% Accessible',
+          colReport: 'Rapport',
+          viewReport: 'Voir le rapport',
+          runLabel: 'Exécution',
+          showing: 'Affichage',
+          of: 'sur',
+          scans: 'scans',
+          loadErrorTitle: 'Impossible de charger les rapports.',
+          loadErrorHint: 'Si vous ouvrez ce fichier en local, servez-le via un serveur web.',
+        },
+      };
+
+      function detectLang() {
+        var params = new URLSearchParams(window.location.search);
+        var fromQuery = params.get('lang');
+        if (fromQuery && I18N[fromQuery]) return fromQuery;
+        var stored = localStorage.getItem('lang');
+        if (stored && I18N[stored]) return stored;
+        var navLang = (navigator.language || 'en').toLowerCase();
+        return navLang.indexOf('fr') === 0 ? 'fr' : 'en';
+      }
+
+      var currentLang = detectLang();
+      var M = I18N[currentLang] || I18N.en;
+      document.documentElement.setAttribute('lang', currentLang);
+      localStorage.setItem('lang', currentLang);
+
+      function t(key) {
+        return M[key] || I18N.en[key] || key;
+      }
+
+      function withLang(url) {
+        try {
+          var parsed = new URL(url, window.location.href);
+          parsed.searchParams.set('lang', currentLang);
+          return parsed.toString();
+        } catch (e) {
+          return url;
+        }
+      }
+
       var root        = document.getElementById('root');
       var summaryBar  = document.getElementById('summary-bar');
       var filterInput = document.getElementById('filter-input');
       var filterCount = document.getElementById('filter-count');
       var allReports  = [];
+
+      (function applyLanguageStatic() {
+        var back = document.getElementById('reports-back-link');
+        if (back) back.textContent = '← ' + t('backLabel');
+        var title = document.getElementById('reports-page-title');
+        if (title) title.textContent = t('title');
+        var subtitle = document.getElementById('reports-page-subtitle');
+        if (subtitle) subtitle.textContent = t('subtitle');
+        var filterLabel = document.getElementById('filter-label');
+        if (filterLabel) filterLabel.textContent = t('filterLabel');
+        if (filterInput) {
+          filterInput.setAttribute('placeholder', t('filterPlaceholder'));
+          filterInput.setAttribute('aria-label', t('filterAria'));
+        }
+        var loading = document.getElementById('loading-text');
+        if (loading) loading.textContent = t('loading');
+        var enLink = document.getElementById('lang-en-index');
+        if (enLink) enLink.href = withLang('?lang=en');
+        var frLink = document.getElementById('lang-fr-index');
+        if (frLink) frLink.href = withLang('?lang=fr');
+      })();
 
       function esc(s) {
         if (!s) return '';
@@ -270,8 +397,8 @@
         var sites = {};
         reports.forEach(function (r) { if (r.site) sites[r.site] = true; });
         summaryBar.innerHTML =
-          '<div class="summary-card"><div class="value">' + reports.length + '</div><div class="label">Total Scans</div></div>' +
-          '<div class="summary-card"><div class="value">' + Object.keys(sites).length + '</div><div class="label">Unique Sites</div></div>';
+          '<div class="summary-card"><div class="value">' + reports.length + '</div><div class="label">' + esc(t('totalScans')) + '</div></div>' +
+          '<div class="summary-card"><div class="value">' + Object.keys(sites).length + '</div><div class="label">' + esc(t('uniqueSites')) + '</div></div>';
       }
 
       var sortCol = 'date';
@@ -385,8 +512,8 @@
         if (!reports.length) {
           root.innerHTML =
             '<div class="empty-state">' +
-            '<p>No scan reports yet.</p>' +
-            '<p><a href="./">Submit a crawl request</a> to get started.</p>' +
+            '<p>' + esc(t('noReports')) + '</p>' +
+            '<p><a href="./">' + esc(t('noReportsCta')) + '</a>' + esc(t('noReportsCtaSuffix')) + '</p>' +
             '</div>';
           return;
         }
@@ -396,19 +523,19 @@
         var hasVPFail = hasVeraPDF && reports.some(function (r) { return r.vp_fail_files != null; });
         var hasVPError = hasVeraPDF && reports.some(function (r) { return r.vp_error_files != null; });
         var html = '<table id="reports-table"><thead><tr>' +
-          '<th class="sortable" data-col="date" data-label="Date" aria-sort="none" tabindex="0"><span class="sort-label">Date</span></th>' +
-          '<th class="sortable" data-col="site" data-label="Site" aria-sort="none" tabindex="0"><span class="sort-label">Site</span></th>' +
-          '<th class="sortable" data-col="issue" data-label="Issue" aria-sort="none" tabindex="0"><span class="sort-label">Issue</span></th>' +
-          '<th class="sortable" data-col="rerun" data-label="Run" aria-sort="none" tabindex="0"><span class="sort-label">Run</span></th>' +
-          '<th class="sortable" data-col="engines" data-label="Engines" aria-sort="none" tabindex="0"><span class="sort-label">Engines</span></th>' +
-          (hasVeraPDF ? '<th class="sortable" data-col="verapdf" data-label="veraPDF" aria-sort="none" tabindex="0"><span class="sort-label">veraPDF</span></th>' : '') +
-          (hasVPFail ? '<th class="sortable" data-col="vp_fail" data-label="vPDF Fails" aria-sort="none" tabindex="0"><span class="sort-label">vPDF Fails</span></th>' : '') +
-          (hasVPError ? '<th class="sortable" data-col="vp_error" data-label="vPDF Errors" aria-sort="none" tabindex="0"><span class="sort-label">vPDF Errors</span></th>' : '') +
-          '<th class="sortable" data-col="total" data-label="Total PDFs" aria-sort="none" tabindex="0"><span class="sort-label">Total PDFs</span></th>' +
-          '<th class="sortable" data-col="accessible" data-label="&#x2705; Accessible" aria-sort="none" tabindex="0"><span class="sort-label">&#x2705; Accessible</span></th>' +
-          '<th class="sortable" data-col="issues" data-label="&#x274C; Issues" aria-sort="none" tabindex="0"><span class="sort-label">&#x274C; Issues</span></th>' +
-          '<th class="sortable" data-col="pct" data-label="% Accessible" aria-sort="none" tabindex="0"><span class="sort-label">% Accessible</span></th>' +
-          '<th>Report</th>' +
+          '<th class="sortable" data-col="date" data-label="' + esc(t('colDate')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colDate')) + '</span></th>' +
+          '<th class="sortable" data-col="site" data-label="' + esc(t('colSite')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colSite')) + '</span></th>' +
+          '<th class="sortable" data-col="issue" data-label="' + esc(t('colIssue')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colIssue')) + '</span></th>' +
+          '<th class="sortable" data-col="rerun" data-label="Run" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colRun')) + '</span></th>' +
+          '<th class="sortable" data-col="engines" data-label="Engines" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colEngines')) + '</span></th>' +
+          (hasVeraPDF ? '<th class="sortable" data-col="verapdf" data-label="veraPDF" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colVeraPdf')) + '</span></th>' : '') +
+          (hasVPFail ? '<th class="sortable" data-col="vp_fail" data-label="' + esc(t('colVpdfFails')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colVpdfFails')) + '</span></th>' : '') +
+          (hasVPError ? '<th class="sortable" data-col="vp_error" data-label="' + esc(t('colVpdfErrors')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colVpdfErrors')) + '</span></th>' : '') +
+          '<th class="sortable" data-col="total" data-label="' + esc(t('colTotalPdfs')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colTotalPdfs')) + '</span></th>' +
+          '<th class="sortable" data-col="accessible" data-label="' + esc(t('colAccessible')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colAccessible')) + '</span></th>' +
+          '<th class="sortable" data-col="issues" data-label="' + esc(t('colIssues')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colIssues')) + '</span></th>' +
+          '<th class="sortable" data-col="pct" data-label="' + esc(t('colPctAccessible')) + '" aria-sort="none" tabindex="0"><span class="sort-label">' + esc(t('colPctAccessible')) + '</span></th>' +
+          '<th>' + esc(t('colReport')) + '</th>' +
           '</tr></thead><tbody>';
 
         sorted.forEach(function (r) {
@@ -417,7 +544,7 @@
           var issueLabel = r._issue_num
             ? '<a href="' + esc(r.issue_url) + '" target="_blank" rel="noopener">#' + esc(r._issue_num) + '</a>'
             : '&#x2014;';
-          var runLabel = 'Run ' + (r._run_number || 1) + ' / ' + (r._run_total || 1);
+          var runLabel = t('runLabel') + ' ' + (r._run_number || 1) + ' / ' + (r._run_total || 1);
           var enginesLabel = Array.isArray(r.analysis_engines)
             ? r.analysis_engines.join(', ')
             : (r.analysis_engines || r.engine || 'original');
@@ -427,7 +554,7 @@
           var siteCell = r.crawl_url
             ? '<a href="' + esc(r.crawl_url) + '" target="_blank" rel="noopener">' + esc(r.site) + '</a>'
             : esc(r.site || '');
-          var reportLink = '<a href="reports/' + esc(r.archive_file) + '">View report</a>';
+          var reportLink = '<a href="reports/' + esc(r.archive_file) + '">' + esc(t('viewReport')) + '</a>';
           html += '<tr>' +
             '<td>' + esc(dateStr) + '</td>' +
             '<td>' + siteCell + '</td>' +
@@ -463,7 +590,7 @@
             })
           : allReports;
         filterCount.textContent = q
-          ? 'Showing ' + filtered.length + ' of ' + allReports.length + ' scans'
+          ? t('showing') + ' ' + filtered.length + ' ' + t('of') + ' ' + allReports.length + ' ' + t('scans')
           : '';
         renderTable(filtered);
       }
@@ -484,9 +611,9 @@
         .catch(function (err) {
           root.innerHTML =
             '<div class="error-state">' +
-            '<p><strong>Could not load reports.</strong></p>' +
+            '<p><strong>' + esc(t('loadErrorTitle')) + '</strong></p>' +
             '<p>Error: ' + esc(String(err)) + '</p>' +
-            '<p>If you are viewing this file locally, please serve it from a web server.</p>' +
+            '<p>' + esc(t('loadErrorHint')) + '</p>' +
             '</div>';
         });
     })();
