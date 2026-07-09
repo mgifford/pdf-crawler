@@ -740,9 +740,9 @@ def check_file(
                 result["_log"] += "no date found, "
 
             # Title check
-            title = meta.get("dc:title") or pdf.docinfo.get("/Title")
+            title = _meta_str(meta.get("dc:title") or pdf.docinfo.get("/Title"))
             viewer_prefs = pdf.Root.get("/ViewerPreferences")
-            if title is not None and len(str(title)) != 0:
+            if title is not None:
                 result["hasTitle"] = True
                 if viewer_prefs is not None:
                     disp = viewer_prefs.get("/DisplayDocTitle")

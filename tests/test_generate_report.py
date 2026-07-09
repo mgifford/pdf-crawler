@@ -1662,6 +1662,71 @@ def test_generate_main_archive_dir_reuses_existing_index(tmp_path):
     assert len(index) == 2
 
 
+def test_generate_markdown_includes_size_column_and_value():
+    entry = _make_entry("https://example.com/with-size.pdf")
+    entry["file_size_bytes"] = 2048
+    stats = _summary_stats([entry])
+    md = generate_markdown([entry], stats)
+    assert "| Exempt | Pages | Size | Words | Images |" in md
+    assert "2.0 KB" in md
+
+
+def test_generate_csv_header_includes_size_columns():
+    entries = [_make_entry("https://example.com/doc.pdf")]
+    csv_text = generate_csv(entries)
+    first_line = csv_text.splitlines()[0]
+    assert "file_size_bytes" in first_line
+    assert "file_size_human" in first_line
+
+
+def test_generate_csv_includes_human_size_when_present():
+    entry = _make_entry("https://example.com/sized.pdf")
+    entry["file_size_bytes"] = 1536
+    csv_text = generate_csv([entry])
+    assert "1536" in csv_text
+    assert "1.5 KB" in csv_text
+
+
+def test_issue_comment_shows_size_column_and_value():
+    entry = _make_entry("https://example.com/sized.pdf")
+    entry["file_size_bytes"] = 3 * 1024 * 1024
+    comment = generate_issue_comment(
+        [entry],
+        crawl_url="https://example.com",
+        pages_base="",
+        run_url="",
+    )
+    assert "| Pages | Size | Words | Images |" in comment
+    assert "3.0 MB" in comment
+
+
+def test_generate_html_supports_querystring_sort_state():
+    entry = _make_entry("https://example.com/doc.pdf")
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    assert "URLSearchParams(window.location.search)" in html
+    assert "params.set('sort', sortCol)" in html
+    assert "history.replaceState" in html
+
+
+def test_generate_html_contains_download_controls():
+    entry = _make_entry("https://example.com/doc.pdf")
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats)
+    assert "Download CSV" in html
+    assert "Download JSON" in html
+    assert "Download Current View CSV" in html
+    assert "Download Current View JSON" in html
+
+
+def test_generate_html_archive_assets_base_links():
+    entry = _make_entry("https://example.com/doc.pdf")
+    stats = _summary_stats([entry])
+    html = generate_html([entry], stats, report_assets_base=".")
+    assert 'href="./report.csv"' in html
+    assert 'href="./report.json"' in html
+
+
 # ---------------------------------------------------------------------------
 # generate_main() – crawled_dir reads pages_crawled (lines 1394-1406)
 # ---------------------------------------------------------------------------

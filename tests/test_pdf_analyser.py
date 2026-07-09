@@ -2095,6 +2095,30 @@ def test_check_file_title_without_viewer_prefs_fails(tmp_path):
     assert result.get("hasDisplayDocTitle") is False
 
 
+def test_check_file_blank_title_fails_even_with_display_doc_title_true(tmp_path):
+    """Blank/whitespace title must fail TitleTest (title is effectively missing)."""
+    import pikepdf
+    from pdf_analyser import check_file
+
+    p = tmp_path / "title_blank_fail.pdf"
+    pdf = pikepdf.Pdf.new()
+    page = pikepdf.Page(pikepdf.Dictionary(
+        Type=pikepdf.Name("/Page"),
+        MediaBox=[0, 0, 612, 792],
+    ))
+    pdf.pages.append(page)
+    pdf.docinfo["/Title"] = "   "
+    pdf.Root["/ViewerPreferences"] = pikepdf.Dictionary(
+        DisplayDocTitle=True
+    )
+    pdf.save(str(p))
+
+    result = check_file(str(p))
+    assert result.get("hasTitle") is False
+    assert result.get("TitleTest") == "Fail"
+    assert result.get("Accessible") is False
+
+
 # ---------------------------------------------------------------------------
 # check_file() – Form field detection (lines 614-620)
 # ---------------------------------------------------------------------------

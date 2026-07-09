@@ -210,6 +210,25 @@ def _fmt(value) -> str:
     return str(value)
 
 
+def _human_size(size_bytes: Optional[Any]) -> str:
+    """Return a human-readable file size string from bytes."""
+    try:
+        size = int(size_bytes)
+    except (TypeError, ValueError):
+        return _NA
+    if size < 0:
+        return _NA
+    units = ["B", "KB", "MB", "GB", "TB"]
+    value = float(size)
+    unit_index = 0
+    while value >= 1024 and unit_index < len(units) - 1:
+        value /= 1024
+        unit_index += 1
+    if unit_index == 0:
+        return f"{int(value)} {units[unit_index]}"
+    return f"{value:.1f} {units[unit_index]}"
+
+
 def _external_domain(entry: Dict[str, Any]) -> str:
     """Return the PDF's host domain when it differs from the seed site, else ''.
 
@@ -347,12 +366,12 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
         " | Accessible | Tagged | EmptyText | Protected"
         " | Title | Language | Bookmarks"
         + (" | " + " | ".join(label for _, label in present_expanded) if present_expanded else "")
-        + " | Exempt | Pages | Words | Images |\n"
+        + " | Exempt | Pages | Size | Words | Images |\n"
         "|------|------|----------------|-----------|--------|---------|---------|"
         "------------|--------|-----------|---------|"
         "-------|----------|-----------"
         + ("|" + "|".join(["-------------"] * len(present_expanded)) if present_expanded else "")
-        + "|--------|-------|-------|--------|\n"
+        + "|--------|-------|------|-------|--------|\n"
     )
 
     rows = []
@@ -389,6 +408,7 @@ def _md_file_table(entries: List[Dict[str, Any]]) -> str:
           [
             f"| {_fmt(r.get('Exempt'))} ",
             f"| {r.get('Pages', _NA)} ",
+            f"| {_human_size(e.get('file_size_bytes'))} ",
             f"| {r.get('Words') if r.get('Words') is not None else _NA} ",
             f"| {r.get('Images') if r.get('Images') is not None else _NA} |",
           ]
@@ -432,6 +452,8 @@ _CSV_COLUMNS = [
     "filename",
     "site",
     "external_domain",
+  "file_size_bytes",
+  "file_size_human",
     "status",
     "crawled_at",
     "published_date",
@@ -485,6 +507,8 @@ def generate_csv(entries: List[Dict[str, Any]]) -> str:
                 "filename": e.get("filename", ""),
                 "site": e.get("site", ""),
                 "external_domain": _external_domain(e),
+                "file_size_bytes": e.get("file_size_bytes", ""),
+                "file_size_human": _human_size(e.get("file_size_bytes")),
                 "status": e.get("status", ""),
                 "crawled_at": e.get("crawled_at", ""),
                 "published_date": r.get("Date", ""),
@@ -671,10 +695,10 @@ def generate_issue_comment(
             "",
             "| PDF | Accessible | Tagged | Title | Language | Bookmarks"
             + (" | " + " | ".join(label for _, label in present_expanded) if present_expanded else "")
-            + " | Pages | Words | Images |",
+          + " | Pages | Size | Words | Images |",
             "|-----|-----------|--------|-------|----------|-----------"
             + ("|" + "|".join(["-------------"] * len(present_expanded)) if present_expanded else "")
-            + "|-------|-------|--------|",
+          + "|-------|------|-------|--------|",
         ]
         for e in analysed[:max_files]:
             r = e.get("report") or {}
@@ -701,6 +725,7 @@ def generate_issue_comment(
             row_parts.extend(
                 [
                     f" | {r.get('Pages', '—')}",
+                  f" | {_human_size(e.get('file_size_bytes'))}",
                     f" | {words if words is not None else '—'}",
                     f" | {images if images is not None else '—'} |",
                 ]
@@ -846,6 +871,29 @@ _HTML_TEMPLATE = """\
 
     #generated-at {{ font-size: 0.85rem; color: var(--color-muted); margin-top: -0.5rem; }}
 
+    .downloads {{
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+      margin: 1rem 0 1.25rem;
+    }}
+    .downloads a,
+    .downloads button {{
+      border: 1px solid var(--color-border);
+      border-radius: 0.375rem;
+      padding: 0.35rem 0.65rem;
+      text-decoration: none;
+      color: var(--color-link);
+      background: var(--color-card-bg);
+      font: inherit;
+      cursor: pointer;
+    }}
+    .downloads a:hover,
+    .downloads button:hover {{
+      background: var(--color-th-bg);
+    }}
+
     .stats-grid {{
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
@@ -917,6 +965,14 @@ _HTML_TEMPLATE = """\
   <h1>&#128202; PDF Accessibility Scan Results</h1>
   <p id="generated-at"></p>
 
+  <div class="downloads">
+    <a href="{report_assets_base}/report.csv">Download CSV</a>
+    <a href="{report_assets_base}/report.json">Download JSON</a>
+    <a href="{report_assets_base}/manifest.yaml">Download Manifest</a>
+    <button id="download-current-csv" type="button">Download Current View CSV</button>
+    <button id="download-current-json" type="button">Download Current View JSON</button>
+  </div>
+
   <div id="root"></div>
 
   <script type="application/json" id="report-data">
@@ -982,6 +1038,7 @@ _HTML_TEMPLATE = """\
       // Determine which optional columns have data
       var hasWords       = analysed.some(function (f) {{ return f.report && f.report.Words       != null; }});
       var hasImages      = analysed.some(function (f) {{ return f.report && f.report.Images      != null; }});
+      var hasFileSize    = analysed.some(function (f) {{ return f.file_size_bytes != null; }});
       var hasTaggedContent = analysed.some(function (f) {{ return f.report && f.report.TaggedContentTest != null; }});
       var hasForms         = analysed.some(function (f) {{ return f.report && f.report.FormsTest != null; }});
       var hasTaggedForms   = analysed.some(function (f) {{ return f.report && f.report.TaggedFormFieldsTest != null; }});
@@ -1004,6 +1061,43 @@ _HTML_TEMPLATE = """\
       // Sort state
       var sortCol = null;
       var sortAsc = true;
+
+      function formatSize(sizeBytes) {{
+        if (sizeBytes == null) return '&#x2014;';
+        var num = Number(sizeBytes);
+        if (!isFinite(num) || num < 0) return '&#x2014;';
+        var units = ['B', 'KB', 'MB', 'GB', 'TB'];
+        var value = num;
+        var unit = 0;
+        while (value >= 1024 && unit < units.length - 1) {{
+          value /= 1024;
+          unit += 1;
+        }}
+        if (unit === 0) return String(Math.round(value)) + ' ' + units[unit];
+        return value.toFixed(1) + ' ' + units[unit];
+      }}
+
+      function readSortFromQuery() {{
+        var params = new URLSearchParams(window.location.search);
+        var col = params.get('sort');
+        var dir = params.get('dir');
+        if (col) sortCol = col;
+        if (dir === 'asc' || dir === 'desc') sortAsc = dir === 'asc';
+      }}
+
+      function writeSortToQuery() {{
+        var params = new URLSearchParams(window.location.search);
+        if (sortCol) {{
+          params.set('sort', sortCol);
+          params.set('dir', sortAsc ? 'asc' : 'desc');
+        }} else {{
+          params.delete('sort');
+          params.delete('dir');
+        }}
+        var qs = params.toString();
+        var nextUrl = window.location.pathname + (qs ? '?' + qs : '') + window.location.hash;
+        window.history.replaceState(null, '', nextUrl);
+      }}
 
       function colVal(f, col) {{
         var r = f.report || {{}};
@@ -1040,6 +1134,7 @@ _HTML_TEMPLATE = """\
           case 'verapdf_rules': return (r.veraPDF && Array.isArray(r.veraPDF.failed_rules)) ? r.veraPDF.failed_rules.length : -1;
           case 'verapdf_error': return (r.veraPDF && r.veraPDF.error) ? String(r.veraPDF.error).toLowerCase() : '';
           case 'pages':       return r.Pages  != null ? r.Pages  : -1;
+          case 'size':        return f.file_size_bytes != null ? Number(f.file_size_bytes) : -1;
           case 'words':       return r.Words  != null ? r.Words  : -1;
           case 'images':      return r.Images != null ? r.Images : -1;
           default: return '';
@@ -1074,11 +1169,14 @@ _HTML_TEMPLATE = """\
         }}
         var vpRules = (vp && Array.isArray(vp.failed_rules)) ? vp.failed_rules.length : null;
         var vpError = (vp && vp.error) ? String(vp.error) : null;
+        var docTitleCell = '&#x2014;';
+        if (r.Title) docTitleCell = esc(r.Title);
+        else if (r.TitleTest === 'Fail') docTitleCell = icon('Fail');
         return '<tr>' +
           '<td><a href="' + esc(f.url) + '" target="_blank" rel="noopener">' + esc(f.filename || f.url) + '</a></td>' +
           '<td>' + siteCell + '</td>' +
           '<td>' + (dateStr ? esc(dateStr) : '&#x2014;') + '</td>' +
-          (hasDocTitle    ? '<td>' + (r.Title       ? esc(r.Title)       : '&#x2014;') + '</td>' : '') +
+          (hasDocTitle    ? '<td>' + docTitleCell + '</td>' : '') +
           (hasAuthor      ? '<td>' + (r.Author      ? esc(r.Author)      : '&#x2014;') + '</td>' : '') +
           (hasSubject     ? '<td>' + (r.Subject     ? esc(r.Subject)     : '&#x2014;') + '</td>' : '') +
           (hasKeywords    ? '<td>' + (r.Keywords    ? esc(r.Keywords)    : '&#x2014;') + '</td>' : '') +
@@ -1102,6 +1200,7 @@ _HTML_TEMPLATE = """\
           (hasVPRules       ? '<td>' + (vpRules != null ? vpRules : '&#x2014;') + '</td>' : '') +
           (hasVPError       ? '<td>' + (vpError ? esc(vpError) : '&#x2014;') + '</td>' : '') +
           '<td>' + (r.Pages  != null ? r.Pages  : '&#x2014;') + '</td>' +
+          (hasFileSize ? '<td>' + formatSize(f.file_size_bytes) + '</td>' : '') +
           (hasWords  ? '<td>' + (r.Words  != null ? r.Words  : '&#x2014;') + '</td>' : '') +
           (hasImages ? '<td>' + (r.Images != null ? r.Images : '&#x2014;') + '</td>' : '') +
           '</tr>';
@@ -1119,6 +1218,7 @@ _HTML_TEMPLATE = """\
           }});
         }}
         tbl.tBodies[0].innerHTML = rows.map(buildRow).join('');
+        writeSortToQuery();
       }}
 
       function updateHeaders(tbl) {{
@@ -1172,6 +1272,7 @@ _HTML_TEMPLATE = """\
         colDefs.push(
           {{ key: 'pages',      label: 'Pages' }}
         );
+        if (hasFileSize) colDefs.push({{ key: 'size', label: 'Size' }});
         if (hasWords)  colDefs.push({{ key: 'words',  label: 'Words' }});
         if (hasImages) colDefs.push({{ key: 'images', label: 'Images' }});
 
@@ -1195,6 +1296,14 @@ _HTML_TEMPLATE = """\
       // Wire up column sorting on the PDF details table
       var pdfTable = document.getElementById('pdf-table');
       if (pdfTable) {{
+        readSortFromQuery();
+        var validCols = Array.prototype.map.call(
+          pdfTable.querySelectorAll('th[data-col]'),
+          function (th) {{ return th.getAttribute('data-col'); }}
+        );
+        if (sortCol && validCols.indexOf(sortCol) === -1) sortCol = null;
+        renderBody(pdfTable);
+        updateHeaders(pdfTable);
         pdfTable.querySelectorAll('th[data-col]').forEach(function (th) {{
           th.addEventListener('click', function () {{
             var col = this.getAttribute('data-col');
@@ -1213,6 +1322,80 @@ _HTML_TEMPLATE = """\
               this.click();
             }}
           }});
+        }});
+      }}
+
+      function makeCsvValue(value) {{
+        var s = value == null ? '' : String(value);
+        if (s.indexOf('"') !== -1 || s.indexOf(',') !== -1 || s.indexOf('\n') !== -1) {{
+          return '"' + s.replace(/"/g, '""') + '"';
+        }}
+        return s;
+      }}
+
+      function rowFromFile(file) {{
+        var r = file.report || {{}};
+        return {{
+          url: file.url || '',
+          filename: file.filename || '',
+          site: file.site || '',
+          status: file.status || '',
+          file_size_bytes: file.file_size_bytes == null ? '' : file.file_size_bytes,
+          file_size_human: formatSize(file.file_size_bytes).replace(/&[^;]+;/g, '-'),
+          published_date: r.Date || '',
+          doc_title: r.Title || '',
+          author: r.Author || '',
+          subject: r.Subject || '',
+          keywords: r.Keywords || '',
+          accessible: r.Accessible == null ? '' : r.Accessible,
+          totally_inaccessible: r.TotallyInaccessible == null ? '' : r.TotallyInaccessible,
+          broken: r.BrokenFile == null ? '' : r.BrokenFile,
+          title: r.TitleTest || '',
+          language: r.LanguageTest || '',
+          bookmarks: r.BookmarksTest || '',
+          pages: r.Pages == null ? '' : r.Pages,
+          words: r.Words == null ? '' : r.Words,
+          images: r.Images == null ? '' : r.Images,
+        }};
+      }}
+
+      function buildCsvText() {{
+        var columns = [
+          'url','filename','site','status','file_size_bytes','file_size_human',
+          'published_date','doc_title','author','subject','keywords','accessible',
+          'totally_inaccessible','broken','title','language','bookmarks','pages',
+          'words','images'
+        ];
+        var lines = [columns.join(',')];
+        files.forEach(function (file) {{
+          var row = rowFromFile(file);
+          lines.push(columns.map(function (col) {{ return makeCsvValue(row[col]); }}).join(','));
+        }});
+        return lines.join('\n');
+      }}
+
+      function downloadBlob(filename, text, mime) {{
+        var blob = new Blob([text], {{ type: mime }});
+        var a = document.createElement('a');
+        a.href = URL.createObjectURL(blob);
+        a.download = filename;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        setTimeout(function () {{ URL.revokeObjectURL(a.href); }}, 0);
+      }}
+
+      var downloadCsvBtn = document.getElementById('download-current-csv');
+      if (downloadCsvBtn) {{
+        downloadCsvBtn.addEventListener('click', function () {{
+          downloadBlob('report-current-view.csv', buildCsvText(), 'text/csv;charset=utf-8');
+        }});
+      }}
+
+      var downloadJsonBtn = document.getElementById('download-current-json');
+      if (downloadJsonBtn) {{
+        downloadJsonBtn.addEventListener('click', function () {{
+          downloadBlob('report-current-view.json', JSON.stringify({{ summary: summary, files: files }}, null, 2), 'application/json;charset=utf-8');
         }});
       }}
 
@@ -1285,10 +1468,16 @@ def generate_html(
     stats: Dict[str, Any],
     back_url: str = "./",
     back_label: str = "Back to submission form",
+    report_assets_base: str = "reports",
 ) -> str:
     """Return a standalone HTML page with scan results embedded as JSON."""
     json_data = json.dumps({"summary": stats, "files": entries}, indent=2, default=str)
-    return _HTML_TEMPLATE.format(json_data=json_data, back_url=back_url, back_label=back_label)
+    return _HTML_TEMPLATE.format(
+        json_data=json_data,
+        back_url=back_url,
+        back_label=back_label,
+        report_assets_base=report_assets_base,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -1988,7 +2177,10 @@ def main(
         html_out_dir = Path(html_dir)
         html_out_dir.mkdir(parents=True, exist_ok=True)
         html_path = html_out_dir / "report.html"
-        html_path.write_text(generate_html(entries, stats), encoding="utf-8")
+        html_path.write_text(
+          generate_html(entries, stats, report_assets_base="reports"),
+          encoding="utf-8",
+        )
         print(f"Written: {html_path}")
 
     # Track the archive name so it can be included in the issue comment.
@@ -2018,6 +2210,7 @@ def main(
                 site_stats,
                 back_url="../reports.html",
                 back_label="Back to reports index",
+              report_assets_base=".",
             ),
             encoding="utf-8",
         )

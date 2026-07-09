@@ -152,10 +152,12 @@ def build_entry(
     crawler_version: str = "original",
 ) -> Dict[str, Any]:
     """Create a new manifest entry for *local_path*."""
+    file_size_bytes = Path(local_path).stat().st_size
     entry: Dict[str, Any] = {
         "url": url,
         "md5": _md5(local_path),
         "file_hash": _sha256(local_path),
+        "file_size_bytes": file_size_bytes,
         "filename": Path(local_path).name,
         "site": site,
         "crawled_at": datetime.now(timezone.utc).isoformat(),
@@ -209,6 +211,7 @@ def update_entry_from_file(
     """Refresh the MD5 and crawled_at fields when a file has been re-downloaded."""
     entry["md5"] = _md5(local_path)
     entry["file_hash"] = _sha256(local_path)
+    entry["file_size_bytes"] = Path(local_path).stat().st_size
     entry["crawled_at"] = datetime.now(timezone.utc).isoformat()
     entry["status"] = "pending"
     entry["report"] = None
@@ -233,6 +236,7 @@ def upsert_entry(
     """
     for entry in entries:
         if entry.get("url") == url:
+            entry["file_size_bytes"] = Path(local_path).stat().st_size
             new_md5 = _md5(local_path)
             if new_md5 != entry.get("md5"):
                 # File has changed – reset for re-analysis

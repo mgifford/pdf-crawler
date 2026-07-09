@@ -79,6 +79,7 @@ def test_build_entry_structure(tmp_pdf):
     assert entry["errors"] == []
     assert len(entry["md5"]) == 32
     assert len(entry["file_hash"]) == 64
+    assert entry["file_size_bytes"] == tmp_pdf.stat().st_size
     assert "analyses" in entry
     assert "original" in entry["analyses"]
 
@@ -198,6 +199,23 @@ def test_upsert_rescan_on_changed_content(tmp_path):
     entries, needs_scan = upsert_entry(entries, url, p, "example.com")
     assert needs_scan is True
     assert entries[0]["status"] == "pending"
+
+
+def test_upsert_refreshes_file_size_on_unchanged_file(tmp_path):
+    """Upsert should keep file_size_bytes in sync even when MD5 is unchanged."""
+    p = tmp_path / "doc.pdf"
+    p.write_bytes(b"abc123")
+    url = "https://example.com/doc.pdf"
+    entries = []
+    entries, _ = upsert_entry(entries, url, p, "example.com")
+    entries = mark_analysed(entries, url, {"Accessible": True})
+
+    # Simulate an old entry without file_size_bytes.
+    entries[0].pop("file_size_bytes", None)
+    entries, needs_scan = upsert_entry(entries, url, p, "example.com")
+
+    assert needs_scan is False
+    assert entries[0]["file_size_bytes"] == p.stat().st_size
 
 
 def test_upsert_stores_notes_on_new_entry(tmp_pdf):
