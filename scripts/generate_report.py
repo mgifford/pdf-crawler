@@ -752,18 +752,22 @@ def generate_issue_comment(
         lines.append(f"- [Site-specific JSON report]({pages_base}/reports/{archive_stem}/report.json)")
         lines.append(f"- [Site-specific structured JSON report]({pages_base}/reports/{archive_stem}/report_structured.json)")
         lines.append(f"- [Site-specific CSV report]({pages_base}/reports/{archive_stem}/report.csv)")
+        lines.append(f"- [Site-specific YAML manifest]({pages_base}/reports/{archive_stem}/manifest.yaml)")
+        lines.append(f"- [Site-specific crawled URLs CSV]({pages_base}/reports/{archive_stem}/crawled_urls.csv)")
+        lines.append(f"- [Reports history]({pages_base}/reports.html)")
     else:
         lines.append(f"- [HTML report]({pages_base}/report.html)")
-    lines += [
-        f"- [Reports history]({pages_base}/reports.html)",
-        f"- [Markdown report]({pages_base}/reports/report.md)",
-        f"- [JSON report]({pages_base}/reports/report.json)",
-        f"- [Structured JSON report]({pages_base}/reports/report_structured.json)",
-        f"- [CSV report]({pages_base}/reports/report.csv)",
-        f"- [Crawled URLs CSV]({pages_base}/reports/crawled_urls.csv)",
-        f"- [YAML manifest]({pages_base}/reports/manifest.yaml)",
-        f"- [View workflow run]({run_url})",
-    ]
+        lines += [
+            f"- [Reports history]({pages_base}/reports.html)",
+            f"- [Markdown report]({pages_base}/reports/report.md)",
+            f"- [JSON report]({pages_base}/reports/report.json)",
+            f"- [Structured JSON report]({pages_base}/reports/report_structured.json)",
+            f"- [CSV report]({pages_base}/reports/report.csv)",
+            f"- [Crawled URLs CSV]({pages_base}/reports/crawled_urls.csv)",
+            f"- [YAML manifest]({pages_base}/reports/manifest.yaml)",
+        ]
+    if run_url:
+        lines.append(f"- [View workflow run]({run_url})")
 
     return "\n".join(lines)
 
@@ -2614,6 +2618,15 @@ def main(
         pages_manifest = archive_bundle_dir / "manifest.yaml"
         shutil.copy2(Path(manifest_path), pages_manifest)
         print(f"Copied:  {pages_manifest}")
+
+        pages_crawled_urls = archive_bundle_dir / "crawled_urls.csv"
+        source_crawled_urls = out_dir / "crawled_urls.csv"
+        if source_crawled_urls.exists():
+          shutil.copy2(source_crawled_urls, pages_crawled_urls)
+          print(f"Copied:  {pages_crawled_urls}")
+        else:
+          pages_crawled_urls.write_text("", encoding="utf-8")
+          print(f"Written: {pages_crawled_urls} (empty; source crawled_urls.csv not found)")
 
     # Optional per-site issue comment
     if issue_comment_file:

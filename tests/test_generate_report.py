@@ -210,10 +210,21 @@ def test_issue_comment_uses_archive_link_when_archive_name_provided():
     assert "reports/2026-01-01_00-00-00-000_example_com.html" in comment
     # The cumulative report.html should NOT be the HTML report link
     assert "/report.html" not in comment
-    # Other cumulative links should still be present
+    # Site-specific bundle links should be present
+    assert "reports/2026-01-01_00-00-00-000_example_com/report.json" in comment
+    assert "reports/2026-01-01_00-00-00-000_example_com/report_structured.json" in comment
+    assert "reports/2026-01-01_00-00-00-000_example_com/report.csv" in comment
+    assert "reports/2026-01-01_00-00-00-000_example_com/manifest.yaml" in comment
+    assert "reports/2026-01-01_00-00-00-000_example_com/crawled_urls.csv" in comment
+    # Reports history remains available
     assert "reports.html" in comment
-    assert "report.md" in comment
-    assert "report.json" in comment
+    # Cumulative report assets must not be listed in site-specific issue comments
+    assert "reports/report.md" not in comment
+    assert "reports/report.json" not in comment
+    assert "reports/report_structured.json" not in comment
+    assert "reports/report.csv" not in comment
+    assert "reports/manifest.yaml" not in comment
+    assert "reports/crawled_urls.csv" not in comment
 
 
 def test_issue_comment_no_archive_name_falls_back_to_cumulative_html():

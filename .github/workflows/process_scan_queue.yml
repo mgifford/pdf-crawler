@@ -634,12 +634,9 @@ jobs:
               body = [
                 `📊 **Accessibility analysis complete** for \`${crawlUrl}\`.`,
                 ``,
-                `**Reports:**`,
-                `- [HTML report](${reportsBase}/report.html)`,
+                `Per-site report links were unavailable for this run.`,
+                `Use report history and the workflow run logs below:`,
                 `- [Reports history](${reportsBase}/reports.html)`,
-                `- [Markdown report](${reportsBase}/reports/report.md)`,
-                `- [JSON report](${reportsBase}/reports/report.json)`,
-                `- [YAML manifest](${reportsBase}/reports/manifest.yaml)`,
                 ``,
                 `[View workflow run](${actionsUrl})`,
               ].join('\n');
