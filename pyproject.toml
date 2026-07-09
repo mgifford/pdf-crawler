@@ -14,6 +14,7 @@ dependencies = [
     "typer",
     "PyYAML>=6.0",
     "pytz",
+    "pillow>=12.3.0",
 ]
 
 [dependency-groups]
