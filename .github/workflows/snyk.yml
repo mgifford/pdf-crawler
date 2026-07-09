@@ -26,7 +26,6 @@ jobs:
   snyk-npm:
     name: Snyk npm
     runs-on: ubuntu-latest
-    if: hashFiles('package-lock.json') != ''
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -47,7 +46,6 @@ jobs:
   snyk-python:
     name: Snyk pip
     runs-on: ubuntu-latest
-    if: hashFiles('requirements.txt') != ''
     steps:
       - name: Checkout
         uses: actions/checkout@v4
