@@ -9,7 +9,7 @@ jobs:
       matrix:
         python-version: ["3.12", "3.13", "3.14"]
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
 
     # This single step installs uv AND the correct Python version from your matrix
     - name: Set up uv & Python ${{ matrix.python-version }}
