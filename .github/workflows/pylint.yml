@@ -10,16 +10,19 @@ jobs:
         python-version: ["3.12", "3.13", "3.14"]
     steps:
     - uses: actions/checkout@v4
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v3
-      with:
-        python-version: 3.13
-    - name: Set up uv
+
+    # This single step installs uv AND the correct Python version from your matrix
+    - name: Set up uv & Python ${{ matrix.python-version }}
       uses: astral-sh/setup-uv@v6
+      with:
+        python-version: ${{ matrix.python-version }}
+        enable-cache: true # Optional: speeds up consecutive lint runs
+
     - name: Install dependencies
       run: |
         uv sync --frozen --group lint
         echo "$PWD/.venv/bin" >> "$GITHUB_PATH"
+
     - name: Analysing the code with pylint
       run: |
         pylint $(git ls-files '*.py')
