@@ -1,21 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-09T21:48:08.469207+00:00
+Generated: 2026-07-10T13:55:12.923112+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 850 |
-| Total files tracked | 25625 |
-| Analysed | 6159 |
-| Pending analysis | 13360 |
-| Errors during analysis | 6106 |
-| Accessible | 1985 |
-| Issues found | 4174 |
-| Totally inaccessible subset | 265 |
+| URLs crawled | 230 |
+| Total files tracked | 25666 |
+| Analysed | 6345 |
+| Pending analysis | 13207 |
+| Errors during analysis | 6114 |
+| Accessible | 2005 |
+| Issues found | 4340 |
+| Totally inaccessible subset | 284 |
 | Broken / unreadable | 28 |
-| Exempt (pre-2018) | 1491 |
+| Exempt (pre-2018) | 1494 |
 
 ## Files per Site
 
@@ -87,11 +87,12 @@ Generated: 2026-07-09T21:48:08.469207+00:00
 | towson.edu | 148 |
 | ul.ie | 7 |
 | usds.gov | 11 |
+| va.gov | 9 |
 | vdl.lu | 16 |
 | vivaqua.be | 68 |
 | volstate.edu | 10 |
 | web-4-all.de | 9 |
-| wellsfargo.com | 55 |
+| wellsfargo.com | 87 |
 ## File Details
 
 | File | Site | Published Date | Doc Title | Author | Subject | Keywords | Accessible | Tagged | EmptyText | Protected | Title | Language | Bookmarks | TaggedContent | Forms | TaggedForms | TaggedAnnots | FiguresAlt | Headings | Lists | Tables | Exempt | Pages | Size | Words | Images |
@@ -2734,8 +2735,8 @@ Generated: 2026-07-09T21:48:08.469207+00:00
 | [consent-bankruptcy.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-bankruptcy.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 442 | 1 |
 | [consent-mediation.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-mediation.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 327 | 1 |
 | [contributor-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/contributor-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 674 | 0 |
-| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 1561 | 4 |
-| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | — | 15301 | 0 |
+| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 7 | 223.9 KB | — | — |
+| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 15 | 438.4 KB | — | — |
 | [error-resolution-and-cancellation-rights-es.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/error-resolution-and-cancellation-rights-es.pdf) | wellsfargo.com | 2024-09-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 725 | 0 |
 | [existing-customers-4506c.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-4506c.pdf) | wellsfargo.com | 2024-09-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 2605 | 0 |
 | [existing-customers-borrower-consent.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-borrower-consent.pdf) | wellsfargo.com | 2023-02-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 162 | 2 |
@@ -2744,13 +2745,13 @@ Generated: 2026-07-09T21:48:08.469207+00:00
 | [financial-contribution-gse.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-gse.pdf) | wellsfargo.com | 2023-04-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [financial-contribution-wobp.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-wobp.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [frd-overdraft-wellsfargo.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/frd-overdraft-wellsfargo.pdf) | wellsfargo.com | 2025-09-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 907 | 0 |
-| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2026-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1229 | 0 |
+| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2025-08-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | 3 | 147.1 KB | — | — |
 | [initiate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/initiate.pdf) | wellsfargo.com | 2026-02-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1953 | 0 |
 | [mortgage-assistance-application.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-application.pdf) | wellsfargo.com | 2022-07-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1655 | 0 |
 | [mortgage-assistance-debts-expense.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-debts-expense.pdf) | wellsfargo.com | 2023-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1974 | 0 |
 | [navigate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/navigate.pdf) | wellsfargo.com | 2025-10-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 2009 | 0 |
 | [online-wires-supported-currency-list-0.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 1744 | 0 |
-| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2178 | 0 |
+| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 8 | 175.4 KB | — | — |
 | [optimize.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/optimize.pdf) | wellsfargo.com | 2025-10-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 2469 | 0 |
 | [payment-assist-mtg-assumption-terms-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/payment-assist-mtg-assumption-terms-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 564 | 0 |
 | [platinum-visa-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/platinum-visa-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 6592 | 0 |
@@ -2767,9 +2768,9 @@ Generated: 2026-07-09T21:48:08.469207+00:00
 | [third-party-release.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/third-party-release.pdf) | wellsfargo.com | 2023-11-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 308 | 1 |
 | [travel-accident-and-baggage-delay.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/travel-accident-and-baggage-delay.pdf) | wellsfargo.com | 2024-07-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 4674 | 0 |
 | [us-purchase-order-terms.pdf](https://www.wellsfargo.com/assets/pdf/about/corporate/us-purchase-order-terms.pdf) | wellsfargo.com | 2025-03-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | — | 25841 | 0 |
-| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1411 | 1 |
+| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 138.3 KB | — | — |
 | [visa-benefits-guide.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/visa-benefits-guide.pdf) | wellsfargo.com | 2024-09-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 7466 | 0 |
-| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 9451 | 1 |
+| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | 971.7 KB | — | — |
 | [Applicant_NJFC_Application_Check_List_en.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_en.pdf) | njfamilycare.dhs.state.nj.us | 2023-04-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 458 | 2 |
 | [Applicant_NJFC_Application_Check_List_sp.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_sp.pdf) | njfamilycare.dhs.state.nj.us | 2023-05-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 581 | 2 |
 | [FAQs_UM_Appeal_Changes.pdf](https://njfamilycare.dhs.state.nj.us/docs/FAQs_UM_Appeal_Changes.pdf) | njfamilycare.dhs.state.nj.us | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 950 | 0 |
@@ -6243,6 +6244,165 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [99_DE-031-200068815-20220830-DEC_2022_18_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220830-DEC_2022_18_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-06 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 36.0 KB | 0 | 1 |
 | [99_DE-031-200068815-20220908-DEC_2022_19_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220908-DEC_2022_19_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-08 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 45.1 KB | 0 | 1 |
 | [99_DE-031-200068815-20220908-D_2022_20_7_3-DE-1-1_1-2.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220908-D_2022_20_7_3-DE-1-1_1-2.pdf) | cc-coeurdegaronne.fr | 2022-09-09 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 52.9 KB | 0 | 2 |
+| [99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-20 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 40.5 KB | 0 | 1 |
+| [99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-29 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 54.0 KB | 0 | 2 |
+| [99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-09-27 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 146.8 KB | 0 | 4 |
+| [99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf) | cc-coeurdegaronne.fr | 2022-09-30 | — | Sivom de Rieumes | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 1 | 209.5 KB | 255 | 2 |
+| [99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-10-13 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 39.3 KB | 0 | 1 |
+| [99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-03 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 38.6 KB | 0 | 1 |
+| [99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-10-21 | — | Sivom de Rieumes | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 4 | 361.8 KB | 1024 | 2 |
+| [99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-03 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 52.3 KB | 0 | 2 |
+| [99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 6 | 255.9 KB | 0 | 6 |
+| [99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 61.9 KB | 0 | 1 |
+| [99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-11-30 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 36.9 KB | 0 | 1 |
+| [99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 38.7 KB | 0 | 1 |
+| [99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-13 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 37.8 KB | 0 | 1 |
+| [99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-13 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 47.1 KB | 0 | 1 |
+| [99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf) | cc-coeurdegaronne.fr | 2022-12-20 | — | Sivom de Rieumes | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 97 | 4.8 MB | 29696 | 39 |
+| [99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-20 | — | Sivom de Rieumes | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 2 | 207.4 KB | 513 | 2 |
+| [99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2022-12-20 | — | Sivom de Rieumes | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 2 | 210.9 KB | 620 | 2 |
+| [99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-01-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 116.0 KB | 1 | 1 |
+| [99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-01-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 103.9 KB | 1 | 1 |
+| [99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-01-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 141.6 KB | 1 | 2 |
+| [99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-01-30 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 38.0 KB | 0 | 1 |
+| [99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf) | cc-coeurdegaronne.fr | 2023-02-14 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 45.8 KB | 0 | 1 |
+| [99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf) | cc-coeurdegaronne.fr | 2023-02-21 | — | Sivom de Rieumes | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 88 | 3.0 MB | 27791 | 29 |
+| [A-Rapport-denquete-unique-evolution-PLU-Savere.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A-Rapport-denquete-unique-evolution-PLU-Savere.pdf) | cc-coeurdegaronne.fr | 2025-06-26 | — | Jean-René Odier | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 26 | 1.2 MB | 6133 | 13 |
+| [A2-Annexes-rapport-Saveres.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A2-Annexes-rapport-Saveres.pdf) | cc-coeurdegaronne.fr | 2025-06-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 36 | 5.4 MB | 10528 | 65 |
+| [ARRETE-2.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/ARRETE-2.pdf) | cc-coeurdegaronne.fr | 2024-02-08 | S22C-824020816420 | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 196.5 KB | 0 | 34 |
+| [AVIS-DE-PUBLICATION.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/AVIS-DE-PUBLICATION.pdf) | cc-coeurdegaronne.fr | 2024-02-08 | S22C-824020816421 | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 68.8 KB | 0 | 36 |
+| [Affiche-2024.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/Affiche-2024.pdf) | cc-coeurdegaronne.fr | 2024-03-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 576.0 KB | 80 | 4 |
+| [Affiche-Contactez-nous-27.07.2023.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/10/Affiche-Contactez-nous-27.07.2023.pdf) | cc-coeurdegaronne.fr | 2023-07-27 | — | Béatrice Jourda | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 153.1 KB | 64 | 2 |
+| [Aides-employeur-Septembre-2025.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Aides-employeur-Septembre-2025.pdf) | cc-coeurdegaronne.fr | 2025-09-08 | LES AIDES FINANCIERES (PAJE) | admprof | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 278.9 KB | 2054 | 9 |
+| [Annexe-1_PADD-debattu.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-1_PADD-debattu.pdf) | cc-coeurdegaronne.fr | 2021-12-22 | — | Atelier Urbain | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 19 | 1.2 MB | 3841 | 61 |
+| [Annexe-2_Zonage-de-la-carte-communale.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-2_Zonage-de-la-carte-communale.pdf) | cc-coeurdegaronne.fr | 2020-07-16 | S30C-0i20071614550 | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 1.1 MB | 0 | 323 |
+| [Annexe-3_Zonage-PLU_En-cours.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-3_Zonage-PLU_En-cours.pdf) | cc-coeurdegaronne.fr | 2022-04-08 | — | Atelier Urbain | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 3.2 MB | 114 | 14 |
+| [Annexe-4_Cartographie-de-superposition.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-4_Cartographie-de-superposition.pdf) | cc-coeurdegaronne.fr | 2022-03-31 | — | Mathilde REDON | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 533.3 KB | 82 | 2 |
+| [Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf) | cc-coeurdegaronne.fr | 2025-09-12 | — | MBARTHES | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 260.1 KB | 167 | 1 |
+| [Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/03/Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf) | cc-coeurdegaronne.fr | 2022-02-22 | Journal officiel de la République française - N° 228 du 30 septembre 2021 | Direction de l'information légale et administrative | Lois et décrets | ISSN:0373-0425 | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 192.2 KB | 5042 | 6 |
+| [Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf) | cc-coeurdegaronne.fr | 2023-02-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 3 | 1.3 MB | 564 | 9 |
+| [Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf) | cc-coeurdegaronne.fr | 2025-07-09 | — | Caroline Boutonnet | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 320.4 KB | 358 | 2 |
+| [Avis_enquete_PNRCBP.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/02/Avis_enquete_PNRCBP.pdf) | cc-coeurdegaronne.fr | 2025-02-20 | Microsoft Word - Avis_enquete_PNRCBP-140325 | GOUNOT Cecile | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 714.9 KB | 1660 | 3 |
+| [B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf) | cc-coeurdegaronne.fr | 2025-06-26 | — | Jean-René Odier | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 14 | 519.3 KB | 4072 | 4 |
+| [BP-2020-PDR.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PDR.pdf) | cc-coeurdegaronne.fr | 2020-02-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 44 | 1.7 MB | 7893 | 0 |
+| [BP-2020-PHOTOVOLTAIQUE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PHOTOVOLTAIQUE.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 47 | 2.0 MB | 10854 | 0 |
+| [BP-2020-ZA-BOURGAIL-BERAT.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOURGAIL-BERAT.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 2.2 MB | 12758 | 0 |
+| [BP-2020-ZA-BOUSSENS.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOUSSENS.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 55 | 2.2 MB | 12574 | 0 |
+| [BP-2020-ZA-DESCAILLAUX.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-DESCAILLAUX.pdf) | cc-coeurdegaronne.fr | 2020-02-25 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 60 | 2.4 MB | 14992 | 0 |
+| [BP-2020-ZA-MARTRES-TOLOSANE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-MARTRES-TOLOSANE.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 2.3 MB | 13081 | 0 |
+| [BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf) | cc-coeurdegaronne.fr | 2020-02-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 55 | 2.3 MB | 12754 | 0 |
+| [BP-2022-OTI-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-OTI-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 119 | 1.0 MB | 36070 | 0 |
+| [BP-2022-PDR-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PDR-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 118 | 1.0 MB | 35253 | 0 |
+| [BP-2022-PHOTOVOLTAIQUE-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PHOTOVOLTAIQUE-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 52 | 245.5 KB | 12226 | 0 |
+| [BP-2022-PRINCIPAL-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PRINCIPAL-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 156 | 1.4 MB | 53811 | 0 |
+| [BP-2022-ZA-BOURGAIL-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOURGAIL-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35458 | 0 |
+| [BP-2022-ZA-BOUSSENS-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOUSSENS-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 34722 | 0 |
+| [BP-2022-ZA-DESCAILLAUX-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-DESCAILLAUX-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35555 | 0 |
+| [BP-2022-ZA-LHERM-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-LHERM-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35318 | 0 |
+| [BP-2022-ZA-MARTRES-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-MARTRES-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35097 | 0 |
+| [BP-2022-ZA-STE-FOY-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-STE-FOY-VOTE.pdf) | cc-coeurdegaronne.fr | 2022-04-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1.0 MB | 35738 | 0 |
+| [BP-2023-BP-PRINCIPAL-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-BP-PRINCIPAL-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 156 | 1.3 MB | 53508 | 0 |
+| [BP-2023-OTI-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-OTI-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 1017.8 KB | 35126 | 0 |
+| [BP-2023-PDR-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PDR-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 116 | 1005.9 KB | 34229 | 0 |
+| [BP-2023-PHOTOVOLTAIQUE-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PHOTOVOLTAIQUE-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 54 | 253.9 KB | 12396 | 0 |
+| [BP-2023-ZA-BERAT-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BERAT-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1005.4 KB | 34474 | 0 |
+| [BP-2023-ZA-BOUSSENS-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BOUSSENS-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1003.5 KB | 34085 | 0 |
+| [BP-2023-ZA-DESCAILLAUX.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-DESCAILLAUX.pdf) | cc-coeurdegaronne.fr | 2023-03-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 102 | 958.5 KB | 32451 | 0 |
+| [BP-2023-ZA-LHERM-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-LHERM-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1004.5 KB | 34378 | 0 |
+| [BP-2023-ZA-MARTRES-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-MARTRES-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1005.0 KB | 34140 | 0 |
+| [BP-2023-ZA-STE-FOY-VOTE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-STE-FOY-VOTE.pdf) | cc-coeurdegaronne.fr | 2023-04-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 115 | 1005.9 KB | 34473 | 0 |
+| [BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf) | cc-coeurdegaronne.fr | 2019-05-28 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 117 | 2.5 MB | 38822 | 0 |
+| [BP-CIAS-2026-SAAD-A-imprimer.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SAAD-A-imprimer.pdf) | cc-coeurdegaronne.fr | 2025-12-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 15 | 5.5 MB | 4671 | 3 |
+| [BP-CIAS-2026-SCELLE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SCELLE.pdf) | cc-coeurdegaronne.fr | 2025-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 156 | 687.3 KB | 29696 | 0 |
+| [BP-CIAS-PDR-2026-SCELLE.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-PDR-2026-SCELLE.pdf) | cc-coeurdegaronne.fr | 2025-12-12 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 155 | 661.8 KB | 27969 | 0 |
+| [BP-OTI-2025.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-OTI-2025.pdf) | cc-coeurdegaronne.fr | 2025-03-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 140 | 616.5 KB | 28086 | 0 |
+| [BP-OTI.pdf](https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-OTI.pdf) | cc-coeurdegaronne.fr | 2026-02-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 159 | 700.6 KB | 30188 | 0 |
+| [7577Birth-certificates-and-source-documents-FAQ.pdf](https://www.govt.nz/assets/Documents/Government-A-Z/7577Birth-certificates-and-source-documents-FAQ.pdf) | govt.nz | 2020-10-06 | — | Claire Mortimer | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 97.8 KB | 353 | 0 |
+| [7684Declaration-interpret-or-translate-marriage-or-civil-union-BDM35T.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/7684Declaration-interpret-or-translate-marriage-or-civil-union-BDM35T.pdf) | govt.nz | 2025-06-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 1 | 179.0 KB | 252 | 1 |
+| [Application-by-donor-offspring-or-guardian-to-access-information-on-human-assisted-reproductive-technology-register-BDM404.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Application-by-donor-offspring-or-guardian-to-access-information-on-human-assisted-reproductive-technology-register-BDM404.pdf) | govt.nz | 2025-06-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | 191.8 KB | 1397 | 3 |
+| [Application-by-donor-to-access-information-on-human-assisted-reproductive-technology-register-BDM403.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Application-by-donor-to-access-information-on-human-assisted-reproductive-technology-register-BDM403.pdf) | govt.nz | 2025-06-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 5 | 182.0 KB | 1155 | 3 |
+| [Application-for-NZ-citizenship-Samoan-adult-and-child-Samoan-language.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-NZ-citizenship-Samoan-adult-and-child-Samoan-language.pdf) | govt.nz | 2025-11-20 | GNT006 Application for New Zealand citizenship by grant - Samoan (Samoan language) | {'Department of Internal Affairs – Te Tari Taiwhenua'} | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 20 | 2.0 MB | 9918 | 7 |
+| [Application-for-certificate-of-no-impediment-to-marriage-or-civil-union-BDM189.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Application-for-certificate-of-no-impediment-to-marriage-or-civil-union-BDM189.pdf) | govt.nz | 2026-06-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | 11 | 271.9 KB | 2678 | 2 |
+| [Application-for-certified-copy-of-descent-registration-certificate.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-certified-copy-of-descent-registration-certificate.pdf) | govt.nz | 2026-05-04 | DRG003 Application for certified copy of descent registration certificate | Department of Internal Affairs – Te Tari Taiwhenua | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 279.1 KB | 1506 | 1 |
+| [Application-for-confirmation-of-New-Zealand-citizenship-by-grant.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-confirmation-of-New-Zealand-citizenship-by-grant.pdf) | govt.nz | 2026-06-17 | CIT006 Application for a confirmation of New Zealand citizenship | Department of Internal Affairs – Te Tari Taiwhenua | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 208.1 KB | 1897 | 2 |
+| [Application-for-confirmation-of-birth-in-New-Zealand.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-confirmation-of-birth-in-New-Zealand.pdf) | govt.nz | 2025-12-09 | CIT107 Application for confirmation of birth in New Zealand | {'Department of Internal Affairs – Te Tari Taiwhenua'} | Application for confirmation of birth in New Zealand | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 4 | 576.6 KB | 1378 | 6 |
+| [Application-for-replacement-of-New-Zealand-citizenship-certificate.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-for-replacement-of-New-Zealand-citizenship-certificate.pdf) | govt.nz | 2026-06-17 | CIT009 Application for replacement of New Zealand citizenship certificate | Department of Internal Affairs – Te Tari Taiwhenua | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 227.2 KB | 2171 | 2 |
+| [Application-of-Denial-of-NZ-Citizenship-Letter-of-Denial.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Application-of-Denial-of-NZ-Citizenship-Letter-of-Denial.pdf) | govt.nz | 2026-07-07 | CIT005 Application for denial of New Zealand citizenship_251121 | Department of Internal Affairs | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 243.9 KB | 1673 | 2 |
+| [Application-to-lodge-caveat-and-notice-of-objection-BDM505.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-lodge-caveat-and-notice-of-objection-BDM505.pdf) | govt.nz | 2026-06-16 | BDM505 Application to lodge a caveat and notice of objection | Department of Internal Affairs – Te Tari Taiwhenua | Application to lodge a caveat and notice of objection against the issue of a marriage or civil union licence, or a Registrar performing a ceremony | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 244.1 KB | 448 | 2 |
+| [Application-to-record-update-donor-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM401.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-record-update-donor-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM401.pdf) | govt.nz | 2026-06-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 6 | 181.3 KB | 1280 | 2 |
+| [Application-to-record-update-donor-offspring-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM402.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-record-update-donor-offspring-details-on-human-assisted-reproductive-technology-register-voluntary-scheme-BDM402.pdf) | govt.nz | 2026-06-29 | BDm402 Application to record or update donor-conceived person's details_260629 | Department of Internal Affairs | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 7 | 200.9 KB | 1597 | 2 |
+| [Application-to-register-a-name-change-BDM120.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-register-a-name-change-BDM120.pdf) | govt.nz | 2026-06-17 | BDM120 Application to register a name change | Department of Internal Affairs – Te Tari Taiwhenua | BDM120 Application to register a name change | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 354.7 KB | 3626 | 8 |
+| [Application-to-register-a-name-change-within-2-years-of-birth-BDM36.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Application-to-register-a-name-change-within-2-years-of-birth-BDM36.pdf) | govt.nz | 2026-06-17 | BDM36 Application to register a name change aged 2 and under | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 330.1 KB | 2687 | 7 |
+| [Authorisation-for-disclosure-of-information-to-agent-BDM405.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Authorisation-for-disclosure-of-information-to-agent-BDM405.pdf) | govt.nz | 2025-06-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 105.5 KB | 116 | 1 |
+| [BDM121-Application-to-register-a-name-change-aged-16-and-17.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/BDM121-Application-to-register-a-name-change-aged-16-and-17.pdf) | govt.nz | 2026-06-17 | BDM121 Application to register a name change Aged 16 and 17 | Department of Internal Affairs – Te Tari Taiwhenua | BDM121 Application to register a name change aged 16 and 17 | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 376.7 KB | 3795 | 8 |
+| [BDM123-Application-to-register-a-name-change-aged-15-and-under.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/BDM123-Application-to-register-a-name-change-aged-15-and-under.pdf) | govt.nz | 2026-06-17 | BDM123 Application to register a name change Aged 15 and under | Department of Internal Affairs – Te Tari Taiwhenua | BDM123 Application to register a name change aged 15 and under | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 343.6 KB | 4661 | 8 |
+| [BDM28-notification-of-death-for-registration.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/BDM28-notification-of-death-for-registration.pdf) | govt.nz | 2026-05-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 14 | 470.9 KB | 2445 | 2 |
+| [BDM402-Application-to-record-or-update-donor-conceived-persons-details-.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/BDM402-Application-to-record-or-update-donor-conceived-persons-details-.pdf) | govt.nz | 2025-06-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | 212.4 KB | 1586 | 2 |
+| [BDM43-Notification-of-overseas-dissolution.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/BDM43-Notification-of-overseas-dissolution.pdf) | govt.nz | 2024-01-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 5 | 151.6 KB | 886 | 2 |
+| [BDM70-Application-to-update-sex-marker-on-birth-certificate.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM70-Application-to-update-sex-marker-on-birth-certificate.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 11 | 319.4 KB | 2267 | 7 |
+| [BDM71-Application-to-register-a-name-change-and-update-sex-marker-on-birth-certificate.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM71-Application-to-register-a-name-change-and-update-sex-marker-on-birth-certificate.pdf) | govt.nz | 2026-06-16 | BDM71 Application to register a name change and update sex marker on birth certificate | Department of Internal Affairs – Te Tari Taiwhenua | BDM71 Application to register a name change and update sex marker on birth certificate | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 354.3 KB | 3267 | 7 |
+| [BDM72-Application-to-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM72-Application-to-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 13 | 357.9 KB | 3299 | 7 |
+| [BDM73-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM73-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-aged-16-and-17.pdf) | govt.nz | 2026-06-16 | BDM73 Application to register a name change and update sex marker on birth certificate aged 16 and 17 | Department of Internal Affairs – Te Tari Taiwhenua | BDM73 Application to register a name change and update sex marker on birth certificate aged 16 and 17 | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 13 | 361.2 KB | 3441 | 7 |
+| [BDM74-Application-to-update-sex-marker-on-birth-certificate-aged-15-and-under.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM74-Application-to-update-sex-marker-on-birth-certificate-aged-15-and-under.pdf) | govt.nz | 2026-06-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 376.0 KB | 3572 | 7 |
+| [BDM75-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-15-and-under.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM75-Application-to-register-name-change-and-update-sex-marker-on-birth-certificate-15-and-under.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 15 | 403.4 KB | 4260 | 7 |
+| [BDM76-Identity-Referee-Declaration.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/BDM76-Identity-Referee-Declaration.pdf) | govt.nz | 2025-06-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 123.3 KB | 489 | 1 |
+| [CIT101-Application-for-non-evidentiary-letter-of-New-Zealand-citizenship-status-240716.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/CIT101-Application-for-non-evidentiary-letter-of-New-Zealand-citizenship-status-240716.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | 7 | 184.0 KB | 1493 | 2 |
+| [Deposit-an-overseas-death-certificate.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Deposit-an-overseas-death-certificate.pdf) | govt.nz | 2026-04-29 | BDM42 Deposit of overseas death certificate | Department of Internal Affairs – Te Tari Taiwhenua | Deposit of overseas death certificate | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 265.0 KB | 1155 | 2 |
+| [Eligibility-chart-English.pdf](https://www.govt.nz/assets/Eligibility-chart-English.pdf) | govt.nz | 2024-11-27 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 110.1 KB | 0 | 1 |
+| [Eligibility-chart-Samoan.pdf](https://www.govt.nz/assets/Eligibility-chart-Samoan.pdf) | govt.nz | 2024-11-27 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 118.8 KB | 0 | 1 |
+| [Findings-of-survey-of-independent-celebrants-conducted-in-January-2020.pdf](https://www.govt.nz/assets/Documents/Celebrants/Findings-of-survey-of-independent-celebrants-conducted-in-January-2020.pdf) | govt.nz | 2020-08-31 | — | Jonathan Goode | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 54 | 2.4 MB | 10634 | 25 |
+| [GNT008-Application-for-New-Zealand-citizenship-by-grant-Samoan-child.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/GNT008-Application-for-New-Zealand-citizenship-by-grant-Samoan-child.pdf) | govt.nz | 2026-06-08 | GNT008 Application for New Zealand citizenship by grant - Samoan child | Department of Internal Affairs – Te Tari Taiwhenua | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 20 | 393.4 KB | 4857 | 2 |
+| [General-identity-declaration-form-BDM130.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/General-identity-declaration-form-BDM130.pdf) | govt.nz | 2025-06-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 124.7 KB | 504 | 1 |
+| [Guide-to-being-a-celebrant.pdf](https://www.govt.nz/assets/Documents/Celebrants/Guide-to-being-a-celebrant.pdf) | govt.nz | 2025-06-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 17 | 1.1 MB | 4221 | 11 |
+| [Independent-celebrant-good-character-form.pdf](https://www.govt.nz/assets/Documents/Celebrants/Independent-celebrant-good-character-form.pdf) | govt.nz | 2025-04-09 | BDM516 Application for appointment as an independent marriage celebrant or civil union celebrant - Good character | Department of Internal Affairs – Te Tari Taiwhenua | Application for appointment as an independent marriage celebrant or civil union celebrant
+Good character
+Independent | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 120.5 KB | 241 | 1 |
+| [Independent-celebrant-support-letter-checklist.pdf](https://www.govt.nz/assets/Documents/Celebrants/Independent-celebrant-support-letter-checklist.pdf) | govt.nz | 2022-12-05 | — | Jasna Brackovic | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 92.9 KB | 321 | 1 |
+| [International-Surrogacy-Fact-Sheet.pdf](https://www.orangatamariki.govt.nz/assets/Uploads/Adoptions/Surrogacy-and-adoption/International-Surrogacy-Fact-Sheet.pdf) | govt.nz | 2025-09-25 | — | Christal Anderson | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 8 | 281.0 KB | 3454 | 4 |
+| [MOJ0501-Childrens-Guide-A5-Aug18-WEB.pdf](https://www.justice.govt.nz/assets/MOJ0501-Childrens-Guide-A5-Aug18-WEB.pdf) | govt.nz | 2018-10-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 16 | 2.2 MB | 2128 | 10 |
+| [Make-a-complaint-about-a-celebrant.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Make-a-complaint-about-a-celebrant.pdf) | govt.nz | 2021-12-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 178.2 KB | 527 | 1 |
+| [NZ-Verify-how-to-guide.pdf](https://www.govt.nz/assets/NZ-Verify-how-to-guide.pdf) | govt.nz | 2026-06-09 | NZ Verify Whakatūturu — How-to guide | {'NZ Verify Whakatūturu'} | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 130.3 KB | 459 | 1 |
+| [Nomination-of-marriage-celebrant-by-approved-organisation-declaration-BDM159.pdf](https://www.govt.nz/assets/Documents/Celebrants/Nomination-of-marriage-celebrant-by-approved-organisation-declaration-BDM159.pdf) | govt.nz | 2025-11-28 | BDM159 (Declaration) Nomination of marriage celebrant by approved organisation | wassilio | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 1 | 234.9 KB | 261 | 1 |
+| [Notice-of-intended-civil-union-BDM360.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-civil-union-BDM360.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 11 | 255.5 KB | 2868 | 1 |
+| [Notice-of-intended-civil-union-change-of-relationship-from-marriage-BDM359.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-civil-union-change-of-relationship-from-marriage-BDM359.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | 231.4 KB | 2727 | 1 |
+| [Notice-of-intended-civil-union-where-both-parties-ordinarily-resident-outside-NZ-BDM358.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-civil-union-where-both-parties-ordinarily-resident-outside-NZ-BDM358.pdf) | govt.nz | 2026-06-17 | BDM358 Notice of intended civil union (where both parties ordinarily resident outside NZ) | Department of Internal Affairs – Te Tari Taiwhenua | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 13 | 286.4 KB | 4069 | 2 |
+| [Notice-of-intended-marriage-BDM60.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-BDM60.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | Warn | ❌ Fail | ❌ Fail | 14 | 312.7 KB | 3332 | 2 |
+| [Notice-of-intended-marriage-change-of-relationship-from-civil-union-BDM59.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-change-of-relationship-from-civil-union-BDM59.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 10 | 226.1 KB | 2810 | 1 |
+| [Notice-of-intended-marriage-when-marrying-outside-NZ-BDM57.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-when-marrying-outside-NZ-BDM57.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | 232.5 KB | 2031 | 1 |
+| [Notice-of-intended-marriage-where-both-parties-ordinarily-resident-outside-NZ-BDM58.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Notice-of-intended-marriage-where-both-parties-ordinarily-resident-outside-NZ-BDM58.pdf) | govt.nz | 2026-06-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | ❌ Fail | 13 | 397.5 KB | 3946 | 2 |
+| [Organisation-celebrant-good-character-form.pdf](https://www.govt.nz/assets/Documents/Celebrants/Organisation-celebrant-good-character-form.pdf) | govt.nz | 2025-04-09 | BDM515 Application for appointment as approved marriage celebrant - Good character | Department of Internal Affairs – Te Tari Taiwhenua | Application for appointment as approved marriage celebrant
+Good character
+Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 115.0 KB | 219 | 1 |
+| [Rates-Rebates-application-form-2026-2027-.pdf](https://www.govt.nz/assets/Documents/Housing-and-property/Rates-Rebates-application-form-2026-2027-.pdf) | govt.nz | 2026-07-02 | Rates rebate application form | Department of Internal Affairs – Te Tari Taiwhenua | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | Warn | ❌ Fail | 6 | 237.8 KB | 1735 | 2 |
+| [Rates-rebate-declaration-retirement-village.pdf](https://www.govt.nz/assets/Documents/Housing-and-property/Rates-rebate-declaration-retirement-village.pdf) | govt.nz | 2026-06-29 | Retirement village resident rates rebate certificate 2026-2027 | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 139.0 KB | 480 | 4 |
+| [Rates-rebates-declaration-company-share-apartment.pdf](https://www.govt.nz/assets/Documents/Housing-and-property/Rates-rebates-declaration-company-share-apartment.pdf) | govt.nz | 2026-06-29 | Company-share apartment rates rebate declaration | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | 121.2 KB | 624 | 2 |
+| [Registry-office-ceremony-civil-union-statements.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Registry-office-ceremony-civil-union-statements.pdf) | govt.nz | 2020-05-17 | http://www | millarva | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 4 | 191.6 KB | 1828 | 1 |
+| [Registry-office-ceremony-marriage-vows.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Registry-office-ceremony-marriage-vows.pdf) | govt.nz | 2024-05-01 | http://www | millarva | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 3 | 257.5 KB | 1183 | 1 |
+| [Report-on-the-review-of-appointment-process-for-independent-marriage-and-civil-union-celebrants.pdf](https://www.govt.nz/assets/Documents/Celebrants/Report-on-the-review-of-appointment-process-for-independent-marriage-and-civil-union-celebrants.pdf) | govt.nz | 2020-08-31 | — | Jonathan Goode | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 9 | 184.2 KB | 2749 | 1 |
+| [Request-a-document-authentication-or-apostille.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Request-a-document-authentication-or-apostille.pdf) | govt.nz | 2026-06-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 11 | 220.7 KB | 2276 | 2 |
+| [Request-for-NZ-birth-certificate-or-printout-form-BDM93B.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-birth-certificate-or-printout-form-BDM93B.pdf) | govt.nz | 2026-06-17 | BDM93B Request for New Zealand birth certificate or copy of record | Department of Internal Affairs – Te Tari Taiwhenua | Request for New Zealand birth certificate or copy of record | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 513.9 KB | 2210 | 11 |
+| [Request-for-NZ-civil-union-certificate-or-printout-form-BDM93C.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-civil-union-certificate-or-printout-form-BDM93C.pdf) | govt.nz | 2026-06-17 | BDM93C Request for New Zealand civil union certificate or copy of record | Department of Internal Affairs – Te Tari Taiwhenua | Request for New Zealand civil union certificate or copy of record | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 11 | 286.8 KB | 1875 | 4 |
+| [Request-for-NZ-death-certificate-or-printout-form-BDM93D.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-death-certificate-or-printout-form-BDM93D.pdf) | govt.nz | 2026-06-17 | BDM93D Request for New Zealand death certificate or copy of record | Department of Internal Affairs – Te Tari Taiwhenua | Request for New Zealand death certificate or copy of record | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 11 | 365.6 KB | 1963 | 5 |
+| [Request-for-NZ-marriage-certificate-or-printout-form-BDM93M.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-marriage-certificate-or-printout-form-BDM93M.pdf) | govt.nz | 2026-06-17 | BDM93M Request for New Zealand marriage certificate or copy of record | Department of Internal Affairs – Te Tari Taiwhenua | Request for New Zealand marriage certificate or copy of record | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 11 | 364.9 KB | 2026 | 5 |
+| [Request-for-NZ-name-change-certificate-or-certified-true-copy-of-declaration-BDM93N.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-NZ-name-change-certificate-or-certified-true-copy-of-declaration-BDM93N.pdf) | govt.nz | 2026-06-17 | BDM93N Request for New Zealand name change certificate | Department of Internal Affairs – Te Tari Taiwhenua | Request for New Zealand name change certificate | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | 11 | 274.4 KB | 1812 | 3 |
+| [Request-for-information-under-the-Privacy-Act.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Request-for-information-under-the-Privacy-Act.pdf) | govt.nz | 2025-07-08 | CIT105 Request for information under the Privacy Act | Department of Internal Affairs – Te Tari Taiwhenua | This application form is for use by people wanting to find out about their own citizenship status, or the citizenship status of a family member | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ❌ Fail | ❌ Fail | 1 | 399.5 KB | 154 | 1 |
+| [Request-for-pre-adoptive-NZ-birth-certificate-BDM451.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Request-for-pre-adoptive-NZ-birth-certificate-BDM451.pdf) | govt.nz | 2025-09-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | 227.0 KB | 2232 | 4 |
+| [Request-for-translation.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Request-for-translation.pdf) | govt.nz | 2025-11-28 | Request for translation | Department of Internal Affairs – Te Tari Taiwhenua | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | ✅ Pass | ❌ Fail | 2 | 317.4 KB | 338 | 1 |
+| [Request-reinstate-or-withdraw-a-non-disclosure-direction-form-BDM132.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Request-reinstate-or-withdraw-a-non-disclosure-direction-form-BDM132.pdf) | govt.nz | 2024-03-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | 5 | 313.3 KB | 2062 | 3 |
+| [Request-to-search-access-register-form-BDM133.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/Request-to-search-access-register-form-BDM133.pdf) | govt.nz | 2025-08-21 | BDM133 Request to search access register | Department of Internal Affairs – Te Tari Taiwhenua | Request to search access register | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 5 | 162.1 KB | 1066 | 2 |
+| [Statutory-declaration-for-downloaded-documents.pdf](https://www.govt.nz/assets/Documents/Law-crime-and-justice/Statutory-declaration-for-downloaded-documents.pdf) | govt.nz | 2016-09-23 | Statutory Declaration for downloaded documents | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 25.3 KB | 163 | 0 |
+| [Statutory-declaration.pdf](https://www.govt.nz/assets/Documents/Law-crime-and-justice/Statutory-declaration.pdf) | govt.nz | 2016-09-23 | Statutory Declaration | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 55.3 KB | 135 | 0 |
+| [TIME_OUT_Guide-2.pdf](https://carers.net.nz/wp-content/uploads/2014/07/TIME_OUT_Guide-2.pdf) | govt.nz *(ext: carers.net.nz)* | 2015-09-17 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 32 | 1.3 MB | 10402 | 37 |
+| [Transfer_of_Entitlement.pdf](https://consumer.licensys.co.nz/dist/pdfs/Transfer_of_Entitlement.pdf) | govt.nz *(ext: consumer.licensys.co.nz)* | 2018-03-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ✅ Pass | 1 | 34.2 KB | 362 | 1 |
+| [Western-Samoa-Bill-fact-sheet-English.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Western-Samoa-Bill-fact-sheet-English.pdf) | govt.nz | 2024-11-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 1 | 140.0 KB | 383 | 0 |
+| [Western-Samoa-Bill-fact-sheet-Samoan.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/Western-Samoa-Bill-fact-sheet-Samoan.pdf) | govt.nz | 2024-11-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 1 | 138.4 KB | 614 | 0 |
+| [What-is-Rates-Rebate-large-print.pdf](https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/What-is-Rates-Rebate-large-print.pdf) | govt.nz | 2026-05-24 | Book Title | Fozia Mannon | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 5 | 143.4 KB | 489 | 1 |
+| [What-is-a-rates-rebate-Easy-Read.pdf](https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/What-is-a-rates-rebate-Easy-Read.pdf) | govt.nz | 2026-06-22 | — | Rachael Wiltshire | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 10 | 995.1 KB | 626 | 51 |
+| [Who-Can-Get-A-Rates-Rebate-Easy-Read.pdf](https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/Who-Can-Get-A-Rates-Rebate-Easy-Read.pdf) | govt.nz | 2026-06-22 | — | Rachael Wiltshire | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 35 | 2.4 MB | 2221 | 148 |
+| [Who-is-eligible-to-get-rates-rebates-large-print.pdf](https://www.govt.nz/assets/Documents/Housing-and-property/Alternate-formats-rates-rebate/Who-is-eligible-to-get-rates-rebates-large-print.pdf) | govt.nz | 2026-05-24 | Book Title | Fozia Mannon | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 10 | 163.3 KB | 1166 | 1 |
+| [access-to-and-disclosure-of-identifying-information-BDM406.pdf](https://www.govt.nz/assets/Documents/Family-and-whanau/access-to-and-disclosure-of-identifying-information-BDM406.pdf) | govt.nz | 2025-06-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | 168.1 KB | 952 | 2 |
+| [application-for-new-zealand-citizenship-by-descent-and-passport-child.pdf](https://www.govt.nz/assets/Documents/Passports-citizenship-and-identity/application-for-new-zealand-citizenship-by-descent-and-passport-child.pdf) | govt.nz | 2026-03-31 | DRG001 Application for New Zealand citizenship by descent and passport (Child) | Department of Internal Affairs – Te Tari Taiwhenua | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 21 | 472.2 KB | 5316 | 2 |
+| [breastfeeding-in-the-workplace-guide-for-employers.pdf](https://www.employment.govt.nz/assets/uploads/documents/pay-and-hours/breastfeeding-in-the-workplace-guide-for-employers.pdf) | govt.nz | 2016-06-17 | Breastfeeding in the workplace | Employment New Zealand | Ministry of Business, Innovation and Employment | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | 8 | 370.4 KB | 3638 | 9 |
 | [10.1177_1090198120922942.pdf](https://pmc.ncbi.nlm.nih.gov/articles/PMC7301291/pdf/10.1177_1090198120922942.pdf) | lib.pstcc.edu *(ext: pmc.ncbi.nlm.nih.gov)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 1.8 KB | — | — |
 | [184368.pdf](https://cdn.thomasnet.com/ccp/10076910/184368.pdf) | lib.pstcc.edu *(ext: cdn.thomasnet.com)* | 2014-04-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 3 | 752.0 KB | 680 | 5 |
 | [Analyzing_Primary_Sources.pdf](https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf) | lib.pstcc.edu *(ext: loc.gov)* | 2012-11-14 | Teacher's Guide: Analyzing Primary Sources | Teacher Resources - Library of Congress | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | 1 | 48.6 KB | 360 | 1 |
@@ -6259,6 +6419,37 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [circ61.pdf](https://copyright.gov/circs/circ61.pdf) | lib.pstcc.edu *(ext: copyright.gov)* | 2021-02-25 | Circular 61 Copyright Registration of Computer Programs | United States Copyright Office | {'Copyright', 'copyright education', 'registration', 'computer programs'} | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 8 | 108.8 KB | 3276 | 0 |
 | [gbaa114.pdf](https://pmc.ncbi.nlm.nih.gov/articles/PMC7454923/pdf/gbaa114.pdf) | lib.pstcc.edu *(ext: pmc.ncbi.nlm.nih.gov)* | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | — | ❌ Fail | None | 1.8 KB | — | — |
 | [principles.pdf](https://www.ala.org/sites/default/files/acrl/content/publications/whitepapers/principles.pdf) | lib.pstcc.edu *(ext: ala.org)* | 2000-07-14 | principles | dmueller | principles | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 1 | 54.0 KB | 518 | 0 |
+| [22-088_EEOC_KnowYourRights6.12.pdf](https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf) | wellsfargo.com *(ext: eeoc.gov)* | 2023-06-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 439.7 KB | — | — |
+| [22-088_EEOC_KnowYourRightsSp6.12.pdf](https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRightsSp6.12.pdf) | wellsfargo.com *(ext: eeoc.gov)* | 2023-06-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 385.8 KB | — | — |
+| [542661.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/542661.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-02-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 1.2 MB | — | — |
+| [544260.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544260.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-05-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 23 | 578.8 KB | — | — |
+| [544408.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544408.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-05-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | 22 | 529.4 KB | — | — |
+| [578639.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/578639.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-05-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | 838.3 KB | — | — |
+| [579609.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/579609.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2022-03-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 250.5 KB | — | — |
+| [583026.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/583026.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2024-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 1.3 MB | — | — |
+| [585793.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585793.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-03-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1.9 MB | — | — |
+| [585794.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585794.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2021-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 195.6 KB | — | — |
+| [585797.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585797.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2025-07-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 12 | 1.3 MB | — | — |
+| [586360.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586360.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-06-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 884.8 KB | — | — |
+| [586361.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586361.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2024-08-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 1.4 MB | — | — |
+| [587740.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/587740.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2021-12-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 166.9 KB | — | — |
+| [588287.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/588287.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-04-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 906.4 KB | — | — |
+| [589852.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/589852.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-04-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 708.6 KB | — | — |
+| [590907.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590907.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2025-07-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 840.5 KB | — | — |
+| [590921.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2025-11-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 731.7 KB | — | — |
+| [593931.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2023-08-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 3 | 7.9 MB | — | — |
+| [595906.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2022-01-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181.8 KB | — | — |
+| [ADD-CA-EN.pdf](https://www.wellsfargo.com/assets/pdf/small-business/ADD-CA-EN.pdf) | wellsfargo.com | 2026-05-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 139.6 KB | — | — |
+| [DMCA-notice.pdf](https://www.wellsfargo.com/assets/pdf/privacy-security/DMCA-notice.pdf) | wellsfargo.com | 2021-09-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 173.5 KB | — | — |
+| [california.pdf](https://www.wellsfargo.com/assets/pdf/es/small-business/deposits/online-disclosures/addenda/california.pdf) | wellsfargo.com | 2026-05-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 198.8 KB | — | — |
+| [fetch-pdf-0.pdf](https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013&subProductCode=ANY) | wellsfargo.com | 2025-09-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 267.3 KB | — | — |
+| [fetch-pdf-1.pdf](https://www.wellsfargo.com/fetch-pdf?formNumber=CCB2018C&subProductCode=ANY) | wellsfargo.com | 2025-09-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 44 | 528.1 KB | — | — |
+| [fetch-pdf-2.pdf](https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013SP&subProductCode=ANY) | wellsfargo.com | 2025-09-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 209.7 KB | — | — |
+| [fetch-pdf.pdf](https://www.wellsfargo.com/fetch-pdf?documentName=Account%20Addenda&subProductCode=ANY) | wellsfargo.com | 2026-06-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 189.7 KB | — | — |
+| [fw8ben.pdf](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) | wellsfargo.com *(ext: irs.gov)* | 2021-09-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 66.1 KB | — | — |
+| [fw9.pdf](https://www.irs.gov/pub/irs-pdf/fw9.pdf) | wellsfargo.com *(ext: irs.gov)* | 2024-03-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 137.5 KB | — | — |
+| [set-up-direct-deposit-CNS3519.pdf](https://www.wellsfargo.com/assets/pdf/personal/checking/set-up-direct-deposit-CNS3519.pdf) | wellsfargo.com | 2024-09-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 177.8 KB | — | — |
+| [us_consumer_privacy_notice_english-0.pdf](https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com *(ext: www08.wellsfargomedia.com)* | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 138.3 KB | — | — |
 
 ## Files with Errors or Notes
 
@@ -39628,11 +39819,41 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, tagged, lang, 
 
+### elder-financial-abuse.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf
+- **Status**: analysed
+- fonts:/QCDNQR+WellsFargoSans-Regular, /QCDNQR+WellsFargoSans-Italic, /QCDNQR+WellsFargoSans-CondensedItalic, /QCDNQR+WellsFargoSans-Light, /QCDNQR+WellsFargoSans-SemiBold, /QCDNQR+WellsFargoSans-Condensed
+
+### elite-visa-signature-guide-to-benefits.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf
+- **Status**: analysed
+- fonts:/MHUEYO+MyriadPro-Regular, /MHUEYO+WellsFargoSans-Bold, /MHUEYO+WellsFargoSans-BoldItalic, /MHUEYO+WellsFargoSans-Regular, /MHUEYO+WellsFargoSans-Italic, /MHUEYO+WellsFargoSans-Condensed, /MHUEYO+WellsFargoSans-SemiBold, /MHUEYO+WellsFargoSans-Light
+
 ### identity-theft-kit.pdf
 
 - **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
 - **Status**: analysed
-- lang, 
+- title, tagged, tagged-content-fail, lang, fonts:/AAAAAJ+WellsFargoSans-Condensed, /NEETJX+WellsFargoSans-Regular, /JGLVFF+WellsFargoSans, /AAAAAG+WellsFargoSans-SemiBold, /AAAAAL+WellsFargoSans-Condensed, /CUYFLT+WellsFargoSans-Regular, /AAAAAI+ArialMT, /JGLVFF+WellsFargoSans-Regular, /AAAAAC+TimesNewRomanPSMT, /AAAAAD+WellsFargoSans-Light, /AAAAAK+WellsFargoSans-Regular, /SORLKI+WellsFargoSans-Condensedfigures-alt, headings-skip, lists-fail, forms-fail, annotations-tagging-fail, 
+
+### online-wires-supported-currency-list.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf
+- **Status**: analysed
+- fonts:/BCDHEE+WellsFargoSans-SemiBold, /BCDIEE+WellsFargoSans-Light, /BCDEEE+WellsFargoSans-Regular, /BCDGEE+WellsFargoSans-Display, /BCDFEE+WellsFargoSans-Condensedheadings-none, 
+
+### us_consumer_privacy_notice_english.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
+- **Status**: analysed
+- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
+
+### visa-signature-business-benefits.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf
+- **Status**: analysed
+- fonts:/WBYJIU+Univers-CondensedLight, /WBYJIU+UniversLTStd-LightCn, /WBYJIU+Univers-BlackOblique, /WBYJIU+MyriadPro-Regular, /WBYJIU+UniversLTStd-BoldCn, /WBYJIU+Univers-CondensedBold, /WBYJIU+UniversLTStd-BoldCnObl, /WBYJIU+UniversLTStd-LightCnObl
 
 ### (R)TERC_Annual_Report_2024-0.pdf
 
@@ -68896,7 +69117,7 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **Status**: analysed
 - title, tagged, lang, 
 
-### 10.1177_1090198120922942.pdf
+### 7577Birth-certificates-and-source-documents-FAQ.pdf
 
 - **URL**: https://www.govt.nz/assets/Documents/Government-A-Z/7577Birth-certificates-and-source-documents-FAQ.pdf
 - **Status**: analysed
@@ -69417,3 +69638,291 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 - **URL**: https://www.employment.govt.nz/assets/uploads/documents/pay-and-hours/breastfeeding-in-the-workplace-guide-for-employers.pdf
 - **Status**: analysed
 - figures missing alt text (count=9), headings-skip, 
+
+### 10.1177_1090198120922942.pdf
+
+- **URL**: https://pmc.ncbi.nlm.nih.gov/articles/PMC7301291/pdf/10.1177_1090198120922942.pdf
+- **Status**: analysed
+- PdfError: crawled_files/lib.pstcc.edu/10.1177_1090198120922942.pdf: unable to find trailer dictionary while recovering damaged file
+
+### 184368.pdf
+
+- **URL**: https://cdn.thomasnet.com/ccp/10076910/184368.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Analyzing_Primary_Sources.pdf
+
+- **URL**: https://www.loc.gov/static/programs/teachers/getting-started-with-primary-sources/documents/Analyzing_Primary_Sources.pdf
+- **Status**: analysed
+- title, tagged-content-fail, lang, 
+
+### Getting-Started.pdf
+
+- **URL**: https://storycorpsorg-staging.s3.amazonaws.com/uploads/Getting-Started.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=11), headings-none, 
+
+### Improve-Sound-Quality.pdf
+
+- **URL**: https://storycorpsorg-staging.s3.amazonaws.com/uploads/Improve-Sound-Quality.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=12), headings-none, 
+
+### Interview-Tips.pdf
+
+- **URL**: https://storycorpsorg-staging.s3.amazonaws.com/uploads/Interview-Tips.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=13), headings-none, 
+
+### Mission_Critical.pdf
+
+- **URL**: https://cccse.org/sites/default/files/Mission_Critical.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, headings-none, lists-fail, annotations-tagging-fail, 
+
+### W346-A.pdf
+
+- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-A.pdf
+- **Status**: analysed
+- title, lang, figures missing alt text (count=7), headings-none, 
+
+### W346-B.pdf
+
+- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-B.pdf
+- **Status**: analysed
+- title, lang, figures missing alt text (count=7), headings-none, tables-fail, 
+
+### W346-D.pdf
+
+- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-D.pdf
+- **Status**: analysed
+- title, lang, figures missing alt text (count=7), headings-none, tables-fail, 
+
+### W346-F.pdf
+
+- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-F.pdf
+- **Status**: analysed
+- title, lang, figures missing alt text (count=5), headings-none, 
+
+### W346-G.pdf
+
+- **URL**: https://uthort.tennessee.edu/wp-content/uploads/sites/228/2023/11/W346-G.pdf
+- **Status**: analysed
+- title, lang, figures missing alt text (count=6), headings-none, tables-fail, 
+
+### asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf
+
+- **URL**: https://www.asme.org/wwwasmeorg/media/resourcefiles/aboutasme/who%20we%20are/standards_and_certification/asme_codes_and_standards-examples_of_use_for_mechanical_engineering_students.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, figures missing alt text (count=36), headings-none, tables-fail, 
+
+### circ61.pdf
+
+- **URL**: https://copyright.gov/circs/circ61.pdf
+- **Status**: analysed
+- title, tagged, annotations-untagged, 
+
+### gbaa114.pdf
+
+- **URL**: https://pmc.ncbi.nlm.nih.gov/articles/PMC7454923/pdf/gbaa114.pdf
+- **Status**: analysed
+- PdfError: crawled_files/lib.pstcc.edu/gbaa114.pdf: unable to find trailer dictionary while recovering damaged file
+
+### principles.pdf
+
+- **URL**: https://www.ala.org/sites/default/files/acrl/content/publications/whitepapers/principles.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 22-088_EEOC_KnowYourRights6.12.pdf
+
+- **URL**: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf
+- **Status**: analysed
+- fonts:/FZIHZX+Calibri-Bold, /FZIHZX+Calibri-Italic, /FZIHZX+Impact, /FZIHZX+Cambria, /FZIHZX+Calibri
+
+### 22-088_EEOC_KnowYourRightsSp6.12.pdf
+
+- **URL**: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRightsSp6.12.pdf
+- **Status**: analysed
+- fonts:/OEUJVF+Calibri, /OEUJVF+Cambria, /OEUJVF+Impact, /OEUJVF+Calibri-Italic, /OEUJVF+Calibri-Bold
+
+### 542661.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/542661.pdf
+- **Status**: analysed
+- fonts:/AACRAY+MyriadPro-Regular, /KHEEKE+Arial-BoldItalicMT, /CVDDCU+Arial-BoldMT, /TFNBGM+Arial-ItalicMT, /LORFYC+ArialMTforms-fail, forms-tagging-fail, 
+
+### 544260.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544260.pdf
+- **Status**: analysed
+- fonts:/NTWIYX+Arial-ItalicMT, /ZYYXKZ+TimesNewRomanPSMT, /DRYAOR+Arial-BoldMT, /ZYYXKZ+Verdana, /NTWIYX+ArialMTalt-nested-fail, 
+
+### 544408.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544408.pdf
+- **Status**: analysed
+- fonts:/HWKFOA+ArialMT, /SPZYME+Arial-BoldMTlists-warn, 
+
+### 578639.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/578639.pdf
+- **Status**: analysed
+- fonts:/PTTNFO+Arial-BoldMT, /GIDLJG+Arial-ItalicMT, /BYQHRQ+ArialMTforms-fail, forms-tagging-fail, 
+
+### 579609.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/579609.pdf
+- **Status**: analysed
+- fonts:/AWJCUO+Arial-ItalicMT, /LXWQSS+Arial-BoldItalicMT, /IAMDCY+Arial-BoldMT, /ZUAGGQ+ArialMT, /SSGBME+TimesNewRomanPSMTforms-fail, forms-tagging-fail, 
+
+### 583026.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/583026.pdf
+- **Status**: analysed
+- fonts:/CIXSPT+Verdana-Italic, /BLNWBV+Arial-BoldMT, /NYNQNX+ArialMT, /NRIBIX+Verdana, /OSYRBV+Verdana-Boldforms-fail, forms-tagging-fail, 
+
+### 585793.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585793.pdf
+- **Status**: analysed
+- fonts:/HQHAJP+Arial-ItalicMT, /MIXEBF+MyriadPro-Regular, /HQHAJP+ArialMT, /LOMDNH+Arial-BoldItalicMT, /XOJSZJ+Arial-BoldMTforms-fail, forms-tagging-fail, 
+
+### 585794.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585794.pdf
+- **Status**: analysed
+- fonts:/FWMPTY+Arial-BoldMT, /QXZDRC+Arial-ItalicMT, /BIQWUL+ArialMT, /LFOEER+TimesNewRomanPSMTforms-fail, 
+
+### 585797.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585797.pdf
+- **Status**: analysed
+- fonts:/LSQHMC+ArialMT, /GAFIUM+Arial-BoldMT, /TERIUM+Arial-ItalicMT, /PQVKQU+Arial-BoldItalicMTforms-fail, forms-tagging-fail, 
+
+### 586360.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586360.pdf
+- **Status**: analysed
+- fonts:/HCOQEF+Arial-ItalicMT, /KWENUZ+Arial-BoldItalicMT, /AHEFKT+Arial-BoldMT, /AXAAKT+MyriadPro-Regular, /UGAQEF+ArialMTforms-fail, forms-tagging-fail, 
+
+### 586361.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586361.pdf
+- **Status**: analysed
+- fonts:/WBOJYG+Arial-BoldItalicMT, /IOOYKI+ArialMT, /SDOLUO+Arial-ItalicMT, /GDRRIM+Arial-BoldMTforms-fail, forms-tagging-fail, 
+
+### 587740.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/587740.pdf
+- **Status**: analysed
+- fonts:/YXSCIW+ArialMT, /XOERUY+Arial-BoldItalicMT, /UZSZEE+Arial-BoldMTforms-fail, 
+
+### 588287.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/588287.pdf
+- **Status**: analysed
+- fonts:/BGMTMV+Arial-BoldMT, /GQZXEL+Arial-BoldItalicMT, /JFLPUF+ArialMT, /RRMLCP+Arial-ItalicMTforms-fail, forms-tagging-fail, 
+
+### 589852.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/589852.pdf
+- **Status**: analysed
+- fonts:/PCXTIP+Arial-BoldMT, /DXVZWN+Arial-BoldItalicMT, /YAGVEX+ArialMT, /PCXTIP+Arial-ItalicMT
+
+### 590907.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590907.pdf
+- **Status**: analysed
+- fonts:/OKYMPV+Arial-BoldMT, /DZMTRR+Arial-ItalicMT, /ZQPFNZ+Arial-BoldItalicMT, /DHKTRR+ArialMTforms-fail, forms-tagging-fail, 
+
+### 590921.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf
+- **Status**: analysed
+- fonts:/KAZIPZ+ArialMT, /QJBSVN+Arial-BoldMTforms-fail, forms-tagging-fail, 
+
+### 593931.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf
+- **Status**: analysed
+- fonts:/UNWILP+Arial-ItalicMT, /TXSSWH+Arial, /XCIVBJ+Arial-BoldItalicMT, /YROWPH+Arial-BoldMT, /EJBAVV+ArialMT, /YOYQIX+Arial-ItalicMTlists-warn, 
+
+### 595906.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf
+- **Status**: analysed
+- fonts:/ZXENJV+Arial-BoldMT, /KYRBHZ+ArialMT, /EXNMBL+Georgia
+
+### ADD-CA-EN.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/ADD-CA-EN.pdf
+- **Status**: analysed
+- fonts:/RSVTAQ+WellsFargoSans-Bold, /IUMWEI+WellsFargoSans-Display, /CGUSFT+TimesNewRoman, /YXJOUC+WellsFargoSans-Light, /IUMWEI+WellsFargoSans-Regular, /BUYBKW+WellsFargoSans-SemiBold
+
+### DMCA-notice.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/privacy-security/DMCA-notice.pdf
+- **Status**: analysed
+- fonts:/ADRKKN+Arial, /EZATGQ+ArialMT, /XATOEO+Arial
+
+### california.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/es/small-business/deposits/online-disclosures/addenda/california.pdf
+- **Status**: analysed
+- fonts:/QPMLII+WellsFargoSans-Regular, /IQNPAY+WellsFargoSans-Light, /DERIGC+TimesNewRoman, /XPAGCU+WellsFargoSans-Light, /ZNVNEQ+WellsFargoSans-SemiBold, /QPMLII+WellsFargoSans-Display, /QPMLII+WellsFargoSans-Bold
+
+### fetch-pdf-0.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013&subProductCode=ANY
+- **Status**: analysed
+- fonts:/LVCTKS+WellsFargoSans-Regular, /KRNNWU+WellsFargoSans-Regular, /JSDHIW+WellsFargoSans-Display, /EIQDQG+WellsFargoSans-Light, /FMAJEE+WellsFargoSans-Bold, /HPZVGA+WellsFargoSans-Bold, /CFMROK+WellsFargoSans-Light, /ACNFMO+WellsFargoSans-BoldItalic, /BAKYDQ+TimesNewRoman
+
+### fetch-pdf-1.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CCB2018C&subProductCode=ANY
+- **Status**: analysed
+- fonts:/SOBPUY+WellsFargoSans-Light, /MFZFOK+WellsFargoSans-Bold, /LBPZAM+Wingdings-Regular, /PYGQJE+WellsFargoSans-Regular, /RPMJGA+WellsFargoSans-Regular, /OIDRQG+WellsFargoSans-Bold, /BBVRHB+TimesNewRoman, /TSQVIW+WellsFargoSans-Light, /PMNXEE+WellsFargoSans-Display
+
+### fetch-pdf-2.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013SP&subProductCode=ANY
+- **Status**: analysed
+- fonts:/EQAPZK+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Light, /OSYXJQ+WellsFargoSans-Display
+
+### fetch-pdf.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?documentName=Account%20Addenda&subProductCode=ANY
+- **Status**: analysed
+- fonts:/OOFGNL+WellsFargoSans-Display, /AGEAZN+WellsFargoSans-SemiBold, /IFDRHX+WellsFargoSans-Bold, /TPEDCH+TimesNewRoman, /FQRERD+Calibri, /SCBZRD+WellsFargoSans-Regular, /CBFMBJ+WellsFargoSans-Light, /MBCPLP+Calibri-Bold, /ZZRULP+WellsFargoSans-Light
+
+### fw8ben.pdf
+
+- **URL**: https://www.irs.gov/pub/irs-pdf/fw8ben.pdf
+- **Status**: analysed
+- fonts:/CFUVYJ+HelveticaNeueLTStd-Roman, /CNSQYJ+UniversalStd-NewswithCommPi, /DWGBMH+HelveticaNeueLTStd-BlkCn, /AKTEWN+UniversalStd-NewswithCommPi, /ZQIDIP+HelveticaNeueLTStd-BdIt, /EAVHAF+AdobePiStd, /THGTCB+HelveticaNeueLTStd-Bd, /MCSDIP+ITCFranklinGothicStd-Demiforms-fail, forms-tagging-fail, 
+
+### fw9.pdf
+
+- **URL**: https://www.irs.gov/pub/irs-pdf/fw9.pdf
+- **Status**: analysed
+- fonts:/ZKUMQA+HelveticaNeueLTStd-BlkCn, /OKAJSW+HelveticaNeueLTStd-Roman, /MBEHQA+HelveticaNeueLTStd-Bd, /MCXSQA+ITCFranklinGothicStd-Demi, /FEOMWO+HelveticaNeueLTStd-It, /PVUZGU+HelveticaNeueLTStd-BdItheadings-skip, forms-fail, forms-tagging-fail, 
+
+### identity-theft-kit.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
+- **Status**: error
+- File not found: crawled_files/wellsfargo.com/identity-theft-kit.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:33:37.002412+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### set-up-direct-deposit-CNS3519.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/checking/set-up-direct-deposit-CNS3519.pdf
+- **Status**: analysed
+- fonts:/NWWZYI+Arial-BoldMT, /PMXQAE+WellsFargoSans-Regular, /GJFJEW+ArialMT, /ANKZYI+WellsFargoSans-Italic, /BZSFMG+MICR12byBT-Regular, /IMJVGS+Arial-BoldMT, /KPENVD+TimesNewRoman, /KHKMIO+WellsFargoSans-SemiBold, /SBJDQY+WellsFargoSans-Bold, /YKGNWM+Webdings, /FXXDQY+WellsFargoSans-Italic
+
+### us_consumer_privacy_notice_english-0.pdf
+
+- **URL**: https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
+- **Status**: analysed
+- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
