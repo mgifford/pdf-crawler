@@ -221,9 +221,10 @@
   <nav>
     <a id="reports-back-link" href="./">&#8592; Back to submission form</a>
     <span class="lang-switch" aria-label="Language switch">
-      <a id="lang-en-index" href="?lang=en" hreflang="en" lang="en">EN</a>
+      <span id="lang-switch-label-index">Language: English</span>
+      <a id="lang-en-index" data-lang="en" href="?lang=en" hreflang="en" lang="en">English</a>
       <span aria-hidden="true">|</span>
-      <a id="lang-fr-index" href="?lang=fr" hreflang="fr" lang="fr">FR</a>
+      <a id="lang-fr-index" data-lang="fr" href="?lang=fr" hreflang="fr" lang="fr">Français</a>
     </span>
     <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
   </nav>
@@ -248,6 +249,9 @@
       // i18n scaffold: add locales here with the same keys.
       var I18N = {
         en: {
+          langSwitchLabel: 'Language:',
+          langEnglish: 'English',
+          langFrench: 'Français',
           backLabel: 'Back to submission form',
           title: '📊 PDF Accessibility Scan Reports',
           subtitle: 'Historical record of all PDF accessibility scans run by this tool.',
@@ -282,9 +286,12 @@
           loadErrorHint: 'If you are viewing this file locally, please serve it from a web server.',
         },
         fr: {
+          langSwitchLabel: 'Langue :',
+          langEnglish: 'English',
+          langFrench: 'Français',
           backLabel: 'Retour au formulaire de soumission',
-          title: '📊 Rapports de scan d'accessibilité PDF',
-          subtitle: 'Historique de tous les scans d'accessibilité PDF exécutés par cet outil.',
+          title: '📊 Rapports de scan d\'accessibilité PDF',
+          subtitle: 'Historique de tous les scans d\'accessibilité PDF exécutés par cet outil.',
           filterLabel: 'Filtrer par site :',
           filterAria: 'Filtrer les rapports par nom de site',
           filterPlaceholder: 'ex. energy.gov',
@@ -336,10 +343,10 @@
         return M[key] || I18N.en[key] || key;
       }
 
-      function withLang(url) {
+      function withLang(url, langCode) {
         try {
           var parsed = new URL(url, window.location.href);
-          parsed.searchParams.set('lang', currentLang);
+          parsed.searchParams.set('lang', langCode || currentLang);
           return parsed.toString();
         } catch (e) {
           return url;
@@ -367,10 +374,21 @@
         }
         var loading = document.getElementById('loading-text');
         if (loading) loading.textContent = t('loading');
-        var enLink = document.getElementById('lang-en-index');
-        if (enLink) enLink.href = withLang('?lang=en');
-        var frLink = document.getElementById('lang-fr-index');
-        if (frLink) frLink.href = withLang('?lang=fr');
+        var langLabelNode = document.getElementById('lang-switch-label-index');
+        var currentLangName = currentLang === 'fr' ? t('langFrench') : t('langEnglish');
+        if (langLabelNode) langLabelNode.textContent = t('langSwitchLabel') + ' ' + currentLangName;
+
+        var langLinks = document.querySelectorAll('.lang-switch a[data-lang]');
+        langLinks.forEach(function (link) {
+          var code = (link.getAttribute('data-lang') || '').toLowerCase();
+          if (!code) return;
+          link.href = withLang(window.location.href, code);
+          if (code === 'en') link.textContent = t('langEnglish');
+          else if (code === 'fr') link.textContent = t('langFrench');
+          else link.textContent = code.toUpperCase();
+          if (code === currentLang) link.setAttribute('aria-current', 'page');
+          else link.removeAttribute('aria-current');
+        });
       })();
 
       function esc(s) {

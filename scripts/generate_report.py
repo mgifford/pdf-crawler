@@ -889,12 +889,9 @@ _HTML_TEMPLATE = """\
       align-items: center;
     }}
 
-    .lang-switch {{
-      font-size: 0.9rem;
-      color: var(--color-muted);
-      display: inline-flex;
-      gap: 0.35rem;
-      align-items: center;
+    .lang-switch a[aria-current="page"] {{
+      font-weight: 700;
+      text-decoration: underline;
     }}
 
     .theme-toggle {{
@@ -1004,9 +1001,10 @@ _HTML_TEMPLATE = """\
   <nav>
     <a id="back-link" href="{back_url}">&#8592; {back_label}</a>
     <span class="lang-switch" aria-label="Language switch">
-      <a id="lang-en-report" href="?lang=en" hreflang="en" lang="en">EN</a>
+      <span id="lang-switch-label">Language: English</span>
+      <a id="lang-en-report" data-lang="en" href="?lang=en" hreflang="en" lang="en">English</a>
       <span aria-hidden="true">|</span>
-      <a id="lang-fr-report" href="?lang=fr" hreflang="fr" lang="fr">FR</a>
+      <a id="lang-fr-report" data-lang="fr" href="?lang=fr" hreflang="fr" lang="fr">Français</a>
     </span>
     <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
   </nav>
@@ -1033,6 +1031,9 @@ _HTML_TEMPLATE = """\
       // i18n scaffold: add new locales by extending I18N with the same keys.
       var I18N = {{
         en: {{
+          langSwitchLabel: 'Language:',
+          langEnglish: 'English',
+          langFrench: 'Français',
           backLabel: 'Back to submission form',
           pageTitle: '📊 PDF Accessibility Scan Results',
           generatedAt: 'Last updated: ',
@@ -1083,6 +1084,9 @@ _HTML_TEMPLATE = """\
           colImages: 'Images',
         }},
         fr: {{
+          langSwitchLabel: 'Langue :',
+          langEnglish: 'English',
+          langFrench: 'Français',
           backLabel: 'Retour au formulaire de soumission',
           pageTitle: '📊 Résultats du scan d\\'accessibilité PDF',
           generatedAt: 'Dernière mise à jour : ',
@@ -1153,10 +1157,10 @@ _HTML_TEMPLATE = """\
         return M[key] || I18N.en[key] || key;
       }}
 
-      function withLang(url) {{
+      function withLang(url, langCode) {{
         try {{
           var parsed = new URL(url, window.location.href);
-          parsed.searchParams.set('lang', currentLang);
+          parsed.searchParams.set('lang', langCode || currentLang);
           return parsed.toString();
         }} catch (e) {{
           return url;
@@ -1179,10 +1183,21 @@ _HTML_TEMPLATE = """\
         var curJson = document.getElementById('download-current-json');
         if (curJson) curJson.textContent = t('downloadCurrentJson');
 
-        var enLink = document.getElementById('lang-en-report');
-        if (enLink) enLink.href = withLang('?lang=en');
-        var frLink = document.getElementById('lang-fr-report');
-        if (frLink) frLink.href = withLang('?lang=fr');
+        var langLabelNode = document.getElementById('lang-switch-label');
+        var currentLangName = currentLang === 'fr' ? t('langFrench') : t('langEnglish');
+        if (langLabelNode) langLabelNode.textContent = t('langSwitchLabel') + ' ' + currentLangName;
+
+        var langLinks = document.querySelectorAll('.lang-switch a[data-lang]');
+        langLinks.forEach(function (link) {{
+          var code = (link.getAttribute('data-lang') || '').toLowerCase();
+          if (!code) return;
+          link.href = withLang(window.location.href, code);
+          if (code === 'en') link.textContent = t('langEnglish');
+          else if (code === 'fr') link.textContent = t('langFrench');
+          else link.textContent = code.toUpperCase();
+          if (code === currentLang) link.setAttribute('aria-current', 'page');
+          else link.removeAttribute('aria-current');
+        }});
       }}
 
       applyLanguageStatic();
@@ -1914,9 +1929,10 @@ _REPORTS_INDEX_TEMPLATE = """\
   <nav>
     <a id="reports-back-link" href="./">&#8592; Back to submission form</a>
     <span class="lang-switch" aria-label="Language switch">
-      <a id="lang-en-index" href="?lang=en" hreflang="en" lang="en">EN</a>
+      <span id="lang-switch-label-index">Language: English</span>
+      <a id="lang-en-index" data-lang="en" href="?lang=en" hreflang="en" lang="en">English</a>
       <span aria-hidden="true">|</span>
-      <a id="lang-fr-index" href="?lang=fr" hreflang="fr" lang="fr">FR</a>
+      <a id="lang-fr-index" data-lang="fr" href="?lang=fr" hreflang="fr" lang="fr">Français</a>
     </span>
     <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
   </nav>
@@ -1941,6 +1957,9 @@ _REPORTS_INDEX_TEMPLATE = """\
       // i18n scaffold: add locales here with the same keys.
       var I18N = {{
         en: {{
+          langSwitchLabel: 'Language:',
+          langEnglish: 'English',
+          langFrench: 'Français',
           backLabel: 'Back to submission form',
           title: '📊 PDF Accessibility Scan Reports',
           subtitle: 'Historical record of all PDF accessibility scans run by this tool.',
@@ -1975,6 +1994,9 @@ _REPORTS_INDEX_TEMPLATE = """\
           loadErrorHint: 'If you are viewing this file locally, please serve it from a web server.',
         }},
         fr: {{
+          langSwitchLabel: 'Langue :',
+          langEnglish: 'English',
+          langFrench: 'Français',
           backLabel: 'Retour au formulaire de soumission',
           title: '📊 Rapports de scan d\\'accessibilité PDF',
           subtitle: 'Historique de tous les scans d\\'accessibilité PDF exécutés par cet outil.',
@@ -2029,10 +2051,10 @@ _REPORTS_INDEX_TEMPLATE = """\
         return M[key] || I18N.en[key] || key;
       }}
 
-      function withLang(url) {{
+      function withLang(url, langCode) {{
         try {{
           var parsed = new URL(url, window.location.href);
-          parsed.searchParams.set('lang', currentLang);
+          parsed.searchParams.set('lang', langCode || currentLang);
           return parsed.toString();
         }} catch (e) {{
           return url;
@@ -2060,10 +2082,21 @@ _REPORTS_INDEX_TEMPLATE = """\
         }}
         var loading = document.getElementById('loading-text');
         if (loading) loading.textContent = t('loading');
-        var enLink = document.getElementById('lang-en-index');
-        if (enLink) enLink.href = withLang('?lang=en');
-        var frLink = document.getElementById('lang-fr-index');
-        if (frLink) frLink.href = withLang('?lang=fr');
+        var langLabelNode = document.getElementById('lang-switch-label-index');
+        var currentLangName = currentLang === 'fr' ? t('langFrench') : t('langEnglish');
+        if (langLabelNode) langLabelNode.textContent = t('langSwitchLabel') + ' ' + currentLangName;
+
+        var langLinks = document.querySelectorAll('.lang-switch a[data-lang]');
+        langLinks.forEach(function (link) {{
+          var code = (link.getAttribute('data-lang') || '').toLowerCase();
+          if (!code) return;
+          link.href = withLang(window.location.href, code);
+          if (code === 'en') link.textContent = t('langEnglish');
+          else if (code === 'fr') link.textContent = t('langFrench');
+          else link.textContent = code.toUpperCase();
+          if (code === currentLang) link.setAttribute('aria-current', 'page');
+          else link.removeAttribute('aria-current');
+        }});
       }})();
 
       function esc(s) {{

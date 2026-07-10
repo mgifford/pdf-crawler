@@ -93,12 +93,9 @@
       align-items: center;
     }
 
-    .lang-switch {
-      font-size: 0.9rem;
-      color: var(--color-muted);
-      display: inline-flex;
-      gap: 0.35rem;
-      align-items: center;
+    .lang-switch a[aria-current="page"] {
+      font-weight: 700;
+      text-decoration: underline;
     }
 
     .theme-toggle {
@@ -208,9 +205,10 @@
   <nav>
     <a id="back-link" href="../reports.html">&#8592; Back to reports index</a>
     <span class="lang-switch" aria-label="Language switch">
-      <a id="lang-en-report" href="?lang=en" hreflang="en" lang="en">EN</a>
+      <span id="lang-switch-label">Language: English</span>
+      <a id="lang-en-report" data-lang="en" href="?lang=en" hreflang="en" lang="en">English</a>
       <span aria-hidden="true">|</span>
-      <a id="lang-fr-report" href="?lang=fr" hreflang="fr" lang="fr">FR</a>
+      <a id="lang-fr-report" data-lang="fr" href="?lang=fr" hreflang="fr" lang="fr">Français</a>
     </span>
     <button class="theme-toggle" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">&#127769;</button>
   </nav>
@@ -3253,6 +3251,9 @@
       // i18n scaffold: add new locales by extending I18N with the same keys.
       var I18N = {
         en: {
+          langSwitchLabel: 'Language:',
+          langEnglish: 'English',
+          langFrench: 'Français',
           backLabel: 'Back to submission form',
           pageTitle: '📊 PDF Accessibility Scan Results',
           generatedAt: 'Last updated: ',
@@ -3303,6 +3304,9 @@
           colImages: 'Images',
         },
         fr: {
+          langSwitchLabel: 'Langue :',
+          langEnglish: 'English',
+          langFrench: 'Français',
           backLabel: 'Retour au formulaire de soumission',
           pageTitle: '📊 Résultats du scan d\'accessibilité PDF',
           generatedAt: 'Dernière mise à jour : ',
@@ -3373,10 +3377,10 @@
         return M[key] || I18N.en[key] || key;
       }
 
-      function withLang(url) {
+      function withLang(url, langCode) {
         try {
           var parsed = new URL(url, window.location.href);
-          parsed.searchParams.set('lang', currentLang);
+          parsed.searchParams.set('lang', langCode || currentLang);
           return parsed.toString();
         } catch (e) {
           return url;
@@ -3399,10 +3403,21 @@
         var curJson = document.getElementById('download-current-json');
         if (curJson) curJson.textContent = t('downloadCurrentJson');
 
-        var enLink = document.getElementById('lang-en-report');
-        if (enLink) enLink.href = withLang('?lang=en');
-        var frLink = document.getElementById('lang-fr-report');
-        if (frLink) frLink.href = withLang('?lang=fr');
+        var langLabelNode = document.getElementById('lang-switch-label');
+        var currentLangName = currentLang === 'fr' ? t('langFrench') : t('langEnglish');
+        if (langLabelNode) langLabelNode.textContent = t('langSwitchLabel') + ' ' + currentLangName;
+
+        var langLinks = document.querySelectorAll('.lang-switch a[data-lang]');
+        langLinks.forEach(function (link) {
+          var code = (link.getAttribute('data-lang') || '').toLowerCase();
+          if (!code) return;
+          link.href = withLang(window.location.href, code);
+          if (code === 'en') link.textContent = t('langEnglish');
+          else if (code === 'fr') link.textContent = t('langFrench');
+          else link.textContent = code.toUpperCase();
+          if (code === currentLang) link.setAttribute('aria-current', 'page');
+          else link.removeAttribute('aria-current');
+        });
       }
 
       applyLanguageStatic();
