@@ -1084,7 +1084,6 @@ def test_spot_check_none_does_not_crash():
 
 def _make_manifest(tmp_path, entries=None):
     """Write a minimal YAML manifest and return its path."""
-    import yaml
     if entries is None:
         entries = [
             {

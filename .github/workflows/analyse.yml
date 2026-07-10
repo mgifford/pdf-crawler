@@ -243,13 +243,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Python
-        uses: actions/setup-python@v6
-        with:
-          python-version: "3.11"
-
-      - name: Set up uv
+      # OPTIMIZED: Combined python environment setup and uv initialization into one step with automated caching
+      - name: Set up uv & Python 3.13
         uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.13"
+          enable-cache: true
 
       - name: Install Python dependencies
         run: |
@@ -419,12 +418,6 @@ jobs:
           uv pip install git+https://github.com/bloom-works/simplA11yPDFCrawler.git@0df4d4f3eca1f0bbf3898046ef5c2c8f9ddd86b0
 
       - name: Install veraPDF
-        # Only install when the scan requested it (veraPDF/VERAPDF in issue title).
-        # The uber-JAR greenfield-apps-<version>.jar is published to Maven Central
-        # at org.verapdf.apps:greenfield-apps.  We download it and create a thin
-        # wrapper script so that `verapdf` is available on PATH.
-        # Update VERAPDF_VERSION when a new stable release is published to Maven
-        # Central (https://repo1.maven.org/maven2/org/verapdf/apps/greenfield-apps/).
         if: steps.meta.outputs.run_verapdf == 'true'
         run: |
           sudo apt-get install -y --no-install-recommends default-jre-headless
@@ -434,7 +427,6 @@ jobs:
           curl -fsSL \
             "${MAVEN_BASE}/${VERAPDF_VERSION}/greenfield-apps-${VERAPDF_VERSION}.jar" \
             -o /tmp/verapdf-install/greenfield-apps.jar
-          # Create a thin wrapper script so `verapdf` is on PATH
           printf '#!/bin/sh\nexec java -cp /tmp/verapdf-install/greenfield-apps.jar org.verapdf.apps.GreenfieldCliWrapper "$@"\n' \
             > /tmp/verapdf-install/verapdf
           chmod +x /tmp/verapdf-install/verapdf
@@ -457,9 +449,6 @@ jobs:
           if [ -n "$CRAWL_SITE" ]; then
             SITE_FLAG="--site $CRAWL_SITE"
           fi
-          # Always cap the number of PDFs analysed per run to stay within the
-          # job time budget. Use the max_pdfs value from the crawl metadata
-          # (defaults to 200 when not explicitly set by the submitter).
           MAX_PDFS="${CRAWL_MAX_PDFS:-200}"
           if [ -z "$MAX_PDFS" ] || ! echo "$MAX_PDFS" | grep -Eq '^[0-9]+$'; then
             MAX_PDFS="200"
@@ -490,17 +479,11 @@ jobs:
           CRAWL_URL:    ${{ steps.meta.outputs.crawl_url }}
           CRAWL_SITE:   ${{ steps.meta.outputs.crawl_site }}
         run: |
-          # Path matches STALE_COUNT_FILE in scripts/pdf_analyser.py
           STALE_COUNT=$(cat /tmp/pdf_analyser_stale.txt 2>/dev/null || echo "0")
-          # Treat non-numeric content as 0
           if ! echo "$STALE_COUNT" | grep -Eq '^[0-9]+$'; then
             STALE_COUNT="0"
           fi
           echo "stale_count=$STALE_COUNT" >> "$GITHUB_OUTPUT"
-          # Post an informational note when more than one stale entry was found and
-          # the triggering site is known. A single stale entry may be a one-off;
-          # multiple stale entries suggest the previous crawl artifact expired before
-          # those entries could be analysed. The current scan is still marked complete.
           NEEDS_RECRAWL="false"
           if [ "$STALE_COUNT" -gt 1 ] && [ -n "$CRAWL_SITE" ]; then
             NEEDS_RECRAWL="true"
@@ -600,7 +583,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          # Copy crawled_urls.csv to docs/reports for GitHub Pages access
           if [ -f reports/crawled_urls.csv ]; then
             cp reports/crawled_urls.csv docs/reports/crawled_urls.csv
           fi
@@ -609,11 +591,6 @@ jobs:
             echo "No report changes to commit."
           else
             git commit -m "chore: update accessibility reports"
-            # Retry push up to 3 times to handle concurrent report commits.
-            # Use git merge -X ours so that conflicts in generated report files
-            # are automatically resolved in favour of the freshly produced
-            # reports from this run; manifest.yaml auto-merges cleanly because
-            # each run modifies distinct URL entries.
             PUSH_DONE=false
             for attempt in 1 2 3; do
               if git push; then
@@ -667,8 +644,6 @@ jobs:
             const reportsBase = `https://${repoOwner}.github.io/${repoName}`;
             const actionsUrl  = `https://github.com/${repoOwner}/${repoName}/actions/runs/${runId}`;
 
-            // Use the pre-generated per-site comment body if available;
-            // otherwise fall back to a brief summary with links.
             let body;
             try {
               const fs = require('fs');
@@ -694,9 +669,6 @@ jobs:
 
             core.setOutput('comment_url', commentData.html_url);
 
-            // Replace transient labels with a final state label.  The scan-failed label may have been applied by a
-            // previous stale-entry bug or an earlier failed attempt; clearing it
-            // ensures the issue correctly reflects the current successful result.
             for (const label of ['scan-in-progress', 'scan-failed', 'scan-complete', 'scan-partial']) {
               try {
                 await github.rest.issues.removeLabel({
@@ -982,13 +954,6 @@ jobs:
               ].join('\n'),
             });
 
-      # -----------------------------------------------------------------------
-      # Runs only when the job is cancelled (e.g. 60-minute job timeout).
-      # Clears the scan-in-progress label and marks the issue scan-failed so
-      # the issue does not remain permanently stuck with no visible status.
-      # Also reduces the PDFs: limit in the issue body so a retry is more
-      # likely to complete within the time budget.
-      # -----------------------------------------------------------------------
       - name: Handle analysis cancellation or timeout
         if: >-
           cancelled() &&
@@ -1009,8 +974,6 @@ jobs:
             const currentMax = parseInt(process.env.CRAWL_MAX_PDFS, 10) || 200;
             const newMax     = Math.max(25, Math.floor(currentMax / 2));
 
-            // Update the issue body to reduce the PDFs: limit so that a retry
-            // is more likely to complete within the time budget.
             const { data: issue } = await github.rest.issues.get({
               owner: context.repo.owner,
               repo:  context.repo.repo,
