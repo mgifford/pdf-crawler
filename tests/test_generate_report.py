@@ -11,6 +11,7 @@ import yaml
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from generate_report import (
+    _archive_asset_names,
     _external_domain,
     _fmt,
     _icon,
@@ -209,15 +210,17 @@ def test_issue_comment_uses_archive_link_when_archive_name_provided():
         run_url="https://github.com/owner/repo/actions/runs/99",
         archive_name="2026-01-01_00-00-00-000_example_com.html",
     )
+    archive_assets = _archive_asset_names("2026-01-01_00-00-00-000_example_com")
     assert "reports/2026-01-01_00-00-00-000_example_com.html" in comment
     # The cumulative report.html should NOT be the HTML report link
     assert "/report.html" not in comment
     # Site-specific bundle links should be present
-    assert "reports/2026-01-01_00-00-00-000_example_com/report.json" in comment
-    assert "reports/2026-01-01_00-00-00-000_example_com/report_structured.json" in comment
-    assert "reports/2026-01-01_00-00-00-000_example_com/report.csv" in comment
-    assert "reports/2026-01-01_00-00-00-000_example_com/manifest.yaml" in comment
-    assert "reports/2026-01-01_00-00-00-000_example_com/crawled_urls.csv" in comment
+    assert f"reports/2026-01-01_00-00-00-000_example_com/{archive_assets['json']}" in comment
+    assert f"reports/2026-01-01_00-00-00-000_example_com/{archive_assets['structured']}" in comment
+    assert f"reports/2026-01-01_00-00-00-000_example_com/{archive_assets['csv']}" in comment
+    assert f"reports/2026-01-01_00-00-00-000_example_com/{archive_assets['manifest']}" in comment
+    assert f"reports/2026-01-01_00-00-00-000_example_com/{archive_assets['crawled_urls']}" in comment
+    assert f"reports/2026-01-01_00-00-00-000_example_com/{archive_assets['zip']}" in comment
     # Reports history remains available
     assert "reports.html" in comment
     # Cumulative report assets must not be listed in site-specific issue comments
@@ -1084,7 +1087,6 @@ def test_spot_check_none_does_not_crash():
 
 def _make_manifest(tmp_path, entries=None):
     """Write a minimal YAML manifest and return its path."""
-    import yaml
     if entries is None:
         entries = [
             {
@@ -1750,13 +1752,50 @@ def test_generate_main_archive_manifest_is_site_scoped(tmp_path):
     index = json.loads((archive_dir / "index.json").read_text(encoding="utf-8"))
     archive_file = index[0]["archive_file"]
     archive_stem = archive_file[:-5] if archive_file.endswith(".html") else archive_file
-    archived_manifest_path = archive_dir / archive_stem / "manifest.yaml"
+    archive_assets = _archive_asset_names(archive_stem)
+    archived_manifest_path = archive_dir / archive_stem / archive_assets["manifest"]
     assert archived_manifest_path.exists()
 
     archived_entries = yaml.safe_load(archived_manifest_path.read_text(encoding="utf-8"))
     assert isinstance(archived_entries, list)
     assert archived_entries
     assert all(e.get("site") == "example.com" for e in archived_entries)
+
+
+def test_generate_main_archive_writes_contextual_files_and_zip(tmp_path):
+    """Per-scan archive bundle should include contextual filenames and a zip."""
+    from manifest import save_manifest
+
+    entries = [_make_entry("https://example.com/doc.pdf", site="example.com")]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    report_dir = tmp_path / "reports"
+    html_dir = tmp_path / "docs"
+    archive_dir = tmp_path / "docs" / "reports"
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        html_dir=str(html_dir),
+        archive_dir=str(archive_dir),
+        site_filter="example.com",
+        crawl_url="https://example.com",
+        run_url="https://github.com/owner/repo/actions/runs/1",
+    )
+
+    index = json.loads((archive_dir / "index.json").read_text(encoding="utf-8"))
+    archive_file = index[0]["archive_file"]
+    archive_stem = archive_file[:-5] if archive_file.endswith(".html") else archive_file
+    archive_assets = _archive_asset_names(archive_stem)
+    bundle_dir = archive_dir / archive_stem
+
+    assert (bundle_dir / archive_assets["json"]).exists()
+    assert (bundle_dir / archive_assets["structured"]).exists()
+    assert (bundle_dir / archive_assets["csv"]).exists()
+    assert (bundle_dir / archive_assets["manifest"]).exists()
+    assert (bundle_dir / archive_assets["crawled_urls"]).exists()
+    assert (bundle_dir / archive_assets["zip"]).exists()
 
 
 def test_generate_markdown_includes_size_column_and_value():

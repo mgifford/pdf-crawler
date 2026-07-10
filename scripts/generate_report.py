@@ -20,6 +20,7 @@ import json
 import re
 import shutil
 import sys
+import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -238,6 +239,35 @@ def _with_lang(url: str, default_lang: Optional[str]) -> str:
     params = dict(parse_qsl(parsed.query, keep_blank_values=True))
     params["lang"] = lang
     return urlunparse(parsed._replace(query=urlencode(params)))
+
+
+def _archive_download_tag(archive_stem: str) -> str:
+    """Return a concise date+site tag for archived download filenames."""
+    m = re.match(
+        r"^(\d{4})-(\d{2})-(\d{2})_(\d{2})-(\d{2})-(\d{2})(?:-\d{3})?_(.+)$",
+        archive_stem,
+    )
+    if m:
+        yyyy, mm, dd, hh, minute, sec, site = m.groups()
+        compact_site = re.sub(r"[^a-zA-Z0-9._-]", "_", site).strip("._-") or "site"
+        return f"{yyyy}{mm}{dd}-{hh}{minute}{sec}-{compact_site}"
+    fallback = re.sub(r"[^a-zA-Z0-9._-]", "_", archive_stem).strip("._-")
+    return fallback or "scan"
+
+
+def _archive_asset_names(archive_stem: str) -> Dict[str, str]:
+    """Return archive asset filenames that include date+site context."""
+    tag = _archive_download_tag(archive_stem)
+    return {
+        "tag": tag,
+        "json": f"{tag}_report.json",
+        "structured": f"{tag}_report_structured.json",
+        "csv": f"{tag}_report.csv",
+        "manifest": f"{tag}_manifest.yaml",
+        "crawled_urls": f"{tag}_crawled_urls.csv",
+        "zip": f"{tag}_bundle.zip",
+        "current_view_base": f"{tag}_current_view",
+    }
 
 
 def _external_domain(entry: Dict[str, Any]) -> str:
@@ -763,14 +793,16 @@ def generate_issue_comment(
     ]
     if archive_name and pages_base:
         archive_stem = archive_name[:-5] if archive_name.endswith(".html") else archive_name
+        archive_assets = _archive_asset_names(archive_stem)
         lines.append(
             f"- [Site-specific HTML report]({_with_lang(f'{pages_base}/reports/{archive_name}', default_lang)})"
         )
-        lines.append(f"- [Site-specific JSON report]({pages_base}/reports/{archive_stem}/report.json)")
-        lines.append(f"- [Site-specific structured JSON report]({pages_base}/reports/{archive_stem}/report_structured.json)")
-        lines.append(f"- [Site-specific CSV report]({pages_base}/reports/{archive_stem}/report.csv)")
-        lines.append(f"- [Site-specific YAML manifest]({pages_base}/reports/{archive_stem}/manifest.yaml)")
-        lines.append(f"- [Site-specific crawled URLs CSV]({pages_base}/reports/{archive_stem}/crawled_urls.csv)")
+        lines.append(f"- [Site-specific JSON report]({pages_base}/reports/{archive_stem}/{archive_assets['json']})")
+        lines.append(f"- [Site-specific structured JSON report]({pages_base}/reports/{archive_stem}/{archive_assets['structured']})")
+        lines.append(f"- [Site-specific CSV report]({pages_base}/reports/{archive_stem}/{archive_assets['csv']})")
+        lines.append(f"- [Site-specific YAML manifest]({pages_base}/reports/{archive_stem}/{archive_assets['manifest']})")
+        lines.append(f"- [Site-specific crawled URLs CSV]({pages_base}/reports/{archive_stem}/{archive_assets['crawled_urls']})")
+        lines.append(f"- [Site-specific ZIP bundle]({pages_base}/reports/{archive_stem}/{archive_assets['zip']})")
         lines.append(f"- [Reports history]({_with_lang(f'{pages_base}/reports.html', default_lang)})")
     else:
         lines.append(f"- [HTML report]({_with_lang(f'{pages_base}/report.html', default_lang)})")
@@ -1013,9 +1045,10 @@ _HTML_TEMPLATE = """\
   <p id="generated-at"></p>
 
   <div class="downloads">
-    <a id="download-csv-link" href="{report_assets_base}/report.csv">Download CSV</a>
-    <a id="download-json-link" href="{report_assets_base}/report.json">Download JSON</a>
-    <a id="download-manifest-link" href="{report_assets_base}/manifest.yaml">Download Manifest</a>
+    <a id="download-csv-link" href="{download_csv_href}" download="{download_csv_name}">Download CSV</a>
+    <a id="download-json-link" href="{download_json_href}" download="{download_json_name}">Download JSON</a>
+    <a id="download-manifest-link" href="{download_manifest_href}" download="{download_manifest_name}">Download Manifest</a>
+    {download_zip_link_html}
     <button id="download-current-csv" type="button">Download Current View CSV</button>
     <button id="download-current-json" type="button">Download Current View JSON</button>
   </div>
@@ -1055,6 +1088,7 @@ _HTML_TEMPLATE = """\
           downloadCsv: 'Download CSV',
           downloadJson: 'Download JSON',
           downloadManifest: 'Download Manifest',
+          downloadZip: 'Download ZIP Bundle',
           downloadCurrentCsv: 'Download Current View CSV',
           downloadCurrentJson: 'Download Current View JSON',
           colFile: 'File',
@@ -1108,6 +1142,7 @@ _HTML_TEMPLATE = """\
           downloadCsv: 'Télécharger le CSV',
           downloadJson: 'Télécharger le JSON',
           downloadManifest: 'Télécharger le manifeste',
+          downloadZip: 'Télécharger l\'archive ZIP',
           downloadCurrentCsv: 'Télécharger le CSV de la vue actuelle',
           downloadCurrentJson: 'Télécharger le JSON de la vue actuelle',
           colFile: 'Fichier',
@@ -1178,6 +1213,8 @@ _HTML_TEMPLATE = """\
         if (jsonLink) jsonLink.textContent = t('downloadJson');
         var manifestLink = document.getElementById('download-manifest-link');
         if (manifestLink) manifestLink.textContent = t('downloadManifest');
+        var zipLink = document.getElementById('download-zip-link');
+        if (zipLink) zipLink.textContent = t('downloadZip');
         var curCsv = document.getElementById('download-current-csv');
         if (curCsv) curCsv.textContent = t('downloadCurrentCsv');
         var curJson = document.getElementById('download-current-json');
@@ -1606,17 +1643,19 @@ _HTML_TEMPLATE = """\
         setTimeout(function () {{ URL.revokeObjectURL(a.href); }}, 0);
       }}
 
+      var currentViewBase = '{current_view_name_base}';
+
       var downloadCsvBtn = document.getElementById('download-current-csv');
       if (downloadCsvBtn) {{
         downloadCsvBtn.addEventListener('click', function () {{
-          downloadBlob('report-current-view.csv', buildCsvText(), 'text/csv;charset=utf-8');
+          downloadBlob(currentViewBase + '.csv', buildCsvText(), 'text/csv;charset=utf-8');
         }});
       }}
 
       var downloadJsonBtn = document.getElementById('download-current-json');
       if (downloadJsonBtn) {{
         downloadJsonBtn.addEventListener('click', function () {{
-          downloadBlob('report-current-view.json', JSON.stringify({{ summary: summary, files: files }}, null, 2), 'application/json;charset=utf-8');
+          downloadBlob(currentViewBase + '.json', JSON.stringify({{ summary: summary, files: files }}, null, 2), 'application/json;charset=utf-8');
         }});
       }}
 
@@ -1690,6 +1729,15 @@ def generate_html(
     back_url: str = "./",
     back_label: str = "Back to submission form",
     report_assets_base: str = "reports",
+  download_csv_href: Optional[str] = None,
+  download_json_href: Optional[str] = None,
+  download_manifest_href: Optional[str] = None,
+  download_csv_name: str = "report.csv",
+  download_json_name: str = "report.json",
+  download_manifest_name: str = "manifest.yaml",
+  download_zip_href: Optional[str] = None,
+  download_zip_name: str = "",
+  current_view_name_base: str = "report-current-view",
 ) -> str:
     """Return a standalone HTML page with scan results embedded as JSON."""
     json_data = json.dumps({"summary": stats, "files": entries}, indent=2, default=str)
@@ -1698,6 +1746,18 @@ def generate_html(
         back_url=back_url,
         back_label=back_label,
         report_assets_base=report_assets_base,
+        download_csv_href=download_csv_href or f"{report_assets_base}/report.csv",
+        download_json_href=download_json_href or f"{report_assets_base}/report.json",
+        download_manifest_href=download_manifest_href or f"{report_assets_base}/manifest.yaml",
+        download_csv_name=download_csv_name,
+        download_json_name=download_json_name,
+        download_manifest_name=download_manifest_name,
+        download_zip_link_html=(
+          f'<a id="download-zip-link" href="{download_zip_href}" download="{download_zip_name}">Download ZIP Bundle</a>'
+          if download_zip_href and download_zip_name
+          else ""
+        ),
+        current_view_name_base=current_view_name_base,
     )
 
 
@@ -2578,6 +2638,7 @@ def main(
         safe_site = safe_site.replace("..", "_").strip(".")
         archive_name = f"{date_str}_{safe_site}.html"
         archive_stem = archive_name[:-5] if archive_name.endswith(".html") else archive_name
+        archive_assets = _archive_asset_names(archive_stem)
         archive_bundle_dir = archive_out / archive_stem
         archive_bundle_dir.mkdir(parents=True, exist_ok=True)
 
@@ -2590,6 +2651,15 @@ def main(
                 back_url="../reports.html",
                 back_label="Back to reports index",
             report_assets_base=f"./{archive_stem}",
+            download_csv_href=f"./{archive_stem}/{archive_assets['csv']}",
+            download_json_href=f"./{archive_stem}/{archive_assets['json']}",
+            download_manifest_href=f"./{archive_stem}/{archive_assets['manifest']}",
+            download_csv_name=archive_assets["csv"],
+            download_json_name=archive_assets["json"],
+            download_manifest_name=archive_assets["manifest"],
+            download_zip_href=f"./{archive_stem}/{archive_assets['zip']}",
+            download_zip_name=archive_assets["zip"],
+            current_view_name_base=archive_assets["current_view_base"],
             ),
             encoding="utf-8",
         )
@@ -2637,9 +2707,9 @@ def main(
         )
         print(f"Written: {reports_html_path}")
 
-        # Copy the JSON, CSV, and manifest into the archive dir so they are
-        # accessible via GitHub Pages (which serves from docs/ via _config.yml).
-        pages_json = archive_bundle_dir / "report.json"
+        # Write contextual archive assets (date+site in filename) and keep
+        # compatibility copies for existing direct links.
+        pages_json = archive_bundle_dir / archive_assets["json"]
         archive_json_data = {
           "summary": archive_stats,
           "comparison": archive_comparison,
@@ -2649,9 +2719,13 @@ def main(
           json.dumps(archive_json_data, indent=2, default=str),
           encoding="utf-8",
         )
-        print(f"Copied:  {pages_json}")
+        print(f"Written: {pages_json}")
+        (archive_bundle_dir / "report.json").write_text(
+          pages_json.read_text(encoding="utf-8"),
+          encoding="utf-8",
+        )
 
-        pages_structured_json = archive_bundle_dir / "report_structured.json"
+        pages_structured_json = archive_bundle_dir / archive_assets["structured"]
         pages_structured_json.write_text(
           json.dumps(
             generate_structured_json(archive_entries, archive_stats),
@@ -2660,24 +2734,49 @@ def main(
           ),
           encoding="utf-8",
         )
-        print(f"Copied:  {pages_structured_json}")
+        print(f"Written: {pages_structured_json}")
+        (archive_bundle_dir / "report_structured.json").write_text(
+          pages_structured_json.read_text(encoding="utf-8"),
+          encoding="utf-8",
+        )
 
-        pages_csv = archive_bundle_dir / "report.csv"
+        pages_csv = archive_bundle_dir / archive_assets["csv"]
         pages_csv.write_text(generate_csv(archive_entries), encoding="utf-8")
-        print(f"Copied:  {pages_csv}")
+        print(f"Written: {pages_csv}")
+        (archive_bundle_dir / "report.csv").write_text(
+          pages_csv.read_text(encoding="utf-8"),
+          encoding="utf-8",
+        )
 
-        pages_manifest = archive_bundle_dir / "manifest.yaml"
+        pages_manifest = archive_bundle_dir / archive_assets["manifest"]
         save_manifest(archive_raw_entries, pages_manifest)
-        print(f"Copied:  {pages_manifest}")
+        print(f"Written: {pages_manifest}")
+        (archive_bundle_dir / "manifest.yaml").write_text(
+          pages_manifest.read_text(encoding="utf-8"),
+          encoding="utf-8",
+        )
 
-        pages_crawled_urls = archive_bundle_dir / "crawled_urls.csv"
+        pages_crawled_urls = archive_bundle_dir / archive_assets["crawled_urls"]
         source_crawled_urls = out_dir / "crawled_urls.csv"
         if source_crawled_urls.exists():
             shutil.copy2(source_crawled_urls, pages_crawled_urls)
-            print(f"Copied:  {pages_crawled_urls}")
+            print(f"Written: {pages_crawled_urls}")
         else:
             pages_crawled_urls.write_text("", encoding="utf-8")
             print(f"Written: {pages_crawled_urls} (empty; source crawled_urls.csv not found)")
+        (archive_bundle_dir / "crawled_urls.csv").write_text(
+            pages_crawled_urls.read_text(encoding="utf-8"),
+            encoding="utf-8",
+        )
+
+        zip_path = archive_bundle_dir / archive_assets["zip"]
+        with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED) as zf:
+            zf.write(pages_json, arcname=pages_json.name)
+            zf.write(pages_structured_json, arcname=pages_structured_json.name)
+            zf.write(pages_csv, arcname=pages_csv.name)
+            zf.write(pages_manifest, arcname=pages_manifest.name)
+            zf.write(pages_crawled_urls, arcname=pages_crawled_urls.name)
+        print(f"Written: {zip_path}")
 
     # Optional per-site issue comment
     if issue_comment_file:
@@ -2701,7 +2800,7 @@ def main(
             pages_crawled=stats.get("pages_crawled", 0),
             archive_name=archive_name,
             spot_check=spot_check,
-          default_lang=default_lang,
+            default_lang=default_lang,
         )
         Path(issue_comment_file).write_text(comment, encoding="utf-8")
         print(f"Written issue comment: {issue_comment_file}")
