@@ -6,6 +6,8 @@ import json
 import sys
 from pathlib import Path
 
+import yaml
+
 sys.path.insert(0, str(Path(__file__).parent.parent / "scripts"))
 
 from generate_report import (
@@ -1718,6 +1720,43 @@ def test_generate_main_archive_dir_reuses_existing_index(tmp_path):
     index = json.loads((archive_dir / "index.json").read_text(encoding="utf-8"))
     # The existing entry plus the new one = 2
     assert len(index) == 2
+
+
+def test_generate_main_archive_manifest_is_site_scoped(tmp_path):
+    """Archived manifest.yaml must include only entries for the archived site."""
+    from manifest import save_manifest
+
+    entries = [
+        _make_entry("https://example.com/doc.pdf", site="example.com"),
+        _make_entry("https://other.com/other.pdf", site="other.com"),
+    ]
+    manifest_path = tmp_path / "manifest.yaml"
+    save_manifest(entries, manifest_path)
+
+    report_dir = tmp_path / "reports"
+    html_dir = tmp_path / "docs"
+    archive_dir = tmp_path / "docs" / "reports"
+
+    generate_main(
+        manifest_path=str(manifest_path),
+        report_dir=str(report_dir),
+        html_dir=str(html_dir),
+        archive_dir=str(archive_dir),
+        site_filter="example.com",
+        crawl_url="https://example.com",
+        run_url="https://github.com/owner/repo/actions/runs/1",
+    )
+
+    index = json.loads((archive_dir / "index.json").read_text(encoding="utf-8"))
+    archive_file = index[0]["archive_file"]
+    archive_stem = archive_file[:-5] if archive_file.endswith(".html") else archive_file
+    archived_manifest_path = archive_dir / archive_stem / "manifest.yaml"
+    assert archived_manifest_path.exists()
+
+    archived_entries = yaml.safe_load(archived_manifest_path.read_text(encoding="utf-8"))
+    assert isinstance(archived_entries, list)
+    assert archived_entries
+    assert all(e.get("site") == "example.com" for e in archived_entries)
 
 
 def test_generate_markdown_includes_size_column_and_value():

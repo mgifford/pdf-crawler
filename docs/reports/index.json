@@ -29,6 +29,7 @@
     "analysed": 272,
     "accessible": 54,
     "analysis_engines": [
+      "bloom",
       "original"
     ],
     "verapdf": false,
@@ -38,15 +39,15 @@
     "vp_error_files": 0
   },
   {
-    "date": "2026-07-10T13:40:18.580156+00:00",
-    "site": "va.gov",
-    "crawl_url": "https://va.gov",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29096188156",
-    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/88#issuecomment-4935934766",
-    "archive_file": "2026-07-10_13-40-18-580_va.gov.html",
-    "total": 9,
-    "analysed": 7,
-    "accessible": 2,
+    "date": "2026-07-10T13:55:12.923112+00:00",
+    "site": "wellsfargo.com",
+    "crawl_url": "https://www.wellsfargo.com",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29096594717",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/93#issuecomment-4936070424",
+    "archive_file": "2026-07-10_13-55-12-923_wellsfargo.com.html",
+    "total": 87,
+    "analysed": 86,
+    "accessible": 69,
     "analysis_engines": [
       "bloom",
       "original"
