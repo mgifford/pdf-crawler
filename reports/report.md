@@ -92,7 +92,7 @@ Generated: 2026-07-10T14:34:08.623345+00:00
 | vivaqua.be | 68 |
 | volstate.edu | 10 |
 | web-4-all.de | 9 |
-| wellsfargo.com | 55 |
+| wellsfargo.com | 87 |
 ## File Details
 
 | File | Site | Published Date | Doc Title | Author | Subject | Keywords | Accessible | Tagged | EmptyText | Protected | Title | Language | Bookmarks | TaggedContent | Forms | TaggedForms | TaggedAnnots | FiguresAlt | Headings | Lists | Tables | Exempt | Pages | Size | Words | Images |
@@ -39498,11 +39498,41 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
+### elder-financial-abuse.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf
+- **Status**: analysed
+- fonts:/QCDNQR+WellsFargoSans-Regular, /QCDNQR+WellsFargoSans-Italic, /QCDNQR+WellsFargoSans-CondensedItalic, /QCDNQR+WellsFargoSans-Light, /QCDNQR+WellsFargoSans-SemiBold, /QCDNQR+WellsFargoSans-Condensed
+
+### elite-visa-signature-guide-to-benefits.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf
+- **Status**: analysed
+- fonts:/MHUEYO+MyriadPro-Regular, /MHUEYO+WellsFargoSans-Bold, /MHUEYO+WellsFargoSans-BoldItalic, /MHUEYO+WellsFargoSans-Regular, /MHUEYO+WellsFargoSans-Italic, /MHUEYO+WellsFargoSans-Condensed, /MHUEYO+WellsFargoSans-SemiBold, /MHUEYO+WellsFargoSans-Light
+
 ### identity-theft-kit.pdf
 
 - **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
 - **Status**: analysed
-- lang, 
+- title, tagged, tagged-content-fail, lang, fonts:/AAAAAJ+WellsFargoSans-Condensed, /NEETJX+WellsFargoSans-Regular, /JGLVFF+WellsFargoSans, /AAAAAG+WellsFargoSans-SemiBold, /AAAAAL+WellsFargoSans-Condensed, /CUYFLT+WellsFargoSans-Regular, /AAAAAI+ArialMT, /JGLVFF+WellsFargoSans-Regular, /AAAAAC+TimesNewRomanPSMT, /AAAAAD+WellsFargoSans-Light, /AAAAAK+WellsFargoSans-Regular, /SORLKI+WellsFargoSans-Condensedfigures-alt, headings-skip, lists-fail, forms-fail, annotations-tagging-fail, 
+
+### online-wires-supported-currency-list.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf
+- **Status**: analysed
+- fonts:/BCDHEE+WellsFargoSans-SemiBold, /BCDIEE+WellsFargoSans-Light, /BCDEEE+WellsFargoSans-Regular, /BCDGEE+WellsFargoSans-Display, /BCDFEE+WellsFargoSans-Condensedheadings-none, 
+
+### us_consumer_privacy_notice_english.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
+- **Status**: analysed
+- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
+
+### visa-signature-business-benefits.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf
+- **Status**: analysed
+- fonts:/WBYJIU+Univers-CondensedLight, /WBYJIU+UniversLTStd-LightCn, /WBYJIU+Univers-BlackOblique, /WBYJIU+MyriadPro-Regular, /WBYJIU+UniversLTStd-BoldCn, /WBYJIU+Univers-CondensedBold, /WBYJIU+UniversLTStd-BoldCnObl, /WBYJIU+UniversLTStd-LightCnObl
 
 ### (R)TERC_Annual_Report_2024-0.pdf
 
@@ -65172,27 +65202,195 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### 10-185_HCBO_2025.pdf
+### 22-088_EEOC_KnowYourRights6.12.pdf
 
-- **URL**: https://www.va.gov/HEALTHBENEFITS/resources/publications/10-185_HCBO_2025.pdf
+- **URL**: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf
 - **Status**: analysed
-- alt-nested-fail, 
+- fonts:/FZIHZX+Calibri-Bold, /FZIHZX+Calibri-Italic, /FZIHZX+Impact, /FZIHZX+Cambria, /FZIHZX+Calibri
 
-### 2025-Federal-Benefits-for-Veterans-Dependents-and-Survivors.pdf
+### 22-088_EEOC_KnowYourRightsSp6.12.pdf
 
-- **URL**: https://department.va.gov/wp-content/uploads/2024/12/2025-Federal-Benefits-for-Veterans-Dependents-and-Survivors.pdf
+- **URL**: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRightsSp6.12.pdf
+- **Status**: analysed
+- fonts:/OEUJVF+Calibri, /OEUJVF+Cambria, /OEUJVF+Impact, /OEUJVF+Calibri-Italic, /OEUJVF+Calibri-Bold
+
+### 542661.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/542661.pdf
+- **Status**: analysed
+- fonts:/AACRAY+MyriadPro-Regular, /KHEEKE+Arial-BoldItalicMT, /CVDDCU+Arial-BoldMT, /TFNBGM+Arial-ItalicMT, /LORFYC+ArialMTforms-fail, forms-tagging-fail, 
+
+### 544260.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544260.pdf
+- **Status**: analysed
+- fonts:/NTWIYX+Arial-ItalicMT, /ZYYXKZ+TimesNewRomanPSMT, /DRYAOR+Arial-BoldMT, /ZYYXKZ+Verdana, /NTWIYX+ArialMTalt-nested-fail, 
+
+### 544408.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544408.pdf
+- **Status**: analysed
+- fonts:/HWKFOA+ArialMT, /SPZYME+Arial-BoldMTlists-warn, 
+
+### 578639.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/578639.pdf
+- **Status**: analysed
+- fonts:/PTTNFO+Arial-BoldMT, /GIDLJG+Arial-ItalicMT, /BYQHRQ+ArialMTforms-fail, forms-tagging-fail, 
+
+### 579609.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/579609.pdf
+- **Status**: analysed
+- fonts:/AWJCUO+Arial-ItalicMT, /LXWQSS+Arial-BoldItalicMT, /IAMDCY+Arial-BoldMT, /ZUAGGQ+ArialMT, /SSGBME+TimesNewRomanPSMTforms-fail, forms-tagging-fail, 
+
+### 583026.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/583026.pdf
+- **Status**: analysed
+- fonts:/CIXSPT+Verdana-Italic, /BLNWBV+Arial-BoldMT, /NYNQNX+ArialMT, /NRIBIX+Verdana, /OSYRBV+Verdana-Boldforms-fail, forms-tagging-fail, 
+
+### 585793.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585793.pdf
+- **Status**: analysed
+- fonts:/HQHAJP+Arial-ItalicMT, /MIXEBF+MyriadPro-Regular, /HQHAJP+ArialMT, /LOMDNH+Arial-BoldItalicMT, /XOJSZJ+Arial-BoldMTforms-fail, forms-tagging-fail, 
+
+### 585794.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585794.pdf
+- **Status**: analysed
+- fonts:/FWMPTY+Arial-BoldMT, /QXZDRC+Arial-ItalicMT, /BIQWUL+ArialMT, /LFOEER+TimesNewRomanPSMTforms-fail, 
+
+### 585797.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585797.pdf
+- **Status**: analysed
+- fonts:/LSQHMC+ArialMT, /GAFIUM+Arial-BoldMT, /TERIUM+Arial-ItalicMT, /PQVKQU+Arial-BoldItalicMTforms-fail, forms-tagging-fail, 
+
+### 586360.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586360.pdf
+- **Status**: analysed
+- fonts:/HCOQEF+Arial-ItalicMT, /KWENUZ+Arial-BoldItalicMT, /AHEFKT+Arial-BoldMT, /AXAAKT+MyriadPro-Regular, /UGAQEF+ArialMTforms-fail, forms-tagging-fail, 
+
+### 586361.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586361.pdf
+- **Status**: analysed
+- fonts:/WBOJYG+Arial-BoldItalicMT, /IOOYKI+ArialMT, /SDOLUO+Arial-ItalicMT, /GDRRIM+Arial-BoldMTforms-fail, forms-tagging-fail, 
+
+### 587740.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/587740.pdf
+- **Status**: analysed
+- fonts:/YXSCIW+ArialMT, /XOERUY+Arial-BoldItalicMT, /UZSZEE+Arial-BoldMTforms-fail, 
+
+### 588287.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/588287.pdf
+- **Status**: analysed
+- fonts:/BGMTMV+Arial-BoldMT, /GQZXEL+Arial-BoldItalicMT, /JFLPUF+ArialMT, /RRMLCP+Arial-ItalicMTforms-fail, forms-tagging-fail, 
+
+### 589852.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/589852.pdf
+- **Status**: analysed
+- fonts:/PCXTIP+Arial-BoldMT, /DXVZWN+Arial-BoldItalicMT, /YAGVEX+ArialMT, /PCXTIP+Arial-ItalicMT
+
+### 590907.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590907.pdf
+- **Status**: analysed
+- fonts:/OKYMPV+Arial-BoldMT, /DZMTRR+Arial-ItalicMT, /ZQPFNZ+Arial-BoldItalicMT, /DHKTRR+ArialMTforms-fail, forms-tagging-fail, 
+
+### 590921.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf
+- **Status**: analysed
+- fonts:/KAZIPZ+ArialMT, /QJBSVN+Arial-BoldMTforms-fail, forms-tagging-fail, 
+
+### 593931.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf
+- **Status**: analysed
+- fonts:/UNWILP+Arial-ItalicMT, /TXSSWH+Arial, /XCIVBJ+Arial-BoldItalicMT, /YROWPH+Arial-BoldMT, /EJBAVV+ArialMT, /YOYQIX+Arial-ItalicMTlists-warn, 
+
+### 595906.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf
+- **Status**: analysed
+- fonts:/ZXENJV+Arial-BoldMT, /KYRBHZ+ArialMT, /EXNMBL+Georgia
+
+### ADD-CA-EN.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/ADD-CA-EN.pdf
+- **Status**: analysed
+- fonts:/RSVTAQ+WellsFargoSans-Bold, /IUMWEI+WellsFargoSans-Display, /CGUSFT+TimesNewRoman, /YXJOUC+WellsFargoSans-Light, /IUMWEI+WellsFargoSans-Regular, /BUYBKW+WellsFargoSans-SemiBold
+
+### DMCA-notice.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/privacy-security/DMCA-notice.pdf
+- **Status**: analysed
+- fonts:/ADRKKN+Arial, /EZATGQ+ArialMT, /XATOEO+Arial
+
+### california.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/es/small-business/deposits/online-disclosures/addenda/california.pdf
+- **Status**: analysed
+- fonts:/QPMLII+WellsFargoSans-Regular, /IQNPAY+WellsFargoSans-Light, /DERIGC+TimesNewRoman, /XPAGCU+WellsFargoSans-Light, /ZNVNEQ+WellsFargoSans-SemiBold, /QPMLII+WellsFargoSans-Display, /QPMLII+WellsFargoSans-Bold
+
+### fetch-pdf-0.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013&subProductCode=ANY
+- **Status**: analysed
+- fonts:/LVCTKS+WellsFargoSans-Regular, /KRNNWU+WellsFargoSans-Regular, /JSDHIW+WellsFargoSans-Display, /EIQDQG+WellsFargoSans-Light, /FMAJEE+WellsFargoSans-Bold, /HPZVGA+WellsFargoSans-Bold, /CFMROK+WellsFargoSans-Light, /ACNFMO+WellsFargoSans-BoldItalic, /BAKYDQ+TimesNewRoman
+
+### fetch-pdf-1.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CCB2018C&subProductCode=ANY
+- **Status**: analysed
+- fonts:/SOBPUY+WellsFargoSans-Light, /MFZFOK+WellsFargoSans-Bold, /LBPZAM+Wingdings-Regular, /PYGQJE+WellsFargoSans-Regular, /RPMJGA+WellsFargoSans-Regular, /OIDRQG+WellsFargoSans-Bold, /BBVRHB+TimesNewRoman, /TSQVIW+WellsFargoSans-Light, /PMNXEE+WellsFargoSans-Display
+
+### fetch-pdf-2.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013SP&subProductCode=ANY
+- **Status**: analysed
+- fonts:/EQAPZK+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Light, /OSYXJQ+WellsFargoSans-Display
+
+### fetch-pdf.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?documentName=Account%20Addenda&subProductCode=ANY
+- **Status**: analysed
+- fonts:/OOFGNL+WellsFargoSans-Display, /AGEAZN+WellsFargoSans-SemiBold, /IFDRHX+WellsFargoSans-Bold, /TPEDCH+TimesNewRoman, /FQRERD+Calibri, /SCBZRD+WellsFargoSans-Regular, /CBFMBJ+WellsFargoSans-Light, /MBCPLP+Calibri-Bold, /ZZRULP+WellsFargoSans-Light
+
+### fw8ben.pdf
+
+- **URL**: https://www.irs.gov/pub/irs-pdf/fw8ben.pdf
+- **Status**: analysed
+- fonts:/CFUVYJ+HelveticaNeueLTStd-Roman, /CNSQYJ+UniversalStd-NewswithCommPi, /DWGBMH+HelveticaNeueLTStd-BlkCn, /AKTEWN+UniversalStd-NewswithCommPi, /ZQIDIP+HelveticaNeueLTStd-BdIt, /EAVHAF+AdobePiStd, /THGTCB+HelveticaNeueLTStd-Bd, /MCSDIP+ITCFranklinGothicStd-Demiforms-fail, forms-tagging-fail, 
+
+### fw9.pdf
+
+- **URL**: https://www.irs.gov/pub/irs-pdf/fw9.pdf
+- **Status**: analysed
+- fonts:/ZKUMQA+HelveticaNeueLTStd-BlkCn, /OKAJSW+HelveticaNeueLTStd-Roman, /MBEHQA+HelveticaNeueLTStd-Bd, /MCXSQA+ITCFranklinGothicStd-Demi, /FEOMWO+HelveticaNeueLTStd-It, /PVUZGU+HelveticaNeueLTStd-BdItheadings-skip, forms-fail, forms-tagging-fail, 
+
+### identity-theft-kit.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
 - **Status**: error
-- Analysis exceeded 120s per-file limit
+- File not found: crawled_files/wellsfargo.com/identity-theft-kit.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:33:37.002412+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### BAS-KBYG_v1.0_Option1.pdf
+### set-up-direct-deposit-CNS3519.pdf
 
-- **URL**: https://discover.va.gov/transition-programs/wp-content/uploads/sites/3/2026/02/BAS-KBYG_v1.0_Option1.pdf
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/checking/set-up-direct-deposit-CNS3519.pdf
 - **Status**: analysed
-- forms-tagging-fail, annotations-tagging-fail, 
+- fonts:/NWWZYI+Arial-BoldMT, /PMXQAE+WellsFargoSans-Regular, /GJFJEW+ArialMT, /ANKZYI+WellsFargoSans-Italic, /BZSFMG+MICR12byBT-Regular, /IMJVGS+Arial-BoldMT, /KPENVD+TimesNewRoman, /KHKMIO+WellsFargoSans-SemiBold, /SBJDQY+WellsFargoSans-Bold, /YKGNWM+Webdings, /FXXDQY+WellsFargoSans-Italic
 
-### CHAMPVA-Guidebook_3-2026.pdf
+### us_consumer_privacy_notice_english-0.pdf
 
-- **URL**: https://www.va.gov/files/2026-03/CHAMPVA-Guidebook_3-2026.pdf
+- **URL**: https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
 - **Status**: analysed
 - lists-warn, 
 

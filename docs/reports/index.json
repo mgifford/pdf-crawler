@@ -29,13 +29,14 @@
     "analysed": 7,
     "accessible": 2,
     "analysis_engines": [
+      "bloom",
       "original"
     ],
-    "verapdf": true,
-    "vp_checked_files": 7,
+    "verapdf": false,
+    "vp_checked_files": 0,
     "vp_pass_files": 0,
-    "vp_fail_files": 6,
-    "vp_error_files": 1
+    "vp_fail_files": 0,
+    "vp_error_files": 0
   },
   {
     "date": "2026-07-09T21:48:08.469207+00:00",
