@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-10T21:57:09.763528+00:00",
+    "site": "all",
+    "crawl_url": "",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29124100033",
+    "issue_url": "",
+    "archive_file": "2026-07-10_21-57-09-763_all.html",
+    "total": 26976,
+    "analysed": 6474,
+    "accessible": 2015,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": true,
+    "vp_checked_files": 89,
+    "vp_pass_files": 0,
+    "vp_fail_files": 82,
+    "vp_error_files": 7
+  },
+  {
     "date": "2026-07-10T18:33:21.982725+00:00",
     "site": "hud.gov",
     "crawl_url": "https://www.hud.gov",
