@@ -40001,11 +40001,41 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
+### elder-financial-abuse.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf
+- **Status**: analysed
+- fonts:/QCDNQR+WellsFargoSans-Regular, /QCDNQR+WellsFargoSans-Italic, /QCDNQR+WellsFargoSans-CondensedItalic, /QCDNQR+WellsFargoSans-Light, /QCDNQR+WellsFargoSans-SemiBold, /QCDNQR+WellsFargoSans-Condensed
+
+### elite-visa-signature-guide-to-benefits.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf
+- **Status**: analysed
+- fonts:/MHUEYO+MyriadPro-Regular, /MHUEYO+WellsFargoSans-Bold, /MHUEYO+WellsFargoSans-BoldItalic, /MHUEYO+WellsFargoSans-Regular, /MHUEYO+WellsFargoSans-Italic, /MHUEYO+WellsFargoSans-Condensed, /MHUEYO+WellsFargoSans-SemiBold, /MHUEYO+WellsFargoSans-Light
+
 ### identity-theft-kit.pdf
 
 - **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
 - **Status**: analysed
-- lang, 
+- title, tagged, tagged-content-fail, lang, fonts:/AAAAAJ+WellsFargoSans-Condensed, /NEETJX+WellsFargoSans-Regular, /JGLVFF+WellsFargoSans, /AAAAAG+WellsFargoSans-SemiBold, /AAAAAL+WellsFargoSans-Condensed, /CUYFLT+WellsFargoSans-Regular, /AAAAAI+ArialMT, /JGLVFF+WellsFargoSans-Regular, /AAAAAC+TimesNewRomanPSMT, /AAAAAD+WellsFargoSans-Light, /AAAAAK+WellsFargoSans-Regular, /SORLKI+WellsFargoSans-Condensedfigures-alt, headings-skip, lists-fail, forms-fail, annotations-tagging-fail, 
+
+### online-wires-supported-currency-list.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf
+- **Status**: analysed
+- fonts:/BCDHEE+WellsFargoSans-SemiBold, /BCDIEE+WellsFargoSans-Light, /BCDEEE+WellsFargoSans-Regular, /BCDGEE+WellsFargoSans-Display, /BCDFEE+WellsFargoSans-Condensedheadings-none, 
+
+### us_consumer_privacy_notice_english.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
+- **Status**: analysed
+- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
+
+### visa-signature-business-benefits.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf
+- **Status**: analysed
+- fonts:/WBYJIU+Univers-CondensedLight, /WBYJIU+UniversLTStd-LightCn, /WBYJIU+Univers-BlackOblique, /WBYJIU+MyriadPro-Regular, /WBYJIU+UniversLTStd-BoldCn, /WBYJIU+Univers-CondensedBold, /WBYJIU+UniversLTStd-BoldCnObl, /WBYJIU+UniversLTStd-LightCnObl
 
 ### (R)TERC_Annual_Report_2024-0.pdf
 
