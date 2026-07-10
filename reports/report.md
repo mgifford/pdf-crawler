@@ -1,21 +1,21 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-10T13:40:18.580156+00:00
+Generated: 2026-07-10T14:34:08.623345+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 2 |
-| Total files tracked | 25634 |
-| Analysed | 6402 |
-| Pending analysis | 13914 |
-| Errors during analysis | 5318 |
-| Accessible | 2008 |
-| Issues found | 4394 |
-| Totally inaccessible subset | 288 |
+| URLs crawled | 555 |
+| Total files tracked | 26150 |
+| Analysed | 6474 |
+| Pending analysis | 14357 |
+| Errors during analysis | 5319 |
+| Accessible | 2015 |
+| Issues found | 4459 |
+| Totally inaccessible subset | 289 |
 | Broken / unreadable | 28 |
-| Exempt (pre-2018) | 1520 |
+| Exempt (pre-2018) | 1527 |
 
 ## Files per Site
 
@@ -72,7 +72,7 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | nwboces.org | 21 |
 | ontario.ca | 51 |
 | oregon.gov | 2178 |
-| pa.gov | 212 |
+| pa.gov | 728 |
 | pca.state.mn.us | 211 |
 | ppboces.org | 34 |
 | products.gci-ga.com | 137 |
@@ -2816,8 +2816,8 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [consent-bankruptcy.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-bankruptcy.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 442 | 1 |
 | [consent-mediation.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-mediation.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 327 | 1 |
 | [contributor-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/contributor-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 674 | 0 |
-| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 1561 | 4 |
-| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | — | 15301 | 0 |
+| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 223.9 KB | 1561 | 4 |
+| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | 438.4 KB | 15301 | 0 |
 | [error-resolution-and-cancellation-rights-es.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/error-resolution-and-cancellation-rights-es.pdf) | wellsfargo.com | 2024-09-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 725 | 0 |
 | [existing-customers-4506c.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-4506c.pdf) | wellsfargo.com | 2024-09-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 2605 | 0 |
 | [existing-customers-borrower-consent.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-borrower-consent.pdf) | wellsfargo.com | 2023-02-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 162 | 2 |
@@ -2826,13 +2826,13 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [financial-contribution-gse.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-gse.pdf) | wellsfargo.com | 2023-04-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [financial-contribution-wobp.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-wobp.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [frd-overdraft-wellsfargo.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/frd-overdraft-wellsfargo.pdf) | wellsfargo.com | 2025-09-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 907 | 0 |
-| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2026-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1229 | 0 |
+| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2026-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 147.1 KB | 1229 | 0 |
 | [initiate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/initiate.pdf) | wellsfargo.com | 2026-02-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1953 | 0 |
 | [mortgage-assistance-application.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-application.pdf) | wellsfargo.com | 2022-07-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1655 | 0 |
 | [mortgage-assistance-debts-expense.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-debts-expense.pdf) | wellsfargo.com | 2023-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1974 | 0 |
 | [navigate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/navigate.pdf) | wellsfargo.com | 2025-10-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 2009 | 0 |
 | [online-wires-supported-currency-list-0.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 1744 | 0 |
-| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2178 | 0 |
+| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 175.4 KB | 2178 | 0 |
 | [optimize.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/optimize.pdf) | wellsfargo.com | 2025-10-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 2469 | 0 |
 | [payment-assist-mtg-assumption-terms-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/payment-assist-mtg-assumption-terms-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 564 | 0 |
 | [platinum-visa-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/platinum-visa-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 6592 | 0 |
@@ -2849,9 +2849,9 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [third-party-release.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/third-party-release.pdf) | wellsfargo.com | 2023-11-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 308 | 1 |
 | [travel-accident-and-baggage-delay.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/travel-accident-and-baggage-delay.pdf) | wellsfargo.com | 2024-07-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 4674 | 0 |
 | [us-purchase-order-terms.pdf](https://www.wellsfargo.com/assets/pdf/about/corporate/us-purchase-order-terms.pdf) | wellsfargo.com | 2025-03-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | — | 25841 | 0 |
-| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1411 | 1 |
+| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 138.3 KB | 1411 | 1 |
 | [visa-benefits-guide.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/visa-benefits-guide.pdf) | wellsfargo.com | 2024-09-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 7466 | 0 |
-| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 9451 | 1 |
+| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | 971.7 KB | 9451 | 1 |
 | [Applicant_NJFC_Application_Check_List_en.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_en.pdf) | njfamilycare.dhs.state.nj.us | 2023-04-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 458 | 2 |
 | [Applicant_NJFC_Application_Check_List_sp.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_sp.pdf) | njfamilycare.dhs.state.nj.us | 2023-05-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 581 | 2 |
 | [FAQs_UM_Appeal_Changes.pdf](https://njfamilycare.dhs.state.nj.us/docs/FAQs_UM_Appeal_Changes.pdf) | njfamilycare.dhs.state.nj.us | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 950 | 0 |
@@ -3485,14 +3485,14 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [15-dgs-fy-2023-budget-hearing-request.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/documents/appropriations-budgetary-submissions/15-dgs-fy-2023-budget-hearing-request.pdf) | pa.gov | 2023-03-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 61 | — | 9884 | 3 |
 | [2016-20_dor_strategic_plan.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2016-20_dor_strategic_plan.pdf) | pa.gov | 2017-07-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 28 | — | 4872 | 56 |
 | [2016-20_dor_strategic_plan_update.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2016-20_dor_strategic_plan_update.pdf) | pa.gov | 2019-03-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | — | 2655 | 65 |
-| [2017%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2017%20BIPS%20Annual%20Report.pdf) | pa.gov | 2018-06-19 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 18 | — | 0 | 18 |
-| [2018%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2018%20BIPS%20Annual%20Report.pdf) | pa.gov | 2019-07-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 2829 | 0 |
+| [2017%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2017%20BIPS%20Annual%20Report.pdf) | pa.gov | 2018-06-19 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 18 | 13.2 MB | 0 | 18 |
+| [2018%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2018%20BIPS%20Annual%20Report.pdf) | pa.gov | 2019-07-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | 716.4 KB | 2829 | 0 |
 | [2021-25_dor_strategic_keystone.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2021-25_dor_strategic_keystone.pdf) | pa.gov | 2021-11-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 142 | 1 |
 | [2021-25_dor_strategic_plan.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2021-25_dor_strategic_plan.pdf) | pa.gov | 2023-10-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 19 | — | 1842 | 17 |
 | [2021-25_dor_strategic_plan_achievements.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2021-25_dor_strategic_plan_achievements.pdf) | pa.gov | 2023-05-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 11 | — | 1551 | 6 |
 | [2024-my-2023-odp-annual-technical-report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/acap/2024-my-2023-odp-annual-technical-report.pdf) | pa.gov | 2025-04-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 38 | — | 16357 | 36 |
-| [2024_utilization_report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/2024_utilization_report.pdf) | pa.gov | 2024-12-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 5308 | 0 |
-| [2025%20drap%20guidelines.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/2025%20drap%20guidelines.pdf) | pa.gov | 2025-06-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 3848 | 3 |
+| [2024_utilization_report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/2024_utilization_report.pdf) | pa.gov | 2024-12-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | 476.8 KB | 5308 | 0 |
+| [2025%20drap%20guidelines.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/2025%20drap%20guidelines.pdf) | pa.gov | 2025-06-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 469.6 KB | 3848 | 3 |
 | [2025-26-penndot-winter-fact-sheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/2025-26-penndot-winter-fact-sheet.pdf) | pa.gov | 2025-10-15 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 434 | 2 |
 | [2025_pa-1000_inst_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000_inst_span.pdf) | pa.gov | 2026-01-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 31 | — | 23223 | 9 |
 | [2025_pa-1000_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/ptrr/documents/2025_pa-1000_span.pdf) | pa.gov | 2026-01-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1947 | 0 |
@@ -3507,61 +3507,61 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [2026-30_dor_strategic_plan.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/aboutus/documents/2026-30_dor_strategic_plan.pdf) | pa.gov | 2026-03-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 1766 | 13 |
 | [2026_pride_workshop.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/homelandsecurity/documents/events26/2026_pride_workshop.pdf) | pa.gov | 2026-01-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 184 | 1 |
 | [205_24.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/205_24.pdf) | pa.gov | 2011-10-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 928 | 19 |
-| [210_1.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/210_1.pdf) | pa.gov | 2023-07-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 3166 | 2 |
+| [210_1.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/210_1.pdf) | pa.gov | 2023-07-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | 240.6 KB | 3166 | 2 |
 | [44fr_explanation.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/44fr_explanation.pdf) | pa.gov | 2022-02-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 442 | 0 |
 | [Advocate%20Letter%20Template.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/certificates-and-records/Advocate%20Letter%20Template.pdf) | pa.gov | 2023-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 221 | 0 |
-| [Ambassador%20Program%20Application%20Fillable%20PDF.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/Ambassador%20Program%20Application%20Fillable%20PDF.pdf) | pa.gov | 2023-05-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 307 | 1 |
+| [Ambassador%20Program%20Application%20Fillable%20PDF.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/Ambassador%20Program%20Application%20Fillable%20PDF.pdf) | pa.gov | 2023-05-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 1.4 MB | 307 | 1 |
 | [CVSD_Safety_Presentation_Request.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CVSD_Safety_Presentation_Request.pdf) | pa.gov | 2024-01-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 415 | 2 |
 | [Community%20Living%20Waiver%207.9.2020.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver%207.9.2020.pdf) | pa.gov | 2020-07-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 400 | — | 141408 | 0 |
 | [Community%20Living%20Waiver%20Amendment%20Effective%20January%201,%202019%20(c_285798).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver%20Amendment%20Effective%20January%201,%202019%20(c_285798).pdf) | pa.gov | 2019-01-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 263 | — | 130705 | 10 |
 | [Community%20Living%20Waiver%20Amendment%20Effective%20November%201,%202018%20(c_282391).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver%20Amendment%20Effective%20November%201,%202018%20(c_282391).pdf) | pa.gov | 2018-11-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 293 | — | 131561 | 0 |
 | [Community%20Living%20Waiver%20Amendment%20Effective%20October%201,%202019%20(c_291816).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver%20Amendment%20Effective%20October%201,%202019%20(c_291816).pdf) | pa.gov | 2019-09-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 405 | — | 145422 | 0 |
 | [Community%20Living%20Waiver,%20Effective%20January%201,%202018%20(c_268684).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Community%20Living%20Waiver,%20Effective%20January%201,%202018%20(c_268684).pdf) | pa.gov | 2017-12-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 317 | — | 134855 | 0 |
-| [Disability%20Info%20Release%20for%20Public%20Accommodations.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/public-accommodations/Disability%20Info%20Release%20for%20Public%20Accommodations.pdf) | pa.gov | 2010-06-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 319 | 0 |
+| [Disability%20Info%20Release%20for%20Public%20Accommodations.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/public-accommodations/Disability%20Info%20Release%20for%20Public%20Accommodations.pdf) | pa.gov | 2010-06-02 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 60.8 KB | 319 | 0 |
 | [Executive%20Summary%20of%20the%20Final%20Report%20of%20the%20Autism%20Task%20Force.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/autism-services/Executive%20Summary%20of%20the%20Final%20Report%20of%20the%20Autism%20Task%20Force.pdf) | pa.gov | 2014-02-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | — | 5388 | 0 |
-| [Explanation%20of%20SGOC%20Schedules.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Explanation%20of%20SGOC%20Schedules.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 1118 | 1 |
-| [Explanation%20of%20Tavern%20Gaming%20Schedules.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Explanation%20of%20Tavern%20Gaming%20Schedules.pdf) | pa.gov | 2014-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 459 | 1 |
+| [Explanation%20of%20SGOC%20Schedules.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Explanation%20of%20SGOC%20Schedules.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | 83.4 KB | 1118 | 1 |
+| [Explanation%20of%20Tavern%20Gaming%20Schedules.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Explanation%20of%20Tavern%20Gaming%20Schedules.pdf) | pa.gov | 2014-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 89.3 KB | 459 | 1 |
 | [HAVA-Violations-Title-III-Complaint-Form-English.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/vote/resources/documents-and-forms/HAVA-Violations-Title-III-Complaint-Form-English.pdf) | pa.gov | 2026-02-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 904 | 1 |
-| [LEOT%20Essential%20Job%20Functions.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Essential%20Job%20Functions.pdf) | pa.gov | 2011-07-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 462 | 2 |
-| [LEOT%20Medical%20Information%2020210305.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Medical%20Information%2020210305.pdf) | pa.gov | 2021-03-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 448 | 1 |
-| [LEOT%20Personal%20Appearance.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Personal%20Appearance.pdf) | pa.gov | 2020-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 783 | 1 |
+| [LEOT%20Essential%20Job%20Functions.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Essential%20Job%20Functions.pdf) | pa.gov | 2011-07-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 22.7 KB | 462 | 2 |
+| [LEOT%20Medical%20Information%2020210305.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Medical%20Information%2020210305.pdf) | pa.gov | 2021-03-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 148.4 KB | 448 | 1 |
+| [LEOT%20Personal%20Appearance.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/LEOT%20Personal%20Appearance.pdf) | pa.gov | 2020-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 160.0 KB | 783 | 1 |
 | [No%20Hate%20in%20Our%20State%20Townhall%20Flyer.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2024/No%20Hate%20in%20Our%20State%20Townhall%20Flyer.pdf) | pa.gov | 2024-01-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 211 | 9 |
 | [PA-600-L-S-AS-5-20-Final.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/benefits-applications/PA-600-L-S-AS-5-20-Final.pdf) | pa.gov | 2020-05-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 7854 | 4 |
-| [PSP%20Cadet%20and%20LEOT%20Written%20Examination%20Prep%20Guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/PSP%20Cadet%20and%20LEOT%20Written%20Examination%20Prep%20Guide.pdf) | pa.gov | 2016-12-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 40 | — | 17500 | 3 |
+| [PSP%20Cadet%20and%20LEOT%20Written%20Examination%20Prep%20Guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/PSP%20Cadet%20and%20LEOT%20Written%20Examination%20Prep%20Guide.pdf) | pa.gov | 2016-12-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 40 | 269.2 KB | 17500 | 3 |
 | [Pennsylvania%20Autism%20Census%20Project%20Final%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/autism-services/Pennsylvania%20Autism%20Census%20Project%20Final%20Report.pdf) | pa.gov | 2011-10-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 19 | — | 4749 | 4 |
-| [Pennsylvania_State_Police_LEOT_Training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Pennsylvania_State_Police_LEOT_Training.pdf) | pa.gov | 2020-05-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 497 | 1 |
+| [Pennsylvania_State_Police_LEOT_Training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Pennsylvania_State_Police_LEOT_Training.pdf) | pa.gov | 2020-05-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 173.4 KB | 497 | 1 |
 | [Record%20of%20Change%20Approved%20IDA%20Waivers%20Effective%20November%202021.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Record%20of%20Change%20Approved%20IDA%20Waivers%20Effective%20November%202021.pdf) | pa.gov | 2021-11-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | — | 7316 | 0 |
-| [SGOC%20-%20Public%20-%20Tavern%20Games-bars%201.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/SGOC%20-%20Public%20-%20Tavern%20Games-bars%201.pdf) | pa.gov | 2014-06-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 40 | — | 1797 | 25 |
-| [SGOC%20-%20Public-%20Eligable%20Organizations-clubs.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/SGOC%20-%20Public-%20Eligable%20Organizations-clubs.pdf) | pa.gov | 2021-03-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 148 | — | 7391 | 86 |
-| [Schedule%201%20-%20SGOC%20Annual%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%201%20-%20SGOC%20Annual%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 89 | 1 |
-| [Schedule%202%20-%20SGOC%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202%20-%20SGOC%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 96 | 1 |
-| [Schedule%202A%20-%20Pull-Tab%20and%20Punchboard%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202A%20-%20Pull-Tab%20and%20Punchboard%20Weekly%20Operating%20Record.pdf) | pa.gov | 2015-01-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 77 | 1 |
-| [Schedule%202B%20-%20Regular%20Raffle-Special%20Raffle.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202B%20-%20Regular%20Raffle-Special%20Raffle.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 123 | 1 |
-| [Schedule%202C%20-%20Daily-Weekly%20Drawings.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202C%20-%20Daily-Weekly%20Drawings.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 108 | 1 |
-| [Schedule%202D%20%2050-50%20Drawing%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202D%20%2050-50%20Drawing%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 73 | 1 |
-| [Schedule%202E%20-%20Pool%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202E%20-%20Pool%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 50 | 1 |
-| [Schedule%203%20-%20%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%203%20-%20%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 51 | 1 |
-| [Schedule%204%20-%20SGOC%20Use%20of%20Proceeds-60%20Percent.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%204%20-%20SGOC%20Use%20of%20Proceeds-60%20Percent.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 56 | 1 |
-| [Schedule%204A%20-%20SGOC%20Use%20of%20Proceeds-40%20Percent.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%204A%20-%20SGOC%20Use%20of%20Proceeds-40%20Percent.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 76 | 1 |
-| [Schedule%205%20-%20Pull-Tab%20and%20Punchboard%20Games%20Worksheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%205%20-%20Pull-Tab%20and%20Punchboard%20Games%20Worksheet.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 109 | 1 |
-| [Schedule%206%20%2050-50%20Drawings.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%206%20%2050-50%20Drawings.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 71 | 1 |
-| [Schedule%207%20-%20Pools.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%207%20-%20Pools.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 57 | 1 |
-| [Schedule%208%20-%20Race%20Night%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%208%20-%20Race%20Night%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 114 | 1 |
-| [Schedule%20T1%20-%20Tavern%20Gaming%20Annual%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T1%20-%20Tavern%20Gaming%20Annual%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 82 | 1 |
-| [Schedule%20T1-A%20-%20Tavern%20Gaming%20Quarterly%20Return%20Worksheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T1-A%20-%20Tavern%20Gaming%20Quarterly%20Return%20Worksheet.pdf) | pa.gov | 2014-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 86 | 1 |
-| [Schedule%20T2%20-%20Tavern%20Gaming%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T2%20-%20Tavern%20Gaming%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 144 | 1 |
-| [Schedule%20T3%20-%20Tavern%20Gaming%20Daily%20Drawings.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T3%20-%20Tavern%20Gaming%20Daily%20Drawings.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 96 | 1 |
-| [Schedule%20T4%20-%20Tavern%20Gaming%20Pull-Tab%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T4%20-%20Tavern%20Gaming%20Pull-Tab%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 61 | 1 |
-| [Schedule%20T4-A%20%20Tavern%20Gaming%20Pull-Tab%20Worksheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T4-A%20%20Tavern%20Gaming%20Pull-Tab%20Worksheet.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 70 | 1 |
-| [Schedule%20T5%20-%20Tavern%20Raffles.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T5%20-%20Tavern%20Raffles.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 176 | 1 |
-| [Schedule%20T6%20-%20%20Tavern%20Gaming%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T6%20-%20%20Tavern%20Gaming%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 59 | 1 |
+| [SGOC%20-%20Public%20-%20Tavern%20Games-bars%201.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/SGOC%20-%20Public%20-%20Tavern%20Games-bars%201.pdf) | pa.gov | 2014-06-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 40 | 820.6 KB | 1797 | 25 |
+| [SGOC%20-%20Public-%20Eligable%20Organizations-clubs.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/SGOC%20-%20Public-%20Eligable%20Organizations-clubs.pdf) | pa.gov | 2021-03-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 148 | 2.7 MB | 7391 | 86 |
+| [Schedule%201%20-%20SGOC%20Annual%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%201%20-%20SGOC%20Annual%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 63.9 KB | 89 | 1 |
+| [Schedule%202%20-%20SGOC%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202%20-%20SGOC%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 110.2 KB | 96 | 1 |
+| [Schedule%202A%20-%20Pull-Tab%20and%20Punchboard%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202A%20-%20Pull-Tab%20and%20Punchboard%20Weekly%20Operating%20Record.pdf) | pa.gov | 2015-01-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 110.0 KB | 77 | 1 |
+| [Schedule%202B%20-%20Regular%20Raffle-Special%20Raffle.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202B%20-%20Regular%20Raffle-Special%20Raffle.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 88.5 KB | 123 | 1 |
+| [Schedule%202C%20-%20Daily-Weekly%20Drawings.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202C%20-%20Daily-Weekly%20Drawings.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 30.7 KB | 108 | 1 |
+| [Schedule%202D%20%2050-50%20Drawing%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202D%20%2050-50%20Drawing%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 109.1 KB | 73 | 1 |
+| [Schedule%202E%20-%20Pool%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%202E%20-%20Pool%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 19.6 KB | 50 | 1 |
+| [Schedule%203%20-%20%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%203%20-%20%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 20.3 KB | 51 | 1 |
+| [Schedule%204%20-%20SGOC%20Use%20of%20Proceeds-60%20Percent.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%204%20-%20SGOC%20Use%20of%20Proceeds-60%20Percent.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 21.5 KB | 56 | 1 |
+| [Schedule%204A%20-%20SGOC%20Use%20of%20Proceeds-40%20Percent.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%204A%20-%20SGOC%20Use%20of%20Proceeds-40%20Percent.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 21.7 KB | 76 | 1 |
+| [Schedule%205%20-%20Pull-Tab%20and%20Punchboard%20Games%20Worksheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%205%20-%20Pull-Tab%20and%20Punchboard%20Games%20Worksheet.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 69.7 KB | 109 | 1 |
+| [Schedule%206%20%2050-50%20Drawings.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%206%20%2050-50%20Drawings.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 116.4 KB | 71 | 1 |
+| [Schedule%207%20-%20Pools.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%207%20-%20Pools.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 56.6 KB | 57 | 1 |
+| [Schedule%208%20-%20Race%20Night%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%208%20-%20Race%20Night%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 62.3 KB | 114 | 1 |
+| [Schedule%20T1%20-%20Tavern%20Gaming%20Annual%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T1%20-%20Tavern%20Gaming%20Annual%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 21.5 KB | 82 | 1 |
+| [Schedule%20T1-A%20-%20Tavern%20Gaming%20Quarterly%20Return%20Worksheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T1-A%20-%20Tavern%20Gaming%20Quarterly%20Return%20Worksheet.pdf) | pa.gov | 2014-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 97.7 KB | 86 | 1 |
+| [Schedule%20T2%20-%20Tavern%20Gaming%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T2%20-%20Tavern%20Gaming%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 36.8 KB | 144 | 1 |
+| [Schedule%20T3%20-%20Tavern%20Gaming%20Daily%20Drawings.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T3%20-%20Tavern%20Gaming%20Daily%20Drawings.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 76.7 KB | 96 | 1 |
+| [Schedule%20T4%20-%20Tavern%20Gaming%20Pull-Tab%20Weekly%20Operating%20Record.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T4%20-%20Tavern%20Gaming%20Pull-Tab%20Weekly%20Operating%20Record.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 19.7 KB | 61 | 1 |
+| [Schedule%20T4-A%20%20Tavern%20Gaming%20Pull-Tab%20Worksheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T4-A%20%20Tavern%20Gaming%20Pull-Tab%20Worksheet.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 79.2 KB | 70 | 1 |
+| [Schedule%20T5%20-%20Tavern%20Raffles.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T5%20-%20Tavern%20Raffles.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 119.4 KB | 176 | 1 |
+| [Schedule%20T6%20-%20%20Tavern%20Gaming%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/lce/Schedule%20T6%20-%20%20Tavern%20Gaming%20Record%20of%20Prizes%20Awarded%20in%20Excess%20of%20$600.pdf) | pa.gov | 2014-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 20.4 KB | 59 | 1 |
 | [Sexual%20Harassment%20Symposium%20Flyer%20with%20keynote%20.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/other/2023/Sexual%20Harassment%20Symposium%20Flyer%20with%20keynote%20.pdf) | pa.gov | 2023-10-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 57 | 5 |
 | [Side-By-Side%20of%20Substantive%20Changes%20Made%20to%20the%20waivers%20(c_291277).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/disabilities-aging/documents/community-living-waiver/Side-By-Side%20of%20Substantive%20Changes%20Made%20to%20the%20waivers%20(c_291277).pdf) | pa.gov | 2019-08-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 25 | — | 12682 | 0 |
-| [ada_grievance_procedure.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/ada_grievance_procedure.pdf) | pa.gov | 2024-12-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 765 | 1 |
+| [ada_grievance_procedure.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/ada_grievance_procedure.pdf) | pa.gov | 2024-12-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 113.9 KB | 765 | 1 |
 | [address_directory.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/contactus/documents/address_directory.pdf) | pa.gov | 2020-01-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 605 | 1 |
-| [after-the-disaster.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/resources/guides/after-the-disaster.pdf) | pa.gov | 2018-08-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | — | 1122 | 38 |
+| [after-the-disaster.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/resources/guides/after-the-disaster.pdf) | pa.gov | 2018-08-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 20 | 4.1 MB | 1122 | 38 |
 | [appeal-process-user-guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-benmod/appeal-process-user-guide.pdf) | pa.gov | 2022-01-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 21 | — | 939 | 30 |
-| [auxiliary-volunteer-application.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/auxiliary-communications/auxiliary-volunteer-application.pdf) | pa.gov | 2013-11-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 520 | 2 |
+| [auxiliary-volunteer-application.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/response/auxiliary-communications/auxiliary-volunteer-application.pdf) | pa.gov | 2013-11-12 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 203.4 KB | 520 | 2 |
 | [blair%20county%20town%20hall%20flyer.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2024/blair%20county%20town%20hall%20flyer.pdf) | pa.gov | 2024-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 157 | 10 |
 | [c_237996.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/documents/odp/c_237996.pdf) | pa.gov | 2019-08-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 3259 | 0 |
 | [carlisle%20nhios%20town%20hall%20flyer%20(1).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/carlisle%20nhios%20town%20hall%20flyer%20(1).pdf) | pa.gov | 2026-03-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 156 | 14 |
@@ -3572,33 +3572,33 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [cy-868s-application-for-subsidized-child-care-05-2023.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/children/documents/child-care-early-learning/cy-868s-application-for-subsidized-child-care-05-2023.pdf) | pa.gov | 2025-07-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 5349 | 20 |
 | [deo-118.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/deo-118.pdf) | pa.gov | 2022-10-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 180 | 1 |
 | [dgs-contracts-2023.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/documents/appropriations-budgetary-submissions/dgs-contracts-2023.pdf) | pa.gov | 2023-03-24 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 8077 | 1 |
-| [disaster%20recovery%20application%20walkthrough.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/recovery/disaster-help/documents/disaster%20recovery%20application%20walkthrough.pdf) | pa.gov | 2024-12-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 730 | 45 |
+| [disaster%20recovery%20application%20walkthrough.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/recovery/disaster-help/documents/disaster%20recovery%20application%20walkthrough.pdf) | pa.gov | 2024-12-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 315.3 KB | 730 | 45 |
 | [dor_legislative_guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/dor_legislative_guide.pdf) | pa.gov | 2026-01-13 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 66 | — | 17991 | 120 |
 | [dpo-85.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/dpo-85.pdf) | pa.gov | 2025-06-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 156 | 0 |
 | [drap%20activation%20notice%20for%20hotel%20hampton%20fire.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/resources/drap%20activation%20notice%20for%20hotel%20hampton%20fire.pdf) | pa.gov | 2026-03-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 347 | 1 |
 | [drap%20what%20to%20do%20next%20hotel%20hampton%20fire.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/resources/drap%20what%20to%20do%20next%20hotel%20hampton%20fire.pdf) | pa.gov | 2026-03-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 459 | 19 |
-| [eeo_titlevi_discrimination_complaint.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/eeo_titlevi_discrimination_complaint.pdf) | pa.gov | 2025-05-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 216 | 1 |
-| [emc%20website%20list.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/county-emc/emc%20website%20list.pdf) | pa.gov | 2026-02-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1520 | 6 |
+| [eeo_titlevi_discrimination_complaint.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/eeo_titlevi_discrimination_complaint.pdf) | pa.gov | 2025-05-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 832.0 KB | 216 | 1 |
+| [emc%20website%20list.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/county-emc/emc%20website%20list.pdf) | pa.gov | 2026-06-17 | — | Sale, Viviana | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 229.8 KB | 1516 | 6 |
 | [emergency%20kit%20list.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/emergency%20kit%20list.pdf) | pa.gov | 2019-07-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 113 | 1 |
 | [erie%20nhios%20town%20hall%20flyer.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/erie%20nhios%20town%20hall%20flyer.pdf) | pa.gov | 2025-11-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 128 | 10 |
-| [external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf) | pa.gov | 2025-09-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 157 | 1 |
-| [ffy%202026%20title%20vi%20plan.pdf.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/ffy%202026%20title%20vi%20plan.pdf.pdf) | pa.gov | 2025-07-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 33 | — | 6188 | 8 |
+| [external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf) | pa.gov | 2025-09-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 132.8 KB | 157 | 1 |
+| [ffy%202026%20title%20vi%20plan.pdf.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/ffy%202026%20title%20vi%20plan.pdf.pdf) | pa.gov | 2025-07-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 33 | 398.3 KB | 6188 | 8 |
 | [flag%20program%20flying%20request%20form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/flag%20program%20flying%20request%20form.pdf) | pa.gov | 2024-09-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 131 | 0 |
 | [hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf) | pa.gov | 2025-10-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 142 | 11 |
 | [immigration%20nhios%20town%20hall%20flyer%20(3).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/immigration%20nhios%20town%20hall%20flyer%20(3).pdf) | pa.gov | 2026-02-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 148 | 14 |
-| [it-policy-crosswalk.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf) | pa.gov | 2026-03-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | — | 2521 | 1 |
-| [lce_pe_readiness_tests.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/lce_pe_readiness_tests.pdf) | pa.gov | 2025-11-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 577 | 1 |
+| [it-policy-crosswalk.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf) | pa.gov | 2026-06-17 | — | Grim, Christopher | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 15 | 301.5 KB | 2514 | 1 |
+| [lce_pe_readiness_tests.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/lce_pe_readiness_tests.pdf) | pa.gov | 2025-11-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 128.3 KB | 577 | 1 |
 | [legislative_inquiries_submission_update.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/legislative_inquiries_submission_update.pdf) | pa.gov | 2025-02-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 709 | 27 |
-| [library%20collection.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/library%20collection.pdf) | pa.gov | 2015-04-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 200 | 0 |
+| [library%20collection.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/library%20collection.pdf) | pa.gov | 2015-04-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 49.0 KB | 200 | 0 |
 | [mechanicsburg%20nhios%20town%20hall%20flyer.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/mechanicsburg%20nhios%20town%20hall%20flyer.pdf) | pa.gov | 2025-10-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 135 | 10 |
 | [mv-13st.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-13st.pdf) | pa.gov | 2025-02-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 840 | 0 |
 | [mv-3.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-3.pdf) | pa.gov | 2025-04-10 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1707 | 1 |
 | [mv-371dv.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bmv/bmv-forms/mv-371dv.pdf) | pa.gov | 2025-03-31 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1195 | 0 |
-| [odhh-12esp.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/documents/odhh-12esp.pdf) | pa.gov | 2022-10-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 4083 | 45 |
+| [odhh-12esp.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/documents/odhh-12esp.pdf) | pa.gov | 2022-10-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | 3.3 MB | 4083 | 45 |
 | [os-105.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/os-105.pdf) | pa.gov | 2025-02-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 840 | 6 |
 | [os-12.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/forms/os-12.pdf) | pa.gov | 2025-10-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 818 | 0 |
 | [ovr-808.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/documents/ovr-808.pdf) | pa.gov | 2007-05-04 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 6 | — | 1531 | 1 |
-| [pa%20demographics%20how%20many%20pennsylvanians%20are%20deaf%20or%20hard%20of%20hearing.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/pa%20demographics%20how%20many%20pennsylvanians%20are%20deaf%20or%20hard%20of%20hearing.pdf) | pa.gov | 2015-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 416 | 1 |
+| [pa%20demographics%20how%20many%20pennsylvanians%20are%20deaf%20or%20hard%20of%20hearing.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/pa%20demographics%20how%20many%20pennsylvanians%20are%20deaf%20or%20hard%20of%20hearing.pdf) | pa.gov | 2015-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 103.0 KB | 416 | 1 |
 | [pa-600-l.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/benefits-applications/pa-600-l.pdf) | pa.gov | 2020-05-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 6965 | 4 |
 | [pa_email_phishing_poster.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/idtheftprotectionandvictimassistance/documents/pa_email_phishing_poster.pdf) | pa.gov | 2017-04-07 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 297 | 1 |
 | [pabeoc-membership-agreement.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/private-sector-integration/pabeoc-membership-agreement.pdf) | pa.gov | 2019-12-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 799 | 0 |
@@ -3612,11 +3612,11 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [philadelphia%20bench-bar%20cle%20flyer%20update.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/other/2023/philadelphia%20bench-bar%20cle%20flyer%20update.pdf) | pa.gov | 2023-08-30 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 103 | 8 |
 | [philadelphia%20nhios%20town%20hall%20flyer%20(2).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/philadelphia%20nhios%20town%20hall%20flyer%20(2).pdf) | pa.gov | 2025-12-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 149 | 14 |
 | [pit_mef_software_vendors.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/onlineservices/personalincometaxe-services/efile/documents/pit_mef_software_vendors.pdf) | pa.gov | 2026-01-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1591 | 0 |
-| [private-sector-integration-fact-sheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/private-sector-integration/private-sector-integration-fact-sheet.pdf) | pa.gov | 2019-12-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 417 | 3 |
+| [private-sector-integration-fact-sheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/private-sector-integration/private-sector-integration-fact-sheet.pdf) | pa.gov | 2019-12-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 356.0 KB | 417 | 3 |
 | [processing%20an%20act%20101%20and%20act%2051%20claim.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/insurance/line-of-duty-death-benefits/documents/processing%20an%20act%20101%20and%20act%2051%20claim.pdf) | pa.gov | 2020-03-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 313 | 0 |
-| [psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf) | pa.gov | 2025-07-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 41 | — | 13504 | 15 |
-| [psp_form_3-394%20.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/psp_form_3-394%20.pdf) | pa.gov | 2024-12-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 207 | 1 |
-| [psp_most_wanted_current.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/psp_most_wanted_current.pdf) | pa.gov | 2026-02-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 333 | 10 |
+| [psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf) | pa.gov | 2025-07-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 41 | 1.5 MB | 13504 | 15 |
+| [psp_form_3-394%20.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/psp_form_3-394%20.pdf) | pa.gov | 2024-12-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 850.6 KB | 207 | 1 |
+| [psp_most_wanted_current.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/psp_most_wanted_current.pdf) | pa.gov | 2026-06-23 | psp_most_wanted_current | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 616.6 KB | 333 | 10 |
 | [ptrr_proof_doc_checklist.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_proof_doc_checklist.pdf) | pa.gov | 2026-01-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1484 | 4 |
 | [ptrr_proof_doc_checklist_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_proof_doc_checklist_span.pdf) | pa.gov | 2026-01-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1635 | 4 |
 | [ptrr_quick_tips.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_quick_tips.pdf) | pa.gov | 2026-01-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1392 | 2 |
@@ -3625,7 +3625,7 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [pub%20628.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub%20628.pdf) | pa.gov | 2025-10-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 32 | — | 7863 | 3 |
 | [pub%20650.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/pubsforms/publications/pub%20650.pdf) | pa.gov | 2022-10-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 772 | 8 |
 | [pub%20650_10-22_web.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/pub%20650_10-22_web.pdf) | pa.gov | 2022-10-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 772 | 8 |
-| [pub%20753.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-publications/pub%20753.pdf) | pa.gov | 2015-10-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 321 | 1 |
+| [pub%20753.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/bdl/bdl-publications/pub%20753.pdf) | pa.gov | 2015-10-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 35.3 KB | 321 | 1 |
 | [report%20of%20death%20form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/insurance/line-of-duty-death-benefits/documents/report%20of%20death%20form.pdf) | pa.gov | 2015-06-15 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 559 | 0 |
 | [rev-181.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/otherforms/documents/rev-181.pdf) | pa.gov | 2025-08-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1769 | 0 |
 | [rev-227.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforbusinesses/sut/documents/rev-227.pdf) | pa.gov | 2025-10-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 735 | 0 |
@@ -3635,13 +3635,13 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [rmo-1dl.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/orm_forms/orm_forms/rmo-1dl.pdf) | pa.gov | 2012-08-29 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 389 | 1 |
 | [rmo-1vr.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/public/dvspubsforms/orm_forms/orm_forms/rmo-1vr.pdf) | pa.gov | 2012-10-11 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 169 | 1 |
 | [roxborough%20nhios%20town%20hall%20flyer%20(1).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/roxborough%20nhios%20town%20hall%20flyer%20(1).pdf) | pa.gov | 2026-02-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 151 | 13 |
-| [rvat_commissioners_report_2025.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/rvat/rvat_commissioners_report_2025.pdf) | pa.gov | 2025-07-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 680 | 5 |
-| [social%20justice%20community%20involvement.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/phrc-outreach/english/social%20justice%20community%20involvement.pdf) | pa.gov | 2025-12-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 546 | 18 |
+| [rvat_commissioners_report_2025.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/rvat/rvat_commissioners_report_2025.pdf) | pa.gov | 2025-07-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 650.2 KB | 680 | 5 |
+| [social%20justice%20community%20involvement.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/phrc-outreach/english/social%20justice%20community%20involvement.pdf) | pa.gov | 2025-12-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 983.1 KB | 546 | 18 |
 | [st_bulletin_2019-01.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxlawpoliciesbulletinsnotices/taxbulletins/sut/documents/st_bulletin_2019-01.pdf) | pa.gov | 2020-09-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1061 | 1 |
 | [st_bulletin_2019-02.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxlawpoliciesbulletinsnotices/taxbulletins/sut/documents/st_bulletin_2019-02.pdf) | pa.gov | 2019-11-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1458 | 4 |
-| [staff-highlight-stacie-andrews.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/documents/staff-highlights/staff-highlight-stacie-andrews.pdf) | pa.gov | 2024-10-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 452 | 1 |
-| [state%20employee%20recognition%20day%202024%20pdf.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/state%20employee%20recognition%20day%202024%20pdf.pdf) | pa.gov | 2024-04-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 0 | 66 |
-| [std-486c-discrimination-complaint-form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/std-486c-discrimination-complaint-form.pdf) | pa.gov | 2012-11-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 153 | 0 |
+| [staff-highlight-stacie-andrews.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/documents/staff-highlights/staff-highlight-stacie-andrews.pdf) | pa.gov | 2024-10-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 185.5 KB | 452 | 1 |
+| [state%20employee%20recognition%20day%202024%20pdf.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/state%20employee%20recognition%20day%202024%20pdf.pdf) | pa.gov | 2024-04-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 817.3 KB | 0 | 66 |
+| [std-486c-discrimination-complaint-form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/std-486c-discrimination-complaint-form.pdf) | pa.gov | 2012-11-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 67.9 KB | 153 | 0 |
 | [storm%20tactic%20fact%20sheet.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/storm%20tactic%20fact%20sheet.pdf) | pa.gov | 2015-01-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 644 | 1 |
 | [uc-181.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-181.pdf) | pa.gov | 2021-05-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 214 | 0 |
 | [uc-2010%20(13).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucts/uc-2010%20(13).pdf) | pa.gov | 2024-09-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 41 | — | 10811 | 0 |
@@ -3682,6 +3682,7 @@ Generated: 2026-07-10T13:40:18.580156+00:00
 | [uc-855.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-855.pdf) | pa.gov | 2024-12-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 219 | 0 |
 | [uc-employer-quick-guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-employer-quick-guide.pdf) | pa.gov | 2024-06-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 607 | 16 |
 | [ucms%20-%20how%20to%20register%20online%20tpa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucms%20-%20how%20to%20register%20online%20tpa.pdf) | pa.gov | 2025-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 651 | 23 |
+| [wawa%2060th%20anniversary%20pdf.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/wawa%2060th%20anniversary%20pdf.pdf) | pa.gov | 2024-04-15 | — | mrdowning | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 299.8 KB | 0 | 114 |
 | [Bixal_Transforming_Govt_CX.pdf](https://www.bixal.com/sites/default/files/2024-06/Bixal_Transforming_Govt_CX.pdf) | bixal.com | 2024-03-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 5028 | 1 |
 | [data-maturity-checklist.pdf](https://www.bixal.com/sites/default/files/2024-06/data-maturity-checklist.pdf) | bixal.com | 2024-06-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 425 | 0 |
 | [03092020-covid-19-faqs-508.pdf](https://www.cms.gov/files/document/03092020-covid-19-faqs-508.pdf) | cms.gov | 2024-03-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 181 | — | 72020 | 197 |
@@ -6507,6 +6508,77 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [VA-Benefits-Participant-Guide-0.pdf](https://www.benefits.va.gov/TAP/docs/VA-Benefits-Participant-Guide.pdf) | va.gov | 2019-10-24 | VA Benefits and Services Participant Guide | {'U.S. Department of Veterans Affairs'} | {'VR&E', 'Benefits', 'Memorial', 'Life Insurance', 'National Guard', 'VA Facility', 'Resources', 'eBenefits', 'GI Bill', 'Home Loan', 'VA.gov', 'VA Regional Office', 'Caregiver', 'Disability', 'Service Member', 'Home', 'Career', 'Survivor', 'Community', 'Reserve', 'Dental Care', 'Military', 'Education', 'VA', 'Family', 'Health Care', 'Mental Health', 'Housing', 'Veterans Affairs', 'Reserve Components', 'Dependent', 'Employment', 'Vet Centers', 'VSOs', 'Transition'} | Veterans Affairs, VA, Transition, Military, Disability, Education, Family, Survivor, Dependent, Housing, Home, Career, Employment, Benefits, Health Care, Mental Health, Vet Centers, Community, Service Member, National Guard, Reserve, Reserve Components, Resources, VA.gov, Life Insurance, eBenefits, Memorial, GI Bill, VR&E, VA Facility, VA Regional Office, Dental Care, Home Loan, Caregiver, VSOs | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | ❌ Fail | 164 | 6.4 MB | 41031 | 206 |
 | [WelcomeVA_Guide_print_version_final.pdf](https://www.va.gov/WelcomeVA_Guide_print_version_final.pdf) | va.gov | 2018-12-07 | Welcome to VA | U.S. Department of Veterans Affairs | Understand how VA can meet your needs, and learn how to access VA benefits and services. | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 24 | 414.1 KB | 7847 | 0 |
 | [vawelcomekit-consolidated-color.pdf](https://www.va.gov/files/2025-06/vawelcomekit-consolidated-color.pdf) | va.gov | 2025-06-11 | VA Welcome Kit | US Department of Veterans Affairs/VA | {'U.S. Department of Veterans Affairs', 'Veteran Benefits', 'Veterans Experience Office', 'VA', 'VA Welcome Kit', 'Veteran Services'} | Veterans Experience Office; U.S. Department of Veterans Affairs; VA; Veteran Benefits; Veteran Services; VA Welcome Kit | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 49 | 3.9 MB | 20413 | 22 |
+| [0129..PDF](https://www.legis.state.pa.us/WU01/LI/LI/US/PDF/1992/0/0129..PDF) | pa.gov *(ext: legis.state.pa.us)* | 2011-11-03 | Untitled | Unknown | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 3 | 87.3 KB | 1114 | 0 |
+| [0139..PDF](https://www.legis.state.pa.us/WU01/LI/LI/US/PDF/2014/0/0139..PDF) | pa.gov *(ext: legis.state.pa.us)* | 2014-11-25 | Untitled | Unknown | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 4 | 136.1 KB | 1579 | 0 |
+| [17-01%20--%20historical%20teds%20data%20entry%20into%20pa%20wits.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/policy-bulletins/17-01%20--%20historical%20teds%20data%20entry%20into%20pa%20wits.pdf) | pa.gov | 2017-05-17 | — | DOHUSER | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 2 | 370.0 KB | 486 | 2 |
+| [2.5-asam-aligned-facilities.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/asam-facilities/2.5-asam-aligned-facilities.pdf) | pa.gov | 2026-06-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | Warn | ❌ Fail | 6 | 334.2 KB | 1471 | 6 |
+| [2019%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2019%20BIPS%20Annual%20Report.pdf) | pa.gov | 2020-06-08 | BIPS 2019 Annual Report | Masteller, Steven L | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 19 | 746.1 KB | 3239 | 1 |
+| [2020%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2020%20BIPS%20Annual%20Report.pdf) | pa.gov | 2021-06-08 | BIPS 2020 Annual Report | Luthra, Raman | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 17 | 671.1 KB | 3018 | 1 |
+| [2020_02%20ef%20cabinet%20annual%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2020_02%20ef%20cabinet%20annual%20report.pdf) | pa.gov | 2020-09-24 | Microsoft Word - 2020_02 EF Cabinet Annual Report.docx | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 68 | 2.2 MB | 16892 | 1 |
+| [2021%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2021%20BIPS%20Annual%20Report.pdf) | pa.gov | — | Scanned Document | — | — | — | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 19 | 3.2 MB | 0 | 19 |
+| [2021%20ef%20annual%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2021%20ef%20annual%20report.pdf) | pa.gov | 2021-01-25 | — | Miller-Smith, Alexa | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 120 | 1.2 MB | 23248 | 3 |
+| [2021-22%20provider%20xyz%20training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/2021-22%20provider%20xyz%20training.pdf) | pa.gov | 2021-01-29 | PowerPoint Presentation | Ross, Steven | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 22 | 533.0 KB | 1430 | 44 |
+| [2022%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2022%20BIPS%20Annual%20Report.pdf) | pa.gov | 2023-06-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 22 | 13.7 MB | 3366 | 22 |
+| [2022%20employment%20first%20annual%20report%202.3.2022.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2022%20employment%20first%20annual%20report%202.3.2022.pdf) | pa.gov | 2022-02-03 | 2022 Employment First Annual Report | Miller-Smith, Alexa | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 22 | 594.9 KB | 5998 | 9 |
+| [2022-%20pa%20employment%20first%20oversight%20commission%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2022-%20pa%20employment%20first%20oversight%20commission%20report.pdf) | pa.gov | 2022-10-03 | EMPLOYMENT | Stephen Suroviec | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | ❌ Fail | 79 | 2.3 MB | 28152 | 9 |
+| [2022.october.operating%20individualized%20care.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2022.october.operating%20individualized%20care.pdf) | pa.gov | 2022-10-03 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 23 | 592.0 KB | 2339 | 20 |
+| [2023%20employment%20first%20annual%20report%20with%20future%20framework.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2023%20employment%20first%20annual%20report%20with%20future%20framework.pdf) | pa.gov | 2023-01-12 | 2023 Employment First Annual Report with Future Framework | Miller-Smith, Alexa | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 38 | 1.1 MB | 10389 | 7 |
+| [2023%20who%20survey%20fast%20facts.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/warmhandoff/2023%20who%20survey%20fast%20facts.pdf) | pa.gov | 2023-07-17 | My project | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 145.7 KB | 401 | 0 |
+| [2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf) | pa.gov | 2025-02-28 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 29 | 734.6 KB | 1389 | 40 |
+| [2023.february.guiding%20principles%20of%20the%20asam%20criteria.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.february.guiding%20principles%20of%20the%20asam%20criteria.pdf) | pa.gov | 2023-02-10 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 28 | 400.4 KB | 1406 | 40 |
+| [2023.march.comparing%20level%203%20residential%20services%20and%20recovery%20house%20information.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.march.comparing%20level%203%20residential%20services%20and%20recovery%20house%20information.pdf) | pa.gov | 2023-03-13 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 26 | 326.0 KB | 1567 | 26 |
+| [2023.may.family%20involvement%20through%20the%20continuum.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.may.family%20involvement%20through%20the%20continuum.pdf) | pa.gov | 2023-05-01 | Integrating Family Services | Molly Stanton | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 20 | 1.4 MB | 1265 | 52 |
+| [2023_bips_annual_report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2023_bips_annual_report.pdf) | pa.gov | 2025-02-10 | 2023 BIPS Annual Report | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 18 | 4.0 MB | 2870 | 1 |
+| [2024%20annual%20security%20-%20fire%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/cti-hgac/documents/2024%20annual%20security%20-%20fire%20report.pdf) | pa.gov | 2024-09-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 46 | 681.3 KB | 22065 | 5 |
+| [2024-02%20alignment%20review%20expectation%20qa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024-02%20alignment%20review%20expectation%20qa.pdf) | pa.gov | 2024-02-27 | — | Martarano, Kristi | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 147.6 KB | 286 | 0 |
+| [2024-06-14-cy-1001-national-sex-offender-registry-nsor-application-english.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/resources/documents/2024-06-14-cy-1001-national-sex-offender-registry-nsor-application-english.pdf) | pa.gov | 2025-03-27 | National Sex Offender Registry (NSOR) Verification Applicaiton | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 1 | 129.0 KB | 414 | 0 |
+| [2024-07-03-cy-1001-s-national-sex-offender-registry-nsor-application-spanish.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/resources/documents/2024-07-03-cy-1001-s-national-sex-offender-registry-nsor-application-spanish.pdf) | pa.gov | 2025-03-27 | Verificacion del Registro Nacional de Delincuentes Sexual | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 1 | 147.9 KB | 512 | 0 |
+| [2024-efoc-annual%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2024-efoc-annual%20report.pdf) | pa.gov | 2024-10-01 | — | Josie Badger | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 73 | 562.9 KB | 20188 | 2 |
+| [2024-employment-first-cabinet-report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2024-employment-first-cabinet-report.pdf) | pa.gov | 2024-02-01 | 2024 Employment First Annual Report with Future Framework | Miller-Smith, Alexa | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 28 | 870.3 KB | 7664 | 51 |
+| [2024.12.20%20v.1%20gifa%2024-09%20integrated%20health%20solutions_final.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/ddapfunding/documents/2024.12.20%20v.1%20gifa%2024-09%20integrated%20health%20solutions_final.pdf) | pa.gov | 2024-12-20 | — | Rounce, Robert G | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 18 | 282.4 KB | 5311 | 1 |
+| [2024.3%20individualized%20services%20qanda.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.3%20individualized%20services%20qanda.pdf) | pa.gov | 2024-03-07 | — | Martarano, Kristi | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 107.0 KB | 286 | 0 |
+| [2024.7%20conversationwithscottboyles%20qa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.7%20conversationwithscottboyles%20qa.pdf) | pa.gov | 2024-07-31 | — | Martarano, Kristi | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 115.3 KB | 602 | 0 |
+| [2024.8%20conversationwithscottboyles%20qanda.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.8%20conversationwithscottboyles%20qanda.pdf) | pa.gov | 2024-09-06 | — | Martarano, Kristi | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 235.9 KB | 134 | 0 |
+| [2024_Haywood_ENOUGH_Report_012222024.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/2024_Haywood_ENOUGH_Report_012222024.pdf) | pa.gov | 2024-01-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 28 | 2.6 MB | 9259 | 12 |
+| [2024_RVAT_Commissioners_Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/rvat/2024_RVAT_Commissioners_Report.pdf) | pa.gov | 2024-07-15 | Risk and Vulnerability Assessment Team Commissioner's Report 2024 | Manning, Lindsay H | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 3 | 704.1 KB | 578 | 5 |
+| [2024_bips_ar.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2024_bips_ar.pdf) | pa.gov | 2026-01-23 | Bureau of Integrity and Professional Standards 2024 Annual Report | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 19 | 1.0 MB | 3073 | 1 |
+| [2025-05-pa-1995-english.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/scams/2025-05-pa-1995-english.pdf) | pa.gov | 2025-05-14 | PA 1995 English | — | EBT Card Lock Flyer | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 272.9 KB | 112 | 4 |
+| [2025-05-pa-1995-spanish.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/scams/2025-05-pa-1995-spanish.pdf) | pa.gov | 2025-05-14 | PA 1995 S | — | EBT Card Lock Flyer Spanish | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 384.3 KB | 141 | 4 |
+| [2025-employment-first-cabinet-annual-report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2025-employment-first-cabinet-annual-report.pdf) | pa.gov | 2025-03-06 | Employment First Cabinet Report 2025 | Merritt, Katie | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 43 | 1.2 MB | 10722 | 18 |
+| [2025.01.17%20gifa%2024-09_integrated%20health%20solutions%20questions%20and%20answers_final.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/ddapfunding/documents/2025.01.17%20gifa%2024-09_integrated%20health%20solutions%20questions%20and%20answers_final.pdf) | pa.gov | 2025-01-17 | 1 | Andrew Hall | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 195.7 KB | 2039 | 7 |
+| [2025.march.ddap%20monthly%20technical%20assistance%20series%2042%20cfr%20part%208%20final%20ruling%20practical%20applications.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2025.march.ddap%20monthly%20technical%20assistance%20series%2042%20cfr%20part%208%20final%20ruling%20practical%20applications.pdf) | pa.gov | 2025-03-03 | The ASAM Criteria  4th Edition: | Microsoft Office User | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 21 | 325.7 KB | 569 | 23 |
+| [2025_bips_ar.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2025_bips_ar.pdf) | pa.gov | 2026-07-02 | 2025 BIPS Annual Report | Masteller, Steven L | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | ❌ Fail | 19 | 1.6 MB | 3369 | 1 |
+| [2026-06-03-nsor-faq-2026.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/2026-06-03-nsor-faq-2026.pdf) | pa.gov | 2026-06-02 | TEACHER-QUALITY_9_2014v2-with-disclaimer | Wise, Deborah | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | 350.9 KB | 2223 | 0 |
+| [2026-employment-first-cabinet-annual-report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2026-employment-first-cabinet-annual-report.pdf) | pa.gov | 2026-01-29 | — | Merritt, Katie | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | 58 | 2.5 MB | 13649 | 25 |
+| [25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf) | pa.gov | 2025-12-02 | Slide 1 | CVH | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 44 | 2.1 MB | 1533 | 31 |
+| [3.7-asam-aligned-facilities.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/asam-facilities/3.7-asam-aligned-facilities.pdf) | pa.gov | 2026-06-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | Warn | ❌ Fail | 4 | 289.2 KB | 750 | 5 |
+| [49bf42_92ed3a2340d1468194863ac6dc0d7016.pdf](https://www.familyandcaregivertoolkit.org/_files/ugd/49bf42_92ed3a2340d1468194863ac6dc0d7016.pdf) | pa.gov *(ext: familyandcaregivertoolkit.org)* | 2023-05-15 | 49bf42_616c5b13368a491d93dbed35b84c4b4a.pdf | Angela Barkett | — | DAFitmb1mrY,BAClGvtqRlU | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 89.3 KB | 218 | 1 |
+| [54817a_6df3d51d6d624af384539494e59bbb57.pdf](https://54817af5-b764-42ff-a7e2-97d6e4449c1a.usrfiles.com/ugd/54817a_6df3d51d6d624af384539494e59bbb57.pdf) | pa.gov *(ext: 54817af5-b764-42ff-a7e2-97d6e4449c1a.usrfiles.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 11 | 14.4 MB | 2227 | 15 |
+| [9.12.2022%20asam%20monthly%20ta%20wm.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/9.12.2022%20asam%20monthly%20ta%20wm.pdf) | pa.gov | 2022-09-12 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 1.1 MB | 1598 | 20 |
+| [ACT_106_OF_1990-Vital_Statistics-06-12-2008.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/ACT_106_OF_1990-Vital_Statistics-06-12-2008.pdf) | pa.gov | 2001-04-13 | VitalStatistics | Unknown | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 7 | 14.4 KB | 1454 | 0 |
+| [ASAM-Provider-Rates.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/healthchoices/documents/ASAM-Provider-Rates.pdf) | pa.gov | 2023-12-08 | ASAM Provider Rates Effective January 1, 2024.xlsx | kbutsch | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 54.2 KB | 48 | 0 |
+| [Act%2079_PFAD_FFL%20and%20Third%20Party%20Training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_FFL%20and%20Third%20Party%20Training.pdf) | pa.gov | 2019-08-07 | PowerPoint Presentation | Pennsylvania | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 37 | 1.7 MB | 1393 | 126 |
+| [Act%2079_PFAD_Prothonotary_Court%20Training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_Prothonotary_Court%20Training.pdf) | pa.gov | 2021-06-04 | PowerPoint Presentation | Pennsylvania | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 45 | 3.3 MB | 2509 | 121 |
+| [Act%2079_PFAD_Sheriffs%20Office%20Training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_Sheriffs%20Office%20Training.pdf) | pa.gov | 2022-02-16 | PowerPoint Presentation | Pennsylvania | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 63 | 4.4 MB | 3390 | 199 |
+| [Act_No_2008-3-SB_No-1.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/Act_No_2008-3-SB_No-1.pdf) | pa.gov | 2008-12-30 | PENNSYLVANIA 2008 LEGISLATIVE SERVICE | 8.5.2.1.V2 | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ✅ Pass | 32 | 141.4 KB | 12025 | 0 |
+| [AgencyPolicyRTKLAgencyPolicy11292011_PSP4.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/AgencyPolicyRTKLAgencyPolicy11292011_PSP4.pdf) | pa.gov | 2011-11-29 | [AGENCY NAME] | Andrea Bowman | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | Warn | NotApplicable | ✅ Pass | 8 | 49.2 KB | 2569 | 0 |
+| [Appeal_Form.pdf](https://www.openrecords.pa.gov/Documents/Appeals/Appeal_Form.pdf) | pa.gov | 2026-04-20 | Agency Head or Freedom of Information Act Appeal Officer | Rolando Corpus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 279.7 KB | 309 | 1 |
+| [Application%20for%20Scrap%20Processors.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Application%20for%20Scrap%20Processors.pdf) | pa.gov | 2021-10-14 | Scrap Processor Registration BASE | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 789.6 KB | 284 | 0 |
+| [Apprenticeships-0.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?PWT5iYuNKqtAg58UeCdrB_RSirkMMj3@VLMZptl9RUZr3ImdLP5y9dtWdQXEl7ARE5LIjTOU4oGBVAhVl6XL1X9RHlL_03xRmKeoizu_BzbLGfAmBXYO07i6_XNsg6Z01eImEHG7Ie5Hs@hNMgKQMQ--g@gMKgJpxJnncJVXt0gSk0BORftegQqoOF5Rpxzv@jYDGhV8MOKS) | pa.gov | 2023-05-11 | — | John Paul | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 257.8 KB | 438 | 5 |
+| [Apprenticeships-1.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?YDpC8xllFPKb8fqAopEtl6XAv5mv3ac8UdBIN0hQdEkQ0Zjw@NK2Te@6IcUC94bU6AqahgSVGMam7ne3aVK7wazmjaEM1rJLdlZ9XDLcFdKuQV0LiFImVo49J64mZ_qsN1GpKfSNqoLJGCNzIrQRyQ--mMN297DyenlW8BGwlDI4rozA3I3mhPASlzDEcKN4DC4i5Lsc2A94) | pa.gov | 2023-06-09 | — | John Paul | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 276.0 KB | 1374 | 5 |
+| [Apprenticeships-2.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?Uox4BQtQEo@jLY_m_I4gUsq5yqxCQJY2EwJSQNkDhkmJ_IOxG8bZbcq226Ou6lcr3__P5jZAmnfojnjl4YE_jDZTRIjfyLXKT5KSvV2ZlyPauVA7Y@x0zoxteQIGh5Y7iE07sqy4SEd_1Tn7vfzdaw--BF@k45CtIPBAtjJ3eJBLEw4m@uI9TyMpedvSkV2c3VVygSxIkm4L) | pa.gov | 2023-05-12 | — | Stuart Bass | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 6 | 1.1 MB | 685 | 2 |
+| [Apprenticeships-3.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?jhfB9hbo7jmAB1zTLQqZsWBWJYcqoL7_BkH9ZCH0RUz3IGzosYOtQcPGxR63lg2cBpx06_6WffDy6WCprEEPSbnoZ7kdbL@tbrq2gU7N99YT0Y_4pkZv7UArFvNgYjqRyIS96oFCjpKg0lNZxPBTAA--0bpJkP5dyOfG4_3zyETZ1XQU38V_mRNFPWOPDMTkja99QojWJUkZ) | pa.gov | 2023-05-11 | — | Loew, Tara | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 263.1 KB | 523 | 5 |
+| [Apprenticeships-4.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?hbJLRq27D38M8HasZUPLLWf3dMdiuJje5YuTYHzebeflOqbn@sZseOYaRyiqNG8G2xVAvAS6CothoV0ymoaGmUJXPw6OdX9Tk8C_vLZv4kEgTJeJCmoGJS5vO57c_2oYjTxllwyh7pZKId1wMVeEHMyWOw49nUA8moWDIMXF8@S2R3Pdnk3GcZmHmxrBhEWHRtLv2jzOBX6JfuZUdjhV9x2LRqT_1KjVSYTh3RwK2YA4wFcQvL2V) | pa.gov | 2023-04-04 | — | John Paul | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | 337.8 KB | 3213 | 1 |
+| [Apprenticeships.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?Vggf57Go@bu6F5KxQqUJJD9NfWsOXVdyTUBwMWn2GdzpDvWxu395EFw1RHA0Ej9hRGGaCv@X@FG0nhJuYpbXIC_q7lCA3hfQpQfpWo@rS4fBFvmyzJldQq6iIopNGcjKL3K_BAJAC1sbZ8IxWLGEGEyIKKrHWudcUmEZ9M9IiFM-k8XVMdfcRQBLU62Rz1O3IzTMk@y_10hGovJV5lYmMeWJkchDVMM3) | pa.gov | 2023-05-11 | — | John Paul | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 364.0 KB | 744 | 15 |
+| [Attachment%20A%20final.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20final.pdf) | pa.gov | 2019-03-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 110.3 KB | 86 | 0 |
+| [Attachment%20A%20temp.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20temp.pdf) | pa.gov | 2019-03-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 112.3 KB | 83 | 0 |
+| [Attachment%20A%20to%20petition.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20to%20petition.pdf) | pa.gov | 2019-03-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 114.4 KB | 187 | 0 |
+| [Autism_card_4up_S.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Autism_card_4up_S.pdf) | pa.gov | 2024-07-17 | Autism_card_4up_S | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 827.7 KB | 272 | 0 |
+| [Autism_card_gray_S.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Autism_card_gray_S.pdf) | pa.gov | 2024-07-17 | Autism_card_gray_S | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 293.1 KB | 138 | 0 |
+| [CDL%20Flowchart%205.29.14.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CDL%20Flowchart%205.29.14.pdf) | pa.gov | 2014-05-29 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 1 | 283.2 KB | 0 | 1 |
+| [CDR_2021.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2021.pdf) | pa.gov | 2022-10-16 | Microsoft Word - PSP Year 1 Report Jan-Dec 2021 FINAL reissued 10172022 | jennm | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 27 | 1.3 MB | 10289 | 4 |
+| [CDR_2022.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022.pdf) | pa.gov | 2023-05-23 | Pennsylvania State Police Traffic Stop Study: 2022 Annual Report | Jennifer Cherkauskas | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 169 | 2.7 MB | 54965 | 2 |
+| [CDR_2022_1st.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_1st.pdf) | pa.gov | 2022-10-06 | Microsoft Word - PSP Year 2 1st Quarterly Report FINAL | jennm | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 2.6 MB | 17301 | 4 |
 
 ## Files with Errors or Notes
 
@@ -46864,7 +46936,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/county-emc/emc%20website%20list.pdf
 - **Status**: analysed
-- title, 
+- title, headings-none, 
 
 ### emergency%20kit%20list.pdf
 
@@ -46888,7 +46960,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf
 - **Status**: analysed
-- title, 
+- title, figures missing alt text (count=1), headings-none, 
 
 ### library%20collection.pdf
 
@@ -47033,6 +47105,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf
 - **Status**: analysed
 - title, 
+
+### psp_most_wanted_current.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/psp_most_wanted_current.pdf
+- **Status**: analysed
+- title, tagged, lang, 
 
 ### ptrr_training.pdf
 
@@ -47421,8 +47499,8 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### wawa%2060th%20anniversary%20pdf.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/wawa%2060th%20anniversary%20pdf.pdf
-- **Status**: error
-- File not found: crawled_files/pa.gov/wawa%2060th%20anniversary%20pdf.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.973956+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, 
 
 ### york%20nhios%20town%20hall%20flyer.pdf
 
@@ -65141,3 +65219,423 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.va.gov/files/2025-06/vawelcomekit-consolidated-color.pdf
 - **Status**: analysed
 - alt-nested-fail, 
+
+### 0129..PDF
+
+- **URL**: https://www.legis.state.pa.us/WU01/LI/LI/US/PDF/1992/0/0129..PDF
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 0139..PDF
+
+- **URL**: https://www.legis.state.pa.us/WU01/LI/LI/US/PDF/2014/0/0139..PDF
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 17-01%20--%20historical%20teds%20data%20entry%20into%20pa%20wits.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/policy-bulletins/17-01%20--%20historical%20teds%20data%20entry%20into%20pa%20wits.pdf
+- **Status**: analysed
+- title, tagged-content-fail, figures missing alt text (count=1), 
+
+### 2.5-asam-aligned-facilities.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/asam-facilities/2.5-asam-aligned-facilities.pdf
+- **Status**: analysed
+- title, tables-warn, 
+
+### 2019%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2019%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- tagged, 
+
+### 2020%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2020%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=18), headings-none, tables-fail, 
+
+### 2020_02%20ef%20cabinet%20annual%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2020_02%20ef%20cabinet%20annual%20report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2021%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2021%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- no date found, title, tagged-content-fail, lang, headings-none, 
+
+### 2021%20ef%20annual%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2021%20ef%20annual%20report.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), tables-warn, 
+
+### 2022%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2022%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2022%20employment%20first%20annual%20report%202.3.2022.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2022%20employment%20first%20annual%20report%202.3.2022.pdf
+- **Status**: analysed
+- tagged, annotations-untagged, 
+
+### 2022-%20pa%20employment%20first%20oversight%20commission%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2022-%20pa%20employment%20first%20oversight%20commission%20report.pdf
+- **Status**: analysed
+- tagged-content-fail, figures missing alt text (count=2), lists-warn, tables-fail, annotations-tagging-fail, 
+
+### 2022.october.operating%20individualized%20care.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2022.october.operating%20individualized%20care.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=19), headings-warn, tables-warn, 
+
+### 2023%20employment%20first%20annual%20report%20with%20future%20framework.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2023%20employment%20first%20annual%20report%20with%20future%20framework.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### 2023%20who%20survey%20fast%20facts.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/warmhandoff/2023%20who%20survey%20fast%20facts.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2023-efoc-annual-report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2023-efoc-annual-report.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### 2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf
+- **Status**: analysed
+- figures missing alt text (count=32), 
+
+### 2023.february.guiding%20principles%20of%20the%20asam%20criteria.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.february.guiding%20principles%20of%20the%20asam%20criteria.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=39), headings-warn, 
+
+### 2023.march.comparing%20level%203%20residential%20services%20and%20recovery%20house%20information.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.march.comparing%20level%203%20residential%20services%20and%20recovery%20house%20information.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=26), headings-warn, 
+
+### 2023.may.family%20involvement%20through%20the%20continuum.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.may.family%20involvement%20through%20the%20continuum.pdf
+- **Status**: analysed
+- figures missing alt text (count=25), headings-warn, 
+
+### 2023_bips_annual_report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2023_bips_annual_report.pdf
+- **Status**: analysed
+- headings-warn, tables-warn, 
+
+### 2024%20annual%20security%20-%20fire%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/cti-hgac/documents/2024%20annual%20security%20-%20fire%20report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### 2024-02%20alignment%20review%20expectation%20qa.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024-02%20alignment%20review%20expectation%20qa.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 2024-06-14-cy-1001-national-sex-offender-registry-nsor-application-english.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/resources/documents/2024-06-14-cy-1001-national-sex-offender-registry-nsor-application-english.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### 2024-07-03-cy-1001-s-national-sex-offender-registry-nsor-application-spanish.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/resources/documents/2024-07-03-cy-1001-s-national-sex-offender-registry-nsor-application-spanish.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### 2024-efoc-annual%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2024-efoc-annual%20report.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-skip, tables-fail, 
+
+### 2024-employment-first-cabinet-report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2024-employment-first-cabinet-report.pdf
+- **Status**: analysed
+- tagged-content-fail, no bookmarks and more than 20 pages, tables-warn, 
+
+### 2024.12.20%20v.1%20gifa%2024-09%20integrated%20health%20solutions_final.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/ddapfunding/documents/2024.12.20%20v.1%20gifa%2024-09%20integrated%20health%20solutions_final.pdf
+- **Status**: analysed
+- title, tables-warn, 
+
+### 2024.3%20individualized%20services%20qanda.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.3%20individualized%20services%20qanda.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 2024.7%20conversationwithscottboyles%20qa.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.7%20conversationwithscottboyles%20qa.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 2024.8%20conversationwithscottboyles%20qanda.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.8%20conversationwithscottboyles%20qanda.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 2024_Haywood_ENOUGH_Report_012222024.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/2024_Haywood_ENOUGH_Report_012222024.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=12), headings-none, tables-fail, 
+
+### 2024_RVAT_Commissioners_Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/rvat/2024_RVAT_Commissioners_Report.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### 2024_bips_ar.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2024_bips_ar.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### 2025-05-pa-1995-english.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/scams/2025-05-pa-1995-english.pdf
+- **Status**: analysed
+- figures missing alt text (count=5), headings-none, 
+
+### 2025-05-pa-1995-spanish.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/scams/2025-05-pa-1995-spanish.pdf
+- **Status**: analysed
+- figures missing alt text (count=5), headings-none, 
+
+### 2025.01.17%20gifa%2024-09_integrated%20health%20solutions%20questions%20and%20answers_final.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/ddapfunding/documents/2025.01.17%20gifa%2024-09_integrated%20health%20solutions%20questions%20and%20answers_final.pdf
+- **Status**: analysed
+- headings-none, annotations-tagging-fail, 
+
+### 2025.march.ddap%20monthly%20technical%20assistance%20series%2042%20cfr%20part%208%20final%20ruling%20practical%20applications.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2025.march.ddap%20monthly%20technical%20assistance%20series%2042%20cfr%20part%208%20final%20ruling%20practical%20applications.pdf
+- **Status**: analysed
+- figures missing alt text (count=23), 
+
+### 2025_bips_ar.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2025_bips_ar.pdf
+- **Status**: analysed
+- figures missing alt text (count=6), headings-skip, tables-fail, 
+
+### 2026-06-03-nsor-faq-2026.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/2026-06-03-nsor-faq-2026.pdf
+- **Status**: analysed
+- figures missing alt text (count=4), headings-warn, 
+
+### 2026-employment-first-cabinet-annual-report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2026-employment-first-cabinet-annual-report.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=24), headings-skip, 
+
+### 2026-pa-path-grant-application.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/mental-health-in-pa/documents/2026-pa-path-grant-application.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### 25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf
+- **Status**: analysed
+- figures missing alt text (count=77), 
+
+### 3.7-asam-aligned-facilities.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/asam-facilities/3.7-asam-aligned-facilities.pdf
+- **Status**: analysed
+- title, tables-warn, 
+
+### 49bf42_92ed3a2340d1468194863ac6dc0d7016.pdf
+
+- **URL**: https://www.familyandcaregivertoolkit.org/_files/ugd/49bf42_92ed3a2340d1468194863ac6dc0d7016.pdf
+- **Status**: analysed
+- lang, figures missing alt text (count=1), headings-none, 
+
+### 54817a_6df3d51d6d624af384539494e59bbb57.pdf
+
+- **URL**: https://54817af5-b764-42ff-a7e2-97d6e4449c1a.usrfiles.com/ugd/54817a_6df3d51d6d624af384539494e59bbb57.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 9.12.2022%20asam%20monthly%20ta%20wm.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/9.12.2022%20asam%20monthly%20ta%20wm.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=15), headings-warn, 
+
+### ACT_106_OF_1990-Vital_Statistics-06-12-2008.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/ACT_106_OF_1990-Vital_Statistics-06-12-2008.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ASAM-Provider-Rates.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/healthchoices/documents/ASAM-Provider-Rates.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Act%2079_PFAD_FFL%20and%20Third%20Party%20Training.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_FFL%20and%20Third%20Party%20Training.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=124), headings-none, 
+
+### Act%2079_PFAD_Prothonotary_Court%20Training.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_Prothonotary_Court%20Training.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=155), headings-none, 
+
+### Act%2079_PFAD_Sheriffs%20Office%20Training.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_Sheriffs%20Office%20Training.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=273), headings-none, 
+
+### Act_No_2008-3-SB_No-1.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/Act_No_2008-3-SB_No-1.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, headings-none, 
+
+### AgencyPolicyRTKLAgencyPolicy11292011_PSP4.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/AgencyPolicyRTKLAgencyPolicy11292011_PSP4.pdf
+- **Status**: analysed
+- title, lang, headings-none, lists-warn, 
+
+### Appeal_Form.pdf
+
+- **URL**: https://www.openrecords.pa.gov/Documents/Appeals/Appeal_Form.pdf
+- **Status**: analysed
+- forms-tagging-fail, 
+
+### Application%20for%20Scrap%20Processors.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Application%20for%20Scrap%20Processors.pdf
+- **Status**: analysed
+- title, tagged, lang, forms-fail, forms-untagged, 
+
+### Apprenticeships-0.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?PWT5iYuNKqtAg58UeCdrB_RSirkMMj3@VLMZptl9RUZr3ImdLP5y9dtWdQXEl7ARE5LIjTOU4oGBVAhVl6XL1X9RHlL_03xRmKeoizu_BzbLGfAmBXYO07i6_XNsg6Z01eImEHG7Ie5Hs@hNMgKQMQ--g@gMKgJpxJnncJVXt0gSk0BORftegQqoOF5Rpxzv@jYDGhV8MOKS
+- **Status**: analysed
+- title, figures missing alt text (count=6), headings-none, 
+
+### Apprenticeships-1.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?YDpC8xllFPKb8fqAopEtl6XAv5mv3ac8UdBIN0hQdEkQ0Zjw@NK2Te@6IcUC94bU6AqahgSVGMam7ne3aVK7wazmjaEM1rJLdlZ9XDLcFdKuQV0LiFImVo49J64mZ_qsN1GpKfSNqoLJGCNzIrQRyQ--mMN297DyenlW8BGwlDI4rozA3I3mhPASlzDEcKN4DC4i5Lsc2A94
+- **Status**: analysed
+- title, figures missing alt text (count=7), headings-none, annotations-tagging-fail, 
+
+### Apprenticeships-2.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?Uox4BQtQEo@jLY_m_I4gUsq5yqxCQJY2EwJSQNkDhkmJ_IOxG8bZbcq226Ou6lcr3__P5jZAmnfojnjl4YE_jDZTRIjfyLXKT5KSvV2ZlyPauVA7Y@x0zoxteQIGh5Y7iE07sqy4SEd_1Tn7vfzdaw--BF@k45CtIPBAtjJ3eJBLEw4m@uI9TyMpedvSkV2c3VVygSxIkm4L
+- **Status**: analysed
+- title, tagged-content-fail, forms-fail, forms-tagging-fail, figures missing alt text (count=34), headings-none, tables-warn, 
+
+### Apprenticeships-3.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?jhfB9hbo7jmAB1zTLQqZsWBWJYcqoL7_BkH9ZCH0RUz3IGzosYOtQcPGxR63lg2cBpx06_6WffDy6WCprEEPSbnoZ7kdbL@tbrq2gU7N99YT0Y_4pkZv7UArFvNgYjqRyIS96oFCjpKg0lNZxPBTAA--0bpJkP5dyOfG4_3zyETZ1XQU38V_mRNFPWOPDMTkja99QojWJUkZ
+- **Status**: analysed
+- title, figures missing alt text (count=23), headings-none, 
+
+### Apprenticeships-4.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?hbJLRq27D38M8HasZUPLLWf3dMdiuJje5YuTYHzebeflOqbn@sZseOYaRyiqNG8G2xVAvAS6CothoV0ymoaGmUJXPw6OdX9Tk8C_vLZv4kEgTJeJCmoGJS5vO57c_2oYjTxllwyh7pZKId1wMVeEHMyWOw49nUA8moWDIMXF8@S2R3Pdnk3GcZmHmxrBhEWHRtLv2jzOBX6JfuZUdjhV9x2LRqT_1KjVSYTh3RwK2YA4wFcQvL2V
+- **Status**: analysed
+- title, figures missing alt text (count=15), headings-warn, 
+
+### Apprenticeships.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?Vggf57Go@bu6F5KxQqUJJD9NfWsOXVdyTUBwMWn2GdzpDvWxu395EFw1RHA0Ej9hRGGaCv@X@FG0nhJuYpbXIC_q7lCA3hfQpQfpWo@rS4fBFvmyzJldQq6iIopNGcjKL3K_BAJAC1sbZ8IxWLGEGEyIKKrHWudcUmEZ9M9IiFM-k8XVMdfcRQBLU62Rz1O3IzTMk@y_10hGovJV5lYmMeWJkchDVMM3
+- **Status**: analysed
+- title, figures missing alt text (count=13), headings-none, 
+
+### Attachment%20A%20final.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20final.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Attachment%20A%20temp.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20temp.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Attachment%20A%20to%20petition.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20to%20petition.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Autism_card_gray_S.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Autism_card_gray_S.pdf
+- **Status**: analysed
+- headings-none, 
+
+### CDL%20Flowchart%205.29.14.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CDL%20Flowchart%205.29.14.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CDR_2021.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CDR_2022.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022.pdf
+- **Status**: analysed
+- figures missing alt text (count=16), headings-skip, tables-fail, annotations-tagging-fail, 
+
+### CDR_2022_1st.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_1st.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
