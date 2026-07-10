@@ -1533,7 +1533,7 @@ _HTML_TEMPLATE = """\
 
       function makeCsvValue(value) {{
         var s = value == null ? '' : String(value);
-        if (s.indexOf('"') !== -1 || s.indexOf(',') !== -1 || s.indexOf('\n') !== -1) {{
+        if (s.indexOf('"') !== -1 || s.indexOf(',') !== -1 || s.indexOf('\\n') !== -1) {{
           return '"' + s.replace(/"/g, '""') + '"';
         }}
         return s;
@@ -1577,7 +1577,7 @@ _HTML_TEMPLATE = """\
           var row = rowFromFile(file);
           lines.push(columns.map(function (col) {{ return makeCsvValue(row[col]); }}).join(','));
         }});
-        return lines.join('\n');
+        return lines.join('\\n');
       }}
 
       function downloadBlob(filename, text, mime) {{
