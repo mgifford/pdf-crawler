@@ -13,6 +13,46 @@ on:
         required: false
         default: ""
         type: string
+      issue_number:
+        description: "Issue number to update (used by auto-continue runs)."
+        required: false
+        default: ""
+        type: string
+      crawl_url:
+        description: "Original crawl URL (used by auto-continue runs)."
+        required: false
+        default: ""
+        type: string
+      max_pages:
+        description: "Original crawl max pages (used by auto-continue runs)."
+        required: false
+        default: "500"
+        type: string
+      max_pdfs:
+        description: "Maximum PDFs to process for this analysis pass."
+        required: false
+        default: "200"
+        type: string
+      run_verapdf:
+        description: "Whether to run veraPDF checks (true/false)."
+        required: false
+        default: "false"
+        type: string
+      crawler_version:
+        description: "Crawler version metadata (original/bloom)."
+        required: false
+        default: "original"
+        type: string
+      scan_language:
+        description: "Preferred report language (en/fr)."
+        required: false
+        default: "en"
+        type: string
+      continue_attempt:
+        description: "Auto-continue attempt counter."
+        required: false
+        default: "0"
+        type: string
   workflow_run:
     workflows: ["1 - Crawl Site for PDFs"]
     types: [completed]
@@ -20,6 +60,7 @@ on:
 permissions:
   contents: write
   issues: write
+  actions: write
 
 jobs:
   # ---------------------------------------------------------------------------
@@ -272,6 +313,14 @@ jobs:
         id: meta
         env:
           DISPATCH_SITE: ${{ github.event.inputs.site }}
+          DISPATCH_ISSUE_NUMBER: ${{ github.event.inputs.issue_number }}
+          DISPATCH_CRAWL_URL: ${{ github.event.inputs.crawl_url }}
+          DISPATCH_MAX_PAGES: ${{ github.event.inputs.max_pages }}
+          DISPATCH_MAX_PDFS: ${{ github.event.inputs.max_pdfs }}
+          DISPATCH_RUN_VERAPDF: ${{ github.event.inputs.run_verapdf }}
+          DISPATCH_CRAWLER_VERSION: ${{ github.event.inputs.crawler_version }}
+          DISPATCH_SCAN_LANGUAGE: ${{ github.event.inputs.scan_language }}
+          DISPATCH_CONTINUE_ATTEMPT: ${{ github.event.inputs.continue_attempt }}
         run: |
           ISSUE_NUMBER=""
           CRAWL_URL=""
@@ -281,6 +330,7 @@ jobs:
           RUN_VERAPDF="false"
           CRAWLER_VERSION="original"
           SCAN_LANGUAGE="en"
+          CONTINUE_ATTEMPT="0"
           if [ "${{ github.event_name }}" = "workflow_run" ]; then
             # workflow_run: read metadata from the scan-meta artifact left by the crawl.
             if [ -f scan-meta/issue_number.txt ]; then
@@ -322,6 +372,32 @@ jobs:
           else
             # workflow_dispatch: read the optional site input directly.
             CRAWL_SITE=$(echo "$DISPATCH_SITE" | tr -d '[:space:]')
+            ISSUE_NUMBER=$(echo "$DISPATCH_ISSUE_NUMBER" | tr -d '[:space:]')
+            CRAWL_URL=$(echo "$DISPATCH_CRAWL_URL" | tr -d '[:space:]')
+            PARSED=$(echo "$DISPATCH_MAX_PAGES" | tr -d '[:space:]')
+            if echo "$PARSED" | grep -Eq '^[0-9]+$'; then
+              MAX_PAGES="$PARSED"
+            fi
+            PARSED=$(echo "$DISPATCH_MAX_PDFS" | tr -d '[:space:]')
+            if echo "$PARSED" | grep -Eq '^[0-9]+$'; then
+              MAX_PDFS="$PARSED"
+            fi
+            PARSED=$(echo "$DISPATCH_RUN_VERAPDF" | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')
+            if [ "$PARSED" = "true" ]; then
+              RUN_VERAPDF="true"
+            fi
+            PARSED=$(echo "$DISPATCH_CRAWLER_VERSION" | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')
+            if [ "$PARSED" = "bloom" ] || [ "$PARSED" = "original" ]; then
+              CRAWLER_VERSION="$PARSED"
+            fi
+            PARSED_LANG=$(echo "$DISPATCH_SCAN_LANGUAGE" | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')
+            if [ "$PARSED_LANG" = "fr" ] || [ "$PARSED_LANG" = "en" ]; then
+              SCAN_LANGUAGE="$PARSED_LANG"
+            fi
+            PARSED=$(echo "$DISPATCH_CONTINUE_ATTEMPT" | tr -d '[:space:]')
+            if echo "$PARSED" | grep -Eq '^[0-9]+$'; then
+              CONTINUE_ATTEMPT="$PARSED"
+            fi
           fi
           echo "issue_number=$ISSUE_NUMBER" >> "$GITHUB_OUTPUT"
           echo "crawl_url=$CRAWL_URL"       >> "$GITHUB_OUTPUT"
@@ -331,6 +407,7 @@ jobs:
           echo "run_verapdf=$RUN_VERAPDF"   >> "$GITHUB_OUTPUT"
           echo "crawler_version=$CRAWLER_VERSION" >> "$GITHUB_OUTPUT"
           echo "scan_language=$SCAN_LANGUAGE" >> "$GITHUB_OUTPUT"
+          echo "continue_attempt=$CONTINUE_ATTEMPT" >> "$GITHUB_OUTPUT"
 
       - name: Pull latest manifest
         run: |
@@ -566,9 +643,7 @@ jobs:
 
       - name: Comment analysis results on issue
         id: comment
-        if: >-
-          github.event_name == 'workflow_run' &&
-          steps.meta.outputs.issue_number != ''
+        if: steps.meta.outputs.issue_number != ''
         uses: actions/github-script@v8
         env:
           ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
@@ -643,6 +718,86 @@ jobs:
               repo:  repoName,
               issue_number: issueNumber,
               labels: [finalLabel]
+            });
+
+      - name: Auto-continue partial scan
+        if: >-
+          steps.meta.outputs.issue_number != '' &&
+          steps.site_pending.outputs.pending != '0'
+        uses: actions/github-script@v8
+        env:
+          ISSUE_NUMBER: ${{ steps.meta.outputs.issue_number }}
+          CRAWL_URL: ${{ steps.meta.outputs.crawl_url }}
+          CRAWL_SITE: ${{ steps.meta.outputs.crawl_site }}
+          CRAWL_MAX_PAGES: ${{ steps.meta.outputs.max_pages }}
+          CRAWL_MAX_PDFS: ${{ steps.meta.outputs.max_pdfs }}
+          RUN_VERAPDF: ${{ steps.meta.outputs.run_verapdf }}
+          CRAWLER_VERSION: ${{ steps.meta.outputs.crawler_version }}
+          SCAN_LANGUAGE: ${{ steps.meta.outputs.scan_language }}
+          CONTINUE_ATTEMPT: ${{ steps.meta.outputs.continue_attempt }}
+          SITE_PENDING: ${{ steps.site_pending.outputs.pending }}
+          RUN_URL: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          MAX_CONTINUE_ATTEMPTS: "5"
+        with:
+          script: |
+            const issueNumber = parseInt(process.env.ISSUE_NUMBER, 10);
+            if (!Number.isInteger(issueNumber) || issueNumber <= 0) return;
+
+            const pendingCount = parseInt(process.env.SITE_PENDING || '0', 10) || 0;
+            if (pendingCount <= 0) return;
+
+            const attempt = parseInt(process.env.CONTINUE_ATTEMPT || '0', 10) || 0;
+            const maxAttempts = parseInt(process.env.MAX_CONTINUE_ATTEMPTS || '5', 10) || 5;
+
+            if (attempt >= maxAttempts) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: [
+                  `⚠️ **Partial scan paused after ${attempt} automatic continuation attempts.**`,
+                  '',
+                  `There are still **${pendingCount} pending PDFs** for this site.`,
+                  `A fresh crawl may be needed to complete the remainder.`,
+                  '',
+                  `[View latest analysis run](${process.env.RUN_URL})`
+                ].join('\n'),
+              });
+              return;
+            }
+
+            const nextAttempt = attempt + 1;
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'analyse.yml',
+              ref: context.ref,
+              inputs: {
+                keep_files: 'false',
+                site: process.env.CRAWL_SITE || '',
+                issue_number: String(issueNumber),
+                crawl_url: process.env.CRAWL_URL || '',
+                max_pages: process.env.CRAWL_MAX_PAGES || '500',
+                max_pdfs: process.env.CRAWL_MAX_PDFS || '200',
+                run_verapdf: process.env.RUN_VERAPDF || 'false',
+                crawler_version: process.env.CRAWLER_VERSION || 'original',
+                scan_language: process.env.SCAN_LANGUAGE || 'en',
+                continue_attempt: String(nextAttempt),
+              },
+            });
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: [
+                `🔁 **Partial scan continues automatically** (${nextAttempt}/${maxAttempts}).`,
+                '',
+                `Pending PDFs remaining after this run: **${pendingCount}**.`,
+                `A follow-up analysis pass has been queued.`,
+                '',
+                `[View latest analysis run](${process.env.RUN_URL})`
+              ].join('\n'),
             });
 
       - name: Link issue comment URL to reports index
@@ -769,7 +924,6 @@ jobs:
 
       - name: Close issue after scan and report
         if: >-
-          github.event_name == 'workflow_run' &&
           steps.meta.outputs.issue_number != '' &&
           steps.site_pending.outputs.pending == '0'
         uses: actions/github-script@v8
