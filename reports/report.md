@@ -40384,41 +40384,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### elder-financial-abuse.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf
-- **Status**: analysed
-- fonts:/QCDNQR+WellsFargoSans-Regular, /QCDNQR+WellsFargoSans-Italic, /QCDNQR+WellsFargoSans-CondensedItalic, /QCDNQR+WellsFargoSans-Light, /QCDNQR+WellsFargoSans-SemiBold, /QCDNQR+WellsFargoSans-Condensed
-
-### elite-visa-signature-guide-to-benefits.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf
-- **Status**: analysed
-- fonts:/MHUEYO+MyriadPro-Regular, /MHUEYO+WellsFargoSans-Bold, /MHUEYO+WellsFargoSans-BoldItalic, /MHUEYO+WellsFargoSans-Regular, /MHUEYO+WellsFargoSans-Italic, /MHUEYO+WellsFargoSans-Condensed, /MHUEYO+WellsFargoSans-SemiBold, /MHUEYO+WellsFargoSans-Light
-
 ### identity-theft-kit.pdf
 
 - **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
 - **Status**: analysed
-- title, tagged, tagged-content-fail, lang, fonts:/AAAAAJ+WellsFargoSans-Condensed, /NEETJX+WellsFargoSans-Regular, /JGLVFF+WellsFargoSans, /AAAAAG+WellsFargoSans-SemiBold, /AAAAAL+WellsFargoSans-Condensed, /CUYFLT+WellsFargoSans-Regular, /AAAAAI+ArialMT, /JGLVFF+WellsFargoSans-Regular, /AAAAAC+TimesNewRomanPSMT, /AAAAAD+WellsFargoSans-Light, /AAAAAK+WellsFargoSans-Regular, /SORLKI+WellsFargoSans-Condensedfigures-alt, headings-skip, lists-fail, forms-fail, annotations-tagging-fail, 
-
-### online-wires-supported-currency-list.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf
-- **Status**: analysed
-- fonts:/BCDHEE+WellsFargoSans-SemiBold, /BCDIEE+WellsFargoSans-Light, /BCDEEE+WellsFargoSans-Regular, /BCDGEE+WellsFargoSans-Display, /BCDFEE+WellsFargoSans-Condensedheadings-none, 
-
-### us_consumer_privacy_notice_english.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
-- **Status**: analysed
-- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
-
-### visa-signature-business-benefits.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf
-- **Status**: analysed
-- fonts:/WBYJIU+Univers-CondensedLight, /WBYJIU+UniversLTStd-LightCn, /WBYJIU+Univers-BlackOblique, /WBYJIU+MyriadPro-Regular, /WBYJIU+UniversLTStd-BoldCn, /WBYJIU+Univers-CondensedBold, /WBYJIU+UniversLTStd-BoldCnObl, /WBYJIU+UniversLTStd-LightCnObl
+- lang, 
 
 ### (R)TERC_Annual_Report_2024-0.pdf
 
@@ -70448,7 +70418,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2023-efoc-annual-report.pdf
 - **Status**: error
-- Analysis exceeded 120s per-file limit
+- File not found: crawled_files/pa.gov/2023-efoc-annual-report.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.151559+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf
 
@@ -70604,7 +70574,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/mental-health-in-pa/documents/2026-pa-path-grant-application.pdf
 - **Status**: error
-- Analysis exceeded 120s per-file limit
+- File not found: crawled_files/pa.gov/2026-pa-path-grant-application.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.378262+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf
 
