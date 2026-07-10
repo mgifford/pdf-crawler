@@ -15,7 +15,7 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | Issues found | 4343 |
 | Totally inaccessible subset | 284 |
 | Broken / unreadable | 28 |
-| Exempt (pre-2018) | 1494 |
+| Exempt (pre-2018) | 1527 |
 
 ## Files per Site
 
@@ -2735,8 +2735,8 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [consent-bankruptcy.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-bankruptcy.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 442 | 1 |
 | [consent-mediation.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-mediation.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 327 | 1 |
 | [contributor-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/contributor-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 674 | 0 |
-| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 7 | 223.9 KB | — | — |
-| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 15 | 438.4 KB | — | — |
+| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 223.9 KB | 1561 | 4 |
+| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | 438.4 KB | 15301 | 0 |
 | [error-resolution-and-cancellation-rights-es.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/error-resolution-and-cancellation-rights-es.pdf) | wellsfargo.com | 2024-09-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 725 | 0 |
 | [existing-customers-4506c.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-4506c.pdf) | wellsfargo.com | 2024-09-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 2605 | 0 |
 | [existing-customers-borrower-consent.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-borrower-consent.pdf) | wellsfargo.com | 2023-02-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 162 | 2 |
@@ -2745,13 +2745,13 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [financial-contribution-gse.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-gse.pdf) | wellsfargo.com | 2023-04-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [financial-contribution-wobp.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-wobp.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [frd-overdraft-wellsfargo.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/frd-overdraft-wellsfargo.pdf) | wellsfargo.com | 2025-09-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 907 | 0 |
-| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2025-08-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | 3 | 147.1 KB | — | — |
+| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2026-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 147.1 KB | 1229 | 0 |
 | [initiate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/initiate.pdf) | wellsfargo.com | 2026-02-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1953 | 0 |
 | [mortgage-assistance-application.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-application.pdf) | wellsfargo.com | 2022-07-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1655 | 0 |
 | [mortgage-assistance-debts-expense.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-debts-expense.pdf) | wellsfargo.com | 2023-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1974 | 0 |
 | [navigate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/navigate.pdf) | wellsfargo.com | 2025-10-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 2009 | 0 |
 | [online-wires-supported-currency-list-0.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 1744 | 0 |
-| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 8 | 175.4 KB | — | — |
+| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 175.4 KB | 2178 | 0 |
 | [optimize.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/optimize.pdf) | wellsfargo.com | 2025-10-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 2469 | 0 |
 | [payment-assist-mtg-assumption-terms-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/payment-assist-mtg-assumption-terms-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 564 | 0 |
 | [platinum-visa-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/platinum-visa-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 6592 | 0 |
@@ -2768,9 +2768,9 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [third-party-release.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/third-party-release.pdf) | wellsfargo.com | 2023-11-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 308 | 1 |
 | [travel-accident-and-baggage-delay.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/travel-accident-and-baggage-delay.pdf) | wellsfargo.com | 2024-07-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 4674 | 0 |
 | [us-purchase-order-terms.pdf](https://www.wellsfargo.com/assets/pdf/about/corporate/us-purchase-order-terms.pdf) | wellsfargo.com | 2025-03-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | — | 25841 | 0 |
-| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 138.3 KB | — | — |
+| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 138.3 KB | 1411 | 1 |
 | [visa-benefits-guide.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/visa-benefits-guide.pdf) | wellsfargo.com | 2024-09-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 7466 | 0 |
-| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | 971.7 KB | — | — |
+| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | 971.7 KB | 9451 | 1 |
 | [Applicant_NJFC_Application_Check_List_en.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_en.pdf) | njfamilycare.dhs.state.nj.us | 2023-04-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 458 | 2 |
 | [Applicant_NJFC_Application_Check_List_sp.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_sp.pdf) | njfamilycare.dhs.state.nj.us | 2023-05-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 581 | 2 |
 | [FAQs_UM_Appeal_Changes.pdf](https://njfamilycare.dhs.state.nj.us/docs/FAQs_UM_Appeal_Changes.pdf) | njfamilycare.dhs.state.nj.us | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 950 | 0 |
@@ -3460,6 +3460,7 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [uc-855.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-forms/uc-855.pdf) | pa.gov | 2024-12-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 219 | 0 |
 | [uc-employer-quick-guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/uc-employer-quick-guide.pdf) | pa.gov | 2024-06-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 607 | 16 |
 | [ucms%20-%20how%20to%20register%20online%20tpa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/uc/ucms%20-%20how%20to%20register%20online%20tpa.pdf) | pa.gov | 2025-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | — | 651 | 23 |
+| [wawa%2060th%20anniversary%20pdf.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/wawa%2060th%20anniversary%20pdf.pdf) | pa.gov | 2024-04-15 | — | mrdowning | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 299.8 KB | 0 | 114 |
 | [Bixal_Transforming_Govt_CX.pdf](https://www.bixal.com/sites/default/files/2024-06/Bixal_Transforming_Govt_CX.pdf) | bixal.com | 2024-03-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 17 | — | 5028 | 1 |
 | [data-maturity-checklist.pdf](https://www.bixal.com/sites/default/files/2024-06/data-maturity-checklist.pdf) | bixal.com | 2024-06-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 425 | 0 |
 | [03092020-covid-19-faqs-508.pdf](https://www.cms.gov/files/document/03092020-covid-19-faqs-508.pdf) | cms.gov | 2024-03-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 181 | — | 72020 | 197 |
@@ -48085,6 +48086,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
+### psp_most_wanted_current.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/psp_most_wanted_current.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
 ### ptrr_training.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_training.pdf
@@ -70463,4 +70470,448 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
 - **Status**: analysed
-- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
+- lists-warn, 
+
+### VA-Benefits-Participant-Guide-0.pdf
+
+- **URL**: https://www.benefits.va.gov/TAP/docs/VA-Benefits-Participant-Guide.pdf
+- **Status**: analysed
+- forms-fail, forms-tagging-fail, lists-warn, tables-fail, annotations-tagging-fail, 
+
+### VA-Benefits-Participant-Guide.pdf
+
+- **URL**: https://discover.va.gov/transition-programs/wp-content/uploads/sites/3/2025/02/VA-Benefits-Participant-Guide.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### WelcomeVA_Guide_print_version_final.pdf
+
+- **URL**: https://www.va.gov/WelcomeVA_Guide_print_version_final.pdf
+- **Status**: analysed
+- title, tagged, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### vawelcomekit-consolidated-color.pdf
+
+- **URL**: https://www.va.gov/files/2025-06/vawelcomekit-consolidated-color.pdf
+- **Status**: analysed
+- alt-nested-fail, 
+
+### 0129..PDF
+
+- **URL**: https://www.legis.state.pa.us/WU01/LI/LI/US/PDF/1992/0/0129..PDF
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 0139..PDF
+
+- **URL**: https://www.legis.state.pa.us/WU01/LI/LI/US/PDF/2014/0/0139..PDF
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 17-01%20--%20historical%20teds%20data%20entry%20into%20pa%20wits.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/policy-bulletins/17-01%20--%20historical%20teds%20data%20entry%20into%20pa%20wits.pdf
+- **Status**: analysed
+- title, tagged-content-fail, figures missing alt text (count=1), 
+
+### 2.5-asam-aligned-facilities.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/asam-facilities/2.5-asam-aligned-facilities.pdf
+- **Status**: analysed
+- title, tables-warn, 
+
+### 2019%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2019%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- tagged, 
+
+### 2020%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2020%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=18), headings-none, tables-fail, 
+
+### 2020_02%20ef%20cabinet%20annual%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2020_02%20ef%20cabinet%20annual%20report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2021%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2021%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- no date found, title, tagged-content-fail, lang, headings-none, 
+
+### 2021%20ef%20annual%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2021%20ef%20annual%20report.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), tables-warn, 
+
+### 2022%20BIPS%20Annual%20Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2022%20BIPS%20Annual%20Report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 2022%20employment%20first%20annual%20report%202.3.2022.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2022%20employment%20first%20annual%20report%202.3.2022.pdf
+- **Status**: analysed
+- tagged, annotations-untagged, 
+
+### 2022-%20pa%20employment%20first%20oversight%20commission%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2022-%20pa%20employment%20first%20oversight%20commission%20report.pdf
+- **Status**: analysed
+- tagged-content-fail, figures missing alt text (count=2), lists-warn, tables-fail, annotations-tagging-fail, 
+
+### 2022.october.operating%20individualized%20care.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2022.october.operating%20individualized%20care.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=19), headings-warn, tables-warn, 
+
+### 2023%20employment%20first%20annual%20report%20with%20future%20framework.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2023%20employment%20first%20annual%20report%20with%20future%20framework.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### 2023%20who%20survey%20fast%20facts.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/warmhandoff/2023%20who%20survey%20fast%20facts.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### 2023-efoc-annual-report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2023-efoc-annual-report.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### 2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf
+- **Status**: analysed
+- figures missing alt text (count=32), 
+
+### 2023.february.guiding%20principles%20of%20the%20asam%20criteria.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.february.guiding%20principles%20of%20the%20asam%20criteria.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=39), headings-warn, 
+
+### 2023.march.comparing%20level%203%20residential%20services%20and%20recovery%20house%20information.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.march.comparing%20level%203%20residential%20services%20and%20recovery%20house%20information.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=26), headings-warn, 
+
+### 2023.may.family%20involvement%20through%20the%20continuum.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.may.family%20involvement%20through%20the%20continuum.pdf
+- **Status**: analysed
+- figures missing alt text (count=25), headings-warn, 
+
+### 2023_bips_annual_report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2023_bips_annual_report.pdf
+- **Status**: analysed
+- headings-warn, tables-warn, 
+
+### 2024%20annual%20security%20-%20fire%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/cti-hgac/documents/2024%20annual%20security%20-%20fire%20report.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+
+### 2024-02%20alignment%20review%20expectation%20qa.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024-02%20alignment%20review%20expectation%20qa.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 2024-06-14-cy-1001-national-sex-offender-registry-nsor-application-english.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/resources/documents/2024-06-14-cy-1001-national-sex-offender-registry-nsor-application-english.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### 2024-07-03-cy-1001-s-national-sex-offender-registry-nsor-application-spanish.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/resources/documents/2024-07-03-cy-1001-s-national-sex-offender-registry-nsor-application-spanish.pdf
+- **Status**: analysed
+- forms-fail, headings-none, 
+
+### 2024-efoc-annual%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2024-efoc-annual%20report.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-skip, tables-fail, 
+
+### 2024-employment-first-cabinet-report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2024-employment-first-cabinet-report.pdf
+- **Status**: analysed
+- tagged-content-fail, no bookmarks and more than 20 pages, tables-warn, 
+
+### 2024.12.20%20v.1%20gifa%2024-09%20integrated%20health%20solutions_final.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/ddapfunding/documents/2024.12.20%20v.1%20gifa%2024-09%20integrated%20health%20solutions_final.pdf
+- **Status**: analysed
+- title, tables-warn, 
+
+### 2024.3%20individualized%20services%20qanda.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.3%20individualized%20services%20qanda.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 2024.7%20conversationwithscottboyles%20qa.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.7%20conversationwithscottboyles%20qa.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 2024.8%20conversationwithscottboyles%20qanda.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.8%20conversationwithscottboyles%20qanda.pdf
+- **Status**: analysed
+- title, headings-none, 
+
+### 2024_Haywood_ENOUGH_Report_012222024.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/2024_Haywood_ENOUGH_Report_012222024.pdf
+- **Status**: analysed
+- title, no bookmarks and more than 20 pages, figures missing alt text (count=12), headings-none, tables-fail, 
+
+### 2024_RVAT_Commissioners_Report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/rvat/2024_RVAT_Commissioners_Report.pdf
+- **Status**: analysed
+- headings-none, tables-warn, 
+
+### 2024_bips_ar.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2024_bips_ar.pdf
+- **Status**: analysed
+- tables-warn, 
+
+### 2025-05-pa-1995-english.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/scams/2025-05-pa-1995-english.pdf
+- **Status**: analysed
+- figures missing alt text (count=5), headings-none, 
+
+### 2025-05-pa-1995-spanish.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/scams/2025-05-pa-1995-spanish.pdf
+- **Status**: analysed
+- figures missing alt text (count=5), headings-none, 
+
+### 2025.01.17%20gifa%2024-09_integrated%20health%20solutions%20questions%20and%20answers_final.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/ddapfunding/documents/2025.01.17%20gifa%2024-09_integrated%20health%20solutions%20questions%20and%20answers_final.pdf
+- **Status**: analysed
+- headings-none, annotations-tagging-fail, 
+
+### 2025.march.ddap%20monthly%20technical%20assistance%20series%2042%20cfr%20part%208%20final%20ruling%20practical%20applications.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2025.march.ddap%20monthly%20technical%20assistance%20series%2042%20cfr%20part%208%20final%20ruling%20practical%20applications.pdf
+- **Status**: analysed
+- figures missing alt text (count=23), 
+
+### 2025_bips_ar.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2025_bips_ar.pdf
+- **Status**: analysed
+- figures missing alt text (count=6), headings-skip, tables-fail, 
+
+### 2026-06-03-nsor-faq-2026.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/2026-06-03-nsor-faq-2026.pdf
+- **Status**: analysed
+- figures missing alt text (count=4), headings-warn, 
+
+### 2026-employment-first-cabinet-annual-report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2026-employment-first-cabinet-annual-report.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=24), headings-skip, 
+
+### 2026-pa-path-grant-application.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/mental-health-in-pa/documents/2026-pa-path-grant-application.pdf
+- **Status**: error
+- Analysis exceeded 120s per-file limit
+
+### 25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf
+- **Status**: analysed
+- figures missing alt text (count=77), 
+
+### 3.7-asam-aligned-facilities.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/asam-facilities/3.7-asam-aligned-facilities.pdf
+- **Status**: analysed
+- title, tables-warn, 
+
+### 49bf42_92ed3a2340d1468194863ac6dc0d7016.pdf
+
+- **URL**: https://www.familyandcaregivertoolkit.org/_files/ugd/49bf42_92ed3a2340d1468194863ac6dc0d7016.pdf
+- **Status**: analysed
+- lang, figures missing alt text (count=1), headings-none, 
+
+### 54817a_6df3d51d6d624af384539494e59bbb57.pdf
+
+- **URL**: https://54817af5-b764-42ff-a7e2-97d6e4449c1a.usrfiles.com/ugd/54817a_6df3d51d6d624af384539494e59bbb57.pdf
+- **Status**: analysed
+- no date found, title, tagged, lang, 
+
+### 9.12.2022%20asam%20monthly%20ta%20wm.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/9.12.2022%20asam%20monthly%20ta%20wm.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=15), headings-warn, 
+
+### ACT_106_OF_1990-Vital_Statistics-06-12-2008.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/ACT_106_OF_1990-Vital_Statistics-06-12-2008.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### ASAM-Provider-Rates.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/healthchoices/documents/ASAM-Provider-Rates.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Act%2079_PFAD_FFL%20and%20Third%20Party%20Training.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_FFL%20and%20Third%20Party%20Training.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=124), headings-none, 
+
+### Act%2079_PFAD_Prothonotary_Court%20Training.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_Prothonotary_Court%20Training.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=155), headings-none, 
+
+### Act%2079_PFAD_Sheriffs%20Office%20Training.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_Sheriffs%20Office%20Training.pdf
+- **Status**: analysed
+- no bookmarks and more than 20 pages, figures missing alt text (count=273), headings-none, 
+
+### Act_No_2008-3-SB_No-1.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/Act_No_2008-3-SB_No-1.pdf
+- **Status**: analysed
+- title, lang, no bookmarks and more than 20 pages, headings-none, 
+
+### AgencyPolicyRTKLAgencyPolicy11292011_PSP4.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/AgencyPolicyRTKLAgencyPolicy11292011_PSP4.pdf
+- **Status**: analysed
+- title, lang, headings-none, lists-warn, 
+
+### Appeal_Form.pdf
+
+- **URL**: https://www.openrecords.pa.gov/Documents/Appeals/Appeal_Form.pdf
+- **Status**: analysed
+- forms-tagging-fail, 
+
+### Application%20for%20Scrap%20Processors.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Application%20for%20Scrap%20Processors.pdf
+- **Status**: analysed
+- title, tagged, lang, forms-fail, forms-untagged, 
+
+### Apprenticeships-0.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?PWT5iYuNKqtAg58UeCdrB_RSirkMMj3@VLMZptl9RUZr3ImdLP5y9dtWdQXEl7ARE5LIjTOU4oGBVAhVl6XL1X9RHlL_03xRmKeoizu_BzbLGfAmBXYO07i6_XNsg6Z01eImEHG7Ie5Hs@hNMgKQMQ--g@gMKgJpxJnncJVXt0gSk0BORftegQqoOF5Rpxzv@jYDGhV8MOKS
+- **Status**: analysed
+- title, figures missing alt text (count=6), headings-none, 
+
+### Apprenticeships-1.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?YDpC8xllFPKb8fqAopEtl6XAv5mv3ac8UdBIN0hQdEkQ0Zjw@NK2Te@6IcUC94bU6AqahgSVGMam7ne3aVK7wazmjaEM1rJLdlZ9XDLcFdKuQV0LiFImVo49J64mZ_qsN1GpKfSNqoLJGCNzIrQRyQ--mMN297DyenlW8BGwlDI4rozA3I3mhPASlzDEcKN4DC4i5Lsc2A94
+- **Status**: analysed
+- title, figures missing alt text (count=7), headings-none, annotations-tagging-fail, 
+
+### Apprenticeships-2.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?Uox4BQtQEo@jLY_m_I4gUsq5yqxCQJY2EwJSQNkDhkmJ_IOxG8bZbcq226Ou6lcr3__P5jZAmnfojnjl4YE_jDZTRIjfyLXKT5KSvV2ZlyPauVA7Y@x0zoxteQIGh5Y7iE07sqy4SEd_1Tn7vfzdaw--BF@k45CtIPBAtjJ3eJBLEw4m@uI9TyMpedvSkV2c3VVygSxIkm4L
+- **Status**: analysed
+- title, tagged-content-fail, forms-fail, forms-tagging-fail, figures missing alt text (count=34), headings-none, tables-warn, 
+
+### Apprenticeships-3.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?jhfB9hbo7jmAB1zTLQqZsWBWJYcqoL7_BkH9ZCH0RUz3IGzosYOtQcPGxR63lg2cBpx06_6WffDy6WCprEEPSbnoZ7kdbL@tbrq2gU7N99YT0Y_4pkZv7UArFvNgYjqRyIS96oFCjpKg0lNZxPBTAA--0bpJkP5dyOfG4_3zyETZ1XQU38V_mRNFPWOPDMTkja99QojWJUkZ
+- **Status**: analysed
+- title, figures missing alt text (count=23), headings-none, 
+
+### Apprenticeships-4.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?hbJLRq27D38M8HasZUPLLWf3dMdiuJje5YuTYHzebeflOqbn@sZseOYaRyiqNG8G2xVAvAS6CothoV0ymoaGmUJXPw6OdX9Tk8C_vLZv4kEgTJeJCmoGJS5vO57c_2oYjTxllwyh7pZKId1wMVeEHMyWOw49nUA8moWDIMXF8@S2R3Pdnk3GcZmHmxrBhEWHRtLv2jzOBX6JfuZUdjhV9x2LRqT_1KjVSYTh3RwK2YA4wFcQvL2V
+- **Status**: analysed
+- title, figures missing alt text (count=15), headings-warn, 
+
+### Apprenticeships.pdf
+
+- **URL**: https://www.pacareerlink.pa.gov/jponline/Apprenticeships?Vggf57Go@bu6F5KxQqUJJD9NfWsOXVdyTUBwMWn2GdzpDvWxu395EFw1RHA0Ej9hRGGaCv@X@FG0nhJuYpbXIC_q7lCA3hfQpQfpWo@rS4fBFvmyzJldQq6iIopNGcjKL3K_BAJAC1sbZ8IxWLGEGEyIKKrHWudcUmEZ9M9IiFM-k8XVMdfcRQBLU62Rz1O3IzTMk@y_10hGovJV5lYmMeWJkchDVMM3
+- **Status**: analysed
+- title, figures missing alt text (count=13), headings-none, 
+
+### Attachment%20A%20final.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20final.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Attachment%20A%20temp.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20temp.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Attachment%20A%20to%20petition.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20to%20petition.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### Autism_card_gray_S.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Autism_card_gray_S.pdf
+- **Status**: analysed
+- headings-none, 
+
+### CDL%20Flowchart%205.29.14.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CDL%20Flowchart%205.29.14.pdf
+- **Status**: analysed
+- title, tagged, lang, 
+
+### CDR_2021.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2021.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CDR_2022.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022.pdf
+- **Status**: analysed
+- figures missing alt text (count=16), headings-skip, tables-fail, annotations-tagging-fail, 
+
+### CDR_2022_1st.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_1st.pdf
+- **Status**: analysed
+- title, tagged, lang, no bookmarks and more than 20 pages, 
