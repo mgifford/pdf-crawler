@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-10T15:40:44.366112+00:00
+Generated: 2026-07-10T16:23:55.610811+00:00
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-07-10T15:40:44.366112+00:00
 |--------|-------|
 | Total files tracked | 26976 |
 | Analysed | 6407 |
-| Pending analysis | 14368 |
-| Errors during analysis | 6201 |
+| Pending analysis | 14283 |
+| Errors during analysis | 6286 |
 | Accessible | 2010 |
 | Issues found | 4397 |
 | Totally inaccessible subset | 285 |
@@ -40384,11 +40384,41 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
+### elder-financial-abuse.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf
+- **Status**: analysed
+- fonts:/QCDNQR+WellsFargoSans-Regular, /QCDNQR+WellsFargoSans-Italic, /QCDNQR+WellsFargoSans-CondensedItalic, /QCDNQR+WellsFargoSans-Light, /QCDNQR+WellsFargoSans-SemiBold, /QCDNQR+WellsFargoSans-Condensed
+
+### elite-visa-signature-guide-to-benefits.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf
+- **Status**: analysed
+- fonts:/MHUEYO+MyriadPro-Regular, /MHUEYO+WellsFargoSans-Bold, /MHUEYO+WellsFargoSans-BoldItalic, /MHUEYO+WellsFargoSans-Regular, /MHUEYO+WellsFargoSans-Italic, /MHUEYO+WellsFargoSans-Condensed, /MHUEYO+WellsFargoSans-SemiBold, /MHUEYO+WellsFargoSans-Light
+
 ### identity-theft-kit.pdf
 
 - **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
 - **Status**: analysed
-- lang, 
+- title, tagged, tagged-content-fail, lang, fonts:/AAAAAJ+WellsFargoSans-Condensed, /NEETJX+WellsFargoSans-Regular, /JGLVFF+WellsFargoSans, /AAAAAG+WellsFargoSans-SemiBold, /AAAAAL+WellsFargoSans-Condensed, /CUYFLT+WellsFargoSans-Regular, /AAAAAI+ArialMT, /JGLVFF+WellsFargoSans-Regular, /AAAAAC+TimesNewRomanPSMT, /AAAAAD+WellsFargoSans-Light, /AAAAAK+WellsFargoSans-Regular, /SORLKI+WellsFargoSans-Condensedfigures-alt, headings-skip, lists-fail, forms-fail, annotations-tagging-fail, 
+
+### online-wires-supported-currency-list.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf
+- **Status**: analysed
+- fonts:/BCDHEE+WellsFargoSans-SemiBold, /BCDIEE+WellsFargoSans-Light, /BCDEEE+WellsFargoSans-Regular, /BCDGEE+WellsFargoSans-Display, /BCDFEE+WellsFargoSans-Condensedheadings-none, 
+
+### us_consumer_privacy_notice_english.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
+- **Status**: analysed
+- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
+
+### visa-signature-business-benefits.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf
+- **Status**: analysed
+- fonts:/WBYJIU+Univers-CondensedLight, /WBYJIU+UniversLTStd-LightCn, /WBYJIU+Univers-BlackOblique, /WBYJIU+MyriadPro-Regular, /WBYJIU+UniversLTStd-BoldCn, /WBYJIU+Univers-CondensedBold, /WBYJIU+UniversLTStd-BoldCnObl, /WBYJIU+UniversLTStd-LightCnObl
 
 ### (R)TERC_Annual_Report_2024-0.pdf
 
@@ -70743,6 +70773,516 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_1st.pdf
 - **Status**: analysed
 - title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### CDR_2022_2nd.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_2nd.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CDR_2022_2nd.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.654451+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CDR_2022_3rd.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_3rd.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CDR_2022_3rd.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.662125+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CVSD%20-%20Publication.Rev.09-2015.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CVSD%20-%20Publication.Rev.09-2015.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CVSD%20-%20Publication.Rev.09-2015.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.668690+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CVSD%20Cargo%20Securement%20Brochure%20-%20Rev.%2012-26-2015.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CVSD%20Cargo%20Securement%20Brochure%20-%20Rev.%2012-26-2015.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CVSD%20Cargo%20Securement%20Brochure%20-%20Rev.%2012-26-2015.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.674141+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CVSD%20Intrastate%20USDOT.Rev.09-2015.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CVSD%20Intrastate%20USDOT.Rev.09-2015.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CVSD%20Intrastate%20USDOT.Rev.09-2015.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.680266+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CY%20999%20-Consent%20Release%20of%20Information.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/CY%20999%20-Consent%20Release%20of%20Information.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CY%20999%20-Consent%20Release%20of%20Information.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.684456+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CY113%20form%20-%20Spanish.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/CY113%20form%20-%20Spanish.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CY113%20form%20-%20Spanish.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.687953+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CY113%20form-Spanish-Accessible.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/CY113%20form-Spanish-Accessible.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CY113%20form-Spanish-Accessible.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.691269+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CY999%20-%20Consent%20Release%20of%20Information%20Authorization%20Form.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/for-providers/documents/child-care-forms/CY999%20-%20Consent%20Release%20of%20Information%20Authorization%20Form.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CY999%20-%20Consent%20Release%20of%20Information%20Authorization%20Form.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.695015+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cadet%20Essential%20Job%20Functions.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Essential%20Job%20Functions.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cadet%20Essential%20Job%20Functions.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.697917+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cadet%20Medical%20Information%2020210305.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Medical%20Information%2020210305.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cadet%20Medical%20Information%2020210305.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.700696+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cadet%20Oral%20Interview%20Candidate%20Preparation%20Guide.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Oral%20Interview%20Candidate%20Preparation%20Guide.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cadet%20Oral%20Interview%20Candidate%20Preparation%20Guide.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.703655+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cadet%20Personal%20Appearance.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Personal%20Appearance.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cadet%20Personal%20Appearance.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.706446+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cadet%20Physical%20Readiness%20Tests.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Physical%20Readiness%20Tests.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cadet%20Physical%20Readiness%20Tests.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.709017+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cadet%20Training%2020170221.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Training%2020170221.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cadet%20Training%2020170221.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.711422+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Challenge_report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/Challenge_report.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Challenge_report.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.714155+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Commonwealth_of_Pennsylvania_Management_Directive_205.36_Amended.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/Commonwealth_of_Pennsylvania_Management_Directive_205.36_Amended.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Commonwealth_of_Pennsylvania_Management_Directive_205.36_Amended.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.716992+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### CompassCPOnlineSelf-RegQRG.pdf
+
+- **URL**: https://www.compass.dhs.pa.gov/assets/documents/pdf/CompassCPOnlineSelf-RegQRG.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/CompassCPOnlineSelf-RegQRG.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.720873+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cuestionario%20de%20admisi%C3%B3n%20a%20la%20vivienda.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/housing/Cuestionario%20de%20admisi%C3%B3n%20a%20la%20vivienda.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cuestionario%20de%20admisi%C3%B3n%20a%20la%20vivienda.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.725792+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cuestionario%20de%20admisi%C3%B3n%20de%20alojamiento%20p%C3%BAblico.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/public-accommodations/Cuestionario%20de%20admisi%C3%B3n%20de%20alojamiento%20p%C3%BAblico.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cuestionario%20de%20admisi%C3%B3n%20de%20alojamiento%20p%C3%BAblico.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.729719+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cuestionario%20de%20admisi%C3%B3n%20de%20empleo.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/employment/Cuestionario%20de%20admisi%C3%B3n%20de%20empleo.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cuestionario%20de%20admisi%C3%B3n%20de%20empleo.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.733970+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Cuestionario%20de%20admisi%C3%B3n%20educativa.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/Cuestionario%20de%20admisi%C3%B3n%20educativa.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Cuestionario%20de%20admisi%C3%B3n%20educativa.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.738103+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Digital_Fingerprint_Agencies-Reason_For_Print_Final.pdf
+
+- **URL**: https://www.identogo.com/uploads/general/Digital_Fingerprint_Agencies-Reason_For_Print_Final.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Digital_Fingerprint_Agencies-Reason_For_Print_Final.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.740939+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Disability%20Info%20Release%20for%20Education.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/Disability%20Info%20Release%20for%20Education.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Disability%20Info%20Release%20for%20Education.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.743786+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Disability%20Info%20Release%20for%20Employment.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/employment/Disability%20Info%20Release%20for%20Employment.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Disability%20Info%20Release%20for%20Employment.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.746577+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Disability%20Info%20Release%20for%20Housing.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/housing/Disability%20Info%20Release%20for%20Housing.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Disability%20Info%20Release%20for%20Housing.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.749333+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Education%20Intake%20Questionnaire.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/Education%20Intake%20Questionnaire.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Education%20Intake%20Questionnaire.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.754191+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Employment%20Intake%20Questionnaire.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/employment/Employment%20Intake%20Questionnaire.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Employment%20Intake%20Questionnaire.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.758575+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### EnrollmentInstructions.pdf
+
+- **URL**: https://responsibleplay.pa.gov/wp-content/uploads/EnrollmentInstructions.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/EnrollmentInstructions.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.764064+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FAQ%20CellSiteSimulators%202015%20revision3.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/FAQ%20CellSiteSimulators%202015%20revision3.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/FAQ%20CellSiteSimulators%202015%20revision3.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.771925+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FBI_Minor%20Fingerprinting%20Waiver.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/FBI_Minor%20Fingerprinting%20Waiver.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/FBI_Minor%20Fingerprinting%20Waiver.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.776445+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### FD-118%20policy%20memo%20Automatic%20Revocation%20of%20Tax%20Exempt%20Status.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pda/documents/food/food_assistance/commodity-supplemental-food-program/documents/FD-118%20policy%20memo%20Automatic%20Revocation%20of%20Tax%20Exempt%20Status.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/FD-118%20policy%20memo%20Automatic%20Revocation%20of%20Tax%20Exempt%20Status.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.779934+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Fair%20Housing%20Is%20Your%20Right%20Brochure%20(Spanish)2.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/phrc-outreach/spanish-translations/Fair%20Housing%20Is%20Your%20Right%20Brochure%20(Spanish)2.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Fair%20Housing%20Is%20Your%20Right%20Brochure%20(Spanish)2.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.786731+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Fair%20Housing%20Is%20Your%20Right%20Brochure-nocrops.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/old-files--do-not-use/Fair%20Housing%20Is%20Your%20Right%20Brochure-nocrops.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Fair%20Housing%20Is%20Your%20Right%20Brochure-nocrops.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.793698+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### First%20Responders%20Naloxone%20Standing%20Order.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/opioids/First%20Responders%20Naloxone%20Standing%20Order.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/First%20Responders%20Naloxone%20Standing%20Order.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.797804+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### General%20Public%20Standing%20Order.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/opioids/General%20Public%20Standing%20Order.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/General%20Public%20Standing%20Order.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.801889+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Group_Filing.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Group_Filing.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Group_Filing.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.805758+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Medetomidine-and-Clinical-Considerations-for-Treatment-Providers.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/Medetomidine-and-Clinical-Considerations-for-Treatment-Providers.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Medetomidine-and-Clinical-Considerations-for-Treatment-Providers.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.821511+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### ORI_Correction_Form.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/ORI_Correction_Form.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/ORI_Correction_Form.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.825884+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Overdose%20Poster%20-%20Statewide.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/opioids/Overdose%20Poster%20-%20Statewide.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Overdose%20Poster%20-%20Statewide.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.831695+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PAVE%20report.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/housing/PAVE%20report.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/PAVE%20report.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.850196+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PFA%20Final.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/PFA%20Final.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/PFA%20Final.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.855926+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PFA%20Notice%20of%20Hearing%20and%20Petition.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/PFA%20Notice%20of%20Hearing%20and%20Petition.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/PFA%20Notice%20of%20Hearing%20and%20Petition.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.861443+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PFA%20Temp.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/PFA%20Temp.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/PFA%20Temp.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.867053+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PHRC%20Coloring%20Book%20(Single%20Page).pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/housing/PHRC%20Coloring%20Book%20(Single%20Page).pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/PHRC%20Coloring%20Book%20(Single%20Page).pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.895531+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PLAW-111publ296.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/PLAW-111publ296/pdf/PLAW-111publ296.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/PLAW-111publ296.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.901748+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### PearsonVUE-PSP-Candidate-Handbook.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/PearsonVUE-PSP-Candidate-Handbook.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/PearsonVUE-PSP-Candidate-Handbook.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.910645+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Pub%20Accomm%20Intake%20Questionnaire.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/public-accommodations/Pub%20Accomm%20Intake%20Questionnaire.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Pub%20Accomm%20Intake%20Questionnaire.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.917949+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### RTKRequestForm.pdf
+
+- **URL**: https://www.openrecords.pa.gov/Documents/RTKL/RTKRequestForm.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/RTKRequestForm.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.922479+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### RTK_Request_Form.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/RTK_Request_Form.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/RTK_Request_Form.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.926590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### RemovalInstructions.pdf
+
+- **URL**: https://responsibleplay.pa.gov/wp-content/uploads/RemovalInstructions.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/RemovalInstructions.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.932092+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP%204-382%202018-02-22%20Affidavit%20for%20Safekeeping%20by%20Third%20Party%20for%20Relinquishment%20of%20Firearms.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-382%202018-02-22%20Affidavit%20for%20Safekeeping%20by%20Third%20Party%20for%20Relinquishment%20of%20Firearms.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP%204-382%202018-02-22%20Affidavit%20for%20Safekeeping%20by%20Third%20Party%20for%20Relinquishment%20of%20Firearms.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.946410+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP%204-383B%202019-02-22%20Affidavit%20Relinquishment%20of%20Firearms%20to%20Dealer%20Pursuant%20toProtection%20from%20Abuse%20Order.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-383B%202019-02-22%20Affidavit%20Relinquishment%20of%20Firearms%20to%20Dealer%20Pursuant%20toProtection%20from%20Abuse%20Order.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP%204-383B%202019-02-22%20Affidavit%20Relinquishment%20of%20Firearms%20to%20Dealer%20Pursuant%20toProtection%20from%20Abuse%20Order.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.950437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP%204-410%20Firearm%20Release%20Request.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-410%20Firearm%20Release%20Request.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP%204-410%20Firearm%20Release%20Request.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.955339+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP%204-411%20Relinquishment%20of%20Firearms%20Receipt.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-411%20Relinquishment%20of%20Firearms%20Receipt.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP%204-411%20Relinquishment%20of%20Firearms%20Receipt.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.959490+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP%204-411A%20Relinquishment%20of%20Firearms%20Receipt%20(Continuation%20Page).pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-411A%20Relinquishment%20of%20Firearms%20Receipt%20(Continuation%20Page).pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP%204-411A%20Relinquishment%20of%20Firearms%20Receipt%20(Continuation%20Page).pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.963165+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP1-108S.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/SP1-108S.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP1-108S.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.965897+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP1-108_6.14.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/SP1-108_6.14.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP1-108_6.14.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.968736+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP4-164.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/crimhist/SP4-164.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP4-164.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.971505+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP4-164A.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/crimhist/SP4-164A.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP4-164A.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.974186+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP4-170.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/crimhist/SP4-170.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP4-170.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.977082+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### SP_7-0015.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/SP_7-0015.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/SP_7-0015.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:31.980533+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Self_Exclusion_Brochure.pdf
+
+- **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Exclusion_Brochure.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Self_Exclusion_Brochure.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.017079+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Self_Exclusion_Fantasy_Gaming.pdf
+
+- **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Exclusion_Fantasy_Gaming.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Self_Exclusion_Fantasy_Gaming.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.022537+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Self_Exclusion_Interactive_Gaming.pdf
+
+- **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Exclusion_Interactive_Gaming.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Self_Exclusion_Interactive_Gaming.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.026524+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Self_Exclusion_VGT.pdf
+
+- **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Exclusion_VGT.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Self_Exclusion_VGT.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.031222+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Self_Imposed_Interactive_Gaming.pdf
+
+- **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Imposed_Interactive_Gaming.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Self_Imposed_Interactive_Gaming.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.035709+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Victim%20Notification%20Program%20Enrollment%20Form.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/from-old-site/mental-health-services/Victim%20Notification%20Program%20Enrollment%20Form.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Victim%20Notification%20Program%20Enrollment%20Form.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.038928+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### Xylazine%20Public%20Info.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/opioids/Xylazine%20Public%20Info.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/Xylazine%20Public%20Info.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.042163+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### a%20-%20standard%20general%20terms%20and%20conditions%20rev.%2011-21.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/sca-manuals-and-incorporated-documents/a%20-%20standard%20general%20terms%20and%20conditions%20rev.%2011-21.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/a%20-%20standard%20general%20terms%20and%20conditions%20rev.%2011-21.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.045867+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### a%20-%20standard%20general%20terms%20and%20conditions.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/procurement/a%20-%20standard%20general%20terms%20and%20conditions.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/a%20-%20standard%20general%20terms%20and%20conditions.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.049614+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### a-%20standard%20general%20terms%20and%20conditions%20rev%207-15.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/sca-agreement---incorporated-documents/a-%20standard%20general%20terms%20and%20conditions%20rev%207-15.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/a-%20standard%20general%20terms%20and%20conditions%20rev%207-15.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.053748+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### alert%202022-02.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/licensing/documents/licensing-alerts/alert%202022-02.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/alert%202022-02.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.069795+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### alert%202022-03.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/licensing/documents/licensing-alerts/alert%202022-03.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/alert%202022-03.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.074398+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### application%20for%20license_llc-18%20rev%2007-22.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/labor-management-relations/llc/minimum-wage/documents/application%20for%20license_llc-18%20rev%2007-22.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/application%20for%20license_llc-18%20rev%2007-22.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.078761+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### application%20for%20special%20certificate%20for%20the%20employment%20of%20learners_llc-4%20rev%2006-22.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/labor-management-relations/llc/minimum-wage/documents/application%20for%20special%20certificate%20for%20the%20employment%20of%20learners_llc-4%20rev%2006-22.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/application%20for%20special%20certificate%20for%20the%20employment%20of%20learners_llc-4%20rev%2006-22.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.083136+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### application%20for%20work%20permit.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/resources/codes-and-regulations/application%20for%20work%20permit.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/application%20for%20work%20permit.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.087676+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### application%20request%20form_rev%2002.2025.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/agency-forms/licensure/application%20request%20form_rev%2002.2025.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/application%20request%20form_rev%2002.2025.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.091698+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### application%20request%20form_rev_08.2024.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/agency-forms/licensure/application%20request%20form_rev_08.2024.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/application%20request%20form_rev_08.2024.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.096526+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### april%202025%20ddap%20monthly%20technical%20assistance%20series%20harm%20reduction.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/april%202025%20ddap%20monthly%20technical%20assistance%20series%20harm%20reduction.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/april%202025%20ddap%20monthly%20technical%20assistance%20series%20harm%20reduction.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.105096+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### asam%20alignment%20infographic.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/asam/asam%20alignment%20infographic.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/asam%20alignment%20infographic.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.118103+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### asam%20explanation%20and%20status_05072018.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20explanation%20and%20status_05072018.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/asam%20explanation%20and%20status_05072018.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.124243+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### asam%20listening%20sessions%20presentation.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20listening%20sessions%20presentation.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/asam%20listening%20sessions%20presentation.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.130303+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### asam%20monthly%20ta%20webinar.august.2023.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20monthly%20ta%20webinar.august.2023.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/asam%20monthly%20ta%20webinar.august.2023.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.136999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### asam%20ta%20call%20april%202024_%20provider%20alignment%20reviews.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20ta%20call%20april%202024_%20provider%20alignment%20reviews.pdf
+- **Status**: error
+- File not found: crawled_files/pa.gov/asam%20ta%20call%20april%202024_%20provider%20alignment%20reviews.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:49:32.142672+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### 590921.pdf
 
