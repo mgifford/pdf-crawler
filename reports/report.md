@@ -1,21 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-10T14:57:08.179958+00:00
+Generated: 2026-07-10T15:40:44.366112+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 115 |
-| Total files tracked | 26573 |
-| Analysed | 6349 |
-| Pending analysis | 14025 |
-| Errors during analysis | 6199 |
-| Accessible | 2006 |
-| Issues found | 4343 |
-| Totally inaccessible subset | 284 |
+| Total files tracked | 26976 |
+| Analysed | 6407 |
+| Pending analysis | 14368 |
+| Errors during analysis | 6201 |
+| Accessible | 2010 |
+| Issues found | 4397 |
+| Totally inaccessible subset | 285 |
 | Broken / unreadable | 28 |
-| Exempt (pre-2018) | 1527 |
+| Exempt (pre-2018) | 1501 |
 
 ## Files per Site
 
@@ -72,7 +71,7 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | nwboces.org | 21 |
 | ontario.ca | 51 |
 | oregon.gov | 2178 |
-| pa.gov | 213 |
+| pa.gov | 633 |
 | pca.state.mn.us | 211 |
 | ppboces.org | 34 |
 | products.gci-ga.com | 137 |
@@ -92,7 +91,7 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | vivaqua.be | 68 |
 | volstate.edu | 10 |
 | web-4-all.de | 9 |
-| wellsfargo.com | 87 |
+| wellsfargo.com | 70 |
 ## File Details
 
 | File | Site | Published Date | Doc Title | Author | Subject | Keywords | Accessible | Tagged | EmptyText | Protected | Title | Language | Bookmarks | TaggedContent | Forms | TaggedForms | TaggedAnnots | FiguresAlt | Headings | Lists | Tables | Exempt | Pages | Size | Words | Images |
@@ -2735,8 +2734,8 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [consent-bankruptcy.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-bankruptcy.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 442 | 1 |
 | [consent-mediation.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/consent-mediation.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 327 | 1 |
 | [contributor-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/contributor-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 674 | 0 |
-| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | 223.9 KB | 1561 | 4 |
-| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | 438.4 KB | 15301 | 0 |
+| [elder-financial-abuse.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/elder-financial-abuse.pdf) | wellsfargo.com | 2025-09-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 7 | 223.9 KB | — | — |
+| [elite-visa-signature-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/elite-visa-signature-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 15 | 438.4 KB | — | — |
 | [error-resolution-and-cancellation-rights-es.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/error-resolution-and-cancellation-rights-es.pdf) | wellsfargo.com | 2024-09-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 725 | 0 |
 | [existing-customers-4506c.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-4506c.pdf) | wellsfargo.com | 2024-09-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 2605 | 0 |
 | [existing-customers-borrower-consent.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/existing-customers-borrower-consent.pdf) | wellsfargo.com | 2023-02-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 162 | 2 |
@@ -2745,13 +2744,13 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [financial-contribution-gse.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-gse.pdf) | wellsfargo.com | 2023-04-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [financial-contribution-wobp.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/financial-contribution-wobp.pdf) | wellsfargo.com | 2023-04-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 276 | 2 |
 | [frd-overdraft-wellsfargo.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/frd-overdraft-wellsfargo.pdf) | wellsfargo.com | 2025-09-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 907 | 0 |
-| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2026-03-11 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 147.1 KB | 1229 | 0 |
+| [identity-theft-kit.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf) | wellsfargo.com | 2025-08-19 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | 3 | 147.1 KB | — | — |
 | [initiate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/initiate.pdf) | wellsfargo.com | 2026-02-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1953 | 0 |
 | [mortgage-assistance-application.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-application.pdf) | wellsfargo.com | 2022-07-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 1655 | 0 |
 | [mortgage-assistance-debts-expense.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/mortgage-assistance-debts-expense.pdf) | wellsfargo.com | 2023-04-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 1974 | 0 |
 | [navigate.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/navigate.pdf) | wellsfargo.com | 2025-10-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 2009 | 0 |
 | [online-wires-supported-currency-list-0.pdf](https://www.wellsfargo.com/assets/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 1744 | 0 |
-| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | 175.4 KB | 2178 | 0 |
+| [online-wires-supported-currency-list.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/online-banking/online-wires-supported-currency-list.pdf) | wellsfargo.com | 2026-02-04 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 8 | 175.4 KB | — | — |
 | [optimize.pdf](https://www.wellsfargo.com/assets/es/pdf/small-business/checking/optimize.pdf) | wellsfargo.com | 2025-10-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 2469 | 0 |
 | [payment-assist-mtg-assumption-terms-acknowledgment.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/payment-assist-mtg-assumption-terms-acknowledgment.pdf) | wellsfargo.com | 2023-10-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 564 | 0 |
 | [platinum-visa-guide-to-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/platinum-visa-guide-to-benefits.pdf) | wellsfargo.com | 2022-08-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 6592 | 0 |
@@ -2768,9 +2767,9 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [third-party-release.pdf](https://www.wellsfargo.com/assets/pdf/home-lending/third-party-release.pdf) | wellsfargo.com | 2023-11-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 308 | 1 |
 | [travel-accident-and-baggage-delay.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/travel-accident-and-baggage-delay.pdf) | wellsfargo.com | 2024-07-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 10 | — | 4674 | 0 |
 | [us-purchase-order-terms.pdf](https://www.wellsfargo.com/assets/pdf/about/corporate/us-purchase-order-terms.pdf) | wellsfargo.com | 2025-03-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 20 | — | 25841 | 0 |
-| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | 138.3 KB | 1411 | 1 |
+| [us_consumer_privacy_notice_english.pdf](https://www.wellsfargo.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 138.3 KB | — | — |
 | [visa-benefits-guide.pdf](https://www.wellsfargo.com/assets/es/pdf/personal/debit-card/visa-benefits-guide.pdf) | wellsfargo.com | 2024-09-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 7466 | 0 |
-| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 16 | 971.7 KB | 9451 | 1 |
+| [visa-signature-business-benefits.pdf](https://www.wellsfargo.com/assets/pdf/small-business/credit-cards/visa-signature-business-benefits.pdf) | wellsfargo.com | 2022-07-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 16 | 971.7 KB | — | — |
 | [Applicant_NJFC_Application_Check_List_en.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_en.pdf) | njfamilycare.dhs.state.nj.us | 2023-04-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 458 | 2 |
 | [Applicant_NJFC_Application_Check_List_sp.pdf](https://njfamilycare.dhs.state.nj.us/docs/Applicant_NJFC_Application_Check_List_sp.pdf) | njfamilycare.dhs.state.nj.us | 2023-05-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 581 | 2 |
 | [FAQs_UM_Appeal_Changes.pdf](https://njfamilycare.dhs.state.nj.us/docs/FAQs_UM_Appeal_Changes.pdf) | njfamilycare.dhs.state.nj.us | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 3 | — | 950 | 0 |
@@ -3359,6 +3358,7 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [drap%20activation%20notice%20for%20hotel%20hampton%20fire.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/resources/drap%20activation%20notice%20for%20hotel%20hampton%20fire.pdf) | pa.gov | 2026-03-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 347 | 1 |
 | [drap%20what%20to%20do%20next%20hotel%20hampton%20fire.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ready/documents/drap/resources/drap%20what%20to%20do%20next%20hotel%20hampton%20fire.pdf) | pa.gov | 2026-03-06 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 459 | 19 |
 | [eeo_titlevi_discrimination_complaint.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/eeo_titlevi_discrimination_complaint.pdf) | pa.gov | 2025-05-13 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 832.0 KB | 216 | 1 |
+| [emc%20website%20list.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/county-emc/emc%20website%20list.pdf) | pa.gov | 2026-06-17 | — | Sale, Viviana | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 6 | 229.8 KB | 1516 | 6 |
 | [emergency%20kit%20list.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/emergency%20kit%20list.pdf) | pa.gov | 2019-07-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 113 | 1 |
 | [erie%20nhios%20town%20hall%20flyer.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/erie%20nhios%20town%20hall%20flyer.pdf) | pa.gov | 2025-11-03 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 128 | 10 |
 | [external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/external%20event%20attendance%20form%20-%20september%202025%20fillable.pdf) | pa.gov | 2025-09-29 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 132.8 KB | 157 | 1 |
@@ -3366,6 +3366,7 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [flag%20program%20flying%20request%20form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/flag%20program%20flying%20request%20form.pdf) | pa.gov | 2024-09-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 131 | 0 |
 | [hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf) | pa.gov | 2025-10-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 142 | 11 |
 | [immigration%20nhios%20town%20hall%20flyer%20(3).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/immigration%20nhios%20town%20hall%20flyer%20(3).pdf) | pa.gov | 2026-02-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 148 | 14 |
+| [it-policy-crosswalk.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf) | pa.gov | 2026-06-17 | — | Grim, Christopher | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 15 | 301.5 KB | 2514 | 1 |
 | [lce_pe_readiness_tests.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/lce_pe_readiness_tests.pdf) | pa.gov | 2025-11-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 128.3 KB | 577 | 1 |
 | [legislative_inquiries_submission_update.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/legislative_inquiries_submission_update.pdf) | pa.gov | 2025-02-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 709 | 27 |
 | [library%20collection.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/library%20collection.pdf) | pa.gov | 2015-04-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 49.0 KB | 200 | 0 |
@@ -3395,6 +3396,7 @@ Generated: 2026-07-10T14:57:08.179958+00:00
 | [processing%20an%20act%20101%20and%20act%2051%20claim.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/insurance/line-of-duty-death-benefits/documents/processing%20an%20act%20101%20and%20act%2051%20claim.pdf) | pa.gov | 2020-03-10 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 313 | 0 |
 | [psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/psp%20cadet%20and%20leot%20written%20examination%20prep%20guide.pdf) | pa.gov | 2025-07-03 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 41 | 1.5 MB | 13504 | 15 |
 | [psp_form_3-394%20.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/eio/psp_form_3-394%20.pdf) | pa.gov | 2024-12-27 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 850.6 KB | 207 | 1 |
+| [psp_most_wanted_current.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/psp_most_wanted_current.pdf) | pa.gov | 2026-06-23 | psp_most_wanted_current | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 616.6 KB | 333 | 10 |
 | [ptrr_proof_doc_checklist.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_proof_doc_checklist.pdf) | pa.gov | 2026-01-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1484 | 4 |
 | [ptrr_proof_doc_checklist_span.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_proof_doc_checklist_span.pdf) | pa.gov | 2026-01-21 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1635 | 4 |
 | [ptrr_quick_tips.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/ptrr_quick_tips.pdf) | pa.gov | 2026-01-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 1392 | 2 |
@@ -6424,23 +6426,77 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [VA-Benefits-Participant-Guide-0.pdf](https://www.benefits.va.gov/TAP/docs/VA-Benefits-Participant-Guide.pdf) | va.gov | 2019-10-24 | VA Benefits and Services Participant Guide | {'U.S. Department of Veterans Affairs'} | {'VR&E', 'Benefits', 'Memorial', 'Life Insurance', 'National Guard', 'VA Facility', 'Resources', 'eBenefits', 'GI Bill', 'Home Loan', 'VA.gov', 'VA Regional Office', 'Caregiver', 'Disability', 'Service Member', 'Home', 'Career', 'Survivor', 'Community', 'Reserve', 'Dental Care', 'Military', 'Education', 'VA', 'Family', 'Health Care', 'Mental Health', 'Housing', 'Veterans Affairs', 'Reserve Components', 'Dependent', 'Employment', 'Vet Centers', 'VSOs', 'Transition'} | Veterans Affairs, VA, Transition, Military, Disability, Education, Family, Survivor, Dependent, Housing, Home, Career, Employment, Benefits, Health Care, Mental Health, Vet Centers, Community, Service Member, National Guard, Reserve, Reserve Components, Resources, VA.gov, Life Insurance, eBenefits, Memorial, GI Bill, VR&E, VA Facility, VA Regional Office, Dental Care, Home Loan, Caregiver, VSOs | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | ❌ Fail | 164 | 6.4 MB | 41031 | 206 |
 | [WelcomeVA_Guide_print_version_final.pdf](https://www.va.gov/WelcomeVA_Guide_print_version_final.pdf) | va.gov | 2018-12-07 | Welcome to VA | U.S. Department of Veterans Affairs | Understand how VA can meet your needs, and learn how to access VA benefits and services. | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 24 | 414.1 KB | 7847 | 0 |
 | [vawelcomekit-consolidated-color.pdf](https://www.va.gov/files/2025-06/vawelcomekit-consolidated-color.pdf) | va.gov | 2025-06-11 | VA Welcome Kit | US Department of Veterans Affairs/VA | {'U.S. Department of Veterans Affairs', 'Veteran Benefits', 'Veterans Experience Office', 'VA', 'VA Welcome Kit', 'Veteran Services'} | Veterans Experience Office; U.S. Department of Veterans Affairs; VA; Veteran Benefits; Veteran Services; VA Welcome Kit | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 49 | 3.9 MB | 20413 | 22 |
-| [22-088_EEOC_KnowYourRights6.12.pdf](https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf) | wellsfargo.com *(ext: eeoc.gov)* | 2023-06-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 439.7 KB | — | — |
-| [22-088_EEOC_KnowYourRightsSp6.12.pdf](https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRightsSp6.12.pdf) | wellsfargo.com *(ext: eeoc.gov)* | 2023-06-12 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 2 | 385.8 KB | — | — |
-| [542661.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/542661.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-02-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 1.2 MB | — | — |
-| [544260.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544260.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-05-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 23 | 578.8 KB | — | — |
-| [544408.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544408.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-05-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ✅ Pass | ❌ Fail | 22 | 529.4 KB | — | — |
-| [578639.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/578639.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-05-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 8 | 838.3 KB | — | — |
-| [579609.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/579609.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2022-03-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 2 | 250.5 KB | — | — |
-| [583026.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/583026.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2024-12-18 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 1.3 MB | — | — |
-| [585793.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585793.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-03-02 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 9 | 1.9 MB | — | — |
-| [585794.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585794.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2021-11-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 195.6 KB | — | — |
-| [585797.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585797.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2025-07-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 12 | 1.3 MB | — | — |
-| [586360.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586360.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-06-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 884.8 KB | — | — |
-| [586361.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586361.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2024-08-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 1.4 MB | — | — |
-| [587740.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/587740.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2021-12-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 166.9 KB | — | — |
-| [588287.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/588287.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-04-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 906.4 KB | — | — |
-| [589852.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/589852.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2026-04-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 36 | 708.6 KB | — | — |
-| [590907.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590907.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2025-07-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 840.5 KB | — | — |
+| [0129..PDF](https://www.legis.state.pa.us/WU01/LI/LI/US/PDF/1992/0/0129..PDF) | pa.gov *(ext: legis.state.pa.us)* | 2011-11-03 | Untitled | Unknown | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 3 | 87.3 KB | 1114 | 0 |
+| [0139..PDF](https://www.legis.state.pa.us/WU01/LI/LI/US/PDF/2014/0/0139..PDF) | pa.gov *(ext: legis.state.pa.us)* | 2014-11-25 | Untitled | Unknown | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 4 | 136.1 KB | 1579 | 0 |
+| [17-01%20--%20historical%20teds%20data%20entry%20into%20pa%20wits.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/policy-bulletins/17-01%20--%20historical%20teds%20data%20entry%20into%20pa%20wits.pdf) | pa.gov | 2017-05-17 | — | DOHUSER | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 2 | 370.0 KB | 486 | 2 |
+| [2.5-asam-aligned-facilities.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/asam-facilities/2.5-asam-aligned-facilities.pdf) | pa.gov | 2026-06-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | Warn | ❌ Fail | 6 | 334.2 KB | 1471 | 6 |
+| [2019%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2019%20BIPS%20Annual%20Report.pdf) | pa.gov | 2020-06-08 | BIPS 2019 Annual Report | Masteller, Steven L | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 19 | 746.1 KB | 3239 | 1 |
+| [2020%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2020%20BIPS%20Annual%20Report.pdf) | pa.gov | 2021-06-08 | BIPS 2020 Annual Report | Luthra, Raman | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 17 | 671.1 KB | 3018 | 1 |
+| [2020_02%20ef%20cabinet%20annual%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2020_02%20ef%20cabinet%20annual%20report.pdf) | pa.gov | 2020-09-24 | Microsoft Word - 2020_02 EF Cabinet Annual Report.docx | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 68 | 2.2 MB | 16892 | 1 |
+| [2021%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2021%20BIPS%20Annual%20Report.pdf) | pa.gov | — | Scanned Document | — | — | — | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 19 | 3.2 MB | 0 | 19 |
+| [2021%20ef%20annual%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2021%20ef%20annual%20report.pdf) | pa.gov | 2021-01-25 | — | Miller-Smith, Alexa | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 120 | 1.2 MB | 23248 | 3 |
+| [2021-22%20provider%20xyz%20training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/2021-22%20provider%20xyz%20training.pdf) | pa.gov | 2021-01-29 | PowerPoint Presentation | Ross, Steven | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 22 | 533.0 KB | 1430 | 44 |
+| [2022%20BIPS%20Annual%20Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2022%20BIPS%20Annual%20Report.pdf) | pa.gov | 2023-06-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 22 | 13.7 MB | 3366 | 22 |
+| [2022%20employment%20first%20annual%20report%202.3.2022.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2022%20employment%20first%20annual%20report%202.3.2022.pdf) | pa.gov | 2022-02-03 | 2022 Employment First Annual Report | Miller-Smith, Alexa | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 22 | 594.9 KB | 5998 | 9 |
+| [2022-%20pa%20employment%20first%20oversight%20commission%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2022-%20pa%20employment%20first%20oversight%20commission%20report.pdf) | pa.gov | 2022-10-03 | EMPLOYMENT | Stephen Suroviec | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ✅ Pass | Warn | ❌ Fail | ❌ Fail | 79 | 2.3 MB | 28152 | 9 |
+| [2022.october.operating%20individualized%20care.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2022.october.operating%20individualized%20care.pdf) | pa.gov | 2022-10-03 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 23 | 592.0 KB | 2339 | 20 |
+| [2023%20employment%20first%20annual%20report%20with%20future%20framework.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2023%20employment%20first%20annual%20report%20with%20future%20framework.pdf) | pa.gov | 2023-01-12 | 2023 Employment First Annual Report with Future Framework | Miller-Smith, Alexa | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 38 | 1.1 MB | 10389 | 7 |
+| [2023%20who%20survey%20fast%20facts.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/warmhandoff/2023%20who%20survey%20fast%20facts.pdf) | pa.gov | 2023-07-17 | My project | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 145.7 KB | 401 | 0 |
+| [2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf) | pa.gov | 2025-02-28 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 29 | 734.6 KB | 1389 | 40 |
+| [2023.february.guiding%20principles%20of%20the%20asam%20criteria.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.february.guiding%20principles%20of%20the%20asam%20criteria.pdf) | pa.gov | 2023-02-10 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 28 | 400.4 KB | 1406 | 40 |
+| [2023.march.comparing%20level%203%20residential%20services%20and%20recovery%20house%20information.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.march.comparing%20level%203%20residential%20services%20and%20recovery%20house%20information.pdf) | pa.gov | 2023-03-13 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 26 | 326.0 KB | 1567 | 26 |
+| [2023.may.family%20involvement%20through%20the%20continuum.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2023.may.family%20involvement%20through%20the%20continuum.pdf) | pa.gov | 2023-05-01 | Integrating Family Services | Molly Stanton | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 20 | 1.4 MB | 1265 | 52 |
+| [2023_bips_annual_report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2023_bips_annual_report.pdf) | pa.gov | 2025-02-10 | 2023 BIPS Annual Report | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 18 | 4.0 MB | 2870 | 1 |
+| [2024%20annual%20security%20-%20fire%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/cti-hgac/documents/2024%20annual%20security%20-%20fire%20report.pdf) | pa.gov | 2024-09-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 46 | 681.3 KB | 22065 | 5 |
+| [2024-02%20alignment%20review%20expectation%20qa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024-02%20alignment%20review%20expectation%20qa.pdf) | pa.gov | 2024-02-27 | — | Martarano, Kristi | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 147.6 KB | 286 | 0 |
+| [2024-06-14-cy-1001-national-sex-offender-registry-nsor-application-english.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/resources/documents/2024-06-14-cy-1001-national-sex-offender-registry-nsor-application-english.pdf) | pa.gov | 2025-03-27 | National Sex Offender Registry (NSOR) Verification Applicaiton | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 1 | 129.0 KB | 414 | 0 |
+| [2024-07-03-cy-1001-s-national-sex-offender-registry-nsor-application-spanish.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/resources/documents/2024-07-03-cy-1001-s-national-sex-offender-registry-nsor-application-spanish.pdf) | pa.gov | 2025-03-27 | Verificacion del Registro Nacional de Delincuentes Sexual | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | ✅ Pass | Warn | NotApplicable | ✅ Pass | ❌ Fail | 1 | 147.9 KB | 512 | 0 |
+| [2024-efoc-annual%20report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2024-efoc-annual%20report.pdf) | pa.gov | 2024-10-01 | — | Josie Badger | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 73 | 562.9 KB | 20188 | 2 |
+| [2024-employment-first-cabinet-report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2024-employment-first-cabinet-report.pdf) | pa.gov | 2024-02-01 | 2024 Employment First Annual Report with Future Framework | Miller-Smith, Alexa | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 28 | 870.3 KB | 7664 | 51 |
+| [2024.12.20%20v.1%20gifa%2024-09%20integrated%20health%20solutions_final.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/ddapfunding/documents/2024.12.20%20v.1%20gifa%2024-09%20integrated%20health%20solutions_final.pdf) | pa.gov | 2024-12-20 | — | Rounce, Robert G | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 18 | 282.4 KB | 5311 | 1 |
+| [2024.3%20individualized%20services%20qanda.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.3%20individualized%20services%20qanda.pdf) | pa.gov | 2024-03-07 | — | Martarano, Kristi | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 107.0 KB | 286 | 0 |
+| [2024.7%20conversationwithscottboyles%20qa.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.7%20conversationwithscottboyles%20qa.pdf) | pa.gov | 2024-07-31 | — | Martarano, Kristi | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | 115.3 KB | 602 | 0 |
+| [2024.8%20conversationwithscottboyles%20qanda.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/2024.8%20conversationwithscottboyles%20qanda.pdf) | pa.gov | 2024-09-06 | — | Martarano, Kristi | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 1 | 235.9 KB | 134 | 0 |
+| [2024_Haywood_ENOUGH_Report_012222024.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/2024_Haywood_ENOUGH_Report_012222024.pdf) | pa.gov | 2024-01-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | ❌ Fail | ❌ Fail | 28 | 2.6 MB | 9259 | 12 |
+| [2024_RVAT_Commissioners_Report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/rvat/2024_RVAT_Commissioners_Report.pdf) | pa.gov | 2024-07-15 | Risk and Vulnerability Assessment Team Commissioner's Report 2024 | Manning, Lindsay H | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | Warn | ❌ Fail | 3 | 704.1 KB | 578 | 5 |
+| [2024_bips_ar.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2024_bips_ar.pdf) | pa.gov | 2026-01-23 | Bureau of Integrity and Professional Standards 2024 Annual Report | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 19 | 1.0 MB | 3073 | 1 |
+| [2025-05-pa-1995-english.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/scams/2025-05-pa-1995-english.pdf) | pa.gov | 2025-05-14 | PA 1995 English | — | EBT Card Lock Flyer | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 272.9 KB | 112 | 4 |
+| [2025-05-pa-1995-spanish.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/scams/2025-05-pa-1995-spanish.pdf) | pa.gov | 2025-05-14 | PA 1995 S | — | EBT Card Lock Flyer Spanish | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 384.3 KB | 141 | 4 |
+| [2025-employment-first-cabinet-annual-report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2025-employment-first-cabinet-annual-report.pdf) | pa.gov | 2025-03-06 | Employment First Cabinet Report 2025 | Merritt, Katie | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 43 | 1.2 MB | 10722 | 18 |
+| [2025.01.17%20gifa%2024-09_integrated%20health%20solutions%20questions%20and%20answers_final.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/ddapfunding/documents/2025.01.17%20gifa%2024-09_integrated%20health%20solutions%20questions%20and%20answers_final.pdf) | pa.gov | 2025-01-17 | 1 | Andrew Hall | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ✅ Pass | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 7 | 195.7 KB | 2039 | 7 |
+| [2025.march.ddap%20monthly%20technical%20assistance%20series%2042%20cfr%20part%208%20final%20ruling%20practical%20applications.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/2025.march.ddap%20monthly%20technical%20assistance%20series%2042%20cfr%20part%208%20final%20ruling%20practical%20applications.pdf) | pa.gov | 2025-03-03 | The ASAM Criteria  4th Edition: | Microsoft Office User | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 21 | 325.7 KB | 569 | 23 |
+| [2025_bips_ar.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/bips-annual-reports/2025_bips_ar.pdf) | pa.gov | 2026-07-02 | 2025 BIPS Annual Report | Masteller, Steven L | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | ❌ Fail | 19 | 1.6 MB | 3369 | 1 |
+| [2026-06-03-nsor-faq-2026.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/2026-06-03-nsor-faq-2026.pdf) | pa.gov | 2026-06-02 | TEACHER-QUALITY_9_2014v2-with-disclaimer | Wise, Deborah | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | 350.9 KB | 2223 | 0 |
+| [2026-employment-first-cabinet-annual-report.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2026-employment-first-cabinet-annual-report.pdf) | pa.gov | 2026-01-29 | — | Merritt, Katie | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | ❌ Fail | 58 | 2.5 MB | 13649 | 25 |
+| [25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf) | pa.gov | 2025-12-02 | Slide 1 | CVH | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 44 | 2.1 MB | 1533 | 31 |
+| [3.7-asam-aligned-facilities.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/asam-facilities/3.7-asam-aligned-facilities.pdf) | pa.gov | 2026-06-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | Warn | ❌ Fail | 4 | 289.2 KB | 750 | 5 |
+| [49bf42_92ed3a2340d1468194863ac6dc0d7016.pdf](https://www.familyandcaregivertoolkit.org/_files/ugd/49bf42_92ed3a2340d1468194863ac6dc0d7016.pdf) | pa.gov *(ext: familyandcaregivertoolkit.org)* | 2023-05-15 | 49bf42_616c5b13368a491d93dbed35b84c4b4a.pdf | Angela Barkett | — | DAFitmb1mrY,BAClGvtqRlU | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 89.3 KB | 218 | 1 |
+| [54817a_6df3d51d6d624af384539494e59bbb57.pdf](https://54817af5-b764-42ff-a7e2-97d6e4449c1a.usrfiles.com/ugd/54817a_6df3d51d6d624af384539494e59bbb57.pdf) | pa.gov *(ext: 54817af5-b764-42ff-a7e2-97d6e4449c1a.usrfiles.com)* | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 11 | 14.4 MB | 2227 | 15 |
+| [9.12.2022%20asam%20monthly%20ta%20wm.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/9.12.2022%20asam%20monthly%20ta%20wm.pdf) | pa.gov | 2022-09-12 | PowerPoint Presentation | Hoagland, Kathleen | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 24 | 1.1 MB | 1598 | 20 |
+| [ACT_106_OF_1990-Vital_Statistics-06-12-2008.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/ACT_106_OF_1990-Vital_Statistics-06-12-2008.pdf) | pa.gov | 2001-04-13 | VitalStatistics | Unknown | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 7 | 14.4 KB | 1454 | 0 |
+| [ASAM-Provider-Rates.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/healthchoices/documents/ASAM-Provider-Rates.pdf) | pa.gov | 2023-12-08 | ASAM Provider Rates Effective January 1, 2024.xlsx | kbutsch | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 54.2 KB | 48 | 0 |
+| [Act%2079_PFAD_FFL%20and%20Third%20Party%20Training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_FFL%20and%20Third%20Party%20Training.pdf) | pa.gov | 2019-08-07 | PowerPoint Presentation | Pennsylvania | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 37 | 1.7 MB | 1393 | 126 |
+| [Act%2079_PFAD_Prothonotary_Court%20Training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_Prothonotary_Court%20Training.pdf) | pa.gov | 2021-06-04 | PowerPoint Presentation | Pennsylvania | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 45 | 3.3 MB | 2509 | 121 |
+| [Act%2079_PFAD_Sheriffs%20Office%20Training.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Act%2079_PFAD_Sheriffs%20Office%20Training.pdf) | pa.gov | 2022-02-16 | PowerPoint Presentation | Pennsylvania | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 63 | 4.4 MB | 3390 | 199 |
+| [Act_No_2008-3-SB_No-1.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/Act_No_2008-3-SB_No-1.pdf) | pa.gov | 2008-12-30 | PENNSYLVANIA 2008 LEGISLATIVE SERVICE | 8.5.2.1.V2 | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ✅ Pass | 32 | 141.4 KB | 12025 | 0 |
+| [AgencyPolicyRTKLAgencyPolicy11292011_PSP4.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/AgencyPolicyRTKLAgencyPolicy11292011_PSP4.pdf) | pa.gov | 2011-11-29 | [AGENCY NAME] | Andrea Bowman | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | Warn | NotApplicable | ✅ Pass | 8 | 49.2 KB | 2569 | 0 |
+| [Appeal_Form.pdf](https://www.openrecords.pa.gov/Documents/Appeals/Appeal_Form.pdf) | pa.gov | 2026-04-20 | Agency Head or Freedom of Information Act Appeal Officer | Rolando Corpus | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 279.7 KB | 309 | 1 |
+| [Application%20for%20Scrap%20Processors.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Application%20for%20Scrap%20Processors.pdf) | pa.gov | 2021-10-14 | Scrap Processor Registration BASE | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 789.6 KB | 284 | 0 |
+| [Apprenticeships-0.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?PWT5iYuNKqtAg58UeCdrB_RSirkMMj3@VLMZptl9RUZr3ImdLP5y9dtWdQXEl7ARE5LIjTOU4oGBVAhVl6XL1X9RHlL_03xRmKeoizu_BzbLGfAmBXYO07i6_XNsg6Z01eImEHG7Ie5Hs@hNMgKQMQ--g@gMKgJpxJnncJVXt0gSk0BORftegQqoOF5Rpxzv@jYDGhV8MOKS) | pa.gov | 2023-05-11 | — | John Paul | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 257.8 KB | 438 | 5 |
+| [Apprenticeships-1.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?YDpC8xllFPKb8fqAopEtl6XAv5mv3ac8UdBIN0hQdEkQ0Zjw@NK2Te@6IcUC94bU6AqahgSVGMam7ne3aVK7wazmjaEM1rJLdlZ9XDLcFdKuQV0LiFImVo49J64mZ_qsN1GpKfSNqoLJGCNzIrQRyQ--mMN297DyenlW8BGwlDI4rozA3I3mhPASlzDEcKN4DC4i5Lsc2A94) | pa.gov | 2023-06-09 | — | John Paul | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 3 | 276.0 KB | 1374 | 5 |
+| [Apprenticeships-2.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?Uox4BQtQEo@jLY_m_I4gUsq5yqxCQJY2EwJSQNkDhkmJ_IOxG8bZbcq226Ou6lcr3__P5jZAmnfojnjl4YE_jDZTRIjfyLXKT5KSvV2ZlyPauVA7Y@x0zoxteQIGh5Y7iE07sqy4SEd_1Tn7vfzdaw--BF@k45CtIPBAtjJ3eJBLEw4m@uI9TyMpedvSkV2c3VVygSxIkm4L) | pa.gov | 2023-05-12 | — | Stuart Bass | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | ❌ Fail | Warn | ✅ Pass | Warn | ❌ Fail | 6 | 1.1 MB | 685 | 2 |
+| [Apprenticeships-3.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?jhfB9hbo7jmAB1zTLQqZsWBWJYcqoL7_BkH9ZCH0RUz3IGzosYOtQcPGxR63lg2cBpx06_6WffDy6WCprEEPSbnoZ7kdbL@tbrq2gU7N99YT0Y_4pkZv7UArFvNgYjqRyIS96oFCjpKg0lNZxPBTAA--0bpJkP5dyOfG4_3zyETZ1XQU38V_mRNFPWOPDMTkja99QojWJUkZ) | pa.gov | 2023-05-11 | — | Loew, Tara | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 263.1 KB | 523 | 5 |
+| [Apprenticeships-4.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?hbJLRq27D38M8HasZUPLLWf3dMdiuJje5YuTYHzebeflOqbn@sZseOYaRyiqNG8G2xVAvAS6CothoV0ymoaGmUJXPw6OdX9Tk8C_vLZv4kEgTJeJCmoGJS5vO57c_2oYjTxllwyh7pZKId1wMVeEHMyWOw49nUA8moWDIMXF8@S2R3Pdnk3GcZmHmxrBhEWHRtLv2jzOBX6JfuZUdjhV9x2LRqT_1KjVSYTh3RwK2YA4wFcQvL2V) | pa.gov | 2023-04-04 | — | John Paul | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | 337.8 KB | 3213 | 1 |
+| [Apprenticeships.pdf](https://www.pacareerlink.pa.gov/jponline/Apprenticeships?Vggf57Go@bu6F5KxQqUJJD9NfWsOXVdyTUBwMWn2GdzpDvWxu395EFw1RHA0Ej9hRGGaCv@X@FG0nhJuYpbXIC_q7lCA3hfQpQfpWo@rS4fBFvmyzJldQq6iIopNGcjKL3K_BAJAC1sbZ8IxWLGEGEyIKKrHWudcUmEZ9M9IiFM-k8XVMdfcRQBLU62Rz1O3IzTMk@y_10hGovJV5lYmMeWJkchDVMM3) | pa.gov | 2023-05-11 | — | John Paul | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | NotApplicable | ❌ Fail | 2 | 364.0 KB | 744 | 15 |
+| [Attachment%20A%20final.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20final.pdf) | pa.gov | 2019-03-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 110.3 KB | 86 | 0 |
+| [Attachment%20A%20temp.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20temp.pdf) | pa.gov | 2019-03-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 1 | 112.3 KB | 83 | 0 |
+| [Attachment%20A%20to%20petition.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Attachment%20A%20to%20petition.pdf) | pa.gov | 2019-03-18 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 114.4 KB | 187 | 0 |
+| [Autism_card_4up_S.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Autism_card_4up_S.pdf) | pa.gov | 2024-07-17 | Autism_card_4up_S | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | 827.7 KB | 272 | 0 |
+| [Autism_card_gray_S.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/Autism_card_gray_S.pdf) | pa.gov | 2024-07-17 | Autism_card_gray_S | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | 293.1 KB | 138 | 0 |
+| [CDL%20Flowchart%205.29.14.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CDL%20Flowchart%205.29.14.pdf) | pa.gov | 2014-05-29 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 1 | 283.2 KB | 0 | 1 |
+| [CDR_2021.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2021.pdf) | pa.gov | 2022-10-16 | Microsoft Word - PSP Year 1 Report Jan-Dec 2021 FINAL reissued 10172022 | jennm | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 27 | 1.3 MB | 10289 | 4 |
+| [CDR_2022.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022.pdf) | pa.gov | 2023-05-23 | Pennsylvania State Police Traffic Stop Study: 2022 Annual Report | Jennifer Cherkauskas | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 169 | 2.7 MB | 54965 | 2 |
+| [CDR_2022_1st.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_1st.pdf) | pa.gov | 2022-10-06 | Microsoft Word - PSP Year 2 1st Quarterly Report FINAL | jennm | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 2.6 MB | 17301 | 4 |
 | [590921.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2025-11-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 731.7 KB | — | — |
 | [593931.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2023-08-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 3 | 7.9 MB | — | — |
 | [595906.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2022-01-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181.8 KB | — | — |
@@ -47924,6 +47980,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
+### emc%20website%20list.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pema/documents/county-emc/emc%20website%20list.pdf
+- **Status**: analysed
+- title, headings-none, 
+
 ### emergency%20kit%20list.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/penndot/documents/travelinpa/winter/documents/emergency%20kit%20list.pdf
@@ -47941,6 +48003,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/flag%20program%20flying%20request%20form.pdf
 - **Status**: analysed
 - title, 
+
+### it-policy-crosswalk.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=1), headings-none, 
 
 ### library%20collection.pdf
 
@@ -48475,6 +48543,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2024/washington%20county%20town%20hall%20flyer.pdf
 - **Status**: error
 - File not found: crawled_files/pa.gov/washington%20county%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.972194+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### wawa%2060th%20anniversary%20pdf.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/governor/documents/wawa%2060th%20anniversary%20pdf.pdf
+- **Status**: analysed
+- title, figures missing alt text (count=2), headings-none, 
 
 ### york%20nhios%20town%20hall%20flyer.pdf
 
@@ -70280,222 +70354,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - alt-nested-fail, 
 
-### 22-088_EEOC_KnowYourRights6.12.pdf
-
-- **URL**: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRights6.12.pdf
-- **Status**: analysed
-- fonts:/FZIHZX+Calibri-Bold, /FZIHZX+Calibri-Italic, /FZIHZX+Impact, /FZIHZX+Cambria, /FZIHZX+Calibri
-
-### 22-088_EEOC_KnowYourRightsSp6.12.pdf
-
-- **URL**: https://www.eeoc.gov/sites/default/files/2023-06/22-088_EEOC_KnowYourRightsSp6.12.pdf
-- **Status**: analysed
-- fonts:/OEUJVF+Calibri, /OEUJVF+Cambria, /OEUJVF+Impact, /OEUJVF+Calibri-Italic, /OEUJVF+Calibri-Bold
-
-### 542661.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/542661.pdf
-- **Status**: analysed
-- fonts:/AACRAY+MyriadPro-Regular, /KHEEKE+Arial-BoldItalicMT, /CVDDCU+Arial-BoldMT, /TFNBGM+Arial-ItalicMT, /LORFYC+ArialMTforms-fail, forms-tagging-fail, 
-
-### 544260.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544260.pdf
-- **Status**: analysed
-- fonts:/NTWIYX+Arial-ItalicMT, /ZYYXKZ+TimesNewRomanPSMT, /DRYAOR+Arial-BoldMT, /ZYYXKZ+Verdana, /NTWIYX+ArialMTalt-nested-fail, 
-
-### 544408.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/544408.pdf
-- **Status**: analysed
-- fonts:/HWKFOA+ArialMT, /SPZYME+Arial-BoldMTlists-warn, 
-
-### 578639.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/578639.pdf
-- **Status**: analysed
-- fonts:/PTTNFO+Arial-BoldMT, /GIDLJG+Arial-ItalicMT, /BYQHRQ+ArialMTforms-fail, forms-tagging-fail, 
-
-### 579609.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/579609.pdf
-- **Status**: analysed
-- fonts:/AWJCUO+Arial-ItalicMT, /LXWQSS+Arial-BoldItalicMT, /IAMDCY+Arial-BoldMT, /ZUAGGQ+ArialMT, /SSGBME+TimesNewRomanPSMTforms-fail, forms-tagging-fail, 
-
-### 583026.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/583026.pdf
-- **Status**: analysed
-- fonts:/CIXSPT+Verdana-Italic, /BLNWBV+Arial-BoldMT, /NYNQNX+ArialMT, /NRIBIX+Verdana, /OSYRBV+Verdana-Boldforms-fail, forms-tagging-fail, 
-
-### 585793.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585793.pdf
-- **Status**: analysed
-- fonts:/HQHAJP+Arial-ItalicMT, /MIXEBF+MyriadPro-Regular, /HQHAJP+ArialMT, /LOMDNH+Arial-BoldItalicMT, /XOJSZJ+Arial-BoldMTforms-fail, forms-tagging-fail, 
-
-### 585794.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585794.pdf
-- **Status**: analysed
-- fonts:/FWMPTY+Arial-BoldMT, /QXZDRC+Arial-ItalicMT, /BIQWUL+ArialMT, /LFOEER+TimesNewRomanPSMTforms-fail, 
-
-### 585797.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/585797.pdf
-- **Status**: analysed
-- fonts:/LSQHMC+ArialMT, /GAFIUM+Arial-BoldMT, /TERIUM+Arial-ItalicMT, /PQVKQU+Arial-BoldItalicMTforms-fail, forms-tagging-fail, 
-
-### 586360.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586360.pdf
-- **Status**: analysed
-- fonts:/HCOQEF+Arial-ItalicMT, /KWENUZ+Arial-BoldItalicMT, /AHEFKT+Arial-BoldMT, /AXAAKT+MyriadPro-Regular, /UGAQEF+ArialMTforms-fail, forms-tagging-fail, 
-
-### 586361.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/586361.pdf
-- **Status**: analysed
-- fonts:/WBOJYG+Arial-BoldItalicMT, /IOOYKI+ArialMT, /SDOLUO+Arial-ItalicMT, /GDRRIM+Arial-BoldMTforms-fail, forms-tagging-fail, 
-
-### 587740.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/587740.pdf
-- **Status**: analysed
-- fonts:/YXSCIW+ArialMT, /XOERUY+Arial-BoldItalicMT, /UZSZEE+Arial-BoldMTforms-fail, 
-
-### 588287.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/588287.pdf
-- **Status**: analysed
-- fonts:/BGMTMV+Arial-BoldMT, /GQZXEL+Arial-BoldItalicMT, /JFLPUF+ArialMT, /RRMLCP+Arial-ItalicMTforms-fail, forms-tagging-fail, 
-
-### 589852.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/589852.pdf
-- **Status**: analysed
-- fonts:/PCXTIP+Arial-BoldMT, /DXVZWN+Arial-BoldItalicMT, /YAGVEX+ArialMT, /PCXTIP+Arial-ItalicMT
-
-### 590907.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590907.pdf
-- **Status**: analysed
-- fonts:/OKYMPV+Arial-BoldMT, /DZMTRR+Arial-ItalicMT, /ZQPFNZ+Arial-BoldItalicMT, /DHKTRR+ArialMTforms-fail, forms-tagging-fail, 
-
-### 590921.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf
-- **Status**: analysed
-- fonts:/KAZIPZ+ArialMT, /QJBSVN+Arial-BoldMTforms-fail, forms-tagging-fail, 
-
-### 593931.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf
-- **Status**: analysed
-- fonts:/UNWILP+Arial-ItalicMT, /TXSSWH+Arial, /XCIVBJ+Arial-BoldItalicMT, /YROWPH+Arial-BoldMT, /EJBAVV+ArialMT, /YOYQIX+Arial-ItalicMTlists-warn, 
-
-### 595906.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf
-- **Status**: analysed
-- fonts:/ZXENJV+Arial-BoldMT, /KYRBHZ+ArialMT, /EXNMBL+Georgia
-
-### ADD-CA-EN.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/ADD-CA-EN.pdf
-- **Status**: analysed
-- fonts:/RSVTAQ+WellsFargoSans-Bold, /IUMWEI+WellsFargoSans-Display, /CGUSFT+TimesNewRoman, /YXJOUC+WellsFargoSans-Light, /IUMWEI+WellsFargoSans-Regular, /BUYBKW+WellsFargoSans-SemiBold
-
-### DMCA-notice.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/privacy-security/DMCA-notice.pdf
-- **Status**: analysed
-- fonts:/ADRKKN+Arial, /EZATGQ+ArialMT, /XATOEO+Arial
-
-### california.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/es/small-business/deposits/online-disclosures/addenda/california.pdf
-- **Status**: analysed
-- fonts:/QPMLII+WellsFargoSans-Regular, /IQNPAY+WellsFargoSans-Light, /DERIGC+TimesNewRoman, /XPAGCU+WellsFargoSans-Light, /ZNVNEQ+WellsFargoSans-SemiBold, /QPMLII+WellsFargoSans-Display, /QPMLII+WellsFargoSans-Bold
-
-### fetch-pdf-0.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013&subProductCode=ANY
-- **Status**: analysed
-- fonts:/LVCTKS+WellsFargoSans-Regular, /KRNNWU+WellsFargoSans-Regular, /JSDHIW+WellsFargoSans-Display, /EIQDQG+WellsFargoSans-Light, /FMAJEE+WellsFargoSans-Bold, /HPZVGA+WellsFargoSans-Bold, /CFMROK+WellsFargoSans-Light, /ACNFMO+WellsFargoSans-BoldItalic, /BAKYDQ+TimesNewRoman
-
-### fetch-pdf-1.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CCB2018C&subProductCode=ANY
-- **Status**: analysed
-- fonts:/SOBPUY+WellsFargoSans-Light, /MFZFOK+WellsFargoSans-Bold, /LBPZAM+Wingdings-Regular, /PYGQJE+WellsFargoSans-Regular, /RPMJGA+WellsFargoSans-Regular, /OIDRQG+WellsFargoSans-Bold, /BBVRHB+TimesNewRoman, /TSQVIW+WellsFargoSans-Light, /PMNXEE+WellsFargoSans-Display
-
-### fetch-pdf-2.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013SP&subProductCode=ANY
-- **Status**: analysed
-- fonts:/EQAPZK+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Light, /OSYXJQ+WellsFargoSans-Display
-
-### fetch-pdf.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?documentName=Account%20Addenda&subProductCode=ANY
-- **Status**: analysed
-- fonts:/OOFGNL+WellsFargoSans-Display, /AGEAZN+WellsFargoSans-SemiBold, /IFDRHX+WellsFargoSans-Bold, /TPEDCH+TimesNewRoman, /FQRERD+Calibri, /SCBZRD+WellsFargoSans-Regular, /CBFMBJ+WellsFargoSans-Light, /MBCPLP+Calibri-Bold, /ZZRULP+WellsFargoSans-Light
-
-### fw8ben.pdf
-
-- **URL**: https://www.irs.gov/pub/irs-pdf/fw8ben.pdf
-- **Status**: analysed
-- fonts:/CFUVYJ+HelveticaNeueLTStd-Roman, /CNSQYJ+UniversalStd-NewswithCommPi, /DWGBMH+HelveticaNeueLTStd-BlkCn, /AKTEWN+UniversalStd-NewswithCommPi, /ZQIDIP+HelveticaNeueLTStd-BdIt, /EAVHAF+AdobePiStd, /THGTCB+HelveticaNeueLTStd-Bd, /MCSDIP+ITCFranklinGothicStd-Demiforms-fail, forms-tagging-fail, 
-
-### fw9.pdf
-
-- **URL**: https://www.irs.gov/pub/irs-pdf/fw9.pdf
-- **Status**: analysed
-- fonts:/ZKUMQA+HelveticaNeueLTStd-BlkCn, /OKAJSW+HelveticaNeueLTStd-Roman, /MBEHQA+HelveticaNeueLTStd-Bd, /MCXSQA+ITCFranklinGothicStd-Demi, /FEOMWO+HelveticaNeueLTStd-It, /PVUZGU+HelveticaNeueLTStd-BdItheadings-skip, forms-fail, forms-tagging-fail, 
-
-### identity-theft-kit.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
-- **Status**: error
-- File not found: crawled_files/wellsfargo.com/identity-theft-kit.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:33:37.002412+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### set-up-direct-deposit-CNS3519.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/checking/set-up-direct-deposit-CNS3519.pdf
-- **Status**: analysed
-- fonts:/NWWZYI+Arial-BoldMT, /PMXQAE+WellsFargoSans-Regular, /GJFJEW+ArialMT, /ANKZYI+WellsFargoSans-Italic, /BZSFMG+MICR12byBT-Regular, /IMJVGS+Arial-BoldMT, /KPENVD+TimesNewRoman, /KHKMIO+WellsFargoSans-SemiBold, /SBJDQY+WellsFargoSans-Bold, /YKGNWM+Webdings, /FXXDQY+WellsFargoSans-Italic
-
-### us_consumer_privacy_notice_english-0.pdf
-
-- **URL**: https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
-- **Status**: analysed
-- lists-warn, 
-
-### VA-Benefits-Participant-Guide-0.pdf
-
-- **URL**: https://www.benefits.va.gov/TAP/docs/VA-Benefits-Participant-Guide.pdf
-- **Status**: analysed
-- forms-fail, forms-tagging-fail, lists-warn, tables-fail, annotations-tagging-fail, 
-
-### VA-Benefits-Participant-Guide.pdf
-
-- **URL**: https://discover.va.gov/transition-programs/wp-content/uploads/sites/3/2025/02/VA-Benefits-Participant-Guide.pdf
-- **Status**: error
-- Analysis exceeded 120s per-file limit
-
-### WelcomeVA_Guide_print_version_final.pdf
-
-- **URL**: https://www.va.gov/WelcomeVA_Guide_print_version_final.pdf
-- **Status**: analysed
-- title, tagged, no bookmarks and more than 20 pages, annotations-untagged, 
-
-### vawelcomekit-consolidated-color.pdf
-
-- **URL**: https://www.va.gov/files/2025-06/vawelcomekit-consolidated-color.pdf
-- **Status**: analysed
-- alt-nested-fail, 
-
 ### 0129..PDF
 
 - **URL**: https://www.legis.state.pa.us/WU01/LI/LI/US/PDF/1992/0/0129..PDF
@@ -70915,3 +70773,93 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_1st.pdf
 - **Status**: analysed
 - title, tagged, lang, no bookmarks and more than 20 pages, 
+
+### 590921.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf
+- **Status**: analysed
+- fonts:/KAZIPZ+ArialMT, /QJBSVN+Arial-BoldMTforms-fail, forms-tagging-fail, 
+
+### 593931.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf
+- **Status**: analysed
+- fonts:/UNWILP+Arial-ItalicMT, /TXSSWH+Arial, /XCIVBJ+Arial-BoldItalicMT, /YROWPH+Arial-BoldMT, /EJBAVV+ArialMT, /YOYQIX+Arial-ItalicMTlists-warn, 
+
+### 595906.pdf
+
+- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf
+- **Status**: analysed
+- fonts:/ZXENJV+Arial-BoldMT, /KYRBHZ+ArialMT, /EXNMBL+Georgia
+
+### ADD-CA-EN.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/ADD-CA-EN.pdf
+- **Status**: analysed
+- fonts:/RSVTAQ+WellsFargoSans-Bold, /IUMWEI+WellsFargoSans-Display, /CGUSFT+TimesNewRoman, /YXJOUC+WellsFargoSans-Light, /IUMWEI+WellsFargoSans-Regular, /BUYBKW+WellsFargoSans-SemiBold
+
+### DMCA-notice.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/privacy-security/DMCA-notice.pdf
+- **Status**: analysed
+- fonts:/ADRKKN+Arial, /EZATGQ+ArialMT, /XATOEO+Arial
+
+### california.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/es/small-business/deposits/online-disclosures/addenda/california.pdf
+- **Status**: analysed
+- fonts:/QPMLII+WellsFargoSans-Regular, /IQNPAY+WellsFargoSans-Light, /DERIGC+TimesNewRoman, /XPAGCU+WellsFargoSans-Light, /ZNVNEQ+WellsFargoSans-SemiBold, /QPMLII+WellsFargoSans-Display, /QPMLII+WellsFargoSans-Bold
+
+### fetch-pdf-0.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013&subProductCode=ANY
+- **Status**: analysed
+- fonts:/LVCTKS+WellsFargoSans-Regular, /KRNNWU+WellsFargoSans-Regular, /JSDHIW+WellsFargoSans-Display, /EIQDQG+WellsFargoSans-Light, /FMAJEE+WellsFargoSans-Bold, /HPZVGA+WellsFargoSans-Bold, /CFMROK+WellsFargoSans-Light, /ACNFMO+WellsFargoSans-BoldItalic, /BAKYDQ+TimesNewRoman
+
+### fetch-pdf-1.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CCB2018C&subProductCode=ANY
+- **Status**: analysed
+- fonts:/SOBPUY+WellsFargoSans-Light, /MFZFOK+WellsFargoSans-Bold, /LBPZAM+Wingdings-Regular, /PYGQJE+WellsFargoSans-Regular, /RPMJGA+WellsFargoSans-Regular, /OIDRQG+WellsFargoSans-Bold, /BBVRHB+TimesNewRoman, /TSQVIW+WellsFargoSans-Light, /PMNXEE+WellsFargoSans-Display
+
+### fetch-pdf-2.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013SP&subProductCode=ANY
+- **Status**: analysed
+- fonts:/EQAPZK+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Light, /OSYXJQ+WellsFargoSans-Display
+
+### fetch-pdf.pdf
+
+- **URL**: https://www.wellsfargo.com/fetch-pdf?documentName=Account%20Addenda&subProductCode=ANY
+- **Status**: analysed
+- fonts:/OOFGNL+WellsFargoSans-Display, /AGEAZN+WellsFargoSans-SemiBold, /IFDRHX+WellsFargoSans-Bold, /TPEDCH+TimesNewRoman, /FQRERD+Calibri, /SCBZRD+WellsFargoSans-Regular, /CBFMBJ+WellsFargoSans-Light, /MBCPLP+Calibri-Bold, /ZZRULP+WellsFargoSans-Light
+
+### fw8ben.pdf
+
+- **URL**: https://www.irs.gov/pub/irs-pdf/fw8ben.pdf
+- **Status**: analysed
+- fonts:/CFUVYJ+HelveticaNeueLTStd-Roman, /CNSQYJ+UniversalStd-NewswithCommPi, /DWGBMH+HelveticaNeueLTStd-BlkCn, /AKTEWN+UniversalStd-NewswithCommPi, /ZQIDIP+HelveticaNeueLTStd-BdIt, /EAVHAF+AdobePiStd, /THGTCB+HelveticaNeueLTStd-Bd, /MCSDIP+ITCFranklinGothicStd-Demiforms-fail, forms-tagging-fail, 
+
+### fw9.pdf
+
+- **URL**: https://www.irs.gov/pub/irs-pdf/fw9.pdf
+- **Status**: analysed
+- fonts:/ZKUMQA+HelveticaNeueLTStd-BlkCn, /OKAJSW+HelveticaNeueLTStd-Roman, /MBEHQA+HelveticaNeueLTStd-Bd, /MCXSQA+ITCFranklinGothicStd-Demi, /FEOMWO+HelveticaNeueLTStd-It, /PVUZGU+HelveticaNeueLTStd-BdItheadings-skip, forms-fail, forms-tagging-fail, 
+
+### identity-theft-kit.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
+- **Status**: error
+- File not found: crawled_files/wellsfargo.com/identity-theft-kit.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:33:37.002412+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+
+### set-up-direct-deposit-CNS3519.pdf
+
+- **URL**: https://www.wellsfargo.com/assets/pdf/personal/checking/set-up-direct-deposit-CNS3519.pdf
+- **Status**: analysed
+- fonts:/NWWZYI+Arial-BoldMT, /PMXQAE+WellsFargoSans-Regular, /GJFJEW+ArialMT, /ANKZYI+WellsFargoSans-Italic, /BZSFMG+MICR12byBT-Regular, /IMJVGS+Arial-BoldMT, /KPENVD+TimesNewRoman, /KHKMIO+WellsFargoSans-SemiBold, /SBJDQY+WellsFargoSans-Bold, /YKGNWM+Webdings, /FXXDQY+WellsFargoSans-Italic
+
+### us_consumer_privacy_notice_english-0.pdf
+
+- **URL**: https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
+- **Status**: analysed
+- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
