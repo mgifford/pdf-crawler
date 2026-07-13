@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-13T16:53:34.962839+00:00
+Generated: 2026-07-13T17:37:05.262919+00:00
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-07-13T16:53:34.962839+00:00
 |--------|-------|
 | Total files tracked | 28860 |
 | Analysed | 6318 |
-| Pending analysis | 16025 |
-| Errors during analysis | 6517 |
+| Pending analysis | 16024 |
+| Errors during analysis | 6518 |
 | Accessible | 2008 |
 | Issues found | 4310 |
 | Totally inaccessible subset | 263 |
