@@ -29,6 +29,7 @@
     "analysed": 272,
     "accessible": 54,
     "analysis_engines": [
+      "bloom",
       "original"
     ],
     "verapdf": false,
