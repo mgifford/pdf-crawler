@@ -70313,6 +70313,12 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.718599+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
+### BP-PDR-2025.pdf
+
+- **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-PDR-2025.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.721961+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
 ### 7577Birth-certificates-and-source-documents-FAQ.pdf
 
 - **URL**: https://www.govt.nz/assets/Documents/Government-A-Z/7577Birth-certificates-and-source-documents-FAQ.pdf
