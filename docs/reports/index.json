@@ -23,9 +23,9 @@
     "date": "2026-07-13T17:37:05.262919+00:00",
     "site": "hud.gov",
     "crawl_url": "https://www.hud.gov",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29268316797",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29270387887",
     "issue_url": "",
-    "archive_file": "2026-07-13_17-37-05-262_hud.gov.html",
+    "archive_file": "2026-07-13_18-08-17-149_hud.gov.html",
     "total": 4105,
     "analysed": 0,
     "accessible": 0,
@@ -40,7 +40,7 @@
     "vp_error_files": 0
   },
   {
-    "date": "2026-07-13T16:53:34.962839+00:00",
+    "date": "2026-07-13T17:24:53.507746+00:00",
     "site": "hud.gov",
     "crawl_url": "https://www.hud.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29267524378",
