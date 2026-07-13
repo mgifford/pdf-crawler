@@ -1,6 +1,6 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-13T16:42:00.524059+00:00
+Generated: 2026-07-13T17:24:53.507746+00:00
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated: 2026-07-13T16:42:00.524059+00:00
 |--------|-------|
 | Total files tracked | 28860 |
 | Analysed | 6318 |
-| Pending analysis | 16025 |
-| Errors during analysis | 6517 |
+| Pending analysis | 15996 |
+| Errors during analysis | 6546 |
 | Accessible | 2008 |
 | Issues found | 4310 |
 | Totally inaccessible subset | 263 |
@@ -40996,6 +40996,174 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.hud.gov/sites/documents/11-16hsgn.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.115728+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-16ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-16ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.116435+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-17ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-17ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.117446+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-18hsgn.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-18hsgn.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.118911+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-18ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-18ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.119519+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-19hsgn.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-19hsgn.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.120271+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-19ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-19ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.120877+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-20ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-20ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.121535+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-23ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-23ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.122231+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-24ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-24ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.122908+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-25ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-25ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.123586+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-26ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-26ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.124256+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-28hsgn.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-28hsgn.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.124958+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-28ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-28ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.125691+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-29ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-29ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.126512+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-29mlatch1.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-29mlatch1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.127227+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-29mlatch2.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-29mlatch2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.128003+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-30ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-30ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.128682+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-31ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-31ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.129358+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-33hsgn.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-33hsgn.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.130021+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-33ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-33ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.130629+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-34ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-34ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.131369+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-35ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-35ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.132145+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-36ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-36ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.132820+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-37ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-37ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.133543+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-38ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-38ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.134350+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-39ml.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-39ml.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.135238+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-39mlatch1.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-39mlatch1.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.136103+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### 11-39mlatch2.pdf
+
+- **URL**: https://www.hud.gov/sites/documents/11-39mlatch2.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.137979+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### syllabus_NOTaccessible.pdf
 
