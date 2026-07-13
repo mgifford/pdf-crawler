@@ -25,27 +25,7 @@
     "crawl_url": "https://www.cc-coeurdegaronne.fr",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29270187331",
     "issue_url": "",
-    "archive_file": "2026-07-13_18-05-48-768_cc-coeurdegaronne.fr.html",
-    "total": 562,
-    "analysed": 89,
-    "accessible": 0,
-    "analysis_engines": [
-      "bloom",
-      "original"
-    ],
-    "verapdf": false,
-    "vp_checked_files": 0,
-    "vp_pass_files": 0,
-    "vp_fail_files": 0,
-    "vp_error_files": 0
-  },
-  {
-    "date": "2026-07-13T17:21:56.831421+00:00",
-    "site": "cc-coeurdegaronne.fr",
-    "crawl_url": "https://www.cc-coeurdegaronne.fr",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29267297538",
-    "issue_url": "",
-    "archive_file": "2026-07-13_18-02-37-398_pa.gov.html",
+    "archive_file": "2026-07-13_18-46-12-643_pa.gov.html",
     "total": 732,
     "analysed": 272,
     "accessible": 54,
@@ -59,12 +39,12 @@
     "vp_error_files": 0
   },
   {
-    "date": "2026-07-13T17:19:07.077084+00:00",
+    "date": "2026-07-13T18:02:37.398344+00:00",
     "site": "pa.gov",
     "crawl_url": "https://www.pa.gov/",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29267113138",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29270001597",
     "issue_url": "",
-    "archive_file": "2026-07-13_17-37-05-262_hud.gov.html",
+    "archive_file": "2026-07-13_18-20-47-177_hud.gov.html",
     "total": 4105,
     "analysed": 0,
     "accessible": 0,
@@ -79,7 +59,27 @@
     "vp_error_files": 0
   },
   {
-    "date": "2026-07-13T16:53:34.962839+00:00",
+    "date": "2026-07-13T17:37:05.262919+00:00",
+    "site": "hud.gov",
+    "crawl_url": "https://www.hud.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29270387887",
+    "issue_url": "",
+    "archive_file": "2026-07-13_18-08-17-149_hud.gov.html",
+    "total": 4105,
+    "analysed": 0,
+    "accessible": 0,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
+    "date": "2026-07-13T17:24:53.507746+00:00",
     "site": "hud.gov",
     "crawl_url": "https://www.hud.gov",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29267524378",
