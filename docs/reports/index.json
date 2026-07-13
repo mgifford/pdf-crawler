@@ -24,11 +24,12 @@
     "crawl_url": "https://www.pa.gov/",
     "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29264130615",
     "issue_url": "",
-    "archive_file": "2026-07-13_16-35-52-268_pa.gov.html",
-    "total": 732,
-    "analysed": 272,
-    "accessible": 54,
+    "archive_file": "2026-07-13_16-53-34-962_hud.gov.html",
+    "total": 4105,
+    "analysed": 0,
+    "accessible": 0,
     "analysis_engines": [
+      "bloom",
       "original"
     ],
     "verapdf": false,
@@ -38,15 +39,35 @@
     "vp_error_files": 0
   },
   {
-    "date": "2026-07-13T15:52:57.916207+00:00",
-    "site": "pa.gov",
-    "crawl_url": "https://www.pa.gov/",
-    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29261106903",
-    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/113#issuecomment-4959876190",
-    "archive_file": "2026-07-13_15-52-57-916_pa.gov.html",
-    "total": 732,
-    "analysed": 272,
-    "accessible": 54,
+    "date": "2026-07-13T16:09:51.643591+00:00",
+    "site": "hud.gov",
+    "crawl_url": "https://www.hud.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29264535244",
+    "issue_url": "",
+    "archive_file": "2026-07-13_16-42-00-524_hud.gov.html",
+    "total": 4105,
+    "analysed": 0,
+    "accessible": 0,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
+    "date": "2026-07-13T15:58:26.426194+00:00",
+    "site": "hud.gov",
+    "crawl_url": "https://www.hud.gov",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29261485295",
+    "issue_url": "https://github.com/mgifford/pdf-crawler/issues/87#issuecomment-4959933172",
+    "archive_file": "2026-07-13_15-58-26-426_hud.gov.html",
+    "total": 3367,
+    "analysed": 0,
+    "accessible": 0,
     "analysis_engines": [
       "bloom",
       "original"
