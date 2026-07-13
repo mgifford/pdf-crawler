@@ -4074,7 +4074,6 @@ Generated: 2026-07-13T16:09:51.643591+00:00
 | [1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf](https://www.energy.gov/sites/default/files/2025-06/1.1%20Pre%20-%20Counseling%20Intake%20Form%20Rev%2011%20FEB%202025.pdf) | energy.gov | 2025-03-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 1217 | 1 |
 | [2024_Impact%20Flyer%20-%20website%20version.pdf](https://www.energy.gov/sites/default/files/2025-05/2024_Impact%20Flyer%20-%20website%20version.pdf) | energy.gov | 2025-03-31 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 537 | 10 |
 | [DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf](https://www.energy.gov/sites/default/files/2025-11/DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf) | energy.gov | 2025-10-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 73 | — | 18302 | 58 |
-| [DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf](https://www.energy.gov/sites/default/files/2025-02/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf) | energy.gov | 2025-02-28 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 1 | — | — | — |
 | [MSIPP%20FY2022%20%20Impact_2.pdf](https://www.energy.gov/sites/default/files/2023-06/MSIPP%20FY2022%20%20Impact_2.pdf) | energy.gov | 2023-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 923 | 3 |
 | [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | 22 | — | — | — |
 | [PIA%20Guide%20Aug%202023_0.pdf](https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf) | energy.gov | 2023-08-31 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | ❌ Fail | 37 | — | — | — |
@@ -5885,8 +5884,6 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [11514-a-quick-look-at-medicare-2.pdf](https://www.medicare.gov/publications/11514-a-quick-look-at-medicare-2.pdf) | medicare.gov | 2020-07-21 | A Quick Look at Medicare | CMS | {'Original Medicare', 'Medicare Advantage', 'resources', 'help', 'Medicare basics'} | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 611 | 2 |
 | [11514-s-a-quick-look-medicare.pdf](https://www.medicare.gov/publications/11514-s-a-quick-look-medicare.pdf) | medicare.gov | 2020-07-30 | Resumen Corto Sobre Medicare | {'CMS'} | {'información básica', 'Medicare Advantage', 'ayuda', 'recursos', 'Medicare Original'} | Medicare Original, Medicare Advantage, recursos, ayuda, información básica | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 4 | — | 686 | 2 |
 | [11525-medicare-appeals.pdf](https://www.medicare.gov/publications/11525-medicare-appeals.pdf) | medicare.gov | 2026-04-21 | Medicare Appeals | Centers for Medicare and Medicaid Services | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 48 | — | 14904 | 8 |
-| [11579-medicare-costs.pdf](https://www.medicare.gov/publications/11579-medicare-costs.pdf) | medicare.gov | 2025-12-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 4 | — | — | — |
-| [summarynoticeenvelope.pdf](https://www.medicare.gov/publications/summarynoticeenvelope.pdf) | medicare.gov | 2024-04-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
 | [BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf](https://www.kfw.de/PDF/Investor-Relations/PDF-Dokumente-Green-Bonds/Impact-and-Allocation-Reporting/BF-KfW-Green-Bonds-Reporting-2021_2022-A4-240909-02_CR_V4.pdf) | kfw.de | 2024-10-17 | Green Bonds – Made by KfW: Impact achieved by KfW’s green bond issuances 2021 & 2022 (September 2024) | KfW Group | Impact achieved by KfW’s green bond issuances 2021 & 2022 | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ❌ Fail | 19 | — | 11677 | 23 |
 | [KfW-FInancial-Report-2023.pdf](https://www.kfw.de/PDF/Download-Center/Finanzpublikationen/PDF-Dokumente-Berichte-etc/3_Finanzberichte/KfW-FInancial-Report-2023.pdf) | kfw.de | 2024-06-03 | Financial Report 2023 | {'KfW Bankengruppe'} | Shaping transformation | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 224 | — | 89690 | 26 |
 | [KfW-Gesetz-DE-EN.pdf](https://www.kfw.de/PDF/Download-Center/Law-Concerning-KfW/KfW-Gesetz-DE-EN.pdf) | kfw.de | 2021-01-27 | Law Concerning Kreditanstalt für Wiederaufbau | KfW | Law Concerning Kreditanstalt für Wiederaufbau | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | 12 | — | 4466 | 0 |
@@ -6498,20 +6495,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 | [CDR_2021.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2021.pdf) | pa.gov | 2022-10-16 | Microsoft Word - PSP Year 1 Report Jan-Dec 2021 FINAL reissued 10172022 | jennm | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 27 | 1.3 MB | 10289 | 4 |
 | [CDR_2022.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022.pdf) | pa.gov | 2023-05-23 | Pennsylvania State Police Traffic Stop Study: 2022 Annual Report | Jennifer Cherkauskas | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | 169 | 2.7 MB | 54965 | 2 |
 | [CDR_2022_1st.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_1st.pdf) | pa.gov | 2022-10-06 | Microsoft Word - PSP Year 2 1st Quarterly Report FINAL | jennm | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 56 | 2.6 MB | 17301 | 4 |
-| [590921.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2025-11-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 731.7 KB | — | — |
-| [593931.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2023-08-08 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | Warn | NotApplicable | ❌ Fail | 3 | 7.9 MB | — | — |
-| [595906.pdf](https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf) | wellsfargo.com *(ext: wellsfargoadvisors.com)* | 2022-01-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 181.8 KB | — | — |
-| [ADD-CA-EN.pdf](https://www.wellsfargo.com/assets/pdf/small-business/ADD-CA-EN.pdf) | wellsfargo.com | 2026-05-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 139.6 KB | — | — |
-| [DMCA-notice.pdf](https://www.wellsfargo.com/assets/pdf/privacy-security/DMCA-notice.pdf) | wellsfargo.com | 2021-09-20 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 173.5 KB | — | — |
-| [california.pdf](https://www.wellsfargo.com/assets/pdf/es/small-business/deposits/online-disclosures/addenda/california.pdf) | wellsfargo.com | 2026-05-18 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 8 | 198.8 KB | — | — |
-| [fetch-pdf-0.pdf](https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013&subProductCode=ANY) | wellsfargo.com | 2025-09-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 12 | 267.3 KB | — | — |
-| [fetch-pdf-1.pdf](https://www.wellsfargo.com/fetch-pdf?formNumber=CCB2018C&subProductCode=ANY) | wellsfargo.com | 2025-09-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 44 | 528.1 KB | — | — |
-| [fetch-pdf-2.pdf](https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013SP&subProductCode=ANY) | wellsfargo.com | 2025-09-17 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 16 | 209.7 KB | — | — |
-| [fetch-pdf.pdf](https://www.wellsfargo.com/fetch-pdf?documentName=Account%20Addenda&subProductCode=ANY) | wellsfargo.com | 2026-06-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 5 | 189.7 KB | — | — |
-| [fw8ben.pdf](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) | wellsfargo.com *(ext: irs.gov)* | 2021-09-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 1 | 66.1 KB | — | — |
-| [fw9.pdf](https://www.irs.gov/pub/irs-pdf/fw9.pdf) | wellsfargo.com *(ext: irs.gov)* | 2024-03-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | 6 | 137.5 KB | — | — |
-| [set-up-direct-deposit-CNS3519.pdf](https://www.wellsfargo.com/assets/pdf/personal/checking/set-up-direct-deposit-CNS3519.pdf) | wellsfargo.com | 2024-09-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 1 | 177.8 KB | — | — |
-| [us_consumer_privacy_notice_english-0.pdf](https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf) | wellsfargo.com *(ext: www08.wellsfargomedia.com)* | 2025-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 3 | 138.3 KB | — | — |
 | [New-Zealand-Traveller-Declaration-Easy-Read-22-07-2024.pdf](https://www.travellerdeclaration.govt.nz/assets/pdfs/New-Zealand-Traveller-Declaration-Easy-Read-22-07-2024.pdf) | govt.nz | 2024-07-22 | Microsoft Word - Customs - NZ Traveller Declaration - Easy Read - 22-07-2024 EDITED | KathrynParrish | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 32 | 2.3 MB | 1873 | 153 |
 | [Traveller-factsheet-English.pdf](https://www.travellerdeclaration.govt.nz/assets/pdfs/Traveller-factsheet-English.pdf) | govt.nz | 2023-07-11 | Traveller factsheet - English | {'New Zealand Traveller Declaration'} | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 258.6 KB | 643 | 0 |
 | [building-code-handbook-3rd-edition-amendment-13.pdf](https://www.building.govt.nz/assets/Uploads/building-code-compliance/handbooks/building-code-handbook/building-code-handbook-3rd-edition-amendment-13.pdf) | govt.nz | 2014-03-05 | Building Code Handbook | Third edition | Amendment 13 | {'Ministry of Business, Innovation and Employment'} | New Zealand Building Code | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 226 | 1.6 MB | 89904 | 0 |
@@ -22256,12 +22239,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/19_fy2022.pdf?VersionId=Pvr2IemSyQKv3ytydFeKBG_ugunZWHkM (crawled 1 day(s) ago at 2026-03-10T01:18:24.369355+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### 2015-2016-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2015-2016-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-10/2021-Merit-Review-Survey-Report-Final_508.pdf?VersionId=pJIAJXpdy5tnFX1ONfQHhcKobGM3UYQn
@@ -22466,12 +22443,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Daniel-Reed-May-2024-NSB-testimony.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.451566+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### Dr.SchragTestimony508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-04/Dr.SchragTestimony508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### EAC-Data-Snapshot-Fairness-by-Experience-508.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/EAC-Data-Snapshot-Fairness-by-Experience-508.pdf
@@ -22502,12 +22473,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/ED-Supp-Template.docx (crawled 1 day(s) ago at 2026-03-10T01:18:24.455496+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-04/EPSCoR%20Base%20Period%20Final%20Report%20-%20%28508%20Compliant%29_1.pdf?VersionId=IKsxGiL7ThivnhGSx1toUnIeB7ajtPCX
@@ -22537,12 +22502,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Ellen-Ochoa-April-2021-NSB-testimony.pdf
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Ellen-Ochoa-April-2021-NSB-testimony.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.527868+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### Envisioning-The-Future-of-EPSCoR-Report.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Envisioning-The-Future-of-EPSCoR-Report.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### Evaluation%20of%20the%20National%20Sciece%20Foundation%27s%20International%20Research%20Experiences%20for%20Students%20%28IRES%29%20Program.pdf?VersionId=vuL.tNYzsDFY9SfTn9vSrW_GkIZ9CkUS
 
@@ -22681,18 +22640,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Grant%20General%20Conditions%20%28GC-1%29%20-%20Oct%205%202020-r.pdf?VersionId=MyQb_wJrHvbkS5yJCotXjlO7z2WmmOBi (crawled 1 day(s) ago at 2026-03-10T01:18:24.587007+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### HAC-CJS-Panchanathan-FY23testimony_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/HAC-CJS-Panchanathan-FY23testimony_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-08/HSSTNSFDOEfinaltestimony.pdf?VersionId=IXsTXFR153FXx5Wolotmu1uO5g0PGDEY
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.588116+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### IISOfficehours-for-phds-postdocs_Complaint.pptx?VersionId=18cBBnY_z9wHGwULoNFPnzD7d2lfFyTL
 
@@ -23042,210 +22989,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/NAIRR-2-Year-Progress-Update.pdf?VersionId=rPBRmrQGywlcbucdkNLSHgOWcYlUV1ZT (crawled 1 day(s) ago at 2026-03-10T01:18:24.685437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-01132023.pdf?VersionId=QRs2PXwxSsD6ETYGRc6A9Sj7IC04lEse
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.685902+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-02162022.pdf?VersionId=Hl00a.7psq5ac4p_ZqCOTMvsujQk3ToS
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686447+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-04082021.pdf?VersionId=IstCcDCkmF6ynpOCbsnhcZ3TMQfFle0b
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.686973+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-05202022.pdf?VersionId=BKcoxtfjQHwZ3UkfxmiNwQlDOEMFfvGa
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687427+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07252022.pdf?VersionId=NRuKbZC4em_DoE7zi9tSxA_R_rh3WeHo
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.687906+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-07282021.pdf?VersionId=Wa1i7NGNwuSBwctDgCLvnATPUgDGxK3I
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.688520+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-08302021.pdf?VersionId=ehkbPIZB6Uac.K0JCODfuzLB.4FOWnOw
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689060+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-09122022.pdf?VersionId=TLxrwxABnvO12Eh6KgpfkD02.gUNZzzP
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689547+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10212022.pdf?VersionId=GuQRYKe5VSHTrOYbh.uCoxxt6wLNVKpF
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.689998+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-10252021.pdf?VersionId=8q0UPs4QgcqfXLvfaWCKZ8EaUOR0IGiw
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.690550+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Agenda-12132021.pdf?VersionId=7jSHuY6tft1hv1yC0qR6PJcIHMjbZ8Sv
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.691078+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Interim-Report-2022.pdf?VersionId=.yhXZ_u9o_213S2qQHLt6BMTtmhQWoJe
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.694506+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-01132023.pdf?VersionId=Qnt71pnkKDC21R0.RKgEHOe4jXOUGQFJ
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695022+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-02162022.pdf?VersionId=AUZPhcSfklfqn84b4UNWg6t67OfU9kPD
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.695571+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-04082022.pdf?VersionId=ODjOGcm99EE6rlcUNZlYw1wveWtdBd89
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696111+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-05202022.pdf?VersionId=EmB3i4KtNMWw7lC9fqrMhGb_l42QsyKh
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.696616+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07252022.pdf?VersionId=l09_CKba6WQDYs48AszVuByN1iuDj9LI
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697144+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-07282021.pdf?VersionId=lAyw.PkRiEV_CVsaObfnibEN5_FOdcVx
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.697636+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-08302021.pdf?VersionId=D47RXei6ZIMK21NWv717PBV3sSdX6qCS
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698146+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-09122022.pdf?VersionId=wLRTZS5KIKQYm9NkJQtfpQwrgkH6Qj0q
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.698685+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10212022.pdf?VersionId=0glvbx4zIY4nHIQEip3MQtcor33q729O
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699178+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-10252021.pdf?VersionId=VP.RyaOT3G8ZNPOw8RxM94wmbu0Ou8_s
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.699675+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Meeting-Minutes-12132021.pdf?VersionId=m55H9iR0ci0J67jz6pYzOgSYG5kWIZcQ
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.700253+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-01132023.pdf?VersionId=uxuCEielRZm5BVGMnb3uJ0x8XQQZ4iOl
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.701672+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-02162022.pdf?VersionId=9jZHOC6wBLQWdYjy19iKwVwuhGSYwOgY
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.704256+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-04082022.pdf?VersionId=sRX7kwH5x2FKQIvVAUAP5DPcXkl4b9wu
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.706506+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-05202022.pdf?VersionId=jKV9UNLLBw6XmKD0YPdTMpqKks21VitK
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.708253+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07252022.pdf?VersionId=fVrTn30CwdAKgVx2n3vypOfYF5kDXsXx
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.714772+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-07282021.pdf?VersionId=oe76jymBnRU4.h6gu3mAkfgQ3OXfhsAZ
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.736040+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-08302021.pdf?VersionId=Bgfg.J4.5UvFm1xQ0x4Ls6jng.Id9PGe
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.737963+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-09122022.pdf?VersionId=gqmPfBP9xbfUQEw0m5H7M5GIyVmotBfL
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.743927+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10212022.pdf?VersionId=1rLJCtjsm3IPli.O6cSYI2QhIGIrWK35
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.747102+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-10252021.pdf?VersionId=pO2JQc1Ze.AyJT.J7Nx3kINcCh_1P.Fs
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.789592+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NAIRR-TF-Presentations-12132021.pdf?VersionId=LI.TE9oXWVyVoCCGBmS6N84vUOkgi9HO
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:24.793431+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-09/NASEM-Report.pdf?VersionId=rzLokBbl9Yw2vscRhztc6ezG94SgWI5c
@@ -23438,12 +23181,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/NSF-international-research-terms-conditions-20210104-r.pdf?VersionId=kl4eWweyPgPYp16Vn7W4CMwPBTCWq3b2 (crawled 1 day(s) ago at 2026-03-10T01:18:24.924992+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### NSF-scientific-integrity-policy.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-scientific-integrity-policy.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### NSFAnti-HarassmentES_0.pdf?VersionId=OW7tYGjLTAzzm0GKDUxFMbBC5_Rr9PLQ
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2023-04/NSFAnti-HarassmentES_0.pdf?VersionId=OW7tYGjLTAzzm0GKDUxFMbBC5_Rr9PLQ
@@ -23570,12 +23307,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/NSF_act_1950_legislation.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:24.966818+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### National-AI-Research-Resource-Task-Force-Charter-2021.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/National-AI-Research-Resource-Task-Force-Charter-2021.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Northeastern-University-OIG-Report-25-1-005.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Northeastern-University-OIG-Report-25-1-005.pdf
@@ -23636,12 +23367,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Rough-Transcript-CICI.pdf?VersionId=pYmFvazQsyajPitFMB.gkJZCHZ_FZ4lj (crawled 1 day(s) ago at 2026-03-10T01:18:24.973630+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-06/SAC%20CJS%20NSF%20FY23%20Testimony%20FINAL.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### SBIR-STTR_Revised_Report_Cover.pdf
 
 - **URL**: https://seedfund.nsf.gov/assets/files/awardees/SBIR-STTR_Revised_Report_Cover.pdf
@@ -23689,12 +23414,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/Semiannual_Report_to_Congress-Fall2025.pdf
 - **Status**: error
 - File not found: crawled_files/nsf.gov/Semiannual_Report_to_Congress-Fall2025.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.046574+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### TIP%20Impact%20Infographic%20508%20v2.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/TIP%20Impact%20Infographic%20508%20v2.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### USAP-SAHPR-Report.pdf
 
@@ -23755,12 +23474,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/alertmemo_bfaresponse213.pdf
 - **Status**: error
 - File not found: crawled_files/nsf.gov/alertmemo_bfaresponse213.pdf (crawled 1 day(s) ago at 2026-03-10T01:18:25.114182+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### appendix-a-r.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/appendix-a-r.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### audit-rep-201004-unc-chapelhill.pdf
 
@@ -25688,12 +25401,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf15089.pdf?VersionId=G4eS8JPUx1gf.Q8jytI16KO5juyTIv7i (crawled 1 day(s) ago at 2026-03-10T01:18:25.471785+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
-
-- **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pappguide/nsf16001/nsf16_1.pdf?VersionId=RglAArfAx.LGcOalSpQqs_L5frdg0qre
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.483548+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
 
 - **URL**: https://nsf-gov-resources.nsf.gov/pubs/2017/nsf17066/nsf17066.pdf?VersionId=o9536BDMp0zSGUv7RJjt1461GCNXMfGo
@@ -25766,12 +25473,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf21555.pdf?VersionId=wxUtybPFk8fe1q769DOBj5ULnm0eF6Kn (crawled 1 day(s) ago at 2026-03-10T01:18:25.542508+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
-
-- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2022/nsf22068/nsf22068.pdf?VersionId=QeimX_s5IrCTtRsHVInSet1iQjahFwNG
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-10T01:18:25.572460+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### nsf22528.pdf?VersionId=TlMYEXeRibcdxKcml92eKMIJ_0JHvJhn
 
 - **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22528/nsf22528.pdf?VersionId=TlMYEXeRibcdxKcml92eKMIJ_0JHvJhn
@@ -25783,12 +25484,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/solicitations/pubs/2022/nsf22529/nsf22529.pdf?VersionId=kDfiaXqzubLX2trSPD91kxcD45I4STfn
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf22529.pdf?VersionId=kDfiaXqzubLX2trSPD91kxcD45I4STfn (crawled 1 day(s) ago at 2026-03-10T01:18:25.575759+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### nsf23104.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/pubs/2023/nsf23104/nsf23104.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### nsf23534.pdf?VersionId=Irmgt52vhpKDNO.Cn1GcYVamTdzCUxED
 
@@ -25808,12 +25503,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf23629.pdf?VersionId=eAPkrNKjQpa91G3P74Dh.1xgzXhydvze (crawled 1 day(s) ago at 2026-03-10T01:18:25.587039+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### nsf23_1.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### nsf23_1.pdf?VersionId=VQHMy1XFClNhULRMabdaeCqYvbgykldV
 
 - **URL**: https://nsf-gov-resources.nsf.gov/2022-10/nsf23_1.pdf?VersionId=VQHMy1XFClNhULRMabdaeCqYvbgykldV
@@ -25831,12 +25520,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/nsf24588.pdf?VersionId=gcaK8aTD1T0Gg7WVrIRRez1GDQlf70lg
 - **Status**: error
 - File not found: crawled_files/nsf.gov/nsf24588.pdf?VersionId=gcaK8aTD1T0Gg7WVrIRRez1GDQlf70lg (crawled 1 day(s) ago at 2026-03-10T01:18:25.601620+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### nsf24_1.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/nsf24_1.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### nsf26302-tab001.pdf
 
@@ -26263,12 +25946,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/pubs/policydocs/pnag/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_
 - **Status**: error
 - File not found: crawled_files/nsf.gov/pnag171.pdf?VersionId=fKt7WYIWedO5SffTDuhcCYNh0TpmX4t_ (crawled 1 day(s) ago at 2026-03-10T01:18:25.660999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### polar-coc-r.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/polar-coc-r.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### reportingrequirements.pdf
 
@@ -29660,23 +29337,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### 2023-open-enrollment-report-infographic.pdf
-
-- **URL**: https://www.cms.gov/marketplace/outreach-and-education/2023-open-enrollment-report-infographic.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 303d.pdf
 
 - **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/303d.pdf
 - **Status**: analysed
 - title, tagged, lang, 
-
-### 5-things-about-svi.pdf
-
-- **URL**: https://www.cms.gov/marketplace/technical-assistance-resources/5-things-about-svi.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### 508_cms-10379-rate-review-supporting-statement.pdf
 
@@ -29864,12 +29529,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### ehb-grant-external-faq508.pdf
-
-- **URL**: https://www.cms.gov/files/document/ehb-grant-external-faq508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### err-determination-and-status-questions-5-20-14.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/err-determination-and-status-questions-5-20-14.pdf
@@ -30038,18 +29697,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### hospice-certifying-enrollment-faqs.pdf
-
-- **URL**: https://www.cms.gov/files/document/hospice-certifying-enrollment-faqs.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### hospital-appeals-provider-listing.pdf
-
-- **URL**: https://www.cms.gov/regulations-and-guidance/legislation/foia/downloads/hospital-appeals-provider-listing.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### ignagni.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/files/downloads/dwnlds/ignagni.pdf
@@ -30109,12 +29756,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cms.gov/cciio/resources/forms-reports-and-other-resources/downloads/patients-bill-of-rights09232011a.pdf
 - **Status**: analysed
 - title, 
-
-### pre-call-application-ecp-grant-final.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/pre-call-application-ecp-grant-final.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### r12238fm.pdf
 
@@ -30866,12 +30507,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
 
-### report-life-changes-postcard-spanish.pdf
-
-- **URL**: https://www.cms.gov/marketplace/outreach-and-education/report-life-changes-postcard-spanish.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### riskadjustment_whitepaper_web.pdf
 
 - **URL**: https://www.cms.gov/cciio/resources/files/downloads/riskadjustment_whitepaper_web.pdf
@@ -31177,24 +30812,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/No-FEAR-Act-Data-FY2020-Q2.pdf?VersionId=ZBDvoDkw9sBs9hJTTTJJSRl767h9Bbpt
 - **Status**: analysed
 - title, 
-
-### PQ-Guidelines-Current-13-March-2025.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/PQ-Guidelines-Current-13-March-2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### SOH_POL_2000.10_VOL2.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/SOH_POL_2000.10_VOL2.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-06/TIP_I-CorpsReport_2023_Final_6.21.2023.508.pdf?VersionId=7hktpt_12oxeM2sHpOrTR6uG3mm6_DMk
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### appendix-a-r.pdf
 
@@ -41000,12 +40617,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.104824+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### 10_Steps_Bringing_Homeownership.pdf
-
-- **URL**: https://www.hud.gov/sites/dfiles/PIH/documents/10_Steps_Bringing_Homeownership.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-12T16:57:39.105822+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### 11-01ml.pdf
 
 - **URL**: https://www.hud.gov/sites/documents/11-01ml.pdf
@@ -47594,12 +47205,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### Final-Phase1-ESA-BarttonTiffany-Feb.8.2018.pdf
-
-- **URL**: https://www.hamilton.ca/sites/default/files/2024-12/Final-Phase1-ESA-BarttonTiffany-Feb.8.2018.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf
 
 - **URL**: https://www.hamilton.ca/sites/default/files/2025-09/Notice-of-Compliance-Dundas-Transfer-Station-Scale-House.pdf
@@ -49274,96 +48879,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/pa.gov/york%20nhios%20town%20hall%20flyer.pdf (crawled 0.2 day(s) ago at 2026-03-16T16:41:14.978353+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### 1995-1996-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/1995-1996-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 1997-1998-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/1997-1998-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 1999-2000-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/1999-2000-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2001-2002-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2001-2002-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2003-2004-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2003-2004-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2005-2006-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2005-2006-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2007-2008-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2007-2008-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2009-2010-ceose-biennial-report-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/2009-2010-ceose-biennial-report-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2011-2012-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2011-2012-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2013-2014-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2013-2014-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2017-2018-ceose-biennial-report-508_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2017-2018-ceose-biennial-report-508_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2019-2020-ceose-biennial-report-508_1.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-03/2019-2020-ceose-biennial-report-508_1.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2023.04.18-Panchanathan.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.18-Panchanathan.pdf?VersionId=bqXPI_W_7KKX_BA719VbZqMsQJudWoqZ
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2023.04.19-Panchanathan.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.19-Panchanathan.pdf?VersionId=tJDqtAg7mbtbVNSIM1H8RHM4hRFEH7Sc
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 2023.04.26-Panchanathan.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-04/2023.04.26-Panchanathan.pdf?VersionId=eBnztrtMSd9TTsdAR2tNR6kiJpL2GE1j
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 2024-indicators-rollout-slides.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/2024-indicators-rollout-slides.pdf
@@ -49424,12 +48939,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.837569+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### DFM-PABGrantFAQ-r_0.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ-r_0.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### DFM-PABGrantFAQ.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/DFM-PABGrantFAQ.pdf?VersionId=zLyGdO2m4vigGuM4vn0GOvih5TY_N3fm
@@ -49441,78 +48950,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/DFM_PABNonGrantFAQ.pdf?VersionId=vFBJGErNh3pu9cRDue8DelRuOG.a.ACl
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.847403+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/DRL_FY26_Funding_%20Opps_Webinar_Sep_4_2025.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Dr-Jennifer-Mercer-Testimony.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Jennifer-Mercer-Testimony.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Dr-Saul-Gonzalez-Testimony.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Dr-Saul-Gonzalez-Testimony.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### FOIA-2025-Q3.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q3.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### FOIA-2025-Q4.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-2025-Q4.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### FOIA-NSF-2025-Q2.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/FOIA-NSF-2025-Q2.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Factsheet_MajorMultiuserFacilities.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_MajorMultiuserFacilities.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Factsheet_NSFAtAGlance.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/Factsheet_NSFAtAGlance.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Future-of-NSF-EPSCoR-Report-Handout-508.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2022-08/Future-of-NSF-EPSCoR-Report-Handout-508.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### HSST%20NSF%20Research%20Security.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST%20NSF%20Research%20Security.pdf?VersionId=24Tt_EGAGCWnTKBS4M3B5WAP4dn4fgpM
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### HSST-NSF-AI.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/HSST-NSF-AI.pdf?VersionId=gFmwAXBtlyi2h6ZBEEDCOsVodVDheSB2
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### House-Oversight-Telework-Hearing-Testimony-NSF.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/House-Oversight-Telework-Hearing-Testimony-NSF.pdf?VersionId=L_RzMRWzqB_SyxHnoSS9iEhQxDwtFZ40
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### Indicators-ALABAMA.pdf
 
@@ -49532,41 +48969,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.974452+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### NSF%20FY25%20Written%20Testimony-CLEARED.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-CLEARED.pdf?VersionId=WVkvVmvimYP8r80b4cfoXtua57DIi6LC
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20FY25%20Written%20Testimony-SenateCJS-CLEARED.pdf?VersionId=IOXy7dVBqD_IE8SIX_JXyRZUvoZZ99TC
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF%20HSST%20NWIRP-NEHRP%20testimony-CLEARED.pdf?VersionId=WeGurDj3zPXT_MXAinMIMaJGyt1SWx3X
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### NSF-22-586-CAREER-Program-2025-Webinars.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-22-586-CAREER-Program-2025-Webinars.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:42.997045+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### NSF-FOIA-Raw-Data-FY2021-r.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF-FOIA-Raw-Data-FY2021-r.pdf?VersionId=L_SFeppi9o1YWWbSqhLhnbYVC5T8RBLi
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### NSF_Chief_FOIA_Officers_Report_2026.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/NSF_Chief_FOIA_Officers_Report_2026.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### NSF_New%20Proposer_Proposal%20Submission%20Supplementary%20Guidance_NOTOC_20240320.pdf
 
@@ -49640,12 +49047,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.168760+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### dr-rebecca-keiser-testimony.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/files/dr-rebecca-keiser-testimony.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### foia-log-2009.pdf
 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2009.pdf?VersionId=hA3_.8iId4NhmEPfOWWZpDbuZBEgjvmf
@@ -49711,12 +49112,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://nsf-gov-resources.nsf.gov/files/foia-log-2019-r_0.pdf?VersionId=wZtMKRHXNdYAX15QlbhHU6a4GcsyYYq.
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-16T17:03:43.260963+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### hon-panchanathan-10-2023.pdf
-
-- **URL**: https://nsf-gov-resources.nsf.gov/2023-11/hon-panchanathan-10-2023.pdf?VersionId=ptY9eFD4CMGWZktorTwJfGYweiqXf3S7
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### jan2024-r.pdf
 
@@ -50858,18 +50253,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, tagged, lang, 
 
-### grants-to-states-added-flexibility-2018.pdf
-
-- **URL**: https://www.cms.gov/cciio/resources/funding-opportunities/downloads/grants-to-states-added-flexibility-2018.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### innovators-guide-master-7-23-15.pdf
-
-- **URL**: https://www.cms.gov/medicare/coverage/councilontechinnov/downloads/innovators-guide-master-7-23-15.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### january_2008_list_of_drugs_supplied_under_the_cap.pdf
 
 - **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-part-b-drugs/competitiveacquisforbios/downloads/january_2008_list_of_drugs_supplied_under_the_cap.pdf
@@ -50918,12 +50301,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### qso-22-05-hospitals.pdf
-
-- **URL**: https://www.cms.gov/files/document/qso-22-05-hospitals.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### r12590ncd.pdf
 
 - **URL**: https://www.cms.gov/files/document/r12590ncd.pdf
@@ -50941,12 +50318,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cms.gov/regulations-and-guidance/guidance/transmittals/downloads/dwnlds/r866cppdf
 - **Status**: analysed
 - title, tagged, lang, 
-
-### report-to-congress-september-2015.pdf
-
-- **URL**: https://www.cms.gov/medicare/medicare-fee-for-service-payment/ambulancefeeschedule/downloads/report-to-congress-september-2015.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### rfi-medicare-dialysis.pdf
 
@@ -50983,12 +50354,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.cms.gov/regulations-and-guidance/guidance/manuals/downloads/som107ap_z_emergprep.pdf
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
-
-### state-flexibility-grant-fact-sheet.pdf
-
-- **URL**: https://www.cms.gov/cciio/programs-and-initiatives/health-insurance-market-reforms/downloads/state-flexibility-grant-fact-sheet.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### trhcapdf.pdf
 
@@ -53756,12 +53121,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, no bookmarks and more than 20 pages, 
 
-### DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-02/DOE%20USMDL%20Final%20240606%20%28compliant%29_0.pdf
-- **Status**: analysed
-- fonts:/HLDKOJ+Calibri, /CBXLNK+Calibri, /SMQTMN+Calibri, /ZFLNNK+Calibri, /MTDWKK+Calibri, /Times-Roman, /CIDFont+F1, /CIDFont+F2, /TRTKIH+Calibri, /QFNQRR+Calibrilists-warn, 
-
 ### ES-KitchenAppliances_080221.pdf
 
 - **URL**: https://www.energy.gov/sites/default/files/2021-08/ES-KitchenAppliances_080221.pdf
@@ -53809,12 +53168,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.energy.gov/sites/default/files/2025-11/Organization-Chart-11.20.2025-2.pdf
 - **Status**: error
 - File not found: crawled_files/energy.gov/Organization-Chart-11.20.2025-2.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.653883+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### PIA%20Guide%20Aug%202023_0.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2023-08/PIA%20Guide%20Aug%202023_0.pdf
-- **Status**: analysed
-- fonts:/CWYWFU+Roboto-Regular, /XENXNE+ArialMT, /NUMPDY+Calibri-Bold, /ZHMJPA+SymbolMT, /SUATVO+TimesNewRomanPSMT, /ZESOPA+Calibri, /CJABFU+Calibri-BoldItalic, /SUATVO+MS-Gothic, /UHDKXK+Calibri-Light, /MDAJPA+Calibri-Italictables-warn, 
 
 ### advanced-instrumentation-information-and-control-system-technologies-nondestructive.pdf
 
@@ -54115,12 +53468,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.energy.gov/documents/appendix-part-625-title-10
 - **Status**: analysed
 - title, tagged, lang, 
-
-### better-plants-infographic_2025-april.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-04/better-plants-infographic_2025-april.pdf
-- **Status**: analysed
-- fonts:/JZLBDK+AvenirLTStd-Medium, /JZLBDK+AvenirLTStd-Black, /JZLBDK+AvenirLTStd-Heavy
 
 ### bioproducts_to_enable_biofuels_workshop_report.pdf
 
@@ -60170,12 +59517,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.358529+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### 0966_001.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/0966_001.pdf?rnd=1736272588276
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 2025-2026_ALAMOSA_Calendar.pdf
 
 - **URL**: https://www.slvboces.org/pdfs/calendars/2025-2026_ALAMOSA_Calendar.pdf
@@ -60254,101 +59595,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.412666+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Budget%20Manager.pdf?rnd=1737674390218
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Cert%20Prof.pdf?rnd=1737674155963
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Coordinator_Faciliator-1.pdf?rnd=1737673784631
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Executive%20Assist..pdf?rnd=1737674560491
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20HR_Payroll%20Manager.pdf?rnd=1737674447895
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Lic%20Prof.pdf?rnd=1737674018944
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Para-1.pdf?rnd=1737673837608
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Psych_Behavior.pdf?rnd=1737673908419
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SWAP.pdf?rnd=1737673686905
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Secretary.pdf?rnd=1737674500032
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20SpEd%20Director.pdf?rnd=1737673301081
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### 24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/24-25%20Salary%20Schedules_4.25.24.xlsx%20-%20Support%20Staff.pdf?rnd=1737673574228
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Advocate_%20Counselor%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Advocate_%20Counselor%20.pdf?rnd=1728931612871
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Assistant-Special-Education-Director-SSN-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Assistant-Special-Education-Director-SSN-.pdf?rnd=1728931494099
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Aviso%20de%20garant%C3%AD%20as%20de%20procedimiento.Spanish%282024%29_a11y.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/16/40104615/Aviso%20de%20garant%C3%AD%20as%20de%20procedimiento.Spanish%282024%29_a11y.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.459818+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Budget-Manager-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Budget-Manager-.pdf?rnd=1728931437280
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### CDE.PSN_.2024April%282%29at10-25-24Accessible.pdf
 
@@ -60500,29 +59751,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.558162+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### McKinney-Vento%20Homeless%20Program%20Coordinator%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/McKinney-Vento%20Homeless%20Program%20Coordinator%20.pdf?rnd=1728931603725
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Medicaid-Coordinator-1.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Medicaid-Coordinator-1.pdf?rnd=1728931523173
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Notice-of-Meeting-for-a-student.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2025/2/24/31029106/Notice-of-Meeting-for-a-student.pdf?rnd=1740432535821
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.568792+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Occupational-Therapist-OT-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Occupational-Therapist-OT-.pdf?rnd=1728931533734
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### PLC%20Protocol%20on%20how%20to%20determine%20if%20your%20Tier%201%20Instruction%20is%20Supporting%20or%20Limiting%20RTI_MTSS.pdf
 
@@ -60530,47 +59763,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.575455+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Paraprofessional%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Paraprofessional%20.pdf?rnd=1728931593086
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Physical-Therapist-PT-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Physical-Therapist-PT-.pdf?rnd=1728931528555
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Professional%20Learning%20Coordinator%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Professional%20Learning%20Coordinator%20.pdf?rnd=1728931644006
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### RTI-manual.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/16/66592126/RTI-manual.pdf?rnd=1729210516136
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.589681+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### Rate-Sheet.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Rate-Sheet.pdf?rnd=1728930720321
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Receptionist_-Secretary-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Receptionist_-Secretary-.pdf?rnd=1728931418815
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Regional%20Literacy%20Coach%20Project%20Coordinator%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Regional%20Literacy%20Coach%20Project%20Coordinator%20.pdf?rnd=1728931638972
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### SEL%20Library.pdf
 
@@ -60595,90 +59792,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/17/68156560/SWAP%20TA%20-%202024-25%20Spanish.508.pdf?rnd=1729203734091
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.615230+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### SWAP-School-to-Work-Alliance-Program-Coordinator-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/SWAP-School-to-Work-Alliance-Program-Coordinator-.pdf?rnd=1728931499601
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### SWAP-School-to-Work-Alliance-Program-Specialist-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/SWAP-School-to-Work-Alliance-Program-Specialist-.pdf?rnd=1728931504392
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### School%20Aged%20Child%20Find%20Referral%20Form%20K-12%20%281%29.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2026/2/24/62932589/School%20Aged%20Child%20Find%20Referral%20Form%20K-12%20%281%29.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### School-Psychologist_-Behavioral-Health-Provider-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/School-Psychologist_-Behavioral-Health-Provider-.pdf?rnd=1728931564296
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### School-Social-worker-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/School-Social-worker-.pdf?rnd=1728931559268
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Secretary-1.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Secretary-1.pdf?rnd=1728931442761
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Significant%20Support%20Needs%20Teacher%20.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Significant%20Support%20Needs%20Teacher%20.pdf?rnd=1728931589284
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Special-Education-Coordinator-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Coordinator-.pdf?rnd=1728931468978
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Special-Education-Director.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Director.pdf?rnd=1728931464926
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Special-Education-Facilitator-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Special-Education-Facilitator-.pdf?rnd=1728931474336
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Speech-Language-Pathologist-Assistant-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Speech-Language-Pathologist-Assistant-.pdf?rnd=1728931578851
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Speech_-Language-Pathologist-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Speech_-Language-Pathologist-.pdf?rnd=1728931573360
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Teacher-of-the-Visually-Impaired-%281%29.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Teacher-of-the-Visually-Impaired-%281%29.pdf?rnd=1728931538420
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Teacher-of-the-Visually-Impaired-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Teacher-of-the-Visually-Impaired-.pdf?rnd=1728931509728
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### The-IEP-Process-or-Development-of-the-IEP-includes-5.pdf
 
@@ -60716,30 +59829,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.657247+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Transition-Specialist-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Transition-Specialist-.pdf?rnd=1728931547929
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Translator-_-Interpreter-.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/50404521/Translator-_-Interpreter-.pdf?rnd=1728931479305
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Unauthorized-Leave-of-Absence-and-Attendance-Procedures.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Unauthorized-Leave-of-Absence-and-Attendance-Procedures.pdf?rnd=1728930700581
-- **Status**: error
-- No module named 'simpla11ypdf'
-
-### Website-Return-to-HR.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/47147060/Website-Return-to-HR.pdf?rnd=1728930680417
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Weighted-Vests.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/16/57458301/Weighted-Vests.pdf?rnd=1729051839419
@@ -60758,35 +59847,17 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.670022+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Worker_s_Comp_First_Report_of_Injury.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/15/54360075/Worker_s_Comp_First_Report_of_Injury.pdf?rnd=1729050959973
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Worker_s_Comp_Instructions_Medical_Providers_Letterhead-0.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/48977507/Worker_s_Comp_Instructions_Medical_Providers_Letterhead.pdf?rnd=1728931218680
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.672723+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### Worker_s_Comp_Instructions_Medical_Providers_Letterhead.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2024/10/15/54360075/Worker_s_Comp_Instructions_Medical_Providers_Letterhead.pdf?rnd=1729050955146
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### Worker_s_Comp_Letter_Declining_Medical_Care-1.pdf
 
 - **URL**: https://www.slvboces.org/ourpages/auto/2024/10/14/48977507/Worker_s_Comp_Letter_Declining_Medical_Care-1.pdf?rnd=1774276771523
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-26T12:56:44.675488+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### asu_flyer%20copy.pdf
-
-- **URL**: https://www.slvboces.org/ourpages/auto/2026/1/21/50012136/asu_flyer%20copy.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### guidance_disciplineofchildren.pdf
 
@@ -60883,12 +59954,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://doit.maryland.gov/policies/ci/Documents/Maryland-IT-Security-Manual-v1-2.pdf
 - **Status**: analysed
 - title, lang, no bookmarks and more than 20 pages, 
-
-### records-management.pdf
-
-- **URL**: https://www.nsf.gov/oirm/das/records-management
-- **Status**: error
-- No module named 'simpla11ypdf'
 
 ### 2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf
 
@@ -63686,12 +62751,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - title, 
 
-### RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
-
-- **URL**: https://careerforce.mn.gov/sites/default/files/2026-03/RWDA%20and%20LWDA%20Map%20%2B%20Board%20Directors%20list_ACC%203-2026.pdf
-- **Status**: error
-- No module named 'simpla11ypdf'
-
 ### 2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
 
 - **URL**: https://careerforce.mn.gov/sites/default/files/2025-06/2025%20CareerForce_Jobseeker%20brochure_ES-ACC.pdf
@@ -64796,23 +63855,11 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-16T20:16:48.979284+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### 02154-medicare-hospice-benefits.pdf
-
-- **URL**: https://www.medicare.gov/publications/02154-medicare-hospice-benefits.pdf
-- **Status**: analysed
-- fonts:/RMCORP+Gotham-Book, /RMCORP+Gotham-Bold, /RMCORP+Montserrat-Bold, /RMCORP+Gotham-Medium, /RMCORP+MyriadPro-BoldCond
-
 ### 02173-getting-a-second-opinion-before-surgery.pdf
 
 - **URL**: https://www.medicare.gov/publications/02173-getting-a-second-opinion-before-surgery.pdf
 - **Status**: analysed
 - annotations-tagging-fail, 
-
-### 10050-le-medicare-and-you.pdf
-
-- **URL**: https://www.medicare.gov/publications/10050-le-medicare-and-you.pdf
-- **Status**: error
-- Analysis exceeded 120s per-file limit
 
 ### 10108_c.pdf
 
@@ -65018,12 +64065,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: analysed
 - annotations-tagging-fail, 
 
-### 11376-your-discharge-planning-checklist.pdf
-
-- **URL**: https://www.medicare.gov/publications/11376-your-discharge-planning-checklist.pdf
-- **Status**: analysed
-- fonts:/DVVYRR+Montserrat-Regular, /DVVYRR+Montserrat-Bold, /DVVYRR+Gotham-Book, /DVVYRR+Wingdings-Regular, /DVVYRR+Gotham-Medium, /DVVYRR+Gotham-Bold
-
 ### 11389-s-medicare-getting-started.pdf
 
 - **URL**: https://www.medicare.gov/publications/11389-s-medicare-getting-started.pdf
@@ -65131,12 +64172,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.medicare.gov/publications/11575-ARB-medicare-supplement-insurance.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.318392+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### 11579-medicare-costs.pdf
-
-- **URL**: https://www.medicare.gov/publications/11579-medicare-costs.pdf
-- **Status**: analysed
-- fonts:/JGOHNF+Gotham-Bold, /JGOHNF+MinionPro-Regular, /JGOHNF+Montserrat-Regular, /JGOHNF+Gotham-Medium, /JGOHNF+Gotham-Book, /JGOHNF+Montserrat-Bold
 
 ### 11579-s-medicare-costs.pdf
 
@@ -65359,12 +64394,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.medicare.gov/publications/summarynoticedme.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-05-17T00:42:19.391361+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### summarynoticeenvelope.pdf
-
-- **URL**: https://www.medicare.gov/publications/summarynoticeenvelope.pdf
-- **Status**: analysed
-- fonts:/BVEFMV+MyriadPro-Bold, /BVEFMV+MinionPro-Regular, /MNUTTE+MyriadPro-Bold, /SBHDZS+MyriadPro-Regular, /BVEFMV+MyriadPro-Regular, /MNUTTE+MyriadPro-Regular
 
 ### KfW-Finanzbericht-2024-2.pdf
 
@@ -69756,7 +68785,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/06/3CG-Dossier-Unique-dInscription-2025-2026-web3.pdf
 - **Status**: error
-- Analysis exceeded 120s per-file limit
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.172054+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 4-ANNEXES-ADMINISTRATIVES.pdf
 
@@ -69845,566 +68874,566 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 ### 5-PLU_MENTION-DES-TEXTES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/5-PLU_MENTION-DES-TEXTES.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, figures missing alt text (count=2), 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.308624+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 5.-OAP_PLU-ARRETE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/5.-OAP_PLU-ARRETE.pdf
-- **Status**: analysed
-- no bookmarks and more than 20 pages, figures missing alt text (count=143), headings-skip, tables-warn, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.317567+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 6-BP-2024-ZA-STE-FOY.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/6-BP-2024-ZA-STE-FOY.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.321074+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 6-CA-2023-ZA-STE-FOY.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/6-CA-2023-ZA-STE-FOY.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.325862+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 6-TOURISME.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/6-TOURISME.pdf
-- **Status**: analysed
-- figures missing alt text (count=555), headings-none, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.336444+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 6414-Depliant-promo-Appli-Pajemploi-Urssaf.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/09/6414-Depliant-promo-Appli-Pajemploi-Urssaf.pdf
-- **Status**: analysed
-- title, tagged, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.350387+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 7-BP-2024-ZA-DESCAILLAUX.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/7-BP-2024-ZA-DESCAILLAUX.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.353973+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 7-CA-2023-ZA-DESCAILLAUX.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/7-CA-2023-ZA-DESCAILLAUX.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.358497+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 7-DEVELOPPEMENT-ECONOMIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/7-DEVELOPPEMENT-ECONOMIQUE.pdf
-- **Status**: analysed
-- figures missing alt text (count=706), headings-none, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.365065+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 8-BP-2024-ZA-BOUSSENS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/8-BP-2024-ZA-BOUSSENS.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.368453+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 8-CA-2023-ZA-BOUSSENS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/8-CA-2023-ZA-BOUSSENS.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.372887+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 8-FRANCE-SERVICES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/8-FRANCE-SERVICES.pdf
-- **Status**: analysed
-- figures missing alt text (count=215), headings-none, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.376885+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 9-BP-2024-ZA-MARTRES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/9-BP-2024-ZA-MARTRES.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.380278+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 9-CA-2023-ZA-MARTRES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/9-CA-2023-ZA-MARTRES.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.384732+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 9-NUMERIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/10/9-NUMERIQUE.pdf
-- **Status**: analysed
-- figures missing alt text (count=68), headings-none, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.387528+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20210303-D_2021_34_7_10-DE-1-1_2.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2021/04/99_DE-031-200068815-20210303-D_2021_34_7_10-DE-1-1_2.pdf
-- **Status**: analysed
-- no bookmarks and more than 20 pages, figures missing alt text (count=3), tables-fail, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.392458+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20220721-D_2022_17_7_5-DE-1-1_1-1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220721-D_2022_17_7_5-DE-1-1_1-1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.394531+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20220728-DEC_2022_16_8_4-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/07/99_DE-031-200068815-20220728-DEC_2022_16_8_4-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.396626+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20220830-DEC_2022_18_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220830-DEC_2022_18_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.398644+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20220908-DEC_2022_19_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220908-DEC_2022_19_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.400679+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20220908-D_2022_20_7_3-DE-1-1_1-2.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220908-D_2022_20_7_3-DE-1-1_1-2.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.402747+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DEC_2022_21_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.404772+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220920-DE_2022_22_7_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.406845+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220922-D_2022_159_7_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.409121+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/09/99_DE-031-200068815-20220927-DEC_2022_23_1_1-DE-1-1_1-1.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=1), headings-none, tables-fail, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.411539+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221011-DEC_2022_24_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.413573+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221018-DEC_2022_25_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.415593+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/10/99_DE-031-200068815-20221020-D_2022_194_7_2-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged-content-fail, figures missing alt text (count=1), headings-none, tables-fail, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.418373+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221031-DEC_2022_26_7_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.420438+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221107-DEC_2022_27_71-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.423033+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221108-DEC_2022_28_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.425115+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/11/99_DE-031-200068815-20221129-DEC_2022_30_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.427133+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221208-DEC_2022_31_71B-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.429151+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221212-DEC_2022_32_7_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.431168+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221213-DEC_2022_33_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.433252+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221215-D_2022_246_7_8-DE-1-1_1-combine_1.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, annotations-untagged, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.446573+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221219-DEC_2022_34_8_2-DE-1-1_1.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=2), headings-none, tables-fail, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.449158+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/12/99_DE-031-200068815-20221220-DEC_2022_35_710-DE-1-1_1.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=2), headings-none, tables-fail, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.451653+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230103-DEC_2023_01_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.453904+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_2_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.456086+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/01/99_DE-031-200068815-20230117-DEC_2023_3_8_2B-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.458348+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230124-DEC_2023_4_1_1-DE-1-1_1.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.460399+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230213-DEC_2023_5_1_1-DE-1-1_1.pdf
 - **Status**: analysed
-- title, tagged, lang, 
+- title, tagged, lang, untagged-images, 
 
 ### 99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/99_DE-031-200068815-20230216-D_2023_18_7_8-DE-1-1_1-combin%C3%A9.pdf
-- **Status**: analysed
-- title, tagged, lang, annotations-untagged, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.471419+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### A-Rapport-denquete-unique-evolution-PLU-Savere.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A-Rapport-denquete-unique-evolution-PLU-Savere.pdf
-- **Status**: analysed
-- title, no bookmarks and more than 20 pages, figures missing alt text (count=44), 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.476314+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### A2-Annexes-rapport-Saveres.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/A2-Annexes-rapport-Saveres.pdf
-- **Status**: analysed
-- title, tagged, lang, annotations-untagged, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.491021+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### ARRETE-2.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/ARRETE-2.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.493707+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### AVIS-DE-PUBLICATION.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/AVIS-DE-PUBLICATION.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.495932+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Affiche-2024.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/03/Affiche-2024.pdf
-- **Status**: analysed
-- title, tagged, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.499276+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Affiche-Contactez-nous-27.07.2023.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/10/Affiche-Contactez-nous-27.07.2023.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=1), headings-none, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.501598+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Aides-employeur-Septembre-2025.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Aides-employeur-Septembre-2025.pdf
-- **Status**: analysed
-- headings-warn, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.504268+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Annexe-1_PADD-debattu.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-1_PADD-debattu.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=25), 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.509213+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Annexe-2_Zonage-de-la-carte-communale.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-2_Zonage-de-la-carte-communale.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.513886+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Annexe-3_Zonage-PLU_En-cours.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-3_Zonage-PLU_En-cours.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.523488+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Annexe-4_Cartographie-de-superposition.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2024/02/Annexe-4_Cartographie-de-superposition.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=4), 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.526736+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/09/Annuaire-Coeur-de-Garonne-Mfhg-v5.pdf
-- **Status**: analysed
-- title, headings-none, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.529421+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/03/Arrete-du-23-septembre-2021-portant-creation-dune-charte-nationale-pour-laccueil-du-jeune-enfant.pdf
-- **Status**: analysed
-- headings-none, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.531849+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/02/Articulation-des-diff%C3%A9rentes-%C3%A9tudes-GEMAPI-en-cours-sur-le-bassin-versant-du-Touch-PAPI-janvier-2023.pdf
 - **Status**: analysed
-- title, tagged, lang, 
+- title, tagged, lang, fonts:/*Calibri-16180-Identity-H, /*Times New Roman-16179-Identity-H, /*Arial-Bold-16183-Identity-H, /*Verdana-Italic-16188-Identity-H, /*Arial-BoldItalic-16185-Identity-H, /*Arial-Bold-16186-Identity-H, /*Tahoma-Bold-16191-Identity-H, /*Calibri-Bold-16181-Identity-H, /*Arial-16182-Identity-H, /*Arial-Bold-16184-Identity-H, /*Arial-Bold-16187-Identity-H, /*Microsoft Sans Serif-16189-Identity-H, /*Microsoft Sans Serif-Bold-16190-Identity-Huntagged-images, 
 
 ### Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/Avis-dappel-a-candidature-aux-assos-Nomination-des-administrateurs-CIAS-3CG.pdf
-- **Status**: analysed
-- title, tagged-content-fail, figures missing alt text (count=1), headings-none, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.539608+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Avis_enquete_PNRCBP.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/02/Avis_enquete_PNRCBP.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.543303+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2025/07/B-Conclusions-et-avis-Modification-n%C2%B02-PLU-Saveres-31.pdf
-- **Status**: analysed
-- title, figures missing alt text (count=1), 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.546519+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2020-PDR.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PDR.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.552442+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2020-PHOTOVOLTAIQUE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-PHOTOVOLTAIQUE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.559208+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2020-ZA-BOURGAIL-BERAT.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOURGAIL-BERAT.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.566478+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2020-ZA-BOUSSENS.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-BOUSSENS.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.573818+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2020-ZA-DESCAILLAUX.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-DESCAILLAUX.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.581382+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2020-ZA-MARTRES-TOLOSANE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-MARTRES-TOLOSANE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.588711+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/02/BP-2020-ZA-STE-FOY-DE-PEYROLIERES.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.596127+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-OTI-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-OTI-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.600642+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-PDR-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PDR-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.605050+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-PHOTOVOLTAIQUE-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PHOTOVOLTAIQUE-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.607641+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-PRINCIPAL-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-PRINCIPAL-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.612822+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-ZA-BOURGAIL-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOURGAIL-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.617210+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-ZA-BOUSSENS-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-BOUSSENS-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.621551+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-ZA-DESCAILLAUX-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-DESCAILLAUX-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.625917+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-ZA-LHERM-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-LHERM-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.630257+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-ZA-MARTRES-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-MARTRES-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.634608+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2022-ZA-STE-FOY-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2022/04/BP-2022-ZA-STE-FOY-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.639009+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-BP-PRINCIPAL-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-BP-PRINCIPAL-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.644226+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-OTI-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-OTI-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.648564+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-PDR-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PDR-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.652877+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-PHOTOVOLTAIQUE-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-PHOTOVOLTAIQUE-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.655443+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-ZA-BERAT-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BERAT-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.659721+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-ZA-BOUSSENS-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-BOUSSENS-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.664045+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-ZA-DESCAILLAUX.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-DESCAILLAUX.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.668241+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-ZA-LHERM-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-LHERM-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.672554+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-ZA-MARTRES-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-MARTRES-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.676853+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-2023-ZA-STE-FOY-VOTE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2023/06/BP-2023-ZA-STE-FOY-VOTE.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.681141+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2020/08/BP-BUDGET-PRINCIPAL-18-VERSION-4.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.688975+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-CIAS-2026-SAAD-A-imprimer.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SAAD-A-imprimer.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.704088+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-CIAS-2026-SCELLE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-2026-SCELLE.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.707992+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-CIAS-PDR-2026-SCELLE.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-CIAS-PDR-2026-SCELLE.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.711604+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-OTI-2025.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/02/BP-OTI-2025.pdf
-- **Status**: analysed
-- title, tagged, lang, no bookmarks and more than 20 pages, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.715020+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### BP-OTI.pdf
 
 - **URL**: https://www.cc-coeurdegaronne.fr/wp-content/uploads/2026/03/BP-OTI.pdf
-- **Status**: analysed
-- title, tagged, lang, 
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-09T10:41:36.718599+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 7577Birth-certificates-and-source-documents-FAQ.pdf
 
@@ -71190,7 +70219,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/employment-first/documents/2023-efoc-annual-report.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/2023-efoc-annual-report.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.151559+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.151559+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 2023.april.comparing%20levels%201,%202.1,%202.5,%20and%20otp%20services.pdf
 
@@ -71346,7 +70375,7 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/mental-health-in-pa/documents/2026-pa-path-grant-application.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/2026-pa-path-grant-application.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.378262+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.378262+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### 25.12.01%20ddap%20ta%20webinar%20-%20screening.pdf
 
@@ -71520,565 +70549,577 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_2nd.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CDR_2022_2nd.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.654451+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.654451+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CDR_2022_3rd.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cdr/CDR_2022_3rd.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CDR_2022_3rd.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.662125+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.662125+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CVSD%20-%20Publication.Rev.09-2015.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CVSD%20-%20Publication.Rev.09-2015.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CVSD%20-%20Publication.Rev.09-2015.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.668690+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.668690+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CVSD%20Cargo%20Securement%20Brochure%20-%20Rev.%2012-26-2015.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CVSD%20Cargo%20Securement%20Brochure%20-%20Rev.%2012-26-2015.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CVSD%20Cargo%20Securement%20Brochure%20-%20Rev.%2012-26-2015.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.674141+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.674141+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CVSD%20Intrastate%20USDOT.Rev.09-2015.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/CVSD%20Intrastate%20USDOT.Rev.09-2015.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CVSD%20Intrastate%20USDOT.Rev.09-2015.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.680266+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.680266+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CY%20999%20-Consent%20Release%20of%20Information.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/CY%20999%20-Consent%20Release%20of%20Information.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CY%20999%20-Consent%20Release%20of%20Information.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.684456+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.684456+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CY113%20form%20-%20Spanish.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/CY113%20form%20-%20Spanish.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CY113%20form%20-%20Spanish.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.687953+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.687953+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CY113%20form-Spanish-Accessible.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/CY113%20form-Spanish-Accessible.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CY113%20form-Spanish-Accessible.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.691269+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.691269+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CY999%20-%20Consent%20Release%20of%20Information%20Authorization%20Form.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/for-providers/documents/child-care-forms/CY999%20-%20Consent%20Release%20of%20Information%20Authorization%20Form.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CY999%20-%20Consent%20Release%20of%20Information%20Authorization%20Form.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.695015+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.695015+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cadet%20Essential%20Job%20Functions.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Essential%20Job%20Functions.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cadet%20Essential%20Job%20Functions.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.697917+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.697917+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cadet%20Medical%20Information%2020210305.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Medical%20Information%2020210305.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cadet%20Medical%20Information%2020210305.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.700696+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.700696+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cadet%20Oral%20Interview%20Candidate%20Preparation%20Guide.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Oral%20Interview%20Candidate%20Preparation%20Guide.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cadet%20Oral%20Interview%20Candidate%20Preparation%20Guide.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.703655+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.703655+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cadet%20Personal%20Appearance.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Personal%20Appearance.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cadet%20Personal%20Appearance.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.706446+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.706446+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cadet%20Physical%20Readiness%20Tests.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Physical%20Readiness%20Tests.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cadet%20Physical%20Readiness%20Tests.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.709017+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.709017+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cadet%20Training%2020170221.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/Cadet%20Training%2020170221.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cadet%20Training%2020170221.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.711422+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.711422+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Challenge_report.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/cvsd/Challenge_report.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Challenge_report.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.714155+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.714155+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Commonwealth_of_Pennsylvania_Management_Directive_205.36_Amended.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/Commonwealth_of_Pennsylvania_Management_Directive_205.36_Amended.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Commonwealth_of_Pennsylvania_Management_Directive_205.36_Amended.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.716992+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.716992+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### CompassCPOnlineSelf-RegQRG.pdf
 
 - **URL**: https://www.compass.dhs.pa.gov/assets/documents/pdf/CompassCPOnlineSelf-RegQRG.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/CompassCPOnlineSelf-RegQRG.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.720873+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.720873+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cuestionario%20de%20admisi%C3%B3n%20a%20la%20vivienda.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/housing/Cuestionario%20de%20admisi%C3%B3n%20a%20la%20vivienda.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cuestionario%20de%20admisi%C3%B3n%20a%20la%20vivienda.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.725792+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.725792+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cuestionario%20de%20admisi%C3%B3n%20de%20alojamiento%20p%C3%BAblico.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/public-accommodations/Cuestionario%20de%20admisi%C3%B3n%20de%20alojamiento%20p%C3%BAblico.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cuestionario%20de%20admisi%C3%B3n%20de%20alojamiento%20p%C3%BAblico.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.729719+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.729719+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cuestionario%20de%20admisi%C3%B3n%20de%20empleo.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/employment/Cuestionario%20de%20admisi%C3%B3n%20de%20empleo.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cuestionario%20de%20admisi%C3%B3n%20de%20empleo.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.733970+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.733970+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Cuestionario%20de%20admisi%C3%B3n%20educativa.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/Cuestionario%20de%20admisi%C3%B3n%20educativa.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Cuestionario%20de%20admisi%C3%B3n%20educativa.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.738103+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.738103+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Digital_Fingerprint_Agencies-Reason_For_Print_Final.pdf
 
 - **URL**: https://www.identogo.com/uploads/general/Digital_Fingerprint_Agencies-Reason_For_Print_Final.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Digital_Fingerprint_Agencies-Reason_For_Print_Final.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.740939+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.740939+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Disability%20Info%20Release%20for%20Education.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/Disability%20Info%20Release%20for%20Education.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Disability%20Info%20Release%20for%20Education.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.743786+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.743786+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Disability%20Info%20Release%20for%20Employment.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/employment/Disability%20Info%20Release%20for%20Employment.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Disability%20Info%20Release%20for%20Employment.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.746577+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.746577+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Disability%20Info%20Release%20for%20Housing.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/housing/Disability%20Info%20Release%20for%20Housing.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Disability%20Info%20Release%20for%20Housing.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.749333+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.749333+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Education%20Intake%20Questionnaire.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/education/Education%20Intake%20Questionnaire.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Education%20Intake%20Questionnaire.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.754191+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.754191+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Employment%20Intake%20Questionnaire.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/employment/Employment%20Intake%20Questionnaire.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Employment%20Intake%20Questionnaire.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.758575+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.758575+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### EnrollmentInstructions.pdf
 
 - **URL**: https://responsibleplay.pa.gov/wp-content/uploads/EnrollmentInstructions.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/EnrollmentInstructions.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.764064+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.764064+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### FAQ%20CellSiteSimulators%202015%20revision3.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/safety/FAQ%20CellSiteSimulators%202015%20revision3.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/FAQ%20CellSiteSimulators%202015%20revision3.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.771925+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.771925+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### FBI_Minor%20Fingerprinting%20Waiver.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/keepkidssafe/clearances/documents/FBI_Minor%20Fingerprinting%20Waiver.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/FBI_Minor%20Fingerprinting%20Waiver.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.776445+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.776445+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### FD-118%20policy%20memo%20Automatic%20Revocation%20of%20Tax%20Exempt%20Status.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/pda/documents/food/food_assistance/commodity-supplemental-food-program/documents/FD-118%20policy%20memo%20Automatic%20Revocation%20of%20Tax%20Exempt%20Status.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/FD-118%20policy%20memo%20Automatic%20Revocation%20of%20Tax%20Exempt%20Status.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.779934+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.779934+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Fair%20Housing%20Is%20Your%20Right%20Brochure%20(Spanish)2.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/phrc-outreach/spanish-translations/Fair%20Housing%20Is%20Your%20Right%20Brochure%20(Spanish)2.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Fair%20Housing%20Is%20Your%20Right%20Brochure%20(Spanish)2.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.786731+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.786731+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Fair%20Housing%20Is%20Your%20Right%20Brochure-nocrops.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/old-files--do-not-use/Fair%20Housing%20Is%20Your%20Right%20Brochure-nocrops.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Fair%20Housing%20Is%20Your%20Right%20Brochure-nocrops.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.793698+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.793698+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### First%20Responders%20Naloxone%20Standing%20Order.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/opioids/First%20Responders%20Naloxone%20Standing%20Order.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/First%20Responders%20Naloxone%20Standing%20Order.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.797804+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.797804+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### General%20Public%20Standing%20Order.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/opioids/General%20Public%20Standing%20Order.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/General%20Public%20Standing%20Order.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.801889+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.801889+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Group_Filing.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/Group_Filing.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Group_Filing.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.805758+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.805758+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Medetomidine-and-Clinical-Considerations-for-Treatment-Providers.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/Medetomidine-and-Clinical-Considerations-for-Treatment-Providers.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Medetomidine-and-Clinical-Considerations-for-Treatment-Providers.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.821511+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.821511+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### ORI_Correction_Form.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/ORI_Correction_Form.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/ORI_Correction_Form.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.825884+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.825884+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Overdose%20Poster%20-%20Statewide.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/opioids/Overdose%20Poster%20-%20Statewide.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Overdose%20Poster%20-%20Statewide.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.831695+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.831695+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### PAVE%20report.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/housing/PAVE%20report.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/PAVE%20report.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.850196+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.850196+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### PFA%20Final.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/PFA%20Final.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/PFA%20Final.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.855926+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.855926+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### PFA%20Notice%20of%20Hearing%20and%20Petition.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/PFA%20Notice%20of%20Hearing%20and%20Petition.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/PFA%20Notice%20of%20Hearing%20and%20Petition.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.861443+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.861443+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### PFA%20Temp.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/PFA%20Temp.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/PFA%20Temp.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.867053+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.867053+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### PHRC%20Coloring%20Book%20(Single%20Page).pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/housing/PHRC%20Coloring%20Book%20(Single%20Page).pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/PHRC%20Coloring%20Book%20(Single%20Page).pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.895531+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.895531+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### PLAW-111publ296.pdf
 
 - **URL**: https://www.govinfo.gov/content/pkg/PLAW-111publ296/pdf/PLAW-111publ296.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/PLAW-111publ296.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.901748+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.901748+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### PearsonVUE-PSP-Candidate-Handbook.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/PearsonVUE-PSP-Candidate-Handbook.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/PearsonVUE-PSP-Candidate-Handbook.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.910645+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.910645+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Pub%20Accomm%20Intake%20Questionnaire.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/documents/public-accommodations/Pub%20Accomm%20Intake%20Questionnaire.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Pub%20Accomm%20Intake%20Questionnaire.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.917949+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.917949+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### RTKRequestForm.pdf
 
 - **URL**: https://www.openrecords.pa.gov/Documents/RTKL/RTKRequestForm.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/RTKRequestForm.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.922479+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.922479+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### RTK_Request_Form.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/RTK_Request_Form.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/RTK_Request_Form.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.926590+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.926590+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### RemovalInstructions.pdf
 
 - **URL**: https://responsibleplay.pa.gov/wp-content/uploads/RemovalInstructions.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/RemovalInstructions.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.932092+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.932092+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP%204-382%202018-02-22%20Affidavit%20for%20Safekeeping%20by%20Third%20Party%20for%20Relinquishment%20of%20Firearms.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-382%202018-02-22%20Affidavit%20for%20Safekeeping%20by%20Third%20Party%20for%20Relinquishment%20of%20Firearms.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP%204-382%202018-02-22%20Affidavit%20for%20Safekeeping%20by%20Third%20Party%20for%20Relinquishment%20of%20Firearms.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.946410+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.946410+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP%204-383B%202019-02-22%20Affidavit%20Relinquishment%20of%20Firearms%20to%20Dealer%20Pursuant%20toProtection%20from%20Abuse%20Order.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-383B%202019-02-22%20Affidavit%20Relinquishment%20of%20Firearms%20to%20Dealer%20Pursuant%20toProtection%20from%20Abuse%20Order.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP%204-383B%202019-02-22%20Affidavit%20Relinquishment%20of%20Firearms%20to%20Dealer%20Pursuant%20toProtection%20from%20Abuse%20Order.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.950437+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.950437+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP%204-410%20Firearm%20Release%20Request.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-410%20Firearm%20Release%20Request.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP%204-410%20Firearm%20Release%20Request.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.955339+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.955339+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP%204-411%20Relinquishment%20of%20Firearms%20Receipt.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-411%20Relinquishment%20of%20Firearms%20Receipt.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP%204-411%20Relinquishment%20of%20Firearms%20Receipt.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.959490+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.959490+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP%204-411A%20Relinquishment%20of%20Firearms%20Receipt%20(Continuation%20Page).pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/clean/SP%204-411A%20Relinquishment%20of%20Firearms%20Receipt%20(Continuation%20Page).pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP%204-411A%20Relinquishment%20of%20Firearms%20Receipt%20(Continuation%20Page).pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.963165+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.963165+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP1-108S.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/SP1-108S.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP1-108S.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.965897+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.965897+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP1-108_6.14.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/contact-us/SP1-108_6.14.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP1-108_6.14.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.968736+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.968736+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP4-164.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/crimhist/SP4-164.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP4-164.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.971505+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.971505+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP4-164A.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/crimhist/SP4-164A.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP4-164A.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.974186+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.974186+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP4-170.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/crimhist/SP4-170.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP4-170.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.977082+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.977082+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### SP_7-0015.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/records/SP_7-0015.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/SP_7-0015.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:31.980533+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:31.980533+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Self_Exclusion_Brochure.pdf
 
 - **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Exclusion_Brochure.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Self_Exclusion_Brochure.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.017079+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.017079+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Self_Exclusion_Fantasy_Gaming.pdf
 
 - **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Exclusion_Fantasy_Gaming.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Self_Exclusion_Fantasy_Gaming.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.022537+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.022537+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Self_Exclusion_Interactive_Gaming.pdf
 
 - **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Exclusion_Interactive_Gaming.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Self_Exclusion_Interactive_Gaming.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.026524+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.026524+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Self_Exclusion_VGT.pdf
 
 - **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Exclusion_VGT.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Self_Exclusion_VGT.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.031222+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.031222+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Self_Imposed_Interactive_Gaming.pdf
 
 - **URL**: https://responsibleplay.pa.gov/wp-content/uploads/Self_Imposed_Interactive_Gaming.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Self_Imposed_Interactive_Gaming.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.035709+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.035709+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Victim%20Notification%20Program%20Enrollment%20Form.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/services/assistance/documents/from-old-site/mental-health-services/Victim%20Notification%20Program%20Enrollment%20Form.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Victim%20Notification%20Program%20Enrollment%20Form.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.038928+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.038928+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### Xylazine%20Public%20Info.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/health/documents/topics/documents/opioids/Xylazine%20Public%20Info.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/Xylazine%20Public%20Info.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.042163+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.042163+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### a%20-%20standard%20general%20terms%20and%20conditions%20rev.%2011-21.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/sca-manuals-and-incorporated-documents/a%20-%20standard%20general%20terms%20and%20conditions%20rev.%2011-21.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/a%20-%20standard%20general%20terms%20and%20conditions%20rev.%2011-21.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.045867+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.045867+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### a%20-%20standard%20general%20terms%20and%20conditions.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/procurement/a%20-%20standard%20general%20terms%20and%20conditions.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/a%20-%20standard%20general%20terms%20and%20conditions.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.049614+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.049614+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### a-%20standard%20general%20terms%20and%20conditions%20rev%207-15.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/sca-agreement---incorporated-documents/a-%20standard%20general%20terms%20and%20conditions%20rev%207-15.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/a-%20standard%20general%20terms%20and%20conditions%20rev%207-15.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.053748+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.053748+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### alert%202022-02.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/licensing/documents/licensing-alerts/alert%202022-02.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/alert%202022-02.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.069795+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.069795+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### alert%202022-03.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/licensing/documents/licensing-alerts/alert%202022-03.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/alert%202022-03.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.074398+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.074398+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### application%20for%20license_llc-18%20rev%2007-22.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/labor-management-relations/llc/minimum-wage/documents/application%20for%20license_llc-18%20rev%2007-22.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.078761+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
+
+### application%20for%20special%20certificate%20for%20the%20employment%20of%20learners_llc-4%20rev%2006-22.pdf
+
+- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/labor-management-relations/llc/minimum-wage/documents/application%20for%20special%20certificate%20for%20the%20employment%20of%20learners_llc-4%20rev%2006-22.pdf
+- **Status**: error
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.083136+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### application%20for%20work%20permit.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/resources/codes-and-regulations/application%20for%20work%20permit.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/application%20for%20work%20permit.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.087676+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.087676+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### application%20request%20form_rev%2002.2025.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/agency-forms/licensure/application%20request%20form_rev%2002.2025.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/application%20request%20form_rev%2002.2025.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.091698+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.091698+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### application%20request%20form_rev_08.2024.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/agency-forms/licensure/application%20request%20form_rev_08.2024.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/application%20request%20form_rev_08.2024.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.096526+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.096526+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### april%202025%20ddap%20monthly%20technical%20assistance%20series%20harm%20reduction.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/april%202025%20ddap%20monthly%20technical%20assistance%20series%20harm%20reduction.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/april%202025%20ddap%20monthly%20technical%20assistance%20series%20harm%20reduction.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.105096+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.105096+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam%20alignment%20infographic.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/asam/asam%20alignment%20infographic.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam%20alignment%20infographic.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.118103+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.118103+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam%20explanation%20and%20status_05072018.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20explanation%20and%20status_05072018.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam%20explanation%20and%20status_05072018.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.124243+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.124243+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam%20listening%20sessions%20presentation.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20listening%20sessions%20presentation.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam%20listening%20sessions%20presentation.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.130303+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.130303+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam%20monthly%20ta%20webinar.august.2023.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20monthly%20ta%20webinar.august.2023.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam%20monthly%20ta%20webinar.august.2023.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.136999+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.136999+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam%20ta%20call%20april%202024_%20provider%20alignment%20reviews.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20ta%20call%20april%202024_%20provider%20alignment%20reviews.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam%20ta%20call%20april%202024_%20provider%20alignment%20reviews.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.142672+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.142672+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam%20ta%20webinar.june2023.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20ta%20webinar.june2023.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam%20ta%20webinar.june2023.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.152695+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.152695+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam%20ta_12.06.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam%20ta_12.06.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam%20ta_12.06.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.163476+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.163476+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam-alignment-faq.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam-alignment-faq.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam-alignment-faq.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.169455+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.169455+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam_criteria_training_options_2025.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam_criteria_training_options_2025.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam_criteria_training_options_2025.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.175039+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.175039+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam_monthly_ta_june2022%20.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam_monthly_ta_june2022%20.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam_monthly_ta_june2022%20.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.180248+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.180248+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### asam_ta_%20qa_jan2022.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/asam_ta_%20qa_jan2022.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/asam_ta_%20qa_jan2022.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.184799+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.184799+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### august%202025%20the%20asam%20criteria%20infrastructure%20readiness.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/technical-assistance-webinars/august%202025%20the%20asam%20criteria%20infrastructure%20readiness.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/august%202025%20the%20asam%20criteria%20infrastructure%20readiness.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.191499+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.191499+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### august%20asam%20ta%20call%20record%20review%208.1.22.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/asam-page/asam-update/august%20asam%20ta%20call%20record%20review%208.1.22.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/august%20asam%20ta%20call%20record%20review%208.1.22.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.198714+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.198714+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### b%20-%20audit%20requirements%20rev.%2007-20-0.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/sca-manuals-and-incorporated-documents/b%20-%20audit%20requirements%20rev.%2007-20.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/b%20-%20audit%20requirements%20rev.%2007-20-0.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.205739+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.205739+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### b%20-%20audit%20requirements%20rev.%2007-20.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/professionals/documents/procurement/b%20-%20audit%20requirements%20rev.%2007-20.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/b%20-%20audit%20requirements%20rev.%2007-20.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.209269+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.209269+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### b-%20audit%20requirements%20rev%2007-15.pdf
 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/sca-agreement---incorporated-documents/b-%20audit%20requirements%20rev%2007-15.pdf
 - **Status**: error
-- File not found: crawled_files/pa.gov/b-%20audit%20requirements%20rev%2007-15.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.212286+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
+- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.212286+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### baa.qsoa%20pa%20ddap.pdf
 
@@ -72103,96 +71144,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/sca-agreement---incorporated-documents/c-%20commonwealth%20travel%20and%20subsistance%20rates%20rev%2007-15.pdf
 - **Status**: error
 - File not found: crawled_files/pa.gov/c-%20commonwealth%20travel%20and%20subsistance%20rates%20rev%2007-15.pdf (crawled 0.2 day(s) ago at 2026-07-10T13:49:32.222688+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### 590921.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/590921.pdf
-- **Status**: analysed
-- fonts:/KAZIPZ+ArialMT, /QJBSVN+Arial-BoldMTforms-fail, forms-tagging-fail, 
-
-### 593931.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/593931.pdf
-- **Status**: analysed
-- fonts:/UNWILP+Arial-ItalicMT, /TXSSWH+Arial, /XCIVBJ+Arial-BoldItalicMT, /YROWPH+Arial-BoldMT, /EJBAVV+ArialMT, /YOYQIX+Arial-ItalicMTlists-warn, 
-
-### 595906.pdf
-
-- **URL**: https://www.wellsfargoadvisors.com/bw/wellstrade/forms/595906.pdf
-- **Status**: analysed
-- fonts:/ZXENJV+Arial-BoldMT, /KYRBHZ+ArialMT, /EXNMBL+Georgia
-
-### ADD-CA-EN.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/small-business/ADD-CA-EN.pdf
-- **Status**: analysed
-- fonts:/RSVTAQ+WellsFargoSans-Bold, /IUMWEI+WellsFargoSans-Display, /CGUSFT+TimesNewRoman, /YXJOUC+WellsFargoSans-Light, /IUMWEI+WellsFargoSans-Regular, /BUYBKW+WellsFargoSans-SemiBold
-
-### DMCA-notice.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/privacy-security/DMCA-notice.pdf
-- **Status**: analysed
-- fonts:/ADRKKN+Arial, /EZATGQ+ArialMT, /XATOEO+Arial
-
-### california.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/es/small-business/deposits/online-disclosures/addenda/california.pdf
-- **Status**: analysed
-- fonts:/QPMLII+WellsFargoSans-Regular, /IQNPAY+WellsFargoSans-Light, /DERIGC+TimesNewRoman, /XPAGCU+WellsFargoSans-Light, /ZNVNEQ+WellsFargoSans-SemiBold, /QPMLII+WellsFargoSans-Display, /QPMLII+WellsFargoSans-Bold
-
-### fetch-pdf-0.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013&subProductCode=ANY
-- **Status**: analysed
-- fonts:/LVCTKS+WellsFargoSans-Regular, /KRNNWU+WellsFargoSans-Regular, /JSDHIW+WellsFargoSans-Display, /EIQDQG+WellsFargoSans-Light, /FMAJEE+WellsFargoSans-Bold, /HPZVGA+WellsFargoSans-Bold, /CFMROK+WellsFargoSans-Light, /ACNFMO+WellsFargoSans-BoldItalic, /BAKYDQ+TimesNewRoman
-
-### fetch-pdf-1.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CCB2018C&subProductCode=ANY
-- **Status**: analysed
-- fonts:/SOBPUY+WellsFargoSans-Light, /MFZFOK+WellsFargoSans-Bold, /LBPZAM+Wingdings-Regular, /PYGQJE+WellsFargoSans-Regular, /RPMJGA+WellsFargoSans-Regular, /OIDRQG+WellsFargoSans-Bold, /BBVRHB+TimesNewRoman, /TSQVIW+WellsFargoSans-Light, /PMNXEE+WellsFargoSans-Display
-
-### fetch-pdf-2.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?formNumber=CNS2013SP&subProductCode=ANY
-- **Status**: analysed
-- fonts:/EQAPZK+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Bold, /OSYXJQ+WellsFargoSans-Regular, /ZTLGHU+WellsFargoSans-Light, /OSYXJQ+WellsFargoSans-Display
-
-### fetch-pdf.pdf
-
-- **URL**: https://www.wellsfargo.com/fetch-pdf?documentName=Account%20Addenda&subProductCode=ANY
-- **Status**: analysed
-- fonts:/OOFGNL+WellsFargoSans-Display, /AGEAZN+WellsFargoSans-SemiBold, /IFDRHX+WellsFargoSans-Bold, /TPEDCH+TimesNewRoman, /FQRERD+Calibri, /SCBZRD+WellsFargoSans-Regular, /CBFMBJ+WellsFargoSans-Light, /MBCPLP+Calibri-Bold, /ZZRULP+WellsFargoSans-Light
-
-### fw8ben.pdf
-
-- **URL**: https://www.irs.gov/pub/irs-pdf/fw8ben.pdf
-- **Status**: analysed
-- fonts:/CFUVYJ+HelveticaNeueLTStd-Roman, /CNSQYJ+UniversalStd-NewswithCommPi, /DWGBMH+HelveticaNeueLTStd-BlkCn, /AKTEWN+UniversalStd-NewswithCommPi, /ZQIDIP+HelveticaNeueLTStd-BdIt, /EAVHAF+AdobePiStd, /THGTCB+HelveticaNeueLTStd-Bd, /MCSDIP+ITCFranklinGothicStd-Demiforms-fail, forms-tagging-fail, 
-
-### fw9.pdf
-
-- **URL**: https://www.irs.gov/pub/irs-pdf/fw9.pdf
-- **Status**: analysed
-- fonts:/ZKUMQA+HelveticaNeueLTStd-BlkCn, /OKAJSW+HelveticaNeueLTStd-Roman, /MBEHQA+HelveticaNeueLTStd-Bd, /MCXSQA+ITCFranklinGothicStd-Demi, /FEOMWO+HelveticaNeueLTStd-It, /PVUZGU+HelveticaNeueLTStd-BdItheadings-skip, forms-fail, forms-tagging-fail, 
-
-### identity-theft-kit.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/privacy-security/fraud/identity-theft-kit.pdf
-- **Status**: error
-- File not found: crawled_files/wellsfargo.com/identity-theft-kit.pdf (crawled 0.0 day(s) ago at 2026-07-10T13:33:37.002412+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
-### set-up-direct-deposit-CNS3519.pdf
-
-- **URL**: https://www.wellsfargo.com/assets/pdf/personal/checking/set-up-direct-deposit-CNS3519.pdf
-- **Status**: analysed
-- fonts:/NWWZYI+Arial-BoldMT, /PMXQAE+WellsFargoSans-Regular, /GJFJEW+ArialMT, /ANKZYI+WellsFargoSans-Italic, /BZSFMG+MICR12byBT-Regular, /IMJVGS+Arial-BoldMT, /KPENVD+TimesNewRoman, /KHKMIO+WellsFargoSans-SemiBold, /SBJDQY+WellsFargoSans-Bold, /YKGNWM+Webdings, /FXXDQY+WellsFargoSans-Italic
-
-### us_consumer_privacy_notice_english-0.pdf
-
-- **URL**: https://www08.wellsfargomedia.com/assets/pdf/personal/privacy-security/us_consumer_privacy_notice_english.pdf
-- **Status**: analysed
-- fonts:/BCDFEE+WellsFargoSans-Bold, /BCDGEE+WellsFargoSans-Regular, /BCDEEE+WellsFargoSans-Regular, /UYQNJJ+MinionPro-Regular, /FBEDKT+Arial, /BCDJEE+WellsFargoSans-Italic, /BCDHEE+WellsFargoSans-SemiBold, /BCDKEE+Calibri, /BCDLEE+WellsFargoSans-BoldItalic, /BCDIEE+WellsFargoSans-SemiBold
 
 ### New-Zealand-Traveller-Declaration-Easy-Read-22-07-2024.pdf
 
