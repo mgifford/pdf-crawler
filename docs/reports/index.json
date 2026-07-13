@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-13T18:02:37.398344+00:00",
+    "site": "pa.gov",
+    "crawl_url": "https://www.pa.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29270001597",
+    "issue_url": "",
+    "archive_file": "2026-07-13_18-02-37-398_pa.gov.html",
+    "total": 732,
+    "analysed": 272,
+    "accessible": 54,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-07-13T17:19:07.077084+00:00",
     "site": "pa.gov",
     "crawl_url": "https://www.pa.gov/",
