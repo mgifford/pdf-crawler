@@ -1,15 +1,14 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-13T15:52:57.916207+00:00
+Generated: 2026-07-13T16:35:52.268374+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 65 |
-| Total files tracked | 28121 |
+| Total files tracked | 28860 |
 | Analysed | 6477 |
-| Pending analysis | 16018 |
+| Pending analysis | 16757 |
 | Errors during analysis | 5626 |
 | Accessible | 2015 |
 | Issues found | 4462 |
@@ -53,7 +52,7 @@ Generated: 2026-07-13T15:52:57.916207+00:00
 | govt.nz | 106 |
 | gsa.gov | 450 |
 | hamilton.ca | 477 |
-| hud.gov | 3366 |
+| hud.gov | 4105 |
 | ijcaonline.org | 1 |
 | kfw.de | 8 |
 | kjk.umn.edu | 1 |
