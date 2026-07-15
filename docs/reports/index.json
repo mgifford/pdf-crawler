@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-15T15:42:51.754333+00:00",
+    "site": "cc-coeurdegaronne.fr",
+    "crawl_url": "https://www.cc-coeurdegaronne.fr",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29426174899",
+    "issue_url": "",
+    "archive_file": "2026-07-15_15-42-51-754_cc-coeurdegaronne.fr.html",
+    "total": 562,
+    "analysed": 89,
+    "accessible": 0,
+    "analysis_engines": [
+      "bloom",
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-07-15T07:14:45.322419+00:00",
     "site": "mon-grand-est.fr",
     "crawl_url": "https://mon-grand-est.fr/",
