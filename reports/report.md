@@ -1,21 +1,20 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-15T15:38:47.759040+00:00
+Generated: 2026-07-15T16:22:24.316118+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 68 |
-| Total files tracked | 28866 |
-| Analysed | 6479 |
-| Pending analysis | 16718 |
-| Errors during analysis | 5669 |
-| Accessible | 2015 |
-| Issues found | 4464 |
+| Total files tracked | 29630 |
+| Analysed | 6488 |
+| Pending analysis | 17476 |
+| Errors during analysis | 5666 |
+| Accessible | 2016 |
+| Issues found | 4472 |
 | Totally inaccessible subset | 289 |
 | Broken / unreadable | 29 |
-| Exempt (pre-2018) | 1528 |
+| Exempt (pre-2018) | 1529 |
 
 ## Files per Site
 
@@ -46,14 +45,14 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | ecboces.org | 75 |
 | ed.gov | 2886 |
 | edf-feph.org | 98 |
-| energy.gov | 4003 |
+| energy.gov | 4642 |
 | erappa.org | 17 |
 | euclinicaltrials.eu | 78 |
 | gci-ga.com | 61 |
 | govt.nz | 106 |
 | gsa.gov | 450 |
 | hamilton.ca | 477 |
-| hud.gov | 4105 |
+| hud.gov | 4230 |
 | ijcaonline.org | 1 |
 | kfw.de | 8 |
 | kjk.umn.edu | 1 |
@@ -700,7 +699,7 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | [2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2024-04/2024Summit-Engaging_Residents_Multifamily_Projects-Slides.pdf) | energy.gov | 2024-04-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 29 | — | — | — |
 | [2025-reporting-webinar.pdf](https://epact.energy.gov/pdfs/2025-reporting-webinar.pdf) | energy.gov | 2025-12-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 29 | — | — | — |
 | [2025Summit-Long_Term_Planning_Savings_Multifamily-Slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/2025-05/2025Summit-Long_Term_Planning_Savings_Multifamily-Slides.pdf) | energy.gov | 2025-05-14 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 36 | — | — | — |
-| [233%20-%20PI%20Order%20and%20Mem.%20Op..pdf](https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf) | energy.gov | 2025-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 53 | — | — | — |
+| [233%20-%20PI%20Order%20and%20Mem.%20Op..pdf](https://www.energy.gov/sites/default/files/2025-03/233%20-%20PI%20Order%20and%20Mem.%20Op..pdf) | energy.gov | 2025-02-28 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 53 | 462.3 KB | — | — |
 | [2527.pdf](https://afdc.energy.gov/files/pdfs/2527.pdf) | energy.gov | 2008-08-22 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 357 | — | — | — |
 | [3-3-15-Dealerships-to-Donuts-slides.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/slides/3-3-15-Dealerships-to-Donuts-slides.pdf) | energy.gov | 2015-03-10 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 40 | — | — | — |
 | [3-3-15-Dealerships-to-Donuts-transcript.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/transcript/3-3-15-Dealerships-to-Donuts-transcript.pdf) | energy.gov | 2015-03-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | — | — |
@@ -810,7 +809,7 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | [QECB-FAQ_final.pdf](https://www.energy.gov/sites/prod/files/2017/08/f36/QECB-FAQ_final.pdf) | energy.gov | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
 | [QuantumWkshpRpt20FINAL_Nav_0.pdf](https://www.energy.gov/sites/prod/files/2020/07/f76/QuantumWkshpRpt20FINAL_Nav_0.pdf) | energy.gov | 2020-07-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 36 | — | — | — |
 | [Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f](https://cleancities.energy.gov/files/u/news_events/document/document_url/132/Quon_DOT_NGVTF_Presentation_abbrv_rev_10-21-2015.pdf?a6413e409f) | energy.gov | 2016-12-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 26 | — | — | — |
-| [RI_TRO_Notice.pdf](https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf) | energy.gov | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | — | — | — |
+| [RI_TRO_Notice.pdf](https://www.energy.gov/sites/default/files/2025-02/RI_TRO_Notice.pdf) | energy.gov | — | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | 237.5 KB | — | — |
 | [Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/Real-time_Energy_Management_Thurs_Columbia4_1115_ReallyFinal.pdf) | energy.gov | 2014-05-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 81 | — | — | — |
 | [Red-Volunteer.pdf](https://cyberforce.energy.gov/wp-content/uploads/2025/05/Red-Volunteer.pdf) | energy.gov | 2025-05-23 | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | — | — |
 | [Renew_America%27s_Nonrprofits_Office_Hours_2_Presentation.pdf](https://www.energy.gov/sites/default/files/2023-07/Renew_America%27s_Nonrprofits_Office_Hours_2_Presentation.pdf) | energy.gov | 2023-07-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 33 | — | — | — |
@@ -870,7 +869,7 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | [biodieselinterim.pdf](https://epact.energy.gov/pdfs/biodieselinterim.pdf) | energy.gov | 2008-03-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 7 | — | — | — |
 | [bk28423.pdf?sfvrsn=705e04e2_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/bk28423.pdf?sfvrsn=705e04e2_1) | energy.gov | 2000-04-26 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 42 | — | — | — |
 | [brochure.pdf?sfvrsn=fd9d95e0_1](https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/brochure.pdf?sfvrsn=fd9d95e0_1) | energy.gov | 2000-06-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 8 | — | — | — |
-| [bto-ghg-metrics-011525.pdf](https://www.energy.gov/sites/default/files/2025-01/bto-ghg-metrics-011525.pdf) | energy.gov | 2025-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 23 | — | — | — |
+| [bto-ghg-metrics-011525.pdf](https://www.energy.gov/sites/default/files/2025-01/bto-ghg-metrics-011525.pdf) | energy.gov | 2025-01-15 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 23 | 762.3 KB | — | — |
 | [business-card.pdf](https://epact.energy.gov/pdfs/business-card.pdf) | energy.gov | 2016-07-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | — | — |
 | [clean_cities_and_communities_partnership_2023_activity_report.pdf](https://afdc.energy.gov/files/u/publication/clean_cities_and_communities_partnership_2023_activity_report.pdf) | energy.gov | 2025-01-16 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 44 | — | — | — |
 | [clean_cities_coalitions_overview.pdf](https://afdc.energy.gov/files/u/publication/clean_cities_coalitions_overview.pdf) | energy.gov | 2025-02-11 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | — | — |
@@ -4302,7 +4301,7 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | [3118-sasc-nomination-testimonypdf.pdf](https://www.energy.gov/documents/3118-sasc-nomination-testimonypdf) | energy.gov | 2018-02-26 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 755 | 0 |
 | [DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf](https://www.energy.gov/sites/default/files/2025-11/DOE%20Final%20EO%20Report%20%28REVISED%20OCT%2027%29.pdf) | energy.gov | 2025-10-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 73 | — | 18302 | 58 |
 | [MSIPP%20FY2022%20%20Impact_2.pdf](https://www.energy.gov/sites/default/files/2023-06/MSIPP%20FY2022%20%20Impact_2.pdf) | energy.gov | 2023-04-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 4 | — | 923 | 3 |
-| [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 22 | — | 7021 | 7 |
+| [Open-Government-Plan-4.0-Final.pdf](https://www.energy.gov/sites/default/files/2016/10/f33/Open-Government-Plan-4.0-Final.pdf) | energy.gov | 2016-10-07 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ✅ Pass | 22 | 1.1 MB | 7021 | 7 |
 | [amw-nomination-testimony-jan-18-18pdf.pdf](https://www.energy.gov/documents/amw-nomination-testimony-jan-18-18pdf) | energy.gov | 2018-08-01 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 174 | 0 |
 | [applying-msipp-grants.pdf](https://www.energy.gov/nnsa/articles/applying-msipp-grants) | energy.gov | 2023-03-09 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 8 | — | 2436 | 1 |
 | [centralia-order-no-202-26-18.pdf](https://www.energy.gov/documents/centralia-order-no-202-26-18) | energy.gov | — | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 2703 | 1 |
@@ -4347,7 +4346,7 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | [Order%20No.%20202-25-10.pdf](https://www.energy.gov/sites/default/files/2025-11/Order%20No.%20202-25-10.pdf) | energy.gov | 2025-11-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 9 | — | 3557 | 2 |
 | [Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf](https://www.energy.gov/sites/default/files/2022-05/Report%20to%20Congress%20on%20Recovery%20of%20Rare%20Earth%20Elements%20and%20Critical%20Minerals%20from%20Coal%20and%20Coal%20By-Products.pdf) | energy.gov | 2022-05-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 86 | — | 22399 | 16 |
 | [Supply%20Chain%20Progress%20Report%20-%20August%202023.pdf](https://www.energy.gov/sites/default/files/2023-08/Supply%20Chain%20Progress%20Report%20-%20August%202023.pdf) | energy.gov | 2023-08-22 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 38 | — | 10577 | 45 |
-| [Tips_for_a_Strong_FOA_App_FINAL_.pdf](https://www.energy.gov/sites/default/files/2024-03/Tips_for_a_Strong_FOA_App_FINAL_.pdf) | energy.gov | 2024-03-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 73 | — | 6987 | 203 |
+| [Tips_for_a_Strong_FOA_App_FINAL_.pdf](https://www.energy.gov/sites/default/files/2024-03/Tips_for_a_Strong_FOA_App_FINAL_.pdf) | energy.gov | 2024-03-01 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 73 | 1.4 MB | 6987 | 203 |
 | [U.S.%20Hydropower%20Market%20Report%202023%20Edition.pdf](https://www.energy.gov/sites/default/files/2023-09/U.S.%20Hydropower%20Market%20Report%202023%20Edition.pdf) | energy.gov | 2023-09-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 138 | — | 58518 | 21 |
 | [Water%20Security%20Workshop%20Summary_0.pdf](https://www.energy.gov/sites/prod/files/2019/07/f64/Water%20Security%20Workshop%20Summary_0.pdf) | energy.gov | 2019-07-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 46 | — | 18351 | 8 |
 | [ZEDD-Application-Instructions-opt.pdf](https://www.energy.gov/sites/default/files/2022-05/ZEDD-Application-Instructions-opt.pdf) | energy.gov | 2022-05-20 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 1086 | 2 |
@@ -4419,7 +4418,7 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | [validation_shervais_snake_river.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_shervais_snake_river.pdf) | energy.gov | 2010-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 16 | — | 1283 | 31 |
 | [validation_stockli_detachment_faulting.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_stockli_detachment_faulting.pdf) | energy.gov | 2010-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 12 | — | 820 | 17 |
 | [validation_teplow_large_aperture.pdf](https://www.energy.gov/sites/default/files/2014/02/f7/validation_teplow_large_aperture.pdf) | energy.gov | 2010-08-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 15 | — | 919 | 25 |
-| [what-foia.pdf](https://www.energy.gov/gc/articles/what-foia) | energy.gov | 2007-03-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 780 | 0 |
+| [what-foia.pdf](https://www.energy.gov/gc/articles/what-foia) | energy.gov | 2007-03-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | 29.1 KB | 780 | 0 |
 | [wpto-third-9505-assessment-0.pdf](https://www.energy.gov/sites/default/files/2022-11/wpto-third-9505-assessment.pdf) | energy.gov | 2022-11-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 667 | 3 |
 | [wpto-third-9505-assessment.pdf](https://www.energy.gov/sites/default/files/2023-01/wpto-third-9505-assessment.pdf) | energy.gov | 2023-01-05 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 667 | 3 |
 | [accessible-pdfs-an-actionable-guide-for-every-business.pdf](https://s.smallpdf.com/static/cms/f/102628/x/70ab56427d/accessible-pdfs-an-actionable-guide-for-every-business.pdf) | smallpdf.com | 2025-06-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 25 | — | 4222 | 0 |
@@ -5312,7 +5311,7 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | [2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team.pdf](https://www.energy.gov/cmei/fuels/articles/2022-2023-algaeprize-competition-poster-uc-davis-giant-kelp-team) | energy.gov | 2023-04-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 212 | 10 |
 | [Infographic%20SPR%2002_2023.pdf](https://www.energy.gov/sites/default/files/2023-03/Infographic%20SPR%2002_2023.pdf) | energy.gov | 2023-03-06 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 603 | 4 |
 | [OEA_WashingtonDC.pdf](https://www.energy.gov/sites/default/files/2026-03/OEA_WashingtonDC.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 309 | 1 |
-| [WAPA_Posting_Notice.pdf](https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 313 | 0 |
+| [WAPA_Posting_Notice.pdf](https://www.energy.gov/sites/default/files/2026-03/WAPA_Posting_Notice.pdf) | energy.gov | 2026-03-23 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | 192.2 KB | 313 | 0 |
 | [doe-national-labs-report-finalpdf.pdf](https://www.energy.gov/documents/doe-national-labs-report-finalpdf) | energy.gov | 2021-01-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | — | — | — | — | — | — | — | — | ❌ Fail | 96 | — | 38681 | 144 |
 | [h2iq-hour-10282021.pdf](https://www.energy.gov/sites/default/files/2021-11/h2iq-hour-10282021.pdf) | energy.gov | 2021-11-29 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 25 | — | 1768 | 212 |
 | [nuclear-power-summary.pdf](https://www.energy.gov/ne/articles/nuclear-power-summary) | energy.gov | 2017-08-21 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 8 | — | 2283 | 14 |
@@ -5332,7 +5331,7 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | [Campbell%20Order%20Addressing%20Arguments%20Raised%20on%20Rehearing.pdf](https://www.energy.gov/sites/default/files/2025-09/Campbell%20Order%20Addressing%20Arguments%20Raised%20on%20Rehearing.pdf) | energy.gov | 2025-09-08 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 24 | — | 9630 | 76 |
 | [Correction%20Needed%20to%20VGCP.pdf](https://www.energy.gov/sites/default/files/2022-01/Correction%20Needed%20to%20VGCP.pdf) | energy.gov | 2022-01-03 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 576 | 0 |
 | [DE-AI30-08CC60036_Attachment_1.pdf](https://www.energy.gov/sites/default/files/2023-09/DE-AI30-08CC60036_Attachment_1.pdf) | energy.gov | — | — | — | — | — | ❌ Fail | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 6 | — | 0 | 6 |
-| [DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf](https://www.energy.gov/sites/default/files/2025-10/DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf) | energy.gov | 2025-10-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | — | 4402 | 12 |
+| [DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf](https://www.energy.gov/sites/default/files/2025-10/DOE%20Efficient%20New%20Homes%20MH%20Certification%20Reporting%20and%20Enforcement%20Guide%20V1%20Rev%201%20Clean.pdf) | energy.gov | 2025-10-06 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 12 | 230.5 KB | 4402 | 12 |
 | [DOE%20ZERH%20MH%20V1%20National%20Program%20Requirements.pdf](https://www.energy.gov/sites/default/files/2022-12/DOE%20ZERH%20MH%20V1%20National%20Program%20Requirements.pdf) | energy.gov | 2022-12-22 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 13 | — | 4768 | 13 |
 | [Distributed%20Wind%20Competitiveness%20Project%20Fact%20Sheet%20FY19_1.pdf](https://www.energy.gov/sites/prod/files/2019/02/f60/Distributed%20Wind%20Competitiveness%20Project%20Fact%20Sheet%20FY19_1.pdf) | energy.gov | 2019-02-26 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 579 | 3 |
 | [EM%20SSAB%20Charter%202024.pdf](https://www.energy.gov/sites/default/files/2024-04/EM%20SSAB%20Charter%202024.pdf) | energy.gov | 2024-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 910 | 1 |
@@ -5357,7 +5356,7 @@ Generated: 2026-07-15T15:38:47.759040+00:00
 | [UC%20Davis%20Giant%20Kelp%20Team.pdf](https://www.energy.gov/sites/default/files/2022-04/UC%20Davis%20Giant%20Kelp%20Team.pdf) | energy.gov | 2022-04-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | — | 551 | 2 |
 | [USA-Qatar-Joint-Letter.pdf](https://www.energy.gov/sites/default/files/2025-10/USA-Qatar-Joint-Letter.pdf) | energy.gov | 2025-10-21 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 3 | — | 163 | 6 |
 | [USGS%20and%20DOE%20FECM_Memorandum%20of%20Understanding_January%202025.pdf](https://www.energy.gov/sites/default/files/2025-01/USGS%20and%20DOE%20FECM_Memorandum%20of%20Understanding_January%202025.pdf) | energy.gov | 2025-01-14 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 7 | — | 2137 | 1 |
-| [VTO_FOA_Info_Session_Part_2_Budget.pdf](https://www.energy.gov/sites/default/files/2023-06/VTO_FOA_Info_Session_Part_2_Budget.pdf) | energy.gov | 2023-06-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | — | 1679 | 57 |
+| [VTO_FOA_Info_Session_Part_2_Budget.pdf](https://www.energy.gov/sites/default/files/2023-06/VTO_FOA_Info_Session_Part_2_Budget.pdf) | energy.gov | 2023-06-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 15 | 1.8 MB | 1679 | 57 |
 | [advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication.pdf](https://www.energy.gov/ne/articles/advancing-and-commercializing-hybrid-laser-arc-welding-hlaw-nuclear-vessel-fabrication) | energy.gov | 2018-04-30 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 843 | 12 |
 | [antares_project_abstract.pdf](https://www.energy.gov/sites/prod/files/2014/03/f14/antares_project_abstract.pdf) | energy.gov | 2012-12-27 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | — | 372 | 0 |
 | [appendix-e-coverpdf.pdf](https://www.energy.gov/documents/appendix-e-coverpdf) | energy.gov | 2016-12-19 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 2 | — | 8 | 0 |
@@ -6175,7 +6174,16 @@ a cubrir suministros y servicios para la diabetes | Centers for Medicare & Medic
 | [USDS-SBA8a_Detailed.pdf](https://techfarhub.usds.gov/assets/files/USDS-SBA8a_Detailed.pdf) | usds.gov | 2017-05-01 | USDS 8a Digital Service Intiative | {'U.S. Digital Service Acquisitions Team'} | {'8a', 'SBA', 'procuremenati', 'USDS'} | 8a, SBA, USDS, procuremenati | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | 1 | — | 286 | 2 |
 | [usds-di.pdf](https://www.usds.gov/assets/files/usds-di.pdf) | usds.gov | 2020-09-24 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 2 | — | 499 | 2 |
 | [DOE_Fact_Sheet_Grid_Report_July_2025.pdf](https://www.energy.gov/sites/default/files/2025-07/DOE_Fact_Sheet_Grid_Report_July_2025.pdf) | energy.gov | 2025-07-07 | — | Dankert, Charlie | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 3 | — | 1276 | 0 |
-| [2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf](https://www.energy.gov/sites/default/files/2025-03/2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf) | energy.gov | 2025-03-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | — | — | — |
+| [2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf](https://www.energy.gov/sites/default/files/2025-03/2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf) | energy.gov | 2025-03-05 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 2 | 150.8 KB | — | — |
+| [258%20-%20Order%20on%20Motion%20for%20Contempt.pdf](https://www.energy.gov/sites/default/files/2025-03/258%20-%20Order%20on%20Motion%20for%20Contempt.pdf) | energy.gov | 2025-03-17 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | 17 | 269.0 KB | — | — |
+| [BILLS-111s612is.pdf](https://www.govinfo.gov/content/pkg/BILLS-111s612is/pdf/BILLS-111s612is.pdf) | energy.gov *(ext: govinfo.gov)* | 2023-01-09 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 2 | 109.4 KB | — | — |
+| [DOE-OIG-23-12.pdf](https://www.energy.gov/sites/default/files/2023-01/DOE-OIG-23-12.pdf) | energy.gov | 2023-01-13 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 9 | 915.7 KB | — | — |
+| [DOE-OIG-24-10.pdf](https://www.energy.gov/sites/default/files/2024-01/DOE-OIG-24-10.pdf) | energy.gov | 2024-01-16 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 14 | 1.6 MB | — | — |
+| [DOE-OIG-25-10.pdf](https://www.energy.gov/sites/default/files/2025-02/DOE-OIG-25-10.pdf) | energy.gov | 2025-02-25 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | ✅ Pass | ✅ Pass | ❌ Fail | 38 | 2.0 MB | — | — |
+| [DOE-OIG-26-07.pdf](https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-07.pdf) | energy.gov | 2026-01-14 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | ✅ Pass | ❌ Fail | 13 | 957.4 KB | — | — |
+| [M-19-15.pdf](https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-15.pdf) | energy.gov *(ext: whitehouse.gov)* | 2019-04-23 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 11 | 991.1 KB | — | — |
+| [Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf](https://www.energy.gov/sites/default/files/2025-03/Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf) | energy.gov | 2025-03-20 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | ❌ Fail | 3 | 187.8 KB | — | — |
+| [amendment-s2488.pdf](https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amendment-s2488.pdf) | energy.gov *(ext: justice.gov)* | 2008-02-19 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | ✅ Pass | Warn | NotApplicable | ✅ Pass | 19 | 387.9 KB | — | — |
 | [191001-ministerrat.pdf](https://www.stmd.bayern.de/wp-content/uploads/2019/10/191001-ministerrat.pdf) | stmd.bayern.de | 2019-10-01 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ✅ Pass | Warn | ✅ Pass | NotApplicable | ❌ Fail | 7 | — | — | — |
 | [20200924-Cert4Trust_Presseblatt.pdf](https://www.stmd.bayern.de/wp-content/uploads/2020/09/20200924-Cert4Trust_Presseblatt.pdf) | stmd.bayern.de | 2020-09-23 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | Warn | NotApplicable | NotApplicable | ❌ Fail | 1 | — | — | — |
 | [21_04_2021_Abschlussbericht_DISKURS.pdf](https://www.stmd.bayern.de/wp-content/uploads/2021/05/21_04_2021_Abschlussbericht_DISKURS.pdf) | stmd.bayern.de | 2021-03-30 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | ❌ Fail | NotApplicable | NotApplicable | ❌ Fail | ❌ Fail | NotApplicable | NotApplicable | NotApplicable | ❌ Fail | 7 | — | — | — |
@@ -53178,12 +53186,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - File not found: crawled_files/energy.gov/OralHistoryProject_JacqelineYoung_Transcript.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.652289+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
-### Organization-Chart-11.20.2025-2.pdf
-
-- **URL**: https://www.energy.gov/sites/default/files/2025-11/Organization-Chart-11.20.2025-2.pdf
-- **Status**: error
-- File not found: crawled_files/energy.gov/Organization-Chart-11.20.2025-2.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.653883+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
-
 ### advanced-instrumentation-information-and-control-system-technologies-nondestructive.pdf
 
 - **URL**: https://www.energy.gov/ne/articles/advanced-instrumentation-information-and-control-system-technologies-nondestructive
@@ -53291,12 +53293,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.energy.gov/sites/default/files/2026-03/ord4446-B.pdf
 - **Status**: analysed
 - title, 
-
-### order-addressing-arguments-raised-rehearing-202-25-7b.pdf
-
-- **URL**: https://www.energy.gov/documents/order-addressing-arguments-raised-rehearing-202-25-7b
-- **Status**: error
-- File not found: crawled_files/energy.gov/order-addressing-arguments-raised-rehearing-202-25-7b.pdf (crawled 0.2 day(s) ago at 2026-03-20T16:06:15.771154+00:00). Possible causes: failed download, incomplete artifact transfer, or stale manifest entry from a previous run.
 
 ### propulsion-materials-rd-2008-annual-progress-report.pdf
 
@@ -60084,12 +60080,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.763187+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
-### bto-peer-2023-25204-seed-nrel-longpdf.pdf
-
-- **URL**: https://www.energy.gov/documents/bto-peer-2023-25204-seed-nrel-longpdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-03-27T16:22:31.777909+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
 ### communications-and-outreach-plannewberry-volcano-orpdf-5.pdf
 
 - **URL**: https://www.energy.gov/documents/communications-and-outreach-plannewberry-volcano-orpdf-5
@@ -64595,6 +64585,60 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.energy.gov/sites/default/files/2025-03/2025.03.05%20-%20Washington%20v.%20Trump%20-%20Notice%20of%20Court%20Order.pdf
 - **Status**: analysed
 - title, fonts:/NXQWHS+Arial-BoldMT, /MUOKTU+TimesNewRomanPSMT, /KKFORY+TimesNewRomanPS-BoldMT, /DZZDXM+TimesNewRomanPS-ItalicMT
+
+### 258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/258%20-%20Order%20on%20Motion%20for%20Contempt.pdf
+- **Status**: analysed
+- title, fonts:/RCFKVL+Arial-BoldMT, /BEDSFR+ArialMT, /BEDSFR+TimesNewRomanPS-ItalicMT, /RCFKVL+TimesNewRomanPS-BoldMT, /BEDSFR+KING, /EABKBJ+LiberationSans, /GBSWXH+TimesNewRomanPSMT, /BEDSFR+SymbolMT
+
+### BILLS-111s612is.pdf
+
+- **URL**: https://www.govinfo.gov/content/pkg/BILLS-111s612is/pdf/BILLS-111s612is.pdf
+- **Status**: analysed
+- title, tagged, lang, fonts:/OKHALH+BGsddV01, /OKGPGH+Cheltenham-Bold, /OKGPMN+Times-Roman, /OKGPDO+DeVinne, /OKGPPG+Helvetica, /OKHAHA+NewCenturySchlbk-Bold, /OKHAEH+Symbol, /OKGPKE+DeVinne-Italicforms-fail, forms-untagged, 
+
+### DOE-OIG-23-12.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2023-01/DOE-OIG-23-12.pdf
+- **Status**: analysed
+- title, lang, fonts:/YNDJSB+Arial-BoldMT, /YKEEXW+BookmanOldStyle, /XLUYJY+BookAntiqua-Bold, /XLUYJY+AbadiExtraLight, /EEDTYP+TimesNewRomanPS-BoldMT, /YNDJSB+ArialMT, /RPUTDK+Calibri, /OGBBIV+BookmanOldStyle-Bold, /GHCFAL+TimesNewRomanPSMTfigures-alt, headings-none, 
+
+### DOE-OIG-24-10.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2024-01/DOE-OIG-24-10.pdf
+- **Status**: analysed
+- title, lang, fonts:/TDQCBB+ArialMT, /SBZFTE+BookmanOldStyle, /TDQCBB+TimesNewRomanPSMT, /JGNURV+Arial-BoldMT, /SBZFTE+Calibri, /OGBTJL+TimesNewRomanPS-BoldMT, /EEYQZF+TimesNewRomanPS-ItalicMT, /CDXNDK+AbadiExtraLight, /CDXNDK+BookAntiqua-Boldfigures-alt, headings-none, 
+
+### DOE-OIG-25-10.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-02/DOE-OIG-25-10.pdf
+- **Status**: analysed
+- title, lang, fonts:/AGKITX+EngraversMT, /TimesNewRomanPSMT, /XVKYAZ+Arial-BoldItalicMT, /FMLUIJ+TimesNewRomanPS-ItalicMT, /TimesNewRomanPS-BoldMT, /ArialMT, /WAMKPF+TimesNewRomanPSMT, /UYALKF+Arial-BoldMT, /SymbolMT, /GTYAWH+SymbolMT, /TimesNewRomanPS-BoldItalicMT, /TimesNewRomanPS-ItalicMT, /BCDEEE+ArialNarrow-Bold, /EQUOUL+Cambria, /FQXMLN+Calibri, /FZNZIJ+ArialMT, /RMIOUL+TimesNewRomanPS-BoldMTfigures-alt, headings-none, 
+
+### DOE-OIG-26-07.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2026-01/DOE-OIG-26-07.pdf
+- **Status**: analysed
+- title, lang, fonts:/BCEDEE+TimesNewRomanPS-BoldMT, /BCDHEE+Arial-BoldMT, /BCDKEE+TimesNewRomanPS-ItalicMT, /BCDPEE+Figtree-BoldItalic, /BCDGEE+BookmanOldStyle, /BCEBEE+Figtree-SemiBoldItalic, /BCDEEE+Tahoma, /BCDIEE+TimesNewRomanPSMT, /SIDONT+Aptos-Bold, /BCDOEE+Figtree-Bold, /BCDMEE+Calibri, /BCECEE+SymbolMT, /BCEAEE+Figtree-BoldItalic, /GIGUBR+Calibri-Light, /BCDNEE+Figtree-Bold, /BCDFEE+ArialMT, /ULHAPP+Aptos, /BCDLEE+TimesNewRomanPSMT, /BCDJEE+TimesNewRomanPS-ItalicMTfigures-alt, lists-fail, 
+
+### M-19-15.pdf
+
+- **URL**: https://www.whitehouse.gov/wp-content/uploads/2019/04/M-19-15.pdf
+- **Status**: analysed
+- fonts:/Helvetica, /Times-Bold, /Helvetica-Oblique, /Times-BoldItalic, /Times-Italic, /Times-Romanheadings-warn, 
+
+### Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf
+
+- **URL**: https://www.energy.gov/sites/default/files/2025-03/Washington%20v.%20Trump%20-%20notice%20of%20court%20order%20-%20PI%20clarification%20-%2003-20-25.pdf
+- **Status**: analysed
+- title, fonts:/HCSFSP+TimesNewRomanPS-BoldMT, /SLDOQT+Arial-BoldMT, /CKHBAZ+TimesNewRomanPS-ItalicMT, /AXEKYD+ArialMT, /GGBUER+Century, /ZNXOKF+TimesNewRomanPSMT
+
+### amendment-s2488.pdf
+
+- **URL**: https://www.justice.gov/sites/default/files/oip/legacy/2014/07/23/amendment-s2488.pdf
+- **Status**: analysed
+- title, fonts:/Helvetica, /Times-Bold, /Times-Italic, /Helvetica-Bold, /Times-Romanlists-warn, 
 
 ### 191001-ministerrat.pdf
 
