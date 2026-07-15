@@ -1,16 +1,16 @@
 # PDF Accessibility Scan Report
 
-Generated: 2026-07-15T07:14:45.322419+00:00
+Generated: 2026-07-15T15:38:47.759040+00:00
 
 ## Summary
 
 | Metric | Count |
 |--------|-------|
-| URLs crawled | 1008 |
-| Total files tracked | 28862 |
+| URLs crawled | 68 |
+| Total files tracked | 28866 |
 | Analysed | 6479 |
-| Pending analysis | 16713 |
-| Errors during analysis | 5670 |
+| Pending analysis | 16718 |
+| Errors during analysis | 5669 |
 | Accessible | 2015 |
 | Issues found | 4464 |
 | Totally inaccessible subset | 289 |
@@ -73,7 +73,7 @@ Generated: 2026-07-15T07:14:45.322419+00:00
 | nwboces.org | 21 |
 | ontario.ca | 51 |
 | oregon.gov | 2178 |
-| pa.gov | 732 |
+| pa.gov | 736 |
 | pca.state.mn.us | 211 |
 | ppboces.org | 34 |
 | products.gci-ga.com | 137 |
@@ -3587,7 +3587,7 @@ Generated: 2026-07-15T07:14:45.322419+00:00
 | [flag%20program%20flying%20request%20form.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dgs/documents/about/documents/flag%20program%20flying%20request%20form.pdf) | pa.gov | 2024-09-04 | — | — | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 131 | 0 |
 | [hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2025/hanover%20nhios%20town%20hall%20flyer-%20new%20date.pdf) | pa.gov | 2025-10-02 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 142 | 11 |
 | [immigration%20nhios%20town%20hall%20flyer%20(3).pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/phrc/images/no-hate-in-our-state/2026/immigration%20nhios%20town%20hall%20flyer%20(3).pdf) | pa.gov | 2026-02-09 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 1 | — | 148 | 14 |
-| [it-policy-crosswalk.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf) | pa.gov | 2026-06-17 | — | Grim, Christopher | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 15 | 301.5 KB | 2514 | 1 |
+| [it-policy-crosswalk.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf) | pa.gov | 2026-07-15 | — | Grim, Christopher | — | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | NotApplicable | NotApplicable | ✅ Pass | ❌ Fail | Warn | NotApplicable | ✅ Pass | ❌ Fail | 15 | 301.7 KB | 2534 | 1 |
 | [lce_pe_readiness_tests.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/psp/documents/employment/lce_pe_readiness_tests.pdf) | pa.gov | 2025-11-25 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 2 | 128.3 KB | 577 | 1 |
 | [legislative_inquiries_submission_update.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/getassistance/legislativeaffairs/documents/legislative_inquiries_submission_update.pdf) | pa.gov | 2025-02-24 | — | — | — | — | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | — | — | — | — | — | — | — | — | ❌ Fail | 5 | — | 709 | 27 |
 | [library%20collection.pdf](https://www.pa.gov/content/dam/copapwp-pagov/en/dli/documents/individuals/disability-services/odhh/odhh-resources/documents/library%20collection.pdf) | pa.gov | 2015-04-16 | — | — | — | — | ❌ Fail | ❌ Fail | ✅ Pass | ✅ Pass | ❌ Fail | ❌ Fail | ✅ Pass | — | — | — | — | — | — | — | — | ✅ Pass | 1 | 49.0 KB | 200 | 0 |
@@ -67649,12 +67649,6 @@ Organisation | — | ❌ Fail | ✅ Pass | ✅ Pass | ✅ Pass | ✅ Pass | ✅ 
 - **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/ddap/documents/documents/sca-agreement---incorporated-documents/c-%20commonwealth%20travel%20and%20subsistance%20rates%20rev%2007-15.pdf
 - **Status**: error
 - Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.222688+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
-
-### c_286660.pdf
-
-- **URL**: https://www.pa.gov/content/dam/copapwp-pagov/en/dhs/documents/docs/documents/odp/c_286660.pdf
-- **Status**: error
-- Stale manifest entry: file not found after 2+ days (crawled_at: 2026-07-10T13:49:32.225769+00:00). The file was probably downloaded in a previous run whose crawled_files directory is no longer available.
 
 ### cdr_2023.pdf
 

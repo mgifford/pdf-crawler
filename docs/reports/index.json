@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-07-15T15:38:47.759040+00:00",
+    "site": "pa.gov",
+    "crawl_url": "https://www.pa.gov/",
+    "run_url": "https://github.com/mgifford/pdf-crawler/actions/runs/29425812401",
+    "issue_url": "",
+    "archive_file": "2026-07-15_15-38-47-759_pa.gov.html",
+    "total": 736,
+    "analysed": 272,
+    "accessible": 54,
+    "analysis_engines": [
+      "original"
+    ],
+    "verapdf": false,
+    "vp_checked_files": 0,
+    "vp_pass_files": 0,
+    "vp_fail_files": 0,
+    "vp_error_files": 0
+  },
+  {
     "date": "2026-07-15T07:14:45.322419+00:00",
     "site": "mon-grand-est.fr",
     "crawl_url": "https://mon-grand-est.fr/",
